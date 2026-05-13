@@ -1,0 +1,13 @@
+{
+  "name": "@learn365/tsconfig",
+  "version": "0.0.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "description": "Shared TypeScript config presets for the Learn365 monorepo.",
+  "files": [
+    "base.json",
+    "react-library.json",
+    "nextjs.json",
+    "node.json"
+  ]
+}

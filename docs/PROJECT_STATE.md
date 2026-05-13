@@ -2,9 +2,7 @@
 
 ## Current phase
 
-Phase 0 (planning) is approaching the gate. The implementation plan is approved with adjustments, and the documentation foundation is being written.
-
-**Code has not been written yet.** Phase 0 (repo bootstrap) does not start until the documentation set is reviewed.
+**Phase 0 — repo bootstrap: in progress.** Documentation foundation is in place. Monorepo tooling (pnpm workspaces, Turborepo, base TS config, ESLint flat config, Prettier, CI) has been scaffolded. No application or package code yet — Phase 1 introduces `packages/content`, `packages/core`, and `packages/ui`.
 
 ## Repository identity
 
@@ -79,16 +77,27 @@ Existing docs that remain authoritative:
 - `docs/AGENTS.md` — agent roles and workflow
 - `docs/DESIGN_REVIEW.md` — Cloud Design V1 approval
 
+## Phase 0 — files landed
+
+Root:
+
+- `package.json` (root, private, `packageManager: pnpm@9.15.0`, Node `>=20.10 <21`)
+- `pnpm-workspace.yaml` (`apps/*`, `packages/*`, `tooling/*`)
+- `turbo.json` (tasks: `dev`, `build`, `typecheck`, `lint`, `test`, `validate-content`)
+- `tsconfig.base.json` (TS strict + `noUncheckedIndexedAccess` + `exactOptionalPropertyTypes`, `moduleResolution: Bundler`)
+- `.gitignore`, `.editorconfig`, `.prettierrc`, `.prettierignore`, `.npmrc`, `.nvmrc`
+
+Tooling:
+
+- `tooling/tsconfig/` — `@learn365/tsconfig` with `base.json`, `react-library.json`, `nextjs.json`, `node.json` presets
+- `tooling/eslint-config/` — `@learn365/eslint-config` flat config: `@eslint/js` recommended + `typescript-eslint` strict & stylistic + architecture rule banning imports from `design/cloud-design-v1/`
+
+CI:
+
+- `.github/workflows/ci.yml` — runs on PRs and pushes to `main`; pnpm + Node via `.nvmrc`; `install → lint → typecheck → test → build → validate-content`
+
 ## Next step
 
-1. Review the documentation set above.
-2. On approval, begin **Phase 0 — repo bootstrap**:
-   - `package.json`, `pnpm-workspace.yaml`, `turbo.json`, `tsconfig.base.json`
-   - `.editorconfig`, `.prettierrc`, `.gitignore`
-   - `tooling/eslint-config`, `tooling/tsconfig`
-   - `.github/workflows/ci.yml`
-3. No application code or package scaffolding until Phase 0 lands cleanly.
-
-## Important instruction
-
-Do not start writing production code before this documentation set is reviewed and approved.
+1. Run `pnpm install` locally to generate `pnpm-lock.yaml` and commit it.
+2. Confirm `pnpm lint`, `pnpm typecheck`, `pnpm build` all complete (turbo will report "no tasks" cleanly until Phase 1 adds them).
+3. Begin **Phase 1 — content and core packages** per `docs/IMPLEMENTATION_PLAN.md` §10.

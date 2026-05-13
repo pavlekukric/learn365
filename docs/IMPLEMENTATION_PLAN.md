@@ -229,5 +229,6 @@ CI runs install → lint → typecheck → test → build → validate-content �
 | Phase | Status |
 |---|---|
 | Plan approved | done (with adjustments) |
-| Documentation foundation (this set) | in progress |
-| Phase 0 bootstrap | not started — blocked on doc review |
+| Documentation foundation (this set) | done |
+| Phase 0 bootstrap | done — pending `pnpm install` and lockfile commit |
+| Phase 1 content + core | not started |
