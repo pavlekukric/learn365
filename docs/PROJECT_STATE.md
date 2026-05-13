@@ -274,13 +274,24 @@ Root:
 
 - `.gitignore` — added `lighthouse-*.json` / `lighthouse-*.html` so ad-hoc Lighthouse runs don't leak into commits.
 
+## Phase 6 — deploy plan landed
+
+`docs/DEPLOY.md` is now the canonical deploy procedure. Decisions locked:
+
+- **Host**: Vercel for v1 web. Azure remains the v2 backend target only.
+- **Domain**: Vercel project subdomain for v1; custom domain deferred.
+- **Env vars**: none (no auth, no API, no analytics in v1).
+- **Branch model**: `main` → production, every PR → preview URL.
+
+No `vercel.json` or production config has been added to the repo yet. Vercel project import + first production deploy are blocked on the manual gates below.
+
 ## Next step
 
-Engineering side of Phase 5 is closed. Remaining gates before Phase 6 are content/accessibility audit, not code:
+Manual gates still outstanding before the first production deploy (tracked in `docs/DEPLOY.md` §6):
 
 - VoiceOver / NVDA screen-reader smoke on TopBar nav + breadcrumbs + accordion + completion toggle.
 - Editorial review of the 6 authored seed lessons (`packages/content/src/courses/istorija-srbije-365/lessons/authored/`) for historical voice, accuracy, period coverage.
 
-Once those clear, **Phase 6 — Web release** (deploy). Open product decisions for that phase: hosting target (Vercel default vs. Azure Static Web Apps for tenant alignment with the planned Phase 8 .NET backend), domain registration, and whether to add an error-monitoring SDK (still excluded from v1 scope today, see §V1 exclusions).
+Once both gates clear, create the Vercel project per `docs/DEPLOY.md` §2 and run the first production deploy.
 
-`COMPONENT_LIBRARY.md` still needs the `onClick → href` revision for navigation props called out at the end of Phase 3.
+`COMPONENT_LIBRARY.md` still needs the `onClick → href` revision for navigation props called out at the end of Phase 3 — not a deploy blocker.
