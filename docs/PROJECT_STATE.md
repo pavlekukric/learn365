@@ -2,137 +2,93 @@
 
 ## Current phase
 
-Phase 0 — New project foundation.
+Phase 0 (planning) is approaching the gate. The implementation plan is approved with adjustments, and the documentation foundation is being written.
 
-We are starting a completely new version of History 365 from scratch.
+**Code has not been written yet.** Phase 0 (repo bootstrap) does not start until the documentation set is reviewed.
 
-The previous prototype should be treated only as learning material. It should not constrain the new product.
+## Repository identity
 
-## Current goal
+- Repository / umbrella platform: **Learn365**
+- Product brand for v1 UI: **History 365 / Istorija 365**
+- First course inside the product: **Istorija Srbije 365**
+- Internal architecture uses generic concepts: `Course`, `Era`, `Section`, `Lesson`, `UserProgress`
 
-Create a clean product, UX, and design foundation before writing implementation code.
-
-## Product direction
-
-History 365 is a premium daily learning app for Serbian history.
-
-The first course is:
-
-`Istorija Srbije 365`
-
-The course has:
-
-- 365 lessons
-- one short lesson per day
-- 7–10 minutes reading time per lesson
-- chapters based on historical periods
-- clear progress
-- completed lesson checkmarks
-- premium reading experience
+The Learn365 name does not surface in v1 UI copy, navigation, or routes. The product feels focused on History 365.
 
 ## V1 scope
 
-V1 should include:
+V1 ships:
 
 - Home page
 - Course overview page
 - Lesson reader page
-- Desktop layout
-- Mobile layout
+- Desktop layout (web)
+- Mobile layout (responsive web)
 - Course sidebar
-- Collapsible chapters
-- Completed lesson state
-- Active lesson state
-- Not started lesson state
-- Mark as completed action
+- Collapsible sections
+- Completed / active / not-started lesson states
+- Mark-as-completed action
 - Total progress: `x / 365 completed`
-- Historical timeline
-- Mock/seed content
-- Local progress state
+- Historical timeline (8 eras)
+- Mock/seed content (≥ 6 fully-authored lessons + 359 stubs)
+- Local progress state (`localStorage`)
+- Editorial visual direction only
 
 ## V1 exclusions
 
-Do not implement yet:
+- Payments, subscriptions
+- Authentication / accounts
+- Backend persistence — backend is **planned (`docs/BACKEND_STRATEGY.md`) but not built in v1**. The web v1 ships local-only.
+- Push notifications
+- Streaks
+- Quizzes
+- Admin panel / CMS
+- AI content generation
+- User-facing theme toggle (Modern direction stays as dev-only reference)
+- Native mobile app (Expo) — planned, not implemented in v1
 
-- payment
-- subscriptions
-- login
-- backend persistence
-- push notifications
-- streaks
-- quizzes
-- admin panel
-- AI content generation pipeline
-- CMS
+## Key decisions (locked)
 
-## Design priority
+1. **Repo name stays `Learn365`** (umbrella platform). Product UI brand is History 365.
+2. **Content hierarchy**: `Course → Era → Section → Lesson`. Eras drive the historical timeline; Sections drive sidebar grouping (≈ 30–40 sections, 8–18 lessons each).
+3. **v1 visual direction**: Editorial only. No user-facing toggle.
+4. **Web first**. Mobile (Expo) architecture is planned; implementation is deferred until web v1 is visually approved.
+5. **Content / UI isolation**: TypeScript content modules for v1; MDX migration path documented in `docs/CONTENT_AUTHORING.md`. Lesson content never lives inside React components.
+6. **Tech stack**: pnpm workspaces + Turborepo, Next.js 15 App Router, TypeScript strict, CSS Modules + global token CSS variables, Zustand + persist, Vitest + Playwright.
+7. **Monorepo layout**: `apps/web`, `packages/{ui, ui-web, core, content}`, plus `tooling/` and `docs/`. `apps/mobile` and `packages/ui-mobile` are introduced in the mobile phase, not before. `apps/api` is introduced in the backend phase.
+8. **Backend stack**: .NET 9 Web API (C#) + SQL Server with EF Core. Planned now (`docs/BACKEND_STRATEGY.md`), **built after web v1 is visually approved**. The `ProgressStorage` adapter in `@learn365/core` is the swap seam — no v1 frontend rewrite required when the backend lands.
 
-The app must feel full premium.
+## Documentation foundation
 
-The design must be:
+Created in this commit set:
 
-- polished
-- calm
-- elegant
-- modern
-- historical
-- highly readable
-- simple but not basic
+- `docs/IMPLEMENTATION_PLAN.md` — canonical plan
+- `docs/APP_ARCHITECTURE.md` — monorepo, packages, dependency rules, data flow
+- `docs/DESIGN_SYSTEM.md` — tokens, typography, Editorial theme, OKLCH strategy
+- `docs/COMPONENT_LIBRARY.md` — every shared component, prop contracts, states, a11y
+- `docs/QA_CHECKLIST.md` — phase-end regression checks
+- `docs/CONTENT_AUTHORING.md` — how to add a lesson, MDX migration path
+- `docs/MOBILE_NOTES.md` — planning doc for future Expo app (no code yet)
+- `docs/BACKEND_STRATEGY.md` — planning doc for future .NET 9 Web API + SQL Server (no code yet)
 
-The app must not look like:
+Existing docs that remain authoritative:
 
-- a generic SaaS dashboard
-- a basic blog
-- a cheap course website
-- a childish gamified app
-
-## Key UX priority
-
-The user should always understand:
-
-- where they are
-- what lesson is active
-- what they completed
-- what comes next
-- how far they are in the 365-day journey
+- `docs/PRODUCT_BRIEF.md` — product idea, target user, scope
+- `docs/UX_REQUIREMENTS.md` — IA, screen requirements, mobile patterns
+- `docs/CONTENT_MODEL.md` — entity shapes, tone, lesson structure
+- `docs/AGENTS.md` — agent roles and workflow
+- `docs/DESIGN_REVIEW.md` — Cloud Design V1 approval
 
 ## Next step
 
-Run Cloud Design using:
-
-`docs/CLOUD_DESIGN_PROMPT.md`
-
-Expected Cloud Design output:
-
-- UX strategy
-- information architecture
-- desktop mockups
-- mobile mockups
-- home page concept
-- course overview concept
-- lesson reader concept
-- sidebar states
-- progress component concept
-- historical timeline concept
-- design system direction
-- implementation notes
+1. Review the documentation set above.
+2. On approval, begin **Phase 0 — repo bootstrap**:
+   - `package.json`, `pnpm-workspace.yaml`, `turbo.json`, `tsconfig.base.json`
+   - `.editorconfig`, `.prettierrc`, `.gitignore`
+   - `tooling/eslint-config`, `tooling/tsconfig`
+   - `.github/workflows/ci.yml`
+3. No application code or package scaffolding until Phase 0 lands cleanly.
 
 ## Important instruction
 
-Do not start coding before the design direction is reviewed and approved.
-
-## Current status
-
-Cloud Design V1 has been generated and visually approved.
-
-The design prototype is located in:
-
-`design/cloud-design-v1/`
-
-The implementation should use this prototype as the visual source of truth, but production code should be structured cleanly and not blindly copied from the prototype.
-
-## Next step
-
-Start implementation planning with Cloud Code.
-
-Cloud Code should first inspect the documentation and design prototype, then produce a detailed implementation plan before writing production code.
+Do not start writing production code before this documentation set is reviewed and approved.
