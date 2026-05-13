@@ -233,3 +233,5 @@ CI runs install → lint → typecheck → test → build → validate-content �
 | Phase 0 bootstrap | done — pending `pnpm install` and lockfile commit |
 | Phase 1 content + core | done (Claude-authored seed lessons pending editorial review) |
 | Phase 2 web shell | done — Next.js 15 app, fonts, TopBar, 3 routes, localStorage progress |
+| Phase 3 web components | done — `@learn365/ui-web` with 6 icons, 12 primitives, 7 course surfaces, 7 lesson surfaces, 13 unit tests; `apps/web` consumes the package for TopBar |
+| Phase 4 web screens | done — `/`, `/course/[courseId]`, `/course/[courseId]/lesson/[lessonId]` rewired to compose `@learn365/ui-web` with live progress; lesson page has desktop sticky sidebar + mobile drawer; SSR smoke-verified at HTTP 200 for all three routes |

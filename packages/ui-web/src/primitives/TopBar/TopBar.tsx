@@ -1,5 +1,7 @@
 import Link from 'next/link';
 
+import { Brand } from '../Brand/Brand.js';
+
 import styles from './TopBar.module.css';
 
 export type TopBarRoute = 'home' | 'course' | 'lesson' | 'about';
@@ -31,13 +33,8 @@ export function TopBar({
   return (
     <header className={styles.topbar}>
       <div className={`shell ${styles.inner}`}>
-        <Link href="/" className={styles.brand} aria-label="History 365 — Početna">
-          <span className={styles.brandMark} aria-hidden="true">
-            H
-          </span>
-          <span className={styles.brandName}>
-            History 365 <em>/ Istorija 365</em>
-          </span>
+        <Link href="/" className={styles.brandLink} aria-label="History 365 — Početna">
+          <Brand />
         </Link>
 
         <nav className={styles.nav} aria-label="Glavna navigacija">

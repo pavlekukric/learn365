@@ -1,0 +1,23 @@
+.reader {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-10);
+  max-width: var(--reading-col);
+  margin: 0 auto;
+  padding: var(--space-10) 0 var(--space-15);
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-8);
+  border-top: 1px solid var(--rule);
+  padding-top: var(--space-8);
+}
+
+@media (max-width: 860px) {
+  .reader {
+    gap: var(--space-8);
+    padding-top: var(--space-7);
+  }
+}

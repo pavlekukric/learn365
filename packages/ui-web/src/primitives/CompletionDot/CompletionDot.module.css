@@ -1,0 +1,43 @@
+.dot {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  display: inline-grid;
+  place-items: center;
+  flex-shrink: 0;
+  transition:
+    background var(--dur-base) var(--ease),
+    border-color var(--dur-base) var(--ease),
+    color var(--dur-base) var(--ease);
+}
+
+.state_idle {
+  background: transparent;
+  border: 1px solid var(--rule-2);
+}
+
+.state_active {
+  background: transparent;
+  border: 1.5px solid var(--accent);
+  position: relative;
+}
+
+.state_active::after {
+  content: '';
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--accent);
+}
+
+.state_done {
+  background: var(--completed);
+  border: 1px solid var(--completed);
+  color: var(--bg);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .dot {
+    transition: none;
+  }
+}

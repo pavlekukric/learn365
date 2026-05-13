@@ -1,0 +1,39 @@
+.group {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: var(--space-4) var(--space-4) var(--space-2);
+  border-top: 1px solid var(--rule);
+}
+
+.group:first-child .header {
+  border-top: 0;
+}
+
+.num {
+  color: var(--muted);
+}
+
+.title {
+  font-family: var(--serif);
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--ink);
+  margin: 0;
+}
+
+.years {
+  color: var(--faint);
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+}

@@ -3,7 +3,7 @@
   padding-bottom: var(--space-15);
   display: flex;
   flex-direction: column;
-  gap: var(--space-13);
+  gap: var(--space-12);
 }
 
 .header {
@@ -32,80 +32,12 @@
 .eras {
   display: flex;
   flex-direction: column;
-  gap: var(--space-13);
+  gap: var(--space-8);
 }
 
-.era {
+.erasHeader {
   display: flex;
   flex-direction: column;
-  gap: var(--space-6);
-}
-
-.eraHeader {
-  display: flex;
-  flex-direction: column;
-  gap: var(--space-3);
-  max-width: 760px;
-}
-
-.eraNum {
-  color: var(--muted);
-}
-
-.eraMeta {
-  color: var(--ink-2);
-}
-
-.eraDescription {
-  max-width: var(--reading-col);
-}
-
-.sections {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  border-top: 1px solid var(--rule);
-}
-
-.sectionRow {
-  display: grid;
-  grid-template-columns: 140px 1fr auto;
-  align-items: baseline;
-  gap: var(--space-5);
-  padding: var(--space-4) 0;
-  border-bottom: 1px solid var(--rule);
-}
-
-.sectionDays {
-  color: var(--muted);
-}
-
-.sectionTitle {
-  color: var(--ink);
-}
-
-.sectionCount {
-  color: var(--ink-2);
-}
-
-@media (max-width: 560px) {
-  .sectionRow {
-    grid-template-columns: 1fr auto;
-    row-gap: var(--space-1);
-  }
-  .sectionDays {
-    grid-column: 1 / 2;
-    grid-row: 1 / 2;
-  }
-  .sectionTitle {
-    grid-column: 1 / 2;
-    grid-row: 2 / 3;
-  }
-  .sectionCount {
-    grid-column: 2 / 3;
-    grid-row: 1 / 3;
-    align-self: center;
-  }
+  gap: var(--space-2);
+  max-width: 720px;
 }

@@ -1,0 +1,38 @@
+{
+  "name": "@learn365/ui-web",
+  "version": "0.0.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "description": "Web component library for Learn365 — stateless React + CSS Modules primitives and course/lesson surfaces.",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./icons": "./src/icons/index.ts",
+    "./primitives": "./src/primitives/index.ts",
+    "./course": "./src/course/index.ts",
+    "./lesson": "./src/lesson/index.ts"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run --passWithNoTests"
+  },
+  "peerDependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "dependencies": {
+    "@learn365/content": "workspace:*",
+    "@learn365/ui": "workspace:*",
+    "next": "^15.1.3"
+  },
+  "devDependencies": {
+    "@learn365/eslint-config": "workspace:*",
+    "@learn365/tsconfig": "workspace:*",
+    "@types/react": "^19.0.2",
+    "@types/react-dom": "^19.0.2",
+    "eslint": "^9.17.0",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  }
+}

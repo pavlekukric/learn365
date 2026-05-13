@@ -2,7 +2,11 @@ import type { LessonBlock } from '@learn365/content';
 
 import styles from './LessonBody.module.css';
 
-export function LessonBody({ blocks }: { blocks: readonly LessonBlock[] }) {
+interface LessonBodyProps {
+  blocks: readonly LessonBlock[];
+}
+
+export function LessonBody({ blocks }: LessonBodyProps) {
   return (
     <div className={styles.body}>
       {blocks.map((block, idx) => (

@@ -29,6 +29,9 @@ importers:
       '@learn365/ui':
         specifier: workspace:*
         version: link:../../packages/ui
+      '@learn365/ui-web':
+        specifier: workspace:*
+        version: link:../../packages/ui-web
       next:
         specifier: ^15.1.3
         version: 15.5.18(react-dom@19.2.6(react@19.2.6))(react@19.2.6)
@@ -133,6 +136,46 @@ importers:
       tsx:
         specifier: ^4.19.2
         version: 4.21.0
+      typescript:
+        specifier: ^5.7.2
+        version: 5.9.3
+      vitest:
+        specifier: ^2.1.8
+        version: 2.1.9(@types/node@20.19.41)
+
+  packages/ui-web:
+    dependencies:
+      '@learn365/content':
+        specifier: workspace:*
+        version: link:../content
+      '@learn365/ui':
+        specifier: workspace:*
+        version: link:../ui
+      next:
+        specifier: ^15.1.3
+        version: 15.5.18(react-dom@19.2.6(react@19.2.6))(react@19.2.6)
+      react:
+        specifier: ^19.0.0
+        version: 19.2.6
+      react-dom:
+        specifier: ^19.0.0
+        version: 19.2.6(react@19.2.6)
+    devDependencies:
+      '@learn365/eslint-config':
+        specifier: workspace:*
+        version: link:../../tooling/eslint-config
+      '@learn365/tsconfig':
+        specifier: workspace:*
+        version: link:../../tooling/tsconfig
+      '@types/react':
+        specifier: ^19.0.2
+        version: 19.2.14
+      '@types/react-dom':
+        specifier: ^19.0.2
+        version: 19.2.3(@types/react@19.2.14)
+      eslint:
+        specifier: ^9.17.0
+        version: 9.39.4
       typescript:
         specifier: ^5.7.2
         version: 5.9.3

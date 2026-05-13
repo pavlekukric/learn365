@@ -1,0 +1,77 @@
+.row {
+  display: grid;
+  grid-template-columns: auto auto 1fr auto;
+  align-items: center;
+  gap: var(--space-3);
+  padding: 8px var(--space-4) 8px calc(var(--space-4) + 4px);
+  border-radius: var(--r-sm);
+  text-decoration: none;
+  color: var(--ink-2);
+  position: relative;
+  transition:
+    background var(--dur-base) var(--ease),
+    color var(--dur-base) var(--ease);
+}
+
+.row:hover {
+  background: var(--surface-2);
+  color: var(--ink);
+}
+
+.row:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.day {
+  font-variant-numeric: tabular-nums;
+  color: var(--muted);
+}
+
+.title {
+  font-family: var(--serif);
+  font-size: 14px;
+  line-height: 1.4;
+  color: inherit;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.meta {
+  color: var(--faint);
+  font-variant-numeric: tabular-nums;
+}
+
+.state_idle {
+  /* baseline styling */
+}
+
+.state_active {
+  background: var(--accent-soft);
+  color: var(--ink);
+}
+
+.state_active::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 6px;
+  bottom: 6px;
+  width: 2px;
+  background: var(--accent);
+  border-radius: var(--r-pill);
+}
+
+.state_active .title {
+  font-weight: 500;
+}
+
+.state_completed .day {
+  color: var(--completed);
+}
+
+.state_completed .title {
+  color: var(--muted);
+}

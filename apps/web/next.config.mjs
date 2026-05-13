@@ -1,7 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  transpilePackages: ['@learn365/ui', '@learn365/core', '@learn365/content'],
+  transpilePackages: [
+    '@learn365/ui',
+    '@learn365/ui-web',
+    '@learn365/core',
+    '@learn365/content',
+  ],
   typedRoutes: true,
   webpack(config) {
     // Workspace packages author imports with explicit ".js" extensions

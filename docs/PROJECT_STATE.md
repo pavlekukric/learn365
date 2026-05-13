@@ -2,7 +2,7 @@
 
 ## Current phase
 
-**Phase 2 — Web shell: done.** `apps/web` is scaffolded as a Next.js 15 App Router project. Fonts (Spectral, Inter, JetBrains Mono) are wired via `next/font` and bound to the `--serif` / `--sans` / `--mono` tokens emitted by `@learn365/ui`. The `TopBar` ships sticky, translucent, with live progress (`xxx / 365`) read from the Zustand store via a React provider over the `localStorage`-backed adapter. All three routes (`/`, `/course/[courseId]`, `/course/[courseId]/lesson/[lessonId]`) render real content from `@learn365/content` and the lesson reader toggles completion. Workspace `typecheck`, `lint`, `test`, and `build` all pass. Next up: **Phase 3 — Web components** — extract reusable primitives + surfaces into `packages/ui-web` (Sidebar, EraTimeline, ProgressRing, etc.).
+**Phase 4 — Web screens: done.** All three routes now compose `@learn365/ui-web` surfaces with the local Zustand progress store wired in. Home renders `Hero` + a server-rendered `Eyebrow` + a `HomeCurrentLessonCard` client island (picks `lastOpenedLessonId` or falls back to Day 001) + a `HomeErasList` client island (per-era `CourseCard` rows with live `progressForLessons` counts, `isCurrent`/`isAllDone` flags). Course overview renders the same hero pattern + a `CourseOverviewProgress` client island (`CourseProgress` ring + current/next "Aktuelno/Sledeće" rows) + a `CourseOverviewEras` island (per-era `CourseCard` followed by a description + section rows). Lesson reader was rewritten end-to-end: a single `LessonPageClient` client component owns `openSectionIds` + `drawerOpen` state, renders the desktop two-column layout (sticky `CourseSidebar` + flex `LessonReader`) and the mobile fallback (sticky outline-button bar + drawer with the same `CourseSidebar`). The `MobileLessonDrawer` ships `role="dialog" aria-modal`, body scroll lock, ESC, Tab/Shift+Tab trap, focus restore on close. Workspace `typecheck`, `lint`, `test`, and `build` are all green; the production server SSRs `/`, `/course/istorija-srbije-365`, and `/course/istorija-srbije-365/lesson/praistorija-i-antika-001` at HTTP 200 with the expected `DAN 001`, `Označi…`, `Vremenska osa epoha`, `Sadržaj kursa` strings present. Next up: **Phase 5 — Web polish + QA** — keyboard nav, focus states, ARIA sweep, reduced-motion check, Playwright E2E + visual snapshots, Lighthouse pass.
 
 ## Repository identity
 
@@ -151,16 +151,88 @@ Validator passes: 365 lessons, 28 sections, 8 eras all check out.
 - `app/course/[courseId]/lesson/[lessonId]/LessonReader.tsx` — Reader client island: subscribes to progress, toggles completion, marks-opened on mount, renders prev/next.
 - `app/course/[courseId]/lesson/[lessonId]/LessonBody.tsx` — `LessonBlock[] → React` renderer (paragraph/dropcap, heading 2/3, blockquote, figure placeholder).
 - `app/not-found.tsx` — minimal 404.
-- `components/top-bar/TopBar.tsx` + `.module.css` — stateless presentational TopBar (brand, nav, progress chip, mobile collapse).
-- `components/top-bar/TopBarHost.tsx` — `'use client'` host: derives route from `usePathname()`, reads `completedCount` from the store.
+- `components/top-bar/TopBarHost.tsx` — `'use client'` host: derives route from `usePathname()`, reads `completedCount` from the store, and now renders `<TopBar>` imported from `@learn365/ui-web` (the local `TopBar.tsx` + module CSS were removed in Phase 3).
 - `lib/fonts/fonts.ts` — `next/font/google` setup for Spectral / Inter / JetBrains Mono with CSS variables.
 - `lib/progress/localStorageAdapter.ts` — `ProgressStorage` implementation guarded for SSR.
 - `lib/progress/ProgressStoreProvider.tsx` — `'use client'` Provider: instantiates the vanilla Zustand store once via `useRef`, exposes it through React context, and a `useProgressStore(selector)` hook.
 
 The store wiring is the swap seam called out in `docs/APP_ARCHITECTURE.md` §6: replacing the adapter with `RemoteProgressStorage` in the backend phase (Phase 8d) will not require any component changes.
 
+## Phase 3 — files landed
+
+`@learn365/ui-web` ([packages/ui-web/](packages/ui-web/)) — stateless React + CSS Modules component library:
+
+- `package.json` — `@learn365/ui-web`, peer-deps on `react ^19` / `react-dom ^19`, depends on `next ^15.1.3` (uses `next/link` in nav surfaces), `@learn365/content`, `@learn365/ui`. Exports `.` / `./icons` / `./primitives` / `./course` / `./lesson`.
+- `tsconfig.json` — extends `@learn365/tsconfig/react-library.json` with `noEmit: true`. `src/css-modules.d.ts` shims `*.module.css` for `tsc`.
+- `eslint.config.mjs` — wraps shared flat config and turns on the JSX parser for `**/*.{ts,tsx}`.
+- `vitest.config.ts` — `node` env, includes `src/**/*.test.{ts,tsx}`.
+
+Component inventory (each is a folder with `Component.tsx`, `Component.module.css`, `index.ts`):
+
+- `src/icons/` — `IconCheck`, `IconChev`, `IconArrow`, `IconArrowLeft`, `IconMenu`, `IconClose` (all `currentColor`, no fill).
+- `src/primitives/` — `Brand`, `TopBar` (Editorial sticky header lifted from `apps/web`), `Breadcrumbs`, `Button` (primary/accent/ghost × sm/md/lg with hover-translate trailing icon), `Card` (`as: 'div' | 'button'`), `Chip` (default/accent), `CompletionDot` (idle/active/done), `Eyebrow`, `Flourish` (✦ divider; hidden under `[data-direction="B"]`), `Placeholder` (dot-grid + label chip), `ProgressBar` (thin/regular/thick + ARIA), `ProgressRing` (SVG circle math + ARIA).
+- `src/course/` — `LessonNavItem` (next/link row with active left-bar + completion dot), `SectionAccordion` (button header with `aria-expanded` + `aria-controls`, lessons list with `useId` for panel id), `EraGroup`, `CourseSidebar` (course header + progress bar + Era→Section→Lesson tree, optional `onClose` renders mobile close handle), `CourseCard` (4-col grid era row, hover-shifted arrow, green check when done), `CourseProgress` (ring + "Aktuelno" / "Sledeće" rows), `CurrentLessonCard` (floating elev card for the Home hero).
+- `src/lesson/` — `LessonBody` (lifted `LessonBlock[]` renderer), `LessonHeader` (eyebrow + reader-title + lede + `Flourish`), `MarkAsCompletedButton` (accent/ghost variants, `aria-pressed`), `PreviousNextLessonNavigation` (2-col grid with disabled-edge states), `HistoricalTimeline` (8 era bands, animated marker positioned by `markerPositionPercent(eras, eraId, year)`, optional `eraHref` for jump-to-era), `MobileLessonDrawer` (`role="dialog" aria-modal`, body scroll lock, ESC closes, Tab/Shift+Tab focus trap, focus restore on close), `LessonReader` (page-level composition: breadcrumbs + timeline + header + body + completion + prev/next).
+- `src/_internal/progressMath.ts` — `clamp01`, `toPercentInt` shared by ProgressBar/Ring/CourseProgress.
+
+Test coverage (Vitest, 13 tests across 2 files):
+
+- `src/_internal/progressMath.test.ts` — clamp + percent rounding edge cases (NaN, Infinity, negative, > 1).
+- `src/lesson/HistoricalTimeline/timelineMath.test.ts` — marker position math, including zero-width era, out-of-range year clamping, and unknown era fallback.
+
+Component prop contracts intentionally deviate from `docs/COMPONENT_LIBRARY.md` in one consistent way: **navigation actions accept `href: string` (anchor-rendered via `next/link`) instead of `onClick: () => void` callbacks**. This preserves middle-click / right-click / new-tab semantics that the Editorial direction needs. State actions (toggle complete, open accordion, close drawer) remain callbacks. `COMPONENT_LIBRARY.md` should be revised in Phase 4 or 5 to match.
+
+`apps/web` integration in Phase 3:
+
+- `apps/web/package.json` — added `@learn365/ui-web: workspace:*`.
+- `apps/web/next.config.mjs` — added `@learn365/ui-web` to `transpilePackages`.
+- `apps/web/components/top-bar/TopBarHost.tsx` — imports `TopBar` / `TopBarRoute` from `@learn365/ui-web` (was `./TopBar`). The local `TopBar.tsx` + `.module.css` were deleted.
+
+No screen rewiring yet — Phase 4 will compose the remaining surfaces into `/`, `/course/[courseId]`, and `/course/[courseId]/lesson/[lessonId]`.
+
+## Phase 4 — files landed
+
+`apps/web` ([apps/web/](apps/web/)) — all three screens now compose `@learn365/ui-web`. Server pages stay thin: they load content + delegate to small client islands that subscribe to the progress store.
+
+Home (`/`):
+
+- `app/page.tsx` — server component: hero (eyebrow + display title + lede + description + CTA) + `<HomeCurrentLessonCard>` + `<HomeErasList>`.
+- `app/_components/HomeCurrentLessonCard.tsx` — `'use client'`: reads `lastOpenedLessonId` + `isCompleted` from the store; falls back to lesson 1 when no lesson has been opened. Renders `CurrentLessonCard` from ui-web with `state ∈ {idle, active, done}`.
+- `app/_components/HomeErasList.tsx` — `'use client'`: walks `getEras` + `getLessonsByEra`, computes `progressForLessons` per era, derives `isCurrent` (era contains `lastOpenedLessonId` and is not all done) + `isAllDone`. Renders one `CourseCard` per era linking to that era's first lesson.
+
+Course overview (`/course/[courseId]`):
+
+- `app/course/[courseId]/page.tsx` — server component: header (eyebrow + h1 + lede + "Počni od Dana 001 →" link) + `<CourseOverviewProgress>` + `<CourseOverviewEras>`.
+- `app/course/[courseId]/_components/CourseOverviewProgress.tsx` — `'use client'`: `CourseProgress` ring with completed count + "Aktuelno" current (last-opened, defaults to lesson 1) + "Sledeće" next uncompleted lesson.
+- `app/course/[courseId]/_components/CourseOverviewEras.tsx` — `'use client'`: per-era block — `CourseCard` (live progress) + era description + section rows (`D001–D012`, title, count). Same `isCurrent`/`isAllDone` rules as Home.
+
+Lesson reader (`/course/[courseId]/lesson/[lessonId]`):
+
+- `app/course/[courseId]/lesson/[lessonId]/page.tsx` — server component: looks up course, lesson, era, section, prev/next. `notFound()` when any of those are missing. Delegates to `<LessonPageClient>` with serializable props.
+- `app/course/[courseId]/lesson/[lessonId]/LessonPageClient.tsx` — `'use client'`: owns `openSectionIds` (initialised to the current lesson's section, auto-expands on navigation) + `drawerOpen` state, calls `markOpened` on mount, derives a `lessonHref(lesson)` builder for the sidebar/timeline, and an `eraHref(eraId)` builder for the timeline's jump-to-era. Renders the two-column layout (sticky `CourseSidebar` + flex reader) on desktop and a mobile fallback (sticky outline-button bar + `LessonReader`); the mobile drawer hosts the same `CourseSidebar` with `onClose`.
+- `app/course/[courseId]/lesson/[lessonId]/LessonPageClient.module.css` — grid layout with `sidebar-width / 1fr` at desktop, single-column + visible mobile bar at `max-width: 1024px`. Sidebar column is `position: sticky` under the top bar.
+
+Removed in Phase 4 (replaced by `@learn365/ui-web`):
+
+- `app/course/[courseId]/lesson/[lessonId]/LessonReader.tsx`
+- `app/course/[courseId]/lesson/[lessonId]/LessonReader.module.css`
+- `app/course/[courseId]/lesson/[lessonId]/LessonBody.tsx`
+- `app/course/[courseId]/lesson/[lessonId]/LessonBody.module.css`
+
+`apps/web` did **not** add a TopBar hamburger. The mobile course-outline trigger lives in the lesson page itself (a sticky "Sadržaj" pill above the reader, visible at `≤ 1024 px`). TopBar still collapses gracefully (hides "O aplikaciji" at `≤ 720 px`, tightens nav gaps at `≤ 560 px`).
+
+One ui-web prop tweak landed in Phase 4 to satisfy `exactOptionalPropertyTypes`: `BreadcrumbItem.onClick` is now typed as `MouseEventHandler<HTMLButtonElement> | undefined` so callers can pass `{ label, onClick: undefined }` cleanly.
+
+Smoke verification (production build + `next start`):
+
+- `GET /` → 200, hero + era list render.
+- `GET /course/istorija-srbije-365` → 200, course overview renders with eight era cards.
+- `GET /course/istorija-srbije-365/lesson/praistorija-i-antika-001` → 200, contains `DAN 001`, `Označi kao završeno`, `Vremenska osa epoha`, and `Sadržaj kursa` in the SSR HTML.
+
 ## Next step
 
-Begin **Phase 3 — Web components** per `docs/IMPLEMENTATION_PLAN.md` §10. Phase 3 lifts the local TopBar (and adds Sidebar, EraTimeline, ProgressRing, LessonNavItem, MobileLessonDrawer, etc.) into `packages/ui-web`. Phase 4 then composes the full screens against those components.
+Begin **Phase 5 — Web polish + QA** per `docs/IMPLEMENTATION_PLAN.md` §10: keyboard navigation pass, focus-visible audit, ARIA review across all surfaces, reduced-motion check, Playwright E2E + visual snapshots, Lighthouse pass. A `COMPONENT_LIBRARY.md` revision to switch navigation props from `onClick` → `href` should land here too.
+
+Manual visual review of the three screens in a real browser is still pending — the build + SSR smoke test confirms compilation and rendering, but not actual visual polish.
 
 The 6 authored seed lessons are Claude-drafted and need editorial review for historical voice and accuracy before any user-facing release.

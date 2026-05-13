@@ -1,0 +1,32 @@
+.ring {
+  position: relative;
+  display: inline-block;
+}
+
+.svg {
+  display: block;
+}
+
+.track {
+  stroke: var(--rule);
+}
+
+.fill {
+  stroke: var(--accent);
+  stroke-linecap: round;
+  transition: stroke-dashoffset var(--dur-medium) var(--ease);
+}
+
+.center {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fill {
+    transition: none;
+  }
+}

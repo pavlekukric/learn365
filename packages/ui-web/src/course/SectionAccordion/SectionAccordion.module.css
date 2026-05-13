@@ -1,0 +1,89 @@
+.section {
+  border-bottom: 1px solid var(--rule);
+}
+
+.section:last-child {
+  border-bottom: 0;
+}
+
+.header {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: var(--space-3);
+  padding: var(--space-3) var(--space-4);
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  text-align: left;
+  color: var(--ink);
+  transition: background var(--dur-base) var(--ease);
+  border-radius: var(--r-sm);
+}
+
+.header:hover {
+  background: var(--surface-2);
+}
+
+.header:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.chev {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  transform: rotate(-90deg);
+  transition: transform var(--dur-base) var(--ease);
+  color: var(--muted);
+}
+
+.chevOpen {
+  transform: rotate(0deg);
+}
+
+.titleBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+
+.title {
+  font-family: var(--serif);
+  font-size: 15px;
+  line-height: 1.3;
+  color: var(--ink);
+}
+
+.containsCurrent .title {
+  color: var(--accent-ink);
+}
+
+.range {
+  color: var(--muted);
+}
+
+.counter {
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
+
+.lessons {
+  list-style: none;
+  margin: 0;
+  padding: 0 0 var(--space-3) var(--space-4);
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .chev {
+    transition: none;
+  }
+}

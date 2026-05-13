@@ -3,10 +3,9 @@
 import { usePathname } from 'next/navigation';
 
 import { completedCount } from '@learn365/core';
+import { TopBar, type TopBarRoute } from '@learn365/ui-web';
 
 import { useProgressStore } from '@/lib/progress/ProgressStoreProvider';
-
-import { TopBar, type TopBarRoute } from './TopBar';
 
 interface TopBarHostProps {
   courseId: string;

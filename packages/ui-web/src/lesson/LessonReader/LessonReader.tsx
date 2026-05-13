@@ -1,0 +1,62 @@
+import type { Era, EraId, Lesson, Section } from '@learn365/content';
+
+import { Breadcrumbs, type BreadcrumbItem } from '../../primitives/Breadcrumbs/Breadcrumbs.js';
+import { HistoricalTimeline } from '../HistoricalTimeline/HistoricalTimeline.js';
+import { LessonBody } from '../LessonBody/LessonBody.js';
+import { LessonHeader } from '../LessonHeader/LessonHeader.js';
+import { MarkAsCompletedButton } from '../MarkAsCompletedButton/MarkAsCompletedButton.js';
+import { PreviousNextLessonNavigation } from '../PreviousNextLessonNavigation/PreviousNextLessonNavigation.js';
+
+import styles from './LessonReader.module.css';
+
+interface AdjacentLessonLink {
+  title: string;
+  dayNumber: number;
+  href: string;
+}
+
+interface LessonReaderProps {
+  lesson: Lesson;
+  era: Era;
+  section: Section;
+  eras: readonly Era[];
+  breadcrumbs: readonly BreadcrumbItem[];
+  isCompleted: boolean;
+  onToggleComplete: () => void;
+  prev: AdjacentLessonLink | null;
+  next: AdjacentLessonLink | null;
+  /** Optional href builder for the timeline era bands. */
+  eraHref?: (eraId: EraId) => string;
+}
+
+export function LessonReader({
+  lesson,
+  era,
+  section,
+  eras,
+  breadcrumbs,
+  isCompleted,
+  onToggleComplete,
+  prev,
+  next,
+  eraHref,
+}: LessonReaderProps) {
+  void section; // section data is reflected in breadcrumbs; reserved for future use.
+
+  return (
+    <article className={styles.reader}>
+      <Breadcrumbs items={breadcrumbs} />
+      <HistoricalTimeline
+        eras={eras}
+        currentLesson={{ eraId: era.id, year: lesson.year }}
+        eraHref={eraHref}
+      />
+      <LessonHeader lesson={lesson} era={era} />
+      <LessonBody blocks={lesson.content} />
+      <footer className={styles.footer}>
+        <MarkAsCompletedButton isCompleted={isCompleted} onClick={onToggleComplete} />
+        <PreviousNextLessonNavigation prev={prev} next={next} />
+      </footer>
+    </article>
+  );
+}

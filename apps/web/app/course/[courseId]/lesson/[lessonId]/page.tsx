@@ -9,7 +9,7 @@ import {
   getSectionForLesson,
 } from '@learn365/content';
 
-import { LessonReader } from './LessonReader';
+import { LessonPageClient } from './LessonPageClient';
 
 interface PageProps {
   params: Promise<{ courseId: string; lessonId: string }>;
@@ -26,12 +26,15 @@ export default async function LessonPage({ params }: PageProps) {
   const prev = getPrevLesson(courseId, lesson.id);
   const next = getNextLesson(courseId, lesson.id);
 
+  if (!era || !section) notFound();
+
   return (
-    <LessonReader
+    <LessonPageClient
       courseId={course.id}
+      courseTitle={course.title}
       lesson={lesson}
-      eraTitle={era?.title ?? null}
-      sectionTitle={section?.title ?? null}
+      era={era}
+      section={section}
       prev={prev ? { id: prev.id, title: prev.title, dayNumber: prev.dayNumber } : null}
       next={next ? { id: next.id, title: next.title, dayNumber: next.dayNumber } : null}
     />
