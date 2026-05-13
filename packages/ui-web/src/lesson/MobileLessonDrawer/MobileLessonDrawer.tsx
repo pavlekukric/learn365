@@ -35,7 +35,11 @@ export function MobileLessonDrawer({
       typeof document !== 'undefined' ? (document.activeElement as HTMLElement | null) : null;
 
     const panel = panelRef.current;
-    const firstFocusable = panel?.querySelector<HTMLElement>(FOCUSABLE_SELECTOR);
+    // Land focus on the close button so screen readers announce the dialog
+    // exit affordance first; the focus trap below cycles through the rest.
+    const closeButton = panel?.querySelector<HTMLElement>(`button[data-drawer-close]`);
+    const firstFocusable =
+      closeButton ?? panel?.querySelector<HTMLElement>(FOCUSABLE_SELECTOR);
     firstFocusable?.focus();
 
     const prevOverflow = document.body.style.overflow;
@@ -81,11 +85,10 @@ export function MobileLessonDrawer({
 
   return (
     <div className={styles.root}>
-      <button
-        type="button"
+      <div
         className={styles.backdrop}
         onClick={onClose}
-        aria-label="Zatvori sadržaj"
+        aria-hidden="true"
       />
       <div
         ref={panelRef}
@@ -96,6 +99,7 @@ export function MobileLessonDrawer({
       >
         <button
           type="button"
+          data-drawer-close
           className={styles.closeButton}
           onClick={onClose}
           aria-label="Zatvori"

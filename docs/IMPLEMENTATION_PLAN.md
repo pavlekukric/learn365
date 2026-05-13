@@ -221,6 +221,7 @@ CI runs install → lint → typecheck → test → build → validate-content �
 - Sidebar performance with 365 rows — only the expanded section renders its lessons; virtualize only if profiling demands.
 - *(Phase 8)* Identity / auth scope creep — defaults locked to password + email verification; OAuth deferred to a later sub-phase.
 - *(Phase 8)* Local-to-cloud progress reconciliation on first sign-in — completion is monotonic (union is safe), but stale local payloads must be size-capped server-side.
+- *(Phase 5 / accepted)* Lighthouse mobile performance is 82–85 on `next start` (slow-4G + 4× CPU sim), below the ≥90 QA-checklist target. Root cause: 3 Google fonts (Spectral + Inter + JetBrains Mono) all preloaded; LCP gated on Spectral serif. Editorial typography is core to brand, so we accept the gap for v1. Mitigation if real-user metrics regress: self-host fonts + inline critical CSS, or system-fonts-first with progressive enhancement.
 
 ---
 
@@ -235,3 +236,4 @@ CI runs install → lint → typecheck → test → build → validate-content �
 | Phase 2 web shell | done — Next.js 15 app, fonts, TopBar, 3 routes, localStorage progress |
 | Phase 3 web components | done — `@learn365/ui-web` with 6 icons, 12 primitives, 7 course surfaces, 7 lesson surfaces, 13 unit tests; `apps/web` consumes the package for TopBar |
 | Phase 4 web screens | done — `/`, `/course/[courseId]`, `/course/[courseId]/lesson/[lessonId]` rewired to compose `@learn365/ui-web` with live progress; lesson page has desktop sticky sidebar + mobile drawer; SSR smoke-verified at HTTP 200 for all three routes |
+| Phase 5 web polish + QA | done — skip link + `<main id="main-content">` landmark; focus-visible audit; drawer backdrop hardened (aria-hidden div + initial focus on close button); Playwright across 5 browser profiles (chromium/firefox/webkit desktop + chromium/webkit mobile), 6 tests × 5 = 28 pass / 2 documented WebKit skips; reduced-motion E2E assertion; Lighthouse desktop 99–100 on every category; mobile A11y/BP/SEO all 100, mobile performance 82–85 (gap to ≥90 accepted as a v1 risk, see §13). Lighthouse-driven fixes: contrast on active LessonNavItem row, WCAG Label-in-Name on Brand + Timeline links, favicon icon added, unused Inter 600 weight removed. Manual gates outstanding: VoiceOver/NVDA screen-reader smoke, editorial review of 6 seed lessons. |

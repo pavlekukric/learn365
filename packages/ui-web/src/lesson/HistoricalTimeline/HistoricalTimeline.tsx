@@ -53,7 +53,6 @@ export function HistoricalTimeline({
                 <Link
                   href={eraHref(era.id)}
                   className={cls}
-                  aria-label={`Otvori epohu ${era.num}: ${era.title}`}
                   aria-current={isCurrent ? 'true' : undefined}
                 >
                   {content}

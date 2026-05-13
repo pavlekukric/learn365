@@ -68,6 +68,13 @@
   font-weight: 500;
 }
 
+/* On the accent-soft active background, var(--muted) and var(--faint) drop
+ * below WCAG 4.5:1 — promote them to the darker --ink-2 ramp. */
+.state_active .day,
+.state_active .meta {
+  color: var(--ink-2);
+}
+
 .state_completed .day {
   color: var(--completed);
 }

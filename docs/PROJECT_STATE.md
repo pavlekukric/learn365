@@ -2,7 +2,22 @@
 
 ## Current phase
 
-**Phase 4 — Web screens: done.** All three routes now compose `@learn365/ui-web` surfaces with the local Zustand progress store wired in. Home renders `Hero` + a server-rendered `Eyebrow` + a `HomeCurrentLessonCard` client island (picks `lastOpenedLessonId` or falls back to Day 001) + a `HomeErasList` client island (per-era `CourseCard` rows with live `progressForLessons` counts, `isCurrent`/`isAllDone` flags). Course overview renders the same hero pattern + a `CourseOverviewProgress` client island (`CourseProgress` ring + current/next "Aktuelno/Sledeće" rows) + a `CourseOverviewEras` island (per-era `CourseCard` followed by a description + section rows). Lesson reader was rewritten end-to-end: a single `LessonPageClient` client component owns `openSectionIds` + `drawerOpen` state, renders the desktop two-column layout (sticky `CourseSidebar` + flex `LessonReader`) and the mobile fallback (sticky outline-button bar + drawer with the same `CourseSidebar`). The `MobileLessonDrawer` ships `role="dialog" aria-modal`, body scroll lock, ESC, Tab/Shift+Tab trap, focus restore on close. Workspace `typecheck`, `lint`, `test`, and `build` are all green; the production server SSRs `/`, `/course/istorija-srbije-365`, and `/course/istorija-srbije-365/lesson/praistorija-i-antika-001` at HTTP 200 with the expected `DAN 001`, `Označi…`, `Vremenska osa epoha`, `Sadržaj kursa` strings present. Next up: **Phase 5 — Web polish + QA** — keyboard nav, focus states, ARIA sweep, reduced-motion check, Playwright E2E + visual snapshots, Lighthouse pass.
+**Phase 5 — Web polish + QA: done.** All engineering gates closed; cross-browser visual review passed manually on Chrome / Firefox / Safari on Windows. Skip link (`Preskoči na sadržaj`) is the first tab stop and targets `<main id="main-content" tabIndex={-1}>`; Home hero CTA + course-overview start link have explicit `:focus-visible` accent rings; `MobileLessonDrawer` backdrop demoted to an `aria-hidden` `<div>` (no longer in the Tab cycle) and initial focus routed to the close button. Playwright suite is wired with **6 tests × 5 browser profiles (chromium-desktop, firefox-desktop, webkit-desktop, chromium-mobile, webkit-mobile) = 30 runs, 28 pass / 2 skipped** (the 2 skips are documented WebKit Tab-skips-anchors quirk on the skip-link assertion only). The suite covers: hero/CTA visible, 8 era cards on overview, mark-completed toggles label, completion persists across reload, skip-link tab-to-Enter path, and a `prefers-reduced-motion` assertion that confirms the timeline marker's transition collapses to <1ms when the OS preference is set. Lighthouse scores against `next start` (lighthouse@12 desktop preset + default mobile preset):
+
+| Route | Perf | A11y | BP | SEO |
+|---|---|---|---|---|
+| home-desktop | 100 | 100 | 100 | 100 |
+| course-desktop | 100 | 100 | 100 | 100 |
+| lesson-desktop | 99 | 100 | 100 | 100 |
+| home-mobile | 85 | 100 | 100 | 100 |
+| course-mobile | 82 | 100 | 100 | 100 |
+| lesson-mobile | 83 | 100 | 100 | 100 |
+
+Desktop hits the ≥95 QA target on every category for every route. Mobile A11y / Best Practices / SEO all 100. **Mobile performance 82–85, accepted for v1 (below the ≥90 QA target).** Root cause is the three Google fonts (Spectral + Inter + JetBrains Mono) all loading on the simulated slow-4G + 4× CPU profile — LCP is gated on Spectral serif. Closing the 5–8 point gap would require an architecture change (drop a font family, self-host + inline critical CSS, or system-fonts-first with progressive enhancement) that conflicts with the Editorial typography direction. Risk recorded in `docs/IMPLEMENTATION_PLAN.md` §13 and revisited only if real-user metrics indicate a regression vs. expectation.
+
+Fixes landed during Phase 5 from Lighthouse findings: (a) WCAG-fail contrast on the active `LessonNavItem` row — `.day` and `.meta` ramps promoted from `--muted`/`--faint` to `--ink-2` on `--accent-soft` background; (b) WCAG 2.5.3 "Label in Name" violations on the Brand link (`aria-label="History 365 — Početna"` removed; inner text "History 365 / Istorija 365" is now the accessible name) and on `HistoricalTimeline` band links (`aria-label="Otvori epohu …"` prefix removed); (c) `/favicon.ico` 404 silenced by adding `apps/web/app/icon.svg` (Editorial green tile with serif "H"); (d) `Inter` weight `600` dropped from `apps/web/lib/fonts/fonts.ts` (it was requested but never used in CSS).
+
+Manual gates still outstanding before Phase 6 release: VoiceOver / NVDA screen-reader smoke on TopBar nav + breadcrumbs + accordion + completion button; editorial review of the 6 authored seed lessons for historical voice and accuracy.
 
 ## Repository identity
 
@@ -229,10 +244,43 @@ Smoke verification (production build + `next start`):
 - `GET /course/istorija-srbije-365` → 200, course overview renders with eight era cards.
 - `GET /course/istorija-srbije-365/lesson/praistorija-i-antika-001` → 200, contains `DAN 001`, `Označi kao završeno`, `Vremenska osa epoha`, and `Sadržaj kursa` in the SSR HTML.
 
+## Phase 5 — files landed
+
+`apps/web` ([apps/web/](apps/web/)):
+
+- `app/layout.tsx` — skip link inserted before `TopBarHost`; `<main id="main-content" tabIndex={-1}>` is the link target.
+- `app/globals.css` — `.skip-link` utility (translated off-screen until `:focus-visible`), plus a `main:focus { outline: none }` rule so programmatic skip-link focus doesn't paint an outline.
+- `app/page.module.css` — `:focus-visible` accent ring on `.ctaPrimary`.
+- `app/course/[courseId]/page.module.css` — `:focus-visible` accent ring on `.startLink`.
+- `app/icon.svg` — minimal Editorial favicon (accent-green tile + serif "H"); silences the prior `/favicon.ico` 404 console error.
+- `lib/fonts/fonts.ts` — `Inter` weight `600` removed (was requested but never used).
+- `playwright.config.ts` — `next start --port 3100` web server; 5 projects: `chromium-desktop`, `firefox-desktop`, `webkit-desktop`, `chromium-mobile` (Pixel 7), `webkit-mobile` (iPhone 14); list reporter.
+- `e2e/smoke.spec.ts` — 6 tests × 5 browser profiles. Cases: hero/CTA visible, 8 era cards on overview, mark-completed toggles label, completion persists across reload, skip-link tab-to-Enter path (skipped on WebKit — documented quirk where Safari's Tab navigation does not focus anchors by default), reduced-motion collapses timeline-marker transition to <1ms.
+- `vitest.config.ts` — scopes Vitest to colocated `app|components|lib` tests; excludes `e2e/`.
+- `tsconfig.json` — adds `e2e` + `playwright.config.ts` to `exclude` so they don't enter the Next build typecheck.
+- `tsconfig.e2e.json` — separate Node-only tsconfig if the developer wants to typecheck e2e sources directly.
+- `eslint.config.mjs` — ignores `e2e/**` and `playwright.config.ts` (Playwright sources have their own conventions and global types).
+- `package.json` — `@playwright/test ^1.49.1` devDep and `"test:e2e": "playwright test"` script.
+
+`@learn365/ui-web` ([packages/ui-web/](packages/ui-web/)):
+
+- `src/lesson/MobileLessonDrawer/MobileLessonDrawer.tsx` — backdrop demoted to an `aria-hidden` `<div>`; initial focus is routed to the close button (`button[data-drawer-close]`) via an explicit query before falling back to the generic `FOCUSABLE_SELECTOR`. Body scroll lock, ESC, Tab/Shift+Tab cycle, and focus restore on close remain unchanged.
+- `src/lesson/MobileLessonDrawer/MobileLessonDrawer.module.css` — drops the legacy `button` resets (`border: 0; padding: 0`) on `.backdrop` now that it's a div.
+- `src/primitives/TopBar/TopBar.tsx` — Brand link `aria-label` removed; inner text ("History 365 / Istorija 365") is the accessible name. Fixes WCAG 2.5.3 "Label in Name".
+- `src/lesson/HistoricalTimeline/HistoricalTimeline.tsx` — band-link `aria-label="Otvori epohu …"` prefix removed; inner text is the accessible name. Fixes WCAG 2.5.3.
+- `src/course/LessonNavItem/LessonNavItem.module.css` — on `state_active`, `.day` and `.meta` promoted from `var(--muted)` / `var(--faint)` to `var(--ink-2)` so contrast over the `--accent-soft` background stays above 4.5:1.
+
+Root:
+
+- `.gitignore` — added `lighthouse-*.json` / `lighthouse-*.html` so ad-hoc Lighthouse runs don't leak into commits.
+
 ## Next step
 
-Begin **Phase 5 — Web polish + QA** per `docs/IMPLEMENTATION_PLAN.md` §10: keyboard navigation pass, focus-visible audit, ARIA review across all surfaces, reduced-motion check, Playwright E2E + visual snapshots, Lighthouse pass. A `COMPONENT_LIBRARY.md` revision to switch navigation props from `onClick` → `href` should land here too.
+Engineering side of Phase 5 is closed. Remaining gates before Phase 6 are content/accessibility audit, not code:
 
-Manual visual review of the three screens in a real browser is still pending — the build + SSR smoke test confirms compilation and rendering, but not actual visual polish.
+- VoiceOver / NVDA screen-reader smoke on TopBar nav + breadcrumbs + accordion + completion toggle.
+- Editorial review of the 6 authored seed lessons (`packages/content/src/courses/istorija-srbije-365/lessons/authored/`) for historical voice, accuracy, period coverage.
 
-The 6 authored seed lessons are Claude-drafted and need editorial review for historical voice and accuracy before any user-facing release.
+Once those clear, **Phase 6 — Web release** (deploy). Open product decisions for that phase: hosting target (Vercel default vs. Azure Static Web Apps for tenant alignment with the planned Phase 8 .NET backend), domain registration, and whether to add an error-monitoring SDK (still excluded from v1 scope today, see §V1 exclusions).
+
+`COMPONENT_LIBRARY.md` still needs the `onClick → href` revision for navigation props called out at the end of Phase 3.

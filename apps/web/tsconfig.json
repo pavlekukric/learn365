@@ -10,5 +10,5 @@
     "incremental": true
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
-  "exclude": ["node_modules", ".next", ".turbo", "coverage"]
+  "exclude": ["node_modules", ".next", ".turbo", "coverage", "e2e", "playwright.config.ts"]
 }

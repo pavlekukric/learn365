@@ -35,12 +35,15 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="sr" data-direction="A" className={fontVariableClassName}>
       <body>
+        <a href="#main-content" className="skip-link">
+          Preskoči na sadržaj
+        </a>
         <AppProviders>
           <TopBarHost
             courseId={course.id}
             totalLessons={course.totalLessons}
           />
-          <main>{children}</main>
+          <main id="main-content" tabIndex={-1}>{children}</main>
         </AppProviders>
       </body>
     </html>

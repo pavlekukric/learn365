@@ -12,6 +12,6 @@ export default [
     },
   },
   {
-    ignores: ['.next/**', 'next-env.d.ts'],
+    ignores: ['.next/**', 'next-env.d.ts', 'e2e/**', 'playwright.config.ts'],
   },
 ];

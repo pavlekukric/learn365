@@ -11,7 +11,7 @@ export const spectral = Spectral({
 
 export const inter = Inter({
   subsets: ['latin', 'latin-ext'],
-  weight: ['400', '500', '600'],
+  weight: ['400', '500'],
   display: 'swap',
   variable: '--font-inter',
   preload: true,

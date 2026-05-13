@@ -33,7 +33,7 @@ export function TopBar({
   return (
     <header className={styles.topbar}>
       <div className={`shell ${styles.inner}`}>
-        <Link href="/" className={styles.brandLink} aria-label="History 365 — Početna">
+        <Link href="/" className={styles.brandLink}>
           <Brand />
         </Link>
 
