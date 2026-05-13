@@ -2,7 +2,7 @@
 
 ## Current phase
 
-**Phase 0 — repo bootstrap: in progress.** Documentation foundation is in place. Monorepo tooling (pnpm workspaces, Turborepo, base TS config, ESLint flat config, Prettier, CI) has been scaffolded. No application or package code yet — Phase 1 introduces `packages/content`, `packages/core`, and `packages/ui`.
+**Phase 1 — content and core packages: done.** Three workspace packages (`@learn365/content`, `@learn365/core`, `@learn365/ui`) are scaffolded, implemented, tested, and validated. Next up: **Phase 2 — Web shell** (bootstrap Next.js app, wire fonts, import `@learn365/ui/globals.css`, build TopBar and route skeleton).
 
 ## Repository identity
 
@@ -81,7 +81,7 @@ Existing docs that remain authoritative:
 
 Root:
 
-- `package.json` (root, private, `packageManager: pnpm@9.15.0`, Node `>=20.10 <21`)
+- `package.json` (root, private, `packageManager: pnpm@9.15.0`, Node `>=20.10` — upper bound dropped in Phase 1 so Node 24 works locally; CI still pins 20 via `.nvmrc`)
 - `pnpm-workspace.yaml` (`apps/*`, `packages/*`, `tooling/*`)
 - `turbo.json` (tasks: `dev`, `build`, `typecheck`, `lint`, `test`, `validate-content`)
 - `tsconfig.base.json` (TS strict + `noUncheckedIndexedAccess` + `exactOptionalPropertyTypes`, `moduleResolution: Bundler`)
@@ -96,8 +96,52 @@ CI:
 
 - `.github/workflows/ci.yml` — runs on PRs and pushes to `main`; pnpm + Node via `.nvmrc`; `install → lint → typecheck → test → build → validate-content`
 
+## Phase 1 — packages landed
+
+`@learn365/content` ([packages/content/](packages/content/)):
+
+- `src/types.ts` — Course / Era / Section / Lesson / LessonBlock / UserProgress / LessonState
+- `src/courses/istorija-srbije-365/`
+  - `course.ts` — single Course record (365 lessons, sr/latin, 8 min/lesson)
+  - `eras.ts` — 8 Eras, year ranges 600 → 2026, ported from Cloud Design V1
+  - `sections.ts` — 28 Sections, contiguous day ranges 1–365, 10–20 lessons each
+  - `lessons/_buildStubs.ts` — pure function: walks sections, interpolates year per era, varies reading time 6–10 min
+  - `lessons/titles.ts` — curated Serbian title list, one per lesson, exact array length per section
+  - `lessons/authored/` — 6 hand-written seed lessons (Days 1, 7, 31, 106, 200, 305) across 5 eras
+  - `lessons/index.ts` — builds full 365-lesson list with authored overlay at module load
+  - `validate.ts` — enforces every invariant from CONTENT_AUTHORING.md §4
+- `src/registry.ts` — public lookup API (getCourse, getEras, getSections, getLessons, getLessonById, getLessonsBySection, getLessonsByEra, getEraForLesson, getSectionForLesson, getPrevLesson, getNextLesson, etc.) backed by pre-built Maps for O(1) navigation
+
+`@learn365/core` ([packages/core/](packages/core/)):
+
+- `src/progress/types.ts` — ProgressStorage adapter interface, internal state shapes
+- `src/progress/store.ts` — Zustand vanilla store wrapped in `persist`; `Set<LessonId>` round-trips through the supplied storage adapter via custom replacer/reviver; default key `learn365:progress:v1`
+- `src/progress/selectors.ts` — pure selectors (isCompleted, completedCount, lastOpenedLessonId, progressForLessons + section/era aliases, courseProgress)
+- `src/navigation/index.ts` — findPrevLesson, findNextLesson, lessonViewState
+- Zero React imports — fully unit-testable
+
+`@learn365/ui` ([packages/ui/](packages/ui/)):
+
+- `src/tokens/` — color, typography, spacing+layout, radii, motion, elevation tokens with `*VarName` maps for CSS variable names
+- `src/themes/` — Editorial (v1 default) and Modern (`data-direction="B"`, dev-only) bundles
+- `scripts/emit-globals.ts` — generator emitting `dist/globals.css` (CSS variables, base typography classes, sRGB fallback, mobile overrides, reduced-motion rule) and `dist/tokens.ts` (frozen-const RN snapshot)
+
+Test coverage (Vitest):
+
+- 7 tests in `@learn365/ui` (token shapes, modern override semantics, layout caps)
+- 27 tests in `@learn365/core` (store actions, persistence round-trip, selectors with edges, navigation)
+- 24 tests in `@learn365/content` (course shape, lookups, section/era counts, authored-seed detection, prev/next chain across era boundaries)
+
+Validator passes: 365 lessons, 28 sections, 8 eras all check out.
+
 ## Next step
 
-1. Run `pnpm install` locally to generate `pnpm-lock.yaml` and commit it.
-2. Confirm `pnpm lint`, `pnpm typecheck`, `pnpm build` all complete (turbo will report "no tasks" cleanly until Phase 1 adds them).
-3. Begin **Phase 1 — content and core packages** per `docs/IMPLEMENTATION_PLAN.md` §10.
+Begin **Phase 2 — Web shell** per `docs/IMPLEMENTATION_PLAN.md` §10:
+
+1. Scaffold `apps/web` as a Next.js 15 App Router app.
+2. Configure `next/font` for Spectral, Inter, JetBrains Mono.
+3. Import `@learn365/ui/globals.css` into `app/globals.css`.
+4. Build the `TopBar` and route skeleton (`/`, `/course/[courseId]`, `/course/[courseId]/lesson/[lessonId]`).
+5. Wire `ProgressStoreProvider` with a `localStorage`-backed `ProgressStorage` adapter.
+
+The 6 authored seed lessons are Claude-drafted and need editorial review for historical voice and accuracy before any user-facing release.
