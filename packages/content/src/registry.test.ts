@@ -89,6 +89,29 @@ describe('registry: lookups', () => {
   });
 });
 
+describe('registry: authored seeds', () => {
+  const SEED_IDS = [
+    'praistorija-i-antika-001',
+    'praistorija-i-antika-007',
+    'rani-nemanjici-001',
+    'moravska-srbija-i-kosovo-001',
+    'prvi-ustanak-005',
+    'drugi-svetski-rat-005',
+  ];
+
+  it.each(SEED_IDS)('%s is authored (not a stub)', (id) => {
+    const lesson = getLessonById(COURSE, id);
+    expect(lesson).not.toBeNull();
+    expect(lesson?.content.length).toBeGreaterThan(1);
+    const firstBlock = lesson?.content[0];
+    expect(firstBlock?.type).toBe('paragraph');
+    if (firstBlock?.type === 'paragraph') {
+      expect(firstBlock.dropcap).toBe(true);
+      expect(firstBlock.text).not.toContain('Lekcija se uskoro objavljuje');
+    }
+  });
+});
+
 describe('registry: navigation', () => {
   it('prev of day 1 is null', () => {
     expect(getPrevLesson(COURSE, 'praistorija-i-antika-001')).toBeNull();
