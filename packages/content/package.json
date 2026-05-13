@@ -1,0 +1,26 @@
+{
+  "name": "@learn365/content",
+  "version": "0.0.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "description": "Course / era / section / lesson data for Learn365 products. Pure-TS, no runtime deps.",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./types": "./src/types.ts",
+    "./courses/istorija-srbije-365": "./src/courses/istorija-srbije-365/index.ts"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "@learn365/eslint-config": "workspace:*",
+    "@learn365/tsconfig": "workspace:*",
+    "eslint": "^9.17.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  }
+}

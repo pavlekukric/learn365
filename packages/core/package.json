@@ -1,0 +1,29 @@
+{
+  "name": "@learn365/core",
+  "version": "0.0.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "description": "Platform-agnostic logic for Learn365: progress store, storage adapter interface, navigation helpers.",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./progress": "./src/progress/index.ts",
+    "./navigation": "./src/navigation/index.ts"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "zustand": "^5.0.2"
+  },
+  "devDependencies": {
+    "@learn365/content": "workspace:*",
+    "@learn365/eslint-config": "workspace:*",
+    "@learn365/tsconfig": "workspace:*",
+    "eslint": "^9.17.0",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  }
+}
