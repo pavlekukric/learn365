@@ -232,3 +232,4 @@ CI runs install → lint → typecheck → test → build → validate-content �
 | Documentation foundation (this set) | done |
 | Phase 0 bootstrap | done — pending `pnpm install` and lockfile commit |
 | Phase 1 content + core | done (Claude-authored seed lessons pending editorial review) |
+| Phase 2 web shell | done — Next.js 15 app, fonts, TopBar, 3 routes, localStorage progress |

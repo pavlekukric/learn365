@@ -2,7 +2,7 @@
 
 ## Current phase
 
-**Phase 1 — content and core packages: done.** Three workspace packages (`@learn365/content`, `@learn365/core`, `@learn365/ui`) are scaffolded, implemented, tested, and validated. Next up: **Phase 2 — Web shell** (bootstrap Next.js app, wire fonts, import `@learn365/ui/globals.css`, build TopBar and route skeleton).
+**Phase 2 — Web shell: done.** `apps/web` is scaffolded as a Next.js 15 App Router project. Fonts (Spectral, Inter, JetBrains Mono) are wired via `next/font` and bound to the `--serif` / `--sans` / `--mono` tokens emitted by `@learn365/ui`. The `TopBar` ships sticky, translucent, with live progress (`xxx / 365`) read from the Zustand store via a React provider over the `localStorage`-backed adapter. All three routes (`/`, `/course/[courseId]`, `/course/[courseId]/lesson/[lessonId]`) render real content from `@learn365/content` and the lesson reader toggles completion. Workspace `typecheck`, `lint`, `test`, and `build` all pass. Next up: **Phase 3 — Web components** — extract reusable primitives + surfaces into `packages/ui-web` (Sidebar, EraTimeline, ProgressRing, etc.).
 
 ## Repository identity
 
@@ -134,14 +134,33 @@ Test coverage (Vitest):
 
 Validator passes: 365 lessons, 28 sections, 8 eras all check out.
 
+## Phase 2 — files landed
+
+`apps/web` ([apps/web/](apps/web/)) — Next.js 15 App Router shell:
+
+- `package.json` — `@learn365/web`, depends on `next ^15.1.3`, `react ^19.0.0`, plus the three workspace packages.
+- `next.config.mjs` — `reactStrictMode`, `transpilePackages`, `typedRoutes`, and a webpack `extensionAlias` rule (`.js → .ts/.tsx/.js`) so workspace packages' explicit-extension TS imports resolve correctly.
+- `tsconfig.json` — extends `@learn365/tsconfig/nextjs.json`, adds `@/*` path alias, picks up `.next/types/routes.d.ts` via `next-env.d.ts`.
+- `eslint.config.mjs` — wraps shared flat config, scopes JSX parser options to `**/*.{ts,tsx}`.
+- `app/layout.tsx` — root layout: `<html lang="sr" data-direction="A">`, font CSS variables on `<html>`, `AppProviders` wrapping the tree, sticky `TopBarHost`.
+- `app/globals.css` — imports `@learn365/ui/globals.css`, rebinds `--serif`/`--sans`/`--mono` to next/font variables, defines the `.shell` layout wrapper.
+- `app/providers.tsx` — top-level `AppProviders` (currently just `ProgressStoreProvider`).
+- `app/page.tsx` — Home: hero, eight-era list, CTA to course overview.
+- `app/course/[courseId]/page.tsx` — Course overview: per-era headers + section rows with day ranges.
+- `app/course/[courseId]/lesson/[lessonId]/page.tsx` — Lesson route (server): looks up lesson + era + section + prev/next.
+- `app/course/[courseId]/lesson/[lessonId]/LessonReader.tsx` — Reader client island: subscribes to progress, toggles completion, marks-opened on mount, renders prev/next.
+- `app/course/[courseId]/lesson/[lessonId]/LessonBody.tsx` — `LessonBlock[] → React` renderer (paragraph/dropcap, heading 2/3, blockquote, figure placeholder).
+- `app/not-found.tsx` — minimal 404.
+- `components/top-bar/TopBar.tsx` + `.module.css` — stateless presentational TopBar (brand, nav, progress chip, mobile collapse).
+- `components/top-bar/TopBarHost.tsx` — `'use client'` host: derives route from `usePathname()`, reads `completedCount` from the store.
+- `lib/fonts/fonts.ts` — `next/font/google` setup for Spectral / Inter / JetBrains Mono with CSS variables.
+- `lib/progress/localStorageAdapter.ts` — `ProgressStorage` implementation guarded for SSR.
+- `lib/progress/ProgressStoreProvider.tsx` — `'use client'` Provider: instantiates the vanilla Zustand store once via `useRef`, exposes it through React context, and a `useProgressStore(selector)` hook.
+
+The store wiring is the swap seam called out in `docs/APP_ARCHITECTURE.md` §6: replacing the adapter with `RemoteProgressStorage` in the backend phase (Phase 8d) will not require any component changes.
+
 ## Next step
 
-Begin **Phase 2 — Web shell** per `docs/IMPLEMENTATION_PLAN.md` §10:
-
-1. Scaffold `apps/web` as a Next.js 15 App Router app.
-2. Configure `next/font` for Spectral, Inter, JetBrains Mono.
-3. Import `@learn365/ui/globals.css` into `app/globals.css`.
-4. Build the `TopBar` and route skeleton (`/`, `/course/[courseId]`, `/course/[courseId]/lesson/[lessonId]`).
-5. Wire `ProgressStoreProvider` with a `localStorage`-backed `ProgressStorage` adapter.
+Begin **Phase 3 — Web components** per `docs/IMPLEMENTATION_PLAN.md` §10. Phase 3 lifts the local TopBar (and adds Sidebar, EraTimeline, ProgressRing, LessonNavItem, MobileLessonDrawer, etc.) into `packages/ui-web`. Phase 4 then composes the full screens against those components.
 
 The 6 authored seed lessons are Claude-drafted and need editorial review for historical voice and accuracy before any user-facing release.
