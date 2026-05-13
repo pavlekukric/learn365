@@ -30,15 +30,16 @@ When importing the repository in the Vercel dashboard:
 | Repository | the GitHub repo for `learn365` |
 | Framework Preset | Next.js *(auto-detected)* |
 | Root Directory | `apps/web` |
-| Build Command | `pnpm --filter @learn365/web... build` |
-| Install Command | `pnpm install --frozen-lockfile` |
-| Output Directory | *(leave blank — Vercel detects `.next` automatically)* |
+| Build Command | `cd ../.. && pnpm --filter @learn365/web... build` *(override)* |
+| Install Command | `cd ../.. && pnpm install --frozen-lockfile` *(override)* |
+| Output Directory | *(leave blank — Vercel detects `apps/web/.next` automatically)* |
 | Node.js Version | `20.x` (must match `.nvmrc`) |
 
 Notes:
 
-- **Filtered build** (`@learn365/web...` with the trailing ellipsis) builds the web app *and* its workspace dependencies (`@learn365/content`, `@learn365/core`, `@learn365/ui`, `@learn365/ui-web`). Without the `...`, Vercel would not rebuild workspace packages when their sources change.
-- **Root Directory** is `apps/web` rather than the monorepo root so Vercel's framework detection lands on Next.js. Vercel still understands the workspace because `pnpm-workspace.yaml` lives at the repo root.
+- **Why `cd ../..` on both commands**: Vercel runs commands from `Root Directory` (= `apps/web`) by default. `pnpm install` must run at the workspace root (where `pnpm-workspace.yaml` lives) to set up all workspace packages. The filtered `pnpm --filter @learn365/web... build` must also run from the root so it can resolve the filter graph and trigger upstream package builds — most importantly `@learn365/ui`'s `tsx scripts/emit-globals.ts` which emits `dist/globals.css` that the web app's CSS imports. Without this, the web build will fail trying to resolve `@learn365/ui/globals.css`.
+- **The trailing ellipsis (`@learn365/web...`)** is the pnpm "include all dependencies" syntax. It builds the web app *and* its workspace deps (`@learn365/content`, `@learn365/core`, `@learn365/ui`, `@learn365/ui-web`). Turbo's `dependsOn: ["^build"]` in [turbo.json](../turbo.json) then orders them correctly.
+- **Root Directory** is `apps/web` so Vercel's framework detection lands on Next.js. Vercel still understands the workspace because `pnpm-workspace.yaml` lives at the repo root.
 - **`pnpm install --frozen-lockfile`** matches the CI workflow in [.github/workflows/ci.yml](../.github/workflows/ci.yml). Frozen-lockfile prevents Vercel from silently changing dependency versions during deploy.
 - **Node 20** matches `.nvmrc`. The repo `engines` allows `>=20.10` (see [reference_node_setup memory](../README.md) / `.nvmrc`) but Vercel pins a single major version per project.
 - No `vercel.json` is required for v1. If we ever need redirects or custom headers, add it at `apps/web/vercel.json` so the project-root setting still applies.
