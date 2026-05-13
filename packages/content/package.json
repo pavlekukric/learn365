@@ -13,7 +13,8 @@
   "scripts": {
     "lint": "eslint .",
     "typecheck": "tsc --noEmit",
-    "test": "vitest run"
+    "test": "vitest run",
+    "validate-content": "tsx src/courses/istorija-srbije-365/validate.ts"
   },
   "devDependencies": {
     "@learn365/eslint-config": "workspace:*",

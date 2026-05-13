@@ -13,3 +13,22 @@ export type {
   SectionId,
   UserProgress,
 } from './types.js';
+
+export {
+  getAllCourseIds,
+  getCourse,
+  getEraById,
+  getEraForLesson,
+  getEraForSection,
+  getEras,
+  getLessonById,
+  getLessons,
+  getLessonsByEra,
+  getLessonsBySection,
+  getNextLesson,
+  getPrevLesson,
+  getSectionById,
+  getSectionForLesson,
+  getSections,
+  getSectionsByEra,
+} from './registry.js';
