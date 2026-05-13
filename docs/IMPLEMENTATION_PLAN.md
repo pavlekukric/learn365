@@ -231,4 +231,4 @@ CI runs install → lint → typecheck → test → build → validate-content �
 | Plan approved | done (with adjustments) |
 | Documentation foundation (this set) | done |
 | Phase 0 bootstrap | done — pending `pnpm install` and lockfile commit |
-| Phase 1 content + core | not started |
+| Phase 1 content + core | done (Claude-authored seed lessons pending editorial review) |
