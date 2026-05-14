@@ -366,6 +366,29 @@ Changes:
 
 Files touched — `packages/ui-web/src/course/{CourseCard/CourseCard.tsx,CourseProgress/CourseProgress.tsx,CourseProgress/CourseProgress.module.css,CourseSidebar/CourseSidebar.tsx,index.ts}`, `packages/ui-web/src/course/JumpToDay/{JumpToDay.tsx,JumpToDay.module.css,index.ts}` (new), `packages/ui-web/src/primitives/TopBar/TopBar.tsx`; `packages/content/src/courses/istorija-srbije-365/eras.ts`, `packages/content/src/types.ts`; `apps/web/app/page.tsx`, `apps/web/app/page.module.css`, `apps/web/app/_components/HomeEraTimeline.tsx` (new), `apps/web/app/_components/HomeHeroCta.tsx`, `apps/web/app/_components/HomeCurrentLessonCard.tsx`, `apps/web/app/_components/HomeErasList.tsx` (deleted), `apps/web/app/course/[courseId]/page.tsx`, `.../page.module.css`, `.../_components/CourseOverviewEras.tsx`, `.../_components/CourseOverviewProgress.tsx`, `apps/web/e2e/smoke.spec.ts`.
 
+## Phase 6.6 — Historical timeline v2 ("journey rail"): done
+
+A focused redesign of the shared `HistoricalTimeline` component, triggered by a review of the live build: on mobile it was a cramped horizontal-scroll strip (only ~2.5 of 8 eras visible, titles truncated), and on every viewport it read as decorative — 8 identical boxes carrying no information. The v2 makes it *informative* and *responsive*. It is the shared component, so this lifted both Home and the lesson reader. Engineering gates all green: typecheck, lint, **79 unit tests** (ui 7 / ui-web 21 / core 27 / content 24 — `timelineMath` grew 7 → 15 tests), production build (5 routes), `validate-content` (365/28/8), Playwright **8 tests × 5 profiles = 40 runs, 38 pass / 2 skipped** (the documented WebKit Tab quirk).
+
+**Decision (2026-05-14, with the product owner): full "journey-rail v2"** — all six moves plus a vertical mobile layout.
+
+Changes:
+
+- **Proportional band widths.** Band width tracks the era's lesson count (eras span 20–75 lessons) via `flex: var(--weight)` with a `min-width: 64px` legibility floor — the timeline now shows the actual shape of the course instead of 8 equal boxes.
+- **Progress fill on the rail.** On desktop the rail fills with `--completed` from the start (`timelineFillPercent` = completed lessons / total). On mobile each era's rail *segment* is filled when that era is complete — coarser, but it reads at a glance in the vertical layout.
+- **Era "station" states.** `completed` / `current` / `upcoming`, computed in the component from `eraStats`. Desktop shows state through numeral colour; mobile gives each era a node on the rail (`--completed` filled / `--accent` filled with a soft ring / hollow `--rule`).
+- **Serif Roman numerals.** The era numerals moved from muted mono to Spectral serif — more historical, on-brand.
+- **Panel container.** The whole timeline sits on a faint `--surface` panel with a hairline + `--r-lg` corners, so it reads as a deliberate object rather than loose lines on the page.
+- **Refined marker + hover.** The marker is now a precise filled `--accent` dot with a layered hairline ring (`--surface` then `--rule-2`); desktop band hover gets a calm `--surface-2` wash.
+
+**Layout** — one DOM, a `≤720px` media query swaps the axis. Desktop: a horizontal rail above proportional bands, with the fill and a year-interpolated marker. Mobile: a vertical journey rail at the left with 8 full-width era rows — all visible, no horizontal scroll, full era titles, and the full `yearsLabel` range (desktop shows just the start year). The free-floating marker is desktop-only (`.rail` is `display:none` on mobile); the current era's node stands in for it.
+
+**Component API** — `HistoricalTimeline` gained one optional prop, `eraStats?: ReadonlyMap<EraId, EraStat>` where `EraStat = { lessonCount; completedCount }` (exported from `@learn365/ui-web`). Optional + backward-compatible: omitted → equal-width bands, no progress styling, marker still shows. Both call sites supply it — `HomeEraTimeline` builds it via `getLessonsByEra` + `progressForLessons`; `LessonPageClient` derives it from its already-loaded lessons + progress set and passes it through a new optional `LessonReader` `eraStats` prop.
+
+**`timelineMath.ts`** gained `bandWeightPercents(weights)`, a `weights?`-aware `markerPositionPercent` (equal-width stays the default, so the original tests are untouched), and `timelineFillPercent(stats)` — 8 new unit tests cover them. The reduced-motion e2e assertion switched from `toBeVisible()` to `toBeAttached()` on the marker, since the marker is now `display:none` on the mobile layout but its collapsed transition is still assertable via `getComputedStyle`.
+
+Files touched: `packages/ui-web/src/lesson/HistoricalTimeline/{HistoricalTimeline.tsx,HistoricalTimeline.module.css,timelineMath.ts,timelineMath.test.ts}`, `packages/ui-web/src/lesson/{index.ts,LessonReader/LessonReader.tsx}`; `apps/web/app/_components/HomeEraTimeline.tsx`, `apps/web/app/course/[courseId]/lesson/[lessonId]/LessonPageClient.tsx`, `apps/web/e2e/smoke.spec.ts`.
+
 ## Next step
 
 Outstanding work — none of it blocks the live site, but it was deferred, not done:

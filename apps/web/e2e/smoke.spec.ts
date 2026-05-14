@@ -105,10 +105,15 @@ test.describe('History 365 — smoke', () => {
     const page = await context.newPage();
     await page.goto(`/course/${COURSE_ID}/lesson/${DAY_1_LESSON_ID}`);
 
+    // The timeline marker is the horizontal-rail element — present on every
+    // viewport, but display:none on the ≤720px vertical layout (the current
+    // era's node stands in for it there). `toBeAttached` + getComputedStyle
+    // works regardless of display, since this asserts a CSS property, not
+    // visibility.
     const marker = page.locator(
       '[class*="HistoricalTimeline_marker"], [class*="HistoricalTimeline"] [class*="marker"]',
     ).first();
-    await expect(marker).toBeVisible();
+    await expect(marker).toBeAttached();
 
     const transitionDuration = await marker.evaluate(
       (el) => window.getComputedStyle(el).transitionDuration,
