@@ -51,10 +51,12 @@ export function CourseCard({
           ariaLabel={`${era.title} napredak`}
           ariaValueText={`${String(completedLessons)} od ${String(totalLessons)}`}
         />
-        <span className={`tiny mono ${styles.count}`}>
-          {String(completedLessons).padStart(3, '0')} / {totalLessons}
+        <span className={styles.progressMeta}>
+          <span className={`tiny mono ${styles.count}`}>
+            {String(completedLessons).padStart(3, '0')} / {totalLessons}
+          </span>
+          {isCurrent ? <Chip variant="accent">u toku</Chip> : null}
         </span>
-        {isCurrent ? <Chip variant="accent">u toku</Chip> : null}
       </span>
 
       <span className={styles.statusIcon} aria-hidden="true">

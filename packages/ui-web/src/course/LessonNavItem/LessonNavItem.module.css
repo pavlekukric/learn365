@@ -3,7 +3,7 @@
   grid-template-columns: auto auto 1fr auto;
   align-items: center;
   gap: var(--space-3);
-  padding: 8px var(--space-4) 8px calc(var(--space-4) + 4px);
+  padding: 10px var(--space-4) 10px calc(var(--space-4) + 4px);
   border-radius: var(--r-sm);
   text-decoration: none;
   color: var(--ink-2);

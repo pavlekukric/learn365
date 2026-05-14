@@ -84,6 +84,12 @@ export interface Lesson {
   /** Compact label for timeline pin, e.g. "9500 BCE". */
   readonly timelinePosition?: string;
   readonly content: readonly LessonBlock[];
+  /**
+   * True for auto-generated stub lessons that are not yet authored.
+   * The reader renders a calm "upcoming" state instead of body content,
+   * and completion is disabled. Authored lessons leave this unset.
+   */
+  readonly isPlaceholder?: boolean;
   readonly summary?: string;
   readonly keyPeople?: readonly string[];
   readonly keyPlaces?: readonly string[];

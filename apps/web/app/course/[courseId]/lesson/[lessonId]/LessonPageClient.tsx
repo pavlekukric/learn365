@@ -187,12 +187,7 @@ export function LessonPageClient({
           setDrawerOpen(false);
         }}
       >
-        <CourseSidebar
-          {...sidebarProps}
-          onClose={() => {
-            setDrawerOpen(false);
-          }}
-        />
+        <CourseSidebar {...sidebarProps} />
       </MobileLessonDrawer>
     </div>
   );

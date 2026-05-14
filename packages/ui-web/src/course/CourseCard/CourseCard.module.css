@@ -57,10 +57,16 @@
   align-items: stretch;
 }
 
+.progressMeta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+}
+
 .count {
-  color: var(--muted);
+  color: var(--ink-2);
   font-variant-numeric: tabular-nums;
-  align-self: flex-end;
 }
 
 .statusIcon {
@@ -89,13 +95,18 @@
     grid-template-areas:
       'num title status'
       'progress progress progress';
+    column-gap: var(--space-4);
     row-gap: var(--space-4);
+    padding: var(--space-5);
   }
   .num {
     grid-area: num;
   }
   .titleBlock {
     grid-area: title;
+  }
+  .title {
+    font-size: 19px;
   }
   .progressBlock {
     grid-area: progress;

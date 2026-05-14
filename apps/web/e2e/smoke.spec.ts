@@ -2,7 +2,10 @@ import { expect, test } from '@playwright/test';
 
 const COURSE_ID = 'istorija-srbije-365';
 const DAY_1_LESSON_ID = 'praistorija-i-antika-001';
-const DAY_2_LESSON_ID = 'praistorija-i-antika-002';
+// A second hand-authored (completable) lesson, distinct from day 1.
+const AUTHORED_LESSON_ID = 'praistorija-i-antika-007';
+// An unauthored placeholder lesson — renders the "upcoming" state.
+const PLACEHOLDER_LESSON_ID = 'praistorija-i-antika-002';
 
 test.describe('History 365 — smoke', () => {
   test('home renders hero + CTA', async ({ page }) => {
@@ -38,7 +41,7 @@ test.describe('History 365 — smoke', () => {
   });
 
   test('completion persists across reload', async ({ page }) => {
-    await page.goto(`/course/${COURSE_ID}/lesson/${DAY_2_LESSON_ID}`);
+    await page.goto(`/course/${COURSE_ID}/lesson/${AUTHORED_LESSON_ID}`);
     await page.getByRole('button', { name: /Označi kao završeno/ }).click();
     await expect(
       page.getByRole('button', { name: /Označeno kao završeno/ }),
@@ -49,6 +52,17 @@ test.describe('History 365 — smoke', () => {
     await expect(
       page.getByRole('button', { name: /Označeno kao završeno/ }),
     ).toBeVisible();
+  });
+
+  test('placeholder lesson shows upcoming state and hides completion', async ({
+    page,
+  }) => {
+    await page.goto(`/course/${COURSE_ID}/lesson/${PLACEHOLDER_LESSON_ID}`);
+    await expect(page.getByText('Lekcija se uskoro objavljuje.')).toBeVisible();
+    // Completion must not be possible for an unavailable lesson.
+    await expect(
+      page.getByRole('button', { name: /Označi kao završeno/ }),
+    ).toHaveCount(0);
   });
 
   test('skip link is the first tab stop and focuses main', async ({ page, browserName }) => {

@@ -15,9 +15,45 @@
   padding-top: var(--space-8);
 }
 
+/* Calm "upcoming" state for unauthored placeholder lessons.
+ * Replaces the body so the drop-cap paragraph style is never applied. */
+.upcoming {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-3);
+  text-align: center;
+  padding: var(--space-10) var(--space-6);
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  border-radius: var(--r-lg);
+}
+
+.upcomingTitle {
+  margin: 0;
+  font-family: var(--serif);
+  font-size: 21px;
+  line-height: 1.3;
+  color: var(--ink);
+}
+
+.upcomingNote {
+  margin: 0;
+  max-width: 44ch;
+  color: var(--muted);
+}
+
 @media (max-width: 860px) {
   .reader {
     gap: var(--space-8);
     padding-top: var(--space-7);
+    padding-bottom: var(--space-12);
+  }
+  .footer {
+    gap: var(--space-7);
+    padding-top: var(--space-7);
+  }
+  .upcoming {
+    padding: var(--space-8) var(--space-5);
   }
 }

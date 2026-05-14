@@ -7,7 +7,6 @@ import type {
   SectionId,
 } from '@learn365/content';
 
-import { IconClose } from '../../icons/IconClose.js';
 import { ProgressBar } from '../../primitives/ProgressBar/ProgressBar.js';
 import { EraGroup } from '../EraGroup/EraGroup.js';
 import { SectionAccordion } from '../SectionAccordion/SectionAccordion.js';
@@ -25,8 +24,6 @@ interface CourseSidebarProps {
   onToggleSection: (id: SectionId) => void;
   /** Builder returning the href for a lesson within the course. */
   lessonHref: (lesson: Lesson) => string;
-  /** When provided, renders a close handle (mobile drawer mode). */
-  onClose?: () => void;
 }
 
 export function CourseSidebar({
@@ -39,7 +36,6 @@ export function CourseSidebar({
   openSectionIds,
   onToggleSection,
   lessonHref,
-  onClose,
 }: CourseSidebarProps) {
   const total = lessons.length;
   const completed = lessons.reduce(
@@ -71,19 +67,7 @@ export function CourseSidebar({
   return (
     <nav className={styles.sidebar} aria-label="Sadržaj kursa">
       <header className={styles.header}>
-        <div className={styles.titleRow}>
-          <span className={`tiny mono ${styles.kicker}`}>KURS</span>
-          {onClose ? (
-            <button
-              type="button"
-              className={styles.closeButton}
-              onClick={onClose}
-              aria-label="Zatvori sadržaj"
-            >
-              <IconClose />
-            </button>
-          ) : null}
-        </div>
+        <span className={`tiny mono ${styles.kicker}`}>KURS</span>
         <p className={styles.courseTitle}>{course.title}</p>
         <div className={styles.progress}>
           <ProgressBar

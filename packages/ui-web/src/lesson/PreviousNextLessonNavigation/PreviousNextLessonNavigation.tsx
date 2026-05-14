@@ -1,5 +1,8 @@
 import Link from 'next/link';
 
+import { IconArrow } from '../../icons/IconArrow.js';
+import { IconArrowLeft } from '../../icons/IconArrowLeft.js';
+
 import styles from './PreviousNextLessonNavigation.module.css';
 
 interface AdjacentLessonLink {
@@ -24,26 +27,40 @@ export function PreviousNextLessonNavigation({
   return (
     <nav className={styles.row} aria-label="Prethodna i sledeća lekcija">
       {prev ? (
-        <Link href={prev.href} className={styles.link}>
-          <span className={`tiny mono ${styles.label}`}>← DAN {formatDay(prev.dayNumber)}</span>
+        <Link href={prev.href} className={`${styles.link} ${styles.prev}`}>
+          <span className={`tiny mono ${styles.label}`}>
+            <IconArrowLeft className={styles.arrow} />
+            DAN {formatDay(prev.dayNumber)}
+          </span>
           <span className={`small ${styles.title}`}>{prev.title}</span>
         </Link>
       ) : (
-        <span className={`${styles.link} ${styles.disabled}`} aria-disabled="true">
+        <span
+          className={`${styles.link} ${styles.prev} ${styles.disabled}`}
+          aria-disabled="true"
+        >
           <span className={`tiny mono ${styles.label}`}>Početak kursa</span>
+          <span className={`small ${styles.title}`}>Ovo je prva lekcija</span>
         </span>
       )}
+
+      <span className={styles.divider} aria-hidden="true" />
+
       {next ? (
-        <Link href={next.href} className={`${styles.link} ${styles.right}`}>
-          <span className={`tiny mono ${styles.label}`}>DAN {formatDay(next.dayNumber)} →</span>
+        <Link href={next.href} className={`${styles.link} ${styles.next}`}>
+          <span className={`tiny mono ${styles.label}`}>
+            DAN {formatDay(next.dayNumber)}
+            <IconArrow className={styles.arrow} />
+          </span>
           <span className={`small ${styles.title}`}>{next.title}</span>
         </Link>
       ) : (
         <span
-          className={`${styles.link} ${styles.right} ${styles.disabled}`}
+          className={`${styles.link} ${styles.next} ${styles.disabled}`}
           aria-disabled="true"
         >
           <span className={`tiny mono ${styles.label}`}>Kraj kursa</span>
+          <span className={`small ${styles.title}`}>Ovo je poslednja lekcija</span>
         </span>
       )}
     </nav>
