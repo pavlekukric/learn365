@@ -17,10 +17,6 @@ interface TopBarProps {
   completedCount: number;
 }
 
-function formatCount(n: number): string {
-  return String(n).padStart(3, '0');
-}
-
 export function TopBar({
   route,
   courseHref,
@@ -59,7 +55,7 @@ export function TopBar({
           <div className={styles.progressGroup} aria-label="Ukupan napredak">
             <span className={`eyebrow ${styles.progressLabel}`}>Ukupno</span>
             <span className={`tiny mono ${styles.progressCount}`}>
-              {formatCount(completedCount)} / {totalLessons}
+              {completedCount} / {totalLessons}
             </span>
             <div className={styles.progressTrack} role="presentation">
               <i style={{ width: `${pct}%` }} />

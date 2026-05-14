@@ -40,7 +40,7 @@ export interface Era {
   readonly description: string;
   readonly yearStart: number;
   readonly yearEnd: number;
-  /** Display string for the era's year range, e.g. "1166 — 1371.". */
+  /** Display string for the era's year range, e.g. "1166–1371". */
   readonly yearsLabel: string;
   /** Short tag for compact contexts (timeline, chips). */
   readonly eraShort: string;

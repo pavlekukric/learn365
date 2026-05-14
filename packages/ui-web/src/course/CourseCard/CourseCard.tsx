@@ -45,18 +45,18 @@ export function CourseCard({
       </span>
 
       <span className={styles.progressBlock}>
+        <span className={styles.progressMeta}>
+          <span className={`tiny mono ${styles.count}`}>
+            {completedLessons} / {totalLessons}
+          </span>
+          {isCurrent ? <Chip variant="accent">u toku</Chip> : null}
+        </span>
         <ProgressBar
           value={progress}
           size="thin"
           ariaLabel={`${era.title} napredak`}
           ariaValueText={`${String(completedLessons)} od ${String(totalLessons)}`}
         />
-        <span className={styles.progressMeta}>
-          <span className={`tiny mono ${styles.count}`}>
-            {String(completedLessons).padStart(3, '0')} / {totalLessons}
-          </span>
-          {isCurrent ? <Chip variant="accent">u toku</Chip> : null}
-        </span>
       </span>
 
       <span className={styles.statusIcon} aria-hidden="true">

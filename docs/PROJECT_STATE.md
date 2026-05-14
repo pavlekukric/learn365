@@ -342,6 +342,30 @@ Changes:
 
 Files touched: `apps/web/app/page.tsx`, `apps/web/app/page.module.css`, `apps/web/app/_components/HomeHeroCta.tsx` (new), `apps/web/app/_components/HomeCurrentLessonCard.tsx`, `apps/web/e2e/smoke.spec.ts`; `packages/ui-web/src/primitives/Brand/Brand.module.css`, `packages/ui-web/src/primitives/TopBar/TopBar.module.css`.
 
+## Phase 6.5 — Clarity & Differentiation: done
+
+A UX clarity pass triggered by a review of the live mobile build. Goal: take the app from "very good" to "feels inevitable" — remove placeholder-looking cosmetics, give Home and Course overview distinct jobs, fix a progress-state contradiction, and make 365 lessons feel navigable. No data model or routing changes except the era year-label content fix. Mobile-first, Editorial identity preserved. Engineering gates all green: typecheck, lint, **64 unit tests** (content 24 / core 27 / ui-web 13), production build (5 routes), `validate-content` (365/28/8), and Playwright **8 tests × 5 profiles = 40 runs, 38 pass / 2 skipped** (the 2 skips are the documented WebKit Tab-skips-anchors quirk).
+
+**Decisions locked (2026-05-14, with the product owner):** (1) Home = visual, Course = functional; (2) continue-state is completion-driven, not opened-driven; (3) jump-to-day is in scope; (4) whole pass runs, single review at the end.
+
+Changes:
+
+- **Tier 1 — Quick clarity wins**
+  - **Count formatting fixed.** `String(n).padStart(3, '0')` removed from `CourseCard`, `TopBar`, `CourseProgress`, and `CourseSidebar` — quantities now read `0 / 30`, not `000 / 30`. Zero-padding stays only on `DAN nnn` / `Dnnn` *identifiers*.
+  - **Section count labelled.** Course-overview section rows show `10 lekcija` instead of a bare `10`, via a `lessonCountLabel` helper in `CourseOverviewEras` with correct Serbian plural agreement (1/5+ → "lekcija", 2–4 → "lekcije").
+  - **Era-card progress re-integrated.** In `CourseCard` the count + "u toku" chip now sit *above* the thin progress bar (the bar reads as a quiet underline reinforcing the count, no longer as an orphaned hairline below it).
+  - **Year labels normalized.** `eras.ts` `yearsLabel` values use a tight en-dash and no trailing periods (`do 1166`, `1166–1371`, …, `1991–danas`); the `Era.yearsLabel` doc comment in `types.ts` updated to match. No validator/test asserted the old format.
+  - **Empty-state ring softened.** `CourseProgress` renders a `0%` ring value in `--faint` weight-300 (`.ringValueZero`) so a fresh user isn't greeted by a bold, deflating score.
+- **Tier 2 — Home vs Course differentiation**
+  - **Home is now visual.** `HomeErasList` (a duplicate of the Course-overview `CourseCard` tree) is **deleted**; the new `HomeEraTimeline` client island renders the 8 eras via the existing `HistoricalTimeline` band — a visual taste of the journey, marker at the user's last-opened position, bands linking into each era. Home keeps exactly one recommended/continue card + one hero CTA.
+  - **Course overview reads as a tool.** Header trimmed — the poetic `course.subtitle` lede (a duplicate of Home's hero copy) is dropped; the header is now eyebrow + title + a single "start from the beginning" action + the jump-to-day navigator. The full era→section→lesson accordion is now the *only* place that tree lives.
+- **Tier 3 — Continue-state = completion-driven**
+  - `HomeHeroCta`, `HomeCurrentLessonCard`, and `CourseOverviewProgress` now key the idle/continue distinction off `completedCount > 0`, not `lastOpenedLessonId`. Merely opening or peeking a lesson no longer flips the app into "continue" mode — so a `0 / 365` counter never sits next to a "Nastavi" label again. `lastOpenedLessonId` still supplies the genuine continue *target* once unlocked. `CourseProgress` gained a `hasStarted` prop: a fresh user's row reads "ZA POČETAK" with an idle dot instead of "AKTUELNO" with an active dot.
+- **Tier 4 — Jump-to-day**
+  - New `JumpToDay` component in `@learn365/ui-web` (`src/course/JumpToDay/`) — a validated 1–365 numeric input that routes straight to that day's lesson. Owns the day→route mapping internally (via the `@learn365/content` registry) so it takes only a `courseId` and works from server components. Full a11y: associated `<label>`, `aria-invalid` + `aria-describedby` wired to an inline `role="alert"` out-of-range error, native number spinners removed, Enter submits. Placed in the `CourseSidebar` header (desktop + mobile drawer) and the Course-overview header.
+
+Files touched — `packages/ui-web/src/course/{CourseCard/CourseCard.tsx,CourseProgress/CourseProgress.tsx,CourseProgress/CourseProgress.module.css,CourseSidebar/CourseSidebar.tsx,index.ts}`, `packages/ui-web/src/course/JumpToDay/{JumpToDay.tsx,JumpToDay.module.css,index.ts}` (new), `packages/ui-web/src/primitives/TopBar/TopBar.tsx`; `packages/content/src/courses/istorija-srbije-365/eras.ts`, `packages/content/src/types.ts`; `apps/web/app/page.tsx`, `apps/web/app/page.module.css`, `apps/web/app/_components/HomeEraTimeline.tsx` (new), `apps/web/app/_components/HomeHeroCta.tsx`, `apps/web/app/_components/HomeCurrentLessonCard.tsx`, `apps/web/app/_components/HomeErasList.tsx` (deleted), `apps/web/app/course/[courseId]/page.tsx`, `.../page.module.css`, `.../_components/CourseOverviewEras.tsx`, `.../_components/CourseOverviewProgress.tsx`, `apps/web/e2e/smoke.spec.ts`.
+
 ## Next step
 
 Outstanding work — none of it blocks the live site, but it was deferred, not done:

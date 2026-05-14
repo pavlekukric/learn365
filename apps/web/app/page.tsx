@@ -2,7 +2,7 @@ import { getCourse } from '@learn365/content';
 import { Eyebrow } from '@learn365/ui-web';
 
 import { HomeCurrentLessonCard } from './_components/HomeCurrentLessonCard';
-import { HomeErasList } from './_components/HomeErasList';
+import { HomeEraTimeline } from './_components/HomeEraTimeline';
 import { HomeHeroCta } from './_components/HomeHeroCta';
 import styles from './page.module.css';
 
@@ -60,7 +60,9 @@ export default function HomePage() {
           <h2 className="h2">Putovanje kroz 365 dana</h2>
           <p className={`small ${styles.erasIntro}`}>{ERAS_INTRO}</p>
         </header>
-        <HomeErasList courseId={course.id} />
+        <div className={styles.timeline}>
+          <HomeEraTimeline courseId={course.id} />
+        </div>
       </section>
     </div>
   );

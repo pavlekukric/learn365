@@ -3,7 +3,7 @@
 import Link from 'next/link';
 
 import { getLessons, type CourseId } from '@learn365/content';
-import { lastOpenedLessonId } from '@learn365/core';
+import { completedCount, lastOpenedLessonId } from '@learn365/core';
 
 import { useProgressStore } from '@/lib/progress/ProgressStoreProvider';
 
@@ -18,8 +18,15 @@ interface HomeHeroCtaProps {
 /**
  * State-aware primary CTA for the Home hero.
  *
- * - No progress yet  → "Započni kurs" pointing at the first lesson.
- * - Has an open lesson → "Nastavi lekciju" pointing at the last-opened lesson.
+ * The continue/start distinction is **completion-driven**: merely opening or
+ * peeking at a lesson does not count as progress, so the CTA only switches to
+ * "Nastavi" once the user has actually *completed* at least one lesson. This
+ * keeps the hero consistent with the progress counter — no "0 / 365" sitting
+ * next to a "Nastavi" label.
+ *
+ * - No completed lessons → "Započni kurs" pointing at the first lesson.
+ * - At least one completed → "Nastavi lekciju" pointing at the last-opened
+ *   lesson (falling back to the first lesson defensively).
  *
  * The supporting metadata stays course-level ("365 lekcija · oko 8 min dnevno")
  * in both states so it never duplicates the lesson card directly below.
@@ -29,11 +36,12 @@ export function HomeHeroCta({
   totalLessons,
   minutesPerLesson,
 }: HomeHeroCtaProps) {
+  const completed = useProgressStore((state) => completedCount(state, courseId));
   const lastId = useProgressStore((state) => lastOpenedLessonId(state, courseId));
-  const hasProgress = lastId !== null;
+  const hasProgress = completed > 0;
 
   const firstLessonId = getLessons(courseId)[0]?.id ?? null;
-  const targetLessonId = hasProgress ? lastId : firstLessonId;
+  const targetLessonId = hasProgress ? (lastId ?? firstLessonId) : firstLessonId;
   const href = targetLessonId
     ? `/course/${courseId}/lesson/${targetLessonId}`
     : `/course/${courseId}`;
