@@ -310,6 +310,21 @@ Focused UX refinement on the Course overview — no data model, routing, progres
 
 Files touched: `apps/web/app/course/[courseId]/_components/CourseOverviewEras.tsx` (wrapped description + section `<ul>` in a `.eraChildren` div), `.../CourseOverviewEras.module.css` (new `.eraChildren` rule + mobile override).
 
+## Phase 6.3 — Course page nested accordion: done
+
+A second UX refinement on the Course overview, deepening the three-tier hierarchy **epoch → lesson group → daily lesson**. No data model, routing, numbering, or progress changes — the daily lessons are read via the existing `getLessonsBySection` registry helper and their state via the existing `isCompleted` / `lastOpenedLessonId` selectors.
+
+Changes (all in `CourseOverviewEras.tsx` + its module CSS):
+
+- **Lesson groups are now accordion rows.** Each section row became a full-width `<button>` header (`aria-expanded` + `aria-controls`) with a subtle rotating `IconChev`. Collapsed by default. Single-open: at most one group is expanded at a time (`openSectionId` state), which keeps the page scannable on mobile and desktop — the 365 lessons are never all shown at once.
+- **Expanded daily lessons are visually tertiary.** When a group opens it renders an inline `<ol>` of reused `LessonNavItem`s (day number `D031` + serif title + reading time + completion dot). They are indented a step beyond the group row (`--space-7`, `--space-4` on mobile) and use the lighter `LessonNavItem` type scale, so they never rival the group title or the epoch card. Active/completed state comes straight from the progress store; the last-opened lesson highlights as `active`.
+- **Clearer nesting.** `.eraChildren` indentation deepened (`margin-left` `--space-3 → --space-4`, `padding-left` `--space-6 → --space-7`) while keeping the single faint `--rule` left guide line. The day-range moved from a left-hand grid column to a small mono label stacked above the section title — this reads as an editorial eyebrow and removes the fragile `≤560px` grid-reflow rules.
+- **Identity preserved** — transparent rows, hairline `--rule` dividers, `--surface-2` hover, no shadows, serif titles, calm chevron rotation that collapses under `prefers-reduced-motion`.
+
+Engineering gates green: `@learn365/web` typecheck, lint, and full `build` (5 routes, static + dynamic) all pass.
+
+Files touched: `apps/web/app/course/[courseId]/_components/CourseOverviewEras.tsx`, `.../CourseOverviewEras.module.css`.
+
 ## Next step
 
 Outstanding work — none of it blocks the live site, but it was deferred, not done:
