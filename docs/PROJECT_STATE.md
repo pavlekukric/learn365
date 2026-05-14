@@ -325,6 +325,23 @@ Engineering gates green: `@learn365/web` typecheck, lint, and full `build` (5 ro
 
 Files touched: `apps/web/app/course/[courseId]/_components/CourseOverviewEras.tsx`, `.../CourseOverviewEras.module.css`.
 
+## Phase 6.4 — Home page premium polish: done
+
+A focused refinement pass on the **Home page only** — mobile-first, calm beige/cream identity, serif editorial type, and the epoch cards / course-overview section all preserved. No data model, routing, or progress changes. Engineering gates green: `@learn365/web` typecheck, lint, full production build, and Playwright **7 tests × 5 profiles = 35 runs, 33 pass / 2 skipped** (the 2 skips are the documented WebKit Tab-skips-anchors quirk).
+
+Changes:
+
+- **Atmospheric hero backdrop.** The hero is now a full-shell-width band with a `.heroBackdrop` layer behind the content (`.heroInner`, capped to 760px). Layer stack (bottom→top): a pure-CSS parchment wash → `.heroBackdrop::before` image layer → `.heroBackdrop::after` cream readability overlay → content. The whole layer is masked (`mask-image` linear-gradient) so it fades in at the top and dissolves into the plain beige below — hero-only, nothing bleeds into the sections under it. **Swap seam:** the `::before` layer reads `background-image: var(--hero-image)`; the asset is set on one line in `page.module.css` (`url('/hero/hero-bg.webp')`, or `none` to fall back to the pure-CSS wash). The image layer is washed out (`opacity: 0.88`, `mix-blend-mode: multiply` over the cream bg) and the `::after` overlay guarantees hero text contrast.
+- **Hero image asset.** `apps/web/public/hero/hero-bg.webp` — a soft sepia historical illustration (castle, Orthodox church, hills, mandala/icon corner detail), converted from the supplied PNG and resized to 1448px-wide WebP (~44 KB). `background-position: center 20%` on desktop keeps the calm misty upper band behind the text; a `≤720px` override shifts to `82% center` + `opacity: 0.95` because `cover` otherwise crops the narrow viewport to the empty centre — the override anchors the church/hillside instead.
+- **State-aware hero CTA.** New client island `app/_components/HomeHeroCta.tsx`: "Započni kurs" → first lesson when there's no progress, "Nastavi lekciju" → last-opened lesson when there is. Supporting metadata stays course-level ("365 lekcija · oko 8 min dnevno") in both states so it never duplicates the lesson card below. Replaces the static "Pregled kursa →" link.
+- **Hero copy.** Eyebrow "Premium · Istorijski" → "Dnevni kurs istorije". Description is now a Home-only page-level string (warmer, more editorial) instead of the shared factual `course.description` — the course-overview copy is untouched. Era-section intro reworded to be less technical.
+- **Lesson card purpose clarified.** `HomeCurrentLessonCard` now renders a state-aware `Eyebrow` label above the card — "Preporučeno za početak" (idle) / "Nastavi gde si stao" (active) / "Nedavno završeno" (done) — so the card's role (continue / recommended start) is explicit and no longer reads as conflicting with the header's completed-count progress.
+- **Brand mark.** `Brand` monogram changed from an outlined circle with an italic "H" to a solid historical-green disc with a cream serif "H", matching `app/icon.svg` so the brand reads consistently across tab + header. Minimal, not heavier.
+- **Progress capsule.** `TopBar` progress group is now a calm pill micro-badge (hairline `--rule` border, soft `--surface` fill, `--r-pill`) instead of a border-left-divided cluster — reads as a deliberate marker of the 365-day journey.
+- **e2e** — "home renders hero + CTA" assertion retargeted from "Pregled kursa" to "Započni kurs" (fresh sessions have no progress).
+
+Files touched: `apps/web/app/page.tsx`, `apps/web/app/page.module.css`, `apps/web/app/_components/HomeHeroCta.tsx` (new), `apps/web/app/_components/HomeCurrentLessonCard.tsx`, `apps/web/e2e/smoke.spec.ts`; `packages/ui-web/src/primitives/Brand/Brand.module.css`, `packages/ui-web/src/primitives/TopBar/TopBar.module.css`.
+
 ## Next step
 
 Outstanding work — none of it blocks the live site, but it was deferred, not done:

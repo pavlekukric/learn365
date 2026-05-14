@@ -1,13 +1,24 @@
-import Link from 'next/link';
-
 import { getCourse } from '@learn365/content';
 import { Eyebrow } from '@learn365/ui-web';
 
 import { HomeCurrentLessonCard } from './_components/HomeCurrentLessonCard';
 import { HomeErasList } from './_components/HomeErasList';
+import { HomeHeroCta } from './_components/HomeHeroCta';
 import styles from './page.module.css';
 
 const DEFAULT_COURSE_ID = 'istorija-srbije-365';
+
+/**
+ * Home-only hero copy. Kept here as page-level presentational strings rather
+ * than in `course.description`, which is shared with the course overview and
+ * stays factual/structural. This line is allowed to be warmer and more
+ * editorial without changing the canonical course data.
+ */
+const HERO_EYEBROW = 'Dnevni kurs istorije';
+const HERO_DESCRIPTION =
+  'Kroz osam epoha i 365 kratkih lekcija prati razvoj Srbije — od najstarijih kultura na Balkanu do savremenog doba. Jedan dan, jedna lekcija, jedan jasan put.';
+const ERAS_INTRO =
+  'Osam epoha te vode hronološki kroz ključne ličnosti, mesta i događaje koji su oblikovali srpsku istoriju.';
 
 export default function HomePage() {
   const course = getCourse(DEFAULT_COURSE_ID);
@@ -18,23 +29,28 @@ export default function HomePage() {
   return (
     <div className={`shell ${styles.page}`}>
       <section className={styles.hero}>
-        <Eyebrow>Premium · Istorijski</Eyebrow>
-        <h1 className="display">{course.title}</h1>
-        <p className="lede">{course.subtitle}</p>
-        <p className={`body ${styles.description}`}>{course.description}</p>
+        {/*
+         * Atmospheric hero backdrop. Pure-CSS parchment wash by default; the
+         * final image is dropped in by setting the `--hero-image` CSS variable
+         * in page.module.css — no JSX change required. See `.heroBackdrop`.
+         */}
+        <div className={styles.heroBackdrop} aria-hidden="true" />
 
-        <div className={styles.ctaRow}>
-          <Link href={`/course/${course.id}`} className={styles.ctaPrimary}>
-            Pregled kursa →
-          </Link>
-          <span className="tiny mono">
-            {String(course.totalLessons).padStart(3, '0')} lekcija ·{' '}
-            {course.estimatedMinutesPerLesson} min dnevno
-          </span>
+        <div className={styles.heroInner}>
+          <Eyebrow>{HERO_EYEBROW}</Eyebrow>
+          <h1 className="display">{course.title}</h1>
+          <p className="lede">{course.subtitle}</p>
+          <p className={`body ${styles.description}`}>{HERO_DESCRIPTION}</p>
+
+          <HomeHeroCta
+            courseId={course.id}
+            totalLessons={course.totalLessons}
+            minutesPerLesson={course.estimatedMinutesPerLesson}
+          />
         </div>
       </section>
 
-      <section className={styles.current} aria-label="Vaša aktuelna lekcija">
+      <section className={styles.current} aria-label="Preporučena lekcija">
         <HomeCurrentLessonCard courseId={course.id} />
       </section>
 
@@ -42,9 +58,7 @@ export default function HomePage() {
         <header className={styles.erasHeader}>
           <Eyebrow>Osam epoha</Eyebrow>
           <h2 className="h2">Putovanje kroz 365 dana</h2>
-          <p className={`small ${styles.erasIntro}`}>
-            Svaka epoha grupiše desetine kratkih lekcija, hronološki, kroz ključne ličnosti, mesta i ideje.
-          </p>
+          <p className={`small ${styles.erasIntro}`}>{ERAS_INTRO}</p>
         </header>
         <HomeErasList courseId={course.id} />
       </section>

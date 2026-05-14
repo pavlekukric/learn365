@@ -11,7 +11,9 @@ test.describe('History 365 — smoke', () => {
   test('home renders hero + CTA', async ({ page }) => {
     await page.goto('/');
     await expect(page.getByRole('heading', { level: 1 })).toBeVisible();
-    await expect(page.getByRole('link', { name: /Pregled kursa/ })).toBeVisible();
+    // Fresh session has no progress, so the state-aware hero CTA reads
+    // "Započni kurs" and links to the first lesson.
+    await expect(page.getByRole('link', { name: /Započni kurs/ })).toBeVisible();
   });
 
   test('course overview renders eight eras', async ({ page }) => {

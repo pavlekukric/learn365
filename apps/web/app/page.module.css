@@ -6,7 +6,116 @@
   gap: var(--space-13);
 }
 
+/* ---------------------------------------------------------------------------
+ * Hero
+ * The hero is a full-shell-width band so the atmospheric backdrop can breathe
+ * slightly wider than the text column. Content lives in `.heroInner`, capped
+ * to the reading width.
+ * ------------------------------------------------------------------------- */
 .hero {
+  position: relative;
+  isolation: isolate;
+  padding-top: var(--space-6);
+}
+
+/*
+ * Atmospheric hero backdrop — parchment / textured-museum-book feel.
+ *
+ * Layer structure (bottom → top):
+ *   .heroBackdrop          → pure-CSS parchment wash (always present, gives
+ *                            the band body even where the image is faint)
+ *   .heroBackdrop::before  → the image layer, washed out + softly blended
+ *   .heroBackdrop::after   → cream readability overlay
+ *   .heroInner             → hero content, sits above all of this
+ *
+ * SWAP SEAM: the image is set via the `--hero-image` CSS variable below.
+ * To replace or remove it, change only that one line (use `none` to fall
+ * back to the pure-CSS wash). The asset lives in apps/web/public/hero/.
+ */
+.heroBackdrop {
+  --hero-image: url('/hero/hero-bg.webp');
+
+  position: absolute;
+  z-index: 0;
+  top: calc(-1 * var(--space-8));
+  left: calc(-1 * var(--space-4));
+  right: calc(-1 * var(--space-4));
+  bottom: calc(-1 * var(--space-7));
+  pointer-events: none;
+  overflow: hidden;
+
+  /* Low-contrast parchment wash: warm light pooling top-left, the faintest
+   * historical-green haze top-right, dissolving into the plain page bg. */
+  background-image:
+    radial-gradient(
+      115% 90% at 18% 0%,
+      color-mix(in oklch, var(--surface) 88%, transparent) 0%,
+      transparent 62%
+    ),
+    radial-gradient(
+      90% 80% at 92% 6%,
+      color-mix(in oklch, var(--accent-soft) 28%, transparent) 0%,
+      transparent 55%
+    ),
+    linear-gradient(180deg, var(--surface-2) 0%, transparent 78%);
+
+  /* Fade the whole layer in at the top and out into the plain beige below,
+   * so it reads as atmosphere rather than a card. The long tail past 60%
+   * lets the illustration's lower landmarks dissolve gently into the page. */
+  -webkit-mask-image: linear-gradient(
+    to bottom,
+    transparent 0%,
+    #000 12%,
+    #000 46%,
+    transparent 100%
+  );
+  mask-image: linear-gradient(
+    to bottom,
+    transparent 0%,
+    #000 12%,
+    #000 46%,
+    transparent 100%
+  );
+}
+
+/*
+ * Image layer — the historical illustration, washed out and softly blended
+ * so it can never compete with the hero text. The source asset is already a
+ * low-contrast parchment illustration, so `multiply` only deepens it slightly
+ * over the cream background. `center 22%` keeps the calm, misty upper band of
+ * the artwork behind the text and pushes the busier corner detail (mandala,
+ * castle, church) toward the edges. Set `--hero-image: none` to disable.
+ */
+.heroBackdrop::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: var(--hero-image);
+  background-size: cover;
+  background-position: center 20%;
+  background-repeat: no-repeat;
+  opacity: 0.88;
+  mix-blend-mode: multiply;
+}
+
+/* Readability overlay — a gentle wash of the page background colour so hero
+ * text stays high-contrast over the illustration. Lighter at the top (where
+ * the title sits) and a touch denser lower down. */
+.heroBackdrop::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    180deg,
+    color-mix(in oklch, var(--bg) 30%, transparent) 0%,
+    color-mix(in oklch, var(--bg) 22%, transparent) 45%,
+    color-mix(in oklch, var(--bg) 42%, transparent) 100%
+  );
+}
+
+.heroInner {
+  position: relative;
+  z-index: 1;
   max-width: 760px;
   display: flex;
   flex-direction: column;
@@ -50,8 +159,12 @@
   outline-offset: 3px;
 }
 
+/* Recommended / continue lesson card, with its state-aware label above. */
 .current {
   max-width: 760px;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
 }
 
 .eras {
@@ -76,12 +189,30 @@
  * era list are reachable without excessive scrolling. */
 @media (max-width: 720px) {
   .page {
-    padding-top: var(--space-8);
+    padding-top: var(--space-6);
     padding-bottom: var(--space-12);
     gap: var(--space-10);
   }
   .hero {
+    padding-top: var(--space-4);
+  }
+  .heroInner {
     gap: var(--space-4);
+  }
+  .heroBackdrop {
+    top: calc(-1 * var(--space-6));
+    left: calc(-1 * var(--space-3));
+    right: calc(-1 * var(--space-3));
+  }
+  /*
+   * On narrow viewports `cover` crops the wide illustration to its empty
+   * misty centre, so the artwork all but vanishes. Shift the focal point
+   * right so the church + hillside anchor the composition, and lift the
+   * opacity a touch — the cream overlay still keeps the text dominant.
+   */
+  .heroBackdrop::before {
+    background-position: 82% center;
+    opacity: 0.95;
   }
   .ctaRow {
     gap: var(--space-4);

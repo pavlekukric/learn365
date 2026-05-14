@@ -6,17 +6,25 @@
   text-decoration: none;
 }
 
+/*
+ * Brand mark — a small, deliberate monogram. A solid historical-green disc
+ * with a cream serif "H", matching the app favicon (app/icon.svg) so the
+ * brand reads consistently across the tab, header, and any future surfaces.
+ */
 .mark {
-  width: 28px;
-  height: 28px;
-  border: 1px solid var(--ink);
+  width: 26px;
+  height: 26px;
   border-radius: 50%;
   display: grid;
   place-items: center;
+  background: var(--accent);
+  color: var(--surface);
   font-family: var(--serif);
   font-size: 14px;
   font-style: italic;
-  color: var(--ink);
+  font-weight: 500;
+  line-height: 1;
+  flex-shrink: 0;
 }
 
 .name {
