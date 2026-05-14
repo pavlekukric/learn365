@@ -11,17 +11,18 @@
 }
 
 /*
- * Child-content container: groups the era description + section list and
+ * Child-content container: groups the era description + lesson groups and
  * indents them under the CourseCard so they read as content belonging to
  * the epoch above. The left border is a faint editorial guide, not a
- * heavy timeline rail.
+ * heavy timeline rail. Indentation sits a clear step deeper than the
+ * CourseCard so the hierarchy reads: epoch -> description -> lesson groups.
  */
 .eraChildren {
   display: flex;
   flex-direction: column;
   gap: var(--space-5);
-  margin-left: var(--space-3);
-  padding-left: var(--space-6);
+  margin-left: var(--space-4);
+  padding-left: var(--space-7);
   border-left: 1px solid var(--rule);
 }
 
@@ -30,6 +31,7 @@
   max-width: var(--reading-col);
 }
 
+/* Lesson groups — secondary sections nested under the epoch card. */
 .sections {
   list-style: none;
   padding: 0;
@@ -39,13 +41,60 @@
   border-top: 1px solid var(--rule);
 }
 
-.sectionRow {
-  display: grid;
-  grid-template-columns: 140px 1fr auto;
-  align-items: baseline;
-  gap: var(--space-5);
-  padding: var(--space-4) 0;
+.sectionItem {
   border-bottom: 1px solid var(--rule);
+}
+
+/*
+ * Accordion header — the whole row is the toggle. Kept visually quiet
+ * (transparent, hairline-divided, no shadow) so the lesson groups never
+ * compete with the premium epoch card above them.
+ */
+.sectionRow {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: var(--space-4);
+  padding: var(--space-4) var(--space-2);
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  text-align: left;
+  color: var(--ink);
+  border-radius: var(--r-sm);
+  transition: background var(--dur-base) var(--ease);
+}
+
+.sectionRow:hover {
+  background: var(--surface-2);
+}
+
+.sectionRow:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.chev {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  color: var(--muted);
+  transform: rotate(-90deg);
+  transition: transform var(--dur-base) var(--ease);
+}
+
+.chevOpen {
+  transform: rotate(0deg);
+}
+
+.sectionMeta {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
 }
 
 .sectionDays {
@@ -60,9 +109,28 @@
   line-height: 1.35;
 }
 
+.sectionRowOpen .sectionTitle {
+  color: var(--accent-ink);
+}
+
 .sectionCount {
   color: var(--ink-2);
   font-variant-numeric: tabular-nums;
+}
+
+/*
+ * Expanded daily lessons — tertiary items. Indented a further step beyond
+ * the lesson-group row and rendered with the lighter LessonNavItem scale,
+ * so they read as nested detail and never rival the group title or the
+ * epoch card.
+ */
+.lessons {
+  list-style: none;
+  margin: 0;
+  padding: 0 0 var(--space-3) var(--space-7);
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
 }
 
 @media (max-width: 720px) {
@@ -75,26 +143,15 @@
   .eraChildren {
     gap: var(--space-4);
     margin-left: 0;
+    padding-left: var(--space-5);
+  }
+  .lessons {
     padding-left: var(--space-4);
   }
 }
 
-@media (max-width: 560px) {
-  .sectionRow {
-    grid-template-columns: 1fr auto;
-    row-gap: var(--space-1);
-  }
-  .sectionDays {
-    grid-column: 1 / 2;
-    grid-row: 1 / 2;
-  }
-  .sectionTitle {
-    grid-column: 1 / 2;
-    grid-row: 2 / 3;
-  }
-  .sectionCount {
-    grid-column: 2 / 3;
-    grid-row: 1 / 3;
-    align-self: center;
+@media (prefers-reduced-motion: reduce) {
+  .chev {
+    transition: none;
   }
 }
