@@ -1,7 +1,10 @@
 import type { Era, EraId, Lesson, Section } from '@learn365/content';
 
 import { Breadcrumbs, type BreadcrumbItem } from '../../primitives/Breadcrumbs/Breadcrumbs.js';
-import { HistoricalTimeline } from '../HistoricalTimeline/HistoricalTimeline.js';
+import {
+  HistoricalTimeline,
+  type EraStat,
+} from '../HistoricalTimeline/HistoricalTimeline.js';
 import { LessonBody } from '../LessonBody/LessonBody.js';
 import { LessonHeader } from '../LessonHeader/LessonHeader.js';
 import { MarkAsCompletedButton } from '../MarkAsCompletedButton/MarkAsCompletedButton.js';
@@ -27,6 +30,8 @@ interface LessonReaderProps {
   next: AdjacentLessonLink | null;
   /** Optional href builder for the timeline era bands. */
   eraHref?: (eraId: EraId) => string;
+  /** Optional per-era stats for the timeline's proportional widths + progress. */
+  eraStats?: ReadonlyMap<EraId, EraStat> | undefined;
 }
 
 export function LessonReader({
@@ -40,6 +45,7 @@ export function LessonReader({
   prev,
   next,
   eraHref,
+  eraStats,
 }: LessonReaderProps) {
   void section; // section data is reflected in breadcrumbs; reserved for future use.
 
@@ -52,6 +58,7 @@ export function LessonReader({
         eras={eras}
         currentLesson={{ eraId: era.id, year: lesson.year }}
         eraHref={eraHref}
+        eraStats={eraStats}
       />
       <LessonHeader lesson={lesson} era={era} />
       {isUpcoming ? (

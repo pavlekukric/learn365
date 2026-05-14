@@ -8,6 +8,7 @@ import {
   getSections,
   type CourseId,
   type Era,
+  type EraId,
   type Lesson,
   type Section,
   type SectionId,
@@ -15,6 +16,7 @@ import {
 import { isCompleted } from '@learn365/core';
 import {
   CourseSidebar,
+  type EraStat,
   IconMenu,
   LessonReader,
   MobileLessonDrawer,
@@ -103,6 +105,26 @@ export function LessonPageClient({
     [courseId, lessons],
   );
 
+  // Per-era lesson + completion counts for the timeline's proportional widths
+  // and progress fill. Derived from the already-loaded lessons + progress set.
+  const eraStats = useMemo(() => {
+    const map = new Map<EraId, EraStat>();
+    for (const e of eras) {
+      const eraLessons = lessons.filter((l) => l.eraId === e.id);
+      const completed = completedSet
+        ? eraLessons.reduce(
+            (acc, l) => (completedSet.has(l.id) ? acc + 1 : acc),
+            0,
+          )
+        : 0;
+      map.set(e.id, {
+        lessonCount: eraLessons.length,
+        completedCount: completed,
+      });
+    }
+    return map;
+  }, [eras, lessons, completedSet]);
+
   const breadcrumbs = useMemo(
     () => [
       { label: 'Početna', onClick: undefined },
@@ -178,6 +200,7 @@ export function LessonPageClient({
               : null
           }
           eraHref={eraHref}
+          eraStats={eraStats}
         />
       </div>
 

@@ -1,4 +1,7 @@
-export { HistoricalTimeline } from './HistoricalTimeline/HistoricalTimeline.js';
+export {
+  HistoricalTimeline,
+  type EraStat,
+} from './HistoricalTimeline/HistoricalTimeline.js';
 export { LessonBody } from './LessonBody/LessonBody.js';
 export { LessonHeader } from './LessonHeader/LessonHeader.js';
 export { LessonReader } from './LessonReader/LessonReader.js';
