@@ -27,6 +27,13 @@ interface HistoricalTimelineProps {
    * equal-width bands with no progress styling — the marker still shows.
    */
   eraStats?: ReadonlyMap<EraId, EraStat> | undefined;
+  /**
+   * Layout variant. `'full'` (default) is the responsive journey rail.
+   * `'compact'` forces the condensed vertical layout regardless of viewport —
+   * used inside the mobile "Sadržaj" drawer, where it must not depend on the
+   * `≤720px` media query (the drawer can be open up to 1024px).
+   */
+  variant?: 'full' | 'compact';
 }
 
 type EraState = 'completed' | 'current' | 'upcoming';
@@ -45,6 +52,7 @@ export function HistoricalTimeline({
   currentLesson,
   eraHref,
   eraStats,
+  variant = 'full',
 }: HistoricalTimelineProps) {
   // Per-era lesson counts → proportional band weights. Without `eraStats` every
   // band weighs 1, so the layout falls back to equal widths.
@@ -78,8 +86,13 @@ export function HistoricalTimeline({
     return 'upcoming';
   }
 
+  const rootClass =
+    variant === 'compact'
+      ? `${styles.timeline} ${styles.compact}`
+      : styles.timeline;
+
   return (
-    <nav className={styles.timeline} aria-label="Vremenska osa epoha">
+    <nav className={rootClass} aria-label="Vremenska osa epoha">
       <div className={styles.panel}>
         <div className={styles.rail} aria-hidden="true">
           <span

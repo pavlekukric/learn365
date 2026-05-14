@@ -267,6 +267,121 @@ a.band:focus-visible {
   }
 }
 
+/* ---------------------------------------------------------------------------
+ * Compact variant — the condensed vertical journey rail, forced on at every
+ * viewport. Used inside the mobile "Sadržaj" drawer (≈360px wide, openable up
+ * to 1024px), so it must not depend on the `≤720px` media query. Lighter chrome
+ * because it already sits on the drawer surface.
+ * ------------------------------------------------------------------------- */
+.compact .panel {
+  gap: 0;
+  padding: 0;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+}
+
+.compact .rail {
+  display: none;
+}
+
+.compact .bands {
+  flex-direction: column;
+}
+
+.compact .bandItem {
+  flex: 0 0 auto;
+  width: 100%;
+  min-width: 0;
+}
+
+.compact .band {
+  position: relative;
+  flex-direction: row;
+  align-items: baseline;
+  gap: var(--space-3);
+  padding: var(--space-2) var(--space-1) var(--space-2) var(--space-6);
+  border-left: 0;
+  border-radius: 0;
+}
+
+/* Vertical rail segment — consecutive segments touch into a continuous rail. */
+.compact .band::before {
+  content: '';
+  position: absolute;
+  left: var(--space-2);
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: var(--rule);
+}
+
+.compact .completed.band::before {
+  background: var(--completed);
+}
+
+.compact .bandItem:not(:last-child) .band {
+  box-shadow: inset 0 -1px 0 0 var(--rule);
+}
+
+.compact .node {
+  display: block;
+  position: absolute;
+  left: calc(var(--space-2) + 1px);
+  top: 50%;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: var(--surface);
+  border: 1.5px solid var(--rule-2);
+  transform: translate(-50%, -50%);
+  transition:
+    background var(--dur-base) var(--ease),
+    border-color var(--dur-base) var(--ease);
+}
+
+.compact .completed .node {
+  background: var(--completed);
+  border-color: var(--completed);
+}
+
+.compact .current .node {
+  background: var(--accent);
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px var(--accent-soft);
+}
+
+.compact .text {
+  flex: 1;
+  flex-direction: row;
+  align-items: baseline;
+  gap: var(--space-3);
+  min-width: 0;
+}
+
+.compact .num {
+  flex-shrink: 0;
+  width: 1.75em;
+}
+
+.compact .title {
+  flex: 1;
+  font-size: 14px;
+  white-space: normal;
+  overflow: visible;
+}
+
+/* The full year range is dropped in the compact variant — the start year is
+ * enough context inside the drawer. */
+.compact .yearShort {
+  display: inline;
+  flex-shrink: 0;
+}
+
+.compact .yearFull {
+  display: none;
+}
+
 @media (prefers-reduced-motion: reduce) {
   .marker,
   .railFill,

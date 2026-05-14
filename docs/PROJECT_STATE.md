@@ -389,6 +389,24 @@ Changes:
 
 Files touched: `packages/ui-web/src/lesson/HistoricalTimeline/{HistoricalTimeline.tsx,HistoricalTimeline.module.css,timelineMath.ts,timelineMath.test.ts}`, `packages/ui-web/src/lesson/{index.ts,LessonReader/LessonReader.tsx}`; `apps/web/app/_components/HomeEraTimeline.tsx`, `apps/web/app/course/[courseId]/lesson/[lessonId]/LessonPageClient.tsx`, `apps/web/e2e/smoke.spec.ts`.
 
+## Phase 6.7 — Mobile lesson reading: compact context header: done
+
+A focused UX pass on the lesson reader, triggered by a review of the live mobile build: the full `HistoricalTimeline` rendered inline between the breadcrumbs and the lesson header, so on phones a vertical 8-row block pushed the lesson title far down — the page read as a navigation screen, not a reading view. The lesson page is primarily for reading; the timeline is context, so it should be available but not dominate the first screen. Plan in `docs/PHASE_6_7_MOBILE_LESSON_CONTEXT.md`. Engineering gates all green: typecheck, lint, **79 unit tests**, production build (5 routes), `validate-content` (365/28/8), and Playwright **8 tests × 5 profiles = 40 runs, 38 pass / 2 skipped** (the 2 skips are the documented WebKit Tab-skips-anchors quirk).
+
+**Decisions (2026-05-15, with the product owner):** (1) the mobile "Sadržaj" drawer holds **both** a compact timeline + the course outline — one unified navigation surface; (2) the swap is tied to the **layout** breakpoint (≤1024px, single column), not the device — single column ⇒ compact header + drawer, two-column desktop ⇒ unchanged.
+
+Changes:
+
+- **Inline timeline is desktop-only.** `LessonReader` wraps `<HistoricalTimeline>` in a `.timelineInline` div that is `display:none` at ≤1024px — which also drops it from the a11y tree, so there is no duplicate `nav` landmark. Desktop (>1024px) is visually unchanged: left `CourseSidebar` column + the inline horizontal journey rail.
+- **New `LessonContextHeader`** (`apps/web`, colocated with the lesson route — consistent with the Phase 4 precedent of keeping the mobile course-outline trigger in the lesson page). Replaces the old thin `.mobileBar`. A calm two-row sticky bar shown only ≤1024px: row 1 — back link (→ course overview) · `DAN 001 / 365` · "Sadržaj" button; row 2 — current era label · thin `ProgressBar` + `1 / 365`. On ≤380px the back link collapses to a bare chevron.
+- **Lesson title surfaces immediately.** With the inline timeline gone on mobile, `LessonHeader` (title + subtitle) now sits right after the breadcrumbs — the reading experience starts on the first screen.
+- **Eyebrow de-duplicated.** `LessonHeader`'s eyebrow was one joined string; it's now split so the leading `DAN nnn · era` group (`.eyebrowContext`) is `display:none` at ≤1024px — the sticky context header already carries those. Reading time + year stay (the context header doesn't show them).
+- **"Sadržaj" drawer = compact timeline + course outline.** `MobileLessonDrawer` children went from a bare `<CourseSidebar>` to a `.drawerContents` flex column: a `VREMENSKA OSA`-kickered compact `HistoricalTimeline` pinned at the top (bounded to `38vh`, scrolls), with the scrollable `CourseSidebar` outline filling the rest. Drawer `ariaLabel` default updated to "Sadržaj i vremenska osa".
+- **`HistoricalTimeline` gained `variant?: 'full' | 'compact'`** (default `'full'`, backward-compatible — `HomeEraTimeline` and the desktop reader are untouched). `'compact'` forces the condensed vertical journey-rail layout at *every* viewport (the drawer is ~360px wide but can be open up to 1024px, so it can't rely on the `≤720px` media query) with lighter chrome — it already sits on the drawer surface.
+- **e2e** — the "lesson reader shows day, sidebar, timeline" test is now layout-aware: on single-column profiles it opens the "Sadržaj" drawer, asserts the timeline is visible, then closes it; on desktop it asserts the inline timeline directly.
+
+Files touched — `packages/ui-web/src/lesson/{LessonReader/LessonReader.tsx,LessonReader/LessonReader.module.css,LessonHeader/LessonHeader.tsx,LessonHeader/LessonHeader.module.css,HistoricalTimeline/HistoricalTimeline.tsx,HistoricalTimeline/HistoricalTimeline.module.css,MobileLessonDrawer/MobileLessonDrawer.tsx}`; `apps/web/app/course/[courseId]/lesson/[lessonId]/{LessonContextHeader.tsx,LessonContextHeader.module.css}` (new), `.../LessonPageClient.tsx`, `.../LessonPageClient.module.css`; `apps/web/e2e/smoke.spec.ts`; `docs/PHASE_6_7_MOBILE_LESSON_CONTEXT.md` (new).
+
 ## Next step
 
 Outstanding work — none of it blocks the live site, but it was deferred, not done:

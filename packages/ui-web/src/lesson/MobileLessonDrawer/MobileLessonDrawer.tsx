@@ -11,7 +11,7 @@ interface MobileLessonDrawerProps {
   open: boolean;
   onClose: () => void;
   children: ReactNode;
-  /** Optional aria label for the dialog. Defaults to "Sadržaj kursa". */
+  /** Optional aria label for the dialog. Defaults to "Sadržaj i vremenska osa". */
   ariaLabel?: string;
 }
 
@@ -22,7 +22,7 @@ export function MobileLessonDrawer({
   open,
   onClose,
   children,
-  ariaLabel = 'Sadržaj kursa',
+  ariaLabel = 'Sadržaj i vremenska osa',
 }: MobileLessonDrawerProps) {
   const panelRef = useRef<HTMLDivElement | null>(null);
   const previouslyFocused = useRef<HTMLElement | null>(null);

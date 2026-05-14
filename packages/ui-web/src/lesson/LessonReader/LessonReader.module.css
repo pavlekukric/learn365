@@ -43,6 +43,13 @@
   color: var(--muted);
 }
 
+/* Inline timeline is desktop/two-column only; ≤1024px it lives in the drawer. */
+@media (max-width: 1024px) {
+  .timelineInline {
+    display: none;
+  }
+}
+
 @media (max-width: 860px) {
   .reader {
     gap: var(--space-8);
