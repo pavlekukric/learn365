@@ -10,6 +10,21 @@
   gap: var(--space-5);
 }
 
+/*
+ * Child-content container: groups the era description + section list and
+ * indents them under the CourseCard so they read as content belonging to
+ * the epoch above. The left border is a faint editorial guide, not a
+ * heavy timeline rail.
+ */
+.eraChildren {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-5);
+  margin-left: var(--space-3);
+  padding-left: var(--space-6);
+  border-left: 1px solid var(--rule);
+}
+
 .eraDescription {
   color: var(--ink-2);
   max-width: var(--reading-col);
@@ -56,6 +71,11 @@
   }
   .era {
     gap: var(--space-4);
+  }
+  .eraChildren {
+    gap: var(--space-4);
+    margin-left: 0;
+    padding-left: var(--space-4);
   }
 }
 

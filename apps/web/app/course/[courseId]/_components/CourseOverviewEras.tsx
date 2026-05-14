@@ -53,23 +53,25 @@ export function CourseOverviewEras({ courseId }: CourseOverviewErasProps) {
               isAllDone={isAllDone}
               href={href}
             />
-            <p className={`body ${styles.eraDescription}`}>{era.description}</p>
-            <ul className={styles.sections}>
-              {sections.map((section) => {
-                const count = section.endDay - section.startDay + 1;
-                const padStart = String(section.startDay).padStart(3, '0');
-                const padEnd = String(section.endDay).padStart(3, '0');
-                return (
-                  <li key={section.id} className={styles.sectionRow}>
-                    <span className={`tiny mono ${styles.sectionDays}`}>
-                      D{padStart}–D{padEnd}
-                    </span>
-                    <span className={styles.sectionTitle}>{section.title}</span>
-                    <span className={`tiny mono ${styles.sectionCount}`}>{count}</span>
-                  </li>
-                );
-              })}
-            </ul>
+            <div className={styles.eraChildren}>
+              <p className={`body ${styles.eraDescription}`}>{era.description}</p>
+              <ul className={styles.sections}>
+                {sections.map((section) => {
+                  const count = section.endDay - section.startDay + 1;
+                  const padStart = String(section.startDay).padStart(3, '0');
+                  const padEnd = String(section.endDay).padStart(3, '0');
+                  return (
+                    <li key={section.id} className={styles.sectionRow}>
+                      <span className={`tiny mono ${styles.sectionDays}`}>
+                        D{padStart}–D{padEnd}
+                      </span>
+                      <span className={styles.sectionTitle}>{section.title}</span>
+                      <span className={`tiny mono ${styles.sectionCount}`}>{count}</span>
+                    </li>
+                  );
+                })}
+              </ul>
+            </div>
           </article>
         );
       })}
