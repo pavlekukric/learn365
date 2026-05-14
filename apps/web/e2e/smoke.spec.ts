@@ -43,12 +43,30 @@ test.describe('History 365 — smoke', () => {
   test('lesson reader shows day, sidebar, timeline, and toggles completion', async ({ page }) => {
     await page.goto(`/course/${COURSE_ID}/lesson/${DAY_1_LESSON_ID}`);
 
-    // "DAN 001" appears twice (mobile bar + LessonHeader eyebrow); the mobile
-    // bar is display:none on desktop. Filter to the visible occurrence.
+    // "DAN 001" is in the DOM twice — the LessonContextHeader (single-column
+    // layouts) and the LessonHeader eyebrow (desktop). Exactly one is visible
+    // per layout; filter to it.
     await expect(
       page.getByText(/DAN 001/).filter({ visible: true }).first(),
     ).toBeVisible();
-    await expect(page.getByRole('navigation', { name: 'Vremenska osa epoha' })).toBeVisible();
+    // Timeline reachability differs by layout. Desktop (two-column): the
+    // inline reader timeline is visible. Single-column (≤1024px): the inline
+    // timeline is hidden (`display:none`, so it's out of the a11y tree too) and
+    // the timeline is reached by opening the "Sadržaj" drawer.
+    const contentsButton = page.getByRole('button', {
+      name: /Otvori sadržaj/,
+    });
+    const timeline = page.getByRole('navigation', {
+      name: 'Vremenska osa epoha',
+    });
+    if (await contentsButton.isVisible()) {
+      await contentsButton.click();
+      await expect(timeline).toBeVisible();
+      await page.getByRole('button', { name: 'Zatvori' }).click();
+      await expect(timeline).toBeHidden();
+    } else {
+      await expect(timeline).toBeVisible();
+    }
 
     const markBtn = page.getByRole('button', { name: /Označi kao završeno/ });
     await expect(markBtn).toBeVisible();

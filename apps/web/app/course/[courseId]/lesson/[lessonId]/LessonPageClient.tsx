@@ -17,13 +17,14 @@ import { isCompleted } from '@learn365/core';
 import {
   CourseSidebar,
   type EraStat,
-  IconMenu,
+  HistoricalTimeline,
   LessonReader,
   MobileLessonDrawer,
 } from '@learn365/ui-web';
 
 import { useProgressStore } from '@/lib/progress/ProgressStoreProvider';
 
+import { LessonContextHeader } from './LessonContextHeader';
 import styles from './LessonPageClient.module.css';
 
 interface AdjacentLesson {
@@ -154,22 +155,17 @@ export function LessonPageClient({
       </aside>
 
       <div className={styles.readerColumn}>
-        <div className={styles.mobileBar}>
-          <button
-            type="button"
-            className={styles.outlineButton}
-            onClick={() => {
-              setDrawerOpen(true);
-            }}
-            aria-label="Otvori sadržaj kursa"
-          >
-            <IconMenu />
-            <span>Sadržaj</span>
-          </button>
-          <span className={`tiny mono ${styles.mobileBarMeta}`}>
-            DAN {String(lesson.dayNumber).padStart(3, '0')} · {era.eraShort}
-          </span>
-        </div>
+        <LessonContextHeader
+          backHref={`/course/${courseId}`}
+          dayNumber={lesson.dayNumber}
+          totalDays={lessons.length}
+          eraLabel={era.title}
+          completedCount={completedSet?.size ?? 0}
+          totalLessons={lessons.length}
+          onOpenContents={() => {
+            setDrawerOpen(true);
+          }}
+        />
 
         <LessonReader
           lesson={lesson}
@@ -210,7 +206,21 @@ export function LessonPageClient({
           setDrawerOpen(false);
         }}
       >
-        <CourseSidebar {...sidebarProps} />
+        <div className={styles.drawerContents}>
+          <div className={styles.drawerTimeline}>
+            <span className={`tiny mono ${styles.drawerKicker}`}>
+              VREMENSKA OSA
+            </span>
+            <HistoricalTimeline
+              eras={eras}
+              currentLesson={{ eraId: era.id, year: lesson.year }}
+              eraHref={eraHref}
+              eraStats={eraStats}
+              variant="compact"
+            />
+          </div>
+          <CourseSidebar {...sidebarProps} />
+        </div>
       </MobileLessonDrawer>
     </div>
   );

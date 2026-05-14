@@ -17,51 +17,38 @@
   padding: 0 var(--space-9);
 }
 
-.mobileBar {
-  display: none;
-  align-items: center;
-  justify-content: space-between;
-  gap: var(--space-3);
-  padding: var(--space-3) 0;
+/* --- Mobile "Sadržaj" drawer: compact timeline + course outline ----------- */
+.drawerContents {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Compact timeline pinned at the top of the drawer; bounded so it never
+ * dominates — the course outline below stays the primary navigation. */
+.drawerTimeline {
+  flex: 0 0 auto;
+  max-height: 38vh;
+  overflow-y: auto;
+  padding: var(--space-5) var(--space-4) var(--space-4);
   border-bottom: 1px solid var(--rule);
-  position: sticky;
-  top: var(--topbar-height);
-  background: color-mix(in oklch, var(--bg) 92%, transparent);
-  -webkit-backdrop-filter: saturate(160%) blur(12px);
-  backdrop-filter: saturate(160%) blur(12px);
-  z-index: 10;
 }
 
-.outlineButton {
-  display: inline-flex;
-  align-items: center;
-  gap: var(--space-2);
-  font-family: var(--sans);
-  font-size: 13px;
-  font-weight: 500;
-  color: var(--ink);
-  background: transparent;
-  border: 1px solid var(--rule-2);
-  padding: 6px 12px;
-  border-radius: var(--r-pill);
-  cursor: pointer;
-  transition:
-    background var(--dur-base) var(--ease),
-    border-color var(--dur-base) var(--ease);
-}
-
-.outlineButton:hover {
-  background: var(--surface-2);
-  border-color: var(--ink);
-}
-
-.outlineButton:focus-visible {
-  outline: 2px solid var(--accent);
-  outline-offset: 2px;
-}
-
-.mobileBarMeta {
+.drawerKicker {
+  display: block;
+  margin-bottom: var(--space-3);
   color: var(--muted);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  /* leave room for the drawer's close affordance */
+  padding-right: var(--space-8);
+}
+
+/* CourseSidebar (<nav>) fills the remaining drawer height and scrolls. */
+.drawerContents > nav {
+  flex: 1;
+  min-height: 0;
 }
 
 @media (max-width: 1024px) {
@@ -73,8 +60,5 @@
   }
   .readerColumn {
     padding: 0 var(--space-5);
-  }
-  .mobileBar {
-    display: flex;
   }
 }

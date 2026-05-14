@@ -54,12 +54,18 @@ export function LessonReader({
   return (
     <article className={styles.reader}>
       <Breadcrumbs items={breadcrumbs} />
-      <HistoricalTimeline
-        eras={eras}
-        currentLesson={{ eraId: era.id, year: lesson.year }}
-        eraHref={eraHref}
-        eraStats={eraStats}
-      />
+      {/* Inline timeline — desktop / two-column only. On single-column layouts
+       * (≤1024px) it is hidden here and reached through the "Sadržaj" drawer,
+       * so the lesson reads content-first. `display:none` also drops it from
+       * the a11y tree, so there is no duplicate `nav` landmark. */}
+      <div className={styles.timelineInline}>
+        <HistoricalTimeline
+          eras={eras}
+          currentLesson={{ eraId: era.id, year: lesson.year }}
+          eraHref={eraHref}
+          eraStats={eraStats}
+        />
+      </div>
       <LessonHeader lesson={lesson} era={era} />
       {isUpcoming ? (
         <div className={styles.upcoming}>
