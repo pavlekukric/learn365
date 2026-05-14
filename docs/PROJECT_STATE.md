@@ -274,24 +274,24 @@ Root:
 
 - `.gitignore` — added `lighthouse-*.json` / `lighthouse-*.html` so ad-hoc Lighthouse runs don't leak into commits.
 
-## Phase 6 — deploy plan landed
+## Phase 6 — web release: done
 
-`docs/DEPLOY.md` is now the canonical deploy procedure. Decisions locked:
+Web v1 is live on Vercel at **<https://learn365-web.vercel.app/>** (project `learn365-web`).
 
-- **Host**: Vercel for v1 web. Azure remains the v2 backend target only.
-- **Domain**: Vercel project subdomain for v1; custom domain deferred.
-- **Env vars**: none (no auth, no API, no analytics in v1).
+- **Host**: Vercel. Root Directory `apps/web`; build `cd ../.. && pnpm --filter @learn365/web... build`; install `cd ../.. && pnpm install --frozen-lockfile`; Node 20.
+- **Domain**: Vercel project subdomain. Custom domain deferred.
+- **Env vars**: none.
 - **Branch model**: `main` → production, every PR → preview URL.
+- **No `vercel.json`** in the repo — all config lives in Vercel project settings. Procedure is canonical in `docs/DEPLOY.md`.
 
-No `vercel.json` or production config has been added to the repo yet. Vercel project import + first production deploy are blocked on the manual gates below.
+**The two Phase 5 manual gates were overridden, not cleared** (deliberate product decision, 2026-05-14). The site shipped with them still open.
 
 ## Next step
 
-Manual gates still outstanding before the first production deploy (tracked in `docs/DEPLOY.md` §6):
+Outstanding work — none of it blocks the live site, but it was deferred, not done:
 
-- VoiceOver / NVDA screen-reader smoke on TopBar nav + breadcrumbs + accordion + completion toggle.
-- Editorial review of the 6 authored seed lessons (`packages/content/src/courses/istorija-srbije-365/lessons/authored/`) for historical voice, accuracy, period coverage.
+- **Screen-reader smoke** — VoiceOver / NVDA on TopBar nav + breadcrumbs + accordion + completion toggle.
+- **Editorial review of the 6 authored seed lessons** (`packages/content/src/courses/istorija-srbije-365/lessons/authored/`) for historical voice, accuracy, period coverage.
+- `COMPONENT_LIBRARY.md` still needs the `onClick → href` revision for navigation props called out at the end of Phase 3.
 
-Once both gates clear, create the Vercel project per `docs/DEPLOY.md` §2 and run the first production deploy.
-
-`COMPONENT_LIBRARY.md` still needs the `onClick → href` revision for navigation props called out at the end of Phase 3 — not a deploy blocker.
+After these, the roadmap continues with Phase 7 (Mobile / Expo) and Phase 8 (Backend / .NET) per `docs/IMPLEMENTATION_PLAN.md`.

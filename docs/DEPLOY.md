@@ -142,7 +142,9 @@ Backend (Phase 8) provisions Azure SQL + App Service / Container Apps for the AP
 | Step | Status |
 |---|---|
 | Plan documented (this file) | done |
-| Manual gates cleared (§6) | pending |
-| Vercel project created | pending |
-| First production deploy | pending |
+| Manual gates cleared (§6) | **overridden** — shipped without clearing (product decision, 2026-05-14) |
+| Vercel project created | done — project `learn365-web` |
+| First production deploy | done — live at <https://learn365-web.vercel.app/> |
 | Custom domain | deferred to post-v1 |
+
+The §6 manual gates (screen-reader smoke + editorial review of the 6 seed lessons) were **not** cleared before the first production deploy — this was a deliberate product call. They remain open work; see [PROJECT_STATE.md](PROJECT_STATE.md).
