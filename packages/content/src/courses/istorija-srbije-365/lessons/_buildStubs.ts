@@ -114,6 +114,7 @@ export function buildAllLessons(args: {
         readingTimeMinutes: stubReadingTime(dayNumber),
         year: interpolateYear(era, dayNumber, eraRange.startDay, eraRange.endDay),
         content: [{ type: 'paragraph', text: STUB_PARAGRAPH }],
+        isPlaceholder: true,
       });
     }
   }

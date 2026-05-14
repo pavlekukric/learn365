@@ -164,11 +164,8 @@ for (const s of sections) {
 
 // 11. Authored lessons (if any) must include a first paragraph dropcap (matches docs §2).
 for (const lesson of lessons) {
-  // skip pure stubs (single paragraph, fixed placeholder)
-  if (lesson.content.length === 1 && lesson.content[0]?.type === 'paragraph') {
-    const onlyBlock = lesson.content[0];
-    if (onlyBlock.text === 'Lekcija se uskoro objavljuje.') continue;
-  }
+  // skip unauthored placeholder stubs — they render a dedicated upcoming state.
+  if (lesson.isPlaceholder) continue;
   const firstBlock = lesson.content[0];
   if (!firstBlock) continue;
   if (firstBlock.type !== 'paragraph') {

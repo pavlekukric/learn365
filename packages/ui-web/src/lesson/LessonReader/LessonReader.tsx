@@ -43,6 +43,8 @@ export function LessonReader({
 }: LessonReaderProps) {
   void section; // section data is reflected in breadcrumbs; reserved for future use.
 
+  const isUpcoming = lesson.isPlaceholder === true;
+
   return (
     <article className={styles.reader}>
       <Breadcrumbs items={breadcrumbs} />
@@ -52,9 +54,20 @@ export function LessonReader({
         eraHref={eraHref}
       />
       <LessonHeader lesson={lesson} era={era} />
-      <LessonBody blocks={lesson.content} />
+      {isUpcoming ? (
+        <div className={styles.upcoming}>
+          <p className={styles.upcomingTitle}>Lekcija se uskoro objavljuje.</p>
+          <p className={`small ${styles.upcomingNote}`}>
+            Ovaj dan još nije dostupan u trenutnoj verziji kursa.
+          </p>
+        </div>
+      ) : (
+        <LessonBody blocks={lesson.content} />
+      )}
       <footer className={styles.footer}>
-        <MarkAsCompletedButton isCompleted={isCompleted} onClick={onToggleComplete} />
+        {isUpcoming ? null : (
+          <MarkAsCompletedButton isCompleted={isCompleted} onClick={onToggleComplete} />
+        )}
         <PreviousNextLessonNavigation prev={prev} next={next} />
       </footer>
     </article>

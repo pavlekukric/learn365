@@ -47,3 +47,17 @@
   gap: var(--space-2);
   max-width: 720px;
 }
+
+@media (max-width: 720px) {
+  .page {
+    padding-top: var(--space-8);
+    padding-bottom: var(--space-12);
+    gap: var(--space-9);
+  }
+  .header {
+    gap: var(--space-3);
+  }
+  .eras {
+    gap: var(--space-6);
+  }
+}

@@ -286,6 +286,24 @@ Web v1 is live on Vercel at **<https://learn365-web.vercel.app/>** (project `lea
 
 **The two Phase 5 manual gates were overridden, not cleared** (deliberate product decision, 2026-05-14). The site shipped with them still open.
 
+## Phase 6.1 — mobile polish pass: done
+
+A focused UI refinement pass over the live web v1 — mobile-first, no architectural changes, identity preserved. Engineering gates all green: typecheck, lint, 58 unit tests, production build, `validate-content` (365/28/8), and Playwright **7 tests × 5 profiles = 35 runs, 33 pass / 2 skipped** (the 2 skips are the same documented WebKit Tab-skips-anchors quirk).
+
+Changes:
+
+- **Premium prev/next navigation** — `PreviousNextLessonNavigation` is now one connected rounded card: two fully-tappable halves (`← DAN 135` / `DAN 137 →` with direction arrows + serif title beneath), a hairline divider between them, graceful disabled edges ("Početak kursa" / "Kraj kursa"). Stays one row down to 360px, stacks below that.
+- **Upcoming-lesson state** — added `Lesson.isPlaceholder` (set by `_buildStubs.ts`; the validator now skips dropcap checks via the flag instead of a string match). `LessonReader` renders a calm centred "upcoming" card for placeholder lessons instead of the body — **the awkward giant drop-cap "L" is gone** — and the `Označi kao završeno` button is hidden so unavailable lessons can't be completed.
+- **Mobile header** — `TopBar` progress group gets an "Ukupno" label (desktop only), tabular nowrap count promoted to `--ink-2`, `flex-shrink: 0`; tightened `--inner` / nav gaps at 720/560/460px; decorative mini-bar drops below 460px (precise count stays). `Brand` shrinks (mark 24px, name 16px) ≤560px.
+- **Branding consistency** — `Brand` is now just **"History 365"** (the `/ Istorija 365` flourish removed). Product brand vs. course title ("Istorija Srbije 365", still rendered from `course.title`) no longer mixed in the header.
+- **Epoch cards** — `CourseCard` progress count + "u toku" chip wrapped in a `space-between` row so the chip never stretches full-width on mobile; count promoted to `--ink-2`; consistent mobile padding; era title eased to 19px ≤720px.
+- **Contents drawer** — removed the duplicate close button (`CourseSidebar` no longer renders its own / no longer takes `onClose`; the `MobileLessonDrawer` `data-drawer-close` button is the single close action). Lesson rows get more breathing room (row padding 8→10px, list gap 2→3px).
+- **Typography scale** — added `mobile` overrides (≤860px) for `display`, `h1`, `h2`, `readerH2`, `lede` so the serif headings no longer over-set on narrow screens; `@learn365/ui` rebuilt.
+- **Vertical spacing** — mobile media queries on Home / Course-overview / era-list tighten oversized section gaps so the current-lesson card and content surface earlier; `LessonReader` mobile bottom padding reduced.
+- **e2e** — "completion persists across reload" retargeted from a placeholder day to authored day 7; added a test asserting the placeholder lesson shows the upcoming state and exposes no completion button.
+
+Files touched: `packages/content/src/types.ts`, `.../lessons/_buildStubs.ts`, `.../validate.ts`; `packages/ui/src/tokens/typography.ts` (+ regenerated `dist/globals.css`); `packages/ui-web/src/{lesson/PreviousNextLessonNavigation,lesson/LessonReader,primitives/TopBar,primitives/Brand,course/CourseCard,course/CourseSidebar,course/LessonNavItem,course/SectionAccordion}`; `apps/web/app/page.module.css`, `apps/web/app/course/[courseId]/page.module.css`, `.../_components/CourseOverviewEras.module.css`, `.../lesson/[lessonId]/LessonPageClient.tsx`, `apps/web/e2e/smoke.spec.ts`.
+
 ## Next step
 
 Outstanding work — none of it blocks the live site, but it was deferred, not done:

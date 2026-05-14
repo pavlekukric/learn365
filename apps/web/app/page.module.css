@@ -71,3 +71,20 @@
   color: var(--ink-2);
   max-width: var(--reading-col);
 }
+
+/* Tighten vertical rhythm on mobile so the current-lesson card and the
+ * era list are reachable without excessive scrolling. */
+@media (max-width: 720px) {
+  .page {
+    padding-top: var(--space-8);
+    padding-bottom: var(--space-12);
+    gap: var(--space-10);
+  }
+  .hero {
+    gap: var(--space-4);
+  }
+  .ctaRow {
+    gap: var(--space-4);
+    margin-top: var(--space-3);
+  }
+}

@@ -56,7 +56,8 @@ export function TopBar({
             O aplikaciji
           </span>
 
-          <div className={styles.progressGroup} aria-label="Napredak">
+          <div className={styles.progressGroup} aria-label="Ukupan napredak">
+            <span className={`eyebrow ${styles.progressLabel}`}>Ukupno</span>
             <span className={`tiny mono ${styles.progressCount}`}>
               {formatCount(completedCount)} / {totalLessons}
             </span>

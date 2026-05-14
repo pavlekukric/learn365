@@ -57,6 +57,7 @@ export const typeScale: TypeScale = {
     letterSpacing: '-0.015em',
     weight: 400,
     color: 'ink',
+    mobile: { size: 'clamp(38px, 10.5vw, 52px)', lineHeight: 1.08 },
   },
   h1: {
     family: 'serif',
@@ -65,6 +66,7 @@ export const typeScale: TypeScale = {
     letterSpacing: '-0.018em',
     weight: 400,
     color: 'ink',
+    mobile: { size: '33px', lineHeight: 1.12 },
   },
   readerTitle: {
     family: 'serif',
@@ -82,6 +84,7 @@ export const typeScale: TypeScale = {
     letterSpacing: '-0.012em',
     weight: 400,
     color: 'ink',
+    mobile: { size: '25px', lineHeight: 1.2 },
   },
   readerH2: {
     family: 'serif',
@@ -90,6 +93,7 @@ export const typeScale: TypeScale = {
     letterSpacing: '-0.008em',
     weight: 500,
     color: 'ink',
+    mobile: { size: '22px' },
   },
   h3: {
     family: 'serif',
@@ -105,6 +109,7 @@ export const typeScale: TypeScale = {
     lineHeight: 1.55,
     weight: 300,
     color: 'ink2',
+    mobile: { size: '18px', lineHeight: 1.5 },
   },
   body: {
     family: 'serif',
