@@ -30,9 +30,13 @@ export function CourseOverviewProgress({
     (state) => state.byCourse[courseId]?.completedLessonIds ?? null,
   );
 
-  const currentLesson = lastId
-    ? (getLessonById(courseId, lastId) ?? allLessons[0] ?? null)
-    : (allLessons[0] ?? null);
+  // Completion-driven: a fresh user (nothing completed) is pointed at Day 1 as
+  // a recommended start, not told a peeked-at lesson is already "AKTUELNO".
+  const hasStarted = completed > 0;
+  const currentLesson =
+    hasStarted && lastId
+      ? (getLessonById(courseId, lastId) ?? allLessons[0] ?? null)
+      : (allLessons[0] ?? null);
 
   let nextLesson = null;
   if (currentLesson) {
@@ -51,6 +55,7 @@ export function CourseOverviewProgress({
     <CourseProgress
       completed={completed}
       total={totalLessons}
+      hasStarted={hasStarted}
       currentLesson={
         currentLesson
           ? {

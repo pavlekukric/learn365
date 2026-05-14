@@ -24,6 +24,16 @@
   color: var(--ink);
 }
 
+/*
+ * Empty state: a fresh user has 0% — render it calm and quiet rather than a
+ * bold "0%" that reads as a deflating score. The ring track still shows the
+ * full journey ahead.
+ */
+.ringValueZero {
+  color: var(--faint);
+  font-weight: 300;
+}
+
 .ringMeta {
   color: var(--muted);
   font-variant-numeric: tabular-nums;

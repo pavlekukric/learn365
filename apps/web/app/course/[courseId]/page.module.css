@@ -35,6 +35,12 @@
   border-radius: var(--r-sm);
 }
 
+/* Jump-to-day navigator — a second, precise way into the course; sits a step
+ * below the "start from the beginning" link as a quiet utility. */
+.jump {
+  margin-top: var(--space-2);
+}
+
 .eras {
   display: flex;
   flex-direction: column;

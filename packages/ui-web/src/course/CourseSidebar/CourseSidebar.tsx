@@ -9,6 +9,7 @@ import type {
 
 import { ProgressBar } from '../../primitives/ProgressBar/ProgressBar.js';
 import { EraGroup } from '../EraGroup/EraGroup.js';
+import { JumpToDay } from '../JumpToDay/JumpToDay.js';
 import { SectionAccordion } from '../SectionAccordion/SectionAccordion.js';
 
 import styles from './CourseSidebar.module.css';
@@ -77,9 +78,10 @@ export function CourseSidebar({
             ariaValueText={`${String(completed)} od ${String(total)} završeno`}
           />
           <span className={`tiny mono ${styles.progressMeta}`}>
-            {String(completed).padStart(3, '0')} / {total}
+            {completed} / {total}
           </span>
         </div>
+        <JumpToDay courseId={course.id} />
       </header>
 
       <div className={styles.body}>

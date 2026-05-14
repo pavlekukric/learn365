@@ -18,6 +18,12 @@ interface CourseProgressProps {
   nextLesson: MiniLesson | null;
   currentHref: string | null;
   nextHref: string | null;
+  /**
+   * Whether the user has completed at least one lesson. Drives the "current"
+   * row's framing: a fresh user is *recommended a starting point* ("ZA
+   * POČETAK", idle dot) rather than told a lesson is already "AKTUELNO".
+   */
+  hasStarted: boolean;
 }
 
 function formatDay(day: number): string {
@@ -31,18 +37,24 @@ export function CourseProgress({
   nextLesson,
   currentHref,
   nextHref,
+  hasStarted,
 }: CourseProgressProps) {
   const value = total > 0 ? completed / total : 0;
   const pct = toPercentInt(clamp01(value));
+  const currentKicker = hasStarted ? 'AKTUELNO' : 'ZA POČETAK';
 
   return (
     <article className={styles.card}>
       <div className={styles.ringBlock}>
         <ProgressRing value={value} size={120} stroke={6}>
-          <span className={styles.ringValue}>{pct}%</span>
+          <span
+            className={`${styles.ringValue} ${pct === 0 ? styles.ringValueZero : ''}`}
+          >
+            {pct}%
+          </span>
         </ProgressRing>
         <p className={`tiny mono ${styles.ringMeta}`}>
-          {String(completed).padStart(3, '0')} / {total} završeno
+          {completed} / {total} završeno
         </p>
       </div>
 
@@ -53,9 +65,11 @@ export function CourseProgress({
             className={styles.row}
             aria-disabled={currentHref === null}
           >
-            <CompletionDot state="active" />
+            <CompletionDot state={hasStarted ? 'active' : 'idle'} />
             <span className={styles.rowText}>
-              <span className={`tiny mono ${styles.rowLabel}`}>AKTUELNO · {currentLesson.eraShort}</span>
+              <span className={`tiny mono ${styles.rowLabel}`}>
+                {currentKicker} · {currentLesson.eraShort}
+              </span>
               <span className={styles.rowTitle}>{currentLesson.title}</span>
             </span>
             <span className={`tiny mono ${styles.rowDay}`}>{formatDay(currentLesson.day)}</span>

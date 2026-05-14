@@ -2,7 +2,7 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 
 import { getCourse, getLessons } from '@learn365/content';
-import { Eyebrow } from '@learn365/ui-web';
+import { Eyebrow, JumpToDay } from '@learn365/ui-web';
 
 import { CourseOverviewEras } from './_components/CourseOverviewEras';
 import { CourseOverviewProgress } from './_components/CourseOverviewProgress';
@@ -22,10 +22,14 @@ export default async function CourseOverviewPage({ params }: PageProps) {
 
   return (
     <div className={`shell ${styles.page}`}>
+      {/*
+        Course overview is a navigation tool, not a second landing page — the
+        header stays compact (eyebrow + title + a single "start from the
+        beginning" action). The poetic course subtitle lives on Home only.
+      */}
       <header className={styles.header}>
         <Eyebrow>Kurs</Eyebrow>
         <h1 className="h1">{course.title}</h1>
-        <p className="lede">{course.subtitle}</p>
         {firstLessonId ? (
           <Link
             href={`/course/${course.id}/lesson/${firstLessonId}`}
@@ -34,6 +38,9 @@ export default async function CourseOverviewPage({ params }: PageProps) {
             Počni od Dana 001 →
           </Link>
         ) : null}
+        <div className={styles.jump}>
+          <JumpToDay courseId={course.id} />
+        </div>
       </header>
 
       <CourseOverviewProgress

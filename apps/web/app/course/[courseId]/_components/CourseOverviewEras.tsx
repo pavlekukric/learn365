@@ -32,6 +32,22 @@ function formatDay(day: number): string {
   return `D${String(day).padStart(3, '0')}`;
 }
 
+/**
+ * Serbian count label for lessons. Plural rules: 1/21/31… → "lekcija",
+ * 2–4/22–24… → "lekcije", everything else → "lekcija". Section sizes are
+ * 10–20 so this resolves to "lekcija" in practice, but the helper keeps the
+ * grammar correct if section ranges ever change.
+ */
+function lessonCountLabel(n: number): string {
+  const mod10 = n % 10;
+  const mod100 = n % 100;
+  const word =
+    mod10 >= 2 && mod10 <= 4 && (mod100 < 12 || mod100 > 14)
+      ? 'lekcije'
+      : 'lekcija';
+  return `${String(n)} ${word}`;
+}
+
 interface SectionAccordionRowProps {
   courseId: CourseId;
   section: Section;
@@ -80,7 +96,9 @@ function SectionAccordionRow({
           </span>
           <span className={styles.sectionTitle}>{section.title}</span>
         </span>
-        <span className={`tiny mono ${styles.sectionCount}`}>{count}</span>
+        <span className={`tiny ${styles.sectionCount}`}>
+          {lessonCountLabel(count)}
+        </span>
       </button>
 
       {isOpen ? (

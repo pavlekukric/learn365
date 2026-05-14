@@ -185,6 +185,12 @@
   max-width: var(--reading-col);
 }
 
+/* The era timeline band sits a touch below its header with room to breathe;
+ * on Home it is a visual "taste" of the journey, not a navigation tree. */
+.timeline {
+  padding-top: var(--space-2);
+}
+
 /* Tighten vertical rhythm on mobile so the current-lesson card and the
  * era list are reachable without excessive scrolling. */
 @media (max-width: 720px) {

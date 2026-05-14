@@ -23,6 +23,23 @@ test.describe('History 365 — smoke', () => {
     await expect(eraCards).toHaveCount(8);
   });
 
+  test('jump-to-day routes to a valid day and rejects out-of-range input', async ({
+    page,
+  }) => {
+    await page.goto(`/course/${COURSE_ID}`);
+
+    // Out-of-range input shows an inline error and does not navigate.
+    await page.getByLabel('Idi na dan').fill('999');
+    await page.getByRole('button', { name: 'Idi' }).click();
+    await expect(page.getByText('Unesi broj između 1 i 365.')).toBeVisible();
+    await expect(page).toHaveURL(new RegExp(`/course/${COURSE_ID}$`));
+
+    // A valid day routes straight to that lesson.
+    await page.getByLabel('Idi na dan').fill('7');
+    await page.getByRole('button', { name: 'Idi' }).click();
+    await expect(page).toHaveURL(new RegExp(`/lesson/${AUTHORED_LESSON_ID}$`));
+  });
+
   test('lesson reader shows day, sidebar, timeline, and toggles completion', async ({ page }) => {
     await page.goto(`/course/${COURSE_ID}/lesson/${DAY_1_LESSON_ID}`);
 
