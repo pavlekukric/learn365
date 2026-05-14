@@ -304,6 +304,12 @@ Changes:
 
 Files touched: `packages/content/src/types.ts`, `.../lessons/_buildStubs.ts`, `.../validate.ts`; `packages/ui/src/tokens/typography.ts` (+ regenerated `dist/globals.css`); `packages/ui-web/src/{lesson/PreviousNextLessonNavigation,lesson/LessonReader,primitives/TopBar,primitives/Brand,course/CourseCard,course/CourseSidebar,course/LessonNavItem,course/SectionAccordion}`; `apps/web/app/page.module.css`, `apps/web/app/course/[courseId]/page.module.css`, `.../_components/CourseOverviewEras.module.css`, `.../lesson/[lessonId]/LessonPageClient.tsx`, `apps/web/e2e/smoke.spec.ts`.
 
+## Phase 6.2 — Course page epoch hierarchy: done
+
+Focused UX refinement on the Course overview — no data model, routing, progress, or numbering changes. Each epoch's description + section list now read as **child content** of the `CourseCard` above them: they're wrapped in a single `.eraChildren` container, indented, with a faint `--rule` left-border guide (an editorial hairline, not a heavy timeline rail). Desktop/tablet indent is `--space-3` margin + `--space-6` padding; mobile (≤720px) drops the margin and uses a `--space-4` padding so reading width is preserved. Engineering gates green: typecheck, lint, production build.
+
+Files touched: `apps/web/app/course/[courseId]/_components/CourseOverviewEras.tsx` (wrapped description + section `<ul>` in a `.eraChildren` div), `.../CourseOverviewEras.module.css` (new `.eraChildren` rule + mobile override).
+
 ## Next step
 
 Outstanding work — none of it blocks the live site, but it was deferred, not done:
