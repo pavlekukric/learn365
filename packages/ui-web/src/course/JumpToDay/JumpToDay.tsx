@@ -39,7 +39,7 @@ export function JumpToDay({ courseId }: JumpToDayProps) {
     }
     const lesson = lessons.find((l) => l.dayNumber === day);
     if (!lesson) {
-      setError(`Dan ${String(day)} nije pronađen.`);
+      setError(`DAN ${String(day).padStart(3, '0')} nije pronađen.`);
       return;
     }
     setError(null);

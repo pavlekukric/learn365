@@ -415,6 +415,37 @@ locked 2026-05-15: drop the `VREMENSKA OSA` panel from the mobile drawer; drop
 `JumpToDay` from the lesson sidebar; Era I will be renamed + widened (option
 *a*) in 6.8h. Cadence: 5 review bundles (a+b, c, d+e, f+g, h).
 
+### Phase 6.8f + 6.8g — Hero tighten, day-label normalise, placeholder signal: done
+
+**6.8f** — The Home hero stopped introducing the course twice. The duplicate
+`course.subtitle` lede was removed; only the warmer, Home-specific
+`HERO_DESCRIPTION` paragraph remains between the display title and the CTA.
+Day-label format normalised: the lesson-page breadcrumb's final crumb went
+from `Dan 001` to `DAN 001` to match the LessonContextHeader, LessonHeader
+eyebrow, and CourseProgress "DAN nnn" identifier convention. The
+defensive-only "day not found" error in `JumpToDay` also normalised to
+`DAN nnn` for consistency. The compact `D001` style in `LessonNavItem` and
+`SectionAccordion` ranges stays — that's the deliberate tabular form.
+
+**6.8g** — Placeholder lessons (the 359 unauthored stubs) are now visibly
+*upcoming* in every sidebar / accordion / course-overview tree. `LessonNavItem`
+inspects `lesson.isPlaceholder`; when true the row's `day`, `title`, and
+`meta` text drop to `var(--faint)` and the title goes italic. The
+`.placeholder` rules sit after the `.state_*` blocks so they win at equal
+specificity for both idle and active placeholder rows — a placeholder lesson
+the user is sitting on still gets the accent-soft backdrop ("where am I"),
+with the dimmed text inside making the unavailability clear. No new props on
+`SectionAccordion` or `CourseOverviewEras` — the flag is read off the
+already-passed `lesson` object.
+
+Engineering gates all green: typecheck (6 packages), lint, **79 unit tests**,
+production build (5 routes, sizes unchanged from 6.8e), `validate-content`
+(365/28/8), Playwright **38 / 40** (the 2 documented WebKit skips).
+
+Files touched: `apps/web/app/page.tsx`,
+`apps/web/app/course/[courseId]/lesson/[lessonId]/LessonPageClient.tsx`;
+`packages/ui-web/src/course/{JumpToDay/JumpToDay.tsx,LessonNavItem/LessonNavItem.tsx,LessonNavItem/LessonNavItem.module.css}`.
+
 ### Phase 6.8d + 6.8e — Breadcrumbs link, sidebar tree shows where you are: done
 
 **6.8d** — `BreadcrumbItem` gained an optional `href?: string`. Render order

@@ -152,7 +152,7 @@ export function LessonPageClient({
       { label: 'Početna', href: '/' },
       { label: courseTitle, href: `/course/${courseId}` },
       { label: era.title, href: eraHref(era.id) },
-      { label: `Dan ${String(lesson.dayNumber).padStart(3, '0')}` },
+      { label: `DAN ${String(lesson.dayNumber).padStart(3, '0')}` },
     ],
     [courseTitle, courseId, era.title, era.id, eraHref, lesson.dayNumber],
   );

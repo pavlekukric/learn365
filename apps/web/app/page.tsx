@@ -39,7 +39,10 @@ export default function HomePage() {
         <div className={styles.heroInner}>
           <Eyebrow>{HERO_EYEBROW}</Eyebrow>
           <h1 className="display">{course.title}</h1>
-          <p className="lede">{course.subtitle}</p>
+          {/* The course-level subtitle lede was removed in Phase 6.8f — the
+            * warmer, Home-specific HERO_DESCRIPTION below was saying the same
+            * thing back-to-back. Keep only the description so the hero is one
+            * confident introduction, then the CTA. */}
           <p className={`body ${styles.description}`}>{HERO_DESCRIPTION}</p>
 
           <HomeHeroCta

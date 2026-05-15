@@ -19,9 +19,16 @@ function formatDay(day: number): string {
 }
 
 export function LessonNavItem({ lesson, state, href }: LessonNavItemProps) {
+  const isPlaceholder = lesson.isPlaceholder === true;
   const dotState: 'idle' | 'active' | 'done' =
     state === 'completed' ? 'done' : state;
-  const cls = [styles.row, styles[`state_${state}`]].filter(Boolean).join(' ');
+  const cls = [
+    styles.row,
+    styles[`state_${state}`],
+    isPlaceholder ? styles.placeholder : null,
+  ]
+    .filter(Boolean)
+    .join(' ');
 
   return (
     <Link
