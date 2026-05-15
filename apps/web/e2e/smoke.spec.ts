@@ -49,10 +49,10 @@ test.describe('History 365 — smoke', () => {
     await expect(
       page.getByText(/DAN 001/).filter({ visible: true }).first(),
     ).toBeVisible();
-    // Timeline reachability differs by layout. Desktop (two-column): the
-    // inline reader timeline is visible. Single-column (≤1024px): the inline
-    // timeline is hidden (`display:none`, so it's out of the a11y tree too) and
-    // the timeline is reached by opening the "Sadržaj" drawer.
+    // Navigation surfaces differ by layout. Desktop (two-column): the inline
+    // reader timeline is visible above the article. Single-column (≤1024px):
+    // the inline timeline is hidden (`display:none`, so it's out of the a11y
+    // tree too); the "Sadržaj" button reveals the course outline drawer.
     const contentsButton = page.getByRole('button', {
       name: /Otvori sadržaj/,
     });
@@ -61,9 +61,10 @@ test.describe('History 365 — smoke', () => {
     });
     if (await contentsButton.isVisible()) {
       await contentsButton.click();
-      await expect(timeline).toBeVisible();
+      const drawer = page.getByRole('dialog', { name: 'Sadržaj kursa' });
+      await expect(drawer).toBeVisible();
       await page.getByRole('button', { name: 'Zatvori' }).click();
-      await expect(timeline).toBeHidden();
+      await expect(drawer).toBeHidden();
     } else {
       await expect(timeline).toBeVisible();
     }

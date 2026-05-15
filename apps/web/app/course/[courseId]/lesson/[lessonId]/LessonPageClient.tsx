@@ -17,7 +17,6 @@ import { isCompleted } from '@learn365/core';
 import {
   CourseSidebar,
   type EraStat,
-  HistoricalTimeline,
   LessonReader,
   MobileLessonDrawer,
 } from '@learn365/ui-web';
@@ -206,21 +205,7 @@ export function LessonPageClient({
           setDrawerOpen(false);
         }}
       >
-        <div className={styles.drawerContents}>
-          <div className={styles.drawerTimeline}>
-            <span className={`tiny mono ${styles.drawerKicker}`}>
-              VREMENSKA OSA
-            </span>
-            <HistoricalTimeline
-              eras={eras}
-              currentLesson={{ eraId: era.id, year: lesson.year }}
-              eraHref={eraHref}
-              eraStats={eraStats}
-              variant="compact"
-            />
-          </div>
-          <CourseSidebar {...sidebarProps} />
-        </div>
+        <CourseSidebar {...sidebarProps} />
       </MobileLessonDrawer>
     </div>
   );

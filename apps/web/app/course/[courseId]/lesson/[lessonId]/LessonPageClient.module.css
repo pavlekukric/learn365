@@ -17,40 +17,6 @@
   padding: 0 var(--space-9);
 }
 
-/* --- Mobile "Sadržaj" drawer: compact timeline + course outline ----------- */
-.drawerContents {
-  flex: 1;
-  min-height: 0;
-  display: flex;
-  flex-direction: column;
-}
-
-/* Compact timeline pinned at the top of the drawer; bounded so it never
- * dominates — the course outline below stays the primary navigation. */
-.drawerTimeline {
-  flex: 0 0 auto;
-  max-height: 38vh;
-  overflow-y: auto;
-  padding: var(--space-5) var(--space-4) var(--space-4);
-  border-bottom: 1px solid var(--rule);
-}
-
-.drawerKicker {
-  display: block;
-  margin-bottom: var(--space-3);
-  color: var(--muted);
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  /* leave room for the drawer's close affordance */
-  padding-right: var(--space-8);
-}
-
-/* CourseSidebar (<nav>) fills the remaining drawer height and scrolls. */
-.drawerContents > nav {
-  flex: 1;
-  min-height: 0;
-}
-
 @media (max-width: 1024px) {
   .layout {
     grid-template-columns: 1fr;

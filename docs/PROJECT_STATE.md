@@ -407,6 +407,40 @@ Changes:
 
 Files touched — `packages/ui-web/src/lesson/{LessonReader/LessonReader.tsx,LessonReader/LessonReader.module.css,LessonHeader/LessonHeader.tsx,LessonHeader/LessonHeader.module.css,HistoricalTimeline/HistoricalTimeline.tsx,HistoricalTimeline/HistoricalTimeline.module.css,MobileLessonDrawer/MobileLessonDrawer.tsx}`; `apps/web/app/course/[courseId]/lesson/[lessonId]/{LessonContextHeader.tsx,LessonContextHeader.module.css}` (new), `.../LessonPageClient.tsx`, `.../LessonPageClient.module.css`; `apps/web/e2e/smoke.spec.ts`; `docs/PHASE_6_7_MOBILE_LESSON_CONTEXT.md` (new).
 
+## Phase 6.8 — Decluttering & navigation polish (in progress)
+
+Driven by the 2026-05-15 UX review (`docs/UX_REVIEW_2026-05-15.md`) and its
+implementation plan (`docs/PHASE_6_8_DECLUTTER_PLAN.md`). Owner decisions
+locked 2026-05-15: drop the `VREMENSKA OSA` panel from the mobile drawer; drop
+`JumpToDay` from the lesson sidebar; Era I will be renamed + widened (option
+*a*) in 6.8h. Cadence: 5 review bundles (a+b, c, d+e, f+g, h).
+
+### Phase 6.8a + 6.8b — Sidebar & drawer declutter: done
+
+The lesson sidebar header collapsed from four stacked widgets to two:
+`KURS` kicker + course title. The duplicate `ProgressBar` (the TopBar capsule
+is the canonical course-progress indicator) and the inline `JumpToDay` form
+were removed — fast-jump still lives on the Course overview page. The mobile
+"Sadržaj" drawer's pinned `VREMENSKA OSA` compact-timeline panel and its
+kicker were removed; the drawer now renders a single `<CourseSidebar>` and
+nothing else. `MobileLessonDrawer`'s default `ariaLabel` reverted to
+`"Sadržaj kursa"`; `LessonContextHeader`'s contents-button `aria-label`
+tightened to `"Otvori sadržaj"`. The Playwright "lesson reader shows day…"
+test now asserts the drawer dialog opens/closes on single-column profiles
+(role=dialog, name="Sadržaj kursa") instead of asserting the now-absent
+drawer timeline.
+
+Engineering gates all green: typecheck (6 packages), lint, **79 unit tests**
+(content 24 / core 27 / ui-web 21 / ui 7), production build (5 routes, lesson
+route bundle shrank slightly with the dropped imports), `validate-content`
+(365/28/8), Playwright **8 tests × 5 profiles = 40 runs, 38 pass / 2 skipped**
+(the documented WebKit Tab-skips-anchors quirk).
+
+Files touched: `packages/ui-web/src/course/CourseSidebar/{CourseSidebar.tsx,CourseSidebar.module.css}`,
+`packages/ui-web/src/lesson/MobileLessonDrawer/MobileLessonDrawer.tsx`;
+`apps/web/app/course/[courseId]/lesson/[lessonId]/{LessonPageClient.tsx,LessonPageClient.module.css,LessonContextHeader.tsx}`,
+`apps/web/e2e/smoke.spec.ts`.
+
 ## Next step
 
 Outstanding work — none of it blocks the live site, but it was deferred, not done:

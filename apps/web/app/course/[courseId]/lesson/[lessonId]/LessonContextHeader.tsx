@@ -57,7 +57,7 @@ export function LessonContextHeader({
           type="button"
           className={styles.contentsButton}
           onClick={onOpenContents}
-          aria-label="Otvori sadržaj i vremensku osu"
+          aria-label="Otvori sadržaj"
         >
           <IconMenu />
           <span>Sadržaj</span>
