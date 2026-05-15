@@ -48,9 +48,6 @@ export function TopBar({
           >
             Kurs
           </Link>
-          <span className={styles.disabledLink} aria-disabled="true" title="Uskoro">
-            O aplikaciji
-          </span>
 
           <div className={styles.progressGroup} aria-label="Ukupan napredak">
             <span className={`eyebrow ${styles.progressLabel}`}>Ukupno</span>

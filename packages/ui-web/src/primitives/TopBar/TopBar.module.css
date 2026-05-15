@@ -33,8 +33,7 @@
   gap: var(--space-7);
 }
 
-.nav a,
-.disabledLink {
+.nav a {
   font-family: var(--sans);
   font-size: 13px;
   color: var(--ink-2);
@@ -54,11 +53,6 @@
 .active {
   color: var(--ink) !important;
   font-weight: 500;
-}
-
-.disabledLink {
-  color: var(--faint);
-  cursor: not-allowed;
 }
 
 /*
@@ -116,9 +110,6 @@
   }
   .progressTrack {
     width: 52px;
-  }
-  .disabledLink {
-    display: none;
   }
 }
 
