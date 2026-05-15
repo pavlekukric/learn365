@@ -415,6 +415,39 @@ locked 2026-05-15: drop the `VREMENSKA OSA` panel from the mobile drawer; drop
 `JumpToDay` from the lesson sidebar; Era I will be renamed + widened (option
 *a*) in 6.8h. Cadence: 5 review bundles (a+b, c, d+e, f+g, h).
 
+### Phase 6.8d + 6.8e — Breadcrumbs link, sidebar tree shows where you are: done
+
+**6.8d** — `BreadcrumbItem` gained an optional `href?: string`. Render order
+is now: `href` → `<Link>` (`next/link`), `onClick` → `<button>`, neither →
+`<span>`. The last crumb always renders as a non-interactive span with
+`aria-current="page"`, regardless of `href` / `onClick`. The lesson page's
+breadcrumbs (`Početna` / course title / era title / Dan nnn) now actually
+navigate: Početna → `/`, course → `/course/[id]`, era → era's first lesson;
+the final `Dan nnn` stays a span. Hover gets a subtle underline.
+`docs/COMPONENT_LIBRARY.md` updated — this closes the open Phase-3
+`onClick → href` revision item.
+
+**6.8e** — `EraGroup` is now an accordion. Mirroring the `SectionAccordion`
+pattern, the era header is a button with a chevron + `aria-expanded` +
+`aria-controls`; the era's section list mounts only when open. `CourseSidebar`
+gained `openEraIds` + `onToggleEra` props (same shape as the existing
+`openSectionIds` / `onToggleSection`). `LessonPageClient` tracks `openEraIds`
+state (default = `new Set([currentEraId])`) and auto-expands the current
+era when the user navigates across eras — mirror of the existing per-section
+auto-expand. The user now lands on "where am I" rather than the full 8-era
+/ 28-section wall.
+
+Engineering gates all green: typecheck (6 packages), lint, **79 unit tests**,
+production build (5 routes; lesson route bundle 1.76 kB → 1.82 kB with the
+added accordion state + breadcrumb hrefs), `validate-content` (365/28/8),
+Playwright **38 / 40** (the 2 documented WebKit skips).
+
+Files touched: `packages/ui-web/src/primitives/Breadcrumbs/{Breadcrumbs.tsx,Breadcrumbs.module.css}`,
+`packages/ui-web/src/course/EraGroup/{EraGroup.tsx,EraGroup.module.css}`,
+`packages/ui-web/src/course/CourseSidebar/CourseSidebar.tsx`;
+`apps/web/app/course/[courseId]/lesson/[lessonId]/LessonPageClient.tsx`;
+`docs/COMPONENT_LIBRARY.md`.
+
 ### Phase 6.8c — Article left-anchored against the sidebar: done
 
 On the desktop two-column layout (>1024px), the lesson article is no longer
