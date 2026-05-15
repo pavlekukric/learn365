@@ -96,7 +96,7 @@ test.describe('History 365 — smoke', () => {
     page,
   }) => {
     await page.goto(`/course/${COURSE_ID}/lesson/${PLACEHOLDER_LESSON_ID}`);
-    await expect(page.getByText('Lekcija se uskoro objavljuje.')).toBeVisible();
+    await expect(page.getByText('Ova lekcija je u pripremi.')).toBeVisible();
     // Completion must not be possible for an unavailable lesson.
     await expect(
       page.getByRole('button', { name: /Označi kao završeno/ }),

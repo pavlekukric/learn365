@@ -39,9 +39,15 @@ export function LessonNavItem({ lesson, state, href }: LessonNavItemProps) {
       <CompletionDot state={dotState} />
       <span className={`tiny mono ${styles.day}`}>{formatDay(lesson.dayNumber)}</span>
       <span className={styles.title}>{lesson.title}</span>
-      <span className={`tiny mono ${styles.meta}`}>
-        {lesson.readingTimeMinutes} min
-      </span>
+      {isPlaceholder ? (
+        <span className={`tiny ${styles.upcomingChip}`} aria-label="Uskoro dostupno">
+          Uskoro
+        </span>
+      ) : (
+        <span className={`tiny mono ${styles.meta}`}>
+          {lesson.readingTimeMinutes} min
+        </span>
+      )}
     </Link>
   );
 }

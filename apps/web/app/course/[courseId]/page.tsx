@@ -38,9 +38,6 @@ export default async function CourseOverviewPage({ params }: PageProps) {
             Počni od Dana 001 →
           </Link>
         ) : null}
-        <div className={styles.jump}>
-          <JumpToDay courseId={course.id} />
-        </div>
       </header>
 
       <CourseOverviewProgress
@@ -50,8 +47,15 @@ export default async function CourseOverviewPage({ params }: PageProps) {
 
       <section className={styles.eras} aria-label="Epohe i odeljci">
         <header className={styles.erasHeader}>
-          <Eyebrow>Sadržaj</Eyebrow>
-          <h2 className="h2">Osam epoha, kroz 365 dana</h2>
+          <div className={styles.erasHeading}>
+            <Eyebrow>Sadržaj</Eyebrow>
+            <h2 className="h2">Osam epoha, kroz 365 dana</h2>
+          </div>
+          {/* Jump-to-day sits beside the section heading as a quiet utility —
+            * it belongs with the era/lesson tree, not in the course hero. */}
+          <div className={styles.jump}>
+            <JumpToDay courseId={course.id} />
+          </div>
         </header>
         <CourseOverviewEras courseId={course.id} />
       </section>

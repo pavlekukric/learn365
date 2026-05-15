@@ -560,6 +560,94 @@ Files touched: `packages/ui-web/src/course/CourseSidebar/{CourseSidebar.tsx,Cour
 `apps/web/app/course/[courseId]/lesson/[lessonId]/{LessonPageClient.tsx,LessonPageClient.module.css,LessonContextHeader.tsx}`,
 `apps/web/e2e/smoke.spec.ts`.
 
+## Phase 6.9 — Hero declutter + lesson toolbar swap + upcoming polish: done
+
+A focused UX cleanup pass triggered by a 2026-05-15 review of the live build.
+No architecture, routing, content model, or progress changes. Engineering
+gates all green: typecheck (6 packages), lint (5 packages), **79 unit tests**
+(content 24 / core 27 / ui-web 21 / ui 7), production build (5 routes; lesson
+route 1.82 → 1.79 kB after the toolbar simplification), `validate-content`
+(365/28/8).
+
+### Course overview — JumpToDay relocated out of the page hero
+
+`JumpToDay` moved from the page `.header` (eyebrow + h1 + start link + jump
+form) to the eras-section header, where it sits beside the "Sadržaj" title.
+It now reads as a quiet utility that belongs with the era/lesson tree the
+user is actually scanning, not as a hero-level affordance. The page header
+collapses to the three editorial elements: `Kurs` eyebrow · title · "Počni
+od Dana 001 →". `.erasHeader` became a flex row (title block left, jump
+utility right) with a sensible wrap to full-width on ≤720px.
+
+### Lesson toolbar — `Sadržaj` on the LEFT, `Nazad` removed
+
+`LessonContextHeader` top row swapped to match the drawer it controls: the
+drawer slides in from the left, so the trigger sits on the left now. New
+layout uses `grid-template-columns: 1fr auto 1fr` so the day label stays
+perfectly centered with a single control on the left and an empty spacer
+on the right.
+
+- Left: `☰ Sadržaj` button
+- Center: `DAN nnn / 365`
+- Right: empty grid cell (spacer)
+
+The "Nazad" link is gone. Redundant on the lesson page — the sticky `TopBar`
+already carries a `Kurs` nav link, the `Breadcrumbs` above the article carry
+`Početna · Kurs · Era`, and the browser/PWA back gesture still works.
+`LessonContextHeader`'s `backHref` prop was dropped along with the now-unused
+`IconArrowLeft` import; `LessonPageClient` stopped passing the prop.
+
+The narrow-viewport rule at ≤380px now collapses the contents-button label
+to its icon only (was: the back-link label).
+
+### Drawer behavior — unchanged
+
+Already slides in from the left (`MobileLessonDrawer` `slideIn` keyframe
+`translateX(-100%) → 0`). The Part 2 swap puts the trigger on the left, so
+trigger and drawer direction are now visually + behaviorally aligned. No
+code change needed.
+
+### Unavailable lessons — explicit "Uskoro" chip + intentional page state
+
+- **`LessonNavItem`** now renders an `Uskoro` pill chip in place of the
+  reading-time meta when `lesson.isPlaceholder === true`. The chip is a
+  hairline pill (`var(--rule-2)` border, transparent fill, `var(--muted)`
+  text) — quiet enough to fit the editorial identity, explicit enough that
+  the user can scan which days actually have content before opening.
+  On `.state_active` rows the chip's border and label lift to `--ink-2` so
+  it stays legible on the accent-soft backdrop.
+- **`LessonReader` upcoming state** gained an explicit `Uskoro` eyebrow + a
+  refined message: "Ova lekcija je u pripremi." with a calm note explaining
+  that the course populates progressively. Reads as intentional editorial
+  placeholder, not a broken page. The container is now `role="status"` so
+  the state is announced by screen readers when the upcoming page mounts.
+- The Playwright placeholder-state assertion updated to the new copy.
+
+Files touched:
+
+- `apps/web/app/course/[courseId]/page.tsx` — `JumpToDay` moved from page
+  header into the eras-section header.
+- `apps/web/app/course/[courseId]/page.module.css` — `.erasHeader` flex row;
+  `.erasHeading` (left) + `.jump` (right) with ≤720px wrap.
+- `apps/web/app/course/[courseId]/lesson/[lessonId]/LessonContextHeader.tsx`
+  — `Sadržaj` button moved left; `Nazad` link + `backHref` prop +
+  `IconArrowLeft` import removed; right grid cell is an empty spacer.
+- `apps/web/app/course/[courseId]/lesson/[lessonId]/LessonContextHeader.module.css`
+  — top row uses `grid-template-columns: 1fr auto 1fr`; narrow-viewport rule
+  collapses the contents-button label, not the (now-absent) back link.
+- `apps/web/app/course/[courseId]/lesson/[lessonId]/LessonPageClient.tsx`
+  — stopped passing the obsolete `backHref` prop.
+- `packages/ui-web/src/course/LessonNavItem/LessonNavItem.tsx` — placeholder
+  rows render an `Uskoro` chip in place of the reading-time meta.
+- `packages/ui-web/src/course/LessonNavItem/LessonNavItem.module.css` —
+  `.upcomingChip` rule + `.state_active .upcomingChip` lift on accent bg.
+- `packages/ui-web/src/lesson/LessonReader/LessonReader.tsx` — upcoming
+  state gained an `Uskoro` eyebrow + refined copy; container is
+  `role="status"`.
+- `packages/ui-web/src/lesson/LessonReader/LessonReader.module.css` —
+  `.upcomingEyebrow` rule.
+- `apps/web/e2e/smoke.spec.ts` — placeholder-state assertion updated.
+
 ## Next step
 
 Outstanding work — none of it blocks the live site, but it was deferred, not done:
