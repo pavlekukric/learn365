@@ -415,6 +415,20 @@ locked 2026-05-15: drop the `VREMENSKA OSA` panel from the mobile drawer; drop
 `JumpToDay` from the lesson sidebar; Era I will be renamed + widened (option
 *a*) in 6.8h. Cadence: 5 review bundles (a+b, c, d+e, f+g, h).
 
+### Phase 6.8c — Article left-anchored against the sidebar: done
+
+On the desktop two-column layout (>1024px), the lesson article is no longer
+centred inside an oversized reader column — `.reader { margin: 0 }` anchors
+it flush-left against the `CourseSidebar`, with the right side carrying the
+breathing room. The 660px reading measure (`var(--reading-col)`) is unchanged,
+so the line length stays correct. Single-column layouts (≤1024px) restore
+`margin: 0 auto` so the column remains balanced when there is no sidebar to
+anchor against. Pure CSS change to one file. Engineering gates all green:
+typecheck, lint, **79 unit tests**, production build (5 routes, sizes
+unchanged), Playwright **38 / 40** (the 2 documented WebKit skips).
+
+Files touched: `packages/ui-web/src/lesson/LessonReader/LessonReader.module.css`.
+
 ### Phase 6.8a + 6.8b — Sidebar & drawer declutter: done
 
 The lesson sidebar header collapsed from four stacked widgets to two:
