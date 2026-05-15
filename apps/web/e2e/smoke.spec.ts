@@ -69,26 +69,26 @@ test.describe('History 365 — smoke', () => {
       await expect(timeline).toBeVisible();
     }
 
-    const markBtn = page.getByRole('button', { name: /Označi kao završeno/ });
+    const markBtn = page.getByRole('button', { name: /^Završi$/ });
     await expect(markBtn).toBeVisible();
     await markBtn.click();
 
     await expect(
-      page.getByRole('button', { name: /Označeno kao završeno/ }),
+      page.getByRole('button', { name: /^Završeno$/ }),
     ).toBeVisible();
   });
 
   test('completion persists across reload', async ({ page }) => {
     await page.goto(`/course/${COURSE_ID}/lesson/${AUTHORED_LESSON_ID}`);
-    await page.getByRole('button', { name: /Označi kao završeno/ }).click();
+    await page.getByRole('button', { name: /^Završi$/ }).click();
     await expect(
-      page.getByRole('button', { name: /Označeno kao završeno/ }),
+      page.getByRole('button', { name: /^Završeno$/ }),
     ).toBeVisible();
 
     await page.reload();
 
     await expect(
-      page.getByRole('button', { name: /Označeno kao završeno/ }),
+      page.getByRole('button', { name: /^Završeno$/ }),
     ).toBeVisible();
   });
 
@@ -99,7 +99,7 @@ test.describe('History 365 — smoke', () => {
     await expect(page.getByText('Ova lekcija je u pripremi.')).toBeVisible();
     // Completion must not be possible for an unavailable lesson.
     await expect(
-      page.getByRole('button', { name: /Označi kao završeno/ }),
+      page.getByRole('button', { name: /^Završi$/ }),
     ).toHaveCount(0);
   });
 

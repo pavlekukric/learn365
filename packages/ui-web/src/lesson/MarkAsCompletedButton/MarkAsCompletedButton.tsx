@@ -18,17 +18,8 @@ export function MarkAsCompletedButton({
       onClick={onClick}
       aria-pressed={isCompleted}
     >
-      {isCompleted ? (
-        <>
-          <IconCheck className={styles.icon} />
-          <span>Označeno kao završeno</span>
-        </>
-      ) : (
-        <>
-          <span>Označi kao završeno</span>
-          <IconCheck className={styles.icon} />
-        </>
-      )}
+      <span>{isCompleted ? 'Završeno' : 'Završi'}</span>
+      <IconCheck className={styles.icon} />
     </button>
   );
 }

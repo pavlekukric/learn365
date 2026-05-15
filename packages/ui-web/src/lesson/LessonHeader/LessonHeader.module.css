@@ -8,11 +8,3 @@
   color: var(--muted);
   letter-spacing: 0.14em;
 }
-
-/* DAN + era — shown on desktop, hidden ≤1024px where the sticky
- * LessonContextHeader already carries them. */
-@media (max-width: 1024px) {
-  .eyebrowContext {
-    display: none;
-  }
-}

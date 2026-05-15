@@ -1,5 +1,4 @@
 import type {
-  CourseId,
   Era,
   EraId,
   Lesson,
@@ -14,7 +13,6 @@ import { SectionAccordion } from '../SectionAccordion/SectionAccordion.js';
 import styles from './CourseSidebar.module.css';
 
 interface CourseSidebarProps {
-  course: { id: CourseId; title: string };
   eras: readonly Era[];
   sections: readonly Section[];
   lessons: readonly Lesson[];
@@ -34,7 +32,6 @@ interface CourseSidebarProps {
 }
 
 export function CourseSidebar({
-  course,
   eras,
   sections,
   lessons,
@@ -68,11 +65,6 @@ export function CourseSidebar({
 
   return (
     <nav className={styles.sidebar} aria-label="Sadržaj kursa">
-      <header className={styles.header}>
-        <span className={`tiny mono ${styles.kicker}`}>KURS</span>
-        <p className={styles.courseTitle}>{course.title}</p>
-      </header>
-
       <div className={styles.body}>
         {eras.map((era) => {
           const eraSections = sectionsByEra.get(era.id) ?? [];
