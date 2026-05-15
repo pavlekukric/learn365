@@ -13,57 +13,17 @@
   max-width: 720px;
 }
 
-.startLink {
-  align-self: flex-start;
-  margin-top: var(--space-3);
-  font-family: var(--sans);
-  font-size: 14px;
-  font-weight: 500;
-  color: var(--accent);
-  padding-bottom: 2px;
-  border-bottom: 1px solid var(--accent-soft);
-  transition: border-color var(--dur-base) var(--ease);
-}
-
-.startLink:hover {
-  border-color: var(--accent);
-}
-
-.startLink:focus-visible {
-  outline: 2px solid var(--accent);
-  outline-offset: 3px;
-  border-radius: var(--r-sm);
-}
-
 .eras {
   display: flex;
   flex-direction: column;
   gap: var(--space-8);
 }
 
-/*
- * Eras section header — title block on the left, jump-to-day utility on the
- * right. Jump-to-day was previously in the page hero; sitting beside the era
- * tree it pairs with what the user is actually scanning.
- */
 .erasHeader {
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-between;
-  gap: var(--space-6);
-  flex-wrap: wrap;
-}
-
-.erasHeading {
   display: flex;
   flex-direction: column;
   gap: var(--space-2);
   max-width: 720px;
-  min-width: 0;
-}
-
-.jump {
-  flex-shrink: 0;
 }
 
 @media (max-width: 720px) {
@@ -77,11 +37,5 @@
   }
   .eras {
     gap: var(--space-6);
-  }
-  .erasHeader {
-    gap: var(--space-4);
-  }
-  .jump {
-    width: 100%;
   }
 }

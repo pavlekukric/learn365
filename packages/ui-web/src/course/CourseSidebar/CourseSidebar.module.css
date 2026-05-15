@@ -8,35 +8,11 @@
   height: 100%;
 }
 
-.header {
-  padding: var(--space-5) var(--space-4) var(--space-4);
-  border-bottom: 1px solid var(--rule);
-  display: flex;
-  flex-direction: column;
-  gap: var(--space-2);
-}
-
-.kicker {
-  color: var(--muted);
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  /* leave room for the drawer's close affordance in mobile mode */
-  padding-right: var(--space-8);
-}
-
-.courseTitle {
-  margin: 0;
-  font-family: var(--serif);
-  font-size: 18px;
-  line-height: 1.3;
-  color: var(--ink);
-}
-
 .body {
   flex: 1;
   min-height: 0;
   overflow-y: auto;
-  padding: var(--space-2) 0 var(--space-6);
+  padding: var(--space-5) 0 var(--space-6);
   scrollbar-width: thin;
   scrollbar-color: var(--rule) transparent;
 }

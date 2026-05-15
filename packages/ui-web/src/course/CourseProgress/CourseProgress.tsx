@@ -76,7 +76,10 @@ export function CourseProgress({
           </Link>
         ) : null}
 
-        {nextLesson ? (
+        {/* Empty state shows one confident "start here" row only; the parallel
+         * SLEDEĆE row appears once the user has actually started progressing,
+         * so it never competes with the entry point for a fresh visitor. */}
+        {hasStarted && nextLesson ? (
           <Link
             href={nextHref ?? '#'}
             className={styles.row}

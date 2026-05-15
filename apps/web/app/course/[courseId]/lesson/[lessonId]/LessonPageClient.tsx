@@ -158,7 +158,6 @@ export function LessonPageClient({
   );
 
   const sidebarProps = {
-    course: { id: courseId, title: courseTitle },
     eras,
     sections,
     lessons,

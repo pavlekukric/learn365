@@ -66,7 +66,7 @@ export function LessonReader({
           eraStats={eraStats}
         />
       </div>
-      <LessonHeader lesson={lesson} era={era} />
+      <LessonHeader lesson={lesson} />
       {isUpcoming ? (
         <div className={styles.upcoming} role="status">
           <span className={`eyebrow ${styles.upcomingEyebrow}`}>Uskoro</span>

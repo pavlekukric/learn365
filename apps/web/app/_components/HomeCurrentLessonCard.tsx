@@ -17,7 +17,7 @@ interface HomeCurrentLessonCardProps {
 
 /** Section label, derived from the card's actual state so its purpose is explicit. */
 const LABEL_BY_STATE = {
-  idle: 'Preporučeno za početak',
+  idle: 'Prva lekcija',
   active: 'Nastavi gde si stao',
   done: 'Nedavno završeno',
 } as const;

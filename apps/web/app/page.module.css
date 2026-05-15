@@ -180,11 +180,6 @@
   max-width: 720px;
 }
 
-.erasIntro {
-  color: var(--ink-2);
-  max-width: var(--reading-col);
-}
-
 /* The era timeline band sits a touch below its header with room to breathe;
  * on Home it is a visual "taste" of the journey, not a navigation tree. */
 .timeline {
