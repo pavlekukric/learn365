@@ -179,7 +179,6 @@ export function LessonPageClient({
 
       <div className={styles.readerColumn}>
         <LessonContextHeader
-          backHref={`/course/${courseId}`}
           dayNumber={lesson.dayNumber}
           totalDays={lessons.length}
           eraLabel={era.title}

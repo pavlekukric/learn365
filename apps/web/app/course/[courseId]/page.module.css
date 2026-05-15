@@ -35,23 +35,35 @@
   border-radius: var(--r-sm);
 }
 
-/* Jump-to-day navigator — a second, precise way into the course; sits a step
- * below the "start from the beginning" link as a quiet utility. */
-.jump {
-  margin-top: var(--space-2);
-}
-
 .eras {
   display: flex;
   flex-direction: column;
   gap: var(--space-8);
 }
 
+/*
+ * Eras section header — title block on the left, jump-to-day utility on the
+ * right. Jump-to-day was previously in the page hero; sitting beside the era
+ * tree it pairs with what the user is actually scanning.
+ */
 .erasHeader {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--space-6);
+  flex-wrap: wrap;
+}
+
+.erasHeading {
   display: flex;
   flex-direction: column;
   gap: var(--space-2);
   max-width: 720px;
+  min-width: 0;
+}
+
+.jump {
+  flex-shrink: 0;
 }
 
 @media (max-width: 720px) {
@@ -65,5 +77,11 @@
   }
   .eras {
     gap: var(--space-6);
+  }
+  .erasHeader {
+    gap: var(--space-4);
+  }
+  .jump {
+    width: 100%;
   }
 }

@@ -68,10 +68,12 @@ export function LessonReader({
       </div>
       <LessonHeader lesson={lesson} era={era} />
       {isUpcoming ? (
-        <div className={styles.upcoming}>
-          <p className={styles.upcomingTitle}>Lekcija se uskoro objavljuje.</p>
+        <div className={styles.upcoming} role="status">
+          <span className={`eyebrow ${styles.upcomingEyebrow}`}>Uskoro</span>
+          <p className={styles.upcomingTitle}>Ova lekcija je u pripremi.</p>
           <p className={`small ${styles.upcomingNote}`}>
-            Ovaj dan još nije dostupan u trenutnoj verziji kursa.
+            Sadržaj za ovaj dan još nije objavljen. Kurs se postepeno
+            popunjava — vrati se ovamo uskoro.
           </p>
         </div>
       ) : (

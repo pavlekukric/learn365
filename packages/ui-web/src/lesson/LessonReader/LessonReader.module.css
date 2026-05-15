@@ -20,7 +20,9 @@
 }
 
 /* Calm "upcoming" state for unauthored placeholder lessons.
- * Replaces the body so the drop-cap paragraph style is never applied. */
+ * Replaces the body so the drop-cap paragraph style is never applied. The
+ * explicit USKORO eyebrow makes the state read as intentional editorial
+ * placeholder rather than a broken/empty page. */
 .upcoming {
   display: flex;
   flex-direction: column;
@@ -31,6 +33,10 @@
   background: var(--surface);
   border: 1px solid var(--rule);
   border-radius: var(--r-lg);
+}
+
+.upcomingEyebrow {
+  color: var(--muted);
 }
 
 .upcomingTitle {

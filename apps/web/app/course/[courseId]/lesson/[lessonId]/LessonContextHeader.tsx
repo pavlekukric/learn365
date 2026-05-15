@@ -1,15 +1,10 @@
 'use client';
 
-import Link from 'next/link';
-import type { Route } from 'next';
-
-import { IconArrowLeft, IconMenu, ProgressBar } from '@learn365/ui-web';
+import { IconMenu, ProgressBar } from '@learn365/ui-web';
 
 import styles from './LessonContextHeader.module.css';
 
 interface LessonContextHeaderProps {
-  /** Where the back button goes — the course overview page. */
-  backHref: Route;
   dayNumber: number;
   totalDays: number;
   /** Current era / period label, e.g. "Praistorija i antika". */
@@ -26,12 +21,18 @@ function formatDay(day: number): string {
 
 /**
  * Compact, sticky lesson context header — shown on single-column layouts
- * (≤1024px) in place of the inline timeline. Keeps the lesson page content-first:
- * back + contents affordances, the day position, the current era, and total
- * progress, all in two calm rows. The full timeline is reached via "Sadržaj".
+ * (≤1024px) in place of the inline timeline.
+ *
+ * Top row mirrors the drawer it controls: "Sadržaj" on the LEFT (the drawer
+ * slides in from the left, so the trigger should sit on the same side), with
+ * the day position in the center. There is no explicit "Nazad" action — the
+ * sticky TopBar carries a "Kurs" link, the breadcrumbs above the article
+ * carry "Početna · Kurs · Era", and the browser/PWA back gesture remains.
+ *
+ * Bottom row carries quiet context (current era + total progress) and is
+ * unchanged from the previous version.
  */
 export function LessonContextHeader({
-  backHref,
   dayNumber,
   totalDays,
   eraLabel,
@@ -44,15 +45,6 @@ export function LessonContextHeader({
   return (
     <div className={styles.header}>
       <div className={styles.topRow}>
-        <Link href={backHref} className={styles.backLink}>
-          <IconArrowLeft />
-          <span>Nazad</span>
-        </Link>
-
-        <span className={`tiny mono ${styles.day}`}>
-          DAN {formatDay(dayNumber)} / {totalDays}
-        </span>
-
         <button
           type="button"
           className={styles.contentsButton}
@@ -62,6 +54,14 @@ export function LessonContextHeader({
           <IconMenu />
           <span>Sadržaj</span>
         </button>
+
+        <span className={`tiny mono ${styles.day}`}>
+          DAN {formatDay(dayNumber)} / {totalDays}
+        </span>
+
+        {/* Right cell intentionally empty — keeps the day visually centered
+          * via the grid template, and leaves the toolbar calm. */}
+        <span aria-hidden="true" className={styles.spacer} />
       </div>
 
       <div className={styles.metaRow}>
