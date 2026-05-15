@@ -9,16 +9,13 @@ import styles from './page.module.css';
 const DEFAULT_COURSE_ID = 'istorija-srbije-365';
 
 /**
- * Home-only hero copy. Kept here as page-level presentational strings rather
+ * Home-only hero copy. Kept here as a page-level presentational string rather
  * than in `course.description`, which is shared with the course overview and
  * stays factual/structural. This line is allowed to be warmer and more
  * editorial without changing the canonical course data.
  */
-const HERO_EYEBROW = 'Dnevni kurs istorije';
 const HERO_DESCRIPTION =
   'Kroz osam epoha i 365 kratkih lekcija prati razvoj Srbije — od najstarijih kultura na Balkanu do savremenog doba. Jedan dan, jedna lekcija, jedan jasan put.';
-const ERAS_INTRO =
-  'Osam epoha te vode hronološki kroz ključne ličnosti, mesta i događaje koji su oblikovali srpsku istoriju.';
 
 export default function HomePage() {
   const course = getCourse(DEFAULT_COURSE_ID);
@@ -37,19 +34,13 @@ export default function HomePage() {
         <div className={styles.heroBackdrop} aria-hidden="true" />
 
         <div className={styles.heroInner}>
-          <Eyebrow>{HERO_EYEBROW}</Eyebrow>
+          {/* No hero eyebrow: the TopBar already holds the History 365 brand,
+            * and the h1 below carries the course identity. A second naming
+            * line between them only stutters the same idea. */}
           <h1 className="display">{course.title}</h1>
-          {/* The course-level subtitle lede was removed in Phase 6.8f — the
-            * warmer, Home-specific HERO_DESCRIPTION below was saying the same
-            * thing back-to-back. Keep only the description so the hero is one
-            * confident introduction, then the CTA. */}
           <p className={`body ${styles.description}`}>{HERO_DESCRIPTION}</p>
 
-          <HomeHeroCta
-            courseId={course.id}
-            totalLessons={course.totalLessons}
-            minutesPerLesson={course.estimatedMinutesPerLesson}
-          />
+          <HomeHeroCta courseId={course.id} />
         </div>
       </section>
 
@@ -61,7 +52,6 @@ export default function HomePage() {
         <header className={styles.erasHeader}>
           <Eyebrow>Osam epoha</Eyebrow>
           <h2 className="h2">Putovanje kroz 365 dana</h2>
-          <p className={`small ${styles.erasIntro}`}>{ERAS_INTRO}</p>
         </header>
         <div className={styles.timeline}>
           <HomeEraTimeline courseId={course.id} />

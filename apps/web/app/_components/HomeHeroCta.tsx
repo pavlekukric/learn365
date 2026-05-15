@@ -11,8 +11,6 @@ import styles from '../page.module.css';
 
 interface HomeHeroCtaProps {
   courseId: CourseId;
-  totalLessons: number;
-  minutesPerLesson: number;
 }
 
 /**
@@ -28,14 +26,11 @@ interface HomeHeroCtaProps {
  * - At least one completed → "Nastavi lekciju" pointing at the last-opened
  *   lesson (falling back to the first lesson defensively).
  *
- * The supporting metadata stays course-level ("365 lekcija · oko 8 min dnevno")
- * in both states so it never duplicates the lesson card directly below.
+ * The supporting "365 lekcija · oko 8 min dnevno" meta line was removed in
+ * Phase 7.0c — the hero body description ("365 kratkih lekcija") and the
+ * TopBar progress capsule already carry both facts.
  */
-export function HomeHeroCta({
-  courseId,
-  totalLessons,
-  minutesPerLesson,
-}: HomeHeroCtaProps) {
+export function HomeHeroCta({ courseId }: HomeHeroCtaProps) {
   const completed = useProgressStore((state) => completedCount(state, courseId));
   const lastId = useProgressStore((state) => lastOpenedLessonId(state, courseId));
   const hasProgress = completed > 0;
@@ -52,9 +47,6 @@ export function HomeHeroCta({
       <Link href={href} className={styles.ctaPrimary}>
         {label} →
       </Link>
-      <span className="tiny mono">
-        {totalLessons} lekcija · oko {minutesPerLesson} min dnevno
-      </span>
     </div>
   );
 }
