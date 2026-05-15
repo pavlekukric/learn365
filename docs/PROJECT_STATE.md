@@ -407,6 +407,159 @@ Changes:
 
 Files touched — `packages/ui-web/src/lesson/{LessonReader/LessonReader.tsx,LessonReader/LessonReader.module.css,LessonHeader/LessonHeader.tsx,LessonHeader/LessonHeader.module.css,HistoricalTimeline/HistoricalTimeline.tsx,HistoricalTimeline/HistoricalTimeline.module.css,MobileLessonDrawer/MobileLessonDrawer.tsx}`; `apps/web/app/course/[courseId]/lesson/[lessonId]/{LessonContextHeader.tsx,LessonContextHeader.module.css}` (new), `.../LessonPageClient.tsx`, `.../LessonPageClient.module.css`; `apps/web/e2e/smoke.spec.ts`; `docs/PHASE_6_7_MOBILE_LESSON_CONTEXT.md` (new).
 
+## Phase 6.8 — Decluttering & navigation polish: done
+
+Driven by the 2026-05-15 UX review (`docs/UX_REVIEW_2026-05-15.md`) and its
+implementation plan (`docs/PHASE_6_8_DECLUTTER_PLAN.md`). All 5 review bundles
+landed: 6.8a+b (sidebar & drawer declutter), 6.8c (article left-anchor),
+6.8d+e (breadcrumbs link + sidebar tree shows where you are), 6.8f+g (hero
+tighten + day-label normalise + placeholder signal), 6.8h (Era I content fix).
+
+### Phase 6.8h — Era I rename + widen: done
+
+Resolves the contradiction the UX review flagged: Era I previously titled
+*"Doseljavanje Slovena i rani srednji vek"* with `yearStart: 600` contained
+the Lepenski Vir lesson at 9500 BCE, so its breadcrumb / eyebrow / timeline
+marker were all labelled with the wrong era. Era I is now widened (option
+*a* from the plan):
+
+- `title`: *"Od praistorije do ranog srednjeg veka"*
+- `description`: rewritten to span Lepenski Vir → Vinčanska → Illyrian /
+  Roman heritage → Slavic settlement → early principalities (the actual arc
+  of sections 1–3).
+- `yearStart`: `600 → -9500` (covers Lepenski Vir's ~7000 BCE end of the
+  Lepenski Vir cultural range — timeline math now interpolates the marker
+  inside the era's actual span instead of clamping to the era's left edge).
+- `yearsLabel`: `"do 1166" → "praistorija – 1166"`.
+- `eraShort`: `"Rani srednji vek" → "Praistorija i rani srednji vek"`.
+- `id` is **retained** as `rani-srednji-vek` — every section + authored
+  lesson references it; renaming would cascade through the content registry,
+  the URL slugs aren't affected by the id, and progress state keyed by
+  lesson ids stays valid.
+
+`HistoricalTimeline` gained a small `formatYearShort` helper so negative
+`yearStart` values render as `"9500 p.n.e."` on the desktop rail instead of
+the raw `"-9500"`. Backward-compatible: positive years still render bare
+(unchanged).
+
+Validator unaffected — rule 6 requires `yearStart < yearEnd` and monotonic
+ordering, both hold: `-9500 < 1166` and `-9500 < 1166` (Era II's
+`yearStart`). 365/28/8 still green.
+
+Engineering gates all green: typecheck (6 packages), lint, **79 unit tests**
+(content 24 / core 27 / ui-web 21 / ui 7), production build (5 routes;
+lesson route bundle unchanged at 1.82 kB), `validate-content` (365/28/8),
+Playwright **38 / 40** (the 2 documented WebKit skips).
+
+Files touched: `packages/content/src/courses/istorija-srbije-365/eras.ts`,
+`packages/ui-web/src/lesson/HistoricalTimeline/HistoricalTimeline.tsx`.
+
+### Phase 6.8f + 6.8g — Hero tighten, day-label normalise, placeholder signal: done
+
+### Phase 6.8f + 6.8g — Hero tighten, day-label normalise, placeholder signal: done
+
+**6.8f** — The Home hero stopped introducing the course twice. The duplicate
+`course.subtitle` lede was removed; only the warmer, Home-specific
+`HERO_DESCRIPTION` paragraph remains between the display title and the CTA.
+Day-label format normalised: the lesson-page breadcrumb's final crumb went
+from `Dan 001` to `DAN 001` to match the LessonContextHeader, LessonHeader
+eyebrow, and CourseProgress "DAN nnn" identifier convention. The
+defensive-only "day not found" error in `JumpToDay` also normalised to
+`DAN nnn` for consistency. The compact `D001` style in `LessonNavItem` and
+`SectionAccordion` ranges stays — that's the deliberate tabular form.
+
+**6.8g** — Placeholder lessons (the 359 unauthored stubs) are now visibly
+*upcoming* in every sidebar / accordion / course-overview tree. `LessonNavItem`
+inspects `lesson.isPlaceholder`; when true the row's `day`, `title`, and
+`meta` text drop to `var(--faint)` and the title goes italic. The
+`.placeholder` rules sit after the `.state_*` blocks so they win at equal
+specificity for both idle and active placeholder rows — a placeholder lesson
+the user is sitting on still gets the accent-soft backdrop ("where am I"),
+with the dimmed text inside making the unavailability clear. No new props on
+`SectionAccordion` or `CourseOverviewEras` — the flag is read off the
+already-passed `lesson` object.
+
+Engineering gates all green: typecheck (6 packages), lint, **79 unit tests**,
+production build (5 routes, sizes unchanged from 6.8e), `validate-content`
+(365/28/8), Playwright **38 / 40** (the 2 documented WebKit skips).
+
+Files touched: `apps/web/app/page.tsx`,
+`apps/web/app/course/[courseId]/lesson/[lessonId]/LessonPageClient.tsx`;
+`packages/ui-web/src/course/{JumpToDay/JumpToDay.tsx,LessonNavItem/LessonNavItem.tsx,LessonNavItem/LessonNavItem.module.css}`.
+
+### Phase 6.8d + 6.8e — Breadcrumbs link, sidebar tree shows where you are: done
+
+**6.8d** — `BreadcrumbItem` gained an optional `href?: string`. Render order
+is now: `href` → `<Link>` (`next/link`), `onClick` → `<button>`, neither →
+`<span>`. The last crumb always renders as a non-interactive span with
+`aria-current="page"`, regardless of `href` / `onClick`. The lesson page's
+breadcrumbs (`Početna` / course title / era title / Dan nnn) now actually
+navigate: Početna → `/`, course → `/course/[id]`, era → era's first lesson;
+the final `Dan nnn` stays a span. Hover gets a subtle underline.
+`docs/COMPONENT_LIBRARY.md` updated — this closes the open Phase-3
+`onClick → href` revision item.
+
+**6.8e** — `EraGroup` is now an accordion. Mirroring the `SectionAccordion`
+pattern, the era header is a button with a chevron + `aria-expanded` +
+`aria-controls`; the era's section list mounts only when open. `CourseSidebar`
+gained `openEraIds` + `onToggleEra` props (same shape as the existing
+`openSectionIds` / `onToggleSection`). `LessonPageClient` tracks `openEraIds`
+state (default = `new Set([currentEraId])`) and auto-expands the current
+era when the user navigates across eras — mirror of the existing per-section
+auto-expand. The user now lands on "where am I" rather than the full 8-era
+/ 28-section wall.
+
+Engineering gates all green: typecheck (6 packages), lint, **79 unit tests**,
+production build (5 routes; lesson route bundle 1.76 kB → 1.82 kB with the
+added accordion state + breadcrumb hrefs), `validate-content` (365/28/8),
+Playwright **38 / 40** (the 2 documented WebKit skips).
+
+Files touched: `packages/ui-web/src/primitives/Breadcrumbs/{Breadcrumbs.tsx,Breadcrumbs.module.css}`,
+`packages/ui-web/src/course/EraGroup/{EraGroup.tsx,EraGroup.module.css}`,
+`packages/ui-web/src/course/CourseSidebar/CourseSidebar.tsx`;
+`apps/web/app/course/[courseId]/lesson/[lessonId]/LessonPageClient.tsx`;
+`docs/COMPONENT_LIBRARY.md`.
+
+### Phase 6.8c — Article left-anchored against the sidebar: done
+
+On the desktop two-column layout (>1024px), the lesson article is no longer
+centred inside an oversized reader column — `.reader { margin: 0 }` anchors
+it flush-left against the `CourseSidebar`, with the right side carrying the
+breathing room. The 660px reading measure (`var(--reading-col)`) is unchanged,
+so the line length stays correct. Single-column layouts (≤1024px) restore
+`margin: 0 auto` so the column remains balanced when there is no sidebar to
+anchor against. Pure CSS change to one file. Engineering gates all green:
+typecheck, lint, **79 unit tests**, production build (5 routes, sizes
+unchanged), Playwright **38 / 40** (the 2 documented WebKit skips).
+
+Files touched: `packages/ui-web/src/lesson/LessonReader/LessonReader.module.css`.
+
+### Phase 6.8a + 6.8b — Sidebar & drawer declutter: done
+
+The lesson sidebar header collapsed from four stacked widgets to two:
+`KURS` kicker + course title. The duplicate `ProgressBar` (the TopBar capsule
+is the canonical course-progress indicator) and the inline `JumpToDay` form
+were removed — fast-jump still lives on the Course overview page. The mobile
+"Sadržaj" drawer's pinned `VREMENSKA OSA` compact-timeline panel and its
+kicker were removed; the drawer now renders a single `<CourseSidebar>` and
+nothing else. `MobileLessonDrawer`'s default `ariaLabel` reverted to
+`"Sadržaj kursa"`; `LessonContextHeader`'s contents-button `aria-label`
+tightened to `"Otvori sadržaj"`. The Playwright "lesson reader shows day…"
+test now asserts the drawer dialog opens/closes on single-column profiles
+(role=dialog, name="Sadržaj kursa") instead of asserting the now-absent
+drawer timeline.
+
+Engineering gates all green: typecheck (6 packages), lint, **79 unit tests**
+(content 24 / core 27 / ui-web 21 / ui 7), production build (5 routes, lesson
+route bundle shrank slightly with the dropped imports), `validate-content`
+(365/28/8), Playwright **8 tests × 5 profiles = 40 runs, 38 pass / 2 skipped**
+(the documented WebKit Tab-skips-anchors quirk).
+
+Files touched: `packages/ui-web/src/course/CourseSidebar/{CourseSidebar.tsx,CourseSidebar.module.css}`,
+`packages/ui-web/src/lesson/MobileLessonDrawer/MobileLessonDrawer.tsx`;
+`apps/web/app/course/[courseId]/lesson/[lessonId]/{LessonPageClient.tsx,LessonPageClient.module.css,LessonContextHeader.tsx}`,
+`apps/web/e2e/smoke.spec.ts`.
+
 ## Next step
 
 Outstanding work — none of it blocks the live site, but it was deferred, not done:

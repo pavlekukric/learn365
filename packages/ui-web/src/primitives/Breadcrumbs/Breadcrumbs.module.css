@@ -30,10 +30,15 @@
   cursor: pointer;
   transition: color var(--dur-base) var(--ease);
   border-radius: var(--r-sm);
+  text-decoration: none;
 }
 
 .link:hover {
   color: var(--ink);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+  text-decoration-color: var(--rule-2);
 }
 
 .link:focus-visible {

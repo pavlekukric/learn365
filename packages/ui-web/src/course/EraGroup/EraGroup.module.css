@@ -4,15 +4,54 @@
 }
 
 .header {
-  display: flex;
-  flex-direction: column;
-  gap: 2px;
-  padding: var(--space-4) var(--space-4) var(--space-2);
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: var(--space-3);
+  padding: var(--space-4) var(--space-4) var(--space-3);
+  background: transparent;
+  border: 0;
   border-top: 1px solid var(--rule);
+  cursor: pointer;
+  text-align: left;
+  color: var(--ink);
+  transition: background var(--dur-base) var(--ease);
 }
 
 .group:first-child .header {
   border-top: 0;
+}
+
+.header:hover {
+  background: var(--surface-2);
+}
+
+.header:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: -2px;
+}
+
+.chev {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  color: var(--muted);
+  transform: rotate(-90deg);
+  transition: transform var(--dur-base) var(--ease);
+}
+
+.chevOpen {
+  transform: rotate(0deg);
+}
+
+.titleBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
 }
 
 .num {
@@ -29,6 +68,10 @@
   margin: 0;
 }
 
+.headerOpen .title {
+  color: var(--accent-ink);
+}
+
 .years {
   color: var(--faint);
 }
@@ -36,4 +79,11 @@
 .body {
   display: flex;
   flex-direction: column;
+  padding-bottom: var(--space-2);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .chev {
+    transition: none;
+  }
 }

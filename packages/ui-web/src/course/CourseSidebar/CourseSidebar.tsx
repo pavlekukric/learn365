@@ -1,15 +1,14 @@
 import type {
   CourseId,
   Era,
+  EraId,
   Lesson,
   LessonId,
   Section,
   SectionId,
 } from '@learn365/content';
 
-import { ProgressBar } from '../../primitives/ProgressBar/ProgressBar.js';
 import { EraGroup } from '../EraGroup/EraGroup.js';
-import { JumpToDay } from '../JumpToDay/JumpToDay.js';
 import { SectionAccordion } from '../SectionAccordion/SectionAccordion.js';
 
 import styles from './CourseSidebar.module.css';
@@ -23,6 +22,13 @@ interface CourseSidebarProps {
   completedIds: ReadonlySet<LessonId>;
   openSectionIds: ReadonlySet<SectionId>;
   onToggleSection: (id: SectionId) => void;
+  /**
+   * Eras currently expanded in the sidebar. Mirror of the openSectionIds
+   * pattern: state lives in the parent so the same set can be reused across
+   * the desktop sidebar and the mobile drawer instance.
+   */
+  openEraIds: ReadonlySet<EraId>;
+  onToggleEra: (id: EraId) => void;
   /** Builder returning the href for a lesson within the course. */
   lessonHref: (lesson: Lesson) => string;
 }
@@ -36,15 +42,10 @@ export function CourseSidebar({
   completedIds,
   openSectionIds,
   onToggleSection,
+  openEraIds,
+  onToggleEra,
   lessonHref,
 }: CourseSidebarProps) {
-  const total = lessons.length;
-  const completed = lessons.reduce(
-    (acc, l) => (completedIds.has(l.id) ? acc + 1 : acc),
-    0,
-  );
-  const progressValue = total > 0 ? completed / total : 0;
-
   const sectionsByEra = new Map<string, Section[]>();
   for (const section of sections) {
     const list = sectionsByEra.get(section.eraId) ?? [];
@@ -70,25 +71,20 @@ export function CourseSidebar({
       <header className={styles.header}>
         <span className={`tiny mono ${styles.kicker}`}>KURS</span>
         <p className={styles.courseTitle}>{course.title}</p>
-        <div className={styles.progress}>
-          <ProgressBar
-            value={progressValue}
-            size="thin"
-            ariaLabel="Ukupni napredak"
-            ariaValueText={`${String(completed)} od ${String(total)} završeno`}
-          />
-          <span className={`tiny mono ${styles.progressMeta}`}>
-            {completed} / {total}
-          </span>
-        </div>
-        <JumpToDay courseId={course.id} />
       </header>
 
       <div className={styles.body}>
         {eras.map((era) => {
           const eraSections = sectionsByEra.get(era.id) ?? [];
           return (
-            <EraGroup key={era.id} era={era}>
+            <EraGroup
+              key={era.id}
+              era={era}
+              isOpen={openEraIds.has(era.id)}
+              onToggle={() => {
+                onToggleEra(era.id);
+              }}
+            >
               {eraSections.map((section) => {
                 const sectionLessons = lessonsBySection.get(section.id) ?? [];
                 return (

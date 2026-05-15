@@ -17,7 +17,6 @@ import { isCompleted } from '@learn365/core';
 import {
   CourseSidebar,
   type EraStat,
-  HistoricalTimeline,
   LessonReader,
   MobileLessonDrawer,
 } from '@learn365/ui-web';
@@ -66,6 +65,9 @@ export function LessonPageClient({
   const [openSectionIds, setOpenSectionIds] = useState<ReadonlySet<SectionId>>(
     () => new Set([section.id]),
   );
+  const [openEraIds, setOpenEraIds] = useState<ReadonlySet<EraId>>(
+    () => new Set([era.id]),
+  );
   const [drawerOpen, setDrawerOpen] = useState(false);
 
   useEffect(() => {
@@ -82,8 +84,27 @@ export function LessonPageClient({
     });
   }, [section.id]);
 
+  // Keep the current lesson's era expanded when the user navigates across eras.
+  useEffect(() => {
+    setOpenEraIds((prev) => {
+      if (prev.has(era.id)) return prev;
+      const nextSet = new Set(prev);
+      nextSet.add(era.id);
+      return nextSet;
+    });
+  }, [era.id]);
+
   const handleToggleSection = useCallback((id: SectionId) => {
     setOpenSectionIds((prev) => {
+      const next = new Set(prev);
+      if (next.has(id)) next.delete(id);
+      else next.add(id);
+      return next;
+    });
+  }, []);
+
+  const handleToggleEra = useCallback((id: EraId) => {
+    setOpenEraIds((prev) => {
       const next = new Set(prev);
       if (next.has(id)) next.delete(id);
       else next.add(id);
@@ -128,12 +149,12 @@ export function LessonPageClient({
 
   const breadcrumbs = useMemo(
     () => [
-      { label: 'Početna', onClick: undefined },
-      { label: courseTitle, onClick: undefined },
-      { label: era.title, onClick: undefined },
-      { label: `Dan ${String(lesson.dayNumber).padStart(3, '0')}` },
+      { label: 'Početna', href: '/' },
+      { label: courseTitle, href: `/course/${courseId}` },
+      { label: era.title, href: eraHref(era.id) },
+      { label: `DAN ${String(lesson.dayNumber).padStart(3, '0')}` },
     ],
-    [courseTitle, era.title, lesson.dayNumber],
+    [courseTitle, courseId, era.title, era.id, eraHref, lesson.dayNumber],
   );
 
   const sidebarProps = {
@@ -145,6 +166,8 @@ export function LessonPageClient({
     completedIds: completedSet ?? new Set<string>(),
     openSectionIds,
     onToggleSection: handleToggleSection,
+    openEraIds,
+    onToggleEra: handleToggleEra,
     lessonHref,
   };
 
@@ -206,21 +229,7 @@ export function LessonPageClient({
           setDrawerOpen(false);
         }}
       >
-        <div className={styles.drawerContents}>
-          <div className={styles.drawerTimeline}>
-            <span className={`tiny mono ${styles.drawerKicker}`}>
-              VREMENSKA OSA
-            </span>
-            <HistoricalTimeline
-              eras={eras}
-              currentLesson={{ eraId: era.id, year: lesson.year }}
-              eraHref={eraHref}
-              eraStats={eraStats}
-              variant="compact"
-            />
-          </div>
-          <CourseSidebar {...sidebarProps} />
-        </div>
+        <CourseSidebar {...sidebarProps} />
       </MobileLessonDrawer>
     </div>
   );

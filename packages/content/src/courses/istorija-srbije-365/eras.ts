@@ -14,16 +14,23 @@ const COURSE_ID = 'istorija-srbije-365';
  */
 export const eras: readonly Era[] = [
   {
+    // The `id` is retained ("rani-srednji-vek") because it is referenced by
+    // every section + authored lesson in this era; renaming would cascade
+    // through ProgressStore localStorage keys derived elsewhere. The title +
+    // metadata are widened to honestly cover the era's actual chronological
+    // span (Phase 6.8h) — the first section, "Praistorija i antika", reaches
+    // back to Lepenski Vir at 9500 BCE, so the old `yearStart: 600` framed
+    // those lessons under the wrong era.
     id: 'rani-srednji-vek',
     courseId: COURSE_ID,
     num: 'I',
-    title: 'Doseljavanje Slovena i rani srednji vek',
+    title: 'Od praistorije do ranog srednjeg veka',
     description:
-      'Doseljavanje Srba na Balkan, prve župe, kneževine i pokrštavanje uoči podizanja Nemanjićke države.',
-    yearStart: 600,
+      'Od Lepenskog Vira i Vinčanske kulture, preko ilirskih plemena i rimskog nasleđa, do dolaska Slovena, prvih župa i kneževina uoči podizanja Nemanjićke države.',
+    yearStart: -9500,
     yearEnd: 1166,
-    yearsLabel: 'do 1166',
-    eraShort: 'Rani srednji vek',
+    yearsLabel: 'praistorija – 1166',
+    eraShort: 'Praistorija i rani srednji vek',
     order: 1,
   },
   {

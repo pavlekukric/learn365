@@ -39,6 +39,15 @@ interface HistoricalTimelineProps {
 type EraState = 'completed' | 'current' | 'upcoming';
 
 /**
+ * Compact year label for the desktop timeline rail. Negative years (BCE)
+ * become "9500 p.n.e." rather than the raw "-9500". For positive years we
+ * keep the bare numeral — that's the existing CE convention in the rail.
+ */
+function formatYearShort(year: number): string {
+  return year < 0 ? `${String(Math.abs(year))} p.n.e.` : String(year);
+}
+
+/**
  * The "journey rail" — the 8 historical eras as one connected timeline.
  *
  * Desktop: a horizontal rail above proportionally-sized era bands, with a
@@ -116,7 +125,7 @@ export function HistoricalTimeline({
                   <span className={`mono ${styles.num}`}>{era.num}</span>
                   <span className={styles.title}>{era.title}</span>
                   <span className={`tiny mono ${styles.yearShort}`}>
-                    {String(era.yearStart)}
+                    {formatYearShort(era.yearStart)}
                   </span>
                   <span className={`tiny mono ${styles.yearFull}`}>
                     {era.yearsLabel}

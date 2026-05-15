@@ -82,3 +82,19 @@
 .state_completed .title {
   color: var(--muted);
 }
+
+/* Placeholder lessons — the row reads as "upcoming, not yet available" so
+ * the user can scan which days actually have content. The active state's
+ * accent backdrop still wins (the user might be sitting on an unavailable
+ * lesson and we want them to see "where am I"); these rules only soften
+ * the row's text content. Rules sit after the state_* blocks so they
+ * override the active/idle text colours at equal specificity. */
+.placeholder .day,
+.placeholder .meta {
+  color: var(--faint);
+}
+
+.placeholder .title {
+  color: var(--faint);
+  font-style: italic;
+}

@@ -47,11 +47,24 @@ Mobile: nav links collapse to a hamburger when ≤ 600px; progress chip moves in
 ### `Breadcrumbs`
 
 ```ts
-type BreadcrumbItem = { label: string; onClick?: () => void };
+type BreadcrumbItem = {
+  label: string;
+  // When set, the crumb renders as a `next/link` anchor.
+  href?: string;
+  // Fallback for crumbs that need an in-page action rather than a route change.
+  onClick?: MouseEventHandler<HTMLButtonElement>;
+};
 type BreadcrumbsProps = { items: BreadcrumbItem[] };
 ```
 
-Items without `onClick` render as the current page (no link). Separator is `/`.
+Render order: `href` → `<Link>`; `onClick` → `<button>`; neither → `<span>`.
+The last item always renders as a non-interactive span with
+`aria-current="page"`, regardless of `href` / `onClick`. Separator is `/`.
+
+Phase 6.8d completed the Phase-3 `onClick → href` revision for navigation —
+breadcrumbs that go up a level use `href` so middle-click / right-click /
+open-in-new-tab work and the crumb is a real anchor (not a styled span).
+
 A11y: wrap in `<nav aria-label="Breadcrumbs">`, last item gets `aria-current="page"`.
 Mobile: shows only the last two crumbs.
 

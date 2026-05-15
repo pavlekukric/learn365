@@ -1,25 +1,53 @@
-import type { ReactNode } from 'react';
+import { useId, type ReactNode } from 'react';
 
 import type { Era } from '@learn365/content';
+
+import { IconChev } from '../../icons/IconChev.js';
 
 import styles from './EraGroup.module.css';
 
 interface EraGroupProps {
   era: Era;
+  isOpen: boolean;
+  onToggle: () => void;
   children: ReactNode;
 }
 
-export function EraGroup({ era, children }: EraGroupProps) {
+/**
+ * Era-level accordion in the CourseSidebar. Collapsed by default so the user
+ * lands on "where am I" instead of the full 8-era / 28-section wall; the
+ * current era is expanded by the parent's state. Mirrors the visual treatment
+ * of `SectionAccordion` (chevron + transparent button row + hairline divider)
+ * so the two levels of accordion read as a consistent hierarchy.
+ */
+export function EraGroup({ era, isOpen, onToggle, children }: EraGroupProps) {
+  const panelId = useId();
   return (
-    <section className={styles.group} aria-labelledby={`era-${era.id}`}>
-      <header className={styles.header}>
-        <span className={`tiny mono ${styles.num}`}>EPOHA {era.num}</span>
-        <h3 id={`era-${era.id}`} className={styles.title}>
-          {era.title}
-        </h3>
+    <section className={styles.group}>
+      <button
+        type="button"
+        className={`${styles.header} ${isOpen ? styles.headerOpen : ''}`}
+        onClick={onToggle}
+        aria-expanded={isOpen}
+        aria-controls={panelId}
+      >
+        <span
+          className={`${styles.chev} ${isOpen ? styles.chevOpen : ''}`}
+          aria-hidden="true"
+        >
+          <IconChev />
+        </span>
+        <span className={styles.titleBlock}>
+          <span className={`tiny mono ${styles.num}`}>EPOHA {era.num}</span>
+          <span className={styles.title}>{era.title}</span>
+        </span>
         <span className={`tiny mono ${styles.years}`}>{era.yearsLabel}</span>
-      </header>
-      <div className={styles.body}>{children}</div>
+      </button>
+      {isOpen ? (
+        <div id={panelId} className={styles.body}>
+          {children}
+        </div>
+      ) : null}
     </section>
   );
 }
