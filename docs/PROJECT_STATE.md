@@ -407,13 +407,54 @@ Changes:
 
 Files touched — `packages/ui-web/src/lesson/{LessonReader/LessonReader.tsx,LessonReader/LessonReader.module.css,LessonHeader/LessonHeader.tsx,LessonHeader/LessonHeader.module.css,HistoricalTimeline/HistoricalTimeline.tsx,HistoricalTimeline/HistoricalTimeline.module.css,MobileLessonDrawer/MobileLessonDrawer.tsx}`; `apps/web/app/course/[courseId]/lesson/[lessonId]/{LessonContextHeader.tsx,LessonContextHeader.module.css}` (new), `.../LessonPageClient.tsx`, `.../LessonPageClient.module.css`; `apps/web/e2e/smoke.spec.ts`; `docs/PHASE_6_7_MOBILE_LESSON_CONTEXT.md` (new).
 
-## Phase 6.8 — Decluttering & navigation polish (in progress)
+## Phase 6.8 — Decluttering & navigation polish: done
 
 Driven by the 2026-05-15 UX review (`docs/UX_REVIEW_2026-05-15.md`) and its
-implementation plan (`docs/PHASE_6_8_DECLUTTER_PLAN.md`). Owner decisions
-locked 2026-05-15: drop the `VREMENSKA OSA` panel from the mobile drawer; drop
-`JumpToDay` from the lesson sidebar; Era I will be renamed + widened (option
-*a*) in 6.8h. Cadence: 5 review bundles (a+b, c, d+e, f+g, h).
+implementation plan (`docs/PHASE_6_8_DECLUTTER_PLAN.md`). All 5 review bundles
+landed: 6.8a+b (sidebar & drawer declutter), 6.8c (article left-anchor),
+6.8d+e (breadcrumbs link + sidebar tree shows where you are), 6.8f+g (hero
+tighten + day-label normalise + placeholder signal), 6.8h (Era I content fix).
+
+### Phase 6.8h — Era I rename + widen: done
+
+Resolves the contradiction the UX review flagged: Era I previously titled
+*"Doseljavanje Slovena i rani srednji vek"* with `yearStart: 600` contained
+the Lepenski Vir lesson at 9500 BCE, so its breadcrumb / eyebrow / timeline
+marker were all labelled with the wrong era. Era I is now widened (option
+*a* from the plan):
+
+- `title`: *"Od praistorije do ranog srednjeg veka"*
+- `description`: rewritten to span Lepenski Vir → Vinčanska → Illyrian /
+  Roman heritage → Slavic settlement → early principalities (the actual arc
+  of sections 1–3).
+- `yearStart`: `600 → -9500` (covers Lepenski Vir's ~7000 BCE end of the
+  Lepenski Vir cultural range — timeline math now interpolates the marker
+  inside the era's actual span instead of clamping to the era's left edge).
+- `yearsLabel`: `"do 1166" → "praistorija – 1166"`.
+- `eraShort`: `"Rani srednji vek" → "Praistorija i rani srednji vek"`.
+- `id` is **retained** as `rani-srednji-vek` — every section + authored
+  lesson references it; renaming would cascade through the content registry,
+  the URL slugs aren't affected by the id, and progress state keyed by
+  lesson ids stays valid.
+
+`HistoricalTimeline` gained a small `formatYearShort` helper so negative
+`yearStart` values render as `"9500 p.n.e."` on the desktop rail instead of
+the raw `"-9500"`. Backward-compatible: positive years still render bare
+(unchanged).
+
+Validator unaffected — rule 6 requires `yearStart < yearEnd` and monotonic
+ordering, both hold: `-9500 < 1166` and `-9500 < 1166` (Era II's
+`yearStart`). 365/28/8 still green.
+
+Engineering gates all green: typecheck (6 packages), lint, **79 unit tests**
+(content 24 / core 27 / ui-web 21 / ui 7), production build (5 routes;
+lesson route bundle unchanged at 1.82 kB), `validate-content` (365/28/8),
+Playwright **38 / 40** (the 2 documented WebKit skips).
+
+Files touched: `packages/content/src/courses/istorija-srbije-365/eras.ts`,
+`packages/ui-web/src/lesson/HistoricalTimeline/HistoricalTimeline.tsx`.
+
+### Phase 6.8f + 6.8g — Hero tighten, day-label normalise, placeholder signal: done
 
 ### Phase 6.8f + 6.8g — Hero tighten, day-label normalise, placeholder signal: done
 
