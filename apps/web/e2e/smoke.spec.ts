@@ -86,6 +86,24 @@ test.describe('History 365 — smoke', () => {
     ).toHaveCount(0);
   });
 
+  test('about page renders and is reachable from the footer', async ({ page }) => {
+    // Footer is mounted in the root layout, so the link is present on every
+    // route — exercise it from the home page.
+    await page.goto('/');
+    const footer = page.getByRole('contentinfo');
+    await expect(footer).toBeVisible();
+    await footer.getByRole('link', { name: 'O aplikaciji' }).click();
+    await expect(page).toHaveURL(/\/o-aplikaciji$/);
+    await expect(
+      page.getByRole('heading', { level: 1, name: /Tihi vodič kroz istoriju Srbije/ }),
+    ).toBeVisible();
+    // The #izvori anchor is the deep-link target the footer's "Izvori" link
+    // points at; it must exist as a heading on the page.
+    await expect(
+      page.getByRole('heading', { level: 2, name: 'O izvorima' }),
+    ).toBeVisible();
+  });
+
   test('skip link is the first tab stop and focuses main', async ({ page, browserName }) => {
     // Safari/WebKit skips anchor tags during Tab navigation by default
     // (the "Press Tab to highlight each item" macOS preference is off in

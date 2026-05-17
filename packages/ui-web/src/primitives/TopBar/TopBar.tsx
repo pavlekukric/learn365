@@ -11,6 +11,8 @@ interface TopBarProps {
   route: TopBarRoute;
   /** Href used by the brand mark and the "Kurs" link. */
   courseHref: string;
+  /** Href for the editorial about page (typically /o-aplikaciji). */
+  aboutHref: string;
   /** Total lessons in the active course (typically 365). */
   totalLessons: number;
   /** Completed-lesson count for the active course. */
@@ -20,10 +22,12 @@ interface TopBarProps {
 export function TopBar({
   route,
   courseHref,
+  aboutHref,
   totalLessons,
   completedCount,
 }: TopBarProps) {
   const courseActive = route === 'course' || route === 'lesson';
+  const aboutActive = route === 'about';
   const pct = totalLessons > 0 ? (completedCount / totalLessons) * 100 : 0;
 
   return (
@@ -47,6 +51,13 @@ export function TopBar({
             aria-current={courseActive ? 'page' : undefined}
           >
             Kurs
+          </Link>
+          <Link
+            href={aboutHref}
+            className={aboutActive ? styles.active : undefined}
+            aria-current={aboutActive ? 'page' : undefined}
+          >
+            O aplikaciji
           </Link>
 
           <div className={styles.progressGroup} aria-label="Ukupan napredak">

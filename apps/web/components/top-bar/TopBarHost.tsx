@@ -18,6 +18,7 @@ function routeFromPath(pathname: string | null): TopBarRoute {
     return 'lesson';
   }
   if (pathname.startsWith('/course/')) return 'course';
+  if (pathname.startsWith('/o-aplikaciji')) return 'about';
   return 'home';
 }
 
@@ -28,6 +29,7 @@ export function TopBarHost({ courseId, totalLessons }: TopBarHostProps) {
     <TopBar
       route={routeFromPath(pathname)}
       courseHref={`/course/${courseId}`}
+      aboutHref="/o-aplikaciji"
       totalLessons={totalLessons}
       completedCount={done}
     />
