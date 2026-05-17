@@ -29,7 +29,9 @@
 
 .closeButton {
   position: absolute;
-  top: var(--space-3);
+  /* Respect notch / status-bar inset so the close affordance never sits
+   * under the system overlay on iOS. */
+  top: calc(var(--space-3) + env(safe-area-inset-top));
   right: var(--space-3);
   width: 32px;
   height: 32px;
@@ -63,6 +65,9 @@
   overflow: hidden;
   display: flex;
   flex-direction: column;
+  /* Leave room for the iOS home indicator below the scroll viewport so the
+   * last lesson row never sits underneath it. */
+  padding-bottom: env(safe-area-inset-bottom);
 }
 
 @keyframes fadeIn {

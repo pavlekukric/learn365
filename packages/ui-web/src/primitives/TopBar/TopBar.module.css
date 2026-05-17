@@ -101,6 +101,13 @@
   .inner {
     gap: var(--space-4);
   }
+  /* Mobile: drop the "Početna" / "Kurs" text links — both routes are
+   * reachable via the brand mark (Home) and the in-page breadcrumbs /
+   * lesson context header (Course). Keeps the header to brand + progress
+   * so it reads as editorial chrome rather than a web nav bar. */
+  .nav a {
+    display: none;
+  }
   .progressGroup {
     padding: 4px 10px;
     gap: var(--space-2);
@@ -113,24 +120,9 @@
   }
 }
 
-@media (max-width: 560px) {
-  .inner {
-    gap: var(--space-3);
-  }
-  .nav {
-    gap: var(--space-4);
-  }
-  .nav a {
-    font-size: 12px;
-  }
-}
-
 /* Very narrow screens: keep the precise count, drop the decorative
  * mini-bar so the header never feels squeezed. */
 @media (max-width: 460px) {
-  .nav {
-    gap: var(--space-3);
-  }
   .progressTrack {
     display: none;
   }

@@ -84,41 +84,23 @@
 }
 
 /* Placeholder lessons — the row reads as "upcoming, not yet available" so
- * the user can scan which days actually have content. The active state's
- * accent backdrop still wins (the user might be sitting on an unavailable
- * lesson and we want them to see "where am I"); these rules only soften
- * the row's text content. Rules sit after the state_* blocks so they
- * override the active/idle text colours at equal specificity. */
-.placeholder .day,
-.placeholder .meta {
+ * the user can scan which days actually have content. The "Uskoro" chip was
+ * removed because repeating it on every unpublished row created visual
+ * noise; the italic + faint title now carries the meaning on its own.
+ * The active state's accent backdrop still wins (the user might be sitting
+ * on an unavailable lesson and we want them to see "where am I"); these
+ * rules only soften the row's text content. Rules sit after the state_*
+ * blocks so they override the active/idle text colours at equal specificity. */
+.placeholder {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.placeholder .day {
   color: var(--faint);
 }
 
 .placeholder .title {
   color: var(--faint);
   font-style: italic;
-}
-
-/* Explicit "Uskoro" chip on placeholder rows — replaces the reading-time meta
- * so the row reads as upcoming-not-yet-available before the user opens it.
- * Quiet visual weight: hairline border, no fill, faint label. */
-.upcomingChip {
-  display: inline-flex;
-  align-items: center;
-  padding: 1px 8px;
-  border: 1px solid var(--rule-2);
-  border-radius: var(--r-pill);
-  color: var(--muted);
-  font-family: var(--sans);
-  font-weight: 500;
-  letter-spacing: 0.04em;
-  white-space: nowrap;
-  background: transparent;
-}
-
-/* When the user is sitting on a placeholder lesson the row gets the active
- * accent backdrop; lift the chip's border + text to stay legible on it. */
-.state_active .upcomingChip {
-  border-color: var(--ink-2);
-  color: var(--ink-2);
 }

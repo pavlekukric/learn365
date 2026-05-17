@@ -2,7 +2,12 @@ import { describe, expect, it } from 'vitest';
 
 import type { Lesson } from '@learn365/content/types';
 
-import { findNextLesson, findPrevLesson, lessonViewState } from './index.js';
+import {
+  findActiveLocation,
+  findNextLesson,
+  findPrevLesson,
+  lessonViewState,
+} from './index.js';
 
 function lesson(id: string, dayNumber: number): Lesson {
   return {
@@ -50,6 +55,66 @@ describe('findNextLesson', () => {
 
   it('returns null when the lesson is unknown', () => {
     expect(findNextLesson(lessons, 'zzz')).toBeNull();
+  });
+});
+
+function l(id: string, dayNumber: number, sectionId: string, eraId: string): Lesson {
+  return {
+    id,
+    courseId: 'istorija-srbije-365',
+    sectionId,
+    eraId,
+    dayNumber,
+    title: `Lesson ${id}`,
+    readingTimeMinutes: 8,
+    year: 2026,
+    content: [{ type: 'paragraph', text: '…' }],
+    order: dayNumber,
+  };
+}
+
+describe('findActiveLocation', () => {
+  const courseLessons: readonly Lesson[] = [
+    l('a', 1, 's1', 'e1'),
+    l('b', 2, 's1', 'e1'),
+    l('c', 3, 's2', 'e1'),
+    l('d', 4, 's3', 'e2'),
+  ];
+
+  it('returns null on an empty lesson list', () => {
+    expect(findActiveLocation([], null, null)).toBeNull();
+  });
+
+  it('uses lastOpenedLessonId when it points to a real lesson', () => {
+    expect(
+      findActiveLocation(courseLessons, new Set(['a']), 'c'),
+    ).toEqual({ lessonId: 'c', sectionId: 's2', eraId: 'e1' });
+  });
+
+  it('falls back to first incomplete when lastOpened is stale', () => {
+    expect(
+      findActiveLocation(courseLessons, new Set(['a', 'b']), 'zzz'),
+    ).toEqual({ lessonId: 'c', sectionId: 's2', eraId: 'e1' });
+  });
+
+  it('falls back to first incomplete when there is no lastOpened', () => {
+    expect(
+      findActiveLocation(courseLessons, new Set(['a']), null),
+    ).toEqual({ lessonId: 'b', sectionId: 's1', eraId: 'e1' });
+  });
+
+  it('falls back to the first lesson when nothing is completed and lastOpened is null', () => {
+    expect(findActiveLocation(courseLessons, null, null)).toEqual({
+      lessonId: 'a',
+      sectionId: 's1',
+      eraId: 'e1',
+    });
+  });
+
+  it('falls back to the first lesson when everything is complete', () => {
+    expect(
+      findActiveLocation(courseLessons, new Set(['a', 'b', 'c', 'd']), null),
+    ).toEqual({ lessonId: 'a', sectionId: 's1', eraId: 'e1' });
   });
 });
 

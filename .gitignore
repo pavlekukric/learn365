@@ -18,6 +18,10 @@ test-results/
 lighthouse-*.json
 lighthouse-*.html
 
+# Visual screenshot pack — regenerate locally via `pnpm screenshots`.
+# Keep the README in `screenshots/`; ignore the per-viewport image folders.
+screenshots/*/
+
 # Environment
 .env
 .env.local
@@ -42,3 +46,6 @@ desktop.ini
 .idea/
 *.swp
 *.swo
+
+# Claude Code local config (per-machine permissions, not shared)
+.claude/

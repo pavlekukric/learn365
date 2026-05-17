@@ -1,4 +1,9 @@
 export {
+  CompletedFooter,
+  type CompletedFooterNext,
+  type CompletedFooterPrev,
+} from './CompletedFooter/CompletedFooter.js';
+export {
   HistoricalTimeline,
   type EraStat,
 } from './HistoricalTimeline/HistoricalTimeline.js';

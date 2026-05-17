@@ -12,7 +12,8 @@
     "lint": "eslint .",
     "typecheck": "tsc --noEmit",
     "test": "vitest run --passWithNoTests",
-    "test:e2e": "playwright test"
+    "test:e2e": "playwright test",
+    "screenshots": "next build && playwright test --config=playwright.screenshots.config.ts"
   },
   "dependencies": {
     "@learn365/content": "workspace:*",

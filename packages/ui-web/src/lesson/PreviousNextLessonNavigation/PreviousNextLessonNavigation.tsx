@@ -9,6 +9,11 @@ interface AdjacentLessonLink {
   title: string;
   dayNumber: number;
   href: string;
+  /** Optional metadata used only by the post-completion footer; ignored
+   * here, but accepted so the same prev/next props can flow into either
+   * component without callers building two shapes. */
+  eraLabel?: string;
+  readingTimeMinutes?: number;
 }
 
 interface PreviousNextLessonNavigationProps {

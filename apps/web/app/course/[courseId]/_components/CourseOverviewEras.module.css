@@ -1,13 +1,64 @@
 .list {
   display: flex;
   flex-direction: column;
-  gap: var(--space-11);
+  gap: var(--space-9);
 }
 
 .era {
   display: flex;
   flex-direction: column;
-  gap: var(--space-5);
+  gap: var(--space-3);
+}
+
+/*
+ * Era expand/collapse toggle — sits directly under the CourseCard so the
+ * card can keep its existing "open era" link semantics (tap → first lesson)
+ * without ambiguity. Quiet by default; rotates the chevron when open. Width
+ * is auto so it never feels like a wide secondary button competing with
+ * the card above.
+ */
+.eraToggle {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: 6px 10px;
+  background: transparent;
+  border: 0;
+  border-radius: var(--r-sm);
+  color: var(--ink-2);
+  cursor: pointer;
+  align-self: flex-start;
+  margin-left: var(--space-4);
+  transition: background var(--dur-base) var(--ease);
+}
+
+.eraToggle:hover {
+  background: var(--surface-2);
+  color: var(--ink);
+}
+
+.eraToggle:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.eraToggleChev {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 14px;
+  height: 14px;
+  color: var(--muted);
+  transform: rotate(-90deg);
+  transition: transform var(--dur-base) var(--ease);
+}
+
+.eraToggleChevOpen {
+  transform: rotate(0deg);
+}
+
+.eraToggleLabel {
+  color: inherit;
 }
 
 /*
@@ -135,15 +186,18 @@
 
 @media (max-width: 720px) {
   .list {
-    gap: var(--space-9);
+    gap: var(--space-7);
   }
   .era {
-    gap: var(--space-4);
+    gap: var(--space-2);
   }
   .eraChildren {
     gap: var(--space-4);
     margin-left: 0;
     padding-left: var(--space-5);
+  }
+  .eraToggle {
+    margin-left: var(--space-2);
   }
   .lessons {
     padding-left: var(--space-4);

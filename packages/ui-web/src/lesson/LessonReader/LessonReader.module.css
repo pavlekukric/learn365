@@ -69,7 +69,10 @@
   .reader {
     gap: var(--space-8);
     padding-top: var(--space-7);
-    padding-bottom: var(--space-12);
+    /* Bottom padding clears the iOS home indicator on devices that have
+     * one; the max() preserves the editorial breathing room everywhere
+     * else. */
+    padding-bottom: calc(var(--space-12) + env(safe-area-inset-bottom));
   }
   .footer {
     gap: var(--space-7);
