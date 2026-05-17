@@ -1,6 +1,7 @@
 'use client';
 
 import {
+  getEras,
   getLessonById,
   getLessons,
   type CourseId,
@@ -51,6 +52,16 @@ export function CourseOverviewProgress({
     }
   }
 
+  // Resolve the readable era title for the current row's kicker, replacing
+  // the previous `.toUpperCase()` of the kebab-case eraId (which produced
+  // labels like "PRAISTORIJA-I-ANTIKA"). Falls back to the eraId so we
+  // never render an empty kicker if the era list is somehow inconsistent.
+  const eras = getEras(courseId);
+  const currentEra = currentLesson
+    ? (eras.find((e) => e.id === currentLesson.eraId) ?? null)
+    : null;
+  const currentEraLabel = currentEra?.title ?? currentLesson?.eraId ?? '';
+
   return (
     <CourseProgress
       completed={completed}
@@ -61,7 +72,13 @@ export function CourseOverviewProgress({
           ? {
               day: currentLesson.dayNumber,
               title: currentLesson.title,
-              eraShort: currentLesson.eraId.toUpperCase(),
+              eraLabel: currentEraLabel,
+              // Suppress reading time for placeholder lessons — the value
+              // is a deterministic stub and would advertise a fake minute
+              // count on the Continue card.
+              ...(currentLesson.isPlaceholder === true
+                ? {}
+                : { readingTimeMinutes: currentLesson.readingTimeMinutes }),
             }
           : null
       }

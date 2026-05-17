@@ -7,12 +7,40 @@ import {
   getNextLesson,
   getPrevLesson,
   getSectionForLesson,
+  type Lesson,
 } from '@learn365/content';
 
 import { LessonPageClient } from './LessonPageClient';
 
 interface PageProps {
   params: Promise<{ courseId: string; lessonId: string }>;
+}
+
+/** Shape the client (and the post-completion footer) needs for prev/next.
+ * Extends the previous {id, title, dayNumber} with the small editorial
+ * facts the completion card surfaces: which era the next lesson belongs
+ * to, and how long it takes to read. */
+function adjacent(
+  courseId: string,
+  lesson: Lesson | null,
+): {
+  id: string;
+  title: string;
+  dayNumber: number;
+  eraLabel?: string;
+  readingTimeMinutes?: number;
+} | null {
+  if (!lesson) return null;
+  const era = getEraForLesson(courseId, lesson.id);
+  return {
+    id: lesson.id,
+    title: lesson.title,
+    dayNumber: lesson.dayNumber,
+    ...(era?.title !== undefined ? { eraLabel: era.title } : {}),
+    ...(lesson.isPlaceholder === true
+      ? {}
+      : { readingTimeMinutes: lesson.readingTimeMinutes }),
+  };
 }
 
 export default async function LessonPage({ params }: PageProps) {
@@ -35,8 +63,8 @@ export default async function LessonPage({ params }: PageProps) {
       lesson={lesson}
       era={era}
       section={section}
-      prev={prev ? { id: prev.id, title: prev.title, dayNumber: prev.dayNumber } : null}
-      next={next ? { id: next.id, title: next.title, dayNumber: next.dayNumber } : null}
+      prev={adjacent(courseId, prev)}
+      next={adjacent(courseId, next)}
     />
   );
 }

@@ -16,7 +16,8 @@
     "test": "turbo run test",
     "validate-content": "turbo run validate-content",
     "format": "prettier --write .",
-    "format:check": "prettier --check ."
+    "format:check": "prettier --check .",
+    "screenshots": "pnpm --filter @learn365/web screenshots"
   },
   "devDependencies": {
     "prettier": "^3.3.3",

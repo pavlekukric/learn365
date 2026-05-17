@@ -9,14 +9,21 @@ interface LessonHeaderProps {
 }
 
 export function LessonHeader({ lesson }: LessonHeaderProps) {
+  const isPlaceholder = lesson.isPlaceholder === true;
+
   return (
     <header className={styles.header}>
-      <p className={`tiny mono ${styles.eyebrow}`}>
-        {/* DAN + era are already carried by the breadcrumb and (on desktop)
-         * the inline timeline above. The eyebrow keeps only the two facts
-         * those surfaces don't: how long the read is, and when it happened. */}
-        {`${String(lesson.readingTimeMinutes)} min čitanja · ${lesson.dateLabel ?? `${String(lesson.year)}.`}`}
-      </p>
+      {/* DAN + era are already carried by the breadcrumb and (on desktop)
+       * the inline timeline above. The eyebrow keeps only the two facts
+       * those surfaces don't: how long the read is, and when it happened.
+       * Placeholder lessons have a stubbed reading time and an interpolated
+       * year that aren't real facts yet, so we suppress the line entirely —
+       * the "Uskoro" card below the title carries the intent. */}
+      {isPlaceholder ? null : (
+        <p className={`tiny mono ${styles.eyebrow}`}>
+          {`${String(lesson.readingTimeMinutes)} min čitanja · ${lesson.dateLabel ?? `${String(lesson.year)}.`}`}
+        </p>
+      )}
       <h1 className="reader-title">{lesson.title}</h1>
       {lesson.subtitle ? <p className="lede">{lesson.subtitle}</p> : null}
       <Flourish />

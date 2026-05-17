@@ -59,6 +59,9 @@ main:focus {
 
 @media (max-width: 720px) {
   .shell {
-    padding: 0 20px;
+    /* Symmetric 20px gutters, plus respect any device safe-area inset
+     * (notch in landscape, rounded corners) so content never clips. */
+    padding-left: max(20px, env(safe-area-inset-left));
+    padding-right: max(20px, env(safe-area-inset-right));
   }
 }

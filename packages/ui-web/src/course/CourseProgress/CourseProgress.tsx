@@ -11,17 +11,24 @@ interface MiniLesson {
   title: string;
 }
 
+interface CurrentMiniLesson extends MiniLesson {
+  /** Era label rendered in the kicker line — e.g. "Praistorija i antika". */
+  eraLabel: string;
+  /** Reading time in minutes; rendered as "· 8 min" after the era label. */
+  readingTimeMinutes?: number;
+}
+
 interface CourseProgressProps {
   completed: number;
   total: number;
-  currentLesson: (MiniLesson & { eraShort: string }) | null;
+  currentLesson: CurrentMiniLesson | null;
   nextLesson: MiniLesson | null;
   currentHref: string | null;
   nextHref: string | null;
   /**
-   * Whether the user has completed at least one lesson. Drives the "current"
-   * row's framing: a fresh user is *recommended a starting point* ("ZA
-   * POČETAK", idle dot) rather than told a lesson is already "AKTUELNO".
+   * Whether the user has completed at least one lesson. Drives the current
+   * row's framing: a fresh user is *recommended a starting point* ("ZAPOČNI",
+   * idle dot) rather than told a lesson is already "NASTAVI".
    */
   hasStarted: boolean;
 }
@@ -41,7 +48,7 @@ export function CourseProgress({
 }: CourseProgressProps) {
   const value = total > 0 ? completed / total : 0;
   const pct = toPercentInt(clamp01(value));
-  const currentKicker = hasStarted ? 'AKTUELNO' : 'ZA POČETAK';
+  const currentKicker = hasStarted ? 'NASTAVI' : 'ZAPOČNI';
 
   return (
     <article className={styles.card}>
@@ -68,7 +75,15 @@ export function CourseProgress({
             <CompletionDot state={hasStarted ? 'active' : 'idle'} />
             <span className={styles.rowText}>
               <span className={`tiny mono ${styles.rowLabel}`}>
-                {currentKicker} · {currentLesson.eraShort}
+                {[
+                  currentKicker,
+                  currentLesson.eraLabel,
+                  currentLesson.readingTimeMinutes !== undefined
+                    ? `${String(currentLesson.readingTimeMinutes)} min`
+                    : null,
+                ]
+                  .filter(Boolean)
+                  .join(' · ')}
               </span>
               <span className={styles.rowTitle}>{currentLesson.title}</span>
             </span>

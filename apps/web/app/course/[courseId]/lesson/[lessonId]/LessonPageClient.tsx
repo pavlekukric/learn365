@@ -25,11 +25,14 @@ import { useProgressStore } from '@/lib/progress/ProgressStoreProvider';
 
 import { LessonContextHeader } from './LessonContextHeader';
 import styles from './LessonPageClient.module.css';
+import { ReadingProgress } from './ReadingProgress';
 
 interface AdjacentLesson {
   readonly id: string;
   readonly title: string;
   readonly dayNumber: number;
+  readonly eraLabel?: string;
+  readonly readingTimeMinutes?: number;
 }
 
 interface LessonPageClientProps {
@@ -172,6 +175,7 @@ export function LessonPageClient({
 
   return (
     <div className={styles.layout}>
+      <ReadingProgress />
       <aside className={styles.sidebarColumn}>
         <CourseSidebar {...sidebarProps} />
       </aside>
@@ -204,6 +208,12 @@ export function LessonPageClient({
                   title: prev.title,
                   dayNumber: prev.dayNumber,
                   href: `/course/${courseId}/lesson/${prev.id}`,
+                  ...(prev.eraLabel !== undefined
+                    ? { eraLabel: prev.eraLabel }
+                    : {}),
+                  ...(prev.readingTimeMinutes !== undefined
+                    ? { readingTimeMinutes: prev.readingTimeMinutes }
+                    : {}),
                 }
               : null
           }
@@ -213,9 +223,16 @@ export function LessonPageClient({
                   title: next.title,
                   dayNumber: next.dayNumber,
                   href: `/course/${courseId}/lesson/${next.id}`,
+                  ...(next.eraLabel !== undefined
+                    ? { eraLabel: next.eraLabel }
+                    : {}),
+                  ...(next.readingTimeMinutes !== undefined
+                    ? { readingTimeMinutes: next.readingTimeMinutes }
+                    : {}),
                 }
               : null
           }
+          courseHref={`/course/${courseId}`}
           eraHref={eraHref}
           eraStats={eraStats}
         />

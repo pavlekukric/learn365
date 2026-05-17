@@ -1,6 +1,7 @@
 import type { Era, EraId, Lesson, Section } from '@learn365/content';
 
 import { Breadcrumbs, type BreadcrumbItem } from '../../primitives/Breadcrumbs/Breadcrumbs.js';
+import { CompletedFooter } from '../CompletedFooter/CompletedFooter.js';
 import {
   HistoricalTimeline,
   type EraStat,
@@ -16,6 +17,10 @@ interface AdjacentLessonLink {
   title: string;
   dayNumber: number;
   href: string;
+  /** Era label (e.g. "Nemanjićka Srbija") rendered on the post-completion
+   * next-lesson card. Optional so callers that don't have it pass nothing. */
+  eraLabel?: string;
+  readingTimeMinutes?: number;
 }
 
 interface LessonReaderProps {
@@ -28,6 +33,9 @@ interface LessonReaderProps {
   onToggleComplete: () => void;
   prev: AdjacentLessonLink | null;
   next: AdjacentLessonLink | null;
+  /** Href back to the course overview, used by the end-of-course footer
+   * when there is no next lesson. */
+  courseHref: string;
   /** Optional href builder for the timeline era bands. */
   eraHref?: (eraId: EraId) => string;
   /** Optional per-era stats for the timeline's proportional widths + progress. */
@@ -44,6 +52,7 @@ export function LessonReader({
   onToggleComplete,
   prev,
   next,
+  courseHref,
   eraHref,
   eraStats,
 }: LessonReaderProps) {
@@ -83,7 +92,20 @@ export function LessonReader({
         {isUpcoming ? null : (
           <MarkAsCompletedButton isCompleted={isCompleted} onClick={onToggleComplete} />
         )}
-        <PreviousNextLessonNavigation prev={prev} next={next} />
+        {/* Pre-completion: symmetric prev/next. Post-completion: a stronger
+         * "what's next" moment that promotes the next lesson to the primary
+         * action and demotes "previous" to a small text link. Placeholders
+         * (which can't be completed) always get the symmetric footer. */}
+        {isCompleted && !isUpcoming ? (
+          <CompletedFooter
+            completedDayNumber={lesson.dayNumber}
+            next={next}
+            prev={prev}
+            courseHref={courseHref}
+          />
+        ) : (
+          <PreviousNextLessonNavigation prev={prev} next={next} />
+        )}
       </footer>
     </article>
   );

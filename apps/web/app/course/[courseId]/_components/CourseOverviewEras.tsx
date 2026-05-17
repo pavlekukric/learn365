@@ -1,18 +1,21 @@
 'use client';
 
-import { useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 
 import {
   getEras,
+  getLessons,
   getLessonsByEra,
   getLessonsBySection,
   getSectionsByEra,
   type CourseId,
+  type EraId,
   type LessonId,
   type Section,
   type SectionId,
 } from '@learn365/content';
 import {
+  findActiveLocation,
   isCompleted,
   lastOpenedLessonId,
   progressForLessons,
@@ -55,6 +58,9 @@ interface SectionAccordionRowProps {
   onToggle: () => void;
   progressState: ProgressState;
   currentLessonId: LessonId | null;
+  /** Completion ratio for this section, used in the collapsed header meta. */
+  done: number;
+  total: number;
 }
 
 /**
@@ -70,10 +76,18 @@ function SectionAccordionRow({
   onToggle,
   progressState,
   currentLessonId,
+  done,
+  total,
 }: SectionAccordionRowProps) {
   const lessons = getLessonsBySection(courseId, section.id);
-  const count = section.endDay - section.startDay + 1;
   const panelId = `era-section-${section.id}`;
+  // When the section is closed and the user has progress in it, surface a
+  // compact "done / total" count instead of the static lesson-count label —
+  // it answers "how far am I in this group?" without expanding the panel.
+  const collapsedMeta =
+    !isOpen && total > 0 && done > 0
+      ? `${String(done)} / ${String(total)}`
+      : lessonCountLabel(total);
 
   return (
     <li className={styles.sectionItem}>
@@ -96,9 +110,7 @@ function SectionAccordionRow({
           </span>
           <span className={styles.sectionTitle}>{section.title}</span>
         </span>
-        <span className={`tiny ${styles.sectionCount}`}>
-          {lessonCountLabel(count)}
-        </span>
+        <span className={`tiny ${styles.sectionCount}`}>{collapsedMeta}</span>
       </button>
 
       {isOpen ? (
@@ -128,11 +140,42 @@ function SectionAccordionRow({
 
 export function CourseOverviewEras({ courseId }: CourseOverviewErasProps) {
   const eras = getEras(courseId);
+  const allLessons = useMemo(() => getLessons(courseId), [courseId]);
   const lastId = useProgressStore((state) => lastOpenedLessonId(state, courseId));
+  const completedSet = useProgressStore(
+    (state) => state.byCourse[courseId]?.completedLessonIds ?? null,
+  );
   const progressState = useProgressStore((state) => state);
-  // Single-open accordion: at most one lesson group is expanded at a time,
-  // which keeps the Course page scannable on mobile and desktop alike.
+
+  // "Where is the user?" — drives which era + section open by default and
+  // which lesson row shows the active accent in the expanded section. Shared
+  // selector so the lesson sidebar and this page always agree.
+  const active = useMemo(
+    () => findActiveLocation(allLessons, completedSet, lastId),
+    [allLessons, completedSet, lastId],
+  );
+
+  // Era + section accordion state. We can't just seed with `useState(active)`
+  // because the persisted progress store hydrates *after* first render — at
+  // that moment `lastOpenedLessonId` is still null, so `active` collapses to
+  // Era I. Seeding with that and never re-reading would strand the user on
+  // Era I even after the store reports they're on Era II. Solution: keep an
+  // override that tracks "user manually toggled," and otherwise sync to the
+  // current `active` location via effect. Manual taps win once dirtied.
+  const [userToggledEra, setUserToggledEra] = useState(false);
+  const [userToggledSection, setUserToggledSection] = useState(false);
+  const [openEraId, setOpenEraId] = useState<EraId | null>(null);
   const [openSectionId, setOpenSectionId] = useState<SectionId | null>(null);
+
+  useEffect(() => {
+    if (userToggledEra) return;
+    setOpenEraId(active?.eraId ?? null);
+  }, [active?.eraId, userToggledEra]);
+
+  useEffect(() => {
+    if (userToggledSection) return;
+    setOpenSectionId(active?.sectionId ?? null);
+  }, [active?.sectionId, userToggledSection]);
 
   return (
     <div className={styles.list}>
@@ -151,6 +194,9 @@ export function CourseOverviewEras({ courseId }: CourseOverviewErasProps) {
         const href = firstLessonId
           ? `/course/${courseId}/lesson/${firstLessonId}`
           : `/course/${courseId}`;
+        const isOpen = openEraId === era.id;
+        const panelId = `era-panel-${era.id}`;
+        const toggleLabel = isOpen ? 'Sakrij odeljke' : 'Pokaži odeljke';
 
         return (
           <article key={era.id} className={styles.era}>
@@ -162,26 +208,72 @@ export function CourseOverviewEras({ courseId }: CourseOverviewErasProps) {
               isAllDone={isAllDone}
               href={href}
             />
-            <div className={styles.eraChildren}>
-              <p className={`body ${styles.eraDescription}`}>{era.description}</p>
-              <ul className={styles.sections}>
-                {sections.map((section) => (
-                  <SectionAccordionRow
-                    key={section.id}
-                    courseId={courseId}
-                    section={section}
-                    isOpen={openSectionId === section.id}
-                    onToggle={() =>
-                      setOpenSectionId((prev) =>
-                        prev === section.id ? null : section.id,
-                      )
-                    }
-                    progressState={progressState}
-                    currentLessonId={lastId}
-                  />
-                ))}
-              </ul>
-            </div>
+            <button
+              type="button"
+              className={styles.eraToggle}
+              aria-expanded={isOpen}
+              aria-controls={panelId}
+              onClick={() => {
+                setUserToggledEra(true);
+                setUserToggledSection(true);
+                setOpenEraId((prev) => {
+                  const next = prev === era.id ? null : era.id;
+                  // Reset the section accordion when we move between eras
+                  // so an unrelated section from the prior era doesn't
+                  // appear pre-expanded inside the newly opened one.
+                  setOpenSectionId(
+                    next !== null && next === active?.eraId
+                      ? active.sectionId
+                      : null,
+                  );
+                  return next;
+                });
+              }}
+            >
+              <span
+                className={`${styles.eraToggleChev} ${isOpen ? styles.eraToggleChevOpen : ''}`}
+                aria-hidden="true"
+              >
+                <IconChev />
+              </span>
+              <span className={`tiny mono ${styles.eraToggleLabel}`}>
+                {toggleLabel} · {String(sections.length)}
+              </span>
+            </button>
+            {isOpen ? (
+              <div id={panelId} className={styles.eraChildren}>
+                <p className={`body ${styles.eraDescription}`}>{era.description}</p>
+                <ul className={styles.sections}>
+                  {sections.map((section) => {
+                    const sectionLessons = getLessonsBySection(courseId, section.id);
+                    const { done: sectionDone, total: sectionTotal } =
+                      progressForLessons(
+                        progressState,
+                        courseId,
+                        sectionLessons.map((l) => l.id),
+                      );
+                    return (
+                      <SectionAccordionRow
+                        key={section.id}
+                        courseId={courseId}
+                        section={section}
+                        isOpen={openSectionId === section.id}
+                        onToggle={() => {
+                          setUserToggledSection(true);
+                          setOpenSectionId((prev) =>
+                            prev === section.id ? null : section.id,
+                          );
+                        }}
+                        progressState={progressState}
+                        currentLessonId={lastId}
+                        done={sectionDone}
+                        total={sectionTotal}
+                      />
+                    );
+                  })}
+                </ul>
+              </div>
+            ) : null}
           </article>
         );
       })}

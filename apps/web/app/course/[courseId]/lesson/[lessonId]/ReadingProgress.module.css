@@ -1,0 +1,23 @@
+/* Thin reading-progress line pinned to the top edge of the viewport, just
+ * below the sticky TopBar. Stays out of the reading flow on purpose; only
+ * the accent fill animates as the user scrolls the lesson body. */
+.bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  z-index: 50;
+  background: transparent;
+  pointer-events: none;
+}
+
+.fill {
+  display: block;
+  height: 100%;
+  background: var(--accent);
+  transform-origin: left center;
+  transform: scaleX(0);
+  transition: transform 80ms linear;
+  will-change: transform;
+}

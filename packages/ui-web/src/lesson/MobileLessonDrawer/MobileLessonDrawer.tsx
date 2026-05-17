@@ -45,6 +45,21 @@ export function MobileLessonDrawer({
     const prevOverflow = document.body.style.overflow;
     document.body.style.overflow = 'hidden';
 
+    // Scroll the current lesson row into view so the user lands on "where
+    // am I in the course" instead of always at the top of Era I. Defer one
+    // frame so the panel + sidebar tree have committed layout before we
+    // scroll; reduced-motion users get an instant jump.
+    const scrollFrame = requestAnimationFrame(() => {
+      const current = panel?.querySelector<HTMLElement>('[aria-current="page"]');
+      if (!current) return;
+      const prefersReducedMotion = typeof window !== 'undefined'
+        && window.matchMedia?.('(prefers-reduced-motion: reduce)').matches;
+      current.scrollIntoView({
+        behavior: prefersReducedMotion ? 'auto' : 'smooth',
+        block: 'center',
+      });
+    });
+
     function handleKey(event: KeyboardEvent) {
       if (event.key === 'Escape') {
         event.stopPropagation();
@@ -75,6 +90,7 @@ export function MobileLessonDrawer({
     document.addEventListener('keydown', handleKey);
 
     return () => {
+      cancelAnimationFrame(scrollFrame);
       document.removeEventListener('keydown', handleKey);
       document.body.style.overflow = prevOverflow;
       previouslyFocused.current?.focus?.();
