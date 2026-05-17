@@ -1,0 +1,372 @@
+[
+  {
+    "id": "praistorija-podunavlja",
+    "courseId": "istorija-srbije-365",
+    "eraId": "praistorija-i-antika",
+    "title": "Praistorija Podunavlja",
+    "subtitle": "Lepenski Vir, starčevačka i vinčanska kultura",
+    "order": 1,
+    "startDay": 1,
+    "endDay": 7
+  },
+  {
+    "id": "metalna-doba",
+    "courseId": "istorija-srbije-365",
+    "eraId": "praistorija-i-antika",
+    "title": "Metalna doba",
+    "subtitle": "Bakar, bronza i gvožđe na centralnom Balkanu",
+    "order": 2,
+    "startDay": 8,
+    "endDay": 11
+  },
+  {
+    "id": "iliri-kelti-grci",
+    "courseId": "istorija-srbije-365",
+    "eraId": "praistorija-i-antika",
+    "title": "Iliri, Tračani, Kelti i Grci",
+    "subtitle": "Praistorijski narodi i grčki uticaj",
+    "order": 3,
+    "startDay": 12,
+    "endDay": 17
+  },
+  {
+    "id": "rim-na-balkanu",
+    "courseId": "istorija-srbije-365",
+    "eraId": "praistorija-i-antika",
+    "title": "Rim na Balkanu",
+    "subtitle": "Osvajanja, provincije i život pod rimskom vlašću",
+    "order": 4,
+    "startDay": 18,
+    "endDay": 28
+  },
+  {
+    "id": "kasna-antika",
+    "courseId": "istorija-srbije-365",
+    "eraId": "praistorija-i-antika",
+    "title": "Kasna antika",
+    "subtitle": "Od Dioklecijana i Konstantina do Justinijana",
+    "order": 5,
+    "startDay": 29,
+    "endDay": 36
+  },
+  {
+    "id": "seobe-i-dolazak-slovena",
+    "courseId": "istorija-srbije-365",
+    "eraId": "praistorija-i-antika",
+    "title": "Seobe i dolazak Slovena",
+    "subtitle": "Velika seoba naroda i prve srpske kneževine",
+    "order": 6,
+    "startDay": 37,
+    "endDay": 45
+  },
+  {
+    "id": "pre-nemanjica",
+    "courseId": "istorija-srbije-365",
+    "eraId": "nemanjici",
+    "title": "Srpske zemlje pre Nemanjića",
+    "subtitle": "Raška i Duklja u 9–12. veku",
+    "order": 7,
+    "startDay": 46,
+    "endDay": 47
+  },
+  {
+    "id": "stefan-nemanja",
+    "courseId": "istorija-srbije-365",
+    "eraId": "nemanjici",
+    "title": "Stefan Nemanja",
+    "subtitle": "Osnivač dinastije i njegov put",
+    "order": 8,
+    "startDay": 48,
+    "endDay": 53
+  },
+  {
+    "id": "sveti-sava-i-prvi-kraljevi",
+    "courseId": "istorija-srbije-365",
+    "eraId": "nemanjici",
+    "title": "Sveti Sava i prvi kraljevi",
+    "subtitle": "Autokefalna srpska crkva i krunisanje",
+    "order": 9,
+    "startDay": 54,
+    "endDay": 60
+  },
+  {
+    "id": "naslednici-i-uspon",
+    "courseId": "istorija-srbije-365",
+    "eraId": "nemanjici",
+    "title": "Naslednici i uspon",
+    "subtitle": "Od Radoslava do Stefana Dečanskog",
+    "order": 10,
+    "startDay": 61,
+    "endDay": 72
+  },
+  {
+    "id": "dusan-i-carstvo",
+    "courseId": "istorija-srbije-365",
+    "eraId": "nemanjici",
+    "title": "Dušan i carstvo",
+    "subtitle": "Vrhunac srpske srednjovekovne države",
+    "order": 11,
+    "startDay": 73,
+    "endDay": 78
+  },
+  {
+    "id": "drustvo-i-kultura-nemanjica",
+    "courseId": "istorija-srbije-365",
+    "eraId": "nemanjici",
+    "title": "Društvo i kultura Nemanjića",
+    "subtitle": "Dvor, vlastela, manastiri, freske i graditeljstvo",
+    "order": 12,
+    "startDay": 79,
+    "endDay": 89
+  },
+  {
+    "id": "svakodnevica-i-susedi",
+    "courseId": "istorija-srbije-365",
+    "eraId": "nemanjici",
+    "title": "Svakodnevica i susedi",
+    "subtitle": "Život ljudi, diplomatija i odnosi sa drugim državama",
+    "order": 13,
+    "startDay": 90,
+    "endDay": 97
+  },
+  {
+    "id": "raspad-i-nasledje-nemanjica",
+    "courseId": "istorija-srbije-365",
+    "eraId": "nemanjici",
+    "title": "Raspad carstva i nasleđe Nemanjića",
+    "subtitle": "Od Uroša do bitke na Marici",
+    "order": 14,
+    "startDay": 98,
+    "endDay": 105
+  },
+  {
+    "id": "knez-lazar-i-kosovska-bitka",
+    "courseId": "istorija-srbije-365",
+    "eraId": "knez-lazar-i-despotovina",
+    "title": "Knez Lazar i Kosovska bitka",
+    "subtitle": "Oblasni gospodari, sudar na Kosovu i kosovsko predanje",
+    "order": 15,
+    "startDay": 106,
+    "endDay": 118
+  },
+  {
+    "id": "stefan-lazarevic",
+    "courseId": "istorija-srbije-365",
+    "eraId": "knez-lazar-i-despotovina",
+    "title": "Stefan Lazarević i Despotovina",
+    "subtitle": "Obnova srpske države u 15. veku",
+    "order": 16,
+    "startDay": 119,
+    "endDay": 126
+  },
+  {
+    "id": "djuradj-brankovic-i-pad",
+    "courseId": "istorija-srbije-365",
+    "eraId": "knez-lazar-i-despotovina",
+    "title": "Đurađ Branković i pad Despotovine",
+    "subtitle": "Smederevo, opsade i kraj srednjovekovne srpske države",
+    "order": 17,
+    "startDay": 127,
+    "endDay": 138
+  },
+  {
+    "id": "nakon-pada-i-nasledje",
+    "courseId": "istorija-srbije-365",
+    "eraId": "knez-lazar-i-despotovina",
+    "title": "Posle pada i nasleđe",
+    "subtitle": "Crkva, kultura i pamćenje u 15. veku",
+    "order": 18,
+    "startDay": 139,
+    "endDay": 150
+  },
+  {
+    "id": "osmansko-carstvo-i-zivot-pod-njim",
+    "courseId": "istorija-srbije-365",
+    "eraId": "osmansko-i-habzbursko-doba",
+    "title": "Osmansko carstvo i život pod njim",
+    "subtitle": "Ustrojstvo, položaj raje, crkva i hajduci",
+    "order": 19,
+    "startDay": 151,
+    "endDay": 162
+  },
+  {
+    "id": "velike-seobe-i-srbi-u-monarhiji",
+    "courseId": "istorija-srbije-365",
+    "eraId": "osmansko-i-habzbursko-doba",
+    "title": "Velike seobe i Srbi u Habzburškoj monarhiji",
+    "subtitle": "Od 1690. do Vojne krajine i Vojvodine",
+    "order": 20,
+    "startDay": 163,
+    "endDay": 172
+  },
+  {
+    "id": "crna-gora-primorje-i-kultura",
+    "courseId": "istorija-srbije-365",
+    "eraId": "osmansko-i-habzbursko-doba",
+    "title": "Crna Gora, primorje i kultura",
+    "subtitle": "Vladike, Boka, barok i prosvetiteljstvo",
+    "order": 21,
+    "startDay": 173,
+    "endDay": 185
+  },
+  {
+    "id": "pred-ustanak",
+    "courseId": "istorija-srbije-365",
+    "eraId": "osmansko-i-habzbursko-doba",
+    "title": "Pred ustanak",
+    "subtitle": "Slabljenje Osmanlija, dahije i seča knezova",
+    "order": 22,
+    "startDay": 186,
+    "endDay": 195
+  },
+  {
+    "id": "prvi-srpski-ustanak",
+    "courseId": "istorija-srbije-365",
+    "eraId": "srpska-revolucija",
+    "title": "Prvi srpski ustanak",
+    "subtitle": "Karađorđe, ustanička država i njen slom",
+    "order": 23,
+    "startDay": 196,
+    "endDay": 212
+  },
+  {
+    "id": "drugi-ustanak-i-autonomija",
+    "courseId": "istorija-srbije-365",
+    "eraId": "srpska-revolucija",
+    "title": "Drugi ustanak i sticanje autonomije",
+    "subtitle": "Miloš Obrenović, Takovo i hatišerifi",
+    "order": 24,
+    "startDay": 213,
+    "endDay": 225
+  },
+  {
+    "id": "ustavi-i-dinasticko-rivalstvo",
+    "courseId": "istorija-srbije-365",
+    "eraId": "srpska-revolucija",
+    "title": "Ustavi i dinastičko rivalstvo",
+    "subtitle": "Sretenjski ustav i smene Obrenovića i Karađorđevića",
+    "order": 25,
+    "startDay": 226,
+    "endDay": 230
+  },
+  {
+    "id": "ustavobranitelji-i-mihailo",
+    "courseId": "istorija-srbije-365",
+    "eraId": "knezevina-i-kraljevina",
+    "title": "Ustavobranitelji i druga vladavina Mihaila",
+    "subtitle": "Izgradnja institucija sredinom 19. veka",
+    "order": 26,
+    "startDay": 231,
+    "endDay": 246
+  },
+  {
+    "id": "nezavisnost-i-kraljevina",
+    "courseId": "istorija-srbije-365",
+    "eraId": "knezevina-i-kraljevina",
+    "title": "Nezavisnost i Kraljevina",
+    "subtitle": "Srpsko-turski ratovi, Berlinski kongres i proglašenje kraljevine",
+    "order": 27,
+    "startDay": 247,
+    "endDay": 258
+  },
+  {
+    "id": "kriza-i-modernizacija",
+    "courseId": "istorija-srbije-365",
+    "eraId": "knezevina-i-kraljevina",
+    "title": "Kriza, modernizacija i kultura",
+    "subtitle": "Stranke, ustavi, banke, škole i nauka 19. veka",
+    "order": 28,
+    "startDay": 259,
+    "endDay": 265
+  },
+  {
+    "id": "majski-prevrat-i-zlatno-doba",
+    "courseId": "istorija-srbije-365",
+    "eraId": "knezevina-i-kraljevina",
+    "title": "Majski prevrat i zlatno doba demokratije",
+    "subtitle": "Karađorđevići, parlamentarizam i kultura uoči ratova",
+    "order": 29,
+    "startDay": 266,
+    "endDay": 280
+  },
+  {
+    "id": "balkanski-ratovi",
+    "courseId": "istorija-srbije-365",
+    "eraId": "jugoslavija-i-20-vek",
+    "title": "Balkanski ratovi",
+    "subtitle": "Savez, oslobođenje juga i Bukureštanski mir",
+    "order": 30,
+    "startDay": 281,
+    "endDay": 287
+  },
+  {
+    "id": "prvi-svetski-rat",
+    "courseId": "istorija-srbije-365",
+    "eraId": "jugoslavija-i-20-vek",
+    "title": "Prvi svetski rat",
+    "subtitle": "Od Sarajeva i Cera do Solunskog fronta",
+    "order": 31,
+    "startDay": 288,
+    "endDay": 302
+  },
+  {
+    "id": "kraljevina-jugoslavija",
+    "courseId": "istorija-srbije-365",
+    "eraId": "jugoslavija-i-20-vek",
+    "title": "Kraljevina SHS i Jugoslavija",
+    "subtitle": "Ujedinjenje, ustavi i život između dva rata",
+    "order": 32,
+    "startDay": 303,
+    "endDay": 315
+  },
+  {
+    "id": "drugi-svetski-rat",
+    "courseId": "istorija-srbije-365",
+    "eraId": "jugoslavija-i-20-vek",
+    "title": "Drugi svetski rat",
+    "subtitle": "Okupacija, pokreti otpora i stradanje",
+    "order": 33,
+    "startDay": 316,
+    "endDay": 328
+  },
+  {
+    "id": "socijalisticka-jugoslavija",
+    "courseId": "istorija-srbije-365",
+    "eraId": "jugoslavija-i-20-vek",
+    "title": "Socijalistička Jugoslavija",
+    "subtitle": "Od FNRJ do Tita, samoupravljanja i Ustava iz 1974.",
+    "order": 34,
+    "startDay": 329,
+    "endDay": 337
+  },
+  {
+    "id": "kriza-i-raspad-u-najavi",
+    "courseId": "istorija-srbije-365",
+    "eraId": "jugoslavija-i-20-vek",
+    "title": "Kriza i raspad u najavi",
+    "subtitle": "Osamdesete i buđenje nacionalnih pitanja",
+    "order": 35,
+    "startDay": 338,
+    "endDay": 340
+  },
+  {
+    "id": "raspad-i-devedesete",
+    "courseId": "istorija-srbije-365",
+    "eraId": "savremena-srbija",
+    "title": "Raspad Jugoslavije i devedesete",
+    "subtitle": "Ratovi, sankcije i NATO 1999.",
+    "order": 36,
+    "startDay": 341,
+    "endDay": 349
+  },
+  {
+    "id": "savremena-srbija-i-pamcenje",
+    "courseId": "istorija-srbije-365",
+    "eraId": "savremena-srbija",
+    "title": "Savremena Srbija i istorijsko pamćenje",
+    "subtitle": "Tranzicija, evropski put i kritičko mišljenje o prošlosti",
+    "order": 37,
+    "startDay": 350,
+    "endDay": 365
+  }
+]

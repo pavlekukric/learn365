@@ -8,13 +8,15 @@
   "exports": {
     ".": "./src/index.ts",
     "./types": "./src/types.ts",
+    "./loader": "./src/loader/index.ts",
     "./courses/istorija-srbije-365": "./src/courses/istorija-srbije-365/index.ts"
   },
   "scripts": {
     "lint": "eslint .",
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
-    "validate-content": "tsx src/courses/istorija-srbije-365/validate.ts"
+    "gen-content": "tsx scripts/gen-content.ts",
+    "validate-content": "tsx src/loader/validateContentFiles.ts"
   },
   "devDependencies": {
     "@learn365/eslint-config": "workspace:*",

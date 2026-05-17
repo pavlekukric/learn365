@@ -1,11 +1,11 @@
 import { expect, test } from '@playwright/test';
 
 const COURSE_ID = 'istorija-srbije-365';
-const DAY_1_LESSON_ID = 'praistorija-i-antika-001';
+const DAY_1_LESSON_ID = 'day-001';
 // A second hand-authored (completable) lesson, distinct from day 1.
-const AUTHORED_LESSON_ID = 'praistorija-i-antika-007';
+const AUTHORED_LESSON_ID = 'day-007';
 // An unauthored placeholder lesson — renders the "upcoming" state.
-const PLACEHOLDER_LESSON_ID = 'praistorija-i-antika-002';
+const PLACEHOLDER_LESSON_ID = 'day-359';
 
 test.describe('History 365 — smoke', () => {
   test('home renders hero + CTA', async ({ page }) => {

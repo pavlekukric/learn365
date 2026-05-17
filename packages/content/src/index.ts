@@ -32,3 +32,8 @@ export {
   getSections,
   getSectionsByEra,
 } from './registry.js';
+
+// `loadCourseFromFiles` + the file-tree validator use `node:fs` and must
+// not leak into any client bundle. They are exposed only via the
+// `@learn365/content/loader` sub-entry, consumed by the codegen script
+// and the validator binary.
