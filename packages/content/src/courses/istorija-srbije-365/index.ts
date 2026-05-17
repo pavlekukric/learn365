@@ -1,4 +1,4 @@
-export { course } from './course.js';
-export { eras } from './eras.js';
-export { sections } from './sections.js';
-export { lessons } from './lessons/index.js';
+// Re-export the registry seed from the auto-generated module.
+// Source of truth is `content/courses/istorija-srbije-365/` (JSON) —
+// regenerate with `pnpm gen-content` after editing.
+export { course, eras, sections, lessons } from './_generated.js';

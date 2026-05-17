@@ -23,10 +23,10 @@ const __dirname = path.dirname(__filename);
 const COURSE_ID = 'istorija-srbije-365';
 
 const LESSON = {
-  day1: 'praistorija-i-antika-001',
-  day7: 'praistorija-i-antika-007',
-  nemanjici1: 'rani-nemanjici-001',
-  placeholder: 'praistorija-i-antika-002',
+  day1: 'day-001',
+  day7: 'day-007',
+  nemanjici1: 'day-046',
+  placeholder: 'day-359',
 } as const;
 
 const SCREENSHOTS_ROOT = path.resolve(__dirname, '../../../../screenshots');
@@ -99,12 +99,12 @@ test.describe('Screenshot pack', () => {
     await snap(page, testInfo, 'lesson-001');
   });
 
-  test('lesson — day 031 (different era, Nemanjići)', async ({ page }, testInfo) => {
+  test('lesson — day 046 (different era, Nemanjići)', async ({ page }, testInfo) => {
     await gotoAndSettle(
       page,
       `/course/${COURSE_ID}/lesson/${LESSON.nemanjici1}`,
     );
-    await snap(page, testInfo, 'lesson-031-nemanjici');
+    await snap(page, testInfo, 'lesson-046-nemanjici');
   });
 
   test('lesson — completed state', async ({ page }, testInfo) => {

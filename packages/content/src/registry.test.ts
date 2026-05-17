@@ -39,19 +39,22 @@ describe('registry: course shape', () => {
     expect(getEras(COURSE)).toHaveLength(8);
   });
 
-  it('exposes 28 sections', () => {
-    expect(getSections(COURSE)).toHaveLength(28);
-  });
-
   it('exposes 365 lessons', () => {
     expect(getLessons(COURSE)).toHaveLength(365);
+  });
+
+  it('every section sits inside an era', () => {
+    const sections = getSections(COURSE);
+    expect(sections.length).toBeGreaterThan(0);
+    const eraIds = new Set(getEras(COURSE).map((e) => e.id));
+    for (const s of sections) expect(eraIds.has(s.eraId)).toBe(true);
   });
 });
 
 describe('registry: lookups', () => {
-  it('finds a lesson by id', () => {
-    const lesson = getLessonById(COURSE, 'praistorija-i-antika-001');
-    expect(lesson?.title).toBe('Lepenski Vir');
+  it('finds the day-001 lesson by id', () => {
+    const lesson = getLessonById(COURSE, 'day-001');
+    expect(lesson).not.toBeNull();
     expect(lesson?.dayNumber).toBe(1);
   });
 
@@ -59,49 +62,58 @@ describe('registry: lookups', () => {
     expect(getLessonById(COURSE, 'ne-postoji')).toBeNull();
   });
 
-  it('section → lessons (15 for `rani-nemanjici`)', () => {
-    const lessons = getLessonsBySection(COURSE, 'rani-nemanjici');
-    expect(lessons).toHaveLength(15);
-    expect(lessons[0]?.dayNumber).toBe(31);
-    expect(lessons.at(-1)?.dayNumber).toBe(45);
+  it('section → lessons covers the section day range exactly', () => {
+    const section = getSections(COURSE)[0];
+    if (!section) throw new Error('expected at least one section');
+    const lessons = getLessonsBySection(COURSE, section.id);
+    const expectedCount = section.endDay - section.startDay + 1;
+    expect(lessons).toHaveLength(expectedCount);
+    expect(lessons[0]?.dayNumber).toBe(section.startDay);
+    expect(lessons.at(-1)?.dayNumber).toBe(section.endDay);
   });
 
-  it('era → lessons (75 for `nemanjici`)', () => {
-    expect(getLessonsByEra(COURSE, 'nemanjici')).toHaveLength(75);
-  });
-
-  it('era → sections (5 for `nemanjici`)', () => {
-    expect(getSectionsByEra(COURSE, 'nemanjici')).toHaveLength(5);
-  });
-
-  it('lesson → era', () => {
-    expect(getEraForLesson(COURSE, 'rani-nemanjici-001')?.id).toBe('nemanjici');
-  });
-
-  it('lesson → section', () => {
-    expect(getSectionForLesson(COURSE, 'rani-nemanjici-001')?.id).toBe(
-      'rani-nemanjici',
+  it('era → lessons sums to its section ranges', () => {
+    // nemanjici is era II; its lesson count equals the sum of its
+    // sections' day spans, whatever the editorial structure looks like.
+    const sections = getSectionsByEra(COURSE, 'nemanjici');
+    expect(sections.length).toBeGreaterThan(0);
+    const expected = sections.reduce(
+      (n, s) => n + (s.endDay - s.startDay + 1),
+      0,
     );
+    expect(getLessonsByEra(COURSE, 'nemanjici')).toHaveLength(expected);
   });
 
-  it('section → era', () => {
-    expect(getEraForSection(COURSE, 'dusanovo-carstvo')?.id).toBe('nemanjici');
+  it('lesson → era resolves', () => {
+    const lesson = getLessonById(COURSE, 'day-046');
+    expect(lesson).not.toBeNull();
+    expect(getEraForLesson(COURSE, 'day-046')?.id).toBe(lesson?.eraId);
+  });
+
+  it('lesson → section resolves', () => {
+    const lesson = getLessonById(COURSE, 'day-046');
+    expect(lesson).not.toBeNull();
+    expect(getSectionForLesson(COURSE, 'day-046')?.id).toBe(lesson?.sectionId);
+  });
+
+  it('section → era resolves', () => {
+    const section = getSections(COURSE).find((s) => s.eraId === 'nemanjici');
+    expect(section).toBeDefined();
+    if (!section) return;
+    expect(getEraForSection(COURSE, section.id)?.id).toBe('nemanjici');
   });
 });
 
 describe('registry: authored seeds', () => {
-  const SEED_IDS = [
-    'praistorija-i-antika-001',
-    'praistorija-i-antika-007',
-    'rani-nemanjici-001',
-    'moravska-srbija-i-kosovo-001',
-    'prvi-ustanak-005',
-    'drugi-svetski-rat-005',
-  ];
+  // Source of truth: every JSON lesson file under
+  // `content/courses/istorija-srbije-365/lessons/` whose `isPlaceholder`
+  // is not `true`. Keep this list in sync when seed lessons are added.
+  const SEED_IDS = ['day-001', 'day-002', 'day-007', 'day-031', 'day-365'];
 
   it.each(SEED_IDS)('%s is authored (not a stub)', (id) => {
     const lesson = getLessonById(COURSE, id);
     expect(lesson).not.toBeNull();
+    expect(lesson?.isPlaceholder).not.toBe(true);
     expect(lesson?.content.length).toBeGreaterThan(1);
     const firstBlock = lesson?.content[0];
     expect(firstBlock?.type).toBe('paragraph');
@@ -114,29 +126,30 @@ describe('registry: authored seeds', () => {
 
 describe('registry: navigation', () => {
   it('prev of day 1 is null', () => {
-    expect(getPrevLesson(COURSE, 'praistorija-i-antika-001')).toBeNull();
+    expect(getPrevLesson(COURSE, 'day-001')).toBeNull();
   });
 
   it('next of day 1 is day 2', () => {
-    const next = getNextLesson(COURSE, 'praistorija-i-antika-001');
-    expect(next?.dayNumber).toBe(2);
+    expect(getNextLesson(COURSE, 'day-001')?.dayNumber).toBe(2);
   });
 
-  it('next of day 365 is null', () => {
+  it('next of the final lesson is null', () => {
     const last = getLessons(COURSE).at(-1);
     expect(last?.dayNumber).toBe(365);
     if (!last) return;
     expect(getNextLesson(COURSE, last.id)).toBeNull();
   });
 
-  it('prev/next form a consistent chain across era boundaries', () => {
-    // last lesson of era II (day 105) → first lesson of era III (day 106)
-    const last = getLessons(COURSE).find((l) => l.dayNumber === 105);
-    const first = getLessons(COURSE).find((l) => l.dayNumber === 106);
-    expect(last).toBeDefined();
-    expect(first).toBeDefined();
-    if (!last || !first) return;
-    expect(getNextLesson(COURSE, last.id)?.id).toBe(first.id);
-    expect(getPrevLesson(COURSE, first.id)?.id).toBe(last.id);
+  it('prev/next form a consistent chain across every era boundary', () => {
+    const lessons = getLessons(COURSE);
+    for (let i = 1; i < lessons.length; i += 1) {
+      const prev = lessons[i - 1];
+      const cur = lessons[i];
+      if (!prev || !cur) continue;
+      if (prev.eraId === cur.eraId) continue;
+      // At an era boundary, next/prev must still link the two lessons.
+      expect(getNextLesson(COURSE, prev.id)?.id).toBe(cur.id);
+      expect(getPrevLesson(COURSE, cur.id)?.id).toBe(prev.id);
+    }
   });
 });

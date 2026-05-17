@@ -15,6 +15,7 @@
     "lint": "turbo run lint",
     "test": "turbo run test",
     "validate-content": "turbo run validate-content",
+    "gen-content": "pnpm --filter @learn365/content gen-content",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "screenshots": "pnpm --filter @learn365/web screenshots"

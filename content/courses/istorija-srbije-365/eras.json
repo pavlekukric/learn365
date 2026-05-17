@@ -1,0 +1,98 @@
+[
+  {
+    "id": "praistorija-i-antika",
+    "courseId": "istorija-srbije-365",
+    "num": "I",
+    "title": "Praistorija, antika i doseljavanje Slovena",
+    "description": "Najstarija prošlost tla današnje Srbije: prve ljudske zajednice, Lepenski Vir i Vinčanska kultura, ilirska i keltska plemena, vekovi rimske vlasti, doseljavanje Slovena i rane srpske kneževine.",
+    "yearStart": -9500,
+    "yearEnd": 1165,
+    "yearsLabel": "praistorija – 9. vek",
+    "eraShort": "Praistorija i antika",
+    "order": 1
+  },
+  {
+    "id": "nemanjici",
+    "courseId": "istorija-srbije-365",
+    "num": "II",
+    "title": "Nemanjićka Srbija",
+    "description": "Uspon i vrhunac srednjovekovne srpske države pod dinastijom Nemanjić: od Stefana Nemanje i Svetog Save do carstva Dušana Silnog i raspada posle Maričke bitke.",
+    "yearStart": 1166,
+    "yearEnd": 1371,
+    "yearsLabel": "1166–1371.",
+    "eraShort": "Nemanjići",
+    "order": 2
+  },
+  {
+    "id": "knez-lazar-i-despotovina",
+    "courseId": "istorija-srbije-365",
+    "num": "III",
+    "title": "Posle Nemanjića: knez Lazar i Despotovina",
+    "description": "Oblasni gospodari, knez Lazar i Kosovska bitka, uspon Despotovine pod Stefanom Lazarevićem i Đurđem Brankovićem i konačni pad srpskih zemalja pod osmansku vlast.",
+    "yearStart": 1371,
+    "yearEnd": 1499,
+    "yearsLabel": "1371–1459.",
+    "eraShort": "Despotovina",
+    "order": 3
+  },
+  {
+    "id": "osmansko-i-habzbursko-doba",
+    "courseId": "istorija-srbije-365",
+    "num": "IV",
+    "title": "Pod osmanskom i habzburškom vlašću",
+    "description": "Tri veka života srpskog naroda bez sopstvene države: ustrojstvo carstava, položaj raje, Pećka patrijaršija, velike seobe, Vojna krajina, Crna Gora i sazrevanje otpora.",
+    "yearStart": 1500,
+    "yearEnd": 1804,
+    "yearsLabel": "kraj 15. veka – 1804.",
+    "eraShort": "Pod tuđom vlašću",
+    "order": 4
+  },
+  {
+    "id": "srpska-revolucija",
+    "courseId": "istorija-srbije-365",
+    "num": "V",
+    "title": "Srpska revolucija",
+    "description": "Prvi srpski ustanak pod Karađorđem, njegov slom, Drugi srpski ustanak pod Milošem Obrenovićem i postepeno sticanje autonomije unutar Osmanskog carstva.",
+    "yearStart": 1804,
+    "yearEnd": 1842,
+    "yearsLabel": "1804–1839.",
+    "eraShort": "Srpska revolucija",
+    "order": 5
+  },
+  {
+    "id": "knezevina-i-kraljevina",
+    "courseId": "istorija-srbije-365",
+    "num": "VI",
+    "title": "Kneževina i Kraljevina Srbija",
+    "description": "Izgradnja moderne države: ustavobranitelji, knez Mihailo, nezavisnost na Berlinskom kongresu, proglašenje kraljevine, stranački život i kulturni razvoj sve do uoči Balkanskih ratova.",
+    "yearStart": 1839,
+    "yearEnd": 1912,
+    "yearsLabel": "1839–1912.",
+    "eraShort": "Kneževina i Kraljevina",
+    "order": 6
+  },
+  {
+    "id": "jugoslavija-i-20-vek",
+    "courseId": "istorija-srbije-365",
+    "num": "VII",
+    "title": "Balkanski ratovi, svetski ratovi i Jugoslavija",
+    "description": "Najburniji vek: Balkanski ratovi, Prvi svetski rat i stradanje, stvaranje i život Jugoslavije, Drugi svetski rat, socijalistička Jugoslavija i njena kriza do pred raspad.",
+    "yearStart": 1912,
+    "yearEnd": 1990,
+    "yearsLabel": "1912–1990.",
+    "eraShort": "Jugoslavija i 20. vek",
+    "order": 7
+  },
+  {
+    "id": "savremena-srbija",
+    "courseId": "istorija-srbije-365",
+    "num": "VIII",
+    "title": "Kraj 20. veka i savremena Srbija",
+    "description": "Raspad Jugoslavije i ratovi devedesetih, sankcije i kriza, demokratske promene 2000, samostalna Srbija, evropski put, savremeno društvo i pitanje istorijskog pamćenja.",
+    "yearStart": 1990,
+    "yearEnd": 2030,
+    "yearsLabel": "1990 – danas",
+    "eraShort": "Savremena Srbija",
+    "order": 8
+  }
+]

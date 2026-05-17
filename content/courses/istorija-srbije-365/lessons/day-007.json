@@ -1,0 +1,54 @@
+{
+  "id": "day-007",
+  "courseId": "istorija-srbije-365",
+  "sectionId": "praistorija-podunavlja",
+  "eraId": "praistorija-i-antika",
+  "dayNumber": 7,
+  "order": 7,
+  "title": "Zagonetka vinčanskih znakova",
+  "subtitle": "Šta su urezani znaci sa vinčanskih predmeta, i zašto nisu „najstarije pismo na svetu”",
+  "readingTimeMinutes": 7,
+  "year": -5000,
+  "dateLabel": "oko 5400–4500. p. n. e.",
+  "timelinePosition": "~5000. p. n. e.",
+  "summary": "Vinčanski znaci su namerni i ponavljaju se — ali, po stručnom konsenzusu, nisu pismo. Vežba iz kritičkog mišljenja primenjena na poznati istorijski mit.",
+  "keyPeople": [],
+  "keyPlaces": ["Vinča"],
+  "content": [
+    {
+      "type": "paragraph",
+      "dropcap": true,
+      "text": "Na mnogim vinčanskim predmetima — na posudama, figurinama, pršljencima za vreteno — urezani su sitni znaci. Crte, krstići, češljasti i ugaoni oblici. Ponavljaju se, prepoznatljivi su, i odmah postavljaju pitanje koje uzbuđuje maštu: da li je to pismo? I, ako jeste — da li je najstarije na svetu?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Krenimo od onoga što je sigurno, jer i tu ima dovoljno zanimljivog. Znaci postoje, mnogobrojni su i nalaze se širom prostora vinčanske kulture, na predmetima svakodnevne upotrebe. Ne deluju nasumično, kao slučajne ogrebotine: čine ograničen, ponovljiv repertoar oblika — skup motiva koje su ljudi tog doba očigledno delili, prepoznavali i namerno urezivali. To je činjenica, i ona je sama po sebi vredna pažnje. Govori nam da su vinčanski ljudi imali zajednički „rečnik” znakova."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sada teže pitanje. Da bismo na njega odgovorili, treba se najpre dogovoriti šta uopšte znači reč „pismo” — jer od te definicije sve zavisi. U nauci, pismo nije bilo koji skup znakova niti svaka poruka koju oko može da prati. Pismo je sistem znakova koji beleži jezik. Pravo pismo može da zapiše rečenicu: reči, njihov red, glasove ili pojmove, tako da neko drugi, kasnije, može to da pročita i dobije istu poruku. Po tome se pismo razlikuje od ukrasa, od pojedinačnog simbola i od proste oznake — sve to nešto saopštava, ali ne beleži jezik."
+    },
+    {
+      "type": "paragraph",
+      "text": "A upravo tu vinčanski znaci ne prolaze test. Ne postoji dokaz da oni beleže jezik. Nema dovoljno raznovrsnih znakova da bi pokrili glasove ili reči nekog jezika, nema ponovljivih nizova koji bi odgovarali rečenicama, nema ničega što bi se moglo „pročitati” u pravom smislu te reči. Zato je stručni konsenzus jasan i ujednačen: vinčanski znaci nisu pismo. Oni jesu nešto — namerni, smisleni, deljeni — ali pismo nisu. To dvoje ne treba mešati."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Odakle priča o „najstarijem pismu na svetu”"
+    },
+    {
+      "type": "paragraph",
+      "text": "Odakle onda potiče tako uporna priča o „najstarijem pismu na svetu”? Iz jednog tačnog podatka, pogrešno protumačenog. Tačno je da prva potvrđena pisma na svetu — klinasto pismo u Mesopotamiji i egipatski hijeroglifi — nastaju znatno kasnije od vinčanske kulture, hiljadama godina kasnije. Iz toga je neko zaključio: ako su vinčanski znaci stariji od najstarijeg poznatog pisma, onda su valjda oni to „prvo pismo”. Ali to je greška u rasuđivanju, i vredi je jasno imenovati. Biti stariji od pisma ne čini nešto pismom — kao što biti stariji od točka ne čini nešto točkom. Znaci jesu stari; pismo nisu. Starost i priroda nisu isto."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ovde vredi zastati i nešto reći otvoreno, jer se oko ove teme nakupilo i nešto što sa naukom nema nikakve veze. Vinčanski znaci ponekad se koriste da bi se tvrdilo kako je „naš narod imao pismo pre svih”. Takva tvrdnja je dvostruko pogrešna. Prvo, već smo videli, znaci nisu pismo. Drugo — i to je možda još važnije — vinčanska kultura prethodi i Slovenima i Srbima za više hiljada godina. Ljudi koji su urezivali te znake nisu bili ni Sloveni ni Srbi; oni su živeli u dobu pre svih kasnijih naroda Evrope, u svetu koji sa kasnijim narodima i jezicima nema veze. Vezivati ih za bilo koji savremeni narod prosto nema smisla — to nije ponos, to je pogrešno čitanje vremena."
+    },
+    {
+      "type": "paragraph",
+      "text": "Šta su onda ti znaci bili? Pošteno je reći: ne znamo pouzdano. Ali to „ne znamo” nije prazno — ima više razumnih mogućnosti, i vredi ih nabrojati. Možda su to bile oznake vlasništva ili pripadnosti — tihi način da se kaže „ovo je moje” ili „ovo je naše”. Možda znakovi zanatlije ili radionice, nešto poput potpisa na grnčariji. Možda simboli sa obrednim ili identitetskim značenjem. Možda način da se nešto prebroji ili evidentira. Možda i ukras koji je vremenom dobio dogovoreno značenje. A možda — i to je najverovatnije — više stvari odjednom, različite namene u različitim prilikama. Zagonetka ostaje otvorena, i to je sasvim u redu. Otvoreno pitanje pošteno priznato vredi više od zatvorenog odgovora koji nije tačan. Biti stariji od pisma ne čini nešto pismom — kao što biti stariji od točka ne čini nešto točkom."
+    }
+  ],
+  "isPlaceholder": false
+}

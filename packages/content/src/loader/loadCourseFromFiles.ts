@@ -1,0 +1,346 @@
+/**
+ * File-based loader for static course content.
+ *
+ * Reads a fully-populated course directory laid out per CONTENT_CONTRACT.md
+ * and returns the same `Course / Era / Section / Lesson` shapes that the rest
+ * of `@learn365/content` already exposes. The loader is intentionally
+ * synchronous so it can run at module-load time inside server-rendered Next
+ * routes and inside the content-validation script — there is no async path
+ * through the UI to deal with.
+ *
+ * Layout expected at `<courseDir>`:
+ *
+ *   course.json
+ *   eras.json
+ *   sections.json
+ *   lessons/
+ *     day-001.json
+ *     day-002.json
+ *     …
+ *     day-365.json
+ *
+ * The loader performs structural validation only (shape, required fields,
+ * enum values). Cross-file invariants (day numbers cover 1..N, section ranges
+ * are contiguous, etc.) are enforced by `validateContentFiles.ts`, which
+ * builds on top of this loader.
+ */
+
+import { readdirSync, readFileSync } from 'node:fs';
+import { join } from 'node:path';
+
+import type {
+  Course,
+  Era,
+  Lesson,
+  LessonBlock,
+  Script,
+  Section,
+} from '../types.js';
+
+export interface LoadedCourse {
+  readonly course: Course;
+  readonly eras: readonly Era[];
+  readonly sections: readonly Section[];
+  readonly lessons: readonly Lesson[];
+}
+
+export class ContentLoadError extends Error {
+  readonly file: string;
+  constructor(file: string, message: string) {
+    super(`${file}: ${message}`);
+    this.name = 'ContentLoadError';
+    this.file = file;
+  }
+}
+
+function readJson(file: string): unknown {
+  let raw: string;
+  try {
+    raw = readFileSync(file, 'utf8');
+  } catch (err) {
+    const msg = err instanceof Error ? err.message : String(err);
+    throw new ContentLoadError(file, `cannot read file (${msg})`);
+  }
+  try {
+    return JSON.parse(raw);
+  } catch (err) {
+    const msg = err instanceof Error ? err.message : String(err);
+    throw new ContentLoadError(file, `invalid JSON (${msg})`);
+  }
+}
+
+function isObject(v: unknown): v is Record<string, unknown> {
+  return typeof v === 'object' && v !== null && !Array.isArray(v);
+}
+
+function requireString(file: string, obj: Record<string, unknown>, key: string): string {
+  const v = obj[key];
+  if (typeof v !== 'string' || v.length === 0) {
+    throw new ContentLoadError(file, `field "${key}" must be a non-empty string`);
+  }
+  return v;
+}
+
+function optionalString(
+  file: string,
+  obj: Record<string, unknown>,
+  key: string,
+): string | undefined {
+  const v = obj[key];
+  if (v === undefined) return undefined;
+  if (typeof v !== 'string') {
+    throw new ContentLoadError(file, `field "${key}" must be a string when present`);
+  }
+  return v;
+}
+
+function requireNumber(file: string, obj: Record<string, unknown>, key: string): number {
+  const v = obj[key];
+  if (typeof v !== 'number' || !Number.isFinite(v)) {
+    throw new ContentLoadError(file, `field "${key}" must be a finite number`);
+  }
+  return v;
+}
+
+function requireInt(file: string, obj: Record<string, unknown>, key: string): number {
+  const v = requireNumber(file, obj, key);
+  if (!Number.isInteger(v)) {
+    throw new ContentLoadError(file, `field "${key}" must be an integer`);
+  }
+  return v;
+}
+
+function optionalBoolean(
+  file: string,
+  obj: Record<string, unknown>,
+  key: string,
+): boolean | undefined {
+  const v = obj[key];
+  if (v === undefined) return undefined;
+  if (typeof v !== 'boolean') {
+    throw new ContentLoadError(file, `field "${key}" must be a boolean when present`);
+  }
+  return v;
+}
+
+function optionalStringArray(
+  file: string,
+  obj: Record<string, unknown>,
+  key: string,
+): readonly string[] | undefined {
+  const v = obj[key];
+  if (v === undefined) return undefined;
+  if (!Array.isArray(v) || !v.every((x) => typeof x === 'string')) {
+    throw new ContentLoadError(file, `field "${key}" must be an array of strings when present`);
+  }
+  return v;
+}
+
+function parseCourse(file: string, raw: unknown): Course {
+  if (!isObject(raw)) {
+    throw new ContentLoadError(file, 'top-level value must be an object');
+  }
+  const language = requireString(file, raw, 'language');
+  if (language !== 'sr') {
+    throw new ContentLoadError(file, `language must be "sr" (got "${language}")`);
+  }
+  const defaultScript = requireString(file, raw, 'defaultScript');
+  if (defaultScript !== 'latin' && defaultScript !== 'cyrillic') {
+    throw new ContentLoadError(
+      file,
+      `defaultScript must be "latin" or "cyrillic" (got "${defaultScript}")`,
+    );
+  }
+  const course: Course = {
+    id: requireString(file, raw, 'id'),
+    title: requireString(file, raw, 'title'),
+    subtitle: requireString(file, raw, 'subtitle'),
+    description: requireString(file, raw, 'description'),
+    totalLessons: requireInt(file, raw, 'totalLessons'),
+    language,
+    defaultScript: defaultScript as Script,
+    estimatedMinutesPerLesson: requireInt(file, raw, 'estimatedMinutesPerLesson'),
+  };
+  const cover = optionalString(file, raw, 'coverImage');
+  return cover === undefined ? course : { ...course, coverImage: cover };
+}
+
+function parseEra(file: string, raw: unknown, index: number): Era {
+  if (!isObject(raw)) {
+    throw new ContentLoadError(file, `entry [${String(index)}] must be an object`);
+  }
+  return {
+    id: requireString(file, raw, 'id'),
+    courseId: requireString(file, raw, 'courseId'),
+    num: requireString(file, raw, 'num'),
+    title: requireString(file, raw, 'title'),
+    description: requireString(file, raw, 'description'),
+    yearStart: requireInt(file, raw, 'yearStart'),
+    yearEnd: requireInt(file, raw, 'yearEnd'),
+    yearsLabel: requireString(file, raw, 'yearsLabel'),
+    eraShort: requireString(file, raw, 'eraShort'),
+    order: requireInt(file, raw, 'order'),
+  };
+}
+
+function parseSection(file: string, raw: unknown, index: number): Section {
+  if (!isObject(raw)) {
+    throw new ContentLoadError(file, `entry [${String(index)}] must be an object`);
+  }
+  const subtitle = optionalString(file, raw, 'subtitle');
+  const base = {
+    id: requireString(file, raw, 'id'),
+    courseId: requireString(file, raw, 'courseId'),
+    eraId: requireString(file, raw, 'eraId'),
+    title: requireString(file, raw, 'title'),
+    order: requireInt(file, raw, 'order'),
+    startDay: requireInt(file, raw, 'startDay'),
+    endDay: requireInt(file, raw, 'endDay'),
+  };
+  return subtitle === undefined ? base : { ...base, subtitle };
+}
+
+function parseBlock(file: string, raw: unknown, index: number): LessonBlock {
+  if (!isObject(raw)) {
+    throw new ContentLoadError(file, `content[${String(index)}] must be an object`);
+  }
+  const type = raw['type'];
+  switch (type) {
+    case 'paragraph': {
+      const dropcap = optionalBoolean(file, raw, 'dropcap');
+      const block: LessonBlock = { type: 'paragraph', text: requireString(file, raw, 'text') };
+      return dropcap === undefined ? block : { ...block, dropcap };
+    }
+    case 'heading': {
+      const level = requireInt(file, raw, 'level');
+      if (level !== 2 && level !== 3) {
+        throw new ContentLoadError(
+          file,
+          `content[${String(index)}].level must be 2 or 3 (got ${String(level)})`,
+        );
+      }
+      return { type: 'heading', level, text: requireString(file, raw, 'text') };
+    }
+    case 'quote': {
+      const attribution = optionalString(file, raw, 'attribution');
+      const block: LessonBlock = { type: 'quote', text: requireString(file, raw, 'text') };
+      return attribution === undefined ? block : { ...block, attribution };
+    }
+    case 'image': {
+      const caption = optionalString(file, raw, 'caption');
+      const block: LessonBlock = {
+        type: 'image',
+        src: requireString(file, raw, 'src'),
+        alt: requireString(file, raw, 'alt'),
+      };
+      return caption === undefined ? block : { ...block, caption };
+    }
+    default:
+      throw new ContentLoadError(
+        file,
+        `content[${String(index)}].type must be paragraph|heading|quote|image (got "${String(type)}")`,
+      );
+  }
+}
+
+function parseLesson(file: string, raw: unknown): Lesson {
+  if (!isObject(raw)) {
+    throw new ContentLoadError(file, 'top-level value must be an object');
+  }
+  const contentRaw = raw['content'];
+  if (!Array.isArray(contentRaw) || contentRaw.length === 0) {
+    throw new ContentLoadError(file, 'content must be a non-empty array of blocks');
+  }
+  const content = contentRaw.map((b, i) => parseBlock(file, b, i));
+
+  const lesson: Lesson = {
+    id: requireString(file, raw, 'id'),
+    courseId: requireString(file, raw, 'courseId'),
+    sectionId: requireString(file, raw, 'sectionId'),
+    eraId: requireString(file, raw, 'eraId'),
+    dayNumber: requireInt(file, raw, 'dayNumber'),
+    order: requireInt(file, raw, 'order'),
+    title: requireString(file, raw, 'title'),
+    readingTimeMinutes: requireInt(file, raw, 'readingTimeMinutes'),
+    year: requireInt(file, raw, 'year'),
+    content,
+  };
+
+  // Optional fields — only assign when present to keep
+  // exactOptionalPropertyTypes happy.
+  const subtitle = optionalString(file, raw, 'subtitle');
+  const dateLabel = optionalString(file, raw, 'dateLabel');
+  const timelinePosition = optionalString(file, raw, 'timelinePosition');
+  const isPlaceholder = optionalBoolean(file, raw, 'isPlaceholder');
+  const summary = optionalString(file, raw, 'summary');
+  const keyPeople = optionalStringArray(file, raw, 'keyPeople');
+  const keyPlaces = optionalStringArray(file, raw, 'keyPlaces');
+
+  return {
+    ...lesson,
+    ...(subtitle !== undefined ? { subtitle } : {}),
+    ...(dateLabel !== undefined ? { dateLabel } : {}),
+    ...(timelinePosition !== undefined ? { timelinePosition } : {}),
+    ...(isPlaceholder !== undefined ? { isPlaceholder } : {}),
+    ...(summary !== undefined ? { summary } : {}),
+    ...(keyPeople !== undefined ? { keyPeople } : {}),
+    ...(keyPlaces !== undefined ? { keyPlaces } : {}),
+  };
+}
+
+/**
+ * Load a course from its static content directory. The directory must
+ * contain `course.json`, `eras.json`, `sections.json`, and a `lessons/`
+ * sub-directory with one `*.json` file per lesson.
+ *
+ * Returns parsed records sorted into stable order:
+ *   - eras by `order`
+ *   - sections by `order`
+ *   - lessons by `dayNumber`
+ *
+ * Structural problems throw `ContentLoadError` with the offending file
+ * and a human-readable message.
+ */
+export function loadCourseFromFiles(courseDir: string): LoadedCourse {
+  const courseFile = join(courseDir, 'course.json');
+  const erasFile = join(courseDir, 'eras.json');
+  const sectionsFile = join(courseDir, 'sections.json');
+  const lessonsDir = join(courseDir, 'lessons');
+
+  const course = parseCourse(courseFile, readJson(courseFile));
+
+  const erasRaw = readJson(erasFile);
+  if (!Array.isArray(erasRaw)) {
+    throw new ContentLoadError(erasFile, 'top-level value must be an array of Era objects');
+  }
+  const eras = erasRaw
+    .map((e, i) => parseEra(erasFile, e, i))
+    .sort((a, b) => a.order - b.order);
+
+  const sectionsRaw = readJson(sectionsFile);
+  if (!Array.isArray(sectionsRaw)) {
+    throw new ContentLoadError(
+      sectionsFile,
+      'top-level value must be an array of Section objects',
+    );
+  }
+  const sections = sectionsRaw
+    .map((s, i) => parseSection(sectionsFile, s, i))
+    .sort((a, b) => a.order - b.order);
+
+  let lessonFiles: string[];
+  try {
+    lessonFiles = readdirSync(lessonsDir).filter((f) => f.endsWith('.json'));
+  } catch (err) {
+    const msg = err instanceof Error ? err.message : String(err);
+    throw new ContentLoadError(lessonsDir, `cannot read lessons directory (${msg})`);
+  }
+  const lessons = lessonFiles
+    .map((name) => {
+      const file = join(lessonsDir, name);
+      return parseLesson(file, readJson(file));
+    })
+    .sort((a, b) => a.dayNumber - b.dayNumber);
+
+  return { course, eras, sections, lessons };
+}
