@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from 'next';
 import type { ReactNode } from 'react';
 
 import { getCourse } from '@learn365/content';
+import { Footer } from '@learn365/ui-web';
 
 import { TopBarHost } from '@/components/top-bar/TopBarHost';
 import { fontVariableClassName } from '@/lib/fonts/fonts';
@@ -44,6 +45,10 @@ export default function RootLayout({ children }: { children: ReactNode }) {
             totalLessons={course.totalLessons}
           />
           <main id="main-content" tabIndex={-1}>{children}</main>
+          <Footer
+            aboutHref="/o-aplikaciji"
+            sourcesHref="/o-aplikaciji#izvori"
+          />
         </AppProviders>
       </body>
     </html>

@@ -6,6 +6,7 @@ export { Chip } from './Chip/Chip.js';
 export { CompletionDot } from './CompletionDot/CompletionDot.js';
 export { Eyebrow } from './Eyebrow/Eyebrow.js';
 export { Flourish } from './Flourish/Flourish.js';
+export { Footer } from './Footer/Footer.js';
 export { Placeholder } from './Placeholder/Placeholder.js';
 export { ProgressBar } from './ProgressBar/ProgressBar.js';
 export { ProgressRing } from './ProgressRing/ProgressRing.js';

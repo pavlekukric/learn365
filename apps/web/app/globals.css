@@ -17,6 +17,12 @@
 
 body {
   min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+}
+
+body > main {
+  flex: 1 0 auto;
 }
 
 /*

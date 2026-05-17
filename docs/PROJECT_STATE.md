@@ -648,12 +648,102 @@ Files touched:
   `.upcomingEyebrow` rule.
 - `apps/web/e2e/smoke.spec.ts` — placeholder-state assertion updated.
 
+## Phase 7.1 — Trust polish: done
+
+Three sub-bundles ship inside one PR (7.1a → 7.1b → 7.1c). Closes the
+single biggest "is this a real product?" gap — every route now ends with
+a calm editorial footer landmark, the brand has an honest about page, and
+the TopBar `O aplikaciji` link removed in 7.0d returns as a real `<Link>`.
+Decisions locked with the owner before implementation:
+
+- Editorial about page (~5 short essay sections), not a marketing landing.
+- Minimal one-row footer: brand · tagline · `O aplikaciji` + `Izvori` ·
+  copyright. Hairline top rule, parchment ground.
+- TopBar link slot between `Kurs` and the progress capsule. Hidden on
+  ≤720px (the footer surfaces the page on mobile).
+- Author attribution: generic `Tim History 365` byline (no single named
+  editor yet).
+- Sources lives inline as `#izvori` anchor on `/o-aplikaciji` — no
+  separate `/izvori` route in v1.
+
+### 7.1a — Footer primitive + mount
+
+- `packages/ui-web/src/primitives/Footer/Footer.tsx` + `.module.css` —
+  new stateless `Footer` component. `<footer role="contentinfo">`,
+  `<Brand />`, tagline, `O aplikaciji` + `Izvori` links, copyright.
+  Responsive: one row at ≥860px, wrap-cluster at 720–860, fully stacked
+  below 720 with safe-area-aware horizontal padding inherited from the
+  global `.shell`.
+- `packages/ui-web/src/primitives/index.ts` — exports `Footer`.
+- `apps/web/app/layout.tsx` — mounts `<Footer aboutHref="/o-aplikaciji"
+  sourcesHref="/o-aplikaciji#izvori" />` after `<main>` inside
+  `<AppProviders>`.
+- `apps/web/app/globals.css` — `body` becomes a flex column with `main`
+  growing, so the footer hugs the viewport bottom on short pages
+  (upcoming-lesson placeholder) without floating mid-screen on tall ones.
+
+### 7.1b — `/o-aplikaciji` route
+
+- `apps/web/app/o-aplikaciji/page.tsx` — Server Component. Five
+  `<section>` blocks: Misija, Urednički standard, O izvorima, Urednički
+  tim, Kontakt. Editorial register matching the lesson reader (Eyebrow +
+  serif title + lede + Flourish header, then h3 + body paragraphs at
+  `--reading-col`). `mailto:` is the only outbound action; no form.
+- `apps/web/app/o-aplikaciji/_copy.ts` — copy constants in Serbian; the
+  single source of truth so the owner can iterate without touching JSX.
+  Includes a `CONTACT_EMAIL` placeholder (`kontakt@history365.app`) that
+  must be swapped before public launch (clearly tagged in the file).
+- `apps/web/app/o-aplikaciji/page.module.css` — page layout, reading
+  width, contact-link treatment (editorial mono with a hairline
+  underline).
+- The `O izvorima` section carries `id="izvori"` so the footer's
+  `Izvori` link deep-links to it.
+- Static-prerendered route; page title `O aplikaciji · History 365` via
+  the root layout's title template.
+
+### 7.1c — TopBar restoration + smoke
+
+- `packages/ui-web/src/primitives/TopBar/TopBar.tsx` — new `aboutHref`
+  prop and a third nav `<Link>` between `Kurs` and the progress capsule.
+  Active state mirrors the existing `Početna` / `Kurs` treatment via
+  `aria-current="page"` plus the `.active` class — no new CSS needed.
+- `apps/web/components/top-bar/TopBarHost.tsx` — `routeFromPath` now
+  returns `'about'` for any path starting with `/o-aplikaciji`; threads
+  `aboutHref="/o-aplikaciji"` to the TopBar.
+- `apps/web/e2e/smoke.spec.ts` — new test asserts the `contentinfo`
+  footer is present, its `O aplikaciji` link navigates to
+  `/o-aplikaciji`, the page heading renders, and the `#izvori`-anchored
+  `O izvorima` heading exists.
+- Mobile `@media (max-width: 720px)` rule in `TopBar.module.css` hides
+  all text nav links — the new `O aplikaciji` link inherits the hide, so
+  the mobile header still reduces to brand + progress capsule.
+
+Files touched (7.1 total):
+- `packages/ui-web/src/primitives/Footer/{Footer.tsx, Footer.module.css}`
+- `packages/ui-web/src/primitives/index.ts`
+- `packages/ui-web/src/primitives/TopBar/TopBar.tsx`
+- `apps/web/app/layout.tsx`
+- `apps/web/app/globals.css`
+- `apps/web/app/o-aplikaciji/{page.tsx, page.module.css, _copy.ts}`
+- `apps/web/components/top-bar/TopBarHost.tsx`
+- `apps/web/e2e/smoke.spec.ts`
+- `docs/PHASE_7_1_PLAN.md`, `docs/NEXT_PHASE_RECOMMENDATION.md`
+
+Gates locally green: `pnpm typecheck && pnpm lint && pnpm test && pnpm
+build`. Playwright smoke (8 tests) passes on `chromium-desktop` and
+`chromium-mobile`.
+
 ## Next step
 
 Outstanding work — none of it blocks the live site, but it was deferred, not done:
 
+- **Production contact email** — swap the `CONTACT_EMAIL` placeholder
+  in `apps/web/app/o-aplikaciji/_copy.ts` once the real address exists.
 - **Screen-reader smoke** — VoiceOver / NVDA on TopBar nav + breadcrumbs + accordion + completion toggle.
 - **Editorial review of the 6 authored seed lessons** (`packages/content/src/courses/istorija-srbije-365/lessons/authored/`) for historical voice, accuracy, period coverage.
 - `COMPONENT_LIBRARY.md` still needs the `onClick → href` revision for navigation props called out at the end of Phase 3.
 
-After these, the roadmap continues with Phase 7 (Mobile / Expo) and Phase 8 (Backend / .NET) per `docs/IMPLEMENTATION_PLAN.md`.
+Next UI/UX phase candidate is **Home hero v2** — see
+`docs/NEXT_PHASE_RECOMMENDATION.md` §2 Pick 2. After UI is finished,
+the roadmap continues with Phase 8 (Backend / .NET) per
+`docs/BACKEND_STRATEGY.md`.

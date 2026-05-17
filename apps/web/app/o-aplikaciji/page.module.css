@@ -1,0 +1,94 @@
+.page {
+  padding-top: var(--space-12);
+  padding-bottom: var(--space-13);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-11);
+  max-width: 760px;
+}
+
+/* ---------------------------------------------------------------------------
+ * Header — editorial register: small kicker, serif title, lede, then a
+ * flourish to close the masthead before body sections begin.
+ * ------------------------------------------------------------------------- */
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--space-5);
+}
+
+.title {
+  margin: 0;
+}
+
+.lede {
+  margin: 0;
+  max-width: var(--reading-col);
+}
+
+/* ---------------------------------------------------------------------------
+ * Body — five short essay sections. Single column at reading width.
+ * ------------------------------------------------------------------------- */
+.body {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-10);
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  max-width: var(--reading-col);
+}
+
+.sectionTitle {
+  margin: 0;
+}
+
+.paragraph {
+  margin: 0;
+}
+
+/*
+ * Contact line — surfaces the email plainly under the contact paragraph.
+ * Editorial mono, no button, no form.
+ */
+.contactLine {
+  margin: var(--space-2) 0 0;
+}
+
+.contactLink {
+  font-family: var(--mono);
+  font-size: 14px;
+  color: var(--ink);
+  border-bottom: 1px solid var(--rule-2);
+  padding-bottom: 1px;
+  transition: color var(--dur-base) var(--ease), border-color var(--dur-base) var(--ease);
+}
+
+.contactLink:hover {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+}
+
+.contactLink:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 4px;
+  border-radius: var(--r-sm);
+}
+
+@media (max-width: 720px) {
+  .page {
+    padding-top: var(--space-10);
+    padding-bottom: var(--space-11);
+    gap: var(--space-9);
+  }
+  .header {
+    gap: var(--space-4);
+  }
+  .body {
+    gap: var(--space-8);
+  }
+}
