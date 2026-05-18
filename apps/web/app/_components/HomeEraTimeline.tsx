@@ -62,6 +62,7 @@ export function HomeEraTimeline({ courseId }: HomeEraTimelineProps) {
       currentLesson={{ eraId: markerLesson.eraId, year: markerLesson.year }}
       eraHref={eraHref}
       eraStats={eraStats}
+      variant="home"
     />
   );
 }

@@ -28,12 +28,17 @@ interface HistoricalTimelineProps {
    */
   eraStats?: ReadonlyMap<EraId, EraStat> | undefined;
   /**
-   * Layout variant. `'full'` (default) is the responsive journey rail.
-   * `'compact'` forces the condensed vertical layout regardless of viewport —
-   * used inside the mobile "Sadržaj" drawer, where it must not depend on the
-   * `≤720px` media query (the drawer can be open up to 1024px).
+   * Layout variant. `'full'` (default) is the responsive journey rail used by
+   * the lesson reader. `'compact'` forces the condensed vertical layout
+   * regardless of viewport — used inside the mobile "Sadržaj" drawer, where it
+   * must not depend on the `≤720px` media query (the drawer can be open up to
+   * 1024px). `'home'` is a heavier-weight desktop register for the landing
+   * surface — taller panel, larger rail and marker, bigger typography — so the
+   * rail reads as the centerpiece of a 365-day journey rather than a band of
+   * tabs. Mobile behaviour is inherited from the base styles (the `'home'`
+   * overrides are scoped to `min-width: 721px`).
    */
-  variant?: 'full' | 'compact';
+  variant?: 'full' | 'compact' | 'home';
 }
 
 type EraState = 'completed' | 'current' | 'upcoming';
@@ -98,7 +103,9 @@ export function HistoricalTimeline({
   const rootClass =
     variant === 'compact'
       ? `${styles.timeline} ${styles.compact}`
-      : styles.timeline;
+      : variant === 'home'
+        ? `${styles.timeline} ${styles.home}`
+        : styles.timeline;
 
   return (
     <nav className={rootClass} aria-label="Vremenska osa epoha">

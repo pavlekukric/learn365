@@ -382,6 +382,66 @@ a.band:focus-visible {
   display: none;
 }
 
+/* ---------------------------------------------------------------------------
+ * Home variant — heavier desktop register for the landing surface. Taller
+ * panel, larger rail and marker, bumped typography so the rail reads as the
+ * centerpiece of a 365-day journey rather than a band of tabs.
+ *
+ * Scoped to `min-width: 721px` so the mobile vertical rail (defined under
+ * `max-width: 720px` above) is inherited untouched on small viewports.
+ * ------------------------------------------------------------------------- */
+@media (min-width: 721px) {
+  .home .panel {
+    gap: var(--space-4);
+    padding: var(--space-7) var(--space-6);
+  }
+
+  .home .rail {
+    height: 3px;
+    margin: var(--space-3) 0 var(--space-2);
+  }
+
+  .home .marker {
+    width: 13px;
+    height: 13px;
+    box-shadow:
+      0 0 0 3px var(--surface),
+      0 0 0 4px var(--accent-soft),
+      0 0 0 5px var(--rule-2);
+  }
+
+  .home .band {
+    padding: var(--space-3) var(--space-4);
+  }
+
+  .home .num {
+    font-size: 15px;
+  }
+
+  .home .title {
+    font-size: 14px;
+  }
+
+  /* Slightly stronger year colour than the default `--faint` so the
+   * chronological labels carry their share of the rail's weight. */
+  .home .yearShort {
+    color: var(--muted);
+    margin-top: 2px;
+  }
+
+  /* "You are here" treatment at the band level — the rail marker stays the
+   * precise position; the band gains a soft tint so the active era is
+   * legible at a glance on a wide landing surface. */
+  .home .current.band {
+    background: color-mix(in oklch, var(--accent-soft) 55%, transparent);
+    border-radius: var(--r-sm);
+  }
+
+  .home a.current.band:hover {
+    background: color-mix(in oklch, var(--accent-soft) 75%, transparent);
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   .marker,
   .railFill,
