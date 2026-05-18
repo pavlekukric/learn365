@@ -122,6 +122,20 @@
   gap: var(--space-5);
 }
 
+/*
+ * Chronological caption attached to the title. The negative top margin pulls
+ * it close to the h1 so it reads as a caption belonging to the title rather
+ * than a separate paragraph; the flex `gap` still spaces it correctly from
+ * the lede below.
+ */
+.dateLine {
+  margin: calc(-1 * var(--space-3)) 0 0;
+  color: var(--muted);
+  font-size: 13px;
+  letter-spacing: 0.02em;
+  font-variant-numeric: tabular-nums;
+}
+
 .description {
   max-width: var(--reading-col);
 }
