@@ -130,6 +130,16 @@ export function LessonPageClient({
     [courseId, lessons],
   );
 
+  const sectionHref = useCallback(
+    (sectionId: SectionId) => {
+      const firstInSection = lessons.find((l) => l.sectionId === sectionId);
+      return firstInSection
+        ? `/course/${courseId}/lesson/${firstInSection.id}`
+        : `/course/${courseId}`;
+    },
+    [courseId, lessons],
+  );
+
   // Per-era lesson + completion counts for the timeline's proportional widths
   // and progress fill. Derived from the already-loaded lessons + progress set.
   const eraStats = useMemo(() => {
@@ -155,9 +165,20 @@ export function LessonPageClient({
       { label: 'Početna', href: '/' },
       { label: courseTitle, href: `/course/${courseId}` },
       { label: era.title, href: eraHref(era.id) },
+      { label: section.title, href: sectionHref(section.id) },
       { label: `DAN ${String(lesson.dayNumber).padStart(3, '0')}` },
     ],
-    [courseTitle, courseId, era.title, era.id, eraHref, lesson.dayNumber],
+    [
+      courseTitle,
+      courseId,
+      era.title,
+      era.id,
+      eraHref,
+      section.title,
+      section.id,
+      sectionHref,
+      lesson.dayNumber,
+    ],
   );
 
   const sidebarProps = {
