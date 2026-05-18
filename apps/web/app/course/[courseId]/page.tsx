@@ -20,12 +20,15 @@ export default async function CourseOverviewPage({ params }: PageProps) {
     <div className={`shell ${styles.page}`}>
       {/*
         Course overview is a navigation tool, not a second landing page — the
-        header stays compact (eyebrow + title only). The state-aware
-        start/continue action lives on the CourseProgress card below.
+        header stays compact (eyebrow + title + lede). The lede is sourced
+        from `course.description` so the page stops reading empty without
+        gaining a second hero; the state-aware start/continue action lives on
+        the CourseProgress card below.
       */}
       <header className={styles.header}>
         <Eyebrow>Kurs</Eyebrow>
         <h1 className="h1">{course.title}</h1>
+        <p className={`body ${styles.lede}`}>{course.description}</p>
       </header>
 
       <CourseOverviewProgress
