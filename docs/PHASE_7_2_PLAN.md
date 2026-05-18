@@ -400,3 +400,41 @@ This plan deliberately does **not** touch:
   page. Not a blocker for Home hero v2 and intentionally not bundled
   into this phase — it is a one-line copy swap that can ship in any
   follow-up PR.
+
+---
+
+## 8. Current status (2026-05-18)
+
+Branch `feat/phase-7-2-home-hero-v2` pushed to `origin`, four commits
+ahead of `main`: this plan doc + 7.2a + 7.2b + 7.2c.
+
+Engineering gates run locally, all green:
+- `pnpm typecheck`, `pnpm lint`, `pnpm test`, `pnpm build`
+- `pnpm validate-content` (365 lessons, 37 sections, 8 eras)
+- `pnpm --filter @learn365/web test:e2e` — full Playwright matrix
+  (chromium / firefox / webkit × desktop / mobile). One webkit infra
+  flake on first run (browser-launch lifecycle, not content); passed
+  cleanly on re-run.
+
+**Not yet done — picks up in the next session:**
+
+1. **Open the draft PR.** The `gh` CLI on this machine was not
+   authenticated, so the `gh pr create` call failed. Either run
+   `gh auth login` and re-issue, or open by hand via
+   <https://github.com/pavlekukric/learn365/pull/new/feat/phase-7-2-home-hero-v2>.
+   Suggested PR title: `Phase 7.2 — Home hero v2`. The PR body can
+   reuse the structure from this plan's §4 (bundle) and §7
+   (housekeeping); the "Vercel preview live walk" item from this plan's
+   §6 step 4 becomes the test-plan checklist on the PR.
+2. **Vercel preview live walk** — home + course at 360 / 768 / 1280 /
+   1920, side-by-side with the lesson reader for confidence-parity
+   check. Specific spots worth eyeballing:
+   - Centered `<Flourish />` inside the 760px-capped `.heroInner`
+     reads as deliberate, not misaligned (fallback if not: constrain
+     its container width).
+   - Home eras rail on ≤720px is identical to before (the `'home'`
+     overrides are gated to `min-width: 721px`, but worth confirming).
+   - Course-overview lede doesn't crowd the CourseProgress card on
+     small viewports.
+3. **On approval, merge and update `PROJECT_STATE.md`** with a
+   `Phase 7.2 — Home hero v2: done` section following the 7.1 pattern.
