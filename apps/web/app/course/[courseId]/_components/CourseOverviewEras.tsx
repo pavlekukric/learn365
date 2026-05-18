@@ -207,6 +207,7 @@ export function CourseOverviewEras({ courseId }: CourseOverviewErasProps) {
               isCurrent={isCurrent}
               isAllDone={isAllDone}
               href={href}
+              description={era.description}
             />
             <button
               type="button"
@@ -242,7 +243,6 @@ export function CourseOverviewEras({ courseId }: CourseOverviewErasProps) {
             </button>
             {isOpen ? (
               <div id={panelId} className={styles.eraChildren}>
-                <p className={`body ${styles.eraDescription}`}>{era.description}</p>
                 <ul className={styles.sections}>
                   {sections.map((section) => {
                     const sectionLessons = getLessonsBySection(courseId, section.id);

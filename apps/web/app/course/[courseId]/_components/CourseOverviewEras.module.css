@@ -77,11 +77,6 @@
   border-left: 1px solid var(--rule);
 }
 
-.eraDescription {
-  color: var(--ink-2);
-  max-width: var(--reading-col);
-}
-
 /* Lesson groups — secondary sections nested under the epoch card. */
 .sections {
   list-style: none;
