@@ -16,6 +16,13 @@ interface CourseCardProps {
   isCurrent: boolean;
   isAllDone: boolean;
   href: string;
+  /**
+   * Optional editorial paragraph. When provided, the card reads as an
+   * editorial block (eyebrow + title + years + description + progress) rather
+   * than a navigation row. Rendered as a span (not p) because the card is a
+   * Link and paragraphs cannot be descendants of interactive elements.
+   */
+  description?: string;
 }
 
 export function CourseCard({
@@ -25,6 +32,7 @@ export function CourseCard({
   isCurrent,
   isAllDone,
   href,
+  description,
 }: CourseCardProps) {
   const progress = totalLessons > 0 ? completedLessons / totalLessons : 0;
   const cls = [
@@ -42,6 +50,9 @@ export function CourseCard({
       <span className={styles.titleBlock}>
         <span className={`h3 ${styles.title}`}>{era.title}</span>
         <span className={`tiny mono ${styles.years}`}>{era.yearsLabel}</span>
+        {description ? (
+          <span className={`small ${styles.description}`}>{description}</span>
+        ) : null}
       </span>
 
       <span className={styles.progressBlock}>
