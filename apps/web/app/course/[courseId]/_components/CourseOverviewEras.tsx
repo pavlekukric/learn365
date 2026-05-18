@@ -155,6 +155,18 @@ export function CourseOverviewEras({ courseId }: CourseOverviewErasProps) {
     [allLessons, completedSet, lastId],
   );
 
+  // First-time visitor signal — `findActiveLocation` falls back to lesson 1
+  // when neither `lastOpenedLessonId` nor a completed set exists, which on
+  // this page would auto-expand Era I into an editorial wall of nested
+  // panels. On the lesson reader that fallback is right (the sidebar must
+  // surface *some* active position); on the course overview it works against
+  // the "8 calm editorial blocks" register that the always-visible era
+  // descriptions establish. So we keep `active` available for the sidebar's
+  // selector and just suppress the auto-open here when there's no real
+  // progress to point at.
+  const hasRealProgress =
+    lastId !== null || (completedSet !== null && completedSet.size > 0);
+
   // Era + section accordion state. We can't just seed with `useState(active)`
   // because the persisted progress store hydrates *after* first render — at
   // that moment `lastOpenedLessonId` is still null, so `active` collapses to
@@ -169,13 +181,21 @@ export function CourseOverviewEras({ courseId }: CourseOverviewErasProps) {
 
   useEffect(() => {
     if (userToggledEra) return;
+    if (!hasRealProgress) {
+      setOpenEraId(null);
+      return;
+    }
     setOpenEraId(active?.eraId ?? null);
-  }, [active?.eraId, userToggledEra]);
+  }, [active?.eraId, userToggledEra, hasRealProgress]);
 
   useEffect(() => {
     if (userToggledSection) return;
+    if (!hasRealProgress) {
+      setOpenSectionId(null);
+      return;
+    }
     setOpenSectionId(active?.sectionId ?? null);
-  }, [active?.sectionId, userToggledSection]);
+  }, [active?.sectionId, userToggledSection, hasRealProgress]);
 
   return (
     <div className={styles.list}>
