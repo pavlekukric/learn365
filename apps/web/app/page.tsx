@@ -1,5 +1,5 @@
 import { getCourse } from '@learn365/content';
-import { Eyebrow } from '@learn365/ui-web';
+import { Eyebrow, Flourish } from '@learn365/ui-web';
 
 import { HomeCurrentLessonCard } from './_components/HomeCurrentLessonCard';
 import { HomeEraTimeline } from './_components/HomeEraTimeline';
@@ -16,6 +16,14 @@ const DEFAULT_COURSE_ID = 'istorija-srbije-365';
  */
 const HERO_DESCRIPTION =
   'Kroz osam epoha i 365 kratkih lekcija prati razvoj Srbije — od najstarijih kultura na Balkanu do savremenog doba. Jedan dan, jedna lekcija, jedan jasan put.';
+
+/**
+ * Chronological scope caption under the hero title. Mirrors the lesson
+ * reader's eyebrow notation (`oko 9500 p.n.e.`) and anchors the hero in
+ * history. Static scope statement — state is carried by the CTA and the
+ * recommended-lesson card below, not here.
+ */
+const HERO_DATE_LINE = '~9500 p.n.e. → danas · 365 dana';
 
 export default function HomePage() {
   const course = getCourse(DEFAULT_COURSE_ID);
@@ -36,9 +44,14 @@ export default function HomePage() {
         <div className={styles.heroInner}>
           {/* No hero eyebrow: the TopBar already holds the History 365 brand,
             * and the h1 below carries the course identity. A second naming
-            * line between them only stutters the same idea. */}
+            * line between them only stutters the same idea. The chronological
+            * caption below the title is a scope statement, not a brand label —
+            * different register, so it sits under the h1 rather than above. */}
           <h1 className="display">{course.title}</h1>
+          <p className={`mono ${styles.dateLine}`}>{HERO_DATE_LINE}</p>
           <p className={`body ${styles.description}`}>{HERO_DESCRIPTION}</p>
+
+          <Flourish />
 
           <HomeHeroCta courseId={course.id} />
         </div>

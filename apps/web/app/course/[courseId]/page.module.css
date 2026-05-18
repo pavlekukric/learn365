@@ -13,6 +13,18 @@
   max-width: 720px;
 }
 
+/*
+ * Course-overview lede. Capped at the reading column so it stays a calm
+ * one-paragraph orientation rather than sprawling across the shell width.
+ * Quieter than the home hero by design — the course page is a navigation
+ * tool, not a second landing surface.
+ */
+.lede {
+  margin: 0;
+  max-width: var(--reading-col);
+  color: var(--ink-2);
+}
+
 .eras {
   display: flex;
   flex-direction: column;
