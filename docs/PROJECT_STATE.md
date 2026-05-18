@@ -733,6 +733,80 @@ Gates locally green: `pnpm typecheck && pnpm lint && pnpm test && pnpm
 build`. Playwright smoke (8 tests) passes on `chromium-desktop` and
 `chromium-mobile`.
 
+## Phase 7.2 — Home hero v2: done
+
+Three sub-bundles ship inside one PR (7.2a → 7.2b → 7.2c). Brings the
+home page to the same confidence level as the lesson reader without
+adding new content surfaces — the home hero gains chronological and
+editorial ornament, the eras rail steps up from "tab strip" to journey
+centerpiece, and the course overview header stops reading empty.
+Decisions locked with the owner before implementation:
+
+- Eras rail: extend `HistoricalTimeline` with a new `'home'` variant
+  rather than reframing the section or building a separate component —
+  one shared component, three registers (`'full'` / `'compact'` /
+  `'home'`).
+- Hero ornaments: chronological mono date-line caption under the title
+  + existing `<Flourish />` between lede and CTA. Scope statement, not
+  state — state is carried by the CTA and recommended-lesson card.
+- Course-overview parity: one-line lede sourced from
+  `course.description`, no flourish, no date line. Stays quieter than
+  the home hero by design (navigation tool, not a second landing
+  surface).
+
+### 7.2a — Home hero ornamentation
+
+- `apps/web/app/page.tsx` — adds a mono caption `~9500 p.n.e. → danas ·
+  365 dana` directly under the `<h1>` (placed *under* the title, not as
+  an eyebrow above, to preserve the Phase 7.0d decision keeping
+  "History 365" out of hero text). Adds `<Flourish />` from
+  `@learn365/ui-web` between the lede and `<HomeHeroCta />`.
+- `apps/web/app/page.module.css` — new `.dateLine` rule (mono, muted,
+  tabular nums, negative top margin so it reads as a caption attached
+  to the title while the flex `gap` still spaces it from the lede
+  below).
+
+### 7.2b — `HistoricalTimeline` `'home'` variant + mount on Home
+
+- `packages/ui-web/src/lesson/HistoricalTimeline/HistoricalTimeline.tsx`
+  — widens the `variant` prop to `'full' | 'compact' | 'home'` and
+  extends `rootClass` to apply the new `.home` class.
+- `packages/ui-web/src/lesson/HistoricalTimeline/HistoricalTimeline.module.css`
+  — new `.home`-scoped rule block (taller panel, 3px rail, 13px marker
+  with an `--accent-soft` halo, bumped band typography, stronger year
+  colour, soft accent-tinted background for the current era). Gated to
+  `@media (min-width: 721px)` so the mobile vertical rail and the
+  `'compact'` drawer variant are inherited untouched.
+- `apps/web/app/_components/HomeEraTimeline.tsx` — passes
+  `variant="home"`. Lesson reader keeps the default `'full'` and the
+  drawer keeps its explicit `'compact'` — no existing call site
+  changes behaviour.
+
+### 7.2c — Course overview lede
+
+- `apps/web/app/course/[courseId]/page.tsx` — adds a `<p>` rendered
+  from `course.description` under the `<h1>` inside the existing
+  `<header>`. No new copy ownership; sources from the canonical content
+  data the course already exposes.
+- `apps/web/app/course/[courseId]/page.module.css` — new `.lede` rule
+  capping the paragraph at `var(--reading-col)` and giving it `--ink-2`
+  so it reads as a quiet orientation rather than a second hero.
+
+Files touched (7.2 total):
+- `apps/web/app/page.tsx`, `apps/web/app/page.module.css`
+- `apps/web/app/_components/HomeEraTimeline.tsx`
+- `apps/web/app/course/[courseId]/page.tsx`,
+  `apps/web/app/course/[courseId]/page.module.css`
+- `packages/ui-web/src/lesson/HistoricalTimeline/{HistoricalTimeline.tsx, HistoricalTimeline.module.css}`
+- `docs/PHASE_7_2_PLAN.md`
+
+Gates locally green at every sub-bundle and at the tip: `pnpm
+typecheck && pnpm lint && pnpm test && pnpm build`,
+`pnpm validate-content` (365 lessons / 37 sections / 8 eras),
+`pnpm --filter @learn365/web test:e2e` across the full Playwright
+matrix (chromium / firefox / webkit × desktop / mobile). One webkit
+infra flake on first run, clean on re-run. Merged via PR #13.
+
 ## Next step
 
 Outstanding work — none of it blocks the live site, but it was deferred, not done:
@@ -743,7 +817,12 @@ Outstanding work — none of it blocks the live site, but it was deferred, not d
 - **Editorial review of the 6 authored seed lessons** (`packages/content/src/courses/istorija-srbije-365/lessons/authored/`) for historical voice, accuracy, period coverage.
 - `COMPONENT_LIBRARY.md` still needs the `onClick → href` revision for navigation props called out at the end of Phase 3.
 
-Next UI/UX phase candidate is **Home hero v2** — see
-`docs/NEXT_PHASE_RECOMMENDATION.md` §2 Pick 2. After UI is finished,
-the roadmap continues with Phase 8 (Backend / .NET) per
-`docs/BACKEND_STRATEGY.md`.
+Next UI/UX phase candidate is **Section in breadcrumb** —
+`docs/NEXT_PHASE_RECOMMENDATION.md` §2 Pick 3. Small, real clarity win
+on the lesson page: the section level is currently invisible in the
+breadcrumb chain (`Početna · Kurs · Era · Dan nnn`) even though it's a
+load-bearing organisational level. Touches `Breadcrumbs` + lesson page
+composition, plus a decision about whether the section crumb
+deep-links to `#section-id` on the course page or to the section's
+first lesson. After UI is finished, the roadmap continues with Phase 8
+(Backend / .NET) per `docs/BACKEND_STRATEGY.md`.
