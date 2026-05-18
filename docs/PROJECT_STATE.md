@@ -733,17 +733,179 @@ Gates locally green: `pnpm typecheck && pnpm lint && pnpm test && pnpm
 build`. Playwright smoke (8 tests) passes on `chromium-desktop` and
 `chromium-mobile`.
 
+## Phase 7.2 — Home hero v2: done
+
+Three sub-bundles ship inside one PR (7.2a → 7.2b → 7.2c). Closes the
+"home page reads thinner than the lesson reader" gap called out in
+`docs/NEXT_PHASE_RECOMMENDATION.md` §2 Pick 2 — the home hero and eras
+rail now carry the same editorial confidence as the lesson page, and the
+course overview hero is no longer bare. Decisions locked with the owner
+before implementation:
+
+- Eras rail gains weight via a new `variant='home'` on the shared
+  `HistoricalTimeline` component (not a separate `HomeJourneyRail`); the
+  lesson page's `'full'` variant and the mobile drawer's `'compact'`
+  variant are untouched.
+- Hero ornamentation: a mono date / scope caption under the title
+  (`~9500 p.n.e. → danas · 365 dana`) plus a `<Flourish />` between the
+  lede and the CTA. Scope statement, not a state statement — does not
+  change with user progress.
+- Course overview hero gains a one-paragraph lede sourced from
+  `course.description` (already canonical content data). No date line,
+  no Flourish — course overview stays a navigation surface, not a second
+  landing surface.
+
+### 7.2a — Home hero ornamentation (date line + Flourish)
+
+- `apps/web/app/page.tsx` — inside `.heroInner`, mono caption `<p>`
+  inserted directly under `<h1>`; `<Flourish />` mounted between the
+  lede and `<HomeHeroCta />`. `Flourish` imported from `@learn365/ui-web`.
+- `apps/web/app/page.module.css` — `.heroDateLine` rule (mono font,
+  muted colour, tabular-nums); hero gap rhythm tightened so the new
+  caption sits cleanly under the title.
+
+### 7.2b — `HistoricalTimeline` `'home'` variant + mount on home
+
+- `packages/ui-web/src/lesson/HistoricalTimeline/HistoricalTimeline.tsx`
+  — `variant` prop extended to `'full' | 'compact' | 'home'`. New
+  branch applies the home treatment without affecting existing call
+  sites; per-era proportional widths, marker math (`timelineMath.ts`),
+  `eraStats` shape, and the `eraHref` builder all reused as-is.
+- `packages/ui-web/src/lesson/HistoricalTimeline/HistoricalTimeline.module.css`
+  — `'home'` styles: taller panel (`var(--space-7)` inner padding), 3px
+  rail, 13px markers with stronger ring, `.yearShort` shown on desktop
+  (chronological readability), `--accent-soft` halo on the current era
+  node so "you are here" is visible at the band level, more breathing
+  room between bands.
+- `apps/web/app/_components/HomeEraTimeline.tsx` — passes
+  `variant='home'`. The home eras rail now reads as the centerpiece of
+  a 365-day journey rather than a band of tabs.
+
+### 7.2c — Course overview lede
+
+- `apps/web/app/course/[courseId]/page.tsx` — header gains a single
+  `<p>` lede directly under the `<h1>`, sourced from
+  `course.description`. No new copy file, no new data field.
+- `apps/web/app/course/[courseId]/page.module.css` — `.lede` rule at
+  the reading column width, tuned to feel finished without competing
+  with the home hero.
+
+Files touched (7.2 total):
+- `apps/web/app/page.tsx`, `apps/web/app/page.module.css`
+- `apps/web/app/_components/HomeEraTimeline.tsx`
+- `apps/web/app/course/[courseId]/page.tsx`,
+  `apps/web/app/course/[courseId]/page.module.css`
+- `packages/ui-web/src/lesson/HistoricalTimeline/{HistoricalTimeline.tsx, HistoricalTimeline.module.css}`
+- `docs/PHASE_7_2_PLAN.md`
+
+Gates locally green: `pnpm typecheck && pnpm lint && pnpm test && pnpm
+build`. Playwright smoke continues to pass — visual-only change, no new
+assertions added.
+
+## Phase 7.3 — Section in breadcrumb: done
+
+One commit, one file. Inserts `Section` as the 4th crumb on the lesson
+page so the breadcrumb chain matches the four-level content hierarchy
+(`Course → Era → Section → Lesson`) the sidebar already organises
+around. Before: `Početna · Istorija Srbije 365 · Nemanjićka Srbija ·
+DAN 053`. After: `Početna · Istorija Srbije 365 · Nemanjićka Srbija ·
+Stefan Nemanja · DAN 053`. Decisions locked with the owner before
+implementation, sharpened by a live audit of the deployed build:
+
+- Insert section between era and day — the lesson page is the only
+  surface that gains a crumb. Mobile `≤560px` rule (last-two-crumbs
+  only) already in `Breadcrumbs.module.css` handles the longer chain
+  without modification; visible mobile chain becomes
+  `{section} · DAN nnn`, a clarity upgrade since section is the more
+  specific parent.
+- Section crumb links to the section's first lesson, mirroring the
+  existing `eraHref` "navigate to first lesson" pattern. Consistency
+  with the era crumb beats theoretical correctness; if both ever need
+  to deep-link to the course overview, they reform together as a
+  larger future phase. The `#era-section-{id}` anchor option was
+  rejected — it would have required reopening `CourseOverviewEras`
+  (panel ids are conditionally mounted) and would behave
+  inconsistently with the existing era crumb.
+
+Files touched (7.3 total):
+- `apps/web/app/course/[courseId]/lesson/[lessonId]/LessonPageClient.tsx`
+  — new `sectionHref` `useCallback` mirroring `eraHref`; `breadcrumbs`
+  `useMemo` extended from 4 to 5 items; dependency array gains
+  `section.title`, `section.id`, `sectionHref`.
+- `docs/PHASE_7_3_PLAN.md`
+
+No `Breadcrumbs` primitive API change, no `CourseOverviewEras` change,
+no new route, no content model change.
+
+Gates locally green: `pnpm typecheck && pnpm lint && pnpm test && pnpm
+build`. Playwright smoke continues to pass — the existing
+breadcrumb-landmark assertion still holds; the new crumb is
+data-driven from `section.title`.
+
+## Fix — Sidebar era→section indent guide (post-7.3)
+
+Era and Section headers in the sidebar / mobile drawer shared the same
+left edge, so the Era → Section relationship was not immediately
+legible. One-file fix, no behaviour change.
+
+- `packages/ui-web/src/course/EraGroup/EraGroup.module.css` — `.body`
+  shifted right by `var(--space-3)` (12px) so Section chevrons land
+  visibly to the right of the Era chevron without crowding the narrow
+  (~310px) mobile drawer panel. A 1px hairline at `left:24px` (Era
+  chevron centre) softened with `color-mix(in oklch, var(--rule) 60%,
+  transparent)` descends from the era row as a quiet editorial guide
+  — explicitly not a tree connector. Lessons already pad +20px inside
+  `SectionAccordion`, so the three levels now read Era → Section →
+  Lesson without any further change.
+
+Shipped as [PR #15](https://github.com/pavlekukric/learn365/pull/15) /
+[`cb28710`](https://github.com/pavlekukric/learn365/commit/cb28710).
+
 ## Next step
 
-Outstanding work — none of it blocks the live site, but it was deferred, not done:
+Carry-forward, non-blocking deferrals (unchanged from the post-7.1 list):
 
 - **Production contact email** — swap the `CONTACT_EMAIL` placeholder
   in `apps/web/app/o-aplikaciji/_copy.ts` once the real address exists.
-- **Screen-reader smoke** — VoiceOver / NVDA on TopBar nav + breadcrumbs + accordion + completion toggle.
-- **Editorial review of the 6 authored seed lessons** (`packages/content/src/courses/istorija-srbije-365/lessons/authored/`) for historical voice, accuracy, period coverage.
-- `COMPONENT_LIBRARY.md` still needs the `onClick → href` revision for navigation props called out at the end of Phase 3.
+- **Screen-reader smoke** — VoiceOver / NVDA on TopBar nav + breadcrumbs
+  + accordion + completion toggle.
+- **Editorial review of the 6 authored seed lessons**
+  (`packages/content/src/courses/istorija-srbije-365/lessons/authored/`)
+  for historical voice, accuracy, period coverage.
+- `COMPONENT_LIBRARY.md` still needs the `onClick → href` revision for
+  navigation props called out at the end of Phase 3.
 
-Next UI/UX phase candidate is **Home hero v2** — see
-`docs/NEXT_PHASE_RECOMMENDATION.md` §2 Pick 2. After UI is finished,
-the roadmap continues with Phase 8 (Backend / .NET) per
-`docs/BACKEND_STRATEGY.md`.
+`docs/NEXT_PHASE_RECOMMENDATION.md` is now fully consumed — all three
+of its Picks shipped (7.1 trust polish, 7.2 home hero v2, 7.3 section in
+breadcrumb). The next UI/UX phase pick must be made fresh.
+
+Remaining pre-Phase-8 UX candidates from `docs/PHASE_7_0_PLAN.md` §6
+(renumbered for current state):
+
+- **Phase 7.4 candidate — Course-page eras as editorial blocks.** Hide
+  section accordions behind a `Vidi N odeljaka` disclosure so the
+  course page reads as 8 editorial blocks with optional drill-down.
+  Highest visual-payoff item left in the backlog; medium-risk (changes
+  course IA). Audit §4.4.
+- **Phase 7.5 candidate — Mobile lesson sticky chrome scroll-collapse.**
+  Hide the bottom meta row of `LessonContextHeader` after the user
+  scrolls past the title (intersection observer). Mobile-only polish,
+  low risk. Audit §5.6.
+- **Phase 7.6 candidate — Course page scroll restore.** Next.js
+  scroll-restoration tweak so back-navigation from a lesson returns
+  the user to the section accordion they came from, not the page top.
+  Low risk, quality-of-life win. Audit §4.6.
+- **Hero backdrop QA pass** at 360 / 768 / 1280 / 1920. One-off check,
+  not a phase. Audit §3.8.
+
+Before locking the next pick, do a live audit of the local dev build
+(or the Vercel preview) — per the original
+`docs/NEXT_PHASE_RECOMMENDATION.md` §4 handoff rule, *"If the live read
+differs from this assessment, trust the live read."* The post-7.2 +
+7.3 + sidebar-indent state has not been walked in a browser yet.
+
+After the remaining UX backlog is closed (or the owner declares web v1
+visually approved), the roadmap continues with **Phase 8 (Backend /
+.NET 9 + SQL Server)** per `docs/BACKEND_STRATEGY.md`. The
+`ProgressStorage` adapter in `@learn365/core` is the swap seam — no v1
+frontend rewrite required when the backend lands.

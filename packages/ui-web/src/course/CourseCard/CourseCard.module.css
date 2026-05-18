@@ -50,6 +50,18 @@
   color: var(--muted);
 }
 
+/* Editorial description slot. Renders only when the `description` prop is
+ * passed; absent on cards that want the original navigation-row register.
+ * `block` + a generous max-width keep the prose readable but stop it from
+ * spanning past the natural title column on wide cards. Extra top margin
+ * separates it from the years label (which uses .titleBlock's space-1 gap
+ * by default — too tight once prose follows). */
+.description {
+  display: block;
+  margin-top: var(--space-2);
+  max-width: 56ch;
+}
+
 .progressBlock {
   display: flex;
   flex-direction: column;
