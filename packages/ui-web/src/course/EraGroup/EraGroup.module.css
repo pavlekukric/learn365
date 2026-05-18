@@ -76,10 +76,34 @@
   color: var(--faint);
 }
 
+/* Hierarchy: Era is the top-level row; Section rows nest under it. We shift
+ * the body in by 12px so Section chevrons land visibly to the right of the
+ * Era chevron without ever crowding the narrow mobile drawer (~310px panel
+ * width). Lessons already pad another +20px inside SectionAccordion, so the
+ * three levels read Era → Section → Lesson without any change there.
+ *
+ * The ::before is a hairline that descends from the Era chevron's centre
+ * (16px header pad + 8px chevron half = 24px from the panel edge), giving a
+ * quiet editorial guide rather than a tree-connector. Softened against
+ * --rule so it whispers under the section rules instead of competing with
+ * them. */
 .body {
+  position: relative;
   display: flex;
   flex-direction: column;
+  padding-left: var(--space-3);
   padding-bottom: var(--space-2);
+}
+
+.body::before {
+  content: '';
+  position: absolute;
+  left: 24px;
+  top: 4px;
+  bottom: var(--space-2);
+  width: 1px;
+  background: color-mix(in oklch, var(--rule) 60%, transparent);
+  pointer-events: none;
 }
 
 @media (prefers-reduced-motion: reduce) {
