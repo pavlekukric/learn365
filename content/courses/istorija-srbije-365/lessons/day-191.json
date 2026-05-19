@@ -6,13 +6,53 @@
   "dayNumber": 191,
   "order": 6,
   "title": "Narodni prvaci i sazrevanje otpora",
+  "subtitle": "Knezovi, trgovci, hajduci i sveštenici: kako je u Beogradskom pašaluku sazreo naraštaj spreman da povede ustanak",
   "readingTimeMinutes": 7,
   "year": 1800,
-  "isPlaceholder": true,
+  "dateLabel": "kraj 18 – početak 19. veka",
+  "timelinePosition": "kraj 18 – početak 19. veka",
+  "summary": "Pre nego što je 1804. planuo Prvi srpski ustanak, u Beogradskom pašaluku sazreo je čitav sloj narodnih prvaka — knezova, trgovaca svinjama, bivših frajkora i sveštenika — koji je kroz prosperitet, ratno iskustvo i tihu organizaciju izrastao u buduće vođstvo pobune.",
+  "keyPeople": ["Karađorđe", "Prota Matija Nenadović", "Jakov Nenadović", "Stanoje Glavaš", "Hajduk Veljko Petrović", "Janko Katić", "Hadži-Ruvim", "pop Luka Lazarević"],
+  "keyPlaces": ["Beogradski pašaluk", "Šumadija", "Valjevo", "Jasenica", "Sava i Dunav"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Ustanak iz 1804. često se u sećanju doživljava kao iznenadna varnica — bunt koji je preko noći planuo iz nepodnošljive nepravde dahija. U stvarnosti, varnica je pala na materijal koji se godinama sušio. U Beogradskom pašaluku, kroz poslednje dve decenije osamnaestog veka, polako je sazrevao čitav jedan sloj ljudi — knezova, trgovaca, bivših vojnika, sveštenika — koji je do 1803. već imao snagu, novac, oružano iskustvo i mreže veza dovoljne da, kad za to dođe čas, povede pobunu. Taj sloj istorija pamti pod imenom narodnih prvaka."
+    },
+    {
+      "type": "paragraph",
+      "text": "Najvažnija figura u selima bio je knez. Nije reč o plemićkoj tituli iz srednjeg veka, već o seoskom ili nahijskom prvaku koga je zajednica, uz osmansku saglasnost, priznavala kao svog predstavnika. Posle reformi Hadži Mustafa-paše u devedesetim godinama, ovlašćenja knezova bila su značajna: ubirali su deo poreza i prosleđivali ga vlastima, posredovali u sporovima među seljacima, govorili u ime svoga kraja pred kadijom i muselimom. Mnogi su se obogatili, sagradili veće kuće, držali konje i naoružane momke. U Šumadiji, Valjevskoj nahiji, Jasenici i Pomoravlju, knez više nije bio samo seljak sa nešto autoriteta — bio je čovek navikao da pregovara, da računa i da odgovara za druge."
+    },
+    {
+      "type": "paragraph",
+      "text": "Uz knezove je rastao i sloj trgovaca, ponajviše onih koji su živim svinjama snabdevali habzburška tržišta preko Save i Dunava. Trgovina svinjama, naoko skromna, donosila je gotov novac i, što je možda važnije, iskustvo: prelazak granice, ophođenje sa austrijskim činovnicima, poznavanje cena i ugovora, dodir sa svetom u kome se vlast vodi pisanim propisom. Karađorđe Petrović bio je upravo takav čovek — pre nego što je 1804. izašao iz Šumadije kao vožd, godinama je goneo svinje preko Save i znao kako izgleda granica. U njemu, kao i u mnogim drugim trgovcima, spojili su se domaći prkos i sasvim praktičan osećaj za organizaciju koju donosi novac."
+    },
+    {
+      "type": "paragraph",
+      "text": "Treći važan tok bio je vojnički. Rat između Habzburga i Osmanlija 1788–1791, zapamćen u narodu kao Kočina krajina, ostavio je za sobom čitav naraštaj Srba koji su kao frajkori, dobrovoljci u austrijskoj službi, naučili kako se vodi mali rat — zaseda, prepad, držanje šumovitog kraja. Kada je mir zaključen, ti ljudi su se vratili u sela ili u šume, neki kao mirni domaćini, drugi kao hajduci. Sakriveno oružje, poznata staza preko granice i sećanje na komandu — to su bili njihovi tihi prilozi onome što tek dolazi. Linija između kneza, trgovca i bivšeg frajkora-hajduka u istoj porodici često je bila vrlo tanka."
+    },
+    {
+      "type": "paragraph",
+      "text": "Uz svetovne prvake išla je i crkva, naročito parohijski i manastirski sveštenici. Oni su u Beogradskom pašaluku bili glavni nosioci pismenosti, čuvari kalendara, krsne slave i istorijskog pamćenja — onoga što je narod, bez sopstvene države, držalo zajedno. Neki sveštenici bili su otvoreno aktivni u predustaničkim dogovorima; među njima se ime arhimandrita Hadži-Ruvima iz manastira Bogovađe pamti kao primer onih koji su znali i kome se pišu pisma i kome se može verovati. Manastiri su, sa svojim trpezarijama i ćelijama, postajali mesta tihih sastanaka."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Lica jednog naraštaja"
+    },
+    {
+      "type": "paragraph",
+      "text": "Pored Karađorđa, oko 1800. već se naziru obrisi ljudi koji će u ustanku postati vojvode i prvaci. U Valjevskoj nahiji, knez Jakov Nenadović bio je jedan od najuglednijih i najbogatijih domaćina, a njegov sinovac, prota Matija Nenadović, parohijski sveštenik vrlo mlad postavljen za protu, kasnije će u svojim „Memoarima” ostaviti jedan od najvažnijih unutrašnjih opisa kako se ustanak rađao. U Jasenici se isticao Janko Katić, jedan od onih knezova koji su umeli i da pregovaraju i da podignu naoružane ljude. Stanoje Glavaš bio je tada već poznati hajdučki harambaša, iskusan u sukobima koji su prethodili 1804. Mlađi od njih, Hajduk Veljko Petrović, tek se počinjao kaliti u onome što će ga učiniti legendom istočne Srbije. U Mačvi će se uskoro istaći pop Luka Lazarević, sveštenik koji će se opasati sabljom. Nijedno od ovih imena 1800. još nije izgovarano sa istorijskim odjekom — ali ljudi su već postojali, znali jedni za druge i, postepeno, počinjali da se međusobno povezuju."
+    },
+    {
+      "type": "paragraph",
+      "text": "Upravo to povezivanje obeležava razdoblje od 1801. do 1803. Sastanci u manastirima, gozbe o krsnim slavama koje su služile i kao prilika za sasvim svetovne dogovore, zakletve uz ikonu i sveću, razmena pisama preko pouzdanih ljudi — sve to gradilo je mrežu poverenja koja je u osmanskom sistemu morala ostati nevidljiva. Istovremeno su preko Save i Dunava išla pisma srpskim crkvenim i trgovačkim ljudima u Habzburškoj monarhiji: mitropolitu u Karlovcima, trgovcima u Zemunu i Pešti, oficirima srpskog porekla u graničarskoj službi. Te veze nisu garantovale ništa, ali su davale osećaj da pobuna, ako izbije, neće biti potpuno sama u svetu. Rusija je u dalekoj pozadini gledana sa nadom, ali bez konkretnih obećanja."
+    },
+    {
+      "type": "paragraph",
+      "text": "Do kraja 1803. većina značajnih knezova Beogradskog pašaluka već je bila uverena da se stanje pod dahijama ne može trpeti. Sporilo se još samo oko trenutka i oblika: kada krenuti, ko će voditi, kako se osigurati da pokret ne bude ugušen pre nego što se razmahne. Seča knezova, početkom 1804, odlučila je umesto njih. Ono što tu treba videti nije iznenadna eksplozija očajanja, nego trenutak u kome je jedan već formiran naraštaj — sazreo kroz prosperitet devedesetih, prekaljen u Kočinoj krajini, opismenjen u manastirima i otvoren ka svetu preko trgovine — najzad bio prisiljen da uradi ono za šta je već bio spreman. Ustanak iz 1804. nije pao s neba. Bio je to plod jedne ćutke pripremane generacije."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

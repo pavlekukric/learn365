@@ -6,13 +6,49 @@
   "dayNumber": 252,
   "order": 6,
   "title": "Radikali i Nikola Pašić",
+  "subtitle": "Kako je u Kragujevcu 1881. nastala prva masovna srpska stranka i kako je u njoj sazreo Nikola Pašić",
   "readingTimeMinutes": 8,
   "year": 1885,
-  "isPlaceholder": true,
+  "dateLabel": "1880-e.",
+  "timelinePosition": "1880-e.",
+  "summary": "Nastanak Narodne radikalne stranke u Kragujevcu 1881, njen program opštinske samouprave i seljačke politike, i uspon Nikole Pašića — strpljivog inženjera koji će kroz Timočku bunu, sukobe sa kraljem Milanom i dugotrajan otpor izrasti u centralnu figuru srpske politike sve do stvaranja Jugoslavije.",
+  "keyPeople": ["Nikola Pašić", "Pera Todorović", "Pera Velimirović", "Svetozar Marković", "kralj Milan Obrenović"],
+  "keyPlaces": ["Kragujevac", "Beograd", "Zaječar", "Cirih", "Petrograd"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "U januaru 1881. godine, u Kragujevcu, izašao je prvi broj lista „Samouprava”. U njemu je objavljen programski manifest jedne nove stranke — Narodne radikalne. Ime je biralo stranu unapred. Radikali nisu želeli da budu još jedna grupica činovnika i advokata oko kneza, kakve je dotadašnja srpska politika već dobro poznavala; želeli su da menjaju temelje. Bili su to mahom mlađi ljudi, deca seoskih i palanačkih kuća, koja su se školovala u Cirihu, Petrogradu i drugim središtima evropske levice, a vratila se u kneževinu sa knjigama Černiševskog, Bakunjina i ruskih narodnjaka u prtljagu. Iz domaće tradicije nasledili su misao Svetozara Markovića, umrlog 1875. godine — i njegov pogled na opštinu i seljaka kao na pravu osnovu države."
+    },
+    {
+      "type": "paragraph",
+      "text": "Među osnivačima bila su tri imena koja će se ponavljati. Pera Todorović — pero stranke, novinar oštrog jezika, pisac „Samouprave” i kasnije, posle Timočke bune, jedan od retkih koji će o tom slomu progovoriti otvoreno. Pera Velimirović — inženjer i organizator. I Nikola Pašić, rođen 1845. u Zaječaru, takođe inženjer po obrazovanju, ćutljiv, strpljiv čovek bez govorničkog dara, ali sa neobičnim osećajem za to kako se ljudi okupljaju, drže na okupu i čekaju pravi trenutak. Pašićev stil bio je opisan tačno jednom rečenicom koja će ga pratiti ceo vek — „čekati i sačekati”. U politici koja je u Srbiji često bila prgava i nestrpljiva, to je bila retka osobina."
+    },
+    {
+      "type": "paragraph",
+      "text": "Program radikala bio je jasan. Tražili su opštinsku samoupravu — da seoska i varoška opština sama bira svoje organe, a ne da ih postavlja iz Beograda ministarstvo unutrašnjih dela. Tražili su šire pravo glasa, novi, demokratski ustav, smanjenje stalne vojske i osnaživanje narodne, jeftinije i manje sklone slepom izvršavanju tuđe volje. U spoljnoj politici bili su rusofili, naslonjeni na pravoslavnu i slovensku tradiciju, što ih je dovodilo u sukob sa Milanovom prozapadnom, austrijski oslonjenom linijom. Tako sastavljen, program je u kneževini koja je tek izašla iz Berlinskog kongresa pao na izuzetno plodno tlo. Seljaštvo, koje je nosilo poreze i vojnu obavezu, prepoznalo je u radikalima nekoga ko govori njegovim jezikom. Učitelji, sveštenici po selima, sitni trgovci po varošima — sloj koji je činio kičmu unutrašnjosti — dobili su svoju stranku."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Sukob sa krunom i Timočka buna"
+    },
+    {
+      "type": "paragraph",
+      "text": "Brzina kojom su radikali rasli iznenadila je sve. Već na prvim izborima u kojima su učestvovali pokazali su da nisu samo glasno novinarsko jezgro, nego stranka sa lokalnim organizacijama, ljudima u svakom srezu, sa novinama koje stižu i u zabačena sela. Bila je to, u modernom smislu, prva masovna srpska politička stranka — ne klub uglednika, nego mreža. Knez i kasnije kralj Milan to je dobro video. U sukobu oko ustava, oko vojske, oko pravca u spoljnoj politici, kruna je u radikalima prepoznala protivnika koji se ne može lako kupiti ni umiriti. Vrh tog sukoba došao je u jesen 1883, u istočnoj Srbiji. Vlada je naredila razoružavanje narodne vojske i predaju starih pušaka; po Timoku je izbila pobuna. Da li su je radikali organizovali ili samo zatekli — istoričari se još uvek razilaze. Vlast je, međutim, brzo donela presudu: radikali su krivci, vođe se sude kao buntovnici."
+    },
+    {
+      "type": "paragraph",
+      "text": "Posledice su bile teške. Streljanja u Zaječaru, dugotrajne robije, zabrana stranke, lomljenje lokalnih organizacija. Pašić, koga je vojni sud osudio na smrt u odsustvu, prebegao je preko granice, najpre u Bugarsku, gde će provesti godine u izgnanstvu. Stranka je naizgled bila slomljena. A ipak, baš taj udar učvrstio je u javnoj svesti sliku radikala kao narodnih mučenika — onih koji su zbog seljaka platili krvlju. Kada je 1888. donet novi, znatno demokratičniji ustav, a sledeće godine kralj Milan abdicirao u korist maloletnog Aleksandra, radikali su se vratili u zemlju i u vlast. Pašić je tih godina bio amnestiran, izabran, postao predsednik vlade — i krenuo na put koji će ga, sa nekoliko prekida, držati u srpskoj politici sve do smrti 1926."
+    },
+    {
+      "type": "paragraph",
+      "text": "Kakav je čovek bio na čelu te stranke, najbolje govori sledećih četrdeset godina. Pašić je preživeo trojicu vladara, dve dinastije, dva svetska rata i raspad jedne države, da bi učestvovao u stvaranju druge. Vodio je srpsku vladu u Balkanskim ratovima i u Prvom svetskom ratu, predstavljao Srbiju u pregovorima koji su 1918. doveli do ujedinjenja, i bio prvi predsednik vlade Kraljevine Srba, Hrvata i Slovenaca. Sve to nije bilo plod blistavih govora — Pašić je u skupštini govorio retko i kratko — nego dugog, gotovo seljačkog strpljenja, sposobnosti da se sluša, da se ne odgovara odmah, da se sačeka da se prilike same okrenu."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ipak, bilo bi nepošteno ostaviti samo svetlu sliku. Stranka koja je u osamdesetim godinama bila glas seljaka i opštine kasnije nije ostala imuna na sopstveni uspeh. Sa godinama na vlasti došli su i klijentelizam, postavljanja po srodstvu i po stranačkoj liniji, sklonost da se opozicija pritiska sredstvima koje je nekada osuđivala. Pašićev lični autoritet, koji je u opoziciji bio dragocen, u dugim godinama upravljanja imao je i autoritarnu stranu. To su istoričari kasnije ispisivali pošteno, ne da bi umanjili značaj, već da se ne bi zaboravilo: prva masovna srpska stranka donela je u zemlju i demokratiju i njene zamke. Ono što je osamdesetih u Kragujevcu počelo kao manifest mladih povratnika iz Ciriha postalo je za jedan ljudski vek glavni tok srpske politike — sa svim što takav uspeh nosi."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

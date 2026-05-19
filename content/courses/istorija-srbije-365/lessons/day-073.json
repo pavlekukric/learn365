@@ -6,13 +6,57 @@
   "dayNumber": 73,
   "order": 1,
   "title": "Dušan dolazi na vlast",
+  "subtitle": "Kako je u leto i jesen 1331. mladi kralj zbacio oca Stefana Dečanskog i seo na srpski presto",
   "readingTimeMinutes": 7,
   "year": 1331,
-  "isPlaceholder": true,
+  "dateLabel": "1331.",
+  "timelinePosition": "1331.",
+  "summary": "Dolazak Stefana Dušana na presto 1331. godine: ustanak protiv oca, zatočenje u Zvečanu, krunisanje u Svrčinu i moralna senka koja prati novog kralja.",
+  "keyPeople": ["Dušan", "Stefan Dečanski", "Teodora"],
+  "keyPlaces": ["Zvečan", "Svrčin", "Nerodimlje"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Stefan Dušan, čovek koji će Srbiju za jednu generaciju podići na njen najveći vrhunac, na presto je došao na način o kome srpska sećanja vekovima govore tiho. Bila je 1331. godina; imao je nešto preko dvadeset godina, dugu senku očeve slave iza sebe i sopstvenu, već dokazanu ratničku reputaciju. Kako je tačno preuzeo krunu — i koliko je u tom preuzimanju bilo otvorenog nasilja prema rođenom ocu — pitanje je koje istoričari i danas postavljaju, jer izvori se ne slažu, a pobedniku se uvek prašta lakše nego pobeđenom."
+    },
+    {
+      "type": "paragraph",
+      "text": "Rođen je oko 1308. godine, iako neki istraživači predlažu nešto raniji datum. Majka mu je bila Teodora, bugarska princeza, prva žena Stefana Dečanskog. Detinjstvo nije bilo mirno: kada je njegov otac, posle sukoba sa kraljem Milutinom, oslepljen i poslat u izgnanstvo u Carigrad, mladi Dušan je deo dečačkih godina proveo upravo tamo, na vizantijskom dvoru. Naučio je grčki, upoznao raskoš i obrede Carigrada i navikao se na pomisao da je carstvo na Bosforu — uprkos svojoj slabosti — i dalje merilo dostojanstva pravoslavnog vladara. To iskustvo će kasnije, kao tihi temelj, oblikovati gotovo svaku njegovu odluku."
+    },
+    {
+      "type": "paragraph",
+      "text": "Kada se 1321. godine, posle Milutinove smrti, Stefan Dečanski uspeo da nametne za kralja, sina je vrlo brzo uveo u poslove vlasti. Već 1322. godine Dušanu je dodeljena titula „mladog kralja”, a na upravu mu je data Zeta — primorska oblast sa starim gradovima, manastirima i izlazom na Jadran. Bila je to više od formalnosti: u nemanjićkoj tradiciji mladi kralj je bio jasno označeni naslednik, a Zeta — vekovima poseban i ponosit kraj — odgajala je vladare kao malo koja druga zemlja. Tu je Dušan, još kao mladić, naučio da upravlja, da posreduje između vlastele i da vodi vojsku."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ratnička slava došla je rano. U bici kod Velbužda 28. jula 1330. godine, gde je srpska vojska razbila bugarskog cara Mihaila Šišmana, mladi kralj je predvodio jedan od presudnih udaraca. Izvori — i srpski i tuđi — slažu se da je Dušanova hrabrost u tom danu bila zapamćena. Posle Velbužda, on više nije bio samo prestolonaslednik na papiru, već vojskovođa kome su krupna vlastela pružala oslonac i od koga su očekivala dalje pohode. Upravo će se oko pitanja tih daljih pohoda otvoriti pukotina između oca i sina."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Rascep, Zvečan, Svrčin"
+    },
+    {
+      "type": "paragraph",
+      "text": "Stefan Dečanski, čovek koji je iza sebe imao izgnanstvo, oslepljenje i tešku borbu za presto, bio je po naravi oprezan vladar. Posle Velbužda smatrao je da je vreme za predah, za učvršćivanje stečenog i za suzdržano držanje prema oslabljenoj Vizantiji. Dušan i deo vlastele, naprotiv, videli su istorijski trenutak: carstvo na jugu bilo je razdirano dinastičkim ratovima, vizantijski gradovi u Makedoniji bili su dohvatljivi, a srpska vojska je upravo dokazala šta može. Tokom kasnih dvadesetih i prvih meseci 1331. tenzije između oca i sina rasle su, a krug ljudi oko mladog kralja sve glasnije je tražio promenu kursa."
+    },
+    {
+      "type": "paragraph",
+      "text": "U leto 1331. došlo je do otvorenog raskola. Dušan je, oslonjen na uticajnu vlastelu, podigao ustanak protiv oca. Vojni sukob nije bio dug ni naročito krvav po merilima onog doba: Stefan Dečanski je zarobljen kod Nerodimlja i sproveden u tvrđavu Zvečan, jedno od najjačih utvrđenja stare Raške. Tamo je, u zatočeništvu, novembra iste godine umro. O okolnostima smrti izvori se razilaze. Srednjovekovni srpski tekstovi, naročito oni koji su nastajali pod Dušanovim okriljem, opisuju je sažeto i obazrivo, povremeno kao prirodnu smrt u zatočeništvu. Vizantijski pisci su otvoreniji i govore o nasilnoj smrti, najverovatnije davljenju. Današnji istoričari uglavnom prihvataju Dušanovu odgovornost za zatočenje koje je dovelo do očeve smrti, dok o tome da li je izričito naredio ubistvo ostaje nesigurnost; to je čvor koji se nikada nije do kraja razrešio."
+    },
+    {
+      "type": "paragraph",
+      "text": "Samo krunisanje obavljeno je u septembru 1331. godine, na saboru vlastele u Svrčinu kod Nerodimlja, u oblasti Kosova koja je tada bila glavno središte države. Dušan je imao oko dvadeset tri godine. Sabor je, po starom nemanjićkom običaju, potvrdio izbor i prisegao novom kralju. Spolja gledano, prelaz vlasti bio je obavljen brzo i u redu; iznutra, pitanje kako se gleda na umorenog oca ostalo je teret koji nije bilo moguće naprosto skinuti."
+    },
+    {
+      "type": "paragraph",
+      "text": "Dušan je taj teret nosio na svoj način. Tokom narednih godina i decenija u zvaničnim natpisima i poveljama o ocu je govorio kao o „blaženom kralju”, podizao mu je zadužbine, slao darove manastirima i tražio od crkve da Stefana Dečanskog vremenom primi u red svetih vladara — što će se i dogoditi, ali tek mnogo posle Dušanove smrti. Ti gestovi nisu bili samo lična pokora; bili su i politika. Vladar koji je presto preuzeo silom morao je da osnaži svoju legitimnost svakim raspoloživim sredstvom — pre svega crkvenim, jer je u srednjovekovnoj Srbiji upravo crkva davala konačnu meru opravdanosti vlasti."
+    },
+    {
+      "type": "paragraph",
+      "text": "Tako je 1331. godina zatvorila jednu i otvorila drugu epohu. Stefan Dečanski, koji je državu izveo iz teških unutrašnjih sukoba i pobedio kod Velbužda, završio je u Zvečanu. Njegov sin, koji će za nepunih dvadeset godina od kralja postati car i Srbiju proširiti dublje u Makedoniju, Albaniju, Tesaliju i Epir nego ijedan njen vladar pre ili posle, započeo je vladavinu sa pobedom u rukama i sa senkom očeve smrti na ramenima. O onome što je sledilo — o pohodima koji su iz srpskog kralja napravili gospodara polovine Balkana — biće reči sutra."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

@@ -6,13 +6,53 @@
   "dayNumber": 214,
   "order": 2,
   "title": "Miloš Obrenović — vođa",
+  "subtitle": "Portret čoveka koji je iz pastira i trgovca stokom postao priznati sagovornik Porte i vođa Drugog ustanka",
   "readingTimeMinutes": 8,
   "year": 1815,
-  "isPlaceholder": true,
+  "dateLabel": "1780–1860.",
+  "timelinePosition": "1780–1860.",
+  "summary": "Pastir, trgovac stokom, kapetan iz Prvog ustanka i, posle 1813, jedini ozbiljan sagovornik Porte u Šumadiji — kako je Miloš Obrenović postao prirodan vođa Drugog ustanka.",
+  "keyPeople": ["Miloš Obrenović", "Milan Obrenović", "Višnja", "Karađorđe Petrović", "Marašli Ali-paša"],
+  "keyPlaces": ["Gornja Dobrinja", "Rudnička nahija", "Šumadija", "Kragujevac", "Takovo"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Miloš Obrenović rođen je oko 1780. godine — neki izvori navode i 1783, pa je tačna godina ostala stvar pretpostavke — u selu Gornja Dobrinja, u brdovitom delu Šumadije nedaleko od Požege. Bio je sin Teodora Mihailovića i seljanke Višnje, ali ime po kome će ga istorija pamtiti nije bilo očevo. Njegova majka je iz ranijeg braka već imala sina Milana Obrenovića, čoveka koji će se istaći u Prvom ustanku i čijem će se uglednom imenu Miloš kasnije prikloniti. Tako je polubrat Milan, po majci Višnji, dao prezime budućoj dinastiji — sitan rodbinski detalj koji će obeležiti naredni vek srpske politike."
+    },
+    {
+      "type": "paragraph",
+      "text": "Detinjstvo i mladost proveo je kao i većina šumadijskih dečaka tog doba: u poslu, ne u školi. Najpre je čuvao stoku po brdima oko Rudnika, a zatim je, kao mlad čovek, prešao na trgovinu stokom — zanat koji je u to vreme bio jedan od retkih putova ka imovini i ugledu za seljaka iz unutrašnjosti pašaluka. Trgovac stokom je morao da poznaje ljude, cene, puteve, granične prelaze, turske činovnike i austrijske posrednike. Morao je da računa, da se cenjka, da meri rizik. Miloš je u tom poslu razvio ono što će kasnije biti glavna osobina njegove politike: praktičan, prizeman, oprezan um, koji ne veruje na reč ni svojima ni tuđima, i koji svaki dogovor proverava ishodom."
+    },
+    {
+      "type": "paragraph",
+      "text": "Formalnog obrazovanja gotovo da nije imao. Pismen je bio koliko i mnogi trgovci njegovog kraja — to znači da je s mukom mogao da pročita pismo i potpiše se, dok je za sve ozbiljnije pisanje, do kraja života, koristio pisare. To ga, paradoksalno, nije činilo nesposobnim za vlast; činilo ga je nepoverljivim prema svakom obrazovanom čoveku oko sebe. Verovao je onome što je čuo svojim ušima i video svojim očima, a izveštaje na hartiji slušao je kao da iza svake rečenice neko nešto krije. To će kasnije, kada bude vladao, postati i prednost i breme njegovog dvora."
+    },
+    {
+      "type": "paragraph",
+      "text": "U Prvom ustanku, koji je 1804. godine podigao Karađorđe, Miloš se istakao postepeno, ne odmah. Prvo kao starešina manjih četa, potom kao kapetan, da bi vremenom postao knez rudničke nahije — oblasti koju je dobro poznavao iz svojih trgovačkih dana. Bio je blizak Karađorđu, ali sa drugačijim temperamentom. Vožd je bio plahovit, ratnik po prirodi, čovek koji deluje brzo i kažnjava bez okolišanja; Miloš je bio strpljiv, sklon odugovlačenju, sumnjičav prema svakom potezu koji se ne može povući. Ta razlika je tinjala godinama i u javnom poslu i u privatnim odnosima, mada do otvorenog raskida između njih dvojice nije došlo."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Posle sloma"
+    },
+    {
+      "type": "paragraph",
+      "text": "Slom ustanka u jesen 1813. godine pred Milošem je postavio izbor koji je većinu vođa odvukao na drugu stranu Save i Dunava. Karađorđe je prešao u Austriju; mnoge starešine pošle su za njim. Miloš je ostao. Prihvatio je tursku amnestiju, izašao pred nove gospodare Beogradskog pašaluka i prihvatio da i dalje služi kao knez u Rudničkoj nahiji. Taj izbor će mu kasnije neki zameriti kao kukavičluk ili izdaju, drugi ga braniti kao trezvenu računicu čoveka koji je shvatio da iz emigracije narod ne može da se brani. Verovatnije je da je posredi bilo i jedno i drugo: i strah od progona, i hladna procena da onaj ko ostane u zemlji ostaje i jedini sagovornik svake nove vlasti."
+    },
+    {
+      "type": "paragraph",
+      "text": "Procena se pokazala tačna. U mesecima posle sloma, Porta je tražila lokalne knezove preko kojih bi smirila i ubirala porez sa neke od najnemirnijih oblasti carstva. Miloš je dobio titulu velikog kneza rudničke, požeške i kragujevačke nahije — formalnu vlast nad srcem Šumadije, upravo nad onim krajem iz kojeg će svako sledeće podizanje krenuti. Time je istovremeno postao priznati sagovornik turskih vlasti i jedini čovek u zemlji koji je imao i autoritet među seljacima i status pred Portom. Kada su, u proleće 1815, nove turske zulumćarije i pogubljenja prisilili narod da se ponovo digne, prirodno se okrenuo njemu — ne zato što ga je voleo više od drugih, nego zato što drugog kandidata sa takvom kombinacijom okolnosti nije bilo."
+    },
+    {
+      "type": "paragraph",
+      "text": "Karakter koji će u tim danima izaći na površinu već je bio izgrađen. Miloš je bio lukav pregovarač, sposoban da satima razgovara sa turskim pašom o ničemu dok mu se ne otkrije šta zaista hoće. Bio je strpljiv preko mere, spreman da odlaže odluku dok god mu prilike rastu. Bio je sumnjičav prema svakome ko je imao sopstveni ugled, jer je u svakom takvom čoveku video mogućeg suparnika. I bio je brutalan kada bi procenio da mora — prema rivalima u svojoj sredini biće, kasnije, surov bez milosti, a istoričari mu pošteno upisuju i mračnu stranu apsolutiste koja će izaći na videlo tek pošto vlast bude obezbeđena. Nije bio obrazovan, ali je bio politički genije onog soja koji ne potpisuje ugovore dok ne izmeri sve ishode."
+    },
+    {
+      "type": "paragraph",
+      "text": "Zato ga ne treba pretvarati ni u heroja ni u zlikovca. On je bio čovek svoje sredine, jedan od malo njih koji su tu sredinu razumeli do dna — od cene jagnjeta u Kragujevcu do raspoloženja vezira u Beogradu — i koji je tu sredinu znao da povede tamo gde ga je vodila i sopstvena računica i opšta nužda. Kada se u proleće 1815. godine na Cvetima u Takovu seljaci budu okupili i tražili vođu, Miloš će istupiti ne kao izabranik vere ili krvi, već kao čovek koga su istovremeno priznali i sopstveni ljudi i tuđa vlast. Drugi ustanak je njegov, ali je on, pre svega, čovek koji je za njega bio jedini razumno moguć izbor."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

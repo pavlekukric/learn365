@@ -6,13 +6,49 @@
   "dayNumber": 356,
   "order": 7,
   "title": "Srbija kao samostalna država",
+  "subtitle": "Posle razlaza sa Crnom Gorom 2006, Srbija prvi put od 1918. nastavlja put kao zasebna država u sopstvenim granicama",
   "readingTimeMinutes": 7,
   "year": 2008,
-  "isPlaceholder": true,
+  "dateLabel": "od 2006.",
+  "timelinePosition": "od 2006.",
+  "summary": "Posle crnogorskog referenduma maja 2006. Srbija postaje pravni naslednik državne zajednice, donosi novi Ustav krajem oktobra iste godine i ulazi u dugu fazu unutrašnjih političkih preraspodela i pragmatične spoljne politike „vojne neutralnosti”.",
+  "keyPeople": ["Boris Tadić", "Tomislav Nikolić", "Aleksandar Vučić", "Vojislav Koštunica", "Ivica Dačić"],
+  "keyPlaces": ["Beograd", "Brisel", "Moskva", "Peking", "Priština"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Petog juna 2006. godine Narodna skupština Republike Srbije usvojila je odluku kojom je Srbija proglašena pravnim naslednikom državne zajednice Srbija i Crna Gora. Bio je to tih, gotovo administrativni čin — bez krunisanja, bez parade, bez velikog govora pred narodom — ali iza njega je stajala neobična činjenica koju je tek trebalo da osvesti i sama država: prvi put od stvaranja Kraljevine Srba, Hrvata i Slovenaca 1918. godine, Srbija je postojala kao potpuno zasebna država, u svojim granicama, sa sopstvenim međunarodnim subjektivitetom. Skoro devedeset godina zajedničkih jugoslovenskih i postjugoslovenskih okvira završilo se mirno, glasanjem građana u Crnoj Gori i jednim potpisom u Beogradu."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ono što je usledilo bilo je ubrzano sređivanje pravnog okvira. Stari ustavni dokument više nije odgovarao novom položaju, pa je tokom 2006. dogovoren tekst novog ustava. O njemu se izjašnjavalo na referendumu 28. i 29. oktobra 2006, a krajem te jeseni Ustav Republike Srbije je proglašen. U preambuli je sadržano određenje koje će obeležiti narednu deceniju i više: Kosovo i Metohija označeni su kao sastavni deo Srbije sa „suštinskom autonomijom”. Time je Beograd, na unutrašnjem planu, fiksirao stav koji će se ponavljati pred svim sagovornicima u inostranstvu, bez obzira na to kakvi su tokovi tekli na terenu i u glavnim svetskim prestonicama."
+    },
+    {
+      "type": "paragraph",
+      "text": "Politički život nove države odvijao se kroz nekoliko prepoznatljivih ciklusa. Prvi je vezan za predsednika Borisa Tadića i Demokratsku stranku, koja je posle 2008. godine, u koaliciji sa socijalistima i manjim partnerima, vodila vladu i postavila kao glavni strateški cilj kandidaturu za članstvo u Evropskoj uniji. Drugi ciklus počeo je 2012. godine. Na predsedničkim izborima toga proleća Tomislava Nikolića, kandidata tada već reformisane Srpske napredne stranke, podržala je dovoljna većina da pobedi Tadića u drugom krugu. Naprednjaci su, pod faktičkim vođstvom Aleksandra Vučića, ušli u vladu sa socijalistima Ivice Dačića kao premijera, a 2014. godine Vučić je i sam postao predsednik vlade. Tri godine kasnije, 2017, izabran je za predsednika Republike. Od tada SNS, sa promenljivim koalicionim partnerima, drži glavne poluge izvršne vlasti."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Između četiri stuba"
+    },
+    {
+      "type": "paragraph",
+      "text": "Spoljna politika samostalne Srbije izgrađena je oko četiri orijentira koje zvanični Beograd voli da naziva svojim „stubovima” — Evropske unije, Sjedinjenih Američkih Država, Ruske Federacije i Narodne Republike Kine. Srbija ima status kandidata za članstvo u EU od marta 2012. i sa Briselom vodi tehničke pregovore o pristupnim poglavljima. Istovremeno održava bliske političke i energetske veze sa Moskvom, čije je oslanjanje na ruski gas, makar i posredno preko trećih ruta, ostalo trajna odlika ovog perioda. Sa Pekingom je razvijena snažna investiciona i infrastrukturna saradnja, posebno u rudarstvu, čeličanama i izgradnji puteva i pruga. Ova višestruka okrenutost zvanično je objašnjavana terminom „vojna neutralnost” — odlukom Narodne skupštine iz 2007. godine da Srbija neće tražiti članstvo u vojnim savezima."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pitanje Kosova ostalo je središnji čvor. Posle jednostranog proglašenja nezavisnosti u Prištini 17. februara 2008, koje je Beograd odbacio kao protivpravno, vodile su se godine diplomatske borbe — od savetodavnog mišljenja Međunarodnog suda pravde do dugotrajnog dijaloga pod okriljem Evropske unije, započetog 2011. i nastavljenog Briselskim sporazumom 2013. godine. Srbija nije priznala nezavisnost Kosova, ali je pristajala na praktične dogovore o granici, carini, energetici i zajednici srpskih opština. Pitanje statusa ostalo je otvoreno i, po svemu sudeći, neće biti zatvoreno brzo."
+    },
+    {
+      "type": "paragraph",
+      "text": "Unutrašnji život ove samostalne države nije jednostavno svesti na jednu ocenu. Privreda je posle krize 2008. godine prošla kroz teške godine, a od sredine prošle decenije beleži postojan, ali neujednačen rast, uz hronično iseljavanje mlađeg stanovništva. Izgradnja autoputeva i obnova železničke infrastrukture promenile su izgled zemlje. Istovremeno, domaće javne rasprave dugo se vrte oko nekoliko istih tema — slobode medija, nezavisnosti pravosuđa, izborne ravnopravnosti i odnosa vlasti i opozicije. O ovim pitanjima postoje oštro suprotstavljena gledišta, koja se mogu pratiti u izveštajima Evropske komisije, domaćih nezavisnih institucija i opozicionih i vladajućih partija; ova lekcija ih beleži kao otvorene teme tekućeg vremena, bez pristajanja uz bilo koju stranu."
+    },
+    {
+      "type": "paragraph",
+      "text": "Gledano iz nešto veće daljine, period od 2006. godine ima jasno istorijsko obeležje. To je vreme u kojem se Srbija prvi put posle gotovo veka uči da bude samo svoja — bez jugoslovenskog krova, bez federalnih partnera, sa sopstvenim ustavom, vojskom, valutom i diplomatijom. Mnoga teška pitanja nasleđena iz devedesetih ostala su otvorena: status Kosova, ekonomski jaz prema razvijenoj Evropi, demografski pad, oblik političkog sistema. Ali sam okvir — država u svojim granicama, kao nesporan subjekat međunarodnog prava — više nije bio pod znakom pitanja. Sledeće generacije srpskih građana odrastaće već unutar tog okvira, kao prvog koji od 1918. više ne deli ime države sa nekim drugim narodom."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

@@ -6,13 +6,57 @@
   "dayNumber": 294,
   "order": 7,
   "title": "Srbija 1915.",
+  "subtitle": "Godina iscrpljenosti, pegavog tifusa i jesenjeg napada Centralnih sila kojim je srpski front zaokružen sa tri strane",
   "readingTimeMinutes": 7,
   "year": 1915,
-  "isPlaceholder": true,
+  "dateLabel": "1915.",
+  "timelinePosition": "1915.",
+  "summary": "Posle pobede na Kolubari Srbija je 1915. dobila pet meseci predaha, ali ih je dočekala u epidemiji pegavog tifusa. U oktobru su Centralne sile pod komandom Makenzena, uz ulazak Bugarske u rat, pokrenule koordinisani napad i zatvorile srpski front sa tri strane.",
+  "keyPeople": ["vojvoda Radomir Putnik", "Nikola Pašić", "August fon Makenzen", "Eleonor Soltau"],
+  "keyPlaces": ["Niš", "Kragujevac", "Beograd", "Bugarska"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Pobeda na Kolubari u decembru 1914. ostavila je Srbiju iscrpljenu na način koji se nije mogao odmah videti. Vojska je bila proređena, oprema potrošena, granice prazne od municije, a u pozadini su gradovi i sela bili puni ranjenika i zarobljenika. Front je u januaru 1915. utihnuo. Umesto da to bude vreme za odmor i obnovu, nastupila je tiha, neuhvatljiva katastrofa — epidemija pegavog tifusa, bolesti koju prenosi vaš i koja se širi tamo gde ima previše ljudi, premalo vode i nimalo sapuna."
+    },
+    {
+      "type": "paragraph",
+      "text": "Bolest je izbila prvih meseci 1915. u prepunim bolnicama i logorima za zarobljenike, a zatim je krenula i preko vojnih jedinica. Od februara do leta umiralo se brže nego što se sahranjivalo. Procene broja žrtava se i danas razlikuju — najčešće se navodi između sto i dvesta hiljada mrtvih, što je više nego što je srpska vojska izgubila u borbi tokom prethodne godine. Tačan broj se verovatno nikada neće znati, jer su evidencije vođene tek tu i tamo, a u nekim mestima nije bilo ni ko da ih vodi."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pomoć je stigla spolja. Engleska, francuska, ruska i američka medicinska misija dolazile su sa lekarima, sestrama, sanitetskim materijalom i, što je možda najvažnije, sa iskustvom u savremenoj higijeni i karantinu. Među njima je bila škotska lekarka Eleonor Soltau u Kragujevcu, britanski lekar Vilijam Hanter koji je u Srbiji organizovao sistemski plan suzbijanja tifusa, i američki lekar Aleksandar Hardi. Domaću stranu nosili su, među ostalima, vojni hirurg Roman Sondermajer i fiziolog Vladimir Šćepanović. Mere su bile jednostavne i nemilosrdne: izolacija, parna dezinfekcija odeće, šišanje i kupanje, paljenje slame iz bolnica. Strani lekari i sestre umirali su zajedno sa srpskim — neki spomenici u Nišu i Kragujevcu i danas to čuvaju u kamenu."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Politička tišina i bugarsko pitanje"
+    },
+    {
+      "type": "paragraph",
+      "text": "Spolja gledano, Srbija je u prolećnim i letnjim mesecima 1915. imala čudan luksuz mira. Centralne sile bile su zaokupljene velikim borbama na istočnom i zapadnom frontu — nemačko-austrougarski proboj kod Gorlica i Tarnova, ofanziva u Galiciji, rovovski stalež u Francuskoj — i nisu imale slobodne snage za novi napad preko Save i Dunava. Vojska Radomira Putnika dobila je pet meseci predaha, ali predaha bez mogućnosti prave obnove: industrije nije bilo, saveznička pomoć je dolazila tanko, a tifus je iz vojne snage izvlačio ono malo što je ostalo."
+    },
+    {
+      "type": "paragraph",
+      "text": "U pozadini se vodila druga, tiša bitka — diplomatska. Sve je zavisilo od Bugarske. Antantine sile su preko leta nudile Sofiji deo Makedonije — onaj koji je Bugarska smatrala svojim još od 1912. — u zamenu za neutralnost ili ulazak u rat na njihovoj strani. Vlada Nikole Pašića, pritisnuta od saveznika, bila je primorana da o tim ustupcima makar ćuti, iako je u srpskom javnom mnjenju i delu vojske svaka takva pomisao izazivala otpor. Centralne sile su ponudile više i konkretnije: ne samo srpsku Makedoniju, već i delove Stare Srbije i obećanje brze podele. Bugarska se priklonila Centralnim silama u septembru. Politički, to je za Srbiju značilo da je istočni bok, oduvek osetljiv, postao otvoreni front."
+    },
+    {
+      "type": "paragraph",
+      "text": "Krajem septembra i početkom oktobra postalo je jasno da se sprema koordinisani napad sa severa i istoka. Komandu nad nemačko-austrougarskim snagama preuzeo je feldmaršal August fon Makenzen, jedan od najsposobnijih nemačkih komandanata tog rata. Plan je bio jednostavan i okrutan — Nemci i Austrougari prelaze Savu i Dunav, Bugari napadaju s istoka, srpska vojska se gura u centralni deo zemlje gde će biti opkoljena."
+    },
+    {
+      "type": "paragraph",
+      "text": "Napad je počeo u noći između šestog i sedmog oktobra 1915. teškim bombardovanjem i forsiranjem Save i Dunava na više mesta. Beograd je posle nekoliko dana ulične borbe pao. Četrnaestog oktobra Bugarska je prešla istočnu granicu i u nekoliko dana presekla železnicu prema Solunu — jedinu liniju kojom je saveznička pomoć mogla da stigne. Antantine snage koje su počele da se iskrcavaju u Solunu bile su i premalene i prekasne; do srpskog fronta nisu uspele da probiju u vremenu koje je bilo na raspolaganju."
+    },
+    {
+      "type": "paragraph",
+      "text": "Vrhovna komanda i vlada povlačile su se ka jugu — najpre u Niš, koji je od jeseni 1914. služio kao ratna prestonica, a zatim u Kraljevo i dalje. Putnik je, već teško bolestan, donosio odluke u nosilima. Kada je postalo jasno da je i pravac ka Solunu zatvoren bugarskim presecanjem, doneta je odluka koja će obeležiti narednu zimu — povlačenje vojske, vlade i kralja preko crnogorskih i albanskih planina ka Jadranu. Bez patetike: bila je to jedina preostala opcija koja nije značila kapitulaciju."
+    },
+    {
+      "type": "paragraph",
+      "text": "Tako se završava prva godina rata za Srbiju — ne porazom u otvorenoj bici, nego opkoljenjem. Pegavi tifus je odneo desetine hiljada pre nego što je ispaljen prvi metak nove ofanzive. Politička procena Bugarske ispostavila se pogrešnom, mada je teško reći da li bi i drugačija ponuda Antante uopšte mogla da promeni odluku Sofije. Vojnički, Centralne sile su 1915. bile nedvosmisleno nadmoćne — i u ljudstvu, i u topovima, i u koordinaciji. Srpska vojska je pred sobom imala planinski put i zimu, i još uvek nije znala koliko će je samih taj put koštati."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

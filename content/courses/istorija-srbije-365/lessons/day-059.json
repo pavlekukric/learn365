@@ -6,13 +6,49 @@
   "dayNumber": 59,
   "order": 6,
   "title": "Žička povelja i ustrojstvo crkve",
+  "subtitle": "Kako je mlada srpska crkva dobila zemlju, sedišta i pisano pravilo života",
   "readingTimeMinutes": 7,
   "year": 1220,
-  "isPlaceholder": true,
+  "dateLabel": "oko 1220.",
+  "timelinePosition": "oko 1220.",
+  "summary": "Žička povelja i mreža episkopskih sedišta pretvaraju Savinu autokefalnu crkvu u trajnu instituciju sa zemljom, prihodima i pravnim okvirom uz krunu.",
+  "keyPeople": ["Stefan Prvovenčani", "Sveti Sava"],
+  "keyPlaces": ["Žiča", "Studenica", "Ras", "Sveta gora"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Kada se Sava 1219. godine vratio iz Nikeje sa pravom da postavlja sopstvene episkope, srpska crkva je u trenutku dobila vrh — arhiepiskopa i njegovu stolicu. Ali jedna crkva nije samo vrh. Treba joj telo: zemlja od koje će živeti, sedišta po krajevima, pravila po kojima će suditi, ljudi spremni da je nose. Sve to nije moglo da se dovrši jednim ukazom iz daleke prestonice. Moralo je da se ispiše, dodeli i potpiše kod kuće. Iz te potrebe nastala je Žička povelja, dokument koji se, koliko god njegov tačan datum bio sporan, danas najčešće smešta oko 1220. godine i vezuje za kralja Stefana Prvovenčanog."
+    },
+    {
+      "type": "paragraph",
+      "text": "Žiča je za to bila pažljivo izabrana. Manastir podignut između Studenice i Rasa, u plodnoj dolini i blizu glavnih puteva srpske zemlje, postao je prvo sedište srpskog arhiepiskopa. Tu je, prema predanju, Sava krunisao brata kraljevskom krunom, i tu je trebalo da bude srce nove crkvene uprave. Sama građevina pripada onome što se kasnije nazvalo raškom školom — jednobrodna crkva sa kupolom, srodna Studenici, sa zidovima koje su uskoro ispunile freske jakih boja. Spolja skromna, iznutra svečana, Žiča je već svojim oblikom govorila šta hoće da bude: kraljevska crkva i nastavak nemanjićkog stila gradnje."
+    },
+    {
+      "type": "paragraph",
+      "text": "Povelja je, međutim, dala manastiru i nešto što slike i kamen nisu mogli — zakonsko utemeljenje. U njoj se nabrajaju sela, zemljišta i prihodi koji se trajno dodeljuju arhiepiskopskoj stolici: oranice, vinogradi, pašnjaci, ribolovi, prava na desetke i takse, ljudi koji rade tu zemlju. Crkva se time iz zajednice koja zavisi od vladarske milosti pretvara u krupnog zemljoposednika sa stalnim dohotkom. To nije bila pobožna sitnica nego stvar opstanka: bez stalnih prihoda episkopi ne bi mogli da putuju, sveštenici da se školuju, a manastiri da hrane monahe i prihvataju nemoćne. Kralj je svojim potpisom obezbedio da crkva ne živi od dana do dana."
+    },
+    {
+      "type": "paragraph",
+      "text": "Povelja je istovremeno povukla i prve crte oko odnosa krune i mitre. Određeno je ko sudi sveštenstvu i monasima, kako se postupa sa ljudima koji žive na crkvenoj zemlji, koje obaveze prema državi crkva ima a kojih je oslobođena. Mnoge od tih odredbi preuzete su iz vizantijske pravne baštine, prilagođene prilikama mlade kraljevine. Crkva i država se ovde ne spore — naprotiv, oslanjaju se jedna na drugu — ali se prvi put razdvajaju kao dve uređene oblasti vlasti. To je važno zato što je upravo to razdvajanje, koliko god skromno bilo u prvim danima, dalo srpskoj crkvi mogućnost da, kada kasnije dođu loši kraljevi i tuđinske vojske, ostane stub koji ne pada uz svaku promenu prestola."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Mreža episkopija"
+    },
+    {
+      "type": "paragraph",
+      "text": "Da bi crkva dosegla do svakog kraja zemlje, Sava je ustanovio mrežu episkopskih sedišta. Izvori i kasniji popisi pominju njih osam ili nešto više, raspoređenih tako da pokriju različite oblasti kraljevstva: u samoj Žiči, u Rasu, u Hvosnu, u Toplici, u Humu, u Zeti, u Dabru, u Moravici, u Budimlji, i prema jugu prema Lipljanu i Prizrenu. Tačan spisak i njihov potonji razmeštaj nisu uvek isti u svim izvorima i ostaju delom predmet rasprave, ali sama logika je jasna — svako jezgro srpske zemlje dobilo je episkopa na razumljivoj udaljenosti, sa stolnom crkvom i manastirom uz nju."
+    },
+    {
+      "type": "paragraph",
+      "text": "Te episkope Sava je birao iz sebi bliskog kruga — iz monaha koji su prošli školu Hilandara i Svete gore. Time je novoj crkvi obezbedio jedinstven duhovni i obrazovni okvir. Svi vodeći ljudi srpske crkve govorili su istim crkvenoslovenskim, sledili istu liturgijsku praksu, čitali iste prevode pravila i otačkih tekstova. Pri stolnim crkvama postepeno su rasle male prepisivačke i učeničke kuće, u kojima su mlađi monasi sticali znanja potrebna za parohijski rad: čitanje, pevanje, osnove crkvenog prava. Jednom kada se taj kadar rasporedio po sedištima, srpska crkva više nije bila zavisna od toga ko trenutno sedi na susednim grčkim ili ohridskim stolicama. Mogla je sama da školuje sveštenike, sama da postavlja nove episkope i sama da odgovara na pitanja koja život otvara."
+    },
+    {
+      "type": "paragraph",
+      "text": "Žička povelja sačuvana je u kasnijim prepisima, a ne u izvornom primerku, što istraživačima ostavlja prostor za oprezne rasprave o pojedinim odredbama i njihovoj kasnijoj doradi. I pored toga, ona se s pravom računa među najstarije srpske državne spise. Važna je istovremeno po onome što sadrži i po onome što predstavlja — trenutak kada mlada srpska država odlučuje da svoje ustanove ne ostavi predanju, već da ih spusti u pisanu reč. Sa Žičom kao sedištem, sa episkopijama po krajevima i sa kraljevom poveljom koja sve to potvrđuje, srpska crkva oko 1220. godine prestaje da bude tek duhovni poduhvat jednog izuzetnog čoveka i postaje institucija — sa zemljom, pravom i mestom uz krunu — spremna da nadživi i svog osnivača i njegovu lozu."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

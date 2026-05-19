@@ -6,13 +6,49 @@
   "dayNumber": 229,
   "order": 4,
   "title": "Karađorđevići i Obrenovići",
+  "subtitle": "Dva vladarska doma, dva politička tabora i jedno breme koje je ceo devetnaesti vek leglo na srpski presto",
   "readingTimeMinutes": 7,
   "year": 1820,
-  "isPlaceholder": true,
+  "dateLabel": "od 1817.",
+  "timelinePosition": "1817–1903.",
+  "summary": "Tematski pregled rivalstva Karađorđevića i Obrenovića od ubistva Karađorđa 1817. do Majskog prevrata 1903 — i kako je to rivalstvo postalo glavni okvir srpske politike u 19. veku.",
+  "keyPeople": ["Karađorđe Petrović", "Miloš Obrenović", "Mihailo Obrenović", "Aleksandar Karađorđević", "Milan Obrenović", "Aleksandar Obrenović", "Petar I Karađorđević"],
+  "keyPlaces": ["Kragujevac", "Beograd", "Topola", "Bukurešt", "Beč", "Petrograd"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Sve je počelo jednom glavom u zembilju. U julu 1817. godine, kada je Karađorđe potajno prešao Dunav i bez Miloševe saglasnosti se vratio u Srbiju, knez Miloš Obrenović je doneo odluku koja će obeležiti ceo vek koji dolazi. Karađorđe je ubijen u Radovanjskom lugu, njegova glava poslata Porti u Carigrad kao dokaz lojalnosti, a Miloš je sebi obezbedio mesto jedinog srpskog vođe. Ali jedna porodica nije zaboravila. Karađorđevi sinovi i unuci živeli su u izgnanstvu sa uverenjem koje će se prenositi s kolena na koleno — da je presto Srbije njihovo nasleđe, oteto krvavim putem."
+    },
+    {
+      "type": "paragraph",
+      "text": "Tako su se rodile dve dinastije i, što je važnije, dva politička tabora. Razlika nije bila samo porodična. Obrenovići su, posebno u kasnijem periodu, vremenom postajali okrenuti Beču, oslanjali se na jaku centralnu vlast i lično vladanje, često se sukobljavajući sa skupštinom i sa narodnim prvacima. Karađorđevići su, naprotiv, češće tražili oslonac u Rusiji, gradili veze sa narodnjacima a kasnije sa radikalima, i pristajali na slabiji lični autoritet u zamenu za širu narodnu podršku. Ova podela nije bila apsolutna — i jedni i drugi vladari menjali su orijentaciju kad im je odgovaralo — ali kao opšti obrazac držala se decenijama."
+    },
+    {
+      "type": "paragraph",
+      "text": "Hronologija smena izgleda kao kazaljka koja se zaglavila između dva broja. Miloš Obrenović vladao je od 1817. do 1839, kada je pod pritiskom ustavobranitelja morao da abdicira. Nasledio ga je sin Mihailo I, ali kratko, do 1842, kada ga je narodna pobuna pomerila u korist Aleksandra Karađorđevića, sina Karađorđevog. Aleksandar je vladao do 1858, kada je na Svetoandrejskoj skupštini smenjen i pozvan — Miloš Obrenović, sada već star, ali simbolično vraćen na presto. Umro je dve godine kasnije i nasledio ga je opet Mihailo, sada kao Mihailo II, koji je 1868. ubijen u Košutnjaku, najverovatnije u uroti vezanoj za pristalice Karađorđevića, premda do danas detalji ostaju delimično otvoreni."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Ni jedan presto, ni jedna mirna smrt"
+    },
+    {
+      "type": "paragraph",
+      "text": "Posle Mihailove pogibije presto je dobio njegov maloletni sinovac Milan Obrenović, koji će vladati do 1889. — najpre kao knez, a od 1882. kao kralj proglašene Kraljevine Srbije. Milan je abdicirao posle dugog ličnog i političkog sloma, ostavivši presto sinu Aleksandru, koji je vladao do 1903, kada su ga oficiri u Majskom prevratu ubili zajedno sa kraljicom Dragom. Tek tada se, posle više od osam decenija, presto vratio drugoj kući — Petar I Karađorđević, unuk Karađorđev, došao je iz izgnanstva i zavladao Srbijom. Ako se redom prebroje sve smene od 1817. do 1903, dolazi se do trezvenog zaključka: nijedan srpski vladar tog veka nije umro prirodnom smrću na prestolu. Svaki je otišao kroz abdikaciju, svrgavanje, atentat ili prevrat."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ova činjenica sama po sebi govori o ceni rivalstva. Svaka smena nosila je sa sobom čistke u vojsci i činovništvu, progon protivničkih pristalica, oduzimanje imanja, povratak izgnanika i ponovno otvaranje starih rana. Politički život je bio strukturiran kao borba dva tabora, a ne kao razgovor o programima. Stranke koje su nastajale u drugoj polovini veka — naprednjaci, liberali, radikali — često su se određivale prema dinastijama isto onoliko koliko prema svojim doktrinama. Strani uticaji su to još pojačavali: Beč je redovno podržavao Obrenoviće u njihovoj kasnijoj fazi, Petrograd je gajio simpatije prema Karađorđevićima, i diplomatske igre dveju imperija prenosile su se direktno na unutrašnja srpska previranja."
+    },
+    {
+      "type": "paragraph",
+      "text": "Treba ipak biti pošten prema istoriji. Velik deo sukoba bio je lični i porodični pre nego ideološki — uvrede, dugovi krvi, pitanja prvenstva. Mnogi savremenici nisu birali stranu po programu, nego po tome čiji su rođaci, susedi ili dobrotvori. Ideja da Obrenovići i Karađorđevići predstavljaju dva oštro suprotstavljena pogleda na svet — jedan austrofilski i autokratski, drugi rusofilski i ustavni — jeste delom tačna, ali je u 20. veku, naročito posle 1903. i posle 1918, dodatno izoštrena propagandom pobedničke kuće. Faktički, razlike među vladarima su često bile pitanje trenutka, saveza i ličnih okolnosti, ne čvrste dinastijske doktrine."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pa ipak, breme rivalstva opterećivalo je srpsku politiku duboko i stvarno. Pitanje legitimiteta, pitanje krvi iz 1817. i pitanje krvi iz 1903, ostajala su otvorena u javnom govoru i posle ujedinjenja. Majski prevrat doneo je, makar i kroz krv, nešto liberalniji ustavni okvir, jaču ulogu skupštine i kraj jednog naročitog tipa lično dominantne vladavine. Bio je to kraj jednog veka u kome se srpska država rodila i odrasla pod senkom dveju kuća — i u kome je naučila, na način koji nijedan udžbenik ne preporučuje, koliko je teško izgraditi politički sistem dok se dva doma još uvek bore za jedan presto."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

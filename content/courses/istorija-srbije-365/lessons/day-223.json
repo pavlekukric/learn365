@@ -6,13 +6,49 @@
   "dayNumber": 223,
   "order": 11,
   "title": "Sretenjski ustav",
+  "subtitle": "Kako je Srbija na praznik Sretenja 1835. dobila prvi pisani ustav — i izgubila ga već posle nekoliko nedelja",
   "readingTimeMinutes": 8,
   "year": 1835,
-  "isPlaceholder": true,
+  "dateLabel": "1835.",
+  "timelinePosition": "februar 1835.",
+  "summary": "Posle Miletine bune, knez Miloš pristaje na ustav koji u Kragujevcu, na Sretenje 1835. godine, proglašava prvi pisani pravni okvir srpske države — ali ga već posle nekoliko nedelja, pod pritiskom Porte, Rusije i Austrije, mora ukinuti.",
+  "keyPeople": ["knez Miloš Obrenović", "Dimitrije Davidović", "Mileta Radojković", "Toma Vučić Perišić", "Avram Petronijević"],
+  "keyPlaces": ["Kragujevac", "Jagodina", "Carigrad", "Beč", "Sankt Peterburg"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Zima 1834. na 1835. godinu zatekla je Kneževinu Srbiju u čudnom stanju. Spolja, posle hatišerifa 1830. i 1833, izgledala je kao mlada autonomna država na uzlazu — sa svojim knezom, svojim granicama, svojom crkvom. Iznutra, sve je ipak zavisilo od jednog čoveka. Miloš Obrenović vladao je kao gospodar koji sam dodeljuje carine, sam drži monopole na so, duvan i svinje, sam imenuje sudije i kmetove, i sam, kada se naljuti, kažnjava. Stari ratni drugovi iz ustanka, ljudi koji su s njim sedeli oko logorskih vatri, sve teže su podnosili da im taj isti Miloš sada govori s visine kao car. Negodovanje je rastlo godinama; početkom 1835. prelilo se u otvorenu bunu."
+    },
+    {
+      "type": "paragraph",
+      "text": "Buna je izbila u Jagodini, u prvim danima januara, i po vođi je dobila ime Miletina. Mileta Radojković, jagodinski starešina i jedan od onih starih boraca koje je Miloš nekada cenio, stao je na čelo nezadovoljnih. Uz njega su bila znana imena — Avram Petronijević, Toma Vučić Perišić, Đorđe Protić — ljudi koji nisu želeli da ruše kneza, ali jesu želeli da mu postave granice. Tražili su ono što su dotad bili samo tihi prigovori po varošima: pisani ustav, narodnu skupštinu kao stalno telo, savet ministara, ukidanje pojedinih monopola, lična prava za podanike. Buntovnici su iz Jagodine krenuli ka Kragujevcu, knez je izveo svoju vojsku, ali do prave bitke nije došlo. Miloš je, posle kratkog pregovaranja, popustio. Pristao je na ustav."
+    },
+    {
+      "type": "paragraph",
+      "text": "Posao pisanja poveren je Dimitriju Davidoviću, jednom od najobrazovanijih ljudi tadašnje Srbije. Davidović, rođen 1789, bio je novinar i kulturni radnik koji je u Beču svojevremeno pokrenuo prve srpske novine; godinama je već radio kao Milošev sekretar i diplomata, i znao je evropske ustave gotovo napamet. Za uzore je uzeo dva najuglednija liberalna teksta tog vremena — francusku Povelju iz 1814, donesenu posle Napoleonovog pada, i belgijski ustav iz 1831, plod nedavne revolucije u Briselu. Iz njih je izvukao podelu vlasti, ulogu skupštine, zaštitu osnovnih prava — i sve to pažljivo prilagodio prilikama jedne male agrarne kneževine pod sultanovim vrhovništvom."
+    },
+    {
+      "type": "paragraph",
+      "text": "Proglašen je 2. odnosno, po novom kalendaru, 14. februara 1835. godine, na praznik Sretenja Gospodnjeg, u Kragujevcu, tadašnjoj prestonici. Otuda i ime po kome je ostao upamćen — Sretenjski ustav. Tekst je predviđao kneza čija je vlast ograničena zakonom i naslednim pravom, državni savet kao trajno savetodavno i kontrolno telo, popečitelje — ministre — koji odgovaraju za pojedine oblasti, i narodnu skupštinu koja se redovno saziva. Garantovao je ličnu slobodu, jednakost pred zakonom, slobodu veroispovesti i, što je za balkanski svet tog časa bilo posebno značajno, izričito je ukidao kmetstvo. Za prilike svog vremena, ovaj kratki dokument bio je izuzetno napredan; mnogi kasniji istoričari opisali su ga kao jedan od najliberalnijih ustava u tadašnjoj Evropi."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Zašto je ukinut"
+    },
+    {
+      "type": "paragraph",
+      "text": "Vest da je u Kragujevcu, u jednoj još uvek sultanovoj vazalnoj kneževini, proglašen ustav po francuskom i belgijskom uzoru, brzo je stigla u Carigrad, Beč i Sankt Peterburg. Sve tri prestonice reagovale su gotovo istovetno — sa nelagodom. Porta je u tekstu videla povredu sopstvenog vrhovništva: ako je Srbija deo Osmanskog carstva, kako može imati ustav koji se ne pominje ni u jednom hatišerifu i koji o sultanu skoro da ne govori? Rusija, zvanični zaštitnik srpske autonomije po Jedrenskom miru, smatrala je da je dokument donesen mimo njenog znanja i da kneza preterano slabi u trenutku kada Petrograd želi jaku, ali uredno protektorisanu Srbiju. Austrija je reagovala najoštrije."
+    },
+    {
+      "type": "paragraph",
+      "text": "Za kneza Metterniha, glavnog tvorca poretka Svete alijanse, svaki ustav koji govori o narodnoj skupštini i ličnim slobodama bio je revolucionarna iskra. Beč je u to vreme već bio uznemiren liberalnim kretanjima u Poljskoj i Mađarskoj; pomisao da bi se sličan primer pojavio i južno od Save delovala je opasno. Diplomatske note iz sve tri prestonice slale su jasnu poruku: ovakav ustav ne sme da opstane. Miloš se, mora se pošteno reći, nije previše opirao. Iako je javno pristao na ograničenja, u sebi nikada nije prihvatio da neko drugi sa njim deli odluke o porezima, službama i monopolima. Spoljni pritisak dao mu je upravo onaj izgovor koji mu je trebao. Već posle nekoliko nedelja primene, Sretenjski ustav je obustavljen, a Davidović je tiho potisnut iz prvih redova vlasti."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ipak, ono što je 1835. ukinuto nije nestalo. Sretenjski ustav ostao je u sećanju kao prvi pisani pravni okvir srpske državne vlasti, kao trenutak u kome se Srbija sama, na svom tlu, opredelila za evropsko, liberalno shvatanje države. Pošteno gledano, on nije bio ni čisto Miloševo delo ni čista pobeda reformista. Bio je kompromis između jednog autokratskog kneza koji je popustio pod prinudom, jedne grupe starešina koja je tražila granice tuđe vlasti više nego sopstvene slobode, i jednog obrazovanog pisara koji je u sve to ugradio iskreno evropsko znanje. U deceniji koja sledi, ustavno pitanje vraćaće se uvek iznova — sve dok 1838. ne stigne, iz sasvim drugog pera, takozvani Turski ustav, sa kojim počinje sledeće poglavlje."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

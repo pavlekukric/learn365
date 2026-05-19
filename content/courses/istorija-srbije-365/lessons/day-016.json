@@ -6,13 +6,49 @@
   "dayNumber": 16,
   "order": 5,
   "title": "Skordisci i Singidunum",
+  "subtitle": "Keltska plemenska sila na ušću Save u Dunav i prvo ime budućeg Beograda",
   "readingTimeMinutes": 7,
   "year": -250,
-  "isPlaceholder": true,
+  "dateLabel": "oko 3. vek p. n. e.",
+  "timelinePosition": "~250. p. n. e.",
+  "summary": "Skordisci, keltski savez sa znatnim domaćim primesama, vladali su centralnim Balkanom oko stoleća i po, a na ušću Save u Dunav vezuje se prvi pomen Singidunuma — istorijskog semena budućeg Beograda.",
+  "keyPeople": ["Marko Minucije Ruf"],
+  "keyPlaces": ["Singidunum", "Sava", "Dunav", "centralni Balkan"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Krajem trećeg veka pre nove ere, na ušće Save u Dunav stiže narod koji će na ovom delu Balkana ostaviti dubok i trajan trag — Skordisci. Bili su to Kelti, ili tačnije: ono što je od jednog velikog keltskog talasa ostalo posle propasti pohoda na Delfe 279. godine pre nove ere. Umesto da se vrate na sever odakle su krenuli, jedan deo tih ratnika i porodica okrenuo se nazad ka srednjem Podunavlju i tu se zadržao. Tokom narednih decenija stopili su se sa starosedeocima — ilirskim i tračkim zajednicama koje su tu već generacijama živele — i obrazovali novu plemensku celinu, koju su grčki i rimski pisci poznavali pod imenom Scordisci."
+    },
+    {
+      "type": "paragraph",
+      "text": "Njihovo jezgro nalazilo se u trouglu između Save, Drave i centralnog Dunava, dakle uglavnom na tlu današnje severne Srbije, istočne Slavonije i severozapadne Bugarske. Bili su organizovani kao moćan plemenski savez, sa izraženim ratničkim slojem, sopstvenom kovanicom novca po keltskim uzorima i razgranatom mrežom utvrđenih naselja. Iako se često govori o „skordiskom kraljevstvu”, treba odmah reći da znanje o njihovom unutrašnjem uređenju ostaje skromno — antički pisci su ih opisivali spolja, kao protivnike i susede, a sami Skordisci nisu za sobom ostavili pisanih svedočanstava o sebi."
+    },
+    {
+      "type": "paragraph",
+      "text": "Otprilike sto pedeset godina, od kraja trećeg do kraja drugog veka pre nove ere, Skordisci su bili dominantna sila u centralnom Balkanu. Njihovi su pohodi dopirali daleko: u drugom veku pre nove ere pljačkali su rimsku provinciju Makedoniju i prodirali sve do Grčke, sve dok ih rimska vojska nije počela ozbiljnije gušiti. Presudan poraz zadao im je rimski namesnik Marko Minucije Ruf 109. godine pre nove ere. Posle te bitke moć Skordiska počinje da se osipa; u narednom stoleću Rim ih je postepeno potčinjavao, a u prvim decenijama nove ere o njima se više i ne govori kao o samostalnoj sili. Ime je ostalo u izvorima, ali politički subjekat je nestao, utopljen u rimski granični svet na Dunavu."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Singidunum, prvi pomen budućeg grada"
+    },
+    {
+      "type": "paragraph",
+      "text": "Najtrajnije nasleđe Skordiska, bar za istoriju Srbije, vezano je za naselje koje je niklo na samom ušću Save u Dunav. To naselje će antički geografi poznavati pod imenom Singidunum — i upravo na tom mestu nalazi se istorijsko seme današnjeg Beograda. Sam položaj bio je idealan: visoka i lako branjiva uzvišica nad sastankom dveju velikih reka, sa pogledom na panonsku ravnicu, na ušću ključnih putnih i trgovačkih pravaca. Skordisci nisu, naravno, otkrili ovo mesto — život na njemu traje od praistorije — ali su mu, po svemu sudeći, dali konačno ime i podigli utvrđenje koje će kasnije naslediti Rim."
+    },
+    {
+      "type": "paragraph",
+      "text": "Samo ime „Singidunum” jedna je od najzanimljivijih sitnica antičke balkanske toponimije. Završni deo — „dunum” — jeste opštepoznata keltska reč za utvrđeno mesto, gradinu, i sreće se širom keltskog sveta, od Galije do srednjeg Podunavlja. Prvi deo, „Singi-”, daleko je sporniji. Jedni ga izvode iz keltskog korena, drugi u njemu vide ime starije, ilirske ili tračke zajednice koju su Kelti zatekli i čije su ime preuzeli. Pošteno je reći: tačno značenje ne znamo. Sigurno je samo to da je ime mešovito, sastavljeno iz dva sloja — keltskog i predkeltskog — što i odgovara prirodi samog naselja i samih Skordiska, koji su i u jeziku i u običajima bili spoj došljaka i starosedelaca."
+    },
+    {
+      "type": "paragraph",
+      "text": "Treba dodati još jednu trezvenu napomenu. Ime „Singidunum” prvi put se sreće u grčkim i rimskim geografskim spisima, dakle posle ključnog perioda skordiskog uspona, i to u kontekstu već postojećeg, prepoznatljivog mesta. Iz tih spisa zaključujemo da je naselje keltskog porekla, a etimologija imena dodatno potvrđuje takvo tumačenje; ali nemamo nijedan natpis ni dokument koji bi nam tačnu godinu osnivanja ili reči samih Skordiska saopštio. Sve što kažemo o tome je rekonstrukcija, oprezno izvedena iz kasnijih izvora i iz arheoloških nalaza — keltskog novca, oružja, keramike — sa lokaliteta na Kalemegdanu i u njegovoj okolini."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ipak, čak i sa svim ogradama, slika je jasna. U trećem veku pre nove ere na ušću Save u Dunav postoji utvrđeno naselje, organizovano u okviru jakog keltskog saveza, sa imenom koje će preživeti i Skordiske, i Rim, i svaku potonju državu na ovom tlu — pretvarajući se na kraju u kratku, svima poznatu reč: Beograd. Sa rimskim osvajanjem početkom prvog veka nove ere, Singidunum će ući u novu epohu — postaće ključno granično utvrđenje na Dunavu, sedište legije i grad u punom rimskom smislu te reči. Ali ta priča pripada nekom drugom danu."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

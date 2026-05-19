@@ -6,13 +6,53 @@
   "dayNumber": 263,
   "order": 5,
   "title": "Srpska književnost 19. veka",
+  "subtitle": "Od Dositejeve prosvete i Vukove jezičke reforme do romantizma, realizma i prvih glasova moderne",
   "readingTimeMinutes": 8,
   "year": 1870,
-  "isPlaceholder": true,
+  "dateLabel": "19. vek",
+  "timelinePosition": "19. vek",
+  "summary": "Srpska književnost devetnaestog veka u tri talasa: prosvetiteljstvo i Vukova reforma, romantizam Branka i Njegoša, te realizam i prve naznake moderne pred Prvi svetski rat.",
+  "keyPeople": ["Vuk Stefanović Karadžić", "Dositej Obradović", "Petar II Petrović Njegoš", "Branko Radičević", "Jovan Jovanović Zmaj", "Laza Kostić", "Stevan Sremac", "Branislav Nušić", "Jovan Skerlić"],
+  "keyPlaces": ["Beograd", "Novi Sad", "Beč", "Cetinje", "Pešta"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Srpska književnost devetnaestog veka nije se razvijala u mirnoj državi sa razvijenim štamparijama i ustaljenom publikom, nego u rascepu — između Beča, Pešte i Novog Sada na severu, i tek nastale Kneževine Srbije na jugu, između crkvenoslovenskog nasleđa i živog narodnog govora, između prosvetiteljskog poverenja u razum i romantičarskog kulta osećanja. Iz tog rascepa, u tri velika talasa, nastala je književnost koja je do kraja veka stala u red modernih evropskih, a neke svoje najbolje stranice ostavila kao trajno nasleđe srpskog jezika."
+    },
+    {
+      "type": "paragraph",
+      "text": "Prvi talas, od početka veka do oko 1850. godine, otvara senka Dositeja Obradovića (1739–1811). Dositej je još iz prethodnog stoleća doneo prosvetiteljski program — knjigu kao sredstvo razuma, obrazovanje kao put iz samostanske skučenosti, pisanje na jeziku koji običan čovek može razumeti. Njegov uticaj na prve decenije veka ide preko škola, prevoda i etičkih spisa, i pripremio je tle za korenitiju promenu koja će uslediti. Tu promenu doneo je Vuk Stefanović Karadžić (1787–1864). Reformom pravopisa po načelu „piši kao što govoriš, čitaj kao što je napisano”, uvođenjem narodnog jezika kao književnog standarda i prikupljanjem narodnih pesama i pripovedaka, Vuk je promenio tle na kome će svi posle njega stajati. „Srpski rječnik” iz 1818. i njegovo prošireno izdanje iz 1852. nisu bili samo lingvistički poduhvati nego i odluka da se srpska kultura ubuduće gradi iz sopstvenog narodnog jezika. Otpor mu je bio žestok i trajao je decenijama, ali pobeda je do šezdesetih godina bila izvojevana."
+    },
+    {
+      "type": "paragraph",
+      "text": "Uz Vuka i Dositeja, na prvi talas pada još jedno ime koje samo sebi pravi razmere — Petar II Petrović Njegoš (1813–1851), vladika i pesnik Crne Gore. Njegov „Gorski vijenac” iz 1847. spojio je narodni deseterac, filozofsku težinu i dramsku formu u delo koje će kasniji čitaoci shvatiti i kao vrhunac romantičarske poezije i kao jedan od osnovnih tekstova novije srpske književnosti. Pored njega, Sima Milutinović Sarajlija stoji kao prelazna figura koja vezuje generacije i koja je samom Njegošu bio učitelj."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Romantizam i realizam"
+    },
+    {
+      "type": "paragraph",
+      "text": "Drugi talas, između 1850. i 1880, zenit je romantizma. Branko Radičević (1824–1853) prvi je posle Vukove pobede pevao narodnim jezikom sa lakoćom mlade krvi i ostavio, u kratkom životu, lirsku liniju iz koje će pesnici crpiti decenijama. Đura Jakšić (1832–1878), slikar i pesnik istovremeno, dao je rodoljubive i intimne stihove sa snažnom bojom — „Otadžbina” i danas zvuči kao programska pesma jednog naraštaja. Jovan Jovanović Zmaj (1833–1904) bio je najpopularniji pesnik svoga doba: lirik velike osetljivosti u ciklusima posvećenim ženi i deci koje je izgubio, neumoran prevodilac i tvorac dečje poezije koja je generacijama bila prvi susret sa stihom. Laza Kostić (1841–1910), neobičan i samosvojan, pesnik filozofske drskosti i jezičke smelosti, ostavio je u „Santa Maria della Salute” pesmu koja se i danas čita kao jedan od vrhunaca srpskog stiha."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pred kraj sedamdesetih i tokom osamdesetih, romantičarska temperatura pada, a književnost se okreće svakodnevici i društvu. Realizam donosi roman i pripovetku kao glavne forme. Jakov Ignjatović (1822–1889) opisuje svet vojvođanskih varoši, propadanje starih trgovačkih kuća i sudar generacija. Stevan Sremac (1855–1906) u humorističkim romanima „Pop Ćira i pop Spira” i „Zona Zamfirova” hvata mentalitet palanke sa toliko sluha da su ti likovi i govor ušli u opšti jezik. Janko Veselinović sa „Hajduk Stankom” daje romantizovanu sliku sela i bune. Radoje Domanović (1873–1908) u satirama „Stradija” i „Vođa” ide korak dalje — od slike društva ka njegovoj kritici, hladnoj i preciznoj. U pozorištu, Branislav Nušić (1864–1938) postaje komediograf čije će „Sumnjivo lice” i „Narodni poslanik” preživeti sve režime i ostati žive scenske teme."
+    },
+    {
+      "type": "paragraph",
+      "text": "Treći talas, na samom kraju veka i u godinama pred Prvi svetski rat, najavljuje modernost. Vojislav Ilić (1860–1894) izvodi srpsku poeziju iz romantičarske bujnosti ka mirnijem, klasičnijem stihu, sa pejzažom i jasnoćom koje gledaju ka parnasovskom uzoru. Oko časopisa „Srpski književni glasnik”, pokrenutog 1901, okuplja se nova generacija pesnika, kritičara i prevodilaca. Književna kritika u ovom razdoblju dobija ozbiljnu težinu: Svetozar Marković još šezdesetih traži „realnost u književnosti” sa pozicija društvenog mislioca; Bogdan Popović, eklektički estetičar, svojom „Antologijom novije srpske lirike” iz 1911. uspostavlja kanon koji će dugo važiti; Jovan Skerlić (1877–1914), urednik „Glasnika” i istoričar književnosti, svojom „Istorijom nove srpske književnosti” piše prvi sintetički pregled celog veka."
+    },
+    {
+      "type": "paragraph",
+      "text": "Časopisi su sve vreme bili kičma ovog procesa. „Letopis Matice srpske”, pokrenut još 1824, ostao je najstariji živi srpski književni časopis. „Otadžbina”, oko koje su se okupljali Jakšić, Marković i kasnije Zmaj, davala je glas tekućim sporovima. „Srpski književni glasnik” je u Skerlićevo vreme bio merilo ukusa. Uporedo, status pisca menjao se od povremenog gosta u školi i kancelariji ka profesionalnom literati koji od pera, prevoda i uredništva može — bar u nekoj meri — da živi."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pošteno rečeno, nije sve u srpskoj književnosti devetnaestog veka stiglo do evropskog vrha. Mnogo je rodoljubive deklamacije, drugorazredne proze i prigodnog stiha. Ali tačke su podignute visoko: Njegoš i Vuk drže jedan kraj veka, Zmaj, Laza, Sremac i Nušić drugi, a Skerlićev pogled unazad već vidi celinu kao zaokružen kulturni poduhvat. Iz devetnaestog veka srpska književnost je izašla sa narodnim jezikom kao standardom, sa romanom, dramom i lirikom kao razvijenim formama i sa publikom koja zna šta čita — spremna da uđe u modernizam dvadesetog veka kao ravnopravan učesnik."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

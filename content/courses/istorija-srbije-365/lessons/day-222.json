@@ -6,13 +6,53 @@
   "dayNumber": 222,
   "order": 10,
   "title": "Hatišerifi i priznanje autonomije",
+  "subtitle": "Kako je Srbija dvama sultanovim svečanim aktima, 1830. i 1833. godine, dobila pravni okvir vazalne kneževine",
   "readingTimeMinutes": 8,
   "year": 1830,
-  "isPlaceholder": true,
+  "dateLabel": "1830. i 1833.",
+  "timelinePosition": "1830–1833.",
+  "summary": "Posle Jedrenskog mira sultan Mahmud II izdaje hatišerif 1830. kojim Srbiji priznaje unutrašnju samoupravu i nasledno knežaštvo Miloša Obrenovića, a hatišerifom iz 1833. teritoriji se priključuje šest nahija — prvi međunarodno priznati okvir srpske države posle vekova.",
+  "keyPeople": ["Miloš Obrenović", "sultan Mahmud II", "Jovan Obrenović", "Hadži-Prodan"],
+  "keyPlaces": ["Beograd", "Carigrad", "Šabac", "Smederevo", "Kruševac", "Krajina"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Kada su 14. septembra 1829. godine ruski i osmanski izaslanici u Jedrenu potpisali mir kojim se završavao još jedan rusko-turski rat, u jednoj od odredaba ugovora pomenuta je i Srbija. Sultan se obavezao da će, bez daljeg odlaganja, izvršiti ono što je već ranijim ugovorima — bukureštanskim iz 1812. i akermanskim iz 1826. — obećao knezu Milošu i njegovom narodu: da će Srbiji dati formalni akt o unutrašnjoj samoupravi. Pet vekova posle Maričke i Kosovske bitke, posle dva ustanka, hiljada bitaka i još više pregovora, presto u Carigradu pristajao je da na papiru prizna ono što je Miloš već petnaest godina držao u rukama."
+    },
+    {
+      "type": "paragraph",
+      "text": "Tako se 1830. godine, krajem avgusta, u Beogradu svečano čita prvi hatišerif sultana Mahmuda II o Srbiji. Reč hatišerif — turski hatt-ı şerif — znači „uzvišeni rukopis”: fermane je sultan potpisivao i diktirao kroz veliko vezirstvo, ali hatišerif je najsvečaniji oblik osmanskog akta, onaj na kome stoji carev sopstveni rukopis. Davati nekoj oblasti pravo hatišerifom značilo je dati joj najjači pravni rang koji je Carstvo uopšte poznavalo. Time je srpska autonomija, u hijerarhiji osmanskih institucija, postavljena visoko — i pravno, i simbolično."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sadržaj akta bio je ono što se godinama tražilo. Srbiji, u granicama Beogradskog pašaluka, priznata je unutrašnja samouprava: sopstvena uprava, sopstveni sudovi, sopstvena crkva, pravo da otvara škole i da drži skromnu, ograničenu vojsku za unutrašnji red. Knežaštvo Miloša Obrenovića proglašeno je naslednim u njegovoj porodici — ono što je u osmanskoj logici bilo neuobičajeno, a u srpskoj predstavljalo prelaz iz vojvodstva u dinastiju. Spahijski sistem na srpskoj teritoriji ukidao se, a muslimansko stanovništvo van utvrđenih gradova postepeno se iseljavalo uz nadoknadu. Zauzvrat, sultan je zadržao suverenitet — Srbija je ostajala vazalna država, dužna da plaća godišnji danak i da trpi turske posade u šest utvrđenih gradova: Beogradu, Šapcu, Smederevu, Kladovu, Užicu i Sokolu. Te posade ostaće u zemlji sve do 1867. godine."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Drugi hatišerif i konačne granice"
+    },
+    {
+      "type": "paragraph",
+      "text": "Akt iz 1830. nije, međutim, do kraja rešio jedno bolno pitanje — pitanje teritorije. Šest nahija koje je srpska vojska oslobodila još u Prvom ustanku, a koje su faktički ostale pod srpskom upravom i posle Bukureštanskog mira, formalno nisu bile uključene u pašaluk. Krajina, Crna Reka, Banja, Aleksinac, Kruševac i Paraćin činili su pojas duž istočne i južne granice, naseljen srpskim stanovništvom, koji je Miloš godinama čuvao kao svršenu činjenicu. Diplomatski pritisak, ruska podrška i njegova vešta upornost dali su rezultat tek nekoliko godina kasnije. U decembru 1833. godine sultan izdaje drugi hatišerif, kojim se tih šest nahija zvanično priključuju Kneževini Srbiji."
+    },
+    {
+      "type": "paragraph",
+      "text": "Time su, u suštini, povučene granice unutar kojih će Srbija živeti narednih četrdeset godina, do Berlinskog kongresa. Teritorija je sada povezivala plodnu Šumadiju sa istočnim i južnim oblastima, a Miloševa država dobila je oblik i veličinu koji su je činili sposobnom za ozbiljan unutrašnji život — za uvođenje administracije, poreza, sudova i škola. Dva hatišerifa, jedan iz 1830. i drugi iz 1833. godine, treba zato čitati zajedno: prvi je dao pravni okvir, drugi mu je dao telo."
+    },
+    {
+      "type": "paragraph",
+      "text": "Treba odmah reći i ono što nije bilo. Srbija 1830. nije bila nezavisna država. Bila je vazalna kneževina, sa stranim posadama u svojim najvažnijim gradovima, sa obavezom danka i sa sultanovim suverenitetom nad spoljnim poslovima. Knez Miloš nije mogao samostalno objavljivati rat, sklapati saveze niti slati poslanike kao suveren. Pravoslavna crkva u Srbiji ostala je, sve do 1832. odnosno potpunije do kasnijih decenija, kanonski vezana za Carigradsku patrijaršiju. Stvarnu nezavisnost i punu suverenost Srbija će dobiti tek 1878. godine, gotovo pola veka kasnije."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pa ipak, da bi se razumelo zašto se 1830. godina kod kasnijih istoričara naziva „rođendanom moderne srpske države”, treba je posmatrati iz perspektive onoga što joj je prethodilo. Vekovima je Srbija postojala samo kao geografski pojam, kao crkveno sećanje i kao narod bez svog pravnog lica. Sada se, prvi put posle pada Smedereva 1459, na jednom državnom dokumentu Carstva piše „Srbija” kao ime priznate, makar vazalne, političke jedinice sa naslednim knezom, granicama i institucijama. Iz tog okvira izrasti će sve što sledi — Sretenjski ustav 1835, prvi statuti, prve škole, prva moderna vojska, kasnije i nezavisnost."
+    },
+    {
+      "type": "paragraph",
+      "text": "Dva sultanova rukopisa, u svilenim koricama, u svom strogom dvorskom jeziku, učinila su za Srbiju ono što ni vojska ni godine ratovanja same nisu mogle: dala su joj pravno ime. Od tog trenutka, kad bi srpski izaslanik putovao u Beč, Petrograd ili Berlin, mogao je u rukama da ponese dokument na kome je carev rukopis — a ne više samo molbu ili obećanje. Sve dalje će biti borba oko toga šta tim imenom konačno treba ispuniti."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

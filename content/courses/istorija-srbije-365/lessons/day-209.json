@@ -6,13 +6,53 @@
   "dayNumber": 209,
   "order": 14,
   "title": "Bukureštanski mir",
+  "subtitle": "Kako je rusko-turski mir iz 1812. godine, sklopljen pred Napoleonov pohod, ostavio srpski ustanak bez zaštitnika",
   "readingTimeMinutes": 7,
   "year": 1812,
-  "isPlaceholder": true,
+  "dateLabel": "1812.",
+  "timelinePosition": "28. maj 1812.",
+  "summary": "Rusko-turski mir potpisan u Bukureštu 28. maja 1812, samo nedelju dana pred Napoleonov pohod, vratio je Porti slobodne ruke prema Srbiji i u članu 8. ostavio dvosmislenu osnovu za kasnije pregovore o autonomiji.",
+  "keyPeople": ["Karađorđe", "Mihail Kutuzov", "Aleksandar I", "Mahmud II", "Napoleon"],
+  "keyPlaces": ["Bukurešt", "Vlaška", "Beograd", "Besarabija"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Rat između Rusije i Osmanskog carstva, koji je počeo 1806. godine i pratio srpski ustanak gotovo od njegovih prvih meseci, trajao je već šestu godinu. Vojske su se kretale duž Dunava i u Vlaškoj, a srpski ustanici su, oslonjeni na rusku podršku — povremeno snažnu, povremeno mlaku — držali oslobođenu teritoriju i čekali da se sudbina velikog rata reši na strani njihovog moćnog zaštitnika. Početkom 1812. godine, međutim, u Petrogradu se sve manje govorilo o Balkanu, a sve više o jednom drugom imenu — Napoleon. Francuska Velika armija već se okupljala duž Visle, a car Aleksandar I znao je da mora svaki bataljon koji ima na jugu što pre vratiti na zapad."
+    },
+    {
+      "type": "paragraph",
+      "text": "Vrhovnom zapovedniku ruske Dunavske armije, feldmaršalu Mihailu Kutuzovu, stigla je iz prestonice nedvosmislena zapovest — sklopiti mir što pre, po cenu koju situacija dopušta. Kutuzov, oprezan i iskusan diplomata koliko i vojnik, vodio je pregovore u Bukureštu, prestonici Vlaške koja je tada bila pod ruskom upravom. Sporazum je potpisan 28. maja 1812. po novom kalendaru — 16. maja po starom — svega nekoliko nedelja pre nego što je Napoleon, 24. juna iste godine, prešao Njemen i započeo pohod na Rusiju. Vremensko poklapanje nije bilo slučajno: Porta je dobro znala da Rusija beži s Balkana, a Rusija je znala da Porta to zna."
+    },
+    {
+      "type": "paragraph",
+      "text": "Za Rusiju, dobici su bili znatni ali ispod ranijih očekivanja. Pripala joj je Besarabija — istočna polovina Moldavije, oblast koja danas pokriva veći deo Republike Moldavije i južni pojas Budžaka — kao i potvrda nekih ranije stečenih položaja na Kavkazu. Za Osmansko carstvo, uslovi su, s obzirom na dužinu rata, bili podnošljivi: vratilo je deo rumunskih oblasti severno od Dunava i, što je najvažnije, dobilo praktično povlačenje ruskih trupa sa svoje severne granice. Obe strane su iz Bukurešta izašle s rezultatom koji nije bio pobeda, ali je svakoj omogućio da se okrene preča sebi — Rusima Napoleon, Osmanlijama dugo odlagani obračun u njihovom rumelijskom zaleđu."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Član osmi"
+    },
+    {
+      "type": "paragraph",
+      "text": "Za srpsku istoriju, ceo ugovor sažima se u jednu odredbu — član 8. Tekst je, na prvi pogled, sadržao četiri obaveze. Prvo, Porta je morala da proglasi opštu amnestiju za sve koji su učestvovali u ustanku. Drugo, Srbima je obećano da će sami upravljati „unutrašnjim poslovima” svoje zemlje, po uzoru na status Vlaške i Moldavije — to jest, ograničena samouprava unutar osmanskog suvereniteta. Treće, osmanski garnizoni vraćali su se u srpske utvrđene gradove, uključujući Beograd. I četvrto, srpska vojska morala je da bude raspuštena, a ustaničke utvrde predate ili razoružane."
+    },
+    {
+      "type": "paragraph",
+      "text": "Reči člana 8. bile su namerno rastegljive. Mogle su se čitati kao značajna autonomija — gotovo kao priznanje srpske političke zajednice unutar carstva — ali isto tako i kao puko obnavljanje osmanske vlasti s nekoliko kozmetičkih ustupaka. Kutuzov je, suočen s pritiskom iz Petrograda, prihvatio takvu maglovitu formulaciju nadajući se da će je vreme i kasniji pregovori razraditi u srpsku korist. Porta je, naravno, čitala isti tekst u najužem mogućem smislu: amnestija da, ali pod uslovom da Srbi prvo polože oružje, predaju gradove i prime nazad osmansku upravu. Iza diplomatske učtivosti, dve strane su govorile o dva različita ugovora."
+    },
+    {
+      "type": "paragraph",
+      "text": "Vest o miru stigla je u Topolu i Beograd kao hladan udarac. Karađorđe i ustanička starešinska skupština shvatili su odmah ono što je teško bilo izgovoriti — da je Rusija, zaštitnica koja im je tokom šest godina držala otvoren leđa, sada otišla, i da im je u rukama ostala samo papirnata garancija člana 8. Među vojvodama su se javila dva mišljenja. Jedni su govorili da treba pružiti otpor i ne pristati na razoružanje, jer će sve drugo biti smrt na rate. Drugi su tražili da se popusti, ne bi li se izbeglo ono najgore i sačuvalo barem nešto od onoga što je sedam godina ratovanja izgradilo. Bez ruskih trupa iza Dunava, prva opcija je gubila težinu iz nedelje u nedelju."
+    },
+    {
+      "type": "paragraph",
+      "text": "Tokom 1812. i prve polovine 1813. godine, srpski izaslanici pokušavali su da na Porti izdejstvuju razrađenije i blaže uslove. Slali su molbe, predlagali ograničeno prisustvo turskih posada samo u nekim gradovima, tražili pisane garancije za samoupravu. Odgovori iz Carigrada bili su odugovlačeći i sve hladniji. Sultan Mahmud II, koji je upravo bio zaokupljen unutrašnjom borbom s pobunjenim janičarima i lokalnim ajanima, video je u Srbiji nešto što mora da reši pre nego što se proširi. Tihih meseci 1812. i ranog proleća 1813, dok je Velika armija propadala u snegovima Rusije, u rumelijskim pašalucima okupljala se nova osmanska vojska. Cilj joj je bio jednostavan — iskoristiti to što je Rusija i posle Napoleonovog povlačenja još uvek zaokupljena ratom na zapadu i jednim udarcem ukloniti srpski ustanak dok je oslabljen."
+    },
+    {
+      "type": "paragraph",
+      "text": "Bukureštanski mir nije slomio ustanak — to će se desiti naredne, 1813. godine — ali je uklonio sve što ga je dotad držalo na nogama. Iz ovog iskustva srpska politika izvukla je pouku koja će se ponavljati i kroz devetnaesti vek: podrška velike sile uvek dolazi po njenom računu i njenom vremenu, i može biti povučena onog trenutka kada njeni krupniji interesi to zahtevaju. Karađorđevi naslednici više nikada neće ceo svoj položaj graditi na jednom zaštitniku. Pa ipak, član 8., u svoj svojoj nejasnoći, postaće dragocen. Upravo na njega će se pozivati Miloš Obrenović i srpski pregovarači tokom dvadesetih i ranih tridesetih godina, sve do hatišerifa iz 1830. godine, da pokažu kako autonomija nije njihov novi zahtev, već starije pravo koje im je Carigrad već jednom priznao. Bukurešt je, dakle, bio i kraj jedne nade i početak jednog pravnog razloga koji će preživeti svoju propast."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

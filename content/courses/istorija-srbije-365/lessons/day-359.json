@@ -6,13 +6,49 @@
   "dayNumber": 359,
   "order": 10,
   "title": "Srbi u regionu i dijaspora",
+  "subtitle": "Republika Srpska, Crna Gora, Hrvatska, Kosovo i dijaspora — srpski svet izvan Srbije danas",
   "readingTimeMinutes": 7,
   "year": 2020,
-  "isPlaceholder": true,
+  "dateLabel": "savremeno doba",
+  "timelinePosition": "savremeno doba",
+  "summary": "Pregled položaja Srba van Srbije početkom 21. veka: Republika Srpska u Bosni i Hercegovini, srpska zajednica u Crnoj Gori, manjina u Hrvatskoj, zajednice na Kosovu, i široka dijaspora od Nemačke do Australije.",
+  "keyPeople": [],
+  "keyPlaces": ["Republika Srpska", "Banja Luka", "Crna Gora", "Hrvatska", "Kosovo", "Severna Mitrovica", "Nemačka", "Austrija", "Švajcarska", "SAD", "Kanada", "Australija"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Kada se danas govori o „Srbima” izvan Srbije, govori se zapravo o nekoliko vrlo različitih zajednica, sa različitim pravnim položajima, različitim istorijama 20. veka i različitim odnosima prema Beogradu. Republika Srpska u Bosni i Hercegovini, srpski stanovnici Crne Gore, srpska manjina u Hrvatskoj, srpske opštine i enklave na Kosovu, i velika iseljenička dijaspora — sve to spada u širi srpski svet, ali pod jedan zajednički imenitelj može se svesti samo opisno. Lekcija koja sledi pokušaj je takvog opisa, bez teritorijalnih zahteva i bez patetike."
+    },
+    {
+      "type": "paragraph",
+      "text": "Najpre, Republika Srpska. Ona je, zajedno sa Federacijom Bosne i Hercegovine, jedan od dva entiteta unutar države Bosne i Hercegovine, ustanovljena Dejtonskim mirovnim sporazumom 1995. godine. Glavni grad joj je Banja Luka, ima sopstvenu vladu, parlament, predsednika i znatne nadležnosti — od policije do obrazovanja — dok zajednička, državna vlast Bosne i Hercegovine zadržava ograničen krug poslova. Odnosi unutar same države često su napeti, sa stalnim raspravama o nadležnostima, o ulozi visokog predstavnika međunarodne zajednice, i o tome šta tačno znači reč „suverenitet” u tako sastavljenoj zemlji. Veze sa Beogradom su bliske, političke i kulturne, ali Republika Srpska nije deo Srbije i to je posle Dejtona pravna činjenica koju i ona sama i Srbija formalno priznaju."
+    },
+    {
+      "type": "paragraph",
+      "text": "Crna Gora je poseban slučaj, i to slučaj u kome se identiteti otvoreno preklapaju. Po popisu iz 2023. godine, znatan deo stanovništva izjasnio se kao Crnogorci, a znatan deo kao Srbi, uz manje grupe Bošnjaka, Albanaca i drugih. Granica između „crnogorskog” i „srpskog” identiteta tu nije uvek jasna ni pojedincima samima: ista porodica ume da sadrži oba odgovora na popisni list, a oseća se kao jedna porodica. Srpska pravoslavna crkva istorijski je jedna od najvažnijih institucija u Crnoj Gori i, posle više sporova sa državom u poslednje dve decenije, ostaje široko prisutna, sa Mitropolijom crnogorsko-primorskom kao središtem. Ovo je oblast u kojoj se brojke menjaju od popisa do popisa, i u kojoj svako tvrdo svrstavanje brzo postane netačno."
+    },
+    {
+      "type": "paragraph",
+      "text": "U Hrvatskoj je slika posle ratova devedesetih bitno drukčija nego pre 1991. godine. Srpska manjina, koja je u tadašnjoj Republici Hrvatskoj u sastavu Jugoslavije činila oko dvanaest odsto stanovništva, posle Oluje i ratnih iseljavanja svedena je, prema popisima u 21. veku, na svega nekoliko procenata. Najveći deo onih koji su ostali ili se vratili živi u istočnoj Slavoniji, u Baranji, oko Vukovara i u manjim grupama drugde. Manjina ima zajamčena prava, političko predstavništvo u Saboru i svoja kulturna i medijska društva, ali pitanja povratka, imovine, jezika i pisma, i tretmana ratne prošlosti — i dalje su predmet stalne, često mučne rasprave. Tačan oblik tog statusa razlikuje se od opštine do opštine."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Kosovo i daleki krug"
+    },
+    {
+      "type": "paragraph",
+      "text": "Na Kosovu Srbi danas žive u dva, geografski i politički različita, sklopa. Na severu su četiri opštine sa srpskom većinom — Severna Mitrovica, Zubin Potok, Zvečan i Leposavić — naslonjene na centralnu Srbiju, sa stalnim sporovima oko institucija, simbola, dokumenata i policije. U središnjem i južnom delu Kosova srpsko stanovništvo živi u nizu manjih, raštrkanih enklava, oko manastira i u selima koja su preživela burne decenije od 1999. naovamo. Te zajednice su brojčano znatno manje nego pre rata, političke i bezbednosne tenzije ne prestaju, a praktične stvari — od zdravstvene zaštite do registarskih oznaka — često zavise od trenutnog stanja pregovora između Beograda i Prištine. Tu je oprez u opisu posebno potreban: brojke se menjaju, dogovori se zaključuju i raskidaju, a svako prerano uopštavanje zastari za nekoliko meseci."
+    },
+    {
+      "type": "paragraph",
+      "text": "Najzad, dijaspora u užem smislu — Srbi koji žive izvan bivše Jugoslavije. Najveće zajednice nalaze se u Nemačkoj, Austriji i Švajcarskoj, gde su mnogi otišli kao gastarbajteri još od šezdesetih, a potom su dolazili novi talasi iz ratnih i posleratnih devedesetih i u potonjim, mirnijim ali ekonomski teškim godinama. Velike zajednice postoje i u Sjedinjenim Američkim Državama, Kanadi i Australiji, gde su starija iseljenja iz prve polovine 20. veka i posleratna emigracija ostavili razgranatu mrežu crkvenih opština, klubova i privrednika. Tu su i Francuska, Italija, skandinavske zemlje, Južna Amerika. Procene ukupne dijaspore zavise od toga ko se broji i kako, i zato se obično navodi širok raspon od više stotina hiljada do par miliona ljudi sa srpskim poreklom. Doznake koje se otud šalju u Srbiju značajna su stavka u platnom bilansu zemlje — godišnji priliv meri se milijardama evra."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ono što vredi reći na kraju jednostavno je, ali se lako previdi. „Srpska zajednica” izvan Srbije nije jedna zajednica. Stanovnik Banje Luke, mladi inženjer u Beču, povratnik u Knin, monah u manastiru pod Šar-planinom i unuka iseljenika iz Čikaga — to su pet vrlo različitih života, sa pet različitih svakodnevica i pet različitih političkih okvira. Ono što ih povezuje jeste osećaj porekla i, najčešće, jezika i vere; ono što ih razdvaja jesu države u kojima žive, zakoni pod kojima rade i istorije koje su ih, svaku na svoj način, oblikovale. Razumno govoriti o tom svetu znači držati se opisa, brojeva i pažljive nijanse — i ostaviti svakoj od tih zajednica pravo da o sebi govori sopstvenim glasom."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

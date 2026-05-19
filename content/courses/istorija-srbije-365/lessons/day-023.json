@@ -6,13 +6,53 @@
   "dayNumber": 23,
   "order": 6,
   "title": "Rimski gradovi na tlu Srbije",
+  "subtitle": "Singidunum, Viminacijum, Naissus i mreža varoši koje su unele urbani život u ove krajeve",
   "readingTimeMinutes": 8,
   "year": 150,
-  "isPlaceholder": true,
+  "dateLabel": "rimsko doba",
+  "timelinePosition": "~150. n. e.",
+  "summary": "Pod rimskom upravom na tlu današnje Srbije izrasta gusta mreža gradova — od legionarskog Singidunuma na ušću Save u Dunav, preko Viminacijuma kao prestonice provincije, do Naissusa na velikom raskršću puteva. Rim ovde po prvi put donosi pravu urbanu civilizaciju.",
+  "keyPeople": [],
+  "keyPlaces": ["Singidunum", "Viminacijum", "Naissus", "Sirmijum", "Horreum Margi", "Mediana", "Ulpijana"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Kada se rimska vlast u prvom i drugom veku nove ere ustalila na centralnom Balkanu, krajolik ovih provincija počeo je da se menja na način kakav ranije nije zabeležen. Pored vojnih logora i puteva, niknula je gusta mreža gradova — neki na mestu starijih naselja, neki potpuno novi. Ti gradovi nisu bili samo administrativna središta; oni su bili nosioci jednog načina života koji u ovim krajevima do tada nije postojao. Sa njima dolazi forum, vodovod, kupatilo, amfiteatar — i jedna nova svakodnevica."
+    },
+    {
+      "type": "paragraph",
+      "text": "Najvažniji od svih bio je Singidunum, na mestu današnjeg Beograda. Rimljani su na visokoj steni iznad ušća Save u Dunav podigli logor jedne legije — Legije IV Flavije, koja je tu bila stacionirana većim delom drugog i trećeg veka. Logor je bio pravilno raspoređen, sa kasarnama, štabnom zgradom i hramovima, opasan zidom; oko njega je rastao civilni grad sa pijacama, radionicama i kućama veterana koji su posle službe ostajali na ovom tlu. Položaj je bio strateški izvanredan: ušće dve velike reke, granica carstva sa varvarskim svetom severno od Dunava i raskrsnica puteva koji su vodili ka Sirmijumu na zapadu, Viminacijumu i Naissusu na jugoistoku. Singidunum nikada nije postao prestonica, ali je vekovima bio jedna od ključnih utvrda na dunavskoj granici."
+    },
+    {
+      "type": "paragraph",
+      "text": "Stvarni upravni i ekonomski centar ovog dela carstva ležao je nešto nizvodnije — u Viminacijumu, kraj današnjeg Kostolca. Tu je bila prestonica provincije Gornje Mezije, sedište namesnika i baza Legije VII Klaudije. U doba najvećeg uspona, sredinom drugog veka, procene govore da je Viminacijum imao oko četrdeset hiljada stanovnika, što ga svrstava među najveće gradove na celom Dunavu. Imao je jasno razdvojen vojni logor i civilnu varoš, sopstvenu kovnicu novca, amfiteatar sa stepenicama koje su prvo bile drvene a kasnije zidane, te ogromnu nekropolu sa više hiljada grobova različitih vera i običaja. Ta nekropola danas je jedan od najznačajnijih izvora za poznavanje života u rimskim podunavskim provincijama — u njoj počivaju vojnici, trgovci, zanatlije, žene i deca svih porekala koje je carstvo skupilo na svojoj granici."
+    },
+    {
+      "type": "paragraph",
+      "text": "Treći veliki grad bio je Naissus, današnji Niš, smešten na važnom raskršću puteva koji su povezivali Egejsko more sa Dunavom i Italiju sa Carigradom. Naissus je vremenom postajao sve značajniji, naročito u poznoj antici, kada je u njemu rođen car Konstantin Veliki — o čemu ćemo posebno govoriti u narednim lekcijama. U njegovom predgrađu, na lokalitetu danas poznatom kao Mediana, podignut je raskošan carski kompleks sa vilom, hramovima i privrednim zgradama, koji je služio kao povremena rezidencija careva u četvrtom veku. Naissus pokazuje kako se neki rimski grad mogao iz obične garnizonske varoši postepeno uzdići do mesta od carskog značaja."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Mreža varoši i izgled rimskog grada"
+    },
+    {
+      "type": "paragraph",
+      "text": "Pored ova tri imena, na tlu današnje Srbije postojala je čitava mreža manjih gradova. Sirmijum, kod današnje Sremske Mitrovice, bio je jedan od najvažnijih centara čitavog carstva i kasnije jedna od četiri prestonice tetrarhije — njemu ćemo posvetiti zasebnu lekciju. Margum je čuvao ušće Morave u Dunav; Horreum Margi, na mestu današnje Ćuprije, bio je važno žitno stovarište, kako mu i ime govori. U Galerijevo doba, na istoku, izgrađena je palata Felix Romuliana kod današnjeg Gamzigrada — i o njoj će biti više reči kasnije. Daleko na jugu, u današnjem Kosovu, ležala je Ulpijana, podignuta verovatno za vladavine cara Trajana. Sve te varoši bile su povezane kvalitetnim drumovima i činile su jedinstven sistem."
+    },
+    {
+      "type": "paragraph",
+      "text": "Kako je izgledao tipičan rimski grad ovde? U osnovi je ležao pravougaoni plan, sa dve glavne ulice koje se seku pod pravim uglom — kardo u smeru sever–jug i dekuman u smeru istok–zapad. U njihovom preseku nalazio se forum, glavni trg sa hramovima, javnim natpisima i bazilikom, dugačkom zgradom u kojoj se delila pravda i obavljali poslovi. Tu su bili i javni vodovod sa kamenim akveduktom koji je dovodio vodu sa udaljenih izvora, javna kupatila u kojima se okupljao deo društvenog života, te amfiteatar ili teatar na obodu grada. Sve je bilo opasano bedemima, a groblja su, po rimskom zakonu, ležala van zidina, najčešće duž puteva koji su iz grada vodili."
+    },
+    {
+      "type": "paragraph",
+      "text": "Stanovništvo tih gradova bilo je raznoliko. Bilo je doseljenih rimskih kolonista iz Italije i drugih provincija, romanizovanih lokalnih ljudi — potomaka starih ilirskih, tračkih i keltskih zajednica — pa vojnika, trgovaca, zanatlija i robova. Jezik uprave i vojske bio je latinski, ali se grčki, kao jezik trgovine i kulture istočnog Sredozemlja, ovde takođe dobro razumeo, naročito u istočnim delovima provincija. Verovanja su bila pomešana: stari rimski bogovi, lokalni kultovi, istočne misterije i, vremenom, hrišćanstvo."
+    },
+    {
+      "type": "paragraph",
+      "text": "Najtrajnija ostavština ovih gradova ipak nije ostala u pojedinačnim zdanjima — od kojih je vreme malo šta sačuvalo nad zemljom — nego u samoj činjenici da je urbani život uopšte stigao u ove krajeve. Pre Rimljana, na tlu današnje Srbije nije bilo pravih gradova u smislu kakav antika podrazumeva: planiranih, kamenih, sa javnim institucijama. Rim je tu doneo — i ostavio. Ulice današnjeg Beograda u Donjem gradu, deo Niša oko Tvrđave, središte Sremske Mitrovice — sve to još uvek nosi trag rimskog rastera. Carstvo je davno propalo, ali obrisi njegovih gradova još su vidljivi, kao slabi crteži ispod kasnijih boja."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

@@ -6,13 +6,49 @@
   "dayNumber": 81,
   "order": 3,
   "title": "Sebri i zavisni ljudi",
+  "subtitle": "Široki sloj zavisnih seljaka, slugu i stočara koji je nosio srednjovekovnu Srbiju, a o sebi ostavio jedva koji red",
   "readingTimeMinutes": 7,
   "year": 1300,
-  "isPlaceholder": true,
+  "dateLabel": "13–14. vek",
+  "timelinePosition": "13–14. vek",
+  "summary": "Meropsi, sokalnici, otroci i Vlasi — društveni slojevi ispod vlastele, njihove obaveze, prava i mesto u poretku koji je Dušanov zakonik pokušao da obuzda.",
+  "keyPeople": [],
+  "keyPlaces": [],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Srednjovekovna Srbija pamti se po kraljevima, episkopima i ktitorima čija su imena urezana u zidove zadužbina. Ali ti zidovi su sazidani tuđim rukama, a hrana koja je hranila dvor i manastir rasla je na njivama ljudi čija imena gotovo niko nije zapisao. Taj široki donji sloj zvao se jednim imenom — sebri. Pod tim imenom krio se ceo svet: oratai i pastiri, kućna posluga i mobilni stočari, ljudi koji su rođeni na zemlji jednog gospodara i na njoj umirali. O sebi su ostavili malo, a o njima znamo gotovo sve što znamo posredno — kroz povelje koje broje njihove obaveze i kroz zakone koji su pokušavali da ih zaštite ili obuzdaju."
+    },
+    {
+      "type": "paragraph",
+      "text": "Reč „sebar” u srpskim spomenicima označava običnog čoveka, neplemića, najčešće zemljoradnika. Ona stoji nasuprot vlasteli iznad i nasuprot malobrojnim otrocima ispod. Najveći deo sebra činili su meropsi — zavisni seljaci koji su obrađivali zemlju nekog gospodara, bio on kralj, manastir ili vlastelin. Meropah nije bio rob; imao je sopstveno domaćinstvo, sopstvenu stoku, ponekad i sopstveni vinograd, ali zemlja na kojoj je sedeo nije bila njegova. Za pravo da je koristi plaćao je gospodaru u tri oblika: u radu na njegovom imanju, u delu žita i drugih plodova, i u sitnijim dažbinama u sireu, vunenoj robi ili gvožđu. Vezanost za zemlju bila je glavno pravilo — meropah se mogao seliti samo pod tačno propisanim uslovima, najčešće kroz zamenu, otkup ili posebnu dozvolu gospodara."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pored meropaha postojali su i drugi, uže određeni slojevi. Sokalnici su bili kućna posluga vlastelinskog dvora — ljudi koji su služili u kuhinji, oko stoke, oko gospodarevog domaćinstva, i koji su živeli u senci njegove kuće pre nego u sopstvenom selu. Otroci su činili posebnu, malu skupinu pravih neslobodnih ljudi, najčešće zarobljenika iz ratova ili potomaka ranijih robova. Njihov položaj nije bio sjajan, ali ni neograničen: pod uticajem vizantijskog prava i crkvene pouke, ropstvo u srpskim zemljama bilo je obuzdano, a Dušanov zakonik unosi pravila koja regulišu kako se otroci smeju kupovati, prodavati i, ponekad, oslobađati. U svakodnevnom radu razlika između otroka i siromašnog meropha možda nije uvek bila velika, ali u pravu je postojala."
+    },
+    {
+      "type": "paragraph",
+      "text": "Posebnu kategoriju činili su Vlasi. Pod tim imenom srednjovekovni izvori najčešće podrazumevaju mobilne stočare romanskog porekla — potomke balkanskog romanskog stanovništva koje je opstalo u planinama posle slovenskih doseljavanja. Vlasi su živeli u katunima, pokretnim pastirskim naseljima koja su leti vodila stada visoko u planinu, a zimi se spuštala u niže predele. Oni nisu obrađivali zemlju kao meropsi i nisu mogli biti obuhvaćeni istim pravnim okvirom; imali su sopstvene starešine, sopstvene dažbine — najčešće u stoci, vunenoj robi i siru — i sopstvene vojne dužnosti, jer su poznavali planinske puteve i mogli da prate karavane. Njihova posebnost bila je toliko jasna da je Dušanov zakonik na nekoliko mesta odvojeno propisivao njihov pravni status, pokušavajući da očuva razdvojen poredak — ne iz prezira, već iz administrativne tačnosti."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Šta je zakon štitio, a šta život nije"
+    },
+    {
+      "type": "paragraph",
+      "text": "Život običnog sebra bio je, po današnjim merilima, težak. Većina sela bila je samoupravna pod sopstvenim županom ili starešinom; glavno okupljanje izvan kuće bila je parohijska crkva, koja je i krštavala, i venčavala, i sahranjivala, i posredno učila pismenosti. Radna godina ređala se po crkvenim praznicima i poljskim poslovima — oranju, kosidbi, žetvi, berbi. Pored rada na sopstvenoj njivi, meropah je imao i obavezu rabote, prinudnog rada na gospodarevom imanju, koja je u nekim poveljama merena tačnim brojem dana u godini. Za uzvrat se očekivala zaštita: od razbojnika, od stranih upada, od zlostavljanja drugih moćnika. Ta zaštita je, kada je bila stvarna, ozbiljno menjala život na bolje; kada je izostajala, ostajao je samo običaj koji je teško mogao da zaustavi naoružanog čoveka."
+    },
+    {
+      "type": "paragraph",
+      "text": "Upravo zato je Dušanov zakonik, donet sredinom 14. veka, neobičan dokument. Iako ga je pisala vlastela za potrebe carske države, on na više mesta izričito štiti sebra od silništva. Vlastelin ne sme ubiti ni osakatiti sebra bez suda; ne sme mu uzeti poslednje žito ni poslednjeg konja, jer su to sredstva preživljavanja; seljak ima pravo da svoju žalbu iznese pred više sudije i, ako je obman, da traži ispravku. Najpoznatiji je član koji kaže da naredba samog cara, ako je iznuđena u gnevu ili pristrasnosti, nije obavezujuća — izvanredna odredba koja čak i vladara stavlja pod meru zakona. Takve rečenice ne treba čitati naivno: one opisuju red kakav je zakonodavac želeo, a ne nužno stvarnost koju je seljak živeo."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pa ipak, kada se uporedi sa nekim zapadnoevropskim društvima istog doba, srpski feudalni poredak deluje primetno bolje regulisan na papiru. Postojanje pisanih zaštita, makar i često kršenih, ostavljalo je sebrima nešto što mnogi njihovi savremenici nisu imali — okvir u kome su mogli da traže pravdu, čak i protiv moćnika. U svakodnevnom životu, naravno, mnogo je više zavisilo od dobrog ili lošeg gospodara, od urodice, od mira ili rata, nego od slova zakonika. Sebar je hranio dvor, branio među, kopao temelje manastira i punio vojsku kada se zatraži. O sebi je ćutao, jer pisanje nije bilo njegov posao. Ako mu danas damo glas, treba ga dati skromno: ne kao herojima, ni kao žrtvama, već kao širokom temelju države koji se vekovima nije pomerao, i bez koga se nijedna kruna ne bi održala."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

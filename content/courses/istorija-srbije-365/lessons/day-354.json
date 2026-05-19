@@ -6,13 +6,49 @@
   "dayNumber": 354,
   "order": 5,
   "title": "Nezavisnost Crne Gore",
+  "subtitle": "Referendum 21. maja 2006. i kraj poslednje državne zajednice u kojoj se Srbija nalazila od 1918.",
   "readingTimeMinutes": 6,
   "year": 2006,
-  "isPlaceholder": true,
+  "dateLabel": "21. maj 2006.",
+  "timelinePosition": "21. maj 2006.",
+  "summary": "Crnogorski referendum 21. maja 2006. doneo je oko 55,5 odsto glasova za nezavisnost — tek iznad evropskog praga od 55 odsto — i okončao državnu zajednicu Srbije i Crne Gore.",
+  "keyPeople": ["Milo Đukanović", "Predrag Bulatović", "Filip Vujanović", "Javier Solana", "Miroslav Lajčák"],
+  "keyPlaces": ["Podgorica", "Cetinje", "Beograd", "Brisel"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Kada su 21. maja 2006. godine birališta u Crnoj Gori zatvorena, malo je ko mogao odmah da kaže da li je nezavisnost prešla prag ili je za nekoliko hiljada glasova ostala ispod njega. Pitanje je bilo kratko — da li građani Crne Gore žele da Republika Crna Gora bude nezavisna država sa punim međunarodno-pravnim subjektivitetom — ali pravila glasanja bila su neobična. Evropska unija, koja je preko svog izaslanika Miroslava Lajčáka nadgledala proces, postavila je dvostruki uslov: izlaznost najmanje 50 odsto i 55 odsto glasova „za” među onima koji izađu. Tek tako, smatralo se u Briselu, rezultat će imati nesporan međunarodni legitimitet i neće moći da se ospori kao tesno preglasavanje."
+    },
+    {
+      "type": "paragraph",
+      "text": "Prag od 55 odsto bio je viši od običnog većinskog pravila i izazvao je negodovanje crnogorskog vladajućeg bloka, koji se zalagao za nezavisnost. Sa druge strane, unionistički blok — koji je tražio očuvanje državne zajednice sa Srbijom — smatrao je prag premalim i zahtevao je da o tako važnom pitanju odluči kvalifikovana većina u celom biračkom telu, uključujući i Crnogorce koji žive u Srbiji. Kompromis koji je Lajčák izneo prihvaćen je tek posle dugih pregovora i bio je presedan: po prvi put je Unija praktično dala formulu za odvajanje jedne članice federacije, a sam prag postao je merilo o kome će se kasnije raspravljati u drugim sličnim slučajevima."
+    },
+    {
+      "type": "paragraph",
+      "text": "Politička podela u Crnoj Gori uoči glasanja nije bila samo stranačka. Iza pro-nezavisnog bloka, koji je vodio dugogodišnji premijer Milo Đukanović, stajala je koalicija njegove Demokratske partije socijalista i manjih partnera, uz podršku većine albanskih, bošnjačkih i muslimanskih glasača. Iza unionističkog bloka, koji je predvodio Predrag Bulatović sa Socijalističkom narodnom partijom i savezničkim strankama, stajao je dobar deo onih koji su sebe popisivali kao Srbe, kao i pravoslavna crkvena javnost vezana za Srpsku pravoslavnu crkvu. Linija razdvajanja u velikoj meri pratila je samodeklaraciju — Crnogorac ili Srbin — ali nije bila pravolinijska: među Crnogorcima je bilo unionista, kao i pro-nezavisnih Srba. Bila je to pre svega podela u poimanju države i njenog odnosa prema Beogradu."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Noć tankih razlika"
+    },
+    {
+      "type": "paragraph",
+      "text": "Izlaznost je bila visoka — preko 86 odsto upisanih birača — što je odmah uklonilo prvu evropsku prepreku. Drugu, prag od 55 odsto, čekalo se kroz noć. Centralna komisija je tek narednih dana, posle prebrojavanja i prigovora, saopštila konačan rezultat: za nezavisnost je glasalo približno 55,5 odsto izašlih, što je značilo da je prag prebačen za nešto više od pola procentnog poena, odnosno za nekoliko hiljada glasova. Razlika je bila tako tanka da su unionisti tražili ponovno brojanje u nekoliko mesta, ali je Lajčák, kao međunarodni administrator referendumskog procesa, već 23. maja objavio da je referendum uspeo. Tom izjavom presečena su politička osporavanja; rezultat je ušao u sferu izvršenog pravnog čina."
+    },
+    {
+      "type": "paragraph",
+      "text": "Crnogorska Skupština formalno je 3. juna 2006. proglasila nezavisnost. Bio je to miran, gotovo proceduralan trenutak — bez vojske na ulicama, bez nereda, sa svečanom sednicom u Podgorici i odmerenim reakcijama u Beogradu. Već 5. juna Narodna skupština Republike Srbije konstatovala je prestanak državne zajednice i proglasila Republiku Srbiju pravnim sledbenikom Srbije i Crne Gore — što je značilo da Srbija nasleđuje članstvo u Ujedinjenim nacijama, u Savetu Evrope i u drugim međunarodnim telima, dok Crna Gora kreće u proces sopstvenog prijema. U narednim nedeljama Crnu Goru su priznale ključne države — najpre Rusija, zatim Sjedinjene Države, Evropska unija, Kina i komšije — a 28. juna primljena je u Ujedinjene nacije kao 192. članica."
+    },
+    {
+      "type": "paragraph",
+      "text": "Za Srbiju je 5. jun 2006. imao i jedno simboličko značenje koje političari toga časa nisu mnogo isticali. Završila se poslednja u nizu državnih zajednica u kojima se srpska država nalazila počev od 1918. — Kraljevine Srba, Hrvata i Slovenaca, Kraljevine Jugoslavije, socijalističke Jugoslavije, Savezne Republike Jugoslavije i, na kraju, Državne zajednice Srbije i Crne Gore. Posle osam i po decenija, Srbija je ponovo bila samostalna država u svojim međunarodno priznatim granicama, prvi put od ujedinjenja iz prošlog veka. Ta činjenica primljena je u javnosti mirno, gotovo bez emocija — možda zato što je sam raspad bio postepen, a možda i zato što je razdvajanje sa Crnom Gorom dolazilo posle mnogo težih lomova devedesetih."
+    },
+    {
+      "type": "paragraph",
+      "text": "Prelazak je tekao uredno. Granica je ostala otvorena, dvojno državljanstvo je u praksi tolerisano, ekonomske veze su nastavljene gotovo bez prekida. Crna Gora je zadržala evro kao zvaničnu valutu — odluku koju je donela još 2002. — i ubrzano krenula putem evroatlantskih integracija. Ostalo je, međutim, mnogo otvorenih pitanja koja referendum nije rešio: status Srpske pravoslavne crkve u novoj državi, raspodela imovine državne zajednice, identitetske napetosti unutar samog crnogorskog društva. Sam glas birača bio je, kako su istoričari kasnije pošteno beležili, presečen gotovo na pola — i upravo zato je obavezivao obe strane da ono što sledi grade odmereno, bez pobedničke gordosti i bez gubitničke ozlojeđenosti."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

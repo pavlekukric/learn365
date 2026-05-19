@@ -6,13 +6,57 @@
   "dayNumber": 206,
   "order": 11,
   "title": "Ustanička Srbija — država u nastajanju",
+  "subtitle": "Kako je između 1804. i 1813. iz ustanka iznikla prva srpska država posle više od tri veka — krhka, ali stvarna",
   "readingTimeMinutes": 8,
   "year": 1808,
-  "isPlaceholder": true,
+  "dateLabel": "1804–1813.",
+  "timelinePosition": "1804–1813.",
+  "summary": "Između 1808. i 1812. ustanička Srbija je prerasla u funkcionalnu protodržavu: vožd, sovjet, popečitelji, vojvode po nahijama, sopstvena diplomatija i prve škole — sve to izgrađeno usred neprekidnog rata.",
+  "keyPeople": ["Karađorđe", "Dositej Obradović", "Mladen Milovanović", "Jakov Nenadović", "Mateja Nenadović"],
+  "keyPlaces": ["Beograd", "Topola", "Smederevo", "Petrograd", "Beč"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Kada se ustanak iz proleća 1804. otrgao kontroli dahija, niko nije znao šta će od te pobune nastati. Bila je to seljačka oružana akcija, vođena većinom od ljudi koji nikada nisu upravljali ničim većim od svog sela ili svoje hajdučke čete. A ipak, manje od pet godina kasnije, na prostoru koji je još donedavno bio Beogradski pašaluk postojalo je nešto što se može nazvati samo jednim imenom — država. Bila je gruba, siromašna, opkoljena i u svakom trenutku ugrožena, ali je imala vožda, vladu, narodnu skupštinu, vojsku, sudove, poslanike u stranim prestonicama i prve sopstvene škole. Bila je to prva srpska država posle pada Smedereva 1459. godine."
+    },
+    {
+      "type": "paragraph",
+      "text": "Teritorija te ustaničke Srbije menjala se iz godine u godinu, ali je u vrhuncu, oko 1810. i 1811, obuhvatala najveći deo nekadašnjeg Beogradskog pašaluka, prodore u istočnu Srbiju do Timoka, delove Sandžaka i povremeno područje oko Niša. Procene stanovništva variraju — najčešće se navodi raspon od oko milion do milion i po duša — ali se istoričari slažu da se radilo o području dovoljno velikom i dovoljno gusto naseljenom da iznese ozbiljan državni aparat. Granice su bile pokretne i krvave; svaka kampanja ih je pomerala, svaki neuspeh ih je vraćao."
+    },
+    {
+      "type": "paragraph",
+      "text": "Na vrhu te zajednice stajao je Karađorđe Petrović — vožd, vrhovni vođa ustanka. Skupština iz 1808. godine priznala mu je vrhovnu vlast kao naslednu, što je bio odlučan korak ka monarhijskom uređenju, iako su sami akteri taj potez razumevali pre kao učvršćivanje jedinstva nego kao osnivanje dinastije. Pored vožda postojao je Praviteljstvujušči sovjet, telo koje je istovremeno bilo vlada, vrhovni sud i zakonodavna komisija. Sovjet je nastao već 1805, a do 1811. postao je staloženija ustanova sa stalnim sedištem u Beogradu, koji je 1807. konačno pao u ustaničke ruke. Pored sovjeta, povremeno se sazivala i narodna skupština — širi sabor narodnih predstavnika, koji je u krupnim odlukama davao legitimitet."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Ustrojstvo iz 1811. godine"
+    },
+    {
+      "type": "paragraph",
+      "text": "Najbliže onome što bismo danas nazvali ustavnim okvirom jeste uređenje koje je dogovoreno 1811. godine. Tim aktom je Karađorđe potvrđen kao vožd sa naslednim pravima, a uz njega je obrazovano šest popečiteljstava — neke vrste protoministarstava. Svako je imalo svog popečitelja: Dositej Obradović vodio je popečiteljstvo prosvete, Mladen Milovanović vojne i unutrašnje poslove, Jakov Nenadović policiju, a posebna popečiteljstva pokrivala su pravosuđe, finansije i inostrane poslove. Sovjet je dobio jasniju ulogu kao kolektivno telo vlasti, a skupština ostala kao širi savetodavni organ. Bilo je to, u dahu jedne godine, više državnog uređenja nego što su srpske zemlje pod Osmanlijama videle kroz čitav prethodni vek."
+    },
+    {
+      "type": "paragraph",
+      "text": "Na nižim nivoima vlast su nosile vojvode po nahijama — vojni i upravni starešine pojedinih oblasti — i tradicionalni seoski knezovi. Sudstvo je radilo na tri sprata: u selu, na nahiji i pred sovjetom. Prava je bilo malo, izvora prava više — ostaci osmanskog običajnog reda, staro srpsko pravno predanje, i novi propisi koje je sovjet izdavao po potrebi. Sve to skupa nije bilo uredno, ali jeste bilo prepoznatljivo kao pravosudni sistem."
+    },
+    {
+      "type": "paragraph",
+      "text": "Spolja, ustanička Srbija je počela da se ponaša kao subjekt. Slala je svoje predstavnike u Petrograd, Beč, kneževine Vlašku i Moldaviju, a povremeno i u Crnu Goru. Najvažniji oslonac bila je Rusija, naročito u vreme Rusko-turskog rata između 1806. i 1812: odatle su stizale subvencije, savetnici i oružje. Beč je držao tihu, oprezno blagonaklonu poziciju — preko granice se trgovalo, preko granice se kretalo i oružje, ali zvanično Habzburška monarhija nije htela da se zameri Porti. Sopstvenih novčanica ili kovanog srpskog novca nije bilo; u opticaju su ostali turski groševi, talir i sitan habzburški novac, što je samo po sebi pokazivalo koliko je mlada država još uvek zavisila od tuđih privrednih krugova."
+    },
+    {
+      "type": "paragraph",
+      "text": "Vojska je bila pretežno narodna — masovna seljačka milicija koja se sazivala po potrebi — uz manji broj stalnih jedinica oko vožda i većih vojvoda. Komandanti su uglavnom dolazili iz dva sloja: nekadašnjih hajduka i veterana austrijskih frajkora iz rata 1788–1791, što je donelo dragoceno iskustvo. Naoružanje je bilo mešavina plena oduzetog Osmanlijama, oružja prokrijumčarenog iz Habzburške monarhije i domaće izrade u skromnim radionicama. Pored vojske, počele su da rade i prve škole u oslobođenoj zemlji; vrhunac tog napora biće osnivanje Velike škole u Beogradu 1808. godine, o kojoj će biti više reči u nastavku."
+    },
+    {
+      "type": "paragraph",
+      "text": "Crkva je bila u osetljivom položaju. Pećka patrijaršija je formalno ukinuta još 1766, pa su episkopije na ustaničkoj teritoriji ostale bez sopstvene crkvene glave; vlast je popunjavala ispražnjena mesta lokalno, a pregovori o obnovi crkvene samostalnosti tek su počinjali. U svakodnevnom životu, ipak, vraćanje pravoslavnog reda osećalo se snažno — zvona koja su pod Osmanlijama bila ograničena ponovo su zvonila, pravoslavni kalendar postao je javni okvir vremena, a hrišćanske ustanove — krštenje, brak, sahrana, praznik — vratile su se u središte zajedničkog života. Mnogi seljaci su prvi put u životu iskusili da pred njihovom kućom ne stoji spahija ni subaša."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sve to, naravno, nije bilo bez napuklina. Karađorđe je teško podnosio kolektivno odlučivanje sovjeta i često se sukobljavao sa moćnim vojvodama koji su u svojim nahijama vladali kao mali kneževi. Porez je bio nesiguran, neprekidan rat trošio je ljude i žita, neki krajevi su bili opustošeni, a sve je počivalo na ruskoj podršci koja je, u suštini, zavisila od jednog poteza pera u Petrogradu. Kada je Rusija u proleće 1812. zaključila mir s Portom u Bukureštu, ustanička Srbija je ostala bez glavnog spoljnog oslonca. Naredne lekcije pratiće šta se posle toga dogodilo. Ali ono što je između 1808. i 1812. postojalo, postojalo je stvarno: krhka, nesavršena, ali prva moderna srpska država — i prvi dokaz da je takvo nešto, posle tri i po veka, uopšte moguće."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

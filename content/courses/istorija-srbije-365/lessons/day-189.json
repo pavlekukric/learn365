@@ -6,13 +6,57 @@
   "dayNumber": 189,
   "order": 4,
   "title": "Dahije i bezvlašće",
+  "subtitle": "Kako je Beogradski pašaluk između 1801. i 1804. pao pod vlast četvorice janičarskih starešina i tonuo u nasilje",
   "readingTimeMinutes": 8,
   "year": 1801,
-  "isPlaceholder": true,
+  "dateLabel": "oko 1801–1804.",
+  "timelinePosition": "1801–1804.",
+  "summary": "Janičarski povratak u Beogradski pašaluk, ubistvo Hadži Mustafa-paše i tri godine vlasti četvorice dahija — Kučuk Alije, Mule Jusufa, Aganlije i Mehmed-age Fočića — kao neposredni okvir iz kojeg će se roditi Prvi srpski ustanak.",
+  "keyPeople": ["Kučuk Alija", "Mula Jusuf", "Aganlija", "Mehmed-aga Fočić", "Hadži Mustafa-paša", "Selim III", "Karađorđe"],
+  "keyPlaces": ["Beograd", "Beogradski pašaluk", "Šumadija", "Carigrad"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Na samom početku devetnaestog veka Beogradski pašaluk je naizgled bio isto što i pre — jedna od mnogih osmanskih oblasti na evropskoj strani carstva, sa pašom u Beogradu, kadijama po varošima, knezovima po selima i hrišćanskom rajom koja plaća porez i obrađuje zemlju. Ali iza te slike, između 1801. i 1804, dogodilo se nešto što savremenici nisu znali kako drukčije da nazovu nego bezvlašćem. Sultan u Carigradu nominalno je vladao, a stvarnu vlast držala su četvorica janičarskih starešina koje će istorija zapamtiti pod jednim imenom — dahije."
+    },
+    {
+      "type": "paragraph",
+      "text": "Da bi se razumeo njihov dolazak, mora se vratiti za jedno desetleće unazad. Janičari su iz Beogradskog pašaluka bili oterani 1791, posle dugog niza pljački i samovolje koje su uznemiravale i samog sultana. Vlast je u Beogradu preuzeo Hadži Mustafa-paša, čovek strpljive ruke, o kome je raja govorila čak i sa naklonošću — toliko da mu je u narodnom pamćenju ostao nadimak srpska majka. Pod njim je srpski svet pašaluka dobio ograničenu samoupravu: knezovi su skupljali porez, sudili u manjim sporovima i, što je posebno važno, smeli su da nose oružje radi odbrane od hajdučije i graničnih upada. Bio je to krhak, ali stvaran poredak."
+    },
+    {
+      "type": "paragraph",
+      "text": "Carstvo je tada vodilo dugu i tešku borbu sa unutrašnjim neredima. Sultan Selim III pokušavao je reforme koje su mu pravile neprijatelje u samom janičarskom redu, dok su mu na granicama pretili Pazvan-Oglu iz Vidina i drugi pobunjeni paše. U toj nuždi, Selim je 1799. nerado dopustio da se janičari vrate u Beogradski pašaluk — računajući da će ih sada moći upotrebiti protiv vidinskog pobunjenika. Bila je to mera koju je on sam smatrao privremenom, a koja se vrlo brzo izmakla kontroli. Vraćeni janičari, prekaljeni i ogorčeni godinama izgnanstva, brzo su se okupili oko nekolicine vođa i 1801. ubili Hadži Mustafa-pašu u beogradskoj tvrđavi. Od tog časa formalna sultanova vlast u pašaluku bila je prazna ljuska."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Vlast četvorice"
+    },
+    {
+      "type": "paragraph",
+      "text": "Stvarnu upravu preuzeli su Kučuk Alija, Mula Jusuf, Aganlija i Mehmed-aga Fočić — četvorica janičarskih komandanata koje su Srbi i savremeni austrijski izveštaji jedinstveno nazivali dahijama. Reč „dahija” bila je janičarska titula za starešinu, ali se kroz ove godine pretvorila u sinonim za samovolju. Vladali su kao hunta: pašaluk su podelili na oblasti, držali ključne tvrđave i prelaze, ubirali namete mimo svake sultanove uredbe i sami sebe potvrđivali u činovima. Iz Carigrada su stizale formalne naredbe koje su oni primali, čitali i — kada im je odgovaralo — ignorisali. Selim III pokušavao je posredne mere, slao pisma, pretio, nudio izmirenje, ali bez prave snage da ih zaista smeni."
+    },
+    {
+      "type": "paragraph",
+      "text": "Za srpsko stanovništvo pašaluka nastupilo je vreme koje će u sećanju nekoliko pokoljenja ostati kao najteže pod osmanskom vlašću u živom pamćenju. Skinuto je gotovo sve što je pod Hadži Mustafa-pašom bilo izvojevano. Knezovima je oduzimano oružje i ugled, nameti su rasli mimo zakona, a često se uopšte nisu ni pravdali. Hroničari, srpski i austrijski, beleže iste stvari sa različitih strana — otimanje stoke i useva, paljenje kuća, ubistva bez suda, nasilje nad ženama, zatvaranje i mučenje seoskih prvaka. Po selima Šumadije, Pomoravlja i Mačve dahijski subaše ponašali su se kao gospodari nad životom i smrću."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ni domaći muslimanski svet pašaluka nije bio pošteđen. Stari beogradski Turci — činovnici, trgovci, zanatlije, posednici koji su sa rajom živeli vekovima u istom gradu — gledali su kako im janičarska samovolja ruši trgovinu, ugrožava imovinu i obesmišljava sultanovu vlast u koju su se zaklinjali. Otuda je u tim godinama nicala neobična, na prvi pogled paradoksalna pojava: deo Turaka pašaluka tiho je saosećao sa srpskim tegobama, jer su i sami trpeli istog gospodara. Buna koja će se uskoro roditi neće zato biti čista verska vatra hrišćana protiv muslimana, nego, u prvom svom času, šira pobuna pašaluka protiv dahijske vlasti."
+    },
+    {
+      "type": "paragraph",
+      "text": "U toj atmosferi rastao je i ugled jednog čoveka iz Šumadije — Đorđa Petrovića, koga su zvali Karađorđe. Bio je bivši frajkor iz austrijske vojske, sada uspešan trgovac svinjama, čovek tvrd na reči i strog prema sebi. Nije bio knez, nije bio glavešina, ali su mu se susedi obraćali kada su tražili nekog ko zna i pušku i pregovor. Dahije su o njemu, kao i o drugim viđenim ljudima sa sela, znale — i njihovo nepoverenje raslo je sa svakim mesecom. Krajem 1803, do njihovih ušiju počele su da stižu vesti, deo tačne, deo pretpostavljene, da se po pašaluku tiho dogovara otpor."
+    },
+    {
+      "type": "paragraph",
+      "text": "Procena dahija bila je hladna i opasna. Ako srpski knezovi i viđeniji ljudi zaista pripremaju ustanak, najsigurnije je preduhitriti ih — pohvatati, pobiti, presekati glavu pokretu pre nego što se podigne. Tu odluku doneli su na zimu 1803/1804, a izvršenje će uslediti u prvim nedeljama nove godine. Taj događaj, poznat u narodu i u istoriji kao seča knezova, biće tema sledeće lekcije; ovde je dovoljno reći da on nije bio iznenadan ispad, nego logičan ishod tri godine vlasti koja je sebe sama dovela u ćorsokak."
+    },
+    {
+      "type": "paragraph",
+      "text": "Treba biti pošten i prema istorijskoj slici. Dahije nisu bile mit izmišljen radi opravdanja ustanka — one su stvarna, dokumentovana pojava, posvedočena u savremenim austrijskim diplomatskim izveštajima, u sećanjima ustaničkih prvaka i u širokoj narodnoj pesmi koja je o njima sačuvala možda i više nego što je hronika smela. Ali ne treba ni preneti njihovu krivicu na sve Turke pašaluka, niti od svake nesreće tih godina napraviti zaslugu samo četvorice ljudi. Dahije su bile vrh jedne lokalne, oružane, neobuzdane vlasti koja je nastala u trenutku kada je veliko carstvo bilo preslabo da sebe drži u redu — i kada je raja, posle kratkog daha pod Hadži Mustafa-pašom, ostala bez ijedne pravne zaštite. U toj praznini, ustanak je prestao da bude opcija i postao jedini izlaz koji su ljudi mogli da zamisle."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

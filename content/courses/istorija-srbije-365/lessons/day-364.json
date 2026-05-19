@@ -6,13 +6,49 @@
   "dayNumber": 364,
   "order": 15,
   "title": "Kako kritički misliti o istoriji",
+  "subtitle": "Razlika između činjenice, tumačenja i mita — i zašto je iskrena nesigurnost znak ozbiljnosti, a ne slabosti.",
   "readingTimeMinutes": 8,
   "year": 2025,
-  "isPlaceholder": true,
+  "dateLabel": "pregled",
+  "timelinePosition": "pregled",
+  "summary": "Kratak metodološki vodič kroz istorijsko mišljenje: činjenica, tumačenje i mit, primarni i sekundarni izvori, više perspektiva, najčešće zamke i vrednost iskrene nesigurnosti.",
+  "keyPeople": [],
+  "keyPlaces": [],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Posle tri stotine šezdeset i tri lekcije u kojima smo gledali događaje, vladare, ratove, knjige i ulice, vredi na kraju zastati i postaviti jedno drugačije pitanje — ne šta se dogodilo, nego kako uopšte znamo to što mislimo da znamo. Istorija nije spisak gotovih odgovora koje treba zapamtiti. Ona je, pre svega, način razmišljanja: pažljivo, sa svešću o izvorima, o granicama sopstvenog položaja i o tome koliko je prošlost po pravilu složenija nego što izgleda na prvi pogled."
+    },
+    {
+      "type": "paragraph",
+      "text": "Prvi i najvažniji alat tog mišljenja jeste razlikovanje tri vrste tvrdnji koje se u svakodnevnom govoru lako mešaju. Činjenica je nešto za šta postoji jaka dokumentacija — datum bitke, tekst zakona, sačuvana povelja, popisani podaci. Da je Stefan Prvovenčani 1217. dobio krunu iz Rima — to je činjenica. Tumačenje je odgovor na pitanje šta neki događaj znači, zašto se desio, kakve je posledice imao; tumačenja se menjaju, sporenja oko njih traju i među najboljim istoričarima, i to je sasvim normalno. Mit je, pak, priča koja u zajednici ima funkciju — okuplja je, daje joj samopouzdanje ili pravdu — bez obzira na to koliko je tačna. Sva tri sloja postoje u svakoj nacionalnoj istoriji; problem nastaje kada se mit predstavi kao činjenica, ili kada se tumačenje pomeša sa potvrđenim podatkom."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Izvori, perspektive i zamke"
+    },
+    {
+      "type": "paragraph",
+      "text": "Sve što znamo o prošlosti znamo preko izvora — i o izvorima vredi razmišljati hladno. Primarni izvori su oni nastali u vremenu o kojem govore: povelje, pisma, zapisnici, hronike savremenika, novinski izveštaji, fotografije, audio i video snimci. Sekundarni izvori su kasnija dela koja te primarne izvore tumače i sklapaju u priču — naučne studije, udžbenici, ova lekcija. Oba sloja su potrebna, ali oba se moraju čitati sa pitanjima: ko je ovo napisao, kada, za koga, šta je dobijao ili gubio time što baš tako prikazuje stvari? Srednjovekovni hroničar nije bio nepristrasan novinar; ni današnji autor nije bezličan glas — i jedan i drugi imaju svoj jezik, svoju publiku i svoj ugao. To ne znači da im ne treba verovati. Znači da treba razumeti odakle govore."
+    },
+    {
+      "type": "paragraph",
+      "text": "Iz toga prirodno sledi vrednost više perspektiva. Isti događaj — recimo, jedna granica, jedna seoba, jedan ustanak — može se ispričati iz najmanje dva ugla, a često iz tri ili četiri. Beogradski paša i pobunjeni knez ne pamte isti dan na isti način. Habzburška kancelarija i pravoslavni mitropolit ne vide isti narod istim očima. Beograd i Zagreb, Beograd i Priština, Beograd i Skoplje — često imaju različita pamćenja istih godina. Razumeti sve te uglove ne znači odustati od svog; znači stići do potpunije slike. Istorija koja čuje samo jedan glas po pravilu nije istorija — ona je propaganda u istorijskom kostimu."
+    },
+    {
+      "type": "paragraph",
+      "text": "Postoji nekoliko zamki u koje istorijsko mišljenje često upada, i vredi ih nazvati po imenu. Prva je nacionalna pristrasnost — pretpostavka da je „naša” strana po pravilu bila u pravu, hrabra i napadnuta, dok je „druga” bila kriva. Stvarni ljudi su, na svim stranama, imali svoje razloge, svoje strahove i svoje greške. Druga je telos-greška: čitanje istorije unazad, kao da je sve što se desilo neminovno vodilo upravo do današnjeg stanja. Ljudi u prošlosti nisu znali kako će se završiti — pred njima su bila otvorena vrata. Treća je anahronizam: sud o prošlosti po današnjim merilima. Srednjovekovnog vladara nije pošteno meriti merilima modernog ustavnog poretka, ni seljanku iz osamnaestog veka merilima današnjeg pojma slobode. Razumeti vreme znači razumeti i u čemu se ono razlikuje od našeg. Četvrta zamka je prevelika sigurnost o davnoj prošlosti, posebno tamo gde su izvori retki — o praistoriji, o ranom srednjem veku, ali ponekad i o sasvim skorim događajima čiji su učesnici još živi i čija arhivska građa još nije otvorena."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sa tim u vezi ide još jedna stvar koju je teško prihvatiti, a koju vredi jasno reći: mnoge stvari ne znamo pouzdano, i to je u redu. Ne znamo tačno koliko je ljudi živelo u srednjovekovnoj Raškoj, ni od čega su tačno umrli pojedini vladari, ni koliko je bilo žrtava u nekim bitkama, ni šta je tačno rečeno u sobama u kojima nije bilo zapisničara. Iskreno reći „izvori ovde nisu jednoznačni” ili „o ovome i danas postoji ozbiljna stručna rasprava” nije znak slabosti, nego znak ozbiljnosti. Najgore istorije pišu oni koji su ni za šta nesigurni, a o svemu sigurni."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sve ovo na kraju vraća istoriju u njen pravi položaj. Ona nije muzej okamenjenih istina koje se uče napamet, niti je sirovi materijal za današnje političke rasprave. Ona je praksa pažljive misli — strpljivo upoređivanje izvora, slušanje različitih glasova, razlikovanje onoga što znamo od onoga što pretpostavljamo, i spremnost da se sopstveno mišljenje promeni kada se pojave novi podaci. Tako shvaćena, istorija prestaje da bude oružje i postaje alat: za razumevanje sveta u kome živimo, za razgovor sa susedima i sa precima, i za hladniju, mirniju, ali i dublju ljubav prema sopstvenoj zemlji. Sa tim alatom u rukama, spremni smo da se vratimo na sam početak — i da se, sutra, oprostimo od ove godine zajedničkog čitanja."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

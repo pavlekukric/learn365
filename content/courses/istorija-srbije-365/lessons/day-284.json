@@ -6,13 +6,49 @@
   "dayNumber": 284,
   "order": 4,
   "title": "Oslobođenje Stare Srbije i Makedonije",
+  "subtitle": "Posle Kumanova srpska vojska ulazi u Skoplje, Prizren i Bitolj — i izlazi na Jadran, odakle će morati nazad",
   "readingTimeMinutes": 8,
   "year": 1912,
-  "isPlaceholder": true,
+  "dateLabel": "1912–1913.",
+  "timelinePosition": "jesen 1912 — proleće 1913.",
+  "summary": "Posle pobede kod Kumanova srpska vojska u nekoliko nedelja oslobađa Staru Srbiju i veći deo Makedonije, izlazi na Jadran, ali se pod pritiskom velikih sila povlači — a u oslobođenim oblastima dolazi i do nasilja nad civilima koje su zabeležili strani posmatrači.",
+  "keyPeople": ["Radomir Putnik", "Petar Bojović", "Božidar Janković", "kralj Nikola Petrović"],
+  "keyPlaces": ["Skoplje", "Prizren", "Peć", "Đakovica", "Bitolj", "Ohrid", "Skadar", "Lješ", "London"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Bitka kod Kumanova nije bila kraj rata — bila je tek vrata. Posle dva dana borbe, 23. i 24. oktobra 1912, glavnina turske Vardarske armije bila je razbijena, a put ka jugu otvoren. Već 26. oktobra prethodnice srpske Prve armije ušle su u Skoplje, grad u kome srpska vojska nije bila više od pet vekova. Doček je u srpskoj štampi opisan rečima koje danas zvuče preterano svečano, ali tadašnji osećaj nije bilo lako preuveličati: za Beograd je to bio povratak u oblast za koju se godinama u školama i u crkvama učilo da je „stara srpska zemlja”."
+    },
+    {
+      "type": "paragraph",
+      "text": "Iz Skoplja je vojska krenula u dva pravca. Treća armija, pod komandom generala Božidara Jankovića, okrenula se zapadno, ka oblasti koju su tadašnji srpski izvori nazivali Starom Srbijom — kosovskom vilajetu i delu metohijskog. U razmaku od nekoliko nedelja oslobođeni su Prizren, Peć i Đakovica, gradovi u kojima je srpska crkva imala stara središta i u kojima je pravoslavno stanovništvo decenijama živelo pod teškim pritiskom. Druga i Prva armija nastavile su na jug, kroz Vardarsku Makedoniju, i susrele se sa novom turskom odbranom kod Bitolja. Tamo se 16, 17. i 18. novembra vodila teška, dvodnevna bitka — po obimu odmah iza Kumanova — koja je završena srpskom pobedom i ulaskom u grad 18. odnosno 19. novembra. Ubrzo posle Bitolja pao je i Ohrid, a srpske jedinice spojile su se sa grčkom vojskom koja je dolazila sa juga."
+    },
+    {
+      "type": "paragraph",
+      "text": "Dok su Prva i Druga armija stizale do makedonskih jezera, jedan deo Treće armije probijao se preko albanskih planina ka moru. Kroz teško prohodne klance, po snegu i kiši, srpske jedinice izbile su krajem novembra na jadransku obalu kod Lješa i Drača. Bio je to trenutak koji je u Beogradu zvanično tumačen kao ostvarenje stoletnog cilja — izlazak Srbije na more. Istovremeno je crnogorska vojska kralja Nikole opsedala Skadar, pokušavajući da i sa severa zatvori prsten oko poslednjih turskih uporišta u Evropi. Na papiru, savez balkanskih država srušio je tursku vlast u Evropi za nešto više od mesec dana."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "London odlučuje drugačije"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ono što je vojnički bilo postignuto, ubrzo je postalo predmet diplomatske prepravke. Austro-Ugarska nije mogla da prihvati da Srbija dobije izlaz na Jadran — to je za Beč značilo da na severozapadnom Balkanu raste država dovoljno jaka da bude ozbiljan rival. Italija je imala sopstvene račune na istočnoj obali Jadrana. Velike sile su krajem 1912. sazvale Konferenciju ambasadora u Londonu, koja je tokom zime i proleća 1913. donela ključne odluke o budućnosti Balkana. Najvažnija je bila ova: stvara se nezavisna albanska država, čije će granice obuhvatiti i deo teritorija koje su srpska i crnogorska vojska zauzele. Srbija je morala da povuče Treću armiju sa jadranske obale; Crna Gora je posle dugotrajne opsade morala da napusti Skadar, koji je pao u njene ruke aprila 1913. Bila je to gorka pouka — da pobeda na bojnom polju ne znači uvek i pobedu na karti."
+    },
+    {
+      "type": "paragraph",
+      "text": "Oblasti koje su ostale pod srpskom upravom — Stara Srbija i veći deo Vardarske Makedonije — bile su etnički složene mnogo više nego što je tadašnja javna reč u Beogradu htela da prizna. U gradovima i selima živeli su Srbi, Bugari, Grci, Vlasi, Albanci, Turci, kao i muslimansko slovensko stanovništvo. Ono što je u srpskoj prestonici doživljeno kao oslobođenje, drugim narodima bilo je nešto sasvim drugo: za albansko i muslimansko stanovništvo, naročito u Staroj Srbiji, dolazak srpske vlasti značio je smenu jednog poretka drugim, a često i strah od osvete za stvarno ili pripisano učešće u dotadašnjem režimu."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ovde valja reći i ono teško. U izveštajima stranih posmatrača — novinara, lekara Crvenog krsta, diplomata — koji su pratili balkanski rat, zabeleženi su slučajevi nasilja nad civilnim stanovništvom u oslobođenim oblastima. Najsistematičnije je to skupila tzv. Karnegijeva komisija, koja je 1913. obišla terene svih balkanskih armija i 1914. objavila izveštaj o povredama humanitarnog prava. U njemu se srpska vojska i nepravilne jedinice koje su je pratile pominju u nizu slučajeva paljenja sela, ubistava i progona, naročito albanskog i muslimanskog življa u oblasti Kosova i severne Albanije. Razmere nije moguće tačno utvrditi — procene se razilaze — ali postojanje takvih pojava nije sporno. To ne poništava srpsko vojno postignuće, ali ga ne sme ni prikriti: oslobođenje za jedne istovremeno je bilo iskustvo terora za druge, i pošteno je tako i nazvati."
+    },
+    {
+      "type": "paragraph",
+      "text": "Krajem proleća 1913, kada je u Londonu potpisan mir sa Turskom, Srbija je izlazila iz rata gotovo udvostručena — sa Starom Srbijom, Kosovom, velikim delom Makedonije, ali bez izlaza na more, sa novim susedom u liku Albanije i sa nerešenim sporom oko podele osvojenog. Upravo iz tog spora, već za nekoliko nedelja, planuće Drugi balkanski rat. Pre nego što tamo pređemo, vredi zastati: ono što je 1912. počelo kao odluka da se završi vekovno tursko prisustvo u Evropi, završilo se kao složeniji događaj — i vojnička pobeda i diplomatski poraz, i ostvarenje davnašnjeg cilja i otvaranje novih rana koje će Balkan nositi i u veku koji je sledio."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

@@ -6,13 +6,53 @@
   "dayNumber": 289,
   "order": 2,
   "title": "Julska kriza",
+  "subtitle": "Mesec dana između atentata u Sarajevu i izbijanja rata — diplomatija koja je hladnokrvno pripremila katastrofu",
   "readingTimeMinutes": 7,
   "year": 1914,
-  "isPlaceholder": true,
+  "dateLabel": "jul 1914.",
+  "timelinePosition": "jul 1914.",
+  "summary": "Od atentata na Franca Ferdinanda 28. juna do austrougarske objave rata Srbiji 28. jula 1914. prošao je tačno mesec dana — period u kome su evropske prestonice, naizgled mirno, korak po korak isključivale sve diplomatske izlaze.",
+  "keyPeople": ["Nikola Pašić", "Vilhelm II", "Franc Jozef I", "Sergej Sazonov"],
+  "keyPlaces": ["Beč", "Berlin", "Beograd", "Sankt Peterburg"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Prvih dana posle sarajevskog atentata Evropa je delovala neobično mirno. Vest da je nadvojvoda Franc Ferdinand ubijen prešla je preko telegrafa, izazvala pristojne saučešće depeše, kratke crne okvire u novinama i tihu pomisao da je još jedan vladarski rođak nestao iz politike. Berze nisu pale, kabineti se nisu sastali na hitnoj sednici, hiljade evropskih građana otputovalo je na uobičajeni letnji odmor. Atentat se dogodio 28. juna 1914; tačno mesec dana kasnije, 28. jula, Austrougarska je objavila rat Srbiji. Između ta dva datuma stao je jedan od najdetaljnije proučavanih meseci u istoriji evropske diplomatije — mesec u kome su kabineti, malo po malo, isključivali svaki izlaz osim onog koji je vodio u rat."
+    },
+    {
+      "type": "paragraph",
+      "text": "Prvo zatišje bilo je varljivo. U Beču je deo dvora i vojnog vrha skoro odmah video u atentatu priliku koju su godinama čekali. Načelnik austrougarskog generalštaba Franc Konrad fon Hecendorf još od balkanskih ratova javno je tražio preventivni rat protiv Srbije; njegov stav nije bio osveta za palog prestolonaslednika, nego procena da Srbija, ojačana iz balkanskih ratova, predstavlja egzistencijalnu pretnju Monarhiji koju treba slomiti pre nego što postane prejaka. Ministar spoljnih poslova grof Berhtold sada je njegov stav prihvatio. Stari car Franc Jozef I, posle dugog oklevanja, dao je saglasnost da se krene oštro — ali pod uslovom da se prethodno obezbedi podrška saveznika u Berlinu."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ta podrška stigla je brže i bezuslovnije nego što je iko očekivao. Početkom jula austrougarski izaslanik predao je nemačkom caru Vilhelmu II pismo Franca Jozefa i poseban memorandum o stanju na Balkanu. Vilhelm i kancelar Bethman Holveg poručili su Beču da Nemačka stoji uz svog saveznika i da bi, ako bude trebalo, rat protiv Srbije podržala čak i ako u njega bude uvučena Rusija. U istoriografiji se taj odgovor pamti kao „blanko ček” — obećanje bez upisanog iznosa. Vilhelm je tada otputovao na već zakazano krstarenje severnim morima, uveren da kriza neće prerasti u opšti rat; ostavio je Beč da slobodno postavi zahteve i da, ako Srbija odbije, krene u kratku, lokalizovanu kaznenu akciju."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Ultimatum koji nije smeo biti prihvaćen"
+    },
+    {
+      "type": "paragraph",
+      "text": "Dok je u Berlinu davana zelena svetlost, u Beču se polako pripremao tekst ultimatuma. Istraga atentata sprovedena je na brzinu i sa očitom namerom: trebalo je pronaći dovoljno tragova ka Beogradu da se srpska vlada javno optuži, ali ne i dovoljno da se predmet svede na uobičajenu policijsku saradnju. Zahtevi koji su nastajali na bečkim stolovima — naročito tačka kojom je traženo da austrougarski činovnici lično učestvuju u istrazi na srpskoj teritoriji — sastavljani su sa svešću da nijedna suverena država ne može takav uslov prihvatiti u celosti. Berhtold je to i sam priznavao u uskom krugu. Ultimatum je trebalo da bude dokument koji izgleda kao diplomatska nota, a u stvari je objava rata u pristojnom ruhu."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sistem savezništava davao je svemu tome opasnu geometriju. Trojnom savezu Nemačke, Austrougarske i Italije stajala je nasuprot Antanta — Francuska, Rusija i Velika Britanija, ne tako čvrsto vezane ugovorima kao centralne sile, ali povezane interesima i strahom od nemačke prevlasti. Svaki potez jedne sile povlačio je proračun ostalih. Srbija, oslabljena posle dva balkanska rata, bez novca, sa vojskom koja se još nije oporavila i koleri koja je tokom proleća kosila po južnim krajevima, nije imala manevarski prostor. Imala je, međutim, moralnu podršku Rusije, koja je sebe doživljavala kao zaštitnicu pravoslavnih i slovenskih naroda na Balkanu. Ministar spoljnih poslova Sergej Sazonov nekoliko puta je tokom jula stavio do znanja Beču da Rusija neće gledati skrštenih ruku kako se Srbija slama."
+    },
+    {
+      "type": "paragraph",
+      "text": "Vladu u Beogradu vodio je Nikola Pašić, iskusan i oprezan političar koji je istovremeno bio u predizbornoj kampanji. Pašić je već početkom jula slutio da nešto ozbiljno dolazi iz Beča, ali nije imao pouzdane informacije o sadržaju budućeg zahteva. Pokušavao je da deluje smireno, da ne daje povoda za optužbe, da preko ruskog poslanika osigura makar diplomatsku zaštitu. Bilo je, međutim, jasno da Srbija sama, bez velike sile iza sebe, ne može odgovoriti ni političkom ni vojnom pritisku Monarhije."
+    },
+    {
+      "type": "paragraph",
+      "text": "Posebno obeležje krize bila je sezona. Polovinom jula veliki deo evropskih vladara i šefova diplomatije bio je van prestonica — na banjama, krstarenjima, lovovima. Francuski predsednik Poenkare i premijer Vivijani upravo su putovali brodom u zvaničnu posetu Sankt Peterburgu; Vilhelm II bio je na moru; britanski ministar spoljnih poslova ser Edvard Grej provodio je dane na imanju. Telegrami su putovali satima, susreti su se odlagali, odluke donosili ljudi nižeg ranga ili u žurbi. Beč je upravo taj trenutak iskoristio da 23. jula uveče preda ultimatum, sa rokom od svega četrdeset osam sati. Srpski odgovor, dat 25. jula, bio je izuzetno popustljiv — prihvatao je gotovo sve tačke osim one o učešću stranih činovnika u istrazi — ali je u Beču unapred bio ocenjen kao nedovoljan."
+    },
+    {
+      "type": "paragraph",
+      "text": "Često se kasnije ponavljala fraza da je to bio „rat koji niko nije želeo”. Istraživanja arhiva pokazala su da je istina složenija. Većina evropskih državnika rat nije aktivno tražila, ali nekoliko ključnih ljudi jeste. Konrad u Beču video je u krizi dugo očekivani povod; nemački načelnik štaba Helmut fon Moltke smatrao je da je 1914. poslednja godina u kojoj Nemačka može uspešno voditi rat protiv Rusije pre nego što ova završi modernizaciju vojske. Njihove procene davale su težinu odlukama koje su političari, oklevajući, ipak potpisivali. Julska kriza nije bila iznenadan izliv osvete za jedan pucanj u Sarajevu, već hladnokrvna politička računica koja je trajala mesec dana i, korak po korak, učinila opšti evropski rat neizbežnim."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

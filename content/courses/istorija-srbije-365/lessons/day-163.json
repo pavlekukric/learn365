@@ -6,13 +6,49 @@
   "dayNumber": 163,
   "order": 1,
   "title": "Velika seoba Srba 1690.",
+  "subtitle": "Kako je rat Svete lige od Beča do Skoplja i nazad pokrenuo najveću seobu u srpskoj istoriji",
   "readingTimeMinutes": 8,
   "year": 1690,
-  "isPlaceholder": true,
+  "dateLabel": "1690.",
+  "timelinePosition": "1690.",
+  "summary": "Veliki bečki rat, prodor Habzburga duboko na jug, ustanak srpskog naroda pod patrijarhom Arsenijem III i, posle osmanskog protivudara, masovno povlačenje preko Save i Dunava 1690. godine.",
+  "keyPeople": ["Arsenije III Čarnojević", "Leopold I", "Jovan Monasterlija", "Ludvig Badenski"],
+  "keyPlaces": ["Beograd", "Sava", "Dunav", "Niš", "Peć", "Sremski Karlovci"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Kada su 1683. godine osmanske vojske odbijene pod Bečom, niko u srpskim zemljama nije mogao naslutiti da će se posledice te bitke, kroz sedam godina, prevaliti i preko Save i Dunava. A ipak, upravo je tamošnji poraz pokrenuo lanac događaja koji će se 1690. završiti najvećim pomeranjem srpskog stanovništva u celoj njegovoj istoriji. Veliki bečki rat, koji je vodila Sveta liga — Habzburška monarhija, Poljska, Mletačka republika i Rusija — pretvorio se u dugo, krvavo gibanje granica, a srpski narod, koji je vekovima živeo pod sultanom, prvi put posle dugo vremena dobio je priliku, i opasnost, da odlučuje o sopstvenoj sudbini između dve velike sile."
+    },
+    {
+      "type": "paragraph",
+      "text": "Već od 1686. carska vojska je oslobađala mađarska polja, a 1688. Habzburzi su zauzeli Beograd. Naredne godine, pod komandom Ludviga Badenskog, prodrli su duboko na jug — kroz Moravu, do Niša, pa dalje preko Kosova sve do Skoplja, gde su početkom 1690. spalili grad. U tom kratkom prozoru učinilo se da Osmanlije neće moći da zadrže Balkan. Hrišćansko stanovništvo doživljavalo je carsku vojsku kao oslobodilačku; po selima i varošima podizali su se odredi koji su pomagali Austrijancima, vodili ih kroz kraj, sekli osmanske posade. Sliveni u jednu rečenicu, ti meseci su izgledali kao istorijski preokret. U stvarnosti, bili su to poslednji dani jedne iluzije."
+    },
+    {
+      "type": "paragraph",
+      "text": "U središtu zbivanja stajao je Arsenije III Čarnojević, pećki patrijarh od 1674. godine i, u trenutku rata, najugledniji čovek srpskog naroda pod sultanom. Pećka patrijaršija, obnovljena 1557, bila je jedina velika srpska ustanova; patrijarh je bio i verski poglavar i, u praksi, narodni zastupnik pred svakom vlašću. Arsenije se posle dugog kolebanja opredelio za Habzburge: stupio je u veze sa carem Leopoldom I, primio njegov poziv da pozove svoj narod u oružje i postao moralni jamac da će ustanak biti masovan. Pod komandom Jovana Monasterlije — koga je car postavio za podvojvodu srpske milicije — formirani su srpski odredi koji su se borili rame uz rame sa carskom vojskom. Te odluke bile su sudbinske: jednom kada je narod javno digao oružje protiv sultana, povratak na staro stanje više nije bio bezbolan."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Osmanski povratak i odluka da se krene"
+    },
+    {
+      "type": "paragraph",
+      "text": "Već u leto 1690. ravnoteža se prelomila. Veliki vezir Mustafa Ćuprilić poveo je obnovljenu osmansku vojsku u protivudar. Niš je pao u septembru, Smederevo i druge tvrđave brzo za njim, a u oktobru je i Beograd ponovo bio u rukama sultana. Carska vojska je u neredu uzmicala preko Save i Dunava. Iza nje, u opustelim kotlinama Pomoravlja, Kosova i severne Makedonije, ostajalo je ono stanovništvo koje se otvoreno svrstalo uz Habzburge. Vesti o prvim osmanskim odmazdama — paljenju sela, ubistvima sveštenstva, odvođenju u ropstvo — putovale su brže od vojske. Pred Srbima, a naročito pred onima koji su sa patrijarhom imali makar i posredne veze, otvorilo se jedno teško, nesimetrično pitanje: ostati i nadati se milosti, ili krenuti."
+    },
+    {
+      "type": "paragraph",
+      "text": "Arsenije III je sazvao crkveno-narodni sabor i odlučio da se krene. U toku jeseni 1690. dugačke kolone — porodice sa stokom, kolima, ikonama, crkvenim knjigama — pošle su severno, ka Savi i Dunavu, ka habzburškoj strani. Tačan broj ljudi koji su tada prešli reku ne zna se i, najverovatnije, nikada se neće znati. Stariji srpski izvori govorili su o trideset sedam, pa i preko dvesta hiljada porodica; savremena istoriografija najčešće računa s nečim skromnijim — možda trideset do pedeset hiljada porodica, što bi, sa decom, moglo značiti sto do dvesta hiljada duša. Brojke su sporne i biće sporne i dalje. Nesporno je da se radi o seobi bez presedana u srpskoj istoriji, i da je ona za sobom ostavila opustele krajeve u središtu starih srpskih zemalja."
+    },
+    {
+      "type": "paragraph",
+      "text": "Na drugoj strani reke izbeglice nisu bile sasvim u nepoznatom. Bačka, Banat, Srem i Slavonija već su imali starije srpsko stanovništvo, deo iz ranijih, manjih seoba kroz sedamnaesti vek. Novi doseljenici naslonili su se na te zajednice i pojačali ih. Patrijarh Arsenije obratio se caru Leopoldu I sa zahtevom da se njegovom narodu priznaju verske, crkvene i samoupravne slobode kao uslov za naseljavanje i vojnu službu kruni. Odgovor je stigao u nizu carskih akata između 1690. i 1695. godine — čuvene „Privilegije”, o kojima ćemo govoriti zasebno. One su, ukratko, priznale Srpsku pravoslavnu crkvu pod pećkim patrijarhom kao zakonitu na carskoj teritoriji, dale joj pravo da bira poglavara i odlučuje o unutrašnjim pitanjima, i uvele Srbe kao zaseban politički činilac u Habzburškoj monarhiji."
+    },
+    {
+      "type": "paragraph",
+      "text": "Posledice 1690. godine bile su dugotrajne i protivurečne. Demografska slika centralnih srpskih oblasti trajno se proredila; deo prostora preuzeli su, vremenom, drugi balkanski narodi i muslimansko stanovništvo. Istovremeno, severni, „prečanski” Srbi — oni s habzburške strane Save i Dunava — postali su mnogobrojniji, gradskiji i politički obrazovaniji deo nacije. Novo crkveno središte preseliće se u Sremske Karlovce, a tamošnja mitropolija postaće, u narednim decenijama, kulturno čvorište bez konkurencije. U narodnom pamćenju, Velika seoba dobila je gotovo biblijsku težinu; krajem devetnaestog veka Paja Jovanović će je naslikati kao dostojanstvenu kolonu pod krstovima, a guslarske pesme su Arsenija pretvorile u figuru proroka koji izvodi narod iz egipatske kuće. Istorijski, slika je suvlja i bolnija: jedan narod, stešnjen između dve carevine, izabrao je da preživi tako što se sav razmestio."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

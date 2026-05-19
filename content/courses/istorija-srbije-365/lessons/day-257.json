@@ -6,13 +6,44 @@
   "dayNumber": 257,
   "order": 11,
   "title": "Abdikacija kralja Milana",
+  "subtitle": "Dva meseca posle novog ustava, kralj Milan iznenada silazi s prestola i ostavlja Srbiju trinaestogodišnjem sinu",
   "readingTimeMinutes": 6,
   "year": 1889,
-  "isPlaceholder": true,
+  "dateLabel": "1889.",
+  "timelinePosition": "1889.",
+  "summary": "Dvadeset drugog februara 1889. kralj Milan Obrenović abdicira u korist sina Aleksandra i imenuje regentstvo na čelu sa Jovanom Ristićem; potez je delom posledica ličnih lomova, delom političke iscrpljenosti, ali ne i konačni odlazak.",
+  "keyPeople": ["Milan Obrenović", "Aleksandar Obrenović", "Jovan Ristić", "Kosta Protić", "Jovan Belimarković", "kraljica Natalija"],
+  "keyPlaces": ["Beograd", "Niš", "Beč"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Dvadeset drugog februara 1889. godine — po novom kalendaru šestog marta — kralj Milan Obrenović sazvao je Narodnu skupštinu u Beogradu i pred njom objavio da silazi s prestola. Aktom abdikacije presto je predao svom jedinom sinu Aleksandru, koji je tih dana navršio trinaestu godinu, i imenovao trojicu regenata da do njegovog punoletstva vladaju u njegovo ime: bivšeg predsednika vlade i diplomatu Jovana Ristića, generala Kostu Protića i generala Jovana Belimarkovića. Skupština je pozvana da položi zakletvu novom kralju i regentima. Sve se odvilo brzo, mirno i u oblicima koje je propisivao ustav koji je sam Milan, samo dva meseca ranije, svečano potvrdio."
+    },
+    {
+      "type": "paragraph",
+      "text": "Iznenađenje je bilo veliko, ali pažljivim posmatračima nije izgledalo bezrazložno. Iza abdikacije stajao je čitav splet razloga, ličnih i političkih, koji su se godinama gomilali. Najteži među njima bio je razvod s kraljicom Natalijom, formalno proveden 1888. odlukom crkvenog suda. Postupak je bio sproveden na način koji je i u tadašnjoj javnosti smatran nepravilnim, a u istorijskoj literaturi se opisuje kao nasilno i kanonski sporno rešenje koje je teško kompromitovalo i krunu i mitropoliju. Bračni rat Obrenovića vodio se godinama u evropskoj štampi; pitanje vaspitanja malog Aleksandra postalo je predmet javnog sukoba u kome dostojanstvo dvora nije imalo gde da se skloni."
+    },
+    {
+      "type": "paragraph",
+      "text": "Politički, Milan je bio iscrpljen. Težak poraz srpske vojske kod Slivnice u ratu s Bugarskom 1885. ostao je rana koja se nije zatvarala — ne toliko po teritoriji, koja je posredstvom Beča sačuvana, koliko po prestižu krune koja je u taj rat ušla naglo i bez prave vojničke pripreme. Sukobi s radikalima, koji su posle 1883. postali najjača politička snaga u zemlji, vodili su se gotovo bez prekida. Liberali su mu bili nepouzdani saveznici, a sopstvena napredna stranka stenjala je pod teretom kraljevskih obaveza. Dvor je hronično bio bez novca; kralj je živeo u stalnoj zategnutosti sa skupštinom oko građanske liste i ličnih dugova. Spoljnopolitički, tajni sporazum s Austro-Ugarskom iz 1881. vezivao mu je ruke u svakom samostalnom potezu, dok ga je Beč istovremeno smatrao sve težim partnerom."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ustav iz 1888, koji je doneo u sporazumu s radikalima i liberalima, bio je njegov poslednji veliki državnički potez — i, paradoksalno, jedan od poslednjih razloga za odlazak. Tim ustavom Srbija je dobila parlamentarnu vladu, široko biračko pravo i znatno suženu kraljevsku vlast. Čovek koji je dvadeset godina vladao po svojoj volji teško je mogao da se zamisli kao ustavni monarh ograničen voljom skupštine u kojoj su radikali imali većinu. Bolje je, izgleda, zaključio, otići dok ostavlja sina i ustav koji su mu obojici zaštita, nego ostati i sukobljavati se sa sopstvenim delom."
+    },
+    {
+      "type": "paragraph",
+      "text": "Već u trenutku abdikacije bilo je jasno da to nije ostavka u modernom smislu, nego povlačenje s otvorenim vratima. Milan je sebi obezbedio rentu, pravo da napušta zemlju i živi van nje, ali i prećutnu mogućnost da se vrati u politiku. Tako i biva. Već 1893. ponovo je u Beogradu, a od 1894. do 1900. igraće značajnu ulogu u zemlji: kao savetnik sina, kao nezvanični faktor vlade i, od 1898. do 1900, kao komandant aktivne vojske, položaj sa kojeg je sproveo i jednu pravu reformu srpske vojske. Definitivno odlazi tek 1900, kada Aleksandar — protiv očeve volje — ženi Dragu Mašin. Umreće u Beču početkom 1901. Njegov silazak s prestola, gledan iz daljine, više liči na dugo, mučno povlačenje nego na čist kraj."
+    },
+    {
+      "type": "paragraph",
+      "text": "Za zemlju je, međutim, februar 1889. bio stvaran prelom. Regentstvo na čelu sa Jovanom Ristićem vladalo je formalno u ime maloletnog Aleksandra, a stvarna politička težina prešla je na radikalnu stranku, koja je prvi put dobila priliku da vodi jaku vladu sa širokom skupštinskom većinom. Sledeće četiri godine pamtiće se kao prvi pokušaj parlamentarnog života pod ustavom iz 1888 — sa svim manama mlade demokratije, ali i sa osećajem da se vlast prvi put gradi odozdo, iz birališta, a ne odozgo, iz kabineta. Taj eksperiment biće naglo prekinut 1893, kada će šesnaestogodišnji kralj Aleksandar državnim udarom proglasiti sebe punoletnim i smeniti regente — ali to je već priča sledećeg dana."
+    },
+    {
+      "type": "paragraph",
+      "text": "Milan Obrenović ostao je u srpskoj istoriji kao složen i, u mnogo čemu, tragičan vladar. Pod njim je Srbija dobila nezavisnost na Berlinskom kongresu i kraljevsku titulu 1882, ali je za to platila visoku spoljnopolitičku cenu i unutrašnju iscrpljenost. Bio je obrazovan, oštrouman, ciničan i nestrpljiv, sposoban da povuče smele poteze i isto tako sposoban da ih u trenutku napusti. Abdikacija 1889. nije mu donela dostojanstven kraj na prestolu kakav su imali neki njegovi savremenici; donela je samo predah, posle kojeg će se vratiti — ne više kao kralj, nego kao senka oko sina koji nije bio spreman za ono što ga je čekalo."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

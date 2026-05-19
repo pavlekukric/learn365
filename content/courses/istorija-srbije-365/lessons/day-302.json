@@ -6,13 +6,53 @@
   "dayNumber": 302,
   "order": 15,
   "title": "Cena Prvog svetskog rata",
+  "subtitle": "Demografski, materijalni i kulturni gubici Srbije u ratu koji je iscrpeo zemlju koja je formalno izašla kao pobednik",
   "readingTimeMinutes": 8,
   "year": 1917,
-  "isPlaceholder": true,
+  "dateLabel": "1914–1918.",
+  "timelinePosition": "1914–1918.",
+  "summary": "Srbija je iz Prvog svetskog rata izašla kao formalni pobednik, ali sa gubitkom koji se različito procenjuje na milion do milion i četvrt ljudi — više od svake druge zaraćene države u odnosu na predratno stanovništvo.",
+  "keyPeople": [],
+  "keyPlaces": ["Srbija", "Beograd"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Kada se krajem 1918. završio rat i kada su se prebrojavali oni koji su preživeli, Srbija se našla pred računom koji je teško bilo izraziti običnim jezikom. Predratno stanovništvo Kraljevine Srbije, posle balkanskih ratova i pripajanja novih oblasti, procenjivano je na oko četiri i po miliona ljudi. Različita istraživanja, srpska i strana, slažu se da je u toku rata izgubljeno između milion i milion i četvrt stanovnika — vojnika i civila zajedno. To je više od dvadesetog dela stanovništva; po nekim procenama i preko četvrtine. U poređenju sa drugim zaraćenim državama, Srbija je pretrpela najteže gubitke u odnosu na svoju veličinu. Tačne brojke ostaju predmet stručne rasprave, ali red veličine je nesporan."
+    },
+    {
+      "type": "paragraph",
+      "text": "Vojni gubici procenjuju se na oko 370.000 do 400.000 ljudi. U taj zbir ulaze poginuli u bitkama od Cera i Kolubare do Solunskog fronta, oni koji su umrli od bolesti — najviše od pegavog tifusa u zimu 1914–1915. i u albanskom povlačenju — kao i ranjenici koji nisu preživeli. Vojska koja je u jesen 1915. krenula preko Albanije imala je oko 400.000 ljudi; na grčku obalu stiglo ih je oko 150.000. Ta razlika nije samo statistika, ona je generacija. U pitanju su uglavnom mladi i sredovečni muškarci, ljudi u dobi za rad i potomstvo, koji su iz srpskih sela i varoši nestali u svega četiri godine."
+    },
+    {
+      "type": "paragraph",
+      "text": "Civilni gubici su još veći — procenjuju se na šeststo hiljada i više. Pegavi tifus, koji je 1914. i 1915. harao Srbijom, sam je ubio između sto i sto pedeset hiljada ljudi, među njima i strane lekare koji su došli u pomoć. Glad i nestašice u okupiranim oblastima odnosile su decu, starce i porodilje godinama. Internacija u austrougarske i bugarske logore obuhvatila je desetine hiljada — od Mauthauzena i Boldogasonja do logora u Bugarskoj — i mnogi se odande nisu vratili. Topličkom ustanku u proleće 1917. usledila je oštra odmazda: streljanja, paljenje sela, masovne deportacije. Sve to zajedno dalo je zbir koji prevazilazi gubitke same vojske."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Razorena zemlja"
+    },
+    {
+      "type": "paragraph",
+      "text": "Materijalna šteta bila je razmerna ljudskim gubicima. Železničke pruge bile su delom razorene, delom istrošene; lokomotive i vagoni odneti su ili uništeni. Mostovi preko Save, Dunava, Drine i Morave srušeni su u različitim fazama rata. Fabrike u Beogradu, Kragujevcu, Nišu i Smederevu — nikada brojne — radile su za okupatorske potrebe ili su demontirane i odvezene. Poljoprivredna proizvodnja bila je u rasulu: stoka rekvirirana ili zaklana, oranice neobrađene, semenski fond pretopljen u hleb. Procene iz posleratnih godina govore da je broj goveda i ovaca u Srbiji bio smanjen za polovinu, na nekim područjima i više. Mnoga sela u Mačvi, Kolubari, Toplici i istočnoj Srbiji ostala su poluprazna; kuće bez krovova, bunari zatrpani, voćnjaci podivljali."
+    },
+    {
+      "type": "paragraph",
+      "text": "Kulturni gubici teže su merljivi, ali ne i manje stvarni. Beogradska Narodna biblioteka pretrpela je oštećenja već od bombardovanja 1914, a tokom okupacije znatan deo arhivske i bibliotečke građe odnet je ili uništen. Muzejske zbirke, deo crkvene riznice, manastirske knjige i ikone — nestajali su putevima okupatorskih komora. Među stradalima nalazili su se i ljudi bez čijeg se rada kultura ne obnavlja: učitelji, sveštenici, profesori, mladi pisci i naučnici. Generacija intelektualaca koja je u Beograd dolazila pred rat — pesnici, slikari, istoričari — istanjila se i u rovovima i u logorima. To će se osetiti u međuratnoj deceniji, kada se srpska nauka i književnost obnavljaju sa znatno tanjim klupskim postavom nego pre 1914."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ratne reparacije bile su predviđene Versajskim mirom sa Nemačkom 1919. i Trijanonskim mirom sa Mađarskom 1920, kao i ugovorima sa Austrijom i Bugarskom. Kraljevini Srba, Hrvata i Slovenaca dodeljen je određen procenat od ukupnih reparacionih iznosa. U praksi je stvarno isplaćeno mnogo manje od onoga što je na papiru bilo upisano. Nemačka je deset godina kasnije, posle više revizija i konačno Hooverove suspenzije iz 1931, prestala da plaća. Iz austrijskih i mađarskih izvora prilivi su bili još skromniji. Srpska privreda i posle rata oslanjala se najviše na sopstveni, polusnažni rad — na seljaka koji se vraća na svoje imanje sa onim što je ostalo."
+    },
+    {
+      "type": "paragraph",
+      "text": "Politički račun glasio je drugačije. Prvog decembra 1918. proglašeno je Kraljevstvo Srba, Hrvata i Slovenaca; teritorija je u odnosu na predratnu Srbiju bila višestruko uvećana, država je dobila izlaze na Jadran, Banat, Bačku, Bosnu, Hrvatsku, Sloveniju, Crnu Goru i Makedoniju. Po klasičnom merilu velikih sila, Srbija je bila pobednik i osnivač nove države. O tome — o ujedinjenju i o tome šta je ono značilo i kako je sklopljeno — biće reči u sledećoj lekciji."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ovde se vredi zadržati na paradoksu koji će obeležiti čitavu međuratnu deceniju. Država koja je izašla kao pobednik bila je istovremeno demografski iscrpljena. U mnogim srpskim selima muškarci od dvadeset do pedeset godina bili su retkost; žene su preuzele rad u polju i kućnu vlast u meri u kojoj to ranije nije bilo zabeleženo. Brojni siročići i ratna deca rasli su uz državnu i crkvenu pomoć. Mladi ljudi koji su 1914. krenuli u rat kao dvadesetogodišnjaci, ako su preživeli, vraćali su se kao bolesni, ranjeni ili invalidi tridesetogodišnjaci. Sve to opterećivalo je novu državu od prvog dana, mnogo pre nego što su nastali politički sukobi koji će obeležiti dvadesete i tridesete godine. Brojke govore dovoljno; ono što se iza njih krije osećalo se u srpskim porodicama još više decenija."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

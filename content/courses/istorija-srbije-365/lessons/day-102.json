@@ -6,13 +6,53 @@
   "dayNumber": 102,
   "order": 5,
   "title": "Bitka na Marici",
+  "subtitle": "Noć 25. na 26. septembar 1371. — prvi veliki srpski poraz od Osmanlija i početak kraja samostalnog juga",
   "readingTimeMinutes": 8,
   "year": 1371,
-  "isPlaceholder": true,
+  "dateLabel": "1371.",
+  "timelinePosition": "26. septembar 1371.",
+  "summary": "Vukašin i Uglješa Mrnjavčević poveli su vojsku protiv osmanskog prodora u dolinu Marice; iznenadni noćni napad kod Černomena uništio je vojsku i otvorio Balkan.",
+  "keyPeople": ["Vukašin Mrnjavčević", "Uglješa Mrnjavčević", "sultan Murad I", "Lala Šahin"],
+  "keyPlaces": ["Marica", "Černomen", "Ser", "Prilep"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Do leta 1371. godine osmanska država je već dve decenije čvrsto stajala na evropskoj obali. Iz Galipolja, prelazne tačke koju su zauzeli još 1354, Osmanlije su se proširile preko Trakije, učvrstile u Jedrenu i pretvorile ga u svoju zapadnu prestonicu. Sultan Murad I, koji je presto preuzeo 1362, nije više bio gusarski vođa pograničnih akindžija — bio je vladar uređene vojske, pisarne kancelarije i jasne strategije. Ta strategija pokazivala je rukom uvek u istom pravcu: uz dolinu Marice, na zapad i severozapad, u srce Makedonije i dalje ka srpskim oblastima koje su se posle Dušanove smrti razbile na više gospodara."
+    },
+    {
+      "type": "paragraph",
+      "text": "Najjačima na jugu, u tom času, smatrana su braća Mrnjavčevići. Stariji, Vukašin, krunisan još 1365. za „mladog kralja” pored cara Uroša, držao je veliki deo Makedonije sa središtem u Prilepu i Skoplju. Mlađi, Uglješa, vladao je kao despot Serskom oblašću — bogatom egejskom Makedonijom oko grada Sera, na samoj granici sa osmanskim posedima u Trakiji. Uglješa je prvi i najjasnije video šta dolazi. Pokušao je da okupi širi pravoslavni savez, da pomiri svađu sa carigradskom patrijaršijom oko priznavanja srpske patrijaršije, čak da pridobije i vizantijskog cara — ali odziva, sa strane onih koji su sedeli dalje od granice, gotovo nije bilo. Na kraju je morao da računa samo na ono što mu brat može da dovede sa zapada."
+    },
+    {
+      "type": "paragraph",
+      "text": "U leto 1371. Vukašin i Uglješa krenuli su zajedno niz Maricu, ka osmanskim utvrđenjima u Trakiji. Cilj je bio ofanzivan: udariti pre nego što Murad lično prebaci glavnu vojsku iz Male Azije, slomiti zapadne osmanske odrede i potisnuti ih iz dolinske linije koja je vodila u Makedoniju. Veličina vojske koju su poveli jedno je od najspornijih pitanja čitave bitke. Starije hronike — i grčke i osmanske — govore o šezdeset, sedamdeset, čak i više hiljada ratnika. Savremeni istoričari te brojke uglavnom smatraju preuveličanim i procenjuju da je posredi bila znatno manja, ali još uvek ozbiljna sila — verovatno reda petnaest do dvadeset hiljada ljudi. Sigurno se zna samo da je u pitanju bio najveći vojni napor južnih srpskih zemalja u tom naraštaju."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Noć kod Černomena"
+    },
+    {
+      "type": "paragraph",
+      "text": "Vojska se 25. septembra ulogorila na levoj obali Marice, kod sela Černomena — danas Ormenija u severnoj Grčkoj, blizu današnje trojne granice sa Bugarskom i Turskom. Logor je, prema kasnijim opisima, bio razvučen, slabo obezbeđen i nepripremljen na noćni napad. Verovalo se da glavnina osmanske vojske nije u blizini, a oni odredi koji su bili poznati — pod komandom Muradovog iskusnog vojvode Lale Šahina, beglerbega Rumelije — smatrani su isuviše malobrojnim da bi se usudili na otvoreni sukob. To se i danas uglavnom drži za tačnu procenu: osmanske snage kod Marice bile su znatno manje od srpskih, po nekim procenama svega nekoliko hiljada ljudi."
+    },
+    {
+      "type": "paragraph",
+      "text": "Lala Šahin je, međutim, izabrao ono što slabija strana po pravilu mora da izabere — iznenađenje. U noći između 25. i 26. septembra osmanski odredi su tiho prišli logoru i sa više strana udarili na uspavanu vojsku. Tačan tok napada nije sačuvan ni u jednom potpunom izveštaju; ono što je u izvorima dosledno — i grčkim, i kasnijim srpskim, i osmanskim — jeste slika potpunog rasula. Vojnici su, podizani iz sna, izlazili iz šatora bez oklopa i reda. Konjica je u mraku gazila pešadiju. Mnogi su pokušali da pobegnu preko Marice i podavili se u reci, koja je posle bitke, kako kaže više hronika, danima nosila tela. Bila je to vrsta poraza u kojoj se ne ratuje nego se gine — kratko, u jednoj noći, bez bitke u pravom smislu reči."
+    },
+    {
+      "type": "paragraph",
+      "text": "Do jutra je sve bilo gotovo. Oba brata Mrnjavčevića ostala su na bojištu. Despot Uglješa, prema većini izvora, poginuo je u samom napadu. O kralju Vukašinu sačuvano je predanje, kasnije zapisano, da ga je u bekstvu, već iznemoglog, ubio sopstveni sluga zbog oklopa i zlata — pojedinost koju treba primiti kao kasniju, moralističku notu, a ne kao tvrdu činjenicu. Sigurno je samo da obojica nisu preživela noć. Sa njima je iščezla i čitava vojna i politička vrhuška Makedonije."
+    },
+    {
+      "type": "paragraph",
+      "text": "Posledice su bile teže nego što su savremenici u prvi mah razumeli. Serska oblast pokojnog Uglješe ubrzo je pripojena osmanskoj državi. Zapadne zemlje Vukašinove ostale su nominalno pod njegovim naslednikom, sinom Markom, koji je posle 1371. naslov „kralja” mogao da zadrži samo kao osmanski vazal — i to je priča koja se nastavlja u jučerašnjoj lekciji. Ostali srpski velmože — knez Lazar u Pomoravlju, Balšići u Zeti, Vlatkovići i drugi po Makedoniji — našli su se pred odlukom koju više nije bilo lako odlagati: vojni otpor velikih razmera, ili pojedinačni dogovor sa Osmanlijama, danak, povremena vazalna služba. Veliki zajednički front juga, kakav su Mrnjavčevići pokušali, nije se posle Marice više sastavio."
+    },
+    {
+      "type": "paragraph",
+      "text": "Marica je u narodnom pamćenju ostala u senci Kosova 1389. To nije slučajno. Pogibija na Marici nije rodila kult mučenika — Vukašin i Uglješa su poginuli u porazu koji se činio kao kazna, a ne kao žrtva, i nisu kanonizovani. Crkva je svoju mučeničku ikonografiju vezala za kneza Lazara, čija će smrt na Kosovu, osamnaest godina kasnije, dobiti oblik svetog dara. Istoričari, međutim, često ponavljaju nešto što usmena tradicija ne kaže rado: vojno i politički, Marica je bila prelomnija od Kosova. U jednoj noći je slomljena najjača srpska sila na jugu, otvorena je glavna dolinska kapija u centralni Balkan i Osmanlijama je prvi put pokazano da se kroz srpske zemlje može prodirati ne samo pljačkom, nego i trajno. Sve što sledi do pada Smedereva 1459. počinje, na neki način, kod tihog logora na Marici."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

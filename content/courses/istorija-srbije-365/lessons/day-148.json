@@ -6,13 +6,57 @@
   "dayNumber": 148,
   "order": 10,
   "title": "Šta je Srbija izgubila",
+  "subtitle": "Trezven pregled onoga što je sa padom srednjovekovne države nestalo — institucija, sloja, gradova, glasa",
   "readingTimeMinutes": 7,
   "year": 1485,
-  "isPlaceholder": true,
+  "dateLabel": "pregled",
+  "timelinePosition": "pregled",
+  "summary": "Pošteno nabrajanje onoga što je nestalo s padom Despotovine: država, plemstvo, dvorska kultura, gradovi, međunarodni glas — bez romantične žalopojke.",
+  "keyPeople": [],
+  "keyPlaces": [],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Tri decenije posle pada Smedereva i nekoliko godina posle pada poslednjih despotskih ostrva na severu, korisno je stati i napraviti trezven popis onoga što je sa srednjovekovnom srpskom državom nestalo. Nije reč o žalopojci, nego o knjigovodstvu — o pokušaju da se, bez sentimentalnog uveličavanja i bez umanjivanja, izbroji šta je tačno otišlo i šta to znači. Tek kada se taj račun pošteno podvuče, može se u sledećoj lekciji govoriti o onome što je, uprkos svemu, ostalo."
+    },
+    {
+      "type": "paragraph",
+      "text": "Prvi i najočigledniji gubitak jeste sama država. Srpska državna tvorevina, koja je u neprekidnom razvoju trajala oko tri veka — od Stefana Nemanje preko kraljeva i careva do despota Lazara Brankovića — prestala je da postoji kao samostalan politički organizam. Više nema krune ni dvora, nema kancelarije koja izdaje povelje na srpskom, nema kovnice koja udara dinare sa imenom vladara, nema kraljevske vojske ni zakonodavstva u rukama domaćeg gospodara. Na ovoj teritoriji država u modernom smislu neće biti obnovljena oko tri i po veka — sve do ustanaka s početka devetnaestog stoleća."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sa državom je otišla i jedna sasvim određena institucionalna kultura. Dvor u Beogradu i Smederevu nije bio samo mesto vlasti; bio je i središte učenosti. Konstantin Filozof piše tu životopise i raspravlja o pravopisu, resavska prepisivačka škola postavlja standarde za književni jezik, povelje se sastavljaju po pravilima koja se mogu uporediti sa najboljim evropskim kancelarijama tog vremena. Sa nestankom dvora nestalo je i te koncentrisane kulturne proizvodnje. Knjiga se i dalje prepisuje po manastirima, ali se učenjak više ne hrani na vladarskom stolu i ne piše za vladara — što menja i obim i ambiciju onoga što nastaje."
+    },
+    {
+      "type": "paragraph",
+      "text": "Drugi krupan gubitak jeste plemstvo. Čitav srednjovekovni srpski vlasteoski sloj, sa svojim posedima, gradovima, vojnom obavezom i sopstvenom kulturom, prestao je da postoji kao klasa na srpskom tlu. Sudbine pojedinaca su različite. Jedan deo je izbegao u Ugarsku, gde su Brankovići i mlađe vlasteoske porodice nastavili da se bore na granici. Drugi deo je primio islam i ušao u osmansku službu — odatle će potom izrasti uticajne porodice, među njima i ona iz koje će poteći Mehmed-paša Sokolović. Najveći broj je, međutim, raseljen, osiromašen ili izgubljen u dugim ratovima. Posledica je jednostavna: na zemljama nekadašnje Despotovine više nema domaće aristokratije koja bi mogla da govori u ime društva."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Gradovi, privreda i glas"
+    },
+    {
+      "type": "paragraph",
+      "text": "Privredna osnova srednjovekovne države — pre svega rudarstvo Novog Brda, Rudnika, Srebrenice i drugih centara — nije nestala preko noći. Osmanska država je rudnike nasledila i nastavila da ih koristi, često uz pomoć istih saskih i domaćih majstora. Ali težište se promenilo. Srebro i druga roba više ne finansiraju srpski dvor i srpsku vojsku; porez i prihod teku ka Istanbulu i njegovim provincijskim namesnicima. Intenzitet rudarske aktivnosti u narednim decenijama opada, a kosmopolitska trgovačka mreža koja je povezivala Dubrovnik, Veneciju i Ugarsku sa srpskim rudnicima slabi i preusmerava se."
+    },
+    {
+      "type": "paragraph",
+      "text": "Slično se dogodilo i sa gradovima. Smederevo, Beograd, Novo Brdo i druga mesta bili su, u petnaestom veku, gradovi mešanog stanovništva — srpskih trgovaca i zanatlija, dubrovačkih kolonista, saskih rudara, jevrejskih i grčkih trgovaca, latinskih sveštenika i pravoslavnog sveštenstva. Pod osmanskom upravom urbano stanovništvo se osipa, a gradska kultura se postepeno menja — uvodi se nova uprava, podiže se nova arhitektura, mnogi gradovi dobijaju i sasvim drugačiji izgled. Ono što je bilo srednjovekovni hrišćanski grad postaje, u narednom veku, osmanska kasaba ili palanka, sa svojom čaršijom, mahalama i džamijama. To nije iščezavanje, ali jeste duboka promena."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sa dvorom i plemstvom nestao je i ktitor — naručilac velikih građevinskih poduhvata. Velika linija srpske srednjovekovne arhitekture, od Studenice i Dečana do Resave, prekida se. Manasija ostaje, u izvesnom smislu, poslednji veliki spomenik te vrste; posle nje gradnja se nastavlja, ali u skromnijim razmerama, bez kraljevskih i despotskih programa. I broj stanovnika u središnjim srpskim oblastima, posle decenija ratova, pohoda i odvođenja u roblje, manji je nego što je bio sredinom petnaestog veka — koliko tačno manji, izvori dopuštaju samo procene, ali pravac je nesumnjiv."
+    },
+    {
+      "type": "paragraph",
+      "text": "Najmanje opipljiv, a možda najtrajniji gubitak tiče se međunarodnog glasa. Dokle god je postojala Despotovina, postojala je i adresa: u Carigrad, u Rim, u Budim, u Veneciju polazila su srpska poslanstva, pisma i molbe potpisane imenom vladara. Posle 1459, a pogotovo posle 1485, te adrese više nema. Srpski narod živi i dalje, brojan i raseljen, ali nema državu koja bi za njega govorila pred evropskim dvorovima. Taj nedostatak glasa odraziće se i unutra — kao osećanje raseljenosti i lišenja onih okvira koji su vekovima organizovali zajednički život."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sve ovo treba reći jednom i mirno, bez patetike. Pad srednjovekovne Srbije bio je stvaran gubitak — institucija, sloja, građevina, mreža, glasa. Ko god u sledećim vekovima bude pokušao da obnovi srpski politički život, polaziće od te praznine. Ali, kao što će se videti već u narednoj lekciji, gubitak nije bio potpun. Ostalo je nešto što se nije moglo razoriti zajedno sa zidinama Smedereva — i upravo će to „nešto” odrediti čime je srpska istorija narednih nekoliko vekova bila ispunjena."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

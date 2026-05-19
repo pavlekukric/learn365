@@ -6,13 +6,53 @@
   "dayNumber": 77,
   "order": 5,
   "title": "Dušanov zakonik — nastanak",
+  "subtitle": "Kako je Dušan, posle careve krune, svojoj državi dao i pisani pravni poredak — u dva sabora, 1349. i 1354.",
   "readingTimeMinutes": 8,
   "year": 1349,
-  "isPlaceholder": true,
+  "dateLabel": "1349. i 1354.",
+  "timelinePosition": "1349. i 1354.",
+  "summary": "Dušanov zakonik — pravni okvir srpsko-grčkog carstva, donet u dva dela na saborima u Skoplju 1349. i u Seru 1354, uz oslonac na već prevedeno vizantijsko pravo.",
+  "keyPeople": ["Stefan Dušan", "Matija Vlastar", "patrijarh Joanikije II"],
+  "keyPlaces": ["Skoplje", "Ser", "Prizren"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Krunisanjem za cara Srba i Grka u Skoplju 1346. godine Dušan je preuzeo i obavezu koja se podrazumevala uz novu titulu — da svojoj državi da uređen pravni okvir. Carstvo koje je u tom trenutku držao više nije bilo raška kraljevina očeva i dedova; obuhvatalo je staru srpsku zemlju, ali i široke vizantijske oblasti Makedonije, dela Tesalije i Epira, sa gradovima u kojima se vekovima sudilo po rimskom i grčkom pravu. Vladar koji je nameravao da takvu tvorevinu drži na okupu morao je da odgovori na jasno pitanje: po kom će se zakonu suditi u njegovim sudnicama, od Dunava do Egejskog mora."
+    },
+    {
+      "type": "paragraph",
+      "text": "Odgovor nije bio improvizacija. Dušan je već 1346, u istoj godini kao i carska kruna, dao da se na slovenski prevede „Sintagma” Matije Vlastara — opsežna vizantijska kompilacija crkvenog i svetovnog prava, sastavljena u Solunu nekoliko godina ranije. Uz nju je u upotrebu ušao i takozvani „Justinijanov zakon”, skraćeni slovenski prevod delova vizantijskog svetovnog prava koji se vezuju za pravnu tradiciju cara Justinijana. Time je carstvo dobilo dva velika tela prevedenog grčko-rimskog prava — jedno opštije i više crkveno, drugo svetovno i konkretnije — koja su mogla da posluže kao osnova za svakodnevno suđenje."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ali ta dva prevedena zbornika, koliko god bila učena, nisu pokrivala sve. Postojala su pitanja koja su bila specifično srpska ili specifično savremena: odnosi između careve vlasti i krupne vlastele, položaj crkvenih poseda i sebara koji ih obrađuju, kazne za ubistvo i krađu u selima i na drumovima, postupak pred sudom kada se sukobe Srbin i Grk, vlastelin i sebar, manastir i komšija. Za takve slučajeve Dušanu je trebao zakon koji nosi njegovo ime i njegov pečat — propis koji će dopuniti prevedeno vizantijsko pravo tamo gde ono ćuti ili gde ne odgovara prilikama u carstvu."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Dva sabora, jedan zakonik"
+    },
+    {
+      "type": "paragraph",
+      "text": "Prvi deo zakonika donet je na velikom državnom saboru u Skoplju, na Uskrs, 21. maja 1349. godine. Skoplje je tada bilo prestonica carstva, mesto na kojem je tri godine ranije Dušan krunisan, i upravo je tu, pred okupljenom vlastelom i crkvenim velikodostojnicima na čelu sa patrijarhom Joanikijem II, prihvaćeno prvih 135 članova. Pet godina kasnije, u avgustu 1354, na novom saboru u gradu Seru — vizantijskom Sereu pod srpskom vlašću — pridodato je još 66 članova. U zbiru, prema uobičajenom modernom brojanju, zakonik ima 201 član, podeljen u dve celine koje su nastale s razmakom od pola decenije, ali su čitane i primenjivane kao jedinstveno delo."
+    },
+    {
+      "type": "paragraph",
+      "text": "O samom postupku sastavljanja malo se zna iz prve ruke. Najverovatnije je iza zakonika stajao tim pravnika i pisara na carevom dvoru, koji je sarađivao sa kancelarijom Srpske patrijaršije — istom onom koja je pripremila prevod „Sintagme”. Jezik je staroslovenski, u srpskoj redakciji, dakle uobičajeni književni i pravni jezik tog vremena. Nigde u zakoniku nije imenovan njegov sastavljač; iza čitavog teksta stoji careva volja, izrečena pred saborom kao zakonodavnim telom. To je u srednjovekovnom shvatanju i najvažnije: zakonik nije lično delo jednog učenjaka, nego zajednička odluka cara, crkve i vlastele, ugrađena u svečani okvir državnog sabora."
+    },
+    {
+      "type": "paragraph",
+      "text": "Treba odmah reći i ono što je u nauci poznato a u popularnoj predstavi često zanemareno. Izvorni rukopis Dušanovog zakonika nije sačuvan. Tekst nam je poznat preko više kasnijih prepisa, takozvanih redakcija, nastalih krajem 14. i tokom 15, 16. i 17. veka. Najvažniji među njima su Prizrenski rukopis s kraja 14. veka, Atonska redakcija sa Svete Gore i još nekoliko mlađih prepisa koji se međusobno razlikuju u redosledu članova, u pojedinim formulacijama, ponegde i u sadržaju. Današnji čitalac zakonika čita, dakle, naučnu rekonstrukciju — tekst koji su istoričari prava pažljivo sastavili upoređujući rukopise, beležeći varijante i, gde je potrebno, pošteno priznajući da se tačno izvorno čitanje nekog člana ne može sa sigurnošću utvrditi."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pa ipak, glavno se zna pouzdano. Sami rukopisi sadrže datacije sabora u Skoplju 1349. i u Seru 1354, kao i razdvajanje na prvi i drugi deo. Zna se da je zakonik činio jedan ud složenog pravnog sistema: uz njega je sudilo prevedeno vizantijsko pravo iz „Sintagme” i „Justinijanovog zakona”, a u nekim oblastima, pre svega u zaleđu, i staro običajno pravo. Dušan nije pokušao da svojim zakonikom zameni sve to nasleđe; pokušao je da ga obuhvati, dopuni i podredi caru kao vrhovnom čuvaru pravde. U tom smislu, zakonik nije samostalna pravna knjiga, već poslednji sloj jednog višeslojnog pravnog poretka — onaj sloj koji nosi pečat srpskog carstva sredine 14. veka."
+    },
+    {
+      "type": "paragraph",
+      "text": "Šta tačno taj zakonik kazuje o društvu — o vlasteli i sebrima, o crkvi i sudovima, o kaznama i o granicama careve volje — biće predmet sledeće lekcije. Ovde je dovoljno zapamtiti okvir: posle careve krune iz 1346, Dušan je u dva sabora, jednom u Skoplju 1349. i drugom u Seru 1354, dao svojoj državi pisani zakon na staroslovenskom jeziku. Učinio je to oslonjen na prevedeno vizantijsko pravo, u saradnji sa patrijarhom i saborom, i ostavio iza sebe tekst koji će — i kroz kasnije prepise, daleko posle pada carstva — ostati najvažniji spomenik srpskog srednjovekovnog prava."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

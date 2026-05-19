@@ -6,13 +6,53 @@
   "dayNumber": 4,
   "order": 4,
   "title": "Starčevačka kultura",
+  "subtitle": "Prvi zemljoradnici Podunavlja i početak neolitskog načina života",
   "readingTimeMinutes": 7,
   "year": -6000,
-  "isPlaceholder": true,
+  "dateLabel": "oko 6200–5200. p. n. e.",
+  "timelinePosition": "~6000. p. n. e.",
+  "summary": "Ranoneolitska kultura Podunavlja sa kojom u ove krajeve stiže zemljoradnja, stočarstvo, grnčarija i stalna sela.",
+  "keyPeople": [],
+  "keyPlaces": ["Starčevo", "Pančevo", "Podunavlje"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Stanovnici Lepenskog Vira živeli su od reke — od onoga što su ulovili i sakupili. Onda se, tokom hiljada godina, dogodila promena koja je izmenila gotovo sve: ljudi su počeli sami da proizvode hranu. Na tlu Srbije tu novu eru najbolje predstavlja starčevačka kultura."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ime je, kao i kod mnogih praistorijskih kultura, dao lokalitet. Kod Starčeva, mesta blizu Pančeva, na obali Dunava, istraženo je naselje po kome je cela ova ranoneolitska kultura nazvana starčevačkom. Reč „kultura” ovde ne znači narod ni državu, nego prepoznatljiv način života — sličan oblik kuća, posuđa i alata — koji se javlja na širem prostoru. Starčevačka kultura prostirala se širom Podunavlja i centralnog Balkana, okvirno tokom šestog milenijuma pre nove ere, dakle pre oko osam hiljada godina."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ono što starčevačka kultura donosi nije samo novo naselje nego nov način života. Naziva se neolitski, i počiva na nekoliko povezanih novina koje zajedno menjaju sve. Ljudi su počeli da gaje žitarice — da seju, čekaju i žanju. Pripitomili su životinje — ovcu, kozu, govedo i svinju — i tako obezbedili stalan, predvidiv izvor mesa, mleka, vune i kože. Naučili su da prave grnčariju, posuđe od pečene gline u kome se moglo čuvati, kuvati i prenositi hranu. I, možda najvažnije, počeli su da žive u stalnim selima, vezani za jedno mesto i jednu njivu, umesto da se sele za divljači."
+    },
+    {
+      "type": "paragraph",
+      "text": "Zašto je to toliko važno? Zato što menja sam odnos čoveka i vremena. Lovac i sakupljač živi od onoga što priroda tog dana pruži; njegov pogled uperen je u sadašnjost. Zemljoradnik, naprotiv, mora da misli unapred: da sačuva seme za sledeću setvu umesto da ga pojede, da računa na žetvu koja dolazi tek za mesece, da brine o stoci preko zime. Iz tog novog odnosa prema budućnosti rašće, kroz duge milenijume, sve ostalo — zalihe koje se mogu nagomilati, vlasništvo koje se može naslediti, sela koja postaju veća, a kasnije i složena društva sa svojim podelama."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Odakle je stigao novi život"
+    },
+    {
+      "type": "paragraph",
+      "text": "Treba odmah razjasniti i odakle je taj novi život došao, jer se i tu lako pogreši. Neolit nije nastao u Podunavlju i nije ovdašnji izum. Stigao je sa jugoistoka, iz pravca Anadolije i Bliskog istoka, i širio se postepeno ka ovim krajevima — delom kretanjem samih zemljoradnika koji su tražili novu zemlju, a delom tako što su domorodačke zajednice prihvatale tuđa znanja i polako menjale svoj život. Tačan odnos ta dva puta — koliko je bilo doseljavanja, a koliko prihvatanja — i danas je predmet stručne rasprave. Ono što je sigurno jeste smer: znanje o zemljoradnji putovalo je ka Podunavlju, a ne iz njega."
+    },
+    {
+      "type": "paragraph",
+      "text": "Kako je izgledalo starčevačko selo? Skromno, po današnjoj meri. Naselja su bila mala, podizana blizu reka i plodne zemlje — jer voda i dobra zemlja bile su uslov opstanka. Stanovalo se u zemunicama, staništima delom ukopanim u tlo, i u jednostavnim nadzemnim kućama. Po naseljima se nalazi prepoznatljiva grnčarija: grublje, čvrste posude za svakodnevni rad i finije, ponekad oslikane posude. To posuđe je arheolozima dragoceno — promene u njegovom obliku i ukrasu pomažu da se kultura prepozna, prati i datuje, jednako kao što rukopis pomaže da se prepozna pisac."
+    },
+    {
+      "type": "paragraph",
+      "text": "Vredi imati na umu da ovo nije bila nagla promena, ma koliko da je bila duboka. Iako se prelaz na zemljoradnju ponekad naziva „neolitskom revolucijom”, on se nije odigrao kao prevrat, preko noći — odvijao se sporo, kroz mnoge naraštaje. Ljudi nisu jednog jutra ostavili lov i počeli da oru. Stari i novi način života dugo su se prepletali: i dalje se lovilo i sakupljalo, samo se uz to sve više sejalo i čuvalo stado. Ali pravac je bio jasan i nepovratan — i sa starčevačkom kulturom Podunavlje je čvrsto zakoračilo u svet sela, njiva i stada, svet u kome u osnovi i danas živimo."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sa starčevačkom kulturom počinje svet u kome i danas živimo: svet sela, useva i domaćih životinja. Ovo je temelj na kome će izrasti veće i složenije zajednice — najpre vinčanska kultura, a kroz milenijume i prvi gradovi, prva pisma i prve države. Ko razume ovaj prelaz, razume odakle dolazi gotovo sve što sledi: ne samo tehnika i privreda, nego i sami obrasci ponašanja po kojima ljudi računaju na sutra, čuvaju zalihe i ostavljaju u nasleđe ono što su sami stekli. A najveća promena, na kraju, nije bila novo oruđe nego nova misao — računati na žetvu koja tek dolazi."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

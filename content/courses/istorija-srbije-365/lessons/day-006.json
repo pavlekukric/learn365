@@ -6,13 +6,53 @@
   "dayNumber": 6,
   "order": 6,
   "title": "Vinča — naselja i svakodnevni život",
+  "subtitle": "Velika sela, ozbiljne kuće i mreža razmene u kasnom neolitu",
   "readingTimeMinutes": 8,
   "year": -5000,
-  "isPlaceholder": true,
+  "dateLabel": "oko 5400–4500. p. n. e.",
+  "timelinePosition": "~5000. p. n. e.",
+  "summary": "Vinčanska naselja bila su velika, kuće su bile ozbiljne građevine sa unutrašnjim redom, a sela nisu bila zatvoreni svetovi nego deo šire mreže razmene.",
+  "keyPeople": [],
+  "keyPlaces": ["Vinča", "Podunavlje"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Znamo gde je vinčanska kultura nastala i zašto se izdvaja. Ali kako je izgledao običan dan u vinčanskom selu? Kakve su bile kuće, čime su se ljudi bavili, šta su jeli? Ova lekcija ulazi kroz vrata vinčanske kuće — onoliko koliko nam zemlja to dopušta."
+    },
+    {
+      "type": "paragraph",
+      "text": "Prvo što iznenađuje jeste razmera. Vinčanska naselja bila su mnogo veća od malih starčevačkih sela koja smo upoznali ranije. Neka se ubrajaju među veća neolitska naselja u tadašnjoj Evropi. I nisu rasla nasumično: kuće su često poređane u nizove, sa naznakom prostornog reda, kao da je postojao dogovor o tome gde se gradi i kako se selo prostire. Iza takvog naselja stoji zajednica koja je brojala mnogo ljudi — a mnogo ljudi na jednom mestu znači i potrebu da se neke stvari urede, da se posao i prostor nekako podele. Tu se, daleko pre svake države, već nazire izazov zajedničkog života."
+    },
+    {
+      "type": "paragraph",
+      "text": "Kuća je bila ozbiljna građevina, a ne sklonište. Podizana je nadzemno, najčešće pravougaona, na drvenoj konstrukciji koja se oblepljivala pleterom i blatom — tehnikom koja daje čvrste, tople i trajne zidove. Neke kuće bile su velike i imale više prostorija, što govori o porodicama i o podeli prostora unutar doma. Unutra su bile peći i ognjišta, a prostor je bio podeljen na delove za rad i za stanovanje. To je dom sa unutrašnjim redom, osmišljen da služi svakodnevici."
+    },
+    {
+      "type": "paragraph",
+      "text": "Zanimljivo je da o tim kućama mnogo znamo upravo zato što su mnoge izgorele. Kada kuća izgori — slučajno ili namerno — vatra zapeče blato u zidovima i tako, paradoksalno, sačuva oblik konstrukcije, a često i predmete zatečene unutra, na mestu na kome su ostavljeni. Za arheologa, spaljena kuća nije samo nesreća iz prošlosti; ona je dragocen, zaustavljen trenutak života — soba zatečena onakvom kakva je bila tog poslednjeg dana."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Zanati, figurine i mreže razmene"
+    },
+    {
+      "type": "paragraph",
+      "text": "A život je bio pun rada. Vinčanska grnčarija dostigla je visok nivo veštine — izrađivane su i obične upotrebne posude i fino oblikovani, pažljivo ukrašeni komadi. Pravile su se i brojne figure od gline: stilizovane ljudske figurine, mnoge sa licem nalik maski. One su među najprepoznatljivijim vinčanskim predmetima — ali, treba odmah i pošteno reći, čemu su tačno služile, ne znamo. Da li su imale obrednu ulogu, da li su bile igračke, oznake pripadnosti, prikazi predaka ili nešto sasvim drugo — to ostaje otvoreno pitanje, i nijedno tumačenje nije dokazano."
+    },
+    {
+      "type": "paragraph",
+      "text": "Te glinene figurine zaslužuju da se na njima zastane, jer lepo pokazuju kako istorija radi sa nepoznatim. Imamo ih u rukama — možemo ih izmeriti, opisati, prebrojati. Ali ono što bismo najviše želeli da znamo, a to je čemu su služile, ostaje izvan domašaja. Lako je tu posegnuti za upečatljivim odgovorom; pošteno je, međutim, reći da odgovora nemamo. Figurine su dokaz da su vinčanski ljudi imali potrebu da oblikuju ljudski lik u glini — a ta potreba, sama po sebi, već mnogo govori o njima, i bez tačnog tumačenja."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pored grnčarije, ljudi su tkali, izrađivali oruđe od kamena, kosti i roga, obrađivali drvo. U svemu tome naslućuje se ne samo veština nego i izvesna podela posla — neki su ljudi, čini se, određene zanate radili bolje, češće i za druge. To je rana naznaka nečega što će kroz milenijume postati pravilo svakog složenog društva: da ne radi svako sve. Hrana je dolazila sa njive i iz tora — gajile su se žitarice i držala stoka — dok su lov, ribolov i sakupljanje bili dopuna, a ne više osnova ishrane."
+    },
+    {
+      "type": "paragraph",
+      "text": "I konačno, vinčanska sela nisu bila zatvoreni svetovi okrenuti samo sebi. Među nalazima ima sirovina i predmeta koji ne potiču iz okoline — vulkanskog stakla, morskih školjki, soli. Te stvari morale su negde doputovati, ponekad izdaleka. Iza njih stoje veze i razmena, mreža kojom su udaljene zajednice bile povezane mnogo pre svake trgovine u kasnijem smislu reči. Vinčansko selo bilo je, dakle, tačka u široj mreži, a ne usamljeno ostrvo. Jednu stvar, ipak, ne treba preuveličati, ma koliko slika bila upečatljiva: vinčanska naselja, ma koliko velika za svoje doba, nisu bila gradovi, niti je postojala bilo kakva država, vlast ili pismo. Reč je o velikim selima veštih zemljoradnika i zanatlija — što je samo po sebi izvanredno dostignuće, i ne treba mu dodavati ono što nije bilo. Spaljena vinčanska kuća za njene stanovnike bila je nesreća — a za nas je postala prozor kroz koji vidimo jedan davni dan."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

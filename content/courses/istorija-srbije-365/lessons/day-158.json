@@ -6,13 +6,53 @@
   "dayNumber": 158,
   "order": 8,
   "title": "Mehmed-paša Sokolović",
+  "subtitle": "Dečak odveden danakom u krvi koji je postao veliki vezir tri sultana — i obnovitelj Pećke patrijaršije",
   "readingTimeMinutes": 8,
   "year": 1565,
-  "isPlaceholder": true,
+  "dateLabel": "16. vek",
+  "timelinePosition": "16. vek",
+  "summary": "Od srpskog dečaka iz Sokolovića do velikog vezira Sulejmana Veličanstvenog: kako je Mehmed-paša Sokolović četrnaest godina vodio Osmansko carstvo i istovremeno obnovio Pećku patrijaršiju.",
+  "keyPeople": ["Mehmed-paša Sokolović", "Makarije Sokolović", "Sulejman Veličanstveni", "Selim II", "Murat III", "Mimar Sinan"],
+  "keyPlaces": ["Sokolovići", "Rudo", "Višegrad", "Istanbul", "Peć"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "U selu Sokolovići kod Ruda, u istočnoj Bosni, oko 1506. godine rođen je dečak u srpskoj pravoslavnoj porodici. Ime koje je dobio na krštenju izvori beleže različito i nijedan zapis nije sasvim siguran. Sigurno je samo ono što je usledilo: jednog dana, verovatno između 1516. i 1521. godine, u selo su došli osmanski popisivači sa zadatkom danka u krvi — devširme — i među odabranom decom uzrasta od deset do petnaest godina poveli su i njega. Put od Sokolovića do Istanbula bio je dug, a nazad se nije vraćalo. Tako je dečak iz bosanskog sela ušao u sistem koji će ga, kroz pola veka, učiniti jednim od najmoćnijih ljudi šesnaestog stoleća."
+    },
+    {
+      "type": "paragraph",
+      "text": "Devširme nije bila proizvoljna otmica, već uređeno carsko pravilo. Hrišćanski dečaci sa Balkana, najčešće iz pravoslavnih porodica, prevođeni su u islam, slati u posebne škole i obučavani za službu sultanu — bilo kao janičari u vojsci, bilo, oni najsposobniji, u enderunu, dvorskoj školi za buduće državnike. Mladić iz Sokolovića dobio je novo ime — Mehmed — i krenuo je tom drugom, retkom stazom. Od acemi-oglana, šegrta carske službe, brzo je napredovao do enderuna, gde se učila uprava, jezici, ratna veština i složeni protokol osmanskog dvora. Uz darovitost i sreću, sredinom 16. veka već je u višim zvanjima: zapovednik carskih vrtova, pa veliki admiral osmanske flote, pa beglerbeg Rumelije — namesnik svih evropskih provincija carstva."
+    },
+    {
+      "type": "paragraph",
+      "text": "Treći vezir postao je 1555. godine, ubrzo i drugi, a 1565. ga je sultan Sulejman Veličanstveni postavio za velikog vezira — prvog čoveka carstva odmah do sultana. Tu dužnost zadržao je punih četrnaest godina, pod trojicom sultana: Sulejmana, pa Selima II, pa Murata III. To je u osmanskoj istoriji izuzetno dugo. Velikim vezirima vlast je obično trajala kraće od smrti gospodara koji ih je postavio; Mehmed-paša je preživeo dvojicu sultana na položaju koji se obično gubio glavom. Razlog je bio jednostavan i istovremeno redak — sva trojica sultana videla su da bez njega carstvo ne radi."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Vezir tri sultana"
+    },
+    {
+      "type": "paragraph",
+      "text": "Godine njegove vlasti pale su u prelazno doba osmanske moći. Sulejmanovo carstvo bilo je na vrhuncu, ali se već nazirao zamor; Selim II više je voleo dvor nego rat, a Murat III bio je sklon dvorskim spletkama. U svim tim okolnostima Mehmed-paša je držao mašineriju države. Posle teškog poraza osmanske flote kod Lepanta 1571. godine, kada je Sveta liga uništila stotine osmanskih brodova, on je u roku od jedne zime sproveo obnovu flote — toliko da je već naredne godine Osmansko carstvo ponovo izlazilo na more u punoj snazi. Slavna je njegova rečenica, koju izvori prepričavaju u različitim oblicima, o tome da je hrišćanima kod Lepanta odsečena brada, a Osmanlijama samo ruka — brada raste sporo, ruka brzo. Računica iza tih reči pokazala se tačnom, čak i ako sam izvorni oblik izričaja ostaje neproveriv."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ono što njegovu priču čini bitnom za srpsku istoriju jeste odnos koji je, na sopstvenu odgovornost, zadržao prema svome poreklu. Iako je formalno bio musliman i osmanski državnik, Mehmed-paša nije zaboravio rodbinu, ni jezik, ni veru u kojoj je rođen. Najtrajniji znak toga jeste obnova Pećke patrijaršije 1557. godine, o kojoj je bilo reči prethodnog dana. Carskim ukazom, pripremljenim i sprovedenim njegovom rukom, srpska crkva je posle više od dva veka ponovo dobila samostalnu patrijaršiju sa sedištem u Peći. Za prvog obnovljenog patrijarha postavljen je Makarije Sokolović — po većini izvora njegov rođeni brat, mada neki govore o nešto daljem srodstvu. Tako je jedan deo Mehmedove porodice ostao u Bosni, drugi je iz Istanbula vodio carstvo, a treći je iz Peći vodio srpsku crkvu."
+    },
+    {
+      "type": "paragraph",
+      "text": "Uz patrijaršiju, iza njega su ostale i velike građevine. Najpoznatija je most na Drini u Višegradu, podignut između 1571. i 1577. godine po njegovoj porudžbini i delo velikog osmanskog arhitekte Mimara Sinana. Jedanaest kamenih lukova, savršena srazmera, kapija sa sofom u sredini — most je odmah postao jedna od najlepših građevina osmanskog Balkana, a u dvadesetom veku ga je svetu otkrio Ivo Andrić romanom „Na Drini ćuprija”, krunisanim Nobelovom nagradom. U Istanbulu je sagradio raskošan kompleks Sokolu Mehmed-pašine džamije, takođe delo Sinanove radionice, a vakufi koje je osnivao širili su se od Bosne do Sirije."
+    },
+    {
+      "type": "paragraph",
+      "text": "Kraj je došao iznenada. Dana 12. oktobra 1579. godine, dok je u Istanbulu sedeo na zasedanju divana, prišao mu je bosanski derviš i nožem ga smrtno ubo. Razlozi su do danas predmet rasprave: lično nezadovoljstvo, dvorska zavera ili nešto treće — nijedna verzija nije do kraja dokazana. Sa njim je nestala i jedna era. Carstvo koje je decenijama držao u rukama brzo je krenulo putem sporijeg, mukotrpnijeg propadanja."
+    },
+    {
+      "type": "paragraph",
+      "text": "Lik Mehmed-paše Sokolovića ne pristaje uz jednostavne presude. On je bio i žrtva danka u krvi i njegov najveći dobitnik; i osmanski državnik koji je ratovao za sultana i čovek koji je svoj rođeni narod, u času kada je to mogao, obdario obnovljenom patrijaršijom; i graditelj koji je iza sebe ostavio most preko reke pored koje je rođen. Njegova priča opominje da istorija pod Osmanlijama nije jednoznačna i da se sudbine pojedinaca ne uklapaju uvek u kalupe koje im potonja vremena nude. Mehmed-paša Sokolović je istovremeno sve to — i ni jedna od tih slika sama za sebe nije dovoljna."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

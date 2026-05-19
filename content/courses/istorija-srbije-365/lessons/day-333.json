@@ -6,13 +6,53 @@
   "dayNumber": 333,
   "order": 5,
   "title": "Privredni razvoj socijalističke Jugoslavije",
+  "subtitle": "Od prvog petogodišnjeg plana i stalinske industrijalizacije do dužničke krize osamdesetih",
   "readingTimeMinutes": 7,
   "year": 1960,
-  "isPlaceholder": true,
+  "dateLabel": "1947–1980.",
+  "timelinePosition": "1947–1980.",
+  "summary": "Tri faze privrednog razvoja socijalističke Jugoslavije — stalinski plan, samoupravna reforma i tržišno otvaranje posle 1965. — koje su zemlju iz agrarne preobrazile u industrijsko-urbanu, ali su istovremeno nagomilale strukturne slabosti i spoljni dug.",
+  "keyPeople": ["Boris Kidrič", "Edvard Kardelj", "Josip Broz Tito"],
+  "keyPlaces": ["Kragujevac", "Smederevo", "Đerdap", "Zenica", "Jadranska obala"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Prvi petogodišnji plan, donet 1947. godine, postavio je jednostavan i ambiciozan zadatak — od ratom razorene, pretežno seljačke zemlje napraviti industrijsku državu. Model je bio sovjetski: centralno planiranje, prioritet teškoj industriji, rudnicima, čeličanama i hidroelektranama, mobilizacija omladinskih brigada za pruge i puteve, niska potrošnja u korist investicija. Glavni planer Boris Kidrič projektovao je rast koji bi za pet godina udvostručio industrijsku proizvodnju. Plan je donosio i nove pruge — Brčko–Banovići, Šamac–Sarajevo — građene rukama desetina hiljada mladih dobrovoljaca. Sve to počivalo je na očekivanju sovjetske tehničke pomoći i kredita."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sukob sa Informbiroom 1948. presekao je tu računicu. Pomoć sa istoka je nestala, mašine su ostajale nedostavljene, a Jugoslavija se našla u privrednoj blokadi. Plan je morao biti revidiran, a deo industrijskih ciljeva odložen. U toj nuždi otvorio se neočekivan put: zapadni krediti i američka pomoć. Tokom pedesetih godina Sjedinjene Države slale su žito po programu PL-480, Svetska banka odobravala je zajmove za infrastrukturu, a tehnička pomoć stizala je i iz Britanije i Francuske. Zapad je u Jugoslaviji video korisnog disidenta unutar komunističkog tabora, a Beograd je tu otvorenost iskoristio bez napuštanja sopstvenog sistema. Time je trasiran obrazac koji će trajati decenijama — domaći model uz strani novac."
+    },
+    {
+      "type": "paragraph",
+      "text": "Od početka pedesetih, uporedo sa uvođenjem radničkog samoupravljanja, počela je faza brzog industrijskog rasta. Po procenama međunarodnih ekonomista, u nekim godinama pedesetih i šezdesetih stope rasta industrijske proizvodnje prelazile su deset odsto, što je Jugoslaviju svrstavalo u vodeću grupu po dinamici razvoja u svetu. Iza tog broja stajali su konkretni projekti. U Smederevu, Zenici, Skoplju i Nikšiću dizale su se nove ili proširene čeličane. Na Drini, Neretvi, Vrbasu i drugim rekama nastajale su hidroelektrane, a krajem perioda i džinovski Đerdap na Dunavu, zajedno sa Rumunijom završen 1972. godine. Pojavila se i petrohemija, brodogradnja u jadranskim škverima, vazduhoplovstvo — fabrika „Soko” u Mostaru i „Utva” u Pančevu — i automobilska industrija."
+    },
+    {
+      "type": "paragraph",
+      "text": "Kragujevačka „Crvena zastava”, koja je po licenci proizvodila modele italijanskog Fijata, postala je simbol te epohe. „Fića” i kasnije „stojadin” ušli su u porodične garaže i u svakodnevni govor, a sa njima i ideja da je vlasništvo nad automobilom dostupno radničkoj porodici. Sličan pomak desio se sa frižiderima, veš-mašinama i televizorima — proizvodi domaćih fabrika u Sloveniji, Srbiji i Hrvatskoj tokom šezdesetih i sedamdesetih opremili su milione stanova. Iz sela su se masovno selili u gradove; nicala su nova naselja, škole i ambulante. Bio je to najveći skok životnog standarda koji su ovi krajevi ikada doživeli u tako kratkom vremenu."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Reforma, gastarbajteri i dug"
+    },
+    {
+      "type": "paragraph",
+      "text": "Privredna reforma iz 1965. godine bila je pokušaj da se sistem rastereti od previše centralizovanog planiranja. Uvedeni su tržišni elementi, preduzećima je dat veći prostor u raspodeli dohotka, dinar je devalviran, a granice za radnu snagu otvorene. Posledica je bila pojava koju će čitave porodice pamtiti — masovni odlazak na privremeni rad u inostranstvo. Tokom kasnih šezdesetih i sedamdesetih u Nemačku, Austriju, Švajcarsku, Francusku i druge zapadne zemlje otišlo je, po procenama, blizu milion „gastarbajtera”. Njihove doznake u devizama održavale su platni bilans i porodične kuće u rodnim krajevima, ali su istovremeno pokazivale da domaća privreda ne ume da zaposli sve svoje ljude."
+    },
+    {
+      "type": "paragraph",
+      "text": "U isto vreme razvio se i drugi veliki izvor deviza — turizam. Jadranska obala, sa Dalmacijom, Istrom, Crnogorskim primorjem i ostrvima, postala je jedna od najtraženijih destinacija u Evropi. Hoteli, marine, kampovi, čarter letovi — sve to donosilo je novac koji je nedostajao industriji. Krajem šezdesetih i u sedamdesetim Jugoslavija je izgledala kao zemlja u uzletu: putna mreža se proširivala, autoput „Bratstvo i jedinstvo” spajao je glavne gradove, mediji su izveštavali o novim fabrikama i sportskim uspesima."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ispod te površine nakupljali su se ozbiljni problemi. Razlike među republikama nisu se smanjivale — naprotiv, Slovenija i Hrvatska su sve više odmicale, dok su Makedonija, Bosna, Crna Gora i naročito Kosovo zaostajali, uprkos saveznom fondu za pomoć nerazvijenima. Mnoga preduzeća, izgrađena iz socijalnih i regionalnih razloga, poslovala su sa gubicima koji su pokrivani kreditima. Posle prvog naftnog šoka 1973. i drugog 1979. godine, Jugoslavija je, kao i mnoge zemlje u razvoju, masovno uzimala zajmove na svetskim tržištima, računajući da će rast nastaviti da plaća dug. Tačan obim spoljnog duga teško je sažeti jednim brojem — različite procene govore o oko dvadesetak milijardi dolara krajem sedamdesetih — ali je trend bio jasan i zabrinjavajući. Inflacija se ubrzavala, produktivnost je posle sredine sedamdesetih opadala, a sistem samoupravnih dogovora i sporazuma postajao je sve teži za upravljanje."
+    },
+    {
+      "type": "paragraph",
+      "text": "Bilanca tih trideset godina ne dopušta jednostavnu ocenu. S jedne strane, materijalni pomak bio je stvaran i dubok: zemlja koja je 1945. bila pretežno seljačka, do kraja sedamdesetih bila je industrijsko-urbano društvo sa pismenom omladinom, masovnim zdravstvom i potrošačkom svakodnevicom. S druge strane, mehanizam koji je sve to nosio — kombinacija samoupravljanja, regionalnih kompromisa i stranog zaduživanja — sa godinama je proizvodio manje rasta uz više troškova. Kada su krajem 1979. i početkom osamdesetih kreditna vrata na Zapadu počela da se zatvaraju, postalo je vidljivo ono što je dotad bilo prikriveno rastom: privreda socijalističke Jugoslavije ulazila je u krizu iz koje se, kao sistem, neće izvući."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

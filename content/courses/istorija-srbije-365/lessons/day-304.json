@@ -6,13 +6,53 @@
   "dayNumber": 304,
   "order": 2,
   "title": "Ujedinjenje 1. decembra 1918.",
+  "subtitle": "Kako je u stanu na Terazijama, jednom rečenicom regenta Aleksandra, proglašena Kraljevina Srba, Hrvata i Slovenaca",
   "readingTimeMinutes": 7,
   "year": 1918,
-  "isPlaceholder": true,
+  "dateLabel": "1. decembar 1918.",
+  "timelinePosition": "1. decembar 1918.",
+  "summary": "Proglašenje ujedinjenja Srbije sa Državom Slovenaca, Hrvata i Srba u Kraljevstvo SHS — čin obavljen u privatnom stanu, bez parlamenta, ustava i referenduma, koji će odrediti i uspehe i tegobe nove države.",
+  "keyPeople": ["regent Aleksandar Karađorđević", "Nikola Pašić", "Stojan Protić", "Anton Korošec", "Stjepan Radić"],
+  "keyPlaces": ["Beograd", "Zagreb", "Ljubljana"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Krajem novembra 1918. Evropa je još bila puna dima. Habsburška monarhija se raspala za nekoliko nedelja, na njenim južnim provincijama proglašena je 29. oktobra Država Slovenaca, Hrvata i Srba sa središtem u Zagrebu, a srpska vojska, koja je u jesen probila Solunski front, ulazila je u oslobođeni Beograd i prelazila preko nekadašnjih granica. Nova država na severu nije imala ni vojsku ni priznanje, italijanska vojska napredovala je u Istru i Dalmaciju, a u unutrašnjosti su vladali nered, glad i pljačka. U takvim okolnostima Narodno vijeće u Zagrebu donelo je odluku da krene u ujedinjenje sa Kraljevinom Srbijom — pre nego što sve počne da se osipa."
+    },
+    {
+      "type": "paragraph",
+      "text": "Delegacija Narodnog vijeća, dvadeset osmoro članova, krenula je iz Zagreba 28. novembra 1918. U njoj su bili ljudi različitog porekla i različitih očekivanja: predsednik delegacije bio je Ante Pavelić, zubar i prvak Starčevićeve stranke prava — ne onaj kasniji ustaški poglavnik, već čovek istog imena iz starije generacije; među najuticajnijima bio je Svetozar Pribićević, vođa prečanskih Srba i odlučan pristalica brzog ujedinjenja; dolazili su i Slovenci, Hrvati i Bosanci, a Ante Trumbić, predsednik Jugoslovenskog odbora, bio je u Parizu i u Beograd nije stigao. U vozu su nosili tekst „Adrese” — pisma kojim će regentu Aleksandru predati molbu za ujedinjenje i u njoj nabrojati uslove i očekivanja Narodnog vijeća o organizaciji buduće države."
+    },
+    {
+      "type": "paragraph",
+      "text": "Tih dana u Beogradu nije bilo zgrade dostojne velikog državnog čina. Skupština Kraljevine Srbije bila je oštećena u ratu, dvor opljačkan, mnoge institucije tek su se vraćale iz izgnanstva. Zato je za prijem delegacije izabran privatni stan — stan trgovca Krsmanovića na Terazijama, jedna od retkih reprezentativnih građanskih kuća u centru grada. Tu je 1. decembra 1918, u večernjim satima, regent Aleksandar Karađorđević primio delegaciju Narodnog vijeća. Pavelić je pročitao „Adresu”, u kojoj je Vijeće tražilo ujedinjenje sa Srbijom i Crnom Gorom u jedinstvenu državu i predlagalo da se konačno uređenje, sa ustavom i organizacijom vlasti, prepusti budućoj ustavotvornoj skupštini, koju će birati ceo narod."
+    },
+    {
+      "type": "paragraph",
+      "text": "Regent Aleksandar odgovorio je kratko i odlučno. U svom govoru proglasio je „ujedinjenje Srbije sa zemljama nezavisne Države Slovenaca, Hrvata i Srba u jedinstveno Kraljevstvo Srba, Hrvata i Slovenaca”. Tom jednom rečenicom — izgovorenom u trpezariji jedne beogradske kuće, pred nekoliko desetina ljudi — rođena je prva jugoslovenska država. Nije bilo glasanja, nije bilo parlamentarne procedure, nije bilo ustava, nije bilo plebiscita ni u jednoj zemlji koja je ulazila u novu državu. Sve uslove i ograde koje je „Adresa” pažljivo nabrojala regent je u svom odgovoru prešao i sveo na deklarativni čin. Bio je to fait accompli — svršen čin — izveden u formi koja će, koliko god racionalno opravdana u žurbi tih dana, godinama biti tačka spora."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Zvona u Beogradu, oprez u Zagrebu"
+    },
+    {
+      "type": "paragraph",
+      "text": "U Beogradu se vest primila s neskrivenom radošću. Iste večeri zvonila su zvona, sledećih dana priređen je defile vojske niz Terazije, novine su pisale o ostvarenju vekovnog sna o ujedinjenju južnoslovenskih naroda. Za Srbiju, koja je u ratu izgubila ogroman deo stanovništva, ujedinjenje je delovalo kao kruna užasne četvorogodišnje žrtve i kao garancija da se prečanski Srbi više nikada neće naći pod tuđom vlašću. Veliki broj građana, političara i oficira ozbiljno je verovao da je upravo brzina ujedinjenja bila njegova najveća vrlina — da je svako odlaganje moglo da otvori vrata italijanskoj okupaciji, mađarskoj revanšističkoj politici ili unutrašnjem raspadu nove države."
+    },
+    {
+      "type": "paragraph",
+      "text": "U Zagrebu i Ljubljani prijem je bio mešovit. Na ulicama je bilo iskrene radosti zbog kraja Habsburške monarhije i zbog života u sopstvenoj državi, ali se u političkim krugovima brzo osetilo razočaranje formom. Mnogi su očekivali pregovore o organizaciji države — federaciju ili bar široku autonomiju, ravnopravnost dinastije i ustavnih institucija — a ne deklarativno proglašenje koje sve to ostavlja za kasnije. Najoštriji je bio Stjepan Radić, vođa Hrvatske pučke seljačke stranke. On je još na sednici Narodnog vijeća uoči polaska delegacije govorio protiv žurbe i upozorio, u rečenici koja će ostati upamćena, da se Hrvatska na ovaj način „gura u sigurni nemir”. Njegova stranka odbila je da pošalje delegate u Beograd i ostala u opoziciji od prvog dana nove države."
+    },
+    {
+      "type": "paragraph",
+      "text": "Već u narednim nedeljama formirana je prva centralna vlada. Premijer je postao Stojan Protić, dugogodišnji Pašićev saradnik iz Radikalne stranke, a potpredsednik vlade slovenački političar Anton Korošec, predsednik Narodnog vijeća — kombinacija je trebalo da pokaže da nova država nije puko proširenje Srbije, već zajednička tvorevina. U martu 1919. sazvano je Privremeno narodno predstavništvo, sastavljeno bez izbora, od delegata postojećih skupština i odbora, kao zakonodavno telo do izbora za ustavotvornu skupštinu. Spoljne sile su tokom 1919. priznavale novu državu jednu po jednu — ne uvek brzo i ne uvek bez uslova, naročito zbog otvorenog spora sa Italijom oko Jadrana."
+    },
+    {
+      "type": "paragraph",
+      "text": "Prvi decembar 1918. zato stoji u srpskoj i jugoslovenskoj istoriji dvostruko. S jedne strane, to je jedan od najvažnijih datuma dvadesetog veka: stvorena je prva država u kojoj su skoro svi južnoslovenski narodi živeli zajedno, ostvarena je ideja koja se rađala od ilirskog pokreta i Načertanija. S druge strane, način na koji je ujedinjenje obavljeno — u privatnom stanu, jednom rečenicom regenta, bez parlamenta, bez ustava i bez glasa naroda — ugradio je u temelje nove države nejasnoće koje će obeležiti ceo međuratni period. Mnoge tenzije koje će dvadesetih i tridesetih godina potresati Kraljevinu, od ustavnog spora do hrvatskog pitanja, počele su pre da se rešavaju nego što su se uopšte postavile — u trpezariji Krsmanovićevog stana, jedne hladne nedelje uveče."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

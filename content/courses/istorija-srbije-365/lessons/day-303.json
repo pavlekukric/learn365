@@ -6,13 +6,53 @@
   "dayNumber": 303,
   "order": 1,
   "title": "Stvaranje Kraljevine SHS",
+  "subtitle": "Politički proces od raspada Austrougarske u oktobru do priprema za ujedinjenje krajem novembra 1918.",
   "readingTimeMinutes": 8,
   "year": 1918,
-  "isPlaceholder": true,
+  "dateLabel": "oktobar–decembar 1918.",
+  "timelinePosition": "oktobar–decembar 1918.",
+  "summary": "Od osnivanja Narodnog vijeća u Zagrebu i kratkotrajne Države Slovenaca, Hrvata i Srba, preko odluka u Novom Sadu i Podgorici, do delegacije koja krajem novembra odlazi u Beograd da pregovara o zajedničkoj državi.",
+  "keyPeople": ["Nikola Pašić", "Anton Korošec", "Ante Trumbić", "Svetozar Pribićević", "regent Aleksandar"],
+  "keyPlaces": ["Beograd", "Zagreb", "Novi Sad", "Podgorica"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Kada je leto 1918. prešlo u jesen, svima koji su pažljivo pratili događaje na frontovima bilo je jasno da Austrougarska više neće dočekati novu godinu. Nemački proboj na zapadu se ugasio, italijanski front je popuštao, a probojem Solunskog fronta u septembru srpska vojska sa saveznicima krenula je ka Dunavu i Savi. Krfska deklaracija iz 1917. godine — zajednički dokument srpske vlade i Jugoslovenskog odbora — već je postavila načelo buduće zajedničke države Srba, Hrvata i Slovenaca pod dinastijom Karađorđevića. Ono što je tada izgledalo kao ratni proglas dvoje saputnika u izgnanstvu, sada je, u oktobru 1918, postajalo neposredno političko pitanje: ko će, gde i kako proglasiti tu državu, i pod kojim uslovima."
+    },
+    {
+      "type": "paragraph",
+      "text": "Habsburška monarhija raspadala se brže nego što su njeni političari uspevali da formulišu odgovore. U Pragu, Beču, Krakovu i Zagrebu nicali su nacionalni odbori koji su preuzimali vlast u ime naroda, a ne više cara. U južnoslovenskim zemljama Monarhije — Sloveniji, Hrvatskoj, Slavoniji, Dalmaciji, Bosni i Hercegovini, Vojvodini — taj proces sproveden je 5. i 6. oktobra 1918, kada je u Zagrebu formirano Narodno vijeće Slovenaca, Hrvata i Srba. Za predsednika je izabran slovenački političar Anton Korošec, a među potpredsednicima našli su se Ante Pavelić stariji, hrvatski pravaš, i Svetozar Pribićević, vođa prečanskih Srba. Vijeće je odmah objavilo da preuzima predstavljanje svih južnih Slovena u Austrougarskoj i da će raditi na njihovom ujedinjenju u nezavisnu državu."
+    },
+    {
+      "type": "paragraph",
+      "text": "Dvadeset devetog oktobra 1918. Hrvatski sabor u Zagrebu jednoglasno je raskinuo sve državnopravne veze sa Austrougarskom monarhijom i priznao Narodno vijeće kao vrhovnu vlast. Istog dana proglašena je Država Slovenaca, Hrvata i Srba — kratkotrajna tvorevina koja je obuhvatila južnoslovenske oblasti bivše Monarhije, sa Zagrebom kao središtem. Ta država nije bila priznata od velikih sila, nije imala vlastitu vojsku dostojnu tog imena, ni stabilnu administraciju, ali je za nekoliko nedelja predstavljala stvarnu vlast od Triglava do Drine. Njenu izvršnu vlast vršilo je predsedništvo Narodnog vijeća, a unutar njega su se već nazirale linije podele koje će obeležiti ceo međuratni period: jedna struja je tražila čvrstu jugoslovensku uniju, druga federalno uređenje, treća — manjinska — samostalnost makar privremeno."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Pritisak spolja i unutra"
+    },
+    {
+      "type": "paragraph",
+      "text": "Nova država se gotovo istog časa našla pred dvostrukim pritiskom. Sa zapada je nadirala italijanska vojska. Po tajnom Londonskom ugovoru iz 1915. godine Antanta je Italiji obećala znatne delove jadranske obale — Istru, severnu Dalmaciju, niz ostrva — kao cenu za ulazak u rat. Italijanske jedinice počele su da zaposedaju te oblasti, a Narodno vijeće u Zagrebu nije imalo sredstava da ih zaustavi. Diplomatski apeli upućivani su Parizu i Londonu, ali su saveznici, vezani ranijim obavezama, ostajali uzdržani. Strah da će se na zapadu trajno izgubiti široke jugoslovenske teritorije postao je presudan argument svih onih koji su žurili sa ujedinjenjem."
+    },
+    {
+      "type": "paragraph",
+      "text": "Unutra je vladao rasul. Četiri godine rata ostavile su sela bez muškaraca, žitnice prazne, a austrougarsku administraciju razglobljenu. Po šumama Slavonije, Bosne i Srema kretali su se takozvani zelenokadrovaši — odbegli vojnici i dezerteri, isprva samo skriveni od žandarmerije, a do jeseni 1918. već naoružane grupe koje su pljačkale spahijske posede i opštinske kase, ponekad sa primesama socijalnih zahteva. Narodno vijeće je slalo poverenike i pozivalo na red, ali nije imalo silu da ga uspostavi. Glad u gradovima, špekulacije, slom železnice — sve je upućivalo na to da kratkotrajna država ne može sama opstati ni nedeljama, a kamoli mesecima."
+    },
+    {
+      "type": "paragraph",
+      "text": "U tim okolnostima Narodno vijeće je 24. novembra 1918. donelo odluku da uputi delegaciju u Beograd, sa zadatkom da sa srpskom vladom i regentom Aleksandrom pregovara o stvaranju zajedničke države. Skoro istovremeno donete su dve odluke koje su pravac ujedinjenja učinile neumitnim. Velika narodna skupština Srba, Bunjevaca i ostalih Slovena u Banatu, Bačkoj i Baranji sastala se 25. novembra u Novom Sadu i izglasala priključenje Vojvodine Kraljevini Srbiji. Dan ranije, 26. novembra, takozvana Podgorička skupština svrgla je dinastiju Petrovića-Njegoša i proglasila ujedinjenje Crne Gore sa Srbijom. Pitanje legitimiteta te skupštine — način izbora poslanika, prisustvo srpske vojske, sukob između „bjelaša” i „zelenaša” — ostaje sporno do danas i istoričari ga otvoreno označavaju kao otvoreno pitanje."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pregovori u Beogradu trajali su poslednjih dana novembra. Vlada Nikole Pašića i regent Aleksandar zastupali su koncepciju centralističke monarhije pod Karađorđevićima — državu koja bi nasledila pravnu tradiciju Kraljevine Srbije i u nju utopila ostala područja. U zagrebačkom Narodnom vijeću većina je bila spremna na ujedinjenje, ali jedan deo, na čelu sa Stjepanom Radićem, tražio je federalno uređenje sa jasnim garancijama hrvatske i slovenačke autonomije. Formalni kompromis nije postignut. Delegacija Narodnog vijeća, na čelu sa potpredsednikom Pavelićem starijim, prihvatila je u suštini srpski predlog — verujući da je vreme presudno i da se uslovi mogu naknadno popraviti u zajedničkoj državi. Bila je to odluka u žurbi, koja će kasnije biti predmet mnogih osporavanja."
+    },
+    {
+      "type": "paragraph",
+      "text": "Na taj način, dva meseca posle proboja Solunskog fronta, južnoslovensko pitanje je dobilo svoj politički okvir. Nije to bio rezultat samo dugogodišnje jugoslovenske ideologije, niti samo srpske vojne pobede; bila je to kombinacija ideala, italijanske pretnje, ekonomskog raspada Austrougarske i strpljivog diplomatskog rada. Prvi decembar 1918, dan kada će regent Aleksandar pred delegacijom Narodnog vijeća proglasiti ujedinjenje, biće tema sledeće lekcije. Ono što je važno upamtiti iz oktobra i novembra te godine jeste da je nova država rođena u trenutku krajnje nužde — sa mnogo nerešenih pitanja koja će je pratiti čitavog veka."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

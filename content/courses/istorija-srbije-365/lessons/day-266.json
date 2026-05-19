@@ -6,13 +6,53 @@
   "dayNumber": 266,
   "order": 1,
   "title": "Majski prevrat 1903.",
+  "subtitle": "Noć kada je grupa oficira u Starom dvoru krvavo prekinula vladavinu Obrenovića i otvorila put Karađorđevićima",
   "readingTimeMinutes": 8,
   "year": 1903,
-  "isPlaceholder": true,
+  "dateLabel": "1903.",
+  "timelinePosition": "1903.",
+  "summary": "U noći 28. na 29. maj 1903. grupa oficira pod vođstvom Dragutina Dimitrijevića Apisa ubila je kralja Aleksandra Obrenovića i kraljicu Dragu u Starom dvoru, čime je okončana dinastija Obrenovića i otvoren put restauraciji Karađorđevića i parlamentarnoj epohi 1903–1914.",
+  "keyPeople": ["Aleksandar Obrenović", "Draga Mašin", "Dragutin Dimitrijević Apis", "Đorđe Genčić", "Jovan Avakumović", "Petar Karađorđević", "Milovan Pavlović", "Velimir Todorović"],
+  "keyPlaces": ["Beograd", "Stari dvor", "Ženeva", "Topčider"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "U noći između 28. i 29. maja 1903. godine, po starom kalendaru — između 10. i 11. juna po novom — grupa od oko sedamdesetak mlađih oficira beogradskog garnizona ušla je naoružana u Stari dvor. Pre nego što je svanulo, kralj Aleksandar Obrenović i kraljica Draga bili su mrtvi, a sa njima i nekoliko ljudi iz najužeg dvorskog kruga. Dinastija Obrenovića, koja je vladala Srbijom, sa kratkim prekidima, gotovo ceo vek, prestala je da postoji u jednoj jedinoj noći. Bio je to prvi atentat na vladara u modernoj srpskoj istoriji i događaj koji je istog časa potresao Evropu."
+    },
+    {
+      "type": "paragraph",
+      "text": "Do prevrata se nije došlo iznenada. Već nekoliko godina pre, među oficirskim korpusom kuvala je teška uvređenost. Kralj Aleksandar oženio je 1900. Dragu Mašin, ženu znatno stariju od sebe, udovicu i nekadašnju dvorsku damu njegove majke, što je u javnosti, a naročito u vojsci, primljeno gotovo kao skandal. Brzo se uz to vezala i bojazan od takozvanog „Lunjevičkog naslednika” — pošto kraljevski par nije imao dece, šuškalo se da bi za prestolonaslednika mogao biti proglašen Dragin brat. Vojska, koja je sebe doživljavala kao čuvarku državne časti, smatrala je takvu mogućnost neprihvatljivom. Tome se dodavalo i hronično nezadovoljstvo dvorskim mešanjem u vojne poslove, čestim smenama ministara i ličnim režimom koji je Aleksandar gradio izvan ustavnih okvira."
+    },
+    {
+      "type": "paragraph",
+      "text": "Zavera je sazrevala tiho. Njen vojni mozak bio je kapetan Dragutin Dimitrijević, koji će kasnije postati poznat pod nadimkom Apis — mlad, hladan, organizatorski darovit oficir oko koga se okupila grupa sličnih. Politički zaslon davali su im stariji ljudi nezadovoljni režimom, među njima Đorđe Genčić, nekadašnji ministar, i Jovan Avakumović, koji će već sutradan postati šef nove vlade. Mreža je polako rasla; znalo se ko šta radi te noći, koja kapija prima, koja jedinica obezbeđuje grad, ko prekida telegraf. Tačan broj učesnika ostao je predmet kasnijih rasprava, ali se broj od oko sedamdeset zaverenika obično navodi kao verodostojan."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Noć u Starom dvoru"
+    },
+    {
+      "type": "paragraph",
+      "text": "Posle ponoći, kada je grad već utihnuo, zaverenici su probili glavni ulaz Starog dvora. Stražarska odbrana bila je slaba; pojedini oficiri unutar dvora bili su deo zavere. Kralj i kraljica, probuđeni pucnjima i lupom, sklonili su se u jednu malu prostoriju u zidu njihove spavaće sobe — skrovište koje je dvorska arhitektura predviđala za baš ovakve trenutke. Tu su ostali skoro dva sata, dok su zaverenici, ne znajući gde su, pretresali sobu za sobom. Kada su konačno pronađeni, ubijeni su sa više od deset pucnjeva i udaraca sabljama; tela su, prema većini izvora, kasnije izbačena kroz prozor u dvorišni vrt. Bio je to prizor čija je surovost zaprepastila i samo Beograd, naviknut na oštre političke smene."
+    },
+    {
+      "type": "paragraph",
+      "text": "Iste noći ubijeni su i ministar vojske general Milovan Pavlović, ministar policije Velimir Todorović, kao i kraljičina braća Nikola i Nikodije Lunjevica — oni su odvedeni iz svojih stanova i streljani bez suđenja. Cilj je bio jasan: ne samo skinuti kralja, nego ukloniti i ceo krug koji bi mogao tražiti odmazdu ili polagati pravo na presto. Do jutra je grad bio u rukama zaverenika; vlada je bila obrazovana po pripremljenom planu, a vojska je stala uz nove vlasti."
+    },
+    {
+      "type": "paragraph",
+      "text": "Vest se munjevito raširila Evropom. Velika Britanija i Holandija privremeno su povukle svoje diplomatske predstavnike iz Beograda; nekoliko godina će, naročito sa Londonom, odnosi ostati hladni upravo zbog toga što zaverenici nisu bili kažnjeni, već su zadržani — i unapređivani — u redovnoj vojsci. Druge prestonice reagovale su uzdržanije, ali je opšti utisak bio isti: dogodilo se nešto što se u Evropi početkom dvadesetog veka više nije smatralo mogućim. Već sutradan, 30. maja po starom kalendaru, Narodna skupština je za novog kralja proglasila Petra Karađorđevića, koji je dotad živeo u emigraciji u Ženevi. Dinastija Karađorđevića, posle skoro pola veka, vraćala se na presto."
+    },
+    {
+      "type": "paragraph",
+      "text": "Moralna ocena Majskog prevrata ostala je do danas otvorena. Nesumnjivo, reč je o krvavom činu — vojnička zavera koja je u istoj noći fizički zatrla jednu dinastiju i ubila ljude bez ikakvog suda. Ali isto je tako tačno da je posle prevrata sledilo razdoblje koje će kasnija istoriografija nazvati „zlatnim dobom” srpskog parlamentarizma, doba između 1903. i 1914, kada novi kralj nije pokušavao ono što su Obrenovići — autoritarne intervencije u rad skupštine i stranaka. U tome je suštinski paradoks: nasilan čin doveo je do najslobodnije političke epohe stare Srbije."
+    },
+    {
+      "type": "paragraph",
+      "text": "Tu je i druga, mračnija strana. Mreža oficira koja je organizovala prevrat nije se rasturila. Apis i njegovi ljudi ostali su unutar vojske kao zatvoreno bratstvo, čvrsto svesno svoje uloge u događaju od kog niko nije smeo da ih razdvoji. Iz tog jezgra će vremenom izrasti tajne organizacije — pre svega „Crna ruka”, a posredno i krug koji će uticati na mladobosanski pokret. Linija od majskih noći 1903. do Sarajeva 1914. tanka je, ali postoji, i istoričari je odavno vide. Bez heroizovanja i bez moralnih presuda, ostaje činjenica: prvi atentat na vladara u modernoj Srbiji bio je istovremeno i uvodna scena za sav onaj politički metod nasilja kojim će dvadeseti vek na ovim prostorima biti tako gusto ispunjen."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

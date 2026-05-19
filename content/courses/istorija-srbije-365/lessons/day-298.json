@@ -6,13 +6,49 @@
   "dayNumber": 298,
   "order": 11,
   "title": "Život u okupiranoj Srbiji",
+  "subtitle": "Austrougarska i bugarska uprava 1915–1918, Toplički ustanak i ljudska cena tri godine pod okupacijom",
   "readingTimeMinutes": 7,
   "year": 1917,
-  "isPlaceholder": true,
+  "dateLabel": "1915–1918.",
+  "timelinePosition": "1915–1918.",
+  "summary": "Posle vojnog sloma 1915. srpska teritorija je podeljena između austrougarske i bugarske okupacione uprave; tri godine režima, denacionalizacije, gladi i Topličkog ustanka oblikovaće sećanje na rat koliko i bitke.",
+  "keyPeople": ["Kosta Vojinović", "Kosta Milovanović Pećanac", "August fon Makenzen"],
+  "keyPlaces": ["Beograd", "Niš", "Toplica", "Pirot"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Kada je krajem 1915. godine srpska vojska prešla preko Albanije, na zemlji koju je za sobom ostavila nije nastala praznina nego nova država — okupaciona. Centralne sile su Srbiju podelile na dve uprave. Severni i centralni delovi, sa Beogradom, Šapcem, Valjevom, Kragujevcem i Čačkom, ušli su u Generalno guvernerstvo Srbija sa sedištem u Beogradu, pod austrougarskom vojnom upravom. Jugoistok — Niš, Pirot, Vranje, Leskovac, Toplica — pripao je Bugarskoj, koja je ovaj prostor tretirala kao priključen, a ne samo zaposednut. Granica između dve okupacije išla je otprilike linijom Velika Morava — Južna Morava, i nije bila samo administrativna: stanovništvo s jedne i s druge strane živelo je tri godine pod osetno različitim režimima."
+    },
+    {
+      "type": "paragraph",
+      "text": "Austrougarska uprava bila je rigidna, ali se u principu držala okvira vojne okupacije. Civilno stanovništvo je popisano, kretanje ograničeno propusnicama, štampa pod cenzurom, javni život sveden na minimum. Glavni teret bile su rekvizicije: hrana, stoka, vuna, koža, metal — sve što je vojska Centralnih sila mogla da iskoristi na frontovima — odnošeno je iz srpskih sela po cenama koje su određivane administrativno, često simbolično. Sposobni muškarci raspoređivani su na prisilan rad u rudnicima, na popravkama puteva i pruga, i na seči šuma. Inteligencija, sveštenstvo, učitelji, viđeniji ljudi po varošima — sistematski su internirani u logore širom Monarhije, jer ih je uprava videla kao moguće nosioce otpora. Škole su radile u smanjenom obimu, sa kontrolisanim programom, ali jezik i pismo nisu bili zabranjeni."
+    },
+    {
+      "type": "paragraph",
+      "text": "Bugarska okupacija jugoistočne Srbije bila je oštrija i drugačija po cilju. Bugarska država nije nameravala da posle rata vrati ovu teritoriju — videla ju je kao deo budućeg, proširenog bugarskog prostora. Iz toga je proizašla sistemska denacionalizacija. Srpske škole su zatvorene ili pretvorene u bugarske; ćirilica u srpskoj redakciji povučena je iz javne upotrebe i zamenjena bugarskom; sveštenici Srpske pravoslavne crkve smenjivani su i zamenjivani sveštenicima Bugarske egzarhije. U pojedinim oblastima pokušano je i menjanje prezimena dodavanjem bugarskih nastavaka. Najteža mera, ona koja će dovesti do otvorenog otpora, bio je pokušaj da se srpski muškarci sa okupiranog jugoistoka regrutuju u bugarsku vojsku — kao da su oduvek bili bugarski državljani."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Toplički ustanak"
+    },
+    {
+      "type": "paragraph",
+      "text": "Krajem februara i u martu 1917. godine, u brdovitom kraju Toplice južno od Kruševca, izbio je masovni narodni ustanak. Neposredan povod bio je bugarski pokušaj mobilizacije srpskih regruta; dublji uzrok bilo je trogodišnje iskustvo okupacije. Ustanike su predvodili Kosta Vojinović, predratni oficir koji je posle povlačenja ostao u zemlji, i Kosta Milovanović Pećanac, izaslanik srpske vrhovne komande koji je iz Soluna prebačen da pripremi gerilsku akciju kada za to dođe vreme. Ustanak je u prvom naletu uspeo da oslobodi nekoliko varošica i prereže komunikacije; po nekim procenama u njemu je učestvovalo nekoliko desetina hiljada ljudi, mada se tačan broj i danas razlikuje od izvora do izvora. Pećanac se zalagao da se akcija ograniči na gerilsko ratovanje i sačeka prodor sa Soluna, dok je Vojinović insistirao na otvorenom frontu — neslaganje koje je ostalo zabeleženo i koje je doprinelo brzom slomu."
+    },
+    {
+      "type": "paragraph",
+      "text": "Odgovor je bio nesrazmeran i surov. Bugarska vojska, uz pomoć austrougarskih jedinica i dovedenih albanskih iregularnih odreda, kombinovanom akcijom je u proleće 1917. ugušila ustanak. Represija nad civilnim stanovništvom bila je sistemska: spaljena su sela, izvršena su masovna pogubljenja, hiljade ljudi su streljani, obešeni ili odvedeni u logore. Procene broja žrtava idu od dvadesetak do preko pedeset hiljada ubijenih i interniranih i predmet su istoričarskih rasprava do danas. Kosta Vojinović je iduće zime stradao u borbi; Pećanac se sa malim odredom održao u planinama do kraja rata. Toplički ustanak je u trenutku slomljen, ali je ostao kao činjenica — pravi narodni otpor koji je izbio iznutra, a ne kao naknadno projektovana legenda."
+    },
+    {
+      "type": "paragraph",
+      "text": "Posle Topličkog ustanka, poslednja godina i po okupacije bila je za stanovništvo najteža. Rekvizicije su pojačane, jer su Centralne sile sa svih frontova vukle hranu; zima 1917–1918. donela je ozbiljnu nestašicu. Smrtnost dece, starih i bolesnih naglo je porasla u varošima i selima oba okupaciona područja. Srpski civili i ratni zarobljenici završavali su u logorima koje su Austrougarska i Bugarska držale širom svojih teritorija — Nežider, Aršau-Boldogason, Mautauzen, Doboj, Sliven i drugi — u uslovima u kojima su tifus, dizenterija i glad ubijali sistematski. Pouzdane brojke i danas se utvrđuju, ali je smrtnost u nekim logorima merena u desetinama procenata."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ipak, život se nastavljao i u okupiranoj zemlji. Deo intelektualaca koji nije bio interniran ostao je u tišini; pojedini sveštenici i učitelji nastavili su, oprezno, da rade — krštenja, sahrane, časove u kućama, čuvanje knjiga i parohijskih protokola. Iza zatvorenih kapija varoških kuća i u zabačenim selima čuvalo se ono što je uprava želela da se izgubi. Kada se krajem septembra 1918. probio Solunski front i kada su prve srpske jedinice došle nazad do Niša, Beograda i Topličkog kraja, dočekale su zemlju iscrpljenu, prorešetanu logorima i grobljima, ali sa stanovništvom koje je tri godine, na različite načine i sa različitim cenama, sačuvalo osećaj da pripada onome što se vraća."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

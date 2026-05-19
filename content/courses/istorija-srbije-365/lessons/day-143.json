@@ -6,13 +6,53 @@
   "dayNumber": 143,
   "order": 5,
   "title": "Seobe stanovništva",
+  "subtitle": "Kako su decenije osmanskih osvajanja pokrenule srpsko stanovništvo ka severu i počele da menjaju kartu srpskog sveta",
   "readingTimeMinutes": 7,
   "year": 1490,
-  "isPlaceholder": true,
+  "dateLabel": "15–16. vek",
+  "timelinePosition": "15–16. vek",
+  "summary": "Pomeranja srpskog stanovništva u kasnom 15. i 16. veku — od pada Despotovine i Bosne ka Savi, Dunavu i južnoj Ugarskoj, gde nastaju nova srpska žarišta.",
+  "keyPeople": [],
+  "keyPlaces": ["Sava", "Dunav", "Srem", "Bačka", "Banat", "Fruška Gora"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Pad Smedereva 1459. i pad Bosne 1463. godine nisu bili samo politički krajevi dveju država. Bili su i početak dugog, tihog pokreta ljudi. U decenijama koje su sledile, kroz ratove, pohode, povratne udare i nove osmanske prodore, srpsko stanovništvo se postepeno seli sa svojih starih ognjišta. Ne odjednom, ne u jednom velikom talasu, već u dugom nizu manjih i većih kretanja koja se protežu kroz ceo kasni 15. i kroz 16. vek. Glavni pravac je sever — preko Save i Dunava, u zemlje ugarske krune. Drugi su išli ka Jadranu, ili su tražili sklonište u brdima Crne Gore i Hercegovine, gde se osmanska vlast probijala sporije i nepotpunije."
+    },
+    {
+      "type": "paragraph",
+      "text": "Razlozi su bili praktični i okrutno jasni. Tamo gde je osmanska vojska prošla, a posebno tamo gde se otpor pružao, sledili su pljačka, odvođenje u roblje, popisi i nameti. Mnogi su odlučili da odu pre nego što dođu na red. Bežali su pojedinci, porodice, čitava sela; bežali su seljaci koji su strahovali od osvete, građani osvojenih varoši, monasi koji su sa sobom nosili crkvene knjige, ikone i mošti. Pomerali su se i ostaci vlastele — neki u službu ugarskog kralja, neki u tek osnovane srpske posede severno od Dunava, gde je polako rasla ona tradicija „srpskog despota u Ugarskoj” koja će obeležiti narednu epohu."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pokreti nisu uvek bili stihijski. Često su ih vodili sami župani, knezovi i sveštenici, ljudi koji su znali put i koji su unapred dogovarali sa ugarskim vlastima gde će se novodošli naseliti i pod kojim uslovima. Hroničari pominju seobe u kojima se kreće ne samo svet, nego i zajednica — sa svojim starešinama, sa svojim popovima, sa svojim crkvenim sasudima. Tako se preko granice prenosila ne samo radna snaga, nego i unutrašnji red jedne zajednice: ko sudi, ko služi liturgiju, ko upravlja zajedničkim poslovima."
+    },
+    {
+      "type": "paragraph",
+      "text": "Na drugoj strani granice, taj svet je bio dočekan — i to je važan deo priče. Južna Ugarska je posle ratova bila proređena, mestimično opustela; ugarska kruna i katolička vlastela imali su čisti interes da je iznova nasele. Pravoslavni srpski doseljenici donosili su tri stvari koje su bile potrebne: ruke za zemlju, vojnike za graničnu službu i hrišćanski živalj koji će činiti tampon pred Osmanlijama. Posebno cenjena bila je srpska laka konjica — „rascijani”, kako su ih u latinskim spisima nazivali — pokretna, navikla na pograničnu borbu, korisna i kao izviđači i kao udarna snaga. Zauzvrat su pridošlice dobijale razne povlastice: dozvolu da drže svoje sveštenstvo i crkvenu organizaciju, oslobađanja od pojedinih nameta, vojničke statuse. Sve to nije bilo jedinstveno pravo iz jednog akta, nego mreža lokalnih ugovora i kraljevskih milosti, ali je u celini stvaralo prostor u kojem se pravoslavni Srbin mogao naseliti, ostati to što jeste i raditi za novu državu."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Nova žarišta severno od Save i Dunava"
+    },
+    {
+      "type": "paragraph",
+      "text": "Kroz kasni 15. i tokom 16. veka, predeli koji će kasnije ući u pojam Vojvodine — Srem, Bačka, Banat, delovi Slavonije — postepeno se ispunjavaju srpskim pravoslavnim stanovništvom. Tu se ne radi o jednoj koloniji, nego o slojevima koji se talože iz pohoda na pohod, iz mira u mir. Naselja niču uz reke i uz stare puteve, oko utvrđenja gde se traži graničar, oko manastira koji postaju i duhovna i upravna središta. Fruška gora, niska i prijazna planina iznad Srema, postaje središte tog novog života. Izbegli monasi obnavljaju stare i podižu nove manastire — toliko gusto da će ih kasnija tradicija nazvati „Svetom Gorom Sremskom”, pravoslavnim ostrvom u katoličkoj državi, čuvarem one tradicije koju su Osmanlije razbile na jugu."
+    },
+    {
+      "type": "paragraph",
+      "text": "Srpske zajednice u tom razdoblju, međutim, ne nastaju samo severno od Save i Dunava. Ima ih i u osmanskoj Bugarskoj, gde su srpski rudari, trgovci i sveštenici odlazili još pre pada Despotovine, a sada se njihov broj pojačava novim izbeglicama. Ima ih u Vlaškoj, koja je formalno osmanski vazal ali u praksi pravoslavna i otvorena za doseljenike. Ima ih, u malom broju ali primetno, i na drugoj obali Jadrana — u Veneciji, u Napulju, u nekoliko italijanskih luka, gde se okupljaju srpski moreplovci, trgovci i pojedinci koji su pošli za vlastelom u izbeglištvo. To su sitne zajednice, ali su deo istog procesa: srpski svet se širi po obodu starog jezgra, dok se to staro jezgro proređuje."
+    },
+    {
+      "type": "paragraph",
+      "text": "Posledice toga, demografski i kulturno, bile su duboke. Stara središnja srpska oblast — Pomoravlje, delovi Kosova, krajevi oko Skoplja i Niša — gubi deo svog stanovništva i, što je važnije, gubi deo svojih nosilaca: vlastele, gradskog življa, učenog sveštenstva. Sever se, naprotiv, zgušnjava, dobija manastire, crkve, parohijsku mrežu, vlastite knezove. Karta srpskog sveta polako se pomera uz Savu i Dunav, gde će u sledećim vekovima i biti težište političkog i crkvenog života."
+    },
+    {
+      "type": "paragraph",
+      "text": "Treba reći otvoreno i ono što istorija ovde ne može sasvim tačno da izmeri. Pouzdanih popisa za ovo razdoblje je malo; brojke koje se ponekad navode oslanjaju se na osmanske defter-spise, na ugarske kraljevske darovnice i na docnije crkvene tradicije, a sve te vrste izvora govore o različitim stvarima i različito broje. Pojedinačne velike seobe — pre svega ona iz 1690. godine, predvođena patrijarhom Arsenijem Trećim Čarnojevićem — biće mnogo bolje dokumentovana, i njoj će ova hronika posvetiti posebno mesto. Ali važno je razumeti da ta velika seoba nije bila izolovan događaj. Ona je bila kraj jednog dugog niza koji počinje odmah posle 1459, kraj procesa u kojem se srpsko stanovništvo, pod stalnim pritiskom, decenijama smerno pomera ka severu — noseći sa sobom jezik, veru i sećanje na državu koje više nema."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

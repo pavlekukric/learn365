@@ -6,13 +6,49 @@
   "dayNumber": 121,
   "order": 3,
   "title": "Bitka kod Angore",
+  "subtitle": "Kako je sudar dvojice osvajača u Maloj Aziji 1402. godine, neočekivano, otvorio Srbiji čitavu deceniju predaha",
   "readingTimeMinutes": 7,
   "year": 1402,
-  "isPlaceholder": true,
+  "dateLabel": "1402.",
+  "timelinePosition": "28. jul 1402.",
+  "summary": "Poraz sultana Bajazita od Timura kod Angore, učešće Stefana Lazarevića kao osmanskog vazala, i despotska titula koju je posle bitke dobio u Konstantinopolju.",
+  "keyPeople": ["Stefan Lazarević", "Bajazit I", "Timur Lenk", "Sulejman", "Mehmed I", "Manojlo II"],
+  "keyPlaces": ["Angora", "Ankara", "Konstantinopolj"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Krajem četrnaestog veka osmanska država prerasla je iz pograničnog emirata u prvu silu Balkana i jugoistočnog Mediterana. Posle Kosova 1389. i pokoravanja velikog dela srpskih i bugarskih oblasti, sultan Bajazit I, koga su zbog brzine pokreta nazvali „Jildirim” — Munja — okrenuo se i prema Maloj Aziji. Tamo je nizom pohoda potčinio gotovo sve turske emirate Anadolije i približio se istočnoj granici nekadašnje Vizantije. Bajazitova vlast, u trenutku kada se činila najveća, dotakla je drugi, mnogo veći svet — svet srednjoazijskog osvajača Timura, koji je iz Samarkanda gradio carstvo prema Indiji, Persiji i Kavkazu. Sudar dvojice ljudi koji su istovremeno smatrali sebe gospodarima sveta postao je samo pitanje godine."
+    },
+    {
+      "type": "paragraph",
+      "text": "Timur Lenk, u zapadnim izvorima Tamerlan, do 1400. već je razorio Delhi, opljačkao Bagdad, prešao preko Sirije i kod Damaska ostavio kule od ljudskih lobanja. Njegova država protezala se od Indije do istočne Anadolije, a vojska mu je bila ono što se u to doba najviše bližilo savršenoj sili — brojna, disciplinovana konjica iza koje su išli ratni slonovi dovedeni iz Indije. Kada su anadolski emiri zbačeni od strane Bajazita potražili zaštitu na njegovom dvoru, Timur je dobio i izgovor i razlog da krene na zapad. Razmena pisama dvojice vladara, koliko god od nje sačuvano, vodila se tonom koji nije ostavljao prostora dogovoru: svaki od njih očekivao je od drugog priznanje, a nijedan nije bio od onih koji priznanje daju."
+    },
+    {
+      "type": "paragraph",
+      "text": "Vojske su se srele 28. jula 1402. u ravnici severoistočno od Angore — današnje turske prestonice Ankare. Tačne brojke izvori daju vrlo različite i nepouzdane su, ali se obično pretpostavlja da je Timurova vojska bila znatno veća. Bajazitov položaj otežavalo je i to što je deo njegove anadolske konjice, sastavljen od pripadnika nedavno pokorenih emirata, prešao na Timurovu stranu već u toku bitke. Sultan se borio sa onim što mu je ostalo: janičarima, evropskim hrišćanskim vazalima i sopstvenom dvorskom konjicom. Sredinom dana red osmanske vojske je popustio, a do večeri je raspad bio potpun. Sam Bajazit, pokušavajući da se probije, zarobljen je — događaj kakav se osmanskom sultanu nije desio ni pre ni mnogo dugo posle. Umro je u Timurovom zarobljeništvu nepunih godinu dana kasnije."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Srpski odred i povratak preko Carigrada"
+    },
+    {
+      "type": "paragraph",
+      "text": "Među Bajazitovim vazalima u tom danu bio je i Stefan Lazarević, sin kneza Lazara, sa srpskim konjičkim odredom čiju veličinu izvori procenjuju različito — verovatno između pet i deset hiljada ljudi, sa težištem prema gornjoj cifri. Iz nekoliko nezavisnih izvora, među njima i vizantijskih, dolazi saglasna ocena da je srpski odred bio jedan od retkih delova osmanske vojske koji je toga dana sačuvao red. Borio se do kraja, a potom je organizovano štitio povlačenje najstarijeg sultanovog sina Sulejmana prema zapadu. Bila je to čudna scena: srpski vazali, posle Kosova prinuđeni da idu sa Osmanlijama, sada u poraženoj vojsci održavaju ono malo discipline koje je preostalo i izvlače naslednika tek poražene dinastije. Stefan je svoj odred uspeo da izvuče gotovo ceo i krenuo nazad prema Evropi."
+    },
+    {
+      "type": "paragraph",
+      "text": "Put kući vodio je preko Konstantinopolja. Tamo se Stefan u oktobru 1402. zaustavio kod cara Manojla II Paleologa, koji je upravo bio doživeo veliko olakšanje — Bajazitova opsada Carigrada, dugogodišnji teret, prestala je čim je vest o Angori stigla. Manojlo je u srpskom knezu video saveznika koga vredi privezati uz carstvo i podario mu je titulu despota, drugu po dostojanstvu u vizantijskoj hijerarhiji, tradicionalno čuvanu za carske zetove i upravnike pridruženih oblasti. Tom titulom Stefan se vraćao kući više nego kao osmanski vazal: kao vizantijski despot, sa novim ugledom u celom pravoslavnom svetu. Od te jeseni i sama zemlja kojom je vladao u izvorima sve češće dobija ime po njegovoj tituli — Despotovina."
+    },
+    {
+      "type": "paragraph",
+      "text": "Posledice Angore za osmansku državu bile su duboke. Bajazitova četvorica sinova — Sulejman, Isa, Musa i Mehmed — započeli su međusobni rat za nasleđe koji će trajati punu deceniju, do 1413. godine. U tom razdoblju nije bilo jedinstvenog sultana, niti jedinstvene osmanske politike prema Balkanu. Stefan Lazarević je tu unutrašnju borbu koristio onako kako se okolnostima moglo: u različitim trenucima podržavao je različite Bajazitove sinove, jednom dobijao, drugi put gubio, ali je sve vreme imao prostor za samostalne odluke kakvog kao prosti vazal više ne bi imao. Kada je 1413. iz tog rata kao jedini sultan izašao Mehmed I, Stefana je zatekao kao starijeg i poštovanog balkanskog vladara s kojim se moralo razgovarati, a ne komandovati."
+    },
+    {
+      "type": "paragraph",
+      "text": "Bitka kod Angore u svetskoj istoriji pripada redu velikih sudara kasnog srednjeg veka — odnos između turske i mongolsko-turkijske moći u njoj se za trenutak prelomio na neočekivanu stranu. Za Srbiju je njena uloga bila skromnija ali stvarna: jedan tuđi poraz, hiljadama kilometara od Morave, otvorio je deceniju u kojoj je nova despotovina mogla da diše, da gradi i da se uredi pre nego što osmanska država ponovo dođe sebi. To je bila, da uporedimo s onim što je vekovima kasnije značila iznenadna oluja koja je rasterala neprijateljsku flotu pred britanskim ostrvom, retka i nezaslužena srećna okolnost — vremenski predah koji Stefan Lazarević nije izabrao, ali je umeo da iskoristi."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

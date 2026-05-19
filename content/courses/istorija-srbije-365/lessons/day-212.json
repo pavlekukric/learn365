@@ -6,13 +6,53 @@
   "dayNumber": 212,
   "order": 17,
   "title": "Hadži-Prodanova buna",
+  "subtitle": "Kratki, neuspeli ustanak iz jeseni 1814. između dva srpska ustanka — i u kome je Miloš Obrenović odbio da se pridruži",
   "readingTimeMinutes": 6,
   "year": 1814,
-  "isPlaceholder": true,
+  "dateLabel": "1814.",
+  "timelinePosition": "jesen 1814.",
+  "summary": "Hadži-Prodanova buna iz jeseni 1814. godine: kratki pokušaj obnove ustanka u kraju oko Trnave, Miloševo odbijanje da se pridruži, brza turska odmazda i pouka koja je odvela ka drugom ustanku.",
+  "keyPeople": ["Hadži-Prodan Gligorijević", "Miloš Obrenović", "Suleyman-paša Skopljak"],
+  "keyPlaces": ["Trnava", "Čačak", "Topola", "Rudnik"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Do jeseni 1814. godine, manje od godinu dana posle sloma prvog ustanka, raja u Šumadiji i zapadnoj Srbiji već je shvatila šta zapravo znači obnovljena turska vlast. Sultanovo pomilovanje, koje je u proleće te godine svečano objavljeno, pokazalo se kao slabo platno. Spahijska nadleštva vraćena su, porez se ubirao tvrdo, a po selima su prolazile čete koje su mogle da ulaze u kuće kako su htele. Najteže je padalo to što je u oblasti živela još uvek velika grupa ljudi koji su pamtili šta su deset godina ranije sami osvojili — i koji su sada, kao raja, gledali kako se isti aga vraća u istu kuću."
+    },
+    {
+      "type": "paragraph",
+      "text": "Među njima je bio i Hadži-Prodan Gligorijević, nekadašnji vojvoda iz okoline Trnave kod Čačka, veteran prvog ustanka. Za razliku od mnogih starešina koji su u jesen 1813. prešli u Austriju, on je ostao u zemlji. Imao je veze sa preostalim ustaničkim ljudima, znao je kako se diže selo i bio je u dosluhu sa monasima ovčarsko-kablarskih manastira, koji su u tom kraju činili sopstvenu vrstu mreže. Kada su tokom septembra 1814. po Beogradskom pašaluku počele da kruže vesti da turska vlast namerava da pohvata, prebije i — gde se moglo — pogubi istaknute bivše ustanike, Hadži-Prodan je odlučio da ne čeka da na njega dođe red."
+    },
+    {
+      "type": "paragraph",
+      "text": "Buna je planula u poslednjim danima septembra u kraju oko Trnave i brzo se prelila na okolna sela. U prvim danima oko nje se okupilo nekoliko stotina, po nekim procenama i više hiljada naoružanih ljudi — tačan broj ostaje predmet rasprave, jer su izvori malobrojni i pristrasni. Cilj je bio jasan koliko je i bio kratkoročan: razbiti turske posade po manjim mestima, zauzeti prelaze i dati ustanku da se prelije severnije, u Rudničku nahiju i ka Šumadiji. Ono što ustanicima nije bilo jasno bilo je da su krenuli bez bilo kakve šire pripreme, bez slaganja sa drugim knezovima i bez ijednog ozbiljnog spoljnog oslonca."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Miloš odbija"
+    },
+    {
+      "type": "paragraph",
+      "text": "Najvažnija odluka tih nedelja, međutim, nije pala na bojnom polju, nego u Rudniku. Tamo je tada živeo Miloš Obrenović, kome je Suleyman-paša Skopljak — novi beogradski vezir — po povratku iz izbeglištva poverio položaj obor-kneza Rudničke nahije. Hadži-Prodan mu je poslao poruke i pozive da se pridruži; po nekim kazivanjima i lično je dolazio kod njega. Miloš je odbio. Ocenio je da je ustanak preuranjen, da nema ni baruta ni reda, ni spoljnog saveznika, i da će biti slomljen pre nego što se pravo razgori. Više od toga: prihvatio je da Turcima pomogne u smirivanju pobune u svom kraju, pokazujući se kao odan obor-knez."
+    },
+    {
+      "type": "paragraph",
+      "text": "Taj potez je već među savremenicima izazvao oštre sudove i ostao je sporan do danas. Jedni u njemu vide hladnu, retku strategijsku trezvenost — Miloš je razumeo da će ustanak koji nije pripremljen biti samo razlog za novu krv i da treba sačekati zimu, prolazak ratne sezone i bolji čas. Drugi u tome vide oportunizam i, još teže, to da je srpski knez pomagao da se gase njegovi sopstveni saplemenici. I jedno i drugo viđenje ima svojih razloga; istorija mu je, kao što biva, presudila više po onome što je usledilo nego po samom činu."
+    },
+    {
+      "type": "paragraph",
+      "text": "Turski odgovor na bunu bio je brz i namerno zastrašujući. Vezirske čete su u nekoliko manjih sukoba razbile ustaničke grupe, a otpor se ugasio već tokom oktobra. Sledilo je ono što je Porta u ovakvim prilikama gotovo uvek činila — javna odmazda. Veći broj zarobljenih ustanika, među njima i ljudi koji sa samom bunom nisu imali mnogo veze, pogubljen je u Beogradu i drugim varošima; nabijanje na kolac korišćeno je svesno, kao prizor koji treba da odvrati ostale od pomisli na novi pokret. Hadži-Prodan se sa nekolicinom svojih uspeo prebaciti preko Save u Austriju, gde je preživeo; u obnovljenu Srbiju vratiće se godinama kasnije, ali nikada više neće biti čovek o kome se odlučuje."
+    },
+    {
+      "type": "paragraph",
+      "text": "Učinak bune na narod bio je suprotan onome čemu se Porta nadala. Krv koja je tekla u jesen 1814. nije ućutkala selo — učvrstila je u njemu osećanje da povratak na staro nije moguć i da pitanje nije da li, nego kada i kako. U narednim mesecima Miloš je upravo tu pouku pretvorio u plan: tiho je obilazio knezove, slao izviđače, gomilao barut i čekao proleće. Drugi srpski ustanak, koji će izbiti tek u Cveti 1815. godine, neće biti improvizacija jednog kraja, nego usaglašen pokret više nahija pod jednim čovekom — i taj jedan čovek biće, ne slučajno, baš onaj koji se 1814. nije dao povući u tuđu, brzopletu pobunu."
+    },
+    {
+      "type": "paragraph",
+      "text": "Hadži-Prodanova buna ostaje, dakle, mali ali stvaran red u srpskoj istoriji: poslednji odjek prvog ustanka i prvi nagoveštaj drugog. Pokazala je da raja neće mirno primiti obnovljeno tursko uređenje, da samo srce, bez pripreme, nije dovoljno — i da je izbor vođe za sledeći pokušaj već tada, makar i bolno, počeo da se odvija u korist Miloša Obrenovića."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

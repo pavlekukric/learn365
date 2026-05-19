@@ -6,13 +6,49 @@
   "dayNumber": 90,
   "order": 1,
   "title": "Žene u srednjovekovnoj Srbiji",
+  "subtitle": "Od kraljica i ktitorki do bezimenih težakinja — pola srednjovekovnog društva o kome izvori najčešće ćute",
   "readingTimeMinutes": 7,
   "year": 1300,
-  "isPlaceholder": true,
+  "dateLabel": "12–14. vek",
+  "timelinePosition": "12–14. vek",
+  "summary": "Šta se zna i šta se može pretpostaviti o životu žena u srednjovekovnoj Srbiji — od dvorskih kraljica i ktitorki do težakinja čija imena nisu zapisana.",
+  "keyPeople": ["Jelena Anžujska", "Ana Dandolo", "Simonida", "Jelena Kantakuzina", "Knjeginja Milica"],
+  "keyPlaces": [],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Najveći deo žena u srednjovekovnoj Srbiji nije ostavio ni svoje ime. Hroničari su pisali o vladarima, ratovima i crkvenim saborima; pisari su sastavljali povelje koje pominju muškarce kao vlasnike imanja i kao svedoke; freske su slikale ono što je naručeno. Sve što danas znamo o ženama tog vremena moramo da sklopimo iz nekoliko vrsta izvora — manastirskih povelja u kojima se one javljaju kao ktitorke, žitija u kojima su prikazane kao majke i monahinje, ktitorskih portreta po crkvenim zidovima koji pažljivo beleže nošnju i držanje, i članova Dušanovog zakonika koji se njih tiču. Slika koja iz toga izranja je nepotpuna, ali nije prazna. Ona pre svega pokazuje koliko je svet u kome su živele bio uređen prema muškom oku, i koliko je ipak, unutar tih okvira, postojao prostor u kome su žene delovale, posedovale, darivale i vladale."
+    },
+    {
+      "type": "paragraph",
+      "text": "Najjasnije vidimo žene s vrha društva. Uz Stefana Prvovenčanog stoji njegova druga žena, Ana Dandolo, unuka mletačkog dužda Enrika Dandola, koja u Srbiju donosi vezu sa zapadnim trgovačkim gradovima i čiji se potomci kasnije računaju u glavnu lozu Nemanjića. Najuticajnija od ranih kraljica bila je Jelena Anžujska, supruga kralja Uroša I i majka Dragutina i Milutina. Posle muževljeve smrti dobila je na upravu oblasti u Zeti i Pomorju i njima vladala kao prava vladarka — sudila, ubirala prihode, gradila. Pomagala je gradnji crkava i na pravoslavnoj i na katoličkoj strani, što za vladarku tog doba nije bilo malo, a u Gradcu na Ibru podigla je zadužbinu u kojoj je i sahranjena, da bi vekovima kasnije bila proglašena za sveticu. Njena dvorska kancelarija pisala je povelje u njeno ime, što znači da je njena vlast bila i pravno priznata, ne samo dopuštena."
+    },
+    {
+      "type": "paragraph",
+      "text": "Posle nje, na fresci u Kraljevoj crkvi u Studenici i na zidovima manastira širom Milutinove države, gleda nas Simonida — peta supruga kralja Milutina, kći vizantijskog cara Andronika II. Udata je sa pet godina u brak koji je bio čisto diplomatski potez i koji savremena merila ne mogu da pravdaju; o njenom stvarnom životu zna se malo, ali je njen lik na zidovima ostao jedan od najprepoznatljivijih portreta srednjovekovne Srbije. Polovinu veka kasnije, na čelu carskog dvora stoji Jelena Kantakuzina, supruga cara Dušana, krunisana caricom 1346. godine. Bila je grčka princeza iz moćne porodice i nije bila samo ukras prestola: posle Dušanove smrti, njen sin Uroš poverio joj je upravu nad jednim delom carstva i ona je iz Sera vladala bogatom južnom oblašću sa svojim dvorom i svojom kancelarijom, sve dok je nadiranje Turaka nije primoralo da se povuče."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Pravo, posed i svakodnevica"
+    },
+    {
+      "type": "paragraph",
+      "text": "Pravni okvir za sve te žene postavlja Dušanov zakonik, donet 1349. i dopunjen 1354. godine. Slobodna žena u njemu nije bezglasna — može da poseduje imanje, da ga nasledi i ostavi u nasleđe, da pred sudom traži pravdu i da bude svedok u određenim sporovima. Brak je sveta tajna pravoslavne crkve i Zakonik ga štiti strogo: razvod se dopušta samo u uskim okvirima, a kazne za otmicu i nasilje prema ženi nisu blage. Istovremeno, žena ostaje pravno zavisna od muških srodnika u mnogim svakodnevnim pitanjima — od izbora muža do upravljanja većim poslovima — a njena društvena vrednost najčešće se meri kroz porodicu kojoj pripada. Pravo joj otvara vrata, ali ih praksa, u mnogim slučajevima, samo odškrine."
+    },
+    {
+      "type": "paragraph",
+      "text": "Za neuporedivo većinski deo ženske populacije — seljanke u meropaškim selima i u vlaškim katunima — života o kome bismo voleli da znamo više gotovo da nema u dokumentima. Iz onoga što izvori ipak pokazuju, kao i iz uporednog poznavanja drugih srednjovekovnih društava, može se sastaviti opšta slika. Seoska žena radila je u polju uz muža, brinula o stoci, pekla hleb, donosila vodu, podizala decu u uslovima u kojima je dečja smrtnost bila visoka i porođaj opasan. Tekstil je bio njen poseban svet: predenje, tkanje i vez bili su ženski poslovi i ujedno jedna od onih veština koje su žene predavale s majke na ćerku, pa se preko nje održao niz starijih ukrasnih i tehničkih oblika. U gradovima, naročito u primorskim, žene se pojavljuju i u zanatlijskim i sitnotrgovačkim poslovima, ponekad i kao samostalne vlasnice radnji posle muževljeve smrti."
+    },
+    {
+      "type": "paragraph",
+      "text": "Crkva je za žene bila i ograničenje i prostor. Iz svešteničke i bogoslužbene službe bile su isključene, ali su u pobožnosti zauzimale središnje mesto. Kult Bogorodice bio je najsnažnija nit narodne vere; ženski manastiri su postojali, manji i malobrojniji od muških, ali stvarni, i mnoge vladarske udovice, ali i obične žene iz vlastele, završavale su život kao monahinje, uzimajući veo u starosti kao prirodan poslednji korak. Iz tog sloja izrasta i osobeni kult svetih srpskih vladarki — Jelene Anžujske, a kasnije i kneginje Milice, koja će posle Lazareve pogibije na Kosovu voditi državu kao monahinja Jevgenija pre nego što bude i sama proglašena za sveticu. Pravoslavna crkva tako je ženama dala oblik svetosti koji nije bio samo pasivan."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ipak, treba ostati pošten prema izvorima. Sve što ovde piše naginje gornjim slojevima i onome što je crkva pamtila kao primer — vladarkama, ktitorkama, sveticama. Za jednu zapisanu Jelenu stoje hiljade neimenovanih žena koje su tkale, rađale, sahranjivale decu i umirale u selima čija imena često više ni ne postoje na karti. Njihovi životi su realnost srednjovekovne Srbije u meri u kojoj to životi careva nisu, ali ih moramo nazirati pre nego rekonstruisati. Ova lekcija pokušava da im, makar i kratko, vrati prisustvo — da podseti da je srednjovekovna država uvek bila i njihova, čak i kada su izvori odlučili da ih ne vide."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

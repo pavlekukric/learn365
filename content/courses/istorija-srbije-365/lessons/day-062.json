@@ -6,13 +6,53 @@
   "dayNumber": 62,
   "order": 2,
   "title": "Kralj Uroš I",
+  "subtitle": "Najmlađi sin Prvovenčanog koji je tri decenije vladao i Srbiju iz zavisnosti podigao u regionalnu silu",
   "readingTimeMinutes": 7,
   "year": 1243,
-  "isPlaceholder": true,
+  "dateLabel": "1243–1276.",
+  "timelinePosition": "1243–1276.",
+  "summary": "Vladavina Stefana Uroša I — više od trideset godina konsolidacije države, otvaranja prvih velikih rudnika, gradnje Sopoćana i odnosa sa Vizantijom, Ugarskom i Dubrovnikom.",
+  "keyPeople": ["Stefan Uroš I", "Jelena Anžujska", "Mihailo VIII Paleolog", "Dragutin", "Vladislav"],
+  "keyPlaces": ["Sopoćani", "Brskovo", "Hum", "Dubrovnik"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Kada je 1243. godine na presto došao Stefan Uroš I, najmlađi sin Stefana Prvovenčanog, malo je ko mogao naslutiti da će upravo on, treći po redu Nemanjić na kraljevskom prestolu, vladati duže od svih srpskih vladara svoga veka. Pred njim su bili stariji braća — Radoslav i Vladislav — koji su jedan za drugim, svaki posle svega nekoliko godina vladavine, izgubili krunu zbog zavisnosti od jakih suseda. Uroš je presto preuzeo upravo nakon što je u kratkom unutrašnjem prevratu zbacio Vladislava, oslonjenog na bugarsko carstvo Asenovaca. Iz tog početka, koji nije bio ni svečan ni miran, izrasla je vladavina od više od tri decenije i jedna od najvažnijih konsolidacija srpske države u trinaestom veku."
+    },
+    {
+      "type": "paragraph",
+      "text": "Uroš je nasledio kraljevstvo koje je još uvek nosilo posledice prethodne ovisnosti. Njegovi braća vladali su uz tutorstvo — prvo epirsko, zatim bugarsko — i taj utisak slabosti morao se ukloniti. Prvi potezi novog kralja bili su upravo okrenuti ka unutra: učvršćivanje dvora, oslanjanje na sopstvenu vlastelu, uvođenje strože administracije i jasnijih obaveza prema kruni. Savremeni izvori i kasniji srpski žitijni spisi Uroša opisuju kao vladara odlučnog, strogog, ponekad i tvrdog karaktera — čoveka koji odluke donosi sam i ne trpi mnogo prigovora. Bio je to, čini se, upravo onaj tip ličnosti koji je posle nesigurnih godina njegove braće Srbiji bio potreban."
+    },
+    {
+      "type": "paragraph",
+      "text": "U ranim godinama vladavine Uroš se oženio Jelenom, plemkinjom francusko-ugarskog porekla, povezanom sa kućom Anžuja, koja će u srpskoj istoriji ostati upamćena kao Jelena Anžujska. O njenom poreklu, ulozi i samostalnom državničkom radu biće više reči u zasebnoj lekciji; ovde je dovoljno reći da je taj brak otvorio Srbiju prema zapadnoj Evropi na način koji ranije nije postojao. Kraljica je vodila sopstvenu oblast, gradila zadužbine, dopisivala se sa papama i kraljevima, i bila prva srpska vladarka iz čije se kancelarije sačuvala latinska prepiska. U toj porodici rodila su se i dva buduća kralja — Dragutin i Milutin — od kojih će svaki, na svoj način, oblikovati narednu generaciju srpske politike."
+    },
+    {
+      "type": "paragraph",
+      "text": "Spoljnopolitički, Uroš je vladao u svetu koji se brzo menjao. Na severu je granica sa Ugarskom bila stalan izvor napetosti; ugarski kraljevi smatrali su Mačvu i severne oblasti svojom sferom uticaja, a Uroš je više puta vojevao da odbrani južne pristupe Savi i Dunavu. Na zapadu, posle dužeg trvenja oko trgovine i tributa, došao je do otvorenog rata sa Dubrovnikom — bogatim primorskim gradom koji je srpskim vladarima istovremeno bio glavni trgovački partner i izvor stalnih nesporazuma. Rat je završen sporazumno, sa potvrdom dubrovačkih trgovačkih sloboda u srpskim zemljama, ali i sa jasnom porukom da Srbija sada može da postavlja uslove. U Humu, današnjoj Hercegovini, i u istočnoj Bosni Uroš je polako ali postojano širio uticaj, čvršće vežući granične oblasti za centralnu vlast."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sa Vizantijom je odnos bio složeniji. Posle obnove Carstva 1261, kada je Mihailo VIII Paleolog povratio Carigrad od Latina, srpski i vizantijski interesi sukobili su se u Makedoniji. Kratak rat tokom šezdesetih godina nije doneo trajnu prevagu nijednoj strani, ali je posle njega usledio dug period mira i obazrive saradnje. Uroš je shvatio da ga obnovljena Vizantija pod sposobnim carem ne sme imati za stalnog neprijatelja, a Mihailo je u Srbiji video silu sa kojom se mora računati. Taj sporazum bez svečanog ugovora pokazao se trajnijim od mnogih ranijih saveza."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Srebro, Sopoćani i kraj vladavine"
+    },
+    {
+      "type": "paragraph",
+      "text": "Najtrajnija promena Uroševe vladavine, međutim, nije bila ratnička ni diplomatska, već ekonomska. Sredinom trinaestog veka u srpske zemlje počeli su masovnije da dolaze nemački rudari, poznati u našim izvorima kao Sasi. Otvarali su prve velike rudnike srebra i olova — Brskovo na Tari pre svih, a tokom narednih decenija i Rudnik, kasnije Novo Brdo i druga nalazišta. Uroš je njihovo doseljavanje podsticao, davao im posebne povlastice, vlastite sudije i crkve, i od toga ubirao kraljevski deo prihoda. Iz tih rudnika tekao je tok srebra koji će dva veka hraniti srpsku državu, pretvoriti njene kovnice u značajan izvor balkanskog novca i omogućiti Nemanjićima da grade, ratuju i pregovaraju iz daleko jače pozicije nego njihovi prethodnici. Pravi razmah ove rudarske privrede sledi tek sa narednim generacijama, ali temelj je položen za njegove vlade."
+    },
+    {
+      "type": "paragraph",
+      "text": "Od bogatstva koje su donosili rudnici i poreske reforme, Uroš je gradio i zadužbine. Najvažnija među njima, podignuta tokom šezdesetih godina, jeste manastir Sopoćani u dolini Raške. Njegov hram Svete Trojice danas se ubraja među najznačajnije spomenike pravoslavne umetnosti trinaestog veka; freske u naosu, izrađene oko 1270, mnogi istoričari umetnosti smatraju vrhuncem srednjovekovnog srpskog slikarstva i jednim od najlepših fresko-ansambala čitavog pravoslavnog sveta toga doba. U Sopoćanima se vidi do koje je mere Uroševa Srbija u kratkom vremenu prešla put — od političke zavisnosti do države sposobne da naruči i plati umetnost evropskog ranga."
+    },
+    {
+      "type": "paragraph",
+      "text": "Kraj njegove vladavine, kao i početak, došao je iznutra. Godine 1276. njegov stariji sin Dragutin, već zreo čovek i sa sopstvenim oslonom u vlasteli i kod ugarskog tasta, podigao se protiv oca. Razlozi su bili više: starost kralja, pitanje nasleđa, verovatno i Uroševa nesklonost da sina pripusti pravoj vlasti. U kratkom unutrašnjem ratu, čije pojedinosti izvori različito opisuju, Uroš je poražen kod Gacka i prisiljen na odlazak sa prestola. Povukao se u Hum, primio monaški postrig i nedugo zatim, najverovatnije 1277, umro. Tako se završila vladavina kralja koji je Srbiju preuzeo kao osetljivu državu pod tuđim uticajima, a predao je — protiv svoje volje — kao kraljevstvo sa rudnicima, vojnim ugledom, manastirima evropskog ranga i sa dva sina koji će je voditi dalje."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

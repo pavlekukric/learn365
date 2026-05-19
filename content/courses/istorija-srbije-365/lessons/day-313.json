@@ -6,13 +6,49 @@
   "dayNumber": 313,
   "order": 11,
   "title": "Društvo i kultura između dva rata",
+  "subtitle": "Jugoslovenska zemlja između sela i grada, između tradicije i moderne, između skromnih sredstava i žive kulture",
   "readingTimeMinutes": 8,
   "year": 1930,
-  "isPlaceholder": true,
+  "dateLabel": "1918–1941.",
+  "timelinePosition": "1918–1941.",
+  "summary": "Slika srpskog i jugoslovenskog društva između dva svetska rata — demografija, obrazovanje, kultura, religija i svakodnevni život jedne zemlje koja se polako modernizovala uz teška ograničenja.",
+  "keyPeople": ["Ivo Andrić", "Miloš Crnjanski", "Branislav Nušić", "Sava Šumanović", "patrijarh Varnava"],
+  "keyPlaces": ["Beograd", "Zagreb", "Ljubljana", "Subotica"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Ako bi neko hteo da u jednoj slici uhvati Jugoslaviju između dva svetska rata, najpoštenije bi bilo da je zamisli kao zemlju u kojoj se preko ramena seljaka koji okreće plug u Šumadiji vidi tramvaj kako prolazi Terazijama. Bila je to država u kojoj su dva sveta — duboka seoska tradicija i mlada gradska modernost — istovremeno disali, ne baš srećno, ali stvarno. Brojevi to potvrđuju: po popisu iz 1921. godine zemlja je imala oko dvanaest miliona stanovnika, a do 1931. njihov broj se popeo na oko četrnaest miliona. Od toga je čak oko tri četvrtine živelo na selu, od zemlje, po starim ritmovima žetve, kosidbe i crkvenih praznika."
+    },
+    {
+      "type": "paragraph",
+      "text": "Gradova je bilo malo, a pravih velikih gradova još manje. Beograd je 1931. brojao oko 240.000 stanovnika, Zagreb oko 180.000, a tek je nekoliko drugih centara — Subotica, Ljubljana, Sarajevo — prelazilo granicu od stotinu hiljada duša. Te brojke deluju skromno čak i za onaj evropski trenutak, ali su za jugoslovenske prilike značile pravu eksploziju: Beograd se za jednu generaciju gotovo udvostručio. U njemu su se pojavili prvi soliteri, prošireni tramvajski koloseci, otvarali se bioskopi, hoteli i kafane novog tipa. Slično, samo skromnije, dešavalo se i u drugim središtima — Novom Sadu, Skoplju, Nišu. Negde se sa fenjera prelazilo na električno svetlo, negde se još uvek išlo po vodu na česmu."
+    },
+    {
+      "type": "paragraph",
+      "text": "U pozadini te urbane slike stajalo je krupno obrazovno pitanje. Pismenost je rasla, ali je ostala daleko ispod evropskog proseka. Popis iz 1931. pokazao je da je oko 55% stanovništva pismeno — a iza te jugoslovenske brojke krile su se ogromne razlike. U Sloveniji je pismenost prelazila 90%, dok je u južnoj Srbiji i Makedoniji često bila ispod 30%. Da bi se taj jaz zatvarao, država je posle Prvog svetskog rata gradila škole na veliko, posebno u Srbiji, gde su četvorogodišnja osnovna škola i učiteljski kadrovi postali jedan od simbola obnove. Beogradski univerzitet, osnovan još 1905, narastao je u pravi naučni centar; novi fakulteti otvarani su i u Skoplju i u Subotici. Generacija intelektualaca koja je u dvadesetim ulazila u zrele godine bila je, po pravilu, prva u svojoj porodici koja je videla univerzitetski amfiteatar."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Književnost, umetnost, muzika"
+    },
+    {
+      "type": "paragraph",
+      "text": "Najpre književnost — jer je u srpskoj kulturi između dva rata reč bila glavni instrument. U Beogradu je oko 1922. zaživeo krug mladih nadrealista — Marko Ristić, Dušan Matić, Aleksandar Vučo i drugi — koji su, povezani sa pariskim pokretom, u časopisima i almanasima eksperimentisali sa snom, automatskim pisanjem i provokacijom. Pored njih, snažna je bila i drugačija, klasičnija struja. Miloš Crnjanski objavljuje prvi deo „Seoba” 1929. godine i tim romanom srpskoj prozi daje jednu od njenih najvećih knjiga. Ivo Andrić, koji u tim godinama više deluje kao diplomata po evropskim prestonicama nego kao pisac u Beogradu, polako sprema dela po kojima će kasnije biti poznat. Branislav Nušić, već zreo i čuven, piše komedije koje će ostati: „Gospođu ministarku” 1929. i „Pokojnika” 1937. — oštre, smešne i milosrdne slike sopstvenog društva."
+    },
+    {
+      "type": "paragraph",
+      "text": "Likovne umetnosti dobijaju modernu scenu po prvi put u takvom obimu. Vajar Toma Rosandić, slikari Sava Šumanović i mladi Petar Lubarda — uz mnoge druge — donose iz Pariza, Praga i Minhena nove jezike, ali ih primenjuju na sopstvene predele i ljude. Otvaraju se izložbe, salonske rasprave, prve ozbiljne galerije. U muzici, posle smrti Stevana Mokranjca 1914. godine koja je ostavila temelje, kompozitori poput Miloja Milojevića i Stevana Hristića vode srpsku muziku ka modernijem zvuku; opera u Narodnom pozorištu redovno postavlja programe. Godine 1929. počinje sa radom Radio Beograd — prvi pravi medij koji je istovremeno dopirao u kafanu na uglu i u seosku kuću sa baterijskim prijemnikom. Film je još uvek mlad: snimaju se kratki dokumentarni i poneki igrani filmovi, među pionirima se pamte Ernest Bošnjak i Mihail Avramović, ali domaća produkcija ostaje skromna i neredovna."
+    },
+    {
+      "type": "paragraph",
+      "text": "Religija je ostala važan stub javnog života. Srpska pravoslavna crkva, obnovljena kao patrijaršija 1920. godine, bila je centralna ustanova u srpskom delu društva — sa patrijarhom Varnavom na čelu sve do njegove smrti 1937, i sa Gavrilom Dožićem koji ga je nasledio. Odnosi crkve i države bili su uglavnom bliski, ali ne i bez napetosti. Najveća kriza izbila je upravo 1937, oko predloženog konkordata između jugoslovenske vlade i Vatikana, koji je Srpska crkva videla kao povlasticu katoličkoj zajednici na svoj račun. Usledili su masovni protesti, sukobi sa policijom i — što je tada bilo neobično — odustajanje vlade Milana Stojadinovića od ratifikacije. Bio je to jedan od retkih trenutaka u kojem je crkva otvoreno presekla državnu politiku."
+    },
+    {
+      "type": "paragraph",
+      "text": "Svakodnevni život većine ljudi tekao je daleko od berlinskih bulevara. Industrijalizacija je rasla, ali je u poređenju sa zapadnom Evropom bila slaba i neravnomerna: industrijska zona oko Beograda i Pančeva, fabrike u Vojvodini, Sloveniji, ponegde u Bosni i Hrvatskoj. U Srbiji su kafane ostale glavni prostor druženja muškaraca — mesto gde se čitaju novine, igra preferans, vode rasprave i sklapaju poslovi. U gradovima se pojavila tanka, ali stvarna srednja klasa: činovnici, učitelji, lekari, sitni trgovci, oficiri. Žene su u njoj bile sve prisutnije — ulazile su u kancelarije, učionice, redakcije, mada je pravo glasa ostalo nedostižno. Sve to nije bila ni idila ni mračna slika; bila je epoha skromnog, neravnomernog razvoja, sa živom kulturom koja je već radila na zalihe za vremena koja će tek doći."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

@@ -6,13 +6,53 @@
   "dayNumber": 40,
   "order": 4,
   "title": "Sloveni — poreklo i način života",
+  "subtitle": "Ko su bili Sloveni pre nego što su prešli Dunav — narod bez države, ali ne i bez sveta",
   "readingTimeMinutes": 8,
   "year": 500,
-  "isPlaceholder": true,
+  "dateLabel": "do 6. veka n. e.",
+  "timelinePosition": "~500. n. e.",
+  "summary": "Poreklo, jezik, naselja, društvo i vera Slovena pre seobe na Balkan — i ono što o njima zaista znamo iz vizantijskih izvora, arheologije i jezika.",
+  "keyPeople": ["Prokopije", "Jordan"],
+  "keyPlaces": ["istočna Evropa", "Dunav", "Karpati"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Pre nego što su prešli Dunav i ušli u istoriju Balkana, Sloveni su već vekovima živeli u jednom širokom, slabo poznatom svetu severno i istočno od rimske granice. O tom svetu izvori ćute duže nego što bismo voleli. Kada se Sloveni najzad pojave u tekstu — u šestom veku, pod perom vizantijskih pisaca — oni dolaze kao već formiran, brojan narod koji govori srodnim jezikom na ogromnom prostranstvu. Sve što o njima znamo pre tog trenutka rekonstruisano je naknadno, uz pomoć jezika, arheologije i opreznog poređenja sa onim što o njima beleže stranci."
+    },
+    {
+      "type": "paragraph",
+      "text": "Slovenski jezik pripada indoevropskoj porodici, kao i grčki, latinski, germanski ili indijski jezici. Iz te zajedničke pradavne osnove izdvojila se najpre balto-slovenska grana, a iz nje, nešto kasnije, praslovenski jezik — pretpostavljeni zajednički predak svih kasnijih slovenskih govora. Gde se i kada tačno taj praslovenski oblikovao, nauka nema jedinstven odgovor. Većina istraživača smešta slovensku „pradomovinu” u širi pojas severno od Karpata — otprilike na prostor današnje Poljske, Belorusije i zapadne Ukrajine. Drugi predlažu nešto istočnije ili južnije lokacije. Sigurno je samo to da je reč o velikoj kopnenoj zoni istočne Evrope, daleko od mora i daleko od rimskih puteva."
+    },
+    {
+      "type": "paragraph",
+      "text": "Prvi spoljni pisci koji ih jasno imenuju javljaju se sredinom šestog veka. Vizantijski istoričar Prokopije iz Cezareje i, malo pre njega, Jordan, gotski pisac na latinskom, govore o brojnim plemenima koja žive severno od Dunava. Jordan ih deli na Sklavene i Ante, sa Venetima kao starijim, opštijim imenom; Prokopije ih opisuje kao narod koji ne živi pod jednim vladarom, već u nekoj vrsti narodne uprave — savremenim rečnikom rečeno, u plemenskoj demokratiji. Treba odmah reći da je ova slika spoljna i delom uprošćena: vizantijski pisci porede slovensko društvo sa onim što sami poznaju, pa odsustvo cara ili kralja kod njih opisuju kao „život u demokratiji”, mada se radi pre o veću starešina i plemenskim skupovima nego o sistemu u modernom smislu."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Selo, polje i bogovi"
+    },
+    {
+      "type": "paragraph",
+      "text": "Sloveni pre seobe živeli su prevashodno od zemlje. Bili su zemljoradnici i stočari, naseljeni u malim selima podignutim duž reka, na ivicama šuma, na zemljištu koje se moglo lako iskrčiti i obraditi. Sejali su žitarice — proso, raž, ječam, pšenicu — uzgajali povrće, držali svinje, goveda i ovce, lovili i ribarili. Njihove kuće bile su skromne: poluukopane u zemlju, sa drvenim zidovima i krovom od slame ili pruća, sa ognjištem od kamena. Takve „zemunice” i nadzemne brvnare arheolozi prepoznaju širom istočne Evrope i one čine prepoznatljiv trag slovenskog naseljavanja."
+    },
+    {
+      "type": "paragraph",
+      "text": "Politički, nisu poznavali jaku centralnu vlast. Plemenske zajednice okupljale su se oko starešina, a o važnim pitanjima — ratu, seobi, sporu — odlučivalo se na skupovima slobodnih ljudi. Ratovali su pešadijski, naoružani kopljima, sekirama i lukovima, bez teške konjice i bez složene opsadne tehnike. Vizantijski pisci ih opisuju kao izdržljive, navikle na hladnoću, vodu i šumu, sklone iznenadnim prepadima i povlačenju u nepristupačan teren. Kada se kasnije pojave na rimskoj granici, ova vojnička navika imaće svoj značaj — ali pre seobe ona je bila samo deo svakodnevnog života na granici stepe i šume."
+    },
+    {
+      "type": "paragraph",
+      "text": "Jezik im je bio izrazito jedinstven. Iako se prostirao preko ogromne oblasti, praslovenski je dugo ostao međusobno razumljiv — toliko da se podela na istočne, zapadne i južne Slovene jasno odvaja tek vekovima kasnije, posle seoba. Otuda i naizgled iznenađujuća činjenica da reči poput voda, ruka, sin ili nebo do danas zvuče slično od Beograda do Moskve, od Praga do Sofije. Ta jezička srodnost važan je dokaz o relativno kratkom razdoblju zajedničkog života pre rasipanja."
+    },
+    {
+      "type": "paragraph",
+      "text": "Verovali su u više bogova vezanih za prirodne sile. Najpoznatiji među njima je Perun, gospodar groma i munje, zaštitnik ratnika; uz njega se pominju božanstva sunca, vatre, vode, vetra i podzemlja, kao i kult predaka, koji je bio važan deo porodičnog života. Sveta mesta nisu bila zidane bogomolje već gajevi, izvori, brda i drveće, a obredi su uključivali žrtvovanje stoke, gozbe i sezonske praznike vezane za poljoprivredni ciklus. Mnogo toga što o ovoj veri znamo rekonstruisano je posredno — preko kasnijih zapisa hrišćanskih misionara, narodnih običaja i jezičkih tragova — jer sami Sloveni u to vreme nisu imali pismo i ništa o sebi nisu zapisali."
+    },
+    {
+      "type": "paragraph",
+      "text": "I tu stižemo do najvažnije ograde. Skoro sve što se ovde kaže o pretkršćanskim Slovenima dolazi iz tri vrste izvora: vizantijskih i rimskih pisaca koji ih posmatraju spolja i često s nepoverenjem, arheoloških nalaza koji govore o naseljima i predmetima ali ne o mislima, i naknadne jezičke rekonstrukcije koja izvlači zaključke iz današnjih reči. Vlastiti glas Slovena javlja se mnogo kasnije, tek u devetom veku, kada misija Ćirila i Metodija stvara slovensko pismo i prvi tekstovi budu zapisani na jeziku koji oni razumeju. Sve pre toga čujemo iz druge ruke. Sa tim oprezom vredi pamtiti i sledeću sliku: kada je u šestom veku rimska granica na Dunavu počela da se pomera i kruni, sa one strane stajao je narod koji je već imao svoj jezik, svoj način života i svoje bogove — i koji će uskoro krenuti na jug. O tom prelasku govori sledeća lekcija."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

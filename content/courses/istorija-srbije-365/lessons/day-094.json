@@ -6,13 +6,53 @@
   "dayNumber": 94,
   "order": 5,
   "title": "Srbija i Vizantija",
+  "subtitle": "Tri veka odnosa sa Carigradom — uzor, učitelj, sused i suparnik srpske srednjovekovne države",
   "readingTimeMinutes": 7,
   "year": 1300,
-  "isPlaceholder": true,
+  "dateLabel": "12–14. vek",
+  "timelinePosition": "12–14. vek",
+  "summary": "Od Nemanjinog vazalstva do Dušanovog carstva: kako je Vizantija istovremeno bila glavni uzor, crkvena majka, kulturni izvor i najteži sused srpske srednjovekovne države.",
+  "keyPeople": [],
+  "keyPlaces": ["Konstantinopolj", "Sveta Gora", "Solun"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Nijedan susedan svet nije srpsku srednjovekovnu državu oblikovao toliko duboko kao Vizantija. Tri veka, otprilike od dolaska Stefana Nemanje na presto pa do smrti cara Dušana, Carigrad je za Srbe bio sve odjednom — politički gospodar prema kome se osvajala samostalnost, crkvena majka iz koje su tekli pravoslavlje i monaštvo, kulturna radionica iz koje su dolazili slikari, pisari i pravnici, trgovački partner i, kada je trebalo, vojni protivnik. Sve to istovremeno, i sve to u stalnom kretanju. Razumeti srpski srednji vek bez Vizantije isto je što i pokušati razumeti reku bez njenog izvora."
+    },
+    {
+      "type": "paragraph",
+      "text": "U dvanaestom veku odnos je još uvek bio jasno asimetričan. Manojlo I Komnin, jedan od poslednjih velikih careva pre raspada, držao je balkanske vladare u krugu svoga uticaja i, kada bi se ukazala potreba, vojno ih privodio poslušnosti. Stefan Nemanja je svoj veliki župan stekao i izgubio i ponovo stekao upravo u tom Manojlovom svetu, prinuđen ponekad da pred carem klekne, ponekad da se sa njim sporazume. Tek posle Manojlove smrti 1180. i unutrašnjeg slabljenja Carstva, raška dinastija je počela da se ponaša sa više slobode. Ali čak i tada, formalni okvir — titule, ceremonija, način na koji se vladar predstavljao — ostao je vizantijski."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pad Carigrada 1204. godine u rukama Četvrtog krstaškog rata otvorio je sasvim novi prostor. Carstvo se raspalo na nekoliko delova, a srpska država je, oslobođena pritiska sa juga, mogla da izvuče ono što je dotle bilo nezamislivo: kraljevsku krunu za Stefana Prvovenčanog i, nekoliko godina kasnije, samostalnu, autokefalnu crkvu koju je Sava izdejstvovao kod patrijarha u Nikeji, gde se vaseljensko sedište bilo sklonilo. Trinaesti vek tako počinje kao vek u kome Srbija prvi put istupa kao ravnopravan sagovornik, a ne kao polusamostalna pogranična oblast."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pa ipak, ravnopravnost u titulama nije značila ravnopravnost u modelima. Sve što su Nemanjići gradili u svojoj državi — od dvorske ceremonije i činova logoteta i sevasta do oblika povelja, od pravnih zbirki do izgleda freski u Studenici, Mileševi i Sopoćanima — nosilo je vizantijski pečat. Ktitorski portreti srpskih kraljeva, sa krunama nalik carigradskim i sa anđelima koji ih ovenčavaju, nisu samo umetnička konvencija; oni su izjava o tome šta vladar uopšte jeste i u kom svetu pristaje da postoji. Najbolji slikari na srpskim dvorovima često su bili Grci, jezik visoke kulture često grčki, a model „pravog” cara — onaj iz Konstantinopolja."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Vek prevrata"
+    },
+    {
+      "type": "paragraph",
+      "text": "U četrnaestom veku odnos snaga se pomerio brže nego što je iko mogao da pretpostavi. Kralj Milutin je krajem trinaestog i početkom četrnaestog veka pomerio srpsku granicu duboko na jug, u oblasti koje su vekovima pripadale Carstvu — Skoplje, severna Makedonija, delovi današnje Severne Makedonije i Albanije. Pridobio je vizantijsku princezu Simonidu za ženu i time se uglavio u carigradsku porodičnu mrežu, ali je istovremeno gradio Bogorodicu Ljevišku i Gračanicu kao kraljevske, srpske spomenike u zemlji koja je donedavno bila „grčka”. To dvojstvo — porodična bliskost i teritorijalno odvajanje — bilo je tipično za ceo srpsko-vizantijski odnos."
+    },
+    {
+      "type": "paragraph",
+      "text": "Vrhunac je došao sa Stefanom Dušanom. On je između 1331. i 1355. preuzeo veći deo vizantijskih balkanskih oblasti — Makedoniju, Epir, Tesaliju, delove Trakije — i 1346. godine, u Skoplju, krunisao se za cara „Srba i Grka”. Bio je to neposredan izazov bačen Carigradu: Srbija više ne traži priznanje uz Carstvo, već polaže pravo na isti naslov. Pa ipak, i tu se vidi paradoks. Model koji je Dušan oponašao bio je vizantijski; ceremonija krunisanja oslanjala se na vizantijski obrazac; njegov Zakonik, donesen 1349. i dopunjen 1354, uz domaće običajno pravo preuzimao je velike delove vizantijskog crkvenog i svetovnog zakonodavstva. Čak i u trenutku najvećeg suparništva, srpski car je govorio jezikom carstva koje je izazivao."
+    },
+    {
+      "type": "paragraph",
+      "text": "Kako su Srbe gledali sa one strane? O tome znamo više nego o suprotnom. Najveći deo onoga što danas pišemo o ovim odnosima dolazi iz vizantijskih izvora — istoričara kao što su Jovan Kantakuzin, koji je i sam bio car, zatim Georgije Pahimer i Nikifor Grigora. Iz njihovih redova izbija mešavina osećanja: stara imperijalna nadmenost prema „varvarima” sa severa, ali i sve trezvenije priznanje da su Srbi postali najopasnija sila na Balkanu, a vremenom i ravnopravni hrišćanski sused. Srpski pogled na Vizantiju, izveden iz žitija, povelja i crkvene građe, takođe je dvosmislen: pobožno poštovanje prema „Romejima” i njihovoj tradiciji, političko korišćenje njihove slabosti, i tiha tenzija između pravoslavnog bratstva i borbe za zemlju."
+    },
+    {
+      "type": "paragraph",
+      "text": "Manje od jednog veka posle Dušanove smrti, 1453, Carigrad je pao pod osmansku vlast. Vizantija kao država nestaje, ali ono što je Srbima ostavila — pismo, liturgija, manastirsko ustrojstvo, pravna kultura, ikonografski jezik — ostaje srž njihove duhovne i državne baštine i pod tuđom vlašću. U vekovima koji slede srpska crkva će sebe, ne bez razloga, doživljavati kao jednu od poslednjih većih pravoslavnih političko-duhovnih zajednica koje su preživele pad. Ali to je već druga priča. U razdoblju o kome je ovde reč Vizantija je za Srbiju bila i učitelj i takmac, i ogledalo i meta, i izvor i protivteža — i upravo zato nezamenljiva."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

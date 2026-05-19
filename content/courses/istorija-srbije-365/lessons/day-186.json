@@ -6,13 +6,49 @@
   "dayNumber": 186,
   "order": 1,
   "title": "Osmansko slabljenje",
+  "subtitle": "Kako je carstvo, koje je dva veka držalo Balkan u strahu, kroz osamnaesti vek postalo predvidljivo slab sused",
   "readingTimeMinutes": 7,
   "year": 1780,
-  "isPlaceholder": true,
+  "dateLabel": "18. vek",
+  "timelinePosition": "18. vek",
+  "summary": "Postepeno opadanje Osmanskog carstva u 18. veku — vojni porazi, jačanje lokalnih moćnika, raspad reda u provincijama i sve teži položaj srpske raje, kao priprema za kasnije ustanke.",
+  "keyPeople": ["Selim III", "Pazvantoğlu"],
+  "keyPlaces": [],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Osmansko carstvo nije propalo u jednoj bici i nije se survalo u jednoj generaciji. Ono je kroz ceo osamnaesti vek polako gubilo ono što je činilo njegovu snagu — vojni prestiž, jedinstvo uprave, strah koji je ulivalo susedima i poslušnost koju je iznuđivalo od sopstvenih namesnika. Za hrišćansku raju na Balkanu, a posebno za srpsko stanovništvo Beogradskog pašaluka, to opadanje nije značilo olakšanje. Naprotiv: što je centar u Carigradu bivao slabiji, to su lokalni gospodari postajali svojevoljniji, a život seljaka nesigurniji. Da bi se razumelo zašto je 1804. izbio ustanak, mora se prvo razumeti kako se kroz čitav jedan vek lomila moć carstva pod kojim su Srbi živeli."
+    },
+    {
+      "type": "paragraph",
+      "text": "Prvi jasan znak da se odnos snaga okrenuo dao je mir u Sremskim Karlovcima 1699. godine. Tim ugovorom Osmanlije su prvi put u svojoj istoriji morale da priznaju veliki gubitak — Ugarsku su trajno predale Habzburgovcima. Mir u Požarevcu 1718. doneo je nove gubitke, među njima i severnu Srbiju sa Beogradom, koja će dvadesetak godina biti pod austrijskom upravom. Iako su Osmanlije Beograd vratile 1739, šablon je bio postavljen: ratovi sa Habzburgovcima i sa rastućom Rusijom češće su završavali porazima nego pobedama. Posebno su teški bili gubici prema Rusiji — mir u Kučuk Kajnardžiju 1774. i mir u Jašiju 1792. potvrdili su rusku prevlast nad severnim crnomorskim obalama, a 1783. Rusija je priključila Krimski kanat, dugovekog osmanskog vazala. Carstvo koje je nekada opsedalo Beč, sada je gubilo svoja predziđa."
+    },
+    {
+      "type": "paragraph",
+      "text": "Razlozi opadanja bili su isprepleteni. Vojno, evropske armije su kroz osamnaesti vek prošle kroz duboke promene u taktici, naoružanju i organizaciji; osmanska vojska, vezana za starije obrasce, nije stigla da se na isti način preoblikuje. Janičarski red, nekada elitna pešadija, postepeno se pretvarao u nasledni stalež koji se ženio, bavio zanatima i trgovinom, i sve manje ratovao — a sve više se mešao u politiku, smenjivao velike vezire, čak i sultane. Finansije carstva slabile su pod teretom dugih ratova i smanjenog priliva iz izgubljenih oblasti. Da bi se popunila kasa, država se sve više oslanjala na zakup poreza, takozvani iltizam, a u poljoprivredi se širio čitlučki red u kome su lokalni zemljoposednici, čitluk-sahibije, iz seljaka cedili više nego što je propisano. Sve to padalo je na leđa raje, hrišćanske i muslimanske."
+    },
+    {
+      "type": "paragraph",
+      "text": "Dok je centar slabio, periferija je dobijala lice. Od sredine osamnaestog veka u nizu provincija javljaju se snažni lokalni gospodari — ajani i derebezi — koji su u svojim oblastima vladali gotovo kao samostalni vladari, samo formalno priznajući sultana. U Janjini je Ali-paša gradio svoju državu, u Skadru porodica Bušatlija, u Egiptu će se uskoro uzdići Mehmed-Ali, a u Vidinu — najbliže srpskim zemljama — odmetnuti Osman Pazvantoğlu otvoreno se sukobljavao sa Portom i držao svoje plaćeničke družine, među kojima i odmetnute janičare. Beogradski pašaluk, naslednik starog smederevskog sandžaka, osetio je ovaj obrazac u punoj meri: vlast u Beogradu sve se češće prelamala između sultanovog vezira i lokalnih janičarskih prvaka, čije će zlostavljanje raje krajem veka postati nepodnošljivo."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Rusija, reforme i nemir"
+    },
+    {
+      "type": "paragraph",
+      "text": "U toj slici opadanja Rusija je dobila ulogu koju ranije nije imala. Mirom u Kučuk Kajnardžiju 1774. ruska carica izborila je pravo da se, makar formalno, zauzima za pravoslavne podanike sultana. Koliko je to pravo u praksi značilo, istoričari raspravljaju — bilo je više diplomatski povod nego stvarni pravni mehanizam — ali je psihološki učinak bio krupan. Pravoslavni narodi Balkana, među njima i Srbi, sada su imali veliku istovernu silu koja se javno predstavljala kao njihova zaštitnica. Iz tog osećaja izrastaće dobar deo srpske spoljne orijentacije u devetnaestom veku. Istovremeno, austrijsko-osmanski rat 1788–1791, u kome je veliki broj Srba učestvovao na austrijskoj strani u takozvanim frajkorima, pokazaće i koliko je carstvo ranjivo i koliko su Srbi spremni da se latiju oružja kada se pruži prilika; iz tog rata izrašće Kočina krajina, o kojoj će biti reči sutra."
+    },
+    {
+      "type": "paragraph",
+      "text": "Carstvo je pokušalo da se odbrani od sopstvenog opadanja. Krajem veka sultan Selim III, koji je na presto došao 1789, pokrenuo je niz reformi pod imenom „Nizam-ı Cedid” — Novi red. Trebalo je stvoriti modernu vojsku po evropskom uzoru, urediti finansije, povratiti kontrolu nad provincijama. Reforme su, međutim, naišle na otpor janičara i konzervativnih krugova; 1807. Selim III je svrgnut, a kasnije i ubijen. Ozbiljnija obnova carstva moraće da sačeka tek tridesete godine devetnaestog veka. U međuvremenu, slika koju je raja imala o vlasti pod kojom živi nepovratno se promenila: ono što je nekada bilo strašno i poštovano, sada je sve češće doživljavano kao samovoljno, nepravedno i nesposobno."
+    },
+    {
+      "type": "paragraph",
+      "text": "Opadanje nije bilo ravnomerno i ne treba ga predstavljati kao pravu liniju ka propasti. Carstvo je još uvek bilo ogromno, sposobno da diže velike vojske i da, kada bi se prilike sklopile, povrati izgubljeno. Ali za srpsko stanovništvo Beogradskog pašaluka osamnaesti vek doneo je tihi obrt: stari poredak, koji je dva veka držao Balkan u nekoj vrsti grube ravnoteže, lomio se i u svom lomljenju pritiskao seljaka jače nego ranije. Iz tog dvostrukog osećaja — da je gospodar slabiji nego što izgleda i okrutniji nego što se sećalo — rodiće se hrabrost da se, na samom kraju veka, krene u otvoren otpor."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

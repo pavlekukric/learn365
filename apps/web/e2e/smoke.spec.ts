@@ -4,8 +4,6 @@ const COURSE_ID = 'istorija-srbije-365';
 const DAY_1_LESSON_ID = 'day-001';
 // A second hand-authored (completable) lesson, distinct from day 1.
 const AUTHORED_LESSON_ID = 'day-007';
-// An unauthored placeholder lesson — renders the "upcoming" state.
-const PLACEHOLDER_LESSON_ID = 'day-359';
 
 test.describe('History 365 — smoke', () => {
   test('home renders hero + CTA', async ({ page }) => {
@@ -14,6 +12,43 @@ test.describe('History 365 — smoke', () => {
     // Fresh session has no progress, so the state-aware hero CTA reads
     // "Započni kurs" and links to the first lesson.
     await expect(page.getByRole('link', { name: /Započni kurs/ })).toBeVisible();
+  });
+
+  test('home daily anchor reflects idle vs in-progress state', async ({
+    page,
+  }) => {
+    // Idle: fresh session has no completions. The Danas region renders the
+    // framing line and exposes no "Tvoj N. dan" eyebrow.
+    await page.goto('/');
+    const anchor = page.getByRole('region', { name: 'Danas' });
+    await expect(anchor).toBeVisible();
+    await expect(
+      anchor.getByText('Pred tobom je 365 dana kroz srpsku istoriju.'),
+    ).toBeVisible();
+    await expect(anchor.getByText(/Tvoj \d+\. dan/)).toHaveCount(0);
+
+    // In-progress: seed one completion via the persisted progress key, then
+    // re-navigate. Counter must read "Tvoj 2. dan" (completedCount + 1).
+    const seed = {
+      state: {
+        byCourse: {
+          [COURSE_ID]: {
+            completedLessonIds: ['day-001'],
+            lastOpenedLessonId: 'day-001',
+            updatedAt: '2026-05-19T09:00:00.000Z',
+          },
+        },
+      },
+      version: 1,
+    };
+    await page.addInitScript(
+      ({ key, value }) => window.localStorage.setItem(key, value),
+      { key: 'learn365:progress:v1', value: JSON.stringify(seed) },
+    );
+    await page.goto('/');
+    await expect(
+      page.getByRole('region', { name: 'Danas' }).getByText('Tvoj 2. dan'),
+    ).toBeVisible();
   });
 
   test('TopBar Kurs link is reachable on every viewport', async ({ page }) => {
@@ -87,17 +122,6 @@ test.describe('History 365 — smoke', () => {
     await expect(
       page.getByRole('button', { name: /^Završeno$/ }),
     ).toBeVisible();
-  });
-
-  test('placeholder lesson shows upcoming state and hides completion', async ({
-    page,
-  }) => {
-    await page.goto(`/course/${COURSE_ID}/lesson/${PLACEHOLDER_LESSON_ID}`);
-    await expect(page.getByText('Ova lekcija je u pripremi.')).toBeVisible();
-    // Completion must not be possible for an unavailable lesson.
-    await expect(
-      page.getByRole('button', { name: /^Završi$/ }),
-    ).toHaveCount(0);
   });
 
   test('about page renders and is reachable from the footer', async ({ page }) => {

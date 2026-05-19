@@ -6,13 +6,53 @@
   "dayNumber": 153,
   "order": 3,
   "title": "Položaj hrišćana — raja",
+  "subtitle": "Pravoslavno stanovništvo pod osmanskom vlašću: pravni okvir, porezi, svakodnevica i tihi život uz crkvu i selo",
   "readingTimeMinutes": 8,
   "year": 1600,
-  "isPlaceholder": true,
+  "dateLabel": "15–18. vek",
+  "timelinePosition": "15–18. vek",
+  "summary": "Šta je značilo biti raja u osmanskoj državi — pravni status hrišćana, porezi, ograničenja, seoska samouprava pod knezovima i kmetovima, i polagano pogoršanje prilika u 17. i 18. veku.",
+  "keyPeople": [],
+  "keyPlaces": [],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Reč raja u srpskom jeziku ima danas težak prizvuk, ali u svojoj prvoj, osmanskoj upotrebi nije bila uvreda. Dolazi od arapskog raʿiyya, što doslovno znači „stado” — onaj deo podanika kojim država, kao pastir, treba da se stara. U osmanskoj upravnoj terminologiji raja je značila poreske obveznike koji nisu nosili oružje za sultana: u najvećem broju seljake, ali i deo gradskog stanovništva i hrišćane i muslimane koji nisu pripadali vojnom staležu. Tek vremenom, kako je hrišćansko stanovništvo brojno preovladalo u toj kategoriji, reč se u srpskom govoru suzila i počela označavati pravoslavnog seljaka pod Turcima — sa svom težinom koju je ta sudbina nosila."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pravni okvir u kome je raja živela bio je okvir takozvanih zaštićenih zajednica — zimija. Po islamskoj pravnoj tradiciji, hrišćani i Jevreji su, kao „narodi Knjige”, smeli zadržati svoju veru pod određenim uslovima. Mogli su da drže crkve, da po sopstvenim crkvenim sudovima rešavaju brak, nasleđe i unutrašnje sporove, da poseduju imovinu, da trguju i da se kreću. Zauzvrat su nosili teret koji muslimansko stanovništvo nije nosilo. Plaćali su džiziju, lični porez na nemuslimansku glavu odraslog muškarca, i harač, zemljarinu, koja je u praksi često bila vezana za istu obavezu. Na sudu su, u većini slučajeva, plaćali dvostruke takse, a njihovo svedočanstvo protiv muslimana nije imalo istu vrednost."
+    },
+    {
+      "type": "paragraph",
+      "text": "Uz to su išla i niža, ali u svakodnevici vrlo prisutna ograničenja. Hrišćani načelno nisu smeli da nose oružje, sem u krajevima gde su služili u pomoćnim vojnim ulogama. U mnogim periodima nisu smeli da jašu konja u gradovima naseljenim muslimanima, već samo magarca, niti da grade kuće više od muslimanskih. Nove crkve teško su se dobijale; popravke postojećih obično su zahtevale dozvolu. Na ulici se očekivalo da raja siđe sa puta i pusti muslimana da prođe. Mnoge od ovih odredbi primenjivale su se neujednačeno — strogo u jednoj kasabi, blago u drugoj — ali kao opšti znak društvenog reda bile su prisutne stalno."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Selo, porez i tihi život"
+    },
+    {
+      "type": "paragraph",
+      "text": "Najveći deo srpskog pravoslavnog stanovništva u 15. i 16. veku bili su seljaci raja na zemlji koja je u osmanskom sistemu pripadala državi, a bila data spahijama kao timar. Seljak je tu zemlju obrađivao, plaćao spahiji deo letine i izvestan broj radnih dana, a državi posebne dažbine. Pored toga, postojale su crkvene obaveze prema sopstvenom paroku i manastiru. Sve zajedno činilo je porez koji je u dobrim godinama bio podnošljiv, a u lošim, sa sušom ili ratom, postajao težak teret. Uz to su postojale i izvanredne dažbine za vreme pohoda — popravka puteva i mostova, isporuka hrane vojsci, smeštaj prolaznih jedinica."
+    },
+    {
+      "type": "paragraph",
+      "text": "Selo je, ipak, zadržalo iznenađujuće mnogo unutrašnje samouprave. Osmanska država nije ulazila u sitnice seoskog života dok je porez stizao. Tu prazninu popunjavali su domaći ljudi — knezovi i kmetovi, izabrani ili priznati seoski prvaci, koji su pred spahijom i kadijom predstavljali zajednicu, raspoređivali porez po kućama, presuđivali sitne sporove i čuvali običajno pravo. Pravoslavna parohija je oko crkve okupljala duhovni i društveni život: krštenja, venčanja, sahrane, slave, postovi i sabori držali su zajednicu na okupu i preko nje, vekovima, prenosili jezik, pismo i pamćenje."
+    },
+    {
+      "type": "paragraph",
+      "text": "U 17. i 18. veku slika se polako menjala nabolje za malo koga. Kako je timarski sistem slabio i kako je osmanska država ulazila u dugotrajne ratove sa Habzburzima i Mlečanima, timari su počeli da se pretvaraju u takozvane čifluke — krupna privatna imanja na kojima je seljak postajao zavisniji od pojedinog vlasnika nego od daleke države. Čiflučki gospodari tražili su veći deo letine i više radnih dana, a sudska zaštita protiv njihovih ispada bila je sporija od njihove samovolje. Uz to su, u vreme rata i osmanskih unutrašnjih kriza, dolazili pohodi nedisciplinovanih jedinica, pljačke odmetnutih krdžalija i, povremeno, otmice ljudi za prodaju na tržištima robova. Sigurnost koju je država teorijski dugovala raji u praksi je bila uzdrmana."
+    },
+    {
+      "type": "paragraph",
+      "text": "Otpor je u najvećem delu bio tih. Sastojao se od istrajnog čuvanja jezika, vere, običaja i sećanja — toga što istoričari ponekad zovu nemim otporom — i od veštine da se sa vlasti živi bez nepotrebnog sukoba. Tek je manjina bežala u šumu i postajala hajduk, ili se priključivala povremenim ustancima koji su, sve do 19. veka, obično bili lokalni i kratkog daha. Devširma, danak u krvi, kojim je država uzimala dečake za janičare i dvor, bila je posebna i naročito bolna strana ovog poretka i o njoj se govori u sledećoj lekciji."
+    },
+    {
+      "type": "paragraph",
+      "text": "Kada se sve sabere, položaj raje nije bio ni jedinstvena užasna mora ni mirno žitije pod blagim gospodarom. Bio je to trajan, pravno utvrđen status drugorazrednog podanika — sa povremenim periodima podnošljive stabilnosti i sa periodima teškog pritiska — koji je generacijama oblikovao srpsku svakodnevicu. Iz tog dugog iskustva izrasla je i posebna kultura izdržljivosti, oslonjena na selo, parohiju i porodicu, i postepeno se nakupljala tiha gorčina koja će u 19. veku, kada se pojavi prilika, izbiti u otvorene ustanke."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

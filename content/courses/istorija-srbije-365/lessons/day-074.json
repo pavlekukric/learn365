@@ -6,13 +6,53 @@
   "dayNumber": 74,
   "order": 2,
   "title": "Dušanova osvajanja na jugu",
+  "subtitle": "Od Vardara do Korintskog zaliva — kako je Dušan za petnaest godina udvostručio srpsku državu",
   "readingTimeMinutes": 8,
   "year": 1340,
-  "isPlaceholder": true,
+  "dateLabel": "1331–1346.",
+  "timelinePosition": "1331–1346.",
+  "summary": "Dušanovi pohodi na jug između 1331. i 1346.: Makedonija, Albanija, Epir i Tesalija, vizantijski građanski rat kao prilika, i stvaranje države u kojoj je grčko stanovništvo postalo većinsko.",
+  "keyPeople": ["Dušan", "Jovan Kantakuzin", "Andronik III", "Ana Savojska"],
+  "keyPlaces": ["Makedonija", "Ohrid", "Ser", "Albanija", "Epir", "Tesalija", "Sveta Gora", "Solun"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Kada je Stefan Dušan 1331. godine, posle svrgavanja oca Stefana Dečanskog, preuzeo srpski presto, nasledio je državu koja je već bila najjača sila u središnjem delu Balkana. Milutin i Dečanski pomerili su granice duboko na jug, do Vardara i Bregalnice; sada je trebalo odlučiti šta dalje. Mladi kralj je odluku doneo brzo i nedvosmisleno: nastaviti pritisak na slabu Vizantiju, dok se za to ukazuje prilika. Naredne petnaest godina biće u znaku jednog dugog, gotovo neprekinutog pohoda na jug — pohoda koji će do 1346. udvostručiti teritoriju srpske države i učiniti Dušana gospodarem prostora od Dunava do Korintskog zaliva."
+    },
+    {
+      "type": "paragraph",
+      "text": "Prilika je bila izuzetna. Vizantijsko carstvo, koje je vekovima bilo glavni protivnik raških vladara, ulazilo je u poslednju fazu unutrašnjeg rasula. Posle smrti cara Andronika III 1341. izbio je dugi građanski rat između regenstva mladog Jovana V — pre svega carice majke Ane Savojske i patrijarha Jovana Kalekasa — i moćnog velikaša i carevog prijatelja Jovana Kantakuzina, koji se sam proglasio carem. Sukob je trajao do 1347. i podelio je vizantijsko društvo po sredini: vojska protiv činovništva, provincijska aristokratija protiv prestoničke birokratije, zelotske gradske komune protiv plemstva. U tom haosu Dušan je vešto birao stranu. Sa Kantakuzinom je u prvim godinama sukoba sklopio savez, primio ga u Srbiji kao gosta, a potom ga, kada je to bilo korisnije, napustio i prešao na stranu carice. Svaka promena saveza pratila je novi pohod i novo proširenje granica."
+    },
+    {
+      "type": "paragraph",
+      "text": "Osvajanje se odvijalo u nekoliko jasnih talasa. Prvi je bila Makedonija. Već do 1334. većina makedonskih gradova prešla je pod srpsku vlast — Prilep, Strumica, Vodena, a iste godine i Ohrid, drevno sedište nekadašnje Samuilove države i autokefalne arhiepiskopije. Drugi talas, u drugoj polovini tridesetih godina, doneo je tvrđave oko Svete Gore i obale Egejskog mora. Treći, u godinama vizantijskog građanskog rata, raširio je srpsku vlast na zapad i jug — u Albaniju i Epir. Berat, Kanina i delovi jadranske obale došli su u Dušanove ruke između 1343. i 1345; Tesalija će uslediti do 1348. Kako se proširivao, Dušan je državu sve više pretvarao u zajednicu dveju velikih celina — srpskog severa i grčkog juga."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Sila i pregovor"
+    },
+    {
+      "type": "paragraph",
+      "text": "Dušanovi pohodi nisu bili samo niz vojničkih pobeda. Vizantijski izvori, koji prirodno gledaju neprijateljskim okom, opisuju brzu i tešku konjicu koja je presecala doline i napadala iz zaseda; ali i sami priznaju da Dušan retko uleće u velike frontalne sudare. Njegov metod bio je drugačiji: opsada, blokada puteva i prihoda, pregovor sa lokalnim velikašima, ponuda da zadrže posede i položaje ako priznaju novog gospodara. Takva politika, strpljiva i smišljena, štedela je vojsku i čuvala osvojene gradove od razaranja. Mnogi grčki arhonti i vojni zapovednici prešli su mu u službu dobrovoljno — što će kasnije, u Zakoniku, ostaviti traga u posebnim odredbama za grčke podanike."
+    },
+    {
+      "type": "paragraph",
+      "text": "Najduže su se opirali najveći utvrđeni gradovi. Ser, ključ donjeg Strimona i bogato trgovačko središte, pao je tek 1345. posle duge opsade — i upravo će tamo, sledeće godine, Dušan biti krunisan za cara. Solun, drugi grad Vizantije, ostao je nedostižan: Dušan ga je više puta opsedao, pokušavao da iskoristi unutrašnje prevrate u gradu, ali zidine, mornarica i upornost branilaca uvek su bili jači. Solun nikada nije pao u srpske ruke. Ta činjenica često se zaboravlja kada se priča o Dušanovom carstvu, a važna je: granica njegove moći vrlo precizno se zaustavila pred najvećim grčkim gradovima Egeja."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sveta Gora je u tom kontekstu posebna priča. Grčki manastiri Atosa, pred srpskom vojskom koja je do 1345. okruživala Solun, prihvatili su Dušanovu vrhovnu vlast kao zaštitnika, ne osvajača. Pravo unutrašnje uređenje, grčki jezik službe, igumani i tipici ostali su netaknuti. Zauzvrat su dobili darove, povelje i potvrde poseda — a Hilandar, srpska zadužbina na Atosu, pod Dušanovim pokroviteljstvom doživeo je svoj najveći procvat. Odnos sa Svetom Gorom postao je modelski primer Dušanovog stila vladavine na jugu: poštovati grčke ustanove, ali ih uklopiti u srpski državni okvir."
+    },
+    {
+      "type": "paragraph",
+      "text": "Treba odmah biti iskren o ceni. Osvajanje je značilo rat, opsade, pljačke pograničnih oblasti, ponekad i brutalne represalije nad onima koji su se opirali do kraja. Vizantijski hroničari beleže glad u opsednutim gradovima i prisilna pomeranja stanovništva; oni su pristrasni svedoci, ali nisu izmišljali događaje. S druge strane, srpski izvori s pravom ističu da je Dušan u osvojenim oblastima zadržao postojeće sudske, crkvene i poreske ustanove, da je čuvao manastirske posede i da grčke gradove nije podvrgavao srpskoj koloniji. Moderno istoriografsko vrednovanje pažljivo odmerava obe strane: bila je to vojna ekspanzija srednjovekovnog tipa, sa svim njenim cenama, ali izvedena s neuobičajeno mnogo političkog razuma za to vreme."
+    },
+    {
+      "type": "paragraph",
+      "text": "Do 1346. rezultat je bio zapanjujući. Dušanova država protezala se od Dunava i Save na severu do Korintskog zaliva na jugu, od jadranske obale do Egejskog mora. Po veličini je bila skoro dvostruko veća od one koju je Milutin ostavio. Po sastavu stanovništva, prvi put u istoriji srpske države, grčki podanici bili su brojniji od srpskih. Vladar koji je počeo kao mladi kralj jedne balkanske kraljevine sada je vladao većim delom nekadašnjih evropskih oblasti Vizantije. To stanje moralo je dobiti i novo ime, novu titulu i nov državnopravni oblik — što će biti tema sledeće lekcije."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

@@ -6,13 +6,45 @@
   "dayNumber": 260,
   "order": 2,
   "title": "Železnice i banke",
+  "subtitle": "Kako su pruga Beograd—Niš i Narodna banka osamdesetih godina 19. veka postavile kostur moderne srpske države",
   "readingTimeMinutes": 7,
   "year": 1890,
-  "isPlaceholder": true,
+  "dateLabel": "kraj 19. veka",
+  "timelinePosition": "kraj 19. veka",
+  "summary": "U poslednjim decenijama 19. veka Srbija je dobila dve infrastrukture od kojih će živeti narednih pola veka — železnicu koja je povezala Beograd s Nišom i Carigradom, i Privilegovanu narodnu banku koja je počela da izdaje srpski dinar.",
+  "keyPeople": ["Milan Obrenović", "Eugène Bontoux", "Vladimir Jovanović", "Mihailo Vujić"],
+  "keyPlaces": ["Beograd", "Niš", "Vranje", "Pirot", "Pariz", "Beč"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Kada se hoće u jednoj rečenici opisati šta je Srbiju razlikovalo 1890. od Srbije 1875. godine, najpoštenije je reći — pruga i banka. Sve drugo što se tih godina događalo, od dinastičkih svađa do izborne borbe radikala i naprednjaka, odvijalo se na pozadini dveju mirnih, gotovo neprimetnih revolucija. Jedna je gvozdena, druga papirna; jedna se mogla čuti u pištaljci voza, druga se osećala u tome što su seoski trgovci prvi put nosili u džepu novčanice u sopstvenom dinaru. Bez te dve infrastrukture, sve što će se Srbiji desiti u ratovima 1912—1918. teško bi se moglo i zamisliti."
+    },
+    {
+      "type": "paragraph",
+      "text": "Železnica je u zemlju ušla pod pritiskom Berlinskog kongresa. Kao deo cene za međunarodno priznanje nezavisnosti, Srbija je 1878. preuzela obavezu da u kratkom roku poveže evropsku magistralu Beč—Carigrad, koja je morala ići preko njene teritorije. Konvencija sa Austro-Ugarskom potpisana je 1881. godine, a radovi su krenuli 1882. Glavni izvođač bio je francusko-belgijski konzorcijum „Comptoir d'Escompte” pod vođstvom finansijera Ežena Bontua. Posao je tek bio počeo kada se Bontuova banka Union générale u Parizu srušila u jednoj od najvećih berzanskih kriza tog veka, ostavivši mladu srpsku državu sa nedovršenom prugom i s aferom oko koje će se godinama voditi sudski sporovi. Deo radova preuzela je sama država, deo drugi izvođači, a prva linija — Beograd—Niš — puštena je u rad 1884. Dve godine kasnije pruga je stigla do otomanske granice kod Vranja, a 1888. i do bugarske granice kod Pirota."
+    },
+    {
+      "type": "paragraph",
+      "text": "Šta je to konkretno značilo, najlakše se vidi na putovanju Beograd—Niš. Pre pruge to je za poštanske kočije, po dobrom vremenu, bilo putovanje od nekoliko dana, sa noćenjima, presedanjima i zavisnošću od stanja drumova. Sa vozom se isti put svodio na nekih dvanaest sati. Vojska je preko noći mogla biti pomerena s jednog kraja zemlje na drugi. Svinje iz Šumadije i Pomoravlja, dotad glavni srpski izvozni proizvod, mogle su brže stizati do bečkog i peštanskog tržišta; isto i šljive iz zapadne Srbije. Industrija — mala, ali sad konačno moguća — počinje da se hvata uz prugu: pivare, mlinovi, klanice, prvi rudnici uglja kod Senja i Vrdnika. Telegraf i pošta, koji su već postojali, dobijaju duž pruge sopstvenu kičmu."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Dinar i prve banke"
+    },
+    {
+      "type": "paragraph",
+      "text": "Druga revolucija bila je tiša. Zakonom iz 1878. Srbija je uvela sopstveni decimalni novčani sistem — dinar od sto para, izričito vezan za vrednost francuskog franka i za standarde Latinske monetarne unije. Bio je to izbor i tehnički i politički: oslanjanje na francuski monetarni krug značilo je distanciranje od dotadašnje neformalne dominacije austrijskih forinti i turskih groša u domaćem opticaju. Da bi taj dinar postao stvaran novac, a ne samo proklamacija, bila je potrebna emisiona ustanova. Tu ulogu preuzela je Privilegovana narodna banka Kraljevine Srbije, osnovana 1884. godine kao akcionarsko društvo sa državnom privilegijom izdavanja novčanica. Od tog trenutka srpski dinar — najpre u srebru, potom i u papiru — postao je glavno sredstvo plaćanja u zemlji, a Narodna banka mesto gde se vodila monetarna politika države."
+    },
+    {
+      "type": "paragraph",
+      "text": "Uporedo sa emisionom bankom rasla je i mreža komercijalnih banaka i štedionica. Beogradska zadruga, osnovana još 1882, postala je jedna od najvećih domaćih finansijskih ustanova. Slede Beogradska trgovačka banka, Srpska kreditna banka i niz lokalnih štedionica po varošima, koje su prvi put sistematski počele da prikupljaju štednju građana i da je vraćaju u privredu kao kredite trgovcima i zanatlijama. Inostrani kapital — pretežno francuski posle 1890, sa primesama austrijskog i, kasnije, nemačkog — ulazio je u zemlju uglavnom preko zajmova državi i učešća u velikim infrastrukturnim poslovima. Mnogo toga oko tog kapitala ostaje predmet stručne rasprave: koliko je on Srbiju razvijao, a koliko je zemlju vezivao za interese stranih grupacija — ali da bez njega ni pruge ni banke ne bi bile podignute u tom obimu, ne spori se."
+    },
+    {
+      "type": "paragraph",
+      "text": "Treba odmah dodati i ono što ovaj period nije bio. Srbija s kraja 19. veka i dalje je u suštini seljačka, siromašna zemlja, sa preko četiri petine stanovništva na selu, niskom pismenošću i skromnim gradovima. Industrija je mala i koncentrisana u nekoliko grana; izvoz je pretežno poljoprivredni; državni budžet zavisi od trošarina i od stranih zajmova. Bilo bi pogrešno govoriti o nekom naglom industrijskom uzletu. Ono što jeste izgrađeno, izgrađeno je u kosturu — institucije, mreže, propisi, službe — a ne u masi. Ali upravo taj kostur biće ono što će zemlji omogućiti da kroz prvu deceniju 20. veka izdrži carinski rat sa Austro-Ugarskom, da finansira sopstvene ratove i da svoju vojsku može da pomera prugom kojom je dotad putovao mali broj činovnika i trgovaca. Bez voza koji 1884. polazi iz Beograda i bez novčanica koje 1884. izlaze iz Narodne banke, sve što sledi izgledalo bi sasvim drugačije."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

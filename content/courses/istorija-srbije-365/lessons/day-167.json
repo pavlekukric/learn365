@@ -6,13 +6,53 @@
   "dayNumber": 167,
   "order": 5,
   "title": "Privilegije srpskog naroda",
+  "subtitle": "Carske povelje kojima je Habzburška monarhija priznala srpskoj pravoslavnoj zajednici crkvenu i narodnu samoupravu",
   "readingTimeMinutes": 7,
   "year": 1700,
-  "isPlaceholder": true,
+  "dateLabel": "17–18. vek",
+  "timelinePosition": "17–18. vek",
+  "summary": "Privilegije Leopolda I iz 1690-ih dale su srpskoj pravoslavnoj zajednici u Habzburškoj monarhiji crkvenu samoupravu, narodno-crkveni sabor i prepoznat kolektivni status — pravni okvir koji će vekovima biti i štit i predmet spora.",
+  "keyPeople": ["Leopold I", "Arsenije III Čarnojević"],
+  "keyPlaces": [],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Kada je u leto 1690. godine patrijarh Arsenije III Čarnojević sa kolonom izbeglica prešao Savu i Dunav i potražio zaklon na zemljištu rimokatoličke Habzburške monarhije, obe strane su znale da pred sobom imaju nešto čemu ranija pravila nisu sasvim odgovarala. Beč je dobijao desetine hiljada pravoslavnih ljudi spremnih da nose oružje na novoj granici prema Osmanlijama. Doseljenici su, sa svoje strane, dolazili sa živom crkvenom organizacijom, sa patrijarhom, episkopima, manastirskim bratstvima — i sa potpuno jasnom svešću da bez priznatih prava njihova zajednica neće preživeti u državi u kojoj je vladajuća crkva katolička, a zemaljska vlast u rukama mađarskog plemstva. Iz tog susreta nastaće dokumenta koja će u srpskoj istoriji biti upamćena prosto kao „Privilegije”."
+    },
+    {
+      "type": "paragraph",
+      "text": "Prvu povelju izdao je car Leopold I 21. avgusta 1690. godine, još pre nego što je glavnina seobe stigla na sever. Dve godine kasnije, 1691, sledi nova, šira potvrda; treća, iz 1695, dodatno razrađuje crkvena pitanja. Ova tri akta čine jezgro takozvanih Leopoldinskih privilegija. Kasniji vladari — Josif I, Karlo VI, Marija Terezija — više puta su ih potvrđivali, dopunjavali ili tumačili, tako da je „Privilegija” u svesti zajednice vremenom postala zajednički naziv za čitavu lepezu carskih diploma."
+    },
+    {
+      "type": "paragraph",
+      "text": "Glavne odredbe mogu se sažeti u nekoliko jasnih tačaka. Prvo, sloboda veroispovesti: srpska pravoslavna crkva u habzburškim zemljama imala je pravo da slobodno održava svoje obrede, da poštuje julijanski kalendar i svoju hijerarhiju, bez prisile na crkveno sjedinjenje sa Rimom. Drugo, priznanje crkvenog poglavara: patrijarh, a u kasnijoj praksi karlovački mitropolit, dobijao je vlast nad pravoslavnim parohijama u celoj monarhiji, sa pravom da postavlja episkope i sveštenstvo. Treće, samouprava: zajednica je dobila pravo da saziva Narodno-crkveni sabor, skup duhovnih i svetovnih predstavnika, koji je raspravljao o crkvenim i narodnim poslovima i birao mitropolita. Četvrto, izvesno izuzeće od mađarske feudalne nadležnosti u verskim i unutarcrkvenim stvarima i neposredno potčinjavanje carskoj vlasti. Peto, pravo na vlastite škole i dobrotvorne ustanove. Šesto, prećutno priznavanje Srba kao posebne zajednice u carstvu — u latinskim spisima često nazvane „natio rasciana” — sa kolektivnim, a ne samo pojedinačnim, pravnim položajem."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Spor oko tumačenja"
+    },
+    {
+      "type": "paragraph",
+      "text": "Već od prvih decenija postojanja, Privilegije su otvorile dugu raspravu o tome šta zapravo znače. Bečki dvor i katoličko sveštenstvo skloni su bili da ih tumače usko — kao versko-administrativni ustupak izbeglim podanicima, ograničen na crkvene i obredne poslove. Srpska strana, naprotiv, isticala je da se radi o trajnom pravno-političkom okviru: o priznanju Srba kao naroda u monarhiji, sa pravom na vlastitu unutrašnju upravu i, po nekim tumačenjima, na određenu „narodnu teritoriju” u okviru carstva. Ova razlika nije bila samo pravnička. Iz nje su izrastale konkretne odluke: koliko sabor sme da odlučuje, koje poreze zajednica plaća, kome odgovaraju srpski oficiri na Vojnoj granici, sme li mađarsko plemstvo da pravoslavne seljake uvodi u svoj feudalni sistem. Sporenje će se vući kroz čitav 18. i veliki deo 19. veka."
+    },
+    {
+      "type": "paragraph",
+      "text": "Učinak Privilegija ipak je bio stvaran i dalekosežan. One su srpskoj pravoslavnoj zajednici dale priznat kolektivni pravni identitet u jednoj katoličkoj državi — što je u tadašnjoj Evropi bila prava retkost. Karlovačka mitropolija, izrasla iz tog okvira, postala je mnogo više od crkvene ustanove: bila je središte školstva, knjige, štamparske delatnosti i polagano izgrađene građanske svesti. Bez tog institucionalnog krova teško je zamisliti srpsku prosvećenost osamnaestog veka, rad ljudi poput Jovana Rajića ili Dositeja Obradovića, niti kasnije nacionalno buđenje u Vojvodini. Mitropolit, sa Privilegijama u rukama, postao je stvarni politički zastupnik raseljenog naroda pred dvorom."
+    },
+    {
+      "type": "paragraph",
+      "text": "Cena koja se za to plaćala bila je stalna napetost. Habzburška vlast s vremena na vreme pokušavala je da Privilegije sužava ili da im tumačenje prilagodi sopstvenim potrebama. Katolička hijerarhija vršila je pritisak za prelazak u uniju, pa su u nekim oblastima — naročito u Hrvatskoj i Žumberku — nastajale grkokatoličke zajednice, što je u srpskoj svesti doživljavano kao oduzimanje vernika. Mađarsko plemstvo gledalo je da pravoslavne seljake podvede pod svoju feudalnu jurisdikciju, bez obzira na carske diplome. Sukobi sa katoličkim susedima oko crkvenih zvona, kalendara, sahranjivanja ili gradnje hramova ponavljali su se gotovo neprekidno."
+    },
+    {
+      "type": "paragraph",
+      "text": "Među ustanovama koje su Privilegije omogućile posebno mesto pripada Narodno-crkvenom saboru. Sastajao se povremeno tokom osamnaestog veka, redovno u Sremskim Karlovcima, i donosio je odluke koje su prevazilazile usko crkvena pitanja: birao je mitropolite, raspravljao o školama, fondovima, o odnosima sa krunom, pa i o položaju Srba na Vojnoj granici. Posle 1779. godine, kada je Marija Terezija takozvanim Reglementom suzila njegove nadležnosti i podredila ga državnom nadzoru, sabor je izgubio deo nekadašnje težine, ali je kao oblik narodnog predstavništva preživeo sve do austrougarskog doba."
+    },
+    {
+      "type": "paragraph",
+      "text": "Položaj koji su Privilegije stvorile ponekad se poredi sa drugim posebnim statusima u monarhiji — sa erdeljskim Sasima ili sa Rumunima u Erdelju — iako svaka od tih sredina ima svoje osobenosti i poređenje vredi samo do izvesne mere. Pošteno je reći ovo: Privilegije srpskog naroda bile su istinsko pravno-političko dostignuće jedne izbegličke zajednice koja je iz osmanske u habzburšku državu donela ne samo veru nego i ustanove. Njihovo tačno značenje ostalo je predmet spora; ali i sam taj spor, vođen vekovima pred carskim sudovima, saborima i u štampi, deo je njihove istorije jednako koliko i prvobitne carske diplome iz devedesetih godina sedamnaestog veka."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

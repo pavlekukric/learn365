@@ -6,13 +6,57 @@
   "dayNumber": 299,
   "order": 12,
   "title": "Krfska deklaracija",
+  "subtitle": "Kako su srpska vlada u izgnanstvu i Jugoslovenski odbor na Krfu 1917. dogovorili obrise buduće zajedničke države",
   "readingTimeMinutes": 7,
   "year": 1917,
-  "isPlaceholder": true,
+  "dateLabel": "20. jul 1917.",
+  "timelinePosition": "20. jul 1917.",
+  "summary": "Sporazum vlade Kraljevine Srbije i Jugoslovenskog odbora, potpisan 20. jula 1917. na Krfu, postavio je program ujedinjenja Srba, Hrvata i Slovenaca u jednu državu pod dinastijom Karađorđevića — ali je već u svom tekstu nosio nerešena pitanja koja će opteretiti novu Jugoslaviju.",
+  "keyPeople": ["Nikola Pašić", "Ante Trumbić", "kralj Petar I", "regent Aleksandar", "Frano Supilo"],
+  "keyPlaces": ["Krf", "London", "Pariz", "Beograd", "Zagreb"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Leta 1917. srpska vlada nije bila u Srbiji. Posle albanske golgote prethodne zime, kralj Petar, regent Aleksandar i vlada Nikole Pašića našli su utočište na grčkom ostrvu Krfu, dok su ostaci srpske vojske, obnovljeni uz savezničku pomoć, držali deo Solunskog fronta. Iz tog izgnanstva, sa malog ostrva u Jonskom moru, vodili su poslove jedne države koja je faktički bila pod okupacijom — i pripremali se za mir koji se još nije nazirao, ali za koji su znali da će preurediti celu srednju i jugoistočnu Evropu."
+    },
+    {
+      "type": "paragraph",
+      "text": "U isto vreme, daleko od Krfa, delovala je jedna druga grupa ljudi sa srodnim, ali ne i istovetnim ciljem. Jugoslovenski odbor osnovan je 1915. u Parizu, a sedište je premestio u London. Okupljao je političke emigrante iz Habsburške monarhije — Slovence, Hrvate, Srbe iz Hrvatske, Bosne i Dalmacije — koji su odbijali pomisao da se posle rata vrate pod austrougarsku vlast. Njihova platforma bila je jasna: posle pobede Antante stvoriti zajedničku državu južnih Slovena, kao alternativu obnovi monarhije Habsburgovaca. Na čelu Odbora bio je Ante Trumbić, dalmatinski advokat i bivši austrougarski parlamentarac. Uz njega su delovali Frano Supilo, novinar i političar iz Rijeke, vajar Ivan Meštrović i drugi ljudi sa vezama u savezničkim prestonicama."
+    },
+    {
+      "type": "paragraph",
+      "text": "Odnos između Pašićeve vlade i Odbora bio je od početka osetljiv. Obe strane želele su ujedinjenje, ali su ga zamišljale različito. Srpska vlada videla je novu državu kao prirodno proširenje pobedničke Kraljevine Srbije — ujedinjenje pod već postojećom dinastijom Karađorđevića, sa državnim aparatom razvijenim u Beogradu i sa srpskom vojskom kao oslonom. Trumbić i njegovi saradnici, naprotiv, polazili su od pretpostavke da Habsburški Sloveni u zajedničku državu donose sopstvene političke tradicije, sopstveni saborski život i pravo da te posebnosti budu garantovane — bilo federalnim uređenjem, bilo posebnim ustavnim mehanizmima. Spor oko Supila, koji je tokom 1916. otvoreno tražio jasnije garancije za hrvatsku stranu i potom napustio Odbor — umro je u martu 1917. — pokazao je koliko je razlika bila ozbiljna."
+    },
+    {
+      "type": "paragraph",
+      "text": "Rat je u proleće 1917. ušao u fazu koja je obe strane prisiljavala na zajednički nastup. Februarska revolucija u Rusiji uklonila je carsku Rusiju kao zaštitnicu srpskih interesa. U Beču i Pešti pokrenuta je ideja o preuređenju monarhije, koja je mogla privući deo habsburških Slovena ako Antanta ne ponudi nešto određenije. U Londonu je tajni Londonski ugovor iz 1915. obećavao Italiji velike delove istočne jadranske obale — što je za Hrvate i Slovence bilo neprihvatljivo. U takvim okolnostima i Pašiću i Trumbiću postalo je jasno da se mora govoriti jednim glasom, i to što pre."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Četrnaest tačaka sporazuma"
+    },
+    {
+      "type": "paragraph",
+      "text": "Pregovori su vođeni na Krfu tokom proleća i ranog leta 1917. Sa srpske strane vodio ih je Nikola Pašić, sa Odborove Ante Trumbić. Razgovori su trajali nedeljama, sa otvoreno suprotstavljenim shvatanjima u središtu: hoće li nova država biti jedinstvena, unitarna celina pod jednom dinastijom i jednim ustavom, ili savez ravnopravnih istorijsko-pravnih jedinica. Pašić je insistirao na prvom; Trumbić je tražio garancije za drugo. Konačan tekst, potpisan 20. jula 1917, sastojao se od četrnaest tačaka i bio je kompromis koji je u suštinskim pitanjima išao na ruku srpskoj poziciji."
+    },
+    {
+      "type": "paragraph",
+      "text": "Deklaracija je proglasila da Srbi, Hrvati i Slovenci čine jedan narod sa tri imena — „tri plemena” jednog naroda — i da će se posle rata ujediniti u zajedničku državu, ustavnu i parlamentarnu monarhiju pod dinastijom Karađorđevića. Predviđeno je da oba pisma, ćirilica i latinica, budu ravnopravna, da tri narodna imena budu ravnopravna u službenoj upotrebi i da se zajemče puna verska sloboda — pravoslavlje, katoličanstvo i islam imali su biti ravnopravne veroispovesti. Garantovano je opšte pravo glasa, slobode govora, štampe i okupljanja. Ustav nove države doneće, posle rata, izabrana ustavotvorna skupština."
+    },
+    {
+      "type": "paragraph",
+      "text": "Upravo poslednja tačka pokazaće se kao klasično polazište jugoslovenskog problema. Deklaracija je predviđala da ustav bude usvojen — kako je formulisano — „kvalifikovanom”, odnosno brojčano određenom većinom u skupštini, ali bez izričite zaštite koja bi sprečila da srpska većina sama, bez saglasnosti hrvatskih i slovenačkih predstavnika, izglasa uređenje države. Trumbić je verovao da je tom formulacijom obezbedio bar minimalnu zaštitu za nesrpske strane; Pašić je istu formulaciju shvatao kao otvoren put ka odluci prostom većinom. Nesporazum će postati vidljiv četiri godine kasnije: 28. juna 1921. donet je Vidovdanski ustav prostom većinom, uprkos opoziciji Hrvatske seljačke stranke i većine slovenačkih i hrvatskih poslanika."
+    },
+    {
+      "type": "paragraph",
+      "text": "Krfsku deklaraciju treba čitati onako kako je nastala — kao ratni dokument dveju strana koje žele isti cilj iz različitih razloga. Za Pašićevu vladu, ona je bila legitimacija pred Antantom da Kraljevina Srbija govori i u ime habsburških Slovena i ima pravo da posle pobede preuzme njihovo nasleđe. Za Jugoslovenski odbor, bila je priznanje od strane jedne savezničke vlade da emigrantska politička grupa, bez sopstvene vojske i bez države, ima pravo glasa u oblikovanju budućnosti. Za jedne i druge, deklaracija je bila platforma — ne ustav, nego obećanje da će se ustav doneti zajednički."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sa savezničkim silama, Krfska deklaracija u trenutku potpisivanja nije bila usaglašena; Antanta tada još nije zvanično usvojila program razbijanja Austro-Ugarske. Ipak, dokument je objavljen, raspoređen po prestonicama i postao važan argument u diplomatskoj borbi koja će se zaoštravati u 1918. godini. Kada se monarhija krajem te jeseni raspala iznutra, kada su u Zagrebu, Ljubljani i Sarajevu pala austrougarska vlast i ustanovljena Država Slovenaca, Hrvata i Srba, krfski tekst postao je polazište za pregovore koji će u decembru dovesti do proglašenja Kraljevstva Srba, Hrvata i Slovenaca. Mnoga pitanja koja su 1917. ostala odložena — odnos centra i pokrajina, mehanizam donošenja ustava, sadržaj „ravnopravnosti tri plemena” — vratiće se kao otvoreni rovovi u životu nove države."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

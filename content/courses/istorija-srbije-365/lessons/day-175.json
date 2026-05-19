@@ -6,13 +6,53 @@
   "dayNumber": 175,
   "order": 3,
   "title": "Boka Kotorska i primorje",
+  "subtitle": "Mletački zaliv pravoslavnih pomoraca, na granici Italije, Crne Gore i Rusije, između 16. i 18. veka",
   "readingTimeMinutes": 7,
   "year": 1700,
-  "isPlaceholder": true,
+  "dateLabel": "16–18. vek",
+  "timelinePosition": "16–18. vek",
+  "summary": "Boka Kotorska kao mletačko-pravoslavno primorje: Perast, Kotor i Herceg Novi između Venecije, Crne Gore i Rusije Petra Velikog.",
+  "keyPeople": ["Matija Zmajević", "Petar Veliki", "Marko Martinović"],
+  "keyPlaces": ["Boka Kotorska", "Kotor", "Perast", "Herceg Novi", "Risan", "Tivat"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Ko sa kopna prvi put siđe u Boku Kotorsku, lako pomisli da je zalutao u norveški fjord pogrešno postavljen na jug. Duboko useceni zaliv uvlači se kilometrima u kopno, granajući se u nekoliko manjih zaliva, a iznad vode se gotovo okomito uzdižu kamene padine Orjena i Lovćena. Na uskim obalnim trakama, tamo gde se planina jedva razmiče da pusti ljude, smestili su se gradovi i varoši — Kotor, Perast, Risan, Herceg Novi, Tivat, Prčanj, Dobrota. Ova geografija odredila je sve: kuće sa tri ili četiri prozora u širinu, crkve nalepljene uz stenu i čitavu jednu civilizaciju koja je gledala na more, a ne ka unutrašnjosti."
+    },
+    {
+      "type": "paragraph",
+      "text": "Stanovništvo Boke bilo je već u srednjem veku mešavina koja je ostavljala traga u svakom kamenu. Najstariji sloj činili su romanski Dalmatinci, govornici izumrlog dalmatskog jezika, koji su davali ton kotorskim patricijskim porodicama. Sa zaleđa su, vekovima, silazili Sloveni, najvećim delom pravoslavni Srbi, naseljavajući naročito istočnu i severniju stranu zaliva — okolinu Perasta, Risna i kasnije Herceg Novog. Katolička, italijanizovana elita držala je tradicionalno Kotor, dok je pravoslavna većina obeležila niz primorskih varoši. Iznad svih njih, kao tanak ali uticajan sloj, vekovima je stajao mletački administrativni i trgovački jezik."
+    },
+    {
+      "type": "paragraph",
+      "text": "Politički okvir menjao se češće nego u mnogim sredinama. Kotor je u 12. i 13. veku ulazio u sferu Nemanjića — srpski vladari su gradili crkve u Boki i potpisivali se kao gospodari primorja — pa potom dolazio pod razne kratke gospodare, da bi 1420. godine ceo zaliv osim Herceg Novog priznao mletačku vlast. U mletačkim spisima ova oblast nosila je ime Mletačka Albanija, što je tada značilo prosto „naša krajnja jugoistočna obala”, bez ikakve etničke poruke. Herceg Novi je u tom razdoblju živeo posebnu sudbinu: bio je hercegovo-bosanski, pa osmanski od 1482, kratko špansko-mletački posle 1538, opet osmanski, i konačno mletački od 1687. — i sa svakom promenom menjalo se i ponešto u njegovom stanovništvu."
+    },
+    {
+      "type": "paragraph",
+      "text": "Mletačka uprava bila je u načelu praktična. Republika sv. Marka nije volela verske sukobe u svojim primorskim gradovima jer su joj kvarili trgovinu. Pravoslavni Bokelji su, uz povremene zategnutosti, mogli da drže svoje crkve, svoje sveštenstvo i svoje običaje — pod opštim nadzorom, ali bez sistematskog progona. Manastiri Savina kraj Herceg Novog, Banja, Praskvica i drugi, kao i niz seoskih crkvica, ostali su središta srpske pravoslavne pobožnosti i u doba kada je grad bio mletački, a najviši činovnici Italijani. U Kotoru je katolička biskupija ostala dominantna, ali je grad imao i svoju pravoslavnu opštinu, posebno jaku kada bi se broj doseljenika iz zaleđa povećao."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Perast i ruska veza"
+    },
+    {
+      "type": "paragraph",
+      "text": "U pomorskom smislu, među svim bokeljskim varošima posebno mesto pripalo je Perastu. Mala varoš nasuprot Ostrva Gospe od Škrpjela u 17. i 18. veku razvila je jednu od najuglednijih pomorskih škola na istočnom Jadranu. Peraški kapetani plovili su do Levanta, Egipta i severne Evrope, donosili kući bogatstvo i naručivali baroknu kamenu arhitekturu koja i danas izgleda preveliko za veličinu grada. Kuće Smekja, Bujovića, Mazarovića i Visković podsećaju na palate, a peraške crkve — pravoslavna i katoličke uz nju — pokazuju da su dve veroispovesti vekovima stajale rame uz rame, ne mešajući se sasvim, ali ni ne udarajući jedna na drugu."
+    },
+    {
+      "type": "paragraph",
+      "text": "Glas peraške veštine stigao je i do dvora u kojem se tek rađala jedna nova svetska sila. Petar Veliki, koji je krajem 17. veka po Evropi tražio učitelje za svoju buduću mornaricu, čuo je za Perast i za peraškog kapetana Marka Martinovića. Godine 1697. Martinović je u Perastu primio grupu mladih ruskih plemića i nekoliko meseci ih učio jedrenju, navigaciji i pomorskom računu. Nešto kasnije, oko 1712. godine, u rusku službu prešao je još jedan Peraštanin, Matija Zmajević (1680–1735), iz stare bokeljske porodice. U Rusiji je napredovao do čina admirala baltičke flote, vodio brodogradilišta i bitke i postao jedan od najistaknutijih stranih oficira u službi cara Petra. Veza između male bokeljske varoši i ruske imperije bila je više nego anegdotska — bila je deo šireg pravoslavnog i diplomatskog kanala koji je vodio preko Jadrana ka Cetinju i severu."
+    },
+    {
+      "type": "paragraph",
+      "text": "Upravo taj kanal određivao je odnos Boke i Crne Gore. Iako su pravno bili u različitim državama — Boka mletačka, Crna Gora pod vladikama i sa tankom granicom prema Osmanlijama — Bokelji i Crnogorci bili su povezani jezikom, verom, rodbinom i interesom. Trgovci iz Risna i Perasta snabdevali su cetinjsku okolinu solju, žitom i barutom. Pismeni Bokelji često su služili vladikama kao pisari, savetnici i prevodioci u prepisci sa Venecijom i Petrogradom. Kada bi se ruski subsidiji ili crkvene knjige slali Cetinju, put je obično vodio kroz Boku. U ratovima protiv Osmanlija, bokeljske posade i crnogorski odredi često su delovali zajedno, čak i kada su zvanično bili podanici različitih sila."
+    },
+    {
+      "type": "paragraph",
+      "text": "Kraj te kompozicije došao je iznenada. Kada je Napoleon 1797. ukinuo Mletačku Republiku, Boka je za trenutak ostala bez gospodara. Domaći ljudi su pokušali da je sami vode, a u narednim godinama zaliv su, smenjujući se, držali Austrijanci, Francuzi i Rusi — ruska flota je 1806. uplovila u Boku uz oduševljen doček lokalnog pravoslavnog stanovništva, što je samo potvrdilo koliko je ruska veza tada bila živa. Bečki kongres je 1814. svu Boku predao Habzburškoj monarhiji, pod kojom će ostati do 1918. godine. Iza mletačkih vekova ostao je trajan pečat: barokne palate uz vodu, dvojezični natpisi na nadgrobnim pločama, pravoslavni manastiri okruženi maslinjacima i sećanje na malu varoš koja je dala admirala ruskoj floti."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

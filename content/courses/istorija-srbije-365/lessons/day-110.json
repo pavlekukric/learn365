@@ -6,13 +6,49 @@
   "dayNumber": 110,
   "order": 5,
   "title": "Balšići u Zeti",
+  "subtitle": "Kako su tri brata sa juga Zete, između Mletaka i Osmanlija, podigli najprimorskiju srpsku vlastelinsku državu 14. veka",
   "readingTimeMinutes": 7,
   "year": 1380,
-  "isPlaceholder": true,
+  "dateLabel": "14. vek",
+  "timelinePosition": "14. vek",
+  "summary": "Uspon Balšića od sitne vlastele iz južne Zete do gospodara Skadra i Bara, sukobi sa Mlecima, Bosnom i Osmanlijama, i sudbina dinastije do gašenja muške loze 1421. godine.",
+  "keyPeople": ["Stracimir Balšić", "Đurađ I Balšić", "Balša II", "Đurađ II Stracimirović"],
+  "keyPlaces": ["Zeta", "Skadar", "Bar"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Posle smrti cara Dušana 1355. godine i ubrzanog raspada njegovog carstva, na južnom obodu nekadašnje države — u Zeti, oblasti koja se prostirala od Skadarskog jezera do primorja današnje Crne Gore i severne Albanije — pojavila su se tri brata o čijem se poreklu malo zna pouzdano. Stracimir, Đurađ i Balša Balšić bili su, po svemu sudeći, sitna vlastela koja se za vreme slabog cara Uroša brzo uzdigla i u toku šezdesetih godina 14. veka uzela vlast nad većim delom Zete. Otkud su tačno potekli, da li iz starije lokalne porodice ili sa strane, izvori ne kazuju jasno; ono što je sigurno jeste da su za nepunih dvadeset godina od bezimenih gospodara postali jedna od glavnih vlastelinskih kuća u srpskim zemljama."
+    },
+    {
+      "type": "paragraph",
+      "text": "Zeta koju su naslijedili bila je posebna oblast. Pravoslavna po staroj tradiciji Nemanjića, ali sa snažnim katoličkim primorskim gradovima — Barom, Ulcinjom, Kotorom u susedstvu — i sa vekovnim vezama prema Italiji, Dubrovniku i Mlecima, ona je već u srednjem veku bila najjadranskija od svih srpskih zemalja. Vladar Zete morao je istovremeno da govori jezik raške pravoslavne vlastele, latinski jezik svojih gradskih trgovaca i diplomatski jezik mletačkih konzula. Balšići su tu dvostrukost prihvatili kao uslov opstanka. Njihova verska politika bila je složena: ostali su pretežno pravoslavni, ali su pojedini članovi porodice, zarad braka ili saveza, prelazili u katoličanstvo, što im je u kasnijim crkvenim izvorima donelo glas neodređenih i proračunatih vladara."
+    },
+    {
+      "type": "paragraph",
+      "text": "U prvim godinama brat je delio vlast sa bratom. Stracimir, kao najstariji, držao je severniji deo, Đurađ — najsposobniji od trojice — vodio je spoljnu politiku, a najmlađi Balša pomagao u vojnim poduhvatima. Ratovali su gotovo bez prekida: sa susednim albanskim plemstvom oko zaleđa, sa kraljevinom Bosnom oko Huma, sa Dubrovnikom oko trgovačkih privilegija, a najuporenije sa Mletačkom republikom oko primorskih gradova Dalmacije i Albanije. Krajem sedamdesetih godina, posle smrti starije braće — Đurađ I umire oko 1378. godine, prirodnom smrću, što treba reći jer ga predanje ponekad pogrešno svrstava među pale na Marici — sva vlast prelazi u ruke Balše II."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Od Skadra do Saurskog polja"
+    },
+    {
+      "type": "paragraph",
+      "text": "Pod Balšom II Skadar — danas Shkodër u severnoj Albaniji — postaje pravo središte zetske države. Bar, sa svojom katoličkom nadbiskupijom i utvrđenjem Stari Bar iznad mora, ostaje druga prestonica, a tvrđava Žabljak na Skadarskom jezeru jedna od ključnih vojničkih tačaka. Balša širi vlast i ka jugu, ulazi u Drač, jedan od najvažnijih jadranskih trgovačkih gradova, i sukobljava se sa lokalnim albanskim gospodarima i sa Mlecima. Upravo taj prodor ka jugu izvešće ga, 1385. godine, pred prvi ozbiljan osmanski udar. Na Saurskom polju, blizu Berata, Balša II pogibe u sukobu sa turskim odredom — jedan od prvih srpskih vladara koji život gubi od Osmanlija, četiri godine pre Kosovske bitke. Njegova smrt otkrila je nešto što će se ubrzo potvrditi i severnije: turska vojska više nije bila daleka, povremena pretnja, nego nova stvarnost koja menja sva pravila."
+    },
+    {
+      "type": "paragraph",
+      "text": "Vlast u Zeti preuzeo je Đurađ II Stracimirović, sinovac pokojnog Balše. Njegova vladavina, od 1385. do 1403. godine, najsloženija je u istoriji dinastije. Ulazio je u brak sa Jelenom, kćerkom kneza Lazara — što ga je porodično povezalo i sa rodom Lazarevića i, kasnije, sa despotom Stefanom — ali ga geografski položaj nije puštao da postane prosti deo srpskog severa. Lavirao je između Mletaka, kojima je u jednom trenutku predao Skadar i druge gradove kako bi spasao ono što se spasti može, i Osmanlija, kojima je povremeno priznavao vrhovnu vlast i plaćao danak. Više puta je nadigran, više puta zarobljen i više puta se vraćao na vlast. Ostao je upamćen kao trezven, donekle melanholičan vladar male zemlje koja je morala da preživi između dve mnogo veće sile."
+    },
+    {
+      "type": "paragraph",
+      "text": "Posle Đurđa II vladali su još njegov sin Balša III i, kratko, drugi rođaci, ali je dinastija u muškoj lozi ugašena 1421. godine. Po sporazumu, Zeta je tada prešla pod vlast despota Stefana Lazarevića i postala deo Srpske despotovine. Time se završava prvo poglavlje samostalne zetske vlasti — ono balšićko, primorsko, jadransko. Drugo poglavlje, koje će uskoro otvoriti porodica Crnojevića u gornjoj Zeti, nastaviće istu nit otpora i samostalnosti duboko u osmanski period; o tome će biti reči kasnije. Za sada je dovoljno reći da su Balšići bili prvi koji su pokazali da na jugozapadu starih srpskih zemalja može da postoji država okrenuta moru."
+    },
+    {
+      "type": "paragraph",
+      "text": "Istoričari koji se bave Balšićima moraju da prihvate jedno otrežnjenje: dokumentarna građa je nejednaka. Najpotpunije vesti čuvaju se u mletačkim arhivima — ugovori, žalbe konzula, prepiska Senata — dok su domaći zapisi škrti, a hronologija pojedinih bitaka i tačne granice njihove države i danas su predmet stručne rasprave. Pa ipak, slika koja se izvlači iz svih izvora dovoljno je jasna. Balšići su za nešto više od pola veka stvorili najprimorskiju srpsku vlastelinsku državu kasnog srednjeg veka, držali su je između tri vatre — mletačke, bosanske i osmanske — i kada su nestali sa istorijske pozornice, ostavili su za sobom tradiciju koju će kasniji vekovi prepoznati kao prvi izvor jedne posebne, zetsko-crnogorske političke priče."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

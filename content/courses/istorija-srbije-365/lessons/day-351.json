@@ -6,13 +6,49 @@
   "dayNumber": 351,
   "order": 2,
   "title": "Demokratska tranzicija",
+  "subtitle": "Prve tri godine posle 5. oktobra — vlada Zorana Đinđića, povratak u svet i nedovršene reforme",
   "readingTimeMinutes": 7,
   "year": 2001,
-  "isPlaceholder": true,
+  "dateLabel": "2000–2003.",
+  "timelinePosition": "2000–2003.",
+  "summary": "Posle pada Miloševića Srbija je za nekoliko meseci ušla u međunarodne institucije i počela krupne reforme, ali su unutrašnje podele u DOS-u, izručenje Miloševića Haškom tribunalu i neraščišćeno nasleđe službi i kriminala činili da period ostane neravnomeran i nedovršen.",
+  "keyPeople": ["Zoran Đinđić", "Vojislav Koštunica", "Slobodan Milošević", "Mlađan Dinkić", "Miroljub Labus"],
+  "keyPlaces": ["Beograd", "Vašington", "Brisel", "Hag", "Strazbur"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Posle 5. oktobra 2000. Srbija se našla u stanju kakvo dotad nije poznavala — vlast je bila promenjena, ali aparat države nije. U Beogradu je sedeo nov savezni predsednik, Vojislav Koštunica, dok su republičke institucije još mesecima bile pod inercijom starog režima. Demokratska opozicija Srbije, koalicija od osamnaest stranaka koja se okupila oko jednog cilja, dobila je u decembarskim izborima ubedljivu većinu u republičkoj skupštini. U januaru 2001. obrazovana je vlada Zorana Đinđića, lidera Demokratske stranke. Time je počela tranzicija koja će za dve i po godine pokušati da uradi ono što druge zemlje istočne Evrope rade jednu deceniju."
+    },
+    {
+      "type": "paragraph",
+      "text": "Prvi potezi novih vlasti bili su finansijski i spoljnopolitički. Guverner Narodne banke Mlađan Dinkić stabilizovao je dinar i obuzdao inflaciju koja je tokom devedesetih bila jedna od najvećih u Evropi. Potpredsednik savezne vlade Miroljub Labus vodio je pregovore o povratku u međunarodne institucije iz kojih je Jugoslavija bila isključena ili u kojima je njeno mesto godinama bilo prazno. Tokom prvih meseci 2001. zemlja je primljena u Ujedinjene nacije pod novim imenom i statusom, vraćena je u Međunarodni monetarni fond i u Svetsku banku, a u aprilu je obnovljeno članstvo u Savetu Evrope. Ambasade su se otvorile, sankcije su padale jedna za drugom, granice su prestale da budu zid."
+    },
+    {
+      "type": "paragraph",
+      "text": "Unutar zemlje, ekonomske reforme dobile su pravni okvir Zakonom o privatizaciji iz juna 2001. godine. Model je bio drugačiji od onog iz devedesetih: umesto podele akcija zaposlenima, predviđena je prodaja preduzeća, najčešće stranim ili domaćim investitorima, uz manji deo akcija za radnike i građane. Prihod od prodaje delom je odlazio u budžet, delom u fondove za penzije i restituciju. Reforma je donela prve velike strane investicije i prve velike skandale; ona je u javnosti istovremeno bila i znak modernizacije i izvor sumnji o tome ko zaista kupuje šta i po kojoj ceni."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Đinđić, Koštunica i Hag"
+    },
+    {
+      "type": "paragraph",
+      "text": "Brzo se pokazalo da DOS nije jedinstven blok, nego savez sa dva polariteta. Zoran Đinđić, kao premijer Srbije, gurao je tempo: smatrao je da se prozor za reforme brzo zatvara, da je svaki mesec oklevanja izgubljen, i da Srbija mora bez sentimentalnosti da se uključi u zapadne integracije. Vojislav Koštunica, savezni predsednik, bio je oprezniji — pravnik po obrazovanju i konzervativac po temperamentu, držao je do procedura, do državnog kontinuiteta i do oslonca na ustavni red. Razlika između njih nije bila samo lična, mada je i to postojalo; bila je i strukturna, jer su republički i savezni nivo vlasti imali različite logike i različite resurse, a savezna država — Savezna Republika Jugoslavija sa Crnom Gorom — bila je politički sve labavija."
+    },
+    {
+      "type": "paragraph",
+      "text": "Najteža kriza došla je oko Haškog tribunala. Slobodan Milošević uhapšen je 1. aprila 2001. u Beogradu, najpre po domaćim optužbama za zloupotrebe vlasti. Međunarodna zajednica — naročito Sjedinjene Države — uslovljavala je dalju ekonomsku pomoć njegovim izručenjem Međunarodnom krivičnom tribunalu za bivšu Jugoslaviju. Posle ustavnog spora u kojem je savezni ustavni sud privremeno zaustavio izručenje, vlada Srbije je 28. juna 2001, na Vidovdan, donela uredbu kojom je Miloševića predala Hagu i avionom ga prebacila u Holandiju. Koštunica je odluku javno osudio kao protivustavnu; Đinđić je odgovorio da je izbor bio između izolacije i sredstava za penzije i plate. Bio je to dubok rez u DOS-u od kojeg se koalicija nikad nije do kraja oporavila."
+    },
+    {
+      "type": "paragraph",
+      "text": "U pozadini političkog života ostala je još jedna tema o kojoj se tada govorilo manje glasno nego što je zaslužila — kontinuitet bezbednosnih službi i preplitanje sa organizovanim kriminalom. Specijalne jedinice formirane u ratnim godinama nisu raspuštene; deo njihovih ljudi prešao je u nove strukture, deo se vezao za grupe poput zemunskog klana, koji je u Beogradu poslovao na granici legalnosti i ilegale. Reforma policije i vojske najavljivana je više puta, ali je sprovođena polako, uz otpor unutar samih službi. Đinđić je to spoljnim sagovornicima opisivao kao najteži deo posla; javnosti je, pak, bilo teško da razazna gde svršava reforma a gde počinje sukob interesa."
+    },
+    {
+      "type": "paragraph",
+      "text": "Period od 2001. do početka 2003. ima zato dvostruko lice. Sa jedne strane, to su godine stvarnog otvaranja: prve posete stranih državnika, ulazak u Pakt za stabilnost jugoistočne Evrope, pregovori o pridruživanju Evropskoj uniji, povratak srpske diplomatije, sportista i kulture u međunarodne tokove. Sa druge, to su godine u kojima vlada radi pod pritiskom, koalicija puca, a stari aparat preživljava unutar nove države. Reforme su bile stvarne — to nije sporno; ali su bile neravnomerne, prevelike za vreme koje im je dato, i u trenutku kada je Đinđić u martu 2003. ubijen, ostavile su Srbiju u stanju u kome je promena već bila duboka, ali ne i dovršena. Sledeće decenije će biti potrošene, dobrim delom, na završavanje posla započetog u tih nepunih trideset meseci."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

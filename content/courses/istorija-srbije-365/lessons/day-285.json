@@ -6,13 +6,49 @@
   "dayNumber": 285,
   "order": 5,
   "title": "Drugi balkanski rat",
+  "subtitle": "Mesec dana sukoba bivših saveznika oko Makedonije koji je promenio savezničke karte na Balkanu za decenije",
   "readingTimeMinutes": 7,
   "year": 1913,
-  "isPlaceholder": true,
+  "dateLabel": "1913.",
+  "timelinePosition": "jun–avgust 1913.",
+  "summary": "Nezadovoljna stvarnom podelom oslobođenih teritorija u Makedoniji, Bugarska je krajem juna 1913. napala bivše saveznike i u kratkom ratu izgubila — a sa porazom je nestalo i balkansko savezništvo iz 1912.",
+  "keyPeople": ["Ferdinand I Koburški", "Radomir Putnik", "Stepa Stepanović", "Konstantin I Grčki"],
+  "keyPlaces": ["Bregalnica", "Makedonija", "Bukurešt", "Jedrene", "Dobrudža"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Pobeda nad Osmanskim carstvom u proleće 1913. godine ostavila je balkanske saveznike sa ogromnim plenom — i sa pitanjem na koje predratni sporazumi nisu davali jasan odgovor. Mir u Londonu povukao je granicu Osmanskog carstva u Evropi na liniju Enos—Midija, ali nije rekao gde se završava srpsko, a gde počinje bugarsko. Sve se vrtelo oko Makedonije. Po srpsko-bugarskom ugovoru iz marta 1912. veći deo te oblasti bio je obećan Bugarskoj, a sporna „severna zona” trebalo je da se prepusti arbitraži ruskog cara. Ali rat je tekao drugačije od plana: srpska vojska je u brzom pohodu osvojila Vardarsku Makedoniju do Bitolja, dok je bugarska glavnina bila vezana za tešku tračku frontu i opsadu Jedrena. Srbija i Grčka, koje su se u međuvremenu sporazumele o zajedničkoj liniji, smatrale su da nova stvarnost traži novi račun i da arbitražni okvir, sklopljen za sasvim drugačiji ratni scenario, više ne odgovara."
+    },
+    {
+      "type": "paragraph",
+      "text": "U Sofiji se na to gledalo drugačije. Tamo je preovladalo uverenje da se Bugarska, koja je podnela najveće žrtve u Trakiji, sada vara od strane saveznika. Kralj Ferdinand, ambiciozan i sklon dramatičnim potezima, našao se pod jakim pritiskom oficirskog kruga koji je verovao da samo brz, iznenadan udarac može da reši stvar pre nego što velike sile sednu za sto. Diplomatija je još tekla — u Petrogradu se pripremala konferencija — ali u bugarskom generalštabu već su pravljeni operativni planovi. Civilna vlada bila je u nedoumici; vojska je insistirala. U noći između 29. i 30. juna 1913. bugarske jedinice su, bez objave rata, napale srpske položaje na Bregalnici i grčke kod Soluna."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Bregalnica i preokret"
+    },
+    {
+      "type": "paragraph",
+      "text": "Prvi udar bio je snažan i u nekim sektorima je probio srpske prednje linije. Ipak, srpska Druga armija, pod komandom generala Stepe Stepanovića, brzo se sabrala i krenula u protivnapad. Borbe na Bregalnici trajale su prvih deset dana jula i bile su među najkrvavijim koje je srpska vojska do tada vodila — vođene po brdovitom, isečenom terenu, sa bajonetom isto koliko i puškom. Načelnik Vrhovne komande, vojvoda Radomir Putnik, držao je čitavu operaciju u rukama smireno i metodično. Do sredine jula bugarska ofanziva bila je zaustavljena, a potom i odbačena. Bregalnička bitka je za srpsku vojsku postala drugi veliki naziv te decenije, odmah uz Kumanovo, i u srpskom sećanju ostala je kao odlučujuća pobeda Drugog balkanskog rata."
+    },
+    {
+      "type": "paragraph",
+      "text": "Dok se rešavalo na srpskom frontu, Grčka je nadirala sa juga, potiskujući bugarske snage iz Makedonije ka starim bugarskim granicama. Krajem jula situacija se za Sofiju ubrzano pogoršavala. Rumunija, koja je do tada stajala po strani i samo tražila teritorijalnu naknadu u Dobrudži, ocenila je da je trenutak savršen i 10. jula objavila rat. Njena vojska prešla je Dunav i, gotovo bez ispaljenog metka, zauzela južnu Dobrudžu i krenula put Sofije. Bugarska, čija je glavnina ratovala daleko na zapadu i jugu, severnu granicu praktično nije imala čime da brani. U isto vreme Osmansko carstvo, koje je samo nekoliko meseci ranije izgubilo Jedrene, iskoristilo je priliku, prešlo liniju Enos—Midija i bez većeg otpora vratilo grad pod svoju vlast."
+    },
+    {
+      "type": "paragraph",
+      "text": "Opkoljena sa četiri strane, Bugarska je već početkom avgusta zatražila primirje. Mir je sklopljen u Bukureštu 10. avgusta 1913. godine. Srbija je dobila veći deo Vardarske Makedonije, sa Skopljem, Bitoljem i Štipom; Grčka je zadržala Solun i Egejsku Makedoniju sa Kavalom; Rumunija je dobila južnu Dobrudžu; Osmansko carstvo je zasebnim ugovorom u Carigradu zadržalo Jedrene i okolinu. Bugarskoj je ostao samo uzan pojas Pirinske Makedonije i deo zapadne Trakije sa izlazom na Egejsko more. Za Srbiju je to bilo udvostručenje državne teritorije u manje od godinu dana i, na papiru, najveći diplomatski uspeh još od Berlinskog kongresa."
+    },
+    {
+      "type": "paragraph",
+      "text": "Rat je trajao jedva mesec dana, ali je trag koji je ostavio bio nesrazmerno dubok. Saveznici iz Balkanskog saveza, koji su pre godinu dana zajedno krenuli na Osmansko carstvo, sada su otišli kao neprijatelji — i takvi su, u suštini, ostali za naredne decenije. U Sofiji je poraz primljen kao nepravda i nazvan „nacionalnom katastrofom”; ideja revanša postala je jedna od glavnih osovina bugarske politike. Upravo će ta gorčina presudno uticati na svrstavanje balkanskih država u Prvom svetskom ratu samo dve godine kasnije: Bugarska će stati uz Centralne sile, dok će se Srbija, Grčka i Rumunija, različitim putevima, naći na suprotnoj strani."
+    },
+    {
+      "type": "paragraph",
+      "text": "Za Srbiju je Bukureštanski mir doneo Makedoniju, ali i nove unutrašnje obaveze — integraciju oblasti koja je vekovima živela pod drugačijim sistemom, sa složenim verskim i jezičkim sastavom stanovništva i sa susedima koji nisu prihvatili novu granicu. Vojska je iz dva uzastopna rata izašla iskusna i samouverena, ali iscrpljena; ekonomija opterećena; diplomatska scena pomerena. Velike sile su sa nelagodom posmatrale kako se Balkan sam preuređuje, mimo njihovih planova. Niko tog avgusta nije mogao precizno reći šta će iz toga proizaći — ali svima je bilo jasno da poredak iz 1878. više ne važi i da se na poluostrvu otvorilo poglavlje čiji rasplet zavisi od prve ozbiljnije iskre."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

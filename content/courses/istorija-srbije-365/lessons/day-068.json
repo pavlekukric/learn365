@@ -6,13 +6,49 @@
   "dayNumber": 68,
   "order": 8,
   "title": "Milutin — veliki zadužbinar",
+  "subtitle": "Kralj koji je u četiri decenije vladavine podigao više crkava i manastira nego ijedan srpski vladar pre i posle njega",
   "readingTimeMinutes": 7,
   "year": 1300,
-  "isPlaceholder": true,
+  "dateLabel": "1282–1321.",
+  "timelinePosition": "1282–1321.",
+  "summary": "Milutinov graditeljski program — preko četrdeset crkava i manastira, od Gračanice i Banjske do Hilandara, Studenice i darova Sinaju i Jerusalimu — i majstori koji su ga ostvarili.",
+  "keyPeople": ["Milutin", "Mihail Astrapas", "Evtihije"],
+  "keyPlaces": ["Gračanica", "Banjska", "Hilandar", "Studenica", "Prizren"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "U srednjovekovnoj Srbiji vladar nije bio potpun bez svoje zadužbine. Od Stefana Nemanje pa nadalje, svaki kralj je za sobom morao ostaviti barem jedan manastir — kuću u koju će ući njegovo telo i u kojoj će ostati spomen na njegovu vlast. Bila je to istovremeno pobožnost, politika i porodična obaveza. Milutin je to pravilo prihvatio, ali ga je u toku četrdesetogodišnje vladavine razvio do mere kakvu nijedan srpski vladar pre njega nije ni pokušao, a nijedan posle njega nije ponovio. U srpskoj tradiciji ostao je upamćen kao veliki zadužbinar — vladar čiji se trag na zemlji broji crkvama."
+    },
+    {
+      "type": "paragraph",
+      "text": "Tačan broj njegovih zdanja nije moguće utvrditi. Stari spisi, naročito „Životi kraljeva i arhiepiskopa srpskih” arhiepiskopa Danila II, koji ga je lično poznavao, govore o više od četrdeset crkava i manastira koje je sazidao iz temelja, obnovio ili izdašno darivao. Među njima su zdanja u srcu njegove države, ali i ona daleko van granica — u Solunu, na Svetoj Gori, u Carigradu, u Jerusalimu i na Sinaju. Istoričari se danas slažu da je broj verovatno preuveličan u smislu lične gradnje, ali da je obim donacija doista bio izuzetan. Milutin je svoju državnu blagajnu, obogaćenu rudnicima Brskovo i Rudnik, sistematski okretao u kamen, mozaik i fresku."
+    },
+    {
+      "type": "paragraph",
+      "text": "Najpoznatija među sačuvanim zadužbinama je Gračanica na Kosovu, podignuta početkom četrnaestog veka — petokupolna crkva čija će arhitektura, kao zaseban predmet, biti razmotrena u sledećoj lekciji. Uz nju idu Bogorodica Ljeviška u Prizrenu, koju je Milutin između 1306. i 1307. iz osnova obnovio i pretvorio u petokupolnu građevinu na temeljima starije bazilike, i manastir Banjska kod današnjeg Zvečana, koji je gradio kao svoje predviđeno mesto sahrane. U današnjoj Severnoj Makedoniji nalaze se Staro Nagoričino, posvećeno svetom Đorđu, i crkva svetog Nikite kod Skoplja — obe njegove zadužbine, obe izuzetnih fresaka."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ni stare porodične svetinje nije zaobišao. U Studenici, manastiru svog pradede Nemanje, podigao je takozvanu Kraljevu crkvu, malu ali izvanrednu građevinu posvećenu svetim Joakimu i Ani, koja stoji uz Nemanjinu Bogorodičinu crkvu kao tihi dodatak iz nove epohe. Na Svetoj Gori, u srpskom Hilandaru, dao je sagraditi novi glavni hram — sadašnji katolikon manastira — i tako u atonskom monaškom svetu trajno potvrdio srpsko prisustvo koje je počelo s njegovim pretkom Savom. Slao je darove i mnogo dalje: kapelu Četrdeset mučenika podigao je u bugarskom Trnovu, a zabeleženo je njegovo darivanje manastira na Sinaju i u Jerusalimu, kao i pomoć vizantijskim crkvama u prestonici."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Stil i majstori"
+    },
+    {
+      "type": "paragraph",
+      "text": "Milutinovi graditelji radili su u takozvanom poznovizantijskom, vardarskom stilu — o samom stilu biće više reči u kasnijoj lekciji posvećenoj srpskoj srednjovekovnoj arhitekturi. Ovde je dovoljno reći da je reč o crkvama sa upisanim krstom u osnovi, više kupola umesto jedne, i fasadama u kojima se naizmenično ređaju opeka i kamen u dekorativnim trakama, često sa keramičkim ukrasima. Bio je to jezik kojim se tada gradilo od Carigrada do Soluna, jezik na vrhuncu svojih izražajnih mogućnosti, i Srbija je u Milutinovo doba u njega ušla ravnopravno. Njegove crkve nisu provincijska podražavanja vizantijskih uzora, već dela istog ranga, ponekad i preciznijeg izvođenja od onoga što se u tom trenutku zidalo u samoj Vizantiji."
+    },
+    {
+      "type": "paragraph",
+      "text": "Slično važi i za slikarstvo. Milutin je dovodio najbolje grčke majstore svog doba. Među freskama u nekoliko njegovih crkava — u Bogorodici Ljeviškoj, u Starom Nagoričinu i u crkvi svetog Đorđa u Solunu — sačuvani su, što je za srednji vek redak slučaj, sami potpisi slikara: Mihaila Astrape i Evtihija. Njih dvojica, najverovatnije iz Soluna, donela su Srbiji ono što danas zovemo zrelim paleologovskim stilom — figuralno slikarstvo u kome se klasično grčko nasleđe ponovo budi, lica dobijaju zaokruženu plastiku, a kompozicije meku, gotovo pozorišnu napetost. Bili su to umetnici evropskog ranga; činjenica da su radili za srpskog kralja govori i o sredstvima koja je on bio spreman da uloži i o ozbiljnosti s kojom su ga njegovi savremenici doživljavali."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ima više razloga zašto je sve to bitno preko granica čisto srpske istorije. Milutinove zadužbine spadaju među najvažnije sačuvane spomenike srednjovekovne evropske umetnosti — neke od njih su upisane na listu svetske baštine UNESCO-a, druge su predložene za nju. Govore o državi koja je u prvim decenijama četrnaestog veka prestala da bude periferija pravoslavnog sveta i ušla u njegov gornji red, sa istim majstorima, istim materijalom i istim ambicijama kao i sama Vizantija. Ali govore i o jednom razumevanju vlasti: za Milutina je gradnja crkava bila način da se vladavina opravda pred Bogom, da se državna riznica vrati zemlji u trajnom obliku, i da posle njega ostane nešto što ratovi i sledeći vladari ne mogu lako da pomere. Veći deo tih zdanja, kroz sve potonje vekove, doista je i ostao."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

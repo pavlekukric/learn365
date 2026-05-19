@@ -6,13 +6,49 @@
   "dayNumber": 12,
   "order": 1,
   "title": "Iliri — ko su bili",
+  "subtitle": "Tuđe ime za mnoštvo srodnih plemena zapadnog i centralnog Balkana",
   "readingTimeMinutes": 8,
   "year": -500,
-  "isPlaceholder": true,
+  "dateLabel": "gvozdeno doba",
+  "timelinePosition": "~500. p. n. e.",
+  "summary": "Iliri nisu bili jedan narod ni jedna država, nego porodica srodnih plemena gvozdenog doba kojima su grčki i rimski pisci, gledano spolja, dali zajedničko ime. Pod tim imenom kriju se Ardijejci, Autarijati, Dardanci, Liburnci i drugi — različiti po jeziku tek u nijansama, po sudbini često veoma različito.",
+  "keyPeople": ["Agron", "Teuta", "Ardijejci", "Autarijati", "Dardanci", "Liburnci"],
+  "keyPlaces": ["zapadni Balkan", "Jadran", "Kosovo", "centralni Balkan"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Reč „Iliri” danas zvuči kao da imenuje jasan, prepoznatljiv narod — onako kako kažemo Grci ili Rimljani. U stvarnosti, to je tuđe ime, kovanica grčkih i rimskih pisaca koji su sa svojih obala i puteva pokušavali da imenuju ono što su zaticali sa druge strane Jadrana i u unutrašnjosti Balkana. Pod tim jednim imenom krilo se mnoštvo plemena, srodnih ali ne istovetnih, koja su jedva sebe doživljavala kao jednu celinu. Iliri su, drugim rečima, više pojam spoljnog posmatrača nego svest samih ljudi koje taj pojam pokriva."
+    },
+    {
+      "type": "paragraph",
+      "text": "U pisanu istoriju ulaze tokom prvog milenijuma pre nove ere, u vreme koje smo upravo nazvali gvozdenim dobom. Tada već vekovima žive na širokom prostoru — okvirno od istočne jadranske obale, preko današnje Crne Gore, Albanije, Bosne i Hercegovine, dela Hrvatske, sve do unutrašnjosti zapadne i centralne Srbije. Granice tog prostora nikada nisu bile oštre; na severu se mešaju sa keltskim svetom koji će tek doći, na istoku sa Tračanima, na jugu sa Grcima sa kojima dele obalu. Govorili su, koliko se može rekonstruisati, srodne indoevropske jezike — porodicu koju nauka uslovno zove ilirskom — ali od tih jezika do nas su stigle uglavnom samo lična imena, imena mesta i pokoja reč u tuđim spisima. Pisma nisu ostavili."
+    },
+    {
+      "type": "paragraph",
+      "text": "Kada grčki i rimski izvori počnu da nabrajaju plemena pod ilirskim imenom, dobijamo dugačak spisak koji nije svuda jednako pouzdan. Među onima koja se najčešće pominju i koja su za našu priču najvažnija nekoliko ih se izdvaja. Ardijejci su živeli na jadranskoj obali i u njenom zaleđu, i upravo će oni, u trećem veku pre nove ere, postati jezgro jedne ilirske kraljevine o kojoj će pisati i Rim. Autarijati su, prema antičkim piscima, bili moćno pleme centralnog Balkana, smatrano u jednom razdoblju gotovo najjačim među Ilirima, premda je njihova istorija puna kasnijih previranja i seoba. Liburnci su bili pomorci severnog Jadrana, dovoljno vešti na moru da po njima jedan tip ratnog broda nosi ime — liburna. Dardanci su živeli najbliže onome što danas zovemo Srbijom: na prostoru današnjeg Kosova i njegovog šireg okruženja, gde će se u sledećim vekovima često sukobljavati sa Makedoncima na jugu i sa rimskom silom koja nadolazi. Pominju se i Tribali, premda se izvori i moderni istraživači spore — neki ih svrstavaju među Ilire, drugi ih radije vide kao narod bliži Tračanima."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Plemena, kraljevi i jedno kratkotrajno kraljevstvo"
+    },
+    {
+      "type": "paragraph",
+      "text": "Politički, ilirski svet nije bio država. Bio je svet plemena i plemenskih saveza, sa starešinama, ratničkim slojem i povremenim okupljanjima oko zajedničkog vođe kada je trebalo voditi rat, pljačkati ili braniti se. Tek na zapadnom obodu, na obali Jadrana, ti savezi su povremeno uzimali oblik prave kraljevine. Najpoznatija takva tvorevina vezuje se za treći vek pre nove ere i za ardijejske vladare. Kralj Agron uspeo je da pod svojom rukom okupi više plemena i da od ilirske flote napravi silu koju su grčki gradovi sa straha pominjali. Posle njegove iznenadne smrti vlast je, kao regentkinja za maloletnog naslednika, preuzela kraljica Teuta. Njena flota je pljačkala uzduž jonske i jadranske obale, a sukob sa Rimom, koji više nije hteo da trpi gusarstvo na svojim trgovačkim putevima, doveo je do takozvanih ilirskih ratova i do brzog kraja te kratkotrajne kraljevine. Posle Teute, ilirske političke tvorevine na obali postaju sve manje samostalne; iznutra ih razjedaju plemenske podele, spolja ih steže rimska sila."
+    },
+    {
+      "type": "paragraph",
+      "text": "Već iz ove kratke skice vidi se osnovna nezgoda sa Ilirima — sve što o njima znamo dolazi nam pretežno spolja. Grčki i rimski pisci nisu bili nepristrasni posmatrači: za njih su Iliri često bili „varvari”, gusari, divlji susedi, povod za vojne pohode ili izvor robova. Sami Iliri o sebi nisu ostavili nijednu rečenicu. Otud i naša obazrivost: ne znamo pouzdano kako su jedno drugo zvali, kako su mislili o sopstvenom poreklu, da li su uopšte sebe doživljavali kao jednu porodicu naroda ili kao niz zasebnih plemenskih svetova koje samo stranci ujedinjuju u jednu reč."
+    },
+    {
+      "type": "paragraph",
+      "text": "Tu počinje i osetljivo pitanje na koje ćemo se još vraćati — pitanje kontinuiteta. U poslednja dva veka, različite nacionalne istoriografije pokušavale su da Ilire prisvoje za svoju neposrednu pretpriču, ili da, suprotno, ospore svaku takvu vezu. Arheologija pokazuje jednu mirniju i složeniju sliku: na ilirskom prostoru postoji i jasan kontinuitet — naselja, običaja, materijalne kulture — i nesumnjivi prekidi, izazvani keltskim prodorima, rimskim osvajanjem, kasnijim seobama. Pravilan stav je intelektualno strpljiv: priznati ono što izvori i nalazi dopuštaju, ne ići dalje. Iliri nisu ničiji direktni preci u nacionalnom smislu, ali jesu jedan od starih slojeva ovog tla, deo dubokog naslaga preko kojih su svi kasniji narodi ovde gradili svoje kuće."
+    },
+    {
+      "type": "paragraph",
+      "text": "Za sada je dovoljno ovo: Iliri su ime koje stranci daju mnoštvu srodnih plemena gvozdenog doba zapadnog i centralnog Balkana — od Jadrana do unutrašnjosti, od Liburnaca i Ardijejaca do Autarijata i Dardanaca. Bili su tribalno organizovani, povremeno okupljeni oko kraljeva, dugo otporni i pred Grcima i pred Rimljanima. Bili su ratnici, pomorci, stočari, rudari, zanatlije. Kako su živeli iznutra, u šta su verovali, kako su izgledala njihova svetilišta i običaji — to je tema koja zaslužuje zaseban dan; njoj se okrećemo u sledećoj lekciji."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

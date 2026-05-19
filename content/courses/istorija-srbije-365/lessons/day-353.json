@@ -6,13 +6,53 @@
   "dayNumber": 353,
   "order": 4,
   "title": "Državna zajednica Srbija i Crna Gora",
+  "subtitle": "Kako je iz ostataka SRJ, pod patronatom Brisela, nastala labava i kratkovečna zajednica dve republike",
   "readingTimeMinutes": 6,
   "year": 2003,
-  "isPlaceholder": true,
+  "dateLabel": "2003–2006.",
+  "timelinePosition": "2003–2006.",
+  "summary": "Od Beogradskog sporazuma 2002. do nestanka zajednice 2006: kako je Srbija i Crna Gora bila prelazno rešenje za dogovorenu, postepenu podelu.",
+  "keyPeople": ["Vojislav Koštunica", "Zoran Đinđić", "Milo Đukanović", "Svetozar Marović", "Javier Solana"],
+  "keyPlaces": ["Beograd", "Podgorica", "Brisel"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Posle pada Slobodana Miloševića u oktobru 2000. godine i promene vlasti u Beogradu, malo je toga u zajedničkoj državi sa Crnom Gorom ostalo onako kako je bilo. Savezna Republika Jugoslavija, sastavljena 1992. od Srbije i Crne Gore kao poslednji ostatak nekadašnje SFRJ, već godinama je živela u sve dubljem nesporazumu. Crnogorsko rukovodstvo, predvođeno Milom Đukanovićem, još od kraja devedesetih vodilo je svoju spoljnu i ekonomsku politiku, uvelo nemačku marku kao paralelno sredstvo plaćanja i otvoreno govorilo o nezavisnosti. U Beogradu su nove vlasti — predsednik SRJ Vojislav Koštunica i srpski premijer Zoran Đinđić — imale različite poglede na to šta sa tom zajednicom činiti, ali su se obojica složila u jednom: nagli raspad u tom trenutku nije u srpskom interesu."
+    },
+    {
+      "type": "paragraph",
+      "text": "Tu je u priču ušla Evropska unija. Visoki predstavnik EU za spoljnu politiku Havijer Solana preuzeo je posredničku ulogu i u martu 2002. godine doveo Beograd i Podgoricu za isti sto. Rezultat je bio takozvani Beogradski sporazum, potpisan 14. marta 2002, kojim su se obe strane saglasile da Saveznu Republiku Jugoslaviju preoblikuju u novu, znatno labaviju zajednicu — Srbiju i Crnu Goru. Bila je to, u suštini, evropska poruka: nezavisnost se ne zabranjuje, ali se ne dozvoljava preko noći. Crna Gora dobija pravo da se za tri godine, putem referenduma, izjasni o samostalnosti; do tada se ostaje u zajednici sa minimalnim, jasno ograničenim institucijama."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ustavna povelja državne zajednice usvojena je u Saveznoj skupštini 4. februara 2003, i tog dana je Savezna Republika Jugoslavija formalno prestala da postoji. Ime „Jugoslavija” — koje je u nekom obliku pratilo ove prostore od 1918. godine — nestalo je sa političke karte Evrope. Na njegovo mesto stupila je Državna zajednica Srbija i Crna Gora, država sa veoma uskim spiskom zajedničkih nadležnosti. Imala je jednog predsednika, jednodomnu Skupštinu od sto dvadeset i šest poslanika, Savet ministara sa pet resora i Sud Srbije i Crne Gore. Sve ostalo — pravosuđe, policija, obrazovanje, zdravstvo, najveći deo ekonomije — pripadalo je republikama."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Dve republike pod jednim krovom"
+    },
+    {
+      "type": "paragraph",
+      "text": "U praksi je to izgledalo neobično, gotovo neuporedivo sa drugim evropskim državama. Zajednica je imala zajedničku vojsku — Vojsku Srbije i Crne Gore, naslednicu Vojske Jugoslavije — i zajedničko ministarstvo inostranih poslova, koje je u svetu nastupalo u ime obe republike. Ali već u oblasti novca dve republike živele su odvojeno: u Srbiji je bio u opticaju dinar, koji je izdavala Narodna banka Srbije, dok je u Crnoj Gori, koja je još 2002. potpuno prešla sa marke na evro, zakonsko sredstvo plaćanja bio evro — iako Crna Gora nije bila članica evrozone niti EU. Putnik iz Beograda u Podgoricu prelazio je, formalno, samo iz jedne u drugu republiku iste države, a u stvari je prelazio iz jedne valutne i poreske oblasti u drugu."
+    },
+    {
+      "type": "paragraph",
+      "text": "Prvi i jedini predsednik zajednice bio je Svetozar Marović, crnogorski političar blizak Đukanoviću, izabran u martu 2003. Njegova uloga bila je više simbolična nego stvarna; ozbiljne odluke donosile su se u Beogradu i Podgorici, ne u zajedničkim institucijama. Skupština Srbije i Crne Gore — sa poslanicima koje su delegirale republičke skupštine — retko je bila središte pažnje javnosti. Mediji su, i u Srbiji i u Crnoj Gori, mnogo više pratili rad svojih republičkih vlada nego sednice savezne Skupštine, što je samo po sebi govorilo koliko je zajednica živela slabim životom."
+    },
+    {
+      "type": "paragraph",
+      "text": "Već u trenutku potpisivanja Beogradskog sporazuma mnogi posmatrači su, prilično otvoreno, govorili da je reč o prelaznom rešenju. Zajednica nije bila stvorena da bi trajala — već da bi se kontrolisano, uz najmanju moguću štetu, organizovala buduća crnogorska odluka o samostalnosti. Tri godine, pisalo je u povelji, posle čega Crna Gora može raspisati referendum o nezavisnosti. Taj rok pretvorio je celu zajednicu u svojevrsno čekanje. U Crnoj Gori je vladajuća većina od početka jasno najavljivala da će referendum zakazati, dok je u Srbiji vlada Vojislava Koštunice pokušavala da odugovlači, smatrajući da bi ostanak u zajednici bio bolji za obe strane."
+    },
+    {
+      "type": "paragraph",
+      "text": "Životu zajednice nije pomoglo ni nasilje koje je obeležilo njene prve mesece. Već 12. marta 2003, mesec dana posle usvajanja Ustavne povelje, ubijen je srpski premijer Zoran Đinđić, jedan od ljudi koji su, makar pragmatično, držali ideju zajedničkog krova. Politički život u Srbiji ušao je u nemirno razdoblje, koje će u narednim godinama doneti nove izbore, smene vlada i unutrašnje sukobe. Crnogorska vlast, sa svoje strane, dosledno je radila na izgradnji odvojenih institucija i međunarodne vidljivosti. Sve se odvijalo unutar formalnog okvira zajednice, ali sa pogledom usmerenim ka njenom kraju."
+    },
+    {
+      "type": "paragraph",
+      "text": "Kada je 21. maja 2006. godine u Crnoj Gori održan referendum o nezavisnosti i kada su pristalice samostalnosti, tek nešto iznad propisanog praga od 55 odsto, odnele pobedu, Državna zajednica Srbija i Crna Gora našla se na samom kraju puta. Crna Gora je 3. juna 2006. proglasila nezavisnost, a Srbija je nekoliko dana kasnije postala njena pravna sledbenica. Zajednica je trajala nešto više od tri godine. U sećanju je ostala kao kratak, pomalo neuobičajen međučin — pragmatičan dogovor između suverene volje i evropskog opreza, država koju gotovo niko nije voleo, ali koja je uspela da do svoje sahrane dođe mirnim putem."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

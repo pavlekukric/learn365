@@ -6,13 +6,57 @@
   "dayNumber": 344,
   "order": 4,
   "title": "Hiperinflacija i ekonomski slom",
+  "subtitle": "Kako je između 1992. i 1994. dinar pretvoren u papir, a Nemačka marka u stvarnu valutu svakodnevnog života",
   "readingTimeMinutes": 7,
   "year": 1993,
-  "isPlaceholder": true,
+  "dateLabel": "1992–1994.",
+  "timelinePosition": "1992–1994.",
+  "summary": "Hiperinflacija u Saveznoj Republici Jugoslaviji bila je jedan od najtežih monetarnih slomova modernog doba — posledica ratnog finansiranja štampanjem novca, okončana Avramovićevim programom u januaru 1994.",
+  "keyPeople": ["Dragoslav Avramović", "Slobodan Milošević", "Borka Vučić"],
+  "keyPlaces": ["Beograd", "Narodna banka Jugoslavije", "Savezna Republika Jugoslavija"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Postoje brojevi koji se pamte kao slike. Jedan od njih je novčanica od pet stotina milijardi dinara, štampana 22. decembra 1993. godine, sa likom Jovana Jovanovića Zmaja na licu. U trenutku kada je izašla iz štamparije Narodne banke Jugoslavije, već je gubila vrednost brže nego što je radnik stizao da je prebroji. Ona je postala vizuelni simbol jedne od najtežih hiperinflacija u modernoj istoriji — privredne propasti koja je između 1992. i 1994. godine pojela ušteđevine cele jedne generacije i pretvorila državnu valutu u materijal za kasnije izložbe."
+    },
+    {
+      "type": "paragraph",
+      "text": "Jugoslovenska privreda bila je u ozbiljnoj nevolji i pre rata. Osamdesete su ostavile veliki spoljni dug, visoku unutrašnju inflaciju i industriju koja je sve teže održavala konkurentnost. Program Ante Markovića 1989–1990. godine nakratko je stabilizovao dinar, ali se raspao zajedno sa državom. Kada je 1992. uvedena Savezna Republika Jugoslavija, a zatim, u maju iste godine, Savet bezbednosti UN nametnuo sveobuhvatne sankcije zbog rata u Bosni i Hercegovini, ekonomski tokovi sa svetom su praktično prekinuti. Izvoz je pao, uvoz je postao polulegalan, a budžet — savezni, republički, vojni i policijski — morao je da se finansira iz nečega."
+    },
+    {
+      "type": "paragraph",
+      "text": "To „nešto“ bila je monetarna emisija. Narodna banka Jugoslavije, formalno samostalna, u praksi je štampala dinare za potrebe države, vojske u nastajanju i preduzeća pod kontrolom vlasti. Ratni troškovi sa one strane Drine i Une nisu se mogli platiti porezom u zemlji u kojoj je porez već bio teško naplativ, pa je razlika pokrivana novom emisijom. Što je više novca ulazilo u opticaj, manje je svaki dinar vredeo; što je manje vredeo, to ga je trebalo više da bi se isplatile iste plate i penzije. Tako je nastao klasičan krug hiperinflacije, samo neuporedivo brži nego u udžbenicima."
+    },
+    {
+      "type": "paragraph",
+      "text": "Brojevi koje će kasnije navoditi ekonomisti deluju gotovo neverovatno. Po standardnim proračunima, mesečna inflacija dostigla je u januaru 1994. godine oko 313 miliona procenata — druga najveća zabeležena mesečna stopa u istoriji, posle mađarske 1946. godine. Dnevna inflacija u vrhuncu iznosila je oko 62 odsto; cene su se na pijaci udvostručavale otprilike svakih trideset četiri sata. Konkretne cifre razlikuju se od izvora do izvora i metoda merenja, ali red veličine nije sporan: novac je propadao u rukama dok se nosio kući."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Svakodnevica u valuti koja nestaje"
+    },
+    {
+      "type": "paragraph",
+      "text": "Iza tih brojeva stajao je sasvim opipljiv život. Plate i penzije isplaćivale su se u kešu, u debelim svežnjevima čija je vrednost padala iz sata u sat. Bila je uvrežena praksa da se zarada potroši istog dana — kupi se brašno, ulje, šećer, deterdžent, sve što može da stane u stan, jer će sutra ta ista suma kupiti pola toga, a prekosutra možda samo veknu hleba. Pred prodavnicama su se stvarali redovi za mleko i hleb; pred pumpama redovi za gorivo koje se često prodavalo iz plastičnih kanistera, na ulici. Penzioneri i državni službenici, ljudi sa fiksnim prihodima u dinarima, bili su praktično obrisani — njihove mesečne sume svodile su se na vrednost od nekoliko nemačkih maraka."
+    },
+    {
+      "type": "paragraph",
+      "text": "Upravo je nemačka marka postala stvarna valuta. Pravno, to je bio dinar; faktički, sve se merilo u markama. Stanovi, automobili, frižideri, ali i sitne usluge — sve je imalo cenu u DM, koja se po potrebi preračunavala u dinare po nezvaničnom kursu sa ulice. Štednja se držala u markama, u kućama, jer je poverenje u banke već bilo uništeno. U toj rupi između propalog dinara i pravno zabranjene strane valute izrasla je čitava paralelna ekonomija — od menjača na ćoškovima do trgovine gorivom, cigaretama i robom dovučenom kanalima koji su zaobilazili sankcije. Ratni profiteri, ljudi povezani sa vlašću i sa logistikom rata, bogatili su se u istoj zemlji u kojoj su penzioneri preturali po kontejnerima."
+    },
+    {
+      "type": "paragraph",
+      "text": "U toj atmosferi, pored zvaničnih banaka, niknule su i polulegalne piramidalne štedionice — najpoznatije Dafiment banka Dafine Milanović i Jugoskandik Jezdimira Vasiljevića — koje su 1992. i 1993. nudile nestvarno visoke kamate u markama. Hiljade ljudi unele su tamo ono što su čuvale za crne dane, verujući, želeći da veruju, da postoji izlaz iz opšte propasti. Obe kuće su se na kraju srušile, ostavivši za sobom velike gubitke malih ulagača i osećaj prevare koji je trajao decenijama."
+    },
+    {
+      "type": "paragraph",
+      "text": "Preokret je došao kasno, ali iznenada. U martu 1994. godine za guvernera Narodne banke postavljen je Dragoslav Avramović, ekonomista sa dugim iskustvom u Svetskoj banci, čovek miran u govoru i strog u brojevima. Već 24. januara 1994. uveden je „novi dinar“, vezan u odnosu jedan prema jedan za nemačku marku, uz strogu kontrolu emisije. Hiperinflacija je gotovo preko noći zaustavljena. Cene su počele da se izražavaju u dinarima koji su zaista nešto vredeli; plate su, iako niske, prestale da nestaju u rukama. Avramović je u javnosti dobio nadimak „Super-Deda“ i, na kratko, status narodnog junaka — neuobičajen za jednog tehnokratu."
+    },
+    {
+      "type": "paragraph",
+      "text": "Stabilizacija je, međutim, bila tehnička, ne strukturna. Rat se nastavio, sankcije su ostale, državna preduzeća su i dalje gubila, a vlast nije htela duboke reforme. Već u toku 1995, a posebno krajem decenije, inflacija se vraćala u talasima, da bi posle rata 1999. i bombardovanja ponovo eskalirala. Avramovićev program ostao je upamćen kao redak primer hladne ekonomske racionalnosti u doba u kome je sve drugo bilo politizovano. Ali iza njegovog uspeha stajala je činjenica koja se često ne izgovara: hiperinflacija iz 1992–1994. nije bila prirodna nepogoda. Bila je posledica izbora — da se rat finansira štampom, a slom sopstvene valute prikaže kao neminovnost. Ono što je ostalo bile su prazne štedne knjižice i naučena lekcija o tome šta se dogodi kada država prestane da brani svoj novac."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

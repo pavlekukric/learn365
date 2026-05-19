@@ -6,13 +6,53 @@
   "dayNumber": 103,
   "order": 6,
   "title": "Kraj dinastije Nemanjić",
+  "subtitle": "Smrt cara Uroša 1371. i gašenje muške loze koja je više od dva veka držala srpski presto",
   "readingTimeMinutes": 7,
   "year": 1371,
-  "isPlaceholder": true,
+  "dateLabel": "1371.",
+  "timelinePosition": "1371.",
+  "summary": "Smrću cara Uroša V, 4. decembra 1371, ugasila se muška loza Nemanjića koja je vladala Srbijom od Stefana Nemanje. Država ostaje bez priznatog naslednika, a oblasni gospodari preuzimaju samostalnu vlast.",
+  "keyPeople": ["Uroš V", "Tvrtko I", "Lazar Hrebeljanović", "Vuk Branković", "Marko Mrnjavčević"],
+  "keyPlaces": [],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Dva meseca nakon poraza na Marici, 4. decembra 1371. godine, umro je car Uroš V. Bio je poslednji muški izdanak loze koja je od Stefana Nemanje, još od 1166, držala srpski presto u jednoj porodici. Iza njega nije ostalo dece — jedini brak, sklopljen sa vlaškom princezom Ankom, ostao je bez potomstva. Tog decembarskog dana, tiho i bez bitke, ugasila se dinastija koja je više od dva veka davala župane, kraljeve i careve, gradila zadužbine i pisala povelje. Srbija je ostala bez vladara koga bi svi morali da priznaju."
+    },
+    {
+      "type": "paragraph",
+      "text": "Smrt jednog vladara u srednjem veku nije bila samo lični događaj. Ona je pokretala čitav mehanizam nasleđivanja: zakletve velmoža novom gospodaru, potvrde poseda, izdavanje povelja, ulazak u molitvene diptihe crkve. Sve to računalo je na jasnu liniju roda. Uroševom smrću ta linija je presečena. Rođaci koji su mogli da polažu pravo preko ženskih grana — deca Dušanovih sestara i druge bočne loze — bili su politički slabi i bez ozbiljnog crkvenog ili vojnog oslonca da svoj zahtev pretvore u stvarnu vlast. Niko od njih nije imao snagu da okupi raspršene oblasti carstva oko jednog imena."
+    },
+    {
+      "type": "paragraph",
+      "text": "U pravnom i obrednom smislu, država je ostala bez glave. Nije bilo sabora koji bi izabrao novog cara, niti patrijarha koji bi nekoga okrunio uz opštu saglasnost vlastele. Oblasni gospodari, koji su poslednjih godina Dušanovog sina ionako vladali gotovo nezavisno, sada su tu samostalnost samo formalizovali. Neki su počeli da nose kraljevske titule, drugi su ostali u činu despota ili gospodara; svako je u svojoj zemlji izdavao povelje, kovao novac i vodio sopstvenu spoljnu politiku. Centralna vlast, koja je još pod Dušanom bila kičma carstva, jednostavno više nije postojala."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Tvrtkova kruna i raspršena Srbija"
+    },
+    {
+      "type": "paragraph",
+      "text": "Najsmeliji potez učinio je bosanski ban Tvrtko I Kotromanić. Po majčinoj liniji vukao je nemanjićku krv, i upravo na tom srodstvu izgradio je svoj zahtev. Godine 1377, u manastiru Mileševi — pred grobom Svetog Save — krunisao se „za kralja Srba, Bosne i Primorja”. Mesto nije bilo slučajno: Mileševa je bila jedno od središnjih svetilišta nemanjićke uspomene, a Sava simbol same dinastije. Kruna je trebalo da pokaže da Tvrtko nije skorojević, već zakoniti baštinik. Ipak, treba reći otvoreno: Tvrtko je vladao Bosnom, njegova stvarna vlast nije dopirala duboko u nekadašnje srpsko jezgro, a kraljevska titula „Srba” kod njega je više bila ideološka tvrdnja nego upravna stvarnost. U Moravskoj Srbiji, Zeti ili na Kosovu njegove povelje nisu menjale ko gde naplaćuje porez."
+    },
+    {
+      "type": "paragraph",
+      "text": "U samim srpskim zemljama posle 1371. mapa se raspala na nekoliko jasnih celina. U središnjem Pomoravlju uzdizao se knez Lazar Hrebeljanović, tih i strpljiv vladar koji će postepeno okupiti najveći deo nekadašnjeg jezgra. Na Kosovu i u okolnim oblastima vladao je Vuk Branković, Lazarev zet i njegov najmoćniji sused. U Zeti i delovima Primorja držali su se Balšići, povezani sa jadranskim gradovima i sa Mlecima. Na jugu, oko Prilepa, ostao je Marko, sin Vukašina Mrnjavčevića poginulog na Marici — kralj po nasleđenoj očevoj tituli, ali sve više vazal osmanskog sultana. Svako od njih bio je dovoljno jak za svoju oblast, niko za celinu."
+    },
+    {
+      "type": "paragraph",
+      "text": "A ipak — i to je možda najvažnije — duhovni i politički ugled Nemanjića nije umro sa Urošem. Njihovi manastiri, od Studenice i Žiče do Dečana i Pećke patrijaršije, ostali su živa središta srpske vere i pisane reči. Njihovi sveci — Sveti Simeon, Sveti Sava, Sveti Stefan Dečanski, sveti car Uroš — postali su trajne tačke u crkvenom kalendaru, slika idealnog vladara i pravednog svetitelja. Povelje Nemanjića, vekovima čuvane po manastirima, koristile su se kao dokaz prava na zemlju i u osmansko doba. Sećanje na njih nije se gasilo; ono je, ako ništa drugo, dobijalo onu posebnu jasnoću koju prošlost zadobija tek kad više nije sadašnjost."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sledeći vladari to su dobro razumeli. Knez Lazar, a posle njega despot Stefan Lazarević i despoti petnaestog veka, pozivali su se na nemanjićko nasleđe kao na izvor sopstvene zakonitosti. Crkva je u svojim službama nastavila da spominje stare kraljeve i careve uz nove gospodare. U narodnoj pesmi i predanju, koje je preko Kosova i Marice raslo vekovima, Nemanjići su postali mera prema kojoj se sve potonje meri: zlatno doba kraljevstva, jedinstva i pravoslavne države. Ta slika je, kao i svaka slika prošlosti, delom istinita a delom uglačana, ali njena snaga je nesumnjiva."
+    },
+    {
+      "type": "paragraph",
+      "text": "Zato treba biti pošten i sa datumom. Godina 1371. u udžbenicima stoji kao kraj dinastije Nemanjić, i ona to jeste — u smislu vladajuće loze, državne titule i neprekinutog niza vladara. U širem smislu, međutim, Nemanjići su nadživeli svoju dinastiju. Njihove zadužbine i danas stoje, njihova imena se i danas pominju u liturgijama, a njihova ideja srpske države pratila je sve potonje pokušaje da se ta država obnovi, od kneza Lazara pa do moderne epohe. Decembar 1371. zatvorio je jednu lozu, ali ne i njen odjek; ono što je iza Nemanjića ostalo bilo je manje od carstva, a opet, na svoj način, dovoljno trajno da nadživi i Osmanlije i vekove koji slede."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

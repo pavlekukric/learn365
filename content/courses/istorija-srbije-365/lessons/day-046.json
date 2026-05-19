@@ -6,13 +6,53 @@
   "dayNumber": 46,
   "order": 1,
   "title": "Srbija pre Nemanjića: Raška i Duklja",
+  "subtitle": "Dva središta srpskog sveta između pokrštavanja i dolaska Stefana Nemanje",
   "readingTimeMinutes": 8,
   "year": 1166,
-  "isPlaceholder": true,
+  "dateLabel": "9–12. vek",
+  "timelinePosition": "9–12. vek",
+  "summary": "Od pokrštavanja u poznom 9. veku do uspona Stefana Nemanje 1166: kontinentalna Raška i primorska Duklja kao dva glavna središta ranog srpskog sveta.",
+  "keyPeople": ["Mihailo", "Bodin", "papa Grgur VII", "pop Dukljanin"],
+  "keyPlaces": ["Raška", "Duklja", "Ras", "Bar", "Bosna", "Travunija", "Zahumlje"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Između pokrštavanja srpskih kneževina u poznom devetom veku i trenutka kada na velikožupanski presto dolazi Stefan Nemanja 1166. godine, prošlo je gotovo tri stoleća. To je dug, oskudno osvetljen period u kome su se srpske zemlje polako oblikovale, smenjivale tuđu vlast i međusobno se nadmetale ko će postati središte. U toj priči, dva imena dolaze pre svih ostalih — Raška i Duklja. Jedna leži u brdovitoj unutrašnjosti centralnog Balkana, druga uz jadransku obalu. Iz njihovog dugog suparništva izaći će na kraju ona Srbija koja će s Nemanjićima ući u zreli srednji vek."
+    },
+    {
+      "type": "paragraph",
+      "text": "Raška je bila kontinentalna zemlja, smeštena duboko u brdima oko reke po kojoj je dobila ime, sa središtem u župi Ras nedaleko od današnjeg Novog Pazara. Njen položaj nije bio slučajan: tu su se sustizali putevi koji su povezivali Jadran sa unutrašnjošću i severni Balkan sa Solunom. Raška je istovremeno bila i dovoljno udaljena od obale da ne bude prva meta primorskih sila, i dovoljno blizu velikih puteva da uvek bude uvučena u tuđe ratove. Po veri je bila pravoslavna, čvrsto vezana za vizantijski kulturni krug, sa episkopijama koje su organizaciono pripadale ohridskoj ili carigradskoj jurisdikciji u različitim periodima. Politički, najveći deo ovog vremena bila je vazalna — čas Vizantiji, čas Bugarskoj, retko sasvim samostalna."
+    },
+    {
+      "type": "paragraph",
+      "text": "Duklja je bila drugačiji svet. Pružala se duž primorja današnje Crne Gore, oko Skadarskog jezera i niz priobalna polja, sa važnim središtima u Baru, Kotoru i okolnim utvrđenjima. Tu je more donosilo i robu i uticaje — latinski gradovi na obali, papska kurija u Rimu, normanske vojske u južnoj Italiji, mletački brodovi. Crkveno je Duklja bila na granici dva sveta: deo zemlje gledao je ka Rimu i katoličkom obredu, deo ka Carigradu i pravoslavlju. Ta dvostrukost nije bila slabost koliko karakter. Duklja je umela da bira savezništva, a ponekad i da menja stranu, što je upravo dolaskom sa mora i bilo moguće."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Vek Duklje i okret ka Raškoj"
+    },
+    {
+      "type": "paragraph",
+      "text": "Sredinom jedanaestog veka težište srpskog političkog života jasno se preselilo na primorje. Duklja je pod knezom, a zatim kraljem Mihailom, oko 1077. godine, dobila kraljevsku krunu — po predanju upravo iz ruku pape Grgura VII, u trenutku kada je Rim tražio saveznike na istočnoj obali Jadrana protiv Vizantije. Mihailov sin Bodin nastavio je tu politiku i, koliko se iz sačuvanih izvora može pratiti, proširio dukljansku vlast nad susednim srpskim zemljama — nad Raškom, Bosnom, delovima Zahumlja. Na kratko se činilo da će upravo Duklja postati ona zemlja iz koje će izrasti trajna srpska kraljevina. Ali Bodinova vladavina bila je kraća od ambicija, a njegovi naslednici nisu uspeli da održe stečeno. Krajem jedanaestog i tokom dvanaestog veka Duklja slabi, gradovi se osamostaljuju, a unutrašnji sukobi vladarskih grana iscrpljuju zemlju."
+    },
+    {
+      "type": "paragraph",
+      "text": "U istom tom periodu Raška, dotad u senci, počinje da se uzdiže. Njeni župani uspevaju da iskoriste vizantijske krize i da, koristeći planinsko zaleđe kao zaštitu, postepeno objedine više susednih župa. Kada se sredinom dvanaestog veka pojavi loza iz koje će izaći Stefan Nemanja, težište se već nepovratno premestilo sa primorja u unutrašnjost. Duklja, koja je bila prva srpska kraljevina, postaće kasnije samo jedna od oblasti unutar nemanjićke države, pod imenom Zeta. Taj zaokret — sa juga ka severu, sa mora ka brdima, sa latinsko-jadranskog uticaja ka vizantijsko-pravoslavnom — odredio je kakvu će fizionomiju kasnija srpska država imati."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pored Raške i Duklje, treba pomenuti i druge srpske zemlje toga doba, jer one čine puniju sliku. Bosna se već formira kao posebna oblast oko gornjeg toka istoimene reke, sa sopstvenim banovima i osobenim crkvenim životom. Travunija leži između Trebinja i mora, Zahumlje na potezu Neretve i okoline današnjeg Stona, a Paganija na uskom priobalnom pojasu zapadnije, oko ušća Cetine i Neretve. Sve te oblasti dele jezik i ranosrednjovekovne korene, ali žive svaka svojim tempom, sa svojim dinastijama i savezima. Tek će ih nemanjićka država kasnije, jednu po jednu, povezati u zajednički okvir."
+    },
+    {
+      "type": "paragraph",
+      "text": "Treba biti iskren u jednom — izvora za ovo razdoblje ima malo, i svaki ima svoju stranu. Vizantijski hroničari, pre svih Konstantin Porfirogenit u desetom veku, pišu o srpskim zemljama iz ugla carstva i prvenstveno onda kada se one umešaju u carske poslove. Papska pisma osvetljavaju samo one trenutke kada je Rim slao krune ili pregovarao o crkvenoj jurisdikciji. Domaći izvor postoji, ali samo jedan veliki — takozvani „Letopis popa Dukljanina”, poznat i kao Barski rodoslov, sastavljen sredinom dvanaestog veka u Baru. Taj spis pomešao je predanja, dinastičke spiskove i lokalne legende u jedinstvenu pripovest, i istoričari ga koriste oprezno: deo onoga što tvrdi može se proveriti drugim izvorima, deo izgleda kao kasnija konstrukcija, a deo je verovatno čisto predanje. Mnogo toga što o ovom vremenu znamo, znamo zato što se to predanje sačuvalo — ali baš zato treba pažljivo razlikovati ono što je sigurno od onoga što je verovatno ili samo moguće."
+    },
+    {
+      "type": "paragraph",
+      "text": "Iz svega toga izlazi slika dva paralelna srpska sveta koja su tri veka delila prostor, veru, dinastije i susede. Duklja je imala svoj kratki kraljevski sjaj i ostala upamćena po krunisanju u Baru. Raška je strpljivo gradila ono što će se pokazati trajnijim — kontinentalnu, pravoslavnu, vizantijski uobličenu državu sa središtem u brdima. Kada se 1166. na čelu Raške pojavi Stefan Nemanja, on neće graditi na praznom mestu. Iza njega stoji dugo iskustvo dveju srpskih oblasti, jedno priobalno i jedno planinsko, iz čijeg susreta i sukoba izlazi država o kojoj će biti reč u narednim lekcijama."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

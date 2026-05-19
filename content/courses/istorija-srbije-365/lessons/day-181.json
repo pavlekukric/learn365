@@ -6,13 +6,53 @@
   "dayNumber": 181,
   "order": 9,
   "title": "Jovan Rajić i istorijska svest",
+  "subtitle": "Karlovački arhimandrit koji je u 18. veku napisao prvu sveobuhvatnu istoriju Srba i južnih Slovena",
   "readingTimeMinutes": 7,
   "year": 1770,
-  "isPlaceholder": true,
+  "dateLabel": "18. vek",
+  "timelinePosition": "18. vek",
+  "summary": "Jovan Rajić (1726–1801), monah iz Kovilja, spojio je pravoslavnu učenost i prosvetiteljsku metodu i delom „Istorija raznyh slavenskih narodov” dao Srbima dokumentovanu sliku sopstvene prošlosti.",
+  "keyPeople": ["Jovan Rajić", "Pavle Nenadović", "Dositej Obradović", "Vuk Karadžić"],
+  "keyPlaces": ["Sremski Karlovci", "Kovilj", "Kijev", "Beč", "Šopron"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "U 18. veku srpski narod živeo je razdeljen između dva carstva — Osmanskog na jugu i Habzburškog na severu — i bez sopstvene države koja bi mu čuvala uspomenu na ono što je bio. U Sremskim Karlovcima, sedištu mitropolije i jedinom mestu gde su Srbi imali nešto nalik kulturnoj prestonici, polako je sazrevala potreba da se ta uspomena uredi i zapiše ozbiljno, sistematski, onako kako su to već radili evropski učeni narodi. Čovek koji je taj posao obavio najtemeljnije bio je Jovan Rajić, monah, učitelj i istoričar, rođen 1726. godine, čije će četvorotomno delo o slovenskim narodima srpskoj sredini dati ono što joj je najviše nedostajalo — dokumentovanu svest o sopstvenoj prošlosti."
+    },
+    {
+      "type": "paragraph",
+      "text": "O njegovim najranijim godinama izvori nisu sasvim saglasni; pretežno se uzima da je rođen u Karlovcima, u srpskoj građanskoj porodici koja je već pripadala onom sloju koji je u Habzburškoj monarhiji video priliku za školovanje. Učio je u Karlovcima, zatim u Šopronu u zapadnoj Mađarskoj, gde su mu predavali latinski i osnove evropskih nauka. Potom je krenuo putem koji je za pravoslavnu mladež tog vremena bio najambiciozniji — preko granice, na sever, u Kijev. Kijevska duhovna akademija bila je tada jedna od najuglednijih pravoslavnih škola u Evropi, mesto gde su se ukrštali grčka bogoslovska tradicija, ruska crkvena učenost i prvi uticaji prosvetiteljstva. Tamo je Rajić proveo godine koje će obeležiti sav njegov potonji rad: izašao je odande kao čovek dvostrukog obrazovanja — pravoslavno utemeljen, ali naviknut na sistematičnost zapadne nauke."
+    },
+    {
+      "type": "paragraph",
+      "text": "Po povratku u habzburške zemlje predavao je u karlovačkoj školi i bio blizak mitropolitu Pavlu Nenadoviću, jednom od najznačajnijih srpskih crkvenih i prosvetnih organizatora tog veka. U Nenadovićevom krugu, koji je svesno radio na podizanju škola, štampi i obrazovanju sveštenstva, Rajićev talenat dobio je oslonac. Vremenom se opredelio za monaštvo i povukao u manastir Kovilj u Bačkoj, gde će napredovati do čina arhimandrita i provesti poslednje decenije života. Kovilj mu je dao ono što karlovačka užurbanost nije mogla: mir, biblioteku i vreme za pisanje."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Istorija slovenskih naroda"
+    },
+    {
+      "type": "paragraph",
+      "text": "Glavno Rajićevo delo nosi dugačak naslov „Istorija raznyh slavenskih narodov, najpače Bolgar, Horvatov i Serbov” — Istorija raznih slovenskih naroda, najviše Bugara, Hrvata i Srba. Pisao ju je tokom pedesetih i šezdesetih godina 18. veka, godinama je sređivao i upoređivao izvore, a štampana je tek 1794. i 1795. godine u Beču, u četiri toma. Bila je to prva sveobuhvatna istorija Srba i šireg južnoslovenskog prostora koju je napisao jedan Srbin i koja je pokušala da prati prošlost ovih naroda od najstarijih vremena do njegovih dana. Pre Rajića postojali su letopisi, rodoslovi i pojedinačna žitija; posle njega Srbi su prvi put imali knjigu u kojoj se njihova prošlost čita kao povezana, dokumentovana celina."
+    },
+    {
+      "type": "paragraph",
+      "text": "Metod kojim se služio bio je spoj dveju tradicija. S jedne strane, Rajić je ostao monah i bogoslov: srpsku istoriju gledao je kroz prizmu pravoslavne crkve, srednjovekovne dinastije i svetiteljskog nasleđa Nemanjića. S druge strane, naviknut na ozbiljnu evropsku istoriografiju, trudio se da svoje tvrdnje potkrepi izvorima — vizantijskim hroničarima, srpskim, hrvatskim i bugarskim spisima, ruskim i nemačkim autorima. Upoređivao je verzije, beležio razlike, navodio na koga se poziva. Po današnjim merilima njegova kritika izvora delovala bi blago i mestimično naivno, ali za sredinu u kojoj je radio bio je to ogroman pomak — istorija je prvi put pisana kao posao, a ne samo kao pobožno sećanje."
+    },
+    {
+      "type": "paragraph",
+      "text": "Dejstvo te knjige na srpsku obrazovanu javnost bilo je dugotrajno. Tokom prvih decenija 19. veka Rajićeva istorija bila je standardno štivo školovanih Srba i u Habzburškoj monarhiji i u onim delovima Osmanskog carstva do kojih su stizale knjige iz Beča i Budima. Na nju se naslanjaju i Dositej Obradović i mladi Vuk Karadžić, kao i pokolenje koje će ulaziti u srpsku revoluciju i potonju državnu izgradnju. Iz njenih stranica Srbi su uzimali ono što im je u tom trenutku najviše trebalo — uverenje da nisu rasut, bezistorijski svet, nego narod sa državom, crkvom i pisanom prošlošću, koja se može uporediti sa prošlostima drugih evropskih naroda."
+    },
+    {
+      "type": "paragraph",
+      "text": "Rajić je pisao i mimo svoje velike istorije. Ostavio je bogoslovske spise, religiozne drame i poeziju; među pesničkim radovima izdvaja se „Boj Zmaja s Orlovi”, političko-istorijska pesma povezana sa austrijsko-turskim ratom za Bosnu krajem osamdesetih godina 18. veka, u kojoj se pravoslavna alegorija meša sa savremenom političkom porukom. Ta dela danas su uglavnom predmet stručnog interesovanja, ali u njegovom vremenu govorila su da arhimandrit iz Kovilja prati život svoga naroda, a ne samo prošlost iz knjiga."
+    },
+    {
+      "type": "paragraph",
+      "text": "Treba pošteno reći i ono u čemu je Rajić bio dete svoga doba. Pisao je takozvanim slavjanoserbskim jezikom — mešavinom crkvenoslovenskog, ruskoslovenskog i ponešto srpskog narodnog govora — koji je obrazovanom sloju bio razumljiv, ali kojim seljak u Šumadiji ili Bosni nije mogao da čita. Za pola veka posle njega upravo će se oko jezika voditi velika rasprava: Dositej će tražiti pristupačnije izražavanje, Vuk će ići još dalje i graditi književni jezik na narodnom govoru. U toj raspravi Rajićev stil ostao je iza vremena. Ali ono što je on dao — metod, ozbiljnost, sliku Srba kao istorijskog naroda sa dokumentovanim trajanjem — nije zastarelo. Bez njegove četiri knjige iz Beča, srpsko nacionalno buđenje s početka 19. veka kretalo bi sa znatno tanjeg temelja."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

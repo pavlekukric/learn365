@@ -6,13 +6,49 @@
   "dayNumber": 64,
   "order": 4,
   "title": "Kraljica Jelena Anžujska",
+  "subtitle": "Strankinja katoličkog vaspitanja koja je postala srpska kraljica, majka dva kralja i pravoslavna svetiteljka",
   "readingTimeMinutes": 7,
   "year": 1276,
-  "isPlaceholder": true,
+  "dateLabel": "13. vek",
+  "timelinePosition": "13. vek",
+  "summary": "Žena kralja Uroša I i majka Dragutina i Milutina: kraljica koja je decenijama upravljala Primorjem, dopisivala se sa papama i Dubrovnikom i zadužbinama spojila Istok i Zapad.",
+  "keyPeople": ["Jelena Anžujska", "Uroš I", "Dragutin", "Milutin", "Danilo II"],
+  "keyPlaces": ["Gradac", "Brnjaci", "Skadar", "Zeta"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Među svim ženama srpskog srednjeg veka, malo ih je ostavilo trag dubok kao kraljica Jelena, supruga Uroša I i majka kraljeva Dragutina i Milutina. Rođena je oko 1236. godine, a život joj se završio 1314, posle gotovo osam decenija u kojima je videla rascvat i pad nekoliko vladavina, izmirivala zavađenu braću na prestolu i sazidala manastire koji i danas stoje. Bila je strankinja po poreklu, katoličkog vaspitanja, a sahranjena je kao pravoslavna monahinja i ubrzo potom proglašena za sveticu Srpske crkve. Njena biografija je, na neki način, biografija granice — između Istoka i Zapada, Rima i Carigrada, latinskog i ćiriličnog sveta."
+    },
+    {
+      "type": "paragraph",
+      "text": "O njenom poreklu istoričari se još uvek spore. Tradicionalno se vezuje za kuću Anžujaca, francusku dinastiju koja je u 13. veku vladala Napuljskim kraljevstvom i, preko ženskih loza, imala veze sa ugarskim Arpadovićima. Otuda i ime po kome je upamćena — Jelena Anžujska. Noviji istraživači su, međutim, pokazali da izvori za tu vezu nisu tako čvrsti kao što je dugo izgledalo, i da je verovatnije reč o plemkinji mešovitog francusko-ugarskog porekla, srodnoj i Anžujcima i ugarskoj kruni, ali bez dokazane direktne pripadnosti napuljskoj kraljevskoj porodici. Pošteno je reći da je pitanje otvoreno; ono što se sa sigurnošću zna jeste da je dolazila iz katoličke sredine zapadne Evrope i da je u Srbiju donela mrežu rođačkih i diplomatskih veza koja će joj kasnije biti dragocena."
+    },
+    {
+      "type": "paragraph",
+      "text": "Za Uroša I udala se oko 1250. godine, u vreme kada je Srbija pod njim mirno jačala, gradila rudnike i prvi put se ozbiljnije uključivala u trgovinu sa primorskim gradovima. Kraljevski dvor u Brnjacima, u dolini Ibra, postao je njeno prvo sedište. Tu je, prema kasnijim izvorima, podigla školu za devojke iz siromašnijih porodica — vest koju treba uzeti sa oprezom, jer dolazi iz idealizujućeg žitija, ali koja se uklapa u sve ostalo što o njoj znamo. Brnjaci su pod njom postali mesto na kome su se sretali latinski sveštenici, vizantijski izaslanici i dubrovački trgovci, i to spajanje različitih svetova ostaće obeležje svega što je radila."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Gospa Primorja"
+    },
+    {
+      "type": "paragraph",
+      "text": "Sve se promenilo 1276. godine, kada je njihov stariji sin Dragutin, uz ugarsku pomoć, prisilio oca Uroša da se povuče sa prestola. Uroš je otišao u manastir i ubrzo umro, a Jelena, dotad kraljica-supruga, postala je kraljica-majka — položaj koji u srednjovekovnoj Srbiji nije bio samo počasni. Dobila je sopstvenu oblast na upravu: široko područje Primorja, koje je obuhvatalo Zetu sa zaleđem, deo današnje crnogorske obale i grad Skadar. Tom oblašću upravljala je gotovo trideset godina, sa sopstvenim dvorom, sopstvenim činovnicima i sopstvenom diplomatijom. Bila je, u svemu osim po imenu, gospodar jedne kneževine unutar kraljevstva svojih sinova."
+    },
+    {
+      "type": "paragraph",
+      "text": "Iz Skadra i drugih primorskih sedišta vodila je živu prepisku sa najmoćnijim dvorovima svog vremena. Sačuvana su pisma između nje i nekoliko rimskih papa, među kojima je posebno značajan Nikola IV; održavala je veze sa anžujskim dvorom u Napulju, sa carevima u Carigradu i, vrlo redovno, sa Dubrovačkom Republikom, čiji su trgovci pod njenom zaštitom slobodno trgovali u njenim gradovima. Kada su se njena dva sina, Dragutin i Milutin, posle 1282. godine sukobili oko vlasti i podelili državu, Jelena je bila jedna od retkih osoba koja je imala uticaj na obojicu. Više puta je posredovala između njih i sprečavala da se njihov nesporazum pretvori u otvoreni rat. To što su braća, uprkos dubokim razlikama, uspevala da održe nekakav porodični mir, dobrim delom je njena zasluga."
+    },
+    {
+      "type": "paragraph",
+      "text": "Bila je velika graditeljka. Podizala je i obnavljala manastire i crkve i na pravoslavnoj i na katoličkoj strani: u Skadru je osnovala franjevački centar, primorske katoličke biskupije uživale su njenu zaštitu, a u srpskoj unutrašnjosti zadužila je više pravoslavnih hramova. Najpoznatija među njenim zadužbinama je Gradac, manastir na obali Brvenice, ispod planine Golije, čija stroga gotičko-vizantijska crkva i danas svedoči o njenom ukusu — spoju zapadne arhitektonske discipline i istočnog liturgijskog rasporeda. U tom manastiru je, po sopstvenoj želji, i sahranjena. Brinula se i o prepisivačkim radionicama, o ikonopiscima koje je dovodila sa raznih strana, o knjigama koje su pod njenim nadzorom nastajale; bila je, ukratko, jedan od najvažnijih pokrovitelja umetnosti svog doba."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pred kraj života, prema običaju tadašnjih vladara, zamonašila se i uzela ime Jelisaveta. Umrla je 1314. godine kao pravoslavna monahinja, mada je ceo život u svojoj okolini tolerisala i katoličku i pravoslavnu pobožnost, i u sopstvenoj kapeli, kažu izvori, slušala mise na oba obreda. Srpska crkva ju je ubrzo posle smrti uvrstila među svetitelje, a njeno najvažnije žitije napisao je arhiepiskop Danilo II, koji ju je lično poznavao. Treba imati u vidu da Danilov tekst, pisan posle njene smrti, idealizuje lik kraljice; jezgro je istorijski pouzdano, ali pojedinosti — naročito dirljive scene iz porodičnog života — treba čitati kao hagiografiju, ne kao zapisnik. Njen značaj ostaje, međutim, daleko izvan tih književnih ukrasa: bila je moćna kraljica u svetu skrojenom za muškarce, kulturni most između latinskog Zapada i vizantijskog Istoka, i uzor po kome će se kasnije meriti druge srpske vladarke — od kneginje Milice do despine Mare."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

@@ -6,13 +6,49 @@
   "dayNumber": 216,
   "order": 4,
   "title": "Vojne pobede 1815.",
+  "subtitle": "Od Ljubićkog brda do Dublja — leto u kome je Drugi srpski ustanak izvojevao svoje najveće bitke",
   "readingTimeMinutes": 7,
   "year": 1815,
-  "isPlaceholder": true,
+  "dateLabel": "1815.",
+  "timelinePosition": "april–avgust 1815.",
+  "summary": "Posle Takova ustanak se širi munjevito: za nekoliko meseci ustanici osvajaju Čačak, Palež, Valjevo i Požarevac, a kod Dublja kraj Šapca razbijaju Imšir-pašin korpus i osvajaju tursku artiljeriju.",
+  "keyPeople": ["Miloš Obrenović", "Imšir-paša", "Petar Nikolajević Moler", "Sima Marković", "Stojan Čupić"],
+  "keyPlaces": ["Ljubićko brdo", "Čačak", "Palež", "Dublje", "Šabac", "Valjevo", "Požarevac"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Kada je Miloš Obrenović 23. aprila 1815. godine, na Cvetnu nedelju, u Takovu podigao barjak, znao je da podiže ustanak koji ne sme da liči na onaj prvi. Prvi srpski ustanak bio je veliki, dug i, na kraju, slomljen. Drugi je morao da bude kraći, brži i pažljivije vođen — toliko snažan da Portu natera za pregovarački sto, a ne toliko širok da Carstvo na njega odgovori celom snagom svojih balkanskih armija. U nekoliko letnjih meseci 1815. godine, između Cvetne nedelje i kraja jula, ta računica je u osnovi i ostvarena — ne tako što je oslobođen Beogradski pašaluk, nego tako što je u nekoliko ključnih bitaka oborena ona turska sila koja je u njemu, posle 1813. godine, pokušala da povrati red strahom."
+    },
+    {
+      "type": "paragraph",
+      "text": "Prva veća borba odigrala se na Ljubićkom brdu, iznad Čačka, krajem aprila i u prvim majskim danima. Ustanici su, pod neposrednim Miloševim zapovedništvom, opkolili tursku posadu i prinudili je na povlačenje; Čačak je oslobođen ubrzo zatim. Pobeda nije bila samo vojnička. Ona je u zapadnoj Srbiji pokazala da Miloš nije lokalni knez koji se buni protiv pojedinog dahije, nego vođa pokreta koji ume da osvoji utvrđenu varoš. U narodu se to brzo razglasilo, a ustanak se počeo širiti dolinom Morave i niz Kolubaru."
+    },
+    {
+      "type": "paragraph",
+      "text": "U maju je usledio Palež, današnji Obrenovac, na desnoj obali Save. Borba kod Paleža imala je dvostruki značaj: ustanici su razbili tursku posadu na važnoj rečnoj komunikaciji prema Beogradu i istovremeno odsekli put po kome je iz Bosne mogla stići pomoć turskim snagama unutar pašaluka. Posle Paleža padaju, jedno za drugim, varoši u kojima su Turci držali manje posade — Valjevo u zapadnoj, a Požarevac u istočnoj Srbiji oslobođeni su tokom leta, tako da je do kraja jula najveći deo Beogradskog pašaluka, izvan velikih tvrđava, bio u rukama ustanika."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Dublje, 14. jula 1815."
+    },
+    {
+      "type": "paragraph",
+      "text": "Odlučujuća bitka odigrala se 14. jula po starom, odnosno 26. jula po novom kalendaru, kod Dublja u Mačvi, nedaleko od Šapca. Iz Bosne je prema pašaluku pošao veliki korpus pod komandom Imšir-paše, s namerom da prelaskom Drine udari na ustaničke snage s leđa i deblokira turske posade. Ustanici su, pod komandom Stojana Čupića i drugih vojvoda iz zapadne Srbije, dočekali Imšir-pašu na otvorenom polju kod sela Dublja. U dugotrajnoj borbi turski korpus je razbijen, sam Imšir-paša je poginuo, a u ustaničke ruke pao je veliki deo turske artiljerije, baruta i komore. Bila je to, po obimu i posledicama, najveća pobeda Drugog ustanka i jedna od retkih bitaka u kojima je srpska seljačka vojska u otvorenom polju savladala redovnu osmansku silu pojačanu topovima."
+    },
+    {
+      "type": "paragraph",
+      "text": "Posle Dublja Porta više nije imala u zapadnoj Srbiji vojsku kojom bi ustanak ugušila pre kraja leta. To je Milošu otvorilo upravo onaj prostor koji je od početka tražio — prostor za pregovore. Već u avgustu počele su prepiske sa Marašli Ali-pašom, novim namesnikom u Beogradu, a vojne operacije postepeno su prelazile u utvrđivanje i čekanje. Drugi ustanak je tako, po vojničkoj logici, trajao jedva nešto duže od četiri meseca, ali je u tom kratkom roku stigao do cilja koji je Prvi ustanak, posle skoro deset godina, ipak izgubio."
+    },
+    {
+      "type": "paragraph",
+      "text": "Razlika prema Prvom ustanku nije bila u hrabrosti, nego u meri. Drugi ustanak je vođen sa manjim brojem ljudi i na užem prostoru, ali sa jasnijim ciljem. Miloš nije obećao potpuno oslobođenje. Nije pokušao da pred Carstvo izađe kao samostalna država, niti je prešao na desnu obalu Save i Dunava. Beograd, Šabac, Smederevo i druge velike tvrđave ostale su u turskim rukama, sa svojim posadama i topovima. Mnoga područja koja su nekada nosila ustanak iz 1804. godine — Krajina na istoku, delovi Pomoravlja, krajevi pod Avalom — u 1815. nisu se podigla istom snagom. Pokret je ostao stešnjen unutar Beogradskog pašaluka i, u stvari, stalno svestan da Stambol može poslati novu vojsku ako se prekorači mera."
+    },
+    {
+      "type": "paragraph",
+      "text": "Žrtve su, kao i u svakom takvom ratu, bile teške na obe strane. Pored poginulih u Ljubićkoj, Palškoj i Dubljanskoj bici, stradalo je i mnogo civilnog stanovništva — i srpskog, koje je u prvim nedeljama trpelo odmazde, i muslimanskog, koje se u nekim mestima posle ustaničkog ulaska zatrlo bekstvom ili gore. O tim stranama leta 1815. izvori govore škrto i nejednako, pa svaka previše uglačana slika tog rata zaslužuje sumnju. Ono što se sa sigurnošću može reći jeste da je Drugi ustanak, brzo zaustavljen i pažljivo doziran, izvojevao baš onoliko vojnih pobeda koliko je bilo potrebno da Miloš može da sedne za sto sa Marašli-pašom — i da to bude sto za kojim će se, makar i ćutke, priznati da Srbija više nije obična provincija."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

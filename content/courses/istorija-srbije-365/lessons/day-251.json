@@ -6,13 +6,45 @@
   "dayNumber": 251,
   "order": 5,
   "title": "Kralj Milan Obrenović",
+  "subtitle": "Vladar pod kojim je Srbija postala nezavisna kraljevina — i pod kojim se duboko podelila",
   "readingTimeMinutes": 7,
   "year": 1882,
-  "isPlaceholder": true,
+  "dateLabel": "1882–1889.",
+  "timelinePosition": "1882–1889.",
+  "summary": "Milan Obrenović je vladar pun protivurečnosti: pod njim Srbija dobija međunarodno priznatu nezavisnost, kraljevsku titulu i moderne institucije, ali ga njegova prozapadna i autoritarna politika otuđuje od većine sopstvenog naroda.",
+  "keyPeople": ["Milan Obrenović", "kraljica Natalija", "Nikola Pašić", "kralj Aleksandar Obrenović", "knez Mihailo Obrenović"],
+  "keyPlaces": ["Beograd", "Berlin", "Beč", "Slivnica", "Zaječar"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Kada je u Topčideru 1868. godine ubijen knez Mihailo Obrenović, dinastija je ostala bez muškog naslednika u zreloj dobi. Izbor je pao na četrnaestogodišnjeg Milana, sina Mihailovog rođaka Miloša, tada dečaka koji se školovao u Parizu i koji se Srbiji jedva sećao. Doveden je u Beograd preko noći i postavljen za kneza, a zemljom je do njegovog punoletstva vladalo namesništvo. Tako je započela jedna od najprotivurečnijih vladavina u srpskoj istoriji — vladavina pod kojom će Srbija dobiti nezavisnost, kraljevsku krunu i moderan ustav, a istovremeno se duboko, gotovo nepovratno podeliti."
+    },
+    {
+      "type": "paragraph",
+      "text": "Punoletstvo je preuzeo 1872. godine. Prvih godina samostalne vlasti morao je da bira između starije, opreznije politike koja je čuvala odnose s Carigradom, i pritiska javnog mnjenja koje je tražilo da Srbija stane na čelo balkanskih hrišćana. Pritisak je nadvladao. Posle ustanaka u Bosni i Hercegovini, Srbija je 1876. ušla u rat sa Osmanskim carstvom — rat koji je vojno bio neuspešan, ali politički neizbežan. Tek je ulazak Rusije u veliki Istočni rat 1877–1878. doneo preokret, a sa njim i ono što su generacije čekale: na Berlinskom kongresu 1878. godine Srbija je, zajedno sa Crnom Gorom i Rumunijom, dobila punu međunarodno priznatu nezavisnost. Milan je sa kongresa izašao kao prvi srpski vladar kojeg priznaju sve velike sile."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ali iz Berlina je doneo i ogorčenje. Smatrao je da ga je Rusija ostavila — da je u Sanstefanu, nekoliko meseci ranije, sva korist pripala Bugarskoj, dok je Srbija u međusobnoj raspodeli ostala u senci. Iz tog razočaranja izrastao je odlučan zaokret. Milan je počeo da gleda u Beč, ne više u Petrograd. Godine 1881. zaključio je sa Austro-Ugarskom Tajnu konvenciju, kojom se Srbija obavezala da neće voditi politiku usmerenu protiv Beča, niti dozvoliti rad protivaustrijskih organizacija na svom tlu. Zauzvrat je Beč obećao podršku eventualnom širenju Srbije ka jugu, u pravcu Stare Srbije i Makedonije. Bio je to ugovor koji je vezivao srpsku spoljnu politiku za jednu silu — i koji će, kada postane poznat, biti shvaćen kao predaja."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Kraljevina i njene cene"
+    },
+    {
+      "type": "paragraph",
+      "text": "Sledeće, 1882. godine, Milan je proglasio Srbiju za kraljevinu, a sebe za kralja. Posle vekova osmanske vlasti i decenija kneževske poluformalnosti, zemlja je dobila titulu kojom je ravnopravno stajala u redu evropskih monarhija. Bio je to vrhunac dinastičkog uspeha Obrenovića. Cena se, međutim, ubrzo počela pokazivati iznutra. U Srbiji su tih godina jačale dve nove političke snage: Narodna radikalna stranka, koju je predvodio Nikola Pašić i koja je počivala na seoskoj većini i ideji narodne samouprave, i Napredna stranka, oslonjena na činovništvo i bliska dvoru. Milan, autoritaran po prirodi i nepoverljiv prema svakom organizovanom otporu, video je u radikalima glavnu pretnju. Sukob je eksplodirao 1883. godine u Timočkoj buni, kada je deo seoskog stanovništva istočne Srbije pružio oružani otpor prikupljanju oružja. Pobuna je krvavo ugušena, vođe pohapšene, neki streljani, a Pašić sklonjen u izbeglištvo. Rana je ostala otvorena."
+    },
+    {
+      "type": "paragraph",
+      "text": "Spoljnopolitički udarac usledio je dve godine kasnije. Posle ujedinjenja Kneževine Bugarske sa Istočnom Rumelijom 1885. godine, Milan je, oslonjen na austrougarsku diplomatsku podršku i uveren u sopstvenu vojnu prednost, objavio rat Bugarskoj. Srpsko-bugarski rat trajao je samo dve nedelje. Kod Slivnice, u novembru 1885, srpska vojska je pretrpela težak poraz od bugarskih snaga koje je predvodio sam knez Aleksandar Batenberg. Bilo je to ratovanje koje niko u zemlji nije razumeo niti tražio, izgubljeno protiv naroda koji se decenijama smatrao saveznikom. Mir u Bukureštu sledeće godine vratio je granice na pređašnje stanje, ali je ugled krune ozbiljno pao."
+    },
+    {
+      "type": "paragraph",
+      "text": "Poslednje godine Milanove vladavine obeležio je i javni porodični raspad. Brak sa kraljicom Natalijom, rođenom Keško, bio je gotovo od početka nesrećan; sukob oko vaspitanja sina Aleksandra prerastao je u otvoren skandal. Razvod 1888. godine, sproveden uz pritisak na crkvene vlasti, dodatno je potkopao ono malo dvorskog dostojanstva što je ostalo. Iste godine, u pokušaju da popravi odnos s opozicijom i ostavi zemlju u sređenijem stanju, Milan je doneo nov ustav — relativno napredan za svoje vreme, sa parlamentarnim odlikama i proširenim pravima. Već naredne, 1889. godine, abdicirao je u korist maloletnog sina Aleksandra i otišao u inostranstvo. Vratiće se kasnije, neformalno, kao komandant vojske od 1898. do 1900, ali stvarne moći više nije imao. Umro je u Beču 1901. godine, u tišini koja je teško pristajala uz toliko bučnu vladavinu. O njemu se i danas teško govori bez pristrasnosti — pod njim je Srbija postala kraljevina, a istovremeno se podelila na način koji će se osetiti i u sledećoj generaciji."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

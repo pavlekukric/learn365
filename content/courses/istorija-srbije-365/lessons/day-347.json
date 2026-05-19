@@ -6,13 +6,49 @@
   "dayNumber": 347,
   "order": 7,
   "title": "Dejtonski sporazum",
+  "subtitle": "Kako je u jednoj američkoj vojnoj bazi 1995. godine okončan najkrvaviji evropski rat posle 1945.",
   "readingTimeMinutes": 7,
   "year": 1995,
-  "isPlaceholder": true,
+  "dateLabel": "novembar–decembar 1995.",
+  "timelinePosition": "novembar–decembar 1995.",
+  "summary": "Pregovori u vazduhoplovnoj bazi Rajt-Paterson kod Dejtona okončali su rat u Bosni i Hercegovini, ali su zamrznuli etničke podele unutar jedinstvene države.",
+  "keyPeople": ["Slobodan Milošević", "Franjo Tuđman", "Alija Izetbegović", "Ričard Holbruk", "Ratko Mladić"],
+  "keyPlaces": ["Dejton", "Pariz", "Sarajevo", "Srebrenica", "Banja Luka"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Do leta 1995. rat u Bosni i Hercegovini trajao je već tri i po godine i pretvorio se u najtežu evropsku katastrofu posle Drugog svetskog rata. Procene Istraživačko-dokumentacionog centra u Sarajevu, objavljene 2007. u poimeničnoj knjizi žrtava, govore o oko sto hiljada poginulih — vojnika i civila svih strana zajedno. Više od dva miliona ljudi bilo je raseljeno iz svojih kuća. Zemlja je bila podeljena na frontove, gradove pod opsadom i logore, a međunarodni posrednici redom su pokušavali i napuštali planove o podeli ili očuvanju Bosne. Tek tokom te poslednje ratne godine sticaj vojnih i diplomatskih događaja konačno je doveo zaraćene strane za isti sto."
+    },
+    {
+      "type": "paragraph",
+      "text": "Vojna ravnoteža menjala se brzo. U avgustu 1995. hrvatska vojska je u akciji „Oluja” u nekoliko dana razbila Republiku Srpsku Krajinu; tom prilikom je iz Hrvatske, prema dostupnim procenama, izbeglo između sto pedeset i dvesta pedeset hiljada Srba, najveći deo prema Srbiji i Republici Srpskoj. Ubrzo zatim, zajednička ofanziva Armije BiH i hrvatskog HVO-a u zapadnoj Bosni potisnula je snage Vojske Republike Srpske sa značajnih teritorija. Posle masakra na sarajevskoj pijaci Markale i pada Srebrenice, NATO je krajem avgusta i u septembru pokrenuo operaciju „Deliberate Force” — ciljano bombardovanje srpskih položaja oko Sarajeva i u istočnoj Bosni. Pod kombinovanim pritiskom sa zemlje i iz vazduha, linije Republike Srpske su se približile odnosu od oko pola teritorije zemlje — onome koji će kasnije biti i potvrđen na papiru."
+    },
+    {
+      "type": "paragraph",
+      "text": "Jula 1995. dogodilo se ono što će ostati najtamnija tačka čitavog rata. Snage Vojske Republike Srpske pod komandom generala Ratka Mladića ušle su u Srebrenicu, područje koje su Ujedinjene nacije proglasile „zaštićenom zonom”. U danima koji su usledili ubijeno je oko osam hiljada Bošnjaka, muškaraca i dečaka. Međunarodni krivični sud za bivšu Jugoslaviju, u presudi Žalbenog veća u predmetu Krstić iz 2004, i Međunarodni sud pravde u Hagu u presudi iz 2007. nedvosmisleno su kvalifikovali zločin u Srebrenici kao genocid. To je danas utvrđena činjenica međunarodnog prava i istorijske nauke, i tako se i mora čitati: bez umanjivanja, bez izjednačavanja, bez relativizacije."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Razgovori u Dejtonu"
+    },
+    {
+      "type": "paragraph",
+      "text": "Posle takvog leta, pregovori su postali neizbežni. Američka administracija predsednika Bila Klintona, koja je dotle ostavljala glavnu reč Evropi, sada je preuzela vodeću posredničku ulogu. Glavni pregovarač bio je diplomata Ričard Holbruk, uz Kristofera Hila i druge saradnike. Od 1. do 21. novembra 1995. tri predsednika — Slobodan Milošević, koji je u Dejtonu nastupao i u ime bosanskih Srba, Franjo Tuđman i Alija Izetbegović — boravili su izolovano u vazduhoplovnoj bazi Rajt-Paterson, kod Dejtona u američkoj saveznoj državi Ohajo. Tri sedmice teških, ponekad i grubih razgovora završene su parafiranjem Opšteg okvirnog sporazuma za mir u Bosni i Hercegovini 21. novembra. Sporazum je svečano potpisan u Parizu 14. decembra 1995. godine."
+    },
+    {
+      "type": "paragraph",
+      "text": "Dejtonski sporazum sačuvao je Bosnu i Hercegovinu kao jedinstvenu državu, ali ju je iznutra podelio na dva entiteta — Federaciju Bosne i Hercegovine, sa oko pedeset jedan posto teritorije, u kojoj su nosioci bošnjački i hrvatski narod, i Republiku Srpsku sa oko četrdeset devet posto, srpskim entitetom. Iznad njih je stavljen složen ustavni sistem: tročlano Predsedništvo sa po jednim Bošnjakom, Srbinom i Hrvatom, dvodomni parlament, ustavni sud sa stranim sudijama i poseban institut visokog predstavnika međunarodne zajednice sa širokim ovlašćenjima, uključujući i pravo da nameće zakone i smenjuje funkcionere. Vojno sprovođenje sporazuma preuzele su međunarodne snage pod komandom NATO-a — najpre IFOR, a zatim SFOR — sa desetinama hiljada vojnika. Sporazum je svim izbeglim i raseljenim licima formalno priznao pravo na povratak u predratne domove."
+    },
+    {
+      "type": "paragraph",
+      "text": "Za Srbiju i Saveznu Republiku Jugoslaviju Dejton je doneo i krupne neposredne posledice. Ekonomske sankcije Ujedinjenih nacija, koje su pritiskale zemlju od 1992, postepeno su ukinute, a Beograd je vraćen u međunarodne razgovore. Milošević je iz Dejtona izašao kao sagovornik sa kojim Zapad razgovara, makar privremeno; deo unutrašnje javnosti, naprotiv, doživeo je sporazum kao gubitak Krajine i kao ustupke u Bosni. U Republici Srpskoj sporazum je primljen kao međunarodno priznanje entiteta, ali i kao kraj ratnih ambicija; u Federaciji kao spas od daljeg propadanja, ali i kao bolan kompromis. U svim sredinama, na sve tri strane, ostala je velika gorčina mrtvih, nestalih i prognanih."
+    },
+    {
+      "type": "paragraph",
+      "text": "Trezvena ocena Dejtona je teška, ali moguća. Sporazum jeste zaustavio rat — i to je njegova trajna istorijska zasluga, koja se ne sme potcenjivati. Istovremeno, on je etničke podele iz rata pretvorio u stalne institucije, vezao građanska prava za nacionalnu pripadnost i napravio državu koja decenijama posle 1995. radi sporo, teško, često protiv same sebe. Iz Dejtona je izašao mir, ne pomirenje. Ali u jesen 1995, posle Srebrenice, Sarajeva, Vukovara i Krajine, mir je bio jedino što se moglo postići — i to je, u svetlu svega što je tom miru prethodilo, bila ozbiljna, gorka pobeda razuma nad ratom."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

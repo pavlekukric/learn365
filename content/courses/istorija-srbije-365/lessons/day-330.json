@@ -6,13 +6,53 @@
   "dayNumber": 330,
   "order": 2,
   "title": "FNRJ — nova država",
+  "subtitle": "Kako je posleratna Jugoslavija postala narodna republika po sovjetskom uzoru, sa šest republika i jednom partijom",
   "readingTimeMinutes": 7,
   "year": 1945,
-  "isPlaceholder": true,
+  "dateLabel": "1945–1947.",
+  "timelinePosition": "1945–1947.",
+  "summary": "Osnivanje Federalne Narodne Republike Jugoslavije, njen ustav iz 1946. po sovjetskom uzoru, federalna struktura sa šest republika i dve autonomne jedinice unutar Srbije, i prve godine društvene preobrazbe.",
+  "keyPeople": ["Josip Broz Tito", "Aleksandar Ranković", "Edvard Kardelj", "Moša Pijade"],
+  "keyPlaces": ["Beograd", "Trst", "Vojvodina", "Kosovo i Metohija", "Srem"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Kada je 29. novembra 1945. godine novoizabrana Ustavotvorna skupština u Beogradu proglasila ukidanje monarhije i Jugoslaviju stavila u red narodnih republika, stari državni okvir nestao je za jednu noć. Kraljevina Jugoslavija pravno je prestala da postoji; na njeno mesto došla je Demokratska Federativna Jugoslavija, a nedugo zatim, ustavom od 31. januara 1946, dobila je i konačno ime — Federalna Narodna Republika Jugoslavija. Bila je to nova država i po imenu i po unutrašnjem ustrojstvu, a njen tvorac, Komunistička partija Jugoslavije pod Titom, gradio ju je sa dva uzora pred očima: sovjetskom federacijom kao modelom i partizanskim ratom kao moralnim opravdanjem."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ustav iz januara 1946. bio je gotovo doslovno rađen po Staljinovom sovjetskom ustavu iz 1936. godine. Preuzeti su isti pojmovi, ista podela vlasti i ista retorika o radnom narodu kao nosiocu suvereniteta. Na čelu države stajao je Prezidijum Narodne skupštine, kolektivno predsedništvo koje je vršilo funkcije šefa države između zasedanja. Savezna skupština imala je dva doma — Savezno veće, birano po opštem pravu, i Veće naroda, sastavljeno od izaslanika republika i pokrajina, kao izraz federalnog karaktera države. Formalno je sve podsećalo na evropski parlamentarni poredak, ali je pravo političko središte ležalo na drugom mestu: u Centralnom komitetu KPJ i u Politbirou, gde su odluke padale pre nego što bi došle na sednice skupština."
+    },
+    {
+      "type": "paragraph",
+      "text": "Federacija je dobila šest republika. Srbija, Hrvatska, Slovenija, Bosna i Hercegovina, Makedonija i Crna Gora postale su narodne republike, svaka sa sopstvenim ustavom, vladom i skupštinom. U sastavu Srbije ustanovljene su dve autonomne jedinice — Autonomna pokrajina Vojvodina i Autonomna oblast Kosovo i Metohija; status Kosova podignut je na pokrajinski tek 1963. godine. Granice između jedinica povučene su tokom 1945. odlukama posebnih komisija AVNOJ-a, a potom potvrđene republičkim ustavima. Pratile su uglavnom istorijske i etničke linije, ali sa nizom kompromisa: istočni Srem pripao je Srbiji, zapadni Hrvatskoj; Bosna i Hercegovina sačuvana je kao jedinstvena, višenacionalna republika; granice prema Makedoniji i Crnoj Gori odredile su staru političku, a ne uvek najbrojniju etničku sliku. Mnoga od tih razgraničenja ostaće tiha sve dok savezna država traje — a postaće sporna kada njena snaga popusti."
+    },
+    {
+      "type": "paragraph",
+      "text": "Jednopartijski karakter sistema nije bio sakriven. Komunistička partija Jugoslavije zvanično je jedina politička sila; ostali su bili obuhvaćeni Narodnim frontom, u kojem je KPJ držala odlučujuću reč. Republičke partije bile su organizacioni delovi jedinstvene jugoslovenske partije, a kadrovska politika tekla je od vrha naniže. Tako je svaka republička vlada, ma koliko formalno autonomna, u praksi bila vezana za isti centar. To je sistemu davalo veliku operativnu snagu — i istu onu osobinu koja će ga u sledećoj generaciji najviše opterećivati: odluke su padale brzo, ali bez stvarne provere u javnoj raspravi."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Spoljne granice i prvi planovi"
+    },
+    {
+      "type": "paragraph",
+      "text": "Spoljnopolitički, mlada FNRJ izlazila je iz rata sa krupnim teritorijalnim dobicima i jednim bolnim porazom. Mirovnim ugovorom sa Italijom 1947. Jugoslaviji su pripale Istra, veći deo Julijske krajine, Rijeka i Zadar, kao i Kvarnerska ostrva — krupno pomeranje zapadne granice u korist slovenskog stanovništva. Ali grad Trst, oko kojeg se vodio dug i napet spor, ostao je van Jugoslavije; tršćanska kriza vukla se sve do Londonskog memoranduma 1954, kada je Trst konačno pripao Italiji, a Zona B Jugoslaviji. Na severu je pitanje južne Koruške ostalo otvoreno prema Austriji i neće biti rešeno u jugoslovensku korist. Bili su to prvi znaci da nova država, koliko god ratom ojačana, deluje u svetu koji je njene granice gledao i kroz hladnoratovsku optiku."
+    },
+    {
+      "type": "paragraph",
+      "text": "U tim prvim godinama FNRJ je bila najbliži savez Sovjetskog Saveza u Evropi. Sovjetski vojni savetnici radili su u Jugoslovenskoj armiji, ekonomsko planiranje preuzimano je iz Gosplanove škole, a partijska terminologija išla je u korak sa Moskvom. Prvi petogodišnji plan, proglašen 1947, postavio je ambiciozne ciljeve industrijalizacije, naročito teške industrije, elektrifikacije i razvoja saobraćaja. Sredstva su prikupljana strogim merama — niske plate, obavezni otkup poljoprivrednih proizvoda, ratni i posleratni nameti. Plan je bio toliko zahtevan da je, i u trenutku kada je formulisan, malo ko verovao da će biti ispunjen u celosti; ostao je, ipak, simbol nove epohe — države koja sebe vidi kao gradilište."
+    },
+    {
+      "type": "paragraph",
+      "text": "Društvena preobrazba bila je još dublja od industrijskih ciljeva. Agrarnom reformom 1945–1946. oduzeti su zemljišni posedi veći od propisanog maksimuma, kao i imanja crkvenih ustanova i imovina koja je konfiskovana od pripadnika nemačke manjine i ratnih osuđenika; ta zemlja podeljena je bezemljašima, kolonistima iz pasivnih krajeva i partizanskim borcima. U decembru 1946. donet je Zakon o nacionalizaciji privrednih preduzeća: industrija, banke, rudnici, saobraćaj i veletrgovina prešli su u državne ruke. Krajem decenije pokušano je i sa kolektivizacijom sela po sovjetskom uzoru — osnivanjem seljačkih radnih zadruga 1949–1953. Otpor je bio širok i tih, kolektivizacija je davala loše rezultate, i posle 1953. biće tiho napuštena."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ako bi se ovaj period morao opisati jednim potezom, on bi glasio ovako: bila je to istinski nova država, ambiciozna u društvenom preobražaju, federalna po unutrašnjem ustrojstvu, ali totalitarna u praksi. Mnoge njene odluke — granice među republikama, položaj autonomnih jedinica, brzina industrijalizacije, sudbina kolektivizacije — donosile su se tih godina tiho, bez šire javne debate. Posledice tih odluka pratiće Jugoslaviju, i Srbiju u njoj, sve do njenog kraja. Zato je razdoblje 1945–1947. više od formalnog osnivanja: ono je trenutak u kojem je nova država dobila svoje obrise — i one koji će biti njeno bogatstvo, i one koji će biti njen teret."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

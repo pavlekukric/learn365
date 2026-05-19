@@ -6,13 +6,53 @@
   "dayNumber": 78,
   "order": 6,
   "title": "Dušanov zakonik — društvo i pravo",
+  "subtitle": "Šta nam Zakonik cara Dušana otkriva o staležima, crkvi, sudu i svakodnevnom životu srpskog 14. veka",
   "readingTimeMinutes": 8,
   "year": 1350,
-  "isPlaceholder": true,
+  "dateLabel": "sredina 14. veka",
+  "timelinePosition": "sredina 14. veka",
+  "summary": "Šta Dušanov zakonik otkriva o srpskom društvu sredinom 14. veka: staleži od cara do otroka, prava i obaveze crkve, sudski postupak i zaštita slabijih.",
+  "keyPeople": ["Dušan"],
+  "keyPlaces": [],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Najbolji način da se pogleda u srpsko društvo sredine 14. veka nije letopis, nego zakonik. Dok hronike beleže ratove i ktitorske darove, Dušanov zakonik nabraja ljude — koliko vrede njihova zakletva, njihova udarena šaka, njihova njiva, njihov pas. Donet u dva navrata, 1349. i dopunjen 1354. godine, on je sastavljen kao dopuna ranijim crkvenim pravnim zbornicima i vizantijskim zakonicima koji su već važili u zemlji. Upravo zato je dragocen: ne uređuje sve, nego upravo ono što je novom carstvu trebalo da bude napisano i jasno — granice među staležima, dužnosti prema crkvi, ovlašćenja sudova i zaštita onih koji su pred silnima slabi."
+    },
+    {
+      "type": "paragraph",
+      "text": "Na vrhu sveta koji Zakonik opisuje stoji car. Ispod njega je vlastela, krupna gospoda sa zemljom i vojskom, među kojom se izdvajaju nosioci visokih dvorskih titula — sevastokrator, despot, kesar — preuzetih iz vizantijskog ceremonijala. To su, po pravilu, članovi šire vladarske porodice ili najuticajnije velmože. Nešto niže stoje vlasteličići, sitnija gospoda sa manjim posedima, koji u ratu izlaze sa svojom konjicom ali se po imanju i uticaju ne mogu meriti sa krupnom vlastelom. Ispod njih su slobodni seljaci sa sopstvenom zemljom, pa zavisni zemljoradnici — meropsi — koji obrađuju vlastelinsku ili crkvenu zemlju i dužni su gospodaru rabotu, davanja i poslušnost. Posebnu skupinu čine vlasi, stočari koji se sa stadima sele između letnjih i zimskih ispaša i imaju svoja pravila. Na samom dnu su otroci, lično neslobodni ljudi; ropstvo postoji, ali je u srpskom srednjem veku ograničeno i okvirno regulisano, daleko od antičkih razmera."
+    },
+    {
+      "type": "paragraph",
+      "text": "Najvažnije je da Zakonik ne tretira sve ljude jednako pred kaznom. Posledice zavise od toga ko je udario, a ko je udaren. Vlastelin koji digne ruku na drugog vlastelina kažnjava se drugačije nego ako udari sebra, a sebar koji udari vlastelina osetiće težinu zakona u potpuno drugačijoj meri. Današnjem oku to deluje surovo, ali za 14. vek je to upravo definicija pravnog poretka: svako je odgovoran prema svom mestu, i svako mesto ima svoju cenu. Upravo iz tih razlika istoričari iščitavaju strukturu društva pouzdanije nego iz bilo kog opisa savremenika."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Crkva, sud i čaršija"
+    },
+    {
+      "type": "paragraph",
+      "text": "Veliki deo Zakonika posvećen je crkvi. Manastirska imanja štite se posebnim odredbama, sveštenstvu se obezbeđuju prihodi i sudske povlastice, a obaveze prema crkvi — i sebra i vlastele — pažljivo se nabrajaju. U pozadini se vidi država koja sebe doživljava kao pravoslavnu i koja red u veri smatra delom državnog reda. Otuda i oštre odredbe protiv „babunske reči”, odnosno bogumilstva, i protiv prelaska u „latinsku jeres”; predviđaju se sankcije za one koji prihvataju zapadno hrišćanstvo i pravila o brakovima sa nepravoslavnima. Ton tih članova je strog, mada je sprovođenje u praksi, sudeći po drugim izvorima, bilo neujednačeno i zavisilo je od oblasti i prilika."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sudski deo Zakonika otkriva zrelost koja iznenađuje. Postoje sudovi i sudije, propisana je uloga svedoka i zakletve, a takozvani „božji sudovi” — ordalije sa usijanim gvožđem ili vodom, uobičajene u tadašnjoj zapadnoj Evropi — javljaju se samo u tragovima i pod jasnim ograničenjima. Srpsko pravo se u tom pogledu naslanja na vizantijsku tradiciju, koja je bila daleko skeptičnija prema „presudama čudom”. Većina prekršaja kažnjava se globom u određenoj sumi perpera ili stoke; teža dela vode sakaćenju, a izdaja vladara i najteža nasilna dela smrti. Najupečatljivija je, međutim, jedna granična odredba: ako car u gnevu napiše nepravedno pismo, sudije ga ne smeju poslušati, već su dužne da sude po pravu. U srednjem veku, u kome je vladareva reč obično bila zakon, takva rečenica je gotovo politička izjava — i jasna poruka da car nije iznad zakona koji je sam doneo."
+    },
+    {
+      "type": "paragraph",
+      "text": "Privredni članovi opisuju svet pijaca, mera i puteva. Određuju se pravila trgovine, kažnjavaju lažne mere i tegovi, štite stranci-trgovci, najčešće Dubrovčani, kojima se garantuje pravo na pravičan sud i bezbedan prolaz. Rudarstvo, koje je u Dušanovo doba donosilo ogromne prihode, ostaje u rukama posebnog „saskog” zakona — pravnog zbornika nemačkih rudara doseljenih u Novo Brdo, Rudnik i druga središta — a Dušanov zakonik to izričito priznaje. Imamo, dakle, sliku pravne kulture u kojoj država ne pokušava sve da uguši pod jednim obrascem, već dozvoljava da uz opšti zakon žive i posebna pravila tamo gde se pokazala korisnima."
+    },
+    {
+      "type": "paragraph",
+      "text": "Možda je najmanje očekivana strana Zakonika upravo zaštita slabih. Nekoliko članova izričito brani sebra od samovolje vlastele, ograničava koliko gospodar može tražiti od svojih meropaha i nalaže silnima da poštuju tuđe — i seljačko — vlasništvo. Ako vlastelin nasilno uzme nešto od sebra, dužan je da vrati i da plati. Ako neko nepravedno otera tuđeg čoveka sa zemlje, sud će ga vratiti. Ne treba se zavaravati: ovo je idealizovan tekst, pisan onako kako je carstvo želelo da izgleda, a ne nužno onako kako je svakog dana izgledalo na nekom udaljenom vlastelinstvu u Zeti ili u Pomoravlju. Granica između propisa i prakse u srednjem veku gotovo nikada nije bila čista. Pa ipak, sam podatak da je vladar smatrao potrebnim da takve odredbe upiše, govori o ambiciji države da bude više od skupa moćnih ljudi koji rade šta hoće."
+    },
+    {
+      "type": "paragraph",
+      "text": "Po obimu, sistematičnosti i tematskom rasponu, Dušanov zakonik se računa među najambicioznije pravne kodifikacije srednjovekovne istočne Evrope. Njegova snaga nije samo u onome što propisuje, već i u onome što nehotice otkriva — kako je jedno društvo videlo samo sebe, koje je razlike priznavalo kao prirodne, a koje granice silnima ipak nije htelo da prizna. Posle pada srednjovekovne države, mnoge njegove odredbe nastavile su da žive u običajnom pravu i u sećanju, sve do 19. veka, kada će obnovljena Srbija ponovo posegnuti za njim — ovog puta kao za nasleđem, ne kao za važećim zakonom."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

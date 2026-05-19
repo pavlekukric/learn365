@@ -173,12 +173,31 @@
   outline-offset: 3px;
 }
 
-/* Recommended / continue lesson card, with its state-aware label above. */
+/* Recommended / continue lesson card, with the daily-anchor framing above. */
 .current {
   max-width: 760px;
   display: flex;
   flex-direction: column;
   gap: var(--space-3);
+}
+
+/* Daily ritual anchor (Phase 7.8). Reads as a small framing block tied to
+ * the recommended-lesson card below it — eyebrow + one calm sentence.
+ * The flex gap on `.current` keeps it close to the card so the two read as
+ * a pair, not as independent stacks. */
+.dailyAnchor {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+}
+
+.dailyAnchorEyebrow {
+  color: var(--muted);
+}
+
+.dailyAnchorLine {
+  color: var(--ink-2);
+  margin: 0;
 }
 
 .eras {

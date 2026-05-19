@@ -6,13 +6,53 @@
   "dayNumber": 208,
   "order": 13,
   "title": "Ustanak i Rusija",
+  "subtitle": "Glavni spoljni oslonac ustanka — od oprezne ruske naklonosti 1804. do napuštanja u Bukureštanskom miru 1812.",
   "readingTimeMinutes": 7,
   "year": 1810,
-  "isPlaceholder": true,
+  "dateLabel": "1804–1812.",
+  "timelinePosition": "1804–1812.",
+  "summary": "Odnos ustaničke Srbije i Rusije od 1804. do 1812: od opreznog praćenja, preko zajedničkog rata protiv Osmanlija, do napuštanja Srbije u Bukureštanskom miru pred Napoleonovu invaziju.",
+  "keyPeople": ["Karađorđe", "Konstantin Rodofinikin", "Mihail Kutuzov", "Aleksandar I", "Napoleon"],
+  "keyPlaces": ["Sankt Peterburg", "Bukurešt", "Vlaška", "Negotin", "Beograd"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Kada je u proleće 1804. počeo ustanak protiv dahija, Srbi su gotovo instinktivno pogledali ka severu — ka pravoslavnoj Rusiji cara Aleksandra I. Verska bliskost, slovensko srodstvo i sećanje na ranija ruska posredovanja na Porti činili su Petrograd najprirodnijim spoljnim osloncem. U prvim godinama, međutim, ruski odgovor bio je hladniji nego što su ustanici očekivali. Carstvo je bilo zauzeto Napoleonom u Evropi i nije želelo nepotreban sukob sa sultanom; pobuna raje u jednom turskom pašaluku, koliko god simpatična, dolazila je u nezgodno vreme. Rusija je 1804. i 1805. ustanicima slala lepe reči i poneki savet, ali ne i vojsku ni jasna obećanja."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sve se promenilo krajem 1806. godine. Pod Napoleonovim pritiskom, i uplašena ruskim uspesima protiv Francuza, Porta je zatvorila moreuze ruskim brodovima i smenila prijateljske vladare u Vlaškoj i Moldaviji. Petrograd je to s pravom shvatio kao povod za rat. Rusko-turski rat, koji će potrajati punih šest godina, izbio je u trenutku kada je Karađorđev ustanak već imao oslobođen Beograd i kontrolisao veći deo Beogradskog pašaluka. Preko noći Rusija i Srbija dobile su istog neprijatelja. Za ustanike je to bio strateški preokret: bili su odjednom delom šire ratne računice jedne velike sile."
+    },
+    {
+      "type": "paragraph",
+      "text": "Glavnina ruskih operacija odvijala se severno od Dunava, u Vlaškoj i Moldaviji, gde su se smenjivali generali — Mihelson, Bagration, Kamenski, a od 1811. i Mihail Kutuzov, čovek koji će potom presudno odlučiti i ishod rata sa Napoleonom. Za Srbiju je bilo važno to što su ruske kolone povremeno prelazile Dunav i sadejstvovale sa ustaničkom vojskom u istočnoj Srbiji. Manje ruske jedinice učestvovale su u borbama oko Negotinske Krajine i Štubika, gde će kasnije, već 1813, poginuti i Hajduk-Veljko Petrović. Tačan obim ruskih snaga koje su prelazile na desnu obalu Dunava bio je promenljiv i obično skroman, ali simbolika zajedničkog ratovanja imala je veću težinu od samih bataljona."
+    },
+    {
+      "type": "paragraph",
+      "text": "Materijalna pomoć bila je konkretnija. Iz Rusije su stizale novčane subvencije ustaničkoj kasi, puške, barut i topovi, povremeno i grupe oficira i savetnika. U uslovima u kojima Srbija nije imala ni državne finansije ni domaću ratnu industriju, ovaj priliv je bio glavna spoljašnja žila kucavica ustanka. Bez njega bi održavanje regularnijih jedinica, naročito artiljerije i utvrđenja oko Beograda i Šapca, bilo znatno teže. Treba pošteno reći — ruska pomoć nije bila ogromna u apsolutnim ciframa, ali je bila redovna i u ključnim trenucima dovoljna da odbrana ne pukne."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Rodofinikin i velika očekivanja"
+    },
+    {
+      "type": "paragraph",
+      "text": "Lice te saradnje u samoj Srbiji bio je Konstantin Rodofinikin, ruski diplomata grčkog porekla, koji je 1807. stigao u Beograd kao carev izaslanik i tu ostao do 1810. Bio je obrazovan, vešt i ambiciozan, i ubrzo se umešao ne samo u spoljne poslove ustaničke države nego i u njena unutrašnja sporenja oko Praviteljstvujuščeg sovjeta i položaja Karađorđa. Pristalice jačeg vožda smatrale su ga sklonim njegovim protivnicima; drugi su u njemu videli dragocenu vezu sa Petrogradom i savetnika koji je doneo elemente uređene kancelarijske prakse. Njegovo nasleđe ostalo je mešano — i to je verovatno najtačnija ocena: bio je istovremeno koristan i naporan, što je čest sudbinski opis stranih izaslanika u malim državama u nastanku."
+    },
+    {
+      "type": "paragraph",
+      "text": "Do 1810. i 1811. srpski prvaci, a posebno sam Karađorđe, sve su se više oslanjali na pretpostavku da će ruska zaštita u svakom budućem miru obezbediti Srbiji bar široku autonomiju, ako ne i punu nezavisnost. Diplomatske poruke iz Petrograda išle su u tom smeru, a zajedničke vojne akcije učvršćivale su utisak da su Srbija i Rusija saveznici u dubokom smislu. Verovatno je to poverenje bilo preveliko. Velike sile vode računa o sopstvenim interesima pre svega; saveznici se biraju i napuštaju u skladu s tim. Ustanička Srbija, mlada i bez iskustva u međunarodnoj politici, tu razliku još nije do kraja osetila na svojoj koži."
+    },
+    {
+      "type": "paragraph",
+      "text": "Početkom 1812. sve je dobilo nagao obrt. Napoleonova priprema za pohod na Rusiju postala je očigledna, a Petrogradu je svaki vojnik bio potreban na zapadnom frontu. Trebalo je hitno okončati rat sa Portom. Pregovori u Bukureštu, koje je sa ruske strane vodio Kutuzov, doveli su 28. maja 1812. do mira. Rusija je dobila Besarabiju i druge dobitke; Srbija je u tom tekstu dobila čuveni osmi član. On je predviđao amnestiju ustanicima, povratak osmanskih posada u utvrđenja, razoružanje srpske vojske i ograničenu samoupravu po vlaškom obrascu, pod sultanovim suverenitetom. To je bilo daleko manje od onoga što su srpski prvaci očekivali — i, što je još opasnije, povratak osmanskih garnizona delovao je kao otvaranje vrata onima koje su sedam godina pokušavali da drže napolju."
+    },
+    {
+      "type": "paragraph",
+      "text": "U Srbiji je vest dočekana sa razočaranjem i strahom. Vožd i Sovjet odbili su da brzo izvrše uslove razoružanja, nadajući se da će se prilike još jednom okrenuti. Ali Rusija je svoje pukove povukla na zapad da dočeka Napoleona, a Porta je, oslobođena pretnje sa severa, počela da priprema veliku ofanzivu za narednu godinu. Srbija je ostala sama da pregovara sa daleko jačim protivnikom — i to u trenutku kada je njena unutrašnja kohezija već bila načeta. Pouka koja će ostati u srpskom političkom sećanju kroz čitav 19. vek bila je gorka, ali jasna: podrška velike sile je stvarna, ali i prolazna; vezivati sopstveni opstanak samo za jednu tuđu politiku znači biti spreman na trenutak kada ta politika promeni pravac."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

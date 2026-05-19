@@ -6,13 +6,49 @@
   "dayNumber": 267,
   "order": 2,
   "title": "Povratak Karađorđevića",
+  "subtitle": "Posle krvavog Majskog prevrata Srbija bira za kralja čoveka iz Ženeve — Petra I Karađorđevića",
   "readingTimeMinutes": 7,
   "year": 1903,
-  "isPlaceholder": true,
+  "dateLabel": "1903.",
+  "timelinePosition": "1903.",
+  "summary": "Posle ubistva poslednjeg Obrenovića, Narodna skupština 2. juna 1903. jednoglasno bira za kralja Petra Karađorđevića, čoveka školovanog u Saint-Cyru i odraslog na delima Mila i Tokvila.",
+  "keyPeople": ["Petar I Karađorđević", "Aleksandar Karađorđević", "Zorka Petrović Njegoš", "knez Nikola Petrović Njegoš", "Karađorđe Petrović"],
+  "keyPlaces": ["Beograd", "Ženeva", "Pariz", "Hercegovina", "Cetinje"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Kada je u zoru 29. maja 1903. — po julijanskom kalendaru — beogradski Stari dvor utihnuo, a tela kralja Aleksandra i kraljice Drage iznesena, Srbija je iznenada ostala bez vladara i bez dinastije. Loza Obrenovića bila je prekinuta, a u zemlji je ostao jedan jedini čovek za koga su se zaverenici i parlamentarne stranke unapred složili: Petar Karađorđević, šezdesetogodišnji unuk Karađorđa Petrovića, vođe Prvog srpskog ustanka. Njegovo ime nije bilo izabrano u poslednjem trenutku. Ono je decenijama čekalo svoj red, daleko od Beograda, u skromnom stanu u Ženevi."
+    },
+    {
+      "type": "paragraph",
+      "text": "Karađorđevići su tada već gotovo pola veka živeli u izgnanstvu. Petrov otac, knez Aleksandar Karađorđević, skinut je sa prestola Svetoandrejskom skupštinom 1858. godine, kada su poslanici odlučili da pozovu nazad ostarelog Miloša Obrenovića. Od tada su pripadnici porodice bili gosti tuđih dvorova i stranih gradova — najpre u Temišvaru, potom u Beču, Parizu, Ženevi. Petar je odrastao u tom svetu, u nekoliko jezika i nekoliko prestonica, a ne u Beogradu. Studirao je u Švajcarskoj i Francuskoj i 1864. završio elitnu vojnu akademiju Saint-Cyr u Parizu, jednu od najuglednijih u Evropi. Tamo se formirao ne samo kao oficir, već i kao čovek demokratskih ubeđenja: čitao je Džona Stjuarta Mila, čiji je esej „O slobodi” 1868. preveo na srpski, i bio iskren poštovalac engleskog parlamentarizma i Tokvilovog tumačenja američke demokratije."
+    },
+    {
+      "type": "paragraph",
+      "text": "Imao je iza sebe i jedan rat. Pod pseudonimom Petar Mrkonjić borio se 1875. i 1876. godine u Hercegovačkom ustanku, na strani srpskih i hrišćanskih ustanika protiv osmanske vlasti. Bio je tamo običan, gotovo anoniman komandant — bez čina, bez velikih bitaka, ali sa stvarnim barutom u kosi. To iskustvo, koliko god skromno po vojničkom dometu, kasnije će mu dati ono što mnogi vladari nemaju: ličnu uspomenu na rat i na ljude koji u njemu ginu. Brakom sa Zorkom, kćerkom crnogorskog kneza Nikole Petrovića Njegoša, ušao je 1883. i u vladarsku porodicu Crne Gore — porodicu koja je, preko Vasojevića, bila u dalekom rodu i sa samim Karađorđevićima. Iz tog kratkog braka rodili su se Đorđe, Aleksandar i kći Jelena. Zorka je umrla 1890, mlada, u trideset prvoj godini, i Petar je nastavio sam, među decom i knjigama."
+    },
+    {
+      "type": "paragraph",
+      "text": "Njegov život u Ženevi nije podsećao na život pretendenta. Stanovao je skromno, bez dvorskog osoblja, bez novca za zaverenička putovanja. Nije slao agente po Beogradu, nije plaćao novine, nije, koliko se danas zna, znao unapred za pojedinosti Majskog prevrata. To je važno, jer ga je upravo ta uzdržanost — gotovo izolacija — kasnije sačuvala od osnovane sumnje da je naredbodavac ubistva svog prethodnika. Zaverenici su radili na svoju ruku; on je, kada je glasnik stigao, primio vest mirno, kao čovek koji decenijama nije računao da će ikada videti Beograd kao vladar."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Izbor i zakletva"
+    },
+    {
+      "type": "paragraph",
+      "text": "Narodna skupština, sazvana u Beogradu odmah po prevratu, izabrala je Petra Karađorđevića za kralja Srba 2. juna 1903. godine po julijanskom kalendaru — 15. juna po novom. Izbor je bio jednoglasan, a u zapisniku stoji ono što je tog trenutka bilo važnije od svake titule: Skupština je istog dana vratila na snagu Ustav iz 1888. godine, takozvani Radikalski ustav, koji je Aleksandar Obrenović bio derogirao oktroisanim ustavom iz 1901. Bio je to suštinski liberalan dokument: parlamentarna vlada, opšte muško pravo glasa pod određenim uslovima, slobodne novine i nezavisno sudstvo. Petar je, dakle, biran ne kao apsolutni gospodar, nego kao ustavni kralj jedne male evropske parlamentarne države."
+    },
+    {
+      "type": "paragraph",
+      "text": "U Beograd je stigao 12. juna 1903. po starom kalendaru, vozom, bez velike pratnje. Pred Narodnom skupštinom položio je svečanu zakletvu na taj ustav, i u njoj je obećao ono što će — i to je možda najveće iznenađenje cele priče — zaista poštovati. Petar I nije se mešao u rad parlamenta. Nije pokušavao da postavlja ili obara vlade preko ličnih simpatija. Podržao je radikalske kabinete Nikole Pašića onako kako su izlazili iz izbornih volja, čak i onda kada mu lično nisu bili po volji. Prihvatio je ulogu koja je u srpskoj tradiciji bila gotovo nepoznata — ulogu „kralja građanina”, monarha čija je glavna dužnost da kruna ostane iznad svakodnevne politike."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ovo treba reći bez idealizacije, ali i bez krivotvorenja. Petar I doveden je na presto preko leševa. Taj greh početka nikada nije do kraja oprao, ni u svojim, ni u tuđim očima; evropski dvorovi izvesno vreme su zatvarali vrata pred srpskim kraljem. Pa ipak, godine između 1903. i 1914, koje će ući u nacionalno pamćenje kao „zlatno doba” Srbije, nisu rezultat zaverenika, nego upravo te neobične vladareve umerenosti. Zaverenici su otvorili vrata; kroz njih je ušao čovek koji je iskreno pristao na ustavnu krunu. U istoriji Balkana, gde su monarsi po pravilu pokušavali da pojedu sopstvene parlamente, slučaj Petra Karađorđevića ostaje izuzetak — ne svetac, ne mit, ali čovek koji je, koliko je mogao, držao reč datu pred Narodnom skupštinom u junu 1903."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

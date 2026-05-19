@@ -6,13 +6,53 @@
   "dayNumber": 61,
   "order": 1,
   "title": "Kraljevi Radoslav i Vladislav",
+  "subtitle": "Dva sina Stefana Prvovenčanog, dve kraljice iz susednih dvorova i petnaest godina kraljevstva oslonjenog na tuđu snagu",
   "readingTimeMinutes": 7,
   "year": 1228,
-  "isPlaceholder": true,
+  "dateLabel": "1228–1243.",
+  "timelinePosition": "1228–1243.",
+  "summary": "Stefan Radoslav (1228–1234) i Stefan Vladislav (1234–1243), prvi naslednici Stefana Prvovenčanog: dva slaba kralja oslonjena na Epir i Bugarsku, ali i graditelji Mileševe i čuvari kulta Svetog Save.",
+  "keyPeople": ["Stefan Radoslav", "Stefan Vladislav", "Teodor Komnen Duka", "Ivan Asen II", "Sveti Sava", "Uroš I"],
+  "keyPlaces": ["Mileševa", "Studenica", "Trnovo", "Klokotnica", "Epir"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Kada je 1228. godine Stefan Prvovenčani umro u Studenici, srpski presto je prvi put prelazio sa krunisanog oca na krunisanog sina. Nasledstvo je delovalo uredno: najstariji sin Radoslav primio je kraljevski venac, mlađa braća Vladislav i Uroš dobila su udeone oblasti, a stric Sava, sada već arhiepiskop, stajao je iza dinastije kao njena duhovna kičma. Pa ipak, narednih petnaest godina pokazaće koliko je krhka bila ravnoteža koju je Prvovenčani ostavio. Dva njegova starija sina vladaće jedan za drugim, oba kratko, oba pod jakim uticajem susednih dvorova — i obojica će na kraju biti zbačena od strane mlađeg brata."
+    },
+    {
+      "type": "paragraph",
+      "text": "Radoslav je u Srbiju doneo ono što je u njegovom vremenu izgledalo kao prirodan izbor: čvrstu vezu sa grčkim svetom. Bio je oženjen Anom, kćerkom Teodora Komnena Duke, gospodara Epira, koji se tih godina nametao kao najmoćniji pravoslavni vladar na Balkanu. Epirska despotovina, nastala posle pada Carigrada 1204, izrasla je u carstvo koje je polagalo pravo na vizantijsko nasleđe; Teodor se 1227. ili 1228. krunisao za cara u Solunu i izgledalo je da bi mogao prvi povratiti sam Carigrad. Mladi srpski kralj okrenuo se ka tom dvoru ne samo dinastijski nego i kulturno. Na njegovim novčićima pojavila se grčka titulatura, u dvorskim aktima osetio se epirski uticaj, a savremenici su govorili da kralj o važnijim stvarima češće sluša svoju ženu i tasta nego sopstvenu vlastelu."
+    },
+    {
+      "type": "paragraph",
+      "text": "Takvo oslanjanje na jednu jedinu silu pokazalo se kobnim. U martu 1230. kod Klokotnice, u današnjoj Trakiji, bugarski car Ivan Asen II potpuno je razbio Teodorovu vojsku i zarobio samog cara. Epirska moć se preko noći raspala, a Bugarska je postala neosporna prevaga na Balkanu. Radoslav se najednom našao bez glavnog saveznika i bez jasne politike. Nezadovoljstvo vlastele, koja je već s nelagodom gledala grčke običaje na dvoru, sada je prelilo meru. Godine 1234. mlađi brat Vladislav, uz širok ugled među velmožama, podigao je ustanak i zbacio kralja. Radoslav je sa ženom pobegao prvo u Dubrovnik, potom u Drač; vratio se kasnije u zemlju, primio monaški postrig sa imenom Jovan i tiho završio život u Studenici, među grobovima svojih predaka."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Vladislav i Mileševa"
+    },
+    {
+      "type": "paragraph",
+      "text": "Vladislav je krunu primio kao čovek koji je već unapred izabrao drugu stranu. Oženio se Beloslavom, kćerkom Ivana Asena II, pa je sada srpski dvor svoju glavnu spoljnu nit vukao iz Trnova umesto iz Soluna. Smena uticaja bila je gotovo simetrična: gde je Radoslav slušao Epir, Vladislav je slušao Bugarsku. To mu je u prvim godinama donelo mir na istočnoj granici i jaku zaštitu, ali je istovremeno pokazalo trajni problem ove generacije Nemanjića — srpski kralj još nije bio dovoljno snažan da samostalno stoji između velikih suseda, pa je svaki novi vladar tražio jednu spoljnu polugu na koju će se nasloniti."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ipak, baš za Vladislavove vlade dogodilo se nešto što je njegovo ime trajno upisalo u srpsko pamćenje. Još pre dolaska na presto, kao mladi knez, započeo je gradnju zadužbine u Polimlju — manastira Mileševe. Završena verovatno tridesetih godina 13. veka, Mileševa je postala jedna od najlepših srpskih građevina tog stoleća, sa freskama izuzetne mirnoće i dostojanstva, među kojima je čuveni „Beli anđeo” na grobu Hristovom kasnije postao najpoznatija slika srpskog srednjeg veka. Ali Mileševa nije bila samo umetnički poduhvat. Kada je 1235. ili na samom početku 1236. Sveti Sava umro u Trnovu, na povratku sa drugog hodočašća u Svetu zemlju, njegovo telo je najpre sahranjeno tamo, u bugarskoj prestonici. Vladislav je godinama posle, izgleda 1237, uspeo da ubedi tasta Ivana Asena da mu vrati strica. Mošti Svetog Save svečano su prenete iz Trnova i položene u Mileševu, koja je tako u jednom potezu postala najveće hodočasničko središte srednjovekovne Srbije."
+    },
+    {
+      "type": "paragraph",
+      "text": "Time je Vladislav, gotovo nehotice, učinio jedan od najvažnijih kulturnih poteza dinastije: vezao je kult Svetog Save za srpsko tle i za jedan konkretan, dostupan grob. Hodočasnici, vladari, vlastela i obični putnici dolaziće u Mileševu vekovima, sve dok Turci 1594. godine ne odnesu mošti na Vračar i ne spale ih — ali to je već priča za jedan drugi dan ovog kursa. U Vladislavovo vreme, Mileševa je bila znak da srpsko kraljevstvo, ma koliko politički zavisno, ima sopstvenu svetinju u koju može da gleda."
+    },
+    {
+      "type": "paragraph",
+      "text": "Bugarska zaštita, međutim, nije trajala. Godine 1241. mongolska najezda pregazila je istočnu Evropu; Ivan Asen II je već bio umro iste godine, a Bugarska je posle udara izgubila prvenstvo na Balkanu. Vladislav je ostao bez glavnog oslonca isto onako kako ga je Radoslav izgubio posle Klokotnice. Vlastela, koja je već dvaput menjala kralja, učinila je to i treći put. Godine 1243. na presto je doveden najmlađi brat, Uroš I, a Vladislav je svrgnut bez velikog otpora. Za razliku od Radoslava, dobio je da mirno doživi starost: zadržao je oblast Zete, vladao njome do smrti negde oko 1264, i sahranjen je u svojoj Mileševi, pored strica čije je mošti tamo doneo."
+    },
+    {
+      "type": "paragraph",
+      "text": "Istoričari Radoslava i Vladislava obično opisuju kao slabe vladare, prelazne figure između osnivačke generacije — Nemanje, Save, Prvovenčanog — i samostalnije vlade Uroša I. Ta ocena je u osnovi tačna: obojica su političku težinu pozajmljivali od tasta, a kada bi tast pao, padali bi i oni. Ali bilo bi nepravedno svesti njihovih petnaest godina samo na slabost. U tom razdoblju srpska kraljevska titula nije izgubljena, autokefalna crkva nije pokolebana, Mileševa je sazidana i Sveti Sava je vraćen kući. Dinastija je izdržala prvi smenski potres posle smrti osnivača i sačekala generaciju koja će umeti da stoji uspravno između suseda. Često se istorija piše baš ovako — tiho, kroz vladare koje pamtimo manje po pobedama, a više po tome što su sačuvali ono što su nasledili."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

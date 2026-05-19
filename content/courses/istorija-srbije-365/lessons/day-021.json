@@ -6,13 +6,53 @@
   "dayNumber": 21,
   "order": 4,
   "title": "Provincija Mezija",
+  "subtitle": "Dunavska granica, Viminacijum kao prestonica i provincija koja će dati careve",
   "readingTimeMinutes": 7,
   "year": 50,
-  "isPlaceholder": true,
+  "dateLabel": "1. vek n. e.",
+  "timelinePosition": "~50. n. e.",
+  "summary": "Rim u prvom veku organizuje Meziju — pograničnu provinciju na Dunavu, nazvanu po lokalnom plemenu Meza; pod Domicijanom se deli na Gornju i Donju, sa Viminacijumom kao prestonicom one koja pokriva najveći deo današnje Srbije.",
+  "keyPeople": ["Avgust", "Domicijan"],
+  "keyPlaces": ["Mezija", "Viminacijum", "Singidunum", "Naissus", "Dunav"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Kada se u prvim decenijama nove ere rimska vlast konačno učvrstila na južnoj obali Dunava, trebalo je tom prostranom pojasu dati ime, granicu i upravu. Iz te potrebe rodila se provincija Mezija — dunavski pojas koji je obuhvatao najveći deo današnje centralne i severne Srbije, kao i veliki deo današnje Bugarske, sve do Crnog mora. Za nekoliko narednih vekova, Mezija će biti jedna od ključnih karika rimskog sveta: vojna granica, rudarski okrug, prolaz za vojske i trgovce, i — kako će se ispostaviti — zavičaj nekolicine careva."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ime je provincija dobila po Mezima, lokalnom plemenu koje su antički pisci smeštali između Save, Dunava i planinskih masiva u unutrašnjosti. Mezi su bili jedna od onih balkanskih zajednica koje su Rimljani u prvim sukobima upoznali kao protivnike, a zatim, postepeno, kao podanike. Tačno vreme zvaničnog osnivanja provincije nije sasvim jasno u izvorima; obično se smešta u prve decenije prvog veka nove ere, posle Avgustove velike reorganizacije ilirskog prostora i posle gušenja Velikog ilirskog ustanka. U svakom slučaju, do sredine prvog veka Mezija već postoji kao zasebna upravna jedinica, sa namesnikom konzulskog ranga i sa težištem na odbrani dunavske granice."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ta granica — limes — bila je suština provincije. Dunav je u rimskoj predstavi predstavljao prirodnu liniju razdvajanja između carstva i „varvarskog” sveta sa severa, iako je u stvarnosti reka oduvek više povezivala nego što je razdvajala. Duž njene desne obale podizali su se vojni logori, osmatračnice, putevi i pristaništa. Glavna snaga te odbrane bile su legije, stalno raspoređene u nekoliko velikih utvrđenja, oslonjene na pomoćne jedinice i na rečnu flotu. Mezija je, drugim rečima, od početka bila pre svega vojnička provincija."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Podela na Gornju i Donju Meziju"
+    },
+    {
+      "type": "paragraph",
+      "text": "Krajem prvog veka, oko 86. godine, car Domicijan donosi odluku koja će obeležiti dalju sudbinu ovih krajeva. Mezija se deli na dve provincije: Gornju Meziju (Moesia Superior), koja pokriva uglavnom današnju centralnu Srbiju, Kosovo i delove današnje Severne Makedonije, i Donju Meziju (Moesia Inferior), koja se prostire istočnije, preko najvećeg dela današnje Bugarske, sve do ušća Dunava i obale Crnog mora. Razlozi su bili praktični — pojas duž Dunava postao je preveliki za jednu upravu, a sukobi sa Dačanima severno od reke zahtevali su brži i bolje organizovan vojni odgovor. Za priču o današnjoj Srbiji važna je pre svega Gornja Mezija."
+    },
+    {
+      "type": "paragraph",
+      "text": "Prestonica Gornje Mezije postao je Viminacijum, na ušću Mlave u Dunav, kraj današnjeg Kostolca. Tu je bio stalni logor jedne legije, ali oko logora se vrlo brzo razvio i veliki civilni grad sa svojim forumom, hramovima, termama, nekropolama i — što je u ovom delu carstva retkost — sa amfiteatrom. Viminacijum je bio upravno, vojno i ekonomsko središte provincije, čvorište puteva koji su vodili u unutrašnjost i mesto gde su se sticali porezi, rude i ljudi. U njegovoj senci stajali su drugi važni gradovi: Singidunum, na ušću Save u Dunav, kao snažan legijski logor i začetak današnjeg Beograda; Naissus, današnji Niš, kao raskrsnica puteva koji su povezivali Dunav sa Egejom; Margum kod ušća Velike Morave, Horeum Margi kod današnje Ćuprije, i Ulpijana na Kosovu, blizu današnjeg Lipljana."
+    },
+    {
+      "type": "paragraph",
+      "text": "Stanovništvo provincije bilo je raznoliko. U njegovoj osnovi ostali su potomci starih balkanskih plemena — Tribala, Dardanaca, samih Meza — koji su tokom decenija postepeno prihvatali latinski jezik, rimsko pravo i običaje. Tom sloju pridruživali su se veterani legija koji su, posle dvadeset i više godina službe, dobijali zemlju u okolini logora i tu zasnivali porodice; doseljeni trgovci, zanatlije i činovnici iz drugih delova carstva; rudari iz rudarskih okruga u unutrašnjosti, koji su Rimljanima bili posebno dragoceni zbog srebra, olova i bakra. Mezija je tako, kao i druge granične provincije, bila mesto mešanja — ne uvek ravnopravnog, ali stvarnog."
+    },
+    {
+      "type": "paragraph",
+      "text": "Granicu sa severa čuvala je, pored legija, i dunavska flota — Classis Flavia Moesica, „mezijska flavijska flota”, osnovana ili reorganizovana u doba dinastije Flavijevaca. Njeni brodovi patrolirali su rekom, prebacivali vojsku, štitili pristaništa i pratili trgovačke konvoje. U vremenima rata sa Dačanima i, kasnije, sa raznim plemenima sa severa, ta flota je bila neprocenjiv produžetak kopnene odbrane. U miru je, jednostavno, držala dunavski saobraćaj pod kontrolom carstva."
+    },
+    {
+      "type": "paragraph",
+      "text": "Vremenom će se pokazati da Mezija nije samo davala vojnike i rude, nego i ljude koji će se popeti do samog vrha carstva. Iz njenih logora i gradova poteći će nekoliko rimskih careva — vladara koji su rođeni u ovim krajevima ili na njima započeli svoje uspone. O njima će biti reči nešto kasnije; za sada je dovoljno reći da je ovo tlo, koje je prvog veka još bilo posmatrano kao surova granica, već nosilo u sebi začetak jedne sasvim drugačije uloge u istoriji Rima."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

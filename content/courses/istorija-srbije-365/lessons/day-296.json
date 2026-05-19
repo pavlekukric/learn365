@@ -6,13 +6,57 @@
   "dayNumber": 296,
   "order": 9,
   "title": "Golgota i obnova na Krfu",
+  "subtitle": "Grčko ostrvo na kome se srpska vojska 1916. istovremeno gasila i preporađala — između „Plavog groba” i savezničke pomoći",
   "readingTimeMinutes": 8,
   "year": 1916,
-  "isPlaceholder": true,
+  "dateLabel": "1916.",
+  "timelinePosition": "januar–jul 1916.",
+  "summary": "Tokom januara i februara 1916. saveznički brodovi prebacuju oko 150.000 srpskih vojnika sa albanske obale na Krf, gde se istovremeno odvija masovno umiranje iznurenih i obnova vojske pod francuskom logistikom, pre prebacivanja na Solunski front.",
+  "keyPeople": ["vojvoda Radomir Putnik", "vojvoda Petar Bojović", "Nikola Pašić", "Ante Trumbić", "Frano Supilo"],
+  "keyPlaces": ["Krf", "Vido", "Solun"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Kada su prvi srpski vojnici početkom 1916. godine kročili na obalu grčkog ostrva Krfa, izgledali su kao ljudi koji su iz rata već izašli — samo što rat nije izašao iz njih. Iza njih je bila albanska golgota, marš preko snežnih klanaca, glad i tifus; ispred njih jedno mediteransko ostrvo na kome saveznici treba da od ostataka jedne vojske ponovo naprave vojsku. Krf je tih meseci postao najčudnije mesto srpske istorije Prvog svetskog rata: istovremeno bolnica, groblje, štab, diplomatska kancelarija i logor za preporod. Iz njega će, nešto više od godinu dana kasnije, na Solunski front krenuti vojska koja će se boriti za probojem."
+    },
+    {
+      "type": "paragraph",
+      "text": "Prebacivanje sa albanske obale počelo je sredinom januara 1916. i odužilo se do kraja februara. Brodovi francuske, britanske i italijanske mornarice, uz pratnju ratnih plovila zbog opasnosti od austrougarskih i nemačkih podmornica, prevozili su iz luka Drač i Valona ono što je preostalo od srpske vojske, od izbeglica i od državne uprave. Procene se razlikuju, ali se ukupan broj prevezenih ljudi obično navodi oko sto pedeset hiljada vojnika, uz dodatne hiljade civila i nekoliko hiljada austrougarskih zarobljenika koji su sa vojskom delili put preko Albanije. Glavnu ulogu u organizaciji preuzela je francuska komanda; bez te savezničke logistike evakuacija ne bi bila moguća na vreme."
+    },
+    {
+      "type": "paragraph",
+      "text": "Stanje ljudi po dolasku bilo je teško i opisivano je gotovo istim rečima u izveštajima francuskih lekara i u sećanjima samih vojnika. Iznureni dugim maršom, bez dovoljno hrane, mnogi promrzli i bolesni od tifusa, dizenterije ili gladnih edema, nisu mogli ni stajati. Prvih nedelja na Krfu umiralo se svakodnevno i u velikom broju. Saveznička sanitetska služba i srpski lekari postavili su prihvatne logore u zalivima oko grada Krfa, ali kapaciteti su bili ograničeni, a najteže obolele trebalo je izolovati, kako bi se sprečilo širenje zaraza na one koji su još imali snage da prežive."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Plavi grob"
+    },
+    {
+      "type": "paragraph",
+      "text": "Za tu ulogu odabrano je malo ostrvo Vido, na ulazu u krfsku luku. Pretvoreno je u izolaciju za najteže bolesnike, mahom one za koje se znalo da neće preživeti. Ostrvo je bilo malo, zemlja kamenita, a umrlih previše da bi se sahranjivali na klasičan način. Tela su, posle kratke pravoslavne molitve, spuštana u more iz čamaca, u okolne dubine. Po nekim procenama tako je sahranjeno više od pet hiljada srpskih vojnika; tačan broj se i danas razlikuje od izvora do izvora. To mesto je u srpskoj kolektivnoj svesti ostalo zapamćeno kao „Plavi grob” — po pesmi koju je nešto kasnije, sećajući se Vida, napisao pesnik Milutin Bojić. Ime je nadživelo i samu pesmu i samo doba."
+    },
+    {
+      "type": "paragraph",
+      "text": "Brojke žrtava na Krfu treba uzimati sa rezervom, ali jedna stvar je u literaturi često ponovljena: po pojedinim procenama, više srpskih vojnika je umrlo u prvim mesecima na Krfu i Vidu nego tokom samog povlačenja preko Albanije. Ako je ta procena tačna ili samo blizu istine, ona govori koliko je dubinski bila slomljena vojska koja je 1915. krenula iz Srbije. Spasavanje preko mora donelo je sigurnost od neprijatelja, ali ne i od bolesti i iscrpljenosti koje su već bile u telima ljudi."
+    },
+    {
+      "type": "paragraph",
+      "text": "Drugi sloj Krfa bio je obnova. Francuska komanda preuzela je glavnu logistiku: hranu, lekove, sanitetski materijal, šatore i barake, ali i nove uniforme. Upravo tada srpski vojnici dobijaju onaj francuski tip uniforme, plavičaste boje, koji će postati standard do kraja rata i koji će, sa karakterističnim šajkačama na glavama, ostati prepoznatljiva slika srpskog vojnika sa Solunskog fronta. Saveznička pomoć stizala je u tovarima brodova; srpska intendantura raspoređivala je sledovanja po obnovljenim jedinicama. Kako su se ljudi oporavljali, formirane su nove armije, sa sastavom popunjavanim onima koji su preživeli, dobrovoljcima iz dijaspore i Jugoslovenima iz austrougarskog zarobljeništva."
+    },
+    {
+      "type": "paragraph",
+      "text": "Komanda se takođe menjala. Vojvoda Radomir Putnik, načelnik štaba Vrhovne komande i čovek koji je vojsku vodio kroz Cer, Kolubaru i albansku golgotu, na Krf je stigao teško bolestan, nošen u nosilima preko planina. Više nije mogao da nosi teret vrhovne komande i povučen je sa dužnosti; saveznici su ga prebacili na lečenje u Francusku, gde će umreti maja 1917. u Nici. Na njegovo mesto, za načelnika štaba Vrhovne komande postavljen je vojvoda Petar Bojović, dotadašnji komandant Prve armije, čovek staloženog tona i jake organizacione ruke, koji će predvoditi vojsku u njenoj solunskoj fazi."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pored vojske, na Krfu se zatekla i srpska vlada. Predsednik vlade Nikola Pašić, sa ministrima i delom narodne skupštine, nastavio je odatle diplomatski rad. Sastajao se sa predstavnicima Jugoslovenskog odbora, organizacije hrvatskih i slovenačkih političara u emigraciji, među kojima su se isticali Ante Trumbić i Frano Supilo. Razgovaralo se, ne uvek lako, o budućnosti zajedničke države Srba, Hrvata i Slovenaca, o granicama, o obliku vladavine, o odnosu prema dinastiji Karađorđević. Krfska deklaracija, koja će formalno učvrstiti ideju ujedinjenja, biće potpisana tek u julu 1917, ali rad na njoj počinje upravo tokom 1916, u prostorijama krfskih hotela koji su služili kao vladina sedišta."
+    },
+    {
+      "type": "paragraph",
+      "text": "Od leta 1916. obnovljene srpske jedinice počele su se brodovima prebacivati u Solun, u sastav savezničkog Solunskog fronta. Krf je polako prestajao da bude logor i postajao zaleđe — pozadinska baza, bolnica, vladin centar. Za istoriju srpske vojske ostao je dvostruko obeležen. S jedne strane mesto agonije, ostrvo Vido i more koje je zadržalo hiljade umrlih; s druge strane mesto preporoda, gde su saveznička pomoć, francuska organizacija i poslednji rezerv ljudske snage spojeni u jedinu odbrambenu snagu izgnane države. Bez patetike, oba lica Krfa su istinita, i upravo ih zajedno treba pamtiti."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

@@ -6,13 +6,53 @@
   "dayNumber": 50,
   "order": 3,
   "title": "Nemanja širi državu",
+  "subtitle": "Trideset godina ratova, pregovora i strpljenja kojima se mala Raška pretvara u srpsku državu",
   "readingTimeMinutes": 8,
   "year": 1170,
-  "isPlaceholder": true,
+  "dateLabel": "1166–1196.",
+  "timelinePosition": "1166–1196.",
+  "summary": "Kako je Stefan Nemanja od polovine dvanaestog veka do svog povlačenja širio državu — ratovima s Vizantijom, prodorima ka Nišu i Moravi, dugotrajnom borbom za Zetu i opreznom diplomatijom prema krstašima i Ugarskoj.",
+  "keyPeople": ["Stefan Nemanja", "Manojlo I Komnen", "Fridrih Barbarosa", "Vukan"],
+  "keyPlaces": ["Raška", "Niš", "Zeta", "Kosovo"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Kada je Stefan Nemanja u drugoj polovini šezdesetih godina dvanaestog veka učvrstio vlast nad braćom i nad raškim oblastima, pred njim se otvorilo pitanje kojim su se srpski velikaši pre njega retko bavili sa toliko upornosti: kako od planinske, ograničene Raške napraviti državu koja zna da se širi i da se brani. Odgovor će tražiti tri decenije — sve do njegovog povlačenja u manastir 1196. godine. Te tri decenije nisu jedna ravna priča o uspesima; pune su zastoja, jednog teškog poraza i strpljivih povrataka, ali im je ishod jasno vidljiv: država koju Nemanja predaje sinovima nekoliko je puta veća od one koju je zatekao."
+    },
+    {
+      "type": "paragraph",
+      "text": "Polazna tačka njegove vlasti bila je Raška — oblast oko gornjeg toka istoimene reke, sa središtem oko Rasa, sa manastirima i tvrđavama u brdima zapadno od današnjeg Novog Pazara. Odatle se moglo ići na tri strane: prema jugu i istoku, gde je počinjala vizantijska teritorija sa važnim drumom dolinom Morave i Niša; prema obali, gde je ležala Zeta, stara Duklja, naslednica nekadašnjeg primorskog kraljevstva; i prema severu, gde je granica dodirivala Ugarsku. Sa sve tri strane Nemanja je morao da računa, i sa svake je u različitim trenucima dobijao i podršku i udarac."
+    },
+    {
+      "type": "paragraph",
+      "text": "Glavni protivnik bila je Vizantija. Carstvo je u to vreme još uvek bilo ozbiljna sila, naročito dok je njime vladao Manojlo I Komnen, vladar koji je smatrao da srpske oblasti pripadaju njegovom uticajnom krugu i koji nije trpeo samostalne poteze raških velikih župana. Nemanjini prvi prodori prema istoku — ka Nišu, dolini Toplice i Južne Morave — izazvali su brzu reakciju. Godine 1172. Manojlo je krenuo u veliki pohod, naterao Nemanju na predaju i poveo ga u Carigrad kao zarobljenika. Bilo je to javno poniženje: srpski veliki župan hodao je u trijumfalnoj povorci kroz prestonicu. Ipak, Vizantija nije išla do kraja. Manojlo ga je posle nekog vremena vratio na presto, kao priznatog vazala. Razlog je bio praktičan — bolje je imati pokornog domaćeg gospodara nego u brdima neprestano gušiti pobune."
+    },
+    {
+      "type": "paragraph",
+      "text": "Taj porazni trenutak pokazao se manje važnim nego što je tada izgledao. Vizantija je posle Manojlove smrti 1180. godine ušla u dugu unutrašnju krizu — promene careva, pobune u provincijama, sukobi s Normanima i Mađarima. Svaki put kad bi se Carstvo zateklo zauzeto drugde, Nemanja bi tiho pomerao granice. Postepeno su pod njegovu vlast došli Niš i delovi pomoravlja, oblasti u Toplici, u dolini Kosanice i Jablanice. Ka jugu se širio prema današnjem Kosovu i Metohiji, gde su pod njegovom rukom postepeno došli i Prizren, Lipljan i okolne župe — kraj koji će uskoro postati duhovno i privredno srce njegove države."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Borba za Zetu i dolazak krstaša"
+    },
+    {
+      "type": "paragraph",
+      "text": "Posebno složena bila je borba za Zetu. Tamo je još uvek živelo sećanje na samostalno dukljansko kraljevstvo, sa svojim plemstvom, svojim primorskim gradovima i sa crkvenom organizacijom okrenutom Rimu. Nemanja je na Zetu polagao pravo i kao na deo srpskog prostora i kao na neophodan izlaz na more, bez koga bi država ostala zatvorena u brdima. Borbe nisu išle brzo. Bilo je pohoda, povlačenja, pregovora s primorskim gradovima — Kotorom, Barom, Ulcinjem — koji su čuvali svoje stare povlastice. Tek pred kraj svoje vladavine Nemanja je mogao reći da Zeta zaista pripada njegovoj državi; uprava nad njom poverena je njegovom najstarijem sinu Vukanu, što je istovremeno bila i nagrada i način da se osetljiva oblast drži pod čvrstom porodičnom rukom."
+    },
+    {
+      "type": "paragraph",
+      "text": "Na severu su odnosi s Ugarskom bili promenljivi, ali bez velikih ratova. Mađarski kraljevi povremeno su bili saveznici protiv Vizantije, povremeno suparnici oko granica oko Save i Dunava. Nemanja je tu uglavnom vodio strpljivu politiku — nije izazivao otvoreni sukob, ali nije ni dozvoljavao da ga ugarski uticaj uvuče u njihove dinastičke razmirice. Sličnu opreznost pokazao je i kada je 1189. godine kroz srpske zemlje prošla velika krstaška vojska nemačkog cara Fridriha Barbarose, na putu ka Svetoj zemlji. Nemanja ga je dočekao u Nišu, ugostio s počastima i pokušao s njim da dogovori savez protiv Vizantije. Barbarosa je bio ljubazan, ali oprezan — njegov cilj nije bio Carigrad, nego Jerusalim — i od saveza nije bilo ništa. Ipak, sam susret pokazuje koliko je srpski vladar do tada postao priznat činilac u evropskoj politici."
+    },
+    {
+      "type": "paragraph",
+      "text": "Treba ovde stati i biti pošten oko izvora. Najveći deo onoga što znamo o Nemanjinim ratovima dolazi iz dva izvora vrlo različite prirode. Sa vizantijske strane, to su istoričari poput Niketa Honijata, koji o srpskom velikom županu piše s mešavinom poštovanja i prezira, naglašavajući vizantijske pobede i prećutkujući poraze. Sa srpske strane, glavni izvori su hagiografije — žitija koja su o Nemanji napisali njegovi sinovi Sava i Stefan, sa očiglednim ciljem da ga prikažu kao pobožnog vladara i osnivača dinastije. Moderna istoriografija ova dva pogleda pažljivo upoređuje, ispravlja jedan drugim, i priznaje da o tačnim datumima i razmerama mnogih pohoda i danas postoje rasprave."
+    },
+    {
+      "type": "paragraph",
+      "text": "Treba imati na umu i kakva je to bila „država” koju Nemanja širi. To još nije moderna država sa stalnom vojskom, jasnim granicama i razgranatim činovništvom. To je pre svega aparat za prikupljanje danka, kontrolu zemlje i puteva, sa porodičnim i ličnim vezama umesto institucija, sa župama i lokalnim velikašima koji se kunu na vernost vladaru. Snaga takve države meri se uglavnom snagom samog vladara — koliko može da pozove ljudi pod oružje, koliko utvrđenja drži, koliko crkvenih i trgovačkih središta priznaje njegovu reč. Po svim tim merilima, država koju Nemanja predaje sinovima 1196. godine neuporedivo je jača od one koju je u mladosti dobio. Tek na temelju te tihe, uporne izgradnje mogla je nešto kasnije izrasti i prva srpska kraljevina, i samostalna crkva, i čitava jedna dinastijska epoha."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

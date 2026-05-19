@@ -6,13 +6,53 @@
   "dayNumber": 355,
   "order": 6,
   "title": "Pitanje Kosova posle 1999.",
+  "subtitle": "Od UN protektorata, preko marta 2004. i jednostrane nezavisnosti 2008, do otvorenog statusnog pitanja",
   "readingTimeMinutes": 8,
   "year": 2008,
-  "isPlaceholder": true,
+  "dateLabel": "1999–danas",
+  "timelinePosition": "1999–danas",
+  "summary": "Kosovo posle NATO bombardovanja: UN protektorat pod Rezolucijom 1244, mart 2004, Ahtisarijev plan, jednostrana nezavisnost 2008. i Briselski dijalog.",
+  "keyPeople": ["Marti Ahtisari", "Hašim Tači", "Boris Tadić", "Vojislav Koštunica", "Aleksandar Vučić"],
+  "keyPlaces": ["Priština", "Beograd", "Kosovska Mitrovica", "Brisel", "Ohrid"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Kada je u junu 1999. godine, posle jedanaest nedelja NATO bombardovanja, jugoslovenska vojska i policija povukla iz Kosova, na to područje stupile su međunarodne snage i privremena civilna uprava. Pravni okvir bio je Rezolucija 1244 Saveta bezbednosti Ujedinjenih nacija, doneta 10. juna te godine. Rezolucija je potvrdila „suverenitet i teritorijalni integritet” Savezne Republike Jugoslavije, a istovremeno uspostavila „suštinsku autonomiju” Kosova pod međunarodnom upravom. Pitanje konačnog statusa svesno je ostavljeno za kasnije — kao otvoreno čvorište koje će u narednim decenijama oblikovati i srpsku politiku i odnose Beograda sa svetom."
+    },
+    {
+      "type": "paragraph",
+      "text": "Civilnu upravu preuzela je Misija Ujedinjenih nacija na Kosovu, UNMIK, dok su za bezbednost bile odgovorne snage KFOR-a pod komandom NATO-a. Bio je to, formalno, protektorat — područje pod međunarodnom administracijom, gde je suverenitet Beograda bio priznat na papiru, ali ne i sproveden u praksi. Oslobodilačka vojska Kosova je razoružana i delom transformisana u Kosovski zaštitni korpus, a političke institucije počele su da se grade na lokalnom nivou. Istovremeno je krenuo i drugi tok, manje vidljiv u svetskim izveštajima: u nedeljama posle juna 1999. veliki broj kosovskih Srba, Roma i drugih nealbanskih stanovnika napustio je svoje domove, pod pritiskom osvete, pretnji i nasilja. Procene broja raseljenih kreću se u stotinama hiljada, mada se brojke razlikuju zavisno od izvora."
+    },
+    {
+      "type": "paragraph",
+      "text": "Prvi veliki potres dogodio se u martu 2004. godine. Posle vesti o utapanju albanske dece, čije okolnosti nikada nisu do kraja razjašnjene, na Kosovu je 17. i 18. marta izbio širok talas nasilja usmeren prvenstveno protiv preostalih Srba, njihovih kuća i pravoslavnih crkava i manastira. Procenjuje se da je u dva dana ubijeno više od dvadeset ljudi, da je više stotina povređeno, a oko četiri hiljade ljudi proterano iz svojih sela i gradova. Spaljeno je ili teško oštećeno više desetina crkava i manastira, među njima i zdanja srednjovekovnog značaja. Mart 2004. većina međunarodnih posmatrača označila je kao prelomnu tačku — kao trenutak kada je postalo jasno da privremena uprava ne može trajno odlagati statusno pitanje, ali i da povratak Srba i suživot ostaju krhki."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Ahtisarijev plan i 17. februar 2008."
+    },
+    {
+      "type": "paragraph",
+      "text": "Statusni razgovori počeli su 2005, pod okriljem Ujedinjenih nacija, a vodio ih je bivši finski predsednik Marti Ahtisari. Njegov tim ponudio je 2007. takozvani Sveobuhvatni predlog za rešenje statusa Kosova — plan koji je predviđao „nadgledanu nezavisnost”, sa široko zagarantovanim pravima srpske zajednice, posebnim statusom za Srpsku pravoslavnu crkvu i decentralizacijom u opštinama sa srpskom većinom. Srbija je plan odbila, smatrajući da prelazi okvir Rezolucije 1244 i da nameće rešenje na štetu njenog suvereniteta. U Savetu bezbednosti Ujedinjenih nacija Rusija je jasno stavila do znanja da će svaku takvu odluku blokirati, pa do rezolucije o statusu nikada nije ni došlo."
+    },
+    {
+      "type": "paragraph",
+      "text": "U toj pat-poziciji, 17. februara 2008. godine, Skupština Kosova u Prištini je jednostrano proglasila nezavisnost. Premijer Hašim Tači pročitao je deklaraciju kojom se Kosovo definiše kao demokratska, sekularna i multietnička republika, uz preuzimanje obaveza iz Ahtisarijevog plana. Republika Srbija — i tadašnja vlast predsednika Borisa Tadića i premijera Vojislava Koštunice — odmah je odbila da prizna jednostrani akt. Beograd je takvu odluku označio kao kršenje međunarodnog prava i sopstvenog ustava, a opozvao je ambasadore iz prvih zemalja koje su priznale nezavisnost. Sjedinjene Države i veći deo članica Evropske unije priznale su Kosovo brzo. Rusija, Kina, Indija, Brazil i nekoliko zemalja Evropske unije nisu — i ne priznaju. Do danas Kosovo priznaje oko polovine država članica Ujedinjenih nacija, mada se taj broj povremeno menja kako pojedine zemlje povlače priznanje."
+    },
+    {
+      "type": "paragraph",
+      "text": "Srbija je sledeće godine zatražila savetodavno mišljenje Međunarodnog suda pravde u Hagu o tome da li je proglašenje nezavisnosti u skladu sa međunarodnim pravom. Sud je u julu 2010. dao mišljenje da sam akt deklaracije, u datim okolnostima, ne predstavlja kršenje međunarodnog prava. Pravnici su, međutim, odmah upozorili da to nije bila presuda o zakonitosti samog državnog statusa Kosova, niti o obavezi drugih država da ga priznaju — već usko mišljenje o tekstu i činu deklaracije. Tumačenja u Beogradu i Prištini, kao i u svetu, otišla su u suprotnim smerovima, i mišljenje suda nije sklonilo statusno pitanje sa stola."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pod posredstvom Evropske unije pokrenut je tehnički, a zatim i politički dijalog Beograda i Prištine. Prvi važan rezultat bio je takozvani Briselski sporazum iz aprila 2013, kojim se predviđalo, između ostalog, formiranje Zajednice srpskih opština na Kosovu — udruženja sa određenim ovlašćenjima u oblasti obrazovanja, zdravstva i lokalnog razvoja. Više od decenije kasnije, Zajednica nije zaživela, što ostaje jedna od glavnih tačaka spora. Ohridski sporazum iz 2023. godine, na drugoj fazi dijaloga, nije doneo međusobno priznanje, ali jeste, makar na papiru, „normalizaciju” odnosa i prihvatanje državnih simbola. Stvarno sprovođenje, naročito na severu Kosova, ostalo je otežano krizama, barikadama i povremenim oružanim incidentima."
+    },
+    {
+      "type": "paragraph",
+      "text": "Za kosovske Srbe, posebno one u severnoj Mitrovici i u enklavama južno od Ibra, dve i po decenije posle 1999. obeležene su nesigurnošću: pitanjima imovine, povratka, jezika, slobode kretanja, kao i odnosa sa institucijama u Prištini i Beogradu. Sa srpske strane, status je do danas otvoreno pitanje — pravno neprihvaćen, politički sporan, a istovremeno svakodnevno prisutan u životu ljudi sa obe strane administrativne linije. Ovaj kurs ne donosi sud o tome ko je u pravu; donosi prikaz onoga što se dogodilo i kako se o tome različito misli. Kosovo posle 1999. ostaje jedno od ključnih, nerešenih pitanja savremene Srbije — i jedan od onih čvorova koji buduće generacije, na sve strane, tek moraju da odrešuju."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

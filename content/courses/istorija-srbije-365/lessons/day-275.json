@@ -6,13 +6,53 @@
   "dayNumber": 275,
   "order": 10,
   "title": "Nacionalni pokret i Mlada Bosna",
+  "subtitle": "Generacija đaka, pesnika i oficira između romantičnog jugoslovenstva i revolverskog atentata, 1900-e — 1914.",
   "readingTimeMinutes": 7,
   "year": 1910,
-  "isPlaceholder": true,
+  "dateLabel": "1900-e–1914.",
+  "timelinePosition": "1900-e–1914.",
+  "summary": "Pred Prvi svetski rat nekoliko jugoslovenskih i srpskih revolucionarnih pokreta deluje paralelno — od pesničke „Mlade Bosne” i propagandnih kružoka do tajne oficirske organizacije „Ujedinjenje ili smrt”.",
+  "keyPeople": ["Bogdan Žerajić", "Dragutin Dimitrijević Apis", "Vojislav Tankosić", "Marijan Varešanin", "Nikola Pašić"],
+  "keyPlaces": ["Sarajevo", "Beograd", "Mostar", "Tuzla", "Bosna i Hercegovina"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Posle aneksije Bosne i Hercegovine 1908. godine, među južnoslovenskom omladinom u Habzburškoj monarhiji i u Kraljevini Srbiji javila se nova, nestrpljiva generacija. Bili su mladi — đaci gimnazija, studenti, učitelji, novinari, mlađi oficiri — i delili su osećaj da stari oblici politike, parlamentarne stranke i diplomatski sporovi, ne mogu da reše ono što su smatrali sudbinskim pitanjem svoga doba: oslobođenje južnih Slovena od austro-ugarske vlasti i njihovo ujedinjenje. Iz tog ambijenta izrasla su uporedo nekoliko različitih pokreta. Bili su povezani osećanjem i lektirom, ali su se razlikovali po metodi — od pesničkih kružoka do tajnih zaverenika sa revolverima."
+    },
+    {
+      "type": "paragraph",
+      "text": "U Bosni i Hercegovini stasavao je pokret koji će kasnije, više po sećanju nego po jasnoj organizaciji, dobiti ime „Mlada Bosna”. Nije to bila stranka ni partija sa pravilima i članskim knjižicama, već labava, isprepletena mreža srpskih, hrvatskih i muslimanskih učenika i studenata u Sarajevu, Tuzli, Mostaru i drugim gradovima, povezanih ličnim poznanstvima, časopisima i ćutljivim večernjim razgovorima. Čitali su iste knjige: italijanskog Macinija, ruske narodnjake — Černiševskog pre svih — i evropske anarhiste poput Kropotkina. Mešali su slovenski romantizam ujedinjenja sa antiimperijalističkim radikalizmom; većini je „jugoslovenska” ideja bila bliža od uskih nacionalnih programa, mada je u njihovim redovima bilo i ljudi koji su sebe pre svega doživljavali kao srpske revolucionare."
+    },
+    {
+      "type": "paragraph",
+      "text": "Metoda koja je tu ideju trebalo da pretvori u istoriju bila je metoda epohe: atentat na funkcionera monarhije. U junu 1910. godine u Sarajevu, mladi pravnik Bogdan Žerajić pokušao je da ubije zemaljskog poglavara Bosne i Hercegovine, generala Marijana Varešanina. Promašio je, a onda se na ulici ubio iz istog pištolja. Vlasti su njegovo telo zakopale u neoznačen grob, ali za bosansku omladinu Žerajić je odmah postao mit. Njegova fotografija, mesto njegove smrti, čak i navodne reči zapisane u sveščicama drugova — sve je to ušlo u jedan podzemni kult koji će u narednim godinama oblikovati nekoliko atentatora, među njima i one koji će u istom Sarajevu, četiri godine kasnije, ubiti nadvojvodu Franca Ferdinanda."
+    },
+    {
+      "type": "paragraph",
+      "text": "Drugi sloj iste pojave bio je propagandni, a ne revolverski. U Beogradu, Pragu i Zagrebu javljale su se grupe poput „Slovenskog juga” i raznih studentskih i književnih društava, koja su izdavala novine i brošure, organizovala javna predavanja i potpisivala manifeste o kulturnoj i političkoj saradnji srpskog, hrvatskog i slovenačkog naroda. Te grupe imale su veze sa Velikom školom, pretvorenom 1905. u Univerzitet u Beogradu, i sa krugovima oko časopisa „Srpski književni glasnik”. Tu se vodila polemika o tome šta uopšte znači „jugoslovenstvo” — da li trojstvo plemena jednog naroda, ili savez različitih naroda; ali se činjenica zajedničke političke sudbine smatrala očiglednom."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "„Ujedinjenje ili smrt”"
+    },
+    {
+      "type": "paragraph",
+      "text": "Najtvrđu, najopasniju i u istorijskoj literaturi najsporniju kariku te mreže predstavljala je tajna oficirska organizacija „Ujedinjenje ili smrt”, šire poznata pod novinarskim nadimkom „Crna ruka”. Osnovana je 1911. godine u Beogradu, a njeno jezgro činili su oficiri-zaverenici iz Majskog prevrata 1903. — pre svega Dragutin Dimitrijević Apis, šef obaveštajnog odeljenja Generalštaba, i Vojislav Tankosić. Njihov proklamovani cilj bio je ujedinjenje svih srpskih krajeva, sredstvima koja izlaze iz okvira parlamentarne politike. Organizacija je imala svoj statut, zakletvu, čak i pečat sa lobanjom, i predstavljala je tajnu hijerarhiju paralelnu državnoj — što je u zemlji sa krhkom ustavnom tradicijom bila ozbiljna unutrašnja opasnost. Sukob između „Crne ruke” i vlade Nikole Pašića kuvao se godinama i kulminiraće tek u ratu, na Solunskom procesu 1917."
+    },
+    {
+      "type": "paragraph",
+      "text": "Veza između te oficirske mreže i bosanske omladine bila je tanja i zamršenija nego što su to kasnije tvrdile i optužnice i apologije. Sigurno je da je upravo Tankosić, u svojstvu organizatora četničkih akcija, mladim Mladobosancima — Principu, Čabrinoviću, Grabežu — dao pištolje i bombe i prebacio ih preko granice u Bosnu uoči atentata u junu 1914. godine. Manje je sigurno koliko je o tome znala srpska vlada; ozbiljni istraživači danas se slažu da je Pašić bio uznemiren glasinama i pokušavao da upozori Beč, ali da nije zaustavio akciju koja se odvijala u sivoj zoni državnih službi."
+    },
+    {
+      "type": "paragraph",
+      "text": "Treba pomenuti i četvrtu pojavu — „Narodnu odbranu”, osnovanu u Beogradu 1908. godine, odmah posle aneksije. Bila je legalna, registrovana organizacija; vodila je propagandu, štampala publikacije i organizovala dobrovoljačke čete u Sandžaku i Makedoniji u vreme balkanskih ratova. Posle Sarajevskog atentata austrijska štampa i diplomatija prikazaće je kao centralu terora, što ona nije bila; ali stvarno preklapanje članstva sa „Crnom rukom” i sa različitim jugoslovenskim društvima davalo je toj slici dovoljno tla da bude verovana."
+    },
+    {
+      "type": "paragraph",
+      "text": "Kada se sve to gleda zajedno, slika je raznolika i moralno neudobna. Bilo je tu pesničkog jugoslovenstva i hladne oficirske zavere, čistih idealista i ljudi navučenih na nasilje, naivnih i proračunatih. Te pokrete nije pošteno ni idealizovati ni demonizovati: pripadali su jednoj svetskoj generaciji koja je u istom periodu rađala i ruske narodnjake, italijanske iredentiste i irske revolucionare, sa istim moralnim ambivalentnostima oko političkog nasilja kao oružja oslobođenja. Atentat na nadvojvodu Franca Ferdinanda u Sarajevu, kojim će se završiti period mira, bio je samo najdramatičniji — i najsudbonosniji — proizvod te šire, šarolike i nemirne pojave."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

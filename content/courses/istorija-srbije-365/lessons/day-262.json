@@ -6,13 +6,57 @@
   "dayNumber": 262,
   "order": 4,
   "title": "Škola, univerzitet i nauka",
+  "subtitle": "Kako je Srbija u 19. veku, korak po korak, gradila osnovnu školu, gimnaziju, Veliku školu i prvu naučnu zajednicu",
   "readingTimeMinutes": 7,
   "year": 1880,
-  "isPlaceholder": true,
+  "dateLabel": "19. vek",
+  "timelinePosition": "19. vek",
+  "summary": "Razvoj srpskog obrazovanja i nauke u 19. veku — od prvih državnih škola i gimnazija, preko Liceuma i Velike škole, do Srpskog učenog društva i temelja Akademije. Univerzitet u Beogradu doći će tek 1905.",
+  "keyPeople": ["Josif Pančić", "Jovan Cvijić", "Mihailo Petrović Alas", "Slobodan Jovanović", "Jovan Žujović", "kralj Milan Obrenović", "kralj Petar I Karađorđević"],
+  "keyPlaces": ["Kragujevac", "Beograd", "Sremski Karlovci", "Niš", "Beč", "Berlin"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Kada se gleda iz daljine, srpski 19. vek izgleda kao vek ratova, ustanaka i ustava. Iz blizine, on je i vek u kome je jedna seljačka zemlja, gotovo bez pismenih ljudi, počela strpljivo da zida nešto za šta nije imala ni novca ni navike — javnu školu. Taj posao nije bio bučan kao bitke, ali je za narednu Srbiju značio jednako mnogo. Bez učitelja u selu, bez gimnazije u varoši i bez fakulteta u Beogradu, sve drugo što se gradilo — vojska, sud, država — ostajalo bi bez ljudi koji bi to mogli da vode."
+    },
+    {
+      "type": "paragraph",
+      "text": "Početak je bio skroman i neujednačen. Pre Kneževine, srpska deca su se opismenjavala uglavnom po manastirima i crkvenim školama, a tek delimično po opštinskim školama koje su izdržavale same varoši. Od tridesetih godina 19. veka država počinje da otvara osnovne škole brže nego ranije, a prvi opšti školski zakon donet je 1844. godine, u doba kneza Aleksandra Karađorđevića i ustavobranitelja. Obavezno osnovno školovanje proglašeno je tek 1882, već u doba kralja Milana, ali — i to treba reći otvoreno — u praksi je obavezivanje bilo polovično. Mnogo sela nije imalo školu u dometu, mnogo dece je radilo u polju, a državna kasa nije mogla da plati učitelje za sve."
+    },
+    {
+      "type": "paragraph",
+      "text": "Iznad osnovne škole stajala je gimnazija. Najstarija srpska gimnazija osnovana je 1791. u Sremskim Karlovcima — ali tamo, preko Save i Dunava, u Habzburškoj monarhiji, među prečanskim Srbima koji su imali svoju mitropoliju i svoju građansku elitu. U samoj Kneževini prva gimnazija otvorena je u Kragujevcu 1833. godine, dok je glavni grad bio još tamo; zatim u Beogradu 1839, kada se i prestonica preselila. Niš je svoju gimnaziju dobio 1878, ubrzo posle oslobođenja od osmanske vlasti. Te ustanove dugo su bile male, sa malim brojem profesora i još manjim brojem đaka, ali su upravo iz njih izlazili budući činovnici, učitelji i studenti."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Od Liceuma do Velike škole"
+    },
+    {
+      "type": "paragraph",
+      "text": "Visoko obrazovanje je krenulo kao jedna ustanova s mnogo imena. Liceum je osnovan 1838. u Kragujevcu, a već 1841. premešten je u Beograd, prateći prestonicu. Bio je to još uvek pre svega lyceum u evropskom smislu — viša škola opšteg obrazovanja, ne pravi univerzitet, ali jedina kuća u zemlji u kojoj je neko mogao da sluša filozofiju, pravne nauke i prirodne predmete na srpskom jeziku. Iz njega je 1863. godine, u doba kneza Mihaila, izrasla Velika škola u Beogradu, organizovana u tri fakulteta: Filozofski, Tehnički i Pravni. Velika škola će više od četiri decenije biti najviša obrazovna ustanova u Srbiji."
+    },
+    {
+      "type": "paragraph",
+      "text": "Tek 27. februara 1905. godine, zakonom kralja Petra I Karađorđevića, Velika škola je preuređena u Univerzitet u Beogradu. Time je Srbija konačno dobila ustanovu sa punim univerzitetskim statusom — pet fakulteta: Filozofski, Pravni, Tehnički, Bogoslovski i Medicinski. Medicinski fakultet je tada osnovan na papiru, ali je sa nastavom praktično počeo tek posle Prvog svetskog rata, oko 1920. godine. Mladost tog univerziteta važno je upamtiti: u trenutku kada Bečki, Berlinski i Pariski univerzitet imaju iza sebe vekove, srpski univerzitet broji svega nekoliko godina."
+    },
+    {
+      "type": "paragraph",
+      "text": "Uporedo s obrazovanjem, gradila se i naučna zajednica. Srpsko učeno društvo osnovano je 1864, kao mala zajednica učenih ljudi koji su pisali, prikupljali građu i objavljivali rasprave. Ono je 1886. godine, zakonom kralja Milana, preraslo u Srpsku kraljevsku akademiju — instituciju koja je za nauku značila isto što i Velika škola za nastavu: krov, plata, pečat i kontinuitet. Prvi predsednik Akademije bio je botaničar Josif Pančić, čovek koji je celu drugu polovinu svog života proveo opisujući biljke Srbije i okolnih oblasti, među njima i pančićevu omoriku — drvo koje će dobiti njegovo ime."
+    },
+    {
+      "type": "paragraph",
+      "text": "Iza Pančića išla je jedna generacija koja će obeležiti srpsku nauku do Prvog svetskog rata. Geograf Jovan Cvijić, rođen 1865, postaće osnivač srpske moderne geografije i jedan od najpoznatijih balkanskih naučnika svog vremena. Matematičar Mihailo Petrović Alas, rođen 1868, doneo je iz Pariza ozbiljnu školu i, uz nauku, ostao upamćen i kao ribolovac i čovek beogradskih kafana. Lingvista Aleksandar Belić, pravnik i istoričar Slobodan Jovanović, geolog Jovan Žujović — svi su pripadali istom krugu ljudi koji su se školovali napolju i vratili kući. Beč, Berlin, Cirih, Pariz i Petrograd bili su prirodna druga adresa svakog ozbiljnijeg srpskog studenta tog doba; državne stipendije išle su upravo na te strane."
+    },
+    {
+      "type": "paragraph",
+      "text": "Tu treba reći i nešto što se često prećutkuje. Srpska nauka kasnog 19. veka bila je mala — brojem ljudi, brojem časopisa, veličinom laboratorija. Ali je bila ozbiljna: nije se zadovoljavala prepričavanjem stranih radova, nego je merila, beležila i objavljivala svoje rezultate. I bila je, više nego ijedna kasnija, neodvojiva od javnog života. Mnogi profesori bili su istovremeno poslanici, ministri ili publicisti, a u Skupštini se često čuo akademski govor. Granica između katedre i politike bila je tanka i propusna."
+    },
+    {
+      "type": "paragraph",
+      "text": "I ipak, sve to treba meriti razumno. Oko 1900. godine pismeno je bilo tek oko dvadeset odsto odraslog stanovništva Srbije; ostatak je živeo bez slova. Univerzitet je tek 1905, Akademija tek od 1886, obavezna osnovna škola tek od 1882. Ko ovaj vek vidi kao trijumf prosvete, gleda samo vrh; ko ga vidi kao zaostalost, gleda samo dno. Istina je između: modernizacija obrazovanja u Srbiji 19. veka jeste bila istinski u toku, ali daleko od završene. Ono što je u tom veku posejano — škole, gimnazije, fakulteti, Akademija — počeće tek u 20. veku da daje pravu žetvu."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

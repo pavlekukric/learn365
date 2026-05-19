@@ -6,13 +6,57 @@
   "dayNumber": 104,
   "order": 7,
   "title": "Nasleđe Nemanjića — država",
+  "subtitle": "Šta su dve stotine godina vladavine Nemanjića ostavile srpskoj politici, pravu i upravi",
   "readingTimeMinutes": 7,
   "year": 1350,
-  "isPlaceholder": true,
+  "dateLabel": "pregled",
+  "timelinePosition": "pregled",
+  "summary": "Pregled državno-pravnog nasleđa Nemanjića: od saveza župa do priznate kraljevine i carstva, sa institucijama, dinastičkim kontinuitetom, privredom i jasno priznatim granicama tog nasleđa.",
+  "keyPeople": [],
+  "keyPlaces": [],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Kada se pogleda dvesta godina nemanjićke vladavine sa razumne razdaljine, dobija se ono što retko koja srednjovekovna dinastija ostavlja iza sebe — zaokruženo državno iskustvo. Raška je u Nemanjino vreme bila labav savez župa stešnjen između Vizantije i Ugarske; sto pedeset godina kasnije, sa Dušanovim carstvom, naslednica te iste Raške bila je najveća sila Balkana, sa kraljevskom i potom carskom krunom, sa kovanim novcem, pisanim zakonom i sopstvenom autokefalnom crkvom. Sve to nije bila slučajnost, niti samo proizvod jakih ličnosti. Bilo je to delo institucija koje su Nemanjići strpljivo gradili — i čije se granice, kada je dinastija oslabila, takođe jasno pokazaše."
+    },
+    {
+      "type": "paragraph",
+      "text": "Prvo nasleđe je sama država kao trajan oblik. Stefan Nemanja je 1166. preuzeo vlast u zemlji koja se po veličini i ugledu nije razlikovala od desetak susednih balkanskih oblasti. Stefan Prvovenčani je 1217. dobio krunu koju je priznala hrišćanska Evropa. Dušan je 1346. krunisan za cara Srba i Grka. Niko pre Nemanjića nije u središnjem Balkanu izgradio nešto što bi se moglo nazvati državom u punom smislu — sa stalnim središtem vlasti, prepoznatljivim granicama i kontinuiranim pravnim životom — i niko ga, kako će se pokazati, dugo posle njih nije obnovio."
+    },
+    {
+      "type": "paragraph",
+      "text": "Drugo nasleđe su institucije. Vladar nije bio sam: pored krune stajala je crkva kao ravnopravan stub, a ne kao podređeno telo. Kraljevska kancelarija je proizvodila povelje na slovenskom jeziku, pečaćene zlatnim ili voštanim pečatima, i one su bile pravni dokumenti u savremenom smislu — sa svedocima, datumom, opisom imanja i obavezama. Sabori, na kojima su se okupljali vladar, vlastela i visoko sveštenstvo, povremeno i predstavnici slobodnih staleža, bili su mesto na kome se donose najvažnije odluke: izbor vladara, krupni zakoni, ratovanja, crkvena pitanja. Dušanov zakonik, donet 1349. i dopunjen 1354, sažeo je tu praksu u pisani kodeks i postavio ga uz prevedena vizantijska pravna dela. To je za srednjovekovni Balkan bio izuzetan stepen pravne svesti."
+    },
+    {
+      "type": "paragraph",
+      "text": "Treće nasleđe je dinastički kontinuitet. Kroz sedam pokoljenja vlast je, sa retkim prekidima i unutrašnjim sukobima, prelazila sa oca na sina ili sa brata na brata u istoj porodici. To je u srednjovekovnoj politici bilo dragoceno: jedna kuća na prestolu znači prepoznatljivu spoljnu politiku, ustaljen ceremonijal, zajedničke svece-zaštitnike i porodičnu zadužbinu kao mesto sećanja. Loza Svetog Simeona postala je sama po sebi izvor legitimiteta — i to ne samo dok je trajala, već dugo posle."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Privreda, vlastela, susedi"
+    },
+    {
+      "type": "paragraph",
+      "text": "Četvrto nasleđe je privredno. Kada je Uroš I sredinom trinaestog veka pozvao saske rudare iz srednje Evrope, otvorio je rudnike Brskova, kasnije Novog Brda, Rudnika, Janjeva, Trepče. Srebro i, u manjoj meri, zlato postali su osnov državnog prihoda; srpski novac je kolao Jadranom i delom Italijom; dubrovački trgovci su uz rudnike izgradili kolonije i ugovorne odnose koji su nadživeli samu državu. Mnogo onoga što će kasniji srpski despoti, pa i prve osmanske decenije, finansijski održati, poticalo je iz ovog nemanjićkog ulaganja u podzemno blago."
+    },
+    {
+      "type": "paragraph",
+      "text": "Peto nasleđe je društveno. Hijerarhija titula — od kralja i, kasnije, cara, preko despota, sevastokratora i ćesara, do velikaša, vlastele i vlasteličića — davala je jasnu strukturu vojne i upravne službe. Vlastela je imala zemlju i sa zemljom obaveze: ratnu dužnost, sudsku nadležnost nad zavisnim ljudima, učešće u saboru. Ta hijerarhija je dala državi vojnu snagu u Milutinovo i Dušanovo doba, ali je u njoj već stajao i njen problem: vlastela koja je porasla bogatstvom i imanjima nije rado prihvatala slabu središnju ruku. Kada je Uroš V ostao bez očeve težine, ista ta vlastela postala je centrifugalna sila."
+    },
+    {
+      "type": "paragraph",
+      "text": "Šesto nasleđe su odnosi sa susedima. Nemanjići su postavili ustaljene obrasce: savezništvo i suparništvo sa Vizantijom, bračne veze sa Ugarskom, trgovački sporazumi sa Dubrovnikom, oprez prema Bugarskoj. Ti obrasci nisu uvek vodili miru, ali su čistili odnose: svaki susedni dvor je znao šta od Srbije može da očekuje, i šta Srbija od njega traži. To je bila diplomatska zrelost koju nisu sve okolne države dostigle."
+    },
+    {
+      "type": "paragraph",
+      "text": "Najduže je, paradoksalno, trajalo sedmo nasleđe — sećanje. Kada same države više nije bilo, ideja zakonite srpske krune ostala je živa. Lazar i njegovi naslednici, despoti petnaestog veka, srpski crkveni krug pod osmanskom vlašću, pa i obnovljena Pećka patrijaršija iz 1557. — svi su se pozivali na nemanjićki uzor. U devetnaestom veku, kada su Karađorđe i Miloš Obrenović pokušavali da iz ustanaka izgrade modernu državu, svesno su tražili veze sa srednjovekovnom krunom: u titulama, u grbu, u izboru zadužbina koje su obnavljali. Nemanjićka država je nestala politički, ali je opstala kao referenca."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pošteno je, na kraju, reći i ono što ta država nije postigla. Nije izgradila ustavnu strukturu sposobnu da preživi slabog vladara — Urošev primer to gorko potvrđuje. Nije razvila državni aparat — stalnu plaćeničku vojsku, redovne poreske službe, profesionalnu upravu — koji bi mogao ravnopravno da se nadmeće sa osmanskim. Nije, posebno u poslednjim decenijama, uspela da održi jedinstvo vlastele oko zajedničkog cilja. Te tri praznine, više nego bilo koja pojedinačna bitka, objašnjavaju zašto je krajem četrnaestog veka stigla cena. Ali to što ih je dinastija nasledila i ostavila ne znači da je njen rad bio uzaludan: institucije, novac, pravo i sećanje koje su Nemanjići ostavili biće osnova za sve što sledi — i u srednjovekovnoj državi koja se još jednom uspravila u petnaestom veku, i u modernoj Srbiji koja je u devetnaestom tražila svoj kontinuitet."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

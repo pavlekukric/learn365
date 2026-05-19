@@ -6,13 +6,53 @@
   "dayNumber": 156,
   "order": 6,
   "title": "Srpska crkva pod Osmanlijama",
+  "subtitle": "Vek tihog opstanka između ukidanja Pećke patrijaršije i njene obnove, od sredine 15. do sredine 16. veka",
   "readingTimeMinutes": 7,
   "year": 1530,
-  "isPlaceholder": true,
+  "dateLabel": "15–16. vek",
+  "timelinePosition": "15–16. vek",
+  "summary": "Srpska crkva u prvom veku osmanske vlasti: bez sopstvene patrijaršije, pod jurisdikcijom Ohridske arhiepiskopije, oslonjena na manastire, monahe i pravoslavnu mrežu koja je nadživela državu.",
+  "keyPeople": [],
+  "keyPlaces": ["Pećka patrijaršija", "Ohrid", "Hilandar", "Fruška gora"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Posle pada Smedereva 1459. godine srpska država je nestala, ali srpska crkva nije. Ono što jeste nestalo, negde oko 1463, bila je samostalna Pećka patrijaršija — institucija osnovana u doba cara Dušana, koja je gotovo čitav vek davala srpskoj zemlji sopstveno crkveno vrhovništvo. Osmanske vlasti su je suspendovale, a eparhije na srpskim prostorima podredile Ohridskoj arhiepiskopiji. Time je započeo težak, slabo dokumentovan vek — onaj između ukidanja i obnove patrijaršije 1557. — u kome je crkva opstajala bez glave, ali ne i bez tela."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ohridska arhiepiskopija bila je drevna ustanova, sa sedištem južno od srpskih krajeva, koja je u osmanskom poretku uživala status priznatog pravoslavnog središta. Za srpske eparhije njena uprava značila je da odluke o postavljanju vladika, o crkvenim davanjima i o sudskim pitanjima među vernicima dolaze izdaleka i često od ljudi koji nisu poznavali lokalne prilike. Nije reč o otvorenom neprijateljstvu — i Ohrid i Peć bili su pravoslavni — ali jeste reč o gubitku samostalnosti. Tamo gde je nekada srpski patrijarh postavljao mitropolite po sopstvenoj proceni, sada je odluka prolazila kroz tuđu kancelariju i tuđe interese. Uz to, dve crkvene jurisdikcije povremeno su se otimale o iste eparhije i iste prihode, što je u arhivima ostavilo trag tihog, ali upornog rivaliteta."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ono što je u tom veku ostalo netaknuto bili su manastiri. Studenica, Dečani, Sopoćani, Gračanica i Mileševa — zadužbine starih kraljeva i careva — nastavili su da rade pod osmanskom tolerancijom. Plaćali su porez kao i svako drugo crkveno imanje, povremeno trpeli ograničenja u veličini gradnje i broju monaha, ali su čuvali liturgijski život, mošti i rukopise. Hilandar na Atosu, koji je pao pod osmansku vlast još 1430, bio je možda i najsigurnija srpska duhovna kuća tog vremena: sultani su Svetu goru tretirali kao zaseban svet sa sopstvenim povlasticama. Na severu, izvan osmanskih granica, manastiri Fruške gore u ugarskom Sremu primali su monahe i rukopise iz osvojenih zemalja i postepeno postajali drugo, paralelno srpsko duhovno središte."
+    },
+    {
+      "type": "paragraph",
+      "text": "U samim manastirima je tekao mali ali stalan rad prepisivača. Bez kraljevskih radionica i bez velikih dvorskih narudžbina, knjige su nastajale sporije, često rukom pojedinačnog monaha koji je godinama prepisivao jedno jevanđelje ili minej. Cetinjska štamparija, koja je od 1493. do 1496. izdala nekoliko bogoslužbenih knjiga, ostala je izuzetan, kratak bljesak — uspomena na ono što bi srpska crkva mogla, kada bi imala državu iza sebe. Posle njenog gašenja, štampa će se nastaviti na drugim mestima, u Veneciji i Vlaškoj, gde su Srbi imali zaštitu lokalnih vladara, ali rukopis je u srpskim manastirima ostao osnovni način prenošenja knjige čitav 16. vek."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Pritisci i olakšice"
+    },
+    {
+      "type": "paragraph",
+      "text": "Život pravoslavne crkve pod Osmanlijama nije bio progon u stalnom smislu te reči, ali jeste bio život pod pritiskom. Porez je bio stalan i osetan. Gradnja novih hramova bila je zabranjena ili strogo ograničena: novi se po pravilu nije smeo dizati, a stari se mogao obnavljati samo u prvobitnim merama, bez povećanja visine ili obima. Zvonjenje je u mnogim mestima bilo zabranjeno, krstovi na vidnim mestima retki. U ratovima — a ratovi su se kroz ovaj vek smenjivali sa Ugarskom, Mletačkom republikom i unutrašnjim previranjima — pojedine crkve i manastiri stradali su, neki bili pljačkani, neki spaljeni. Pritisak na prelazak u islam postojao je, naročito u gradovima i u vojničkim porodicama, mada u ovom veku još nije dostigao razmere kasnijih stoleća."
+    },
+    {
+      "type": "paragraph",
+      "text": "Uz pritiske su dolazile i olakšice koje danas lako zaboravimo. Osmanska država je pravoslavno hrišćanstvo priznavala kao zaseban milet, sa sopstvenim sudovima u verskim i porodičnim pitanjima. Carigradska patrijaršija, i sama pod osmanskom vlašću od 1453, bila je povremeni saveznik srpske crkve i tampon prema državnoj upravi. Postojanje brojnih pravoslavnih zajednica u ugarskim, vlaškim, moldavskim i ruskim zemljama davalo je srpskim crkvenim ljudima spoljne veze — preko Atosa, preko trgovačkih puteva, preko diplomatskih izaslanstava. Pravoslavni svet bio je veći od bilo koje pojedinačne države i to je srpskoj crkvi pomagalo da preživi vek bez sopstvenog vrhovništva."
+    },
+    {
+      "type": "paragraph",
+      "text": "U tom razvučenom prostoru postepeno se obrazovala mreža u kojoj će kasnije počivati obnovljena patrijaršija. Eparhije u osmanskim zemljama pod nadzorom Carigrada i Ohrida, vladike u Sremu pod habzburškim i ugarskim okriljem, samostalna crkvena uprava u Crnoj Gori koja se polako razvijala uz cetinjske vladike, i Hilandar kao prekomorska kuća — sve to činilo je „srpski pravoslavni svet“ koji se nije podudarao ni sa jednom državnom granicom. Kult srpskih svetitelja, pre svega Svetoga Save, držao je tu mrežu na okupu kao zajednička porodična uspomena, prenošena žitijima, ikonama i bogosluženjem na slovenskom jeziku."
+    },
+    {
+      "type": "paragraph",
+      "text": "Do sredine 16. veka prilike su počele da sazrevaju za promenu. Osmansko carstvo Sulejmana Veličanstvenog bilo je u svom vrhuncu i moglo je sebi da dopusti pragmatičnost prema pravoslavnoj crkvi koja mu je obezbeđivala mirne podanike i uredan porez. Na vrhu državne uprave nalazio se Mehmed-paša Sokolović, veliki vezir poreklom iz srpske pravoslavne porodice iz Bosne, čiji će lični interes i porodične veze odigrati važnu ulogu u onome što sledi. Sa naše današnje strane, koja unapred zna kraj priče, lako je videti taj vek kao pripremu za 1557. godinu i obnovu Pećke patrijaršije. Iz onoga vremena, međutim, izgledalo je drugačije — kao tiho, strpljivo trajanje pod sve težim uslovima, bez obećanja da će sutra biti bolje."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

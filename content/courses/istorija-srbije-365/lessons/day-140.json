@@ -6,13 +6,49 @@
   "dayNumber": 140,
   "order": 2,
   "title": "Zeta i Crnojevići",
+  "subtitle": "Poslednja samostalna srpsko-pravoslavna kneževina koja se u 15. veku odupirala Osmanlijama — i seme buduće Crne Gore",
   "readingTimeMinutes": 7,
   "year": 1480,
-  "isPlaceholder": true,
+  "dateLabel": "15. vek",
+  "timelinePosition": "15. vek",
+  "summary": "Uspon Crnojevića u Zeti, prenos prestonice u Cetinje 1482. i zidanje Cetinjskog manastira 1484 — poslednje samostalno srpsko-pravoslavno gnezdo pred konačan osmanski talas i tihi početak posebnog crnogorskog puta.",
+  "keyPeople": ["Stefan Crnojević", "Ivan Crnojević", "Đurađ Crnojević"],
+  "keyPlaces": ["Zeta", "Cetinje", "Žabljak Crnojevića", "Skadarsko jezero"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Dok je središnja srpska država posle pada Smedereva 1459. godine prestajala da postoji, na jugozapadnom uglu nekadašnjeg srpskog prostora — u Zeti, primorsko-planinskoj oblasti današnje Crne Gore — još jedna mala vlast nije htela da se ugasi. Bila je to kneževina Crnojevića, poslednja samostalna srpsko-pravoslavna država srednjeg veka. Nije imala despotsku titulu, ni Despotovinine resurse, ni vojsku koja bi mogla otvoreno da izađe u ravnicu protiv sultana. Imala je nešto drugo: tešku, neprohodnu zemlju, malobrojno ali tvrdokorno stanovništvo i naviku da se brani iz kamena."
+    },
+    {
+      "type": "paragraph",
+      "text": "Zeta je do 1421. godine bila u rukama dinastije Balšića, koja je u 14. veku držala širok pojas od Skadra do Boke i Drima. Posle smrti poslednjeg Balšića oblast je pripala despotu Stefanu Lazareviću, a potom Đurđu Brankoviću, koji su je gledali kao prirodni deo srpske države. Ali stvarna vlast u zaleđu, među planinskim katunima i bratstvima, sve više je prelazila u ruke domaće vlastele. Sredinom 15. veka, dok je Despotovina trošila snagu na sever, na osmanskoj granici, u Zeti je porodica Crnojevića tiho preuzimala upravu nad Gornjom Zetom — visoravnima oko Cetinjskog polja, koje su prirodno bile teško osvojive."
+    },
+    {
+      "type": "paragraph",
+      "text": "Stefan Crnojević, koji je vladao otprilike od 1451. do 1465. godine, prvi je iz dinastije čije ime ulazi u veliku istoriju. On je objedinio Gornju Zetu, izgradio mrežu odnosa sa plemenima i suočio se sa dvostrukim pritiskom: sa juga i istoka nastupali su Osmanlije, sa zapada se Mletačka republika čvrsto držala primorja od Kotora do Bara. Stefan je, kao i mnogi tadašnji balkanski vladari, izabrao manje zlo — priznao je mletačku vrhovnu vlast za deo svojih oblasti u zamenu za diplomatsku podršku i pristup tržištu. Time je oblasti obezbedio izlaz prema moru, a sebi titulu i ugled u zaleđu. Pa ipak, i posle pada Smedereva 1459. godine, kada se činilo da je sve gotovo, on je nastavio da odbija osmansku vlast — sa malo snaga, ali bez pokornosti."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Ivan Crnojević i Cetinje"
+    },
+    {
+      "type": "paragraph",
+      "text": "Najvažniji vladar dinastije bio je Stefanov sin Ivan Crnojević, koji je vladao od 1465. do 1490. godine. Pod njim Zeta dobija oblik koji će se dugo pamtiti. U prvim godinama prestonica mu je bila u Žabljaku Crnojevića, malom utvrđenju na Skadarskom jezeru, sa kojeg se kontrolisala plovidba i trgovina solju. Ali pritisak Osmanlija je rastao, a jezero je u trenutku rata postalo otvorena meta. Posle teških ratnih godina krajem sedamdesetih, kada je morao na izvesno vreme i da napusti zemlju i potraži utočište u Italiji, Ivan je 1482. godine doneo odluku koja je promenila geografiju srpsko-pravoslavnog života: prestonicu je preneo u Cetinje, u zaklon Lovćena, na visoravan koju je bilo lakše braniti nego osvojiti."
+    },
+    {
+      "type": "paragraph",
+      "text": "Dve godine kasnije, 1484, Ivan je u Cetinju podigao manastir posvećen Rođenju Bogorodice i u njega smestio sedište Zetske mitropolije, koje je dotad bilo na ostrvu Vranjini na Skadarskom jezeru. Ovaj čin, koliko god skroman u datom trenutku, pokazao se kao jedan od najtrajnijih u celoj kasnosrednjovekovnoj srpskoj istoriji. Cetinjski manastir postao je duhovno središte oblasti, mesto oko kojeg će se vekovima okupljati pravoslavna zajednica zaleđa i, kasnije, izrasti posebna crnogorska crkveno-državna tradicija. U vremenu kada su sve velike srpske prestonice padale jedna za drugom, Ivan je u kamenu osnivao novu — malu, siromašnu, ali svoju."
+    },
+    {
+      "type": "paragraph",
+      "text": "Posle Ivanove smrti 1490. godine vlast je preuzeo njegov sin Đurađ Crnojević. Bio je obrazovan, povezan sa italijanskim humanističkim svetom kroz brak sa Elizabetom Erico iz Venecije i svestan da male države opstaju i kroz simbole. Učvrstio je upravu, nastavio politiku oslonca na Veneciju i učinio nešto što će ovoj kneževini doneti posebno mesto u kulturnoj istoriji srpskog naroda — u Cetinje je doveo štampariju, prvu na slovenskom jugu, o kojoj će biti reči u sledećoj lekciji. Ali politički prostor se sužavao. Godine 1496. Đurađa je sa vlasti zbacio njegov brat Stefan II Crnojević, koji je prihvatio osmansko vazalstvo. Dinastija se u senovitoj vazalskoj ulozi zadržala još kratko, a Zeta je formalno ušla u osmanski sistem kao poseban sandžak."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ono što je Zetu odvojilo od sudbine drugih srpskih oblasti nije bila ni veličina ni vojska, nego zemlja. Strme planine, kamenita visoravan, mreža bratstava i plemena sa svojim sudovima i običajnim pravom — sve to je značilo da osmanska vlast, čak i kada je formalno uspostavljena, nikada nije sela duboko. Cetinjski manastir je nastavio da postoji kao žarište pravoslavne zajednice, a iz njega će kroz 16. i 17. vek izrasti vladičanska vlast koja će spojiti duhovno i svetovno — preteča onoga što će se mnogo kasnije nazvati Crnom Gorom. U tom smislu su Crnojevići dvojni naslednici: oni su poslednji izdanak srednjovekovne srpske državne tradicije, ali i prvi obris jedne nove, posebne, crnogorske istorije koja će dalje teći svojim tokom."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

@@ -6,13 +6,53 @@
   "dayNumber": 100,
   "order": 3,
   "title": "Raspad Dušanovog carstva",
+  "subtitle": "Kako se ogromno carstvo, izgrađeno za jedan život, posle Dušanove smrti raspalo u oblasti pojedinih velmoža",
   "readingTimeMinutes": 8,
   "year": 1365,
-  "isPlaceholder": true,
+  "dateLabel": "1355–1371.",
+  "timelinePosition": "1355–1371.",
+  "summary": "Posle iznenadne Dušanove smrti krajem 1355. carstvo se za petnaestak godina razložilo u oblasti Mrnjavčevića, Lazara, Balšića, Vojinovića i Tvrtka, dok je sa juga rastao osmanski pritisak.",
+  "keyPeople": ["Uroš V", "Simeon Uroš", "Vukašin Mrnjavčević", "Jovan Uglješa", "Lazar Hrebeljanović", "Nikola Altomanović", "Tvrtko I Kotromanić"],
+  "keyPlaces": [],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Kada je u decembru 1355. iznenada umro car Stefan Dušan, verovatno u četrdeset sedmoj godini, ostavio je iza sebe najveću državu koju je srednjovekovna Srbija ikada imala — i jednu duboku unutrašnju slabost koju savremenici tada još nisu mogli jasno da vide. Carstvo je bilo prostrano, ali mlado. Granice su povučene za dve decenije osvajanja, a ustanove koje bi ih dugoročno držale na okupu nisu stigle da sazru. Lojalnost velikih oblasnih gospodara bila je vezana lično za Dušana, za njegov autoritet, ratnu sreću i veštinu da deli zemlje i titule. Kada je tog autoriteta nestalo, ostalo je ono što je oduvek bilo ispod — moćne porodice sa sopstvenim vojskama i sopstvenim računima."
+    },
+    {
+      "type": "paragraph",
+      "text": "Naslednik je bio Dušanov sin Uroš V, mladić od oko devetnaest godina. Nije bio nesposoban vladar kako ga je kasnija narodna pesma prikazala, ali nije imao ni očevu volju ni očevu reputaciju. Carsku titulu je nosio, ali iza titule nije stajala lična mreža odanosti koju je Dušan godinama gradio po bojištima i saborima. Već prvih godina njegove vladavine počele su da se javljaju pukotine. Najpre na jugu: Dušanov polubrat Simeon Uroš, koji je upravljao Epirom i Tesalijom, već 1356. nije priznavao sinovčevu vlast, a do 1357. proglasio je sebe carem i u praksi otcepio te oblasti. Bio je to prvi otvoren signal da carstvo više ne funkcioniše kao jedna država."
+    },
+    {
+      "type": "paragraph",
+      "text": "U narednim godinama proces se ubrzao po jasnom obrascu. Veliki oblasni gospodari nisu nužno otvoreno odbijali Uroša — često su mu i dalje pominjali ime na novcu i u poveljama — ali su u svojim oblastima vladali kao samostalni vladari. Braća Mrnjavčevići, Vukašin i Jovan Uglješa, postepeno su preuzeli najveći deo srpskih zemalja u Makedoniji i ka egejskoj obali. Vukašin će 1365. biti i formalno krunisan za kralja, kao Urošev savladar, što je zapravo bilo priznanje stvarnog stanja: dve vlasti u jednom carstvu. Uglješa je vladao Serskom oblašću, najbližom Osmanlijama, i prvi je osetio koliko je opasnost sa juga ozbiljna."
+    },
+    {
+      "type": "paragraph",
+      "text": "Severnije i zapadnije slika je bila slična. U središtu, oko Morave, jačao je Lazar Hrebeljanović, dvorski čovek još iz Dušanovog vremena, koji je strpljivo gradio sopstvenu oblast bez prebrzog isticanja. U Zeti i delu primorja vlast su preuzeli Balšići, porodica koja je iskoristila slabljenje centralne vlasti da od skromnog početka postane gospodar važnog jadranskog zaleđa. U zapadnim srpskim zemljama isprva je dominirao Vojislav Vojinović, jedan od najmoćnijih velmoža Uroševog doba; posle njegove smrti 1363. te su oblasti pripale njegovom sinovcu Nikoli Altomanoviću, čije će širenje izazvati otvorene sukobe sa susedima. Iz Bosne se, pak, na hum i deo srpskog zapada postepeno širio mladi ban, kasniji kralj Tvrtko I Kotromanić, koji će svoju državu graditi i sa sopstvenim pretenzijama na nemanjićko nasleđe."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Carstvo bez cara"
+    },
+    {
+      "type": "paragraph",
+      "text": "Negde oko 1365. može se reći da carstvo kao jedinstveno političko telo praktično više nije postojalo. Uroš je i dalje nosio titulu, boravio na svojim posedima, izdavao povelje — ali njegova reč izvan uskog kruga nije bila zapovest. Velike oblasti vodile su sopstvenu spoljnu politiku, sklapale sopstvene saveze, kovale sopstveni novac. Nijedan od oblasnih gospodara nije, međutim, bio dovoljno jak da zauzme mesto cara; svi su bili dovoljno jaki da niko drugi to ne može. To je možda najtačnija slika trenutka — ne jedna nasilna podela, nego tiha, postepena disolucija, u kojoj se isto carstvo ujutru zvalo carstvom, a uveče već bilo niz oblasti."
+    },
+    {
+      "type": "paragraph",
+      "text": "Kulturni i ekonomski život nije se odmah ugasio. Naprotiv, manastiri su i dalje građeni i oslikavani, knjige prepisivane, trgovina sa Dubrovnikom i sa primorskim gradovima nastavila se. Iz tih decenija izrašće i ono što će potonji istoričari nazvati moravskom školom — poseban izraz srpske umetnosti koji će procvetati pod Lazarom i njegovim naslednicima. Ono što je nestalo bili su veliki, carski projekti: koordinirana spoljna politika, jedinstvena vojska, mogućnost da se na granici nastupi kao jedna sila. Svaka oblast morala je sama da brani svoje granice — i sama da odlučuje s kim će sklapati mir."
+    },
+    {
+      "type": "paragraph",
+      "text": "Upravo se u tom trenutku, dok su se srpske oblasti dovršavale i međusobno premeravale, sa juga sve brže približavala osmanska sila. Turci su već čvrsto stali u Trakiju i Makedoniju i počeli da ih osvajaju oblast po oblast. Vukašin i Uglješa bili su među retkima koji su jasno videli o čemu se radi i pokušali da povedu zajedničku odbranu — pohod koji će se 1371. završiti porazom kod Marice, o čemu će biti reči u narednim lekcijama. Drugi su Osmanlije potcenjivali, ili su se nadali da će ih iskoristiti jedne protiv drugih. Tako je upravo u času najveće spoljne opasnosti unutrašnja podela bila najdublja."
+    },
+    {
+      "type": "paragraph",
+      "text": "Zašto je sve ovo važno za dalji tok srpske istorije, može se reći trezveno, bez romantičnog žaljenja i bez fatalizma. Raspad Dušanovog carstva učinio je da kasniji udari — poraz na Marici, Kosovska bitka 1389, postepeno potčinjavanje, i konačni pad srpske srednjovekovne države 1459 — padnu na rascepkanu, a ne na jedinstvenu zemlju. Da li bi celovita Dušan-skala država odolela Osmanlijama, niko sigurno ne može reći; takve protivčinjenične pretpostavke ostaju spekulacija. Ali obrazac je u istoriji čest i prepoznatljiv: brza fragmentacija posle moćnog osnivača, kome ustanove nisu stigle da prerastu u trajne, redovno se loše završava kada spolja stigne ozbiljan pritisak. Srbija druge polovine četrnaestog veka ušla je u taj obrazac — i u narednim decenijama platiće njegovu punu cenu."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

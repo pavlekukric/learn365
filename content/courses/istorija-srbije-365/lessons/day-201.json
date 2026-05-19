@@ -6,13 +6,53 @@
   "dayNumber": 201,
   "order": 6,
   "title": "Organizacija ustaničke vlasti",
+  "subtitle": "Kako je ustanak u oslobođenoj Srbiji, između 1804. i 1807, počeo da gradi sopstvene ustanove vlasti gotovo ni iz čega",
   "readingTimeMinutes": 7,
   "year": 1805,
-  "isPlaceholder": true,
+  "dateLabel": "1804–1807.",
+  "timelinePosition": "1804–1807.",
+  "summary": "Od orašačkog zbora do prvih saveta i nahijskih vojvoda: kako su ustanici, u zemlji bez države već 345 godina, morali sami da uspostave sudove, poreze, vojsku i diplomatiju.",
+  "keyPeople": ["Karađorđe", "Jakov Nenadović", "Prota Matija Nenadović", "Dositej Obradović"],
+  "keyPlaces": ["Beograd", "Topola", "Pećani", "Orašac"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Kako se ustanak širio i kako su pobunjenici tokom 1804. i 1805. dolazili u posed sve više sela, varošica i nahija, pred njih se postavilo pitanje koje vojska na bojnom polju ne može da reši: ko će u toj zemlji, čim puške zaćute, kupiti porez, suditi u sporovima, deliti vojnu opremu, slati pisma stranim dvorovima i potpisivati ono što se potpisati mora. Stara srpska država nestala je 345 godina ranije, a osmanske ustanove — kadije, muselimi, džamijska uprava — bile su upravo ono protiv čega su se digli. Ustaničku vlast trebalo je, dakle, sastaviti gotovo ni iz čega, od ljudi koji su veći deo života proveli kao raja."
+    },
+    {
+      "type": "paragraph",
+      "text": "Najniži sloj te nove vlasti zatekao se već gotov. U srpskim selima i pre ustanka postojali su knezovi i kmetovi — seoske starešine koje je narod sam priznavao, a osmanske vlasti tolerisale kao posrednike za porez i red. Taj sloj ustanak je samo preuzeo i ojačao. Selo je i dalje vodio kmet, a više sela zajedno činilo je knežinu pod knezom. Iznad njih stajala je nahija — okrug koji je grubo odgovarao staroj osmanskoj podeli. Na čelu nahije bio je vojvoda, istovremeno vojni komandant i upravnik, koji je sazivao nahijske zborove, sudio krupnijim sporovima i odgovarao centru za sve što se u njegovoj oblasti dešavalo."
+    },
+    {
+      "type": "paragraph",
+      "text": "Iznad nahija stajao je Karađorđe. Na orašačkom zboru, februara 1804, izabran je za vožda — vrhovnog vođu — i ta titula ostala je sa njim do kraja ustanka. Ovlašćenja vožda nikada nisu bila precizno popisana; ona su, kao i sam ustanak, rasla iz prakse. U miru je odlučivao o postavljenjima, primao izaslanike, vodio prepisku sa Petrogradom i Bečom; u ratu je bio vrhovni komandant. Oko njega se postepeno stvarao mali centralni aparat: nekoliko pisara, blagajnika, glasnika i savetnika. Bila je to, po današnjim merilima, skromna kancelarija; po merilima srpske raje sa kraja osamnaestog veka, bio je to početak vlade."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Skupština, savet, vojvode"
+    },
+    {
+      "type": "paragraph",
+      "text": "Krupne odluke nisu se, međutim, donosile samo u voždovoj kući. Od prvih meseci ustanak je razvio i treći sloj — skupštinu, periodični zbor vojvoda, knezova i drugih uglednih ljudi. Skupština je odlučivala o ratu i miru, o porezima, o glavnim postavljenjima i o sporovima koji su prerasli nahijski okvir. Na zboru u Pećanima 1805. godine doneta je odluka koja će se pokazati prelomnom: formiran je prvi stalni savet — preteča Praviteljstvujuščeg sovjeta, čiji puni razvoj pripada sledećoj lekciji. Time je ustanička vlast prvi put dobila telo koje radi između skupština i koje stoji uz vožda kao kolektivno protivtežište."
+    },
+    {
+      "type": "paragraph",
+      "text": "Među onima koji su tu novu mašinu sastavljali izdvojila se porodica Nenadović iz Valjeva. Jakov Nenadović bio je jedan od najuticajnijih vojvoda i tvrd politički igrač, čovek koji se rano zauzeo za to da savet bude ozbiljna ustanova, a ne voždov dodatak. Njegov sinovac, prota Matija Nenadović, bio je drugačijeg kova — sveštenik, pismen, smiren, sposoban da sastavi pismo na način kako se to u Evropi pisalo. Prota Matija postao je u praksi glavni politički organizator i sekretar ustanka: pisao je odluke, vodio prepisku, predvodio prvu izaslaničku misiju u Petrograd 1804. i ostavio memoare iz kojih danas znamo većinu detalja unutrašnjeg života vlasti."
+    },
+    {
+      "type": "paragraph",
+      "text": "Teritoriju oslobođene Srbije ustanici su organizovali po nahijama, po istom rasporedu po kome ih je grubo zatekla osmanska uprava. Svaka nahija imala je svog vojvodu, koji je centru slao izveštaje o stanju vojske, o žetvi, o sporovima i o sumnjivim ljudima. Finansirala se nova vlast, isprva, vanrednim seoskim doprinosima — žitom, stokom, novcem skupljanim koliko se moglo i kad se moralo. Postepeno je uveden i redovniji porez, delom rađen po osmanskom predlošku jer drugog modela nije bilo, kao i carine na granicama prema Bosni, Sremu i Vlaškoj, i prihodi od trgovine, naročito stočne. Sve to bilo je daleko od uređenog budžeta, ali je davalo dovoljno da se vojska prehrani i da se barut kupi."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sudstvo je pratilo isti put — od slučaja do ustanove. Sitne sporove rešavali su, kao i ranije, kmetovi i knezovi; krupnije je preuzimao nahijski vojvoda; najteži predmeti, naročito izdaja i sporovi između vojvoda, sve češće su dolazili pred savet, koji je vremenom postao i svojevrsni najviši sud. Diplomatija se učila putujući. Izaslanstva su išla u Petrograd, gde je od 1806. otvorena stalna srpska veza sa ruskom vladom, u Beč, povremeno i kod bosanskih i drugih susednih muslimanskih prvaka kada je trebalo ugovoriti razmenu zarobljenika ili primirje. Srpski poslanici brzo su naučili šta je akreditiv, šta nota i kako se sastavlja molba caru — često, treba reći, uz pomoć srpskih trgovaca i obrazovanih ljudi iz Sremskih Karlovaca."
+    },
+    {
+      "type": "paragraph",
+      "text": "Karlovački mitropolit i tamošnje sveštenstvo bili su, uglavnom tiho, naklonjeni ustanku; lokalni srpski popovi u Šumadiji i Pomoravlju otvoreno su učestvovali u njemu, blagosiljali vojsku, pisali pisma i krstili novu vlast. O obnovi Pećke patrijaršije razmišljalo se ozbiljno, ali se to pitanje ostavljalo za bolja vremena. Iznutra, mlada vlast nije bila bez napetosti: Karađorđeva lična vlast i kolektivno vođstvo saveta neprestano su se odmeravali, a vojvode su ljubomorno čuvale svoju samostalnost prema centru. Sporovi oko strategije, plena i postavljenja izbijali su redovno. Pa ipak, kada je 1807. Dositej Obradović stigao iz Trsta i preuzeo brigu o školi, kada je u Beogradu osnovana Velika škola i kada su počeli prvi pokušaji štampanja u oslobođenoj Srbiji, postalo je jasno da seljački ustanak, uprkos svojoj surovoj improvizaciji, gradi nešto što liči na državu — grubu, krpljenu, ali stvarnu."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

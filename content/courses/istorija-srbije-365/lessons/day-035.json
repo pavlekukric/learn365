@@ -6,13 +6,53 @@
   "dayNumber": 35,
   "order": 7,
   "title": "Podela Rimskog carstva",
+  "subtitle": "Kako se Rimsko carstvo postepeno razdvojilo na istok i zapad — i šta to znači za Balkan",
   "readingTimeMinutes": 7,
   "year": 395,
-  "isPlaceholder": true,
+  "dateLabel": "4–5. vek n. e.",
+  "timelinePosition": "395. n. e.",
+  "summary": "Razdvajanje Rimskog carstva na zapadnu i istočnu polovinu nije bio jedan datum, nego dug proces koji je 395. godine dobio konačan oblik — i podelio Balkan na dva sveta koji će se vekovima razvijati odvojeno.",
+  "keyPeople": ["Dioklecijan", "Konstantin", "Teodosije I", "Arkadije", "Honorije"],
+  "keyPlaces": ["Konstantinopolj", "Ravena", "Sirmijum", "Drina"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Podela Rimskog carstva na istočni i zapadni deo nije se dogodila u jednom danu, niti je počivala na jednoj odluci. To je dug, postepen proces koji se prostire kroz čitav četvrti vek, i koji tek 395. godine dobija oblik koji više neće biti opozvan. Kada se sve to stiša, na karti Evrope postoje dve države sa zajedničkim imenom i različitim sudbinama — i jedna granica koja, sasvim slučajno, prolazi središtem Balkana."
+    },
+    {
+      "type": "paragraph",
+      "text": "Prve naznake podele vide se već krajem trećeg veka, u sistemu koji je uveo car Dioklecijan. Zaključivši da jedan čovek više ne može sam da brani granice ogromnog carstva, on je vlast podelio na četvoricu — dvojicu starijih careva sa titulom augusta i dvojicu mlađih sa titulom cezara. Taj sistem, poznat kao tetrarhija, bio je upravna podela, a ne državna; carstvo je formalno ostajalo jedno. Ali u praksi se već videlo da postoje dve velike polovine — istok, koji se oslanja na grčki govorni svet, i zapad, koji ostaje vezan za latinski. Tetrarhija nije preživela svog tvorca, ali je obrazac „dva vladara, dva sedišta” ostao kao trajna mogućnost."
+    },
+    {
+      "type": "paragraph",
+      "text": "Konstantin je polovinom svoje vladavine ujedinio carstvo pod jednom rukom, ali je istovremeno učinio nešto što će dugoročno ojačati istočnu polovinu — premestio je težište u novi grad na Bosforu, Konstantinopolj. Nakon njegove smrti 337. godine, njegovi sinovi su carstvo podelili među sobom. Tokom čitavog četvrtog veka to se ponavlja po sličnom obrascu: stariji car drži jednu polovinu, mlađi srodnik ili saradnik drugu, pa se vlasti potom spajaju, pa se opet razdvajaju. Niko od savremenika nije imao osećaj da je to konačno; sve je delovalo kao privremena podela poslova."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Godina 395. i posle nje"
+    },
+    {
+      "type": "paragraph",
+      "text": "Presudan trenutak došao je sa smrću cara Teodosija I, januara 395. godine. On je bio poslednji vladar koji je makar nakratko držao celo carstvo u jednoj ruci. Pred kraj života podelio je vlast između dva sina — istok je dobio Arkadije, sa sedištem u Konstantinopolju, a zapad Honorije, koji će ubrzo upravljati iz Ravene. Ta podela se po formi nije mnogo razlikovala od ranijih, ali se posle nje dva dela carstva više nikada nisu spojila. Zato istoričari upravo 395. godinu uzimaju kao konvencionalni početak odvojene istorije istočnog i zapadnog Rima."
+    },
+    {
+      "type": "paragraph",
+      "text": "Razloga za trajnu podelu bilo je više i nijedan od njih nije bio dovoljan sam za sebe. Granice carstva bile su jednostavno predugačke da bi se branile iz jednog središta — dok bi vest sa Rajne stigla u Antiohiju, situacija bi se već promenila. Kulturna i jezička linija takođe je tekla otprilike kroz sredinu: na istoku je dominirao grčki, na zapadu latinski, a obrazovani slojevi su se sve manje međusobno razumeli. Istok je bio bogatiji, gušće naseljen i ekonomski stabilniji; zapad je trošio sve više da bi obuzdao pritisak germanskih naroda koji su pristizali sa severa. Konačno, sami carevi pokazali su se sposobnijim kad su upravljali manjim, jasnije omeđenim oblastima."
+    },
+    {
+      "type": "paragraph",
+      "text": "Razlika u sudbinama dve polovine postala je vidljiva već u sledećim decenijama. Zapadno carstvo se kroz peti vek polako urušavalo: 410. godine Vizigoti su opljačkali Rim, što je tadašnji svet potreslo kao malo šta pre toga, a 476. godine germanski vojskovođa Odoakar svrgnuo je poslednjeg zapadnorimskog cara Romula Augustula. Sa zapadne strane granice nestala je centralna vlast i počela su da se obrazuju varvarska kraljevstva. Istočno carstvo je, naprotiv, ostalo na nogama. Sa sedištem u Konstantinopolju, ono će se postepeno preobraziti u ono što danas zovemo Vizantijom — i potrajaće još skoro hiljadu godina."
+    },
+    {
+      "type": "paragraph",
+      "text": "Za tlo današnje Srbije sve ovo nije bila daleka vest. Granica između dva carstva uspostavljena je upravo na Balkanu i, u grubim crtama, pratila je tok reke Drine i liniju koja se sa nje spuštala ka jugu. To znači da su Panonija i Sirmijum, dotad jedan od najvažnijih carskih gradova, ostali u zapadnom delu, dok su Mezija, Dakija i Tračka, sa Naisom i ostalim središtima centralnog i istočnog Balkana, pripale istoku. Ova linija nije postavljena s namerom da podeli Balkan — ona je više bila posledica administrativnih i ekonomskih okolnosti — ali je upravo tu i ostala."
+    },
+    {
+      "type": "paragraph",
+      "text": "Dugoročne posledice te slučajne granice biće ogromne. Sa njom se polako produbljuje i podela hrišćanstva: zapadni deo crkve gledaće u Rim, istočni u Konstantinopolj. Prošli su vekovi pre nego što je ta razlika dobila zvanično ime i konačno se pretvorila u rascep između katoličanstva i pravoslavlja, ali se obris budućih granica već naslućivao. Kada se Sloveni budu doselili na ovo područje, naći će zemlju koja je već podeljena nevidljivom linijom; i kada se srpski srednjovekovni svet bude oblikovao, vekovima kasnije, on će tu liniju nasleđivati a ne sam povlačiti. Podela iz 395. godine pokrenula je dakle proces koji će tek mnogo dalje u istoriji dotaći i samu Srbiju — ali kada je dotakne, učiniće to s težinom koja se i danas oseća."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

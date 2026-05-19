@@ -6,13 +6,53 @@
   "dayNumber": 235,
   "order": 5,
   "title": "Privreda mlade Kneževine",
+  "subtitle": "Srbija sredinom 19. veka — agrarna, slobodna, siromašna i nekoliko vekova iza zapadne Evrope",
   "readingTimeMinutes": 7,
   "year": 1850,
-  "isPlaceholder": true,
+  "dateLabel": "sredina 19. veka",
+  "timelinePosition": "1840-e i 1850-e",
+  "summary": "Sredinom 19. veka Kneževina Srbija je politički sve modernija, ali ekonomski jedna od najslabije razvijenih zemalja Evrope — agrarno-stočarska zemlja slobodnih seljaka, bez fabrika, banaka i sopstvene valute.",
+  "keyPeople": ["Ilija Garašanin", "Miloš Obrenović"],
+  "keyPlaces": ["Beograd", "Šumadija", "Majdanpek", "Dunav", "Pešta", "Beč"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Kada se sredinom 19. veka pogleda na Kneževinu Srbiju spolja, vidi se zemlja koja na političkom planu hvata korak sa Evropom — ima ustav, državni savet, ministarstva, zakonike, školu i diplomatske predstavnike. Kada se pogleda iznutra, na njive, štale, puteve i tržnice, vidi se nešto sasvim drugo: pretežno seoska, agrarno-stočarska zemlja u kojoj fabrika praktično nema, banaka nikako, a novac je tuđ. Taj raskorak — politika koja žuri ka 19. veku, a privreda koja još uvek diše vazduh ranijih stoleća — jedna je od najtežih, ali i najvažnijih činjenica o mladoj srpskoj državi."
+    },
+    {
+      "type": "paragraph",
+      "text": "Osnovna grana svega bila je zemljoradnja i stočarstvo. Najpoznatiji srpski izvozni proizvod tog doba nisu bili ni žito ni rakija — bile su to svinje. Hranjene žirom u prostranim hrastovim i bukovim šumama Šumadije, gonjene u krdima preko granice ka Habzburškoj monarhiji, srpske svinje postale su roba po kojoj se zemlja prepoznavala na peštanskim i bečkim pijacama. Pored svinja, izvozili su se volovi i ovce, a od kućne ekonomije najvažnije su bile šljive — pre svega kao rakija, koja je istovremeno bila piće, lek i sredstvo razmene. Žito se gajilo, ali uglavnom za sopstvene potrebe; vinogradi su postojali u pojedinim krajevima, ribarstvo na Dunavu i Savi davalo je dopunsku zaradu rečnim selima."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sve to počivalo je na jednoj tihoj, ali presudnoj društvenoj činjenici. Srpski seljak nije bio kmet. Posle ukidanja čifluka tridesetih godina, koje je proveo knez Miloš, zemlja se uglavnom našla u rukama onih koji su je obrađivali. Posedi su bili sitni, oruđe primitivno, prinosi skromni, ali je zemlja bila svoja. Velikih veleposednika, plemstva sa hiljadama jutara i seljaka vezanih za njihovu zemlju — kakvi su još uvek postojali u susednoj Ugarskoj, Rusiji ili Vlaškoj — u Srbiji nije bilo. Ta jednostavna seoska demokratija imanja biće, decenijama kasnije, jedan od temelja na kome će se izgraditi politička demokratija. U trenutku o kome govorimo, ona je značila pre svega da je siromaštvo bilo ravnomerno raspoređeno."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Bez fabrika i bez sopstvenog novca"
+    },
+    {
+      "type": "paragraph",
+      "text": "Industrijska proizvodnja u modernom smislu u Srbiji praktično nije postojala. Nije bilo dimnjaka, mašinskih razboja, parnih kotlova ni radničkih naselja. Postojale su zanatske radionice — kovači, ćurčije, opančari, terzije, vunovlačari — raspoređene po varošima i većim selima, koje su radile za lokalno tržište. Rudarstvo je bilo skromno; Majdanpek, stari rudnik bakra koji je vekovima bio napušten, ponovo je otvoren 1849. godine, uz posebnu pažnju Ilije Garašanina, ali sa ograničenim učinkom. Pokušaji da se podignu prve manje fabrike — staklara, suknara, livnica — bili su pojedinačni, često neuspeli, i nisu menjali opštu sliku zemlje u kojoj je proizvod retko prelazio iz ruku majstora u ruke fabričkog radnika."
+    },
+    {
+      "type": "paragraph",
+      "text": "Trgovina je išla preko Dunava. Glavni partner bila je Habzburška monarhija, a glavni pravac trasa Beograd — Pešta — Beč. Dunav je bio najvažniji transportni koridor zemlje; drumovi su bili loši, železnice nije bilo. U trgovini su, posebno u izvozu i uvozu, dominirali stranci ili stranom svetu bliski poslovni ljudi — austrijski podanici, mnogi cincarsko-vlaškog porekla, ponegde i jevrejski trgovci iz Zemuna, Pešte i Beča. Domaća beogradska čaršija polako je rasla, ali kapital je pretežno bio u rukama onih koji su imali pristup peštanskim i bečkim kućama. Banaka u zemlji nije bilo; trgovački kredit, kada bi ga trebalo, davali su sami trgovci — beogradski, novosadski, peštanski — pod uslovima koje je diktovala njihova snaga, a ne nikakva državna ustanova."
+    },
+    {
+      "type": "paragraph",
+      "text": "Slika postaje još jasnija kada se pogleda novac. Kneževina Srbija sredinom 19. veka nije imala sopstvenu valutu. U opticaju je bila šarena mešavina kovanica — turski groševi, austrijski forinti i talili, ruske rublje, francuski franci, ponegde i starije osmanske pare. Ceniti, plaćati i računati u takvoj zbrci bio je posao za sebe; svaka veća pijaca imala je menjače koji su, uz proviziju, izračunavali odnose. Sopstveni srpski dinar uvešće se tek 1873. godine, dakle više od dve decenije posle vremena o kome govorimo. Sve dotle, zemlja je politički vodila sopstvenu spoljnu politiku, ali je novčano živela na tuđem novcu — još jedna fina mera njene tadašnje stvarnosti."
+    },
+    {
+      "type": "paragraph",
+      "text": "Život je bio uglavnom seoski. Beograd, glavni grad, imao je sredinom veka oko trideset hiljada stanovnika — po današnjim merilima manje varoš nego grad. Druge varoši — Kragujevac, Šabac, Požarevac, Užice — bile su znatno manje. Velika većina ljudi živela je na selu, u zadružnim domaćinstvima koja su pod jednim krovom okupljala više porodica. Pismenost je bila niska, naročito kod žena; štampana knjiga i novine bili su redak gost u kući. Lekara je bilo malo, bolnica gotovo nikako, a osnovne mere države — porez, vojska, sud — često su do sela stizale preko kmeta i sveštenika."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pošteno gledano, Srbija je u tom trenutku bila jedna od najslabije razvijenih zemalja Evrope. Po visini proizvodnje po stanovniku, po stepenu industrije, po gustini puteva, po obrazovanju, zaostajala je za zapadnim, pa i za delovima srednjoevropskog prostora, za nekoliko desetina godina, ponegde i za čitave vekove. Imala je, međutim, jednu prednost koju mnogi razvijeniji susedi nisu imali: slobodnog seljaka na sopstvenoj zemlji, bez velikih veleposednika koji bi mu se postavljali između države i njive. To skriveno bogatstvo nije se moglo izvesti ni u Peštu ni u Beč, ali će se, kada dođe vreme za parlamentarni i partijski život, pokazati kao osnova na kojoj je mnogo lakše graditi modernu zemlju nego na nasleđu krupnih poseda. Paradoks tih godina je upravo taj — politički sve modernija država, ekonomski još uvek na ivici svog kontinenta."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

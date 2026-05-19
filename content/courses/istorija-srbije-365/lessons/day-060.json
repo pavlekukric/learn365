@@ -6,13 +6,49 @@
   "dayNumber": 60,
   "order": 7,
   "title": "Sveti Sava — putovanja i smrt",
+  "subtitle": "Dva hodočašća u Svetu zemlju, smrt u Trnovu i put moštiju koji će obeležiti vekove",
   "readingTimeMinutes": 7,
   "year": 1236,
-  "isPlaceholder": true,
+  "dateLabel": "do 1236.",
+  "timelinePosition": "do 1236.",
+  "summary": "Savina dva hodočašća u Svetu zemlju, povlačenje sa arhiepiskopskog trona, smrt u Trnovu 1236. i prenos moštiju u Mileševu.",
+  "keyPeople": ["Sveti Sava", "Arsenije I", "kralj Vladislav"],
+  "keyPlaces": ["Sveta zemlja", "Jerusalim", "Trnovo", "Mileševa"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Kada se priča o Savi obično završava njegovim povratkom iz Nikeje sa arhiepiskopskim dostojanstvom, ostaje utisak da je njegov život posle toga bio mirno upravljanje crkvom koju je sam ustanovio. Stvarnost je bila drugačija. Poslednja decenija njegovog života bila je decenija putovanja — dugih, opasnih, hodočasničkih i diplomatskih u isti mah — i završila se daleko od Srbije, u prestonici tuđe države. Upravo te poslednje godine, više nego sve ranije, oblikovale su sliku Save kakvu će srpska tradicija pamtiti vekovima."
+    },
+    {
+      "type": "paragraph",
+      "text": "Prvo veliko putovanje Sava je preduzeo oko 1229. godine, dakle samo nekoliko godina po osnivanju samostalne srpske arhiepiskopije. Plan mu je bio i pobožan i praktičan. Krenuo je preko Carigrada i Nikeje, gde je tada bilo vasilevsovo i patrijarhovo sedište u izgnanstvu, prošao kroz Svetu Goru, a onda nastavio brodom ka Palestini. U Jerusalimu se poklonio Hristovom grobu i drugim svetim mestima, obišao je manastire palestinske pustinje i ušao u Egipat, do velikih manastirskih centara u kojima je istočno monaštvo i izvorno nastalo. Na tom putu nije bio samo hodočasnik — bio je i predstavnik mlade srpske crkve, koji je sa istočnim patrijarsima i monaškim starešinama uspostavljao veze, dogovarao prava srpskih monaha u svetim mestima i, koliko izvori dozvoljavaju da se pretpostavi, kupovao manastirske posede u korist svoje arhiepiskopije."
+    },
+    {
+      "type": "paragraph",
+      "text": "Vrativši se u Srbiju, Sava se zadržao kratko. Godine 1233. učinio je nešto što njegovi savremenici verovatno nisu lako razumeli — povukao se sa arhiepiskopskog trona i za svog naslednika odredio Arsenija, monaha koga je sam vaspitavao i pripremao za tu službu. Razlozi su bili više nego jedan. Sava je bio star po merilima svog doba, znao je da mu snage opadaju, a hteo je da prelaz prođe za njegovog života, dok još može da ga vodi i potvrdi. Ali postojao je i drugi, dublji razlog: hteo je da se vrati onome što je oduvek smatrao svojim pravim pozivom — monaštvu i hodočašću. Vlast nad crkvom prihvatio je iz nužde i odgovornosti; sada, kada je crkva stajala čvrsto, mogao je da je preda."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Drugi put i smrt u Trnovu"
+    },
+    {
+      "type": "paragraph",
+      "text": "Drugo putovanje, koje je počelo verovatno krajem 1234. godine, ponovilo je u osnovi rutu prvog, ali je bilo još šire i još napornije. Sava je ponovo prošao kroz Carigrad i Svetu Goru, ponovo se obreo u Nikeji kod patrijarha, a zatim opet krenuo ka Svetoj zemlji. Ovog puta je išao i dalje — do Sinaja, do manastira Svete Katarine podno gore na kojoj je, prema predanju, Mojsije primio Zakon. Obišao je egipatske svete oce, aleksandrijskog i antiohijskog patrijarha; svuda je, kažu sačuvana žitija, ostavljao darove i dobijao darove, sklapao veze, učvršćivao mesto srpske crkve u širem pravoslavnom svetu. Bio je to čin čoveka koji je znao da više neće ići, i koji je hteo da na kraju vidi sve što je hteo da vidi."
+    },
+    {
+      "type": "paragraph",
+      "text": "Na povratku je svratio u Trnovo, prestonicu tadašnjeg bugarskog carstva, kod cara Jovana Asena II, koji mu je bio i u srodstvu i u savezništvu. Tu ga je, posle dugog puta i godina koje su počele da pritiskaju, savladala bolest. Umro je u Trnovu, prema sačuvanim podacima, 14. januara 1236. godine po starom kalendaru — dan koji srpska crkva i danas obeležava kao Savindan, 27. januara po novom kalendaru. Tačan datum smrti pojedini izvori daju različito, ali se godina i mesto u glavnim žitijima slažu. Bugarski car ga je sahranio sa svim počastima u crkvi Svetih četrdeset mučenika u Trnovu."
+    },
+    {
+      "type": "paragraph",
+      "text": "Mošti, međutim, nisu ostale tamo. Savin sinovac, kralj Vladislav, sin Stefana Prvovenčanog, nije pristao da osnivač srpske crkve počiva u tuđoj prestonici. Posle pregovora sa Jovanom Asenom — koji, prema kasnijem predanju, nije baš lako pristao — Vladislav je dobio dozvolu da Savine mošti prenese u Srbiju. Položene su u manastir Mileševu, koji je sam Vladislav podigao kao svoju zadužbinu u dolini reke Mileševke. Tamo, u maloj crkvi s freskama koje su među najlepšim u srednjovekovnom pravoslavnom svetu, mošti Svetog Save su počivale narednih više od tri i po veka."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sudbina tih moštiju imaće još jednu, mračnu epizodu — onu iz 1594. godine, kada je osmanski zapovednik Sinan-paša naredio da budu prenesene u Beograd i spaljene na Vračaru, kao odgovor na srpski ustanak u Banatu. Bio je to nameran čin uperen protiv kulta koji je oko Save izrastao tokom vekova. Na mestu tog spaljivanja danas stoji Hram Svetog Save — ali to je već priča za jednu od narednih lekcija. Ovde je dovoljno reći da Savin život, ako se sagleda kao celina, ima neobičnu unutrašnju simetriju: knez koji je postao monah, monah koji je postao prvi arhiepiskop, arhiepiskop koji se vratio monaštvu i hodočašću, hodočasnik koji je umro u tuđini i u zavičaj se vratio kao mošti, a mošti koje su i posle smrti ostale meta i znak. Malo je u srpskoj istoriji života koji su u sebi saželi toliko različitih uloga — i malo onih koji su iza sebe ostavili toliko trajno nasleđe."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

@@ -6,13 +6,53 @@
   "dayNumber": 65,
   "order": 5,
   "title": "Kralj Dragutin",
+  "subtitle": "Od kratke vladavine u Raškoj do dugog kraljevanja na severu — vladar koji je Srbiju vezao za Ugarsku i zapadnu Evropu",
   "readingTimeMinutes": 7,
   "year": 1276,
-  "isPlaceholder": true,
+  "dateLabel": "1276–1316.",
+  "timelinePosition": "1276–1316.",
+  "summary": "Stefan Dragutin, najstariji sin Uroša I, kraljevao je Srbijom od 1276. do oko 1282, a potom je posle Deževa vladao posebnom severnom „kraljevinom Srema” do 1316.",
+  "keyPeople": ["Stefan Dragutin", "Uroš I", "Milutin", "Katarina", "Jelena Anžujska"],
+  "keyPlaces": ["Deževo", "Mačva", "Beograd", "Arilje", "Đurđevi Stupovi"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Stefan Dragutin je u srpskoj istoriji ostao zapamćen kao vladar dveju kraljevina i dva životna doba. Bio je najstariji sin kralja Uroša I i Jelene Anžujske, kraljice zapadnog porekla koja je na srpski dvor donela jezik diplomatije i veze sa katoličkom Evropom. Vaspitavan kao naslednik, Dragutin je dugo čekao da otac uđe u godine u kojima bi mu, po običaju, prepustio presto. Kada se to nije dogodilo, mladi kraljević je posegao za korakom koji srednjovekovni izvori opisuju uzdržano, ali bez uvijanja: zatražio je svoj deo vlasti silom, i 1276. godine, posle kratkog oružanog sukoba, primorao oca na povlačenje."
+    },
+    {
+      "type": "paragraph",
+      "text": "Tako je Dragutin postao kralj. Njegova prva vladavina trajala je svega šest godina, ali je u njima već stekao iskustvo koje je oblikovalo sve ostalo. Pokušao je da održi unutrašnji red između velikaša koji su prvi put videli kako se jedan kralj smenjuje silom, da nastavi rudarsku i trgovačku politiku svog oca, i da brakom sa Katarinom, kćerkom ugarskog kralja Stefana V, učvrsti severnu granicu. Taj brak će se pokazati važnijim nego što je u trenutku sklapanja izgledao: kroz Katarinu i njenu rodbinu otvoriće se vrata ugarskih darova i posedâ na koje će se Dragutin osloniti u drugom delu svog života."
+    },
+    {
+      "type": "paragraph",
+      "text": "Negde oko 1282. godine, u lovu, Dragutin je teško pao s konja i slomio nogu. Povreda nije zarasla kako treba i ostavila ga je trajno obeleženim. U srednjovekovnom poimanju vlasti telesna nesposobnost vladara nije bila samo lična nevolja, već i znak da Bog povlači svoju ruku sa njega. Dragutin je to razumeo, ili je bar tako odlučio da postupi. Sazvao je sabor u mestu Deževo, blizu Rasa, i tu, pred velikašima i crkvenim ljudima, prepustio presto mlađem bratu Milutinu. Sporazum iz Deževa ostao je u istoriji kao jedan od najpoznatijih trenutaka nemanjićke unutrašnje politike."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Deževo i kraljevina na severu"
+    },
+    {
+      "type": "paragraph",
+      "text": "Šta je tačno na Deževu dogovoreno, predmet je stručne rasprave do današnjeg dana. Pouzdano se zna da je Milutin preuzeo srpski presto, a da je Dragutin zadržao kraljevsku titulu i dobio na upravu posebnu oblast. Kasniji izvori, naročito biograf arhiepiskop Danilo II, beleže i to da je dogovoreno kako presto posle Milutina ne treba da pripadne njegovim sinovima, već Dragutinovom potomstvu — pre svega njegovom sinu Vladislavu. Da li je tako zaista rečeno svim onim rečima koje su nam preneli kasniji pisci, ili je to naknadno uobličeno tumačenje, istoričari pošteno priznaju kao otvoreno pitanje. Sigurno je da je Deževo dugo bacalo senku na odnose dvojice braće i njihovih sinova."
+    },
+    {
+      "type": "paragraph",
+      "text": "Povlačenje sa glavnog prestola Dragutina nije pretvorilo u monaha ni u sporedan lik. Naprotiv, njegova druga vladavina počinje upravo posle Deževa. Preko svoje žene Katarine i tasta, ugarski dvor mu je predao na upravu prostrane severne oblasti — Mačvu, deo Bosne, i u jednom periodu sam Beograd sa okolinom. Tako je nastala posebna „kraljevina Srema”, kako su je zvali izvori, čije je središte ležalo između Save i Dunava i na južnim padinama severnih planina. Dragutin je u njoj zadržao titulu kralja, kovao svoj novac, primao poslanike i vladao kao odvojen, mada srodan vladar uz Milutinovu Srbiju na jugu."
+    },
+    {
+      "type": "paragraph",
+      "text": "Severna kraljevina imala je svoj poseban duhovni i kulturni pečat. Stanovništvo je bilo mešovito — pravoslavni Srbi, katolički Mađari i Sasi, bosanski susedi različitih obreda. Dragutin se, verovatno pod uticajem majke i žene, otvorio prema rimskoj crkvi više nego ijedan srpski vladar pre njega. Pisao je papama, primao franjevačke misionare i dozvolio im rad među pravoslavnim podanicima, naročito u Bosni gde je crkveno pitanje bilo zapleteno. Treba to reći mirno i bez preuveličavanja u bilo kom smeru: Dragutin nije promenio veru, ostao je pravoslavni vladar, ali je upravljao prostorom u kome je katolička crkva imala otvoren prostor delovanja kakav južno od Save nije imala. Kroz njegovu vladavinu deo današnje severne Srbije prvi put je ozbiljnije ušao u stalni dodir sa zapadnoevropskim institucijama."
+    },
+    {
+      "type": "paragraph",
+      "text": "Odnos između braće nije bio ni jednostavna saradnja ni stalna svađa. Godinama su delovali usklađeno, branili zajedničke granice, razmenjivali poslanike i poklone. Ali kako su sinovi rasli, pitanje nasledstva iz Deževa postajalo je sve teže. Milutin je imao svoje planove i svog sina Stefana, koga će kasnije istorija znati kao Stefana Dečanskog. Dragutin je verovao da pravo prvenstva pripada njegovom sinu Vladislavu. Krajem prve decenije četrnaestog veka došlo je između braće do otvorenog sukoba sa borbama i pomirenjima koja su se smenjivala. Nijedna od strana nije uspela trajno da nametne svoje rešenje, a stvar je bila ostavljena vremenu i sudbini sinova."
+    },
+    {
+      "type": "paragraph",
+      "text": "Dragutin je umro 1316. godine, povučen u monaški postrig pod imenom Teoktist, kao što su to činili mnogi vladari iz nemanjićke kuće. Sahranjen je u manastiru koji je zadužbinski vezivao za sebe — izvori se razilaze između Đurđevih Stupova i Arilja, mada kasnija tradicija najčešće pominje Arilje kao mesto njegovog počivanja. Njegova severna kraljevina nije ga dugo nadživela: ubrzo posle njegove smrti Ugarska je povratila Beograd i Mačvu, a Vladislavovi pokušaji da održi nasleđe brzo su slomljeni od strane snažnijeg strica. Pa ipak, ono što je Dragutin uradio nije nestalo bez traga. Njegova vladavina pokazala je da se srpsko kraljevstvo može produžiti severno od svojih starih raških granica i da pravoslavni vladar može, bez gubljenja sopstvenog identiteta, da vodi politiku otvorenu prema zapadnoj Evropi. Bila je to lekcija koju će njegovi naslednici, svako na svoj način, tek morati ponovo da uče."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

@@ -6,13 +6,53 @@
   "dayNumber": 80,
   "order": 2,
   "title": "Vlastela i feudalno društvo",
+  "subtitle": "Sloj vlastele između krune i seljaka — zemlja, služba i moć u srpskoj državi 13. i 14. veka",
   "readingTimeMinutes": 7,
   "year": 1300,
-  "isPlaceholder": true,
+  "dateLabel": "13–14. vek",
+  "timelinePosition": "13–14. vek",
+  "summary": "Vlastela kao vojnički i posednički sloj između vladara i seljaka: činovi, baština i pronija, sabori, odnos prema crkvi i postepeno jačanje koje će posle Dušana ubrzati raspad carstva.",
+  "keyPeople": [],
+  "keyPlaces": [],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Srpska srednjovekovna država nije bila vladavina jednog čoveka nad bezličnom masom podanika. Između kralja, kasnije cara, i seljaka koji su orali zemlju stajao je čitav sloj ljudi bez kojih ni jedna naredba ne bi stigla do sela, ni jedna vojska ne bi izašla iz utvrđenja, ni jedan porez ne bi bio prikupljen. Taj sloj zvao se vlastela. Bili su to ratnici i gospodari zemlje, ljudi kojima je vladar priznavao posede i činove u zamenu za vojnu službu i poslušnost, a koji su, na svojim oblastima, sami bili mali vladari. Razumeti njih znači razumeti kako je srednjovekovna Srbija zaista funkcionisala — i zašto je, posle Dušana, tako brzo počela da se raspada."
+    },
+    {
+      "type": "paragraph",
+      "text": "U najopštijem smislu, vlastela je bila vojnički stalež. Od vlastelina se očekivalo da na vladarev poziv izađe naoružan, na konju, sa pratnjom koju je sam izdržavao. Veličina te pratnje, kvalitet opreme i broj dana službe zavisili su od toga koliko zemlje neko drži. Krupna vlastela slala je čitave odrede; sitna, takozvani vlasteličići, dolazila je sa malim brojem ljudi, ponekad samo sa sobom i jednim slugom. Tek ispod svega toga stajao je seljački svet, vezan za zemlju i za gospodara čijoj se oblasti našao."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sloj vlastele nije bio ujednačen. Na vrhu, naročito od Dušanovog vremena, stajali su nosioci visokih dvorskih činova preuzetih iz Vizantije — despot, sevastokrator, kesar. Te titule Dušan je delio rođacima i najmoćnijim saradnicima posle proglašenja carstva 1346, da bi srpski dvor stao u rang sa carigradskim. One nisu bile samo počasti: nosile su sa sobom velike oblasti na upravu, prihode i pravo da se neko ponaša gotovo kao vladar u maloj državi. Ispod tog vrha bila je obična vlastela — gospodari sela i tvrđava, vlasnici imanja koja su se merila stotinama seljačkih kuća. Najniži, vlasteličići, jedva su se razlikovali od dobrostojećih slobodnih ljudi; njihova snaga bila je u zemlji, oružju i u tome što su pripadali povlašćenom redu."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Baština i pronija"
+    },
+    {
+      "type": "paragraph",
+      "text": "Vlasništvo nad zemljom imalo je dva osnovna oblika. Prvi je bila baština — nasledno porodično dobro, koje je prelazilo s oca na sina, moglo se u nekim slučajevima prodavati i poklanjati, i nije se gubilo time što je domaćin ostario ili se zamerio dvoru. Drugi je bila pronija, ustanova preuzeta iz vizantijskog poretka: vladar je davao zemlju i prihode s nje na uživanje, ali samo dok traje služba. Pronija se nije nasleđivala sama po sebi; ako pronijar pogine ili padne u nemilost, vladar je u načelu mogao posed vratiti i dodeliti ga drugome. Tokom 14. veka, naročito pod Dušanovim naslednicima, granica između to dvoje sve više se brisala. Pronije su se pretvarale u baštine, službena imanja u porodična, a moć vlastele ka kruni rasla je tačno onoliko koliko se smanjivala mogućnost vladara da im zemlju oduzme."
+    },
+    {
+      "type": "paragraph",
+      "text": "Na svojim posedima vlastelin je bio gospodar u punom smislu te reči. Imao je sopstveni sud za sporove između sebi podređenih, ubirao je dažbine od seljaka — u žitu, vinu, sitnoj stoci, danima rada na gospodarevoj njivi — i držao svoju manju oružanu pratnju. Tamo gde je teren dopuštao, gradio je kulu ili manju tvrđavu, a često i crkvu uz svoj dvor, da bi imao i bogosluženje pod svojim okriljem. Život seljaka u takvoj oblasti zavisio je više od ličnosti gospodara nego od bilo kakvog daljeg, državnog zakona. Dušanov zakonik iz sredine 14. veka pokušao je da postavi opšta pravila — koliko se sme tražiti, kako se sudi, šta vlastelin ne sme učiniti — ali je već njegovim donošenjem priznato da takva pravila pre svega trebaju onima koji su prečesto bivali kršeni."
+    },
+    {
+      "type": "paragraph",
+      "text": "Odnos vlastele prema kruni bio je sastavljen od službe i pregovora. Vlastela je dolazila na dvor, ratovala u kraljevim, pa carevim ratovima, dobijala činove i darove. Ali zakoni i krupne odluke nisu donošeni bez sabora — skupština na kojima su, pored vladara i visokog sveštenstva, sedeli i prvaci vlastele. Sabor je 1219. potvrdio autokefalnost Srpske crkve, sabori su proglasili carstvo 1346. i krunisali Dušana, sabori su donosili i potvrđivali zakonik. Vladar je vladao sa vlastelom, a ne nad njom; kada bi se taj odnos pokvario, država je počinjala da puca."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sa crkvom vlastela je delila ulogu trećeg stuba poretka. Velike porodice bile su ktitori manastira — podizale su crkve, darivale im sela i prihode, sahranjivane su u njihovim pripratama. Mnogi krupni vlastelini završavali su život u monaštvu, kao i sami Nemanjići pre njih. Crkva je sa svoje strane priznavala njihovu zemljišnu moć, a država je tu trostranu ravnotežu — kruna, vlastela, crkva — pokušavala da održi i u Dušanovom zakoniku, koji štiti i vladarevu vlast, i crkvene posede, i prava vlastelinske baštine."
+    },
+    {
+      "type": "paragraph",
+      "text": "U Dušanovo vreme među vlastelom su izrasle porodice koje su u svojim oblastima već bile gotovo suverene: Mrnjavčevići na jugu, Balšići u Zeti, Vojislav Vojinović u zaleđu Dubrovnika i drugi. Dok je sam Dušan bio živ, njegova ličnost i ugled držali su ih u carskom sklopu. Kada se posle 1355. centralna vlast oslabila, krupne porodice su sopstvene oblasti pretvorile u svoje države, sa svojim novcem, vojskama i međusobnim ratovima. Carstvo se nije raspalo zato što su vlastelu izmislili Dušanovi naslednici, već zato što je rast moći vlastele tekao decenijama, a kruna je tek u krizi otkrila koliko je u međuvremenu izgubila. Tu se najjasnije vidi šta je vlastela bila — ne samo sloj gospodara, nego deo same vladarske mašine, koja je, dok je radila zajedno sa krunom, držala državu, a kada je radila sama, raznela ju je u nekoliko pokrajina. Slika koju imamo o tom svetu sastavljena je iz povelja, Dušanovog zakonika i vizantijskih vesti, pa pojedine porodične istorije ostaju delimično rekonstruisane i mestimično nesigurne."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

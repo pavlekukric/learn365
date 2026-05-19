@@ -6,13 +6,53 @@
   "dayNumber": 238,
   "order": 8,
   "title": "Knez Mihailo — reforme",
+  "subtitle": "Druga vladavina Mihaila Obrenovića: modernizacija odozgo, ideja Srbije kao Pijemonta Balkana i autoritarni stil",
   "readingTimeMinutes": 8,
   "year": 1860,
-  "isPlaceholder": true,
+  "dateLabel": "1860–1868.",
+  "timelinePosition": "1860–1868.",
+  "summary": "Druga vladavina kneza Mihaila donela je Srbiji niz krupnih zakona, jaku vladu Ilije Garašanina i ideju balkanskog saveza protiv Osmanlija — sve to bez parlamenta, prosvetiteljskim apsolutizmom koji je hranio buduću opoziciju.",
+  "keyPeople": ["Mihailo Obrenović", "Ilija Garašanin", "Filip Hristić", "Jovan Ristić", "Julija Hunjadi", "Katarina Konstantinović"],
+  "keyPlaces": ["Beograd", "Kragujevac", "Topčider"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Kada je u jesen 1860. godine, posle smrti oca Miloša, knez Mihailo Obrenović po drugi put preuzeo srpski presto, na njega je seo zreo čovek od četrdeset dve godine, sa iskustvom prve, kratke vladavine iz tridesetih, sa dugim godinama izgnanstva u Beču i Pešti, i sa jasnom predstavom o tome šta hoće. Srbija je za njega bila nedovršena država — autonomna kneževina pod sultanovom vrhovnom vlašću, sa turskim posadama u gradovima, bez moderne vojske, bez uređenog sudstva, bez razvijenih opština. Sve to je nameravao da promeni, i to po sopstvenoj zamisli, bez parlamentarnih rasprava koje je smatrao gubljenjem vremena."
+    },
+    {
+      "type": "paragraph",
+      "text": "U osnovi njegove politike stajala je jedna ideja koja se u to vreme šaputala u Beogradu, Cetinju i Atini: Srbija treba da postane Pijemont Balkana. Poređenje je bilo i jasno i smelo. Sardinsko kraljevstvo, sa Torinom kao prestonicom, upravo je između 1859. i 1861. godine, kroz ratove i diplomatiju Kavura i Garibaldija, objedinilo razjedinjenu Italiju u jednu nacionalnu državu. Mihailo je verovao da slična uloga čeka Srbiju — da ona, kao mali ali uređeni centar, okupi balkanske hrišćane i povede ih u zajedničkom ustanku protiv Osmanskog carstva. Iz te zamisli proizlazile su sve njegove unutrašnje reforme: država je morala biti uređena i jaka pre nego što krene u takav posao."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Zakoni i ministri"
+    },
+    {
+      "type": "paragraph",
+      "text": "Šezdesete godine devetnaestog veka donele su Srbiji niz osnovnih zakona koji su zamenili često improvizovana rešenja iz Miloševog vremena. Zakon o ustrojstvu opština i Zakon o opštinskim sudovima dali su selima i varošima jasniji okvir samouprave, makar i pod čvrstom kontrolom okružnih vlasti. Zakon o narodnoj vojsci iz 1861. godine — kome će ovaj kurs posvetiti zasebnu lekciju — pretvorio je gotovo svakog odraslog seljaka u vojnog obveznika, sa puškom u kući i sa zaduženjem u rezervi. Zakonom o sudovima iz 1865. uređena je hijerarhija prvostepenih sudova, apelacionog suda i kasacije, sa korakom ka razdvajanju sudstva od izvršne vlasti. Sve to nije bilo blistavo ni dovršeno, ali je činilo okvir moderne države tamo gde ga ranije nije bilo."
+    },
+    {
+      "type": "paragraph",
+      "text": "Mihailo je imao i ljude. Na čelo vlade i u Ministarstvo inostranih dela vratio je Iliju Garašanina, već tada starog majstora srpske diplomatije i tvorca čuvenog „Načertanija” iz 1844. godine. Garašanin je bio nezamenljiv u razgovorima sa stranim diplomatama, ali i u tihim vezama sa hrišćanskim prvacima izvan Srbije. Uz njega je rastao mlađi naraštaj — Filip Hristić, koji je jedno vreme bio predsednik vlade, i mladi Jovan Ristić, koji će tek u narednim decenijama postati glavno ime srpske spoljne politike. Vladu je činio uzak krug činovnika i pravnika lično odanih knezu; ona je radila brzo, bez javnih rasprava, što je u nekim oblastima bila prednost a u drugim ozbiljna mana."
+    },
+    {
+      "type": "paragraph",
+      "text": "Najosetljivije pitanje bilo je pitanje skupštine. Ustavobraniteljska Srbija je u svom najboljem trenutku znala za narodne skupštine kao za telo koje, makar i grubo, izražava volju zemlje. Mihailo je takvo razumevanje političkog života smatrao preuranjenim. Narod je, govorio je u poverljivim razgovorima, još uvek nezreo za parlamentarizam; većina je nepismena, navikla na vlast jakog domaćina, i opasno je davati joj zakonodavna prava pre nego što bude prosvećena. Skupština je zato sazivana retko i samo kao savetodavna; o krupnim pitanjima odlučivao je knez sa svojim ministrima. To je bio prosvetiteljski apsolutizam u svom srpskom izdanju — modernizacija odozgo, sa iskrenom namerom da se zemlja podigne, ali bez priznavanja da bi i sami narodni predstavnici mogli imati šta da kažu."
+    },
+    {
+      "type": "paragraph",
+      "text": "Spoljna politika kretala se uporedo sa unutrašnjom. Garašanin je tih godina, po Mihailovom uputstvu, tkao mrežu pregovora koja je trebalo da se pretvori u balkanski savez. Sa Crnom Gorom i sa kneževinom Rumunijom potpisani su sporazumi; sa bugarskim prvacima, sa grčkom vladom i sa pojedinim albanskim glavarima vođeni su tajni razgovori o zajedničkom ustanku protiv Osmanlija. Plan nikada nije sazreo do otvorenog rata, jer su se interesi pojedinih učesnika razilazili, a velike sile — pre svega Austrija — pažljivo motrile da ravnoteža na Balkanu ne bude poremećena. Ipak, sama činjenica da je iz Beograda mogao da se vodi takav posao govorila je o novom mestu Srbije u regionu."
+    },
+    {
+      "type": "paragraph",
+      "text": "Mihailov lični život ulazio je u te godine kao senka koja se nije dala sakriti. Brak sa grofovskom kćerkom Julijom Hunjadi, sklopljen još u izgnanstvu, raspao se 1865. godine bez naslednika; usledila je otvorena romansa sa rođakom Katarinom Konstantinović, koja je u konzervativnoj sredini izazivala mrmljanje i u crkvi i u građanstvu. Knez je nameravao da brak ozakoni, što je dodatno udaljavalo deo njegovih nekadašnjih pristalica. Sve to nije rušilo državu, ali je polako trošilo onu nemu saglasnost na koju je njegov autoritarni stil računao."
+    },
+    {
+      "type": "paragraph",
+      "text": "Kada se danas, posle više od veka i po, sve sabere, valja reći pošteno: knez Mihailo je između 1860. i 1868. godine doneo Srbiji više stvarne modernizacije nego bilo koji vladar pre kralja Petra Prvog. Pod njim su sazidani okviri savremene uprave, sudstva i vojske, izvojevana je predaja gradova 1867. — kojoj ovaj kurs takođe posvećuje zasebnu lekciju — i postavljen je temelj za buduće širenje države. A ipak, način na koji je sve to izvedeno — bez parlamenta, bez javne rasprave, sa činovničkim aparatom odanim samo knezu — hranio je u tišini opoziciju koja će se u sledećoj generaciji uobličiti kao radikalski pokret. Sve se završilo iznenada, 29. maja 1868. godine, u Topčideru, atentatom o kome će biti reči posebno; ali već u tom poslednjem letu njegove vladavine, pažljivijem posmatraču bilo je jasno da modernizacija bez slobode ne može trajati zauvek."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

@@ -6,13 +6,53 @@
   "dayNumber": 30,
   "order": 2,
   "title": "Konstantin Veliki — uspon",
+  "subtitle": "Od dečaka na Dioklecijanovom dvoru do jedinog gospodara rimskog sveta",
   "readingTimeMinutes": 8,
   "year": 272,
-  "isPlaceholder": true,
+  "dateLabel": "oko 272–337.",
+  "timelinePosition": "oko 272–324.",
+  "summary": "Put Konstantinov od rođenja u Naisu, preko vojničkog uspona u tetrarhiji i bitke na Milvijskom mostu, do pobede nad Licinijem 324. godine i ujedinjenja celog Carstva pod jednim carem.",
+  "keyPeople": ["Konstantin", "Konstancije Hlor", "Jelena", "Maksencije", "Licinije", "Galerije"],
+  "keyPlaces": ["Naissus", "Jork", "Milvijski most", "Rim"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Pre nego što je Konstantin postao car koji će promeniti odnos države prema hrišćanstvu, bio je oficir, sin oficira i unuk vojničkog sveta koji se rodio na Balkanu. Njegov put od dečaka u provincijskom Naisu do jedinog gospodara rimskog sveta trajao je više od pola veka, vodio je preko Britanije, Galije i Italije, i nije bio ni pravolinijski ni unapred zacrtan. Pre nego što stigne do krsta na štitovima i sabora u Nikeji, treba pažljivo ispričati kako je čovek koji će sve to omogućiti uopšte došao do vrha — jer taj uspon nije bio božanski znak, nego vojnička i politička bitka."
+    },
+    {
+      "type": "paragraph",
+      "text": "Rodio se u Naisu, na tlu današnjeg Niša, oko 272. godine. Tačan datum nije sigurno zabeležen, kao što je za većinu ondašnjih ljudi i očekivano, pa se u izvorima sreću različite procene; pouzdano je samo mesto. Otac mu je bio Konstancije, oficir balkanskog porekla, kog će savremenici po bledom licu nazvati Hlor. Majka mu je bila Jelena, žena skromnog porekla — predanje govori o gostioničarki iz Bitinije — koja će, mnogo decenija kasnije, postati hrišćanska svetiteljka. U trenutku Konstantinovog rođenja porodica nije pripadala vrhu carstva; još su, kako se često dešavalo u rimskoj vojsci, bili na putu uspona iz redova oficirskog kadra koji je carstvo držao u jeku krize trećeg veka."
+    },
+    {
+      "type": "paragraph",
+      "text": "Konstantinovo detinjstvo poklopilo se sa velikim Dioklecijanovim preuređenjem. Da bi se carstvo bolje branilo, podeljeno je na četiri upravne četvrtine, sa dva augusta i dva mlađa cara — cezarima — koji su sa njima upravljali. Konstancije je 293. godine postao jedan od cezara i dobio na upravu zapadne provincije, sa težištem na Galiji i Britaniji. Mladi Konstantin, međutim, nije pošao sa ocem. Ostao je na istoku, na Dioklecijanovom dvoru u Nikomidiji — formalno kao mlad oficir, suštinski kao jemstvo da će se njegov otac, daleko na zapadu, držati dogovora. Bio je to običaj tog doba: sinovi velikih vojskovođa živeli su pod paskom drugih careva, i sami su učili politiku i vojnički zanat, ali su istovremeno bili tihi taoci."
+    },
+    {
+      "type": "paragraph",
+      "text": "Tu je odrastao i obrazovao se u senci najmoćnijih ljudi carstva. Učio je vojni zanat, latinski i grčki, gledao iz neposredne blizine kako se vodi politika tetrarhije. Posmatrao je i poslednji veliki progon hrišćana, koji je Dioklecijan pokrenuo posle 303. godine — što će ostaviti traga, premda još ne onakvog kakav će se kasnije pripisivati toj uspomeni. Kada je 305. Dioklecijan abdicirao, a Konstancije postao august zapada, Konstantin je dobio dozvolu da napusti istok i pridruži se ocu. Pojavio se u Britaniji upravo na vreme — sledeće, 306. godine, Konstancije je u Eboraku, današnjem Jorku, neočekivano umro. Vojska, navikla da svog cara bira sama, proglasila je za novog augusta upravo njegovog sina."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Od jednog cara među mnogima do jedinog gospodara"
+    },
+    {
+      "type": "paragraph",
+      "text": "Tako, gotovo preko noći, postaje Konstantin jedan od igrača u sistemu koji se već raspadao. Tetrarhija je zamišljena da spreči građanski rat, ali je u praksi proizvela suprotno. Nakon Konstancijeve smrti pojavili su se istovremeno: stariji august istoka Galerije, koji je formalno bio glavni; Maksencije, sin bivšeg augusta Maksimijana, koji se proglasio carem u Rimu; sam Maksimijan, koji se vratio iz povlačenja; Licinije, kog je Galerije uzdigao da uravnoteži zapad; i Konstantin, sa svojim legijama u Britaniji i Galiji. Nije bilo prostora za sve. Carstvo je u sledećih osamnaest godina prošlo kroz seriju ratova, savezništava i izdaja koje su, jedne za drugima, uklanjale suparnike."
+    },
+    {
+      "type": "paragraph",
+      "text": "Konstantin je u toj igri postupao strpljivo. Prvo je učvrstio vlast u Galiji i Britaniji, vodio uspešne pohode protiv germanskih plemena duž Rajne, sticao ugled i odanost vojske. Sa Maksimijanom je sklopio savez i oženio njegovu kćer Faustu — pa će se kasnije, kada se Maksimijan okrenuo protiv njega, taj savez tragično završiti. Tek pošto je zapad učvrstio i posle dugog političkog manevrisanja, krenuo je 312. godine u Italiju, na Maksencija. Ishod je odlučen 28. oktobra te godine na Milvijskom mostu nadomak Rima — Maksencije je poražen i utopio se u Tibru, a Konstantin je ujahao u Rim kao novi gospodar zapada."
+    },
+    {
+      "type": "paragraph",
+      "text": "Uz bitku na Milvijskom mostu vezuje se i poznata pripovest o viđenju krsta na nebu, sa porukom o pobedi u tom znaku. Tu priču u različitim oblicima beleže dvojica hrišćanskih pisaca tog doba, Laktancije i Euzebije, ali se njihovi opisi međusobno razlikuju — jedan govori o snu, drugi o danjem znamenju — i savremena nauka prema njoj prilazi sa oprezom, kao prema dokumentu vere koliko i istorije. Šta je Konstantin tačno mislio uoči bitke nije moguće pouzdano znati. Ono što je sigurno jeste da posle Milvijskog mosta njegova politika prema hrišćanima neće više biti politika ravnodušnosti; ali to je već tema sledeće lekcije."
+    },
+    {
+      "type": "paragraph",
+      "text": "Posle Rima ostao je još jedan rival. Na istoku je vladao Licinije, isprva saveznik s kojim je Konstantin podelio carstvo i sklopio porodičnu vezu udajom svoje sestre Konstancije. Savez nije potrajao. Posle nekoliko godina napetosti i kraćih sukoba, došlo je 324. godine do otvorenog rata. Konstantin je pobedio Licinija prvo kod Hadrijanopolja, a zatim presudno kod Hrisopolja, preko Bosfora od današnjeg Carigrada. Licinije se predao, a kratko zatim je i pogubljen. Tog časa, prvi put posle gotovo četrdeset godina, jedan čovek je nosio titulu rimskog cara u celom svetu od Britanije do Sirije. Iz Naisa, preko Jorka i Rima, do Hrisopolja, Konstantin je stigao do vrha — i tek je sada počinjao da gradi ono po čemu će ga istorija najviše pamtiti."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

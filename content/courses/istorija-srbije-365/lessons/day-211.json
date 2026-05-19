@@ -6,13 +6,57 @@
   "dayNumber": 211,
   "order": 16,
   "title": "Odmazda i stradanje",
+  "subtitle": "Šta je značio osmanski povratak u Srbiju u jesen 1813. i kako je nasilje 1813–1814. obeležilo srpsko pamćenje",
   "readingTimeMinutes": 7,
   "year": 1813,
-  "isPlaceholder": true,
+  "dateLabel": "1813–1814.",
+  "timelinePosition": "1813–1814.",
+  "summary": "Osmanska odmazda nad pobunjenom Srbijom posle sloma Prvog ustanka: paljevine, ubistva, robljenje žena i dece, ali i prvi znaci da stari poredak više ne može jednostavno da se vrati.",
+  "keyPeople": ["Sulejman-paša Skopljak", "Stanoje Glavaš", "Miloš Obrenović"],
+  "keyPlaces": ["Beograd", "Šumadija", "Sava", "Dunav"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Kada su u jesen 1813. godine osmanske trupe prešle preko Morave i izbile pred Beograd, jedan deo Srbije već je bio prazan. Karađorđe i veći broj starešina prešli su preko Save i Dunava u habsburšku zemlju; sa njima je krenula i kolona naroda koja se još nedeljama vukla pored reka. Ali iza te kolone ostao je drugi deo naroda — oni koji nisu imali snage, vremena ili volje da napuste svoje selo. Na njima se prelomila osmanska odmazda, i upravo njihov položaj odredio je kako će zima 1813. i godina 1814. ući u srpsko pamćenje."
+    },
+    {
+      "type": "paragraph",
+      "text": "Osmanska država u povratku nije nastupila slučajno. Postojala je smišljena namera da se vlast obnovi kroz strah, da se pobunjeno stanovništvo kazni i da se unapred unište mogući temelji nove bune. Uz redovnu vojsku išle su i neregularne čete — bosanski odredi sa zapada, arnautske formacije sa juga — kao i beogradski Turci koji su se vraćali na svoje kuće i imanja posle gotovo decenije izgnanstva. Te mešovite snage prošle su Šumadijom i Pomoravljem u talasima, od kasnog leta do kraja godine, ostavljajući za sobom spaljena sela i prazna ognjišta."
+    },
+    {
+      "type": "paragraph",
+      "text": "Nasilje je imalo prepoznatljiv obrazac. Muškarci za koje se sumnjalo da su nosili oružje ubijani su na licu mesta ili izvođeni pred sud koji je presuđivao po kratkom postupku. Uhvaćene starešine smaknute su javno, a najteža kazna — nabijanje na kolac — primenjivana je upravo zato da bi je videlo što više ljudi. Žene i deca odvođeni su u zarobljeništvo. Beogradska pijaca robova, koja je u prethodnim decenijama izgubila značaj, nakratko je oživela; iz Beograda su roblje otpremano dalje, preko Niša i Sofije, ka većim tržištima na istoku. Pojedini manastiri i crkve bili su opljačkani ili oskrnavljeni, mada se osmanska komanda na nekim mestima trudila da zaštiti veće svetinje radi mira sa rajom."
+    },
+    {
+      "type": "paragraph",
+      "text": "Brojke ovog stradanja teško je utvrditi sa sigurnošću. Savremeni izveštaji habsburških oficira sa Save, austrijskih konzula i ruskih agenata govore o desetinama hiljada izbeglica koje su prešle granicu, o velikom broju ubijenih i o „mnogim hiljadama“ odvedenih u ropstvo; pojedine procene koje se kasnije navode kreću se do nekoliko desetina hiljada zarobljenih žena i dece, ali su istoričari oprezni jer nije sačuvana pouzdana evidencija. Sigurno je da je raseljavanje bilo masovno, da su mnoga sela ostala bez stanovnika i da neka od njih nikada nisu obnovljena. U srpskom kolektivnom sećanju, upravo robljenje žena i dece ostalo je najdublja rana — dublja čak i od ratnih gubitaka, jer je dirala u osećaj da zajednica ne može da zaštiti svoje najslabije."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Obnova vlasti i njena cena"
+    },
+    {
+      "type": "paragraph",
+      "text": "Na čelu obnovljene beogradske uprave našao se Sulejman-paša Skopljak, čovek koji je već ranije bio beogradski vezir i koji se sada vraćao na staro mesto. U poređenju sa nekim od najsurovijih osmanskih zapovednika, smatran je umerenim — više državnikom nego krvnikom — ali je upravo on rukovodio tvrdom restauracijom. Janjičari su se vraćali u Beograd, oprezniji nego u doba dahija, jer je Porta dobro pamtila kuda je odvelo njihovo bezakonje. Oštećene džamije obnavljane su, gradske kapije ponovo stražarene, a sav teret rajinskih obaveza — porez, kuluk, desetina, vanredne dažbine — vraćen je hrišćanskom seljaku, često sa zaostacima iz ratnih godina."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pa ipak, vraćanje na stanje pre 1804. nije bilo moguće u potpunosti. Porta je naučila da gola sila proizvodi novu bunu i pristala je na ograničene ustupke. Kneževske službe u selima i nahijama dozvoljene su tamo gde su postojale; sveštenstvo je nastavilo da deluje; nekima od starešina koji su prešli u Austriju ponuđen je oprost ako se vrate i polože oružje. Među onima koji su to prihvatili bio je i mladi Miloš Obrenović, tada još jedna od sporednih figura ustanka, koji se vratio u rudničku nahiju i počeo da gradi novu mrežu odnosa sa osmanskim vlastima. U planinskim skrovištima opstali su pojedini ratnici, među njima i Stanoje Glavaš, ali je njihov broj bio mali i njihova borba sve više ličila na hajdučki život nego na ustanak."
+    },
+    {
+      "type": "paragraph",
+      "text": "Već u jesen 1814. izbila je u kragujevačkom kraju kratka pobuna vezana za ime Hadži-Prodana Gligorijevića — pokušaj koji je vrlo brzo ugušen, ali koji je pokazao da Srbi nisu spremni da prihvate stari poredak na starim uslovima. O njoj će biti više reči u sledećoj lekciji; ovde je dovoljno zabeležiti da su nasilje 1813. i nemir 1814. tekli zajedno, kao uzrok i posledica."
+    },
+    {
+      "type": "paragraph",
+      "text": "Psihološki, te dve godine ostavile su trag dublji od trenutnih gubitaka. Filip Višnjić i drugi guslari ispevali su neke od svojih najtežih pesama upravo o stradanju iz 1813. — o robljenju, o seobama preko Save, o spaljenim selima. Iz tog iskustva niknula je i drugačija ratna mudrost. Sledeći ustanak, koji će izbiti svega dve godine kasnije, neće više polagati nadu u velike bitke i strane saveznike; biće oprezniji, više okrenut pregovorima, više svestan koliko narod može da podnese pre nego što pukne. Paradoks je očigledan i istoričari ga otvoreno priznaju: tvrda odmazda kojom je Porta htela da onemogući novu bunu zapravo ju je učinila neizbežnom. Ista logika koja je 1804. naterala seljaka da uzme pušku ponovo je radila, sada na još opustošenijem terenu."
+    },
+    {
+      "type": "paragraph",
+      "text": "Zato je razdoblje 1813–1814. teško svesti na jednu rečenicu. Bilo je to vreme stvarnog stradanja, koje treba imenovati bez ulepšavanja, ali i bez pretvaranja istorijskih ljudi u karikature; osmanski zapovednici, kao i srpski starešine, bili su ljudi svog doba i svojih interesa. Iza dima spaljenih sela ostala je jedna jednostavna činjenica: stari odnos između osmanske države i srpske raje pukao je i nije se više dao popraviti. Ono što će na tom mestu izrasti — pažljivo, postupno, gotovo nečujno u prvim mesecima — pripada već sledećoj glavi ove priče."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

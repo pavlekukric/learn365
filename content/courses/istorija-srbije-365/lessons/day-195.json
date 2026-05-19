@@ -6,13 +6,57 @@
   "dayNumber": 195,
   "order": 10,
   "title": "Uoči Srpske revolucije — pregled",
+  "subtitle": "Tri i po veka bez države, i sve ono što se za to vreme tiho slagalo u temelj onoga što će uslediti 1804. godine",
   "readingTimeMinutes": 8,
   "year": 1803,
-  "isPlaceholder": true,
+  "dateLabel": "pregled",
+  "timelinePosition": "pregled",
+  "summary": "Sažet pregled tri i po veka srpskog života pod osmanskom i habzburškom vlašću: šta je izgubljeno, šta sačuvano i koji su elementi do 1803. godine sazreli u uslove za Srpsku revoluciju.",
+  "keyPeople": [],
+  "keyPlaces": [],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Pre nego što pređemo prag 1804. godine i uđemo u priču o Prvom srpskom ustanku, vredi zastati. Stojimo na kraju jedne dugačke epohe — one koja je počela 1459. padom Smedereva, a završava se uoči događaja koji će srpski narod ponovo, posle skoro tri i po veka, vratiti na evropsku političku mapu. Ova lekcija nije nova priča, nego pogled unazad: pokušaj da se u jednoj slici vidi sve ono što je u dosadašnjim danima ispričano u delovima, i da se razume zašto je upravo početkom devetnaestog veka, a ne ranije i ne kasnije, postalo moguće ono što je dotad izgledalo nemoguće."
+    },
+    {
+      "type": "paragraph",
+      "text": "Polazna tačka bila je teška koliko može biti. Sredinom petnaestog veka srpska država je ugašena, Despotovina je nestala, vladajući rod se rasuo, a poslednji ostaci samostalnosti u Zeti, Hercegovini i Bosni padali su u narednim decenijama. Crkva, koja je vekovima išla uz državu, ostala je bez svog zaštitnika; Pećka patrijaršija je već 1463. godine ukinuta i potčinjena Ohridskoj arhiepiskopiji. Plemstvo se podelilo: jedan deo izginuo, drugi se sklonio na sever pod ugarsku vlast, treći se utopio u osmanski poredak. Iznad seoskog praga, gotovo nijedna srpska institucija nije ostala. Bio je to potpun politički prekid — narod bez države, bez crkvenog središta, bez svog grada."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ono što je nestalo bilo je ogromno; ono što je preživelo bilo je, srećom, dovoljno. Sačuvao se jezik, jer se prenosio kućom i selom, mimo svake vlasti. Sačuvala se vera, jer se za nju nije tražila dozvola. Sačuvala se crkvena organizacija, najpre u manastirima koji su izdržali najteže decenije, a potom i kroz obnovljenu Patrijaršiju. Sačuvalo se istorijsko sećanje — najpre kroz epsku pesmu, koja je o Kosovu, o Marku i o despotima pevala u kućama gde se za pismeno nije znalo, a zatim i kroz pismeno predanje sačuvano u manastirskim ćelijama. To je bio kapital sa kojim se ušlo u dugu noć, i sa kojim se iz nje, posle toliko vremena, izlazilo."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Šta je tiho sazrevalo"
+    },
+    {
+      "type": "paragraph",
+      "text": "Tokom ovih vekova, gotovo neprimetno za svako pojedinačno pokolenje, slagali su se elementi bez kojih revolucija na početku devetnaestog veka ne bi bila moguća. Obnova Pećke patrijaršije 1557. godine vratila je srpskoj zajednici institucionalnu kičmu — telo koje je išlo preko granica paša, preko mora i preko Save i Dunava, i koje je narod video kao svoje. Crna Gora je, u brdima koje osmanska vojska nikada nije do kraja pokorila, održala neprekinutu nit srpskog političkog života, najpre kroz plemenske skupštine, potom kroz vladičansku državu Petrovića. Velike seobe, posebno ona iz 1690. godine, stvorile su krupnu srpsku zajednicu u Habzburškoj monarhiji, sa privilegijama, sa svojom crkvenom hijerarhijom i sa sopstvenim institucijama u Karlovcima."
+    },
+    {
+      "type": "paragraph",
+      "text": "Iz te habzburške grane, tokom osamnaestog veka, izrastao je sloj kakav južno od Save dotad nije postojao — sloj školovanih, obrazovanih ljudi. Dositej Obradović je svojim spisima razdvojio veru od neznanja i pokazao da prosvećenost ne ugrožava ono što je vredno čuvanja, nego ga upravo i čuva. U isto vreme, srpski trgovci u Trstu, Beču, Pešti i Novom Sadu skupljali su kapital, povezivali balkanske palanke sa evropskim tržištima i finansirali škole, štampu i crkve. Ekonomska osnova, koja u petnaestom veku gotovo da nije postojala, sada je polako rasla. Uz to je išla i oružana tradicija: hajduci na granicama, frajkori u austrijskim ratovima, crnogorske čete u svojim brdima — sve to je značilo da vojničko iskustvo nikada nije sasvim prekinuto."
+    },
+    {
+      "type": "paragraph",
+      "text": "Iznad svega toga lebdela je epska pesma. Ona je, sa guslama u rukama slepih pevača, čuvala moralnu i istorijsku maštu naroda kroz vekove kada druge ustanove za to nisu postojale. Kosovo, Marko Kraljević, despoti, hajduci — sve je to ulazilo u svest dece pre svake škole, i stvaralo osećaj da je ono što se vidi oko sebe samo jedan trenutak duže priče. Kada su krajem osamnaestog veka strani putnici i učeni Srbi počeli da te pesme beleže, otkrili su da pred sobom imaju jedan od najbogatijih epskih zbornika u Evropi tog vremena."
+    },
+    {
+      "type": "paragraph",
+      "text": "Spoljni okvir takođe se menjao. Osmansko carstvo je do kraja osamnaestog veka pokazivalo jasne znake unutrašnjeg slabljenja — neuspele reforme, sve veću samovolju lokalnih moćnika, gubitke u ratovima sa Habzburzima i Rusima. Ono što je nekada bilo gotovo nepomerivo, sada je postalo strateški propustljivo. U Beogradskom pašaluku taj proces je dobio surov, ali za istoriju presudan oblik: vlast dahija od 1801. godine, a zatim Seča knezova početkom 1804. godine, prevele su dugo nakupljani potencijal u trenutno dejstvo. Ono što je vekovima bilo mogućnost, postalo je nužnost."
+    },
+    {
+      "type": "paragraph",
+      "text": "Tako su se, prvi put posle 1459. godine, na jednom mestu i u jednom trenutku našli svi sastojci. Postojao je vodeći sloj — knezovi, frajkorski veterani, trgovci, učeni ljudi iz Karlovaca. Postojala je obnovljena demografska i privredna osnova — seljaštvo koje se umnožilo i trgovina koja je donosila novac. Postojala je institucionalna podloga — crkva, privilegije Habzburških Srba, veze sa Rusijom i Austrijom. Postojala je strateška prilika — slabljenje Carstva i konkretna nepravda dahija. I postojala je psihološka spremnost — epsko pamćenje koje je davalo smisao, i prosvetiteljska nada koja je davala pravac. Sve to zajedno nije se moglo desiti ranije, i nije moralo da čeka duže."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ono što sledi pripada novoj epohi. Prvi srpski ustanak 1804–1813. godine i Drugi ustanak 1815–1817, posmatrani zajedno, čine ono što istoričari nazivaju Srpskom revolucijom — dugotrajan proces u kome se moderna srpska država rađa iz ustanaka, pregovora, ratova i postepenih dogovora sa Portom. Ti događaji odigraće se u istom evropskom dobu kao Napoleonovi ratovi, Grčki ustanak i čitav talas romantičarskog nacionalizma. Srpska revolucija biće prvi trajno uspešan ustanak balkanskih hrišćana protiv Osmanskog carstva i otvoriće put svima koji će za njom poći. Ali to je priča za dane koji slede. Za sada je dovoljno reći ovo: kada Karađorđe i knezovi budu krajem zime 1804. godine u Orašcu doneli odluku, neće je doneti iz vedra neba, nego iz tri i po veka strpljivog, često nevidljivog čuvanja onoga što je trebalo sačuvati."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

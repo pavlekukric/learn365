@@ -6,13 +6,49 @@
   "dayNumber": 224,
   "order": 12,
   "title": "Turski ustav iz 1838.",
+  "subtitle": "Sultanov hatišerif koji ograničava kneževu vlast i uvodi Sovjet od sedamnaest doživotnih savetnika",
   "readingTimeMinutes": 7,
   "year": 1838,
-  "isPlaceholder": true,
+  "dateLabel": "1838.",
+  "timelinePosition": "1838.",
+  "summary": "Posle ukinuća Sretenjskog ustava, Porta 1838. godine izdaje hatišerif koji ograničava kneževu vlast i daje moć Sovjetu od sedamnaest doživotnih senatora — pravnu prekretnicu koja će dovesti do Miloševe abdikacije i režima ustavobranitelja.",
+  "keyPeople": ["Miloš Obrenović", "Mahmud II", "Abdul Medžid", "Toma Vučić Perišić", "Avram Petronijević"],
+  "keyPlaces": ["Carigrad", "Kragujevac", "Beograd", "Sankt Peterburg"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Kada je u proleće 1835. godine Sretenjski ustav ukinut pod pritiskom Porte, Rusije i Austrije, srpsko pitanje uređenja nije bilo zatvoreno — samo odloženo. Knez Miloš se vratio starom načinu vladanja, ali je svima bilo jasno da se na duže staze ne može živeti bez nekog pisanog okvira. Iza kulisa je počela trogodišnja pregovaračka igra u kojoj su učestvovali srpski poslanici u Carigradu, ruska diplomatija, turska Porta i unutrašnja opozicija knezu. Ishod nije bio dokument koji bi napisala srpska skupština, niti onaj koji bi knez sam podario svom narodu, već — naizgled paradoksalno — sultanov hatišerif izdat iz Carigrada."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pregovori su tekli sporo i sa više glavnih boli. Miloš je tražio uređenje koje bi mu ostavilo što širu vlast i u kojem bi savet, ako ga već mora biti, bio njegov pomoćni alat. Opozicija — pre svih ljudi okupljeni oko Tome Vučića Perišića i Avrama Petronijevića — tražila je upravo obrnuto: snažno telo koje bi knezu vezalo ruke. Rusija je, kao garant Akermanske konvencije i Jedrenskog mira, želela uređenje koje neće zavisiti od jednog čoveka i koje će joj ostavljati uticaj. Porta je, pak, htela da očuva formu vrhovne vlasti i da Srbiju zadrži kao samoupravnu, ali jasno svoju oblast. Iz tog četvorouglovog rvanja izašao je kompromis bliži opoziciji i Rusiji nego knezu."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sultan Mahmud II, koji je celu deceniju pre toga vodio reforme u samoj Osmanskoj državi, umro je u leto 1839. godine, pa je konačnu redakciju i izdavanje hatišerifa formalno potpisao njegov mladi naslednik Abdul Medžid. Sam dokument je nosio decembarski datum 1838. godine i u Srbiji je odmah dobio ime po onome ko ga je izdao — „Turski ustav”. Ime je donekle nepravedno, jer su tekst u suštini sklopili srpski pregovarači sa ruskom podrškom, ali je tačno označavalo izvor pravne snage: dokument nije proistekao iz srpske narodne skupštine, nego iz volje vrhovnog vladara, sultana, kao gospodara Beogradskog pašaluka."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Sovjet od sedamnaest"
+    },
+    {
+      "type": "paragraph",
+      "text": "Srž novog uređenja bila je u jednom telu — Sovjetu. To je bio savet od sedamnaest članova, takozvanih senatora, koje je knez postavljao iz redova „uglednih i sposobnih” ljudi, ali sa odlučujućim zahvatom: jednom postavljeni, senatori su bili doživotni i nisu se mogli smeniti bez saglasnosti Porte. Knez je, drugim rečima, imao pravo da ih bira, ali ne i pravo da ih otpusti kad mu se ne svide. To je iz korena menjalo logiku vlasti. Sovjet je morao da učestvuje u zakonodavstvu, u finansijama, u imenovanjima viših činovnika. Knez više nije mogao da uzima državni novac kao svoj, niti da iz inata smenjuje ljude. Svaka važna odluka morala je da prođe kroz savet."
+    },
+    {
+      "type": "paragraph",
+      "text": "Time se promenila i sama figura vlasti. Dotadašnji odnos knez–narod, u kojem je Miloš još mogao da se predstavlja kao narodni vođa koji direktno razgovara sa seljaštvom, zamenjen je trouglom knez–Sovjet–Porta. Sovjet je u praksi postao oslonjen na rusku i tursku zaštitu, jer je upravo njegova nesmenjivost bila garantovana spolja. Otuda i naziv koji su mu protivnici rano dali — „savetnička oligarhija”. Bila je to vlast nekoliko desetina ljudi, uglavnom iz redova trgovaca, knezova i činovnika, koji su sebe smatrali sposobnim da Srbiju izvedu iz Miloševog ličnog dvora ka uređenoj državi."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pošteno je reći ono što ovaj dokument jeste i ono što nije. Nije bio narodski ustav — narod ga nije doneo, niti je u njemu predviđena skupština kao stalno telo. Pravo glasa, predstavničku vlast, podelu vlasti u modernom smislu — ništa od toga hatišerif iz 1838. ne uvodi. Ali jeste bio pravna prekretnica. Knez prvi put više nije neograničen. Postoji telo koje pred njim stoji kao stalna granica, telo koje predstavlja jedan uži, „vlastelinski” sloj društva, ali ipak telo koje vlast čini deljivom. Paradoksalno, ova naredba sa istoka bila je u svom učinku liberalnija od Miloševog samovoljnog stila, a istovremeno manje narodski temeljena od Sretenjskog ustava koji je nekoliko godina ranije bio progutan."
+    },
+    {
+      "type": "paragraph",
+      "text": "Miloš se hatišerifu odupirao svim sredstvima koja je imao — molbom, odugovlačenjem, pretnjama abdikacijom. Ništa nije uspevalo. Sovjet je već bio sastavljen od ljudi koji su tačno znali zašto se nalaze u njemu. Pritisnut iznutra od opozicije i spolja od dve sile, Miloš je u junu 1839. godine abdicirao u korist sina Milana, otvarajući period u kojem će Srbijom najpre vladati Obrenovići pod nadzorom Sovjeta, a zatim, od 1842. do 1858. godine, takozvani ustavobranitelji — ljudi koji su upravo ovaj dokument smatrali svojim glavnim oružjem. Institucionalni značaj tih osamnaest godina teško je preceniti. Iz Miloševog ličnog dvora, u kojem su se papiri vodili u glavi kneza, Srbija je počela da prelazi u birokratsku državu sa ministarstvima, činovništvom, pisanim postupkom i savetom koji ne nestaje kad se vladar naljuti. „Turski ustav” jeste imao tuđe ime, ali je u srpskoj državnoj istoriji ostavio domaći trag."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

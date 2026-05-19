@@ -6,13 +6,53 @@
   "dayNumber": 338,
   "order": 1,
   "title": "Jugoslavija osamdesetih",
+  "subtitle": "Decenija u kojoj se posle Titove smrti polako rasipalo sve ono što je dotad držalo zemlju na okupu",
   "readingTimeMinutes": 8,
   "year": 1985,
-  "isPlaceholder": true,
+  "dateLabel": "1980–1988.",
+  "timelinePosition": "1980–1988.",
+  "summary": "Jugoslavija u osamdesetim godinama: dužnička i inflatorna kriza, kosovski nemiri 1981, kolektivno predsedništvo bez moći odluke i polako buđenje nacionalnih politika u svim republikama.",
+  "keyPeople": ["Sergej Kraigher", "Slobodan Milošević", "Dobrica Ćosić", "Ivan Stambolić"],
+  "keyPlaces": ["Beograd", "Priština", "Kosovo Polje", "Sarajevo", "Ljubljana"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Kada je u maju 1980. Josip Broz sahranjen u Beogradu, savezni vrh je svečano objavio da će se „i posle Tita — Titovim putem”. U narednim godinama ispostaviće se da je taj put već bio izlokan. Jugoslavija je u osamdesete ušla kao zemlja sa visokim spoljnim dugom, sa privredom koja je godinama živela iznad svoje proizvodne moći, i sa političkim sistemom koji je posle ustava iz 1974. bio osmišljen tako da niko sam ne može da donese krupnu odluku. Bila je to decenija u kojoj će se ekonomska kriza, ustavni zastoj i ponovo probuđena nacionalna pitanja sresti — i u kojoj će se polako, ne preko jednog događaja nego kroz mnogo malih, otvoriti put ka onome što će uslediti devedesetih."
+    },
+    {
+      "type": "paragraph",
+      "text": "Prvi udar došao je iz ekonomije. Procenjuje se da je do 1982. spoljni dug Jugoslavije dostigao oko dvadeset milijardi dolara, a zemlja je morala da pregovara sa Međunarodnim monetarnim fondom o reprogramu. Vlada je usvojila takozvani Stabilizacioni program, koji je pripremila komisija na čelu sa Sergejom Kraigherom, a koji je tražio drastične mere štednje i obezvređivanje dinara. Inflacija, koja je 1980. bila oko trideset odsto, do 1988. popela se na oko dvesta pedeset, a 1989. prerasla u hiperinflaciju. Realne plate padale su iz godine u godinu. Pojavile su se nestašice — kafe, šećera, ulja, a zatim i goriva; restrikcije struje su se vraćale, redovi za benzin postali su deo svakodnevice. Mladi ljudi sve teže su nalazili posao."
+    },
+    {
+      "type": "paragraph",
+      "text": "Politički sistem je sa tom krizom loše izlazio na kraj. Posle Titove smrti, predsedništvo SFRJ postalo je kolektivno: osam članova, po jedan iz svake republike i pokrajine, sa godišnjom rotacijom funkcije predsednika. Takvo ustrojstvo zamišljeno je da spreči koncentraciju moći, ali u praksi je značilo da niko ne snosi punu odgovornost i da se odluke odlažu dok ne postanu neizvodljive. Republike i pokrajine sve su otvorenije sledile sopstvene računice. Savezna vlada nije imala dovoljno mehanizama da utera jedinstvenu ekonomsku politiku, a partija — Savez komunista Jugoslavije — koja je dotad bila glavna spona, počela je da se raspada na osam manjih centara odlučivanja."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Kosovo, kultura, Memorandum"
+    },
+    {
+      "type": "paragraph",
+      "text": "Prva velika nacionalna kriza posle Tita izbila je na Kosovu. U martu i aprilu 1981. studentski protesti u Prištini, izazvani u početku banalnim povodima u studentskoj menzi, prerasli su u masovne demonstracije sa parolama „Kosovo Republika”. Savezno predsedništvo je proglasilo vanredno stanje, na Kosovo su poslate dodatne snage milicije i vojske, a posle smirivanja usledile su opsežne represije — hapšenja, suđenja, smene u kosovskom rukovodstvu i partiji. Među Albancima je ostao osećaj duboke nepravde, a u srpskoj javnosti počele su sve glasnije da se čuju vesti o iseljavanju Srba i Crnogoraca sa Kosova, o pritiscima i incidentima. Kosovo je u narednim godinama postalo tema oko koje će se prelamati skoro sve drugo."
+    },
+    {
+      "type": "paragraph",
+      "text": "Uporedo sa krizom, osamdesete su bile i godine snažnog kulturnog vrenja. U Beogradu i Zagrebu javio se novi talas — Idoli, Električni orgazam, Šarlo akrobata, Azra — sa zvukom koji je odudarao od ranije estradne Jugoslavije; u Sarajevu su „novi primitivci” i Top lista nadrealista satirom rasturali ono što se ozbiljnim tonom više nije dalo izgovoriti. Književnost je tematizovala dotad polupotisnuto: Goli otok, žrtve Drugog svetskog rata, sudbinu seljaka i običnog vojnika. Dobrica Ćosić je u Knjizi o Milutinu i drugim romanima glasno postavio pitanje srpske istorijske sudbine. Bila je to, u kulturnom smislu, jedna od najživljih jugoslovenskih decenija — upravo zato što je politika tonula."
+    },
+    {
+      "type": "paragraph",
+      "text": "U Srbiji je 1986. javnost potresao nedovršeni nacrt Memoranduma Srpske akademije nauka i umetnosti, koji je iscureo u štampu pre nego što je akademija stigla da ga usvoji ili odbaci. Dokument je tvrdio da je Srbija ustavom iz 1974. ekonomski i politički diskriminisana, da je njen položaj u federaciji nepravedan i da je sudbina Srba na Kosovu kritična. U drugim republikama Memorandum je primljen kao nacionalistički manifest; u Srbiji su jedni u njemu videli zakasnelo postavljanje pravog pitanja, drugi opasno otvaranje vrata. Sam dokument bio je samo deo šire promene tona, ali je postao simbol — i kasnije će se često, ne uvek tačno, citirati kao plan onoga što će tek doći."
+    },
+    {
+      "type": "paragraph",
+      "text": "U partijskim vrhovima generacija koja je nasledila ratne starešine donosila je nove ljude — i reformatore i nacionalno orijentisane političare. U Srbiji se posle aprila 1987, kada je u Kosovu Polju održao govor o zaštiti tamošnjih Srba, a zatim posle Osme sednice Centralnog komiteta Saveza komunista Srbije u septembru iste godine, kao novi prvi čovek partije nametnuo Slobodan Milošević, do tada bliski saradnik Ivana Stambolića. Slično se i u Sloveniji, Hrvatskoj i drugim republikama pomerao centar gravitacije ka temama nacionalnog identiteta i ekonomske samostalnosti. Tačno je: jedan deo savezne elite još je verovao u reformu zajedničke države, premijer Ante Marković će krajem decenije pokušati ozbiljan ekonomski preokret. Ali okvir u kome se to dešavalo svake godine je sve više pucao."
+    },
+    {
+      "type": "paragraph",
+      "text": "Iz današnje perspektive lako je tu deceniju ispričati kao pravolinijski put u rat. Savremenici je nisu tako videli. Većini građana osamdesete su bile, pre svega, godine sve težeg života — niskih plata, redova, restrikcija, neizvesnosti za decu. Ipak, u toj svakodnevici stvoreni su uslovi pod kojima je krajem decenije postalo zamislivo ono što ranije nije bilo: da se zajednička država ne reformiše, nego razlaže. Osamdesete u Jugoslaviji nisu imale jednog krivca i nemaju jednog junaka. Bile su decenija u kojoj se sklop koji je Tito ostavio polako rasklimao iznutra — a zemlja je sa tim teretom ušla u 1989, godinu u kojoj će se Evropa okolo brzo i temeljno promeniti."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

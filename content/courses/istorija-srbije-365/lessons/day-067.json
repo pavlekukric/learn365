@@ -6,13 +6,53 @@
   "dayNumber": 67,
   "order": 7,
   "title": "Milutin — ratovi i diplomatija",
+  "subtitle": "Kroz četiri decenije ratova, brakova i poslanstava, Milutin je Srbiju uveo u krug evropskih i mediteranskih sila",
   "readingTimeMinutes": 8,
   "year": 1290,
-  "isPlaceholder": true,
+  "dateLabel": "1282–1321.",
+  "timelinePosition": "1282–1321.",
+  "summary": "Milutinova osvajanja prema jugu, mir sa Vizantijom 1299, brak sa Simonidom i poslanstva od Rima do Ilkanidskog dvora — kako je Srbija u njegovo doba postala mediteranski činilac.",
+  "keyPeople": ["Milutin", "Andronik II Paleolog", "Simonida", "Dragutin", "papa Klement V"],
+  "keyPlaces": ["Skoplje", "Vardar", "Polog", "Konstantinopolj", "Tabriz"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Kada je 1282. godine stupio na presto, Milutin je nasledio državu koja je već imala kraljevsku titulu, autokefalnu crkvu i ugled jednog ozbiljnog balkanskog susedstva — ali ne i odlučno prisustvo na velikoj sceni. Te iste godine on je krenuo na jug, prema vizantijskim posedima u Makedoniji, i bez velikih bitaka uzeo Skoplje. Bio je to neuobičajeno brz i jasan potez za vladara koji tek počinje, i u njemu se već vidi obrazac koji će obeležiti narednih četrdeset godina: koristiti svaki trenutak vizantijske slabosti, širiti se ka jugu, a istovremeno graditi diplomatske mostove sa svim dvorovima koji bi mogli takav rast ili priznati ili ometati."
+    },
+    {
+      "type": "paragraph",
+      "text": "Prva decenija njegove vlade bila je vreme upornog, gotovo svake godine ponovljenog pritiska na vizantijsku granicu. Posle Skoplja došli su Tetovo i oblast Polog, zatim delovi gornje i srednje doline Vardara, a uz primorje i delovi severne Albanije. Granica srpske države, koja je pod Urošem išla negde između Lima i Ibra na jugu, sa Milutinom se spustila duboko na makedonsko zemljište. Suvremenici su govorili da je on udvostručio državu — a iako je takve cifre uvek dobro uzeti sa oprezom, opšta slika je tačna: po teritoriji, po prihodima i po broju gradova koje je držao, kraljevstvo koje je predao naslednicima bilo je bitno veće od onog koje je primio."
+    },
+    {
+      "type": "paragraph",
+      "text": "Vizantija nije gledala mirno. Car Andronik II Paleolog slao je vojske, pokušavao da povrati izgubljene gradove, sklapao saveze sa bugarskim vladarima i sa onim albanskim velikašima koji su se osećali ugroženim. Rat se vodio uz prekide, više kao niz pohoda i protivpohoda nego kao jedan veliki obračun, i ni jedna strana nije uspela da drugoj nanese odlučan poraz. Do kraja devete decenije postalo je jasno da Carstvo nema snage da Milutina izbaci sa zauzetih oblasti, a Milutin — koliko god uspešan — nije imao snage da krene na sam Konstantinopolj. Iz te ravnoteže nemoći rodio se mir."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Mir iz 1299. i savez sa Carstvom"
+    },
+    {
+      "type": "paragraph",
+      "text": "Sporazum iz 1299. godine bio je za Srbiju prelomna tačka. Vizantija je priznala Milutinu ono što je već držao i pristala da ga primi u carsku porodicu udajom svoje petogodišnje kćeri Simonide za srpskog kralja, koji je tada bio u zrelim godinama i sa već nekoliko brakova iza sebe. Iz današnjeg ugla ovaj brak teško je prečuti bez nelagode, i izvori ga ne prikrivaju; za onovremenu carsku diplomatiju, međutim, on je bio politički instrument prvog reda. Simonida je Milutinu donela porfirorodno poreklo i pravo da se zove zetom cara, a Andronik je dobio mir na zapadnoj granici i, što je odmah postalo važno, mogućeg saveznika. Već u sledećoj deceniji Milutin je tu obavezu uzvratio: kada je čuvena Katalanska kompanija, najamnička vojska doneta da brani Carstvo, počela da pljačka sopstvenog poslodavca i da hara po vizantijskim oblastima, srpski kralj je poslao odrede koji su se borili uz cara protiv te neobuzdane sile."
+    },
+    {
+      "type": "paragraph",
+      "text": "Vizantija nije bila jedini front. Sa Bugarskom su odnosi bili kolebljivi — povremeni sukobi smenjivali su se sa kratkim mirovima, najčešće zapečaćenim brakovima ili razmenom talaca. Mnogo teži, jer trajniji i bliži, bio je odnos sa rođenim bratom Dragutinom, koji je posle 1282. zadržao severnu kraljevinu sa središtem u Beogradu i Mačvi, blisku ugarskom dvoru. Dvojica braće su godinama održavala krhku ravnotežu, ponekad sarađivala, ponekad zaratovala oko nasledstva i oblasti između Rudnika i Drine. Konačno razgraničenje nasledstva ostaće otvoreno pitanje i prelaziće na sledeću generaciju."
+    },
+    {
+      "type": "paragraph",
+      "text": "U svemu tome diplomatija je radila bez prestanka. Milutin je tokom života imao više žena — ugarsku princezu, ćerku tesalskog gospodara, jednu bugarsku vezu i konačno Simonidu — i svaki od tih brakova bio je deo političkog računa, dogovor sa nekim susedom o miru ili savezu. Pisao je papama u Rim; sa Klementom V vodio je prepisku u kojoj se, u jednom trenutku, ozbiljno razmatralo i približavanje crkvenoj uniji, jasno korišćeno kao adut prema Ugarskoj i prema zapadnim silama. Slao je poslanstva u Napulj i u Veneciju, sa kojom je sklapao trgovinske dogovore važne za prihode iz rudnika i carina. Najneobičnije od svih, krajem devedesetih godina poslao je izaslanike čak do dvora Ilkanida, mongolskih vladara Persije — gest koji je Srbiju, makar simbolično, stavio na mapu evroazijske diplomatije svog vremena."
+    },
+    {
+      "type": "paragraph",
+      "text": "Mnogo onoga što se zna o tim poslanstvima i razgovorima dolazi iz vizantijskih pera — pre svega iz hronika Georgija Pahimera i, nešto kasnije, Nikifora Grigore. Ti pisci Milutina prikazuju različito: čas kao mudrog i opasnog suseda kome je Andronik morao da popušta, čas kao varvarskog gospodara kome je carska kći data preko volje. Pojedinosti pojedinih razgovora, tačni datumi pojedinih poslanstava i precizne formulacije sporazuma često nisu sigurni i tu treba biti otvoren. Ono što jeste sigurno, jer se vidi iz više nezavisnih izvora i iz same teritorijalne karte, jeste obrazac: oportunističko širenje na jugu, brakovi kao oružje, i poslanstva u svim pravcima istovremeno."
+    },
+    {
+      "type": "paragraph",
+      "text": "Kada je 1321. umro, Milutin je iza sebe ostavio državu koja se prvi put u svojoj istoriji ozbiljno računala kao činilac u mediteranskoj politici. Granica je bila pomerena daleko na jug, carska kći sedela je u srpskoj palati, rimske kurije su mu pisale, a venecijanski i mongolski dvorovi znali su za njegovo ime. To nije bila slučajnost niti samo posledica vojničke sreće. Bio je to zbir četiri decenije strpljivog rada — pohoda koji nisu išli predaleko, mirova koji su uvek nešto donosili, brakova koji su otvarali vrata. Sa tim nasleđem suočili su se njegovi naslednici, i upravo iz njega će, jedno pokolenje kasnije, izrasti carsko doba Dušanovo."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

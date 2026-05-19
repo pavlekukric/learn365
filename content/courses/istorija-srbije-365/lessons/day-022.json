@@ -6,13 +6,53 @@
   "dayNumber": 22,
   "order": 5,
   "title": "Provincija Dalmacija",
+  "subtitle": "Između jadranskih gradova i dinarskog zaleđa, jedna od najvažnijih rimskih provincija na Balkanu",
   "readingTimeMinutes": 7,
   "year": 50,
-  "isPlaceholder": true,
+  "dateLabel": "1. vek n. e.",
+  "timelinePosition": "~50. n. e.",
+  "summary": "Posle Avgustovih ratova i gušenja Velike ilirske bune, Rim deli stari Ilirik na dve provincije. Zapadna, Dalmacija, prostire se od jadranske obale do dinarskog zaleđa — bogata rudnicima, romanizovana po gradovima, a u planinama dugo verna starom ilirskom svetu.",
+  "keyPeople": ["Dioklecijan"],
+  "keyPlaces": ["Salona", "Dalmacija", "Doklea", "Skupi"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Kada se posle teškog rata, koji su rimski izvori zvali „dalmatsko-panonskim ustankom”, prašina konačno slegla, Avgust je shvatio da stari Ilirik više ne može ostati jedna celina. Provincija je bila prevelika, pretežak teren, suviše različitih plemena, i previše skoro proliveno krvi da bi se njom upravljalo iz jednog središta. Negde u prvim decenijama prvog veka nove ere, Ilirik je podeljen na dve nove provincije: na severu, uz Dunav, ležala je Panonija; na jugu, prema Jadranu i u njegovom planinskom zaleđu, prostirala se Dalmacija. Tako je nastala jedna od najtrajnijih i najznačajnijih rimskih provincija na Balkanu."
+    },
+    {
+      "type": "paragraph",
+      "text": "Granice nove provincije gledane sa današnje karte čudno se prelivaju preko savremenih država. Dalmacija je obuhvatala gotovo celu istočnu jadransku obalu — od severnog Jadrana, preko ostrva i današnje hrvatske obale, niz Crnu Goru, sve do severa današnje Albanije. Iza obale, ulazila je duboko u kopno: pokrivala je veliki deo današnje Bosne i Hercegovine, sa surovim dinarskim planinama, i prelazila preko njih u zapadne krajeve današnje Srbije. Bila je to ogromna teritorija nepravilnog oblika, u kojoj se na malom rastojanju smenjuju more, kamenita primorska polja, visoke planine i šumovite reke."
+    },
+    {
+      "type": "paragraph",
+      "text": "Glavni grad provincije bila je Salona, smeštena u dnu prostranog zaliva blizu današnjeg Splita. U svojim najboljim danima Salona je imala desetine hiljada stanovnika, forum, pozorište, amfiteatar, vodovod, široku mrežu ulica sa stambenim kvartovima i pristaništem koje je primalo brodove iz cele Mediterane. Bila je administrativni, sudski i trgovački centar provincije i sedište namesnika. Druge važne gradove u Dalmaciji nizali su pre svega obala i njena bliža unutrašnjost: Jader, današnji Zadar, sa pravilnom mrežom ulica i forumom čiji se trag i danas vidi; Narona u dolini Neretve, ključna luka za trgovinu sa zaleđem; Doklea blizu današnje Podgorice, na ušću tri reke; a na krajnjem jugoistoku, na granici sa susednom provincijom Mezijom, ležao je i Skupi — današnje Skoplje — čija se pripadnost u različitim periodima vezivala čas za Dalmaciju, čas za Meziju."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Obala i planina, dva sveta jedne provincije"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ono što Dalmaciju najlakše razume jeste oštra razlika između njena dva sveta. Na obali, u gradovima poput Salone, Jadera ili Narone, romanizacija je išla brzo i duboko. Kolonisti iz Italije, isluženi vojnici naseljeni u kolonijama, doseljeni trgovci i lokalno stanovništvo koje je prihvatilo novi način života — svi su zajedno gradili jedan latinski, mediteranski svet. Jezik gradova bio je latinski, religija zvanično rimska, gradnja klasična, novac carski. Stanovnici tih sredina vrlo brzo su postajali rimski građani, slali decu u rimske škole, sahranjivali se uz natpise na latinskom, ulazili u carsku službu."
+    },
+    {
+      "type": "paragraph",
+      "text": "Duboko u zaleđu, među dinarskim planinama, slika je bila sasvim drugačija. Tamo su, mnogo duže nego što su rimske vlasti volele da priznaju, opstajali stari ilirski jezici, plemenske strukture i običaji. Putevi su prolazili dolinama, garnizoni su čuvali rudnike i prelaze, ali stočari u visovima živeli su uglavnom po starom. Romanizacija je tu bila spora i nepotpuna; ilirski lični nadimci, plemenska imena i seoska kultna mesta pojavljuju se na natpisima još i u drugom i trećem veku. Na nekoliko sati hoda od potpuno latinske Salone moglo se zaći u krajeve gde latinski gotovo niko nije govorio."
+    },
+    {
+      "type": "paragraph",
+      "text": "Upravo je to zaleđe bilo glavni razlog zbog kojeg je Rim toliko držao do Dalmacije. Dinarske planine i njihova produženja u Bosni i zapadnoj Srbiji bili su jedna od najbogatijih rudarskih oblasti carstva. Iz dalmatinskih rudnika u carsku blagajnu tekli su zlato, srebro, olovo i naročito gvožđe; čitavi okruzi, sa svojim rudarima, kovačnicama i nadzornicima, bili su pod neposrednom carskom upravom. Rudnička bogatstva su finansirala vojsku na granicama i gradnju puteva, pa je u tom smislu Dalmacija bila tiho, ali važno zaleđe rimske moći."
+    },
+    {
+      "type": "paragraph",
+      "text": "Provincija je svoj doprinos carstvu davala i ljudima. Iz Dalmacije su u rimsku vojsku odlazile čitave generacije regruta, posebno iz tvrdog planinskog zaleđa, gde su se vrbovali izdržljivi pešaci i konjanici. Tokom kriza trećeg veka, kada se carstvo branilo na svim granicama, baš iz ovih krajeva izrastao je niz vojnika koji su stigli do najviših činova. Među njima je i čovek čije se ime najjače vezuje za Dalmaciju — Dioklecijan, rođen u skromnoj porodici negde u okolini Salone. Posle decenija ratovanja i vladanja, on će se u svoju domovinu vratiti kao penzionisani car i podići, na obali blizu Salone, ogromnu palatu u mestu zvanom Spalatum. Ta palata danas čini istorijsko jezgro Splita — redak primer rimske rezidencije koja je nadživela carstvo tako što je postala grad."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sve to govori da Dalmacija nije bila samo jedna od mnogih provincija na ivici carstva. Bila je to provincija dvostrukog lica: jadranska, urbana, latinska — i planinska, ruralna, dugo ilirska. Bila je provincija rudnika čiji je metal držao vojsku, i provincija vojnika čija je krv držala carstvo. Tako sklopljena, opstala je kao administrativna celina kroz čitavu antiku, sve do kasnih vekova, kada su je novi narodi i nove granice postepeno preoblikovali u nešto drugo. Ali u prvom veku nove ere, kada se njeno ime tek ustaljivalo u carskim spisima, ona je bila živ primer kako Rim na Balkanu nikada nije vladao jednim svetom — uvek je morao da pomiri obalu i planinu, grad i pleme, latinski govor i jezik koji se gubio u dolinama o kojima izvori ćute."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

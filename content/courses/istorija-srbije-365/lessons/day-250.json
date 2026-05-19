@@ -6,13 +6,49 @@
   "dayNumber": 250,
   "order": 4,
   "title": "Proglašenje Kraljevine",
+  "subtitle": "Kako je Srbija 1882, četiri godine posle nezavisnosti, dobila kraljevsku titulu i ušla u red evropskih kraljevstava",
   "readingTimeMinutes": 8,
   "year": 1882,
-  "isPlaceholder": true,
+  "dateLabel": "1882.",
+  "timelinePosition": "1882.",
+  "summary": "Dvadeset drugog februara 1882. godine Narodna skupština u Beogradu proglašava Kraljevinu Srbiju, a knez Milan Obrenović postaje kralj Milan I — čin pre svega protokolarne i diplomatske težine, izveden u senci austrougarskog uticaja.",
+  "keyPeople": ["Milan Obrenović", "Jovan Ristić", "Nikola Pašić", "Milutin Garašanin"],
+  "keyPlaces": ["Beograd", "Beč", "Sankt Peterburg", "Berlin"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Dvadeset drugog februara 1882. godine — po novom kalendaru šestog marta — Narodna skupština u Beogradu izglasala je akt kojim se Kneževina Srbija proglašava kraljevinom, a knez Milan Obrenović postaje kralj Milan Prvi. Bila je to odluka koja je više potvrđivala već postignuto nego što je donosila nešto novo. Srbija je nezavisnost dobila četiri godine ranije, Berlinskim ugovorom 1878. godine, i od tada je u svemu osim po tituli bila samostalna država. Ono što joj je nedostajalo bila je reč koja je u tadašnjoj evropskoj diplomatiji imala težinu — kraljevina, a ne kneževina."
+    },
+    {
+      "type": "paragraph",
+      "text": "Razlika između te dve titule bila je manja po stvarnoj vlasti, a veća po protokolu. Kneževi su u protokolu evropskih dvorova stajali ispod kraljeva, primani su drugim obredom, vodili su prepiske drugim formulama, sklapali ugovore sa nešto manje težine. Susedi su to već uveliko prevazišli. Grčka je kraljevina bila od 1832. godine, Rumunija je status promenila 1881, samo godinu dana ranije, a Ugarska i Habzburška monarhija imale su krune koje su sezale unazad vekovima. U takvom okruženju srpski knez je, kada bi prelazio Savu i Dunav, osećao da nosi manji čin nego njegovi sagovornici. Bugarska će kraljevsku titulu dobiti tek 1908. godine, što znači da je Srbija u tom trenutku postajala druga balkanska kraljevina."
+    },
+    {
+      "type": "paragraph",
+      "text": "Knez Milan je pitanje krune otvarao već u godinama posle Berlinskog kongresa. Njemu, pored državnih razloga, nije bilo svejedno ni lično. Bio je vladar nesigurnog osećanja sopstvene težine, sklon da spoljnim znacima nadoknadi unutrašnju neizvesnost. Kruna mu je trebala kao dokaz da Srbija — i on lično — pripadaju krugu pravih evropskih monarha. Spoljnopolitički preokret koji je to omogućio dogodio se godinu dana ranije. Godine 1881. potpisana je tajna konvencija sa Austro-Ugarskom, dokument poznat i kao Beogradski sporazum, kojim se Srbija obavezivala da svoju spoljnu politiku usklađuje sa Bečom i da ne podržava agitaciju protiv Monarhije među Slovenima u njoj. Zauzvrat je Beč obećavao podršku, između ostalog i podršku eventualnom proglašenju kraljevine."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Skupština i odjeci"
+    },
+    {
+      "type": "paragraph",
+      "text": "U Skupštini se sve odigralo brzo i bez većeg otpora. Vlada Milana Piroćanca, sastavljena od naprednjaka, pripremila je tekst proglasa, a poslanici su ga prihvatili gotovo bez rasprave. Kralj je zatim primao čestitke, izdao prvi proglas narodu kao kralj i u kratkom roku obavestio strane dvorove o promeni titule. Priznanja su stizala uredno: prvo iz Beča, ubrzo iz Berlina i drugih prestonica. Rusija je svoje priznanje uputila sa primetnom suzdržanošću. U Sankt Peterburgu nisu zaboravili da je Milan posle Berlina okrenuo Srbiju ka Austriji, što su doživljavali kao izneveravanje rusko-srpskog savezništva iz rata 1876–1878. godine. Priznanje je dato, ali bez topline."
+    },
+    {
+      "type": "paragraph",
+      "text": "Kod kuće, reakcije su išle linijama koje su već delile srpsku politiku. Stari liberali, čiji je glavni predstavnik bio Jovan Ristić, proglašenje su prihvatili kao logičan korak posle nezavisnosti, ali su čuvali ogradu prema austrijskoj senci koja se nad njim nadvijala. Mladi radikali, u čije se vođstvo brzo uzdizao Nikola Pašić, bili su sumnjičaviji. Kruni se nisu protivili — niko je nije odbacivao kao titulu — ali su odbijali da je gledaju odvojeno od tajne konvencije, koju su smatrali pretvaranjem Srbije u zavisni dodatak Monarhije. Za njih je kraljevska titula bila ukras na okovu, ne dokaz prave samostalnosti. Među građanstvom je vest primljena uglavnom mirno, sa zadovoljstvom ali bez velike narodne svečanosti; nije bilo ni vremena ni novca za blistave parade."
+    },
+    {
+      "type": "paragraph",
+      "text": "Crkva i deo intelektualne elite ponudili su drugačiji okvir. U govorima, propovedima i člancima iz tih meseci sve češće se nova kraljevina povezivala sa srednjovekovnom srpskom državom, sa Nemanjićima i naročito sa Dušanovim carstvom. Milanova kruna predstavljana je kao nastavak prekinutog kraljevskog niza, kao da se posle pet vekova zatvara krug otvoren u Žiči i u Skoplju. Ovde treba ostati trezven. Reč je o političkom narativu izgrađenom u devetnaestom veku, ne o stvarnom državnopravnom kontinuitetu. Između srednjovekovne države i moderne Srbije leže osmanski vekovi, drugi društveni poredak, drugi pojam vladara. Veza je simbolička i izabrana — što ne znači da je beznačajna; takve veze su deo stvaranja modernih nacija — ali je treba čitati kao tumačenje, ne kao činjenicu."
+    },
+    {
+      "type": "paragraph",
+      "text": "Proglašenje kraljevine bilo je u svakom smislu legitimno i međunarodno priznato. Nijedna sila ga nije osporila, nijedno susedno carstvo ga nije pokušalo poništiti. Ali je ostalo i u senci načina na koji je pripremljeno — preko tajne konvencije čiji se sadržaj tada nije znao, ali se osećao u svakom potezu Milanove spoljne politike. Nova titula otvarala je nove protokolarne mogućnosti: srpski poslanici sedeli su na drugim mestima, ceremonije su bile svečanije, ugovori su nosili teže pečate. Ono što kruna nije menjala bila je unutrašnja krhkost države. Srbija je i kao kraljevina ostajala siromašna, pretežno seljačka, sa skromnim budžetom, slabim železnicama i političkim životom koji je već najavljivao oštre podele između naprednjaka, liberala i radikala. Te podele će u narednim godinama dovesti do teških sukoba, sve do abdikacije samog Milana. Kruna iz 1882. godine bila je istinski dobitak — ali dobitak koji je tek trebalo opravdati radom države koja ju je nosila."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

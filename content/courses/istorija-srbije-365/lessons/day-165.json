@@ -6,13 +6,53 @@
   "dayNumber": 165,
   "order": 3,
   "title": "Srbi u Habzburškoj monarhiji",
+  "subtitle": "Drugi srpski svet, severno od Save i Dunava, sa privilegijama, gradovima i sopstvenom građanskom klasom",
   "readingTimeMinutes": 8,
   "year": 1700,
-  "isPlaceholder": true,
+  "dateLabel": "17–18. vek",
+  "timelinePosition": "17–18. vek",
+  "summary": "Tokom 17. i 18. veka, severno od Save i Dunava, oblikuje se drugi srpski svet — sa habzburškim privilegijama, Sremskim Karlovcima kao crkvenim središtem, gradskom buržoazijom i kulturnim usponom.",
+  "keyPeople": [],
+  "keyPlaces": ["Sremski Karlovci", "Novi Sad", "Sentandreja", "Bačka", "Banat", "Srem", "Pomorišje", "Žumberak"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Kada se danas govori o srpskoj istoriji 18. veka, lako se zaboravlja jedna prosta činjenica: u to vreme nije postojao samo jedan srpski svet. Postojala su dva. Jedan je živeo pod osmanskom vlašću, južno od Save i Dunava, kao seljačka većina sa ograničenim institucijama. Drugi se polako gradio severno od te iste linije, u zemljama Habzburške monarhije — u Sremu, Bačkoj, Banatu, Slavoniji, delovima Ugarske oko Tise i Moriša, u Vojnoj krajini i sve do Žumberka na zapadu. Taj severni svet imao je privilegije, gradove, trgovce i, vremenom, sopstveni intelektualni krug. Njegov nastanak i razvoj jedna je od najvažnijih, a ponekad potcenjenih, priča srpskog ranog modernog doba."
+    },
+    {
+      "type": "paragraph",
+      "text": "Srbi se na prostoru južne Ugarske nisu pojavili tek u 17. veku. Pojedinačne porodice i čitave skupine selile su se preko Save i Dunava još od kraja 14. veka, posle Kosovskog boja, pa kroz čitavo 15. i 16. stoleće, naročito posle pada Smedereva 1459. Ipak, najveći talas došao je 1690, sa Velikom seobom pod patrijarhom Arsenijem III Čarnojevićem. Tada je, prema procenama izvora, na sever prešlo nekoliko desetina hiljada ljudi — broj koji ostaje predmet rasprave, ali koji je nesporno bio dovoljan da iz korena promeni etničku sliku Podunavlja. U narednim decenijama 18. veka usledile su nove, manje seobe; do njegove sredine, srpsko pravoslavno stanovništvo u habzburškim zemljama brojalo se u stotinama hiljada."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Privilegije i samouprava"
+    },
+    {
+      "type": "paragraph",
+      "text": "Pravni okvir za taj svet postavile su carske Privilegije iz 1690, 1691. i 1695. godine, izdate najpre od Leopolda I. Njima je srpska pravoslavna zajednica dobila niz važnih prava: slobodu vere i obreda po istočnom obredu, priznanje patrijarha — kasnije mitropolita — kao crkvenog i narodnog poglavara, pravo da kroz Narodno-crkveni sabor sama bira svoje crkvene starešine i raspravlja o sopstvenim stvarima, određena oslobođenja od dažbina, i obavezu vojne službe pod habzburškom zastavom. To nije bila puna politička autonomija, ali jeste bio veoma redak položaj za jednu pravoslavnu zajednicu u katoličkoj državi tog doba. Privilegije će u 18. veku biti više puta osporavane, ograničavane i iznova potvrđivane — odnos bečkog dvora prema njima oscilirao je između tolerancije i pritiska."
+    },
+    {
+      "type": "paragraph",
+      "text": "Društveno, srpski svet u monarhiji delio se grubo na tri sloja. Najveći deo činilo je seljaštvo — sitni zemljoradnici po selima Srema, Bačke, Banata i Pomorišja, često u sporu sa ugarskim plemstvom oko zemlje, davanja i statusa. Drugi sloj činili su graničari, naseljeni u pojasu Vojne krajine, pod neposrednom vlašću bečkog ratnog saveta. Oni nisu bili kmetovi vlastele, ali su za uzvrat morali da daju doživotnu vojnu službu: čuvali su granicu prema Osmanlijama i ratovali svuda kuda ih je car slao, od Italije do Šlezije. Treći sloj, najmanji ali najuticajniji u dugoročnoj perspektivi, činila je gradska buržoazija — trgovci, zanatlije, brodovlasnici i, vremenom, učeni ljudi po varošima poput Sentandreje kod Budima, Novog Sada, Sremskih Karlovaca, Budima i Pešte."
+    },
+    {
+      "type": "paragraph",
+      "text": "Crkveno središte tog sveta postali su Sremski Karlovci. Tu je posle 1690. utvrđena rezidencija srpskog mitropolita, tu se sastajao Narodno-crkveni sabor, tu su se vremenom razvile i prve ozbiljnije srpske škole, a kasnije i bogoslovija. Karlovci su za 18. vek bili ono što su za srednji vek bili Žiča ili Peć: simbolično središte oko kojeg se okupljala cela zajednica. Sentandreja je, opet, dugo bila najbogatiji srpski grad u monarhiji — varoš trgovaca i zanatlija, sa nekoliko pravoslavnih crkava na malom prostoru, čiji su gradski oci pisali testamente i ktitorske natpise jezikom koji se polako oblikovao u takozvani slavjanoserbski."
+    },
+    {
+      "type": "paragraph",
+      "text": "Upravo u tim gradovima, pre nego u manastirima, počeo je da se formira novi sloj — građanski sloj sa novcem, knjigom i vezama prema Beču, Lajpcigu i ruskim štamparijama. Srpske knjige štampane su u Beču i Budimu, a krajem veka i u Novom Sadu. Otvarale su se škole na srpskom jeziku, najpre crkvene, potom i svetovne. U habzburškim varošima rodila se i odrasla većina ljudi koje danas vezujemo za srpsko prosvetiteljstvo — od Zaharija Orfelina do Dositeja Obradovića — iako njihove pojedinačne priče pripadaju kasnijim lekcijama. Već u drugoj polovini 18. veka jasno se vidi da intelektualna energija srpskog naroda u tom trenutku dolazi sa severa, iz gradova pod dvoglavim orlom."
+    },
+    {
+      "type": "paragraph",
+      "text": "Naravno, taj svet nije živeo bez napetosti. Bečki dvor i katolička crkvena hijerarhija povremeno su pokušavali da pravoslavne Srbe gurnu u uniju sa Rimom, naročito u nekim oblastima poput Žumberka i delova Krajine; veći deo zajednice tome se odupro, ponekad teško. Sa ugarskim plemstvom su Srbi vodili dugotrajne sporove oko zemlje, sudstva i jezika. Privilegije su periodično bivale sužavane carskim odlukama, pa onda ponovo, makar delimično, potvrđivane. Vojna krajina, koja je davala graničarima izvesnu slobodu od vlastele, istovremeno je značila tešku vojničku službu kroz čitav život. Ipak, uprkos svemu tome, zajednica je opstala i ojačala."
+    },
+    {
+      "type": "paragraph",
+      "text": "Tako je do sredine 18. veka srpski narod živeo, zapravo, u dva paralelna sveta. Južni je bio seljački, pod Osmanlijama, sa ograničenim crkvenim institucijama, naročito posle ukidanja Pećke patrijaršije 1766. godine, o čemu će biti reči u lekciji koja sledi. Severni je imao gradove, privilegije, štamparije, građansku klasu i sopstveni sabor. Oba sveta delila su jezik, veru i osećaj zajedničke prošlosti; oba su, svaki na svoj način, pripremala tle za nacionalni preporod 19. veka. Pošteno je reći — i to lekcija o ovom dobu ne sme da zaboravi — da je dobar deo kulturne i intelektualne snage srpskog 18. i ranog 19. veka došao upravo iz tog severnog, habzburškog sveta. Bez Karlovaca, Novog Sada i Sentandreje, bez građanstva i njegovih knjiga, kasnije buđenje bilo bi sporije i siromašnije."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

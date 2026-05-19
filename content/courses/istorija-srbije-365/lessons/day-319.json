@@ -6,13 +6,49 @@
   "dayNumber": 319,
   "order": 4,
   "title": "Okupacija i podela zemlje",
+  "subtitle": "Kako je posle aprilske kapitulacije 1941. Jugoslavija raskomadana između sila Osovine i njihovih satelita",
   "readingTimeMinutes": 8,
   "year": 1941,
-  "isPlaceholder": true,
+  "dateLabel": "april–jun 1941.",
+  "timelinePosition": "april–jun 1941.",
+  "summary": "Posle aprilske kapitulacije, Jugoslavija je raskomadana na okupacione zone i satelitske tvorevine; u Srbiji su nemački okupatori uveli kvislinšku upravu, dok je u Zagrebu proglašena ustaška Nezavisna Država Hrvatska.",
+  "keyPeople": ["Milan Nedić", "Milan Aćimović", "Ante Pavelić", "Dimitrije Ljotić", "Wilhelm Keitel"],
+  "keyPlaces": ["Srbija", "Banat", "Bačka", "Makedonija", "Kosovo i Metohija", "Crna Gora", "Nezavisna Država Hrvatska"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Aprilskom kapitulacijom 17. aprila 1941. nestala je Kraljevina Jugoslavija kao država. Ono što je sledilo nije bila obična okupacija jedne pobeđene zemlje, već njeno potpuno raskomadanje. Pobednici su seli nad kartom i podelili Jugoslaviju među sobom kao plen — Nemačka, Italija, Mađarska i Bugarska uzeli su svaka svoj deo, a u sredini je iznikla nova satelitska tvorevina, takozvana Nezavisna Država Hrvatska. Granica više nije bila ona iz 1918. ni ona iz 1929; jedna država pretvorena je u mozaik okupacionih zona, anektiranih oblasti i satelitskih režima, a njeni stanovnici su preko noći postali podanici različitih, često međusobno suprotstavljenih gospodara."
+    },
+    {
+      "type": "paragraph",
+      "text": "Nemačka je za sebe zadržala srž bivše Jugoslavije — uže područje Srbije sa Beogradom, omeđeno predratnim granicama prema Bosni i Sandžaku i prema Bugarskoj na istoku. Banat je formalno ostao u sastavu te „Srbije pod nemačkom okupacionom upravom”, ali je u praksi imao zaseban režim: stvarnu vlast tamo je držala nemačka vojna komanda oslonjena na lokalnu folksdojčersku manjinu, koja je u jednom delu predratne vojvođanske ravnice dobila politički položaj nesrazmeran svojoj brojnosti. Bačku, Baranju, deo Međimurja i Prekomurja anektirala je Mađarska, pozivajući se na granice koje je izgubila Trijanonskim mirom. Bugarska je ušla u veći deo Vardarske Makedonije i u pojas jugoistočne Srbije oko Pirota i Vranja, predstavljajući to kao povratak oblasti za koje je smatrala da joj istorijski pripadaju."
+    },
+    {
+      "type": "paragraph",
+      "text": "Italija je uzela najraznorodniji deo plena. Anektirala je delove Slovenije sa Ljubljanom, najveći deo dalmatinske obale sa ostrvima, Boku Kotorsku i delove Kosova i Metohije, koje je pripojila Velikoj Albaniji pod svojim pokroviteljstvom. Crnu Goru je pretvorila u italijanski protektorat sa namerom da je obnovi kao posebnu državu, što je već u julu 1941. dovelo do velikog narodnog ustanka protiv okupacije. U Zagrebu je, samo dva dana posle nemačkog ulaska, 10. aprila 1941. proglašena Nezavisna Država Hrvatska. Na njeno čelo doveden je Ante Pavelić sa ustaškim pokretom, dotad malom emigrantskom organizacijom; nova država obuhvatila je današnju Hrvatsku, celu Bosnu i Hercegovinu i delove Srema, a podelila se na nemačku i italijansku interesnu zonu. Bila je to fašistička satelitska tvorevina koja će u naredne četiri godine sprovesti masovne zločine nad Srbima, Jevrejima i Romima na svojoj teritoriji — temu koja zaslužuje zasebnu lekciju i zato je ovde samo nagoveštena."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Srbija pod okupacijom"
+    },
+    {
+      "type": "paragraph",
+      "text": "U onome što je od Srbije ostalo, nemački okupator je odmah morao da reši praktično pitanje: kako da sa malo svojih ljudi održi red u zemlji koja je upravo izgubila državu. Rešenje je nađeno u kvislinškoj upravi sastavljenoj od domaćih ljudi. Već u maju 1941. obrazovana je takozvana Komesarska uprava na čelu sa Milanom Aćimovićem, predratnim ministrom unutrašnjih poslova bliskim desnim krugovima. Ta uprava bila je provizorna i slaba, više činovnička nego politička, i nije bila u stanju da odgovori na talas oružanog otpora koji će se podići tog leta. Posle ustanka, krajem avgusta 1941. Nemci su je zamenili Vladom narodnog spasa pod generalom Milanom Nedićem, ratnim ministrom iz prethodne Kraljevine, koji je svoj pristanak pravdao tvrdnjom da nastoji da spase srpsko biološko jezgro od potpunog uništenja. Nedićeva vlada nije bila država; bila je domaća administracija u službi okupatora, sa ograničenom policijom i bez vojske."
+    },
+    {
+      "type": "paragraph",
+      "text": "Okupaciona politika u Srbiji bila je krajnje eksploatatorska i kaznena. Nemačka privreda izvlačila je iz zemlje hranu, rude i radnu snagu; uvedene su prinudne rekvizicije žita i stoke, a desetine hiljada ljudi otpremljene su na prinudni rad u Rajh. Najteža crta okupacionog režima bila je sistematska upotreba kolektivne odmazde. Naredbom feldmaršala Vilhelma Kajtela iz septembra 1941. propisana je formula koja će obeležiti rat na ovom prostoru — za svakog ubijenog nemačkog vojnika streljati sto, a za svakog ranjenog pedeset talaca. Ta naredba pretvorena je u praksu već iste jeseni, u masovnim streljanjima u Kragujevcu i Kraljevu, koja će biti tema posebne lekcije."
+    },
+    {
+      "type": "paragraph",
+      "text": "Uz Nedićevu administraciju, na strani okupatora delovao je i poseban militantni pokret. Dimitrije Ljotić, predratni vođa malog desnog pokreta Zbor, organizovao je oružanu formaciju koja je dobila ime Srpski dobrovoljački korpus, široko poznata kao „ljotićevci”. Ti odredi, naoružani i opremljeni od Nemaca, učestvovali su u borbama protiv partizana i, u manjoj meri, protiv četnika, i ostali su zapamćeni kao najideološkiji oblik domaće kolaboracije u Srbiji. Pojava kolaboracije nije, treba reći jasno, bila srpska osobenost; sa njom se u nekom obliku susrela svaka okupirana evropska zemlja, od Norveške i Holandije do Francuske i Grčke. Ono što je Srbiju izdvajalo bila je oštrina okupacionog režima i činjenica da se kolaboracija odvijala u senci paralelnog narodnog otpora koji će se uskoro razviti."
+    },
+    {
+      "type": "paragraph",
+      "text": "Krajnji ishod aprilskog sloma i podela koje su usledile bio je katastrofalan — ne samo u vojnom, već i u državnom smislu. Jugoslavija je kao međunarodno-pravna celina prestala da postoji; njeno stanovništvo našlo se pod pet različitih režima, sa različitim valutama, zakonima i policijama, a u mnogim oblastima i sa otvorenim progonom prema etničkoj pripadnosti. U srpskoj istoriji 20. veka, leto 1941. označava trenutak kada se sve ono što je 1918. izgrađeno raspalo za nekoliko nedelja, i kada se postavilo pitanje koje će nadvisivati naredne četiri godine: ne više pitanje kakvu državu graditi, nego pitanje kako uopšte preživeti i ko će, kada se rat završi, imati pravo da govori u ime te raskomadane zemlje."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

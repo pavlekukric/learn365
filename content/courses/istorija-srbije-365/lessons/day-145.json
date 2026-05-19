@@ -6,13 +6,61 @@
   "dayNumber": 145,
   "order": 7,
   "title": "Moravska škola",
+  "subtitle": "Poslednji veliki stil srpske srednjovekovne crkvene arhitekture — vreme Lazara, Milice i Stefana Lazarevića",
   "readingTimeMinutes": 8,
   "year": 1400,
-  "isPlaceholder": true,
+  "dateLabel": "kraj 14 – 15. vek",
+  "timelinePosition": "kraj 14 – 15. vek",
+  "summary": "Treća i poslednja velika faza srpske srednjovekovne crkvene arhitekture: trolisna osnova, kamena ornamentika i visoka kupola u doba Lazara, Milice i Stefana Lazarevića.",
+  "keyPeople": ["knez Lazar", "Stefan Lazarević", "kneginja Milica"],
+  "keyPlaces": ["Lazarica", "Ravanica", "Manasija", "Ljubostinja", "Kalenić"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Kada je sredinom sedamdesetih godina 14. veka u dolini Morave počeo da se diže novi tip srpske crkve, niko od graditelja nije znao da otvara poslednje poglavlje jedne velike priče. Raška škola, ona prva, nemanjićka, već je pripadala dalekom dobu. Vardarska škola, koja se razvila pod kraljem Milutinom i Dušanom, zatvorena je gubitkom juga. Sada se težište države pomerilo na sever, u oblast oko Kruševca i Resave, u srce zemlje kneza Lazara — i baš ta oblast, oko reke Morave, daće ime stilu koji će obeležiti kraj srpskog srednjeg veka."
+    },
+    {
+      "type": "paragraph",
+      "text": "Moravska škola, kako je istoričari umetnosti zovu, javlja se u sedamdesetim godinama 14. veka i traje do propasti Despotovine 1459. godine. Razvija se u tri smene — pod knezom Lazarom, pod njegovom udovicom Milicom i, najpotpunije, pod despotom Stefanom Lazarevićem. To je arhitektura sažete države koja je izgubila najveći deo dušanovog carstva, ali nije izgubila sposobnost da gradi visoko i pažljivo. Naprotiv, što je politički prostor postajao uži, to su zadužbine bile gušće ukrašene, kao da je u kamenu trebalo sačuvati ono što se na bojnom polju više nije moglo odbraniti."
+    },
+    {
+      "type": "paragraph",
+      "text": "Glavna prepoznatljiva osobina moravskog hrama jeste trolisna, ili trikonhalna osnova. Telu crkve, koja se dotad gradila kao izduženi krst, sa severne i južne strane dodaju se dve polukružne apside. Kada se na to nadoveže i oltarska apsida na istoku, dobija se oblik trolista — tri „latice” oko centralnog prostora pokrivenog kupolom. Trikonhalni plan nije srpski izum; on dolazi sa Svete Gore, iz tipa atoskog katolikona prilagođenog liturgijskim potrebama monaške zajednice. U Moravi je preuzet i prerađen, postao je gotovo zaštitni znak doba. Iznad njega se diže visoka, vitka kupola na visokom tamburu, koja celoj građevini daje karakterističnu vertikalnost."
+    },
+    {
+      "type": "paragraph",
+      "text": "Fasade moravskih crkava nastavljaju polihromiju vardarske škole — naizmenične trake kamena i opeke, ponekad i keramičkih ploča, daju im toplu, slojevitu površinu. Ali ono po čemu se moravska škola izdvaja od svega ranijeg jeste obilje klesane kamene ornamentike. Oko prozora i portala javljaju se rozete od kamena, neke jednostavne, druge razrađene do najsitnijih detalja; duž fasada teku pojasevi pleterne i biljne dekoracije, prepleti čvorova, lozica i lišća, ponegde i fantastičnih životinja. Kameni majstori klesali su to strpljivo, u tvrdom materijalu, sa osećajem za simetriju i ritam koji je teško naći u ranijem srpskom graditeljstvu."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Velike zadužbine"
+    },
+    {
+      "type": "paragraph",
+      "text": "Najraniji zreli primer stila jeste Lazarica u Kruševcu, dvorska kapela kneza Lazara podignuta verovatno između 1377. i 1380. godine. Mala je, gotovo intimna, ali sve glavne crte budućeg stila već su tu — trolisna osnova, visoka kupola, polihromne fasade i klesani ukras oko prozora. Skoro u isto vreme, oko 1377–1381, Lazar zida i Ravanicu, manastir u koji će biti sahranjen posle Kosovskog boja. Ravanica je krupnija, monaška, i, što je novo, okružena je zidovima sa kulama — manastir-tvrđava, jer je osmanlijska opasnost već stvarna. Kneginja Milica, posle smrti muža, podiže Ljubostinju oko 1388, kao žensku zadužbinu i mesto u koje će se i sama povući u monaštvo."
+    },
+    {
+      "type": "paragraph",
+      "text": "Vrhunac moravske škole jeste Manasija, ili Resava, zadužbina despota Stefana Lazarevića, građena otprilike između 1407. i 1418. godine. Sve što je škola dotad razvila tu je dovedeno do najpotpunijeg oblika: trolisna osnova, visoka kupola, klesarstvo prefinjeno do mere koja podseća na rad zlatara u kamenu. Oko crkve se diže pravi utvrđeni grad — moćni bedemi sa jedanaest kula, sa kojih se branio ne samo manastir nego i jedan od retkih preostalih centara srpske pismenosti i učenja. Unutar zidova, freske nepoznatih majstora čine jedno od najraskošnijih ostvarenja kasne vizantijske, takozvane paleologovske, slikarske tradicije na srpskom tlu — narativno bogate, tople u boji, sa svetiteljima čije lice ima portretsku prisutnost."
+    },
+    {
+      "type": "paragraph",
+      "text": "U isti krug spada i Kalenić, podignut otprilike između 1410. i 1420. godine, čuven po izuzetnoj finoći klesanih rozeta i pojaseva ornamenta — možda najlepše obrađenoj kamenoj košulji od svih moravskih crkava. Tu su i Naupara, Veluće, Rudenica i druge manje zadužbine vlastele, koje pokazuju da stil nije bio rezervisan samo za vrh države, već se u različitim razmerama javljao širom moravskih oblasti."
+    },
+    {
+      "type": "paragraph",
+      "text": "Moravsko slikarstvo prati arhitekturu. Ono je pozni cvet vizantijske paleologovske umetnosti u srpskoj sredini — toplije od strogog ranijeg stila, narativno razgranatije, sa živim scenama iz života Hristovog i svetiteljskih žitija. Majstori koji su radili u Ravanici, Ljubostinji, Manasiji i Kaleniću, najvećim delom anonimni, ostavili su zidove koji još uvek imaju izuzetnu izražajnu snagu, iako su mnogi slojevi vremenom oštećeni ili izgubljeni."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sve to nastaje pod jasnom sviješću da vreme ističe. Zidovi sa kulama oko Ravanice i Manasije nisu ukras — oni odgovaraju stvarnoj opasnosti od osmanlijskih upada i, kasnije, redovne osmanlijske vojske. Ipak, umetnička ambicija ostaje neumanjena; štaviše, kao da je upravo svest o blizini kraja terala graditelje i slikare da rade pažljivije, gušće, trajnije. Padom Smedereva 1459. moravska škola praktično prestaje. Pojedine crkve u kasnijem 15. i 16. veku, već u osmanlijskoj državi, nastavljaju neke njene crte, ali u manjim razmerama i bez velikih ktitora."
+    },
+    {
+      "type": "paragraph",
+      "text": "Velika većina najvažnijih moravskih spomenika preživela je vekove — Lazarica, Ravanica, Manasija, Ljubostinja i Kalenić i danas stoje, restaurisani i pod zaštitom. U njima se sluša poslednji glas srednjovekovne srpske arhitekture: stil koji je do kraja čuvao meru, vertikalu i lepotu, dok se oko njega zatvarao istorijski krug jedne države."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

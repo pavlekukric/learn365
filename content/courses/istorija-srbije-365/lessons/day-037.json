@@ -6,13 +6,57 @@
   "dayNumber": 37,
   "order": 1,
   "title": "Justinijan i Balkan",
+  "subtitle": "Car rođen u balkanskom selu koji je hteo da obnovi Rim — i ostavio tvrđave, zakone i ranjivu granicu",
   "readingTimeMinutes": 8,
   "year": 527,
-  "isPlaceholder": true,
+  "dateLabel": "527–565.",
+  "timelinePosition": "527–565.",
+  "summary": "Justinijan I, rođen u dardanijskom selu kraj današnjeg Skoplja, vladao je Vizantijom u doba velikih ratova, zakonodavstva i obnove gradova; njegova politika ostavila je dubokog traga i na centralnom Balkanu.",
+  "keyPeople": ["Justinijan", "Belizar", "Prokopije"],
+  "keyPlaces": ["Konstantinopolj", "Tauresium", "Caričin Grad", "Justinijana Prima", "Naissus"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Sredinom šestog veka Vizantija je još uvek verovala da može da bude pravi Rim. Na prestolu u Konstantinopolju sedeo je čovek koji je tu veru pretvorio u program — Justinijan I, vladar od 527. do 565. godine. Pod njim je carstvo pokušalo da povrati izgubljeni zapad, da svoje zakone složi u jedan veliki zbornik, da podigne hramove kakve hrišćanski svet do tada nije video. Ali Justinijan nije bio samo car velikih gradova. Bio je rođen u selu na centralnom Balkanu, i njegova politika tu se najpre i ogledala — u tvrđavama, putevima i jednom gradu koji je nosio njegovo ime."
+    },
+    {
+      "type": "paragraph",
+      "text": "Justinijan je rođen oko 482. godine u mestu Tauresium, u nekadašnjoj rimskoj oblasti između Makedonije i Dardanije, u brdovitom kraju nedaleko od današnjeg Skoplja. Bio je to skroman, latinski govoreći seoski svet — daleko od dvorskih hodnika u koje će kasnije ući. U prestonicu ga je doveo stric Justin, vojnik koji je postepeno napredovao do najviših činova, a potom i sam postao car. Pored Justina, mladi Justinijan je naučio kako carstvo zaista funkcioniše: ne samo iz zakona i protokola, nego i iz vojničkog jezika provincija. Ta dvojnost — visoki Konstantinopolj i provincijski Balkan — pratiće ga celog života."
+    },
+    {
+      "type": "paragraph",
+      "text": "Kada je 527. preuzeo presto, Justinijan je krenuo u ono što su savremenici osetili kao obnovu, „renovatio”, starog rimskog poretka. Njegov najpoznatiji vojskovođa Belizar vodio je pohode koji su Vizantiji vratili severnu Afriku iz ruku Vandala, najveći deo Italije iz ruku Ostrogota, pa i deo južne Hispanije. Na mapi je sve to izgledalo kao trijumf — Sredozemlje opet rimsko, sa centrom na istoku. U stvarnosti, ratovi su trajali decenijama, iscrpljivali blagajnu i ostavljali za sobom razorene gradove. Italija će se posle Justinijanove smrti brzo izgubiti, najvećim delom u korist Langobarda. Već u toj prvoj generaciji posle njega postaće jasno da je obnova bila prevelika za snage carstva."
+    },
+    {
+      "type": "paragraph",
+      "text": "Drugi veliki Justinijanov poduhvat nije zavisio od ratne sreće. Pravnici koje je okupio sredili su rimsko pravo u zbornik koji će kasnije biti nazvan Corpus Juris Civilis. U njemu su sažeti i zakoni, i mišljenja velikih pravnika, i priručnik za studente. Taj zbornik će vekovima kasnije postati osnova evropskih pravnih sistema; njegovi pojmovi ugrađeni su u zakonodavstva mnogih država, posredno i u srpsko. U vlastitoj prestonici Justinijan je za istom merom podigao i hram — Svetu Sofiju, čija kupola je u to vreme delovala gotovo nemoguće. Carstvo koje je hteo da ostavi za sobom bilo je istovremeno pravno, hrišćansko i monumentalno."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Tvrđave na Dunavu i grad sa carevim imenom"
+    },
+    {
+      "type": "paragraph",
+      "text": "Za Balkan je, međutim, najvažnije bilo ono što Justinijan radi bliže kući. Dunavska granica, takozvani limes, bila je u šestom veku sve više pod pritiskom. Sa severa su nadirali konjanički narodi stepa, a postepeno i prve grupe Slovena. Justinijan je tu granicu pokušao da osigura velikim graditeljskim poduhvatom — obnovom starih i podizanjem novih utvrđenja duž Dunava i unutrašnjih balkanskih puteva. Savremenik Prokopije iz Cezareje, u spisu o Justinijanovim građevinama, navodi preko stotinu obnovljenih ili novopodignutih kastela u balkanskim provincijama. Treba imati u vidu da je Prokopije pisao pohvalu, pa njegovi spiskovi nisu uvek tačni do poslednje kule; ali arheologija na više mesta zaista potvrđuje obnove iz Justinijanovog doba."
+    },
+    {
+      "type": "paragraph",
+      "text": "Među gradovima koje je Justinijan ojačao bio je i Naissus, današnji Niš, raskršće puteva koje će u narednim vekovima biti jedna od glavnih meta varvarskih napada. Na karti carstva taj pojas — od Singidunuma na Dunavu, preko Naissusa, do Serdike i dalje ka jugu — bio je kičma balkanskih provincija. Justinijan ga je pokušao da pretvori u branu protiv onoga što je dolazilo sa severa. Te tvrđave nisu mogle da zaustave ono što će uslediti, ali su za nekoliko decenija dale Vizantiji vremena."
+    },
+    {
+      "type": "paragraph",
+      "text": "Postoji i jedan poseban znak careve vezanosti za rodni kraj. Tauresium, selo u kome je rođen, Justinijan je odlučio da uzdigne u grad — i nazvao ga je Justiniana Prima. Trebalo je da to bude crkveno i upravno središte centralnobalkanskih provincija, sedište nadbiskupa sa širokom jurisdikcijom. Pisani izvori, pre svega Prokopije i sam Justinijan u jednoj svojoj noveli, opisuju grad sa bedemima, crkvama, javnim građevinama i vodovodom. Tačna ubikacija tog grada nije do kraja izvesna. Najraširenija pretpostavka u nauci povezuje Justinijanu Primu sa arheološkim nalazištem Caričin grad u južnoj Srbiji, nedaleko od Lebana, gde je iskopan veliki ranovizantijski grad sa očiglednim carskim pečatom. Ta identifikacija je veoma verovatna, ali nije sasvim dokazana — vredi je navesti otvoreno, kako jeste."
+    },
+    {
+      "type": "paragraph",
+      "text": "Justinijanova vladavina nije bila samo zid i zakon. Godine 541. carstvo je pogodila velika pošast, danas poznata kao Justinijanova kuga, koja je u talasima harala Sredozemljem decenijama. Procene gubitaka veoma se razlikuju, ali ozbiljniji istoričari smatraju da je carstvo u tim epidemijama izgubilo veliki, možda i trećinski deo stanovništva. Balkanske provincije su oslabile u trenutku kada im je snaga bila najpotrebnija. Iza vojski koje su se borile za Italiju i Afriku ostajali su gradovi sa manje ljudi, manje vojnika, manje poreza."
+    },
+    {
+      "type": "paragraph",
+      "text": "Kada se Justinijan 565. godine ugasio, ostavio je iza sebe carstvo prostranije nego što ga je našao — ali i prenapregnuto. Njegovi naslednici neće moći da odbrane sve što je on zauzeo. Italija će uskoro biti izgubljena, ravnoteža u Podunavlju će se srušiti. Upravo u tim decenijama, sa one strane Dunava, počinju da se okupljaju i pomeraju slovenske grupe koje će kroz nekoliko generacija preći reku i postepeno se naseliti na Balkanu. Justinijanove tvrđave i Justinijana Prima ostaće svedoci jednog poslednjeg velikog napora pozne antike — sveta koji se polako, ali nezaustavljivo, povlačio pred onim što tek dolazi."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

@@ -6,13 +6,49 @@
   "dayNumber": 117,
   "order": 12,
   "title": "Miloš Obilić i predanje",
+  "subtitle": "Između istorijskog jezgra i narodne pesme — kako je srpski vlastelin koji je ubio sultana Murata postao Miloš Obilić",
   "readingTimeMinutes": 7,
   "year": 1389,
-  "isPlaceholder": true,
+  "dateLabel": "1389. i kasnije",
+  "timelinePosition": "1389. i kasnije",
+  "summary": "Istorijski Miloš — srpski vlastelin koji je na Kosovu ubio sultana Murata I — i Miloš predanja: kako je iz oskudnih izvora izrasla najveća figura srpske epike.",
+  "keyPeople": ["Miloš Obilić", "Murad I", "Lazar", "Vuk Branković", "Konstantin Mihailović iz Ostrovice"],
+  "keyPlaces": ["Kosovo polje"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Od svih likova srpske istorije, Miloš Obilić je najteži za pisanje. O njemu se zna manje nego o gotovo bilo kom drugom srpskom junaku, a peva se i priča više nego o ikome. Između tih dveju činjenica — oskudnog istorijskog jezgra i ogromnog predanja — leži ceo problem. Da bi se prema njemu odnelo pošteno, mora se jasno reći šta o njemu znamo iz izvora, šta je dodala narodna pesma, i zašto je upravo ta figura, više od bilo kog dokumenta, postala mera srpskog odnosa prema Kosovu."
+    },
+    {
+      "type": "paragraph",
+      "text": "Istorijsko jezgro je čvrsto u jednoj tački. Da je sultan Murad I poginuo 15. juna 1389. na Kosovu polju, beleže savremeni i bliski savremeni izvori sa različitih strana — firentinska kancelarija, koja je dva meseca posle bitke pisala bosanskom kralju Tvrtku, vizantijski hroničari, rani osmanski istoriografi i srpska crkvena predanja. Da ga je ubio jedan srpski plemić koji je uspeo da mu se približi, takođe se slaže veliki broj nezavisnih izvora. Manje je sigurno kako je do ubistva tačno došlo: jedni izvori kažu da se vlastelin u toku bitke probio do sultanovog šatora, drugi da je prišao posle bitke, pod izgovorom da se predaje ili da nosi važnu vest, i da je tada izvadio sakriveni nož. Razlike u opisu su stvarne — ali sama činjenica ubistva i identitet ubice kao srpskog plemića ne podležu razumnoj sumnji."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ime se u izvorima pojavljuje kasnije i ne odjednom. U 15. veku, Konstantin Mihailović iz Ostrovice, Srbin koji je kao janičar dospeo do mađarskog dvora i ostavio uspomene poznate kao „Janjičareve uspomene”, naziva ga Miloš Kobilović. Otprilike u isto vreme, jedan italijanski hroničar beleži sličnu formu — Cobilich. Po tim i drugim ranim spomenima vidi se da je prvobitni oblik prezimena verovatno bio Kobilović ili Kobilić. Tek u kasnijim vekovima, kada je prezime u narodu počelo da se oseća kao nedostojno junaka, oblik se promenio u Obilić — od reči koja sugeriše obilje i snagu. Pod tim imenom je ušao u kanon srpske kulture."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Miloš predanja"
+    },
+    {
+      "type": "paragraph",
+      "text": "Sve ostalo što ljudi danas „znaju” o Milošu dolazi iz narodne pesme, koja se vekovima oblikovala u guslarskoj tradiciji i konačno bila zapisana u 19. veku, najviše u zbirkama Vuka Karadžića. Po tom predanju, Miloš je Lazarov zet, oženjen jednom od kneževih kćeri — Marom — i u svojti je sa Vukom Brankovićem, koji je oženjen njenom sestrom. Već tu se vidi pesnička sloboda: Mara je u stvari bila Brankovićeva žena, a porodične veze koje pesma pripisuje Milošu istorijski se ne mogu potvrditi. Na večeri uoči bitke, peva se, knez Lazar diže zdravicu i optuži Miloša da će ga sutra izdati. Miloš ustaje povređen i obećava da će svoju vernost dokazati delom: jutro će ga, kaže, naći ili u sultanovom šatoru kao ubicu, ili na bojnom polju kao mrtvog vojnika. Tako je iz pesničke potrebe — da se junaštvo dokaže nasuprot sumnji — izrasla cela drama izdaje i žrtve."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sledećeg dana, po predanju, Miloš se odvaja od srpske vojske, dolazi pred osmanske straže i kaže da prelazi na sultanovu stranu. Puštaju ga do Murata. Pred sultanom se saginje kao da će mu poljubiti nogu, izvlači sakriveni handžar i ubija ga. Tu, među telohraniteljima, biva uhvaćen i smaknut. Iza tog prizora pesma je sazidala čitav etički svet: čovek koji prima na sebe sumnju kao breme, koji odgovara na nju ne rečima nego delom, i koji svoj život daje da bi ime svoga gospodara i svoje vojske ostalo čisto. To je razlog što je upravo Miloš, a ne neki drugi učesnik Kosova, postao vrhovni junak srpskog usmenog pesništva."
+    },
+    {
+      "type": "paragraph",
+      "text": "Njegova kulturna uloga proširila se daleko van pesme. U srpskoj narodnoj veri Miloš je odavno bio poštovan gotovo kao svetac; Srpska pravoslavna crkva ga je u 20. veku zvanično uvrstila u kalendar kao Svetog Miloša, zajedno sa drugim kosovskim mučenicima. Njegovo ime nosi Orden Miloša Obilića, ustanovljen za hrabrost u ratu, kao i naselja, ulice i škole. U svakoj generaciji od 19. veka naovamo, kada se postavljalo pitanje šta znači lična hrabrost u trenutku kolektivnog poraza, neko se vraćao Milošu — ne onom iz dokumenata, koga gotovo i nema, nego onom iz pesme, koji je za to vraćanje i bio stvoren."
+    },
+    {
+      "type": "paragraph",
+      "text": "Posao istoričara je da te dve figure razdvoji i prema obema bude pravedan. Istorijski Miloš je gotovo siluet — vlastelin čije je ime u izvorima nesigurno, čiji život pre bitke ne znamo, čiji je čin međutim posvedočen i imao stvarne posledice, jer je smrt Murata I unela trenutni nered u osmanski tabor. Miloš predanja je nešto sasvim drugo: lik koji pripada književnosti i etici, model lične žrtve za zajedničko dobro, opomena da se sumnja u čoveka može razrešiti samo delom, i da jedan postupak može poneti dostojanstvo cele potučene vojske. Obe figure zaslužuju ozbiljan odnos. Ako se istorijska istina poštuje, ne mora se odricati predanja; a ako se predanje voli, ne sme se brkati sa izvorom. Miloš je u srpskoj kulturi važan ne zbog onoga što o njemu znamo, nego zbog onoga što je postao — i to razlikovanje je njegovo prvo, a možda i najveće priznanje."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

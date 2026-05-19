@@ -6,13 +6,53 @@
   "dayNumber": 105,
   "order": 8,
   "title": "Nasleđe Nemanjića — crkva i kultura",
+  "subtitle": "Šta je od dela Nemanjića preživelo pad srednjovekovne države — crkva, manastiri, freske, kult svetitelja i živo sećanje",
   "readingTimeMinutes": 8,
   "year": 1350,
-  "isPlaceholder": true,
+  "dateLabel": "pregled",
+  "timelinePosition": "pregled",
+  "summary": "Pregled onoga što je od Nemanjića preživelo pad države: autokefalna crkva i obnovljena Pećka patrijaršija, mreža manastira, kult porodičnih svetitelja, freske i književnost, Dušanov zakonik i pamćenje koje je trajalo pet osmanskih vekova.",
+  "keyPeople": [],
+  "keyPlaces": [],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Kada je 1459. godine pala poslednja srpska despotovina, činilo se da sa državom nestaje i sve što je uz nju išlo — dvor, vojska, kraljevska titula, samostalna politika. Ali ono što su Nemanjići, više od dva veka pre toga, sazidali pored države — crkvu, manastirsku mrežu, kult porodičnih svetitelja, književnu i pravnu tradiciju, slikarsku školu — pokazalo se trajnije od same države. Vekovi koji su sledili biće vekovi bez srpskog kralja, ali ne i bez nemanjićkog nasleđa. Upravo to nasleđe, a ne politički poredak, biće most preko kojeg srednjovekovna Srbija prelazi u novovekovnu."
+    },
+    {
+      "type": "paragraph",
+      "text": "U središtu tog mosta stajala je crkva. Samostalna srpska Arhiepiskopija, koju je Sava 1219. dobio u Nikeji, prerasla je 1346. u Pećku patrijaršiju i sa tim dostojanstvom dočekala je tursko doba. Crkva je preživela ono što država nije. Posle prvih turskih udara njena uloga je oslabila, ali nije nestala; 1557. godine, zaslugom Mehmed-paše Sokolovića, Pećka patrijaršija je obnovljena u punoj jurisdikciji koja je sezala od Budima do Skoplja. Ta druga Pećka patrijaršija živela je do 1766, kada ju je sultan ponovo ukinuo i potčinio Carigradskoj patrijaršiji. Konačna obnova, sada već u modernoj Kraljevini, došla je tek 1920. godine. Linija je, uz prekide, ostala neprekinuta — današnja Srpska pravoslavna crkva izvodi svoju neposrednu nasledstvenu vezu od Save i nemanjićke arhiepiskopije."
+    },
+    {
+      "type": "paragraph",
+      "text": "Telo te crkve bili su manastiri. Mreža koju su podigli Nemanjići — Studenica, Žiča, Mileševa, Sopoćani, Gračanica, Dečani, Pećka patrijaršija, Hilandar na Atosu i još desetine manjih zadužbina — nije bila samo niz bogomolja. Bila je to infrastruktura jedne kulture. U manastirima su se prepisivale knjige, čuvale mošti, slikale freske, vodili letopisi, podučavali sveštenici i čuvali pravni i liturgijski tekstovi. Kada je državna struktura pala, manastiri su u velikoj meri ostali — neki opustošeni i obnavljani, neki kontinuirano naseljeni, neki tek imenom. Hilandar je, zahvaljujući statusu na Svetoj Gori, prošao kroz vekove sa najmanje prekida i postao trajna tačka oslonca."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Sveci, freske, knjige, zakon"
+    },
+    {
+      "type": "paragraph",
+      "text": "Iz porodice Nemanjića izrasla je i neuobičajeno gusta porodična svetost. Sveti Simeon — sam Stefan Nemanja u monaštvu — i Sveti Sava bili su tek početak. Vremenom su u kalendar ušli i Sveta Jelena Anžujska, Sveti Stefan Dečanski, Sveti car Uroš i drugi. Njihovi praznici davali su ritam crkvene godine, a njihova žitija — najpre Domentijanova i Teodosijeva, pa kasnije bezbroj prepisa — čitala su se i slušala vekovima. Pred tim svetiteljima molili su se ljudi koji odavno nisu imali kralja iste krvi. Tako se porodica Nemanjića, izgubivši presto, zadržala kao porodica zaštitnika — kult koji je jednu lozu pretvorio u sastavni deo narodne pobožnosti."
+    },
+    {
+      "type": "paragraph",
+      "text": "Uz svece su preživele i njihove slike. Freske Studenice, Mileševe, Sopoćana, Gračanice i Dečana spadaju među vrhunce evropskog srednjovekovnog slikarstva — to nije više patriotsko preuveličavanje, nego sud stručne literature. Mileševski „Beli anđeo” postao je u dvadesetom veku jedna od najprepoznatljivijih slika srednjovekovne Evrope; Sopoćani su poznati po monumentalnosti figura i mekoći boja koja se približava italijanskoj renesansi pre nego što je ona započela; Dečani po obimu i sačuvanosti programa. Više nemanjićkih zadužbina danas je pod zaštitom UNESCO-a. Zahvaljujući njima, vizuelna predstava srednjovekovne Srbije u svetu nije rekonstrukcija, nego nešto što se može pogledati u prostoru u kojem je nastalo."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pisana reč imala je svoju, tišu istoriju. Korpus koji su ostavili Sava sa svojim tipicima i pravilima, Stefan Prvovenčani sa žitijem oca, Domentijan i Teodosije sa biografijama Save, kasnije i sami vladari poput Stefana Lazarevića sa svojim spisima — formirao je književnu tradiciju koja se u manastirskim skriptorijama prepisivala, ispravljala i nastavljala. Uz nju je išla i pravna kultura. Dušanov zakonik iz 1349. i 1354. godine nije prestao da živi sa padom carstva; u običajnom pravu, naročito u brdskim i seoskim zajednicama, njegove odredbe i njihovi odjeci primenjivali su se i znatno kasnije. Dvojnost crkvenog i svetovnog prava, naslednica vizantijskih obrazaca koju su Nemanjići presadili, oblikovala je srpsku svakodnevicu i u doba kada zvanične srpske institucije više nisu postojale."
+    },
+    {
+      "type": "paragraph",
+      "text": "Iznad svega, ostalo je sećanje. Skoro pet vekova posle 1459. godine Srbi su nemanjićki period nosili u glavi kao zlatno doba — vreme kraljeva, careva, velikih manastira, samostalne crkve i ravnopravnog položaja u hrišćanskoj Evropi. Tu sliku treba primiti pošteno. Ona je delom istinita: nemanjićka država zaista jeste bila vrhunac srednjovekovne srpske moći. Ali ona je i idealizovana — unutrašnji sukobi, surovosti, neuspesi i nepravde lakše su bledeli od pamćenja o zadužbinama. Bez obzira na to, kao psihološka i kulturna činjenica, to sećanje je delovalo. Hranilo je crkvene besede, narodne pesme, prve novovekovne pokušaje državnosti i, na kraju, modernu nacionalnu samosvest devetnaestog veka."
+    },
+    {
+      "type": "paragraph",
+      "text": "Treba reći i ono što se često prećuti. Prenošenje tog nasleđa kroz pet osmanskih vekova nije bilo ni glatko ni potpuno. Mnogi manastiri su rušeni, paljeni i pljačkani; rukopisi su nestajali u požarima ili završavali u tuđim bibliotekama; freske su krečene i oštećivane; tradicija je u nekim oblastima slabila do same granice prekida. Ono što je preživelo preživelo je delom planski, zalaganjem monaha, sveštenika i ktitora, a delom slučajno — zato što je neki manastir bio sklonjen u brdima, neki rukopis u Hilandaru, neka freska pod krečom koji ju je nehotice sačuvao. Upravo zato je nemanjićko nasleđe, kada se gleda iz današnjeg ugla, dvostruko dragoceno: i po onome što govori o veku u kojem je nastalo, i po tome kako je, vek za vekom, izneto iz njega."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

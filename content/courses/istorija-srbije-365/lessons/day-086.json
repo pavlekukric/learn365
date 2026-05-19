@@ -6,13 +6,57 @@
   "dayNumber": 86,
   "order": 8,
   "title": "Freske i ikone",
+  "subtitle": "Zidno slikarstvo i ikonopis srpskih manastira od 12. do 14. veka — od Studenice do Dečana, u senci Vizantije",
   "readingTimeMinutes": 8,
   "year": 1300,
-  "isPlaceholder": true,
+  "dateLabel": "12–14. vek",
+  "timelinePosition": "12–14. vek",
+  "summary": "Srpsko zidno slikarstvo i ikonopis između 12. i 14. veka: od Studenice i Mileševe, preko Sopoćana, do paleologovskih Dečana i Gračanice.",
+  "keyPeople": ["Mihail Astrapas", "Evtihije", "Stefan Nemanja", "kralj Vladislav", "kralj Uroš I"],
+  "keyPlaces": ["Studenica", "Mileševa", "Sopoćani", "Gračanica", "Dečani"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Kada se uđe u pravoslavnu crkvu srpskog srednjeg veka, čovek se zatekne pod naslikanim nebom. Zidovi nisu ukrašeni slikama u našem današnjem smislu, nego prekriveni jednim povezanim svetom — od kupole, gde je predstavljen Hristos Pantokrator kao gospodar svega, do oltarske apside sa Bogorodicom, do četiri jevanđelista u pandantifima i nizova prizora iz Hristovog života koji se nastavljaju duž zidova. Pri ulazu obično stoje ktitori, vladari i vlastela koji su crkvu sazidali. Sve je to slikano na svežem malteru — tehnika koju zovemo fresko — i sve je to deo jednog promišljenog teološkog programa, a ne ukras nasumice raspoređen."
+    },
+    {
+      "type": "paragraph",
+      "text": "Tehnika je zahtevala brzinu i sigurnu ruku. Boja se nanosila na vlažan, tek namazan sloj kreča, i dok malter sahne, pigment se hemijski vezuje za zid. Slikar je morao tačno znati koliko će za jedan dan stići i tako podeliti posao na takozvane dnevnice. Greška se nije lako popravljala; loša freska se otucavala i radila iznova. Otuda i osećaj jasnoće koji prati najbolja srpska zidna slikarstva — slika je morala biti zamišljena pre nego što je prva linija povučena."
+    },
+    {
+      "type": "paragraph",
+      "text": "Prvi veliki uzlet srpskog fresko slikarstva pripada raškoj školi, vremenu prvih Nemanjića. U Bogorodičinoj crkvi u Studenici, oslikanoj oko 1209. godine, vide se figure svečane, ozbiljne, sa snažnim crtežom i tamnim, sažetim koloritom — slikarstvo koje još govori jezikom poznog komnenskog stila. Tridesetih godina 13. veka u Mileševi, zadužbini kralja Vladislava, naslikan je niz fresaka među kojima se izdvaja prizor Vaskrsenja sa anđelom na praznom Hristovom grobu. Taj anđeo, bele haljine i mirnog lica, ušao je u svetsku istoriju umetnosti kao „Beli anđeo” i postao jedan od najprepoznatljivijih likova srednjovekovnog slikarstva uopšte."
+    },
+    {
+      "type": "paragraph",
+      "text": "Vrhunac raške škole, a mnogi bi rekli i vrhunac evropskog srednjovekovnog slikarstva, dostignut je oko 1265. godine u Sopoćanima, zadužbini kralja Uroša I. Figure u Sopoćanima su monumentalne, dostojanstvene i — što je najteže postići — duboko ljudske. Lica imaju težinu, pogled, tihu plemenitost koja podseća na pozni antički portret. Više stručnih pregleda evropske umetnosti, od ruskih i francuskih do anglosaksonskih, sopoćansko slikarstvo navodi kao jedan od najviših domašaja srednjovekovne umetnosti u celoj Evropi, uporediv sa najboljim onovremenim delima Zapada i Vizantije."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Paleologovski preokret"
+    },
+    {
+      "type": "paragraph",
+      "text": "Krajem 13. i tokom 14. veka u srpsko slikarstvo ulazi nov duh — onaj koji u istoriji umetnosti zovemo paleologovskom renesansom, po vizantijskoj dinastiji Paleologa. Iz Carigrada i Soluna stižu novi obrasci: kompozicije postaju složenije, prizori narativniji i dramatičniji, prostor dublji, draperije pokretljivije. U Srbiji se taj stil najpre vidi u Bogorodici Ljeviškoj u Prizrenu i u Kraljevoj crkvi u Studenici, pa onda u monumentalnim ostvarenjima u Gračanici, Starom Nagoričinu i, konačno, u Visokim Dečanima sa najopsežnijim sačuvanim fresko programom srednjovekovne pravoslavne crkve uopšte."
+    },
+    {
+      "type": "paragraph",
+      "text": "U inskripcijama tih crkava sačuvana su i imena slikara — što je za srednji vek dragoceno i retko. Među najpoznatijima su Mihail Astrapas i Evtihije, dvojica majstora grčkog porekla iz Soluna, koji su početkom 14. veka oslikali nekoliko zadužbina kralja Milutina. Većina vrhunskih majstora u Srbiji ovog doba zaista jesu Grci — to je činjenica koju izvori jasno kažu i koju ne treba prećutkivati. Ipak, uz njih su radili i domaći slikari, pretežno na drugorednim programima i u manjim crkvama, postepeno usvajajući zanat. Tako je srpsko fresko slikarstvo bilo i deo vizantijskog kulturnog kruga i istovremeno nešto sopstveno, sa naručiocima, programima i svecima koje je biralo srpsko društvo."
+    },
+    {
+      "type": "paragraph",
+      "text": "Posebnu vrednost imaju ktitorski portreti. Na zidovima crkava, obično blizu ulaza, predstavljeni su vladari i njihove porodice kako Hristu ili Bogorodici predaju model sazidane crkve. Ti prizori nisu samo pobožni; oni su za istoričare prvorazredan izvor. Sa njih saznajemo kako su izgledali kraljevski plaštevi i krune, kako se nosila vlastela, koje su žene i deca stajali uz vladara u određenoj godini. Loza Nemanjića u Dečanima, gde su predstavljeni vladari od Stefana Nemanje nadalje, čitav je dinastički program preveden u boju."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pored zidnih fresaka, postojao je i ikonopis u užem smislu — slikanje na drvenim daskama, prenosivim slikama koje su stajale na ikonostasu, u oltarima i u privatnim odajama. Sačuvane srpske ikone iz 13. i 14. veka pokazuju visok tehnički nivo i istu vizantijsku obrazovanost kao i freske. Najveći broj ranih ikona koje se sa Srbijom mogu povezati čuva se danas u manastiru Hilandaru na Svetoj Gori, ostalo je rasuto po raznim zbirkama. Njihova produkcija pretpostavlja postojanje radionica, naručilaca i tržišta — slika je u srednjovekovnom društvu bila i molitveni predmet i ulaganje."
+    },
+    {
+      "type": "paragraph",
+      "text": "Treba pošteno reći i ono što se često zaboravi. Mnogo je izgubljeno. Pet vekova osmanske vlasti, požari, oštećenja, kasnija nestručna obnavljanja — sve je to ostavilo traga. Brojne freske su izbledele, neke su skinute sa zidova i danas se vide samo u fragmentima, a oko datovanja i pripisivanja pojedinim majstorima među naučnicima i dalje postoje rasprave. Ono što je preostalo, ipak, dovoljno je da pokaže razmere onoga što je nekada bilo. Sopoćani, Mileševa, Studenica, Gračanica, Dečani — to nije samo srpsko nasleđe. To je deo zajedničkog evropskog pamćenja srednjeg veka, na zidovima crkava koje, kroz svaki vek koji ih nije srušio, i dalje govore."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

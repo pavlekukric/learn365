@@ -6,13 +6,57 @@
   "dayNumber": 230,
   "order": 5,
   "title": "Nasleđe Srpske revolucije",
+  "subtitle": "Šta je period od 1804. do 1839. trajno doneo, a šta je ostavio otvorenim za vekove koji slede",
   "readingTimeMinutes": 8,
   "year": 1835,
-  "isPlaceholder": true,
+  "dateLabel": "pregled",
+  "timelinePosition": "1804–1839.",
+  "summary": "Sintezni pogled na ono što su dva srpska ustanka i Miloševa vladavina ostavili u nasleđe — državu, institucije i pitanja koja će tek doći.",
+  "keyPeople": ["Karađorđe Petrović", "Miloš Obrenović", "Leopold Ranke", "Dimitrije Davidović", "Vuk Karadžić"],
+  "keyPlaces": ["Beogradski pašaluk", "Kragujevac", "Beograd", "Carigrad"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Kada je nemački istoričar Leopold Ranke 1829. godine u Berlinu objavio knjigu „Die serbische Revolution”, on je gotovo nehotice učinio nešto što ni sami akteri u Srbiji nisu još sasvim razumeli — dao je tridesetogodišnjem nizu ustanaka, ratova, pregovora i tihih reformi jedno ime. Od tada, za evropsku istoriografiju, razdoblje između 1804. i 1839. nije više zbir lokalnih buna na granici Carstva, nego „Srpska revolucija” — pojava istog reda kao grčki ustanak ili italijanski Rizorđimento. Iz današnje udaljenosti može se mirno reći šta je to razdoblje trajno donelo, a šta je ostavilo otvorenim za one koji dolaze."
+    },
+    {
+      "type": "paragraph",
+      "text": "Prvo i najvažnije: posle vekova u kojima su Srbi bili podanici tuđih careva, na karti se ponovo pojavio domaći politički subjekt. Beogradski pašaluk, koji je 1804. godine bio osmanska pokrajina kao i svaka druga, do kraja Miloševe prve vladavine postao je autonomna kneževina sa sopstvenim knezom, sopstvenim zakonima i sopstvenom upravom — i sa sultanovim hatišerifima koji su tu autonomiju priznavali. Suverenost još nije potpuna, granice su uže od onoga što je srpsko stanovništvo naseljavalo, ali postoji nešto što se zove srpska država i čime se iznutra upravlja. To je čvrsta tačka oslonca za sve što će se u 19. veku tek graditi."
+    },
+    {
+      "type": "paragraph",
+      "text": "Drugo, ispod političke promene odigrala se i jedna tiha društvena. Stari osmanski poredak u srpskim oblastima počivao je na čifluku — na tome da je zemlja krajnje vlasništvo spahije, a seljak na njoj radi uz davanje dela roda. Tokom 1830-ih, koristeći ovlašćenja koja mu je donela autonomija, Miloš je sistematski otkupljivao spahijska prava i isplaćivao bivše vlasnike, sve dok od starog poretka nije ostala samo uspomena. Iz toga je nastalo srpsko slobodno seljaštvo — sitan posednik koji je sam na svojoj zemlji. Taj sloj će vekovima ostati socijalna osnova srpske države, sa svim svojim vrlinama strpljive izdržljivosti i sa svojim ograničenjima koja će se osetiti kasnije, kada se zatraži brz industrijski razvoj."
+    },
+    {
+      "type": "paragraph",
+      "text": "Treće, u Kragujevcu i Beogradu postavljeni su temelji institucija. Tu je knez kao šef države, Sovjet kao njegovo savetodavno i delimično zakonodavno telo, popečitelji kao prvi ministri za pojedine resore, sudovi razdvojeni od sirove izvršne vlasti — makar u načelu — i vojska koja postepeno prerasta iz ustaničkih četa u stajaću silu. Tu su i prve škole, prva štamparija, prve novine. Mnoge od tih ustanova u praksi su krhke i podložne Miloševoj samovolji, ali okvir postoji i biće dograđivan generacijama. Bez tog okvira ne bi bila moguća ni kasnija ustavna borba, ni stvaranje moderne uprave krajem veka."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Crkva, ustav, ideja države"
+    },
+    {
+      "type": "paragraph",
+      "text": "Četvrto je crkva. Posle vekova zavisnosti od Carigradske patrijaršije, 1832. godine obnovljena je samostalnost Srpske crkve — uspostavljena je Beogradska mitropolija, čiji je poglavar dobio pravo da bira episkope u dogovoru sa knezom i sultanom. Autokefalnost u punom kanonskom smislu doći će tek kasnije, oko 1879, ali korak iz 1832. politički je presudan: srpska država i srpska crkva ponovo idu zajedno, kao u nemanjićko vreme. Peto su prvi pisani ustavi. Sretenjski ustav iz 1835, delo Dimitrija Davidovića, bio je za jedan trenutak među najslobodoumnijima u Evropi tog časa — i upravo zato je pao posle nekoliko nedelja, pod pritiskom Carigrada, Beča i Petrograda. Turski ustav iz 1838, naturen spolja, bio je konzervativniji, ali je značio nešto drugo: od tada je u Srbiji vladar pravno ograničen pisanim dokumentom, a ne više samo običajem."
+    },
+    {
+      "type": "paragraph",
+      "text": "Šesto, i možda najteže merljivo, jeste promena u glavama ljudi. Prvi ustanak je 1804. počeo kao bunt protiv dahija — kao zahtev za boljom verzijom starog poretka. Do 1839. ono što se traži više nije samo manje nasilja i niži porezi, nego srpska država kao cilj po sebi. Ideja državnosti postala je horizont prema kome se okreću i seljak, i trgovac, i prvi školovani činovnik. Iz te ideje će za nekoliko decenija izrasti i Načertanije, i pokret za ujedinjenje, i konačno samostalnost. Sedmo, paralelno sa svim ovim, odvija se i Vukova jezička i pravopisna reforma — ali to je tako velika i posebna priča da zaslužuje sopstvenu lekciju."
+    },
+    {
+      "type": "paragraph",
+      "text": "Šta nije doneto, treba reći isto tako mirno. Nezavisnost nije postignuta — Srbija ostaje sultanov vazal sve do Berlinskog kongresa 1878. Granice srpskog etničkog prostora nisu obuhvaćene; veliki delovi srpskog naroda u Bosni, Hercegovini, Crnoj Gori, Vojvodini i Staroj Srbiji i dalje žive pod tuđim vlastima, i to pitanje će ostati otvoreno i bolno do duboko u 20. vek. Demokratija u modernom smislu nije uspostavljena; ono što je ostalo posle Miloša pre je oligarhija pismenih činovnika i imućnijih trgovaca nego vlast naroda. Industrijski razvoj još ne postoji ni u tragu; Srbija ulazi u period Kneževine kao seljačka zemlja sa varošicama, bez fabrika i bez železnice."
+    },
+    {
+      "type": "paragraph",
+      "text": "Treba reći i ono što romantičarska slika ovog razdoblja često prećutkuje. Srpska revolucija je donela ogromno nasilje — ne samo prema osmanskoj vojsci, već i unutar samog srpskog društva. Karađorđev pad i njegovo ubistvo 1817. po Miloševom nalogu, kao i niz potonjih političkih obračuna, otvorili su dinastičko rivalstvo Karađorđevića i Obrenovića koje će čitav vek razdirati Srbiju i kulminirati 1903. godine. Sloboda je plaćena krvlju, ali deo te krvi prolili su Srbi između sebe. Pošten istoričarski pogled to ne prećutkuje i ne pretvara revoluciju u slavopev."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pa ipak, ako se pogleda iz daljine, slika je nesumnjiva. Razdoblje od 1804. do 1839. spada u red velikih evropskih revolucija 19. veka — uz grčku, italijansku i druge nacionalne pokrete koji su preoblikovali kontinent. Ono što je u tih trideset i pet godina napravljeno — država, slobodno seljaštvo, institucije, crkva, ustavi, ideja — predstavlja temelj na kome će se tek graditi sve sledeće: Kneževina, kraljevina, ratovi za oslobođenje i moderna srpska istorija u celini. Sa tim nasleđem, i sa svim njegovim teretima, ulazi se u novo doba."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

@@ -6,13 +6,53 @@
   "dayNumber": 160,
   "order": 10,
   "title": "Gradovi pod osmanskom vlašću",
+  "subtitle": "Kako su srednjovekovne varoši postale osmanski provincijski centri sa čaršijom, mahalama i mešanim stanovništvom",
   "readingTimeMinutes": 7,
   "year": 1650,
-  "isPlaceholder": true,
+  "dateLabel": "16–18. vek",
+  "timelinePosition": "16–18. vek",
+  "summary": "Beograd, Niš, Sarajevo, Skoplje, Peć i druge varoši pod osmanskom vlašću od 16. do 18. veka — čaršija i mahale, džamije i crkve, esnafi i trgovci, i složen život više zajednica unutar istih zidina.",
+  "keyPeople": [],
+  "keyPlaces": ["Beograd", "Niš", "Sarajevo", "Skoplje", "Peć", "Prizren", "Užice", "Smederevo"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Kada osmanska vlast u 16. veku konačno učvrsti svoje granice na srpskim, bosanskim i makedonskim zemljama, gradovi koje je zatekla počinju da menjaju lice. Stare srednjovekovne varoši, okupljene oko tvrđave, crkve i pijace, pretvaraju se u osmanske provincijske centre. Dolaze nove ustanove, novo graditeljstvo i novi raspored ulica, ali staro stanovništvo, sa svojim crkvama i parohijama, ne nestaje. Ono što nastaje je grad u kome više zajednica, više vera i više jezika dele istu kaldrmu, svako u svom delu i po svom redu."
+    },
+    {
+      "type": "paragraph",
+      "text": "Najveći među njima na srpskim zemljama je Beograd. Osmanlije ga osvajaju 1521. godine i pretvaraju u glavnu graničnu tvrđavu prema Ugarskoj, a u 18. veku i u sedište Beogradskog pašaluka. Tvrđava i garnizon su uvek u prvom planu — Beograd je vojnička kapija ka srednjoj Evropi — ali oko utvrđenja se razvija velika varoš sa čaršijom, lukom na Savi i Dunavu, dubrovačkom trgovačkom kolonijom i jevrejskom mahalom čiji se trgovci povezuju sa Solunom i Carigradom. U 17. veku evropski putopisci opisuju Beograd kao bogat i živ grad sa mnogo džamija, hanova i bazara; tačan broj stanovnika ostaje predmet procene, ali se kreće u redu velikih osmanskih provincijskih varoši."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pored Beograda, mrežu čine Smederevo — sedište sandžaka i stara prestonica despotovine, sada osmanska tvrđava na Dunavu; Niš, raskršće puteva prema Sofiji i Solunu, sa važnim garnizonom; Užice, varoš zanatlija i trgovaca u brdovitom zapadu; Kruševac i Kragujevac, manji ali žilavi centri Pomoravlja. Na Kosovu i Metohiji žive Prizren, stari grad sa mešanim stanovništvom i jakim trgovačkim slojem, i Peć, koja od 1557. ponovo postaje sedište obnovljene srpske patrijaršije i tako duhovno središte pravoslavnih u celom Carstvu. Novo Brdo, nekada veliko rudarsko središte, opada, ali u 16. veku još uvek kopa srebro i okuplja rudare i trgovce. Gnjilane se tek polako uobličava kao varoš."
+    },
+    {
+      "type": "paragraph",
+      "text": "Na zapadu i jugu, u istom carskom okviru, niču ili rastu gradovi izrazito osmanskog karaktera. Sarajevo se u 16. veku, zaslugom velikih dobrotvora poput Gazi Husrev-bega, pretvara u jedan od najlepših osmanskih gradova u Evropi, sa monumentalnom džamijom, medresom, bezistanom i razvijenom čaršijom. Skoplje je još veće — administrativni i trgovački centar koji povezuje balkanske puteve. U svim ovim gradovima osmanska arhitektura ostavlja prepoznatljiv pečat: džamije sa minaretima, medrese kao verske škole, hamami kao javna kupatila, bezistani — natkriveni tržni prostori za skupocenu robu, karavansaraji kao prenoćišta za putnike i trgovce, kameni mostovi i javne česme."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Čaršija i mahale"
+    },
+    {
+      "type": "paragraph",
+      "text": "Srce svakog osmanskog grada je čaršija — središnja tržna četvrt u kojoj se redaju radionice i dućani, najčešće organizovani po zanatima: ulica kazandžija, ulica sarača, ulica tabaka, ulica zlatara. Zanatlije su udružene u esnafe, sa strogom unutrašnjom disciplinom, redom napredovanja od šegrta do majstora i sa zajedničkim verskim i dobrotvornim obavezama. U nekim zanatima preovlađuju muslimanski majstori, u drugima hrišćanski; nije bilo retko da pripadnici jedne vere drže jedan ceo zanat. Trgovinu sa Zapadom u velikoj meri drže dubrovačke kolonije, smeštene u glavnim gradovima — od Beograda do Sofije i Skoplja — koje uživaju posebne povlastice i sa Mletačkom republikom drže Srbe i Bosance u stalnoj vezi sa jadranskim tržištima."
+    },
+    {
+      "type": "paragraph",
+      "text": "Oko čaršije se prostiru mahale, stambene četvrti grupisane po veri. Muslimanske mahale okupljene su oko džamije, pravoslavne oko crkve, katoličke oko svoje bogomolje, jevrejske oko sinagoge. Svaka zajednica živi kao zaseban milet — pravna i verska kategorija osmanskog sistema — i unutar njega ima sopstvene starešine, sopstvene sudove za porodična pitanja i sopstvenu školu. Na ulici se čuju turski kao zvanični jezik, lokalni slovenski govori, grčki među pravoslavnim trgovcima, ladino — judeošpanski — među Sefardima protereanim iz Španije, italijanski i slovenski među katoličkim trgovcima. Vrhovnu vlast vrše paša ili sandžak-beg sa svojom pratnjom, a islamski sudija — kadija — presuđuje po šerijatskom pravu i vodi sudski protokol u kome su, srećom po istoričare, sačuvani mnogi tragovi gradskog života."
+    },
+    {
+      "type": "paragraph",
+      "text": "Hrišćansko, najvećim delom srpsko pravoslavno stanovništvo u ovim gradovima nije malo. U Beogradu, Nišu, Užicu, Sarajevu, Skoplju i Prizrenu ono čini znatan deo stanovništva — trgovci, zanatlije, sveštenstvo, sluge u kućama imućnih muslimana. Pravoslavne crkve i parohije, iako po pravilu skromnijeg izgleda od džamija i bez visokih zvonika, čine duhovno uporište zajednice; obnova Pećke patrijaršije 1557. dodatno učvršćuje crkvenu mrežu u celom prostoru. U isto vreme, sistem mileta i prateće obaveze — poseban porez, ograničenja u izgradnji, nošenju oružja, jahanju konja u nekim sredinama — jasno pokazuju da se radi o društvu strukturne nejednakosti, u kome pravoslavni nisu ravnopravni sa muslimanima."
+    },
+    {
+      "type": "paragraph",
+      "text": "Vek 16. ovi gradovi proživljavaju kao razdoblje uspona; 17. donosi krize Carstva, poskupljenja, pobune janičara i sve teže poreze. 18. vek za pogranične gradove, naročito za Beograd, znači vreme ratova. Austrijska vojska osvaja Beograd 1688, gubi ga 1690, vraća se 1717. i drži ga do 1739. godine, kada se po beogradskom miru grad ponovo vraća pod osmansku vlast. Svaka od tih ruka zatiče i ostavlja drugačiji grad — porušene džamije i podignute katoličke crkve, pa opet obrnuto, prognano stanovništvo, opustele mahale i nove naseljenike. Sličnu sudbinu, u manjoj meri, dele i Niš, Smederevo i druge tvrđave duž puta na sever. Pošteno gledano, gradovi pod osmanskom vlašću nisu bili samo mesta tlačenja, kako ih predstavlja jedan deo kasnije tradicije, niti idealne kosmopolitske oaze, kako ih ponekad opisuju drugi. Bili su složeni, nejednaki, raznovrsni svetovi — i upravo iz njih izlazi mnogo onoga što će u 19. veku oblikovati srpsko građanstvo."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

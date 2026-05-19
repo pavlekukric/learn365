@@ -6,13 +6,53 @@
   "dayNumber": 188,
   "order": 3,
   "title": "Svakodnevica uoči ustanka",
+  "subtitle": "Beogradski pašaluk između Hatišerifa iz 1793. i povratka dahija — decenija u kojoj se raja osetila kao zajednica",
   "readingTimeMinutes": 7,
   "year": 1795,
-  "isPlaceholder": true,
+  "dateLabel": "kraj 18. veka",
+  "timelinePosition": "kraj 18. veka",
+  "summary": "Beogradski pašaluk u godinama 1793–1801: Hatišerif Selima III, uprava Hadži Mustafa-paše „Srpske Majke”, jačanje seoskih knezova i svinjarske trgovine, i tihi rast zajednice koja će uskoro ući u ustanak.",
+  "keyPeople": ["Selim III", "Hadži Mustafa-paša", "Karađorđe Petrović", "Jakov Nenadović", "Stanoje Glavaš"],
+  "keyPlaces": ["Beogradski pašaluk", "Šumadija", "Beograd", "Sremski Karlovci"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Posle austrijsko-turskog rata koji je 1788. zahvatio pograničje, a 1791. završen mirom u Svištovu, Beogradski pašaluk vratio se pod sultanovu vlast iscrpljen, ispražnjen i sumnjičav. U Carigradu je u to vreme već vladao Selim III, mlad sultan reformatorskog kova, koji je shvatio da carstvo ne može da se osloni na razbojničku samovolju lokalnih janičara ako želi mir na granici prema Habzburzima. Iz tog računa rođen je Hatišerif iz 1793. — carski ukaz koji je srpskoj raji u beogradskom pašaluku dao niz olakšica kakve generacije pre toga nisu pamtile."
+    },
+    {
+      "type": "paragraph",
+      "text": "Hatišerifom su Srbi dobili ograničenu, ali stvarnu samoupravu kroz svoje knezove — seoske i nahijske glavare koji su sami ubirali porez i predavali ga sultanovim ljudima, bez posredovanja janičarskih nasilnika. Janičarima je zabranjen ulazak u sela radi „čuvanja reda”, sela su smela da drže oružje za odbranu od hajduka i razbojnika, a pravoslavnim opštinama je dopušteno da popravljaju crkve i podižu nove, što je do tada bila stvar mita i milosti pojedinog age. Bio je to, formalno gledano, samo niz upravnih ustupaka. U svakodnevnom životu značio je nešto mnogo veće — da seljak prvi put zna ko mu je gospodar i koliko mu duguje."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sprovođenje reformi palo je u ruke pašalije neuobičajenog kova. Hadži Mustafa-paša, postavljen za beogradskog vezira 1793, vladao je strogo ali pravedno, suzbijajući janičarske ispade i oslanjajući se na srpske knezove kao na stub mira u pašaluku. Narod ga je, prema kasnijem usmenom predanju, prozvao „Srpskom Majkom” — nadimak koji zvuči gotovo nemoguće u odnosu jedne raje prema osmanskom upravljaču, a koji najbolje govori koliko je taj period odudarao od svega što je prethodilo. Treba reći pošteno: priča o „Srpskoj Majci” oblikovana je i naknadno, u svetlu strahota koje su došle posle 1801, pa se njegova vladavina u sećanju verovatno pamti i lepšom nego što je svakodnevno bila. Pa ipak, i hladni izvori potvrđuju da je između 1793. i 1801. pašaluk doživeo najmirniji period u živom pamćenju."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Knezovi, svinje i pesma"
+    },
+    {
+      "type": "paragraph",
+      "text": "U toj kratkoj deceniji srpska zajednica u pašaluku tiho je menjala svoj sastav. Seoski knezovi, dotad neformalni starešine, dobili su priznatu ulogu sakupljača poreza i posrednika prema vlastima; vremenom su među njima izrasli ljudi sa autoritetom, novcem i mrežom rodbinskih i poslovnih veza koje su prevazilazile pojedinačno selo. Trgovci su krenuli češće preko Save i Dunava, ka pijacama u Zemunu, Pešti i Beču. Najunosniji posao bila je svinjarska trgovina: šumadijske hrastove šume, bogate žirom, hranile su krda svinja koja su preko granice gonjena u habzburške zemlje na hiljade glava godišnje. Među ljudima koji su iz tog posla izvukli imovinu i ime izdvojiće se i jedan oštri trgovac iz okoline Topole — Đorđe Petrović, kasnije nazvan Karađorđe."
+    },
+    {
+      "type": "paragraph",
+      "text": "Uz njega, u tim godinama, izrasta čitav sloj imena koja će obeležiti ustanak — Jakov Nenadović iz valjevskog kraja, hajdučki harambaša Stanoje Glavaš u kragujevačkoj nahiji, mladi krajinski junak Veljko Petrović, brojni nahijski knezovi po Pomoravlju i Mačvi. Hajduci i knezovi, dotad razdvojeni svetovi šume i sela, počeli su da se prepliću: knez je znao gde mu je hajduk, hajduk je znao na čiju kuću ne sme da udari. U miru su to bili dva lica iste seoske zajednice koja se polako učila da o sebi misli kao o celini."
+    },
+    {
+      "type": "paragraph",
+      "text": "Život je ostao siromašan, ali ne više i bezuk. Po selima su se javljale prve, retke škole pri crkvama, najčešće sa jednim učiteljem dovedenim preko Save; preko granice su stizale i knjige štampane u Sremskim Karlovcima i Beču, među njima i spisi Dositeja Obradovića, koji su u pašaluk donosili nov, prosvetiteljski tonos. Uz to je tekao stari, neprekinuti život pravoslavne parohije — slave, postovi, sabori — i bogata usmena književnost: uz gusle se pevalo o starim kraljevima, o Kosovu, o Marku Kraljeviću, i u tim pesmama narod je pamtio sebe pre nego što je imao svoju državu."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sve se to lomi posle 1799. Selimove reforme u Carigradu nailazile su na otpor starog janičarskog reda, a sultan je, pod pritiskom rata sa Francuskom u Egiptu, popustio i dozvolio da se ranije proterani beogradski janičari vrate u pašaluk. Vratili su se kao ljudi sa starim računima. Hadži Mustafa-paša pokušao je da ih obuzdava, oslanjajući se i na naoružane Srbe, ali je odnos snaga klizio na njihovu stranu. U decembru 1801. janičarske vođe — četvorica dahija — upale su u beogradsku tvrđavu i ubile pašu. Sa njegovom smrću završio se i Hatišerif na delu; nastupila je dahijska vlast koja će za nepune tri godine učiniti nezamislivim ono što je do juče izgledalo kao trajan poredak."
+    },
+    {
+      "type": "paragraph",
+      "text": "Upravo u tom kontrastu treba čitati godine između 1793. i 1801. One nisu bile zlatno doba — porez se i dalje plaćao, raja je i dalje bila raja, a sigurnost je zavisila od ćudi jednog čoveka u Beogradu. Ali su prvi put, posle vekova, dale srpskoj zajednici u pašaluku dovoljno daha da izgradi sopstvene knezove, sopstvene trgovce, sopstvene škole i sopstvenu sliku o sebi. Kada su te tekovine počele da nestaju pod dahijama, gubitak je bio konkretan i merljiv — i ljudi koji su u međuvremenu naučili da budu zajednica imali su, prvi put, šta da brane."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

@@ -6,13 +6,53 @@
   "dayNumber": 5,
   "order": 5,
   "title": "Vinčanska kultura — počeci",
+  "subtitle": "Belo brdo, slojevi vremena i jedna od najrazvijenijih praistorijskih kultura Evrope",
   "readingTimeMinutes": 8,
   "year": -5400,
-  "isPlaceholder": true,
+  "dateLabel": "oko 5400–4500. p. n. e.",
+  "timelinePosition": "~5400–4500. p. n. e.",
+  "summary": "Po lokalitetu Vinča-Belo brdo, nizvodno od Beograda, imenovana je razvijena kasnoneolitska kultura sa višemetarskim kulturnim slojevima i prvim tragovima obrade bakra.",
+  "keyPeople": ["Miloje Vasić"],
+  "keyPlaces": ["Vinča-Belo brdo", "Beograd", "Dunav"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Nizvodno od Beograda, na desnoj obali Dunava, postoji uzvišenje koje se zove Belo brdo. Pod njim leži nekoliko metara nataloženog tla — ali to nije obična zemlja. To je sloj na sloj ljudskog života, nizan tokom stoleća. Po tom mestu nazvana je vinčanska kultura, jedna od najrazvijenijih praistorijskih kultura Evrope."
+    },
+    {
+      "type": "paragraph",
+      "text": "Krenimo od mesta. Lokalitet se zove Vinča, ili tačnije Vinča-Belo brdo, po istoimenom selu na Dunavu. Ono što ga čini izuzetnim jeste dubina. Na većini nalazišta arheolog radi sa tankim slojevima — sa nekoliko desetina centimetara zemlje koja krije tragove prošlosti. Ovde se kulturni sloj, zemlja prožeta ostacima ljudskog boravka, meri metrima. Svaki od tih slojeva je jedno razdoblje: naselje koje je raslo, gorelo, obnavljalo se i ponovo raslo. Naređani jedan na drugi, ti slojevi svedoče o nečemu retkom — o mestu u koje se vraćalo i u kome se živelo, naraštaj za naraštajem, vrlo dugo. Belo brdo, dakle, nije samo nalazište; ono je gotovo kao knjiga čije se stranice mogu listati nadole, u vreme."
+    },
+    {
+      "type": "paragraph",
+      "text": "Tu dubinu prvi je sistematski počeo da otkriva arheolog Miloje Vasić, na samom početku dvadesetog veka. Njegova prva iskopavanja na Belom brdu pripadaju godinama oko 1908, a istraživanja je nastavljao i kasnije. Bilo je to jedno od prvih velikih arheoloških istraživanja u Srbiji, poduhvat koji je tek uspostavljao pravila ozbiljnog rada na terenu. Vasić je svetu otkrio da se pod ovim brdom krije čitav jedan praistorijski svet — i postavio temelj svemu što o vinčanskoj kulturi danas znamo."
+    },
+    {
+      "type": "paragraph",
+      "text": "Vredi se zaustaviti na jednoj pojedinosti, jer ona lepo pokazuje kako nauka radi i zašto joj treba verovati upravo zato što se ispravlja. Vasić je verovao da poreklo Vinče treba tražiti daleko, u vezi sa egejskim i antičkim svetom — da je ovde reč o odjeku neke razvijenije, južne civilizacije. To tumačenje danas je napušteno. Kasnija istraživanja, sa boljim metodama datiranja, pokazala su da je vinčanska kultura izrasla ovde, na domaćem tlu — kao razvijeniji nastavak ranijeg neolitskog života, onog koji smo upoznali kroz starčevačku kulturu. Vasićeva zasluga za samo otkriće ostaje neosporna i velika; ali njegov zaključak o poreklu ispravljen je. To nije sramota nauke — to je njen zdrav, normalan tok."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ta dubina slojeva nije samo tehnička pojedinost — ona nešto i znači. Naselje koje ostavi nekoliko metara kulturnog sloja jeste naselje u koje se vredelo vraćati: mesto sa dobrom zemljom, vodom i položajem, dovoljno privlačno da ga naraštaji ne napuste. Svaki put kad bi kuće dotrajale ili izgorele, ljudi su gradili nove na istom mestu, na ostacima starih. Tako je, malo po malo, nastalo brdo od života. Kontinuitet — to dugo, uporno ostajanje na istom tlu — sam je po sebi podatak o zajednici koja je bila stabilna i vezana za svoj kraj."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Zašto se Vinča izdvaja"
+    },
+    {
+      "type": "paragraph",
+      "text": "Kada govorimo o vremenu, govorimo okvirno. Vinčanska kultura pripada kasnom neolitu i smešta se otprilike u peti milenijum pre nove ere — dakle pre oko sedam hiljada godina. Tačne granice njenog trajanja i dalje se preciziraju i među stručnjacima ima razlika, pa je pošteno ostati pri širem rasponu umesto pri lažno tačnom datumu."
+    },
+    {
+      "type": "paragraph",
+      "text": "Zašto se onda vinčanska kultura toliko izdvaja? Zato što je, po merilima svog doba, bila izuzetno razvijena. Naselja su bila velika — neka među najvećim u tadašnjoj Evropi — i to govori o mnogoljudnim zajednicama koje su umele da se organizuju. Grnčarija je dostigla visok nivo veštine, i po obliku i po ukrasu. Izrađivane su brojne figure od gline. I, što je posebno važno, kod vinčanske kulture javljaju se rani tragovi upotrebe i obrade bakra — prvi, oprezni koraci ka svetu metala, koji će tek mnogo kasnije preovladati. Sve to zajedno crta sliku zajednica koje su bile vešte, povezane i sposobne da znanje čuvaju i prenose."
+    },
+    {
+      "type": "paragraph",
+      "text": "Treba, međutim, izbeći jednu zamku, jer se oko Vinče lako zaleti. Vinčanska kultura jeste bila izuzetna — ali nije bila „najstarija civilizacija sveta”, kako se ponekad olako i sa ponosom tvrdi. Ona je jedna od najrazvijenijih praistorijskih kultura Evrope, i to je značajno i tačno samo po sebi. Preuveličavanje joj zapravo ne čini čast, jer je pretvara u mit; tačan opis joj čini čast, jer je ostavlja onakvom kakva je zaista bila — a bila je dovoljno velika da joj ulepšavanje ne treba. Pod Belim brdom ne leži zemlja, nego vreme — nekoliko metara ljudskog života naslaganog sloj na sloj."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

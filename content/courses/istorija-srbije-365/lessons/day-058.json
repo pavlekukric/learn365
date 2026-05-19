@@ -6,13 +6,49 @@
   "dayNumber": 58,
   "order": 5,
   "title": "Sveti Sava — prvi arhiepiskop",
+  "subtitle": "Od posvećenja u Nikeji do Žiče — kako je Sava izgradio crkvu koja drži zemlju",
   "readingTimeMinutes": 8,
   "year": 1219,
-  "isPlaceholder": true,
+  "dateLabel": "1219.",
+  "timelinePosition": "1219.",
+  "summary": "Sava se vraća iz Nikeje kao prvi arhiepiskop samostalne srpske crkve i u nekoliko godina postavlja njene temelje — episkopije, Žiču, Nomokanon i sopstvene učenike na biskupskim stolicama.",
+  "keyPeople": ["Sveti Sava", "Stefan Prvovenčani", "Arsenije I"],
+  "keyPlaces": ["Žiča", "Studenica", "Nikeja"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Kada je Sava 1219. godine napustio Nikeju s poveljom o samostalnosti srpske crkve, pred njim je stajao posao za koji nikada niko u srpskim zemljama nije imao iskustva. Imati arhiepiskopa značilo je imati i mrežu episkopija, sedište katedre, knjige po kojima se sudi crkvenim sporovima, ljude koji znaju i jezik bogoslužja i običaje mesta na koje odlaze. Sve je to trebalo postaviti od početka — i postaviti tako da traje. Naredne godine Save su upravo godine tog tihog, ali presudnog organizacionog rada."
+    },
+    {
+      "type": "paragraph",
+      "text": "Prvo pitanje bilo je geografsko. Srpske zemlje pod Stefanom Prvovenčanim sezale su od jadranskog zaleđa do Pomoravlja i Polimlja, sa raznolikim crkvenim nasleđem — negde grčkim, negde latinskim, negde mešovitim. Sava je odlučio da ih pokrije mrežom od oko osam novih episkopskih sedišta, raspoređenih tako da nijedan kraj zemlje ne ostane bez bliske crkvene vlasti. Tačan broj i precizan spisak prvih stolica nije moguće utvrditi sa potpunom sigurnošću — različiti izvori, najviše hagiografski, daju neznatno različite slike — ali okvir je jasan. Birana su mesta koja su već imala manastire ili stare crkve, ili koja su politički bila važna kao tačke uprave."
+    },
+    {
+      "type": "paragraph",
+      "text": "Drugo pitanje bilo je kadrovsko. Episkop nije bio samo duhovnik nego i obrazovan čovek, sposoban da vodi sudske sporove, da održava bogosluženje po pravilima i da prepisuje knjige. Takvih ljudi u Srbiji nije bilo dovoljno. Sava je rešenje doneo sa Svete Gore: na nove episkopske stolice postavio je svoje učenike, srpske monahe koji su godinama učili u Hilandaru i okolnim manastirima, upijajući atonsku liturgijsku tradiciju, grčki jezik i pravnu kulturu Vizantije. Tako su prvi srpski episkopi u suštini bili Savini ljudi — školovani po istom obrascu, povezani ličnom vernošću i zajedničkim iskustvom monaškog života."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Žiča, Nomokanon i kruna"
+    },
+    {
+      "type": "paragraph",
+      "text": "Za sedište arhiepiskopije Sava je izabrao Žiču — manastir koji je njegov brat Stefan podigao u srcu zemlje, na pristupačnom mestu blizu raških puteva. Žiču je Sava i sam osvetio, a u narednim godinama ona postaje mesto na kome se odvijaju najvažniji crkveni i državni činovi mlade srpske države. Tu se rukopolažu episkopi, tu se sazivaju sabori, tu se čuvaju povelje. Nije slučajno što je Sava baš na tom mestu, prema kasnijem predanju, krunisao — ili svečano potvrdio krunu — svome bratu Stefanu, koji od tada nosi nadimak Prvovenčani. Datum tog čina i njegov tačan odnos prema krunisanju koje je nekoliko godina ranije obavio papski izaslanik ostaju predmet rasprave. Ono što nije sporno jeste simbolika: kruna i mitra, vlast svetovna i crkvena, vezuju se uzajamno u jednom obredu, na jednom mestu, u jednoj porodici."
+    },
+    {
+      "type": "paragraph",
+      "text": "Uporedo sa mrežom episkopija, Sava je radio i na knjigama bez kojih nijedna crkva ne može da funkcioniše. Najvažnija među njima je takozvani Svetosavski nomokanon, poznat i kao Krmčija — slovenski prevod i prerada vizantijskog kanonskog prava. U njemu su sabrane odluke vaseljenskih sabora, kanoni svetih otaca i niz vizantijskih građanskih zakona koji se tiču braka, nasleđa, ugovora i odnosa crkve i države. Sava je biranjem materijala i njegovim prilagođavanjem dao srpskoj crkvi pravnu kičmu na slovenskom jeziku, razumljivu domaćim sveštenicima i sudijama. Nomokanon će potom postati temelj ne samo crkvenog nego i delom svetovnog prava u srpskim zemljama, a kasnije će biti preuzet i u Bugarskoj i u Rusiji."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pored Nomokanona, Savi se pripisuje uvođenje liturgijskih knjiga i tipika po atonskim uzorima, kao i posebna pravila života za Studenicu, najstariji nemanjićki manastir. Ovde je važno reći šta o tome zaista znamo. Mnogi konkretni događaji i datumi iz Savine arhiepiskopske službe poznati su nam, pre svega, iz žitija koja su mu posvetili Domentijan i Teodosije u drugoj polovini trinaestog i prvoj polovini četrnaestog veka. Ta žitija su dragocena, ali su pisana sa namerom da prikažu svetitelja, ne hroničara. Pojedinosti — koliko je tačno episkopija osnovano, gde su prve od njih bile, koje je godine ovo ili ono delo nastalo — često znamo samo otuda, i otuda i nesigurnost. Ali okvir koji ta žitija opisuju — Sava kao osnivač samostalne crkve, Žiča kao katedra, Nomokanon kao temelj — potvrđuje se i iz drugih izvora i danas se smatra istorijski pouzdanim."
+    },
+    {
+      "type": "paragraph",
+      "text": "Negde oko 1233. godine Sava donosi odluku koja iznenađuje savremenike: povlači se sa arhiepiskopskog položaja u korist svog učenika Arsenija, kasnije poznatog kao Arsenije I. Razlozi su delom verski — želja da se vrati monaškom životu i hodočašćima — a delom i staračka mudrost: ostaviti naslednika dok si još tu da ga uvedeš u posao. Arsenije će arhiepiskopiju voditi dugo i mirno, i upravo ta mirna smena pokazaće da je Savino delo bilo dobro postavljeno. Crkva nije zavisila samo od jedne ličnosti; mogla je da nastavi i kada njena prva glava ode. Za jednu instituciju koja je postojala tek četrnaest godina, to je već bio znak zrelosti — i, kako će se ispostaviti, znak da će ta crkva trajati i mnogo posle dinastije koja ju je osnovala."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

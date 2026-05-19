@@ -6,13 +6,53 @@
   "dayNumber": 314,
   "order": 12,
   "title": "Privreda Kraljevine Jugoslavije",
+  "subtitle": "Seljačka zemlja, slaba industrija, udar Velike depresije i sve dublja trgovinska zavisnost od Nemačke",
   "readingTimeMinutes": 7,
   "year": 1930,
-  "isPlaceholder": true,
+  "dateLabel": "1918–1941.",
+  "timelinePosition": "1918–1941.",
+  "summary": "Međuratna Jugoslavija bila je pretežno seljačka zemlja sa slabom industrijom; kriza 1929. razorila je cene poljoprivrednih proizvoda, a Nemačka je do kraja tridesetih postala glavni trgovinski partner.",
+  "keyPeople": [],
+  "keyPlaces": ["Beograd", "Slovenija", "Vojvodina", "Bor"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Ako bi se međuratna Jugoslavija mogla opisati jednom slikom, to bi bila slika sela. Po popisima iz dvadesetih i tridesetih godina, između tri četvrtine i četiri petine stanovništva živelo je od zemlje, najčešće na sopstvenoj, ali maloj parceli. Agrarna reforma iz 1919. i 1920. razbila je velike posede zatečene posle Prvog svetskog rata — pre svega ostatke austrougarskih veleposeda u Vojvodini, Slavoniji i Bosni, kao i čifluke u Makedoniji i na jugu Srbije — i podelila ih, uglavnom, sitnim seljacima. Tako je nestao stari agrarni poredak, ali je nastao novi problem: ogroman broj usitnjenih gazdinstava, slabo opremljenih, bez ozbiljnog kreditnog sistema i, u velikom delu zemlje, sa nepismenim domaćinom na čelu kuće."
+    },
+    {
+      "type": "paragraph",
+      "text": "Glavni proizvodi te seljačke ekonomije bili su žitarice — pre svega kukuruz i pšenica — zatim stoka, šljive, duvan i vino. Šljiva je u tom svetu imala poseban značaj: sušena šljiva i pekmez bili su prepoznatljiv jugoslovenski izvozni artikal, posebno iz Šumadije i Bosne, i jedan od retkih proizvoda po kome je zemlja na svetskom tržištu nešto značila. Produktivnost je, međutim, bila niska. Mehanizacija gotovo da nije postojala van Vojvodine i delova Slovenije; veliki deo poslova obavljao se zapregom i ručno; zaduženost se gomilala kod privatnih zelenaša i mlađih banaka. Već u dvadesetim godinama, kada svetska privreda još nije bila u krizi, seljačko zaduženje bilo je hroničan problem o kome se često pisalo i u Beogradu i u Zagrebu."
+    },
+    {
+      "type": "paragraph",
+      "text": "Industrija je bila skromna i, što je važnije, neravnomerno raspoređena. Najindustrijalizovaniji deo zemlje bila je Slovenija, sa tekstilnom i metalnom proizvodnjom oko Ljubljane, Maribora i Kranja; sledila je Hrvatska sa Zagrebom i Rijekom; Vojvodina je razvijala prehrambenu industriju — mlinove, šećerane, fabrike ulja; Beograd je polako rastao kao industrijski i bankarski centar. Bosna, Makedonija i Crna Gora ostale su pretežno poljoprivredne, sa malim brojem rudnika i fabrika. Najpoznatiji rudarski poduhvat bila je eksploatacija bakra u Boru, koji je preko francuske kompanije „Compagnie française des mines de Bor” postao jedan od najvećih bakarnih rudnika u Evropi — ali i tipičan primer privrede u kojoj strani kapital uzima glavne profite, a država i radnici ostaju sa nadnicama i porezima. Pored bakra, značajni su bili ugalj iz Bosne i Srbije i rude gvožđa, takođe pretežno u rukama stranog kapitala."
+    },
+    {
+      "type": "paragraph",
+      "text": "Tehnička infrastruktura sporo se spajala u jednu mrežu. Železnice srpske, hrvatske i slovenačke izgradnje, projektovane za različita carstva, povezivane su tek postepeno; pruga Beograd—Bar, zamišljena kao izlaz Srbije na Jadran, započinjana je i prekidana, i pred Drugi svetski rat ostala nedovršena. Drumovi su, van Slovenije i Vojvodine, ostali uglavnom u stanju nasleđenom iz prošlog veka. Bankarstvo je tokom dvadesetih prolazilo kroz tih kompromis između srpskih i hrvatskih kuća, sa Privilegovanom narodnom bankom kao centralnom emisionom ustanovom i nizom regionalnih zavoda. Dinar, uveden 1920. kao jedinstvena valuta, postepeno je istisnuo krunu, perper i druge ratne novce."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Velika kriza i okret ka Berlinu"
+    },
+    {
+      "type": "paragraph",
+      "text": "Velika svetska kriza, koja je iz Njujorka 1929. zahvatila celu Evropu, srušila se na jugoslovensku privredu pre svega preko cena. Cene pšenice i kukuruza na svetskim berzama pale su za pedeset do šezdeset odsto između 1929. i 1933. godine; seljak je nastavljao da proizvodi otprilike isto, ali je za isti vagon žita dobijao upola manje novca, dok su mu dugovi prema bankama i zelenašima ostajali isti. Posledica je bila masovna hipotekarna kriza: hiljade gazdinstava bile su pred prinudnom prodajom. Vlada je 1932. godine morala da reaguje moratorijumom na seljačke dugove, privremenim zamrzavanjem otplata, da bi kasnijim zakonima — naročito 1936. — propisala postepen otpis dela duga i njegovo prebacivanje na poseban državni fond. Bilo je to jedno od najvećih unutrašnjih ekonomskih pitanja tridesetih godina."
+    },
+    {
+      "type": "paragraph",
+      "text": "U isto vreme, jugoslovenska spoljna trgovina počela je da se preusmerava. Tradicionalni partneri — Austrija, Italija, Čehoslovačka, Francuska — slabili su ili kao tržišta ili kao politički saveznici. Nemačka, naročito posle 1933. godine, sistematski je preko bilateralnih klirinških sporazuma vezivala male privrede jugoistočne Evrope za Berlin. Princip je bio prost: roba za robu, bez deviza. Nemačka je kupovala jugoslovenske žitarice, bakar, drvo i meso po cenama često iznad svetskih, a plaćala je svojim industrijskim proizvodima — mašinama, hemikalijama, vagonima, oružjem. Do 1939. godine Nemačka je preuzela između četrdeset i pedeset odsto jugoslovenskog izvoza i uvoza, što je značilo da je čitav značajan deo nacionalne privrede zavisio od političkih odluka koje su se donosile u Berlinu."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ta zavisnost imala je dvostruku težinu. Ekonomski, ona je značila da Jugoslavija često ne dobija devize kojima bi mogla da plati uvoz iz drugih zemalja niti da otplaćuje stare zajmove na zapadnim tržištima. Politički, ona je krajem tridesetih, kada je Hitlerova Nemačka već bila glavni izvor evropskih nemira, vezivala Beograd za upravo onu silu od koje su zapadne demokratije pokušavale da odvuku Balkan. Dok je vlada pred rat plašljivo gradila municionare i kupovala oružje — najviše iz Francuske, ali i iz Nemačke i Čehoslovačke — ova trgovinska zavisnost biće jedan od glavnih razloga zbog kojih će Jugoslavija dugo izbegavati jasno opredeljenje."
+    },
+    {
+      "type": "paragraph",
+      "text": "Gledana hladno, privreda Kraljevine Jugoslavije nije bila ni jugoslovenski neuspeh ni jugoslovenski uspeh — bila je realan razvoj zaostale, ratom iscrpljene zemlje u veoma teškim okolnostima. Unutrašnja ograničenja — siromaštvo, nepismenost, fragmentacija tržišta, nasleđene razlike između austrougarskog i osmanskog dela — sapeta su, a spoljni okvir, od krize 1929. do nemačke trgovinske dominacije, dodatno je sužavao manevarski prostor. Ono što je rasta bilo, dolazilo je sporo i neravnomerno: Slovenija i Vojvodina napredovale su brže, jug zemlje ostao je daleko za njima. Sa takvom privredom i sa takvim spoljnim partnerom u sve neprijatnijem geopolitičkom susedstvu, Kraljevina Jugoslavija ulaziće u poslednje, najteže godine svoje prve i jedine decenije mira."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

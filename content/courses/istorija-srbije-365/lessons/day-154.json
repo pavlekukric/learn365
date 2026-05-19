@@ -6,13 +6,45 @@
   "dayNumber": 154,
   "order": 4,
   "title": "Danak u krvi — devširma",
+  "subtitle": "Osmanski sistem prikupljanja hrišćanske dece za carsku službu i njegov dvostruki trag u balkanskom pamćenju",
   "readingTimeMinutes": 8,
   "year": 1550,
-  "isPlaceholder": true,
+  "dateLabel": "15–17. vek",
+  "timelinePosition": "15–17. vek",
+  "summary": "Devširma — osmanska periodična uzimanja hrišćanskih dečaka za janičare i carsku službu, surov gubitak za balkanska sela i, paradoksalno, najviši put društvenog uspona u Carstvu.",
+  "keyPeople": ["Mehmed-paša Sokolović"],
+  "keyPlaces": [],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Među svim ustanovama osmanske vlasti na Balkanu, malo koja je u hrišćanskom pamćenju ostavila dublji ožiljak od one koja se u izvorima zvala devširma, a u narodnom jeziku — danak u krvi. Reč „devširme” na turskom znači prosto „skupljanje”, „kupljenje”; u praksi je značila da bi svakih nekoliko godina osmanski činovnici obilazili hrišćanska sela balkanskih oblasti i sa svake skupine kuća odvodili po jednog dečaka u carsku službu. Sistem je za osmansku državu bio racionalan, čak i briljantan u svojoj logici; za seosku porodicu sa koje se sin uzima, bio je ono što njegovo srpsko ime kaže — danak plaćen u krvi sopstvene dece."
+    },
+    {
+      "type": "paragraph",
+      "text": "Devširmu su, kao redovnu ustanovu, oblikovali sultani petnaestog veka — pre svega Murat II i Mehmed II Osvajač — premda su počeci stariji. Ona je u punom obliku radila od sredine petnaestog do sredine sedamnaestog veka, kada počinje da slabi i postepeno se gasi. U najpoznatijem obliku odnosila se na hrišćanske dečake uzrasta otprilike između osam i osamnaest godina, fizički zdrave i bistrog izgleda. Iz srpskih, bugarskih, grčkih, albanskih, ponekad i bosanskih sela, uzimao se po jedan dečak na određen broj kuća — često se navodi razmera od jednog dečaka na četrdesetak domaćinstava, ali stvarne kvote menjale su se od oblasti do oblasti i od ciklusa do ciklusa. Procene istoričara o broju uzetih u jednom „skupljanju” kreću se vrlo grubo između pet stotina i tri hiljade dečaka; ukupno, tokom dva veka, govori se o brojkama od dvesta do trista hiljada, ali sve te ocene treba primati s oprezom — izvori su nepotpuni i različito tumačeni."
+    },
+    {
+      "type": "paragraph",
+      "text": "Postupak je u svom redovnom obliku tekao tako što bi izaslanik centralne vlasti, najčešće janjičarski oficir, dolazio u kadijsko sedište oblasti, sazivao seoske starešine i sveštenike i tražio spiskove dečaka odgovarajućeg uzrasta. Birali su se najjači i najpribraniji. Postojala su delimična izuzeća: jedinac u kući, jedini sin udovice, mladić već oženjen — ali ta izuzeća nisu uvek poštovana i mnogo je zavisilo od savesti i pohlepe lokalnog činovnika. Odabrani dečaci sprovođeni su preko Soluna ili drugih luka u Istanbul. Tamo se put razdvajao. Većinu su slali u takozvane „adžamijske” odrede, gde su godinama učili turski jezik, primali islam i pripremani su za vojnu službu u janjičarskom korpusu — kapikulu jeniçeri, „robovima Porte” u širem smislu te reči. Manji, ali sposobniji deo, izdvajan je za carski dvor i palatinske škole, odakle se otvarao put ka višim upravnim, diplomatskim i vojnim položajima."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Gubitak i uspon"
+    },
+    {
+      "type": "paragraph",
+      "text": "Za balkanska hrišćanska sela posledice su bile teške i dugotrajne. Porodica je gubila sina, najčešće upravo onog na kome je počivala buduća radna snaga ili nada. Rastanak je gotovo uvek bio konačan: malo se ko od uzetih dečaka ikada vratio u rodno mesto, a oni koji su pisali kući činili su to retko i kasno. Uz gubitak deteta išao je i gubitak verskog i kulturnog identiteta — uzeti dečak postajao je musliman, govorio drugim jezikom, nosio drugo ime. U narodnoj pesmi i tužbalici ta rana traje vekovima; pesme o janičarima koji se pod tuđim imenom vraćaju u rodni kraj i prepoznaju majku ili sestru nisu samo književni motiv, već izraz stvarnog kolektivnog osećanja gubitka. Devširma je jedna od najtežih trauma osmanskog doba u balkanskom hrišćanskom sećanju, i to s razlogom."
+    },
+    {
+      "type": "paragraph",
+      "text": "A onda i druga, paradoksalna strana. Za samu osmansku državu, ovaj sistem bio je jedinstven instrument: stvarao je elitnu vojnu i upravnu kastu lično vezanu za sultana, bez sopstvene zemlje i bez nasledne aristokratije iza sebe. Među onima koji su tako stigli u Istanbul kao deca bilo je budućih beglerbegova, vojskovođa, vezira — i, u nekoliko slučajeva, velikih vezira, drugih ljudi po moći u Carstvu, odmah iza sultana. Najpoznatiji srpski primer je Mehmed-paša Sokolović, rođen u selu Sokolovići nedaleko od Višegrada, uzet kao dečak, doveden u prestonicu i kroz decenije službe popeo se do položaja velikog vezira, koji je držao od 1565. do 1579. godine. Sokolović je u tom svojstvu, kao što će biti reči u kasnijim lekcijama, ostao u tihoj vezi sa svojim rodnim krajem i, ne slučajno, bio je glavni činilac obnove Pećke patrijaršije 1557. godine — uspon dečaka iz devširme tako je, u njegovom slučaju, dao plodove i samoj srpskoj crkvi koju je devširma izvorno presecala."
+    },
+    {
+      "type": "paragraph",
+      "text": "Tu stoji moralna složenost koju nije pošteno previđati. Devširma je u osnovi bila prinudno odvođenje dece i sistematsko brisanje njihovog porekla — to se ne može pretvoriti ni u kakav uspeh. Istovremeno, ona je nekim siromašnim seoskim porodicama, sasvim neplanirano, otvarala vrata najviših položaja u jednoj od najmoćnijih država toga doba. Osmanski istoričari često ističu kako je sistem „radio”, merljiv po unutrašnjoj logici carstva; balkansko hrišćansko pamćenje meri ga drugom merom — brojem nepovraćenih sinova i tišinom u kućama iz kojih su otišli. Obe te ocene su istinite na svom planu; nijedna ne poništava drugu. Zato i danas, kada se priča o devširmi, treba držati oba reda istovremeno: opis hladnog upravnog mehanizma osmanske države i tihi, vekovni glas porodica koje su platile cenu njegovog rada."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

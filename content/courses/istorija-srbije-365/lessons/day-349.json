@@ -6,13 +6,53 @@
   "dayNumber": 349,
   "order": 9,
   "title": "NATO bombardovanje 1999.",
+  "subtitle": "Sedamdeset osam dana vazdušne kampanje, kosovska tragedija i kraj jedne države u oblicima u kojima je do tada postojala",
   "readingTimeMinutes": 8,
   "year": 1999,
-  "isPlaceholder": true,
+  "dateLabel": "24. mart – 10. jun 1999.",
+  "timelinePosition": "24. mart – 10. jun 1999.",
+  "summary": "NATO operacija „Allied Force” protiv SR Jugoslavije: 78 dana bombardovanja, civilne žrtve sa svih strana, masovno proterivanje Albanaca sa Kosova i dolazak međunarodne uprave po Rezoluciji 1244.",
+  "keyPeople": ["Slobodan Milošević", "Javier Solana", "Wesley Clark", "Viktor Černomirdin", "Martti Ahtisaari", "Bill Clinton"],
+  "keyPlaces": ["Beograd", "Kosovo", "Aleksinac", "Surdulica", "Grdelica", "Niš", "Đakovica", "Varvarin"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "U noći između 24. i 25. marta 1999. nad Saveznom Republikom Jugoslavijom oglasile su se sirene. Bio je to početak operacije „Saveznička sila” — vazdušne kampanje NATO saveza protiv države koja se nije predala na pregovorima u Rambujeu i koja je odbila da potpiše dokument čiji je sporni Aneks B predviđao slobodno kretanje stranih trupa po čitavoj njenoj teritoriji. Kampanja je započeta bez odobrenja Saveta bezbednosti Ujedinjenih nacija, jer bi Rusija i Kina takvu odluku gotovo sigurno blokirale vetom. Njena pravna utemeljenost ostaje sporna u međunarodnom pravu do današnjeg dana, a debata o njoj — humanitarna intervencija ili presedan za zaobilaženje Saveta bezbednosti — i dalje deli pravnike i istoričare."
+    },
+    {
+      "type": "paragraph",
+      "text": "U prvim noćima udari su išli pretežno na vojne ciljeve: protivvazdušnu odbranu, aerodrome, komandne centre, kasarne. Kada se pokazalo da Beograd ne odustaje, NATO je proširio listu i prešao na takozvane „dvonamenske” ciljeve. Padali su mostovi na Dunavu i Moravi, termoelektrane, rafinerije u Pančevu i Novom Sadu, fabrike, transformatorske stanice, telekomunikacioni tornjevi. Nad Beogradom su pogođeni zgrada Generalštaba, sedište Ministarstva unutrašnjih poslova, kasnije i toranj na Avali. U noći 23. aprila raketa je pogodila zgradu Radio-televizije Srbije u centru grada; poginulo je šesnaestoro civilnih radnika, najvećim delom tehničkog osoblja. Napad na medijsku kuću izazvao je oštru raspravu i u samim zemljama Alijanse o granicama legitimnog cilja."
+    },
+    {
+      "type": "paragraph",
+      "text": "Najteže su, ipak, bili dani u kojima su pogibali ljudi koji ni po kom kriterijumu nisu bili cilj. Šestog aprila pogođen je centar Aleksinca; sedamnaest mrtvih u stambenom kvartu. Dvanaestog aprila raketa je pogodila putnički voz na mostu kod Grdelice — broj poginulih kreće se oko četrnaest. Četrnaestog aprila kolona albanskih izbeglica kod Đakovice pogođena je iz vazduha; ubijeno je više od sedamdeset ljudi. U Surdulici je 27. aprila stradalo šesnaestoro civila, a 31. maja još oko dvadeset. Sedmog maja kasetne bombe pale su na pijacu i okolinu bolnice u Nišu. Četrnaestog maja kraj Koriše, sela u kojem su izbeglice bile smeštene u improvizovanom logoru, poginulo je oko osamdeset sedam ljudi. Tridesetog maja srušen je most u Varvarinu usred bela dana, dok su mostom prolazili ljudi posle nedeljne službe — desetoro mrtvih. Sedmog maja pogođena je i ambasada Narodne Republike Kine u Beogradu; troje mrtvih, decenijama tinjajuća kriza u odnosima Vašingtona i Pekinga. NATO je izrazio žaljenje i taj napad pripisao zastarelim mapama; objašnjenje je u Pekingu primljeno sa nevericom."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ljudska prava istraživačke organizacije, pre svega Human Rights Watch, dokumentovala su u devedeset zasebnih incidenata između četiri stotine osamdeset devet i pet stotina dvadeset osam civilnih smrti od NATO bombi. Brojke vojnih i policijskih žrtava jugoslovenske strane i danas su predmet spora; većina nezavisnih procena ostaje ispod hiljadu. Materijalna šteta merila se milijardama; čitavi sistemi struje, vode i goriva bili su, makar privremeno, izbačeni iz pogona."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Šta se istovremeno dešavalo na Kosovu"
+    },
+    {
+      "type": "paragraph",
+      "text": "Dok su rakete padale po Srbiji i Crnoj Gori, na Kosovu se odvijala druga, kopnena tragedija. Srpske vojne i policijske snage sprovele su veliku ofanzivu — operaciju kojoj se u zapadnim izvorima pripisuje ime „Potkovica”, iako autentičnost tog naziva ostaje sporna. Pod pritiskom borbi, naredbi i straha, oko osam stotina hiljada kosovskih Albanaca napustilo je svoje domove i krenulo ka Makedoniji, Albaniji i Crnoj Gori. Kasniji postupci pred Haškim tribunalom utvrdili su odgovornost srpskih snaga za masovne zločine nad civilima — Suva Reka, Izbica, Velika Kruša, delovi Đakovice — kao i organizovano sakrivanje tela. Istovremeno, OVK je činila zločine nad srpskim i romskim civilima; i to je deo dokumentovane slike, a ne propagandna teza."
+    },
+    {
+      "type": "paragraph",
+      "text": "Diplomatsko rešenje sazrevalo je u maju i početkom juna. Posrednici su bili ruski izaslanik Viktor Černomirdin i finski predsednik Marti Ahtisari. Rusija je svojim odbijanjem da podrži direktnu intervenciju, a istovremenim pritiskom na Beograd, pomogla da se izvuče kompromis: Kosovo ostaje formalno deo Jugoslavije, ali prelazi pod upravu Ujedinjenih nacija; jugoslovenske snage se povlače; ulazi međunarodni vojni kontingent pod oznakom KFOR, sa značajnim učešćem NATO trupa. Slobodan Milošević je tu formulu prihvatio 3. juna, a Savet bezbednosti UN ozakonio ju je 10. juna 1999. Rezolucijom 1244. Iste večeri NATO je zvanično obustavio vazdušne udare."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ono što je usledilo nije bilo mir kakav se očekivao. Dok je jugoslovenska vojska napuštala Kosovo, na pokrajinu su se vraćale stotine hiljada albanskih izbeglica. U narednim mesecima oko dvesta hiljada Srba, Roma i drugih nealbanskih stanovnika napustilo je svoje domove ili je iz njih proterano; bilo je paljenja srpskih sela, ubistava starijih ljudi koji nisu hteli da odu, pljački i razaranja pravoslavnih crkava. Te zločine, kao i one koje su počinile snage iz Beograda, takođe je beležio Haški tribunal i nezavisne organizacije. Račak, događaj iz januara 1999. koji je bio neposredan povod za zaoštravanje pred Rambujeom, ostao je sporna tačka: za jedne masakr nad civilima, za druge inscenirana scena posle borbe — pitanje koje ni domaća ni međunarodna istraga nisu rešile do potpune saglasnosti."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sedamdeset osam dana 1999. ne mogu se merom jednog narativa zatvoriti. U srpskoj svesti ostali su prizori porušenih mostova, zatamnjenog Beograda, kolona ljudi koje su preživele Aleksinac, Grdelicu, Varvarin, Korišu. U albanskoj svesti ostali su prazni domovi, kolone izbeglih i grobovi u Suvoj Reci i Izbici. Obe slike su istinite. Obe stoje jedna pored druge, i nijedna ne poništava drugu. Ono što istorijska disciplina može da uradi danas jeste da uredno popiše dokumentovano — civilne žrtve NATO bombi, civilne žrtve kopnenih operacija, povratne talase nasilja na Kosovu — i da otvoreno označi ono što ostaje sporno: pravnu osnovu intervencije, tačan broj žrtava, pojedinačne odgovornosti. Sa tom merom poštenja ulazi se u poslednju deceniju o kojoj će ovaj kurs govoriti."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

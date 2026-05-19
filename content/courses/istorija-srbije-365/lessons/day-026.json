@@ -6,13 +6,53 @@
   "dayNumber": 26,
   "order": 9,
   "title": "Svakodnevni život u rimsko doba",
+  "subtitle": "Grad, selo, kuhinja i bogovi u provincijama na današnjem srpskom tlu",
   "readingTimeMinutes": 7,
   "year": 150,
-  "isPlaceholder": true,
+  "dateLabel": "rimsko doba",
+  "timelinePosition": "~150. n. e.",
+  "summary": "Pogled na svakodnevni život u rimskim provincijama Meziji, Dalmaciji i Panoniji — od foruma i termi u koloniji, preko jelovnika i odeće, do jezika, kultova i pravnog statusa stanovnika.",
+  "keyPeople": [],
+  "keyPlaces": ["Mezija", "Dalmacija", "Panonija"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Sredinom drugog veka nove ere, putnik koji bi se uputio iz Singidunuma niz Dunav, pa skrenuo ka unutrašnjosti današnje Srbije, prošao bi kroz tri rimske provincije — Meziju, Dalmaciju i, na severozapadu, Panoniju. Ono što bi video ne bi bio neki čisto „rimski” svet, nego svet u kome se rimske forme nalepljuju na zatečeni život: na ilirska i tračka sela, na stare kultove, na jezike koji još uvek šapuću po kućama. Da bismo razumeli kako se tu zaista živelo, treba odvojiti dva sveta koja su postojala uporedo — svet grada i svet sela."
+    },
+    {
+      "type": "paragraph",
+      "text": "Rimska kolonija ili municipij bili su mali ali prepoznatljivi gradovi: pravilna mreža ulica, forum kao središnji trg sa hramovima i većnicom, javne terme, tržnica, ponekad pozorište ili amfiteatar, i — što je možda najvažnije — uređen sistem vodosnabdevanja sa akvaduktom koji je donosio čistu vodu iz okoline. Sirmijum u Panoniji, Singidunum i Viminacijum na Dunavu, Naisus u unutrašnjosti, kasnije i Romulijana — sve su to bile tačke u kojima je rimska urbana forma stigla i na ovo tlo. U gradu se živelo gusto, u kućama od opeke i kamena sa unutrašnjim dvorištima; oni najimućniji imali su podno grejanje preko sistema hipokausta i mozaike u prijemnim odajama."
+    },
+    {
+      "type": "paragraph",
+      "text": "Selo je, međutim, bilo nešto sasvim drugo. Većina ljudi nije živela u koloniji nego na imanju — bilo u nekoj villi rustici, organizovanoj ekonomiji sa gospodarskom kućom, žitnicama, presama za ulje i vino i radnom snagom robova i kolona, bilo u skromnoj seljačkoj kući od drveta i zemlje, kakva se od praistorije nije previše promenila. Granica između ta dva sveta nije bila samo arhitektonska — bila je i u vremenu: u gradu je dan ritmovan radom pijace i odlaskom u terme, na selu setvom, žetvom i hramovskim praznicima zatečene zajednice."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Trpeza, odeća i jezik"
+    },
+    {
+      "type": "paragraph",
+      "text": "Jelovnik provincijalca bio je u osnovi mediteranski, ali prilagođen onome što se moglo dobiti na licu mesta. Osnovu su činile žitarice — pšenica i ječam — od kojih su se pravili hleb, kaše i jednostavna jela. Maslinovo ulje stizalo je trgovinom iz mediteranskih krajeva i bilo je obeležje imućnijih kuhinja; obična domaćinstva češće su koristila svinjsku mast. Lokalno vino se proizvodilo, naročito u podunavskim vinogradima, i pilo se razblaženo vodom, po rimskom običaju. Meso je dolazilo sa stoke koja se ovde uzgajala vekovima — najviše svinjetina i jagnjetina, ređe govedina — a uz to su išli pasulj, sočivo, kupus, luk i šumski plodovi. Riba iz Dunava i Save dopunjavala je trpezu. Sve u svemu, hrana je bila skromna, izuzev na imanjima gde je gospodarska kuhinja podražavala italske uzore."
+    },
+    {
+      "type": "paragraph",
+      "text": "Odeća je takođe pratila staleški red. Slobodan rimski građanin imao je pravo na togu — tešku, naborima oblikovanu vunenu odoru koja se nosila u svečanim prilikama i koja je bila više pravni znak nego praktična garderoba. Svakodnevno se i on i njegova porodica oblačio u tuniku, jednostavnu košulju do kolena, ponekad sa pojasom i ogrtačem. Radnici, robovi i seljaci nosili su grublje verzije iste tunike, često bez ikakvog ukrasa; obuća je za većinu bila jednostavna sandala ili kožni opanak. Hladne panonske zime tražile su slojeve i krznene ogrtače, koji su sa rimskom modom mirno koegzistirali."
+    },
+    {
+      "type": "paragraph",
+      "text": "Jezik je, kao i odeća, bio raslojen. Latinski je bio jezik uprave, vojske, sudova i svega što je značilo društveni uspon — ko god je hteo karijeru, morao ga je naučiti. Ali u kućama, naročito u unutrašnjosti i na selu, dugo su se i dalje govorili stari ilirski i tračko-dački govori; o njima znamo malo, ali znamo da nisu nestali odmah. U istočnim delovima i u trgovini sa Egejom važan je bio i grčki, koji je u nekim sredinama imao veći ugled od latinskog. Provincija je, dakle, bila trojezična u tihom svakodnevnom smislu, iako su zvanični natpisi gotovo isključivo na latinskom."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sličnu mešavinu nalazimo i u religiji. Rim je doneo svoje državne kultove — Jupitera, Junonu, Minervu, careve koji se posle smrti proglašavaju božanstvima — ali nije ukidao zatečene bogove. Najupečatljiviji primer je Silvan, italski bog šuma i pašnjaka, pod čijim su rimskim imenom ovde poštovana stara ilirska i panonska božanstva prirode; njegovih natpisa i reljefa ima više nego ijednog drugog kulta na ovim prostorima. Iz daljine su stizali i orijentalni misterijski kultovi: Mitru, boga svetlosti i ugovora, posebno su poštovali vojnici, pa su mitreji — male svetinje sa scenom žrtvovanja bika — otkriveni na više mesta u Srbiji. Sa istoka su stigli i kultovi Kibele i Izide. A negde u trećem veku, najpre po gradovima i pristaništima, počinje da se širi i nova vera — hrišćanstvo — koja će u sledećim epohama promeniti sve."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pravni okvir tog života bio je oštar. Stanovništvo se delilo na rimske građane (cives Romani), na slobodne neimaoce građanstva (peregrini) i na robove. Tek 212. godine, ediktom cara Karakale poznatim kao Constitutio Antoniniana, građanstvo je prošireno na praktično sve slobodne stanovnike Carstva — što je za provincije značilo tihu ali ogromnu pravnu promenu. U porodičnom životu, brak je bio uglavnom dogovor porodica, smrtnost odojčadi bila je strašno visoka, a obrazovanje u rimskom stilu bilo je rezervisano za sinove imućnijih. Mrtvi su se sahranjivali van gradskih bedema, u nekropolama uz puteve; upravo nadgrobni spomenici sa kratkim natpisima — ime, godine, zanimanje, ponekad nežna posveta — danas su nam glavni izvor o tome kako su izgledali obični životi. Treba ipak biti pošten: o neelitnim ljudima ovde uglavnom znamo preko njihovih predmeta i tih nekoliko reči u kamenu. Njihovi pravi glasovi — razgovori, pesme, žalbe — uglavnom su ostali nečujni."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

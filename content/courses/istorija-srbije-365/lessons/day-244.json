@@ -6,13 +6,49 @@
   "dayNumber": 244,
   "order": 14,
   "title": "Ustav iz 1869.",
+  "subtitle": "Prvi ustav Kneževine Srbije — oprezan kompromis između kneževe vlasti i stalne Narodne skupštine",
   "readingTimeMinutes": 7,
   "year": 1869,
-  "isPlaceholder": true,
+  "dateLabel": "1869.",
+  "timelinePosition": "1869.",
+  "summary": "Velika narodna skupština u Beogradu donela je prvi ustav Kneževine Srbije — Jovan Ristić je iz namesništva osmislio sistem koji je uveo redovnu skupštinu, ali je ostavio glavnu vlast knezu.",
+  "keyPeople": ["Jovan Ristić", "Milivoje Petrović Blaznavac", "Jovan Gavrilović", "knez Milan Obrenović", "Svetozar Marković"],
+  "keyPlaces": ["Beograd", "Kragujevac"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Kada je u jesen 1868. knez Mihailo Obrenović pao od metaka u Košutnjaku, Srbija je naglo ostala bez vladara i bez jasnog naslednika. Presto je preuzeo četrnaestogodišnji Milan Obrenović, sinovac ubijenog kneza, a do njegove punoletnosti zemljom je upravljalo trojno namesništvo — general Milivoje Petrović Blaznavac, političar i diplomata Jovan Ristić i stari državnik Jovan Gavrilović. Namesnici su znali da je njihov položaj krhak: dinastija je bila uzdrmana, evropski susedi su pomno pratili svaki potez, a unutar zemlje rastao je pritisak da se ukine lični režim kakav je vodio knez Mihailo i da se konačno donese ustav."
+    },
+    {
+      "type": "paragraph",
+      "text": "Glavni autor i pokretač posla bio je Ristić. On je verovao da Srbija ne sme ostati bez pisanog osnovnog zakona, ali je istovremeno smatrao da bi nagli skok u potpuni parlamentarizam, po zapadnom uzoru, bio opasan u zemlji koja tek izlazi iz turskog poretka i u kojoj je politička klasa malobrojna. Njegovo rešenje bilo je oprezno: dati narodu stalnu skupštinu i pisana prava, ali zadržati u rukama kneza i namesništva najvažnije poluge moći. U Beogradu je 29. juna, odnosno 11. jula po novom kalendaru 1869. godine, Velika narodna skupština usvojila tekst koji će ostati upamćen kao prvi ustav Kneževine Srbije."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Šta je ustav doneo"
+    },
+    {
+      "type": "paragraph",
+      "text": "Najvažnija novina bila je stalna Narodna skupština. Po novom ustavu, ona se sazivala svake godine, raspravljala o predlozima zakona i — što je posebno važno — glasala o državnom budžetu. Bila je jednodomna, bez gornjeg doma ili senata kakvi su postojali u nekim drugim evropskim ustavima toga doba. Tri četvrtine poslanika birao je narod, a jednu četvrtinu postavljao je sam knez; to su bili takozvani „kraljevski poslanici”, obično ugledni činovnici i stručnjaci, kojima je vlada osiguravala stalno jezgro lojalnih glasova. Pravo glasa nije bilo opšte: postojao je porezni cenzus, pa su birači bili odrasli muškarci koji su plaćali određeni iznos državnog poreza. Krug birača ipak je bio širi nego ranije, i prvi put se može govoriti o redovnim, zakonom uređenim izborima."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ustav je proklamovao i niz ličnih sloboda — slobodu štampe, ličnu slobodu građana, zabranu mučenja, pravo na zakonito suđenje. Sudstvo je proglašeno nezavisnim, a sudije su trebalo da budu nesmenjive. U praksi, međutim, svaka od tih garancija bila je praćena rečenicom da će je „bliže urediti zakon”, a upravo te zakone donosila je skupština u dogovoru sa vladom, čiji su sastav i smer određivali knez i namesništvo. Sudije je takođe postavljao knez, što je nezavisnost suda učinilo više deklarativnom nego stvarnom. Vlada nije odgovarala skupštini, već knezu; skupština je mogla da kritikuje ministre i da odbije budžet, ali ne i da ih obori glasanjem o nepoverenju."
+    },
+    {
+      "type": "paragraph",
+      "text": "Reakcije su bile dvojake i u tome je sva istina o ovom ustavu. Konzervativni krugovi, naročito stariji ustavobranitelji i deo birokratije, smatrali su ga preliberalnim — plašili su se da će stalna skupština, ma koliko ograničena, vremenom narasti u stranački parlament i potkopati autoritet kneza. S druge strane, mlada liberalna i tek nastajuća radikalska generacija, okupljena oko Svetozara Markovića i njegovih sledbenika, smatrala je da ustav daje samo prividna prava. Po njihovom mišljenju, „kraljevski poslanici”, porezni cenzus i kneževa kontrola vlade pretvarali su skupštinu u ukras, a ne u stvarnu kontrolu vlasti. Tako je novi ustav istovremeno označen kao preopasan i kao premali iskorak — što je možda najpoštenija ocena njegovog prelaznog karaktera."
+    },
+    {
+      "type": "paragraph",
+      "text": "U poređenju sa onim što je prethodilo, ipak je reč o značajnom napretku. Sretenjski ustav iz 1835. trajao je svega nekoliko nedelja pre nego što su ga ugušili pritisci sa strane; takozvani Turski ustav iz 1838, koji mu je sledio, bio je u suštini oligarhijski hatišerif kojim je vlast deljena između kneza i uskog kruga ustavobranitelja, bez ikakve narodne skupštine kao redovne ustanove. Ustav iz 1869. prvi put je u Srbiji uveo parlamentarizam, makar kontrolisan i odozgo doziran. Ostao je na snazi, sa izmenama, sve do donošenja novog, mnogo liberalnijeg ustava iz 1888. — devetnaest godina, najduže od svih srpskih ustava devetnaestog veka."
+    },
+    {
+      "type": "paragraph",
+      "text": "Kada se danas gleda unazad, Ristićev ustav najtačnije se opisuje kao prelazni okvir. Nije bio puna demokratija, ali nije bio ni puko nastavljanje ličnog režima. Uveo je naviku da se vlast bar deklarativno suočava sa biranim telom, da se budžet javno brani i da se prava građana zapisuju u osnovni zakon. Te navike, posejane oprezno i s mnogo ograda, postaće sledećih decenija glavni argument liberala i radikala kada budu tražili više — i one su, na kraju, dovele do mnogo otvorenijeg ustava iz 1888. godine."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

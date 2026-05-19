@@ -6,13 +6,53 @@
   "dayNumber": 92,
   "order": 3,
   "title": "Vojska srednjovekovne Srbije",
+  "subtitle": "Kako je raška, a potom kraljevska i carska Srbija ratovala — od vlasteoske konjice do tvrđava i plaćenika",
   "readingTimeMinutes": 7,
   "year": 1300,
-  "isPlaceholder": true,
+  "dateLabel": "12–14. vek",
+  "timelinePosition": "12–14. vek",
+  "summary": "Srednjovekovna Srbija nije imala stalnu vojsku — sastavljala ju je iz vlasteoske konjice, plemićkih družina, seoskih pešačkih odreda, gradskih posada i, sve češće, stranih plaćenika.",
+  "keyPeople": [],
+  "keyPlaces": [],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Srednjovekovna Srbija, od vremena Stefana Nemanje do poslednjih Nemanjića, nije imala vojsku u modernom smislu te reči — nije postojao stalni, plaćeni i uvek pripravan vojni aparat koji bi vladar mogao da pokrene preko noći. Vojska je bila stanje, ne ustanova. Sazivala se kada je trebalo, sastavljala se od nekoliko različitih slojeva društva, ratovala je nekoliko meseci, a potom se razilazila kućama. Razumeti tu vojsku znači razumeti i sámo društvo iz kojeg je izlazila: vladara, vlastelu, sebrove i utvrđene gradove koji su tu vlastelu i njene seljake držali u određenom mestu na karti."
+    },
+    {
+      "type": "paragraph",
+      "text": "Jezgro snage bila je vlasteoska konjica. Vlastela — krupni i sitniji plemići — držala je zemlju kao baštinu ili pronijarski posed, a u zamenu za to dugovala je oružanu službu kralju. Bili su to teško oklopljeni konjanici, vežbani od dečaštva, naučeni da jašu sa dugačkim kopljem i da u jurišu, u zbijenom redu, odluče bitku. U većini sukoba 13. i 14. veka, kada bi se srpska vojska postrojila na otvorenom polju, upravo bi udar te konjice odlučio ishod. Oko svakog krupnog vlastelina kretala se i njegova lična pratnja — družina — sastavljena od mlađih plemića i doživotnih ratnika koji su mu se zakleli na vernost. Najmoćnije družine, oko ljudi poput kasnijih oblasnih gospodara, bile su gotovo male privatne vojske."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pored konjičkog jezgra, u velikim pohodima sazivao se i sebrov, to jest seoski sloj. Bile su to pešačke desetine i stotine seljaka, naoružanih onim što su imali kod kuće: lukom, kopljem, sekirom, retko mačem. Ratnička obuka im je bila skromna; uloga im je bila da popune redove, da drže krila i da, u opsadama, kopaju i nose. Po vrednosti se sebrov vojnik nije mogao meriti sa oklopnikom, ali je davao ono što vlastela nije mogla — broj. Ključne tvrđave i utvrđene varoši čuvale su stalne posade pod zapovedništvom kefalija ili gradskih starešina, koji su živeli u samom gradu i bili odgovorni za njegovu odbranu."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Plaćenici, oprema i tvrđave"
+    },
+    {
+      "type": "paragraph",
+      "text": "Od kraja 13. veka, a posebno pod kraljem Milutinom i carom Dušanom, srpski vladari sve više pribegavaju i stranim plaćenicima. Iz nemačkih zemalja dolazili su viteški odredi; iz italijanskih gradova samostreličari, čije je oružje na bojnom polju imalo razornu moć. Sasi, nemački rudari naseljeni u rudarskim varošima, ponekad su organizovali sopstvenu odbranu oko svojih naselja. U 14. veku ima vesti i o tatarskim konjanicima-strelcima, izvežbanim u mongolskoj školi ratovanja, koji su povremeno unajmljivani kao laka konjica. Plaćenici su koštali skupo i nisu uvek bili pouzdani, ali su donosili veštine kojih u domaćoj vojsci nije bilo dovoljno."
+    },
+    {
+      "type": "paragraph",
+      "text": "Oprema je pratila društveni položaj. Vlastelin je nosio košulju od burme — pancir od metalnih kolutova — a u 14. veku, sve češće, i pojedine pločaste delove preko ramena, grudi i nogu. Glavu mu je štitio konusni ili šeširasti šlem, ponekad sa nazalom ili pokretnom maskom. Naoružanje je činilo dugo konjičko koplje za prvi udar, mač sa pravom oštricom, buzdovan ili topuz za probijanje oklopa, a u nekim slučajevima i složeni refleksni luk istočnog porekla. Pešadija je nosila lakše oklope, krupne štitove badem-oblika ili okrugle drvene štitove, a od daljinskog oružja luk i, sve češće, samostrel. Konji su bili različite vrste: teški za juriš, lakši za izviđanje i hajke."
+    },
+    {
+      "type": "paragraph",
+      "text": "Možda važnije od bilo koje pojedinačne bitke bila je mreža utvrđenja. Srbiju srednjeg veka držala su utvrđena mesta — kraljevski gradovi, manastiri sa kulama i bedemima, plemićki zamkovi na liticama. Maglič kod Studenice, Soko-grad, Stalać, pogranični Beograd i mnogi drugi nadgledali su drumove, prelaze i doline. Ko je držao gradove, taj je u praksi držao oblast, čak i kada bi izgubio bitku u polju. Velike tvrđave kasnijeg razdoblja, poput Smedereva, biće tek odgovor 15. veka na pritisak koji se već u 14. veku osećao na granicama."
+    },
+    {
+      "type": "paragraph",
+      "text": "O veličini srpskih vojski treba govoriti oprezno. Glavni izvori — vizantijski letopisci, povremeno bugarski i ugarski hroničari — često uveličavaju brojeve protivnika ili svoje pobede. Procene se zato razlikuju i kod ozbiljnih istoričara. Većina pohoda verovatno je vođena sa nekoliko hiljada ljudi. Najveće srpske vojske srednjeg veka, one koje su izašle na Velbužd 1330. i na Maricu 1371, procenjuju se na petnaestak do dvadeset pet hiljada, ali su i te brojke više obrazloženi nagoveštaji nego pouzdani podaci. Logistika je bila skromna i diktirala je ritam ratovanja: pohodi su se vremenski podešavali tako da ne padnu u žetvu, vojnici su nosili lične zalihe za nekoliko dana, a u neprijateljskoj zemlji vojska je živela od pljačke sela duž puta."
+    },
+    {
+      "type": "paragraph",
+      "text": "Kroz dva i po veka ta se vojska menjala. U 12. veku ona je još pretežno feudalni saziv — župan, vlastela, družine, malo sebrova. Pod Milutinom i Dušanom postaje brojnija, bolje opremljena, sa stranim odredima i sa centralnijom voljom vladara koji njome upravlja. Posle Dušana, sa raspadom carstva i sve oštrijim osmanskim pritiskom, broj ljudi koje srpski velikaši mogu da izvedu na bojište opada, a težište se neminovno premešta na odbranu tvrđava. Konačno, mora se reći i ono što istoričari pošteno priznaju: o opremi srpskog srednjovekovnog ratnika znamo manje nego što bismo želeli. Najveći deo onoga što danas tvrdimo dolazi iz nekoliko stotina grobnih nalaza, iz fresaka po manastirima, gde su sveti ratnici slikani savremenim oružjem, i iz tuđih hronika. Mnoge pojedinosti ostaju otvorene, i tamo gde izvori ćute — i naš opis mora da bude oprezan."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

@@ -6,13 +6,58 @@
   "dayNumber": 20,
   "order": 3,
   "title": "Veliki ilirski ustanak",
+  "subtitle": "Tri godine rata zbog kojih je Avgust rekao da Rim nije bio u većoj opasnosti od Hanibala",
   "readingTimeMinutes": 7,
   "year": 6,
-  "isPlaceholder": true,
+  "dateLabel": "6–9. n. e.",
+  "timelinePosition": "6–9. n. e.",
+  "summary": "Pobuna Ilira i Panonaca pod dvojicom vođa istog imena — Batona — uzdrmala je tek osvojeni Ilirik, tražila trogodišnji rimski napor pod Tiberijem i trajno preuredila kartu Balkana.",
+  "keyPeople": ["Baton Dezitijat", "Baton Breučki", "Tiberije", "Avgust", "Germanik"],
+  "keyPlaces": ["Ilirik", "Panonija", "Dalmacija"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Početkom šeste godine nove ere, Rim se činio gospodarom Balkana. Posledice ratova vođenih u prethodnim decenijama bile su, makar na karti, jasne — od Jadrana do Dunava prostirao se ogromni Ilirik, novostvorena oblast pod rimskom upravom, naseljena ilirskim i panonskim narodima koji su, jedan po jedan, polagali oružje. Avgust je u Rimu već uveliko slavio mir. A onda je iz te navodno smirene zemlje izbila pobuna koja će ga, prema kasnijim svedočenjima, naterati da javno prizna nešto što rimski car obično ne priznaje — da je carstvo u smrtnoj opasnosti."
+    },
+    {
+      "type": "paragraph",
+      "text": "Povod je bio konkretan i hladan. Tiberije, Avgustov posinak i najbolji general tog časa, spremao je veliki pohod protiv germanskog plemena Markomana na severu. Za taj pohod tražene su pomoćne čete iz Ilirika — mladići za vojsku, novac za izdržavanje, hrana za logore. Iliri i Panonci su do tada već iskusili rimsku upravu i znali šta znače popisi, porez i regrutacija; ovaj put, međutim, ono što se tražilo prelazilo je granicu izdrživog. Skup okupljenih ratnika u dalmatinskoj unutrašnjosti pretvorio se u pobunu. Skoro istovremeno, ili neposredno potom, ustalo je i panonsko pleme Breuka na severu, oko reke Save. Dve pobune, dva zasebna središta, ali dovoljno blizu i dovoljno povezane da se u rimskim izvorima ubrzo počnu prikazivati kao jedan rat."
+    },
+    {
+      "type": "paragraph",
+      "text": "Na čelu obe pobune našli su se ljudi istog imena — Baton. Jedan je bio Baton Dezitijat, vođa Dezitijata u planinskim predelima današnje Bosne; drugi Baton Breučki, vođa panonskih Breuka. Slučajnost imena unela je u priču nešto skoro književno, i antički pisci su to primetili. Njihov odnos nije bio jednostavan: u jednom trenutku saveznici, u drugom suparnici, a na kraju i otvoreni neprijatelji. Pa ipak, u prvim mesecima ustanka delovali su zajedno — i delovali brzo. Rimski garnizoni po Iliriku bili su mali i razbacani; pobunjenici su za kratko vreme zauzeli više uporišta, pretili su Makedoniji na jugu, a vesti o tome stigle su do severnoitalijanskih gradova koji su odjednom osetili strah kakav nisu imali decenijama."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Rat koji je uzdrmao Rim"
+    },
+    {
+      "type": "paragraph",
+      "text": "Avgust je reagovao bez oklevanja. Pohod na Markomane otkazan je istog časa, Tiberije je preusmeren na Balkan, a u pomoć mu je upućen i mladi Germanik, sin Druzov, koji će kasnije postati jedan od najpoznatijih rimskih generala. Prikupljeno je, prema antičkim procenama, više od deset legija — gotovo polovina ukupne rimske vojne snage tog časa. Rimski istoričar Svetonije će kasnije zabeležiti Avgustove reči da Rim, od ratova s Hanibalom naovamo, nije bio u tako velikoj opasnosti. To je redak primer da car svojim glasom priznaje težinu protivnika, i upravo zato je rečenica preživela: nije reklamna, nego priznanje."
+    },
+    {
+      "type": "paragraph",
+      "text": "Rat je trajao tri godine, od šeste do devete godine nove ere, i bio je drugačiji od velikih bitaka na otvorenom polju. Pobunjenici su izbegavali sukob s glavninom legija, povlačili se u planine, organizovali zasede i napade na snabdevanje, branili utvrđene gradine. Rimljani su odgovarali sistematski i okrutno: opkoljavali su uporišta, gladovanjem prisiljavali na predaju, palili sela, raseljavali stanovništvo. Najpre je popustila Panonija — Baton Breučki je devete godine sklopio mir s Rimljanima, ali ga je ubrzo, po nekim izvorima, ubio njegov dotadašnji saveznik Baton Dezitijat, koji ga je smatrao izdajnikom. Otpor u dalmatinskim planinama nastavio se još neko vreme, sve dok i poslednje utvrđenje nije palo i dok se sam Baton Dezitijat nije predao Tiberiju."
+    },
+    {
+      "type": "paragraph",
+      "text": "O toj predaji sačuvana je jedna kratka scena, koja zato i živi. Dion Kasije, rimski istoričar iz kasnijih vekova, prenosi da je Baton Dezitijat, kada su ga pitali zašto je podigao ustanak, odgovorio kratko i oštro. Rečenica je preživela u različitim verzijama i prevodima, ali njena suština je nesumnjiva."
+    },
+    {
+      "type": "quote",
+      "text": "Vi ste poslali vukove, a ne pastire, da čuvaju ovce.",
+      "attribution": "po Dionu Kasiju, pripisano vođi ustanka Batonu Dezitijatu"
+    },
+    {
+      "type": "paragraph",
+      "text": "Rečenica je, naravno, došla do nas preko rimskog pera i u rimskoj književnoj formi, i ne možemo biti sigurni da je zaista izrečena baš tim rečima. Ali ono što ona izgovara — optužba na račun upravljača koji su umesto reda donosili pljačku — toliko se često ponavlja u izvorima o rimskoj provincijskoj upravi tog vremena da je teško verovati da iza nje ne stoji stvarno iskustvo pobunjenika. To je, koliko god posredan, jedan od retkih trenutaka u kome čujemo glas same pobunjene strane."
+    },
+    {
+      "type": "paragraph",
+      "text": "Posledice rata bile su duboke i trajne. Rim je shvatio da je jedinstveni Ilirik prevelik i previše nemiran da bi se njime upravljalo iz jednog središta. Oblast je vremenom podeljena na dve provincije — Panoniju na severu i Dalmaciju na jugu — i ta podela će ostati osnova rimske uprave na ovom prostoru sve do kasne antike. Vojska je trajno raspoređena duž Dunava i u dalmatinskoj unutrašnjosti, podignuti su novi logori, izgrađeni putevi koji su sledili linije pohoda. Velik broj zarobljenika je odveden u ropstvo ili razmešten po Carstvu; veterani su naseljavani na zemlju oko logora, čime se menjao i sam sastav stanovništva. O tome kako su ove promene doživeli sami Iliri i Panonci, izvori ćute — njihov pogled, osim u Batonovoj rečenici, ostaje uglavnom izvan zapisa. Ono što sigurno znamo jeste da je posle ovog rata politička samostalnost ilirskog i panonskog sveta u ovakvim razmerama nestala zauvek. Balkan je, od devete godine nove ere, bio rimski na način na koji do tada nije bio."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

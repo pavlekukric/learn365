@@ -6,13 +6,49 @@
   "dayNumber": 112,
   "order": 7,
   "title": "Prvi sudari sa Osmanlijama",
+  "subtitle": "Kako su tokom 1380-ih osmanski upadi u srpske oblasti rasli iz pljačkaških četa u sve ozbiljnije ratne sudare",
   "readingTimeMinutes": 7,
   "year": 1385,
-  "isPlaceholder": true,
+  "dateLabel": "1380-e",
+  "timelinePosition": "1380-e",
+  "summary": "Posle Maričke bitke 1371. osmanska konjica sve češće upada u srpske zemlje. U toku 1380-ih dolazi do prvih pravih sudara — od poraza Balše II na Savri 1385. do lokalnih srpskih pobeda — koji najavljuju Kosovo.",
+  "keyPeople": ["Murat I", "knez Lazar", "Balša II", "Vuk Branković", "Tvrtko I"],
+  "keyPlaces": ["Kosovo polje", "Savra", "Pločnik", "Makedonija", "Berat"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Posle Maričke bitke 1371. godine srpski jug nije imao više ko da brani. Pogibijom braće Mrnjavčevića nestala je glavna vojna sila koja je do tada zadržavala osmanske odrede severno od Vardara, a oblasti njihovih naslednika brzo su, jedna za drugom, prelazile u osmansku vazalnu mrežu. U toku narednih petnaestak godina, dok su Murat I i njegove vojvode učvršćivali vlast nad Makedonijom i Trakijom, osmanska lakopokretna konjica — akindžije — sve češće je prelazila planinske prevoje na sever. Njihovi upadi u srpske zemlje bili su isprva više nalik na pljačku nego na pravi rat, ali su se tokom 1380-ih pretvorili u prve ozbiljne sudare koji su najavili veliku bitku na Kosovu."
+    },
+    {
+      "type": "paragraph",
+      "text": "Akindžije nisu bile regularna vojska u kasnijem smislu reči. Bili su to laki konjanici, oboružani sabljom, lukom i kratkim kopljem, bez teškog oklopa, organizovani u manje čete pod sopstvenim vođama. Njihov zadatak bio je da uđu duboko u tuđu zemlju, popale sela, pohvataju roblje, oduzmu stoku i izvuku se pre nego što stigne organizovani otpor. U isto vreme bili su i oči osmanske vojske — vraćali su se sa znanjem o putevima, gazovima na rekama, jačini gradova i raspoloženju lokalnih gospodara. Ono što je za seljaka u srpskim oblastima izgledalo kao nepredvidljiva nesreća, za sultanovu kancelariju bilo je sistematsko izviđanje terena na kome će se jednog dana voditi pravi rat."
+    },
+    {
+      "type": "paragraph",
+      "text": "U središnjim srpskim zemljama, sada okupljenim oko kneza Lazara u Pomoravlju i oko Vuka Brankovića na Kosovu i u susednim oblastima, ti upadi nisu mogli ostati bez odgovora. Hroničari i kasniji rodoslovi pominju jedan sudar na Kosovu polju, koji se obično datuje u 1380. ili 1381. godinu, u kome je srpska vojska razbila jednu osmansku četu koja je doprla duboko na sever. O toj bici znamo malo — izvori je tek usput pominju, broj učesnika nije zabeležen, ime osmanskog zapovednika nije sigurno. Ali sama činjenica da je sačuvana u sećanju nešto govori: ovo nije bio rutinski pljačkaški upad, već događaj dovoljno krupan da uđe u letopis. Bila je to, koliko se može videti, prva veća srpska pobeda nad Osmanlijama na sopstvenom tlu."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Savra 1385. i Pločnik"
+    },
+    {
+      "type": "paragraph",
+      "text": "Pet godina kasnije sudar je dobio drugačiji ishod, i to daleko na zapadu. Septembra 1385. Balša II, gospodar Zete, sukobio se sa osmanskim odredom pod Hajrudin-pašom na Saurskom polju (Savri), u ravnici kod Berata u današnjoj Albaniji. Balša je krenuo da povrati Drač, koji je nedavno bio zauzeo, i naišao na osmansku vojsku koju su pozvali lokalni protivnici njegove vlasti. Bitka je bila kratka i za Zećane porazna: Balša je poginuo na bojištu, njegova vojska se rasula, a velika prilika za Zetu bila je propuštena. Savra je u srpskim zemljama odjeknula kao opomena. Pokazala je da osmanska vojska nije samo daleka opasnost iz Trakije, nego sila koja može da pređe planine i da pobeđuje na zapadnoj strani Balkana, daleko od svojih glavnih baza."
+    },
+    {
+      "type": "paragraph",
+      "text": "Verovatno već naredne godine, 1386, knez Lazar sukobio se sa jednim osmanskim odredom kod Pločnika, u dolini Toplice. O toj bici biće više reči u sledećoj lekciji; ovde je dovoljno reći da je završena srpskom pobedom i da je u Lazaru, koliko se može pretpostaviti, ojačala uverenje da Osmanlije jesu opasne, ali nisu nepobedive ako se na njih izađe sa organizovanom vojskom u pogodnom trenutku. Sklop tih sudara — Kosovo polje, Savra, Pločnik — pokazao je obrazac koji će se ponavljati: akindžije su bile strašne dok su jurile po otvorenom terenu, ali kada bi ih u kotlini ili na prevoju dočekala teža srpska konjica, gubile su prednost brzine i često bivale potučene. Slabost srpskih zemalja nije bila u pojedinačnoj bici, nego u nemogućnosti da se mnogo malih pobeda spoji u jednu zajedničku odbranu."
+    },
+    {
+      "type": "paragraph",
+      "text": "Lazar je iz tih iskustava izvukao zaključak koji će obeležiti ostatak njegove vladavine. Kraj 1380-ih proveo je u sklapanju saveza — sa bosanskim kraljem Tvrtkom, sa Vukom Brankovićem, sa pojedinim manjim gospodarima Kosova i Pomoravlja — i u pripremi vojske za sukob koji je očigledno dolazio. Vuk Branković je u isto vreme utvrđivao gradove na Kosovu, svestan da će glavni udar verovatno doći baš tim pravcem. Drugi srpski gospodari, među njima i kralj Marko u Prilepu, izabrali su drugačiji put — priznanje sultanove vrhovne vlasti, plaćanje danka i obavezu da u njegovoj vojsci ratuju kada se to traži. Bio je to izbor između teškog kompromisa i otvorenog otpora, i nije ga svako mogao doneti na isti način."
+    },
+    {
+      "type": "paragraph",
+      "text": "Treba na kraju reći ono što izvori traže da se kaže. Dokumentacija o sudarima iz 1380-ih je oskudna i raštrkana po hronikama koje su nastale decenijama posle samih događaja. Tačni datumi pojedinih bitaka — naročito one na Kosovu polju — predmet su istoriografske rasprave; brojevi vojnika, imena zapovednika, čak i mesta sudara često počivaju na jednom jedinom izvoru. Ono što je sigurno jeste opšti pravac. Tokom petnaest godina između Marice i Kosova, osmanska sila je iz pljačkaške postala stalna, a srpski gospodari su prešli put od iznenađenih posmatrača do saveznika koji se spremaju na odsudan sudar. Sve što će se dogoditi u junu 1389. na Kosovu polju nije pao s neba — bio je to ishod jedne decenije malih ratova koji su se polako pretvarali u veliki."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

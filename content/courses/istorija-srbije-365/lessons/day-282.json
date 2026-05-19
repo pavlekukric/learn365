@@ -6,13 +6,57 @@
   "dayNumber": 282,
   "order": 2,
   "title": "Prvi balkanski rat",
+  "subtitle": "Kako je Balkanski savez za nekoliko nedelja oterao Osmansko carstvo gotovo sa cele evropske obale",
   "readingTimeMinutes": 8,
   "year": 1912,
-  "isPlaceholder": true,
+  "dateLabel": "1912–1913.",
+  "timelinePosition": "1912–1913.",
+  "summary": "Crna Gora, Srbija, Bugarska i Grčka udružene snage pokreću rat protiv Osmanskog carstva u jesen 1912. i za nekoliko meseci ga isteruju iz gotovo cele Evrope. Mir u Londonu menja kartu Balkana, ali pritisak velikih sila — naročito Austro-Ugarske — već najavljuje sledeću krizu.",
+  "keyPeople": ["kralj Petar I Karađorđević", "kralj Nikola I Petrović", "car Ferdinand I Bugarski", "kralj Konstantin I Grčki"],
+  "keyPlaces": ["Skadar", "Solun", "Jedrene", "Kirklareli", "Lule Burgas", "London"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Krajem septembra i početkom oktobra 1912. godine, u glavnim gradovima četiri balkanske države — Cetinju, Beogradu, Sofiji i Atini — istovremeno se odvijala ista slika. Plakate o mobilizaciji lepili su jutrom; uveče su železničke stanice bile pune ljudi sa torbama, žena koje su ostajale na peronima i oficira koji su pokušavali da unesu red u gomilu. Osmansko carstvo, koje je vekovima vladalo Balkanom, te jeseni je još uvek držalo Makedoniju, Albaniju, deo Epira, Trakiju i Jedrene. Za nekoliko meseci, sve to će se srušiti."
+    },
+    {
+      "type": "paragraph",
+      "text": "Balkanski savez — sklopljen tokom proleća i leta 1912. uz tih ruski podsticaj — počivao je na neugodnoj logici: četiri male države, koje su jedna drugoj sumnjičavo gledale u ruke, slagale su se barem oko jednog cilja, da osmansku vlast u Evropi treba dokrajčiti. Snage saveznika, kada se sve sabere, brojale su oko 750 hiljada vojnika; osmanske jedinice na evropskim frontovima imale su, po proceni većine istoričara, oko 340 hiljada ljudi, raštrkanih i sa otežanim snabdevanjem. Brojčana premoć i bolja moralna gotovost saveznika bili su očiti — ali tek je rat morao da pokaže koliko će zapravo trajati."
+    },
+    {
+      "type": "paragraph",
+      "text": "Crna Gora je objavila rat prva, 8. oktobra 1912. godine, i istoga dana njene jedinice su prešle granicu, sa Skadrom kao glavnim ciljem. Srbija, Bugarska i Grčka pridružile su se nekoliko dana kasnije, oko 17. i 18. oktobra. Rat je odmah dobio oblik tri velika fronta, koji su delovali odvojeno ali su jedan drugom posredno olakšavali posao."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Tri fronta"
+    },
+    {
+      "type": "paragraph",
+      "text": "Na istoku, bugarska vojska udarila je kroz Trakiju ka Carigradu. Prvih nedelja izvojevala je dve velike, krvave pobede — kod Kirklarelija (Kirk Kilise) krajem oktobra i kod Lule Burgasa u prvoj nedelji novembra. Lule Burgas je, po obimu angažovanih snaga i gubicima, bila najveća evropska bitka od francusko-pruskog rata; osmanska vojska se posle nje povukla na utvrđenu liniju Čataldže, svega tridesetak kilometara od Carigrada. Tu je bugarsko napredovanje stalo. Bugari su uz to opseli Jedrene, čije će zidine, uz pomoć srpske artiljerije, pasti tek u martu 1913."
+    },
+    {
+      "type": "paragraph",
+      "text": "Na srednjem frontu, srpska vojska je krenula u Makedoniju i tamo, u dve bitke koje će se posebno opisati narednih dana, slomila osmansku Vardarsku armiju — najpre kod Kumanova krajem oktobra, a potom pred Bitoljem u novembru. Posle tih pobeda srpske jedinice su izbile do Jadrana kroz severnu Albaniju, do Lješa i Drača, i susrele se na zapadu sa crnogorskim trupama koje su stezale obruč oko Skadra. Skadar će se predati tek u aprilu 1913, posle iscrpljujuće opsade i pod jakim međunarodnim pritiskom."
+    },
+    {
+      "type": "paragraph",
+      "text": "Na jugu, grčka vojska je napredovala u dva pravca — u Epir, ka Janjini, i u južnu Makedoniju, ka Solunu. Trka za Solunom postala je tihi rat unutar rata: i Bugari su žurili sa severa, ali su Grci u grad ušli prvi, 8. novembra 1912. godine, samo nekoliko časova pre bugarskih jedinica. Grčka mornarica je u isto vreme držala Egejsko more i sprečavala da osmansko carstvo prebaci pojačanja iz Anadolije, što je za ceo ishod rata bilo važnije nego što se na prvi pogled čini."
+    },
+    {
+      "type": "paragraph",
+      "text": "Osmanska država, iznutra rastrzana posle mladoturske revolucije i italijansko-turskog rata u Libiji, nije izdržala udar na više frontova istovremeno. Već u decembru 1912. tražila je primirje. Mirovni pregovori pokrenuti su u Londonu, pod okriljem velikih sila; prekinuti su zbog državnog udara u Carigradu u januaru 1913, pa nastavljeni, i konačno završeni Londonskim ugovorom u maju 1913. godine. Po tom miru, Osmansko carstvo je izgubilo gotovo celu evropsku teritoriju zapadno od linije Enos–Midija, na dvadesetak kilometara od Carigrada — najveći teritorijalni gubitak u njegovoj evropskoj istoriji."
+    },
+    {
+      "type": "paragraph",
+      "text": "Već tokom rata, međutim, postalo je jasno da pobednike neće deliti samo međusobni dogovor, nego i velike sile. Najodlučnija među njima bila je Austro-Ugarska, kojoj nije odgovaralo da Srbija izbije na Jadran i postane pomorska država. Pod njenim pritiskom — uz oslonac Italije i posrednu saglasnost Nemačke — Londonska konferencija ambasadora odlučila je da se na zapadu osmanskih zemalja formira nova, nezavisna država: Albanija. Granice te države povučene su tako da Srbiju i Crnu Goru odseku od mora; jedinice koje su već stigle do jadranske obale morale su da se povuku, a Skadar, na čije su zidine Crnogorci utrošili pola godine, oduzet im je i predat novoj albanskoj državi. Za Beograd i Cetinje to je bilo gorko priznanje da vojna pobeda na Balkanu nije dovoljna ako sile odluče drugačije."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ostaje da se kaže ono što istoričar mora reći otvoreno. Prvi balkanski rat se u srpskoj, bugarskoj i grčkoj javnosti pamti pre svega kao oslobodilački — kraj viševekovne osmanske vlasti i povratak hrišćanskih balkanskih naroda na zemlje koje su smatrali svojim. Iz albanske perspektive, isti taj rat doneo je osvajanje krajeva sa albanskim stanovništvom i nasilja koja su pratila brzo napredovanje vojski; on je istovremeno ubrzao i stvaranje nezavisne Albanije, tako da je pamćenje dvojako. Za muslimansko stanovništvo Makedonije, Trakije i Epira, kraj 1912. i početak 1913. doneli su raseljavanje, izbeglištvo i strah. Sva ta sećanja postoje u istom prostoru i nijedno se ne može poništiti drugim. Sledeća dva dana posvećena su dvema bitkama u kojima je srpska vojska prelomila rat na svom frontu — Kumanovu i Bitolju."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

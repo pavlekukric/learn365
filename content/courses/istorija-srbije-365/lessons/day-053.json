@@ -6,13 +6,53 @@
   "dayNumber": 53,
   "order": 6,
   "title": "Sveti Simeon i Hilandar",
+  "subtitle": "Otac i sin na Svetoj Gori grade srpski dom na vizantijskoj svetoj zemlji",
   "readingTimeMinutes": 8,
   "year": 1198,
-  "isPlaceholder": true,
+  "dateLabel": "1198–1199.",
+  "timelinePosition": "1198–1199.",
+  "summary": "Posle abdikacije Stefan Nemanja kao monah Simeon odlazi u Studenicu pa na Svetu Goru kod sina Save; zajedno obnavljaju Hilandar i pretvaraju ga u srpski manastir koji vekovima ostaje duhovno središte naroda.",
+  "keyPeople": ["Sveti Simeon (Stefan Nemanja)", "Sveti Sava (Rastko)", "Aleksije III Anđel"],
+  "keyPlaces": ["Sveta Gora (Atos)", "Hilandar", "Vatoped", "Studenica"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Kada je Stefan Nemanja u proleće 1196. skinuo vladarski plašt i u Studenici primio monaški postrig pod imenom Simeon, mnogi su to mogli razumeti kao časan kraj jednog dugog veka. Ispostavilo se da je to bio početak druge, ništa manje važne biografije. U naredne tri godine nekadašnji veliki župan napraviće, zajedno sa svojim sinom Rastkom — već poznatim u monaštvu kao Sava — potez koji će srpsku duhovnu istoriju vezati za jednu daleku poluostrvsku stenu na egejskoj obali i tamo je držati sve do današnjeg dana."
+    },
+    {
+      "type": "paragraph",
+      "text": "Prva godina nakon abdikacije prošla je u Studenici, u manastiru koji je on sam podigao. Život tamo bio je strog, ali blizak; Nemanja je u Raškoj još uvek bio prisutna pojava, otac vladajućeg sina, monah pred kojim su se i velikaši duboko klanjali. Ipak, nešto ga je vuklo dalje. Vesti sa Svete Gore, koje je preko poklisara i hodočasnika već godinama dobijao, govorile su o Savi — mladom sinu koji je još dečakom napustio dvor i tamo se zamonašio — i o životu u monaškoj republici koja je tada već bila glavno duhovno središte istočnog hrišćanstva. Krajem 1197. ili početkom 1198, prema podacima koje izvori dopuštaju, Simeon je krenuo na Atos."
+    },
+    {
+      "type": "paragraph",
+      "text": "Susret oca i sina na Svetoj Gori bio je susret dve generacije i dve uloge. Sava je u međuvremenu odrastao u zrelog monaha, dobro upoznatog sa pravilima svetogorskog života, sa grčkim jezikom i sa vizantijskom crkvenom upravom. Simeon je doneo nešto drugo — autoritet bivšeg vladara, mrežu veza sa carskim dvorom u Konstantinopolju i, što nije bilo nevažno, sredstva. Prve dve godine proveli su zajedno u Vatopedu, jednom od velikih grčkih manastira na Atosu, učeći i pomažući njegovoj zajednici. Tu je sazrela zamisao koja će obeležiti sve što sledi: da Srbi dobiju svoj manastir na Svetoj Gori."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Hrisovulja iz 1198. i obnova Hilandara"
+    },
+    {
+      "type": "paragraph",
+      "text": "U gornjem delu Atosa nalazilo se napušteno svetilište — mali manastir Hilandar, koji je u to vreme bio gotovo pust i bez monaha. Sava i Simeon zatražili su dozvolu da ga obnove i da ga, uz blagoslov svetogorske zajednice, dobiju kao srpski dom. Pristanak je morao doći iz dva pravca: od same monaške zajednice na Atosu i od vizantijskog cara, koji je nad Svetom Gorom imao vrhovnu zaštitu. Te 1198. godine car Aleksije III Anđel izdao je hrisovulju — zlatnopečatnu povelju — kojom Hilandar prepušta Simeonu i Savi „kao baštinu srpskom narodu”, sa pravom da u njemu žive srpski monasi i da se njime sami upravljaju. Original te hrisovulje sačuvan je do danas u manastirskoj riznici i jedan je od najstarijih srpskih državno-crkvenih dokumenata uopšte."
+    },
+    {
+      "type": "paragraph",
+      "text": "Obnova nije bila samo simbolična. Otac i sin podigli su nove zidine, obnovili crkvu, podigli ćelije za monahe, doneli knjige i bogoslužbene predmete. Iz Srbije su stizali darovi, posedi i prihodi koje je Simeon obezbedio još kao vladar i koje je sada njegov sin Stefan, kao naslednik na prestolu, redovno potvrđivao i uvećavao. Hilandar je vrlo brzo prerastao u nešto što na Svetoj Gori dotad nije postojalo — srpski manastir sa srpskim jezikom bogosluženja, srpskim rukopisima i sopstvenom upravom, ali smešten u srcu vizantijskog pravoslavlja i pod njegovom zaštitom. Ta dvostruka pripadnost — sopstvena i zajednička — ostaće njegova najveća snaga."
+    },
+    {
+      "type": "paragraph",
+      "text": "Simeon nije dugo živeo da vidi koliko će daleko otići ono što je započeo. Umro je u Hilandaru 13. februara 1199. godine, u ćeliji do crkve koju je sa Savom obnovio. Po žitiju koje je kasnije sastavio njegov sin, kraj je bio miran, među monasima i u molitvi. Sahranjen je tu, u Hilandaru. Tek nekoliko godina kasnije, 1207, kada su prilike u Srbiji to zahtevale, Sava će preneti očeve mošti u Studenicu — ali to je već druga priča, za koju će biti vremena u sledećim danima."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ono što je sa Simeonom i Savom ostalo u Hilandaru daleko je nadživelo njihove živote. Manastir je vekovima bio glavni prepisivački i prevodilački centar srpske kulture; tu su nastajali ili se umnožavali rukopisi koji su potom putovali u srpske zemlje, tu su se školovali monasi koji bi se vraćali kao igumani, episkopi, pisci. U vreme kada srpska država nije postojala — pod osmanskom vlašću, pa i posle — Hilandar je nastavio da bude tačka u kojoj se srpska crkvena pismenost nije prekidala. Iz tog razloga se često, i bez preterivanja, kaže da je Hilandar duhovno srce srpskog pravoslavlja."
+    },
+    {
+      "type": "paragraph",
+      "text": "Simeon je ubrzo nakon smrti počašćen kao svetitelj — sveti Simeon Mirotočivi, po mirisnom ulju koje je, prema predanju, počelo da curi iz njegovog groba. Zajedno sa sinom, svetim Savom, on čini par osnivača srpske crkvene tradicije: vladar koji je svoj život završio kao monah, i monah koji će svoju zemlju dobiti kao crkvu. Ono što ostaje da se zapamti iz ovih nekoliko godina nije samo lična pobožnost jednog starca. To je politički i duhovni potez prvog reda: srpska kuća na vizantijskoj svetoj zemlji, izvan granica srpske države, koja će tu zemlju vekovima držati povezanu sa širim pravoslavnim svetom, čak i onda kada same te granice više ne budu postojale."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

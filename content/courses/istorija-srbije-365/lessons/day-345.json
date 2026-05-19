@@ -6,13 +6,57 @@
   "dayNumber": 345,
   "order": 5,
   "title": "Društvo u devedesetim",
+  "subtitle": "Kako se srpsko društvo menjalo u deceniji rata, sankcija, izbeglištva i duboke unutrašnje podele",
   "readingTimeMinutes": 7,
   "year": 1995,
-  "isPlaceholder": true,
+  "dateLabel": "1990–2000.",
+  "timelinePosition": "1990–2000.",
+  "summary": "Devedesete godine u Srbiji nisu bile samo decenija ratova i hiperinflacije; one su iz temelja izmenile sastav stanovništva, kulturu, gradove i način na koji su ljudi živeli, radili i mislili o samima sebi.",
+  "keyPeople": ["Slobodan Milošević", "Zoran Đinđić", "Vuk Drašković", "Vesna Pešić", "Emir Kusturica", "Srđan Dragojević", "Svetlana Ražnatović Ceca", "Vladimir Arsenijević"],
+  "keyPlaces": ["Beograd", "Novi Sad", "Niš", "Kragujevac", "Srbija"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Devedesete u Srbiji često se pamte kao decenija politike — Miloševića, ratova, sankcija, izbora i protesta. Ali ispod te političke kore tekao je drugi, sporiji i dublji proces: društvo se menjalo iznutra. Ljudi su odlazili i dolazili, gradovi su se prepunjavali tuđim sudbinama, posao se selio na ulicu i u dvorište, a kultura se rascepila na dve struje koje su jedna drugu jedva razumevale. Ako se devedesete posmatraju samo kroz vesti iz Hercegovine ili sa skupština, izgubi se ono što je možda najvažnije — kako se običan život pomerio sa svog ležišta i više se na njega nikada nije vratio."
+    },
+    {
+      "type": "paragraph",
+      "text": "Najpre, demografski udar. Iz Srbije je tokom devedesetih, prema procenama koje se kreću između dvesta i pet stotina hiljada ljudi, otišao deo onog stanovništva koji je državi bio najpotrebniji — mladi, obrazovani, mahom iz gradova. Inženjeri, lekari, profesori, naučnici, studenti pred kraj studija — odlazili su u Kanadu, Australiju, Nemačku, Holandiju, Sjedinjene Države. Tačan broj iseljenih ostaje sporan, jer mnogi nikada nisu zvanično odjavili boravište, ali razmera „odliva mozgova” bila je tolika da je u nekim strukama, posebno u medicini i tehničkim naukama, ostavila prazninu koja se ni dve decenije kasnije neće u potpunosti popuniti."
+    },
+    {
+      "type": "paragraph",
+      "text": "U isto vreme, u suprotnom smeru, kretala se još veća masa. Iz Hrvatske je posle „Bljeska” i „Oluje” 1995. u Srbiju stiglo oko dvesta pedeset hiljada izbeglica, a iz Bosne i Hercegovine tokom celog rata još oko pola miliona. Po popisima i procenama UNHCR-a, Srbija je sredinom devedesetih bila evropska zemlja sa najvećim brojem izbeglica. Stizali su u kolonama traktora, u prepunim vozovima, u rodbinske stanove i u improvizovane prihvatne centre po školama i fabričkim halama. Veliki deo njih nikada se nije vratio. Naselili su prigradske četvrti Beograda, Novog Sada i Niša, ili su nastavili put dalje. Srbija devedesetih nije se ispraznila — ona se promenila."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pod udarom sankcija i hiperinflacije, formalna privreda gotovo je nestala iz života većine porodica. Pravi posao bio je onaj koji se obavljao mimo države: na pijacama, u prtljažnicima automobila, na granicama, u sivim radnjama bez table. Procenjuje se da je sredinom decenije neformalna ekonomija obuhvatala oko polovine ukupne privredne aktivnosti, ali se ovi brojevi razlikuju od izvora do izvora. Za milione ljudi to je značilo nešto vrlo konkretno — da plata na papiru više nije osnovni izvor preživljavanja, a da pravi novac stiže iz porodice u inostranstvu, sa pijace ili iz polulegalnih poslova. Iz tog miljea izrasla je i nova vrsta društvenog uspeha — „novi” ljudi, brzo obogaćeni u ratu i šverc-trgovini, koji su činili publiku i pokrovitelje jednog dela kulture decenije."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Dve kulture, jedan grad"
+    },
+    {
+      "type": "paragraph",
+      "text": "Kulturno je Srbija devedesetih bila razdvojena zemlja. Sa jedne strane, „alternativna” scena: Radio B92, koji od 1989. pravi nezavisni urbani program i preživljava nekoliko pokušaja gašenja; nedeljnici NIN, Vreme, Republika; izdavači i nevladine organizacije, mahom uz podršku Fonda za otvoreno društvo; pozorišne predstave, koncerti i tribine koji su pokušavali da održe vezu sa Evropom od koje su zvanične vlasti odvajale zemlju. Iz tog kruga, krajem decenije, izrastao je i studentski pokret Otpor, osnovan 1998, koji će odigrati važnu ulogu u događajima 2000. godine."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sa druge strane bio je komercijalni glavni tok — „turbo-folk”, spoj narodne pesme sa elektronskom plesnom muzikom, raskošne estetike i ostentativnog bogatstva, koji je sa novih privatnih televizija ušao u svaki kafić i svadbu. Pevačice poput Svetlane Ražnatović Cece i čitavog niza zvezda Pinkove produkcije postale su lice te kulture. Mnogi sociolozi i novinari su je tada doživljavali kao zvučnu kulisu nove ratne elite i kao deo šireg procesa koji je rušio gradske, „pristojne” merilo ponašanja. Ipak, sa vremenske distance jasno je da je turbo-folk bio i fenomen kome su se obraćali mnogi obični ljudi, izmoždeni siromaštvom — kultura ne objašnjava devedesete sama, ali bez nje slika ostaje krnja."
+    },
+    {
+      "type": "paragraph",
+      "text": "Film i književnost ulazili su u sukob sa stvarnošću na svoj način. Emir Kusturica je 1995. dobio Zlatnu palmu u Kanu za „Underground”, što je istovremeno donelo veliko priznanje i otvorilo žučnu raspravu o tome kako se rat predstavlja; tri godine kasnije snimio je „Crnu mačku, belog mačora”. Srđan Dragojević je sa „Lepa sela lepo gore” 1996. i „Rane” 1998. dao dva najuticajnija domaća filma o ratu i Beogradu devedesetih. U književnosti su radili Goran Petrović, David Albahari, Svetislav Basara, Mirko Kovač; Vladimir Arsenijević je 1994. objavio „U potpalublju”, roman o generaciji koja je ratu izmicala koliko je mogla. Tema rata, izbeglištva i raspada ušla je u glavni tok kulture, ponekad očigledno, ponekad samo kao senka."
+    },
+    {
+      "type": "paragraph",
+      "text": "Politički je decenija najjasnije progovorila kroz ulicu. Tokom zime 1996/1997, posle pokušaja vlasti da poništi pobedu opozicije na lokalnim izborima, više od osamdeset dana trajali su masovni protesti studenata i građana u Beogradu, Nišu, Kragujevcu i drugim gradovima. „Šetnje”, zvonjava ključeva i lonaca, kolone studenata uz koalicioni saziv „Zajedno” — Đinđić, Drašković, Pešić — primorali su režim da na kraju prizna izborne rezultate. Bilo je to prvo veliko građansko iskustvo zajedničkog uspeha posle više godina poraza, i ostalo je deo političke memorije generacije koja će 2000. godine dovršiti posao."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sve to dešavalo se u zemlji koja je sportom igrala pred praznim tribinama zbog sankcija, u gradovima u kojima su rejv-žurke u zapuštenim halama postojale uporedo sa folk-spotovima na televiziji, i u stanovima u kojima su domaćin i izbeglica iz Knina ili Sarajeva delili istu sobu godinama. Javno mnjenje bilo je rascepljeno: jedan deo društva verovao je u zvaničnu sliku stvari, drugi je u njoj video laž; obe zajednice prošle su kroz devedesete drugačije i pamte ih kao različite decenije. Nisu svi Srbi bili nacionalisti, niti je sva opozicija bila prozapadna; društvo je bilo duboko ispucano, i to pucanje, više nego bilo koji pojedinačni događaj, ostalo je glavno nasleđe devedesetih."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

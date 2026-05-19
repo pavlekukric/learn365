@@ -6,13 +6,53 @@
   "dayNumber": 136,
   "order": 10,
   "title": "Smrt Đurđa Brankovića",
+  "subtitle": "Kraj skoro tri decenije vladavine starog despota i otvaranje pitanja ko će čuvati ono što je on jedva sačuvao",
   "readingTimeMinutes": 6,
   "year": 1456,
-  "isPlaceholder": true,
+  "dateLabel": "1456.",
+  "timelinePosition": "decembar 1456.",
+  "summary": "Despot Đurađ Branković umire 24. decembra 1456. u Smederevu, posle skoro tri decenije vladavine; sa njim odlazi i poslednji vladar koji je još mogao da drži srpsku državu uspravno između Ugarske i Osmanlija.",
+  "keyPeople": ["Đurađ Branković", "Lazar Branković", "Grgur Branković", "Stefan Branković", "Jerina", "Mara Branković", "Janoš Hunjadi", "Mehmed II"],
+  "keyPlaces": ["Smederevo", "Krušedol", "Mileševa", "Beograd"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Kada je 24. decembra 1456. godine u Smederevu izdahnuo despot Đurađ Branković, nije umro samo jedan vladar — umro je čovek koji je gotovo tri decenije, od 1427. naovamo, lično držao srpsku državu u životu. Bio je star, po svemu sudeći oko osamdeset godina, rođen još negde sredinom sedamdesetih godina četrnaestog veka. Iza sebe je imao ratove, izgnanstvo, povratak, oslepljenje dva sina, gubitak i ponovno dobijanje prestonice. Kraj je došao tiho, posle jedne sitne, gotovo slučajne rane — ali u trenutku kada Srbiji više niko ravan njemu nije ostao."
+    },
+    {
+      "type": "paragraph",
+      "text": "Vladao je dugo i strpljivo. Nasledivši 1427. godine ujaka Stefana Lazarevića, Đurađ je preuzeo despotovinu koja se već povlačila ka severu — sa Beogradom ustupljenim Ugrima, sa Smederevom kao novim, brzo sazidanim središtem, sa Osmanlijama koji su sa juga svake decenije stezali obruč. Kroz tih trideset godina sve što se moglo izgubiti — bar jednom je gubio. Pa ipak, kada bi se činilo da je gotovo, on se vraćao: pregovorima, brakovima, vazalstvom prema dva gospodara odjednom, ćerkom Marom udatom za sultana Murata II, vezama sa ugarskim dvorom, novcem iz rudnika Novog Brda. Bio je vladar kome je trajanje bilo važnije od slave."
+    },
+    {
+      "type": "paragraph",
+      "text": "U poslednjoj godini života zatekao se u nezgodnom položaju. U avgustu 1456. pod Beogradom je odbijena velika opsada Mehmeda II, ali je nedugo zatim, od kuge u logoru, umro Janoš Hunjadi — čovek koji je decenijama bio glavni hrišćanski branilac Podunavlja. Sa njegovom smrću u Ugarskoj je izbila otvorena borba za prevlast između porodice Hunjadi i njihovih protivnika, među kojima je bio i Ulrih Celjski, Đurđev zet. Despot, već oronuo, uplitao se u to nemirno raspleto stanje koliko je morao. Krajem te jeseni, u jednom manjem sukobu vezanom za ugarske dvorske razmirice posle Hunjadijeve smrti, Đurađ je bio lakše ranjen. Sama rana nije bila opasna; ali na čoveku od osamdeset godina nije htela da zaraste."
+    },
+    {
+      "type": "paragraph",
+      "text": "Vratio se u Smederevo i tu mu se stanje pogoršavalo iz nedelje u nedelju. Na Badnje veče po starom kalendaru, 24. decembra 1456, despot je umro u svom gradu. Uz njega su, prema sačuvanim vestima, bili supruga Jerina i sinovi: Lazar, jedini koji je gledao oba oka, i dvojica oslepljenih — Stefan i Grgur. Sahranjen je u despotskoj grobnici; po jednom predanju u manastiru Krušedolu na Fruškoj gori, koji je kasnije postao zadužbina njegovih potomaka, po drugom u Mileševi. Tačno mesto njegovog prvobitnog groba ostaje predmet sporova i nije pouzdano utvrđeno; jasno je samo da je sahrana obavljena dostojanstveno i u skladu sa njegovim despotskim činom."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Nasleđe bez naslednika"
+    },
+    {
+      "type": "paragraph",
+      "text": "Đurađ je iza sebe ostavio državu i porodicu koje su gotovo odmah ušle u krizu. Po njegovom oporučnom raspoređivanju, despotsku titulu i glavnu vlast trebalo je da preuzme najmlađi sin Lazar — jedini koji je zdravim očima mogao da gleda u poslove vlasti; oslepljenoj braći namenjeni su delovi prihoda i posedi, ali ne i prvenstvo. Despotica Jerina, dugogodišnja, često ozloglašena saputnica njegove politike, pokušala je da iz pozadine sačuva svoj uticaj. Oko prestola su se gotovo istog časa nazreli različiti pravci: jedan je gledao ka Ugarskoj i tražio savez sa Beogradom, drugi je preko despotove kćeri Mare, koja je u Adrijanopolju imala položaj sultanove udovice, tražio nagodbu sa Mehmedom II. Zemlja koja je trideset godina hodala po žici između dva gospodara, sada nije imala jednu ruku koja bi je vodila."
+    },
+    {
+      "type": "paragraph",
+      "text": "Spoljni svet, ironično, ostao je još prazniji nego unutrašnji. U dvadeset četiri meseca između leta 1456. i jeseni 1458. iščezla je čitava jedna generacija hrišćanskih vođa koje su Osmanlijama stajale na putu: u avgustu 1456. Hunjadi, u decembru iste godine Đurađ, a 1458. i papa Kaliksto III, organizator poslednjih krstaških napora oko Beograda. Mehmedu II, mladom i ambicioznom, posle pada Carigrada 1453. nije ostao niko sličnog ranga sa kim bi morao da računa kao sa ravnim. U tom rasporedu sila, mala despotovina sa razdeljenim dvorom i bez Đurđevog autoriteta već je bila označena."
+    },
+    {
+      "type": "paragraph",
+      "text": "Lazar Branković vladao je svega oko godinu i po dana, do svoje nagle smrti 1458; potom su se braća i rodbina otvoreno sukobili oko vlasti. Sve što je Đurađ trideset godina sastavljao, razgradilo se za nepune tri. Početkom leta 1459. Smederevo je palo pod osmansku vlast, i sa njim je nestala srednjovekovna srpska država. Despotov grob, ma gde tačno bio, ostao je poslednji znak doba u kome je još neko mogao da kaže: srpski vladar."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sud o Đurđu nikada nije bio jednoznačan. Stariji nacionalni pisci često su mu zamerali oprez, popustljivost prema Osmanlijama, brak ćerke sa sultanom, dvostruke poklone i Budimu i Adrijanopolju. Pažljiviji potonji istoričari u istim potezima vide pragmatičnog vladara koji je, sa malim resursima i bez pravih saveznika, uspevao da odlaže neminovno. Crkva ga je s vremenom pribrojala svetiteljima — kao svetog despota Đurđa praznuje ga 19. decembra po novom kalendaru, što odgovara 6. decembru po starom. Bez obzira na konačnu meru, ostaje činjenica koja se teško osporava: dokle god je on bio živ, srpska država je postojala. Onog časa kada ga nije bilo, počelo je njeno gašenje."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

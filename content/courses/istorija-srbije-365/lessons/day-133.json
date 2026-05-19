@@ -6,13 +6,53 @@
   "dayNumber": 133,
   "order": 7,
   "title": "Janoš Hunjadi i borba protiv Turaka",
+  "subtitle": "Veliki ugarski vojskovođa koji je sredinom 15. veka bio i saveznik i komplikacija srpskoj despotovini",
   "readingTimeMinutes": 7,
   "year": 1448,
-  "isPlaceholder": true,
+  "dateLabel": "1440-e–1456.",
+  "timelinePosition": "1440-e–1456.",
+  "summary": "Janoš Hunjadi, najuspešniji hrišćanski vojskovođa svoga doba, ratovao je protiv Osmanlija od Transilvanije do Beograda; za Srbiju je bio i saveznik i sporna ličnost — partner čije su pobede i porazi obeležili poslednje decenije despotovine.",
+  "keyPeople": ["Janoš Hunjadi", "Đurađ Branković", "Murad II", "Mehmed II", "Matija Korvin"],
+  "keyPlaces": ["Beograd", "Varna", "Kosovo polje", "Transilvanija"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Kada se sredinom 15. veka u srednjoj Evropi tražilo ime hrišćanskog vojskovođe koji je najčešće tukao Osmanlije, odgovor je gotovo uvek bio isti: Janoš Hunjadi. Rođen oko 1407. godine u porodici vlaškog (rumunskog) porekla u službi ugarske krune, on je u jednoj generaciji prešao put od dvorskog viteza do najmoćnijeg čoveka Ugarske. Za srpsku istoriju njegovo ime ima poseban, dvostruki ton — ime saveznika koji je više puta otvarao bedeme prema severu, i ime suseda sa kojim su despoti morali da računaju kao sa silom za sebe."
+    },
+    {
+      "type": "paragraph",
+      "text": "Hunjadijev uspon išao je kroz vojnu službu. Posle godina provedenih u italijanskim i ugarskim ratovima, dobio je upravu nad Transilvanijom kao vojvoda, a kasnije, posle pogibije kralja Vladislava kod Varne 1444. godine, i položaj regenta Ugarske u ime maloletnog Ladislava Postuma. Imao je vlastite posede, vlastitu pratnju i, što je bilo presudno, sposobnost da iz raznorodnih ugarskih, transilvanijskih, vlaških i najamničkih jedinica sastavi vojsku koja se mogla meriti sa osmanskim trupama. Do početka 1440-ih, on je već bio jedini hrišćanski zapovednik na Balkanu od koga su se sultanovi paše ozbiljno čuvali."
+    },
+    {
+      "type": "paragraph",
+      "text": "Prve velike pobede stigle su 1442. godine. Najpre je u Transilvaniji odbio jedan osmanski upad, a zatim u istoj godini razbio i veću tursku vojsku koja je krenula u osvetu. Vest se brzo proširila Evropom i pripremila teren za pohod koji će u srpskoj istoriji ostati upamćen kao Duga vojna. Krajem 1443. godine Hunjadi je, zajedno sa kraljem Vladislavom i uz savezništvo despota Đurđa Brankovića, poveo vojsku dolinom Morave duboko na jug, tukao osmanske odrede po redu i prodro skoro do Sofije. Pohod je bio iscrpljujući i nije doneo trajno teritorijalno osvajanje, ali je sultana Murada II naterao za pregovarački sto. Mir sklopljen u Segedinu 1444. godine vratio je despotu Đurđu deo njegove zemlje i, na kratko, obnovio srpsku despotovinu."
+    },
+    {
+      "type": "paragraph",
+      "text": "Iste te godine pohod je nastavljen u još smelijem obliku — i završio se katastrofom kod Varne na Crnom moru. Mladi kralj Vladislav je poginuo, krstaška vojska se rasula, a Hunjadi se jedva izvukao živ. Četiri godine kasnije pokušao je da uzvrati udarac. Na Kosovu polju, gotovo na istom mestu na kome je knez Lazar pao 1389. godine, sukobio se sa Muradom II u trodnevnoj bici koja se često naziva drugom kosovskom bitkom. I ovde je bio teško poražen. Osmanska konjica i janičarska vatra pokazali su se jačima od združene ugarsko-vlaške vojske, a Hunjadi se po drugi put povukao sa ratišta na kome je izgubio cvet svoje vojske."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Saveznik i sporenje"
+    },
+    {
+      "type": "paragraph",
+      "text": "Odnos sa despotom Đurđem Brankovićem bio je u tim godinama složen, ponekad bolan. Hunjadi je bio katolik koji je rat protiv Osmanlija doživljavao kao versku borbu hrišćanstva; Đurađ je bio pravoslavni vladar koji je istu borbu gledao kao pitanje opstanka svoje zemlje. Hunjadi je mogao da bira između mira i rata jer je iza sebe imao ugarsku teritoriju i ugarske resurse. Despot Đurađ takvog luksuza nije imao: njegova zemlja ležala je upravo uz osmansko jezgro, i svaki rat koji ne bi bio dobijen značio bi konačan kraj. Otuda Đurđeva pažljiva, često neutralna politika; otuda i Hunjadijevo povremeno osećanje da ga despot izneverava."
+    },
+    {
+      "type": "paragraph",
+      "text": "Najteža tačka tog spora dogodila se posle bitke kod Kosova 1448. godine. Vraćajući se kroz srpske oblasti, Hunjadi je u Smederevu, ili u njegovoj blizini, zarobljen i kratko držan u zatočeništvu po nalogu despota Đurđa. Razlozi su bili više — Hunjadijevi sopstveni posedi u Ugarskoj zauzimali su zemlje koje je despot smatrao svojima, a sumnja je padala i na lojalnost u izgubljenom pohodu. Posle pregovora i otkupa, Hunjadi je pušten i između dvojice vladara je formalno došlo do izmirenja. Tenzije, međutim, nisu nestale; ostale su deo te dve istine — jedne koja je sa severa videla mogućnost krstaške ofanzive, i druge koja je sa juga merila svaki potez prema sutrašnjem opstanku."
+    },
+    {
+      "type": "paragraph",
+      "text": "Hunjadijev najveći trenutak došao je 1456. godine, ispod beogradskih bedema. Sultan Mehmed II, već osvajač Carigrada, lično je doveo vojsku da zauzme grad koji je čuvao ulaz u ugarsku ravnicu. Hunjadi je sa malom posadom, sastavljenom od najamnika i mase krstaša koje je oko sebe okupio franjevac Jovan Kapistran, uspeo da odbije osmanski juriš i nanese sultanu prvi veliki neuspeh posle 1453. godine. Pojedinosti te odbrane biće tema posebne lekcije. Sam Hunjadi nije dugo nadživeo svoju pobedu: nekoliko nedelja kasnije umro je od kuge koja je harala logorom. Vest o beogradskoj pobedi obišla je Evropu, a papa Kaliksto III odredio je da se svakog dana u podne zvona zvone u znak sećanja na taj dan — običaj koji u katoličkim krajevima traje i danas."
+    },
+    {
+      "type": "paragraph",
+      "text": "Posle Hunjadijeve smrti njegov sin Matija Korvin postao je kralj Ugarske i nastavio borbu protiv Osmanlija, ali u uslovima drugačijim od očevih: srpska despotovina je već bila pala 1459. godine, i sa njom ugarska prva linija odbrane na jugu. Janoš Hunjadi ostao je tako složena ličnost čije pamćenje dele Mađari, Rumuni i, na svoj način, Srbi. U Ugarskoj je nacionalni heroj, u Rumuniji ponos lokalnog porekla, u srpskoj povesti partner koji je dolazio i tukao Osmanlije, ali i komšija sa kojim despoti nisu uvek mogli da se slože. Pošteno je reći da je Hunjadi za Srbiju bio i saveznik i komplikacija — čovek čije su pobede produžavale, a porazi skraćivali, vek poslednje srpske srednjovekovne države."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

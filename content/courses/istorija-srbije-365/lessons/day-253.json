@@ -6,13 +6,49 @@
   "dayNumber": 253,
   "order": 7,
   "title": "Politički život i stranke",
+  "subtitle": "Tri stranke, dva ustava i dvor koji se ne miri sa parlamentom — srpska politika krajem 19. veka",
   "readingTimeMinutes": 7,
   "year": 1890,
-  "isPlaceholder": true,
+  "dateLabel": "1880-e–1900-e.",
+  "timelinePosition": "1880-e–1900-e.",
+  "summary": "Srbija krajem 19. veka dobija moderni parlamentarni okvir i tri stranke — radikale, liberale i napredne — ali pravi život politike odvija se u stalnom sukobu Skupštine i dvora.",
+  "keyPeople": ["Nikola Pašić", "Jovan Ristić", "Milan Piroćanac", "kralj Milan Obrenović", "kralj Aleksandar Obrenović"],
+  "keyPlaces": ["Beograd", "Niš", "Kragujevac", "Zaječar"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Kada je Srbija 1878. godine na Berlinskom kongresu dobila punu nezavisnost, a 1882. proglašena za kraljevinu, izgledalo je da je politički okvir konačno na svom mestu: Ustav iz 1869, prošireni i dopunjeni 1888, Narodna skupština, podeljene vlasti, pisani izborni zakon. U stvarnosti je tek tada počeo težak i često neuredan posao — da se taj okvir napuni sadržajem, da se stvore stranke, novine, politička kultura i navika da se vlast i opozicija smenjuju bez puške. Sledeće dve decenije, od početka 1880-ih do prevrata 1903, biće upravo to: vreme u kojem srpski parlamentarizam postoji na papiru, ali se istovremeno bori za vazduh sa dvorom, sa sopstvenom nezrelošću i sa stranačkim strastima koje često idu preko ivice."
+    },
+    {
+      "type": "paragraph",
+      "text": "Politički život kristališe se oko tri stranke koje će dugo ostati glavni igrači. Narodna radikalna stranka, osnovana 1881. pod neformalnim vođstvom Nikole Pašića, oslanja se na seljaštvo — onu većinu koja čini i biračko telo i vojsku. Njen program traži opštinsku samoupravu, jeftinu i blisku državu, slobodu štampe i okupljanja, a u spoljnoj politici naglašava bliskost s Rusijom. Liberalna stranka, koju vodi Jovan Ristić, naslednik je „mladokonzervativaca” iz šezdesetih godina; njeno uporište je viša birokratska klasa, gradski činovnici i obrazovani sloj, a politički ton joj je ustavotvoran i, u spoljnim odnosima, više okrenut Britaniji nego drugima. Napredna stranka, koju 1880. okupljaju Milan Piroćanac, Milutin Garašanin i Čedomilj Mijatović, najmanja je od tri, ali intelektualno gusta — okrenuta zapadnim institucionalnim modelima, sklona Austro-Ugarskoj iz pragmatičnih razloga i bliska kralju Milanu."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Skupština, dvor i izborna kutija"
+    },
+    {
+      "type": "paragraph",
+      "text": "Svaka stranka ima svoj glasnogovornik. „Samouprava” je radikalska, „Srpska nezavisnost” liberalna, „Videlo” napredna. Listovi se međusobno svađaju oštrije nego što je do tada bio običaj u javnoj reči — sa optužbama za izdaju, korupciju, kukavičluk, prodaju strancima. Polemike povremeno klize u grubost i, u uličnim događajima, u nasilje. Taj prvi politički gorak ton biće obeležje epohe. Skupština se često raspušta, izbori se ponavljaju, pa kralj smenjuje vladu i pre nego što novi parlament završi prvo zasedanje. Izborni zakon menja se nekoliko puta, granice okruga prekrajaju se — onim što bi se danas nazvalo „dženderingom” — kako bi se jednoj ili drugoj strani obezbedila većina."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sukob dvora i radikala glavni je ton 1880-ih i 1890-ih. Kralj Milan, koji od 1882. nosi krunu, nepoverljiv je prema seljačkoj masi koju radikali okupljaju i prema njihovoj otvorenoj naklonosti Rusiji. Posle radikalske pobune u Timočkoj krajini 1883, takozvane Timočke bune, sledi oštro suđenje, izrečene su smrtne kazne i dugi zatvori, a Pašić beži u inostranstvo. Kralj se naslanja na napredne, a kasnije, kao kompromis, prihvata radikalski Ustav iz 1888. — najliberalniji srpski ustav 19. veka, sa proširenim pravom glasa i jasnijom parlamentarnom odgovornošću vlade. Već 1894, posle Milanove abdikacije i u vladi sina Aleksandra, taj ustav se ukida i vraća se stari iz 1869. Godine 1901. mladi kralj donosi sopstveni, takozvani „Aprilski ustav”, uvodeći i dom narodnih poslanika i Senat — pokušaj da se sile uravnoteže pod krunom."
+    },
+    {
+      "type": "paragraph",
+      "text": "Treba odmah reći ono što se često zaboravlja: biračko pravo u celom ovom periodu nije bilo opšte. Glas je imao odrasli muškarac koji je plaćao određeni iznos neposrednog poreza; žene nisu imale pravo glasa, a deo siromašnog seljaštva i radnika ostajao je ispod cenzusa. Iako su radikali, kao masovna stranka, neprestano gurali ka širenju prava glasa, izborno telo je tokom 1880-ih i 1890-ih ipak bilo znatno uže od onoga što bismo danas razumeli pod „narodnom voljom”. Brojanje glasova bilo je često sporno; izbore su pratili neredi, naročito 1893. i 1899, a vojska i žandarmerija povremeno su intervenisale u biračkim mestima. Država u nekoliko navrata klizi ka autoritarnim merama — cenzuri štampe, vanrednim sudovima, hapšenju opozicije — pa se posle pritiska vraća u ustavne okvire."
+    },
+    {
+      "type": "paragraph",
+      "text": "Tenzija dostiže vrhunac 1899. godine, kada je na bivšeg kralja Milana, tada zapovednika vojske, izvršen takozvani Ivanjdanski atentat. Krivica je, bez čvrstih dokaza, prebačena na radikale; usledili su masovna hapšenja, vanredno suđenje i prisilan udar na čitavu stranku. Pašić je osuđen, pa pomilovan; deo radikalskog vrha provešće mesece u zatvoru. Slika je jasna: dvor, kada se oseti ugroženim, ne preza od korišćenja sudstva i vojske protiv političkih protivnika, a stranke, sa druge strane, povremeno upliću tajne dogovore i veze sa stranim dvorovima. Borba se ne vodi samo između stranaka; vodi se i, jednako oštro, između stranaka i krune."
+    },
+    {
+      "type": "paragraph",
+      "text": "Iz današnje perspektive, srpski parlamentarizam ovog perioda najtačnije se opisuje kao stvaran, ali nedozreo. Institucije postoje, ali ih svi učesnici — i kralj i stranke — koriste taktički, koliko im trenutno odgovara. Stranke su organizovane oko ličnosti više nego oko trajnih programa; vlade su kratke, ministarske krize česte; sudstvo nije nezavisno onoliko koliko ustavi obećavaju. Ipak, u tim teškim godinama izgrađene su navike koje će se tek posle Majskog prevrata 1903. razviti u ono što se često naziva „zlatnim dobom” srpskog parlamentarizma. Bez sukoba, gerimanderinga, smenjivanja ustava i Ivanjdanskih suđenja iz ovog perioda ne bi bilo ni one zrelije, slobodnije politike koja dolazi posle. Pošteno gledano, dvadeset godina između Berlinskog kongresa i prevrata nisu bile demokratska idila, ali jesu bile škola — često surova — iz koje je srpska država izašla sa stranačkim sistemom, politički pismenom javnošću i jasnom svešću da se vlast u modernoj zemlji ne osvaja samo na bojištu, već i u skupštinskoj sali."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

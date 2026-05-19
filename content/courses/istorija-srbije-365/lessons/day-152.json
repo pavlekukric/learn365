@@ -6,13 +6,61 @@
   "dayNumber": 152,
   "order": 2,
   "title": "Timarski sistem",
+  "subtitle": "Kako je osmanska država kroz timare, zijamete i hasove vekovima organizovala selo, vojsku i život balkanskog seljaka",
   "readingTimeMinutes": 7,
   "year": 1550,
-  "isPlaceholder": true,
+  "dateLabel": "15–17. vek",
+  "timelinePosition": "15–17. vek",
+  "summary": "Timarski sistem kao kičma osmanskog poretka na Balkanu — zemlja sultanova, sipahija kao konjanik i upravitelj, raja kao poreski obveznik, defteri kao ogledalo svega.",
+  "keyPeople": [],
+  "keyPlaces": [],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Kada je osmanska vlast u prvoj polovini petnaestog veka učvrstila svoje granice na Balkanu, postavilo se pitanje koje svaka osvajačka država mora rešiti: kako organizovati zemlju, ko će je obrađivati, ko će sa nje živeti i ko će od nje ratovati. Odgovor koji je Carstvo dalo zvao se timarski sistem. U svom punom obliku trajao je oko stotinu pedeset godina, otprilike od sredine petnaestog do kraja šesnaestog veka, i bio je ono na čemu je počivao gotovo sav život srpskog seljaka pod osmanskom vlašću u tom razdoblju."
+    },
+    {
+      "type": "paragraph",
+      "text": "U osnovi sistema stajalo je jedno načelo: sva zemlja u osvojenim oblastima pripada, načelno, sultanu. On nije bio vlasnik u smislu kakav je poznavalo zapadno feudalno pravo, već vrhovni gospodar koji raspolaže pravom korišćenja. To pravo davao je svojim ljudima u tri veličine. Najmanji i najčešći bili su timari — sela ili delovi sela sa skromnim godišnjim prihodom. Veći su bili zijameti, dodeljivani višim oficirima i upravnicima. Najveći, hasovi, bili su rezervisani za sultana lično, za njegove najbliže velikodostojnike, za vezire i sandžak-begove."
+    },
+    {
+      "type": "paragraph",
+      "text": "Čovek koji je dobijao timar zvao se sipahija. Nije bio plemić u nasleđenom smislu, niti gospodar zemlje koju je dobio; bio je državni službenik kome je dat prihod sa određenog područja, a u zamenu je dugovao tačno propisanu vojnu službu. Kada bi sultan podigao vojsku, sipahija je morao da se javi opremljen, na konju, i da povede određeni broj naoružanih pratilaca — što veći timar, to više ljudi. Bio je, dakle, istovremeno konjanik, upravljač sela i sakupljač prihoda."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ono što timarski sistem suštinski razlikuje od zapadnog feudalizma jeste njegova nenasleđenost. Timar nije bio porodični posed. Sipahija ga nije mogao ni prodati, ni pokloniti, ni zaveštati. Smrću sipahije timar se vraćao sultanu, koji ga je potom dodeljivao novom čoveku, najčešće iz redova zaslužnih ratnika. Sipahija je bio sluga države, ne lokalni gospodar — i u tom je bila i snaga sistema, jer je državi obezbeđivao stalnu, obnovljivu i poslušnu konjicu, i njegova slabost, jer je vezivao sudbinu sela uz čoveka koji u njemu nije imao trajan, lični interes."
+    },
+    {
+      "type": "paragraph",
+      "text": "Seljaci na timaru zvali su se raja — reč koja izvorno znači stado, a koja u osmanskoj upravi označava poreske podanike, hrišćane i muslimane podjednako, mada se vremenom u svakodnevnom govoru učvrstila kao naziv za hrišćansko stanovništvo. Raja je sipahiji dugovala tačno utvrđene dažbine: deo letine, najčešće desetinu žita, vina i drugih plodova, glavarinu, određene radne obaveze. Sipahija je, sa svoje strane, bio dužan da pazi na red, da štiti selo i da brine o pravdi. Odnos je bio strog, ali i propisan; seljak je znao šta duguje i kome."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Defteri i sipahije hrišćani"
+    },
+    {
+      "type": "paragraph",
+      "text": "Da bi sve to moglo da funkcioniše, osmanska država je periodično obavljala detaljne popise zemlje i stanovništva. Ti popisi, defteri-mufassal, beležili su svako selo, svako domaćinstvo, svaku obavezu — koliko je u kom mestu duša, koliko se obrađuje zemlje, šta se seje, kolika je očekivana desetina. Sačuvani u istanbulskim arhivima u ogromnim količinama, defteri su danas jedan od najbogatijih izvora za društvenu i ekonomsku istoriju Balkana; bez njih bi čitavi vekovi seoskog života ostali gotovo nemi. Iz njih se vidi koliko je sela tačno postojalo, koja imena su nosila, koliko su davala — i koliko se sve to menjalo iz popisa u popis."
+    },
+    {
+      "type": "paragraph",
+      "text": "Iz tih istih deftera vidi se i jedna manje poznata pojava. U prvim vekovima osmanske vlasti na Balkanu, naročito u petnaestom veku, znatan broj sipahija u srpskim, bosanskim i grčkim oblastima bili su hrišćani. Bili su to često potomci predosmanskog plemstva, koji su u zamenu za zadržavanje vojnih i upravnih položaja prešli u osmansku službu. Kroz šesnaesti vek njihov broj se postepeno smanjivao — neki su prešli u islam, neki su zamenjeni muslimanskim sipahijama — ali sama činjenica njihovog postojanja pokazuje da osmanski sistem na početku nije bio strogo zatvoren prema staroj balkanskoj eliti."
+    },
+    {
+      "type": "paragraph",
+      "text": "Od pedesetih godina petnaestog veka do oko 1600. timarski poredak bio je u celini stabilan i prilično delotvoran. Teret nametnut raji bio je ozbiljan, ali predvidljiv; stanovništvo je raslo, sela su se širila, poljoprivredna proizvodnja je u šesnaestom veku rasla zajedno sa carstvom. Posle 1600. godine počinje, međutim, postepeno raspadanje. Promene u načinu ratovanja smanjile su značaj sipahijske konjice, koja sve manje odlučuje bitke u kojima sve više vrede peške jedinice sa vatrenim oružjem. Na samom tlu pojavljuje se čifluk — sistem u kome lokalni moćnici, često sami sipahije ili oficiri, stiču trajnu, gotovo vlasničku kontrolu nad selima i od raje traže znatno više nego što propisuje stari red."
+    },
+    {
+      "type": "paragraph",
+      "text": "Istovremeno se širi i zakup poreza, iltizam — država prepušta sakupljanje dažbina privatnim zakupcima koji unapred plate i potom uzimaju od seljaka koliko mogu. Razlika između propisanog i stvarno uzetog raste; raja se sve teže snalazi između starih i novih gospodara. Do osamnaestog veka stari timarski poredak na Balkanu uglavnom je još samo formalnost, dok stvarni život sela određuju čifluk-sahibije i sakupljači poreza."
+    },
+    {
+      "type": "paragraph",
+      "text": "Za srpsku priču ta podela vremena je važna. Timarski vek, otprilike od sredine petnaestog do kraja šesnaestog stoleća, bio je razdoblje teško, ali predvidljivo — stanovništvo je istrajalo, manastiri su radili, pravoslavna crkva je preživela. Posttimarski vek, sedamnaesti i osamnaesti, donosi pogoršanje uslova, češće gladi, sve veću samovolju lokalnih moćnika i, na kraju, talase seoba i prve ozbiljne pripreme za ustanak. Tačan obim svega toga rekonstruisan je iz osmanskih arhiva i iz modernih istraživanja; opis sistema uvek je jednostavniji od stvarnosti, jer su lokalne razlike — od Mačve do Niša, od Šumadije do Kosova — bile velike. Ali okvir je jasan: koliko je timarski sistem trajao i radio, srpski seljak je živeo težak, ali izdrživ život; kada se sistem raspao, otvorio se vek u kome će se istorija pisati drugačijim mastilom."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

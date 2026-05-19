@@ -6,13 +6,57 @@
   "dayNumber": 44,
   "order": 8,
   "title": "Prve srpske zemlje i kneževine",
+  "subtitle": "Raška, Bosna, Duklja, Travunija, Zahumlje i Paganija — obrisi srpskog sveta u 8. i 9. veku",
   "readingTimeMinutes": 8,
   "year": 850,
-  "isPlaceholder": true,
+  "dateLabel": "8–9. vek n. e.",
+  "timelinePosition": "~850.",
+  "summary": "Najranije srpske kneževine na zapadnom Balkanu, prvi istorijski potvrđeni knez Vlastimir i borba sa Bugarima — obrisi sveta koji još nije sasvim hrišćanski, ali je već prepoznatljiv.",
+  "keyPeople": ["Vlastimir", "Mutimir", "Strojimir", "Gojnik"],
+  "keyPlaces": ["Raška", "Duklja", "Bosna", "Travunija", "Zahumlje", "Paganija"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Kada se sleže prvi talas slovenske seobe i kada novodošli stanovnici počnu da se vezuju za određene doline, planinske vence i rečne tokove zapadnog Balkana, polako se na karti pomalja nešto što istoričari oprezno nazivaju prvim srpskim zemljama. To još nije država u kasnijem smislu reči, sa jasnim granicama, prestonicom i poreznicima koji obilaze sela. To je niz manjih oblasti, kneževina i županija, povezanih jezikom, srodstvom, sličnim načinom života i, sve češće, zajedničkim neprijateljima. Osmi i deveti vek upravo su vreme u kome se ti obrisi prvi put mogu nazreti — i, što je važno, vreme u kome ih neko po prvi put zapisuje."
+    },
+    {
+      "type": "paragraph",
+      "text": "Glavni izvor za sve što o tom dobu znamo jeste spis vizantijskog cara Konstantina Porfirogenita „O upravljanju carstvom”, sastavljen sredinom 10. veka. Pisan je, dakle, čitav vek posle događaja koje opisuje, sa carskog dvora u Konstantinopolju, na osnovu raznorodnih obaveštenja koja su do dvora dolazila. Otud i poseban oprez kojim se sa njim radi: imena su sačuvana u grčkoj transkripciji, granice oblasti opisane su uopšteno, a neke epizode jasno su sećanja na sećanja. Pa ipak, bez tog spisa rana srpska istorija bila bi gotovo nema — i upravo iz njega dolaze prvi nazivi srpskih zemalja."
+    },
+    {
+      "type": "paragraph",
+      "text": "U središtu te slike nalazi se Raška — srpska zemlja u užem smislu, smeštena oko gornjeg toka istoimene reke, na prostoru današnje jugozapadne Srbije i Sandžaka. Severozapadno od nje pominje se Bosna, organizovana oko gornjeg toka istoimene reke, sa svojim posebnim životom već u to rano doba. Na jugu, prema jadranskoj obali, pružala se Duklja, oblast koja će kasnije, pod imenom Zeta, postati zametak države u današnjoj Crnoj Gori. Iznad nje, u zaleđu današnjeg Trebinja, stajala je Travunija. Dalje na zapad, prema dolini Neretve i jadranskim ušćima, ležalo je Zahumlje — Hum — koje pokriva južnu Hercegovinu i deo dalmatinskog zaleđa. A sasvim uz more, između Neretve i Cetine, prostirala se Paganija ili Neretvljanska oblast, čije je ime samo po sebi obaveštenje: tamošnji Sloveni najduže su ostali izvan dometa hrišćanske misije."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sve te zemlje delile su sličnu unutrašnju građu. Na vrhu je stajao knez ili veliki župan, ispod njega niži župani, svaki nad svojom župom — jasno omeđenom oblašću koja je obično pokrivala jednu dolinu ili planinski venac. Vlast je bila nasledna unutar vodećih rodova, ali ne strogo: po smrti vladara zemlja se često delila među sinovima, a takve podele završavale su se i bratoubilačkim sukobima. Život je u najvećoj meri bio seoski i stočarski, dopunjen ratarstvom u dolinama; gradova u kasnijem smislu gotovo da nije bilo, a stare antičke varoši uglavnom su ležale u ruševinama ili su tek počinjale ponovo da se naseljavaju."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Vlastimir i prvi sukob sa Bugarskom"
+    },
+    {
+      "type": "paragraph",
+      "text": "Iz tog sveta izranja i prvo srpsko ime koje istorija pouzdano beleži — knez Vlastimir, vladar Raške sredinom 9. veka. O njegovim prethodnicima Porfirogenit pominje samo nekoliko imena, bez čvrstog datovanja, pa se oni s razlogom smatraju polulegendarnim. Vlastimir je, naprotiv, prvi srpski vladar oko koga se istoričari saglašavaju da je istorijska ličnost u punom smislu — čovek čije se postupke može vremenski smestiti i povezati sa događajima izvan srpskih zemalja. Vladao je verovatno u drugoj četvrtini i sredinom 9. veka, u doba kada je istočno od srpskih zemalja, preko današnje Makedonije i Bugarske, rasla snažna država — Prvo bugarsko carstvo."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sukob je bio gotovo neizbežan. Oko 850. godine, prema Porfirogenitovom svedočanstvu, bugarski kan Presijam pokrenuo je veliki pohod na srpske zemlje, sa ciljem da ih potčini. Rat je trajao oko tri godine, vodio se po teškom planinskom terenu i završio se neuspehom Bugara — Vlastimir je odbranio svoje zemlje, a sukob je ostao u sećanju kao prvi veliki srpski odbrambeni rat. Mir nije bio trajan; tokom narednih decenija, već pod Vlastimirovim sinovima, dolazilo je do novih ratova, primirja i razmena talaca. Bugarska će ostati glavni rival srpskim zemljama sve do velikih promena na Balkanu krajem 10. veka."
+    },
+    {
+      "type": "paragraph",
+      "text": "Posle Vlastimirove smrti njegove zemlje su, po slovenskom običaju, podeljene među tri sina — Mutimirom, Strojimirom i Gojnikom. Takva podela donela je i ono što obično donosi: rivalitet, savezništva sa stranim silama protiv rođene braće, izgnanstva i povratke. Mutimir je s vremenom uspeo da potisne braću i okupi vlast u svojim rukama, ali sam obrazac — podeljeno nasleđe i krvavi obračun braće — ponavljaće se kroz srpsku istoriju u različitim oblicima vekovima."
+    },
+    {
+      "type": "paragraph",
+      "text": "Verski život tih ranih kneževina još uvek je bio u prelazu. Hrišćanska misija, koja sa vizantijske i delom franačke strane prodire u slovenske krajeve, već je dotakla obalske oblasti i pojedine knezove, ali je dubinska, sistematska hristijanizacija — sa srpskim sveštenstvom, knjigom i bogosluženjem koje narod razume — tek pred vratima. O tome će biti reč već sutra. Za sada vredi reći samo to da su pored krštenih knezova i njihove pratnje, u selima i planinama opstajala stara verovanja, kultovi predaka i prirodnih sila, koji će se u narodnoj pobožnosti preplitati sa novom verom još dugo posle zvaničnog krštenja."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pred kraj ove slike vredi se podsetiti i toga koliko je naše znanje o ovom dobu nesigurno. Veliki deo onoga što je gore rečeno počiva, posredno ili neposredno, na jednom jedinom izvoru pisanom čitav vek kasnije i na nekoliko kratkih pomena u drugim hronikama. Imena pojedinih kneževa ostaju upitna, granice oblasti pomerane su napred i nazad, a sam pojam „Srbi” u 9. veku znatno je uži nego u kasnijim vekovima. Sa svom tom rezervom, jedno se ipak može reći mirno: do sredine 9. veka, na zapadnom Balkanu već postoji prepoznatljiv srpski svet, podeljen na nekoliko zemalja, sa prvim vladarima čija imena pamtimo i sa neprijateljem na istoku koji ga prisiljava da se brani. Iz tog sveta razviće se, najpre crkva, a zatim i dinastija koja će sve te zemlje, mnogo kasnije, sabrati u jednu državu."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

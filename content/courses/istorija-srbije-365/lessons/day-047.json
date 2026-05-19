@@ -6,13 +6,53 @@
   "dayNumber": 47,
   "order": 2,
   "title": "Vladari pre Nemanjića",
+  "subtitle": "Od Vlastimira do Bodina — tri veka srpskih kneževa pre dolaska velike dinastije",
   "readingTimeMinutes": 7,
   "year": 1166,
-  "isPlaceholder": true,
+  "dateLabel": "9–12. vek",
+  "timelinePosition": "9–12. vek",
+  "summary": "Imena, sukobi i kratke vladavine srpskih vladara od Vlastimira u Raškoj do Bodina u Duklji — duga, isprekidana priča koja prethodi usponu Nemanjića.",
+  "keyPeople": ["Vlastimir", "Časlav Klonimirović", "Jovan Vladimir", "Stefan Vojislav", "Mihailo", "Bodin"],
+  "keyPlaces": ["Raška", "Duklja"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Pre nego što na scenu stupi Stefan Nemanja i sa njim dinastija koja će obeležiti naredna dva veka, srpske zemlje već imaju iza sebe tri veka vlasti pod kneževima i kraljevima čija su imena, sudbine i međusobni sukobi često rekonstruisani iz oskudnih izvora. To je vreme bez velikih hronika, sa par stranica vizantijskih pisaca i jednom kasnijom, deo legendom natopljenom hronikom iz Duklje. Lekcija koja sledi ide kroz ta imena pažljivo, čuvajući razliku između onoga što izvori jasno potvrđuju i onoga što su kasniji vekovi domislili."
+    },
+    {
+      "type": "paragraph",
+      "text": "Prvi srpski vladar kome ime sa dovoljno sigurnosti znamo jeste Vlastimir, knez Raške sredinom devetog veka. O njemu glavnu vest donosi vizantijski car-pisac Konstantin Porfirogenit, gotovo sto godina kasnije, ali njegovo svedočanstvo ima težinu jer se oslanja na carsku kancelariju. Vlastimir je vladao u trenutku kada je susedna Bugarska bila u snažnom usponu i pokušavala da svoju vlast proširi i na slovenske oblasti zapadno od svojih granica. Kada je bugarski kan poveo vojsku na Srbe, oko 850. godine, Vlastimir ga je porazio — koliko vojnom veštinom, toliko i poznavanjem terena. Bila je to prva pobeda srpskog vladara koju izvori jasno beleže, i njome ulazi srpsko ime u redovan vizantijski rečnik."
+    },
+    {
+      "type": "paragraph",
+      "text": "Posle Vlastimira njegova tri sina — Mutimir, Strojimir i Gojnik — podelila su očevu zemlju i ubrzo zaratila. Mutimir je pobedio braću, prognao ih u Bugarsku i sam preuzeo vlast. Time je započet obrazac koji će se u srpskim zemljama ponavljati vekovima: smrt vladara, podela među sinovima, sukobi, izgnanstva, povratak uz tuđu pomoć. U narednim decenijama vlast je menjala ruke više puta, a Bugarska je u jednom trenutku Rašku praktično pretvorila u zavisnu zemlju. Iz te magle izranja, u prvoj polovini desetog veka, Časlav Klonimirović."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Od Časlava do Duklje"
+    },
+    {
+      "type": "paragraph",
+      "text": "Časlav je, prema Porfirogenitu, pobegao iz bugarskog zarobljeništva i obnovio srpsku kneževinu, uz vizantijsku naklonost. Pod njim su se ponovo okupile zemlje koje su bile rasute — Raška, ali i delovi Bosne i pomorskih oblasti. Njegova vladavina, koliko god kratka i slabo dokumentovana, predstavlja prvi pokušaj da se srpsko ime veže za širi prostor nego što je jedna župa. Pao je u borbi protiv Mađara, verovatno oko 960. godine; tačan datum izvori ne daju. Posle njegove smrti težište srpske političke istorije seli se na jugozapad, ka Duklji — primorskoj zemlji koja danas otprilike odgovara delovima Crne Gore i severne Albanije."
+    },
+    {
+      "type": "paragraph",
+      "text": "Krajem desetog i početkom jedanaestog veka u Duklji se pominje Jovan Vladimir, knez koji je u srpskoj i pravoslavnoj tradiciji ostao zapamćen pre svega kao mučenik. Bio je vazal moćnog bugarskog cara Samuila, oženio se njegovom kćerkom, ali je posle Samuilove smrti, u dinastičkim obračunima koji su usledili, prevarom doveden u Prespu i tamo ubijen, 1016. godine. Crkva ga je kasnije proglasila svetim, a njegov kult živi i danas, posebno na primorju. Istorijski deo njegove priče oslanja se na svega nekoliko vizantijskih i kasnijih dukljanskih vesti, pa pojedinosti treba uzimati sa merom."
+    },
+    {
+      "type": "paragraph",
+      "text": "Nekoliko decenija kasnije, sredinom jedanaestog veka, Stefan Vojislav podiže ustanak protiv vizantijske vlasti u Duklji i 1042. godine nanosi carskoj vojsci težak poraz u brdima iznad Bara. Tom pobedom utemeljuje dinastiju Vojislavljevića, prvu dinastiju koja se u srpskim zemljama može pratiti kroz više pokoljenja. Njegov sin Mihailo nastavlja njegovo delo, učvršćuje vlast i postiže nešto što njegovi prethodnici nisu — krunu. Oko 1077. godine papa Grgur Sedmi šalje mu kraljevsku titulu, čime Mihailo postaje prvi srpski vladar koji nosi naziv kralja u zvaničnoj evropskoj prepisci. Tačan obim i značenje te krune i danas se raspravljaju, ali njena simbolika nije bila mala."
+    },
+    {
+      "type": "paragraph",
+      "text": "Mihailov sin Bodin, koji vlada do oko 1101. godine, vodi Duklju u njen najveći domet. Pod njim su pod dukljansku vlast, makar privremeno, došli i Raška, Bosna i Zahumlje, a u svoja srodstva on je postavljao rođake kao namesnike po pograničnim oblastima. Vodio je ratove sa Vizantijom u trenucima kada je carstvu pretio i normanski napad na Balkan, pa su mu prilike povremeno išle na ruku. Bodinov dvor u Skadru postao je u tom kratkom razdoblju jedno od značajnijih političkih sedišta na zapadnom Balkanu, sa svojim biskupom i sa pretenzijama koje su prevazilazile granice njegove zemlje."
+    },
+    {
+      "type": "paragraph",
+      "text": "Posle Bodinove smrti, međutim, država se brzo raspada u rodbinske svađe, a težište srpske političke istorije polako se vraća unutar kontinenta, u Rašku. Tu se kroz dvanaesti vek nižu kneževi čija imena znamo, ali čije sudbine jedva razabiramo — Vukan, Uroš Prvi, Uroš Drugi, Desa — uglavnom kao vazali Vizantije, sa kratkim periodima samostalnosti i čestim smenama. Vizantijski izvori iz vremena careva Jovana i Manojla Komnina povremeno ih pominju kao prijatelje ili kao buntovnike, već prema tome kako su se ponašali tog leta. Iz te isprekidane priče, u drugoj polovini dvanaestog veka, izrasta nova porodica iz koje će doći Stefan Nemanja — i sa njim, konačno, dinastija koja će uspeti da iz srpskih zemalja napravi trajnu državu."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

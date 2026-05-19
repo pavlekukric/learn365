@@ -6,13 +6,49 @@
   "dayNumber": 321,
   "order": 6,
   "title": "Partizanski i četnički pokret",
+  "subtitle": "Dva oružana pokreta u Jugoslaviji 1941–1945, njihova evolucija od saveza do građanskog rata i prelom 1943.",
   "readingTimeMinutes": 8,
   "year": 1942,
-  "isPlaceholder": true,
+  "dateLabel": "1941–1944.",
+  "timelinePosition": "1941–1944.",
+  "summary": "Profil dva glavna oružana pokreta otpora u Jugoslaviji u Drugom svetskom ratu — Titovih partizana i Mihailovićevih četnika — i njihov put od prvih dodira 1941. do otvorenog građanskog rata i savezničkog prelaska na partizansku stranu 1943. godine.",
+  "keyPeople": ["Josip Broz Tito", "Draža Mihailović", "Pavle Đurišić", "Momčilo Đujić", "Fitzroy Maclean", "kralj Petar II Karađorđević"],
+  "keyPlaces": ["Ravna gora", "Užice", "Bosna", "Hercegovina", "Crna Gora", "London"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Kada se u leto 1941. godine, posle aprilskog sloma i komadanja Kraljevine Jugoslavije, na njenom razrušenom prostoru pojavila oružana otporna snaga, ona nije bila jedna. Pojavila su se dva pokreta, gotovo istovremeno, sa različitim ljudima, različitim simbolima i različitim pogledima na ono što treba da nastane posle rata. Jedan je iz šuma zapadne Srbije izveo pukovnik Dragoljub Draža Mihailović, oficir Kraljevske vojske koji odbija da prizna kapitulaciju; drugi je iz ilegale, posle nemačkog napada na Sovjetski Savez u junu, podigla Komunistička partija Jugoslavije, na čelu sa generalnim sekretarom Josipom Brozom Titom. U prvim mesecima oni će se sresti, čak i sarađivati. U narednim godinama, vodiće jedan protiv drugog rat unutar rata."
+    },
+    {
+      "type": "paragraph",
+      "text": "Mihailovićev pokret formalno je nosio ime Jugoslovenska vojska u otadžbini, ali je u narodu i u stranoj štampi ostao poznat kao četnički — po staroj reči za male oružane družine. Po sastavu i osećanju bio je rojalistički i u svom jezgru srpski nacionalan; priznavao je vladu u izbeglištvu u Londonu i mladog kralja Petra II Karađorđevića, a od januara 1942. iz Londona je proglašen i ministrom vojske u izbegličkoj vladi i komandantom otpora u zemlji. Mihailovićeva osnovna strategija bila je strpljiva: čuvati snage, izbegavati frontalne sukobe sa okupatorom dok ne dođe odlučujući trenutak — najavljeno savezničko iskrcavanje na Balkan i opšti ustanak. Iza takvog razmišljanja stajalo je svežo sećanje na masovne nemačke odmazde u jesen 1941. — Kragujevac, Kraljevo — kada je za jednog ubijenog Nemca streljano stotinu civila. Cena svakog ustaničkog napada plaćana je u srpskim selima i gradovima, i to je oblikovalo četnički oprez."
+    },
+    {
+      "type": "paragraph",
+      "text": "Partizanski pokret, čije će se snage od 1942. zvati Narodnooslobodilačka vojska Jugoslavije, krenuo je iz suprotne pretpostavke. Trebalo je odmah ratovati, mnogo i svuda, čak i po cenu odmazdi, jer se kroz borbu stvara nova vojska i novi politički poredak. Komunisti su u Jugoslaviji bili malobrojni i pre rata zabranjeni, ali su imali ono što drugi pokreti nisu — disciplinovanu mrežu, jasnu ideologiju i parolu koja je probijala etničke granice. „Bratstvo i jedinstvo” nije bilo samo politička fraza; u zemlji koju su okupatori i kvislinzi razdelili, gde su ustaše u Nezavisnoj Državi Hrvatskoj sprovodile genocid nad Srbima, Jevrejima i Romima, ideja pokreta koji prima sve narode pod istu zastavu otvarala je vrata desetinama hiljada ljudi za koje četnički okvir nije bio dom."
+    },
+    {
+      "type": "paragraph",
+      "text": "U jesen 1941. dva pokreta su se sastala, prvo neformalno, a zatim na sastancima Mihailovića i Tita u Strugaviku i Brajićima u zapadnoj Srbiji. Pokušaj zajedničke borbe nije izdržao. Krajem oktobra i u novembru izbili su prvi sukobi, najpre oko Užica, gde su partizani držali kratkotrajnu „Užičku republiku”. Posle nemačke ofanzive koja je tu republiku slomila, partizansko jezgro povuklo se preko Sandžaka u Bosnu, a četnički prvaci ostali su uglavnom u Srbiji, sve više u dvosmernom odnosu sa Nedićevom kvislinškom upravom. Od tog trenutka, građanski rat unutar otpora postaje stalna tema."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Različite stvarnosti, jedan rat"
+    },
+    {
+      "type": "paragraph",
+      "text": "Tokom 1942. i 1943. godine partizanski pokret rastao je naročito brzo u Bosni, u krajevima Hrvatske ugroženim ustaškim terorom i u Crnoj Gori, da bi se zatim proširio na celu zemlju. Njegova strategija bila je pokretni rat — dugi marševi, brzi udari, oslobođene teritorije koje se brane samo dok je moguće, a zatim napuštaju. Uporedo sa vojskom rasla je i politička organizacija; krajem 1942. u Bihaću je održano Prvo zasedanje Antifašističkog veća narodnog oslobođenja Jugoslavije, koje je već najavljivalo novu, federativnu Jugoslaviju. Četnički pokret, naprotiv, bio je heterogen i regionalno različit. U centralnoj Srbiji, pod neposrednijom Mihailovićevom kontrolom, jedinice su uglavnom čuvale snage i izbegavale velike borbe sa Nemcima. U Bosni, Hercegovini i Crnoj Gori, gde su četničke jedinice predvodili komandanti poput Pavla Đurišića, Momčila Đujića ili Dobroslava Jevđevića, dolazilo je do otvorenih taktičkih sporazuma s italijanskim vlastima, a kasnije i s nemačkim — usmerenih protiv partizana, ali i protiv muslimanskog i hrvatskog stanovništva u brojnim pohodima i zločinima. Optužbe za saradnju s neprijateljem, koje će posle rata biti glavni razlog za osudu Mihailovića, istorijski su dokazane za pojedine komandante i pojedine periode, ali nisu bile jednake u celom pokretu — što ne znači da centralna komanda za njih nije znala."
+    },
+    {
+      "type": "paragraph",
+      "text": "I partizani su, treba reći, vodili svoje sporne kontakte. U martu 1943, u toku bitke na Neretvi, partizanska komanda otvorila je u Gornjem Vakufu pregovore sa nemačkim oficirima, formalno oko razmene zarobljenika; o tačnom sadržaju razgovora istoričari se i danas razilaze. Takve epizode pokazuju koliko je rat u Jugoslaviji bio složen — sa više frontova, više neprijatelja i, povremeno, prećutnih primirja koja su trajala koliko i potreba."
+    },
+    {
+      "type": "paragraph",
+      "text": "Saveznici su do 1943. godine podržavali Mihailovića kao zvaničnog komandanta otpora. Tokom te godine, međutim, britanske vojne misije poslate i četnicima i partizanima, među kojima je najpoznatija ona brigadira Fitzroya Macleana kod Tita, izveštavale su Čerčila da glavninu nemačkih i italijanskih snaga drži pod pritiskom partizanska vojska. Na konferenciji u Teheranu u novembru 1943, savezničke vođe priznale su partizane kao glavnu otpornu snagu u Jugoslaviji. Tokom 1944. britanska pomoć biće preusmerena na njih, kralj Petar II pozvaće svoje pristalice da se priključe Titovoj vojsci, a Mihailović — i pokret koji je sa njim pošao iz Ravne gore — naći će se s pogrešne strane rata koji se završavao."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

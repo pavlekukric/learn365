@@ -6,13 +6,57 @@
   "dayNumber": 192,
   "order": 7,
   "title": "Veze sa Rusijom i Austrijom",
+  "subtitle": "Dve velike sile na koje su Srbi mogli da računaju — i ograničenja koja su obe nosile uoči 1804.",
   "readingTimeMinutes": 7,
   "year": 1800,
-  "isPlaceholder": true,
+  "dateLabel": "kraj 18 – početak 19. veka",
+  "timelinePosition": "kraj 18 – početak 19. veka",
+  "summary": "Pred Prvi srpski ustanak, dve sile su bile prirodni horizont srpske politike — Habzburška monarhija na severnoj granici i daleka pravoslavna Rusija. Obe su nudile različite vrste podrške i različite cene.",
+  "keyPeople": ["Aleksandar I", "Stefan Stratimirović", "Atanasije Stojković"],
+  "keyPlaces": ["Beč", "Sankt Peterburg", "Sremski Karlovci", "Sentandreja", "Cetinje"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Kada se na samom početku 19. veka u Beogradskom pašaluku spremalo ono što će postati ustanak, srpski prvaci nisu razmišljali samo o broju pušaka i o raspoloženju knezova. Razmišljali su i o tome ko će ih, ako bude potrebno, podržati spolja. U tadašnjoj Evropi, dve sile su same po sebi ulazile u tu računicu — Habzburška monarhija sa one strane Save i Dunava, i daleka, ali pravoslavna Rusija. Obe su nosile sopstvene mogućnosti i sopstvene granice, i nijedna nije bila prijatelj u smislu u kome je ta reč danas obična."
+    },
+    {
+      "type": "paragraph",
+      "text": "Austrija je bila najbliža. Granica između nje i Osmanskog carstva išla je Savom i Dunavom — dovoljno je bilo preći reku u Zemunu, Mitrovici ili Pančevu i naći se u drugoj državi. Na habzburškoj strani živela je velika srpska pravoslavna zajednica: u Sremu, Banatu, Bačkoj, sa centrom u Karlovačkoj mitropoliji i sa razvijenim građanskim slojem u gradovima kao što su Sentandreja, Novi Sad i Pešta. Trgovački putevi, naročito čuveni izvoz srpskih svinja preko Save, vezivali su seljaka iz Šumadije sa beogradskim pijacama, a beogradske pijace sa carskim tržištima u Beču i Pešti. Mnogi nezadovoljnici sa osmanske strane prebegli su preko reke i nalazili tu zaklon — od običnih hajduka do uglednih sveštenika i knezova."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ali Habzburška monarhija je istovremeno bila katolička država sa sopstvenim interesima. Pravoslavnim podanicima je priznavala versku zajednicu, ali ih je gledala i sa nepoverenjem — kao mogući kanal ruskog uticaja i kao narod sklon da bukne kada se na granici nešto pokrene. Njena spoljna politika prema Osmanlijama nije se vodila po sentimentalnim osnovama. Beč bi pomogao srpski pokret samo onda kada bi to odgovaralo carskim računicama; čim bi se računice promenile, podrška bi prestala. Iskustvo srpskog frajkora iz rata 1788–1791. bilo je sveže — tada je Austrija organizovala i naoružala dobrovoljce sa osmanske strane, da bi ih u Svištovskom miru ostavila bez zaštite i prepustila osmanskoj odmazdi. Niko ko je preživeo tu deceniju nije te lekcije zaboravio."
+    },
+    {
+      "type": "paragraph",
+      "text": "Do 1804. godine prilike su za Beč bile još složenije. Posle teškog rata sa Francuskom od 1792. naovamo, Habzburška monarhija je bila iscrpljena, novac joj je nedostajao, a Napoleonov uspon na zapadu trošio je pažnju i vojsku. Sa Osmanlijama je tih godina bila u miru, koji nije imala nameru da prva pokvari. Zvanično, Beč je dakle ostao po strani; ali su pojedini lokalni oficiri na granici, karlovački mitropolit Stefan Stratimirović i ugledni vojvođanski Srbi i te kako pratili događaje i pomagali — informacijama, posredovanjem, povremenim oružjem, sklanjanjem porodica. Ta tiha, poluformalna pomoć biće za ustanike važnija od bilo kakvog zvaničnog poteza Beča."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Daleka Rusija"
+    },
+    {
+      "type": "paragraph",
+      "text": "Rusija je bila sasvim drugačiji slučaj. Geografski daleka, vojno nedostupna, ali u srpskoj svesti prisutna na način na koji Habzburška monarhija nikada nije mogla biti. Tri stvari su je činile posebnom — pravoslavna vera, slovenski jezik i otvoreno rivalstvo sa Osmanlijama. Posle pobedonosnog mira u Kučuk Kajnardžiju 1774. Rusija je čak izborila pravo da, makar i nejasno definisano, „štiti” pravoslavne hrišćane u Osmanskom carstvu. To pravo se ne sme preuveličavati — bilo je više diplomatski oslonac nego pravna obaveza — ali ga ni Beč ni Carigrad nisu zaboravljali, a srpski prvaci su znali da postoji."
+    },
+    {
+      "type": "paragraph",
+      "text": "Praktične ruske veze sa Srbima u 18. veku bile su tanke ali stvarne. Sveti sinod u Sankt Peterburgu slao je crkvene knjige i ikone, a pojedini sveštenici i učitelji odlazili su odande u srpske škole na habzburškoj strani. Crna Gora je više puta, zahvaljujući svojim vladikama, dobijala iz Rusije subvencije i diplomatsku podršku. Među intelektualcima, neki Srbi su gradili karijere u ruskim ustanovama — najpoznatiji je primer Atanasija Stojkovića, koji je u Harkovu postao profesor i kasnije rektor univerziteta. Bilo je i tiše prepiske između Karlovačke mitropolije i ruskih crkvenih krugova, naročito u vreme mitropolita Stefana Stratimirovića, koji je o Rusiji razmišljao kao o jedinom dugoročnom oslonu pravoslavnih Srba."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pa ipak, u 1804. godini Rusija još nije bila spremna da se aktivno meša u srpski pokret. Mladi car Aleksandar I, na prestolu od 1801, gajio je iskrene simpatije prema pravoslavnoj braći, ali je njegov pogled bio uperen na Napoleona i na evropsku ravnotežu sila. Tek od 1806. i izbijanja novog rusko-turskog rata, srpski ustanak će postati epizoda u širem ratu i Rusija će ući u ozbiljniju, mada nikada bezuslovnu, podršku. Sve do tada, ruska prisutnost u srpskim glavama bila je nada — utešna, ohrabrujuća, ali bez topova i pukova."
+    },
+    {
+      "type": "paragraph",
+      "text": "Srpski prvaci su, slušajući oba pravca, kalkulisali. Većina je dušom bila bliža Rusiji — zbog vere, jezika i osećaja da Rusi neće tražiti da menjaju obred ili sklope unijatski kompromis. Habzburška monarhija je, sa svojim katoličkim oklevanjem prema pravoslavlju i sa svojom navikom da menja saveznike, izazivala manje poverenja u dušama, a više u svakodnevnoj praksi. Geografija je, međutim, bila tvrdoglava — Beč je bio blizu, Sankt Peterburg daleko, i kada bi se narod digao, prvo bi se okretao Savi i Dunavu, a ne Crnom moru."
+    },
+    {
+      "type": "paragraph",
+      "text": "Iz te dvostruke računice rodio se obrazac koji će obeležiti čitav srpski 19. vek: ne osloniti se potpuno ni na koga, tražiti pomoć od oba dvora kad god je moguće, ali se ne predati nijednom. Vožd Karađorđe i njegove vojvode 1804. neće imati ni rusku ni austrijsku gardu za leđima — krenuće u ustanak primarno kao domaće delo, sa nadom da spoljni vetrovi mogu pomoći, ali sa svešću da niko spolja neće za njih dobiti njihov rat. Pitanje „na koga se osloniti” pratiće srpsku politiku decenijama, sve do balkanskih ratova i Velikog rata, a obrasci koji su postavljeni oko 1800. ostaće prepoznatljivi i mnogo kasnije."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

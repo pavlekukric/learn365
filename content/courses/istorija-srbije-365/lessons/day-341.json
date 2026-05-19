@@ -6,13 +6,53 @@
   "dayNumber": 341,
   "order": 1,
   "title": "Raspad Jugoslavije — uzroci",
+  "subtitle": "Zašto se zajednička država raspala krajem osamdesetih i početkom devedesetih — slojevita, višeuzročna analiza",
   "readingTimeMinutes": 8,
   "year": 1991,
-  "isPlaceholder": true,
+  "dateLabel": "1989–1991.",
+  "timelinePosition": "1989–1991.",
+  "summary": "Pregled uzroka raspada Socijalističke Federativne Republike Jugoslavije: ustavni okvir iz 1974, ekonomska podvojenost republika, smrt Tita i slabljenje partije, talas 1989. u istočnoj Evropi i odluke konkretnih političkih aktera.",
+  "keyPeople": ["Josip Broz Tito", "Slobodan Milošević", "Franjo Tuđman", "Milan Kučan", "Alija Izetbegović"],
+  "keyPlaces": ["Beograd", "Ljubljana", "Zagreb", "Sarajevo", "Brisel"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Raspad Socijalističke Federativne Republike Jugoslavije nije imao jedan uzrok, niti jedan dan kada je počeo. Bio je to spor, slojevit proces u kojem su se preklopili ustavna konstrukcija, privredna podvojenost republika, slabljenje partije, smrt vođe koji je dotad držao sistem na okupu, i — krajem osamdesetih — istorijski talas koji je iz Istočne Evrope rušio jednopartijske režime. Da bi se taj raspad razumeo bez svođenja na jednu krivicu ili jednu zaveru, treba istovremeno gledati nekoliko ravni: pravnu, ekonomsku, političku, međunarodnu i ono što se neretko zove kulturno pamćenje. Tek svi zajedno objašnjavaju zašto je država koja je gotovo pola veka delovala stabilno, za nekoliko godina prestala da postoji."
+    },
+    {
+      "type": "paragraph",
+      "text": "Na prvoj, ustavnoj ravni, Ustav iz 1974. godine dao je republikama i dvema autonomnim pokrajinama u sastavu Srbije veoma široka ovlašćenja. Federacija je počivala na pristanku tih jedinica, a savezni nivo je u nizu pitanja zavisio od saglasnosti svake od njih. Takvo rešenje, smišljeno da smiri nacionalna pitanja posle previranja s kraja šezdesetih, dugoročno je institucionalizovalo političku konkurenciju republičkih rukovodstava. Kada je vrh federacije počeo da slabi, republički centri postali su prirodne adrese za sve odluke. To samo po sebi nije moralo voditi raspadu, ali je stvorilo okvir u kojem je svaki krizni potez lako prelazio u nacionalno pitanje."
+    },
+    {
+      "type": "paragraph",
+      "text": "Na ekonomskoj ravni, razlike među republikama bile su znatne i pre Drugog svetskog rata, a privredna reforma iz 1965. dodatno ih je naglasila. Slovenija i Hrvatska bile su izvozno usmerene prema Zapadu, raspolagale su konvertibilnim devizama i osećale su federalne transfere preko Fonda za nerazvijene kao trajni teret. Manje razvijene republike i Kosovo bile su, naprotiv, zavisne od tih transfera i od ulaganja preko saveznog budžeta. Spoljnotrgovinski dug naraslo je tokom sedamdesetih, a kriza iz 1980. godine, sa Međunarodnim monetarnim fondom kao novim sagovornikom, zategla je sve. Stabilizacioni programi tražili su žrtve koje niko nije hteo da prizna kao svoje, pa se ekonomski interes sve češće prepoznavao po republičkoj liniji."
+    },
+    {
+      "type": "paragraph",
+      "text": "Na političkoj ravni, smrt Josipa Broza Tita u maju 1980. uklonila je ličnost koja je decenijama vršila ulogu krajnjeg arbitra. Predviđeno rotaciono kolektivno predsedništvo i ravnomerno smenjivanje u partijskim telima delovali su uredno na papiru, ali su se u kriznim trenucima pokazali kao spori i neodlučni. Savez komunista Jugoslavije, dotad glavna spona, postepeno je gubio integrativnu funkciju; republički savezi sve su se više ponašali kao zasebne stranke. Krajem osamdesetih, u svim republikama bez izuzetka, na površinu su izbila nacionalna pitanja — negde u liku reformisanih komunista koji su preuzeli nacionalni jezik, negde u liku novih, otvoreno nacionalnih stranaka."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Spoljni okvir i odluke pojedinaca"
+    },
+    {
+      "type": "paragraph",
+      "text": "Međunarodni kontekst dodatno je ubrzao kretanja. Pad komunizma u Istočnoj Evropi 1989. i ujedinjenje Nemačke u oktobru 1990. promenili su evropsku ravnotežu i učinili da jugoslovenski sistem više nije imao ni hladnoratovsku ulogu posrednika između blokova. Evropska zajednica, kasnija Evropska unija, isprva je insistirala na očuvanju Jugoslavije i tražila pregovaračko rešenje; tokom 1991. godine, međutim, pod nemačkim pritiskom, krenula je ka ranom priznanju Slovenije i Hrvatske, koje je formalno potvrđeno u decembru 1991. i januaru 1992. Da li je to priznanje ubrzalo raspad i rat, ili je samo zabeležilo ono što se već dogodilo, ostaje predmet ozbiljne stručne rasprave; istoričari i pravnici se i danas razilaze u oceni."
+    },
+    {
+      "type": "paragraph",
+      "text": "Na kulturno-ideološkoj ravni, krajem osamdesetih u svim sredinama oživela su nacionalna pamćenja koja su decenijama bila gurnuta ispod zvanične formule „bratstva i jedinstva”. Otvorile su se rasprave o ratnim zločinima Drugog svetskog rata — o Jasenovcu, o Bleiburgu, o građanskom ratu unutar rata — i to često bez mirnog istorijskog pristupa, sa snažnim emotivnim opterećenjem. Kampanje pred prve višestranačke izbore 1990. godine koristile su strah od ponavljanja kao mobilizacioni alat. Treba pri tom jasno reći da takozvana teza o „drevnim mržnjama”, koja kaže da su narodi Jugoslavije oduvek bili u sukobu, među istoričarima je uglavnom odbačena: dugi periodi mirnog suživota dobro su dokumentovani. Nije reč o sudbini, nego o izboru."
+    },
+    {
+      "type": "paragraph",
+      "text": "I tu se dolazi do poslednje ravni — ravni pojedinaca. Slobodan Milošević u Srbiji, Franjo Tuđman u Hrvatskoj, Milan Kučan u Sloveniji, Alija Izetbegović u Bosni i Hercegovini — svaki je delovao u ime, kako je razumeo, legitimnih interesa svoje sredine, ali su se njihovi planovi međusobno isključivali, a u presudnim trenucima birano je zaoštravanje pre nego popuštanje. Međunarodni krivični tribunal u Hagu kasnije je podigao optužnice protiv niza aktera, među njima i protiv Miloševića; istovremeno, postupci drugih rukovodilaca takođe su predmet zabeleženih sudskih ocena. Odgovornost, dakle, nije jednoznačna, ali nije ni rasplinuta — može se imenovati po koracima i odlukama."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pošten zaključak, koliko god neudoban, glasi otprilike ovako: Jugoslavija se raspala iz više uzroka koji su se međusobno pojačavali. Ustavni okvir je predisponirao republike na konkurenciju, ekonomska kriza je tu konkurenciju pretvorila u sukob interesa, smrt vođe i slabljenje partije uklonili su poslednju zajedničku institucionalnu sponu, talas 1989. doneo je legitimitet promene, a konkretni politički akteri, u Beogradu i drugim glavnim gradovima, doneli su konkretne odluke koje su sukob više puta zaoštrile umesto da ga ublaže. Odgovornost je deljena, ali nije jednaka u svakom trenutku; svaki ozbiljan prikaz mora to priznati i ostaviti dovoljno mesta za nesigurnost tamo gde je izvori još ne razrešavaju."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

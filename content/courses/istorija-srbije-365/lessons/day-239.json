@@ -6,13 +6,49 @@
   "dayNumber": 239,
   "order": 9,
   "title": "Stvaranje narodne vojske",
+  "subtitle": "Kako je knez Mihailo zakonom iz 1861. od male kneževske garde napravio prvu modernu srpsku vojsku opšte obaveze",
   "readingTimeMinutes": 7,
   "year": 1861,
-  "isPlaceholder": true,
+  "dateLabel": "1861–1868.",
+  "timelinePosition": "1861–1868.",
+  "summary": "Vojna reforma Mihaila Obrenovića i Zakon o ustrojstvu narodne vojske iz 1861. uveli su opštu vojnu obavezu i od Srbije, kneževine sa oko milion stanovnika, načinili ozbiljnu vojnu silu čije će se delo isplatiti u ratovima 1876–1878.",
+  "keyPeople": ["Mihailo Obrenović", "Ilija Garašanin", "Milivoje Petrović Blaznavac"],
+  "keyPlaces": ["Beograd", "Kragujevac"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Kada je Mihailo Obrenović 1860. godine, posle smrti oca Miloša, drugi put seo na srpski presto, zatekao je državu koja je svoj međunarodni položaj polako proširivala — ali čija je oružana snaga ostala gotovo onakva kakva je bila u Miloševo doba. Postojala je mala stalna kneževska garda, procenjivana na oko hiljadu do dve hiljade ljudi, dovoljna za stražarsku službu, paradu i unutrašnji red. Sve preko toga svodilo se na staru predstavu iz prvog i drugog ustanka: ako zatreba, narod će sam izaći s puškom. Mihailo je, hladno gledajući kartu Balkana i znajući koliko slabi Osmansko carstvo, zaključio da takva improvizacija više nije dovoljna. Srbiji je trebala prava vojska."
+    },
+    {
+      "type": "paragraph",
+      "text": "Plod tog razmišljanja bio je Zakon o ustrojstvu narodne vojske, donet 31. avgusta po starom, odnosno 12. septembra po novom kalendaru 1861. godine. Zakon je uveo načelo opšte vojne obaveze za sve sposobne muškarce između dvadesete i pedesete godine života. Bila je to za srpske prilike velika novina: vojna služba postala je dužnost svih, a ne više stvar dobrovoljne ustaničke družine ili plaćene garde. Vojska je podeljena u dva poziva. Prvi poziv obuhvatao je mlađe ljude i predstavljao je glavnu borbenu snagu, sa najvišim stepenom obuke i gotovosti. Drugi poziv činili su stariji obveznici, predviđeni kao rezerva, posada utvrđenja i podrška u dužim ratovima."
+    },
+    {
+      "type": "paragraph",
+      "text": "Brojke su za malu zemlju bile zapanjujuće. U prvom pozivu predviđeno je oko pedeset hiljada ljudi, sa još nekoliko desetina hiljada u rezervi, u državi koja je u to vreme imala otprilike milion stanovnika. Procentualno gledano, malo evropskih vojski tog veka oslanjalo se na tako širok deo sopstvenog naroda. Pukovi su organizovani teritorijalno, po nahijama i okruzima, tako da je svaka oblast davala svoju jedinicu i poznavala svoje oficire. Time je vojska bila u isti mah državna i lokalna; vojnik je išao u rat sa susedima iz istog kraja, a komandant ga je često lično poznavao."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Moderna obuka, novo naoružanje"
+    },
+    {
+      "type": "paragraph",
+      "text": "Uz zakon je išla i prva ozbiljnija modernizacija. Uvedena je redovna obuka po pukovima, sa propisanim vežbama, gađanjem i smotrama. U narednim godinama Srbija je počela da nabavlja puške novijeg tipa; tek kasnije, već u drugoj polovini decenije i početkom sedamdesetih, doći će i čuvene puške sistema Pibodi-Martini, koje će postati simbol naoružanja narodne vojske u ratu sa Turskom. Oficirski kor gradio se postupno. Glavni rasadnik bio je Beograd — još od 1850. godine tu je radila Artiljerijska škola, iz koje će se vremenom razviti puna Vojna akademija. Mnogi mladi oficiri slati su na školovanje u Prusku, Francusku i Rusiju, da donesu kući ono što je u Evropi tada bilo najbolje vojno znanje."
+    },
+    {
+      "type": "paragraph",
+      "text": "Reformu su vodili ljudi od ugleda i iskustva. Politički okvir dao je Ilija Garašanin, dugogodišnji prvi ministar i čovek koji je o srpskoj vojnoj sili razmišljao kao deo šire balkanske politike. Praktični posao, vojnička strana reforme, bio je u rukama Milivoja Petrovića Blaznavca, vojnog ministra, oficira školovanog napolju, kome se pripisuje najveća zasluga za sprovođenje zakona u život. Iza njih je stajao knez Mihailo lično, čvrsto rešen da ostavi za sobom državu koja ima okvir za pravi rat: generalštab, intendantsku službu, magacine, redovne smotre i jasnu komandnu liniju, a ne više seosku narodnu vojsku iz 1804. i 1815."
+    },
+    {
+      "type": "paragraph",
+      "text": "Slabosti su, treba pošteno reći, bile velike. Oprema je dugo bila nedovoljna, a u nekim pukovima vojnici su u prvim godinama izlazili na smotru s puškama starijim od njih samih. Oficira je bilo premalo za onoliko ljudi koje je zakon trebalo da stavi pod oružje, pa je popunjavanje komandnih mesta išlo sporo i često se moralo improvizovati. Finansiranje takve sile bilo je teret koji je seljačka privreda Srbije podnosila s mukom; svaka opremljena puška, svaki magacin baruta i svaki dan obuke značili su porez više. Mihailo nije doživeo da vidi reformu na delu — ubijen je u Košutnjaku 1868, sedam godina po donošenju zakona — pa je dovršavanje posla palo na njegove naslednike."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ipak, kada se sve sabere, reforma je svoj račun isplatila. U srpsko-turskim ratovima 1876. i 1877–1878. godine upravo je narodna vojska, sa svim svojim manama, izvela glavni teret borbe. Tek tada se videlo šta znači imati pedeset hiljada ljudi koji su prošli kakvu-takvu obuku, koji znaju iz koje su čete i ko im je komandant. Bez zakona iz 1861. nezavisnost koju će Srbija dobiti na Berlinskom kongresu 1878. teško bi bila moguća; tek je tako stvorena vojska mogla, makar i uz teške gubitke, da iznese odsudne operacije na Drini i u dolini Morave. U tom smislu Mihailova narodna vojska je više od vojnog uređenja — to je trenutak u kojem kneževina prestaje da bude samo posebnost u carstvu i počinje da se ponaša kao država spremna da brani svoju budućnost."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

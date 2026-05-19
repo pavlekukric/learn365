@@ -6,13 +6,49 @@
   "dayNumber": 245,
   "order": 15,
   "title": "Društvo i kultura sredinom veka",
+  "subtitle": "Kako je Srbija sredinom 19. veka izgledala iznutra — selo, varoš, jezik, škola i prvi obrisi moderne kulture",
   "readingTimeMinutes": 7,
   "year": 1855,
-  "isPlaceholder": true,
+  "dateLabel": "sredina 19. veka",
+  "timelinePosition": "oko 1850.",
+  "summary": "Srbija sredine 19. veka — zemlja od oko milion i sto hiljada ljudi, devet desetina seoska, sa tankim slojem činovnika, malim varošima i kulturom koja istovremeno traje u patrijarhalnom obrascu i otvara se prema evropskoj modi, školi i pisanoj reči.",
+  "keyPeople": ["Vuk Stefanović Karadžić", "Jovan Hadžić", "Petar II Petrović Njegoš", "Branko Radičević", "Kornelije Stanković", "Anastas Jovanović", "mitropolit Mihailo"],
+  "keyPlaces": ["Beograd", "Kragujevac", "Šabac", "Užice", "Cetinje"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Sredinom 19. veka Kneževina Srbija bila je mala zemlja, tek izašla iz turske vlasti, sa oko milion i sto hiljada stanovnika. Devet od svakih deset ljudi živelo je na selu, u kućama od pletera ili ćerpiča, u zadružnim porodicama koje su zajednički obrađivale zemlju i zajednički je delile. Gradova u pravom smislu te reči gotovo da nije ni bilo. Beograd, prestonica, brojao je oko trideset hiljada duša — mali grad po evropskim merilima onog vremena, sa carskom kapijom, kaldrmom u centru, baštama na padinama prema Savi i još uvek turskom posadom u tvrđavi. Kragujevac, Šabac i Užice bile su tek varošice. Niš, jedan od najvećih balkanskih gradova, ležao je još pod Turcima i ostaće tamo do 1878."
+    },
+    {
+      "type": "paragraph",
+      "text": "Društvena slika bila je neobična za Evropu tog doba. Srbija nije imala plemstvo, ni feudalne gospodare, ni krupne posede sa zavisnim seljaštvom. Posle Karađorđeve i Miloševe revolucije zemlja je ostala u rukama slobodnih seljaka, koji su sami obrađivali svoja imanja i sami ih branili. Iznad tog seoskog mora podizao se vrlo tanak sloj — nekoliko hiljada činovnika, oficira, učitelja, sveštenika i trgovaca. Čaršija po gradovima bila je šarena: pored Srba, u njoj su radili i Cincari, Grci, Jevreji, ponešto Jermena, ljudi koji su balkanskoj trgovini dali vekovima ustaljen jezik računa. Krupne aristokratije nije bilo. To će društvu, kasnije, dati svojstven, gotovo demokratski karakter — i istovremeno teškoću, jer se moderna država morala graditi bez već formiranog obrazovanog sloja."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Jezik, škola i pisana reč"
+    },
+    {
+      "type": "paragraph",
+      "text": "U središtu kulturnog života bila je dugačka, mukotrpna borba oko jezika. Vuk Stefanović Karadžić, rođen 1787. u Tršiću, samouki sin seoske porodice koji je u mladosti bio pisar kod Karađorđa, krenuo je od „Pismenice srpskoga jezika” i „Malog bukvara” 1814, pa preko „Srpskog rječnika” 1818. do prevoda „Novog zavjeta” 1847. da srpskom narodu da književni jezik na narodnoj osnovi i pravopis po načelu „piši kao što govoriš, čitaj kao što je napisano”. Sveštenstvo i klasicisti, predvođeni Jovanom Hadžićem koji se potpisivao kao „Miloš Svetić”, smatrali su to spuštanjem visokog stila na sirov, seljački govor. Spor je trajao decenijama. Tek šezdesetih godina, već posle Vukove smrti 1864, njegova reforma će u Kneževini biti i službeno priznata. Bila je to tiha revolucija — možda najvažnija od svih revolucija veka."
+    },
+    {
+      "type": "paragraph",
+      "text": "Paralelno sa Vukom rasla je i prva generacija pisaca novog jezika. Sima Milutinović Sarajlija, učitelj mladog Njegoša, pisao je dugačke speve mešovitog ukusa. Branko Radičević, romantik kratkog života, objavio je 1847. „Pesme” na čistom narodnom jeziku i tim činom praktično dokazao da je Vukov jezik sposoban za visoku poeziju. Iste te 1847. izašao je u Beču i „Gorski vijenac” Petra II Petrovića Njegoša — vladike i pesnika iz Crne Gore, dela koje je odmah postalo kamen temeljac srpske književnosti. Đura Jakšić, Jovan Jovanović Zmaj i Laza Kostić tek su počinjali; njihovo doba doći će u narednim decenijama. Pisac se polako pretvarao iz povremenog hroničara u zanimanje."
+    },
+    {
+      "type": "paragraph",
+      "text": "Škola je išla korak po korak. Licej, prva viša škola u Srbiji, otvoren je u Kragujevcu 1838, a tri godine kasnije preseljen u Beograd, gde će se razviti u Veliku školu i, mnogo kasnije, u Univerzitet. Otvarala se Beogradska gimnazija, osnovne škole po varošima i selima, prve devojačke škole — još uvek malobrojne i u njih je trebalo ubeđivati porodice da pošalju kćeri. Najsposobniji mladići odlazili su o državnom trošku u Beč, Peštu, Berlin, Pariz; vraćali su se kao pravnici, lekari, inženjeri, i postajali prva prava intelektualna generacija Kneževine. Štampa je tek nicala: „Novine srbske” iz 1834. bile su prvi službeni list, a uskoro su se uz njih pojavili „Šumadinka” i „Vidovdan”, koji će kasnije postati glavne tribine političkih sporova."
+    },
+    {
+      "type": "paragraph",
+      "text": "Druge umetnosti pratile su pisanu reč. Kornelije Stanković, školovan u Beču, počeo je sistematski da beleži narodne melodije i da ih harmonizuje za klavir i hor — prvi pokušaj da se srpska usmena muzika prenese u oblike evropskog koncertnog života. Davorin Jenko, doseljeni Slovenac, komponovaće 1872. „Bože pravde”, već na samom kraju ovog perioda. U slikarstvu se izdvaja Anastas Jovanović, jedan od prvih fotografa u ovom delu Evrope, čije litografije čuvaju lica kneza Miloša, Mihaila i njihove okoline. Đura Jakšić, pesnik, bio je i strastan slikar mračnih, romantičarskih platana. Crkva je 1832. dobila autokefalnu mitropoliju beogradsku, a od 1859. na njenom čelu je mlad i obrazovan mitropolit Mihailo, koji će je voditi do kraja veka."
+    },
+    {
+      "type": "paragraph",
+      "text": "Svakodnevni život ostajao je, ipak, pretežno tradicionalan. Slavila se krsna slava, išlo se na sabore i na vašare, pevale su se hajdučke i ljubavne pesme uz gusle i frulu, čuvala se narodna nošnja. Istovremeno, u Beogradu i drugim varošima nemački šeširi, frakovi i kaputi postajali su uniforma činovnika, a kafane evropskog tipa polako su istiskivale stare mehane. Kultura sredine veka bila je, pošteno gledano, dvojaka — još uvek patrijarhalna u temelju, ali već vidljivo modernizujuća na svojim vrhovima. Od skoro nepismenog dečaka Vuka, prinuđenog da bude pisar u Karađorđevom ustanku, do generacije mladih ljudi sa diplomama iz Pariza i Hajdelberga, prešao se put od jednog do drugog sveta. U toj generaciji, koja će sredinom sedamdesetih dati i Jovana Ristića i Svetozara Markovića, već su sazrevali ozbiljni glasovi koji će zahtevati još brži korak — i pred kojima će se Kneževina morati izgledom i sadržajem opravdati."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

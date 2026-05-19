@@ -6,13 +6,49 @@
   "dayNumber": 71,
   "order": 11,
   "title": "Bitka kod Velbužda",
+  "subtitle": "Kako je 28. jula 1330. jedan letnji dan kod današnjeg Ćustendila prebacio težište Balkana iz Trnova u srpski dvor",
   "readingTimeMinutes": 7,
   "year": 1330,
-  "isPlaceholder": true,
+  "dateLabel": "1330.",
+  "timelinePosition": "28. jul 1330.",
+  "summary": "Pobeda Stefana Dečanskog i mladog Dušana nad bugarskim carem Mihailom Šišmanom kod Velbužda srušila je bugarsku prevlast na Balkanu i otvorila put srpskom usponu.",
+  "keyPeople": ["Stefan Dečanski", "Dušan", "Mihailo Šišman", "Andronik III Paleolog"],
+  "keyPlaces": ["Velbužd", "Ćustendil", "Bugarska"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Krajem dvadesetih godina četrnaestog veka Balkan se nakratko činio kao jasno raspoređena šahovska tabla. Bugarska, pod carem Mihailom Šišmanom, držala je istok i veliki deo Trakije, bila u savezu sa obnovljenom Vizantijom mladog Andronika III i delovala kao prvi među pravoslavnim vladarima na poluostrvu. Srbija kralja Stefana Dečanskog, posle godina unutrašnjih previranja i posle pobede nad rođenom decom u Zeti, bila je manja, ali sređenija nego što su je susedi videli. Iz Trnova i Carigrada gledalo se na nju kao na silu koju treba pritisnuti pre nego što naraste. Plan je bio jasan: zajednički napad sa dve strane, kratak rat, vraćanje srpskog kralja u red poslušnih suseda."
+    },
+    {
+      "type": "paragraph",
+      "text": "Mihailo Šišman okupio je tokom proleća i ranog leta 1330. veliku vojsku — savremeni i nešto kasniji izvori govore o dvanaest do petnaest hiljada ljudi, sa bugarskim odredima, plaćeničkim Vlasima, Tatarima sa donjeg Dunava i pomoćnim četama. Andronik III istovremeno je krenuo sa juga, kroz vizantijske oblasti uz Vardar, sa namerom da Srbiju zatvori između dva mlina. Stefan Dečanski je o tome dobro znao. Prikupio je vojsku sličnog reda veličine, oslonjenu pre svega na oklopnu konjicu sa Kosova, iz Raške i Zete, i sa sobom poveo najstarijeg sina, mladog kralja Dušana, koji je već imao ratno iskustvo iz pohoda na jugu. Glavno pitanje bilo je vreme: koja od dve neprijateljske vojske će prva stići do njega, i može li ih razdvojiti pre nego što se sastanu."
+    },
+    {
+      "type": "paragraph",
+      "text": "Srpski tabor pošao je na istok, prema dolini gornje Strume, ka utvrđenju Velbužd — današnji Ćustendil u zapadnoj Bugarskoj. Tu, na otvorenom prostoru između brda i reke, dve vojske su se srele krajem jula. Prvih dana, prema kasnijim izveštajima, vojske nisu odmah napale jedna drugu. Pregovaralo se, slalo izaslanike, govorilo o primirju dok ne stignu Vizantinci sa juga. Postoji uvreženo predanje, koje srpski izvori posebno ističu, da je Mihailo Šišman, uveren u svoju nadmoć i u dolazak saveznika, dozvolio svojim ljudima da se razmile po okolini u potrazi za hranom i stočnom ispašom. Da li je to bilo formalno primirje ili samo bugarska nepažnja, izvori se ne slažu — Vizantinci Jovan Kantakuzin i Nićifor Grigora kasnije će o tome pisati uzdržanije nego srpski letopisci."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Dan bitke"
+    },
+    {
+      "type": "paragraph",
+      "text": "Dana 28. jula 1330. srpska vojska je napala. Stefan Dečanski je sačekao da bugarski tabor bude rastegnut, pa je glavni udar poverio sinu. Dušan je, prema istovremenom i kasnijem srpskom kazivanju, predvodio teško oklopnu konjicu u brzom naletu na razvučeni bugarski centar. Šišmanovi ljudi nisu uspeli da se postroje. Linija je popustila gotovo odmah, a panika se proširila brže nego što su komandanti mogli da je zaustave. Sam Mihailo Šišman pokušao je da povede protivudar, ali je u jurišu pao s konja. Šta se zatim s njim dogodilo, izvori različito kazuju. Jedni govore da je smrtno ranjen pao među svoje, drugi da je živ zarobljen i ubrzo posle bitke ubijen — namerno ili u sledu rana, teško je iz ove daljine reći. Sigurno je samo da carevo telo nije sutradan napustilo bojište svojom voljom."
+    },
+    {
+      "type": "paragraph",
+      "text": "Posledice su bile gotovo trenutne i mnogo veće nego što se posle jedne bitke obično vidi. Bugarska vojska se raspala; deo je pobegao na istok, deo se predao. Stefan Dečanski nije iskoristio pobedu da pljačka i pali — postupio je suzdržano, što su mu i protivnički hroničari kasnije morali priznati. Vizantijska vojska na jugu, kada je čula vesti, povukla se bez bitke. Plan o opkoljavanju Srbije pretvorio se u nekoliko nedelja u suprotno: srpski kralj je sad bio onaj koji je diktirao uslove. U Bugarskoj je nastupio period nesigurnih vlada, kratkih careva i unutrašnjih sukoba; veliki uspon Trnova zauvek je prekinut tog jednog letnjeg popodneva."
+    },
+    {
+      "type": "paragraph",
+      "text": "Stefan Dečanski se sa pohoda vratio i sa jednom važnom putnicom — sa Mihailovom sestrom, srpskom kraljicom udovicom koja je u Trnovu bila odbačena pred sam rat. Sa njom je u Srbiju došao i njen mali sin Ivan Stefan, koji će ubrzo, pod srpskim pokroviteljstvom, biti postavljen za novog bugarskog cara. Bilo je to mekše rešenje od osvajanja, ali ne manje delotvorno: Bugarska je narednih godina, makar formalno, ostala u srpskom političkom krugu. Sam Dušan je sa Velbužda izašao kao mlad, ovenčan ratnom slavom, sa potvrđenim ugledom među vlastelom i sa onim mirnim samopouzdanjem koje će za nekoliko godina postati osnov njegove sopstvene politike — i, na kraju, povod za sukob sa ocem."
+    },
+    {
+      "type": "paragraph",
+      "text": "Kao i uvek, vredi razdvojiti ono što je pouzdano od onoga što je legendarno. Datum bitke, mesto, ishod, smrt Mihaila Šišmana i raspad bugarske vojske — sve to je dobro posvedočeno u izvorima sa obe strane. Pojedinosti — veličina vojski, tačan tok dana, da li je primirje stvarno bilo dogovoreno ili je samo izgovor, koliki je tačno bio Dušanov lični udeo u zapovedanju, kako je tačno car ubijen — sve su to mesta na kojima se srpski, vizantijski i kasniji bugarski izvori razilaze. Pa ipak, kada se ti glasovi saberu, slika je dovoljno jasna. Tog 28. jula 1330. godine, kod malog grada na granici planinske Bugarske, prebačena je težina Balkana. Trnovo je počelo da silazi, Carigrad je već decenijama silazio, a Srbija je, gotovo neočekivano, postala najveća pravoslavna sila na poluostrvu — uloga u kojoj će je narednih decenija, pod Dušanom, dovesti do mere koju Velbužd 1330. još nije mogao ni da nasluti."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

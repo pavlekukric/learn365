@@ -6,13 +6,49 @@
   "dayNumber": 169,
   "order": 7,
   "title": "Druga seoba Srba",
+  "subtitle": "Manje poznato, ali stvarno premeštanje srpskog stanovništva 1739–1740, posle habzburškog poraza i Beogradskog mira",
   "readingTimeMinutes": 6,
   "year": 1739,
-  "isPlaceholder": true,
+  "dateLabel": "1739.",
+  "timelinePosition": "1739.",
+  "summary": "Posle habzburškog poraza u ratu 1737–1739. i Beogradskog mira, patrijarh Arsenije IV Jovanović Šakabenta poveo je drugu, manju seobu srpskog stanovništva preko Save i Dunava u Habzburšku monarhiju.",
+  "keyPeople": ["Arsenije IV Jovanović Šakabenta", "Marija Terezija"],
+  "keyPlaces": ["Sava", "Dunav", "Sremski Karlovci", "Beograd", "Peć", "Kosovo"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Pola veka posle Velike seobe pod patrijarhom Arsenijem III Čarnojevićem, srpski narod je ponovo, u manjem ali stvarnom talasu, krenuo preko Save i Dunava. Druga seoba Srba zbila se 1739. i 1740. godine, kao posledica novog rata između Habzburške monarhije i Osmanskog carstva i mira koji je taj rat naglo, i za Beč nepovoljno, zaključio. Reč je o događaju manje glasnom od onog iz 1690, ali sa sličnom logikom: kada se carska granica povuče, povlači se i deo stanovništva koje je s tom granicom vezalo svoju sudbinu."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pozadina seobe je rat 1737–1739. godine. Habzburška monarhija ušla je u njega u savezu s Rusijom, računajući da će ponoviti uspeh iz 1717. i Požarevačkog mira, kada je dobila Beograd, severnu Srbiju i deo Bosne. Računi su se, međutim, izjalovili. Carska vojska prodrla je u dolinu Morave i čak do okoline Niša, ali je u nizu loše vođenih bitaka pretrpela teške gubitke. Pravoslavno stanovništvo s juga — iz okoline Peći, Prizrena, Skoplja i Kosova — u tim pohodima često je sarađivalo s habzburškom vojskom, podizalo ustanke i nadalo se da granica monarhije ostaje na njihovom pragu. Kada je vojska počela da uzmiče, narod koji se izložio nije imao kuda."
+    },
+    {
+      "type": "paragraph",
+      "text": "Beogradski mir, potpisan u septembru 1739, vratio je Osmanlijama severnu Srbiju, Beograd i severnu Bosnu — sve ono što je Karlo VI dobio dve decenije ranije. Granica je opet legla na Savu i Dunav. Habzburški komandanti su, pre povlačenja, dali srušiti beogradske utvrde po kojima su upravo bili poznati. Za pravoslavne vernike koji su se otvoreno svrstali uz cara, povratak osmanske vlasti značio je strah od odmazde, novih nameta i pojačanog pritiska. U takvoj atmosferi, pećki patrijarh Arsenije IV Jovanović Šakabenta odlučio je da pređe na habzburšku stranu i da povede sa sobom onaj deo naroda koji je mogao i hteo da krene."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Patrijarh, narod i nova zemlja"
+    },
+    {
+      "type": "paragraph",
+      "text": "Arsenije IV Jovanović, prozvan Šakabenta, bio je pećki patrijarh od 1725. godine. Po duhovnom položaju nasleđivao je Arsenija III, a sada je nasleđivao i njegovu istorijsku ulogu: u času kada je carstvo uzdrmano, crkveni poglavar postaje i narodni vođ. Sa skupinom episkopa, sveštenstva, vojnika i porodica iz Stare Srbije, Kosova i Metohije, ali i iz drugih oblasti koje je habzburška vojska kratko držala, prešao je preko Save i Dunava. Tačan broj iseljenika nije pouzdano poznat; procene se kreću od nekoliko hiljada do više od deset hiljada porodica, što je u svakom slučaju manje od Velike seobe iz 1690, ali dovoljno da osetno pojača srpsku prisutnost u južnoj Ugarskoj."
+    },
+    {
+      "type": "paragraph",
+      "text": "Doseljenici su raspoređivani u već postojeća srpska naselja u Bačkoj, Banatu, Sremu i Slavoniji. Carica Marija Terezija, koja je 1740. nasledila oca Karla VI, potvrdila je doseljenicima stare srpske privilegije i tako ih uklopila u već uspostavljeni okvir „ilirske nacije” pod habzburškom krunom. Sam patrijarh Arsenije IV nastanio se u Sremskim Karlovcima, gde je već postojala karlovačka mitropolija osnovana posle Velike seobe. Iz tog susreta nastala je osetljiva situacija: pećki patrijarh u izgnanstvu i karlovački mitropolit živeli su pod istim krovom carstva, sa preklapajućim ovlašćenjima i istorijskim pravima. Tenzije nisu uvek bile lake, ali su se, vremenom, dve linije srpske crkvene uprave izmirile pod karlovačkim okriljem. Pećka patrijaršija nastavila je da postoji pod osmanskom vlašću do 1766, kada će biti ukinuta — ali to je već priča za neki drugi dan."
+    },
+    {
+      "type": "paragraph",
+      "text": "Posledice Druge seobe osećaju se na obe strane granice. Na jugu, već proređene oblasti — naročito delovi Kosova, Metohije i okoline Skoplja — dodatno su izgubile pravoslavno stanovništvo. U decenijama koje slede, prazan prostor postepeno popunjava albansko stanovništvo, najčešće muslimansko, što je dug i složen proces koji će vekovima menjati demografsku sliku Kosova; ova lekcija na njega samo upućuje, ne pokušava da ga objasni do kraja. Na severu, srpska zajednica u Monarhiji dobila je novi priliv ljudi, sveštenstva i obrazovanih pojedinaca. Karlovci su se učvrstili kao duhovno, kulturno i, kasnije, prosvetno središte, iz kojeg će u 18. veku poteći škole, štamparska delatnost i prve generacije srpske građanske inteligencije."
+    },
+    {
+      "type": "paragraph",
+      "text": "U srpskom istorijskom pamćenju Druga seoba ostala je u senci Prve. Velika seoba 1690. imala je dramatičnu pratnju — pad ustanka, pohod Osmanlija, brojnost izbeglica, lik patrijarha Arsenija III — i dobila je u 19. veku jaku ikonografsku potporu, naročito kroz čuvenu sliku Paje Jovanovića. Druga seoba bila je manja, mirnijeg toka i manje poznatih ličnosti, pa je u udžbenicima često svedena na jednu rečenicu. Ipak, istoričari je s pravom posmatraju zajedno s Prvom: dva pokreta čine jednu epohu u kojoj se srpsko stanovništvo, pod pritiskom ratova i granica koje se pomeraju, premešta sa juga ka severu i u Habzburškoj monarhiji gradi drugu, dugotrajnu domovinu. Iz nje će, u narednom veku, doći mnogo onoga što današnju srpsku kulturu još uvek hrani."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

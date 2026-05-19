@@ -6,13 +6,53 @@
   "dayNumber": 57,
   "order": 4,
   "title": "Autokefalna srpska crkva",
+  "subtitle": "Kako je 1219. godine srpska crkva dobila pravo da sama bira svoje poglavare — i zašto je to bilo presudno",
   "readingTimeMinutes": 8,
   "year": 1219,
-  "isPlaceholder": true,
+  "dateLabel": "1219.",
+  "timelinePosition": "1219.",
+  "summary": "Godine 1219. Sava od vizantijskog cara i patrijarha u izgnanstvu dobija autokefaliju za srpsku crkvu i postaje njen prvi arhiepiskop.",
+  "keyPeople": ["Sveti Sava", "Teodor I Laskaris", "Manuel I Haritopul", "Dimitrije Homatijan"],
+  "keyPlaces": ["Nikeja", "Žiča", "Ohrid"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Krajem druge decenije trinaestog veka, mlada srpska država imala je sve što joj je trebalo da postoji — osim jedne stvari. Imala je dinastiju, imala je teritorije, imala je od skora i kraljevsku krunu koju je papa poslao Stefanu Prvovenčanom. Nije, međutim, imala sopstvenu crkvu. Episkopije na njenom tlu i dalje su pripadale Ohridskoj arhiepiskopiji, drevnom centru pod vizantijskim crkvenim okriljem. Da bi ta poslednja praznina bila popunjena, trebalo je putovati u izgnaničku prestonicu jednog razorenog carstva."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sve do 1219. godine srpske eparhije nalazile su se pod jurisdikcijom Ohridske arhiepiskopije. To je značilo da je crkveni vrh — onaj koji postavlja episkope, sudi u crkvenim sporovima i potvrđuje odluke sabora — bio izvan zemlje, u rukama grčkog sveštenstva i u okvirima vizantijskog crkvenog poretka. Za mladu državu koja je tek dobila sopstvenu krunu i sopstveni dinastički kult — kult Svetog Simeona, kako se zamonašeni Stefan Nemanja zvao posle smrti — takav položaj postajao je sve teži za obrazloženje. Vladar je bio svoj, vojska je bila svoja, ali crkva nije."
+    },
+    {
+      "type": "paragraph",
+      "text": "Dva događaja s početka veka učinila su to pitanje hitnim. Prvi je bio pad Carigrada u rukama latinskih krstaša 1204. godine. Vizantijsko carstvo bilo je razbijeno, patrijaršija raseljena, a centar pravoslavlja izmešten u Nikeju, gde je u izgnanstvu sedeo car Teodor I Laskaris zajedno sa patrijarhom. Drugi događaj bila je 1217. godina, kada je Stefan Prvovenčani dobio kraljevsku krunu od pape, čime se srpsko kraljevstvo formalno legitimisalo, ali uz pomoć katoličkog Rima — što je u pravoslavnom svetu izazvalo zabrinutost. Da bi se ta dvosmislenost izbalansirala, trebalo je da se uz zapadnu krunu pojavi i istočna, pravoslavna krunisanost u vidu samostalne crkve."
+    },
+    {
+      "type": "paragraph",
+      "text": "Čovek koji je tu zamisao sproveo bio je Sava — najmlađi Nemanjin sin, monah Svete Gore, već iskusan crkveni organizator. On je s Atosa krenuo put Nikeje, sa pratnjom i sa pripremljenim molbama. U Nikeji je proveo izvesno vreme u razgovorima sa carem Teodorom I Laskarisom i patrijarhom Manuilom I Haritopulom. Ishod je bio formalan akt: srpskoj crkvi data je autokefalija, to jest pravo da sama bira i postavlja svog poglavara, bez potrebe za odobrenjem druge crkvene jedinice. Sava je istom prilikom rukopoložen za prvog arhiepiskopa srpskog."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Žiča, Ohrid i sporenje oko kanona"
+    },
+    {
+      "type": "paragraph",
+      "text": "Po povratku u Srbiju Sava je za sedište nove arhiepiskopije izabrao manastir Žiču, koji je u to vreme upravo dovršavan i koji se nalazio u središtu kraljevstva. Tu su, prema tradiciji, kasnije krunisani srpski kraljevi, i odatle se nova crkvena organizacija širila ka episkopijama koje je Sava postavio širom srpskih zemalja. Time je u jednom potezu napravljen crkveni okvir koji će u narednim vekovima oblikovati duhovni život ovog prostora — sa episkopima, sa bogosluženjem na slovenskom jeziku, sa monaštvom koje će se nasloniti na svetogorsku tradiciju koju je Sava tako dobro poznavao."
+    },
+    {
+      "type": "paragraph",
+      "text": "Reakcija nije izostala. Ohridski arhiepiskop Dimitrije Homatijan, učen kanonista i jedan od najuglednijih crkvenih pravnika svog vremena, uputio je oštar protest. Tvrdio je da je nikejski patrijarh prekoračio svoja ovlašćenja, da je deo Ohridske arhiepiskopije otrgnut bez saglasnosti, i da Sava — kao bivši svetogorski monah, a ne episkop ohridske jurisdikcije — nije ni mogao biti zakonito postavljen za poglavara samostalne crkve. Pisma koja je on tim povodom slao danas su važan istorijski izvor i jasno pokazuju da postupak nije bio jednoglasno prihvaćen u pravoslavnom svetu. Rasprava o kanonskoj urednosti potezala se godinama."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ipak, de facto autokefalija se održala. Nikejska patrijaršija je u međuvremenu, posle povratka u Carigrad 1261. godine, samostalnost srpske crkve postepeno priznala i u praksi i u tonu, a ohridski protesti su s vremenom oslabili. Srpska crkva nastavila je da postoji kao samostalna zajednica, da bi gotovo sto trideset godina kasnije, u doba cara Dušana, bila uzdignuta na rang patrijaršije. Početak svega toga, međutim, ostao je 1219. godina."
+    },
+    {
+      "type": "paragraph",
+      "text": "Značaj tog čina nadilazi crkvenu unutrašnju istoriju. Za mladu nemanjićku državu autokefalija je značila da njena duhovna institucija odgovara njenom političkom okviru — da kralj ima sopstvenog arhiepiskopa, da vojska ima sopstvene episkope, da narod sluša liturgiju u kojoj se pominju domaći svetitelji. Uz kraljevsku krunu Stefana Prvovenčanog i uz kult Svetog Simeona kao svetog rodonačelnika, autokefalna crkva zaokružila je ono što se kasnije obično naziva nemanjićkim trojstvom legitimiteta — kralj, crkva, predak-svetitelj. Sve troje rođeno je u istoj generaciji, i sve troje preživelo je narednih osam vekova kao osnov srpske verske i nacionalne svesti, makar i u izmenjenim oblicima. Bez tog dana u Nikeji 1219. godine, ostala dva temelja stajala bi sama, nedovršena."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

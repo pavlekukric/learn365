@@ -6,13 +6,49 @@
   "dayNumber": 227,
   "order": 2,
   "title": "Ustavobranitelji dolaze na vlast",
+  "subtitle": "Kako je posle pada Mihaila Obrenovića Srbijom počela da upravlja oligarhija činovnika u ime hatišerifa iz 1838.",
   "readingTimeMinutes": 7,
   "year": 1842,
-  "isPlaceholder": true,
+  "dateLabel": "1842.",
+  "timelinePosition": "1842.",
+  "summary": "U jesen 1842, posle prinudne abdikacije Mihaila Obrenovića, vlast u Srbiji preuzima krug činovnika i prvaka koji sebe naziva ustavobraniteljima — branitelji hatišerifa iz 1838. i graditelji prve prave državne uprave.",
+  "keyPeople": ["Toma Vučić Perišić", "Avram Petronijević", "Aleksandar Karađorđević", "Stojan Simić", "Mihailo Obrenović"],
+  "keyPlaces": ["Beograd", "Topčider", "Kragujevac", "Beč", "Carigrad"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Kada je u jesen 1842. knez Mihailo Obrenović pod pritiskom napustio Srbiju i preko Save prešao u Austriju, u Beogradu nije ostao prazan presto, nego prazna ideja o tome šta je srpska vlast. Miloševa Srbija bila je vlast jednog čoveka — patrijarhalna, lična, neposredna; država se vodila iz Topčidera kao da je posed. Sada je ta vlast pala dvaput za nekoliko godina, i očima i pristalica i protivnika postalo je jasno da neka druga grupa, manje vidljiva ali već dobro umrežena, čeka iza dvora. Ta grupa će sebe nazvati ustavobraniteljima."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ime je odabrano pažljivo. Ustava u modernom smislu Srbija tada nije imala, ali je 1838. od sultana dobila takozvani „turski ustav” — hatišerif kojim su određene granice kneževe vlasti, ustanovljen Sovjet kao kolektivno telo, i utvrđena pravila po kojima činovnici nisu mogli biti otpušteni po vladarevoj volji. Za one koji su se u prethodnoj deceniji sukobljavali sa Milošem, hatišerif je bio prvi pravni štit. Braniti ga značilo je braniti sebe, ali i braniti načelo da država nije imanje. Otud ime: ustavobranitelji."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sastav grupe bio je šarolikiji nego što kasnije slike obično pokazuju. Jezgro su činili viši činovnici izrasli u Miloševoj administraciji koji su se postepeno okrenuli protiv njega, deo stare vojvodske elite iz Drugog ustanka, trgovci koji su tražili pravnu sigurnost za svoj kapital, i mlađi ljudi školovani u Habzburškoj monarhiji ili u Rusiji — prvi srpski činovnici koji su o državi mislili rečnikom evropske birokratije. Među vođama su se izdvajala četiri imena. Toma Vučić Perišić, čovek vojničkog porekla iz Tršića, bio je narodni tribun i ruka koja je u presudnim trenucima okupljala oružanu pratnju. Avram Petronijević, iskusan diplomata i dugogodišnji ministar, bio je politički mozak grupe i njena veza sa Portom. Stojan Simić, bogati trgovac i predsednik Sovjeta, davao je pokretu pečat staloženosti. A nad svima, kao novi simbolični vrh, stajao je Aleksandar Karađorđević, sin vožda Karađorđa, do tada čovek bez velike političke biografije, ali sa imenom koje je za suparničku dinastiju značilo sve."
+    },
+    {
+      "type": "paragraph",
+      "text": "Septembra 1842, posle Mihailovog odlaska, Sovjet je izabrao Aleksandra Karađorđevića za kneza. Time se rivalska dinastija prvi put popela na presto, i to je bio događaj čiji se značaj tada nije do kraja sagledao. Dve velike srpske kuće, koje su iz dva ustanka izašle kao suparnici, sada su se otvoreno smenjivale na čelu države, i unutrašnji život Srbije narednih decenija biće u velikoj meri određen tom dinastičkom dvojnošću. Spolja, izbor je morao biti potvrđen — i Carigrad i Petrograd su imali svoju reč. Posle više meseci pregovora, pritisaka i jednog dodatnog izbora, ruska saglasnost je 1843. data, a Aleksandar je sa novim, slabijim ovlašćenjima ostao na prestolu."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Šta su ustavobranitelji u stvari hteli"
+    },
+    {
+      "type": "paragraph",
+      "text": "Njihova ideologija, koliko se uopšte može govoriti o ideologiji jedne tako mešovite grupe, počivala je na nekoliko jednostavnih načela. Vlast kneza mora biti ograničena pravilima, a ne ćudi. Sovjet i ministri moraju biti stvarni, a ne savetodavni paravan. Zakoni moraju važiti i za vladara. Administracija mora biti šira, obučenija i plaćena iz državne kase, a ne iz milosti dvora. Spoljnopolitički, oslonac ne sme biti samo na Rusiju — Austrija je suviše blizu da bi se zanemarivala, a Porta je formalno još uvek suveren. Bila je to, na svoj način, prva srpska politička škola koja je o državi razmišljala kao o instituciji, a ne kao o porodičnom poslu."
+    },
+    {
+      "type": "paragraph",
+      "text": "Treba ipak pošteno reći ono što kasnije idealizacije često prećutkuju. Ustavobranitelji nisu bili liberali u modernom smislu. Nisu tražili narodno predstavništvo, nisu zazivali ustav koji bi donela skupština, nisu verovali u javnu kritiku vlasti. Bili su, najtačnije rečeno, oligarhija činovnika i prvaka koja je ličnu autokratiju jednog vladara zamenila kolektivnom autokratijom uskog kruga. Sovjet je u njihovo vreme često bio jači od kneza, ali je narod od Sovjeta bio dalji nego što je bio od Miloša. Skupština se sazivala retko i sa unapred pripremljenim ishodom. Sloboda štampe nije postojala. Politički protivnici, naročito obrenovićevci po unutrašnjosti, znali su za pritisak, premeštaje i progone."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pa ipak, ono što je ova grupa ostavila iza sebe bilo je trajno. U narednim godinama proširiće se činovnički aparat, uvesti redovan budžet, ustanoviti Liceum kao klica buduće više škole, pojaviti se prve ozbiljne novine, i — što je verovatno najvažnije — 1844. biti donet Građanski zakonik, prvi moderni kodifikovani građanski zakon na Balkanu. Srbija će u tim godinama prestati da bude jedna velika seoska kneževina sa dvorom u Topčideru i početi da liči na malu evropsku državu sa kancelarijama, pisarima, registrima i pečatima. To što su sve to radili ljudi kojima je bliža bila reč „red” nego reč „sloboda” deo je istine — ali deo iste istine je i to da bez tog reda kasnija sloboda nije imala na šta da se osloni. Jesen 1842. u tom smislu nije samo dinastička smena. Ona je tačka u kojoj srpska država tiho odlučuje da ubuduće, ma kojeg da imena nosi vladar, mora postojati nešto čvršće od njegove volje."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

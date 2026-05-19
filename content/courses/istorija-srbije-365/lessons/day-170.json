@@ -6,13 +6,53 @@
   "dayNumber": 170,
   "order": 8,
   "title": "Srbi u Banatu, Bačkoj i Sremu",
+  "subtitle": "Kako su tri ravne oblasti severno od Save i Dunava postale srpska građanska, crkvena i kulturna domovina pod Habzburzima",
   "readingTimeMinutes": 7,
   "year": 1700,
-  "isPlaceholder": true,
+  "dateLabel": "17–18. vek",
+  "timelinePosition": "17–18. vek",
+  "summary": "Srem, Bačka i Banat u 17. i 18. veku — geografija, srpsko naseljavanje, fruškogorski manastiri, ravničarska privreda i rađanje srpskog građanstva u Monarhiji.",
+  "keyPeople": [],
+  "keyPlaces": ["Banat", "Bačka", "Srem", "Novi Sad", "Sremski Karlovci", "Fruška Gora", "Sentandreja"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Severno od Save i Dunava, na južnom rubu velike Panonske nizije, prostiru se tri ravne oblasti koje će vekovima biti jedna od dve srpske domovine — naporedo sa Srbijom pod sultanom. Srem leži između Save i Dunava, Bačka između Dunava i Tise, Banat istočno od Tise, sve do podnožja karpatskih ogranaka. Sve tri su u srednjem veku pripadale Ugarskoj kruni, a od kraja 17. veka, posle Velikog bečkog rata i Karlovačkog mira 1699, gotovo u celini su prešle pod Habzburge. U toj ravnici, na međi dva carstva, oblikovaće se srpsko građansko, crkveno i kulturno biće koje će kasnije postati temelj nacionalnog preporoda."
+    },
+    {
+      "type": "paragraph",
+      "text": "Od ove tri oblasti, Srem je bio najgušće naseljen Srbima. Tu su, na obroncima Fruške Gore, već u 15. i 16. veku podignuti manastiri koji su činili pravi monaški venac — Krušedol, Vrdnik, Hopovo, Beočin, Šišatovac, Bešenovo i drugi. U srpskoj svesti to gusto monaško područje dobilo je ime „Srpska Sveta Gora”: malo brdo nadomak Dunava postalo je duhovno središte naroda koji je svoje istorijske manastire na jugu, u Raškoj i na Kosovu, sve teže mogao da posećuje. U Sremu su ležali i ključni gradovi — Sremski Karlovci, kasnija prestonica srpske crkve u Monarhiji, Sremska Mitrovica na ruševinama rimskog Sirmijuma, i Petrovaradin, habsburška tvrđava preko puta Novog Sada."
+    },
+    {
+      "type": "paragraph",
+      "text": "Bačka, između dve velike reke, bila je drugačija — izrazito višenarodna. Posle ratova i seoba ravnica je do kraja 17. veka mestimično opustela, pa je u 18. veku, pod organizovanom habsburškom kolonizacijom, naseljavana Srbima, Mađarima, Nemcima, Slovacima, Hrvatima, kao i Bunjevcima i Šokcima koji su dolazili sa juga. U Novom Sadu, Somboru i Subotici srpske zajednice bile su brojne i imućne, sa svojim parohijama, esnafima i opštinama. Banat, istočno od Tise, bio je još šareniji: Srbi, Rumuni, Nemci, Mađari, mestimično i druge grupe, delili su ravnicu i obronke. Glavni srpski centri tamo bili su Vršac, Pančevo, Bela Crkva i pojedini delovi šireg temišvarskog kruga."
+    },
+    {
+      "type": "paragraph",
+      "text": "Srbi nisu došli u ove krajeve naglo. Već u prvoj polovini 15. veka, despot Stefan Lazarević držao je posede u južnoj Ugarskoj — Beograd, delove Srema, imanja u Bačkoj — i naseljavao na njima srpske vojnike i seljake. Posle pada Smedereva 1459. talasi izbeglica nastavili su da pristižu, deceniju za decenijom. Veliki preokret donela je seoba pod patrijarhom Arsenijem III Čarnojevićem 1690, a zatim i Druga seoba 1739, posle gubitka Beograda. Tokom celog 18. veka manje grupe i porodice nastavljale su da prelaze preko Save i Dunava. Tačni brojevi se razlikuju od izvora do izvora, ali se uglavnom procenjuje da je oko 1800. godine srpsko pravoslavno stanovništvo u kasnijoj Vojvodini brojalo nekoliko stotina hiljada duša."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Crkva, žito i grad"
+    },
+    {
+      "type": "paragraph",
+      "text": "Sve te zajednice držala je na okupu Karlovačka mitropolija, ustanovljena posle Velike seobe kao srpska crkvena uprava u Habzburškoj monarhiji. Iz Sremskih Karlovaca njeni mitropoliti su rukovodili parohijama od Like do Banata, sazivali crkveno-narodne sabore i pred bečkim dvorom branili „Privilegije” kojima je car srpskom narodu priznao versku i delimičnu građansku samoupravu. Privilegije su u praksi često tumačene uže nego što su Srbi želeli, a ugarski sabor ih je gledao s nepoverenjem; granica između onoga što su Srbi smatrali svojim pravom i onoga što im je vlast priznavala stalno se pomerala. Ipak, sama postojanost mitropolije bila je presudna: davala je narodu institucionalni okvir u zemlji u kojoj nije imao sopstvenu državu."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ekonomski život ravnice tekao je u sporom, ali snažnom ritmu. Plodna černozemna zemlja Bačke, Banata i delova Srema, jednom isušena i uređena, donosila je velike rodove žita; tokom 18. veka Vojvodina je postepeno postajala jedna od žitnica Monarhije. Pored žita, gajila se stoka, a po obroncima Fruške Gore i Vršačkog brega vinova loza. Trgovina žitom, vinom i stokom hranila je gradove, a u njima se polako rađao srpski građanski sloj — trgovci, zanatlije, niži činovnici, učitelji. Krajem 18. veka javljaju se i prve manufakture, pristaništa i mlinovi većeg obima."
+    },
+    {
+      "type": "paragraph",
+      "text": "Najjasnije se taj novi svet video u Novom Sadu. Osnovan kao srpsko naselje pod tvrđavom Petrovaradin i 1748. uzdignut u slobodan kraljevski grad, brzo je postao središte srpske trgovine, štampe i škola; u 19. veku će s pravom dobiti ime „Srpska Atina”. Sremski Karlovci bili su crkveni i, kasnije, prosvetni vrh; Sentandreja, severno od Budima, već u 17. veku okupljala je imućnu srpsku koloniju koja će tokom 18. i 19. veka postepeno opadati, ali iza sebe ostaviti niz crkava i kuća kao trajan trag. U tim gradovima rodila se i moderna srpska književnost — odatle, ili kroz njih, prošli su Jovan Rajić, Zaharija Orfelin, Dositej Obradović, najznačajnije figure srpskog prosvetiteljstva."
+    },
+    {
+      "type": "paragraph",
+      "text": "Do kraja 18. veka tako se uobličio paradoks koji će obeležiti naredno stoleće: pravoslavni Srbi pod Habzburzima bili su, u proseku, pismeniji, urbaniji i imućniji od svoje braće pod Osmanlijama, iako brojčano manji. Imali su građanstvo, štampu, škole i crkvenu samoupravu, ali ne i sopstvenu državu. Vojvodina je u to vreme bila tek geografski pojam, ne politička jedinica. Ono što se u njenim ravnicama tokom 17. i 18. veka tiho slegalo — manastiri Fruške Gore, sabori u Karlovcima, knjige u Novom Sadu, žito u somborskim ambarima — biće, sasvim doslovno, kvasac iz kog će se zamesiti srpski nacionalni preporod naredne epohe."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

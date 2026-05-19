@@ -6,13 +6,53 @@
   "dayNumber": 101,
   "order": 4,
   "title": "Vukašin Mrnjavčević i kralj Marko",
+  "subtitle": "Otac koji je postao kralj bez nemanjićke krvi i sin čije se ime u narodu pretvorilo u najvećeg junaka",
   "readingTimeMinutes": 7,
   "year": 1365,
-  "isPlaceholder": true,
+  "dateLabel": "1365–1371.",
+  "timelinePosition": "1365–1371.",
+  "summary": "Vukašin Mrnjavčević 1365. postaje mladi kralj uz slabog cara Uroša; posle pogibije na Marici 1371. njegov sin Marko nasleđuje krunu, ali kao osmanski vazal — dok ga narodna pesma pretvara u besmrtnog junaka.",
+  "keyPeople": ["Vukašin Mrnjavčević", "Marko Mrnjavčević", "Uglješa Mrnjavčević", "Uroš V"],
+  "keyPlaces": ["Prilep", "Ser", "Rovine"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "U poslednjim godinama Dušanovog carstva, dok se ono pred očima savremenika polako lomilo na oblasti i polusamostalne gospodare, na jug Makedonije izrasla je porodica koja će u srpskoj istoriji ostaviti dva sasvim različita traga — jedan stvaran i kratak, drugi pesnički i beskrajan. Bili su to Mrnjavčevići. Otac, Vukašin, postao je prvi čovek koji nije bio Nemanjić, a ipak je nosio srpsku kraljevsku krunu. Sin, Marko, nasledio je tu krunu u trenutku kada od nje gotovo ništa nije preostalo — i upravo on će, vekovima kasnije, postati najveći junak narodne pesme."
+    },
+    {
+      "type": "paragraph",
+      "text": "Vukašin je poticao iz vlasteoske porodice koju kasnija predanja vezuju za Hum, današnju Hercegovinu, mada se o njegovom najranijem životu zna malo. Pod Dušanom se uzdigao među prvim ljudima carstva, a po Dušanovoj smrti 1355. godine, kada je presto pripao mladom i blagom Urošu V, počeo je strpljivo da širi sopstvenu vlast po dolini Vardara i oko Prilepa. Do polovine šezdesetih godina držao je velika prostranstva južne Makedonije, sa Prilepom kao središtem, dok je njegov brat Uglješa, despot, gospodario još dublje na jugu, u oblasti Sera i donjeg toka Strume. Dvojica braće zajedno su kontrolisala srce nekadašnjeg Dušanovog juga."
+    },
+    {
+      "type": "paragraph",
+      "text": "Godine 1365. dogodilo se nešto što ranije srpska istorija nije pamtila. Slabi car Uroš proglasio je Vukašina za „mladog kralja”, suvladara — tradicionalnu titulu kojom su se kod Nemanjića ranije obeležavali sinovi-naslednici. Sada je tu titulu, prvi put, primio čovek koji s vladajućom kućom nije bio krvno povezan. Razlozi su bili praktični: Uroš nije imao odraslog sina, sopstvene snage nije imao gotovo nikakve, a Vukašin je posedovao i vojsku i mreže koje su bez njega oslabljenog cara mogle smesta zbaciti. Krunisanjem suvladara, formalno jedinstvo carstva bilo je sačuvano. U stvarnosti, od te godine Vukašin je vodio politiku po sopstvenoj volji, u nekim oblastima i potpuno samostalno; Uroš je ostao car po imenu, ali ne više i po sili."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Marko, kralj posle Marice"
+    },
+    {
+      "type": "paragraph",
+      "text": "Vukašinov najstariji sin Marko rođen je oko 1335. godine i, dok je otac vladao, pominjan je kao prestolonaslednik — „mladi kralj” u senci „mladog kralja”. Njegov svet bio je svet velikaškog dvora u Prilepu, povelja, crkvenih zadužbina i pažljivog kretanja između carskog dvora i sve bliže osmanske opasnosti. Sve se promenilo u jednoj noći. U bici na Marici, 26. septembra 1371. godine, vojska Vukašina i Uglješe potučena je do nogu od osmanske prethodnice; oba brata su poginula. Marko je tog jutra postao kralj — ali kraljevstvo koje je nasledio više nije bilo isto kraljevstvo o kojem je sanjao kao prestolonaslednik."
+    },
+    {
+      "type": "paragraph",
+      "text": "Posle Marice osmanska sila se prelila preko Makedonije i jugoistočne Srbije. Marko je vrlo brzo, gotovo odmah, morao da postane osmanski vazal: da plaća danak, da šalje vojsku sultanu kada se traži, i da prihvati odsustvo svake samostalne politike. Vladao je iz Prilepa, sa znatno smanjenom teritorijom, ali sa očuvanom titulom i sa unutrašnjom upravom u sopstvenim rukama. Tako je proživeo skoro četvrt veka — kralj po imenu, vazal po stvarnoj moći. Poginuo je 1395. godine u bici na Rovinama, u Vlaškoj, boreći se na strani Osmanlija protiv hrišćanske vojske vlaškog vojvode Mirče. To je istorijski Marko: čovek malog kraljevstva, koji je svoj život okončao kao vojnik na pogrešnoj strani Dunava."
+    },
+    {
+      "type": "paragraph",
+      "text": "A onda postoji i drugi Marko — onaj koji u narodnoj pesmi živi vekovima posle Rovina. Taj Marko je div na konju Šarcu, junak bez premca, branitelj sirotinje i pravde, čovek koji sam izlazi na megdan caru i begu, neumorni neprijatelj Turaka. Kraljević Marko narodne epike ima nadljudsku snagu, retko stari, gotovo nikad ne gubi. Njegovo carstvo nije ono malo prilepsko, već čitav južnoslovenski svet u kome se pesma peva — jer Marko nije junak samo srpske, nego i makedonske i bugarske usmene tradicije, sa različitim varijantama i naglascima, ali sa istim osnovnim likom."
+    },
+    {
+      "type": "paragraph",
+      "text": "Kako je vazal postao najveći junak otpora? Pretvaranje se odvijalo postepeno, kroz petnaesti, šesnaesti, sedamnaesti i osamnaesti vek, u usmenoj kulturi balkanskih hrišćana koji su živeli pod osmanskom vlašću. Marko je u kolektivnom sećanju zauzeo prazno mesto „heroja pre Kosova”, jer je njegovo ime bilo poslednje veliko kraljevsko ime pre velikog poraza. Pevači su mu pripisivali tuđa dela, premeštali ga kroz vekove, pretvarali u zaštitnika ugroženih. Bolnu stvarnost vazalstva narodna pesma je obrnula naglavce: vazal je postao osvetnik. To nije bila laž, nego način na koji usmena kultura preživljava — pretvarajući poniženje u nadu."
+    },
+    {
+      "type": "paragraph",
+      "text": "Razdvajanje istorijskog od pesničkog Marka posao je nekoliko generacija folklorista i istoričara, od Vuka Karadžića preko devetnaestovekovne nauke do današnjih medievista. Posao još uvek nije završen, a u narodnom sećanju legendarni Marko gotovo potpuno zaklanja stvarnog. To samo po sebi nije ni greška ni obmana. Ono što se sa Vukašinom i njegovim sinom dogodilo unutar jedne porodice — uzdizanje bez krvi Nemanjića, pa pad, pa vazalstvo, pa pesma — pokazuje koliko su istorijska činjenica i kulturno sećanje različite stvari. Obe su istinite na svoj način, ali nisu ista istina. Učiti o Marku znači učiti kako narod pamti onda kada izgubi sve drugo osim glasa."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

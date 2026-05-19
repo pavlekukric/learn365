@@ -6,13 +6,49 @@
   "dayNumber": 141,
   "order": 3,
   "title": "Crnojevića štamparija",
+  "subtitle": "Kako je mala kneževina Zeta, na samom kraju samostalnosti, dobila jednu od prvih ćiriličnih štamparija na svetu",
   "readingTimeMinutes": 7,
   "year": 1493,
-  "isPlaceholder": true,
+  "dateLabel": "oko 1493–1496.",
+  "timelinePosition": "1493–1496.",
+  "summary": "Đurađ Crnojević i jeromonah Makarije osnivaju oko 1493. štampariju na Cetinju i u tri-četiri godine štampaju pet liturgijskih knjiga — jedan od najranijih ćiriličnih poduhvata na svetu, na pragu osmanskog osvajanja Zete.",
+  "keyPeople": ["Đurađ Crnojević", "Makarije"],
+  "keyPlaces": ["Cetinje", "Cetinjski manastir", "Zeta", "Venecija"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Sredinom petnaestog veka, negde oko 1450. godine, Johan Gutenberg je u Majncu sastavio presu sa pokretnim metalnim slovima i odštampao prvu veliku Bibliju. U narednih nekoliko decenija ta tehnika se širila po Evropi neverovatnom brzinom — Italija, Francuska, Nemačka, Engleska i Španija dobile su štamparije gotovo istovremeno, a do kraja stoleća štampane knjige postale su uobičajen predmet zapadnog života. Ali sve to se odvijalo u latiničnom svetu. Ćirilica, pismo pravoslavnih Slovena, dugo je ostala bez sopstvenog štamparskog izraza; rukopisne knjige i dalje su prepisivane u manastirima, slovo po slovo, godinama. Tek krajem petnaestog veka, na sasvim neočekivanom mestu — u maloj brdskoj kneževini na kraju Jadrana — pojaviće se jedna od najranijih ćiriličnih štamparija sveta."
+    },
+    {
+      "type": "paragraph",
+      "text": "Reč je o štampariji Crnojevića na Cetinju. Đurađ Crnojević, poslednji samostalni gospodar Zete, nasledio je 1490. oca Ivana i preuzeo vlast u zemlji koja je već bila stešnjena između mletačkog primorja i osmanske moći u zaleđu. Dvor je iz tvrđave Žabljak preseljen u Cetinje, podignut je manastir uz koji će se vezati cela docnija crnogorska istorija, a u tom istom krugu, oko 1493. godine, postavljena je i štamparska presa. Đurađ je bio obrazovan vladar, oženjen Mletkinjom Elizabetom Erico, i dobro je poznavao Veneciju, koja je tada bila evropska prestonica štamparstva i jedno od retkih mesta gde su već bili izliveni ćirilični tipografski znaci. Iz tog mletačkog kruga gotovo sigurno potiču i slova i znanje koje su dovedeni na Cetinje."
+    },
+    {
+      "type": "paragraph",
+      "text": "Posao je poveren jeromonahu Makariju, monahu o kome se, nažalost, malo pouzdano zna. Pretpostavlja se da se izučio štamparskom zanatu upravo u Veneciji ili u njenoj okolini, jer je tehnička izvedba cetinjskih knjiga preraslo zanatska, na nivou tadašnjih najboljih italijanskih radionica. Makarije u svojim potpisima na kraju knjiga sebe skromno naziva „smernim svetenoinokom” i moli čitaoca za oproštaj zbog grešaka, što je čest topos onog vremena, ali iza tog zaklona stoji čovek koji je obavio izuzetno složen posao u izuzetno teškim okolnostima."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Pet knjiga sa Cetinja"
+    },
+    {
+      "type": "paragraph",
+      "text": "Iz cetinjske štamparije izašlo je u kratkom periodu, između 1493. i 1496. godine, pet liturgijskih knjiga na crkvenoslovenskom jeziku srpske redakcije. Prva je bio „Oktoih prvoglasnik”, štampan po većini istraživača 1494. godine — zbornik bogoslužbenih pesama prva četiri glasa osmoglasnika. Za njim je usledio „Oktoih petoglasnik”, koji sadrži glasove od petog do osmog; od tog izdanja sačuvani su samo delovi, pa se i sam njegov puni obim danas može samo rekonstruisati. Sledili su „Psaltir s posledovanjem”, jedna od najpotrebnijih bogoslužbenih knjiga, zatim „Molitvenik” i, kao poslednje poznato izdanje, „Služabnik” — knjiga po kojoj sveštenik služi svetu liturgiju. Tačan redosled i tačni datumi pojedinih izdanja u nauci još nisu sasvim usaglašeni, ali okvir 1493–1496. i broj od pet knjiga drže se kao pouzdan."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sačuvani primerci danas se čuvaju na nekoliko mesta — na samom Cetinju, u Narodnoj biblioteci Srbije u Beogradu, u manastiru Hilandaru, u ruskim i nekim zapadnoevropskim zbirkama. Nije ih mnogo; vremena, ratovi i selidbe odneli su veliki deo prvobitnog tiraža, koji je i sam, po svemu sudeći, bio skroman. Ono što je sačuvano, međutim, dovoljno je da se vidi kakvog su izgleda te knjige bile. Slog je elegantan, slova jasna i čista, inicijali ukrašeni crvenim i crnim mastilom, zaglavlja ozbiljna i merna. Štampar je očito nastojao da po izgledu ne zaostane za onim što je tada izlazilo iz mletačkih i nirnberških radionica — i u tome je uspeo."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sve to dešavalo se, međutim, u senci kraja. Đurađ Crnojević nije imao snage da se sam suprotstavi sve jačem osmanskom pritisku. Već 1496. godine bio je primoran da napusti zemlju, sklonio se najpre u Veneciju, potom putuje na razne strane, a Zeta je vrlo brzo i konačno potpala pod osmansku vlast. Sa krajem samostalne kneževine prestala je i štamparija. Šta je tačno bilo sa presom i sa Makarijem, nije sasvim sigurno; po jednoj raširenoj pretpostavci, isti jeromonah pojavio se nekoliko godina kasnije u Vlaškoj, gde je oko 1508. štampao prvu vlašku ćiriličnu knjigu, ali identifikacija tog Makarija sa cetinjskim nije neosporna i istoričari je iznose s oprezom."
+    },
+    {
+      "type": "paragraph",
+      "text": "Mereno hladnim brojkama, cetinjski poduhvat trajao je samo tri ili četiri godine i ostavio pet knjiga. Mereno značajem, on je jedna od onih malih, ali pouzdanih tačaka u kojima se srpska istorija dotiče tehnoloških prevrata Evrope. Cetinjska štamparija nije bila prva ćirilična u apsolutnom smislu — nešto ranije, 1491. godine, u Krakovu su štampane prve ćirilične knjige, namenjene istočnoslovenskoj publici — ali je bila među najranijima, prva na tlu današnje Crne Gore i Srbije, i prva koja je radila u sopstvenoj državi, za sopstvenu crkvu, na sopstvenom jeziku. Da se sve to dogodilo u kneževini koja je istovremeno gasila svoju političku samostalnost, daje toj priči poseban, gotovo oproštajni ton. Cetinjske knjige iz devedesetih godina petnaestog veka deluju kao tih, vrlo dostojanstven dar koji je jedna srpska država ostavila vremenima koja dolaze — pre nego što je sama nestala sa karte."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

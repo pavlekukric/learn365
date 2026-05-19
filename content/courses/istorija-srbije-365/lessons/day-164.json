@@ -6,13 +6,53 @@
   "dayNumber": 164,
   "order": 2,
   "title": "Arsenije III Čarnojević",
+  "subtitle": "Patrijarh koji je morao da bira između pećkog prestola i seobe sa svojim narodom u habzburške zemlje",
   "readingTimeMinutes": 7,
   "year": 1695,
-  "isPlaceholder": true,
+  "dateLabel": "kraj 17. veka",
+  "timelinePosition": "kraj 17. veka",
+  "summary": "Život Arsenija III Čarnojevića, pećkog patrijarha koji je 1690. poveo Veliku seobu Srba i isposlovao habzburške Privilegije, čime je položio osnove srpske crkvene organizacije u Monarhiji.",
+  "keyPeople": ["Arsenije III Čarnojević", "Leopold I", "Jovan Monasterlija"],
+  "keyPlaces": ["Peć", "Krušedol", "Sremski Karlovci", "Beč"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Arsenije III Čarnojević rođen je oko 1633. godine, najverovatnije u Bajicama kod Cetinja, u staroj srpskoj porodici koja se kasnije, po njemu, počela označavati prezimenom Crnojević — u latinskim izvorima Tschernojewitsch. O njegovim prvim godinama zna se malo; izvesno je da je rano stupio u monaštvo, da je obrazovanje stekao u manastirskim sredinama Stare Hercegovine i da se kao crkveni čovek brzo isticao. Već 1669. postao je mitropolit hvostanski, a 1674. godine, pošto je njegov prethodnik Maksim Skopljanac umro, izabran je za pećkog patrijarha — duhovnog poglavara svih pravoslavnih Srba pod osmanskom vlašću, od Peći i Skoplja do Budima i Sentandreje."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pećka patrijaršija u to doba bila je u teškom, ali stabilnom položaju. Sultanov berat priznavao je patrijarhu vlast nad srpskim pravoslavnim vernicima, ali je za uzvrat tražio redovan danak i lojalnost. Arsenije je dve decenije svoga patrijarhovanja proveo u stalnom obilasku eparhija, od jadranske obale do Banata i Slavonije, prikupljajući milostinju za carigradski danak, posredujući u sporovima i nastojeći da održi crkvene knjige, manastire i bogosluženje. Istovremeno je pažljivo razvijao veze sa ruskim dvorom i Moskovskom patrijaršijom, odakle su povremeno stizale knjige, novac i — što je njemu bilo važno — osećaj da Srbi pod Osmanlijama nisu sami u pravoslavnom svetu."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sve se promenilo posle 1683. godine. Neuspeo turski pohod na Beč izazvao je veliki rat između Svete lige i Osmanskog carstva. Habzburške trupe spustile su se Podunavljem, oslobodile Budim, ušle u Beograd 1688, pa zatim u Niš, Skoplje i konačno u Peć i Prizren. Pred Arsenijem se otvorilo pitanje kakvo nijedan njegov prethodnik nije morao da rešava: kako da se postavi kada strana hrišćanska vojska prodire u srca njegove patrijaršije, dok je sam, po crkvenom pravu i sultanovom beratu, podanik osmanskog cara. Posle oklevanja i tajnih dogovora, Arsenije je krajem 1689. izašao iz Peći, sastao se sa habzburškim zapovednikom grofom Pikolominijem u Prizrenu i pristao da pozove srpski narod da ustane uz carsku vojsku."
+    },
+    {
+      "type": "paragraph",
+      "text": "Iz tog dogovora rodile su se srpske dobrovoljačke čete koje su, pod vodstvom kapetana Jovana Monasterlije, ratovale uz habzburške redove. Arsenije je istovremeno slao izaslanike u Beč i pismima se obraćao caru Leopoldu I, tražeći zaštitu za pravoslavnu veru i crkvenu samoupravu. Ratna sreća se, međutim, naglo okrenula. Tokom 1690. osmanske trupe izvele su snažan protivudar; austrijska vojska je u neredu uzmicala ka Dunavu. Za Arsenija je tada nastao trenutak teškog izbora. Ostati u Peći značilo je gotovo izvestan progon i smrt kao izdajnika sultana; otići je značilo prekinuti vekovnu nit i poneti sa sobom sudbinu hiljada onih koji su, oslonjeni na njegovu reč, već ratovali ili pomagali carsku vojsku."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Seoba i Privilegije"
+    },
+    {
+      "type": "paragraph",
+      "text": "Arsenije je izabrao odlazak. U leto i jesen 1690. predvodio je masovnu izbegličku kolonu preko Save i Dunava u južnu Ugarsku — događaj koji će u srpskom pamćenju ostati zapisan kao Velika seoba. Tačan broj izbeglica i danas je predmet rasprave: stariji izvori govore o trideset i sedam hiljada „familija”, što je verovatno preuveličano; ozbiljne procene kreću se od nekoliko desetina hiljada do, po najsmelijim računima, više od stotinu hiljada duša. Sigurno je da je reč bila o jednom od najvećih pomeranja stanovništva na Balkanu u 17. veku — sveštenstvu, seljacima, zanatlijama i ratnicima koji su išli zajedno, sa svetinjama, knjigama i nešto malo stoke."
+    },
+    {
+      "type": "paragraph",
+      "text": "U Beču je Arsenije od cara Leopolda dobio dve povelje, takozvane Privilegije iz 1690. i 1691. godine, koje su Srbima u Monarhiji priznale slobodu pravoslavne vere, izbor sopstvenog poglavara, crkvenu samoupravu i određena staleška prava. Tim ispravama je, pravno gledano, srpska zajednica u habzburškim zemljama prvi put dobila status zaštićenog naroda sa sopstvenom crkvenom hijerarhijom. Arsenije je svoju stolicu prvo prebacio u Sečuj, zatim u manastir Krušedol u Fruškoj gori, koji je postao njegovo glavno boravište, a kasnije — već posle njegove smrti — crkveno središte će se konačno utvrditi u Sremskim Karlovcima. Pri tom je on i dalje nosio titulu pećkog patrijarha; u Peći su Osmanlije nastavile da postavljaju druge srpske patrijarhe, sve do ukidanja Pećke patrijaršije 1766."
+    },
+    {
+      "type": "paragraph",
+      "text": "Život u Monarhiji nije bio lakši od života pod Osmanlijama, samo drugačiji. Arsenije se sukobljavao sa katoličkim crkvenim vlastima koje su pritiskale da se srpski vernici pripoje uniji sa Rimom, sa ugarskim plemstvom koje je s nelagodom gledalo na carske povlastice date pridošlicama, i sa sopstvenim raseljenim narodom koji je živeo razbacan od Komorana do Budima, od Sentandreje do Slavonije. Iznova je putovao između Beča, Krušedola i ratnih logorišta, branio Privilegije pred dvorskim kancelarijama, postavljao episkope za nove eparhije, organizovao škole i prepisivačke radionice. Umro je u Beču 27. oktobra 1706, a telo mu je preneseno u Krušedol i tu sahranjeno; Srpska pravoslavna crkva ga poštuje kao svetitelja."
+    },
+    {
+      "type": "paragraph",
+      "text": "U srpskom pamćenju Arsenije III ostao je dvostruka pojava — poslednji veliki patrijarh nepodeljene pećke crkve i prvi poglavar one druge, prekosavske grane srpskog naroda. Crkveni pisci su ga, ne bez razloga, ponekad nazivali „drugim Savom” zbog uloge koju je odigrao u uobličavanju nove crkveno-narodne organizacije. Istorijski sud o njegovim odlukama i danas je odmeren: izbor da pozove narod uz Habzburge, pa zatim da ga povede u seobu, donet je u uslovima u kojima nijedan mogući potez nije bio bezbolan. O tome da li je mogao da postupi drugačije — da ostane u Peći i preuzme rizik mučeničkog kraja, ili da pokuša neku treću putanju između cara i sultana — vodi se rasprava i u ozbiljnoj istoriografiji. Sigurno je samo da je njegov izbor odlučio kako će izgledati srpski život u 18. veku: sa jakim središtem u Karlovačkoj mitropoliji i sa novom, severnom granom istog naroda u carevini Habzburga."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

@@ -6,13 +6,57 @@
   "dayNumber": 268,
   "order": 3,
   "title": "Kralj Petar I",
+  "subtitle": "Vladar koji je svoju moć namerno ograničio i pustio parlament i vladu da rade — osamnaest godina ustavne krune",
   "readingTimeMinutes": 8,
   "year": 1903,
-  "isPlaceholder": true,
+  "dateLabel": "1903–1921.",
+  "timelinePosition": "1903–1921.",
+  "summary": "Petar I Karađorđević dolazi na presto 1903. godine kao zreo čovek od pedeset devet leta i, suprotno navici svojih prethodnika, vlada kao istinski ustavni monarh — bez ličnih udara, bez mešanja u izbore, oslonjen na vlade i parlament sve do svoje smrti 1921.",
+  "keyPeople": ["Petar I Karađorđević", "Nikola Pašić", "Stojan Protić", "Aleksandar Karađorđević", "Đorđe Karađorđević"],
+  "keyPlaces": ["Beograd", "Krf", "Solun", "Oplenac", "Albanija"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Kada je u junu 1903. godine, posle Majskog prevrata, Narodna skupština pozvala Petra Karađorđevića da preuzme presto, na njega se gledalo s mešavinom nade i opreza. Imao je pedeset devet godina, iza sebe život u izgnanstvu — školovanje u Ženevi i pariskoj akademiji Sen Sir, učešće u francusko-pruskom ratu i hercegovačkom ustanku, dugo čekanje u Crnoj Gori i Beču. U Beograd je stigao kao gotov čovek, bez ambicije da gradi ličnu vlast i bez iluzija o vlasti uopšte. Upravo ta zrelost biće njegova najveća državnička vrlina."
+    },
+    {
+      "type": "paragraph",
+      "text": "Jedan od prvih poteza nove vlasti bilo je vraćanje Ustava iz 1888. godine, sa izmenama prilagođenim novom trenutku. Time je Srbija dobila najliberalniju ustavnu osnovu koju je do tada imala — širi parlamentarizam, jaču odgovornost vlade pred Skupštinom, slobodniju štampu i jasnije zaštićene građanske slobode. Petar je taj okvir prihvatio bez otpora i, što je još važnije, držao ga se. Za razliku od poslednjih Obrenovića, koji su ustavom rukovali kao alatkom koju treba menjati kad zatreba, on je ustav uzeo kao granicu sopstvene vlasti. U narednim godinama ta granica neće biti pomerena ni u jednom trenutku političke napetosti."
+    },
+    {
+      "type": "paragraph",
+      "text": "Politički život u kojem je vladao bio je sve samo ne miran. Radikalna stranka Nikole Pašića činila je okosnicu većine vlada, a iz nje se povremeno izdvajalo krilo Samostalnih radikala Stojana Protića i Ljube Stojanovića. Kralj je sa svima radio kako su izbori i parlamentarne većine nalagali. Pašića je više puta pozvao za predsednika vlade, samostalce takođe, naprednjake i liberale puštao u koalicije bez ličnih simpatija ili netrpeljivosti. Nije pravio „kraljevu stranku”, nije podržavao tajne dvorske grupe, nije se mešao u rad ministarstava van onoga što mu po ustavu pripada. Kada bi vlada pala, tražio je onoga ko može sastaviti novu većinu, a ne onoga ko bi mu lično odgovarao."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Tihi vladar bučnog vremena"
+    },
+    {
+      "type": "paragraph",
+      "text": "U pozadini te ustavne suzdržanosti odvijao se ozbiljan državni rad. Vojska je modernizovana — kupovano je novo francusko naoružanje, reorganizovana komanda, povećani budžeti za artiljeriju i utvrđenja. Bankarski sistem se širio, Narodna banka jačala, građene su nove železničke pruge i mostovi. Zakonom iz 1905. godine Velika škola u Beogradu pretvorena je u Univerzitet, sa fakultetima i autonomnim statusom — institucija koja će u narednim decenijama biti jedan od stubova srpske kulture. Petar je sve to potpisivao i podržavao, ne kao tvorac, već kao vladar koji svojim autoritetom pokriva odluke vlade i parlamenta."
+    },
+    {
+      "type": "paragraph",
+      "text": "Spoljna politika tih godina bila je tegobna. U Carinskom ratu sa Austro-Ugarskom, koji je trajao od 1906. do 1911. godine, Beograd je odbio da popusti pred bečkim pritiscima i okrenuo izvoz ka Francuskoj, Nemačkoj i Egiptu. Aneksiona kriza 1908. godine dovela je Srbiju do same ivice rata; popustila je tek pod ujedinjenim pritiskom velikih sila. Balkanski ratovi 1912. i 1913. godine doneli su oslobođenje Stare Srbije, Kosova i Vardarske Makedonije, ali i krvave gubitke. U svim tim događajima glavnu reč vodile su vlade i diplomatija; kralj je stajao iza njih, potpisivao odluke i ćutao tamo gde se moglo ćutati."
+    },
+    {
+      "type": "paragraph",
+      "text": "Lično je živeo skromnije nego što se od kralja očekivalo. Pešačio je beogradskim ulicama, čitao, prevodio — još u izgnanstvu na srpski je preveo „O slobodi” Džona Stjuarta Mila, knjigu koja je za njegovo shvatanje vlasti bila više od simbola. Nije gajio dvorski sjaj, nije voleo svečanosti i ordene, dvor mu je bio manje raskošan nego kuće mnogih beogradskih trgovaca. Od 1909. godine sve je teže podnosio reumu i druge bolesti starosti, i postepeno se povlačio iz svakodnevnog posla. U junu 1914. godine, neposredno pred izbijanje Velikog rata, kraljevsku vlast preneo je na sina Aleksandra kao namesnika; otad pa do kraja života, glavne odluke države donosiće se mimo njega."
+    },
+    {
+      "type": "paragraph",
+      "text": "U strahotnoj jeseni i zimi 1915. godine, kada je srpska vojska, pred udruženim austrijskim, nemačkim i bugarskim snagama, krenula u povlačenje preko Crne Gore i Albanije ka Jadranu, Petar je pošao s njom. Slika ostarelog, bolesnog kralja koji u prostim seljačkim kolima prelazi planinske prevoje, među vojnicima, ranjenicima i izbeglicama, ušla je u srpsku ratnu ikonografiju i tamo zasluženo ostala — ne kao herojski podvig, već kao tih čin pristojnosti vladara koji nije hteo da napusti svoju vojsku. Na Krfu, a potom na Solunskom frontu, bio je više simbol nego upravljač: znak da država, koliko god rasturena, postoji i traje."
+    },
+    {
+      "type": "paragraph",
+      "text": "Posle proboja Solunskog fronta i ulaska u oslobođenu zemlju, 1. decembra 1918. godine proglašena je Kraljevina Srba, Hrvata i Slovenaca. Petar I postao je njen prvi kralj, ali samo formalno; faktičku vlast već je vršio Aleksandar kao namesnik. Stari kralj povukao se u privatnost, retko se pojavljivao u javnosti, gotovo nije učestvovao u sporovima o ustavu, centralizaciji i hrvatsko-srpskim odnosima koji su odmah obeležili novu državu. Umro je 16. avgusta 1921. godine u Beogradu i sahranjen u svojoj zadužbini, crkvi Svetog Đorđa na Oplencu, koju je za života gradio kao porodični mauzolej."
+    },
+    {
+      "type": "paragraph",
+      "text": "Petar I nije bio veliki reformator niti vojskovođa; mnogi su prelomi srpske istorije u njegovo vreme donošeni i izvođeni bez njegovog ličnog odlučivanja. Njegov značaj je drugačiji i, na neki način, retkiji. U zemlji u kojoj su vladari po pravilu pokušavali da pomere granice svoje vlasti, on je osamnaest godina dosledno ostao unutar onih koje mu je ustav postavio. To je srpskom parlamentarizmu dalo prostor da se razvije, vladama da uče da odlučuju, a državi da pred svetom deluje kao uređena monarhija. Po tome — a ne po klišeima koji su mu kasnije pripisivani — vredi pamtiti njegovu vladavinu."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

@@ -6,13 +6,57 @@
   "dayNumber": 11,
   "order": 4,
   "title": "Utvrde i ostave gvozdenog doba",
+  "subtitle": "Gradine na uzvišicama i zakopano blago — dva lica jednog nemirnog sveta",
   "readingTimeMinutes": 7,
   "year": -700,
-  "isPlaceholder": true,
+  "dateLabel": "gvozdeno doba",
+  "timelinePosition": "~700. p. n. e.",
+  "summary": "Gradine — utvrđena naselja na uzvišicama — i ostave, namerno zakopane gomile metala, dva su najupečatljivija traga koja je gvozdeno doba ostavilo na centralnom Balkanu, svaki na svoj način govoreći o moći, strahu i veri.",
+  "keyPeople": [],
+  "keyPlaces": ["centralni Balkan", "Židovar", "Kale Krševica", "južni Banat", "južna Srbija"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Ko bi danas hodao grebenima centralnog Balkana sa očima praistoričara, retko bi koji breg ostao za njega običan breg. Pod travom i šumom često se naziru pravilni potezi — niski bedemi, ravni platoi, jarci koji prate konturu vrha. To su tragovi gradina, utvrđenih naselja gvozdenog doba, koja su vekovima obeležavala krajolik ovih prostora. Uz njih, iz iste epohe, dolazi i jedna sasvim drugačija vrsta nalaza: ostave, namerno zakopane gomile metalnih predmeta, koje i danas iznenade arheologa kada pod ašovom zazveči gvožđe."
+    },
+    {
+      "type": "paragraph",
+      "text": "Gradina je, najprostije rečeno, naselje podignuto na prirodno branjenom mestu — vrhu brda, kraju grebena, ostrvu okruženom močvarom — i dodatno utvrđeno ljudskom rukom. Bedemi su mogli biti od nabijene zemlje, od kamena u suvozidu, od drvenih palisada, ili u kombinaciji tih materijala. Pristupna strana se obično dodatno štitila jarkom, ponekad i sa više linija odbrane. Unutar bedema je bio prostor za kuće, ostave hrane, radionice, ponekad za stoku. Veličina je bila vrlo različita: od malih utvrđenja koja su mogla primiti jedno prošireno domaćinstvo, do prostranih gradina sa nekoliko stotina stanovnika."
+    },
+    {
+      "type": "paragraph",
+      "text": "Razlog za sve to nije bio samo strah. Gradina je istovremeno bila i sklonište i izjava. Sa nje se vidi daleko, ali ona se i vidi izdaleka — što znači da svako ko putuje dolinom zna ko gospodari uzvišicom iznad njega. U vreme kada su mač i koplje postali svakodnevni alati, kontrola visine značila je kontrolu prelaza, puteva, rudnih ležišta i pašnjaka. Mnoge balkanske gradine zato nisu sazidane na najnepristupačnijim mestima nego baš tamo odakle se najbolje motri na okolinu i odakle se najlakše izlazi u ravnicu. Bedem je tu istovremeno čuvao i pokazivao."
+    },
+    {
+      "type": "paragraph",
+      "text": "Među bolje istraženim primerima ovog sveta jeste Židovar u južnom Banatu, naselje na uzvišici iznad nekadašnjeg toka Karaša, sa dugim životom koji se proteže duboko u gvozdeno doba i traje sve do dolaska Rimljana. Na jugu današnje Srbije, kod sela Krševica, otkriveno je nalazište poznato kao Kale Krševica, koje je pokazalo nešto neuobičajeno — građevine podizane uz pomoć tehnika i materijala bliskih grčkim, što govori o vrlo dubokim vezama poznog gvozdenog doba sa egejskim svetom. Pored ovih, na centralnom Balkanu postoje desetine drugih utvrđenih naselja različitog značaja; mnoga još uvek nisu sistematski istražena, a neka su poznata tek po površinskim ostacima."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Zakopano blago i njegove tajne"
+    },
+    {
+      "type": "paragraph",
+      "text": "Druga velika tema ovog doba su ostave. Pod tim imenom arheologija podrazumeva grupe metalnih predmeta — oružja, oruđa, nakita, ponekad ingota, dakle sirovog metala u kalupima — koje su namerno zakopane u zemlju i nikada nisu iskopane od strane onih koji su ih sakrili. Pronalaze se najčešće slučajno, pri oranju ili gradnji, mnogo ređe u planiranom iskopavanju. Neke ostave broje nekoliko predmeta, druge stotine."
+    },
+    {
+      "type": "paragraph",
+      "text": "Zašto su ti predmeti zakopani — to je jedno od trajno otvorenih pitanja praistorijske arheologije, i nije ga moguće odgovoriti jednim odgovorom. Prema jednom tumačenju, deo ostava sklanjan je u zemlju pred neposrednom opasnošću: pred napadom, pred pomeranjem stanovništva, pred ratom čiji ishod vlasnik nije dočekao. To bi objasnilo zašto su mnoge ostave pronađene u blizini naselja i zašto se ponekad grupišu u određenim periodima nemira. Po drugom tumačenju, makar deo ostava bio je votivnog karaktera — zavetni dar božanstvu, predmeti predati zemlji ili vodi sa namerom da se nikada ne vrate. U prilog tom čitanju govori činjenica da su mnoge ostave pronađene u rekama, jezerima, izvorima i močvarama, dakle na mestima koja se teško mogu razumeti kao obična skrovišta. Najzad, treća struja tumačenja u ostavama vidi praistorijski oblik čuvanja vrednosti, nešto poput zakopane riznice, u svetu koji nije imao banaka ni kovanog novca, pa je metal — naročito bronza i gvožđe — predstavljao stabilnu vrednost."
+    },
+    {
+      "type": "paragraph",
+      "text": "Verovatno su u stvarnosti delovala sva tri motiva, ponekad i u istom predmetu — granica između zaveta i skrivanja u svetu u kome je nesreća uvek mogla biti i znak bogova nije bila tako oštra kao danas. Izvori se, ukratko, ne slažu, i ne treba se truditi da se slože po svaku cenu. Ono što ostave nedvosmisleno svedoče jeste da je metal u gvozdenom dobu bio i bogatstvo i sredstvo komunikacije sa nečim većim od svakodnevice."
+    },
+    {
+      "type": "paragraph",
+      "text": "Uz gradine i ostave, treću dimenziju ove slike daju već pomenuti knežinski grobovi: bogate sahrane sa uvezenim grčkim posuđem, oružjem, nakitom, ponekad ostacima kola. Oni potvrđuju ono što i utvrde i ostave nagoveštavaju — da je gvozdenodopsko društvo bilo izrazito raslojeno, sa uskim slojem prvaka koji su kontrolisali ratnike, razmenu i, po svemu sudeći, obrede. Ti prvaci nisu još kraljevi u kasnijem smislu reči, ali nisu više ni starešine rodovskih zajednica; oni su nešto između, oslonjeni na bedem iza sebe i na mrežu razmene pred sobom."
+    },
+    {
+      "type": "paragraph",
+      "text": "Kada se sve to spoji — visoka utvrđena naselja, zakopani metal po dolinama i vodama, raskošne sahrane pojedinaca — pred nama se sklapa svet koji više nije bezimen. U narednim vekovima upravo iz tih zajednica grčki i rimski pisci prepoznaće Ilire na zapadu Balkana, Tračane na istoku, a kasnije i Kelte koji u talasima dolaze sa severozapada. Pre nego što se njihova imena pojave na pergamentu, njihovi bedemi i njihove ostave već stoje u zemlji — i upravo zato gvozdeno doba s pravom nazivamo pragom istorije."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

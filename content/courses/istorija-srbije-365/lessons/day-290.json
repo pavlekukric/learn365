@@ -6,13 +6,53 @@
   "dayNumber": 290,
   "order": 3,
   "title": "Austrougarski ultimatum",
+  "subtitle": "Deset tačaka predatih Beogradu 23. jula 1914, srpski odgovor i prekid odnosa koji je otvorio put velikom ratu",
   "readingTimeMinutes": 7,
   "year": 1914,
-  "isPlaceholder": true,
+  "dateLabel": "23–25. jul 1914.",
+  "timelinePosition": "23–25. jul 1914.",
+  "summary": "Austrougarska je 23. jula 1914. uručila Srbiji ultimatum sa deset tačaka i rokom od četrdeset osam sati; srpski odgovor dva dana kasnije prihvatio je gotovo sve, ali je odbijena tačka koja je zadirala u suverenitet, i Beč je istog časa prekinuo diplomatske odnose.",
+  "keyPeople": ["Nikola Pašić", "regent Aleksandar", "Vladimir Gizl", "Edvard Grej", "Vilhelm II"],
+  "keyPlaces": ["Beograd", "Beč"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Skoro mesec dana posle sarajevskog atentata, u Beču je dozrela odluka. Austrougarska je rešila da Srbiju natera na rat, a sredstvo je trebalo da bude diplomatska nota tako sastavljena da je nijedna nezavisna država ne može u celosti prihvatiti. Tekst je pripremljen u ministarstvu spoljnih poslova grofa Berhtolda, usaglašen sa Berlinom — gde je nemački car Vilhelm II već dao takozvani „blanko ček” podrške — i namerno odgađan dok francuski predsednik Poenkare ne završi posetu Petrogradu, da Rusija i Francuska ne bi mogle da se na licu mesta dogovore o zajedničkom odgovoru."
+    },
+    {
+      "type": "paragraph",
+      "text": "U Beograd je nota stigla u četvrtak, 23. jula 1914, u šest sati po podne. Predao ju je austrougarski poslanik baron Vladimir Gizl ministarstvu inostranih dela. Rok za odgovor bio je četrdeset osam sati. Trenutak je bio loš za Srbiju i u tehničkom smislu: predsednik vlade Nikola Pašić bio je odsutan iz prestonice na izbornom putovanju, kralj Petar Karađorđević teško bolestan, a državu je formalno vodio mladi regent Aleksandar. Pašić je hitno pozvan nazad; kabinet je seo na neprekidno zasedanje koje će potrajati gotovo sve do isteka roka."
+    },
+    {
+      "type": "paragraph",
+      "text": "Nota je sadržala deset zahteva. Srbija je trebalo da službeno osudi svaku propagandu uperenu protiv Austrougarske, da raspusti društvo Narodna odbrana i druga slična udruženja, da iz škola, štampe i javnog života ukloni sve što vređa monarhiju, da iz vojske i državne službe otpusti oficire i činovnike koje će Beč imenom navesti, da uhapsi određena lica osumnjičena za saučesništvo u sarajevskom atentatu i da pojača kontrolu granice prema Bosni. Sve to bilo je teško, ali zamislivo. Težište zahteva, ono što je notu pretvaralo u ultimatum u pravom smislu, ležalo je u dve tačke. Po jednoj, austrougarski organi učestvovali bi u istrazi o atentatu na srpskoj teritoriji; po drugoj, njihovi izaslanici neposredno bi nadgledali gušenje subverzivnih pokreta u Srbiji. To je u praksi značilo da bi strana država obavljala policijske i sudske radnje unutar srpskih granica — kraj suvereniteta u svemu osim u imenu."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Odgovor"
+    },
+    {
+      "type": "paragraph",
+      "text": "Vlada u Beogradu odmah je depešom obavestila Petrograd i zatražila stav. Ruski ministar spoljnih poslova Sergej Sazonov ohrabrio je Srbiju da bude koncilijantna koliko god može — ali da ne pristane na ono što vređa državnu samostalnost. Iz Pariza i Londona stigle su slične, opreznije poruke. Pašić, ministar finansija Lazar Paču i ostali članovi vlade radili su gotovo bez sna; tekst odgovora prepravljan je do poslednjih sati. Cilj je bio jasan: oduzeti Beču svaki razuman izgovor za rat, a istovremeno ne predati ono što se predati ne sme."
+    },
+    {
+      "type": "paragraph",
+      "text": "Srpski odgovor uručen je u subotu, 25. jula 1914, nekoliko minuta pre isteka roka. Bio je sastavljen izuzetno pomirljivim tonom. Srbija je prihvatila gotovo sve tačke — osudu propagande, raspuštanje organizacija, izmene u školskim programima, hapšenja, otpuštanja označenih lica. Jedinu tačku koja je zadirala u suverenitet — neposredno učešće austrougarskih službenika u istrazi na srpskom tlu — nije mogla da prihvati u onom obliku u kojem je tražena, jer bi to bilo suprotno ustavu i krivičnom zakonu. U tom delu odgovora vlada je predložila da o spornom pitanju, ako se ne nađe drugo rešenje, odluči Međunarodni sud u Hagu ili velike sile."
+    },
+    {
+      "type": "paragraph",
+      "text": "Baron Gizl pročitao je odgovor za nekoliko minuta. Imao je već unapred dato uputstvo: ako odgovor nije bezuslovno prihvatanje svih tačaka, prekida odnose. Tako je i učinio. Istog popodneva, 25. jula, austrougarsko poslanstvo napustilo je Beograd vozom za Zemun; pre toga je Srbija već objavila opštu mobilizaciju, a vlada se, predviđajući da bi prestonica mogla biti pod neprijateljskom artiljerijom već u prvim danima, pripremala da se prebaci u Niš."
+    },
+    {
+      "type": "paragraph",
+      "text": "Reakcije u Evropi pokazale su koliko je srpski odgovor bio uspešan u svom diplomatskom cilju — i koliko je, u drugoj ravni, bio nemoćan. Britanski ministar spoljnih poslova Edvard Grej ocenio je odgovor kao najdalekosežnije popuštanje slabe sile pred jakom u modernoj istoriji. Kada je tekst odgovora konačno pročitao i sam nemački car Vilhelm II, navodno je na margini zabeležio da je „svaki povod za rat nestao” i da bi sada trebalo zaustaviti dalje korake. Ova carska beleška, koliko god se kasnije citirala, nije imala posledice. Mašinerija u Beču i deo nemačkog vojnog vrha već su odlučili da se ovakva prilika ne propušta."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sledila su tri dana praznog hoda u kojem se ništa više nije moglo zaustaviti. Diplomatski odnosi između Austrougarske i Srbije bili su prekinuti 25. jula. Naredna dva dana prošla su u poslednjim, mlakim pokušajima Londona da se sazove konferencija sila. Beč nije čekao. Dvadeset osmog jula 1914, mesec dana posle Sarajeva, Austrougarska je telegrafskom notom objavila rat Srbiji. Iste noći prvi austrougarski monitor na Savi zapucao je na Beograd. Ono što je počelo kao kazna za atentat bilo je već nešto drugo — početak svetskog rata u koji će se za nedelju dana, jedna po jedna, sručiti sve velike sile."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

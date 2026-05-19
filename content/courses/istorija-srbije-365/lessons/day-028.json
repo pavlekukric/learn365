@@ -6,13 +6,53 @@
   "dayNumber": 28,
   "order": 11,
   "title": "Carevi rođeni na tlu Srbije",
+  "subtitle": "Zašto je tokom trećeg i četvrtog veka Rimsko carstvo dobijalo vladare baš sa srednjeg Balkana",
   "readingTimeMinutes": 8,
   "year": 290,
-  "isPlaceholder": true,
+  "dateLabel": "3–4. vek n. e.",
+  "timelinePosition": "~290. n. e.",
+  "summary": "Tokom kasne antike više od petnaest rimskih careva poteklo je iz ilirsko-panonskog pojasa, a značajan deo njih rodio se na tlu današnje Srbije. Razlog nije etnički — Srba ovde još nema — nego vojni: legije sa Dunava postale su najjača sila u carstvu u krizi.",
+  "keyPeople": ["Aurelijan", "Prob", "Konstancije Hlor", "Konstantin Veliki", "Galerije", "Jovijan", "Konstancije II"],
+  "keyPlaces": ["Naissus", "Sirmijum", "Romulijana", "Singidunum"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Jedna od najčudnijih činjenica antičke istorije ovog tla glasi ovako: tokom trećeg i četvrtog veka nove ere, više od petnaest rimskih careva rođeno je u širem pojasu Ilirika i Panonije, a značajan broj njih upravo na zemlji koja će mnogo kasnije postati Srbija. Među njima su imena koja se i danas pamte u svetskoj istoriji — Aurelijan, Prob, Galerije, Konstancije Hlor, Konstantin Veliki, Licinije, Jovijan. Za carstvo koje se prostiralo od Atlantika do Eufrata, ta gusta koncentracija vladara iz jednog uskog provincijskog pojasa nije bila slučajnost; bila je posledica jedne duboke krize i jednog vrlo praktičnog odgovora na nju."
+    },
+    {
+      "type": "paragraph",
+      "text": "Da bi se razumeo taj fenomen, treba se vratiti na sredinu trećeg veka, u doba poznato kao kriza trećeg veka. Carstvo se tada našlo pod istovremenim pritiskom sa svih strana: Germani su prelazili Rajnu i Dunav, Persijanci napadali sa istoka, unutrašnji ratovi smenjivali su careve gotovo svake godine. Stari senatorski Rim više nije mogao da odgovori na tu pretnju. Vlast je sve manje zavisila od porekla i obrazovanja, a sve više od jednog jedinog pitanja — ko komanduje vojskom koja drži ključne granice. A najduža, najugroženija i najvažnija granica carstva bio je Dunav."
+    },
+    {
+      "type": "paragraph",
+      "text": "Upravo tu, duž Dunava i u njegovoj zaleđini, stajale su ilirske i panonske legije. To su bile najveće, najiskusnije i najbolje uvežbane vojne jedinice carstva, kaljene u stalnim graničnim sukobima. Iz njih su izrastali oficiri kojima rat nije bio vežba nego svakodnevica, a vojnička disciplina jedini poznati red. Kada bi takve trupe proglasile svog komandanta carem, ostali delovi carstva su to obično morali da prihvate — jer niko drugi nije imao snagu da im se suprotstavi. Tako je politički centar gravitacije postepeno klizio sa Tibra na Dunav, i tako su ljudi rođeni u graničnim provincijama dobili priliku kakvu pre toga nisu imali."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Imena, mesta, sudbine"
+    },
+    {
+      "type": "paragraph",
+      "text": "Geografski pregled je gotovo zapanjujući. Aurelijan, jedan od ključnih careva koji je u kratkoj vladavini od 270. do 275. zaustavio raspad carstva, rođen je u okolini Sirmijuma, današnje Sremske Mitrovice. Prob, koji vlada od 276. do 282, takođe je sa sirmijumskog tla; antičke beleške pamte ga i kao cara koji je svoje vojnike koristio za sadnju vinove loze u Sremu. Galerije, kasniji august i jedan od poslednjih velikih progonitelja hrišćana, rođen je u blizini Romulijane — palate koju će sebi podići na istoku današnje Srbije, u kraju oko Gamzigrada. Konstancije Hlor, otac Konstantina Velikog, dolazi iz šireg ilirskog kruga, dok je sam Konstantin rođen u Naisusu, današnjem Nišu, oko 272. godine."
+    },
+    {
+      "type": "paragraph",
+      "text": "Lista se tu ne završava. Licinije, dugogodišnji Konstantinov saveznik i potom suparnik, potiče iz okoline Sirmijuma. Konstancije II, Konstantinov sin i vladar ogromnog dela carstva sredinom četvrtog veka, takođe je rođen u Sirmijumu. Jovijan, kratkotrajni car iz 363–364. godine, dolazi iz okoline Singidunuma, današnjeg Beograda. Iz iste šire grupe potiče i niz manjih ili sporednih careva i uzurpatora čija imena danas zna uglavnom stručna javnost. Istoričari su za njih osmislili zajednički naziv — ilirski carevi — više kao geografsku odrednicu nego kao etničku. Oni nisu činili jednu dinastiju; činili su jednu vojnu i regionalnu sredinu iz koje je carstvo, generaciju za generacijom, vadilo svoje vladare."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ovde, međutim, mora doći jedno odlučno upozorenje, jer se ova tema lako zloupotrebljava. Ti carevi nisu bili „Srbi”. Srbi se na ovo tlo doseljavaju tek u sedmom veku, dakle više od trista godina posle Konstantinove smrti i preko pet stotina godina posle Aurelijana. Carevi o kojima govorimo bili su Rimljani — pripadnici romanizovanog stanovništva Ilirika i Panonije, govornici latinskog, vaspitani u rimskom pravu, rimskoj vojsci i rimskoj religiji. Njihovo poreklo je bilo lokalno, ali njihova kultura, jezik i identitet bili su rimski. Pretvarati ih u nacionalne pretke značilo bi izneveriti i istoriju i njih same."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ono što ipak ostaje, i što je istorijski legitimno reći, jeste kontinuitet mesta, a ne krvi. Isti gradovi — Sirmijum, Naisus, Singidunum, Viminacijum — koji su u kasnoj antici davali careve, kasnije će postati važna mesta srednjovekovne srpske države, a danas su njena najvažnija urbana središta. Reljef, putevi, rečne doline i strateški značaj ostali su isti; menjali su se samo narodi koji su ih naseljavali i jezici na kojima su o njima govorili. Sa tog stanovišta, priča o ilirskim carevima nije priča o srpskim precima, nego priča o tome koliko je ovo tlo, zbog svog položaja na Dunavu i na velikim balkanskim putevima, vekovima bilo važno za svaku silu koja je htela da vlada Evropom."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sledeće lekcije će se zaustaviti na pojedinim figurama iz ove galerije i pogledati ih iz blizine — kako je Dioklecijan uspeo da reformiše carstvo u sistemu tetrarhije, kako se Konstantin uzdigao iz niškog dvorišta do položaja jedinog gospodara rimskog sveta, i šta je značilo to što je hrišćanstvo, baš pod njim, prvi put postalo deo carskog poretka. Pre nego što pređemo na njih kao na pojedince, dobro je imati pred očima ovu opštu sliku: u jednom dramatičnom dvovekovnom periodu, carstvo je preživljavalo zahvaljujući ljudima rođenim na granici, a ta granica je upravo prolazila ovuda."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

@@ -6,13 +6,53 @@
   "dayNumber": 27,
   "order": 10,
   "title": "Sirmijum — carski grad",
+  "subtitle": "Kako je grad na Savi, na mestu današnje Sremske Mitrovice, postao jedna od prestonica Rimskog carstva",
   "readingTimeMinutes": 8,
   "year": 290,
-  "isPlaceholder": true,
+  "dateLabel": "3–4. vek n. e.",
+  "timelinePosition": "~290. n. e.",
+  "summary": "U trećem i četvrtom veku Sirmijum, na mestu današnje Sremske Mitrovice, bio je jedan od najvažnijih gradova rimskog sveta — vojni štab, kovnica novca i, pod Dioklecijanovom tetrarhijom, jedna od četiri carske prestonice.",
+  "keyPeople": ["Dioklecijan", "Galerije", "Konstancije II", "Teodosije I", "Gracijan"],
+  "keyPlaces": ["Sirmijum", "Sremska Mitrovica", "Sava", "Panonija"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Postoji nešto teško zamislivo u rečenici da je jedna od prestonica Rimskog carstva bila na tlu današnje Srbije. Ipak, to nije slika, nego činjenica. U trećem i četvrtom veku grad po imenu Sirmijum, na desnoj obali Save, na mestu današnje Sremske Mitrovice, ulazio je u uži krug najvažnijih gradova rimskog sveta. U njemu su boravili carevi, kovan je novac sa njihovim likovima, podizane su bazilike i palate, a vojni pohodi na Dunav i Balkan kretali su iz njegovih kapija. Za jedno duže razdoblje, kada se govorilo o središtima carstva, Sirmijum se pominjao u istom dahu kao Trir, Milano i Nikomedija."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ime grada starije je od Rima na ovom prostoru. Sirmijum je nastao na naselju koje su Rimljani zatekli — pripisuje se panonsko-ilirskom plemenu Sirmijenza, po kome je verovatno i dobio ime. Posle rimskog osvajanja Panonije, u prvom veku nove ere, naselje je dobilo status kolonije i počelo da se preuređuje po rimskom obrascu: pravougaona mreža ulica, forum, javne građevine, vodovod. Položaj je bio izuzetan. Sava je tu plovna i široka; na njoj su pristajali brodovi koji su povezivali unutrašnjost Balkana sa Dunavom i, dalje, sa Crnim morem. Kopneni putevi su se ukrštali baš tu — iz Italije ka istoku, sa severa ka jugu, od dunavskog limesa ka Egeju. U vreme kada je carstvo razmišljalo u terminima legija i puteva, malo je gradova imalo bolju geografiju."
+    },
+    {
+      "type": "paragraph",
+      "text": "Tokom prva dva veka Sirmijum je bio uređena, ali ne i izuzetna provincijska prestonica. Pravi uspon počinje u trećem veku, u doba takozvane krize carstva, kada su barbarski upadi i unutrašnji ratovi pomerili težište političkog života iz Rima ka graničnim oblastima. Dunavski limes je tada postao glavni front, a Sirmijum prirodno zaleđe tog fronta — dovoljno blizu da bude vojni štab, dovoljno daleko da bude bezbedan. Carevi su iz njega vodili kampanje protiv Gota, Sarmata i drugih naroda sa one strane reke. Više careva tog razdoblja rođeno je u samom gradu ili u njegovoj neposrednoj okolini; tradicija pripisuje sirmijumsko poreklo Deciju, Probu i, među piscima, Aureliju Viktoru. Tačnost svakog pojedinog podatka može se dovoditi u pitanje, ali ukupna slika je jasna: ovaj kraj davao je carstvu vojnike, oficire i vladare."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Jedna od četiri prestonice"
+    },
+    {
+      "type": "paragraph",
+      "text": "Odlučujući trenutak dolazi sa reformom cara Dioklecijana, oko 293. godine. Suočen sa neodrživim teretom upravljanja ogromnim carstvom iz jednog središta, Dioklecijan je vlast podelio na četvoricu — dva starija cara sa titulom augusta i dva mlađa sa titulom cezara. Svaki je dobio svoj deo carstva i svoju prestonicu, ne više Rim, nego grad blizu fronta na kome je trebalo delovati. Tako su nastali tetrarhijski centri: Trir na Rajni, Milano u severnoj Italiji, Nikomedija u Maloj Aziji i — Sirmijum, na Savi. Rim je tada simbolično ostao srce, ali stvarna vlast preselila se u ova četiri grada. Sirmijum je pripao istoku tetrarhije i postao prestonica cezara Galerija, koji je odavde vodio ratove protiv Sarmata i Persijanaca."
+    },
+    {
+      "type": "paragraph",
+      "text": "Status prestonice menjao je grad iz osnove. U Sirmijumu je tada radila carska kovnica, jedna od ključnih u carstvu; iz nje su izlazili novčići sa likovima cezara i augusta, koji su putovali sve do Britanije i Egipta. Podignuta je carska palata sa pratećim kompleksom, a uz nju i hipodrom — obavezni element svake tetrarhijske prestonice, jer su trke kola bile mesto na kome se car pokazivao narodu. U gradu su radile velike žitnice u koje se sliva žito iz panonske ravnice, jer je bez stabilnog snabdevanja vojska na Dunavu bila nezamisliva. Bedem oko grada bio je obnovljen i ojačan. Hrišćanske zajednice, sve brojnije, gradile su bazilike; istovremeno, u doba Dioklecijanovih progona, Sirmijum je dao i svoje mučenike, među kojima se najpouzdanije pamti đakon Irinej."
+    },
+    {
+      "type": "paragraph",
+      "text": "I posle Dioklecijanovog povlačenja Sirmijum je ostao mesto u kome se vodila visoka politika. Tu je u različitim trenucima boravio Konstancije Drugi, sin Konstantina Velikog; odavde su išle naredbe za upravljanje istočnim Balkanom. Kratko vreme grad je bio rezidencija Teodosija Prvog, pre nego što je krenuo ka Konstantinopolju. U njemu je proglašen za cara mladi Gracijan. U sirmijumskoj palati održani su i crkveni sabori u doba sukoba oko arijanske jeresi, što govori koliko je ovaj grad bio uključen u tadašnji intelektualni i verski život carstva. Sirmijum nije bio samo vojnička baza; bio je administrativno, ekonomsko i religijsko središte čitave centralne Evrope onoga doba."
+    },
+    {
+      "type": "paragraph",
+      "text": "Kraj je došao iznenada. Sredinom petog veka, 441. godine, Sirmijum su zauzeli i opustošili Huni. Grad se delimično oporavio i ostao deo istočnorimske, kasnije vizantijske oblasti, ali stari sjaj se nije vratio. Konačan udarac usledio je 582. godine, kada su ga, posle duge opsade, osvojili Avari. Ono što je preživelo gotovo četiri veka kao jedan od stubova carstva, nestalo je u nekoliko godina. Stanovništvo je raseljeno ili pobijeno, građevine su propale, ime grada je iz živog govora postepeno iščezlo. Kada se kasnije, u srednjem veku, na istom mestu razvilo novo naselje, ono je nosilo drugo ime — po crkvi Svetog Dimitrija, današnja Sremska Mitrovica."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ipak, antički Sirmijum nije sasvim nestao. Pod ulicama današnjeg grada leže ostaci carske palate, deo hipodroma, mozaici, temelji bazilika, fragmenti bedema. Arheološka istraživanja traju više od jednog veka i svakih nekoliko godina donose nešto novo — od carskih reprezentativnih dvorana do skromnih radioničkih prostora. Današnja Sremska Mitrovica time je, na svojevrstan način, dvostruki grad: živo savremeno mesto na površini i ogroman, samo delimično otkriven antički grad ispod njega. Sećanje na Sirmijum je, dakle, sećanje na trenutak kada je carstvo bilo ovde, doslovno ispod naših nogu, i kada se sudbina rimskog sveta jednim svojim delom kretala iz grada na Savi."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

@@ -6,13 +6,49 @@
   "dayNumber": 66,
   "order": 6,
   "title": "Kralj Milutin — uspon",
+  "subtitle": "Kako je mlađi sin Uroša I 1282. godine preuzeo presto i odmah krenuo na jug, ka Skoplju i Vizantiji",
   "readingTimeMinutes": 8,
   "year": 1282,
-  "isPlaceholder": true,
+  "dateLabel": "1282–1321.",
+  "timelinePosition": "1282.",
+  "summary": "Dolazak Stefana Uroša II Milutina na presto 1282. godine, Deževski sporazum sa bratom Dragutinom, prvi osvajački pohod na Skoplje i sklapanje mira sa Vizantijom brakom sa Simonidom 1299. godine.",
+  "keyPeople": ["Milutin", "Dragutin", "Simonida", "Andronik II Paleolog", "Stefan Dečanski", "Jelena Anžujska", "Ana Terter"],
+  "keyPlaces": ["Skoplje", "Deževo", "Carigrad", "Makedonija", "Raška"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Kada se 1282. godine na čelu srpske države iznenada našao Stefan Uroš II, kasnije upamćen kao Milutin, malo ko je mogao da nasluti da pred Srbijom stoji jedna od najdužih i najambicioznijih vladavina celog srednjeg veka. Mlađi sin kralja Uroša I i Jelene Anžujske, vaspitan na dvoru u kome se uporedo govorilo o latinskoj Evropi i o Vizantiji, Milutin je do tada živeo u senci starijeg brata Dragutina. Sticajem okolnosti — i jednog teškog pada s konja — ta senka se naglo razmakla, i mladi knez je preuzeo presto u trenutku kada se na jugu raspadala stara vizantijska prevlast. Iskoristio je taj trenutak brže i odlučnije nego iko pre njega."
+    },
+    {
+      "type": "paragraph",
+      "text": "Okolnosti smene bile su neobične i odredile su čitavu Milutinovu kasniju politiku. Dragutin je nekoliko godina ranije, 1276, oružjem zbacio s prestola sopstvenog oca Uroša I i sam postao kralj. Vladao je svega šest godina kada je, prema vestima izvora, prilikom putovanja kod Jeleča pao s konja i teško slomio nogu. Povreda mu je trajno oštetila zdravlje i, što je u ono doba bilo jednako važno, oštetila mu je i ugled ratničkog vladara — kralj koji ne može da uzjaše konja teško je mogao da vodi vojsku. Na saboru u mestu Deževo, negde u Raškoj, braća su sklopila sporazum: Dragutin se povlači u korist mlađeg brata, a Milutin preuzima krunu. O tačnim uslovima Deževskog sporazuma izvori govore tek u opštim crtama, a kasniji srpski letopisi tvrde da je dogovoreno i da posle Milutina presto pripadne Dragutinovom sinu Vladislavu. Da li je takva odredba zaista bila izričito uneta u sporazum ili je naknadno pripisana, ostaje predmet stručne rasprave; sigurno je samo da Milutin u poznijim godinama te uslove neće poštovati."
+    },
+    {
+      "type": "paragraph",
+      "text": "Dragutin je dobio na upravu severne oblasti, sa centrom u Beogradu i Mačvi, koje je delom držao kao zet ugarskog kralja, i tamo je vladao kao zaseban vladar — „sremski kralj”, kako će ga zvati. Milutin je zadržao Rašku, srce države, i odmah usmerio pogled na jug. Vizantijsko carstvo, nedavno obnovljeno u Carigradu pod Mihailom VIII Paleologom, bilo je iscrpljeno ratovima na zapadu, prepirkama sa papstvom oko unije i pretnjom Karla Anžujskog iz južne Italije. Kada je Mihailo VIII umro krajem 1282. godine, presto je nasledio njegov sin Andronik II, vladar učen i pobožan, ali bez očeve ratničke odlučnosti. Za mladog srpskog kralja to je bio poziv koji je odmah razumeo."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Pohod na Skoplje"
+    },
+    {
+      "type": "paragraph",
+      "text": "Već u prvim mesecima vladavine Milutin je sa bratom Dragutinom poveo zajednički pohod na vizantijske oblasti u severnoj Makedoniji. Operacije nisu dugo trajale. Srpska vojska je brzo zauzela Skoplje, jedan od najvažnijih gradova vardarske doline, a sa njim i čitav niz uporišta i utvrđenja u okolini. Linija srpske vlasti spustila se daleko južnije od stare granice — do Polog i do oblasti oko reke Crne. Skoplje, dotad vizantijski upravni i crkveni centar, gotovo odmah je postalo jedna od omiljenih Milutinovih prestonica i, vremenom, simbolično središte njegove vlasti. Sa ovim pohodom prestaje uloga Raške kao zatvorene unutrašnje države i počinje epoha u kojoj srpski kralj sedi na granici sa Vizantijom i pogled drži ka Solunu i Egejskom moru."
+    },
+    {
+      "type": "paragraph",
+      "text": "Vizantijska reakcija bila je više diplomatska nego vojna. Andronik II pokušao je u nekoliko navrata da pokrene odgovor — uključujući i unajmljivanje turskih i alanskih najamnika — ali su svi pohodi propali ili završili polovičnim uspesima. Sukobi na granici trajali su gotovo dve decenije, sa kraćim primirjima i novim provalama. Tokom tih godina Milutin je dograđivao i unutrašnju vlast. Imao je, jedno za drugim, više supruga, što je u to doba bilo i zakonski i crkveno problematično. Najpre se oženio ćerkom jednog tesalijskog gospodara, zatim ugarskom princezom, pa bugarskom princezom Anom Terter, ćerkom tadašnjeg bugarskog cara. Svaki od tih brakova bio je politički potez — sklapanje saveza, otvaranje granice, razbijanje protivničke koalicije — i svaki je, kada bi promenu zahtevala nova prilika, bivao napuštan. Crkva je takvu praksu trpela jer nije imala snagu da je spreči, ali joj je zamerala; to će ostaviti traga na Milutinovom unutrašnjem ugledu kod ozbiljnih duhovnih krugova."
+    },
+    {
+      "type": "paragraph",
+      "text": "Rat sa Vizantijom završio se 1299. godine na način tipičan za srednji vek — brakom. Andronik II, suočen sa nesposobnošću svoje vojske da povrati izgubljene oblasti, prihvatio je rešenje koje su mu predlagali pregovarači: da svoju mladu kćer Simonidu da Milutinu za ženu, a granica iz trenutka pregovora postaje stalna srpska. Bila je to, po svojim ljudskim okolnostima, jedna od najmučnijih tačaka Milutinove vladavine. Simonida je u trenutku veridbe imala oko pet godina, a kralj je već bio u srednjim četrdesetim. Vizantijski izvori, naročito istoričar Pahimer, otvoreno su pisali o nelagodi koju je taj brak izazvao u Carigradu i među samom carskom porodicom. Milutin je morao da raskine prethodnu vezu sa Anom Terter; obavezao se da će Simonida do određene dobi ostati pod brigom dvorskih žena. Iz današnje perspektive reč je o postupku koji se ne može braniti; iz srednjovekovne, bio je to politički potez kakvih je u dinastičkim odnosima tog veka bilo i sa zapadne i sa istočne strane Evrope."
+    },
+    {
+      "type": "paragraph",
+      "text": "Za Srbiju je, međutim, mir iz 1299. doneo upravo ono što je Milutin tražio. Vizantija je priznala srpske teritorijalne dobitke, severna Makedonija sa Skopljem ostala je u njegovim rukama, a srpski kralj je brakom sa carevom kćerkom ušao u sam vrh vizantijskog poretka časti. Posle dva veka u kojima su raški vladari morali da se mere prema vasilevsu kao prema dalekom gospodaru, sada je srpski kralj postao njegov zet i ravnopravan partner. Unutar zemlje, Milutin je tih godina morao da rešava i porodične sporove — sukob sa Dragutinovim naslednicima oko obećanog redosleda nasleđivanja, kasnije i tešku pobunu sopstvenog sina Stefana, budućeg Dečanskog, o kojoj će izvori, sa različitim pristrasnostima, dugo pisati. Sve to tek dolazi. Do prelaza u četrnaesti vek, mladi kralj iz 1282. godine prerastao je u jednu od najmoćnijih ličnosti pravoslavnog sveta — vladara čija će spoljna politika i čije zadužbine, o kojima govore naredne dve lekcije, obeležiti vek koji upravo počinje."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

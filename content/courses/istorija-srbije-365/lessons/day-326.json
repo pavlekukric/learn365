@@ -6,13 +6,49 @@
   "dayNumber": 326,
   "order": 11,
   "title": "AVNOJ i temelji nove Jugoslavije",
+  "subtitle": "Bihać 1942. i Jajce 1943. — kako je partizanski pokret, dok je rat još trajao, izgradio politički okvir nove države",
   "readingTimeMinutes": 7,
   "year": 1943,
-  "isPlaceholder": true,
+  "dateLabel": "1942–1943.",
+  "timelinePosition": "1942–1943.",
+  "summary": "Na zasedanjima u Bihaću 1942. i Jajcu 1943. partizanski pokret je AVNOJ-em proglasio buduću federalnu Jugoslaviju, zabranio povratak kralju i obrazovao sopstvenu vlast pre nego što se rat završio.",
+  "keyPeople": ["Josip Broz Tito", "Ivan Ribar", "Edvard Kardelj", "Moša Pijade", "kralj Petar II Karađorđević", "Ivan Šubašić"],
+  "keyPlaces": ["Bihać", "Jajce", "Vis", "Beograd", "London", "Teheran"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Dok je rat u Jugoslaviji još bio neizvestan i dok je veliki deo zemlje bio pod nemačkom i italijanskom okupacijom, partizanski pokret je već počeo da gradi politički okvir buduće države. To je bila važna odluka. Otpor se nije zadovoljavao vojnim dejstvima protiv okupatora; želeo je da, kada se rat završi, novu Jugoslaviju zatekne sa sopstvenom vlašću, sopstvenim zakonima i sopstvenim odgovorom na pitanje šta država treba da bude. Iz te zamisli rođeno je Antifašističko veće narodnog oslobođenja Jugoslavije — AVNOJ, telo koje je rat doživljavalo i kao priliku da se napravi politički zaokret."
+    },
+    {
+      "type": "paragraph",
+      "text": "Prvo zasedanje održano je u Bihaću, u zapadnoj Bosni, 26. i 27. novembra 1942. godine. Grad je tada bio središte takozvane Bihaćke republike, prostrane oslobođene teritorije koju je Narodnooslobodilačka vojska držala između neprijateljskih ofanziva. Na zasedanje je došlo oko pedeset četiri delegata iz različitih krajeva zemlje — partizanski komandanti, predratni političari iz manjih građanskih i seljačkih stranaka, intelektualci, sveštenici, predstavnici raznih naroda. Za predsednika je izabran Ivan Ribar, ugledan političar Kraljevine Jugoslavije i nekadašnji predsednik Ustavotvorne skupštine, čije je ime davalo veću legitimnost čitavom telu. Obrazovan je Izvršni odbor, a osnovna poruka glasila je da se vodi rat za slobodnu, bratsku Jugoslaviju ravnopravnih naroda. Bihaćki AVNOJ još nije sebe proglasio vladom; bio je više opšti politički savez koji se izjašnjavao protiv okupatora i protiv saradnika sa okupatorom."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Jajce, novembar 1943."
+    },
+    {
+      "type": "paragraph",
+      "text": "Drugo zasedanje, održano u Jajcu 29. i 30. novembra 1943, bilo je mnogo dalekosežnije. U malom bosanskom gradu, u zgradi predratnog Doma kulture, okupilo se oko sto četrdeset delegata. Politički trenutak bio je povoljan: nekoliko dana ranije, na konferenciji u Teheranu, vođe velikih savezničkih sila prećutno su priznale partizane kao glavnu snagu otpora u Jugoslaviji i odlučile da im upućuju pomoć. To je davalo pokretu osećaj da može da govori kao buduća vlast, a ne samo kao gerilska vojska."
+    },
+    {
+      "type": "paragraph",
+      "text": "Odluke iz Jajca bile su veoma jasne. AVNOJ se proglasio vrhovnim zakonodavnim i predstavničkim telom naroda Jugoslavije. Obrazovan je Nacionalni komitet oslobođenja Jugoslavije — NKOJ — kao privremena vlada, sa Josipom Brozom Titom na čelu. Istog dana Titu je dodeljen čin maršala, prvi i jedini u istoriji jugoslovenske vojske. Najteža poruka bila je upućena ka Londonu: kralju Petru II Karađorđeviću zabranjeno je da se vrati u zemlju do kraja rata, a izbegličkoj vladi oduzeta su sva svojstva legitimne jugoslovenske vlasti. Konačna odluka o državnom uređenju i o monarhiji ostavljena je narodu da je donese posle rata, ali je smer već bio nedvosmisleno postavljen."
+    },
+    {
+      "type": "paragraph",
+      "text": "U Jajcu je, takođe, prvi put zvanično iscrtana federalna karta buduće Jugoslavije. Država je trebalo da bude savez šest ravnopravnih republika — Srbije, Hrvatske, Slovenije, Bosne i Hercegovine, Makedonije i Crne Gore — uz ravnopravnost svih naroda i narodnosti. Geslo „bratstvo i jedinstvo“ postalo je glavna politička formula pokreta. Iza njega je stajala iskrena želja da se zaustave međunacionalna klanja koja su u Drugom svetskom ratu odnosila stotine hiljada života i da se zemlja, posle krvavog iskustva sa unitarističkom Kraljevinom Jugoslavijom i sa ustaškom „Nezavisnom Državom Hrvatskom“, uredi na ravnopravnim osnovama."
+    },
+    {
+      "type": "paragraph",
+      "text": "Posledice su brzo došle. Tokom 1944. godine, pod savezničkim pritiskom — pre svega britanskim — kraljevska vlada u izbeglištvu morala je da pregovara sa Titom. Premijer Ivan Šubašić, hrvatski političar iz redova Hrvatske seljačke stranke, sastao se sa Titom najpre u junu 1944. na ostrvu Visu, gde je sklopljen takozvani Viški sporazum o saradnji, a zatim u novembru iste godine u već oslobođenom Beogradu, gde je potpisan Beogradski sporazum o spajanju dve vlasti. Iz tih dogovora 1945. godine izaći će zajednička privremena vlada, u kojoj je Tito bio predsednik, a Šubašić ministar inostranih poslova. Formalno se činilo da su monarhija i pokret otpora ušli u kompromis; stvarno, težište vlasti već je davno bilo prešlo na stranu AVNOJ-a."
+    },
+    {
+      "type": "paragraph",
+      "text": "Odluke iz Bihaća i Jajca treba sagledati pošteno, bez naknadnih boja. One su stvorile ustavni i politički okvir socijalističke Jugoslavije koja će potrajati skoro pola veka. U njima je bilo i nesumnjivih vrednosti — federalno uređenje, načelno priznavanje nacionalne ravnopravnosti, pokušaj da se sa rasizmom i mržnjom raskrsti kao sa političkim sredstvom. Istovremeno, to je bio i jednostrani potez jedne strane u ratu, koja je preuzela na sebe ulogu predstavnika svih naroda Jugoslavije, a da druge političke tradicije — građanske, seljačke, monarhističke — nisu bile pozvane da o tome odlučuju. Pluralizam koji je predratna Jugoslavija imala makar formalno, posle Jajca je sužen na okvir jednog pokreta i kasnije jedne partije. Buduća Jugoslavija rodila se u ratu, sa krunom skinutom i sa zastavom na kojoj je sijala crvena zvezda — i sa tim dvostrukim nasleđem, vrlinom ravnopravnosti i teretom političkog monopola, ući će u svoja sledeća desetlja."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

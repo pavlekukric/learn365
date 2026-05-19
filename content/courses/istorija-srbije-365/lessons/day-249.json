@@ -6,13 +6,53 @@
   "dayNumber": 249,
   "order": 3,
   "title": "Berlinski kongres — nezavisnost",
+  "subtitle": "Kako je leta 1878. u Berlinu Srbija dobila punu državnu nezavisnost — i istovremeno izgubila Bosnu kao mogući okvir",
   "readingTimeMinutes": 8,
   "year": 1878,
-  "isPlaceholder": true,
+  "dateLabel": "1878.",
+  "timelinePosition": "1878.",
+  "summary": "Berlinski kongres revidira Sanstefanski mir: Srbija dobija punu nezavisnost od Osmanskog carstva, krug oko Niša, Pirota, Vranja i Toplice, ali Austro-Ugarska dobija mandat nad Bosnom i Hercegovinom.",
+  "keyPeople": ["Jovan Ristić", "Otto von Bismarck", "knez Milan Obrenović", "Andrássy", "Gorčakov"],
+  "keyPlaces": ["Berlin", "San Stefano", "Niš", "Pirot", "Vranje", "Bosna i Hercegovina"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Pobeda u ratovima 1876–1878, izvojevana skupom krvlju srpske i ruske vojske, na papiru je već bila zapisana — u Sanstefanskom prethodnom miru, koji je Rusija marta 1878. nametnula poraženom Osmanskom carstvu na pragu Carigrada. Taj mir je, međutim, u Beču i Londonu primljen kao otvorena pretnja. Velika Bugarska koju je San Stefano predviđao, sa izlaskom na Egejsko more, bila bi ruski klin u srce Balkana; Austro-Ugarska bi izgubila slobodne ruke prema Bosni; Britanija bi videla kako se ruski uticaj približava Sredozemlju. Bilo je jasno da će rezultate rata morati da potvrdi — ili da preinači — koncert evropskih sila. Sastanak je sazvan u Berlinu, na poziv nemačkog kancelara Otta von Bismarcka."
+    },
+    {
+      "type": "paragraph",
+      "text": "Kongres je zasedao od 13. juna do 13. jula 1878. godine po novom kalendaru. Predsedavao je Bismarck lično, sa namerom da nastupi kao „pošten posrednik” — formulacija kojom je sebe predstavio i koja je trebalo da znači da Nemačka nema neposrednih balkanskih apetita. Iza te uljudne fasade ipak je stajao tvrd dogovor između Beča i Londona, sklopljen još pre samog kongresa, kojim su unapred utvrđene granice popuštanja prema Rusiji. Velika Bugarska je rasečena na tri dela; ruski plan o jedinstvenoj slovenskoj državi pod svojim okriljem zaustavljen je usred koraka. Za male balkanske države — Srbiju, Crnu Goru i Rumuniju — to je značilo da o njihovoj sudbini neće odlučivati ono što su same izvojevale, nego ono što velike sile budu spremne da im priznaju."
+    },
+    {
+      "type": "paragraph",
+      "text": "Srpsku delegaciju u Berlinu vodio je Jovan Ristić, ministar inostranih dela i čovek koji je već godinama u sebi spajao iskustvo diplomate i hladnu računicu državnika. Njegov zadatak bio je dvostruk: pretvoriti vojnu pobedu u međunarodno priznanje i obezbediti da Srbija prvi put posle 1459. godine — posle pada Smedereva — uđe u krug priznatih evropskih nezavisnih država. Pritom je morao da računa sa tim da Rusija, nezadovoljna gubitkom San Stefana, nije više pouzdan zaštitnik, i da bez razumevanja sa Bečom nijedan srpski cilj neće proći. Ristić je u Berlinu razgovarao više sa austrougarskim ministrom Andrássyjem nego sa ruskim Gorčakovim — i to je već bila tiha najava preokreta u srpskoj spoljnoj politici."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Šta je Srbija dobila, a šta izgubila"
+    },
+    {
+      "type": "paragraph",
+      "text": "Berlinski ugovor doneo je Srbiji tri velike stvari. Prvo i najvažnije — punu državnu nezavisnost od Osmanskog carstva, posle gotovo četiri i po veka u kojima je ona, u različitim oblicima, bila samo vazalna ili autonomna jedinica. Drugo, teritorijalno proširenje od oko jedanaest hiljada kvadratnih kilometara: krug oko Niša, Pirota, Vranja, Leskovca, Prokuplja i Toplica. Sa tim zemljama Srbija je dobila i prvu pravu južnu granicu, polje za novu upravu, nove škole i nove železničke planove. Treće, ulazak u red država sa kojima Evropa razgovara protokolom, a ne fermanom. Cena tih dobitaka bila je obavezujuća: Srbija je morala da prizna verska prava manjinama — pre svega Jevrejima, čije je puno građanstvo postalo međunarodna obaveza — i da prihvati propise o slobodnoj plovidbi Dunavom i o povezivanju srpskih železnica sa austrougarskim sistemom."
+    },
+    {
+      "type": "paragraph",
+      "text": "Najteže opterećenje, međutim, nije bilo zapisano u srpskim članovima ugovora, nego u onim koji su govorili o Bosni i Hercegovini. Te dve oblasti, formalno još uvek deo Osmanskog carstva, predate su Austro-Ugarskoj na okupaciju i upravu. Time je bila zatvorena vrata kroz koja je srpska politika decenijama gledala — vrata ka zapadnim srpskim zemljama i ka jedinstvenom državnom okviru sa Bosnom. Nezavisnost je bila stečena, ali „novi okviri” nisu bili oni o kojima se sanjalo u Kragujevcu i Beogradu pre rata. Onaj prostor koji je u srpskoj javnosti smatran prirodnim nastavkom oslobođenja, sada je dolazio pod tuđu, i to znatno jaču upravu."
+    },
+    {
+      "type": "paragraph",
+      "text": "Srbija nije bila jedina koja je tog leta zakoračila u red samostalnih država. Punu nezavisnost u Berlinu dobile su i Crna Gora, sa proširenjima u Hercegovini i izlaskom na more kod Bara, i Rumunija, premda po cenu ustupanja južne Besarabije Rusiji. Bugarska je dobila kneževinu, ali znatno manju od one o kojoj je sanjala u San Stefanu. Stvorena je, dakle, nova balkanska karta — sa nekoliko mladih, slabih, međusobno već posvađanih država i sa dva velika carstva, Osmanskim i Austro-Ugarskim, koja su i dalje držala ključne teritorije. Bio je to okvir u kome će se idućih trideset i šest godina kotrljati svi ratovi koji će na kraju dovesti do Velikog rata."
+    },
+    {
+      "type": "paragraph",
+      "text": "Za unutrašnju srpsku politiku Berlin je značio i tiho, ali odlučno okretanje od Petrograda ka Beču. Ristić je u prvi mah pokušao da to skretanje ublaži, ali je već knez Milan Obrenović, razočaran ruskim popuštanjem na kongresu i pritisnut ekonomskim potrebama nove države, brzo otišao dalje nego što su mnogi očekivali. Tajna konvencija sa Austro-Ugarskom, potpisana 1881. godine, biće logičan, mada bolan nastavak berlinske računice — i o njoj će biti reči u sledećoj epizodi. Za sada je dovoljno zapamtiti da je Berlinski kongres bio dvostruka škola: škola velike radosti, jer je Srbija konačno postala nezavisna država, i škola realne politike, jer je istog dana naučila da nezavisnost ne znači slobodu da se bira sve, već samo slobodu da se bira između stvarno mogućih saveza."
+    },
+    {
+      "type": "paragraph",
+      "text": "Kada je Jovan Ristić sredinom jula doneo kući potpisani ugovor, dočekan je kao čovek koji je obezbedio nezavisnost — i kao čovek koji je morao da prihvati ono što se nije moglo izbeći. Obe ocene su, na svoj način, bile tačne. Posle 1878. godine Srbija je imala međunarodno priznato ime, novu granicu na jugu, prve obaveze prema manjinama svog društva i prvu hipoteku svoje spoljne politike — Bosnu, koja je iz sna otišla u tuđu administraciju. Sa tom dvostrukom prtljagom ušla je u poslednje dve decenije devetnaestog veka, u kojima će se, već 1882, proglasiti kraljevinom."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

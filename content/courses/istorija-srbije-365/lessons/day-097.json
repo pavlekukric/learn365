@@ -6,13 +6,53 @@
   "dayNumber": 97,
   "order": 8,
   "title": "Srpski vladari i Sveta Gora",
+  "subtitle": "Hilandar, hrisovulje i lično hodočašće cara Dušana — kako je srpska država vekovima živela uz monašku planinu",
   "readingTimeMinutes": 7,
   "year": 1250,
-  "isPlaceholder": true,
+  "dateLabel": "12–14. vek",
+  "timelinePosition": "12–14. vek",
+  "summary": "Od Nemanjinog i Savinog zajedničkog osnivanja Hilandara 1198. do Dušanovog ličnog dolaska na Atos: kako su srpski vladari kroz hrisovulje, gradnju i darove vezali svoju državu za najvažnije središte pravoslavnog monaštva.",
+  "keyPeople": ["Stefan Nemanja", "Sveti Sava", "Milutin", "Stefan Dušan"],
+  "keyPlaces": ["Sveta Gora", "Hilandar", "Vatoped", "Halkidiki"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Na najistočnijem od tri prsta poluostrva Halkidiki, koji se uvlači duboko u Egejsko more, vekovima već stoji svet za sebe — Sveta Gora. To je samoupravna monaška zajednica, naseljena isključivo monasima, sastavljena od dvadeset velikih manastira i mnogih manjih obitelji, skitova i isposnica. Za pravoslavni svet ona je najvažnije središte monaškog života, mesto u koje se vekovima slivaju i ljudi i knjige i darovi. Kada se sredinom dvanaestog veka u Raškoj rađala nova srpska država, Sveta Gora je već bila stara nekoliko stotina godina, sa ustaljenim manastirima i ugledom koji je daleko prelazio granice Vizantije. Ono što će se dogoditi krajem tog veka i u naredna dva, vezaće srpsku dinastiju za tu planinu trajnije nego ijednu drugu balkansku kuću."
+    },
+    {
+      "type": "paragraph",
+      "text": "Veza počinje 1198. godine, zajedničkim delom oca i sina. Stefan Nemanja, koji je dve godine ranije sišao sa prestola i u Studenici primio monaški postrig kao Simeon, došao je na Atos kod svog najmlađeg sina Rastka — već monaha Save — koji je nekoliko godina pre toga, još kao mladić, pobegao u svetogorske manastire. Otac i sin obratili su se vizantijskom caru Aleksiju III i, hrisovuljom koja je sačuvana, dobili napušteni manastirić zvani Hilandar, sa pravom da ga obnove i pretvore u srpsku obitelj. Tako je nastao Hilandar — manastir koji od te godine pa do danas neprekidno postoji kao srpska kuća na Svetoj Gori i koji je u kasnijim vekovima postao duhovna majka svih srpskih manastira."
+    },
+    {
+      "type": "paragraph",
+      "text": "Od tog trenutka pa unapred, gotovo svaki Nemanjić smatrao je Hilandar svojim ličnim zadatkom. Stefan Prvovenčani potvrdio je očeve poklone novim hrisovuljama, dodao posede u Raškoj i prihode čije se kopije čuvaju u manastirskom arhivu. Njegovi sinovi i unuci nastavili su isto: redovni darovi u zlatnim i srebrnim sasudima, u bogoslužbenim knjigama, u selima i metohijama na primorju i u unutrašnjosti, u pravu na ribu i so. Ti darovi nisu bili samo pobožnost; bili su način da se srpska kruna javno predstavi pred očima čitavog pravoslavnog sveta, jer ono što se daruje Hilandaru videlo se i čulo na celoj Svetoj Gori i u Carigradu."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Milutin, Dušan i lično hodočašće"
+    },
+    {
+      "type": "paragraph",
+      "text": "Najveći graditeljski zamah došao je krajem trinaestog i početkom četrnaestog veka, sa kraljem Milutinom. Tada je u Hilandaru podignut novi glavni hram, katolikon, na mestu starije crkve — građevina koja u svojim osnovama i danas stoji. Milutin je u manastir uložio sredstva kakva u prethodnom veku nisu viđena, a kao i u drugim svojim zadužbinama, zaposlio je najbolje grčke majstore i slikare iz solunskog kruga. Pola veka kasnije, Stefan Dušan nastavio je delo svoga pradede sa još širom rukom: dodao je nove kule i konake, proširio katolikon, povećao posede i izdao niz hrisovulja koje su Hilandaru obezbedile prihode iz različitih krajeva srpske države."
+    },
+    {
+      "type": "paragraph",
+      "text": "Dušan je, međutim, učinio i nešto što nije učinio nijedan drugi srednjovekovni srpski vladar — lično je došao na Svetu Goru. Krajem 1347. i tokom prve polovine 1348. godine, posle svog carskog krunisanja u Skoplju i u jeku velike kuge koja je tada harala Evropom, Dušan je sa caricom Jelenom proveo više meseci među atonskim manastirima. To je bio neobičan i pažljivo organizovan boravak. Po starom svetogorskom pravilu, na poluostrvo ne smeju da uđu žene; za Jelenu je, prema vizantijskim izvorima, napravljen poseban izuzetak, mada izvori opisuju različito da li je ona sama prešla granicu monaške zemlje ili je boravila u pratnji koja je ostala uz njene rubove. O tome istoričari i danas raspravljaju. Sigurno je da je sam Dušan obišao niz manastira i tamo izdao niz dokumenata koji se računaju u temeljne akte odnosa srpske države i Svete Gore."
+    },
+    {
+      "type": "paragraph",
+      "text": "Tom prilikom Dušan nije darivao samo Hilandar. Posebnu pažnju ukazao je Vatopedu, velikom grčkom manastiru u kome je nekada, kao mladi monah, živeo Sveti Sava, i u kome je sahranjen Simeon pre nego što su mu mošti prenete u Studenicu. Hrisovulje je izdao i drugim velikim kućama — Velikoj Lavri, Esfigmenu, Filoteju, Karakalu. Time je srpski car praktično protegao svoju carsku zaštitu nad celom svetogorskom zajednicom, ne samo nad sopstvenim manastirom. Sve to vreme on je formalno bio i car Romeja, što mu je davalo pravo da se prema Atosu odnosi onako kako su se prema njemu vekovima odnosili vizantijski carevi — kao vrhovni svetovni zaštitnik."
+    },
+    {
+      "type": "paragraph",
+      "text": "Posle pada srpske države i postepenog osmanskog osvajanja Balkana, sve nemanjićke zadužbine na srpskom tlu prošle su kroz teška vremena. Hilandar je, na grčkoj zemlji i unutar svetogorske zajednice koja je sa Osmanlijama uspela da održi posebne dogovore, preživeo. U vekovima koji su sledili, on je postao utočište srpskih monaha i prepisivača, čuvar knjiga i povelja, jedno od najvažnijih mesta na kojima se srpska pismenost i liturgijska tradicija održavala kroz robovanje. Bez Hilandarske biblioteke i arhive mi danas o srednjovekovnoj srpskoj crkvi i državi znali bismo mnogo manje — veliki deo onoga što istoričari koriste su upravo tamo sačuvane povelje, rukopisi i diptisi."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ono što su Nemanja i Sava osnovali 1198. godine pretrajalo je sve države u kojima je nastalo. Hilandar i danas stoji kao srpski manastir na grčkoj zemlji, sa pravima koja se neprekinutom linijom vraćaju na onu prvu hrisovulju Aleksija III. Veza srpskih vladara i Svete Gore nije bila samo niz darova; bila je dugotrajna odluka da se najtrajniji deo srpske države — onaj duhovni, knjiški, ikonopisni — položi izvan granica zemlje, na mesto za koje su znali da će nadživeti i njih i njihove dvorove."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

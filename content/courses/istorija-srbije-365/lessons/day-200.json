@@ -6,13 +6,49 @@
   "dayNumber": 200,
   "order": 5,
   "title": "Prve pobede ustanika",
+  "subtitle": "Kako su ustanici 1804. zauzeli selo, opkolili gradove i kod Ivankovca prvi put pobedili regularnu osmansku vojsku",
   "readingTimeMinutes": 7,
   "year": 1804,
-  "isPlaceholder": true,
+  "dateLabel": "1804.",
+  "timelinePosition": "1804.",
+  "summary": "Od Orašca do Ivankovca: kako je u svega godinu i po dana ustanak ovladao šumadijskim selima, opkolio Beograd, sklonio dahije i prvi put porazio sultanovu redovnu vojsku.",
+  "keyPeople": ["Karađorđe", "Mladen Milovanović", "Hafiz-paša", "Bekir-paša", "Stanoje Glavaš", "Jakov Nenadović", "Hajduk Veljko Petrović", "Prota Matija Nenadović"],
+  "keyPlaces": ["Beograd", "Ada Kale", "Ivankovac", "Svilajnac", "Paraćin", "Šumadija"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Posle sastanka u Orašcu na Sretenje 1804. godine, ustanak se širio brže nego što su i sami njegovi prvaci očekivali. U toku nekoliko nedelja, gotovo svako selo Beogradskog pašaluka pristalo je uz dignutu zastavu — negde zato što je verovalo da je ovo trenutak koji se ne ponavlja, negde zato što su dahijski odredi već bili pobegli ili razbijeni. Karađorđeva snaga nije bila u velikim bitkama nego u tome što je seoska Srbija pristala da ga sluša. Do leta 1804. ustanici su praktično držali polja, drumove i sela; Turci su se zatvorili u utvrđene varoši i tu se branili, ali su ostali odsečeni od zaleđa koje ih je hranilo."
+    },
+    {
+      "type": "paragraph",
+      "text": "Glavni cilj ubrzo je postao Beograd. U njegovoj tvrđavi sklonile su se sve četiri dahije sa svojim ljudima, i tu se odlučivalo da li će njihova vlast preživeti ili pasti. Karađorđe je sa Stanojem Glavašem, Jakovom Nenadovićem i drugim starešinama postavio opsadu, koja se otegla kroz čitavu 1804. godinu. Ustanici nisu imali ni topove ni inženjerce za pravu opsadu po evropskom načinu; držali su prilaze, presecali snabdevanje i tukli izlaze. To nije bilo dovoljno da grad padne, ali je bilo dovoljno da se posada u tvrđavi oseti opkoljenom u sopstvenoj zemlji."
+    },
+    {
+      "type": "paragraph",
+      "text": "U isto vreme i sultan je doneo svoju odluku — ne u korist dahija, već protiv njih. Iz Carigrada je u Beogradski pašaluk poslat bosanski vezir Bekir-paša sa zadatkom da uspostavi red i, posebno, da kazni odmetnute janičarske glavešine. Pred tim dvostrukim pritiskom — srpskim ustaničkim obručem spolja i sultanovim oficirom iznutra — dahije su jula 1804. napustile Beograd i Dunavom krenule nizvodno, nadajući se da će se sakriti u nekom udaljenom kutku Carstva. Stigle su do Ade Kale, malog dunavskog ostrva nedaleko od Kladova; tu su ih ustaničke potere stigle. Posao je vodio Karađorđev komandant Mladen Milovanović. Sve četiri dahije pogubljene su, glave odsečene i javno izložene. Bila je to surova slika po merilima današnjice, ali po merilima toga vremena nedvosmislena i razumljiva poruka: tirani koji su pre godinu dana posekli srpske knezove sada su, na isti način, izgubili svoje glave."
+    },
+    {
+      "type": "paragraph",
+      "text": "Smrt dahija trebalo je, po prvobitnoj logici, da bude kraj ustanka. Ako su podignuti protiv odmetnika, a odmetnici su nestali, šta još traže? Ali na ovom mestu treba biti otvoren: ustanici sami više nisu hteli da se vrate na stanje pre 1804. godine. Pregovori sa Bekir-pašom, koji je nudio neku vrstu povratka u stari pravni okvir, pokazali su koliko su se srpski zahtevi u međuvremenu uvećali — od kazne za dahije, ka pravu da se sami brane od sličnih nasilja, pa ka traženju stvarne unutrašnje samouprave. Porta na to nije bila spremna. Bekir-paša se vratio neobavljena posla, a u Carigradu je počela da sazreva odluka da se ustanak ipak slomi silom."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Ivankovac i šta je on značio"
+    },
+    {
+      "type": "paragraph",
+      "text": "Prva velika potvrda da ustanici mogu da izdrže i regularnu osmansku vojsku došla je u avgustu 1805. godine kod Ivankovca, sela u Pomoravlju nedaleko od Ćuprije. Sultan je na Srbe poslao niškog Hafiz-pašu sa nekoliko hiljada vojnika. Karađorđe je sa starešinama dočekao taj odred na pažljivo izabranom položaju, sa šancima na uzvišenju i sa pešadijom raspoređenom tako da osmanska konjica ne može da je obiđe. U bici koja je trajala više sati Osmanlije su odbijene, sam Hafiz-paša smrtno ranjen, a njegova vojska razbijena u povlačenju. Ivankovac je bio prvi pravi sudar regularne sultanove vojske i srpskih ustaničkih snaga u otvorenom polju — i prošao je u srpsku korist. Posle njega niko više nije mogao reći da su ustanici samo seljaci sa puškama. Tokom sledećih meseci, u manjim sukobima oko Svilajnca, Paraćina i šire u Pomoravlju, isti odnos snaga se ponovio na nižem nivou."
+    },
+    {
+      "type": "paragraph",
+      "text": "Uz Karađorđa, u tim mesecima izranjaju i drugi vojnici i prvaci koji će obeležiti čitav ustanak. Jakov Nenadović drži zapad, Stanoje Glavaš donosi iskustvo starog hajduka, Hajduk Veljko Petrović istočnu Krajinu, Prota Matija Nenadović spaja vojno i pisano. Mlađa generacija — među njima i Milan i Miloš Obrenović, tada još uvek mladi i sporedni — uči ratovanje pod tim starijim ljudima. Taktika je bila mešovita: redovna bitka kad se mora, opsada utvrđenih varoši, brzi prepadi i česti ustanički šančevi na povoljnim položajima. Snabdevali su se iz sela, iz zaplenjenog osmanskog naoružanja i, manjim delom, krijumčarenjem preko austrijske granice."
+    },
+    {
+      "type": "paragraph",
+      "text": "Do kraja 1806. politička priroda ustanka već se bila promenila. Ono što je počelo kao bunt protiv četvorice odmetnika postalo je rat za stvarnu samoupravu, a kod nekih starešina i otvoreno za vraćanje srpske države. Sledeće lekcije pratiće upravo taj prelaz — kako se iz vojnih pobeda gradi politički poredak, kako se sazivaju skupštine i sudovi, i kako će kod Mišara 1806. ovaj rastući svet izdržati svoj najteži ispit. Treba, međutim, pošteno reći i ono što proslave često prećute: cena ranih pobeda bila je velika. Osmanske kaznene ekspedicije palile su sela, gubici u ljudstvu bili su teški, glad je u ratnim zimama bila redovna. Pobede 1804. i 1805. zaslužuju da budu zapamćene, ali ne kao laka dela junaka iz pesme, već kao ono što su zaista bile — teško izvojevani prvi koraci jednog naroda koji je odlučio da se više ne vraća unazad."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

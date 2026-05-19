@@ -6,13 +6,57 @@
   "dayNumber": 135,
   "order": 9,
   "title": "Opsada Beograda 1456.",
+  "subtitle": "Kako su Janoš Hunjadi i Ivan Kapistran, pod zidinama na ušću Save u Dunav, zaustavili Mehmeda II nakon pada Carigrada",
   "readingTimeMinutes": 8,
   "year": 1456,
-  "isPlaceholder": true,
+  "dateLabel": "1456.",
+  "timelinePosition": "jul 1456.",
+  "summary": "Tri godine posle pada Carigrada, Mehmed II je sa ogromnom vojskom krenuo na Beograd, ključ srednje Evrope. Branili su ga Hunjadi i Kapistran — i odbranili.",
+  "keyPeople": ["Mehmed II", "Janoš Hunjadi", "Ivan Kapistran", "papa Kalist III"],
+  "keyPlaces": ["Beograd", "Sava", "Dunav"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Tri godine posle pada Carigrada, mladi sultan Mehmed II okrenuo je oči ka centralnom Balkanu. Carigrad je 1453. pao posle gotovo dva meseca opsade, a sa njim i poslednji ostatak hiljadugodišnjeg vizantijskog carstva. U Mehmedovoj glavi, međutim, to nije bio završetak nego početak. Trebalo je ovladati i kopnenim putem koji od Bosfora, preko balkanskih reka, vodi u srce Evrope. Na tom putu, na ušću Save u Dunav, stajala je tvrđava koja je vekovima menjala gospodare — Beograd. Ko god je držao Beograd, držao je i kapiju Panonije; ko god je hteo na Beč, morao je prvo da prođe ispod njegovih zidina."
+    },
+    {
+      "type": "paragraph",
+      "text": "Beograd u to vreme nije bio srpski grad. Despot Đurađ Branković ga je još 1427. godine, prinuđen ugovorom sa Ugarskom, predao kralju Žigmundu kao deo cene za priznanje despotske titule. Otada je Beograd bio ugarska granična tvrđava — najjača na južnoj međi kraljevstva, sa posadom, topovima i dvostrukim sistemom zidina koji se spuštao od Gornjeg grada ka rekama. Za Mađare je bio najistureniji bedem hrišćanstva; za Mehmeda, poslednja brava pred otvorenim putem ka Budimu i dalje. Ako Beograd padne, padaju i Srem, i južna Ugarska, i, ko zna, možda i sam kraljevski Budim."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sultan je leta 1456. doveo pod zidine ogromnu vojsku. Brojke se u izvorima razilaze i treba ih primati sa oprezom — savremeni hroničari govore o sto, sto pedeset, čak i dvesta hiljada ljudi, dok savremena istoriografija najčešće računa između šezdeset i sto hiljada vojnika. Sa njima je dovukao i tešku opsadnu artiljeriju, ogromne bombarde slične onima kojima je tukao carigradske zidine. Dunavom je iz pravca Vidina krenula i osmanska rečna flota, sa zadatkom da odseče tvrđavu od pomoći sa severne, ugarske obale. Plan je bio jasan: opkoliti grad i s kopna i s vode, razbiti zidine bombardama, a zatim ih jurišem preuzeti."
+    },
+    {
+      "type": "paragraph",
+      "text": "Branioci su bili nesrazmerno slabiji — bar na papiru. Posada Beograda brojala je svega nekoliko hiljada profesionalnih vojnika. Komandovao im je Janoš Hunjadi, erdeljski velikaš mađarsko-vlaškog porekla, najuspešniji hrišćanski vojskovođa svog doba i dugogodišnji regent Ugarske. Njemu se pridružio i Ivan Kapistran, italijanski franjevac, propovednik nesvakidašnje vatrenosti, koji je po nalogu pape Kalista III obilazio Ugarsku i Hrvatsku i pozivao na krstaški rat. Pred zidinama Beograda okupilo se, na njegov poziv, više desetina hiljada seljaka, zanatlija i sitnih plemića — slabo naoružana, slabo obučena, ali brojna i, što će se pokazati, neobično odlučna masa."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Tri ključne noći"
+    },
+    {
+      "type": "paragraph",
+      "text": "Opsada je formalno počela 4. jula. Dve nedelje su osmanski topovi tukli zidine sa kopnene strane, ravnomerno, metodično, kao na carigradski način. Hunjadi je u međuvremenu znao da grad ne može opstati ako mu se zatvori reka. U noći između 14. i 15. jula okupio je oko dve stotine malih dunavskih lađa i krenuo u napad na osmansku flotu. Bitka na reci trajala je satima; ugarski brodovi i kapistranovi krstaši probili su lanac, potopili veći broj osmanskih galija i razbili blokadu. Beograd je ponovo disao — namirnice, barut i pojačanje mogli su da uđu sa severne obale."
+    },
+    {
+      "type": "paragraph",
+      "text": "Mehmed je posle toga znao da nema vremena. Bombarde su, u međuvremenu, otvorile breše u spoljnom zidu donjeg grada. U noći između 21. i 22. jula sultan je pokrenuo opšti juriš. Janičari su prodrli kroz proboje u donji grad, zauzeli deo bedema i zamalo se domogli i gornje tvrđave. Hunjadijevi vojnici, sa nešto kapistranovih krstaša, vodili su borbu pojedinačno za svaku ulicu i kulu. Borba je trajala čitavu noć. Pred zoru je osmanski napad konačno odbijen, ali su gubici na obe strane bili teški, a deo zidina je bio razrušen. Po svim pravilima opsadnog rata, narednog dana trebalo je očekivati još jedan, presudan juriš."
+    },
+    {
+      "type": "paragraph",
+      "text": "Dogodilo se obrnuto. Toga 22. jula, manje organizovano nego planski, nekoliko grupa krstaša izašlo je iz tvrđave da pljačka napuštene osmanske položaje. Iz tih sitnih okršaja, gotovo slučajno, izrastao je opšti juriš pešadije na osmanski logor. Hunjadi je, videći šta se dešava, izveo i svoju profesionalnu konjicu i pojačao napad. Osmanski tabor, iznuren noćnom bitkom, bez očekivanja protivudara, pao je u rasulo. Topovi su ostali na položajima, šatori sa oružjem i namirnicama prepušteni. U opštoj zbrci ranjen je i sam Mehmed II — strelom u butinu, kako prenosi više izvora. Sultan je sa svojom pratnjom napustio bojište i u neredu se povukao prema Sofiji."
+    },
+    {
+      "type": "paragraph",
+      "text": "Posledice su bile ogromne, i kratkoročne i dugoročne. Osmansko napredovanje ka srednjoj Evropi bilo je zaustavljeno; Beograd nije pao tada, niti će pasti narednih šezdeset pet godina, sve do 1521. Kada je vest stigla u Rim, papa Kalist III, koji je još pre opsade odredio da se podnevna zvona zvone za pomoć braniocima, naredio je da se ta navika pretvori u trajno sećanje na pobedu — podnevno zvono u katoličkim crkvama, koje i danas zvoni, vuče poreklo iz beogradskog jula 1456. godine."
+    },
+    {
+      "type": "paragraph",
+      "text": "Cena je, međutim, bila visoka. U vojnom logoru izbila je kuga; Janoš Hunjadi je od nje umro već 11. avgusta, nepuna tri nedelje posle pobede. Ivan Kapistran je preminuo krajem oktobra. A nekoliko meseci kasnije, 24. decembra iste godine, u svojim dvorovima u Smederevu, umro je i ostareli despot Đurađ Branković — i sam već ranjen i bolestan posle ranijih sukoba. Za jednu jedinu godinu nestala su dva najveća hrišćanska protivnika sultana Mehmeda na Balkanu i čovek koji je još uvek držao srpsku državu na okupu. Pobeda kod Beograda spasla je Ugarsku i odložila pad srednje Evrope za generacije; ali je istovremeno, sticajem okolnosti, ostavila Srpsku despotovinu bez svojih oslonaca — i otvorila vrata događajima koji će već za tri godine doneti njen konačni slom."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

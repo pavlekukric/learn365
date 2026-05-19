@@ -6,13 +6,57 @@
   "dayNumber": 18,
   "order": 1,
   "title": "Rim stiže na Balkan",
+  "subtitle": "Kako je rimska moć, u tri stoleća, sa Jadranske obale postepeno krenula ka balkanskoj unutrašnjosti",
   "readingTimeMinutes": 8,
   "year": -200,
-  "isPlaceholder": true,
+  "dateLabel": "3–1. vek p. n. e.",
+  "timelinePosition": "~200. p. n. e.",
+  "summary": "Tokom trećeg, drugog i prvog veka pre nove ere Rim postepeno prelazi Jadran, ratuje sa ilirskim kraljevstvima i sa Makedonijom, gradi puteve i obalske luke — ali balkansku unutrašnjost ne osvaja u celosti. Razlika između kontrole nad obalom i stvarnog zaposedanja zaleđa biće tema čitavog razdoblja.",
+  "keyPeople": ["Teuta", "Demetrije Hvaranin", "Persej"],
+  "keyPlaces": ["Jadran", "Dirahijum", "Makedonija", "Via Egnatia"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Dok su grčki istoričari pisali o Ilirima i Tračanima kao o narodima sa ruba sveta, na drugoj obali Jadrana rastao je grad koji će im taj svet, vek po vek, oduzeti. Rim je u trećem veku pre nove ere prestao da bude samo jedna od italskih sila i postao gospodar gotovo cele Italije. Tek kada je objedinio poluostrvo na kome je nastao, mogao je da pogleda preko mora. A na drugoj obali, najbliža mu je bila — ilirska obala."
+    },
+    {
+      "type": "paragraph",
+      "text": "Prvi ozbiljan susret Rima sa Balkanom nije počeo velikim planom osvajanja, nego sasvim prizemnim razlogom: piraterijom. Tokom trećeg veka pre nove ere u priobalnom delu današnje Albanije i Crne Gore ojačala je takozvana Ardijejska država, ilirsko kraljevstvo čije su brze lađe napadale trgovce u južnom Jadranu. Posle smrti kralja Agrona, vlast je preuzela njegova udovica Teuta. Pod njenom upravom ilirski upadi postali su toliko česti da su pogađali i rimske trgovačke interese. Kada su rimski poslanici, prema antičkim izvorima, doživeli uvredu — a verovatno i nasilje — na Teutinom dvoru, senat je 229. godine pre nove ere objavio rat. Tako je počeo Prvi ilirski rat."
+    },
+    {
+      "type": "paragraph",
+      "text": "Rat se završio brzo, već naredne godine. Rimska flota i kopnene snage prešle su Jadran, primorale Teutu da prihvati težak mir i postavile prve rimske saveznike i zaštićene gradove na istočnoj obali. Među njima je bio i grčki Epidamnos, koji će Rimljani nazvati Dirahijum, kao i ostrvo Far i okolne luke. Rim još nije aneksirao ništa — ali je prvi put zauzeo položaj na suprotnoj obali Jadrana i pokazao da je spreman da pređe more da bi zaštitio svoje interese. Manje od deset godina kasnije, 219. pre nove ere, izbio je i Drugi ilirski rat protiv Demetrija Hvaranina, lokalnog vladara koji je preterao u samostalnosti. Rimska intervencija ponovo je bila kratka i odlučna. Obala je postajala rimska sfera; zaleđe je još uvek bilo svoje."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Makedonski ratovi i pad jednog kraljevstva"
+    },
+    {
+      "type": "paragraph",
+      "text": "Pravi preokret doneli su, međutim, sukobi sa Makedonijom. Helenistička makedonska država, naslednica Filipa II i Aleksandra Velikog, bila je daleko ozbiljniji protivnik od ilirskih kraljevstava — uređena država sa profesionalnom vojskom, dvorom i diplomatskom mrežom. Između 215. i 148. godine pre nove ere Rim je sa Makedonijom vodio četiri rata, danas poznata kao Makedonski ratovi. Prvi je izbio za vreme Drugog punskog rata, kada se makedonski kralj Filip V vezao sa Hanibalom; on se završio bez jasnog pobednika. Drugi i Treći rat doneli su rimske pobede, pre svega kod Kinoskefala 197. i kod Pidne 168. godine, gde je kralj Persej izgubio i bitku i kraljevstvo. Posle kratkog ustanka, 148. godine pre nove ere Makedonija je pretvorena u rimsku provinciju."
+    },
+    {
+      "type": "paragraph",
+      "text": "Taj datum, naizgled udaljen od današnje Srbije, zapravo je prelomna tačka. Sa Makedonijom kao provincijom, Rim više nije bio samo gost na istočnom Jadranu — on je sada držao i jugoistočni deo Balkana, i to neposredno, kroz svoje upravnike, garnizone i poreze. Granica njegove vlasti pomerila se sa mora ka unutrašnjosti. Severno od nove provincije, prema Dunavu, ostajale su slobodne ilirske, tračke, dardanske i skordiske zajednice; ali sa juga ih je sada gledala rimska vojska, a ne više daleki helenistički kralj."
+    },
+    {
+      "type": "paragraph",
+      "text": "U decenijama posle 148. godine, rimska prisutnost na Balkanu poprimila je prepoznatljive oblike. Na obali su rasla utvrđena pristaništa i logori. Iz Dirahijuma i Apolonije krenula je gradnja čuvene Via Egnatia, vojnog i trgovačkog puta koji je presekao poluostrvo i preko Makedonije izlazio na Egejsko more, kod Soluna i dalje ka Vizantu. Bio je to prvi veliki rimski put na istoku — i prva prava kičma rimske kontrole nad južnim Balkanom. Putem su išle legije, ali i trgovci, poslanici, glasnici; on je obezbedio brzo povezivanje Italije sa rimskim posedima na Egeji i, kasnije, sa Malom Azijom."
+    },
+    {
+      "type": "paragraph",
+      "text": "U unutrašnjosti, međutim, Rim se za sada nije širio nasilnim aneksijama, nego strpljivom diplomatijom i, češće, igrom na razdor. Antička svedočanstva o ovom razdoblju nisu uvek detaljna, pa pojedinosti treba uzimati oprezno; ali opšta slika je jasna. Rimski namesnici sklapali su saveze sa jednim plemenom protiv drugog i kažnjavali pohode skordiskih i dardanskih ratnika prema makedonskoj granici. Bilo je tu i teških rimskih poraza — naročito od Skordiska u poznom drugom veku pre nove ere — i okrutnih odmazdi. Granica nije bila linija na karti, nego pojas u kome se snaga obe strane neprestano proveravala."
+    },
+    {
+      "type": "paragraph",
+      "text": "Krajem prvog veka pre nove ere, Rim je tako držao Jadransku obalu, južni deo poluostrva i ključne puteve koji su ga povezivali sa istokom. Ali prostor koji danas obuhvata centralnu Srbiju, Bosnu, severnu Albaniju i Panoniju i dalje nije bio rimska provincija. Ilirska, dardanska i skordiska plemena su sklapala i kršila saveze, ratovala međusobno i sa rimskim namesnicima, i živela u svetu koji je sa juga svake decenije postajao sve više rimski. Razlika između obalske kontrole i stvarnog osvajanja unutrašnjosti ostala je vidljiva — i ona će biti naslov sledećeg poglavlja."
+    },
+    {
+      "type": "paragraph",
+      "text": "Puno zaposedanje Balkana, sve do Dunava, biće tek delo cara Avgusta i njegovih vojskovođa u poslednjim decenijama prvog veka pre nove ere i prvim decenijama nove. O tom poduhvatu — i o tome kako se tada na karti pojavljuju imena rimskih provincija koja će kroz vekove odrediti život ovog tla — govoriće naredna lekcija. Za sada je važno upamtiti samo jedno: kada Rim na Balkan stigne u punoj snazi, on neće dolaziti kao stranac. Tri stoleća pre toga već je naučio njegove obale, izgradio njegove puteve, prelomio njegovo najjače helenističko kraljevstvo i postepeno se priviknuo na ljude koji su ga čekali u zaleđu."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

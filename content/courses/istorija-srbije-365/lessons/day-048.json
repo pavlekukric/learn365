@@ -6,13 +6,53 @@
   "dayNumber": 48,
   "order": 1,
   "title": "Stefan Nemanja — poreklo i mladost",
+  "subtitle": "Mladi knez iz Ribnice, dva krštenja i put ka raškom prestolu",
   "readingTimeMinutes": 7,
   "year": 1166,
-  "isPlaceholder": true,
+  "dateLabel": "oko 1113–1166.",
+  "timelinePosition": "oko 1113–1166.",
+  "summary": "Poreklo, mladost i prvi koraci Stefana Nemanje — od rođenja u Ribnici i dvostrukog krštenja do upravljanja županijom i sukoba sa braćom, pre nego što je preuzeo vlast u Raškoj.",
+  "keyPeople": ["Stefan Nemanja", "Tihomir", "Anastasija", "Sveti Sava", "Stefan Prvovenčani"],
+  "keyPlaces": ["Raška", "Ribnica", "Zeta", "Toplica"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Pre nego što je postao veliki župan i rodonačelnik dinastije koja će obeležiti dva veka srpske istorije, Stefan Nemanja je bio mlad knez iz primorskog zaleđa, jedan od četvorice braće u kući koja se borila za vlast i ugled u tek sastavljenoj Raškoj. Njegova mladost zna se uglavnom iz kasnijih hagiografija, pisanih rukom njegovih sinova, i zato je istoričari čitaju pažljivo — odvajajući ono što se može potvrditi od onoga što je zapisano da bi se utemeljila slava jedne dinastije."
+    },
+    {
+      "type": "paragraph",
+      "text": "Smatra se da je Nemanja rođen oko 1113. godine u Ribnici, u oblasti Zete, na mestu gde se danas prostire Podgorica. Njegov otac bio je knez raško-zetskog roda, čovek visokog porekla u svetu koji je tek izrastao iz raspada nekadašnjeg Dukljanskog kraljevstva. Tačan rodoslov porodice predmet je rasprave; pouzdano se zna samo da su Nemanja i njegova braća pripadali višem sloju vlastele i da su odrasli sa svešću o svom kneževskom redu. Detalji rođenja, ime majke i prve godine života gotovo da nisu zabeleženi savremenim izvorima — sve što danas pripovedamo o njegovom detinjstvu dolazi iz spisa nastalih posle njegove smrti."
+    },
+    {
+      "type": "paragraph",
+      "text": "U toj ranoj biografiji jedan podatak je dobio gotovo simboličnu težinu — priča o dva krštenja. Zeta je u to vreme bila pod jakim uticajem primorskih, latinskih biskupija, pa je Nemanja kao odojče kršten po katoličkom obredu, što je u priobalnim sredinama bilo sasvim uobičajeno. Kasnije, kada se porodica vratila u Rašku ili kada je on sam tamo prešao, ponovo je kršten — ovaj put po pravoslavnom obredu, u srpskoj sredini koja je gravitirala ka Carigradu. Taj dvostruki čin njegovi hagiografi su kasnije protumačili kao nagoveštaj: Nemanja je, kažu, bio predodređen da spoji dva srpska sveta, primorski i zalednički, latinski i grčki. Istorijski gledano, dvostruko krštenje je realnost graničnog područja u kojem su se dva crkvena reda dodirivala, više nego znak proročanstva — ali je legenda taj događaj zauvek upisala u njegovu životopisnu sliku."
+    },
+    {
+      "type": "paragraph",
+      "text": "Kada je dorastao da preuzme deo porodičnih obaveza, Nemanja je od svog starijeg brata Tihomira, koji je posle očeve smrti postao veliki župan, dobio na upravu jednu od raških župa. U srednjovekovnoj Srbiji župa je bila osnovna upravna jedinica — oblast oko jedne reke ili doline, sa svojom vlastelom, crkvama i utvrđenjem. Nemanji su pripale oblasti u zaleđu, među kojima se najčešće pominje Toplica, kraj kroz koji teče istoimena reka. Tu je živeo kao mlad knez pod vrhovnom vlašću brata, ali sa dovoljno samostalnosti da donosi sopstvene odluke o zemljama, ljudima i — što će se ispostaviti važnim — o crkvi."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Porodica, zadužbine i rastuće tenzije"
+    },
+    {
+      "type": "paragraph",
+      "text": "U tom periodu Nemanja se i oženio. Njegova supruga, kasnije zamonašena pod imenom Anastasija, rodila mu je više dece, od kojih su trojica ušla u istoriju: najstariji Vukan, srednji Stefan — koji će kasnije biti krunisan kao prvi srpski kralj i ostati zapamćen kao Stefan Prvovenčani — i najmlađi Rastko, budući Sveti Sava. U vreme njihove mladosti niko, pa ni sam Nemanja, nije mogao slutiti koliko će ta porodica oblikovati srpsku državu i crkvu. Kuća je u tom trenutku bila samo jedna od kneževskih kuća Raške, u sredini gde je dinastička sudbina zavisila od koalicija, brakova i sreće u oružju."
+    },
+    {
+      "type": "paragraph",
+      "text": "Već kao mlad knez Nemanja je pokazao odliku koja će ga pratiti čitav život — sklonost da podiže crkve i manastire. U svojim oblastima sazidao je nekoliko zadužbina, od kojih se posebno pominju crkve Svetog Nikole i Bogorodičina crkva u Toplici. Za hagiografe, to su prvi znaci svetiteljskog poziva. Za istoričare, to je i politički potez: zadužbine su vezivale episkope, sveštenstvo i okolnu vlastelu za njegovu ličnost, davale mu legitimitet i mrežu lojalnih ljudi. Upravo zbog te samostalne crkvene aktivnosti, koja je išla mimo volje velikog župana, počele su pukotine u odnosima sa braćom."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sukob se ne može datirati tačno, ali se događaji obično smeštaju u prvu polovinu šezdesetih godina dvanaestog veka. Stariji braća — pre svega Tihomir, ali i drugi — uvideli su da Nemanja jača brže nego što su predviđali, da podiže manastire bez njihove dozvole i da se ponaša kao samosvojan gospodar svojih župa. Po kasnijem predanju, oni su ga pozvali na sabor, optužili i bacili u tamnicu. Nemanja je iz zatočeništva, prema istom predanju, izašao — bilo bekstvom, bilo zato što su ga braća, posle kraćeg vremena, oslobodila pod pritiskom njegovih ljudi. Šta god da je tačno, on se vratio u svoje oblasti drugačiji čovek: uveren da pomirenje više nije moguće i da će vlast u Raškoj morati da reši oružjem."
+    },
+    {
+      "type": "paragraph",
+      "text": "Tu se priča o Nemanjinoj mladosti zaustavlja na pragu nečeg većeg. Negde oko 1166. godine on okuplja sebi odane velikaše, oslanja se na veze koje je strpljivo gradio kroz zadužbine i upravu, i sprema se da izađe iz senke starije braće. Ono što sledi — sukob sa Tihomirom, bitka koja će rešiti pitanje vlasti i njegovo uzdizanje za velikog župana — biće tema sledeće lekcije. Za sada je dovoljno reći da je čovek koji će kasnije pisati istoriju srpske države već formiran: gospodar svojih župa, otac trojice sinova koji će promeniti narod, ktitor više crkava i, pre svega, knez svestan da iz porodičnog reda može da se izdvoji samo onaj koji se usudi."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

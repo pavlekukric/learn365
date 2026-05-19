@@ -6,13 +6,57 @@
   "dayNumber": 324,
   "order": 9,
   "title": "Holokaust u okupiranoj Srbiji",
+  "subtitle": "Kako je između 1941. i 1942. u nemačkoj okupacionoj zoni uništena gotovo cela jevrejska zajednica Srbije",
   "readingTimeMinutes": 8,
   "year": 1942,
-  "isPlaceholder": true,
+  "dateLabel": "1941–1942.",
+  "timelinePosition": "1941–1942.",
+  "summary": "Sistematsko uništenje jevrejske zajednice u nemačkoj okupacionoj zoni Srbije: rasni zakoni od aprila 1941, streljanja u jesen 1941, i ubistvo žena, dece i starih u logoru na Sajmištu u proleće 1942.",
+  "keyPeople": [],
+  "keyPlaces": ["Beograd", "Staro sajmište", "Topovske šupe", "Jajinci", "Šabac"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Pre nego što je rat 1941. razbio Jugoslaviju, u zemlji je živelo oko osamdeset hiljada Jevreja. U onom delu koji će posle aprilskog sloma postati nemačka okupaciona zona Srbije — bez krajeva koje će progutati Nezavisna Država Hrvatska, Mađarska i Bugarska — bilo ih je oko sedamnaest hiljada, od čega oko dvanaest hiljada u Beogradu. Bila je to zajednica stara koliko i sam grad: lekari, advokati, trgovci, sitni zanatlije, učitelji, novinari, vlasnici radnji u Knez Mihailovoj i u Dorćolu, ljudi čije se prisustvo u životu Beograda podrazumevalo. Za nepunih godinu i po dana nemačke okupacije te zajednice više neće biti."
+    },
+    {
+      "type": "paragraph",
+      "text": "Mere protiv Jevreja počele su odmah, već u aprilu 1941, čim su nemačke jedinice ušle u Beograd. Naredbe vojnog zapovednika za Srbiju nalagale su obaveznu prijavu svih lica jevrejskog porekla, nošenje žute trake na rukavu sa natpisom „Jude”, zabranu izlaska iz grada, zabranu obavljanja niza zanimanja, oduzimanje radnji i imovine, otpuštanje sa državnih službi. Uspostavljen je prinudni rad: jevrejski muškarci raščišćavali su ruševine Beograda posle aprilskog bombardovanja, kopali rovove, radili po skladištima. U leto 1941. uvedeni su novi zakoni o jevrejskoj imovini, a zatim i sistematske registracije po popisima. Birokratska mašina rasne politike, koju su Nemci do tada već usavršili u Rajhu i u Poljskoj, primenjena je u Srbiji bez popuštanja."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sa izbijanjem ustanka u leto 1941. progon je iz birokratske faze prešao u masovno ubijanje. Nemačka vojna komanda u Srbiji uvela je zloglasni odnos „sto za jednog” — za svakog poginulog nemačkog vojnika streljano je sto talaca, za ranjenog pedeset. Jevrejski muškarci, već popisani i držani po zbirnim logorima, bili su prva i najlakša rezerva talaca. Iz logora Topovske šupe u Beogradu, gde su bili zatočeni jevrejski i romski muškarci, transporti su odvođeni na stratišta — u Jajince kraj Beograda, na Deliblatsku peščaru i drugde. U Šapcu, posle nemačke kaznene operacije u jesen 1941, streljani su jevrejski muškarci dovedeni i iz tamošnje zajednice i iz redova izbeglica koji su tu zatečeni. Do kraja 1941. gotovo svi odrasli jevrejski muškarci u nemačkoj zoni Srbije bili su mrtvi."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Sajmište i dušegupka"
+    },
+    {
+      "type": "paragraph",
+      "text": "Krajem 1941. ostao je problem koji je nemačka komanda nazivala „rešenjem” preostalog dela jevrejskog stanovništva — žena, dece i staraca. Za njih je u decembru otvoren logor na Starom sajmištu, prostoru predratnog Beogradskog sajma na levoj obali Save. Formalno je to bila teritorija Nezavisne Države Hrvatske, ali je logor od početka držala nemačka komanda iz Beograda. U njega je tokom zime 1941. i 1942. dovedeno oko sedam hiljada jevrejskih žena, dece i starih, dovođenih iz Beograda preko mosta na Savi, pa zatim iz Niša, Kosovske Mitrovice i drugih mesta. Smeštaj je bio paviljonski, hladnoća velika, hrane premalo, bolesti su se širile."
+    },
+    {
+      "type": "paragraph",
+      "text": "Krajem marta 1942. u Beograd je iz Berlina stigao zatvoreni kamion marke Saurer — vozilo posebno preuređeno tako da se izduvni gasovi motora uvode u hermetički zatvoren teretni sanduk. U srpskom narodnom pamćenju ostao je pod imenom „dušegupka”. Od marta do početka maja 1942, gotovo svakog dana, grupe od oko pedeset do osamdeset zatočenika sa Sajmišta utovarivane su u taj kamion pod izgovorom da idu u drugi logor. Vozač je polazio iz Zemuna, prelazio na beogradsku stranu i vozio kroz grad ka Jajincima. Tokom vožnje, gas je puštan u sanduk. Kada bi vozilo stiglo do unapred iskopanih jama u Jajincima, posada je istovarivala tela i sahranjivala ih. Tako je, u nepunih dva meseca, ubijeno oko sedam hiljada jevrejskih žena, dece i staraca sa Sajmišta. Bilo je to jedno od prvih i najsistematičnijih masovnih gušenja gasom u celoj Evropi, izvedeno kroz centar evropske prestonice, na očigled grada koji je o tome ćutao iz straha ili nije znao."
+    },
+    {
+      "type": "paragraph",
+      "text": "U avgustu 1942. nemački komandujući oficir u Srbiji javio je Berlinu — sažeto i hladno, jezikom administrativnog izveštaja — da je u Srbiji jevrejsko i ciganski pitanje rešeno, i da je Srbija jedina zemlja u kojoj je to postignuto. Procene istoričara su da je u nemačkoj okupacionoj zoni Srbije ubijeno između četrnaest i petnaest hiljada Jevreja, što znači da je preživelo svega nekoliko stotina, uglavnom u skrivanju, u partizanskim jedinicama ili zbog mešovitih brakova. Brojevi se razlikuju od izvora do izvora i moraju se navoditi s oprezom, ali razmera zločina ne ostavlja prostora za sumnju: jedna stara beogradska zajednica nestala je za godinu i po dana."
+    },
+    {
+      "type": "paragraph",
+      "text": "Romsko stanovništvo Srbije bilo je drugi rasni cilj iste politike. Procene govore da je u istoj okupacionoj zoni ubijeno između dvanaest i petnaest hiljada Roma — muškaraca u talačkim streljanjima 1941, žena i dece u logorima i prepadima. Tačne cifre verovatno neće biti utvrđene, pošto je romska zajednica i pre rata bila slabo popisana. Među pojedinačnim ljudskim pričama treba pomenuti i to da je u Beogradu, pre rata, postojala bogata jevrejska kultura — sefardska zajednica oko stare jevrejske četvrti na Dorćolu, aškenaska zajednica u centru grada, naučnici, prevodioci, novinari, lekari, muzičari, učitelji. Posle 1942. od svega toga ostala su uglavnom imena u dokumentima i poneki natpis na kamenu."
+    },
+    {
+      "type": "paragraph",
+      "text": "Kao i svuda u okupiranoj Evropi, pojavili su se i pomagači — i u dobrom i u zlu. Bilo je Srba koji su, rizikujući sopstvene živote, krili jevrejske komšije, davali im lažna dokumenta, hranili decu u skrovištima; mnogi od njih su kasnije priznati među Pravednicima među narodima u Jad Vašemu. Bilo je i onih, u nemačkoj specijalnoj policiji i u administraciji kvislinške Vlade narodnog spasa, koji su učestvovali u popisivanju, hapšenju i čuvanju logora. Obe pojave pripadaju istoj istoriji i moraju se pamtiti zajedno, bez uveličavanja jednog ni prikrivanja drugog."
+    },
+    {
+      "type": "paragraph",
+      "text": "Holokaust u okupiranoj Srbiji bio je, po brzini i potpunosti, jedan od najranijih završenih procesa istrebljenja u celoj Evropi. To je činjenica koja u svakoj ozbiljnoj istoriji ovog tla mora stajati uspravno — bez ublažavanja, bez naduvavanja, bez upoređivanja koja umanjuju tuđu žrtvu. Ime Staro sajmište, brojevi iz Topovskih šupa, jame u Jajincima, kamion Saurer koji je svakog jutra polazio iz Zemuna — to je deo srpske istorije dvadesetog veka, deo koji se ne završava trenutkom kada su gasovi prestali da rade, nego traje dokle god se uopšte pamti."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

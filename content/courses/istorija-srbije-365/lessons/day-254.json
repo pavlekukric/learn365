@@ -6,13 +6,49 @@
   "dayNumber": 254,
   "order": 8,
   "title": "Timočka buna",
+  "subtitle": "Oktobar 1883: seljačka pobuna u istočnoj Srbiji i prvi krvavi obračun dvora kralja Milana sa radikalima",
   "readingTimeMinutes": 7,
   "year": 1883,
-  "isPlaceholder": true,
+  "dateLabel": "1883.",
+  "timelinePosition": "1883.",
+  "summary": "U oktobru 1883. seljaci istočne Srbije ustaju protiv vladine odluke da im se oduzmu stare puške; buna je brzo razbijena, a represija — prevremeni sud u Zaječaru, streljanja i progon radikala — postaje prvi krvavi sukob dvora i Narodne radikalne stranke.",
+  "keyPeople": ["Milan Obrenović", "Milan Piroćanac", "Nikola Pašić", "Pera Todorović", "Aca Stanojević"],
+  "keyPlaces": ["Zaječar", "Timok", "Crnorečki okrug", "Krajinski okrug", "Banjski okrug"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "U jesen 1883. godine, u krajevima oko Timoka — u Crnorečkom, Krajinskom i Banjskom okrugu — selo se diglo protiv sopstvene vlade. Povod je bio naizgled tehnički, gotovo administrativni: odluka da se seljacima oduzmu stare puške, pretežno „kremenjače“ zaostale iz srpsko-turskih ratova, i da se time dovrši reforma vojske i razoružanje paramilitarnih elemenata u zemlji. Vlada Milana Piroćanca, sastavljena od ljudi Napredne stranke, na to je gledala kao na razuman korak modernizacije. Selo je na isto gledalo sasvim drugačije — puška je u domu bila porodični amanet, znak časti i dokaz da je kuća učestvovala u nedavnim ratovima protiv Osmanlija. Tu se sukobio jedan beogradski zakon sa jednim seljačkim osećanjem."
+    },
+    {
+      "type": "paragraph",
+      "text": "Da bi se taj sukob razumeo, mora se imati u vidu šta je Srbija u tom trenutku bila. Posle berlinskog kongresa 1878. i proglašenja kraljevine 1882, mlada država ulazila je u period brze birokratske izgradnje — nova vojska po evropskom uzoru, novi poreski sistem, novi sudovi, prve železnice. Naprednjaci su tu modernizaciju sprovodili odlučno, ponekad i nestrpljivo, oslonjeni na kralja Milana i na austrougarsku političku orijentaciju. Naspram njih, u istoj toj 1881. godini bila je osnovana Narodna radikalna stranka, sa Nikolom Pašićem i Perom Todorovićem na čelu, koja je narastala upravo u onim krajevima — istočnoj Srbiji, Pomoravlju, Timoku — i koja je u svom programu spajala narodnu samoupravu, nepoverenje prema činovniku iz Beograda i odbrambeni odnos prema selu."
+    },
+    {
+      "type": "paragraph",
+      "text": "Kada su krajem oktobra 1883. u timočke sreze stigli organi vlasti da preuzmu puške, na više mesta dočekani su otporom. Otpor se proširio brže nego što je iko očekivao. U svega nekoliko dana pristupilo mu je nekoliko hiljada ljudi — seljaci sa svojim oružjem, mahom oni isti koje je vlast želela razoružati. Pobunjenici su zauzeli pojedine opštine, razoružali žandarme, prekinuli telegrafske linije; čuli su se i pojedinačni pozivi na svrgavanje vlade. Ipak, pokret je od početka bio bez jasnog vojnog vođstva i bez jedinstvenog plana — više roj ogorčenih sela nego organizovana vojska."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Slom i represija"
+    },
+    {
+      "type": "paragraph",
+      "text": "Vlada je odgovorila brzo i odlučno. Iz Beograda i Niša upućene su redovne vojne jedinice, sa topovima i konjicom. Sukobi su trajali svega nekoliko dana — kod Knjaževca i u okolini Zaječara, pobunjenici su razbijeni gotovo bez prave bitke. Mnogi su pobegli u šume i preko granice u Bugarsku; oni koji su uhvaćeni odvedeni su u Zaječar, gde je u rekordnom roku organizovan prevremeni sud, jedna vrsta ratnog suda nadležnog za pobunjenike. Suđenja su tekla kratko, a brojke su bile teške: više od osam stotina ljudi optuženo je, devedeset četvorica osuđena na smrt, dvadeset jedan stvarno streljan. Među streljanima su uglavnom bili seljaci i nekoliko sreskih radikalnih prvaka."
+    },
+    {
+      "type": "paragraph",
+      "text": "Vlada je odmah ponudila i političko objašnjenje cele stvari. Po njoj, nije reč o seljačkom otporu, nego o organizovanoj „radikalnoj pobuni“ protiv države. Optuženi su, pored neposrednih učesnika, i vodeći ljudi Narodne radikalne stranke — Pašić, Pera Todorović, niz poslanika i odbornika. Nikola Pašić je na vest o hapšenjima pobegao preko granice u Bugarsku, gde će u izgnanstvu provesti više godina, sve do amnestije 1889. Pera Todorović, koji je uhvaćen, osuđen je na smrt, pa potom pomilovan; mlađi prvak Aca Stanojević uspeo je da pobegne, a kasnije, takođe amnestiran, vratio se u javni život. Time je radikalsko vođstvo na neko vreme bilo razbijeno, ali ne i uništeno — naprotiv, mit o nepravednoj odmazdi učvrstiće stranku u narednoj deceniji."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pitanje koliko je buna stvarno bila „radikalska“ ostaje predmet stručne rasprave. Većina današnjih istoričara prihvata stav da je u svom jezgru pokret bio pretežno stihijska seljačka reakcija na konkretan zahvat vlasti — oduzimanje pušaka — i na opštije osećanje da Beograd seljaka pretvara u objekat reformi a ne u građanina. Istovremeno, ne treba zatvarati oči pred činjenicom da su radikali u istočnoj Srbiji imali duboke korene, lokalne odbore i poslanike, i da je njihova kritika vlade na narod delovala otrežnjujuće. Negde između te dve istine — spontane narodne ljutnje i prisutne, ali ne dovoljno organizovane stranačke mreže — verovatno leži stvarno objašnjenje. Tvrdnja vlade da je sve bila čista zavera Pašićevih ljudi danas se uglavnom smatra preteranom, namenjenom političkom obračunu."
+    },
+    {
+      "type": "paragraph",
+      "text": "Posledice Timočke bune nadrastaju njen kratak trenutak. Sa jedne strane, kralj Milan i naprednjaci dobili su trenutni vojni i sudski trijumf — pokazali su da država ima snagu da uguši pobunu i kazni je primerno. Sa druge, otvorili su ranu koja se neće zaceliti: porodice streljanih, sela koja su pamtila vešala, izgnani prvaci u Sofiji — sve je to ulazilo u narodnu memoriju kao priča o nepravedno prolivenoj krvi. Narodna radikalna stranka iz tog je iskustva izašla teža za nekoliko stotina svojih ljudi, ali i ojačana kao moralni rival dvoru. Sukob koji će u narednim decenijama obeležiti srpsku politiku — između Obrenovića i radikala, između birokratske modernizacije odozgo i narodne samouprave odozdo — dobio je u oktobru 1883. svoj prvi krvavi obris. Timočka buna bila je upozorenje da brzina reformi, ako preskoči ono što selo doživljava kao svoju čast, ume da plati visoku cenu."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

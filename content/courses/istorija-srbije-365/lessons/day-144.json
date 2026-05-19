@@ -6,13 +6,45 @@
   "dayNumber": 144,
   "order": 6,
   "title": "Crkva posle pada države",
+  "subtitle": "Kada je srpska država nestala, ostala je crkva — jedina ustanova koja je nastavila da povezuje srpski svet",
   "readingTimeMinutes": 7,
   "year": 1490,
-  "isPlaceholder": true,
+  "dateLabel": "kraj 15. veka",
+  "timelinePosition": "kraj 15. veka",
+  "summary": "Posle pada Smedereva 1459. srpska država je nestala, ali je crkva — uz nesigurnu sudbinu Pećke patrijaršije i veliki oslonac u manastirima — ostala jedini nosilac srpskog identiteta pod osmanskom vlašću.",
+  "keyPeople": [],
+  "keyPlaces": ["Peć", "Pećka patrijaršija", "Ohrid", "Sveta Gora", "Studenica", "Dečani", "Mileševa"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Kada je 1459. godine pao Smederevo i sa njim i poslednji ostatak srpske despotovine, srpski svet je ostao bez države, bez dvora i bez vladajuće dinastije. Ono što je ostalo bila je crkva. U narednim vekovima ona će preuzeti ulogu koju u drugim narodima Evrope obavljaju kraljevi i sabori — ulogu jedine ustanove koja, u odsustvu sopstvene države, nosi i čuva kolektivnu pripadnost. Taj prelazak iz pratećeg u glavni stub jednog naroda dogodio se upravo u drugoj polovini 15. veka, u senci osmanskog osvajanja, i to ne kao svestan plan, već kao prirodna posledica okolnosti."
+    },
+    {
+      "type": "paragraph",
+      "text": "Srpska patrijaršija sa sedištem u Peći osnovana je 1346. godine, u vreme cara Dušana, kao kruna srednjovekovne državnosti. Stoleće kasnije ona se, bez cara i bez kralja, našla u potpuno drugačijem svetu. Osmansko osvajanje balkanskih oblasti nije značilo i automatsko gašenje crkvenog života: posle pada Carigrada 1453. sultan Mehmed II prihvatio je vaseljensku patrijaršiju kao priznatu ustanovu hrišćanske zajednice — onoga što će se kasnije, u osmanskoj upravnoj praksi, opisivati kao poseban „milet”. Pravoslavni episkopi su, u načelu, imali određena prava nad svojim vernicima, mogli su da sude u porodičnim i nasleđem vezanim sporovima i da prikupljaju određene dažbine. Ali jedna stvar načelno priznata nije značila i sređena praksa. Na južnoslovenskom prostoru sve je tek trebalo da se izbori."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sudbina same Pećke patrijaršije u prvim decenijama posle 1459. ostaje jedno od najmanje jasnih poglavlja srpske crkvene istorije. Prema većem broju istraživača, srpska patrijaršija je oko 1463. godine zapravo bila ukinuta — to jest, njena samostalnost je prekinuta — i njene episkopije su potpale pod jurisdikciju Ohridske arhiepiskopije, koju su osmanske vlasti priznavale kao crkvenu vlast na širem području. Tako bi između pada despotovine i obnove patrijaršije u 16. veku postojao dugi period u kome srpska crkva formalno nije imala sopstveno vrhovno središte. To stanje će potrajati sve do obnove 1557. godine, kojoj će u ovom kursu kasnije biti posvećena posebna lekcija. Treba pošteno reći: izvori za ovaj međuperiod su škrti i nesigurni, pa istoričari opisani sled događaja rekonstruišu iz fragmenata, monaških zapisa i kasnijih spomena."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Manastiri kao stub"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ono što je u praksi održavalo srpsko hrišćansko telo na okupu — i u onim godinama kada je središte u Peći bilo bez patrijarha — bila je mreža starih manastira. Studenica, podignuta još u vreme Stefana Nemanje, ostala je grobno mesto dinastije i zadržala simbolički značaj iako je delom opustela. Mileševa, sa moštima Svetog Save, nije prestajala da privlači hodočasnike iz svih krajeva u kojima su Srbi živeli. Dečani su, uprkos sve težim uslovima, nastavili svakodnevnu liturgijsku službu, kao i Gračanica na Kosovu i Sopoćani u Polimlju. Manastirske zajednice su se smanjivale, a poneke i privremeno gasile, ali se nit nikada nije do kraja prekinula. Uz njih, na grčkoj Svetoj Gori, srpski manastir Hilandar je nastavio da bude duhovno i kulturno čvorište — od njega su u srpske krajeve odlazile knjige, ikone i monasi obučeni u vizantijskoj tradiciji."
+    },
+    {
+      "type": "paragraph",
+      "text": "U tim zidinama nastavljen je i tihi rad koji će se kasnije pokazati ključnim za očuvanje pamćenja. Pisari su prepisivali jevanđelja, časoslove, žitija i tipikone; freske su čuvale slike nemanjićkih vladara i svetitelja čak i onda kada od same države nije ostao kamen na kamenu. Naporedo sa rukopisom, na samom kraju 15. veka počela je da deluje i prva južnoslovenska štamparija pravoslavnog sveta — Crnojevića štamparija na Cetinju, čije će knjige, mada izdate na zetskom dvoru, kružiti i kroz manastire pod osmanskom upravom. Kult srpskih svetitelja — pre svih Svetog Save i Svetog Simeona, ali i kosovskih mučenika — pevao se podjednako u Peći, na Svetoj Gori, u ugarskom Sremu i u dalmatinskim primorskim varošima u kojima su živele srpske pravoslavne zajednice."
+    },
+    {
+      "type": "paragraph",
+      "text": "Posledica je bila tiha, ali dalekosežna. Bez vlastele i bez kraljeva, ulogu prvih ljudi srpskog društva preuzeli su episkopi, igumani i obični monasi. Oni nisu komandovali vojskama i nisu sklapali ugovore sa stranim silama; ali su odlučivali kako će se sahranjivati, slaviti slava, čuvati pisane knjige i pamtiti vladari starog veka. Iz takvog stanja izrasta jedan od najprepoznatljivijih obrazaca srpske istorije — crkva kao nosilac nacionalnog identiteta pod tuđom vlašću. Taj obrazac će se ponavljati gotovo četiri stoleća, sve do nove srpske države u 19. veku. Veze sa širim pravoslavnim svetom takođe su pomagale: sa Carigradom, koji je sada Istanbul i u kome vaseljenska patrijaršija živi pod sultanom; sa Svetom Gorom, koja je za sve pravoslavne ostala zajedničko duhovno žarište; i, postepeno, sa moskovskom Rusijom, čiji će vladari u narednim vekovima postati važan oslonac. Krajem 15. veka, srpska država je već bila prošlost — ali pravoslavna zajednica koja je nosila njeno ime tek je počinjala svoj dugi vek bez države."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

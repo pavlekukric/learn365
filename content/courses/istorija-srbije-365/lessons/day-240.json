@@ -6,13 +6,53 @@
   "dayNumber": 240,
   "order": 10,
   "title": "Predaja gradova 1867.",
+  "subtitle": "Kako je knez Mihailo, bez ispaljenog metka, dobio ključeve Beograda i istisnuo turske posade iz srpskih gradova",
   "readingTimeMinutes": 8,
   "year": 1867,
-  "isPlaceholder": true,
+  "dateLabel": "1867.",
+  "timelinePosition": "april 1867.",
+  "summary": "Posle decenija nepotpune slobode i bombardovanja Beograda 1862, sultan Abdul-Aziz fermanom 1867. predaje šest tvrđava srpskoj vlasti, a knez Mihailo na Kalemegdanu prima ključeve grada.",
+  "keyPeople": ["knez Mihailo Obrenović", "Ilija Garašanin", "sultan Abdul-Aziz", "Ali Riza-paša"],
+  "keyPlaces": ["Beograd", "Kalemegdan", "Šabac", "Smederevo", "Užice", "Soko", "Kladovo", "Carigrad"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Kada je Srbija 1830. i 1833. godine, hatišerifima sultana Mahmuda II, dobila priznatu autonomiju, jedna stvar je ostala neraščišćena i bolna. U šest gradova — Beogradu, Šapcu, Smederevu, Užicu, Soko-gradu kod Užica i Kladovu, kojem je pripadao i Fethislam kod Negotina — i dalje su sedele turske vojne posade. Knežev dvor je vladao u Beogradu, ali je iznad njega, na Kalemegdanu, vejala turska zastava i straža je bila sultanova. Bila je to slika nepotpune slobode, koja je iz godine u godinu sve teže padala generacijama Srba koji više nisu pamtili Karađorđevo doba. Tvrđave su ostale kao tuđe oči nad sopstvenom državom."
+    },
+    {
+      "type": "paragraph",
+      "text": "Tokom prve polovine veka taj suživot bio je hladan, ali se mogao podneti. Sredinom šezdesetih godina više nije. Tri i petnaestog juna 1862, na Čukur-česmi u Beogradu, turski vojnik je ranio srpskog dečaka koji je dolazio po vodu. Sitan, gotovo svakodnevni nesporazum prerastao je u pravu uličnu bitku oko Varoš-kapije. Iste noći, sa beogradske tvrđave, turski topovi su otvorili vatru na varoš. Bombardovanje je oštetilo crkve, kuće i čaršiju, a u srpskoj javnosti je posejalo uverenje koje se više nije dalo iskoreniti — da grad u kojem na jednoj strani postoji srpska prestonica, a na drugoj turska tvrđava, ne može još dugo da traje u miru."
+    },
+    {
+      "type": "paragraph",
+      "text": "Knez Mihailo, koji je tek nepunu godinu dana ranije po drugi put seo na presto, izvukao je iz tog krvavog incidenta jednu vrlo svesnu pouku. Nije pošao u rat — bio je suviše trezven da bi nasilno otimao tvrđave od carstva čija je vojska, ma koliko da je slabila, još uvek bila brojnija od srpske. Umesto toga, oslonio se na strpljivu diplomatiju Ilije Garašanina, svog kancelara, i na novu evropsku klimu posle Krimskog rata. Osmansko carstvo je tih godina bilo sve više zavisno od velikih sila i sve manje sigurno u sebe. Rusija je, posle poraza u Krimskom ratu, tražila načine da prisustvo na Balkanu povrati posredno — preko Srbije, Crne Gore i bugarskog narodnog buđenja."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Pet godina pregovora"
+    },
+    {
+      "type": "paragraph",
+      "text": "Od 1862. do 1867. Garašaninovi izaslanici i sam knez vodili su pregovore u Carigradu, Petrogradu, Parizu, Beču i Londonu. Tražili su, postupno, isto što je javno mnjenje u Srbiji nestrpljivo zahtevalo — da turske posade napuste sve gradove i da se srpska autonomija na taj način, pred celom Evropom, dovrši. Beogradski paše su pregovarali sporo, sultanov dvor je odlagao, ali je teren bio sve nepovoljniji za stari poredak. Britanija i Francuska više nisu htele otvoreni sukob na Balkanu. Rusija je pritiskala. A unutar samog carstva, Visoka porta je u Srbiji videla zemlju koja se i ekonomski i vojno popravila — i sa kojom je rat bio skup, sa neizvesnim ishodom."
+    },
+    {
+      "type": "paragraph",
+      "text": "Konačan preokret došao je u proleće 1867. Šestog, odnosno osamnaestog aprila po novom kalendaru, sultan Abdul-Aziz izdao je ferman kojim se turske posade povlače iz svih šest srpskih gradova. Tvrđave se predaju srpskom knezu i srpskoj vojsci. Sačuvana je jedna jedina simbolična obaveza: na bedemu Beograda, pored srpske, ostaće formalno da se vije i turska zastava — kao znak sultanovog vrhovnog suvereniteta, koji Srbija u tom času još nije osporavala. Bio je to kompromis. Mihailo je dobio sve što je tražio u stvarnom smislu, a sultanu je ostavljen jezik kojim je pred svojim narodom mogao da kaže da Srbija nije izgubljena."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sedmog, odnosno devetnaestog aprila 1867. godine, na Kalemegdanu se odigrala svečanost koja je u sećanju Srbije ostala kao jedan od najsvetlijih trenutaka veka. Beogradski paša Ali Riza, u prisustvu srpskih i stranih predstavnika, predao je knezu Mihailu ključeve beogradske tvrđave. Smotra, muzika, počasne salve — sve je bilo izvedeno mirno, gotovo svečano hladno. Po prvi put posle više od tri stotine godina, srpski vladar je ulazio u Kalemegdan kao gospodar, a ne kao gost. Posade su se u narednim nedeljama povukle iz Šapca, Smedereva, Užica, Soko-grada i Kladova, i tvrđave su zaposele srpske jedinice obučene po novoj reformi."
+    },
+    {
+      "type": "paragraph",
+      "text": "Treba pošteno reći šta predaja gradova jeste, a šta nije bila. Nije bila vojna pobeda; Srbija u tih pet godina nije ratovala sa Turskom. Bila je diplomatski uspeh — i to vrhunac druge Mihailove vladavine. Ali takav uspeh ne bi bio moguć bez onoga što je činjeno paralelno, čime su se ranije lekcije ovog odeljka već bavile: bez stajaće, regularno vežbane narodne vojske, bez novog topništva i moderne pešadijske opreme, bez popravljenih finansija i bez disciplinovane države sposobne da pregovara godinama bez prekida. Diplomatija je imala težinu zato što je iza nje stajala spremna, makar i mala, sila. Sultan je popustio zato što je znao da otpor više nije lak."
+    },
+    {
+      "type": "paragraph",
+      "text": "Slika beogradske tvrđave sa dve zastave ostala je samo godinu dana. Već u maju 1868, knez Mihailo će biti ubijen u Košutnjaku, a politika koju je on tako pažljivo gradio — savez balkanskih hrišćanskih država i postepeno potiskivanje Osmanlija — ostaće bez svog glavnog tvorca. Pa ipak, ono što je 1867. dobijeno više nikada nije izgubljeno. Tvrđave su ostale srpske. Beograd je od tog aprila prestao da bude grad sa tuđim garnizonom u sopstvenom srcu i postao je, u punom smislu, prestonica. Sve što će u narednim decenijama doći — Berlin, nezavisnost, kraljevina — počiva, makar jednim svojim oslonjenim uglom, na tih nekoliko mirnih dana 1867. na Kalemegdanu."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

@@ -6,13 +6,57 @@
   "dayNumber": 95,
   "order": 6,
   "title": "Srbija i Ugarska",
+  "subtitle": "Severni sused kroz tri veka — duga granica na Savi i Dunavu, rivalstvo, brakovi i pragmatični prelasci",
   "readingTimeMinutes": 7,
   "year": 1300,
-  "isPlaceholder": true,
+  "dateLabel": "12–14. vek",
+  "timelinePosition": "12–14. vek",
+  "summary": "Odnos srpske države i Ugarske u doba Nemanjića: trajno rivalstvo na Sava-Dunavskoj liniji, dinastički brakovi preko katoličko-pravoslavne granice i borba oko Mačve, Beograda i Srema.",
+  "keyPeople": [],
+  "keyPlaces": ["Mačva", "Beograd", "Srem", "Bosna", "Sava", "Dunav"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Od svih suseda koje je srpska država u doba Nemanjića imala, nijedan nije bio toliko trajno prisutan kao Ugarska. Vizantija je slabila, Bugarska je tonula i dizala se, italijanski gradovi i Dubrovnik bili su važni ali daleki — Ugarska je, međutim, vekovima sedela neposredno preko Save i Dunava i nije se nikuda pomerala. Linija dveju velikih reka bila je prirodna granica, ali i stalno mesto trenja: prelaza, sajmova, pregovora, ratnih pohoda i izmenjenih poseda. U tri veka koja pokrivaju vreme od Nemanje do poslednjih Nemanjića, srpsko-ugarski odnos prešao je preko svih lica koja takav susedski odnos može imati — od otvorenog rata do bračnog ugovora, i od dinastičkog savezništva do tihog rivalstva oko istih oblasti."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ugarska je tada bila katoličko kraljevstvo pod dinastijom Arpadovića, a od početka 14. veka pod Anžujcima koji su preko Napulja stigli na budimski presto. Srbija je bila pravoslavna i u svemu drugačije organizovana, ali su se dvorovi razumeli — služili su se istim diplomatskim jezikom srednjovekovne Evrope, istim pravnim oblicima braka i istim okvirom vazalnih obaveza. Verska razlika nikad nije bila prepreka pregovorima. Bila je prepreka samo onima koji su je hteli učiniti preprekom, a vladari Nemanjići i kraljevi iz Budima to po pravilu nisu hteli kad je interes nalagao drukčije."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sukob je počeo rano. Već u doba velikog župana Stefana Nemanje ugarska vojska je više puta pokušala da se učvrsti južno od Save, u oblastima koje će kasnije biti poznate kao Mačva. Nemanja je te pritiske odbijao, ponekad uz pomoć Vizantije, ponekad sam, i uspeo da očuva srž raške države nepovređenom. Beograd je u tom periodu ostao u ugarskim rukama, kao tvrđava-ključ koja je kontrolisala donji Dunav. Granica se nije pomerala daleko ni u jednom ni u drugom pravcu — pomerali su se ljudi, sela, povremeni gospodari i nazivi, ali okvir je ostao isti."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Brakovi preko granice"
+    },
+    {
+      "type": "paragraph",
+      "text": "Druga, mirnija strana odnosa bila je dinastička. Srpski i ugarski dvor su se vekovima vezivali brakovima, i upravo ti brakovi su često bili konkretniji nego ratovi. Stefan Dragutin, sin kralja Uroša I, oženio se Katarinom, kćerkom ugarskog kralja Stefana V — i upravo zahvaljujući tom braku posle 1282. dobio je na upravu severne oblasti: Mačvu, Beograd i deo Srema, kao posebno kraljevstvo koje je ležalo i s jedne i s druge strane ugarsko-srpske granice. Dragutinovo „srpsko kraljevstvo u Ugarskoj”, kako se ono ponekad opisuje, držalo se sve do njegove smrti 1316. i predstavlja redak slučaj srpskog vladara koji je zakonito vladao u krugu ugarske krune."
+    },
+    {
+      "type": "paragraph",
+      "text": "Njegov mlađi brat, kralj Milutin, oženio se najpre ugarskom princezom Jelisavetom — prvom od četiri žene koje će tokom života imati. Brak je bio kratak i diplomatski, ali je pokazao isti obrazac: Budim je Nemanjiće gledao kao ravnopravne sagovornike, a Nemanjići su Budim gledali kao mesto gde se prave i razvrgavaju ozbiljne veze. Verska razlika rešavala se pragmatično. Mlada kraljevska nevesta bi, prema okolnostima, prešla u veru muža, ili bi prelaz ostao formalan; dvor se prilagođavao, a sveštenstvo nije imalo poslednju reč."
+    },
+    {
+      "type": "paragraph",
+      "text": "Treća strana odnosa bila je dinastička intriga. Ugarska je više puta podržavala srpske pretendente koji su rivalisali tekućem vladaru. Posle smrti kralja Dragutina, Budim je stao iza njegovog sina Vladislava II u sukobu sa Milutinom oko nasleđa severnih oblasti. Vladislav je uz ugarsku pomoć neko vreme držao deo Dragutinove zemlje, ali na kraju nije uspeo da se održi i ugarski uticaj se opet povukao na liniju Save. Slični slučajevi ponoviće se i kasnije, kad god je u srpskom dvoru postojao razdor: severni sused ga je rado koristio."
+    },
+    {
+      "type": "paragraph",
+      "text": "Veliki istorijski događaji znali su da na trenutak zaustave ovu igru. Mongolska najezda 1241. godine slomila je Ugarsku iznutra, kralj Bela IV jedva se izvukao živ, i Budim je godinama bio okrenut samom sebi. To je raškoj državi dalo prostora i predaha. Sa druge strane, dolazak Anžujaca na ugarski presto početkom 14. veka — Karla Roberta, pa Lajoša Velikog — vratio je staru pritisak i čak ga pojačao. Anžujska Ugarska je sebe doživljavala kao zaštitnika katoličanstva u jugoistočnoj Evropi i prema Srbiji vodila tvrđu liniju, posebno oko Bosne koju su i Budim i srpski dvor smatrali svojom interesnom sferom."
+    },
+    {
+      "type": "paragraph",
+      "text": "Treba biti pošten i reći da je dokumentacija ovog odnosa neujednačena. Ugarske kraljevske kancelarije čuvale su povelje, sudske spise i prepisku marljivije nego srpski dvor istog vremena, i veliki deo onoga što danas znamo o Mačvi, Beogradu ili Sremu u 13. i 14. veku dolazi iz Budima, a ne iz Srbije. Srpski izvori često ćute upravo tamo gde bi nam ugarski najviše značili, i obrnuto. Istoričari moraju da rekonstruišu odnos iz dva nejednaka glasa, što znači da su mnogi pojedinačni događaji — ko je tačno koju tvrđavu držao u kojoj godini, koji je sporazum bio pisan a koji usmen — i danas predmet ozbiljne stručne rasprave."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ono što je pouzdano, to je opšti obrazac. Tri veka odnosa između Srbije i Ugarske nisu bila ni stalni rat ni stalni mir, već dugačko susedstvo dva srednje jaka kraljevstva sa zajedničkom granicom i različitim crkvama, koja su naučila da žive jedno uz drugo. Ratovala su, ženila se, podržavala međusobne odmetnike, trgovala preko reka i kovala povelje koje će kasnije, u vreme despota i osmanske najezde, dobiti nov i mnogo dramatičniji značaj. Severna granica je, drugim rečima, ostavljena epohi koja dolazi — i biće upravo ona ivica preko koje će Srbija u 15. veku tražiti zaštitu, i preko koje će je ta ista zaštita ponekad izneveriti."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

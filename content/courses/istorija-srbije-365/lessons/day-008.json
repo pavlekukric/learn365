@@ -6,13 +6,53 @@
   "dayNumber": 8,
   "order": 1,
   "title": "Bakarno i bronzano doba",
+  "subtitle": "Prvi metali na Balkanu i kako su menjali život sela, rada i moći",
   "readingTimeMinutes": 7,
   "year": -3500,
-  "isPlaceholder": true,
+  "dateLabel": "oko 4500–1200. p. n. e.",
+  "timelinePosition": "~3500. p. n. e.",
+  "summary": "Pojava bakra i, kasnije, bronze postepeno menja oruđe, oružje, trgovinu i društvenu strukturu kasnoneolitskih i ranometalnih zajednica na Balkanu.",
+  "keyPeople": [],
+  "keyPlaces": ["Rudna Glava", "Podunavlje", "Balkan"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Dugo, dugo posle prvih sela starčevačke i vinčanske kulture, u svet ljudi na ovom tlu polako ulazi nešto novo: metal. Najpre bakar, zatim, tek mnogo kasnije, njegova legura sa kalajem — bronza. Promena nije bila ni nagla ni efektna; bila je tiha, postepena, raspoređena na hiljade godina. Ali do njenog kraja svet je već bio drugačiji od onog koji su poznavali poslednji vinčanski zemljoradnici."
+    },
+    {
+      "type": "paragraph",
+      "text": "Prvi koraci ka metalu dogodili su se još u vinčansko doba. Već tada se na nekim predmetima javlja čist, kovani bakar, a na rudnom mestu poznatom kao Rudna Glava, u istočnoj Srbiji, otkriveni su tragovi vrlo ranog rudarstva — kopanja bakarne rude još u petom milenijumu pre nove ere. To stavlja ovaj kraj među najranije poznate metalske rudnike Evrope. Treba odmah biti precizan: reč je o vrlo retkom, prestižnom materijalu, koji još uvek ne menja svakodnevicu — od bakra se prave nakit i pojedinačni alati, dok ostatak života i dalje teče sa kamenom, kostom i drvetom."
+    },
+    {
+      "type": "paragraph",
+      "text": "Razdoblje u kome se bakar postepeno odomaćuje stručno se zove eneolit, ili bakarno doba. Tačne njegove granice variraju od kraja do kraja Balkana, ali okvirno ono traje od poznog petog do kraja četvrtog, mestimično trećeg milenijuma pre nove ere. To je vreme u kome velika vinčanska sela polako gube prvenstvo, a na pozornicu stupaju nove kulture sa drugačijim načinom života. I dalje je reč o seljačkim zajednicama; ali metalsko znanje, jednom stečeno, ne nestaje — ono se prenosi i raste."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Bronza i preuređenje sveta"
+    },
+    {
+      "type": "paragraph",
+      "text": "Pravi preokret donosi bronza. Bronza je legura, dakle mešavina — uglavnom bakra i kalaja. Po tvrdoći i izdržljivosti ona daleko nadmašuje čist bakar i približava se onome što će kasnije moći samo gvožđe. Bronzano doba na centralnom Balkanu okvirno se smešta od kraja trećeg do dvanaestog veka pre nove ere. Sa njim, prvi put u istoriji ovog tla, metal počinje da menja sve — oruđe, oružje, ukras i, što je najvažnije, pristup moći."
+    },
+    {
+      "type": "paragraph",
+      "text": "Jer bronza ima jednu osobinu koja je presudna za društvo: ona traži znanje koje nije svakome dostupno i sirovine koje retko leže pod nogama. Kalaj, naročito, ne nalazi se baš svuda — dobar deo evropskog kalaja iz tog doba potiče sa udaljenih nalazišta, od dalekog zapada do Sredozemlja. Da bi se napravila kvalitetna bronza, neko mora da nabavi sirovinu, neko da je preradi, a neko da gotov predmet razdeli. Tako se, malo po malo, javljaju mreže razmene i nove uloge — rudara, livaca, trgovaca, ratnika koji nose bronzano oružje. Ono što je ranije svako mogao da napravi sam, sada zavisi od veštine i kontakta sa udaljenim svetom."
+    },
+    {
+      "type": "paragraph",
+      "text": "Posledica je dvostruka. S jedne strane, materijalna kultura ovog doba postaje bogatija, raznovrsnija i lepša — sekire, mačevi, koplja, nakit, sudovi izlivani u kalupima. Brojni nalazi sa centralnog i severnog Balkana svedoče o tehnici koja je već savladala složeno livenje. S druge strane, jača i nejednakost. U grobovima ovog doba sve se češće vide razlike: jedni pokojnici odlaze pod zemlju sa skromnim prilogom, drugi sa raskošnim setom oružja i nakita. Iza tih razlika počinje da se nazire društvo u kome jedni imaju više od drugih, i u kome to više može i da se nasledi."
+    },
+    {
+      "type": "paragraph",
+      "text": "Karakteristična crta bronzanog doba su i takozvane ostave — namerno zakopane skupine bronzanih predmeta, ponekad razbijene, ponekad netaknute. Ovih je naroda izgleda bilo običaj da bronzu, povremeno, u celosti ili u delovima, povere zemlji. Razloga je više: skrivanje pred opasnošću, religijska žrtva, čuvanje vrednosti koja se kasnije nikada nije podigla. Nauka još raspravlja koje je objašnjenje najbliže istini; verovatno su sva tačna, zavisno od slučaja. Za nas, te ostave su nešto poput slučajno otvorenih sefova jednog izumrlog doba — pokazuju koliko je bronze bilo, koliko je vredela i kakve je veze njeni vlasnici imali sa onostranim svetom."
+    },
+    {
+      "type": "paragraph",
+      "text": "Bronzano doba je, dakle, doba u kome se rađaju neke od osnovnih crta društva koje ćemo prepoznati i mnogo kasnije: zanat odvojen od svakodnevice, mreže razmene na velikim daljinama, plemstvo prepoznatljivo po oružju i nakitu, i običaj da se materijalno bogatstvo prinosi zemlji ili bogovima. Sve to još uvek nije država. Ali nije više ni jednostavna seoska zajednica vinčanskog tipa. Negde između to dvoje, kroz duge milenijume metala, oblikovao se Balkan koji će rimske vojske, mnogo kasnije, zateći već prilično složenim — i koji će morati da ozbiljno shvate."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }
