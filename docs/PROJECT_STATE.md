@@ -10,7 +10,7 @@ For forward-looking work (what to pick next), see [`HANDOFF.md`](../HANDOFF.md) 
 
 - **Live URL:** https://learn365-web.vercel.app/ (Vercel project `learn365-web`, auto-deploys from `main`).
 - **Branch model:** Trunk-based. Each phase ships as one PR merged to `main`. No release branches.
-- **Last shipped phase:** Phase 7.9 — Progress narrative consolidation (merged 2026-05-19 as PR #19, commit `d34a6eb`). See "Phase 7.9 — done" below. The Phase 7.8 + full-content drop (PR #18, `76f94fe`) is the prior milestone.
+- **Last shipped phase:** Phase 7.10 + 7.12 — Lesson trust scaffolding + figure renderer (merged 2026-05-19 as PR #20, squash commit `7fb1d18`). See "Phase 7.10 + 7.12 — done" below. The Phase 7.9 progress consolidation (PR #19, `d34a6eb`) is the prior milestone.
 
 ### UI/UX baseline (do not regress)
 
@@ -18,7 +18,7 @@ For forward-looking work (what to pick next), see [`HANDOFF.md`](../HANDOFF.md) 
 - **TopBar:** sticky, translucent (`backdrop-filter: saturate(160%) blur(14px)`). Brand mark + nav (`Početna`, `Kurs`, `O aplikaciji`) + total-progress chip (`xxx / 365` + thin bar). All nav uses real `next/link` `href`s — `onClick` navigation has been retired across the app. **Mobile (≤720px):** masthead reads Brand · Kurs · ProgressCapsule — `Početna` is hidden (Brand carries Home) and `O aplikaciji` is hidden (footer carries it on every route). Each `<Link>` carries a stable `data-link='home' | 'course' | 'about'` attribute used by the mobile hide rule.
 - **Home:** calm hero with the daily-contract caption `365 lekcija · 1 dnevno · ~8 minuta` (post-7.8), 8-era timeline strip (post-7.2), state-aware "Tvoj N. dan" daily-ritual anchor (post-7.8) above the recommended-lesson card, footer with about link. The recommended-lesson card no longer carries a duplicate state eyebrow — the anchor above carries it (post-7.8).
 - **Course overview:** `CourseProgress` card at top + 8 `CourseCard` era blocks. The progress card is **one canonical row, not two (post-7.9)**: a 120px `ProgressRing` showing `xx%` + a single journey-day row whose eyebrow reads `TVOJ N. DAN` mid-course or `ZAPOČNI` idle (same formula `HomeDailyAnchor` uses — `Math.min(completedCount + 1, 365)`). The dual `Aktuelno` / `Sledeće` rows and the redundant `N / 365 završeno` ring caption are gone. Each era card shows era eyebrow, title, years, **1–2 sentence editorial description always visible (post-7.4)**, progress bar, and a `Pokaži odeljke · N` disclosure for section drill-down. The accent `u toku` chip on the current era card was retired in 7.9 — the accent title colour and the non-zero progress bar carry that signal. **On fresh state, all eras default closed** so the page reads as 8 editorial blocks.
-- **Lesson reader:** publication-style layout, 5-item breadcrumb chain (`Početna · Course · Era · Section · DAN nnn`), `LessonHeader`, `LessonReader` body, `MarkAsCompletedButton`, `PreviousNextLessonNavigation`, sidebar with era → section → lesson indent guide (1px hairline rule, color-mixed at 60% of `--rule`).
+- **Lesson reader:** publication-style layout, 5-item breadcrumb chain (`Početna · Course · Era · Section · DAN nnn`), `LessonHeader` (with optional trust-line eyebrow under the title rendering byline + last-reviewed date when present, post-7.10), `LessonReader` body, optional closing `<LessonSources>` "Izvori" editorial block when the lesson carries `sources[]` (post-7.10), `MarkAsCompletedButton`, `PreviousNextLessonNavigation`, sidebar with era → section → lesson indent guide (1px hairline rule, color-mixed at 60% of `--rule`). Image blocks render via `next/image` inside a real `<figure>` + `<figcaption>` (post-7.10) — the prior placeholder div is gone.
 - **Mobile:** responsive web only (no native app yet). `MobileLessonDrawer` combines sidebar + timeline in a single panel. Breadcrumb shows last two crumbs on `≤560px`. Compact `LessonContextHeader` chrome (post-6.7).
 - **Visual direction:** Editorial only (Spectral serif + Inter + JetBrains Mono, warm Editorial palette, OKLCH-defined tokens). No user-facing theme toggle. Modern direction is dev-only reference.
 
@@ -28,7 +28,8 @@ For forward-looking work (what to pick next), see [`HANDOFF.md`](../HANDOFF.md) 
 - **Hierarchy:** `Course → Era → Section → Lesson`. Eras drive the timeline (8 total); Sections drive sidebar grouping (37 total); Lessons are the daily unit (365 total).
 - **Content status (post-2026-05-19):** **365 authored / 0 placeholder.** Every day of the course carries real editorial content. `validate-content` enforces this floor.
 - **Loading approach:** JSON drop-in. The editable source is `content/courses/istorija-srbije-365/*.json` (`course.json` + `eras.json` + `sections.json` + 365 `lessons/day-NNN.json`). A codegen script `pnpm gen-content` reads the JSON and writes `packages/content/src/courses/istorija-srbije-365/_generated.ts`, which is the runtime source-of-truth the app imports. **Anyone editing JSON must run `pnpm gen-content` to refresh the generated file** — otherwise the app shows stale content. (Auto-regen on edit is a known quality-of-life gap; see HANDOFF.)
-- **Lesson schema (post-2026-05-19):** in addition to `id`, `courseId`, `sectionId`, `eraId`, `dayNumber`, `order`, `title`, `readingTimeMinutes`, `year`, `content[]`, lessons may carry `subtitle`, `dateLabel`, `timelinePosition`, `summary`, `keyPeople[]`, `keyPlaces[]`. Paragraph blocks may carry `dropcap: true` for an editorial opening cap. `isPlaceholder: false` on every lesson in the current corpus; the field and the upcoming-state code path remain for any future re-introduction.
+- **Lesson schema (post-2026-05-19):** in addition to `id`, `courseId`, `sectionId`, `eraId`, `dayNumber`, `order`, `title`, `readingTimeMinutes`, `year`, `content[]`, lessons may carry `subtitle`, `dateLabel`, `timelinePosition`, `summary`, `keyPeople[]`, `keyPlaces[]`, and (post-7.10) `byline { author?, reviewer? }`, `lastReviewedAt` (ISO date), `sources[]` (typed-kind union: `book | article | museum | archive | web`). Paragraph blocks may carry `dropcap: true` for an editorial opening cap. The `image` `LessonBlock` (post-7.10) requires `width` / `height` for `next/image` rendering. `isPlaceholder: false` on every lesson in the current corpus; the field and the upcoming-state code path remain for any future re-introduction.
+- **Trust scaffolding content status (post-7.10):** 6 seed lessons (Days 1, 7, 31, 106, 200, 305) carry `lastReviewedAt: 2026-05-19` and 3–4 sources each. All 359 other lessons render unchanged. No lesson carries a `byline` yet — the renderer is wired but each name needs to be authored explicitly (no generic course-wide fallback). No lesson carries an image block yet — figure curation is deferred to Phase 7.12b.
 - **Era editorial copy:** every era has a 1–2 sentence description rendered on the course page (wired in Phase 7.4b). Era descriptions live alongside era metadata in the content package.
 
 ### Technical baseline
@@ -55,7 +56,7 @@ For forward-looking work (what to pick next), see [`HANDOFF.md`](../HANDOFF.md) 
 
 ### Next-step pointer
 
-The next phase pick is recorded in [`HANDOFF.md`](../HANDOFF.md) at the repo root. After 7.9 the next candidate is **Phase 7.10 + 7.12 as a single editorial PR window** (trust scaffolding — byline / lastReviewed / sources — plus figures across the authored lesson set). Remaining backlog: Phase 7.11 (reading comfort), Phase 7.5 (mobile sticky chrome), Phase 7.6 (course scroll restore), hero backdrop QA pass.
+The next phase pick is recorded in [`HANDOFF.md`](../HANDOFF.md) at the repo root. After 7.10/12 the next candidate is **Phase 7.11 — Reading comfort** (wire `ReadingProgress.tsx` stub + add a `BookmarkStorage` adapter mirroring `ProgressStorage`). Remaining backlog: Phase 7.12b (era-opener figures — pending image curation), seed bylines (1-line JSON edits when authors are decided), Phase 7.5 (mobile sticky chrome), Phase 7.6 (course scroll restore), hero backdrop QA pass.
 
 ---
 
@@ -1022,10 +1023,51 @@ Gates locally green on the feature branch before merge: `pnpm typecheck && pnpm 
 
 Roadmap context: this is Bundle C from [`docs/ROADMAP_PRE_PHASE_8.md`](./ROADMAP_PRE_PHASE_8.md). With 7.7 / 7.8 / 7.9 shipped, the remaining backlog is 7.10 + 7.12 (combined editorial PR — trust scaffolding + figures), 7.11 (reading comfort), 7.5 (mobile sticky chrome), 7.6 (course scroll restore), and a hero backdrop QA pass.
 
+## Phase 7.10 + 7.12 — Lesson trust scaffolding + figure renderer: done
+
+Shipped 2026-05-19 as PR #20 (squash commit `7fb1d18`), one PR with two commits — schema + UI surface, then seed content. Plan: [`docs/archive/phases/PHASE_7_10_7_12_PLAN.md`](./archive/phases/PHASE_7_10_7_12_PLAN.md). Predecessor: Phase 7.9 + Roadmap §D / §F (Bundles D and F combined per the original roadmap proposal of a single editorial PR window).
+
+The 2026-05-19 mobile UI/UX assessment flagged the lesson reader as carrying **no credibility surface** — no byline, no review date, no sources, and the schema's `image` block rendered as an empty placeholder div instead of a real `<figure>`. The post-7.8 corpus also made the roadmap's original "sources required on authored lessons" rule infeasible — "authored" now means all 365, so the bundle had to be rescoped before any code landed.
+
+Locked decisions ([`docs/archive/phases/PHASE_7_10_7_12_PLAN.md`](./archive/phases/PHASE_7_10_7_12_PLAN.md) §1, all confirmed before code):
+
+- **D1 — Scope ceiling.** Schema + UI ship for all 365 lessons (universal surface, consistent rendering). Actual content (`byline`, `lastReviewedAt`, `sources`) backfills only the 6 editorial seed lessons (Days 1, 7, 31, 106, 200, 305) in this PR. The remaining 359 render unchanged. Reframes the original 1.5–2 day code phase around the post-corpus reality.
+- **D2 — Byline shape.** `Lesson.byline?: { author?: string; reviewer?: string }`. Both roles independently optional. **No generic course-wide fallback** — if a lesson has no real byline, render nothing. The renderer absence is preferable to fake-byline syndrome.
+- **D3 — `lastReviewedAt`.** Optional ISO date string (`YYYY-MM-DD`). Validated at load time. Rendered next to byline (or alone) in mono uppercase via `Intl.DateTimeFormat('sr-RS')`.
+- **D4 — `sources[]`.** Typed-kind union (`book | article | museum | archive | web`) with `title`, optional `author` / `year` / `url`. Rendered as a closing `Izvori` editorial block (new `<LessonSources>` component) appended between body and footer. URLs (when present) open in new tabs with `rel="noopener noreferrer"`.
+- **D5 — Figures.** Two-part: (i) `<LessonBody>` image branch swapped from placeholder div to real `<figure>` + `next/image` + `<figcaption>` (with `width` / `height` promoted to required on the `image` block); (ii) 8 curated era-opener figures **deferred to Phase 7.12b** (binary image curation surfaced as a separate workstream during implementation — public-domain / CC sourcing, license vetting, dimension capture).
+- **D6 — No validator enforcement.** Reversal of the original roadmap's "CI fails if authored lesson has no sources" rule, which was written pre-corpus and would now fail the build for 359 lessons. Shape-validation only (ISO regex, URL parse, kind union, non-empty `sources` array). The validator script (`validateContentFiles.ts`) is unchanged — the loader catches every shape problem at load time.
+- **D7 — One PR, two commits.** Commit-a (`bf8d2aa`): schema + UI surface, zero visual change for every lesson (no data yet). Commit-b (`3d1b8a3`): `lastReviewedAt` + 3–4 sources on the 6 seeds. Plan doc carried in commit-a.
+
+What changed concretely:
+
+- `packages/content/src/types.ts` — added `Source`, `SourceKind`, `LessonByline`; extended `Lesson` with `byline?` / `lastReviewedAt?` / `sources?`; promoted `width` / `height` to required on `image` `LessonBlock`.
+- `packages/content/src/index.ts` — exported the new types.
+- `packages/content/src/loader/loadCourseFromFiles.ts` — added `parseByline`, `parseLastReviewedAt`, `parseSource`, `optionalSources`; extended `parseBlock`'s `'image'` branch to require positive-integer width/height.
+- `packages/ui-web/src/lesson/LessonSources/` — new component (3 files: `LessonSources.tsx`, `LessonSources.module.css`, `index.ts`). Renders an `aria-labelledby` section with an `<ol>` of per-source entries; format `Author (Year) · Title`; entries with `url` become external `<a>`. Visual register: editorial body type on an `--ink-2` ramp, accent-mixed underline that promotes to full accent on hover/focus.
+- `packages/ui-web/src/lesson/LessonHeader/LessonHeader.tsx` — added `formatTrustLine` helper that composes `NAPISAO: … · PREGLEDAO: … · POSLEDNJI PREGLED: dd. mm. yyyy.` from whichever fields are present. Trust line renders below the lede in the same mono-uppercase register as the reading-time eyebrow. `LessonHeader.module.css` gained a `.trust` rule with letter-spacing 0.12em and a negative top margin so the two eyebrows read as a stack, not separate lines.
+- `packages/ui-web/src/lesson/LessonReader/LessonReader.tsx` — mounted `<LessonSources>` between `<LessonBody>` and the `<footer>` when `lesson.sources` is non-empty.
+- `packages/ui-web/src/lesson/LessonBody/LessonBody.tsx` — `case 'image'` now returns `<figure>` containing `next/image` (with `sizes="(max-width: 720px) 100vw, 720px"`) + optional `<figcaption>`. Caption string carries the attribution per D4.
+- `packages/ui-web/src/lesson/LessonBody/LessonBody.module.css` — replaced `.imagePlaceholder` with `.image` (real img styling: full width, auto height, rounded corner, hairline rule border).
+- `packages/ui-web/src/lesson/index.ts` — exported `LessonSources`.
+- Seed content: `content/courses/istorija-srbije-365/lessons/day-{001,007,031,106,200,305}.json` each gained `lastReviewedAt: "2026-05-19"` + 3–4 sources. Citations mix `book` (Srejović on Lepenski Vir; Winn on Vinča script; Barnes on Constantine; Ćirković/Dinić on the post-Uroš collapse; Ranke/Stojančević on the First Uprising; Banac/Gligorijević on Vidovdanski ustav), `article` (primary sources like Vita Constantini), `museum` (Lepenski Vir / Narodni muzej / Mediana / Niš), and `archive` (Arheološki institut SANU; Arhiv Srbije; Arhiv Jugoslavije). No URLs — avoids link-rot in v1.
+- `packages/content/src/courses/istorija-srbije-365/_generated.ts` — regenerated. 6 lesson literals carry `sources` arrays; the other 359 are byte-identical to pre-phase.
+
+What did not change: storage shape (`learn365:progress:v1`), `@learn365/core` selectors, `HomeDailyAnchor` / `HomeCurrentLessonCard` / `HomeHeroCta` / `HomeEraTimeline`, TopBar progress capsule, course-overview surfaces, era timeline, sidebar / drawer / prev-next. `keyPeople` / `keyPlaces` (added in 7.8) remain unrendered — separate consolidation concern, deliberately out of scope.
+
+Gates locally green on the feature branch before merge: `pnpm typecheck && pnpm lint && pnpm test && pnpm build`, `pnpm validate-content` (365 / 0 / 37 / 8). Unit tests 76. CI green on PR #20 before merge (1m 25s for the typecheck/test/build job). Vercel preview deploy green. Screenshot pack regenerated — 19 captures pass; the 2 pre-existing `lesson-placeholder` failures (asserting on the upcoming-state that no longer exists post-7.8) are unrelated and will be retired in a future cleanup.
+
+Open work surfaced by this phase (carried into HANDOFF as the next pre-Phase-8 backlog):
+
+- **Seed bylines** — 6 one-line JSON edits when the editorial team is decided. Renderer is wired; no schema or UI work required.
+- **Phase 7.12b — era-opener figures** — 8 curated images under `apps/web/public/lessons/` + JSON `image` block insertions + caption attribution. Renderer is wired; the work is curation.
+
+Roadmap context: this is Bundles D + F from [`docs/ROADMAP_PRE_PHASE_8.md`](./ROADMAP_PRE_PHASE_8.md). With 7.7 / 7.8 / 7.9 / 7.10+7.12 shipped, the remaining backlog is 7.11 (reading comfort — primary next pick), 7.12b (era-opener figures), seed bylines, 7.5 (mobile sticky chrome), 7.6 (course scroll restore), and a hero backdrop QA pass.
+
 ## Next step
 
 The forward-looking pointer now lives in [`HANDOFF.md`](../HANDOFF.md) at the repo root. It records the carry-forward non-blocking deferrals, the active pre-Phase-8 backlog ([`docs/ROADMAP_PRE_PHASE_8.md`](./ROADMAP_PRE_PHASE_8.md)), and the auto-regen `_generated.ts` quality-of-life candidate from the 7.8 PR. The roadmap continues into Phase 8 (Backend / .NET 9 + SQL Server) once the pre-Phase-8 bundles close and web v1 is declared visually approved.
 
-Next pick: **Phase 7.10 + 7.12 as one editorial PR window** — trust scaffolding (`Lesson.byline`, `lastReviewedAt`, `sources[]`) plus figures across the authored lessons. Roadmap §D + §F describe the bundle.
+Next pick: **Phase 7.11 — Reading comfort.** Wire `ReadingProgress.tsx` (stub already exists at `apps/web/app/course/[courseId]/lesson/[lessonId]/`) + add a bookmark toggle keyed to a new `BookmarkStorage` adapter that mirrors `ProgressStorage` (same swap-seam pattern). Roadmap §E describes the bundle. Effort: ~1.5 days.
 
-Phase plans for shipped phases (6.7 through 7.9) live in [`docs/archive/phases/`](./archive/phases/). Superseded UX reviews and audits live in [`docs/archive/reviews/`](./archive/reviews/). Treat both archive folders as historical — do not consult them when assessing current state.
+Phase plans for shipped phases (6.7 through 7.10/12) live in [`docs/archive/phases/`](./archive/phases/). Superseded UX reviews and audits live in [`docs/archive/reviews/`](./archive/reviews/). Treat both archive folders as historical — do not consult them when assessing current state.
