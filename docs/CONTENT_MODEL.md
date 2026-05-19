@@ -1,5 +1,7 @@
 # Content Model
 
+> **Canonical content contract.** This document defines the entity shapes (`Course`, `Era`, `Section`, `Lesson`, `LessonBlock`, `UserProgress`) used by the app. Treat the types and field lists here as the source of truth. For the mechanics of writing a lesson (file layout, validator, MDX migration path), see [`CONTENT_AUTHORING.md`](./CONTENT_AUTHORING.md).
+
 ## Overview
 
 The app is built around a simple course model.

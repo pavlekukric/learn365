@@ -1,6 +1,6 @@
 # Content Authoring
 
-How lessons, sections, and eras are written, validated, and shipped for the first course (`istorija-srbije-365`). Tone and historical-accuracy expectations come from `docs/CONTENT_MODEL.md`; this document covers the *mechanics*.
+> **Schema source of truth:** [`CONTENT_MODEL.md`](./CONTENT_MODEL.md). This document covers the *mechanics* of writing and shipping content for the first course (`istorija-srbije-365`) — file layout, validator, MDX migration path. Tone and historical-accuracy expectations come from `CONTENT_MODEL.md`.
 
 ---
 

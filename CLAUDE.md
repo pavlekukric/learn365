@@ -8,11 +8,14 @@ History 365 / Istorija 365
 
 Before making any decision, read and follow:
 
+- HANDOFF.md — what is true now and the live next-step pointer
+- docs/PROJECT_STATE.md — current baseline (do not regress) + phase history
 - docs/PRODUCT_BRIEF.md
 - docs/UX_REQUIREMENTS.md
-- docs/CONTENT_MODEL.md
-- docs/PROJECT_STATE.md
+- docs/CONTENT_MODEL.md — canonical content contract
 - docs/AGENTS.md
+
+Completed phase plans and superseded reviews live in `docs/archive/`. Do **not** treat anything in `docs/archive/` as a description of current state.
 
 ## Product goal
 
