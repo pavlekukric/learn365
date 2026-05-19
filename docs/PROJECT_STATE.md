@@ -10,7 +10,7 @@ For forward-looking work (what to pick next), see [`HANDOFF.md`](../HANDOFF.md) 
 
 - **Live URL:** https://learn365-web.vercel.app/ (Vercel project `learn365-web`, auto-deploys from `main`).
 - **Branch model:** Trunk-based. Each phase ships as one PR merged to `main`. No release branches.
-- **Last shipped phase:** Phase 7.12b — Era-opener figures (shipped 2026-05-19, pending PR + merge). See "Phase 7.12b — done" below. The Phase 7.11 lesson bookmarks + saved-lessons surface (PR #21, `1fffe95`) is the prior milestone.
+- **Last shipped phase:** Phase 7.5 — Mobile lesson sticky chrome scroll-collapse (shipped 2026-05-19, PR #23, `4325e64`). See "Phase 7.5 — done" below. The Phase 7.12b era-opener figures (`542edad`) and Phase 7.11 lesson bookmarks + saved-lessons surface (PR #21, `1fffe95`) are the prior milestones.
 
 ### UI/UX baseline (do not regress)
 
@@ -19,7 +19,7 @@ For forward-looking work (what to pick next), see [`HANDOFF.md`](../HANDOFF.md) 
 - **Home:** calm hero with the daily-contract caption `365 lekcija · 1 dnevno · ~8 minuta` (post-7.8), 8-era timeline strip (post-7.2), state-aware "Tvoj N. dan" daily-ritual anchor (post-7.8) above the recommended-lesson card, footer with about link. The recommended-lesson card no longer carries a duplicate state eyebrow — the anchor above carries it (post-7.8).
 - **Course overview:** `CourseProgress` card at top + optional `<CourseOverviewBookmarks>` "Sačuvane lekcije" block (post-7.11, renders only when the user has at least one bookmark in the course — no empty-state copy) + 8 `CourseCard` era blocks. The progress card is **one canonical row, not two (post-7.9)**: a 120px `ProgressRing` showing `xx%` + a single journey-day row whose eyebrow reads `TVOJ N. DAN` mid-course or `ZAPOČNI` idle (same formula `HomeDailyAnchor` uses — `Math.min(completedCount + 1, 365)`). The dual `Aktuelno` / `Sledeće` rows and the redundant `N / 365 završeno` ring caption are gone. The bookmarks surface (when present) is a 2-column card grid on desktop / 1-column on mobile, with each card showing day kicker, lesson title (2-line clamp), and era label. Each era card shows era eyebrow, title, years, **1–2 sentence editorial description always visible (post-7.4)**, progress bar, and a `Pokaži odeljke · N` disclosure for section drill-down. The accent `u toku` chip on the current era card was retired in 7.9 — the accent title colour and the non-zero progress bar carry that signal. **On fresh state, all eras default closed** so the page reads as 8 editorial blocks.
 - **Lesson reader:** publication-style layout, 5-item breadcrumb chain (`Početna · Course · Era · Section · DAN nnn`), `LessonHeader` (with optional trust-line eyebrow under the title rendering byline + last-reviewed date when present, post-7.10, plus a save-for-later bookmark toggle pinned top-right of the header on every non-placeholder lesson, post-7.11), `LessonReader` body, optional closing `<LessonSources>` "Izvori" editorial block when the lesson carries `sources[]` (post-7.10), `MarkAsCompletedButton`, `PreviousNextLessonNavigation`, sidebar with era → section → lesson indent guide (1px hairline rule, color-mixed at 60% of `--rule`). Image blocks render via `next/image` inside a real `<figure>` + `<figcaption>` (post-7.10) — the prior placeholder div is gone. Reading-progress hairline (`<ReadingProgress />`, 2px accent fill pinned to the viewport top) tracks scroll position on every lesson and hides on non-scrollable pages.
-- **Mobile:** responsive web only (no native app yet). `MobileLessonDrawer` combines sidebar + timeline in a single panel. Breadcrumb shows last two crumbs on `≤560px`. Compact `LessonContextHeader` chrome (post-6.7).
+- **Mobile:** responsive web only (no native app yet). `MobileLessonDrawer` combines sidebar + timeline in a single panel. Breadcrumb shows last two crumbs on `≤560px`. Compact `LessonContextHeader` chrome (post-6.7) whose secondary meta row (era + total progress) collapses on scroll-down and restores on scroll-up at all single-column widths (≤1024px), while the top row (`Sadržaj` contents trigger + day) stays sticky (post-7.5). Collapse honours `prefers-reduced-motion`.
 - **Visual direction:** Editorial only (Spectral serif + Inter + JetBrains Mono, warm Editorial palette, OKLCH-defined tokens). No user-facing theme toggle. Modern direction is dev-only reference.
 
 ### Content baseline
@@ -40,7 +40,7 @@ For forward-looking work (what to pick next), see [`HANDOFF.md`](../HANDOFF.md) 
 - **Progress storage:** `localStorage` via the `ProgressStorage` adapter in `@learn365/core`. This adapter is the swap seam for the future backend — no v1 frontend rewrite when the .NET API lands.
 - **Bookmark storage (post-7.11):** `localStorage` via a parallel `BookmarkStorage` adapter in `@learn365/core` (separate `learn365:bookmarks:v1` key, separate `createBookmarkStore`). Same swap-seam pattern as `ProgressStorage` so Phase 8 can ship `/api/bookmarks` independently of `/api/progress`.
 - **Node:** local Node 24 (official installer); CI Node 20 via `.nvmrc`; `engines` set to `>=20.10`.
-- **Build/test gates:** `pnpm typecheck && pnpm lint && pnpm test && pnpm build` all green on every merged phase. Playwright suite (post-7.9): **10 tests × 5 browser profiles = 50 runs, 48 pass / 2 documented WebKit skips** (the skip-link Safari quirk only).
+- **Build/test gates:** `pnpm typecheck && pnpm lint && pnpm test && pnpm build` all green on every merged phase. Playwright suite (post-7.5): **11 tests × 5 browser profiles = 55 runs, 50 pass / 5 skips** — the 2 documented WebKit skip-link skips plus the 3 desktop-profile skips of the new meta-row-collapse test (single-column-only behaviour, N/A on the two-column desktop layout).
 - **Lighthouse (last measured Phase 5):** desktop 99–100 across Perf/A11y/BP/SEO; mobile A11y/BP/SEO 100, mobile Perf 82–85 (accepted for v1; root cause is the three Google-served font families, fix would conflict with Editorial typography).
 
 ### Known issues / carry-forward deferrals
@@ -58,7 +58,7 @@ For forward-looking work (what to pick next), see [`HANDOFF.md`](../HANDOFF.md) 
 
 ### Next-step pointer
 
-The next phase pick is recorded in [`HANDOFF.md`](../HANDOFF.md) at the repo root. After 7.12b the next candidate is **Phase 7.5 — Mobile lesson sticky chrome scroll-collapse** (existing pre-7.0 polish backlog item). Remaining backlog: Phase 7.6 (course scroll restore), seed bylines (1-line JSON edits when authors are decided), hero backdrop QA pass, and a small consolidation phase for `keyPeople` / `keyPlaces` rendering.
+The next phase pick is recorded in [`HANDOFF.md`](../HANDOFF.md) at the repo root. After 7.5 the next candidate is **Phase 7.6 — Course page scroll restore** (existing pre-7.0 polish backlog item). Remaining backlog: seed bylines (1-line JSON edits when authors are decided), hero backdrop QA pass, and a small consolidation phase for `keyPeople` / `keyPlaces` rendering.
 
 ---
 
@@ -1147,10 +1147,39 @@ Open work surfaced by this phase: none. The bookmark feature is self-contained; 
 
 Roadmap context: this is Bundle E from [`docs/ROADMAP_PRE_PHASE_8.md`](./ROADMAP_PRE_PHASE_8.md). With 7.7 / 7.8 / 7.9 / 7.10+7.12 / 7.11 shipped, the remaining backlog is 7.12b (era-opener figures — pending image curation), seed bylines (1-line JSON edits when authors are decided), 7.5 (mobile sticky chrome), 7.6 (course scroll restore), and a hero backdrop QA pass.
 
+## Phase 7.5 — Mobile lesson sticky chrome scroll-collapse: done
+
+Shipped 2026-05-19 as PR #23 (squash commit `4325e64`), one PR / one commit. Plan: [`docs/archive/phases/PHASE_7_5_PLAN.md`](./archive/phases/PHASE_7_5_PLAN.md). Predecessor: Phase 7.12b (era-opener figures, `542edad`). Existing pre-7.0 polish backlog item.
+
+On single-column lesson layouts (≤1024px), the `LessonContextHeader`'s secondary meta row (era label + total progress) collapses on scroll-down and restores on scroll-up, reclaiming vertical reading space. The top row (`Sadržaj` contents trigger + day indicator) stays sticky at all times, so navigation is never stranded mid-lesson.
+
+Locked decisions ([`docs/archive/phases/PHASE_7_5_PLAN.md`](./archive/phases/PHASE_7_5_PLAN.md) §1, confirmed before code):
+
+- **D1 — Collapse the meta row only; keep the contents row always sticky.** Rejected hiding the whole header (would slide the `Sadržaj` trigger off-screen mid-read).
+- **D2 — Active at all single-column widths (≤1024px)**, exactly where the header is shown; the desktop two-column layout has `display: none` on the header and is untouched.
+- **D3 — Direction-based with an ~8px dead-zone + a top-of-page reveal guard** so the motion reads calm, not twitchy.
+- **D4 — Respect `prefers-reduced-motion`** (transition removed; collapse logic still runs).
+- **D5 — One PR, single commit.**
+
+What changed concretely:
+
+- `apps/web/app/course/[courseId]/lesson/[lessonId]/useScrollDirection.ts` — **new** client hook `useMetaRowCollapsed()`: rAF-coalesced passive `scroll` listener mirroring `ReadingProgress`'s pattern, with the D3 dead-zone + top-of-page guard. Sets state only on a genuine direction flip, so React re-renders are rare.
+- `apps/web/app/course/[courseId]/lesson/[lessonId]/LessonContextHeader.tsx` — toggles a `collapsed` class on the root and `aria-hidden` on the meta row (synced to collapsed so the row is not announced/focusable while hidden). Props + markup otherwise unchanged.
+- `apps/web/app/course/[courseId]/lesson/[lessonId]/LessonContextHeader.module.css` — inside the existing `@media (max-width: 1024px)` block, `.metaRow` becomes a `max-height`/`opacity`/`margin-top` collapse on the **inner** row (not a transform on the sticky root), preserving sticky positioning + backdrop blur and avoiding any prose reflow. Plus a `prefers-reduced-motion` rule.
+- `apps/web/e2e/smoke.spec.ts` — new mobile-profile assertion: scrolling down hides the meta row (height → 0) while the contents trigger stays visible; scrolling to top restores it. Skips on the desktop two-column profiles.
+
+What did not change: the global TopBar (stays fully sticky), the desktop two-column lesson layout, `ReadingProgress`, the `MobileLessonDrawer` and its trigger semantics, any content JSON / schema / `_generated.ts`, and anything in `apps/api`.
+
+Gates locally green: `pnpm typecheck && pnpm lint && pnpm test && pnpm build`. Playwright suite now **11 tests × 5 profiles = 55 runs, 50 pass / 5 skips** (2 WebKit skip-link + 3 desktop meta-row-collapse N/A). Unit test totals unchanged (no new unit tests — the hook is exercised via e2e). Implementation note: the collapse listener attaches after hydration, so the e2e test nudges the scroll until a direction change registers (a synthetic-test timing artifact, not a real-user concern).
+
+Open work surfaced by this phase: a dedicated *scrolled-state* screenshot was **not** added to `pnpm screenshots`, so the collapsed state is not in the baseline pack (deferred; the live Vercel preview was the visual QA surface).
+
+Roadmap context: this closes the 7.5 pre-7.0 polish item. Remaining backlog: Phase 7.6 (course scroll restore — pre-7.0 polish), seed bylines (1-line JSON edits when authors are decided), a hero backdrop QA pass at 360 / 768 / 1280 / 1920, and a small consolidation phase for the `keyPeople` / `keyPlaces` rendering surface.
+
 ## Next step
 
 The forward-looking pointer now lives in [`HANDOFF.md`](../HANDOFF.md) at the repo root. It records the carry-forward non-blocking deferrals, the active pre-Phase-8 backlog ([`docs/ROADMAP_PRE_PHASE_8.md`](./ROADMAP_PRE_PHASE_8.md)), and the auto-regen `_generated.ts` quality-of-life candidate from the 7.8 PR. The roadmap continues into Phase 8 (Backend / .NET 9 + SQL Server) once the pre-Phase-8 bundles close and web v1 is declared visually approved.
 
-Next pick: **Phase 7.5 — Mobile lesson sticky chrome scroll-collapse.** Existing pre-7.0 polish backlog item — collapse the sticky lesson chrome on scroll-down, restore on scroll-up so mobile readers reclaim vertical space mid-lesson. Renderer scope only; no content or schema changes.
+Next pick: **Phase 7.6 — Course page scroll restore.** Existing pre-7.0 polish backlog item — returning to `/course/...` from a lesson should restore the previous scroll position instead of resetting to the top.
 
 Phase plans for shipped phases (6.7 through 7.12b) live in [`docs/archive/phases/`](./archive/phases/). Superseded UX reviews and audits live in [`docs/archive/reviews/`](./archive/reviews/). Treat both archive folders as historical — do not consult them when assessing current state.

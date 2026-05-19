@@ -1,6 +1,6 @@
 # Handoff — History 365 / Istorija Srbije 365
 
-**Last updated:** 2026-05-19, after Phase 7.12b ship (PR + merge pending).
+**Last updated:** 2026-05-19, after Phase 7.5 ship (PR #23, merged `4325e64`).
 
 This is the live forward-looking pointer for the project. **Read this before starting any new phase.** It tells you what is true now and what the strongest next moves are.
 
@@ -11,9 +11,10 @@ For the full current state, read [`docs/PROJECT_STATE.md`](docs/PROJECT_STATE.md
 ## Where the app is right now
 
 - **Web v1 is live** at https://learn365-web.vercel.app/ (Vercel project `learn365-web`, auto-deploys from `main`).
-- **Phase 7.12b just shipped** — the 8 era-opener lessons (Days 1, 46, 106, 151, 196, 231, 281, 341) each carry one curated figure at `content[1]` (between the dropcap paragraph and the second paragraph). Sources are Wikimedia Commons under PD-1923 / PD-Serbia / CC BY / CC BY-SA. 8 new WebP assets sit at [`apps/web/public/lessons/era-{1..8}-{slug}.webp`](apps/web/public/lessons/) (sized to 1440 px wide max, total ~1.5 MB across all 8). The renderer + schema + loader were all shipped in 7.10 / 7.12-a; this phase is a pure content pass — 8 additive JSON edits + regen, zero code changes.
-- **Phase 7.11** is the prior milestone — lesson bookmarks + `<CourseOverviewBookmarks>` surface (PR #21, `1fffe95`). New `@learn365/core/bookmarks` module mirroring the `progress` swap-seam pattern; toggle in `LessonHeader`; saved-lessons list on the course overview that renders nothing on empty.
-- **Phase 7.10 + 7.12-a** is the milestone before that — lesson trust scaffolding (`byline`, `lastReviewedAt`, `sources[]`) + figure renderer (`next/image` inside real `<figure>` + `<figcaption>`).
+- **Phase 7.5 just shipped** (PR #23, `4325e64`) — on single-column lesson layouts (≤1024px) the sticky `LessonContextHeader`'s secondary meta row (era + total progress) collapses on scroll-down and restores on scroll-up, while the top row (`Sadržaj` contents trigger + day) stays sticky. New `useScrollDirection.ts` hook (rAF-coalesced, dead-zone, top-of-page guard) co-located with the lesson page; collapse via `max-height`/`opacity` on the inner row to preserve sticky + backdrop blur; honours `prefers-reduced-motion`. One mobile-profile Playwright assertion added. No content/schema changes.
+- **Phase 7.12b** is the prior milestone — the 8 era-opener lessons (Days 1, 46, 106, 151, 196, 231, 281, 341) each carry one curated figure at `content[1]` (between the dropcap paragraph and the second paragraph). Sources are Wikimedia Commons under PD-1923 / PD-Serbia / CC BY / CC BY-SA. 8 WebP assets at [`apps/web/public/lessons/era-{1..8}-{slug}.webp`](apps/web/public/lessons/) (1440 px wide max, ~1.5 MB total). Pure content pass — 8 additive JSON edits + regen, zero code changes.
+- **Phase 7.11** before that — lesson bookmarks + `<CourseOverviewBookmarks>` surface (PR #21, `1fffe95`). New `@learn365/core/bookmarks` module mirroring the `progress` swap-seam pattern; toggle in `LessonHeader`; saved-lessons list on the course overview that renders nothing on empty.
+- **Phase 7.10 + 7.12-a** before that — lesson trust scaffolding (`byline`, `lastReviewedAt`, `sources[]`) + figure renderer (`next/image` inside real `<figure>` + `<figcaption>`).
 - **Phase 7.9** then collapsed the course-overview progress card to one canonical journey-day row.
 - **Phase 7.8 + full-content corpus** sits behind it. Home carries the daily-ritual anchor; `validate-content` reports **365 authored / 0 placeholder**.
 - **Codegen pitfall to know:** the runtime reads `packages/content/src/courses/istorija-srbije-365/_generated.ts`. Anyone editing `content/courses/*.json` must run `pnpm gen-content` to refresh the generated file — otherwise the app shows stale content.
@@ -27,10 +28,11 @@ For the detailed surface-by-surface baseline (TopBar, Home, Course, Lesson reade
 
 ## Carry-forward, non-blocking deferrals
 
-Open since Phase 5 + Phase 7.10 + Phase 7.11 + Phase 7.12b. None of these block new feature phases, but all should close before web v1 is declared "complete":
+Open since Phase 5 + Phase 7.10 + Phase 7.11 + Phase 7.12b + Phase 7.5. None of these block new feature phases, but all should close before web v1 is declared "complete":
 
 - **Production contact email** — swap the `CONTACT_EMAIL` placeholder in [`apps/web/app/o-aplikaciji/_copy.ts`](apps/web/app/o-aplikaciji/_copy.ts) once the real address exists. One-line change.
-- **Screen-reader smoke** — VoiceOver / NVDA on TopBar nav + breadcrumbs + accordion + completion toggle + `<LessonSources>` block + bookmark toggle + `<CourseOverviewBookmarks>` cards + new era-opener figure `<figcaption>` announcement (post-7.12b). Manual gate from Phase 5.
+- **Screen-reader smoke** — VoiceOver / NVDA on TopBar nav + breadcrumbs + accordion + completion toggle + `<LessonSources>` block + bookmark toggle + `<CourseOverviewBookmarks>` cards + era-opener figure `<figcaption>` announcement (post-7.12b) + confirm the collapsed lesson meta row (`aria-hidden` while collapsed, post-7.5) is not announced and does not trap focus. Manual gate from Phase 5.
+- **Scrolled-state screenshot** (post-7.5) — `pnpm screenshots` was not extended with a collapsed-meta-row capture, so the 7.5 collapsed state is not in the baseline pack. Add a scrolled mobile-lesson shot if the screenshot pack is regenerated. Low priority — the live Vercel preview was the visual QA surface.
 - **Editorial review of the 6 authored seed lessons** ([`content/courses/istorija-srbije-365/lessons/`](content/courses/istorija-srbije-365/lessons/) Days 1, 7, 31, 106, 200, 305) for historical voice, accuracy, and period coverage. Manual gate from Phase 5.
 - **Seed bylines** (post-7.10) — 6 one-line JSON edits adding `"byline": { "author": "…", "reviewer": "…" }` to the seed lessons once the editorial team is decided. Renderer is wired and shipped; absent because the "no generic fallback" rule means each byline needs a real per-lesson name. Effort: ~5 minutes per lesson.
 - **Reading-progress hairline QA pass** (post-7.11) — Phase 7.11 plan §L6 reserved a manual check at 360 / 768 / 1024 / 1280 / 1920 widths and against the sticky TopBar z-index. Not driven yet because the component was already in production; QA confirms no surprise regressions.
@@ -40,13 +42,12 @@ Open since Phase 5 + Phase 7.10 + Phase 7.11 + Phase 7.12b. None of these block 
 
 ## Pre-Phase-8 UX backlog
 
-The post-7.4 backlog was reframed on 2026-05-19 after an independent mobile UI/UX assessment. The full roadmap is in [`docs/ROADMAP_PRE_PHASE_8.md`](docs/ROADMAP_PRE_PHASE_8.md). Six bundles surfaced as Phases 7.7–7.12; the two pre-existing 7.5/7.6 polish items are preserved. **Phases 7.7 (mobile nav), 7.8 (daily anchor), 7.9 (progress consolidation), 7.10 + 7.12-a (lesson trust scaffolding + figure renderer), 7.11 (lesson bookmarks + saved-lessons surface), and 7.12b (era-opener figures) have shipped**; the rest remain.
+The post-7.4 backlog was reframed on 2026-05-19 after an independent mobile UI/UX assessment. The full roadmap is in [`docs/ROADMAP_PRE_PHASE_8.md`](docs/ROADMAP_PRE_PHASE_8.md). Six bundles surfaced as Phases 7.7–7.12; the two pre-existing 7.5/7.6 polish items are preserved. **Phases 7.7 (mobile nav), 7.8 (daily anchor), 7.9 (progress consolidation), 7.10 + 7.12-a (lesson trust scaffolding + figure renderer), 7.11 (lesson bookmarks + saved-lessons surface), 7.12b (era-opener figures), and 7.5 (mobile sticky chrome scroll-collapse) have shipped**; the rest remain.
 
-**Next pick: Phase 7.5 — Mobile lesson sticky chrome scroll-collapse.** Existing pre-7.0 polish backlog item. On mobile, the lesson reader's sticky `LessonContextHeader` collapses on scroll-down (hiding the breadcrumb + meta row) and restores on scroll-up, so the reader reclaims vertical space mid-lesson. Renderer scope only; no content or schema changes; no new dependency. Effort: ~half a day.
+**Next pick: Phase 7.6 — Course page scroll restore.** Existing pre-7.0 polish backlog item. Returning to `/course/...` from a lesson should restore the previous scroll position instead of resetting to the top, so the reader lands back where they were in the era list rather than at the page header. Likely a small `sessionStorage` + `scrollRestoration` pass on the course route; confirm scope against Next.js App Router scroll behaviour before locking. No content or schema changes expected. Effort: ~half a day.
 
-Remaining candidates after 7.5, in proposed ship order (per roadmap, owner can re-sequence):
+Remaining candidates after 7.6, in proposed ship order (per roadmap, owner can re-sequence):
 
-- **Phase 7.6 — Course page scroll restore.** Existing polish backlog item: returning to `/course/...` from a lesson should restore the previous scroll position instead of resetting to the top.
 - **Hero backdrop QA pass** at 360 / 768 / 1280 / 1920. One-off check, not a phase.
 - **Seed bylines.** 6 one-line JSON edits when editorial authors are decided (see Carry-forward).
 - **`keyPeople` / `keyPlaces` rendering** (corpus fields added in 7.8 but unrendered anywhere). Their own small consolidation phase — where in the reader / sidebar / header should they appear, and at what visual weight? Not blocking.
