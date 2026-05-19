@@ -72,6 +72,48 @@ test.describe('History 365 — smoke', () => {
     await expect(eraCards).toHaveCount(8);
   });
 
+  test('course progress consolidates to one canonical row + journey-day eyebrow', async ({
+    page,
+  }) => {
+    // Phase 7.9 — the CourseProgress card carries one canonical "where am
+    // I" row (no "Sledeće" sibling), the eyebrow speaks the same journey
+    // language as the Phase 7.8 Home anchor, and the per-era cards no
+    // longer render a "u toku" accent chip.
+    await page.goto(`/course/${COURSE_ID}`);
+
+    // Idle (fresh session): kicker reads ZAPOČNI; no SLEDEĆE row exists;
+    // no NASTAVI fallback to the prior framing.
+    await expect(page.getByText('ZAPOČNI')).toBeVisible();
+    await expect(page.getByText('SLEDEĆE')).toHaveCount(0);
+    await expect(page.getByText('NASTAVI')).toHaveCount(0);
+    // No era card carries the dropped "u toku" accent chip.
+    await expect(page.getByText('u toku')).toHaveCount(0);
+
+    // In-progress: seed one completion via the persisted progress key and
+    // reload; the eyebrow flips to "Tvoj 2. dan" (computed identically to
+    // HomeDailyAnchor — completedCount + 1, capped at 365).
+    const seed = {
+      state: {
+        byCourse: {
+          [COURSE_ID]: {
+            completedLessonIds: ['day-001'],
+            lastOpenedLessonId: 'day-001',
+            updatedAt: '2026-05-19T09:00:00.000Z',
+          },
+        },
+      },
+      version: 1,
+    };
+    await page.addInitScript(
+      ({ key, value }) => window.localStorage.setItem(key, value),
+      { key: 'learn365:progress:v1', value: JSON.stringify(seed) },
+    );
+    await page.goto(`/course/${COURSE_ID}`);
+    await expect(page.getByText(/Tvoj 2\. dan/i)).toBeVisible();
+    // The Sledeće row stays dropped even after the user starts progressing.
+    await expect(page.getByText('SLEDEĆE')).toHaveCount(0);
+  });
+
   test('lesson reader shows day, sidebar, timeline, and toggles completion', async ({ page }) => {
     await page.goto(`/course/${COURSE_ID}/lesson/${DAY_1_LESSON_ID}`);
 
