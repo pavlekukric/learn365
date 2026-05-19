@@ -1,6 +1,6 @@
 # Handoff — History 365 / Istorija Srbije 365
 
-**Last updated:** 2026-05-19, after Phase 7.8 + full-content merge (PR #18, commit `76f94fe`).
+**Last updated:** 2026-05-19, after Phase 7.9 merge (PR #19, commit `d34a6eb`).
 
 This is the live forward-looking pointer for the project. **Read this before starting any new phase.** It tells you what is true now and what the strongest next moves are.
 
@@ -11,8 +11,8 @@ For the full current state, read [`docs/PROJECT_STATE.md`](docs/PROJECT_STATE.md
 ## Where the app is right now
 
 - **Web v1 is live** at https://learn365-web.vercel.app/ (Vercel project `learn365-web`, auto-deploys from `main`).
-- **Phase 7.8 just shipped** — Home carries a state-aware "Tvoj N. dan" daily-ritual anchor above the recommended-lesson card. Hero caption changed from chronological scope to the daily contract `365 lekcija · 1 dnevno · ~8 minuta`. Now-redundant eyebrow on `HomeCurrentLessonCard` removed.
-- **Full 365-lesson content corpus just landed** alongside 7.8 in the same PR. Every lesson is authored — `validate-content` reports **365 authored / 0 placeholder** (was 5 / 360). Schema gained `subtitle`, `dateLabel`, `timelinePosition`, `summary`, `keyPeople`, `keyPlaces` fields; paragraph blocks may carry `dropcap: true`.
+- **Phase 7.9 just shipped** — the course-overview progress card collapsed from six overlapping signals to one canonical row. The `Sledeće` row and the `N / 365 završeno` ring caption are gone; the row's eyebrow now speaks the same journey-day register as Phase 7.8's Home anchor (`TVOJ N. DAN` mid-course, `ZAPOČNI` idle). The per-era `u toku` accent chip on `CourseCard` is retired. Net **−39 LOC**, deletion-heavy.
+- **Phase 7.8 + full-content corpus** is the prior milestone. Home carries the state-aware "Tvoj N. dan" daily-ritual anchor; hero caption is `365 lekcija · 1 dnevno · ~8 minuta`; `validate-content` reports **365 authored / 0 placeholder** (was 5 / 360). Schema gained `subtitle`, `dateLabel`, `timelinePosition`, `summary`, `keyPeople`, `keyPlaces`; paragraph blocks may carry `dropcap: true`.
 - **Codegen pitfall to know:** the runtime reads `packages/content/src/courses/istorija-srbije-365/_generated.ts`. Anyone editing `content/courses/*.json` must run `pnpm gen-content` to refresh the generated file — otherwise the app shows stale content.
 - **UI/UX is at a stable baseline** the owner has declared the new floor. Do not regress below this state without an explicit owner decision.
 - **No backend.** Progress lives in `localStorage` via the `ProgressStorage` adapter in `@learn365/core` — the swap seam for the future .NET API.
@@ -34,15 +34,13 @@ Open since Phase 5. None of these block new feature phases, but all should close
 
 ## Pre-Phase-8 UX backlog
 
-The post-7.4 backlog was reframed on 2026-05-19 after an independent mobile UI/UX assessment. The full roadmap is in [`docs/ROADMAP_PRE_PHASE_8.md`](docs/ROADMAP_PRE_PHASE_8.md). Six bundles surfaced as Phases 7.7–7.12; the two pre-existing 7.5/7.6 polish items are preserved. Phase 7.7 (mobile nav) and 7.8 (daily anchor) shipped; the rest remain.
+The post-7.4 backlog was reframed on 2026-05-19 after an independent mobile UI/UX assessment. The full roadmap is in [`docs/ROADMAP_PRE_PHASE_8.md`](docs/ROADMAP_PRE_PHASE_8.md). Six bundles surfaced as Phases 7.7–7.12; the two pre-existing 7.5/7.6 polish items are preserved. **Phases 7.7 (mobile nav), 7.8 (daily anchor), and 7.9 (progress consolidation) have shipped**; the rest remain.
 
-**Next pick: Phase 7.9 — Progress narrative consolidation.** End the four-counter overlap on the course overview; settle on one canonical hierarchy (TopBar capsule = global counter; ring + single "Trenutno: Dan N · {title}" line replaces the dual "Aktuelno / Sledeće" rows). Detailed plan to be drafted on owner green-light, following the 7.7 / 7.8 template (`docs/PHASE_X_Y_PLAN.md`). Roadmap §C has the bundle scope.
+**Next pick: Phase 7.10 + 7.12 as one editorial PR window** — Trust scaffolding + figures. Per-lesson `Lesson.byline`, `lastReviewedAt`, `sources[]`, plus 1–2 figures across the authored lesson set. Now applies to all 365 lessons (not just the original 6), so the scope grows — revisit the bundle sizing on green-light. The `keyPeople` / `keyPlaces` fields from the corpus authoring may already serve part of the trust scaffolding job; the detailed plan should audit overlap before duplicating. Effort: 1.5–2 days code + image curation as schedule risk. Roadmap §D + §F.
 
-Remaining candidates, in proposed ship order (per roadmap, owner can re-sequence):
+Remaining candidates after 7.10/7.12, in proposed ship order (per roadmap, owner can re-sequence):
 
-- **Phase 7.9 — Progress narrative consolidation.** ~1 day.
-- **Phase 7.10 + 7.12 (combined editorial PR window) — Trust scaffolding + figures.** Per-lesson `Lesson.byline`, `lastReviewedAt`, `sources[]`; add figures to authored lessons. Now applies to all 365 lessons (not just the original 6), so the scope grows — revisit the bundle sizing on green-light. The `keyPeople` / `keyPlaces` fields from the corpus authoring may serve part of the trust scaffolding job already; the detailed plan should audit overlap before duplicating.
-- **Phase 7.11 — Reading comfort.** Wire `ReadingProgress.tsx` (stub already exists) + add a bookmark toggle with a new `BookmarkStorage` adapter mirroring `ProgressStorage`. ~1.5 days.
+- **Phase 7.11 — Reading comfort.** Wire `ReadingProgress.tsx` (stub already exists at `apps/web/app/course/[courseId]/lesson/[lessonId]/`) + add a bookmark toggle with a new `BookmarkStorage` adapter mirroring `ProgressStorage`. ~1.5 days.
 - **Phase 7.5 — Mobile lesson sticky chrome scroll-collapse.** Existing polish backlog item.
 - **Phase 7.6 — Course page scroll restore.** Existing polish backlog item.
 - **Hero backdrop QA pass** at 360 / 768 / 1280 / 1920. One-off check, not a phase.

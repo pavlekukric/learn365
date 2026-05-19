@@ -10,14 +10,14 @@ For forward-looking work (what to pick next), see [`HANDOFF.md`](../HANDOFF.md) 
 
 - **Live URL:** https://learn365-web.vercel.app/ (Vercel project `learn365-web`, auto-deploys from `main`).
 - **Branch model:** Trunk-based. Each phase ships as one PR merged to `main`. No release branches.
-- **Last shipped phase:** Phase 7.8 + full-content drop (merged 2026-05-19 as PR #18, commit `76f94fe`). See "Phase 7.8 — done" and "Content corpus — full 365 authored" below.
+- **Last shipped phase:** Phase 7.9 — Progress narrative consolidation (merged 2026-05-19 as PR #19, commit `d34a6eb`). See "Phase 7.9 — done" below. The Phase 7.8 + full-content drop (PR #18, `76f94fe`) is the prior milestone.
 
 ### UI/UX baseline (do not regress)
 
 - **Three primary surfaces:** Home, Course overview (`/kurs/istorija-srbije-365`), Lesson reader (`/kurs/.../lekcija/<id>`), plus editorial About page (`/o-aplikaciji`).
 - **TopBar:** sticky, translucent (`backdrop-filter: saturate(160%) blur(14px)`). Brand mark + nav (`Početna`, `Kurs`, `O aplikaciji`) + total-progress chip (`xxx / 365` + thin bar). All nav uses real `next/link` `href`s — `onClick` navigation has been retired across the app. **Mobile (≤720px):** masthead reads Brand · Kurs · ProgressCapsule — `Početna` is hidden (Brand carries Home) and `O aplikaciji` is hidden (footer carries it on every route). Each `<Link>` carries a stable `data-link='home' | 'course' | 'about'` attribute used by the mobile hide rule.
 - **Home:** calm hero with the daily-contract caption `365 lekcija · 1 dnevno · ~8 minuta` (post-7.8), 8-era timeline strip (post-7.2), state-aware "Tvoj N. dan" daily-ritual anchor (post-7.8) above the recommended-lesson card, footer with about link. The recommended-lesson card no longer carries a duplicate state eyebrow — the anchor above carries it (post-7.8).
-- **Course overview:** `CourseProgress` card at top + 8 `CourseCard` era blocks. Each era card shows era eyebrow, title, years, **1–2 sentence editorial description always visible (post-7.4)**, progress bar, and a `Pokaži odeljke · N` disclosure for section drill-down. **On fresh state, all eras default closed** so the page reads as 8 editorial blocks.
+- **Course overview:** `CourseProgress` card at top + 8 `CourseCard` era blocks. The progress card is **one canonical row, not two (post-7.9)**: a 120px `ProgressRing` showing `xx%` + a single journey-day row whose eyebrow reads `TVOJ N. DAN` mid-course or `ZAPOČNI` idle (same formula `HomeDailyAnchor` uses — `Math.min(completedCount + 1, 365)`). The dual `Aktuelno` / `Sledeće` rows and the redundant `N / 365 završeno` ring caption are gone. Each era card shows era eyebrow, title, years, **1–2 sentence editorial description always visible (post-7.4)**, progress bar, and a `Pokaži odeljke · N` disclosure for section drill-down. The accent `u toku` chip on the current era card was retired in 7.9 — the accent title colour and the non-zero progress bar carry that signal. **On fresh state, all eras default closed** so the page reads as 8 editorial blocks.
 - **Lesson reader:** publication-style layout, 5-item breadcrumb chain (`Početna · Course · Era · Section · DAN nnn`), `LessonHeader`, `LessonReader` body, `MarkAsCompletedButton`, `PreviousNextLessonNavigation`, sidebar with era → section → lesson indent guide (1px hairline rule, color-mixed at 60% of `--rule`).
 - **Mobile:** responsive web only (no native app yet). `MobileLessonDrawer` combines sidebar + timeline in a single panel. Breadcrumb shows last two crumbs on `≤560px`. Compact `LessonContextHeader` chrome (post-6.7).
 - **Visual direction:** Editorial only (Spectral serif + Inter + JetBrains Mono, warm Editorial palette, OKLCH-defined tokens). No user-facing theme toggle. Modern direction is dev-only reference.
@@ -37,7 +37,7 @@ For forward-looking work (what to pick next), see [`HANDOFF.md`](../HANDOFF.md) 
 - **Monorepo:** `apps/web`, `packages/{ui, ui-web, core, content}`, plus `tooling/` and `docs/`. `apps/mobile` and `apps/api` not present.
 - **Progress storage:** `localStorage` via the `ProgressStorage` adapter in `@learn365/core`. This adapter is the swap seam for the future backend — no v1 frontend rewrite when the .NET API lands.
 - **Node:** local Node 24 (official installer); CI Node 20 via `.nvmrc`; `engines` set to `>=20.10`.
-- **Build/test gates:** `pnpm typecheck && pnpm lint && pnpm test && pnpm build` all green on every merged phase. Playwright suite: 6 tests × 5 browser profiles = 30 runs, 28 pass / 2 documented WebKit skips.
+- **Build/test gates:** `pnpm typecheck && pnpm lint && pnpm test && pnpm build` all green on every merged phase. Playwright suite (post-7.9): **10 tests × 5 browser profiles = 50 runs, 48 pass / 2 documented WebKit skips** (the skip-link Safari quirk only).
 - **Lighthouse (last measured Phase 5):** desktop 99–100 across Perf/A11y/BP/SEO; mobile A11y/BP/SEO 100, mobile Perf 82–85 (accepted for v1; root cause is the three Google-served font families, fix would conflict with Editorial typography).
 
 ### Known issues / carry-forward deferrals
@@ -55,7 +55,7 @@ For forward-looking work (what to pick next), see [`HANDOFF.md`](../HANDOFF.md) 
 
 ### Next-step pointer
 
-The next phase pick is recorded in [`HANDOFF.md`](../HANDOFF.md) at the repo root. The pre-Phase-8 UX backlog candidates (Phase 7.5 mobile sticky chrome, Phase 7.6 course scroll restore, hero backdrop QA pass) are listed there with rationale.
+The next phase pick is recorded in [`HANDOFF.md`](../HANDOFF.md) at the repo root. After 7.9 the next candidate is **Phase 7.10 + 7.12 as a single editorial PR window** (trust scaffolding — byline / lastReviewed / sources — plus figures across the authored lesson set). Remaining backlog: Phase 7.11 (reading comfort), Phase 7.5 (mobile sticky chrome), Phase 7.6 (course scroll restore), hero backdrop QA pass.
 
 ---
 
@@ -992,10 +992,40 @@ Test suite impact: the obsolete `placeholder lesson shows upcoming state and hid
 
 Gates on the merged PR: `pnpm validate-content` (365 authored / 0 placeholder), typecheck, lint, unit tests (79), build (6 routes, sizes unchanged from 7.8 alone), Playwright 9 × 5 = 45 runs / 43 pass / 2 documented WebKit skips. CI green on PR #18 before merge.
 
+## Phase 7.9 — Progress narrative consolidation: done
+
+Shipped 2026-05-19 as PR #19 (merge commit `d34a6eb`), one PR with two commits (the locked plan landed first, then the implementation). Plan: [`docs/archive/phases/PHASE_7_9_PLAN.md`](./archive/phases/PHASE_7_9_PLAN.md). Predecessor: Phase 7.8 + Roadmap §C.
+
+The 2026-05-19 mobile UI/UX assessment flagged the course overview as carrying **six overlapping progress signals** for the same "where am I" job: TopBar capsule, `ProgressRing` percent, `N / 365 završeno` caption under the ring, parallel `Aktuelno` / `Sledeće` rows, plus a per-era `done / total` count + accent `u toku` chip. There was no canonical hierarchy — the screen answered the same question five different ways above the fold.
+
+Locked decisions ([`docs/archive/phases/PHASE_7_9_PLAN.md`](./archive/phases/PHASE_7_9_PLAN.md) §1, all confirmed before code):
+
+- **D1.** The single canonical row's eyebrow speaks the same journey-day register as the Phase 7.8 Home anchor — `TVOJ N. DAN` mid-course (formula `Math.min(completedCount + 1, 365)` identical to `HomeDailyAnchor`), `ZAPOČNI` idle. The course overview is now part of the daily-ritual narrative, not a second slightly-different counter.
+- **D2.** The `Sledeće` row is dropped entirely. "What comes next?" is answered by the era accordion below and by the prev/next inside the lesson reader.
+- **D3.** The `N / 365 završeno` ring meta line is dropped — duplicated the TopBar capsule and the ring's own `xx%` glyph. The ring stays as the visual centrepiece.
+- **D4.** The accent `u toku` chip on the current `CourseCard` is dropped. Accent title colour, non-zero progress bar, and a non-zero `done / total` count carry that signal already.
+- **D5.** Section-accordion row meta (`N lekcija` / `done / total`) is untouched — it's a drill-down detail, not a top-level competing counter.
+
+Implementation, one commit ([`e154797`](../../commit/e154797)):
+
+- **`packages/ui-web/src/course/CourseProgress/CourseProgress.tsx`** — `nextLesson` / `nextHref` props removed; the parallel `SLEDEĆE` row deleted. New `journeyDayLabel: string | null` prop (string mid-course like `'Tvoj 4. dan'`, null when idle); rendered through the row's `.rowLabel` class. `currentLesson` / `currentHref` renamed `lesson` / `href`; `hasStarted` retired (`journeyDayLabel !== null` answers the same question). The ring's `N / 365 završeno` caption element deleted.
+- **`packages/ui-web/src/course/CourseProgress/CourseProgress.module.css`** — `.ringMeta` rule removed. `.rowLabel` gained `text-transform: uppercase` so the new title-case prop value renders consistently with the legacy uppercase literals.
+- **`apps/web/app/course/[courseId]/_components/CourseOverviewProgress.tsx`** — next-lesson derivation block removed. `journeyDayLabel` computed inline (one selector read, one cap, one branch — no new selector in `@learn365/core`, per the "three similar lines is better than a premature abstraction" rule).
+- **`packages/ui-web/src/course/CourseCard/CourseCard.tsx`** — `Chip` import + the `isCurrent` chip JSX deleted. Everything else (count, progress bar, status icon, accent title colour on `.current`) untouched.
+- **`apps/web/e2e/smoke.spec.ts`** — new 10th smoke test "course progress consolidates to one canonical row + journey-day eyebrow" asserts no `SLEDEĆE` / `NASTAVI` / `u toku` strings, idle eyebrow is `ZAPOČNI`, seeded eyebrow flips to `Tvoj 2. dan`.
+
+Net diff shape: 5 code files, **−39 lines** (116 deletions vs 77 insertions). Deletion-heavy, as the plan predicted.
+
+What did not change: data model, storage shape (`learn365:progress:v1` schema), `@learn365/core` selectors, `HomeDailyAnchor` / `HomeCurrentLessonCard` / `HomeHeroCta` / `HomeEraTimeline`, TopBar progress capsule, era timeline component, era accordion logic in `CourseOverviewEras`, section-row meta, `CourseCard` progress bar, lesson reader / sidebar / drawer / prev/next. Phase 6.5's completion-driven rule preserved.
+
+Gates locally green on the feature branch before merge: `pnpm typecheck && pnpm lint && pnpm test && pnpm build`, `pnpm validate-content` (365 / 37 / 8). Unit tests 76 / 76. Playwright **10 tests × 5 profiles = 50 runs, 48 expected pass / 2 documented WebKit skips**.
+
+Roadmap context: this is Bundle C from [`docs/ROADMAP_PRE_PHASE_8.md`](./ROADMAP_PRE_PHASE_8.md). With 7.7 / 7.8 / 7.9 shipped, the remaining backlog is 7.10 + 7.12 (combined editorial PR — trust scaffolding + figures), 7.11 (reading comfort), 7.5 (mobile sticky chrome), 7.6 (course scroll restore), and a hero backdrop QA pass.
+
 ## Next step
 
-The forward-looking pointer now lives in [`HANDOFF.md`](../HANDOFF.md) at the repo root. It records the carry-forward non-blocking deferrals, the active pre-Phase-8 backlog ([`docs/ROADMAP_PRE_PHASE_8.md`](./ROADMAP_PRE_PHASE_8.md)), and one new quality-of-life candidate from the 7.8 PR (auto-regen `_generated.ts` on JSON edit). The roadmap continues into Phase 8 (Backend / .NET 9 + SQL Server) once the pre-Phase-8 bundles close and web v1 is declared visually approved.
+The forward-looking pointer now lives in [`HANDOFF.md`](../HANDOFF.md) at the repo root. It records the carry-forward non-blocking deferrals, the active pre-Phase-8 backlog ([`docs/ROADMAP_PRE_PHASE_8.md`](./ROADMAP_PRE_PHASE_8.md)), and the auto-regen `_generated.ts` quality-of-life candidate from the 7.8 PR. The roadmap continues into Phase 8 (Backend / .NET 9 + SQL Server) once the pre-Phase-8 bundles close and web v1 is declared visually approved.
 
-Next pick: Phase 7.9 — Progress narrative consolidation. The roadmap §C names it; the detailed `PHASE_7_9_PLAN.md` will be drafted on owner green-light.
+Next pick: **Phase 7.10 + 7.12 as one editorial PR window** — trust scaffolding (`Lesson.byline`, `lastReviewedAt`, `sources[]`) plus figures across the authored lessons. Roadmap §D + §F describe the bundle.
 
-Phase plans for shipped phases (6.7 through 7.8) live in [`docs/archive/phases/`](./archive/phases/). Superseded UX reviews and audits live in [`docs/archive/reviews/`](./archive/reviews/). Treat both archive folders as historical — do not consult them when assessing current state.
+Phase plans for shipped phases (6.7 through 7.9) live in [`docs/archive/phases/`](./archive/phases/). Superseded UX reviews and audits live in [`docs/archive/reviews/`](./archive/reviews/). Treat both archive folders as historical — do not consult them when assessing current state.
