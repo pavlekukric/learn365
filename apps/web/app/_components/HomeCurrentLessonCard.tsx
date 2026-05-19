@@ -7,20 +7,13 @@ import {
   type CourseId,
 } from '@learn365/content';
 import { completedCount, isCompleted, lastOpenedLessonId } from '@learn365/core';
-import { CurrentLessonCard, Eyebrow } from '@learn365/ui-web';
+import { CurrentLessonCard } from '@learn365/ui-web';
 
 import { useProgressStore } from '@/lib/progress/ProgressStoreProvider';
 
 interface HomeCurrentLessonCardProps {
   courseId: CourseId;
 }
-
-/** Section label, derived from the card's actual state so its purpose is explicit. */
-const LABEL_BY_STATE = {
-  idle: 'Prva lekcija',
-  active: 'Nastavi gde si stao',
-  done: 'Nedavno završeno',
-} as const;
 
 export function HomeCurrentLessonCard({ courseId }: HomeCurrentLessonCardProps) {
   const completedTotal = useProgressStore((state) =>
@@ -48,18 +41,15 @@ export function HomeCurrentLessonCard({ courseId }: HomeCurrentLessonCardProps) 
   const href = `/course/${courseId}/lesson/${lesson.id}`;
 
   return (
-    <>
-      <Eyebrow>{LABEL_BY_STATE[state]}</Eyebrow>
-      <CurrentLessonCard
-        lesson={{
-          day: lesson.dayNumber,
-          title: lesson.title,
-          readingTimeMinutes: lesson.readingTimeMinutes,
-          eraShort: era?.eraShort ?? '',
-        }}
-        state={state}
-        href={href}
-      />
-    </>
+    <CurrentLessonCard
+      lesson={{
+        day: lesson.dayNumber,
+        title: lesson.title,
+        readingTimeMinutes: lesson.readingTimeMinutes,
+        eraShort: era?.eraShort ?? '',
+      }}
+      state={state}
+      href={href}
+    />
   );
 }

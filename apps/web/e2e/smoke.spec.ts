@@ -16,6 +16,43 @@ test.describe('History 365 — smoke', () => {
     await expect(page.getByRole('link', { name: /Započni kurs/ })).toBeVisible();
   });
 
+  test('home daily anchor reflects idle vs in-progress state', async ({
+    page,
+  }) => {
+    // Idle: fresh session has no completions. The Danas region renders the
+    // framing line and exposes no "Tvoj N. dan" eyebrow.
+    await page.goto('/');
+    const anchor = page.getByRole('region', { name: 'Danas' });
+    await expect(anchor).toBeVisible();
+    await expect(
+      anchor.getByText('Pred tobom je 365 dana kroz srpsku istoriju.'),
+    ).toBeVisible();
+    await expect(anchor.getByText(/Tvoj \d+\. dan/)).toHaveCount(0);
+
+    // In-progress: seed one completion via the persisted progress key, then
+    // re-navigate. Counter must read "Tvoj 2. dan" (completedCount + 1).
+    const seed = {
+      state: {
+        byCourse: {
+          [COURSE_ID]: {
+            completedLessonIds: ['day-001'],
+            lastOpenedLessonId: 'day-001',
+            updatedAt: '2026-05-19T09:00:00.000Z',
+          },
+        },
+      },
+      version: 1,
+    };
+    await page.addInitScript(
+      ({ key, value }) => window.localStorage.setItem(key, value),
+      { key: 'learn365:progress:v1', value: JSON.stringify(seed) },
+    );
+    await page.goto('/');
+    await expect(
+      page.getByRole('region', { name: 'Danas' }).getByText('Tvoj 2. dan'),
+    ).toBeVisible();
+  });
+
   test('TopBar Kurs link is reachable on every viewport', async ({ page }) => {
     // Mobile regression guard: the TopBar must keep the "Kurs" text link
     // visible on ≤720px so the course overview stays reachable from the

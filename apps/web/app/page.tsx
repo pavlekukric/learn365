@@ -2,6 +2,7 @@ import { getCourse } from '@learn365/content';
 import { Eyebrow, Flourish } from '@learn365/ui-web';
 
 import { HomeCurrentLessonCard } from './_components/HomeCurrentLessonCard';
+import { HomeDailyAnchor } from './_components/HomeDailyAnchor';
 import { HomeEraTimeline } from './_components/HomeEraTimeline';
 import { HomeHeroCta } from './_components/HomeHeroCta';
 import styles from './page.module.css';
@@ -18,12 +19,13 @@ const HERO_DESCRIPTION =
   'Kroz osam epoha i 365 kratkih lekcija prati razvoj Srbije — od najstarijih kultura na Balkanu do savremenog doba. Jedan dan, jedna lekcija, jedan jasan put.';
 
 /**
- * Chronological scope caption under the hero title. Mirrors the lesson
- * reader's eyebrow notation (`oko 9500 p.n.e.`) and anchors the hero in
- * history. Static scope statement — state is carried by the CTA and the
- * recommended-lesson card below, not here.
+ * Daily-contract caption under the hero title (Phase 7.8 D2). Makes the
+ * "one lesson a day" premise explicit above the fold. Replaces the prior
+ * chronological scope caption — era years are already encoded in the
+ * timeline below and on every era card / lesson eyebrow, so the hero is
+ * the right place to state the daily contract instead of restating scope.
  */
-const HERO_DATE_LINE = '~9500 p.n.e. → danas · 365 dana';
+const HERO_CONTRACT_LINE = '365 lekcija · 1 dnevno · ~8 minuta';
 
 export default function HomePage() {
   const course = getCourse(DEFAULT_COURSE_ID);
@@ -48,7 +50,7 @@ export default function HomePage() {
             * caption below the title is a scope statement, not a brand label —
             * different register, so it sits under the h1 rather than above. */}
           <h1 className="display">{course.title}</h1>
-          <p className={`mono ${styles.dateLine}`}>{HERO_DATE_LINE}</p>
+          <p className={`mono ${styles.dateLine}`}>{HERO_CONTRACT_LINE}</p>
           <p className={`body ${styles.description}`}>{HERO_DESCRIPTION}</p>
 
           <Flourish />
@@ -58,6 +60,7 @@ export default function HomePage() {
       </section>
 
       <section className={styles.current} aria-label="Preporučena lekcija">
+        <HomeDailyAnchor courseId={course.id} />
         <HomeCurrentLessonCard courseId={course.id} />
       </section>
 
