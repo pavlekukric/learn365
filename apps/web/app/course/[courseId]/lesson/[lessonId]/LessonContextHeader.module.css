@@ -82,6 +82,36 @@
   gap: var(--space-4);
 }
 
+/* Phase 7.5 — collapse the quiet meta row on scroll-down to reclaim reading
+ * space; the top row (contents trigger + day) stays sticky. Single-column
+ * only — on the desktop two-column layout the whole header is display:none.
+ * Collapsing the inner row (not transforming the sticky root) keeps the
+ * sticky positioning + backdrop blur intact. */
+@media (max-width: 1024px) {
+  .metaRow {
+    max-height: 3rem;
+    overflow: hidden;
+    transition:
+      max-height var(--dur-base) var(--ease),
+      opacity var(--dur-base) var(--ease),
+      margin-top var(--dur-base) var(--ease);
+  }
+
+  .collapsed .metaRow {
+    max-height: 0;
+    /* Cancel the parent's flex gap above this row so the header shrinks to
+     * exactly the contents row when collapsed. */
+    margin-top: calc(-1 * var(--space-2));
+    opacity: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .metaRow {
+    transition: none;
+  }
+}
+
 .era {
   font-family: var(--serif);
   font-size: 14px;
