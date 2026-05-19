@@ -50,5 +50,30 @@
       "text": "Do kraja 1806. politička priroda ustanka već se bila promenila. Ono što je počelo kao bunt protiv četvorice odmetnika postalo je rat za stvarnu samoupravu, a kod nekih starešina i otvoreno za vraćanje srpske države. Sledeće lekcije pratiće upravo taj prelaz — kako se iz vojnih pobeda gradi politički poredak, kako se sazivaju skupštine i sudovi, i kako će kod Mišara 1806. ovaj rastući svet izdržati svoj najteži ispit. Treba, međutim, pošteno reći i ono što proslave često prećute: cena ranih pobeda bila je velika. Osmanske kaznene ekspedicije palile su sela, gubici u ljudstvu bili su teški, glad je u ratnim zimama bila redovna. Pobede 1804. i 1805. zaslužuju da budu zapamćene, ali ne kao laka dela junaka iz pesme, već kao ono što su zaista bile — teško izvojevani prvi koraci jednog naroda koji je odlučio da se više ne vraća unazad."
     }
   ],
-  "isPlaceholder": false
+  "isPlaceholder": false,
+  "lastReviewedAt": "2026-05-19",
+  "sources": [
+    {
+      "kind": "book",
+      "title": "Die serbische Revolution",
+      "author": "Leopold von Ranke",
+      "year": 1829
+    },
+    {
+      "kind": "book",
+      "title": "Prvi srpski ustanak — Karađorđe i njegovo doba",
+      "author": "Vladimir Stojančević",
+      "year": 1990
+    },
+    {
+      "kind": "book",
+      "title": "Memoari proté Mateje Nenadovića",
+      "author": "Matija Nenadović",
+      "year": 1867
+    },
+    {
+      "kind": "archive",
+      "title": "Arhiv Srbije — fondovi Praviteljstvujuščeg sovjeta serbskog (1805–1813)"
+    }
+  ]
 }

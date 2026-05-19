@@ -8,6 +8,7 @@ import {
 } from '../HistoricalTimeline/HistoricalTimeline.js';
 import { LessonBody } from '../LessonBody/LessonBody.js';
 import { LessonHeader } from '../LessonHeader/LessonHeader.js';
+import { LessonSources } from '../LessonSources/LessonSources.js';
 import { MarkAsCompletedButton } from '../MarkAsCompletedButton/MarkAsCompletedButton.js';
 import { PreviousNextLessonNavigation } from '../PreviousNextLessonNavigation/PreviousNextLessonNavigation.js';
 
@@ -88,6 +89,9 @@ export function LessonReader({
       ) : (
         <LessonBody blocks={lesson.content} />
       )}
+      {!isUpcoming && lesson.sources !== undefined && lesson.sources.length > 0 ? (
+        <LessonSources sources={lesson.sources} />
+      ) : null}
       <footer className={styles.footer}>
         {isUpcoming ? null : (
           <MarkAsCompletedButton isCompleted={isCompleted} onClick={onToggleComplete} />

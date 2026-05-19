@@ -66,7 +66,47 @@ export type LessonBlock =
   | { readonly type: 'paragraph'; readonly text: string; readonly dropcap?: boolean }
   | { readonly type: 'heading'; readonly level: 2 | 3; readonly text: string }
   | { readonly type: 'quote'; readonly text: string; readonly attribution?: string }
-  | { readonly type: 'image'; readonly src: string; readonly alt: string; readonly caption?: string };
+  | {
+      readonly type: 'image';
+      readonly src: string;
+      readonly alt: string;
+      /** Intrinsic pixel width of the source asset. Required for next/image. */
+      readonly width: number;
+      /** Intrinsic pixel height of the source asset. Required for next/image. */
+      readonly height: number;
+      /**
+       * Caption rendered under the figure. By v1 convention this also
+       * carries the attribution string (e.g. "Foto: …, CC BY-SA 4.0,
+       * Wikimedia Commons.") so there is no separate attribution field.
+       */
+      readonly caption?: string;
+    };
+
+/**
+ * Single citation entry shown in a lesson's "Izvori" block.
+ * Optional everywhere on `Lesson`; the renderer omits the block when absent.
+ */
+export type SourceKind = 'book' | 'article' | 'museum' | 'archive' | 'web';
+
+export interface Source {
+  readonly kind: SourceKind;
+  readonly title: string;
+  readonly author?: string;
+  /** Year of publication (book/article) or year accessed (web). Display-only. */
+  readonly year?: number;
+  /** Absolute URL. Must parse via `new URL(...)` when present. */
+  readonly url?: string;
+}
+
+/**
+ * Editorial attribution rendered as a small caption under the lesson title.
+ * Both roles are independently optional; if both are absent, the byline line
+ * is not rendered at all (no generic course-wide fallback in v1).
+ */
+export interface LessonByline {
+  readonly author?: string;
+  readonly reviewer?: string;
+}
 
 export interface Lesson {
   readonly id: LessonId;
@@ -93,6 +133,20 @@ export interface Lesson {
   readonly summary?: string;
   readonly keyPeople?: readonly string[];
   readonly keyPlaces?: readonly string[];
+  /** Editorial attribution. When absent, no byline line is rendered. */
+  readonly byline?: LessonByline;
+  /**
+   * ISO date (YYYY-MM-DD) recording when the lesson's facts were last
+   * editorially reviewed. Rendered alongside the byline; nothing rendered
+   * when absent.
+   */
+  readonly lastReviewedAt?: string;
+  /**
+   * Citations for the historical claims in the lesson body. Rendered as
+   * a closing "Izvori" block. Optional in v1 — many lessons predate the
+   * editorial review pass and carry no sources yet.
+   */
+  readonly sources?: readonly Source[];
   /** Position within the parent Section, 1-indexed. */
   readonly order: number;
 }

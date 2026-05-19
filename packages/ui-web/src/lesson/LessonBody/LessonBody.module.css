@@ -36,16 +36,12 @@
   gap: var(--space-2);
 }
 
-.imagePlaceholder {
+.image {
   width: 100%;
-  aspect-ratio: 16 / 9;
-  background: repeating-linear-gradient(
-    135deg,
-    color-mix(in oklch, var(--ink) 5%, transparent) 0 1px,
-    transparent 1px 12px
-  );
-  border: 1px solid var(--rule);
+  height: auto;
+  display: block;
   border-radius: var(--r-md);
+  border: 1px solid var(--rule);
 }
 
 .caption {

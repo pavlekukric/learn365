@@ -33,8 +33,11 @@ import type {
   Era,
   Lesson,
   LessonBlock,
+  LessonByline,
   Script,
   Section,
+  Source,
+  SourceKind,
 } from '../types.js';
 
 export interface LoadedCourse {
@@ -136,6 +139,111 @@ function optionalStringArray(
   return v;
 }
 
+const SOURCE_KINDS: readonly SourceKind[] = [
+  'book',
+  'article',
+  'museum',
+  'archive',
+  'web',
+];
+
+const ISO_DATE_RE = /^\d{4}-\d{2}-\d{2}$/;
+
+function parseByline(file: string, raw: unknown): LessonByline {
+  if (!isObject(raw)) {
+    throw new ContentLoadError(file, 'field "byline" must be an object when present');
+  }
+  const author = optionalString(file, raw, 'author');
+  const reviewer = optionalString(file, raw, 'reviewer');
+  if (author === undefined && reviewer === undefined) {
+    throw new ContentLoadError(
+      file,
+      'field "byline" must define at least one of "author" / "reviewer"',
+    );
+  }
+  return {
+    ...(author !== undefined ? { author } : {}),
+    ...(reviewer !== undefined ? { reviewer } : {}),
+  };
+}
+
+function parseLastReviewedAt(file: string, raw: unknown): string {
+  if (typeof raw !== 'string' || !ISO_DATE_RE.test(raw)) {
+    throw new ContentLoadError(
+      file,
+      'field "lastReviewedAt" must be an ISO date string (YYYY-MM-DD)',
+    );
+  }
+  const parsed = new Date(`${raw}T00:00:00Z`);
+  if (Number.isNaN(parsed.getTime())) {
+    throw new ContentLoadError(file, `field "lastReviewedAt" "${raw}" is not a valid date`);
+  }
+  return raw;
+}
+
+function parseSource(file: string, raw: unknown, index: number): Source {
+  if (!isObject(raw)) {
+    throw new ContentLoadError(file, `sources[${String(index)}] must be an object`);
+  }
+  const kind = raw['kind'];
+  if (typeof kind !== 'string' || !(SOURCE_KINDS as readonly string[]).includes(kind)) {
+    throw new ContentLoadError(
+      file,
+      `sources[${String(index)}].kind must be one of ${SOURCE_KINDS.join('|')} (got "${String(kind)}")`,
+    );
+  }
+  const title = requireString(file, raw, 'title');
+  const author = optionalString(file, raw, 'author');
+  const url = optionalString(file, raw, 'url');
+  if (url !== undefined) {
+    try {
+      // Validate URL shape only; the parsed object is intentionally discarded.
+      void new URL(url);
+    } catch {
+      throw new ContentLoadError(
+        file,
+        `sources[${String(index)}].url "${url}" is not a valid URL`,
+      );
+    }
+  }
+  const yearRaw = raw['year'];
+  let year: number | undefined;
+  if (yearRaw !== undefined) {
+    if (typeof yearRaw !== 'number' || !Number.isFinite(yearRaw) || !Number.isInteger(yearRaw)) {
+      throw new ContentLoadError(
+        file,
+        `sources[${String(index)}].year must be an integer when present`,
+      );
+    }
+    year = yearRaw;
+  }
+  return {
+    kind: kind as SourceKind,
+    title,
+    ...(author !== undefined ? { author } : {}),
+    ...(year !== undefined ? { year } : {}),
+    ...(url !== undefined ? { url } : {}),
+  };
+}
+
+function optionalSources(
+  file: string,
+  obj: Record<string, unknown>,
+): readonly Source[] | undefined {
+  const v = obj['sources'];
+  if (v === undefined) return undefined;
+  if (!Array.isArray(v)) {
+    throw new ContentLoadError(file, 'field "sources" must be an array when present');
+  }
+  if (v.length === 0) {
+    throw new ContentLoadError(
+      file,
+      'field "sources" must be a non-empty array when present (omit the field instead)',
+    );
+  }
+  return v.map((s, i) => parseSource(file, s, i));
+}
+
 function parseCourse(file: string, raw: unknown): Course {
   if (!isObject(raw)) {
     throw new ContentLoadError(file, 'top-level value must be an object');
@@ -228,10 +336,20 @@ function parseBlock(file: string, raw: unknown, index: number): LessonBlock {
     }
     case 'image': {
       const caption = optionalString(file, raw, 'caption');
+      const width = requireInt(file, raw, 'width');
+      const height = requireInt(file, raw, 'height');
+      if (width <= 0 || height <= 0) {
+        throw new ContentLoadError(
+          file,
+          `content[${String(index)}] image width/height must be positive integers`,
+        );
+      }
       const block: LessonBlock = {
         type: 'image',
         src: requireString(file, raw, 'src'),
         alt: requireString(file, raw, 'alt'),
+        width,
+        height,
       };
       return caption === undefined ? block : { ...block, caption };
     }
@@ -275,6 +393,12 @@ function parseLesson(file: string, raw: unknown): Lesson {
   const summary = optionalString(file, raw, 'summary');
   const keyPeople = optionalStringArray(file, raw, 'keyPeople');
   const keyPlaces = optionalStringArray(file, raw, 'keyPlaces');
+  const byline = raw['byline'] !== undefined ? parseByline(file, raw['byline']) : undefined;
+  const lastReviewedAt =
+    raw['lastReviewedAt'] !== undefined
+      ? parseLastReviewedAt(file, raw['lastReviewedAt'])
+      : undefined;
+  const sources = optionalSources(file, raw);
 
   return {
     ...lesson,
@@ -285,6 +409,9 @@ function parseLesson(file: string, raw: unknown): Lesson {
     ...(summary !== undefined ? { summary } : {}),
     ...(keyPeople !== undefined ? { keyPeople } : {}),
     ...(keyPlaces !== undefined ? { keyPlaces } : {}),
+    ...(byline !== undefined ? { byline } : {}),
+    ...(lastReviewedAt !== undefined ? { lastReviewedAt } : {}),
+    ...(sources !== undefined ? { sources } : {}),
   };
 }
 
