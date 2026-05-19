@@ -10,13 +10,13 @@ For forward-looking work (what to pick next), see [`HANDOFF.md`](../HANDOFF.md) 
 
 - **Live URL:** https://learn365-web.vercel.app/ (Vercel project `learn365-web`, auto-deploys from `main`).
 - **Branch model:** Trunk-based. Each phase ships as one PR merged to `main`. No release branches.
-- **Last shipped phase:** Phase 7.7 — Mobile global nav restoration (merged 2026-05-19 as PR #17, commit `2c8de8d`). See "Phase 7.7 — done" below.
+- **Last shipped phase:** Phase 7.8 + full-content drop (merged 2026-05-19 as PR #18, commit `76f94fe`). See "Phase 7.8 — done" and "Content corpus — full 365 authored" below.
 
 ### UI/UX baseline (do not regress)
 
 - **Three primary surfaces:** Home, Course overview (`/kurs/istorija-srbije-365`), Lesson reader (`/kurs/.../lekcija/<id>`), plus editorial About page (`/o-aplikaciji`).
 - **TopBar:** sticky, translucent (`backdrop-filter: saturate(160%) blur(14px)`). Brand mark + nav (`Početna`, `Kurs`, `O aplikaciji`) + total-progress chip (`xxx / 365` + thin bar). All nav uses real `next/link` `href`s — `onClick` navigation has been retired across the app. **Mobile (≤720px):** masthead reads Brand · Kurs · ProgressCapsule — `Početna` is hidden (Brand carries Home) and `O aplikaciji` is hidden (footer carries it on every route). Each `<Link>` carries a stable `data-link='home' | 'course' | 'about'` attribute used by the mobile hide rule.
-- **Home:** calm hero, 8-era timeline strip (post-7.2), "Continue where you left off" state-aware card, footer with about link.
+- **Home:** calm hero with the daily-contract caption `365 lekcija · 1 dnevno · ~8 minuta` (post-7.8), 8-era timeline strip (post-7.2), state-aware "Tvoj N. dan" daily-ritual anchor (post-7.8) above the recommended-lesson card, footer with about link. The recommended-lesson card no longer carries a duplicate state eyebrow — the anchor above carries it (post-7.8).
 - **Course overview:** `CourseProgress` card at top + 8 `CourseCard` era blocks. Each era card shows era eyebrow, title, years, **1–2 sentence editorial description always visible (post-7.4)**, progress bar, and a `Pokaži odeljke · N` disclosure for section drill-down. **On fresh state, all eras default closed** so the page reads as 8 editorial blocks.
 - **Lesson reader:** publication-style layout, 5-item breadcrumb chain (`Početna · Course · Era · Section · DAN nnn`), `LessonHeader`, `LessonReader` body, `MarkAsCompletedButton`, `PreviousNextLessonNavigation`, sidebar with era → section → lesson indent guide (1px hairline rule, color-mixed at 60% of `--rule`).
 - **Mobile:** responsive web only (no native app yet). `MobileLessonDrawer` combines sidebar + timeline in a single panel. Breadcrumb shows last two crumbs on `≤560px`. Compact `LessonContextHeader` chrome (post-6.7).
@@ -25,9 +25,10 @@ For forward-looking work (what to pick next), see [`HANDOFF.md`](../HANDOFF.md) 
 ### Content baseline
 
 - **Canonical content contract:** [`docs/CONTENT_MODEL.md`](./CONTENT_MODEL.md) (entity schema) + [`docs/CONTENT_AUTHORING.md`](./CONTENT_AUTHORING.md) (how to write a lesson).
-- **Hierarchy:** `Course → Era → Section → Lesson`. Eras drive the timeline (8 total); Sections drive sidebar grouping; Lessons are the daily unit (365 total).
-- **Loading approach:** `@learn365/content` builds 365 lessons at module load — 6 fully-authored seed lessons + 359 generated stubs from an overlay file. No codegen step, no placeholder files committed to git. See "Content stub strategy" in author memory.
-- **Authoring format (v1):** TypeScript modules under `packages/content/src/courses/istorija-srbije-365/lessons/authored/`. MDX migration path is documented but not implemented.
+- **Hierarchy:** `Course → Era → Section → Lesson`. Eras drive the timeline (8 total); Sections drive sidebar grouping (37 total); Lessons are the daily unit (365 total).
+- **Content status (post-2026-05-19):** **365 authored / 0 placeholder.** Every day of the course carries real editorial content. `validate-content` enforces this floor.
+- **Loading approach:** JSON drop-in. The editable source is `content/courses/istorija-srbije-365/*.json` (`course.json` + `eras.json` + `sections.json` + 365 `lessons/day-NNN.json`). A codegen script `pnpm gen-content` reads the JSON and writes `packages/content/src/courses/istorija-srbije-365/_generated.ts`, which is the runtime source-of-truth the app imports. **Anyone editing JSON must run `pnpm gen-content` to refresh the generated file** — otherwise the app shows stale content. (Auto-regen on edit is a known quality-of-life gap; see HANDOFF.)
+- **Lesson schema (post-2026-05-19):** in addition to `id`, `courseId`, `sectionId`, `eraId`, `dayNumber`, `order`, `title`, `readingTimeMinutes`, `year`, `content[]`, lessons may carry `subtitle`, `dateLabel`, `timelinePosition`, `summary`, `keyPeople[]`, `keyPlaces[]`. Paragraph blocks may carry `dropcap: true` for an editorial opening cap. `isPlaceholder: false` on every lesson in the current corpus; the field and the upcoming-state code path remain for any future re-introduction.
 - **Era editorial copy:** every era has a 1–2 sentence description rendered on the course page (wired in Phase 7.4b). Era descriptions live alongside era metadata in the content package.
 
 ### Technical baseline
@@ -955,10 +956,46 @@ What did not change: the `Brand` mark or its href; `TopBar` props or its `route`
 
 Gates locally green: `pnpm typecheck && pnpm lint && pnpm test && pnpm build`, `pnpm validate-content` (365/37/8), Playwright **9 tests × 5 profiles = 45 runs, 43 pass / 2 documented WebKit skips** (the existing skip-link assertion's Safari quirk; not relevant to this phase).
 
-Roadmap context: this is the first bundle in [`docs/ROADMAP_PRE_PHASE_8.md`](./ROADMAP_PRE_PHASE_8.md), the consolidated pre-Phase-8 roadmap drafted on 2026-05-19. Locked R1 named Phase 7.7 first; the next pick is Phase 7.8 (Daily ritual anchor on Home), whose detailed plan is drafted at [`docs/PHASE_7_8_PLAN.md`](./PHASE_7_8_PLAN.md) and awaits owner green-light.
+Roadmap context: this is the first bundle in [`docs/ROADMAP_PRE_PHASE_8.md`](./ROADMAP_PRE_PHASE_8.md), the consolidated pre-Phase-8 roadmap drafted on 2026-05-19. Locked R1 named Phase 7.7 first.
+
+## Phase 7.8 — Daily ritual anchor on Home: done
+
+Shipped 2026-05-19 as PR #18 (merge commit `76f94fe`), bundled with the full-content drop in the same PR. Plan: [`docs/archive/phases/PHASE_7_8_PLAN.md`](./archive/phases/PHASE_7_8_PLAN.md). Predecessor: Phase 7.7 + Roadmap §B.
+
+The 2026-05-19 mobile UI/UX assessment named retention the single biggest paid-product risk: Home opened with a course-catalog framing and stated nowhere on the first screen that this is a one-lesson-a-day product. Hero caption was chronological scope; the recommended-lesson card carried a state-aware eyebrow ("Prva lekcija" / "Nastavi gde si stao" / "Nedavno završeno") but no "you are on day N" anchor.
+
+Implementation, one commit ([`2b69b63`](../../commit/2b69b63)):
+
+- **`apps/web/app/_components/HomeDailyAnchor.tsx`** (new) — `'use client'` block reading `completedCount(state, courseId)`. Two states: idle (`completedCount === 0`) renders a single framing line `"Pred tobom je 365 dana kroz srpsku istoriju."`; in-progress (`completedCount > 0`) renders a mono eyebrow `"Tvoj {N}. dan"` plus body line `"Nastavi tamo gde si stao."` where `N = Math.min(completedCount + 1, 365)` — the day the user is *on*, not the last they finished. Output is `<section aria-label="Danas">`; no interactivity (the existing `HomeHeroCta` is the action).
+- **`apps/web/app/page.tsx`** — `HERO_DATE_LINE` (`~9500 p.n.e. → danas · 365 dana`) renamed `HERO_CONTRACT_LINE` and the value swapped to `365 lekcija · 1 dnevno · ~8 minuta`. The new `<HomeDailyAnchor />` is mounted inside the existing `.current` section above `<HomeCurrentLessonCard />`.
+- **`apps/web/app/page.module.css`** — `.dailyAnchor` / `.dailyAnchorEyebrow` / `.dailyAnchorLine` rules. Uses the existing flex `gap` on `.current` so the anchor and card read as a pair.
+- **`apps/web/app/_components/HomeCurrentLessonCard.tsx`** — `<Eyebrow>` element, `LABEL_BY_STATE` map, and `Eyebrow` import removed. The component is now a pure passthrough to the `CurrentLessonCard` primitive. Card-internal state derivation (`'idle' | 'active' | 'done'`) is preserved.
+- **`apps/web/e2e/smoke.spec.ts`** — new "home daily anchor reflects idle vs in-progress state" test seeds one completion via the persisted progress key and asserts the counter reads "Tvoj 2. dan".
+
+What did not change: data model, storage shape (`learn365:progress:v1` schema), `HomeHeroCta`, `HomeEraTimeline`, era timeline component, TopBar progress capsule, course overview, lesson reader. No `startDate` storage, no real-calendar dates, no streaks. Phase 6.5's completion-driven rule (merely opening a lesson never flips into in-progress) is preserved.
+
+Two locked decisions worth recording: D1 — two-state model (idle + in-progress), no done-today state (would require real-calendar awareness, out of scope per R2). D3 — the recommended-card eyebrow was dropped because the anchor above carries the state; keeping both would be duplicate signaling.
+
+Gates locally + on CI green: `pnpm typecheck && pnpm lint && pnpm test && pnpm build`, `pnpm validate-content`, Playwright **10 tests × 5 profiles = 50 runs, 48 pass / 2 documented WebKit skips** at implementation time. After the placeholder-test removal (see below), 9 × 5 = 45 runs, 43 pass / 2 skips.
+
+## Content corpus — full 365 authored: done
+
+Shipped 2026-05-19 as PR #18 (commit [`20a403f`](../../commit/20a403f)), bundled with Phase 7.8 in the same PR per owner direction. Content authoring was done outside any planned phase — it's a content-volume milestone, not a UI/UX phase.
+
+All 365 lessons now carry real editorial content (was: 5 authored seed lessons + 360 placeholder stubs). `validate-content` baseline shifted from "5 authored / 360 placeholder" to **365 authored / 0 placeholder**. Course / era / section metadata refreshed in lockstep.
+
+Lesson schema additions surfaced by the authoring pass: `subtitle`, `dateLabel`, `timelinePosition`, `summary`, `keyPeople[]`, `keyPlaces[]`. Paragraph blocks may carry `dropcap: true` for the editorial opening cap. `isPlaceholder: false` on every lesson — the field and the LessonReader upcoming-state code path stay in place for any future course where placeholders re-appear.
+
+Operational change worth knowing: the runtime reads `packages/content/src/courses/istorija-srbije-365/_generated.ts`, which is generated from `content/courses/*.json` by `pnpm gen-content`. **Editing JSON without re-running gen-content leaves the app on stale content.** This bit the post-corpus gate run (Playwright placeholder test passed against the stale `_generated.ts` before the regen, then failed correctly after). Auto-regen on edit is a known quality-of-life gap recorded in `HANDOFF.md`.
+
+Test suite impact: the obsolete `placeholder lesson shows upcoming state and hides completion` Playwright test and its `PLACEHOLDER_LESSON_ID` constant were removed — with 0 placeholders no fixture exists. The `isPlaceholder` field, the `LessonReader` upcoming-state UI, and the `LessonNavItem` dimmed-row styling all remain in place. Test count returns to 9 × 5 = 45 runs after the +1 daily-anchor test and the -1 placeholder test cancel out.
+
+Gates on the merged PR: `pnpm validate-content` (365 authored / 0 placeholder), typecheck, lint, unit tests (79), build (6 routes, sizes unchanged from 7.8 alone), Playwright 9 × 5 = 45 runs / 43 pass / 2 documented WebKit skips. CI green on PR #18 before merge.
 
 ## Next step
 
-The forward-looking pointer now lives in [`HANDOFF.md`](../HANDOFF.md) at the repo root. It records the carry-forward non-blocking deferrals (production contact email, screen-reader smoke, editorial review of authored seed lessons) and the active pre-Phase-8 backlog ([`docs/ROADMAP_PRE_PHASE_8.md`](./ROADMAP_PRE_PHASE_8.md)). The roadmap continues into Phase 8 (Backend / .NET 9 + SQL Server) once the pre-Phase-8 bundles close and web v1 is declared visually approved.
+The forward-looking pointer now lives in [`HANDOFF.md`](../HANDOFF.md) at the repo root. It records the carry-forward non-blocking deferrals, the active pre-Phase-8 backlog ([`docs/ROADMAP_PRE_PHASE_8.md`](./ROADMAP_PRE_PHASE_8.md)), and one new quality-of-life candidate from the 7.8 PR (auto-regen `_generated.ts` on JSON edit). The roadmap continues into Phase 8 (Backend / .NET 9 + SQL Server) once the pre-Phase-8 bundles close and web v1 is declared visually approved.
 
-Phase plans for shipped phases (6.7 through 7.7) live in [`docs/archive/phases/`](./archive/phases/). Superseded UX reviews and audits live in [`docs/archive/reviews/`](./archive/reviews/). Treat both archive folders as historical — do not consult them when assessing current state.
+Next pick: Phase 7.9 — Progress narrative consolidation. The roadmap §C names it; the detailed `PHASE_7_9_PLAN.md` will be drafted on owner green-light.
+
+Phase plans for shipped phases (6.7 through 7.8) live in [`docs/archive/phases/`](./archive/phases/). Superseded UX reviews and audits live in [`docs/archive/reviews/`](./archive/reviews/). Treat both archive folders as historical — do not consult them when assessing current state.
