@@ -1,7 +1,6 @@
 'use client';
 
 import {
-  getEras,
   getLessonById,
   getLessons,
   type CourseId,
@@ -27,70 +26,31 @@ export function CourseOverviewProgress({
   const lastId = useProgressStore((state) => lastOpenedLessonId(state, courseId));
 
   const allLessons = getLessons(courseId);
-  const completedSet = useProgressStore(
-    (state) => state.byCourse[courseId]?.completedLessonIds ?? null,
-  );
 
   // Completion-driven: a fresh user (nothing completed) is pointed at Day 1 as
-  // a recommended start, not told a peeked-at lesson is already "AKTUELNO".
+  // a recommended start, not told a peeked-at lesson is already in progress.
   const hasStarted = completed > 0;
-  const currentLesson =
+  const lesson =
     hasStarted && lastId
       ? (getLessonById(courseId, lastId) ?? allLessons[0] ?? null)
       : (allLessons[0] ?? null);
 
-  let nextLesson = null;
-  if (currentLesson) {
-    const idx = allLessons.findIndex((l) => l.id === currentLesson.id);
-    for (let i = idx + 1; i < allLessons.length; i += 1) {
-      const candidate = allLessons[i];
-      if (!candidate) continue;
-      if (!completedSet?.has(candidate.id)) {
-        nextLesson = candidate;
-        break;
-      }
-    }
-  }
-
-  // Resolve the readable era title for the current row's kicker, replacing
-  // the previous `.toUpperCase()` of the kebab-case eraId (which produced
-  // labels like "PRAISTORIJA-I-ANTIKA"). Falls back to the eraId so we
-  // never render an empty kicker if the era list is somehow inconsistent.
-  const eras = getEras(courseId);
-  const currentEra = currentLesson
-    ? (eras.find((e) => e.id === currentLesson.eraId) ?? null)
+  // Journey-day eyebrow string, computed identically to HomeDailyAnchor
+  // (Phase 7.8) so the two surfaces speak the same daily-ritual register.
+  // Null for a fresh user — the row falls back to a `ZAPOČNI` kicker.
+  const journeyDayLabel = hasStarted
+    ? `Tvoj ${String(Math.min(completed + 1, totalLessons))}. dan`
     : null;
-  const currentEraLabel = currentEra?.title ?? currentLesson?.eraId ?? '';
 
   return (
     <CourseProgress
       completed={completed}
       total={totalLessons}
-      hasStarted={hasStarted}
-      currentLesson={
-        currentLesson
-          ? {
-              day: currentLesson.dayNumber,
-              title: currentLesson.title,
-              eraLabel: currentEraLabel,
-              // Suppress reading time for placeholder lessons — the value
-              // is a deterministic stub and would advertise a fake minute
-              // count on the Continue card.
-              ...(currentLesson.isPlaceholder === true
-                ? {}
-                : { readingTimeMinutes: currentLesson.readingTimeMinutes }),
-            }
-          : null
+      journeyDayLabel={journeyDayLabel}
+      lesson={
+        lesson ? { day: lesson.dayNumber, title: lesson.title } : null
       }
-      nextLesson={
-        nextLesson
-          ? { day: nextLesson.dayNumber, title: nextLesson.title }
-          : null
-      }
-      currentHref={
-        currentLesson ? `/course/${courseId}/lesson/${currentLesson.id}` : null
-      }
-      nextHref={nextLesson ? `/course/${courseId}/lesson/${nextLesson.id}` : null}
+      href={lesson ? `/course/${courseId}/lesson/${lesson.id}` : null}
     />
   );
 }

@@ -4,7 +4,6 @@ import type { Era } from '@learn365/content';
 
 import { IconArrow } from '../../icons/IconArrow.js';
 import { IconCheck } from '../../icons/IconCheck.js';
-import { Chip } from '../../primitives/Chip/Chip.js';
 import { ProgressBar } from '../../primitives/ProgressBar/ProgressBar.js';
 
 import styles from './CourseCard.module.css';
@@ -60,7 +59,6 @@ export function CourseCard({
           <span className={`tiny mono ${styles.count}`}>
             {completedLessons} / {totalLessons}
           </span>
-          {isCurrent ? <Chip variant="accent">u toku</Chip> : null}
         </span>
         <ProgressBar
           value={progress}

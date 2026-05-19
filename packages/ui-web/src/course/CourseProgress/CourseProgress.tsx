@@ -11,26 +11,23 @@ interface MiniLesson {
   title: string;
 }
 
-interface CurrentMiniLesson extends MiniLesson {
-  /** Era label rendered in the kicker line — e.g. "Praistorija i antika". */
-  eraLabel: string;
-  /** Reading time in minutes; rendered as "· 8 min" after the era label. */
-  readingTimeMinutes?: number;
-}
-
 interface CourseProgressProps {
   completed: number;
   total: number;
-  currentLesson: CurrentMiniLesson | null;
-  nextLesson: MiniLesson | null;
-  currentHref: string | null;
-  nextHref: string | null;
   /**
-   * Whether the user has completed at least one lesson. Drives the current
-   * row's framing: a fresh user is *recommended a starting point* ("ZAPOČNI",
-   * idle dot) rather than told a lesson is already "NASTAVI".
+   * The single "where am I" lesson the canonical row links to. For a fresh
+   * user this is Day 1 (recommended start); for an in-progress user it is
+   * the current/last-opened lesson resolved by the adapter.
    */
-  hasStarted: boolean;
+  lesson: MiniLesson | null;
+  href: string | null;
+  /**
+   * Journey-day eyebrow, e.g. `'Tvoj 4. dan'`. Pass `null` for a fresh user
+   * (`completedCount === 0`) — the row falls back to a `ZAPOČNI` kicker.
+   * Mirrors the framing established by `HomeDailyAnchor` (Phase 7.8) so the
+   * two surfaces speak the same daily-ritual register.
+   */
+  journeyDayLabel: string | null;
 }
 
 function formatDay(day: number): string {
@@ -40,15 +37,14 @@ function formatDay(day: number): string {
 export function CourseProgress({
   completed,
   total,
-  currentLesson,
-  nextLesson,
-  currentHref,
-  nextHref,
-  hasStarted,
+  lesson,
+  href,
+  journeyDayLabel,
 }: CourseProgressProps) {
   const value = total > 0 ? completed / total : 0;
   const pct = toPercentInt(clamp01(value));
-  const currentKicker = hasStarted ? 'NASTAVI' : 'ZAPOČNI';
+  const hasStarted = journeyDayLabel !== null;
+  const kicker = journeyDayLabel ?? 'ZAPOČNI';
 
   return (
     <article className={styles.card}>
@@ -60,52 +56,21 @@ export function CourseProgress({
             {pct}%
           </span>
         </ProgressRing>
-        <p className={`tiny mono ${styles.ringMeta}`}>
-          {completed} / {total} završeno
-        </p>
       </div>
 
       <div className={styles.rows}>
-        {currentLesson ? (
+        {lesson ? (
           <Link
-            href={currentHref ?? '#'}
+            href={href ?? '#'}
             className={styles.row}
-            aria-disabled={currentHref === null}
+            aria-disabled={href === null}
           >
             <CompletionDot state={hasStarted ? 'active' : 'idle'} />
             <span className={styles.rowText}>
-              <span className={`tiny mono ${styles.rowLabel}`}>
-                {[
-                  currentKicker,
-                  currentLesson.eraLabel,
-                  currentLesson.readingTimeMinutes !== undefined
-                    ? `${String(currentLesson.readingTimeMinutes)} min`
-                    : null,
-                ]
-                  .filter(Boolean)
-                  .join(' · ')}
-              </span>
-              <span className={styles.rowTitle}>{currentLesson.title}</span>
+              <span className={`tiny mono ${styles.rowLabel}`}>{kicker}</span>
+              <span className={styles.rowTitle}>{lesson.title}</span>
             </span>
-            <span className={`tiny mono ${styles.rowDay}`}>{formatDay(currentLesson.day)}</span>
-          </Link>
-        ) : null}
-
-        {/* Empty state shows one confident "start here" row only; the parallel
-         * SLEDEĆE row appears once the user has actually started progressing,
-         * so it never competes with the entry point for a fresh visitor. */}
-        {hasStarted && nextLesson ? (
-          <Link
-            href={nextHref ?? '#'}
-            className={styles.row}
-            aria-disabled={nextHref === null}
-          >
-            <CompletionDot state="idle" />
-            <span className={styles.rowText}>
-              <span className={`tiny mono ${styles.rowLabel}`}>SLEDEĆE</span>
-              <span className={styles.rowTitle}>{nextLesson.title}</span>
-            </span>
-            <span className={`tiny mono ${styles.rowDay}`}>{formatDay(nextLesson.day)}</span>
+            <span className={`tiny mono ${styles.rowDay}`}>{formatDay(lesson.day)}</span>
           </Link>
         ) : null}
       </div>
