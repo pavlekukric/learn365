@@ -1,14 +1,23 @@
 import type { Lesson, LessonByline } from '@learn365/content';
 
+import { IconBookmark } from '../../icons/IconBookmark.js';
 import { Flourish } from '../../primitives/Flourish/Flourish.js';
 
 import styles from './LessonHeader.module.css';
 
-interface LessonHeaderProps {
-  lesson: Lesson;
+export interface LessonBookmarkAction {
+  isBookmarked: boolean;
+  onToggle: () => void;
 }
 
-export function LessonHeader({ lesson }: LessonHeaderProps) {
+interface LessonHeaderProps {
+  lesson: Lesson;
+  /** Save-for-later toggle. When absent, no bookmark control is rendered —
+   * preserves the existing prop shape for callers that don't wire bookmarks. */
+  bookmarkAction?: LessonBookmarkAction | undefined;
+}
+
+export function LessonHeader({ lesson, bookmarkAction }: LessonHeaderProps) {
   const isPlaceholder = lesson.isPlaceholder === true;
   const trustLine = formatTrustLine(lesson.byline, lesson.lastReviewedAt);
 
@@ -34,6 +43,23 @@ export function LessonHeader({ lesson }: LessonHeaderProps) {
         <p className={`tiny mono ${styles.trust}`}>{trustLine}</p>
       ) : null}
       <Flourish />
+      {/* Save-for-later toggle, top-right. Placeholder lessons aren't
+       * bookmarkable — there's nothing to come back to yet. */}
+      {!isPlaceholder && bookmarkAction ? (
+        <button
+          type="button"
+          className={styles.bookmark}
+          aria-pressed={bookmarkAction.isBookmarked}
+          aria-label={
+            bookmarkAction.isBookmarked
+              ? 'Ukloni iz sačuvanih'
+              : 'Sačuvaj lekciju'
+          }
+          onClick={bookmarkAction.onToggle}
+        >
+          <IconBookmark filled={bookmarkAction.isBookmarked} />
+        </button>
+      ) : null}
     </header>
   );
 }
