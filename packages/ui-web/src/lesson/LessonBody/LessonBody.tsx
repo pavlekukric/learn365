@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 import type { LessonBlock } from '@learn365/content';
 
 import styles from './LessonBody.module.css';
@@ -42,7 +44,14 @@ function BlockRenderer({ block, index }: { block: LessonBlock; index: number }) 
     case 'image':
       return (
         <figure className={styles.figure}>
-          <div className={styles.imagePlaceholder} role="img" aria-label={block.alt} />
+          <Image
+            src={block.src}
+            alt={block.alt}
+            width={block.width}
+            height={block.height}
+            className={styles.image}
+            sizes="(max-width: 720px) 100vw, 720px"
+          />
           {block.caption ? (
             <figcaption className={`small ${styles.caption}`}>{block.caption}</figcaption>
           ) : null}

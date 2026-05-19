@@ -8,3 +8,9 @@
   color: var(--muted);
   letter-spacing: 0.14em;
 }
+
+.trust {
+  color: var(--muted);
+  letter-spacing: 0.12em;
+  margin-top: calc(var(--space-2) * -1);
+}

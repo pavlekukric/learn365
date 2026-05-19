@@ -6,11 +6,14 @@ export type {
   Language,
   Lesson,
   LessonBlock,
+  LessonByline,
   LessonId,
   LessonState,
   Script,
   Section,
   SectionId,
+  Source,
+  SourceKind,
   UserProgress,
 } from './types.js';
 
