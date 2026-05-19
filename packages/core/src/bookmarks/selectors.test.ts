@@ -57,10 +57,27 @@ describe('bookmarkedLessonIds', () => {
     expect(bookmarkedLessonIds({ byCourse: {} }, COURSE)).toEqual([]);
   });
 
-  it('returns a fresh array each call', () => {
+  it('returns the same array reference for the same state', () => {
+    // Identity stability is required by `useSyncExternalStore` — returning a
+    // fresh array each read triggers "Maximum update depth exceeded" in
+    // React 19. The store builds a new Set on every toggleBookmark; the
+    // cache invalidates when the Set identity changes.
     const state = stateWith(['a', 'b']);
-    expect(bookmarkedLessonIds(state, COURSE)).not.toBe(
+    expect(bookmarkedLessonIds(state, COURSE)).toBe(
       bookmarkedLessonIds(state, COURSE),
+    );
+  });
+
+  it('returns a new array when the underlying Set changes', () => {
+    const first = bookmarkedLessonIds(stateWith(['a']), COURSE);
+    const second = bookmarkedLessonIds(stateWith(['a', 'b']), COURSE);
+    expect(second).not.toBe(first);
+    expect(second).toEqual(['a', 'b']);
+  });
+
+  it('returns the same empty-array singleton for every unknown course', () => {
+    expect(bookmarkedLessonIds({ byCourse: {} }, COURSE)).toBe(
+      bookmarkedLessonIds({ byCourse: {} }, COURSE),
     );
   });
 });
