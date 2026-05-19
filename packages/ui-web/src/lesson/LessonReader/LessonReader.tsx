@@ -7,7 +7,7 @@ import {
   type EraStat,
 } from '../HistoricalTimeline/HistoricalTimeline.js';
 import { LessonBody } from '../LessonBody/LessonBody.js';
-import { LessonHeader } from '../LessonHeader/LessonHeader.js';
+import { LessonHeader, type LessonBookmarkAction } from '../LessonHeader/LessonHeader.js';
 import { LessonSources } from '../LessonSources/LessonSources.js';
 import { MarkAsCompletedButton } from '../MarkAsCompletedButton/MarkAsCompletedButton.js';
 import { PreviousNextLessonNavigation } from '../PreviousNextLessonNavigation/PreviousNextLessonNavigation.js';
@@ -41,6 +41,9 @@ interface LessonReaderProps {
   eraHref?: (eraId: EraId) => string;
   /** Optional per-era stats for the timeline's proportional widths + progress. */
   eraStats?: ReadonlyMap<EraId, EraStat> | undefined;
+  /** Save-for-later toggle, forwarded to the header. Omit for callers that
+   * haven't wired bookmarks. */
+  bookmarkAction?: LessonBookmarkAction | undefined;
 }
 
 export function LessonReader({
@@ -56,6 +59,7 @@ export function LessonReader({
   courseHref,
   eraHref,
   eraStats,
+  bookmarkAction,
 }: LessonReaderProps) {
   void section; // section data is reflected in breadcrumbs; reserved for future use.
 
@@ -76,7 +80,7 @@ export function LessonReader({
           eraStats={eraStats}
         />
       </div>
-      <LessonHeader lesson={lesson} />
+      <LessonHeader lesson={lesson} bookmarkAction={bookmarkAction} />
       {isUpcoming ? (
         <div className={styles.upcoming} role="status">
           <span className={`eyebrow ${styles.upcomingEyebrow}`}>Uskoro</span>

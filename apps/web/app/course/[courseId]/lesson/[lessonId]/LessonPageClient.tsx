@@ -13,7 +13,7 @@ import {
   type Section,
   type SectionId,
 } from '@learn365/content';
-import { isCompleted } from '@learn365/core';
+import { isBookmarked, isCompleted } from '@learn365/core';
 import {
   CourseSidebar,
   type EraStat,
@@ -21,6 +21,7 @@ import {
   MobileLessonDrawer,
 } from '@learn365/ui-web';
 
+import { useBookmarkStore } from '@/lib/bookmarks/BookmarkStoreProvider';
 import { useProgressStore } from '@/lib/progress/ProgressStoreProvider';
 
 import { LessonContextHeader } from './LessonContextHeader';
@@ -60,6 +61,10 @@ export function LessonPageClient({
   const completedSet = useProgressStore(
     (state) => state.byCourse[courseId]?.completedLessonIds ?? null,
   );
+  const bookmarked = useBookmarkStore((state) =>
+    isBookmarked(state, courseId, lesson.id),
+  );
+  const toggleBookmark = useBookmarkStore((state) => state.toggleBookmark);
 
   const eras = useMemo(() => getEras(courseId), [courseId]);
   const sections = useMemo(() => getSections(courseId), [courseId]);
@@ -256,6 +261,12 @@ export function LessonPageClient({
           courseHref={`/course/${courseId}`}
           eraHref={eraHref}
           eraStats={eraStats}
+          bookmarkAction={{
+            isBookmarked: bookmarked,
+            onToggle: () => {
+              toggleBookmark(courseId, lesson.id);
+            },
+          }}
         />
       </div>
 

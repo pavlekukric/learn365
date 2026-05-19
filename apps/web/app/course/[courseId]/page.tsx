@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation';
 import { getCourse } from '@learn365/content';
 import { Eyebrow } from '@learn365/ui-web';
 
+import { CourseOverviewBookmarks } from './_components/CourseOverviewBookmarks';
 import { CourseOverviewEras } from './_components/CourseOverviewEras';
 import { CourseOverviewProgress } from './_components/CourseOverviewProgress';
 import styles from './page.module.css';
@@ -35,6 +36,8 @@ export default async function CourseOverviewPage({ params }: PageProps) {
         courseId={course.id}
         totalLessons={course.totalLessons}
       />
+
+      <CourseOverviewBookmarks courseId={course.id} />
 
       <section className={styles.eras} aria-label="Epohe i odeljci">
         <header className={styles.erasHeader}>

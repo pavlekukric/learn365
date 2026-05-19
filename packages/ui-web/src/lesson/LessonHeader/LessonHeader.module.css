@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   gap: var(--space-3);
+  position: relative;
 }
 
 .eyebrow {
@@ -13,4 +14,44 @@
   color: var(--muted);
   letter-spacing: 0.12em;
   margin-top: calc(var(--space-2) * -1);
+}
+
+/* Top-right bookmark toggle. Absolutely positioned so it doesn't reflow
+ * the header's flex column and stays optical-aligned with the eyebrow row.
+ * 44 px hit target via padding; the icon itself stays at the 16 px family
+ * size set by IconBookmark. */
+.bookmark {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  margin: calc(var(--space-2) * -1) calc(var(--space-2) * -1) 0 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: var(--muted);
+  cursor: pointer;
+  border-radius: 999px;
+  transition:
+    color 120ms ease,
+    background-color 120ms ease;
+}
+
+.bookmark:hover,
+.bookmark:focus-visible {
+  color: var(--accent);
+  background: rgba(0, 0, 0, 0.04);
+}
+
+.bookmark:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.bookmark[aria-pressed='true'] {
+  color: var(--accent);
 }

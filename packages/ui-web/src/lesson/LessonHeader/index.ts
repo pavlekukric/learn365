@@ -1,1 +1,1 @@
-export { LessonHeader } from './LessonHeader.js';
+export { LessonHeader, type LessonBookmarkAction } from './LessonHeader.js';
