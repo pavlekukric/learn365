@@ -57,11 +57,15 @@ Visual feeling should be closer to a premium historical/editorial reading experi
 
 ## Documentation
 
-Start by reading:
+Start here, in order:
 
-- `docs/PRODUCT_BRIEF.md`
-- `docs/UX_REQUIREMENTS.md`
-- `docs/CONTENT_MODEL.md`
-- `docs/AGENTS.md`
-- `docs/PROJECT_STATE.md`
-- `docs/CLOUD_DESIGN_PROMPT.md`
+- [HANDOFF.md](HANDOFF.md) — what is true now and what to do next. Read this before starting any new work.
+- [docs/PROJECT_STATE.md](docs/PROJECT_STATE.md) — current baseline (do not regress below this) + full phase history.
+- [docs/PRODUCT_BRIEF.md](docs/PRODUCT_BRIEF.md) — product idea, target user, scope.
+- [docs/UX_REQUIREMENTS.md](docs/UX_REQUIREMENTS.md) — IA, screen layouts, interaction patterns.
+- [docs/CONTENT_MODEL.md](docs/CONTENT_MODEL.md) — canonical content contract (entity shapes for `Course`, `Era`, `Section`, `Lesson`).
+- [docs/CONTENT_AUTHORING.md](docs/CONTENT_AUTHORING.md) — how to write and ship a lesson.
+- [docs/AGENTS.md](docs/AGENTS.md) — Claude agent roles, decision gates, code-review expectations.
+- [docs/CLOUD_DESIGN_PROMPT.md](docs/CLOUD_DESIGN_PROMPT.md) — design system origin (historical reference).
+
+Completed phase plans and superseded UX reviews live in [docs/archive/](docs/archive/) — kept for archaeology, **not** to inform new work.

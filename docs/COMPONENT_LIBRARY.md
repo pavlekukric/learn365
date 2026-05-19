@@ -20,29 +20,33 @@ Components are **stateless with respect to user data**. They never call into `@l
 ### `Brand`
 
 ```ts
-type BrandProps = { onClick?: () => void };
+type BrandProps = { className?: string };
 ```
 
-States: idle, hover (cursor pointer, color unchanged), focus-visible.
-Renders the circular "i" mark + `Istorija365` wordmark.
-A11y: real `<button>` with `aria-label="Početna"`.
-Mobile: identical, sized down to 18 px wordmark.
+Visual-only mark. Stateless — the host (e.g. `TopBar`) is responsible for wrapping it in the appropriate `next/link`. Renders the "H" mark + `History 365` wordmark.
+A11y: accessible name comes from the host link, not from `Brand` itself.
+Mobile: identical, sized down via CSS.
 
 ### `TopBar`
 
 ```ts
+type TopBarRoute = 'home' | 'course' | 'lesson' | 'about';
+
 type TopBarProps = {
-  route: 'home' | 'course' | 'lesson';
-  onNavigate: (r: 'home' | 'course') => void;
-  completedCount: number;
+  route: TopBarRoute;
+  courseHref: string;
+  aboutHref: string;
   totalLessons: number;
+  completedCount: number;
 };
 ```
 
-Sticky, translucent (`backdrop-filter: saturate(160%) blur(14px)`). Contains `Brand`, nav links (Početna, Kurs, O aplikaciji), and a tiny progress chip (`xxx / 365` + thin bar).
+Sticky, translucent (`backdrop-filter: saturate(160%) blur(14px)`). Contains `Brand` (wrapped in a `next/link` to `/`), nav links (Početna, Kurs, O aplikaciji) as real `next/link` anchors driven by `courseHref` / `aboutHref`, and a tiny progress chip (`xxx / 365` + thin bar).
 States per nav link: idle, hover, active (current route).
-A11y: nav links use `aria-current="page"` when active.
-Mobile: nav links collapse to a hamburger when ≤ 600px; progress chip moves into a sticky sub-bar inside the lesson reader.
+A11y: nav links use `aria-current="page"` when active. The `Kurs` link is also marked active when `route === 'lesson'`.
+Mobile: nav links remain visible (no hamburger); progress chip moves into a sticky sub-bar inside the lesson reader.
+
+**Navigation pattern note.** All top-level nav primitives (`TopBar` nav links, `Brand` link, `Breadcrumbs` non-terminal crumbs) use `href` rather than `onClick` so middle-click / right-click / open-in-new-tab work and the markup is real anchors. The Phase-3 `onClick → href` revision is complete across the app.
 
 ### `Breadcrumbs`
 

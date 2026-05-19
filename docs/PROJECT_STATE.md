@@ -1,8 +1,70 @@
 # Project State
 
-## Current phase
+## Current Baseline — 2026-05-19
 
-**Phase 5 — Web polish + QA: done.** All engineering gates closed; cross-browser visual review passed manually on Chrome / Firefox / Safari on Windows. Skip link (`Preskoči na sadržaj`) is the first tab stop and targets `<main id="main-content" tabIndex={-1}>`; Home hero CTA + course-overview start link have explicit `:focus-visible` accent rings; `MobileLessonDrawer` backdrop demoted to an `aria-hidden` `<div>` (no longer in the Tab cycle) and initial focus routed to the close button. Playwright suite is wired with **6 tests × 5 browser profiles (chromium-desktop, firefox-desktop, webkit-desktop, chromium-mobile, webkit-mobile) = 30 runs, 28 pass / 2 skipped** (the 2 skips are documented WebKit Tab-skips-anchors quirk on the skip-link assertion only). The suite covers: hero/CTA visible, 8 era cards on overview, mark-completed toggles label, completion persists across reload, skip-link tab-to-Enter path, and a `prefers-reduced-motion` assertion that confirms the timeline marker's transition collapses to <1ms when the OS preference is set. Lighthouse scores against `next start` (lighthouse@12 desktop preset + default mobile preset):
+This section is the single "what is true right now" snapshot of History 365 / Istorija Srbije 365 web v1. Everything below it is the historical phase log that explains how we got here. **Treat this baseline as the new floor — UI/UX should not regress below this state without an explicit owner decision.**
+
+For forward-looking work (what to pick next), see [`HANDOFF.md`](../HANDOFF.md) at the repo root.
+
+### App state
+
+- **Live URL:** https://learn365-web.vercel.app/ (Vercel project `learn365-web`, auto-deploys from `main`).
+- **Branch model:** Trunk-based. Each phase ships as one PR merged to `main`. No release branches.
+- **Last shipped phase:** Phase 7.4 — eras as editorial blocks (merged 2026-05-19 as PR #16, commit `f6a849f`). See "Phase 7.4 — done" below.
+
+### UI/UX baseline (do not regress)
+
+- **Three primary surfaces:** Home, Course overview (`/kurs/istorija-srbije-365`), Lesson reader (`/kurs/.../lekcija/<id>`), plus editorial About page (`/o-aplikaciji`).
+- **TopBar:** sticky, translucent (`backdrop-filter: saturate(160%) blur(14px)`). Brand mark + nav (`Početna`, `Kurs`, `O aplikaciji`) + total-progress chip (`xxx / 365` + thin bar). All nav uses real `next/link` `href`s — `onClick` navigation has been retired across the app.
+- **Home:** calm hero, 8-era timeline strip (post-7.2), "Continue where you left off" state-aware card, footer with about link.
+- **Course overview:** `CourseProgress` card at top + 8 `CourseCard` era blocks. Each era card shows era eyebrow, title, years, **1–2 sentence editorial description always visible (post-7.4)**, progress bar, and a `Pokaži odeljke · N` disclosure for section drill-down. **On fresh state, all eras default closed** so the page reads as 8 editorial blocks.
+- **Lesson reader:** publication-style layout, 5-item breadcrumb chain (`Početna · Course · Era · Section · DAN nnn`), `LessonHeader`, `LessonReader` body, `MarkAsCompletedButton`, `PreviousNextLessonNavigation`, sidebar with era → section → lesson indent guide (1px hairline rule, color-mixed at 60% of `--rule`).
+- **Mobile:** responsive web only (no native app yet). `MobileLessonDrawer` combines sidebar + timeline in a single panel. Breadcrumb shows last two crumbs on `≤560px`. Compact `LessonContextHeader` chrome (post-6.7).
+- **Visual direction:** Editorial only (Spectral serif + Inter + JetBrains Mono, warm Editorial palette, OKLCH-defined tokens). No user-facing theme toggle. Modern direction is dev-only reference.
+
+### Content baseline
+
+- **Canonical content contract:** [`docs/CONTENT_MODEL.md`](./CONTENT_MODEL.md) (entity schema) + [`docs/CONTENT_AUTHORING.md`](./CONTENT_AUTHORING.md) (how to write a lesson).
+- **Hierarchy:** `Course → Era → Section → Lesson`. Eras drive the timeline (8 total); Sections drive sidebar grouping; Lessons are the daily unit (365 total).
+- **Loading approach:** `@learn365/content` builds 365 lessons at module load — 6 fully-authored seed lessons + 359 generated stubs from an overlay file. No codegen step, no placeholder files committed to git. See "Content stub strategy" in author memory.
+- **Authoring format (v1):** TypeScript modules under `packages/content/src/courses/istorija-srbije-365/lessons/authored/`. MDX migration path is documented but not implemented.
+- **Era editorial copy:** every era has a 1–2 sentence description rendered on the course page (wired in Phase 7.4b). Era descriptions live alongside era metadata in the content package.
+
+### Technical baseline
+
+- **Stack:** pnpm workspaces + Turborepo, Next.js 15 App Router, TypeScript strict, CSS Modules + global token CSS variables, Zustand + persist for local progress, Vitest + Playwright.
+- **Monorepo:** `apps/web`, `packages/{ui, ui-web, core, content}`, plus `tooling/` and `docs/`. `apps/mobile` and `apps/api` not present.
+- **Progress storage:** `localStorage` via the `ProgressStorage` adapter in `@learn365/core`. This adapter is the swap seam for the future backend — no v1 frontend rewrite when the .NET API lands.
+- **Node:** local Node 24 (official installer); CI Node 20 via `.nvmrc`; `engines` set to `>=20.10`.
+- **Build/test gates:** `pnpm typecheck && pnpm lint && pnpm test && pnpm build` all green on every merged phase. Playwright suite: 6 tests × 5 browser profiles = 30 runs, 28 pass / 2 documented WebKit skips.
+- **Lighthouse (last measured Phase 5):** desktop 99–100 across Perf/A11y/BP/SEO; mobile A11y/BP/SEO 100, mobile Perf 82–85 (accepted for v1; root cause is the three Google-served font families, fix would conflict with Editorial typography).
+
+### Known issues / carry-forward deferrals
+
+- **Production contact email** — `CONTACT_EMAIL` placeholder in `apps/web/app/o-aplikaciji/_copy.ts` needs the real address.
+- **Screen-reader smoke** — VoiceOver / NVDA on TopBar nav, breadcrumbs, accordion, completion toggle. Still outstanding from Phase 5 manual gates.
+- **Editorial review** of the 6 authored seed lessons (`packages/content/src/courses/istorija-srbije-365/lessons/authored/`) for historical voice, accuracy, period coverage. Still outstanding from Phase 5 manual gates.
+- **Mobile Perf 82–85** on Lighthouse. Accepted for v1; revisit only if real-user metrics regress.
+
+### Explicitly deferred (not in v1)
+
+- Payments, subscriptions, authentication, backend persistence, push notifications, streaks, quizzes, admin/CMS, AI content generation, native mobile (Expo), user-facing theme toggle.
+- Backend (.NET 9 Web API + SQL Server + EF Core) is planned in [`docs/BACKEND_STRATEGY.md`](./BACKEND_STRATEGY.md) as Phase 8, built after web v1 is visually approved.
+- Native mobile (Expo) is planned in [`docs/MOBILE_NOTES.md`](./MOBILE_NOTES.md) as Phase 8b, built after backend.
+
+### Next-step pointer
+
+The next phase pick is recorded in [`HANDOFF.md`](../HANDOFF.md) at the repo root. The pre-Phase-8 UX backlog candidates (Phase 7.5 mobile sticky chrome, Phase 7.6 course scroll restore, hero backdrop QA pass) are listed there with rationale.
+
+---
+
+## Historical phase log
+
+The remainder of this document is the chronological build log. Each phase entry records the locked decisions, files touched, gates run, and rationale. The log is append-only — use it to answer "why did we build it this way?" or "when did X change?" The current state of any component or surface lives in the **Current Baseline** section above, not in the phase log.
+
+## Phase 5 — Web polish + QA: done
+
+All engineering gates closed; cross-browser visual review passed manually on Chrome / Firefox / Safari on Windows. Skip link (`Preskoči na sadržaj`) is the first tab stop and targets `<main id="main-content" tabIndex={-1}>`; Home hero CTA + course-overview start link have explicit `:focus-visible` accent rings; `MobileLessonDrawer` backdrop demoted to an `aria-hidden` `<div>` (no longer in the Tab cycle) and initial focus routed to the close button. Playwright suite is wired with **6 tests × 5 browser profiles (chromium-desktop, firefox-desktop, webkit-desktop, chromium-mobile, webkit-mobile) = 30 runs, 28 pass / 2 skipped** (the 2 skips are documented WebKit Tab-skips-anchors quirk on the skip-link assertion only). The suite covers: hero/CTA visible, 8 era cards on overview, mark-completed toggles label, completion persists across reload, skip-link tab-to-Enter path, and a `prefers-reduced-motion` assertion that confirms the timeline marker's transition collapses to <1ms when the OS preference is set. Lighthouse scores against `next start` (lighthouse@12 desktop preset + default mobile preset):
 
 | Route | Perf | A11y | BP | SEO |
 |---|---|---|---|---|
@@ -391,7 +453,7 @@ Files touched: `packages/ui-web/src/lesson/HistoricalTimeline/{HistoricalTimelin
 
 ## Phase 6.7 — Mobile lesson reading: compact context header: done
 
-A focused UX pass on the lesson reader, triggered by a review of the live mobile build: the full `HistoricalTimeline` rendered inline between the breadcrumbs and the lesson header, so on phones a vertical 8-row block pushed the lesson title far down — the page read as a navigation screen, not a reading view. The lesson page is primarily for reading; the timeline is context, so it should be available but not dominate the first screen. Plan in `docs/PHASE_6_7_MOBILE_LESSON_CONTEXT.md`. Engineering gates all green: typecheck, lint, **79 unit tests**, production build (5 routes), `validate-content` (365/28/8), and Playwright **8 tests × 5 profiles = 40 runs, 38 pass / 2 skipped** (the 2 skips are the documented WebKit Tab-skips-anchors quirk).
+A focused UX pass on the lesson reader, triggered by a review of the live mobile build: the full `HistoricalTimeline` rendered inline between the breadcrumbs and the lesson header, so on phones a vertical 8-row block pushed the lesson title far down — the page read as a navigation screen, not a reading view. The lesson page is primarily for reading; the timeline is context, so it should be available but not dominate the first screen. Plan in `docs/archive/phases/PHASE_6_7_MOBILE_LESSON_CONTEXT.md`. Engineering gates all green: typecheck, lint, **79 unit tests**, production build (5 routes), `validate-content` (365/28/8), and Playwright **8 tests × 5 profiles = 40 runs, 38 pass / 2 skipped** (the 2 skips are the documented WebKit Tab-skips-anchors quirk).
 
 **Decisions (2026-05-15, with the product owner):** (1) the mobile "Sadržaj" drawer holds **both** a compact timeline + the course outline — one unified navigation surface; (2) the swap is tied to the **layout** breakpoint (≤1024px, single column), not the device — single column ⇒ compact header + drawer, two-column desktop ⇒ unchanged.
 
@@ -405,12 +467,12 @@ Changes:
 - **`HistoricalTimeline` gained `variant?: 'full' | 'compact'`** (default `'full'`, backward-compatible — `HomeEraTimeline` and the desktop reader are untouched). `'compact'` forces the condensed vertical journey-rail layout at *every* viewport (the drawer is ~360px wide but can be open up to 1024px, so it can't rely on the `≤720px` media query) with lighter chrome — it already sits on the drawer surface.
 - **e2e** — the "lesson reader shows day, sidebar, timeline" test is now layout-aware: on single-column profiles it opens the "Sadržaj" drawer, asserts the timeline is visible, then closes it; on desktop it asserts the inline timeline directly.
 
-Files touched — `packages/ui-web/src/lesson/{LessonReader/LessonReader.tsx,LessonReader/LessonReader.module.css,LessonHeader/LessonHeader.tsx,LessonHeader/LessonHeader.module.css,HistoricalTimeline/HistoricalTimeline.tsx,HistoricalTimeline/HistoricalTimeline.module.css,MobileLessonDrawer/MobileLessonDrawer.tsx}`; `apps/web/app/course/[courseId]/lesson/[lessonId]/{LessonContextHeader.tsx,LessonContextHeader.module.css}` (new), `.../LessonPageClient.tsx`, `.../LessonPageClient.module.css`; `apps/web/e2e/smoke.spec.ts`; `docs/PHASE_6_7_MOBILE_LESSON_CONTEXT.md` (new).
+Files touched — `packages/ui-web/src/lesson/{LessonReader/LessonReader.tsx,LessonReader/LessonReader.module.css,LessonHeader/LessonHeader.tsx,LessonHeader/LessonHeader.module.css,HistoricalTimeline/HistoricalTimeline.tsx,HistoricalTimeline/HistoricalTimeline.module.css,MobileLessonDrawer/MobileLessonDrawer.tsx}`; `apps/web/app/course/[courseId]/lesson/[lessonId]/{LessonContextHeader.tsx,LessonContextHeader.module.css}` (new), `.../LessonPageClient.tsx`, `.../LessonPageClient.module.css`; `apps/web/e2e/smoke.spec.ts`; `docs/archive/phases/PHASE_6_7_MOBILE_LESSON_CONTEXT.md` (new at the time; later moved to archive).
 
 ## Phase 6.8 — Decluttering & navigation polish: done
 
-Driven by the 2026-05-15 UX review (`docs/UX_REVIEW_2026-05-15.md`) and its
-implementation plan (`docs/PHASE_6_8_DECLUTTER_PLAN.md`). All 5 review bundles
+Driven by the 2026-05-15 UX review (`docs/archive/reviews/UX_REVIEW_2026-05-15.md`) and its
+implementation plan (`docs/archive/phases/PHASE_6_8_DECLUTTER_PLAN.md`). All 5 review bundles
 landed: 6.8a+b (sidebar & drawer declutter), 6.8c (article left-anchor),
 6.8d+e (breadcrumbs link + sidebar tree shows where you are), 6.8f+g (hero
 tighten + day-label normalise + placeholder signal), 6.8h (Era I content fix).
@@ -727,7 +789,7 @@ Files touched (7.1 total):
 - `apps/web/app/o-aplikaciji/{page.tsx, page.module.css, _copy.ts}`
 - `apps/web/components/top-bar/TopBarHost.tsx`
 - `apps/web/e2e/smoke.spec.ts`
-- `docs/PHASE_7_1_PLAN.md`, `docs/NEXT_PHASE_RECOMMENDATION.md`
+- `docs/archive/phases/PHASE_7_1_PLAN.md`, `docs/archive/reviews/NEXT_PHASE_RECOMMENDATION.md`
 
 Gates locally green: `pnpm typecheck && pnpm lint && pnpm test && pnpm
 build`. Playwright smoke (8 tests) passes on `chromium-desktop` and
@@ -737,7 +799,7 @@ build`. Playwright smoke (8 tests) passes on `chromium-desktop` and
 
 Three sub-bundles ship inside one PR (7.2a → 7.2b → 7.2c). Closes the
 "home page reads thinner than the lesson reader" gap called out in
-`docs/NEXT_PHASE_RECOMMENDATION.md` §2 Pick 2 — the home hero and eras
+`docs/archive/reviews/NEXT_PHASE_RECOMMENDATION.md` §2 Pick 2 — the home hero and eras
 rail now carry the same editorial confidence as the lesson page, and the
 course overview hero is no longer bare. Decisions locked with the owner
 before implementation:
@@ -796,7 +858,7 @@ Files touched (7.2 total):
 - `apps/web/app/course/[courseId]/page.tsx`,
   `apps/web/app/course/[courseId]/page.module.css`
 - `packages/ui-web/src/lesson/HistoricalTimeline/{HistoricalTimeline.tsx, HistoricalTimeline.module.css}`
-- `docs/PHASE_7_2_PLAN.md`
+- `docs/archive/phases/PHASE_7_2_PLAN.md`
 
 Gates locally green: `pnpm typecheck && pnpm lint && pnpm test && pnpm
 build`. Playwright smoke continues to pass — visual-only change, no new
@@ -832,7 +894,7 @@ Files touched (7.3 total):
   — new `sectionHref` `useCallback` mirroring `eraHref`; `breadcrumbs`
   `useMemo` extended from 4 to 5 items; dependency array gains
   `section.title`, `section.id`, `sectionHref`.
-- `docs/PHASE_7_3_PLAN.md`
+- `docs/archive/phases/PHASE_7_3_PLAN.md`
 
 No `Breadcrumbs` primitive API change, no `CourseOverviewEras` change,
 no new route, no content model change.
@@ -861,51 +923,24 @@ legible. One-file fix, no behaviour change.
 Shipped as [PR #15](https://github.com/pavlekukric/learn365/pull/15) /
 [`cb28710`](https://github.com/pavlekukric/learn365/commit/cb28710).
 
+## Phase 7.4 — Course-page eras as editorial blocks: done
+
+Shipped 2026-05-19 as PR #16 (merge commit `f6a849f`), one bundle of three commits (7.4a, 7.4b, 7.4c). Plan: [`docs/archive/phases/PHASE_7_4_PLAN.md`](./archive/phases/PHASE_7_4_PLAN.md). Predecessor: Phase 7.3 + post-7.3 sidebar indent fix.
+
+The audit finding from [`docs/archive/reviews/UX_AUDIT_CURRENT_UI.md`](./archive/reviews/UX_AUDIT_CURRENT_UI.md) §4.4 was sharper than "add a disclosure" — the disclosure already existed on each `CourseCard`. The real problem was two-part: (1) the era *description paragraph* lived inside the disclosure, so closed eras read as bare nav rows with no editorial content; (2) `findActiveLocation` auto-expanded Era I + its first section on fresh state, so a first-time visitor landed on a fully-expanded Era I rather than 8 calm editorial blocks.
+
+Three commits, one PR, low blast radius:
+
+- **7.4a** ([`packages/ui-web/src/course/CourseCard/CourseCard.tsx`](../packages/ui-web/src/course/CourseCard/CourseCard.tsx)) — `CourseCard` gains optional `description` prop. When provided, renders as a body paragraph between the title block and the progress block. No-op for callers that don't pass it.
+- **7.4b** ([`apps/web/app/course/[courseId]/_components/CourseOverviewEras.tsx`](../apps/web/app/course/[courseId]/_components/CourseOverviewEras.tsx)) — wires `era.description` from the content package into `CourseCard.description`. Era descriptions now read on the closed era surface (where they belong) rather than inside the disclosed section list. The duplicate description inside the disclosure panel is removed.
+- **7.4c** (`CourseOverviewEras.tsx` initial-state effect) — eras default closed on fresh state. `findActiveLocation` still drives the auto-open behaviour when there *is* a `lastOpenedLessonId` or completed lessons (returning users still land on their in-progress era). Only the first-visit case changes: 8 calm editorial blocks instead of an expanded Era I.
+
+What did not change: the `Pokaži odeljke · N` / `Sakrij odeljke` disclosure pattern stays as-is; `CourseProgress` card at the top of the page is unchanged and continues to answer "where would I start?" for fresh visitors; the era-level `href` (navigate to era's first lesson) is preserved on the `CourseCard` body link. No content model change, no new route, no `Breadcrumbs` or sidebar change.
+
+Gates locally green: `pnpm typecheck && pnpm lint && pnpm test && pnpm build`. Playwright smoke continues to pass — the existing course-overview era-count assertion still holds (it counts `CourseCard`s, not disclosure state).
+
 ## Next step
 
-Carry-forward, non-blocking deferrals (unchanged from the post-7.1 list):
+The forward-looking pointer now lives in [`HANDOFF.md`](../HANDOFF.md) at the repo root. It records: the carry-forward non-blocking deferrals (production contact email, screen-reader smoke, editorial review of authored seed lessons), the pre-Phase-8 UX backlog candidates (Phase 7.5 mobile sticky chrome, Phase 7.6 course scroll restore, hero backdrop QA pass), and the roadmap continuation into Phase 8 (Backend / .NET 9 + SQL Server) once web v1 is declared visually approved.
 
-- **Production contact email** — swap the `CONTACT_EMAIL` placeholder
-  in `apps/web/app/o-aplikaciji/_copy.ts` once the real address exists.
-- **Screen-reader smoke** — VoiceOver / NVDA on TopBar nav + breadcrumbs
-  + accordion + completion toggle.
-- **Editorial review of the 6 authored seed lessons**
-  (`packages/content/src/courses/istorija-srbije-365/lessons/authored/`)
-  for historical voice, accuracy, period coverage.
-- `COMPONENT_LIBRARY.md` still needs the `onClick → href` revision for
-  navigation props called out at the end of Phase 3.
-
-`docs/NEXT_PHASE_RECOMMENDATION.md` is now fully consumed — all three
-of its Picks shipped (7.1 trust polish, 7.2 home hero v2, 7.3 section in
-breadcrumb). The next UI/UX phase pick must be made fresh.
-
-Remaining pre-Phase-8 UX candidates from `docs/PHASE_7_0_PLAN.md` §6
-(renumbered for current state):
-
-- **Phase 7.4 candidate — Course-page eras as editorial blocks.** Hide
-  section accordions behind a `Vidi N odeljaka` disclosure so the
-  course page reads as 8 editorial blocks with optional drill-down.
-  Highest visual-payoff item left in the backlog; medium-risk (changes
-  course IA). Audit §4.4.
-- **Phase 7.5 candidate — Mobile lesson sticky chrome scroll-collapse.**
-  Hide the bottom meta row of `LessonContextHeader` after the user
-  scrolls past the title (intersection observer). Mobile-only polish,
-  low risk. Audit §5.6.
-- **Phase 7.6 candidate — Course page scroll restore.** Next.js
-  scroll-restoration tweak so back-navigation from a lesson returns
-  the user to the section accordion they came from, not the page top.
-  Low risk, quality-of-life win. Audit §4.6.
-- **Hero backdrop QA pass** at 360 / 768 / 1280 / 1920. One-off check,
-  not a phase. Audit §3.8.
-
-Before locking the next pick, do a live audit of the local dev build
-(or the Vercel preview) — per the original
-`docs/NEXT_PHASE_RECOMMENDATION.md` §4 handoff rule, *"If the live read
-differs from this assessment, trust the live read."* The post-7.2 +
-7.3 + sidebar-indent state has not been walked in a browser yet.
-
-After the remaining UX backlog is closed (or the owner declares web v1
-visually approved), the roadmap continues with **Phase 8 (Backend /
-.NET 9 + SQL Server)** per `docs/BACKEND_STRATEGY.md`. The
-`ProgressStorage` adapter in `@learn365/core` is the swap seam — no v1
-frontend rewrite required when the backend lands.
+Phase plans for shipped phases (6.7 through 7.4) live in [`docs/archive/phases/`](./archive/phases/). Superseded UX reviews and audits live in [`docs/archive/reviews/`](./archive/reviews/). Treat both archive folders as historical — do not consult them when assessing current state.

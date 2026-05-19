@@ -101,11 +101,12 @@
   .inner {
     gap: var(--space-4);
   }
-  /* Mobile: drop the "Početna" / "Kurs" text links — both routes are
-   * reachable via the brand mark (Home) and the in-page breadcrumbs /
-   * lesson context header (Course). Keeps the header to brand + progress
-   * so it reads as editorial chrome rather than a web nav bar. */
-  .nav a {
+  /* Mobile: keep only "Kurs" as a visible nav link. Brand carries Home,
+   * footer carries "O aplikaciji" on every route — a single section
+   * affordance in the masthead preserves the editorial register without
+   * leaving the Course overview unreachable from the global chrome. */
+  .nav a[data-link='home'],
+  .nav a[data-link='about'] {
     display: none;
   }
   .progressGroup {
