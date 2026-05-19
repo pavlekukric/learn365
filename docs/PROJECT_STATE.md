@@ -10,12 +10,12 @@ For forward-looking work (what to pick next), see [`HANDOFF.md`](../HANDOFF.md) 
 
 - **Live URL:** https://learn365-web.vercel.app/ (Vercel project `learn365-web`, auto-deploys from `main`).
 - **Branch model:** Trunk-based. Each phase ships as one PR merged to `main`. No release branches.
-- **Last shipped phase:** Phase 7.4 — eras as editorial blocks (merged 2026-05-19 as PR #16, commit `f6a849f`). See "Phase 7.4 — done" below.
+- **Last shipped phase:** Phase 7.7 — Mobile global nav restoration (merged 2026-05-19 as PR #17, commit `2c8de8d`). See "Phase 7.7 — done" below.
 
 ### UI/UX baseline (do not regress)
 
 - **Three primary surfaces:** Home, Course overview (`/kurs/istorija-srbije-365`), Lesson reader (`/kurs/.../lekcija/<id>`), plus editorial About page (`/o-aplikaciji`).
-- **TopBar:** sticky, translucent (`backdrop-filter: saturate(160%) blur(14px)`). Brand mark + nav (`Početna`, `Kurs`, `O aplikaciji`) + total-progress chip (`xxx / 365` + thin bar). All nav uses real `next/link` `href`s — `onClick` navigation has been retired across the app.
+- **TopBar:** sticky, translucent (`backdrop-filter: saturate(160%) blur(14px)`). Brand mark + nav (`Početna`, `Kurs`, `O aplikaciji`) + total-progress chip (`xxx / 365` + thin bar). All nav uses real `next/link` `href`s — `onClick` navigation has been retired across the app. **Mobile (≤720px):** masthead reads Brand · Kurs · ProgressCapsule — `Početna` is hidden (Brand carries Home) and `O aplikaciji` is hidden (footer carries it on every route). Each `<Link>` carries a stable `data-link='home' | 'course' | 'about'` attribute used by the mobile hide rule.
 - **Home:** calm hero, 8-era timeline strip (post-7.2), "Continue where you left off" state-aware card, footer with about link.
 - **Course overview:** `CourseProgress` card at top + 8 `CourseCard` era blocks. Each era card shows era eyebrow, title, years, **1–2 sentence editorial description always visible (post-7.4)**, progress bar, and a `Pokaži odeljke · N` disclosure for section drill-down. **On fresh state, all eras default closed** so the page reads as 8 editorial blocks.
 - **Lesson reader:** publication-style layout, 5-item breadcrumb chain (`Početna · Course · Era · Section · DAN nnn`), `LessonHeader`, `LessonReader` body, `MarkAsCompletedButton`, `PreviousNextLessonNavigation`, sidebar with era → section → lesson indent guide (1px hairline rule, color-mixed at 60% of `--rule`).
@@ -939,8 +939,26 @@ What did not change: the `Pokaži odeljke · N` / `Sakrij odeljke` disclosure pa
 
 Gates locally green: `pnpm typecheck && pnpm lint && pnpm test && pnpm build`. Playwright smoke continues to pass — the existing course-overview era-count assertion still holds (it counts `CourseCard`s, not disclosure state).
 
+## Phase 7.7 — Mobile global nav restoration: done
+
+Shipped 2026-05-19 as PR #17 (merge commit `2c8de8d`), one PR with two commits (a docs commit landing the roadmap + plan, then the implementation commit). Plan: [`docs/archive/phases/PHASE_7_7_PLAN.md`](./archive/phases/PHASE_7_7_PLAN.md). Predecessor: Phase 7.4 + the 2026-05-19 mobile UI/UX assessment.
+
+The assessment surfaced a navigation bug on the live mobile build: `TopBar.module.css` was hiding **every** text nav link at ≤720px (`.nav a { display: none }`), so a first-time mobile user landed on Home with no path to `/course/...` from the global chrome — the in-page hero CTA jumps straight to the lesson reader, not the course overview. Brand carries Home and the footer carries `O aplikaciji`, but `Kurs` was effectively unreachable.
+
+Implementation, one commit:
+
+- **`packages/ui-web/src/primitives/TopBar/TopBar.tsx`** — three nav `<Link>`s gained stable `data-link='home' | 'course' | 'about'` attributes. No prop changes; the `route` semantic and existing `aria-current` / `.active` class continue to work.
+- **`packages/ui-web/src/primitives/TopBar/TopBar.module.css`** — the `@media (max-width: 720px)` rule narrowed from `.nav a { display: none }` to `.nav a[data-link='home'], .nav a[data-link='about'] { display: none }`. Mobile masthead now reads: Brand · Kurs · ProgressCapsule. Comment updated to match the new register ("single section affordance preserves the masthead register without leaving the Course overview unreachable from the global chrome").
+- **`apps/web/e2e/smoke.spec.ts`** — new test "TopBar Kurs link is reachable on every viewport" asserts the link is visible inside the `Glavna navigacija` nav and routes to `/course/istorija-srbije-365` when clicked. The test runs on every profile but is most load-bearing on `chromium-mobile` and `webkit-mobile`.
+
+What did not change: the `Brand` mark or its href; `TopBar` props or its `route` semantic; the progress capsule (count, track width, label, or the 460px mini-bar drop); active-state styling; the footer mounting or link set; any in-page surface on Home / Course / Lesson. No new routes, no hamburger, no bottom tab bar.
+
+Gates locally green: `pnpm typecheck && pnpm lint && pnpm test && pnpm build`, `pnpm validate-content` (365/37/8), Playwright **9 tests × 5 profiles = 45 runs, 43 pass / 2 documented WebKit skips** (the existing skip-link assertion's Safari quirk; not relevant to this phase).
+
+Roadmap context: this is the first bundle in [`docs/ROADMAP_PRE_PHASE_8.md`](./ROADMAP_PRE_PHASE_8.md), the consolidated pre-Phase-8 roadmap drafted on 2026-05-19. Locked R1 named Phase 7.7 first; the next pick is Phase 7.8 (Daily ritual anchor on Home), whose detailed plan is drafted at [`docs/PHASE_7_8_PLAN.md`](./PHASE_7_8_PLAN.md) and awaits owner green-light.
+
 ## Next step
 
-The forward-looking pointer now lives in [`HANDOFF.md`](../HANDOFF.md) at the repo root. It records: the carry-forward non-blocking deferrals (production contact email, screen-reader smoke, editorial review of authored seed lessons), the pre-Phase-8 UX backlog candidates (Phase 7.5 mobile sticky chrome, Phase 7.6 course scroll restore, hero backdrop QA pass), and the roadmap continuation into Phase 8 (Backend / .NET 9 + SQL Server) once web v1 is declared visually approved.
+The forward-looking pointer now lives in [`HANDOFF.md`](../HANDOFF.md) at the repo root. It records the carry-forward non-blocking deferrals (production contact email, screen-reader smoke, editorial review of authored seed lessons) and the active pre-Phase-8 backlog ([`docs/ROADMAP_PRE_PHASE_8.md`](./ROADMAP_PRE_PHASE_8.md)). The roadmap continues into Phase 8 (Backend / .NET 9 + SQL Server) once the pre-Phase-8 bundles close and web v1 is declared visually approved.
 
-Phase plans for shipped phases (6.7 through 7.4) live in [`docs/archive/phases/`](./archive/phases/). Superseded UX reviews and audits live in [`docs/archive/reviews/`](./archive/reviews/). Treat both archive folders as historical — do not consult them when assessing current state.
+Phase plans for shipped phases (6.7 through 7.7) live in [`docs/archive/phases/`](./archive/phases/). Superseded UX reviews and audits live in [`docs/archive/reviews/`](./archive/reviews/). Treat both archive folders as historical — do not consult them when assessing current state.

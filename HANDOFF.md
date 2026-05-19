@@ -1,6 +1,6 @@
 # Handoff — History 365 / Istorija Srbije 365
 
-**Last updated:** 2026-05-19, after Phase 7.4 merge (PR #16, commit `f6a849f`).
+**Last updated:** 2026-05-19, after Phase 7.7 merge (PR #17, commit `2c8de8d`).
 
 This is the live forward-looking pointer for the project. **Read this before starting any new phase.** It tells you what is true now and what the strongest next moves are.
 
@@ -11,7 +11,7 @@ For the full current state, read [`docs/PROJECT_STATE.md`](docs/PROJECT_STATE.md
 ## Where the app is right now
 
 - **Web v1 is live** at https://learn365-web.vercel.app/ (Vercel project `learn365-web`, auto-deploys from `main`).
-- **Phase 7.4 just shipped** — eras on the course overview now read as 8 editorial blocks with always-visible 1–2 sentence descriptions; eras default closed on fresh state.
+- **Phase 7.7 just shipped** — the mobile TopBar keeps the `Kurs` text link visible on ≤720px so the course overview stays reachable from the global chrome. Brand still carries Home; footer still carries `O aplikaciji`. Mobile masthead reads: Brand · Kurs · ProgressCapsule.
 - **UI/UX is at a stable baseline** the owner has declared the new floor. Do not regress below this state without an explicit owner decision.
 - **No backend.** Progress lives in `localStorage` via the `ProgressStorage` adapter in `@learn365/core` — the swap seam for the future .NET API.
 - **No native mobile.** Responsive web only; `MobileLessonDrawer` is the mobile reading surface.
@@ -30,15 +30,21 @@ Open since Phase 5. None of these block new feature phases, but all should close
 
 ---
 
-## Pre-Phase-8 UX backlog candidates
+## Pre-Phase-8 UX backlog
 
-The next UI/UX phase must be picked fresh — `docs/archive/reviews/NEXT_PHASE_RECOMMENDATION.md` is fully consumed (all three of its picks shipped: 7.1 trust polish, 7.2 home hero v2, 7.4 eras editorial). Run a live audit of the production build before locking the next pick — if the live read differs from these candidates, trust the live read.
+The post-7.4 backlog was reframed on 2026-05-19 after an independent mobile UI/UX assessment. The full roadmap is now in [`docs/ROADMAP_PRE_PHASE_8.md`](docs/ROADMAP_PRE_PHASE_8.md) and supersedes the prior `NEXT_PHASE_RECOMMENDATION.md` picks. Six bundles surfaced as Phases 7.7–7.12; the two pre-existing 7.5/7.6 polish items are preserved.
 
-Candidates from the UX audit (now in `docs/archive/reviews/UX_AUDIT_CURRENT_UI.md`), unchanged from the post-7.3 list minus the 7.4 entry that just shipped:
+**Next pick: Phase 7.8 — Daily ritual anchor on Home.** Detailed plan is drafted in [`docs/PHASE_7_8_PLAN.md`](docs/PHASE_7_8_PLAN.md). Decisions D1–D4 locked. Awaiting owner green-light to implement.
 
-- **Phase 7.5 — Mobile lesson sticky chrome scroll-collapse.** Hide the bottom meta row of `LessonContextHeader` after the user scrolls past the title (intersection observer). Mobile-only polish, low risk. Audit §5.6.
-- **Phase 7.6 — Course page scroll restore.** Next.js scroll-restoration tweak so back-navigation from a lesson returns the user to the section accordion they came from, not the page top. Low risk, quality-of-life win. Audit §4.6.
-- **Hero backdrop QA pass** at 360 / 768 / 1280 / 1920. One-off check, not a phase. Audit §3.8.
+Remaining candidates, in proposed ship order (per roadmap, owner can re-sequence):
+
+- **Phase 7.8 — Daily ritual anchor on Home.** New state-aware "Tvoj N. dan" block + replace the chronological caption with the daily contract `365 lekcija · 1 dnevno · ~8 minuta`. Two-state model (idle + in-progress), no real-calendar dependency. Highest retention impact, ~1 day.
+- **Phase 7.9 — Progress narrative consolidation.** End the four-counter overlap on the course overview; settle on one canonical hierarchy. ~1 day.
+- **Phase 7.10 + 7.12 (combined editorial PR window) — Trust scaffolding + figures.** Per-lesson `Lesson.byline`, `lastReviewedAt`, `sources[]`; add figures to the 6 authored lessons. ~3–4 days plus image curation.
+- **Phase 7.11 — Reading comfort.** Wire `ReadingProgress.tsx` (stub already exists) + add a bookmark toggle with a new `BookmarkStorage` adapter mirroring `ProgressStorage`. ~1.5 days.
+- **Phase 7.5 — Mobile lesson sticky chrome scroll-collapse.** Existing polish backlog item.
+- **Phase 7.6 — Course page scroll restore.** Existing polish backlog item.
+- **Hero backdrop QA pass** at 360 / 768 / 1280 / 1920. One-off check, not a phase.
 
 ---
 
