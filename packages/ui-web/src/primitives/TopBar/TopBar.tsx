@@ -40,6 +40,7 @@ export function TopBar({
         <nav className={styles.nav} aria-label="Glavna navigacija">
           <Link
             href="/"
+            data-link="home"
             className={route === 'home' ? styles.active : undefined}
             aria-current={route === 'home' ? 'page' : undefined}
           >
@@ -47,6 +48,7 @@ export function TopBar({
           </Link>
           <Link
             href={courseHref}
+            data-link="course"
             className={courseActive ? styles.active : undefined}
             aria-current={courseActive ? 'page' : undefined}
           >
@@ -54,6 +56,7 @@ export function TopBar({
           </Link>
           <Link
             href={aboutHref}
+            data-link="about"
             className={aboutActive ? styles.active : undefined}
             aria-current={aboutActive ? 'page' : undefined}
           >

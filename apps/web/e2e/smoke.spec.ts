@@ -16,6 +16,20 @@ test.describe('History 365 — smoke', () => {
     await expect(page.getByRole('link', { name: /Započni kurs/ })).toBeVisible();
   });
 
+  test('TopBar Kurs link is reachable on every viewport', async ({ page }) => {
+    // Mobile regression guard: the TopBar must keep the "Kurs" text link
+    // visible on ≤720px so the course overview stays reachable from the
+    // global chrome. "Početna" and "O aplikaciji" remain hidden on mobile
+    // (Brand carries Home, footer carries About).
+    await page.goto('/');
+    const kursLink = page
+      .getByRole('navigation', { name: 'Glavna navigacija' })
+      .getByRole('link', { name: 'Kurs' });
+    await expect(kursLink).toBeVisible();
+    await kursLink.click();
+    await expect(page).toHaveURL(new RegExp(`/course/${COURSE_ID}$`));
+  });
+
   test('course overview renders eight eras', async ({ page }) => {
     await page.goto(`/course/${COURSE_ID}`);
     await expect(page.getByRole('heading', { level: 1 })).toBeVisible();
