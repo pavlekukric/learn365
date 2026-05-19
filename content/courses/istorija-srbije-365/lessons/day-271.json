@@ -6,13 +6,53 @@
   "dayNumber": 271,
   "order": 6,
   "title": "Aneksiona kriza",
+  "subtitle": "Kako je Beč 1908. jednim potezom prisvojio Bosnu i Hercegovinu — i srpsku politiku gurnuo iz čekanja u pripremanje",
   "readingTimeMinutes": 8,
   "year": 1908,
-  "isPlaceholder": true,
+  "dateLabel": "1908.",
+  "timelinePosition": "1908.",
+  "summary": "Austro-Ugarska 6. oktobra 1908. objavljuje aneksiju Bosne i Hercegovine. Srbija ostaje bez glavne nacionalne perspektive, a srpska politika prelazi iz iščekivanja u pripremu mogućeg rata.",
+  "keyPeople": ["Franja Josif", "Alojz Lexa fon Erental", "Aleksandar Iswolski", "Nikola Pašić", "Milovan Milovanović", "Stepa Stepanović", "kralj Petar I Karađorđević"],
+  "keyPlaces": ["Beč", "Sarajevo", "Buchlau", "Sankt Peterburg", "Beograd", "Berlin"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Šestog oktobra 1908. godine, po novom kalendaru, car Franja Josif potpisao je u Beču proklamaciju kojom Austro-Ugarska monarhija pripaja Bosnu i Hercegovinu. Te dve oblasti je već trideset godina vojnički držala — Berlinski kongres joj je 1878. dao pravo da ih okupira i upravlja njima, ali su one pravno i dalje pripadale sultanu u Carigradu. Akt iz 1908. taj polustepeni odnos prekida: Bosna i Hercegovina od tog trenutka postaju deo carstva. Vest je u Beogradu dočekana kao udar groma iz vedra neba. U sutonu jedne već napete jeseni počela je ono što će ostati upamćeno kao Aneksiona kriza."
+    },
+    {
+      "type": "paragraph",
+      "text": "Da bi se razumelo zašto je objava izazvala tako jak otpor, treba se setiti šta su Bosna i Hercegovina značile srpskoj politici. Od oslobođenja kneževine, kroz čitav drugi deo devetnaestog veka, Bosna je u Beogradu nečujno tretirana kao zemlja koja će se jednom morati pripojiti — bilo kao deo proširene Srbije, bilo kao deo neke buduće južnoslovenske zajednice. To nije bio zvanični državni cilj, nego dubok, jedva izgovaran politički horizont. Sve dok je Bosna formalno bila osmanska, taj horizont je ostajao otvoren. Aneksija ga je, jednim potezom pera, zatvorila. Sa stanovišta Beograda, izgubljena je ne samo teritorija već i osnovni smer nacionalnog razvitka."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sam diplomatski tok bio je gotovo isto toliko uznemirujući koliko i sadržaj odluke. Austrijski ministar spoljnih poslova Alojz Lexa fon Erental sastao se septembra te godine, u zamku Buchlau u Moravskoj, sa ruskim ministrom Aleksandrom Iswolskim. Dvojica su, prema svemu što se kasnije znalo, dotakla razmenu: Rusija bi prećutno prihvatila aneksiju, a Austrija bi podržala rusko traženje slobodnog prolaska ratnih brodova kroz Bospor i Dardanele. Šta je tačno dogovoreno, ostalo je predmet spora — sami akteri su kasnije nudili različita tumačenja. Sigurno je samo da je Beč delovao pre nego što je Iswolski stigao da svoje partnere, Francusku i Veliku Britaniju, pripremi za promenu. Kada je objava stigla, Iswolski se osetio prevarenim; Rusija nije bila spremna da se za njega potuče."
+    },
+    {
+      "type": "paragraph",
+      "text": "U Srbiji je reakcija bila i emotivna i institucionalna. Mitinzi su izbili po varošima, od Beograda do unutrašnjosti; štampa je danima pisala samo o jednoj temi. Skupština je svečano osudila akt i izrazila protest. Vlada Pere Velimirovića, a potom i nova vlada koju je obrazovao Stojan Novaković, naredila je delimičnu mobilizaciju rezervista. Mladi kralj Petar I Karađorđević — koji je vladao tek pet godina — povezao se sa političkim vrhom u stavu da Srbija ne sme jednostavno da prećuti gubitak. Vojvoda Stepa Stepanović počeo je da razmatra šta bi srpska vojska mogla, a šta ne. Istovremeno se otvarala neugodna istina: protiv Austro-Ugarske, sama, Srbija ratovati ne može."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Diplomatski poraz i njegove tihe posledice"
+    },
+    {
+      "type": "paragraph",
+      "text": "Beograd je tokom jeseni i zime 1908. i početkom 1909. tražio evropsku reakciju. Srpsko izaslanstvo, u kojem su se kroz nekoliko misija smenjivali Nikola Pašić, ministar spoljnih poslova Milovan Milovanović i drugi, obišlo je velike prestonice. Tražilo se makar teritorijalno obeštećenje ili međunarodna konferencija koja bi reviziju Berlinskog ugovora obavila javno. Odgovori su bili učtivi i prazni. Francuska nije htela krizu, Velika Britanija je oklevala, Italija je merila sopstvene interese na Jadranu. Sve je zavisilo od Rusije — a Rusija, još uvek bez snage posle poraza protiv Japana 1905. i unutrašnjih potresa iste godine, znala je da nije spremna ni za demonstraciju, a kamoli za rat. Marta 1909. Berlin je, podržavajući Beč, uputio Petrogradu ultimatum: ili prihvatite aneksiju, ili se pripremite na sukob. Rusija je popustila."
+    },
+    {
+      "type": "paragraph",
+      "text": "Posle ruskog popuštanja, srpski položaj bio je neodrživ. Tridesetprvog marta 1909. godine srpska vlada potpisala je notu kojom formalno priznaje aneksiju i obavezuje se na „dobrosusedske odnose“ sa Austro-Ugarskom. To je u praksi značilo i obustavu vojnih priprema usmerenih ka severozapadu i tihu zabranu zvanične podrške bilo kakvoj agitaciji u Bosni. Diplomatski, bio je to težak poraz — možda najteži koji je samostalna srpska politika do tada doživela. Mnogi ondašnji savremenici opisali su martovsku notu kao poniženje; mlađi politički naraštaj nije zaboravio."
+    },
+    {
+      "type": "paragraph",
+      "text": "Posledice krize bile su dublje od same teritorije. Prvo, u Bosni i preko Drine pojačala se nacionalistička omladina; iz tog raspoloženja izrastaće tokom narednih godina pokret koji će dobiti ime Mlada Bosna. Drugo, među srpskim oficirima, deo nezadovoljnih ishodom 1909. okupiće se 1911. u tajnu organizaciju poznatu kao „Ujedinjenje ili smrt“, u javnosti nazvanu Crna ruka; njena uloga u kasnijim događajima ostala je predmet trajne istorijske rasprave. Treće, srpska država, naučena lekciji da diplomatija sama ne čuva, počela je sistematski da modernizuje vojsku — što će biti tema sledeće lekcije. I četvrto, odnosi između Beograda i Beča ostali su trajno zatrovani; iz te zatrovanosti, kroz balkanske ratove pa do leta 1914, vodiće više staza, a jedna od njih i do Sarajeva."
+    },
+    {
+      "type": "paragraph",
+      "text": "Treba pošteno priznati i jedno i drugo. Austro-Ugarska je svojim potezom — formalno legitimnim u meri u kojoj je Berlinski ugovor dopuštao tumačenje, a stvarno jednostranim — pokazala da prema slovenskim susedima vodi politiku sile, ne dogovora. To je dugoročno radikalizovalo i srpsku i južnoslovensku omladinu, i utisak je bilo nemoguće poništiti diplomatskim formulacijama. Sa druge strane, srpska država 1908. nije bila u stanju da svoj otpor pretoči u ratnu akciju, niti bi takva akcija imala izgleda na uspeh; izbor između poniženja i poraza bio je realno samo izbor između dveju vrsta poraza. Aneksiona kriza je upravo zato trenutak koji srpsku politiku iznutra menja. Ona prestaje da bude politika iščekivanja povoljne prilike i postaje politika strpljive pripreme. Niko u Beogradu te zime nije priželjkivao rat. Ali sve je više bilo onih koji su počeli da računaju da bi rat, jednoga dana, mogao postati neizbežan."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

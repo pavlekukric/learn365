@@ -6,13 +6,53 @@
   "dayNumber": 70,
   "order": 10,
   "title": "Stefan Dečanski — sukob i vlast",
+  "subtitle": "Život jednog Nemanjića između očeve kazne, izgnanstva, povratka na presto i konačnog pada od ruke sopstvenog sina",
   "readingTimeMinutes": 7,
   "year": 1322,
-  "isPlaceholder": true,
+  "dateLabel": "1322–1331.",
+  "timelinePosition": "1322–1331.",
+  "summary": "Od mladog kneza Zete, preko očeve kazne i izgnanstva u Carigradu, do kralja Srbije i konačnog pada u Zvečanu — dramatičan život Stefana Uroša III Dečanskog.",
+  "keyPeople": ["Stefan Dečanski", "Milutin", "Dušan", "Vladislav II"],
+  "keyPlaces": ["Zvečan", "Zeta", "Konstantinopolj", "Dečani"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Među svim Nemanjićima, Stefan Uroš III, poznat kao Dečanski, imao je verovatno najdramatičniju ličnu sudbinu. Bio je sin kralja Milutina i u mladosti je, po običaju dinastije, dobio na upravu jednu od najvažnijih oblasti — Zetu sa primorjem. Tamo je vladao gotovo kao mali samostalni knez, sa sopstvenim dvorom i sopstvenom vojskom. Ali upravo iz tog položaja izrastao je i prvi veliki sukob njegovog života: sukob sa ocem, koji će ga koštati skoro svega što je do tada imao."
+    },
+    {
+      "type": "paragraph",
+      "text": "Razlozi pobune oko 1314. godine nisu bili samo lični. Milutin je u to vreme već razmišljao o nasledniku, a u igri su bili i drugi sinovi, pa i polusestrićevi. Stefan se, oslonjen na zetske velikaše i na deo primorskih gradova, pobunio protiv očeve volje. Pobuna je brzo slomljena. Kazna je bila stara, vizantijska i strašna: oslepljenje. Po Milutinovom naređenju Stefan je oslepljen, a zatim sa malim sinom Dušanom poslat u izgnanstvo u Konstantinopolj, na vizantijski dvor, koji je Nemanjićima istovremeno bio i rodbina i nadzornik. Tu je, u manastiru Pantokratora, proveo nekoliko godina pod paskom carskog dvora."
+    },
+    {
+      "type": "paragraph",
+      "text": "Oko same kazne istoričari su oprezni. Da je oslepljenje izvršeno, posvedočeno je u izvorima. Ali stepen je sporan: kasniji žitijski tekstovi, pre svega „Žitije Stefana Dečanskog” koje je u XIV veku sastavio Grigorije Camblak, govore o čudesnom povratku vida, a pažljivije čitanje istih izvora i poznavanje vizantijske prakse upućuju na to da je oslepljenje verovatno bilo nepotpuno — možda samo na jednom oku, ili izvedeno tako da je deo vida ostao. Bilo kako bilo, posledice su mu vidno opterećivale ostatak života i ulazile u predstavu o njemu kao o vladaru koji je svoju krunu nosio uz vidljiv trag prošle kazne."
+    },
+    {
+      "type": "paragraph",
+      "text": "Kada je Milutin umro 1321. godine, vlast nije bila jasno opredeljena. Pretendenti su se javili gotovo istovremeno: Konstantin, drugi Milutinov sin; Vladislav II, sin nekadašnjeg kralja Dragutina, koji je svoja prava izvodio iz starije grane dinastije; i sam Stefan, koji se iz Carigrada vratio u Srbiju oslonjen na deo dvorske vlastele i na crkvene krugove. Borba je trajala nekoliko godina, sa promenljivom srećom. Stefan je 1322. krunisan za kralja, ali je tek do oko 1324. uspeo da nadvlada Vladislava II i učvrsti vlast nad celom državom. Po srednjovekovnom običaju, već tada je pored sebe za savladara krunisao i sina Dušana — odluku koja će se kasnije pokazati i kao oslonac i kao opasnost."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Kralj između zadužbine i sina"
+    },
+    {
+      "type": "paragraph",
+      "text": "Vladavina Stefana Dečanskog bila je, uprkos teškom početku, razdoblje daljeg jačanja srpske države. Nastavio je politiku širenja prema jugu, prema Makedoniji i grčkim oblastima nekadašnjeg vizantijskog jezgra, koristeći trajnu slabost Carstva i unutrašnje sukobe Paleologa. Najveća spoljnopolitička provera tek je predstojala — sukob sa Bugarskom carstvu pod Mihailom Šišmanom, koji će 1330. biti rešen kod Velbužda, o čemu će govoriti naredni dan. Unutar zemlje, Stefan se oslonio na već razvijenu mrežu vlastele, gradova i rudnika koju je nasledio od oca, i nastojao da održi krhku ravnotežu među najjačim oblasnim gospodarima."
+    },
+    {
+      "type": "paragraph",
+      "text": "Po dubokom dinastičkom običaju, podigao je i sopstvenu veliku zadužbinu. Manastir Visoki Dečani, započet 1327. godine u dolini Bistrice ispod Prokletija, postaće njegov najtrajniji spomenik, mesto njegovog sahranjivanja i kasnijeg kulta — i upravo po njemu nadimak Dečanski. O samoj zadužbini biće reči zasebno; ovde je važno samo to da je njena gradnja, sa skupim kamenom i pozivom vrhunskih neimara, govorila o vladaru koji se već osećao dovoljno snažnim da državi ostavi spomenik dostojan očevog Banjskog i dedinog Studeničkog kruga."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pred kraj dvadesetih godina, međutim, postalo je jasno da odnos sa sinom postaje teret. Mladi kralj Dušan, kome je otac dao na upravu Zetu — istu onu oblast iz koje je nekada i sam krenuo u pobunu — bio je nestrpljiv, ambiciozan i okružen velikašima koji su u promeni na prestolu videli svoju priliku. Razlozi sukoba bili su i politički: deo vlastele smatrao je da Stefan posle Velbužda nije iskoristio pobedu dovoljno odlučno, pre svega prema vizantijskim oblastima. U avgustu 1331. Dušan je, uz podršku zetske i jedne drugih oblasnih gospoda, podigao otvorenu pobunu protiv oca, krenuo na njega i u kratkoj borbi ga zarobio."
+    },
+    {
+      "type": "paragraph",
+      "text": "Zatvoren u tvrđavi Zvečan iznad Kosovske Mitrovice, Stefan Dečanski je u njoj umro u novembru iste 1331. godine. Po veoma raširenom, ali ne i potpuno sigurnom kazivanju izvora, ubijen je — najčešće se navodi davljenje — i to po nalogu sina. Drugi, oprezniji čitači ostavljaju otvorenu i mogućnost prirodne smrti u zatočeništvu posle teško podnetog poraza. Bilo kako bilo, prelaz vlasti bio je nasilan, a Dušan je iz tog događaja izašao kao novi kralj, sa težinom očeve smrti na svom imenu. Vekovima kasnije, crkva je oca koga je sin zbacio uvrstila među svetitelje: kult Svetog Stefana Dečanskog, oslonjen na Camblakovo žitije, slika ga kao stradalnog, mučeničkog vladara, dok istorijski izvori dopuštaju i hladniju sliku — kompetentnog, ali teško opterećenog kralja čiji je život počeo i završio u istoj porodičnoj senci."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

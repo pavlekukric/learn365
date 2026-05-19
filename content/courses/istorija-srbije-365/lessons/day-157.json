@@ -6,13 +6,53 @@
   "dayNumber": 157,
   "order": 7,
   "title": "Obnova Pećke patrijaršije",
+  "subtitle": "Kako je 1557. godine, posle 94 godine prekida, vraćeno sedište srpske crkve u Peći i obnovljena samostalna patrijaršija",
   "readingTimeMinutes": 8,
   "year": 1557,
-  "isPlaceholder": true,
+  "dateLabel": "1557.",
+  "timelinePosition": "1557.",
+  "summary": "Posle skoro sto godina podređenosti Ohridskoj arhiepiskopiji, sultanski ferman 1557. obnavlja samostalnu Pećku patrijaršiju; iza odluke stoji Mehmed-paša Sokolović, prvi obnovljeni patrijarh je Makarije Sokolović.",
+  "keyPeople": ["Mehmed-paša Sokolović", "Makarije Sokolović", "Sulejman Veličanstveni"],
+  "keyPlaces": ["Peć", "Pećka patrijaršija", "Ohrid", "Sokolovići"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Devedeset i četiri godine srpska crkva je živela bez sopstvenog vrhovnog poglavara. Od oko 1463, kada je posle pada Bosne i konačnog sloma srednjovekovne srpske države Pećka patrijaršija prestala da postoji kao samostalna institucija, srpske pravoslavne eparhije bile su uglavnom potčinjene Ohridskoj arhiepiskopiji. Bilo je to vreme rasparčanosti — sedišta razdvojena, granice eparhija pomerene osmanskim podelama, kanonska veza sa starim središtima oslabljena. Crkveni život se nastavljao po manastirima i parohijama, ali bez jedinstvenog glasa koji bi pred osmanskom vlašću i pred narodom mogao da govori za sve Srbe pravoslavne vere."
+    },
+    {
+      "type": "paragraph",
+      "text": "Te 1557. godine, fermanom Sulejmana Veličanstvenog, Pećka patrijaršija je obnovljena. Njeno sedište vraćeno je u Peć — u onaj isti manastirski kompleks ispod Prokletija koji je još od vremena svetog Save i njegovih naslednika bio duhovno središte srpskog pravoslavlja. Za prvog obnovljenog patrijarha postavljen je Makarije Sokolović, čovek o kome se zna malo lično, ali čije ime nije slučajno: bio je u rodbinskoj vezi sa velikim vezirom Mehmed-pašom Sokolovićem. Izvori ga nazivaju njegovim bratom ili bliskim srodnikom; tačan stepen rodbinske veze u nauci ostaje predmet rasprave, ali sama veza je posvedočena."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Vezir iz Sokolovića"
+    },
+    {
+      "type": "paragraph",
+      "text": "Bez Mehmed-paše Sokolovića obnova se ne može razumeti. Rođen kao srpsko pravoslavno dete u Sokolovićima u istočnoj Bosni, odveden u Carigrad devširmom — danak u krvi koji je osmanska država skupljala od hrišćanskog stanovništva — odrastao je u dvorskoj školi, primio islam i ušao u sam vrh carstva. Do 1557. bio je već treći čovek države, a do 1565. postaće veliki vezir, položaj koji će držati skoro petnaest godina pod tri sultana. O njegovom životu i ulozi opširnije ćemo govoriti u sledećoj lekciji; ovde je važno samo da se zna da je odluka o obnovi patrijaršije pala u trenutku kada je on imao moć da je sprovede i ličnu motivaciju da je podrži."
+    },
+    {
+      "type": "paragraph",
+      "text": "Zašto je osmanska država pristala? Razlozi se obično navode u snopu. Pre svega, postojao je državni interes: jedna velika, dobro organizovana pravoslavna crkva sa jasnim sedištem mnogo je lakša za saradnju nego razbacane eparhije pod stranom jurisdikcijom. Patrijarh je mogao da bude sagovornik Porte, posrednik u prikupljanju poreza od svojih vernika i odgovorno lice za red među njima. Drugo, Ohridska arhiepiskopija, iz koje su srpske eparhije do tada bile uglavnom upravljane, bila je u rukama grčkog visokog sveštenstva; smanjivanje njenog uticaja odgovaralo je i Porti i Sokoloviću. Treće, Mehmed-pašina ličnost — Srbin po rođenju, vezan za zemlju iz koje je potekao — verovatno je dala odluci i ljudsku notu, mada o njegovim unutrašnjim pobudama izvori ćute, pa o tome treba govoriti oprezno."
+    },
+    {
+      "type": "paragraph",
+      "text": "Obnovljena patrijaršija dobila je nadležnost koja je daleko prevazilazila granice srednjovekovne srpske države. Njena jurisdikcija prostirala se od severne Bugarske, preko današnje Srbije, Kosova i delova Makedonije, kroz celu Bosnu, u delove Hrvatske i južne Ugarske gde su živeli pravoslavni Srbi pod habzburškom vlašću, sve do Vlaške. U vrhuncu je obuhvatala oko četrdeset eparhija. Time je Pećka patrijaršija postala krovna institucija jednog raseljenog naroda — prvi i, dugo vremena, jedini okvir koji je sve srpske pravoslavne zajednice, gde god se nalazile, držao na okupu pod istom kanonskom upravom."
+    },
+    {
+      "type": "paragraph",
+      "text": "Posledice su bile dalekosežne. U Peći i u drugim patrijaršijskim središtima oživeli su skriptoriji; počelo je novo prepisivanje knjiga, obnova fresaka, popravak zapuštenih manastirskih zdanja. Klir je dobio organizovanu obuku, eparhije redovne vladike, narod stalne sveštenike. Manastiri kao Studenica, Mileševa, Žiča, Gračanica i Dečani — koliko su prilike dozvoljavale — postali su deo jedne mreže koja je radila po istom pravilu. Patrijarh u Peći vremenom je preuzeo i ulogu koju srednjovekovni srpski vladari više nisu mogli da igraju: u odsustvu sopstvene države, postao je glavni političar svog naroda pred osmanskim vlastima, a kasnije, kada su se na severu otvorile mogućnosti, i sagovornik habzburškog dvora i ruskog cara."
+    },
+    {
+      "type": "paragraph",
+      "text": "Makarije Sokolović vodio je patrijaršiju do oko 1571. godine. Posle njega na pećki presto dolaze Antonije, Gerasim, Pajsije i niz drugih — neki kratko, neki dugo, svi u teškim uslovima u kojima je crkva morala istovremeno da služi narodu i da se snalazi pred fermanima, porezima i povremenim nemilosrdnim odlukama Porte. Njihova imena se danas malo pamte van crkvenih krugova, ali bez njihovog upornog rada institucija ne bi preživela ni do sledećeg veka."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sudbina obnovljene patrijaršije nije bila trajna. Godine 1766. osmanska vlast će je drugim fermanom ponovo ukinuti, a srpske eparhije pripojiti Carigradskoj patrijaršiji — o čemu će biti reči kasnije. Tek 1879, posle sticanja srpske autonomije i nezavisnosti, i konačno 1920, ujedinjenjem svih srpskih pravoslavnih oblasti, biće uspostavljena Srpska pravoslavna crkva u današnjem obliku. Ali tih dvesta deset godina između 1557. i 1766 — period koji počinje fermanom iz vremena Sulejmana Veličanstvenog i odlukom jednog vezira poreklom iz Sokolovića — ostaju kao drugi život srpske crkvene samostalnosti, vreme u kome je narod bez države sačuvao instituciju, a institucija sačuvala narod."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

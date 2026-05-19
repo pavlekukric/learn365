@@ -6,13 +6,49 @@
   "dayNumber": 99,
   "order": 2,
   "title": "Uspon oblasnih gospodara",
+  "subtitle": "Kako se srpsko carstvo, pod slabim Urošem, raspalo na više gotovo samostalnih kneževina velikih plemića",
   "readingTimeMinutes": 7,
   "year": 1360,
-  "isPlaceholder": true,
+  "dateLabel": "1355–1371.",
+  "timelinePosition": "1355–1371.",
+  "summary": "Pod carom Urošem V centralna vlast slabi, a krupni plemići — Vojinovići, Mrnjavčevići, Lazar, Balšići i Tvrtko — postaju stvarni gospodari svojih oblasti.",
+  "keyPeople": ["Vojislav Vojinović", "Nikola Altomanović", "Vukašin Mrnjavčević", "Uglješa Mrnjavčević", "Lazar Hrebeljanović", "Balšići", "Tvrtko I Kotromanić", "car Uroš V"],
+  "keyPlaces": [],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Smrt cara Stefana Dušana 1355. nije odmah srušila carstvo, ali je počela tiho da ga rastače. Presto je preuzeo njegov sin Uroš, mlad, blag i bez očeve teške ruke, kog će docnija predaja zvati Nerotki — onaj koji nije rodio nasledstva ni potomstvu ni državi. U formalnom smislu on je i dalje bio car Srba i Grka, a velikaši su mu polagali zakletvu vernosti i u poveljama ga pominjali pre svojih imena. U stvarnom smislu, već polovinom šezdesetih godina, vlast u carstvu nisu više držale carske kancelarije, nego dvorovi nekolicine krupnih oblasnih gospodara koji su u svojim zemljama vladali kao gotovi suvereni."
+    },
+    {
+      "type": "paragraph",
+      "text": "Najmoćniji među njima u prvom naraštaju bio je Vojislav Vojinović, knez velikog dela srednje i zapadne Srbije. Njegova oblast pružala se preko Trebinja, Konavla i delova Huma, dakle do same obale, što je značilo i prihode od trgovine sa Dubrovnikom. Sa Dubrovčanima je vodio sopstvenu politiku: pregovarao je, ratovao, sklapao ugovore i mire kao da je nezavisan vladar, a car Uroš u tim prepiskama pojavljuje se najviše kao daleka senka. Vojislav je upravo na tom dubrovačkom pravcu sticao bogatstvo i ugled, sve do svoje smrti 1363. Nasledio ga je sinovac Nikola Altomanović, mlad, nagao i razuzdano ambiciozan, koji je obnovio i proširio stričevu državu, dohvativši delove Huma i ozbiljno zapretivši primorju, dok ga konačno 1373. ujedinjenom akcijom nije slomio i oslepio knez Lazar zajedno sa bosanskim banom Tvrtkom."
+    },
+    {
+      "type": "paragraph",
+      "text": "Na jugu, u srpskoj Makedoniji, izrasla je još veća sila — porodica Mrnjavčevića. Vukašin je 1365. od cara Uroša dobio titulu mladog kralja, što je u vizantijskoj tradiciji značilo savladara i, po pravilu, određenog naslednika. U dokumentima iz tih godina dva imena stoje rame uz rame: car Uroš i kralj Vukašin. Praktično, Vukašin je vladao iz Prilepa i Skoplja sopstvenom vojskom i sopstvenim novcem, a Uroš se sve više povlačio u uže oblasti oko centralne Srbije. Vukašinov brat Uglješa, despot, držao je krajnji jugoistok — oblast Sera, na granici sa propadajućim Vizantijskim carstvom, i upravo je on prvi jasno video opasnost od nove sile koja je s istoka prelazila Bosfor."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Knežine umesto carstva"
+    },
+    {
+      "type": "paragraph",
+      "text": "Severnije, oko Kruševca i u dolini Morave, polako se uzdizao još jedan gospodar — Lazar Hrebeljanović. U vreme Dušana bio je jedan od dvorskih ljudi srednjeg ranga; pod Urošem je strpljivo skupljao oblasti, ženidbene veze i ugled. Njegova zvezda u ovom trenutku još ne stoji najviše, ali se u poznijim događajima — naročito posle 1371. — pokazuje da je upravo on imao smisao za ono što su drugi izgubili: za saradnju sa crkvom, za ravnotežu sa susedima, za polagano građenje legitimiteta. Na jadranskoj strani, u Zeti i delovima današnjeg crnogorskog primorja, vlast su preuzeli Balšići, porodica skromnog porekla koja se brzo nametnula kao gospodari pomorskog dela srpskih zemalja, sa pogledom okrenutim Mlecima i Dubrovniku jednako koliko i unutrašnjosti."
+    },
+    {
+      "type": "paragraph",
+      "text": "U isto vreme, sa zapada, u igru je ušao i bosanski ban Tvrtko Kotromanić. Iako je formalno bio vladar Bosne, njegov uspon se vremenski i prostorno preklopio sa propadanjem srpske carske vlasti. Tvrtko je iskoristio sukobe oko Altomanovićeve oblasti i preuzeo veliki deo Huma, a zatim, po majčinoj liniji koja je išla do Nemanjića, 1377. sebe krunisao za kralja Srba, Bosne i Primorja. Time je dao do znanja da se nemanjićko nasleđe može tražiti i izvan stare Raške — sa zapada, ne samo iz Moravske doline. Bio je to znak da je dušanovska kruna postala otvorena tema o kojoj se može razgovarati i odlučivati i preko granica nekadašnjeg carstva."
+    },
+    {
+      "type": "paragraph",
+      "text": "Treba odmah reći šta ovaj period jeste, a šta nije bio. Nije bio anarhija. Oblasni gospodari su u svojim zemljama održavali razuman red: imali su sopstvene dvorove i kancelarije, sopstvenu vojsku, neki i sopstveni kovani novac, pisali su povelje, davali zaštitu manastirima, sklapali ugovore sa stranim gradovima. Život običnog seljaka ili trgovca u Lazarevoj ili Vukašinovoj oblasti nije se preko noći raspao. Ono što jeste nestalo — i to se pokazalo presudnim — bila je sposobnost za zajedničku odbranu od velike spoljne opasnosti. Kada je takva opasnost došla u liku osmanske vojske, niko više nije imao ovlašćenje da je dočeka u ime celog carstva, nego svako u ime svoje oblasti."
+    },
+    {
+      "type": "paragraph",
+      "text": "Treba biti i pošten prema izvorima. Ovaj period poznajemo fragmentarno. Najviše znamo iz dubrovačkih arhiva, koji su vodili pažljivu evidenciju o trgovini i ugovorima sa kopnenim gospodarima, zatim iz povelja i hrisovulja, i iz crkvenih spisa, naročito žitija. Neki od oblasnih gospodara su zato dobro osvetljeni, dok o drugima znamo malo više od imena i grube karte poseda. Pojedine titule i granice oblasti istoričari i danas oprezno rekonstruišu. Posle smrti cara Uroša u decembru 1371. — koja je usledila samo nekoliko nedelja posle pogibije braće Mrnjavčevića na Marici — i poslednja zajednička karika je pukla. Oblasni gospodari više nisu bili savladari nikog. Bili su, svako u svome, knezovi i kraljevi sami za sebe, sve dok se među njima, polako ali sigurno, ne bude izdvojio onaj koji će povezati ostatke razbijenog carstva — Lazar."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

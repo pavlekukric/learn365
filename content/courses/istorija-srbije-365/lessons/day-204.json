@@ -6,13 +6,53 @@
   "dayNumber": 204,
   "order": 9,
   "title": "Širenje ustanka",
+  "subtitle": "Kako je posle pobeda iz 1806. ustanak prerastao granice Beogradskog pašaluka i postao regionalna sila",
   "readingTimeMinutes": 7,
   "year": 1807,
-  "isPlaceholder": true,
+  "dateLabel": "1806–1809.",
+  "timelinePosition": "1806–1809.",
+  "summary": "Posle Mišara i Deligrada ustanak se širi van Beogradskog pašaluka — u Krajinu, Sandžak, Toplicu i ka Nišu — uz rusku podršku i nove regionalne vojvode.",
+  "keyPeople": ["Hajduk Veljko Petrović", "Karađorđe", "Konstantin Rodofinikin", "Milenko Stojković", "Petar Dobrnjac", "Mladen Milovanović"],
+  "keyPlaces": ["Negotin", "Krajina", "Niš", "Toplica", "Sandžak", "Vidin"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Posle velikih pobeda iz 1806. godine — na Mišaru nad bosanskim, i kod Deligrada nad rumelijskim Turcima — ustanak Karađorđev više nije bio lokalna pobuna u jednom pašaluku. Postao je rat sa sopstvenom vojskom, sopstvenim zaleđem i ambicijom da pređe granicu. Beogradski pašaluk, u kome je sve počelo 1804, bio je do tada uglavnom očišćen od redovne osmanske vlasti; ustanici su sada gledali preko Drine, preko Timoka, preko Zapadne Morave, ka oblastima u kojima je živelo srpsko pravoslavno stanovništvo koje je takođe želelo da im se vojska približi. Sledeće tri godine, od 1806. do 1809, biće godine širenja — neravnomernog, krvavog i politički složenijeg nego što se iz daljine čini."
+    },
+    {
+      "type": "paragraph",
+      "text": "Najuspešniji pravac bio je istočni, ka Timoku. Tu je glavnu ulogu odigrao Hajduk Veljko Petrović, čovek iz hajdučke tradicije Pomoravlja, koji je između 1807. i 1809. vodio oslobađanje Krajine i Negotinske oblasti. Padom utvrđenih palanki niz Timok, ustanička vlast je prvi put izbila na obalu Dunava izvan staroga pašaluka i približila se Vlaškoj, koju su upravo tih godina, u rusko-turskom ratu 1806–1812, držale ruske trupe. Ta veza nije bila slučajna: ona je ustanicima dala otvoren bok prema savezniku i pristup snabdevanju, a Rusiji ozbiljnu kopnenu vezu sa pobunjenicima na jugu Dunava. Krajina je tako postala drugo žarište ustanka, sa Hajduk Veljkom kao gotovo nezavisnim vojvodom istoka."
+    },
+    {
+      "type": "paragraph",
+      "text": "Drugi pravac bio je jugoistočni, ka Nišu. Niš je bio glavno osmansko uporište južne Srbije, čvor puteva ka Sofiji i ka Solunu, i ključ svake dublje operacije na Balkanu. Karađorđevi odredi i lokalni ustanici u Toplici i oko Aleksinca napredovali su kroz 1807. i 1808, a 1809. krenuli su u opsadu samog Niša. Pohod se završio porazom — bitkom na Čegru, u kojoj je vojvoda Stevan Sinđelić, kada je odbrana popustila, raznetom barutanom poveo svoje ljude i napadače u zajedničku smrt. Niš nije pao tada, niti će pasti tokom celog Prvog ustanka. Granica srpske vlasti na jugoistoku ostala je negde između Aleksinca i Niša, a Toplica je više puta menjala gospodara."
+    },
+    {
+      "type": "paragraph",
+      "text": "Treći pravac vodio je na jugozapad, ka Sandžaku i Staroj Raškoj. Ustaničke kolone delovale su prema Novom Pazaru, Sjenici i Užicu, sa nadom da će se povezati sa Crnom Gorom vladike Petra I, koja je u istom periodu vodila sopstvene borbe protiv Skadarskog pašaluka. Bilo je trenutaka stvarne koordinacije i zajedničkih operacija na hercegovačkoj granici, pre svega oko Drobnjaka i Pive, ali do trajnog spajanja dveju ustaničkih oblasti nije došlo — osmanske snage, pre svega bosanske, držale su pojas između njih čvrsto. Ipak, ustanak je u toj fazi privremeno kontrolisao deo Sandžaka i znatne delove Užičke nahije, što je bilo daleko preko granica starog pašaluka."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Domet i granica širenja"
+    },
+    {
+      "type": "paragraph",
+      "text": "U središnjoj Srbiji, oko Kopaonika, Kolubare i Šumadije, vlast je bila čvršće organizovana, sa nahijama, sudovima i lokalnim vojvodama. Ka Bosni su, preko Drine, godinama trajali međusobni upadi i pljačkaške ekspedicije, ali pravo oslobođenje Bosne nikada nije postignuto — bosanski muslimanski feudalni red, sa svojim kapetanijama, bio je previše snažan i previše blizu, a austrijska granica suviše osetljiva da bi se prešlo u opštu invaziju. Pravoslavno stanovništvo s one strane Drine ponegde je dizalo pomoćne pobune, ali bez stalne ustaničke vojske na svojoj zemlji."
+    },
+    {
+      "type": "paragraph",
+      "text": "Kada se ovo sve sabere, slika koja se dobija jeste slika države mnogo veće nego što je 1804. iko mogao da zamisli. Do 1809–1810. pod ustaničkom vlašću našli su se ceo nekadašnji Beogradski pašaluk, istočna Srbija sa Krajinom, delovi vidinskog zaleđa, deo Sandžaka i niška-topličko područje južno od Morave. Po grubim procenama istoričara — a brojevi za ovo doba moraju se uzeti s oprezom — pod ustaničkom upravom živelo je između milion i milion i po duša. Ekonomska i demografska dubina koju je to dalo bila je razlog zašto je ustanak uopšte mogao da preživi tako dugo: bilo je polja sa kojih se hrani, ljudstva za regrutaciju i trgovačkih puteva ka Austriji i Vlaškoj."
+    },
+    {
+      "type": "paragraph",
+      "text": "Spoljni faktor koji je sve to omogućio bila je Rusija. Rusko-turski rat 1806–1812. vezao je velike osmanske snage u Vlaškoj i Moldaviji i sprečio da Porta na Srbe pošalje ono što bi inače poslala. Rusija je slala novac, oružje, oficire i diplomatske predstavnike; u Beograd je 1807. stigao Konstantin Rodofinjikin kao ruski poverenik kod Karađorđa, čovek koji će se u srpsko-ruske odnose upisati i kao saveznik i kao izvor trvenja. Srbija je u tim godinama prvi put posle vekova bila tretirana kao saveznička strana jedne velike sile, ne kao unutrašnji slučaj sultanovog carstva."
+    },
+    {
+      "type": "paragraph",
+      "text": "Širenje je, međutim, donelo i unutrašnju cenu. Sa svakim novim oslobođenim krajem rastao je broj snažnih regionalnih vojvoda — Hajduk Veljko u Krajini, Milenko Stojković u Požarevačkoj nahiji, Petar Dobrnjac u istočnoj Srbiji, Mladen Milovanović u središnjoj upravi — koji su svoju oblast osećali kao svoju vojsku i svoj prihod. Karađorđevo nastojanje da centralizuje vlast, kome će sledeće lekcije biti posvećene, sudaralo se sve češće sa njihovom nezavisnošću. Ustanak je do 1809. pobedio osmansku vlast na velikom prostoru, ali je istovremeno stvorio novu, unutrašnju politiku — onu između vrhovnog vožda i regionalnih gospodara — koja će u narednim godinama biti gotovo jednako teška kao i rat sa Portom."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

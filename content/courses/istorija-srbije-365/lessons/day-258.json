@@ -6,13 +6,53 @@
   "dayNumber": 258,
   "order": 12,
   "title": "Kralj Aleksandar Obrenović",
+  "subtitle": "Mladi kralj između regenstva, autoritarnih ustava i braka koji će ga odvojiti od vojske i naroda",
   "readingTimeMinutes": 7,
   "year": 1889,
-  "isPlaceholder": true,
+  "dateLabel": "1889–1903.",
+  "timelinePosition": "1889–1903.",
+  "summary": "Vladavina poslednjeg Obrenovića — od dečaka pod regenstvom, preko prevrata kojim sa nepunih sedamnaest godina preuzima ličnu vlast, do izolacije nakon braka sa Dragom Mašin i zavere koja će 1903. ugasiti dinastiju.",
+  "keyPeople": ["Aleksandar Obrenović", "Milan Obrenović", "Natalija Obrenović", "Draga Mašin", "Jovan Ristić", "Vladan Đorđević", "Dragutin Dimitrijević Apis"],
+  "keyPlaces": ["Beograd", "Stari dvor", "Niš", "Beč"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Kada je u martu 1889. kralj Milan Obrenović iznenada abdicirao i napustio Srbiju, presto je ostavio sinu Aleksandru, dečaku od dvanaest godina. Jer maloletni kralj nije mogao sam da vlada, Ustav iz 1888. predvideo je trojicu namesnika — regente — koji će zemljom upravljati do njegovog punoletstva. Na čelu te trojice bio je iskusni državnik Jovan Ristić, čovek liberalne tradicije i strpljivog političkog rukopisa, navikao da prelazi preko više vlada nego što ijedan ministar može da prebroji. U toj senci, između razvedenih roditelja koji su se i posle abdikacije nastavili javno svađati i regenata koji su pokušavali da održe ustavni poredak, mladi Aleksandar je rastao."
+    },
+    {
+      "type": "paragraph",
+      "text": "Bio je tih, načitan, sklon politici više nego godinama svojstvenom dečačkom životu. Već sa petnaest godina pažljivo je pratio dvorske intrige i odnose stranaka. Radikali, koji su pod novim ustavom vladali iz Skupštine, doživljavali su regenstvo kao kočnicu; konzervativni krugovi oko dvora kao garanciju reda. Aleksandar je, vaspitan u atmosferi nepoverenja prema demokratskoj većini, sve više naginjao ovima drugima. Aprila 1893. godine, sa nepunih sedamnaest, izveo je svoj prvi politički potez — i odmah pokazao kakvog će vladara Srbija dobiti."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Prevrat, ustavi i povratak oca"
+    },
+    {
+      "type": "paragraph",
+      "text": "Na večeri u dvoru, u noći 1. aprila 1893. godine, mladi kralj je pozvao trojicu regenata. Posle obroka, zaverenički krug oficira pod njegovim znanjem ušao je u dvor; regenti su, kako stoji u kasnijim svedočanstvima, „uljudno zadržani” dok je Aleksandar proglasio sebe punoletnim i preuzeo ličnu vlast. Taj „Belomanastirski prevrat” izveden je bez krvi, ali je značio jasan raskid sa Ustavom iz 1888. Već naredne godine, 1894, Aleksandar je taj ustav formalno ukinuo i vratio stari Namesnički ustav iz 1869. godine, znatno povoljniji za vladara. Liberalna ustavna gradnja koja je trajala šest godina svedena je preko noći na ranije, autoritarnije pravilo igre."
+    },
+    {
+      "type": "paragraph",
+      "text": "Politički kurs koji je usledio bio je nesiguran. Smenjivale su se konzervativne i napredne vlade; radikali su povremeno bili dopušteni, povremeno potiskivani. Krajem decenije, 1897, u zemlju se vratio i otac Milan, sada bez krune ali sa činom komandanta aktivne vojske — položajem koji mu je sin namenio kao priznanje, a koji je u praksi stvorio neobičnu dvovlast. Vlada Vladana Đorđevića, oslonjena na Beč, vodila je proaustrijsku spoljnu politiku, dok je Milan u kasarnama reorganizovao oficirski kor i nametao stroge propise. Za jedan deo društva bila je to potrebna disciplina; za drugi — tihi povratak omraženog kralja kroz uniformu."
+    },
+    {
+      "type": "paragraph",
+      "text": "Tačka prekretnice došla je 1900. godine. Aleksandar je objavio da će se oženiti Dragom Mašin, rođenom Lunjevicom, udovicom inženjera Mašina i dvorskom damom njegove majke. Bila je od njega starija — izvori se razilaze, najčešće se navodi između dvanaest i petnaest godina — i u beogradskim salonima već dugo predmet ogovaranja. Brak je u širim krugovima, a naročito u vojsci, doživljen kao skandal: kralj se ženi udovicom, ženom bez kneževske krvi, i to onom koja, kako je glas govorio, nikada neće moći da rodi naslednika. Otac Milan, suprotstavljen tom izboru, podneo je ostavku na vojnu komandu, napustio zemlju i ubrzo zatim, početkom 1901, umro u Beču. Aleksandar je ostao bez jedinog političkog štita koji ga je još vezivao za stari oficirski miljé."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sledeće dve godine bile su godine sve veće izolacije. Krajem 1901. proširila se vest — nije nikada pouzdano potvrđena — da je kraljica Draga trudna; lažna ili stvarna, glasina je u vojnim krugovima dolila ulje na vatru. Aleksandar je u aprilu 1901. izdao novi, takozvani Aprilski ustav, umereno liberalniji, ali nedovoljan da povrati poverenje radikala; već 1903. ga je suspendovao i opet posegnuo za starim ustavom iz 1869. Politički prostor mu se sužavao u svim pravcima — radikali su bili otuđeni, vojska razdražena, austrijska podrška sve hladnija, ruska nedovoljna. U sve uže krugove, u kasarnama i u nekim ministarstvima, ulazila je ideja koja je do tada bila nezamisliva: da se dinastija promeni silom."
+    },
+    {
+      "type": "paragraph",
+      "text": "U noći između 28. i 29. maja 1903. godine — po grigorijanskom 10. i 11. juna — grupa zaverenika predvođena kapetanom Dragutinom Dimitrijevićem, kasnije poznatim kao Apis, provalila je u Stari dvor. Kralj Aleksandar i kraljica Draga ubijeni su u sopstvenim odajama, a sa njima i nekoliko najbližih ministara. O samom činu, njegovoj brutalnosti i posledicama govoriće druga lekcija; ovde je važno reći samo da je njime — naglo, krvavo i bez naslednika — okončana dinastija Obrenović koja je Srbiju vodila gotovo ceo vek, od ustanka Miloša Obrenovića 1815. do te junske noći u Beogradu."
+    },
+    {
+      "type": "paragraph",
+      "text": "Aleksandar Obrenović vladao je u izuzetno teškom kontekstu: otuđen otac, razvedeni roditelji u javnoj svađi, sukob između dvora i radikalske većine, austrijski pritisak sa severa. Mnoge od tih tenzija nije on stvorio. Ali njegove odluke — prevrat protiv regenata, smenjivanje ustava, vraćanje oca u vojsku, brak sa Dragom — gotovo svaku od njih pojačale su, umesto da je razrede. Bio je inteligentan i obrazovan vladar koji je vladao bez sluha za to koliko je njegov sopstveni dvor postao izolovan. Kada je 1903. nestao, srpsku politiku je nasledio jedan novi i potpuno drugačiji režim — i jedan dugo prikrivani problem: oficiri koji su jednom izveli prevrat, znaće da to mogu ponovo."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

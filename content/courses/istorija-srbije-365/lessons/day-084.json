@@ -6,13 +6,53 @@
   "dayNumber": 84,
   "order": 6,
   "title": "Manastiri srednjovekovne Srbije",
+  "subtitle": "Mreža zadužbina koja je u srednjem veku bila istovremeno crkva, škola, banka, bolnica i čuvar pamćenja",
   "readingTimeMinutes": 7,
   "year": 1250,
-  "isPlaceholder": true,
+  "dateLabel": "12–14. vek",
+  "timelinePosition": "12–14. vek",
+  "summary": "Manastiri Nemanjića kao najvažnija institucija srednjovekovne Srbije izvan krune — zadužbine koje su istovremeno bile verska, ekonomska, kulturna, prosvetna i politička središta.",
+  "keyPeople": [],
+  "keyPlaces": ["Hilandar", "Studenica", "Mileševa", "Sopoćani", "Žiča", "Dečani", "Gračanica", "Pećka patrijaršija"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Ako bi se srednjovekovna Srbija mogla pogledati odozgo, ono što bi se prvo videlo ne bi bili gradovi — njih je bilo malo i bili su skromni — nego mreža manastira razasutih po dolinama Raške, Polimlja, Kosova, Metohije i Pomoravlja, povezanih putevima, posedima i ljudima. Svaki Nemanjić, od Stefana Nemanje do cara Uroša, sazidao je ili obnovio bar jednu zadužbinu — manastir koji je podizan, kako su govorile povelje, „za spas duše”. U toj reči krije se mnogo više nego pobožnost. Zadužbina je bila istovremeno hram, riznica, arhiv, sklonište i znak da je vladar zaista bio vladar. Bez nje, presto je delovao prazan."
+    },
+    {
+      "type": "paragraph",
+      "text": "Spisak je dugačak i poznat. Hilandar na Svetoj Gori, koji su 1198. obnovili Nemanja i Sava, bio je veza srpske crkve sa pravoslavnim središtem sveta. Studenica je bila porodični mauzolej i duhovno čvorište Raške. Žiča je za Stefana Prvovenčanog i Savu bila prestonička crkva i sedište prve srpske arhiepiskopije. Mileševa je čuvala Savine mošti i ubrzo postala mesto hodočašća. Sopoćani su zadužbina kralja Uroša I, a Gradac njegove žene Jelene Anžujske. Banjska, Dečani i Gračanica obeležile su vladavinu Milutina i Stefana Dečanskog, a Pećka patrijaršija je od skromnog manastirskog kompleksa prerasla u sedište srpskog patrijarha. Pored ovih velikih imena postojale su desetine manjih manastira, danas često poznatih samo iz povelja ili arheoloških tragova."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Više od molitve"
+    },
+    {
+      "type": "paragraph",
+      "text": "Manastir srednjovekovne Srbije bio je, pre svega ostalog, krupan zemljoposednik. Osnivačke povelje Nemanjića poklanjale su mu sela, oranice, vinograde, mlinove, ribnjake, ponekad i rudnike, zajedno sa zavisnim seljacima — meropsima i sokalnicima — koji su na manastirskoj zemlji radili određeni broj dana godišnje. Hilandarska, dečanska i banjska povelja zato i imaju toliku vrednost za istoričare: one popisuju ne samo darove nego i čitave seoske zajednice sa imenima domaćina, brojem stoke i obavezama. Manastir je u toj privredi bio organizator — vodio je račune o žetvi, ubirao desetak, prodavao vino i so, davao ili pozajmljivao novac. U vremenu pre razvijenih gradskih tržišta, igumanije velikih manastira bile su među najvećim ekonomskim igračima u zemlji."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pored privredne, postojala je i kulturna uloga koja će sa vremenom ostaviti najtrajniji trag. U manastirskim skriptorijima — o čijim će se prepisivačkim školama govoriti u sledećoj lekciji — prepisivane su bogoslužbene knjige, jevanđelja, žitija, pravni zbornici. Tamo je nastao i prvi sloj srpske pismenosti na narodnom, slovenskom jeziku. Manastiri nisu bili univerziteti — takvih ustanova u srednjovekovnoj Srbiji nije bilo — ali su školovali pismeno sveštenstvo, pisare, dijake i one koji su umeli da sastave povelju ili prepišu zakon. Iz tog kruga izašli su pisci žitija, sastavljači letopisa, prevodioci sa grčkog, ljudi koji su znali da postave i odgovore na pravno pitanje. Bez njih, Dušanov zakonik 1349. ne bi imao ko da napiše."
+    },
+    {
+      "type": "paragraph",
+      "text": "Politička uloga bila je manje vidljiva ali jednako stalna. U Žiči je krunisan Stefan Prvovenčani, u istom manastiru i kasniji kraljevi. Sabori su zasedali u manastirskim trpezarijama. Vladari su se povlačili u manastir kada bi se umorili ili kada bi politički bili poraženi — Stefan Nemanja u Studenici i Hilandaru, Stefan Dečanski neko vreme u Pantokratoru. Manastir je bio i poslednje počivalište: nemanjićki grobovi raštrkani su po Studenici, Mileševi, Sopoćanima, Dečanima, Banjskoj. Tako je sama zadužbina bila i obećanje — da će se nad kostima vladara moliti dok njegova kuća postoji."
+    },
+    {
+      "type": "paragraph",
+      "text": "Postojale su i uloge koje danas najlakše zaboravljamo. Manastiri su bili socijalne ustanove — hranili su sirotinju, primali putnike u konake, zbrinjavali bolesne. Bolnica koju je Sava osnovao u Hilandaru pominje se kao najstarija dokumentovana srpska medicinska ustanova, a slične, manje, postojale su uz druge velike manastire. U vremenu bez države u modernom smislu, oko manastira se organizovao deo svakodnevnog života: tu se rešavao spor između sela, tu je dolazio onaj kome je trebao savet, tu se znalo gde je granica imanja i čije je dete koje."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sve to nije se odvijalo u maloj kapeli, nego u celom kompleksu. Velika zadužbina podizana je kao građevinski program: katolikon — glavna crkva sa freskama prvog reda — okružen trpezarijom, konacima za monahe, bibliotekom i skriptorijem, ponekad i utvrđenim zidom sa pirgom, odbrambenom kulom. Hilandar i Dečani imaju takve kule i danas. Manastiri su organizovani po atonskim, kinovijskim pravilima koja je Sava preneo u Srbiju — sa tipikom, opštim trpezom, opštom imovinom i igumanom čiji je autoritet bio gotovo neograničen. Najveće zadužbine bile su stavropigijalne, pod neposrednom vlašću arhiepiskopa odnosno patrijarha; manje su potpadale pod mesnog episkopa."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ono što se tek kasnije pokazalo kao najvažnije nije bilo vidljivo u Nemanjićko doba. Kada je sredinom 15. veka srpska država nestala pod osmanskom vlašću, upravo su manastiri ostali jedini kontinuitet. Kroz vekove bez sopstvene države, oni su čuvali jezik, liturgiju, knjige, hronike i sećanje. Ono što istoričari danas znaju o srednjovekovnoj Srbiji u dobroj meri dolazi iz manastirskih biblioteka, iz povelja koje su tamo prepisivane i čuvane, iz fresaka koje su živele duže od dinastije koja ih je naručila. Manastir je nadživeo i kraljevstvo i carstvo — i postao, neplanirano, najtrajnija institucija koju je srednjovekovna Srbija stvorila."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

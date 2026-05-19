@@ -6,13 +6,53 @@
   "dayNumber": 187,
   "order": 2,
   "title": "Kočina krajina",
+  "subtitle": "Srpski frajkor i oružani pokret u Beogradskom pašaluku tokom austro-turskog rata 1788–1791. godine",
   "readingTimeMinutes": 7,
   "year": 1788,
-  "isPlaceholder": true,
+  "dateLabel": "1788–1791.",
+  "timelinePosition": "1788–1791.",
+  "summary": "Tokom austro-turskog rata 1788–1791. Srbi u Beogradskom pašaluku digli su se na oružje uz austrijsku podršku; Koča Anđelković i srpski frajkor držali su delove Šumadije i Pomoravlja — događaj koji se s pravom smatra generalnom probom za 1804.",
+  "keyPeople": ["Koča Anđelković", "Karađorđe Petrović", "Josif II", "Mihaljević"],
+  "keyPlaces": ["Beogradski pašaluk", "Šumadija", "Resava", "Niš", "Banat"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Krajem leta 1787. Osmansko carstvo objavilo je rat Rusiji, a već početkom 1788. u rat je, kao ruski saveznik, ušla i Habzburška monarhija pod carem Josifom II. Front se otvorio duž Save i Dunava, na onoj istoj liniji koja je još od početka osamnaestog veka delila dva carstva i sekla srpski narod na dva dela. Za Srbe u Beogradskom pašaluku, koji su četiri decenije ranije, posle požarevačkog mira i kratkotrajne austrijske vladavine, ponovo pali pod osmansku vlast, nova austrijska ofanziva nije bila samo strana vojna operacija. Bila je prilika kakvu njihovi dedovi pamte kao retku — da se uz uređenu hrišćansku vojsku, makar i tuđu, ponovo pojavi srpska puška na sopstvenom tlu."
+    },
+    {
+      "type": "paragraph",
+      "text": "Austrijska komanda je tu računicu prepoznala i iskoristila. U planu rata predviđeno je formiranje posebnih dobrovoljačkih jedinica sastavljenih od Srba — i onih iz Habzburške Vojne krajine, koji su već imali ratničko iskustvo, i onih koji su prelazili preko Save i Dunava iz pašaluka. Te jedinice nazvane su srpski frajkor — slobodni korpus, lake snage van redovne linije, namenjene upadima, izviđanjima i podizanju pučanstva. Komandu su delili austrijski oficiri i srpske harambaše; deo oficira bio je iz srpskih graničarskih porodica, što je olakšavalo sporazumevanje sa ljudima i sa terenom. Frajkor nije bio glavni instrument rata, ali je u Beogradskom pašaluku, gde je pravi front bila šuma, brdo i selo, postao njegov najvidljiviji deo."
+    },
+    {
+      "type": "paragraph",
+      "text": "Najpoznatije ime tog pokreta ostao je Koča Anđelković, čovek iz šumadijske sredine, po jednoj tradiciji rodom iz okoline Jagodine. O njegovim ranim godinama izvori govore oprezno, kao i o tačnoj veličini odreda koji je vodio — brojevi koje navode kasnije hronike treba uzimati kao zaokružene procene. Sigurno je da je Koča sa svojim frajkorcima prešao na osmansku stranu, prodirao u Pomoravlje i Resavu, prekidao osmanske veze i u nekoliko meseci 1788. uspostavio nešto što su savremenici počeli da nazivaju krajinom — pograničnim, oružano držanim prostorom koji u trenutku nije bio ni potpuno osmanski ni austrijski. Po njemu je čitav taj kratki teritorijalni doživljaj ostao upamćen kao Kočina krajina."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Pokret šire od frajkora"
+    },
+    {
+      "type": "paragraph",
+      "text": "Oko formalnih frajkorskih jedinica stvarao se mnogo širi oružani pokret. Knezovi po nahijama, ljudi sa iskustvom upravljanja seoskim opštinama i prikupljanja poreza, sada su organizovali odbranu i napad; hajduci, koji su decenijama bili kategorija mimo zakona, ušli su u koordinisana dejstva sa frajkorom; sela su davala ljude, hranu i obaveštenja. U pojedinim trenucima 1788. i 1789. veliki delovi centralne Srbije bili su, faktički, pod srpskom oružanom kontrolom — makar i pod austrijskim zaleđem, makar i privremeno. Bilo je to nešto što ovi krajevi nisu videli od pada Smedereva 1459: da naoružani srpski ljudi, pod sopstvenim vođama, drže sopstvenu zemlju i da osmanska vlast u nju ulazi sa oprezom, pa i sa strahom."
+    },
+    {
+      "type": "paragraph",
+      "text": "Osmanska reakcija nije izostala. Krajem 1788. Koča je u jednom od sukoba zarobljen. Po predanju koje su prenosile narodne pesme i kasniji hroničari, odveden je u Niš i tamo, na zastrašujući način — nabijanjem na kolac — pogubljen pred svetom. Pojedinosti tog kraja teško su proverljive u svakom detalju, ali sama činjenica pogubljenja i njegov demonstrativni karakter potvrđeni su i u austrijskim izveštajima toga vremena. U narodnom sećanju Koča je odmah postao mučenik — slika onoga što čeka srpskog vođu koji digne pušku, ali i dokaz da je takav vođa moguć. Frajkor je nastavio da deluje i posle njegove smrti, a Beograd je 1789. konačno pao u austrijske ruke, posle teške opsade pod feldmaršalom Laudonom."
+    },
+    {
+      "type": "paragraph",
+      "text": "Rat se ipak nije završio onako kako su Srbi u pašaluku očekivali. Smrt Josifa II 1790. i složena evropska situacija — posebno francuska revolucija i pritisak Pruske — naveli su Beč da brzo izađe iz rata. Mirom u Svištovu 1791. Austrija je vratila Osmanlijama gotovo sve što je u Srbiji bila zauzela, uključujući Beograd. Frajkor je morao da se raspusti. Mnogi srpski oružani prvaci povukli su se preko Save i Dunava, u Srem i Banat, gde su Habzburzi za njih organizovali izbeglička naselja; drugi su ostali i kasnije platili glavom u osmanskim odmazdama. Pašaluk je formalno bio vraćen u staro stanje, ali staro stanje više nije bilo isto."
+    },
+    {
+      "type": "paragraph",
+      "text": "Posledice Kočine krajine pokazaće se ubrzo. Pod pritiskom evropske diplomatije i sopstvene slabosti, Porta će 1793. izdati hatišerif kojim Beogradskom pašaluku obećava izvesne reforme i ograničenu samoupravu kroz knezove — o tome će biti reči u sledećoj lekciji. Mnogo važnija od papira bila je promena u ljudima. Čitava jedna generacija srpskih muškaraca prošla je kroz iskustvo organizovanog ratovanja: znali su kako se okuplja četa, kako se drži položaj, kako se sporazumeva sa stranim oficirima, kako izgleda topovska vatra i kako se posle poraza preživljava. Među frajkorcima rata 1788–1791. bio je, kao mlad čovek, i jedan trgovac stokom iz Topole — Đorđe Petrović, kasniji Karađorđe."
+    },
+    {
+      "type": "paragraph",
+      "text": "Otud i ocena koja se u srpskoj istoriografiji ponavlja s razlogom: Kočina krajina bila je generalna proba za Prvi srpski ustanak. Nije donela državu, niti je trajno oslobodila ijedan grad. Donela je nešto drugo — saznanje da je oružani srpski pokret u pašaluku moguć, da uz hrišćanskog saveznika sa severa može držati teren, i da postoji sloj knezova, harambaša i bivših frajkoraca spreman da takav pokret povede. Kada se 1804, samo trinaest godina kasnije, u Šumadiji bude ponovo zapucalo, neće pucati nepoznati ljudi. Pucaće upravo oni — ili njihovi sinovi — koji su naučili zanat na Kočinoj krajini."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

@@ -6,13 +6,53 @@
   "dayNumber": 114,
   "order": 9,
   "title": "Pred odlučujući sudar",
+  "subtitle": "Kako su se u proleće i leto 1389. spremale dve vojske koje će se sresti na Kosovu polju",
   "readingTimeMinutes": 7,
   "year": 1389,
-  "isPlaceholder": true,
+  "dateLabel": "1389.",
+  "timelinePosition": "1389.",
+  "summary": "Priprema za Kosovsku bitku 1389: Murat I lično vodi osmansku vojsku iz Plovdiva, Lazar okuplja srpsko-bosansku koaliciju, a obe strane biraju Kosovo polje za odlučujući sudar.",
+  "keyPeople": ["Murad I", "Lazar", "Vuk Branković", "Tvrtko I", "Vlatko Vuković", "Bajazit", "Jakub", "Konstantin Dejanović"],
+  "keyPlaces": ["Kosovo polje", "Plovdiv", "Priština"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Do zime 1388. godine sultanu Muratu I postalo je jasno da se srpsko pitanje na centralnom Balkanu više ne može rešavati pohodima pograničnih begova. Niz manjih neuspeha — odbijeni prepadi, pa pre svega poraz osmanskog odreda kod Pločnika nekoliko godina ranije — pokazao je da knez Lazar, oslonjen na utvrđeno jezgro Pomoravlja i na savez sa Vukom Brankovićem, predstavlja prepreku koja zahteva potpunu sultanovu pažnju. Murat, koji je do tada uglavnom vodio osvajanja preko svojih sinova i vojskovođa, doneo je odluku koju u njegovoj vladavini ne susrećemo često: u sledeći balkanski pohod krenuće lično, na čelu glavnih snaga Carstva."
+    },
+    {
+      "type": "paragraph",
+      "text": "Skupljanje vojske počelo je još tokom zime, a sabirno mesto određeno je u Plovdivu, na velikoj rumelijskoj drumskoj raskrsnici. Tamo se u proleće 1389. okupila gotovo sva slobodna snaga osmanske države. Jezgro su činili kapikulu — sultanovi stalni odredi konjice i pešadije, plaćeni iz dvorske blagajne i odani lično vladaru. Uz njih su stigle anadolske trupe pod komandom mlađeg sultanovog sina Bajazita, kao i rumelijski odredi pod starijim sinom Jakubom. Ali to nije bilo sve. Po pravilima vazalskog poretka, hrišćanski kneževi koji su priznali sultanovu vrhovnu vlast morali su da pošalju svoje odrede; među njima su bili bugarski i makedonski velikaši, a izvori spominju i Konstantina Dejanovića, srpskog vlastelina iz oblasti Velbužda, koji se kao Muratov vazal našao u sastavu osmanske vojske."
+    },
+    {
+      "type": "paragraph",
+      "text": "Koliko je tačno ljudi krenulo iz Plovdiva, ne zna se. Srednjovekovni izvori daju brojeve koji idu i do sto i više hiljada, što je za onovremene logističke mogućnosti nemoguće. Moderne procene su znatno opreznije i kreću se uglavnom u rasponu od oko dvadeset sedam do četrdeset hiljada vojnika. Treba odmah priznati da je i ta procena više pažljiva pretpostavka nego utvrđena činjenica — bitke ovog razdoblja gotovo nikada ne nude pouzdanu računicu. Sigurno je samo da je Murat u pohod poveo glavninu raspoloživih snaga i da je za njega ovo bila operacija čiji se neuspeh nije smeo dopustiti."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Lazarov odgovor"
+    },
+    {
+      "type": "paragraph",
+      "text": "Vesti o okupljanju u Plovdivu stizale su u Kruševac tokom proleća. Lazar je odmah pokrenuo ono što je u njegovoj politici već godinama bilo strpljivo pripremano: koaliciju srpskih i bosanskih oblasti spremnih da brane jezgro srpskih zemalja. Najvažniji saveznik bio je njegov zet, Vuk Branković, gospodar oblasti koja se prostirala upravo preko Kosova i Metohije i koji je svojim četama branio prilaze severu. Iz Bosne je stigao odred kralja Tvrtka I, jedinog južnoslovenskog vladara koji je tada nosio kraljevsku titulu; njega na bojištu nije bilo, ali je poslao iskusnog vojvodu — Vlatka Vukovića, koji je već imao iza sebe pobedu nad osmanskim odredom kod Bileće. Uz to su krenule i Lazarove sopstvene družine, oklopljena vlastela iz pomoravskih oblasti i opšti poziv moravskog zbora."
+    },
+    {
+      "type": "paragraph",
+      "text": "I ovde brojke ostaju klizave. Hroničarska predanja, naročito ona pisana mnogo kasnije, vole velike cifre; moderni istraživači računaju sa srpsko-bosanskom snagom od otprilike petnaest do dvadeset pet hiljada ljudi. Razlika prema osmanskoj strani je verovatno postojala, ali nije bila ona ogromna nesrazmera kakvu nudi epska tradicija. Po svemu sudeći, Murat je imao osetnu, ali ne i poražavajuću prednost u broju, dok je Lazarova vojska bila tešnja i bolje pripremljena za jedan veliki, frontalni sudar."
+    },
+    {
+      "type": "paragraph",
+      "text": "Mesto sukoba nije izabrano slučajno. Murat je vojsku poveo dolinom Marice, pa preko Sofije i Velbužda, ka Kosovu polju kod današnje Prištine. Ta široka, blago zatalasana ravnica nalazila se na glavnom putu prema severu i zapadu, kojim su se otvarali pravci ka Pomoravlju i ka jadranskoj obali; otvoreno zemljište pogodovalo je osmanskoj konjici i organizovanim manevrima velikih masa. Lazar je istu tu ravnicu prihvatio iz suprotnog, ali jednako jasnog razloga: ako se neprijatelju prepusti Kosovo, prepušteno je i srce srpskih zemalja. Povlačenje dalje na sever značilo bi politički slom pre nego što bi i jedan mač bio izvučen. Obe strane su, dakle, donele istu odluku — sudar se mora odlučiti baš tu."
+    },
+    {
+      "type": "paragraph",
+      "text": "O onome što se događalo poslednjih noći pred bitku potonja predanja umeju mnogo da pričaju, ali se savesni istoričar tu kreće oprezno. Slika „tajne večere” na kojoj Lazar pred vlastelom otvara pitanje izdaje pripada kasnijem kosovskom predanju, izgrađenom u XV, XVI i XVII veku, i nije zabeležena u savremenim izvorima. Pouzdano je, međutim, ono što odgovara duhu vremena: srpska vojska bila je praćena sveštenstvom, pred bitku je služena liturgija, a vojnici su pristupali pričešću i pripremali se i duhovno, ne samo vojnički. Za hrišćansku vojsku XIV veka takva priprema nije bila ukras nego deo borbenog poretka."
+    },
+    {
+      "type": "paragraph",
+      "text": "Mnogi detalji koje danas vezujemo za uoči Kosova — razgovori, predskazanja, pojedinačni zaveti — potiču iz kasnijih slojeva tradicije koja je bitku, posle njenog ishoda, pretvarala u temeljnu priču o srpskom narodu. Trezven okvir je, ipak, čvrst: osmanska inicijativa, srpsko-bosanski odgovor u koaliciji, susret na Kosovu polju 28. juna 1389. po julijanskom kalendaru. Oko tih nekoliko činjenica vekovima će se taložiti i istorija i ep, a sve što će kasnije biti rečeno o Lazaru, Muratu i Kosovu — počinje od njihovog dolaska, jedne te iste nedelje, na onu široku ravnicu pod Prištinom."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

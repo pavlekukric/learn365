@@ -6,13 +6,49 @@
   "dayNumber": 248,
   "order": 2,
   "title": "Rusko-turski rat i Srbija",
+  "subtitle": "Kako je velika ruska ofanziva 1877. otvorila Srbiji prostor za drugi rat sa Turskom i konkretno teritorijalno proširenje",
   "readingTimeMinutes": 7,
   "year": 1877,
-  "isPlaceholder": true,
+  "dateLabel": "1877–1878.",
+  "timelinePosition": "1877–1878.",
+  "summary": "Aprila 1877. Rusija je objavila rat Osmanskom carstvu; padom Plevne i prelaskom Rusa preko Balkana Srbija je dobila priliku za drugi rat, u kome je oslobodila Niš, Pirot, Vranje, Leskovac i Prokuplje i izašla sa konkretnim teritorijalnim dobitkom.",
+  "keyPeople": ["car Aleksandar II", "knez Milan Obrenović", "general Kosta Protić", "Osman-paša"],
+  "keyPlaces": ["Plevna", "Šipka", "Niš", "Pirot", "Vranje", "Leskovac", "San Stefano"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Aprila 1877. godine Rusija je objavila rat Osmanskom carstvu. Povod je bila ista istočna kriza koja je već dve godine potresala Balkan — ustanci u Bosni i Hercegovini, pokolji u Bugarskoj 1876, i snažan slovenofilski pokret u samoj Rusiji koji je javnost gurao ka zaštiti slovenskih hrišćana. Car Aleksandar II nije više mogao da odlaže odluku. Cilj je bio dvostruk: oslabiti tursko prisustvo na Balkanu i potvrditi rusku ulogu zaštitnice pravoslavnog stanovništva. Za male balkanske države — Srbiju, Crnu Goru, ustaničku Bugarsku — to je značilo da se po prvi put posle dugo vremena otvara ozbiljan vojni prostor."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ruska vojska je u leto 1877. prešla Dunav i počela prodor kroz Bugarsku. Brzi početni uspesi presečeni su kod malog utvrđenog grada Plevne, gde je turski komandant Osman-paša organizovao tvrdoglavu odbranu. Opsada Plevne — od jula do decembra 1877. — postala je najteža i najduža epizoda rata. Ruski jurišni pokušaji su odbijani uz strašne gubitke, sve dok grad nije bio potpuno opkoljen i izgladnjen. Plevna je pala u decembru, i tek je tada glavnina ruske vojske mogla da krene dalje. Preko prevoja Šipka u Staroj planini, gde su zimske borbe takođe ušle u legendu, Rusi su početkom 1878. prešli Balkan i izbili nadomak Carigrada."
+    },
+    {
+      "type": "paragraph",
+      "text": "Srbija je sve to vreme stajala po strani, oporavljajući se od poraza iz prethodnog rata 1876. Knez Milan i njegova vlada znali su da bi prerano uključivanje, bez čvrstog ruskog uspeha, ponovo izložilo zemlju turskoj odmazdi. Tek kada je Plevna pala i kada je postalo jasno da glavnina osmanske vojske ostaje vezana na bugarskom ratištu, u Beogradu je doneta odluka. Decembra 1877. Srbija je objavila drugi rat Turskoj. Ovog puta vojska je bila bolje opremljena i organizovana nego godinu dana ranije, sa jasnijom komandom — na čelu glavnih operacija stajao je general Kosta Protić — i sa konkretnim, ograničenim ciljem: pomeranje granice na jug i jugoistok, ka dolinama Južne i Zapadne Morave."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Drugi rat i oslobođenje juga"
+    },
+    {
+      "type": "paragraph",
+      "text": "Operacije su tekle brzo. Srpske jedinice su krajem decembra i u prvim danima januara 1878. opkolile Niš, najjače tursko uporište na jugu. Posle kraće opsade, grad je predat — po novom kalendaru 10. januara 1878. godine, što je datum koji će ući u srpsko nacionalno pamćenje kao oslobođenje Niša. U narednim nedeljama redom su pali Pirot, Vranje, Leskovac i Prokuplje. Pravac napada pratio je dolinu Nišave i Južne Morave, a operacije ka jugu, prema Kosovu i Makedoniji, zaustavljene su uglavnom usled diplomatskih okolnosti, ne usled turskog otpora. Crna Gora je istovremeno na svom delu fronta oslobađala Nikšić, izlazila na more kod Bara i prilazila Ulcinju."
+    },
+    {
+      "type": "paragraph",
+      "text": "Treba pošteno reći ono što je u tadašnjim izveštajima često ostajalo u senci pobedničkih bukova. Srpski uspeh u drugom ratu duguje se najpre ruskoj pobedi koja je vezala glavninu osmanske vojske u Bugarskoj. Bez Plevne i bez prelaska preko Šipke ne bi bilo ni brzog pada Niša. Srpska vojska je bila bolja nego 1876, ali pred njom u januaru 1878. više nije stajala osmanska armija u punoj snazi, nego garnizoni i pomoćne jedinice. To ne umanjuje hrabrost vojnika ni veštinu komande, ali stavlja stvari u meru: Srbija je tada još uvek delovala u okviru ruske strategije, kao mlađi saveznik koji koristi otvoren prozor."
+    },
+    {
+      "type": "paragraph",
+      "text": "Marta 1878. godine, u predgrađu Carigrada San Stefanu, Rusi su Turcima nametnuli preliminarni mir. Sanstefanski ugovor predviđao je veliku Bugarsku — prostranu slovensku državu pod ruskim uticajem koja se širila do Egejskog mora — dok je srpsko proširenje bilo skromnije nego što su u Beogradu očekivali. Mnoge oblasti za koje je srpska vojska krvarila, posebno deo prema jugu, ulazile su po tom planu u bugarske granice. Vest je u Srbiji primljena sa razočaranjem; pokazalo se da ruski saveznik svoju strategiju računa najpre prema sopstvenim interesima, a tek onda prema srpskim."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sanstefanski mir, međutim, nije dugo opstao. Velika Britanija i Austro-Ugarska, uplašene od ruske dominacije nad Balkanom i izlaza na topla mora, odlučno su se usprotivile. Pod njihovim pritiskom sazvan je Berlinski kongres u leto 1878, na kome će se cela balkanska karta ponovo iscrtavati — i na kome će Srbija konačno dobiti međunarodno priznanje nezavisnosti i potvrdu novih južnih granica. O toj kongresnoj epizodi biće reči zasebno. Ovde je važno zadržati ono što su rat 1877–1878. ostavili kao trajno: Niš, Pirot, Vranje, Leskovac i Prokuplje ušli su u srpsku državu, težište zemlje pomerilo se ka jugu, a knez Milan je iz rata izašao kao vladar koji je — uz svu zavisnost od velikih sila — prvi posle vekova vratio Srbiji konkretno, vidljivo teritorijalno proširenje."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

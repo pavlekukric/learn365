@@ -6,13 +6,53 @@
   "dayNumber": 273,
   "order": 8,
   "title": "Nauka i kultura početkom veka",
+  "subtitle": "Od osnivanja Univerziteta 1905. do izbijanja Balkanskih ratova — kratak, ali izuzetno plodan trenutak srpske kulture",
   "readingTimeMinutes": 7,
   "year": 1908,
-  "isPlaceholder": true,
+  "dateLabel": "1900–1912.",
+  "timelinePosition": "1900–1912.",
+  "summary": "Između osnivanja Beogradskog univerziteta 1905. i Balkanskih ratova 1912, Srbija je doživela vrhunac predratne nauke, književnosti i likovne umetnosti — generaciju koju će rat 1914. delom pokositi.",
+  "keyPeople": ["Mihailo Petrović Alas", "Jovan Cvijić", "Jovan Skerlić", "Jovan Dučić", "Nadežda Petrović"],
+  "keyPlaces": ["Beograd", "Pariz", "Mostar", "Vranje"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Kratkih dvanaestak godina između prelaska u novi vek i izbijanja Balkanskih ratova često se, s pravom, naziva zlatnim trenutkom predratne srpske kulture. Posle Majskog prevrata 1903. i smene dinastije, a naročito posle preuređenja Velike škole u Beogradski univerzitet 1905. godine, ulazi se u period u kome se istovremeno javlja čitav red mladih naučnika, pisaca i slikara. Mnogi od njih školovani su u Parizu, Beču ili Minhenu, a stvaraju u Beogradu, Mostaru i Novom Sadu. Mera njihovog dometa najbolje se vidi po onome što je usledilo: rat 1914. pokosiće dobar deo te generacije pre nego što je stigla da završi svoje delo."
+    },
+    {
+      "type": "paragraph",
+      "text": "U nauci se taj naraštaj okupio oko novog Univerziteta. Matematičar Mihailo Petrović, poznatiji kao Mika Alas, doktorirao je u Parizu još pre kraja veka, a u prvoj deceniji 20. veka međunarodno se afirmisao radovima iz teorije diferencijalnih jednačina i pokušajima da matematičkim sredstvima opiše širi krug pojava. Bio je istovremeno akademik i strastveni ribar na Savi — otuda i nadimak — i jedan od onih ljudi koji su Beogradu davali poseban ton. Geograf Jovan Cvijić, profesor i jedan od prvih rektora Univerziteta, u tim je godinama obavio veći deo terenskih istraživanja na kojima će počivati njegova kasnija sinteza „Balkansko poluostrvo”, objavljena tek 1918. u Parizu. Njegove studije krša i regionalne geografije Balkana donele su Srbiji naučnu vidljivost kakvu dotad nije imala."
+    },
+    {
+      "type": "paragraph",
+      "text": "Istoriografija je dobila prvi narastaj školovanih, kritičkih pisaca. Stojan Novaković, doajen generacije, bio je istovremeno političar, diplomata i predsednik Srpske kraljevske akademije; njegovi radovi o srednjovekovnoj Srbiji i o turskom periodu postavili su standard koji će se dugo držati. Mlađi Slobodan Jovanović, pravnik i istoričar političke misli, u tim godinama radi na svojim studijama o ustavobraniteljima i o drugoj vladavini Miloša i Mihaila — knjigama u kojima se srpska politika prvi put posmatra hladnim okom, bez dinastičkih obzira. Uz njih, Vladimir Ćorović i etnolog Tihomir Đorđević — autor pionirskih studija o balkanskim narodima i o Romima — proširuju polje srpske humanistike do granica koje će tek decenije kasnije biti popunjene."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Glasnik, pesnici i nova proza"
+    },
+    {
+      "type": "paragraph",
+      "text": "U književnosti, središnja institucija ovog doba bio je „Srpski književni glasnik”, pokrenut 1901. godine. Pod uredništvom najpre Bogdana Popovića, a potom Jovana Skerlića, časopis je za nešto više od decenije postao merilo ukusa — strog, evropski orijentisan, otvoren prema modernističkim strujama, ali i prema ozbiljnoj kritici. Skerlić, rođen 1877, istoričar književnosti i kritičar oštrog pera, formulisao je program svojevrsnog društveno odgovornog realizma i postavio prve sintetičke preglede srpske književnosti. Umro je rano, 1914, i njegova smrt, koliko god lična, osetila se kao kulturni gubitak generacije."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pesnici tog kruga čine ono što će istorija književnosti nazvati srpskom modernom. Jovan Dučić, dolazeći iz Hercegovine i sazrevajući u Ženevi i Parizu, doneo je u srpski stih disciplinu parnasovske forme i osetljivost simbolizma. Milan Rakić, diplomata i pesnik kratkog ali izbrušenog opusa, pisao je suzdržanu, intelektualnu liriku u kojoj se oseća uticaj francuske tradicije. Aleksa Šantić, vezan za Mostar i za list „Zoru”, ostao je glas socijalne osetljivosti i rodoljubive lirike južno od Save. Vladislav Petković Dis uneo je tamniji, slutljiv ton — poeziju nemira i predosećanja, koja će tek u međuratnom periodu biti pravo prepoznata."
+    },
+    {
+      "type": "paragraph",
+      "text": "U prozi se istovremeno događaju dva važna pomaka. Petar Kočić, sa bosanske strane Drine, piše oštre pripovetke o seljaku pod austrougarskom upravom; njegov „Jazavac pred sudom” jedan je od retkih političkih tekstova tog doba koji se i danas može čitati kao živa satira. Borisav Stanković, vranjanski pripovedač, objavljuje 1910. roman „Nečista krv” — gustu, psihološki produbljenu sliku propadanja jedne stare porodice u gradu na granici, knjigu koja srpski realizam pomera ka modernom romanu. Pozorišnu scenu, u međuvremenu, drži Branislav Nušić: njegove komedije već su deo svakodnevice beogradskog gledališta."
+    },
+    {
+      "type": "paragraph",
+      "text": "Likovna umetnost u tom kratkom razdoblju doživljava preokret. Nadežda Petrović, školovana u Minhenu i upoznata sa francuskim impresionizmom, slika u širokim, smelim potezima i jakim bojama, dovodeći u srpsko slikarstvo secesiju i postimpresionizam. Bila je i organizator: jedna od pokretača Prve jugoslovenske umetničke izložbe u Beogradu 1904. godine, koja je u istom prostoru okupila slovenske umetnike sa različitih strana austrougarskih granica. Uz nju rade Beta Vukanović i Petar Dobrović, dok je sasvim mladi Sava Šumanović tek na samom početku puta koji će ga odvesti u međuratni Pariz."
+    },
+    {
+      "type": "paragraph",
+      "text": "Kraj ovog perioda dolazi naglo i neumoljivo. Prvi balkanski rat 1912, a potom Veliki rat 1914, presekli su upravo onaj sloj koji je obećavao najviše. Skerlić umire 1914. od tifusa, u jeku rata. Dis nestaje 1917, potonuvši sa brodom u Sredozemlju. Nadežda Petrović, koja je u oba balkanska rata i u Velikom ratu radila kao dobrovoljna bolničarka, umire 1915. od groznice. Dučić, Stanković, Slobodan Jovanović i drugi preživeli, ali svi će posle 1918. raditi u drugoj državi, u drugom svetu i sa svešću da je nešto presečeno. Pošteno je reći da je ovo bio vrh predratne srpske kulture i da će se sve što sledi, htelo se to ili ne, meriti sa snagom te mlade, prerano prekinute generacije."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

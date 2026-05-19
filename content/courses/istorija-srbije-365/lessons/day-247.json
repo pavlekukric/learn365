@@ -6,13 +6,57 @@
   "dayNumber": 247,
   "order": 1,
   "title": "Srpsko-turski ratovi",
+  "subtitle": "Dva rata Kneževine Srbije protiv Osmanskog carstva, od poraza kod Đunisa do oslobođenja Niša",
   "readingTimeMinutes": 8,
   "year": 1876,
-  "isPlaceholder": true,
+  "dateLabel": "1876–1878.",
+  "timelinePosition": "1876–1878.",
+  "summary": "Kneževina Srbija pod knezom Milanom Obrenovićem vodi dva rata protiv Osmanskog carstva: težak i loše pripremljen rat 1876. spasava ruski ultimatum, a u drugom ratu 1877–1878. srpska vojska oslobađa Niš, Pirot, Vranje i Leskovac.",
+  "keyPeople": ["knez Milan Obrenović", "Mihail Černjajev", "Petar Karađorđević", "sultan Abdul Hamid II", "car Aleksandar II"],
+  "keyPlaces": ["Beograd", "Veliki Šiljegovac", "Đunis", "Niš", "Pirot", "Leskovac", "Vranje", "San Stefano"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "U leto 1876. godine Kneževina Srbija, mala i još uvek formalno vazalna država pod vlašću kneza Milana Obrenovića, objavila je rat Osmanskom carstvu. Istog dana isto je učinila i Crna Gora. Bio je to potez koji je u Beogradu dugo pripreman kao moralna obaveza i kao spoljnopolitička prilika, a koji će se u narednim mesecima pokazati kao mnogo teži zadatak nego što su njegovi pokretači želeli da priznaju. Iz dve godine ratovanja, sa kratkim primirjem između njih, Srbija će izaći iscrpljena, sa hiljadama mrtvih, ali i sa novim granicama na jugu i sa otvorenim putem ka međunarodnom priznanju nezavisnosti."
+    },
+    {
+      "type": "paragraph",
+      "text": "Povod za rat ležao je izvan srpskih granica. U leto 1875. izbio je ustanak u Hercegovini protiv osmanske vlasti, a brzo se proširio i na Bosnu. Sledeće, 1876. godine, krenuo je ustanak i u Bugarskoj; osmanske neregularne jedinice ugušile su ga sa toliko surovosti da se vest o „bugarskim pokoljima” pronela kroz evropsku štampu i izazvala val ogorčenja. U Rusiji, u Češkoj, u delovima Britanije i Francuske probudila su se slovenofilska i rusofilska osećanja, i pojavila se ideja da male slovenske države na Balkanu treba da pomognu svojoj sabraći pod osmanskom vlašću. U Beogradu je taj talas dobio konkretan oblik: rat je shvaćen kao istovremeno oslobodilački gest, prilika za teritorijalno proširenje i način da se Srbija pred Evropom predstavi kao samostalan činilac, a ne više kao tek poluautonomna provincija."
+    },
+    {
+      "type": "paragraph",
+      "text": "Vojska sa kojom je Srbija ušla u prvi rat nije bila spremna za zadatak koji je sebi postavila. Bila je to pretežno narodna vojska — slabo obučena, slabo naoružana, sa manjkavom oficirskom strukturom i sa logistikom koja se rušila već nakon nekoliko sedmica pohoda. Da bi se taj nedostatak nadoknadio, na čelo glavne srpske vojske, takozvane Moravske armije, postavljen je ruski general Mihail Grigorjevič Černjajev, poznati panslavista i veteran srednjoazijskih ratova. Sa njim su u Srbiju stigle i hiljade ruskih dobrovoljaca — oficiri, vojnici, lekari, novinari — koji su činili značajan deo borbenog jezgra. Komanda je tako od početka bila podeljena između srpskih političkih ciljeva i ruske vojničke ruke, a ta podela nije uvek olakšavala vođenje rata."
+    },
+    {
+      "type": "paragraph",
+      "text": "Operacije iz 1876. krenule su sa nadom, ali su se vrlo brzo pretvorile u odbranu. Bilo je tačaka u kojima je srpska vojska postigla zapažene uspehe — pobeda kod Velikog Šiljegovca u jesen 1876. godine ostala je upamćena kao jedan od retkih svetlih trenutaka tog ratnog leta. Glavni tok operacija, međutim, bio je drugačiji. Osmanska vojska, brojnija i bolje opremljena, postepeno je potiskivala srpske jedinice duž Moravske doline. U oktobru 1876. dogodio se i najteži poraz: bitka kod Đunisa završila se slomom glavnine srpske vojske i otvorila je put neprijatelju ka unutrašnjosti zemlje. U Beogradu se ozbiljno strahovalo da bi mogao pasti i sam glavni grad."
+    },
+    {
+      "type": "paragraph",
+      "text": "Spas je došao iz Petrograda. Ruski car Aleksandar II, suočen sa pritiskom javnog mnjenja kod kuće i sa nemogućnošću da pusti malu pravoslavnu državu da bude pregažena, uputio je Visokoj porti ultimatum kojim je zahtevao trenutno primirje. Osmanska strana je popustila. U decembru 1876. potpisano je primirje koje je Srbiju vratilo, manje-više, u predratne granice — ali ju je sačuvalo kao državu. Prvi rat je tako završen porazom koji bi, bez ruske intervencije, mogao biti i mnogo gori. Ostala je za njim teška cena: hiljade poginulih i ranjenih, opustošena polja u Pomoravlju i Toplici, prazna kasa i jasno upozorenje koliko je razmak između srpskih ambicija i srpskih realnih snaga toga časa."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Drugi rat i oslobođenje juga"
+    },
+    {
+      "type": "paragraph",
+      "text": "U aprilu 1877. Rusija je sama objavila rat Osmanskom carstvu i pokrenula veliki pohod preko Dunava ka Carigradu. Srbija se nije odmah uključila — knez Milan i vlada čekali su da se rusko ratište jasnije razvije i da srpska vojska, koja je u međuvremenu reorganizovana i bolje naoružana, bude u stanju da uđe u rat sa razumnijim izgledima. Tek u decembru 1877. godine, kada su Rusi konačno probili osmanski otpor kod Plevne, Srbija je drugi put objavila rat Porti. Ovog puta operacije su tekle drugačije. Glavni napor bio je usmeren ka jugu, u dolinu Južne Morave i ka starim srpskim oblastima oko Niša, Pirota, Vranja i Leskovca."
+    },
+    {
+      "type": "paragraph",
+      "text": "U toku samo nekoliko nedelja, u januaru 1878. godine, srpska vojska je oslobodila Niš, jedan od najvažnijih gradova na Balkanu i ključnu osmansku tvrđavu južno od Dunava. Ubrzo su pali i Pirot, Leskovac i Vranje. Bili su to gradovi u kojima je srpsko stanovništvo vekovima živelo pod osmanskom vlašću; njihovo oslobađanje doživeo je narod kao istorijski događaj prve veličine, a u srpskoj vojsci se rodio osećaj da je, posle poraza iz prethodne godine, sopstvenim naporom platila i deo svog mesta u evropskim računima. Vredi spomenuti da se u redovima srpske vojske u drugom ratu istakao i Petar Karađorđević, sin nekadašnjeg kneza Aleksandra i budući kralj, koji je tu stekao deo svog vojničkog ugleda."
+    },
+    {
+      "type": "paragraph",
+      "text": "Politički ishod, međutim, nije odmah odgovorio vojničkom uspehu. Ruska i osmanska delegacija potpisale su u martu 1878. prethodni mir u San Stefanu, nedaleko od Carigrada. Tim ugovorom Rusija je stvorila veliku Bugarsku koja je dobijala najveći deo balkanskih teritorija oslobođenih u ratu — uključujući i gradove koje je u tom času držala srpska vojska. Srbiji je San Stefano dodelio neuporedivo manje nego što je očekivala, i u Beogradu je vladalo razočaranje i ogorčenje na rusku diplomatiju, koja je, kako se činilo, srpski doprinos pretvorila u bugarsku korist. Bilo je očito da se rat za Srbiju neće rešiti na obali Mramornog mora nego za nekoliko meseci na drugom, mnogo većem evropskom skupu — Berlinskom kongresu, o kome će biti reči u sledećoj lekciji."
+    },
+    {
+      "type": "paragraph",
+      "text": "Kada se dve godine ratovanja sagledaju zajedno, slika je trezvena. Srpsko-turski ratovi 1876–1878. nisu bili niz lakih pobeda male hrabre države, kako su ih kasnije ponekad opisivale prigodne istorije. Bili su to ratovi vođeni preko snage, sa skromnom logistikom, uz veliku zavisnost od ruske vojničke i diplomatske pomoći, sa porazom kod Đunisa kao jasnim podsetnikom na granice mogućeg. Istovremeno, bili su to ratovi u kojima je srpski vojnik — naročito u drugom pohodu — doneo konkretan teritorijalni rezultat i pomerio južnu granicu Kneževine duboko ka Vardaru i Moravi. Cenu su platili obični ljudi: poginuli, ranjeni, popaljena sela, raseljeno stanovništvo. Ono što će tek Berlinski kongres pretvoriti u trajno dobro — međunarodno priznanje nezavisnosti — izvojevano je upravo tu, u dva teška i neravnopravna rata između 1876. i 1878. godine."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

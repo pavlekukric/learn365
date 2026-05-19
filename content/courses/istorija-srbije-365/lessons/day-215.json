@@ -6,13 +6,53 @@
   "dayNumber": 215,
   "order": 3,
   "title": "Takovo i početak ustanka",
+  "subtitle": "Kako je na Cveti 1815. Miloš Obrenović pred crkvom u Takovu javno preuzeo vođstvo novog ustanka protiv Turaka",
   "readingTimeMinutes": 7,
   "year": 1815,
-  "isPlaceholder": true,
+  "dateLabel": "april 1815.",
+  "timelinePosition": "11/23. april 1815.",
+  "summary": "Na Cveti 1815. godine, pred crkvom u Takovu, Miloš Obrenović je prihvatio vođstvo Drugog srpskog ustanka — čin brižljivo pripreman u dogovorima sa knezovima i sveštenstvom, koji će kasnije, kroz slikarstvo i predanje, dobiti znatno teatralniji oblik nego što je u stvarnosti bio.",
+  "keyPeople": ["Miloš Obrenović", "Paja Jovanović", "Karađorđe Petrović", "Sulejman-paša Skopljak"],
+  "keyPlaces": ["Takovo", "Gornji Milanovac", "Šumadija", "Rudnik"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Zima i rano proleće 1815. godine bili su u Šumadiji vreme tihe pripreme. Posle sloma Prvog ustanka, povratka turske vlasti i sve težeg postupanja sa rajom, među knezovima rudničke i kragujevačke nahije rasla je svest da se na staro ne može vratiti. Najuticajniji među njima, Miloš Obrenović, kretao se oprezno — odlazio je u Beograd, klanjao se Sulejman-paši Skopljaku, prihvatao knežinske dužnosti i istovremeno, u svojim selima, slušao šta narod govori i šta sveštenici poručuju. Ono što je usledilo na Cveti u Takovu nije bio nagao gnev, nego trenutak u kome je davno pripremana odluka morala da bude izgovorena naglas."
+    },
+    {
+      "type": "paragraph",
+      "text": "Po julijanskom kalendaru, koji se tada koristio, Cveti — Vrbica, nedelja pred Vaskrs — pale su 11. aprila 1815. godine; po novom kalendaru, to je bio 23. april. Mesto okupljanja bilo je crkveno dvorište u Takovu, malom mestu kraj današnjeg Gornjeg Milanovca, u srcu Rudničke nahije. Na taj dan se po običaju sliva narod iz okolnih sela, donose se vrbove grančice, služi se liturgija. Upravo zato je dan bio izabran: skup velikog broja ljudi pred crkvom mogao je proći kao verski događaj, a ne kao zavera. Pod tim plaštom, knezovi, sveštenici i seoske starešine dolazili su sa već uveliko izrečenim mislima."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sami dogovori obavljeni su pre Takova. Tokom zime i ranog proleća održano je više tajnih razgovora po manastirima i kućama uglednih ljudi, na kojima se razmatralo da li i kada početi. Miloš je u tim razgovorima dugo bio uzdržan. Imao je iza sebe iskustvo Karađorđevog ustanka, video je kako se on završio, i znao je da nova buna bez šire podrške može doneti samo još gore stradanje. Kada je konačno pristao da prihvati vođstvo, postavio je svoje uslove: jedinstvo glavnih knezova, podrška sveštenstva, i pažljivo izabran trenutak. Cveti su izabrane upravo zato što su pravdale okupljanje i davale događaju versku težinu."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Reč pred crkvom"
+    },
+    {
+      "type": "paragraph",
+      "text": "Po onome što je u narodnom predanju ostalo zabeleženo, Miloš je tog dana, pred okupljenom masom, govorio kratko i otvoreno. Tradicija mu pripisuje reči poput „Evo mene, evo vama rata sa Turcima“ — rečenicu koja se generacijama prenosila i koja je ušla u sve školske čitanke. Treba odmah biti pošten: ta rečenica nije pouzdan zapis iz samog trenutka, nego predanje koje je kasnije uobličeno. Njena tačna forma, ko ju je prvi zapisao i koliko verno odražava ono što je zaista izgovoreno — sve to ostaje predmet rasprave. Sigurno je da je Miloš objavio svoju odluku, da je pozvao narod na ustanak i da je tu odluku potvrdilo prisutno sveštenstvo blagosiljanjem oružja."
+    },
+    {
+      "type": "paragraph",
+      "text": "Skup je bio brižljivo pripreman, ne improvizovan. Sve što se na Cveti dogodilo bilo je razrađeno: gde će ko stati, ko će prvi progovoriti, koje će se nahije odmah dići, koji će se ljudi sutradan uputiti u koja sela. Već u danima posle Takova, ustanak je munjevito zahvatio Šumadiju. Pobune su izbile u rudničkoj, kragujevačkoj i čačanskoj okolini; turski činovnici po varošima našli su se odsečeni; do kraja proleća ustanak je imao svoju vojsku, svoje knezove i prve uspehe u sukobima na zapadnoj Moravi i u Pomoravlju."
+    },
+    {
+      "type": "paragraph",
+      "text": "Razlika u odnosu na Orašac iz 1804. bila je suštinska. Orašac je bio očajnički potez naroda kome je voda već došla do grla, sa Karađorđem koji se isticao više hrabrošću nego organizacijom. Takovo je bilo delo iskustva. Miloš je iz prvog ustanka izvukao zaključak da uspeh zavisi koliko od oružja toliko i od strpljivih veza sa knezovima, sa crkvom i sa turskim sagovornicima koji se mogu pridobiti ili obmanuti. Njegov ustanak je od prvog dana imao i ratni i diplomatski rukavac — krenuo je istovremeno u borbu i u pregovaranje, računajući da će umor obe strane biti njegov saveznik."
+    },
+    {
+      "type": "paragraph",
+      "text": "Slika Miloša pred narodom kod takovskog grma postala je, mnogo decenija kasnije, nacionalna ikona. Tome su najviše doprineli slikari devetnaestog veka — pre svega Paja Jovanović, čije je platno „Takovski ustanak“ u svojim varijantama učvrstilo predstavu Miloša koji, sa zastavom u ruci i sabljom o pojasu, sa grmom iza sebe, drži vatreni govor narodu klečećem u molitvi. Tu sliku oblikovala su i ranija dela i ilustracije drugih srpskih umetnika, kao i kasnije patriotske grafike koje su je u bezbroj otisaka raznele po srpskim domovima. Predstava je snažna, dostojanstvena i romantična — i upravo zato treba biti svestan da je ona slikarsko delo, a ne fotografski snimak. Sam čin u Takovu bio je mnogo manje teatralan: govor kraći, gestovi smireniji, atmosfera bliža crkvenoj službi nego pozorišnoj sceni."
+    },
+    {
+      "type": "paragraph",
+      "text": "To, naravno, ne umanjuje njegov značaj. Takovo jeste bilo trenutak preokreta — dan u kome je narod Šumadije, posle sedam godina otvorenog rata i nekoliko godina ponovne potčinjenosti, drugi put u jednoj generaciji digao oružje, ovog puta sa vođom koji je znao šta hoće i kako da to izvede. Razlika između legende i činjenice ne kvari taj dan; ona ga čini bližim. Iza ikone sa grmom i zastavom stoji čovek koji je do pred sam Cveti vagao da li uopšte da pristane, i grupa knezova koji su znali da druge prilike možda neće biti. Drugi srpski ustanak je tako počeo — ne kao iznenadan plamen, nego kao odluka koja je dugo sazrevala i koja je, na pravu nedelju i na pravom mestu, najzad izrečena."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

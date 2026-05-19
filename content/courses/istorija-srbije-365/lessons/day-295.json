@@ -6,13 +6,57 @@
   "dayNumber": 295,
   "order": 8,
   "title": "Povlačenje preko Albanije",
+  "subtitle": "Zima 1915–1916: srpska vojska, kralj, vlada i desetine hiljada civila idu preko crnogorskih i albanskih planina ka moru",
   "readingTimeMinutes": 8,
   "year": 1915,
-  "isPlaceholder": true,
+  "dateLabel": "novembar 1915 – januar 1916.",
+  "timelinePosition": "novembar 1915 – januar 1916.",
+  "summary": "Posle okruženja u jesen 1915. srpska vrhovna komanda donosi odluku o povlačenju preko Crne Gore i severne Albanije ka Jadranu, gde su saveznici trebali da prebace vojsku na Krf. U zimskim mesecima na tom putu nestaje veliki broj ljudi — događaj koji je u istoriji ostao zapamćen kao „Albanska golgota”.",
+  "keyPeople": ["kralj Petar I", "regent Aleksandar", "vojvoda Radomir Putnik", "Nikola Pašić"],
+  "keyPlaces": ["Prizren", "Skadar", "Drač", "Valona", "Krf"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Krajem oktobra i u prvoj polovini novembra 1915. srpska vojska se našla u kleštima sa tri strane. Sa severa su nadirale austrougarske i nemačke divizije pod komandom feldmaršala Makenzena, sa istoka — preko stare srpsko-bugarske granice — bugarska Prva i Druga armija. Saveznička pomoć iz Soluna, koja je krenula prekasno i s premalo snaga, nije uspela da probije bugarsku blokadu u dolini Vardara. Pad Niša, zatim Kruševca i Kraljeva, naterao je vrhovnu komandu da donese odluku koja se do tada činila nezamislivom: napustiti zemlju, ali sačuvati vojsku."
+    },
+    {
+      "type": "paragraph",
+      "text": "Plan je bio jednostavan rečima, težak izvođenjem. Trebalo je probiti se na jugozapad, preko crnogorskih i severnoalbanskih planina, do jadranske obale — do Skadra, Drača i Valone — gde će saveznički brodovi prebaciti vojsku na Krf radi odmora, opreme i obnove. Italija, Francuska i Velika Britanija obećale su pomoć; obećanje će se u praksi pokazati znatno složenijim od onoga što je u depešama izgledalo kao gotova stvar. Kapitulacija je odbijena. Mir sa neprijateljem, koji bi Srbiji ostavio državnost ali oduzeo vojsku kao samostalnu silu, nije razmatran ozbiljno."
+    },
+    {
+      "type": "paragraph",
+      "text": "U koloni koja je krenula prema Kosovu, pa odatle u tri glavna pravca — preko Crne Gore ka Skadru, preko Prizrena i Đakovice takođe ka Skadru, i preko Peći — bilo je, po proceni vrhovne komande, oko 300.000 ljudi. Brojka obuhvata vojsku, vladu Nikole Pašića, narodnu skupštinu, državnu blagajnu, ostarelog i bolesnog kralja Petra I — koji je deo puta prešao u kolima, a na najtežim deonicama, kažu izvori, na nosilima — regenta Aleksandra, načelnika štaba vojvodu Radomira Putnika, samog teško bolesnog i takođe nošenog na nosilima, veliki broj izbeglih civila i, što će se pokazati kao zasebna tragedija, oko 30.000 austrougarskih ratnih zarobljenika koje je vrhovna komanda povela sa sobom umesto da ih ostavi neprijatelju."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Put kroz sneg"
+    },
+    {
+      "type": "paragraph",
+      "text": "Početkom decembra kolona je ušla u planine. Putevi, gde ih je uopšte bilo, bili su uske karavanske staze izlokane zimskim potocima. Sneg je padao danima. Tovarni konji i volovi gubili su se na klizavim prevojima zajedno sa teretom; kod jednog od prelaza vojska je morala da uništi deo artiljerije jer je više nije imalo čime vući. Hrane je nedostajalo gotovo od prvog dana — sela na putu bila su siromašna, a kolona prevelika da bi se mogla snabdeti od mesnih zaliha. Obuća se raspadala. Mnogi vojnici, naročito mlađi, krenuli su iz Srbije u laganoj letnjoj opremi i sada su išli sa krpama umesto cipela."
+    },
+    {
+      "type": "paragraph",
+      "text": "Na povlačenje su se nadovezali napadi pojedinih albanskih plemenskih grupa iz brda, delom samostalni, delom — kako pokazuju kasnija istraživanja — podsticani i finansirani austrougarskom obaveštajnom službom, koja je preko svojih kanala u severnoj Albaniji pokušavala da zaseda razvuče kolonu. Manje grupe zaostalih vojnika, kuriri i ranjenici bili su najugroženiji. Uz to je krenula i epidemija — pegavi tifus, dizenterija, upale pluća — koja je u uslovima zime, gladi i iscrpljenosti kosila bez razlike."
+    },
+    {
+      "type": "paragraph",
+      "text": "Posebno tragično poglavlje čine takozvani „dečaci-regruti”, mladići mlađi od redovne vojne starosti, koje je vlada pokušala da povede sa sobom da ne padnu u zarobljeništvo i da kasnije, posle obuke, popune redove. Pošli su iz Srbije u velikom broju; veliki deo njih nikada nije stigao do mora. Sudbina austrougarskih zarobljenika bila je u proseku još gora — slabije snabdevani, slabije zaštićeni od zime, ginuli su u procentu znatno većem nego srpski vojnici."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ukupan broj žrtava ostaje predmet stručne rasprave. Prema najčešće navođenoj proceni, od oko 240.000 ljudi koji su krenuli na sam planinski deo marša — vojska, civili i zarobljenici zajedno — između 60.000 i preko 100.000 nije stiglo do obale. Tačne brojke teško da će ikada biti utvrđene; popisi su bili nepotpuni, mnoge žrtve su ostale bez imena u snegu. Ta neodređenost je deo same prirode događaja i o njoj se mora govoriti otvoreno."
+    },
+    {
+      "type": "paragraph",
+      "text": "Na obalu Jadrana, u Skadru, Draču i Valoni, glavnina vojske počela je da pristiže krajem decembra. Tamo se pokazalo da saveznička evakuacija nije bila spremna. Italijanska vojska, prisutna u severnoj Albaniji, ali sa sopstvenim računima oko buduće sudbine istočnog Jadrana, nije rado preuzimala teret prevoza; francuski i britanski admirali, pod pritiskom srpske vlade i sopstvenih ambasadora, organizovali su konvoje koji su tokom januara i februara 1916. prebacivali srpsku vojsku na Krf i na manja jonska ostrva. Brodovi su gađani od austrougarskih podmornica; nekoliko transporta je potonulo sa ljudima."
+    },
+    {
+      "type": "paragraph",
+      "text": "Termin „Albanska golgota” utvrdio se u srpskoj istorijskoj svesti odmah posle rata i ostao je do danas. Ima razloga da se koristi — strašno stradanje civila i vojske, smrti dečaka i zarobljenika, tela ostavljena u snegu — to su činjenice koje se ne moraju ulepšavati niti pojačavati. Istovremeno, taj naziv ne sme da skrije ni drugu stranu istog događaja. Srpska vojska je preko planina sačuvana kao organizovana sila, sa kraljem, vladom, štabom i zastavama. Već u proleće 1916. ona će se, posle oporavka na Krfu, prebaciti na Solunski front i nastaviti rat — što bi bilo nemoguće da je bila zarobljena ili rasturena u Srbiji. Povlačenje preko Albanije je, dakle, istovremeno bilo ljudska katastrofa velikih razmera i hladno proračunata strateška operacija koja je uspela. Same brojke i opisi marša govore dovoljno; svako pojačavanje samo bi im oduzelo težinu."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

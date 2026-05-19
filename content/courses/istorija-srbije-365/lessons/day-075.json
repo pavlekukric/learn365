@@ -6,13 +6,49 @@
   "dayNumber": 75,
   "order": 3,
   "title": "Dušanovo carstvo",
+  "subtitle": "Kako je 16. aprila 1346. u Skoplju Stefan Dušan krunisan za cara Srba i Grka — vrhunac nemanjićke države",
   "readingTimeMinutes": 8,
   "year": 1346,
-  "isPlaceholder": true,
+  "dateLabel": "1346.",
+  "timelinePosition": "16. april 1346.",
+  "summary": "Krunisanje Stefana Dušana za cara Srba i Grka u Skoplju na Vaskrs 1346. godine: politički vrhunac Nemanjića, podizanje srpske crkve na rang patrijaršije i sporenje sa Carigradom koje će trajati decenijama.",
+  "keyPeople": ["Stefan Dušan", "Uroš", "patrijarh Joanikije II", "bugarski patrijarh Simeon"],
+  "keyPlaces": ["Skoplje", "Konstantinopolj", "Sveta Gora"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Do proleća 1345. Stefan Dušan je vladao prostorom koji se po veličini gotovo izjednačio sa onim što je posle dugog građanskog rata ostalo Vizantiji. Srpska država protezala se od Dunava do Egejskog mora i od Jadrana duboko u Makedoniju, sa Skopljem kao novim političkim središtem. Stara titula kralja, koju je dinastija nosila od Stefana Prvovenčanog, više nije odgovarala stvarnosti. Dušan je već uzeo i međuoblik — „kralj Srba i Grka” — kojim je priznao da njegovi podanici nisu više samo Srbi. Ali pred kraj 1345. godine, posle osvajanja Sera, izgleda da je doneo odluku koja će obeležiti vrhunac celog nemanjićkog veka: da uzme carsku titulu i da se pred svetom postavi kao ravan vizantijskom caru."
+    },
+    {
+      "type": "paragraph",
+      "text": "Za takav korak nije bila dovoljna sama vojna snaga. Po srednjovekovnom shvatanju, cara je morao da kruniše patrijarh, a Srpska crkva je još uvek bila arhiepiskopija, podređena Vaseljenskoj patrijaršiji u Carigradu. Dušan je rešenje našao u jednom potezu koji je istovremeno bio i smeo i pravno sporan: sazvao je sabor i podigao srpsku arhiepiskopiju na rang patrijaršije, a arhiepiskopa Joanikija II proglasio prvim srpskim patrijarhom. Tek pošto je dobio sopstvenog patrijarha, mogao je da bude krunisan po obredu koji su istočni hrišćani priznavali kao carski. O samom činu podizanja patrijaršije i njegovim posledicama govori naredna lekcija; ovde je dovoljno reći da je crkveno uzvišenje bilo neodvojivi uslov državnog."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Vaskrs u Skoplju"
+    },
+    {
+      "type": "paragraph",
+      "text": "Krunisanje je obavljeno 16. aprila 1346, na sam Vaskrs, u Skoplju. Izbor dana nije bio slučajan — najveći hrišćanski praznik davao je svečanosti najvišu moguću crkvenu težinu. Izbor mesta bio je politički: Skoplje je bilo Dušanovo, izabrano da bude prestonica nove, šire države, a ne stara raška središta poput Rasa ili Studenice. Na saboru su, prema sačuvanim opisima, bili novi srpski patrijarh Joanikije, bugarski patrijarh koji je lično došao iz Trnova, i prot Svete Gore na čelu atoskih izaslanika. Prisustvo bugarskog patrijarha i atoskih monaha bilo je Dušanu naročito važno: njime je carski čin dobijao širi pravoslavni pečat, iako Carigrad u tom činu nije učestvovao."
+    },
+    {
+      "type": "paragraph",
+      "text": "Po krunisanju, Dušan je u svojim ispravama nosio titulu „po milosti božjoj car Srba i Grka, blagočastivi car”. Reč „blagočastivi” preuzeta je iz vizantijske kancelarije, gde je vekovima opisivala pravoverne careve istočnog hrišćanstva. Time je Dušan jasno govorio da ne osniva novo carstvo iz ničega, već da preuzima jedan deo carskog dostojanstva koje je Vizantija, po njegovom shvatanju, oslabila i izneverila. Istog dana, ili neposredno potom, njegov sin Uroš krunisan je za kralja — „mladi kralj”, kako će se zvati u darovnicama — i tako je uveden kao otvoreno označeni naslednik. Carstvo je dobilo i drugog vladara, mlađeg po godinama i po stepenu vlasti, ali već postavljenog uz oca."
+    },
+    {
+      "type": "paragraph",
+      "text": "Posle krunisanja, država je počela da menja i svoju spoljnu opremu. Dušan je počeo da kuje carski novac sa likom vladara u vizantijskom maniru, sa krunom, lorosom i carskim regalijama. U njegovoj kancelariji javljaju se hrisovulje pisane po uzoru na vizantijske, sa potpisima crvenim mastilom i sa složenim formulama o pobožnom caru. Dvoglavi orao, znak vizantijskih careva, ulazi u upotrebu kao srpski carski simbol. Sve to nije bilo prazno oponašanje — bila je to svesna poruka: srpski dvor zna kako carstvo izgleda i sebe doživljava kao njegovog nastavljača na onom delu Balkana koji je faktički već osvojio."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ipak, čin krunisanja od početka je bio sporan. Po vizantijskom poimanju, na svetu je mogao da postoji samo jedan car — onaj u Carigradu, koji je svoju vlast izvodio neposredno od Boga preko Hrista. Dušanova carska titula ravna toj titulu bila je nešto čega ranije nije bilo. Vaseljenski patrijarh u Carigradu odgovorio je tako što je nešto kasnije izrekao odluku o izopštenju Srpske crkve, smatrajući njeno samovoljno proglašenje patrijaršije neispravnim. Taj raskol između srpske i carigradske crkve potrajaće sve do 1375. godine, kada će biti svečano izmiren — dakle skoro tri decenije, daleko posle Dušanove smrti. Politički, raskol nije slomio Dušanovo carstvo, ali je ostavio trag o kome će kasnije lekcije više govoriti."
+    },
+    {
+      "type": "paragraph",
+      "text": "Carstvo koje je u Skoplju 1346. proglašeno bilo je golemo, ali mlado. Njegove institucije morale su tek da se grade brzinom kojom su se širile granice. Stara raška uprava bila je skrojena za manju državu i za drugačiji svet; novim oblastima, naročito grčkim, trebalo je drugačije ophođenje, drugačiji jezik isprava, druge titule za lokalnu vlastelu. Najveći deo te zgrade još je počivao na Dušanovoj ličnosti — na njegovoj vojnoj sreći, na njegovom autoritetu među vlastelom, na njegovoj sposobnosti da Srbe i Grke drži pod jednom krunom. Naredne dve lekcije govore o dva pokušaja da se carstvo dodatno učvrsti: jedan crkveni — uzdizanje patrijaršije — i jedan zakonski, najpoznatije Dušanovo delo, Zakonik koji će nositi njegovo ime."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

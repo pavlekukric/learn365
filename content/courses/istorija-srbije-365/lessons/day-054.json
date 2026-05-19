@@ -6,13 +6,53 @@
   "dayNumber": 54,
   "order": 1,
   "title": "Sveti Sava — mladi Rastko",
+  "subtitle": "Najmlađi sin Stefana Nemanje bira manastir umesto prestola — i menja sopstveno ime",
   "readingTimeMinutes": 8,
   "year": 1180,
-  "isPlaceholder": true,
+  "dateLabel": "oko 1175–1192.",
+  "timelinePosition": "oko 1175–1192.",
+  "summary": "Mladost Rastka Nemanjića, najmlađeg sina velikog župana Stefana Nemanje: vlast nad Humom, beg na Svetu Goru i postrig pod imenom Sava.",
+  "keyPeople": ["Sveti Sava (Rastko)", "Stefan Nemanja", "Anastasija"],
+  "keyPlaces": ["Hum", "Sveta Gora", "Vatoped", "Sv. Pantelejmon"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Među svim ličnostima srednjovekovne srpske istorije malo ko je ostavio dublji trag od najmlađeg sina Stefana Nemanje. Pre nego što je postao Sveti Sava, on je bio Rastko — dečak rođen u kući velikog župana, vaspitavan kao knežević i pripreman da nasledi deo porodičnih obaveza. Ova lekcija prati upravo te rane godine, od rođenja do bekstva na Svetu Goru. To je priča o jednom mladiću koji je, uprkos svemu što mu je porodica nudila, izabrao tišinu manastira nad bukom dvora — i tako, gotovo neprimetno, započeo jedan od najznačajnijih životnih puteva srpskog srednjeg veka."
+    },
+    {
+      "type": "paragraph",
+      "text": "Rastko je rođen oko 1175. godine, kao treći i najmlađi sin Stefana Nemanje i njegove žene Ane, koja je u monaštvu primila ime Anastasija. Tačnu godinu rođenja izvori ne beleže pouzdano; neki istraživači predlažu nešto raniji datum, drugi nešto kasniji. Detinjstvo je proveo na očevom dvoru, među starijom braćom Vukanom i Stefanom, u svetu u kome se učila i borba i pismenost, i lov i molitva. Njegovi rani biografi, monah Domentijan i hilandarski monah Teodosije, slikaju ga kao tihog dečaka, sklonog knjizi i razmišljanju, ali tu sliku treba čitati oprezno — njihova dela nastala su mnogo decenija kasnije, sa namerom da ispričaju život sveca, a ne dečaka."
+    },
+    {
+      "type": "paragraph",
+      "text": "Kad je Rastko porastao do uzrasta u kome je knežević mogao da preuzme neku odgovornost, otac mu je poverio Hum — oblast koja otprilike odgovara današnjoj Hercegovini i delovima jadranskog zaleđa. To je bilo uobičajeno za vladajuće porodice tog doba: najmlađi sin nije morao da čeka nasledstvo, nego je dobijao svoju oblast da njome upravlja, da uči poslove vlasti i da pred očima oca i braće stekne ime. Hum je u to vreme bio značajan po izlazu ka moru, po trgovini sa primorskim gradovima i po susedstvu sa različitim kulturnim i verskim sredinama. Za jednog mladog kneževića to je bila i čast i ozbiljna škola."
+    },
+    {
+      "type": "paragraph",
+      "text": "Uporedo sa tim, na dvoru su se vodili razgovori o njegovom braku. Aristokratski brak nije bio samo lična stvar — bio je politički potez kojim su se sklapali savezi i učvršćivala granica. Rastko je tako, po svemu sudeći, bio na pragu života koji su mu drugi pažljivo planirali: oblast, žena, naslednici, mesto u dinastiji. Sve ono što je tada značilo uspeti."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Beg na Svetu Goru"
+    },
+    {
+      "type": "paragraph",
+      "text": "A onda je, negde oko 1192. godine, u svojoj sedamnaestoj godini, Rastko taj plan napustio. Tajno je otišao iz Huma — prema svedočanstvima žitija, u pratnji jednog svetogorskog monaha koji se zatekao na dvoru — i uputio se na Svetu Goru, monašku republiku na poluostrvu Atos, u severnoj Grčkoj. Tamo se zaustavio u ruskom manastiru Svetog Pantelejmona, gde je primio postrig i sa kosom odsekao i ime: od Rastka je postao monah Sava."
+    },
+    {
+      "type": "paragraph",
+      "text": "Najpoznatiji deo te priče tiče se očeve reakcije. Po žitijima koja su sastavili Domentijan i Teodosije, Nemanja je, čim je saznao kuda mu je sin otišao, poslao za njim naoružane ljude da ga vrate kući. Rastko je u manastiru jedva stigao da bude postrižen pre nego što su ga sustigli; kad su izaslanici stigli, dočekao ih je već kao monah Sava, i predao im svoju odsečenu kosu i svoje kneževske haljine da ih odnesu ocu kao znak da povratka nema. Otišli su praznih ruku. To je dramatičan prizor — i upravo zato treba reći otvoreno: dramatika tih scena delom pripada hagiografskom predanju trinaestog veka, koje je voljno isticalo svako čudo i svako preokretanje u životu budućeg sveca. Sama činjenica monašenja, međutim, pouzdana je i nesporna."
+    },
+    {
+      "type": "paragraph",
+      "text": "Kratko po postrigu Sava je iz ruskog manastira prešao u grčki Vatoped, jedan od velikih svetogorskih manastira tog doba. Tamo je proveo niz godina kao običan monah, učeći grčki jezik i bogoslužbeni red, upoznajući isihastičku tradiciju i pravila zajedničkog života. Za sina velikog župana to je bio radikalan obrt: od kneževića sa svojom oblašću do bezimenog monaha koji posluša, ćuti i radi. Upravo taj period — godine tihog rada bez titula — oblikovao je čoveka koji će kasnije, sa drugačijim autoritetom, vratiti se u srpsku istoriju."
+    },
+    {
+      "type": "paragraph",
+      "text": "Za savremenike, Savin izbor morao je delovati zbunjujuće. Kneževići nisu bežali u manastir; oni su vladali, ratovali, sklapali brakove i gradili zadužbine. Javno odricanje od sveta, i to u sedamnaestoj godini, bilo je gest koji se nije lako mogao protumačiti političkim računom. Ako je nešto pokazivao, pokazivao je da postoji vrednost koja stoji iznad porodičnih planova i državnih obzira. Ta tiha izjava biće temelj svega što Sava kasnije bude radio — od povratka u Srbiju i osnivanja Hilandara sa ocem, do utemeljenja samostalne srpske crkve. Ali to su naredne lekcije. Za sada je dovoljno reći: u nekom trenutku oko 1192. godine, jedan dečak po imenu Rastko prestao je da postoji, a u tihim ćelijama Svete Gore počeo je da živi monah po imenu Sava."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

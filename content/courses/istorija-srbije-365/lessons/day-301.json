@@ -6,13 +6,49 @@
   "dayNumber": 301,
   "order": 14,
   "title": "Oslobođenje Srbije 1918.",
+  "subtitle": "Od proboja Solunskog fronta do ulaska u Beograd 5. novembra — i otvorenog pitanja kakva će država nastati",
   "readingTimeMinutes": 8,
   "year": 1918,
-  "isPlaceholder": true,
+  "dateLabel": "oktobar–novembar 1918.",
+  "timelinePosition": "oktobar–novembar 1918.",
+  "summary": "Posle proboja Solunskog fronta i bugarskog sloma srpska vojska za nekoliko nedelja oslobađa zemlju i 5. novembra ulazi u Beograd, dok se u pozadini raspada Austrougarska i otvara pitanje nove države.",
+  "keyPeople": ["kralj Petar I", "regent Aleksandar", "vojvoda Živojin Mišić", "vojvoda Petar Bojović"],
+  "keyPlaces": ["Beograd", "Niš", "Skoplje", "Novi Sad"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Petnaestog septembra 1918. saveznička vojska je na Solunskom frontu probila bugarsku odbranu na Dobrom Polju, a već 29. septembra Bugarska je potpisala primirje u Solunu i izašla iz rata. Time je u jugoistočnoj Evropi pukla cela linija Centralnih sila — između srpske vojske i predratne otadžbine nije više stajala čvrsta fronta, nego samo prostor, putevi i vreme. Ono što je u Solunu zvučalo kao još jedna operacija, na Balkanu se odjednom pretvorilo u trku ka severu: ko će prvi doći do Dunava, do Save, do Beograda."
+    },
+    {
+      "type": "paragraph",
+      "text": "Srpske jedinice, koje su tri godine čekale ovaj trenutak, krenule su napred sa žestinom koja je iznenadila i same saveznike. Prva i Druga armija — pod komandom vojvode Petra Bojovića i vojvode Stepe Stepanovića — probijale su se planinskim klancima Makedonije i Stare Srbije, dok je Konjička divizija jurišala napred kao prethodnica. Tih nedelja konjički pukovi prelazili su, prema sopstvenim izveštajima, i do četrdeset i pedeset kilometara dnevno, često bez snabdevanja, oslanjajući se na ono što bi seljaci usput dali. Skoplje je oslobođeno 29. septembra, istog dana kada je Bugarska potpisala primirje; Niš, prva ratna prestonica, ušao je u srpske ruke 12. oktobra. Za njima su brzo padali Kruševac i Kragujevac."
+    },
+    {
+      "type": "paragraph",
+      "text": "Austrougarska i nemačka vojska, koje su zajedno držale Srbiju od jeseni 1915, povlačile su se u sve većem rasulu. Disciplina je popuštala, vojnici slovenskih naroda monarhije masovno su odbijali da se dalje bore, a u nekim mestima okupacione vlasti su nestale pre nego što je srpska prethodnica stigla. Stanovništvo je tri godine živelo pod stranom upravom — sa internacijama, rekvizicijama i takozvanim Topličkim ustankom 1917. svežim u sećanju — i ulazak srpske vojske dočekivan je u selima i varošima sa zvonima, suzama i hlebom. Bili su to istinski prizori oslobođenja, ne propagandne slike."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Ulazak u Beograd"
+    },
+    {
+      "type": "paragraph",
+      "text": "Petog novembra 1918. srpske jedinice ušle su u Beograd. Grad je bio razrušen, mostovi srušeni, mnogi kvartovi opustošeni — Beograd je u ratu bio bombardovan već prvog dana, avgusta 1914, i otada više puta. Ipak, ono što su građani videli bilo je nezaboravno: u prestonicu su, među prvim jedinicama, ulazili kralj Petar I, regent Aleksandar i vojvoda Živojin Mišić. Stari kralj, već bolestan i izmoren izgnanstvom, vraćao se u grad iz kojeg je oktobra 1915. otišao kroz albanske planine. Iza njega je bila vojska koja je od krhotina obnovljena na Krfu i u Solunu, sada već priznata kao jedna od ratnih sila pobednica."
+    },
+    {
+      "type": "paragraph",
+      "text": "Dok je srpska vojska ulazila u Beograd, sama Austrougarska monarhija raspadala se brzinom koja je zatekla i njene najljuće protivnike. Šestog oktobra 1918. u Zagrebu je formirano Narodno vijeće Slovenaca, Hrvata i Srba, a 29. oktobra hrvatski Sabor je raskinuo državnopravne veze sa Bečom i Peštom i proglasio Državu Slovenaca, Hrvata i Srba. Na ulicama Zagreba, Ljubljane i Sarajeva srpsko stanovništvo izlazilo je sa trobojkama; istovremeno je italijanska vojska sa zapada ulazila u Istru i Dalmaciju, pozivajući se na obećanja iz Londonskog ugovora 1915. Time je novonastala Država SHS — bez vojske, bez priznanja, ugrožena sa zapada — bila prinuđena da brzo traži dogovor sa Beogradom."
+    },
+    {
+      "type": "paragraph",
+      "text": "Srpska vojska je u međuvremenu nastavljala napredovanje preko Drine i Save, ulazeći u Bosnu, Srem i Vojvodinu. Do sredine novembra držala je celu predratnu srpsku teritoriju, Vojvodinu, veliki deo Bosne, Crnu Goru i Makedoniju. Jedanaestog novembra Nemačka je u Kompijenu potpisala primirje i Veliki rat je na zapadnom frontu zvanično bio završen. Politički, najkrupnije odluke padale su gotovo iz dana u dan. Dvadeset četvrtog novembra Velika narodna skupština Srba, Bunjevaca i ostalih Slovena u Novom Sadu izglasala je priključenje Banata, Bačke i Baranje Kraljevini Srbiji. Dva dana kasnije, 26. novembra, sporna Podgorička skupština svrgnula je dinastiju Petrović-Njegoš i proglasila ujedinjenje Crne Gore sa Srbijom — odluka koja će decenijama izazivati otpor jednog dela crnogorskog naroda i ostati među najspornijim trenucima te jeseni."
+    },
+    {
+      "type": "paragraph",
+      "text": "Lako je o ovim nedeljama govoriti samo kao o trijumfu, i one to jesu bile — vojska koja je 1915. izašla preko Albanije vraćala se kao deo savezničke pobedničke koalicije, predvodnica jedne nove i mnogo veće države u nastajanju. Ali iza paradnog koraka stajao je niz otvorenih pitanja. Kakvi će biti odnosi između Beograda i Zagreba, ko ima pravo da govori u ime „naroda”, kako će se rešiti pitanje crnogorskog prestola, kako će se uskladiti pravoslavna, katolička i muslimanska tradicija u istoj državi — sve je to ostajalo na stolu. Vojničko oslobođenje bilo je dovršeno, politički okvir tek je trebalo izgraditi. Za to je trebalo sačekati još svega nekoliko dana: prvog decembra 1918. u Beogradu će biti proglašeno Kraljevstvo Srba, Hrvata i Slovenaca. Tada počinje jedna drugačija istorija — i jedna drugačija priča."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

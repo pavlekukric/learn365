@@ -6,13 +6,49 @@
   "dayNumber": 312,
   "order": 10,
   "title": "Namesništvo i knez Pavle",
+  "subtitle": "Sedam godina u kojima je obrazovani, ali oprezni kraljev rođak vodio Jugoslaviju kroz nemoguć međunarodni položaj",
   "readingTimeMinutes": 7,
   "year": 1935,
-  "isPlaceholder": true,
+  "dateLabel": "1934–1941.",
+  "timelinePosition": "1934–1941.",
+  "summary": "Od ubistva kralja Aleksandra u Marselju do izbijanja rata, Jugoslavijom upravlja namesništvo na čelu sa knezom Pavlom Karađorđevićem — period kompromisa sa Hrvatima i sve težeg balansiranja između Britanije, Italije i nacističke Nemačke.",
+  "keyPeople": ["knez Pavle Karađorđević", "Petar II Karađorđević", "Milan Stojadinović", "Dragiša Cvetković", "Vlatko Maček"],
+  "keyPlaces": ["Beograd", "Zagreb"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Kada je kralj Aleksandar oktobra 1934. ubijen u Marselju, jugoslovenski presto pripao je njegovom najstarijem sinu Petru — dečaku od jedanaest godina, koji se školovao u Engleskoj i nije mogao sam da preuzme vlast. Aleksandar je još za života, u tajnom testamentu, predvideo upravo taj trenutak. Odredio je trojicu namesnika koji će u Petrovo ime voditi državu do njegove punoletnosti: kraljevog brata od strica princa Pavla Karađorđevića kao prvog i najvažnijeg člana, lekara dr Radenka Stankovića i vojnika Iva Perovića kao dvojicu pratećih ljudi od poverenja. Stanković i Perović bili su sigurni glasovi režima, ali stvarna težina pala je na jednog čoveka. Knez Pavle je od prvog dana postao faktički šef države, i takav će ostati narednih sedam godina."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pavle je po vaspitanju i naravi bio sušta suprotnost ubijenom kralju. Školovan u Oksfordu, govornik više jezika, prijatelj engleske kraljevske porodice, ozbiljan kolekcionar evropske umetnosti — on je u Beogradu osnovao Muzej kneza Pavla, današnji Narodni muzej Srbije, i mnogo dela iz svoje zbirke poklonio državi. Po sklonostima je bio izrazito proengleski orijentisan i kulturom blizak Zapadu. U politici, međutim, nije bio borac ni karizmatičar. Bio je oprezan, izbegavao je oštre poteze, više je verovao ličnoj diplomatiji nego strankama i parlamentu. Mnogi savremenici i kasniji istoričari opisali su ga kao čoveka koji je razumevao u kakvom se položaju nalazi, ali nije imao snagu — ili je nije hteo upotrebiti — da iz tog položaja izvuče državu."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Stojadinović i sporazum sa Hrvatima"
+    },
+    {
+      "type": "paragraph",
+      "text": "Sredinom 1935. godine knez Pavle je za predsednika vlade postavio Milana Stojadinovića, ekonomistu i bankara iz redova starih radikala. Stojadinović je formirao novu stranku — Jugoslovensku radikalnu zajednicu, skraćeno JRZ — kao koaliciju srpskih radikala, slovenačkih klerikalaca oko Antona Korošca i muslimanske Jugoslovenske muslimanske organizacije Mehmeda Spaha. Bila je to pokušaj da se Aleksandrova jugoslovenska ideja održi novim sredstvima, blažim od diktature, ali bez stvarnog višestranačkog života. Stojadinović je vladao energično i samouvereno, sa dosta sklonosti ka spoljnoj reprezentaciji; pregovore sa hrvatskim vođom Vlatkom Mačekom, predvodnikom najjače opozicije, vodio je dugo ali bez rezultata. Zamoren tim neuspehom i ne baš zadovoljan njegovim sve izraženijim ličnim ambicijama, knez Pavle ga je februara 1939. smenio."
+    },
+    {
+      "type": "paragraph",
+      "text": "Novi premijer Dragiša Cvetković dobio je jasan zadatak — postići sporazum sa Mačekom po svaku razumnu cenu. Avgusta 1939. godine, samo nekoliko dana pre nemačkog napada na Poljsku, sporazum je potpisan. Time je stvorena Banovina Hrvatska, posebna upravna jedinica koja je obuhvatila Savsku i Primorsku banovinu sa delovima Bosne i Dalmacije. Zagreb je dobio sopstvenu vladu sa banom na čelu, sopstveni sabor i nadležnost nad unutrašnjim poslovima, prosvetom, sudstvom, poljoprivredom i delom finansija. U Hrvatskoj je sporazum pozdravljen kao priznanje narodne posebnosti; u Srbiji je primljen sa mešavinom razočaranja i zbunjenosti. Srpski centralisti smatrali su da je previše ustupljeno bez odgovarajuće reorganizacije ostatka države. Deo srpskih političkih krugova počeo je tada da govori o „srpskoj banovini” koja bi obuhvatila Vojvodinu, Bosnu i Crnu Goru, ali ta zamisao nije se ostvarila pre rata. Sporazum Cvetković–Maček ostao je, uz svu krhkost, verovatno najveći domaći politički napor da se Jugoslavija stabilizuje u celom međuratnom periodu."
+    },
+    {
+      "type": "paragraph",
+      "text": "U spoljnoj politici Pavle je nasledio dobre odnose sa Francuskom i Malom antantom, ali svet oko Jugoslavije se naglo menjao. Posle prvih godina nastavka starih saveza, knez se trudio da državu drži između Londona i Berlina, sve manje sa Parizom. Godine 1937. potpisan je sporazum o „večnom prijateljstvu” sa Italijom — pokušaj da se umiri najopasniji jadranski sused, koji je deceniju ranije podržavao ustaške emigrante. Istovremeno je nemačka privredna prisutnost rasla iz godine u godinu. Pred sam rat oko polovine jugoslovenske spoljne trgovine išlo je preko Nemačke, koja je kupovala srpsko žito, rumunsku naftu i bosanske rude, i zauzvrat slala industrijske proizvode. Ekonomski lanac bio je tako čvrst da ga nije bilo lako preseći ni kad bi se to političkim glavama htelo."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pad Francuske u junu 1940. uklonio je poslednji veliki kontinentalni oslonac jugoslovenske diplomatije. Britanija je sada bila daleka i sama u ratu sa Nemačkom; Italija je već ušla u rat i pretila sa Jadrana; Sovjetski Savez je u to vreme bio u paktu sa Hitlerom i nije nudio zaštitu. Nemačka vojska postepeno je opkoljavala Jugoslaviju — Austrija je već bila Rajh, Češka pretvorena u protektorat, Mađarska i Rumunija približavale su se Berlinu, a u proleće 1941. nemački vojnici počeli su da ulaze i u Bugarsku. Knez Pavle je u tom obruču pokušavao da odlaže odluku, da kroz pregovore izvuče što više garancija pre nego što jasno stane na nečiju stranu. Sredinom marta 1941. postalo je očigledno da odlaganja više nema; sledeća lekcija pratiće kako je donesena odluka o pristupanju Trojnom paktu i šta se dogodilo odmah zatim."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sedam godina njegovog namesništva mogu se sažeti bez ideologizovanja. Knez Pavle je nasledio državu rascepljenu unutra i ugroženu spolja, sa krunom u rukama jednog deteta i sa ideologijom čiji se utemeljivač upravo bio survao u Marselju. Učinio je dva važna domaća poteza: pustio je da padne Stojadinovićev pokušaj očuvanja stare jugoslovenske matrice i prihvatio kompromis sa Hrvatima, ma koliko on bio nepotpun. U spoljnoj politici, međutim, suočio se sa zadatkom koji bi i mnogo većeg državnika prevazišao — držati neutralnu, ekonomski iscrpljenu zemlju između Hitlera i ostatka Evrope. Bio je obrazovan i pristojan čovek, ali ne i krupna politička figura. Istorija će ga upamtiti kao vladara koji je vodio Jugoslaviju u nemogućoj međunarodnoj poziciji — i kome je vremena, na kraju, ipak ponestalo."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

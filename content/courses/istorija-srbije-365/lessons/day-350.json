@@ -6,13 +6,49 @@
   "dayNumber": 350,
   "order": 1,
   "title": "Petooktobarske promene",
+  "subtitle": "Kako je 5. oktobra 2000. pao Miloševićev režim — i zašto je tranzicija koja je usledila bila teža nego taj dan",
   "readingTimeMinutes": 8,
   "year": 2000,
-  "isPlaceholder": true,
+  "dateLabel": "5. oktobar 2000.",
+  "timelinePosition": "5. oktobar 2000.",
+  "summary": "Posle osporenih predsedničkih izbora od 24. septembra 2000, masovne demonstracije 5. oktobra dovele su do pada Miloševićeve vlasti i ulaska Vojislava Koštunice u Predsedništvo, ali je tranzicija koja je usledila bila duga i bolna.",
+  "keyPeople": ["Slobodan Milošević", "Vojislav Koštunica", "Zoran Đinđić", "Velimir Ilić"],
+  "keyPlaces": ["Beograd", "Kolubara", "Skupština SRJ", "RTS"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Leta 2000. godine Slobodan Milošević je raspisao prevremene predsedničke izbore za Saveznu Republiku Jugoslaviju. Verovao je, prema svedočenjima njegovih saradnika, da je opozicija i dalje suviše podeljena da bi mu se mogla suprotstaviti, i da će mu izbori — održani 24. septembra — produžiti mandat i posle ratova devedesetih i posle NATO bombardovanja prethodne godine. Procena se pokazala kao pogrešna. Osamnaest stranaka, vrlo različitih po programu, već se okupilo u koaliciju pod imenom Demokratska opozicija Srbije, skraćeno DOS, i kao zajedničkog kandidata istaklo Vojislava Koštunicu — pravnika umerenih nacionalnih stavova, čoveka bez ličnih veza sa režimom i bez bogatstva, što je u tom trenutku bila važna preporuka."
+    },
+    {
+      "type": "paragraph",
+      "text": "Kampanja DOS-a vođena je drugačije od svih prethodnih. Operativni štab, kojim je najvećim delom vodio Zoran Đinđić, oslonio se na mrežu nezavisnih medija, na neformalnu organizaciju Otpor — studentski pokret nastao 1998. — i na hiljade lokalnih posmatrača koji je trebalo da brane glasove na biračkim mestima. Otporova stisnuta pesnica, ispisana na zidovima po celoj zemlji, i slogan „Gotov je” postali su prepoznatljivi i pre nego što su izbori održani. Prvi rezultati posle glasanja pokazali su ono što je opozicija očekivala: Koštunica je dobio više glasova od Miloševića, po podacima DOS-a već u prvom krugu sa apsolutnom većinom. Savezna izborna komisija, lojalna režimu, objavila je drugačije brojke i najavila drugi krug. Time je započela politička kriza koja se nije mogla rešiti pred sudovima."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sledećih nekoliko dana Srbija je živela u stanju opšte tenzije. U gradovima u unutrašnjosti počeli su mitinzi koje je teško bilo prebrojati. Posebno je važan bio štrajk rudara u rudniku uglja Kolubara, najvećem energetskom kompleksu zemlje: kada su rudari prekinuli kopanje, struja u Beogradu postala je upitna, a poruka je bila jasnija od svakog govora. Pokušaj policije da prekine štrajk završio se neuspehom — lokalno stanovništvo izašlo je da brani rudare, i ljudski lanac oko Kolubare ostao je netaknut. Tada je, kažu mnogi učesnici, prvi put postalo vidljivo da režim više nema potpuno poslušnu silu na koju može da računa do kraja."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Dan kada se Beograd slio u centar"
+    },
+    {
+      "type": "paragraph",
+      "text": "Za četvrtak, 5. oktobar, DOS je pozvao na veliki miting u Beogradu. Iz čitave Srbije krenule su kolone autobusa, kamiona i automobila. Najpoznatija među njima bila je kolona iz Čačka, koju je predvodio gradonačelnik Velimir Ilić; sa njom je putovao i točkaš Ljubisav Đokić sa svojim utovarivačem, mašinom nalik buldožeru koja će tog dana ući u kolektivno sećanje kao „buldožer 5. oktobra”. Policijske blokade na putevima ka prestonici probijene su, mestimično bez većeg otpora, mestimično uz kratke fizičke sukobe. Do podneva, centar Beograda bio je ispunjen ljudima čiji se broj procenjuje na nekoliko stotina hiljada — tačnu cifru niko nikada neće znati."
+    },
+    {
+      "type": "paragraph",
+      "text": "Glavna dva žarišta dana bila su Skupština SRJ na Trgu Nikole Pašića i zgrada Radio-televizije Srbije u Takovskoj ulici. Pred Skupštinom je posle podne došlo do sukoba: suzavac, kamenice, gomila koja se povlači i ponovo nadire. Posle nekoliko sati pritiska demonstranti su provalili u zgradu Skupštine; iz nje je vrlo brzo počeo da kulja dim. Slične scene odigrale su se i u Takovskoj, gde je RTS — godinama centralna poluga državne propagande — zauzet i delimično zapaljen. Te večeri, kasno, na Trgu Republike, Vojislav Koštunica obratio se okupljenima kao izabrani predsednik. Slobodan Milošević nije se pojavio u javnosti; sutradan, posle razgovora koji su uključivali i tadašnjeg ruskog ministra spoljnih poslova Igora Ivanova, priznao je izborni poraz."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ono što se 5. oktobra dogodilo često se naziva revolucijom, a često i prevratom. Obe reči nose koliko opisa toliko i tumačenja. Ono što je sigurno jeste da je promena u Beogradu izvedena uglavnom bez krvi — broj poginulih tog dana je veoma mali — i da je proizašla iz kombinacije izbornog rezultata, građanske mobilizacije i pucanja unutrašnje discipline u policiji i vojsci. Otpor, nezavisni mediji poput B92 i mreže ANEM, sindikati, lokalne samouprave koje je opozicija osvojila još na izborima 1996, mreža stranih posmatrača i finansijskih podrški — sve je to bilo deo iste slike. Zbog toga je teško tačno reći ko je „srušio režim”; pošteno je reći da ga je srušilo više stvari u isti čas."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ono što je sledilo bilo je teže od onoga što je prethodilo. Vojislav Koštunica preuzeo je predsedničku funkciju, ali stvarni teret reformi pao je na Zorana Đinđića, koji je posle decembarskih republičkih izbora postao predsednik Vlade Srbije početkom 2001. Mnoge strukture starog poretka — službe bezbednosti, deo policije, mreže privatizacionih i ratnih dobitnika devedesetih — nisu nestale 5. oktobra. Slobodan Milošević uhapšen je u Beogradu krajem marta 2001, a krajem juna iste godine, mimo odluke Saveznog ustavnog suda i uz oštru političku raspravu, izručen je Međunarodnom krivičnom sudu za bivšu Jugoslaviju u Hagu, gde će umreti 2006. ne dočekavši kraj procesa. Atentat na premijera Đinđića u martu 2003. pokazaće koliko su otpor i opasnost u dubini sistema ostali. Zato Petooktobarske promene najtačnije nije gledati kao kraj jednog vremena, nego kao tačku u kojoj je počeo dug, neravan i još uvek nedovršen pokušaj Srbije da izađe iz devedesetih."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

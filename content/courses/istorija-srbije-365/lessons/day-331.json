@@ -6,13 +6,57 @@
   "dayNumber": 331,
   "order": 3,
   "title": "Sukob sa Informbiroom 1948.",
+  "subtitle": "Kako se Jugoslavija odvojila od Staljina, izdržala blokadu Istočnog bloka i platila tu cenu Golim otokom",
   "readingTimeMinutes": 8,
   "year": 1948,
-  "isPlaceholder": true,
+  "dateLabel": "1948–1955.",
+  "timelinePosition": "1948–1955.",
+  "summary": "Raskid Tita i Staljina 1948. izbacio je Jugoslaviju iz Istočnog bloka i okrenuo je ka Zapadu, ali je u zemlji ostavio tragove represije čiji je simbol Goli otok.",
+  "keyPeople": ["Josip Broz Tito", "Josif Visarionovič Staljin", "Edvard Kardelj", "Aleksandar Ranković", "Milovan Đilas", "Nikita Hruščov"],
+  "keyPlaces": ["Beograd", "Moskva", "Bukurešt", "Goli otok", "Washington"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Posle 1945. Jugoslavija je u istočnoj Evropi izgledala kao najodaniji Staljinov đak. Sama je izvojevala revoluciju, bez sovjetske vojske na svojoj zemlji, i sama je gradila partijsku državu po sovjetskom uzoru. Upravo ta činjenica — da je Tito imao sopstvenu legitimaciju, sopstvenu armiju i sopstvenu pobedu iz rata — postaće 1948. kamen spoticanja. Kada se Moskva najednom okrenula protiv Beograda, nije bilo posredi neka jeretička ideja, nego pitanje ko, na kraju, određuje pravac jednoj socijalističkoj zemlji."
+    },
+    {
+      "type": "paragraph",
+      "text": "Trvenja su počela tiho tokom 1947. i u prvim mesecima 1948. Jugoslovenska partija vodila je sopstvenu spoljnu politiku: pomagala je grčkim komunistima u građanskom ratu, uvodila se ekonomski i vojno u Albaniju, razgovarala sa Bugarskom o mogućoj balkanskoj federaciji, branila Trst od italijanskih pretenzija. Sve je to bilo previše samostalno za Staljina, koji je tek delio sfere uticaja sa Zapadom i nije želeo da mu jedan mlađi saveznik samostalno radi na osetljivim mestima. Sovjetski vojni i ekonomski savetnici u Jugoslaviji javljali su da se njihov uticaj ne prima kao u Sofiji ili Pragu, već se uljudno odbija. Krajem marta 1948. Moskva ih je povukla."
+    },
+    {
+      "type": "paragraph",
+      "text": "Tada je počela razmena pisama između Centralnog komiteta SKP(b) i Centralnog komiteta KPJ. U dva navrata, u martu, aprilu i maju, stigla su iz Moskve oštra pisma puna optužbi: KPJ navodno skreće u nacionalizam, dopušta da nekomunisti utiču na partiju, neprijateljski se odnosi prema SSSR-u i svojim sovjetskim saveznicima. Jugoslovenski odgovori bili su odmereni, ali odlučni — odbacivali su tvrdnje kao netačne i molili da se nesporazum reši razgovorom. Razgovora nije bilo. U Moskvi se računalo da će partijski aparat u Beogradu, kao u drugim glavnim gradovima istočne Evrope, na prvi pritisak smeniti vlastite vođe. To se nije dogodilo."
+    },
+    {
+      "type": "paragraph",
+      "text": "Razrešenje je došlo 28. juna 1948. u Bukureštu. Tog dana — simbolično na Vidovdan — Informacioni biro komunističkih i radničkih partija, takozvani Informbiro, objavio je Rezoluciju kojom je KPJ izbačena iz svojih redova. Optužbe su bile teške: skretanje s marksizma-lenjinizma, neprijateljska politika prema Sovjetskom Savezu, terorizam u partiji, kulačko popuštanje na selu. Jugoslovensko rukovodstvo nije bilo pozvano da prisustvuje. Rezolucija je u stvari bila poziv „zdravim snagama” u samoj KPJ da svrgnu Tita. Umesto toga, partija je gotovo jednoglasno stala uz svoje vodstvo. Tito, Kardelj, Ranković i Đilas javno su odbacili optužbe i pozvali zemlju na otpor."
+    },
+    {
+      "type": "paragraph",
+      "text": "Posledice su odmah bile žestoke. Sve zemlje Istočnog bloka prekinule su trgovinske ugovore sa Jugoslavijom, povukle stručnjake, zatvorile granice. Na granicama prema Mađarskoj, Rumuniji, Bugarskoj i Albaniji počele su provokacije i incidenti — procene govore o više hiljada graničnih sukoba u narednim godinama. Propagandni rat bio je svakodnevan: radio-stanice iz Bukurešta i Praga, na srpskom i hrvatskom jeziku, pozivale su na rušenje „titoističke klike”. Privreda, koja je bila vezana za istočna tržišta, našla se na ivici. Petogodišnji plan iz 1947. pokazao se preambicioznim u novim okolnostima, a zemlja je u dve godine prošla kroz tešku ekonomsku krizu, sa nestašicama hrane i sirovina."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Goli otok i obrt ka Zapadu"
+    },
+    {
+      "type": "paragraph",
+      "text": "U zemlji se istovremeno odvijala druga, mračnija strana sukoba. Ko god je u partiji ili van nje bio osumnjičen da podržava Staljina — takozvani „informbirovci” — hapšen je bez suda, isključivan iz partije, slat na izdržavanje kazne. Najpoznatije mesto te represije postao je Goli otok, kameniti, bezvodni ostrvski logor u severnom Jadranu, otvoren 1949. Tu su, kroz strogu izolaciju, prinudni rad u kamenolomu i sistem međusobnog mučenja zatočenika, prošli — prema procenama koje variraju — između šesnaest i dvadeset pet hiljada ljudi u prvom talasu, do 1956. Mnogi nisu preživeli; mnogi su izašli slomljeni. Goli otok je bio jugoslovenski odgovor na sovjetski gulag — manjeg obima, ali iste prirode. O njemu se decenijama ćutalo i ozbiljnije se počelo govoriti tek posle Titove smrti 1980."
+    },
+    {
+      "type": "paragraph",
+      "text": "Spolja, međutim, sukob je doneo nešto što niko u Beogradu nije planirao: otvaranje ka Zapadu. Već 1949. Vašington, pod predsednikom Trumanom, doneo je odluku da Jugoslaviji, iako komunističkoj, treba pomoći — jer svaka pukotina u Staljinovom bloku služi zapadnom interesu. Kroz program ekonomske pomoći, a od 1951. i ograničene vojne pomoći, u zemlju je počela da stiže hrana, sirovine, kasnije i oprema. Tito je tu pomoć primao, ali je odbijao da pristupi NATO-u ili da napusti jednopartijski sistem. Tako je nastala neobična pozicija: komunistička država koja sarađuje sa Zapadom, brani sopstveni socijalistički model i razvija sopstvenu doktrinu samoupravljanja kao razlikovni znak prema sovjetskom uzoru."
+    },
+    {
+      "type": "paragraph",
+      "text": "Normalizacija sa Moskvom došla je posle Staljinove smrti 1953. U maju 1955. Nikita Hruščov je doputovao u Beograd i na aerodromu, pred kamerama, priznao da je Rezolucija iz 1948. bila greška — krivicu je svalio na Beriju i nekadašnji aparat. Naredne godine Informbiro je tiho ukinut. Jugoslavija je vratila normalne odnose sa istočnim susedima, ali svoj kurs više nije menjala. Iz raskida iz 1948. izrasla je politika koja će krajem decenije, u Bandungu i Beogradu, dobiti svoje ime — nesvrstanost. Bez 1948. tog mesta u svetu Jugoslavija ne bi imala."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sukob sa Informbiroom ostaje, kada se posle sedamdeset i više godina pogleda mirno, događaj sa dva lica. Jedno je odbijanje Tita i jugoslovenskog rukovodstva da prihvate ulogu satelita — i u tome je, koliko god ostatak režima bio sporan, sačuvana državna samostalnost koja je celu drugu polovinu veka odredila drugačije nego u Bukureštu ili Sofiji. Drugo lice je Goli otok i hiljade ljudi koje je ista vlast žrtvovala u ime svoje pobede. Oba ova lica pripadaju istoj 1948. godini i istoj partiji, i obe ih treba pamtiti zajedno, bez biranja onog koje nam je ugodnije."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

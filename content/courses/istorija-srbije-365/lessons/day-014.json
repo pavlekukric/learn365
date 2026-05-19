@@ -6,13 +6,53 @@
   "dayNumber": 14,
   "order": 3,
   "title": "Tračani",
+  "subtitle": "Istočni susedi Ilira — srodna plemena, zlatari Balkana i narod o kome su Grci pisali sa divljenjem i strahom",
   "readingTimeMinutes": 7,
   "year": -500,
-  "isPlaceholder": true,
+  "dateLabel": "gvozdeno doba",
+  "timelinePosition": "~500. p. n. e.",
+  "summary": "Tračani su skup srodnih plemena istočnog Balkana — od Morave preko današnje Bugarske do severne Grčke — poznati po raskošnoj metalurgiji, Odriskom kraljevstvu i kultu koji je grčkom svetu darovao Dionisa i Orfeja.",
+  "keyPeople": ["Spartak"],
+  "keyPlaces": ["istočni Balkan", "Trakija", "istočna Srbija"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Istočno od Ilira, preko široke trake zemlje koja se proteže od doline Morave, preko današnje Bugarske, sve do severnih obala Egeja, živeo je svet koji su Grci u svojim spisima zvali jednim imenom — Tračani. To ime nije označavalo jedan narod sa jednim kraljem i jednom prestonicom, nego mnoštvo srodnih plemena, povezanih jezikom, verovanjima i običajima, ali često razdvojenih sopstvenim poglavarima i sopstvenim ratovima. Za grčke pisce su bili istovremeno bliski i strani: bliski jer su ih sretali na svakom severnom putu, strani jer ih nikada nisu sasvim razumeli."
+    },
+    {
+      "type": "paragraph",
+      "text": "Tračani su u zapisanu istoriju ušli vrlo rano. Već Homer ih u „Ilijadi” pominje kao saveznike Troje — ratnike sa severa koji dolaze u pomoć opsednutom gradu. Time njihovo ime izranja iz mraka praistorije zajedno sa najstarijim slojem grčke književnosti. To, naravno, ne znači da su Tračani postali narod tek tada; znači samo da ih je grčki svet od najranijih vremena prepoznavao kao zaseban, imenovan svet sa one strane svojih severnih granica."
+    },
+    {
+      "type": "paragraph",
+      "text": "Tračka plemena su bila brojna i raznolika. Antički pisci nabrajaju desetine imena — Bese, Gete, Odrise, Tribale i druge — od kojih su neka stizala do velike političke moći, a druga ostajala u senci svojih moćnijih suseda. Najpoznatija politička tvorevina celog tračkog sveta bilo je Odrisko kraljevstvo, koje se uobličilo u petom veku pre nove ere u dolini reke Marice. Pod sposobnim vladarima ono je nakratko ujedinilo veliki deo istočnog Balkana i postalo ozbiljan sagovornik Atine i drugih grčkih polisa. Ali ni Odrisko kraljevstvo nije bilo trajno; ono je više ličilo na savez plemena oko jakog vladara nego na čvrstu državu modernog tipa, pa se sa smenom vladara menjala i njegova snaga."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Zlato, vino i bogovi"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ako je za Ilire karakteristično ratničko držanje, za Tračane je gotovo jednako prepoznatljiva — raskoš. Tračka metalurgija spada u najlepše što je gvozdeno doba Evrope iza sebe ostavilo. Iz zemlje su izronile zbirke poput čuvenog blaga iz Panađurišta i nalaza iz Letnice — oba u današnjoj Bugarskoj, ali u kulturnom krugu koji je dopirao i u istočnu Srbiju. Reč je o posudama, peharima i nakitu od zlata i srebra, ukrašenim prizorima bogova, životinja i ratnika, izrađenim sa preciznošću koja ni danas ne deluje zastarelo. Iza tih predmeta stoji društvo koje je imalo i sirovine, i veštinu, i naručioce dovoljno bogate da takve stvari poseduju."
+    },
+    {
+      "type": "paragraph",
+      "text": "Religija Tračana ostala je dobrim delom u domenu nagađanja, jer je grčki svet o njoj pisao sa svojom merom razumevanja. Sigurno je da su poštovali bogove prirode — sunca, šuma, reka i planina — i da su imali snažan kult heroja, ljudi koji su posle smrti postajali zaštitnici svojih zajednica. Grčki izvori njihovoj zemlji pripisuju i poreklo Dionisa, boga vina i zanosa, kao da su njegovo divlje, ekstatično lice prepoznali kao nešto što je u Heladu stiglo sa severa. Na tračko tlo smeštali su i lik Orfeja, legendarnog pevača čije su pesme krotile zveri i otvarale kapije podzemnog sveta. Da li su Dionis i Orfej zaista tračkog porekla — to je pitanje koje istoričari religije i dalje raspravljaju; sigurno je samo da su sami Grci verovali da jesu, i u tome svedočili o snazi tračke duhovne baštine."
+    },
+    {
+      "type": "paragraph",
+      "text": "Na tlu današnje istočne Srbije najistaknutije pleme antičkog doba bili su Tribali. Njihovo središte ležalo je u širem području između Morave i današnje zapadne Bugarske, a njihovo ime grčki i rimski pisci pominju vekovima. Da li su Tribali bili Tračani, ili mešavina tračkog i ilirskog stanovništva — naučnici nisu jednoglasni. Jedni ih, na osnovu jezičkih i kulturnih tragova, ubrajaju u tračku porodicu; drugi ih vide kao posebnu, mešovitu zajednicu na granici dva sveta. Pošteno je tu nesigurnost priznati: granice među starim balkanskim narodima nisu bile oštre, nego klizave i pune prelaza."
+    },
+    {
+      "type": "paragraph",
+      "text": "Slika koju o Tračanima ostavljaju grčki i rimski pisci često je obojena predrasudom. Voleli su da ih prikažu kao surove ratnike sklone vinu, pesmi i divljim svetkovinama — kao neku vrstu egzotičnog severa koji svojom žestinom potvrđuje mirnoću juga. Arheologija, međutim, taj romantizovani sliku ozbiljno koriguje. Iza zlatnih pehara i utvrđenih naselja stoji svet zemljoradnika, stočara i zanatlija, vezan trgovinom za Egej i centralnu Evropu — daleko od stereotipa o „divljacima sa severa”. Stereotip o tračkoj žestini živeo je i u rimsko doba: najpoznatiji čovek tračkog porekla u antičkoj istoriji ostao je Spartak, vođa velikog ustanka robova u Italiji 73. godine pre nove ere, koji je svoju veštinu, kažu izvori, doneo upravo iz tračkih ratničkih škola."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sami Tračani o sebi nisu ostavili pisane spise. Njihov jezik poznajemo samo iz kratkih natpisa i iz imena ljudi, plemena, reka i planina, sačuvanih kod tuđih pisaca. Toliko je oskudna ta građa da puna rekonstrukcija tračkog jezika danas nije moguća; ostaju nam tek odjeci, dovoljni da prepoznamo zaseban svet, ali ne i da ga čujemo kako sam govori. Sa nestankom političkih tvorevina i postepenom romanizacijom, tračka imena su se izgubila iz svakodnevice, ali su, kao i ilirska, ostala upisana u krajolik — u nazive reka i vrhova koje i danas izgovaramo, ne znajući da nam jezik nosi tragove ljudi izumrlih pre dve hiljade godina."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

@@ -6,13 +6,45 @@
   "dayNumber": 91,
   "order": 2,
   "title": "Hrana, odeća i običaji",
+  "subtitle": "Sto, ognjište i kalendar — kako se jelo, oblačilo i živelo u srednjovekovnoj Srbiji od 12. do 14. veka",
   "readingTimeMinutes": 7,
   "year": 1300,
-  "isPlaceholder": true,
+  "dateLabel": "12–14. vek",
+  "timelinePosition": "12–14. vek",
+  "summary": "Svakodnevni život srednjovekovne Srbije: hleb i posno jelo, vunena i lanena odeća, pravoslavni kalendar koji oblikuje godinu i stari običaji koje crkva ćutke trpi.",
+  "keyPeople": [],
+  "keyPlaces": [],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Ako bismo na trenutak ušli u srpsko selo s kraja 13. veka, prvo što bismo videli ne bi bila ni vojska ni manastir, već dim nad krovovima i miris hleba. Svakodnevni život srednjovekovne Srbije teško je opisati u sigurnim pojedinostima jer pisani izvori o običnom čoveku ćute mnogo više nego o vladarima i crkvi. Ono što znamo sastavljeno je iz povelja, žitija, putopisa stranaca, fresaka u zadužbinama i — opreznije — iz kasnijeg narodnog života koji se delom oslanja na srednjovekovne korene. Slika koja se na taj način sklapa nije fotografija, nego skica: dovoljna da nam dočara teksturu jednog vremena, ali ne i toliko detaljna da bismo smeli da preterujemo."
+    },
+    {
+      "type": "paragraph",
+      "text": "Osnov ishrane bio je hleb, a hleb je najčešće bio od raži ili ječma; pšenica je bila bolji izbor i češća u plodnijim oblastima i na vlastelinskim stolovima. Uz hleb se jela kaša od žitarica, kiselo mleko, sir, povremeno jaja. Meso je za seljaka bilo praznična hrana — jagnje i svinjetina za velike dane, govedina retko, dok su živina i jaja bili pristupačniji. Pored reka i na primorju riba je bila redovna, a uz nju leća, pasulj, luk, beli luk, kupus i korenasto povrće. Med je bio glavni zaslađivač, jer je pčelarstvo bilo rašireno; vinom su se posluživali jug i primorje, dok su se na severu češće pile medovina i pivo. So, bez koje nije bilo ni hleba ni očuvanja namirnica, dolazila je sa primorja i bila pažljivo nadzirana i oporezivana — strateški resurs koliko i hrana."
+    },
+    {
+      "type": "paragraph",
+      "text": "Više od polovine godine pravoslavni kalendar je nalagao post, i to oblikuje srednjovekovni jelovnik dublje nego bilo koja druga okolnost. U posne dane nije se jelo meso, jaja ni mlečno; kuhinja se okretala mahunarkama, povrću, ribi tamo gde je ima, i pripremanju namirnica koje se mogu sušiti, dimiti ili kiseliti. Tako je domaćica unapred mislila o godini: dimljeno meso za zimu, suvo voće, ukiseljeni kupus, slano i sušeno za posne nedelje. Ono što se danas vidi kao narodno umeće zimnice ima jedan od korena upravo u srednjovekovnom postu, koji je polovinu kalendara pretvarao u stalnu vežbu uzdržanja."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Odeća i kalendar"
+    },
+    {
+      "type": "paragraph",
+      "text": "Odeća je sledila razliku između sela i dvora jasnije nego išta drugo. Seljak je nosio platnenu, najčešće lanenu košulju i vunene gornje haljine, pojas i kapu; na nogama opanke od kože ili, gde je bilo drveta, drvene klompe. Žena je preko košulje nosila vunenu suknju i pregaču, a glava udate žene gotovo nikada nije bila otkrivena — marama ili kapa bili su znak položaja u kući i u zajednici. Vlastela se oblačila u finu vunu i svilu, koju su trgovci donosili iz Vizantije i italijanskih gradova; zimi je gornja haljina bila opšivena krznom, a nakit — zlatan kod najvišeg sloja, srebrn kod šireg plemstva — pokazivao je rang. Svečana dvorska nošnja sledila je vizantijsku modu: dugačke, gotovo kaftanske haljine s ukrasnim trakama. Najbolji svedoci tog izgleda su ktitorski portreti u zadužbinama, na kojima kraljevi, vlastela i njihove žene stoje u haljinama naslikanim s pažnjom dostojnom samog vladara."
+    },
+    {
+      "type": "paragraph",
+      "text": "Život čoveka bio je upisan u crkveni kalendar od prvog do poslednjeg dana. Krštenje, venčanje i poslednji obredi bili su pravoslavni; venčanje se počinjalo pred vratima hrama, a nastavljalo unutra, pred svetim oltarom. Uporedo s tim, u narodu su živeli i stariji običaji, nasleđeni iz predhrišćanskog sloja: poštovanje ognjišta i kućnih zaštitnika, žetveni obredi, određene svadbene radnje. Srednjovekovna crkva ih je velikim delom trpela, mireći ih sa hrišćanskom godinom umesto da ih kažnjava. Slava — porodični praznik posvećen svecu zaštitniku doma, koji će postati jedna od najprepoznatljivijih odlika srpskog pravoslavlja — u nekom obliku se već praktikovala u kasnom srednjem veku; tačno vreme njenog nastanka i konačnog uobličenja predmet je naučne rasprave, ali sama navika porodičnog praznika svecu bila je tada već raširena. Veliki praznici — Božić, Vaskrs, Vidovdan, Đurđevdan i Savindan — delili su godinu na razdoblja sa svojim mirisima, jelima i pesmama."
+    },
+    {
+      "type": "paragraph",
+      "text": "Najzad, postojali su i običaji koje danas zovemo društvenim, ali su tada bili gotovo zakonski obavezni. Gostoprimstvo prema putniku smatrano je dubokom dužnošću; uskratiti ga značilo je sramotu za kuću. Zakletva je imala težinu pisanog ugovora, a krvna osveta — stari slovenski običaj prema kome je porodica bila dužna da osveti ubijenog srodnika — preživela je u zaleđu još dugo, iako su je crkva i Dušanov zakonik nastojali da svedu i da je zamene novčanim ili sudskim namirenjem. Mnogo od onoga što ovde opisujemo poznato nam je, treba iskreno reći, preko kasnijeg narodnog života i etnografskih zapisa koji se unatrag projektuju na srednji vek; srednjovekovni izvori daju samo deo slike. Pa ipak, i taj deo dovoljan je da se nasluti svet u kome su hleb, post, vuna, ognjište i svetac zaštitnik činili okvir unutar kojeg se rađalo, radilo, ženilo i umiralo."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

@@ -6,13 +6,49 @@
   "dayNumber": 178,
   "order": 6,
   "title": "Pismenost i škole",
+  "subtitle": "Kako se u 17. i 18. veku, između osmanske oskudice i habzburškog rasta, polako oblikovao prvi sloj pismenih Srba",
   "readingTimeMinutes": 7,
   "year": 1750,
-  "isPlaceholder": true,
+  "dateLabel": "17–18. vek",
+  "timelinePosition": "17–18. vek",
+  "summary": "Sporo i nejednako širenje pismenosti i školstva među Srbima u 17. i 18. veku: od parohijskih škola i manastirskih ćelija do karlovačke gimnazije i bogoslovije.",
+  "keyPeople": ["Pavle Nenadović", "Maksim Suvorov"],
+  "keyPlaces": ["Sremski Karlovci", "Novi Sad", "Sentandreja", "Beč", "Budim"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Pismenost je u srpskim zemljama 17. i 18. veka bila redak, gotovo dragocen posed. Najveći deo stanovništva — seljaci pod osmanskom vlašću, stočari u brdima, kmetovi u ravnici — kroz ceo period nije znao ni da čita ni da piše. Procene su nužno grube, ali se slažu oko jednog: udeo pismenih među Srbima jedva da je u većini krajeva prelazio nekoliko procenata, a često je bio i znatno manji. Pismeni ljudi su se sretali u uskim, jasno omeđenim sredinama — među sveštenstvom, među malobrojnim gradskim trgovcima u habzburškim gradovima, u Boki i Dubrovniku, gde je primorska privreda zahtevala bar osnovno vođenje računa. Sve ostalo je bilo tama u kojoj se znanje prenosilo usmeno: pesmom, pričom, zanatom i običajem."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pod osmanskom upravom organizovanog srpskog školstva, u modernom smislu reči, gotovo nije ni bilo. Država nije imala interes da podiže škole za hrišćansku raju, a pravoslavna crkva, sama izložena pritiscima i preopterećena dažbinama, mogla je da održi tek najnužnije. Tamo gde je rad postojao, vodili su ga parohijski sveštenici — naučili bi dečake u selu da po psaltiru srkću slova crkvenoslovenskog pisma, da pevaju osmoglasnik, da prepoznaju liturgijske obrasce. To nije bila škola u smislu razreda, časa i godine, već povremeno, neformalno učenje uz crkvu, koje se prekidalo na žetvi i nastavljalo zimi. Manastiri su, kao i vekovima ranije, ostali ostrva pismenosti: u njima su se obučavali budući monasi, prepisivale su se knjige, čuvali se rukopisi, a poneki sposobniji mladić iz okoline tu je dobijao prvo, ozbiljnije znanje slova."
+    },
+    {
+      "type": "paragraph",
+      "text": "Na primorju je slika bila nešto drugačija. U Boki Kotorskoj, u Dubrovniku i u njegovom zaleđu, trgovačke porodice — često katoličke veroispovesti, ali i pravoslavne — slale su sinove u latinske gradske škole, kod franjevaca ili u domove imućnijih građana. Tu se učio latinski, italijanski, osnovi računa i tradicije pisanja koje su služile pomorskoj i trgovačkoj praksi. Sredine su bile male, ali su davale ljude koji su kasnije vodili kuće, pisali ugovore i, povremeno, objavljivali knjige. To su bile žive, ali brojčano skromne ćelije pismenosti — daleko od masovnosti, ali važne kao primer da se Srbi u različitim ambijentima različito obrazuju."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Habzburška škola i karlovački preokret"
+    },
+    {
+      "type": "paragraph",
+      "text": "Pravo, postupno širenje srpskih škola počelo je s druge strane — pod habzburškom vlašću, u prostoru u kojem su se po Velikoj seobi 1690. nastanile čitave porodice s patrijarhom Arsenijem III. Već krajem 17. i početkom 18. veka po srpskim selima i varošima Vojne krajine, Srema, južne Ugarske i Bačke niču parohijske škole — najčešće jednosobne brvnare ili zidanice uz crkvu, u kojima je predavao sveštenik ili „učitelj”, čoveka kog je opština uz veliki napor plaćala u žitu i kukuruzu. Program je bio uzak: crkvenoslovensko čitanje iz psaltira i časoslova, katihizis, osnovi računa, ponekad i pisanje. Disciplina je bila stroga, knjiga malo, ali se po prvi put pojavila ideja da pismenost ne treba da bude isključivo privilegija sveštenstva."
+    },
+    {
+      "type": "paragraph",
+      "text": "Glavni zaokret donele su 1720-e godine i ruska pomoć. Mitropoliti karlovački, svesni da im je bez školovanog sveštenstva i pismenih službenika teško održati crkvenu samostalnost, pozvali su učitelje i knjige iz Rusije. Najpoznatiji među njima bio je Maksim Suvorov, koji je 1726. u Sremskim Karlovcima otvorio „Slavjansku školu”, prvu organizovanu školu višeg reda kod Srba u habzburškoj monarhiji. Iz nje će se razviti i kasnija Slaveno-latinska škola. Ruski uticaj je doneo i jednu trajnu posledicu: na mesto starog srpsko-slovenskog jezika i pravopisa u crkvi i školi sve više je dolazio rusko-slovenski jezik, donet u ruskim bukvarima i bogoslužbenim knjigama. Bila je to korisna pomoć, ali i tihi prekid s domaćom jezičkom tradicijom — prekid koji će kasnije, u 19. veku, postati izvor velikih sporova i povod reformi Vuka Stefanovića Karadžića."
+    },
+    {
+      "type": "paragraph",
+      "text": "Vrhunac karlovačkog razvoja vezuje se za mitropolita Pavla Nenadovića, koji je između 1749. i 1768. školstvo i štampanu knjigu pretvorio u prvorazredan crkveni posao. Iz njegovog vremena potiče sistematska briga o parohijskim školama, o platama učitelja, o nabavci knjiga iz Beča i Budima, gde su radile srpske ćirilske štamparije. Na temeljima koje je on položio, u Karlovcima će 1791. biti osnovana gimnazija — najstarija srpska gimnazija koja neprekidno radi do danas — a 1794. i bogoslovija, prva srpska visokoškolska ustanova. Nedugo zatim, 1810. godine, u Novom Sadu se otvara još jedna srpska pravoslavna gimnazija, naslanjajući se na starije, neformalne škole koje su u gradu već postojale. Srpske škole istovremeno rade i u Sentandreji, Budimu i Pešti, gde je tada živela brojna i ugledna srpska zajednica."
+    },
+    {
+      "type": "paragraph",
+      "text": "Treba ostati pošten u oceni dometa. Sve to zajedno — parohijske škole, karlovački zavodi, gimnazije po Ugarskoj — obuhvatalo je manjinu srpskog naroda, onu koja je živela u gradovima i većim varošima habzburške monarhije. U Srbiji pod osmanskom vlašću, u Crnoj Gori, u Staroj Srbiji, opšta slika je do kraja 18. veka ostajala bliska onoj iz 17.: pismenost u rukama sveštenika i pokojeg pisara, narod nepismen, knjiga retkost. A ipak, sporo nakupljanje pismenosti u Sremu, Bačkoj, Banatu i ugarskim varošima imalo je posledice koje su daleko prevazišle brojke. Iz tog uskog, ali rastućeg sloja školovanih ljudi izrašće generacija Dositeja Obradovića, Jovana Rajića, Lukijana Mušickog i drugih — prvih srpskih prosvetitelja. Njihovo delo, a posle i Vukova jezička reforma, i sam pojam moderne srpske nacije, oslanjaju se upravo na tihu, nevidljivu, decenijsku radnju jednog karlovačkog učitelja, jednog seoskog popa, jednog štampara u Beču. Pismenost je u 18. veku još bila tanka kora — ali je kora počela da se gradi."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

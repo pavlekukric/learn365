@@ -6,13 +6,49 @@
   "dayNumber": 139,
   "order": 1,
   "title": "Pad Bosne",
+  "subtitle": "Kako je u proleće 1463. godine sultan Mehmed II u nekoliko nedelja sravnio susednu Bosansku kraljevinu sa zemljom",
   "readingTimeMinutes": 7,
   "year": 1463,
-  "isPlaceholder": true,
+  "dateLabel": "1463.",
+  "timelinePosition": "1463.",
+  "summary": "Pad Bosanske kraljevine 1463. godine: pohod Mehmeda II, pogubljenje kralja Stefana Tomaševića kod Jajca i kraj zapadnobalkanskih hrišćanskih država.",
+  "keyPeople": ["Stefan Tomašević", "Mehmed II", "Tvrtko I", "Stefan Tomaš"],
+  "keyPlaces": ["Jajce", "Ključ", "Bosna"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Četiri godine pošto je Smederevo bez borbe predato Turcima, ista sudbina sustigla je i njenog zapadnog suseda. Bosanska kraljevina, koja je vekovima delila granicu sa srpskom državom — čas kao saveznik, čas kao suparnik, a u jednom kratkom trenutku i kao njen polagač prava — nestala je u proleće 1463. godine za nekoliko nedelja. Pohod Mehmeda II Osvajača na Bosnu spada među najbrže velike ratne operacije njegovog doba: vojska je ušla, gradovi su pali, kralj je uhvaćen i pogubljen, a zemlja pretvorena u osmanski sandžak pre nego što je Evropa stigla da reaguje."
+    },
+    {
+      "type": "paragraph",
+      "text": "Bosna je do tog trenutka bila država sa složenom unutrašnjom istorijom. Njome je od XIV veka vladala dinastija Kotromanića, a u verskom pogledu bila je jedinstvena u regionu — pored katolika i pravoslavnih, na njenom tlu postojala je i posebna Crkva bosanska, hrišćanska zajednica oko koje istoričari još vode rasprave: bila je verovatno doktrinarno neobična, a savremenici sa Zapada često su je proglašavali jeretičkom. Ta verska složenost dugo je Bosnu držala u poluizolaciji od katoličke Evrope. Pod Tvrtkom I, krunisanim za kralja 1377. godine, kraljevstvo je doseglo svoj vrhunac: Tvrtko je proširio vlast na delove srpskog zemljišta i na primorje, krunišući se i kao „kralj Srbljem i Bosni”. Posle njegove smrti 1391. Bosna je počela da slabi iznutra — velikaši su jačali, kraljevska vlast je popuštala, a oblasti poput Hercegovine i Huma pretvarale su se u poluautonomne gospodštine."
+    },
+    {
+      "type": "paragraph",
+      "text": "Posljednji bosanski kralj, Stefan Tomašević, već je bio poznata ličnost u srpskoj priči. Isti onaj mladi Kotromanić koji je 1459. nakratko sedeo na smederevskom prestolu kao despot Srbije — i u čije vreme je Smederevo predato Turcima — vratio se u Bosnu i 1461. godine, posle smrti oca Stefana Tomaša, postao njen kralj. Bio je iz roda koji je već gubio jednu krunu i sada nasleđivao drugu. Pokušao je da spase ono što se može spasti: tražio je čvrst savez sa Ugarskom, dozvolio jače prisustvo katoličke crkve na dvoru i razmišljao o krunisanju koje bi ga jasnije svrstalo uz Zapad. Iste te godine, 1463, odbio je da Mehmedu II plati ugovoreni godišnji danak, računajući da će ga ugarska i zapadna pomoć stići pre osmanske vojske."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Pohod 1463. godine"
+    },
+    {
+      "type": "paragraph",
+      "text": "Računica se pokazala pogrešnom. Mehmed II je lično poveo veliku vojsku u Bosnu već u rano proleće. Glavno oružje pohoda bila je brzina. Osmanske kolone nisu se zadržavale na opsadama, već su jurile od utvrđenja do utvrđenja; posade su, suočene sa silom za koju nije bilo izgleda da je zadrže, predavale gradove jedna za drugom. Bosanska vlastela, podeljena, nepoverljiva prema mladom kralju i nesigurna u sopstveni opstanak, ponašala se kako se u ovakvim trenucima često ponaša — neki su prešli na osmansku stranu, neki su pobegli ka Ugarskoj, neki su se zatvorili u svoje gradove i čekali. Stefan Tomašević povukao se duboko u zapadnu Bosnu, ka tvrđavi Ključ na Sani, nadajući se da će do njega vojska stići prekasno."
+    },
+    {
+      "type": "paragraph",
+      "text": "Stigla je na vreme. Ključ je opkoljen, kralj je uhvaćen i, prema pouzdanim izvorima, izveden pred sultana u Jajcu — jedan od najvažnijih bosanskih gradova, krunidbeno mesto Tvrtka I i utvrđenje od simboličkog značaja. Tu je Stefan Tomašević pogubljen, najverovatnije odsečenjem glave. Sa njim su pobijeni i mnogi članovi vladajuće porodice i bosanske vlastele. Sa krvavim činom kod Jajca prestala je da postoji srednjovekovna Bosanska kraljevina. Mehmed II je veći deo njenih oblasti preuredio u Bosanski sandžak, novu jedinicu Osmanskog carstva. Hercegovački vojvoda Stjepan Vukčić Kosača i njegovi naslednici držaće se još nekoliko godina u zaleđu Jadrana, ali i njihova oblast pašće do 1482."
+    },
+    {
+      "type": "paragraph",
+      "text": "Već iste 1463. ugarski kralj Matija Korvin pokrenuo je protivnapad i uspeo da povrati Jajce sa pojasom severne Bosne. Tako je nastao takozvani „Jajački banat”, uska ugarska pogranična oblast koja će opstajati kao hrišćanska tampon-zona sve do 1527. godine. Najveći deo Bosne, međutim, do 1464. bio je čvrsto u osmanskim rukama. U narednim decenijama i vekovima jedan deo bosanskog hrišćanskog stanovništva — naročito onaj povezan sa Crkvom bosanskom, čije je vlastito ustrojstvo posle pada brzo nestalo — postepeno je primao islam. Tako se polako oblikovala buduća bosanska muslimanska zajednica. Pravoslavni Srbi i katolički Hrvati ostali su pri svojim crkvama, ali pod sve težim pritiscima nove vlasti."
+    },
+    {
+      "type": "paragraph",
+      "text": "Posmatrano iz srpskog ugla, pad Bosne 1463. nije bio nečija tuđa nesreća. Bosna se srušila samo četiri godine posle Smedereva; čitav zapadnobalkanski hrišćanski pojas, koji je vekovima bio okvir srpske istorije, urušio se za manje od pet godina. Pravoslavno stanovništvo Bosne i Hercegovine — istog jezika i veoma bliske kulture sa onim u nekadašnjoj Despotovini — sada je delilo sudbinu sa Srbima istočno od Drine, pod istom osmanskom upravom. Hrišćanska granica pomerila se na Savu i Dunav: novi front protiv Osmanlija postala je Ugarska. Kada je 1468. pao i albanski otpor pod Skenderbegom, postalo je jasno da su zapadnobalkanska hrišćanska kraljevstva — srpsko, bosansko, albansko — istorijski zaklopljena. Slobodne su ostale još samo Ugarska na severu i pojas dalmatinskih gradova pod Venecijom na obali, a iza njih, sve do Beča, ravnica koja sledećih dva veka neće znati za mir."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

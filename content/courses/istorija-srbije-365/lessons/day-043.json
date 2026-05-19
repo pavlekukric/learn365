@@ -6,13 +6,57 @@
   "dayNumber": 43,
   "order": 7,
   "title": "Sklavinije — prve slovenske političke zajednice",
+  "subtitle": "Vizantijsko ime za slovenske oblasti na Balkanu i prve oblike političkog života pre nego što su nastale države",
   "readingTimeMinutes": 7,
   "year": 750,
-  "isPlaceholder": true,
+  "dateLabel": "7–9. vek n. e.",
+  "timelinePosition": "~750. n. e.",
+  "summary": "Posle doseljenja, Sloveni na Balkanu obrazuju oblasne zajednice koje vizantijski pisci nazivaju „Sklavinije” — još ne države, ali ni puka plemena, već prvi korak ka kasnijim kneževinama.",
+  "keyPeople": ["Konstantin VII Porfirogenit"],
+  "keyPlaces": ["Balkan", "Raška", "Duklja", "Zahumlje", "Travunija", "Paganija", "Konavle"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Kad su se slovenske grupe, tokom šestog i sedmog veka, raselile po Balkanu, one nisu donele sa sobom ni kraljeve, ni kovanice, ni pisare. Ali nisu živele ni u haosu. Postepeno, u dolinama reka i u zaklonjenim oblastima brda, formirale su se zajednice koje su imale svoje glavare, svoje granice u glavama ljudi, i svoje načine da se dogovaraju i brane. Vizantijski pisci, kojima je trebalo ime za te oblasti izvan njihove neposredne uprave, počeli su da ih nazivaju „Sklavinije”. Reč nije značila državu u rimskom smislu — pre je značila „kraj u kome žive Sloveni i u kome car nema svoju ruku”."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sklavinije su, dakle, pre svega vizantijski pojam. Za ljude koji su u njima živeli to je jednostavno bila njihova oblast, njihov rod, njihova reka. Vizantija je, navikla na uredno provincijsko ustrojstvo, morala nekako da imenuje prostor koji više nije bio carski, ali ni potpuno tuđ. Tako je nastala kategorija koja istoričarima danas pomaže da opišu prelazni svet sedmog, osmog i devetog veka — svet u kome stare antičke ustanove već ne rade, a srednjovekovne države još nisu rođene."
+    },
+    {
+      "type": "paragraph",
+      "text": "Unutrašnji život ovih zajednica može se rekonstruisati samo u grubim crtama, jer pisanih izvora iznutra nema. Osnovna jedinica bila je porodica, više porodica činilo je rod, više rodova obrazovalo je veću zajednicu vezanu za određenu oblast — najčešće za rečnu dolinu ili sliv. Na čelu manje oblasti stajao je župan, neka vrsta lokalnog starešine koji je upravljao župom; više župa moglo se okupiti pod jednim knezom. Vlast je obično bila nasledna unutar uglednih porodica, ali nije bila apsolutna: važne odluke donosile su se na skupovima starešina, na zborovima koji su, koliko se može naslutiti, čuvali stara plemenska pravila."
+    },
+    {
+      "type": "paragraph",
+      "text": "Vojska, u modernom smislu, nije postojala. Branili su se ljudi sami, oružjem koje je svaka kuća imala, okupljani po potrebi. Crkvene organizacije takođe nije bilo — Sloveni su u to vreme još uvek bili pretežno paganski, sa svojim božanstvima neba, gromova, voda i šuma. Hrišćanstvo će u ove krajeve stizati polako, sporadično, vekovima pre nego što će ovde sazidati svoje prve trajne katedrale. Trgovina je bila skromna, novac retko u opticaju, a život je u najvećem delu počivao na zemljoradnji, stočarstvu i razmeni dobara unutar same oblasti."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Imenovane oblasti na današnjem srpskom prostoru"
+    },
+    {
+      "type": "paragraph",
+      "text": "Iz vizantijskih spisa devetog i desetog veka znamo nekoliko imena koja se izričito vezuju za prostor današnje Srbije, Crne Gore i susednih oblasti. Pominju se Srbi, smešteni u zaleđu — u oblasti koja će kasnije dobiti ime Raška, ali i u delu Bosne, kao i u oblastima koje su izvori nazivali Paganija, Travunija i Konavle. Zapadno od njih, prema jadranskoj obali i panonskoj ravnici, pominju se Hrvati. Na jugu, u oblasti današnje Crne Gore, javljaju se Dukljani, po staroj Duklji u zaleđu Skadarskog jezera. Južno od reke Neretve, na obali, smešteni su Zahumljani. Sve su to imena oblasti i njihovih stanovnika — ne država u savremenom smislu, već pre teritorijalno-rodovskih zajednica koje su Vizantinci jasno razlikovali."
+    },
+    {
+      "type": "paragraph",
+      "text": "Odnos prema Vizantiji bio je promenljiv i u dobroj meri zavisio od toga koliko je sam Carigrad bio jak u datom trenutku. U mirnim godinama Sklavinije su priznavale vrhovnu vlast cara — ponekad kroz danak, ponekad samo simbolički, kroz obećanje vernosti i razmenu poklona. Kad bi se carstvo oslabilo ili bi odnos pokvario neki lokalni sukob, izbijali bi ratovi, pohodi i osvete. Vizantija je s vremena na vreme pokušavala da povrati svoj uticaj vojnim ekspedicijama, ali je češće radila tiše — preko mreže gradova na obali, preko crkve i preko diplomatije sa pojedinim kneževima."
+    },
+    {
+      "type": "paragraph",
+      "text": "Najveći deo onoga što o ovim zajednicama danas znamo dolazi iz spisa nastalog mnogo kasnije — iz dela „O upravljanju carstvom” cara Konstantina VII Porfirogenita, napisanog sredinom desetog veka. U njemu su, za sina i naslednika, opisana razna varvarska plemena oko Carstva, uključujući slovenske oblasti na Balkanu. Konstantin koristi i starije, izgubljene izvore, čuva imena župa, plemena i prvih kneževa, pa je njegov tekst dragocen — ali nije bezbedan. Pisan je sa vizantijske tačke gledišta, sa svrhom političke pouke, i ponekad spaja različite slojeve sećanja u jedan tobože celovit prikaz. Istoričari ga zato čitaju kritički: kao izvor koji čuva mnogo, ali i koji treba uporediti sa drugim, najčešće franačkim ili crkvenim, beleškama."
+    },
+    {
+      "type": "paragraph",
+      "text": "Iz svega toga može se reći ono što je sigurno, i ono što je verovatno. Sigurno je da su tokom sedmog, osmog i devetog veka na Balkanu postojale slovenske oblasne zajednice, da su Vizantinci za njih imali zajedničko ime, i da neke od tih oblasti nose imena koja će se kasnije naći u srpskoj srednjovekovnoj istoriji. Verovatno je da su na čelu stajali župani i kneževi iz uglednih porodica, da su odluke deljene sa starešinama, i da su odnosi sa Carigradom varirali od saradnje do oružanog sukoba. Manje je sigurno koliko su te zajednice bile čvrste, gde su tačno prolazile njihove granice i koliko su lokalni kneževi zaista imali stvarne vlasti."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sklavinije, dakle, nisu prve srpske države. One su tlo iz koga će prve srpske kneževine niknuti — generaciju ili dve kasnije, kad iz jedne od ovih oblasti počne da se izdvaja porodica koja će svoju vlast zapamtiti, zapisati i preneti dalje. O tom sledećem koraku, o prvim imenima srpskih vladara i o tome kako se iz „oblasti Srba” postepeno rađa „kneževina Srba”, biće reči već u narednoj lekciji."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

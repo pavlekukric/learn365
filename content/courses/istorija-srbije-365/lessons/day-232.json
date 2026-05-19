@@ -6,13 +6,49 @@
   "dayNumber": 232,
   "order": 2,
   "title": "Aleksandar Karađorđević",
+  "subtitle": "Sin vožda Karađorđa na kneževskom prestolu: figura koju je ustavobraniteljski režim izabrao zato što ga neće zaseniti",
   "readingTimeMinutes": 7,
   "year": 1842,
-  "isPlaceholder": true,
+  "dateLabel": "1842–1858.",
+  "timelinePosition": "1842–1858.",
+  "summary": "Aleksandar Karađorđević, sin vožda Prvog ustanka, vladao je Srbijom šesnaest godina kao knez ustavobraniteljskog režima — tih čovek slabog političkog instinkta, koji je 1858. izgubio presto baš zato što nikada nije bio njegov pravi gospodar.",
+  "keyPeople": ["Aleksandar Karađorđević", "Persida Nenadović", "Toma Vučić Perišić", "Ilija Garašanin", "Karađorđe Petrović"],
+  "keyPlaces": ["Beograd", "Topola", "Hotin", "Petrograd", "Beč"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Kada je u jesen 1842. godine, na vanrednoj Skupštini sazvanoj u Beogradu, izabran novi srpski knez, mnogima je delovalo da se istorija na čudan način vraća: presto je dobio Aleksandar, sin Karađorđa Petrovića, vožda Prvog srpskog ustanka. Trideset godina ranije, Karađorđe je 1813. pred turskom silom napustio Srbiju i poveo porodicu u izgnanstvo; njegov mali sin Aleksandar, rođen 1806, odrastao je daleko od zemlje koju mu je otac pokušao da oslobodi. Sada je, kao zreo čovek od trideset šest godina, dolazio nazad ne kao osvetnik za očevu krv, nego kao kompromisno rešenje jedne sasvim druge političke računice."
+    },
+    {
+      "type": "paragraph",
+      "text": "Detinjstvo i mladost proveo je u Hotinju, u tadašnjoj ruskoj Besarabiji, a zatim u Petrogradu, gde je dobio vojnu i opštu školu kakvu mu domovina nikako ne bi mogla pružiti. Oženio se Persidom Nenadović (1813–1873), unukom Jakova Nenadovića, jednog od velikih vojvoda iz očeve generacije — i tim brakom spojio dve najpoznatije ustaničke loze. Vratio se u Srbiju za vlade Miloša Obrenovića i ušao u njegovu vojsku kao oficir, da bi posle postao i adjutant samog kneza. Bila je to čudna ravnoteža: sin čoveka koga su Obrenovići dali ubiti 1817. godine službovao je na dvoru sina onoga koji je tu naredbu izdao. Aleksandar nije pravio nevolje — ćutljiv, povučen, sklon vojnoj formi i crkvenom obredu, delovao je kao čovek koji svoju lozu nosi tiho, bez izazova."
+    },
+    {
+      "type": "paragraph",
+      "text": "Upravo ta osobina ga je 1842. godine, posle ustavobraniteljskog prevrata i zbacivanja mladog kneza Mihaila, učinila pogodnim. Vučić i Petronijević, jaki ljudi novog režima, tražili su kneza koji će biti dovoljno legitiman po krvi — sin vožda — a istovremeno dovoljno slab po karakteru da im neće smetati. Mihailo Obrenović je za njih bio i preopasan i previše vezan za očevu strogu, ličnu vlast. Aleksandar je bio suprotnost: čovek bez ambicije da sam vlada, koji će potpisivati ono što mu Savet i ministri stave pred ruku. Skupština ga je 14. (26.) septembra 1842. izabrala za kneza, a ruska i turska strana, posle pregovora, prihvatile su izbor. Na Topolu, gde je svojevremeno započela očeva pobuna, sin se vraćao kao vladar — ali u suštinski drugačijoj ulozi."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Knez bez vlasti"
+    },
+    {
+      "type": "paragraph",
+      "text": "Šesnaest godina njegove vladavine prošlo je u stalnom traženju ravnoteže koju on sam nikada nije uspeo da nametne. Ustav iz 1838. davao je glavnu moć Savetu, a Savet su, manje-više, kontrolisali ustavobranitelji — krug iskusnih i samosvesnih ljudi na čelu sa Vučićem i Petronijevićem. Aleksandar je nekoliko puta pokušao da iz te uloge izađe. Već 1844. godine došlo je do otvorenog sukoba s Vučićem, koji je knez nakratko uspeo da potisne, ali ne i da slomi. Kasnije se oslonio na Iliju Garašanina, postavljajući ga na čelo unutrašnjih poslova kao „svog” čoveka — a Garašanin je upravo iz tog položaja, 1844. godine, napisao „Načertanije”, prvi moderan nacrt srpske spoljne politike. Knez je, međutim, ostao u senci ljudi koji su radili u njegovo ime."
+    },
+    {
+      "type": "paragraph",
+      "text": "Spoljna politika ga je dotukla. Kada je 1853. izbio Krimski rat između Rusije s jedne i Turske, Francuske i Britanije s druge strane, Srbija se našla pred izborom koji je tražio jasno opredeljenje. Aleksandar nije umeo, ili nije smeo, da bira — pokušao je da ostane po strani, da ne uvredi sultana čiji je vazal bio, ali ni Rusiju, tradicionalnu zaštitnicu. Rezultat je bio najgori mogući: oba dvora izašla su iz rata uverena da im Beograd nije bio veran. Ruski uticaj, koji je dotad bio glavna spoljna podrška srpskog prestola, primetno je oslabio, a turska strana je tu prazninu iskoristila da pojača pritisak. Kod kuće je nezadovoljstvo raslo i u Savetu, i među pristalicama Obrenovića, i u mlađoj činovničkoj generaciji koja je tražila više slobode."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sve se prelomilo krajem 1858. godine. Svetoandrejska skupština, sazvana u Beogradu, pretvorila se u sud nad njegovom vladavinom. Optužbe su išle od popuštanja prema strancima do zanemarivanja zakona; iza političkog jezika ležala je jednostavna ocena da knez više nije sposoban da državu drži u rukama. Skupština ga je smenila i pozvala nazad Miloša Obrenovića, koji se vraćao iz izgnanstva kao starac, ali kao čovek koga je narod pamtio. Aleksandar je presto napustio bez većeg otpora i otišao u inostranstvo, gde je preostale godine života proveo kao privatno lice. Umro je u Beču 1885. godine, daleko od zemlje kojom je nominalno vladao."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sud o njemu mora biti pošten. Aleksandar Karađorđević nije bio tiranin — za to nije imao ni volju ni karakter. Ali nije bio ni državnik kakvog je njegovo vreme tražilo. Bio je sredstvo jednog režima koji ga je izabrao baš zato što nije pretio, i koji je, kada je oslabio, ostao bez zaštitnika. Njegova istorijska važnost otkrila se tek kasnije, i to po liniji potomstva: njegov sin Petar I, rođen 1844, postaće 1903. godine kralj oslobođene Srbije i tvorac parlamentarne države koja će izdržati ratove sledećih dvadeset godina. Otac je presto izgubio na Svetoandrejskoj skupštini; sin će ga vratiti, i to u obliku koji niko 1858. nije mogao zamisliti."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

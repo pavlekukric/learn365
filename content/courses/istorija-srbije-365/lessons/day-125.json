@@ -6,13 +6,57 @@
   "dayNumber": 125,
   "order": 7,
   "title": "Stefan Lazarević — vitez i pisac",
+  "subtitle": "Ratnik koji je primljen u Red Zmaja, pisac „Slova ljubve” i pokrovitelj Manasije i Resavske škole",
   "readingTimeMinutes": 7,
   "year": 1410,
-  "isPlaceholder": true,
+  "dateLabel": "1389–1427.",
+  "timelinePosition": "1389–1427.",
+  "summary": "Lični portret Stefana Lazarevića — viteza Reda Zmaja, pisca „Slova ljubve”, pokrovitelja Manasije i Resavske škole, najobrazovanijeg srpskog vladara svog doba.",
+  "keyPeople": ["Stefan Lazarević", "Konstantin Filozof", "Sigismund Luksemburški", "Đurađ Branković"],
+  "keyPlaces": ["Beograd", "Manasija", "Resava", "Nikopolj", "Angora"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Malo je vladara u srednjovekovnoj Evropi koji su istovremeno bili priznati ratnici, kruna evropskog viteštva, pisci pobožne lirike i pokrovitelji čitave škole pismenosti. Stefan Lazarević, sin kneza Lazara i kneginje Milice, bio je sve to. Vladao je iz Beograda više od tri decenije, između dva carstva i nekoliko kraljevstava, i u tom uskom prostoru izgradio je vlastiti svet — ozbiljan, miran, evropski po obrascima, srpski po jeziku i veri. Ako se za nekog srpskog vladara može uslovno reći da je bio „renesansni čovek”, to je Stefan."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ratničku stranu života upoznao je veoma mlad. Već 1395. godine, jedva dečak po današnjim merilima, vodio je srpski odred u bici na Rovinama u Vlaškoj, na strani sultana Bajazita; sledeće godine bio je sa Osmanlijama i kod Nikopolja, gde je velika krstaška vojska ugarskog kralja Sigismunda razbijena. Kao osmanski vazal nije imao izbora — ali je u tim sukobima stekao glas hladnokrvnog i pouzdanog vojskovođe. Vrhunac njegove ratničke mladosti bila je strašna bitka kod Angore 1402. godine, kada su Mongoli Timura Lenka uništili Bajazitovu vojsku. Stefan se sa svojim oklopnicima borio do kraja, a izvori savremenika beleže ga kao jednog od najhrabrijih komandanata na bojištu."
+    },
+    {
+      "type": "paragraph",
+      "text": "Posle Angore promenio je tabor — od vazala Osmanlija postao je vazal Ugarske, a zatim i mnogo više od toga. U dugom osmanskom građanskom ratu i u sukobima na severnoj granici vodio je niz manjih pohoda, branio Beograd i Mačvu, posredovao među zaraćenim Bajazitovim sinovima. Njegovo ime u tim godinama spominje se sa poštovanjem u ugarskim, vizantijskim i italijanskim izvorima. Bio je, prema sudu savremenika, među najcenjenijim vojnim ljudima svoje generacije u jugoistočnoj Evropi."
+    },
+    {
+      "type": "paragraph",
+      "text": "Krunu tom ugledu doneo mu je 1408. godine ugarski i budući car Sigismund Luksemburški, kada ga je primio u novoosnovani viteški Red Zmaja. Bilo je to društvo hrišćanskih vladara i velikaša okupljenih oko obaveze da brane veru od osmanskog prodora. Neki istraživači smatraju Stefana prvim primljenim vitezom novog reda; drugi su oprezniji. Sigurno je da je njegov prijem među prvima predstavljao visoko evropsko priznanje. Stefan je viteštvo shvatio ozbiljno — u Beogradu je priređivao turnire, držao do etikecije zapadnog dvora, negovao oklop, ceremoniju i znamenje. U njegovoj prestonici sretali su se vizantijski monasi, dubrovački trgovci, ugarski plemići i italijanski majstori, a on se među svima njima kretao sa istom mirnom dostojanstvenošću."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Pisac i pokrovitelj"
+    },
+    {
+      "type": "paragraph",
+      "text": "Najlepše svedočanstvo o njegovom unutrašnjem životu nije ostavio neko drugi, nego on sam. Negde između 1404. i 1409. godine napisao je „Slovo ljubve” — kratko, lirsko razmišljanje o ljubavi među braćom u Hristu, upućeno sinovcu Đurđu Brankoviću, s kojim su mu odnosi povremeno bili napeti. Tekst je sastavljen tako da prva slova stihova sklapaju posvetu; ton je smiren, gotovo molitven, daleko od dvorske retorike. Po opštem sudu, „Slovo ljubve” spada u vrhunce srpske srednjovekovne književnosti — delo vladara koji je u međuvremenu, na bojnom polju, dokazao da ume i da zapoveda i da ćuti."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pisao je i druge pobožne sastave, predgovore knjigama, beleške uz prepise; tačan obim njegovog opusa istoričari književnosti i danas razrešavaju. Ali bar isto koliko je značilo ono što je pisao, značilo je i ono što je oko sebe okupio. Na njegov dvor došao je Konstantin Filozof, učeni Bugarin iz Kostenca, koji će posle Stefanove smrti napisati „Žitije despota Stefana” — jedno od najvažnijih dela srpske srednjovekovne književnosti i naš glavni izvor o njegovom liku. Pod Stefanovim pokroviteljstvom, u manastiru Manasiji, izrastao je krug pisara i učenjaka poznat kao Resavska škola: oni su sproveli reformu pravopisa slovenskog jezika koja će vekovima ostati merilo ispravnog pisanja u srpskim i drugim pravoslavnim sredinama."
+    },
+    {
+      "type": "paragraph",
+      "text": "Manasija, sazidana otprilike između 1407. i 1418. godine u dolini Resave, najlepši je spomenik tog truda. Petokupolna crkva moravskog graditeljskog stila, prekrivena freskama izuzetnog kvaliteta, opasana je masivnim utvrđenjem sa kulama — jer pretnja sa juga nije bila ni teorijska ni daleka. U istom duhu Stefan je obnovio i utvrdio Beograd, koji je dobio od Ugara i učinio svojom prestonicom; podizao je i pomagao druge crkve i manastire, od Resave do Lazarice. Njegova zadužbinarska politika nije bila samo izraz pobožnosti, već i način da se državi obezbede uporišta — duhovna, kulturna i, kad je trebalo, sasvim bukvalna kamena."
+    },
+    {
+      "type": "paragraph",
+      "text": "U spoljnoj politici plovio je kroz mrežu odnosa koja bi danas mnoge zbunila: bio je vazal čas osmanskog sultana, čas ugarskog kralja, pregovarao je sa Venecijom oko Zete i sa Bosnom oko granica, sklapao saveze sa Vizantijom, primao titulu despota iz Carigrada. Sve to bez velikih gestova, bez razmetanja i, koliko god je moglo, bez nepotrebnog krvoprolića. U njegovom dvorskom životu ozbiljnost i mera bile su same po sebi politički program."
+    },
+    {
+      "type": "paragraph",
+      "text": "Umro je 19. jula 1427. godine, naglo, od moždanog udara, dok je bio u lovu blizu Glave kod rudničkih strana. Sahranjen je u Koporinu, a kasnije ga je Srpska crkva proslavila kao Svetog despota Stefana. Sve što je sagradio — Manasija, beogradske bedeme, Resavska škola, krug učenika i pisara — nadživelo je i njega i despotovinu koja će za nešto više od tri decenije pasti pod Osmanlije. Ostalo je nešto teže za rušenje od kamena: predstava da je Srbija, u najtežem trenutku svoje istorije, imala vladara koji je istovremeno bio i vitez i pisac."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

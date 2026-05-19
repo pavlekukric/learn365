@@ -6,13 +6,57 @@
   "dayNumber": 88,
   "order": 10,
   "title": "Vardarska graditeljska škola",
+  "subtitle": "Druga velika faza srpskog crkvenog graditeljstva — od stroge Raške do palaiologovskog sjaja u dolini Vardara",
   "readingTimeMinutes": 7,
   "year": 1320,
-  "isPlaceholder": true,
+  "dateLabel": "kraj 13 – 14. vek",
+  "timelinePosition": "kraj 13 – 14. vek",
+  "summary": "Posle Milutinovih osvajanja na jugu srpsko crkveno graditeljstvo se okreće kasnovizantijskoj palaiologovskoj tradiciji: petokupolne crkve sa naizmeničnim trakama opeke i kamena, ornamentalnim fasadama i raskošnim slikarstvom.",
+  "keyPeople": [],
+  "keyPlaces": ["Gračanica", "Bogorodica Ljeviška", "Staro Nagoričino", "Kraljeva crkva", "Lesnovo"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Pošto je kralj Milutin osamdesetih godina trinaestog veka osvojio Skoplje i potom dobar deo Makedonije, srpska država je prvi put dotakla oblasti sa dubokom, neprekinutom vizantijskom graditeljskom tradicijom. Ta promena nije bila samo politička. Sa novim podanicima i novim katedralama došli su i drugi graditelji, drugi materijali, drugi ukus. Tokom naredne dve generacije srpske zadužbine počele su da liče sve manje na stroge kamene crkve Raške, a sve više na nakićene, kockaste, polihromne hramove kakvi su se u to vreme zidali oko Carigrada i Soluna. Tu novu fazu istoričari umetnosti danas zovu vardarskom graditeljskom školom."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ime treba odmah pošteno objasniti. Sintagma „vardarska škola” skovana je u dvadesetom veku, kada su srpski i jugoslovenski istoričari umetnosti pokušali da srednjovekovne crkve uklope u jasne stilske grupe. Ljudi srednjeg veka nisu mislili u tim kategorijama. Za njih su to bili savremeni, „carigradski” hramovi, urađeni onako kako se to tada radilo u najvišim krugovima pravoslavnog sveta. Naziv je, ipak, koristan: pokriva grupu zadužbina podignutih uglavnom između kraja trinaestog i sredine četrnaestog veka, u kojima srpski patroni preuzimaju vodeći stil kasnovizantijske, palaiologovske umetnosti i daju mu sopstvenu, raskošnu varijantu."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Oblik i fasada"
+    },
+    {
+      "type": "paragraph",
+      "text": "Osnovni tip vardarske crkve je upisani krst sa pet kupola — jedna velika nad središtem, četiri manje nad uglovima. Telo crkve više nije jedinstvena, glatka masa kao kod ranijih raških zadužbina; sada se vidno deli na kocke koje rastu jedna iz druge, kao slagalica volumena koja se uzdiže ka glavnom kubetu. Spolja je svaka kocka uokvirena plitkim pilastrima i slepim arkadama, tako da fasada dobija ritam koji oko prati skoro kao notni zapis. Krov više nije ravna ploča: lomi se i stepenuje, vodeći pogled naviše."
+    },
+    {
+      "type": "paragraph",
+      "text": "Najprepoznatljivija crta je, ipak, sam zid. Umesto belog tesanika raške škole, vardarske crkve grade se naizmeničnim trakama opeke i kamena, postavljenim u pravilnom slogu. Crvenkasta opeka i bledožućkasti kamen smenjuju se u vodoravnim pojasevima, a ponegde se opeka slaže u geometrijske šare — meandre, šahovska polja, krstaste motive, friziće od malih lukova. Tu i tamo, oko prozora i pod krovnim vencem, javlja se i klesani ukras: stilizovani krstovi, rozete, biljni motivi. Sve to zajedno daje fasadu koja deluje skoro kao tkanina, polihromna i živa, daleko od trezvene strogosti Studenice ili Mileševe."
+    },
+    {
+      "type": "paragraph",
+      "text": "Prvi krupan primer u srpskoj sredini je Bogorodica Ljeviška u Prizrenu, koju je Milutin oko 1306. ili 1307. iz temelja obnovio nad starijom episkopskom crkvom. Pet kupola, opeka i kamen u trakama, spoljna galerija sa lukovima — sve karakteristične crte nove škole tu su već prisutne. Nedugo zatim, oko 1313, podiže se Staro Nagoričino kod Kumanova, gde majstori uzimaju delove starije crkve i nadziđuju ih u istom maniru. Sveti Đorđe na Pološkom i nekoliko manjih crkava popunjavaju mrežu zadužbina u dolinama Vardara i Pčinje."
+    },
+    {
+      "type": "paragraph",
+      "text": "Vrhunac dolazi sa Gračanicom u kosovskoj ravnici, podignutom oko 1320. godine. Gračanica je istovremeno najjasniji udžbenički primer i najsmelija varijacija — njeno telo se uzdiže u pet stepenastih nivoa, kupole su izdužene i tanke, a unutrašnji prostor zrači visinom kakvu raška škola nije poznavala. Sa Gračanicom srpsko crkveno graditeljstvo prvi put svesno staje rame uz rame sa najboljim radom prestoničkih, carigradskih radionica."
+    },
+    {
+      "type": "paragraph",
+      "text": "Vardarski manir nije ostao samo na novoosvojenom jugu. Milutin je, otprilike 1314, u samom srcu Raške, unutar studeničkog kruga, podigao malu Kraljevu crkvu posvećenu svetim Joakimu i Ani — pravu minijaturu vardarske škole, sa kupolom na visokom tamburu i fasadom u opeci i kamenu, ugnezdenu pored stare Bogorodičine crkve od belog mermera. Taj kontrast dva susedna zdanja dragocen je za razumevanje promene: stara i nova faza srpskog graditeljstva stoje jedna pored druge u istom dvorištu. Sličnu logiku ponavlja i kapela Svetih apostola pri Pećkoj patrijaršiji, kao i, nešto kasnije, manastir Lesnovo iz sredine četrnaestog veka, gde se vardarski jezik već polako prepliće sa lokalnim sklonostima."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ko su bili graditelji, ne zna se uvek pouzdano. Iz natpisa i analize majstorskog rada izvodi se zaključak da su glavnu reč imali grčki, vizantijski obučeni protomajstori, često došli iz Soluna i okoline, ali da su uz njih radili i domaći zidari i klesari, i da su pojedini lokalni majstori vremenom preuzeli ceo posao. U svakom slučaju, arhitektura nije išla sama. Uz nju je u tesnoj saradnji rastao i fresko-program: slikari kao što su Mihailo Astrapas i Eutihije, sa svojim krugom, pokrivali su zidove tih istih crkava gusto raspoređenim ciklusima, podelivši unutrašnjost u stroge hijerarhijske registre. Graditelj i živopisac, čini se, dogovarali su prostor zajedno."
+    },
+    {
+      "type": "paragraph",
+      "text": "Zašto se promena uopšte dogodila, jasno je iz konteksta. Srbija je sa Milutinom postala balkanska sila sa makedonsko-grčkim oblastima u sastavu; palaiologovski preporod bio je vodeći umetnički pokret tadašnjeg pravoslavnog sveta; srpski vladari su želeli da njihove zadužbine izgledaju onako kako priliči carstvu, a ne tek kraljevini sa periferije. Vardarska škola je bila taj vizuelni iskaz: srpski kralj se predstavlja kao ravnopravan ktitor unutar šire vizantijske civilizacije. Sa opadanjem kraljevskog ktitorstva posle Dušana, ova će faza polako ustupiti mesto skromnijim, ali izrazito originalnim crkvama moravske škole na severu — temi za neki sledeći dan."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

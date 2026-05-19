@@ -6,13 +6,57 @@
   "dayNumber": 38,
   "order": 2,
   "title": "Velika seoba naroda",
+  "subtitle": "Vekovi pokreta, prelazaka preko Dunava i polaganog preoblikovanja Evrope",
   "readingTimeMinutes": 8,
   "year": 450,
-  "isPlaceholder": true,
+  "dateLabel": "4–6. vek n. e.",
+  "timelinePosition": "~450. n. e.",
+  "summary": "Pregled velikih seoba između četvrtog i šestog veka — pokretačkih sila, glavnih naroda u kretanju i posledica koje su preoblikovale rimski svet i naročito Balkan.",
+  "keyPeople": [],
+  "keyPlaces": ["Dunav", "Balkan", "Evropa", "Panonija"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Period koji istorija pamti pod imenom Velika seoba naroda nije bio jedan događaj nego dugotrajna promena lica Evrope. Trajao je, grubo uzev, od kasnog četvrtog do kraja šestog veka, i tokom tih dvesta godina rimski svet kakav je do tada postojao polako je nestao, a na njegovom mestu izrasli su novi politički okviri. Balkan se u toj priči nalazi na samoj putanji najvećih kretanja — on je most preko kojeg gotovo svi prolaze, područje koje plaća visoku cenu, ali i prostor na kojem se priprema sve ono što će se kasnije nazvati ranosrednjovekovnim svetom."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pre nego što se uđe u priču, vredi otkloniti jednu uobičajenu predstavu. Seoba naroda nije bila iznenadna poplava, jedna velika reka divljih plemena koja srušiše Rim. Bila je to serija talasa, sa zastojima, povlačenjima i mirnim razdobljima između njih. Mnogi pokreti nisu ni bili samo ratnički — bilo je i sporog naseljavanja, ugovornog primanja u carstvo, mešovitih brakova, postepenog stapanja sa zatečenim stanovništvom. Crno-bela slika „Rimljani protiv varvara” previše je gruba; istina je da su mnogi „varvari” služili u rimskoj vojsci, govorili latinski i nosili rimska imena, a da su se i pojedini delovi rimskog stanovništva selili, mešali i prilagođavali."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pokretači ovog razdoblja bili su brojni i isprepleteni. Klimatske promene, pre svega hladniji i nestabilniji vekovi, smanjivale su prinose u stepi i pomerale ljude ka jugu i zapadu. Demografski pritisak stvarao je gladne i pokretne zajednice. Slom starijih stepskih sila u dalekoj unutrašnjosti Azije — pre svega zajednice koju kineski izvori zovu Sjungnu — pokrenuo je lančanu reakciju, jer su narodi koji su se sklanjali ispred jednih guranjem pomerali druge ispred sebe. Konačno, samo Rimsko carstvo, oslabljeno krizom trećeg veka, građanskim ratovima i sve težim oporezivanjem, više nije imalo snagu da svoju dugu granicu na Dunavu i Rajni drži kao nekada. Tačan udeo svakog od ovih činilaca istoričari i danas raspravljaju, ali smer slike je jasan."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Talas po talas"
+    },
+    {
+      "type": "paragraph",
+      "text": "Kao simbolični početak obično se uzima 376. godina, kada su Goti — zajednica koju će potonji izvori deliti na Vizigote i Ostrogote — pod pritiskom Huna sa istoka zatražili od rimskih vlasti da pređu Dunav i nasele se u carstvu. Dozvola je data, prelazak izveden, ali se ono što je trebalo da bude kontrolisano naseljavanje pretvorilo u sukob: rimska uprava nije obezbedila hranu, lokalni činovnici su zloupotrebljavali nevolju izbeglica, i već 378. godine kod Hadrijanopolja gotska vojska potukla je rimsku, a sam car Valens poginuo je na bojnom polju. Bila je to vest koja je odjeknula celim carstvom — granica više nije bila ono što je bila."
+    },
+    {
+      "type": "paragraph",
+      "text": "U narednim decenijama smenjivali su se talasi. Vizigoti su pod Alarihom 410. godine ušli u sam Rim — događaj koji savremenicima nije bio toliko vojno odlučujući koliko psihološki potresan, jer Rim vekovima nije video stranu vojsku u svojim zidinama. Vandali, Alani i Svebi prešli su zaleđenu Rajnu krajem 406. godine i krenuli ka zapadu; Vandali će na kraju, posle dugog puta, osvojiti i severnu Afriku. Burgundi će zauzeti deo Galije, Franci se učvrstiti u njenom severnom delu, Vizigoti se posle Italije preseliti u Španiju. Huni su pod Atilom sredinom petog veka uspeli da privremeno objedine veliki broj naroda u jednu konfederaciju, opustošivši i Balkan i delove Galije, ali se njihova vlast raspala već posle Atiline smrti 453. godine."
+    },
+    {
+      "type": "paragraph",
+      "text": "Posledica svega toga na zapadu bila je da rimske provincije, jedna po jedna, izrastaju u nove kraljevine: Vizigoti u Španiji, Vandali u severnoj Africi, Franci u Galiji, kasnije Ostrogoti pa Langobardi u Italiji. Zapadno Rimsko carstvo formalno prestaje da postoji 476. godine, kada je germanski vojskovođa Odoakar svrgnuo poslednjeg cara u Italiji; ali već decenijama pre toga ono je bilo carstvo samo po imenu. Istočno carstvo, sa sedištem u Konstantinopolju, opstalo je — i upravo zato priča o Balkanu ima drugačiji tok nego priča o Galiji ili Hispaniji."
+    },
+    {
+      "type": "paragraph",
+      "text": "Za Balkan su ovi vekovi bili teški. Putevi kojima su narodi prolazili vodili su najčešće niz Dunav i potom dolinama Morave, Vardara i Save — dakle, kroz prostor današnje Srbije. Provincije Mezija, Dakija Ripensis, Panonija i Dardanija pretrpele su pustošenja više puta — gotska, hunska, kasnije ostrogotska, pa avarska. Gradovi koji su u kasnoj antici bili živi centri, kao Sirmijum, Singidunum, Naisus ili Viminacijum, doživljavali su razaranja, oporavak, pa nova razaranja, dok mnogi nisu nestali ili se sveli na utvrđenja sa malim brojem žitelja. Urbani život slabi, zemljoradnja se povlači u zaštićene zone, a stanovništvo se delimično povlači u brda, delimično u veće utvrđene gradove, delimično sasvim raseljava."
+    },
+    {
+      "type": "paragraph",
+      "text": "Vizantija je u šestom veku, naročito pod Justinijanom, pokušavala da povrati staru rimsku snagu — gradila je i obnavljala utvrđenja duž Dunava, vodila ratove na svim stranama. Uspeh je bio delimičan i kratkotrajan. Već krajem šestog veka pojavili su se novi akteri: Avari, stepski narod iz unutrašnje Azije, koji će na Balkan dovesti i one koji su do tada bili na njegovom severu — Slovene. Sa njima započinje sledeća, za našu priču presudna faza."
+    },
+    {
+      "type": "paragraph",
+      "text": "Velika seoba naroda zato nije samo zanimljiv evropski okvir. Ona je razlog zbog kojeg će se, kada se za koji vek otvori glavna tema ovog kursa, pojaviti slika potpuno drugačijeg Balkana od onoga koji je poznavao Konstantin. Naredne lekcije pažljivije će se vratiti pojedinim akterima — Hunima, Gotima, Avarima — pre nego što stignemo do trenutka kada na ova polja konačno stupaju i Sloveni."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

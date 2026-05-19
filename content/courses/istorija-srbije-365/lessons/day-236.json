@@ -6,13 +6,49 @@
   "dayNumber": 236,
   "order": 6,
   "title": "Svetoandrejska skupština",
+  "subtitle": "Kako je skupština 1858. svrgla Aleksandra Karađorđevića i pozvala starog Miloša Obrenovića na presto",
   "readingTimeMinutes": 7,
   "year": 1858,
-  "isPlaceholder": true,
+  "dateLabel": "1858.",
+  "timelinePosition": "1858.",
+  "summary": "Krajem 1858. više od četiri stotine delegata svrglo je u Beogradu kneza Aleksandra Karađorđevića i pozvalo Miloša Obrenovića iz izgnanstva — bio je to istovremeno dinastički preokret i prvi parlamentarni trenutak nove Srbije.",
+  "keyPeople": ["Aleksandar Karađorđević", "Miloš Obrenović", "Jevrem Grujić", "Milovan Janković", "Toma Vučić Perišić"],
+  "keyPlaces": ["Beograd", "Šumadija", "Pariz", "Beč"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Sredinom pedesetih godina devetnaestog veka ustavobraniteljski poredak u Srbiji počeo je da se troši iznutra. Knez Aleksandar Karađorđević, koga su 1842. doveli upravo ustavobranitelji, već dugo nije bio samostalan vladar, ali ni oni sami više nisu bili jedinstveni. Sovjet, telo doživotnih senatora koje je po Turskom ustavu iz 1838. delilo vlast s knezom, raslojio se na frakcije, a stari saborci iz prvih godina — Vučić, Petronijević i drugi — uglavnom su pomrli ili izgubili uticaj. U pozadini, evropska politička karta menjala se nakon Krimskog rata."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pariskim mirom 1856. velike sile su, umesto dotadašnje ruske isključive zaštite, stavile Srbiju pod kolektivne garantije svih potpisnika ugovora. Formalno je to bilo priznanje autonomne kneževine pod sultanovim vrhovništvom; praktično, značilo je da nijedna sila više ne može sama da diktira unutrašnje stvari u Beogradu, ali i da knez više ne može da računa na jednog jedinog moćnog zaštitnika. U toj novoj ravnoteži pukotine između kneza i Sovjeta postale su otvoren sukob. Aleksandar je optuživao senatore za oligarhijsko prisvajanje države, oni su njega optuživali za samovolju i za bezvoljnost; u međuvremenu su trgovački gradovi, sveštenstvo i seljaštvo gledali kako se vlast krči među malim brojem porodica."
+    },
+    {
+      "type": "paragraph",
+      "text": "U toj atmosferi, krajem novembra 1858. godine, sazvana je u Beogradu Narodna skupština. Po pravoslavnom prazniku Svetog Andreja, koji je padao na 12. odnosno 24. novembar po novom kalendaru, ostaće upamćena kao Svetoandrejska. Po sastavu i veličini bila je drugačija od svega što se do tada viđalo: računa se da je okupila preko četiri stotine delegata iz svih nahija, mnogo više nego ranije skupštine. Sastav je bio izrazito mešovit — seoski knezovi, sveštenici, varoški trgovci, jedan deo mladih obrazovanih ljudi koji su se vraćali sa studija u Francuskoj i Nemačkoj. Među njima su se isticali Jevrem Grujić i Milovan Janković, takozvani „pariski đaci”, koji su u Srbiju doneli ideje predstavničke vlasti, slobode štampe i vladavine zakona."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Svrgnuće i poziv Milošu"
+    },
+    {
+      "type": "paragraph",
+      "text": "Skupština je radila u nervoznoj atmosferi, uz strah od oružane intervencije i uz pokušaje kneževe pratnje da raspoloženje preokrenu. Posle nekoliko nedelja rasprave, 10. odnosno 22. decembra 1858. doneta je odluka koja je prelomila epohu: Aleksandar Karađorđević je svrgnut, a stari knez Miloš Obrenović pozvan je da se iz dugog izgnanstva vrati u zemlju i ponovo preuzme presto. Aleksandar je posle kratkog kolebanja napustio Beograd i otišao u Zemun, pod austrijsku zaštitu. Miloš se odazvao pozivu i početkom 1859. ušao u Beograd kao knez po drugi put, sada već starac od skoro osamdeset godina, ali još uvek prepoznatljiv po istoj snazi volje s kojom je nekada vladao."
+    },
+    {
+      "type": "paragraph",
+      "text": "Značaj Svetoandrejske skupštine ima dva sloja. Prvi je dinastički. Posle petnaest godina Karađorđevića na prestolu, Obrenovići su se vratili na vlast, i to ne osvajanjem ili spoljnom intervencijom, nego odlukom domaće skupštine. Time je započela nova faza borbe dve dinastije, koja će obeležiti narednih pola veka srpske istorije. Drugi sloj je ustavni. Po prvi put u modernoj srpskoj državi jedno predstavničko telo svrglo je kneza i postavilo drugog — to je bila praksa koja je nadilazila slovo Turskog ustava i koja se može opisati kao prvi srpski „parlamentarni” trenutak u širem smislu reči."
+    },
+    {
+      "type": "paragraph",
+      "text": "Liberali oko Grujića i Jankovića upravo su tu prvi put javno formulisali program koji će obeležiti potonje generacije: skupština kao stvarno zakonodavno telo, odgovornost vlasti pred narodom, sloboda štampe, ograničenje samovolje birokratije. Iz tih dana potiču i prvi obrisi onoga što će se kasnije nazivati liberalnom strujom u srpskoj politici. Sa druge strane, treba pošteno reći i ono što su sami savremenici znali. Skupština nije bila idealno demokratsko telo. Miloš je iz izgnanstva, preko svojih ljudi u Šumadiji, godinama gradio mrežu pristalica i nije čekao skrštenih ruku; deo delegata bio je očigledno pripremljen unapred, a glasovi su se delom dobijali pritiskom, delom obećanjima, delom istinskim raspoloženjem zemlje protiv ustavobraniteljske oligarhije."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pa ipak, sama institucija je upotrebljena ozbiljno. Skupština nije bila puka pozadina za palatski preokret; ona je donosila odluku otvoreno, uz raspravu, uz pritisak javnosti koja se prvi put toliko široko okupila u Beogradu. Otuda Svetoandrejska nije ostala samo prelaz s jedne dinastije na drugu, nego se u srpskoj političkoj svesti utvrdila kao trenutak kada je narod, makar i posredno, sam izabrao vladara. Sa krajem 1858. godine završava se doba u kome su ustavobranitelji i Sovjet bili glavna poluga vlasti. Otvara se vreme u kome će skupština — sa prekidima, sa potonjom represijom, sa krizama i obnovama — biti stalan činilac srpske politike, sve do velikih ustavnih borbi koje slede."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

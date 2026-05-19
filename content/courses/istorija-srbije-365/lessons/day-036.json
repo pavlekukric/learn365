@@ -6,13 +6,53 @@
   "dayNumber": 36,
   "order": 8,
   "title": "Vizantija — novo carstvo",
+  "subtitle": "Kako je istočno Rimsko carstvo nadživelo zapadno i postalo svet kome će se srednjovekovna Srbija stalno vraćati",
   "readingTimeMinutes": 8,
   "year": 450,
-  "isPlaceholder": true,
+  "dateLabel": "4–6. vek n. e.",
+  "timelinePosition": "~450. n. e.",
+  "summary": "Premeštanje rimske prestonice na Bosfor, postanak istočnog carstva, njegove osobenosti i značaj za balkanski prostor u koji će tek doći Sloveni i Srbi.",
+  "keyPeople": ["Konstantin Veliki", "Teodosije I"],
+  "keyPlaces": ["Konstantinopolj", "Bosfor", "Rim", "Balkan"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Carstvo o kome će ova lekcija govoriti svoje ime nikada nije nosilo. Ljudi koji su u njemu živeli sebe su zvali Romejima — Rimljanima — a svoju državu jednostavno Rimskim carstvom. Reč „Vizantija” izmišljena je tek u novom veku, među zapadnim učenjacima koji su hteli da odvoje srednjovekovnu, grčku i pravoslavnu državu od stare paganske Rome. Zato treba odmah reći: kada se u ovom kursu govori o Vizantiji, govori se o carstvu koje je sebe doživljavalo kao neprekinuti nastavak Rima — istog onog Rima koji je u prethodnim lekcijama vladao Balkanom, podelio se na dva dela i polako tonuo na zapadu."
+    },
+    {
+      "type": "paragraph",
+      "text": "Trenutak iz koga se obično računa rođenje ovog novog carstva jeste 330. godina, kada je Konstantin Veliki svečano otvorio novu prestonicu na obalama Bosfora. Nazvao ju je „Novim Rimom”, ali ime koje je ostalo bilo je drugo — Konstantinopolj, grad Konstantinov. Izbor mesta nije bio sentimentalan, nego strogo politički. Stari Rim bio je daleko od najopasnijih granica i okružen senatorskom aristokratijom koja je careve sve češće gledala podozrivo. Bosfor je, naprotiv, bio raskršće sveta: morski prolaz koji povezuje Crno i Sredozemno more, kopneno čvorište između Evrope i Azije, mesto kroz koje su prolazili putevi trgovine, novca i vojski. Pored toga, položaj grada bio je gotovo idealan za odbranu — sa tri strane voda, sa četvrte zidovi koje će kasniji carevi neprestano podizati i ojačavati."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pomeranje težišta na istok bilo je priznanje stvarnosti koja se već neko vreme nazirala. Istočne provincije bile su gušće naseljene, bogatije, urbanije, sa razvijenom trgovinom i starim grčkim gradovima koji su imali stolećima nataloženu pismenost. Zapad je, posle kriza trećeg veka, bio sve više rasut, ruralan i osiromašen. Kada se carstvo 395. godine, posle smrti cara Teodosija, formalno podelilo na istočni i zapadni deo, podela je samo ozakonila ono što je već postojalo. Zapadnim delom upravljalo se iz Ravene i Rima, istočnim iz Konstantinopolja. Granica je išla kroz Balkan — i veliki deo onoga što danas zovemo Srbija, Crna Gora, Makedonija i Bugarska potpao je pod istočno carstvo."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Različit svet u istoj odori"
+    },
+    {
+      "type": "paragraph",
+      "text": "Dok je zapadni deo tokom petog veka popuštao pod doseljavanjem germanskih naroda i 476. godine prestao da postoji kao samostalna država, istočni deo je opstao — i to je možda najvažnija činjenica čitave evropske srednjovekovne istorije. Konstantinopolj je preživeo talas za talasom napadača, sačuvao državni aparat, vojsku i poreski sistem, i nastavio da postoji još hiljadu godina, sve do 1453. godine. Ali to što je opstao ne znači da se nije menjao. Carstvo koje će u devetom i desetom veku biti susedan, učitelj i protivnik srpskim kneževinama više nije bilo isto ono Rimsko carstvo iz Dioklecijanovog doba."
+    },
+    {
+      "type": "paragraph",
+      "text": "Najvidljivija promena bio je jezik. Latinski je u istočnom carstvu dugo ostao jezik prava, vojne komande i ceremonije, ali je u svakodnevnom životu, u trgovini, crkvi i obrazovanju odavno preovlađivao grčki. Tokom šestog i sedmog veka i sama država je polako prešla na grčki kao zvanični jezik — carevi prestaju da se zovu „imperator” i počinju da nose grčku titulu „vasilevs”. Druga, ne manje važna promena, ticala se vere. Hrišćanstvo, koje je sa Konstantinom dobilo zaštitu a sa Teodosijem postalo državna vera, sada je postepeno dobijalo svoj istočni, pravoslavni oblik — sa svojim saborima, svojom liturgijom, svojim manastirima i svojim sporenjima sa zapadnom crkvom oko prevlasti, dogme i obreda."
+    },
+    {
+      "type": "paragraph",
+      "text": "Treća osobina ovog carstva bila je njegova izrazito jaka, centralizovana uprava. Car je u Konstantinopolju bio okružen složenom dvorskom ceremonijom koja je svaki njegov pokret pretvarala u predstavu poretka. Oko njega se gradila razgranata državna birokratija — pisari, sudije, finansijski službenici, vojni zapovednici — koja je carstvo držala na okupu i posle najtežih udaraca. Uz to je išla i bogata, ozbiljna kultura: škole retorike, prepisivačke radionice, ikonopisne škole, građevinarstvo koje će u šestom veku, pod Justinijanom, podići Svetu Sofiju. Vizantija je tako postala glavni čuvar antičkog nasleđa — kroz njene rukopise sačuvani su mnogi tekstovi grčkih filozofa, istoričara i pesnika koji bi inače bili izgubljeni."
+    },
+    {
+      "type": "paragraph",
+      "text": "Za priču koja nas u ovom kursu zanima, sve ovo ima jednu vrlo praktičnu posledicu. Kada se Sloveni, a sa njima i prvi Srbi, tokom šestog i sedmog veka budu spuštali na Balkan, neće naići na prazno, divlje područje — naići će na pogranične provincije moćne države čiji je centar Konstantinopolj. Sva njihova kasnija istorija odvijaće se u senci tog grada. Iz njega će dolaziti vojske, misionari, učitelji pisma, izaslanici sa darovima i zahtevima. Prema njemu će se srpski vladari kasnije ravnati — uzimaće odande titule, dvorske običaje, ikonografiju, pa i ideju o pravoslavnoj državi. Sa njim će povremeno i ratovati, jer biti sused Vizantije značilo je biti uvučen u njenu političku igru, hteo to čovek ili ne."
+    },
+    {
+      "type": "paragraph",
+      "text": "Zato Vizantija u ovom kursu nije samo strana, susedna civilizacija. Ona je svet u koji srpska srednjovekovna istorija ulazi kao u već postavljenu pozornicu. Pravoslavna vera, slovensko bogosluženje, crkveno pravo, ideal hrišćanskog vladara, čak i način na koji će se Stefan Nemanja kasnije predstavljati na freskama — sve to ima svoje korene u tom novom Rimu na Bosforu. Naredne lekcije će zato pažljivo pratiti i Vizantiju, ne kao tuđu temu, već kao stalni okvir bez koga se srpska srednjovekovna priča ne može razumeti."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

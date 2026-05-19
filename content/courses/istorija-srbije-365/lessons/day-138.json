@@ -6,13 +6,49 @@
   "dayNumber": 138,
   "order": 12,
   "title": "Pad Smedereva 1459.",
+  "subtitle": "Kako je 20. juna 1459. tiho, bez velike bitke, ugašena srednjovekovna srpska država",
   "readingTimeMinutes": 8,
   "year": 1459,
-  "isPlaceholder": true,
+  "dateLabel": "1459.",
+  "timelinePosition": "20. jun 1459.",
+  "summary": "Predaja Smedereva sultanu Mehmedu II 20. juna 1459: kraj srpske despotovine, stvaranje Smederevskog sandžaka i početak gotovo četiri veka bez sopstvene države.",
+  "keyPeople": ["Mehmed II", "Stefan Tomašević"],
+  "keyPlaces": ["Smederevo", "Smederevski sandžak", "Ugarska", "Bosna"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "U proleće 1459. godine despotovina je bila država samo još po imenu. Unutrašnji rascep oko nasledstva, opisan prethodnog dana, ostavio je Smederevo u rukama mladog Stefana Tomaševića, sina bosanskog kralja, koji je u grad došao tek nekoliko meseci ranije, kao muž poslednje Brankovićeve naslednice. Iza njega nije stajala ni dugačka domaća tradicija ni jasno priznata vlast. Vlastela u gradu bila je podeljena: jedan deo je gledao prema Ugarskoj i nadao se još jednoj kraljevskoj pomoći, drugi je već računao s tim da se sa Osmanlijama mora nagoditi. Iznad svega toga, sa druge strane granice, već je bio na konju sultan Mehmed II — onaj isti koji je šest godina ranije osvojio Carigrad."
+    },
+    {
+      "type": "paragraph",
+      "text": "Mehmedov pohod na Srbiju te 1459. nije bio uzgredan. Sultan je lično poveo vojsku, što je u osmanskoj politici uvek bio znak da se neko pitanje rešava do kraja. Cilj je bio jasan: ukloniti poslednje uporište despotovine, zatvoriti dunavsku liniju i postaviti čvrstu graničnu oblast prema Ugarskoj. Vojska je krenula rano, dobro snabdevena, sa opsadnom artiljerijom kakvu su Osmanlije već usavršile pred zidinama Carigrada. Manja utvrđenja u unutrašnjosti padala su brzo, često bez ozbiljnog otpora — posade su, suočene sa nesrazmerom snaga i bez izgleda za pomoć, otvarale kapije i pregovarale o životu. Do polovine juna sultanova vojska bila je pred Smederevom."
+    },
+    {
+      "type": "paragraph",
+      "text": "Smederevski grad, koji je Đurađ Branković podizao tri decenije ranije, i dalje je bio jedna od najjačih tvrđava na Dunavu. Sa svojim visokim kulama, dvostrukim zidinama i položajem na ušću Jezave, mogao je, u boljim okolnostima, izdržati dugu opsadu. Ali okolnosti više nisu bile bolje. U gradu nije bilo dovoljno vojske ni hrane za dugotrajno držanje, a ono što je nedostajalo nije se moglo nadoknaditi sopstvenim snagama zemlje. Sve je zavisilo od toga hoće li ugarski kralj Matija Korvin, sa kim je Stefan Tomašević računao po krvnoj i političkoj liniji, stići na vreme sa vojskom. Ta vojska nije stigla — ni te nedelje, ni docnije."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Predaja, ne juriš"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ono što je usledilo nije bila bitka u onom smislu u kome se obično zamišlja kraj jedne države. Nije bilo dugog opsadnog naleta, nije bilo proboja zidina, nije bilo poslednjeg jurišanja na kule. U gradu je preovladala trezvena, hladna procena: bez ugarske pomoći, sa podeljenim raspoloženjem vlastele, sa sultanom koji je već dokazao šta čini sa onima koji se odupru, otpor nije imao smisla. Stefan Tomašević je pristao na pregovore. Dvadesetog juna 1459. godine smederevska kapija se otvorila pred Mehmedom II. Mladi despot je sa svojom bosanskom pratnjom dobio slobodan prolaz i povukao se u očevu kraljevinu, gde će biti krunisan za kralja, da bi već 1463. završio glavom pod sultanovim mačem — ali to je tema sutrašnjeg dana. Osmanska vojska je u tvrđavu ušla mirno, bez pokolja koji su pratili druge padove."
+    },
+    {
+      "type": "paragraph",
+      "text": "Posledice predaje bile su trenutne i temeljite. Osvojena oblast je gotovo odmah uklopljena u osmansku upravnu mrežu kao Smederevski sandžak. Sam grad je postao sedište sandžak-bega, osmanskog namesnika koji je odande upravljao novim graničnim područjem prema Ugarskoj. Stara despotska kancelarija je prestala da postoji, ali običan život na zemlji nije stao. Mineri u Novom Brdu i Rudniku nastavili su rad pod novim gospodarima — srebro je bilo potrebno i sultanu jednako kao i despotu. Srpska pravoslavna crkva je trpela ograničenja kakva su važila za sve nemuslimanske zajednice u carstvu, ali joj je obredni život ostavljen; manastiri su, gde su mogli, sačuvali rukopise, freske i memoriju. Deo srpske vlastele našao je mesto u osmanskoj službi kao vazali; pojedinci su, prešavši u islam, dosezali visoke položaje u Porti — ime Mehmed-paše Sokolovića vek docnije najpoznatiji je takav primer."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sa tih dvadesetak letnjih dana 1459. završila se srednjovekovna srpska država. Ona se računa od Stefana Nemanje, otprilike od 1166, prošla je kroz uspon u kraljevstvo i carstvo, kroz raspad posle Maričke bitke, kroz obnovu u doba kneza Lazara i despota Stefana, kroz drugi uspon u Đurđevo doba i konačno kroz unutrašnji rascep posle njegove smrti. Trajala je gotovo tri stoleća. Dinastička loza Brankovića će se nastaviti u Ugarskoj, sa titulom „srpskog despota” koju su Mađari priznavali emigrantskim ograncima još decenijama — ali to je bila titula bez države. Na centralnim srpskim zemljama, od Smedereva do Skoplja, sopstvene autonomne vlasti više nije bilo. Trebaće da prođe gotovo tri i po veka, do Karađorđevog ustanka 1804, pre nego što se na tom prostoru ponovo pojavi srpska država."
+    },
+    {
+      "type": "paragraph",
+      "text": "Vredi reći otvoreno: pad Smedereva 1459. nije bio junački poslednji boj, niti je kasnija narodna pesma od njega umela da načini veliku epsku scenu kao od Kosova. Bila je to tiha, pregovorima završena predaja jedne iscrpljene zemlje. Mnogo je u njoj realnosti i malo dramatike. Ono što je tog dana izgubljeno bilo je, međutim, ogromno: državna samostalnost, zakonodavna vlast, sopstveni dvor, vlastiti odnosi s drugim hrišćanskim silama. Ono što je preživelo — crkva, manastiri, jezik, narod na svojoj zemlji, sećanje na Nemanjiće i na despote — pokazaće se kao dovoljan temelj. Iz njega će, posle mnogih ćutljivih vekova, izrasti ono što će se u 19. stoleću opet zvati Srbija."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

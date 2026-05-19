@@ -6,13 +6,53 @@
   "dayNumber": 288,
   "order": 1,
   "title": "Sarajevski atentat",
+  "subtitle": "Vidovdan 1914. u Sarajevu — pucnji Gavrila Principa koji su pokrenuli lavinu na koju niko nije bio spreman",
   "readingTimeMinutes": 8,
   "year": 1914,
-  "isPlaceholder": true,
+  "dateLabel": "28. jun 1914.",
+  "timelinePosition": "28. jun 1914.",
+  "summary": "Na Vidovdan 1914. u Sarajevu, Gavrilo Princip je iz neposredne blizine ubio austrougarskog prestolonaslednika Franca Ferdinanda i njegovu suprugu Sofiju — povod koji će Beč iskoristiti za rat sa Srbijom i koji će prerasti u Veliki rat.",
+  "keyPeople": ["Gavrilo Princip", "Franc Ferdinand", "Nedeljko Čabrinović", "Dragutin Dimitrijević Apis"],
+  "keyPlaces": ["Sarajevo"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Da bi se razumeo jedan jutarnji čas u Sarajevu, treba se vratiti šest godina unazad. Godine 1908. Austrougarska je formalno aneksirala Bosnu i Hercegovinu, oblast koju je već tri decenije držala pod svojom upravom po odluci Berlinskog kongresa. Aneksija je u Beogradu primljena kao udarac — Srbija je verovala da Bosna jednog dana mora pripasti zajedničkoj južnoslovenskoj državi, a sada je bila trajno uključena u dvojnu monarhiju. U samoj Bosni, naročito među pravoslavnim Srbima i delom hrvatske i muslimanske mladeži, rastao je sloj revolucionarne omladine koji nije prihvatao trajnost austrijske vlasti. Iz tog raspoloženja izrasla je labava mreža grupa i kružoka, kasnije nazvanih jednim imenom — Mlada Bosna."
+    },
+    {
+      "type": "paragraph",
+      "text": "Mlada Bosna nije bila stranka ni vojska. Bila je generacija — đaci, studenti, učitelji u nastajanju, ljudi rođeni oko 1890. godine, koji su čitali rusku revolucionarnu literaturu, nemačku filozofiju i pesme svojih savremenika. Među njima su, uz brojne pravoslavne Srbe, bili i Hrvati i bosanski muslimani. Verovali su u oslobođenje južnih Slovena od Austrougarske, a sredstvo su, po uzoru na ruske narodnjake i italijanske karbonare, videli u atentatu — u ciljanom udarcu protiv simbola tuđinske vlasti. Bio je to opasan, romantičan, ali i smrtno ozbiljan svet."
+    },
+    {
+      "type": "paragraph",
+      "text": "U proleće 1914. objavljeno je da će austrougarski prestolonaslednik nadvojvoda Franc Ferdinand u junu posetiti Sarajevo, neposredno posle vojnih manevara u istočnoj Bosni. Datum izabran za svečani ulazak u grad bio je 28. jun — po novom kalendaru istovremeno i Vidovdan, dan kosovske bitke i jedan od najsvetijih datuma u srpskom narodnom pamćenju. Za grupu mladobosanaca okupljenu oko Gavrila Principa, Nedeljka Čabrinovića i Trifka Grabeža, dolazak prestolonaslednika baš tog dana shvaćen je kao otvorena provokacija. Odluka da se izvrši atentat doneta je još mesecima ranije, u Beogradu, gde su trojica zaverenika dobila pištolje, bombe i kapsule cijankalija, i odakle su tajnim kanalima prebačeni preko granice u Bosnu."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Jutro 28. juna"
+    },
+    {
+      "type": "paragraph",
+      "text": "Tog vedrog nedeljnog jutra povorka otvorenih automobila kretala se obalom Miljacke. Franc Ferdinand i njegova supruga Sofija sedeli su u trećem vozilu. Bezbednosne mere bile su iznenađujuće slabe — bez vojnog špalira, sa malo policije na poznatoj trasi. Duž puta je, na različitim mestima, čekalo nekoliko zaverenika. Prva tri nisu reagovala. Tada je Nedeljko Čabrinović bacio bombu na automobil prestolonaslednika. Vozač je instinktivno ubrzao, bomba je pala na poklopac, odskočila i eksplodirala pod sledećim vozilom, ranivši nekoliko ljudi. Čabrinović je progutao cijankalij i skočio u Miljacku, ali se otrov pokazao slabim, a reka plitkom; izvukli su ga živog. Povorka je nastavila do Gradske kuće, gde je nadvojvoda održao zvanični govor, vidno potresen, ali pribran."
+    },
+    {
+      "type": "paragraph",
+      "text": "Posle prijema došlo je do izmene plana. Franc Ferdinand je želeo da poseti ranjene u bolnici. Pratnja je krenula nazad obalom, ali vozač prvog automobila skrenuo je u sporednu Franc Jozefovu ulicu — po starom, izmenjenom rasporedu. General Oskar Poćorek mu je doviknuo da je pogrešno skrenuo. Vozač je zakočio i počeo da unazad izvodi automobil iz uskog skretanja, na ulici i pred kafanom Morica Šilera. Tu, na svega nekoliko koraka, stajao je Gavrilo Princip, devetnaestogodišnji student koji je posle propalog jutra već smatrao da je sve gotovo. Imao je pištolj u džepu. Prišao je vozilu i ispalio dva hica iz neposredne blizine. Sofija je pogođena u stomak, Franc Ferdinand u vrat. Oboje su umrli u roku od sat vremena u rezidenciji generala Poćoreka."
+    },
+    {
+      "type": "paragraph",
+      "text": "Princip je odmah uhvaćen; nije uspeo da progura cijankalij. Tokom istog dana i narednih dana uhapšeni su i Čabrinović, Grabež i drugi članovi mreže. Na suđenju koje je usledilo u jesen 1914. većina glavnih zaverenika osuđena je na duge robije — Princip je, kao maloletan u trenutku dela po austrougarskom zakonu, izbegao smrtnu kaznu i osuđen je na dvadeset godina. Umreće u tvrđavi Terezin u aprilu 1918, od tuberkuloze, ne dočekavši kraj rata koji je njegov pucanj pokrenuo."
+    },
+    {
+      "type": "paragraph",
+      "text": "Tu počinje deo priče koji istoričari i danas vode oprezno. Sigurno je da su mladobosanci oružje i pomoć dobili iz Beograda, i to preko ljudi povezanih sa tajnom oficirskom organizacijom „Ujedinjenje ili smrt”, poznatijom kao Crna ruka, na čijem je čelu bio pukovnik Dragutin Dimitrijević Apis, šef obaveštajnog odeljenja srpskog Generalštaba. Apisova umešanost u logistiku atentata danas se uglavnom prihvata. Mnogo je sporniji stepen znanja srpske vlade. Premijer Nikola Pašić je, prema delu istraživanja, dobio uznemirujuće, ali nejasne dojave o pripremama i pokušao da ih obustavi preko graničnih vlasti — ali do današnjeg dana nije sasvim razjašnjeno koliko je tačno znao, kada i šta je preduzeo. To pitanje ostaje otvoreno."
+    },
+    {
+      "type": "paragraph",
+      "text": "Zato treba jasno reći i šta atentat nije bio. Nije bio plan srpske države da pokrene svetski rat. Srbija 1914. nije bila zemlja spremna za novi rat — bila je iscrpljena posle dva balkanska rata, zadužena, sa neukrojenim novim oblastima na jugu i sa vojskom koja se još nije oporavila. Ipak, atentat je Austrougarskoj dao povod koji je u Beču dugo čekan: izgovor da se sa južnoslovenskim pitanjem obračuna jednim brzim ratom protiv Srbije. Mesec dana kasnije stići će ultimatum koji je trebalo da bude neprihvatljiv, a još koji dan posle toga — objava rata. Gavrilo Princip nije zamišljao Veliki rat. Bio je mladi ideolog koji je verovao da jedan pucanj može srušiti carstvo. Carstvo je pao, ali tek pošto je za sobom povukao četiri godine svetske krvi i milione mrtvih — lavinu koju, tog vedrog nedeljnog jutra, niko u Sarajevu nije mogao predvideti."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

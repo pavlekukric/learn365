@@ -6,13 +6,53 @@
   "dayNumber": 279,
   "order": 14,
   "title": "Beograd i Srbija 1903–1912.",
+  "subtitle": "Slike prestonice i provincije u devet godina „zlatnog doba“ — između Majskog prevrata i Prvog balkanskog rata",
   "readingTimeMinutes": 7,
   "year": 1908,
-  "isPlaceholder": true,
+  "dateLabel": "1903–1912.",
+  "timelinePosition": "1903–1912.",
+  "summary": "Beograd i unutrašnjost Srbije u devet godina između Majskog prevrata i izbijanja Prvog balkanskog rata: grad koji raste, novine i kafane koje povezuju javnost, prvi automobili i aeroplani, i provincija koja se polako uvodi u modernu privredu.",
+  "keyPeople": ["Jovan Skerlić", "Bogdan Popović", "kralj Petar I Karađorđević", "Đorđe Kovaljevski"],
+  "keyPlaces": ["Beograd", "Niš", "Kragujevac", "Užice", "Šabac", "Smederevo"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Ako se „zlatno doba“ srpske građanske kulture pre Prvog svetskog rata može stati u jedan prozor, taj prozor je devet godina između Majskog prevrata 1903. i mobilizacije za Prvi balkanski rat 1912. Bilo je to vreme u kome je Srbija prvi put istovremeno disala kao moderna država — sa parlamentom koji je redovno zasedao, novinama koje su izlazile svakog jutra, kafanama u kojima se politika svađala i smirivala, i prestonicom koja je rasla brže nego ikada do tada. Lekcija koja sledi nije pregled; ona je niz slika, jer se atmosfera tog perioda bolje vidi u pojedinostima nego u sažetku."
+    },
+    {
+      "type": "paragraph",
+      "text": "Beograd na početku perioda još je manji grad. Procene za 1900. godinu daju mu nešto preko sedamdeset hiljada stanovnika; do 1912. taj broj prelazi sto hiljada. Grad izlazi iz starog jezgra oko Kalemegdana i Knez Mihailove ulice i širi se prema Vračaru i Paliluli, gde se ulice tek probijaju kroz nekadašnje bašte i kukuruzišta. Gradi se kamen i opeka tamo gde su do juče stajale ćerpičare; pojavljuju se prva spratna zdanja u stilu beogradske akademske arhitekture, sa balkonima od kovanog gvožđa i visokim tavanicama. Generalni urbanistički plan koji će gradu dati Đorđe Kovaljevski stići će tek 1923, ali ideje o regulaciji Dunavske i Savske strane, o produžecima Knez Mihailove i o uređenju zelenih površina raspravljaju se već u ovim godinama."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pojedine zgrade i danas stoje kao spomenici tog naleta. Hipotekarna banka, Narodni muzej smešten u prostorijama starog kraljevskog dvora, novi delovi Kalemegdana sa prvim uređenim gradskim parkovima, i — započeta 1907. — zgrada koja će tek mnogo kasnije postati Stara skupština. Skadarska, do tada već dobro poznata uska ulica sa malim radnjama i mehanama, učvršćuje svoju reputaciju boemske četvrti u kojoj se pesnik, glumac i novinar susreću posle ponoći. Knez Mihailova i Ulica kralja Petra dobijaju izloge prvih modernih trgovačkih radnji, sa staklom u celoj površini i mesinganim okvirima, kakvi su do juče viđani samo u Pešti ili Beču."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Novine, kafane, pozorište"
+    },
+    {
+      "type": "paragraph",
+      "text": "Najsnažnije promene nisu, međutim, u kamenu, nego u javnoj sferi. „Politika“ počinje da izlazi 1904. godine i ubrzo postaje dnevnik bez kojeg se beogradsko jutro više ne zamišlja. „Srpski književni glasnik“, koji je Bogdan Popović pokrenuo još 1901. i koji u ovom periodu vodi mladi Jovan Skerlić, postaje sito kroz koje prolazi gotovo sve što se u srpskoj književnosti smatra ozbiljnim. Beograd dobija — prvi put masovno — pojam „javnost“ u modernom smislu: prostor u kojem se mišljenje obrazuje preko štampe, a ne preko porodičnih i partijskih veza."
+    },
+    {
+      "type": "paragraph",
+      "text": "Kafane su drugo lice te javne sfere. „Dardaneli“, „Kod Tri šešira“, „Tri lista duvana“ — imena koja će u sećanju kasnijih naraštaja zvučati gotovo kao naslovi knjiga. U njima se sastaju poslanici i pisci, planiraju listovi i razbijaju se prijateljstva. Narodno pozorište modernizuje repertoar: pored domaćih autora, na njegovoj sceni redovno se igraju Šekspir, Ibzen i Čehov. Beogradsko pevačko društvo drži koncerte koji okupljaju građanski sloj u njegovim najsvečanijim trenucima. Bioskopi — „Pariz“, „Kasina“, „Korzo“ — donose pokretne slike iz Pariza, Berlina i Beča; gledalište je u početku mahom mlado, ali se brzo proširuje. Univerzitet, koji je 1905. godine prerastao iz Velike škole, do 1912. iznedrio je generaciju studenata i mladih nastavnika kakvu zemlja do tada nije imala."
+    },
+    {
+      "type": "paragraph",
+      "text": "Tehnika, takođe, ostavlja prve tragove. Prvi automobili pojavili su se u Beogradu još oko 1903; izvori se ne slažu u broju i imenima vlasnika, ali se obično navodi da je kralj Petar I dobio sopstveni automobil 1908. godine. Prvi aeroplani prelete nad gradom između 1910. i 1912, i izazovu meteže kakvi se pamte u porodičnim pričama. Telegrafska mreža pokriva celu zemlju, telefon stiže u nekoliko centralnih ustanova, a železnica — već dovršena u svojim glavnim pravcima — povezuje provinciju sa prestonicom u jednom danu putovanja, što je svega dve decenije ranije izgledalo nezamislivo."
+    },
+    {
+      "type": "paragraph",
+      "text": "Provincija ne sedi mirno. Niš, oslobođen 1878, sada se širi van starih zidina i postaje drugi industrijski centar zemlje, sa fabrikama, kasarnama i sve značajnijim trgovačkim staležom. Kragujevac, sa Vojnotehničkim zavodom čije se osnivanje vezuje za 1851. ali čiji se pogoni baš u ovim godinama proširuju, i sa Topolivnicom, postaje grad u kome se kuje srpsko oružje. Šabac trguje žitom i šljivom i ponosi se svojom realkom. Užice je 1900. godine dobilo malu hidroelektranu — jednu od prvih u širem regionu — i osvetljenje koje je tada izgledalo kao čudo. Smederevo se okreće Dunavu i rečnom saobraćaju. Po obimu i sjaju, sve to ostaje skromno u poređenju sa Bečom ili Pragom; ali, mereno sopstvenim merilom, predstavlja vrhunac građanske kulture koji Srbija do tada nije iskusila."
+    },
+    {
+      "type": "paragraph",
+      "text": "Period nije bez senki. Sudski procesi protiv novinara, finansijske afere oko pojedinih banaka, sukobi između listova različitih političkih boja, povremeni štrajkovi radnika u Beogradu i Kragujevcu — sve to deo je iste, žive javne sfere. I pored ulične rasvete, automobila i fabrika, najveći deo stanovništva i dalje živi na selu i zavisi od žetve. Pa ipak, kada se posle 1918. preživeli pripadnici ove generacije budu osvrtali, „zlatno doba“ neće biti puka nostalgija; biće prepoznavanje da je između 1903. i 1912. Srbija — možda prvi i poslednji put pre velikog rata — kratko izgledala kao zemlja koja zaista pripada svom dvadesetom veku."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

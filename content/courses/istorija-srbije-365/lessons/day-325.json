@@ -6,13 +6,49 @@
   "dayNumber": 325,
   "order": 10,
   "title": "Neretva i Sutjeska",
+  "subtitle": "Dve velike nemačke ofanzive 1943. i probijanje glavne partizanske grupe kroz Bosnu i Hercegovinu",
   "readingTimeMinutes": 7,
   "year": 1943,
-  "isPlaceholder": true,
+  "dateLabel": "januar–jun 1943.",
+  "timelinePosition": "januar–jun 1943.",
+  "summary": "Četvrta i Peta neprijateljska ofanziva 1943. godine — bitke na Neretvi i Sutjesci — bile su pokušaji Osovine da uništi glavnu partizansku snagu u Bosni i Hercegovini, ali su završene njenim teškim, krvavim probojem ka istoku.",
+  "keyPeople": ["Josip Broz Tito", "Sava Kovačević", "Draža Mihailović", "Aleksandar Ler"],
+  "keyPlaces": ["Neretva", "Jablanica", "Sutjeska", "Bosna i Hercegovina", "Crna Gora"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Početkom 1943. godine glavnina narodnooslobodilačke vojske nalazila se u zapadnoj Bosni, u oblasti takozvane Bihaćke republike — slobodnoj teritoriji koja je tokom prethodne jeseni postala simbol partizanskog uspeha. Za Nemce, Italijane, ustaše i četnike to je bio dvostruki problem: vojni, jer je odvlačio snage od istočnog fronta i jadranske obale, i politički, jer je pokazivao da u srcu Nezavisne Države Hrvatske postoji druga, organizovana vlast. Tokom zime 1942–1943. dogovoreno je da se to sredi jednom velikom, koordinisanom ofanzivom. Plan je dobio nemačko ime — operacija Vajs, „Bela” — a u jugoslovenskom sećanju ostaće poznat kao Četvrta neprijateljska ofanziva, ili jednostavno Bitka na Neretvi."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ofanziva je krenula u januaru 1943. iz nekoliko pravaca. Nemačke divizije udarile su sa severa, italijanske jedinice iz priobalja, ustaške i domobranske snage popunjavale su unutrašnje pravce, a četnički odredi pod komandom oficira odanih Draži Mihailoviću čekali su na istočnoj strani Neretve, u Hercegovini i Crnoj Gori, da partizanima zatvore odstupnicu. Bila je to zamisao klasičnog koncentričnog obruča: pritisnuti glavninu partizanskih snaga uz reku i tu je razbiti. Razmere četničkog učešća uz Osovinu na ovom delu fronta i danas su predmet rasprave, ali da je do koordinacije sa italijanskim komandama dolazilo — to je u izvorima dobro posvedočeno."
+    },
+    {
+      "type": "paragraph",
+      "text": "Vrhovni štab partizana, sa Titom na čelu, stajao je pred teškim izborom. Pravac za proboj bilo je gotovo nemoguće birati slobodno: zapad i sever držale su jake nemačke i ustaške snage, a uz to se kretala duga kolona ranjenika, oko četiri hiljade ljudi koje nije bilo moguće ostaviti — i iz čisto vojnih i iz moralnih razloga. Tito je doneo odluku koja će kasnije postati udžbenički primer: probiti se ka istoku, preko Neretve, kroz teritoriju koju su držali četnici, i prebaciti glavninu vojske sa ranjenicima u Hercegovinu i Crnu Goru."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Most kod Jablanice"
+    },
+    {
+      "type": "paragraph",
+      "text": "Da bi neprijatelja zavarao o pravcu proboja, Tito je naredio da se sruši veliki železnički most preko Neretve kod Jablanice. Most je dignut u vazduh početkom marta 1943, i nemačkim i italijanskim komandama je trebalo nekoliko dragocenih dana da poveruju da partizani zaista neće tuda preći — što je davalo vremena za improvizovani prelaz preko ostataka srušene konstrukcije i preko brzo podignutih pešačkih prelaza nizvodno. Prelaz preko hladne, nabujale Neretve trajao je danima, pod neprestanim vazdušnim napadima. Ranjenici su nošeni na nosilima, na konjima, na leđima drugova. Na istočnoj obali partizanske jedinice su zatim u nekoliko sudara razbile četničke snage koje su ih tu čekale i nastavile prodor ka istoku. Mart 1943. doneo je glavnini partizana izlaz iz obruča — po cenu velikih gubitaka, ali sa očuvanim štabom, glavnim jedinicama i, što je iznad svega bilo važno za njihovu reputaciju, sa ranjenicima koje nisu ostavili."
+    },
+    {
+      "type": "paragraph",
+      "text": "Predah nije potrajao. Već u maju 1943. nemačka komanda je pokrenula novu ofanzivu, operaciju Švarc — „Crna” — koja će u jugoslovenskom sećanju ostati Peta neprijateljska ofanziva ili Bitka na Sutjesci. Cilj je ponovo bio uništenje glavne operativne grupe partizana, sada u planinskom pojasu na granici Hercegovine, Crne Gore i Bosne. Ovog puta obruč je bio uži, snage Osovine brojnije i bolje koordinisane, a partizani su ulazili u bitku iscrpljeni prethodnim maršem i sa hiljadama ranjenika. Borbe su vođene u izuzetno teškim planinskim uslovima, u dolinama Pive, Tare i Sutjeske, uz stalno bombardovanje iz vazduha."
+    },
+    {
+      "type": "paragraph",
+      "text": "Vrhunac je dostignut u junu 1943, kada je glavnina jedinica pokušala da se probije preko reke Sutjeske. Tu je partizanska vojska pretrpela najteže gubitke u celom ratu — procene se kreću oko sedam do osam hiljada poginulih, među njima najveći deo ranjenika koje nije bilo moguće prebaciti, kao i komandant Treće divizije Sava Kovačević, koji je poginuo vodeći proboj. Sam Tito je tokom napada nemačke avijacije bio ranjen, ali ne i izvan stroja. Glavnoj operativnoj grupi, prepolovljenoj i krvavoj, ipak je pošlo za rukom da se probije iz obruča kod Sutjeske i da se prebaci u istočnu Bosnu, gde je mogla da se odmori i popuni."
+    },
+    {
+      "type": "paragraph",
+      "text": "Vojnički, Neretva i Sutjeska bile su porazi po broju gubitaka — partizanski štab je sam priznavao razmere stradanja. Politički su, međutim, bile pobede u onom smislu koji se u ratu retko poklapa sa statistikom. Pokret koji je preživeo dve sistematske nemačke ofanzive, sačuvao štab i jedinstvo komande, i izvukao se sposoban da nastavi rat — više nije mogao biti tretiran kao lokalna pobuna. Britanske savezničke misije, koje su do tada uglavnom računale na Mihailovićeve četnike, ubrzo posle Sutjeske dolaze u partizanski štab, a do jeseni 1943. britanska podrška se odlučno prebacuje na partizansku stranu. O odlukama vrhovnog štaba u tim ofanzivama, posebno o ceni koja je plaćena ranjenicima i borcima, postojaće rasprave i mnogo decenija kasnije; ali u letu 1943. one su dale partizanskom pokretu nešto što se kasnije više nije moglo izgubiti — ratni autoritet."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

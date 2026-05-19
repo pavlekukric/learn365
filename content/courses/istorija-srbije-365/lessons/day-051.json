@@ -6,13 +6,53 @@
   "dayNumber": 51,
   "order": 4,
   "title": "Nemanja i crkva",
+  "subtitle": "Sabor protiv jeretika, beli mermer Studenice i tihi izbor između Rima i Carigrada",
   "readingTimeMinutes": 7,
   "year": 1180,
-  "isPlaceholder": true,
+  "dateLabel": "1166–1196.",
+  "timelinePosition": "1166–1196.",
+  "summary": "Nemanjin verski program: progon bogumilske jeresi, podizanje Studenice i Đurđevih Stupova i postepeno svrstavanje srpske države u pravoslavni, vizantijski kulturni krug.",
+  "keyPeople": ["Stefan Nemanja"],
+  "keyPlaces": ["Studenica", "Đurđevi Stupovi", "Raška", "Sveta Gora"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Stefan Nemanja je svoju državu gradio na dva oslonca — na maču i na crkvi. O ratovima i savezima već je bilo reči; ova lekcija prati onaj drugi, sporiji posao. Tokom tri decenije vladavine on je u Raškoj suzbijao jeres, podizao manastire od belog mermera i, ne uvek glasno ali dosledno, povlačio svoju zemlju u pravoslavni, vizantijski kulturni krug. Iz tog tihog rada izrastao je deo srpskog identiteta koji će nadživeti i njega i njegovu dinastiju."
+    },
+    {
+      "type": "paragraph",
+      "text": "Nemanja je bio uveren pravoslavni hrišćanin, što u dvanaestom veku na Balkanu nije bila ni mala stvar ni samorazumljiva. Granica između istočne i zapadne crkve već je bila povučena raskolom iz 1054. godine, ali je u praksi još uvek bila porozna; po srpskim zemljama susretali su se sveštenici iz oba sveta, latinski episkopi po primorju i grčki episkopi u unutrašnjosti. Sam Nemanja je, prema docnijim životopisima, kao dete bio kršten dva puta — prvo po latinskom obredu u Zeti, gde se rodio, a potom po pravoslavnom obredu u Rasu, kad se porodica vratila u Rašku. Taj podatak, koliko god ga treba uzeti sa oprezom kao kasnije književno svedočanstvo, dobro pokazuje u kakvom je svetu rastao."
+    },
+    {
+      "type": "paragraph",
+      "text": "Kao vladar, Nemanja je morao da se izjasni. Njegov izbor je pao na pravoslavlje, i to ne samo iz lične pobožnosti. Vizantija je još uvek bila najmoćnija sila u njegovom susedstvu, sa stolećima razvijenom crkvenom upravom, bogatom liturgijom, manastirskom tradicijom i ugledom koji se prelivao u politiku. Vezati svoju državu za tu tradiciju značilo je dobiti civilizacijski okvir koji ni jedan vladar Raške nije mogao sam da izgradi. To je istovremeno značilo i prihvatiti meru zavisnosti koja je tom okviru svojstvena: srpska crkva će vekovima ostati u kanonskoj vezi sa grčkim svetom, a borba za njenu samostalnost biće tek posao sledećeg pokolenja."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Sabor protiv bogumila"
+    },
+    {
+      "type": "paragraph",
+      "text": "Najupečatljiviji unutrašnji crkveni zadatak Nemanjinog vremena bilo je suzbijanje bogumilstva. Reč je o dualističkom učenju koje se u desetom veku javilo u Bugarskoj i odatle se proširilo Balkanom, dospevši i u srpske zemlje. Bogumili su odbacivali ovozemaljski poredak kao tvorevinu zlog načela, prezirali crkvenu hijerarhiju, krstove i sakramente, i tražili strogu askezu. U očima i pravoslavnih i katoličkih vlasti bili su opasni dvostruko — kao verska jeres i kao podriv društvenog poretka. Nemanja je, prema žitijima koja su mu kasnije sastavili sinovi, sazvao sabor na kome je njihovo učenje osuđeno; predvodnici su, kažu izvori, bili kažnjeni progonstvom i oduzimanjem imovine, knjige spaljene, a pojedini pripadnici i telesno kažnjeni. Kolika je tačno bila razmera tog progona, izvori ne dopuštaju da se kaže pouzdano, ali je signal bio nedvosmislen: u Nemanjinoj državi pravoslavlje je jedina dopuštena vera, a država stoji uz crkvu."
+    },
+    {
+      "type": "paragraph",
+      "text": "Drugi, mnogo trajniji deo Nemanjinog crkvenog programa bilo je zidanje. Manastiri se u srednjem veku nisu gradili brzo, niti su bili samo bogomolje. Bili su ekonomski centri sa svojim posedima, selima i prihodima; bili su prepisivačke radionice u kojima su se umnožavale bogoslužbene i svetovne knjige; bili su pribežišta učenosti i, kad bi zatrebalo, oslonci političke vlasti. Podići manastir značilo je ostaviti za sobom instituciju koja će raditi vekovima."
+    },
+    {
+      "type": "paragraph",
+      "text": "Nemanja je u tom poslu bio neumoran. Negde oko 1170. godine podigao je, ili obnovio, Đurđeve Stupove iznad Rasa, posvećene Svetom Đorđu — manastir koji se i danas, iako oštećen, vidi u brdima nad starom prestonicom. Iz njegovog vremena potiče i niz manjih zadužbina po Raškoj i susednim oblastima. Ali pravo remek-delo, ono koje će postati zaštitni znak čitavog jednog stila, jeste Studenica. Nemanja je počeo da je zida oko 1190. godine u dolini istoimene reke, kao svoju buduću grobnu crkvu. Crkva Bogorodičinog Vavedenja izgrađena je od belog mermera, sa izuzetno klesanim portalima i prozorima koji spajaju vizantijsku osnovu sa romaničkom plastikom primorskih majstora. Iz tog spoja izrasla je takozvana raška škola — prepoznatljiv srpski graditeljski izraz koji će obeležiti naredni vek."
+    },
+    {
+      "type": "paragraph",
+      "text": "Tek u Studenici se vidi cela ambicija Nemanjinog crkvenog programa. To nije samo manastir; to je dinastička zadužbina, mesto za sahranu osnivača i molitvu za njegovo potomstvo. Freske će tu, pod njegovim sinom, postaviti standard srpskog srednjovekovnog slikarstva. Imanja koja je manastiru poklonio osigurala su mu samostalan život i nezavisne prihode. A pravilo po kome će se manastir voditi — strogo, gotovo svetogorski — pripremaće tlo za jedan korak koji Nemanja u Raškoj još nije mogao da napravi: za sopstveno povlačenje na Svetu Goru, i za podizanje srpskog manastira Hilandara, čemu će biti posvećena posebna lekcija."
+    },
+    {
+      "type": "paragraph",
+      "text": "Nemanjino vreme, dakle, nije samo doba ratova i granica. To je i doba u kome se srpska država prvi put ozbiljno opredeljuje verski, i prvi put dobija crkvenu i kulturnu infrastrukturu dostojnu tog opredeljenja. Sabor protiv bogumila i mermerni zidovi Studenice deo su iste odluke. Posle Nemanje, srpski vladar više neće biti samo gospodar zemlje i vojske; biće i ktitor — onaj koji zida, daruje i ostavlja iza sebe kuće molitve. Taj obrazac će potrajati sve do pada srednjovekovne države, i u dobroj meri će preživeti i nju."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

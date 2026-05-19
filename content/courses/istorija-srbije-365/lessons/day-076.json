@@ -6,13 +6,49 @@
   "dayNumber": 76,
   "order": 4,
   "title": "Srpska patrijaršija",
+  "subtitle": "Kako je 9. aprila 1346. u Skoplju srpska arhiepiskopija uzdignuta na rang patrijaršije sa sedištem u Peći",
   "readingTimeMinutes": 7,
   "year": 1346,
-  "isPlaceholder": true,
+  "dateLabel": "1346.",
+  "timelinePosition": "9. april 1346.",
+  "summary": "Uzdizanje srpske arhiepiskopije na rang patrijaršije 1346. u Skoplju, postavljanje sedišta u Peć, sukob sa Carigradom i izmirenje 1375.",
+  "keyPeople": ["Dušan", "patrijarh Joanikije II", "patrijarh Kalist", "patrijarh Simeon"],
+  "keyPlaces": ["Peć", "Skoplje", "Konstantinopolj", "Sveta Gora"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Pre nego što je u Skoplju mogao da se kruniše za cara, Stefan Dušan je morao da reši jedno strogo crkveno pitanje. Po pravoslavnoj tradiciji, cara je miropomazanjem mogao da postavi samo patrijarh — ne arhiepiskop, ma kako ugledan. Srpska crkva, od dana Svetog Save, imala je rang autokefalne arhiepiskopije, što je bilo dovoljno za kralja, ali ne i za carsku titulu kakvu je Dušan već pripremao. Da bi se taj jaz premostio, bilo je potrebno crkvu uzdići na najviši rang istočnog hrišćanstva — na rang patrijaršije. Tako se na proleće 1346. godine, u Skoplju, dogodio događaj koji će svojim posledicama daleko nadživeti i samog Dušana i njegovo carstvo."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sabor je sazvan u Skoplju, koje je već nekoliko godina bilo Dušanovo glavno boravište i sedište južnih oblasti njegove države. Na njega su pozvani srpski episkopi, ali i predstavnici drugih pravoslavnih crkava na čije se prisustvo polagao naročit značaj: bugarski patrijarh Simeon iz Trnova i ohridski arhiepiskop Nikola, a uz njih i ugledni igumani sa Svete Gore. Njihov dolazak nije bio slučajan — sazivač je dobro znao da uzdizanje arhiepiskopije u patrijaršiju, bez učešća vaseljenskog patrijarha u Konstantinopolju, mora barem da bude potkrepljeno odobravanjem drugih istočnih crkvenih središta. Konstantinopolj sam je u to vreme bio zauzet teškim građanskim ratom između Jovana Kantakuzina i regentstva mladog Jovana V Paleologa, i Dušan je upravo tu raspolovljenost mudro iskoristio."
+    },
+    {
+      "type": "paragraph",
+      "text": "Na saboru, 9. aprila 1346. godine, srpski arhiepiskop Joanikije II proglašen je za prvog srpskog patrijarha. Puna titula, koju će nositi i njegovi naslednici, glasila je „patrijarh Srba i Grka” — što je istovremeno bilo crkveno priznanje novostečenih dušanovih grčkih oblasti u Makedoniji, Albaniji i Tesaliji i jasna poruka da nova patrijaršija jurisdikciono pokriva ne samo srpsko stanovništvo, nego i grčke episkopije koje su do juče bile pod Carigradom. Za sedište je određena Peć, gde je srpska arhiepiskopija već imala uporište. Otuda i ime po kome će ta institucija biti zapamćena: Pećka patrijaršija. Sa istog sabora Joanikije će nedelju dana kasnije, 16. aprila, miropomazati Dušana za cara — što je, gledano unazad, bio i suštinski razlog zbog kojeg je sve sazvano."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Raskol sa Carigradom"
+    },
+    {
+      "type": "paragraph",
+      "text": "Crkveni odgovor iz Konstantinopolja stigao je sa zakašnjenjem, ali odlučan. Vaseljenski patrijarh Kalist, kada su se prilike u Vizantiji posle 1347. donekle stišale, proglasio je srpski jednostrani čin nekanonskim. Oko 1350. godine bačena je crkvena anatema na srpskog cara, na patrijarha Joanikija i na čitavu srpsku crkvenu hijerarhiju. To nije bila prazna pretnja: u istočnoj pravoslavnoj svesti odluka vaseljenskog patrijarha imala je težinu — odsecala je srpsku crkvu od opštenja sa ostalim pravoslavnim crkvama, lišavala je liturgijskog poretka u kome je vaseljenski presto bio prvi po časti. Posledica je bio dugotrajan raskol koji je trajao više od dve decenije i pratio sudbinu Dušanovog carstva u njegovim najtežim godinama."
+    },
+    {
+      "type": "paragraph",
+      "text": "Raskol je smetao i jednoj i drugoj strani. Srpska crkva nije se odrekla patrijaršijskog ranga, ali jeste tražila put ka izmirenju, naročito posle Dušanove smrti 1355. i postepenog osipanja carstva. Konačno rešenje stiglo je 1375. godine. Tada je, posredstvom svetogorskih monaha — pre svega monaha Isaije iz Hilandara — postignut dogovor između srpske crkve, koju je predstavljao patrijarh Sava IV, i carigradske patrijaršije, na čijem je čelu bio Filotej Kokin. Carigrad je priznao srpsku patrijaršiju, anatema je skinuta, a opštenje obnovljeno. Sigurno je da je do izmirenja došlo upravo te godine; precizan oblik dogovora i obim ustupaka još su predmet stručne rasprave, ali se sam akt priznanja iz 1375. od tada uzima kao zvaničan kraj raskola."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ono što je 1346. počelo kao crkveni instrument jedne carske krunidbe pokazalo se, sa stoletnom distancom, kao najtrajnije Dušanovo delo. Carstvo se raspalo već u generaciji posle njegove smrti. Stara srpska država pala je pod Osmanlije konačno 1459. godine. Ali Pećka patrijaršija opstala je i kroz tursko doba — sa prekidima, kroz progonstva i pomeranja, kroz čuvenu obnovu 1557. godine za vreme velikog vezira Mehmed-paše Sokolovića, kada je za prvog obnovljenog patrijarha postavljen Makarije Sokolović. Ukinuta je 1766. godine sultanskom odlukom i potčinjena carigradskoj patrijaršiji, da bi krajem 19. veka, posle obnove srpske državnosti, bila postupno vraćena: 1879. godine priznata je autokefalnost beogradske mitropolije, a puni patrijaršijski rang vraćen je 1920. ujedinjenjem srpskih crkvenih oblasti u obnovljenu Srpsku pravoslavnu crkvu."
+    },
+    {
+      "type": "paragraph",
+      "text": "Tako je čin sa skopskog sabora 1346. godine — koji je za savremenike bio pre svega politički potrebna predigra za carsku krunu — vremenom postao samostalna istorijska linija. Od svih institucija koje je nemanjićka država stvorila, patrijaršija sa sedištem u Peći pokazala se kao najotpornija na ono što je dolazilo posle. Carstvo je nestalo, despotovina je pala, Smederevo je predato, ali se crkvena struktura uspostavljena Dušanovom voljom i Joanikijevim ustoličenjem provlačila kroz vekove, čuvajući kontinuitet srpskog imena u istorijskim periodima kada druge institucije za to nisu imale ni snage ni okvira. Upravo zato se 9. april 1346. obično pominje uz mnogo veću pažnju nego što bi to očekivao neko ko gleda samo na puku formalnost — uzdizanje arhiepiskopije za jedan stepen više. Stepen je bio mali; trajanje, neuporedivo veće od svega što je u Skoplju te nedelje izgledalo važno."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

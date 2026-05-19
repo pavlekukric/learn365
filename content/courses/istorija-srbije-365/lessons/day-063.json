@@ -6,13 +6,49 @@
   "dayNumber": 63,
   "order": 3,
   "title": "Sasi i procvat rudarstva",
+  "subtitle": "Kako su nemački rudari sredinom 13. veka otvorili srpsku zemlju i pretvorili je u rudarsku silu Evrope",
   "readingTimeMinutes": 8,
   "year": 1250,
-  "isPlaceholder": true,
+  "dateLabel": "13. vek",
+  "timelinePosition": "13. vek",
+  "summary": "Dolazak Sasa — nemačkih rudara — u Srbiju sredinom 13. veka, njihov poseban pravni i verski položaj, otvaranje Brskova, Rudnika i Trepče i preobražaj srpske države u rudarsku silu srednjovekovne Evrope.",
+  "keyPeople": [],
+  "keyPlaces": ["Brskovo", "Rudnik", "Trepča", "Plana", "Janjevo", "Gluhavica"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Negde oko sredine 13. veka, u srpsku zemlju počeli su da pristižu stranci kakve dotadašnja Raška gotovo nije poznavala. Govorili su nemački, nosili neobičnu odeću, držali se zajedno i tražili tačno određene stvari — brda sa žicama metala, vodu za pokretanje mehova i meha za topljenje, i pravo da žive po svojim zakonima. Domaći ljudi zvali su ih jednom rečju, koja će u srpskom jeziku ostati do danas — Sasi. Ime je dolazilo od Saksonaca, ali u stvarnosti to je bila šarena skupina rudarskih majstora iz nemačkih zemalja i, naročito, iz rudnih oblasti tadašnje Ugarske, pre svega Sedmogradja i Spiša. Njihov dolazak biće jedan od najkonkretnijih primera kako se srednjovekovna Srbija, kroz pažljivo dovedeno ciljano doseljavanje, uključila u privredni krug zapadne Evrope."
+    },
+    {
+      "type": "paragraph",
+      "text": "Tradicija prvi veći talas vezuje za vreme kralja Uroša I, sina Stefana Prvovenčanog, koji je vladao između 1243. i 1276. godine. Verovatno su pojedini rudari prešli granicu i ranije, posle pustošenja koje su mongolske najezde 1241. i 1242. ostavile po srednjoj Evropi, kada su mnoge zanatlije tražile mirniju zemlju i otvorenog vladara. Uroš ih je primio kao darovnu priliku. Srpska brda, naročito oko Rudnika u centralnoj Srbiji, oko Brskova u dolini Tare i u kosovskim planinama, krila su rudu koju lokalno stanovništvo nije znalo, ili nije imalo snage, da vadi na pravi način. Sasi su znali."
+    },
+    {
+      "type": "paragraph",
+      "text": "Naselja koja su osnivali izgledala su drugačije od svega oko sebe. U državi koja je inače bila pretežno seoska, niknule su male, guste varoši sa kućama uz okno, sa trgom, sa kovačnicama i topionicama. U središtu svakog takvog naselja stajala je katolička crkva sa svojim sveštenikom, najčešće franjevcem ili dominikancem. Sasi nisu prelazili u pravoslavlje i nisu se mešali sa domaćim stanovništvom u mestima u kojima su radili. Imali su sopstvene sudije, sopstvene večnike i sopstveno gradsko uređenje preneto iz nemačkih rudarskih centara. Sve to bilo je sažeto u takozvanom „Saskom zakoniku” — skupu pravila koji je uređivao kako se kopa, kako se deli ruda, kako se rešavaju sporovi i kako se naplaćuje vladarev udeo. Tačan tekst tog zakonika nije sačuvan u celini, ali se njegov sadržaj rekonstruiše iz kasnijih povelja i iz odredbi koje su ušle u Dušanov zakonik."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Srebro koje je hranilo državu"
+    },
+    {
+      "type": "paragraph",
+      "text": "Tehnika koju su Sasi doneli bila je za srpske prilike preokretna. Umesto plitkog rovenja po površini, kopala su se duboka okna, sa drvenom oblogom, sa sistemom provetravanja i sa vodenim točkovima koji su pokretali mehove za topionice. Ruda se nije više samo grubo razbijala — prerađivana je u više koraka, sa razdvajanjem srebra od olova postupcima koje su zapadni rudari usavršili u prethodnom veku. Brskovo kod današnjeg Mojkovca, otvoreno još u prvoj polovini 13. veka, postalo je prvi veliki srpski rudnik srebra. Za njim su došli Rudnik u Šumadiji, Trepča na Kosovu, Plana, Janjevo i Gluhavica. Pred kraj veka, u istom nizu, otvoriće se i Novo Brdo — rudnik koji će prevazići sve ostale, ali njegovu priču ostavljamo za jedan poseban dan."
+    },
+    {
+      "type": "paragraph",
+      "text": "Privredne posledice bile su ogromne i mogu se sasvim trezveno meriti. Već krajem 13. i tokom 14. veka srpsko srebro postalo je jedan od najvažnijih artikala mediteranske trgovine. Najveći deo njega odlazio je preko Dubrovnika, čiji su trgovci držali otkup i izvoz, a odatle dalje u italijanske gradove, Veneciju pre svih. Kralj je počeo da kuje sopstvene srebrne dinare, izrađivane po uzoru na venecijanski groš — toliko verno da su ih Venecijanci više puta optuživali zbog konkurencije. Rudarska renta, takozvani „urbar”, postala je glavni izvor državnih prihoda. Zahvaljujući njoj, vladari iz druge polovine 13. i prve polovine 14. veka, pre svih Milutin i Dušan, mogli su sebi da dozvole velike zadužbine, profesionalnu najamničku konjicu i ratove na više strana istovremeno. Bez rudnika Sasa, ni Gračanica ni Dušanovo carstvo verovatno ne bi izgledali onako kako ih danas pamtimo."
+    },
+    {
+      "type": "paragraph",
+      "text": "Trag koji su Sasi ostavili u jeziku tiho potvrđuje koliko su duboko ušli u svakodnevicu rudarskog posla. Reči kao „šaht” za rudničko okno, „hutman” za nadzornika smene, „cech” za udruženje rudara, i niz drugih izraza koje danas više čujemo samo u staroj literaturi, došle su upravo tim putem. Ostavili su i imena mesta, i prezimena koja su se vekovima zadržala u kosovskim varošima. Odnos sa pravoslavnim stanovništvom bio je, koliko se može suditi po sačuvanim ispravama, pretežno miran, ali jasno odvojen. Domaći ljudi su radili kao kopači, nosači i ugljari; Sasi su držali nadzor nad oknom, topionicom i pravnim životom naselja. Bili su tolerisani jer su bili korisni, a vladari su pažljivo branili njihove privilegije od mešanja vlastele, jer su znali da gube prihod čim Sasa otera neki samovoljni župan."
+    },
+    {
+      "type": "paragraph",
+      "text": "Posmatran iz daljine od sedam i po vekova, dolazak Sasa deluje kao primer onoga što bi se danas zvalo otvorena privredna politika. Srpski vladari nisu pokušali da sami iznova izmisle rudarstvo; doveli su one koji su ga znali, dali im pravni prostor da rade i uzeli svoj deo. Granice tog odnosa bile su jasne — Sasi nisu mogli da kupuju zemlju van rudarskih oblasti, niti da prevode pravoslavne podanike u svoju veru — ali unutar tih granica imali su mir i sigurnost koje su jedva nalazili drugde. Iz tog mirnog dogovora između stranog majstora i domaćeg kralja izrasla je rudarska osnova nemanjićke države. Sve što će u narednim decenijama biti pripisano sjaju Milutina i veličini Dušana, počivalo je, vrlo doslovno, na srebru izvađenom iz okana koje su otvorili Sasi."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

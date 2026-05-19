@@ -6,13 +6,53 @@
   "dayNumber": 3,
   "order": 3,
   "title": "Kameni ljudi-ribe Lepenskog Vira",
+  "subtitle": "Najstarije monumentalne skulpture Evrope, klesane od rečnih oblutaka u srcu doma",
   "readingTimeMinutes": 7,
   "year": -7500,
-  "isPlaceholder": true,
+  "dateLabel": "oko 9500–6000. p. n. e.",
+  "timelinePosition": "~9500–6000. p. n. e.",
+  "summary": "Među temeljima kuća Lepenskog Vira nalaze se kamene skulpture sa licima — pola čovek, pola riba — među najstarijim takvim delima u Evropi.",
+  "keyPeople": [],
+  "keyPlaces": ["Lepenski Vir", "Đerdap", "Dunav"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Među temeljima kuća Lepenskog Vira arheolozi su pronašli nešto što nisu očekivali: kamenje sa licima. Oblutke izvučene iz Dunava i pažljivo isklesane tako da iz njih gleda biće — pola čovek, pola riba. To su među najstarijim skulpturama u Evropi, i do danas nam ne otkrivaju lako svoju tajnu."
+    },
+    {
+      "type": "paragraph",
+      "text": "Materijal je, kao i mnogo šta u ovom naselju, dala sama reka. Stanovnici su birali oblutke peščara — zaobljen, rečnom vodom uglačan kamen — i u njih klesali oblike. Već to je značajno. Nisu uzimali bilo koji kamen, niti su ga vadili iz stene; uzeli su upravo kamen koji im je reka donosila i godinama oblikovala. Tako je i sam materijal skulpture nosio vezu sa Dunavom — sa istom onom rekom koja ih je hranila."
+    },
+    {
+      "type": "paragraph",
+      "text": "Skulpture nisu nalažene razbacane, odbačene ili sklonjene po strani. Pronalažene su unutar kuća, često u vezi sa prostorom ognjišta — dakle u srcu doma, tamo gde se zajednica okupljala oko vatre. To njihovo mesto mnogo govori. Ono što se čuva u središtu kuće nije sporedno; ima neku ulogu, neku vrednost, neki smisao za one koji tu žive. Skulpture Lepenskog Vira, dakle, nisu bile ukras na margini života — bile su deo njegovog središta."
+    },
+    {
+      "type": "paragraph",
+      "text": "Kako izgledaju? Deo skulptura nosi ljudske crte lica — krupne, naglašene oči, jasno oblikovana usta — ali spojene sa odlikama koje podsećaju na ribu. Otud i naziv koji im se odomaćio: kameni ljudi-ribe. Druge skulpture nisu figuralne nego su prekrivene urezanim, geometrijskim šarama, raspoređenim po čitavoj površini kamena u prepoznatljivim, ponovljenim motivima. I jedne i druge rađene su rukom koja je znala šta radi i koja je imala nameru: ovo nije slučajno zarezano kamenje niti dečja igra s oblikom, nego promišljeno oblikovana umetnost, sa prepoznatljivim stilom. Razlika između figuralnih i geometrijskih skulptura, kao i to što su se ponekad nalazile u istoj kući, otvara još jedno pitanje za sebe — da li su sve imale istu ulogu ili su pripadale različitim trenucima i potrebama doma."
+    },
+    {
+      "type": "paragraph",
+      "text": "I tu Lepenski Vir dobija svoje mesto u jednoj velikoj priči. Ove skulpture ubrajaju se među najstarija monumentalna umetnička dela Evrope — među najranije pokušaje da se kamenu da lik, oblik i značenje. To znači da na tlu Srbije, hiljadama godina pre svake države, pre antike i pre srednjovekovnih fresaka, već postoji zajednica koja stvara umetnost. Umetnost, dakle, nije kasni dodatak ljudskoj priči na ovom prostoru; ona je tu gotovo od početka organizovanog života."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Šta su značile — i šta ne znamo"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ostaje, naravno, najteže pitanje: šta su te skulpture značile? Ovde moramo biti pošteni do kraja. Spoj čoveka i ribe gotovo sigurno ima neke veze sa svetom u kome su ti ljudi živeli — sa rekom koja ih je hranila i sa ribom kao središtem tog sveta. To je razumna pretpostavka. Ali šta je tačno skulptura predstavljala — pretka, zaštitnika, biće iz nekog verovanja, ili nešto za šta mi danas nemamo ni reč ni pojam — to ne znamo pouzdano, i verovatno nikada nećemo znati sa sigurnošću."
+    },
+    {
+      "type": "paragraph",
+      "text": "Prvi istraživači Lepenskog Vira ponudili su razrađena tumačenja, sa čitavim sistemom verovanja i božanstava. Bila su to smela, maštovita objašnjenja. Novija nauka je opreznija: ta tumačenja smatra mogućim, ali nedokazanim, i ne uzima ih zdravo za gotovo. Vredi znati i ovo: čak i imena koja pojedine skulpture danas nose dali su im moderni istraživači — to nisu nazivi koje su koristili sami stanovnici Lepenskog Vira, niti znamo kako su ih oni zvali. Drugim rečima, skulpture vidimo jasno, možemo ih dotaći i opisati; njihovo značenje, međutim, naslućujemo kao kroz maglu."
+    },
+    {
+      "type": "paragraph",
+      "text": "Možda je baš to ono što ih čini tako snažnima. Pred nama je delo ljudske ruke staro hiljadama godina, koje očigledno nešto znači — koje je nekom bilo važno dovoljno da ga drži u srcu svoga doma — a mi stojimo pred njim i ne umemo sasvim da ga pročitamo. To nije neuspeh nauke. To je iskren susret sa zaista dalekom prošlošću, koja nam ostavlja svoje tragove, ali ne i ključ za sve njih. Ono što sa sigurnošću možemo da kažemo, ipak, vredi ponoviti: hiljadama godina pre nego što je u ove krajeve stigla bilo kakva pisana reč, ljudi su umeli da kamenu daju lik, da taj lik smeste u središte svoga doma i da iza sebe ostave delo koje će drugima — nepoznatima, dalekima, nama — i posle svih tih milenijuma još uvek nešto saopštavati. Iz oblutka koji je oblikovala reka, ljudska ruka je pre više hiljada godina isklesala lice — a mi i danas stojimo pred njim ne znajući pouzdano šta nam govori."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

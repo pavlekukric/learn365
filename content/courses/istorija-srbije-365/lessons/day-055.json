@@ -6,13 +6,53 @@
   "dayNumber": 55,
   "order": 2,
   "title": "Sava miri zavađenu braću",
+  "subtitle": "Povratak sa Svete Gore, prenos očevih moštiju i tihi spas Nemanjinog dela",
   "readingTimeMinutes": 7,
   "year": 1208,
-  "isPlaceholder": true,
+  "dateLabel": "početak 13. veka",
+  "timelinePosition": "oko 1207–1208.",
+  "summary": "Kako je Sava, vraćajući se iz Hilandara u Srbiju sa moštima oca Simeona, posredovao između braće Stefana i Vukana i postavio temelje srpskog monaštva u Studenici.",
+  "keyPeople": ["Sveti Sava", "Stefan Prvovenčani", "Vukan", "Sv. Simeon (Nemanja)"],
+  "keyPlaces": ["Studenica", "Sveta Gora", "Raška", "Zeta"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Posle smrti Stefana Nemanje 1199. godine, delo koje je on celog života strpljivo gradio našlo se u ozbiljnoj opasnosti — ne od stranog neprijatelja, već od sopstvenih sinova. Veliki župan Raške postao je srednji sin Stefan, ali je stariji brat Vukan, gospodar Zete, smatrao da je presto trebalo da pripadne njemu. U toj napetosti, koja je pretila da pocepa zemlju, mlađi brat Sava — još uvek monah na Svetoj Gori — biće pozvan da se vrati i izmiri zavađenu kuću. Ono što će uslediti, oko 1207. i 1208. godine, jedan je od osnivačkih trenutaka srpske srednjovekovne svesti."
+    },
+    {
+      "type": "paragraph",
+      "text": "Da bi se razumelo zašto je Savin povratak bio toliko važan, treba se podsetiti šta se u međuvremenu dogodilo. Stefan Nemanja je još za života presto predao Stefanu, ne najstarijem sinu, već onom za koga je verovao da će najbolje voditi raško središte. Vukanu je ostavio Zetu, oblast bogatu, primorsku, sa starom vladarskom tradicijom, ali politički podređenu Raškoj. Takav raspored, dok je Nemanja bio živ, niko nije smeo da dovede u pitanje. Čim ga je nestalo, stara mera je popustila."
+    },
+    {
+      "type": "paragraph",
+      "text": "Vukan se okrenuo Ugarskoj, koja je u tom trenutku tražila način da svoj uticaj proširi prema jugu. Uz ugarsku podršku, negde oko 1202. godine, on je zbacio brata sa raškog prestola i kratko vreme — verovatno dve do tri godine — sam vladao kao veliki župan. Stefan je morao da beži, najverovatnije u Bugarsku, i da odande priprema povratak. Pojedinosti tih sukoba u izvorima nisu sasvim jasne; ono što je sigurno jeste da je oko 1204. ili 1205. Stefan vraćen na presto, a da je Vukan ostao u Zeti, ovog puta vidno oslabljen. Mir je sklopljen, ali nije bio iskren. Zemlja je i dalje bila podeljena, i svako je znao da svaka nova varnica može da je zapali."
+    },
+    {
+      "type": "paragraph",
+      "text": "U toj atmosferi, oba brata su počela da pišu Savi. Najmlađi Nemanjin sin, čije je svetovno ime bilo Rastko, godinama je već boravio na Svetoj Gori — najpre u Rusiku, zatim u Vatopedu, i na kraju u Hilandaru, manastiru koji je sa ocem sazidao i koji je posle Simeonove smrti vodio sam. Iz daljine, sa Atosa, on je pratio događaje u Srbiji s mirnoćom monaha, ali i s teretom Nemanjinog sina. Pisma braće, prema kasnijim hilandarskim spisima, bila su uporna: dolazi, izmiri nas, donesi nam oca."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Prenos moštiju u Studenicu"
+    },
+    {
+      "type": "paragraph",
+      "text": "Savin odgovor bio je istovremeno duhovan i politički. On je pristao da se vrati, ali ne kao izaslanik jednog brata protiv drugog. Sa sobom je poneo nešto što ni Stefan ni Vukan nisu mogli da prisvoje samo za sebe — mošti njihovog oca, monaha Simeona, sahranjenog u Hilandaru. Nemanja je u svojoj zadužbini Studenici, još za života, podigao grob u koji je očekivao da bude položen. Sava je sada ispunjavao tu očevu želju, ali je istovremeno koristio veliku snagu hrišćanskog obreda: pred očevim telom braća ne smeju ostati zavađena."
+    },
+    {
+      "type": "paragraph",
+      "text": "Prenos je obavljen, prema današnjem računanju, najverovatnije 1207. ili 1208. godine. Mošti su sa Svete Gore donete u Studenicu, gde su ih, prema crkvenom predanju, dočekala oba brata. Dramatičnu sliku — Stefana i Vukana kako se prvi put posle dugog razdora grle pred očevim sarkofagom, dok Sava služi opelo i propoveda o miru — treba čitati pažljivo. Ona pripada kasnijim žitijima i hilandarskim spisima, koji su pisani sa namerom da uobliče svetiteljsku sliku Nemanjića. Ali da je do stvarnog izmirenja braće zaista došlo, i da je Sava u njemu igrao presudnu posredničku ulogu, potvrđuju i drugi, suzdržaniji izvori. Suština priče je istorijska, čak i kad pojedine scene pripadaju predanju."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sava se posle prenosa nije vratio na Svetu Goru. Ostao je u Studenici i preuzeo njeno vođstvo, kao njen prvi arhimandrit. Sa sobom je doneo i nešto što će biti trajnije od svake pojedinačne pomirbe — atosku monašku tradiciju. Za Studenicu je sastavio tipik, monaški pravilnik koji je preneo duh Hilandara u srce Raške, a koji će postati uzor i drugim srpskim manastirima. Time je on od jedne zadužbine napravio centar iz koga će se širiti uređeno monaštvo na celom srpskom prostoru, i postao, faktički, glava srpskog monaškog života pre nego što je formalno postao glava srpske crkve."
+    },
+    {
+      "type": "paragraph",
+      "text": "Posledice su bile dvostruke. Politički, Nemanjino delo je sačuvano — Stefan je ostao veliki župan, Vukan se zadovoljio Zetom, otvoreni rat među braćom više se nije ponavljao, i okvir jedne države, makar krhak, preživeo je najopasniji trenutak. Duhovno, Srbija je dobila zajednički svetiteljski grob, mesto oko kojeg će se njena vladarska kuća okupljati, i monaški red koji je tu okupljenost mogao da osmisli. Bez tog Savinog posredovanja oko 1208. godine, teško je zamisliti put koji će ga nešto više od decenije kasnije odvesti do položaja prvog srpskog arhiepiskopa, a Stefana do kraljevske krune."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

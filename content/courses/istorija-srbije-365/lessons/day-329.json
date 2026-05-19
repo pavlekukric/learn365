@@ -6,13 +6,57 @@
   "dayNumber": 329,
   "order": 1,
   "title": "Dolazak komunista na vlast",
+  "subtitle": "Kako je Komunistička partija Jugoslavije pod Titom u dve godine pretvorila ratnu pobedu u jednopartijsku državu",
   "readingTimeMinutes": 7,
   "year": 1945,
-  "isPlaceholder": true,
+  "dateLabel": "1944–1946.",
+  "timelinePosition": "1944–1946.",
+  "summary": "Od oslobođenja Beograda 1944. do proglašenja Federativne Narodne Republike Jugoslavije 1945. i suđenja Mihailoviću 1946: kako su partizani vojnu pobedu pretvorili u jednopartijsku vlast.",
+  "keyPeople": ["Josip Broz Tito", "Ivan Šubašić", "Aleksandar Ranković", "Draža Mihailović", "kralj Petar II", "Alojzije Stepinac"],
+  "keyPlaces": ["Beograd", "Jajce", "Zagreb", "London"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Kada je 20. oktobra 1944. godine Beograd oslobođen — u zajedničkoj operaciji Crvene armije i Narodnooslobodilačke vojske Jugoslavije — rat u zemlji još nije bio završen, ali je politička sudbina posleratne države u glavnim crtama već bila rešena. Komunistička partija Jugoslavije, pod vođstvom Josipa Broza Tita, izašla je iz rata kao jedina organizovana sila sa armijom, tajnom službom, sopstvenom administracijom na terenu i jasnim programom. Sve drugo — kraljevska vlada u izbeglištvu, ostaci građanskih stranaka, crkve — moralo je da se snalazi u prostoru koji su komunisti definisali."
+    },
+    {
+      "type": "paragraph",
+      "text": "Formalno, prelaz iz rata u mir trebalo je da bude postepen i dvostran. Još novembra 1944. godine, pod pritiskom saveznika, Tito i Ivan Šubašić, premijer kraljevske vlade u Londonu, potpisali su Beogradski sporazum o stvaranju zajedničke prelazne vlade. Po sporazumu, Nacionalni komitet oslobođenja Jugoslavije, koji je 1943. u Jajcu izrastao iz AVNOJ-a, trebalo je da se spoji sa kraljevskom vladom, a kralj Petar II Karađorđević da do plebiscita ostane van zemlje, prepustivši njegova ovlašćenja Namesništvu od tri lica. U martu 1945. nova vlada je obrazovana, sa Titom kao predsednikom i Šubašićem kao ministrom spoljnih poslova."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ravnoteža je, međutim, bila samo prividna. Vojska, policija, sudstvo i mediji bili su u rukama partizana. Već 1944. osnovana je OZNA — Odeljenje za zaštitu naroda — pod Aleksandrom Rankovićem, tajna služba koja je tokom 1945. i 1946. preuzela ulogu centralnog instrumenta nove vlasti. Komunistička partija nije formalno bila državna stranka, ali su njeni odbori vodili svaki srez i svako preduzeće. Građanski političari u vladi mogli su da govore na sednicama, ali su odluke padale drugde."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Izbori, republika, represija"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ključni datum bio je 11. novembar 1945, dan izbora za Ustavotvornu skupštinu. Na glasanje je izašao samo jedan zvanični izborni spisak — Narodni front, koalicija pod komunističkim vođstvom. Opozicione stranke, naslednice predratnih građanskih partija, dobile su mogućnost da postave „kutiju bez liste” kao znak protesta, ali su njihovi vodeći ljudi bili izloženi javnoj kampanji, pritiscima OZNA-e i hapšenjima saradnika. Najistaknutiji opozicionari, među njima Milan Grol, povukli su se iz vlade još pre izbora, ocenjujući da slobodne kampanje nema. Izlaznost je bila visoka, pobeda Narodnog fronta uverljiva — ali izbori, u svakom modernom smislu reči, nisu bili slobodni."
+    },
+    {
+      "type": "paragraph",
+      "text": "Novoizabrana Ustavotvorna skupština sastala se u Beogradu i 29. novembra 1945. godine — na drugu godišnjicu Drugog zasedanja AVNOJ-a — proglasila Federativnu Narodnu Republiku Jugoslaviju. Monarhija je ukinuta jednim glasanjem, bez plebiscita o kome je govorio Beogradski sporazum. Kralj Petar II ostao je u izbeglištvu, lišen prestola na koji se nikada nije vratio. Januara 1946. donesen je Ustav, krojen po sovjetskom uzoru: federacija od šest republika, jedna partija kao stvarni nosilac vlasti, „narodna demokratija” kao zvanični opis sistema."
+    },
+    {
+      "type": "paragraph",
+      "text": "Uporedo sa političkom konsolidacijom tekao je oštar talas obračuna. Najveći broj žrtava pao je u poslednjim mesecima rata i odmah po njegovom završetku, u likvidacijama zarobljenih i predatih neprijatelja — pripadnika ustaške Nezavisne Države Hrvatske, slovenačkog Domobranstva, delova četničkih i kolaboracionističkih formacija. O razmerama tih streljanja, naročito na koridoru Bleiburg–Kočevski Rog, decenijama se ćutalo; tačni brojevi i dalje su predmet istorijske rasprave, ali da je reč o desetinama hiljada ljudi, ozbiljna istoriografija ne spori. Posle rata represija je dobila pravnu formu, ali nije bila ograničena samo na ratne krivce. Pred sudovima i pred OZNA-om našli su se i nekomunistički političari, sveštenici, seljaci koji su se odupirali otkupu i zadrugarstvu, intelektualci osumnjičeni za simpatije prema četnicima ili ustaši."
+    },
+    {
+      "type": "paragraph",
+      "text": "Najpoznatiji proces u Srbiji bilo je suđenje Dragoljubu Draži Mihailoviću. Vođa Jugoslovenske vojske u otadžbini uhvaćen je u martu 1946. godine; suđenje pred Vojnim većem u Beogradu trajalo je od juna do jula. Optužen za saradnju s okupatorom i ratne zločine, osuđen je na smrt i streljan 17. jula 1946. Bio je to politički proces u kome odbrana praktično nije imala prostora, a deo svedoka koji su mogli da budu pozvani u njegovu korist nije pušten u sudnicu. Tačno mesto pogubljenja i sahrane nikada nije zvanično obelodanjeno. Sedamdeset godina kasnije, 2015, Viši sud u Beogradu doneo je rešenje o pravnoj rehabilitaciji Mihailovića — odluku o postupku, ne o istorijskoj presudi; pitanje njegove uloge u ratu i dalje deli istoričare. Iste 1946. godine u Zagrebu je suđeno i nadbiskupu Alojziju Stepincu; bio je to još jedan znak da nova vlast ne namerava da trpi nezavisne autoritete, ni političke ni crkvene."
+    },
+    {
+      "type": "paragraph",
+      "text": "Uz represiju, nova država je gradila i svoju socijalnu osnovu. Agrarna reforma iz 1945. oduzela je zemlju velikim posednicima, crkvama i strancima i razdelila je seljacima — što je velikom delu ruralne Srbije donelo prvi komad sopstvene njive. U decembru 1946. donesen je Zakon o nacionalizaciji privatnih privrednih preduzeća: banke, industrija, rudnici i veći trgovinski lanci prešli su u državnu svojinu. Time je posleratna jugoslovenska država dobila i ekonomsku polugu jednaku političkoj — sve presudne odluke odlazile su u jedan, partijski centar."
+    },
+    {
+      "type": "paragraph",
+      "text": "Iz tih nepune dve godine izašla je nova Jugoslavija — zemlja koja je svoj poredak doživljavala kao zasluženu pobedu pokreta otpora nad fašizmom, kao kraj okupacije i bratoubilačkog rata, kao obećanje brže industrijalizacije i socijalne pokretljivosti za milione ljudi koji su do tada bili na dnu. Sve je to bilo stvarno. Stvarno je, međutim, bilo i ono drugo: jednopartijska vlast, tajna policija sa širokim ovlašćenjima, ukinuta politička konkurencija, kontrolisana štampa, sudski procesi u kojima je presuda često bila poznata pre rasprave. Komunisti su 1944–1946. dobili Jugoslaviju — i kao nasledstvo, i kao zadatak, i kao odgovornost čije će granice tek vreme da pokaže."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

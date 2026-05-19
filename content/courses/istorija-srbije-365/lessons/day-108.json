@@ -6,13 +6,49 @@
   "dayNumber": 108,
   "order": 3,
   "title": "Lazar sabira srpske zemlje",
+  "subtitle": "Kako je knez Lazar, od osrednjeg vlastelina, postao najmoćniji gospodar središnjih srpskih zemalja uoči Kosova",
   "readingTimeMinutes": 8,
   "year": 1380,
-  "isPlaceholder": true,
+  "dateLabel": "1371–1389.",
+  "timelinePosition": "1371–1389.",
+  "summary": "Posle Maričke bitke Lazar Hrebeljanović kroz osamnaest godina rata, brakova i ktitorstva sabira središnje srpske oblasti i postaje najugledniji knez na severu raspadnutog Carstva.",
+  "keyPeople": ["Lazar Hrebeljanović", "Vuk Branković", "Tvrtko I Kotromanić", "Nikola Altomanović", "Milica"],
+  "keyPlaces": ["Kruševac", "Ravanica", "Užice", "Rudnik", "Drina"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Kada je u jesen 1371. godine, posle Maričke bitke, kraljevstvo Mrnjavčevića u Makedoniji palo pod osmansku senku, srpski svet severno od Šar-planine ostao je bez vrhovne vlasti. Carstvo cara Uroša, već decenijama samo formalna ljuska, ugasilo se nekoliko meseci kasnije zajedno sa njegovom smrću. Na karti je ostala mreža oblasnih gospodara — od Bosne i Huma na zapadu, preko Zete na jugu, do Brankovića na Kosovu i Hrebeljanovića na Pomoravlju — koji su sebe i dalje smatrali naslednicima Nemanjića, ali bez jednog priznatog vladara nad sobom. U tom rascepkanom svetu, u narednih osamnaest godina, jedan od njih — knez Lazar Hrebeljanović iz Kruševca — postaće, ako ne kralj svih Srba, onda barem najugledniji gospodar središnjih i severnih srpskih zemalja."
+    },
+    {
+      "type": "paragraph",
+      "text": "Lazar je u šezdesetim godinama 14. veka bio vlastelin srednjeg ranga na dvoru cara Uroša, s posedima u oblasti gornje Morave. Njegova baza bio je Kruševac, grad koji će kasnije podići i ojačati kao prestonu varoš, sa upravom nad plodnom dolinom oko Rasine i delovima Pomoravlja. To je u poređenju sa Mrnjavčevićima ili sa Vukašinom u Prilepu bio skroman početak. Posle Maričke katastrofe, kada su mnogi krupni gospodari nestali, taj srednji rang odjednom je postao prednost: Lazar nije bio kompromitovan porazom, ostao je daleko od osmanskog domašaja, a Kruševac se našao u onom delu srpskih zemalja gde je nova vlast tek trebalo da bude složena."
+    },
+    {
+      "type": "paragraph",
+      "text": "Prvi krupan korak učinio je 1373. godine, u savezu sa bosanskim banom Tvrtkom I Kotromanićem. Pretnja je bila zajednička: Nikola Altomanović, mladi i ambiciozni gospodar koji je držao prostor od Rudnika i Užica do severne Hercegovine i delova Zete, već je bio napao i Lazara i Tvrtka i pokušavao da pod sebe stavi središnju Srbiju. Združeni pohod brzo je slomio Altomanovićevu vlast — sam Nikola je zarobljen i oslepljen — a njegove zemlje su podeljene. Tvrtko je uzeo zapadne delove prema Hercegovini i izlaz na Drinu, dok je Lazar pripojio prostor između Drine i Zapadne Morave, sa Užicem i Rudnikom među najvažnijim tačkama. Time je njegova oblast skoro udvostručena, dosegla je do Drine na zapadu i obuhvatila važne rudničke prihode."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Mreža rodbinskih saveza"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ono što je Lazara izdvojilo od ostalih oblasnih gospodara nije bila samo vojska, nego brižljivo građena mreža brakova. Sa kneginjom Milicom, koja je preko svoje porodice nosila krv jedne od bočnih nemanjićkih loza, imao je više kćeri — najčešće se pominje pet: Mara, Jelena, Olivera, Despina i Teodora. Mara je udata za Vuka Brankovića, gospodara Kosova i Metohije, koji je tako postao Lazarov najmoćniji zet, ali je nad svojom oblašću zadržao punu samostalnost. Jelena se udala u kuću Balšića, vladare Zete; druge kćeri vezale su Lazarevu kuću za bosanski dvor, za bugarsku vlastelu Stracimirovića i za drugu krupnu gospodu. Posle Kosova će i najmlađa, Olivera, biti poslata na osmanski dvor — Bajazitu — kao deo nagodbe pobeđene strane. Lazar nije bio jedini vladar koji je tako računao, ali je taj sistem proveo doslednije od bilo kog savremenika: skoro svaka važna kneževska kuća na Balkanu krajem 14. veka bila je u nekoj vezi sa Kruševcem."
+    },
+    {
+      "type": "paragraph",
+      "text": "Uz rat i brakove išla je i diplomatija s većim susedima. Prema Ugarskoj, Lazar je u osnovi prihvatio stvarnost: Beograd i jedan deo severne Srbije bili su pod ugarskim vrhovništvom, ali su lokalni vojvode bili Srbi i u praksi često bliži Kruševcu nego Budimu. Lazarov uticaj se tako protezao i tamo gde njegova vlast formalno nije sezala. Prema Vizantiji odnosi su bili daleki — Carigrad više nije bio sila s kojom se računa na ovoj strani Balkana — a glavna spoljna briga, koja će rasti svake godine, dolazila je sa juga, od Osmanlija."
+    },
+    {
+      "type": "paragraph",
+      "text": "Vladajući novi prostor, Lazar je morao da reši i pitanje crkve. Otkako je car Dušan 1346. krunisao sebe za cara i podigao srpsku arhiepiskopiju u patrijaršiju, Carigradska patrijaršija bacila je na srpsku crkvu anatemu. Šizma je trajala gotovo trideset godina. Lazar je 1375, zajedno sa monaštvom Svete Gore, doveo na presto novog patrijarha Jefrema i ishodio izmirenje sa Carigradom — anatema je skinuta, srpska patrijaršija priznata. Bio je to jedan od njegovih najtrajnijih poteza: dao je njegovoj vlasti unutrašnju duhovnu legitimnost koju nikakva titula nije mogla zameniti. U istom duhu podigao je Ravanicu, manastir koji je zamišljen kao njegova zadužbina i grobno mesto, i koji će postati središte takozvane Moravske škole srpske umetnosti."
+    },
+    {
+      "type": "paragraph",
+      "text": "Titulu Lazar nikada nije menjao po sopstvenoj meri. Nije se proglasio ni kraljem ni carem, iako bi mu po snazi to možda bilo dostupno. Ostao je „knez“, ponekad „samodržac svih srpskih zemalja“ — formula koja je priznavala granice njegove stvarne vlasti, a ipak u sebi sadržala ideju jedinstva. Vuk Branković na Kosovu vladao je samostalno; Tvrtko se 1377. krunisao za kralja „Srbljem i Bosni“ u Milima i simbolički preuzeo deo nemanjićkog nasleđa; Balšići su držali Zetu kao svoju zemlju. Lazar je živeo sa tim stvarnostima, ali je preko brakova, ktitorstva i crkvene politike bio tačka oko koje se ti svetovi okupljaju. Do kraja osamdesetih, kada je osmanska pretnja postala neodložna, on je u srpskom svetu severno od Šar-planine bio prvi među gospodarima — onaj kome se, ako se uopšte iko sabira, sabira."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

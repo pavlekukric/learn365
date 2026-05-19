@@ -6,13 +6,53 @@
   "dayNumber": 205,
   "order": 10,
   "title": "Oslobođenje Beograda",
+  "subtitle": "Kako je krajem 1806. i početkom 1807. ustanička vojska zauzela donji i gornji grad beogradske tvrđave",
   "readingTimeMinutes": 8,
   "year": 1806,
-  "isPlaceholder": true,
+  "dateLabel": "1806–1807.",
+  "timelinePosition": "30. nov 1806 – 8. jan 1807.",
+  "summary": "Posle pobede na Mišaru beogradska posada ostala je usamljena; juriš na donji grad krajem novembra 1806. i predaja gornjeg grada 8. januara 1807. donose ustanicima glavnu nagradu rata — i tešku senku nasilja nad gradskim Turcima.",
+  "keyPeople": ["Karađorđe", "Suleyman-paša Skopljak", "Dositej Obradović"],
+  "keyPlaces": ["Beograd", "Beogradska tvrđava", "Donji grad", "Gornji grad"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Beograd je od prvog dana ustanka bio glavna nagrada rata. Sve drugo — bitke kod Ivankovca, Mišara, Deligrada — vodilo je, pre ili kasnije, ka tvrđavi na ušću Save u Dunav. Ko god je u ovom delu Balkana držao Beograd, držao je i put ka Carigradu i ka Beču; tvrđava sa donjim i gornjim gradom, dvostrukim bedemima i kulama bila je najjača utvrda na sredokraći carstava. Od leta 1804. Karađorđeva vojska je, sa prekidima, opsedala grad, a posada paše i preostali beogradski Turci držali su se iza zidina. Krajem 1806. ta opsada se, posle dve godine iscrpljivanja, najzad bližila kraju."
+    },
+    {
+      "type": "paragraph",
+      "text": "Spoljne okolnosti bile su za branioce porazne. Veliki pohod koji je trebalo da slomi ustanak — bosanska vojska Suleyman-paše Skopljaka — razbijen je na Mišaru u avgustu 1806; istovremeno je istočna vojska Ibrahim-paše Skadarskog stala kod Deligrada. Beogradski branioci ostali su bez izgleda da im pomoć stigne sa zapada ili sa istoka. U gradu je vladala glad, novca je nestajalo, a u srpskim logorima oko zidina bilo je sve više topova, koje su ustanici delom dobili od Rusa preko Vlaške, delom oteli iz turskih konvoja, delom doneli iz austrijskih graničarskih skladišta. Odnos snaga, koji je dve godine bio sumnjiv, sada se okrenuo."
+    },
+    {
+      "type": "paragraph",
+      "text": "Kroz jesen 1806. i prve nedelje zime tekli su pregovori. Karađorđe je sa beogradskim pašom Suleyman-pašom — sa kojim ga ne treba mešati sa istoimenim bosanskim zapovednikom — vodio razgovore o mirnoj predaji. Nacrti sporazuma pisani su više puta: posada bi izašla pod oružjem i bila prebačena preko Save u austrijske krajeve, civilno stanovništvo bi dobilo zaštitu, gornji grad bi prešao u srpske ruke. Ti dogovori su redom otkazivani — čas zbog nepoverenja paše, čas zbog tvrde struje među samim beogradskim Turcima, čas zato što je Karađorđu bivalo sve teže da obuzdava sopstvene starešine, željne osvete za dahijske godine. Pregovaračka logika sve više je ustupala mesto logici juriša."
+    },
+    {
+      "type": "paragraph",
+      "text": "U noći između 30. novembra i 1. decembra 1806. ustanici su izveli prvi veliki napad. Glavni udar usmeren je na donji grad — naselje pod zidinama tvrđave, gde je živela većina beogradskih Turaka. Prema ustaničkim sećanjima, deo srpskih boraca ušao je u donji grad iznenadnim probojem kapija; uporedo su grupe ustanika sa Save prešle nasipom u podgrađe. Bitka u uskim ulicama trajala je do zore. Donji grad je tu noć zauzet, ali po teškoj ceni za njegovo stanovništvo: u jurišu i potom u haosu koji je sledio poginuo je veliki broj beogradskih Turaka, mnoge kuće su zapaljene, deo posade povukao se u gornji grad i zatvorio kapije."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Predaja gornjeg grada"
+    },
+    {
+      "type": "paragraph",
+      "text": "Posle pada donjeg grada, gornji grad — sama citadela na uzvišenju iznad ušća — držao se još nešto više od mesec dana. Karađorđe je u toj fazi vodio operaciju lično, postavivši se s glavninom vojske ispod severnih bedema. Topovska vatra trajala je danima, a pregovori su, sada sa nove pozicije, ponovo otvoreni. Posada je tražila slobodan izlaz; ustanici, koji su znali da je svaki dan odlaganja opasan zbog mogućeg dolaska turske pomoći iz Bosne ili Niša, pristali su na uslove koji su predviđali predaju tvrđave uz garantovan prelaz preostalih branilaca preko Save. Dana 8. januara 1807. po novom kalendaru — po starom 27. decembra 1806. — srpska vojska je ušla u gornji grad. Beogradska tvrđava, koja je u turskim rukama bila od 1521. godine, vratila se posle skoro tri veka pod srpsku vlast."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ono što je usledilo posle predaje gornjeg grada deo je ove istorije koji se ne sme prećutati. Uprkos dogovorima, nasilje nad beogradskim Turcima nastavilo se i u danima posle predaje: bilo je ubijanja izvan borbe, pljačke, prisilnih preobraćenja, paničnog bekstva čamcima preko Save u austrijski Zemun. Karađorđe je, prema više svedočenja, pokušavao da to zaustavi — slao je svoje momke da brane pojedine kuće, izdavao naredbe — ali njegova vlast nad razjarenim borcima bila je ograničena. Tačan broj žrtava nije pouzdano poznat i u izvorima se razlikuje. To što je tvrđava strateški pala ne menja istinu o tome šta se u tim danima dogodilo gradskim Turcima; ustanak je u Beogradu odneo i tu, tamnu pobedu."
+    },
+    {
+      "type": "paragraph",
+      "text": "Politički, posledice su bile dalekosežne i brze. Karađorđe je preselio svoj dvor u Beograd; Praviteljstvujušči sovjet, do tada smešten po manastirima u Šumadiji, premestio se u grad i počeo da radi iz beogradskih kuća. Već tokom 1807. u Beograd je stigao i Dositej Obradović, koji će uskoro pomoći osnivanje Velike škole — prve ustanove višeg obrazovanja u obnovljenoj Srbiji. Tvrđavske crkve obnovljene su za pravoslavnu službu, a gornji grad, prvi put posle 1521, postao je srpsko sedište vlasti. Iz Petrograda je stigao topao odjek — Rusija je u padu Beograda videla potvrdu da ulog u srpski ustanak ima smisla; iz Beča je odgovor bio uzdržaniji, ali bez otvorenog negodovanja."
+    },
+    {
+      "type": "paragraph",
+      "text": "Beograd će ostati srpski glavni grad do 1813, kada će ga, posle sloma ustanka, osmanska vojska nakratko povratiti. Tvrđava će u narednim decenijama više puta menjati gospodara dok ne dođe do konačnog srpskog preuzimanja sredinom devetnaestog veka. Pa ipak, zima 1806–1807. ostaje prelomna. Za ustanike, oslobođenje Beograda bilo je najveći vojni uspeh posle prvih pobeda iz 1804. i potvrda da pobuna nije epizoda, nego politički projekat — obnovljena srpska država sa glavnim gradom, vladom, vojskom i pretendentom na sopstvenu školu i crkvu. Cena pobede bila je visoka, na obema stranama. Strateški i simbolički, težina onoga što je u tih nekoliko nedelja izvojevano nadrasla je sve što je ustanak do tada postigao."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

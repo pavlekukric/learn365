@@ -6,13 +6,57 @@
   "dayNumber": 335,
   "order": 7,
   "title": "Kultura, sport i obrazovanje",
+  "subtitle": "Škole, knjige, filmovi i terenske pobede jedne ambiciozne ali stešnjene epohe",
   "readingTimeMinutes": 7,
   "year": 1965,
-  "isPlaceholder": true,
+  "dateLabel": "1950–1985.",
+  "timelinePosition": "1950–1985.",
+  "summary": "Socijalistička Jugoslavija je između pedesetih i osamdesetih godina doživela ozbiljan obrazovni, kulturni i sportski uspon — postignut u okviru ideoloških granica, ali sa stvarnim, merljivim rezultatima.",
+  "keyPeople": ["Ivo Andrić", "Meša Selimović", "Danilo Kiš", "Desanka Maksimović", "Petar Lubarda", "Dušan Makavejev", "Krešimir Ćosić", "Dražen Dalipagić"],
+  "keyPlaces": ["Beograd", "Niš", "Novi Sad", "Priština", "Sarajevo"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Između pedesetih i osamdesetih godina Jugoslavija je u oblastima obrazovanja, kulture i sporta ostvarila promene koje nijedna ranija srpska država nije imala priliku ni resurse da izvede. To nije bila zlatna epoha bez senki — ideološka cenzura je postojala, partijska kontrola je u talasima slabila i jačala, a mnogi najbolji stvaraoci radili su na ivici dopuštenog. Ipak, ako se gleda hladno, rezultati su bili stvarni: pismen narod, ozbiljne škole i univerziteti, književnost svetskog dometa, kinematografija sa međunarodnim ugledom i sport koji je decenijama bio među prvima u Evropi i svetu."
+    },
+    {
+      "type": "paragraph",
+      "text": "Posleratna pismenost bila je polazna tačka. Prema popisima, udeo nepismenih u Srbiji se sa visokog međuratnog nivoa do 1971. spustio na otprilike petnaestak procenata, a do osamdesetih dodatno smanjio. Iza tog broja stoji veliki organizacioni napor: večernji kursevi za odrasle, obavezno i besplatno osmogodišnje školovanje, izgradnja škola po selima koja ih nikada nisu imala. Srednje obrazovanje, od gimnazija do tehničkih i medicinskih škola, postalo je dostupno deci koja su do tada radila u polju ili šegrtovala. Pored Beogradskog univerziteta, otvorili su se univerziteti u Novom Sadu 1960, Nišu 1965. i Prištini 1969 — što je menjalo geografiju znanja u Srbiji. Tehnički i medicinski fakulteti razvijali su se pod uticajem i istočnih i zapadnih škola, sa visokim profesionalnim standardima, dok su društvene nauke bile bliže ideološkom okviru epohe."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Knjige, filmovi, tereni"
+    },
+    {
+      "type": "paragraph",
+      "text": "Književnost je u tom periodu doživela prelomni trenutak. Godine 1961. Ivo Andrić je dobio Nobelovu nagradu za književnost — prvi i, dugo, jedini sa ovog prostora. Time je srpska i jugoslovenska književnost ušla u svetski razgovor na način kakav ranije nije postojao. Uz Andrića, snažan trag ostavili su Miroslav Krleža kao jugoslovenski klasik šire čitan i u Beogradu, Meša Selimović sa romanom „Derviš i smrt”, Danilo Kiš sa „Grobnicom za Borisa Davidoviča”, Borislav Pekić, Dobrica Ćosić, Branko Ćopić; u poeziji Vasko Popa, Miodrag Pavlović, Ivan V. Lalić i, kao tihi most ka starijoj tradiciji, Desanka Maksimović. Mnogi od njih balansirali su između javne lojalnosti sistemu i unutrašnje, često oštre kritike — ne uvek bez posledica, kako pokazuje afera oko Kišove „Grobnice”."
+    },
+    {
+      "type": "paragraph",
+      "text": "U slikarstvu i likovnim umetnostima Petar Lubarda je svojim apstraktnim, gotovo geološkim platnima pomerio okvire posleratne umetnosti, dok su Mića Popović, Olja Ivanjicki i, kasnije, Marina Abramović išli ka realizmu nove vrste, nadrealnoj imaginaciji ili telesnoj umetnosti koja će je odvesti u svet. Arhitekta Bogdan Bogdanović projektovao je memorijalne komplekse — od Jasenovca do Mostara i drugih spomen-područja — apstraktnim jezikom koji je odbijao banalan socrealizam i pokušavao da govori jezikom šire ljudske, a ne samo partijske žalosti. Vjenceslav Richter i krug oko izložbi „Nove tendencije” doveli su dizajn i vizuelnu kulturu u dijalog sa evropskim avangardama."
+    },
+    {
+      "type": "paragraph",
+      "text": "Film je bio onaj prostor u kome je jugoslovenska kultura postala najvidljivija u svetu. Aleksandar Petrović je sa „Skupljačima perja” 1967. osvojio Grand Prix u Kanu, Dušan Makavejev je provokativnim delima poput „W. R. — Misterije organizma” izazvao i međunarodnu pažnju i domaću zabranu, Živojin Pavlović je hladnim okom snimao margine društva u „crnom talasu”, a iz mlađe generacije Emir Kusturica će 1985. u Kanu dobiti Zlatnu palmu za „Oca na službenom putu”. Ovi filmovi nisu bili državna propaganda — najčešće su bili u tihom ili otvorenom sporu sa njom — ali su nastajali u sistemu koji ih je istovremeno finansirao i, kada bi prešli granicu, kažnjavao."
+    },
+    {
+      "type": "paragraph",
+      "text": "Popularna i rok-muzika činile su svakodnevni kulturni okvir generacija odraslih u sedamdesetim i osamdesetim; o toj zvučnoj pozadini detaljnije govori posebna lekcija. Ovde je dovoljno reći da je ona, uz film i sport, bila ono što je mlade ljude u Beogradu i Sarajevu povezivalo sa Londonom i Njujorkom više nego sa Moskvom."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sport je bio drugi veliki izvor jugoslovenskog samopoštovanja. U fudbalu, beogradski klubovi Crvena zvezda i Partizan, sa Hajdukom i Dinamom kao stalnim ravnopravnim suparnicima, držali su prvenstvo i evropske pohode. Reprezentacija Jugoslavije bila je četvrta na Svetskom prvenstvu 1962. u Čileu i drugorangirana na Evropskom prvenstvu 1968. u Italiji. U košarci, koja je možda bila najvažnija „nacionalna” disciplina, jugoslovenska škola doživela je vrhunac: svetske titule 1970. i 1978, olimpijsko zlato u Moskvi 1980, brojne medalje, i imena kao što su Krešimir Ćosić, Dražen Dalipagić, Mirza Delibašić i, nešto kasnije, mladi Dražen Petrović. Snažna je bila i ženska košarka. Rukomet, vaterpolo i veslanje davali su olimpijska odličja u serijama 1980, 1984. i 1988. godine."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sport nije bio samo vrhunski. Iz međuratne sokolske i posleratne fiskulturne tradicije izrasle su masovne smotre — „spartakijade” — školski sportski sistemi, fabrička i radnička društva. Beograd je 1973. bio domaćin Univerzijade, a Sarajevo je 1984. organizovalo Zimske olimpijske igre koje su, makar na dve nedelje, gradu i zemlji dale međunarodni sjaj kakav posle više neće videti. Sve to je zahtevalo dvorane, stadione, trenere i sistem — i sve to je ostavljeno u nasleđe i godinama posle raspada zemlje."
+    },
+    {
+      "type": "paragraph",
+      "text": "Treba reći i ono što se često prećutkuje sa obe strane. Ovi rezultati nisu bili plod čiste slobode — partijski okvir, samocenzura i s vremena na vreme otvoreni progoni postojali su tokom čitave epohe, a najbolji pisci i reditelji ostvarili su mnogo upravo zato što su znali kako da rade sa tom granicom i, kada je trebalo, preko nje. Sa druge strane, ovi rezultati nisu bili ni puka iluzija režima: pismenost, univerziteti, Andrićeva Nobelova nagrada, Petrovićev Kan, košarkaška zlata i Sarajevo 1984. nisu se mogli ni izmisliti ni naručiti. Bila je to stvarna kultura jednog ambicioznog, stešnjenog i u mnogo čemu kontradiktornog društva — društva koje je u istoj generaciji proizvelo i strogu cenzuru i svetske umetnike, i ideološku nastavu i izvanredne škole, i lažne kampanje i prave šampione."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

@@ -6,13 +6,53 @@
   "dayNumber": 199,
   "order": 4,
   "title": "Orašac i početak ustanka",
+  "subtitle": "Sretenjski zbor u šumadijskom selu, izbor Karađorđa za vožda i prvi dani ustanka koji će postati srpska revolucija",
   "readingTimeMinutes": 7,
   "year": 1804,
-  "isPlaceholder": true,
+  "dateLabel": "februar 1804.",
+  "timelinePosition": "2/14. februar 1804.",
+  "summary": "Sretenjski zbor 1804. u Orašcu: posle Seče knezova preživeli prvaci biraju Karađorđa za vožda i pokreću ustanak koji će prerasti u srpsku revoluciju.",
+  "keyPeople": ["Karađorđe Petrović", "Stanoje Glavaš", "Teodosije Marićević"],
+  "keyPlaces": ["Orašac", "Šumadija", "Topola", "Smederevo", "Šabac"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Na Sretenje 1804. godine, po starom kalendaru drugog februara, po novom četrnaestog, u malo šumadijsko selo Orašac slegli su se ljudi iz cele Beogradskog pašaluka. Dolazili su pešice i konjima, kroz sneg i blato, sa puškama sakrivenim ispod gunjeva — knezovi koji su izmakli noževima dahija, hajduci sa Avale i Rudnika, monasi iz okolnih manastira, bivši frajkori koji su se pre desetak godina sa Austrijancima borili protiv Turaka. Bilo ih je, po kasnijim sećanjima, oko sto pedeset, možda i više; tačan broj niko nije popisao. Znali su samo jedno: posle Seče knezova više nije bilo izbora između otpora i mira, nego između otpora i smrti pojedinačno."
+    },
+    {
+      "type": "paragraph",
+      "text": "Orašac je za taj sastanak bio odabran promišljeno. Selo je ležalo u srcu Šumadije, južno od Beograda, ali dovoljno daleko od glavnih turskih puteva i straža. Šumovita brda oko njega davala su zaklon i mogućnost povlačenja u svakom pravcu. Bilo je dostupno glavarima iz Valjevskog, Smederevskog, Kragujevačkog i Rudničkog kraja, a opet skriveno od dahijskih konjičkih patrola koje su tih dana još uvek pretile selima oko Save i Dunava. Mesto okupljanja bila je takozvana Marićevića jaruga — gudura nedaleko od seoske crkve, po porodici Marićevića koja je domaćinski primila zbor. Tamo, pod golim drvećem, u februarskom sivilu, počela je jedna od najvažnijih sednica u srpskoj istoriji."
+    },
+    {
+      "type": "paragraph",
+      "text": "Zbor je otvoren onako kako se u to vreme i moglo otvoriti — molitvom. Sveštenici iz okoline održali su kratku službu, blagoslovili okupljene i primili zakletvu na vernost. Zatim su govornici, jedan za drugim, izlazili pred okupljene i govorili ono što su svi već znali: ako se sada ne digne ceo pašaluk, dahije će ih sve poseći, jednog po jednog, kao što su prethodnih nedelja posekli knezove. Reči su bile jednostavne, više opomena nego program. Ipak, iza tih reči stajala je nova misao — da seoska Srbija može da deluje zajedno, kao jedna sila, a ne kao zbir razasutih hajdučkih družina."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Izbor vožda"
+    },
+    {
+      "type": "paragraph",
+      "text": "Najteže pitanje bilo je ko će povesti. Predlagan je Stanoje Glavaš, čuveni hajduk čije je ime već imalo težinu po celoj Šumadiji; on je, prema sećanjima, odbio uz obrazloženje da hajduk ne može biti vožd jednog naroda. Pominjan je i Teodosije Marićević, domaćin zbora, kao i drugi viđeniji ljudi. Na kraju je izbor pao na Đorđa Petrovića, zvanog Karađorđe — nekadašnjeg frajkora, trgovca stokom iz Topole, čoveka koji je u austrijskoj službi naučio kako se vodi četa i koji je već imao reputaciju surovog ali pravednog. Karađorđe se, prema kasnijim predanjima, dugo opirao, svestan šta titula vožda znači. Kada je pristao, jasno je rekao da će voditi tvrdom rukom i da će svaki prekršaj zakletve kažnjavati bez milosti. Te reči, kakve god da su u tačnom obliku izgovorene, dale su ton svemu što će uslediti."
+    },
+    {
+      "type": "paragraph",
+      "text": "Iz Orašca su odmah krenuli pozivi na opšti ustanak. Za svaku nahiju određeni su starešine i veze; doneta je odluka da se napadnu sve turske posade po unutrašnjosti, da se zauzmu hanovi i palanke i da se otvore putevi između srpskih sela. Zahtevi koje su ustanici tih prvih dana glasno isticali bili su iznenađujuće umereni — nisu tražili nezavisnu državu, nego povratak na uređenje iz vremena Hadži Mustafa-paše: vraćanje hatišerifa iz 1793, uklanjanje dahija i obnovu kakvog-takvog pravnog poretka pod sultanom. Pobuna je u govoru bila usmerena protiv lokalnih nasilnika, a ne protiv carstva; ta umerenost biće još mesecima ustanički štit pred Portom."
+    },
+    {
+      "type": "paragraph",
+      "text": "Već u prvim sedmicama pokazalo se da odluka iz Orašca nije ostala na papiru. Naoružane čete krenule su na Topolu, Rudnik, na puteve oko Beograda, na turske ispostave duž Drine. Janičarske patrole upadale su u zasede; manje posade predavale su se ili bivale poklane. Selo za selom diglo se na noge, snabdevajući borce hlebom, slaninom, baruta koliko ga je bilo i puškama čuvanim još iz austrijskih ratova. Pašaluk je za nekoliko sedmica praktično prešao u ruke ustanika svuda osim u utvrđenim varošima; dahije su se zatvorile iza zidina beogradske tvrđave. Karađorđeve snage uskoro su zauzele Topolu, a u toku proleća i Smederevo i Šabac, dok su oko njih nikle prve organizovane ustaničke jedinice — knezovi kao kapetani, frajkori kao oficiri, hajduci kao prethodnice."
+    },
+    {
+      "type": "paragraph",
+      "text": "Vest se širila brže nego što su Turci stizali da reaguju. Preko Save i Dunava prebegavali su glasnici i izbeglice, noseći u Habsburšku monarhiju vesti o tome šta se dešava u Šumadiji. U manastirima Fruške gore i u srpskim opštinama po Ugarskoj govorilo se o ustanku kao o nečemu što se razlikuje od svih ranijih hajdučkih buna — po obimu, po dogovorenom vođstvu, po jasnim, makar i umerenim, političkim zahtevima. Ovo više nije bila družina koja udari pa pobegne; bila je to oružana akcija jednog naroda koji počinje da gradi svoju vlast tamo gde je dotadašnja vlast pala."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sretenje 1804. ostalo je upamćeno kao trenutak iz koga je izrasla moderna srpska država. Datum kada je u Orašcu izabran prvi vožd danas se obeležava kao Dan državnosti — isto kao i donošenje prvog srpskog ustava 1835. godine, koji je takođe pao na Sretenje. U tom dvostrukom poklapanju ima nečeg simboličnog: oba puta, na isti praznik Sretenja Gospodnjeg, Srbija je dobila novi početak. Praktično gledano, Orašac je bio samo zbor naoružanih seljana u jednom šumadijskom selu; istorijski gledano, bio je to čin kojim je iz Beogradskog pašaluka, kroz krv i improvizaciju narednih godina, polako počela da nastaje nova država."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

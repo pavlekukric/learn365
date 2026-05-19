@@ -6,13 +6,53 @@
   "dayNumber": 129,
   "order": 3,
   "title": "Smederevska tvrđava",
+  "subtitle": "Trougaoni grad na ušću Jezave u Dunav: prestonica despota Đurđa i jedna od najvećih tvrđava srednjovekovne Evrope",
   "readingTimeMinutes": 8,
   "year": 1430,
-  "isPlaceholder": true,
+  "dateLabel": "1428–1439.",
+  "timelinePosition": "1428–1439.",
+  "summary": "Gradnja Smederevske tvrđave između 1428. i 1439. godine: trougaoni plan, Mali i Veliki grad, oko dvadeset pet kula, slovenski natpis na donžonu i sudbina grada od pada 1439. do današnjeg dana.",
+  "keyPeople": ["Đurađ Branković", "Jerina Branković"],
+  "keyPlaces": ["Smederevo", "Smederevska tvrđava", "Mali grad", "Veliki grad", "Dunav", "Jezava"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Kada je despot Đurađ Branković, posle gubitka Beograda 1427. godine, morao da bira novu prestonicu, pogled mu je pao na ušće Jezave u Dunav, na ravan, blago izdignut plato koji je sa dve strane branila voda, a sa treće otvoreno polje pogodno za rovove i zidine. Tu, na samoj severnoj granici Despotovine, počela je 1428. gradnja koja će u narednih jedanaest godina podići jednu od najvećih srednjovekovnih tvrđava u Evropi — utvrđeni grad koji nije bio samo vojni logor, već istovremeno dvor, riznica, garnizon i varoš na obali velike reke."
+    },
+    {
+      "type": "paragraph",
+      "text": "Osnova grada bila je strog trougao. Dve njegove duže strane pratile su tokove Dunava i Jezave, a treća, južna, gledala je u kopno; svaka je bila duga oko pet stotina pedeset metara, a unutar zidina je sklopljeno blizu jedanaest i po hektara prostora. Po tom obimu Smederevo se već u trenutku gradnje svrstavalo među najveće utvrđene komplekse svog vremena, uporedo sa najznačajnijim evropskim tvrđavama kasnog srednjeg veka. Trougao je iznutra bio podeljen na dve nejednake celine, čime je dobijena jasna razlika između vladarskog srca grada i njegovog vojnog i gradskog tela."
+    },
+    {
+      "type": "paragraph",
+      "text": "Severni vrh trougla zauzimao je Mali grad — despotova citadela. Bio je to najuže branjen, najjače utvrđen i najtemeljnije zidan deo kompleksa, izdvojen sopstvenim zidovima i šancem od ostatka tvrđave. U njemu su se nalazili dvor i privatne odaje vladarske porodice, riznica, kapela i prostorije za najuži krug službe — pisara, oficira i posluge. Procene istoričara govore o nekoliko stotina ljudi koji su redovno boravili u Malom gradu, a u njega se ulazilo posebnim kapijama, pod nadzorom posebne straže. Bio je to grad u gradu, mali utvrđeni dvor čija je svakodnevica tekla nezavisno od većeg dela tvrđave."
+    },
+    {
+      "type": "paragraph",
+      "text": "Južno od citadele pružao se Veliki grad — znatno prostraniji deo, glavno telo tvrđave. Tu su bili smešteni garnizon, vojne radionice, magacini, štale, kuhinje i prostor za zanatlije i trgovce koji su opsluživali dvor i vojsku. Veliki grad je istovremeno bio i utvrđeni vojni logor i ograđeno gradsko jezgro, sa unutrašnjim ulicama i organizovanim životom. Glavni teret odbrane padao je na njegove duge zidove, dok je civilno stanovništvo u celini živelo u varoši izvan tvrđave, koja se od tridesetih godina petnaestog veka brzo razvila uz reku."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Zidovi, kule i natpis na donžonu"
+    },
+    {
+      "type": "paragraph",
+      "text": "Bedeme je nosilo oko dvadeset pet kula, raspoređenih duž svih triju strana trougla. Visina zidova dostizala je i do dvadeset pet metara, debljina u podnožju bila je dva do tri metra, a glavni materijal bio je lomljeni i tesani kamen, prošaran horizontalnim pojasevima crvene opeke u vizantijskom maniru — postupkom koji nije samo ukrašavao zid, nego mu je davao i veću čvrstinu i pomagao u izravnavanju redova prilikom gradnje. Sa spoljne strane zidove je dodatno štitio dubok šanac, koji se kod Velikog grada mogao po potrebi puniti vodom iz Jezave. Među svim kulama posebno se izdvajao donžon Malog grada, glavna kula citadele, viša i jača od ostalih, zamišljena kao poslednje uporište odbrane i kao simbol vladarske moći."
+    },
+    {
+      "type": "paragraph",
+      "text": "Na zidu donžona, ugrađen u samu opeku, sačuvan je slavni natpis na slovenskom jeziku koji imenuje despota Đurđa kao graditelja i navodi godinu podizanja. Najčešće se čita kao 1430, mada pojedini istraživači sporeći se oko pojedinih slova predlažu i nešto drugačija tumačenja; sigurno je da natpis pripada prvoj fazi gradnje i da pripisuje delo despotu lično. Reč je o jednom od najznačajnijih srednjovekovnih ktitorskih natpisa u srpskim zemljama uopšte — retkom svedočanstvu o tome ko, kada i s kojom namerom zida prestonicu. Narodno predanje će kasnije čitavu gradnju vezati za despotovu ženu Jerinu, ali tvrđava je delo države i despota, čije ime opeka i danas nosi."
+    },
+    {
+      "type": "paragraph",
+      "text": "Vojnički, Smederevo je zamišljeno da odoli osmanskoj opsadnoj tehnici svog vremena. To je trenutak u kome se rani topovi tek probijaju kao ozbiljno oružje opsade, a debeli kameni zidovi sa unutrašnjim ojačanjima i duboki šančevi tada još uvek pružaju razumnu zaštitu. Kasnije, već pod osmanskom upravom, dograđivani su artiljerijski položaji prilagođeni novom dobu vatrenog oružja. Prva ozbiljna proba došla je već 1439, kada je sultan Murat Drugi, posle duge opsade, prisilio grad na predaju — prvi pad Smedereva, o kome će biti reči u sledećoj lekciji. Vraćena je tvrđava 1444. godine, da bi konačno pala 1459. i tako označila kraj srednjovekovne srpske države."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pod osmanskom vlašću Smederevo nije napušteno, naprotiv: ostalo je važno upravno središte sandžaka i granični garnizon, sa stalnom posadom kroz šesnaesti i sedamnaesti vek. Tek u kasnijim ratovima tvrđava će platiti tešku cenu. U Prvom svetskom ratu pretrpela je austrougarsko granatiranje, a najteži udarac doneo je juni 1941, kada je u tvrđavi eksplodirala nemačka municija uskladištena u njenim prostorijama; eksplozija je usmrtila više hiljada ljudi i razorila značajan deo zidova i kula. Sistematska obnova počinje od druge polovine dvadesetog veka i traje do danas. Smederevska tvrđava je u međuvremenu postala jedan od najvažnijih spomenika srednjovekovne arhitekture u Srbiji i kandidat za upis na Uneskovu listu svetske baštine — trougaoni svedok ambicije jedne države koja je, baš u trenutku kada je gubila zaleđe, podigla svoj najveći grad."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

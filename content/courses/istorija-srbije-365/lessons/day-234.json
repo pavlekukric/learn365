@@ -6,13 +6,53 @@
   "dayNumber": 234,
   "order": 4,
   "title": "Izgradnja državnih institucija",
+  "subtitle": "Kako je Srbija u dve decenije od Miloševog dvora postala birokratska država sa sudovima i zakonicima",
   "readingTimeMinutes": 7,
   "year": 1850,
-  "isPlaceholder": true,
+  "dateLabel": "1840-e–1850-e",
+  "timelinePosition": "1840-e–1850-e",
+  "summary": "U vreme ustavobranitelja Srbija prelazi iz patrijarhalne kneževine u modernu državu sa stalnim sudovima, ministarstvima, činovnicima i Građanskim zakonikom iz 1844. godine.",
+  "keyPeople": ["Jovan Hadžić", "Ilija Garašanin", "Aleksandar Karađorđević", "Toma Vučić Perišić"],
+  "keyPlaces": ["Beograd", "Kragujevac", "Beč", "Sremski Karlovci"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Dok se na površini srpske politike četrdesetih i pedesetih godina devetnaestog veka odvijala bučna borba ustavobranitelja sa Obrenovićima i međusobno, ispod te buke tekao je drugi, mnogo tiši proces. U dve decenije Srbija je prestajala da bude ono što je do tada bila — patrijarhalna kneževina u kojoj je presuda izlazila iz usta jednog čoveka, gde su porez i vojska zavisili od kneževe volje, a uprava se vodila preko ličnih ljudi gospodara Miloša. Na njeno mesto polako je stupala druga država: birokratska, sa stalnim sudovima, pisanim zakonima, ministarstvima i činovnicima koji su za platu radili posao po pravilu, a ne po naklonosti."
+    },
+    {
+      "type": "paragraph",
+      "text": "Prvi i možda najvidljiviji prelom dogodio se u sudstvu. Pod Milošem je pravdu, u poslednjoj instanci, delio knez sam — često usmeno, na osnovu sopstvenog osećanja i nasleđenog običaja. Taj obred lične kneževe pravde, koji je seoski svet razumeo i čak voleo, ustavobranitelji su svesno ukinuli. Na njegovo mesto došla je trostepena lestvica stalnih sudova: okružni sudovi u sedištima okruga sudili su u prvom stepenu, apelacioni sud u Beogradu bio je drugi stepen, a kao vrhovna, kasaciona instanca uspostavljen je Vrhovni sud. Sudije su sve više bili ljudi sa formalnim pravnim obrazovanjem, najčešće stečenim u Habzburškoj monarhiji, a njihove presude počele su da se obrazlažu pismeno, sa pozivanjem na članove zakona."
+    },
+    {
+      "type": "paragraph",
+      "text": "Da bi takvi sudovi mogli da rade, bio je potreban zakon. Godine 1844. donet je Građanski zakonik Kneževine Srbije, delo Jovana Hadžića, pravnika rođenog u Sremu i školovanog u Pešti i Beču. Hadžić je u osnovi preuzeo austrijski Allgemeines bürgerliches Gesetzbuch iz 1811. godine — jedan od najuglednijih evropskih građanskih zakonika tog doba — i prilagodio ga srpskim prilikama, pre svega zadružnoj svojini i pravoslavnom porodičnom pravu. Zakonik je pisan staloženim jezikom, sa jasno numerisanim paragrafima, i postao je jedan od najznamenitijih pravnih spomenika srpske istorije. Ostao je na snazi sve do posle 1918. godine, dakle skoro tri četvrtine veka, i prešao je iz Kneževine u Kraljevinu i potom u novu jugoslovensku državu kao činjenica koju nijedan režim nije lako dirao. Krivični zakonik donet je nešto kasnije, 1860, ali u istom duhu evropske kodifikacije."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Popečiteljstva, okruzi, činovnici"
+    },
+    {
+      "type": "paragraph",
+      "text": "Uprava je dobila modernu kičmu. Pojavila su se ministarstva — u tadašnjoj srpskoj terminologiji popečiteljstva — za unutrašnje poslove, pravosuđe, finansije, prosvetu, vojsku i inostrane poslove. Svako popečiteljstvo imalo je svoga starešinu, kancelariju, pisare i propisani delokrug rada. Zemlja je bila podeljena na okruge, na čijem su čelu stajali okružni načelnici; okruzi su se delili na srezove sa sreskim kapetanima, a na najnižem nivou ostajale su opštine sa seoskim knezovima i kmetovima. Po prvi put je naredba iz Beograda mogla, makar u načelu, da stigne pisanim putem do svakog sela i da se vrati nazad sa izveštajem o izvršenju."
+    },
+    {
+      "type": "paragraph",
+      "text": "Da bi ta mašina radila, pojavio se sasvim novi društveni sloj — činovništvo. To su bili ljudi koji su od države primali stalnu platu, nosili određeno zvanje, polagali zakletvu i napredovali po službenoj lestvici. Mnogi su školu završili u Sremskim Karlovcima, Pešti ili Beču, kasnije sve više u Parizu, Berlinu i Rusiji, i u Srbiju su sa sobom donosili evropske navike — uredne spise, dvojnu administraciju, vođenje protokola. Otuda i izraz „činovnička država” koji će istoričari upotrebljavati za Srbiju druge polovine veka: zemlja u kojoj je obrazovani službenik, a ne više vojvoda ili seoski starešina, postao glavna figura u svakodnevnom susretu seljaka sa vlašću. Uz upravu je išla i policija, koju je organizovao Ilija Garašanin — disciplinovana, sa mrežom poverenika, prvi put sposobna da nadgleda i mestima daleko od prestonice. Bila je to osnovna poluga ustavobraniteljskog poretka."
+    },
+    {
+      "type": "paragraph",
+      "text": "Uz institucije rastao je i materijalni okvir države. Postavljene su prve telegrafske linije, organizovana je redovna pošta sa markama i raspisanim taksama, počelo se sa popravkom puteva i podizanjem mostova preko reka koje su do tada značile granicu između susednih sela. Ništa od toga još nije bilo evropski razmah; bila je to skromna mreža, često u kvaru, ali je po prvi put postojala kao sistem, a ne kao niz pojedinačnih kneževih darova."
+    },
+    {
+      "type": "paragraph",
+      "text": "Treba reći pošteno i ono što se u kasnijim, slavopojnim prikazima često prećutkivalo. Birokratija nije bila samo napredak. Sa stalnim sudovima i pisanim zakonima u seosko domaćinstvo ušao je porez koji se ne može isprositi, taksa koja se ne može zaobići i činovnik koji traži potpis i pečat. Mnogi seljaci, navikli na neposredni, makar i samovoljni odnos sa Milošem, novu državu osetili su pre svega kao teret — kao tuđu, gradsku silu koja zna da piše i traži, a slabo zna kako se živi u brdu. Bune protiv „pisara” i poreznika obeležile su čitavu drugu polovinu veka. Modernizacija je u Srbiji, kao i drugde u Evropi, plaćana stvarnim novcem i stvarnim nezadovoljstvom."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pa ipak, gledano sa razdaljine, ono što su ustavobranitelji izgradili u sudstvu, upravi i zakonima jeste odluka po važnosti ravna bilo kojoj bici iz srpske istorije. Tu je, mnogo više nego u dinastičkim svađama, presečeno staro i započeto novo. Te institucije nadživele su i same ustavobranitelje, i povratak Obrenovića, i kasniji dolazak Karađorđevića na presto. Sudovi su nastavili da rade po Hadžićevom zakoniku, popečiteljstva su prerasla u ministarstva, okruzi i srezovi su, sa izmenama, ostali okvir uprave sve do dvadesetog veka. Kneževina, makar i nedemokratska, postavila je u te dve decenije kostur moderne srpske države — i sve što je iz nje kasnije izraslo, izraslo je upravo na tom kosturu."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

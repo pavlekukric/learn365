@@ -6,13 +6,53 @@
   "dayNumber": 327,
   "order": 12,
   "title": "Oslobođenje 1944–1945.",
+  "subtitle": "Od Beogradske operacije do kraja rata u Evropi — devet meseci u kojima se završava jedan rat i tiho otvara drugi obračun",
   "readingTimeMinutes": 8,
   "year": 1944,
-  "isPlaceholder": true,
+  "dateLabel": "1944–1945.",
+  "timelinePosition": "1944–1945.",
+  "summary": "Oslobođenje Beograda 20. oktobra 1944, Sremski front kroz zimu i proleće 1945, ulazak u Sarajevo i Zagreb, i krvavi epilog u Bleiburgu i Kočevskom rogu uoči kraja rata u Evropi.",
+  "keyPeople": ["Josip Broz Tito", "Josif Staljin", "Fjodor Tolbuhin", "Peko Dapčević", "Aleksandar Ranković"],
+  "keyPlaces": ["Beograd", "Srem", "Sarajevo", "Zagreb", "Bleiburg", "Kočevski rog"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Krajem leta 1944. rat na istoku se naglo približio Balkanu. Crvena armija je u avgustu izbila na Dunav i ušla u Rumuniju, a već početkom septembra prešla je u Bugarsku, koja je preko noći promenila stranu i pristupila savezničkom taboru. Nemački položaj u jugoistočnoj Evropi rušio se brže nego što su iko, pa i sami partizanski štabovi, očekivali. Za Jugoslaviju je to značilo da se rat, koji je već tri i po godine besneo u njenim šumama i gradovima, naglo bliži poslednjem činu — ali i da će taj kraj sa sobom doneti sopstvene, posebne tragedije."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sredinom septembra 1944. Tito je, sa ostrva Visa, tajno odleteo u Moskvu. Sa Staljinom je postigao usmeni sporazum o uslovima pod kojima će jedinice Crvene armije ući na jugoslovensku teritoriju: ograničeno, samo radi vojnih operacija protiv Vermahta, pod komandom svojih oficira, ali uz obavezu da civilnu vlast preuzimaju organi Narodnooslobodilačkog pokreta. Bio je to dogovor koji je Tito tumačio kao priznanje suvereniteta nove vlasti — i koji će, uz mnogo manje vidljivih posledica, zadržati zapadnu liniju oslobođenja Jugoslavije pretežno za domaće snage."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Beogradska operacija i Sremski front"
+    },
+    {
+      "type": "paragraph",
+      "text": "Beogradska operacija počela je 28. septembra 1944. i trajala do 20. oktobra. Vodile su je jedinice Trećeg ukrajinskog fronta Crvene armije pod komandom maršala Fjodora Tolbuhina i jedinice Narodnooslobodilačke vojske Jugoslavije, među kojima je glavnu ulogu imao Prvi proleterski korpus pod komandom Peka Dapčevića. U dve i po nedelje teških borbi probijena je nemačka odbrana istočne Srbije, opkoljen i razbijen veliki deo nemačke Armijske grupe „Srbija”, a Beograd je 20. oktobra ušao u sastav oslobođene teritorije. Bila je to jedna od retkih savezničkih operacija u Drugom svetskom ratu u kojoj je strani glavni grad oslobođen uz tako veliko učešće domaćeg pokreta otpora; tu činjenicu kasnija sećanja s pravom ističu, makar i kroz različita politička tumačenja."
+    },
+    {
+      "type": "paragraph",
+      "text": "Posle Beograda, glavnina Crvene armije skrenula je na sever, prema Mađarskoj i Beču. Daljnje oslobađanje Jugoslavije ostalo je gotovo u celosti na Jugoslovenskoj armiji — kako se Narodnooslobodilačka vojska zvanično prozvala početkom 1945. Nemačka Grupa armija „E”, koja se povlačila iz Grčke i sa juga Balkana, pokušavala je da se probije ka severozapadu i poveže sa glavninom u Sremu. Tu, na ravnoj sremskoj ravnici između Save i Dunava, stvorio se Sremski front — duga, gotovo statična linija rovova, bunkera i minskih polja, koja je od oktobra 1944. do aprila 1945. presekla Jugoslaviju na dvoje."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sremski front je u srpskom sećanju ostao kao posebna, mračna epizoda oslobođenja. Mesecima se vodila pozicijska, gotovo prvosvetska borba: jurišati po blatnjavoj ili smrznutoj ravnici na utvrđene nemačke položaje značilo je velike gubitke za mali pomak. Posebno težak teret pao je na mlade, naglo mobilisane regrute iz tek oslobođene Srbije — često nedovoljno obučene, slabo opremljene, dovedene na front u zimu 1944/45. O broju poginulih i danas se vode rasprave; procene se kreću u desetinama hiljada, ali pouzdane jedinstvene cifre nema. Kritike na račun komandovanja, koordinacije i političke mobilizacije pratiće Sremski front sve do današnjih istraživanja. Bio je on istovremeno i vojno nužan front, jer je zadržavao nemačku armiju daleko od zaleđa, i ljudski teško opravdiv u onoj meri u kojoj su mladi životi tu trošeni za male pomake."
+    },
+    {
+      "type": "paragraph",
+      "text": "Tokom proleća 1945. ravnoteža je konačno pukla. Početkom aprila probijen je Sremski front, oslobođeni su Vukovar i Osijek, a 6. aprila u Sarajevo su ušle jedinice Druge i Treće armije. Sledilo je oslobađanje Like, Hrvatskog primorja, Istre, a 8. maja 1945. Jugoslovenska armija ušla je u Zagreb. Završne borbe vodile su se još nekoliko dana u Sloveniji i delovima Koruške, dok se nemačka grupa „E”, zajedno sa ustaškim, domobranskim i slovenačkim domobranskim jedinicama, povlačila prema austrijskoj granici, u pokušaju da se preda britanskim, a ne partizanskim snagama."
+    },
+    {
+      "type": "paragraph",
+      "text": "Upravo se tu odigrao i najmračniji epilog rata. Početkom maja 1945. desetine hiljada ustaša, domobrana, slovenačkih domobrana, četnika i civila koji su sa njima krenuli u izbeglištvo, skupile su se na austrijskoj strani granice, kod mesta Bleiburg. Britanska komanda je, u skladu sa ranijim savezničkim dogovorima, odbila da ih prihvati i predala ih je novim jugoslovenskim vlastima. U narednim nedeljama mnogi od njih ubijeni su bez sudskog postupka — streljani u kolonama na maršu kroz Sloveniju i Hrvatsku, ili u masovnim grobnicama poput onih u Kočevskom rogu. O ukupnom broju žrtava istoričari se i danas spore: ozbiljne procene kreću se od oko dvadeset do preko sedamdeset hiljada, a političke upotrebe ovih cifara — sa svih strana — često nadmašuju ono što je istraživanjima utvrđeno. Sigurno je samo to da se radi o teškom posleratnom zločinu nove vlasti, počinjenom van suda, i da je to jedan od događaja koji je oblikovao sećanje na 1945. godinu kod više naroda bivše Jugoslavije."
+    },
+    {
+      "type": "paragraph",
+      "text": "Formalno, rat u Evropi okončan je kapitulacijom Nemačke 8. maja, koja je u Moskvi proglašena 9. maja 1945. U Jugoslaviji su borbe protiv povlačećih nemačkih kolona u Sloveniji trajale još koji dan, ali je glavnina zemlje već bila oslobođena. Cena je bila ogromna: stotine hiljada poginulih boraca i civila, opustošene oblasti od Bosne do Srema, hiljade spaljenih sela. Oslobođenje 1944–1945. dovelo je rat do kraja, ali ne i nasilje: nova vlast, koja je tu pobedu izvojevala, sa sobom je donela i nove sukobe i nove žrtve, čije će se senke vući kroz decenije koje slede."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

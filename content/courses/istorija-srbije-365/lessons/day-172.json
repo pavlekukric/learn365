@@ -6,13 +6,49 @@
   "dayNumber": 172,
   "order": 10,
   "title": "Požarevački mir i austrijska uprava",
+  "subtitle": "Kako je severna Srbija na dve decenije izašla iz osmanskog sistema i postala habzburška „Kraljevina Srbija”",
   "readingTimeMinutes": 7,
   "year": 1718,
-  "isPlaceholder": true,
+  "dateLabel": "1718–1739.",
+  "timelinePosition": "1718–1739.",
+  "summary": "Mirom u Požarevcu 1718. severna Srbija sa Beogradom prešla je pod habzburšku upravu; dve decenije „Kraljevine Srbije” završene su Beogradskim mirom 1739. i povratkom Osmanlija.",
+  "keyPeople": ["Eugen Savojski", "Aleksandar od Virtemberga", "Nicolas Doxat de Demoret"],
+  "keyPlaces": ["Beograd", "Požarevac", "Šabac", "Smederevo", "Banat"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Dvadeset prvog jula 1718. godine, u malom podunavskom gradu Požarevcu, pod šatorima razapetim u polju izvan varoši, predstavnici cara Karla VI, sultana Ahmeda III i Mletačke republike potpisali su mir kojim se završio austro-turski rat od 1716. do 1718. godine. Posrednici su bili Englezi i Holanđani, jezik pregovora bio je latinski i italijanski, a sadržaj je za jugoistočnu Evropu značio jednu od najvećih promena karte u poslednjih dvesta godina. Habzburška monarhija je, posle pobeda princa Eugena Savojskog kod Petrovaradina 1716. i pod Beogradom 1717, izlazila iz rata kao jasan dobitnik. Osmansko carstvo je, prvi put posle dugog vremena, bilo prinuđeno da prizna trajne gubitke duboko u svojoj evropskoj polovini."
+    },
+    {
+      "type": "paragraph",
+      "text": "Granica je povučena tako da je Beč dobio Banat — poslednju osmansku oblast severno od Dunava — zatim severnu Srbiju sa Beogradom, Šapcem i Smederevom, uski pojas severne Bosne uz Savu koji će u dokumentima dobiti naziv „habzburška Bosna”, i Malu Vlašku do reke Olta. Venecija je u istom miru dobila nešto, ali je u Moreji izgubila više nego što je u Dalmaciji dobila — njena uloga velike sile u istočnom Sredozemlju počela je tu, u Požarevcu, da se gasi. Za srpsku istoriju, međutim, presudna je jedna jednostavna činjenica: po prvi put posle 1459. godine i pada Smedereva, oblast koja obuhvata Beograd, Šumadiju i središnje Pomoravlje našla se pod hrišćanskom, ne više osmanskom, upravom."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Kraljevina Srbija pod krunom Habzburga"
+    },
+    {
+      "type": "paragraph",
+      "text": "Beč je novostečenoj oblasti dao posebno ime — Königreich Serbien, „Kraljevina Srbija” — i postavio je pod neposrednu carsku, vojno-administrativnu upravu, mimo Ugarske krune i mimo banatske komore. Beograd je postao prestonica te kratke kraljevine i sedište guvernera; prvi na tom mestu bio je princ Aleksandar od Virtemberga, vojnik iz cara Karlove pratnje, posle njega smenjivali su se drugi austrijski generali. Zemlja je podeljena na okruge sa činovništvom po srednjoevropskom obrascu, uveden je nov sistem poreza i popisa stanovništva, počele su da se prave karte, da se reguliše trgovina, da se otvaraju putevi prema Banatu i Vojnoj krajini. U pojedine opustele predele, naročito u Banat ali ponegde i južno od Save, naseljavani su nemački kolonisti, zanatlije i seljaci iz južnonemačkih zemalja."
+    },
+    {
+      "type": "paragraph",
+      "text": "Odnos lokalnog srpskog stanovništva prema novoj vlasti bio je složen i ne treba ga prikazivati ni kao oduševljenje ni kao otpor. Posle decenija osmanske uprave, kuluka i poreske neizvesnosti, hrišćanska država — makar i tuđa, makar i katolička — donosila je neke vidljive olakšice: prestajao je danak u krvi, slabili su zulumi pojedinih spahija, raja je formalno izlazila iz statusa zimija. Ali nova vlast je donosila i sopstvene terete. Habzburški porezi nisu bili manji, samo drugačiji i tačnije naplaćivani; činovnici su pisali sve, što seljak nikada nije voleo; trgovina je morala kroz carine i monopole; a u verskim stvarima carska kruna, oslonjena na katoličku crkvu, vršila je tih ali stalan pritisak na pravoslavnu jerarhiju da se približi uniji s Rimom. Mitropolija u Beogradu i Karlovačka mitropolija severno od Save morale su da brane svoju samostalnost diplomatskom strpljivošću, ne otvorenim sukobom."
+    },
+    {
+      "type": "paragraph",
+      "text": "Najvidljiviji trag tog vremena ostao je u Beogradu. Habzburški inženjeri prepravili su staru osmansku tvrđavu u modernu baroknu utvrdu sa zvezdastim bastionima — glavni plan izradio je švajcarski oficir Nicolas Doxat de Demoret, jedan od najboljih utvrđivača svoga doba. Donji grad i Kalemegdan dobili su izgled koji je odgovarao tadašnjoj evropskoj fortifikacijskoj nauci; oko tvrđave je nicala nova varoš sa pravim ulicama, kasarnama, magacinima i crkvama. Stanovništvo Beograda u tih dvadeset godina bilo je šaroliko kao retko kad u njegovoj istoriji: pored Srba, doselili su se Nemci, Italijani, Mađari, Jermeni, sefardski Jevreji, francuski i češki oficiri. Otvarale su se škole, počela je da se štampa pisana reč na nemačkom, formirao se začetak građanskog života — sve to u gradu koji je još pre dve decenije bio osmanska palanka."
+    },
+    {
+      "type": "paragraph",
+      "text": "Habzburški eksperiment u Srbiji trajao je tačno onoliko koliko i naredni mir između dva carstva. Kada je 1737. izbio nov austro-turski rat, Beč je u njega ušao loše pripremljen, sa precenjenim snagama i podeljenom komandom. Posle nekoliko poraza u Bosni i Vlaškoj i propalog pohoda na jug, austrijska vojska se 1739. povukla pred Osmanlijama čak do Beograda. Mir potpisan u logoru pod gradom, poznat kao Beogradski mir, vratio je sultanu severnu Srbiju, habzburšku Bosnu i Malu Vlašku. Po jednoj od tačaka tog mira, novosagrađena barokna tvrđava morala je biti porušena pre povlačenja — Doxatovo delo Habzburzi su sopstvenim rukama digli u vazduh. Sam Nicolas Doxat, optužen zbog predaje Niša, bio je pogubljen u Beču iste godine; njegova sudbina ostala je gorka uspomena na to vreme."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sa carskom vojskom preko Save i Dunava povukao se i znatan deo srpskog stanovništva koje se za dve decenije vezalo za novu vlast — činovnici, trgovci, oficiri, sveštenici, bogatije porodice iz Beograda i Šapca. Ta selidba, znatno manja od one velike iz 1690, u istoriografiji se naziva Drugom seobom i o njoj je već bilo reči ranije u ovom kursu. Severna Srbija ponovo je postala osmanska provincija; Beograd je obnovljen, ali u skromnijim razmerama, a sećanje na „nemačko vreme” ostalo je u narodu još dugo, ponegde kao priča o tuđinskoj strogoći, ponegde kao priča o uređenosti koje pod Turcima nije bilo. Period od 1718. do 1739. nije, dakle, doneo srpsku slobodu — bila je to samo zamena jednog imperijalnog gospodara drugim. Ali je prvi put posle dva i po veka pokazao da je drugačija uprava nad ovim zemljama uopšte moguća, i ta misao će, tiho, ostati u srpskoj političkoj imaginaciji sve do devetnaestog veka."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

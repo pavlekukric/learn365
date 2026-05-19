@@ -6,13 +6,53 @@
   "dayNumber": 281,
   "order": 1,
   "title": "Balkanski savez 1912.",
+  "subtitle": "Kako su tajni bilateralni ugovori u proleće 1912. povezali Srbiju, Bugarsku, Grčku i Crnu Goru protiv Osmanlija",
   "readingTimeMinutes": 7,
   "year": 1912,
-  "isPlaceholder": true,
+  "dateLabel": "1912.",
+  "timelinePosition": "proleće 1912.",
+  "summary": "Niz tajnih bilateralnih ugovora iz proleća 1912. povezao je Srbiju, Bugarsku, Grčku i Crnu Goru u savez protiv slabećeg Osmanskog carstva — trezven diplomatski poduhvat, a ne romantičan pan-slovenski pokret.",
+  "keyPeople": ["Nikola Pašić", "kralj Petar I Karađorđević", "Ivan Evstratijev Geševov", "Eleftherios Venizelos", "knez Nikola Petrović", "ruski car Nikolaj II"],
+  "keyPlaces": ["Beograd", "Sofija", "Atina", "Cetinje", "Sankt Peterburg", "Makedonija"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "U proleće 1912. godine, dok su zapadne prestonice pratile drugu krizu — italijansko-tursko nadmetanje oko Libije — na Balkanu se, gotovo bez šuma, sklapao niz tajnih ugovora koji će za nekoliko meseci promeniti kartu poluostrva. Srbija, Bugarska, Grčka i Crna Gora ulazile su, jedna po jedna, u sistem bilateralnih sporazuma uperenih protiv Osmanskog carstva. Nijedan jedinstveni „savez četvorice” nije bio potpisan kao takav; postojao je niz dvostranih ugovora koji su se preklapali, sa zajedničkim protivnikom i različitim, često sukobljenim računima. Upravo zato je o Balkanskom savezu 1912. tačnije govoriti kao o trezvenom diplomatskom poduhvatu nego kao o pan-slovenskom pokretu zanesene braće."
+    },
+    {
+      "type": "paragraph",
+      "text": "Središnji ugovor bio je srpsko-bugarski, potpisan 29. februara, odnosno po novom kalendaru 13. marta 1912. godine. Sa srpske strane potpisao ga je Nikola Pašić, predsednik vlade i ministar inostranih dela, sa znanjem i podrškom kralja Petra I; sa bugarske Ivan Evstratijev Geševov. Javni deo ugovora bio je obrambeni: dve države garantovale su jedna drugoj nezavisnost i celovitost i obavezivale se da će u slučaju napada velike sile na bilo koju od njih priteći u pomoć. Tajni dodatak išao je mnogo dalje. Predviđao je zajedničko ratovanje protiv Osmanskog carstva ako se na evropskim teritorijama Carstva dogodi „nered” koji bi ugrozio njihove nacionalne interese — formulacija koja je obema vladama davala lak izgovor za ofanzivu kad to procene pogodnim."
+    },
+    {
+      "type": "paragraph",
+      "text": "U tom tajnom prilogu krila se i najosetljivija stavka: podela osmanskih teritorija u Makedoniji. Jedan deo predviđen je kao nesporno bugarski — istočno od Strume i Rodopa — a drugi kao nesporno srpski, severno i severozapadno od planinskog luka Šar — Karadag. Između njih ostavljena je tzv. sporna zona, oblast oko Skoplja, Kumanova, Velesa i južno odatle, koju nijedna strana nije bila spremna ni da prepusti ni formalno da traži. O njenoj sudbini odlučivao bi, ako se strane ne dogovore, ruski car kao arbitar. Već u tom članu može se nazreti otvoreno pitanje koje će se vratiti godinu dana kasnije: da li je sama konstrukcija „sporne zone” unapred nosila seme rascepa, jer su obe strane potpisivale ugovor uverene da bi krajnja arbitraža išla njima u korist."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Krug se zatvara"
+    },
+    {
+      "type": "paragraph",
+      "text": "Sa srpsko-bugarskim ugovorom kao osloncem, mreža se proširila. U maju 1912. potpisan je grčko-bugarski ugovor o savezu, takođe odbrambenog karaktera u javnom delu, ali sa jasnim podrazumevanjem da je njegov pravi smisao zajednički nastup protiv Osmanlija u Makedoniji i Trakiji. Grčku je vodio Eleftherios Venizelos, premijer koji je dolazio iz kritskog ustaničkog iskustva i imao mnogo razloga da pojača grčki položaj na severu. Zanimljivo, grčko-bugarski ugovor — za razliku od srpsko-bugarskog — nije sadržao razgraničenje teritorija. Atina i Sofija dogovorile su se da će pitanje granica rešiti naknadno, što je u tom trenutku bilo praktično, ali se ispostavilo kao opasna praznina. Srbija i Grčka u tom proleću nisu imale potpisan formalni ugovor; njihove pozicije usaglašavale su se preko Sofije, preko Petrograda i preko vojnih predstavnika."
+    },
+    {
+      "type": "paragraph",
+      "text": "Mrežu je upotpunio srpsko-crnogorski sporazum, zaključen tokom leta 1912. godine. Crna Gora, najmanja članica budućeg saveza i jedina kraljevina sa pravoslavnom dinastijom koja je već imala neposrednu granicu sa Osmanlijama, ušla je u dogovor preko vladara Nikole Petrovića. Beograd i Cetinje uskladili su vojne planove za nastup u Sandžaku, prema Kosovu i prema Skadru. Postojao je i usmeni, neformalni sloj dogovora između Sofije i Cetinja. Tako se do jeseni 1912. oblikovao sistem od četiri države povezanih sa tri pisana ugovora i nizom neformalnih obaveza — bez ijedne zajedničke konferencije, bez jednog dokumenta koji bi sve obavezivao istovremeno."
+    },
+    {
+      "type": "paragraph",
+      "text": "Iznad svega toga stajala je Rusija. Carevina Nikolaja II videla je u savezu balkanskih država dvostruku korist: branu protiv prodora Austro-Ugarske ka jugoistoku i mogući instrument pritiska na Carigrad u pitanju moreuza. Ruski ministar inostranih dela Sergej Sazonov i ruski poslanici u Beogradu, Sofiji i Atini aktivno su podsticali pregovore, posredovali u spornim tačkama i nudili formulacije kompromisa. Upravo je Rusija stajala iza ideje da arbitar za makedonsku spornu zonu bude ruski car — predlog koji je obema stranama delovao prihvatljiv jer je svaka pretpostavljala da će u Petrogradu naći više razumevanja. Ali Rusija nije, kako se kasnije ponekad tvrdilo, „stvorila” Balkanski savez. Inicijative su dolazile iz balkanskih prestonica; Petrograd je dao pokrovitelja, ne tvorca."
+    },
+    {
+      "type": "paragraph",
+      "text": "Trebalo bi se čuvati naknadne romantike. Ugovori iz 1912. nisu bili izraz jedinstvenog pan-slovenskog ili pravoslavnog osećanja: Grčka uopšte nije slovenska, Srbija i Bugarska već su decenijama imale otvorena pitanja oko Makedonije, a Crna Gora i Srbija delile su dinastičke i prestižne tenzije pored zajedničkog jezika. Ono što je 1912. uspelo da te razlike privremeno nadvije bila je trezvena računica: Osmansko carstvo, oslabljeno mladoturskom krizom, gubitkom Libije i unutrašnjim previranjima, izgledalo je rešivije nego ikad. Svaka od četiri vlade procenila je da joj zajednički nastup donosi više nego što joj samostalan donosi. Saglasje interesa, ne saglasje srca."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sa kraljem Petrom I koji je pažljivo poklanjao podršku, ali ostavljao operativno vođenje Pašiću, Srbija je u to leto stajala spremnija nego ikada pre. Vojska je bila reorganizovana posle aneksione krize 1908, finansije ojačane francuskim zajmovima, oficirski kor uvežban. Ostalo je još samo da neki povod — bilo koji nered u Makedoniji ili nova osmanska represija — pokrene mehanizam koji su ugovori već postavili. Da li su odredbe o Makedoniji, naročito konstrukcija sporne zone, već u sebi nosile seme rascepa koji će između saveznika izbiti 1913, ostaje otvoreno pitanje. Istoričari ga rešavaju različito — ali svi se slažu da je 1912. saveznicima izgledalo da imaju vremena da o tome odluče tek posle pobede koja im se činila izvesnom."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

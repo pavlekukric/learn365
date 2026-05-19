@@ -6,13 +6,53 @@
   "dayNumber": 45,
   "order": 9,
   "title": "Pokrštavanje Srba i nasleđe antike",
+  "subtitle": "Dug i neravan put od prvih misija do slovenskog bogoslužja — i šta je antika ostavila novim stanovnicima",
   "readingTimeMinutes": 8,
   "year": 870,
-  "isPlaceholder": true,
+  "dateLabel": "9. vek n. e.",
+  "timelinePosition": "~870.",
+  "summary": "Pokrštavanje Srba kao postupan proces: rane vizantijske misije, prelomna sredina 9. veka, uticaj Ćirila i Metodija i slovenskog bogosluženja, te dugotrajno nasleđe antike u zemlji u kojoj nova vera niče.",
+  "keyPeople": ["Ćirilo", "Metodije", "Vasilije I", "Mutimir", "Iraklije"],
+  "keyPlaces": ["Carigrad", "Raška", "Singidunum", "Naissus", "Velika Moravska"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Hrišćanstvo do Srba nije stiglo jednim danom, jednim ediktom ni jednom misijom. Stiglo je u talasima, kroz dva stoleća, mestimično i neravnomerno — negde brže, negde tek nakon dugih generacija. Kada se priča o „pokrštavanju Srba” obično se navodi sredina 9. veka kao prelomno doba, i to je tačno; ali iza tog datuma stoji duža pripovest, koja počinje već u 7. veku i koja se završava tek mnogo kasnije, kad u zabačenim selima blede i poslednji ostaci stare slovenske vere."
+    },
+    {
+      "type": "paragraph",
+      "text": "Prvi pomeni vezuju se za vreme cara Iraklija, sredinom 7. veka — onog istog vladara koji se, prema delu „De administrando imperio”, smatra zaslužnim za naseljavanje Srba na Balkanu. Po istom izvoru, on je iz Rima zatražio sveštenike koji bi pridošlice krstili. Koliko je ta rana misija stvarno dosegla, teško je reći. Verovatno se radilo o površnom, lokalnom dodiru — krštenju pojedinih kneževa ili plemenskih starešina, bez ozbiljne crkvene organizacije koja bi mogla da prati nove vernike. Stari obredi nastavili su da žive uporedo sa novim imenima, a u dolinama daleko od puteva i utvrđenja paganstvo se zadržalo još dugo."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pravi pomak dolazi tek dva veka kasnije, sa carem Vasilijem I, koji u poslednjoj trećini 9. veka šalje misionare u srpske zemlje. Tada već vlada knez Mutimir, naslednik Vlastimirov, čija dinastija prva nosi prepoznatljive crte rane srpske države. Pokrštavanje pod Mutimirom nije bio iznenadan, dramatičan obrt — bio je politički razuman korak. Crkvena veza sa Carigradom donosila je legitimitet, savez, pristup pismenosti i složenijoj upravi, ali i obavezu prema vizantijskom kulturnom krugu koji će od tog časa pa nadalje biti glavni horizont srpske istorije."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ono što je celom slovenskom svetu — pa i Srbima — pokrštavanje učinilo dubljim od formalnog obreda, bila je misija solunske braće Ćirila i Metodija. Njihov polazak u Veliku Moravsku 863. godine bio je u prvom redu odgovor na molbu kneza Rastislava, daleko od srpskih krajeva. Ali ono što su tamo započeli — bogoslužje na slovenskom jeziku, glagoljica, prevodi Jevanđelja i osnovnih liturgijskih knjiga — pokazalo se kao dar koji je nadišao jednu kneževinu. Kada su njihovi učenici, posle progonstva iz Moravske, krajem 9. veka stigli u Bugarsku i Makedoniju, slovensko bogoslužje dobilo je novu, trajnu kuću. Iz tih centara — naročito iz Ohrida — pisana slovenska reč širila se na sve strane, a tokom narednih decenija i vekova dolazila je i do Srba."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Slovenska reč i istočni izbor"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ćirilica, koja se razvila nešto kasnije i koja će postati glavno pismo srpske srednjovekovne pismenosti, nasledila je glagoljičnu osnovu. Suština je, međutim, bila u izboru jezika, a ne u obliku slova. U vreme kada se na Zapadu liturgija obavljala isključivo na latinskom, a na Istoku gotovo isključivo na grčkom, odluka da slovenski jezik bude jezik bogosluženja bila je presedan velike težine. Za Slovene to je značilo da hrišćanstvo neće govoriti tuđim, učenim glasom, nego njihovim. Za buduću srpsku kulturu to je bio temelj — pismenost, pravo, hronike, žitija svetih, sve što će kasnije biti napisano u srpskim manastirima, bilo je moguće zato što je u 9. veku donesena jedna naizgled tehnička odluka: da se Bog može slaviti i na slovenskom."
+    },
+    {
+      "type": "paragraph",
+      "text": "Drugi izbor bio je manje vidljiv, ali jednako sudbonosan. Srbi su hrišćanstvo primili iz Carigrada, ne iz Rima. U trenutku Mutimirovog pokrštavanja istočna i zapadna crkva još uvek su, formalno, bile jedna; veliki raskol dolazi tek 1054. godine. Ali već u 9. veku osećale su se razlike — u jeziku, obredu, pravnoj tradiciji, u shvatanju odnosa cara i patrijarha. Time što su se vezali za vizantijski svet, Srbi su zauzeli mesto u istočnohrišćanskoj sferi i sa njom će deliti sve docnije sudbine: i procvat slovenskog manastirskog života, i raskol, i sukobe sa zapadnim susedima, i, vekovima kasnije, susret sa islamom."
+    },
+    {
+      "type": "paragraph",
+      "text": "Treba biti pošten prema slici. Pokrštavanje nije bio jedan trenutak. Po selima i planinskim zaseocima staro paganstvo je opstajalo još dugo posle 9. veka, mestimično prikriveno hrišćanskim imenima i praznicima. Veliki praznici novog kalendara naslagali su se preko starih sezonskih obreda; uz svece su se i dalje pominjale vile i kućni duhovi; lečenje i sahranjivanje pratili su običaji daleko stariji od bilo koje crkvene knjige. Crkva to nije uvek osuđivala — često je ćutke prihvatala. Istinsko prožimanje hrišćanske vere i svakodnevnog života srpskog seljaka biće delo narednih vekova, a ne jednog kneževog krštenja."
+    },
+    {
+      "type": "paragraph",
+      "text": "Kad je negde u 10. veku pokrštavanje već uveliko postalo društvena činjenica, ti novi hrišćani živeli su na zemlji koja je nosila duboke ožiljke antike. Singidunum je bio razrušen, ali je bedem još stajao; Naissus je čekao da ponovo postane grad; rimski putevi, makar ispucali, i dalje su bili najbolje veze između dolina; mostovi, vodovodi, kameni temelji vila i kasarni virili su iz trave kao tragovi sveta koji se urušio, ali nije nestao. Crkva, koja je sada dolazila Srbima, donosila je sa sobom dobar deo nasleđa toga starog sveta — pismo, knjige, pravne pojmove, način uprave, čak i osećaj za vreme merenim hrišćanskim kalendarom koji je nasleđen iz rimskog. Pokrštavanje, gledano iz daljine, nije bilo samo verski događaj. Bilo je to ulazak Srba u vizantijski kulturni krug — krug u kome je preživeo dobar deo onoga što je antika znala i umela. Time se zatvara dugačko poglavlje praistorije i antike, i otvara srednji vek, sa svojim crkvama, manastirima i prvim domaćim pismenim ljudima."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

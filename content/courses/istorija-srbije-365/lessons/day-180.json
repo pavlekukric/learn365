@@ -6,13 +6,53 @@
   "dayNumber": 180,
   "order": 8,
   "title": "Barok kod Srba",
+  "subtitle": "Kako je srpska pravoslavna kultura u Habzburškoj monarhiji 18. veka primila barokne forme, a zadržala svoj sadržaj",
   "readingTimeMinutes": 7,
   "year": 1750,
-  "isPlaceholder": true,
+  "dateLabel": "18. vek",
+  "timelinePosition": "18. vek",
+  "summary": "Srbi u Habzburškoj monarhiji 18. veka — od Karlovaca do Sentandreje — primaju barokne forme arhitekture, ikonopisa i knjige, a zadržavaju pravoslavni sadržaj.",
+  "keyPeople": ["Hristofor Žefarović", "Teodor Kračun", "Jakov Orfelin", "Stefan Tenecki"],
+  "keyPlaces": ["Sremski Karlovci", "Krušedol", "Sentandreja", "Novi Sad", "Fruška gora"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Posle Velike seobe i učvršćivanja srpske crkvene i građanske mreže u Habzburškoj monarhiji, Srbi su se našli usred kulturnog sveta koji je u svemu bio barokni. Beč, Budim, Peštanska ravnica, južna Nemačka i Italija — sve je to u 18. veku govorilo jezikom baroknih fasada, oltarskih kompozicija, raskošnih knjižnih frontispisa i pozorišne pobožnosti katoličke obnove. Srpska pravoslavna zajednica, mala u odnosu na tu celinu i bez sopstvene države, morala je da pronađe sopstveni odnos prema toj dominantnoj umetnosti. Ono što je iz toga nastalo obično se zove „barok kod Srba” — ne barok kao stil koji su Srbi izmislili, nego barok kao oblik koji su preuzeli i prilagodili pravoslavnom sadržaju."
+    },
+    {
+      "type": "paragraph",
+      "text": "Najvidljivije se to dogodilo na crkvama. Tokom 18. veka mnoge srpske bogomolje u Sremu, Bačkoj, Banatu i u samoj Pešti i Sentandreji dobile su barokni spoljašnji izgled — visoke zvonike s lukovicama, raščlanjene fasade, prozore i venceve u duhu srednjoevropskog kasnog baroka. Saborna crkva u Sremskim Karlovcima, Saborna crkva u Novom Sadu, niz parohijskih hramova u Sentandreji i veliki broj manastirskih crkava Fruške gore obnovljeni su ili podignuti tako da spolja gotovo ne odudaraju od katoličkih i protestantskih građevina svog vremena. Ipak, čim se kroči unutra, prostor ostaje pravoslavan: tradicionalna trodelna podela, oltar odvojen ikonostasom, liturgija nepromenjena. Hramovi su, drugim rečima, dobili habzburško telo, a sačuvali su istočno srce."
+    },
+    {
+      "type": "paragraph",
+      "text": "Slično se dešavalo i s ikonom. Ikonopis se polako udaljavao od srednjovekovne ravnoće i strogog kanona, primajući barokno gradivo — modelovanje svetlom i senkom, prirodnije lice, telo s težinom, perspektivu, dramatičnu kompoziciju. Ikonostasi novog vremena bili su visoki, raščlanjeni stubovima i razigranom rezbarijom, pozlaćeni, sa scenama poređanim po jasnoj teološkoj ali i pozorišnoj logici. Veliki ikonostas manastira Krušedola, dovršen u poslednjoj trećini 18. veka, dugo se uzima kao primer te zrele faze, u kojoj se barokna forma već nosi prirodno, gotovo bez nelagode."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Slikari, knjige, učionice"
+    },
+    {
+      "type": "paragraph",
+      "text": "Među umetnicima koji su to oblikovali ističe se nekoliko imena. Hristofor Žefarović, poreklom iz makedonsko-grčkog kulturnog kruga ali delatan u srpskoj sredini, postao je 1741. u Beču autor „Stematografije” — bakroreznog albuma s grbovima južnoslovenskih zemalja i likovima srpskih srednjovekovnih vladara i svetitelja. Knjiga je bila istovremeno heraldički priručnik, vizuelna istorijska samosvest i barokni izdavački poduhvat; njen uticaj na srpsko shvatanje sopstvene prošlosti u 18. i 19. veku teško je preceniti. Nešto kasnije, Teodor Kračun u Karlovcima i Sremu, Jakov Orfelin, Stefan Tenecki u Banatu i drugi slikari grade prepoznatljivu srpsko-baroknu ikonopisnu školu, u kojoj se osećaju i bečki i ruski uticaji."
+    },
+    {
+      "type": "paragraph",
+      "text": "Uporedo s tim, srpska knjiga postaje barokni predmet. Bogoslužbene knjige, bukvari, istorijska dela i pohvalne besede štampaju se u Beču i Budimu, sa ukrašenim frontispisima, alegorijskim figurama, anđelima koji drže trake s naslovima, ornamentom oko inicijala. Pismo je crkvenoslovensko ili „slavjanoserbsko” — mešavina ruske redakcije crkvenoslovenskog, srpskog narodnog i ruskih i nemačkih kulturnih slojeva. Iz iste sredine izlazi i nova škola. Karlovačka „Slavjano-latinska škola”, osnovana sredinom veka, uči latinski, nemački, retoriku i versku nauku po srednjoevropskom obrascu; deo srpske crkvene elite obrazuje se na bečkim, peštanskim i kijevskim učilištima i čita baroknu pobožnu literaturu kao i njihovi katolički susedi."
+    },
+    {
+      "type": "paragraph",
+      "text": "U liturgijskom pevanju glavni novi uticaj ne dolazi iz Beča, nego iz Rusije. Tokom 18. veka u Karlovačkoj mitropoliji postepeno se prima ruska crkvenomuzička praksa — harmonizovano horsko pojanje umesto starog jednoglasja — koje samo po sebi nosi pečat ruskog baroka. Tako se i u zvuku hrama oseća isti obrazac kao u njegovoj fasadi i ikonostasu: forma je nova i šira, ali se peva i moli stara stvar."
+    },
+    {
+      "type": "paragraph",
+      "text": "Već su savremenici osetili da to nije bezbolan proces. Među srpskim sveštenstvom i kasnijim učenim ljudima vodila se rasprava — povremeno tiha, povremeno otvorena — da li su barokne forme obogatile pravoslavni izraz ili su ga razvodnile. Jednima je novi ikonopis bio dostignuće: ozbiljan, evropski, sposoban da govori istim jezikom kao ostali Evropljani. Drugima je delovao kao otklon od svetogorskog i srednjovekovnog srpskog uzora, kao popuštanje pred tuđim ukusom. Slično se sporilo i oko slavjanoserbskog jezika baroknih knjiga; tu raspravu će u prvoj polovini 19. veka, već iz drugačijeg vremena, najoštrije zaključiti Vuk Karadžić, tražeći narodni jezik i odbacujući mnogo toga što je 18. vek smatrao otmenim."
+    },
+    {
+      "type": "paragraph",
+      "text": "Do kraja 18. veka barokni talas i sam je počeo da slabi. U arhitekturi i slikarstvu polako preuzimaju neoklasicizam, a zatim bidermajer; nova građanska Srbija s početka 19. veka graditi će drugačije i govoriti drugačije. Ali ono što je „barok kod Srba” ostavio nije bilo prolazno. Mreža crkava sa zvonicima nad ravnicom, ikonostasi Fruške gore, štampane knjige iz Beča i Budima, Žefarovićeva „Stematografija” kao slika srpske prošlosti — sve to ušlo je u trajno nasleđe. Mala pravoslavna zajednica u katoličkoj carevini pokazala je u tom veku ono što retko kome polazi za rukom: da pozajmi tuđi oblik a ostane svoja, i da iz susreta s jačom kulturom izađe sa sopstvenim, prepoznatljivim licem."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

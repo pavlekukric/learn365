@@ -6,13 +6,53 @@
   "dayNumber": 193,
   "order": 8,
   "title": "Epska poezija kao pamćenje",
+  "subtitle": "Kako su pesme uz gusle, vekovima pre 1804, čuvale srpsku istorijsku svest i pripremale tlo za ustanak",
   "readingTimeMinutes": 7,
   "year": 1700,
-  "isPlaceholder": true,
+  "dateLabel": "16–19. vek",
+  "timelinePosition": "16–19. vek",
+  "summary": "Srpska epska narodna poezija kao nosilac istorijskog pamćenja od Nemanjića i Kosova do hajduka i uskoka, i kao moralna podloga ustaničke generacije.",
+  "keyPeople": ["Filip Višnjić", "Vuk Stefanović Karadžić"],
+  "keyPlaces": [],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Kroz vekove u kojima srpski narod nije imao ni svoju državu ni svoje škole, ni štampu ni javne arhive, jedna stvar je radila tiho i bez prekida — pesma uz gusle. Tamo gde pisana istorija nije mogla, ili nije smela, da postoji, epska poezija je preuzela njenu ulogu. Ona je nosila imena vladara, datume velikih bitaka, slike izgubljenih gradova i, što je možda važnije od svega, određeni način da se ti gubici razumeju. Kada je krajem osamnaestog veka u srpskim selima i planinama sazrela generacija koja će krenuti u ustanak, ona je do svojih ideja došla pre svega slušajući pesme — i to pesme koje su, u glavnim crtama, bile starije nekoliko vekova."
+    },
+    {
+      "type": "paragraph",
+      "text": "Korpus tih pesama nije bio jedinstvena celina, nego nekoliko velikih ciklusa koji su se međusobno dopunjavali. Najstariji sloj činile su pesme o Nemanjićima — o Stefanu Nemanji, a naročito o Svetom Savi, koji u narodnoj imaginaciji više nije bio samo arhiepiskop, već gotovo nadnaravna figura zaštitnika. Centralno mesto zauzimao je kosovski ciklus: pesme o knezu Lazaru, o Milošu Obiliću i Vuku Brankoviću, o večeri uoči boja i o opredeljenju za „carstvo nebesko”. Posle njega dolazile su pesme o Kraljeviću Marku, paradoksalnom junaku koji je istovremeno osmanski vazal i zaštitnik raje, i pesme o despotima posle Kosova. Iz kasnijih vekova nastajali su ciklusi o hajducima i uskocima, sa imenima kao što su Starina Novak ili Stojan Janković, i pesme o pojedinim bitkama i pograničnim okršajima."
+    },
+    {
+      "type": "paragraph",
+      "text": "Funkcija tog ogromnog usmenog tela nije bila zabava, mada je i zabavljala. Pesme su čuvale sećanje na srednjovekovnu srpsku državu kao na nešto što je nekada postojalo i što, prema tome, može postojati i ponovo. Čuvale su traumu Kosova, ali su je čuvale dostojanstveno — bitka je u pesmi prikazana kao moralno ispravna žrtva, ne kao puki vojni poraz. Davale su primere otpora kroz Marka i hajduke, i postavljale su sistem vrednosti: hrabrost, čast, vernost datoj reči, hrišćansku veru, otpor sili koja se doživljava kao nepravedna. Iznad svega, povezivale su ljude. Iste pesme pevale su se u osmanskoj Srbiji i u habzburškoj Vojnoj krajini, u Crnoj Gori, u Bosni i Hercegovini, u Dalmaciji — i upravo je to zajedničko pevanje, više od bilo čega drugog, držalo na okupu osećaj jedinstvenog identiteta preko granica koje su carevi povlačili."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Guslar i njegova publika"
+    },
+    {
+      "type": "paragraph",
+      "text": "Sredstvo prenosa bila je gusla — jednostavna jednožičana kutija sa gudalom, čiji je zvuk namerno škrt, gotovo grub, da glas pevača ostane u prvom planu. Guslar je nastupao tamo gde se narod skupljao: oko seoske vatre, na slavskim okupljanjima, na hramovima i sajmovima, u hanovima na drumovima. Svako izvođenje bilo je istovremeno prenos i ponovno stvaranje. Pevač nije recitovao zapamćeni tekst slovo po slovo, već je sklapao pesmu iz utvrđenih stihova, formula i opisa, prilagođavajući je publici i prilici. Tako su se pesme polako menjale, dobijale lokalne boje, primale nova imena, ali su jezgro — istorijski događaj i njegova moralna pouka — čuvale neobično postojano. Bila je to istorija koja se nije čitala nego slušala, i koja je svaki put bila pomalo nova."
+    },
+    {
+      "type": "paragraph",
+      "text": "U drugoj polovini osamnaestog veka ta tradicija nije bila ostatak, nego živ pokret. Hajdučke čete i uskočki odredi davali su poeziji nove junake u realnom vremenu; pesme o savremenicima nicale su uporedo sa pesmama o Marku i Lazaru, i u svesti slušalaca su se mešale u jednu istu priču o dugotrajnom otporu. Granica između „istorije” i „aktuelnosti” bila je tanka. Mladić koji je u brdima slušao pesmu o nekom hajdučkom harambaši često je tog harambašu i lično poznavao; isti večernji čas mogao je doneti i pesmu o Kosovu, staru gotovo četiri veka. Vremenske razdaljine su se u takvom slušanju gubile."
+    },
+    {
+      "type": "paragraph",
+      "text": "Politička posledica bila je dalekosežna, iako se nije mogla izmeriti u oružju ni u novcu. Epska poezija je ustaničkoj generaciji dala uzore — Karađorđe i njegove vojvode znali su Marka i kneza Lazara od detinjstva. Dala je široj zajednici moralni okvir u kojem je ustanak 1804. izgledao razumljiv, gotovo dužan: ne kao razbojništvo protiv zakonite vlasti, nego kao nastavak prekinute istorije. I dala je jezik kojim su pobunjeni seljaci mogli da govore o sebi kao o naslednicima srednjovekovne države, a ne kao o pukim podanicima koji su prekršili red. Bez toga, dizanje ustanka bilo bi i teže organizovati i teže opravdati."
+    },
+    {
+      "type": "paragraph",
+      "text": "U trenutku kada je ustanak zaista počeo, tradicija je sama sebi dala svedoka. Filip Višnjić, slepi guslar rodom iz Bosne, prešao je u oslobođenu Srbiju i tamo, tokom samih ustaničkih godina, ispevao niz pesama o bitkama koje su se odvijale gotovo pred njim — o Mišaru, o Loznici, o ustaničkim vojvodama. Nije čekao da događaji postanu prošlost: oblikovao je njihovu književnu sliku istovremeno sa njihovim odvijanjem, i upravo je njegova verzija postala ona koju će kasnija pokoljenja pamtiti. Otuda i naziv koji su mu kasniji čitaoci dali — srpski Homer. Sam taj naziv bio bi pretenciozan da ga delo ne nosi."
+    },
+    {
+      "type": "paragraph",
+      "text": "Da bismo danas znali sve to, presudna je bila još jedna ličnost — Vuk Stefanović Karadžić, koji je u prvoj polovini devetnaestog veka prikupio, zapisao i objavio veliki deo srpskog usmenog pesništva, i tako ga predao evropskoj književnoj javnosti. Tek od Vukovih zbirki srpska epska tradicija je u Beču, Vajmaru i Parizu prepoznata kao jedna od velikih usmenih epika svetske književnosti. Ali ono što je Vuk zapisao nije nastalo zbog njega; on je samo, u poslednjem trenutku, sačuvao ono što je vekovima živelo bez pera. Bez te žive, nepisane škole istorije, ustanička generacija ne bi imala ni iste reči, ni iste primere, ni isti pojam o tome zašto se bori."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

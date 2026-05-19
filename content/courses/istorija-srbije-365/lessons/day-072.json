@@ -6,13 +6,53 @@
   "dayNumber": 72,
   "order": 12,
   "title": "Visoki Dečani",
+  "subtitle": "Najveća srpska srednjovekovna crkva, podignuta u Metohiji kao zadužbina i grobnica kralja Stefana Dečanskog",
   "readingTimeMinutes": 8,
   "year": 1327,
-  "isPlaceholder": true,
+  "dateLabel": "1327–1335.",
+  "timelinePosition": "1327–1335.",
+  "summary": "Stefan Dečanski je 1327. počeo da gradi svoju zadužbinu u Metohiji — najveću crkvu srednjovekovne Srbije, delo kotorskog majstora Vite, s ogromnim freskoslikarskim ciklusom i dinastijskom Lozom Nemanjića.",
+  "keyPeople": ["Stefan Dečanski", "Vita Kotoranin", "Stefan Dušan"],
+  "keyPlaces": ["Visoki Dečani", "Metohija", "Bistrica", "Prokletije"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Pod liticama Prokletija, tamo gde planinska reka Bistrica izlazi u ravnicu Metohije, kralj Stefan Uroš III je 1327. godine započeo gradnju zadužbine koja će mu, više od bilo koje druge stvari, doneti ime po kome ga pamtimo. Nazvaće ga Dečanskim po manastiru, a manastir Visokim Dečanima po samom mestu i po stasitoj građevini koja je u njemu nikla. U trenutku kada je počeo da gradi, srpsko kraljevstvo bilo je u snazi: Metohija je već decenijama bila središte vladarskih i crkvenih poseda, a sam kralj — donedavni izgnanik koji je proveo godine u Carigradu — vraćao se srpskoj zemlji kao zreo vladar svestan da svaka veća dinastija mora ostaviti i veliku građevinu."
+    },
+    {
+      "type": "paragraph",
+      "text": "Za Stefana Dečanskog izbor mesta nije bio slučajan. Metohija — sama reč dolazi od grčkog „metohion”, crkveni posed — bila je tada srce srpske crkvene zemlje, prostor u kome su se već uzdizali Peć i druge zadužbine. Padina iznad Bistrice nudila je miran, zatvoren amfiteatar gostoljubive zemlje pod surovim planinama; pejzaž koji je delovao kao da je sam za sebe zatvoreno carstvo. Tu je kralj odlučio da podigne crkvu posvećenu Hristu Pantokratoru, a uz nju manastir koji će biti i njegova porodična grobnica i središte molitve za dinastiju. Posao je poveren čoveku čije je ime, neobično za srednji vek, ostalo zapamćeno."
+    },
+    {
+      "type": "paragraph",
+      "text": "Glavni neimar bio je fra Vita Kotoranin, franjevac iz Kotora — primorskog grada koji je tada bio deo srpske države, ali je u svemu drugom pripadao zapadnoj, romaničkoj kulturi Jadrana. Vita je radio zajedno sa domaćim majstorima i s grupom klesara verovatno doteranom iz primorja. Njegovo ime nije se sačuvalo slučajno: na samoj crkvi je ostavljen natpis koji ga pominje kao protomajstora dela, što je u srpskom srednjem veku redak slučaj — gotovo svi drugi neimari njegovog vremena ostali su bezimeni. Već iz tog detalja vidi se i ambicija ktitora i ugled koji je sam graditelj uživao."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Kamen, prostor i živopis"
+    },
+    {
+      "type": "paragraph",
+      "text": "Crkva u Dečanima najveća je sačuvana srpska srednjovekovna crkva. U dužinu meri oko trideset šest metara, a u visinu blizu dvadeset devet — razmere koje i danas, među planinama, ostavljaju utisak nesrazmeran selu pred kojim stoji. Stilski, ona je svojevrsna sinteza istoka i zapada. Osnovni raspored — petobrodna građevina s tri oltarske apside, s pripratom i centralnim kubetom — ostaje u okviru vizantijske i raške tradicije; ali kameni omotač, masivni zidovi od smenjivanih redova ružičastog i belo-sivkastog mermera, profilisani venci, prozorske rozete i naročito bogato klesani zapadni i bočni portali — sve to govori romaničkim, jadranskim jezikom. Stručna istoriografija upravo zato Dečane često smešta u poznu rašku školu kao njen završni, najambiciozniji izraz."
+    },
+    {
+      "type": "paragraph",
+      "text": "Gradnja je trajala godinama. Kralj Stefan Dečanski nije doživeo da vidi crkvu dovršenu — umro je 1331. godine, a posao je nastavio njegov sin Stefan Dušan, koji je radove priveo kraju oko 1335. Tek tada je crkva mogla biti osveštana, a unutrašnjost predata slikarima. Živopis Dečana radio se postepeno tokom narednih decenija, otprilike između 1335. i 1350. godine, i čine ga radionice više zografa o čijim imenima izvori uglavnom ćute. Rezultat je jedinstven: u Dečanima je sačuvano više od hiljadu pojedinačnih scena i portreta — verovatno najobimniji preživeli freskoslikarski ciklus u celokupnoj vizantijskoj umetnosti."
+    },
+    {
+      "type": "paragraph",
+      "text": "U tom ogromnom programu naročito pažljivo razrađene su tri tematske celine. Prva je Loza Nemanjića — slikarski rodoslov dinastije u kome iz Stefana Nemanje, prikazanog kao monaha Simeona, izrastaju potomci sve do ktitora, sa Stefanom Dečanskim na vrhu izdanka u trenutku osvećenja. Druga je ktitorska kompozicija u kojoj kralj, sam ili sa sinom Dušanom, prinosi model crkve Hristu, čin koji u srednjovekovnom slikarstvu znači uručivanje zadužbine njenom nebeskom domaćinu. Treća je razgranat hristološki i marijanski ciklus — gotovo enciklopedijski raspored scena iz Jevanđelja i života Bogorodice, među kojima se nalaze i prizori koji se drugde ne pojavljuju tako razrađeni, uključujući i prikaz koji deo istraživača tumači kao astronomsku predstavu nebeskog svoda."
+    },
+    {
+      "type": "paragraph",
+      "text": "Kralj Stefan Dečanski sahranjen je u svojoj zadužbini, a njegove mošti i danas se čuvaju u crkvi, pred ikonostasom, kao predmet poštovanja vernika koji ga slave kao srpskog svetitelja. Manastir je u prvim decenijama nakratko bio i mesto kraljevskih boravaka, a kroz pet vekova osmanske vlasti — možda i sa najvećom srećom među velikim srpskim zadužbinama — nije bio razoren. Monaška zajednica u njemu nikada nije prekidala kontinuitet, kroz ratove, pomore i smene gospodara, i to neprekidno trajanje danas je deo razloga što su Dečani upisani na Uneskovu listu svetske baštine u sklopu „Srednjovekovnih spomenika na Kosovu”, a od 2006. godine i na listi ugrožene baštine."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ako se pokuša svesti u jednu rečenicu, Visoki Dečani su najambiciozniji građevinski poduhvat srednjovekovne Srbije i jedan od njenih najpotpunije sačuvanih spomenika: mesto u kome se na istom kamenu sreću romanika jadranskih klesara i vizantijska arhitektura, dinastijska politika Nemanjića i monaški život koji je preživeo carstva. Stefan Dečanski je tražio crkvu koja će ga pamtiti; dobio je zadužbinu koja pamti i celu njegovu državu."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

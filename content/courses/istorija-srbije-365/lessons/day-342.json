@@ -6,13 +6,57 @@
   "dayNumber": 342,
   "order": 2,
   "title": "Početak ratova devedesetih",
+  "subtitle": "Od Slovenije i Vukovara do Sarajeva — kako se jugoslovenska kriza pretvorila u rat",
   "readingTimeMinutes": 8,
   "year": 1991,
-  "isPlaceholder": true,
+  "dateLabel": "1991–1992.",
+  "timelinePosition": "1991–1992.",
+  "summary": "Raspad Jugoslavije u tri talasa: kratak rat u Sloveniji, dug i razoran rat u Hrvatskoj, i početak rata u Bosni i Hercegovini sa opsadom Sarajeva.",
+  "keyPeople": ["Slobodan Milošević", "Franjo Tuđman", "Alija Izetbegović", "Milan Babić", "Mile Mrkšić", "Veselin Šljivančanin", "Pavle Strugar", "lord Peter Carrington", "Cyrus Vance"],
+  "keyPlaces": ["Slovenija", "Brioni", "Vukovar", "Ovčara", "Dubrovnik", "Knin", "Sarajevo", "Bosna i Hercegovina"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Posle godina kriza, sukoba u rukovodstvu i ulične napetosti, jugoslovenska država je 25. juna 1991. godine ušla u rat. Tog dana su Slovenija i Hrvatska proglasile nezavisnost, a savezne vlasti u Beogradu odlučile su da to ne prihvate. Federacija koja je decenijama bila uređena kao zajednica šest republika počela je da se raspada — ne pregovorima, nego oružjem. U narednih godinu dana, sukob će se proširiti iz Slovenije u Hrvatsku, a zatim u Bosnu i Hercegovinu, i pretvoriti u najteže ratove u Evropi posle 1945."
+    },
+    {
+      "type": "paragraph",
+      "text": "Prvi rat bio je najkraći. Već 27. juna 1991. jedinice Jugoslovenske narodne armije krenule su iz garnizona da preuzmu granične prelaze prema Italiji, Austriji i Mađarskoj. Slovenačka Teritorijalna odbrana, dobro pripremljena i sa jasnim ciljem, blokirala je kolone i razoružala manje jedinice. Borbe su trajale deset dana, sa relativno malim brojem žrtava — nekoliko desetina poginulih. Pod posredovanjem Evropske zajednice, 7. jula je na Brionima potpisan sporazum koji je zaustavio borbe i predvideo povlačenje JNA iz Slovenije, što je okončano do oktobra 1991. Bila je to prva, ali i jedina, brzo zaustavljena epizoda raspada."
+    },
+    {
+      "type": "paragraph",
+      "text": "Rat u Hrvatskoj imao je sasvim drugu logiku. Tamo su srpske zajednice, naročito u Lici, Baniji, Kordunu i istočnoj Slavoniji, već od 1990. godine podizale barikade i organizovale paralelne vlasti, a u decembru 1991. proglasile su „Republiku Srpsku Krajinu” sa sedištem u Kninu. Iza tih snaga stala je JNA, postepeno sve otvorenije, kao i paravojne formacije iz Srbije — među najpoznatijima Arkanovi „Tigrovi” i Šešeljevi „beli orlovi”. Sa hrvatske strane su, naporedo sa novostvorenim Zborom narodne garde i policijom, takođe delovale neke paravojne grupe. Sukob se brzo proširio na celu liniju razgraničenja i pretvorio u klasičan rat sa artiljerijom, tenkovima i opsadama gradova."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Vukovar, Ovčara, Dubrovnik"
+    },
+    {
+      "type": "paragraph",
+      "text": "Najteža epizoda 1991. godine vezana je za Vukovar, grad na Dunavu u istočnoj Slavoniji. Opsada je trajala oko 87 dana, od kraja avgusta do 18. novembra, kada je grad pao. Vukovar je bio gotovo sravnjen sa zemljom — procene govore o oko tri hiljade poginulih, vojnika i civila, i o velikom broju proteranih stanovnika. Po padu grada, 19. i 20. novembra, jedinice JNA i srpske paravojne grupe odvele su nekoliko stotina ranjenika, bolničkog osoblja i drugih ljudi iz vukovarske bolnice na poljoprivredno dobro Ovčara. Tamo je, prema kasnijim presudama Haškog tribunala, ubijeno oko 260 ljudi i bačeno u masovnu grobnicu. Za zločin na Ovčari osuđeni su, među ostalima, oficiri JNA Mile Mrkšić i Veselin Šljivančanin."
+    },
+    {
+      "type": "paragraph",
+      "text": "Istovremeno se na jugu Hrvatske odvijala opsada Dubrovnika. Od oktobra do decembra 1991. snage JNA i crnogorske rezerve granatirale su okolinu grada i, više puta, samo srednjovekovno staro jezgro pod zaštitom UNESKO-a. Razorene su kuće i krovovi unutar zidina, poginulo je više desetina ljudi. Haški tribunal je kasnije za naređivanje granatiranja starog grada osudio admirala Pavla Strugara. Slike Dubrovnika u dimu i Vukovara u ruševinama bile su one zbog kojih je svet prvi put shvatio da se na Balkanu vodi pravi rat — i te slike će u narednim godinama oblikovati spoljnopolitički odnos prema Beogradu."
+    },
+    {
+      "type": "paragraph",
+      "text": "Diplomatija je išla u korak sa ratom, ali sporo. Evropska zajednica je u jesen 1991. sazvala mirovnu konferenciju pod predsedavanjem lorda Karingtona, koja je ponudila plan o priznanju republika u njihovim postojećim granicama. Plan je odbila Srbija. Krajem 1991. i početkom 1992. inicijativu je preuzeo Sajrus Vens, izaslanik Ujedinjenih nacija, čiji je plan doneo primirje 2. januara 1992. i raspoređivanje mirovnih snaga UN — UNPROFOR-a — u četiri zaštićene zone koje su pokrivale prostor Krajine. Rat u Hrvatskoj je tako ušao u zamrznutu fazu, u kojoj će ostati sve do operacija „Bljesak” i „Oluja” 1995."
+    },
+    {
+      "type": "paragraph",
+      "text": "Dok je u Hrvatskoj pucao samo predah, u Bosni i Hercegovini se otvarao novi front. Na referendumu 29. februara i 1. marta 1992. većina Bošnjaka i Hrvata izjasnila se za nezavisnost; bosanski Srbi su bojkotovali glasanje i, pod vođstvom Radovana Karadžića, krenuli da prave sopstvenu državnu strukturu sa Vojskom Republike Srpske u nastajanju. Evropska zajednica je 6. aprila 1992. priznala Bosnu i Hercegovinu kao samostalnu državu. Istog dana, srpske snage već su držale visove oko Sarajeva i prvi snajperski hici padali su po centru grada. Opsada glavnog grada počela je 5. aprila, i trajaće 1.425 dana — najduža opsada nekog grada u modernoj evropskoj istoriji, sa procenama od oko deset do jedanaest hiljada poginulih u samom gradu."
+    },
+    {
+      "type": "paragraph",
+      "text": "Rat u Bosni je vrlo brzo poprimio karakter sukoba u kome su stradali pre svega civili. Etničko čišćenje — proterivanje stanovništva po nacionalnom ključu, sa pratećim ubistvima, logorima i razaranjima — vršile su sve tri strane, ali je, prema nalazima Haškog tribunala, najveći obim i najteži pojedinačni zločini bili na strani snaga bosanskih Srba. Među stradalim mestima u prvim mesecima rata bili su Bijeljina, Zvornik, Foča i Prijedor sa logorima Omarska i Keraterm, ali su stradala i srpska sela koja su napadali bošnjački i hrvatski odredi."
+    },
+    {
+      "type": "paragraph",
+      "text": "Iz današnje perspektive vredi reći jasno i sažeto: rat 1991–1992. nije bio nesporazum koji se „otrgao kontroli” — bio je niz svesnih političkih odluka donetih u Beogradu, Zagrebu i Sarajevu, sa različitom odgovornošću za pojedine činove. Žrtve su pale na svim stranama i sve zaslužuju da se pamte po imenu, kad god je to moguće. Istovremeno, nije sve isto: dokumentovani zločini imaju počinioce sa imenima i presudama. Početak ratova devedesetih za Srbiju i ceo region znači ulazak u deceniju u kojoj će se odlukama učinjenim tih meseci vraćati još dugo — i u istoriji, i u životima ljudi."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

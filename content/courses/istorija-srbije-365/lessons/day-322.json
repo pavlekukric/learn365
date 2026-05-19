@@ -6,13 +6,53 @@
   "dayNumber": 322,
   "order": 7,
   "title": "Građanski rat unutar rata",
+  "subtitle": "Kako se otpor okupatoru u Jugoslaviji prelio u višestruki unutrašnji rat — najteže poglavlje novije istorije",
   "readingTimeMinutes": 8,
   "year": 1942,
-  "isPlaceholder": true,
+  "dateLabel": "1941–1944.",
+  "timelinePosition": "1941–1944.",
+  "summary": "Od jeseni 1941. rat protiv okupatora prelio se u građanski rat između partizana i četnika, uz ustaški teror, mađarske racije, bugarsku okupaciju i kvislinške formacije. Stanovništvo se našlo između više vatri.",
+  "keyPeople": ["Josip Broz Tito", "Draža Mihailović", "Milan Nedić", "Dimitrije Ljotić", "Ante Pavelić"],
+  "keyPlaces": ["Srbija", "Bosna", "Krajina", "Bačka", "Kosovo i Metohija", "Slovenija"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Najteže poglavlje rata u Jugoslaviji nije ono u kome se borilo protiv stranog okupatora, nego ono u kome su se njeni stanovnici borili međusobno. Već u jesen 1941, dok su se nemački tenkovi i italijanske posade utvrđivali u gradovima, zemlja se iznutra cepala duž više linija. Razgovori između Tita i Draže Mihailovića u oktobru i novembru te godine — u Strugovima i Brajićima — nisu doneli dogovor o zajedničkoj borbi. Vizije dvojice vođa bile su nepomirljive, a tlo pod njima previše krvavo. Od tog časa, rat unutar rata postao je svakodnevica."
+    },
+    {
+      "type": "paragraph",
+      "text": "Tito je u glavi nosio socijalnu revoluciju i federativnu komunističku Jugoslaviju u kojoj će staro društvo biti razoreno do temelja. Mihailović je gledao u suprotnom pravcu — ka obnovi Kraljevine Jugoslavije, sa kraljem Petrom II u Londonu kao legitimnim suverenom, i sa preuređenim granicama unutar zemlje koje bi Srbima dale više teritorije nego što su imali pre rata. Između tih dveju zamisli nije postojao srednji put. Iz njega su, jedna za drugom, rasle bratoubilačke borbe u zapadnoj Srbiji već krajem 1941, pa zatim u Sandžaku, Crnoj Gori, istočnoj Bosni i Hercegovini tokom 1942. i 1943. godine."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Mnoge vatre, jedan narod između njih"
+    },
+    {
+      "type": "paragraph",
+      "text": "Rat se nije cepao samo na dve strane. Na zapadu, u Nezavisnoj Državi Hrvatskoj, ustaški režim Ante Pavelića sproveo je sistematski progon Srba, Jevreja i Roma — pokolji u Glini, na Kozari, u Jasenovcu, paljenje sela u Krajini i Bosanskoj Posavini. Taj teror je u istim tim krajevima izazvao masovni seljački ustanak srpskog stanovništva i bujanje četničkih odreda u Bosni i Krajini, često van Mihailovićeve neposredne komande, koji su se borili i protiv ustaša i protiv partizana, a ponekad i međusobno. Reč „četnik” u tim oblastima imala je više značenja nego u centralnoj Srbiji."
+    },
+    {
+      "type": "paragraph",
+      "text": "Na severu, u Bačkoj pod mađarskom okupacijom, januara 1942. odigrala se hladna racija u Novom Sadu, Šajkaškoj i Žablju. Mađarska vojska i žandarmerija pobile su nekoliko hiljada ljudi — najviše Srba i Jevreja — pod izgovorom borbe protiv partizana. Pucnji u zaleđeni Dunav i dugi redovi na obali Šajkaške ostali su među najtežim slikama tog vremena. Na jugoistoku Srbije, u Pomoravlju, Pčinji i delovima Makedonije, bugarska okupaciona vlast vladala je tvrdom rukom, vršila preki sud nad pristalicama otpora i dizala odmazde nad civilima. Na Kosovu i Metohiji, pod italijanskom a kasnije nemačkom upravom, albanske formacije su u ratnim uslovima sređivale lokalne račune, palile srpska sela i proterivale stanovništvo. Iz tih nasilja izniklo je novo iseljavanje koje će tinjati i posle rata."
+    },
+    {
+      "type": "paragraph",
+      "text": "U Sloveniji, izvan domašaja srpskih i hrvatskih sukoba, vodio se sopstveni unutrašnji rat. Partizanske jedinice u Ljubljanskoj pokrajini i Štajerskoj sukobljavale su se sa belogardistima, antikomunističkim seljačkim stražama vezanim za Crkvu i Italijane, a kasnije sa plavogardistima bliskim emigrantskoj vladi. Sela u Dolenjskoj prelazila su iz ruke u ruku, a osvete su išle iz kuće u kuću."
+    },
+    {
+      "type": "paragraph",
+      "text": "U samoj Srbiji, pod nemačkom okupacijom, postojala je još jedna stranka — kvislinški režim generala Milana Nedića. Njegova „Vlada narodnog spasa” osnovana avgusta 1941. nastala je sa nemačkom dozvolom i imala je dva cilja: da održi privid srpske uprave i da uguši svaki oružani pokret. Srpska državna straža i Ljotićev Srpski dobrovoljački korpus borili su se i protiv partizana i, povremeno, protiv četnika; istovremeno su s nemačkom policijom učestvovali u progonu Jevreja i u racijama po selima. Odnosi između Mihailovićevih ljudi i Nedićevih jedinica bili su zapleteni — od tihih dogovora i prelaza, preko otvorenog neprijateljstva, do trenutnih saradnji protiv zajedničkog protivnika. Linije lojalnosti znale su da se menjaju iz sela u selo, iz meseca u mesec."
+    },
+    {
+      "type": "paragraph",
+      "text": "Civilno stanovništvo našlo se između svih tih vatri. Odmazde dolaze sa svih strana — nemačke streljanjem po stotini za jednog vojnika, ustaške i mađarske nad celim selima, partizanske i četničke nad onima koji su pomagali drugu stranu ili su za to bili optuženi. Brojevi žrtava po pojedinim oblastima i godinama i danas su predmet stručnih rasprava i razlikuju se od izvora do izvora; sigurno je samo da su bili veliki i da su u mnogim mestima došli od više počinilaca u kratkom razmaku. Posle rata, politički razlozi će desetinama godina jedne podatke uvećavati, a druge prećutkivati, pa istorijska nauka i dalje dovršava posao prebrojavanja."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ono što se ne može sporiti jeste da je ovaj rat unutar rata bio najdublja podela u novijoj jugoslovenskoj istoriji. U njemu nije bilo jedne strane bez krivice, niti jedne bez razloga. Bilo je više napadača, više branilaca i mnogo onih koji su, bez svoje volje, postali ili jedno ili drugo. Da bi se razumelo šta je iz tog rata izašlo posle 1945, mora se prvo prihvatiti ova jednostavna i teška činjenica — da su se Jugoslaveni, dok su strani vojnici držali njihove gradove, istovremeno borili protiv okupatora i protiv samih sebe."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

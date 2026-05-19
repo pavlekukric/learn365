@@ -6,13 +6,49 @@
   "dayNumber": 237,
   "order": 7,
   "title": "Povratak Obrenovića",
+  "subtitle": "Stari Miloš se vraća iz izgnanstva, vlada nešto više od godinu dana i ostavlja presto sinu Mihailu.",
   "readingTimeMinutes": 7,
   "year": 1858,
-  "isPlaceholder": true,
+  "dateLabel": "1858–1860.",
+  "timelinePosition": "1858–1860.",
+  "summary": "Posle Svetoandrejske skupštine, januara 1859. Miloš Obrenović vraća se u Beograd kao „stari knez”. Vlada svega dvadesetak meseci i, posle njegove smrti u Topčideru septembra 1860, presto preuzima sin Mihailo.",
+  "keyPeople": ["Miloš Obrenović", "Mihailo Obrenović", "Toma Vučić Perišić", "Julija Hunjadi"],
+  "keyPlaces": ["Beograd", "Topčider", "Beč"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Kada je Svetoandrejska skupština krajem 1858. godine zbacila Aleksandra Karađorđevića i izglasala povratak dinastije Obrenović, nije birala mladog reformatora, već starca. Miloš Obrenović imao je sedamdeset devet godina, živeo je već skoro dve decenije u izgnanstvu po Vlaškoj, Beču i drugim evropskim varošima i odavno je važio za političku prošlost. Pa ipak, januara 1859. ušao je u Beograd dočekan kao „stari knez” — onaj koji je 1815. podigao Drugi srpski ustanak i 1830. doneo hatišerifom potvrđenu autonomiju. Krug se zatvarao na način koji je istovremeno delovao trijumfalno i pomalo neprirodno: vlast je vraćena onome koji ju je sam izgubio dvadeset godina ranije."
+    },
+    {
+      "type": "paragraph",
+      "text": "Miloš se vratio kao čovek čije telo više nije pratilo politički nerv. Hodao je teško, vid mu je slabio, ali um je ostao oštar, a sećanje na stare neprijatelje gotovo neumoljivo. Srbija u koju je ušao nije bila ona koju je napustio. Postojao je Sovjet, postojao je sloj školovanih činovnika, postojale su redovne novine i pravna procedura koju su ustavobranitelji izgradili u nešto između činovničke države i staleške oligarhije. Stari knez, naviknut na lični stil vladavine u kojem je sam bio i zakon i sud i porez, brzo je pokazao da nove forme ne razume kao ograničenje sopstvene vlasti, već kao smetnju koju treba zaobići. Sukob sa Sovjetom oko podele moći postao je glavna unutrašnja tema njegove kratke druge vladavine."
+    },
+    {
+      "type": "paragraph",
+      "text": "Među prvim potezima Miloš je počeo da obračunava račune sa preživelim protivnicima iz starog doba. Najistaknutiji od njih bio je Toma Vučić Perišić — čovek koji ga je 1839. doslovno isterao iz zemlje i decenijama bio jedan od glavnih stubova ustavobraniteljskog poretka. Vučić je iznenada umro 1859. godine, ubrzo posle Miloševog povratka. Pojedini istraživači još uvek dopuštaju mogućnost da je bio otrovan, povezujući njegovu smrt s tihim Miloševim svođenjem računa. Treba reći otvoreno: trovanje nije dokazano. Nema sigurnog savremenog svedočenja, niti obdukcijskog nalaza koji bi to potvrdio, a Vučić je bio star i bolešljiv. Sumnja je deo političke atmosfere onog doba, ali istorijski sud o njoj mora ostati oprezan."
+    },
+    {
+      "type": "paragraph",
+      "text": "Paralelno sa obračunom sa prošlošću, Miloš je radio na osiguravanju budućnosti dinastije. Iz Beča je pozvao sina Mihaila, koji je posle prve, kratke vladavine 1839–1842. proveo gotovo sedamnaest godina u izgnanstvu — putujući po Evropi, čitajući, družeći se sa diplomatama i intelektualcima, i 1853. oženivši se mađarskom groficom Julijom Hunjadi. Otac ga je postavio za saregenta i jasno označio za naslednika, vraćajući time porodičnu liniju nasleđa koju je Svetoandrejska skupština i sama priznala. Bio je to gest u kojem se videlo da Miloš svoju drugu vladavinu razume i kao most — kratku obnovu starog stila, posle koje treba da dođe drugačiji vladar."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Smrt u Topčideru i smena"
+    },
+    {
+      "type": "paragraph",
+      "text": "Stari knez umro je 14. odnosno 26. septembra 1860. godine, u svom topčiderskom konaku, u osamdesetoj godini života. Smrt je nastupila prirodno, posle dugog slabljenja koje su lekari pratili nedeljama. Nije bilo ni državnog udara, ni atentata, ni krize nasledstva — upravo zato što je pitanje naslednika već bilo rešeno. Mihailo Obrenović, koji je do tog časa već sedeo uz oca kao saregent, mirno je preuzeo presto. Bio je to retko miran prelaz vlasti u srpskoj devetnaestovekovnoj istoriji, gotovo neobičan u zemlji koja je decenijama menjala dinastije zaverama, skupštinama i progonima."
+    },
+    {
+      "type": "paragraph",
+      "text": "Mihailo se vratio kao zreo čovek od trideset sedam godina, sa potpuno drugačijim iskustvom od onoga sa kojim je 1839. prvi put bio postavljen za kneza. Tada je bio neiskusan mladić bačen u nasleđe koje nije znao da nosi. Sada je bio evropski obrazovan, navikao na bečku diplomatiju i mađarsko-austrijske krugove, sa jasnim utiscima o tome kako izgledaju moderne države zapadno od Save i Dunava. Njegova druga vladavina neće biti nastavak očeve — biće drugačiji, ozbiljniji, vidno reformski projekat, sa stalnom vojskom, novim zakonima i novim načinom razumevanja srpske države u evropskom okviru. O tom programu biće reč u danima koji slede."
+    },
+    {
+      "type": "paragraph",
+      "text": "Trenutak 1858–1860. ostaje, dakle, čudan i važan u isti mah. Obrenovići se vraćaju, ali se ne ponavlja ni 1815. ni 1830. Drugačiji je svet — Krimski rat se već završio, evropska diplomatija počiva na pariskim odlukama, a Srbija je deo međunarodno priznatog poretka. Drugačija je i Srbija — sa činovništvom, ustavobraniteljskim zakonima i osloncem u građanskom sloju. Stari Miloš se na presto vratio gotovo kao živi spomenik prošlog doba, vladao kratko i bez velikih rezultata, ali je obavio jednu jedinu, presudnu funkciju: pripremio je glatku smenu i predao vlast Mihailu. Time je drugi povratak Obrenovića, koliko god da je trajao samo dvadesetak meseci, postao prag iz kojeg će se izroditi jedna od najambicioznijih vladavina devetnaestovekovne Srbije."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

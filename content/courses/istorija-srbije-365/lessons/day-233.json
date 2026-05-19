@@ -6,13 +6,53 @@
   "dayNumber": 233,
   "order": 3,
   "title": "Načertanije Ilije Garašanina",
+  "subtitle": "Tajni spis iz 1844. koji je pokušao da skicira okvir srpske spoljne politike za naredne decenije",
   "readingTimeMinutes": 8,
   "year": 1844,
-  "isPlaceholder": true,
+  "dateLabel": "1844.",
+  "timelinePosition": "1844.",
+  "summary": "Ilija Garašanin, ministar unutrašnjih dela ustavobraniteljske Srbije, sastavio je 1844. tajni memorandum o ciljevima i metodama srpske spoljne politike — dokument koji će istoričari tek mnogo kasnije početi da čitaju i da o njemu spore.",
+  "keyPeople": ["Ilija Garašanin", "Franja Zah", "Adam Čartoriski", "knez Aleksandar Karađorđević"],
+  "keyPlaces": ["Beograd", "Pariz", "Bosna", "Stara Srbija"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "U leto i jesen 1844. godine, dok je ustavobraniteljski režim u Beogradu još uvek pažljivo merio svoj položaj između sultana, ruskog cara i zapadnih sila, ministar unutrašnjih dela Ilija Garašanin sastavio je za uzak krug knežev i nekoliko poverenika dokument koji nije imao zvanično ime, nije bio objavljen, niti je ikada postao deo vladine politike u službenom smislu. Kasnije će ga istoričari nazvati Načertanije — „nacrt”, „skica”. Bio je to pokušaj da se na nekoliko gusto pisanih strana skicira ono što Srbija, kao mala kneževina pod sultanovom vrhovnom vlašću, misli o svom položaju, susedima i budućnosti."
+    },
+    {
+      "type": "paragraph",
+      "text": "Garašanin tekst nije izmislio iz prazne sobe. Iza njega je stajala šira evropska mreža. U Parizu je delovao knez Adam Čartoriski, vođa poljske emigracije okupljene oko palate Hôtel Lambert — ljudi koji su, posle propasti ustanka iz 1830, tražili načine da oslabe Rusiju i Austriju i da slovenske narode na Balkanu povežu u protivtežu tim silama. Čartoriski je 1843. razradio takozvani „Plan slovenske politike”, a u Beograd je kao svog agenta uputio Čeha Franju Zaha. Zah je, oslanjajući se na Čartoriskijeve ideje, sastavio prvi nacrt memoranduma sa širim, jugoslovenskim okvirom — pretpostavkom da bi Srbija mogla da bude središte oko kojeg će se okupiti i drugi južnoslovenski narodi pod turskom i habzburškom vlašću."
+    },
+    {
+      "type": "paragraph",
+      "text": "Garašanin je Zahov tekst preuzeo, ali ga je temeljno preradio. Iz njega je uglavnom izbacio opštebalkanske i jugoslovenske ambicije i suzio okvir na srpski narod — onaj u kneževini, ali i onaj u Bosni, Hercegovini, Crnoj Gori i Staroj Srbiji, što je tadašnja oznaka za Kosovo, Metohiju i delove Makedonije. Logika dokumenta bila je istorijska: Srbija srednjeg veka, država Nemanjića, jednom je već postojala kao značajna sila; mala moderna kneževina iz devetnaestog veka mogla bi, ako vodi mudru politiku, da postane jezgro njene postepene obnove. Garašanin nije pisao kao romantičar; pisao je kao činovnik koji razmišlja u kategorijama interesa, saveza, koristi i strpljenja."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Šta dokument zapravo kaže"
+    },
+    {
+      "type": "paragraph",
+      "text": "Sredstva koja Načertanije predlaže nisu rat. Naprotiv: tekst izričito upozorava da Srbija nema snage da otvoreno izaziva ni sultana ni velike sile, i da svaki preuranjen oružani potez vodi u propast. Umesto toga, predlaže se strpljiva politika — slanje pouzdanih ljudi u susedne oblasti, podržavanje škola, knjiga i crkve, prikupljanje znanja o tim sredinama, izgradnja mreže veza i uticaja. Pojavljuje se ideja koju će kasnija nauka nazvati „mekom moći”: utiče se rečju, vezama i ugledom, a oružje se ostavlja za trenutak koji možda nikada ne dođe, ili koji dolazi tek kada okolnosti same otvore vrata. Garašanin posebno naglašava da Srbija mora paziti na odnose sa Zapadom — sa Francuskom i Britanijom — i da ne sme dopustiti da postane puki izvršilac ruske politike, koliko god joj ruska podrška bila važna."
+    },
+    {
+      "type": "paragraph",
+      "text": "Tekst je, dakle, ostao u fioci. Knez Aleksandar Karađorđević znao je za njega, znao je i uži krug, ali Srbija u narednim decenijama nije vodila politiku „po Načertaniju”. Praksa ustavobranitelja bila je oprezna, često vezana za sultanovu vrhovnu vlast i za sporazume sa silama. Načertanije je decenijama spavalo. Otkriveno je i objavljeno tek 1906. godine, kada je istoričar Milenko Vukićević naišao na rukopis u Garašaninovoj zaostavštini. Tek tada je o njemu počela ozbiljna rasprava — i tek tada je dobio onu težinu koju za života svoga pisca nije imao."
+    },
+    {
+      "type": "paragraph",
+      "text": "Od tog otkrića do danas, Načertanije je jedna od najspornijih tačaka u istoriografiji devetnaestog veka. Za jedan deo srpskih istoričara to je prvi srpski „nacionalni program” — racionalan, oprezan i u svome vremenu razuman pokušaj da se misli unapred. Za druge istraživače, posebno hrvatske i bosanske, dokument se čita kao rana skica „velike Srbije” i kao izvor kasnijih sporova. Ozbiljni stručnjaci — među njima Radoš Ljušić i Vasilije Krestić sa različitih strana spektra, ali i niz nesrpskih autora — godinama raspravljaju koliko je Načertanije zaista bilo plan, a koliko intelektualna vežba činovnika koji je hteo da sredi svoje misli o spoljnoj politici. Sporovi traju i danas i nijedna strana ne može poštenom čitaocu da kaže da je rasprava zatvorena."
+    },
+    {
+      "type": "paragraph",
+      "text": "Razumno je, čini se, držati se nekoliko jasnih činjenica. Načertanije nije bilo zvanična politika srpske države 1844, niti u decenijama posle. Ostalo je tajno, malo ko ga je pročitao, i nikada nije postalo deo zakonodavnog ili diplomatskog okvira. U isto vreme, ono je formulisalo niz pretpostavki — da je Srbija prirodno središte šireg srpskog prostora, da uticaj ide pre oružja, da se Zapad ne sme zanemariti — koje će kasnije, kroz druge ljude i druge generacije, ulaziti u srpsko političko mišljenje. Koliko je tu reč o stvarnom uticaju jednog spisa, a koliko o naknadnom traženju davnog korena za kasnije ideje, pitanje je na koje istorija retko daje čist odgovor. Iskustvo, međutim, pokazuje da retko koji „tajni program” doslovno odredi politiku decenija; život i okolnosti gotovo uvek pišu drugačije nego što planeri zamišljaju."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ono što Načertanije nedvosmisleno jeste — to je svedočanstvo o trenutku. Sredinom devetnaestog veka, jedan ministar male autonomne kneževine pokušao je da na nekoliko strana smesti pitanje koje će balkanske države mučiti i ceo sledeći vek: šta je interes njihove zemlje među velikim silama, kako se misli o susedima, gde su granice strpljenja, a gde granice ambicije. To je pitanje samo po sebi normalno; svaka država ga, u nekom obliku, postavlja. Vrednost Garašaninovog teksta nije u tome što je dao konačne odgovore — nije ih ni dao — nego u tome što je pokazao kako je rana moderna Srbija počela da o sebi razmišlja kao o državi koja ima i prošlost i pravac, a ne samo svakodnevnu sultanovu volju iznad sebe."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

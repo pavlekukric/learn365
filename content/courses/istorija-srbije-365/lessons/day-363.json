@@ -6,13 +6,57 @@
   "dayNumber": 363,
   "order": 14,
   "title": "Spomenici, mitovi i istorijska svest",
+  "subtitle": "Kako kameni spomenici i ponavljane priče zajedno oblikuju ono što jedno društvo pamti — i kako čita samo sebe",
   "readingTimeMinutes": 8,
   "year": 2024,
-  "isPlaceholder": true,
+  "dateLabel": "pregled",
+  "timelinePosition": "pregled",
+  "summary": "Spomenici i mitovi kao oblici pamćenja: šta se gradi, gde, kada i ko ga podiže — od Karađorđa i Knez Mihaila, preko Neznanog junaka i partizanskih memorijala, do Hrama Svetog Save i Đinđićeve ploče — i kako kosovski, ratni i solunski mit zajedno čine istorijsku svest.",
+  "keyPeople": ["Karađorđe", "knez Mihailo Obrenović", "Ivan Meštrović", "Sveti Sava", "Zoran Đinđić"],
+  "keyPlaces": ["Beograd", "Avala", "Vračar", "Šumarice", "Sutjeska"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Spomenik je uvek izbor. Neko je odlučio da baš to lice, baš taj događaj i baš to mesto zaslužuju kamen ili bronzu, a sve ostalo — ne. Ko bira, šta bira i kada bira, govori o sebi koliko i o onome koga ovekovečuje. Zato spomenici, ako se gledaju kao celina i u nizu, nisu samo zbirka skulptura po trgovima i brdima; oni su mapa onoga što je jedno društvo, u jednom trenutku, smatralo vrednim sećanja. Promene na toj mapi — koji spomenik je podignut, koji uklonjen, koji zaboravljen i pušten da zaraste u korov — pričaju sopstvenu istoriju Srbije, paralelnu s onom iz udžbenika."
+    },
+    {
+      "type": "paragraph",
+      "text": "Konjanik kneza Mihaila na Trgu republike u Beogradu, otkriven 1882. godine, delo italijanskog vajara Pacijarotija, postavljen je u trenutku kada je Srbija upravo dobila kraljevsku titulu i tražila simbol moderne države. Karađorđev spomenik podignut je tek 1913, posle balkanskih ratova, kao priznanje vožda koji je vekovima bio u senci Obrenovića; tu se vidi koliko je dinastička politika dugo određivala šta sme da stoji na javnom mestu. Spomenik Neznanom junaku na Avali, delo Ivana Meštrovića, dovršen je 1938. — masivna kamena građevina sa karijatidama u nošnjama jugoslovenskih krajeva, koja je trebalo da nadvije palog vojnika nad celu novu državu. Pola veka kasnije, na istom brdu, podignut je Avalski toranj kao simbol federalne Jugoslavije; srušen je u bombardovanju 1999. i obnovljen 2010, što je samo po sebi mala parabola o devedesetim i o vremenu posle njih."
+    },
+    {
+      "type": "paragraph",
+      "text": "Partizanska epoha donela je sopstveni, ozbiljan i ambiciozan spomenički program. Sutjeska i Tjentište, Kozara, Šumarice u Kragujevcu, Jasenovac na hrvatskoj strani — svi su delovi iste zamisli: da se Drugi svetski rat upiše u prostor velikim, modernim, često apstraktnim oblicima koji ne idu u doslovnu figuru, već u osećaj prkosa, lomljenja i uspravljanja. Mnogi od tih spomenika, naročito izvan gradova, danas su u različitom stanju održavanja; neki su obnovljeni, neki polako propadaju, neki su postali turistička atrakcija sa nejasnim natpisima. Sama ta neujednačenost je politika pamćenja u kamenu."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sa druge strane spektra stoji Hram Svetog Save na Vračaru. Zamišljen krajem 19. veka na mestu gde su, prema predanju, Turci 1594. spalili moći svetiteljevog tela, započet je 1935. godine, prekidan kroz ratove i decenije socijalizma, a glavna kupola podignuta je tek devedesetih, dok su unutrašnji mozaici dovršavani u 21. veku. Hram, dakle, nije spomenik jedne epohe nego nekoliko njih, naslaganih jedna na drugu; njegov dovršetak u našem vremenu i sam je čin — poruka da se nešto započeto pre sto godina i danas može privesti kraju. Treba reći i da rasprave o tome šta tačno hram simbolizuje — državu, crkvu, naciju ili spoj svih troje — i dalje traju i nisu jednodušne."
+    },
+    {
+      "type": "paragraph",
+      "text": "Najmlađi sloj spomeničke kulture odnosi se na same devedesete i nulte godine. Skromna ploča sa cvećem ispred Vlade Srbije, na mestu gde je 12. marta 2003. ubijen premijer Zoran Đinđić, postala je svojevrsno mesto okupljanja jednog dela građana svake godine na godišnjicu. Ona ne pripada ni državnom ni crkvenom programu — više je narodna i politička istovremeno, i pokazuje kako spomenik ne mora biti monumentalan da bi nosio značenje. U isto vreme, gradovi su puni manjih, novijih spomenika ratovima devedesetih, čiji izbor lica i događaja zna biti predmet sporenja; to je normalno kod događaja iz tako bliske prošlosti."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Mitovi kao alat razumevanja"
+    },
+    {
+      "type": "paragraph",
+      "text": "Uporedo sa kamenom, društvo gradi i priče koje pripovedaju zašto je nešto važno. Te priče se ponekad nazivaju mitovima — i tu reč treba odmah razjasniti. „Mit” u ovom smislu ne znači „laž”. Mit je velika narativna shema kroz koju zajednica razume sopstvenu sudbinu: ko smo, odakle dolazimo, šta nam je zadatak. Mitovi mogu biti tačni u činjenicama i netačni u akcentima, ili obrnuto; ono što ih čini mitom nije istinitosna vrednost, nego funkcija — oni daju smisao i mobilišu. Razumeti šta mit radi važnije je nego ga olako odbaciti."
+    },
+    {
+      "type": "paragraph",
+      "text": "Najjači u srpskoj kulturi ostaje kosovski mit. Bitka iz 1389. godine, u izvorima zapravo neizvesnog ishoda, kroz vekove je u narodnoj poeziji, crkvenoj liturgiji i kasnijoj književnosti preoblikovana u priču o izboru carstva nebeskog umesto zemaljskog, o izdaji i o žrtvi. Vidovdan, 28. juni, kao njegov simbolički okvir, vraćao se kroz istoriju u različitim ulogama: kao dan sećanja, kao dan donošenja Vidovdanskog ustava 1921, kao dan sarajevskog atentata 1914, kao dan velikih političkih okupljanja krajem osamdesetih. Isti datum, različita značenja, ista emotivna težina."
+    },
+    {
+      "type": "paragraph",
+      "text": "Mit o Drugom svetskom ratu mnogo je mlađi i otvoreniji. Posle 1945. dominirala je partizanska verzija — narodnooslobodilačka borba kao temelj nove države. Posle 1990. javlja se konkurentska četnička verzija, koja četnički pokret tumači kao legitiman antifašistički otpor; pravosudna i istorijska rasprava o tome i dalje traje, sa rehabilitacijama, ali i sa ograničenjima. Treća verzija, akademska i polako rastuća, pokušava da odvoji pojedinačne sudbine od kolektivnih etiketa. Sve tri se sreću na istim spomenicima i istim datumima, i jedan deo savremene istoriografije bavi se upravo tom prepiskom."
+    },
+    {
+      "type": "paragraph",
+      "text": "Tu je i mit o solunskim borcima — priča o probijenom frontu 1918, o povratku kući preko polovine sveta, o generaciji koja je sopstvenim stradanjem stvorila državu. On je manje sporan i, možda baš zato, slabije politički zloupotrebljavan. Ako se ova tri narativa stave jedan pored drugog, vidi se da nijedan nije puka izmišljotina i nijedan nije čista hronika; svaki je mešavina činjenice, izbora i potrebe. Razlika između priče koja mobiliše i priče koja obaveštava nije razlika između laži i istine — pre je razlika u svrsi. Istorijska svest, koja je cilj jednog ovakvog kursa, traži upravo to: sposobnost da se prepozna kada nas spomenik ili priča pozivaju da osetimo, a kada da razumemo, i da se obe stvari prihvate bez stida — ali i bez brkanja."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

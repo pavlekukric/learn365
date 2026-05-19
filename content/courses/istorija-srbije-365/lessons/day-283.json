@@ -6,13 +6,53 @@
   "dayNumber": 283,
   "order": 3,
   "title": "Kumanovska bitka",
+  "subtitle": "Dvodnevni sudar u oktobru 1912. koji je slomio osmansku Vardarsku armiju i otvorio Srbiji put ka Skoplju",
   "readingTimeMinutes": 7,
   "year": 1912,
-  "isPlaceholder": true,
+  "dateLabel": "1912.",
+  "timelinePosition": "23–24. oktobar 1912.",
+  "summary": "Glavna bitka Prvog balkanskog rata u kojoj je Prva srpska armija prestolonaslednika Aleksandra razbila osmansku Vardarsku armiju Zeki-paše i otvorila put ka Skoplju, Prilepu i Bitolju.",
+  "keyPeople": ["Aleksandar Karađorđević", "Radomir Putnik", "Zeki-paša", "Stepa Stepanović", "Petar Bojović"],
+  "keyPlaces": ["Kumanovo", "Skoplje", "Bitolj", "Prilep", "Vardar"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Kada su u jesen 1912. godine srpske armije prešle granicu prema Staroj Srbiji i Makedoniji, plan Vrhovne komande u Nišu — pod vojvodom Radomirom Putnikom — bio je jasan u svojim glavnim potezima, ali maglovit u pojedinostima. Trebalo je brzim prodorom presečenim dolinama izaći na Vardar, razbiti glavninu osmanske vojske u Makedoniji i sprečiti je da se uredno povuče prema Solunu. Ko će se gde, kada i kojim snagama sudariti — to ni jedna ni druga strana, kako će se ubrzo videti, nije znala onako kako su mislili da znaju. Sudar koji je usledio kod Kumanova 23. i 24. oktobra 1912. bio je zato u velikoj meri neplaniran, a postao je presudan."
+    },
+    {
+      "type": "paragraph",
+      "text": "Glavnu ulogu na srpskoj strani igrala je Prva armija, najjača od tri srpske armije te kampanje. Nominalni komandant bio je prestolonaslednik Aleksandar Karađorđević, mlad i bez ratnog iskustva; stvarno vođenje operacija obavljali su njegov načelnik štaba i iskusni komandanti divizija, dok je celinom srpske vojske, sa nivoa Vrhovne komande, upravljao Putnik. Snage Prve armije procenjuju se na oko sto trideset hiljada ljudi sa savremenim brzometnim topovima, dobrom artiljerijom i, što je u tim danima bilo važno, čvrstom disciplinom mobilisanih seljaka koji su znali zbog čega su pošli na jug."
+    },
+    {
+      "type": "paragraph",
+      "text": "Naspram njih, na položajima severno od Skoplja, nalazila se osmanska Vardarska armija pod komandom Zeki-paše. Njena snaga procenjuje se na oko pedeset osam hiljada ljudi — dakle, više nego dva puta manja od srpske glavnine. Zeki-paša, međutim, te brojeve nije znao. Osmanska obaveštajna služba u poslednjim danima imperije radila je loše, izviđanja su bila površna, a komandant je verovao da pred sobom ima slabiju srpsku prethodnicu koju treba presresti i razbiti pre nego što se za njom razvije glavnina. Doneo je odluku da napadne — uveren da napada slabijeg."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Dva dana kod Kumanova"
+    },
+    {
+      "type": "paragraph",
+      "text": "Prvi dan bitke, 23. oktobra, bio je za Srbe težak i ničim sličan slavnoj slici koja će kasnije ući u udžbenike. Osmanlije su udarile u marševske kolone i bivake srpskih divizija, na pojedinim sektorima izbacile prethodnice iz ravnoteže i na nekim mestima ozbiljno potisnule jedinice koje nisu bile spremne na bitku. Dolina kod Kumanova, sa svojim valovitim terenom, izbrazdana je tog dana kratkim, ali žestokim sudarima u kojima su gubici bili veliki, a komandni lanci ponekad prekinuti. U pojedinim trenucima, na pojedinim mestima, ishod bitke nije bio sasvim siguran."
+    },
+    {
+      "type": "paragraph",
+      "text": "Tokom noći, međutim, srpska komanda učinila je ono što osmanska nije mogla — sabrala je razvučene snage, raščistila zapovestima šta se zaista dogodilo i pripremila plan za sutradan. Putnik i štab Prve armije razumeli su da pred sobom imaju manjeg, a ne većeg neprijatelja, i da brojčana nadmoć, ako se pravilno upotrebi, mora doneti rasplet. Drugog dana, 24. oktobra, srpske divizije krenule su u koncentričan protivnapad sa više pravaca. Osmanska linija, već bez rezerve i bez ideje, popustila je u sredini, a krila su počela da se kidaju. Iz organizovanog povlačenja vrlo brzo se prešlo u rasulo: napuštani su topovi, komore, deo dokumenata; jedinice su počele da se osipaju. Vardarska armija kao operativna celina prestala je da postoji."
+    },
+    {
+      "type": "paragraph",
+      "text": "Strateške posledice bile su, u srazmeri sa dva dana borbe, neuobičajeno krupne. Već 26. oktobra srpska vojska ušla je u Skoplje, staru prestonicu cara Dušana, gotovo bez borbe. Nedugo zatim padaju Prilep i Bitolj, a osmanska vlast u Makedoniji praktično prestaje. Vojska sultana, koja je vekovima držala ovu zemlju, više nije imala snagu da izvede ozbiljnu odbranu i njena se sudbina sada rešavala dalje na jugu i na zapadu, u drugim sektorima Prvog balkanskog rata. Za Srbiju, Kumanovo je značilo da je prvi i najvažniji vojni cilj rata — slamanje osmanske moći severno od Soluna — ostvaren u nepunih dvadeset dana od početka operacija."
+    },
+    {
+      "type": "paragraph",
+      "text": "U javnom pamćenju, bitka je vrlo brzo dobila i drugu dimenziju. Govorilo se i pisalo o „osveti Kosova”, o povratku na poprišta srednjovekovne države, o krugu koji se posle pet vekova zatvara. To je bio lukav i emotivno snažan simbol, ali — istorijski gledano — u stvarnim odlukama koje su donosili Putnik, Aleksandar i komandanti divizija on nije imao bitnu ulogu. Operativni razlozi bili su prozaičniji: kontrola Vardara, izlazak na železnicu, presecanje osmanskih komunikacija. Veza sa 1389. dodata je kasnije, da bi se vojnička pobeda upisala u stariju, već poznatu nacionalnu priču."
+    },
+    {
+      "type": "paragraph",
+      "text": "Treba reći i ono što izvori ne potvrđuju jednoznačno. Broj poginulih i ranjenih na obe strane različito se navodi: srpski gubici se najčešće računaju u nekoliko hiljada izbačenih iz stroja, a osmanski osetno više, ali precizne brojke razlikuju se od izvora do izvora i predmet su stručne rasprave. Sigurno je, međutim, da je Kumanovska bitka — neplanirana, sa teškim prvim danom i odlučnim drugim — preokrenula tok rata u Makedoniji i postavila Srbiju na vrh balkanskog stola na koji će tek nekoliko meseci kasnije sesti pobednici Osmanskog carstva."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

@@ -6,13 +6,53 @@
   "dayNumber": 346,
   "order": 6,
   "title": "Savezna Republika Jugoslavija",
+  "subtitle": "Krnja federacija Srbije i Crne Gore 1992–2003. — između naslednog spora, sankcija i unutrašnjeg sukoba",
   "readingTimeMinutes": 7,
   "year": 1992,
-  "isPlaceholder": true,
+  "dateLabel": "1992–2003.",
+  "timelinePosition": "1992–2003.",
+  "summary": "Savezna Republika Jugoslavija, sastavljena od Srbije i Crne Gore 27. aprila 1992, bila je krnja zajednica nastala na ruševinama SFRJ, kojom je dominirao Slobodan Milošević i koja je tek 2000. priznata kao novi član UN, da bi se 2003. preobrazila u Državnu zajednicu Srbije i Crne Gore.",
+  "keyPeople": ["Slobodan Milošević", "Dobrica Ćosić", "Momir Bulatović", "Milo Đukanović", "Zoran Đinđić", "Vojislav Koštunica", "Vuk Drašković", "Vojislav Šešelj", "Mirjana Marković"],
+  "keyPlaces": ["Beograd", "Podgorica", "Savezna skupština", "Žabljak", "Dejton"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Dvadeset sedmog aprila 1992. godine, u Beogradu, predstavnici Srbije i Crne Gore proglasili su Saveznu Republiku Jugoslaviju. SFR Jugoslavija se do tada već raspala — Slovenija, Hrvatska, Makedonija i Bosna i Hercegovina krenule su svojim putevima — i dve preostale republike formalno su se konstituisale kao zajednička država. Nova federacija nastupila je kao naslednica stare i tvrdila da pravno produžava njen kontinuitet. Međunarodna zajednica taj zahtev nije prihvatila: Ujedinjene nacije su stale na stanovište da je SFRJ prestala da postoji i da nova SRJ mora da se sama prijavi za članstvo. Prijem će uslediti tek u novembru 2000, posle pada Slobodana Miloševića. Između ta dva datuma, krnja Jugoslavija će ceo svoj život provesti u međunarodnoj senci."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ustav usvojen 1992. dao je SRJ klasičnu federalnu strukturu — saveznu skupštinu sa dva veća, Većem građana i Većem republika, savezno predsedništvo i saveznu vladu — ali odnos snaga između dve republike bio je od početka neravnotežen. Srbija je bila gotovo dvadeset puta veća po broju stanovnika i u njoj se nalazio Beograd kao sedište. Crna Gora je u federaciji zadržala načelnu ravnopravnost, što je vremenom postajalo izvor trvenja. Predviđena je rotacija saveznog predsednika između srpskog i crnogorskog političkog kruga; tu funkciju će u različitim trenucima obavljati Dobrica Ćosić, Zoran Lilić i, posle ustavnog preuređenja kojim je 1997. uvedeno neposredno biranje, sâm Milošević."
+    },
+    {
+      "type": "paragraph",
+      "text": "Stvarna vlast, međutim, nije bila u saveznim institucijama. Nalazila se u Srbiji, gde je Milošević od 1989. bio predsednik republike, i u njegovoj Socijalističkoj partiji Srbije. SPS je vladao u koalicijama čija je geometrija varirala — sa Jugoslovenskom levicom Mirjane Marković, ponekad uz oslonac na Srpsku radikalnu stranku Vojislava Šešelja, ponekad uz tihu podršku manjih partija. Opozicija je bila brojna, ali rascepkana: Demokratska stranka Zorana Đinđića, Srpski pokret obnove Vuka Draškovića, Demokratska stranka Srbije Vojislava Koštunice, Građanski savez Vesne Pešić, Nova demokratija Dušana Mihailovića i drugi. Lični sporovi, različite ideološke nijanse i nepoverenje među liderima dugo su sprečavali zajednički nastup."
+    },
+    {
+      "type": "paragraph",
+      "text": "U Crnoj Gori je u prvim godinama predsednik bio Momir Bulatović, blizak Beogradu, a Demokratska partija socijalista vladala je kao crnogorski pandan SPS-a. Tokom 1996. i 1997. u toj partiji došlo je do rascepa: Milo Đukanović, dotadašnji premijer, postepeno se razilazio sa Bulatovićem i sa Miloševićem. Na predsedničkim izborima 1997. Đukanović je tesno pobedio, partija se podelila, a Crna Gora je krenula svojim kursom — sve odlučnije se distancirala od savezne politike, gradila sopstvene veze sa Zapadom i pripremala teren za buduću samostalnost. Federacija je formalno postojala, ali jedna od dve njene republike više nije igrala po pravilima Beograda."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Sankcije, protesti, izolacija"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ratovi u Hrvatskoj i Bosni i Hercegovini formalno nisu bili ratovi SRJ — nova država je tvrdila da u njima ne učestvuje, što će joj kasnije omogućiti da Dejtonskim sporazumom 1995. izađe iz najtežih sankcija. U stvarnosti, kako je opširno utvrđivano kasnije, Beograd je srpske snage u susednim republikama podržavao i materijalno i politički, naročito u prvim ratnim godinama; obim te podrške i mera kontrole nad pojedinim formacijama i danas su predmet rasprave. Sankcije Saveta bezbednosti, uvedene 1992. zbog rata u Bosni, ekonomiju su povukle na dno. Hiperinflacija krajem 1993. i početkom 1994, jedna od najtežih u istoriji savremenog sveta, obesmislila je platu i štednju za nekoliko meseci. Društvo je osiromašilo, srednji sloj je nestajao, a sive zone trgovine i kriminala su se širile."
+    },
+    {
+      "type": "paragraph",
+      "text": "Politički život se uprkos svemu nastavljao. Zimi 1996–1997, posle pokušaja vlasti da poništi pobedu opozicione koalicije „Zajedno” na lokalnim izborima u nizu gradova, ulice Beograda i drugih centara ispunili su studenti i građani. Protest je trajao oko osamdeset i osam dana, mirno, sa zvižducima, fenjerima i jajima u rukama, dok režim na kraju nije morao da prizna rezultate. Bio je to prvi veliki znak da Miloševićeva vladavina ima granicu — ali i podsetnik koliko je opozicija ostala nestabilna kad se odmah potom rasula u međusobnim sporovima."
+    },
+    {
+      "type": "paragraph",
+      "text": "Posle Dejtona deo sankcija je olabavljen, ali SRJ nikada nije u potpunosti vraćena u međunarodne okvire. Kosovska kriza 1998–1999. i bombardovanje NATO-a 1999. doveli su zemlju u novu izolaciju, ovog puta dublju nego prethodnu. Posle 5. oktobra 2000. i pada Miloševića, SRJ je primljena u UN, OEBS i druge organizacije, a vlast su preuzeli Vojislav Koštunica na saveznom i Zoran Đinđić na republičkom nivou. Tranzicija je krenula brzo i sa otporima."
+    },
+    {
+      "type": "paragraph",
+      "text": "Federacija sama nije preživela dugo. Razlika između Srbije i Crne Gore postala je toliko velika, a interes Podgorice za posebnošću toliko jasan, da su 2002. godine, uz aktivnu ulogu Evropske unije, dogovorene osnove nove zajedničke države. U februaru 2003. Savezna skupština usvojila je Ustavnu povelju i SRJ je prestala da postoji — preobražena u Državnu zajednicu Srbije i Crne Gore. Krnja Jugoslavija je tako, kao i mnogo veća zajednica iz koje je nastala, otišla u istoriju mirnim putem, ali sa rešenjima koja su sva najvažnija pitanja ostavila za sledeće poglavlje."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

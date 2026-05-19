@@ -6,13 +6,49 @@
   "dayNumber": 10,
   "order": 3,
   "title": "Gvozdeno doba na Balkanu",
+  "subtitle": "Novi metal, knežinski grobovi i preci naroda koji ulaze u istoriju",
   "readingTimeMinutes": 7,
   "year": -800,
-  "isPlaceholder": true,
+  "dateLabel": "oko 1200–300. p. n. e.",
+  "timelinePosition": "~800. p. n. e.",
+  "summary": "Pojava gvožđa donosi jeftinije i tvrđe oruđe, raslojena društva sa knežinskim grobovima, i prve narode koje će grčki i rimski pisci nazvati imenom — Ilire, Tračane, Skordiske.",
+  "keyPeople": [],
+  "keyPlaces": ["centralni Balkan", "Dunav", "Egejsko more"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Posle stoleća u kojima je bronza bila merilo bogatstva i moći, na Balkan polako stiže metal koji će sve promeniti — gvožđe. Ono ne dolazi kao naglo otkriće, nego se postepeno odomaćuje od kraja drugog milenijuma pre nove ere, sve dok ne potisne bronzu kao osnovni materijal oruđa i oružja. Sa gvožđem se završava praistorija; iza njega vrebaju prvi istorijski narodi ovog kraja, oni koje će jednog dana imenovati grčki i rimski pisci."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ono što gvožđe čini drugačijim od bronze jeste, paradoksalno, njegova obična­nost. Bronza je tražila kalaj, redak materijal koji se nabavljao izdaleka; bronza je zato po prirodi bila skupocena i ostajala u rukama imućnih. Gvozdena ruda, naprotiv, nalazi se gotovo svuda na Balkanu, u plitkim i pristupačnim ležištima. Kada se naučilo kako se gvožđe topi, kuje i tvrdi — a to znanje je bilo teško — taj materijal je u načelu postao dostupan mnogo širem krugu ljudi. Sekira, srp ili mač više nisu morali biti privilegija prvaka; postali su deo svakodnevice."
+    },
+    {
+      "type": "paragraph",
+      "text": "Razdoblje gvozdenog doba na centralnom Balkanu okvirno se smešta od dvanaestog veka pre nove ere do dolaska Rimljana, dakle traje skoro hiljadu godina. Stručno se obično deli na dva velika perioda. Stariji se zove halštatski, po nalazištu Halštat u današnjoj Austriji, i obeležava prve vekove gvozdenog doba. Mlađi se zove latenski, po nalazištu La Tène u Švajcarskoj, i vezuje se uglavnom za keltske kulture poznog praistorijskog doba. Imena su dakle u naučnoj upotrebi došla sa strane — od centralne Evrope — ali pojave koje opisuju vrlo se jasno prepoznaju i na našem tlu."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Knežinski grobovi i prva imena"
+    },
+    {
+      "type": "paragraph",
+      "text": "Iako je gvožđe demokratizovalo oruđe, gvozdeno doba paradoksalno donosi i sve vidljivije razlike među ljudima. Najpoznatiji izraz tih razlika su takozvani knežinski grobovi — bogate sahrane uglednih pokojnika sa luksuznim prilozima, često uvezenim. U takvim grobovima nalazimo grčko posuđe, gvozdeno i bronzano oružje, nakit od zlata, jantara i staklene paste, ponekad i ostatke kola. To su grobovi ljudi koji su imali ne samo lokalnu moć, nego i pristup udaljenim tržištima — vezu sa egejskim svetom, sa srednjom Evropom, kasnije i sa rimskim svetom u nastajanju. Iz tih veza progovara nešto novo: ne samo lokalno selo, nego region uklopljen u veliki sistem razmene."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pored grobova, prepoznatljivi su i nastavak gradina — utvrđenih naselja na uzvišicama, sa bedemima i jasnim odbrambenim namerom. Nove generacije gradina podizale su se na starim, bronzanodopskim mestima, sada uvećane i bolje opremljene. Krajolik gvozdenog doba je krajolik koji već zna za stalnu pretnju i za vojnu organizaciju. Mač i koplje nisu retkost; ratnik je prepoznatljiva figura, kako u životu tako i u smrti."
+    },
+    {
+      "type": "paragraph",
+      "text": "Najznačajnija promena, međutim, nije materijalna — ona je u tome što tek u ovom razdoblju počinjemo da znamo imena ljudi koji ovde žive. Do gvozdenog doba o stanovnicima Balkana govorimo isključivo kroz njihove stvari, jer nemamo ničije reči o njima. Sa gvozdenim dobom, prvi grčki istoričari i geografi počinju da pominju narode sa kojima njihovi pomorci i trgovci dolaze u dodir: na zapadu Ilire, na istoku Tračane, kasnije Kelte koji u talasima dolaze sa severozapada. To su prva imena pod kojima ovi prostori ulaze u zapisanu istoriju. Ko su tačno bili, kako su sami sebe zvali, koliko su međusobno bili srodni — to su pitanja na koja ćemo se u narednim lekcijama vraćati. Ali važno je odmah reći: ti narodi nisu „doseljeni” u nekom novom talasu; oni su, pre svega, potomci ljudi koji su na ovom tlu već generacijama živeli, samo što ih sada, prvi put, neko izdaleka imenuje."
+    },
+    {
+      "type": "paragraph",
+      "text": "Time se zaokružuje hiljadu godina dugo putovanje koje je počelo sa prvim bakrom u vinčansko doba. Od retkog ukrasa, preko bronze koja je u rukama prvaka stvarala plemstvo, sve do gvožđa koje je u rukama svakog domaćinstva postalo svakodnevica — metal je postepeno preuredio sve. Na kraju te priče, pred nama stoje već gotovo prepoznatljive zajednice: utvrđena naselja sa jasnim društvenim slojevima, knežinski grobovi, vojnička oprema, mreže razmene sa udaljenim svetom i, prvi put, imena koja čitamo u tuđim spisima. Sa gvozdenim dobom završava se praistorija ovog tla — i otvaraju se vrata u doba u kome će o Balkanu progovoriti, na grčkom i latinskom, oni koji su ga prvi opisali sa strane. Te tuđe reči, kako ćemo videti, neće uvek biti pouzdane ni nepristrasne — ali bez njih, ovaj svet bi i dalje ostao bezimen."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

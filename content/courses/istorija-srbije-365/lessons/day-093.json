@@ -6,13 +6,53 @@
   "dayNumber": 93,
   "order": 4,
   "title": "Diplomatija Nemanjića",
+  "subtitle": "Kako su srpski srednjovekovni vladari, između velikih sila, vekovima vodili pažljivu i razgranatu diplomatiju",
   "readingTimeMinutes": 7,
   "year": 1300,
-  "isPlaceholder": true,
+  "dateLabel": "12–14. vek",
+  "timelinePosition": "12–14. vek",
+  "summary": "Brakovi, poslanstva i povelje kao alati nemanjićke diplomatije: Srbija kao stalni učesnik političkog života između Vizantije, Ugarske, Bugarske, Venecije, Rima i Mongola.",
+  "keyPeople": [],
+  "keyPlaces": [],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Srednjovekovna Srbija nikada nije bila izolovana zemlja. Sedela je tačno na mestu gde su se ukrštali svetovi — pravoslavna Vizantija na jugu i istoku, katolička Ugarska na severu, Bugarsko carstvo s druge strane Timoka, italijanske trgovačke republike na Jadranu, papski Rim u pozadini i, povremeno, dalji igrači poput Mongola na istoku ili anžujskog dvora u Napulju. Vladari iz kuće Nemanjića morali su zato neprekidno da pregovaraju, šalju poslanstva, primaju izaslanike i sklapaju brakove. Diplomatija im nije bila izbor, nego svakodnevni zanat — uslov opstanka."
+    },
+    {
+      "type": "paragraph",
+      "text": "Najtrajniji instrument te diplomatije bili su dinastički brakovi. Stefan Prvovenčani oženio se najpre vizantijskom princezom Evdokijom, ćerkom cara Aleksija III Anđela, a kasnije Mlečankom Anom Dandolo, unukom poznatog dužda Enrika Dandola — jednim potezom vezao se i za Carigrad i za Veneciju. Kralj Uroš I uzeo je za ženu Jelenu, francusko-ugarsku plemkinju, koja će u srpskoj istoriji ostati zapamćena kao Jelena Anžujska. Njegov sin Milutin tokom dugog života imao je više supruga upravo iz političkih razloga — najpre ugarsku princezu, zatim bugarsku Anu Tertera, pa vizantijsku Simonidu, ćerku cara Andronika II. Dušan se oženio Jelenom Kantakuzin, sestrom moćnog vizantijskog velikaša Jovana Kantakuzina, i tim brakom se vezao za jednu od dveju strana u građanskom ratu koji je razdirao Vizantiju."
+    },
+    {
+      "type": "paragraph",
+      "text": "Drugi stub diplomatije bila su poslanstva. Srpski vladari su gotovo neprekidno slali izaslanike u Carigrad — bilo da pregovaraju o miru, o granicama, o crkvenim pitanjima ili o trgovini. U Rim su poslanstva odlazila ređe, ali u presudnim trenucima: Stefan Prvovenčani 1217. zbog kraljevske krune, a kasniji Nemanjići povremeno zbog crkvenih pregovora i traženja saveznika. Ugarski dvor u Budimu, mletačka Signorija, dvor anžujskih kraljeva u Napulju, čak i daleki mongolski Ilkanat — svuda su stizali srpski izaslanici. Sačuvani izvori posebno pominju Milutinovo poslanstvo upućeno mongolskom dvoru krajem 13. veka, u trenutku kada je tražio podršku protiv suparničke vizantijske politike. Mongoli tada nisu bili samo daleka pretnja, nego i sila s kojom se računalo u celom istočnom Mediteranu."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Povelje i jezici"
+    },
+    {
+      "type": "paragraph",
+      "text": "Diplomatija se nije vodila samo na rečima nego i u pisanim ispravama. Iz nemanjićkog doba do nas su došle stotine povelja razmenjenih sa stranim vladarima i gradovima. Najgušće sačuvana prepiska vezana je za Dubrovnik — vekovi detaljnih trgovačkih ugovora, sporazuma o zaštiti dubrovačkih trgovaca u Srbiji, garantija o slobodnoj plovidbi i razrešenja sporova. Ti dokumenti, sastavljeni najčešće na srpskoslovenskom ili latinskom, danas su prvorazredan izvor ne samo za diplomatsku, nego i za ekonomsku istoriju srednjeg veka. Slično, ali u manjem obimu, sačuvane su povelje izmenjene sa Venecijom, Kotorom, ugarskim kraljevima i, izuzetno, sa nekim italijanskim vladarima."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sama pisarska kancelarija srpskih kraljeva morala je zato da vlada većim brojem jezika. Sa Vizantijom se prepisivalo na grčkom; sa Rimom, ugarskim dvorom i zapadnim vladarima na latinskom; sa Bugarskom i u unutrašnjoj upotrebi na crkvenoslovenskom, u njegovoj srpskoj redakciji; u dodirima sa trgovačkim republikama, posebno u priobalju, povremeno i na italijanskom. Dvor je tako bio mesto na kome su se susretali notari školovani u različitim tradicijama — što samo po sebi govori koliko je Srbija bila otvorena prema susedima, suprotno kasnijim slikama o zatvorenoj balkanskoj zemlji."
+    },
+    {
+      "type": "paragraph",
+      "text": "Najveći diplomatski uspesi nemanjićkog doba poklapaju se sa najznačajnijim događajima koje obrađujemo na drugim mestima u kursu. Savino dobijanje autokefalnosti za Srpsku crkvu u Nikeji 1219. bilo je vrhunac jednog veštog višegodišnjeg pregovaranja sa vaseljenskim patrijarhom u izgnanstvu. Stefanovo papsko krunisanje 1217. bilo je rezultat strpljive razmene poslanstava sa Rimom. Mir koji je 1299. sklopio Milutin sa carem Andronikom II, zapečaćen brakom sa malom Simonidom, doneo je Srbiji trajno priznanje krupnih teritorijalnih dobitaka na jugu — vodeći primer kako je dobro vođen pregovor mogao da pretvori vojni uspeh u trajan politički dobitak. Konačno, Dušanovo proglašenje cara 1346. godine bilo je pažljivo koreografisana radnja u kojoj su istovremeno usaglašeni krunisanje, podizanje arhiepiskopije na rang patrijaršije i pristanak najuglednijih pravoslavnih centara."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sve to, naravno, ima i granice. Nemanjićka diplomatija nije mogla da spreči ono što je dolazilo. Posle bitke na Marici 1371. i posle smrti kralja Vukašina i despota Uglješe, srpski svet ulazi u period rasparčanosti u kome više nije postojao jedan dvor koji bi vodio jedinstvenu spoljnu politiku. Oblasni gospodari pregovaraju svako za sebe — sa Ugarskom, sa Vizantijom, sa Mlečanima, a sve češće i sa Osmanlijama. Skladna nemanjićka diplomatija, oslonjena na centralnu vlast, postaje nemoguća. Ono što je u 13. veku bilo orkestrirano sa jednog dvora, u kasnom 14. veku rasipa se u glasove nepovezanih kneževa."
+    },
+    {
+      "type": "paragraph",
+      "text": "Treba reći i ono što istoričari pošteno priznaju: naša slika nemanjićke diplomatije najvećim delom je rekonstrukcija. Mnoge ambasade su u izvorima pomenute samo usput, jednom rečenicom u vizantijskoj hronici ili u dubrovačkom zapisniku, bez detalja o tome ko je išao, šta je nosio i šta je tačno rečeno. Sačuvane povelje pokazuju ishode, ali često ne i put kojim se do njih došlo. Pa ipak, čak i tako parčana slika dovoljna je da pokaže glavno — da je srednjovekovna Srbija bila punopravan učesnik diplomatskog života kasnosrednjovekovne Evrope i istočnog Mediterana, jedan dvor među dvorovima, a ne usamljena zemlja na ivici poznatog sveta."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

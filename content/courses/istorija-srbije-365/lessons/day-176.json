@@ -6,13 +6,53 @@
   "dayNumber": 176,
   "order": 4,
   "title": "Dubrovnik i srpsko zaleđe",
+  "subtitle": "Mala jadranska republika koja je vekovima trgovala sa srpskim zaleđem i sačuvala arhiv bez koga bismo bili nemi",
   "readingTimeMinutes": 6,
   "year": 1650,
-  "isPlaceholder": true,
+  "dateLabel": "15–18. vek",
+  "timelinePosition": "15–18. vek",
+  "summary": "Dubrovačka Republika kao trgovački i kulturni most između srpskog zaleđa i Mediterana, od srednjovekovnih rudnika do osmanskog Beograda i Sarajeva, sve do ukidanja 1808.",
+  "keyPeople": [],
+  "keyPlaces": ["Dubrovnik", "Beograd", "Sarajevo", "Novo Brdo", "Niš", "Smederevo"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Na uskoj kamenoj obali ispod Srđa, stešnjena između mora i strmog krša, vekovima je živela mala republika koja je svojim trgovcima i pisarima upisala srpsko zaleđe u istoriju temeljnije nego mnoge veće države. Dubrovnik — ili Ragusa, kako se zvao u latinskim i italijanskim ispravama — bio je katolička pomorska republika čije je stanovništvo govorilo prvo latinski, zatim italijanski, a uporedo s tim i slovenski jezik svojih suseda i sopstvenih predgrađa. Bio je dovoljno mali da nikoga ozbiljno ne ugrozi i dovoljno vešt da svakoga ko ga je ugrožavao pretvori u poslovnog partnera. Iz te dvostruke veštine — opreza i trgovine — izrasla je veza sa srpskim zemljama koja je trajala duže od bilo koje srpske srednjovekovne dinastije."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pravno-politička sudbina Republike bila je niz uglavljenih vasalstava. Od ranog srednjeg veka stajala je u nekoj formi zavisnosti od Vizantije, od 1205. do 1358. priznavala je vlast Venecije, zatim do 1526. ugarsko-hrvatske krune, a od pada Ugarske kod Mohača preuzela je obavezu plaćanja godišnjeg danka — harača — osmanskom sultanu. U praksi je sve to vreme upravljala sama sobom: Veliko veće dubrovačke vlastele, Malo veće i knez koji se birao na mesec dana vodili su zatvorenu, brižljivo izbalansiranu aristokratsku republiku. Dok su srednjovekovna srpska država, bosansko kraljevstvo i drugi balkanski politički organizmi nestajali pred Osmanlijama, Dubrovnik je opstao — plaćajući, pregovarajući i ćuteći onda kada je ćutanje bilo skuplje od reči. Tek 1808. ukinuće ga Napoleon, i to je bio kraj jedne od najdugovečnijih republika u Evropi."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Trgovci u zaleđu"
+    },
+    {
+      "type": "paragraph",
+      "text": "Veza sa srpskim zemljama nije počela u osmansko doba, već mnogo ranije. Već u 13. i 14. veku dubrovački trgovci su sedeli u rudarskim gradovima Brskovu, Novom Brdu, Trepči, Rudniku — kupovali srebro i olovo, davali zajmove vladarima, vodili svoje knjige na italijanskom i latinskom. Kada je Osmansko carstvo postepeno preuzelo te oblasti, mreža se nije pokidala; samo je promenila gospodara. Sultanovi fermani priznali su Dubrovčanima posebne povlastice — niže carine, sopstvene konzule, pravo da sude svojim ljudima po dubrovačkom pravu, slobodu da drže katoličke sveštenike. Tako su kolonije dubrovačkih trgovaca nastavile da postoje u Beogradu, Smederevu, Nišu, Skoplju, Sofiji, Sarajevu i drugim balkanskim gradovima, ponekad u zasebnim četvrtima, češće utopljene u tržne ulice među pravoslavnim srpskim i jevrejskim trgovcima."
+    },
+    {
+      "type": "paragraph",
+      "text": "Roba koja je kroz njihove ruke prolazila bila je dvosmerna. Iz unutrašnjosti je išlo srpsko srebro — sve manje kako su rudnici slabili — zatim bakar, olovo, vosak, kože, sušena riba, žito i, naročito, stoka, koja je u dugim karavanima silazila niz dinarske puteve do jadranskih luka. U pojedinim ranijim vekovima beleže se i robovi, što je deo prošlosti koji se ne treba prikrivati. U suprotnom smeru iz Dubrovnika su u zaleđe stizali italijanska i, od 17. veka, engleska sukna, so iz dubrovačkih i mletačkih solana, ulje, začini, papir, oružje, a od 17. veka i kafa, koja će uskoro postati nezaobilazni deo balkanske čaršije. Karavani su išli kopnenim drumovima preko Trebinja, Foče, Goražda i Novog Pazara prema Sarajevu i dalje, a vesti koje su nosili često su stizale brže od sultanove pošte."
+    },
+    {
+      "type": "paragraph",
+      "text": "U gradovima u kojima su živeli, dubrovački trgovci su se uklapali u tkivo lokalnog života. Sahranjivali su se na sopstvenim grobljima ili u dvorištima katoličkih crkava, držali škrinje sa testamentima i zadužnicama, sklapali brakove unutar svoje zajednice ali poslovne saveze i kumstva sa srpskim domaćinima. Sačuvani spisi pokazuju ljude koji su podjednako razumeli mletački dijalekt, osmansku administrativnu praksu i običajno pravo zaleđa. Bili su, u suštini, prevodioci više od jedne vrste."
+    },
+    {
+      "type": "paragraph",
+      "text": "Najveće što su nam ostavili nisu kuće ni grobovi, nego papir. Dubrovački arhiv je danas jedan od najbogatijih izvora za srednjovekovnu i ranonovovekovnu istoriju Balkana koji uopšte postoje. Desetine hiljada notarskih ugovora, kreditnih pisama, sudskih zapisnika, izveštaja konzula i poslanika, prepisaka sa srpskim vladarima, despotima i osmanskim namesnicima — najveći deo onoga što danas znamo o privredi srpskih zemalja pod Nemanjićima, Lazarevićima, Brankovićima i u prvim osmanskim vekovima rekonstruisan je iz tih svežnjeva. Bez Dubrovnika bi cele decenije naše ekonomske, pa i političke prošlosti ostale gotovo neme."
+    },
+    {
+      "type": "paragraph",
+      "text": "Treba biti pošten i u onome što Dubrovnik nije bio. Republika je bila svoje, posebno biće — mediteranska, katolička, latinsko-italijanska po pisanoj kulturi, sa snažnom slovenskom svakodnevicom; mesto na kome je rascvetana renesansna i barokna književnost, danas pre svega ubrojena u hrvatsku kulturnu istoriju. Nije bila „srpski grad” niti je sebe takvim videla. Ali jeste bila, vekovima i bez prekida, najvažniji ekonomski i kulturni most kojim su srpske zemlje držale dodir sa zapadnim Mediteranom — i to upravo onda kada je taj dodir, pod osmanskom vlašću, najteže bilo održati."
+    },
+    {
+      "type": "paragraph",
+      "text": "Trgovačka moć Republike počela je da opada već u 17. veku, kako se evropska trgovina selila na atlantske rute, a katastrofalni zemljotres 1667. razorio je sam grad i prekinuo mnoge poslovne kuće. Tokom 18. veka karavanske mreže ka zaleđu su se proredile, a poslove postepeno preuzimaju Cincari, srpski trgovci iz Habzburške monarhije i drugi novi posrednici. Kada je Napoleon 1808. ukinuo Republiku, ona više nije bila ono što je nekada bila — ali ni jedna naslednica nije uspela da nadoknadi ono što je sa Dubrovnikom otišlo. Za srpsko zaleđe ostao je dvostruki dug: vekovi tihog trgovačkog kontakta sa Zapadom, i ogroman arhiv u kome i danas, među žutim listovima, pronalazimo imena svojih davnih ljudi."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

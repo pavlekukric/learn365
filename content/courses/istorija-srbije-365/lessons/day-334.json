@@ -6,13 +6,57 @@
   "dayNumber": 334,
   "order": 6,
   "title": "Svakodnevni život u Jugoslaviji",
+  "subtitle": "Stanovi, vikendice, televizor, Trst i Jadran — kako je izgledao običan dan u socijalističkoj Jugoslaviji",
   "readingTimeMinutes": 7,
   "year": 1965,
-  "isPlaceholder": true,
+  "dateLabel": "1950–1980.",
+  "timelinePosition": "1950–1980.",
+  "summary": "Svakodnevica socijalističke Jugoslavije između pedesetih i ranih osamdesetih: nova naselja, radna prava, televizor, muzika, putovanja i potrošnja — stvarni materijalni napredak unutar jednopartijske države.",
+  "keyPeople": ["Josip Broz Tito", "Đorđe Marjanović", "Toma Zdravković", "Dušan Makavejev"],
+  "keyPlaces": ["Beograd", "Novi Beograd", "Trst", "Jadransko more", "Sarajevo"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Između pedesetih i ranih osamdesetih godina dvadesetog veka, Jugoslavija je za većinu svojih građana značila jednu prilično konkretnu stvar — prvi pravi gradski život. Ljudi koji su se rodili u selima oko Niša, Užica ili Kragujevca selili su se u Beograd i druge gradove, dobijali stanove preko preduzeća, slali decu u besplatnu školu i, prvi put u porodičnoj istoriji, imali nešto što je ličilo na predvidljiv mesečni budžet. To nije bila idilična zemlja iz kasnijih sećanja, ali nije bila ni siva diktatura iz nekih kasnijih opisa. Bila je nešto između — država koja je radničkoj klasi pružila stvaran skok u životnom standardu, unutar jednopartijskog sistema koji je sam sebi postavljao granice."
+    },
+    {
+      "type": "paragraph",
+      "text": "Najvidljiviji znak tog skoka bili su novi gradski blokovi. Od kasnih četrdesetih, na močvarnom zemljištu preko Save, gradio se Novi Beograd — široki bulevari, blokovi od šest, deset, pa i dvadeset spratova, sa zajedničkim zelenim površinama između zgrada. Po sličnoj logici nicali su Banjica, Kanarevo brdo, Konjarnik, Karaburma. „Novogradnja” je postala reč koja je značila više od adrese: značila je centralno grejanje, lift, kupatilo sa toplom vodom i, najvažnije, sopstveni stan dobijen preko preduzeća. Stanovi su se dodeljivali po radnom stažu, kvalifikacijama i porodičnoj situaciji; redovi su bili dugi, raspodela neretko nepravedna, ali za milione ljudi to je bio prvi sopstveni krov koji nije morao biti otplaćivan ceo život."
+    },
+    {
+      "type": "paragraph",
+      "text": "Radni dan bio je zakonom uokviren. Radna nedelja je od pedesetih postepeno spuštana sa šest na pet dana, a radno vreme od četrdeset dva, pa kasnije četrdeset sati. Plaćeni godišnji odmor, besplatno zdravstvo, besplatno obrazovanje i subvencionisane jaslice i obdaništa nisu bili sitnica — bili su materijalna osnova onoga što su ljudi osećali kao sigurnost. S druge strane, snabdevanje je znalo da zaškripi. Određene robe — kafa, deterdženti, ponekad meso ili ulje — povremeno su nestajale sa polica, pa se kupovalo „kad ima” i pravile su se zalihe. Privreda je bila između plana i tržišta, i ta polovičnost se na pijacama videla."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Vikendica, televizor i Trst"
+    },
+    {
+      "type": "paragraph",
+      "text": "Porodični ideal sredine sedamdesetih bio je prepoznatljiv. Stan u bloku, mali automobil ispred zgrade, vikendica na obroncima Avale, Fruške gore ili negde uz neku reku, i godišnji odmor na Jadranu — u Crikvenici, Makarskoj, Budvi ili Ulcinju. Automobil je najčešće bila Zastava 750, narodski „fićo”, kasnije Zastava 101 („stojadin”), a od 1980. i Yugo 45. Ko nije imao auto, imao je Vespu ili moped Tomos. Vikendica nije morala biti raskošna — često je to bila kuća od dasaka, sa baštom, voćkama i prostorom za roštilj — ali je bila simbol stečenog mira, dela slobodnog vremena koji pripada porodici, a ne smeni."
+    },
+    {
+      "type": "paragraph",
+      "text": "Putovanja su bila šira nego što se obično pretpostavlja. Od 1962. godine jugoslovenski pasoš omogućavao je relativno slobodan izlazak iz zemlje, najpre u susedstvo, a kasnije i dalje. Stotine hiljada ljudi otišlo je „na privremeni rad u inostranstvo” — uglavnom u Saveznu Republiku Nemačku, Austriju, Švajcarsku, Francusku. Reč „gastarbajter” ušla je u jezik, kao i slike preplavljenih graničnih prelaza za Božić i leto. Oni koji su ostajali, najčešće su preko granice išli u kratke kupovne ture, posebno u Trst — po farmerice, kafu, kakao, parfeme i sitne kućne aparate. Među Beograđanima i Srbima iz okoline bila je popularna ona šala: „Trst smo gradili mi.”"
+    },
+    {
+      "type": "paragraph",
+      "text": "Televizija je promenila ritam večeri. Televizija Beograd počela je redovan program 1958, a tokom šezdesetih i sedamdesetih televizor je postao standardni komad nameštaja — najpre crno-beli, od sredine sedamdesetih sve češće u boji. Centralni „Dnevnik” u 19.30 bio je obavezna tačka dana; subotom su deca čekala „Žikinu šarenicu”, porodice su pratile domaće serije i strane filmove, a od kasnih osamdesetih kultnim humorom probiće se i sarajevska „Top lista nadrealista”. Štampa je takođe imala svoje stalne tačke — „Politikin zabavnik”, „Politika”, „NIN”, „Ilustrovana politika” — a deca su uz zabavnik učila istoriju, popularne nauke i strip."
+    },
+    {
+      "type": "paragraph",
+      "text": "Muzika je bila neobično raznorodna. Šezdesetih su radio i televiziju držali jugoslovenski šlageri Đorđa Marjanovića i Arsena Dedića, sedamdesetih su slušani Toma Zdravković i Mišo Kovač, a vrhunac estradne karijere Lepe Brene tek je dolazio osamdesetih. Paralelno je rasla snažna rok scena — Bijelo dugme, Riblja čorba, Indeksi, Azra, Idoli, Električni orgazam, EKV. Bila je to muzika koja se pravila u Sarajevu, Zagrebu, Beogradu i Ljubljani, slušala svuda, i koja je za mnoge bila važnija od političkog govora. U bioskopu se prepoznavao sličan luk: crni talas šezdesetih i ranih sedamdesetih — Makavejev, Pavlović, Žilnik — pa partizanski spektakli, pa realistička drama osamdesetih."
+    },
+    {
+      "type": "paragraph",
+      "text": "Mali, ali stalni znakovi povezivali su sve to u prepoznatljiv svet. Roštilj sa ćevapima, najčešće sarajevskog reda; Cockta umesto Coca-Cole; Pelinkovac kao kućni aperitiv; pioniri u plavim kapama sa zvezdom petokrakom; 25. maj kao „Dan mladosti” sa štafetom koja kreće kroz republike i završava se na stadionu pred Titom; omladinske radne akcije na pruzi ili na auto-putu, na koje su mladi išli pola iz uverenja, pola zbog dobre letnje atmosfere. Sve je to bilo deo istog, prilično konkretnog osećaja pripadanja."
+    },
+    {
+      "type": "paragraph",
+      "text": "Treba reći i ono drugo, bez ulepšavanja. Sistem je bio jednopartijski. O ključnim političkim pitanjima — ulozi Tita, granicama republika, statusu Kosova, ekonomskim problemima sedamdesetih — javno se nije razgovaralo onako kako se razgovaralo u kuhinjama. Postojala je samocenzura, ponekad i otvorena cenzura; postojali su politički procesi i zatvorske kazne za one koji su otišli predaleko. Materijalni uspon bio je stvaran, ali je počivao i na velikim inostranim zajmovima koji će tek osamdesetih pokazati svoju cenu. Ova svakodnevica nije zato „izgubljeni raj”, niti „mračna diktatura” — bila je složeno, živo razdoblje koje je generacijama ljudi u Srbiji i Jugoslaviji ostalo kao referentna tačka onoga što znači pristojan, predvidljiv život."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

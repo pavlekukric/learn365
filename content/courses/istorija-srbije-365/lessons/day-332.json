@@ -6,13 +6,57 @@
   "dayNumber": 332,
   "order": 4,
   "title": "Samoupravljanje",
+  "subtitle": "Radnički saveti, društvena svojina i jugoslovenski put između plana i tržišta — od 1950. do osamdesetih",
   "readingTimeMinutes": 7,
   "year": 1955,
-  "isPlaceholder": true,
+  "dateLabel": "1950–1980.",
+  "timelinePosition": "1950–1980.",
+  "summary": "Posle raskida sa Staljinom Jugoslavija je tražila sopstveni socijalistički model: radnički saveti, društvena svojina, delimično tržište i otvorene granice ka Zapadu.",
+  "keyPeople": ["Milovan Đilas", "Edvard Kardelj", "Boris Kidrič", "Josip Broz Tito"],
+  "keyPlaces": ["Beograd", "Ljubljana", "Zagreb", "Savezna narodna skupština"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Posle raskida sa Informbiroom 1948. godine, jugoslovensko rukovodstvo našlo se u neobičnom položaju. Bilo je optuženo iz Moskve da je izdalo Lenjina i Staljina, a istovremeno je ostalo komunističko i nije moglo, niti je htelo, da se vrati ničemu što bi ličilo na predratnu građansku državu. Trebalo je smisliti treći put — socijalizam koji nije sovjetski, ali ni zapadni. Iz tog napora rodilo se ono što će decenijama biti zaštitni znak jugoslovenske svakodnevice: samoupravljanje."
+    },
+    {
+      "type": "paragraph",
+      "text": "Teorijski okvir gradili su pre svega Edvard Kardelj, Boris Kidrič i, u prvoj fazi, Milovan Đilas. Polazna misao bila je da država u Sovjetskom Savezu nije „odumrla”, kako je Marks obećavao, nego je narasla u svemoćnu birokratiju koja u ime radnika upravlja njihovim radom. Jugoslovenski odgovor bio je da se vlasništvo nad fabrikama, rudnicima i preduzećima ne vrati ni privatnicima ni državi, nego da se preda samim radnim kolektivima. Iz toga je izveden pojam „društvene svojine” — ničije i svačije, kako su je kasnije, pomalo gorko, opisivali sami građani."
+    },
+    {
+      "type": "paragraph",
+      "text": "Prvi korak učinjen je 27. juna 1950. godine, kada je Savezna narodna skupština usvojila Osnovni zakon o upravljanju državnim privrednim preduzećima i višim privrednim udruženjima od strane radnih kolektiva. Tito je zakon obrazložio u Skupštini, ali su tekst pre svega oblikovali Kardelj i Kidrič. Svako veće preduzeće dobilo je radnički savet, biran od zaposlenih, i uži upravni odbor. Saveti su formalno odlučivali o planu proizvodnje, o investicijama u okvirima preduzeća i o raspodeli dela dobiti — onoga što je preostajalo posle obaveza prema državi i fondovima."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Između teorije i pogona"
+    },
+    {
+      "type": "paragraph",
+      "text": "U praksi je, naročito tokom pedesetih godina, centralno planiranje ostalo veoma jako. Cene, devizni kurs, raspodela sirovina i krupne investicije i dalje su se rešavali u saveznim i republičkim organima. Partija — od 1952. preimenovana u Savez komunista — bila je prisutna u svakoj fabrici preko osnovne organizacije, a kadrovska politika je išla preko njenih komiteta. Direktor preduzeća formalno je biran, ali retko bez saglasnosti odgovarajućeg partijskog tela. Radnički saveti su tako delovali kao stvarni organi učešća, ali u prostoru čije su granice unapred bile postavljene."
+    },
+    {
+      "type": "paragraph",
+      "text": "Uporedo s tim, sistem se postepeno udaljavao od sovjetskog uzora i na drugim mestima. Ustavni zakon iz 1953. godine, zajedno sa promenama u poljoprivrednoj politici, faktički je napustio kolektivizaciju sela: seljaci su mogli zadržati zemlju, sa maksimumom koji je u glavnom iznosio oko deset hektara obradivog poseda. To je u Srbiji značilo da je seljačko domaćinstvo, sa svojom njivom i stokom, ostalo osnovna ćelija sela — nešto što istočnoevropski susedi, sa svojim kolhozima i poljoprivrednim zadrugama prinudnog tipa, nisu poznavali."
+    },
+    {
+      "type": "paragraph",
+      "text": "Drugi veliki zaokret bila je privredna reforma iz 1965. godine. Preduzeća su dobila više samostalnosti u određivanju cena i ulaganja, dinar je delimično učinjen konvertibilnim, spoljna trgovina je liberalizovana, a deo subvencija je ukinut. Cilj je bio da se uvedu elementi tržišta, da se efikasnija preduzeća nagrade, a slabija prinude na promenu. Reforma je donela vidljiv rast standarda — više potrošne robe, prve televizore u dnevnim sobama, automobile na rate — ali i nove napetosti, jer su razvijeniji delovi zemlje ubrzano izmicali manje razvijenima."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ono što je Jugoslaviju posebno izdvajalo od ostalog socijalističkog sveta bila je otvorenost granica. Postupnim ublažavanjem propisa od početka šezdesetih, a naročito reformom pasoša, građani su mogli relativno slobodno da putuju na Zapad. Stotine hiljada njih krenule su na privremeni rad u Saveznu Republiku Nemačku, Austriju, Švajcarsku, Francusku i Švedsku. Reč „gastarbajter” ušla je u svakodnevni jezik. Procenjuje se da je sredinom sedamdesetih u inostranstvu radilo oko milion jugoslovenskih državljana — tačan broj se u literaturi razlikuje — i da su njihove doznake postale ozbiljna stavka platnog bilansa zemlje."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ustav iz 1974. godine pokušao je da samoupravljanje produbi još jednom reformom. Uvedena je razrađena struktura „udruženog rada”: preduzeća su deljena na osnovne organizacije udruženog rada, koje su međusobno sklapale samoupravne sporazume i društvene dogovore. Sistem je u teoriji trebalo da svakom radniku da neposrednu kontrolu nad svojim radom i prihodom; u praksi je doneo bujicu tela, propisa i sednica koja je i samim učesnicima teško padala. Slabe budžetske discipline, lake bankarske kredite i odlaganje gubitaka, sve to je u narednoj deceniji utabalo put inflaciji i krizi osamdesetih."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pošten sud o samoupravljanju mora čuvati obe strane vage. Bio je to original, ne kopija; u svetu hladnoratovskih modela jedini stvarni pokušaj da se traži treći put. Radnicima je dao više glasa nego što su ga imali drugde u Istočnoj Evropi, a stanovništvu otvorenost — putovanja, knjige, filmove, robu — kakvu su narodi sovjetskog bloka mogli samo da pretpostavljaju. Istovremeno, samoupravljanje nije rešilo pitanje stvarne efikasnosti, niti je Savez komunista pristao da iz osnovnih političkih odluka istupi. Sve to zajedno — i postignuća i ograničenja — oblikovalo je svakodnevicu nekoliko generacija u Srbiji i ostatku Jugoslavije, i ostavilo trag koji se i danas oseća."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

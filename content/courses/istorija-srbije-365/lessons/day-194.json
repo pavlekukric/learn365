@@ -6,13 +6,49 @@
   "dayNumber": 194,
   "order": 9,
   "title": "Živeti pod dve imperije",
+  "subtitle": "Kako su Srbi tri veka delili život između osmanske i habzburške države — i ipak ostali jedan narod",
   "readingTimeMinutes": 7,
   "year": 1750,
-  "isPlaceholder": true,
+  "dateLabel": "pregled",
+  "timelinePosition": "pregled",
+  "summary": "Pregled srpskog sveta u dugom 16–18. veku: dva paralelna iskustva pod osmanskom i habzburškom vlašću, povezana crkvom, jezikom, trgovinom i osećanjem zajedničkog porekla.",
+  "keyPeople": [],
+  "keyPlaces": [],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Sredinom 18. veka srpski narod nigde nije imao svoju državu, ali je svuda imao svoj svet. Taj svet bio je presečen jednom dugom, neravnom granicom — onom koja je išla od donjeg Dunava i Save preko Bosne i Like, razdvajajući zemlje sultana od zemalja cara u Beču. Sa južne strane te granice živela je većina, podanici Osmanskog carstva, pravoslavna raja po selima i kasabama. Sa severne strane, u Vojnoj krajini, Sremu, južnoj Ugarskoj i delovima Hrvatske, živeli su Srbi pod habzburškom vlašću, najvećim delom potomci doseljenika iz nekoliko velikih i mnogih malih seoba. Dve sredine, dve države, dva pravna položaja — a u suštini, kako će se pokazati, jedan narod sa dva paralelna iskustva."
+    },
+    {
+      "type": "paragraph",
+      "text": "Južna, brojnija strana bila je srce predturskog srpskog prostora: Stara Srbija, Šumadija, Pomoravlje, Mačva, deo Bosne i Hercegovine, sela u zaleđu Jadrana. Tu je ostala osnovna demografska masa naroda, vezana za zemlju i seosko gazdinstvo, opterećena harač-porezom i zavisnošću od spahija. Institucije su bile sužene — nije bilo srpske vlastele, nije bilo svetovne vrhuške koja bi narod predstavljala pred sultanom — ali su jezik, običaji i vera kroz porodicu i parohiju opstajali u gotovo neprekinutoj liniji. Gradovi su uglavnom bili muslimanski po izgledu i upravi; hrišćanski život najjasnije se video po manastirima, sajamskim danima i sahranama."
+    },
+    {
+      "type": "paragraph",
+      "text": "Severna strana bila je mlađa po naseljenosti i drugačija po sastavu. Tamo su, kroz Veliku seobu 1690. i Drugu seobu 1739, ali i kroz mnoge tihe pomeranje kroz ceo 16. i 17. vek, stigli Srbi iz Stare Srbije, Bosne i Like. Habzburški dvor primao ih je kao graničare i hrišćanske podanike, dajući im, posle dužih pregovora, povlastice oko crkvene samouprave i vojne službe. U Sremskim Karlovcima, Novom Sadu, Pešti, Budimu i pograničnim varošima formirao se sloj zanatlija, trgovaca, oficira, sveštenika — tanji nego što legendar pamti, ali stvaran. Pod katoličkim carem oni su živeli kao trpljena, pažljivo nadzirana pravoslavna manjina, sa stalnim pritiskom unijatske politike u pozadini i sa stalnom potrebom da se sopstvene povlastice brane dokumentom i predstavkom."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Niti koje su išle preko granice"
+    },
+    {
+      "type": "paragraph",
+      "text": "Uprkos različitim položajima, dve sredine bile su povezane snažnije nego što su zvanične karte pokazivale. Prva spona bio je jezik — isti štokavski, sa lokalnim narečjima, ali razumljiv od Pećke patrijaršije do Sentandreje. Druga spona bila je vera. Sve do 1766. godine i obnovljena Pećka patrijaršija i Karlovačka mitropolija pripadale su istoj crkvenoj porodici; episkopi, monasi i knjige kretali su se preko granice, a kalendar svetaca bio je zajednički. Kult Svetog Save, koliko god ponegde pritisnut, ostao je oslonac identiteta na obe strane: njegovo ime nosile su škole, bratstva, parohijske slave i, posredno, samo osećanje pripadnosti."
+    },
+    {
+      "type": "paragraph",
+      "text": "Treća spona bila je rodbinska. Migracija nije bila jedan jedini čin, već dugotrajan proces. Velike seobe 1690. i 1739. bile su dramatični vrhunci tihog, stalnog kretanja u oba pravca — iz osmanskih u habzburške zemlje pod pritiskom rata i nereda, ali ponekad i nazad, kada bi se prilike na jugu smirile. Familije su ostajale podeljene preko granice, pisma i porodična predanja prelazila su čardake, a sahrane i svadbe i dalje su, kada je moglo, okupljale rodbinu s obe strane Save. Četvrta spona bila je trgovina. Srpski trgovci, naročito oni koji su trgovali stokom — pre svega svinjama iz šumadijskih hrastovih šuma prema panonskim pijacama — bili su živi most između dve carevine; dubrovačke kolonije u osmanskim varošima i sajmovi po Vojvodini činili su istu mrežu sa drugog kraja."
+    },
+    {
+      "type": "paragraph",
+      "text": "Tokom 18. veka dva društva su se ipak razvila u dva donekle različita karaktera. Severni, habzburški Srbi bili su sve više građani: sa štampanim knjigama iz Beča i Lajpciga, sa školama prema austrijskom kalupu, sa kontaktom prema Rusiji i prema evropskim učenim krugovima. Tu se postepeno rađala srpska građanska klasa i, sa njom, prosvetiteljski pokret koji će u sledećoj generaciji dati Dositeja Obradovića i prvu Maticu. Južni, osmanski Srbi ostajali su pretežno seoski, sa snažnom usmenom epskom kulturom, slavom kao porodičnim središtem i sa neposrednim, ponekad oružanim iskustvom otpora — hajduci, uskoci, lokalni knezovi koji su pregovarali sa spahijama. Jedan svet je čitao više; drugi je pamtio i pevao."
+    },
+    {
+      "type": "paragraph",
+      "text": "U svemu tome krije se i paradoks koji će obeležiti čitav vek koji dolazi. Ni jedna ni druga strana nije imala vlastitu državu; obe su bile podanici tuđe sile; obe su, po crkvenom kanonu i svakodnevnoj samoidentifikaciji, sebe doživljavale kao deo istog naroda. Bez kraljevstva, bez zajedničke vojske, bez zajedničkog dvora — održao se osećaj jedinstva, na kojem će se onda graditi sve što sledi. Posmatran iz osmanskog ugla, taj narod je davao demografsku masu, teritorijalni kontinuitet i tradiciju oružanog otpora. Posmatran iz habzburškog ugla, davao je intelektualni sloj, institucionalne uzore, međunarodne veze i novac. Ujedinjenje koje će doneti 19. i rani 20. vek neće biti susret dva stranca, nego povratak ono dvoje što je vekovima razgovaralo preko granice — sada pod istim krovom."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

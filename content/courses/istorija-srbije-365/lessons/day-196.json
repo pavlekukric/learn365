@@ -6,13 +6,53 @@
   "dayNumber": 196,
   "order": 1,
   "title": "Šta je Srpska revolucija",
+  "subtitle": "Pojam, vremenski okvir i smisao perioda koji je iz osmanskog pašaluka izveo modernu srpsku državu",
   "readingTimeMinutes": 8,
   "year": 1804,
-  "isPlaceholder": true,
+  "dateLabel": "1804–1835.",
+  "timelinePosition": "1804–1835.",
+  "summary": "Šta tačno znači pojam „Srpska revolucija”, ko ga je skovao, koje godine obuhvata i zašto je više od ustanka — uvod u Eru V.",
+  "keyPeople": ["Karađorđe", "Miloš Obrenović", "Leopold fon Ranke"],
+  "keyPlaces": [],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Kada se danas u srpskoj istoriografiji kaže „Srpska revolucija”, ne misli se na jedan dan, jednu bitku ili jedan ustanak. Misli se na ceo niz povezanih događaja kojima je, u prvim decenijama devetnaestog veka, iz Beogradskog pašaluka postepeno izrasla jedna nova država — kneževina sa sopstvenim ustavom, civilnom upravom i međunarodno priznatim položajem. Pojam je u nauku ušao iz pera nemačkog istoričara Leopolda fon Rankea, koji je 1829. godine objavio knjigu „Die serbische Revolution”, kod nas poznatu kao „Srpska revolucija”. Ime se primilo i ostalo, jer je dobro pogađalo suštinu: ono što se odigralo između Orašca i Sretenja bilo je više od pobune — bila je to dugotrajna preraspodela vlasti, zemlje i samog društvenog poretka."
+    },
+    {
+      "type": "paragraph",
+      "text": "Vremenski okvir nije sasvim ujednačen u literaturi. Najčešće se Srpska revolucija datira od 1804. do 1835. godine — od skupštine u Orašcu, kojom je počeo Prvi srpski ustanak, do donošenja Sretenjskog ustava, prvog ustavnog akta nove kneževine. Neki istoričari period skraćuju do 1830, kada su sultanovi hatišerifi konačno potvrdili srpsku autonomiju, a drugi ga produžavaju do 1839, kada je knez Miloš Obrenović morao da abdicira. Postoje i oni koji okvir pomeraju unazad do 1788. i Kočine krajine, videći u srpskim četama na austrijskoj strani neku vrstu predigre. Razlike su stvarne, ali ne menjaju jezgro: jezgro su dva ustanka i dugačak diplomatsko-institucionalni proces koji ih je pretvorio u državu."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Šta sve obuhvata"
+    },
+    {
+      "type": "paragraph",
+      "text": "Prvi sastavni deo je Prvi srpski ustanak (1804–1813) pod vođstvom Karađorđa Petrovića. Pokrenut je kao odbrana od dahijskog terora, ali se brzo razvio u rat za samostalnost. U njegovim godinama prvi put posle 1459. na srpskoj zemlji ponovo postoje srpske državne ustanove — Praviteljstvujušči sovjet, Velika škola u Beogradu, sopstvena vojska i sudovi. Ustanak je 1813. slomljen osmanskom protivofanzivom, ali ono što je izgrađeno u tih devet godina nije moglo biti zaboravljeno. Drugi sastavni deo je Drugi srpski ustanak iz 1815. godine, koji je pod Milošem Obrenovićem izbio na Cvetima u Takovu i, za razliku od prvog, završio se pregovorima a ne porazom. Iz tih pregovora rodila se ograničena, ali stvarna autonomija."
+    },
+    {
+      "type": "paragraph",
+      "text": "Treći sastavni deo je upravo taj diplomatski proces između 1815. i 1830. godine. Korak po korak, kroz sultanove hatišerife — carske ukaze koji su imali snagu osnovnog zakona — Srbija je dobijala sve šire pravo na samoupravu, na sopstvenu crkvenu organizaciju, na izbor kneza i na povlačenje muslimanskog stanovništva iz seoskih oblasti. Četvrti sastavni deo je unutrašnja institucionalna izgradnja pod Milošem, koja je 1835. dosegla vrhunac u Sretenjskom ustavu, jednom od najnaprednijih ustavnih tekstova svog vremena u Evropi, iako je trajao svega nekoliko nedelja pre nego što su ga ruski i austrijski protesti suspendovali."
+    },
+    {
+      "type": "paragraph",
+      "text": "Zašto reč „revolucija”, a ne prosto „ustanak”? Zato što se promena nije zaustavila na oružju. Srpska revolucija je istovremeno bila vojno-politička, društvena i institucionalna. Vojno — jer su seljaci, hajduci i knezovi srušili dotadašnju strukturu osmanske vlasti u pašaluku. Društveno — jer je nestao timarsko-čifluksarski sistem, raseljen je dotadašnji muslimanski zemljoposednički sloj, a srpsko seljaštvo postalo je sloj sitnih, ali samostalnih vlasnika zemlje. Taj seljačko-vlasnički poredak ostaće temelj srpskog društva sve do dvadesetog veka. Institucionalno — jer je na kraju perioda postojala kneževina sa upravom, poreskim sistemom, sudovima, školama i ustavnim aktom, koju su evropske sile morale da priznaju kao činjenicu."
+    },
+    {
+      "type": "paragraph",
+      "text": "Spoljnopolitički, Srpska revolucija nije se odigrala u praznini. Rusija je više puta intervenisala u srpsku korist — najjasnije Bukureškim mirom 1812. i Jedrenskim mirom 1829, kojima je Porta obavezivana da reši srpsko pitanje. Austrija je, kao prvi sused i trgovinski partner, oprezno motrila i povremeno pomagala. Iza svega je stajao širi sklop koji će istoričari nazvati Istočno pitanje — sporo opadanje Osmanskog carstva i pokušaj evropskih sila da to opadanje urede. Od ovog perioda nadalje, srpsko pitanje je trajno deo evropske diplomatije."
+    },
+    {
+      "type": "paragraph",
+      "text": "Vredi je u kontekst staviti i šire. Srpska revolucija stoji u istom dobu kao Američka, kao Francuska, kao revolucije u Latinskoj Americi i kao Grčka revolucija — u onome što istoričari često nazivaju Dobom revolucija. Bila je drugačija od većine njih: vodili su je nepismeni seljaci pravoslavne vere, protiv islamskog imperijalnog gospodara, bez gradova kao žarišta i bez prosvetiteljske inteligencije kao predvodnice. Pobeda je dolazila sporo, u talasima, više kroz iscrpljivanje i pregovore nego kroz jedan veliki preokret. Ali rezultat — nestanak starog poretka, stvaranje nove države i novog društvenog ustrojstva — bio je revolucionaran u istom smislu u kome je to bio i u drugim zemljama tog doba. Srpski primer, uz grčki, postaće obrazac i za druge balkanske hrišćanske narode koji su tek tražili put ka sopstvenoj državi."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ovaj uvodni dan postavlja okvir; sve što sledi u Eri V — od dahijskog terora i seče knezova, preko Misara, Deligrada i Negotina, do Takova, hatišerifa i Sretenja — popunjava ga konkretnim ljudima i događajima. Ono što treba imati na umu jeste da Srpska revolucija nije ni mit ni puka pobuna, već dugačak, neujednačen, često bolan proces u kome je jedna seljačka zajednica postala moderna država. Ni romantizovati je ni umanjivati ne treba; treba je razumeti kao ono što jeste — temelj svega što u srpskoj istoriji devetnaestog i dvadesetog veka dolazi posle."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

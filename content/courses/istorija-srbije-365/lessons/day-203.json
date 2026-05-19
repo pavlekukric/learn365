@@ -6,13 +6,49 @@
   "dayNumber": 203,
   "order": 8,
   "title": "Boj na Mišaru",
+  "subtitle": "Avgust 1806. u Mačvi: kako su ustanici u rovovima zaustavili bosansku vojsku i odbranili zapadni front ustanka",
   "readingTimeMinutes": 8,
   "year": 1806,
-  "isPlaceholder": true,
+  "dateLabel": "1806.",
+  "timelinePosition": "13. avgust 1806.",
+  "summary": "Pobeda ustaničke vojske u Mačvi 13. avgusta 1806. nad bosanskom Sulejman-pašinom vojskom — bitka koja je odbranila zapadni front Prvog srpskog ustanka i ušla u narodnu epiku Filipa Višnjića.",
+  "keyPeople": ["Jakov Nenadović", "Luka Lazarević", "Stojan Čupić", "Miloš Stojićević Pocerac", "Sulejman-paša Skopljak", "Filip Višnjić"],
+  "keyPlaces": ["Mišar", "Mačva", "Šabac"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "U leto 1806. godine Prvi srpski ustanak je već ulazio u treću godinu. Posle početnih uspeha protiv dahija i posle dve teške ratne kampanje, ustanici su držali veliki deo Beogradskog pašaluka — sela, drumove, manje gradove, prelaze preko reka. Ali ključna utvrđenja, pre svega sama Beogradska tvrđava, ostala su u rukama osmanske posade, a Porta je polako shvatala da pred sobom više nema lokalnu pobunu, nego ozbiljnu vojsku koja se mora slomiti. Sa te tačke, sa centralne osmanske strane, plan za 1806. bio je jasan: poslati u Pašaluk dve velike vojske istovremeno, jednu sa zapada iz Bosne i jednu sa juga, i ustanak razbiti u klještima."
+    },
+    {
+      "type": "paragraph",
+      "text": "Zapadni krak tog plana poveren je bosanskom valiji. Sulejman-paša Skopljak okupio je u Bosni krupnu vojsku, sastavljenu pre svega od bosanskih krajišnika, spahija i pratećih odreda. O brojkama treba odmah govoriti oprezno — savremeni i kasniji izvori variraju od oko dvadeset do četrdeset hiljada ljudi, što je čest slučaj kod bitaka onog vremena. Sigurno je da je reč o vojsci znatno većoj od one koju su ustanici mogli na tom pravcu da iznesu, i da je njen cilj bio jasan: preći Drinu, proći kroz Mačvu i probiti se prema Šapcu i dalje na istok, gde bi se, po planu, spojila sa osmanskim snagama oko Beograda. Ako bi taj spoj uspeo, ustanak bi se našao između dve vojske, bez dovoljno ljudi i bez prostora za manevar."
+    },
+    {
+      "type": "paragraph",
+      "text": "Vrhovni vožd Karađorđe u tom trenutku nije bio u Mačvi — njegovo prisustvo bilo je potrebno na južnom frontu, gde se sa istog razloga skupljala druga osmanska vojska. Odbrana zapada pala je u ruke mačvanskih i pocerskih komandanata. Jakov Nenadović, jedan od najstarijih i najuticajnijih starešina ustanka, preuzeo je politički i organizacioni teret. Pop Luka Lazarević, sveštenik koji je rano stao na čelo oružanih ljudi svoga kraja, Stojan Čupić, hajdučki vođa kasnije upamćen kao „zmaj od Noćaja”, i Miloš Stojićević Pocerac, jedan od najboljih ratnika svoga vremena, vodili su odrede na terenu. Pod njihovom komandom okupilo se, po različitim procenama, između sedam i deset hiljada ustanika. Bili su brojčano slabiji, ali su poznavali svaku gredu, šumarak i mokrinu Mačve."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Bitka i njene posledice"
+    },
+    {
+      "type": "paragraph",
+      "text": "Glavna bitka odigrala se 13. avgusta 1806. godine na ravnici Mišar — Mišarskom polju — u Mačvi, nedaleko od Šapca. Srpski komandanti odlučili su da ne dočekuju neprijatelja u pokretu, nego da iskoriste otvoreno polje za nešto što su Osmanlije najmanje očekivale od „raje”: za pravu rovovsku, utvrđenu odbranu. Tokom prethodnih dana podignuti su šanci, zemljani opkopi i palisade, raspoređeni tako da kanališu napad konjice u uske prolaze pod unakrsnu vatru. Bosanska vojska došla je u dugim kolonama i pokušala da probije srpski poredak u nekoliko uzastopnih juriša. Borba je trajala satima i bila teška; pojedini delovi srpskog položaja klečali su nad zemljom, ali su izdržali. Kada se napadački zamah istrošio, ustanici su izveli kontranapad i razbili neprijateljsku liniju. Povlačenje se pretvorilo u rasulo i poteru kroz Mačvu, u kojoj je bosanska vojska pretrpela teške gubitke. Među poginulima bio je i Kulin-kapetan, jedan od istaknutih bosanskih krajiških zapovednika, čija će smrt kasnije zauzeti posebno mesto u narodnom sećanju."
+    },
+    {
+      "type": "paragraph",
+      "text": "Posledice Mišara bile su daleko veće od jedne ratne pobede. Bosanska vojska kao operativna celina prestala je da postoji za tu kampanju; planirano spajanje sa snagama u Beogradu i južno od Save nije se moglo izvesti. Zapadni front ustanka bio je odbranjen, a srpska kontrola nad zapadnom polovinom Pašaluka učvršćena. Vest o pobedi brzo se proširila i podigla moral i u onim krajevima koji su do tada oklevali. Strani posmatrači — ruski oficiri na granici, austrijske vlasti iz Srema — sada su o ustaničkoj vojsci počeli da pišu drugačijim tonom: ne više kao o pobuni seljaka, nego kao o snazi koja u otvorenom polju može da dobije bitku protiv regularne osmanske vojske. Nedugo posle Mišara, na jugoistočnom frontu, Karađorđe je kod Deligrada razbio drugu osmansku vojsku, čime je dvostruki osmanski plan za 1806. potpuno propao."
+    },
+    {
+      "type": "paragraph",
+      "text": "Mišar je vrlo brzo prešao iz vojne istorije u narodno pamćenje. Slepi guslar Filip Višnjić, koji je tih godina pratio ustanak po Sremu i Mačvi, sastavio je epsku pesmu „Boj na Mišaru” — jedno od najpoznatijih dela srpske usmene epike, koje će kasnije Vuk Karadžić zapisati i objaviti. Pesma je sažela bitku u nekoliko slika: pismo Kulin-kapetanove kapetanice, dolazak vojske, sukob u polju, propast napada. Upravo je ta pesma više od bilo kog vojnog izveštaja učvrstila Mišar u kolektivnom sećanju i dala mu mesto među bitkama koje se pamte i kada se zaboravi sve drugo iz iste godine. Treba, međutim, čitati istoriju i epiku odvojeno: pesma uvećava, ujednačava i moralizuje, dok stvarna bitka ima svoju težinu i bez tih ukrasa."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ako se Mišar gleda trezveno, on je primer onoga što su pokreti za oslobođenje u XIX veku često morali da pronađu da bi opstali — jedne odbrambene, dobro pripremljene pobede u pravom trenutku, koja nije osvojila novu teritoriju, ali je odbranila stečenu i kupila vreme. Za ustanak je 1806. bila godina kada je pokazano da pobune nije moguće više rešiti slanjem jedne paše s vojskom. Sa Mišarom i Deligradom ustanička Srbija je u očima Carigrada, ali i Beča i Petrograda, prestala da bude unutrašnji nemir Pašaluka i postala činjenica balkanske politike, sa kojom će se u narednim godinama računati za pregovaračkim stolom isto koliko i na bojnom polju."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

@@ -6,13 +6,57 @@
   "dayNumber": 107,
   "order": 2,
   "title": "Knez Lazar — uspon",
+  "subtitle": "Od dvorskog službenika Dušanovog vremena do prvog čoveka srpskih zemalja u senci osmanske pretnje",
   "readingTimeMinutes": 7,
   "year": 1371,
-  "isPlaceholder": true,
+  "dateLabel": "oko 1371.",
+  "timelinePosition": "oko 1371.",
+  "summary": "Poreklo, brak i postepeno uzdizanje kneza Lazara Hrebeljanovića u središtu srpskih zemalja posle Maričke bitke i smrti cara Uroša 1371. godine.",
+  "keyPeople": ["Lazar Hrebeljanović", "Milica", "Pribac", "Tvrtko I Kotromanić", "Nikola Altomanović"],
+  "keyPlaces": ["Kruševac", "Ravanica", "Lazarica", "Prokuplje", "Pomoravlje"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Kada se 1371. godine, posle Maričke bitke i smrti cara Uroša, raspala jedinstvena državna tvorevina koju je Dušan podigao, srpske zemlje nisu imale jednog gospodara — imale su nekoliko jakih oblasnih kuća, među kojima nijedna nije bila dovoljno snažna da preuzme staru carsku titulu. U toj rascepkanoj slici, polako, gotovo nečujno, kao prvi među jednakima izdvojio se čovek koji je do tada bio više dvorski službenik nego veliki velmoža — Lazar Hrebeljanović, gospodar središnjeg Pomoravlja."
+    },
+    {
+      "type": "paragraph",
+      "text": "Rodio se oko 1329. godine u porodici srednjeg plemstva. Otac mu je bio Pribac Hrebeljanović, logotet na dvoru cara Dušana — visok, ali ne i najviši službenik, čovek pera i kancelarije pre nego mača. Lazar je odrastao u tom okviru, blizak dvoru ali bez sopstvene velike oblasti i bez dinastičkog ugleda kakav su imale stare vlasteoske kuće. Prošao je uobičajenu obuku za dvorskog mladića tog vremena: pismenost, ophođenje s vlastelom, vojnu službu u vladarevoj pratnji. U izvorima Dušanove vlade pominje se uzgredno, kao jedan od mlađih ljudi koji su rasli u senci velikih imena."
+    },
+    {
+      "type": "paragraph",
+      "text": "Presudan korak ka većem ugledu bio je brak. Lazar se oženio Milicom, kneginjom iz bočne grane Nemanjića — potomkom Vukana, starijeg brata Stefana Nemanje. Tačan stepen srodstva u pojedinim rodoslovima nije svuda isto prikazan, ali su izvori saglasni: kroz Milicu je Lazar ušao u krug nemanjićke krvi. Posle nestanka muške loze Nemanjića 1371, dinastička legitimnost je postala redak i tražen kapital, a Lazar je preko žene mogao da ga ponudi."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pod Dušanom, a zatim i pod Urošem V, Lazar je služio kao oblasni gospodar u središnjem Pomoravlju, sa težištem oko Kruševca i Prokuplja. Bila je to oblast koja u Dušanovo vreme nije spadala u najsjajnije — sjaj je tada bio na jugu, u Skoplju, Seru, Prilepu, u zemljama koje su gledale ka Egeju. Posle pogibije braće Mrnjavčevića na Marici 1371. i smrti cara Uroša iste godine, ta geografija se preokrenula. Jug se prvi našao pod osmanskim pritiskom; središte, zaklonjeno planinama i rekama, najednom je postalo strateški najvrednije. Lazar je sedeo upravo u njemu."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Sabiranje središta"
+    },
+    {
+      "type": "paragraph",
+      "text": "U godinama posle 1371. Lazar je svoj položaj učvršćivao na dva načina — oružjem i porodičnim vezama. Prvi veliki vojni uspeh došao je 1373. godine, u savezu sa bosanskim banom, kasnijim kraljem Tvrtkom I Kotromanićem, protiv Nikole Altomanovića, gospodara zapadnih srpskih oblasti. Altomanović je važio za jednog od najsilnijih i najnasilnijih velikaša svog vremena; njegovim porazom i zarobljavanjem Lazar i Tvrtko podelili su njegovu državu. Lazaru su pripale oblasti uz Zapadnu Moravu i deo Podrinja, čime se njegova kneževina proširila ka zapadu i dobila granicu na koju se moglo osloniti. Bio je to onaj redak slučaj u srpskim prilikama tog veka kada je ratni potez doneo i prostor i ugled."
+    },
+    {
+      "type": "paragraph",
+      "text": "Drugi, tiši, ali ne i manje važan posao bio je brak. Lazar i Milica imali su nekoliko kćeri, i svaku od njih udali su promišljeno. Jedna je postala žena Vuka Brankovića, gospodara Kosova i susednih oblasti; druga žena Đurđa II Stracimirovića Balšića u Zeti; treća se udala u Bugarsku, u carsku porodicu u Trnovu; ostale su otišle u druge vlasteoske kuće. Tako se oko Lazara, korak po korak, ispleo rodbinski savez koji je obuhvatao gotovo sve značajne srpske zemlje i protezao se i preko njihovih granica. Bez carskog imena, bez vojske kakvu je Dušan vodio, knez je svoje središte vezivao za druge dvorove brakom, a ne potčinjavanjem."
+    },
+    {
+      "type": "paragraph",
+      "text": "Titulu je nosio skromnu. Lazar nikada nije sebe nazvao kraljem, a kamoli carem — ostao je „knez”, što je u staroj slovenskoj tradiciji značilo prvog gospodara, ali nije ulazilo u trag carskoj kruni nemanjićkog doba. U pojedinim poveljama i natpisima zove se i „samodržac”, što je carski pridevak i znači vladara koji nikome iznad sebe ne odgovara; u tome se vidi njegova želja da bude priznat kao samostalni gospodar, ali bez prisvajanja onoga što mu nije pripadalo. Ta umerenost u tituli pratila je i njegovo držanje: bio je oprezan u rečima, čvrst u poslu, sklon da krupne stvari obavi malim koracima."
+    },
+    {
+      "type": "paragraph",
+      "text": "Crkva mu je u tom uspinjanju bila prirodni saveznik. Godine 1375, posredstvom kneza Lazara i carigradskog patrijarha, okončan je dugotrajan raskol između Srpske patrijaršije i Carigrada — raskol koji je tinjao još od jednostrane srpske elevacije iz 1346, kada je Dušan podigao srpsku arhiepiskopiju na rang patrijaršije bez saglasnosti vaseljenske stolice. Pomirenje 1375. vratilo je Srbe u puno kanonsko zajedništvo pravoslavnog sveta i Lazaru donelo ugled vladara koji vodi računa o veri jednako koliko i o oblastima. Iz istog opredeljenja niknule su i njegove zadužbine. Manastir Ravanica, podignut između oko 1377. i 1381. godine, biće njegova grobna crkva; Lazarica u Kruševcu, sazidana otprilike u isto vreme, ostala je dvorska crkva njegovog grada. Obe pripadaju takozvanoj moravskoj školi i, već svojim oblikom, govore o vladaru koji je hteo da središte srpske zemlje pomeri ka severu, daleko od osmanske granice."
+    },
+    {
+      "type": "paragraph",
+      "text": "Slika koju izvori o Lazaru ostavljaju mahom je usklađena: pobožan, odmeren, lukav kada je trebalo, hrabar kada se nije moglo drukčije. Treba pomenuti da su mnoge od tih ocena nastale posle njegove smrti, u krugu žitija i crkvene pohvale, pa su sklone da idealizuju. Ono što se ipak može reći mirno jeste da je do početka osamdesetih godina XIV veka Lazar postao prvi čovek središnjih srpskih zemalja — knez čija se reč slušala od Drine do Timoka. Sve to vreme, sa juga, preko nekadašnjih oblasti Mrnjavčevića i preko Makedonije, neumitno se primicala osmanska sila. Pripreme za sukob koji će ostati zapamćen kao Kosovska bitka tek su počinjale."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

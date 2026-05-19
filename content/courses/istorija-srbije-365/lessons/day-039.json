@@ -6,13 +6,57 @@
   "dayNumber": 39,
   "order": 3,
   "title": "Huni, Goti i Avari",
+  "subtitle": "Tri naroda koja su prošla preko Balkana pre nego što su Sloveni našli svoju zemlju",
   "readingTimeMinutes": 7,
   "year": 500,
-  "isPlaceholder": true,
+  "dateLabel": "4–7. vek n. e.",
+  "timelinePosition": "~500. n. e.",
+  "summary": "Huni, Goti i Avari — tri velika naroda koji su između četvrtog i sedmog veka uzdrmali rimski i vizantijski Balkan i, svaki na svoj način, otvorili vrata kasnijoj slovenskoj seobi.",
+  "keyPeople": ["Atila", "Teodorih Veliki", "Alarih"],
+  "keyPlaces": ["Panonija", "Dunav", "Carigrad", "Naissus", "Rim"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Pre nego što Sloveni stignu na Balkan i tu počnu da grade svoj svet, preko ovog prostora proći će ili nad njim zavladati nekoliko velikih i opasnih naroda. Tri su najvažnija — Huni, Goti i Avari. Svaki od njih ostavio je trag u kasnoantičkoj i ranovizantijskoj istoriji, svaki je razarao gradove i menjao granice, i svaki je, posredno ili neposredno, doprineo tome da se zatečeni rimski poredak na Dunavu raspadne i da se otvori prostor za doseljenike koji će tek doći."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pre svega valja reći jednu poštenu napomenu. O ovim narodima znamo gotovo isključivo iz rimskih i vizantijskih izvora — dakle, iz pera onih kojima su oni bili neprijatelji, varvari, opasnost s druge strane Dunava. Slika je zato gotovo uvek mračna, pretrpana užasom i preuveličanim brojevima. Arheologija ponešto ispravlja, ali ne sve. Treba čitati sa rezervom: ovo nisu bili samo razarači, već i složena društva sa svojim jezicima, religijom i političkim ustrojstvom — koje, nažalost, znamo površno."
+    },
+    {
+      "type": "paragraph",
+      "text": "Huni su prvi u nizu. Bili su nomadski narod konjanika sa evroazijske stepe, koji se u Evropi pojavljuje u poslednjim decenijama četvrtog veka. Njihov dolazak izazvao je pravu lančanu reakciju. Pritiskom sa istoka pomerili su germanske Gote i naterali ih da pređu Dunav i 376. godine zatraže utočište u Rimskom carstvu — što je ubrzo dovelo do bitke kod Hadrijanopolja, jedne od najtežih rimskih poraza. Sami Huni dugo su delovali kao niz razjedinjenih kraljevstava i hordi. Tek u prvoj polovini petog veka, pod Atilom, oni se ujedinjuju u silu koja od panonske ravnice ucenjuje oba dela carstva — i istočno i zapadno."
+    },
+    {
+      "type": "paragraph",
+      "text": "Za Balkan su godine 441–442. i 447. ostale upamćene kao vreme strašnih hunskih pohoda. Atila je rušio jedan utvrđeni grad za drugim. Među najpoznatijim žrtvama bio je upravo Naissus — Niš — koji je toliko temeljito razoren da su, prema rečima jednog vizantijskog izveštača, godinama posle pohoda obale reke i dalje bile prekrivene ljudskim kostima. Sirmijum, Singidunum, Viminacijum i mnogi drugi gradovi na dunavskom limesu nikada se posle hunske najezde nisu sasvim oporavili. Atilino carstvo, međutim, počivalo je gotovo isključivo na njegovoj ličnosti. Kad je on 453. godine umro, među njegovim sinovima izbio je rat, a podjarmljena germanska plemena ustala su i razbila hunsku vlast u jednoj jedinoj velikoj bici. Huni nestaju iz istorije gotovo onako naglo kao što su se i pojavili."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Goti i Avari"
+    },
+    {
+      "type": "paragraph",
+      "text": "Goti su priča druge vrste. Bili su to istočnogermanski narodi, već dugo nastanjeni severno od Crnog mora, i hrišćani — istina, arijanske vere, koja je u carstvu smatrana jeretičkom. Posle 376. godine sve češće ih nalazimo unutar rimskih granica, čas kao saveznike, čas kao pobunjenike. Jedan njihov ogranak, Vizigoti, pod Alarihom je 410. godine učinio nešto što je tada izgledalo nezamislivo — opljačkao je sam Rim. Grad je već decenijama bio bez carskog dvora, ali simboličan udarac bio je ogroman; savremenicima se činilo da se ruši poredak sveta."
+    },
+    {
+      "type": "paragraph",
+      "text": "Drugi ogranak, Ostrogoti, prošao je kroz Balkan i Panoniju kao saveznik istočnorimskog cara. Njihov kralj Teodorih, kasnije nazvan Velikim, godinama je proveo u Carigradu kao taoc i vaspitanik dvora, pa je dobro poznavao rimske običaje. Carstvo ga je 488. godine uputilo na zapad — da od pobunjenog germanskog vojskovođe Odoakra preuzme Italiju, formalno kao foederat, odnosno saveznik. Posao je obavljen do 493. godine, a ostrogotska država u Italiji opstala je do 553, kada ju je sa istoka, posle dugotrajnog rata, slomio car Justinijan. Za centralni Balkan važno je upamtiti da su Goti, pre nego što su otišli u Italiju, dugo bili tu — kao naseljenici, najamnici i pljačkaši, sve istovremeno."
+    },
+    {
+      "type": "paragraph",
+      "text": "Treći narod, Avari, na scenu stupaju sredinom šestog veka. Po poreklu su, najverovatnije, centralnoazijski stepski savez, srodan kasnijim turkijskim narodima, mada o tome i danas postoje rasprave. Pošto su preko stepa stigli u Evropu, u Karpatskom basenu su, na mestu nekadašnjeg hunskog jezgra, ustanovili moćan kaganat. Više od dva veka njihov kagan biće jedan od glavnih sagovornika — i izazivača — vizantijskih careva. Avarska vojna sila počivala je na konjici, opsadnom oružju i, vrlo važno, na množini potčinjenih plemena koja su išla pred njima u boj. Među tim plemenima sve češće su, od kraja šestog veka, Sloveni."
+    },
+    {
+      "type": "paragraph",
+      "text": "Upravo se tu kriju za našu priču najvažnije godine. Avari su, sami ili sa slovenskim odredima, sistematski razarali balkanske gradove krajem šestog i početkom sedmog veka. Vrhunac je čuvena opsada Carigrada 626. godine, kada su Avari sa svojim slovenskim saveznicima napali grad sa kopna, a Persijanci sa istoka — i bili odbijeni pred bedemima. Avarska moć je posle tog poraza počela da slabi, ali šteta po vizantijski Balkan već je bila učinjena. Rimski limes na Dunavu trajno je probijen, gradovi razoreni ili napušteni, a u prostor između propalih utvrda počinju da se naseljavaju upravo Sloveni, koji su do tada dolazili samo u pljačkaškim pohodima."
+    },
+    {
+      "type": "paragraph",
+      "text": "Tako su, posmatrano s naše tačke gledišta, Huni, Goti i Avari delovali pre svega kao razarači starog poretka. Ali isti taj njihov rad otvorio je prostor u kome će Sloveni — narod o kome ćemo govoriti u sledećim lekcijama — pronaći zemlju, ostati i polako postati nešto novo: balkansko slovenstvo iz koga će, mnogo vekova kasnije, izrasti i prvi obrisi srpske istorije."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

@@ -6,13 +6,49 @@
   "dayNumber": 159,
   "order": 9,
   "title": "Život na selu",
+  "subtitle": "Kako je izgledao svakodnevni život srpskog seljaka pod osmanskom vlašću, od 16. do 18. veka",
   "readingTimeMinutes": 7,
   "year": 1650,
-  "isPlaceholder": true,
+  "dateLabel": "16–18. vek",
+  "timelinePosition": "16–18. vek",
+  "summary": "Selo kao osnovna ćelija srpskog društva pod Osmanlijama: struktura naselja, zadruga, knez i kmet, parohijska crkva, usmeno predanje i tiha izdržljivost koja je vekovima nosila identitet.",
+  "keyPeople": [],
+  "keyPlaces": [],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Najveći deo srpskog stanovništva pod osmanskom vlašću nije živeo u gradovima, ni u utvrđenjima, ni na dvorovima — već u malim selima razbacanim po brdima, dolinama i šumskim obroncima Balkana. Tu se, daleko od kancelarija sandžak-begova i daleko od pisanih hronika, odvijao tihi, ponavljajući život koji je vekovima nosio jezik, veru i običaje. O tom životu znamo manje nego što bismo želeli; veliki deo onoga što danas zamišljamo dolazi iz znatno kasnijih, devetnaestovekovnih zapisa folklorista i putopisaca, koji su sliku sela svog vremena nesvesno projektovali unazad. Pa ipak, osmanski popisni defteri, putopisi stranaca i crkveni izvori dopuštaju da se izvuče oprezna, ali prepoznatljiva slika."
+    },
+    {
+      "type": "paragraph",
+      "text": "Tipično selo bilo je malo — najčešće znatno ispod sto domaćinstava, ponekad svega dvadesetak ili tridesetak kuća. Naselja su se obično okupljala oko parohijske crkve ili groblja, sa kućama na manjim plotovima i baštama iza njih. Iza tog užeg jezgra prostirale su se njive, livade, pašnjaci i šume — zajedničke ili podeljene među porodicama. Tip naselja zavisio je od kraja: u brdovitim oblastima kuće su znale biti razbacane po padinama, dok su u ravničarskim predelima bile zbijene oko centralnog trga. Građene su uglavnom od drveta, pletera oblepljenog blatom ili — gde je bilo materijala — od kamena, sa krovom od slame, šindre ili kamena, već prema podneblju."
+    },
+    {
+      "type": "paragraph",
+      "text": "Unutar sela vladao je osetan stepen samouprave. Osmanska vlast nije imala ni resurse ni interes da se meša u svakodnevicu raje sve dok je porez stizao na vreme. Zato su sela birala svoje starešine — najčešće su to bili knez i kmet — koje su seoski domaćini izglasavali na neformalnim skupovima. Knez je predstavljao selo pred spahijom i poreznikom, sakupljao dažbine i pregovarao oko terenskih nepogoda. Kmet je rešavao manje sporove, oko međa, krađe stoke, porodičnih razmirica. Krupnija pitanja izlazila su pred seoski sabor — okupljanje odraslih muškaraca, najčešće posle liturgije ili o slavi, gde se odlučivalo o zajedničkim poslovima: popravci crkve, deobi pašnjaka, izboru novog kneza."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Polje, ognjište, crkva"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ekonomski život sela bio je oslonjen na zemljoradnju i stočarstvo. Sejane su pšenica, raž, ječam i zob; tokom 17. veka iz Novog sveta, preko Mediterana, polako se širi kukuruz, koji će kasnije postati jedna od osnovnih kultura. U baštama su rasli grah, kupus, luk i drugo povrće; gajeno je voće — šljiva, jabuka, kruška — i vinova loza tamo gde je klima dopuštala. Stoka — ovce, koze, svinje, goveda i volovi za oranje — bila je jednako važna, ponegde i važnija od žita. Pčelarstvo je davalo med i vosak, a kućna izrada vunenih i lanenih tkanina pokrivala je deo potreba za odećom. Alat je bio jednostavan: drveno ralo, motike, srpovi i gvozdeni okovi. U pojedinim selima živeli su i specijalizovani majstori — kovači, grnčari, tkalje — koji su robu razmenjivali sa susedima."
+    },
+    {
+      "type": "paragraph",
+      "text": "U srcu svega bila je porodica, a tipičan oblik porodice — naročito u 17. i 18. veku — bila je zadruga: prošireno domaćinstvo u kome je pod jednim krovom, ili u nekoliko spojenih kuća, živelo više generacija i porodice braće zajedno. Na čelu je stajao domaćin — najčešće najstariji muškarac, mada ne uvek — koji je upravljao zajedničkim poslovima, dok je domaćica vodila kuhinju, baštu i decu. Zemlja se nije delila između braće sve dok su mogli da rade zajedno; rad je bio zajednički, jelo zajedničko, a prihod ulagao u opstanak celine. Manje, jezgrene porodice su postojale, ali zadruga je u mnogim krajevima bila norma — i upravo je ona omogućila selima da prežive periode rata, kuge i bekstava."
+    },
+    {
+      "type": "paragraph",
+      "text": "Religiozni život vrteo se oko parohijske crkve i kalendara pravoslavnih praznika. Sveštenik, često i sam seljak koji je obrađivao zemlju, bio je jedan od retkih pismenih ljudi u selu i poštovana spona između običnog sveta i šire crkvene zajednice. Godina je bila razdeljena Božićem, Vaskrsom, Vidovdanom, krsnim slavama i danima lokalnih svetitelja. O većim praznicima išlo se na poklonjenje obližnjim manastirima, koji su, naročito posle obnove Pećke patrijaršije 1557, ponovo postali žarišta duhovnog života. Crkvena godina davala je ritam koji je bio stariji i postojaniji od smene osmanskih namesnika."
+    },
+    {
+      "type": "paragraph",
+      "text": "Kulturni život počivao je na usmenom predanju. Malo ko je umeo da čita; knjige su bile retke i uglavnom crkvene — psaltir, jevanđelje, časoslov. Ali zato su uveče, oko ognjišta ili na zborovima, pričane stare priče, pevane epske pesme uz gusle, i igrana kola koja su obeležavala svadbe i praznike. Veza sa spoljnim svetom odvijala se preko obližnje čaršije, gde su seoski muškarci povremeno odlazili na pijacu, i preko sezonskog rada; pojedinci su odlazili u gradove ili, u teškim vremenima, u hajduke. Sa državom su se susretali uglavnom kroz lice poreznika i — sve češće u 18. veku — kroz čifluk-sahibiju, novog gospodara zemlje. Pritisci su bili stvarni: nameti, samovolja lokalnih moćnika, razbojnički upadi, povremena ratna pustošenja, pa i pritisak na veru. A ipak je upravo to selo — svojom zadrugom, crkvom, slavom i pesmom — vekovima sačuvalo ono na čemu će u 19. veku biti građena obnova srpske države."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

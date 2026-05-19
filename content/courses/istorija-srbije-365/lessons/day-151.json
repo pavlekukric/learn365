@@ -6,13 +6,53 @@
   "dayNumber": 151,
   "order": 1,
   "title": "Ustrojstvo Osmanskog carstva",
+  "subtitle": "Kako je izgledala država koja je više od četiri veka vladala srpskim zemljama — od sultana do seoskog kneza",
   "readingTimeMinutes": 8,
   "year": 1600,
-  "isPlaceholder": true,
+  "dateLabel": "15–18. vek",
+  "timelinePosition": "15–18. vek",
+  "summary": "Sultan, Porta i veliki vezir na vrhu; ejaleti i sandžaci u provinciji; mileti za verske zajednice; šerijat i kanun u pravu — uređenje carstva koje je vladalo srpskim zemljama.",
+  "keyPeople": [],
+  "keyPlaces": [],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Da bi se razumeo život srpskog naroda u dugim vekovima posle pada despotovine, mora se najpre razumeti država koja je nad tim narodom raširila svoju vlast. Osmansko carstvo nije bilo samo vojska koja je 1459. zauzela Smederevo, niti samo poreznik koji je dolazio u selo. Bila je to, naročito u 16. veku, jedna od najvećih i najsloženijih političkih tvorevina tadašnjeg sveta — država koja se u doba sultana Sulejmana Veličanstvenog (vladao 1520–1566) prostirala od Ugarske i Balkana, preko Anadolije i Sirije, do Egipta, severne Afrike i delova Arabije. Ova lekcija otvara četvrtu epohu pokušajem da se to ustrojstvo prikaže mirno i pošteno — bez demonizacije i ulepšavanja, kao sistem sa svojom unutrašnjom logikom."
+    },
+    {
+      "type": "paragraph",
+      "text": "Na vrhu cele zgrade stajao je sultan. On je istovremeno bio i vrhovni vladar, i vrhovni vojskovođa, i — barem u načelu — zaštitnik islama u celom carstvu; od početka 16. veka, posle osvajanja Egipta, osmanski sultan nosio je i titulu halife, vođe svih sunitskih muslimana. Njegova vlast bila je apsolutna u smislu da nije postojalo telo koje bi je formalno ograničavalo, ali je u praksi bila ograničena šerijatom, dvorskom tradicijom i moći velikih službenika oko njega. Sultanova ličnost i sposobnost, kao i u svakoj monarhiji, dramatično su uticali na to kako je carstvo funkcionisalo: razlika između Sulejmana i njegovih slabijih naslednika osetila se na sve četiri strane Balkana."
+    },
+    {
+      "type": "paragraph",
+      "text": "Oko sultana se gradila centralna vlada koja se zvala Porta, ili svečanije Visoka Porta — po vratima carskog dvora kroz koja se ulazilo u službene odaje. Njen prvi čovek bio je veliki vezir, glavni ministar i, kada je sultan bio na vojnom pohodu ili duhovno odsutan, faktički upravnik carstva. Veliki vezir je predsedavao Divanom, savetom najviših državnih službenika u kome su sedeli i drugi veziri, vrhovne sudije (kadi-askeri), čuvar pečata i upravnik finansija. Divan je nekoliko puta nedeljno odlučivao o državnim poslovima, primao žalbe i izdavao zapovesti — bila je to, sa današnje tačke gledišta, kombinacija vlade, vrhovnog suda i upravnog tela."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Provincija, milet i pravo"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ispod centra, carstvo se delilo na velike pokrajine zvane ejaleti ili beglerbeglici, kojima su upravljali beglerbezi. Svaki ejalet se dalje delio na sandžake — manje vojno-upravne celine na čijem je čelu stajao sandžak-beg. Sandžaci su se delili na kadiluke, kadiluci na nahije, a najniži stepen činila su sela. Za srpske zemlje najvažniji deo te lestvice bio je Smederevski sandžak, osnovan posle pada despotovine 1459. i tokom dugog razdoblja glavna upravna jedinica nad većim delom centralne Srbije; krajem 17. i u 18. veku, sa novim ratovima i graničnim promenama, težište se pomerilo i pojavio se Beogradski pašaluk kao okvir u kome će se kasnije razviti prvi srpski ustanak. Granice, imena i obim ovih jedinica menjali su se više puta, ali je princip ostao isti — vojska, porez i pravosuđe pratili su isti administrativni skelet."
+    },
+    {
+      "type": "paragraph",
+      "text": "Posebnost osmanske države, koja je za sudbinu srpskog naroda bila presudna, jeste način na koji je organizovala stanovništvo drugih vera. Carstvo je svoje nemuslimanske podanike posmatralo prevashodno kroz versku pripadnost, a ne kroz jezik ili poreklo. Svaka veća verska zajednica činila je jedan milet, sa pravom da pod nadzorom svojih crkvenih ili verskih starešina sama uređuje porodična i verska pitanja. Pravoslavni milet — takozvani „Rum milet” — bio je pod vrhovnom vlašću carigradskog patrijarha, i u tom je okviru funkcionisala i Srpska pravoslavna crkva, naročito pošto je 1557. godine, milošću Porte, obnovljena Pećka patrijaršija. Paralelno su postojali katolički, jermenski i jevrejski milet. Mileti su sami ubirali deo poreza, vodili svoje matične i sudske knjige i bili u dnevnom dodiru sa svojim vernicima."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pravo je u carstvu bilo slojevito. Za muslimane je važio šerijat, islamsko versko pravo, koje su primenjivali kadije — sudije obrazovane u verskim školama. Pored šerijata, sultan je za državne i upravne poslove izdavao kanun, svetovne propise koji su uređivali poreze, vojne dužnosti, zemljišne odnose i kaznene mere; ova dvojnost dala je carstvu fleksibilnost koju čisti verski sistem ne bi imao. Za unutrašnje stvari nemuslimanskih zajednica važilo je milet-pravo, koje je sprovodila crkvena hijerarhija — u srpskoj sredini patrijarh, mitropoliti i episkopi. Tako je seljak iz Šumadije mogao da se za ostavinski spor obrati svome svešteniku i episkopu, a za zemljišni ili krivični predmet kadiji u najbližoj kasabi."
+    },
+    {
+      "type": "paragraph",
+      "text": "Vojska je počivala na nekoliko stubova. Stalnu silu činili su kapikulu, „robovi Porte”, profesionalni vojnici izdržavani iz carske kase, među kojima su najpoznatiji bili janičari, pešadijski elitni red. Provincijsku konjicu davali su spahije, koji su za vojnu službu dobijali pravo na prihod sa određenih sela — sistem o kome će biti više reči u sledećoj lekciji. Pogranične oblasti čuvale su posebne formacije, a carska mornarica vladala je istočnim Sredozemljem. Privreda je počivala na timarskom uređenju, državnim monopolima i porezu; od 17. veka sve veći značaj dobija iltizam, zakup poreza, koji će dugoročno oslabiti centar i otežati život raji."
+    },
+    {
+      "type": "paragraph",
+      "text": "Šta je sve to značilo za srpsko stanovništvo? Srpske zemlje bile su deo ovog ustrojstva kao i bilo koja druga osmanska oblast — bez posebnog statusa, ali i bez posebne diskriminacije van opštih pravila za nemuslimanske podanike. Pravoslavni seljak bio je raja, „stado” koje plaća porez i obrađuje zemlju; lokalni knezovi i kmetovi imali su skromnu, često neformalnu ulogu u upravi sela i posredovanju sa vlastima; crkva je bila institucionalni krov koji je narod držao na okupu. Sistem nije bio ni rajski ni paklen — bio je to ozbiljan, dugotrajan poredak sa svojim pravilima, čije ćemo pojedine delove, od timara do janičara i Pećke patrijaršije, u narednim danima pogledati izbliza."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

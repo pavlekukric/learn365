@@ -6,13 +6,53 @@
   "dayNumber": 202,
   "order": 7,
   "title": "Praviteljstvujušči sovjet",
+  "subtitle": "Kako je ustanička Srbija pokušala da pored vožda postavi i savet — i da iz seoske bune izvuče prvu modernu instituciju",
   "readingTimeMinutes": 7,
   "year": 1805,
-  "isPlaceholder": true,
+  "dateLabel": "1805.",
+  "timelinePosition": "1805.",
+  "summary": "Praviteljstvujušči sovjet, osnovan 1805. godine, prvi je pokušaj ustaničke Srbije da uz vožda Karađorđa izgradi kolektivnu civilnu vlast — savet nahijskih predstavnika koji vodi sudstvo, finansije i diplomatiju, i godinama se sa Karađorđem spori oko granica lične i institucionalne vlasti.",
+  "keyPeople": ["Mateja Nenadović", "Jakov Nenadović", "Karađorđe", "Mladen Milovanović"],
+  "keyPlaces": ["Borač", "Beograd", "Smederevo"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Već u drugoj godini ustanka osetilo se da puška i sablja nisu dovoljne. Posle prvih pobeda nad dahijama i njihovim odredima, pred ustaničkim starešinama otvorilo se pitanje koje nijedna bitka nije mogla da reši — ko će u oslobođenim nahijama dosuđivati pravdu, sakupljati porez, slati pisma stranim dvorovima i potpisivati ih u ime „srpskoga naroda”. Karađorđe je već bio priznat kao vrhovni vožd, ali je bio na bojištu i u logoru, a u pozadini je rastao haos pred kojim su mu i sam ugled i sablja bili kratki. Iz te potrebe, leta 1805. godine, ponikla je institucija koja će dobiti neobično, polurusko ime — Praviteljstvujušči sovjet."
+    },
+    {
+      "type": "paragraph",
+      "text": "Samo ime mnogo govori o vremenu. „Praviteljstvujušči sovjet” je crkvenoslovensko-ruska kovanica koja u srpskom jeziku tog doba zvuči svečano i učeno; doslovno znači „vladajući savet” ili „upravljajući savet”. Slavenosrpski književni jezik, koji su tada koristili obrazovani Srbi iz Vojvodine i sveštenstvo, bio je prepun rusko-slovenskih oblika, a Rusija je u to vreme bila glavni uzor pravoslavnog državnog uređenja. Kada je Mateja Nenadović, prota iz Brankovine, sastavljao prve uredbe i pisma, koristio je upravo taj jezik visokog stila — jer je trebalo da pisma deluju kao da ih piše neka uredna kancelarija, a ne ustanički logor pod šljivama."
+    },
+    {
+      "type": "paragraph",
+      "text": "O tačnom mestu i datumu osnivanja izvori se ne slažu sasvim. Najčešće se pominje skupština u Borču, u rudničkom kraju, u leto 1805. godine, sazvana na inicijativu Nenadovića — pre svega prote Mateje i njegovog strica Jakova, valjevskog vojvode. Sledeće skupštine, naročito ona u Smederevu krajem 1805. i početkom 1806, dodatno su potvrdile i proširile savet. U svakom slučaju, do kraja te godine sovjet je postojao kao telo od oko dvanaest članova, po jednom iz svake nahije, sastavljeno uglavnom od istaknutih knezova i sveštenika. Prvi predsednik bio je Mateja Nenadović — čovek koji je već imao iskustvo u pisanju zakonika i u diplomatiji sa Rusijom."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Savet i vožd"
+    },
+    {
+      "type": "paragraph",
+      "text": "Nadležnosti sovjeta brzo su se širile. On je trebalo da bude izvršna i sudska vlast između zasedanja narodne skupštine: da uređuje poreze i daće, da nadzire vojvode po nahijama, da vodi prepisku sa Rusijom, Austrijom i Portom, da donosi uredbe i da služi kao najviši žalbeni sud. U praksi, njegovi pisari i članovi bavili su se i sasvim sitnim stvarima — sporovima oko zemlje, podelama plena, sukobima među starešinama. Po prvi put se u srpskoj sredini, posle vekova osmanske vladavine, pojavilo civilno telo koje pokušava da rad obavlja po pisanim pravilima, da vodi zapisnike i da donosi odluke većinom."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ali baš ta širina nadležnosti uvela je sovjet u dug, mukotrpan sukob sa Karađorđem. Vožd je rat shvatao trezveno: ustanak je vojni poduhvat, a vojni poduhvat zahteva brzu, jedinstvenu komandu. Svaka odluka koja se odlaže dok savet zaseda, smatrao je, dobijena je glava manje na bojištu. Sovjet, sa svoje strane, video je drugu opasnost. Ako u oslobođenoj Srbiji jedan čovek bude sam sudio, sam ubirao porez i sam slao pisma, narod će ubrzo dobiti samo nove gospodare — Srbe umesto Turaka, ali sa istom samovoljom kao i dahije. Obe strane su imale snažne razloge. Sukob je bio i ličan, i institucionalan, i suštinski — dve različite vizije onoga što ustanak treba da izgradi."
+    },
+    {
+      "type": "paragraph",
+      "text": "Kroz godine od 1806. do 1810. odnos između vožda i sovjeta menjao se gotovo iz meseca u mesec. Nekoliko puta je savet bio reorganizovan, sedište mu je menjano, a pojedini istaknuti članovi — naročito iz Nenadovićevog kruga — bili su politički potisnuti ili udaljeni iz srca vlasti. Karađorđe je s vremenom sve više okupljao oko sebe ljude koje je sam birao. Skupština iz 1808. godine donela je posebnu uredbu kojom je Karađorđe priznat kao naslednik vrhovne vlasti — kompromis koji mu je dao snažniju političku legitimnost, ali je zauzvrat potvrdio i postojanje sovjeta kao stalnog tela. Bio je to mir koji nije rešio ništa do kraja, samo je premestio liniju razdvajanja."
+    },
+    {
+      "type": "paragraph",
+      "text": "Najdublji pokušaj uređenja dogodio se 1811. godine. Na skupštini te zime sovjet je preuređen u nešto što danas najlakše razumemo kao prvu srpsku vladu: uvedeni su popečitelji — predstojnici resora za pravosuđe, finansije, vojsku, unutrašnje poslove i inostrane poslove — a na čelo je došao Mladen Milovanović. Karađorđe je u toj reformi prihvaćen kao vrhovni vožd sa proširenim ovlašćenjima, ali sada formalno unutar institucionalnog okvira, sa savetom-vladom uz sebe. Bio je to, koliko god krhko izveden, prvi nacrt podele vlasti u modernoj Srbiji. Praksa je, naravno, ostala znatno haotičnija od propisa, a već dve godine kasnije ustanak će se srušiti pod osmanskom ofanzivom — i sovjet, i popečitelji, i vožd, svi će se 1813. razbežati preko Save."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pa ipak, ono što je sovjet ostavio za sobom nije nestalo sa porazom. Bila je to prva srpska politička institucija sa pisanim nadležnostima, redovnim sastancima i formalnim postupkom — savet koji nije pripadao nikome lično, nego položaju. Tenzija između jakog ličnog vođe i kolektivnog tela koja se rodila u sukobu Karađorđa i sovjeta vratiće se gotovo nepromenjena u doba Miloša Obrenovića, kada će knez i Sovjet kneževine ponovo odmeravati granice vlasti, i biće srž svih ustavnih borbi devetnaestog veka — od Sretenjskog ustava do ustavobranitelja, pa sve do parlamentarnih sukoba kasnijih decenija. Praviteljstvujušči sovjet bio je, pošteno rečeno, ambiciozna institucija za sredinu koja je iz nje izrasla — seljački ustanak koji je usred rata pokušao da sebi sagradi modernu državu. Da nije sve uspeo, ne čudi; da je uopšte krenuo tim putem, jeste — i upravo zato pripada početku, a ne dnu, srpske političke istorije."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

@@ -6,13 +6,57 @@
   "dayNumber": 362,
   "order": 13,
   "title": "Kako se istorija pamti i obeležava",
+  "subtitle": "O praznicima, godišnjicama i spomenicima — kako jedno društvo bira koje delove svoje prošlosti čini vidljivim",
   "readingTimeMinutes": 8,
   "year": 2024,
-  "isPlaceholder": true,
+  "dateLabel": "pregled",
+  "timelinePosition": "pregled",
+  "summary": "Pregled načina na koje se srpska istorija pamti i obeležava — kroz državne praznike, školske programe, godišnjice, crkvene i porodične rituale — i objašnjenje zašto je svako sećanje izborno.",
+  "keyPeople": [],
+  "keyPlaces": ["Beograd", "Orašac", "Kosovo", "Solunski front", "Cer"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Istorija jednog naroda nije samo skup događaja koji su se dogodili. To je i način na koji se ti događaji kasnije pamte, prepričavaju, obeležavaju i — ponekad — prećutkuju. Između onoga što se zaista zbilo i onoga što jedno društvo o sebi zna postoji čitav sloj rada: udžbenika, praznika, spomenika, filmova, porodičnih priča i crkvenih službi. Taj sloj se menja u vremenu. Ono što je u jednoj epohi bilo središte sećanja, u drugoj može da uđe u senku; ono što je bilo skriveno, može da izađe na svetlo. Razumeti kako Srbija pamti svoju prošlost znači razumeti i taj rad sećanja, ne samo same događaje."
+    },
+    {
+      "type": "paragraph",
+      "text": "Najvidljiviji oblik javnog sećanja jesu državni praznici. Dan državnosti obeležava se 15. februara, na Sretenje. Taj datum spaja dva događaja: izbijanje Prvog srpskog ustanka u Orašcu 1804. i donošenje Sretenjskog ustava u Kragujevcu 1835, jednog od prvih ustava u istočnoj Evropi. Time savremena Srbija svoju državnost vezuje za ustanak protiv osmanske vlasti i za rani pokušaj ustavnog uređenja — dakle, i za otpor i za zakon. Dan primirja u Prvom svetskom ratu obeležava se 11. novembra, na dan kada je 1918. potpisano primirje u Kompjenju, a u Srbiji se uz njega nosi i prirodna oznaka, cvet Ramonde nathaliae. Dan pobede nad fašizmom, 9. maj, podseća na 1945. i kraj Drugog svetskog rata. Uz to ide i Vidovdan, 28. juni — datum koji je istovremeno verski praznik i sećanje na Kosovsku bitku 1389, kao i na više potonjih događaja vezanih za isti dan."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pored praznika, sećanje se prenosi i kroz školske programe. Generacije đaka uče istoriju po udžbenicima koji se s vremena na vreme menjaju — u izboru tema, u tonu, u tome šta se ističe a šta samo pomene. Udžbenik iz osamdesetih nije isti kao udžbenik iz dvehiljaditih; ni jedan ni drugi nisu „neutralni” u apsolutnom smislu, jer svaki put neko mora da odluči šta će u kratak školski čas stati. Slično važi i za muzeje. Narodni muzej, Vojni muzej, Muzej istorije Jugoslavije, lokalni zavičajni muzeji — svaki od njih oblikuje sliku prošlosti svojim izborom predmeta, postavki i pratećih tekstova."
+    },
+    {
+      "type": "paragraph",
+      "text": "Posebno mesto u javnom sećanju zauzimaju godišnjice. Stogodišnjica Cera 2014, stogodišnjica proboja Solunskog fronta 2018, oslobođenje Beograda 20. oktobra 1944, godišnjice ratova devedesetih — svaki od tih datuma povlači za sobom komemoracije, polaganja venaca, dokumentarne emisije i članke. Neke organizuje država, neke vojska, neke crkva, neke udruženja građana. U toj gustini lako se previdi koliko posla stoji iza svakog takvog dana."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Izborna priroda sećanja"
+    },
+    {
+      "type": "paragraph",
+      "text": "Već iz ovog kratkog pregleda vidi se da javno sećanje nije ravnomerno. Neki događaji se obeležavaju mnogo, drugi manje, treći gotovo nikako. Kosovska bitka i Solunski front, na primer, decenijama su među najprisutnijim temama — i u školi i u crkvi i u književnosti. S druge strane, žrtve komunističkog nasilja posle 1945, pogubljenja bez suđenja, sudbine zatvorenika na Golom otoku ili u drugim logorima, kao i sudbina poraženih jedinica koje su 1945. krenule ka Austriji i tamo dočekale poslednje ratne dane, dugo su bile odsutne iz zvaničnog sećanja. Tek od devedesetih godina, a postepeno i sistematski tek u dvehiljaditim, te teme su počele da ulaze u istoriografiju, u medije i, u manjoj meri, u javne komemoracije. To ne znači da su time „rešene”; znači samo da su izašle iz tišine."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ratovi devedesetih posebno su težak primer. Različite zajednice — u Srbiji, u susednim državama i u dijaspori — pamte iste događaje na teško uskladive načine. Brojevi žrtava, pravna kvalifikacija zločina, pitanje odgovornosti političkih i vojnih vrhova: sve su to teme oko kojih i istorijska struka još radi. Rad sećanja na te ratove još je u toku i, najverovatnije, tek buduće generacije moći će da ga urade sa više staloženosti."
+    },
+    {
+      "type": "paragraph",
+      "text": "Treba imati u vidu i to da se naglasci menjaju u dužim ciklusima. U vreme socijalističke Jugoslavije, središte javnog sećanja bila je Narodnooslobodilačka borba: partizanski spomenici, ulice i škole nazvane po junacima rata, masovne komemoracije bitaka na Sutjesci i Neretvi. Posle 1990, taj sloj sećanja je delom izgubio zvaničnu podršku, dok je istovremeno ojačala pažnja prema srpskoj vojsci u dva svetska rata, prema crkvenoj istoriji, prema žrtvama komunizma i prema starijim, predratnim slojevima nacionalne tradicije. Ni jedna ni druga slika nije potpuna sama za sebe."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pored države i javnih ustanova, sećanje nose još dva važna toka. Jedan je porodični: priče deda i baka o ratu, o izbeglištvu, o seobama, o životu pod različitim vlastima — sloj koji se prenosi za stolom, bez papira, i koji često zna stvari kojih u udžbeniku nema. Drugi je crkveni: Srpska pravoslavna crkva ima sopstveni kalendar svetih i mučenika, sopstvene parastose i pomene, i kroz njih čuva sećanje na ličnosti i događaje koje država ne mora uvek istaći. Ta tri toka — državni, porodični i crkveni — ne moraju da se slažu u svemu, ali zajedno čine bogatije pamćenje nego svaki ponaosob."
+    },
+    {
+      "type": "paragraph",
+      "text": "Najzad, vredi reći jednu očiglednu stvar koja se često zaboravi. Svaki narod bira koje delove svoje prošlosti čini vidljivim — to nije osobenost Srbije. Francuska, Nemačka, Poljska, Grčka, sve one prolaze kroz iste rasprave: koje datume slaviti, kojim žrtvama dati ime ulice, koje stranice udžbenika prepisati. Te rasprave su zdrave dok ostaju rasprave; postaju opasne tek kada se pretvore u jedinu dozvoljenu istinu. Cilj ovog kursa nije bio da ponudi jednu takvu istinu, nego da pruži građu — događaje, ličnosti, brojeve, izvore — od kojih svako može, mirno i ozbiljno, da sastavi sopstvenu sliku."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

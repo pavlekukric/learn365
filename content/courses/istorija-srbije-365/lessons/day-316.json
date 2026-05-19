@@ -6,13 +6,49 @@
   "dayNumber": 316,
   "order": 1,
   "title": "Jugoslavija pred Drugim svetskim ratom",
+  "subtitle": "Kako se Kraljevina Jugoslavija između 1939. i 1941. našla u obruču Osovine, sa slabom vojskom i bez dobrog izlaza",
   "readingTimeMinutes": 7,
   "year": 1940,
-  "isPlaceholder": true,
+  "dateLabel": "1939–1941.",
+  "timelinePosition": "1939–1941.",
+  "summary": "Između nemačkog uspona i italijanskog pritiska, Kraljevina Jugoslavija pokušava da sačuva neutralnost — dok se obruč Osovine zatvara, a unutrašnji odnosi između Srba i Hrvata traže novo rešenje.",
+  "keyPeople": ["knez Pavle Karađorđević", "Milan Stojadinović", "Aleksandar Cincar-Marković", "Dragiša Cvetković", "Vladko Maček", "Adolf Hitler"],
+  "keyPlaces": ["Beograd", "Beč", "Berlin", "Rim", "Banovina Hrvatska"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Kada je u martu 1938. Hitler bez ispaljenog metka pripojio Austriju, Kraljevina Jugoslavija dobila je za suseda Treći rajh. Granica koja je do juče delila Beograd od slabe i podeljene Republike Austrije sada je delila zemlju od najjače evropske vojne sile. Pola godine kasnije, u Minhenu, Britanija i Francuska prepustile su Čehoslovačku komadanju, i u Beogradu je postalo jasno da se sistem garancija na koji se međuratna Jugoslavija oslanjala — Mala antanta, francuska podrška, kolektivna bezbednost Lige naroda — raspada. Sledeće su godine donele još težu sliku: pad Poljske u jesen 1939, pad Francuske u junu 1940. i obruč koji se polako, ali sigurno zatvarao oko jugoslovenske države."
+    },
+    {
+      "type": "paragraph",
+      "text": "Spoljnu politiku je u tim godinama formalno vodio knez namesnik Pavle Karađorđević, stric maloletnog kralja Petra II. Pavle je bio obrazovan, anglofilski raspoložen čovek, vezan za britanski dvor porodičnim i ličnim sponama; ali kao realan političar znao je da Britanija nije u stanju da brani Balkan i da Jugoslavija mora kupovati vreme. Njegov dugogodišnji predsednik vlade Milan Stojadinović vodio je politiku obazrivog približavanja Nemačkoj i Italiji, više iz ekonomske nužde nego iz ideoloških razloga — nemačko tržište je sve više gutalo jugoslovenski izvoz žita, bakra i drveta. Početkom 1939. Pavle je Stojadinovića smenio, jer je posumnjao da ovaj teži ličnoj diktaturi po uzoru na italijanski fašizam; na čelo spoljnih poslova došao je Aleksandar Cincar-Marković, čovek bez svojih ambicija, podesan za politiku odlaganja."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pre nego što je rat zakucao na vrata, trebalo je nešto učiniti i sa unutrašnjom napuklinom. Hrvatsko pitanje, otvoreno još od atentata u skupštini 1928. i diktature kralja Aleksandra, godinama je tinjalo. U avgustu 1939, samo nekoliko dana pre nemačkog napada na Poljsku, predsednik vlade Dragiša Cvetković i vođa Hrvatske seljačke stranke Vladko Maček potpisali su takozvani sporazum Cvetković–Maček. Njime je stvorena Banovina Hrvatska — autonomna jedinica sa sopstvenim saborom, banom i širokim ovlašćenjima u unutrašnjim poslovima. To nije bilo savršeno rešenje; Srbi u Hrvatskoj, Bosna, Muslimani i mnogi drugi ostali su nezadovoljni, a srpsko političko mnjenje bilo je podeljeno između onih koji su to videli kao pravedan kompromis i onih koji su strahovali da je država načeta. Posmatrano hladno, bio je to pokušaj da se zemlja unutrašnje stabilizuje pre velike spoljne oluje."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Obruč i pritisak"
+    },
+    {
+      "type": "paragraph",
+      "text": "Spoljni obruč zatvarao se po jasnoj logici. Italija je još u aprilu 1939. okupirala Albaniju i tako stala na južnu jugoslovensku granicu. Mađarska, vezana revizionističkim apetitima prema Vojvodini, sve otvorenije se vezivala za Berlin. U novembru 1940. Trojnom paktu — savezu Nemačke, Italije i Japana — pristupila je Mađarska, ubrzo zatim i Rumunija; početkom marta 1941. potpisala je i Bugarska, čime su nemačke jedinice dobile slobodan put do jugoslovenske jugoistočne granice. Jugoslavija je gledala u kartu i videla državu okruženu sa svih strana saveznicima Osovine ili samom Osovinom. Jedini koridor ka spolja vodio je preko Grčke, koja je od oktobra 1940. ratovala sa Italijom — i koja će uskoro i sama postati nemačka meta."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pravo stanje jugoslovenske vojske bilo je drugo veliko opterećenje. Na papiru je raspolagala sa oko milion mobilisanih ljudi, ali se uglavnom oslanjala na puške, topove i taktička načela Prvog svetskog rata. Mehanizovanih jedinica skoro da nije bilo, oklopnih divizija nije imala, vazduhoplovstvo je bilo malobrojno i tehnički zaostalo. Oficirski kor bio je u velikoj meri srpski po sastavu, što je u višenacionalnoj zemlji stvaralo nepoverenje među vojnicima drugih naroda; mnogi mobilisani Hrvati, Slovenci i Muslimani nisu nužno osećali da brane svoju državu na način na koji je to bila država 1914. godine. Generalštab je znao da otvoren rat sa Nemačkom ne može da izdrži više od nekoliko nedelja. Ta saznanja teško su pritiskala kneza Pavla i vladu kada se Berlin počeo otvoreno raspitivati šta Jugoslavija namerava."
+    },
+    {
+      "type": "paragraph",
+      "text": "Hitlerov pritisak da se i Jugoslavija pridruži Trojnom paktu pojačavao se kroz jesen 1940. i prve mesece 1941. Sastanci kneza Pavla sa Hitlerom u Berghofu, susreti Cincar-Markovića sa Ribentropom, otvoreni i tajni razgovori — sve se vrtelo oko istog: pristupiti paktu i dobiti garancije, ili odbiti i dočekati rat. Pavle je tražio i dobio neuobičajeno meke uslove — pisanu garanciju da Jugoslavija neće morati da pusti nemačke trupe preko svoje teritorije niti da učestvuje u ratnim operacijama. Javnost je, naročito u Srbiji, bila u velikoj većini protiv pakta; sećanje na 1914. i osećaj saveza sa Francuskom i Britanijom bili su jaki. U eliti je bilo i pronemački raspoloženih glasova, ali oni nisu nadjačali opšte raspoloženje."
+    },
+    {
+      "type": "paragraph",
+      "text": "Na kraju, 25. marta 1941. u Beču, Cvetković i Cincar-Marković potpisali su jugoslovensko pristupanje Trojnom paktu. Pavle i njegova vlada videli su u tome poslednji način da se odloži rat; ulica i deo vojnog vrha videli su predaju. Dva dana kasnije, 27. marta, u Beogradu će izbiti vojni puč i sve će se promeniti — ali to je već priča za sutra. Treba reći jasno: Jugoslavija pred 1941. nije bila ni izdajnička ni kukavička zemlja, ni naročito mudra ni vidovita. Bila je srednje velika balkanska država koja se, u času kada je Evropa lomljena između totalitarizama, našla u strateški gotovo bezizlaznom položaju, sa slabom vojskom i sa unutrašnjim šavovima koji su tek bili počeli da se krpe."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

@@ -6,13 +6,53 @@
   "dayNumber": 171,
   "order": 9,
   "title": "Austrijsko-turski ratovi",
+  "subtitle": "Vek i po sukoba dveju carevina koji je više puta razorio i preoblikovao srpske zemlje na granici",
   "readingTimeMinutes": 7,
   "year": 1700,
-  "isPlaceholder": true,
+  "dateLabel": "17–18. vek",
+  "timelinePosition": "17–18. vek",
+  "summary": "Četiri velika austrijsko-turska rata između 1683. i 1791. iznova su prelazila preko srpskih zemalja: Beograd je menjao gospodara, narod se selio, a iskustvo oružja stečeno u tuđim vojskama postaće temelj kasnijeg srpskog ustanka.",
+  "keyPeople": ["Eugen Savojski", "Leopold I", "Karlo VI", "Josif II"],
+  "keyPlaces": ["Beograd", "Petrovaradin", "Požarevac", "Svištov"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Od poslednjih decenija sedamnaestog do kraja osamnaestog veka, Habzburška monarhija i Osmansko carstvo vodili su četiri velika rata čije su se glavne linije fronta vukle upravo preko zemalja u kojima su živeli Srbi. Beograd, Petrovaradin, Banat, severna Srbija i delovi Bosne postali su prostor na kome se odlučivalo o granicama dveju carevina — i, gotovo uzgredno, o sudbini ljudi koji su tu vekovima živeli. Svaki od tih ratova menjao je kartu, premeštao narod i ostavljao iza sebe spaljena sela, ali i nove navike, nove činove i nova politička očekivanja."
+    },
+    {
+      "type": "paragraph",
+      "text": "Prvi u nizu, Veliki bečki rat, počeo je osmanskim porazom pod Bečom 1683. godine. Iz tog poraza rodila se Sveta liga — Habzburzi, Poljaci, Mlečani i kasnije Rusija — koja je u narednim godinama isterala Osmanlije iz cele Ugarske. Carska vojska je 1688. ušla u Beograd, a već naredne godine prodrla duboko na jug, sve do Skoplja i Prizrena. Tada je, kratko, izgledalo da bi se osmanska vlast nad srpskim zemljama mogla srušiti. Preokret 1690. bio je utoliko teži: turska protivofanziva vratila je granicu na Savu i Dunav, a patrijarh Arsenije III Čarnojević poveo je u Habzburšku monarhiju Veliku seobu Srba, čiji su odjeci već posebno obrađeni. Mir u Sremskim Karlovcima 1699. potvrdio je novu sliku: Habzburzi su dobili Ugarsku, Erdelj i delove Hrvatske i Slavonije, a Sava je postala stalna granica."
+    },
+    {
+      "type": "paragraph",
+      "text": "Drugi rat, vođen od 1716. do 1718. godine, ostao je zapamćen po blistavim pohodima princa Eugena Savojskog. Pobeda kod Petrovaradina 1716. i osvajanje Beograda 1717. ušli su u evropske ratne udžbenike. Požarevačkim mirom 1718. Habzburzi su dobili severnu Srbiju sa Beogradom, Banat i severne delove Bosne. Po prvi put posle skoro tri stotine godina, prostor severno od zapadne Morave i južno od Save našao se pod hrišćanskom državom. Carska uprava pokušala je da od te oblasti, nazvane „Kraljevina Srbija”, napravi uređenu pograničnu provinciju: popisani su porezi, povučeni novi putevi, obnavljani gradovi, a Beograd je dobio baroknu tvrđavu. Sve to potrajalo je nepunih dvadeset i jednu godinu."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Od Beograda do Svištova"
+    },
+    {
+      "type": "paragraph",
+      "text": "Treći rat, 1737–1739, bio je za Beč gotovo katastrofa. Habzburzi su, ohrabreni ruskim savezom, krenuli u novi pohod prema jugu, ali su pretrpeli niz poraza, a ruska pomoć pokazala se nedovoljno blagovremenom. Beogradskim mirom 1739. carstvo je izgubilo i Beograd i severnu Srbiju, koji su se vratili pod osmansku vlast. Za srpski svet to je značilo novu seobu — Drugu seobu Srba, takođe posebno obrađenu — i kraj kratkog habzburškog eksperimenta na južnoj obali Save. Mnogi koji su se posle 1718. naviknuli na novu vlast i njena pravila krenuli su preko reke da ne dočekaju povratak starog poretka."
+    },
+    {
+      "type": "paragraph",
+      "text": "Četvrti rat, 1788–1791, vođen je kao deo šireg ruskog rata protiv Osmanlija; car Josif II povukao je Beč u sukob u savezu sa Katarinom Velikom. Ovog puta Habzburzi su, pored redovne vojske, organizovali i posebne srpske dobrovoljačke jedinice — takozvani Frajkor, čije su čete prodirale duboko u osmansku Srbiju. Najpoznatija epizoda tog pohoda, Kočina krajina, biće posebno opisana. Mir u Svištovu 1791. završio je rat skromnim ishodom: Austrija se uglavnom povukla na ranije granice, sa manjim ispravkama, a Srbija je ostala pod sultanom. Pa ipak, ono što je u tim godinama stečeno nije se moglo lako izbrisati. Stotine srpskih oficira i podoficira, harambaše, buljubaše i obični vojnici naučili su kako se vodi moderan rat, kako se opslužuje top i kako se drži položaj — i to znanje će, samo desetak godina kasnije, postati kičma Karađorđeve vojske."
+    },
+    {
+      "type": "paragraph",
+      "text": "Posledice tih sukoba po srpsko stanovništvo bile su teške i ponovljive. Beograd je u nepunih sto pedeset godina nekoliko puta menjao gospodara; svaka promena donosila je rušenje, paljevine i seobe. Plodne ravnice severne Srbije i Banata pražnjene su pa naseljavane, srpsko stanovništvo se kretalo preko Save i Dunava u oba smera, a stari gradovi su menjali izgled, jezik na čaršiji, čak i izgled džamija i crkava. Habzburzi su Srbe koristili kao pomoćne trupe i graničare, a Osmanlije su sa svakim povratkom pojačavali nepoverenje prema raji koja je u međuvremenu „služila ćesaru”. Tako je dvostruka pripadnost — srpski svet u carstvu i srpski svet pod sultanom — postala trajna osobina, sa svim teškoćama koje je donosila."
+    },
+    {
+      "type": "paragraph",
+      "text": "Politički, ovi ratovi ucrtali su novi raspored sila na Balkanu. Habzburška monarhija postala je stalna velika sila na južnoj granici, sa kojom se moralo računati u svakoj balkanskoj računici. Rusija, isprva daleka i jedva primetna, krajem osamnaestog veka pojavila se kao novi pravoslavni pokrovitelj, što je u Srba probudilo nadu — opravdanu samo delimično — da bi sa severa mogla doći trajnija pomoć. Osmansko carstvo, naprotiv, ulazilo je u period jasnog opadanja: vojska je gubila bitke, finansije popuštale, a periferija sve teže slušala centar. To opadanje, polako i neravnomerno, otvaralo je prostor za novu politiku."
+    },
+    {
+      "type": "paragraph",
+      "text": "Najvažnija srpska posledica, ipak, nije bila u mirovnim ugovorima, već u onome što je rat ostavio u ljudima. Tokom skoro sto pedeset godina, generacije Srba naučile su da se oružje može uzeti i protiv sultana, da se u dobrovoljačkim četama može izboriti čin i ugled, i da hrišćanska velika sila — ma koliko nepouzdana u ključnim trenucima — može biti makar privremeni saveznik. Iskustvo ratovanja, slika kratkotrajne habzburške uprave nad Beogradom i sećanje na seobe sliveni su u jedno: u uverenje da promena nije nemoguća. Kada 1804. izbije Prvi srpski ustanak, on će krenuti bez prave strane pomoći, ali sa ljudima koji su, ili sami ili preko očeva, već stajali u stroju — i sa pamćenjem dugog veka graničnog rata iza sebe."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

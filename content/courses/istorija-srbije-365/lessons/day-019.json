@@ -6,13 +6,57 @@
   "dayNumber": 19,
   "order": 2,
   "title": "Rimsko osvajanje Ilirika",
+  "subtitle": "Stoletna kampanja, putevi i pacifikacija zapadnog i centralnog Balkana",
   "readingTimeMinutes": 8,
   "year": -50,
-  "isPlaceholder": true,
+  "dateLabel": "1. vek p. n. e. – 1. vek n. e.",
+  "timelinePosition": "~50. p. n. e.",
+  "summary": "Postepeno, ali nemilosrdno, Rim u dva veka pretvara Ilirik u svoju provinciju — od Cezarovih pohoda na Jadranu, preko Avgustovih panonsko-dalmatinskih ratova, do mreže puteva koja nove zemlje veže sa carstvom.",
+  "keyPeople": ["Avgust", "Tiberije", "Germanik", "Julije Cezar"],
+  "keyPlaces": ["Ilirik", "Panonija", "Dalmacija", "Singidunum", "Sava", "Dunav"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Rimsko osvajanje Ilirika nije bio jedan rat, nego dugačak niz pohoda koji se proteže preko dva veka. Od prvih sukoba na istočnoj obali Jadrana, još u trećem veku pre nove ere, do formalnog završetka pacifikacije pod Avgustom, prošlo je više generacija rimskih vojnika i lokalnih ratnika. Ono što se s rimske strane pamtilo kao niz pobeda, na ovom tlu je značilo dugu, mukotrpnu i često krvavu promenu sveta — promenu posle koje zapadni i centralni Balkan više nikada nisu bili isto."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pojam „Ilirik” u rimskom jeziku nije bio precizna etnička oznaka, nego pre svega geografski i upravni okvir. Pod njim se podrazumevao širok pojas zemlje između Jadrana i Dunava, naseljen mnoštvom plemenskih zajednica — Dalmatima, Japodima, Panoncima, Breucima, Daesidatima, Skordiscima i drugima. Te zajednice nisu činile jedinstveni narod, niti su imale zajedničku vlast; svaka je branila svoju dolinu, svoju gradinu, svoje pašnjake. Rim je upravo tu rasutost dugo koristio: jedne je pridobijao savezništvom, druge razbijao oružjem, treće ostavljao po strani dok ne dođe njihov red."
+    },
+    {
+      "type": "paragraph",
+      "text": "Prvi ozbiljniji pohodi na ove prostore počeli su još u doba kasne republike, zbog gusara na Jadranu i nemira u zaleđu grčkih primorskih gradova. Kroz drugi vek pre nove ere Rim je vodio nekoliko ratova sa ilirskim zajednicama i postepeno učvršćivao svoje uporište na obali. U Cezarovo vreme, sredinom prvog veka pre nove ere, Ilirik je već bio formalno rimska provincija, ali samo na papiru: stvarna vlast Rima sezala je tek nekoliko dana hoda od mora. Cezar je za vreme galskih ratova nekoliko puta dolazio na Jadran da smiri pogranične sukobe, ali velika osvajačka kampanja u unutrašnjost ostala je za njegove naslednike."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Avgustovi ratovi i pacifikacija"
+    },
+    {
+      "type": "paragraph",
+      "text": "Odlučujući zaokret donosi vladavina Avgusta. Prvi rimski car shvatao je da granica na donjem Dunavu ne može biti sigurna sve dok je unutrašnjost Ilirika neukrotiva. Već u tridesetim godinama pre nove ere on je lično vodio pohod na japodske i dalmatinske zajednice, a od dvanaeste godine pre nove ere počinju takozvani panonski ratovi. Njima komanduju njegov posinak Tiberije i, nešto kasnije, mladi Germanik. Cilj je jasan: spojiti jadransku obalu sa dolinom Save i Dunava, pomeriti granicu carstva do velike reke i pretvoriti široki pojas između u mirno zaleđe."
+    },
+    {
+      "type": "paragraph",
+      "text": "Strategija je bila spora i sistematična. Rimska vojska nije pokušavala da jednim udarom pokori sve; napredovala je u etapama, iz utvrđenog logora u logor, gradila puteve dok je marširala i zauzimala dolinu po dolinu. Kada bi neka zajednica pružila otpor, sledila je opsada, pa nemilosrdna kazna — pljačka naselja, masakri ratnika, prodaja preživelih u roblje, ponekad i prisilno preseljavanje čitavih plemena na nova mesta. Sela koja su sarađivala dobijala su mir, ponekad i ograničenu samoupravu; ona koja su se opirala bila su brisana iz pejzaža. To je obrazac koji su Rimljani godinama ponavljali, sa hladnom doslednošću."
+    },
+    {
+      "type": "paragraph",
+      "text": "Uporedo sa vojskom širila se i mreža puteva, koja je u stvari bila najmoćnije oružje osvajanja. Savsko-dunavski koridor povezivao je italijansko zaleđe sa pograničnim logorima na velikoj reci; iz Singidunuma, na ušću Save u Dunav, kasnije će se pružati Via Militaris, jedan od najvažnijih rimskih puteva, koji vodi prema jugoistoku, sve do Vizantiona. Putevi su omogućavali brzo prebacivanje legija, redovno snabdevanje, kretanje trgovaca i, ne manje važno, brže širenje rimskog jezika, prava i običaja. Tamo gde je prošao put, vremenom je nicalo i naselje rimskog tipa."
+    },
+    {
+      "type": "paragraph",
+      "text": "Lokalni prvaci su pred ovim talasom imali, grubo rečeno, dva izbora. Mogli su da se priklone — da prihvate savezništvo, plate danak, prime rimska imena, daju sinove u pomoćne odrede vojske i polako uđu u red provincijske elite. Ili su mogli da se opru, što je gotovo po pravilu značilo gubitak svega: zemlje, slobode, često i života. Mnogi su izabrali prvi put i tako sačuvali svoj položaj pod novim gospodarima; o drugima znamo samo iz kratkih rimskih beleški o „kažnjenim plemenima”. Romanizacija nije bila trenutna ni potpuna, ali je u narednim generacijama menjala sve — od jezika i odeće do načina sahranjivanja."
+    },
+    {
+      "type": "paragraph",
+      "text": "Formalno, Avgustova pacifikacija Ilirika je završena devete godine nove ere. Tada su, prema rimskim izvorima, sve zajednice između Jadrana i Dunava bile pokorene, a granica carstva uspostavljena na velikoj reci. Ipak, ta godina nije značila i kraj otpora. Veliki panonsko-dalmatinski ustanak od šeste do devete godine nove ere — kome će biti posvećena sledeća lekcija — uzdrmao je čitav projekat i pokazao koliko je krhko bilo ono što se Rimu činilo gotovim. Ali kada je i taj ustanak ugušen, sumnje više nije bilo: zapadni i centralni Balkan postali su deo rimskog sveta, sa svim što to znači."
+    },
+    {
+      "type": "paragraph",
+      "text": "Vredi na kraju jasno reći nešto o izvorima. Skoro sve što znamo o ovim ratovima dolazi iz rimskog pera — od Velija Paterkula, koji je lično učestvovao u Tiberijevim pohodima, preko Apijana i Diona Kasija, do natpisa koje su podizali sami pobednici. U tim tekstovima ratovi se gotovo uvek prikazuju kao slavna dela carske kuće; ljudska cena na lokalnoj strani uglavnom ostaje nevidljiva u rečima. Vidljiva je, međutim, u arheologiji: u spaljenim gradinama, naglo napuštenim naseljima, u grobovima ratnika i u retkim zapisima koji pominju desetine hiljada porobljenih. Istoričari danas tu prazninu pokušavaju da popune oprezno — svesni da glas pobeđenih, ovde kao i u mnogim drugim osvajanjima, do nas dolazi samo posredno, kroz tragove u zemlji."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

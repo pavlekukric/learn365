@@ -6,13 +6,57 @@
   "dayNumber": 242,
   "order": 12,
   "title": "Ubistvo kneza Mihaila",
+  "subtitle": "Kako je u nedeljnoj šetnji Košutnjakom 1868. godine, hicima iz zasede, prekinuta vladavina jednog modernog kneza",
   "readingTimeMinutes": 7,
   "year": 1868,
-  "isPlaceholder": true,
+  "dateLabel": "1868.",
+  "timelinePosition": "29. maj / 10. jun 1868.",
+  "summary": "Atentat na kneza Mihaila Obrenovića u Košutnjaku, izveden u nedelju popodne 1868. godine, naglo je prekinuo dvadesetogodišnji ciklus modernizacije i otvorio pitanje naslednika i namesništva.",
+  "keyPeople": ["knez Mihailo Obrenović", "Ana Konstantinović", "Katarina Konstantinović", "braća Radovanović", "Milan Obrenović"],
+  "keyPlaces": ["Košutnjak", "Topčider", "Beograd"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Bila je nedelja, 29. maja po starom, odnosno 10. juna po novom kalendaru 1868. godine. Posle podne knez Mihailo Obrenović izašao je iz topčiderskog konaka u kratku šetnju Košutnjakom, kao što je činio mnogo puta. Sa njim su bile rođaka Ana Konstantinović, ćerka Jevrema Obrenovića i njegova bliska prijateljica, i njena kći Katarina, mlada žena za koju se već govorilo da je u tihoj romansi sa knezom. Pratilo ih je nekoliko ljudi iz dvora, među njima kapetan Žica Vujković. Vazduh je bio topal, šuma puna lišća, a put od konaka do mesta ubistva ne traje ni petnaest minuta hoda."
+    },
+    {
+      "type": "paragraph",
+      "text": "Na jednom zavijutku staze, iz gustiša su iznenada izronili naoružani ljudi. Hici su pali brzo, gotovo bez upozorenja. Knez Mihailo pao je smrtno pogođen, Ana Konstantinović izdahnula je gotovo istog časa pored njega, Katarina je teško ranjena ostala u životu, a kapetan Vujković takođe je pao pod mecima. Vlast najvišeg ugleda u zemlji nestala je za nekoliko sekundi, par koraka od kneževog letnjeg konaka, u sopstvenoj šumi, usred glavnog grada koji je još verovao da živi miran nedeljni dan."
+    },
+    {
+      "type": "paragraph",
+      "text": "Napadači su pobegli kroz šumu, ali ne daleko. Već u narednim satima i danima uhvaćeni su glavni izvršioci: braća Pavle, Đoka i Kosta Radovanović, zajedno sa Lazarom Marićem i još nekolicinom saučesnika. Istraga je vođena brzo, pred prekim sudom, u atmosferi straha i potrebe da se javnosti pruži odgovor. Presuda je bila smrtna; izvršioci su streljani već u julu iste godine. Pravna strana zločina time je formalno zatvorena u svega nešto više od mesec dana."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Otvorena pitanja zavere"
+    },
+    {
+      "type": "paragraph",
+      "text": "Mnogo teža bila su pitanja koja su ostala iza presude. Zvanična istraga predstavila je atentat kao zaveru pristalica suparničke dinastije Karađorđević. Aleksandar Karađorđević, koga su ustavobranitelji svrgli još 1858, živeo je tada u Pešti, i na njega je odmah pala sumnja. Beogradska vlast tvrdila je da su novac, podstrek i organizacija došli iz tog kruga, eventualno uz pomoć unutrašnje opozicije nezadovoljne čvrstom rukom kneza Mihaila. Aleksandar Karađorđević biće kasnije i u odsustvu osuđen na težak zatvor, ali pravi obim njegove uloge nikada nije do kraja dokazan."
+    },
+    {
+      "type": "paragraph",
+      "text": "Istoričari, od Slobodana Jovanovića do kasnijih istraživača, ostavili su nekoliko hipoteza otvorenim. Da su braća Radovanović i Lazar Marić zaista pucali u kneza, ne sporimo — to su utvrdili svedoci i sami priznanjem. Ali ko je stajao iza njih, ko je dao novac, ko je obećao zaštitu posle čina, da li je u zaveru bio uvučen i neko iz najužeg kneževog okruženja koji je znao za nedeljnu šetnju i nije upozorio — sve to ostaje predmet stručne rasprave bez sigurnog odgovora. Pošteno je reći: izvršioci su utvrđeni, naredbodavci nisu, i istorija je primorana da na tom mestu prizna granice svog znanja."
+    },
+    {
+      "type": "paragraph",
+      "text": "Posledice ubistva osetile su se odmah. Knez Mihailo nije imao zakonite dece i pitanje naslednika postavilo se već istog dana. Po dogovorima unutar kuće Obrenović, presto je trebalo da pripadne njegovom bratancu Milanu, sinu Miloša Obrenovića mlađeg — brata pokojnog kneza, a ne starom knezu Milošu. Milan je tada bio dečak od četrnaest godina, na školovanju u Parizu. Maloletnost naslednika značila je da državom neko mora upravljati u njegovo ime. Već za nekoliko dana sastavljeno je trojno namesništvo: general Milivoje Petrović Blaznavac, političar i pravnik Jovan Ristić i Jovan Gavrilović. Tom rešenju i prvim potezima namesnika biće posvećena sledeća lekcija."
+    },
+    {
+      "type": "paragraph",
+      "text": "Najtrajnija posledica bila je, međutim, prekid jednog pravca politike. Knez Mihailo godinama je strpljivo gradio balkanski savez protiv Osmanlija, sklapao tajne sporazume sa Crnom Gorom, Grčkom, Rumunijom i bugarskim ustaničkim krugovima, i pripremao vojsku za rat koji bi proširio Srbiju i oslobodio susede. Sa njegovom smrću taj plan se naglo zaustavio. Saveznici su izgubili centralnu kariku, namesništvo nije imalo ni autoritet ni vreme da nastavi diplomatsku igru istom snagom, a unutrašnje pitanje novog ustava i podele vlasti potisnulo je spoljnopolitičke ambicije za nekoliko godina. Mnoge započete reforme — vojne, upravne, sudske — usporile su tempo i čekale stabilizaciju nove vlasti."
+    },
+    {
+      "type": "paragraph",
+      "text": "Paradoksalno, dinastija Obrenović iz tragedije je izašla ojačana. Saosećanje sa ubijenim knezom, brzo hvatanje izvršilaca i jasno prebacivanje krivice na suparničku kuću učvrstili su Obrenoviće u svesti građanstva i većeg dela elite. Mladi Milan, koga gotovo niko u zemlji nije lično poznavao, dočekan je kao zakonit naslednik i ostaće na prestolu narednih dvadeset jednu godinu — najpre kao knez, potom kao kralj. Tek na samom kraju veka, kada druga krv padne u drugom dvoru, ova kuća će se ponovo naći na ivici."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ostaje slika koju je teško zaboraviti. U trenutku kada je Srbija konačno izlazila iz turskih garnizona, dobijala železnicu na horizontu, modernu vojsku, evropski uređenu prestonicu i kneza koga su u Beču i Berlinu primali kao ozbiljnog sagovornika, taj isti knez ubijen je u nedeljnoj šetnji svojom šumom, par stotina koraka od kuće, hicima iz zasede koju niko nije očekivao. Košutnjak je posle 1868. prestao da bude samo izletište prestonice — postao je i mesto sećanja na čas u kome se srpska modernizacija najednom našla bez vladara."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

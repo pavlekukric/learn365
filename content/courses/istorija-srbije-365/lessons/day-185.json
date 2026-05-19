@@ -6,13 +6,61 @@
   "dayNumber": 185,
   "order": 13,
   "title": "Trgovina i prvi privredni uspon",
+  "subtitle": "Kako je srpski pravoslavni trgovački sloj u 18. veku, između Beča i Carigrada, sakupio prvi skromni kapital",
   "readingTimeMinutes": 7,
   "year": 1770,
-  "isPlaceholder": true,
+  "dateLabel": "18. vek",
+  "timelinePosition": "18. vek",
+  "summary": "Srpski trgovci u 18. veku, između Habzburške monarhije i Osmanskog carstva, izgrađuju mrežu koja povezuje Beč, Peštu, Trst, Novi Sad i Beograd — i postavljaju temelje budućeg građanskog sloja.",
+  "keyPeople": ["Sava Tekelija"],
+  "keyPlaces": ["Beč", "Pešta", "Trst", "Novi Sad", "Beograd", "Sentandreja", "Sombor", "Niš"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Osamnaesti vek se u srpskoj istoriji najčešće pamti po crkvi, knjigama i seobama, ali iza tih kulturnih i političkih događaja stajao je jedan tiši proces koji je dugoročno bio jednako važan — postepeno uobličavanje srpskog trgovačkog sloja. Bez tog sloja, bez njegovog skromnog ali stvarnog kapitala, ne bi bilo ni štamparija u Beču i Budimu, ni stipendista po stranim školama, ni novca koji će krajem veka i u 19. stoleću pomoći obnovu srpske države. Reč je o procesu koji nije bio nagao niti spektakularan, ali je promenio unutrašnji oblik srpskog društva."
+    },
+    {
+      "type": "paragraph",
+      "text": "Da bi se taj uspon razumeo, treba ga staviti u širi evropski okvir. Osamnaesti vek je doba snažnog rasta evropske trgovine — atlantski sistem se učvršćuje, mediteranske luke se obnavljaju, merkantilni kapital postaje sve uticajnija društvena snaga. Habzburška monarhija sprovodi reforme koje treba da je modernizuju ekonomski: gradi puteve, otvara luke u Trstu i Rijeci, podstiče manufakture u panonskom prostoru. Rusija se otvara prema evropskim tržištima. Čak i u Osmanskom carstvu, koje kao celina ulazi u dugu fazu opadanja, pojedini sektori i određene trgovačke mreže ostaju u pokretu. U tom svetu, na granici dva velika carstva, srpski pravoslavni trgovci nalaze prostor koji im je donedavno bio zatvoren."
+    },
+    {
+      "type": "paragraph",
+      "text": "Karlovački mir 1699. i kasniji ugovori između Habzburgovaca i Osmanlija, uz sve svoje krize, doneli su koliko-toliko ustaljene granične prelaze. Tu se pokazala posebna prednost srpske trgovačke zajednice: ona je istovremeno postojala i severno i južno od granice, govorila istim jezikom, pripadala istoj pravoslavnoj crkvi i imala porodične veze sa obe strane. Trgovac iz Sentandreje ili Novog Sada mogao je da računa na rođaka ili kuma u Beogradu, Nišu ili Sarajevu, na zajedničkog ispovednika, na razumljivu reč pri ceđenju cene. U vekovima kada poverenje nije moglo da se obezbedi sudovima, takva mreža je bila prava kapitalna prednost."
+    },
+    {
+      "type": "paragraph",
+      "text": "Glavne trgovačke veze tekle su s nekoliko pravaca. Iz Beča se preko Budima i Pešte spuštalo ka Beogradu i dalje ka Carigradu; iz Trsta se kretalo prema Sarajevu i unutrašnjosti Balkana sve do Istanbula; iz Budima i Pešte su karavani išli kroz Niš i Sofiju ka istoku; sa Jadrana — Dubrovnik, Kotor, Bar — robe su prelazile u zaleđe i dalje na sever. Srpski trgovci nisu kontrolisali ove pravce u celini, ali su zauzimali važna čvorišta i posrednička mesta. Njihova snaga bila je u sposobnosti da kombinuju habzburške zakone i osmanske običaje, da prevode ne samo robu nego i poslovne prakse između dva sveta."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Roba, gradovi i porodice"
+    },
+    {
+      "type": "paragraph",
+      "text": "Roba koja se kretala bila je raznovrsna. Sa severa i zapada išle su tkanine — engleska vuna, italijanska svila, kasnije i sve više domaća roba iz habzburških manufaktura. Sa jugoistoka su pristizali pamuk, koža, vosak, suvo voće, vino, sirovine. Naročito mesto imala je trgovina stokom: govedom iz Banata i Slavonije, koje se u velikim krdima goni ka bečkim i italijanskim tržištima. Žito iz Vojvodine, koja u 18. veku postaje žitnica monarhije, sve češće završava u mediteranskim lukama. U taj veliki promet srpski trgovci uključuju se najpre kao posrednici i prevoznici, a vremenom i kao samostalni vlasnici roba i ugovora."
+    },
+    {
+      "type": "paragraph",
+      "text": "Geografija srpskog trgovačkog sloja jasno se vidi u nekoliko gradova. U habzburškim zemljama to su Sentandreja, Pešta, Buda, Beč, Novi Sad i Sombor; na Jadranu pre svega Trst, gde srpska zajednica raste tokom druge polovine veka; u Osmanskom carstvu Beograd i Niš, sa manjim ali postojanim trgovačkim ognjištima. Treba odmah pomenuti i takozvane Cincare — pravoslavno romansko stanovništvo iz Makedonije, Epira i Tesalije, koje se u 18. veku u velikom broju kreće na sever i u habzburškim spiskovima često biva uvršteno među „grčke” ili „srpske” trgovce. Mnoge porodice koje istorija pamti kao srpske vode poreklo iz tog cincarskog sveta; njihova trgovačka veština i kapital ulili su se u srpsku građansku sredinu i u velikoj meri je oblikovali."
+    },
+    {
+      "type": "paragraph",
+      "text": "Bogatstvo se koncentrisalo u relativno uskom krugu porodica. Tekelije, Markovići, Nakovi, Stojadinovići i drugi grade kuće u Aradu, Pešti, Beču i Novom Sadu, kupuju spahiluke, šalju decu na školovanje u inostranstvo, ulažu u zadužbine. Sava Tekelija, krajem veka već doktor prava bečkog univerziteta, u sledećoj generaciji će u Pešti osnovati čuveni zavod za srpske studente. Ti pojedinci nisu bili tipični — većina srpskih trgovaca radila je u znatno skromnijim okvirima — ali njihovo postojanje pokazuje koliki je raspon postao moguć."
+    },
+    {
+      "type": "paragraph",
+      "text": "Veza između trgovačkog novca i kulture u 18. veku je presudna. Karlovačka mitropolija sama nije imala dovoljno sredstava da finansira sve štamparske, školske i jezičke poduhvate koje je zamišljala. Bogati trgovci su upravo te poduhvate pretplatama, donacijama i pokretanjem štampanja popunjavali. Knjige Zaharija Orfelina, Jovana Rajića, Dositeja Obradovića i drugih dolazile su do čitalaca uz pomoć trgovačkih mreža koje su ih nosile od Beča do Trsta i od Sentandreje do Sarajeva. Trgovac koji je jednom rukom potpisivao menicu drugom je plaćao štampanje bukvara ili istorije."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sa južne, osmanske strane slika je bila znatno skromnija. Lokalni srpski pravoslavni trgovački sloj bio je manji — pritisnut porezima, kolebljivim pravom svojine za nemuslimane, čestim ratovima i nesigurnošću puteva. Pa ipak, u Beogradu i nekoliko drugih varoši postojale su male srpske trgovačke zajednice, ponekad povezane sa dubrovačkom mrežom, ponekad sa prekograničnim partnerima u monarhiji. Pokušaji ozbiljnije domaće industrije bili su slabi: ponešto suknarskih radionica, mlinova, pecara — sve uglavnom male razmere. Pravi industrijski uzlet doći će tek u 19. i 20. veku."
+    },
+    {
+      "type": "paragraph",
+      "text": "Treba biti pošten u oceni. Srpski trgovački uspon 18. veka bio je stvaran, ali u apsolutnim brojevima skroman; srpski kapital nije se mogao meriti ni sa jermenskim, ni sa grčkim, ni sa jevrejskim mrežama u carstvima onog vremena, a još manje sa zapadnoevropskim. Pa ipak, taj sloj je nešto novo: prvi put posle srednjeg veka srpsko društvo dobija sopstveni građanski stalež sa novcem, obrazovanjem i ambicijom. Iz njegovih kasa, kuća i porodica izrasli su ljudi koji će u 19. veku finansirati škole, dnevne listove, političke pokrete i, na kraju, novu srpsku državu. Privredni uspon 18. veka nije bio velika revolucija, ali je bio tihi, strpljivi početak."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

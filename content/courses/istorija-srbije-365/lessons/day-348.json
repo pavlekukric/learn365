@@ -6,13 +6,45 @@
   "dayNumber": 348,
   "order": 8,
   "title": "Kosovska kriza",
+  "subtitle": "Od Rugovinog paralelnog društva do oružane pobune i odluke o NATO bombardovanju, 1996–1999.",
   "readingTimeMinutes": 8,
   "year": 1998,
-  "isPlaceholder": true,
+  "dateLabel": "1996–1999.",
+  "timelinePosition": "1996–1999.",
+  "summary": "Eskalacija kosovskog sukoba od mirnog otpora Ibrahima Rugove i pojave UÇK do Račka, Rambujea i odluke NATO-a da pokrene vazdušnu kampanju protiv Savezne Republike Jugoslavije.",
+  "keyPeople": ["Ibrahim Rugova", "Slobodan Milošević", "Adem Jashari", "Richard Holbrooke", "William Walker"],
+  "keyPlaces": ["Kosovo", "Prekaz", "Drenica", "Račak", "Rambuje"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Posle ukidanja kosovske autonomije 1989. godine, albansko stanovništvo pokrajine — po procenama oko devedeset odsto svih stanovnika — povuklo se iz zvaničnog života Srbije i počelo da gradi sopstveno, paralelno društvo. Predvodio ga je Demokratski savez Kosova (LDK) Ibrahima Rugove, mirnog književnika i intelektualca koji je 1991. godine proglašen za predsednika nepriznate „Republike Kosova”. Tokom prve polovine devedesetih to društvo je radilo u senci: albanske škole su se selile u privatne kuće, lekari su otvarali ordinacije po stanovima, prikupljao se neformalni porez za dijasporsko izdržavanje paralelne države. Beograd je u međuvremenu masovno otpuštao Albance iz državnih službi, držao Kosovo pod stalnim policijskim prisustvom i povremeno posezao za nasiljem, ali do otvorenog rata nije dolazilo."
+    },
+    {
+      "type": "paragraph",
+      "text": "Dejtonski sporazum 1995. godine zaustavio je rat u Bosni, ali Kosovo nije ni pomenuo. Za mnoge Albance to je bio dokaz da Rugovina nenasilna strategija ne donosi rezultate: zapadni posrednici nagrađuju one koji ratuju, a ne one koji strpljivo čekaju. Iz te frustracije, iz redova radikalnijih emigranata i porodica iz centralnih kosovskih sela, izrasla je Oslobodilačka vojska Kosova — UÇK. Prvi napadi pripisani toj organizaciji zabeleženi su tokom 1996. godine; mete su bili pripadnici srpske policije i Albanci optuženi za saradnju sa vlastima. Početkom 1997. propast piramidalnih štednji u susednoj Albaniji izazvala je državni rasap i pljačku vojnih magacina; desetine hiljada automatskih pušaka i drugog naoružanja preliveni su preko granice. UÇK je od grupe naoružanih ćelija u nekoliko godina prerasla u pokret sa zonama pod kontrolom u Drenici i Metohiji."
+    },
+    {
+      "type": "paragraph",
+      "text": "Odgovor Beograda bio je oštar. Tokom 1998. godine srpska policija i Vojska Jugoslavije pokrenule su velike operacije protiv UÇK i sela za koja se sumnjalo da je podržavaju. U februaru i početkom marta jedinice MUP-a opkolile su porodično imanje Jasharijevih u zaseoku Prekaz u Drenici. Posle višednevne opsade poginulo je oko pedeset osmoro ljudi iz proširene porodice, među njima žene i deca; Adem Jashari, jedan od osnivača UÇK, ostao je u kući do kraja. Prekaz je u albanskoj javnosti postao osnivački mit oružanog pokreta — slika porodice koja se nije predala. U narednim mesecima borbe i takozvana čišćenja terena pretvorili su delove pokrajine u zonu razaranja: po procenama humanitarnih organizacija, do kraja 1998. raseljeno je između dvesta i trista hiljada kosovskih Albanaca, a stotine sela su delimično ili potpuno spaljene. Stradali su i srpski civili u zonama pod kontrolom UÇK, kao i policajci i vojnici, mada u znatno manjem broju."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Račak i put u rat"
+    },
+    {
+      "type": "paragraph",
+      "text": "Septembra 1998. Savet bezbednosti UN doneo je Rezoluciju 1199 koja je tražila prekid vatre i povratak izbeglica. U oktobru je američki diplomata Richard Holbrooke u Beogradu dogovorio sa Slobodanem Miloševićem dolazak Verifikacione misije OEBS-a, sastavljene od oko hiljadu i osamsto nenaoružanih posmatrača. Mirovni hod, međutim, držao se na klimavim nogama. UÇK je iskoristila zatišje da se reorganizuje, srpske snage su ostale na položajima, a manji okršaji nisu prestajali. Petnaestog januara 1999. godine, u selu Račak u Štimljanskoj opštini, pronađeno je četrdeset i pet mrtvih Albanaca. Šef misije, američki ambasador William Walker, već istog dana je izašao pred kamere i događaj nazvao masakrom. Beograd je odbacio tu kvalifikaciju i tvrdio da su poginuli pripadnici UÇK iz prethodne borbe. Forenzička ispitivanja koja su usledila ostala su predmet sporova; pojedinosti samog događaja u Račku do danas se različito tumače. Za zapadne vlade, međutim, političko pitanje je već bilo rešeno — Račak je iskorišćen kao prelomni argument da se prema Beogradu mora preći na silu."
+    },
+    {
+      "type": "paragraph",
+      "text": "Februara i marta 1999. godine u francuskom dvorcu Rambuje održana je konferencija na kojoj su zapadne sile suočile srpsku i albansku delegaciju sa unapred pripremljenim sporazumom. Tekst je predviđao široku autonomiju Kosova, povlačenje srpskih snaga i razmeštanje međunarodnog kontingenta. Posebno sporan bio je takozvani Aneks B, koji je predviđao slobodno kretanje NATO trupa po celoj teritoriji Savezne Republike Jugoslavije — uslov koji je za Beograd značio gubitak suvereniteta i koji je, po mišljenju mnogih posmatrača, bio sračunat na odbijanje. Srpska delegacija je sporazum odbila. Albanska je, posle početnog oklevanja predstavnika UÇK, na kraju potpisala. Dvadeset četvrtog marta 1999. NATO je, bez odluke Saveta bezbednosti UN, započeo vazdušnu kampanju protiv Savezne Republike Jugoslavije. Kosovska kriza ušla je u svoju ratnu fazu."
+    },
+    {
+      "type": "paragraph",
+      "text": "Tri godine koje su prethodile bombardovanju ostavile su za sobom nekoliko trezvenih činjenica koje istorija mora da drži zajedno, bez izjednačavanja i bez ulepšavanja. Albansko stanovništvo Kosova imalo je dugu i stvarnu listu nepravdi koje je nenasilni pokret pokušao da reši strpljenjem, a oružani — silom. Srpska država je na pobunu odgovorila operacijama čiji je obim daleko prevazilazio borbu protiv naoružanih grupa i u kojima su, prema kasnijim presudama Međunarodnog krivičnog tribunala za bivšu Jugoslaviju, počinjeni teški zločini nad civilima. UÇK je, sa svoje strane, ubijala policajce, ali i Srbe i Albance osumnjičene za saradnju sa vlastima; za deo tih dela kasnije će se voditi posebne istrage. Ono što ostaje van spora jeste da je do januara 1999. Kosovo bilo prostor u kome su istovremeno postojali pravi otpor, prava represija i prava politička računica zapadnih sila — i da je odluka o bombardovanju doneta na ukrštanju sva tri činioca, a ne na osnovu samo jednog."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

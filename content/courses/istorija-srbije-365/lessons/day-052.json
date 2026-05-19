@@ -6,13 +6,49 @@
   "dayNumber": 52,
   "order": 5,
   "title": "Nemanja se odriče prestola",
+  "subtitle": "Sabor u Rasu 1196. godine i jedna od najneobičnijih odluka u srpskoj srednjovekovnoj istoriji",
   "readingTimeMinutes": 7,
   "year": 1196,
-  "isPlaceholder": true,
+  "dateLabel": "1196.",
+  "timelinePosition": "1196.",
+  "summary": "U martu 1196. Stefan Nemanja saziva sabor u Rasu, silazi sa prestola, predaje vlast sinu Stefanu i odlazi u monaški život pod imenom Simeon.",
+  "keyPeople": ["Stefan Nemanja", "Stefan Prvovenčani", "Vukan", "Rastko (Sava)", "Anastasija"],
+  "keyPlaces": ["Ras", "Studenica", "Sveta Gora"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "U proleće 1196. godine, u utvrđenom Rasu, prestonici srpske države, dogodilo se nešto što savremenici nisu mogli da prime kao običnu vest. Veliki župan Stefan Nemanja, čovek koji je decenijama gradio državu, ratovao sa Vizantijom i podizao crkve, sazvao je sabor — skup velmoža, episkopa i sveštenstva — i pred njima objavio da silazi sa prestola. Imao je tada blizu sedamdeset godina, vlast mu nije bila ugrožena, niti je bio prinuđen. Sišao je dobrovoljno. To je bila odluka koja je u srednjovekovnom svetu, gde su vladari po pravilu umirali na prestolu, izgledala gotovo neshvatljivo."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sabor je sazvan po svečanom obredu. U Ras su pozvani članovi porodice, dvorska vlastela, episkopi i igumani manastira. O događaju najpotpunije svedoči Stefan Prvovenčani u žitiju svog oca, napisanom nekoliko godina kasnije. Njegov tekst je u osnovi pouzdan u pogledu glavnog događaja, ali je delom i hagiografski — pisan u tonu pohvale ocu-monahu — pa pojedinosti o govorima i suzama treba čitati sa svešću o žanru. Ono što je sigurno: Nemanja je pred saborom obrazložio svoju odluku, predao znamenja vlasti i izvršio podelu nasleđa među sinovima."
+    },
+    {
+      "type": "paragraph",
+      "text": "Podela nije pratila pravilo prvorodstva. Najstariji sin Vukan dobio je Zetu, sa primorskim oblastima i naslovom velikog kneza — značajan, ali sporedan udeo. Glavnu titulu, velikog župana, i središte države sa Rasom Nemanja je predao srednjem sinu Stefanu, kasnijem Stefanu Prvovenčanom. Najmlađi sin Rastko već je nekoliko godina ranije, kao mladić, tajno otišao na Svetu Goru i tamo se zamonašio pod imenom Sava. Njegov udeo nije bio zemaljski. Time je porodični trougao postavljen onako kako će obeležiti narednu generaciju srpske istorije: Stefan na prestolu, Vukan sa Zetom u rukama i prikrivenim suparništvom, Sava kao duhovni autoritet izvan svake teritorije."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Monah Simeon"
+    },
+    {
+      "type": "paragraph",
+      "text": "Posle abdikacije, Nemanja je istog časa primio monaški postrig u crkvi Svetih apostola Petra i Pavla u Rasu i dobio novo ime — Simeon. Njegova supruga Ana, sapatnica mnogih godina vlasti, takođe je primila monaški čin i kao monahinja je nosila ime Anastasija. Bio je to čin zajedničkog rastanka sa svetom, ne usamljeničkog. Neko vreme Simeon je proveo u svojoj zadužbini Studenici, manastiru koji je sam podigao i u kome je već bio određen prostor za njegov grob. Tu je vodio monaški život, primao posete sina i vlastele, i pomagao da se nova vlast učvrsti bez potresa."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ali Studenica nije bila konačno odredište. Već u jesen 1197. ili u prvoj polovini 1198. godine — izvori se u tačnom datumu razlikuju — Simeon je krenuo na dalek put, na Svetu Goru, da se pridruži sinu Savi. Tamo će njih dvojica zajedno obnoviti opustelu vizantijsku zadužbinu i podići manastir Hilandar, koji će vekovima ostati duhovni centar srpskog naroda. O tom putovanju i o Hilandaru govoriće naredne lekcije; ovde je važno samo zabeležiti da je Nemanjina abdikacija bila i početak novog života, ne samo kraj starog."
+    },
+    {
+      "type": "paragraph",
+      "text": "Postavlja se prirodno pitanje — zašto. Zašto je vladar koji je celog života radio na sticanju i učvršćivanju vlasti tu vlast tako odlučno odbacio? Odgovor nije jedan. Najpre, treba uzeti ozbiljno ono što izvori naglašavaju: ličnu pobožnost. Nemanja je bio iskreno vezan za crkvu, ktitor brojnih manastira, i monaški poziv mu nije bio strani ukras. Drugo, postojao je hladan politički razlog. U srednjovekovnim državama nasleđe je često donosilo bratoubilačke ratove; uređena predaja vlasti za vladarevog života, pred saborom i pred crkvom, smanjivala je tu opasnost. Treće, postojao je i model — vizantijski carevi su povremeno svoje dane završavali u manastiru, i taj obrazac uglednog povlačenja Nemanji nije bio nepoznat."
+    },
+    {
+      "type": "paragraph",
+      "text": "Da li je politička računica uspela u potpunosti — to je drugo pitanje. Predaja Stefanu, a ne prvorođenom Vukanu, biće seme sukoba koji će izbiti nekoliko godina kasnije i koji će morati da gasi upravo Sava, sa Svete Gore. O toj porodičnoj drami biće reči u kasnijoj lekciji. Ali sam čin abdikacije ostaje izuzetan. Nemanja je svojom voljom napustio presto u trenutku kada ga niko nije terao, i tim gestom je u srpskoj istoriji ustanovio jednu retku vrednost — da vlast nije svojina nego zadatak, i da postoji trenutak u kome je čovek dužan da je pošteno preda."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

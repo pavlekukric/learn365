@@ -6,13 +6,49 @@
   "dayNumber": 15,
   "order": 4,
   "title": "Dolazak Kelta",
+  "subtitle": "Kako su zajednice sa severozapada u talasima stigle na centralni Balkan i ostavile trag u oružju, grobovima i jeziku",
   "readingTimeMinutes": 7,
   "year": -350,
-  "isPlaceholder": true,
+  "dateLabel": "oko 4–3. vek p. n. e.",
+  "timelinePosition": "~350. p. n. e.",
+  "summary": "U poznom 4. veku pre nove ere keltske zajednice iz srednje Evrope u talasima dosežu centralni Balkan, donose latensku kulturu i duge mačeve, a posle slavnog pohoda na Delfe 279. p. n. e. mnogi se trajno mešaju sa zatečenim stanovništvom.",
+  "keyPeople": [],
+  "keyPlaces": ["centralni Balkan", "srednja Evropa", "Delfi", "Egejsko more"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "U vekovima u kojima se gvozdeno doba na centralnom Balkanu već uveliko ustalilo, sa severozapada počinju da pristižu zajednice drugačijeg jezika, drugačijih grobnih običaja i prepoznatljive materijalne kulture. Grčki i rimski pisci nazivaće ih jednim opštim imenom — Kelti, ili na grčkom Galati — i pod tim će imenom oni ući u istoriju kao jedna od retkih praistorijskih sila Evrope za koju imamo i pisane vesti i bogatu arheologiju. Njihov dolazak na Balkan nije ni najezda u jednom danu ni mirna seoba; to je proces koji traje generacijama i koji će, na kraju, trajno preurediti i sliku naših krajeva."
+    },
+    {
+      "type": "paragraph",
+      "text": "Do četvrtog veka pre nove ere keltski svet već je obuhvatao veliki deo srednje i zapadne Evrope. U arheologiji ga prepoznajemo po takozvanoj latenskoj kulturi, nazvanoj po nalazištu La Tène u Švajcarskoj — kulturi koju odlikuju upadljivi gvozdeni predmeti, dugi mačevi sa karakterističnim koricama, fibule prepoznatljivog oblika, kovani nakit i poseban likovni stil sa kovrdžavim, biljnim šarama. Reč „Kelti” ovde, međutim, treba shvatiti oprezno. To je naziv koji im daju drugi — pre svega Grci. Sami sebe ti ljudi zvali su imenima svojih plemena: Skordisci, Boji, Senoni, Galati, i mnogim drugima. Ono što ih ujedinjuje pre je jezik i kultura nego ikakva politička celina."
+    },
+    {
+      "type": "paragraph",
+      "text": "U talasima, tokom 4. i ranog 3. veka pre nove ere, deo tih zajednica kreće na jugoistok. Razlozi su verovatno višestruki: pritisak iz pozadine, glad za novom zemljom, vojničke družine u potrazi za plenom i platom, možda i klimatske promene. Ono što se sa sigurnošću može reći jeste da do kraja četvrtog veka pre nove ere keltske grupe stižu do dolina velikih reka centralnog Balkana — Save, Drave, Dunava i Morave — i ulaze u dodir sa zatečenim stanovništvom: Ilirima na zapadu, Tračanima na istoku i posebnim balkanskim narodom Tribala u središtu."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Pohod na Delfe i posle njega"
+    },
+    {
+      "type": "paragraph",
+      "text": "Vrhunac keltskog prodora ka jugu zbio se 279. godine pre nove ere, kada je velika vojska, koju antički pisci zovu Galatima, krenula u pljačkaški pohod duboko u Grčku. Cilj im je bilo svetilište u Delfima, jedno od najbogatijih i simbolički najznačajnijih mesta antičkog sveta. Grčki gradovi okupili su odbrambeni savez i, prema kasnijim izvorima, uz pomoć teškog vremena i terena zaustavili napadače pre nego što su mogli da opljačkaju samo svetilište. Pohod je propao, a deo preživelih Kelta vratio se na sever; drugi su se odvojili i nastavili dalje, pa je tako jedna njihova grupa završila čak u Maloj Aziji, gde će po njima čitava oblast dobiti ime Galatija."
+    },
+    {
+      "type": "paragraph",
+      "text": "Za Balkan je važno ono što se dešavalo posle 279. godine. Posle neuspeha pred Delfima više nije bilo velikih keltskih pohoda ka jugu; ali mnogi od učesnika i njihovih saplemenika trajno su se zadržali na centralnom Balkanu. Tu su zatekli starije stanovništvo i, generaciju za generacijom, ulazili sa njim u različite odnose. Neki susreti bili su ratnički — antički pisci ostavili su tragove o sukobima sa Tribalima i drugim plemenima; drugi su, sudeći prema arheologiji, bili pre svega saživot. Latenski predmeti počinju da se nalaze u grobovima zajedno sa lokalnim oblicima, naselja preuzimaju nove tehnike, a u groblju jednog kraja ponekad leže rame uz rame ratnik sa keltskim mačem i žena sa nakitom starijeg, ilirskog tipa."
+    },
+    {
+      "type": "paragraph",
+      "text": "Arheologija na tlu današnje Srbije jasno beleži ovo razdoblje. U dolinama velikih reka pronalaze se dugi gvozdeni mačevi tipa latenske kulture, koplja, kalemi za pojaseve, fibule kovrdžavih oblika, kao i nove tehnike u izradi grnčarije na vitlu. Pojavljuju se i sahrane sa spaljivanjem pokojnika i prilaganjem savijenog oružja — običaj koji nije domaći i koji se najlakše objašnjava upravo dolaskom novih ljudi. Sve to ne znači da je staro stanovništvo nestalo; pre znači da se nekoliko različitih tradicija nekoliko generacija odvija na istom prostoru, dok se naposletku ne pretope u nešto novo."
+    },
+    {
+      "type": "paragraph",
+      "text": "Treba biti iskren i u onome što ne znamo. Koliko je tačno Kelta došlo, kojim putevima i kojim redom, koliki je bio njihov udeo u stanovništvu pojedinih oblasti — sve su to pitanja na koja arheologija daje samo delimične odgovore, a pisanih izvora iz prve ruke gotovo da i nema. Ono što sa sigurnošću možemo reći jeste da od kraja četvrtog veka pre nove ere centralni Balkan više nije isključivo svet Ilira, Tračana i Tribala; u njega su se trajno upisali i pridošlice iz srednje Evrope, sa drugačijim jezikom i drugačijim oružjem. Među njima, jedno pleme posebno će obeležiti naredne vekove na ušću Save u Dunav — Skordisci. O njima, i o njihovom dugom prisustvu na mestu na kome će kasnije nastati Beograd, govori naredna lekcija."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

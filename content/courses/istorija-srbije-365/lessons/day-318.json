@@ -6,13 +6,53 @@
   "dayNumber": 318,
   "order": 3,
   "title": "Aprilski rat",
+  "subtitle": "Jedanaest dana od bombardovanja Beograda do bezuslovne kapitulacije Kraljevine Jugoslavije u proleće 1941. godine",
   "readingTimeMinutes": 7,
   "year": 1941,
-  "isPlaceholder": true,
+  "dateLabel": "6–17. april 1941.",
+  "timelinePosition": "6–17. april 1941.",
+  "summary": "Nemačka invazija na Jugoslaviju počela je bombardovanjem Beograda na Cveti 6. aprila 1941. godine i okončala se kapitulacijom u Beogradu jedanaest dana kasnije, posle bržeg sloma od onoga koji je iko očekivao.",
+  "keyPeople": ["Petar II Karađorđević", "Dušan Simović", "Adolf Hitler", "Aleksandar Cincar-Marković", "Danilo Kalafatović"],
+  "keyPlaces": ["Beograd", "Pale", "Sarajevo", "Skoplje", "Zagreb"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "U nedelju 6. aprila 1941. godine, na pravoslavne Cveti, nemački bombarderi pojavili su se nad Beogradom u ranim jutarnjim časovima. Operacija je u nemačkim štabovima nosila ime „Strafgericht” — Kazneni sud — i bila je Hitlerov lični odgovor na puč od 27. marta, kojim je oboren sporazum o pristupanju Jugoslavije Trojnom paktu. Iako je vlada nekoliko dana ranije Beograd proglasila otvorenim, nezaštićenim gradom, Luftvafe je u dva uzastopna dana sručila na njega više stotina tona bombi. Tako je počeo Aprilski rat — kratak, neravnopravan i tragičan sukob koji će za jedanaest dana izbrisati Kraljevinu Jugoslaviju sa karte Evrope."
+    },
+    {
+      "type": "paragraph",
+      "text": "Bombardovanje Beograda zapamćeno je sa naročitom tugom. Pogođeni su centri vlasti, železnička stanica, stambeni delovi grada, ali i ono što se nikako nije moglo nazvati vojnim ciljem — Narodna biblioteka na Kosančićevom vencu. U njoj su izgoreli srednjovekovni rukopisi, povelje, retke knjige i deo nepovratnog kulturnog nasleđa srpskog naroda. Procene civilnih žrtava razlikuju se i ostaju predmet rasprave: u literaturi se najčešće navode brojke između dve i četiri hiljade poginulih, ali su novija istraživanja te brojke korigovala naviše ili naniže u zavisnosti od metoda. Tačan broj verovatno nikada neće biti utvrđen — sigurno je samo da je grad pretrpeo težak udar i u prvim časovima rata izgubio mnogo od svog stanovništva i svoje memorije."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Slom u jedanaest dana"
+    },
+    {
+      "type": "paragraph",
+      "text": "Napad nije došao samo iz jednog pravca. Nemačke armije ulazile su istovremeno iz Bugarske, gde su prethodno bile raspoređene, i iz pravca Austrije i okupirane Mađarske, probijajući se ka Skoplju, Nišu, Zagrebu i Beogradu. Italijanske jedinice nadirale su sa zapada, iz Istre i Slovenije, i sa juga, iz Albanije, ka makedonskom prostoru. Mađarske trupe sačekale su nekoliko dana — kako bi se zaobišao formalni problem ugovora o večnom prijateljstvu sa Jugoslavijom — pa su tek 11. aprila prešle granicu u Vojvodini. Sa svih strana, Kraljevina je bila stisnuta u klešta iz kojih nije imala kud."
+    },
+    {
+      "type": "paragraph",
+      "text": "Vojska Kraljevine Jugoslavije, na papiru, nije bila zanemarljiva sila. U aprilu 1941. mobilisano je oko sedam stotina hiljada vojnika, ali sama mobilizacija nikada nije završena. Jedinice su bile loše opremljene, sa zastarelim naoružanjem iz prethodnog rata, slabom motorizacijom i gotovo bez modernog vazduhoplovstva. Komunikacije su otkazale već u prvim danima — telefonske linije bile su pokidane, radio-veze nepouzdane, štabovi izolovani jedan od drugog. Nasuprot tome, Vermaht je primenio brzu, koncentrisanu Blickrig taktiku, sa potpunom premoći u vazduhu i sa oklopnim kolonama koje su za nekoliko dana presekle zemlju."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pukotine su, međutim, bile i unutrašnje. Vojska Kraljevine Jugoslavije bila je etnički raznolika i u nju su godinama bile ugrađene političke napetosti između srpskog, hrvatskog i slovenačkog dela države. U više slučajeva delovi hrvatskih i slovenačkih jedinica dezertirali su, odbili da se bore ili su se predavali bez otpora; u Zagrebu je 10. aprila proglašena Nezavisna Država Hrvatska još pre nego što su nemačke trupe stigle u grad. Mnogi vojnici tako više nisu znali za koga ratuju. Glavnina otpora pala je na srpske jedinice, ali ni one, razbijene i bez logistike, nisu mogle da zaustave napredovanje."
+    },
+    {
+      "type": "paragraph",
+      "text": "Kralj Petar II Karađorđević, koji je tek nekoliko nedelja ranije punoletstvom preuzeo presto, povukao se sa vladom najpre u Pale kod Sarajeva, a zatim, pred sve težim vojnim slomom, dalje preko Crne Gore u Grčku, da bi konačno stigao u London. Tamo će, do kraja rata, postojati jugoslovenska kraljevska vlada u izgnanstvu — institucija sa međunarodnim priznanjem, ali bez teritorije i bez stvarne moći nad sopstvenom državom. U zemlji koja je ostala iza njih, vlast je vrlo brzo preuzimao okupator i njegovi saradnici."
+    },
+    {
+      "type": "paragraph",
+      "text": "Posle desetak dana borbi i bekstva štabova, 17. aprila 1941. u Beogradu je potpisana bezuslovna kapitulacija jugoslovenske vojske. U ime razbijene kraljevske vojske akt je potpisao general Danilo Kalafatović, načelnik štaba Vrhovne komande, dok je u ime države sporazum potvrdio bivši ministar inostranih poslova Aleksandar Cincar-Marković. Time je formalno okončan jedanaestodnevni rat. Tačno toliko bilo je potrebno silama Osovine da skrše državu koja je 1918. nastala kao zajednički dom Južnih Slovena."
+    },
+    {
+      "type": "paragraph",
+      "text": "Posledice su bile teške i trajne. Jugoslavija je u narednim nedeljama bila iskomadana: deo je pripao Nemačkoj, deo Italiji, Mađarskoj i Bugarskoj, u Hrvatskoj je već uspostavljena ustaška Nezavisna Država Hrvatska, a Srbija je svedena na okupiranu teritoriju pod nemačkom vojnom upravom. Stotine hiljada vojnika odvedene su u zarobljeničke logore u Nemačkoj, mnogi od njih će tamo provesti čitav rat. Aprilski rat ostao je zato upamćen ne kao bitka koja se mogla dobiti, već kao kratak, tragičan trenutak u kome se pokazalo koliko je državna zgrada Kraljevine Jugoslavije, uprkos vojsci od više stotina hiljada ljudi, iznutra bila nespremna za udarac koji ju je čekao."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

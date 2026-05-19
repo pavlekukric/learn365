@@ -6,13 +6,53 @@
   "dayNumber": 109,
   "order": 4,
   "title": "Vuk Branković",
+  "subtitle": "Gospodar Kosova i Metohije, Lazarev zet i čovek koga je narodna pesma vekovima kasnije pretvorila u izdajnika",
   "readingTimeMinutes": 7,
   "year": 1380,
-  "isPlaceholder": true,
+  "dateLabel": "1371–1389.",
+  "timelinePosition": "1371–1389.",
+  "summary": "Vuk Branković kao istorijska ličnost — moćni gospodar Kosova i Metohije, Lazarev saveznik na Kosovu i borac protiv Osmanlija do smrti u zarobljeništvu 1397, i kasniji mit o izdaji koji izvori ne potvrđuju.",
+  "keyPeople": ["Vuk Branković", "Mara Branković", "knez Lazar", "Đurađ Branković", "Branko Mladenović"],
+  "keyPlaces": ["Kosovo", "Metohija", "Priština", "Skoplje", "Sjenica"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Vuk Branković spada među one istorijske ličnosti čije se ime u srpskoj kulturi vekovima izgovara s teretom koji život same osobe ne nosi. U izvorima iz njegovog doba on je moćan, ozbiljan i sposoban gospodar Kosova, čovek koji je svoje oblasti držao duže i odlučnije nego većina savremenika. U narodnoj pesmi, koja je nastala dva veka kasnije, on je izdajnik Kosovske bitke. Između te dve slike leži jedan od najtežih raskoraka između istorije i pamćenja koje srpska prošlost poznaje, i pošten prikaz ovog vladara mora da počne od onoga što izvori zaista kažu."
+    },
+    {
+      "type": "paragraph",
+      "text": "Rođen je oko 1345. godine, u porodici koja je već uživala visoki položaj pod Nemanjićima. Njegov otac Branko Mladenović bio je sevastokrator cara Dušana i upravljao Ohridom; po njemu je porodica i dobila prezime kojim će ući u istoriju. Posle Dušanove smrti i postepenog rasula carstva, sin je nastavio očev posao na drugačijem terenu — ne kao činovnik velikog cara, nego kao samostalni oblasni gospodar. U deceniji posle Maričke bitke 1371, dok su se nekadašnje carske zemlje prelivale iz jednih ruku u druge, Vuk je oko sebe okupio prostranu i bogatu oblast: Kosovo i Metohiju kao srce, sa Prištinom i Vučitrnom kao glavnim središtima, delove Polimlja i Sjenice na severozapadu, i pojas u današnjoj zapadnoj Makedoniji sa Skopljem na jugu. Bila je to jedna od najvećih i najbolje uređenih srpskih oblasti svoga vremena."
+    },
+    {
+      "type": "paragraph",
+      "text": "Vukovu državnu težinu dodatno je učvrstio brak. Oženio se Marom, kćerkom kneza Lazara, i tako vezao Kosovo za središnju moravsku Srbiju u savez koji nije bio samo porodičan nego i politički. U srednjovekovnom svetu, gde se velika politika vodila kroz brakove jednako koliko kroz vojske, ova veza značila je da gospodar Kruševca i gospodar Prištine deluju kao deo iste celine. Vuk je u Lazarevom okruženju nastupao kao samostalan saveznik, ne kao podanik — oblasni vladar koji priznaje Lazarevo prvenstvo, ali drži sopstvenu vojsku, kuje sopstveni novac i vodi sopstvenu spoljnu politiku prema Dubrovniku, Veneciji i ugarskom dvoru."
+    },
+    {
+      "type": "paragraph",
+      "text": "Kada se 1389. godine Lazar suočio sa Muratovom vojskom na Kosovu polju, Vuk je u tu bitku ušao kao jedan od glavnih zapovednika. Njegove čete činile su značajan deo srpske strane, i nema istorijskih razloga sumnjati u to da su se borile. Bitka je, kao što je u kasnijim danima ovog poglavlja podrobnije obrađeno, završila teško i dvosmisleno — oba vladara su pala, gubici su bili veliki na obe strane, a osmanska sila se, uprkos smrti sultana, povukla sa Kosova kao pobednik. Vuk Branković je preživeo, i upravo ta činjenica postaće, mnogo godina kasnije, izvor svih nesporazuma. U sopstvenom vremenu, međutim, njegovo preživljavanje nije bilo ništa neobično: bitke se nisu sastojale od smrti svih komandanata, a deo srpskih velikaša izašao je sa Kosova polja živ, među njima i Vuk."
+    },
+    {
+      "type": "paragraph",
+      "text": "Posle bitke, dok su se druge srpske oblasti, uključujući i Lazarevu udovicu Milicu sa maloletnim sinom Stefanom, sporazumevale sa Osmanlijama i prihvatale vazalstvo, Vuk je išao drugim putem. Odbijao je da prizna sultana za gospodara dokle god je mogao. Pune godine posle Kosova nastavio je da kuje sopstveni novac, da pregovara sa ugarskim kraljem Sigismundom i da svoje oblasti drži kao samostalnu državu. Tek pod sve težim osmanskim pritiskom 1392. pristao je na neki oblik vazalnih obaveza, ali ni tada se nije predao u potpunosti. Među svim srpskim oblasnim gospodarima posle Kosova, on je najduže odolevao."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Sumrak i mit"
+    },
+    {
+      "type": "paragraph",
+      "text": "Konačni slom došao je posle Nikopoljske bitke 1396, kada je velika krstaška vojska, u kojoj je Vuk pomagao protivosmansku stranu, pretrpela razoran poraz na Dunavu. Iskoristivši trenutak, sultan Bajazit obračunao se sa onima koji su mu se i dalje opirali. Vuk Branković bio je zarobljen, njegove oblasti rasturene, i godine 1397. umro je u osmanskom zarobljeništvu. Njegova udovica Mara i sinovi će kasnije, strpljivom politikom, povratiti deo porodičnih zemalja; jedan od tih sinova, Đurađ Branković, postaće despot i obnoviti srpsku državu na novim osnovama u petnaestom veku."
+    },
+    {
+      "type": "paragraph",
+      "text": "Optužba za izdaju, po kojoj je Vuk navodno povukao svoje čete sa Kosova polja ili prešao na osmansku stranu i tako prouzrokovao srpski poraz, ne pojavljuje se ni u jednom savremenom ili bliskom izvoru. Ni vizantijski hroničari, ni dubrovački spisi, ni rana srpska žitija o tome ne govore. Priča o izdajniku javlja se mnogo kasnije, u sedamnaestom i osamnaestom veku, kada se uobličavao kosovski mit i kada je narodna pesma tražila objašnjenje za poraz — figuru Jude koja bi moralno opravdala pad jedne hrišćanske vojske. Vuk je u tu ulogu pao verovatno zato što je preživeo bitku i što su njegovi potomci, Brankovići, kasnije bili u dinastičkom suparništvu sa Lazarevićima u sećanju pevača. Moderna istoriografija, srpska i strana, ovu optužbu odbacuje kao kasnu književnu tvorevinu, ne kao istorijsku činjenicu. O samom razvoju kosovskog mita i njegove unutrašnje logike biće više reči na drugom mestu u ovom poglavlju."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pravičan portret Vuka Brankovića, dakle, mora razdvojiti dva sloja. Postoji čovek iz izvora — bogati gospodar Kosova i Metohije, Lazarev zet i ratni saveznik, učesnik Kosovske bitke, najuporniji srpski protivnik Osmanlija u godinama posle nje, zarobljenik koji je umro u tuđem zatočeništvu — i postoji lik iz pesme, kasnija književna konstrukcija koja sa stvarnim Vukom ima malo veze. Istorija mu duguje prvi; mit mu je nametnuo drugi. Razumeti ovaj raskorak nije samo pitanje pravičnosti prema jednom srednjovekovnom vladaru, nego i pitanje načina na koji svaka zajednica vekovima oblikuje sopstvenu prošlost da bi sa njom mogla da živi."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

@@ -6,13 +6,49 @@
   "dayNumber": 146,
   "order": 8,
   "title": "Manastiri kao čuvari pamćenja",
+  "subtitle": "Kako su, posle pada srpske države, manastiri postali jedini trajni nosioci jezika, vere i sećanja srednjeg veka",
   "readingTimeMinutes": 7,
   "year": 1480,
-  "isPlaceholder": true,
+  "dateLabel": "15. vek",
+  "timelinePosition": "15. vek",
+  "summary": "Posle pada Despotovine 1459, srpski manastiri ostaju jedina trajna ustanova koja čuva jezik, knjigu, kalendar svetih i sećanje na srednjovekovnu državu — od Studenice i Dečana do Hilandara i Fruške gore.",
+  "keyPeople": [],
+  "keyPlaces": ["Studenica", "Dečani", "Mileševa", "Sopoćani", "Gračanica", "Pećka patrijaršija", "Hilandar", "Fruška gora", "Krušedol"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Kada je 1459. godine pala Despotovina, srpski narod je ostao bez jedne vrste ustanove koja u srednjem veku nije imala zamenu — bez sopstvenog vladara i sopstvenog dvora. Nestala je kancelarija koja je izdavala povelje, nestao je sabor biran iz vlastele, nestala je vojska koja je nosila zastavu jednog imena. Ono što je ostalo, i što je u sledećim vekovima nosilo težinu kakvu u prvi mah niko nije slutio, bili su manastiri. Oni su, posle pada države, postali mnogo više od bogomolja — postali su jedini trajni, srpski, pravoslavni okvir u kome se nastavilo ono što je započela vladarska kuća Nemanjića."
+    },
+    {
+      "type": "paragraph",
+      "text": "U bivšoj srednjovekovnoj Srbiji, pod osmanskom vlašću, glavne zadužbine su, uz prekide i štete, opstale. Studenica, mauzolej Nemanjin; Mileševa, sa moštima Svetog Save; Sopoćani sa svojim freskama; Visoki Dečani i Gračanica na Kosovu; Pećka patrijaršija u podnožju Prokletija — sve su to mesta koja su kroz petnaesti, šesnaesti i sedamnaesti vek nastavila da pevaju istu liturgiju, čuvaju iste knjige i pominju iste vladare po imenu. Severno od Save i Dunava, u Sremu pod ugarskom krunom, izrastao je u istom razdoblju novi monaški pojas — manastiri Fruške gore: Krušedol, Vrdnik, Hopovo, Bešenovo i drugi, koji će postati duhovno utočište izbeglih vlastelinskih porodica i mesto čuvanja knjiga iznesenih sa juga. Daleko od svega toga, na Svetoj gori, Hilandar — zadužbina Nemanje i Save — neprekidno je radio kao srpska kuća unutar vaseljenske pravoslavne zajednice."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Šta se tačno čuvalo"
+    },
+    {
+      "type": "paragraph",
+      "text": "Pre svega, čuvao se jezik. U doba kada srpska država više nije imala kancelariju, manastirske pisarnice nastavile su da prepisuju jevanđelja, psaltire, službe i tipike na srpskoslovenskom — bogoslužbenom jeziku srpske redakcije starog slovenskog. Svaka generacija monaha učila je istu azbuku, istu pesmu, isti redosled molitvi koje je učila i ona iz vremena kralja Milutina. Uz bogoslužbene knjige čuvana su i žitija — životi srpskih vladara i arhijereja: Žitije Svetog Simeona, Žitije Svetog Save, žitija Stefana Dečanskog i kneza Lazara. Tako je sećanje na srednjovekovne kraljeve i despote ostajalo živo, ne kao predanje uz vatru, nego kao tekst koji se čita u crkvi na njihov spomen."
+    },
+    {
+      "type": "paragraph",
+      "text": "Uz knjigu, čuvao se i kalendar. Srpski sveti — Sveti Sava, Sveti Stefan Dečanski, Sveti knez Lazar Kosovski, Sveti car Uroš, Sveti Simeon Mirotočivi — imali su svoje dane u crkvenoj godini i te dane su manastiri javno obeležavali. To je bila tiha, a istrajna politika pamćenja: svake godine, na istim datumima, ime jednog srpskog vladara izgovaralo se na liturgiji u istom hramu koji je on, ili neko iz njegove kuće, podigao. Iz tog kalendara izrasla je i porodična slava — patronalni praznik svetog zaštitnika doma — koja je iz monaške i crkvene prakse prešla u običaj srpskih domaćinstava i tako, preko trpeze i sveće, vezala obične ljude za isti svet svetitelja koji su pominjali monasi."
+    },
+    {
+      "type": "paragraph",
+      "text": "Manastiri su, najzad, bili i muzeji kakvih u drugim sredinama nije bilo. Zidovi Sopoćana, Dečana, Gračanice i Studenice nosili su čitave galerije srednjovekovnog srpskog slikarstva — portrete kraljeva u krunama, scene iz njihovih života, nizove srpskih svetitelja na južnim i zapadnim zidovima. Pod osmanskom vlašću u tim hramovima nisu se mogli graditi novi dvorovi, ali je svako ko bi ušao mogao i bez teksta da vidi kako je izgledala stara država — kakvi su bili njeni gospodari, kako su se odevali, kome su se molili."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sve to nije bilo bez cene. Osmanska vlast je manastire opterećivala porezima i povremenim ograničenjima, ratovi su donosili pljačku i požar, pojedini manastiri su privremeno napuštani, knjige su nestajale. Pritisak na monahe i seosko sveštenstvo — administrativni, materijalni, ponekad i lični — bio je stalan. Ipak, najveći deo glavnih zadužbina je opstao, a kada je 1557. godine obnovljena Pećka patrijaršija pod patrijarhom Makarijem Sokolovićem, pokazalo se da je crkvena mreža bila dovoljno čvrsta da prihvati i obnovljenu hijerarhiju. Iza te obnove stajali su upravo manastiri koji su kroz vek bez države sačuvali kadrove, knjige i obrede."
+    },
+    {
+      "type": "paragraph",
+      "text": "Tu je i najtiši deo priče. Manastir je bio mesto na koje je običan čovek — kmet, trgovac, izbeglica — mogao da dođe na praznik svog sveca, da zapali sveću pred ikonom vladara o kome ništa nije čitao, da čuje pesmu na jeziku koji nije slušao u čaršiji. Preko slave, hodočašća i susreta sa monasima, vezivao se za sloj sećanja stariji od svake žive vlasti. Kada su mnogo kasnije došli novi naraštaji — oni iz Velike seobe 1690, oni iz ustanaka početkom devetnaestog veka, oni koji su tražili reči za svoju državu — zatekli su gotovu građu: imena, datume, žitija, freske, kult Svetog Save. Treba reći mirno i bez preterivanja: u srpskom slučaju, manastir je vekovima radio posao koji su u drugim narodima delili dvor, univerzitet i arhiv. To je obeležje ove istorije koje vredi razumeti pre nego što se o njemu donese bilo kakav sud."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

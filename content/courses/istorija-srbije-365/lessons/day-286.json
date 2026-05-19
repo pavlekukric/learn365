@@ -6,13 +6,49 @@
   "dayNumber": 286,
   "order": 6,
   "title": "Bukureštanski mir 1913.",
+  "subtitle": "Kako je posle Drugog balkanskog rata u Bukureštu povučena nova karta Balkana — i kako je Srbija udvostručena",
   "readingTimeMinutes": 7,
   "year": 1913,
-  "isPlaceholder": true,
+  "dateLabel": "1913.",
+  "timelinePosition": "10. avgust 1913.",
+  "summary": "Mirovni ugovor potpisan 10. avgusta 1913. u Bukureštu okončao je Drugi balkanski rat: Bugarska je izgubila gotovo sve dobitke iz prvog rata, a Srbija je gotovo udvostručila teritoriju i stanovništvo.",
+  "keyPeople": ["Nikola Pašić", "Ferdinand I Koburg", "Eleftherios Venizelos", "Titu Maiorescu"],
+  "keyPlaces": ["Bukurešt", "Vardarska Makedonija", "Egejska Makedonija", "Solun", "južna Dobrudža", "Jedrene"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Drugi balkanski rat trajao je svega mesec dana. Bugarska vojska, koja je krajem juna 1913. iznenada udarila na srpske i grčke položaje u Makedoniji, za nekoliko nedelja našla se opkoljena sa svih strana. Srbi i Grci uzvratili su udarac, Rumunija je bez objave rata prešla Dunav i uputila trupe ka Sofiji, a Osmansko carstvo je iskoristilo trenutak da povrati Jedrene. Početkom avgusta bugarska vlada je tražila mir. Dogovoreno je da se delegacije sastanu u Bukureštu, glavnom gradu pobednika koji je jedva i ispalio metak — Rumunije."
+    },
+    {
+      "type": "paragraph",
+      "text": "Konferencija je počela krajem jula i tekla je brzo, gotovo bez priziva. Bugarska je bila vojnički slomljena i diplomatski osamljena. Velike sile, koje su godinu dana ranije pokušale da se umešaju u podelu balkanskog plena, sada su pristale da pobednici sami razdele teritoriju. Rumunski premijer Titu Maiorescu predsedavao je sastancima sa staloženim domaćinskim mirom. Srpsku delegaciju vodio je Nikola Pašić, grčku Eleftherios Venizelos, crnogorsku Janko Vukotić. Bugarski izaslanici su, prema svedočanstvima učesnika, dolazili na sednice ćuteći, svesni da nemaju sa čim da pregovaraju osim sa sopstvenim porazom."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sporazum je potpisan 10. avgusta 1913. godine. Sa Bugarskom s jedne strane, a Srbijom, Grčkom, Crnom Gorom i Rumunijom s druge, on je u nekoliko članova prepravio kartu Balkana koja je nastala posle Prvog balkanskog rata. Vardarska Makedonija — sa Skopljem, Bitoljem, Kumanovom, Štipom, Velesom i Ohridom — pripala je Srbiji. Egejska Makedonija, sa lukom Solunom kao najvrednijim dobitkom, pripala je Grčkoj. Južna Dobrudža, sa gradovima Silistrom i Dobričem, prešla je Rumuniji. Crna Gora je dobila proširenja u Metohiji i Sandžaku, koja su, zajedno sa srpskim, dovršila podelu starih turskih sandžaka u tom delu poluostrva. Bugarskoj je ostao izlazak na Egejsko more sa lukom Dedeagač, ali bez Soluna i bez većeg dela teritorije za koju se godinama spremala."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Šta je dobijeno, šta izgubljeno"
+    },
+    {
+      "type": "paragraph",
+      "text": "Račun je za Srbiju bio krupan. Pre balkanskih ratova država je obuhvatala oko 48.300 kvadratnih kilometara; posle Bukureštanskog mira ta brojka popela se na otprilike 87.800. Stanovništvo je sa nekih dva i po miliona naraslo na blizu četiri i po. Granice su se prvi put posle vekova pomerile duboko na jug — u oblasti koje su za srpsku javnost imale snažan istorijski značaj, jer su tu bila središta srednjovekovne države, manastiri, grobnice vladara. U Beogradu je vest o sporazumu primljena sa olakšanjem i ponosom; u Sofiji je istog tog dana, prema kasnijim sećanjima, vladala teška tišina. Bugarska je u svega mesec dana izgubila gotovo sve što je u prvom ratu vojnički osvojila."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sa Osmanskim carstvom Bugarska je morala da pregovara posebno. Carigradski mir, potpisan krajem septembra 1913, vratio je Jedrene Osmanlijama — grad koji je bugarska vojska s teškim gubicima zauzela u proleće te iste godine. Tako je rat koji je počeo kao podela osmanskog nasleđa završen tako što je Osmansko carstvo, iako poraženo u prvom ratu, ipak povratilo deo izgubljenog. U bugarskoj istoriografiji ono što se dogodilo između juna i septembra 1913. dobilo je trajno ime — „nacionalna katastrofa”. Taj izraz nije samo književna figura. On je, kao osećanje, oblikovao bugarsku spoljnu politiku narednih godina i odlučno doprineo tome da se zemlja 1915. svrsta uz Centralne sile, u nadi da će izgubljeno povratiti silom."
+    },
+    {
+      "type": "paragraph",
+      "text": "O jednom pitanju treba govoriti otvoreno, jer bi se inače cela priča svela na geografiju. Granice u Makedoniji povučene su voljom država, ne plebiscitom stanovništva. Ko je u toj oblasti živeo i kojoj se naciji ili crkvi pripajao — Srbi, Bugari, Grci, Vlasi, Albanci, Turci, slovenski govornici koji su sebe nazivali jednostavno Makedoncima — bilo je i ostalo predmet sporova. Srpska, bugarska i grčka strana iznosile su u tom trenutku različite procene, često u sopstvenu korist, oslonjene na crkvenu pripadnost, jezičke dijalekte ili etnografske karte koje su nastajale upravo u funkciji političkih zahteva. Pošten odgovor je da pouzdane brojke ne postoje i da je svaka tadašnja statistika morala biti uzeta sa oprezom. Bukureštanski mir to pitanje nije rešio — on ga je samo zaključao novim granicama."
+    },
+    {
+      "type": "paragraph",
+      "text": "Za Srbiju je leto 1913. ipak bio trenutak najvećeg teritorijalnog uspeha od obnove države u devetnaestom veku. Vojska se vratila kući praćena ovacijama, a vlada je počela da uređuje upravu u takozvanim „novim krajevima” na jugu. Ali već u tom času trezveniji posmatrači su upozoravali da je novi balkanski poredak krhak. Bugarska je bila ponižena i osvetoljubiva, Albanija tek u nastajanju i nezadovoljna granicama, Austrougarska iznervirana srpskim uspehom. Bukureštanski mir je zatvorio jedno poglavlje i, u istom potezu, otvorio sledeće — ono koje će svega godinu dana kasnije, kroz sarajevski metak i austrougarski ultimatum, prerasti u svetski rat."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

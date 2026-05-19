@@ -6,13 +6,49 @@
   "dayNumber": 49,
   "order": 2,
   "title": "Stefan Nemanja dolazi na vlast",
+  "subtitle": "Posle sukoba sa starijim bratom Nemanja postaje veliki župan Raške i otvara epohu koja će trajati dva veka",
   "readingTimeMinutes": 8,
   "year": 1166,
-  "isPlaceholder": true,
+  "dateLabel": "oko 1166.",
+  "timelinePosition": "1166.",
+  "summary": "Kako je Stefan Nemanja, posle bratovljevih sumnji i kratkog tamnovanja, savladao starijeg brata Tihomira u bici kod Pantina i postao veliki župan Raške — početak nemanjićkog doba.",
+  "keyPeople": ["Stefan Nemanja", "Tihomir", "Manojlo I Komnen"],
+  "keyPlaces": ["Raška", "Pantino", "Carigrad"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Sredinom šezdesetih godina dvanaestog veka raška država nije bila ni mala ni beznačajna, ali ni jedinstvena. Posle smrti oca, vlast je bila podeljena među četvoricom braće, pri čemu je najstariji, Tihomir, držao naslov velikog župana — prvog među jednakima. Najmlađi, Stefan Nemanja, držao je svoju oblast na istoku, prema vizantijskoj granici. Ta podela, naizgled uredna, nosila je u sebi naprslinu koja će se za nekoliko godina pretvoriti u otvoren sukob i, na kraju, u događaj koji srpska istorijska svest pamti kao početak jedne nove ere."
+    },
+    {
+      "type": "paragraph",
+      "text": "Da bi se razumelo zašto je do raskola došlo, valja se setiti kakav je svet okruživao tadašnju Rašku. Na jugu je bila Vizantija pod moćnim carem Manojlom I Komnenom, koji se prema srpskim župama odnosio kao prema vazalima — postavljao je i smenjivao velike župane, primao ih u Carigradu, slao im darove i pretnje u istoj pošiljci. Na zapadu su bili Ugarska i jadranski gradovi, na severu mađarska kruna i njena igra sa Vizantijom. Veliki župan Raške morao je istovremeno da održava red među braćom i rodbinom unutra, i da balansira između sila spolja. Tihomir, čini se, nije imao za to ni dovoljno snage ni dovoljno strpljenja."
+    },
+    {
+      "type": "paragraph",
+      "text": "Nemanja je, sa svoje strane, vrlo rano počeo da gradi sopstveni autoritet u oblasti koju je dobio na upravu. Podizao je crkve — pamti se naročito njegova zadužbina posvećena Svetom Nikoli u Toplici — primao na svoj dvor uglednike, sklapao saveze sa lokalnom vlastelom i, što je za to vreme bilo važno, vodio razgovore i sa vizantijskom stranom. Sve to njegovoj braći nije moglo proći neopaženo. U izvorima koji su nastali znatno kasnije, u krilu nemanjićke dinastije, opisuje se kako je Tihomir, podozriv prema bratovljevoj sve većoj samostalnosti, sazvao sabor i odlučio da Nemanju liši slobode. Nemanja je, prema toj tradiciji, bio zatočen, ali ga je iz tamnice izbavila — kako predanje kaže — pomoć svetog Đorđa, koja se istoričarima naravno čita kao narodno tumačenje stvarne mreže saveznika koji su mu ostali verni."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Pantino i preuzimanje vlasti"
+    },
+    {
+      "type": "paragraph",
+      "text": "Iz tamnice je Nemanja izašao odlučan da pitanje vlasti reši silom. Okupio je vlastelu koja mu je bila naklonjena, skupio vojsku u svojim oblastima i krenuo prema braći. Do odlučujuće bitke došlo je, prema kasnijim izvorima, na mestu zvanom Pantino. Tačan položaj tog mesta danas nije pouzdano utvrđen; tradicija ga smešta negde na Kosovu ili u njegovom širem okruženju, ali sigurnih arheoloških potvrda nema. Ono što izvori saglasno tvrde jeste da je Nemanjina strana odnela pobedu, da je Tihomirova vojska razbijena i da je sam veliki župan u bekstvu poginuo — prema predanju, utopivši se u reci dok je pokušavao da pređe na drugu obalu. Druga dvojica braće, Stracimir i Miroslav, prepoznali su trenutak i priklonili se Nemanji — kasnije će uz njega vladati svojim oblastima, sada već kao mlađa braća velikog župana, a ne kao njegovi suparnici."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ovde valja stati i biti pošten prema izvorima. Najveći deo onoga što znamo o Pantinu, o Tihomirovom utapanju i o Nemanjinom čudesnom izbavljenju iz tamnice ne dolazi iz dokumenata vremena u kome se zbilo, već iz žitija koja su napisali Nemanjini sinovi i potonji crkveni pisci. Stefan Prvovenčani, sin koji je nasledio oca, sastavio je hagiografiju u kojoj se otac prikazuje kao pravedan, bogom vođen vladar; sličan ton ima i nešto kasnije žitije iz pera Svetog Save. U takvim tekstovima drama, čudo i moralna pouka idu zajedno sa činjenicom. Jezgro je istorijski sigurno — Nemanja je oko 1166. godine postao veliki župan Raške i potisnuo brata — ali svaki dramatični detalj treba čitati sa svešću da iza njega stoji i pero koje je već znalo kako se priča završava."
+    },
+    {
+      "type": "paragraph",
+      "text": "Prvi koji je morao da prihvati novu stvarnost bio je vizantijski car Manojlo. Po naslednom pravu i po dotadašnjoj praksi, on je bio taj koji je potvrđivao velikog župana. Tihomir je do tog časa bio njegov čovek; Nemanja, koji je vlast preuzeo silom, bio je za carstvo nepoznanica. Ipak, Manojlo je, posle početne uzdržanosti, novu vlast priznao — verovatno procenivši da je jaka i jedinstvena Raška, čak i pod čovekom koji je sam došao do prestola, korisnija od podeljene zemlje u građanskom ratu. Nemanja je formalno ostao vizantijski vazal, slao darove i poklisare u Carigrad i pratio carske vojne pohode kada se to od njega tražilo. Pravo razračunavanje sa Carstvom doći će tek kasnije, kada Manojlo umre i kada se ravnoteža sila promeni."
+    },
+    {
+      "type": "paragraph",
+      "text": "Zato je godina 1166. — i sama približno, jer izvori dopuštaju i koju godinu razlike — više od datuma jedne smene na čelu jedne župe. Od tog časa, čovek koji će kasnije primiti monaški postrig pod imenom Simeon i biti uvršten među svetitelje, vodi srpsku državu. Iza njega će doći sin koji će je proglasiti kraljevinom i drugi sin koji će joj dati samostalnu crkvu. Iz današnje perspektive lako je u Nemanji videti osnivača dinastije; on sam, dok je 1166. ulazio u dvor svoga brata, to još nije mogao znati. Znao je samo da je rat unutar porodice završen i da Raška, posle godina podele, ponovo ima jednog gospodara. Sve ostalo — kraljevstvo, autokefalna crkva, Hilandar, Studenica, dva veka jedne loze — tek je trebalo da bude izgrađeno."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

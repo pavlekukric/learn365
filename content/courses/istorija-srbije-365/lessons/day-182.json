@@ -6,13 +6,49 @@
   "dayNumber": 182,
   "order": 10,
   "title": "Zaharije Orfelin",
+  "subtitle": "Učen čovek, bakrorezac i pokretač prvog južnoslovenskog časopisa u 18. veku",
   "readingTimeMinutes": 6,
   "year": 1770,
-  "isPlaceholder": true,
+  "dateLabel": "18. vek",
+  "timelinePosition": "18. vek",
+  "summary": "Zaharije Orfelin (1726–1785) — pisac, bakrorezac i urednik prvog časopisa na južnoslovenskom prostoru, jedan od pionira srpskog prosvetiteljstva u habzburškim gradovima.",
+  "keyPeople": ["Zaharije Orfelin", "Petar Veliki", "Jovan Rajić"],
+  "keyPlaces": ["Vukovar", "Sremski Karlovci", "Beč", "Venecija", "Novi Sad"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Među ljudima srpskog 18. veka koji su pokušavali da svoj narod uvedu u prosvećenu Evropu, Zaharije Orfelin spada u one kojima istorija nije dala glasnu slavu, ali jeste dala trajan trag. Nije bio ni mitropolit kao Pavle Nenadović, ni veliki istoričar kao Jovan Rajić, ni svetski putnik i učitelj naroda kao Dositej Obradović. Bio je nešto manje vidljivo i nešto teže za jednu reč — pisac, bakrorezac, urednik, prevodilac, popularizator, čovek koji je radio na više strana odjednom i koji je svojim sitnim, ali brojnim delima zidao kulturnu infrastrukturu jedne sredine koja je tek učila da čita i da gleda štampanu knjigu."
+    },
+    {
+      "type": "paragraph",
+      "text": "Rođen je 1726. godine u Vukovaru, tada gradu u Habzburškoj monarhiji, u srpskoj pravoslavnoj porodici. Školovao se u Sremskim Karlovcima, koji su sredinom 18. veka bili glavno duhovno i obrazovno središte Srba u Monarhiji, a veliki deo znanja stekao je sam — čitajući, prepisujući, učeći jezike. Govorio je i pisao slavenosrpski, hibridni jezik obrazovanih Srba toga doba, oslonjen na crkvenoslovenski i ruski književni uzor, sa srpskim narodnim primesama. Vladao je i nemačkim, latinskim, donekle italijanskim — što ga je činilo retko upotrebljivim čovekom u svetu u kome se knjiga štampala u Beču i Veneciji, a čitalac sedeo u Karlovcima i Novom Sadu."
+    },
+    {
+      "type": "paragraph",
+      "text": "Karijera mu je bila šarena i nemirna. Radio je kao pisar u karlovačkoj mitropoliji, kao učitelj, kao urednik i korektor srpskih knjiga koje su izlazile u bečkim štamparijama, kao bakrorezac u Veneciji i Beču. Upravo bakrorez — zanat urezivanja slike u bakarnu ploču sa koje se zatim štampa — bio je veština koja ga je odvojila od većine njegovih savremenika. Orfelin je postao jedan od vodećih srpskih bakroreza svog doba: njegovi listovi krase mnoge važne srpske knjige iz sredine i druge polovine 18. veka, a izrađivao je i religiozne slike, portrete, karte, naslovne strane. Tamo gde drugi pisci ostavljaju samo tekst, on je iza sebe ostavio i niz strpljivo urezanih slika, dokumenata jednog vremena koje je tek otkrivalo moć ilustrovane knjige."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Magazin iz Venecije"
+    },
+    {
+      "type": "paragraph",
+      "text": "Najsmeliji Orfelinov potez bio je novinarski. Godine 1768. u Veneciji je pokrenuo i uredio „Slaveno-serbskij magazin” — prvi časopis u istoriji bilo kog južnoslovenskog jezika. Po zamisli, to je bila tipična prosvetiteljska enciklopedijska publikacija: kratki tekstovi iz književnosti, istorije, geografije, prirodnih nauka, korisne pouke, vesti iz sveta učenosti. Po obliku — pokušaj da se srpskim čitaocima u Monarhiji da ono što su nemački, francuski i ruski čitaoci već imali decenijama: redovan, raznovrstan, sekularan časopis. „Magazin” je izašao samo u jednom broju, jer pretplatnika nije bilo dovoljno da pokriju troškove. Pa ipak, taj jedan jedini sveščić upisan je kao osnivački trenutak južnoslovenskog novinarstva — početak koji nije imao nastavljača istog dana, ali koji je u potonjim decenijama dobio brojne naslednike."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pored toga, Orfelin je čitavog života pisao knjige i knjižice najrazličitijih vrsta. Sastavio je verske bukvare i molitvenike, popularne pouke o nauci i prirodi, pedagoške priručnike, čak i praktične vodiče poput knjige o vinogradarstvu — što sve govori o jednom prosvetiteljskom uverenju da knjiga treba da pomogne i seljaku, a ne samo svešteniku ili učenom čitaocu. Najobimnije i najpoznatije njegovo delo jeste „Žitije i slavna djela Petra Velikago”, opsežna biografija ruskog cara Petra Prvog, objavljena 1772. Knjiga je za srpsku sredinu bila više nego samo istorijska monografija: bila je i kulturno-politički iskaz. Srpski prosvetiteljski pisci u Petru Velikom videli su uzor modernizatora — vladara koji je voljom i prinudom uveo svoju zemlju u red evropskih sila — i u takvom liku tražili argument za sopstvene zahteve za školom, štampom i razumnim upravljanjem."
+    },
+    {
+      "type": "paragraph",
+      "text": "Orfelin je pripadao širem krugu karlovačkog prosvetiteljstva, u kome su delovali Jovan Rajić i drugi učeni ljudi okupljeni oko mitropolije i njenih škola. Sa njima ga je vezivalo uverenje da je narodu potrebno više pismenih ljudi, više knjiga na razumljivom jeziku, više dodira sa evropskom naukom. Njegova narav, međutim, nije bila ni mirna ni ugodna sredini u kojoj je radio. Savremenici su ga opisivali kao nemirnog, oštrog, ponekad svadljivog čoveka; više puta je dolazio u sukob sa crkvenim vlastima, menjao je gradove i poslove, živeo u Beču, Veneciji, raznim mestima Monarhije. Umro je 1785. godine u Novom Sadu, u neuglednim prilikama, daleko od priznanja koje će njegovo delo dobiti tek mnogo kasnije, kada su istoričari srpske kulture počeli ozbiljno da prebrojavaju ko je sve i kako pripremio veliki preokret koji će u 19. veku doneti Vuk Karadžić i njegovo pokolenje."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pošteno gledano, Orfelin nije figura iste veličine kao Dositej ili Rajić. Njegov opus je raštrkan, jezik mu je u prelaznom slavenosrpskom stanju koje će kasnija reforma odbaciti, a životni put ostao je bez velikih institucionalnih uspeha. Pa ipak, ako se zapitamo ko je u srpskoj sredini 18. veka radio sve poslove koje moderna kultura traži — pisao knjige, ilustrovao ih, urednikovao, štampao, pokrenuo prvi časopis, popularisao nauku i istoriju — odgovor će sa jednog mesta uvek biti isti: Zaharije Orfelin. Bio je pionir u nekoliko stvari odjednom, a pioniri retko stignu da uberu plodove. Njegove bakrorezne ploče i jedini broj njegovog „Magazina” danas stoje u srpskoj kulturnoj istoriji kao tihi, ali nesumnjivi znak da je prosvetiteljstvo među Srbima počelo ranije i strpljivije nego što se to ponekad pamti."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

@@ -6,13 +6,61 @@
   "dayNumber": 280,
   "order": 15,
   "title": "Kneževina i Kraljevina — nasleđe",
+  "subtitle": "Vek gradnje moderne srpske države — od Karađorđa i Miloša do uoči Balkanskih ratova 1912. godine",
   "readingTimeMinutes": 8,
   "year": 1910,
-  "isPlaceholder": true,
+  "dateLabel": "pregled",
+  "timelinePosition": "pregled",
+  "summary": "Pregled političkog, institucionalnog, ekonomskog i kulturnog nasleđa moderne srpske države, od ustanka 1804. do uoči Balkanskih ratova, sa njenim dometima i ograničenjima.",
+  "keyPeople": ["Karađorđe", "Miloš Obrenović", "Mihailo Obrenović", "Milan Obrenović", "Petar I Karađorđević", "Vuk Karadžić", "Jovan Cvijić", "Stevan Mokranjac"],
+  "keyPlaces": ["Beograd", "Kragujevac", "Niš", "Berlin", "Carigrad", "Beč"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Kada se 1910. godine pogleda unazad, na vek koji deli mlade ratnike Karađorđevog ustanka od oficira koji se spremaju za nove ratove, vidi se nešto što savremenicima nije bilo lako da uoče dok su živeli u tome — da je u tih sto godina, između podizanja prvog logora 1804. i kraljevine koja uoči 1912. broji blizu tri miliona stanovnika, nastala jedna nova država. Ne obnovljeno carstvo iz srednjovekovnih pesama, nego nešto sasvim drugo: moderna evropska monarhija sa ustavom, skupštinom, vojskom na opštoj obavezi, sopstvenom valutom i univerzitetom. Ovo je pregled onoga što je taj vek ostavio narednom — onome koji će već za dve godine ući u rat."
+    },
+    {
+      "type": "paragraph",
+      "text": "Politički nasleđe počiva na jednom prostom, ali presudnom putu: od pašaluka beogradskog, jedne osmanske administrativne jedinice, do nezavisne i međunarodno priznate kraljevine. Karađorđe je 1804. podigao ustanak protiv dahija; Miloš je 1815. postavio temelj državi koja će opstati. Hatišerifima 1830. i 1833. Kneževina je dobila autonomiju i proširenje, a Berlinskim kongresom 1878. punu nezavisnost. Četiri godine kasnije Milan Obrenović proglasio se kraljem. Bila je to država koja se oblikovala u koracima, čas pregovorima, čas oružjem, ali bez prekida u nameri."
+    },
+    {
+      "type": "paragraph",
+      "text": "Institucionalno nasleđe je još opipljivije. Prvi ustav, Sretenjski iz 1835, trajao je svega nekoliko nedelja, ali je označio početak razgovora o ustavnosti. Slede ustavi iz 1869, 1888, 1901. i 1903 — svaki od njih beleg jedne političke borbe, ali zajedno i dokaz da je ustavni okvir, jednom uspostavljen, postao trajni način razmišljanja o vlasti. Skupština iz savetodavnog tela prerasla je u stvarni parlament. Vlada je dobila ministarstva i resore. Sudstvo se odvojilo od uprave. Vojska je od narodne čete iz ustaničkih dana postala redovna sila zasnovana na opštoj vojnoj obavezi. Srpska pravoslavna crkva 1879. dobila je autokefalnost, a 1905. otvorio se Beogradski univerzitet, izrastao iz Velike škole."
+    },
+    {
+      "type": "paragraph",
+      "text": "Parlamentarizam je, treba reći pošteno, radio neravnomerno. Osamdesete godine donele su pravu borbu stranaka — radikala, naprednjaka, liberala — i ozbiljne parlamentarne sukobe. Devedesete su, pod kraljem Aleksandrom Obrenovićem, bile godine državnih udara, suspenzija ustava i nasilnih raspuštanja skupštine. Posle 1903. parlamentarni život se vratio i u narednoj deceniji pokazao da može da funkcioniše. Ali ostaje činjenica da je u sto godina parlamentarizam i opstao i posrtao — i da je upravo to dvojstvo deo nasleđa koje ulazi u dvadeseti vek."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Teritorija, ekonomija, kultura"
+    },
+    {
+      "type": "paragraph",
+      "text": "Teritorijalno, od malog pašaluka država je porasla na oko 48.300 kvadratnih kilometara i 2,9 miliona stanovnika uoči 1912. Demografski rast je bio postojan: od približno 700.000 ljudi u Milošev popis 1834. do gotovo četiri puta više za tri četvrti veka. Ekonomski temelji su postavljeni u poslednjoj trećini veka — dinar je uveden 1878, Narodna banka osnovana je 1884, iste godine puštena je prva železnica Beograd–Niš. Bankarski sektor je narastao u Beogradu, prvi industrijski pogoni — pivare, mlinovi, rudnici, tekstilne i duvanske manufakture — promenili su lice nekoliko gradova. Carinski rat sa Austrougarskom između 1906. i 1911. bio je teška, ali presudna potvrda da Srbija može da preživi i bez austrijskog tržišta — i da nađe nove puteve preko Soluna i Crne Gore."
+    },
+    {
+      "type": "paragraph",
+      "text": "Kulturno nasleđe je možda najtrajnije. Vuk Karadžić je još pre stvaranja kraljevine reformisao jezik i pismo, i njegova pobeda u devetnaestom veku odlučila je kojim će jezikom govoriti škola, novine i kancelarija. Srpska kraljevska akademija osnovana je 1886, Univerzitet 1905. Generacije pisaca — od Njegoša, Zmaja i Đure Jakšića do Sremca, Nušića, Skerlića i Dučića — stvorile su nacionalnu književnost koja sasvim ravnopravno može da stane uz okolne. Naučnici poput Josifa Pančića, Jovana Cvijića i Mihaila Petrovića Alasa unose Srbiju u evropske naučne tokove. Slikari Paja Jovanović i Uroš Predić, kompozitor Stevan Mokranjac i mlada slikarka Nadežda Petrović pokazuju da kultura nije više samo crkvena ni samo narodna, nego i građanska i moderna."
+    },
+    {
+      "type": "paragraph",
+      "text": "Vojno nasleđe je, posebno posle 1903, postalo predmet posebne pažnje. Modernizovana naoružanjem, novim oficirskim kadrom i ratnim iskustvom starijih generacija, srpska vojska na kraju ove epohe smatra se najjačom samostalnom silom na Balkanu. To će se u Balkanskim ratovima i pokazati, ali u 1910. to je još uvek pretpostavka, ne dokaz. U politici, međutim, vojska je tih godina i sila koja je 1903. obarala dinastiju — i njena unutrašnja kohezija pitanje je koje će se vratiti."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ograničenja su jednako stvarna kao i dostignuća. Srbija 1910. ostaje pretežno seoska, siromašna zemlja. Pismenost je još uvek niska — većina seoskog stanovništva ne zna da čita. Modernizacija je dosegla Beograd, Niš, Kragujevac, ali periferiju samo delom. Srpska dijaspora preko Save i Dunava, u Vojvodini, Bosni, Hercegovini, Hrvatskoj, Staroj Srbiji i Makedoniji, brojnija je nego stanovništvo same kraljevine — što je i njena snaga i njena trajna politička obaveza. Odnosi sa Austrougarskom, sa Bugarskom, sa Turskom — niti jedan nije rešen. Sve te otvorene račune narednih godina otvoriće sila, ne sporazum."
+    },
+    {
+      "type": "paragraph",
+      "text": "Politička kultura nosi dva lica. S jedne strane, vek ustavnosti, izbora, skupštinske rasprave, slobodne štampe i razvijenog stranačkog života. S druge, niz nasilnih političkih prelaza — ubistvo kneza Mihaila 1868, abdikacija kneza Miloša 1858, Majski prevrat 1903 — koji pokazuju da nasilje nije bilo strano načinima na koje se rešavalo pitanje vlasti. Oba ta nasleđa ulaze u dvadeseti vek zajedno; ni jedno se ne može odvojiti od drugog."
+    },
+    {
+      "type": "paragraph",
+      "text": "Kraljevina koja 1912. ulazi u Balkanske ratove proizvod je tog jednog veka kontinuirane gradnje — sa svim mukama, lomovima i nedovršenim poslovima. Ne treba je mitologizovati: nije bila velika ni bogata sila. Ne treba je ni umanjivati: u sto godina napravila je više nego što su Karađorđe i Miloš mogli da zamisle. Naredne sekcije našeg kursa pratiće kako će to nasleđe — institucije, vojska, ekonomija, ljudi — biti stavljeno na najtežu probu u ratovima 1912–1918, i kako će iz tih ratova izaći u sasvim novoj državi, čije se ime još ni ne sluti."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

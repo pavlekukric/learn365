@@ -6,13 +6,49 @@
   "dayNumber": 276,
   "order": 11,
   "title": "Privreda uoči Balkanskih ratova",
+  "subtitle": "Mala agrarna zemlja koja je u nekoliko godina pre 1912. preživela carinski rat i diversifikovala izvoz",
   "readingTimeMinutes": 6,
   "year": 1910,
-  "isPlaceholder": true,
+  "dateLabel": "oko 1910.",
+  "timelinePosition": "oko 1910.",
+  "summary": "Kraljevina Srbija uoči 1912: nepuna tri miliona stanovnika, pretežno seljačka privreda, ali sa modernim bankarstvom, prvim elektranama, rudnikom u Boru i izvozom koji je posle Carinskog rata našao nove kupce.",
+  "keyPeople": ["Đorđe Vajfert"],
+  "keyPlaces": ["Beograd", "Bor", "Paraćin", "Leskovac", "Užice", "Senjski Rudnik", "Aleksinac", "Vučje"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Uoči Balkanskih ratova Kraljevina Srbija bila je mala zemlja čak i po balkanskim merilima — oko 48.300 kvadratnih kilometara i blizu 2,9 miliona stanovnika. Velika većina živela je na selu, od zemlje, stoke i šljive. Ipak, ako se priđe brojkama bez prevelike strogosti i bez nepotrebne uljuljkanosti, dobija se slika privrede koja je u prethodnoj deceniji prešla više nego što se obično pretpostavlja. Iza seoskog krajolika već su radile pivare, klanice, tekstilne fabrike, rudnici i prvi električni gradski sistemi — moderan okvir oko još uvek tradicionalnog života."
+    },
+    {
+      "type": "paragraph",
+      "text": "Struktura privrede ostala je jasno agrarna. Procene savremenih ekonomista i kasnijih istoričara slažu se uglavnom oko proporcija: poljoprivreda je davala oko sedamdeset odsto domaćeg proizvoda, industrija i zanati negde oko dvanaest, a trgovina i usluge preostalih osamnaest odsto. Posed je bio sitan, mahom porodični, sa malo viška za tržište. Ipak je upravo to selo, kroz svinje, žito, suve šljive i šljivovicu, hranilo srpski izvoz. Pored toga su išli i voće, koža i sirovo gvožđe, dok se uvozilo ono što zemlja sama nije pravila u dovoljnim količinama — tekstil, mašine, šećer i naftni derivati."
+    },
+    {
+      "type": "paragraph",
+      "text": "Najveći test te privrede bio je takozvani Carinski rat sa Austro-Ugarskom, koji je trajao od 1906. do 1911. godine. Beč je iznenadno zatvorio granicu za srpsku stoku, pre svega za svinje, koje su do tada uglavnom išle na austrijsko i češko tržište. Bio je to udarac usmeren na sam živac srpskog izvoza. Umesto sloma, usledilo je prestrojavanje: modernizovane su klanice u zemlji, otvorene su nove izvozne rute preko Soluna i ka Egiptu, a partneri su se razgranali — Nemačka, Francuska, Velika Britanija, Italija, Belgija i Egipat postali su važni kupci. Kada se 1911. trgovina sa Austro-Ugarskom konačno normalizovala, ona se nije vratila na predratni nivo, ali Srbija više nije bila vezana za jedno tržište kao ranije. Taj rast i diversifikacija izvoza, postignuti pod pritiskom, ostali su predratni privredni uspeh koji se ne sme prećutati."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Fabrike, banke, struja"
+    },
+    {
+      "type": "paragraph",
+      "text": "Industrija je bila mala, ali stvarna. Po popisu iz 1910. godine, u Srbiji je bilo nešto više od četiristo šezdeset preduzeća sa preko pet zaposlenih — što je skroman broj, ali nikako simbolički. Najpoznatija je bila Vajfertova pivara u Beogradu, najveća u zemlji i jedna od najmodernijih na Balkanu, vlasništvo industrijalca Đorđa Vajferta. Radile su klanice osvežene tokom Carinskog rata, tekstilne fabrike u Paraćinu i Leskovcu, prve cementare i rudnici uglja u Senjskom Rudniku i kod Aleksinca. Posebno mesto već je imao Borski rudnik bakra, otvoren 1903. godine uz francuski kapital — u narednim decenijama postaće jedan od najznačajnijih privrednih objekata u zemlji."
+    },
+    {
+      "type": "paragraph",
+      "text": "Iza svega toga stajao je razgranatiji finansijski sistem nego što se obično pretpostavlja. Na vrhu je bila Privilegovana narodna banka, centralna i emisiona ustanova, koja je čuvala dinar i kontrolisala novčanu masu. Oko nje su u Beogradu radile približno dvadeset pet komercijalnih banaka, a po gradovima i varošicama, prema različitim procenama, između osamdeset i sto dvadeset lokalnih štedionica i banki. Strani kreditori — pre svega francuski Société Générale i češko-austrijski Wiener Bankverein — bili su prisutni i kao zajmodavci države i kao učesnici u industrijskim projektima. Srbija je krajem prve decenije veka uveliko bila uvučena u evropske finansijske tokove, što joj je davalo kapital, ali i obavezivalo na disciplinu."
+    },
+    {
+      "type": "paragraph",
+      "text": "Saobraćaj je polako pratio. Železnička mreža imala je oko hiljadu kilometara pruga, dovoljno da poveže glavne pravce, ali ne i da pokrije zemlju gusto. Rečni saobraćaj na Dunavu i Savi, sa nekoliko parobroda, ostao je značajan za teret. Po varošima su se pojavile prve automobilske rute, dok su telegraf, pošta i telefon u gradovima već bili pouzdani. Posebno svetlo u toj slici daju prve elektrane: Beograd je dobio električnu rasvetu još 1893. godine, Niš i Užice nešto kasnije, a hidroelektrane u Užicu 1900. i u Vučju kod Leskovca 1903. ubrajaju se u najranije u jugoistočnoj Evropi. Bili su to mali objekti, ali simbol jasne namere — da Srbija ne zaostane za novim vekom."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ako se sve uzme zajedno, slika je dvostruka, i tako je treba pošteno predstaviti. Po proceni bruto domaćeg proizvoda po stanovniku, Srbija je 1910. godine bila iznad Bugarske, Crne Gore i Albanije, a ispod Grčke — dakle u sredini balkanskog niza, ne na njegovom dnu. Istovremeno, ostala je daleko ispod austrougarskog i nemačkog standarda, sa siromašnim selom, niskom pismenošću i krhkom industrijskom bazom. Bila je to zemlja koja je u prethodnoj deceniji pokazala da može da izdrži udarac, promeni tržišta i izgradi nešto skromne, ali stvarne moderne infrastrukture. Sa takvom privredom Srbija je 1912. godine ušla u Balkanske ratove — još uvek seljačka, ali sa tihim samopouzdanjem da nije mala zato što ne ume, već zato što ima malo prostora i još manje vremena."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

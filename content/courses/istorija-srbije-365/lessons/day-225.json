@@ -6,13 +6,53 @@
   "dayNumber": 225,
   "order": 13,
   "title": "Abdikacija kneza Miloša",
+  "subtitle": "Kako je 1839. osnivač moderne srpske države sišao sa prestola i otišao u izgnanstvo pred ustavobraniteljima",
   "readingTimeMinutes": 7,
   "year": 1839,
-  "isPlaceholder": true,
+  "dateLabel": "1839.",
+  "timelinePosition": "1. (13.) jun 1839.",
+  "summary": "Posle Turskog ustava 1838. Miloš Obrenović nije više mogao da vlada apsolutistički; sukob sa Sovjetom i ustavobraniteljima završio se njegovom abdikacijom u korist sina Milana i odlaskom u izgnanstvo.",
+  "keyPeople": ["Miloš Obrenović", "Milan Obrenović", "Mihailo Obrenović", "Toma Vučić Perišić", "Avram Petronijević"],
+  "keyPlaces": ["Kragujevac", "Beograd", "Topčider", "Vlaška"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Kada je u jesen 1838. godine u Beograd stigao sultanov hatišerif, takozvani Turski ustav, Milošu Obrenoviću je bilo jasno da je njegova dotadašnja vlast u suštini završena. Dokument je formalno bio osmanski poklon srpskoj autonomiji, ali u stvari pažljivo skrojen tako da kneza okruži ustanovom koju je do tada uspevao da drži po strani — Sovjetom, telom od sedamnaest doživotnih savetnika koje knez više nije mogao ni da postavi ni da smeni po svojoj volji. Iza tog rešenja stajala je i Rusija, koja je u Sovjetu videla branu protiv Miloševog samovlašća, i grupa srpskih prvaka koji su godinama strpljivo čekali priliku da kneza naprave prvim među jednakima, a ne gospodarem zemlje."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ti prvaci već su nosili ime koje će im ostati u istoriji — ustavobranitelji. Na njihovom čelu stajali su Toma Vučić Perišić, čovek od ustaničkog autoriteta i grube političke pameti, i Avram Petronijević, iskusan diplomata sa vezama u Carigradu i u ruskoj misiji. Uz njih su išli Stojan Simić, Đorđe Protić, Jevrem Obrenović — knežev sopstveni brat, koga je rastrzala odanost porodici i uverenje da Miloš zemlju vodi u ćorsokak. Njihova osnovna ideja bila je jednostavna i, za Miloša, neprihvatljiva: srpska država mora prestati da bude lično imanje jednog roda i postati uređena, ustavom ograničena vlast u kojoj činovnik služi zakonu, a ne knezu."
+    },
+    {
+      "type": "paragraph",
+      "text": "Tokom proleća 1839. sukob između kneza i Sovjeta zaoštravao se nedelju za nedeljom. Sporilo se oko svega što je činilo svakodnevni život države: ko ubira poreze i po kom redu, kome pripada monopol na so i na duvan, koji se činovnici postavljaju u nahijama i ko ima pravo da ih smenjuje. Miloš je pokušavao da igra po starom — da kupuje, preti, deli i razdvaja — ali se Sovjet više nije osipao. Iza njega je stajao ruski konzul, iza njega i sultanov hatišerif, a iza svega toga jedan nov tip srpske politike u kome odluka više nije izlazila iz kneževe sobe, nego iz protokola sa pečatima."
+    },
+    {
+      "type": "paragraph",
+      "text": "Knez je u tom proleću bio bolestan, umoran, sve sumnjičaviji prema okolini. Iz Kragujevca, gde je do tada držao prestonicu, prešao je u Beograd, pa u Topčider, ali bliže rešenju nije dolazio. U jednom trenutku još je razmišljao o oružanom obračunu sa Sovjetom — onako kako je u dvadesetim godinama umeo da ućutka unutrašnje protivnike — ali ga je sopstveno okruženje, uključujući brata Jevrema, ubeđivalo da bi takav potez ovog puta značio sukob i sa Carigradom i sa Sankt Peterburgom. To više nije bila Srbija iz 1817. Knez je to, koliko god teško, na kraju razumeo."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Odlazak"
+    },
+    {
+      "type": "paragraph",
+      "text": "Prvog (po novom kalendaru trinaestog) juna 1839. godine Miloš Obrenović je u Topčideru potpisao akt o abdikaciji u korist svog starijeg sina Milana. Bio je to, formalno gledano, miran prenos vlasti — prvi takav u modernoj srpskoj istoriji. Knez nije bio ubijen kao Karađorđe, nije pobegao pod pretnjom oružja kao mnogi balkanski vladari pre njega; sišao je sa prestola sopstvenim potpisom, pred svedocima, na osnovu hatišerifa koji je sam ranije bio prihvatio. Ostavio je za sobom državu sa priznatom autonomijom, sa razgraničenim teritorijama, sa carinama, monopolima i prvim školama — sve ono što će ustavobranitelji moći da prošire, ali što nisu morali ni iz čega da grade."
+    },
+    {
+      "type": "paragraph",
+      "text": "Nasleđe je, međutim, odmah pokazalo svoju krhku stranu. Knez Milan Obrenović Drugi bio je teško bolestan već u trenutku kada je preuzeo titulu — toliko bolestan da, prema svemu što izvori kažu, nije ni saznao da je postao knez. Vladao je nominalno svega nekoliko nedelja i umro je dvadeset šestog juna, po novom kalendaru osmog jula 1839, ne navršivši ni dvadeset šestu godinu. Presto je tada prešao na njegovog mlađeg brata, takođe Miloševog sina, Mihaila Obrenovića, koji je imao tek šesnaest godina. Pošto je bio maloletan, zemlja je dobila namesništvo — Jevrema Obrenovića, Tomu Vučića Perišića i Avrama Petronijevića — to jest, u stvari, zvaničnu vlast onih istih ljudi koji su Miloša prinudili da ode."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sam Miloš je sa porodicom i delom imanja krenuo na put koji će potrajati gotovo dve decenije. Najpre je prešao u Vlašku, gde je već imao zemljišne posede, zatim boravio u Beču, lečio se i banjski boravio u Hofgasteinu, putovao po Evropi sa novcem i sa starim navikama, ali bez vlasti. U Srbiju će se vratiti tek 1858. godine, kada ga Svetoandrejska skupština ponovo pozove na presto — ali to je već priča za drugu epohu. Za sada je ostalo da se zapiše kraj jednog načina vladanja: srpska država prestala je da bude despotat jednog čoveka i ušla je, makar formalno, u red uređenih ustavnih sistema."
+    },
+    {
+      "type": "paragraph",
+      "text": "Tri stvari iz ove godine vrede ostaviti u sećanju. Prvo, na vlast je došla ustavobraniteljska oligarhija — krug činovnika, trgovaca i bivših ustaničkih vojvoda koji će narednih petnaestak godina, sve do 1858, davati ton srpskoj politici i graditi prvu pravu birokratiju. Drugo, dinastički vrtlog u kome je za nekoliko nedelja jedan knez sišao, drugi vladao i umro a treći, dečak, seo na presto, pripremio je teren za buduća burna preuzimanja prestola između Obrenovića i Karađorđevića. I treće, ovo je bio prvi srpski miran prenos vlasti — pod pritiskom, jeste, ali bez krvi, bez progona, bez ulične borbe. To što je Miloš sam potpisao odlazak označava da je srpska revolucija ušla u svoju poslednju, institucionalnu fazu. Heroj prvog poglavlja sišao je sa scene, a država je, prvi put, nadrasla čoveka koji ju je sazdao."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

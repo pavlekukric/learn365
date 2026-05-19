@@ -6,13 +6,53 @@
   "dayNumber": 127,
   "order": 1,
   "title": "Đurađ Branković dolazi na vlast",
+  "subtitle": "Posle smrti Stefana Lazarevića 1427. godine, despotsku stolicu nasleđuje sinovac Đurađ — i odmah gubi Beograd",
   "readingTimeMinutes": 7,
   "year": 1427,
-  "isPlaceholder": true,
+  "dateLabel": "1427.",
+  "timelinePosition": "1427.",
+  "summary": "Smrću Stefana Lazarevića 19. jula 1427. despotska vlast prelazi na Đurđa Brankovića. Nasleđe je dvostruko: bogata, ali ranjiva država i obaveza da se Beograd preda ugarskom kralju.",
+  "keyPeople": ["Đurađ Branković", "Stefan Lazarević", "Sigismund", "Jerina Kantakuzina", "Mara Branković", "Murad II", "Vuk Branković"],
+  "keyPlaces": ["Beograd", "Smederevo", "Mačva", "Srebrenica"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Kada je 19. jula 1427. godine despot Stefan Lazarević, u lovu negde u oblasti Glave Šumadijske, iznenada pao i ubrzo umro — verovatno od moždanog udara — pitanje nasledstva u srpskoj državi bilo je već unapred rešeno. Stefan nije imao dece, a od više godina ranije za naslednika je određen njegov sinovac Đurađ Branković, sin Stefanove sestre Mare i kosovskog gospodara Vuka Brankovića. Prenos vlasti odigrao se brzo i bez građanskog rata, ali sa teretom koji je novi despot morao da preuzme istog časa. Srbija je tog leta bila bogatija nego ikada u poslednjih pola veka — i istovremeno opasnije izložena nego što je bila dok je Stefan još bio živ."
+    },
+    {
+      "type": "paragraph",
+      "text": "Đurađ je rođen oko 1377. godine, deceniju pre Kosova. Detinjstvo i ranu mladost proveo je u senci dva događaja koja su odredila ceo njegov rod: bitke na Kosovu 1389. i sloma očeve vlasti koji je usledio. Vuk Branković, gospodar široke oblasti oko Prištine i Kosova, posle bitke nije prihvatio osmansko vrhovništvo onako brzo kao Lazarevići preko kneginje Milice. Otpor ga je odveo u sukob sa sultanom Bajazitom, zatim u zarobljeništvo, gde je 1397. i umro. Njegova udovica Mara i sinovi morali su godinama da pregovaraju, gube i ponovo dobijaju delove poseda, i da žive u stalnoj zavisnosti, čas od Osmanlija, čas od Ugara, čas od dubrovačkih trgovačkih veza."
+    },
+    {
+      "type": "paragraph",
+      "text": "U tom svetu Đurađ je odrastao kao čovek koji je naučio da računa pre nego da naređuje. Posle smrti starije braće postao je glava Brankovića, ali ne kao samostalan vladar, već kao oblasni gospodar koji je svoj položaj morao iznova da gradi u svakom novom obrtu sila. U jednom periodu bio je osmanski vazal i vodio je odrede na sultanovoj strani; bio je i ugarski saveznik kada se to isplatilo; boravio je i u Vizantiji kao gost cara. Iz tih godina ostao mu je trajan utisak da nijedan saveznik nije pouzdan duže od jedne odluke, i da država preživljava samo ako vladar istovremeno drži otvorena vrata na više strana."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pomirenje sa Lazarevićima bilo je dug proces, ali do dvadesetih godina petnaestog veka Đurađ je bio na dvoru svog ujaka Stefana kao priznati naslednik. Stefan, koji sam nije imao sina, video je u njemu poslednjeg ozbiljnog izdanka i Nemanjićkog i Lazarevićkog kruga preko ženskih linija, a od Brankovića onog koji je već imao iskustva sa svim važnim susedima. Na saboru u Srebrenici 1426. godine, prema kasnijem svedočenju, taj izbor je svečano potvrđen pred vlastelom. Kada je leto 1427. donelo smrt despotovu, vlastela se ubrzo okupila na zboru i Đurđa proglasila despotom. Tu titulu kasnije će formalno potvrditi i vizantijski car, što je u srednjovekovnom poretku bio izvor njene pravne težine."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Cena nasleđa"
+    },
+    {
+      "type": "paragraph",
+      "text": "Smirena promena na prestolu odmah je naišla na prvi udarac. Ugarski kralj Sigismund Luksemburški poslao je glasnike sa jasnim zahtevom: Beograd i oblast Mačve, koje je Stefanu lično ustupio dve decenije ranije, nisu deo naslednog poseda Lazarevića, već ugarska kruna data jednom čoveku doživotno. Sa Stefanovom smrću taj posed se vraća kralju. Đurađ je morao da se povinuje. Beograd, ojačan i izgrađen kao prestonica i ekonomsko središte, prešao je u ugarske ruke; novi despot dobio je u zamenu izvesne ustupke u severnoj Mačvi, ali ne i grad koji bi mogao da bude novo središte. Tako je nova despotovina, već u prvoj godini, ostala bez glavnog grada."
+    },
+    {
+      "type": "paragraph",
+      "text": "Odgovor je morao biti hitan i krupan. Đurađ je odlučio da se nova prestonica podigne na Dunavu, u ravnici između Smedereva i ušća Jezave — na mestu odakle se moglo nadzirati i reka i put ka unutrašnjosti. Gradnja Smedereva započela je već 1428. godine i o njoj govori naredna lekcija. Istovremeno, novi despot je morao da uredi i odnose sa Osmanlijama. Sultan Murad II u to vreme već je čvrsto držao vlast u Edirnu i njegova država rasla je iz godine u godinu. Đurađ je prihvatio status vazala — godišnji danak, vojnu pomoć u sultanovim pohodima, dolazak srpskih trupa kada se traže — kao cenu koju je platio za to da Osmanlije, bar zasada, ne zauzmu i ono što je još ostalo."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sve to slagalo se sa njegovom prirodom. Savremenici i potonji izvori opisuju ga kao opreznog, smišljenog, ponekad hladnog čoveka — manje sjajnog vitez-vladara nego što je bio Stefan, više strpljivog igrača koji čeka dugu partiju. Znao je da bude tvrd i prema sopstvenoj porodici i prema vlasteli kada je smatrao da je to potrebno. Tu prirodu pratila je i porodična politika. Đurađ je bio oženjen Jerinom iz vizantijske loze Kantakuzina, što je dvoru davalo carigradski sjaj i mrežu veza u grčkom svetu. Iz tog braka rasli su sinovi Grgur, Stefan i Lazar — budući naslednici i nesrećnici dinastije — i ćerke, među njima Mara, koja će 1435. biti udata za sultana Murada II kao deo politike zatezanja i popuštanja sa Portom, i Katarina, koja je svojim brakom vezala Brankoviće za ugarsku vlastelu."
+    },
+    {
+      "type": "paragraph",
+      "text": "Tako je u leto 1427. počela vladavina koja će trajati skoro tri decenije, do 1456. godine. Bila je to vladavina u kojoj će se nova prestonica Smederevo dva puta dizati i dva puta padati, u kojoj će se srpski despot kretati između Budima i Edirna kao između dve vatre, i u kojoj će svaki potez morati biti odmeren i unapred plaćen. Đurađ Branković preuzeo je državu koja je bila bogata srebrom Novog Brda i Srebrenice, ali bez velikog grada na severu i bez sigurnog saveznika u zaleđu. Sve što će u narednim godinama pokušati — gradnja Smedereva, balansiranje između Ugarske i Osmanlija, krstaški pohodi četrdesetih godina, dvostruki pad i privremeni povratak — započelo je tog jula, mirnim, gotovo tihim preuzimanjem prestola koji je već u prvi mah morao da plati prvi račun."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

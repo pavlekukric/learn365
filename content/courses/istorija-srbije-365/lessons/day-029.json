@@ -6,13 +6,61 @@
   "dayNumber": 29,
   "order": 1,
   "title": "Dioklecijan i tetrarhija",
+  "subtitle": "Vojnik iz Dalmacije koji je carstvo podelio na četiri dela da bi ga spasao od raspada",
   "readingTimeMinutes": 8,
   "year": 293,
-  "isPlaceholder": true,
+  "dateLabel": "oko 284–305.",
+  "timelinePosition": "293.",
+  "summary": "Dioklecijanove reforme — podela carstva na četiri vladara, nova administracija, vojska i monetarna politika — koje su Rim izvukle iz krize trećeg veka i oblikovale pozno carstvo.",
+  "keyPeople": ["Dioklecijan", "Galerije", "Maksimijan", "Konstancije Hlor"],
+  "keyPlaces": ["Sirmijum", "Nikomedija", "Split"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Krajem trećeg veka Rimsko carstvo je živelo na rubu raspada. Pola veka pre toga, od smrti Aleksandra Severa 235. godine, nizali su se kratki carevi, vojničke pobune i građanski ratovi; granica na Rajni i Dunavu povremeno je popuštala pod germanskim upadima; novac se obezvređivao, gradovi su se zatvarali u nove zidine, a porez se ubirao sve teže. U taj iscrpljeni svet 284. godine stupa čovek koji će, više nego bilo ko pre njega, pokušati da carstvu vrati red — Dioklecijan, vojnik skromnog roda iz Dalmacije, sa imanja u okolini Salone, na obali nedaleko od današnjeg Solina."
+    },
+    {
+      "type": "paragraph",
+      "text": "O njegovom poreklu izvori govore malo i ne uvek pouzdano. Verovatno je rođen oko 244. godine, u porodici bez visokog statusa; karijeru je gradio u vojsci, gde se uspeo do komandanta carske telesne garde. Posle iznenadne smrti cara Numerijana na pohodu protiv Persijanaca, vojska je 284. godine njega proglasila za cara. Bio je to još jedan u nizu vojničkih careva — ali se već u prvoj godini videlo da on neće biti samo kratak prekid između dva ustanka. Dioklecijan je shvatio nešto što njegovi prethodnici nisu, ili nisu stigli da pokušaju: carstvo je postalo prosto preveliko da bi se njime upravljalo iz jednog središta i jednom rukom."
+    },
+    {
+      "type": "paragraph",
+      "text": "Već naredne godine on uz sebe uzima Maksimijana, prekaljenog vojskovođu, i daje mu rang Avgusta — punopravnog suvladara — sa zadatkom da upravlja zapadnim delom carstva, dok sam Dioklecijan zadržava istok. Bila je to neuobičajena odluka, jer je do tada svako deljenje vlasti u Rimu redovno završavalo građanskim ratom. Ali Maksimijan je ostao lojalan, a sistem je radio. Osam godina kasnije, 293, Dioklecijan ide korak dalje i osniva ono što istorija zna kao tetrarhiju — vladavinu četvorice."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Četiri cara, četiri prestonice"
+    },
+    {
+      "type": "paragraph",
+      "text": "Sistem je bio neobično jasan za rimske prilike. Dvojica Avgusta — Dioklecijan na istoku, Maksimijan na zapadu — uzimaju uz sebe po jednog mlađeg sucara, Cezara, koji im je istovremeno i pomoćnik i naslednik. Na istoku je to bio Galerije, vojnik poreklom iz okoline današnjeg Gamzigrada; na zapadu Konstancije Hlor, otac budućeg Konstantina. Carstvo je u praksi podeljeno na četiri upravne celine, svaka sa svojom prestonicom: Trir na Rajni, Milano u severnoj Italiji, Sirmijum na Savi i Nikomedija u Maloj Aziji. Rim, makar nominalno i dalje glavni grad, prvi put gubi politički značaj — carevi borave tamo gde su vojska i granica."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ideja je bila da se vlast deli, ali i da se nasleđivanje učini predvidljivim: kad Avgust ode, Cezar napreduje u Avgusta i postavlja novog Cezara. Sirmijum, na današnjem tlu Srbije, time je postao jedna od četiri prestonice carstva — sedište iz kog se upravljalo Ilirikom i Podunavljem i odakle se polazilo u ratove na Dunavu. Sam Dioklecijan u njemu je boravio više puta, dovoljno često da grad u tom trenutku stoji rame uz rame sa Trirom i Milanom."
+    },
+    {
+      "type": "paragraph",
+      "text": "Reforme nisu stale na podeli prestola. Dioklecijan je provincije iscepkao na manje jedinice, da bi guverneri bili slabiji i lakše kontrolisani; razdvojio je civilnu i vojnu vlast, koje su do tada bile spojene u rukama istih ljudi i predstavljale stalnu opasnost od pobune. Vojska je preuređena: manje, brojnije jedinice na granici, i pokretne poljske armije u zaleđu koje su mogle brzo da pritiču u pomoć. Porez je dobio nov, ujednačeniji sistem zasnovan na proceni zemlje i radne snage, što je državi omogućilo predvidljivije prihode. Novac je takođe pokušano da se popravi — uvedene su nove zlatne i srebrne kovanice — mada se inflacija nije lako dala obuzdati."
+    },
+    {
+      "type": "paragraph",
+      "text": "Najpoznatiji primer tog poslednjeg pokušaja je čuveni Edikt o najvišim cenama iz 301. godine. U njemu je carska kancelarija pokušala da zakonom propiše gornje cene za stotine roba i usluga, od žita i mesa do nadnica zidara i učitelja. Plemenita namera — zaustaviti opštu poskupljenu — sudarila se sa stvarnošću tržišta: trgovci su robu povlačili, pojavljivale su se nestašice, a cene su, čim bi se kontrola popustila, ponovo skakale. Edikt se uglavnom smatra neuspelim, ali je ostao dragocen izvor o tome šta se u carstvu zaista trošilo i koliko se to platilo."
+    },
+    {
+      "type": "paragraph",
+      "text": "Mračnija strana Dioklecijanove vlade jeste poslednji veliki progon hrišćana, započet 303. godine. Hrišćanske zajednice su do tada bile sve brojnije i sve uočljivije, naročito u istočnim provincijama, i carskoj vlasti je smetala njihova organizovanost koja je delovala kao država u državi. Niz edikata naložio je rušenje crkava, paljenje knjiga, gubitak građanskih prava, a u oštrijoj fazi i pogubljenja. Bio je to najsistematičniji rimski progon te vere — i poslednji. Trajao je, u različitim delovima carstva, do 311. godine i postaviće okvir za priču koja sledi narednih dana, o Galeriju, Milanskom ediktu i Konstantinu."
+    },
+    {
+      "type": "paragraph",
+      "text": "Završetak Dioklecijanove vladavine bio je gotovo neviđen u rimskoj istoriji. Godine 305, posle više od dvadeset godina na prestolu, on je dobrovoljno abdicirao i prinudio Maksimijana da učini isto. Cezari su prema planu unapređeni u Avguste, a postavljeni su novi Cezari. Sam Dioklecijan se povukao u veliku palatu koju je za sebe izgradio na obali Jadrana, kod Splita — kompleks toliko monumentalan da je vekovima kasnije, kad se grad oko njega razvio, postao njegovo srce. Predanje kaže da je u toj palati gajio kupus i da je, kad su ga molili da se vrati na presto i smiri novi sukob, odgovorio da bi mu bili milije sopstvene gradine od carskih briga; anegdota možda nije doslovno tačna, ali pogađa duh čoveka koji je znao kad da stane."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sam sistem tetrarhije nije ga nadživeo. Čim su jači karakteri i ambicioznije lojalnosti došli do prestola, građanski ratovi su se vratili i odveli upravo do Konstantina i njegove pobede na Milvijskom mostu. U tom smislu je Dioklecijanovo političko delo brzo propalo. Ali ono što je trajalo bilo je strukturno: nova administrativna mapa, razdvojena civilna i vojna vlast, reformisana vojska, sistem poreza — sve to oblikovalo je pozno Rimsko carstvo narednih vekova i prešlo i u istočno, vizantijsko nasleđe. A za priču o ovim krajevima važno je još jedno: Sirmijum je u njegovo doba dobio status koji više nikada neće imati, a zemlja oko njega postala je rasadnik careva i vojskovođa iz kog će uskoro izaći oni koji će izmeniti i samu prirodu rimske države."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

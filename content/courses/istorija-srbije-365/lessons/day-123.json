@@ -6,13 +6,53 @@
   "dayNumber": 123,
   "order": 5,
   "title": "Despotovina — nova srpska država",
+  "subtitle": "Srpska država pod despotima Stefanom i Đurđem, od 1402. do 1459: drugi život jedne kraljevine pod osmanskom senkom",
   "readingTimeMinutes": 8,
   "year": 1402,
-  "isPlaceholder": true,
+  "dateLabel": "1402–1459.",
+  "timelinePosition": "1402–1459.",
+  "summary": "Despotovina — srpska država pod Stefanom Lazarevićem i Đurđem Brankovićem, između Ugarske, Vizantije i Osmanlija, sa novim središtima u Beogradu i Smederevu.",
+  "keyPeople": ["Stefan Lazarević", "Đurađ Branković", "Konstantin Filozof"],
+  "keyPlaces": ["Beograd", "Smederevo", "Kruševac", "Novo Brdo"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Posle bitke kod Angore u leto 1402. godine, u kojoj je mongolski osvajač Timur slomio osmanskog sultana Bajazita, mladi srpski knez Stefan Lazarević vratio se s istoka noseći titulu koja će obeležiti naredne pedeset i sedam godina srpske istorije. Vizantijski car Jovan VII Paleolog dodelio mu je u Carigradu čin despota — drugu po rangu titulu u istočnom hrišćanskom svetu, odmah iza careve. Od tog trenutka Lazarevićeva država više nije bila samo kneževina pod osmanskim vazalstvom, kakva je ostala posle Kosova. Postala je Despotovina — poslednji oblik srpske srednjovekovne države i, mnogi će reći, njena druga mladost."
+    },
+    {
+      "type": "paragraph",
+      "text": "Granice Despotovine menjale su se zavisno od osmanskog pritiska i odnosa sa Ugarskom, ali u svom najvećem obimu obuhvatale su središnju Srbiju oko Morave, sa Kruševcem kao starim Lazarevićevim sedištem, beogradsko-mačvanski kraj, delove Kosova i Metohije, deo istočne Bosne i rudarsku oblast Novog Brda. Stanovništvo je teško tačno proceniti — istoričari obično govore o milion i po do dva miliona ljudi u najboljim godinama, ali sve takve cifre treba primati sa oprezom. Većinu su činili pravoslavni Srbi, uz primetne katoličke zajednice saskih rudara i dubrovačkih trgovaca, i vlaške stočarske grupe po planinama. Bila je to, po srednjovekovnim merilima, ozbiljna država — manja od Dušanovog carstva, ali kompaktna, dobro upravljana i prilagođena novom dobu."
+    },
+    {
+      "type": "paragraph",
+      "text": "Položaj despotske titule bio je sam po sebi neobičan. Vizantija ju je dodelila kao priznanje, Ugarska ju je vrlo brzo upisala u sopstveni feudalni red — Stefan, a kasnije i Đurađ, dobili su od ugarskog kralja status naslednog barona, sa posedima u južnoj Ugarskoj koji su trebalo da služe kao zaleđe u slučaju osmanskog napada. Sa druge strane, kada nisu vodili otvoren rat, despoti su Porti redovno plaćali harač i slali pomoćne odrede u sultanovu vojsku. Bila je to istovremena vernost trima gospodarima: vizantijskoj tradiciji koja je davala duhovni autoritet, ugarskoj kruni koja je obećavala hrišćansku zaštitu, i osmanskoj sili koja je svakodnevno odlučivala o miru. Sporazum sa svakim od njih značio je sumnju kod ostala dva, i upravo to vešto balansiranje bilo je glavni državnički posao despota."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Beograd kao prestonica"
+    },
+    {
+      "type": "paragraph",
+      "text": "Najveća promena dogodila se 1404. godine, kada je Stefan Lazarević od ugarskog kralja Žigmunda Luksemburškog dobio Beograd. Stara vizantijska, a potom ugarska tvrđava na ušću Save u Dunav, dotad pogranično mesto bez većeg značaja, prvi put je postala srpska prestonica. Stefan ju je temeljno obnovio, podigao Gornji i Donji grad, doveo trgovce i zanatlije, otvorio luku, osnovao bolnicu i pokrenuo prepisivačke radionice. Beograd Stefana Lazarevića bio je sasvim novi grad — utvrđen po najnovijim merilima vremena, otvoren prema podunavskoj trgovini, sa dvorom na kome je okupljano učeno ljudstvo. Bio je to istovremeno štit prema severu i prozor prema Evropi, i sve do despotove smrti 1427. godine ostao je glavni grad srpske države. Kada je Stefan umro bez potomstva, ugarska kruna je, po prethodnom dogovoru, povratila Beograd kao svoju graničnu tvrđavu — i njegov naslednik Đurađ Branković morao je da gradi novu prestonicu na Dunavu, u Smederevu, o čemu će biti reči u kasnijim lekcijama."
+    },
+    {
+      "type": "paragraph",
+      "text": "Unutrašnje uređenje Despotovine nastavilo je nemanjićko nasleđe sa malim, ali važnim prilagođavanjima. Dvorska kancelarija pisala je na crkvenoslovenskom srpske redakcije, kovan je sopstveni novac, čuvana je ranija ranžirana hijerarhija plemstva — od velikih vlastelina sa baštinama do nižih službenika dvora. Dušanov zakonik ostao je na snazi, dopunjavan po potrebi novim despotskim propisima. Pećka patrijaršija, koja je tihim radom preživela osmanska osvajanja, ostala je državna crkva i čuvar verskog i kulturnog jedinstva. Despot je vladao kao vrhovni gospodar, ali ne sam: oko njega su stajala sabori vlastele i crkvenih velikodostojnika, i odluke o ratu, savezu i nasleđu donosile su se uz njihovu saglasnost. To je bila država srednjovekovnog kova, ali u praksi vođena oprezno, gotovo birokratski, sa svešću da svaka greška može biti poslednja."
+    },
+    {
+      "type": "paragraph",
+      "text": "Snagu Despotovine velikim delom je nosila ekonomija, a u njenom središtu stajalo je Novo Brdo, najveće balkansko nalazište srebra svoga doba. Rudnici su radili pod upravom saskih majstora, sa sopstvenim pravnim sistemom — „Zakonom o rudnicima despota Stefana” iz oko 1412. godine — i sopstvenom kovnicom. Srebro i olovo iz Novog Brda, a u manjoj meri i iz drugih rudnika, davali su despotima prihod kojim su mogli da održavaju vojsku, da grade tvrđave i da plaćaju osmanski harač, a da pritom ulažu u manastire i u kulturu. Dubrovački trgovci dovozili su sukno i so, odvozili srebro i vosak, i tako je Despotovina bila čvrsto povezana sa mediteranskom privredom, daleko više nego što bi se po njenom kopnenom položaju moglo pretpostaviti."
+    },
+    {
+      "type": "paragraph",
+      "text": "Doba Despotovine bilo je i vreme posebnog kulturnog procvata. Moravska škola u arhitekturi, već započeta zadužbinama kneza Lazara — Lazaricom i Ravanicom — dostigla je vrhunac u Stefanovoj Manasiji, takođe poznatoj kao Resava, tvrđavi-manastiru čije su freske i prepisivačka radionica nosili ime „resavske škole” još vekovima posle pada države. Na dvoru u Beogradu radio je bugarski učenjak Konstantin Filozof, autor opširnog Žitija despota Stefana, jednog od najvrednijih književnih dela kasnog srednjeg veka kod Srba. Sam despot bio je obrazovan čovek i pisac, o čemu će više reči biti u zasebnoj lekciji. Sve to nije bilo slučajno: u senci osmanske pretnje, srpska država i crkva svesno su gradile kulturno nasleđe kao nešto što može da nadživi i državu samu."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pošteno govoreći, Despotovina nikada nije bila sasvim slobodna. Osmansko vazalstvo bilo je gotovo stalna pozadina njenog postojanja, prekidana retkim trenucima otpora i čestim trenucima taktičkog pristajanja. Despoti su znali da ih svaki sledeći sultan može ukinuti, i radili su kao ljudi kojima je dato malo vremena. Ipak, ono što su uspeli da naprave — uređenu državu sa prestonicom na Dunavu, sopstvenu monetu, žive rudnike, učen dvor, obnovljene manastire — bio je drugi život srpske srednjovekovne kraljevine. Kada se Smederevo 1459. godine konačno predalo osmanskoj sili, sa njim je nestala i poslednja samostalna srpska država srednjeg veka. Trebalo je da prođe gotovo tri i po veka pre nego što će se ime srpske države ponovo pojaviti na karti Evrope."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

@@ -6,13 +6,49 @@
   "dayNumber": 131,
   "order": 5,
   "title": "Pad Smedereva 1439.",
+  "subtitle": "Posle kratkog primirja Murat II je 1439. opseo i osvojio Smederevo — prvi veliki slom despotovine",
   "readingTimeMinutes": 7,
   "year": 1439,
-  "isPlaceholder": true,
+  "dateLabel": "1439.",
+  "timelinePosition": "1439.",
+  "summary": "Murat II 1439. lično opseda Smederevo; despot Đurađ beži u Ugarsku, tvrđava pada 18. avgusta, a despotovi sinovi Grgur i Stefan kasnije će biti oslepljeni na sultanovom dvoru.",
+  "keyPeople": ["Đurađ Branković", "Murad II", "Grgur Branković", "Stefan Branković", "Lazar Branković"],
+  "keyPlaces": ["Smederevo", "Novo Brdo", "Ugarska"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Kratko primirje koje je despot Đurađ Branković sklopio sa sultanom Muratom II posle 1435. trajalo je svega nekoliko godina. Murat II je u to vreme bio zauzet ratovima u Maloj Aziji i Grčkoj, a despot je predah iskoristio da utvrdi Smederevo, da uredi rudnike i da diplomatski lavira između Budima i Jedrena. Ali već u drugoj polovini 1430-ih ravnoteža je počela da puca. Sultanove vojvode slale su izveštaje o tome da je Đurađev danak neredovan, da despotovi ljudi sve češće odlaze u Ugarsku i da je srebro Novog Brda i dalje najbogatije na celom Balkanu. Krajem 1438. Murat II je doneo odluku da konačno raščisti pitanje despotovine."
+    },
+    {
+      "type": "paragraph",
+      "text": "Leta 1438. osmanska vojska je već prelazila Dunav i Moravu i palila po unutrašnjosti zemlje. Bili su to tipični prethodni pohodi: razaranje sela, odvođenje stanovništva, prekidanje veza između utvrđenih gradova. Despot je razumeo poruku. Tokom zime se užurbano spremao, slao izaslanike kralju Albertu Habzburškom u Budim, tražio pomoć u Veneciji i Dubrovniku i pokušavao da nagovori ugarske velikaše na zajednički otpor. Pomoć je obećavana sporo i mlako. U proleće 1439, kada se vest o pokretu glavne sultanove vojske potvrdila, despot Đurađ je doneo tešku odluku — da ne dočeka opsadu u Smederevu, već da pređe u Ugarsku, sačuva blago, dvor i mogućnost daljeg otpora."
+    },
+    {
+      "type": "paragraph",
+      "text": "U Smederevu je za zapovednika ostavio drugog sina, mladog Grgura Brankovića, sa garnizonom i delom dvorske vlastele. Sa sobom je odveo riznicu, najbliže savetnike i deo porodice; ostali su, kao i obično u takvim časovima, narod i običan posad. Đurađ se sklonio u svoja ugarska imanja u Sremu i u tvrđavu Slankamen, odakle je nastavio da održava veze sa Budimom i da prati šta se zbiva južno od Dunava. Njegov odlazak savremenici nisu osudili kao bekstvo — bilo je očigledno da svaka mogućnost obnove zavisi od toga da li despot uopšte ostane živ i slobodan. Ali za branioce Smedereva to je značilo da na zidinama nema vladara, samo njegovog sina."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Tri meseca opsade"
+    },
+    {
+      "type": "paragraph",
+      "text": "Murat II je sa glavninom vojske stigao pod Smederevo u maju ili junu 1439. Tvrđava koju je Đurađ podigao desetak godina ranije bila je među najjačima na Dunavu: trougaona osnova oslonjena na ušće Jezave, kule visoke i guste, debeli zidovi prilagođeni i strelama i prvim topovima. Ali ni najbolji bedemi nisu rešavali pitanje hrane i vode kada opsada potraje. Osmanlije su grad opkolile sa kopna i sa reke, presekle dovoz namirnica i počele da dovlače artiljeriju. Topovi u to doba još nisu rušili velike bedeme kao sto godina kasnije, ali su trošili branioce, lomili krovove i držali posadu u stalnoj napetosti. Grgur je sa zapovednicima organizovao otpor onoliko koliko su zalihe i ljudstvo dopuštali."
+    },
+    {
+      "type": "paragraph",
+      "text": "Opsada je trajala oko tri meseca. U gradu se postepeno trošila hrana, pojavile su se bolesti, a izvesnost da pomoć neće stići rasla je iz nedelje u nedelju. Ugarska je tek bila ušla u sopstvenu krizu posle smrti kralja Alberta, a despotovi pokušaji da iz Sirmijuma organizuje deblokadu nisu urodili plodom. Krajem leta 1439. branioci su shvatili da dalji otpor više nema smisla. Pregovori sa sultanovim ljudima vođeni su nekoliko dana, a 18. avgusta 1439. Grgur je predao Smederevo. Osmanska vojska je ušla u tvrđavu bez razaranja — Murat II je grad video kao svoju buduću graničnu utvrdu, a ne kao mesto za rušenje."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sultan je sa Grgurom i njegovim mlađim bratom Stefanom, koji se takođe našao u njegovim rukama, postupio kako je bila praksa osmanskog dvora: odveo ih je sa sobom, držao u časnom zatočeništvu i pokušavao da ih iskoristi kao političke karte. Najmlađi despotov sin, Lazar, ostao je uz oca u Ugarskoj. Dve godine kasnije, 1441, kada je Murat posumnjao da bi braća mogla biti iskorišćena u nekoj zaveri ili da bi se preko njih mogao podići novi srpski pretendent, naredio je da Grgur i Stefan budu oslepljeni. Bio je to surov, ali u osmanskoj i vizantijskoj praksi poznat način političkog isključenja — slep čovek nije mogao biti vladar. Za despota Đurađa, koji je vest primio u izgnanstvu, to je bio jedan od najtežih ličnih udaraca života."
+    },
+    {
+      "type": "paragraph",
+      "text": "Posle pada Smedereva pala je, polako, i većina ostalih utvrđenja. Novo Brdo se branilo izuzetno tvrdoglavo i zadržalo se duže od mnogih drugih, ali su rudničke tvrđave jedna po jedna padale ili pristajale na osmansku upravu. Najveći deo despotovine pretvoren je u osmanske sandžake; rudnici su nastavili da rade, ali su prihod i nadzor sada išli sultanu. Srpska crkva je preživela, sa ograničenjima koja su važila u svim osvojenim oblastima. Despot Đurađ ostao je u Ugarskoj, sa Lazarom uz sebe i sa praznom titulom u rukama, ali ne i bez nade. Već 1443. nove krstaške vojske pod Janošem Hunjadijem zatresle su balkanski poredak — i otvorile, makar privremeno, vrata za povratak. O tome je sledeća priča."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

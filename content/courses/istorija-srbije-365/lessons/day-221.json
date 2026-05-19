@@ -6,13 +6,57 @@
   "dayNumber": 221,
   "order": 9,
   "title": "Postepeno sticanje autonomije",
+  "subtitle": "Petnaest godina strpljive diplomatije između usmene pogodbe 1815. i hatišerifa 1830. — proces, a ne događaj",
   "readingTimeMinutes": 7,
   "year": 1820,
-  "isPlaceholder": true,
+  "dateLabel": "1815–1830.",
+  "timelinePosition": "1815–1830.",
+  "summary": "Srpska autonomija nije dobijena jednim udarcem mača, nego u petnaest godina lukave Miloševe diplomatije u senci ruske vojne moći, koja je posle Jedrenskog mira 1829. obavezala Portu da Srbima izda akt o samoupravi.",
+  "keyPeople": ["Miloš Obrenović", "Marašli Ali-paša", "sultan Mahmud II", "car Aleksandar I", "car Nikolaj I"],
+  "keyPlaces": ["Beograd", "Carigrad", "Kragujevac", "Bukurešt", "Akerman", "Jedrene"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Kada se u jesen 1815. Miloš Obrenović sastao sa Marašli Ali-pašom i sa njim usmeno pogodio uslove pod kojima će Srbi položiti oružje, niko od savremenika nije imao razloga da poveruje da je tog dana rođena nekakva srpska država. Postignut je bio prekid borbi, podela vlasti u nahijama, obećanje da će se porez ubirati preko srpskih knezova — i ništa više. Pogodba nije bila zapisana, nije bila potvrđena fermanom, nije imala međunarodnog svedoka. Sve što je iz nje moglo da nastane zavisilo je od onoga što će uslediti u narednih petnaest godina — od strpljenja, prepiske, podmićivanja i, na kraju, od jednog rata koji Srbi nisu vodili."
+    },
+    {
+      "type": "paragraph",
+      "text": "Miloš je od prvog dana znao da usmenom dogovoru ne treba verovati. Drugi ustanak nije bio dovoljno velik da slomi Portu, a sećanje na 1813. bilo je sveže — jedan pogrešan potez i Beograd bi ponovo zatvorio kapije pred srpskim glavama. Zato je izabrao put koji nije ličio na junaštvo iz pesama: slati u Carigrad jednu za drugom delegacije sa molbenicama, primati turske činovnike na svom imanju u Kragujevcu uz bogatu trpezu i još bogatije darove, podmićivati pisare i prevodioce u Porti, držati vezu sa ruskim poslanikom i, kada zatreba, neprimetno dati do znanja da bi novi ustanak bio neprijatan po sve. Bila je to politika sitnih, upornih koraka — gotovo nevidljiva spolja, a u stvari dobro promišljen sistem."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pravi oslonac te politike, međutim, nije bio u Kragujevcu, nego u Petrogradu. Još pre Drugog ustanka, Rusija je Bukureštanskim mirom iz 1812. ugovorila sa Portom poseban član — osmi — kojim je za Srbe predviđena izvesna samouprava i amnestija. Taj član je 1813, kada je Karađorđeva Srbija pala, ostao mrtvo slovo na papiru, ali nije nestao. Rusija ga je čuvala kao stalni diplomatski adut: svaki put kada se sa Portom razgovaralo o nečem drugom, srpsko pitanje je vraćano na sto. Tako je Rusija postepeno preuzela ulogu formalnog „garanta“ srpskih prava — uloga koju ni Beč ni London nisu želeli, a koju je Petrograd rado prihvatio jer mu je davala stalni izgovor da se meša u poslove sultana."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Akerman i Jedrene"
+    },
+    {
+      "type": "paragraph",
+      "text": "Prvi krupan pomak desio se 1826, kada su Rusi, koristeći grčki ustanak i unutrašnju krizu Osmanskog carstva, naterali Portu da potpiše Akermansku konvenciju. Tu je, u posebnom dodatku, sultan obećao da će u roku od osamnaest meseci izdati akt kojim će se srpska samouprava utvrditi po Miloševim molbenicama. Bilo je to prvi put da Porta pristaje na nešto određeno i da to potvrdi pisano i pred svedocima. Miloš je odmah poslao u Carigrad nove delegacije sa već razrađenim zahtevima — sopstveni knez, sopstveni sud, sopstvena administracija, sloboda vere, povratak šest nahija oduzetih posle 1813. Ali Mahmud II je odugovlačio. Akermanski rok je tekao, a hatišerifa nije bilo."
+    },
+    {
+      "type": "paragraph",
+      "text": "Stvar je odsekao rat. U aprilu 1828. izbio je novi rusko-turski rat — povod je formalno bio grčki, ali se na dnevnom redu našlo i izvršavanje Akermana. Borbe su tekle sa promenljivom srećom, ali je tokom 1829. ruska vojska prešla Balkan i izbila do Jedrena, na samo nekoliko dana hoda od Carigrada. Porta je u septembru 1829. zatražila mir. Jedrenski (Adrianopolski) mir, potpisan tog meseca, bio je za Srbiju presudniji od svega što je sam Miloš ikada potpisao. Njegov šesti član obavezivao je sultana da u najkraćem roku izvrši sve obaveze iz Bukurešta i Akermana — što je značilo: izdati akt o srpskoj autonomiji, i to bez daljeg odugovlačenja."
+    },
+    {
+      "type": "paragraph",
+      "text": "Treba ovo izgovoriti otvoreno, jer kasnije nacionalno predanje rado prelazi preko toga: srpska autonomija nije dobijena junaštvom srpskog oružja. Drugi ustanak je obezbedio polazište; sve ostalo izvojevala je strpljiva diplomatija u senci ruske vojne moći. Da Rusija 1829. nije pobedila kod Jedrena, hatišerifa 1830. najverovatnije ne bi bilo — bar ne tada, i bar ne u onom obliku u kome je izdat. To je neudoban zaključak, ali je tačan, i moderna istoriografija ga uglavnom ne osporava."
+    },
+    {
+      "type": "paragraph",
+      "text": "Isto tako, pošteno je reći šta autonomija nije bila. Nije bila nezavisnost — sultan je ostao suveren, a srpski knez njegov vazal koji plaća godišnji harač. Nije bila puna država — spoljnu politiku, vojsku van granica i pravo na ratovanje Srbija nije imala. Nije bila ni teritorijalno potpuna — Beograd, Šabac, Smederevo, Kladovo, Soko i Užice ostali su utvrđenja sa turskim posadama u kojima srpska vlast nije važila, a muslimansko stanovništvo u tim varošima zadržalo je svoj status. Carinarnice i utvrde i dalje su nosile osmanske barjake."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pa ipak, ono što jeste dobijeno bilo je u poređenju sa stanjem raje pre 1804. ogromno. Srpski knez dobio je pravo na nasledno dostojanstvo i unutrašnju samoupravu. Zemlja je dobila sopstveni sud po svojim zakonima, sopstvenu poresku administraciju, pravo da gradi škole i crkve bez traženja dozvole, pravo da se nesmetano kreće trgovina između nahija. Turski spahije postepeno su gubili pravo da ubiraju desetinu u srpskim selima — što je u praksi značilo kraj sistema čitlučenja. Iz statusa potpune potčinjenosti sultanovom činovniku, Srbija je prešla u status države u nastajanju koja sama uređuje sebe iznutra, a spolja se zaklanja iza dve sile — Porte de jure i Rusije de facto."
+    },
+    {
+      "type": "paragraph",
+      "text": "Petnaest godina između usmene pogodbe i hatišerifa zato treba čitati kao jedinstven proces, a ne kao niz odvojenih datuma. Od 1815. do 1830. Miloš je strpljivo gradio mrežu odnosa — sa pašom u Beogradu, sa vezirom u Carigradu, sa konzulom u Bukureštu, sa knezovima po nahijama — i čekao trenutak kada će ruski top u dalekoj Trakiji odlučiti ono što njegova pera u Kragujevcu nikako nisu mogla. Kada je taj trenutak došao, on je bio spreman. Hatišerif iz 1830. nije pao s neba — bio je plod jedne politike koja je, sasvim svesno, znala da male zemlje ne pobeđuju u istoriji svojom snagom, nego time što umeju da iskoriste tuđu."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

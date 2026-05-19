@@ -6,13 +6,45 @@
   "dayNumber": 306,
   "order": 4,
   "title": "Politički život Kraljevine SHS",
+  "subtitle": "Sedam godina parlamentarizma između Vidovdanskog ustava i atentata u skupštini — koalicije, krize, hrvatsko pitanje.",
   "readingTimeMinutes": 7,
   "year": 1922,
-  "isPlaceholder": true,
+  "dateLabel": "1921–1928.",
+  "timelinePosition": "1921–1928.",
+  "summary": "Između Vidovdanskog ustava 1921. i atentata u skupštini 1928. Kraljevina SHS živi kao demokratski eksperiment — stranke različitih naroda, kratke vlade, otvoreno hrvatsko pitanje i kralj koji sve pažljivije gleda iz pozadine.",
+  "keyPeople": ["Nikola Pašić", "Stjepan Radić", "Svetozar Pribićević", "Anton Korošec", "kralj Aleksandar"],
+  "keyPlaces": ["Beograd", "Zagreb", "Ljubljana"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Sedam godina između Vidovdanskog ustava iz 1921. i atentata u skupštini 1928. najduže su, i u izvesnom smislu jedine, godine parlamentarne demokratije u Kraljevini Srba, Hrvata i Slovenaca. Bio je to demokratski eksperiment u izuzetno teškim uslovima — u državi sastavljenoj od naroda sa različitim političkim tradicijama, u zemlji koja se još oporavljala od rata, sa siromaštvom koje je gušilo svaku reformu i sa svežim sećanjima na frontove na kojima su mnogi od istih ljudi do juče bili na suprotnim stranama. Sve što će se kasnije dogoditi — diktatura, krize, raspad — moralo bi se meriti i prema tome šta je u tih sedam godina pokušano."
+    },
+    {
+      "type": "paragraph",
+      "text": "Politička scena bila je raznolika i, sa beogradske strane gledana, teško pregledna. Najjača srpska stranka bili su Radikali Nikole Pašića — centralisti, oslonjeni na seljaštvo Srbije pre svega, sa starim partijskim aparatom još iz Kraljevine Srbije. Demokrate Svetozara Pribićevića i Ljube Davidovića okupljale su Srbe iz prečanskih krajeva i unioniste različitog porekla, takođe pristalice jake državne celine. Hrvatska republikanska seljačka stranka Stjepana Radića bila je daleko najjača stranka u Hrvatskoj — federalistička, isprva otvoreno republikanska, oslonjena na ogromnu seljačku većinu. Slovenačku narodnu stranku vodio je sveštenik Anton Korošec — klerikalna, kulturno samosvesna, ali pragmatično spremna da ulazi u koalicije. Jugoslovenska muslimanska organizacija Mehmeda Spahe branila je interese bosanskih muslimana, najviše agrarne i verske. Komunistička partija, izborno iznenađujuće jaka 1920, već 1921. zabranjena je „Obznanom” i Zakonom o zaštiti države i nastavila je da deluje u ilegali."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Vlade koje ne traju"
+    },
+    {
+      "type": "paragraph",
+      "text": "Najupadljivija crta tog doba bila je nestabilnost vlada. Kabineti su trajali, po pravilu, šest do dvanaest meseci — padali su zbog parlamentarnih opstrukcija, koalicionih raskola, kraljeve volje ili lične mržnje između prvaka. Beograd je gledao smene Pašićevih radikalskih vlada, kratke Davidovićeve demokratske eksperimente, povratke Pašića, pokušaje koncentracionih vlada. Posle smrti starog kralja Petra avgusta 1921. presto je prešao na njegovog sina Aleksandra, koji se već kao regent navikao da odlučuje, i koji je u ovim godinama sve češće, mada još uvek u okvirima ustava, presudno uticao na sastav vlada. Skupština je radila i bila glasna, ali je njena svakodnevica bila pre nadmetanje za uticaj nego smireno donošenje zakona."
+    },
+    {
+      "type": "paragraph",
+      "text": "U pozadini politike radile su i krupne reforme. Agrarna reforma započeta 1919. razbijala je velike posede — naročito strane, mađarske i nemačke, u Vojvodini i Slavoniji, i muslimanske begovske u Bosni — i delila zemlju seljacima, mada sporo, nedosledno i uz mnoge sporove. Monetarna reforma postepeno je, kroz konverziju austrougarske krune u dinar, ujednačila novac na celom prostoru države; proces je do sredine dvadesetih bio uglavnom okončan, uz osetne gubitke za držaoce krune. Sa reformama išla je, nažalost, i druga, manje plemenita strana: politika je sve više postajala kanal za poslove, klijentelizam i raspodelu državnih položaja, pa su stranke rasle i opadale i prema tome ko je u datom trenutku držao ministarstva."
+    },
+    {
+      "type": "paragraph",
+      "text": "Najteže otvoreno pitanje ostalo je hrvatsko. Stjepan Radić je godinama bojkotovao beogradski parlament, držao se republikanske platforme i tražio reviziju ustava; njegova stranka osvajala je sve više glasova. Zatim je 1925, posle hapšenja i pregovora, izvršio nagli zaokret — priznao monarhiju, preimenovao stranku u Hrvatsku seljačku stranku i ušao u koaliciju sa Pašićevim radikalima. „Radikalsko‑radićevska” vlada bila je politička senzacija, ali i kratkog daha: razlike su bile preduboke, lične trzavice prevelike, pa se savez razišao već naredne godine. Pašić je u međuvremenu pao i kao premijer i u stranci, a u junu 1926. i umro, oduzevši radikalima njihovog jedinog nespornog vođu. Najteže od svega bilo je pitanje oblasti: Vidovdanski ustav podelio je državu na trideset tri oblasti, čije su granice namerno krčene preko istorijskih međa, pa je nekadašnja Hrvatska‑Slavonija bila isečena u nekoliko delova — što je u Zagrebu doživljavano kao smišljeno cepanje hrvatskog tela države."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pa ipak, ako se pažljivo pogleda, ove godine nisu bile samo niz neuspeha. Štampa je bila slobodna i oštra, izbori su se održavali u redovnim razmacima, opozicija je imala stvarno mesto u skupštini, sudovi su radili, lokalna samouprava postojala je makar u tragovima. Različiti narodi učili su, prvi put u zajedničkoj državi, da žive u zajedničkoj parlamentarnoj areni — sa svim trvenjima koja takvo učenje nužno donosi, ali i sa retkim trenucima istinskog sporazuma, kakav je bio pokušaj saradnje radikala i Radićevih seljaka. To što kraj ovog doba nije bio srećan ne briše činjenicu da je sam pokušaj postojao, i da su mnogi tadašnji političari, uprkos svojim manama i sitnim računima, verovali da državu treba graditi razgovorom u skupštinskoj sali, a ne dekretom sa dvora."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

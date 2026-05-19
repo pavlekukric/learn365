@@ -6,13 +6,53 @@
   "dayNumber": 210,
   "order": 15,
   "title": "Slom Prvog ustanka",
+  "subtitle": "Leto i jesen 1813: tri osmanske vojske, podeljeno vođstvo, prelaz Karađorđa preko Save i kraj ustaničke države",
   "readingTimeMinutes": 8,
   "year": 1813,
-  "isPlaceholder": true,
+  "dateLabel": "1813.",
+  "timelinePosition": "1813.",
+  "summary": "Posle gotovo deset godina rata, ustanička Srbija ostala je bez ruskog saveznika, iznutra podeljena i suočena s trostrukim osmanskim udarom. Tokom leta i jeseni 1813. fronovi su pali jedan za drugim, Karađorđe je s vojvodama prešao u Habsburšku monarhiju, a Osmanlije su ušle u Beograd.",
+  "keyPeople": ["Karađorđe", "Mladen Milovanović", "Stevan Sinđelić", "Hajduk Veljko", "Luka Lazarević", "Hurşid-paša", "Mahmud II"],
+  "keyPlaces": ["Beograd", "Deligrad", "Niš", "Drina", "Sava", "Zemun", "Negotin", "Vidin", "Bosna"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "U proleće 1813. ustanička Srbija stajala je sama. Bukureškim mirom prethodne godine Rusija je, primorana napoleonskim ratom, sklopila mir sa Portom i prepustila srpsko pitanje osmanskoj strani; obećane garancije ostale su na hartiji. Devet godina rata iscrplo je zemlju — sela su bila proređena, kase prazne, vojska umorna, a unutar samog vrha vladali su nepoverenje i suparništvo između Karađorđa i pojedinih vojvoda. Sa druge strane Drine, Save i Timoka, sultan Mahmud II rešio je da pitanje srpske pobune zatvori jednim, krupnim udarcem. Ono što je dolazilo nije bila još jedna pogranična bitka, nego sistematski pohod sračunat da uništi ustaničku državu."
+    },
+    {
+      "type": "paragraph",
+      "text": "Osmanska priprema bila je trostruka. Tri vojske trebalo je istovremeno da krenu na Srbiju — sa zapada iz Bosne, sa juga preko Niša i sa istoka iz Vidina. Vrhovnu komandu, sa sedištem u Nišu, držao je Hurşid-paša, iskusan i odlučan namesnik. Ukupna brojka osmanskih snaga procenjuje se na više od sto hiljada ljudi, mada se izvori razilaze i tačan broj ostaje neizvestan; bitno je da je nadmoć bila ogromna i, što je gore, prvi put dobro koordinisana. Srpska odbrana oslanjala se na lanac šanaca — zemljanih utvrđenja podignutih na ključnim prelazima i prevojima — i na vojvodske odrede koji su godinama branili svaki svoj kraj. Pred takvom mašinerijom, taj sistem nije mogao dugo."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ofanziva je počela u toku leta. Obrazac se ponavljao: osmanske kolone su prilazile, šance su odolevale danima, ponegde i kraće, a onda bivale obuhvaćene, opkoljene ili napuštene. Na jugu, prema Deligradu, branili su se Stevan Sinđelić i drugi koji su preživeli tek nekoliko godina pre toga čuveni Čegar. Na zapadu, oko Drine, Luka Lazarević i mačvanski odredi pokušavali su da zadrže prelaze i da ne dozvole spajanje bosanske vojske sa snagama koje su nadirale iz unutrašnjosti. Na istoku, gde je bila najtanja i najslabije oslonjena linija, otpor se brzo urušio — Hajduk Veljko je u Negotinu poginuo braneći grad još leta 1813, a sa njegovom smrću pao je i ključ Krajine."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Podeljeno vođstvo i prelaz preko Save"
+    },
+    {
+      "type": "paragraph",
+      "text": "Što su fronovi više popuštali, to je u Beogradu i Topoli postajalo jasnije da među vođama nema jedinstva. Karađorđe se zalagao za uporni otpor iz utvrđenih položaja i, ako zatreba, povlačenje u brda i nastavak rata gerilskim načinom — onako kako je ustanak i počeo. Deo vojvoda mislio je drugačije: jedni su tražili pregovore i pokušaj političkog kompromisa s Portom, drugi su, videvši razmere udara, već računali kako da spasu glave i porodice. Mladen Milovanović, dugogodišnji predsednik Praviteljstvujuščeg sovjeta, naginjao je dogovoru. Odlučivanje se zaglavilo; svaki dan oklevanja koštao je još jednog branjenog položaja."
+    },
+    {
+      "type": "paragraph",
+      "text": "Kraj je došao u septembru. Kada je postalo jasno da Beograd, ostao bez naslona i bez vremena, više ne može da se drži, Karađorđe je odlučio da pređe u Habsburšku monarhiju. Prešao je Savu kod Zemuna, prema većini izvora 3. oktobra 1813, sa najbližima, a u istom talasu prešli su i Mladen Milovanović, članovi Sovjeta i mnogi vojvode. Sa njima je u Srem i Banat krenula i ogromna kolona običnog sveta — savremenici i kasnije procene govore o desetinama hiljada, ponekad i do sto hiljada izbeglica, mada brojke variraju i moraju se uzimati sa rezervom. Drugi su ostali — neki da nastave razbacan otpor po šumama, neki da prihvate predaju i pokušaju da prežive ono što sledi."
+    },
+    {
+      "type": "paragraph",
+      "text": "Karađorđev prelaz bio je i tada, i kasnije, predmet teške rasprave. Jednima je delovao kao izdaja onih koji su ostali pod osmanskom rukom; drugima kao trezven potez vođe koji zna da zarobljen ili pogubljen ne može više ničemu poslužiti. Suprotnost s Hajdukom Veljkom, koji je svesno ostao da padne na bedemu Negotina, bila je preoštra da bi ostala neprimećena. Istina je, kao i obično, slojevitija od oba suda: u trenutku odluke nije bilo nijednog ishoda koji bi sačuvao i čast, i ljude, i državu istovremeno."
+    },
+    {
+      "type": "paragraph",
+      "text": "Osmanske trupe ušle su u Beograd u oktobru 1813. Praviteljstvujušči sovjet, sudovi, škole, novčani sistem i sve drugo što je ustanak za devet godina podigao — sve to je u nekoliko nedelja prestalo da postoji kao državni okvir. Po unutrašnjosti je usledila ponovna uspostava osmanske vlasti, ponegde brutalna, ponegde uz pokušaj smirivanja kako se otpor ne bi raspirio iznova. Sela su gorela, žene i deca odvođeni u ropstvo, a procene ljudskih gubitaka idu u desetine hiljada, premda pouzdane brojke i ovde nedostaju. Bila je to katastrofa o kojoj se generacijama posle pevalo i ćutalo na smenu."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ipak, slom 1813. nije bio kraj srpske revolucije, nego kraj njene prve faze. Već posle godinu i po dana, na Cveti 1815, planuće Drugi ustanak; mnogi od ljudi koji su se tog oktobra otiskivali preko Save vratiće se nazad ili će novom pokoljenju predati znanje stečeno u devet godina rata i vladanja. Ono što je nestalo bila je ustanička država kao zaokružen poduhvat; ono što je ostalo bila je generacija obučenih komandanata, iskustvo zakonodavnog i sudskog rada, pamćenje sopstvene uprave i — možda najvažnije — uverenje da Srbija može sama da postoji. Razmera između seljačke vojske bez saveznika i Carstva u punoj mobilizaciji bila je nemilosrdno razgolićena; ali temelj na kome će biti zidano dalje već je bio položen, i nije propao s Beogradom."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

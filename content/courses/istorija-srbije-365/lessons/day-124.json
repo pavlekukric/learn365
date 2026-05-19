@@ -6,13 +6,49 @@
   "dayNumber": 124,
   "order": 6,
   "title": "Beograd — prestonica despota",
+  "subtitle": "Kako je grad na ušću Save u Dunav, u rukama despota Stefana Lazarevića, prvi put postao glavni grad srpske države",
   "readingTimeMinutes": 8,
   "year": 1404,
-  "isPlaceholder": true,
+  "dateLabel": "1404–1427.",
+  "timelinePosition": "1404–1427.",
+  "summary": "Stefan Lazarević dobija Beograd od ugarskog kralja Sigismunda i pretvara ga u prvu srpsku prestonicu — utvrđeni grad, dvor i središte književnosti, do svoje smrti 1427.",
+  "keyPeople": ["Stefan Lazarević", "Sigismund Luksemburški", "Konstantin Filozof", "Đurađ Branković"],
+  "keyPlaces": ["Beograd", "Beogradska tvrđava", "Sava", "Dunav", "Mačva"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Sve do početka petnaestog veka, Beograd nije bio srpski grad u pravom smislu te reči. Stari Singidunum, rimska tvrđava na ušću Save u Dunav, vekovima je menjao gospodare — bio je vizantijski, bugarski, ugarski, na trenutak u sastavu Dragutinove „Sremske zemlje” krajem trinaestog veka, pa opet ugarski. Srpski srednjovekovni dvorovi nalazili su se drugde: u Rasu, Prizrenu, Skoplju, kasnije u Kruševcu. Tek 1404. godine, kada ga je despot Stefan Lazarević dobio na upravu od ugarskog kralja Sigismunda, Beograd je prvi put u svojoj dugoj istoriji postao prestonica srpske države."
+    },
+    {
+      "type": "paragraph",
+      "text": "Put kojim je do toga došlo bio je politički, a ne osvajački. Posle teških godina koje su sledile nakon bitke kod Angore i borbi sa braćom Brankovićima, Stefan je 1403. i 1404. okrenuo lice ka severu. U Budimu je sklopio sporazum sa Sigismundom i primio ga za vrhovnog gospodara za one zemlje koje će držati severno od Save i Dunava; zauzvrat je dobio titulu naslednog ugarskog barona, posede u Ugarskoj — i Beograd sa okolnom Mačvom kao feud. Beograd je, drugim rečima, ušao u srpske ruke kao deo složene dvojne lojalnosti: na jug, prema sultanu, Stefan je bio osmanski vazal i despot vizantijskog ranga; na sever, prema Budimu, bio je hrišćanski velikaš ugarske krune. Beograd je upravo na toj granici imao smisla."
+    },
+    {
+      "type": "paragraph",
+      "text": "Položaj grada bio je gotovo savršen za ono što je Stefanu trebalo. Na ušću dveju velikih reka, Beograd je kontrolisao rečnu trgovinu, prelaze i prilaze sa svih strana — Dunav je vodio ka srednjoj Evropi i ka Crnom moru, Sava ka Slavoniji i ka jadranskim kopnenim putevima. Bio je dovoljno blizu Ugarske da je pomoć mogla brzo da stigne preko reke, a opet dovoljno daleko od osmanske unutrašnjosti da nije bio prva meta svake pohode. U novom obliku srpske države, koja je istovremeno gledala u dva sveta, takav grad je odgovarao stvarnosti više nego stara središta u dolini Rasa ili u Pomoravlju. Selidba dvora na sever bila je, u tom smislu, priznanje da se težište balkanske politike pomerilo."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Tvrđava, varoš i dvor"
+    },
+    {
+      "type": "paragraph",
+      "text": "Beogradska tvrđava koju je Stefan zatekao već je bila ozbiljna — kameni, višeslojni grad sa gornjim i donjim delom, naslonjen na rt iznad ušća. Ipak, za prestonicu i za odbranu od osmanske artiljerije nije bila dovoljna. U dve i po decenije Stefanove vlasti, tvrđava je temeljno obnovljena i proširena: bedemi su pojačani, dodate su nove kule, gornji grad je dobio palatu u kojoj je despot držao dvor i riznicu, a donji grad — niža zona uz reke — uređen je kao luka i utvrđena trgovačka četvrt. Tačan obim radova danas se zna više iz arheologije i iz nekoliko sačuvanih povelja nego iz potpunih izvora; mnogo toga je u kasnijim vekovima srušeno, prezidano ili pretrpelo izmene pod ugarskom, osmanskom i austrijskom upravom."
+    },
+    {
+      "type": "paragraph",
+      "text": "Oko tvrđave je rasla varoš — naselje srpskih zanatlija, trgovaca i sveštenstva, sa nekoliko crkava, od kojih se najčešće pominju Saborna crkva Uspenja Bogorodice i crkva Svete Petke; pominje se i kovnica novca, kao i tržnica koja je trgovala duž rečnih puteva sve do Dubrovnika. Procene broja stanovnika kreću se, prema različitim istoričarima, od oko dvadeset hiljada do nekoliko desetina hiljada na vrhuncu — neki idu i do četrdeset ili pedeset hiljada, ali su te brojke u nauci sporne i treba ih uzeti sa rezervom. Ono što je sigurno jeste da je Stefanov Beograd bio jedan od većih gradova ovog dela Balkana, uporediv sa Solunom ili Sofijom tog vremena."
+    },
+    {
+      "type": "paragraph",
+      "text": "Najtrajniji deo despotove prestonice bio je kulturni. Stefan je za svoj dvor okupio pisce, prepisivače, ikonopisce i graditelje. Iz Bugarske, posle propasti tamošnjeg književnog kruga, došao je Konstantin Filozof — učeni monah iz Kostenca, koji će kasnije napisati despotovo žitije, jedan od vrhunaca srednjovekovne srpske književnosti. Sa Beogradom i sa nedalekim manastirom Manasijom, koji je Stefan zidao u Resavi, vezuje se i takozvana resavska škola — pokret pravopisne i prevodilačke obnove koji je obeležio poznosrednjovekovnu slovensku pismenost mnogo šire od same despotovine. Pod Stefanom, Beograd je za jednu generaciju bio i politička i duhovna prestonica."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ta prestonička uloga prekinula se brzo posle despotove smrti 1427. Po ugovoru sa Sigismundom, Beograd se vraćao ugarskoj kruni; novi despot, Đurađ Branković, morao je da traži drugu prestonicu i podigao je Smederevo na Dunavu. Beograd je narednih devedeset godina ostao ugarska pogranična tvrđava, hrišćanski bastion koji je odolevao osmanskim opsadama — sve dok 1521. godine nije pao u ruke sultana Sulejmana Veličanstvenog. Onaj kratki, sjajni period u kome je bio glavni grad srpske države tada je već bio uspomena; ali upravo je on, više od svega što je grad bio pre, učvrstio Beograd kao mesto na koje će se srpska država u svim narednim vekovima iznova vraćati."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

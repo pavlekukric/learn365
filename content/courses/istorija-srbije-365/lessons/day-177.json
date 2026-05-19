@@ -6,13 +6,53 @@
   "dayNumber": 177,
   "order": 5,
   "title": "Kultura pod tuđom vlašću",
+  "subtitle": "Kako se srpska kultura održavala u dva sveta — osmanskom jugu i habzburškom severu — od 16. do 18. veka",
   "readingTimeMinutes": 7,
   "year": 1700,
-  "isPlaceholder": true,
+  "dateLabel": "16–18. vek",
+  "timelinePosition": "16–18. vek",
+  "summary": "Pregled srpskog kulturnog života bez sopstvene države: dva ambijenta — osmanski jug i habzburški sever — crkva, manuskripti, prve štampane knjige, slikarstvo, jezik i prvi koraci ka modernom školstvu.",
+  "keyPeople": ["Božidar Vuković", "Hristofor Žefarović"],
+  "keyPlaces": [],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Posle pada srednjovekovnih srpskih zemalja, kultura se nije ugasila — ali je promenila uslove u kojima je živela. Tokom 16, 17. i 18. veka srpski narod nije imao svoju državu i, gotovo po pravilu, nije imao ni dvor koji bi naručivao knjige, gradio velike crkve ili izdržavao slikare. Pa ipak, kontinuitet pismenosti, slikarstva, liturgije i običaja nije prekinut. Održao se zato što su se obrazovali drugi nosioci — manastir, parohija, trgovačka kuća, kasnije gimnazija i štamparija u tuđem gradu. Da bi se to vreme razumelo, korisno je odmah reći ono najvažnije: srpska kultura je u tim vekovima živela u dva odvojena ambijenta, sa različitim mogućnostima i različitim ograničenjima."
+    },
+    {
+      "type": "paragraph",
+      "text": "Prvi ambijent bio je osmanski jug. U sultanovoj državi pravoslavnoj raji je dozvoljen verski život, ali ne i razvijene svetovne ustanove. Nije bilo srpskih škola u modernom smislu, nije bilo univerziteta, nije bilo dvora. Osnovni nosilac kulture bila je crkva — pre svega obnovljena Pećka patrijaršija (od 1557), njena mreža eparhija i manastira, i kult srednjovekovnih svetitelja. Uz nju je išla seoska, usmena, obredna kultura: slava, narodno pesništvo, običaji životnog ciklusa. To je bio jedan zatvoren, ali žilav svet, u kome je književna reč ostajala uglavnom u crkvenim rukopisima, a istorijsko pamćenje u pesmi uz gusle."
+    },
+    {
+      "type": "paragraph",
+      "text": "Drugi ambijent bio je habzburški sever — pre svega Vojna krajina, južna Ugarska, Banat i Srem. Tu su Srbi, naročito posle Velike seobe 1690, imali znatno veće mogućnosti: gradove sa pravoslavnim trgovcima i zanatlijama, sopstvene crkvene opštine, kontakt sa srednjoevropskom kulturom, a od kraja 17. veka i versku autonomiju oko Sremskih Karlovaca. Bili su podanici katoličkog cara, sa svim ograničenjima koja je to nosilo, ali su mogli da grade crkve, otvaraju škole, štampaju knjige u Beču i Budimu i da svoju decu šalju na strane akademije. Vremenom će upravo tu, na severu, ponići i novi sloj — građanska inteligencija."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Knjiga, jezik, slika"
+    },
+    {
+      "type": "paragraph",
+      "text": "U oba ambijenta osnovna kulturna tehnika ostala je prepisivanje knjiga. U Hilandaru, Pećkoj patrijaršiji, Krušedolu, Studenici, fruškogorskim manastirima i nizu manjih skriptorija monasi su vekovima nastavljali rad srednjovekovnih pisara — liturgijske knjige, jevanđelja, hronike, pomenici. Štampana knjiga je tu dolazila kao dragocen dopunski izvor. Posle kratkog veka Cetinjske štamparije (1493–1496), srpske štampane knjige radile su se daleko od srpskih zemalja: u Veneciji, gde je Božidar Vuković od 1519. izdavao srpskoslovenske knjige ćirilicom; kasnije u Vlaškoj i Rusiji; a od 18. veka u Beču i Budimu, kada su privilegije bečkog dvora omogućile redovno štampanje za pravoslavnu publiku Habzburške monarhije."
+    },
+    {
+      "type": "paragraph",
+      "text": "Jezik te visoke kulture nije bio narodni srpski. Kao i kod drugih pravoslavnih naroda, ulogu književnog medija imao je crkvenoslovenski — stariji srpskoslovenski u srednjem veku, a od 18. veka, naročito posle 1730-ih, sve više rusko-slovenski, jer su karlovački mitropoliti, suočeni sa pritiskom unijaćenja, naručivali bogoslužbene knjige iz Rusije i pozivali ruske učitelje. Iz mešavine tog rusko-slovenskog sloja, ostataka srpskoslovenskog i pojedinih narodnih reči vremenom će se razviti tzv. slavenosrpski — književni jezik 18. i ranog 19. veka, prepoznatljiv ali težak savremenom uhu. Narodni, vernakularni srpski u celom ovom periodu ostaje jezik svakodnevnog života i usmenog pesništva, ali još uvek nije priznat kao jezik knjige."
+    },
+    {
+      "type": "paragraph",
+      "text": "Slikarstvo se takođe podelilo prema ambijentima. U osmanskim oblastima ikonopis je nastavljao srednjovekovne tradicije — radionice oko Pećke patrijaršije i pojedinih manastira, među kojima su poznata dela 16. veka u Dečanima, čuvale su prepoznatljiv vizantijsko-srpski izraz. Na severu, naprotiv, srpski slikari su od kraja 17. i tokom 18. veka sve više usvajali barokni jezik, prilagođen pravoslavnim ikonostasima i hramovima. Hristofor Žefarović, slikar i bakrorezac iz prve polovine 18. veka, postaće simbol tog susreta — pravoslavac koji crta po zapadnim uzorima, u službi srpske crkvene i istorijske svesti. Slično se događalo i u arhitekturi: pod Osmanlijama gradnja je bila pravno ograničena, retke nove crkve bile su skromne, dok su u Karlovcima, Sentandreji i drugim severnim središtima nastajali barokni hramovi prilagođeni pravoslavnoj liturgiji."
+    },
+    {
+      "type": "paragraph",
+      "text": "Obrazovanje je, predvidljivo, sledilo istu liniju. U osmanskom delu postojale su manastirske škole i parohijska čitanja, dovoljne da se obnavlja sveštenstvo, ali bez šire mreže. U Habzburškoj monarhiji su, naprotiv, kroz 18. vek nastale prve prave srpske ustanove modernog tipa — Karlovačka gimnazija (1791) i bogoslovija (1794) kao najpoznatije, ali i niz osnovnih škola po srpskim opštinama, a uz njih i sve gušća mreža srpskih štamparija, knjižara i pretplatničkih krugova u Beču, Budimu i Novom Sadu. Preko ruskih učitelja, italijanskih luka i, najzad, bečko-peštanskog ambijenta, srpski pisci i kler bili su u stvarnom dodiru sa evropskim idejama vremena, od pravoslavne učenosti do prosvetiteljstva."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sliku ovog razdoblja treba držati uravnoteženo. Nije reč o mračnim vekovima bez ičega — pismenost, slikarstvo i bogata usmena književnost trajali su bez prekida — ali nije reč ni o tihom procvatu. Kultura je živela u tuđim okvirima, sa stalnim ograničenjima i, na jugu, sa povremenim teškim udarcima poput ukidanja Pećke patrijaršije 1766. Pa ipak, kada se na kraju 18. veka pojave prve srpske gimnazije, prvi novinski listovi i prva ozbiljna pitanja o jeziku, oni neće niknuti ni iz čega: stajaće na temelju koji su, ćutke i strpljivo, sazidali prepisivači rukopisa, ikonopisci, pojci, guslari i učitelji ova tri veka bez sopstvene države."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

@@ -6,13 +6,53 @@
   "dayNumber": 149,
   "order": 11,
   "title": "Šta je sačuvano",
+  "subtitle": "Šta je od srednjovekovne Srbije preživelo pad države — jezik, vera, pismo, manastiri, sećanje i tihi život sela",
   "readingTimeMinutes": 7,
   "year": 1490,
-  "isPlaceholder": true,
+  "dateLabel": "pregled",
+  "timelinePosition": "pregled",
+  "summary": "Pregled onoga što je nadživelo pad srpske srednjovekovne države: jezika, pravoslavne vere, ćirilice, manastira, narodne tradicije i ideje o obnovi sopstvene države.",
+  "keyPeople": [],
+  "keyPlaces": [],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Kada se podvuče crta ispod kraja srednjovekovne srpske države — Smederevo 1459, Bosna 1463, Hercegovina 1482, Zeta krajem veka — lako je videti samo ono što je nestalo: presto, vojska, dvor, kovani novac, diplomatska prepiska, pravni sistem. Sve to je zaista presekano. Ali ispod te razrušene političke ljušture ostao je sloj koji Osmanlije nisu ni želele ni umele da unište — i upravo taj sloj će četiri i po veka kasnije omogućiti da se ponovo govori o srpskoj državi. Vredi, pre nego što se pređe na osmanske vekove, mirno popisati šta je to što je sačuvano."
+    },
+    {
+      "type": "paragraph",
+      "text": "Prvo i najtrajnije — jezik. Srpski jezik ostao je govorni jezik naroda i tamo gde više nije bilo srpske vlasti. U selima oko Smedereva, u Šumadiji, po Polimlju, po Hercegovini, po Sremu, ljudi su nastavili da govore onako kako su govorili i pre dolaska Osmanlija. Jezik je tokom narednih vekova primao turske, grčke i druge reči, naročito u zanatima, hrani i administraciji, ali svoju gramatičku građu i osnovni rečnik nije izgubio. Pod osmanskom upravom nije postojala državna politika koja bi prisiljavala na zamenu jezika; običan svet je živeo, radio i pevao na svom. To je, više od svega drugog, omogućilo da kasnija obnova ne počne od nule."
+    },
+    {
+      "type": "paragraph",
+      "text": "Drugo — Crkva. Pravoslavna crkva preživela je pad države kao glavna institucija srpskog identiteta. Posle 1459. njena organizacija je bila načeta: srpska Pećka patrijaršija bila je ugašena, a srpske eparhije potpadale su pod druge crkvene jurisdikcije, pre svega ohridsku. Bio je to težak prelaz, ali nije bio kraj. Sredinom šesnaestog veka, u prilikama o kojima će biti reči kasnije (D157), Pećka patrijaršija je obnovljena i Srpskoj crkvi vraćena puna organizaciona struktura, sa svojim eparhijama od Skopske oblasti do Budima. Linija od Save Nemanjića preko srednjovekovnih patrijaraha do moderne Srpske pravoslavne crkve nije, ni u najtežim decenijama, bila prekinuta u svesti vernika."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sa Crkvom je ostala i vera. Pravoslavno hrišćanstvo nastavilo je da bude verski identitet većine srpskog stanovništva kroz osmanske vekove. Prelazaka na islam bilo je — najvidljivije među slovenskim stanovništvom Bosne i među delom slovensko-albanskog sveta u kasnijim vekovima — ali u srednjoj srpskoj pravoslavnoj sredini oni su ostali manjinska pojava. Krštenje, slava, post, krsno znamenje i nedeljni odlazak u crkvu ostali su okvir života kakav je bio i u Nemanjićko doba. Uz veru je trajalo i pismo: ćirilica je nastavila da bude azbuka celog srpskog crkvenog života, prepisa jevanđelja, pomenika, povelja koje su se još mogle pisati, a tamo gde je obrazovanje uopšte postojalo — i osnovne pismenosti."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Kamen, sećanje i selo"
+    },
+    {
+      "type": "paragraph",
+      "text": "Treće — manastiri. Najveći deo srednjovekovnih zadužbina je preživeo. Studenica, Mileševa, Sopoćani, Dečani, Gračanica, Pećka patrijaršija, Manasija, Ravanica — sve su to zdanja koja su, uz oštećenja i privremena pustošenja, dočekala devetnaesti vek. Hilandar na Svetoj Gori nije ni prestajao da postoji. U Sremu, pod ugarskom vlašću u petnaestom i šesnaestom veku, fruškogorski manastiri — Krušedol, Hopovo, Šišatovac, Beočin i drugi — postali su novo monaško srce srpskog sveta, sklonište za mošti, ikone i prepisivače koji su bežali sa juga. Tako se, paralelno sa starim središtima u Raškoj i na Kosovu, formirao novi pojas duhovnog života koji je nadoknađivao ono što je na jugu bilo otežano."
+    },
+    {
+      "type": "paragraph",
+      "text": "Četvrto — sećanje. Srednjovekovna prošlost nije bila zaboravljena; ako se bilo šta s njom desilo, ona je vremenom idealizovana. „Sveta srpska zemlja” nemanjićkog doba postala je trajna kulturna tačka oslonca: u žitijima svetih kraljeva, u kalendarima sa srpskim svecima, u freskama koje su vernici svake nedelje gledali, u pomenicima u kojima su se i posle vekova čitala imena Simeona, Save, Milutina, Stefana Dečanskog, Lazara. Uz pisanu reč išla je i usmena. Narodne pesme — naročito kosovski ciklus i pesme o kraljevićima i banovima — prenosile su sećanje na državu koje više nije bilo, oblikujući ga, doduše, prema potrebama svog vremena. Slava, porodični praznik svetog zaštitnika, ostala je jedan od najjačih kanala kroz koji je hrišćanski i nemanjićki sloj života prelazio iz generacije u generaciju."
+    },
+    {
+      "type": "paragraph",
+      "text": "Peto — selo. Na nivou sela srpsko društvo je pod osmanskom vlašću nastavilo svoj život. Porodica, rod, susedske obaveze, običajno pravo, poljoprivredni ritam, zadružna organizacija — sve je to ostajalo uglavnom netaknuto. Osmanlije su uzimale porez, davale spahijama prihod sa zemlje, ali se u svakodnevicu sela mešale relativno malo. Iz tog tihog kontinuiteta izrasla je i sama narodna tradicija kakvu danas poznajemo: pesma uz gusle, određeni oblici kola, tipovi seljačke nošnje, načini pripreme hrane, kalendar poslova. Mnogo onoga što danas zovemo „starom srpskom kulturom” oblikovalo se, paradoksalno, upravo tokom osmanskih vekova, na osnovi srednjovekovnog nasleđa."
+    },
+    {
+      "type": "paragraph",
+      "text": "Šesto — ideja države. Misao o srpskoj državi nikada nije sasvim utihnula. Trajala je u titulama srpskih despota u Ugarskoj sve do početka šesnaestog veka, u kultu srpskih srednjovekovnih svetaca, u snovima izbeglica, plemića bez zemlje, monaha i kasnije malobrojnih obrazovanih ljudi. Pretvarala se s vremena na vreme u plan, češće u molitvu, ali je ostajala živa. Kada je trenutak za obnovu konačno došao — početkom devetnaestog veka, sa Karađorđem 1804 — nije se gradilo ni iz čega. Postojao je jezik, postojala je Crkva, postojali su manastiri, sećanje, pesma, pismo i jedna prilično jasna predstava o tome šta srpska država treba da bude. Pad srednjovekovne države, ma koliko bio težak, nije, dakle, bio i kraj. Ostavio je iza sebe materijal — skroman, ali stvaran — od kojeg će se, mnogo kasnije, krenuti ponovo."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

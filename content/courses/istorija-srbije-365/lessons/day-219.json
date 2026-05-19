@@ -6,13 +6,49 @@
   "dayNumber": 219,
   "order": 7,
   "title": "Miloš učvršćuje vlast",
+  "subtitle": "Kako je knez Miloš između 1815. i 1830. od ustaničkog vođe postao jedini stvarni gospodar Srbije",
   "readingTimeMinutes": 7,
   "year": 1820,
-  "isPlaceholder": true,
+  "dateLabel": "1815–1830.",
+  "timelinePosition": "1815–1830.",
+  "summary": "Posle pomirenja sa Portom 1815. godine, knez Miloš Obrenović petnaest godina sistematski koncentriše vlast — preuzima poreze, trgovinske monopole i nahijske položaje, uklanjajući svakog ko bi mu mogao osporiti prvenstvo.",
+  "keyPeople": ["Miloš Obrenović", "Marko Todorović Abdula", "Miloje Petrović", "Petar Moler", "Dimitrije Davidović"],
+  "keyPlaces": ["Kragujevac", "Beograd", "Topčider", "Požarevac"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Kada se u jesen 1815. godine dogovorio sa beogradskim vezirom Marašli Ali-pašom, knez Miloš Obrenović formalno je dobio veoma malo — pravo da uz tursku vlast učestvuje u prikupljanju poreza i u rešavanju sporova među Srbima u Beogradskom pašaluku. Nije postao vladar, nije dobio kneževinu, nije imao priznatu titulu izvan onoga što su mu Turci dozvolili. Pa ipak, narednih petnaest godina iskoristio je upravo taj uzan procep — između turske vrhovne vlasti i seoske srpske svakodnevice — da od skromnog ustaničkog vođe postane jedini stvarni gospodar zemlje. Do 1830. godine, kada Porta najzad prizna srpsku autonomiju i Miloša kao naslednog kneza, Srbija će već imati apsolutnog vladara — samo još bez priznanja na papiru."
+    },
+    {
+      "type": "paragraph",
+      "text": "Prvi i najopasniji posao bio je uklanjanje suparnika. Miloš nije bio jedini ugledan čovek iz Drugog ustanka. Pored njega stajali su drugi knezovi, vojvode i kapetani, ljudi sa sopstvenim naoružanim pratnjama, sa sopstvenim ugledom u svojim nahijama, ljudi koji su pamtili kako je Karađorđe vladao i koji nisu nameravali da se pred Milošem klanjaju kao pred gospodarem. Miloš ih je, jednog po jednog, sklanjao. Petar Moler, koji je u jednom trenutku stajao uz njega kao narodni sekretar, završio je tako što je 1816. godine ubijen po Miloševom nalogu. Slično je prošao Sima Marković, koji se opirao novom poretku. Marko Todorović Abdula, ugledni knez iz požarevačkog kraja, smaknut je 1825. zbog navodne zavere; Miloje Petrović, jedan od prvaka koji se nije uklapao, takođe je nastradao. Ubistvo Karađorđa u leto 1817. — o kome će biti zasebne reči — pripada istoj logici: dok god je neko sa boljim ratničkim ugledom živ, Miloš nije sam."
+    },
+    {
+      "type": "paragraph",
+      "text": "Uporedo sa uklanjanjem rivala išla je tiha, ali presudna borba za novac. Po dogovoru iz 1815, porez je i dalje pripadao sultanu, ali su ga sakupljali Srbi — pre svega knez. Miloš je tu polugu vukao ka sebi onoliko koliko se moglo. Sredinom dvadesetih godina, sav harač i ostala davanja iz pašaluka prolazili su kroz njegove ruke pre nego što bi stigli do turske kase. Ko drži kasu, drži i ljude oko sebe; pisare, knezove, kapetane plaćao je on, a ne Porta. Uz to je sistematski gradio sopstvene trgovinske monopole. Otkup i izvoz svinja prema austrijskoj granici, trgovina solju, drvetom, kožama — sve je to, formalno ili stvarno, prolazilo preko njega ili njegovih ljudi. Do kraja dvadesetih godina knez Miloš bio je, bez mnogo preterivanja, najbogatiji čovek u Srbiji, a granica između državne i lične kase bila je tanka skoro do nestajanja."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Dvor, rođaci i nahijski namesnici"
+    },
+    {
+      "type": "paragraph",
+      "text": "Treća poluga bila je administracija. Miloš je iz Beograda, gde je sedeo turski vezir, povukao stvarnu vlast u unutrašnjost — u Kragujevac, koji od 1818. postaje njegova prestonica, i u sopstvene konake u Topčideru i Požarevcu. Tu je počeo da gradi nešto što ranije Srbija nije imala: stalni knežev dvor sa pisarima, ćatibima i savetnicima koji odgovaraju lično njemu. Među prvima koji će tom dvoru dati pisani oblik biće Dimitrije Davidović, donedavno urednik bečkih „Novina serbskih”, koji od sredine dvadesetih godina ulazi u Miloševu službu i kasnije postaje glavna ruka u sastavljanju državnih akata. Po nahijama, na ključna mesta, Miloš je postavljao rođake i ljude od ličnog poverenja. Brat Jevrem dobio je Šabac, brat Jovan Rudničku nahiju; tako su krvne veze postale i mreža vlasti."
+    },
+    {
+      "type": "paragraph",
+      "text": "Trebalo bi pošteno priznati da to nije bila samo lična gramzivost. Pod Miloševom rukom zemlja je posle dve decenije ratova konačno disala. Pljačka je prestala, putevi su postali bezbedniji, varoši su počele da rastu, trgovina sa Austrijom se širila, a Porta je korak po korak povlačila janičare i prepuštala unutrašnje poslove srpskoj samoupravi. Hatišerifi iz 1829. i 1830. godine, koji su Srbiji dali autonomiju i Milošu naslednu titulu, bili su, pored ruskog pritiska, i nagrada za petnaest godina opreznog političkog rada. Bez te strpljive, često neugledne diplomatije sa turskim vezirima i ruskim konzulima, hatišerifa verovatno ne bi ni bilo."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pa ipak, cena je bila jasna i njegovim savremenicima. Miloš je vladao bez ustava, bez sabora, bez stalnog suda. O porezu, o smrtnoj kazni, o tome ko će biti knez i ko će biti smenjen, odlučivao je sam, najčešće usmeno, ponekad surovo. Stari knezovski sloj — ljudi koji su pamtili da je u Karađorđevoj Praviteljstvujuščem sovjetu postojao bar pokušaj podele vlasti — gledao je sa sve većim ogorčenjem kako se sve svodi na jednog čoveka. To nezadovoljstvo nije nestajalo; tinjalo je po nahijama i pet godina kasnije, 1835. godine, eksplodiraće u Miletinoj buni i u prvom srpskom ustavu, koji će Miloša prinuditi da bar nakratko prizna granice sopstvene vlasti."
+    },
+    {
+      "type": "paragraph",
+      "text": "Period između 1815. i 1830. zato je u srpskoj istoriji jedan od najvažnijih i najnelagodnijih. U njemu se dogodila prva stvarna politička centralizacija — pre nego što je postojala bilo kakva pisana ustavna granica. Miloš je tih godina napravio državu od pašaluka, ali ju je istovremeno napravio i po sopstvenoj meri: kao kuću u kojoj je on gospodar, a svi ostali — i knezovi, i trgovci, i seljaci — ukućani. Sve što će se u Srbiji dešavati narednih decenija, od borbe za ustav do dolaska i odlaska dinastija, vodiće računa o tome šta je tih petnaest tihih, tvrdih godina stvorilo i šta je sa sobom donelo."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

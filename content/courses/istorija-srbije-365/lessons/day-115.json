@@ -6,13 +6,53 @@
   "dayNumber": 115,
   "order": 10,
   "title": "Kosovska bitka — tok",
+  "subtitle": "Šta se zaista zna o sudaru na Kosovu polju 28. juna 1389. i gde se istorija završava, a tradicija počinje",
   "readingTimeMinutes": 8,
   "year": 1389,
-  "isPlaceholder": true,
+  "dateLabel": "28. jun 1389.",
+  "timelinePosition": "28. jun 1389.",
+  "summary": "Tok bitke na Kosovu polju: sukob srpsko-bosanske koalicije i osmanske vojske, smrt sultana Murata i kneza Lazara, i neizvestan ishod koji su izvori ostavili u nekoliko verzija.",
+  "keyPeople": ["Lazar", "Murad I", "Bajazit", "Vuk Branković", "Vlatko Vuković"],
+  "keyPlaces": ["Kosovo polje", "Priština"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Na Vidovdan, 28. juna 1389. godine po julijanskom kalendaru, na ravnici severno od današnje Prištine sukobile su se dve vojske koje su znale da od ishoda zavisi mnogo više od jednog dana. Sa jedne strane stajala je osmanska sila pod sultanom Muratom I, sa njegovim sinovima Bajazitom i Jakubom; sa druge, koalicija koju je predvodio knez Lazar Hrebeljanović, sa Vukom Brankovićem, gospodarom oblasti oko same prištinske ravnice, i sa bosanskim vojvodom Vlatkom Vukovićem, koga je u pomoć poslao kralj Tvrtko I. Bila je to, po svemu sudeći, najveća bitka koju je srednjovekovna Srbija ikada vodila. O njoj se, paradoksalno, sigurno zna manje nego o mnogim manjim sukobima istog veka."
+    },
+    {
+      "type": "paragraph",
+      "text": "Razlog je jednostavan i tužan. Savremeni izvori — oni koji su nastali u nedeljama i mesecima posle bitke — kratki su, oskudni i međusobno se ne slažu. Prvi srpski zapisi, pisani u manastirskom okruženju, beleže gubitak Lazara i osećanje velike nesreće, ali ne daju ni reda bitke, ni broja vojnika, ni tačnog redosleda događaja. Prvi osmanski izvori, nastali nešto kasnije na dvorovima sultana Bajazita i njegovih naslednika, opisuju Kosovo kao jasnu pobedu islama. Zapadne hronike — firentinske, francuske, dalmatinske — javljaju vest različito, a u prvim mesecima čak i kao hrišćansku pobedu, jer se na Zapad najpre pronela vest o pogibiji sultana. Iz tog mozaika protivrečnih, kratkih i kasnije dopisivanih svedočanstava istorija pokušava da izvuče ono što se može potvrditi sa razumnom sigurnošću."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Šta se zna sa razumnom sigurnošću"
+    },
+    {
+      "type": "paragraph",
+      "text": "Bitka se odigrala na Kosovu polju, na otvorenom prostoru pogodnom za kretanje velikih formacija i konjičke napade. Obe vojske bile su sastavljene od više delova: teška oklopna konjica činila je udarnu snagu hrišćanske strane, dok je osmanska vojska kombinovala konjicu, strelce i pešadiju u proverenom rasporedu sa sultanom u sredini i sinovima na krilima. Brojke koje navode kasniji izvori — desetine, pa čak i stotine hiljada vojnika na svakoj strani — gotovo sigurno su preuveličane; ozbiljne procene današnjih istoričara pomeraju ih daleko naniže, na red veličine od po nekoliko desetina hiljada ukupno. Bitka je trajala pretežno jedan dan, sa teškim sudarima koji su obema stranama doneli ogromne gubitke."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sigurno se zna i da je u toj bici poginuo sultan Murat I. To je činjenica koju potvrđuju i hrišćanski i osmanski izvori, koliko god se razlikovali u svemu ostalom. Tradicija ga je ubrzo pripisala srpskom plemiću koji je, na ovaj ili onaj način, dopro do samog sultanovog šatora i tamo ga usmrtio. Pojedinost o tome ko je taj čovek i kako je do dela došlo razrađivaće se vekovima — o tome će biti reči u zasebnoj lekciji posvećenoj liku Miloša Obilića. Ovde je dovoljno reći da je sultan zaista poginuo, da je to bila pojava bez presedana u dotadašnjoj osmanskoj istoriji i da je ostavila dubok trag u sećanju obe strane."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sigurno je, dalje, da je knez Lazar zarobljen — verovatno tokom same bitke ili neposredno posle nje — i da je u osmanskom logoru pogubljen mačem. Više izvora govori da je pogubljen u znak osvete za smrt sultana, mada je sasvim moguće i da je razlog bio prostiji: zarobljeni vladar protivničke vojske u srednjovekovnim ratovima nije imao mnogo izgleda, pogotovo kada je sopstveni vladar pobednika već ležao mrtav. Bajazit, sultanov stariji sin, iskoristio je trenutak da osigura nasleđe na način koji su osmanski izvori tek kasnije počeli da pominju otvoreno: dao je da se ubije njegov rođeni brat Jakub, eliminišući time jedinog mogućeg suparnika u borbi za presto. Sa Kosovog polja vratio se kao novi sultan."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ono što se ne zna pouzdano jeste kako se bitka u taktičkom smislu razvila i kojim su redom činovi pali. Da li je Murat ubijen pre, tokom ili posle glavnog sudara; da li je Lazar zarobljen na bojnom polju ili u potonjem pokretu; kako se konkretno ponašao Vuk Branković, čije će ime kasnija usmena tradicija nepravedno opteretiti izdajom — sve su to pitanja na koja izvori ne daju jasan odgovor. Bosanske čete pod Vlatkom Vukovićem povukle su se uredno i kralju Tvrtku poslale vest koju je on protumačio i obznanio kao hrišćansku pobedu. To pokazuje koliko je u prvim danima i samima učesnicima ishod bio nejasan."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sam ishod, gledan na hladno, najbolje se opisuje kao neizvestan u trenutku i odlučujući u perspektivi. Obe vojske pretrpele su tako velike gubitke da nijedna nije bila sposobna da nastavi pohod. Osmanlije se nisu otisnule dublje u srpske oblasti; srpska strana nije mogla da iskoristi pogibiju sultana za protivnapad. Bajazit je požurio nazad u Malu Aziju da utvrdi vlast, a u Srbiji su Lazareva udovica Milica i sin Stefan u narednim godinama prihvatili vazalni odnos prema novom sultanu. U srednjoročnom smislu, dakle, bitka jeste bila osmanska pobeda — srpska centralna vlast bila je razbijena, samostalnost ograničena, a put ka konačnom padu otvoren. Ali to je bila i Pirova pobeda: ubijen sultan, oslabljena vojska, povučen pohod."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ovde je važno odmah povući granicu koju će sledeće dve lekcije podrobnije obraditi. Mnogo onoga što se danas zna o Kosovskoj bici — Lazarev izbor „carstva nebeskoga”, junački čin Miloša Obilića, izdaja Vuka Brankovića, tajna večera uoči boja, oklade i zakletve, dijalozi između junaka — ne potiče iz savremenih izvora, nego iz potonje narodne poezije i pisane tradicije, koja se oblikovala od petnaestog do devetnaestog veka. To ne znači da je ta tradicija lažna; ona je sama postala istorijska činjenica, deo načina na koji su se generacije razumele. Ali ona nije isto što i događaj iz 1389. godine. Istorijsko Kosovo i kulturno Kosovo dve su stvarnosti, obe stvarne na svoj način. Ova lekcija govori o prvoj; sledeće će govoriti o drugoj."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

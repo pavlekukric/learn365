@@ -6,13 +6,49 @@
   "dayNumber": 162,
   "order": 12,
   "title": "Uskoci",
+  "subtitle": "Hrišćanski graničari koji su „uskakali” preko osmanske međe — junaci u svojoj pesmi, gusari u tuđim izveštajima",
   "readingTimeMinutes": 7,
   "year": 1600,
-  "isPlaceholder": true,
+  "dateLabel": "16–17. vek",
+  "timelinePosition": "16–17. vek",
+  "summary": "Uskoci — izbeglice iz osmanske Bosne i Hercegovine koje su se iz Senja, Žumberka i crnogorskih brda vraćale preko granice u oružane pohode; kako su ih različite strane videle.",
+  "keyPeople": ["Ivan Senjanin", "Stojan Janković"],
+  "keyPlaces": ["Senj", "Žumberak", "Jadran", "Crna Gora"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Reč „uskok” dolazi od glagola uskočiti — preskočiti, prebaciti se preko nečega. U šesnaestom i sedamnaestom veku tako su nazivani ljudi koji su preskakali osmansku granicu: bežali su iz porobljenih oblasti Bosne, Hercegovine, dalmatinskog zaleđa i drugih balkanskih krajeva, sklanjali se na habzburšku ili mletačku stranu, a potom se, pod oružjem, vraćali preko iste granice u pljačkaške i osvetničke pohode. Bili su istovremeno izbeglice i vojska, žrtve i napadači, zaštićeni podanici jedne kraljevine i nezvanični ratnici protiv druge. Njihova istorija ne uklapa se ni u jednu jednostavnu sliku — i upravo zato vredi je ispričati pažljivo."
+    },
+    {
+      "type": "paragraph",
+      "text": "Uskočke zajednice nastale su kao posledica osmanskog napredovanja na Balkanu. Posle pada srpskih i bosanskih zemalja, deo hrišćanskog stanovništva odbio je da ostane pod novim gospodarem i krenuo na sever i zapad, ka onim oblastima koje su još bile u rukama Habzburga ili Mletačke republike. Habzburška Vojna krajina, koja se postepeno organizovala duž granice prema Osmanlijama, primala je takve doseljenike i davala im zemlju u zamenu za vojnu službu. Mleci su, sa svoje strane, koristili izbeglice u dalmatinskim utvrđenjima. Tako su preko nekoliko generacija nastale male, čvrsto povezane oružane zajednice — najpoznatije među njima senjski, žumberački i crnogorski uskoci."
+    },
+    {
+      "type": "paragraph",
+      "text": "Senjski uskoci, najslavniji od svih, smestili su se u utvrđenom gradu Senju na severnoj obali Jadrana, pod habzburškom vlašću. Od tridesetih godina šesnaestog veka pa nadalje, iz Senja su krenuli na more i kopno: malim brzim barkama presretali su osmanske obalne ekspedicije, upadali u zaleđe, oslobađali zarobljenike i vraćali se sa plenom. Vremenom su počeli da napadaju i mletačke brodove koji su, prema njihovom uverenju, trgovali sa osmanskim lukama. Za Mletke je to bilo gusarstvo i pretnja njihovoj pomorskoj trgovini; za Habzburge, koji su Senj formalno štitili, uskoci su bili korisni branioci granice ali i stalan diplomatski teret. Iz tog složenog položaja izrastao je čitav jedan svet — sa sopstvenim vođama, podelama plena, vezama sa pravoslavnim i katoličkim sveštenstvom i sa stalnim sukobima oko toga ko ima pravo da im naređuje."
+    },
+    {
+      "type": "paragraph",
+      "text": "Žumberački uskoci bili su drugačiji slučaj. Reč je pretežno o pravoslavnim srpskim izbeglicama koje su se u šesnaestom veku naselile na padinama Žumberka, u današnjoj Hrvatskoj, na osnovu habzburških povlastica — zemlja u zamenu za graničnu službu. Vremenom, pod pritiskom katoličkog okruženja i posebnih crkvenih sporazuma, deo žumberačkih porodica prešao je u uniju sa Rimom, čuvajući istočni obred ali priznajući papsku vlast. Tako se razvila grkokatolička, takozvana unijatska žumberačka zajednica, koja se izdvojila iz šire pravoslavne celine ali je sačuvala uspomenu na svoje uskočko poreklo. Crnogorski i hercegovački uskoci, opet, nisu imali jedan utvrđeni grad kao Senj; oni su delovali iz brda, iz plemenske strukture, iz manastira i zbegova, pomažući hajdučkim četama sa one strane granice i sami često prelazeći u njihove redove."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Jedna pojava, više pogleda"
+    },
+    {
+      "type": "paragraph",
+      "text": "Najteže je kod uskoka odoleti iskušenju da se prepriča samo jedna strana. U hrišćanskoj — naročito u domaćoj — tradiciji uskok je junak: brani veru i narod, oslobađa porobljene, sprečava da se osmanska granica trajno učvrsti. U mletačkim arhivima isti taj uskok često je opisan kao gusar koji ugrožava trgovinu i remeti krhke odnose sa Portom. U osmanskim izveštajima reč je o razbojnicima koje treba uloviti i kazniti, a hraniteljske kraljevine optužiti da ih trpe. Habzburški dvor video je u uskocima jeftinu i hrabru graničnu vojsku, ali se mučio kad god bi njihovi pohodi izazvali otvoreni rat. Sve te slike postoje istovremeno i sve su, u svojim okvirima, tačne. Uskok je u isti mah bio izbeglica, vojnik, vernik, pljačkaš i podanik — ko ga gleda iz koje sobe, takvog ga vidi."
+    },
+    {
+      "type": "paragraph",
+      "text": "Krajem šesnaestog i početkom sedamnaestog veka senjski uskoci postali su toliko nezgodan diplomatski problem da su Mleci i Habzburzi zaratili oko njih. Takozvani Uskočki rat, vođen između 1615. i 1617. godine duž severnog Jadrana i u Furlaniji, završen je mirom koji je obavezao bečki dvor da senjske uskoke iseli iz Senja u unutrašnjost. Time je središte njihovog jadranskog delovanja ugašeno, ali se sama pojava nije ugasila: uskočke porodice nastavile su graničnu službu drugde, a tradicija je preživela u pesmi. Stojan Janković, stvarni mletački uskočki kapetan iz ravnokotarskog kraja, poginuo je 1687. godine i ušao u narodnu pesmu kao jedan od njenih najpoznatijih junaka. Uz njega, Ivan Senjanin — figura sastavljena od više stvarnih ljudi — postao je gotovo simbolično ime senjskog uskoka u epskoj tradiciji."
+    },
+    {
+      "type": "paragraph",
+      "text": "Tu se uskočka priča dodiruje sa hajdučkom. Hajduci su delovali iznutra, u osmanskim oblastima, krijući se po šumama i planinama; uskoci su delovali spolja, sa hrišćanske strane granice, ali su prelazili nazad u iste te oblasti. Isti neprijatelj, isti narod sa kojeg su poticali, slična oružana svakodnevica — pa i slična moralna mera. Narodne uskočke pesme stoje uz hajdučke kao bliska, srodna grana iste epike, sa svojim ravnokotarskim, senjskim i crnogorskim podvrstama. Iz današnje udaljenosti vidimo i jedno i drugo bez idealizacije: hrabre ljude koji su pod tuđom vlašću ili na njenoj ivici nalazili načina da se odupru, a istovremeno i nasilje, otmice i pljačke kojih u takvim životima nije moglo biti malo. Uskoci su, kao i hajduci, deo srpske i šire južnoslovenske istorije upravo zbog te dvostrukosti — ne uprkos njoj."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

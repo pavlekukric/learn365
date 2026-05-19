@@ -6,13 +6,57 @@
   "dayNumber": 207,
   "order": 12,
   "title": "Prosveta i Velika škola",
+  "subtitle": "Kako je ustanička Srbija 1808. godine, naporom Dositeja Obradovića, dobila prvu višu školu i prvog ministra prosvete",
   "readingTimeMinutes": 7,
   "year": 1808,
-  "isPlaceholder": true,
+  "dateLabel": "1808.",
+  "timelinePosition": "1808.",
+  "summary": "Dolazak Dositeja Obradovića u oslobođenu Srbiju, njegovo postavljenje za popečitelja prosveščenija i osnivanje Velike škole u Beogradu 1808. godine — prvi koraci ka srpskom javnom školstvu posle tri i po veka.",
+  "keyPeople": ["Dositej Obradović", "Ivan Jugović", "Jovan Savić", "Karađorđe"],
+  "keyPlaces": ["Beograd", "Velika škola", "Donji grad", "Saborna crkva"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Pre ustanka, u Beogradskom pašaluku gotovo da nije bilo škola u smislu u kome se ta reč danas razume. Po selima su, gde god bi se našao pismen sveštenik, deca učila slova i osnove crkvenog pojanja u priprati ili u popovoj kući; u nekoliko većih manastira, među kojima su Studenica, Manasija i fruškogorski manastiri sa one strane Save i Dunava, čuvala se kakva-takva pismenost i prepisivačka tradicija. Šire stanovništvo bilo je, po svemu sudeći, gotovo potpuno nepismeno. U takvoj sredini ustanak je već prvih godina morao da se suoči sa pitanjem koje nije bilo manje važno od baruta — kako napraviti državu bez ljudi koji znaju da pišu."
+    },
+    {
+      "type": "paragraph",
+      "text": "Karađorđe je, po svemu što se zna, sam jedva umeo da se potpiše. Ali je razumeo, kao i drugi stariji vojvode, da bez učenih ljudi nema ni urednog pisma, ni računa, ni pregovora sa stranim dvorovima. Pritisak je naročito dolazio sa severa — od školovanih Srba iz Habsburške monarhije, koji su u oslobođenu Srbiju silazili sa idejom da se uz pušku mora doneti i knjiga. Među njima je najpoznatiji i najuticajniji bio Dositej Obradović, čovek već poodmaklih godina, koji je iza sebe imao decenije lutanja Evropom, čitanja prosvetiteljskih pisaca i tihog rada na obrazovanju Srba sa one strane reka."
+    },
+    {
+      "type": "paragraph",
+      "text": "Dositej je u Srbiju stigao 1807. godine i odmah ušao u krug ustaničkih starešina. Karađorđe i Praviteljstvujušči sovjet poverili su mu, kako se tada govorilo, zvanje popečitelja prosveščenija — u prevodu na današnji jezik, ministra prosvete. Time je on, posle više od tri i po veka, postao prvi srpski ministar prosvete u modernom smislu. Sam izraz „popečitelj” odaje koliko se mlada uprava oslanjala na ruske kancelarijske termine; ali ono što je iza tog teškog naziva stajalo bilo je jednostavno — neko je morao da organizuje škole, da nabavi knjige, da nađe učitelje, i to brzo."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Velika škola u Beogradu"
+    },
+    {
+      "type": "paragraph",
+      "text": "Glavno Dositejevo delo bila je Velika škola, osnovana u Beogradu 1808. godine. Smeštena u Donjem gradu, u jednoj od zgrada koje su tek otete od turske posade, ona je bila zamišljena kao nešto više od obične osnovne škole, ali manje od pravog univerziteta. Po uzoru delom na habsburške gimnazije, koje je Dositej dobro poznavao, a delom na ruske duhovne i svetovne škole, u njoj se predavalo slovensko i srpsko pismo, matematika, geografija, istorija, filozofija i veronauka. Dositej je u privatnim pismima sa nadom govorio o tome da bi ta škola mogla, vremenom, da preraste u „srpsku akademiju”."
+    },
+    {
+      "type": "paragraph",
+      "text": "Prvih učenika bilo je svega nekoliko desetina, mahom sinovi ustaničkih vojvoda i imućnijih trgovaca. Cilj nije bio masovno obrazovanje, već skroman ali jasan — školovati prvi sloj ljudi koji će sutra biti učitelji, pisari, činovnici, oficiri i tumači sa stranim vlastima. Među nastavnicima, pored samog Dositeja, isticao se Ivan Jugović — pravim imenom Jovan Savić — vojvođanski Srbin prosvetiteljskog kova, koji je u Beograd došao da predaje istoriju, geografiju i opšte predmete. Uz njih je radilo još nekoliko mlađih ljudi školovanih u Sremu i Vojvodini. Knjige, pera, papir, čak i mastilo dolazili su uglavnom iz Beča i Budima; sopstvene štamparije u ustaničkoj Srbiji nije bilo, pa je tek poneko delo moglo da se odštampa na licu mesta."
+    },
+    {
+      "type": "paragraph",
+      "text": "Velika škola nije ostala usamljena. U gradovima i većim varošima — u Šapcu, Smederevu, Požarevcu — otvarane su, koliko je to vreme dozvoljavalo, manje osnovne škole. Godine 1810. pri Sabornoj crkvi u Beogradu osnovana je i Bogoslovija, prva moderna srpska škola za sveštenike na oslobođenoj teritoriji. Stvarna mreža je ipak bila tanka: govori se o nekoliko desetina škola i, najviše, o nekoliko stotina učenika u celoj zemlji. Razmere su, dakle, bile skromne. Značaj je bio drugačijeg reda."
+    },
+    {
+      "type": "paragraph",
+      "text": "Jer prvi put posle 1459. godine, kada je pala despotovina, na srpskoj zemlji je postojala javna prosveta pod srpskom vlašću. To je bio i simbolički i institucionalni preokret. Škola je prestala da bude stvar pojedinog manastira ili pismenog popa i postala stvar države — nešto što se planira, finansira i nadgleda iz Beograda. Dositej je sve to vodio kratko: 1811. godine umro je u Beogradu, iscrpljen poslom i godinama, i sahranjen pred Sabornom crkvom. Njegovo delo nastavili su, koliko su mogli, Ivan Jugović i drugi mlađi saradnici."
+    },
+    {
+      "type": "paragraph",
+      "text": "Slom ustanka 1813. godine prekinuo je rad Velike škole. Učitelji i đaci razbežali su se preko Save i Dunava, knjige su raznete, zgrada u Donjem gradu vratila se u turske ruke. Ali institucionalni trag nije nestao. Pod Milošem Obrenovićem, posle 1830, javno školstvo u Srbiji obnavljano je oslanjajući se, makar u sećanju i u kadru, na to kratko ustaničko iskustvo. Iz Kragujevca će 1838. nastati Licej, koji se neposredno smatrao nastavkom Velike škole; iz Liceja će izrasti beogradska Velika škola devetnaestog veka, a iz nje, 1905. godine, Beogradski univerzitet. Linija nije bila prava, ali jeste bila kontinuirana — i sva je počinjala u Donjem gradu 1808."
+    },
+    {
+      "type": "paragraph",
+      "text": "Treba, dakle, biti pošten u oba pravca. Ustanička Srbija nije postala pismena zemlja za pet godina; krug obrazovanih ljudi ostao je uzak, knjige malobrojne, a najveći deo dece i dalje nije išao ni u kakvu školu. Ali je prvi put neko izgovorio, sa državnog mesta, da je obrazovanje briga vlasti, a ne samo crkve ili porodice. Dositejeva Velika škola bila je mala po broju klupa, a velika po onom što je za sobom ostavila — uverenju da slobodna srpska država ne može opstati bez sopstvenih škola, i tihu institucionalnu nit koja vodi sve do današnjeg univerziteta."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

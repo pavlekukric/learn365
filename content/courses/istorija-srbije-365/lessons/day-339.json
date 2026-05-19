@@ -6,13 +6,53 @@
   "dayNumber": 339,
   "order": 2,
   "title": "Buđenje nacionalnih pitanja",
+  "subtitle": "Kako su krajem osamdesetih nacionalna pitanja izbila u prvi plan jugoslovenske politike — od Memoranduma do mitinga",
   "readingTimeMinutes": 8,
   "year": 1988,
-  "isPlaceholder": true,
+  "dateLabel": "1986–1989.",
+  "timelinePosition": "1986–1989.",
+  "summary": "Od pojave Memoranduma SANU i Osme sednice 1987. do antibirokratske revolucije 1988–1989, nacionalna pitanja, dugo zatvorena u republičke i pokrajinske okvire, izbila su u središte jugoslovenske politike i počela da menjaju njene temelje.",
+  "keyPeople": ["Slobodan Milošević", "Ivan Stambolić", "Dobrica Ćosić", "Franjo Tuđman"],
+  "keyPlaces": ["Beograd", "Kosovo Polje", "Novi Sad", "Titograd", "Ljubljana"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Osamdesete su u Jugoslaviji počele kao decenija ekonomske krize, a završile kao decenija nacionalnih pitanja. Ustav iz 1974. godine bio je zamišljen tako da te teme zatvori u republičke i pokrajinske okvire, da svakom narodu da sopstveni dom i tako sa savezne pozornice ukloni krupne sporove o granicama, jezicima i istorijskim računima. Posle Titove smrti 1980. taj sistem je sve teže držao ono što je u sebi zadržavao. Ekonomska kriza, inflacija, dug prema inostranstvu i osećaj da kolektivno predsedništvo ne može da odlučuje — sve to je olabavilo poklopac. Ispod njega su, u svakoj republici na svoj način, čekala neizgovorena pitanja."
+    },
+    {
+      "type": "paragraph",
+      "text": "U Srbiji su se ta pitanja prvo otvorila oko Kosova. Posle albanskih demonstracija 1981. i godina koje su usledile, deo srpske javnosti — pisci, akademici, novinari — počeo je sve glasnije da govori o iseljavanju Srba i Crnogoraca iz pokrajine, o pritiscima, o demografskim kretanjima i o tome šta sve to znači za srpski narod u celini. Govorilo se i o položaju Srba u Hrvatskoj i u Bosni i Hercegovini, kao i o tome da su dve autonomne pokrajine u praksi postale tako samostalne da Srbija, kao republika, više nema punu vlast na sopstvenoj teritoriji. Kako su ti argumenti tačno odmereni, ostaje predmet sporenja i u stručnoj literaturi i među savremenicima."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Memorandum i Osma sednica"
+    },
+    {
+      "type": "paragraph",
+      "text": "U septembru 1986. „Večernje novosti” su objavile delove nedovršenog dokumenta koji je pripremala radna grupa Srpske akademije nauka i umetnosti. Tekst, poznat kao Memorandum SANU, govorio je o ekonomskoj zaostalosti Srbije, o ustavnom položaju republike, o stradanju i iseljavanju Srba sa Kosova i o težini srpskog pitanja u drugim delovima Jugoslavije. U drugim republikama je primljen kao otvoren nacionalistički program; u Srbiji su ga jedni odbacivali, drugi branili kao postavljanje opravdanih, dugo prećutkivanih pitanja. Sama Akademija je naglašavala da je reč o radnoj verziji koja nije ni dovršena ni usvojena. Pravu istorijsku težinu Memorandum će dobiti kasnije, kada se ispostavi da je rečnik kojim je govorio postao rečnik kojim će se voditi srpska politika."
+    },
+    {
+      "type": "paragraph",
+      "text": "Politički preokret usledio je u jesen 1987. Na Osmoj sednici Centralnog komiteta Saveza komunista Srbije, održanoj u septembru, Slobodan Milošević suprotstavio se Ivanu Stamboliću — svom dotadašnjem zaštitniku i bliskom saradniku, koji je u to vreme bio predsednik Predsedništva SR Srbije — i, oslanjajući se na deo partijskog aparata i na medije koji su uz njega stali, smenio krug oko Stambolića pod parolom borbe protiv „antisrpske linije” u partiji. Već u aprilu te godine, na Kosovu Polju, Milošević je u susretu sa okupljenim Srbima izgovorio rečenicu koja će postati znak prepoznavanja — „Niko ne sme da vas bije” — i tim trenutkom, snimljenim i mnogo puta prikazanim, vezao za sebe veliki deo srpskog javnog raspoloženja."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sledilo je ono što su pristalice nazivale „antibirokratskom revolucijom”, a što je u jugoslovenskoj politici bilo nešto novo: niz masovnih skupova, takozvanih „mitinga istine”, na kojima su desetine i stotine hiljada ljudi tražile smenu pokrajinskih i republičkih rukovodstava. Skupovi su redovno polazili sa Kosova ili iz Srbije, a često su ih, posredno ili neposredno, organizovali Miloševićevi ljudi. U Vojvodini je oktobra 1988, posle višednevnog pritiska, palo dotadašnje pokrajinsko rukovodstvo; u januaru 1989. u Crnoj Gori je, posle uličnih okupljanja u Titogradu, smenjeno republičko vrhuništvo. Na samom Kosovu je proleća 1989. Skupština SAP Kosovo, pod pritiskom javnih okupljanja i prisustva snaga bezbednosti, izglasala ustavne promene koje su pokrajini oduzele najveći deo dotadašnje autonomije. Način na koji je ta odluka doneta i danas je predmet stručnih prepiravanja."
+    },
+    {
+      "type": "paragraph",
+      "text": "Do marta 1989, sa promenom Ustava SR Srbije, Srbija je vratila punu nadležnost nad svojom teritorijom. U srpskoj javnosti je to dočekano kao ispravljanje nepravde iz 1974. i kao kraj jednog stanja koje je dugo smatrano nepodnošljivim. U Sloveniji, Hrvatskoj, Bosni i Hercegovini, Makedoniji — i među delom albanskog stanovništva na Kosovu — viđeno je sasvim drugačije: kao opasna centralizacija, kao jednostrana izmena ravnoteže iz 1974, i kao najava da će ono što je u Srbiji nazvano oporavkom drugde značiti gubitak. Dve pripovesti o istim događajima — i obe iskreno doživljene — počele su da se razilaze do tačke u kojoj zajednički jezik postaje teško moguć."
+    },
+    {
+      "type": "paragraph",
+      "text": "U isto vreme i druge republike su otvarale svoja nacionalna pitanja. U Sloveniji su se u javnosti pojavili predlozi konfederacije i jačeg odvajanja od saveznog centra; krajem 1989. slovenačka Skupština usvojila je amandmane koji su Sloveniji davali pravo da sama odlučuje o svom statusu u jugoslovenskoj federaciji. U Hrvatskoj je u proleće 1989. osnovana Hrvatska demokratska zajednica Franje Tuđmana, a stranački pluralizam tih meseci bio je samo pitanje vremena. U Bosni i Hercegovini će tokom 1990. nastati stranke organizovane uglavnom po nacionalnoj osnovi. Reč je o talasu koji nigde nije bio izum jedne strane — svuda su se otvarala dugo zatvorena pitanja, svuda su političke elite videle prilike i koristile ih."
+    },
+    {
+      "type": "paragraph",
+      "text": "Buđenje nacionalnih pitanja u Jugoslaviji 1986–1989. teško je svesti na pripovest o jednom krivcu. Bila su to istovremena, povezana, ali ne identična kretanja — i u Beogradu, i u Ljubljani, i u Zagrebu, i u Prištini. Zajedničko im je bilo to što su iznosila na svetlo ono što je sistem dugo držao iza zatvorenih republičkih vrata, i to što su, kada su jednom izneta, postala teža od institucija koje je trebalo da ih obuzdaju. Posledice koje slede pokazaće koliko je ta vaga bila krhka."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

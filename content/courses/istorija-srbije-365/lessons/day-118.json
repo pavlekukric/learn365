@@ -6,13 +6,53 @@
   "dayNumber": 118,
   "order": 13,
   "title": "Kosovski mit",
+  "subtitle": "Šta je kosovski mit, kako je nastao od 14. veka do danas i kako ga čitati a da ga ne mešamo sa istorijom",
   "readingTimeMinutes": 8,
   "year": 1389,
-  "isPlaceholder": true,
+  "dateLabel": "od 14. veka do danas",
+  "timelinePosition": "od 14. veka do danas",
+  "summary": "Kosovski mit kao vekovima građena celina crkvenih spisa, narodnih pesama i političkih značenja oko bitke iz 1389. godine — njegovo nastajanje, slojevi i razlika između kulturne istine i istorijske činjenice.",
+  "keyPeople": ["knez Lazar", "Miloš Obilić", "Vuk Branković", "Vuk Stefanović Karadžić", "Petar II Petrović Njegoš"],
+  "keyPlaces": ["Kosovo polje"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Kada se danas kaže „Kosovo”, retko se misli samo na jedan letnji dan iz 1389. godine. Iza te reči stoji nešto mnogo veće od bitke: vekovima građena celina priča, crkvenih spisa, narodnih pesama, slika i političkih značenja, koju ćemo ovde zvati kosovski mit. To nije jedan tekst, niti delo jednog pisca. To je tradicija koja je rasla šest vekova, menjala se sa svakim naraštajem, i postala jedan od najmoćnijih kulturnih sadržaja srpskog jezika. Da bi se ona razumela, mora se odmah razlikovati od onoga što se na Kosovu zaista dogodilo — jer mit ne pripoveda o tome šta se desilo, nego o tome šta to znači."
+    },
+    {
+      "type": "paragraph",
+      "text": "Najraniji sloj nastaje gotovo odmah po bici. U decenijama posle 1389. crkveni pisci — među njima patrijarh Danilo III i nepoznati monasi po manastirima Moravske Srbije — pišu pohvale i službe knezu Lazaru. Iz tih spisa postepeno se izdvaja jedna ideja koja će ostati središnja: poraz nije puki vojnički neuspeh, nego svestan izbor. Lazar je, kažu ti tekstovi, izabrao „carstvo nebesko” umesto „carstva zemaljskog” — to jest, prihvatio je da izgubi život i državu radije nego veru i dušu. Smrt na bojnom polju time prestaje da bude sramota i postaje mučeništvo. Lazar postaje svetac, a poginuli ratnici nebeski vojnici. To je teološka tačka iz koje će kasnije izrasti sve ostalo."
+    },
+    {
+      "type": "paragraph",
+      "text": "Drugi sloj rađa se u narodu, kroz vekove osmanske vladavine. Od 15. do 17. veka, oko crkvene matrice oblikuje se kosovski ciklus — porodica epskih pesama u desetercu, koje su guslari pevali po kućama, hanovima i manastirskim portama. Tu ulaze likovi i prizori kojih u istorijskim izvorima nema, ali koji su mit učinili nezaboravnim. Miloš Obilić, vitez koji se probija u sultanov šator i ubija ga, postaje oličenje pojedinačnog junaštva. Vuk Branković, suprotno, dobija ulogu izdajnika koji se sa svojim ljudima povlači u presudnom času — uloga za koju savremeni istoričari pokazuju da nema pouzdanu istorijsku osnovu, ali koja je narodnom uhu bila potrebna da bi se objasnio poraz. Pojavljuje se i „tajna večera” uoči bitke, na kojoj Lazar svoje plemiće poziva da izaberu sudbinu, kao i prizor nebeske vojske koja se na Vidovdan okuplja da primi duše palih."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Vuk Karadžić, Njegoš i 19. vek"
+    },
+    {
+      "type": "paragraph",
+      "text": "Treći sloj počinje s 19. vekom, u doba kada srpski narod traži oblik nacionalne svesti pogodan za novo doba. Vuk Stefanović Karadžić sakuplja narodne pesme po srpskim selima i objavljuje ih u zbirkama koje će postati osnovno štivo srpske kulture. Kosovski ciklus, do tada živ samo u usmenoj reči, prelazi u štampanu knjigu i postaje deo evropske književne baštine; Gete, Grim i drugi čitaju ga sa istim divljenjem s kojim su čitali Homera. Vladika crnogorski Petar II Petrović Njegoš u „Gorskom vijencu” (1847) prepliće kosovsku temu sa svojim viđenjem istorijske dužnosti, i time je uvodi u modernu književnu svest. Tokom celog 19. veka, dok srpska država postepeno izlazi iz osmanskog okvira, „Kosovo” postaje šifra za žrtvu, dostojanstvo u porazu i istrajnost zajednice bez države."
+    },
+    {
+      "type": "paragraph",
+      "text": "Četvrti sloj pripada 20. veku i posebno njegovom kraju. Kosovski mit postaje politički simbol, korišćen i tumačen u različitim, ponekad suprotnim pravcima — od kulturnog samorazumevanja do oštre nacionalne mobilizacije. U vreme raspadanja Jugoslavije devedesetih, pozivanje na Kosovo dobija glasnu javnu ulogu i biva, nažalost, ugrađeno i u opravdanja koja istoričari danas ocenjuju kao zloupotrebu nasleđa. To je deo priče koji se ne sme prećutati, jer pokazuje kako jedna duboka kulturna tema može biti, u rukama politike, izvučena iz svog izvornog smisla."
+    },
+    {
+      "type": "paragraph",
+      "text": "Šta je, dakle, mit činio kroz tih šest vekova? Pre svega, davao je dostojanstvo porazu. Zajednica koja je izgubila državu i nekoliko vekova živela pod tuđom vlašću našla je u Lazarevoj žrtvi način da svoju sudbinu vidi kao smislenu, a ne kao puko poniženje. Mit je čuvao sećanje tamo gde država nije postojala — bio je, na neki način, država u stihu. Davao je modele dostojanstva, ali i — što treba reći otvoreno — ponekad i opravdanja za tvrdoću prema stvarnim ili zamišljenim neprijateljima. Velike kulturne tvorevine retko su nevine; njihova snaga je upravo u tome što mogu da idu u oba pravca."
+    },
+    {
+      "type": "paragraph",
+      "text": "Zato je važno reći i ono što mit nije. On nije istorijski izveštaj o bici. Bitka iz 1389. bila je, koliko izvori dopuštaju da se kaže, nerešen ili teško izvojevan osmanski uspeh u kome su poginula oba vladara — i Lazar i sultan Murat — a srpske oblasti su tek postepeno, kroz naredne decenije, ulazile u osmanski okvir. Vuk Branković, kako je već rečeno u ranijoj lekciji, istorijski nije izdajnik. Oštra podela na hrišćane i muslimane, kakvu mit kasnije ponekad ucrtava u 14. vek, anahrona je: na obema stranama bilo je i jednih i drugih, savezništva su prelazila preko verskih granica, a sama Osmanska država tada je još uvek bila u izgradnji."
+    },
+    {
+      "type": "paragraph",
+      "text": "Najpoštenije čitanje, čini se, glasi ovako: kosovski mit jeste velika srpska kulturna tvorevina, uporediva po značaju sa Ilijadom ili sa drugim velikim nacionalnim epskim tradicijama. Kao takav, on je kulturna istina — istina o tome kako je jedna zajednica htela da razume sebe — i zaslužuje da se čita ozbiljno, sa razumevanjem i divljenjem. Ali on nije istorijska činjenica. Razlikovati ta dva nivoa — kulturnu istinu mita i činjeničnu istinu istorije — jedan je od znakova zrelog istorijskog mišljenja. Sa tim razlikovanjem, mit ne gubi snagu; naprotiv, dobija je, jer prestaje da bude oružje u sporu o prošlosti i postaje ono što jeste: jedno od najvećih dela koje je srpski jezik o sebi izgovorio."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

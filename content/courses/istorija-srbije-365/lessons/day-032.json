@@ -6,13 +6,57 @@
   "dayNumber": 32,
   "order": 4,
   "title": "Hrišćanstvo na Balkanu",
+  "subtitle": "Od skrivenih zajednica u rimskim gradovima do bazilika nad limesom — kako je nova vera osvojila Balkan",
   "readingTimeMinutes": 7,
   "year": 350,
-  "isPlaceholder": true,
+  "dateLabel": "3–5. vek n. e.",
+  "timelinePosition": "~350. n. e.",
+  "summary": "Postupno širenje hrišćanstva po balkanskim provincijama: od prvih zajednica u rimskim gradovima i mučenika Dioklecijanovih progona do velikih bazilika u Sirmijumu, Naisu i Saloni.",
+  "keyPeople": ["Demetrije Solunski", "Irinej Sirmijumski"],
+  "keyPlaces": ["Sirmijum", "Naissus", "Salona", "Singidunum", "Solun", "Doklea"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Dok je Konstantin u Nikeji sazivao sabor i pokušavao da uobliči veroispovest jedne carske crkve, hrišćanstvo na Balkanu već je iza sebe imalo dva burna veka. Bilo je tu i prvih, gotovo nečujnih okupljanja u kućama dalmatinskih trgovaca, i krvi koja je tekla u sirmijumskim arenama, i tihih grobova uz limes. Priča o tome kako je Balkan postao hrišćanski deo sveta nije priča o jednom trenutku — to je vekovni proces, neujednačen, često slabo dokumentovan, i ispričan najvećim delom mnogo posle samih događaja."
+    },
+    {
+      "type": "paragraph",
+      "text": "Najraniji tragovi hrišćanskih zajednica u balkanskim provincijama dolaze iz drugog i trećeg veka. Po prirodi stvari, one se pojavljuju prvo tamo gde rimski svet najgušće diše — u priobalnim gradovima Dalmacije poput Salone, u makedonskim središtima oko Soluna i Stobija, i u gradovima dunavskog limesa: Singidunumu, Viminacijumu, Sirmijumu. To su mesta sa lukama, vojničkim logorima, trgovinom i mešanim stanovništvom; mesta kroz koja putuje sve, pa i nova vera. Hrišćanstvo na Balkan ne dolazi kao planirana misija nego sa karavanima i posadama, sa zanatlijama i robovima, sa vojnicima koji su krštenje doneli iz istočnih provincija."
+    },
+    {
+      "type": "paragraph",
+      "text": "O tim ranim zajednicama znamo malo, i ono što znamo treba čitati oprezno. Veći deo izvora čine žitija svetitelja zapisana mnogo decenija, ponekad i vekovima, posle njihove smrti. Pa ipak, pojedini čvrsti tragovi postoje: imena episkopa zabeležena na crkvenim spiskovima, ostaci najstarijih bogomolja ispod kasnijih bazilika, natpisi na nadgrobnim spomenicima. Iz tih krhotina vidi se da su pred kraj trećeg veka u gradovima poput Sirmijuma i Salone već postojale uređene crkvene opštine sa episkopima na čelu."
+    },
+    {
+      "type": "paragraph",
+      "text": "Zatim je došao Dioklecijanov progon, od 303. do 311. godine — poslednji i najsistematičniji udar rimske države na hrišćane. Pošto je Dioklecijan dobar deo vremena provodio upravo u Sirmijumu i Solunu, balkanske provincije bile su među prvima na udaru. Predanje pamti čitav niz mučenika iz tih godina. U Sirmijumu su pogubljeni episkop Irinej i đakon Dimitrije; u Solunu, prema kasnijem žitiju, vojnik Demetrije — onaj koji će vekovima kasnije postati zaštitnik grada i jedan od najpoštovanijih svetitelja istočnog hrišćanstva. Sa rimske strane Save, u kamenolomima oko Sirmijuma, predanje pamti i četvoricu klesara, takozvane „kvatuor koronati”, koji su odbili da isklešu pagansku statuu. Koliko su ti pojedinačni opisi tačni, a koliko su nakitni dodaci kasnijih hagiografa, danas je nemoguće precizno reći."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Posle Konstantina: gradovi se mole, sela ćute"
+    },
+    {
+      "type": "paragraph",
+      "text": "Posle Milanskog edikta 313. godine i postepenog priklanjanja carske porodice hrišćanstvu, sve se menja brzinom koja se ranije nije mogla zamisliti. Tokom četvrtog i petog veka u balkanskim gradovima niču velike bazilike — u Sirmijumu, koji je tada jedna od carskih prestonica, u Naisu, rodnom gradu Konstantinovom, u Saloni na jadranskoj obali, u Doklei u današnjoj Crnoj Gori. Arheologija pokazuje prostrane trobrodne građevine sa krstionicama, mozaike sa biblijskim motivima, biskupske rezidencije uz crkve. Episkopska sedišta umnožavaju se i dobijaju ulogu u gradskoj upravi; episkop polako postaje druga vlast u gradu, odmah uz carskog namesnika."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sve to, međutim, vredi pre svega za gradove. Selo se menja sporije. U brdovitim zaleđima Dalmacije, u tračkim i ilirskim ruralnim sredinama, stari kultovi — domaćih bogova, planinskih svetilišta, izvora i šuma — preživeli su dugo posle zvaničnog priznanja hrišćanstva. Crkvena pisma iz petog i šestog veka još uvek se žale na seoske običaje koje sveštenici jedva uspevaju da iskorene. Pokrštavanje Balkana je, dakle, dvostruka priča: brzo i vidljivo u gradovima, sporo i nepotpuno na njihovoj periferiji."
+    },
+    {
+      "type": "paragraph",
+      "text": "Balkan u tom razdoblju nije samo poprište širenja vere nego i njenih unutrašnjih borbi. Velika hristološka pitanja — naročito ono koje je pokrenuo aleksandrijski sveštenik Arije, o odnosu Boga Oca i Sina — tresla su crkvu od Nikeje pa nadalje. Carevi su sazivali nove sabore da bi smirili sporove; jedan od njih, sabor u Sirmijumu 351. godine, pokušao je da nađe formulu blisku arijanskoj struji. Da se baš u Sirmijumu vodila takva rasprava govori koliko je grad u to vreme bio važan ne samo vojno, nego i bogoslovski."
+    },
+    {
+      "type": "paragraph",
+      "text": "U isto vreme, sa istoka, do Balkana stiže još jedna novina — monaštvo. Pustinjski oci iz Egipta i Sirije, pustinjaci i prvi opštežiteljni manastiri, postaju uzor i ovde. U planinskim oblastima centralnog Balkana niču prvi mali manastiri, isprva skromne ćelije uz crkvice; tek mnogo kasnije, u srednjem veku, oni će postati veliki duhovni centri."
+    },
+    {
+      "type": "paragraph",
+      "text": "Kada sredinom šestog i tokom sedmog veka na Balkan počnu da pristižu slovenska plemena, ona neće zateći pagansko Rimsko carstvo. Zateći će svet sa episkopima i bazilikama, sa krstionicama u gradovima i kamenim krstovima uz puteve — svet, doduše, već teško ranjen avarskim i drugim provalama, sa srušenim crkvama i pomerenim stanovništvom, ali ipak duboko hrišćanski po slici i predanju. Iz tog zatečenog hrišćanskog krajolika kasnije će izrasti i pokrštavanje Slovena, i prvi srpski episkopi, i veza sa Carigradom koja će obeležiti čitavu srpsku srednjovekovnu istoriju."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

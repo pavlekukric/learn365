@@ -6,13 +6,53 @@
   "dayNumber": 278,
   "order": 13,
   "title": "Društvo uoči 1912.",
+  "subtitle": "Kraljevina Srbija na pragu Balkanskih ratova — selo, varoš, škola i ono što se još nije promenilo",
   "readingTimeMinutes": 7,
   "year": 1912,
-  "isPlaceholder": true,
+  "dateLabel": "oko 1912.",
+  "timelinePosition": "oko 1912.",
+  "summary": "Pregled srpskog društva neposredno pred Balkanske ratove: oko 2,9 miliona stanovnika, ogromna seoska većina, mlada gradska modernizacija i siromaštvo kao trajni okvir svakodnevice.",
+  "keyPeople": ["Katarina Milovuk"],
+  "keyPlaces": ["Beograd", "Niš", "Kragujevac", "Šabac", "Smederevo", "Užice"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Uoči 1912. godine Kraljevina Srbija imala je oko 2,9 miliona stanovnika. Bila je to mala zemlja po površini i nevelika po snazi, ali zemlja koja je u prethodnih nekoliko decenija prošla kroz brze političke promene — od kneževine do kraljevine, od dinastičkog sukoba do parlamentarnog života, od zavisnosti od velikih sila do sopstvene spoljne politike. Ono što se sporije menjalo bilo je samo društvo. Ako bi se u tom času Srbija pogledala iz vazduha, videla bi se uglavnom sela, široka polja, niske kuće rasute po brdima, i tek tu i tamo, kao oštriji obrisi, nekoliko varoši koje su odudarale od ostatka."
+    },
+    {
+      "type": "paragraph",
+      "text": "Od tih 2,9 miliona, oko osamdeset šest odsto živelo je na selu. Samo četrnaest odsto stanovnika spadalo je u gradsko stanovništvo, a i tu brojku treba uzeti uslovno, jer su mnoge tadašnje „varoši” bile zapravo veće seoske kasabe sa par hiljada duša. Beograd je imao oko devedeset hiljada stanovnika i bio je daleko najveći grad. Za njim su išli Niš sa nekih dvadeset pet hiljada i Kragujevac sa oko osamnaest hiljada. Šabac, Smederevo, Užice i nekoliko drugih palanki imali su između deset i petnaest hiljada stanovnika. Sve ostalo bila je zemlja malih sela, opština i parohija — Srbija u kojoj se još uvek živelo unutar pešačke daljine od mesta rođenja."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pismenost je polako rasla, ali je i dalje bila niska. Procene za 1912. kreću se oko dvadeset dva odsto, dok je 1900. bila oko šesnaest i po. Iza tog proseka krile su se velike razlike. Grad je bio pismeniji od sela, muškarci pismeniji od žena — kod žena se procenjuje da je pismeno bilo svega oko osam odsto. Razlika između varoškog deteta koje je išlo u osnovnu školu u Beogradu i seoskog deteta koje je čuvalo stoku u Toplici bila je suštinska. Obrazovni sistem je ipak postojao i širio se: oko hiljadu i pet stotina osnovnih škola, oko dvadeset pet gimnazija i realki, Velika škola pretvorena u Univerzitet 1905. godine, sa otprilike hiljadu i pet stotina studenata 1912. Brojke su skromne, ali pravac je bio jasan."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Selo, varoš i ono između"
+    },
+    {
+      "type": "paragraph",
+      "text": "Seoski život u Srbiji 1912. nije bio idiličan — bio je tvrd. Kuće su uglavnom građene od ćerpiča ili drveta, sa krovovima od daske ili crepa, a unutra je peć od cigle postepeno potiskivala staro otvoreno ognjište, koje je ponegde i dalje gorelo. Hrana se pripremala kod kuće: hleb, kupus, pasulj, krompir, mlečni proizvodi; meso uglavnom o praznicima, slavi i većim svetkovinama. Radilo se od svanuća do mraka, po ritmu godišnjih doba. Porodica i opština bile su glavni okvir života, a crkva — centar zajednice u kome se okupljalo, krštavalo, venčavalo i sahranjivalo. Bilo je u tome i mira i lepote, ali je glavna karakteristika ogromne većine seljaka ostala jednostavna: siromaštvo."
+    },
+    {
+      "type": "paragraph",
+      "text": "Grad je već bio drugi svet, naročito Beograd i nekoliko većih varoši. U centru prestonice gorela je električna rasveta, tramvaj je vozio od 1894. godine, otvarale su se pekare, kafane i prvi bioskopi — negde od 1906. ili 1908. — a po ulicama su, još uvek retko, prolazila prva kola sa motorom. Telefon je već bio realnost za državne službe i imućnije porodice. Dnevna štampa je cvetala: „Politika”, osnovana 1904, postala je najuticajniji list u zemlji, a uz nju su se čitali „Pravda”, „Štampa” i „Mali žurnal”. U gradu se više govorilo o politici, više se putovalo i više se trošilo, ali su uz tu modernizaciju išle i sirotinjske četvrti, zanatlijske radionice i nadničari koji su zarađivali od dana do dana."
+    },
+    {
+      "type": "paragraph",
+      "text": "Klasna struktura bila je relativno jednostavna. Najveći deo društva činili su seljaci — vlasnici malih gazdinstava, retko bogati, retko bez ičega. U gradovima su živeli zanatlije, sitni trgovci i nadničari, a iznad njih je rasla najveća srednja klasa zemlje: činovništvo. Državna birokratija, sa platama i penzijama, davala je sigurnost koja u privredi nije postojala. Tu su bili i trgovački sloj, oficirski kor, advokati, lekari i učitelji — profesionalci čiji je broj bio mali, ali je njihov uticaj bio sve veći. Aristokratije u zapadnoevropskom smislu praktično nije bilo. Srpsko društvo, kako se često ponavljalo, bilo je „društvo bez plemstva” — što je značilo i veću društvenu pokretljivost i manje raskoši."
+    },
+    {
+      "type": "paragraph",
+      "text": "Zdravstvo i higijena ostali su slabe tačke. Procenjuje se da je 1912. u celoj zemlji bilo oko šest stotina lekara, otprilike jedan na pet hiljada stanovnika. Dečija smrtnost bila je još uvek visoka, malarija je harala dolinama Save i Morave, a tuberkuloza je važila za glavnog „gradskog ubicu”. Vojna obaveza bila je opšta: dve godine aktivne službe i dugotrajna rezerva. Žene nisu imale pravo glasa i bile su retke u javnom životu — pre svega u učiteljskom pozivu i kroz ženska društva. „Žensko društvo” Katarine Milovuk osnovano je još 1875, a „Kolo srpskih sestara” 1903; ono će već u ratovima koji slede dati znatan broj bolničarki."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ako se pošteno pogleda, srpsko društvo 1912. bilo je u dvostrukom prelazu. Tradicionalno selo ostajalo je pretežno i u glavnim crtama nepromenjeno, ali gradska modernizacija — električna rasveta, tramvaj, štampa, univerzitet, prvi bioskopi — bila je nesumnjiva. Ta dva sveta živela su jedan pored drugog, povezana putevima, vojskom i administracijom, ali još uvek razdvojena temponom života. Trajektoriju te promene prekinuće rat. Već naredne godine počeće Prvi balkanski rat, a za njim, u kratkom vremenskom razmaku, Drugi balkanski i Veliki rat. Slika društva koju ovde opisujemo jeste, dakle, slika samog kraja jedne mirne epohe — kratke, krhke i još uvek pretežno siromašne."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

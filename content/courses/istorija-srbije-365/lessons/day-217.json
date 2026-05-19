@@ -6,13 +6,49 @@
   "dayNumber": 217,
   "order": 5,
   "title": "Diplomatsko rešenje",
+  "subtitle": "Zašto je Miloš posle vojničkih pobeda 1815. odabrao da ne ratuje do kraja, već da traži dogovor sa Portom",
   "readingTimeMinutes": 7,
   "year": 1815,
-  "isPlaceholder": true,
+  "dateLabel": "1815.",
+  "timelinePosition": "leto 1815.",
+  "summary": "Posle pobeda kod Dublja i drugih mesta, Miloš Obrenović nije nastavio rat do potpunog oslobođenja, već je tražio delimično rešenje koje će Porta priznati. Bio je to njegov pragmatični zaključak iz sloma 1813. i iz brzo izmenjenog evropskog konteksta.",
+  "keyPeople": ["Miloš Obrenović", "Marasli-Ali paša", "Napoleon Bonaparta", "Aleksandar I Romanov"],
+  "keyPlaces": ["Beogradski pašaluk", "Carigrad", "Beč", "Bukurešt"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Leto 1815. godine zateklo je Miloša Obrenovića u retko povoljnom položaju. Posle pobeda kod Ljubića, Palež-Požege i, najvažnije, kod Dublja, gde je Imšir-paša bio razbijen, ustanička vojska držala je najveći deo Beogradskog pašaluka, a turski garnizoni bili su stešnjeni u nekoliko utvrđenih varoši. Mnogi ustanici, naročito stariji ljudi koji su prošli Karađorđev rat, očekivali su sledeći, logični korak — opštu navalu na Beograd, čišćenje pašaluka i, ako bude moguće, prelazak na sever. Miloš je odlučio drugačije. Umesto rata do kraja, ponudio je razgovor. Taj njegov izbor — pregovore umesto pobedonosnog napada — bio je najveća politička novina Drugog ustanka i istovremeno tačka oko koje će se generacijama lomiti procene njegovog vladanja."
+    },
+    {
+      "type": "paragraph",
+      "text": "Da bi se taj izbor razumeo, mora se gledati šire od bojišta. U martu 1815. Napoleon je pobegao s Elbe, vratio se u Pariz i započeo Sto dana — vojnu i političku epizodu koja je sve evropske dvorove ponovo gurnula u krizu. Bečki kongres, koji je tek završavao rad, najednom je morao da misli na novu koaliciju i na novi rat protiv Francuske. Bitka kod Vaterloa, juna 1815, nije rešila stvar preko noći — još mesecima su saveznici sređivali Francusku i mirovne uslove. Za male narode na rubu carstava to je značilo jednu hladnu istinu: niko u Beču, Londonu ili Petrogradu nije imao vremena da se ozbiljno bavi šta se događa u Šapcu i Beogradu. Srpsko pitanje, koliko god važno za one koji su ga živeli, na evropskoj mapi tog leta bilo je sporedno."
+    },
+    {
+      "type": "paragraph",
+      "text": "Drugi razlog ležao je u Rusiji. Rusija je tradicionalno bila pravoslavna zaštitnica i jedina sila koja je mogla diplomatski pritisnuti Portu. Ali Rusija je svoje odnose sa Carigradom regulisala Bukureštanskim mirom iz 1812, koji je doneo Srbima samo neodređene odredbe o „povlasticama” i nije bio sproveden. Car Aleksandar I, posle Napoleonove obnove, nije bio spreman da otvori novi front protiv Osmanlija zbog jednog ustanka u zaleđu Save. Miloš je to razumeo. Znao je da Bukureštanski mir postoji i da na njega može da se poziva diplomatski, ali da iza tog poziva, bar te godine, ne stoji ruska vojska. Ako bi krenuo u opštu navalu, oslanjajući se na pomoć koja neće doći, ponovio bi tragediju 1813. — pobede pa slom, slom pa odmazda."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Lekcija iz sloma"
+    },
+    {
+      "type": "paragraph",
+      "text": "Upravo to sećanje bilo je treći i možda najteži razlog. Miloš je svojim očima video kako se završio Prvi ustanak. Karađorđeva Srbija, vojnički velika i moralno besprekorna, raspala se za nekoliko nedelja kada su Osmanlije, oslobođeni rata sa Rusijom, krenuli punim snagama. Posle toga došli su pokolji, prodaja u roblje, masovno bekstvo preko Save. Miloš je iz toga izvukao trezven zaključak — radikalna pobeda bez međunarodne garancije znači privremenu pobedu. Beogradski pašaluk geografski leži duboko u Osmanskom carstvu, opkoljen turskim oblastima sa juga, istoka i delom zapada. Bez velikog saveznika koji bi tursko mešanje učinio skupim, svaka konačna pobeda bila bi samo predah pred sledećom kaznenom ekspedicijom."
+    },
+    {
+      "type": "paragraph",
+      "text": "Iz tih razloga Miloš je tražio nešto skromnije, ali trajnije — delimično rešenje koje će sam sultan priznati. Ne nezavisnost, ne kralja, ne svoju državu na karti Evrope; za sve to nije bio trenutak. Tražio je da Srbi sami biraju knezove po nahijama, da sami ubiraju i predaju porez, da imaju sopstveni sud u sporovima među sobom i da turska vojska bude zatvorena u utvrđenjima. To je bila ona tiha autonomija, bez fanfara i bez svečanog ugovora, koju je sultan mogao da prihvati kao unutrašnju stvar svog carstva, a koja je ustanicima davala pravu samoupravu. Forma je bila skromna, sadržaj značajan."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sreća je htela da i sa druge strane sedne čovek sličnog rezona. Marasli-Ali paša, novi rumelijski beglerbeg poslat da ugasi pobunu, brzo je shvatio da bi pun rat protiv Srba u trenutku kada Carstvo ima druge brige — od ruske granice do unutrašnjih buna — bio skup i neizvestan. Vojni resursi nisu bili neograničeni, a Beogradski pašaluk je decenijama bio rana koja gnoji. Bolje je, mislio je on, dopustiti Srbima da sami sebi održavaju red, ako tako više neće dizati oružje. Tako su se u jesen 1815. dva pragmatičara — jedan ustanik koji ne želi novi 1813, jedan paša koji ne želi novi rat — sastali i postigli usmeni sporazum koji nije bio mir u zapadnom smislu, ali jeste bio prećutno priznanje srpske samouprave."
+    },
+    {
+      "type": "paragraph",
+      "text": "Treba pošteno reći i ono što su Milošu zamerali. Stari Karađorđevi ljudi, mnogi od njih u izbeglištvu ili tek pristigli iz Austrije, smatrali su ovaj sporazum slabljenjem ustanka — gotovo izdajom. Po njihovom mišljenju, vojnička prevaga 1815. bila je istorijska prilika da se Osmanlije izbace iz Srbije i da se ne čeka veliki rat sila. Ta kritika nije bila bez osnova; ona je samo polazila od drugačije procene rizika. Miloš se nije složio. Ustanak je za njega bio poluga — sredstvo da se Porta natera za sto, a ne odbrambeni totalni rat. Vreme će pokazati da je njegov izbor doneo Srbiji trajnu autonomiju i, decenijama kasnije, kneževinu. Cena je bila spora i mukotrpna diplomatija, povremena poniženja pred sultanom i, na kraju, hladna senka koju će ovaj pragmatizam ostaviti na lik samog Miloša."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

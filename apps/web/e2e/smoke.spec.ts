@@ -4,8 +4,6 @@ const COURSE_ID = 'istorija-srbije-365';
 const DAY_1_LESSON_ID = 'day-001';
 // A second hand-authored (completable) lesson, distinct from day 1.
 const AUTHORED_LESSON_ID = 'day-007';
-// An unauthored placeholder lesson — renders the "upcoming" state.
-const PLACEHOLDER_LESSON_ID = 'day-359';
 
 test.describe('History 365 — smoke', () => {
   test('home renders hero + CTA', async ({ page }) => {
@@ -124,17 +122,6 @@ test.describe('History 365 — smoke', () => {
     await expect(
       page.getByRole('button', { name: /^Završeno$/ }),
     ).toBeVisible();
-  });
-
-  test('placeholder lesson shows upcoming state and hides completion', async ({
-    page,
-  }) => {
-    await page.goto(`/course/${COURSE_ID}/lesson/${PLACEHOLDER_LESSON_ID}`);
-    await expect(page.getByText('Ova lekcija je u pripremi.')).toBeVisible();
-    // Completion must not be possible for an unavailable lesson.
-    await expect(
-      page.getByRole('button', { name: /^Završi$/ }),
-    ).toHaveCount(0);
   });
 
   test('about page renders and is reachable from the footer', async ({ page }) => {

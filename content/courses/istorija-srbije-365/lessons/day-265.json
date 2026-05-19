@@ -6,13 +6,49 @@
   "dayNumber": 265,
   "order": 7,
   "title": "Seljaštvo i agrarno pitanje",
+  "subtitle": "Zašto je Srbija 19. veka bila zemlja sitnih seljačkih domaćinstava i kako je ta činjenica i držala državu i kočila je",
   "readingTimeMinutes": 7,
   "year": 1870,
-  "isPlaceholder": true,
+  "dateLabel": "19. vek",
+  "timelinePosition": "19. vek",
+  "summary": "Srpsko selo 19. veka bilo je istovremeno temelj autonomne države i tihi razlog njene zaostalosti — slobodno, sitno, zaštićeno zakonom, ali siromašno tehnikom i sve teže opterećeno deobom porodice.",
+  "keyPeople": ["Miloš Obrenović", "Svetozar Marković", "Nikola Pašić"],
+  "keyPlaces": ["Šumadija", "Mačva", "Pomoravlje", "Beograd", "Beč"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Kada se govori o Srbiji 19. veka, lako je zaboraviti najprostiju i najvažniju činjenicu: to je bila zemlja seljaka. Sve do uoči Prvog svetskog rata oko devet od deset stanovnika živelo je od zemlje, od oranice, šljivika i ovaca. Gradovi su rasli sporo, varoši su bile male, a Beograd je tek krajem veka prešao osamdeset hiljada duša. Sve što se u toj državi dešavalo — ratovi, ustavi, stranke, dugovi — počivalo je, na kraju, na leđima čoveka koji je u zoru izlazio s ralom u njivu. Razumeti tog čoveka, njegovu njivu i njegov pravni položaj, znači razumeti i zašto je Srbija mogla da postoji kao autonomna, a zatim i nezavisna država — i zašto je u istom dahu zaostajala za susedima na zapadu."
+    },
+    {
+      "type": "paragraph",
+      "text": "Glavni razlog za tu posebnost leži u onome što se desilo između 1830. i 1833. godine. Hatišerifima sultana Mahmuda II i ugovorima koje je Miloš Obrenović izborio, čifčijski odnosi u Kneževini su ukinuti, spahije isplaćene i postepeno isterane, a zemlja je prešla u ruke onih koji su je obrađivali. Srpski seljak nije postao zakupac na tuđem imanju — postao je vlasnik svoje njive. „Seljak-domaćin”, kako će ga nazvati zakoni i novine kroz čitav vek, bio je istovremeno radnik, vlasnik i glava porodice. U susednim krajevima pod Osmanskim carstvom, naročito u Staroj Srbiji i Makedoniji, čitluci i begovska zemlja opstaće sve do 1912. godine. Razlika je bila ogromna — i ona je oblikovala karakter Srbije više nego mnogo glasniji politički događaji."
+    },
+    {
+      "type": "paragraph",
+      "text": "Drugi temelj ovog poretka bilo je odsustvo velikog poseda. Stare nemanjićke baštine odavno su nestale, turski timari su raspušteni, a srpska država u 19. veku nije dopustila da na njihovo mesto stupi nova zemljoposednička klasa. Crkveni posedi bili su skromni, a oni nekoliko trgovaca i činovnika koji su pokušali da nakupe više sela ostali su izuzetak. Vladajuća forma bila je i ostala sitno seljačko gazdinstvo — porodična kuća sa nešto oranica, šljivikom, livadom i šumarkom, dovoljno za život ali retko za bogatstvo. Otuda je u Srbiji, za razliku od Mađarske, Galicije ili Rumunije, sasvim izostao sukob između bezemljaša i veleposednika. Sukobi su išli drugim linijama — između sela i činovnika, sela i trgovca, sela i poreza."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Zaštita koja je postala kočnica"
+    },
+    {
+      "type": "paragraph",
+      "text": "Zakon o „domaćinskom minimumu” iz 1873. godine pravno je ovekovečio ovaj model. Određeno je da se seljaku za dug ne mogu zapleniti minimum zemlje — oko pet hektara — kao ni plug, par volova i osnovna kućna stoka. Ideja je bila jednostavna i, gledano iz onog vremena, humana: nijedan domaćin ne sme zbog zelenaša ili poreza pasti ispod granice na kojoj porodica može da preživi. Posledice su bile dvostruke. S jedne strane, masa srpskih seljaka spasena je sudbine svojih kolega u Irskoj ili južnoj Italiji — nije bilo masovne deložacije, nije bilo bezemljaške proletarizacije, nije bilo praznih sela i prekookeanske emigracije velikih razmera. S druge strane, isti zakon je sputavao akumulaciju. Ko ne može da izgubi zemlju, taj teško dobija i kredit; ko ima zaštićenih pet hektara, retko ih udvostručuje. Srpsko selo je opstalo, ali nije naraslo."
+    },
+    {
+      "type": "paragraph",
+      "text": "Kroz drugu polovinu veka pojavili su se i drugi pritisci. Zadružna porodica — velika kuća u kojoj su pod istim krovom živeli braća sa ženama i decom, ponekad i četrdeset duša — počela je da se raspada. Mlađi sinovi tražili su svoj deo, deobe su sitnile parcele, a tamo gde je deda imao jednu njivu, unuk je imao četvrtinu te iste njive. Stanovništvo je raslo, a obradiva površina nije. Proizvodnja po hektaru ostajala je niska. Tehnika se popravljala sporo: drveno oruđe je u zaostalim krajevima bilo u upotrebi gotovo do kraja veka, a gvozdeni plug se širio tek posle osamdesetih godina. Mašine su bile retke i skoro uvek uvozne. Pismenost na selu kasnila je za varošima dve generacije."
+    },
+    {
+      "type": "paragraph",
+      "text": "Šta je srpsko selo proizvodilo? Pre svega žito — kukuruz, koji je u 19. veku potisnuo proso kao osnovnu hranu, i pšenicu za pijace. Pored toga, šljivu, koja je davala rakiju i suve šljive — uz svinje, najvažniji izvozni proizvod zemlje. Tu su bili i vino, voće, malo duvana, a stočarstvo se naslanjalo na svinju, ovcu i goveče. Glavni kupac za sve to bila je susedna Austro-Ugarska. Kada je 1906. izbio „carinski rat” s Bečom i kada su granice naglo zatvorene za srpske svinje, sva slabost ovog modela došla je na videlo: zemlja je gotovo preko noći otkrila koliko je njena seljačka privreda zavisila od jedne jedine pijace. Tek otvaranje novih tržišta i izvoz preko Soluna spasli su je od dubokog sloma."
+    },
+    {
+      "type": "paragraph",
+      "text": "Selo je, razume se, oblikovalo i politiku. Radikalna stranka Nikole Pašića narasla je upravo na seljačkoj osnovi — na zahtevu za jeftinom državom, niskim porezima i lokalnom samoupravom. Pre nje, Svetozar Marković i prvi srpski socijalisti zagovarali su seljačke zadruge, opštinsku samoupravu i, u krajevima koji bi se tek oslobodili od Turaka, oduzimanje veleposeda. Iz tih ideja izrasla je čitava jedna agrarna struja srpske misli koja će trajati i u 20. veku. Bez romantizovanja: život srpskog seljaka 19. veka bio je težak, kratak i često siromašan. Ali baš taj seljak hranio je vojsku koja je oslobađala zemlju, plaćao poreze koji su gradili železnicu i birao narodne poslanike koji su pisali ustave. Srbija je njime stajala — i njime se sporo kretala napred."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

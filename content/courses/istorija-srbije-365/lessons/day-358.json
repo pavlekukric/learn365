@@ -6,13 +6,49 @@
   "dayNumber": 358,
   "order": 9,
   "title": "Privreda i društvo savremene Srbije",
+  "subtitle": "Tranzicija, privatizacija, novi sektori i stara pitanja — privreda i društvo Srbije u prvim decenijama 21. veka",
   "readingTimeMinutes": 7,
   "year": 2020,
-  "isPlaceholder": true,
+  "dateLabel": "savremeno doba",
+  "timelinePosition": "savremeno doba",
+  "summary": "Posle 2000. Srbija prelazi iz ratom oštećene, sankcijama izolovane privrede u tržišnu ekonomiju — kroz talase privatizacije, rast usluga i informatičkih delatnosti, ali i kroz iseljavanje, demografski pad i trajnu regionalnu neravnotežu.",
+  "keyPeople": [],
+  "keyPlaces": ["Beograd", "Vojvodina", "Kragujevac", "Bor", "Novi Sad", "Niš"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Kada je Srbija posle 2000. godine počela da se vraća u svet, njena privreda bila je u stanju koje se teško može opisati jednom rečju. Decenija ratova, sankcija i hiperinflacije ostavila je za sobom industriju zastarele tehnologije, banke u kojima građani nisu verovali svojoj uštedi, javna preduzeća sa previše zaposlenih i premalo prihoda, i sivu ekonomiju koja je u nekim oblastima bila veća od one zvanične. Tranzicija — reč koja je tih godina postala svakodnevna — značila je sve odjednom: stabilizaciju novca, otvaranje granica, promenu vlasništva, novi pravni okvir i, pre svega, učenje da se posluje po pravilima koje nameće mnogo veće tržište od domaćeg."
+    },
+    {
+      "type": "paragraph",
+      "text": "Privatizacija je bila središnji potez tog procesa i ujedno njegov najsporniji deo. Dva osnovna modela — prodaja preduzeća strateškim kupcima i prodaja kroz tendere i aukcije — sprovedena su u talasima tokom dvehiljaditih, sa ciljem da se državno i društveno vlasništvo prevedu u privatne ruke i da se time obnovi rad i privuče kapital. Bilo je primera koji su, sa današnje distance, ocenjeni kao uspešni: pojedine cementare, pivare, duvanske fabrike i banke posle prodaje stranim ulagačima zaista su modernizovane i počele su da posluju po evropskim standardima. Bilo je, međutim, i mnogo drugih, gde su preduzeća kupovana radi imovine i likvidirana, gde su nova rukovodstva odlazila bez ulaganja, ili gde se kasnije ispostavilo da je sam postupak prodaje bio sporan. Veliki broj tih privatizacija kasnije je poništen ili je postao predmet sudskih postupaka, a sama reč „privatizacija” u javnosti je do danas zadržala dvosmislen prizvuk."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Sektori, kapital i posao"
+    },
+    {
+      "type": "paragraph",
+      "text": "Struktura srpske privrede u 21. veku postepeno se izmenila u skladu sa onim što se događalo i u drugim evropskim ekonomijama. Usluge i trgovina danas čine najveći deo bruto domaćeg proizvoda, prerađivačka industrija je manja nego u jugoslovensko doba ali tehnološki naprednija u pojedinim granama, a poljoprivreda — naročito ona u Vojvodini, sa plodnim ravnicama i organizovanim ratarstvom — ostaje važan izvozni stub. U Kragujevcu se, na temeljima nekadašnje „Crvene zastave”, razvila automobilska proizvodnja pod okriljem velike međunarodne grupacije, najpre Fiata, a potom Stelantisa, sa promenljivim obimom proizvodnje koji prati svetska kretanja u toj industriji. U istočnoj Srbiji, rudarsko-topioničarski basen Bor — staro središte bakra još iz vremena pre Prvog svetskog rata — prešao je u kineske ruke kada je „Ziđin” preuzeo nekadašnji RTB Bor, pa je dobio kapital i nove planove, ali i nove sporove oko životne sredine i radnih uslova."
+    },
+    {
+      "type": "paragraph",
+      "text": "Najupadljiviji nov sektor je onaj koji se najmanje vidi golim okom — informacione tehnologije i softverske usluge. Hiljade inženjera u Beogradu, Novom Sadu, Nišu i drugim gradovima rade za inostrane klijente, kroz domaće firme ili kao samostalni stručnjaci, i taj izvoz znanja postao je jedna od najbrže rastućih stavki u srpskoj privredi. Uz njega, strane direktne investicije pristizale su iz različitih izvora: zemalja Evropske unije, naročito Nemačke, Italije i Austrije, ali i iz Rusije, Turske, Ujedinjenih Arapskih Emirata, Kine i drugih. Država je ulagala u industrijske zone, putnu infrastrukturu i subvencije za nova radna mesta, što je dovelo do otvaranja niza fabrika auto-delova, kablova i elektronike, ali i do trajne rasprave o tome koliko su te subvencije ekonomski opravdane."
+    },
+    {
+      "type": "paragraph",
+      "text": "Društvena slika koja prati ovu privredu mnogo je teža nego njeni statistički prosečni brojevi. Iseljavanje je postalo trajna pojava: mladi, školovani ljudi — lekari, inženjeri, informatičari, ali i radnici raznih zanimanja — odlaze prvenstveno u zemlje Evropske unije, a u manjoj meri i preko okeana. Tačan broj iseljenih nije lako utvrditi, jer mnogi zadržavaju veze sa Srbijom, ali se procenjuje da je u prve dve decenije veka iz zemlje otišlo nekoliko stotina hiljada ljudi. Uz to, broj rođenih je decenijama manji od broja umrlih, a stanovništvo stari brže od evropskog proseka. Popis iz 2022. potvrdio je ono što se odavno videlo na terenu — da Srbija ima osetno manje stanovnika nego pre dvadeset godina."
+    },
+    {
+      "type": "paragraph",
+      "text": "Drugi snažan trend je koncentracija aktivnosti u nekoliko velikih centara. Beograd, Novi Sad i u manjoj meri Niš okupljaju najveći deo investicija, novih radnih mesta i mladih stanovnika, dok unutrašnjost — istočna i južna Srbija pre svega — gubi ljude, škole i bolnice. Regionalna neravnoteža, prisutna i u jugoslovensko doba, u tranziciji se produbila. Siva ekonomija je, prema procenama domaćih i međunarodnih istraživanja, i dalje značajna, naročito u uslugama, građevinarstvu i poljoprivredi, premda manja nego u devedesetim. Prosečne plate u Srbiji rasle su tokom druge decenije veka, i nominalno i u evrima, ali rasprava o tome koliko je porasla stvarna kupovna moć — i koliko je nejednakost između najbogatijih i najsiromašnijih građana zaista promenjena — ostaje otvorena, sa različitim odgovorima zavisno od toga ko meri i šta meri."
+    },
+    {
+      "type": "paragraph",
+      "text": "Privreda i društvo savremene Srbije tako stoje u jednom posebnom paradoksu. Zemlja je, po svim merilima, daleko od onoga što je bila krajem devedesetih: ima konvertibilnu valutu, otvoreno tržište, internacionalno povezane firme i sektore koji prate svetske trendove. Istovremeno, ona se bori sa pitanjima koja se ne rešavaju ni za jednu deceniju — kako zadržati ljude, kako uravnotežiti razvoj između Beograda i ostatka zemlje, i kako od privrede koja u velikoj meri sklapa tuđe proizvode preći u onu koja stvara više sopstvenih. Odgovori na ta pitanja ne pripadaju istoriji, nego godinama koje tek dolaze."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

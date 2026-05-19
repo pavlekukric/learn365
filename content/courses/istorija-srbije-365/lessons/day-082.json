@@ -6,13 +6,49 @@
   "dayNumber": 82,
   "order": 4,
   "title": "Gradovi i trgovina",
+  "subtitle": "Mreža trgova, primorskih luka i većih varoši koja je rudarsku Srbiju Nemanjića povezala sa mediteranskom privredom",
   "readingTimeMinutes": 7,
   "year": 1300,
-  "isPlaceholder": true,
+  "dateLabel": "13–14. vek",
+  "timelinePosition": "13–14. vek",
+  "summary": "Srednjovekovna Srbija bila je pretežno seoska zemlja, ali ju je mreža trgova, primorskih luka i većih varoši povezivala s mediteranskom privredom — a srebro i dubrovački trgovci držali su tu vezu.",
+  "keyPeople": [],
+  "keyPlaces": ["Brskovo", "Novo Brdo", "Skoplje", "Prizren", "Dubrovnik", "Kotor"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Srednjovekovna Srbija nije bila zemlja gradova. Velika većina ljudi živela je u selima, na vlastelinskim posedima ili crkvenim dobrima, baveći se zemljoradnjom i stočarstvom. Pa ipak, kroz tu pretežno seosku zemlju išla je mreža mesta gde se trgovalo, kovao novac i punile carine — i upravo ta mreža, koliko god retka i mala po brojevima stanovnika, vezivala je državu Nemanjića za mediteransku privredu. Ko želi da razume Srbiju trinaestog i četrnaestog veka samo preko manastira i bitaka, propustiće tihu, ali odlučujuću stranu njenog života: srebro koje se topilo u rudarskim varošima i odlazilo brodovima iz Dubrovnika dalje na zapad."
+    },
+    {
+      "type": "paragraph",
+      "text": "U unutrašnjosti su središta tog života bili trgovi. Bila su to mala naselja, najčešće smeštena u blizini rudnika ili na pogodnim raskršćima karavanskih puteva, gde se lokalna roba susretala sa onom koja je putovala daleko. Brskovo na gornjem toku Tare, Trepča i Janjevo na Kosovu, Novo Brdo iznad Kosova polja, Plana, Rudnik u Šumadiji — gotovo svi su istovremeno bili i rudarska mesta. Tu su se otkopavali i topili srebro, olovo i bakar; tu su se okupljali kovači, trgovci, sveštenici, pisari i zanatlije; tu je nicala mešavina jezika i vera kakvu šira zemlja nije poznavala. Po veličini bili su skromni, često ne veći od većeg današnjeg sela, ali su po privrednoj težini nadrastali svoje zidine."
+    },
+    {
+      "type": "paragraph",
+      "text": "Drugi krak te mreže bilo je primorje. Gradovi na jadranskoj obali — Kotor, Bar, Ulcinj, Drač na jugu, i pre svega Dubrovnik — bili su luke kroz koje je srpska roba izlazila u svet i kroz koje je sa zapada ulazilo ono što unutrašnjost nije proizvodila. Pravni položaj im je bio raznorodan: Kotor je u dobrom delu razdoblja Nemanjića priznavao srpsku vrhovnu vlast, Bar i Ulcinj često takođe; Dubrovnik je bio samostalna komuna, kasnije republika pod promenljivim vrhovnim okvirima, ali u svakodnevnom poslu glavna kapija srpske trgovine; Drač je ležao na albanskom zemljištu, čas pod vizantijskom, čas pod anžujskom vlašću. Bez obzira na to ko je formalno vladao, gospodari u unutrašnjosti znali su da im je primorje neophodno — i obrnuto."
+    },
+    {
+      "type": "paragraph",
+      "text": "U toj mreži posebno su se izdvajala tri veća grada. Skoplje, koje je kralj Milutin osvojio krajem trinaestog veka, postalo je svojevrsna druga prestonica, a pod carem Dušanom i središte carstva. Prizren, smešten ispod Šar-planine na bogatom polju, bio je omiljeni boravak vladara i pretvorio se u jedan od najživljih trgovačkih i administrativnih centara države. Ohrid, drevno crkveno središte koje je vekovima pripadalo Bugarima i Vizantincima, pao je u srpske ruke 1334. godine i u Dušanovoj eri postao deo srpsko-grčkog sveta nove imperije. Tek sa ovim varošima, naslednicama starih vizantijskih urbanih sredina, srpska država dobija nešto što po obimu, ulicama i kulturnom bogatstvu zaista zaslužuje ime grada u mediteranskom smislu."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Roba, trgovci, novac"
+    },
+    {
+      "type": "paragraph",
+      "text": "Glavna roba koja je iz Srbije išla na zapad bilo je srebro — i to u količinama dovoljnim da menjaju cenu ovog metala na evropskim tržištima. Pored njega, izvozili su se bakar i olovo iz istih rudničkih oblasti, zatim vosak iz šuma, kože i krzna, manji vinski viškovi u pojedinim razdobljima, ponešto žita kad je rod bio dobar, i — pošteno treba reći — robovi, najčešće ratni zarobljenici, u broju koji je u srpskom slučaju bio ograničen ali stvaran. U suprotnom smeru, sa zapada i juga, stizalo je ono što je domaća privreda teško ili nikako proizvodila: fina sukna iz italijanskih i flamanskih radionica, so iz primorskih solana, ulje, južna vina, oružje, nakit i bolja keramika. So je bila pitanje opstanka koliko i trgovine, pa su vladari posebno pažljivo regulisali njen put."
+    },
+    {
+      "type": "paragraph",
+      "text": "Glavni nosioci tog prometa bili su Dubrovčani. U Brskovu, Novom Brdu, Prizrenu i drugim mestima vekovima su živele dubrovačke kolonije — trgovci, knezovi tih kolonija, sveštenici, lekari — koji su, po sopstvenom statutu i pod zaštitom srpskog vladara, vodili poslove sa unutrašnjošću. Srpski kraljevi su im izdavali povelje sa povlasticama: o slobodnom kretanju, o sudovanju sopstvenim pravom, o visini carina. Pored njih, aktivni su bili i kotorski, mletački, povremeno đenovski trgovci. Karavane su vodili „Vlasi”, polunomadski stočari i prevoznici koji su konjima i mazgama nosili teret preko planinskih prevoja, jer Srbija nije imala plovne reke ka moru. Vladari su podizali carine na većim drumovima i izdavali pisma o sigurnom prolazu — tako se gradila ona pravna mreža bez koje trgovina nije moguća."
+    },
+    {
+      "type": "paragraph",
+      "text": "Tu novčanu privredu pratio je i sopstveni novac. Srpski dinar, kovan po uzoru na mletački grosso, postao je u četrnaestom veku jedna od ozbiljnijih balkanskih valuta; kovnice su radile u Brskovu, Novom Brdu, Skoplju i drugim mestima. Sve to znamo, treba pošteno reći, najviše zahvaljujući dubrovačkim arhivima — pažljivo vođenim notarskim knjigama i poveljama koje su Dubrovčani čuvali vekovima — uz manji broj sačuvanih srpskih povelja i ono što arheologija povremeno izvuče iz tla. Pisani trag o domaćem trgu često je tanak; o dubrovačkom poslu sa njim — neuporedivo deblji. Iz tog spoja, koliko god neravnomerno osvetljenog, pomalja se slika države koja je, iza monaške i ratničke spoljašnjosti, bila čvrsto upletena u privredni život Mediterana."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

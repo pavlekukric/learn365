@@ -6,13 +6,57 @@
   "dayNumber": 307,
   "order": 5,
   "title": "Nacionalno pitanje i napetosti",
+  "subtitle": "Hrvatsko, slovenačko, muslimansko, albansko, makedonsko, crnogorsko pitanje u prvoj deceniji Kraljevine SHS",
   "readingTimeMinutes": 7,
   "year": 1925,
-  "isPlaceholder": true,
+  "dateLabel": "1920-e",
+  "timelinePosition": "1920-e",
+  "summary": "Kraljevina SHS u dvadesetim godinama: centralizam iz Beograda na jednoj strani, niz nerešenih nacionalnih pitanja na drugoj — od Zagreba i Ljubljane preko Sarajeva i Prištine do Skoplja i Cetinja.",
+  "keyPeople": ["Stjepan Radić", "Mehmed Spaho", "Anton Korošec", "kralj Aleksandar"],
+  "keyPlaces": ["Hrvatska", "Bosna", "Kosovo", "Makedonija", "Crna Gora"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Kraljevina Srba, Hrvata i Slovenaca rođena je 1918. godine kao država triju imena, ali stvarno mnogo više naroda i vera. Vidovdanski ustav iz 1921. rešio je glavno organizaciono pitanje na način kakav su tražili srpski radikali i veći deo dvora — strogim centralizmom, sa vladom u Beogradu, jednom skupštinom, jednim ministarstvima i administrativnom podelom na oblasti koja je svesno preseca istorijske pokrajine. Iz tog izbora izrasla je politika prve decenije: na jednoj strani država koja zahteva jedinstvo, na drugoj niz nacionalnih i verskih pitanja koja se ne daju lako uklopiti u jugoslovenski okvir."
+    },
+    {
+      "type": "paragraph",
+      "text": "Najteže i najglasnije bilo je hrvatsko pitanje. Hrvatska seljačka stranka braće Radić, ubrzo Hrvatska republikanska seljačka stranka pod Stjepanom Radićem, iz izbora u izbore osvajala je veliku većinu hrvatskih glasova. Radić je centralizmu suprotstavljao zahtev za federalizmom, za hrvatskim saborom i za priznanjem da Hrvati u novoj državi nisu samo „pleme” jednog troimenog naroda nego poseban politički narod. Argumenti su bili konkretni: vlada u Beogradu, kralj iz dinastije Karađorđevića, oficirski kor pretežno srpski, nova administrativna podela koja deli istorijsku Hrvatsku na više oblasti. Radićeve oštre izjave, među kojima i poznata reč o „arnautsko-azijatskoj” upravi, bile su deo političkog stila tog vremena — gruba, namerno provokativna, smišljena da odjekne dalje od skupštinske dvorane."
+    },
+    {
+      "type": "paragraph",
+      "text": "Slovenačko pitanje bilo je manje konfliktno, ali ne i manje važno. Slovenačka ljudska stranka Antona Korošca, naslonjena na katoličku crkvu i seljaštvo, uspela je da očuva ono što je Slovencima bilo najvažnije: slovenački jezik u školi, upravi i javnom životu, sopstvenu univerzitetsku tradiciju u Ljubljani i znatnu autonomiju kulturnih ustanova. Korošec je vodio pragmatičnu politiku — povremeno je sa svojom strankom ulazio u beogradske vlade, povremeno odlazio u opoziciju, a 1928. postaće prvi i, do kraja Kraljevine, jedini nesrbin na čelu jugoslovenske vlade. Slovenački centralizam Beograda nije voleo, ali je sa njim umeo da pregovara."
+    },
+    {
+      "type": "paragraph",
+      "text": "Muslimansko pitanje obuhvatalo je Bosnu i Hercegovinu, Sandžak i delom Kosovo. Jugoslovenska muslimanska organizacija, koju je dugo godina vodio Mehmed Spaho, postala je nezaobilazni kompromisni partner svake beogradske vlade: davala je glasove za parlamentarnu većinu, a zauzvrat tražila zaštitu muslimanskih interesa. Agrarna reforma teško je pogodila bosanske muslimanske veleposednike — begove i age — kojima je oduzimana zemlja i deljena dotadašnjim kmetovima, pretežno pravoslavnim i katoličkim seljacima; novčane naknade bile su skromne i kasnile su. Verski život uređen je preko Ulema-medžlisa u Sarajevu, telu koje je radilo pod kontrolisanim nadzorom države. Bila je to politika delimičnog priznanja i delimične integracije, kakvu je svaka strana doživljavala kao manje zlo."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Kosovo, Makedonija, Crna Gora"
+    },
+    {
+      "type": "paragraph",
+      "text": "Albansko pitanje bilo je u prvoj deceniji rešavano otvoreno diskriminatornom politikom i tako ga treba i nazvati. Na Kosovu, u zapadnoj Makedoniji i delovima Sandžaka živelo je oko pola miliona Albanaca. Kraljevina je tu vodila politiku „srbizacije”: zatvarane su albanske škole otvarane u osmansko doba, javni život na albanskom jeziku bio je sveden na najmanju moguću meru, a kroz agrarnu reformu i posebne kolonizacione zakone na južne krajeve doseljeno je između šezdeset i sedamdeset hiljada srpskih i crnogorskih kolonista, kojima je deljena zemlja, često ona oduzeta lokalnim porodicama. Albansko stanovništvo nije imalo političke stranke ravnopravne sa ostalima, a nezadovoljstvo se izražavalo i kroz oružani pokret kačaka, koji je vojska godinama suzbijala."
+    },
+    {
+      "type": "paragraph",
+      "text": "Makedonski problem zvanični Beograd je rešavao tako što ga je negirao. Slovensko stanovništvo „Južne Srbije”, kako se Makedonija službeno zvala, tretirano je kao deo srpskog naroda, jezik kao narečje srpskog, posebne nacionalne ustanove nisu dopuštane. Iz Bugarske je istovremeno delovala Vnatrešna makedonska revolucionarna organizacija — VMRO — koja je preko granice slala oružane grupe i izvodila terorističke napade na žandarmerijske ispostave, činovnike i koloniste. Krajevi oko Štipa, Kočana i Strumice bili su godinama u stanju prikrivenog niskointenzivnog sukoba, sa redovnim vojnim akcijama jugoslovenske strane."
+    },
+    {
+      "type": "paragraph",
+      "text": "Crna Gora je donela sopstvenu, posebnu napetost. Odluke Podgoričke skupštine iz 1918, kojima je zbačena dinastija Petrovića-Njegoša i Crna Gora pripojena Srbiji, deo crnogorskog stanovništva — nazvani „zelenaši” — nije priznavao. Pristalice kralja Nikole vodile su 1919. Božićnu pobunu, a otpor u različitim oblicima trajao je godinama, sa povremenim oružanim incidentima i stalnom političkom tenzijom između „bjelaša”, koji su prihvatili ujedinjenje, i „zelenaša”, koji su tražili obnovu crnogorske državnosti."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pored ovih velikih pitanja, država je imala i čitav niz manjina sa različitim statusima: Mađare u Vojvodini, Nemce u Banatu, Bačkoj i delom Sloveniji, Rumune u istočnom Banatu, Jevreje u većim gradovima, Slovake i Rusine. Njihova prava bila su delimično zaštićena ugovorima o manjinama koje je Kraljevina potpisala 1919, ali u praksi su zavisila od lokalnih prilika i od raspoloženja vlasti. Negde, kao u nemačkim selima Vojvodine ili u jevrejskim opštinama Beograda i Sarajeva, kulturni i verski život funkcionisao je relativno mirno; drugde, kao kod Mađara u Bačkoj posle agrarne reforme, ostajala je trajna ogorčenost zbog gubitka zemlje i statusa."
+    },
+    {
+      "type": "paragraph",
+      "text": "Krajem dvadesetih, ni jedno od ovih pitanja nije bilo rešeno. Hrvatska opozicija postajala je sve organizovanija, muslimanske i slovenačke stranke trgovale su podrškom u zamenu za delimične ustupke, na Kosovu i u Makedoniji trajala je politika koju vlast nije priznavala kao problem, a u Crnoj Gori je nasleđe 1918. ostalo otvorena rana. Kraljevina SHS ušla je u 1929. godinu kao država sa parlamentarnim sistemom koji ova pitanja nije uspeo da pomeri ni za korak unapred — i upravo zato je sledeći potez morao da dođe izvan parlamenta, sa dvora."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

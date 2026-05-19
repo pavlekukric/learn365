@@ -6,13 +6,49 @@
   "dayNumber": 79,
   "order": 1,
   "title": "Život na dvoru Nemanjića",
+  "subtitle": "Pokretno središte vlasti između Raške, Skoplja i Prizrena — vizantijski sjaj, slovenski jezik i zapadni gosti",
   "readingTimeMinutes": 7,
   "year": 1300,
-  "isPlaceholder": true,
+  "dateLabel": "13–14. vek",
+  "timelinePosition": "13–14. vek",
+  "summary": "Dvor Nemanjića kao pokretna ustanova: vladar sa porodicom i pratnjom, sve više vizantijska ceremonija, lov i gozbe, strani izaslanici i kancelarija koja je državu držala u pismenom obliku.",
+  "keyPeople": [],
+  "keyPlaces": ["Ras", "Skoplje", "Prizren", "Kruševac"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Kada se danas pomene „dvor Nemanjića”, lako je zamisliti jedno stalno mesto — kameni grad sa prestolom, gde vladar sedi i odakle godinama upravlja zemljom. Stvarnost je bila drugačija. Srednjovekovni srpski dvor bio je pre svega pokretna ustanova. Kralj, a kasnije car, putovao je sa svojom pratnjom između nekoliko omiljenih boravišta — u ranijim vremenima oko Rasa, kasnije u Skoplju, Prizrenu, povremeno u Kruševcu i drugim utvrđenim gradovima — i držao dvor tamo gde se zatekao. Iza njega su išla kola sa pisarima, kovčezi sa poveljama, kuvari, sluge, lovci i vojna pratnja. Vlast je bila tamo gde je vladar."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sam dvor, u užem značenju, činio je krug ljudi oko vladara. Tu su bili njegova supruga i deca, najbliža rodbina, zatim dvorski velikaši sa zvučnim zvanjima — kaznac, čelnik, vojvoda — koja su u ranijem periodu bila više vezana za stvarne dužnosti, a kasnije postajala i počasne titule. Oko vladara su se kretali i mlađi plemići u službi, ono što bi se u zapadnim hronikama nazvalo paževima, zatim komornici zaduženi za riznicu i odaje, dvorski sveštenici i ispovednici, te skupina pisara koja je vodila kancelariju. Ličnu bezbednost vladara čuvala je odabrana straža, sastavljena često od proverenih ljudi iz njegove uže oblasti."
+    },
+    {
+      "type": "paragraph",
+      "text": "Tokom 13. i naročito 14. veka, dvorska ceremonija sve više se ugledala na Carigrad. Što je srpska država postajala moćnija i što su Nemanjići držali više grčkih oblasti, to je formalnost na dvoru bila sličnija vizantijskoj. U vreme Dušana, kada se Srbija proglasila carstvom, ta sličnost dostigla je vrhunac. Svečane odežde, povorke na velike praznike, formalni prijemi stranih izaslanika, hijerarhija titula koje su odzvanjale grčkim poreklom — sevastokrator, despot, kesar — sve je to ulazilo u srpski dvorski život. Vladar je za važne prilike oblačio odeću nalik carskoj, sedeo na prestolu sa svečanim baldahinom, a od Dušanovog vremena dvoglavi orao postao je državni znak."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Lov, gozbe i strani gosti"
+    },
+    {
+      "type": "paragraph",
+      "text": "Pored ceremonije, dvorski život je imao i svoju svakidašnju stranu. Lov je bio kraljevski sport po preimućstvu — i razonoda i vežba u jahanju, gađanju i upravljanju ljudima u pokretu. Nemanjići su lovili krupnu divljač u šumama oko svojih dvorova, držali sokolare i lovačke pse, a u opasnost lova podseća i poznati podatak da je kralj Dragutin 1282. godine teško povredio nogu padajući s konja u lovu, što je posredno dovelo do promene na prestolu. Pored lova, na dvoru se streljalo iz luka, igrao se šah donesen sa istoka, a u svečanim prilikama priređivane su gozbe na kojima se točilo vino iz Makedonije i sa primorja, pila medovina, i iznosilo pečenje, divljač i riba iz reka koje su tekle kroz vladareve oblasti."
+    },
+    {
+      "type": "paragraph",
+      "text": "O muzici i pesmi na dvoru zna se manje nego što bismo želeli. Sačuvani su tek odjeci: pomeni svirača i pevača u poveljama, tragovi instrumenata na freskama, opšte znanje da su uz narodne instrumente, kakva je bila gusla, na dvor dolazili i instrumenti doneseni iz Vizantije i sa zapada. Sigurno je da svečani prijemi nisu prolazili bez pratnje muzike i bez određenog reda u sedanju, jelu i nazdravljanju, ali pojedinosti više pripadaju pretpostavci nego dokazu. Isto važi i za odeću plemstva u svakodnevici: ono što danas znamo najviše dolazi sa ktitorskih portreta po manastirima, gde su vladari i velikaši naslikani u svečanoj odori, a ne u onome što su nosili u običan dan."
+    },
+    {
+      "type": "paragraph",
+      "text": "Dvor Nemanjića, naročito u svom poznom razdoblju, bio je kosmopolitsko mesto. U njega su dolazili italijanski trgovci iz Dubrovnika i Kotora, vizantijski izaslanici sa pismima i poklonima, ugarski i bugarski velikaši, povremeno papski legati. Govorili su se različiti jezici, prevodilo se sa grčkog i latinskog, sklapali su se ugovori i bračne veze koje su srpski dvor uplitale u širu evropsku mrežu. Žene u vladarskoj kući imale su tu vidnu ulogu: kraljice i carice držale su svoje pratnje, učestvovale u ceremonijalu, a pojedine — poput Jelene, supruge kralja Uroša I — vodile su sopstvene oblasti i bavile se pokroviteljstvom crkava, bolnica i učenja, što ih je činilo političkim akterima na svoj način."
+    },
+    {
+      "type": "paragraph",
+      "text": "Skriveno iza svečane strane, ali za državu možda najvažnije, radila je dvorska kancelarija. U njoj su pisari, redovno obrazovani u manastirima, sastavljali povelje, ugovore, sudske odluke i pisma. Većina dokumenata pisana je staroslovenskim, a u poslovima sa grčkim oblastima i Carigradom — grčkim jezikom. Iz tih sačuvanih spisa danas najviše i znamo o ustrojstvu dvora: ko je kome bio bliži, ko je nosio koju titulu, kome je vladar darivao zemlju ili oslobađao manastir od dažbina. Mnogo toga drugog — boje sala, mirisi gozbi, zvuk muzike — pretpostavljamo iz fresaka, iz stranih putopisa, iz analogija sa Carigradom i Trnovom. Treba to pošteno reći: slika dvora Nemanjića koju imamo jeste utemeljena u izvorima, ali nije potpuna. Ono što se sa sigurnošću može tvrditi jeste mešani karakter tog života — slovenski u temelju, vizantijski u formi, zapadnoevropski u dodirima — i da je upravo taj spoj činio prepoznatljivost srpske srednjovekovne države."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

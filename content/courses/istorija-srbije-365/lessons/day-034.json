@@ -6,13 +6,53 @@
   "dayNumber": 34,
   "order": 6,
   "title": "Felix Romuliana i car Galerije",
+  "subtitle": "Carska palata kod današnjeg Gamzigrada, podignuta krajem 3. veka po majci jednog tetrarhijskog cara",
   "readingTimeMinutes": 7,
   "year": 300,
-  "isPlaceholder": true,
+  "dateLabel": "oko 300. n. e.",
+  "timelinePosition": "~300. n. e.",
+  "summary": "U istočnoj Srbiji, nedaleko od Zaječara, krajem trećeg i početkom četvrtog veka podignuta je raskošna carska palata Felix Romuliana — zadužbina cara Galerija, jednog od tetrarha, posvećena njegovoj majci Romuli.",
+  "keyPeople": ["Galerije", "Romula", "Dioklecijan"],
+  "keyPlaces": ["Felix Romuliana", "Gamzigrad", "Zaječar"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Na blagim brežuljcima istočne Srbije, nedaleko od Zaječara, leži arheološko nalazište koje je vekovima nosilo neutralno ime Gamzigrad. Mestani su znali da su to ostaci nečeg velikog i starog — masivni bedemi sa kulama, ostaci hramova, fragmenti mozaika — ali se dugo nije znalo kome tačno pripadaju. Tek osamdesetih godina dvadesetog veka, kada je u jednoj od dvorana otkriven natpis FELIX ROMVLIANA, identifikacija je postala sigurna. Bila je to carska palata Galerija, jednog od četvorice tetrarha, podignuta krajem trećeg i početkom četvrtog veka, i posvećena njegovoj majci Romuli. Time je Srbija dobila još jedan rimski spomenik prvog reda, a kasna antika još jedan od svojih najambicioznijih kompleksa."
+    },
+    {
+      "type": "paragraph",
+      "text": "Galerije je bio tipičan car svog doba — vojnik sa Balkana, sin skromne porodice, čovek koji se uz vojsku popeo do vrha carstva. Antički pisci beleže da je rođen baš u ovom kraju, u oblasti koju su naseljavali romanizovani Dačani. Majka Romula, prema tradiciji, bila je sveštenica jednog lokalnog božanstva i prebegla je preko Dunava pred varvarskim napadima. Galerije se istakao u vojnim pohodima, a Dioklecijan ga je 293. godine, prilikom uvođenja tetrarhije, izabrao za svog cezara na istoku. Posle dve decenije ratovanja, najpre protiv Sarmata na Dunavu, a potom protiv Persijanaca, 305. godine postao je august — stariji car istočnog dela carstva. U trenutku najveće moći, tradicija je nalagala da takav vladar misli i na svoju zadužbinu."
+    },
+    {
+      "type": "paragraph",
+      "text": "Tako je verovatno nastao plan za Felix Romulianu. Galerije je hteo da na mestu svog rođenja podigne kompleks koji bi spojio carsku palatu, hramove i porodični mauzolej — i u kome bi, po uzoru na Dioklecijana, jednog dana mirno proveo poslednje godine. Dioklecijan je upravo to učinio sagradivši palatu u Splitu i tamo se 305. povukao s prestola. Galerije se ugledao na svog uzora, ali sa važnom razlikom: njegova palata nije bila okrenuta moru, nego kontinentalnoj unutrašnjosti, brežuljkastom kraju Timočke krajine. To je bio njegov svet, svet vojnika i seljaka odraslog uz Dunav."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Bedem, hramovi, mauzolej"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ono što je sagrađeno bilo je neuobičajeno čak i po merilima carskog graditeljstva. Kompleks je okružen masivnim bedemom dugim nekoliko stotina metara, sa dvadesetak monumentalnih poligonalnih kula koje su mu davale izgled tvrđave, ne samo rezidencije. Unutar zidina nalazila se carska palata sa raskošnim svečanim dvoranama, čiji su podovi bili pokriveni mozaicima — od scena lova do geometrijskih kompozicija visokog kvaliteta. Tu su bila i dva hrama, jedan veći posvećen Jupiteru, drugi manji verovatno bogovima zaštitnicima carske porodice. Nedaleko od palate, na obližnjem brežuljku Magura, podignut je mauzolejski kompleks: dva groba i dve takozvane konsekracione građevine, mesta na kojima su preminuli vladari simbolično uznošeni među bogove. Najprihvaćenije tumačenje je da je jedan grob bio za Romulu, drugi za samog Galerija, mada se oko detalja arheolozi i danas spore."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ime kompleksa odaje mnogo. Felix Romuliana — „Srećna Romulijana“, odnosno mesto Romulino — bila je istovremeno spomenik majci, izraz lične pobožnosti i politički gest. U svetu kasne antike vezivanje cara za majku-sveštenicu nije bilo tek sentimentalno; legitimnost se gradila i preko porekla i preko bogova. Time što je središtu carstva pokazao gde mu je dom i ko ga je rodio, Galerije je svoju vlast ukorenio u zemlju u kojoj je odrastao. Za njega je to verovatno bilo važno; kao Dačanin po poreklu, među aristokratskim rivalima, nije imao stari rod kojim bi se hvalio."
+    },
+    {
+      "type": "paragraph",
+      "text": "Lik Galerija u izvorima ostaje podvojen. Vojnički je bio sposoban i odlučan, reorganizovao je provincije na Balkanu i u Maloj Aziji, učvrstio dunavski front. Istovremeno, bio je glavni pokretač velikog progona hrišćana koji je započet 303. godine pod Dioklecijanom — najsistematičnijeg progona u istoriji carstva. Hrišćanski pisci su ga zato pamtili kao surovog neprijatelja vere. Ipak, na samrti, teško bolestan, 311. godine izdao je u Serdiki edikt kojim je hrišćanima priznato pravo na javno ispovedanje vere. Bio je to neobičan obrt, koji je u praksi okončao Veliki progon i pripremio teren za Konstantinov Milanski edikt dve godine kasnije. Razlozi su mogli biti politički, mogli su biti i lični; o tome se može samo nagađati."
+    },
+    {
+      "type": "paragraph",
+      "text": "U Felix Romulianu Galerije se, koliko se zna, nikada nije konačno povukao. Smrt ga je zatekla pre nego što je palata dovršena i pre nego što se mogao posvetiti mirnom životu na koji je očito računao. Posle njegove smrti kompleks je još neko vreme korišćen, ali već u petom i šestom veku tu je niklo skromnije, gotovo seosko naselje, a u srednjem veku se na ruševinama smenjivalo manje zajednica. Sa vremenom su veliki bedem i kule zarasli u zemlju, a istinski karakter mesta je zaboravljen. Sve do otkrića onog ključnog natpisa, Gamzigrad je u nauci bio jedna lepa, ali neimenovana enigma."
+    },
+    {
+      "type": "paragraph",
+      "text": "Danas je Felix Romuliana na Uneskovoj listi svetske baštine i jedno od najvažnijih nalazišta kasne antike u Evropi. Posetiocu otkriva nekoliko slojeva istovremeno — vojničku čvrstinu bedema, raskoš mozaika u svečanim dvoranama, mir mauzolejskog brda, i, iznad svega, ličnu priču o caru koji je hteo da se vrati kući. Za istoriju Srbije to je još jedan dokaz da je ovaj prostor u poznorimsko doba bio mnogo više od zaleđa carstva: bio je deo njegovog središta, mesto na kome su se rađali carevi i podizale njihove zadužbine. Kada se danas hoda među zidovima Romulijane, hoda se kroz jednu od ambicioznijih graditeljskih zamisli kasne antike i kroz tihu ostavštinu vladara koji se nije sasvim pomirio sa tim ko je bio."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

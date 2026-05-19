@@ -6,13 +6,53 @@
   "dayNumber": 264,
   "order": 6,
   "title": "Srpska umetnost i muzika",
+  "subtitle": "Kako su slikari, vajari i kompozitori 19. veka, u skromnim ali ozbiljnim razmerama, gradili modernu srpsku kulturu",
   "readingTimeMinutes": 7,
   "year": 1880,
-  "isPlaceholder": true,
+  "dateLabel": "19. vek",
+  "timelinePosition": "19. vek",
+  "summary": "Srpska likovna i muzička scena 19. veka — od vojvođanskih slikara i Anastasa Jovanovića do Paje Jovanovića, Uroša Predića i Stevana Mokranjca — gradila je modernu nacionalnu kulturu u stalnom dijalogu sa srednjoevropskim školama.",
+  "keyPeople": ["Konstantin Danil", "Anastas Jovanović", "Đura Jakšić", "Paja Jovanović", "Uroš Predić", "Đorđe Krstić", "Kornelije Stanković", "Stevan Stojanović Mokranjac", "Davorin Jenko", "Josif Marinković"],
+  "keyPlaces": ["Beograd", "Novi Sad", "Beč", "Minhen", "Prag", "Kruševac"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Devetnaesti vek zatekao je Srbe bez sopstvenih akademija, bez konzervatorijuma, bez dvorske kapele koja bi naručivala muziku, i bez velikih gradskih galerija. Sve što će se u tom stoleću razviti — od portreta u uljanoj boji do horskog koncerta na narodne motive — moralo je biti načinjeno na malo, u dijalogu sa srednjoevropskim školama, i strpljivim ličnim radom pojedinaca. Otuda i izvesna skromnost srpske umetnosti tog doba: ona ne gradi sopstvene velike pokrete, već se uči, sledi, prilagođava — ali u nekoliko slučajeva izgrađuje dela koja izdržavaju proveru vremena."
+    },
+    {
+      "type": "paragraph",
+      "text": "Prve ozbiljne radionice nisu bile u Kneževini, već u Vojvodini, u okviru Habzburške monarhije, gde su gradovi poput Novog Sada, Sentandreje i Sombora imali staru građansku i crkvenu tradiciju naručivanja ikona, ikonostasa i portreta. Tu su, krajem 18. i početkom 19. veka, radili Pavle Đurković i Arsenije Teodorović, slikari prelaza iz crkvene u građansku umetnost, a zatim i Pavel Simić. Najistaknutiji među njima bio je Konstantin Danil — slikar verovatno rođen oko 1798. godine, čija tačna biografija ostaje delimično nejasna, ali čiji ikonostasi i portreti pokazuju izuzetnu tehničku zrelost i osećaj za boju. Danil je radio u tradiciji srednjoevropskog akademizma, ali sa odmerenošću koja njegove ličnosti čini bližim i današnjem oku."
+    },
+    {
+      "type": "paragraph",
+      "text": "U Kneževini Srbiji početak je bio sporiji. Anastas Jovanović (1817–1899), školovan u Beču, postao je dvorski litograf knezu Aleksandru Karađorđeviću, a istoriji ostaje upamćen po dvostrukom doprinosu — kao pionir fotografije među Srbima i kao autor albuma „Spomenici srbski”, litografskog niza koji je prvi put srednjoevropskoj publici predstavio srpske vladare, junake i znamenita mesta. Steva Todorović, rođen 1832, dugo je delovao u Beogradu kao slikar i učitelj crtanja, oblikujući više generacija. U istoj generaciji bio je i Đura Jakšić (1832–1878) — pesnik romantičar koga šira publika pamti po stihovima, ali koji je iza sebe ostavio i niz slika, među kojima „Devojka u plavom” i „Noć u Skadarliji” pripadaju standardnom korpusu srpske likovne baštine."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Velika imena pred kraj veka"
+    },
+    {
+      "type": "paragraph",
+      "text": "Pred kraj 19. veka pojavljuju se dva slikara koji će, više nego iko pre njih, postati sinonim za srpsku akademsku umetnost. Paja Jovanović (1859–1957), školovan u Beču, slikao je monumentalne istorijske scene velikih dimenzija — „Krunisanje cara Dušana”, „Seoba Srba”, „Ženidba cara Dušana” — koje su namerno gradile vizuelnu predstavu o srednjovekovnoj veličini i o nacionalnoj sudbini. Uroš Predić (1857–1953), takođe školovan u Beču, krenuo je drugim putem: njegove „Vesela braća” i „Kosovka devojka” spajaju realistički prikaz svakodnevice i religiozno-istorijsku temu, sa pažljivom kompozicijom i toplom paletom. Đorđe Krstić (1851–1907), školovan u Minhenu, doneo je realističke kompozicije iz domaćeg života i pejzaže koji su otvorili put modernijem slikarstvu sledećeg pokolenja."
+    },
+    {
+      "type": "paragraph",
+      "text": "U skulpturi tradicija je bila još mlađa. Petar Ubavkić (1850–1910) važi za prvog srpskog vajara modernog tipa, a Đorđe Jovanović je 1904. godine podigao Spomenik kosovskim junacima u Kruševcu — delo koje je vajarstvo konačno uvelo u javni prostor srpskih gradova kao ozbiljnu disciplinu. Treba pošteno reći: deo akademske produkcije tog doba danas više deluje kao dokument vremena nego kao živo umetničko iskustvo. Ali u svom trenutku, te slike i spomenici bili su mehanizam građenja moderne nacionalne kulture — vizuelni jezik kojim se mlada država obraćala sopstvenom narodu i Evropi."
+    },
+    {
+      "type": "paragraph",
+      "text": "Muzička scena imala je sopstvene putanje. Kornelije Stanković (1831–1865), kratkog veka ali odlučujućeg uticaja, prvi je sistematski beležio srpsko crkveno pojanje i narodne melodije, prevodeći usmenu tradiciju u notni zapis i otvarajući put svemu što dolazi. Ključna ličnost srpske muzike tog stoleća postao je Stevan Stojanović Mokranjac (1856–1914) — školovan u Minhenu, Rimu i Lajpcigu, dirigent Beogradskog pevačkog društva od 1887. godine i osnivač prve srpske muzičke škole. Njegovih „Petnaest rukoveti”, komponovanih između 1883. i 1909. godine, vokalne su kompozicije zasnovane na narodnim melodijama koje i danas čine srž horskog repertoara, a njegova „Statira” (liturgija) ostala je standardna u crkvenoj praksi."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pored Mokranjca, važnu ulogu odigrali su Davorin Jenko (1835–1914), Slovenac koji je dugo živeo i radio u Beogradu — autor muzike za himnu „Bože pravde” iz 1872. godine na tekst Jovana Đorđevića, kao i operete „Vračara” — i Josif Marinković (1851–1931), kompozitor solo pesama i horskih dela koje su pevačka društva izvodila širom srpskih gradova. Upravo pevačka društva, počev od Beogradskog pevačkog društva osnovanog 1853. i društva „Stanković” iz 1881. godine, bila su institucionalno tlo te muzike: ona su naručivala kompozicije, putovala na koncerte u Beč, Prag i Sofiju, i tako srpsku muziku prvi put predstavljala spoljnoj publici."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ako se pogleda celina, i likovna i muzička scena 19. veka jesu skromnih razmera. Nema ovde velikih škola koje pokreću epohe, niti dela koja menjaju evropsku istoriju umetnosti. Ali ima istinske vrednosti — Mokranjčevih rukoveti, Pajinih i Predićevih platna, Danilovih portreta, Anastasovih litografija — koje ne treba pravdati ni veličati. Te stvari su, prosto, dobre. I još važnije: one su za nekoliko decenija stvorile zajednički vizuelni i zvučni jezik moderne srpske kulture, jezik na koji će se sledeće, znatno smelije generacije moći osloniti."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

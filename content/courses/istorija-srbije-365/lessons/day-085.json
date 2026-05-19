@@ -6,13 +6,57 @@
   "dayNumber": 85,
   "order": 7,
   "title": "Knjige i prepisivačke škole",
+  "subtitle": "Kako su u svetu bez štamparije srednjovekovni srpski manastiri postali radionice u kojima su knjige rađale knjige",
   "readingTimeMinutes": 7,
   "year": 1250,
-  "isPlaceholder": true,
+  "dateLabel": "12–14. vek",
+  "timelinePosition": "12–14. vek",
+  "summary": "Manastirski skriptorijumi srednjovekovne Srbije — kako su monasi prepisivači, od kasnog 12. do 15. veka, stvorili hiljade rukopisa na ćirilici, od kojih su mnogi sačuvani do danas.",
+  "keyPeople": ["Sveti Sava", "Domentijan", "Teodosije Hilandarac"],
+  "keyPlaces": ["Hilandar", "Studenica", "Pećka patrijaršija", "Dečani", "Mileševa"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "U svetu bez štamparije svaka knjiga je bila pojedinačan predmet, načinjen rukom čoveka koji je nad njom proveo mesece, ponekad i godine. U srednjovekovnoj Srbiji takav posao obavljao se ponajviše u manastirskim skriptorijumima — radionicama u kojima su monasi prepisivači, sedeći za nagnutim drvenim pultovima, slovo po slovo prenosili tekst sa jedne pergamentske strane na drugu. Od kasnog 12. veka pa kroz čitava tri stoleća koja slede, ovi tihi prostori bili su glavni izvor pismenosti u srpskoj državi, a knjige koje su iz njih izlazile danas se čuvaju u Hilandaru, Pećkoj patrijaršiji, beogradskoj Narodnoj biblioteci, ruskim državnim zbirkama i mnogim drugim trezorima sveta."
+    },
+    {
+      "type": "paragraph",
+      "text": "Jezik tih knjiga bio je staroslovenski — književni jezik koji su za slovenske narode još u 9. veku oblikovali Ćirilo i Metodije. Vremenom je u srpskim prepisima dobio svoja obeležja, pa se govori o srpskoj redakciji staroslovenskog: stari oblici se zadržavaju, ali se u izgovor i pravopis polako uvlači živi govor okolnog stanovništva. Pisalo se ćirilicom, pismom koje je u Srbiji do 12. veka konačno potisnulo stariju glagoljicu. Glagoljica je još neko vreme tinjala u pojedinim primorskim sredinama, ali je u raškim manastirima ćirilica vrlo brzo postala jedino pismo knjige."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sadržaj rukopisa pratio je potrebe crkve i dvora. Najbrojnije su bile bogoslužbene knjige — jevanđelja, psaltiri, mineji, časoslovi, tipici — bez kojih nije mogao raditi nijedan manastir ni parohija. Pored njih, prepisivane su biblijske i patrističke knjige, dela grčkih crkvenih otaca prevedena na slovenski jezik. Posebno mesto imale su hagiografije, žitija svetitelja — i onih opštehrišćanskih i, sa razvojem srpske države, onih domaćih. Žitija Stefana Nemanje, Svetog Save i, kasnije, Stefana Dečanskog pisana su upravo da bi bila čitana u manastirima i prepisivana iz pokoljenja u pokoljenje."
+    },
+    {
+      "type": "paragraph",
+      "text": "Postojala je i istorijska literatura, donekle: prevodi vizantijskih hronika, ali i izvorni srpski tekstovi, među kojima se ističu „Životi kraljeva i arhiepiskopa srpskih” arhiepiskopa Danila i njegovih nastavljača. Pravna kultura takođe je počivala na rukopisnoj knjizi — Nomokanon Svetog Save, kasnije Sintagma Matije Vlastara prevedena s grčkog i, sredinom 14. veka, Dušanov zakonik. Medicinski i prirodnjački spisi javljaju se ređe, najčešće kao prevodi grčkih dela, i govore da pismeni svet srednjovekovne Srbije nije bio zatvoren samo u liturgiju, mada je liturgija ostala njegov najveći deo."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Velika središta i poznata imena"
+    },
+    {
+      "type": "paragraph",
+      "text": "Glavni centri prepisivanja menjali su se sa razvojem države. Hilandar, srpska zadužbina na Svetoj Gori, postao je središte knjige već u vreme Save i Stefana Nemanje, a zlatno doba doživeo je u 14. veku, pod Dušanom i njegovim naslednicima, kada se njegova biblioteka brojala u stotinama tomova. U Raškoj su Studenica i Žiča rano dobile sopstvene radionice; Mileševa je u 13. veku bila važno književno i bogoslužbeno središte, kao i Pećka patrijaršija od osnivanja autokefalne arhiepiskopije. Dečani su u 14. veku okupljali svoje pisce i prepisivače, a krajem srednjeg veka, već u doba Stefana Lazarevića, oformiće se i čuvena resavska škola, kojoj će biti posvećena posebna lekcija."
+    },
+    {
+      "type": "paragraph",
+      "text": "Imena samih prepisivača retko su zapisivana — posao je smatran skromnim, a monah je svoje delo radije pripisivao Bogu nego sebi. Ipak, neka imena su preživela. Iz kruga Svetog Save javljaju se prvi domaći pisci čije znanje pretpostavlja godine prepisivačkog rada. U 13. veku monah Domentijan, učenik Savin, napisao je opširna žitija Save i Simeona; nešto kasnije Teodosije Hilandarac, takođe hilandarski monah, dao je tim istim životima svoj književni oblik, mekši i razuđeniji, koji će u potonjim vekovima više čitati od Domentijanovog. Krajem 14. i početkom 15. veka u Srbiju će iz Bugarske doći Konstantin Filozof, učeni gramatičar koji će uobličiti jezičku reformu resavske škole."
+    },
+    {
+      "type": "paragraph",
+      "text": "Knjiga nije bila samo tekst — bila je i predmet velike vrednosti. Mnogi rukopisi ukrašavani su bogato: na početku poglavlja stajala su slikovita inicijalna slova, ispletena od životinjskih i biljnih oblika; pred svakim jevanđeljem ili psalmom dolazila je ornamentalna zaglavna traka; ponekad i čitava minijatura sa likom evanđeliste ili svetitelja. Povezi su mogli biti od kože, ali i okovani srebrom, pozlaćeni, sa umetnutim kamenjem. Takva knjiga bila je istovremeno bogoslužbeno sredstvo i dragocenost koja se čuvala u trezoru manastira."
+    },
+    {
+      "type": "paragraph",
+      "text": "Najpoznatiji preživeli primer ove kulture jeste Miroslavljevo jevanđelje, napisano krajem 12. veka za humskog kneza Miroslava, brata Stefana Nemanje. To je najstariji sačuvani srpski ćirilični rukopis i jedno od remek-dela srednjovekovne knjižne umetnosti uopšte — sa preko tri stotine raskošno oslikanih inicijala u kojima se prepliću ljudske figure, životinje i biljni ukrasi. Danas se čuva u beogradskom Narodnom muzeju i upisano je u Uneskov registar „Pamćenja sveta”. Već iz tog jednog primera vidi se koliko je rano srpska knjiga dostigla zrelost i kao tekst i kao slika."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pošteno je reći da ova lekcija samo otvara vrata — pojedinačni rukopisi, najveći pisci i kasniji razvoj resavske škole zaslužuju svoje zasebne dane. Ali već sada vredi zapamtiti glavnu stvar: srednjovekovna Srbija nije bila usmena, niti je živela samo od tuđih knjiga. Imala je sopstvene prevode, sopstvena originalna dela i sopstvene radionice u kojima su one nastajale. U tišini manastirskih ćelija, pod svetlošću sveće i uz škripu trske po pergamentu, sastavljana je pismena kultura koja je trajala duže od bilo koje srpske dinastije."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

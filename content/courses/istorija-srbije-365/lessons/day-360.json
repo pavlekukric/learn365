@@ -6,13 +6,53 @@
   "dayNumber": 360,
   "order": 11,
   "title": "Kultura i nauka savremene Srbije",
+  "subtitle": "Vredna kulturna i naučna scena posle 2000. godine — između starih institucija, novih festivala i odliva mozgova",
   "readingTimeMinutes": 7,
   "year": 2020,
-  "isPlaceholder": true,
+  "dateLabel": "savremeno doba",
+  "timelinePosition": "savremeno doba",
+  "summary": "Srpska kultura, nauka i sport posle 2000. godine: stare institucije i novi festivali, književnost, film i muzika, vrhunski sportisti i nauka pod pritiskom odliva mozgova.",
+  "keyPeople": ["Milorad Pavić", "David Albahari", "Dragan Velikić", "Emir Kusturica", "Novak Đoković"],
+  "keyPlaces": ["Beograd", "Novi Sad", "SANU", "Narodni muzej Srbije", "Petrovaradinska tvrđava"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Posle političkih lomova s kraja devedesetih i posle 2000. godine, kulturni i naučni život Srbije nastavio je da postoji u dva paralelna ritma. Jedan ritam pripadao je starim, ozbiljnim institucijama koje su stogodišnju tradiciju nastavile pod znatno težim materijalnim uslovima nego ranije. Drugi ritam dolazio je iz novih scena — festivala, malih izdavača, nezavisnih pozorišta, sportskih reprezentacija — koje su, često bez velikog državnog oslonca, uspevale da Srbiju iznova povežu sa svetom. Slika koja se iz toga dobija nije ni trijumfalna ni porazna; pre bi se moglo reći da je to slika žive, ali napregnute kulture, koja se održava više zahvaljujući upornosti pojedinaca i ustanova nego stabilnoj politici."
+    },
+    {
+      "type": "paragraph",
+      "text": "Stare institucije zadržale su simboličku težinu. Srpska akademija nauka i umetnosti, osnovana još u 19. veku, ostala je krovno mesto za nauku i umetnost, sa svojim odeljenjima, izdanjima i bibliotekom. Matica srpska u Novom Sadu, najstarija srpska kulturna ustanova, nastavila je da neguje jezik, leksikografiju i izučavanje književnosti. Narodna biblioteka Srbije, izgrađena posle Drugog svetskog rata na mestu nekadašnje, u bombardovanju 1941. uništene biblioteke, čuva nacionalnu zbirku i opslužuje široku istraživačku publiku. Beogradska filharmonija, sa novim repertoarom i gostovanjima, postala je u 21. veku jedan od najprepoznatljivijih kulturnih izvoznih artikala zemlje."
+    },
+    {
+      "type": "paragraph",
+      "text": "Posebna priča vezana je za dva muzeja u Beogradu koja su godinama bila zatvorena zbog rekonstrukcije. Muzej savremene umetnosti na ušću Save u Dunav ponovo je otvoren 2017. godine, posle više od decenije pauze, i vratio publici svoju zbirku jugoslovenske moderne umetnosti. Narodni muzej Srbije na Trgu republike svečano je otvoren 2018, posle gotovo petnaest godina rekonstrukcije; njegove stalne postavke od praistorije do moderne umetnosti ponovo su postale dostupne. Oba otvaranja imala su značaj veći od samih izložbi: bila su znak da je javni prostor kulture, ma koliko sporo, ipak moguće obnoviti."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Književnost, film, muzika i scena"
+    },
+    {
+      "type": "paragraph",
+      "text": "Književnost je u ovom razdoblju imala i svoje velike odlaske i svoje žive glasove. Milorad Pavić, autor „Hazarskog rečnika” i jedan od najprevođenijih srpskih pisaca uopšte, preminuo je 2009. godine, ostavivši za sobom delo koje se i dalje čita po svetu. Pisali su i nastavili da pišu David Albahari, Dragan Velikić, Svetislav Basara, Vladislav Bajac, Vida Ognjenović, Goran Petrović i drugi — generacija koja je rat preživela pišući, i koja je posle 2000. nastavila razgovor sa evropskom prozom kao ravnopravan sagovornik. Uz njih su rasli mlađi autori i nove izdavačke kuće, dok su sajmovi knjiga u Beogradu i Novom Sadu ostali važno mesto okupljanja čitalačke publike."
+    },
+    {
+      "type": "paragraph",
+      "text": "Film je nastavio tradiciju koja je u jugoslovensko doba imala svetski odjek. Emir Kusturica, sa starijim nagrađivanim filmovima i kasnijim projektima u Mokroj Gori, ostao je najpoznatije ime; Goran Paskaljević je do svoje smrti 2020. snimao filmove o društvenim ranama tranzicije; Srđan Dragojević je „Lepim selima” i kasnijim filmovima oblikovao popularno sećanje na devedesete; Mila Turajlić je dokumentarcima o Jugoslaviji i hladnoratovskim arhivima Srbiju vratila na velike svetske festivale. FEST, beogradski filmski festival osnovan još 1971. godine, ostao je glavna godišnja smotra svetskog filma za domaću publiku."
+    },
+    {
+      "type": "paragraph",
+      "text": "Muzička scena bila je jednako šarolika. Klasična tradicija, čiji se koren često vezuje za delo Stevana Mokranjca s kraja 19. veka, nastavljena je preko Beogradske filharmonije, opere Narodnog pozorišta i niza horova i kamernih ansambala. Popularna i rok muzika imale su svoje publike i svoja okupljanja. Najveći novi simbol postao je festival EXIT, koji se od 2000. godine održava na Petrovaradinskoj tvrđavi iznad Novog Sada i koji je u jednom trenutku postao jedan od najpoznatijih muzičkih festivala u jugoistočnoj Evropi. U Beogradu su BELEF, BITEF — pozorišni festival međunarodnog ugleda osnovan još 1967 — i druge smotre nastavljale da grad povezuju sa savremenom umetničkom scenom; u Novom Sadu i Vršcu Sterijino pozorje ostalo je glavni godišnji pregled domaće drame."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sport je u tom razdoblju, na svoj način, postao oblik kulture i meke moći. Tenis je sa Novakom Đokovićem, čiji je uspon počeo sredinom dvehiljaditih, doneo Srbiji niz Grend slem titula i prvih mesta na ATP listi; Ana Ivanović i Jelena Janković bile su prve teniserke sveta. Vaterpolisti su nekoliko puta osvajali olimpijska i svetska zlata, košarkaši i košarkašice ulazili u finala evropskih i svetskih takmičenja, a odbojkašice postajale olimpijske šampionke 2016. godine. Ti rezultati delovali su nesrazmerno veliki za zemlju te veličine i postali su važan deo nacionalnog samopouzdanja u inače teškim godinama."
+    },
+    {
+      "type": "paragraph",
+      "text": "Nauka je u Srbiji 21. veka zadržala dobar glas, ali pod stalnim pritiskom. Matematika je nastavila staru tradiciju, sa beogradskim i novosadskim matematičkim školama; fizičari, hemičari i biotehnolozi učestvovali su u međunarodnim projektima i objavljivali u vodećim časopisima. Istovremeno, plate u istraživanju i visokom obrazovanju ostajale su niske, a odlazak mladih naučnika, lekara i inženjera u inostranstvo — takozvani odliv mozgova — postao je jedan od najozbiljnijih dugoročnih problema. Tačan obim tog odlaska različito se procenjuje, ali da je reč o stalnom toku, ne sporadičnoj pojavi, slažu se i istraživači i sami profesori. Ono što je u svemu tome jasno jeste da je kultura i nauka savremene Srbije scena vredna i živa — ali da svoju vitalnost duguje koliko institucijama, toliko i tihoj upornosti ljudi koji su odlučili da ostanu."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

@@ -6,13 +6,57 @@
   "dayNumber": 13,
   "order": 2,
   "title": "Ilirsko društvo i verovanja",
+  "subtitle": "Kako su Iliri zaista živeli — gradine, ratnici, metal i bogovi o kojima malo znamo",
   "readingTimeMinutes": 7,
   "year": -400,
-  "isPlaceholder": true,
+  "dateLabel": "gvozdeno doba",
+  "timelinePosition": "~400. p. n. e.",
+  "summary": "Iza imena „Iliri” krije se mreža plemena gvozdenog doba — ratnička aristokratija, stočari i ratari, utvrđena brda i fino kovani metal. Njihova verovanja možemo da slutimo, ali ne i da pouzdano čitamo.",
+  "keyPeople": [],
+  "keyPlaces": ["zapadni i centralni Balkan", "Glasinac", "jadranska obala"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Kada antički pisci pominju Ilire, lako je pomisliti na jedan narod sa jednom prestonicom i jednim vladarom. Stvarnost je bila drugačija. „Iliri” je, najpre, zbirno ime koje su Grci i Rimljani davali raznorodnim plemenima zapadnog i centralnog Balkana — Daorsima, Ardijejcima, Dalmatima, Autarijatima i mnogim drugima. Među njima nije bilo jedinstvene države niti zajedničkog kralja; bilo je rodova, plemenskih saveza, svetilišta i puteva razmene koji su povezivali brda od Jadrana do Drine i dalje na istok. Razumeti ilirsko društvo znači, pre svega, prihvatiti tu raznolikost."
+    },
+    {
+      "type": "paragraph",
+      "text": "Na vrhu te zajednice stajala je ratnička aristokratija. To su bili ljudi koji su nosili mač i koplje, sahranjivani sa oružjem i nakitom, sposobni da okupe pratnju i da od svojih suseda traže danak ili savezništvo. Pod njima je, daleko brojnija, živela osnova društva — ratari u dolinama i kotlinama, i stočari koji su sa stadima ovaca i koza krstarili planinskim pašnjacima. Pastoralizam i poljoprivreda bili su dve noge na kojima je ilirska privreda stajala: žito i mahunarke iz polja, sir i meso sa visova, lan i vuna za odeću. Ova podela nije bila oštra — isto domaćinstvo je često radilo i jedno i drugo, prateći ritam godišnjih doba i premeštajući stoku između nizije i planine."
+    },
+    {
+      "type": "paragraph",
+      "text": "Najupečatljiviji trag njihovog načina života ostao je u krajoliku. Gradine — utvrđena naselja na brdima, opasana suvozidnim bedemima — i danas se prepoznaju kao kamene kape iznad reka i prevoja. One su istovremeno bile sklonište i izjava: znak da neko ovde gospodari, da ima ljude i snagu da podigne zid. Neke su bile male, tek za jedan rod, druge prostrane, sa unutrašnjim podelama, kućama i radionicama. Iz gradina se kontrolisalo dolazak i odlazak, stoka se uvodila u zaklon kada bi pretnja došla, a sa njih su se i pratili putevi po kojima su tekli karavani sa solju, metalom i jantarom."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Metal, trgovina i znaci umeća"
+    },
+    {
+      "type": "paragraph",
+      "text": "Iliri su bili izvrsni metalci. Njihove radionice kovale su oružje, alat i nakit prepoznatljivog stila, koji se danas izlaže u muzejima od Beograda do Sarajeva i Tirane. Najpoznatiji predmet je takozvani „ilirski šlem” — kaciga strogih linija sa istaknutim grebenima i otvorom u obliku slova „T”, koja se proizvodila vekovima u različitim varijantama. Iako naziv potiče iz moderne arheologije, oblik je dovoljno raširen po ilirskom prostoru da s pravom nosi to ime. Uz kacige, kovani su mačevi, koplja, fibule koje su pridržavale ogrtače, narukvice, pojasevi i raskošne pektoralne ogrlice. Mnogi od ovih predmeta nisu bili samo oprema; bili su znak položaja i pripadnosti."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ovaj svet nije živeo izolovano. Sa severa, dugim putevima od baltičkih obala, do ilirskih radionica stizao je jantar — topla smola koja se cenila kao poludragulj i ugrađivala u ogrlice i fibule. Sa juga, preko grčkih kolonija na Jadranu i Egeju, dolazile su rafinirane stvari mediteranske civilizacije: oslikana grčka keramika, vino u amforama, bronzani sudovi, a kasnije i kovani novac. Iliri su zauzvrat slali metal, robove i stoku, a, kako sami Grci kažu, duž obale su plovili gusarski koliko i trgovački. Iz tih razmena progovara društvo istovremeno ukorenjeno u svom brdu i otvoreno prema dalekim svetovima."
+    },
+    {
+      "type": "paragraph",
+      "text": "Posebno mesto u ovoj slici zauzima glasinačka kultura, nazvana po Glasinačkoj visoravni u današnjoj istočnoj Bosni i Hercegovini, sa odjecima i u susednim oblastima Srbije i Crne Gore. Vekovima, od kasnog bronzanog do gvozdenog doba, ovde su podizani brojni grobni tumuli — humke od zemlje i kamena pod kojima su sahranjivani ratnici i prvaci sa oružjem, nakitom i konjskom opremom. Glasinac nije bio jedna država; bio je dugotrajni krajolik moći u kojem se vidi koliko duboko materijalna kultura srodna ilirskoj seže u ovaj deo Balkana."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sa verovanjima je situacija mnogo nesigurnija. Iliri nisu ostavili pismo; sve što imamo su predmeti koje su zakopali sa svojim mrtvima i kratke, često neprijateljske beleške grčkih i rimskih autora. Zato sve što o njihovoj veri kažemo moramo da kažemo oprezno. Ne znamo pouzdano čak ni imena većine njihovih bogova. Ono što arheologija dopušta da se nasluti jeste nešto nalik prirodnoj religiji — kult sunca i sila prirode, sa simbolima koji se ponavljaju na metalu: solarni krugovi, koncentrični diskovi i, naročito, zmija, koja se javlja na fibulama i privescima i verovatno je nosila zaštitnu, htonsku ulogu."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sahrane pod tumulima govore o veri u nastavak postojanja. Pokojnik je opremljen oružjem, nakitom, ponekad hranom i posuđem — kao da kreće na put sa kojeg se ne vraća, ali za koji mu treba sve što je u životu cenio. Tek u rimsko doba, na nadgrobnim spomenicima i votivnim oltarima podignutim u ovim krajevima, pojavljuju se imena lokalnih božanstava: Medauro, koji se vezuje za Risan i Skadar, Bindus, gospodar voda kod japodskih plemena, i nekoliko bogiljskih „pratilja” koje se javljaju uz veće rimske bogove. Po jednom tumačenju, iza tih latinskih natpisa stoje stara ilirska božanstva koja su, pod novom upravom, sačuvala svoja imena. Po drugom, slika je složenija i pomešana sa rimskim i keltskim slojem. Izvori se ne slažu, a tumačenja se menjaju kako se nalazi pojavljuju."
+    },
+    {
+      "type": "paragraph",
+      "text": "Otuda jedna mirna, ali važna napomena. O ilirskom društvu možemo da govorimo prilično konkretno — vidimo njihove gradine, njihovo oružje, njihove grobove i puteve razmene. O njihovoj duši govorimo samo posredno, kroz tragove na metalu i tuđe reči pisane sa strane. Ostaje utisak društva koje je vekovima živelo svojim ritmom — između planine i polja, između rodovskog poretka i ratničkog plemstva — sve dok mu se, sa juga i istoka, nisu približili novi susedi čije će reči konačno dospeti i do nas."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

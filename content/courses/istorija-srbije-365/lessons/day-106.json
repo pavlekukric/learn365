@@ -6,13 +6,49 @@
   "dayNumber": 106,
   "order": 1,
   "title": "Srpske zemlje posle carstva",
+  "subtitle": "Posle smrti cara Uroša 1371. srpski svet se rasipa u oblasti — Lazar, Vuk, Marko, Balšići, Tvrtko — pred Osmanlijama.",
   "readingTimeMinutes": 7,
   "year": 1380,
-  "isPlaceholder": true,
+  "dateLabel": "1371–1389.",
+  "timelinePosition": "1371–1389.",
+  "summary": "Posle smrti cara Uroša V krajem 1371. srpske zemlje raspadaju se u patchwork samostalnih oblasti — Lazar u Pomoravlju, Vuk Branković na Kosovu, Balšići u Zeti, Marko u Prilepu, Tvrtko u Bosni — dok sa juga raste osmanski pritisak.",
+  "keyPeople": ["Lazar Hrebeljanović", "Vuk Branković", "Tvrtko I", "Balšići", "Marko Mrnjavčević"],
+  "keyPlaces": [],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Kada je u decembru 1371. godine umro car Uroš V, poslednji muški izdanak loze Nemanjića na carskom prestolu, srpski svet nije imao novog vladara koji bi nasledstvo prirodno preuzeo. Već su pre toga, na Marici u septembru iste godine, poginuli kralj Vukašin i despot Jovan Uglješa, dvojica Mrnjavčevića koji su poslednji pokušali da povedu jedinstvenu vojsku na jug. Sa Urošem se ugasila i sama ideja jednog cara nad svima. Carstvo, koje je Dušan svega dvadesetak godina ranije proglasio sa toliko sjaja, prestalo je da postoji kao jedna država. Ono što je ostalo bila je mreža oblasti — krupnih, srednjih i sasvim malih — od kojih je svaka imala svog gospodara, svoje granice, svoju vojsku i svoju računicu."
+    },
+    {
+      "type": "paragraph",
+      "text": "U središnjoj srpskoj zemlji, na širokoj ravnici Velike i Zapadne Morave, postepeno se izdvajao knez Lazar Hrebeljanović. Njegovo sedište bilo je u Kruševcu, gradu koji je on sam podigao kao prestonicu, a vlast se širila preko slivova Morave sve do Rudnika i Braničeva. Lazar nije nosio carsku ni kraljevsku titulu — ostao je knez, što je u toj generaciji bila skromna, ali jasna oznaka prvog među vlastelom. Upravo ta umerenost u titulisanju, uz strpljivu politiku braka i savezništva, učiniće ga vremenom najuglednijim među srpskim oblasnim gospodarima i nosiocem ideje da se, kad dođe trenutak, Osmanlijama treba suprotstaviti otvorenom borbom. Lazaru i njegovoj ulozi posvećeni su naredni dani ove knjige."
+    },
+    {
+      "type": "paragraph",
+      "text": "Istočno i južno od Lazareve oblasti, preko Kopaonika, prostirale su se zemlje Vuka Brankovića. On je držao veliki deo Kosova i delove Metohije, sa Prištinom kao važnim središtem i sa rudnikom Novo Brdo kao glavnim izvorom prihoda. Vuk je bio Lazarev zet — oženjen kneževom kćerkom Marom — i njihova saradnja dugo je bila stub srpske politike. U Zeti, na obalama Skadarskog jezera i niz primorje, vladali su Balšići, dinastija koja se izdigla u toj generaciji i koja je istovremeno gledala u dva pravca: prema Mlecima i jadranskim gradovima i prema unutrašnjim srpskim sporovima. Iz njihove senke, u brdima nad Zetom, polako su rasli Crnojevići, koji će svoje vreme dočekati tek u sledećem stoleću."
+    },
+    {
+      "type": "paragraph",
+      "text": "Na jugu, u Prilepu i okolnim oblastima, sedeo je Marko Mrnjavčević, Vukašinov sin, kralj po nasleđu ali bez kraljevstva u svakodnevnom smislu. Posle Marice on je vrlo brzo prihvatio osmansko vrhovništvo i ostao vazal sve do smrti 1395. godine. Njegova računica — odbrana onoga što se još može odbraniti pristajanjem na manje zlo — bila je suprotna Lazarevoj, ali u svom vremenu sasvim razumljiva. Na istoku, u oblasti Velbužda i Strumice, slično su postupila braća Dejanovići, Konstantin i Jovan Dragaš, takođe rani osmanski vazali. U Bosni je, opet, kralj Tvrtko I Kotromanić 1377. godine krunisan, po porodičnoj vezi sa Nemanjićima, „za kralja Srba, Bosne i Primorja”, čime je formalno preuzeo deo nemanjićkog nasleđa i postao važan, ali geografski udaljen igrač u srpskom svetu."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Oblast, manastir, rudnik"
+    },
+    {
+      "type": "paragraph",
+      "text": "Politička karta, dakle, jeste bila razlomljena, ali svakodnevni život nije se raspao u istoj meri. Trgovina sa Dubrovnikom išla je dalje uobičajenim putevima; dubrovački trgovci držali su kolonije u Novom Brdu, Rudniku, Prištini i Prizrenu, vodili knjige, posredovali u izvozu srebra i u uvozu tkanina. Rudarstvo je upravo u ovim decenijama dostiglo svoj vrhunac. Novo Brdo, sa rudom srebra pomešanog sa zlatom, bilo je jedno od najbogatijih nalazišta u Evropi tog doba i punilo je riznice Brankovića, a kasnije i Lazarevih naslednika. Sela su sejala i kosila, sajmovi su se držali, putnici su prolazili. Osetna razlika u odnosu na Dušanovo vreme nije bila u tome što je narod osiromašio preko noći, nego u tome što više nije postojala jedna gornja vlast koja bi sve to čuvala i sudila."
+    },
+    {
+      "type": "paragraph",
+      "text": "Crkva je, kao i u ranijim raspadima, ostala najtrajniji vez. Manastiri su nastavili da rade — prepisivačke radionice po Svetoj Gori, po Studenici, Dečanima i Pećkoj patrijaršiji nisu se zaustavile. Štaviše, u Lazarevoj oblasti rađala se nova umetnička škola. Crkva Lazarica u Kruševcu, podignuta verovatno krajem sedamdesetih godina XIV veka, otvorila je niz zadužbina iz kojih će se razviti takozvana moravska škola — prepoznatljiva po trolisnoj osnovi, kamenoj plastici i tankim, izduženim figurama u živopisu. To što se umetnost ovog stila razvija baš onda kada se politički svet osipa nije slučajnost: knezovi su gradili zadužbine i da bi pred Bogom i pred narodom potvrdili da su pravi naslednici nemanjićkog reda."
+    },
+    {
+      "type": "paragraph",
+      "text": "Iznad svega toga, sa juga, raslo je nešto novo. Osmanlije, koje su posle Marice prešle u stalno napredovanje na Balkanu, zauzele su Sofiju 1385. i Niš 1386. i dolazile sve bliže središtu srpskih zemalja. Lazar i Tvrtko su 1386. ili 1387. godine kod Pločnika porazili jedan osmanski odred, što je bila ohrabrujuća, ali sama po sebi nedovoljna pobeda. Pravo pitanje nije više bilo da li će sukob biti odlučen na velikom polju, nego kada. Razjedinjenost srpskih oblasti činila je svaki dogovoreni otpor težim nego što bi inače bio: dok jedni gospodari biraju borbu, drugi su već vazali, treći gledaju u Jadran. Ono što sledeće decenije čini posebnim jeste upravo taj spoj — opadajuća politička snaga, rastući spoljni pritisak i, uprkos svemu, neugašen kulturni i ekonomski život jedne zemlje koja zna da se njena sudbina odlučuje vrlo brzo."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

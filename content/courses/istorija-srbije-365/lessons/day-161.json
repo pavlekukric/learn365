@@ -6,13 +6,49 @@
   "dayNumber": 161,
   "order": 11,
   "title": "Hajduci",
+  "subtitle": "Naoružane čete koje su, između proleća i jeseni, krstarile balkanskim šumama — između stvarnog otpora i obične pljačke",
   "readingTimeMinutes": 7,
   "year": 1650,
-  "isPlaceholder": true,
+  "dateLabel": "16–18. vek",
+  "timelinePosition": "16–18. vek",
+  "summary": "Hajduci kao trajna pojava osmanskog Balkana: ko su bili, zašto su odlazili u šumu, kako su se organizovali i šta su zaista značili — između narodnog branioca i razbojnika.",
+  "keyPeople": ["Starina Novak"],
+  "keyPlaces": [],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Od kasnog šesnaestog veka, pa sve do početka devetnaestog, balkanske šume i planine nisu bile prazne. U njima su, naročito od proleća do jeseni, krstarile naoružane čete hrišćanskih ljudi koje su Osmanlije zvale razbojnicima, a sopstveni narod — sve češće — hajducima. Bili su to ljudi izvan zakona, ali ne sasvim izvan društva: vezani za određena sela, manastire i jatake, sa svojim pravilima, svojim vođama i svojim godišnjim ritmom. Hajdučija nije bila ni puki banditizam ni organizovani ustanak; bila je nešto između, treća pojava sa kojom je osmanska vlast morala da računa kao sa stalnim šumom u pozadini."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sama reč „hajduk” nije domaća. Dolazi, najverovatnije, od mađarskog hajdú, koje je u šesnaestom veku označavalo lutajuće vojnike i goniče stoke u Panoniji, a do balkanskih jezika je stigla i preko osmanske upotrebe (haydud, haydut), gde je već značila odmetnika i razbojnika. Na srpskom, bugarskom i grčkom jeziku reč se za jedan-dva veka ustalila kao naziv za naoružanog hrišćanina koji je ostavio kuću i zanimanje i otišao u goru. Sastav četa bio je mešovit i prilično otvoren: Srbi, Bugari, Grci, Albanci, povremeno i muslimanski odmetnici koji su iz svojih razloga ratovali sa lokalnom vlašću. Granice etniciteta bile su, na terenu, manje važne od granica šume i druma."
+    },
+    {
+      "type": "paragraph",
+      "text": "Razlozi odlaska u hajduke bili su sasvim raznoliki i istoričari su tu obazrivi sa jednoobraznim objašnjenjima. Jedan deo ljudi pošao je u goru zbog stvarnog ili doživljenog nasilja osmanskih službenika — nepravednih poreza, otete stoke, ubijenog rođaka, oduzete zemlje. Drugi su bežali od krvne osvete unutar sopstvenih sela, od dugova ili od presude lokalnog kadije. Treći su, treba reći otvoreno, odlazili zato što je hajdučki život, koliko god opasan, nudio brzu zaradu i izvesnu slobodu. Sve to se mešalo sa starijom hrišćanskom predstavom o otporu nevernom gospodaru, koja je svakom činu — bilo da je u pitanju zaseda turskom kuriru ili pljačka putnika — davala širi smisao."
+    },
+    {
+      "type": "paragraph",
+      "text": "Godina je u hajdučkom svetu bila jasno podeljena. „Hajdučko vreme” počinjalo je s Đurđevdanom, kada se planina zazelenela i šuma ponovo postala sklonište, a završavalo se negde oko Mitrovdana, kada bi prvi sneg i gola grana izložili četu pogledu. Preko zime hajduci su silazili u takozvani jatak ili log — kod sigurnih domaćina u selima, ponekad u udaljenim manastirima, ponekad kod rođaka u krajevima izvan domašaja lokalnog age. Bez tih sezonskih utočišta hajdučija ne bi opstala. To je ujedno razlog zašto su osmanske vlasti, kada bi krenule u temeljniju potragu, najpre udarale na sela i ljude osumnjičene za jataštvo."
+    },
+    {
+      "type": "paragraph",
+      "text": "Čete su brojale od desetak do pedesetak ljudi, retko više. Na čelu je stajao harambaša — vođa koji se birao po snazi, pameti i ratničkom iskustvu, a ne po nasleđu. Pored njega, posebno mesto imao je barjaktar, koji je nosio četni barjak; gubitak barjaka smatrao se sramotom teškom kao gubitak vođe. Unutar čete vladala su stroga pravila: zakletva na vernost, podela plena po unapred poznatom ključu, zabrana napuštanja drugova u boju, kazne za izdaju. Naoružanje je bilo ono što se moglo nabaviti — kremenjače, kubure, dugi noževi i jatagani, ponekad sablje oduzete u zasedi. Sve to nije bila vojska, ali nije bila ni rulja."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Između junaka i razbojnika"
+    },
+    {
+      "type": "paragraph",
+      "text": "Odnos seljaka prema hajducima bio je složen i zavisio je od kraja, godine i samog harambaše. Mnoga sela su ih pomagala — hranom, vestima, prenoćištem — verujući da su jedina sila koja brani od najgrubljih osmanskih ispada. Druga sela su od njih i sama trpela: hajduk koji je ostao bez hrane teško je razlikovao prijatelja od neprijatelja, a četa koja je htela da kazni jatake nekog age umela je da spali i nedužnu kuću. Putnici, naročito hrišćanski trgovci i karavandžije, bili su jednako u opasnosti kao osmanski službenici; među opljačkanima i pobijenima bilo je i ljudi koji sa vlašću nisu imali ništa zajedničko. Crkva je, sa svoje strane, hajduke uglavnom trpela kao branioce vere, mada su episkopi javno osuđivali razbojništvo; pojedini manastiri pružali su im sklonište i bili mesto na kome se polagala hajdučka zakletva. Tako se ista pojava istovremeno gledala kao bratstvo branilaca i kao bratstvo otimača."
+    },
+    {
+      "type": "paragraph",
+      "text": "Iz tog dvojnog sveta narodna pesma izdvojila je nekolicinu imena i pretvorila ih u tipove: Starina Novak iz romanijskih i transilvanijskih predanja, Stojan Janković iz dalmatinskog zaleđa, kasniji Hajduk Veljko Petrović i mnogi drugi. Hajdučke pesme idealizovale su goru, družinu i harambašu, a izostavljale opljačkana sela i pobijene saputnike. Istoriji ostaje da kaže obe stvari. Hajduci jesu bili stvarna pojava sa stvarnim moralnim senkama, ali su istovremeno, vek za vekom, održavali tanku, ali neprekidnu nit naoružanog hrišćanskog otpora. Kada je 1804. Karađorđe digao Prvi ustanak, među njegovim prvim ljudima bili su upravo bivši hajduci i njihovi sinovi — ljudi koji su znali šumu, oružje i četovanje. Bez tog dugog, mutnog hajdučkog veka, brza vojnička organizacija ustaničke Srbije teško bi se mogla zamisliti."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

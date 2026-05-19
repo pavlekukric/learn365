@@ -6,13 +6,53 @@
   "dayNumber": 231,
   "order": 1,
   "title": "Ustavobraniteljski režim",
+  "subtitle": "Šesnaest godina birokratske oligarhije koja je, bez parlamenta, izgradila prve trajne ustanove moderne Srbije",
   "readingTimeMinutes": 7,
   "year": 1842,
-  "isPlaceholder": true,
+  "dateLabel": "1842–1858.",
+  "timelinePosition": "1842–1858.",
+  "summary": "Period vladavine ustavobranitelja: knez Aleksandar Karađorđević nominalno na prestolu, ali stvarnu vlast drži Sovjet i činovnička oligarhija oko Vučića, Petronijevića i Garašanina. Iako bez političkih sloboda, ovih šesnaest godina daju Srbiji Građanski zakonik, organizovano sudstvo, policiju, prve škole višeg stepena i temelje moderne državne uprave.",
+  "keyPeople": ["Aleksandar Karađorđević", "Toma Vučić Perišić", "Avram Petronijević", "Ilija Garašanin", "Stojan Simić"],
+  "keyPlaces": ["Beograd", "Kragujevac", "Carigrad", "Beč"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Kada je u jesen 1842. godine, posle nasilnog svrgavanja kneza Mihaila Obrenovića, Svetopetarska skupština u Topčideru izabrala Aleksandra Karađorđevića za novog kneza, mnogi su mislili da Srbija dobija samo novog vladara. U stvari, dobijala je novi tip države. Ljudi koji su izveli prevrat — Toma Vučić Perišić i Avram Petronijević, a uskoro i mlađi Ilija Garašanin, Stojan Simić i drugi — nazivani su ustavobraniteljima zato što su, još od sukoba sa knezom Milošem, branili Ustav iz 1838. godine i ograničenja kneževe lične vlasti. Sledećih šesnaest godina, sve do Svetoandrejske skupštine u decembru 1858, oni će vladati Srbijom — ne kao stranka u modernom smislu, već kao uska oligarhija visokih činovnika okupljena oko Sovjeta."
+    },
+    {
+      "type": "paragraph",
+      "text": "Politički okvir bio je dvosmislen i upravo iz te dvosmislenosti izvirala je njegova snaga. Knez Aleksandar formalno je bio na čelu države, ali stvarno odlučivanje preneto je na Sovjet — telo koje je po Ustavu iz 1838. imalo svega sedamnaest članova koje knez nije mogao smenjivati bez saglasnosti Porte. To je značilo da je Sovjet, jednom postavljen, postao gotovo nepokretan i samostalan u odnosu na vladara. Ustavobranitelji su upravo u Sovjetu imali većinu, i otuda su, ne ulazeći u sukob sa knezom direktno, mogli da vode politiku po svojoj meri. Knez Aleksandar pokušavao je s vremena na vreme da postavi sopstvene ljude i da nametne svoju volju u spoljnoj politici, ali je u tim ogledima bio uglavnom nadigran."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Šta je režim izgradio"
+    },
+    {
+      "type": "paragraph",
+      "text": "Učinak ustavobranitelja, gledano iz perspektive ustanova, bio je značajan. Godine 1844. donet je Građanski zakonik, koji je u suštini bio prevod austrijskog Allgemeines bürgerliches Gesetzbuch iz 1811, prilagođen srpskim prilikama uz neke izmene u oblasti porodičnog i naslednog prava, posebno zbog zadruge. Bio je to prvi moderni kodeks građanskog prava na Balkanu i, što je još važnije, ostao je na snazi sve do sredine 20. veka. Reorganizovano je sudstvo na tri stepena, uvedene su redovne sudske procedure, a samovolja vlasti — koja je u Miloševo vreme bila pravilo — počela je polako da se ograničava pisanim zakonom."
+    },
+    {
+      "type": "paragraph",
+      "text": "U isto vreme uređivana je državna uprava. Osnovana je organizovana policija — pandurija i žandarmerija — sa Ministarstvom unutrašnjih dela kao njenim centrom. Garašanin, koji je tim ministarstvom dugo upravljao, postao je najmoćniji čovek režima upravo zato što je držao polugu unutrašnje bezbednosti. Reformisan je poreski sistem: umesto dažbina koje su se naplaćivale na stari, balkanski način, uvođen je porez prema imovini i prihodu, sa boljim evidencijama i kanalisanim tokom novca u državnu kasu. Građene su prve moderne pošte, prvi tvrdi putevi, prvi telegrafski vodovi koji su Beograd povezivali sa unutrašnjošću zemlje."
+    },
+    {
+      "type": "paragraph",
+      "text": "Posebno je važna prosveta. Licej, osnovan još 1838. u Kragujevcu, premešten je 1841. u Beograd i polako se širio i pretvarao u pravu visoku školu — kasnijeg pretka Velike škole i Beogradskog univerziteta. Otvarane su gimnazije, slati su mladi ljudi na studije u Beč, Peštu, Berlin i Pariz. Iz tih đačkih klupa izaći će sledeća srpska generacija, ona koja će šezdesetih i sedamdesetih godina i sama postati kritičar ustavobraniteljskog poretka. Birokratska država — broj činovnika višestruko je narastao u ovih šesnaest godina — postala je prvi pravi srednji sloj nove Srbije."
+    },
+    {
+      "type": "paragraph",
+      "text": "Spoljnopolitički, ustavobranitelji su menjali pravac koji je Srbija dotad sledila. Umesto oslonca na Rusiju, koji su negovali Obrenovići, sada se traži ravnoteža: priznaje se vrhovništvo Porte, ali se diplomatski mostovi grade pre svega prema Beču. Iz tog miljea izrasta i Garašaninovo Načertanije iz 1844, tajni program o budućnosti srpske države i jugoslovenskom prostoru, kome će biti posvećena posebna lekcija. Dovoljno je ovde reći da je Načertanije ideja jedne uske grupe ljudi u režimu, a ne otvorena državna politika tog vremena."
+    },
+    {
+      "type": "paragraph",
+      "text": "Slabosti su, međutim, bile podjednako vidljive. Režim je ograničavao političke slobode, progonio protivnike — pre svih pristalice Obrenovića — i u nekoliko navrata posezao za hapšenjima i progonima. Sloboda štampe praktično nije postojala. Sovjet je bio zatvoreno telo, narodne skupštine sazivane su samo kad je to bilo neophodno za legitimaciju već donetih odluka. Unutar samog vrha vodile su se oštre lične borbe: Vučić i Petronijević protiv kneza, Garašanin protiv Vučića, knez protiv svih. Više puta su, pod pritiskom Porte ili Rusije, glavni ljudi režima slati u progonstvo, pa vraćani."
+    },
+    {
+      "type": "paragraph",
+      "text": "Već generacija koja stiže pedesetih godina — liberali okupljeni oko Jevrema Grujića, a kasnije socijalisti Svetozara Markovića — gledaće na ustavobraniteljsko vreme kao na epohu „činovničke tiranije” bez naroda i bez slobode. Ta kritika ima svoje opravdanje. Ali većina modernih istoričara, gledajući unazad, vidi i drugu stranu: ovih šesnaest godina dali su Srbiji ono što joj je dotad očajno nedostajalo — pisani zakon, redovne ustanove, obučenu upravu, prve škole višeg stepena, naviknutost da država radi po pravilima a ne po volji jednog čoveka. To što su te ustanove sagrađene bez parlamenta i uz znatnu meru autoritarizma deo je istog priznanja, ne njegovo poricanje. Ustavobranitelji nisu izgradili srpsku demokratiju; izgradili su srpsku državu u kojoj je demokratija, nekoliko decenija kasnije, uopšte mogla da se pojavi kao tema."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

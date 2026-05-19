@@ -6,13 +6,53 @@
   "dayNumber": 190,
   "order": 5,
   "title": "Seča knezova",
+  "subtitle": "Kako je pokušaj dahija da preventivno pobiju srpsko vođstvo postao neposredni okidač Prvog srpskog ustanka",
   "readingTimeMinutes": 8,
   "year": 1804,
-  "isPlaceholder": true,
+  "dateLabel": "1804.",
+  "timelinePosition": "januar–februar 1804.",
+  "summary": "Zima 1804: dahije pokušavaju da pogubljenjem nahijskih knezova razbiju srpski otpor, ali postižu suprotno — okupljanje u Orašcu i izbor Karađorđa za vožda.",
+  "keyPeople": ["Aleksa Nenadović", "Ilija Birčanin", "Karađorđe Petrović", "Kučuk Alija"],
+  "keyPlaces": ["Valjevo", "Orašac", "Šumadija", "Beogradski pašaluk"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Krajem 1803. godine četvorica dahija — Kučuk Alija, Aganlija, Mula Jusuf i Mehmed-aga Fočić — vladali su Beogradskim pašalukom kao samozvani gospodari, bez stvarne kontrole sultana i protiv volje legitimnog beogradskog vezira. Njihova vlast držala se na sili, na seoskim hanovima sa janičarskim posadama i na uzimanju koliko mogu od raje. Ali do te zime osetili su da im se tlo ljulja. Po nahijama su kružile vesti o tajnim sastancima srpskih knezova, o sakupljanju oružja, o pismima koja prelaze Savu i Dunav ka habzburškoj strani. Ono što su dahije naslućivale bilo je tačno: srpsko vođstvo zaista je počelo da razmišlja o usaglašenoj akciji. I tu su dahije doneli odluku koja će im, na njihovu nesreću, ostati najteža u istoriji — da prvi udare."
+    },
+    {
+      "type": "paragraph",
+      "text": "Zamisao je bila hladna i, u logici janičarskih zulumćara, razumna. Ako se po svakoj nahiji pobiju ljudi koji znaju da okupe selo — knez, oborknez, viđeniji trgovac, sveštenik s ugledom — onda raja, lišena vrhova, neće moći da se diže. Spisak nije bio slučajan: dahije su godinama sedele u zemlji i znale ko je ko. Krajem januara po starom kalendaru, oko Svetog Save, konjički odredi krenuli su iz Beograda i drugih utvrđenih mesta na sve strane pašaluka. Nisu išli da pljačkaju selo — išli su po ime i prezime."
+    },
+    {
+      "type": "paragraph",
+      "text": "Najpoznatiji i najteži udarac pao je u valjevskoj nahiji. Aleksa Nenadović, oborknez valjevski, i Ilija Birčanin, knez posavotamnavski, bili su među najuglednijim ljudima srpske strane — Nenadović pismen, povezan sa austrijskom granicom i sa mitropolijom u Sremskim Karlovcima, Birčanin čuven po smirenom autoritetu nad sopstvenim ljudima. Obojica su znala šta dolazi; postoji predanje, koje je kasnije zabeležio i Vuk Karadžić, o oprostu i o tome kako su u susret smrti pošli mirno. Uhvaćeni su, dovedeni u Valjevo i 4. februara 1804. godine, na obali Kolubare, posečeni. Njihove glave izložene su na vidnom mestu kao opomena."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sličnih scena u tih nekoliko nedelja bilo je po čitavom pašaluku — u Šumadiji, Pomoravlju, Mačvi, Rudničkoj nahiji. Tačan broj žrtava nikada nije pouzdano utvrđen; savremeni austrijski izveštaji i kasnije zbirke govore o nekoliko desetina, drugi izvori idu do stotinu i više pobijenih knezova i uglednika. Treba pošteno reći: cifra je nesigurna i deo je istorijske procene, ne tvrde evidencije. Sigurno je drugo — da je u svakoj većoj nahiji srpska zajednica preko noći ostala bez jednog ili više ljudi koji su do tog časa nosili teret pregovora sa Turcima i unutrašnjeg reda u selu."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Orašac, Sretenje 1804."
+    },
+    {
+      "type": "paragraph",
+      "text": "Računica dahija pokazala se obrnutom od očekivane. Umesto da raja, prestrašena, padne na kolena, preživeli knezovi i njihovi rođaci shvatili su da povratka nema. Bekstvo preko Save značilo je gubitak imanja i porodice; pokornost je upravo pokazala kuda vodi — do panja. Po šumama i hanovima Šumadije počeli su žurni dogovori. Vest se prenosila usmeno, od sela do sela, sa istom logikom koja se ponavlja u zemljama bez pošte: ako svi ćute, svi će izginuti pojedinačno; ako progovore zajedno, imaju izgled."
+    },
+    {
+      "type": "paragraph",
+      "text": "Na praznik Sretenja, 14. februara po starom odnosno 26. februara po novom kalendaru 1804. godine, skupina srpskih prvaka okupila se u Orašcu, selu u srcu Šumadije, kod marvenog hana i pod stogodišnjim drvetom koje će kasnije ući u predanje. Bilo je sveštenika, oborknezova, hajdučkih harambaša i seoskih starešina. Razgovaralo se bez svečanosti, kratko i u stvar: ko će povesti. Predlozi su išli i na strane uglednijih i pismenijih ljudi; sam Karađorđe Petrović, hajduk i nekadašnji frajkor u habzburškoj vojsci 1788–1791, izabran je gotovo nužno — bio je čovek od oružja, bez visokog porekla, ali sa naravom koja se nije savijala. Predanje govori da se najpre opirao, pominjući svoju oštru ćud, ali da je pristao kada mu je rečeno da druge nema."
+    },
+    {
+      "type": "paragraph",
+      "text": "Tog dana u Orašcu nije proglašena ni država ni rat protiv sultana — formalno, pobuna je bila usmerena samo na dahije, kao na uzurpatore koji su se i sami digli protiv carske vlasti. Ali u suštini, sa izborom vožda i sa odlukom da se ide na turske karaule i hanove, započet je Prvi srpski ustanak. Ono što je u januaru izgledalo kao pokolj bez odgovora, do kraja februara postalo je organizovani pokret čiji će prvi sukobi planuti kroz nekoliko nedelja po Šumadiji i Pomoravlju."
+    },
+    {
+      "type": "paragraph",
+      "text": "Seča knezova ostala je u srpskom istorijskom pamćenju kao jedan od onih retkih trenutaka u kojima se može pokazati gde se završava strpljenje a počinje ustanak. Zabeležena je u austrijskim diplomatskim izveštajima sa granice, u kasnijim zapisima Vuka Karadžića o početku ustanka i, možda najtrajnije, u narodnim pesmama karađorđevskog ciklusa, koje su o Aleksi i Iliji ispevale stihove pre nego što su istoričari sastavili prve hronologije. Iz današnje udaljenosti može se reći oprezno i tačno: dahije su zimi 1804. pokušale da unaprede svoju vlast eliminacijom protivnika, a postigle su upravo ono čega su se najviše plašili — da im se ti protivnici, do tada raštrkani i oprezni, okupe oko jednog imena i krenu na njih. Sve što sledi u narednim godinama, do prvih većih bitaka i do dolaska Karađorđa pred Beograd, počinje ovde, na snegu valjevske obale i pod orašačkim drvetom."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

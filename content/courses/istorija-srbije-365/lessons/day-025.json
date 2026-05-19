@@ -6,13 +6,49 @@
   "dayNumber": 25,
   "order": 8,
   "title": "Rudnici i privreda provincije",
+  "subtitle": "Srebro, zlato i olovo iz centralnog Balkana — zašto je Rim uopšte držao ove planine",
   "readingTimeMinutes": 7,
   "year": 150,
-  "isPlaceholder": true,
+  "dateLabel": "rimsko doba",
+  "timelinePosition": "~150. n. e.",
+  "summary": "Centralni Balkan bio je jedna od najvažnijih rudarskih oblasti carstva — srebro, zlato, olovo i bakar iz Dardanije, Kopaonika i istočne Bosne hranili su rimsku vojsku i kovnice, dok su putevi i žitorodne ravnice povezivale ove planine sa ostatkom sveta.",
+  "keyPeople": [],
+  "keyPlaces": ["Kopaonik", "Rudnik", "Mezija", "Dalmacija", "Sirmijum", "Viminacijum"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Kada se danas govori o rimskoj vladavini na Balkanu, lako je zamisliti je kao stvar vojske, granice i puteva. Ali ako se zapitamo zašto je Rim uopšte držao ove planine, odgovor je u velikoj meri prizeman — bio je u rudi. Centralni Balkan je u prva tri veka nove ere bio jedna od najvažnijih rudarskih oblasti čitavog carstva. Iz njegovih brda vadili su se srebro, zlato, olovo, bakar i gvožđe; iz njegovih reka odvozila se ta ruda u smerove gde se kovao novac, opremala vojska i punila carska blagajna."
+    },
+    {
+      "type": "paragraph",
+      "text": "Rimljani su rudarstvo u ovim krajevima preuzeli od domaćih ljudi, pre svega Dardanaca i ilirskih plemena, koji su olovo i srebro vadili još pre osvajanja. Razlika je bila u razmerama. Tamo gde su pretrimske zajednice kopale za sopstvene potrebe, carska uprava je organizovala čitave rudarske oblasti — takozvane „metalla”  — sa jasnim granicama, posebnim činovništvom i sopstvenim pravilima. U središnjem delu današnje Srbije ležala je oblast koju izvori pominju kao Metalla Dardanica, vezana za rude oko Kopaonika i kosovsko-metohijskog područja. Severnije, na planini Rudnik, izvlačili su se srebro i olovo. Na istočnom delu današnje Bosne, u oblasti rimske Argentarije — samo ime znači „srebrnica”  — vekovima se eksploatisala bogata srebrno-olovna ruda. U pozno doba pominje se i Mons Aureus, „Zlatna planina”, čiji se tačan položaj još raspravlja, ali koji svedoči o tome koliko je ovaj kraj u rimskoj mašti bio vezan za plemenite metale."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Carski rudnici i ljudi u njima"
+    },
+    {
+      "type": "paragraph",
+      "text": "Veći deo važnih rudnika bio je carsko vlasništvo. Njima je upravljao poseban činovnik, prokurator rudnika — procurator metallorum — odgovoran direktno caru, a ne lokalnom namesniku provincije. Oko njega se vrteo čitav aparat: nadzornici okana, merači rude, kovači, pisari, vojnička posada za obezbeđenje. Radnu snagu su činili pomešani slojevi. Jedan deo bili su robovi u vlasništvu države. Drugi, brojan i često najteže pogođen, bili su osuđenici „in metallum”  — ljudi koje je sud poslao na rad u rudniku kao kaznu, ponekad doživotnu. Treći deo bili su slobodni najamnici, mahom iz okolnih sela, koji su za platu radili sezonski ili stalno. Uslovi u oknima bili su teški, smrtnost visoka, a pobune zabeležene; rudnik je, uz galiju i kamenolom, u rimskoj svesti bio jedno od najgorih mesta na koje je čovek mogao da završi."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pa ipak, oko tih okana je nicala prava privreda. Topionice su pretvarale rudu u poluge metala; kovači su ih oblikovali u alat; trgovci su snabdevali rudarska naselja hranom, vinom, odećom i obućom. Sve to je tražilo puteve, a putevi su bili druga velika rimska investicija u ove krajeve. Glavna saobraćajnica vodila je od Singidunuma — današnjeg Beograda — preko Naisusa, današnjeg Niša, sve do Konstantinopolja; taj pravac, kasnije nazvan Via Militaris, bio je kičma kopnenog Balkana stotinama godina. Uporedo s njim tekla je Sava, kao plovni koridor koji je povezivao Sirmijum sa unutrašnjošću. Na istoku, kroz Đerdap, Rimljani su uz samu obalu Dunava klesali put u stenu; čuvena „Tabula Traiana” iznad njega svedoči o razmeri tog poduhvata. Tim mrežama je ruda izlazila ka rekama i lukama, a u suprotnom smeru ulazile su trupe, činovnici, trgovci i pošta."
+    },
+    {
+      "type": "paragraph",
+      "text": "Privreda provincije nije, naravno, počivala samo na rudi. U panonskim i mezijskim ravnicama duž Save, Drine, Morave i Dunava prostirale su se velike njive sa pšenicom, ječmom i prosom; bile su to žitnice koje su hranile pograničnu vojsku. U brdovitom zaleđu razvijalo se stočarstvo, posebno ovčarstvo. Na dalmatinskoj obali — u zaklonu mediteranske klime — uzgajali su se vinova loza i maslina, a uz njih i ribarstvo, so i pomorska trgovina. Tako je svaka zona davala ono što joj je priroda dopuštala, a rimska uprava je tu raznolikost povezivala u jedinstven privredni prostor."
+    },
+    {
+      "type": "paragraph",
+      "text": "Rudno bogatstvo se najjasnije videlo u novcu. Srebro iz balkanskih rudnika hranilo je carske kovnice; u poznoj antici otvorene su velike kovnice u Sirmijumu i Viminacijumu, koje su kovale novac za potrebe vojske na dunavskoj granici. Plata legionara — u srebru i, kasnije, u bakarno-srebrnim slitinama — bila je jedan od glavnih izlaza ovog metala u svet. Gradovi su uz rudnike i puteve cvetali: Naisus i Ulpijana, blizu rudnih oblasti, dobijali su forume, terme, vodovode i raskošne vile lokalnih bogataša. Lokalna elita se latinizovala, slala sinove u vojsku i gradila imanja u plodnim dolinama."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sve to ima jednu posledicu koja se obično ne primećuje na prvi pogled. Vojska se plaćala metalom, a najveći deo tog metala dolazio je upravo odavde; vojska je, opet, regrutovala mnoge svoje vojnike iz balkanskih provincija. Nije slučajno što će u trećem i četvrtom veku iz ovog prostora poteći čitav niz rimskih careva — od ilirskih vojnika koji su krunu osvajali mačem. Iza njihovih careva stoji, među ostalim, i tiha, mukotrpna privreda srebrnih i olovnih okana u brdima današnje Srbije i Bosne. Ko hoće da razume zašto je Rim ovaj kraj držao tako dugo i tako čvrsto, mora da pogleda ne samo u zidine Singidunuma, nego i u dim koji se vekovima dizao iz topionica na obroncima Kopaonika i Rudnika."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

@@ -6,13 +6,49 @@
   "dayNumber": 308,
   "order": 6,
   "title": "Atentat u skupštini 1928.",
+  "subtitle": "Kako je 20. juna 1928. jedan pucanj u Narodnoj skupštini u Beogradu prelomio parlamentarnu eru Kraljevine SHS",
   "readingTimeMinutes": 7,
   "year": 1928,
-  "isPlaceholder": true,
+  "dateLabel": "20. jun 1928.",
+  "timelinePosition": "20. jun – 8. avgust 1928.",
+  "summary": "Crnogorski radikalski poslanik Puniša Račić 20. juna 1928. puca u poslanike HSS-a usred zasedanja Narodne skupštine; ubijeni su Pavle Radić i Đuro Basariček, a Stjepan Radić podleže ranama 8. avgusta — i parlamentarni život Kraljevine SHS praktično prestaje da funkcioniše.",
+  "keyPeople": ["Stjepan Radić", "Puniša Račić", "Pavle Radić", "Đuro Basariček", "kralj Aleksandar"],
+  "keyPlaces": ["Beograd", "Zagreb"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Bila je sreda, 20. jun 1928. godine — po starom kalendaru Vidovdan, datum koji je u srpskoj svesti već nosio težinu Kosova i Sarajevskog atentata. Tog jutra Narodna skupština u Beogradu bila je puna, vazduh zagušljiv, raspoloženje napeto već danima. Hrvatska seljačka stranka Stjepana Radića vodila je oštru opozicionu kampanju protiv vladine većine, sa neprekidnim optužbama za korupciju ministarstava i sa otvorenim napadima na zaostavštinu Nikole Pašića, koji je dve godine ranije umro. Radikali su uzvraćali jednako grubo. Niko, međutim, nije slutio da će se prepirka u sali tog jutra završiti pucnjevima."
+    },
+    {
+      "type": "paragraph",
+      "text": "Tokom debate o budžetu i o radu pojedinih ministarstava reč je uzeo Puniša Račić, poslanik Narodne radikalne stranke iz Crne Gore, čovek tvrdog karaktera i poznat po naprasitosti. Već ranije se sa govornice požalio da je lično napadnut i tražio satisfakciju. Sa klupa HSS-a stizali su odgovori, uzvici, dobacivanja. U jednom trenutku Račić je odustao od reči, vratio se ka svom mestu, izvadio revolver i počeo da puca u pravcu poslaničkih klupa Hrvatske seljačke stranke. Pucnji su odjeknuli skupštinskom salom kao nešto za šta zgrada nije bila pripremljena: pojava do tada nezamisliva u evropskom parlamentu mirnodopskog vremena."
+    },
+    {
+      "type": "paragraph",
+      "text": "Na licu mesta poginula su dvojica poslanika. Pavle Radić, nećak Stjepana Radića i jedan od najbližih saradnika u vrhu HSS-a, pao je smrtno pogođen. Sa njim je ubijen i Đuro Basariček, poslanik iz Zagreba, čovek mirne, gotovo neprimetne pojave. Ranjeni su Ivan Pernar i Ivan Granđa. Težak hitac pogodio je samog Stjepana Radića, koji je ostao na nogama, ali sa ranom u trbuhu od koje se više neće oporaviti. Račić je oboren, zadržan i predat policiji; revolver je oduzet, sednica prekinuta. Za nekoliko minuta jedan unutrašnjopolitički sukob pretvoren je u krivično delo bez presedana — poslanik je u zgradi parlamenta ubio drugog poslanika usred zasedanja."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Žalost u Zagrebu, paraliza u Beogradu"
+    },
+    {
+      "type": "paragraph",
+      "text": "Stjepan Radić prebačen je u bolnicu, a potom, kada se činilo da se stanje stabilizovalo, vraćen u Zagreb. Sedmicama je trajalo borenje sa posledicama rane i komplikacijama; umro je 8. avgusta 1928. godine. Njegova sahrana u Zagrebu pretvorila se u jednu od najvećih masovnih manifestacija u istoriji grada — savremene procene govorile su o više od sto hiljada ljudi na ulicama, što je u tadašnjoj sredini bilo gotovo nezamislivo. Žalost za Radićem nije bila samo lična ili stranačka; postala je opštehrvatsko političko izjašnjavanje protiv stanja u zajedničkoj državi. Hrvatska seljačka stranka i njeni saveznici povukli su se iz Beograda i odbili da dalje učestvuju u radu Narodne skupštine; tako je nastala Seljačko-demokratska koalicija sa zahtevom za temeljnu reviziju državnog uređenja."
+    },
+    {
+      "type": "paragraph",
+      "text": "Kralj Aleksandar pokušavao je da spasi formu sistema. Smenjivao je premijere, sastavljao nove vlade, primao na razgovor političare iz svih tabora. Ali parlamentarni život je bio prelomljen. Bez najjače hrvatske stranke skupština nije imala legitimitet, a bez legitimnog parlamenta vlade su bivale samo prelazna rešenja. Kroz drugu polovinu 1928. i prve dane 1929. zemlja je živela u stalnom stanju krize: na površini su tekle pregovaračke kombinacije, ispod njih osećanje da stari poredak ne može da se nastavi. Razrešenje je usledilo 6. januara 1929, kada je Aleksandar ukinuo Vidovdanski ustav, raspustio Skupštinu i preuzeo svu vlast — početak razdoblja koje će u istoriji ostati kao Šestojanuarska diktatura."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sudski proces protiv Puniše Račića vođen je tokom 1929. godine pred beogradskim sudom. Bio je osuđen za ubistvo dvojice poslanika i ranjavanje ostalih, ali kazna — dvadeset godina robije — mnogima je delovala blago s obzirom na težinu dela. U javnosti i tada, a kasnije i u istoriografiji, otvoreno je pitanje da li je suđenje bilo dovoljno strogo prema čoveku iza koga je stajao deo radikalskih političkih krugova. Pitanje političkog pokroviteljstva ostalo je predmet pretpostavki i nije ga moguće pouzdano razrešiti iz sačuvanih izvora; tu nesigurnost vredi pošteno označiti. Račić rat nije preživeo — ubijen je u Beogradu 1944. godine, u sasvim drugim okolnostima i u drugom vremenu."
+    },
+    {
+      "type": "paragraph",
+      "text": "Kada se pucnji iz skupštine pogledaju sa razdaljine, oni nisu samo zločin jednog čoveka, ma koliko Račićeva lična odgovornost bila van spora. Iza pojedinačnog hica stajao je dublji neuspeh sistema: država u kojoj parlament nije mogao da reši ni najobičnije sporove bez ličnih uvreda, u kojoj su odnosi između najjačih političkih centara — Beograda i Zagreba — godinama klizili od kompromisa ka uzajamnom optuživanju, i u kojoj nijedna strana nije razvila navike umerene političke borbe. Atentat 20. juna 1928. zatvorio je parlamentarnu epohu Kraljevine SHS pre nego što je ona zaista i počela da sazreva. Ono što je usledilo — kraljeva diktatura, novo ime države Jugoslavija od 1929, i sva napetost koja će obeležiti tridesete godine — neposredno je naslonjeno na taj jedan jutarnji čas u Narodnoj skupštini."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

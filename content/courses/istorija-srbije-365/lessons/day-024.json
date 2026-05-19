@@ -6,13 +6,53 @@
   "dayNumber": 24,
   "order": 7,
   "title": "Dunav — granica carstva",
+  "subtitle": "Limes Danubius, Trajanov most i pet vekova života na rimskoj severnoj granici",
   "readingTimeMinutes": 8,
   "year": 150,
-  "isPlaceholder": true,
+  "dateLabel": "rimsko doba",
+  "timelinePosition": "~150. n. e.",
+  "summary": "Od Singidunuma na istok, Dunav je gotovo pet stoleća bio formalna severna granica rimskog sveta — lanac tvrđava, kula, vojnih puteva i rečne flote koji je ujedno razdvajao i povezivao dva sveta.",
+  "keyPeople": ["Trajan", "Apolodor iz Damaska"],
+  "keyPlaces": ["Dunav", "Singidunum", "Viminacijum", "Đerdap", "Trajanov most", "Dijana"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Kada Rimljani konačno učvrste vlast na Balkanu, pred njima na severu ostaje jedna jedina, ogromna linija — reka. Dunav od Singidunuma pa nizvodno postaje formalna severna granica carstva, ne samo na papiru nego i u stvarnosti svakodnevnog života. Skoro pet vekova, od prvog do petog stoleća nove ere, ova reka je određivala gde je „rimski svet”, a gde počinje ono što su Rimljani zvali zemljom varvara. Bila je to najduža kopnena granica imperije i jedan od najambicioznijih graničnih sistema koje je antika ikada izgradila."
+    },
+    {
+      "type": "paragraph",
+      "text": "Granicu na Dunavu Rimljani su zvali limes — reč koja u izvornom značenju znači stazu, među, granični pojas. Limes Danubius nije bio zid u stilu Hadrijanovog bedema u Britaniji; bio je nešto složenije. Sastojao se od lanca tvrđava razmeštenih duž desne, rimske obale, manjih utvrđenja između njih, niza stražarskih kula sa kojih se motrila reka, vojnog puta koji je sve to povezivao, i rečne flote koja je patrolirala vodom. Ta flota nosila je ime Klasis Flavija Mezika i bila je stalno stacionirana na ovom delu Dunava, sa zadatkom da kontroliše prelaske, prati trgovinu i u slučaju potrebe brzo prebaci vojnike."
+    },
+    {
+      "type": "paragraph",
+      "text": "Na današnjem srpskom toku Dunava nizale su se tvrđave čija imena i danas zvuče poznato. Na zapadnom kraju stajao je Singidunum, na ušću Save u Dunav, sedište Četvrte Flavijeve legije — mesto na kome će vekovima kasnije izrasti Beograd. Nizvodno od njega, na današnjem Kostolcu, dizao se Viminacijum, sedište Sedme Klaudijeve legije i glavni grad rimske provincije Gornje Mezije, jedan od najvećih gradova ovog dela carstva. Preko puta današnje Banatske Palanke, na rimskoj strani, stajala je Lederata, ključno prelazno mesto za pohode preko reke. Dalje na istok, u oblasti Đerdapa, lanac utvrđenja se zgušnjavao: tu su bili Pontes kod današnjeg Kostola, gde je počinjao čuveni most, i tvrđava Dijana iznad samih klisura, podignuta da nadgleda najuži i najopasniji deo reke."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Trajanov most i put u stenu"
+    },
+    {
+      "type": "paragraph",
+      "text": "Najveći inženjerski poduhvat ovog limesa nastao je u kratkom roku, za potrebe rata. Godine 105. nove ere, uoči drugog Trajanovog pohoda na Dačane, na Dunavu kod današnjeg Kladova podignut je most koji je vekovima važio za najduži lučni most na svetu. Projektovao ga je Apolodor iz Damaska, jedan od najpoznatijih graditelja antike, čovek koji će kasnije za istog cara podići i forum u Rimu. Most je počivao na masivnim kamenim stubovima u koritu reke, sa drvenim lučnim konstrukcijama iznad njih, i činio je da rimska vojska prvi put može preko Dunava da prelazi suvih nogu, u bilo koje godišnje doba. Posle Trajanove smrti most je, prema antičkim izveštajima, namerno učinjen neupotrebljivim — verovatno da preko njega ne bi ulazili oni protiv kojih je sagrađen. Ostaci stubova i dan-danas se naziru u Dunavu, na malim i velikim vodama."
+    },
+    {
+      "type": "paragraph",
+      "text": "Skoro jednako težak posao bio je probiti put kroz Đerdap. Visoke litice koje se obrušavaju u reku nisu dozvoljavale klasičnu obalsku saobraćajnicu, pa su rimski inženjeri put uklesali u samu stenu iznad vode, ponegde sa drvenim konzolama oslonjenim na pripremljene rupe u liticama. Na jednom od najlepših mesta uz tu rutu uklesana je i Tabula Trajana — ploča sa natpisom u čast Trajana i njegove gradnje. Kada je u dvadesetom veku podignuta hidroelektrana „Đerdap”, nivo Dunava se znatno digao, pa je čitava ploča prebačena više uz padinu i tamo je danas, na svom novom mestu, i dalje vidljiva sa rečnih brodova."
+    },
+    {
+      "type": "paragraph",
+      "text": "Dunavski limes bio je, međutim, paradoksalna stvar. Reka je istovremeno bila i prepreka i veza. Kao prepreka, ona je vekovima uspevala da zaustavi ili bar uspori velike upade sa severa; kao veza, ona je bila glavni saobraćajni koridor istočne polovine carstva. Niz vodu su silazili tovari žita iz Panonije, uz vodu su išle robe iz crnomorske oblasti, a uz oba toka kretali su se trgovci, vojni odredi, glasnici i poreznici. Granica je, dakle, propuštala mnogo više nego što se to iz vojnih izveštaja činilo."
+    },
+    {
+      "type": "paragraph",
+      "text": "Život uz limes vremenom je dobio sopstveni, prepoznatljiv karakter. Uz svaku veću tvrđavu nicalo je civilno naselje — kanaba — u kome su živele porodice vojnika, zanatlije, trgovci, gostioničari i sveštenici raznih kultova. Tu su se rađala deca, sklapale ženidbe sa lokalnim stanovništvom, mešale jezike i običaji. Veterani, kada bi odslužili rok, često bi ostajali u blizini, dobijali zemlju i postajali ugledni meštani. S druge strane reke, na dačkoj i kasnije na varvarskoj obali, ljudi su znali rimske trgovce, koristili rimski novac i nosili rimske predmete; mnogi su povremeno prelazili na ovu stranu da rade, kupuju ili se naseljavaju. Granica je, tako, bila i susretište kultura, ne samo zid."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ova reka, posmatrana sa daljine, izgleda kao jasna linija na karti. Izbliza, ona je bila mnogo složenija stvarnost — vojni sistem, putna mreža, ekonomski koridor, jezički i verski miks, dom za stotine hiljada ljudi. Skoro pet stoleća, Dunav je oblikovao kako se na ovom delu sveta živi, gradi, ratuje i trguje. Kada Rimsko carstvo na kraju oslabi i ova granica popusti, ono što ostaje za sobom — tvrđave, putevi, gradovi, ostaci mostova i natpisi na stenama — nije samo arheološki trag; to je trajni okvir u kome će se odvijati i sve naredne epohe na ovoj reci."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

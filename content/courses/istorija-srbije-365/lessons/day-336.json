@@ -6,13 +6,53 @@
   "dayNumber": 336,
   "order": 8,
   "title": "Ustav iz 1974.",
+  "subtitle": "Najdecentralizovaniji ustav jugoslovenske federacije i njegove dugoročne posledice po državu",
   "readingTimeMinutes": 7,
   "year": 1974,
-  "isPlaceholder": true,
+  "dateLabel": "1974.",
+  "timelinePosition": "1974.",
+  "summary": "Ustav iz 1974. dao je republikama i pokrajinama izuzetno široku samostalnost u federaciji koja je odlučivala konsenzusom; oblikovao je politički okvir u kome će se odigrati i kasnija kriza.",
+  "keyPeople": ["Josip Broz Tito", "Edvard Kardelj", "Latinka Perović", "Marko Nikezić"],
+  "keyPlaces": ["Beograd", "Novi Sad", "Priština", "Zagreb", "Ljubljana"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Dvadeset prvog februara 1974. godine usvojen je novi ustav Socijalističke Federativne Republike Jugoslavije, četvrti po redu od završetka rata. Bio je to obiman pravni tekst, jedan od najdužih u Evropi, i daleko najsloženiji u nizu jugoslovenskih ustava. Iza njega je stajala odluka da se nakon dva burna događaja sa početka sedamdesetih — Hrvatskog proleća i pada srpskih „liberala” — politička arhitektura zemlje uredi tako da budućnost ne zavisi od jednog čoveka, već od pažljivo izgrađene ravnoteže između republika i pokrajina. Posledice tog izbora obeležiće poslednju deceniju jugoslovenske države."
+    },
+    {
+      "type": "paragraph",
+      "text": "Neposredna istorija ustava polazi od 1971. godine. U Hrvatskoj se tada razvio Maspok — narodni i partijski pokret koji je tražio veću samostalnost republike, sopstveni jezik i veći deo deviza koje je hrvatska privreda zarađivala. Tito ga je u decembru iste godine zaustavio, smenivši hrvatsko rukovodstvo. Već naredne godine, krajem 1972, na sličan način smenjeno je i srpsko rukovodstvo predvođeno Markom Nikezićem i Latinkom Perović — grupa poznata kao „liberali”, koja je zagovarala modernizaciju privrede i otvoreniju politiku unutar partijskih okvira. Tito i Edvard Kardelj zaključili su tada da rešenje za napetosti nije ni jedna ni druga linija, već novi ustavni okvir koji će dati maksimum nadležnosti republikama i pokrajinama, a federaciji ostaviti samo ono što je krajnje neophodno."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Šta je ustav doneo"
+    },
+    {
+      "type": "paragraph",
+      "text": "Tekst iz 1974. republike je definisao kao države zasnovane na pravu naroda na samoopredeljenje, „uključujući i pravo na otcepljenje”. Ta formulacija iz preambule bila je u trenutku usvajanja shvaćena kao istorijska tekovina iz vremena narodnooslobodilačke borbe, a ne kao praktično uputstvo; ipak, ostala je upisana u temelj države. Federacija je odlučivala konsenzusom osam jedinica — šest republika i dveju autonomnih pokrajina, Vojvodine i Kosova. Po brojnim pitanjima nije se moglo izglasati ništa što bi neka od jedinica izričito odbacila."
+    },
+    {
+      "type": "paragraph",
+      "text": "Najveći zaokret odnosio se na položaj pokrajina. Vojvodina i Kosovo dobili su sopstvene ustave, vrhovne sudove, predsedništva i direktno predstavništvo u saveznim telima. Iako su formalno ostali deo Republike Srbije, u federalnim organima glasali su odvojeno i ravnopravno sa republikama. Srbija je tako u praksi imala drugačiji položaj od ostalih republika: na svojoj teritoriji nije mogla samostalno da donosi niz odluka bez saglasnosti pokrajinskih rukovodstava. Ova asimetrija postaće glavna srpska politička pritužba osamdesetih godina, kada će se postaviti kao pitanje takozvanog „ustavnog položaja Srbije”."
+    },
+    {
+      "type": "paragraph",
+      "text": "Za doba posle Tita, koji je istim ustavom proglašen za predsednika republike bez ograničenja mandata — praktično doživotnog predsednika — predviđeno je kolektivno Predsedništvo SFRJ. Svaka republika i svaka pokrajina davale su po jednog člana, a predsedavanje se rotiralo na godinu dana. Ideja je bila da nijedna jedinica ne može trajno da nametne svoju volju ostalima i da se obezbedi smirena smena posle Titove smrti. U trenutku donošenja, takav model delovao je kao razumna brana od koncentracije moći; u trenutku ozbiljne krize, pokazaće se kao mehanizam koji teško donosi odluke."
+    },
+    {
+      "type": "paragraph",
+      "text": "U privredi je ustav uveo sistem „udruženog rada”. Preduzeća su razložena na osnovne organizacije udruženog rada, OOUR, samostalne ćelije unutar fabrika i ustanova koje su međusobno sklapale sporazume o raspodeli prihoda. Cilj je bio da se radničko samoupravljanje produbi do pojedinačnog pogona, a da se odlučivanje vrati onima koji rade. Praksa je, međutim, donela tešku administrativnu rascepkanost: čak su i srednje fabrike imale po desetine OOUR-a, svaki sa sopstvenim računovodstvom i sastancima. Ekonomisti će kasnije ovaj sistem označiti kao jednu od strukturalnih kočnica produktivnosti, ali u trenutku donošenja on je predstavljan kao ideološki vrhunac jugoslovenskog puta u socijalizam."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ocene ustava razilaze se i među stručnjacima i danas. Kardelj, njegov glavni tvorac, video ga je kao stabilan okvir koji rešava nacionalno pitanje tako što svakoj naciji daje sopstvenu državu unutar federacije i tako uklanja motiv za dalje sporove. Kritičari su već u njegovo vreme upozoravali da je ustav previše složen, da federaciji ostavlja premalo sopstvenih instrumenata i da pravo na otcepljenje, jednom upisano, može u krizi biti shvaćeno bukvalno. Treba pošteno reći da odgovor na to pitanje zavisi i od ugla gledanja: ono što su jedni doživljavali kao pravičnu ravnotežu malih i velikih, drugi su doživljavali kao razgradnju zajedničke države. Ustav iz 1974. nije sam po sebi izazvao raspad — ali je oblikovao institucije unutar kojih je raspad kasnije postao moguć."
+    },
+    {
+      "type": "paragraph",
+      "text": "Dugoročna logika ovog ustava bila je da politički život pomeri sa savezne na republičku i pokrajinsku ravan. Partije, mediji, planiranje, sudstvo — sve se to organizovalo po jedinicama, sa slabim zajedničkim središtem. Dok je Tito bio živ, njegov lični autoritet popunjavao je prazan prostor; nakon njegove smrti 1980. godine, federalna vlast morala je da se oslanja samo na pravila koja je ustav predvideo. Ta pravila biće u narednoj deceniji izložena pritiscima za koje nisu bila krojena. Zato se na 1974. godinu, sa razdaljine od pola veka, gleda kao na trenutak kada je Jugoslavija zacrtala svoj posleratni okvir — i istovremeno postavila okvir unutar kog će se odigrati njena kriza."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

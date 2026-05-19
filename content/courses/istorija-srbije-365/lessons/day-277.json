@@ -6,13 +6,53 @@
   "dayNumber": 277,
   "order": 12,
   "title": "Spoljna politika Kraljevine",
+  "subtitle": "Kako je Srbija posle 1903. izašla iz austrijske orbite i izgradila sopstvenu liniju oslonjenu na Rusiju i Francusku",
   "readingTimeMinutes": 7,
   "year": 1910,
-  "isPlaceholder": true,
+  "dateLabel": "1903–1912.",
+  "timelinePosition": "1903–1912.",
+  "summary": "Posle Majskog prevrata 1903. srpska spoljna politika napušta beogradsko-bečku osovinu Obrenovića i, pod ministrima Milovanovićem i Pašićem, gradi samostalnu liniju koja vodi do Balkanskog saveza 1912.",
+  "keyPeople": ["Milovan Milovanović", "Nikola Pašić", "kralj Petar I Karađorđević", "car Nikolaj II", "grof Alojz Erental"],
+  "keyPlaces": ["Beograd", "Beč", "Sankt Peterburg", "Pariz", "Sofija"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Majski prevrat 1903. nije bio samo smena dinastije. Bio je i smena spoljnopolitičke linije. Obrenovići su dugo, naročito u poslednjoj deceniji, vodili Srbiju u tihoj orbiti Beča — austrijski kapital, austrijska železnica, austrijska podrška režimu u zamenu za uzdržanost na jugu. Sa dolaskom Petra I Karađorđevića ta vezanost počinje da se odvezuje. Nova Srbija, ustavna i parlamentarna, traži samostalniji put — i u narednoj deceniji, do 1912, oblikuje spoljnu politiku koja se istovremeno oslanja na slovenskog pokrovitelja na istoku, na zapadnog kreditora i kulturnog uzora, i na tačno odmereno strpljenje prema susedima."
+    },
+    {
+      "type": "paragraph",
+      "text": "Prvi i najprirodniji oslonac bila je Rusija. Ona je vekovima nastupala kao zaštitnica slovenskih hrišćana na Balkanu i posrednik u svakoj kriznoj situaciji. Ali ruska podrška nije bila bezuslovna ni svemoćna. Petersburg je morao da računa sa sopstvenim odnosom prema Austro-Ugarskoj, sa teškim porazom u ratu protiv Japana 1905. i sa unutrašnjim potresima koji su iz toga sledili. Tek posle 1907, kada se uobličila Antanta — savez Velike Britanije, Francuske i Rusije — Beograd dobija stabilniji okvir u kome može da računa na rusku diplomatsku zaštitu. Pa i tada, kako će se videti u Aneksionoj krizi, postoji granica do koje će Rusija ići za Srbiju a da ne uđe u opšti rat."
+    },
+    {
+      "type": "paragraph",
+      "text": "Drugi oslonac, manje glasan ali praktično važan, bila je Francuska. Posle 1903. Beograd zatvara stari aranžman sa austrijskim bankama i obraća se Parizu za novi državni zajam. Francuski kapital ulazi u srpske železnice, rudnike, državne nabavke. Godine 1907. donesena je odluka koja će se kasnije pokazati sudbinskom — srpska vojska napušta austrijski top i prelazi na francuski brzometni top Schneider, isti onaj sa kojim će ulaziti u Balkanske ratove. Uporedo s tim ide i kulturni uticaj: srpski oficiri školuju se u francuskim vojnim akademijama, intelektualci u Parizu, a francuska škola postaje preovlađujući obrazovni model nove generacije."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sa Austro-Ugarskom odnosi se brzo pogoršavaju. Beč je prevrat 1903. doživeo kao gubitak uticaja i započeo niz pritisaka. Najteži je bio takozvani Carinski rat 1906–1911. — Austro-Ugarska je zatvorila granicu za izvoz srpskih svinja, glavnog srpskog izvoznog artikla, pokušavajući da privredno slomi Beograd i vrati ga u poslušnost. Računica nije izašla. Srbija je u nekoliko godina uspela da pronađe nova tržišta — u Nemačkoj, Egiptu, Francuskoj — i izašla je iz krize osnaženija, sa diversifikovanijom privredom i sa snažnim osećajem da Beč više nije neminovan partner. Kriza je politički takođe učvrstila narodnoradikalsku vlast i otvorila prostor za samostalniji spoljnopolitički ton."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Milovanović i Balkanski savez"
+    },
+    {
+      "type": "paragraph",
+      "text": "Najteže iskušenje stiglo je 1908, kada je Austro-Ugarska jednostrano anektirala Bosnu i Hercegovinu, koju je dotad samo okupirala po berlinskim odredbama. Srbija je reagovala oštro, mobilisala javnost, tražila nadoknadu — i kada je u proleće 1909. postalo jasno da Rusija nije spremna na rat, morala je da prizna aneksiju i obeća dobrosusedstvo. Bilo je to javno poniženje, ali i lekcija. Iz nje će proizaći zaključak Milovana Milovanovića, ministra inostranih dela od 1908. do 1912. — da Srbija ne sme više da čeka isključivo zaštitu sa strane, već da mora sama da gradi koaliciju malih balkanskih država koje imaju zajedničkog protivnika u Osmanskom carstvu i zajedničku potrebu da se otrgnu od bečkog tutorstva."
+    },
+    {
+      "type": "paragraph",
+      "text": "Prema Osmanskom carstvu odnos je bio dvostruk. Sa jedne strane, to je bio istorijski sused i formalni gospodar oblasti u kojima je živelo srpsko stanovništvo — Stare Srbije i Makedonije. Sa druge, bilo je jasno da je carstvo pred raspadom i da je pitanje samo ko će na njegovom evropskom delu zauzeti koji deo. Srpski cilj bio je da se osigura izlaz na jug i pravo na deo Makedonije pre nego što tu uđu Bugari ili Grci. U toj logici sazreva i odnos prema Bugarskoj. Posle kratkog savezničkog perioda osamdesetih i bolnog rata 1885, Sofija i Beograd su decenijama bili rivali oko Makedonije. Milovanović je, tiho i strpljivo, otvorio nove razgovore."
+    },
+    {
+      "type": "paragraph",
+      "text": "U martu 1912. potpisana je tajna srpsko-bugarska konvencija — sporazum o podeli osmanskih oblasti u Evropi i, što je najdelikatnije, o „spornoj zoni“ u centralnoj Makedoniji čiju će sudbinu, ako se ne dogovore, arbitrirati ruski car. Tokom proleća i leta 1912. tom jezgru pridružili su se Grčka i Crna Gora. Tako je nastao Balkanski savez — diplomatski najveći uspeh srpske politike pre Velikog rata, podržan tajno i Petersburgom. Pored Milovanovića, ključnu ulogu u tim godinama imao je i Nikola Pašić, povremeno premijer i ministar inostranih dela u jednoj osobi, čovek strpljivih, dugih razgovora i opreznih formulacija."
+    },
+    {
+      "type": "paragraph",
+      "text": "Vredno je, međutim, navesti i ono što istoričari pošteno priznaju kao slabosti ovog perioda. Prva je preterana zavisnost od ruskog saveznika koji, kako je Aneksiona kriza pokazala, ne može uvek braniti Beograd kada zatreba — ali na čijem se obećanju gradi celokupna kombinacija. Druga je nedovoljna priprema za posledice sopstvenog uspeha: niko u Beogradu 1912. nije do kraja promislio šta će se desiti kada se Osmansko carstvo brzo poruši i kada se saveznici razdvoje oko plena, što će već naredne godine dovesti do bratoubilačkog rata sa Bugarskom. Pa ipak, gledano u celini, srpska diplomatija između 1903. i 1912. ostaje primer inteligentne, strpljive politike male zemlje koja je, u kratkom roku, uspela da promeni svoj položaj u Evropi — koliko su to prilike malih sila na Balkanu uopšte dozvoljavale."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

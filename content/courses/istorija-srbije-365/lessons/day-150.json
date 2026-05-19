@@ -6,13 +6,53 @@
   "dayNumber": 150,
   "order": 12,
   "title": "Kraj srednjeg veka — pregled",
+  "subtitle": "Pogled unazad na tri veka srpske srednjovekovne države — od Stefana Nemanje do pada Smedereva",
   "readingTimeMinutes": 8,
   "year": 1495,
-  "isPlaceholder": true,
+  "dateLabel": "pregled",
+  "timelinePosition": "pregled",
+  "summary": "Sažeti osvrt na srpski srednji vek od oko 1166. do 1459. godine: uspon Nemanjića, carstvo Dušanovo, raspad posle 1355, Kosovo, Despotovina i konačni pad pod Osmanlije.",
+  "keyPeople": [],
+  "keyPlaces": [],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Sada, kada je Smederevo palo i kada je Despotovina prestala da postoji kao država, vredi za trenutak zastati i okrenuti se unazad. Iza nas je gotovo tri stotine godina — od časa kada je Stefan Nemanja oko 1166. uzeo vlast u Raškoj, do leta 1459. kada je nad smederevskim bedemima podignuta osmanska zastava. To je dovoljno dug period da se u njemu vidi luk: kako je iz jedne od mnogih balkanskih oblasti, smeštene između Vizantije, Ugarske i jadranskih gradova, izrasla kraljevina, potom carstvo, potom raspala se na oblasti, i najzad svedena na malu severnu despotovinu koja je pregorela poslednja."
+    },
+    {
+      "type": "paragraph",
+      "text": "Luk je u osnovi prepoznatljiv. Nemanja je ujedinio raške župe i postavio dinastiju. Njegov sin Sava izdejstvovao je 1219. autokefalnu Srpsku crkvu, a brat mu Stefan Prvovenčani uzeo je 1217. kraljevsku krunu. Posle njih dolazi dugi „zlatni vek” Nemanjića — Uroš I, Dragutin, Milutin, Stefan Dečanski — vreme manastirskog graditeljstva, rudnika koji su Srbiju uveli u sredozemnu privredu, i sve obimnijeg pisanja na slovenskom jeziku. Vrhunac je carstvo Stefana Dušana, krunisanog 1346. u Skoplju za cara „Srba i Grka”, sa državom koja je dosezala do Egejskog mora. Zatim, posle Dušanove iznenadne smrti 1355, dolazi rasap: oblasni gospodari, Marička bitka 1371, Kosovo 1389, despotovina Stefana Lazarevića i Đurđa Brankovića kao poslednji oblik srpske državnosti, i konačni pad 1459."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sličan obrazac vidi se i kod suseda. Bugarska je u isto vreme prošla kroz uspon Asenovaca, krhko carstvo i postepeno gušenje pod Osmanlijama. Vizantija, sama, posle pada Carigrada 1204. nikada se nije potpuno oporavila i okončala je 1453. svojom poslednjom opsadom. Bosna je od kraljevstva pod Tvrtkom I dospela do propasti 1463. Srpska sudbina nije bila izolovana izuzetnost; bila je deo opšteg sumraka pravoslavnih i poznosrednjovekovnih balkanskih država pred jednom novom, organizovanijom imperijom."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Šta ostaje iza tri veka"
+    },
+    {
+      "type": "paragraph",
+      "text": "Pregled stoga ne mora biti ni nostalgičan ni rezigniran. Iza ta tri veka stoji stvarno dostignuće, čiji se obrisi mogu mirno nabrojati. Pre svega, jedna posebna sinteza u umetnosti i graditeljstvu: spoj istočnopravoslavne i jadransko-romaničke tradicije, vidljiv već u Studenici i Đurđevim stupovima, razvijen u Sopoćanima, Gračanici i Visokim Dečanima, i doveden do strogog poznog izraza u Manasiji i Ravanici. Reč je o porodici spomenika koja nema pravu paralelu drugde i koja je dugo posle nestanka države ostala vidljivi znak da je tu nešto postojalo."
+    },
+    {
+      "type": "paragraph",
+      "text": "Tu je i autokefalna crkva, Savina tvorevina, koja je tokom vekova bez države odigrala ulogu jedine trajne ustanove i okvira u kojem se čuvalo pismo, pravo i sećanje. Tu je i kodifikovana pravna tradicija — pre svega Dušanov zakonik iz 1349. i 1354. — koja je u izmenjenom, običajnom obliku ostala u životu i posle pada države. Tu je rudarska privreda, sa Novim Brdom i Srebrenicom kao središtima, koja je srpsku državu uplela u mediteranske trgovačke mreže. Tu su gradovi — Skoplje, Prizren, Beograd Stefana Lazarevića, Smederevo Đurđa Brankovića, primorski Kotor i Bar — i jedna književnost na slovenskom jeziku koja, iako ne masovna, ima dela trajne vrednosti. Najzad, tu je svetiteljski niz, od Simeona i Save preko Milutina i Stefana Dečanskog do kneza Lazara, koji je oblikovao srpsko kolektivno samorazumevanje i daleko posle pada Despotovine."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ostalo je i ono što nije dovršeno. Carstvo nije razvilo ustanove dovoljno čvrste da prežive slabog vladara; smrt Stefana Dušana pokazala je koliko je sve počivalo na ličnosti. Vlastela je vremenom ojačala do mere da je središnja vlast popuštala pred njom, a oblasni gospodari posle 1371. ponašali su se već kao samostalni knezovi. Usaglašena odbrana protiv Osmanlija — sa Ugarskom, Bosnom, Bugarskom, Vizantijom — ostala je do kraja nemoguća; svaka država branila se sama, najčešće prekasno. Konačni pad nije došao od jedne velike bitke, kako narodno sećanje voli da kaže, nego od dugog niza pritisaka koji su, jedan po jedan, otkidali zemlje, gradove i ljude."
+    },
+    {
+      "type": "paragraph",
+      "text": "Svet koji je posle 1459. ostao iza Despotovine bio je već drugačiji. Osmansko carstvo držalo je središnji Balkan; pravoslavna crkva, makar i u izmenjenom položaju, ostala je jedina ustanova koja je nastavljala da deluje među Srbima; sve veći broj ljudi živeo je van granica stare države — u Ugarskoj, u Veneciji, u dalmatinskim i istarskim primorjima, na rudarskim i trgovačkim putevima. Ti raseljeni Srbi nosiće sa sobom sećanje na ono što je bilo i, vekovima kasnije, postaće deo onoga što sledi. Era koja počinje sutra — duga vremena pod osmanskom i habzburškom vlašću — biće upravo to: vekovi bez sopstvene države, ali ne i bez istorije."
+    },
+    {
+      "type": "paragraph",
+      "text": "Srednjovekovna srpska priča bila je, dakle, konačna u vremenu, ali trajna u posledicama. Nije bila ni „izgubljeni raj”, kako bi je videla romantična mašta, ni puko prolazno trvenje malih balkanskih kneževina, kako bi je olako otpisao stranac koji žuri. Bila je jedan stvarni političko-kulturni poduhvat, sa svojim usponom, svojim vrhuncem i svojim padom, i sa nasleđem koje će u različitim oblicima — crkvenim, pravnim, jezičkim, umetničkim, mentalnim — putovati kroz sve što dolazi posle. Razumeti taj luk znači imati osnovu za sve dalje. Sa time pred sobom, sada možemo da pređemo prag i da uđemo u dugo, mračnije, ali nipošto prazno doba koje sledi."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

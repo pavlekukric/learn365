@@ -6,13 +6,49 @@
   "dayNumber": 228,
   "order": 3,
   "title": "Vučić i Petronijević",
+  "subtitle": "Dvojica ljudi koji su 1842. preuzeli Srbiju — kapetan iz šumadijskih ustanaka i diplomata cincarskog porekla",
   "readingTimeMinutes": 6,
   "year": 1842,
-  "isPlaceholder": true,
+  "dateLabel": "1842.",
+  "timelinePosition": "1842.",
+  "summary": "Toma Vučić Perišić i Avram Petronijević bili su vojnička snaga i diplomatski mozak ustavobraniteljskog režima — različiti ljudi koji su, zajedno, srušili Obrenoviće 1842. i deceniju vodili Srbiju.",
+  "keyPeople": ["Toma Vučić Perišić", "Avram Petronijević", "Mihailo Obrenović", "Aleksandar Karađorđević", "Miloš Obrenović"],
+  "keyPlaces": ["Beograd", "Užice", "Carigrad", "Šumadija"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Ustavobraniteljski režim, koji je u Srbiji vladao od 1842. do 1858. godine, obično se pamti kao sistem — Sovjet, činovnici, prvi Građanski zakonik, državna birokratija koja je polako gušila staru patrijarhalnu vlast. Ali iza sistema stajala su dva čoveka bez kojih ga ne bi bilo: Toma Vučić Perišić i Avram Petronijević. Bili su to ljudi različitog porekla, različitog obrazovanja i različitog karaktera, povezani jednom jedinom stvari — odlučnošću da Srbijom više ne vladaju Obrenovići. Njihova saradnja nije bila prijateljstvo, ni bratstvo po političkoj veri; bila je radni savez dvojice ljudi koji su tačno znali šta jedan kod drugog vredi."
+    },
+    {
+      "type": "paragraph",
+      "text": "Toma Vučić Perišić rođen je oko 1788. godine u okolini Užica. Bio je sin sela i bune. Učestvovao je u Prvom srpskom ustanku kao mladić, prošao kroz poraz 1813. i izgnanstvo, vratio se sa Milošem u Drugi ustanak i tu se istakao kao vojnik koji se ne plaši ni krvi ni naređenja. Pod Milošem je dospeo do kapetana, kasnije do generala, a u narodu je stekao glas surovog ali pravičnog čoveka, koji govori jezikom šumadijske raje i ume sa njom. Bio je dugo Milošev čovek, jedan od onih na koje se knez oslanjao kada je trebalo slomiti otpor neke nahije. Ali tridesetih godina, kako je Miloš sve više vladao samovoljno, Vučić se od njega počeo udaljavati. Smatrao je — možda iskreno, možda iz lične ambicije — da je vreme da se vlast jednog čoveka ograniči."
+    },
+    {
+      "type": "paragraph",
+      "text": "Avram Petronijević bio je sasvim druga vrsta čoveka. Rođen 1791. godine u porodici cincarskog porekla, odrastao je među trgovcima i činovnicima, naučio grčki i francuski, video Beč i Carigrad. Dok je Vučić u mladosti gađao iz puške, Petronijević je u kancelarijama učio kako se piše diplomatska nota. Ušao je u srpsku upravu kao prevodilac i pisar, brzo se uzdigao i postao jedan od prvih „evropskih” činovnika kneževine — čovek u kojem je novonastala srpska država dobila ono što joj je najviše nedostajalo: nekoga ko zna kako se razgovara sa stranim dvorovima. Godinama je bio ministar inostranih dela, kasnije i finansija; bio je intelektualni mozak ustavobraniteljske politike dok je Vučić bio njena snaga."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Savez koji je srušio Obrenoviće"
+    },
+    {
+      "type": "paragraph",
+      "text": "Do 1842. njih dvojica su, svaki sa svoje strane, došli do istog zaključka: mladi knez Mihailo Obrenović, koji je nasledio oca posle Miloševe abdikacije 1839, ne sme više da vlada. Mihailo je pokušavao da održi obrenovićevsku ličnu vlast u sistemu koji su 1838. nametnuli „Turski ustav” i Sovjet — i u tom sukobu izgubio je. U septembru 1842. Vučić je podigao šumadijsku vojnu pobunu, Petronijević joj je dao politički i diplomatski oblik, a Sovjet je proglasio Mihailovu vlast za nepostojeću. Knez je napustio zemlju. Na njegovo mesto izabran je Aleksandar Karađorđević, sin vožda Karađorđa — čovek umeren, donekle povučen, kojeg su upravo zato izabrali. Vučić i Petronijević nisu želeli novog jakog kneza; želeli su kneza kroz kojeg će vladati Sovjet."
+    },
+    {
+      "type": "paragraph",
+      "text": "U narednoj deceniji oni jesu vladali. Petronijević je u Beogradu i evropskim prestonicama vodio spoljne poslove, finansije i pregovore sa Portom; Vučić je bio onaj koga su se ljudi po unutrašnjosti bojali. Politički su sebe predstavljali kao „narodnjake”, oslonjene na seljaštvo nasuprot obrenovićevskoj kliki, i u tome je bilo istine: Vučić je zaista umeo da govori narodu i imao je oslonac u Šumadiji. Ali u stvarnosti su vladali kroz Sovjet, kroz činovništvo i, kada je trebalo, kroz policijska sredstva — hapšenja, progonstva, ućutkivanje opozicije. Njihov režim doneo je Srbiji prve ozbiljne institucije, sređenu upravu i 1844. godine Građanski zakonik, jedan od najvažnijih pravnih spomenika devetnaestog veka. Doneo je i represiju nad protivnicima koja se ne sme prećutati. Nisu bili tirani u potpunom smislu reči, ali ni demokrate; bili su činovnička oligarhija sa vojničkom rukom."
+    },
+    {
+      "type": "paragraph",
+      "text": "Razlika među njima ostala je do kraja. Petronijević je bio čovek pera, učtiv, sklon kompromisu, oprezan u javnom nastupu. Vučić je bio grub, glasan, sklon da preti i da pretnju izvrši. Savremenici su ih opisivali kao dva pola istog režima — jedan je pisao notu, drugi je iza nje stajao sa pratnjom. Upravo zato su, dok god su radili zajedno, bili nezamenljivi: ni Vučićeva sila bez Petronijevićeve veštine, ni Petronijevićeva diplomatija bez Vučićeve sile, ne bi sami održali sistem koji su zajedno stvorili."
+    },
+    {
+      "type": "paragraph",
+      "text": "Kraj im je došao gotovo istovremeno i u istom gradu. U proleće 1859. obojica su se zatekla u Carigradu, na putu vezanom za diplomatsku misiju Porti, u trenutku kada je Miloš Obrenović već bio vraćen na presto i kada je ustavobraniteljska era bila gotova. Tamo su, u razmaku od nekoliko nedelja, obojica umrla. Među savremenicima je odmah počela da kruži sumnja da su otrovani — bilo od strane novih Obrenovićevih ljudi, bilo nekog drugog — ali za to nikada nije iznet pouzdan dokaz, pa istorija tu sumnju mora ostaviti otvorenom. Sa njima je nestao i poslednji aktivni oslonac njihovog režima. Ono što su za sobom ostavili nije bila dinastija ni stranka, već nešto teže pokvarljivo: državna uprava, zakon i ideja da Srbijom ne mora vladati jedan čovek."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

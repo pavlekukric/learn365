@@ -6,13 +6,49 @@
   "dayNumber": 179,
   "order": 7,
   "title": "Srpsko građanstvo u monarhiji",
+  "subtitle": "Kako je u 18. veku po varošima Habzburške monarhije izrastao nov srpski stalež — trgovački, pismen, gradski",
   "readingTimeMinutes": 7,
   "year": 1750,
-  "isPlaceholder": true,
+  "dateLabel": "18. vek",
+  "timelinePosition": "18. vek",
+  "summary": "Sredinom 18. veka u Habzburškoj monarhiji izrasta srpski pravoslavni građanski stalež — trgovci, bankari i mecene od Sentandreje i Novog Sada do Beča, Pešte i Trsta — nešto što pre Velike seobe gotovo i nije postojalo.",
+  "keyPeople": ["Sava Tekelija", "Dositej Obradović", "Jovan Rajić"],
+  "keyPlaces": ["Sentandreja", "Novi Sad", "Sremski Karlovci", "Beč", "Pešta", "Trst", "Zemun", "Pančevo"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Sredinom 18. veka, u varošima Habzburške monarhije, srpsko se ime sve češće sreće na kapijama velikih kuća, u esnafskim spiskovima, na pretplatama za knjige i u testamentima sa darovima za škole i crkve. Bio je to nov prizor — i u istoriji Srba zaista nov. Pre Velike seobe 1690. godine srpskog pravoslavnog građanstva, u modernom smislu reči, gotovo i nije bilo nigde. Srednjovekovne srpske varoši bile su male, a srpski trgovac retka pojava. U osmanskim gradovima krupni novac držali su muslimanski i jevrejski trgovci, dok su pravoslavni hrišćani u glavnom ostajali zanatlije, sitni dućandžije i seljaci. Tek na severu, pod habzburškim žezlom, javlja se ono što istoričari nazivaju srpskim građanstvom — pravoslavnim, slovenskim po jeziku, ali gradskim po načinu života."
+    },
+    {
+      "type": "paragraph",
+      "text": "Glavna središta tog staleža nicala su duž velikih trgovačkih puteva koji su Podunavlje vezivali sa Sredozemljem i sa centralnom Evropom. Sentandreja, mala varošica nadomak Budima, postala je u 17. i 18. veku verovatno najimućnije srpsko trgovačko gnezdo. Tu je izbeglo svešteno i imućno građanstvo iz južnih krajeva podiglo niz crkava i lepih kuća, a njegovi se ljudi pojavljuju na sajmovima od Lajpciga do Trsta. Novi Sad, koji je 1748. godine od carice Marije Terezije dobio status slobodnog kraljevskog grada, ubrzano se razvijao kao kulturno i trgovačko središte i do kraja veka stekao nadimak „srpska Atina”. Sremski Karlovci bili su sedište mitropolije i, posredno, središte u kome se okupljao novac vezan za crkvene poslove i škole. U Beču, Pešti i Budimu postojale su krupne srpske trgovačke kolonije, a Zemun, Pančevo, Zadar i Trst čine drugi krug — manji, ali i u njima dobro stoji ko ume da trguje."
+    },
+    {
+      "type": "paragraph",
+      "text": "Šta su ti ljudi tačno radili? Pre svega — trgovinu na velike daljine. Vozili su tekstil, vino, pamuk, kožu, sušenu ribu, žitarice i razne kolonijalne proizvode između Habzburške monarhije i osmanskih oblasti, preko Beograda, Sarajeva, Niša i Skoplja. Neki su se specijalizovali, drugi su krupne poslove kombinovali sa zelenaštvom i ranim oblicima bankarstva. U Trstu, gde je Karlo VI još 1719. godine otvorio slobodnu luku, srpski i grčki trgovci učestvovali su u brodarstvu prema Levantu. Posebno se ističu Cincari — etnički Aromuni koji su govorili svojim romanskim jezikom, ali su u crkvenom i pravnom smislu često bili svrstavani u pravoslavne „grčko-vlaške” trgovce, a u srpskom okruženju vremenom srbizovani. Cincarske porodice činile su znatan deo onoga što je u dokumentima vođeno kao srpsko građanstvo."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Kuće, knjige i zadužbine"
+    },
+    {
+      "type": "paragraph",
+      "text": "Bogatstvo se najpre videlo na kućama. U Sentandreji, Novom Sadu i Pešti imućne srpske porodice gradile su prostrane spratne zgrade sa magazama u prizemlju, sa baroknim portalima i sa salonima u kojima se sreću furniri, ogledala, porculan i klaviri. Žene tih kuća nose svilene haljine; deca uče nemački i mađarski, ali se kod kuće govori srpski, čita ćirilica, drži post i poštuje slava. Među poznatijim familijama bile su Tekelije, Soproni, Markovići, Bajići i Nakovi. Najpoznatiji od svih, Sava Popović Tekelija, krajem veka i početkom narednog osnovaće u Pešti čuveni Tekelijanum — zavod sa stipendijama za siromašne srpske đake, koji će kroz 19. vek izdržavati cele generacije srpske inteligencije."
+    },
+    {
+      "type": "paragraph",
+      "text": "Obrazovanje je bilo druga velika investicija. Sinovi imućnih trgovaca slati su u karlovačke škole, u peštanske i bečke gimnazije, neki dalje u nemačke i ruske univerzitete, na pravo, medicinu i bogosloviju. Iz tih škola izlazili su lekari, advokati, sveštenici i činovnici — ljudi koji su znali da pišu memorandume na nemačkom, a kod kuće prevode i pišu na srpskom. Upravo je taj sloj postao glavni oslonac srpskog prosvetiteljstva. Dositej Obradović, Jovan Rajić i drugi pisci toga vremena svoje su knjige objavljivali pretplatom — a prenumeranti, čija se imena štampaju na poslednjim stranicama, najvećim delom su trgovci, sveštenici i činovnici iz upravo ovih varoši. Bez njihovog novca i bez njihove čitalačke radoznalosti, rane srpske knjige jedva da bi imale kome da se obrate."
+    },
+    {
+      "type": "paragraph",
+      "text": "Identitet ovog staleža bio je jasno određen: pravoslavni Srbi u nemačko-mađarskom okruženju, podanici cara u Beču, ali članovi mitropolije u Karlovcima. Maternji jezik, ćirilica i crkveni kalendar držali su porodice na okupu, dok su poslovni jezik i gradska kultura bili nemački, italijanski ili mađarski. Ta dvostrukost nije ih opterećivala — naprotiv, davala im je prednost na pijaci i u kancelariji. U isto vreme, granice njihovog napredovanja bile su stvarne. Srbi u monarhiji nisu imali svoje plemstvo u onom obimu u kome su ga imali Mađari ili Hrvati; politička prava bila su ograničena, a pristup pojedinim gradskim službama u nekim varošima zatvoren ili otežan zbog veroispovesti. Bogat srpski trgovac u Pešti mogao je da kupi kuću u centru i da finansira gimnaziju, ali do najviših gradskih ili državnih položaja teško je dopirao."
+    },
+    {
+      "type": "paragraph",
+      "text": "Treba biti pošten i sa razmerama. Ovaj građanski stalež bio je, u odnosu na celu srpsku populaciju monarhije — a pogotovo u odnosu na seosku većinu pod osmanskom vlašću na jugu — relativno mala manjina. Većina Srba i u 18. veku ostaje seljaštvo, graničari, sitni zanatlije. Pa ipak, značaj te manjine bio je nesrazmerno velik. U njoj se prvi put formira srpski sloj koji ima novac, veze sa Evropom, sopstvene škole i sopstvenu štampu, i koji počinje o sebi da razmišlja kao o naciji u modernom smislu. Iz njega će krajem 18. i tokom 19. veka poteći novčana pomoć ustaničkoj Srbiji, mecenstvo Matice srpske, finansiranje Karlovačke gimnazije i mnoštvo onih kulturnih ustanova na kojima će se podići vojvođanski i, posredno, opštesrpski preporod. Sredinom 18. veka taj proces tek je u zametku — ali zametak je već vidljiv u sentandrejskim magazama, novosadskim salonima i peštanskim pretplatničkim spiskovima."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

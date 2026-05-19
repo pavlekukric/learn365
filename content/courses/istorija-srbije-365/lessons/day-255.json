@@ -6,13 +6,53 @@
   "dayNumber": 255,
   "order": 9,
   "title": "Srpsko-bugarski rat",
+  "subtitle": "Kratak i nepripremljen rat 1885. godine, težak poraz kod Slivnice i prelom u ugledu kralja Milana",
   "readingTimeMinutes": 7,
   "year": 1885,
-  "isPlaceholder": true,
+  "dateLabel": "1885.",
+  "timelinePosition": "1885.",
+  "summary": "Kralj Milan u jesen 1885. objavljuje rat ujedinjenoj Bugarskoj; srpska vojska doživljava težak poraz kod Slivnice, a austrijska intervencija spasava Srbiju gubitka teritorije, ali ne i prestiža.",
+  "keyPeople": ["kralj Milan Obrenović", "knez Aleksandar Batenberg", "grof Kevenhiler"],
+  "keyPlaces": ["Slivnica", "Pirot", "Sofija", "Bukurešt", "Niš"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "U septembru 1885. godine na Balkanu se dogodilo nešto što je iz korena promenilo odnose među mladim državama oslobođenim od otomanske vlasti. Bugarska Kneževina, formalno još uvek vazalna sultanu, i Istočna Rumelija, autonomna otomanska provincija južno od Balkana, najavile su ujedinjenje — protivno slovu Berlinskog kongresa iz 1878. godine, koji ih je svesno razdvojio upravo zato da se nova bugarska država ne bi previše osnažila. Iz Beograda je taj događaj odmah viđen kao narušavanje krhke ravnoteže na Balkanu. Kralj Milan Obrenović, koji je svoje spoljnopolitičke poteze odavno usklađivao sa Bečom, došao je do zaključka da Srbija mora da reaguje — i da to mora učiniti brzo, pre nego što ujedinjena Bugarska postane susedstvo s kojim se više neće moći razgovarati sa pozicije sile."
+    },
+    {
+      "type": "paragraph",
+      "text": "Austro-Ugarska je u svemu tome igrala dvosmislenu, ali odlučujuću ulogu. Njoj nije odgovaralo bugarsko ujedinjenje, jer je iza Sofije sve jasnije stajao ruski uticaj, a Beč je u Beogradu već imao poslušnog saveznika. Iz Beča je u srpski dvor stizala podsticajna poruka: ako Srbija krene, naći će razumevanje. Bez izričitih pisanih garancija, ali sa diplomatskim toplim vetrom koji je kralja Milana još više nagnao na odluku koja se pripremala u tajnosti. Mnogi srpski političari ratu nisu bili skloni. Razlog je bio jednostavan: Bugarska se nije širila na štetu Srbije, već prema jugu, na štetu ostataka otomanske vlasti. Rat protiv suseda iz takvog razloga nije imao jasno moralno opravdanje."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pa ipak, 14. novembra 1885. po julijanskom kalendaru — 26. novembra po novom — Srbija je objavila rat Bugarskoj. Plan je bio sastavljen u duhu brze pobedničke kampanje: srpska vojska treba da nadre preko granice, razbije bugarske snage raspoređene daleko na jugu i u nekoliko marševa izbije pred Sofiju. Verovalo se da će rat trajati najviše dve nedelje i da će se završiti diplomatskim stolom za kojim će Srbija govoriti sa pozicije pobednika. Stvarnost je ubrzo demantovala taj račun."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Slivnica i pad Pirota"
+    },
+    {
+      "type": "paragraph",
+      "text": "Srpska vojska je u rat ušla nedovoljno spremna. Mobilizacija je sprovedena u žurbi, oprema je bila neujednačena, snabdevanje slabo, a viši komandni kadar opterećen unutrašnjim sukobima i političkim nepoverenjem. Vojnici, regrutovani uglavnom iz seljaštva, nisu razumeli zašto idu na Bugare — protivnika sa kojim se još do juče delila slovenska i pravoslavna sudbina pod istom sultanovom kapom. Na drugoj strani granice čekala je bugarska vojska — manja brojem, lošije opremljena, ali bolje motivisana i bolje vođena. Na njenom čelu nalazio se mladi knez Aleksandar Batenberg, koji je u napadu Srbije video opasnost po samo ujedinjenje radi kojeg je preuzeo političku odgovornost. Bugarski oficiri uspeli su, gotovo neočekivano, da glavninu snaga sa juga prebace ka srpskoj granici za nekoliko dana — što je u kasnijim vojnim raspravama navođeno kao primer dobre improvizacije."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ključna bitka odigrala se kod Slivnice, na putu prema Sofiji, između 17. i 19. novembra po julijanskom kalendaru — 29. novembra i 1. decembra po novom. Tu se srpski napad slomio. Posle tri dana borbi, srpska vojska je bila prinuđena na povlačenje, sa teškim gubicima, u neredu koji su savremenici opisivali kao tešku, gotovo nepodnošljivu sliku. Bugari su zatim prešli u kontranapad, prešli granicu i krajem novembra ušli u Pirot. Put prema Nišu bio je, makar privremeno, otvoren. Srbija se našla u poziciji koja se na početku rata nije ni zamišljala — branila je sopstvenu teritoriju u ratu koji je sama započela."
+    },
+    {
+      "type": "paragraph",
+      "text": "U tom trenutku, kad se činilo da gubitak može postati još veći, u igru je ušla Austro-Ugarska. Grof Kevenhiler, austrijski poslanik u Beogradu, pojavio se u bugarskom glavnom stanu sa ultimatumom: ako bugarska vojska nastavi napredovanje, Austro-Ugarska će reagovati. Pretnja je delovala. Bugarska, koja je upravo bila u nezavidnoj diplomatskoj poziciji zbog samog ujedinjenja, nije smela da rizikuje sukob sa velikom silom. Primirje je sklopljeno 28. novembra 1885. po julijanskom — 10. decembra po novom kalendaru. Mirovni ugovor potpisan je u Bukureštu u martu 1886. godine. Po njemu, granice ostaju nepromenjene; nije bilo ni teritorijalnog gubitka, ni teritorijalne dobiti. Formalno, vraćalo se predratno stanje."
+    },
+    {
+      "type": "paragraph",
+      "text": "Politički, međutim, ništa nije bilo isto. Srpska vojska je ostala bez ijedne sigurne pobede u ratu koji je sama otvorila, a uz to je morala da prihvati da je njena teritorija — Pirot — bila u rukama suseda. Ironična izreka koja je tih meseci kružila Beogradom — da su Bugari „pobednici Slivnice, a gubitnici mira“ — više je govorila o srpskoj potrebi da nađe utehu nego o stvarnom odnosu snaga. U novinama, u kafanama, u parlamentu počelo je tiho ali neumoljivo prebrojavanje odgovornosti. Kraljev politički ugled, već uzdrman ranijim spoljnopolitičkim odlukama i ličnim skandalima, ovim ratom je nepovratno potresen. Milan je iz 1885. izašao kao kralj kome više niko u zemlji ne veruje na reč."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ako se ovaj rat danas pošteno gleda, ne može mu se naći nijedno od onih opravdanja kakvih u srpskoj istoriji ima za druge ratove. Nije bio odbrambeni, jer Bugarska na Srbiju nije nasrtala. Nije bio oslobodilački, jer nije oslobađao srpsko stanovništvo iz tuđe vlasti. Nije bio dobro pripremljen, niti je uspešno izveden — završen je porazom u jedinoj velikoj bici. Srpski vojnik koji je krvario kod Slivnice za to nije imao ni razloga ni krivice; bio je poslat u rat koji nije razumeo, vođen ljudima koji ga nisu pripremili. To je, bez heroizacije, jedan od najružnijih ratova koji je srpska kraljevina vodila u devetnaestom veku — i jedan od onih čije se posledice neće završiti potpisom u Bukureštu, nego će tek u narednim godinama, kroz unutrašnju krizu Milanove vlade, doći do svog pravog svršetka."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

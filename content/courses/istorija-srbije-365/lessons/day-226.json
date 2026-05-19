@@ -6,13 +6,49 @@
   "dayNumber": 226,
   "order": 1,
   "title": "Knez Mihailo — prva vladavina",
+  "subtitle": "Mlad obrenovićki knez između očevog nasleđa, Sovjeta ustavobranitelja i bune Tome Vučića Perišića",
   "readingTimeMinutes": 7,
   "year": 1839,
-  "isPlaceholder": true,
+  "dateLabel": "1839–1842.",
+  "timelinePosition": "1839–1842.",
+  "summary": "Sedamnaestogodišnji Mihailo Obrenović preuzima presto u senci hatišerifa iz 1838, sukobljava se sa ustavobraniteljima i posle Vučićeve bune 1842. odlazi u prvo izgnanstvo.",
+  "keyPeople": ["Mihailo Obrenović", "Miloš Obrenović", "Milan Obrenović", "Toma Vučić Perišić", "Avram Petronijević"],
+  "keyPlaces": ["Kragujevac", "Beograd", "Topčider", "Vragolovi"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Kada je u junu 1839. Miloš Obrenović, posle dugog rvanja sa Sovjetom i sa hatišerifom koji mu je oduzeo gotovo svu ličnu vlast, najzad abdicirao i napustio Srbiju, presto je formalno prešao na njegovog starijeg sina Milana. Milan je već tada bio teško bolestan i umro je posle samo nekoliko nedelja vladavine, koju nikada zapravo nije ni preuzeo. Tako je u jesen iste godine knežev presto pao na drugog Miloševog sina — sedamnaestogodišnjeg Mihaila, rođenog 1823. u Kragujevcu. Bio je to nagao i tih dolazak na vlast jednog dečaka koji još uvek nije imao ni navršene osamnaeste, a već je nasledio državu u jeku ustavnog spora."
+    },
+    {
+      "type": "paragraph",
+      "text": "Mihailo je u mnogo čemu bio suprotnost ocu. Dok je Miloš bio nepismen, lukav i tvrd kao kremen, mlađi sin je deo školovanja proveo u Habzburškoj monarhiji, govorio strane jezike, čitao, držao se gospodski. U Beograd je dolazio kao mlad čovek evropskog kova — odmeren, kulturan, sklon redu. Ono što mu je nedostajalo bilo je upravo ono što je Miloš imao u izobilju: politička veština, osećaj za odnos snaga u zemlji i strpljenje da se sa neprijateljem prvo živi, pa tek onda obračunava. Nasleđe koje mu je palo u krilo nije bilo zahvalno. Tursko-ustavni okvir hatišerifa iz 1838. namerno je oslabio kneza i ojačao Sovjet od sedamnaest doživotnih članova, koje knez nije mogao da smenjuje po svojoj volji."
+    },
+    {
+      "type": "paragraph",
+      "text": "U tom Sovjetu odlučujuću reč imala je grupa prvaka koja će uskoro dobiti ime ustavobranitelji — branioci „ustava”, to jest upravo tog hatišerifa. Njihov vođa bio je Toma Vučić Perišić, čovek iz ustaničkog naraštaja, lukav, hrabar i bez obzira, sa velikim uticajem u narodu i u vojsci. Uz njega je stajao Avram Petronijević, suzdržaniji i veštiji u pregovorima sa Portom. Njih dvojica i njihovi pristalice nisu na Mihaila gledali kao na samostalnog vladara, nego kao na maloletnog Miloševog sina koji bi trebalo da carstvuje, ali ne i da vlada. Knez je, sa svoje strane, brzo pokazao da to nema nameru da prihvati."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Sukob sa Sovjetom"
+    },
+    {
+      "type": "paragraph",
+      "text": "Mihailo je krenuo putem koji je u datim okolnostima bio rizičan: pokušao je da vlada nezavisnije od Sovjeta, koristeći metode koje je dobro poznavao iz očevog stila — ličnu vlast, neformalne ljude oko sebe, pritisak na one koji se ne pokoravaju. Doveo je u zemlju oca Miloša na kratko, pokušao da na ključna mesta dovede svoje pristalice, slao poverljive ljude da osmotre raspoloženje u nahijama. Sovjet je odgovarao otporom, žalbama Porti i predstavkama u kojima je sebe prikazivao kao branioca ustavnog poretka, a kneza kao mladića koji srlja u samovolju. Spor se vukao više od dve godine, ulazio u sitnice administracije, prelivao se u svađe oko činovničkih postavljenja i oko upravljanja prihodima."
+    },
+    {
+      "type": "paragraph",
+      "text": "Krajem leta 1842. stvari su se izvile iz okvira pregovora. Vučić je, pošto je pripremio teren, podigao oružanu bunu — u izvorima poznatu kao Vučićeva buna, sa središtem oko Vragolova i sa okupljanjem prvaka među kojima se ističe Toplo Đorđević. Naoružana opozicija krenula je prema Topčideru i Beogradu. Mihailo je pokušao da prikupi snage, ali se brzo pokazalo da podrške u zemlji nema dovoljno: ustavobranitelji su imali na svojoj strani veći deo prvaka, deo vojske i, što je bilo presudno, naklonost Porte koja u mladom knezu nije videla pouzdanog sagovornika. Krajem avgusta 1842. Mihailo je, pod pritiskom i sa svešću da otpor više nema smisla, abdicirao i napustio Srbiju. Otišao je u izgnanstvo, koje će potrajati gotovo dve decenije."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pošteno gledano, prva Mihailova vladavina ostaje primer kako mlad, reformistički nastrojen vladar može pogrešno pročitati raspored snaga oko sebe. Pokušao je da uvede lični autoritet u sistem koji se upravo bio okrenuo ka oligarhiji prvaka i koji je tu oligarhiju pravno učvrstio hatišerifom. Nije bio ni nasilan ni naročito surov vladar — pre svega je bio nestrpljiv i preocenio sopstvenu snagu. Sa druge strane, ne treba romantizovati ni njegove protivnike: ustavobranitelji oko Vučića i Petronijevića branili su, doduše, oblik zakonitog poretka, ali su istovremeno štitili i sopstveni stalež i sopstvene poslove. Sukob nije bio sukob načela protiv samovolje, već dva razumevanja kneževske vlasti — i u tom prvom krugu samovlast je izgubila."
+    },
+    {
+      "type": "paragraph",
+      "text": "Mihailo će se u Srbiju vratiti tek 1860. godine, kao zreo čovek koji je u međuvremenu video pola Evrope, izbliza pratio kako se vode druge male države i naučio koliko košta nestrpljenje. Druga vladavina biće drugačija — promišljenija, opreznija u sukobima, jasnija u ciljevima. Ali ono što se 1842. dogodilo u Vragolovima i Topčideru ostalo je u njegovom pamćenju kao prva, skupo plaćena lekcija: knez u Srbiji devetnaestog veka ne može vladati protiv prvaka samo zato što ima titulu i očevo ime."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

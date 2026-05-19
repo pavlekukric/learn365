@@ -6,13 +6,53 @@
   "dayNumber": 155,
   "order": 5,
   "title": "Islamizacija i verski život",
+  "subtitle": "Gde se pod osmanskom vlašću prelazilo u islam, a gde je pravoslavlje ostalo kičma srpskog identiteta",
   "readingTimeMinutes": 7,
   "year": 1600,
-  "isPlaceholder": true,
+  "dateLabel": "15–18. vek",
+  "timelinePosition": "15–18. vek",
+  "summary": "Neravnomerna islamizacija balkanskih oblasti, motivi prelaska u islam, opstanak pravoslavne crkve i svakodnevni suživot vera u osmanskoj Srbiji.",
+  "keyPeople": [],
+  "keyPlaces": ["Bosna", "Šumadija", "Pećka patrijaršija", "Beograd", "Sarajevo"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Kada se danas govori o „turskim vekovima”, lako se zaboravi koliko je verska slika osmanskog Balkana bila šarena i koliko je neravnomerno tekao proces koji istoričari nazivaju islamizacijom. Nijedna naredba sa Porte nije pretvorila hrišćanske oblasti u muslimanske preko noći; nijedan kraj nije ostao potpuno netaknut. Između jednog i drugog kraja krilo se mnogo strpljivih, ponekad i bolnih ljudskih odluka, donošenih u sasvim svakodnevnim okolnostima — zbog poreza, službe, braka, položaja dece, ili, ređe, zbog iskrenog verskog ubeđenja."
+    },
+    {
+      "type": "paragraph",
+      "text": "Mapa prelaska u islam nije bila ravnomerna. U srednjim srpskim zemljama — u Šumadiji, u dolinama Morave, u zapadnoj Srbiji — udeo onih koji su prešli u islam ostao je razmerno nizak. Pravoslavna većina je opstala, sela su zadržala svoje sveštenike i svoje slave, a osmanski sloj bio je uglavnom gradski i upravni. U Bosni je slika bila bitno drugačija: do 18. veka procene govore da je između trećine i polovine stanovništva bilo muslimansko. Razloga je više i istorijska struka ih i danas pomera — slabost srednjovekovne Crkve bosanske, posebni posedovni odnosi nakon osmanskog osvajanja, položaj Bosne kao granične oblasti. U Albaniji su prelasci takođe bili obimni, naročito od 17. veka. Severni srpski krajevi, naprotiv, ostali su prvenstveno pravoslavni."
+    },
+    {
+      "type": "paragraph",
+      "text": "Zašto je neko menjao veru? Najčešće zbog niza vrlo praktičnih razloga koji su se nadovezivali jedan na drugi. Muslimani su plaćali manji porez i bili su pošteđeni glavarine — džizje. Pravni položaj im je bio povoljniji: u sporu pred kadijom svedočenje muslimana težilo je više. Otvarala su se vrata osmanskoj službi, vojnoj i upravnoj, i sa njima karijere kakve hrišćaninu nisu bile dostupne. U porodicama je islam mogao da znači zaštitu od danka u krvi — devširme — i bolji izgled za potomstvo. Bilo je i iskrenih obraćenja, i pritiska lokalnih moćnika, i tihog kućnog uticaja kada se neko u kući poturčio pa za sobom postepeno povukao i ostale. Otvorena sila kao državna politika bila je ređa nego što se ponekad misli, ali nije bila nepoznata u pojedinim epizodama, naročito posle ratova i pobuna."
+    },
+    {
+      "type": "paragraph",
+      "text": "Oni koji su prelazili obično su uzimali tursko ili bošnjačko-muslimansko ime, ulazili u muslimansku versku zajednicu — milet — i sa njom u njen pravni i obredni krug. Ali jezik kuće, pesme, običaji oko rođenja i smrti često su ostajali slovenski. U mnogim porodicama nove i stare navike živele su naporedo decenijama, ponekad i duže. Komšijska veza između muslimana i hrišćana u istom selu znala je biti sasvim mirna; pomagalo se oko žetve, čuvao tuđi imetak, pozivalo na svadbe. Ipak, ispod te svakodnevice stajala je nejednakost zimijskog statusa — pravoslavni i katolici bili su „štićeni”, ali drugorazredni podanici — i ona se osećala u sudu, u odeći, u zabranama oko zvona i nove gradnje crkava."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Pravoslavna postojanost"
+    },
+    {
+      "type": "paragraph",
+      "text": "Glavna srpska priča iz ovih vekova ipak je priča o opstanku pravoslavne crkve. Liturgija se služila na slovenskom jeziku, kalendar i sveti dani su tekli kao i pre, manastiri su nastavljali svoj dnevni red molitve i rada. Sveštenstvo je u selima često bilo i jedina pismena osoba, i moralni autoritet, i posrednik prema vlasti. Posle obnove Pećke patrijaršije 1557. godine srpska crkva je ponovo dobila sopstvenu organizaciju, sopstvene episkope i sopstvenu pravnu zaštitu unutar osmanskog sistema. Bez te crkvene mreže nemoguće je razumeti kako je narod prošao kroz tri veka tuđe vlasti, a da je zadržao zajednički jezik, zajedničke svetitelje i zajedničko sećanje na sopstvene vladare."
+    },
+    {
+      "type": "paragraph",
+      "text": "Narodna pobožnost bila je živa, a često i sinkretička. Uz sveti krst i ikonu opstajali su stariji slojevi: krsna slava sa korenima koji sežu daleko pre hrišćanstva, obredi oko žetve i kiše, vidanje bolesti uz molitvu i travu, verovanje u znamenja. Hodočašća su bila redovan deo godišnjeg kalendara — silazilo se u Pećku patrijaršiju, u Dečane, u Studenicu, u manje mesne svetinje za koje se znalo da „pomažu”. Te tihe, ponavljane radnje držale su zajednicu na okupu jednako koliko i zvanične službe."
+    },
+    {
+      "type": "paragraph",
+      "text": "Verska slika bila je još složenija. U rudarskim varošima i u Bosni postojale su male katoličke zajednice — dubrovački trgovci, hrvatski rudari, albanski katolici — pod franjevačkom brigom i u sopstvenom miletu. Posle 1492. u osmanske gradove, među njima u Beograd, Sarajevo i Skoplje, doselili su se sefardski Jevreji proterani iz Španije; i oni su imali svoju zajednicu, svoju sinagogu i svoje rabine. Romske grupe živele su raštrkano, delom muslimanske, delom hrišćanske vere, najčešće na margini i jednog i drugog sveta."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pošteno je islam u ovim vekovima posmatrati kao stvarnu versku tradiciju koja je na Balkanu dobila svoje džamije, svoje učene ljude i svoje vernike, a ne samo kao tuđu pretnju. Oni koji su prelazili nisu bili izdajnici po automatizmu; bili su ljudi koji su u teškim prilikama birali ono što im se činilo manjim zlom ili većom prilikom. Ali središnja srpska linija ovog razdoblja jeste opstanak pravoslavlja — jezika bogosluženja, crkvenog kalendara i sveštenstva — kao kičme identiteta koji će, kada za to dođe vreme, postati osnova novog narodnog buđenja."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

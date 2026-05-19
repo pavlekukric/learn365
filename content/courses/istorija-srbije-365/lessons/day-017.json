@@ -6,13 +6,49 @@
   "dayNumber": 17,
   "order": 6,
   "title": "Stari Grci i Balkan",
+  "subtitle": "Kako je grčki svet stigao do balkanske unutrašnjosti — preko obale, trgovine i tuđih reči",
   "readingTimeMinutes": 7,
   "year": -400,
-  "isPlaceholder": true,
+  "dateLabel": "antika",
+  "timelinePosition": "~400. p. n. e.",
+  "summary": "Stari Grci nisu kolonizovali balkansku unutrašnjost — ona je ostala ilirska, tračka i, kasnije, keltska. Grčki uticaj je stizao drugim putevima: preko jadranskih kolonija, preko trgovine luksuznom robom koja se nalazi u knežinskim grobovima duboko u zaleđu, i preko grčkih pisaca koji su prvi opisali balkanske narode — često netačno, ali za sva vremena.",
+  "keyPeople": ["Herodot", "Strabon", "Filip II", "Aleksandar Veliki"],
+  "keyPlaces": ["Epidamnos", "Apolonija", "Trebenište", "Atenica", "Novi Pazar"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Kada se pomenu stari Grci i Balkan, lako je pomisliti da su Heleni svoj svet protezali duboko u unutrašnjost poluostrva. Stvarnost je bila bitno drugačija. Grčka civilizacija je u svom klasičnom dobu ostala vezana za more — za obale Egeja, Jonskog mora, južnog Jadrana, i za udaljene kolonije na Siciliji, u južnoj Italiji i oko Crnog mora. Balkanska unutrašnjost, ona koja danas obuhvata Srbiju, severnu Makedoniju, Bosnu, Albaniju i šire, ostala je u praistorijskim i ranim antičkim vekovima u rukama drugih naroda: na zapadu i jugozapadu Ilira, na istoku Tračana, kasnije i Kelta koji su pristizali sa severozapada. Grci se u taj svet nisu uselili — ali su u njega ušli na tri tiha načina."
+    },
+    {
+      "type": "paragraph",
+      "text": "Prvi je bio obalski. Grčki gradovi-države su, počev od osmog veka pre nove ere, osnivali kolonije na raznim stranama Sredozemlja, a jedan ogranak tog talasa stigao je i do južnog Jadrana. Korint je 627. godine pre nove ere osnovao Epidamnos, naselje na mestu današnjeg Drača u Albaniji; nešto kasnije, na obali nedaleko odatle, osnovana je i Apolonija. Te dve kolonije nisu bile osmišljene kao mostobrani za osvajanje zaleđa. One su bile luke, trgovačka uporišta, mesta gde su se grčki brodovi sretali sa ilirskim trgovcima i odakle se roba kretala dalje u unutrašnjost. Oko njih je ostao ilirski svet, sa kojim su Grci sklapali poslove, ulazili u sukobe i, povremeno, u brakove — ali ga nisu menjali iz osnova."
+    },
+    {
+      "type": "paragraph",
+      "text": "Drugi i, za balkansko zaleđe, mnogo važniji put bio je trgovački. Iz grčkih radionica polazila je fina keramika, nakit, vino u amforama, oružje, ogledala — sve ono što je činilo prestiž antičkog Mediterana. Ta roba je putovala preko više ruku, preko mreža razmene koje su povezivale obalu sa unutrašnjošću. Tragovi tog putovanja danas se najjasnije čitaju u takozvanim knežinskim grobovima — bogatim sahranama ilirskih i tračkih prvaka, gde se grčki uvozni predmeti pojavljuju kao znak moći i veze sa udaljenim svetom. Čuveni primer su grobovi iz Trebeništa u današnjoj severnoj Makedoniji, sa zlatnim maskama i grčkim posuđem iz šestog veka pre nove ere. Na tlu današnje Srbije, ilirski grobovi iz Atenice kod Čačka i nalazi iz okoline Novog Pazara takođe su otkrili predmete grčkog porekla — dokaz da se egejska roba probijala duboko u kontinent."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Pogled spolja"
+    },
+    {
+      "type": "paragraph",
+      "text": "Treći način na koji su Grci „ušli” na Balkan bio je posredan — kroz reči. Grčki istoričari i geografi prvi su počeli da zapisuju ono što su njihovi mornari, trgovci i ratnici čuli o narodima sa kojima su dolazili u dodir. Herodot u petom veku pre nove ere pominje Tračane kao jedan od najbrojnijih naroda sveta posle Indijaca i daje šture, ali dragocene podatke o Ilirima i drugim balkanskim plemenima. Vekovima kasnije, Strabon je u svojoj „Geografiji” pokušao da sistematizuje sve što su Heleni i Rimljani znali o zaleđu Jadrana, Dunava i Egejskog mora. Zahvaljujući njima, prvi put imamo pisana imena za narode koje arheologija inače poznaje samo po stvarima."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ti opisi, međutim, valja čitati oprezno. Grci su o Balkanu pisali sa strane i odozgo — često bez direktnog uvida, oslanjajući se na priče putnika ili na starije izvore. Njihovi tekstovi su puni stereotipa o „divljim” severnim narodima, mešaju imena, pripisuju iste običaje različitim plemenima, a ponekad i izmišljaju gde im podaci nedostaju. Pa ipak, bez tih nesavršenih svedočanstava, balkanski narodi gvozdenog doba ostali bi za nas potpuno nemi. Grčka reč je, uz svu svoju pristrasnost, prva svetlost koja iz pisane istorije pada na ovo tlo."
+    },
+    {
+      "type": "paragraph",
+      "text": "Postoji i jedan izuzetak od pravila da Grci nisu prodirali u unutrašnjost — Makedonija. U četvrtom veku pre nove ere, pod Filipom II i njegovim sinom Aleksandrom Velikim, makedonska država proširuje se sa severa Egeje i privremeno doseže delove balkanskog zaleđa, sve do Dunava. Aleksandar je pre svog azijskog pohoda vodio kratke kampanje protiv tribalskih i ilirskih plemena na severu. Ali makedonsko prisustvo u dubokoj unutrašnjosti bilo je vojno i kratkotrajno; trajne kolonizacije, kakva je obeležila Sredozemlje, ovde nije bilo. Posle Aleksandrove smrti, helenistički svet okrenuo se istoku, a balkansko zaleđe ostalo je svojim ilirskim, tračkim i, sve više, keltskim gospodarima."
+    },
+    {
+      "type": "paragraph",
+      "text": "Kada Rim, dva veka kasnije, krene da osvaja Balkan, on neće stupiti u potpuno nepoznat svet. Naići će na region koji je već generacijama bio kulturno svestan Grčke — preko trgovine, preko obalskih gradova, preko grčkih predmeta u domovima lokalnih prvaka. U istočnim delovima poluostrva, grčki jezik će ostati jezik kulture i administracije i kroz čitav rimski period, sve do Vizantije i dalje. Iako Heleni nikada nisu naselili balkansku unutrašnjost, oni su je oblikovali na način koji se ne meri kolonijama, već trajnim prisustvom njihove robe, njihovog pisma i, naposletku, njihovog pogleda. Mnogo onoga što danas znamo o praistorijskim narodima ovog tla — zna se zato što je neki Grk, nekada davno, smatrao vrednim da to zapiše."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

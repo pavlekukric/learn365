@@ -6,13 +6,57 @@
   "dayNumber": 166,
   "order": 4,
   "title": "Vojna krajina",
+  "subtitle": "Habzburški pojas uz osmansku granicu u kome je deo srpskog naroda živeo pod puškom i pod posebnim povlasticama",
   "readingTimeMinutes": 8,
   "year": 1650,
-  "isPlaceholder": true,
+  "dateLabel": "16–18. vek",
+  "timelinePosition": "16–18. vek",
+  "summary": "Vojna krajina kao habzburški militarizovani pojas duž osmanske granice: nastanak, organizacija, srpsko stanovništvo, povlastice, vojna obaveza i kraj sistema 1881.",
+  "keyPeople": [],
+  "keyPlaces": ["Vojna krajina", "Slavonija", "Banat", "Hrvatska krajina", "Beč"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Kada je u 16. veku osmanska sila prvi put prešla Savu i Dunav i počela da preti samom srcu Srednje Evrope, Habzburška monarhija je shvatila da klasična feudalna odbrana — vlastela, zamkovi, povremena vojska — nije dovoljna. Bio joj je potreban stalni, naseljeni odbrambeni zid, ljudi koji žive na granici i koji su, čim sa najbliže palanke odjekne uzbuna, već naoružani i u sedlu. Iz tog praktičnog očaja, postepeno, bez jednog osnivačkog akta, rodila se ustanova koja će vekovima oblikovati život miliona ljudi — Vojna krajina, na nemačkom Militärgrenze, dugačak militarizovani pojas duž osmanske granice."
+    },
+    {
+      "type": "paragraph",
+      "text": "Prve krajiške oblasti formirane su u 16. veku u Hrvatskoj i Slavoniji, tamo gde je pritisak Osmanlija bio najjači. Tokom 17. i naročito 18. veka, posle velikih ratova i pomeranja granica, krajina se širila ka istoku — preko Slavonije, dalje na Srem, Bačku, Banat i sve do današnje Rumunije. U svom najvećem obimu, krajem 18. veka, činila je dugačak luk od jadranske obale do donjeg Dunava, na pojedinim deonicama širok i po nekoliko desetina kilometara. Bila je to, u suštini, vojnička koža koju je Monarhija navukla na svoju južnu granicu."
+    },
+    {
+      "type": "paragraph",
+      "text": "Svrha sistema bila je dvostruka. Prvo, slojevita odbrana — niz utvrđenja, stalnih straža i naoružanih sela koji bi usporili svaku osmansku provalu dok se carska vojska ne sakupi. Drugo, ljudski rezervoar — krajina je davala Beču izvanrednu, jeftinu i bojevu pešadiju i lako konjaništvo, „graničare” koji su, kada nije bilo turskog rata, slati u sasvim druge ratove: u Italiju, u Nizozemsku, na Rajnu, kasnije i protiv Napoleona. Habzburzi su tako uspeli da po uzoru na osmansku graničnu organizaciju izgrade sopstveni odgovor — vojničku populaciju koja se sama hrani i sama brani, a koja je trajno na raspolaganju vladaru."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Pod komandom iz Beča"
+    },
+    {
+      "type": "paragraph",
+      "text": "Vojna krajina nije bila pod vlašću ugarskog sabora ni hrvatskog bana, već pod neposrednom vojnom upravom iz Beča, preko Dvorskog ratnog saveta. To je bila njena suštinska crta i izvor stalnih trvenja sa Peštom i Zagrebom, koji su krajinu doživljavali kao deo svog ustavnog prostora otkinut u korist krune. Teritorija je deljena na pukove, svaki sa svojom deonicom granice i svojim sedištem; pukom je komandovao školovani austrijski oficir, ali su ljudstvo davala lokalna sela. Svaki muškarac sposoban za oružje bio je, u načelu, vojnik — pripadao je svom puku od mladosti do starosti i mogao je svakog časa biti pozvan."
+    },
+    {
+      "type": "paragraph",
+      "text": "Naseljenici su uglavnom bili pravoslavni Srbi, izbegli iz osmanskih oblasti — najpre tokom 16. i 17. veka, a u velikim talasima posle Seobe 1690. i kasnijih ratova. Uz njih su živeli i Hrvati, Vlasi, nešto Nemaca po vojnim varošima i drugi hrišćanski doseljenici. Zemlja im je davana na korišćenje pod uslovom nasledne vojne službe: porodica drži posed, ali za njega plaća ne porez, nego krv. Osnovna jedinica nije bila pojedinac, nego zadruga — proširena porodica koja zajednički obrađuje imanje, izdržava se i, kada zatreba, daje jednog ili više svojih muškaraca u puk. Ta veza zemlje, porodice i puške bila je srce krajiškog života."
+    },
+    {
+      "type": "paragraph",
+      "text": "Zauzvrat, graničari su uživali povlastice koje su iz ugla mađarskog kmeta delovale velike. Bili su lično slobodni, oslobođeni najvećeg dela feudalnih dažbina koje su pritiskale seljaštvo u ostatku Ugarske, imali su svoje seosko samoupravljanje pod vojnom strukturom i — što je za srpski narod bilo posebno važno — imali su zajemčenu versku slobodu. Pravoslavna crkva je u krajini imala svoje sveštenike, parohije, hramove i, na nekim mestima, manastire. Privilegije koje je Leopold I izdao Srbima krajem 17. veka, posle Seobe, dale su tim slobodama čvršći pravni okvir, mada je njihovo poštovanje u praksi zavisilo od trenutka i od ljudi u Beču."
+    },
+    {
+      "type": "paragraph",
+      "text": "Drugu stranu medalje treba reći jednako mirno. Život na krajini bio je tvrd. Stalna spremnost na pohod, dugi marševi po dalekim ratištima, gubici u bitkama koje sa srpskom granicom nisu imale veze — sve je to iscrpljivalo i ljude i imanja. Poljoprivreda je bila ograničena vojnim obavezama, trgovina sputana, a po habzburškim merilima graničarska sela su često bila siromašna. Privilegije su bile stvarne; cena tih privilegija bila je takođe stvarna. Sistem je počivao na obe ove istine istovremeno i nije ga pošteno opisivati ni kao idilu seljačke slobode ni kao puko ropstvo pod tuđim oficirima."
+    },
+    {
+      "type": "paragraph",
+      "text": "Iz tog načina života izrasla je posebna krajiška kultura — disciplinovana, vojnička, ali i izrazito narodna, sa svojim pesmama, običajima, vezama među zadrugama i jakim osećanjem zajedničke sudbine. Graničari su tokom 18. veka važili za jednu od najboljih lakih jedinica habzburške vojske; iskustvo, hrabrost i sposobnost da se snađu u teškom terenu donosili su im poštovanje čak i kod stranih posmatrača. To iskustvo neće ostati bez posledica: mnoge vođe srpskih ustanaka i nacionalnih pokreta u 19. veku, oficiri i pisci, ponikli su iz krajiških porodica ili su prošli kroz njihove škole i pukove."
+    },
+    {
+      "type": "paragraph",
+      "text": "Tokom 18. i 19. veka sistem se postepeno menjao. Sa povlačenjem osmanske granice na jug, neke deonice gubile su prvobitan smisao i bile demilitarizovane; Banatska krajina ukinuta je sredinom 19. veka, a poslednji, hrvatski delovi vraćeni su civilnoj hrvatskoj upravi 1881. godine. Time je formalno zatvorena ustanova koja je više od tri stoleća držala jednu od najdužih granica u Evropi. Za srpski narod Vojna krajina ostala je jedno od mesta gde se, daleko od matice, kalio osećaj zajednice — pod tuđom krunom, ali sa sopstvenom verom, jezikom i puškom u ruci."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

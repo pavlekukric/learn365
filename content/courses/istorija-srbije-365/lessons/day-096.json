@@ -6,13 +6,53 @@
   "dayNumber": 96,
   "order": 7,
   "title": "Srbija i Dubrovnik",
+  "subtitle": "Mali primorski grad i veliko zaleđe — kako je vekovni trgovački savez nadživeo i carstva i kraljevine",
   "readingTimeMinutes": 7,
   "year": 1300,
-  "isPlaceholder": true,
+  "dateLabel": "13–14. vek",
+  "timelinePosition": "13–14. vek",
+  "summary": "Dubrovnik kao mali katolički, latinsko-italijanski primorski grad i Srbija kao njegovo glavno rudarsko zaleđe: poveljama, carinama i tributima građen je vekovni trgovački savez koji je nadživeo i Nemanjiće i tursko osvajanje.",
+  "keyPeople": [],
+  "keyPlaces": ["Dubrovnik", "Ston", "Novo Brdo", "Brskovo", "Trepča"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Na uskom pojasu jadranske obale, stisnut između mora i strmih krševitih brda, ležao je grad koji je u srednjem veku bilo lako previdjeti na karti, a teško zaobići u poslu. Dubrovnik — Latinima i samim sebi Ragusa — imao je u trinaestom i četrnaestom veku verovatno oko pet hiljada stanovnika unutar zidina. Bio je katolički, govorio je mešavinom dalmatskog latinskog, italijanskog i sve više slovenskog jezika, i kroz vekove je formalno priznavao različite gospodare: Vizantiju, Mletke, ugarsku krunu, naposletku i sultana. U praksi je, međutim, uvek vodio svoje poslove sam. A glavni posao tog malog grada bio je — Srbija."
+    },
+    {
+      "type": "paragraph",
+      "text": "Odnos je bio trgovački u samoj srži, i baš zato je preživeo razlike u veri, jeziku i političkom pokrovitelju. Dubrovniku je iza leđa stajalo zaleđe puno onoga što je trebalo Mediteranu: srebra, olova, voska, kože, soli i robova. Srbiji je, sa svoje strane, trebao izlaz na more koji ne pripada nijednoj velikoj sili — luka kroz koju će roba iz unutrašnjosti stići do Venecije, Ankone, Apulije i dalje, i kroz koju će se nazad vraćati so, tkanine, začini i zlatnici. Dubrovački brodovi i dubrovački kreditni papiri rešavali su upravo taj problem. Bez njih bi srpsko rudarstvo, ma koliko bogato, ostalo zatvoreno u sebi."
+    },
+    {
+      "type": "paragraph",
+      "text": "Tako je već od ranog trinaestog veka, a posebno za vlade Nemanjića, izrasla mreža dubrovačkih trgovačkih kolonija u svim važnijim srpskim gradovima i rudnicima. U Brskovu, kasnije u Trepči, Plani, najzad i u velikom Novom Brdu, postojale su čitave dubrovačke četvrti — sa sopstvenim konzulom, svojim sveštenikom, svojim pravnim običajima. Sporove između Dubrovčana sudio je dubrovački konzul po dubrovačkom pravu; tek mešovite parnice, između domaćeg sveta i Dubrovčana, izlazile su pred vladarev sud. Bila je to, gledano današnjim rečnikom, vrsta pažljivo dogovorene pravne autonomije usred tuđe države — ali bez ratovanja, bez vojske, bez teritorijalnih pretenzija. Sve je počivalo na povelji."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Povelje, carine, stonski dohodak"
+    },
+    {
+      "type": "paragraph",
+      "text": "Srpski vladari, od Stefana Prvovenčanog do cara Dušana i njegovih naslednika, izdavali su Dubrovniku jednu povelju za drugom. Njima su potvrđivane stare slobode, dodavale nove i precizirale stope carine na pojedine vrste robe. Te povelje, pisane staloženim, gotovo poslovnim jezikom, najbolji su jedinstveni izvor koji uopšte imamo za srednjovekovnu srpsku ekonomiju. Same „carine” — što je tada značilo i poreze na promet i carinarnice na putevima — pretvorile su se u jedan od glavnih izvora kraljevskih prihoda. Trg na kome se vagalo srebro u Novom Brdu i kantar u dubrovačkoj luci bili su, na neki način, dva kraja istog konopca koji je hranio i srpsku državnu kasu i dubrovačko Veće umoljenih."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sa svoje strane, Dubrovnik je srpskom kralju, a kasnije caru, plaćao precizno odmerene godišnje obaveze. Najpoznatija je bila ona koja se ustalila posle 1333. godine, kada je Stefan Dušan, tada još mladi kralj, prodao Dubrovčanima poluostrvo Ston i deo Pelješca. Otada se uvelo redovno godišnje plaćanje, takozvani stonski dohodak, koji je Dubrovnik isplaćivao srpskom vladaru u zlatnicima. Pored njega, postojali su i drugi, manji tributi i pokloni o pojedinim prilikama. Odnos između dva suseda uređen je, dakle, brojkama i datumima, a ne maglovitom vazalnom zavisnošću; obe strane su tačno znale ko šta duguje i do kada."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pored robe i novca, putovali su i ljudi. Dubrovački zlatari, klesari i zidari radili su po srpskim gradovima i dvorovima; dubrovački sveštenici služili su katoličkim kolonijama u srpskim rudarskim mestima; dubrovački lekari i apotekari nalazili su se u službi srpskih vladara, kao i poneki bankar i diplomata koji je kralju pozajmljivao novac i nosio njegova pisma na italijanske dvorove. U suprotnom smeru, srpska vlastela i trgovci često su silazili u Dubrovnik, ostavljali tamo testamente, deponovali srebro kod tamošnjih notara i krštavali decu u njegovim crkvama. Granica je formalno postojala — i verska i državna — ali se preko nje, dan za danom, prelazilo bez većih dramskih scena."
+    },
+    {
+      "type": "paragraph",
+      "text": "Upravo zato je dubrovački arhiv danas pravo blago. U njemu se, sređeno i numerisano, čuva više hiljada ugovora, pisama, sudskih spisa i beležničkih knjiga koji govore o srednjovekovnoj srpskoj svakodnevici detaljnije nego ijedan domaći izvor. Iz tih spisa znamo cene srebra po godinama, imena trgovaca u Novom Brdu, sastav karavana, sukobe oko dugova, miraze, testamente i smrti daleko od kuće. Treba odmah priznati i ono što je za istoričara nelagodno: pogled je gotovo uvek dubrovački. Srpski sagovornik u tim spisima govori, ali kroz pero stranog beležnika, na stranom jeziku, sa stranim namerama. Slika je živa, ali jednostrana — i ozbiljna istorija to mora stalno da ima na umu."
+    },
+    {
+      "type": "paragraph",
+      "text": "Najupečatljivije svedočanstvo o tome koliko je veza bila duboka stiglo je posle pada srednjovekovne srpske države. Kada su 1459. Turci osvojili Smederevo i konačno ugasili Despotovinu, mogao se očekivati i kraj dubrovačke trgovine u tom prostoru. Nije se dogodio. Dubrovački trgovci sklopili su sopstveni dogovor sa sultanom, nastavili da plaćaju harač i ostali su u rudnicima i na putevima Srbije i Bosne još vekovima — često kao jedini neprekinuti most između turskog Balkana i katoličke Italije. Mali grad pod Srđem nadživeo je i Nemanjiće, i Lazareviće, i Brankoviće, pa i sopstvenog gospodara u Mlecima; mreža koju je s njima izgradio bila je, na svoj tihi način, jedna od najstabilnijih tvorevina srednjovekovnog Balkana."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

@@ -6,13 +6,49 @@
   "dayNumber": 126,
   "order": 8,
   "title": "Privredni procvat Despotovine",
+  "subtitle": "Kako je u senci osmanske pretnje srpska Despotovina doživela najbogatije decenije pozne srednjovekovne istorije",
   "readingTimeMinutes": 7,
   "year": 1420,
-  "isPlaceholder": true,
+  "dateLabel": "prva polovina 15. veka",
+  "timelinePosition": "prva polovina 15. veka",
+  "summary": "Rudnici srebra, dubrovački trgovci i carine despotove blagajne: privredni procvat Despotovine u prvoj polovini 15. veka, u trenutku kada se osmanska senka već primicala.",
+  "keyPeople": [],
+  "keyPlaces": ["Novo Brdo", "Beograd", "Smederevo", "Dubrovnik", "Trepča", "Rudnik"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Postoji jedan paradoks koji često zbuni one koji prvi put čitaju o srpskoj Despotovini. Vreme u kome je država živela pod sve težom osmanskom senkom, vreme koje će se završiti padom 1459. godine, bilo je istovremeno — gledano čisto materijalno — najbogatiji period pozne srednjovekovne srpske istorije. Rudnici su radili punim kapacitetom, gradovi su rasli, dubrovački trgovci punili su gostionice u rudarskim varošima, a despotova blagajna primala je tolike prihode da je mogla istovremeno da gradi Manasiju, utvrđuje Beograd i Smederevo, izdržava stalnu vojsku i šalje mlade ljude na strane univerzitete. Procvat i propast išli su uporedo."
+    },
+    {
+      "type": "paragraph",
+      "text": "Srce te privrede bili su rudnici srebra. Novo Brdo, smešteno na visoravni jugoistočno od Prištine, bilo je u tridesetim godinama 15. veka jedan od najvećih rudnih centara čitave Evrope. Procene su nesigurne, ali ozbiljni autori dopuštaju da je u svom vrhuncu Novo Brdo davalo i do petine evropske proizvodnje srebra. Njegovo srebro bilo je posebno cenjeno jer je sadržalo i znatan procenat zlata — takozvano „glamno” srebro, koje se topilo u poseban legirani kovani novac. Pored Novog Brda radili su Trepča, Janjevo, Rudnik, Kratovo, Plana i niz manjih okana; ceo lanac rudarskih varoši protezao se od Kopaonika do današnje severne Makedonije. Tehnologiju su pre svega doneli saški rudari još u 13. veku, a u 15. veku njihovi potomci, sada već jezički i kulturno izmešani sa srpskim, dubrovačkim i grčkim življem, vodili su poslove sa pisanim ugovorima, sopstvenim sudovima i rudarskim zakonikom."
+    },
+    {
+      "type": "paragraph",
+      "text": "Te rudarske varoši bile su nešto sasvim novo na srpskom tlu — pravi gradovi u zapadnoevropskom smislu. U njima su živeli Srbi, Sasi, Dubrovčani, Grci, Albanci, ponegde Jermeni i Jevreji, pravoslavni i katolici, ponekad odvojeni u zasebne četvrti, ponekad pomešani na istoj ulici. Procene stanovništva uvek treba uzeti s rezervom, ali se za samo Novo Brdo u vrhuncu pretpostavlja između deset i četrdeset hiljada stanovnika, što je za to vreme i u tom delu Evrope bila izuzetna gustina. Bili su to gradovi koji su živeli od rude, ne od zemlje, sa svojim crkvama, pijacama, gostionicama i utvrđenim gornjim gradom u kome je sedeo despotov vojvoda."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Trgovina, putevi, prihodi"
+    },
+    {
+      "type": "paragraph",
+      "text": "Srebro koje je izlazilo iz srpskih okana putovalo je u svet, a put je vodio uglavnom preko Dubrovnika. Dubrovačka opština održavala je u svakom većem srpskom gradu svoje trgovačke kolonije, sa konzulima, sopstvenim ugovornim pravom i pažljivo vođenim knjigama. Upravo ti dubrovački arhivi — sačuvani gotovo neprekinuto — danas su jedan od najvažnijih izvora za poznavanje srpske privrede tog doba. Iz njih se vidi i koliko se srebra slalo, i kojim putevima, i po kojim cenama. Glavni pravci išli su preko Beograda na sever, ka Ugarskoj i srednjoj Evropi; preko Niša i Soluna ka jugu i Carigradu, koliko su prilike dopuštale; i, najvažnije, preko jadranske obale ka Veneciji i ostalim italijanskim gradovima, gde je srpsko srebro završavalo u kovnicama dukata i u radionicama za izradu posuđa."
+    },
+    {
+      "type": "paragraph",
+      "text": "Despotova blagajna od svega toga uzimala je svoj deo. Carine na trgovinu, posebno na dubrovačku, bile su jedan od najbogatijih prihoda; uz njih su išle dažbine sa rudnika, takozvani urbur, koji je državi pripadao kao gospodaru zemljišta i rude. Prihodi su bili dovoljni za stvari koje srpska država ranije nije sebi mogla da priušti u takvom obimu. Iz tih sredstava plaćana je nova prestonica u Smederevu posle 1430. godine, podizan je manastir Manasija sa svojim moćnim zidovima, izdržavana je stalna vojska na koju se vladar mogao osloniti i bez pozivanja vlastele, slati su darovi atoskim manastirima i, što je možda i najlepši pojedinačni potez, plaćane su školarine odabranim mladićima koje je despot Stefan slao na studije u Italiju i Ugarsku."
+    },
+    {
+      "type": "paragraph",
+      "text": "Uz rudnike i trgovinu, treba zapamtiti i Beograd. Pošto ga je Stefan Lazarević 1404. godine dobio od ugarskog kralja, grad je preuređen u pravu prestonicu — sa utvrđenjem, lukom na Savi i Dunavu, carinarnicom i trgovačkim četvrtima. Procene njegovog stanovništva idu od oko trideset do pedeset hiljada u najboljim godinama, što ga svrstava među veće gradove regiona; brojke ipak treba uzeti s oprezom jer se zasnivaju na posrednim podacima. Posle 1427, kada se po ugovoru morao vratiti Ugarskoj, težište se prenosi na novosagrađeno Smederevo. Seoska privreda u zaleđu, treba odmah reći, nije pratila taj urbani polet ničim spektakularnim; ona je tekla starim srednjovekovnim ritmom, skromno ali stabilno, hraneći gradove i plaćajući svoje dažbine. Procvat je bio gradski, rudarski i trgovački pre svega."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ostaje tamna strana priče, koja je istoričarima dobro poznata. Upravo to bogatstvo bilo je nagrada koja je privlačila osmansku pažnju. Dok je trajao osmanski međusobni rat od 1402. do 1413. godine, i dok je Stefan Lazarević vešto manevrisao između Ugarske i sultana, Despotovina je živela u relativnoj sigurnosti i mogla je da iskoristi visoke evropske cene srebra. Kada je Mehmed I objedinio osmansku državu, a posebno kada je Murat II učvrstio vlast, pritisak na sever počeo je da raste. Despotovo srebro plaćalo je danak koji je odlagao rat, ali ga nije mogao zauvek otkupiti. Ono što arheologija, dubrovačke knjige i savremene hronike danas zajednički potvrđuju jeste da je prva polovina 15. veka, koliko god bila vreme strepnje, bila i vreme materijalnog uspona kakav srpske zemlje pre toga nisu poznavale — bogatstvo izgrađeno na ivici nadolazeće katastrofe."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

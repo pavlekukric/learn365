@@ -6,13 +6,57 @@
   "dayNumber": 315,
   "order": 13,
   "title": "Beograd između dva rata",
+  "subtitle": "Kako je razoreni balkanski grad od 120.000 stanovnika za dve decenije postao jugoslovenska prestonica od 320.000 ljudi",
   "readingTimeMinutes": 7,
   "year": 1930,
-  "isPlaceholder": true,
+  "dateLabel": "1918–1941.",
+  "timelinePosition": "1918–1941.",
+  "summary": "Beograd između 1918. i 1941. — od razrušenog graničnog grada do prestonice Jugoslavije, sa modernim središtem, novom arhitekturom, ali i siromašnim periferijama koje su rasle uporedo sa svečanim Terazijama.",
+  "keyPeople": ["Đorđe Kovaljevski", "Dragiša Brašovan", "Aleksandar Deroko"],
+  "keyPlaces": ["Beograd", "Terazije", "Dorćol"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Beograd koji je u jesen 1918. dočekao kraj rata bio je grad rana. Posle dve austrougarske okupacije, dugih bombardovanja sa Save i Dunava i hiljada izbeglica koje su se kroz njega vukle u oba pravca, ostalo je svega oko 120.000 stanovnika u gradu koji je u značajnim delovima i dalje izgledao osmansko-balkanski — niske kuće, kaldrmisane uličice, dvorišta sa bunarima, ravne ćeramidne strehe. Dvadeset i tri godine kasnije, u proleće 1941, taj isti grad imao je oko 320.000 stanovnika, savremen diplomatski kvart, monumentalne državne palate, tramvaje, autobuse, prve semafore i radio stanicu. Bio je prestonica zemlje od preko petnaest miliona ljudi. Malo koji evropski grad se u međuratnim decenijama tako vidno promenio za tako kratko vreme."
+    },
+    {
+      "type": "paragraph",
+      "text": "Okvir preobražaja postavljen je 1923. godine, kada je usvojen novi regulacioni plan, čiji je glavni autor bio ruski arhitekta Đorđe Kovaljevski, jedan od mnogih obrazovanih izbeglica koji su posle građanskog rata u Rusiji našli posao u jugoslovenskoj prestonici. Plan je predviđao širenje grada izvan starog jezgra, pravilne avenije, parkove, regulaciju Terazija i savske obale, kao i razdvajanje stambenih, poslovnih i upravnih zona. Sve nije sprovedeno, ali je dao orijentir prema kome se Beograd dvadeset godina razvijao."
+    },
+    {
+      "type": "paragraph",
+      "text": "Na tom okviru izrasle su zgrade koje grad i danas nose. Generalštab je dobio svoju prvu monumentalnu palatu 1928, iste godine kada je završena i nova zgrada Narodne banke; Beogradska berza, ministarstva, palate osiguravajućih društava i banaka redale su se duž Knez Mihailove, Terazija i Kralja Milana. Krajem dvadesetih i tokom tridesetih u Beogradu radi snažna generacija domaćih arhitekata — Dragiša Brašovan, Branko i Petar Krstić, Aleksandar Deroko, Nikola Dobrović, Milan Zloković — koja kombinuje modernizam, srpsko-vizantijske motive i monumentalni klasicizam. Pojavljuju se stambene zgrade sa liftom, ravnim krovovima i staklenim portalima, a Terazije i Vračar gube poslednje prizemne kuće. U isto vreme niknule su i nove sportske ustanove, među njima i veliki stadion na desnoj obali Save koji će kasnije nositi razna imena."
+    },
+    {
+      "type": "paragraph",
+      "text": "Saobraćaj se menjao još brže. Tramvajska mreža, nasleđena iz predratnog Beograda, proširena je novim linijama; pojavili su se prvi autobusi, taksi vozila i znatno veći broj privatnih automobila. Most kralja Aleksandra, otvoren 1934. preko Save — danas poznat kao Brankov most — prvi je put Stari grad povezao sa Zemunom čvrstom drumskom vezom, što je bio uslov svakog daljeg rasta. Prvi semafori upalili su se na raskršćima u središtu grada krajem decenije, oko 1939. Beograd je dobio i vazduhoplovni saobraćaj: civilni aerodrom na Banjičkom polju otvoren je 1927, a 1936. preseljen je na bolju lokaciju u Zemunu, gde su počele da sleću linije iz Pariza, Beča i Bukurešta."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Prestonički život"
+    },
+    {
+      "type": "paragraph",
+      "text": "Iza kamenih fasada živela je nova prestonička svakodnevica. Univerzitet je rastao, Srpska kraljevska akademija, kasnije SANU, postala je središte naučnog rada, Narodno pozorište obnovljeno je 1922. posle ratnih oštećenja, a 1923. osnovana je Beogradska filharmonija. Studentski grad na Novom Beogradu još nije postojao, ali je studentsko naselje na Vračaru već postojalo i bilo prepuno. Kafane su ostale prvo mesto okupljanja — Moskva, Kasina, Korint, Pariz — a uz njih su se pojavili i prvi noćni klubovi i kabarei oko Terazija i Skadarlije. U bioskopima Drina, Kolarac, Beograd i Luksor prikazivali su se holivudski i evropski filmovi, često iste sezone kao u zapadnim prestonicama."
+    },
+    {
+      "type": "paragraph",
+      "text": "Mediji su pratili taj zamah. „Politika”, već vodeći dnevni list, ojačala je u međuratnom periodu pod vlasnicima iz porodice Ribnikar; uz nju su izlazile i „Vreme”, „Pravda” i niz specijalizovanih listova. Radio Beograd počeo je redovan program 1929. i ubrzo postao važna informativna i kulturna ustanova, koja je u kuće donosila vesti, koncerte i prenose iz Narodnog pozorišta."
+    },
+    {
+      "type": "paragraph",
+      "text": "Demografski se grad menjao iz osnova. Doseljenici su stizali iz svih krajeva zemlje — iz Šumadije, Vojvodine, Bosne, Crne Gore, Makedonije — i, posle 1920, iz Rusije. Procene govore o oko 30.000 do 40.000 ruskih izbeglica koji su se u toku dvadesetih godina trajno naselili u Jugoslaviji; znatan deo završio je u Beogradu, gde su predavali na Univerzitetu, projektovali zgrade, dirigovali orkestrima i radili u inženjerskim biroima. Jevrejska zajednica brojala je krajem tridesetih oko 8.000 do 10.000 ljudi — sefardski Jevreji uglavnom na Dorćolu, aškenaski u centru — i bila je važan deo trgovačkog, zanatskog i intelektualnog života."
+    },
+    {
+      "type": "paragraph",
+      "text": "Bilo bi, međutim, pogrešno mali međuratni Beograd zamišljati samo kao parisku scenu sa Terazija. Naporedo sa modernim središtem rasle su i siromašne periferije — Jatagan-mala iznad železničke stanice, Tašmajdan-mala, baračka naselja na padinama prema Dunavu — u koja su se uglavnom slivali doseljenici bez kapitala. Tamo su kuće bile od nepečene cigle i dasaka, vodovoda često nije bilo, a deca su rasla u uslovima koji su se malo razlikovali od seoskog siromaštva. Razlika između prestoničke fasade i predgrađa bila je jedna od najupadljivijih osobina međuratnog Beograda i predmet stalne kritike socijalno orijentisanih pisaca i lekara."
+    },
+    {
+      "type": "paragraph",
+      "text": "Tako je grad ušao u 1941. — istovremeno mlad, ambiciozan i nesavršen. Bio je dovoljno velik i sređen da bude prestonica srednjoevropske države, dovoljno raznolik da spaja zapadnjačku eleganciju sa orijentalnim navikama, i dovoljno nejednak da pod novim staklenim portalima čuva ćumeze. Aprilski rat, bombardovanje 6. aprila i godine okupacije koje slede prekinuće taj razvoj u zaletu i razoriti veliki deo onoga što je izgrađeno. Ali ono što je između dva rata podignuto — od regulacionog plana i mostova do Univerziteta, akademije, filharmonije i novinarske tradicije — ostaće osnova na kojoj će se posle 1945. graditi sasvim drugačiji, ali ipak prepoznatljiv Beograd."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

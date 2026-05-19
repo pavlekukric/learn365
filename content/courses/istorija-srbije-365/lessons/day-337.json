@@ -6,13 +6,57 @@
   "dayNumber": 337,
   "order": 9,
   "title": "Smrt Josipa Broza Tita",
+  "subtitle": "Kako je 4. maja 1980. nestao čovek koji je trideset pet godina držao Jugoslaviju u jednom komadu",
   "readingTimeMinutes": 7,
   "year": 1980,
-  "isPlaceholder": true,
+  "dateLabel": "4. maj 1980.",
+  "timelinePosition": "4. maj 1980.",
+  "summary": "Smrt Josipa Broza Tita u Ljubljani 4. maja 1980, dani državne žalosti i veliki pogreb u Beogradu — trenutak iskrenog zajedničkog tugovanja koji je istovremeno otkrio koliko je Jugoslavija zavisila od jednog čoveka.",
+  "keyPeople": ["Josip Broz Tito", "Leonid Brežnjev", "Margaret Tačer", "Volter Mondejl", "Erih Honeker", "Indira Gandi"],
+  "keyPlaces": ["Ljubljana", "Beograd", "Kuća cveća", "Dedinje", "Zagreb"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "U petak 4. maja 1980. godine, u petnaest časova i pet minuta, u Kliničkom centru u Ljubljani umro je Josip Broz Tito, predsednik Socijalističke Federativne Republike Jugoslavije. Imao je gotovo osamdeset osam godina — rođendan bi mu pao tri dana kasnije. Bio je to čovek koji je punih trideset pet godina stajao na vrhu jugoslovenske države: prvo kao komandant partizanske vojske, zatim kao predsednik vlade, pa kao predsednik republike, i konačno, posle ustava iz 1974, kao doživotni predsednik. Za dve generacije građana, on je jednostavno bio onaj koji je oduvek tu i koji će uvek biti tu. Sa tih nekoliko minuta, ta predstava je prestala da važi."
+    },
+    {
+      "type": "paragraph",
+      "text": "Bolest je dugo trajala. Već u jesen 1979. njegovo zdravlje primetno se pogoršavalo, a u januaru 1980. primljen je u ljubljanski Klinički centar zbog teških tegoba sa krvotokom u nogama. Lekari su dijagnostikovali uznapredovalu aterosklerozu i bili prisiljeni na potez koji se danima oklevao izvesti — amputaciju leve noge. Operacija je donela kratko olakšanje, ali ne i oporavak. Tokom proleća stanje se polako pogoršavalo, a celokupna država živela je u atmosferi tihog iščekivanja, gde su zvanični izveštaji bivali sve oskudniji i odmereniji."
+    },
+    {
+      "type": "paragraph",
+      "text": "Vest o smrti stigla je u Jugoslaviju usred običnog popodneva. Možda najpoznatiji prizor toga trenutka odigrao se u Zagrebu, na stadionu Maksimir, gde je tekla utakmica između Hajduka i Crvene zvezde. Spiker je preko razglasa saopštio da je drug Tito umro. Stadion je za nekoliko trenutaka utihnuo. Igrači su stali, zatim seli na travu, a navijači obeju ekipa, do maločas suparnici, počeli su da plaču i da pevaju — najpre tiho, pa sve glasnije — „Druže Tito, mi ti se kunemo”. Slične scene odigrale su se po fabrikama, kancelarijama, vozovima, školskim hodnicima. Ljudi su zastajali na ulici, neki nepoznati jedni drugima padali u zagrljaj. To nije bila propagandno režirana tuga; bila je, za veliki deo zemlje, sasvim stvarna."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Pogreb 8. maja"
+    },
+    {
+      "type": "paragraph",
+      "text": "Sahrana je određena za 8. maj u Beogradu. Tih dana zemlja je živela u stanju zvanične i lične žalosti: zatvorene su škole, otkazani sportski događaji i koncerti, televizijski programi sveli su se na crno-bele snimke iz Titovog života i ozbiljnu muziku. Telo je vozom iz Ljubljane preneto u Beograd; duž pruge, na svakoj stanici i u svakom selu, stajale su grupe ljudi sa svećama i cvećem. U trenutku kada je u Beogradu kovčeg krenuo ulicama, u celoj zemlji oglasile su se sirene, saobraćaj je na nekoliko minuta stao, radnici u fabrikama zaustavili su mašine, a putnici u tramvajima i autobusima ćutke izašli na ulicu."
+    },
+    {
+      "type": "paragraph",
+      "text": "Beogradski pogreb opisan je tada, sa pravom, kao najveća državna sahrana u istoriji do toga časa. U glavni grad slegli su se predstavnici sto dvadeset osam zemalja: kraljevi, predsednici, premijeri i ministri sa svih strana hladnoratovskog sveta. Iz Moskve je došao Leonid Brežnjev, iz Londona Margaret Tačer, iz Vašingtona potpredsednik Volter Mondejl u ime predsednika Džimija Kartera, iz Istočnog Berlina Erih Honeker, iz Bukurešta Nikolae Čaušesku, iz Pekinga Hua Guofeng, iz Nju Delhija Indira Gandi. Stigla su i mnoga ključna imena nesvrstanog sveta — afrički, azijski i arapski lideri kojima je Jugoslavija decenijama bila partner u trećem putu između blokova. Bio je to, na svoj način, poslednji veliki susret epohe koja se završavala."
+    },
+    {
+      "type": "paragraph",
+      "text": "Tito je sahranjen u Kući cveća, u zimskoj bašti njegove rezidencije na Dedinju, na mestu koje je sam birao za miran kutak za odmor. Grob nije podignut kao mauzolej u klasičnom smislu — bez kipa, bez veličanstvenog natpisa, samo bela mermerna ploča sa imenom i datumima. Skromnost je bila proračunata: ostavljala je utisak vladara koji nije tražio carski sjaj, nego mesto među cvećem koje je voleo. U narednim godinama biće to najposećenija memorijalna tačka socijalističke Jugoslavije, sa rekama posetilaca koji su dolazili autobusima iz svih republika."
+    },
+    {
+      "type": "paragraph",
+      "text": "Iskrenost tuge, koju treba zabeležiti pošteno, ne znači da su svi žalili na isti način. Mnogi koji su privatno bili kritični prema režimu — disidenti, nacionalno opredeljeni intelektualci, ljudi sa lošim sećanjima iz Golog otoka ili posleratnih obračuna — takođe su osetili da odlazi nešto što ih je obeležavalo ceo život, makar i kao protivnik. Za većinu građana, međutim, Tito je bio nešto između državnika i porodičnog autoriteta: figura iz škole, sa fotografije u kancelariji, iz radničke svečanosti i sa štafetnih svečanosti svakog 25. maja. Njegov nestanak osetio se kao lični gubitak preko nacionalnih i ideoloških granica."
+    },
+    {
+      "type": "paragraph",
+      "text": "Iza emocija, već prvih dana posle sahrane, počele su se nazirati strukturne pukotine sistema. Ustav iz 1974. predvideo je za ovaj slučaj kolektivno predsedništvo — telo od osam članova, po jedan iz svake republike i pokrajine, koji su se na čelu smenjivali iz godine u godinu. Ta konstrukcija bila je pravno besprekorna, ali politički bezbojna: niko od rotirajućih predsedavajućih nije imao ni autoritet ni biografiju da preuzme ulogu integrativnog čvora kakvu je decenijama igrao Tito. Već 1981. izbiće prvi veliki nemiri na Kosovu; tokom narednih godina javni dug, hiperinflacija i pad standarda počeće da nagrizaju strpljenje stanovništva, a republičke politike sve otvorenije će se okretati svojim sopstvenim interesima."
+    },
+    {
+      "type": "paragraph",
+      "text": "Otuda 4. maj 1980. ima dvostruko lice. Bio je to trenutak iskrenog zajedničkog tugovanja, redak primer kada su se ljudi različitih vera, jezika i prošlosti zaista osećali kao jedna zajednica. Ali bio je i početni datum jednog tihog odbrojavanja — pokazatelj da je Jugoslavija, uprkos svim svojim institucijama, samoupravnim odborima i ustavima, na vrhu počivala na biografiji jednog jedinog čoveka. Kada je on otišao, ostala je država bez očiglednog sledećeg poglavlja. Kako će se to poglavlje pisati, biće zadatak narednih deset godina."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

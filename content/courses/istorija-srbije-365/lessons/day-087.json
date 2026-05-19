@@ -6,13 +6,49 @@
   "dayNumber": 87,
   "order": 9,
   "title": "Raška graditeljska škola",
+  "subtitle": "Prvi veliki stil srpske srednjovekovne arhitekture — susret vizantijske liturgije i romaničkog klesara",
   "readingTimeMinutes": 7,
   "year": 1200,
-  "isPlaceholder": true,
+  "dateLabel": "12–13. vek",
+  "timelinePosition": "12–13. vek",
+  "summary": "Kako je u Raškoj 12. i 13. veka, oko Nemanjinih i potonjih zadužbina, nastao prepoznatljiv stil crkvene arhitekture — jednobrodne kupolne crkve od finog kamena, vizantijske po duhu i romaničke po klesarskoj ruci.",
+  "keyPeople": [],
+  "keyPlaces": ["Studenica", "Žiča", "Mileševa", "Sopoćani", "Đurđevi Stupovi", "Dečani"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Kada se danas prođe ispod kapije Studenice ili Sopoćana, lako je previdjeti koliko su te crkve, u svom vremenu, bile neobična pojava. Sa istoka su nosile ono što su Nemanjini ljudi smatrali nepromenljivim — vizantijski raspored prostora, kupolu nad središtem, oltarsku apsidu okrenutu suncu što izlazi. Sa zapada su, međutim, dobile lice koje se u pravoslavnom svetu retko viđa: zidove od fino tesanog kamena, romaničke portale s lukovima ukrašenim lozicom i životinjama, klesarski rad onakav kakav se u to vreme radio na obali Jadrana i u Italiji. Iz tog susreta nastao je prvi prepoznatljiv stil srpske srednjovekovne arhitekture — raška graditeljska škola."
+    },
+    {
+      "type": "paragraph",
+      "text": "Početak se obično vezuje za Stefana Nemanju i njegove zadužbine u drugoj polovini 12. veka. Đurđevi Stupovi kod Novog Pazara, podignuti oko 1170, već pokazuju glavnu ideju: relativno mala, izdužena crkva sa kupolom nad središnjim delom broda, građena od pravilno klesanih kvadera. Pravi obrazac, međutim, postaće Studenica, započeta oko 1190. godine. Njena Bogorodičina crkva obložena je belim mermerom koji se i danas, kada padne kosa svetlost, gotovo svetli; portali, prozori i kupolni tambur ukrašeni su klesanim ornamentom — biljnim viticama, isprepletanim trakama, ljudskim i životinjskim glavama. Te detalje, prema starim zapisima, izrađivali su majstori sa primorja, najverovatnije iz dalmatinskih i apulskih radionica, navikli na romanički repertoar. U unutrašnjosti je sve drugačije: kupola, oltarski prostor i raspored fresaka pripadaju vizantijskom svetu koji je Nemanja kao pravoslavni vladar smatrao svojim."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Šta čini raški hram"
+    },
+    {
+      "type": "paragraph",
+      "text": "Kroz nekoliko decenija ustalio se prepoznatljiv tip. Raška crkva je po pravilu jednobrodna — dakle nema bočne lađe kao starohrišćanske bazilike i kao mnogi vizantijski hramovi — ali je iznad središta broda postavljen tambur sa kupolom. Taj spoj, jednobrodna osnova plus kupola, neuobičajen je u vizantijskoj praksi; bliži je romaničkim crkvama zapadne Evrope, samo što je kupola srpsku verziju vratila u istočni liturgijski svet. Tambur je visok i vitak, najčešće osmostran, sa uskim prozorima koji u unutrašnjost puštaju usku, vertikalnu svetlost iznad oltara. Zidovi su građeni od pažljivo tesanog kamena, često u dva tona — belom krečnjaku sa crvenkastim ili ružičastim naglascima, koji ivicama i lezenama daju crtež bez potrebe za bojom."
+    },
+    {
+      "type": "paragraph",
+      "text": "Najupadljiviji romanički sloj nalazi se na portalima. Kameni dovratnici i nadvratnici prepuni su klesanog reljefa: lavovi i grifoni koji grizu sopstveni rep, lišće akantusa, vinova loza, isprepletane trake, glave svetitelja i, povremeno, ljudi u svetovnoj odeći. To je rečnik koji se istovremeno klesao i na portalima katedrala u Trogiru, Kotoru ili Barletti. Kapiteli stubova u priprati često su lisnati i bujni, sa istom logikom oblika. Sve to spolja deluje gotovo zapadnjački — sve dok se ne otvore vrata i pred posetiocem stane unutrašnjost prekrivena freskama, o kojima je u prethodnoj lekciji bilo posebno reči."
+    },
+    {
+      "type": "paragraph",
+      "text": "Od Studenice se obrazac dalje razvija, ali se ne menja u suštini. Žiča, podignuta oko 1220. kao sedište nove srpske autokefalne crkve, izvedena je u istom planu, ali sa spoljnim zidovima u crvenom malteru; mileševski hram iz tridesetih godina 13. veka unosi nove proporcije, ali zadržava jednobrodnu osnovu sa kupolom. Sopoćani kralja Uroša I iz šezdesetih godina 13. veka smatraju se vrhuncem zrele faze: spoljašnjost je strogo, gotovo asketski jasna, a unutrašnjost, prekrivena freskama izuzetnog kvaliteta, otkriva koliko se za vek i nešto od Nemanjinih dana izoštrio osećaj za sklad. Gradac kraljice Jelene Anžujske iz istog vremena pokazuje da su i ženske zadužbine pripadale istoj školi, izvedene jednako brižljivo."
+    },
+    {
+      "type": "paragraph",
+      "text": "Poslednja velika raška građevina je istovremeno i izuzetak — Visoki Dečani, podignuti između 1327. i 1335. po nalogu kralja Stefana Dečanskog, a po nacrtu kotorskog fratra Vite. Dečani su najveća srpska srednjovekovna crkva, ali su već u nečemu drugačiji: imaju tri broda umesto jednog, monumentalniju kamenu plastiku i očiglednije romaničko-gotičke odlike. U tom smislu Dečani su istovremeno kruna raške škole i znak da je njeno vreme prošlo. Do tada su Milutinova osvajanja na jugu već donela novi obrazac — crkve u opeci i kamenu, sa nekoliko kupola, na način koji se kasnije nazvao vardarskom ili srpsko-vizantijskom školom, i o tome će biti reči u sledećoj lekciji."
+    },
+    {
+      "type": "paragraph",
+      "text": "Vredi reći i ono o čemu nauka i danas raspravlja. Tačan udeo vizantijskog i romaničkog uticaja u pojedinoj raškoj crkvi nije uvek lako odmeriti; svaki hram je po tom pitanju zaseban slučaj. Imena pojedinih klesara koja se pojavljuju u natpisima ili u kasnijim zapisima — pominju se majstori sa Jadrana, iz Kotora, iz Apulije — često se mogu samo delimično potvrditi, a putovi po kojima su radionice prelazile s jednog gradilišta na drugo rekonstruišu se posredno. Ono što nije sporno jeste sama sinteza. Raška škola je proizvela tip crkve kakav se drugde u srednjovekovnoj Evropi nije pojavio: pravoslavnu po obredu i prostornom doživljaju, romaničku po fasadnoj rukotvorini, srpsku po izboru — jedan od onih retkih trenutaka kada je granica između istoka i zapada bila ne pregrada, nego radionica."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

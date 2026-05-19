@@ -6,13 +6,57 @@
   "dayNumber": 198,
   "order": 3,
   "title": "Karađorđe Petrović",
+  "subtitle": "Portret čoveka koji je iz šumadijskog sela izrastao u vožda srpske revolucije — odlučnog, hrabrog i tvrdog",
   "readingTimeMinutes": 8,
   "year": 1804,
-  "isPlaceholder": true,
+  "dateLabel": "1768–1817.",
+  "timelinePosition": "1768–1817.",
+  "summary": "Život Karađorđa Petrovića — od šumadijskog svinjarskog trgovca i frajkora u austrijskoj službi do vožda Prvog srpskog ustanka, hereditarnog poglavara Srbije i osnivača dinastije koja će obeležiti srpski devetnaesti vek.",
+  "keyPeople": ["Karađorđe Petrović", "Miloš Obrenović", "Jelena Bošković"],
+  "keyPlaces": ["Viševac", "Topola", "Šumadija", "Orašac"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Đorđe Petrović rođen je oko 1768. godine u Viševcu, malom selu u srcu Šumadije, u srpskoj pravoslavnoj seoskoj porodici koja nije imala ni imetak ni ime. Tačan datum rođenja se ne zna; godina se rekonstruiše iz kasnijih svedočenja i porodičnog predanja. Detinjstvo mu je, prema svemu što je sačuvano, bilo obeleženo siromaštvom, smrtnim slučajevima u porodici i onom vrstom svakodnevnog nasilja koje je u Beogradskom pašaluku pratilo seljaka raju: turski spahija, zulumi prolaznih krdžalija, neizvesnost roda i poreza. Iz tog tvrdog početka izrastao je čovek koji će četiri decenije kasnije postati prvi vožd ustaničke Srbije."
+    },
+    {
+      "type": "paragraph",
+      "text": "Nadimak Karađorđe — „Crni Đorđe” — dali su mu, prema tradiciji, Turci, zbog tamne kose, mrkog pogleda i sumorne, oštre naravi. Ime se primilo tako čvrsto da je pravo prezime gotovo iščezlo iz upotrebe, a kasnije će postati osnova dinastičkog imena Karađorđević. Već u mladosti je radio kao čobanin, a potom se okrenuo trgovini stokom, pre svega svinjama — što je u Šumadiji bio najunosniji posao, jer su krda gonjena preko Save u Habsburšku monarhiju činila glavnu izvoznu robu pašaluka."
+    },
+    {
+      "type": "paragraph",
+      "text": "U mladim godinama prebegao je preko Save u austrijsku Slavoniju. Tačan povod beleže različita predanja, ali se najčešće ponavlja priča da je ubio Turčina koji je nasrnuo na njegovu porodicu i potom morao da beži. Tako je oko 1787. završio kao dobrovoljac u Srpskom frajkoru — pomoćnoj jedinici sastavljenoj od prečanskih i prebeglih Srba — u Austro-turskom ratu 1788–1791. godine. Tu je stekao prvo pravo vojno iskustvo: učio se redovnoj komandi, organizaciji čete, snabdevanju, upotrebi vatrenog oružja u sklopu velike vojske. Te lekcije iz austrijske vojne prakse kasnije će ga razlikovati od mnogih ustaničkih vođa koji su ratovali samo po hajdučki."
+    },
+    {
+      "type": "paragraph",
+      "text": "Posle Svištovskog mira vratio se u Beogradski pašaluk i nastavio život trgovca svinjama. Posao je vodio uspešno; ima podataka da je do početka XIX veka već bio među imućnijim seljacima kraja oko Topole i da je u kraju uživao ugled — ne kao knez ili obor-knez, već kao čovek od oružja, koga je obična raja zvala u zaštitu. Iz tog perioda potiču i prve veze sa ljudima koji će kasnije činiti uže jezgro ustaničkih starešina: bivši frajkorovci, hajduci, mlađi trgovci i sveštenici Šumadije."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Čovek i vožd"
+    },
+    {
+      "type": "paragraph",
+      "text": "Savremenici, i srpski i strani, opisuju Karađorđa kao krupnog, fizički nametljivog čoveka, snažnog tela i odlučnog koraka. Bio je duboko, gotovo strogo religiozan u pravoslavnom ključu: postio je, krstio se pred bitke, držao se sveštenika. Pismenost mu je, po svemu sudeći, bila slaba — sam je mogao da se potpiše i s mukom pročita pisana akta, ali se važnijim ispravama oslanjao na pisare i savetnike. Njegov autoritet nije počivao na učenosti nego na sili ličnosti: oštroumnoj, naprasitoj, sklonoj naglim odlukama i, kada je trebalo, surovoj. Iz istih izvora, međutim, izbijaju i druge crte — lična toplina u krugu porodice, vernost prijateljima iz mladosti, sposobnost da, kada se ohladi, prizna grešku."
+    },
+    {
+      "type": "paragraph",
+      "text": "Kada su starešine 15. februara 1804. godine u Orašcu, na zboru o kome će biti reči u sledećoj lekciji, tražile vođu, Karađorđe se, prema kasnijim svedočenjima, isprva opirao. Sam je rekao da je naprasit, da neće moći da trpi neposlušnost i da će za sitna ogrešenja kažnjavati strogo. Ipak je prihvatio. Pokazalo se da je u tim teškim godinama upravo takav čovek bio potreban: odlučan na bojištu, gde je vodio iz prvih redova, a u politici dovoljno širok da prepozna ono što mnogi seljački starešine nisu — da Beograd mora biti uzet, da se mora tražiti savez sa Rusijom i da od ustaničkog saveza treba praviti pravu državu sa ustanovama."
+    },
+    {
+      "type": "paragraph",
+      "text": "Od 1808. godine, posebnom skupštinskom odlukom, priznat je za naslednog poglavara Srbije. Vladao je mešavinom vojne komande i patrijarhalne vlasti, povremeno u napetosti sa Praviteljstvujuščim sovjetom — telom starešina koje će biti tema posebne lekcije — oko toga gde leži stvarni izvor odluka. U Topoli je podigao porodični konak i crkvu, koji su postali neformalno središte mlade države. Sa suprugom Jelenom, rođenom Bošković, imao je veliku porodicu, a najbliži krug činili su mu provereni vojvode i rodbina. Mane su mu, međutim, bile vidljive i savremenicima: teško je delio vlast, prema rivalima je znao biti nemilosrdan, a u nekoliko poznatih epizoda — uključujući lično učešće u kažnjavanju neposlušnih, pa i članova bliske rodbine — pokazao je tamnu stranu svoje naravi. Diplomatski je, kad bi planuo, znao da naškodi sopstvenoj stvari."
+    },
+    {
+      "type": "paragraph",
+      "text": "Kada se 1812. godine Rusija mirom u Bukureštu izvukla iz rata sa Portom i ostavila Srbe bez glavnog spoljnog oslonca, a turska vojska 1813. provalila u zemlju, Karađorđe je, posle kratkog otpora, prešao preko Save u Habsburšku monarhiju, a odatle dalje u Rusiju. Tamo je proveo nekoliko godina kao izbeglica, povezan sa grčkom Heterijom i sa onima koji su sanjali novi ustanak na Balkanu. Leta 1817. tajno se vratio u Srbiju nadajući se da će predvoditi novi rat. Tu ga je čekala druga odluka: Miloš Obrenović, vođa obnovljene srpske autonomije od 1815, nije želeo živog suparnika. Karađorđa su, po Miloševom znanju i nalogu, ubili njegovi ljudi u noći između 24. i 25. jula 1817. godine; glava je poslata u Carigrad kao dokaz."
+    },
+    {
+      "type": "paragraph",
+      "text": "Tim ubistvom otvorena je duga, tragična zavada Karađorđevića i Obrenovića, koja će ceo XIX vek presecati srpsku politiku i smenjivati dinastije na prestolu. Karađorđe je, uz sve mane — surovost prema protivnicima, težak karakter, povremenu lošu procenu — ostao u srpskom pamćenju kao vožd: čovek koji je iz Viševca i Topole, bez učenih škola, podigao narod na ustanak, postavio temelj moderne srpske države i krvlju, svojom i tuđom, platio cenu tog početka. Narodne pesme pamte ga kao junaka, istorija ga sudi strože — i jedno i drugo, ako se gleda pošteno, deo su iste, složene istine."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

@@ -6,13 +6,53 @@
   "dayNumber": 147,
   "order": 9,
   "title": "Narodna pesma i predanje",
+  "subtitle": "Kako je epska pesma uz gusle, posle pada srednjovekovne države, postala druga velika ustanova srpskog pamćenja",
   "readingTimeMinutes": 7,
   "year": 1480,
-  "isPlaceholder": true,
+  "dateLabel": "od 15. veka",
+  "timelinePosition": "od 15. veka",
+  "summary": "Srpska epska narodna pesma uz gusle nastala je kao odgovor na pad srednjovekovne države: kosovski, prekosovski i pokosovski ciklus, uloga guslara i kasnije Vukovo sabiranje.",
+  "keyPeople": ["Vuk Stefanović Karadžić"],
+  "keyPlaces": [],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Kada je srednjovekovna srpska država nestala, sa njom je nestala i ona uska, ali stalna nit pisane reči koju su do tada vodili dvorovi, kancelarije i manastirski skriptoriji. Knjiga i povelja sklonile su se u tišinu nekoliko velikih manastira ili otišle u izgnanstvo. Veliki deo naroda ostao je bez pisane prošlosti — ali nije ostao bez prošlosti. U tom procepu, između pada države i dolaska novih, čisto crkvenih i seoskih okvira života, pojavila se i ojačala druga ustanova pamćenja: epska narodna pesma, pevana uz gusle. Nije ona tada nastala — njeni koreni sežu dublje — ali je tek u vekovima posle pada postala glavni način na koji je narod pamtio ko je bio, šta je izgubio i šta vredi da se prenese unucima."
+    },
+    {
+      "type": "paragraph",
+      "text": "Gusle su jednostavan instrument: drvena zdela presvučena kožom, jedna struna od konjske dlake, luk koji se prevlači preko nje. Zvuk je hrapav, jednoličan, više potpora glasu nego muzika u modernom smislu. Upravo zato je guslar mogao satima da peva, a slušaoci da prate priču. Pesma je obično bila u desetercu — stihu od deset slogova sa stalnim presekom posle četvrtog — i taj stih je toliko snažno ušao u srpski jezik da i danas zvuči prirodno. Guslar je u selu, na sastanku ili u hanu imao mesto koje se poštovalo: nije bio samo zabavljač, već čovek koji čuva ono što se ne sme zaboraviti."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sadržaj te poezije obično se deli na tri velike celine. Najstariji sloj čine pesme o Nemanjićima — o Stefanu, Dušanu, Milutinu — i naročito o Svetom Savi, koji u narodnoj mašti postaje gotovo bajkoviti junak: leči ljude i stoku, obmanjuje đavola, deli zemlju i pamet, krsti običaje. Tu su i pesme o kraljicama, princezama, o osnivanju zadužbina. Reč je o pesmama koje je narod pevao gledajući unazad, prema vremenu sopstvene države, sa osećanjem da je nekada postojao svet koji je vredeo i koji se ne sme prepustiti zaboravu."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Kosovski i pokosovski ciklus"
+    },
+    {
+      "type": "paragraph",
+      "text": "Drugi i najpoznatiji sloj jeste kosovski ciklus — pesme okupljene oko bitke iz 1389. i oko ljudi koje je ona iznela na površinu. Tu je knez Lazar koji bira „carstvo nebesko” umesto zemaljskog; Miloš Obilić, koji ulazi u sultanov šator i ubija Murata; Vuk Branković, u predanju označen kao izdajnik — premda istorija, kako smo videli ranije u kursu, to zapravo ne potvrđuje; kneginja Milica, koja ostaje sa kćerima nad ubijenim mužem. Ciklus se gradio decenijama i vekovima, slojevito, sa različitim verzijama u različitim krajevima. U njemu je manje stroge istorijske tačnosti nego moralnog poretka: ko je dostojanstven, ko se predaje, ko izdaje, ko se žrtvuje. Upravo je taj moralni okvir učinio Kosovo trajnim središtem srpskog samorazumevanja, više od svakog datuma i bilo koje vojne brojke."
+    },
+    {
+      "type": "paragraph",
+      "text": "Treći sloj, pokosovski, okreće se prema životu pod tuđom vlašću. Njegov najveći junak je Kraljević Marko — istorijski Marko Mrnjavčević, vladar male oblasti na jugu, osmanski vazal, koji je u stvarnosti poginuo boreći se na turskoj strani 1395. U pesmi je on, međutim, postao oličenje snage i lukavstva potlačenog naroda: jaše Šarca, nosi šestoper, izlazi na megdane, brani slabe, prkosi caru kome je inače dužan. Sačuvano je preko trideset pesama o njemu i one čine zasebnu malu epopeju. Uz Marka, u pokosovskom sloju nalaze se i pesme o drugim junacima koji se odupiru Turcima, o porodičnim sudbinama, o seobama. Hajdučke i uskočke pesme, vezane za otporne čete na osmansko-habzburškoj granici, čine kasniji nastavak iste tradicije, i njima ćemo se vratiti."
+    },
+    {
+      "type": "paragraph",
+      "text": "Tradicija se prenosila od pevača do pevača, na sastancima, slavama, svadbama, na pijacama i hodočašćima, u domovima gde se gost dočekivao dugo i pažljivo. Svaki guslar bio je istovremeno i prenosilac i tvorac: osnovne priče bile su stabilne, ali su se reči, slike i pojedinosti menjale, dograđivale, slušaocu prilagođavale. Otuda i otvoreno priznanje koje moramo dati: narodna pesma nije pouzdan istorijski izvor u strogom smislu. Neke pesme koje izgledaju srednjovekovne zapravo su jasno kasnije, nastale o davnim događajima. Druge čuvaju iznenađujuće stara jezgra. Ono što su pouzdano čuvale jeste osećanje sveta — meru dostojanstva, gorčinu poraza, sećanje na to da je jednom postojala sopstvena država i da je njen pad bio nešto što se mora podneti, ali ne i zaboraviti."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sve to bi ostalo u sećanju samo onih koji su slušali da nije bilo onoga što se dogodilo mnogo kasnije, početkom 19. veka. Tada je Vuk Stefanović Karadžić, sin krajiške porodice i jezikoslovac samouk, počeo da beleži pesme od guslara koje je sretao po Srbiji, Hercegovini i Vojvodini, da ih objavljuje i da šalje u Evropu. Njegovi zbornici „Srpske narodne pjesme”, izlazili od 1814. nadalje, otkrili su evropskim učenjacima — od Getea do Jakoba Grima — postojanje žive epske tradicije srpskih seljaka. Bez Vukovog truda, dobar deo te poezije bio bi izgubljen kada je 20. vek ugasio i poslednje guslare živog usmenog kolovrata."
+    },
+    {
+      "type": "paragraph",
+      "text": "Mereno hladno, narodna pesma je, uz crkvu i manastire, druga velika ustanova srpskog opstanka u vekovima bez države. Manastir je čuvao liturgiju, ikonu, žitije, povelju, hronološku svest. Pesma je čuvala lice, osećanje, sliku junaka i izdajnika, meru dobra i zla. Kada se kasnije, u 19. veku, gradila ideja moderne srpske nacije, gradila se sa oba ova materijala u rukama — i sa starim manastirskim rukopisom i sa deseteračkom pesmom koja je još uvek tinjala uz gusle po brdima. Otuda i razlog da se danas, gledajući unazad na 15. vek, narodna pesma ne shvati kao puka zabava preživelih, nego kao tihi, dugotrajni rad jedne kulture koja je odbila da o sebi prestane da govori."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

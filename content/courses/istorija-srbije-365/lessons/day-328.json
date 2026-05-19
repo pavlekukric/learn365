@@ -6,13 +6,49 @@
   "dayNumber": 328,
   "order": 13,
   "title": "Cena Drugog svetskog rata",
+  "subtitle": "Koliko je ljudi Jugoslavija izgubila između 1941. i 1945. i zašto je taj broj decenijama bio sporan",
   "readingTimeMinutes": 8,
   "year": 1944,
-  "isPlaceholder": true,
+  "dateLabel": "1941–1945.",
+  "timelinePosition": "1941–1945.",
+  "summary": "Ljudski i materijalni gubici Jugoslavije i Srbije u Drugom svetskom ratu — od posleratne cifre od 1.706.000 do akademskog konsenzusa oko milion mrtvih.",
+  "keyPeople": ["Bogoljub Kočović", "Vladimir Žerjavić"],
+  "keyPlaces": ["Jugoslavija", "Srbija", "Podgorica", "Leskovac", "Zadar"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Kada se rat 1945. završio, Jugoslavija je počela da broji svoje mrtve. Brojanje je trajalo decenijama i nikada nije bilo samo brojanje — uvek je bilo i politika, i sećanje, i polaganje računa za buduće generacije. Cifra koju je nova jugoslovenska vlast već 1946. iznela pred Reparacionu komisiju u Parizu glasila je 1.706.000 života, oko jedanaestine predratnog stanovništva. Pripremila ju je skupina stručnjaka pod kratkim rokom, više na osnovu opštih procena nego pažljivog popisa, i imala je jasnu svrhu — da pojača jugoslovenski zahtev za ratnom odštetom od Nemačke. Ostala je, ipak, zvanična cifra punih četrdeset godina i ušla u udžbenike, spomenike i javno pamćenje kao mera onoga što se dogodilo."
+    },
+    {
+      "type": "paragraph",
+      "text": "Tek polovinom osamdesetih godina dvojica demografa, nezavisno jedan od drugog, uzeli su predratne i posleratne popise stanovništva i počeli da računaju ozbiljno. Srpski demograf u emigraciji Bogoljub Kočović objavio je 1985. u Londonu studiju pod naslovom „Žrtve Drugog svetskog rata u Jugoslaviji”. Četiri godine kasnije hrvatski demograf Vladimir Žerjavić iz Zagreba objavio je svoj nezavisan račun. Polazili su sa različitih strana, koristili različite metode, i — što je najvažnije — došli do gotovo istog zaključka. Kočović je izračunao oko 1.014.000 stvarnih ratnih gubitaka Jugoslavije, Žerjavić oko 1.027.000. Razlika među njima merila se u desetinama hiljada; razlika prema zvaničnoj cifri merila se u stotinama hiljada. Stari broj nije izdržao ispit demografije."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ono što se iza tih ukupnih cifara krije teže je za pisanje nego za sabiranje. Po proračunima oba demografa, najbrojnija pojedinačna grupa žrtava bili su Srbi: Kočović je procenio oko 487.000, Žerjavić oko 530.000 stradalih pripadnika srpskog naroda u celoj Jugoslaviji. To je posledica i borbe partizanskog i četničkog pokreta otpora i nemačke odmazde, ali, pre svega, masovnog stradanja Srba pod ustaškom vlašću u Nezavisnoj Državi Hrvatskoj — u Jasenovcu i drugim logorima i u progonima u Bosni i Hercegovini, Lici, Kordunu i Slavoniji. Hrvata je, po istim procenama, stradalo oko 207.000, bosanskih Muslimana oko 86.000, Slovenaca oko 32.000, Crnogoraca oko 20.000. Za Jevreje cifra od oko 57.000 znači da je u Holokaustu ubijeno oko četiri od svakih pet jugoslovenskih Jevreja koji su rat dočekali. Roma je stradalo oko 27.000, što je za njihovu malu zajednicu imalo razmer katastrofe."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Kategorije koje se preklapaju"
+    },
+    {
+      "type": "paragraph",
+      "text": "Cifre su samo prvi sloj. Iza svake stoji pitanje kako je neko stradao. Manji deo žrtava poginuo je sa puškom u ruci — kao vojnik kraljevske vojske u aprilu 1941, kao partizan, kao četnik, kao pripadnik raznih kolaboracionističkih i dobrovoljačkih jedinica. Najveći deo, međutim, nisu bili borci. Bili su to civili pobijeni u odmazdama poput onih u Kragujevcu i Kraljevu u oktobru 1941, taoci streljani po nemačkim naredbama o stotinu za jednog, seljani spaljeni zajedno sa selima, žene i deca poklani u ustaškim pokoljima, deportovani iz Banata, Bačke i Srema, zatočenici sabirnih logora na Sajmištu, Banjici, u Jasenovcu, u Mauthauzenu, Aušvicu i Bergen-Belzenu, žrtve gladi i tifusa u zbegovima. Iste osobe često pripadaju u dve ili tri kategorije — Jevrejin koji je bio i partizan i logoraš, Srbin koji je bio i zarobljenik i talac. Zbog toga svaki ozbiljan istraživač upozorava da se kategorije ne smeju mehanički sabirati."
+    },
+    {
+      "type": "paragraph",
+      "text": "Materijalna cena je merljivija, ali ne i manja. Po proračunima posleratne komisije, oštećena je bila otprilike svaka četvrta stambena jedinica u zemlji. Saobraćajna mreža bila je razorena — pruge, mostovi, lokomotive, putevi. Industrija, već skromna pre rata, ostala je bez znatnog dela kapaciteta; poljoprivredna proizvodnja pala je ispod predratnog nivoa i tu se godinama zadržala. Pojedini gradovi platili su naročito visoku cenu — Podgorica je bombardovana toliko puta i tako temeljno da se posle rata gradila gotovo iz temelja, Zadar je u savezničkim napadima izgubio veliki deo starog jezgra, Leskovac je u proleće 1944. teško razoren u savezničkom bombardovanju. Stotine hiljada ljudi promenilo je adresu pod prisilom — prognani Srbi iz NDH, proterani Nemci posle rata, kolonizovani borci u Vojvodini, raseljeni Jevreji čija se zajednica više nikada nije obnovila u predratnoj veličini."
+    },
+    {
+      "type": "paragraph",
+      "text": "Treba reći i ono što je politika potom činila sa ovim brojevima. U socijalističkoj Jugoslaviji cifra od milion i sedamsto hiljada držala se ne zato što su demografi tako mislili, nego zato što je veliki broj davao razmeru herojskoj slici Narodnooslobodilačke borbe. Devedesetih godina, u ratovima koji su raspad zemlje pretvorili u nove tragedije, gubici Drugog svetskog rata postali su oruđe. Sa srpske strane često se nudila uvećana cifra žrtava Jasenovca, sa hrvatske umanjena; ni jedna ni druga nije bila demografija. Tek je akademski konsenzus zasnovan na Kočovićevim i Žerjavićevim računima doneo trezven okvir u kome se može razgovarati. Pojedinačne cifre i dalje su predmet rasprave — naročito broj žrtava Jasenovca i broj poginulih u poslednjim mesecima rata i odmah posle — ali ukupni red veličine više nije sporan među ozbiljnim demografima."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ostaje, na kraju, ono što brojevi ne kažu. Da je rat 1941–1945. bio najsmrtonosniji period u modernoj istoriji Srbije i Jugoslavije, mereno po broju ubijenih u tako kratkom vremenu. Da je dotakao gotovo svaku porodicu, u svakom selu i u svakoj varoši. Da posle njega nijedna zajednica u zemlji nije bila ista — ni srpska, ni hrvatska, ni jevrejska, ni romska, ni muslimanska. Da pamćenje takvih gubitaka nije takmičenje, nego dug. Brojanje mrtvih ima smisla samo ako vodi do treznog razumevanja koliko je to koštalo i koliko je krhka sredina koja u jednoj generaciji može da nestane. Kočović i Žerjavić nisu računali da bi neku stranu omalovažili — računali su zato što je tačnost prema mrtvima poslednji oblik poštovanja koji žive može da ponudi."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }

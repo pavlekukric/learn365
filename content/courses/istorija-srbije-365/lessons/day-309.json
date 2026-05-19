@@ -6,13 +6,53 @@
   "dayNumber": 309,
   "order": 7,
   "title": "Šestojanuarska diktatura",
+  "subtitle": "Kralj Aleksandar suspenduje Vidovdanski ustav, raspušta skupštinu i preuzima ličnu vladavinu nad državom u rasulu",
   "readingTimeMinutes": 7,
   "year": 1929,
-  "isPlaceholder": true,
+  "dateLabel": "6. januar 1929.",
+  "timelinePosition": "6. januar 1929.",
+  "summary": "Posle atentata u skupštini i meseci političke krize, kralj Aleksandar Karađorđević 6. januara 1929. ukida ustav, raspušta sve stranke i uvodi ličnu vladavinu sa idejom „integralnog jugoslovenstva”.",
+  "keyPeople": ["kralj Aleksandar Karađorđević", "Petar Živković", "Vlatko Maček", "Ante Pavelić"],
+  "keyPlaces": ["Beograd"],
   "content": [
     {
       "type": "paragraph",
-      "text": "Lekcija se uskoro objavljuje."
+      "dropcap": true,
+      "text": "Šestog januara 1929. godine, na pravoslavni Badnji dan, građani Kraljevine Srba, Hrvata i Slovenaca čitali su u novinama proglas kralja Aleksandra Karađorđevića kojim se obaveštavaju da odsada žive u državi bez ustava, bez skupštine i bez stranaka. Vidovdanski ustav, donet svega osam godina ranije, suspendovan je jednim potezom pera. Narodna skupština je raspuštena. Sve političke partije, kao i sva udruženja koja okupljaju ljude na nacionalnoj ili verskoj osnovi, zabranjeni su. Kralj je u proglasu objasnio da „parlamentarizam… više nije u stanju da služi interesima države” i da on, kao vladar, preuzima neposrednu odgovornost za sudbinu zemlje."
+    },
+    {
+      "type": "paragraph",
+      "text": "Povod za ovaj korak svi su znali. Šest meseci ranije, u junu 1928, u beogradskoj skupštini je usred sednice pucano na hrvatske poslanike; Stjepan Radić je od ranjavanja preminuo u avgustu. Posle toga je hrvatska Seljačka stranka napustila Beograd, sazvana je zasebna skupština u Zagrebu, a pregovori o reviziji ustava i o decentralizaciji odbacivani su iz nedelje u nedelju. Aleksandar je mesecima primao stranačke prvake, slušao međusobno isključive predloge i, kako sam priznaje u proglasu, izgubio je veru da iz parlamenta može doći rešenje. Šestog januara izabrao je drugi put — onaj koji više nije zahtevao saglasnost stranaka."
+    },
+    {
+      "type": "paragraph",
+      "text": "Za predsednika nove vlade „van stranaka” postavljen je general Petar Živković, dugogodišnji komandant kraljeve garde i čovek lično blizak Aleksandru. Već u prvim nedeljama doneti su, dekretom, novi zakoni — među njima i Zakon o zaštiti države, koji je oštrim kaznama pretio svakom političkom radu protiv režima. Zatvori su se ubrzo punili: komunisti, čija je partija ionako od 1921. bila ilegalna; hrvatski nacionalisti koji nisu pristajali na novi okvir; pojedini članovi srpskih opozicionih stranaka koji su pokušali da se oglase. Sloboda štampe je faktički ukinuta, sudovi su izgubili nezavisnost, a uprava je postala produžena ruka dvora i policije."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Banovine i integralno jugoslovenstvo"
+    },
+    {
+      "type": "paragraph",
+      "text": "Pravi smisao šestojanuarskog reza video se tek u jesen 1929. Trećeg oktobra država je promenila ime: iz Kraljevine Srba, Hrvata i Slovenaca postala je Kraljevina Jugoslavija. Stare trideset i tri oblasti, naslednice nekadašnjih pokrajinskih granica, zamenjene su sa devet banovina nazvanih po rekama — Drinska, Vrbaska, Savska, Dunavska, Moravska, Vardarska, Zetska i Primorska, uz beogradsku upravu kao posebnu jedinicu. Granice banovina povučene su namerno tako da preseku istorijske nacionalne celine: Hrvatska je podeljena između Savske i Primorske, srpska Vojvodina između Dunavske i Drinske, makedonske oblasti smeštene su u Vardarsku, a Crna Gora u Zetsku. Reka kao ime — bezbojna, geografska, neopterećena nacijom — trebalo je da zameni Hrvatsku, Srbiju, Bosnu, Sloveniju, Crnu Goru."
+    },
+    {
+      "type": "paragraph",
+      "text": "Iza ovog poteza stajala je ideologija koja se zvala integralno jugoslovenstvo. Po njoj, građani nove države nisu više Srbi, Hrvati ili Slovenci kao posebni politički narodi, već jedan jedinstveni jugoslovenski narod sa tri „plemenska imena”. U školama, vojsci i upravi insistiralo se na jednom jeziku, jednoj zastavi, jednom vladaru. Kralj Aleksandar bio je iskreno uveren da samo takav, prinudni put može vremenom da otopi nepoverenje između nacionalnih elita i da stvori državu sposobnu da preživi sledeću evropsku krizu — a da se ona sprema, slutilo se već 1929."
+    },
+    {
+      "type": "paragraph",
+      "text": "Reakcije su bile podeljene i, gledano unazad, opasne. U Hrvatskoj je novi vođa Seljačke stranke Vlatko Maček, naslednik Stjepana Radića, isprva nastupao oprezno; ipak je već 1933. završio u pritvoru. Krug nepomirljivih hrvatskih nacionalista otišao je u emigraciju — u Italiji je iste 1929. godine Ante Pavelić osnovao Ustaški pokret, otvoreno terorističku organizaciju koja je rešenje videla u razbijanju Jugoslavije, uz podršku Rima i kasnije Berlina. U Srbiji je deo intelektualaca i centralistički nastrojenih radikalskih i demokratskih krugova diktaturu prećutno prihvatio kao manje zlo; drugi deo demokratske opozicije, ostavši bez stranke i bez novina, jednostavno je ućutao. Komunistička partija ušla je u još dublju ilegalu, gde je sledeću deceniju provela kao mreža ćelija."
+    },
+    {
+      "type": "paragraph",
+      "text": "Kralja Aleksandra ne treba meriti tadašnjim italijanskim ili kasnijim nemačkim fašizmom — on nije bio ideolog jedne rase ni vođa masovnog pokreta, niti je gradio partiju oko sebe. Bio je autoritarac stare škole, oficir i monarh, ubeđen da samo neograničena kraljevska vlast može spasiti jugoslovenski projekat koji je smatrao smislom svoje dinastije. Formalno je diktatura trajala do septembra 1931, kada je oktroisao novi, takozvani Septembarski ustav koji je vratio prividan parlamentarizam pod čvrstom kontrolom dvora. Neformalno je trajala mnogo duže — sve do kraljeve smrti od atentatorskog metka u Marseju 1934, a u mnogim crtama i posle nje."
+    },
+    {
+      "type": "paragraph",
+      "text": "Šestojanuarska diktatura ostaje jedan od onih trenutaka u srpskoj i jugoslovenskoj istoriji koji se ne mogu razrešiti jednim sudom. Tačno je da parlamentarni sistem 1928. zaista jeste bio u rasulu i da pucnjava u skupštini nije bila obična incidentna nesreća nego znak dubokog sloma. Tačno je i da rešenje koje je Aleksandar izabrao nije popravilo bolest, već ju je zatvorilo u sebe: ukidanjem normalnih kanala političkog izraza, on je radikalce gurnuo u ilegalu i emigraciju, a umerene snage u ćutanje. Kraljevina Jugoslavija ulazila je u tridesete godine kao formalno jedinstvena, a iznutra opterećena svim nerešenim pitanjima koja je šestojanuarski proglas pokušao da prosto zabrani."
     }
-  ]
+  ],
+  "isPlaceholder": false
 }
