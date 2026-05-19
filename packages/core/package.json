@@ -8,6 +8,7 @@
   "exports": {
     ".": "./src/index.ts",
     "./progress": "./src/progress/index.ts",
+    "./bookmarks": "./src/bookmarks/index.ts",
     "./navigation": "./src/navigation/index.ts"
   },
   "scripts": {
