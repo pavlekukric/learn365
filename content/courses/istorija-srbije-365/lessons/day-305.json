@@ -54,5 +54,30 @@
       "text": "Vidovdanski ustav je naredne decenije bio okvir u kome je živela Kraljevina Srba, Hrvata i Slovenaca. On nije sam po sebi izazvao raspad zajedničke države — ali je postavio osnove sukoba koji će kulminirati 1928. godine u krvavom incidentu u skupštini i potom u kraljevoj diktaturi 1929. godine. Vredi ga gledati bez naknadne mudrosti: centralistički i federalistički model nisu bili „srpski“ naspram „hrvatskog“ plana, nego dve realne političke pozicije sa različitim logikama. Centralisti su verovali da samo jaka, jedinstvena država može da odbrani novu zajednicu od pritisaka i da postepeno stvori naciju iz tri „plemena“. Federalisti su verovali da samo zajednica koja u sebi prizna istorijske celine može na duge staze biti stabilna. Vidovdan 1921. godine doneo je prvu od te dve logike kao zakon — i sa njom prvi veliki unutrašnji rascep nove jugoslovenske države."
     }
   ],
-  "isPlaceholder": false
+  "isPlaceholder": false,
+  "lastReviewedAt": "2026-05-19",
+  "sources": [
+    {
+      "kind": "book",
+      "title": "The National Question in Yugoslavia: Origins, History, Politics",
+      "author": "Ivo Banac",
+      "year": 1984
+    },
+    {
+      "kind": "book",
+      "title": "Parlament i političke stranke u Jugoslaviji 1919–1929",
+      "author": "Branislav Gligorijević",
+      "year": 1979
+    },
+    {
+      "kind": "book",
+      "title": "Istorija Jugoslavije 1918–1988",
+      "author": "Branko Petranović",
+      "year": 1988
+    },
+    {
+      "kind": "archive",
+      "title": "Arhiv Jugoslavije — fondovi Ustavotvorne skupštine i Ministarstva ustavotvornih dela"
+    }
+  ]
 }

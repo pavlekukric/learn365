@@ -50,5 +50,28 @@
       "text": "Šta su onda ti znaci bili? Pošteno je reći: ne znamo pouzdano. Ali to „ne znamo” nije prazno — ima više razumnih mogućnosti, i vredi ih nabrojati. Možda su to bile oznake vlasništva ili pripadnosti — tihi način da se kaže „ovo je moje” ili „ovo je naše”. Možda znakovi zanatlije ili radionice, nešto poput potpisa na grnčariji. Možda simboli sa obrednim ili identitetskim značenjem. Možda način da se nešto prebroji ili evidentira. Možda i ukras koji je vremenom dobio dogovoreno značenje. A možda — i to je najverovatnije — više stvari odjednom, različite namene u različitim prilikama. Zagonetka ostaje otvorena, i to je sasvim u redu. Otvoreno pitanje pošteno priznato vredi više od zatvorenog odgovora koji nije tačan. Biti stariji od pisma ne čini nešto pismom — kao što biti stariji od točka ne čini nešto točkom."
     }
   ],
-  "isPlaceholder": false
+  "isPlaceholder": false,
+  "lastReviewedAt": "2026-05-19",
+  "sources": [
+    {
+      "kind": "book",
+      "title": "Pre-Writing in Southeastern Europe: The Sign System of the Vinča Culture ca. 4000 BC",
+      "author": "Shan M. M. Winn",
+      "year": 1981
+    },
+    {
+      "kind": "book",
+      "title": "Vinča Culture: An Iron-Age Center on the Danube",
+      "author": "Miloje M. Vasić",
+      "year": 1932
+    },
+    {
+      "kind": "museum",
+      "title": "Narodni muzej Srbije — Vinčanska zbirka"
+    },
+    {
+      "kind": "archive",
+      "title": "Belo Brdo (Vinča) — izveštaji sa lokaliteta, Arheološki institut SANU"
+    }
+  ]
 }

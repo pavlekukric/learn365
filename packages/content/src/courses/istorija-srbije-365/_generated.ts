@@ -554,6 +554,29 @@ export const lessons: readonly Lesson[] = [
       "Lepenski Vir",
       "Đerdap",
       "Dunav"
+    ],
+    "lastReviewedAt": "2026-05-19",
+    "sources": [
+      {
+        "kind": "book",
+        "title": "Lepenski Vir: nova praistorijska kultura u Podunavlju",
+        "author": "Dragoslav Srejović",
+        "year": 1969
+      },
+      {
+        "kind": "book",
+        "title": "Europe's First Monumental Sculpture: New Discoveries at Lepenski Vir",
+        "author": "Dragoslav Srejović",
+        "year": 1972
+      },
+      {
+        "kind": "museum",
+        "title": "Muzej Lepenski Vir, Donji Milanovac"
+      },
+      {
+        "kind": "museum",
+        "title": "Narodni muzej Srbije — Praistorijska zbirka"
+      }
     ]
   },
   {
@@ -925,6 +948,29 @@ export const lessons: readonly Lesson[] = [
     "keyPeople": [],
     "keyPlaces": [
       "Vinča"
+    ],
+    "lastReviewedAt": "2026-05-19",
+    "sources": [
+      {
+        "kind": "book",
+        "title": "Pre-Writing in Southeastern Europe: The Sign System of the Vinča Culture ca. 4000 BC",
+        "author": "Shan M. M. Winn",
+        "year": 1981
+      },
+      {
+        "kind": "book",
+        "title": "Vinča Culture: An Iron-Age Center on the Danube",
+        "author": "Miloje M. Vasić",
+        "year": 1932
+      },
+      {
+        "kind": "museum",
+        "title": "Narodni muzej Srbije — Vinčanska zbirka"
+      },
+      {
+        "kind": "archive",
+        "title": "Belo Brdo (Vinča) — izveštaji sa lokaliteta, Arheološki institut SANU"
+      }
     ]
   },
   {
@@ -2511,6 +2557,31 @@ export const lessons: readonly Lesson[] = [
       "Nikeja",
       "Carigrad",
       "Naissus"
+    ],
+    "lastReviewedAt": "2026-05-19",
+    "sources": [
+      {
+        "kind": "book",
+        "title": "Constantine and Eusebius",
+        "author": "Timothy D. Barnes",
+        "year": 1981
+      },
+      {
+        "kind": "book",
+        "title": "Constantine: Dynasty, Religion and Power in the Later Roman Empire",
+        "author": "Timothy D. Barnes",
+        "year": 2011
+      },
+      {
+        "kind": "article",
+        "title": "Vita Constantini (Život Konstantinov)",
+        "author": "Eusebije Cezarejski",
+        "year": 339
+      },
+      {
+        "kind": "museum",
+        "title": "Narodni muzej Niš — Mediana, kasnoantička carska rezidencija"
+      }
     ]
   },
   {
@@ -7422,7 +7493,34 @@ export const lessons: readonly Lesson[] = [
       "Balšići",
       "Marko Mrnjavčević"
     ],
-    "keyPlaces": []
+    "keyPlaces": [],
+    "lastReviewedAt": "2026-05-19",
+    "sources": [
+      {
+        "kind": "book",
+        "title": "Srbi među evropskim narodima",
+        "author": "Sima Ćirković",
+        "year": 2004
+      },
+      {
+        "kind": "book",
+        "title": "The Serbs",
+        "author": "Sima Ćirković",
+        "year": 2004
+      },
+      {
+        "kind": "book",
+        "title": "Srpske zemlje u srednjem veku",
+        "author": "Mihailo Dinić",
+        "year": 1978
+      },
+      {
+        "kind": "book",
+        "title": "Istorija srpskog naroda, knjiga II: Doba borbi za očuvanje i obnovu države (1371–1537)",
+        "author": "Srpska književna zadruga",
+        "year": 1982
+      }
+    ]
   },
   {
     "id": "day-107",
@@ -13594,6 +13692,31 @@ export const lessons: readonly Lesson[] = [
       "Svilajnac",
       "Paraćin",
       "Šumadija"
+    ],
+    "lastReviewedAt": "2026-05-19",
+    "sources": [
+      {
+        "kind": "book",
+        "title": "Die serbische Revolution",
+        "author": "Leopold von Ranke",
+        "year": 1829
+      },
+      {
+        "kind": "book",
+        "title": "Prvi srpski ustanak — Karađorđe i njegovo doba",
+        "author": "Vladimir Stojančević",
+        "year": 1990
+      },
+      {
+        "kind": "book",
+        "title": "Memoari proté Mateje Nenadovića",
+        "author": "Matija Nenadović",
+        "year": 1867
+      },
+      {
+        "kind": "archive",
+        "title": "Arhiv Srbije — fondovi Praviteljstvujuščeg sovjeta serbskog (1805–1813)"
+      }
     ]
   },
   {
@@ -20769,6 +20892,31 @@ export const lessons: readonly Lesson[] = [
     ],
     "keyPlaces": [
       "Beograd"
+    ],
+    "lastReviewedAt": "2026-05-19",
+    "sources": [
+      {
+        "kind": "book",
+        "title": "The National Question in Yugoslavia: Origins, History, Politics",
+        "author": "Ivo Banac",
+        "year": 1984
+      },
+      {
+        "kind": "book",
+        "title": "Parlament i političke stranke u Jugoslaviji 1919–1929",
+        "author": "Branislav Gligorijević",
+        "year": 1979
+      },
+      {
+        "kind": "book",
+        "title": "Istorija Jugoslavije 1918–1988",
+        "author": "Branko Petranović",
+        "year": 1988
+      },
+      {
+        "kind": "archive",
+        "title": "Arhiv Jugoslavije — fondovi Ustavotvorne skupštine i Ministarstva ustavotvornih dela"
+      }
     ]
   },
   {

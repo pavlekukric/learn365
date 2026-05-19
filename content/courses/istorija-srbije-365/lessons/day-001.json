@@ -58,5 +58,28 @@
       "text": "Ostaje pitanje vremena, i tu moramo biti oprezni. Tlom današnje Srbije ljudi su prolazili još mnogo ranije — paleolitski lovci ostavili su tragove već desetinama hiljada godina pre Lepenskog Vira — ali ti tragovi su retki i rascepkani. Lepenski Vir je prvo mesto sa kojeg možemo, kao kroz prozor, jasno pogledati u jedan drevni dom. Život u Đerdapu trajao je kroz nekoliko milenijuma, a najpoznatija faza Lepenskog Vira — ona sa trapezastim kućama i skulpturama — pripada njenom kasnijem delu. Tačne granice tih faza i dalje su predmet stručne rasprave, a i sam karakter prelaska sa lova i sakupljanja ka novom načinu života razmatra se i preispituje. Zato je pošteno govoriti okvirno: o vremenu mnogo pre prvih gradova, pisma i država — ali ne tvrditi više preciznosti nego što izvori dopuštaju."
     }
   ],
-  "isPlaceholder": false
+  "isPlaceholder": false,
+  "lastReviewedAt": "2026-05-19",
+  "sources": [
+    {
+      "kind": "book",
+      "title": "Lepenski Vir: nova praistorijska kultura u Podunavlju",
+      "author": "Dragoslav Srejović",
+      "year": 1969
+    },
+    {
+      "kind": "book",
+      "title": "Europe's First Monumental Sculpture: New Discoveries at Lepenski Vir",
+      "author": "Dragoslav Srejović",
+      "year": 1972
+    },
+    {
+      "kind": "museum",
+      "title": "Muzej Lepenski Vir, Donji Milanovac"
+    },
+    {
+      "kind": "museum",
+      "title": "Narodni muzej Srbije — Praistorijska zbirka"
+    }
+  ]
 }
