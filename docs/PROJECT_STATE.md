@@ -10,15 +10,15 @@ For forward-looking work (what to pick next), see [`HANDOFF.md`](../HANDOFF.md) 
 
 - **Live URL:** https://learn365-web.vercel.app/ (Vercel project `learn365-web`, auto-deploys from `main`).
 - **Branch model:** Trunk-based. Each phase ships as one PR merged to `main`. No release branches.
-- **Last shipped phase:** Phase 7.10 + 7.12 — Lesson trust scaffolding + figure renderer (merged 2026-05-19 as PR #20, squash commit `7fb1d18`). See "Phase 7.10 + 7.12 — done" below. The Phase 7.9 progress consolidation (PR #19, `d34a6eb`) is the prior milestone.
+- **Last shipped phase:** Phase 7.11 — Lesson bookmarks + saved-lessons surface (merged 2026-05-19 as PR #21, squash commit `1fffe95`). See "Phase 7.11 — done" below. The Phase 7.10 + 7.12 lesson trust scaffolding + figure renderer (PR #20, `7fb1d18`) is the prior milestone.
 
 ### UI/UX baseline (do not regress)
 
 - **Three primary surfaces:** Home, Course overview (`/kurs/istorija-srbije-365`), Lesson reader (`/kurs/.../lekcija/<id>`), plus editorial About page (`/o-aplikaciji`).
 - **TopBar:** sticky, translucent (`backdrop-filter: saturate(160%) blur(14px)`). Brand mark + nav (`Početna`, `Kurs`, `O aplikaciji`) + total-progress chip (`xxx / 365` + thin bar). All nav uses real `next/link` `href`s — `onClick` navigation has been retired across the app. **Mobile (≤720px):** masthead reads Brand · Kurs · ProgressCapsule — `Početna` is hidden (Brand carries Home) and `O aplikaciji` is hidden (footer carries it on every route). Each `<Link>` carries a stable `data-link='home' | 'course' | 'about'` attribute used by the mobile hide rule.
 - **Home:** calm hero with the daily-contract caption `365 lekcija · 1 dnevno · ~8 minuta` (post-7.8), 8-era timeline strip (post-7.2), state-aware "Tvoj N. dan" daily-ritual anchor (post-7.8) above the recommended-lesson card, footer with about link. The recommended-lesson card no longer carries a duplicate state eyebrow — the anchor above carries it (post-7.8).
-- **Course overview:** `CourseProgress` card at top + 8 `CourseCard` era blocks. The progress card is **one canonical row, not two (post-7.9)**: a 120px `ProgressRing` showing `xx%` + a single journey-day row whose eyebrow reads `TVOJ N. DAN` mid-course or `ZAPOČNI` idle (same formula `HomeDailyAnchor` uses — `Math.min(completedCount + 1, 365)`). The dual `Aktuelno` / `Sledeće` rows and the redundant `N / 365 završeno` ring caption are gone. Each era card shows era eyebrow, title, years, **1–2 sentence editorial description always visible (post-7.4)**, progress bar, and a `Pokaži odeljke · N` disclosure for section drill-down. The accent `u toku` chip on the current era card was retired in 7.9 — the accent title colour and the non-zero progress bar carry that signal. **On fresh state, all eras default closed** so the page reads as 8 editorial blocks.
-- **Lesson reader:** publication-style layout, 5-item breadcrumb chain (`Početna · Course · Era · Section · DAN nnn`), `LessonHeader` (with optional trust-line eyebrow under the title rendering byline + last-reviewed date when present, post-7.10), `LessonReader` body, optional closing `<LessonSources>` "Izvori" editorial block when the lesson carries `sources[]` (post-7.10), `MarkAsCompletedButton`, `PreviousNextLessonNavigation`, sidebar with era → section → lesson indent guide (1px hairline rule, color-mixed at 60% of `--rule`). Image blocks render via `next/image` inside a real `<figure>` + `<figcaption>` (post-7.10) — the prior placeholder div is gone.
+- **Course overview:** `CourseProgress` card at top + optional `<CourseOverviewBookmarks>` "Sačuvane lekcije" block (post-7.11, renders only when the user has at least one bookmark in the course — no empty-state copy) + 8 `CourseCard` era blocks. The progress card is **one canonical row, not two (post-7.9)**: a 120px `ProgressRing` showing `xx%` + a single journey-day row whose eyebrow reads `TVOJ N. DAN` mid-course or `ZAPOČNI` idle (same formula `HomeDailyAnchor` uses — `Math.min(completedCount + 1, 365)`). The dual `Aktuelno` / `Sledeće` rows and the redundant `N / 365 završeno` ring caption are gone. The bookmarks surface (when present) is a 2-column card grid on desktop / 1-column on mobile, with each card showing day kicker, lesson title (2-line clamp), and era label. Each era card shows era eyebrow, title, years, **1–2 sentence editorial description always visible (post-7.4)**, progress bar, and a `Pokaži odeljke · N` disclosure for section drill-down. The accent `u toku` chip on the current era card was retired in 7.9 — the accent title colour and the non-zero progress bar carry that signal. **On fresh state, all eras default closed** so the page reads as 8 editorial blocks.
+- **Lesson reader:** publication-style layout, 5-item breadcrumb chain (`Početna · Course · Era · Section · DAN nnn`), `LessonHeader` (with optional trust-line eyebrow under the title rendering byline + last-reviewed date when present, post-7.10, plus a save-for-later bookmark toggle pinned top-right of the header on every non-placeholder lesson, post-7.11), `LessonReader` body, optional closing `<LessonSources>` "Izvori" editorial block when the lesson carries `sources[]` (post-7.10), `MarkAsCompletedButton`, `PreviousNextLessonNavigation`, sidebar with era → section → lesson indent guide (1px hairline rule, color-mixed at 60% of `--rule`). Image blocks render via `next/image` inside a real `<figure>` + `<figcaption>` (post-7.10) — the prior placeholder div is gone. Reading-progress hairline (`<ReadingProgress />`, 2px accent fill pinned to the viewport top) tracks scroll position on every lesson and hides on non-scrollable pages.
 - **Mobile:** responsive web only (no native app yet). `MobileLessonDrawer` combines sidebar + timeline in a single panel. Breadcrumb shows last two crumbs on `≤560px`. Compact `LessonContextHeader` chrome (post-6.7).
 - **Visual direction:** Editorial only (Spectral serif + Inter + JetBrains Mono, warm Editorial palette, OKLCH-defined tokens). No user-facing theme toggle. Modern direction is dev-only reference.
 
@@ -37,6 +37,7 @@ For forward-looking work (what to pick next), see [`HANDOFF.md`](../HANDOFF.md) 
 - **Stack:** pnpm workspaces + Turborepo, Next.js 15 App Router, TypeScript strict, CSS Modules + global token CSS variables, Zustand + persist for local progress, Vitest + Playwright.
 - **Monorepo:** `apps/web`, `packages/{ui, ui-web, core, content}`, plus `tooling/` and `docs/`. `apps/mobile` and `apps/api` not present.
 - **Progress storage:** `localStorage` via the `ProgressStorage` adapter in `@learn365/core`. This adapter is the swap seam for the future backend — no v1 frontend rewrite when the .NET API lands.
+- **Bookmark storage (post-7.11):** `localStorage` via a parallel `BookmarkStorage` adapter in `@learn365/core` (separate `learn365:bookmarks:v1` key, separate `createBookmarkStore`). Same swap-seam pattern as `ProgressStorage` so Phase 8 can ship `/api/bookmarks` independently of `/api/progress`.
 - **Node:** local Node 24 (official installer); CI Node 20 via `.nvmrc`; `engines` set to `>=20.10`.
 - **Build/test gates:** `pnpm typecheck && pnpm lint && pnpm test && pnpm build` all green on every merged phase. Playwright suite (post-7.9): **10 tests × 5 browser profiles = 50 runs, 48 pass / 2 documented WebKit skips** (the skip-link Safari quirk only).
 - **Lighthouse (last measured Phase 5):** desktop 99–100 across Perf/A11y/BP/SEO; mobile A11y/BP/SEO 100, mobile Perf 82–85 (accepted for v1; root cause is the three Google-served font families, fix would conflict with Editorial typography).
@@ -56,7 +57,7 @@ For forward-looking work (what to pick next), see [`HANDOFF.md`](../HANDOFF.md) 
 
 ### Next-step pointer
 
-The next phase pick is recorded in [`HANDOFF.md`](../HANDOFF.md) at the repo root. After 7.10/12 the next candidate is **Phase 7.11 — Reading comfort** (wire `ReadingProgress.tsx` stub + add a `BookmarkStorage` adapter mirroring `ProgressStorage`). Remaining backlog: Phase 7.12b (era-opener figures — pending image curation), seed bylines (1-line JSON edits when authors are decided), Phase 7.5 (mobile sticky chrome), Phase 7.6 (course scroll restore), hero backdrop QA pass.
+The next phase pick is recorded in [`HANDOFF.md`](../HANDOFF.md) at the repo root. After 7.11 the next candidate is **Phase 7.12b — Era-opener figures** (8 curated public-domain / CC images, one per era, inserted as `image` blocks on the era-opener lessons; renderer is wired and shipped, the work is image curation). Remaining backlog: seed bylines (1-line JSON edits when authors are decided), Phase 7.5 (mobile sticky chrome), Phase 7.6 (course scroll restore), hero backdrop QA pass.
 
 ---
 
@@ -1064,10 +1065,48 @@ Open work surfaced by this phase (carried into HANDOFF as the next pre-Phase-8 b
 
 Roadmap context: this is Bundles D + F from [`docs/ROADMAP_PRE_PHASE_8.md`](./ROADMAP_PRE_PHASE_8.md). With 7.7 / 7.8 / 7.9 / 7.10+7.12 shipped, the remaining backlog is 7.11 (reading comfort — primary next pick), 7.12b (era-opener figures), seed bylines, 7.5 (mobile sticky chrome), 7.6 (course scroll restore), and a hero backdrop QA pass.
 
+## Phase 7.11 — Lesson bookmarks + saved-lessons surface: done
+
+Shipped 2026-05-19 as PR #21 (squash commit `1fffe95`), one PR with two commits — core bookmarks module + tests, then web wiring + UI. Plan: [`docs/archive/phases/PHASE_7_11_PLAN.md`](./archive/phases/PHASE_7_11_PLAN.md). Predecessor: Phase 7.10 + 7.12 + Roadmap §E (Bundle E).
+
+**Surprise finding during inspection:** the roadmap called `ReadingProgress.tsx` a "stub to wire," but the component was already implemented and already mounted at `LessonPageClient.tsx`. So the phase collapsed to bookmarks-only + a manual QA pass on the existing hairline. The plan doc records the discovery.
+
+Locked decisions ([`docs/archive/phases/PHASE_7_11_PLAN.md`](./archive/phases/PHASE_7_11_PLAN.md) §"Locked decisions", all confirmed before code):
+
+- **L1 — Toggle placement.** Top-right of `LessonHeader`, always visible across viewports (not in the sticky `LessonContextHeader` which is mobile-only; not next to `MarkAsCompletedButton` which fires post-read). Suppressed on placeholder lessons via the same gate that hides the eyebrow on placeholders.
+- **L2 — Separate store mirroring `ProgressStorage`.** New module `packages/core/src/bookmarks/` with `BookmarkStorage` (identical shape to `ProgressStorage`), `createBookmarkStore`, `isBookmarked` / `bookmarkCount` / `bookmarkedLessonIds` selectors. Separate `learn365:bookmarks:v1` key so the future backend can ship `/api/bookmarks` independently of `/api/progress`.
+- **L3 — Empty state.** `<CourseOverviewBookmarks>` renders nothing when the list is empty — no generic "ovde će se pojaviti…" copy. Matches the Phase 7.10 trust-line rule. The bookmark icon in the lesson header is the discovery surface; the course overview is the return surface.
+- **L4 — Icon.** New `IconBookmark` with `filled?: boolean` prop. Outline by default, solid fill when saved. Matches `IconCheck` stroke vocabulary (16×16, 1.6 stroke, currentColor, round joins).
+- **L5 — A11y.** `<button type="button" aria-pressed={isBookmarked} aria-label={…}>` with Serbian labels (`Sačuvaj lekciju` / `Ukloni iz sačuvanih`). No tooltip — Editorial direction is calm.
+- **L6 — Reading progress.** QA pass only, no rework. The existing component was verified to mount, hide on non-scrollable pages, and not collide with the sticky TopBar.
+
+What changed concretely:
+
+- `packages/core/src/bookmarks/{types,store,selectors,index}.ts` — new module mirroring `progress/` shape. Set-to-array JSON replacer/reviver. 14 unit tests across `store.test.ts` (6) + `selectors.test.ts` (8).
+- `packages/core/src/index.ts` + `packages/core/package.json` — export the new module + `./bookmarks` subpath.
+- `apps/web/lib/bookmarks/{localStorageAdapter,BookmarkStoreProvider}.tsx` — web adapter + React provider, copy-adapted from the progress equivalents.
+- `apps/web/app/providers.tsx` — wraps children in `<BookmarkStoreProvider>` (nested inside the existing `<ProgressStoreProvider>`, independent state).
+- `packages/ui-web/src/icons/IconBookmark.tsx` + `icons/index.ts` — new icon with the filled-vs-outline prop.
+- `packages/ui-web/src/lesson/LessonHeader/LessonHeader.tsx` — accepts optional `bookmarkAction?: { isBookmarked, onToggle }`. Renders the toggle in the top-right of the header block (44 px hit target, absolute-positioned so it doesn't reflow the flex column). Suppressed on placeholders and when the prop is absent — every existing caller is unchanged.
+- `packages/ui-web/src/lesson/LessonHeader/LessonHeader.module.css` — `position: relative` on the header, new `.bookmark` rule with hover/focus-visible/aria-pressed states.
+- `packages/ui-web/src/lesson/LessonHeader/index.ts` — re-export `LessonBookmarkAction` type.
+- `packages/ui-web/src/lesson/LessonReader/LessonReader.tsx` — accepts the prop and forwards it to `<LessonHeader>`.
+- `apps/web/app/course/[courseId]/lesson/[lessonId]/LessonPageClient.tsx` — reads `isBookmarked` + `toggleBookmark` from `useBookmarkStore`, constructs `bookmarkAction`, passes to `<LessonReader>`.
+- `apps/web/app/course/[courseId]/_components/CourseOverviewBookmarks.{tsx,module.css}` — new surface. Resolves bookmarked ids to `Lesson` + `Era`; drops any orphaned ids (corpus regen / slug change) silently. 2-column grid on desktop / 1-column on mobile; each card has day kicker, 2-line clamped title, era label. Renders nothing if the resolved list is empty.
+- `apps/web/app/course/[courseId]/page.tsx` — slots `<CourseOverviewBookmarks>` between `<CourseOverviewProgress>` and the Sadržaj `<section>`.
+
+What did not change: storage shape (`learn365:progress:v1` untouched), `@learn365/core` progress selectors, `packages/content/` schema, any lesson JSON, any era / section data, the TopBar, the Home surfaces, the sidebar / drawer, the era timeline, or the post-completion CompletedFooter.
+
+Gates locally green on the feature branch before merge: `pnpm typecheck && pnpm lint && pnpm test && pnpm build`. Unit tests now total 47 in `@learn365/core` (14 new in `bookmarks/`) + 21 in `@learn365/ui-web` = 68 total. CI green on PR #21 before merge (1m 20s for the typecheck/test/build job). Vercel preview deploy green. SSR smoke (curl) verified the bookmark button renders with the correct `aria-label` + `aria-pressed`, and that the course overview correctly omits the "Sačuvane lekcije" block when the list is empty.
+
+Open work surfaced by this phase: none. The bookmark feature is self-contained; the existing reading-progress hairline was confirmed in place. Highlights / notes and cross-device sync remain explicit post-MVP / Phase 8 work per the plan's "Out of scope" section.
+
+Roadmap context: this is Bundle E from [`docs/ROADMAP_PRE_PHASE_8.md`](./ROADMAP_PRE_PHASE_8.md). With 7.7 / 7.8 / 7.9 / 7.10+7.12 / 7.11 shipped, the remaining backlog is 7.12b (era-opener figures — pending image curation), seed bylines (1-line JSON edits when authors are decided), 7.5 (mobile sticky chrome), 7.6 (course scroll restore), and a hero backdrop QA pass.
+
 ## Next step
 
 The forward-looking pointer now lives in [`HANDOFF.md`](../HANDOFF.md) at the repo root. It records the carry-forward non-blocking deferrals, the active pre-Phase-8 backlog ([`docs/ROADMAP_PRE_PHASE_8.md`](./ROADMAP_PRE_PHASE_8.md)), and the auto-regen `_generated.ts` quality-of-life candidate from the 7.8 PR. The roadmap continues into Phase 8 (Backend / .NET 9 + SQL Server) once the pre-Phase-8 bundles close and web v1 is declared visually approved.
 
-Next pick: **Phase 7.11 — Reading comfort.** Wire `ReadingProgress.tsx` (stub already exists at `apps/web/app/course/[courseId]/lesson/[lessonId]/`) + add a bookmark toggle keyed to a new `BookmarkStorage` adapter that mirrors `ProgressStorage` (same swap-seam pattern). Roadmap §E describes the bundle. Effort: ~1.5 days.
+Next pick: **Phase 7.12b — Era-opener figures.** 8 curated public-domain / CC-BY / CC-BY-SA images placed under `apps/web/public/lessons/`, inserted as `image` blocks on the era-opener lessons (the lesson whose `dayNumber` matches each era's first section's `startDay`). Attribution lives in the caption string. The renderer is already wired and shipped (Phase 7.10 / `<LessonBody>` `next/image` figure). Effort: ~half a day for the JSON edits + regen once images are sourced. Image curation is the schedule risk.
 
-Phase plans for shipped phases (6.7 through 7.10/12) live in [`docs/archive/phases/`](./archive/phases/). Superseded UX reviews and audits live in [`docs/archive/reviews/`](./archive/reviews/). Treat both archive folders as historical — do not consult them when assessing current state.
+Phase plans for shipped phases (6.7 through 7.11) live in [`docs/archive/phases/`](./archive/phases/). Superseded UX reviews and audits live in [`docs/archive/reviews/`](./archive/reviews/). Treat both archive folders as historical — do not consult them when assessing current state.
