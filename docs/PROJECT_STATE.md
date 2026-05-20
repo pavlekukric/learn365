@@ -10,7 +10,7 @@ For forward-looking work (what to pick next), see [`HANDOFF.md`](../HANDOFF.md) 
 
 - **Live URL:** https://learn365-web.vercel.app/ (Vercel project `learn365-web`, auto-deploys from `main`).
 - **Branch model:** Trunk-based. Each phase ships as one PR merged to `main`. No release branches.
-- **Last shipped phase:** Phase 7.11 — Lesson bookmarks + saved-lessons surface (merged 2026-05-19 as PR #21, squash commit `1fffe95`). See "Phase 7.11 — done" below. The Phase 7.10 + 7.12 lesson trust scaffolding + figure renderer (PR #20, `7fb1d18`) is the prior milestone.
+- **Last shipped phase:** Phase 7.12b — Era-opener figures (shipped 2026-05-19, pending PR + merge). See "Phase 7.12b — done" below. The Phase 7.11 lesson bookmarks + saved-lessons surface (PR #21, `1fffe95`) is the prior milestone.
 
 ### UI/UX baseline (do not regress)
 
@@ -29,7 +29,8 @@ For forward-looking work (what to pick next), see [`HANDOFF.md`](../HANDOFF.md) 
 - **Content status (post-2026-05-19):** **365 authored / 0 placeholder.** Every day of the course carries real editorial content. `validate-content` enforces this floor.
 - **Loading approach:** JSON drop-in. The editable source is `content/courses/istorija-srbije-365/*.json` (`course.json` + `eras.json` + `sections.json` + 365 `lessons/day-NNN.json`). A codegen script `pnpm gen-content` reads the JSON and writes `packages/content/src/courses/istorija-srbije-365/_generated.ts`, which is the runtime source-of-truth the app imports. **Anyone editing JSON must run `pnpm gen-content` to refresh the generated file** — otherwise the app shows stale content. (Auto-regen on edit is a known quality-of-life gap; see HANDOFF.)
 - **Lesson schema (post-2026-05-19):** in addition to `id`, `courseId`, `sectionId`, `eraId`, `dayNumber`, `order`, `title`, `readingTimeMinutes`, `year`, `content[]`, lessons may carry `subtitle`, `dateLabel`, `timelinePosition`, `summary`, `keyPeople[]`, `keyPlaces[]`, and (post-7.10) `byline { author?, reviewer? }`, `lastReviewedAt` (ISO date), `sources[]` (typed-kind union: `book | article | museum | archive | web`). Paragraph blocks may carry `dropcap: true` for an editorial opening cap. The `image` `LessonBlock` (post-7.10) requires `width` / `height` for `next/image` rendering. `isPlaceholder: false` on every lesson in the current corpus; the field and the upcoming-state code path remain for any future re-introduction.
-- **Trust scaffolding content status (post-7.10):** 6 seed lessons (Days 1, 7, 31, 106, 200, 305) carry `lastReviewedAt: 2026-05-19` and 3–4 sources each. All 359 other lessons render unchanged. No lesson carries a `byline` yet — the renderer is wired but each name needs to be authored explicitly (no generic course-wide fallback). No lesson carries an image block yet — figure curation is deferred to Phase 7.12b.
+- **Trust scaffolding content status (post-7.10):** 6 seed lessons (Days 1, 7, 31, 106, 200, 305) carry `lastReviewedAt: 2026-05-19` and 3–4 sources each. All 359 other lessons render unchanged. No lesson carries a `byline` yet — the renderer is wired but each name needs to be authored explicitly (no generic course-wide fallback).
+- **Era-opener figure status (post-7.12b):** the 8 era-opener lessons (Days 1, 46, 106, 151, 196, 231, 281, 341) each carry one `image` block at `content[1]` (between the dropcap paragraph and the second paragraph). Sources are Wikimedia Commons under PD-1923 / PD-Serbia / CC BY / CC BY-SA. Attribution lives in the caption string. Binary assets sit at [`apps/web/public/lessons/era-{1..8}-{slug}.webp`](../apps/web/public/lessons/). All 357 non-era-opener lessons stay imageless by design.
 - **Era editorial copy:** every era has a 1–2 sentence description rendered on the course page (wired in Phase 7.4b). Era descriptions live alongside era metadata in the content package.
 
 ### Technical baseline
@@ -57,7 +58,7 @@ For forward-looking work (what to pick next), see [`HANDOFF.md`](../HANDOFF.md) 
 
 ### Next-step pointer
 
-The next phase pick is recorded in [`HANDOFF.md`](../HANDOFF.md) at the repo root. After 7.11 the next candidate is **Phase 7.12b — Era-opener figures** (8 curated public-domain / CC images, one per era, inserted as `image` blocks on the era-opener lessons; renderer is wired and shipped, the work is image curation). Remaining backlog: seed bylines (1-line JSON edits when authors are decided), Phase 7.5 (mobile sticky chrome), Phase 7.6 (course scroll restore), hero backdrop QA pass.
+The next phase pick is recorded in [`HANDOFF.md`](../HANDOFF.md) at the repo root. After 7.12b the next candidate is **Phase 7.5 — Mobile lesson sticky chrome scroll-collapse** (existing pre-7.0 polish backlog item). Remaining backlog: Phase 7.6 (course scroll restore), seed bylines (1-line JSON edits when authors are decided), hero backdrop QA pass, and a small consolidation phase for `keyPeople` / `keyPlaces` rendering.
 
 ---
 
@@ -1065,6 +1066,49 @@ Open work surfaced by this phase (carried into HANDOFF as the next pre-Phase-8 b
 
 Roadmap context: this is Bundles D + F from [`docs/ROADMAP_PRE_PHASE_8.md`](./ROADMAP_PRE_PHASE_8.md). With 7.7 / 7.8 / 7.9 / 7.10+7.12 shipped, the remaining backlog is 7.11 (reading comfort — primary next pick), 7.12b (era-opener figures), seed bylines, 7.5 (mobile sticky chrome), 7.6 (course scroll restore), and a hero backdrop QA pass.
 
+## Phase 7.12b — Era-opener figures: done
+
+Shipped 2026-05-19 as the era-opener figure pass (PR + merge pending — bundled as a single commit window). Plan: [`docs/archive/phases/PHASE_7_12B_PLAN.md`](./archive/phases/PHASE_7_12B_PLAN.md). Predecessor: Phase 7.10 + 7.12-a (figure renderer + sources scaffolding, PR #20, `7fb1d18`). This is Bundle F-residual from [`docs/ROADMAP_PRE_PHASE_8.md`](./ROADMAP_PRE_PHASE_8.md) — the figure-insertion half of the original 7.12 bundle, deferred from the 7.10 PR because image curation is a separable schedule risk.
+
+Locked decisions ([`docs/archive/phases/PHASE_7_12B_PLAN.md`](./archive/phases/PHASE_7_12B_PLAN.md) §2, all confirmed before code):
+
+- **D1 — Insertion position.** Each `image` block sits at `content[1]` — after the dropcap paragraph and before the second paragraph. This preserves the renderer's auto-dropcap on `index === 0` ([packages/ui-web/src/lesson/LessonBody/LessonBody.tsx:24](../packages/ui-web/src/lesson/LessonBody/LessonBody.tsx#L24)) and gives every figure a textual lede that reads first. Rejected alternative: figure as `content[0]` (would have required adding `dropcap: true` explicitly on what is now paragraph 2 — foot-gun for the 357 lessons that never get figures).
+- **D2 — Image dimensions / format.** WebP, 1440 px wide max (`sharp .resize({ width: 1440, withoutEnlargement: true })`), q=82 default, sRGB. Effort-6 encoder. The renderer's `sizes="(max-width: 720px) 100vw, 720px"` rule means 1440 px is 2× retina against the 720 px desktop column. Two source images came in below 1440 px native — Era II (787 × 840 native, kept at native — Wikimedia's largest available revision) and Era V (1409 × 1562 — 2% below target, accepted). Three files needed quality re-passes for budget compliance: Era 6 (portrait, q=58, 557 KB — accepted over the 220 KB soft target per plan R2 "accept the larger file size"), Era 7 (portrait, q=74, 199 KB), Era 8 (map, q=75, 276 KB).
+- **D3 — Caption + attribution.** Single Serbian sentence of editorial framing followed by the attribution clause. Format: `{Serbian description ~10 words}. Foto: {Author}, {License}, Wikimedia Commons.` for CC images; `… Javno vlasništvo, Wikimedia Commons.` for PD. The `caption` field is also the attribution field per the schema comment in [`packages/content/src/types.ts`](../packages/content/src/types.ts).
+- **D4 — Curation path.** Shortlist route: a subagent compiled 2–3 vetted Wikimedia Commons candidates per era with quoted license-line excerpts, the owner picked one per era from the shortlist. Era VI surfaced as a single-candidate slot (Garašanin-era engravings on Commons are sparse) and was accepted.
+- **D5 — Alt-text policy.** Factual visual description in Serbian, not the subject's name and not a caption duplicate. Example: `Formalna fotografija starijeg kralja sa sedom bradom u tamnoj uniformi sa epoletama` (alt) vs `Kralj Petar I Karađorđević, vladar Srbije u Balkanskim ratovima` (caption).
+- **D6 — Validator change.** None. The existing loader rule on positive-integer `width`/`height` ([packages/content/src/loader/loadCourseFromFiles.ts:341-345](../packages/content/src/loader/loadCourseFromFiles.ts#L341-L345)) is sufficient. No "era-openers must carry an image" invariant was introduced — would be fragile against section renames or future content reshuffles.
+- **D7 — Asset paths.** `apps/web/public/lessons/era-{order}-{slug}.webp`. JSON `src` is the public-rooted `/lessons/era-N-slug.webp`.
+
+The 8 era-opener lessons identified by min `startDay` per era (from [`content/courses/istorija-srbije-365/sections.json`](../content/courses/istorija-srbije-365/sections.json)):
+
+| Era | Day | File | Lesson |
+| --- | --- | --- | --- |
+| I | 1 | `era-1-lepenski-vir.webp` | day-001 — Lepenski Vir — naselje na Dunavu |
+| II | 46 | `era-2-pre-nemanjica.webp` | day-046 — Srbija pre Nemanjića: Raška i Duklja |
+| III | 106 | `era-3-srpske-zemlje-posle-carstva.webp` | day-106 — Srpske zemlje posle carstva |
+| IV | 151 | `era-4-ustrojstvo-osmanskog-carstva.webp` | day-151 — Ustrojstvo Osmanskog carstva |
+| V | 196 | `era-5-srpska-revolucija.webp` | day-196 — Šta je Srpska revolucija |
+| VI | 231 | `era-6-ustavobranitelji.webp` | day-231 — Ustavobraniteljski režim |
+| VII | 281 | `era-7-balkanski-savez.webp` | day-281 — Balkanski savez 1912. |
+| VIII | 341 | `era-8-raspad-jugoslavije.webp` | day-341 — Raspad Jugoslavije — uzroci |
+
+License mix: 2 PD-source (Era 6 PD-Serbia, Era 7 PD-1923 / US-no-notice), 6 CC BY-SA (Era 1 CC BY-SA 4.0, Era 2 CC BY-SA 3.0, Era 3 CC BY-SA 3.0, Era 4 CC BY-SA 3.0, Era 5 CC BY-SA 4.0, Era 8 CC BY-SA 3.0). Every caption ends in a valid attribution clause naming source + license. The curation subagent quoted the license-line text from each Commons page for owner audit; the shortlist with all rejected and accepted candidates lives in the conversation log for the phase.
+
+What changed concretely:
+
+- 8 new WebP assets at `apps/web/public/lessons/era-{1..8}-{slug}.webp` (total ~1.5 MB across all 8 files, individually 28–557 KB). Sourced via Commons `Special:FilePath` redirect, encoded with `sharp@0.34.5` / libvips 8.17.3.
+- 8 JSON edits adding one `image` block at `content[1]` to each era-opener lesson: [`content/courses/istorija-srbije-365/lessons/day-001.json`](../content/courses/istorija-srbije-365/lessons/day-001.json), `day-046.json`, `day-106.json`, `day-151.json`, `day-196.json`, `day-231.json`, `day-281.json`, `day-341.json`. Pure additive diffs (8 lines per file, 64 total), no reformatting churn — inserted via text-surgical patch that preserves the repo's inline-array CRLF convention.
+- [`packages/content/src/courses/istorija-srbije-365/_generated.ts`](../packages/content/src/courses/istorija-srbije-365/_generated.ts) regenerated via `pnpm gen-content` to reflect the JSON edits.
+
+What did not change: zero code in `apps/web`, `packages/{ui,ui-web,core,content}`. The renderer (shipped in 7.10), schema (`{ type: 'image', src, alt, width, height, caption? }`), loader (positive-integer rule), and validator all already did what this phase needed. No `next.config.mjs` `images.remotePatterns` was added — all 8 images are local under `/public`.
+
+Gates locally green: `pnpm typecheck && pnpm lint && pnpm test && pnpm build && pnpm validate-content`. Test counts unchanged (no new unit tests required — renderer + schema were unit-tested at 7.10). Production build shapes static + dynamic routes identically to pre-7.12b. The Next.js Image pipeline auto-optimizes each WebP at request time.
+
+Open work surfaced by this phase: none. The figure pipeline is self-contained.
+
+Roadmap context: this closes Bundle F from [`docs/ROADMAP_PRE_PHASE_8.md`](./ROADMAP_PRE_PHASE_8.md) for the era-opener subset of lessons. Figures on non-era-opener lessons remain a future editorial pass, not a phase. With 7.7 / 7.8 / 7.9 / 7.10+7.12-a / 7.11 / 7.12b shipped, the remaining backlog is Phase 7.5 (mobile sticky chrome — pre-7.0 polish), Phase 7.6 (course scroll restore — pre-7.0 polish), seed bylines (1-line JSON edits when authors are decided), a hero backdrop QA pass at 360 / 768 / 1280 / 1920, and a small consolidation phase for the `keyPeople` / `keyPlaces` rendering surface.
+
 ## Phase 7.11 — Lesson bookmarks + saved-lessons surface: done
 
 Shipped 2026-05-19 as PR #21 (squash commit `1fffe95`), one PR with two commits — core bookmarks module + tests, then web wiring + UI. Plan: [`docs/archive/phases/PHASE_7_11_PLAN.md`](./archive/phases/PHASE_7_11_PLAN.md). Predecessor: Phase 7.10 + 7.12 + Roadmap §E (Bundle E).
@@ -1107,6 +1151,6 @@ Roadmap context: this is Bundle E from [`docs/ROADMAP_PRE_PHASE_8.md`](./ROADMAP
 
 The forward-looking pointer now lives in [`HANDOFF.md`](../HANDOFF.md) at the repo root. It records the carry-forward non-blocking deferrals, the active pre-Phase-8 backlog ([`docs/ROADMAP_PRE_PHASE_8.md`](./ROADMAP_PRE_PHASE_8.md)), and the auto-regen `_generated.ts` quality-of-life candidate from the 7.8 PR. The roadmap continues into Phase 8 (Backend / .NET 9 + SQL Server) once the pre-Phase-8 bundles close and web v1 is declared visually approved.
 
-Next pick: **Phase 7.12b — Era-opener figures.** 8 curated public-domain / CC-BY / CC-BY-SA images placed under `apps/web/public/lessons/`, inserted as `image` blocks on the era-opener lessons (the lesson whose `dayNumber` matches each era's first section's `startDay`). Attribution lives in the caption string. The renderer is already wired and shipped (Phase 7.10 / `<LessonBody>` `next/image` figure). Effort: ~half a day for the JSON edits + regen once images are sourced. Image curation is the schedule risk.
+Next pick: **Phase 7.5 — Mobile lesson sticky chrome scroll-collapse.** Existing pre-7.0 polish backlog item — collapse the sticky lesson chrome on scroll-down, restore on scroll-up so mobile readers reclaim vertical space mid-lesson. Renderer scope only; no content or schema changes.
 
-Phase plans for shipped phases (6.7 through 7.11) live in [`docs/archive/phases/`](./archive/phases/). Superseded UX reviews and audits live in [`docs/archive/reviews/`](./archive/reviews/). Treat both archive folders as historical — do not consult them when assessing current state.
+Phase plans for shipped phases (6.7 through 7.12b) live in [`docs/archive/phases/`](./archive/phases/). Superseded UX reviews and audits live in [`docs/archive/reviews/`](./archive/reviews/). Treat both archive folders as historical — do not consult them when assessing current state.

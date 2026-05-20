@@ -505,6 +505,14 @@ export const lessons: readonly Lesson[] = [
         "dropcap": true
       },
       {
+        "type": "image",
+        "src": "/lessons/era-1-lepenski-vir.webp",
+        "alt": "Rekonstrukcija trapezoidne praistorijske kuće sa kamenim podom i središnjim ognjištem.",
+        "width": 1440,
+        "height": 1080,
+        "caption": "Rekonstrukcija lepenske kuće na arheološkom nalazištu. Foto: Milojevic.Dragana, CC BY-SA 4.0, Wikimedia Commons."
+      },
+      {
         "type": "paragraph",
         "text": "Sredinom dvadesetog veka planirana je izgradnja velike hidroelektrane „Đerdap” na Dunavu. Brana bi podigla nivo reke i potopila pojas obale kroz klisuru. Pre nego što voda nadođe, trebalo je istražiti šta se na toj obali krije — jer ono što ne bude zabeleženo, nestaje zauvek. Tako je počelo ono što arheolozi nazivaju zaštitnim iskopavanjem: trka sa vremenom da se sazna i sačuva što se može pre nego što lokalitet bude izgubljen."
       },
@@ -3563,6 +3571,14 @@ export const lessons: readonly Lesson[] = [
         "type": "paragraph",
         "text": "Između pokrštavanja srpskih kneževina u poznom devetom veku i trenutka kada na velikožupanski presto dolazi Stefan Nemanja 1166. godine, prošlo je gotovo tri stoleća. To je dug, oskudno osvetljen period u kome su se srpske zemlje polako oblikovale, smenjivale tuđu vlast i međusobno se nadmetale ko će postati središte. U toj priči, dva imena dolaze pre svih ostalih — Raška i Duklja. Jedna leži u brdovitoj unutrašnjosti centralnog Balkana, druga uz jadransku obalu. Iz njihovog dugog suparništva izaći će na kraju ona Srbija koja će s Nemanjićima ući u zreli srednji vek.",
         "dropcap": true
+      },
+      {
+        "type": "image",
+        "src": "/lessons/era-2-pre-nemanjica.webp",
+        "alt": "Srednjovekovni manastir sa dva kamena zvonika na zelenom brežuljku, plavo nebo.",
+        "width": 787,
+        "height": 840,
+        "caption": "Manastir Đurđevi Stupovi kod Novog Pazara, zadužbina iz 12. veka. Foto: Masasrb, CC BY-SA 3.0, Wikimedia Commons."
       },
       {
         "type": "paragraph",
@@ -7452,6 +7468,14 @@ export const lessons: readonly Lesson[] = [
         "dropcap": true
       },
       {
+        "type": "image",
+        "src": "/lessons/era-3-srpske-zemlje-posle-carstva.webp",
+        "alt": "Srednjovekovna manastirska crkva iza visokih kamenih bedema sa odbrambenim kulama.",
+        "width": 1440,
+        "height": 960,
+        "caption": "Manastir Manasija (Resava), zadužbina despota Stefana Lazarevića. Foto: Slobodan Ivković, CC BY-SA 3.0, Wikimedia Commons."
+      },
+      {
         "type": "paragraph",
         "text": "U središnjoj srpskoj zemlji, na širokoj ravnici Velike i Zapadne Morave, postepeno se izdvajao knez Lazar Hrebeljanović. Njegovo sedište bilo je u Kruševcu, gradu koji je on sam podigao kao prestonicu, a vlast se širila preko slivova Morave sve do Rudnika i Braničeva. Lazar nije nosio carsku ni kraljevsku titulu — ostao je knez, što je u toj generaciji bila skromna, ali jasna oznaka prvog među vlastelom. Upravo ta umerenost u titulisanju, uz strpljivu politiku braka i savezništva, učiniće ga vremenom najuglednijim među srpskim oblasnim gospodarima i nosiocem ideje da se, kad dođe trenutak, Osmanlijama treba suprotstaviti otvorenom borbom. Lazaru i njegovoj ulozi posvećeni su naredni dani ove knjige."
       },
@@ -10438,6 +10462,14 @@ export const lessons: readonly Lesson[] = [
         "dropcap": true
       },
       {
+        "type": "image",
+        "src": "/lessons/era-4-ustrojstvo-osmanskog-carstva.webp",
+        "alt": "Kompleks od više povezanih srpskih srednjovekovnih crkava sa crvenim krovovima u podnožju planine.",
+        "width": 1440,
+        "height": 1080,
+        "caption": "Pećka patrijaršija, sedište obnovljene Srpske crkve od 1557. Foto: Bwangha Mbutto, CC BY-SA 3.0, Wikimedia Commons."
+      },
+      {
         "type": "paragraph",
         "text": "Na vrhu cele zgrade stajao je sultan. On je istovremeno bio i vrhovni vladar, i vrhovni vojskovođa, i — barem u načelu — zaštitnik islama u celom carstvu; od početka 16. veka, posle osvajanja Egipta, osmanski sultan nosio je i titulu halife, vođe svih sunitskih muslimana. Njegova vlast bila je apsolutna u smislu da nije postojalo telo koje bi je formalno ograničavalo, ali je u praksi bila ograničena šerijatom, dvorskom tradicijom i moći velikih službenika oko njega. Sultanova ličnost i sposobnost, kao i u svakoj monarhiji, dramatično su uticali na to kako je carstvo funkcionisalo: razlika između Sulejmana i njegovih slabijih naslednika osetila se na sve četiri strane Balkana."
       },
@@ -13371,6 +13403,14 @@ export const lessons: readonly Lesson[] = [
         "dropcap": true
       },
       {
+        "type": "image",
+        "src": "/lessons/era-5-srpska-revolucija.webp",
+        "alt": "Uljani portret čoveka u tamnoj uniformi sa crvenim ogrtačem i orijentalnim sabljama.",
+        "width": 1409,
+        "height": 1562,
+        "caption": "Karađorđe Petrović — portret iz Istorijskog muzeja Srbije. Foto: Sadko, CC BY-SA 4.0, Wikimedia Commons."
+      },
+      {
         "type": "paragraph",
         "text": "Vremenski okvir nije sasvim ujednačen u literaturi. Najčešće se Srpska revolucija datira od 1804. do 1835. godine — od skupštine u Orašcu, kojom je počeo Prvi srpski ustanak, do donošenja Sretenjskog ustava, prvog ustavnog akta nove kneževine. Neki istoričari period skraćuju do 1830, kada su sultanovi hatišerifi konačno potvrdili srpsku autonomiju, a drugi ga produžavaju do 1839, kada je knez Miloš Obrenović morao da abdicira. Postoje i oni koji okvir pomeraju unazad do 1788. i Kočine krajine, videći u srpskim četama na austrijskoj strani neku vrstu predigre. Razlike su stvarne, ali ne menjaju jezgro: jezgro su dva ustanka i dugačak diplomatsko-institucionalni proces koji ih je pretvorio u državu."
       },
@@ -15789,6 +15829,14 @@ export const lessons: readonly Lesson[] = [
         "type": "paragraph",
         "text": "Kada je u jesen 1842. godine, posle nasilnog svrgavanja kneza Mihaila Obrenovića, Svetopetarska skupština u Topčideru izabrala Aleksandra Karađorđevića za novog kneza, mnogi su mislili da Srbija dobija samo novog vladara. U stvari, dobijala je novi tip države. Ljudi koji su izveli prevrat — Toma Vučić Perišić i Avram Petronijević, a uskoro i mlađi Ilija Garašanin, Stojan Simić i drugi — nazivani su ustavobraniteljima zato što su, još od sukoba sa knezom Milošem, branili Ustav iz 1838. godine i ograničenja kneževe lične vlasti. Sledećih šesnaest godina, sve do Svetoandrejske skupštine u decembru 1858, oni će vladati Srbijom — ne kao stranka u modernom smislu, već kao uska oligarhija visokih činovnika okupljena oko Sovjeta.",
         "dropcap": true
+      },
+      {
+        "type": "image",
+        "src": "/lessons/era-6-ustavobranitelji.webp",
+        "alt": "Formalni portret muškarca sa brkovima u tamnoj svečanoj uniformi sa odlikovanjima.",
+        "width": 1440,
+        "height": 2141,
+        "caption": "Knez Aleksandar Karađorđević, vladar ustavobraniteljskog perioda. Javno vlasništvo, Wikimedia Commons."
       },
       {
         "type": "paragraph",
@@ -19213,6 +19261,14 @@ export const lessons: readonly Lesson[] = [
         "type": "paragraph",
         "text": "U proleće 1912. godine, dok su zapadne prestonice pratile drugu krizu — italijansko-tursko nadmetanje oko Libije — na Balkanu se, gotovo bez šuma, sklapao niz tajnih ugovora koji će za nekoliko meseci promeniti kartu poluostrva. Srbija, Bugarska, Grčka i Crna Gora ulazile su, jedna po jedna, u sistem bilateralnih sporazuma uperenih protiv Osmanskog carstva. Nijedan jedinstveni „savez četvorice” nije bio potpisan kao takav; postojao je niz dvostranih ugovora koji su se preklapali, sa zajedničkim protivnikom i različitim, često sukobljenim računima. Upravo zato je o Balkanskom savezu 1912. tačnije govoriti kao o trezvenom diplomatskom poduhvatu nego kao o pan-slovenskom pokretu zanesene braće.",
         "dropcap": true
+      },
+      {
+        "type": "image",
+        "src": "/lessons/era-7-balkanski-savez.webp",
+        "alt": "Formalna fotografija starijeg kralja sa sedom bradom u tamnoj uniformi sa epoletama.",
+        "width": 1440,
+        "height": 2283,
+        "caption": "Kralj Petar I Karađorđević, vladar Srbije u Balkanskim ratovima. Javno vlasništvo, Wikimedia Commons."
       },
       {
         "type": "paragraph",
@@ -23323,6 +23379,14 @@ export const lessons: readonly Lesson[] = [
         "type": "paragraph",
         "text": "Raspad Socijalističke Federativne Republike Jugoslavije nije imao jedan uzrok, niti jedan dan kada je počeo. Bio je to spor, slojevit proces u kojem su se preklopili ustavna konstrukcija, privredna podvojenost republika, slabljenje partije, smrt vođe koji je dotad držao sistem na okupu, i — krajem osamdesetih — istorijski talas koji je iz Istočne Evrope rušio jednopartijske režime. Da bi se taj raspad razumeo bez svođenja na jednu krivicu ili jednu zaveru, treba istovremeno gledati nekoliko ravni: pravnu, ekonomsku, političku, međunarodnu i ono što se neretko zove kulturno pamćenje. Tek svi zajedno objašnjavaju zašto je država koja je gotovo pola veka delovala stabilno, za nekoliko godina prestala da postoji.",
         "dropcap": true
+      },
+      {
+        "type": "image",
+        "src": "/lessons/era-8-raspad-jugoslavije.webp",
+        "alt": "Politička karta Jugoslavije sa šest republika i dve pokrajine, čisti kartografski stil.",
+        "width": 1440,
+        "height": 1017,
+        "caption": "Karta SFRJ sa republikama i pokrajinama (1945–1991). Foto: Gap, CC BY-SA 3.0, Wikimedia Commons."
       },
       {
         "type": "paragraph",
