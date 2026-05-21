@@ -3,7 +3,6 @@
 import { IconMenu, ProgressBar } from '@learn365/ui-web';
 
 import styles from './LessonContextHeader.module.css';
-import { useMetaRowCollapsed } from './useScrollDirection';
 
 interface LessonContextHeaderProps {
   dayNumber: number;
@@ -30,10 +29,10 @@ function formatDay(day: number): string {
  * sticky TopBar carries a "Kurs" link, the breadcrumbs above the article
  * carry "Početna · Kurs · Era", and the browser/PWA back gesture remains.
  *
- * Bottom row carries quiet context (current era + total progress). On
- * scroll-down it collapses away (Phase 7.5) to reclaim reading space; the top
- * row stays sticky so the contents drawer trigger is always reachable. It
- * restores on scroll-up.
+ * Bottom row carries quiet context (current era + total progress). The whole
+ * header is sticky and stays fully visible while scrolling — the meta row no
+ * longer collapses on scroll-down, so the lesson progress/navigation area is
+ * always present on the reading screen.
  */
 export function LessonContextHeader({
   dayNumber,
@@ -44,10 +43,9 @@ export function LessonContextHeader({
   onOpenContents,
 }: LessonContextHeaderProps) {
   const progressValue = totalLessons > 0 ? completedCount / totalLessons : 0;
-  const collapsed = useMetaRowCollapsed();
 
   return (
-    <div className={`${styles.header} ${collapsed ? styles.collapsed : ''}`}>
+    <div className={styles.header}>
       <div className={styles.topRow}>
         <button
           type="button"
@@ -68,7 +66,7 @@ export function LessonContextHeader({
         <span aria-hidden="true" className={styles.spacer} />
       </div>
 
-      <div className={styles.metaRow} aria-hidden={collapsed}>
+      <div className={styles.metaRow}>
         <span className={styles.era}>{eraLabel}</span>
         <div className={styles.progress}>
           <span className={styles.bar}>
