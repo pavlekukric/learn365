@@ -1,6 +1,6 @@
 # Handoff — History 365 / Istorija Srbije 365
 
-**Last updated:** 2026-05-19, after Phase 7.5 ship (PR #23, merged `4325e64`).
+**Last updated:** 2026-05-21, after Phase 7.6 ship (PR #24, merged `17f2715`).
 
 This is the live forward-looking pointer for the project. **Read this before starting any new phase.** It tells you what is true now and what the strongest next moves are.
 
@@ -11,8 +11,9 @@ For the full current state, read [`docs/PROJECT_STATE.md`](docs/PROJECT_STATE.md
 ## Where the app is right now
 
 - **Web v1 is live** at https://learn365-web.vercel.app/ (Vercel project `learn365-web`, auto-deploys from `main`).
-- **Phase 7.5 just shipped** (PR #23, `4325e64`) — on single-column lesson layouts (≤1024px) the sticky `LessonContextHeader`'s secondary meta row (era + total progress) collapses on scroll-down and restores on scroll-up, while the top row (`Sadržaj` contents trigger + day) stays sticky. New `useScrollDirection.ts` hook (rAF-coalesced, dead-zone, top-of-page guard) co-located with the lesson page; collapse via `max-height`/`opacity` on the inner row to preserve sticky + backdrop blur; honours `prefers-reduced-motion`. One mobile-profile Playwright assertion added. No content/schema changes.
-- **Phase 7.12b** is the prior milestone — the 8 era-opener lessons (Days 1, 46, 106, 151, 196, 231, 281, 341) each carry one curated figure at `content[1]` (between the dropcap paragraph and the second paragraph). Sources are Wikimedia Commons under PD-1923 / PD-Serbia / CC BY / CC BY-SA. 8 WebP assets at [`apps/web/public/lessons/era-{1..8}-{slug}.webp`](apps/web/public/lessons/) (1440 px wide max, ~1.5 MB total). Pure content pass — 8 additive JSON edits + regen, zero code changes.
+- **Phase 7.6 just shipped** (PR #24, `17f2715`) — returning to the course overview within a browser session restores the reader's prior scroll position (Next's built-in restoration misses because the era accordion settles after hydration). New `CourseScrollRestore.tsx` client component on the course page: owns `history.scrollRestoration = 'manual'`, persists the offset to `sessionStorage` (`learn365:course-scroll:<courseId>`) — debounced, plus a click-time freeze so navigation scroll-noise can't clobber it — and restores via a settle-aware rAF enforcement loop that beats the framework's deferred scroll-to-top. `sessionStorage` is view state (not the backend swap seam); fresh tab/session lands at top. New all-profile Playwright assertion. No content/schema changes.
+- **Phase 7.5** is the prior milestone (PR #23, `4325e64`) — on single-column lesson layouts (≤1024px) the sticky `LessonContextHeader`'s secondary meta row (era + total progress) collapses on scroll-down and restores on scroll-up, while the top row (`Sadržaj` contents trigger + day) stays sticky. New `useScrollDirection.ts` hook (rAF-coalesced, dead-zone, top-of-page guard); collapse via `max-height`/`opacity` on the inner row to preserve sticky + backdrop blur; honours `prefers-reduced-motion`.
+- **Phase 7.12b** before that — the 8 era-opener lessons (Days 1, 46, 106, 151, 196, 231, 281, 341) each carry one curated figure at `content[1]` (between the dropcap paragraph and the second paragraph). Sources are Wikimedia Commons under PD-1923 / PD-Serbia / CC BY / CC BY-SA. 8 WebP assets at [`apps/web/public/lessons/era-{1..8}-{slug}.webp`](apps/web/public/lessons/) (1440 px wide max, ~1.5 MB total). Pure content pass — 8 additive JSON edits + regen, zero code changes.
 - **Phase 7.11** before that — lesson bookmarks + `<CourseOverviewBookmarks>` surface (PR #21, `1fffe95`). New `@learn365/core/bookmarks` module mirroring the `progress` swap-seam pattern; toggle in `LessonHeader`; saved-lessons list on the course overview that renders nothing on empty.
 - **Phase 7.10 + 7.12-a** before that — lesson trust scaffolding (`byline`, `lastReviewedAt`, `sources[]`) + figure renderer (`next/image` inside real `<figure>` + `<figcaption>`).
 - **Phase 7.9** then collapsed the course-overview progress card to one canonical journey-day row.
@@ -28,7 +29,7 @@ For the detailed surface-by-surface baseline (TopBar, Home, Course, Lesson reade
 
 ## Carry-forward, non-blocking deferrals
 
-Open since Phase 5 + Phase 7.10 + Phase 7.11 + Phase 7.12b + Phase 7.5. None of these block new feature phases, but all should close before web v1 is declared "complete":
+Open since Phase 5 + Phase 7.10 + Phase 7.11 + Phase 7.12b + Phase 7.5 + Phase 7.6. None of these block new feature phases, but all should close before web v1 is declared "complete":
 
 - **Production contact email** — swap the `CONTACT_EMAIL` placeholder in [`apps/web/app/o-aplikaciji/_copy.ts`](apps/web/app/o-aplikaciji/_copy.ts) once the real address exists. One-line change.
 - **Screen-reader smoke** — VoiceOver / NVDA on TopBar nav + breadcrumbs + accordion + completion toggle + `<LessonSources>` block + bookmark toggle + `<CourseOverviewBookmarks>` cards + era-opener figure `<figcaption>` announcement (post-7.12b) + confirm the collapsed lesson meta row (`aria-hidden` while collapsed, post-7.5) is not announced and does not trap focus. Manual gate from Phase 5.
@@ -37,20 +38,22 @@ Open since Phase 5 + Phase 7.10 + Phase 7.11 + Phase 7.12b + Phase 7.5. None of 
 - **Seed bylines** (post-7.10) — 6 one-line JSON edits adding `"byline": { "author": "…", "reviewer": "…" }` to the seed lessons once the editorial team is decided. Renderer is wired and shipped; absent because the "no generic fallback" rule means each byline needs a real per-lesson name. Effort: ~5 minutes per lesson.
 - **Reading-progress hairline QA pass** (post-7.11) — Phase 7.11 plan §L6 reserved a manual check at 360 / 768 / 1024 / 1280 / 1920 widths and against the sticky TopBar z-index. Not driven yet because the component was already in production; QA confirms no surprise regressions.
 - **Era-opener figure visual QA pass** (post-7.12b) — manual walk of all 8 era-opener lessons on the Vercel preview at 390 / 720 / 1280 to confirm no layout regression on neighbouring blocks, the dropcap on paragraph 1 stays undisturbed, the figure border-rule reads as editorial frame (not thumbnail outline), and the 8 captions ring as a coherent editorial set across periods. Sub-item: ensure no in-figure Cyrillic/Latin transliteration mismatch slipped into a caption.
+- **Course scroll-restore visual QA pass** (post-7.6) — confirm on the Vercel preview that returning to `/course/...` (via browser back, breadcrumb `Kurs`, and TopBar `Kurs`) restores the offset with no jarring top→offset flash beyond ~1 frame, and that the motion reads calm at 390 / 768 / 1280. Sub-item: confirm the D2 accordion-shift (a different era may auto-expand on return) does not read as broken.
 
 ---
 
 ## Pre-Phase-8 UX backlog
 
-The post-7.4 backlog was reframed on 2026-05-19 after an independent mobile UI/UX assessment. The full roadmap is in [`docs/ROADMAP_PRE_PHASE_8.md`](docs/ROADMAP_PRE_PHASE_8.md). Six bundles surfaced as Phases 7.7–7.12; the two pre-existing 7.5/7.6 polish items are preserved. **Phases 7.7 (mobile nav), 7.8 (daily anchor), 7.9 (progress consolidation), 7.10 + 7.12-a (lesson trust scaffolding + figure renderer), 7.11 (lesson bookmarks + saved-lessons surface), 7.12b (era-opener figures), and 7.5 (mobile sticky chrome scroll-collapse) have shipped**; the rest remain.
+The post-7.4 backlog was reframed on 2026-05-19 after an independent mobile UI/UX assessment. The full roadmap is in [`docs/ROADMAP_PRE_PHASE_8.md`](docs/ROADMAP_PRE_PHASE_8.md). Six bundles surfaced as Phases 7.7–7.12; the two pre-existing 7.5/7.6 polish items were preserved and are now both shipped. **Phases 7.7 (mobile nav), 7.8 (daily anchor), 7.9 (progress consolidation), 7.10 + 7.12-a (lesson trust scaffolding + figure renderer), 7.11 (lesson bookmarks + saved-lessons surface), 7.12b (era-opener figures), 7.5 (mobile sticky chrome scroll-collapse), and 7.6 (course page scroll restore) have all shipped.** No structured UX bundle remains.
 
-**Next pick: Phase 7.6 — Course page scroll restore.** Existing pre-7.0 polish backlog item. Returning to `/course/...` from a lesson should restore the previous scroll position instead of resetting to the top, so the reader lands back where they were in the era list rather than at the page header. Likely a small `sessionStorage` + `scrollRestoration` pass on the course route; confirm scope against Next.js App Router scroll behaviour before locking. No content or schema changes expected. Effort: ~half a day.
+**Next pick: owner's call — the remaining backlog is all small/optional, or declare web v1 visually approved and move to Phase 8 (Backend).** Candidates, none blocking, in rough order:
 
-Remaining candidates after 7.6, in proposed ship order (per roadmap, owner can re-sequence):
-
+- **`keyPeople` / `keyPlaces` rendering** (corpus fields added in 7.8 but unrendered anywhere). The most "phase-shaped" of the remainder: its own small consolidation phase deciding where in the reader / sidebar / header they appear and at what visual weight. Plan-before-code applies.
 - **Hero backdrop QA pass** at 360 / 768 / 1280 / 1920. One-off check, not a phase.
 - **Seed bylines.** 6 one-line JSON edits when editorial authors are decided (see Carry-forward).
-- **`keyPeople` / `keyPlaces` rendering** (corpus fields added in 7.8 but unrendered anywhere). Their own small consolidation phase — where in the reader / sidebar / header should they appear, and at what visual weight? Not blocking.
+- **Auto-regen `_generated.ts` on JSON edit** (husky pre-commit / `prebuild` / Turbo input dep). Small DX commit, not a UX phase — closes the manual `pnpm gen-content` foot-gun before the next content edit cycle.
+
+If the owner declares web v1 visually approved instead, the roadmap moves to **Phase 8 — Backend (.NET 9 Web API + SQL Server + EF Core)**; the `ProgressStorage` / `BookmarkStorage` adapters in `@learn365/core` are the swap seams.
 
 **Quality-of-life candidate surfaced by 7.8 (and reinforced by 7.12b):** auto-regen `_generated.ts` on JSON edit (husky pre-commit, a `prebuild` script, or a Turbo input dependency). The current manual `pnpm gen-content` step is a foot-gun if an author edits JSON without remembering to regen. Not a UX phase, but worth a small commit before the next content edit cycle.
 
