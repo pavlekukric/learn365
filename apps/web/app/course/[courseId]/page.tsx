@@ -6,6 +6,7 @@ import { Eyebrow } from '@learn365/ui-web';
 import { CourseOverviewBookmarks } from './_components/CourseOverviewBookmarks';
 import { CourseOverviewEras } from './_components/CourseOverviewEras';
 import { CourseOverviewProgress } from './_components/CourseOverviewProgress';
+import { CourseScrollRestore } from './CourseScrollRestore';
 import styles from './page.module.css';
 
 interface PageProps {
@@ -19,6 +20,10 @@ export default async function CourseOverviewPage({ params }: PageProps) {
 
   return (
     <div className={`shell ${styles.page}`}>
+      {/* Restores the reader's scroll position on return within the session
+        * (renders nothing). Next's built-in restoration misses here because the
+        * era accordion settles after hydration. */}
+      <CourseScrollRestore courseId={course.id} />
       {/*
         Course overview is a navigation tool, not a second landing page — the
         header stays compact (eyebrow + title + lede). The lede is sourced
