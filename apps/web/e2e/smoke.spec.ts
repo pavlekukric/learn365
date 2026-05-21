@@ -153,49 +153,34 @@ test.describe('History 365 — smoke', () => {
     ).toBeVisible();
   });
 
-  test('lesson meta row collapses on scroll-down and restores on scroll-up (single-column)', async ({
+  test('lesson meta row stays visible while scrolling (single-column)', async ({
     page,
   }) => {
-    // Phase 7.5 — on single-column layouts (≤1024px) the LessonContextHeader's
-    // secondary meta row (era + total progress) collapses as the reader scrolls
-    // down, while the "Sadržaj" contents trigger stays sticky. On the desktop
+    // On single-column layouts (≤1024px) the LessonContextHeader's secondary
+    // meta row (era + total progress) stays visible as the reader scrolls — the
+    // header is sticky and no longer collapses on scroll-down. On the desktop
     // two-column layout the header is display:none, so this is a no-op there;
     // gate on the contents button's presence (the single-column marker).
     await page.goto(`/course/${COURSE_ID}/lesson/${DAY_1_LESSON_ID}`);
 
     const contentsButton = page.getByRole('button', { name: /Otvori sadržaj/ });
     if (!(await contentsButton.isVisible())) {
-      test.skip(true, 'Desktop two-column layout — meta row collapse is N/A');
+      test.skip(true, 'Desktop two-column layout — meta row is N/A');
     }
 
-    // The meta row is clipped to max-height:0 when collapsed, so its rendered
-    // height is the deterministic probe (opacity alone would still read as
-    // "visible" to Playwright).
+    // Rendered height is the deterministic probe for visibility.
     const metaRow = page.locator('[class*="LessonContextHeader_metaRow"]');
     const metaHeight = async () =>
       (await metaRow.boundingBox())?.height ?? 0;
 
     expect(await metaHeight()).toBeGreaterThan(0);
 
-    // Nudge the scroll down a little on each poll (never resetting to top): the
-    // collapse listener attaches after hydration, so a single synthetic scroll
-    // fired too early would never register a direction change. Repeated
-    // downward deltas guarantee the collapse fires once the listener is live,
-    // and not resetting lets the 150ms transition settle to a 0-height row.
-    await expect
-      .poll(
-        async () => {
-          await page.evaluate(() => window.scrollBy(0, 240));
-          return metaHeight();
-        },
-        { timeout: 10000 },
-      )
-      .toBeLessThan(1);
-    // Contents trigger is never stranded — it stays reachable while collapsed.
-    await expect(contentsButton).toBeVisible();
-
-    await page.evaluate(() => window.scrollTo(0, 0));
+    // Scroll well down the article; the meta row must remain visible (and the
+    // contents trigger reachable) throughout.
+    await page.evaluate(() => window.scrollBy(0, 240));
+    await page.evaluate(() => window.scrollBy(0, 240));
     await expect.poll(metaHeight).toBeGreaterThan(0);
+    await expect(contentsButton).toBeVisible();
   });
 
   test('course overview restores scroll position on return from a lesson', async ({
