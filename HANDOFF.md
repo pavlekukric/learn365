@@ -1,6 +1,6 @@
 # Handoff — History 365 / Istorija Srbije 365
 
-**Last updated:** 2026-05-21, after Phase 7.6 ship (PR #24, merged `17f2715`).
+**Last updated:** 2026-05-21, after a mobile lesson top-hierarchy de-duplication polish (not yet a numbered phase / unmerged). See PROJECT_STATE → "Polish — Mobile lesson top-hierarchy de-duplication (2026-05-21)". Prior milestone: Phase 7.6 ship (PR #24, merged `17f2715`).
 
 This is the live forward-looking pointer for the project. **Read this before starting any new phase.** It tells you what is true now and what the strongest next moves are.
 

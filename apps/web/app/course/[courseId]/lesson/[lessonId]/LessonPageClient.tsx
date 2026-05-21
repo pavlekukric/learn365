@@ -165,13 +165,16 @@ export function LessonPageClient({
     return map;
   }, [eras, lessons, completedSet]);
 
+  // Breadcrumb carries location hierarchy only (course · era · section). The
+  // day number is intentionally NOT a crumb — it would duplicate the dedicated
+  // "Dan 004 / 365" indicator (mobile context header / desktop timeline), and
+  // a within-section position doesn't belong in a location trail.
   const breadcrumbs = useMemo(
     () => [
       { label: 'Početna', href: '/' },
       { label: courseTitle, href: `/course/${courseId}` },
       { label: era.title, href: eraHref(era.id) },
       { label: section.title, href: sectionHref(section.id) },
-      { label: `DAN ${String(lesson.dayNumber).padStart(3, '0')}` },
     ],
     [
       courseTitle,
@@ -182,7 +185,6 @@ export function LessonPageClient({
       section.title,
       section.id,
       sectionHref,
-      lesson.dayNumber,
     ],
   );
 
