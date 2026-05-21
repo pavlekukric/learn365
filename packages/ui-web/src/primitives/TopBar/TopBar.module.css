@@ -97,6 +97,16 @@
   transition: width var(--dur-medium) var(--ease);
 }
 
+/* On the lesson route, the sticky LessonContextHeader (≤1024px) already shows a
+ * labelled "Pročitano X / 365". Drop the masthead capsule across that whole
+ * single-column range so course progress is displayed once, always labelled.
+ * Desktop lesson view (>1024px) has no context header, so the capsule stays. */
+@media (max-width: 1024px) {
+  .progressGroup[data-route='lesson'] {
+    display: none;
+  }
+}
+
 @media (max-width: 720px) {
   .inner {
     gap: var(--space-4);

@@ -2,6 +2,7 @@ import type { Lesson, LessonByline } from '@learn365/content';
 
 import { IconBookmark } from '../../icons/IconBookmark.js';
 import { Flourish } from '../../primitives/Flourish/Flourish.js';
+import { LessonTimeline } from '../LessonTimeline/LessonTimeline.js';
 
 import styles from './LessonHeader.module.css';
 
@@ -43,7 +44,14 @@ export function LessonHeader({ lesson, bookmarkAction }: LessonHeaderProps) {
       {!isPlaceholder && trustLine !== null ? (
         <p className={`tiny mono ${styles.trust}`}>{trustLine}</p>
       ) : null}
-      <Flourish />
+      {/* Editorial timeline divider for authored lessons — shows roughly where
+       * the lesson sits in historical time. Placeholders fall back to the plain
+       * decorative flourish: their interpolated year isn't a real fact yet. */}
+      {isPlaceholder ? (
+        <Flourish />
+      ) : (
+        <LessonTimeline year={lesson.year} label={lesson.dateLabel} />
+      )}
       {/* Save-for-later toggle, top-right. Placeholder lessons aren't
        * bookmarkable — there's nothing to come back to yet. */}
       {!isPlaceholder && bookmarkAction ? (
