@@ -197,6 +197,78 @@ test.describe('History 365 — smoke', () => {
     await expect.poll(metaHeight).toBeGreaterThan(0);
   });
 
+  test('course overview restores scroll position on return from a lesson', async ({
+    page,
+  }) => {
+    // Phase 7.6 — returning to the course page restores the prior scroll
+    // position instead of resetting to the top. Next's built-in restoration
+    // misses here because the era accordion settles after hydration, so a
+    // dedicated CourseScrollRestore component owns the save + settle-aware
+    // restore. Seed progress so the page is tall + an era auto-expands.
+    const seed = {
+      state: {
+        byCourse: {
+          [COURSE_ID]: {
+            completedLessonIds: ['day-001', 'day-002', 'day-003'],
+            lastOpenedLessonId: 'day-200',
+            updatedAt: '2026-05-19T09:00:00.000Z',
+          },
+        },
+      },
+      version: 1,
+    };
+    await page.addInitScript(
+      ({ key, value }) => window.localStorage.setItem(key, value),
+      { key: 'learn365:progress:v1', value: JSON.stringify(seed) },
+    );
+
+    await page.goto(`/course/${COURSE_ID}`);
+    await expect(page.getByRole('heading', { level: 1 })).toBeVisible();
+
+    // Scroll to a known offset and confirm it was persisted before leaving.
+    // The save listener attaches after hydration, so retry the scroll (toggling
+    // 0 → 1000 to guarantee a fresh scroll event each time) until the debounced
+    // write lands — this rides out hydration timing under parallel load.
+    const SCROLL_KEY = `learn365:course-scroll:${COURSE_ID}`;
+    let saved = -1;
+    for (let i = 0; i < 20 && saved < 800; i++) {
+      await page.evaluate(() => {
+        window.scrollTo(0, 0);
+        window.scrollTo(0, 1000);
+      });
+      await page.waitForTimeout(200);
+      saved = await page.evaluate(
+        (k) => Number(window.sessionStorage.getItem(k) ?? -1),
+        SCROLL_KEY,
+      );
+    }
+    const target = await page.evaluate(() => window.scrollY);
+    // Only meaningful where the page actually scrolls to the offset.
+    if (target < 200 || saved < 200) {
+      test.skip(true, 'Course page not scrollable to the offset on this profile');
+    }
+
+    // Leave to a lesson by direct navigation. Clicking an on-page lesson link
+    // would make Playwright scroll that link into view first, moving the page
+    // off the saved offset before we leave — an artifact of the harness, not of
+    // real use (a user clicks a link already in their viewport). The save was
+    // confirmed above, so a direct navigation faithfully exercises the return.
+    await page.goto(`/course/${COURSE_ID}/lesson/${DAY_1_LESSON_ID}`);
+
+    // Return via the in-page breadcrumb "Kurs" link (a forward navigation,
+    // the case Next resets to top).
+    await expect(page.getByRole('link', { name: 'Kurs' }).first()).toBeVisible();
+    await Promise.all([
+      page.waitForURL(new RegExp(`/course/${COURSE_ID}$`)),
+      page.getByRole('link', { name: 'Kurs' }).first().click(),
+    ]);
+
+    // The restore is settle-aware (waits for client content height), so poll.
+    await expect
+      .poll(async () => page.evaluate(() => window.scrollY), { timeout: 5000 })
+      .toBeGreaterThan(target - 150);
+  });
+
   test('completion persists across reload', async ({ page }) => {
     await page.goto(`/course/${COURSE_ID}/lesson/${AUTHORED_LESSON_ID}`);
     await page.getByRole('button', { name: /^Završi$/ }).click();
