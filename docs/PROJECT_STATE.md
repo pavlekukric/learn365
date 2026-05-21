@@ -83,6 +83,22 @@ Owner-requested cleanup of the mobile lesson screen's top information hierarchy.
 
 No content/schema/`_generated.ts` change, no `Breadcrumbs` primitive API change. Gates: `pnpm typecheck` + `pnpm lint` green.
 
+## Polish — Mobile lesson progress de-duplication + editorial timeline divider (2026-05-21): done
+
+Owner-requested follow-up to the top-hierarchy cleanup above. Two parts:
+
+**1 — Course progress shown once on the lesson page.** The global `TopBar`'s total-progress capsule (`Ukupno X / 365`, which collapses to a bare `X / 365` at ≤720px) duplicated the labelled `Pročitano X / 365` carried by the sticky `LessonContextHeader`. The capsule is now hidden **only on the `lesson` route at ≤1024px** (the single-column range where the context header is visible) via a `data-route` attribute + a scoped media query. It stays on Home / Course / About at all widths, and on the desktop (>1024px) lesson layout where there is no context header. So course progress now appears exactly once per lesson view, always labelled. The separate `Dan nnn / 365` current-lesson indicator is untouched.
+
+**2 — Editorial timeline divider replaces the decorative flourish.** Below the lesson title/subtitle, authored lessons now render a new `LessonTimeline` component instead of the `<Flourish/>` (line · ✦ · line). It reads first as a divider — a hairline rule in `var(--rule)` — but quietly orients the reader in historical time: 5 round year ticks below the rule and one stylised accent (`var(--accent)`, dark green) marker above it (slim stem + small diamond cap, not a literal map pin) carrying the lesson's `dateLabel` (e.g. `15. vek`). The scale is intentionally *approximate*, not globally proportional: a pure helper (`lessonTimelineScale.ts`) picks a round step by magnitude (100 / 1000 / 2000 yrs), builds a local 5-tick window centred on the lesson year (soft-capped so it never trails far past the present), and returns the marker %. Informational only — `aria-hidden`, no roles or tab stops (the date is already announced by the header eyebrow). **Placeholder lessons fall back to `<Flourish/>`** — their interpolated year isn't a real fact yet. No content/schema change; reuses existing `lesson.year` + `lesson.dateLabel`.
+
+**Files touched:**
+- `packages/ui-web/src/primitives/TopBar/TopBar.tsx` + `.module.css` — `data-route` on the progress capsule; `@media (max-width: 1024px) .progressGroup[data-route='lesson'] { display: none }`.
+- `packages/ui-web/src/lesson/LessonTimeline/` — new: `LessonTimeline.tsx`, `.module.css`, `lessonTimelineScale.ts` (+ `lessonTimelineScale.test.ts`, 8 tests), `index.ts`.
+- `packages/ui-web/src/lesson/LessonHeader/LessonHeader.tsx` — authored lessons render `<LessonTimeline/>`; placeholders keep `<Flourish/>`.
+- `packages/ui-web/src/lesson/index.ts` — exports `LessonTimeline`.
+
+Gates: `pnpm typecheck`, `pnpm lint`, `pnpm build`, `pnpm test` (29 tests, incl. 8 new) all green. Manual mobile-width visual QA still recommended on the Vercel preview.
+
 ## Phase 5 — Web polish + QA: done
 
 All engineering gates closed; cross-browser visual review passed manually on Chrome / Firefox / Safari on Windows. Skip link (`Preskoči na sadržaj`) is the first tab stop and targets `<main id="main-content" tabIndex={-1}>`; Home hero CTA + course-overview start link have explicit `:focus-visible` accent rings; `MobileLessonDrawer` backdrop demoted to an `aria-hidden` `<div>` (no longer in the Tab cycle) and initial focus routed to the close button. Playwright suite is wired with **6 tests × 5 browser profiles (chromium-desktop, firefox-desktop, webkit-desktop, chromium-mobile, webkit-mobile) = 30 runs, 28 pass / 2 skipped** (the 2 skips are documented WebKit Tab-skips-anchors quirk on the skip-link assertion only). The suite covers: hero/CTA visible, 8 era cards on overview, mark-completed toggles label, completion persists across reload, skip-link tab-to-Enter path, and a `prefers-reduced-motion` assertion that confirms the timeline marker's transition collapses to <1ms when the OS preference is set. Lighthouse scores against `next start` (lighthouse@12 desktop preset + default mobile preset):

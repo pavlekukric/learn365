@@ -63,7 +63,16 @@ export function TopBar({
             O aplikaciji
           </Link>
 
-          <div className={styles.progressGroup} aria-label="Ukupan napredak">
+          {/* Total-progress capsule. Hidden on the lesson route at single-column
+            * widths (≤1024px) — there the sticky LessonContextHeader already
+            * carries a clearly-labelled "Pročitano X / 365", so the bare capsule
+            * count would read as a confusing duplicate. Kept everywhere else
+            * (Home / Course / About) and on the desktop lesson layout. */}
+          <div
+            className={styles.progressGroup}
+            data-route={route}
+            aria-label="Ukupan napredak"
+          >
             <span className={`eyebrow ${styles.progressLabel}`}>Ukupno</span>
             <span className={`tiny mono ${styles.progressCount}`}>
               {completedCount} / {totalLessons}
