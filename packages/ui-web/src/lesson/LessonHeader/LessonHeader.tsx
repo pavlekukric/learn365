@@ -23,9 +23,10 @@ export function LessonHeader({ lesson, bookmarkAction }: LessonHeaderProps) {
 
   return (
     <header className={styles.header}>
-      {/* DAN + era are already carried by the breadcrumb and (on desktop)
-       * the inline timeline above. The eyebrow keeps only the two facts
-       * those surfaces don't: how long the read is, and when it happened.
+      {/* The day position is carried by the dedicated "Dan 004 / 365"
+       * indicator (mobile context header / desktop timeline), and the era by
+       * the breadcrumb. The eyebrow keeps only the two facts those surfaces
+       * don't: how long the read is, and when it happened.
        * Placeholder lessons have a stubbed reading time and an interpolated
        * year that aren't real facts yet, so we suppress the line entirely —
        * the "Uskoro" card below the title carries the intent. */}

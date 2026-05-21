@@ -117,11 +117,12 @@ test.describe('History 365 — smoke', () => {
   test('lesson reader shows day, sidebar, timeline, and toggles completion', async ({ page }) => {
     await page.goto(`/course/${COURSE_ID}/lesson/${DAY_1_LESSON_ID}`);
 
-    // "DAN 001" is in the DOM twice — the LessonContextHeader (single-column
-    // layouts) and the LessonHeader eyebrow (desktop). Exactly one is visible
-    // per layout; filter to it.
+    // The day position is surfaced per layout: single-column (≤1024px) shows
+    // "Dan 001 / 365" in the sticky LessonContextHeader; desktop shows the
+    // active "D001" row in the always-visible sidebar. (It is no longer a
+    // breadcrumb crumb.) Match whichever the current layout renders visible.
     await expect(
-      page.getByText(/DAN 001/).filter({ visible: true }).first(),
+      page.getByText(/Dan 001|D001/).filter({ visible: true }).first(),
     ).toBeVisible();
     // Navigation surfaces differ by layout. Desktop (two-column): the inline
     // reader timeline is visible above the article. Single-column (≤1024px):

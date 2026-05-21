@@ -60,7 +60,7 @@ export function LessonContextHeader({
         </button>
 
         <span className={`tiny mono ${styles.day}`}>
-          DAN {formatDay(dayNumber)} / {totalDays}
+          Dan {formatDay(dayNumber)} / {totalDays}
         </span>
 
         {/* Right cell intentionally empty — keeps the day visually centered
@@ -80,7 +80,7 @@ export function LessonContextHeader({
             />
           </span>
           <span className={`tiny mono ${styles.progressMeta}`}>
-            {completedCount} / {totalLessons}
+            Pročitano {completedCount} / {totalLessons}
           </span>
         </div>
       </div>
