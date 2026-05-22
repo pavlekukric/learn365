@@ -27,7 +27,17 @@ export function MobileLessonDrawer({
   const panelRef = useRef<HTMLDivElement | null>(null);
   const previouslyFocused = useRef<HTMLElement | null>(null);
 
-  // Lock body scroll, manage focus, listen for ESC + Tab.
+  // Hold the latest onClose in a ref so the open-effect can depend only on
+  // `open`. Otherwise an inline onClose (new identity each render) would make
+  // the effect tear down + re-run on every parent re-render — e.g. when the
+  // user expands another era inside the drawer — re-firing the scroll-to-
+  // current-lesson and yanking them away from where they're browsing.
+  const onCloseRef = useRef(onClose);
+  onCloseRef.current = onClose;
+
+  // Lock body scroll, manage focus, listen for ESC + Tab. Runs once per open
+  // (keyed on `open` only) so the initial scroll/focus happens exactly once
+  // and is not re-triggered while the user browses the open drawer.
   useEffect(() => {
     if (!open) return;
 
@@ -63,7 +73,7 @@ export function MobileLessonDrawer({
     function handleKey(event: KeyboardEvent) {
       if (event.key === 'Escape') {
         event.stopPropagation();
-        onClose();
+        onCloseRef.current();
         return;
       }
       if (event.key !== 'Tab' || !panel) return;
@@ -95,7 +105,7 @@ export function MobileLessonDrawer({
       document.body.style.overflow = prevOverflow;
       previouslyFocused.current?.focus?.();
     };
-  }, [open, onClose]);
+  }, [open]);
 
   if (!open) return null;
 
