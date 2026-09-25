@@ -79,11 +79,15 @@
   font-variant-numeric: tabular-nums;
 }
 
-/* Narrow phones: tighten the tick row so broad prehistory labels
- * ("14000 p. n. e.") don't collide. */
-@media (max-width: 380px) {
-  .tick {
-    font-size: 9px;
-    letter-spacing: -0.01em;
+/* Phones: the five round-year labels cannot fit side by side ("14000 p. n. e."
+ * × 5 needs ~450px), so the tick row is dropped and the marker label alone
+ * carries the date. The divider also gives back some vertical room so the
+ * first sentence arrives sooner. */
+@media (max-width: 720px) {
+  .timeline {
+    margin: var(--space-5) 0 var(--space-4);
+  }
+  .ticks {
+    display: none;
   }
 }

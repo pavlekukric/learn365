@@ -5,6 +5,7 @@ import { HomeCurrentLessonCard } from './_components/HomeCurrentLessonCard';
 import { HomeDailyAnchor } from './_components/HomeDailyAnchor';
 import { HomeEraTimeline } from './_components/HomeEraTimeline';
 import { HomeHeroCta } from './_components/HomeHeroCta';
+import { HomeHowItWorks } from './_components/HomeHowItWorks';
 import styles from './page.module.css';
 
 const DEFAULT_COURSE_ID = 'istorija-srbije-365';
@@ -45,19 +46,24 @@ export default function HomePage() {
 
         <div className={styles.heroInner}>
           {/* No hero eyebrow: the TopBar already holds the History 365 brand,
-            * and the h1 below carries the course identity. A second naming
-            * line between them only stutters the same idea. The chronological
-            * caption below the title is a scope statement, not a brand label —
-            * different register, so it sits under the h1 rather than above. */}
-          <h1 className="display">{course.title}</h1>
+           * and the h1 below carries the course identity. The title is kept
+           * on one line from 1100px up (`.heroTitle`) so "365" never strands
+           * alone on a second line. The CTA sits directly under the lede —
+           * above the fold on a 900px-tall desktop — and the flourish closes
+           * the hero band after it. */}
+          <h1 className={`display ${styles.heroTitle}`}>{course.title}</h1>
           <p className={`mono ${styles.dateLine}`}>{HERO_CONTRACT_LINE}</p>
           <p className={`body ${styles.description}`}>{HERO_DESCRIPTION}</p>
 
-          <Flourish />
-
           <HomeHeroCta courseId={course.id} />
+
+          <Flourish />
         </div>
       </section>
+
+      {/* First-visit only: the three-step contract + what "Dan" means.
+       * Disappears after the first completed lesson. */}
+      <HomeHowItWorks courseId={course.id} />
 
       <section className={styles.current} aria-label="Preporučena lekcija">
         <HomeDailyAnchor courseId={course.id} />

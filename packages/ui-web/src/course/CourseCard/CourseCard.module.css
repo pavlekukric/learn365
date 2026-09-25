@@ -1,6 +1,6 @@
 .card {
   display: grid;
-  grid-template-columns: 64px 1fr 220px 32px;
+  grid-template-columns: 1fr 220px;
   align-items: center;
   gap: var(--space-6);
   padding: var(--space-5) var(--space-6);
@@ -8,26 +8,45 @@
   border: 1px solid var(--rule);
   border-radius: var(--r-lg);
   color: inherit;
-  text-decoration: none;
   transition:
     background var(--dur-base) var(--ease),
-    border-color var(--dur-base) var(--ease),
-    transform var(--dur-base) var(--ease);
+    border-color var(--dur-base) var(--ease);
 }
 
 .card:hover {
-  background: var(--surface-2);
   border-color: var(--rule-2);
 }
 
-.card:focus-visible {
+.open {
+  border-color: var(--rule-2);
+}
+
+/* The card body is the disclosure: a full-width, transparent button. */
+.toggle {
+  display: grid;
+  grid-template-columns: 64px 1fr;
+  align-items: start;
+  gap: var(--space-6);
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background: transparent;
+  border: 0;
+  color: inherit;
+  text-align: left;
+  cursor: pointer;
+  border-radius: var(--r-md);
+}
+
+.toggle:focus-visible {
   outline: 2px solid var(--accent);
-  outline-offset: 2px;
+  outline-offset: 6px;
 }
 
 .num {
   color: var(--muted);
   letter-spacing: 0.14em;
+  padding-top: 6px;
 }
 
 .titleBlock {
@@ -50,16 +69,47 @@
   color: var(--muted);
 }
 
-/* Editorial description slot. Renders only when the `description` prop is
- * passed; absent on cards that want the original navigation-row register.
- * `block` + a generous max-width keep the prose readable but stop it from
- * spanning past the natural title column on wide cards. Extra top margin
- * separates it from the years label (which uses .titleBlock's space-1 gap
- * by default — too tight once prose follows). */
 .description {
   display: block;
   margin-top: var(--space-2);
   max-width: 56ch;
+}
+
+/* Disclosure hint — quiet, sits under the description, chevron rotates. */
+.hint {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  margin-top: var(--space-3);
+  color: var(--ink-2);
+  letter-spacing: 0.04em;
+}
+
+.toggle:hover .hint {
+  color: var(--ink);
+}
+
+.chev {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 14px;
+  height: 14px;
+  color: var(--muted);
+  transform: rotate(-90deg);
+  transition: transform var(--dur-base) var(--ease);
+}
+
+.chevOpen {
+  transform: rotate(0deg);
+}
+
+/* Right column: progress + the one explicit action. */
+.side {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  align-items: stretch;
 }
 
 .progressBlock {
@@ -69,61 +119,91 @@
   align-items: stretch;
 }
 
-.progressMeta {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: var(--space-3);
-}
-
 .count {
   color: var(--ink-2);
   font-variant-numeric: tabular-nums;
 }
 
-.statusIcon {
+.action {
+  align-self: flex-end;
   display: inline-flex;
   align-items: center;
-  justify-content: center;
-  width: 32px;
-  height: 32px;
-  color: var(--muted);
+  gap: var(--space-2);
+  padding: 7px 14px;
+  border-radius: var(--r-pill);
+  border: 1px solid var(--rule-2);
+  background: transparent;
+  color: var(--ink);
+  font-family: var(--sans);
+  font-size: 13px;
+  font-weight: 500;
+  text-decoration: none;
+  white-space: nowrap;
+  transition:
+    border-color var(--dur-base) var(--ease),
+    background var(--dur-base) var(--ease);
+}
+
+.action:hover {
+  border-color: var(--ink);
+  background: var(--surface-2);
+}
+
+.action:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.actionIcon {
+  width: 14px;
+  height: 14px;
   transition: transform var(--dur-base) var(--ease);
 }
 
-.card:hover .statusIcon {
+.action:hover .actionIcon {
   transform: translateX(2px);
 }
 
-.checkIcon {
+.actionDone {
   color: var(--completed);
-  width: 20px;
-  height: 20px;
+  border-color: color-mix(in oklch, var(--completed) 40%, var(--rule));
+}
+
+.actionDone .actionIcon {
+  color: var(--completed);
 }
 
 @media (max-width: 720px) {
   .card {
-    grid-template-columns: auto 1fr auto;
-    grid-template-areas:
-      'num title status'
-      'progress progress progress';
-    column-gap: var(--space-4);
-    row-gap: var(--space-4);
+    grid-template-columns: 1fr;
+    gap: var(--space-4);
     padding: var(--space-5);
   }
-  .num {
-    grid-area: num;
-  }
-  .titleBlock {
-    grid-area: title;
+  .toggle {
+    grid-template-columns: auto 1fr;
+    gap: var(--space-4);
   }
   .title {
     font-size: 19px;
   }
-  .progressBlock {
-    grid-area: progress;
+  .side {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--space-4);
   }
-  .statusIcon {
-    grid-area: status;
+  .progressBlock {
+    flex: 1;
+    min-width: 0;
+  }
+  .action {
+    align-self: auto;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .chev,
+  .actionIcon {
+    transition: none;
   }
 }

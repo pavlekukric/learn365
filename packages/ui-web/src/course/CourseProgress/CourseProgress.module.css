@@ -9,35 +9,104 @@
   border-radius: var(--r-lg);
 }
 
-.ringBlock {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: var(--space-2);
+/* ---------- Start state (nothing completed) ---------- */
+
+.cardIdle {
+  grid-template-columns: 1fr auto;
+  gap: var(--space-6);
 }
 
-.ringValue {
+.idleText {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  min-width: 0;
+}
+
+.idleTitle {
   font-family: var(--serif);
-  font-size: 26px;
-  line-height: 1;
-  letter-spacing: -0.01em;
+  font-size: 22px;
+  line-height: 1.25;
+  letter-spacing: -0.008em;
   color: var(--ink);
 }
 
-/*
- * Empty state: a fresh user has 0% — render it calm and quiet rather than a
- * bold "0%" that reads as a deflating score. The ring track still shows the
- * full journey ahead.
- */
-.ringValueZero {
-  color: var(--faint);
-  font-weight: 300;
+/* Same pill vocabulary as the Home hero CTA so the button you press to
+ * start looks identical on both surfaces. */
+.startCta {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: 12px 22px;
+  border-radius: var(--r-pill);
+  background: var(--ink);
+  color: var(--bg);
+  font-family: var(--sans);
+  font-weight: 500;
+  font-size: 14px;
+  text-decoration: none;
+  white-space: nowrap;
+  justify-self: end;
+  transition:
+    transform var(--dur-base) var(--ease),
+    background var(--dur-base) var(--ease);
+}
+
+.startCta:hover {
+  transform: translateY(-1px);
+  background: var(--ink-2);
+}
+
+.startCta:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+.startCta[aria-disabled='true'] {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.ctaArrow {
+  width: 16px;
+  height: 16px;
+  transition: transform var(--dur-base) var(--ease);
+}
+
+.startCta:hover .ctaArrow {
+  transform: translateX(2px);
+}
+
+/* ---------- In-progress state ---------- */
+
+.ringBlock {
+  --ring-size: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ringCenter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+}
+
+.ringCount {
+  font-family: var(--serif);
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+  font-variant-numeric: tabular-nums;
+}
+
+.ringOf {
+  color: var(--muted);
 }
 
 .rows {
-  display: flex;
-  flex-direction: column;
-  gap: var(--space-3);
   min-width: 0;
 }
 
@@ -45,7 +114,7 @@
   display: grid;
   grid-template-columns: auto 1fr auto;
   align-items: center;
-  gap: var(--space-3);
+  gap: var(--space-4);
   padding: var(--space-3);
   border-radius: var(--r-md);
   text-decoration: none;
@@ -70,7 +139,7 @@
 .rowText {
   display: flex;
   flex-direction: column;
-  gap: 2px;
+  gap: 3px;
   min-width: 0;
 }
 
@@ -82,24 +151,78 @@
 
 .rowTitle {
   font-family: var(--serif);
-  font-size: 16px;
-  color: var(--ink);
+  font-size: 19px;
   line-height: 1.3;
+  color: var(--ink);
   display: -webkit-box;
-  -webkit-line-clamp: 1;
+  -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
 
-.rowDay {
+.rowMeta {
   color: var(--muted);
   font-variant-numeric: tabular-nums;
 }
 
+.rowAction {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  color: var(--accent-ink);
+}
+
+.rowActionLabel {
+  font-family: var(--sans);
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.rowArrow {
+  width: 16px;
+  height: 16px;
+  color: var(--accent);
+  transition: transform var(--dur-base) var(--ease);
+}
+
+.row:hover .rowArrow {
+  transform: translateX(2px);
+}
+
+.allDone {
+  margin: 0;
+  font-family: var(--serif);
+  font-size: 17px;
+  color: var(--ink-2);
+}
+
 @media (max-width: 720px) {
   .card {
-    grid-template-columns: 1fr;
     gap: var(--space-5);
     padding: var(--space-5);
+  }
+  .cardIdle {
+    grid-template-columns: 1fr;
+  }
+  .startCta {
+    justify-self: start;
+  }
+  /* Ring stays beside the row (not stacked above it) so the card reads as
+   * one line of thought: this far, this next. */
+  .ringBlock {
+    --ring-size: 88px;
+  }
+  .ringCount {
+    font-size: 24px;
+  }
+  .row {
+    gap: var(--space-3);
+    padding: var(--space-2);
+  }
+  .rowTitle {
+    font-size: 17px;
+  }
+  .rowActionLabel {
+    display: none;
   }
 }

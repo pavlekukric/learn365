@@ -69,13 +69,7 @@
     #000 46%,
     transparent 100%
   );
-  mask-image: linear-gradient(
-    to bottom,
-    transparent 0%,
-    #000 12%,
-    #000 46%,
-    transparent 100%
-  );
+  mask-image: linear-gradient(to bottom, transparent 0%, #000 12%, #000 46%, transparent 100%);
 }
 
 /*
@@ -116,7 +110,7 @@
 .heroInner {
   position: relative;
   z-index: 1;
-  max-width: 760px;
+  max-width: 960px;
   display: flex;
   flex-direction: column;
   gap: var(--space-5);
@@ -144,7 +138,7 @@
   display: flex;
   align-items: center;
   gap: var(--space-6);
-  margin-top: var(--space-4);
+  margin-top: var(--space-2);
   flex-wrap: wrap;
 }
 
@@ -251,5 +245,100 @@
   .ctaRow {
     gap: var(--space-4);
     margin-top: var(--space-3);
+  }
+}
+
+/* ---------------------------------------------------------------------------
+ * Hero title — one line from 1100px up. The global `.display` clamp tops out
+ * at 104px, which wraps "365" onto its own line at 1440px; 6.3vw keeps the
+ * whole course name on one line inside the 960px hero column.
+ * ------------------------------------------------------------------------- */
+.heroTitle {
+  font-size: clamp(56px, 6.3vw, 92px);
+}
+
+@media (min-width: 1100px) {
+  .heroTitle {
+    white-space: nowrap;
+  }
+}
+
+/* ---------------------------------------------------------------------------
+ * "Kako funkcioniše" — three steps + the "Dan is an ordinal" note. Shown to
+ * first-time visitors only (see HomeHowItWorks). Calm: numerals, serif,
+ * hairline rules, no icons.
+ * ------------------------------------------------------------------------- */
+.how {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-6);
+}
+
+.howHeader {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  max-width: 720px;
+}
+
+.howSteps {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--space-8);
+  border-top: 1px solid var(--rule);
+}
+
+.howStep {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  padding-top: var(--space-5);
+}
+
+.howNum {
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  color: var(--accent-ink);
+}
+
+.howTitle {
+  font-family: var(--serif);
+  font-size: 21px;
+  line-height: 1.25;
+  letter-spacing: -0.005em;
+  color: var(--ink);
+}
+
+.howText {
+  font-family: var(--serif);
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--ink-2);
+  max-width: 34ch;
+}
+
+.howNote {
+  margin: 0;
+  max-width: var(--reading-col);
+  font-family: var(--serif);
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--ink-2);
+}
+
+@media (max-width: 720px) {
+  .howSteps {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  .howStep {
+    padding: var(--space-4) 0;
+    border-bottom: 1px solid var(--rule);
+  }
+  .howStep:last-child {
+    border-bottom: 0;
   }
 }

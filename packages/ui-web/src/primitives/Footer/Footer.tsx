@@ -19,13 +19,13 @@ export function Footer({ aboutHref, sourcesHref }: FooterProps) {
           <Brand />
         </Link>
 
-        <p className={styles.tagline}>
-          Premium dnevni vodič kroz istoriju Srbije.
-        </p>
+        <p className={styles.tagline}>Dnevni vodič kroz istoriju Srbije.</p>
 
         <nav className={styles.links} aria-label="Podaci o aplikaciji">
           <Link href={aboutHref}>O aplikaciji</Link>
-          <span className={styles.sep} aria-hidden="true">·</span>
+          <span className={styles.sep} aria-hidden="true">
+            ·
+          </span>
           <Link href={sourcesHref}>Izvori</Link>
         </nav>
 

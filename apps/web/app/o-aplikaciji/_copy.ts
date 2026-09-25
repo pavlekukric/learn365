@@ -24,11 +24,11 @@ export const STANDARD_BODY =
 
 export const SOURCES_HEADING = 'O izvorima';
 export const SOURCES_BODY =
-  'Lekcije se oslanjaju na uglednu domaću i međunarodnu istoriografiju — akademske preglede, monografije pojedinih perioda, i, kada je relevantno, primarne izvore u prevodu. Ne navodimo bibliografiju u samoj lekciji zato što bi opteretila kratku formu, ali svaki tekst prolazi kroz uredničku proveru pre objave. Detaljniji prikaz korišćenih izvora po epohama planiran je za narednu fazu kursa.';
+  'Lekcije se oslanjaju na uglednu domaću i međunarodnu istoriografiju — akademske preglede, monografije pojedinih perioda, i, kada je relevantno, primarne izvore u prevodu. Lekcije koje na kraju imaju blok „Izvori” navode dela na koja se tekst neposredno oslanja. Svaki tekst prolazi kroz uredničku proveru pre objave, a potpun prikaz korišćenih izvora po epohama je u pripremi.';
 
 export const EDITOR_HEADING = 'Urednički tim';
 export const EDITOR_BODY =
-  'Iza History 365 stoji uredništvo koje radi pod imenom Tim History 365 — mali tim posvećen pisanju, proveri i polaganom tempu objavljivanja. Trenutno smo u fazi izgradnje kursa: prve epohe se objavljuju postupno, a do potpune verzije od 365 lekcija stiže se tokom prve godine života aplikacije.';
+  'Iza History 365 stoji uredništvo koje radi pod imenom Tim History 365 — mali tim posvećen pisanju, proveri i polaganom tempu objavljivanja. Svih 365 lekcija je napisano i dostupno od prvog dana; uredničke dorade i proširenja izvora objavljuju se postepeno, lekciju po lekciju.';
 
 export const CONTACT_HEADING = 'Kontakt';
 export const CONTACT_BODY =

@@ -7,11 +7,17 @@ import styles from './ProgressRing.module.css';
 interface ProgressRingProps {
   /** 0..1. Values outside the range are clamped. */
   value: number;
-  /** Outer diameter in px. */
+  /**
+   * Geometry reference in px (drives the SVG viewBox and stroke maths).
+   * The rendered box is `--ring-size` (defaults to 120px) so a host can
+   * shrink the ring responsively from CSS without re-rendering.
+   */
   size?: number;
-  /** Stroke width in px. */
+  /** Stroke width in px, relative to `size`. */
   stroke?: number;
-  /** Centered content (typically a percentage label). */
+  /** Accessible label. Defaults to a percent-completed phrase. */
+  label?: string;
+  /** Centered content (typically a count or percentage label). */
   children: ReactNode;
 }
 
@@ -19,6 +25,7 @@ export function ProgressRing({
   value,
   size = 120,
   stroke = 6,
+  label,
   children,
 }: ProgressRingProps) {
   const clamped = clamp01(value);
@@ -31,14 +38,11 @@ export function ProgressRing({
   return (
     <div
       className={styles.ring}
-      style={{ width: size, height: size }}
       role="img"
-      aria-label={`${String(pct)} percent completed`}
+      aria-label={label ?? `${String(pct)} percent completed`}
     >
       <svg
         className={styles.svg}
-        width={size}
-        height={size}
         viewBox={`0 0 ${String(size)} ${String(size)}`}
         aria-hidden="true"
       >

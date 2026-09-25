@@ -6,6 +6,13 @@ import { Footer } from '@learn365/ui-web';
 
 import { TopBarHost } from '@/components/top-bar/TopBarHost';
 import { fontVariableClassName } from '@/lib/fonts/fonts';
+import {
+  SITE_DESCRIPTION,
+  SITE_NAME,
+  SITE_TITLE,
+  SITE_URL,
+  shareMetadata,
+} from '@/lib/seo/metadata';
 
 import { AppProviders } from './providers';
 
@@ -14,12 +21,17 @@ import './globals.css';
 const DEFAULT_COURSE_ID = 'istorija-srbije-365';
 
 export const metadata: Metadata = {
+  metadataBase: new URL(SITE_URL),
   title: {
-    default: 'History 365 — Istorija Srbije 365',
-    template: '%s · History 365',
+    default: SITE_TITLE,
+    template: `%s · ${SITE_NAME}`,
   },
-  description:
-    'Premium dnevni vodič kroz istoriju Srbije. Jedna kratka lekcija svakog dana, kroz osam istorijskih epoha.',
+  description: SITE_DESCRIPTION,
+  ...shareMetadata({
+    title: SITE_TITLE,
+    description: SITE_DESCRIPTION,
+    path: '/',
+  }),
 };
 
 export const viewport: Viewport = {
@@ -40,15 +52,11 @@ export default function RootLayout({ children }: { children: ReactNode }) {
           Preskoči na sadržaj
         </a>
         <AppProviders>
-          <TopBarHost
-            courseId={course.id}
-            totalLessons={course.totalLessons}
-          />
-          <main id="main-content" tabIndex={-1}>{children}</main>
-          <Footer
-            aboutHref="/o-aplikaciji"
-            sourcesHref="/o-aplikaciji#izvori"
-          />
+          <TopBarHost courseId={course.id} totalLessons={course.totalLessons} />
+          <main id="main-content" tabIndex={-1}>
+            {children}
+          </main>
+          <Footer aboutHref="/o-aplikaciji" sourcesHref="/o-aplikaciji#izvori" />
         </AppProviders>
       </body>
     </html>

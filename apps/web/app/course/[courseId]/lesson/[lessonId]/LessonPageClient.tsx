@@ -14,12 +14,7 @@ import {
   type SectionId,
 } from '@learn365/content';
 import { isBookmarked, isCompleted } from '@learn365/core';
-import {
-  CourseSidebar,
-  type EraStat,
-  LessonReader,
-  MobileLessonDrawer,
-} from '@learn365/ui-web';
+import { CourseSidebar, type EraStat, LessonReader, MobileLessonDrawer } from '@learn365/ui-web';
 
 import { useBookmarkStore } from '@/lib/bookmarks/BookmarkStoreProvider';
 import { useProgressStore } from '@/lib/progress/ProgressStoreProvider';
@@ -61,9 +56,7 @@ export function LessonPageClient({
   const completedSet = useProgressStore(
     (state) => state.byCourse[courseId]?.completedLessonIds ?? null,
   );
-  const bookmarked = useBookmarkStore((state) =>
-    isBookmarked(state, courseId, lesson.id),
-  );
+  const bookmarked = useBookmarkStore((state) => isBookmarked(state, courseId, lesson.id));
   const toggleBookmark = useBookmarkStore((state) => state.toggleBookmark);
 
   const eras = useMemo(() => getEras(courseId), [courseId]);
@@ -73,9 +66,7 @@ export function LessonPageClient({
   const [openSectionIds, setOpenSectionIds] = useState<ReadonlySet<SectionId>>(
     () => new Set([section.id]),
   );
-  const [openEraIds, setOpenEraIds] = useState<ReadonlySet<EraId>>(
-    () => new Set([era.id]),
-  );
+  const [openEraIds, setOpenEraIds] = useState<ReadonlySet<EraId>>(() => new Set([era.id]));
   const [drawerOpen, setDrawerOpen] = useState(false);
 
   useEffect(() => {
@@ -120,17 +111,12 @@ export function LessonPageClient({
     });
   }, []);
 
-  const lessonHref = useCallback(
-    (l: Lesson) => `/course/${courseId}/lesson/${l.id}`,
-    [courseId],
-  );
+  const lessonHref = useCallback((l: Lesson) => `/course/${courseId}/lesson/${l.id}`, [courseId]);
 
   const eraHref = useCallback(
     (eraId: string) => {
       const firstInEra = lessons.find((l) => l.eraId === eraId);
-      return firstInEra
-        ? `/course/${courseId}/lesson/${firstInEra.id}`
-        : `/course/${courseId}`;
+      return firstInEra ? `/course/${courseId}/lesson/${firstInEra.id}` : `/course/${courseId}`;
     },
     [courseId, lessons],
   );
@@ -152,10 +138,7 @@ export function LessonPageClient({
     for (const e of eras) {
       const eraLessons = lessons.filter((l) => l.eraId === e.id);
       const completed = completedSet
-        ? eraLessons.reduce(
-            (acc, l) => (completedSet.has(l.id) ? acc + 1 : acc),
-            0,
-          )
+        ? eraLessons.reduce((acc, l) => (completedSet.has(l.id) ? acc + 1 : acc), 0)
         : 0;
       map.set(e.id, {
         lessonCount: eraLessons.length,
@@ -176,16 +159,7 @@ export function LessonPageClient({
       { label: era.title, href: eraHref(era.id) },
       { label: section.title, href: sectionHref(section.id) },
     ],
-    [
-      courseTitle,
-      courseId,
-      era.title,
-      era.id,
-      eraHref,
-      section.title,
-      section.id,
-      sectionHref,
-    ],
+    [courseTitle, courseId, era.title, era.id, eraHref, section.title, section.id, sectionHref],
   );
 
   const sidebarProps = {
@@ -212,7 +186,6 @@ export function LessonPageClient({
         <LessonContextHeader
           dayNumber={lesson.dayNumber}
           totalDays={lessons.length}
-          eraLabel={era.title}
           completedCount={completedSet?.size ?? 0}
           totalLessons={lessons.length}
           onOpenContents={() => {
@@ -226,7 +199,10 @@ export function LessonPageClient({
           section={section}
           eras={eras}
           breadcrumbs={breadcrumbs}
+          eraShort={era.eraShort}
           isCompleted={completed}
+          completedCount={completedSet?.size ?? 0}
+          totalLessons={lessons.length}
           onToggleComplete={() => {
             toggleComplete(courseId, lesson.id);
           }}
@@ -236,9 +212,7 @@ export function LessonPageClient({
                   title: prev.title,
                   dayNumber: prev.dayNumber,
                   href: `/course/${courseId}/lesson/${prev.id}`,
-                  ...(prev.eraLabel !== undefined
-                    ? { eraLabel: prev.eraLabel }
-                    : {}),
+                  ...(prev.eraLabel !== undefined ? { eraLabel: prev.eraLabel } : {}),
                   ...(prev.readingTimeMinutes !== undefined
                     ? { readingTimeMinutes: prev.readingTimeMinutes }
                     : {}),
@@ -251,9 +225,7 @@ export function LessonPageClient({
                   title: next.title,
                   dayNumber: next.dayNumber,
                   href: `/course/${courseId}/lesson/${next.id}`,
-                  ...(next.eraLabel !== undefined
-                    ? { eraLabel: next.eraLabel }
-                    : {}),
+                  ...(next.eraLabel !== undefined ? { eraLabel: next.eraLabel } : {}),
                   ...(next.readingTimeMinutes !== undefined
                     ? { readingTimeMinutes: next.readingTimeMinutes }
                     : {}),

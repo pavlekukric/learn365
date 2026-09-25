@@ -1,43 +1,31 @@
 'use client';
 
-import {
-  getEraForLesson,
-  getLessonById,
-  getLessons,
-  type CourseId,
-} from '@learn365/content';
-import { completedCount, isCompleted, lastOpenedLessonId } from '@learn365/core';
+import { getEraForLesson, getLessons, type CourseId } from '@learn365/content';
 import { CurrentLessonCard } from '@learn365/ui-web';
 
-import { useProgressStore } from '@/lib/progress/ProgressStoreProvider';
+import { useResumeLesson } from '@/lib/progress/useResumeLesson';
 
 interface HomeCurrentLessonCardProps {
   courseId: CourseId;
 }
 
+/**
+ * The single recommended lesson on Home. Target and state come from the
+ * shared `useResumeLesson` rule: Day 1 for a fresh user, otherwise the
+ * unfinished / next unread lesson — never one the reader already finished.
+ * When the whole course is complete the card shows the final day in its
+ * `done` state instead of disappearing.
+ */
 export function HomeCurrentLessonCard({ courseId }: HomeCurrentLessonCardProps) {
-  const completedTotal = useProgressStore((state) =>
-    completedCount(state, courseId),
-  );
-  const lastId = useProgressStore((state) => lastOpenedLessonId(state, courseId));
-  const lastCompleted = useProgressStore((state) =>
-    lastId ? isCompleted(state, courseId, lastId) : false,
-  );
+  const { hasStarted, lesson: resume } = useResumeLesson(courseId);
 
-  // Completion-driven: until the user has completed at least one lesson the
-  // card recommends starting from Day 1. Opening/peeking a lesson alone never
-  // flips it into a "continue where you stopped" state — that would contradict
-  // a "0 / 365" progress counter.
-  const hasProgress = completedTotal > 0;
-  const allLessons = getLessons(courseId);
-  const lesson =
-    hasProgress && lastId
-      ? (getLessonById(courseId, lastId) ?? allLessons[0] ?? null)
-      : (allLessons[0] ?? null);
+  const allDone = hasStarted && resume === null;
+  const all = getLessons(courseId);
+  const lesson = resume ?? all[all.length - 1] ?? null;
   if (!lesson) return null;
 
   const era = getEraForLesson(courseId, lesson.id);
-  const state = !hasProgress ? 'idle' : lastCompleted ? 'done' : 'active';
+  const state = allDone ? 'done' : hasStarted ? 'active' : 'idle';
   const href = `/course/${courseId}/lesson/${lesson.id}`;
 
   return (
