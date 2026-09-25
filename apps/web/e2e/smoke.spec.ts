@@ -14,17 +14,13 @@ test.describe('History 365 — smoke', () => {
     await expect(page.getByRole('link', { name: /Započni kurs/ })).toBeVisible();
   });
 
-  test('home daily anchor reflects idle vs in-progress state', async ({
-    page,
-  }) => {
+  test('home daily anchor reflects idle vs in-progress state', async ({ page }) => {
     // Idle: fresh session has no completions. The Danas region renders the
     // framing line and exposes no "Tvoj N. dan" eyebrow.
     await page.goto('/');
     const anchor = page.getByRole('region', { name: 'Danas' });
     await expect(anchor).toBeVisible();
-    await expect(
-      anchor.getByText('Pred tobom je 365 dana kroz srpsku istoriju.'),
-    ).toBeVisible();
+    await expect(anchor.getByText('Pred tobom je 365 dana kroz srpsku istoriju.')).toBeVisible();
     await expect(anchor.getByText(/Tvoj \d+\. dan/)).toHaveCount(0);
 
     // In-progress: seed one completion via the persisted progress key, then
@@ -41,10 +37,10 @@ test.describe('History 365 — smoke', () => {
       },
       version: 1,
     };
-    await page.addInitScript(
-      ({ key, value }) => window.localStorage.setItem(key, value),
-      { key: 'learn365:progress:v1', value: JSON.stringify(seed) },
-    );
+    await page.addInitScript(({ key, value }) => window.localStorage.setItem(key, value), {
+      key: 'learn365:progress:v1',
+      value: JSON.stringify(seed),
+    });
     await page.goto('/');
     await expect(
       page.getByRole('region', { name: 'Danas' }).getByText('Tvoj 2. dan'),
@@ -68,8 +64,11 @@ test.describe('History 365 — smoke', () => {
   test('course overview renders eight eras', async ({ page }) => {
     await page.goto(`/course/${COURSE_ID}`);
     await expect(page.getByRole('heading', { level: 1 })).toBeVisible();
-    const eraCards = page.getByRole('link', { name: /^Epoha [IVX]+:/ });
+    // Post-2026-09-25 each era card is a disclosure button (opens its
+    // sections) with one labelled action link beside it.
+    const eraCards = page.getByRole('button', { name: /^Epoha [IVX]+:/ });
     await expect(eraCards).toHaveCount(8);
+    await expect(page.getByRole('link', { name: /^Počni: / })).toHaveCount(8);
   });
 
   test('course progress consolidates to one canonical row + journey-day eyebrow', async ({
@@ -104,10 +103,10 @@ test.describe('History 365 — smoke', () => {
       },
       version: 1,
     };
-    await page.addInitScript(
-      ({ key, value }) => window.localStorage.setItem(key, value),
-      { key: 'learn365:progress:v1', value: JSON.stringify(seed) },
-    );
+    await page.addInitScript(({ key, value }) => window.localStorage.setItem(key, value), {
+      key: 'learn365:progress:v1',
+      value: JSON.stringify(seed),
+    });
     await page.goto(`/course/${COURSE_ID}`);
     await expect(page.getByText(/Tvoj 2\. dan/i)).toBeVisible();
     // The Sledeće row stays dropped even after the user starts progressing.
@@ -122,7 +121,10 @@ test.describe('History 365 — smoke', () => {
     // active "D001" row in the always-visible sidebar. (It is no longer a
     // breadcrumb crumb.) Match whichever the current layout renders visible.
     await expect(
-      page.getByText(/Dan 001|D001/).filter({ visible: true }).first(),
+      page
+        .getByText(/Dan 001|D001/)
+        .filter({ visible: true })
+        .first(),
     ).toBeVisible();
     // Navigation surfaces differ by layout. Desktop (two-column): the inline
     // reader timeline is visible above the article. Single-column (≤1024px):
@@ -148,14 +150,10 @@ test.describe('History 365 — smoke', () => {
     await expect(markBtn).toBeVisible();
     await markBtn.click();
 
-    await expect(
-      page.getByRole('button', { name: /^Završeno$/ }),
-    ).toBeVisible();
+    await expect(page.getByRole('button', { name: /^Završeno$/ })).toBeVisible();
   });
 
-  test('lesson meta row stays visible while scrolling (single-column)', async ({
-    page,
-  }) => {
+  test('lesson meta row stays visible while scrolling (single-column)', async ({ page }) => {
     // On single-column layouts (≤1024px) the LessonContextHeader's secondary
     // meta row (era + total progress) stays visible as the reader scrolls — the
     // header is sticky and no longer collapses on scroll-down. On the desktop
@@ -170,8 +168,7 @@ test.describe('History 365 — smoke', () => {
 
     // Rendered height is the deterministic probe for visibility.
     const metaRow = page.locator('[class*="LessonContextHeader_metaRow"]');
-    const metaHeight = async () =>
-      (await metaRow.boundingBox())?.height ?? 0;
+    const metaHeight = async () => (await metaRow.boundingBox())?.height ?? 0;
 
     expect(await metaHeight()).toBeGreaterThan(0);
 
@@ -183,9 +180,7 @@ test.describe('History 365 — smoke', () => {
     await expect(contentsButton).toBeVisible();
   });
 
-  test('course overview restores scroll position on return from a lesson', async ({
-    page,
-  }) => {
+  test('course overview restores scroll position on return from a lesson', async ({ page }) => {
     // Phase 7.6 — returning to the course page restores the prior scroll
     // position instead of resetting to the top. Next's built-in restoration
     // misses here because the era accordion settles after hydration, so a
@@ -203,10 +198,10 @@ test.describe('History 365 — smoke', () => {
       },
       version: 1,
     };
-    await page.addInitScript(
-      ({ key, value }) => window.localStorage.setItem(key, value),
-      { key: 'learn365:progress:v1', value: JSON.stringify(seed) },
-    );
+    await page.addInitScript(({ key, value }) => window.localStorage.setItem(key, value), {
+      key: 'learn365:progress:v1',
+      value: JSON.stringify(seed),
+    });
 
     await page.goto(`/course/${COURSE_ID}`);
     await expect(page.getByRole('heading', { level: 1 })).toBeVisible();
@@ -258,15 +253,11 @@ test.describe('History 365 — smoke', () => {
   test('completion persists across reload', async ({ page }) => {
     await page.goto(`/course/${COURSE_ID}/lesson/${AUTHORED_LESSON_ID}`);
     await page.getByRole('button', { name: /^Završi$/ }).click();
-    await expect(
-      page.getByRole('button', { name: /^Završeno$/ }),
-    ).toBeVisible();
+    await expect(page.getByRole('button', { name: /^Završeno$/ })).toBeVisible();
 
     await page.reload();
 
-    await expect(
-      page.getByRole('button', { name: /^Završeno$/ }),
-    ).toBeVisible();
+    await expect(page.getByRole('button', { name: /^Završeno$/ })).toBeVisible();
   });
 
   test('about page renders and is reachable from the footer', async ({ page }) => {
@@ -282,9 +273,7 @@ test.describe('History 365 — smoke', () => {
     ).toBeVisible();
     // The #izvori anchor is the deep-link target the footer's "Izvori" link
     // points at; it must exist as a heading on the page.
-    await expect(
-      page.getByRole('heading', { level: 2, name: 'O izvorima' }),
-    ).toBeVisible();
+    await expect(page.getByRole('heading', { level: 2, name: 'O izvorima' })).toBeVisible();
   });
 
   test('skip link is the first tab stop and focuses main', async ({ page, browserName }) => {
@@ -313,9 +302,11 @@ test.describe('History 365 — smoke', () => {
     // era's node stands in for it there). `toBeAttached` + getComputedStyle
     // works regardless of display, since this asserts a CSS property, not
     // visibility.
-    const marker = page.locator(
-      '[class*="HistoricalTimeline_marker"], [class*="HistoricalTimeline"] [class*="marker"]',
-    ).first();
+    const marker = page
+      .locator(
+        '[class*="HistoricalTimeline_marker"], [class*="HistoricalTimeline"] [class*="marker"]',
+      )
+      .first();
     await expect(marker).toBeAttached();
 
     const transitionDuration = await marker.evaluate(
@@ -323,8 +314,8 @@ test.describe('History 365 — smoke', () => {
     );
     // globals.css collapses every transition to 0.01ms under reduced motion.
     // Browsers normalise that to "1e-05s"; either form (or a literal "0s") is fine.
-    const durationMs = Number.parseFloat(transitionDuration) *
-      (transitionDuration.endsWith('ms') ? 1 : 1000);
+    const durationMs =
+      Number.parseFloat(transitionDuration) * (transitionDuration.endsWith('ms') ? 1 : 1000);
     expect(durationMs).toBeLessThan(1);
 
     await context.close();

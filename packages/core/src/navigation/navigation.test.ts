@@ -4,6 +4,7 @@ import type { Lesson } from '@learn365/content/types';
 
 import {
   findActiveLocation,
+  findResumeLesson,
   findNextLesson,
   findPrevLesson,
   lessonViewState,
@@ -24,11 +25,7 @@ function lesson(id: string, dayNumber: number): Lesson {
   };
 }
 
-const lessons: readonly Lesson[] = [
-  lesson('a', 1),
-  lesson('b', 2),
-  lesson('c', 3),
-];
+const lessons: readonly Lesson[] = [lesson('a', 1), lesson('b', 2), lesson('c', 3)];
 
 describe('findPrevLesson', () => {
   it('returns the prior lesson', () => {
@@ -86,21 +83,27 @@ describe('findActiveLocation', () => {
   });
 
   it('uses lastOpenedLessonId when it points to a real lesson', () => {
-    expect(
-      findActiveLocation(courseLessons, new Set(['a']), 'c'),
-    ).toEqual({ lessonId: 'c', sectionId: 's2', eraId: 'e1' });
+    expect(findActiveLocation(courseLessons, new Set(['a']), 'c')).toEqual({
+      lessonId: 'c',
+      sectionId: 's2',
+      eraId: 'e1',
+    });
   });
 
   it('falls back to first incomplete when lastOpened is stale', () => {
-    expect(
-      findActiveLocation(courseLessons, new Set(['a', 'b']), 'zzz'),
-    ).toEqual({ lessonId: 'c', sectionId: 's2', eraId: 'e1' });
+    expect(findActiveLocation(courseLessons, new Set(['a', 'b']), 'zzz')).toEqual({
+      lessonId: 'c',
+      sectionId: 's2',
+      eraId: 'e1',
+    });
   });
 
   it('falls back to first incomplete when there is no lastOpened', () => {
-    expect(
-      findActiveLocation(courseLessons, new Set(['a']), null),
-    ).toEqual({ lessonId: 'b', sectionId: 's1', eraId: 'e1' });
+    expect(findActiveLocation(courseLessons, new Set(['a']), null)).toEqual({
+      lessonId: 'b',
+      sectionId: 's1',
+      eraId: 'e1',
+    });
   });
 
   it('falls back to the first lesson when nothing is completed and lastOpened is null', () => {
@@ -112,9 +115,11 @@ describe('findActiveLocation', () => {
   });
 
   it('falls back to the first lesson when everything is complete', () => {
-    expect(
-      findActiveLocation(courseLessons, new Set(['a', 'b', 'c', 'd']), null),
-    ).toEqual({ lessonId: 'a', sectionId: 's1', eraId: 'e1' });
+    expect(findActiveLocation(courseLessons, new Set(['a', 'b', 'c', 'd']), null)).toEqual({
+      lessonId: 'a',
+      sectionId: 's1',
+      eraId: 'e1',
+    });
   });
 });
 
@@ -128,8 +133,39 @@ describe('lessonViewState', () => {
   });
 
   it('not_started by default', () => {
-    expect(lessonViewState({ isCompleted: false, isActive: false })).toBe(
-      'not_started',
-    );
+    expect(lessonViewState({ isCompleted: false, isActive: false })).toBe('not_started');
+  });
+});
+
+describe('findResumeLesson', () => {
+  const courseLessons: readonly Lesson[] = [
+    l('a', 1, 's1', 'e1'),
+    l('b', 2, 's1', 'e1'),
+    l('c', 3, 's2', 'e1'),
+    l('d', 4, 's3', 'e2'),
+  ];
+
+  it('returns the first lesson on a fresh state', () => {
+    expect(findResumeLesson(courseLessons, null, null)?.id).toBe('a');
+  });
+
+  it('returns lastOpened when the reader left it unfinished', () => {
+    expect(findResumeLesson(courseLessons, new Set(['a']), 'c')?.id).toBe('c');
+  });
+
+  it('never returns a completed lastOpened — moves on to the next unread day', () => {
+    expect(findResumeLesson(courseLessons, new Set(['a']), 'a')?.id).toBe('b');
+  });
+
+  it('falls back to the first unread lesson when lastOpened is stale', () => {
+    expect(findResumeLesson(courseLessons, new Set(['a', 'b']), 'zzz')?.id).toBe('c');
+  });
+
+  it('fills the earliest gap when lessons were completed out of order', () => {
+    expect(findResumeLesson(courseLessons, new Set(['a', 'c']), 'c')?.id).toBe('b');
+  });
+
+  it('returns null when everything is completed', () => {
+    expect(findResumeLesson(courseLessons, new Set(['a', 'b', 'c', 'd']), 'd')).toBeNull();
   });
 });

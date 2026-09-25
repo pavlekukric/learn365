@@ -10,10 +10,21 @@
   letter-spacing: 0.14em;
 }
 
-.trust {
-  color: var(--muted);
-  letter-spacing: 0.12em;
-  margin-top: calc(var(--space-2) * -1);
+/* Era prefix in the eyebrow — single-column layouts only (no sidebar /
+ * breadcrumb there to carry it). */
+.eraMobile {
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  .eraMobile {
+    display: inline;
+  }
+  /* Clear the top-right bookmark toggle so a wrapped eyebrow never runs
+   * under the icon on narrow phones. */
+  .eyebrow {
+    padding-right: 48px;
+  }
 }
 
 /* Top-right bookmark toggle. Absolutely positioned so it doesn't reflow
@@ -27,13 +38,17 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 44px;
+  gap: var(--space-2);
+  min-width: 44px;
   height: 44px;
   margin: calc(var(--space-2) * -1) calc(var(--space-2) * -1) 0 0;
-  padding: 0;
+  padding: 0 var(--space-3);
   border: 0;
   background: transparent;
   color: var(--muted);
+  font-family: var(--sans);
+  font-size: 12px;
+  font-weight: 500;
   cursor: pointer;
   border-radius: 999px;
   transition:
@@ -54,4 +69,15 @@
 
 .bookmark[aria-pressed='true'] {
   color: var(--accent);
+}
+
+/* The word makes the ribbon legible on desktop; on phones the eyebrow needs
+ * the room, so the icon (with its aria-label) stands alone. */
+@media (max-width: 1024px) {
+  .bookmarkLabel {
+    display: none;
+  }
+  .bookmark {
+    padding: 0;
+  }
 }

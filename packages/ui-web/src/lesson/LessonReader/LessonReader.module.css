@@ -82,3 +82,23 @@
     padding: var(--space-8) var(--space-5);
   }
 }
+
+/* Scroll target for the post-completion moment — leaves a little air under
+ * the next-lesson card when it is scrolled into view. */
+.completedWrap {
+  scroll-margin-bottom: var(--space-6);
+}
+
+/* Breadcrumb trail is desktop-only; ≤1024px the sticky context header and
+ * the eyebrow era prefix carry location. */
+@media (max-width: 1024px) {
+  .breadcrumbs {
+    display: none;
+  }
+}
+
+/* Era timeline now closes the article (desktop): a little air above it so
+ * it reads as a separate orientation band, not part of the footer. */
+.timelineInline {
+  margin-top: var(--space-4);
+}

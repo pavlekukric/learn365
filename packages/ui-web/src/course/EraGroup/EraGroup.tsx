@@ -31,15 +31,17 @@ export function EraGroup({ era, isOpen, onToggle, children }: EraGroupProps) {
         aria-expanded={isOpen}
         aria-controls={panelId}
       >
-        <span
-          className={`${styles.chev} ${isOpen ? styles.chevOpen : ''}`}
-          aria-hidden="true"
-        >
+        <span className={`${styles.chev} ${isOpen ? styles.chevOpen : ''}`} aria-hidden="true">
           <IconChev />
         </span>
         <span className={styles.titleBlock}>
           <span className={`tiny mono ${styles.num}`}>EPOHA {era.num}</span>
-          <span className={styles.title}>{era.title}</span>
+          {/* Short era label: the full title in caps wrapped to four lines in
+           * the 300px sidebar / drawer. The full title stays available as a
+           * tooltip and on the course overview + breadcrumb. */}
+          <span className={styles.title} title={era.title}>
+            {era.eraShort}
+          </span>
         </span>
         <span className={`tiny mono ${styles.years}`}>{era.yearsLabel}</span>
       </button>

@@ -1,14 +1,12 @@
 'use client';
 
-import { IconMenu, ProgressBar } from '@learn365/ui-web';
+import { IconMenu } from '@learn365/ui-web';
 
 import styles from './LessonContextHeader.module.css';
 
 interface LessonContextHeaderProps {
   dayNumber: number;
   totalDays: number;
-  /** Current era / period label, e.g. "Praistorija i antika". */
-  eraLabel: string;
   completedCount: number;
   totalLessons: number;
   /** Opens the "Sadržaj" drawer (timeline + course outline). */
@@ -21,67 +19,44 @@ function formatDay(day: number): string {
 
 /**
  * Compact, sticky lesson context header — shown on single-column layouts
- * (≤1024px) in place of the inline timeline.
+ * (≤1024px) in place of the sidebar and the inline era timeline.
  *
- * Top row mirrors the drawer it controls: "Sadržaj" on the LEFT (the drawer
- * slides in from the left, so the trigger should sit on the same side), with
- * the day position in the center. There is no explicit "Nazad" action — the
- * sticky TopBar carries a "Kurs" link, the breadcrumbs above the article
- * carry "Početna · Kurs · Era", and the browser/PWA back gesture remains.
- *
- * Bottom row carries quiet context (current era + total progress). The whole
- * header is sticky and stays fully visible while scrolling — the meta row no
- * longer collapses on scroll-down, so the lesson progress/navigation area is
- * always present on the reading screen.
+ * One row (post-2026-09-25): "Sadržaj" on the LEFT (the drawer slides in
+ * from the left, so the trigger sits on the same side), the day position in
+ * the centre, and the labelled course progress (`Pročitano N / 365`) on the
+ * right. The era no longer lives here — the lesson header's eyebrow carries
+ * it on single-column layouts, so the sticky chrome stays as short as it
+ * can while keeping every fact the owner asked to keep visible.
  */
 export function LessonContextHeader({
   dayNumber,
   totalDays,
-  eraLabel,
   completedCount,
   totalLessons,
   onOpenContents,
 }: LessonContextHeaderProps) {
-  const progressValue = totalLessons > 0 ? completedCount / totalLessons : 0;
-
   return (
     <div className={styles.header}>
-      <div className={styles.topRow}>
-        <button
-          type="button"
-          className={styles.contentsButton}
-          onClick={onOpenContents}
-          aria-label="Otvori sadržaj"
-        >
-          <IconMenu />
-          <span>Sadržaj</span>
-        </button>
+      <button
+        type="button"
+        className={styles.contentsButton}
+        onClick={onOpenContents}
+        aria-label="Otvori sadržaj"
+      >
+        <IconMenu />
+        <span>Sadržaj</span>
+      </button>
 
-        <span className={`tiny mono ${styles.day}`}>
-          Dan {formatDay(dayNumber)} / {totalDays}
-        </span>
+      <span className={`tiny mono ${styles.day}`}>
+        Dan {formatDay(dayNumber)} / {totalDays}
+      </span>
 
-        {/* Right cell intentionally empty — keeps the day visually centered
-          * via the grid template, and leaves the toolbar calm. */}
-        <span aria-hidden="true" className={styles.spacer} />
-      </div>
-
-      <div className={styles.metaRow}>
-        <span className={styles.era}>{eraLabel}</span>
-        <div className={styles.progress}>
-          <span className={styles.bar}>
-            <ProgressBar
-              value={progressValue}
-              size="thin"
-              ariaLabel="Ukupni napredak"
-              ariaValueText={`${String(completedCount)} od ${String(totalLessons)} završeno`}
-            />
-          </span>
-          <span className={`tiny mono ${styles.progressMeta}`}>
-            Pročitano {completedCount} / {totalLessons}
-          </span>
-        </div>
-      </div>
+      <span
+        className={`tiny mono ${styles.metaRow}`}
+        aria-label={`Pročitano ${String(completedCount)} od ${String(totalLessons)} lekcija`}
+      >
+        Pročitano {completedCount} / {totalLessons}
+      </span>
     </div>
   );
 }

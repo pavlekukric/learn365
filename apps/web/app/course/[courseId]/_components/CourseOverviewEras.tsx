@@ -44,10 +44,7 @@ function formatDay(day: number): string {
 function lessonCountLabel(n: number): string {
   const mod10 = n % 10;
   const mod100 = n % 100;
-  const word =
-    mod10 >= 2 && mod10 <= 4 && (mod100 < 12 || mod100 > 14)
-      ? 'lekcije'
-      : 'lekcija';
+  const word = mod10 >= 2 && mod10 <= 4 && (mod100 < 12 || mod100 > 14) ? 'lekcije' : 'lekcija';
   return `${String(n)} ${word}`;
 }
 
@@ -98,10 +95,7 @@ function SectionAccordionRow({
         aria-expanded={isOpen}
         aria-controls={panelId}
       >
-        <span
-          className={`${styles.chev} ${isOpen ? styles.chevOpen : ''}`}
-          aria-hidden="true"
-        >
+        <span className={`${styles.chev} ${isOpen ? styles.chevOpen : ''}`} aria-hidden="true">
           <IconChev />
         </span>
         <span className={styles.sectionMeta}>
@@ -164,8 +158,7 @@ export function CourseOverviewEras({ courseId }: CourseOverviewErasProps) {
   // descriptions establish. So we keep `active` available for the sidebar's
   // selector and just suppress the auto-open here when there's no real
   // progress to point at.
-  const hasRealProgress =
-    lastId !== null || (completedSet !== null && completedSet.size > 0);
+  const hasRealProgress = lastId !== null || (completedSet !== null && completedSet.size > 0);
 
   // Era + section accordion state. We can't just seed with `useState(active)`
   // because the persisted progress store hydrates *after* first render — at
@@ -208,15 +201,16 @@ export function CourseOverviewEras({ courseId }: CourseOverviewErasProps) {
           eraLessons.map((l) => l.id),
         );
         const isAllDone = total > 0 && done === total;
-        const isCurrent =
-          !isAllDone && lastId !== null && eraLessons.some((l) => l.id === lastId);
-        const firstLessonId = eraLessons[0]?.id;
-        const href = firstLessonId
-          ? `/course/${courseId}/lesson/${firstLessonId}`
+        const isCurrent = !isAllDone && lastId !== null && eraLessons.some((l) => l.id === lastId);
+        // The card's one action opens the first unread lesson of the era (or
+        // its first lesson once everything is read) — "Počni" / "Nastavi".
+        const targetLesson =
+          eraLessons.find((l) => !(completedSet?.has(l.id) ?? false)) ?? eraLessons[0];
+        const href = targetLesson
+          ? `/course/${courseId}/lesson/${targetLesson.id}`
           : `/course/${courseId}`;
         const isOpen = openEraId === era.id;
         const panelId = `era-panel-${era.id}`;
-        const toggleLabel = isOpen ? 'Sakrij odeljke' : 'Pokaži odeljke';
 
         return (
           <article key={era.id} className={styles.era}>
@@ -228,13 +222,10 @@ export function CourseOverviewEras({ courseId }: CourseOverviewErasProps) {
               isAllDone={isAllDone}
               href={href}
               description={era.description}
-            />
-            <button
-              type="button"
-              className={styles.eraToggle}
-              aria-expanded={isOpen}
-              aria-controls={panelId}
-              onClick={() => {
+              isOpen={isOpen}
+              panelId={panelId}
+              sectionCount={sections.length}
+              onToggle={() => {
                 setUserToggledEra(true);
                 setUserToggledSection(true);
                 setOpenEraId((prev) => {
@@ -243,35 +234,22 @@ export function CourseOverviewEras({ courseId }: CourseOverviewErasProps) {
                   // so an unrelated section from the prior era doesn't
                   // appear pre-expanded inside the newly opened one.
                   setOpenSectionId(
-                    next !== null && next === active?.eraId
-                      ? active.sectionId
-                      : null,
+                    next !== null && next === active?.eraId ? active.sectionId : null,
                   );
                   return next;
                 });
               }}
-            >
-              <span
-                className={`${styles.eraToggleChev} ${isOpen ? styles.eraToggleChevOpen : ''}`}
-                aria-hidden="true"
-              >
-                <IconChev />
-              </span>
-              <span className={`tiny mono ${styles.eraToggleLabel}`}>
-                {toggleLabel} · {String(sections.length)}
-              </span>
-            </button>
+            />
             {isOpen ? (
               <div id={panelId} className={styles.eraChildren}>
                 <ul className={styles.sections}>
                   {sections.map((section) => {
                     const sectionLessons = getLessonsBySection(courseId, section.id);
-                    const { done: sectionDone, total: sectionTotal } =
-                      progressForLessons(
-                        progressState,
-                        courseId,
-                        sectionLessons.map((l) => l.id),
-                      );
+                    const { done: sectionDone, total: sectionTotal } = progressForLessons(
+                      progressState,
+                      courseId,
+                      sectionLessons.map((l) => l.id),
+                    );
                     return (
                       <SectionAccordionRow
                         key={section.id}
@@ -280,9 +258,7 @@ export function CourseOverviewEras({ courseId }: CourseOverviewErasProps) {
                         isOpen={openSectionId === section.id}
                         onToggle={() => {
                           setUserToggledSection(true);
-                          setOpenSectionId((prev) =>
-                            prev === section.id ? null : section.id,
-                          );
+                          setOpenSectionId((prev) => (prev === section.id ? null : section.id));
                         }}
                         progressState={progressState}
                         currentLessonId={lastId}

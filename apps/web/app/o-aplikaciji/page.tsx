@@ -2,6 +2,9 @@ import type { Metadata } from 'next';
 
 import { Eyebrow, Flourish } from '@learn365/ui-web';
 
+import { HOW_IT_WORKS_EYEBROW, HOW_IT_WORKS_NOTE, HOW_IT_WORKS_STEPS } from '@/lib/copy/howItWorks';
+import { shareMetadata } from '@/lib/seo/metadata';
+
 import {
   CONTACT_BODY,
   CONTACT_EMAIL,
@@ -20,10 +23,17 @@ import {
 } from './_copy';
 import styles from './page.module.css';
 
+const ABOUT_DESCRIPTION =
+  'Kako History 365 funkcioniše, ko ga uređuje i na koje se izvore oslanja — dnevni vodič kroz istoriju Srbije.';
+
 export const metadata: Metadata = {
   title: 'O aplikaciji',
-  description:
-    'O misiji, uredničkom standardu i izvorima History 365 — premium dnevnog vodiča kroz istoriju Srbije.',
+  description: ABOUT_DESCRIPTION,
+  ...shareMetadata({
+    title: 'O aplikaciji · History 365',
+    description: ABOUT_DESCRIPTION,
+    path: '/o-aplikaciji',
+  }),
 };
 
 export default function AboutPage() {
@@ -42,6 +52,28 @@ export default function AboutPage() {
             {MISSION_HEADING}
           </h2>
           <p className={`body ${styles.paragraph}`}>{MISSION_BODY}</p>
+        </section>
+
+        {/* Same three steps as the first-visit block on Home — permanently
+         * reachable here once that block has retired. */}
+        <section className={styles.section} aria-labelledby="kako-funkcionise">
+          <h2 id="kako-funkcionise" className={`h3 ${styles.sectionTitle}`}>
+            {HOW_IT_WORKS_EYEBROW}
+          </h2>
+          <ol className={styles.steps}>
+            {HOW_IT_WORKS_STEPS.map((step, index) => (
+              <li key={step.title} className={styles.step}>
+                <span className={`mono ${styles.stepNum}`}>
+                  {String(index + 1).padStart(2, '0')}
+                </span>
+                <span className={styles.stepBody}>
+                  <span className={styles.stepTitle}>{step.title}</span>{' '}
+                  <span className={styles.stepText}>{step.text}</span>
+                </span>
+              </li>
+            ))}
+          </ol>
+          <p className={`body ${styles.paragraph}`}>{HOW_IT_WORKS_NOTE}</p>
         </section>
 
         <section className={styles.section} aria-labelledby="standard">

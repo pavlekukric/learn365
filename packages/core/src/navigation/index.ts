@@ -87,3 +87,31 @@ export function findActiveLocation(
   if (!first) return null;
   return { lessonId: first.id, sectionId: first.sectionId, eraId: first.eraId };
 }
+
+/**
+ * "Which lesson should *Nastavi* open?" — the single resume rule shared by
+ * the Home hero CTA, the Home recommended-lesson card and the Course
+ * overview progress card, so the three surfaces can never disagree.
+ *
+ * Unlike `findActiveLocation` (which answers "where is the user *looking*",
+ * for accordion defaults), this one is completion-aware:
+ *   1. `lastOpenedLessonId` if it is a real lesson that is NOT yet completed
+ *      (the reader left mid-lesson — send them back to it)
+ *   2. otherwise the first lesson not in `completedIds` (the next unread day)
+ *   3. `null` when every lesson is completed
+ *
+ * Closes the day-2 trap where finishing Day 1 left every "continue" action
+ * pointing back at the lesson just completed.
+ */
+export function findResumeLesson(
+  lessons: readonly Lesson[],
+  completedIds: ReadonlySet<LessonId> | null,
+  lastOpenedLessonId: LessonId | null,
+): Lesson | null {
+  const done = completedIds ?? new Set<LessonId>();
+  if (lastOpenedLessonId !== null) {
+    const last = lessons.find((l) => l.id === lastOpenedLessonId);
+    if (last && !done.has(last.id)) return last;
+  }
+  return lessons.find((l) => !done.has(l.id)) ?? null;
+}

@@ -1,3 +1,4 @@
+import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 
 import {
@@ -9,6 +10,8 @@ import {
   getSectionForLesson,
   type Lesson,
 } from '@learn365/content';
+
+import { shareMetadata } from '@/lib/seo/metadata';
 
 import { LessonPageClient } from './LessonPageClient';
 
@@ -37,9 +40,30 @@ function adjacent(
     title: lesson.title,
     dayNumber: lesson.dayNumber,
     ...(era?.title !== undefined ? { eraLabel: era.title } : {}),
-    ...(lesson.isPlaceholder === true
-      ? {}
-      : { readingTimeMinutes: lesson.readingTimeMinutes }),
+    ...(lesson.isPlaceholder === true ? {} : { readingTimeMinutes: lesson.readingTimeMinutes }),
+  };
+}
+
+/** Share-preview metadata per lesson: a shared lesson link should say which
+ * day and which lesson it is, not just the site name. */
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  const { courseId, lessonId } = await params;
+  const course = getCourse(courseId);
+  const lesson = getLessonById(courseId, lessonId);
+  if (!course || !lesson) return {};
+  const title = `Dan ${String(lesson.dayNumber)}: ${lesson.title}`;
+  const description =
+    lesson.summary ??
+    lesson.subtitle ??
+    `Dan ${String(lesson.dayNumber)} od ${String(course.totalLessons)} · ${course.title}`;
+  return {
+    title,
+    description,
+    ...shareMetadata({
+      title,
+      description,
+      path: `/course/${course.id}/lesson/${lesson.id}`,
+    }),
   };
 }
 
