@@ -8,7 +8,7 @@ For forward-looking work (what to pick next), see [`HANDOFF.md`](../HANDOFF.md) 
 
 ### App state
 
-- **Live URL:** https://learn365-web.vercel.app/ (Vercel project `learn365-web`, auto-deploys from `main`).
+- **Live URL:** https://istorija365.com/ (self-hosted on the owner's Hetzner VPS since 2026-09-27; pipeline and runbook in `docs/DEPLOY.md`). The Vercel project `learn365-web` still mirrors `main` until the owner deletes it.
 - **Branch model:** Trunk-based. Each phase ships as one PR merged to `main`. No release branches.
 - **Last shipped phase:** Phase 7.6 — Course page scroll restore (shipped 2026-05-21, PR #24, `17f2715`). See "Phase 7.6 — done" below. The Phase 7.5 mobile sticky-chrome scroll-collapse (PR #23, `4325e64`) and Phase 7.12b era-opener figures (`542edad`) are the prior milestones.
 
