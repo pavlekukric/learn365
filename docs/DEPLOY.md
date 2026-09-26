@@ -142,5 +142,5 @@ Once `https://<DOMEN>/` serves from the VPS for a day without incident:
 | VPS user + folders (`vps-install.sh`), compose + scripts in `/srv/learn365`, deploy key `~/.ssh/learn365_deploy` | done — 2026-09-26 (Računi containers verified unchanged before and after) |
 | Tunnel `learn365` + DNS | pending — needs domain |
 | GitHub secrets (`DEPLOY_HOST`, `DEPLOY_USER`, `DEPLOY_SSH_KEY`) | done — 2026-09-26; `SITE_URL` variable pending the domain |
-| First rollout + public URL check | pending |
+| First rollout | done — 2026-09-27 manual `deploy.sh sha-11c51e776f3f` (first workflow rollout hit the ufw SSH limit, fixed by the pinned host key); `learn365-web` healthy, 64 MB RSS, `GET /` 200 from the compose network. Public URL check pending the domain. |
 | Vercel deleted | pending |
