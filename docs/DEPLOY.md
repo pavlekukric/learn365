@@ -80,6 +80,7 @@ ssh root@<IP> 'chown 65532:65532 /srv/learn365/cloudflared/*; chmod 600 /srv/lea
 gh secret set DEPLOY_HOST --body <IP>
 gh secret set DEPLOY_USER --body deploy
 gh secret set DEPLOY_SSH_KEY < ~/.ssh/learn365_deploy
+gh variable set DEPLOY_HOST_KEY --body "$(ssh-keyscan -t ed25519 <IP> 2>/dev/null)"   # pinned host key, one line
 gh variable set SITE_URL --body https://<DOMEN>
 
 # 6. first rollout: merge to main (or `gh workflow run deploy.yml`), then start the tunnel
@@ -97,6 +98,7 @@ After every server step: `ssh root@<IP> 'docker ps --filter name=racuni --format
 - **Manual**: `gh workflow run deploy.yml` (rebuilds and rolls out HEAD of `main`).
 - **PRs** that touch the Dockerfile, `.dockerignore`, `next.config.mjs` or the workflow get a build-only run, so a broken image never reaches `main` unnoticed.
 - **Logs on the box**: `ssh deploy@<IP> '/srv/learn365/dc.sh logs --tail 100 web'`.
+- **SSH budget**: the VPS has `ufw limit` on port 22 (Računi hardening): more than 6 new connections from one IP within 30 s and the rest are dropped for a while. The workflow therefore uses a pinned host key (`DEPLOY_HOST_KEY`) and opens exactly one connection; never add `ssh-keyscan` back (it opens one connection per key type and tripped the limit on the first rollout). When operating by hand, keep bursts of scp/ssh under 5 and wait a minute if a connection times out.
 
 ## 5. Environment variables
 
@@ -104,6 +106,7 @@ After every server step: `ssh root@<IP> 'docker ps --filter name=racuni --format
 |---|---|---|
 | `NEXT_PUBLIC_SITE_URL` | build arg from repo variable `SITE_URL` | Public origin for `metadataBase` / Open Graph. Empty → Vercel fallback. |
 | `IMAGE_TAG` | `/srv/learn365/.env`, written by `deploy.sh` | Which image tag compose runs. |
+| `DEPLOY_HOST_KEY` | repo variable | Pinned `<IP> ssh-ed25519 …` line for the runner's `known_hosts` (no keyscan). |
 
 Runtime secrets: none in this phase. The auth phase adds its own `.env` entries (Google client, database URL) to `/srv/learn365/.env` only.
 
@@ -139,5 +142,5 @@ Once `https://<DOMEN>/` serves from the VPS for a day without incident:
 | VPS user + folders (`vps-install.sh`), compose + scripts in `/srv/learn365`, deploy key `~/.ssh/learn365_deploy` | done — 2026-09-26 (Računi containers verified unchanged before and after) |
 | Tunnel `learn365` + DNS | pending — needs domain |
 | GitHub secrets (`DEPLOY_HOST`, `DEPLOY_USER`, `DEPLOY_SSH_KEY`) | done — 2026-09-26; `SITE_URL` variable pending the domain |
-| First rollout + public URL check | pending |
+| First rollout | done — 2026-09-27 manual `deploy.sh sha-11c51e776f3f` (first workflow rollout hit the ufw SSH limit, fixed by the pinned host key); `learn365-web` healthy, 64 MB RSS, `GET /` 200 from the compose network. Public URL check pending the domain. |
 | Vercel deleted | pending |

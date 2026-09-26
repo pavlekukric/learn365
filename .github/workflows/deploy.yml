@@ -76,6 +76,7 @@ jobs:
       - name: Roll out over SSH
         env:
           HOST: ${{ secrets.DEPLOY_HOST }}
+          HOST_KEY: ${{ vars.DEPLOY_HOST_KEY }}
           USER: ${{ secrets.DEPLOY_USER }}
           KEY: ${{ secrets.DEPLOY_SSH_KEY }}
           TAG: ${{ needs.image.outputs.tag }}
@@ -84,9 +85,17 @@ jobs:
             echo "DEPLOY_HOST / DEPLOY_SSH_KEY not set — image pushed, rollout skipped."
             exit 0
           fi
+          if [ -z "$HOST_KEY" ]; then
+            echo "DEPLOY_HOST_KEY variable not set (pinned host key) — refusing to connect blind."
+            exit 1
+          fi
           mkdir -p ~/.ssh
           printf '%s\n' "$KEY" > ~/.ssh/deploy_key
           chmod 600 ~/.ssh/deploy_key
-          ssh-keyscan -H "$HOST" >> ~/.ssh/known_hosts 2>/dev/null
+          # Pinned host key instead of ssh-keyscan: keyscan opens one connection per
+          # key type and trips the VPS's `ufw limit` on port 22 (6 hits / 30 s),
+          # after which the real ssh below is dropped. One connection per rollout.
+          printf '%s\n' "$HOST_KEY" > ~/.ssh/known_hosts
           ssh -i ~/.ssh/deploy_key -o BatchMode=yes -o ConnectTimeout=20 \
+            -o StrictHostKeyChecking=yes \
             "${USER:-deploy}@$HOST" "bash /srv/learn365/deploy.sh $TAG"
