@@ -1,0 +1,35 @@
+# Learn365 web na VPS-u: Next.js (standalone slika iz GHCR) + cloudflared (Cloudflare Tunnel).
+# Nijedan port nije objavljen ka internetu: jedini ulaz je tunel `learn365`, javan, bez Access-a.
+# Potpuno odvojeno od /srv/racuni: svoj compose projekat, svoja mreža, svoj tunel, svoj .env.
+# Pokreće se kroz dc.sh (fiksira --env-file /srv/learn365/.env). Sliku menja deploy.sh (IMAGE_TAG).
+name: learn365
+
+x-logging: &logging
+  driver: json-file
+  options:
+    max-size: '10m'
+    max-file: '5'
+
+services:
+  web:
+    image: ghcr.io/pavlekukric/learn365-web:${IMAGE_TAG:-latest}
+    container_name: learn365-web
+    restart: unless-stopped
+    logging: *logging
+    # sigurnosna granica da Next nikad ne istisne mssql od Računa (limit 1,5 GB) sa 4 GB mašine
+    mem_limit: 512m
+    environment:
+      TZ: Europe/Belgrade
+    # healthcheck je u slici (apps/web/Dockerfile): GET / na 3000
+
+  cloudflared:
+    image: cloudflare/cloudflared:2026.9.1
+    container_name: learn365-cloudflared
+    restart: unless-stopped
+    logging: *logging
+    command: tunnel --no-autoupdate --config /etc/cloudflared/config.yml run
+    volumes:
+      - /srv/learn365/cloudflared:/etc/cloudflared:ro
+    depends_on:
+      web:
+        condition: service_healthy

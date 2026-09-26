@@ -5,7 +5,12 @@ import type { Metadata } from 'next';
  * Next between layout and page, so every page that sets its own title must
  * rebuild the whole block — `shareMetadata()` does that in one place.
  */
-export const SITE_URL = 'https://learn365-web.vercel.app';
+/** Public origin, no trailing slash. Baked in at build time from
+ *  `NEXT_PUBLIC_SITE_URL` (apps/web/Dockerfile build arg); the Vercel
+ *  origin stays as the fallback until the custom domain is live. */
+export const SITE_URL = (
+  process.env.NEXT_PUBLIC_SITE_URL || 'https://learn365-web.vercel.app'
+).replace(/\/$/, '');
 export const SITE_NAME = 'History 365';
 export const SITE_TITLE = 'History 365 — Istorija Srbije 365';
 export const SITE_DESCRIPTION =

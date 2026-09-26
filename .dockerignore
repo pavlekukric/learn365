@@ -1,0 +1,24 @@
+# Build context for apps/web/Dockerfile is the repo root. Keep it small:
+# everything below is either regenerated in the image or irrelevant to it.
+.git
+.github
+.turbo
+.claude
+.vscode
+node_modules
+**/node_modules
+**/.next
+**/dist
+**/coverage
+**/test-results
+**/playwright-report
+**/*.tsbuildinfo
+**/e2e
+apps/web/playwright*.ts
+docs
+design
+screenshots
+deploy
+*.md
+.env
+.env.*
