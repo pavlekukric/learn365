@@ -136,7 +136,7 @@ Once `https://<DOMEN>/` serves from the VPS for a day without incident:
 | Image pipeline in repo (Dockerfile, workflow, `deploy/`) | done — 2026-09-26 |
 | Dockerfile validated by a build-only workflow run | pending (first PR) |
 | Domain | pending — owner |
-| VPS user + folders (`vps-install.sh`) | pending |
+| VPS user + folders (`vps-install.sh`), compose + scripts in `/srv/learn365`, deploy key `~/.ssh/learn365_deploy` | done — 2026-09-26 (Računi containers verified unchanged before and after) |
 | Tunnel `learn365` + DNS | pending — needs domain |
 | GitHub secrets / `SITE_URL` | pending — needs `gh auth login` |
 | First rollout + public URL check | pending |
