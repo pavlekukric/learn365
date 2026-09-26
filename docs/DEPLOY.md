@@ -69,9 +69,13 @@ scp deploy/docker-compose.yml deploy/dc.sh deploy/deploy.sh deploy@<IP>:/srv/lea
 ssh deploy@<IP> 'chmod +x /srv/learn365/*.sh'
 
 # 4. tunnel (laptop) + its files (server, root because the folder is owned by uid 65532)
-cloudflared tunnel create learn365                       # prints <TUNNEL_ID>, writes ~/.cloudflared/<TUNNEL_ID>.json
-cloudflared tunnel route dns learn365 <DOMEN>
-cloudflared tunnel route dns learn365 www.<DOMEN>
+#    WARNING: ~/.cloudflared/config.yml and cert.pem on the laptop belong to Računi (tunnel `racuni`, zone
+#    kucniracuni.com). A bare `cloudflared tunnel route dns` writes into THAT zone and points at THAT tunnel —
+#    it happened on 2026-09-26 and the two stray CNAMEs had to be deleted by hand. Rules: always pass --config
+#    with a learn365-only file (two lines: `tunnel: <TUNNEL_ID>` and `credentials-file: <path to the json>`),
+#    and create the CNAMEs in the dashboard (zone <DOMEN>: `@` and `www` -> <TUNNEL_ID>.cfargotunnel.com,
+#    proxied) instead of `route dns`, unless cert.pem was re-issued for <DOMEN> via `cloudflared tunnel login`.
+cloudflared --config learn365-cloudflared.yml tunnel create learn365   # prints <TUNNEL_ID>, writes ~/.cloudflared/<TUNNEL_ID>.json
 sed "s/<TUNNEL_ID>/<id>/g; s/<DOMEN>/<domen>/g" deploy/cloudflared/config.yml > /tmp/config.yml
 scp /tmp/config.yml ~/.cloudflared/<TUNNEL_ID>.json root@<IP>:/srv/learn365/cloudflared/
 ssh root@<IP> 'chown 65532:65532 /srv/learn365/cloudflared/*; chmod 600 /srv/learn365/cloudflared/*.json; chmod 644 /srv/learn365/cloudflared/config.yml'
@@ -138,9 +142,10 @@ Once `https://<DOMEN>/` serves from the VPS for a day without incident:
 |---|---|
 | Image pipeline in repo (Dockerfile, workflow, `deploy/`) | done — 2026-09-26 |
 | Dockerfile validated by a build-only workflow run | done — PR #31 (image job 25 s with GHA cache; Vercel preview also green) |
-| Domain | pending — owner |
+| Domain | done — `istorija365.com` (Cloudflare Registrar, 2026-09-27) |
 | VPS user + folders (`vps-install.sh`), compose + scripts in `/srv/learn365`, deploy key `~/.ssh/learn365_deploy` | done — 2026-09-26 (Računi containers verified unchanged before and after) |
-| Tunnel `learn365` + DNS | pending — needs domain |
-| GitHub secrets (`DEPLOY_HOST`, `DEPLOY_USER`, `DEPLOY_SSH_KEY`) | done — 2026-09-26; `SITE_URL` variable pending the domain |
+| Tunnel `learn365` (`a5267830-0c3e-423c-9508-b07e074f234e`) + DNS | done — 2026-09-27; `learn365-cloudflared` registers 2 connections; CNAME `@` + `www` → `<tunnel-id>.cfargotunnel.com`, proxied (added by hand in the dashboard, see the warning in §3b step 4) |
+| GitHub secrets (`DEPLOY_HOST`, `DEPLOY_USER`, `DEPLOY_SSH_KEY`) | done — 2026-09-26; `SITE_URL` = `https://istorija365.com` set 2026-09-27 and baked into the running image |
 | First rollout | done — 2026-09-27 manual `deploy.sh sha-11c51e776f3f` (first workflow rollout hit the ufw SSH limit, fixed by the pinned host key); `learn365-web` healthy, 64 MB RSS, `GET /` 200 from the compose network. Public URL check pending the domain. |
-| Vercel deleted | pending |
+| Public URL check | done — 2026-09-27: apex + `www` 200 over HTTPS, `og:url` = domain, `/_next/static` served with `cf-cache-status: HIT` |
+| Vercel deleted | pending — owner confirms after a day of clean serving (§8) |
