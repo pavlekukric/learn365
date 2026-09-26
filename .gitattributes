@@ -1,0 +1,4 @@
+# Shell scripts and Dockerfiles are copied to a Linux VPS as-is: keep them LF on every checkout.
+*.sh text eol=lf
+Dockerfile text eol=lf
+deploy/** text eol=lf

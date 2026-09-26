@@ -1,0 +1,11 @@
+# cloudflared za Learn365 (kontejner). Tunel `learn365`, odvojen od tunela `racuni` (drugi kredencijali, drugi kontejner).
+# Kredencijali <TUNNEL_ID>.json i ovaj fajl žive u /srv/learn365/cloudflared na VPS-u; json NIJE u repou.
+# <TUNNEL_ID> i <DOMEN> se popunjavaju posle `cloudflared tunnel create learn365` (vidi docs/DEPLOY.md §4).
+tunnel: <TUNNEL_ID>
+credentials-file: /etc/cloudflared/<TUNNEL_ID>.json
+ingress:
+  - hostname: <DOMEN>
+    service: http://web:3000
+  - hostname: www.<DOMEN>
+    service: http://web:3000
+  - service: http_status:404

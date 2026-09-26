@@ -1,12 +1,21 @@
+import { dirname, resolve } from 'node:path';
+import { fileURLToPath } from 'node:url';
+
+/** Monorepo root — the standalone output traces files relative to it. */
+const repoRoot = resolve(dirname(fileURLToPath(import.meta.url)), '..', '..');
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  transpilePackages: [
-    '@learn365/ui',
-    '@learn365/ui-web',
-    '@learn365/core',
-    '@learn365/content',
-  ],
+  // Self-hosted image (apps/web/Dockerfile sets NEXT_STANDALONE=1): minimal
+  // server bundle under .next/standalone. Opt-in because the tracing step
+  // recreates pnpm's symlinks, which Windows refuses without Developer Mode
+  // (EPERM) — plain `pnpm build` on a dev machine stays a normal build.
+  output: process.env.NEXT_STANDALONE === '1' ? 'standalone' : undefined,
+  // pnpm-linked workspace packages are traced because the root is the
+  // monorepo root, not apps/web.
+  outputFileTracingRoot: repoRoot,
+  transpilePackages: ['@learn365/ui', '@learn365/ui-web', '@learn365/core', '@learn365/content'],
   typedRoutes: true,
   webpack(config) {
     // Workspace packages author imports with explicit ".js" extensions
