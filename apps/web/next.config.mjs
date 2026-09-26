@@ -11,10 +11,15 @@ const nextConfig = {
   // server bundle under .next/standalone. Opt-in because the tracing step
   // recreates pnpm's symlinks, which Windows refuses without Developer Mode
   // (EPERM) — plain `pnpm build` on a dev machine stays a normal build.
-  output: process.env.NEXT_STANDALONE === '1' ? 'standalone' : undefined,
-  // pnpm-linked workspace packages are traced because the root is the
-  // monorepo root, not apps/web.
-  outputFileTracingRoot: repoRoot,
+  ...(process.env.NEXT_STANDALONE === '1'
+    ? {
+        output: 'standalone',
+        // pnpm-linked workspace packages are traced because the root is the
+        // monorepo root, not apps/web. Kept behind the same switch so the
+        // Vercel build (still live until the VPS serves the domain) is untouched.
+        outputFileTracingRoot: repoRoot,
+      }
+    : {}),
   transpilePackages: ['@learn365/ui', '@learn365/ui-web', '@learn365/core', '@learn365/content'],
   typedRoutes: true,
   webpack(config) {
