@@ -23,6 +23,7 @@ Each file was the in-flight plan for a single feature bundle. The implementation
 - `PHASE_7_2_PLAN.md` — Home era timeline, course clarity, continue state (shipped as Phase 7.2a–f).
 - `PHASE_7_3_PLAN.md` — section crumb in lesson breadcrumb + sidebar indent guide (shipped as Phase 7.3a–b).
 - `PHASE_7_4_PLAN.md` — eras as editorial blocks on course page, eras default closed on fresh state (shipped 2026-05-19, merge `f6a849f`).
+- `PHASE_8_PLAN.md` — accounts: Google sign-in, Postgres on the VPS, sync beside the local stores, the ask after the second lesson (shipped 2026-09-27, PR #34 `06e6a55`, switched on the same day). Its `./…` links assume the old `docs/` location.
 
 ### `reviews/` — superseded UX reviews and audits
 

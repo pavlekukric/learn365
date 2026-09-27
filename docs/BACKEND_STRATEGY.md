@@ -2,7 +2,7 @@
 
 The design document for the Learn365 backend. **Revised 2026-09-27** when Phase 8 started: the backend is a set of Next.js route handlers inside `apps/web`, backed by Postgres in the same Docker Compose project on the owner's VPS. The previous version of this file described a separate .NET 9 Web API on Azure; that plan is superseded and survives only in git history (`git show a34dd32:docs/BACKEND_STRATEGY.md`).
 
-The concrete bundle for the first backend phase — locked decisions, file list, API contract, owner steps, gates — is [`PHASE_8_PLAN.md`](./PHASE_8_PLAN.md). This document keeps the longer-lived shape: why the backend exists, what it owns, and what stays the same on the client.
+The concrete bundle for the first backend phase — locked decisions, file list, API contract, owner steps, gates — is [`archive/phases/PHASE_8_PLAN.md`](./archive/phases/PHASE_8_PLAN.md). This document keeps the longer-lived shape: why the backend exists, what it owns, and what stays the same on the client.
 
 ---
 
@@ -153,7 +153,7 @@ The property worth protecting: the v1 frontend becomes a v2 frontend by adding c
 
 ## 11. Phases
 
-Phase 8 ships as one PR (details in `PHASE_8_PLAN.md`): **8a** database + migrations + health; **8b** Google sign-in + pages + TopBar slot; **8c** progress sync + the ask after the second completion; **8d** bookmarks sync; **8e** docs. Every commit keeps auth-off behaviour identical, so the merge is a dark deploy; the owner turns the feature on by filling `.env`.
+Phase 8 ships as one PR (details in `archive/phases/PHASE_8_PLAN.md`): **8a** database + migrations + health; **8b** Google sign-in + pages + TopBar slot; **8c** progress sync + the ask after the second completion; **8d** bookmarks sync; **8e** docs. Every commit keeps auth-off behaviour identical, so the merge is a dark deploy; the owner turns the feature on by filling `.env`.
 
 Later, if ever: off-box backups, a persistent client outbox, Apple sign-in (only if the native app ships to the App Store, where it is required next to Google), account export.
 
@@ -171,6 +171,6 @@ Later, if ever: off-box backups, a persistent client outbox, Apple sign-in (only
 
 ## 13. What this document is not
 
-- Not the phase bundle — that is `PHASE_8_PLAN.md`.
+- Not the phase bundle — that is `archive/phases/PHASE_8_PLAN.md`.
 - Not the deploy runbook — that is `DEPLOY.md`.
 - Not a security review — the checklist in the plan is the minimum; a separate pass is due before any second provider or any sensitive scope.

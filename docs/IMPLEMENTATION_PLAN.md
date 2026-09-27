@@ -187,7 +187,7 @@ Google sign-in + cloud progress as Next.js route handlers inside `apps/web`, Pos
 - **8d — Bookmarks sync**: the same for `/api/me/bookmarks`.
 - **8e — Docs**: PROJECT_STATE, HANDOFF, DEPLOY, archive the plan.
 
-Every commit keeps auth-off behaviour identical (dark deploy; the owner turns it on via `.env`). Bundle: `docs/PHASE_8_PLAN.md`; strategy: `docs/BACKEND_STRATEGY.md`. Mobile reuses the same `/api/**` contract; neither phase blocks the other.
+Every commit keeps auth-off behaviour identical (dark deploy; the owner turns it on via `.env`). Bundle: `docs/archive/phases/PHASE_8_PLAN.md`; strategy: `docs/BACKEND_STRATEGY.md`. Mobile reuses the same `/api/**` contract; neither phase blocks the other.
 
 ---
 
