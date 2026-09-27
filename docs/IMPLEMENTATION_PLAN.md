@@ -177,17 +177,17 @@ Redesign of the shared `HistoricalTimeline` component into an informative, respo
 ### Phase 7+ — Mobile *(deferred until web v1 is visually approved)*
 Expo bootstrap → `ui-mobile` components → screens → device QA → store submission.
 
-### Phase 8 — Backend *(v2; starts after web v1 release; runs in parallel with mobile)*
+### Phase 8 — Accounts + cloud progress *(planned 2026-09-27; runs in parallel with mobile)*
 
-.NET 9 Web API + SQL Server. Built only after web v1 ships. Sub-phases:
+Google sign-in + cloud progress as Next.js route handlers inside `apps/web`, Postgres in the same compose project on the VPS (the earlier .NET/Azure shape is superseded). Sub-phases, one PR:
 
-- **8a — API skeleton + identity**: .NET solution, EF Core, SQL Server connection, ASP.NET Identity, health endpoint.
-- **8b — Auth endpoints**: register, login, refresh, logout with rotating refresh tokens.
-- **8c — Progress endpoints**: `GET/PUT/DELETE /api/me/progress…` and `POST /api/me/progress/sync`.
-- **8d — Client adapter swap**: `RemoteProgressStorage` in `@learn365/core`, sign-in screen in `apps/web`, local-to-cloud reconciliation on first sign-in.
-- **8e — Production deploy + observability**: Azure App Service + Azure SQL, Serilog, backup/restore rehearsal.
+- **8a — Database**: `db` service, Drizzle schema + migrations at server start, PGlite for the laptop and Vitest, `/api/health`.
+- **8b — Google sign-in**: `arctic` PKCE flow, own sessions table + cookie, `/prijava`, `/nalog`, `/privatnost`, TopBar account mark.
+- **8c — Progress sync**: `GET/PATCH /api/me/progress` + `POST …/sync`, `ProgressSync` beside the untouched store, the ask after the second completed lesson.
+- **8d — Bookmarks sync**: the same for `/api/me/bookmarks`.
+- **8e — Docs**: PROJECT_STATE, HANDOFF, DEPLOY, archive the plan.
 
-Full design in `docs/BACKEND_STRATEGY.md`. Mobile (phase 7) can adopt the adapter in 8d; neither phase blocks the other.
+Every commit keeps auth-off behaviour identical (dark deploy; the owner turns it on via `.env`). Bundle: `docs/PHASE_8_PLAN.md`; strategy: `docs/BACKEND_STRATEGY.md`. Mobile reuses the same `/api/**` contract; neither phase blocks the other.
 
 ---
 

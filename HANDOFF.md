@@ -1,6 +1,6 @@
 # Handoff — History 365 / Istorija Srbije 365
 
-**Last updated:** 2026-09-25, after the core-loop polish (resume rule, first-win moment, course start state, `Pročitano` label) — group 1 of the 2026-09-25 product review, unmerged. See PROJECT_STATE → "Polish — Core loop". Before that: 2026-05-21, the mobile lesson context header made always visible (unmerged at the time). See PROJECT_STATE → "Polish — Mobile lesson context header always visible (2026-05-21)". Prior milestones: the mobile lesson de-duplication polishes (PRs #25, #26) and Phase 7.6 ship (PR #24, `17f2715`).
+**Last updated:** 2026-09-27 — Phase 8 (Google sign-in + cloud progress) planned in `docs/PHASE_8_PLAN.md`, awaiting owner sign-off; `docs/BACKEND_STRATEGY.md` rewritten to the Next.js-route-handlers + Postgres stack. Before that: 2026-09-25, after the core-loop polish (resume rule, first-win moment, course start state, `Pročitano` label) — group 1 of the 2026-09-25 product review, unmerged. See PROJECT_STATE → "Polish — Core loop". Before that: 2026-05-21, the mobile lesson context header made always visible (unmerged at the time). See PROJECT_STATE → "Polish — Mobile lesson context header always visible (2026-05-21)". Prior milestones: the mobile lesson de-duplication polishes (PRs #25, #26) and Phase 7.6 ship (PR #24, `17f2715`).
 
 This is the live forward-looking pointer for the project. **Read this before starting any new phase.** It tells you what is true now and what the strongest next moves are.
 
@@ -10,7 +10,7 @@ For the full current state, read [`docs/PROJECT_STATE.md`](docs/PROJECT_STATE.md
 
 ## Where the app is right now
 
-- **Web v1 is live at https://istorija365.com/** (self-hosted since 2026-09-27: owner's Hetzner VPS, Docker Compose in `/srv/learn365`, Cloudflare Tunnel `learn365`; every push to `main` builds the image in GitHub Actions and rolls it out over one SSH connection). The Vercel project `learn365-web` is still up and still auto-deploys `main`; it is deleted once the owner confirms, and then the Vercel fallback in `apps/web/lib/seo/metadata.ts` goes too. The Računi app shares the box and must never be touched. Step-by-step runbook + status table in [`docs/DEPLOY.md`](docs/DEPLOY.md). Next after that: accounts (Google sign-in) + cloud progress, Next.js route handlers + Postgres on the same box; the sign-in is asked for when a reader marks a **second** lesson done, reading stays public. `docs/BACKEND_STRATEGY.md` still describes the older .NET plan and will be revised when that phase starts.
+- **Web v1 is live at https://istorija365.com/** (self-hosted since 2026-09-27: owner's Hetzner VPS, Docker Compose in `/srv/learn365`, Cloudflare Tunnel `learn365`; every push to `main` builds the image in GitHub Actions and rolls it out over one SSH connection). The Vercel project `learn365-web` is still up and still auto-deploys `main`; it is deleted once the owner confirms, and then the Vercel fallback in `apps/web/lib/seo/metadata.ts` goes too. The Računi app shares the box and must never be touched. Step-by-step runbook + status table in [`docs/DEPLOY.md`](docs/DEPLOY.md). Next: **Phase 8 — accounts (Google sign-in) + cloud progress**, Next.js route handlers + Postgres on the same box; the sign-in is asked for when a reader marks a **second** lesson done, reading stays public. Plan: [`docs/PHASE_8_PLAN.md`](docs/PHASE_8_PLAN.md) (see the pointer section below). `docs/BACKEND_STRATEGY.md` now describes this stack; the old .NET plan is git history.
 - **Core loop polish (2026-09-25, unmerged working tree).** Every "start / continue" action (Home hero CTA, Home recommended card, course progress card) now resolves through one rule — `findResumeLesson` in `@learn365/core` via `apps/web/lib/progress/useResumeLesson.ts`: Day 1 until something is completed, then the unfinished lesson the reader left, else the first unread day, never a completed one. Finishing a lesson shows a first-win moment (`Prvi dan je iza tebe.` + `Pročitano 1 / 365`) and scrolls the next-lesson card into view. The course card has a real start state (`Počni od Dana 1 →`, no empty `0%` ring) and, once started, counts lessons in the ring instead of a percent. TopBar label is `Pročitano`, visible on mobile too. New `e2e/resume.spec.ts`.
 - **Phase 7.6 just shipped** (PR #24, `17f2715`) — returning to the course overview within a browser session restores the reader's prior scroll position (Next's built-in restoration misses because the era accordion settles after hydration). New `CourseScrollRestore.tsx` client component on the course page: owns `history.scrollRestoration = 'manual'`, persists the offset to `sessionStorage` (`learn365:course-scroll:<courseId>`) — debounced, plus a click-time freeze so navigation scroll-noise can't clobber it — and restores via a settle-aware rAF enforcement loop that beats the framework's deferred scroll-to-top. `sessionStorage` is view state (not the backend swap seam); fresh tab/session lands at top. New all-profile Playwright assertion. No content/schema changes.
 - **Phase 7.5's scroll-collapse was reverted (2026-05-21).** On single-column lesson layouts (≤1024px) the sticky `LessonContextHeader` — top row (`Sadržaj` trigger + `Dan nnn / 365`) and meta row (era + `Pročitano nnn / 365`) — is now **always fully visible while scrolling**, per owner request (the collapse read as distracting). The `useScrollDirection.ts` hook was deleted and the CSS collapse rules removed; the header stays put via its existing `position: sticky`. See PROJECT_STATE → "Polish — Mobile lesson context header always visible (2026-05-21)".
@@ -21,7 +21,7 @@ For the full current state, read [`docs/PROJECT_STATE.md`](docs/PROJECT_STATE.md
 - **Phase 7.8 + full-content corpus** sits behind it. Home carries the daily-ritual anchor; `validate-content` reports **365 authored / 0 placeholder**.
 - **Codegen pitfall to know:** the runtime reads `packages/content/src/courses/istorija-srbije-365/_generated.ts`. Anyone editing `content/courses/*.json` must run `pnpm gen-content` to refresh the generated file — otherwise the app shows stale content.
 - **UI/UX is at a stable baseline** the owner has declared the new floor. Do not regress below this state without an explicit owner decision.
-- **No backend.** Progress lives in `localStorage` via `ProgressStorage` in `@learn365/core`; bookmarks (post-7.11) live in `localStorage` via the parallel `BookmarkStorage` adapter, separate `learn365:bookmarks:v1` key — both are the swap seams for the future .NET API.
+- **No backend yet.** Progress lives in `localStorage` via `ProgressStorage` in `@learn365/core`; bookmarks (post-7.11) live in `localStorage` via the parallel `BookmarkStorage` adapter, separate `learn365:bookmarks:v1` key. Phase 8 keeps both stores as they are and adds a sync layer beside them (`docs/PHASE_8_PLAN.md` D4).
 - **No native mobile.** Responsive web only; `MobileLessonDrawer` is the mobile reading surface.
 
 For the detailed surface-by-surface baseline (TopBar, Home, Course, Lesson reader, mobile, content loading, technical stack, era-opener figures), see `docs/PROJECT_STATE.md` → "Current Baseline — 2026-05-19".
@@ -42,7 +42,17 @@ Open since Phase 5 + Phase 7.10 + Phase 7.11 + Phase 7.12b + Phase 7.5 + Phase 7
 
 ---
 
-## Product review backlog (2026-09-25) — live next-step pointer
+## Phase 8 — Nalog i napredak u oblaku (2026-09-27) — live next-step pointer
+
+Owner direction (2026-09-27): the next phase is **Google sign-in + saving progress**. The plan is written: [`docs/PHASE_8_PLAN.md`](docs/PHASE_8_PLAN.md). **Status: awaiting owner sign-off on the locked decisions; no production code written yet** (plan-before-code discipline).
+
+What the plan locks, in one breath: route handlers in `apps/web` + Postgres 17 as a third container in the `learn365` compose project (D1); Google only, authorization code + PKCE via `arctic`, sessions in our own table, one `HttpOnly` cookie, no Auth.js (D2); Drizzle + postgres.js in production, PGlite on the laptop and in Vitest because the dev machine has no Docker, migrations at server start (D3); the Zustand stores untouched, a `ProgressSync` / `BookmarkSync` layer beside them — union once per (browser, user) on first sign-in, server authoritative on every later load, deltas as they happen (D4); the ask is an inline, dismissible card under the completion moment after the **second** completed lesson, a TopBar account mark, pages `/prijava`, `/nalog`, `/privatnost`, reading stays public (D5); **auth-off is the default** — without the four env vars every commit, CI, Playwright and the dark deploy are today's app (D6); `db` service + `.env` + nightly `pg_dump` on the box (D7).
+
+Decisions the owner should explicitly confirm or change: D2 (arctic vs. a library), D3 (PGlite for the laptop), D5.3 (no dropdown — the account page carries `Odjava` / `Obriši nalog`), D5.6 + §3.B (privacy page + `www` → apex redirect), D7 (local nightly backups). Owner actions for go-live (Google Cloud project + consent screen + OAuth client, Cloudflare redirect, VPS `.env` + cron) are listed in plan §3 and are needed after the merge, not before coding.
+
+Next session on sign-off: branch `feat/phase-8-accounts`, commits 8a → 8d per plan §4, gates per commit, PR, dark deploy, owner §3, manual QA §6, docs commit 8e, archive the plan.
+
+## Product review backlog (2026-09-25)
 
 An owner-requested product review of the first-time experience (desktop + mobile, fresh `localStorage`) produced four ordered groups. Text of the lessons was explicitly out of scope. **All four groups are done (unmerged working tree, see PROJECT_STATE → "Polish — Core loop", "Polish — First impression", "Polish — Reader", "Polish — Course overview").** What remains from the review is owner input only: the real `CONTACT_EMAIL`, and a decision on whether the 963 kB first-load JS (the whole 365-lesson corpus ships to the client through the content package) is acceptable for v1 or should become a small follow-up. Standing assumption, accepted by the owner: "Dan" is a sequence number, not a calendar date.
 
@@ -62,7 +72,7 @@ The post-7.4 backlog was reframed on 2026-05-19 after an independent mobile UI/U
 - **Seed bylines.** 6 one-line JSON edits when editorial authors are decided (see Carry-forward).
 - **Auto-regen `_generated.ts` on JSON edit** (husky pre-commit / `prebuild` / Turbo input dep). Small DX commit, not a UX phase — closes the manual `pnpm gen-content` foot-gun before the next content edit cycle.
 
-If the owner declares web v1 visually approved instead, the roadmap moves to **Phase 8 — Backend (.NET 9 Web API + SQL Server + EF Core)**; the `ProgressStorage` / `BookmarkStorage` adapters in `@learn365/core` are the swap seams.
+If the owner declares web v1 visually approved instead, the roadmap moves to **Phase 8 — Accounts + cloud progress** (now planned, see the pointer section above).
 
 **Quality-of-life candidate surfaced by 7.8 (and reinforced by 7.12b):** auto-regen `_generated.ts` on JSON edit (husky pre-commit, a `prebuild` script, or a Turbo input dependency). The current manual `pnpm gen-content` step is a foot-gun if an author edits JSON without remembering to regen. Not a UX phase, but worth a small commit before the next content edit cycle.
 
@@ -72,10 +82,10 @@ If the owner declares web v1 visually approved instead, the roadmap moves to **P
 
 Once the remaining UX backlog is closed (or the owner declares web v1 visually approved), the roadmap continues with:
 
-1. **Phase 8 — Backend (.NET 9 Web API + SQL Server + EF Core).** Plan: [`docs/BACKEND_STRATEGY.md`](docs/BACKEND_STRATEGY.md). The `ProgressStorage` adapter in `@learn365/core` is the swap seam — no v1 frontend rewrite required when the backend lands. `apps/api/` does not yet exist; it is introduced in this phase.
+1. **Phase 8 — Accounts + cloud progress (Next.js route handlers + Postgres on the VPS).** Plan: [`docs/PHASE_8_PLAN.md`](docs/PHASE_8_PLAN.md); strategy: [`docs/BACKEND_STRATEGY.md`](docs/BACKEND_STRATEGY.md). The stores in `@learn365/core` stay as they are; a sync layer lands beside them. There is no `apps/api/`.
 2. **Phase 8b — Native mobile (Expo).** Plan: [`docs/MOBILE_NOTES.md`](docs/MOBILE_NOTES.md). Built after backend so the mobile app can sync progress remotely. `apps/mobile/` and `packages/ui-mobile/` do not yet exist; they are introduced in this phase.
 
-The web v1 codebase has been built with both swap seams already in place — backend via `ProgressStorage`, mobile via the `ui` / `ui-web` token-vs-component split. Neither phase should require rewriting v1 code.
+The web v1 codebase has been built with both seams already in place — backend via the `@learn365/core` stores (sync sits beside them), mobile via the `ui` / `ui-web` token-vs-component split. Neither phase should require rewriting v1 code.
 
 ---
 
@@ -93,6 +103,6 @@ The web v1 codebase has been built with both swap seams already in place — bac
 ## What NOT to do
 
 - **Do not rebuild any of the baseline surfaces from scratch.** The current UI/UX is the new floor.
-- **Do not start a new authentication, payments, or backend feature** without explicit owner direction — those are all v1-exclusions.
+- **Payments stay a v1 exclusion.** Accounts + cloud progress are owner-directed as of 2026-09-27 (Phase 8) — follow `docs/PHASE_8_PLAN.md` and do not widen it: no password login, no second provider, no gated reading, no test-only auth bypass.
 - **Do not consult `docs/archive/`** for current state. Archived plans describe the situation at the time they were written and are kept for archaeology only.
 - **Do not edit production code as part of doc-only work.** Documentation passes should leave the working tree clean of code changes.
