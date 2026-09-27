@@ -9,9 +9,11 @@ interface FooterProps {
   aboutHref: string;
   /** Deep-link to the sources section inside the about page. */
   sourcesHref: string;
+  /** Privacy page (Phase 8). Omit to leave the link out. */
+  privacyHref?: string | undefined;
 }
 
-export function Footer({ aboutHref, sourcesHref }: FooterProps) {
+export function Footer({ aboutHref, sourcesHref, privacyHref }: FooterProps) {
   return (
     <footer className={styles.footer} role="contentinfo">
       <div className={`shell ${styles.inner}`}>
@@ -27,6 +29,14 @@ export function Footer({ aboutHref, sourcesHref }: FooterProps) {
             ·
           </span>
           <Link href={sourcesHref}>Izvori</Link>
+          {privacyHref ? (
+            <>
+              <span className={styles.sep} aria-hidden="true">
+                ·
+              </span>
+              <Link href={privacyHref}>Privatnost</Link>
+            </>
+          ) : null}
         </nav>
 
         <p className={`tiny ${styles.copy}`}>© 2026 History 365</p>

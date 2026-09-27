@@ -97,6 +97,38 @@
   transition: width var(--dur-medium) var(--ease);
 }
 
+/*
+ * Account slot (Phase 8) — sits after the capsule. The signed-in mark is an
+ * `AccountMark`; signed-out is a text link that inherits the nav link
+ * register and collapses to its glyph on phones. The loading placeholder
+ * reserves the mark's width so nothing shifts when `/api/me` answers.
+ */
+.account {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.accountPlaceholder {
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+}
+
+.signIn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  white-space: nowrap;
+}
+
+.signInIcon {
+  width: 15px;
+  height: 15px;
+  flex-shrink: 0;
+}
+
 /* On the lesson route, the sticky LessonContextHeader (≤1024px) already shows a
  * labelled "Pročitano X / 365". Drop the masthead capsule across that whole
  * single-column range so course progress is displayed once, always labelled.
@@ -133,6 +165,19 @@
     letter-spacing: 0.08em;
   }
   .progressTrack {
+    display: none;
+  }
+  /* Signed-out entry becomes a 28px glyph in a ring — the same footprint as
+   * the signed-in mark, so the masthead reads the same in both states. */
+  .signIn {
+    width: 28px;
+    height: 28px;
+    justify-content: center;
+    border: 1px solid var(--rule);
+    border-radius: 50%;
+    gap: 0;
+  }
+  .signInLabel {
     display: none;
   }
 }

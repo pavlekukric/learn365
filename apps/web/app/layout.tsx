@@ -56,7 +56,11 @@ export default function RootLayout({ children }: { children: ReactNode }) {
           <main id="main-content" tabIndex={-1}>
             {children}
           </main>
-          <Footer aboutHref="/o-aplikaciji" sourcesHref="/o-aplikaciji#izvori" />
+          <Footer
+            aboutHref="/o-aplikaciji"
+            sourcesHref="/o-aplikaciji#izvori"
+            privacyHref="/privatnost"
+          />
         </AppProviders>
       </body>
     </html>

@@ -29,10 +29,15 @@ export function ProgressStoreProvider({ children }: { children: ReactNode }) {
   );
 }
 
-export function useProgressStore<T>(selector: (state: ProgressStoreState) => T): T {
+/** The raw store, for code that subscribes outside React (cloud sync). */
+export function useProgressStoreApi(): ProgressStore {
   const store = useContext(ProgressStoreContext);
   if (store === null) {
-    throw new Error('useProgressStore must be used inside <ProgressStoreProvider>.');
+    throw new Error('useProgressStoreApi must be used inside <ProgressStoreProvider>.');
   }
-  return useStore(store, selector);
+  return store;
+}
+
+export function useProgressStore<T>(selector: (state: ProgressStoreState) => T): T {
+  return useStore(useProgressStoreApi(), selector);
 }

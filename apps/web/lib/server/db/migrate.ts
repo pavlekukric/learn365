@@ -19,7 +19,19 @@ export async function migrateDatabase(): Promise<void> {
   if (env.databaseUrl === null) return;
   const connection = await getConnection();
   const started = Date.now();
-  await connection.migrate(env.migrationsDir);
+  try {
+    await connection.migrate(env.migrationsDir);
+  } catch (error) {
+    if (connection.driver === 'pglite' && String(error).includes('PGlite failed to initialize')) {
+      throw new Error(
+        `PGlite could not open ${env.databaseUrl}. After a hard stop (Ctrl+C, killed process) the ` +
+          'folder can stay locked — it is throwaway dev data, so delete it and start again, or point ' +
+          'DATABASE_URL at a folder outside OneDrive. See apps/web/.env.example.',
+        { cause: error },
+      );
+    }
+    throw error;
+  }
   console.info(
     `[db] migrations applied (${connection.driver}) in ${String(Date.now() - started)} ms`,
   );

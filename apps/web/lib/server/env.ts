@@ -50,3 +50,16 @@ export function getServerEnv(): ServerEnv {
 export function isAuthEnabled(env: ServerEnv = getServerEnv()): boolean {
   return env.databaseUrl !== null && env.appUrl !== null && env.google !== null;
 }
+
+/** The narrowed configuration the auth routes work with, or `null` when accounts are off. */
+export interface AuthConfig {
+  readonly appUrl: string;
+  readonly google: GoogleOAuthConfig;
+  /** `Secure` cookies whenever the public origin is https (always in production). */
+  readonly secureCookies: boolean;
+}
+
+export function getAuthConfig(env: ServerEnv = getServerEnv()): AuthConfig | null {
+  if (env.databaseUrl === null || env.appUrl === null || env.google === null) return null;
+  return { appUrl: env.appUrl, google: env.google, secureCookies: env.appUrl.startsWith('https://') };
+}

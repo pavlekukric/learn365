@@ -1,10 +1,33 @@
 import Link from 'next/link';
 
+import { IconUser } from '../../icons/IconUser.js';
+import { AccountMark } from '../AccountMark/AccountMark.js';
 import { Brand } from '../Brand/Brand.js';
 
 import styles from './TopBar.module.css';
 
 export type TopBarRoute = 'home' | 'course' | 'lesson' | 'about';
+
+/**
+ * Account slot at the right end of the masthead (Phase 8). The app decides
+ * which state applies; the TopBar only renders it:
+ *
+ * - `loading`    — an invisible placeholder of the mark's width, so the
+ *                  capsule does not shift when `/api/me` answers.
+ * - `signed-out` — a quiet `Prijava` link (icon-only ≤720px).
+ * - `signed-in`  — the reader's `AccountMark`, leading to the account page.
+ *
+ * `null` / omitted (accounts off) renders nothing at all.
+ */
+export type TopBarAccount =
+  | { readonly kind: 'loading' }
+  | { readonly kind: 'signed-out'; readonly href: string }
+  | {
+      readonly kind: 'signed-in';
+      readonly href: string;
+      readonly name: string | null;
+      readonly pictureUrl: string | null;
+    };
 
 interface TopBarProps {
   /** Current route, used to mark the active nav link. */
@@ -17,6 +40,26 @@ interface TopBarProps {
   totalLessons: number;
   /** Completed-lesson count for the active course. */
   completedCount: number;
+  /** Account slot; omit or pass `null` when accounts are not enabled. */
+  account?: TopBarAccount | null | undefined;
+}
+
+function AccountSlot({ account }: { account: TopBarAccount }) {
+  switch (account.kind) {
+    case 'loading':
+      return <span className={styles.accountPlaceholder} aria-hidden="true" />;
+    case 'signed-out':
+      return (
+        <Link href={account.href} data-link="account" className={styles.signIn} aria-label="Prijava">
+          <IconUser className={styles.signInIcon} />
+          <span className={styles.signInLabel}>Prijava</span>
+        </Link>
+      );
+    case 'signed-in':
+      return (
+        <AccountMark href={account.href} name={account.name} pictureUrl={account.pictureUrl} />
+      );
+  }
 }
 
 export function TopBar({
@@ -25,6 +68,7 @@ export function TopBar({
   aboutHref,
   totalLessons,
   completedCount,
+  account,
 }: TopBarProps) {
   const courseActive = route === 'course' || route === 'lesson';
   const aboutActive = route === 'about';
@@ -77,6 +121,12 @@ export function TopBar({
               <i style={{ width: `${pct}%` }} />
             </div>
           </div>
+
+          {account ? (
+            <div className={styles.account}>
+              <AccountSlot account={account} />
+            </div>
+          ) : null}
         </nav>
       </div>
     </header>
