@@ -2,7 +2,7 @@
 
 Canonical deploy procedure for Learn365 web. **Target since 2026-09-26: the owner's Hetzner VPS**, shared with the Računi app, behind a Cloudflare Tunnel. Vercel (`learn365-web.vercel.app`) stays up only until the custom domain serves from the VPS, then it is deleted (§8).
 
-Phase 8 (accounts + cloud progress) lives in this same compose project: a `db` service and four runtime secrets in `.env` — §5, §10 and [PHASE_8_PLAN.md](PHASE_8_PLAN.md). Without those secrets the app runs exactly as before (no accounts), so every deploy is safe to roll out dark.
+Phase 8 (accounts + cloud progress) lives in this same compose project: a `db` service and four runtime secrets in `.env` — §5, §10 and [archive/phases/PHASE_8_PLAN.md](archive/phases/PHASE_8_PLAN.md). Without those secrets the app runs exactly as before (no accounts), so every deploy is safe to roll out dark.
 
 ---
 
@@ -157,14 +157,14 @@ Once `https://<DOMEN>/` serves from the VPS for a day without incident:
 | Vercel deleted | pending — owner confirms after a day of clean serving (§8) |
 | Phase 8 code (db, auth, sync) | done — PR #34 squash-merged as `06e6a55`, rolled out 2026-09-27 |
 | Phase 8 switched on (§10) | done — 2026-09-27: `.env` filled (Google project `istorija365`), `learn365-db` up (postgres:17-alpine, volume `learn365-pgdata`), `web` recreated, migrations applied in 62 ms, public `/api/health` = `{"ok":true,"auth":true,"db":"ok"}`, cron `15 3 * * *` for `backup.sh` as `deploy`, first dump 12 KB; Računi containers unchanged, RAM free 2.4 GB |
-| Cloudflare `www` → apex redirect | pending — owner (Rules → Redirect Rules); until then `www` serves the app on its own host, so a session cookie set on the apex does not apply there |
-| Phase 8 manual QA on production | pending — `PHASE_8_PLAN.md` §6 |
+| Cloudflare `www` → apex redirect | done — 2026-09-27, 301 rule in the dashboard (query string not preserved; harmless) |
+| Phase 8 manual QA on production | done — owner, 2026-09-27: the ask after the second lesson, Google sign-in, second device, un-completion, bookmarks, sign-out / re-sign-in all as expected |
 
 ## 10. Database and accounts (Phase 8)
 
 **Turning it on (once, ~10 min).** The image is already deployed dark; nothing below changes code.
 
-1. Owner: Google Cloud project + OAuth client + consent screen, and the Cloudflare `www` → apex redirect — steps in [PHASE_8_PLAN.md](PHASE_8_PLAN.md) §3.
+1. Owner: Google Cloud project + OAuth client + consent screen, and the Cloudflare `www` → apex redirect — steps in [archive/phases/PHASE_8_PLAN.md](archive/phases/PHASE_8_PLAN.md) §3.
 2. Fill `/srv/learn365/.env` from `deploy/.env.example` (`POSTGRES_PASSWORD` via `openssl rand -hex 24`, the same value inside `DATABASE_URL`).
 3. `scp deploy/docker-compose.yml deploy/backup.sh deploy@<IP>:/srv/learn365/ && ssh deploy@<IP> 'chmod +x /srv/learn365/backup.sh'` — the new compose needs `POSTGRES_PASSWORD`, so this comes **after** step 2.
 4. `ssh deploy@<IP> '/srv/learn365/dc.sh up -d db && /srv/learn365/dc.sh up -d web'` — `web` restarts with the env; `instrumentation.ts` applies migrations before the first request.

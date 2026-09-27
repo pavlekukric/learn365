@@ -361,7 +361,7 @@ install → lint → typecheck → test → build → validate-content → e2e (
 
 ## 14. What stays out
 
-- Backend: Phase 8 (Google sign-in + cloud progress) as route handlers inside `apps/web` — see `docs/BACKEND_STRATEGY.md` and `docs/PHASE_8_PLAN.md`. v1 shipped with local progress only.
+- Backend: Phase 8 (Google sign-in + cloud progress) as route handlers inside `apps/web` — see `docs/BACKEND_STRATEGY.md` and `docs/archive/phases/PHASE_8_PLAN.md`. v1 shipped with local progress only.
 - No CMS or admin UI in v1.
 - No analytics SDK in v1 (decision deferred).
 - No internationalization framework yet — copy is Serbian only.
