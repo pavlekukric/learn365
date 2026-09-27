@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import type { ReactNode } from 'react';
 
 import { IconArrow } from '../../icons/IconArrow.js';
 import { IconArrowLeft } from '../../icons/IconArrowLeft.js';
@@ -32,6 +33,8 @@ interface CompletedFooterProps {
   prev: CompletedFooterPrev | null;
   /** Where to send the user when there is no next lesson (end-of-course). */
   courseHref: string;
+  /** Optional block between the moment and the next-lesson card (the sign-in ask). */
+  afterMoment?: ReactNode;
 }
 
 function formatDay(day: number): string {
@@ -54,6 +57,7 @@ export function CompletedFooter({
   next,
   prev,
   courseHref,
+  afterMoment,
 }: CompletedFooterProps) {
   const isFirstWin = completedCount === 1;
 
@@ -72,6 +76,8 @@ export function CompletedFooter({
           Pročitano {completedCount} / {totalLessons}
         </p>
       </div>
+
+      {afterMoment}
 
       {next ? (
         <Link href={next.href} className={styles.nextCard}>

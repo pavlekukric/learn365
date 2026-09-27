@@ -13,6 +13,7 @@ import { LessonSources } from '../LessonSources/LessonSources.js';
 import { LessonTrustLine } from '../LessonTrustLine/LessonTrustLine.js';
 import { MarkAsCompletedButton } from '../MarkAsCompletedButton/MarkAsCompletedButton.js';
 import { PreviousNextLessonNavigation } from '../PreviousNextLessonNavigation/PreviousNextLessonNavigation.js';
+import { SignInPrompt, type SignInPromptProps } from '../SignInPrompt/SignInPrompt.js';
 
 import styles from './LessonReader.module.css';
 
@@ -52,6 +53,10 @@ interface LessonReaderProps {
   /** Save-for-later toggle, forwarded to the header. Omit for callers that
    * haven't wired bookmarks. */
   bookmarkAction?: LessonBookmarkAction | undefined;
+  /** The one-time account ask, rendered under the completion moment when the
+   * app decides it is due (second completed lesson, not signed in, not
+   * dismissed). Omit to render nothing. */
+  signInPrompt?: SignInPromptProps | undefined;
 }
 
 export function LessonReader({
@@ -71,6 +76,7 @@ export function LessonReader({
   eraHref,
   eraStats,
   bookmarkAction,
+  signInPrompt,
 }: LessonReaderProps) {
   void section; // section data is reflected in breadcrumbs; reserved for future use.
 
@@ -140,6 +146,11 @@ export function LessonReader({
               next={next}
               prev={prev}
               courseHref={courseHref}
+              afterMoment={
+                signInPrompt ? (
+                  <SignInPrompt href={signInPrompt.href} onDismiss={signInPrompt.onDismiss} />
+                ) : null
+              }
             />
           </div>
         ) : (

@@ -19,6 +19,12 @@ export interface CourseBookmarks {
   readonly updatedAt: string;
 }
 
+/** Array form of `CourseBookmarks`: the wire shape and what `replaceCourseBookmarks` takes. */
+export interface CourseBookmarksSnapshot {
+  readonly lessonIds: readonly LessonId[];
+  readonly updatedAt: string;
+}
+
 /** Full in-memory state shape. */
 export interface BookmarkState {
   readonly byCourse: Readonly<Record<CourseId, CourseBookmarks>>;
@@ -28,6 +34,8 @@ export interface BookmarkState {
 export interface BookmarkActions {
   toggleBookmark(courseId: CourseId, lessonId: LessonId): void;
   clearCourse(courseId: CourseId): void;
+  /** Apply a snapshot wholesale (cloud sync); `updatedAt` is taken from the snapshot. */
+  replaceCourseBookmarks(courseId: CourseId, snapshot: CourseBookmarksSnapshot): void;
 }
 
 export type BookmarkStoreState = BookmarkState & BookmarkActions;

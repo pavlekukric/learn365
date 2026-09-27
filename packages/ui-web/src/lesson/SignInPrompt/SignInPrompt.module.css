@@ -1,0 +1,97 @@
+/* Sits between the completion moment and the next-lesson card. Same paper
+ * and radius as that card, but a plain rule instead of the accent border —
+ * the next lesson stays the primary thing on the page. */
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  padding: var(--space-6) var(--space-7);
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  border-radius: var(--r-lg);
+}
+
+.eyebrow {
+  margin: 0;
+  color: var(--muted);
+}
+
+.title {
+  margin: 0;
+  font-family: var(--serif);
+  font-size: 20px;
+  line-height: 1.3;
+  letter-spacing: -0.005em;
+  color: var(--ink);
+}
+
+.body {
+  margin: 0;
+  color: var(--ink-2);
+  max-width: 52ch;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--space-4);
+  margin-top: var(--space-3);
+}
+
+.primary {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: 11px 20px;
+  border-radius: var(--r-pill);
+  background: var(--ink);
+  color: var(--bg);
+  font-family: var(--sans);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  text-decoration: none;
+  transition:
+    transform var(--dur-base) var(--ease),
+    background var(--dur-base) var(--ease);
+}
+
+.primary:hover {
+  transform: translateY(-1px);
+}
+
+.primary:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+.dismiss {
+  font-family: var(--sans);
+  font-size: 14px;
+  color: var(--ink-2);
+  background: none;
+  border: 0;
+  padding: 8px 0;
+  cursor: pointer;
+  transition: color var(--dur-base) var(--ease);
+}
+
+.dismiss:hover {
+  color: var(--ink);
+}
+
+.dismiss:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+  border-radius: var(--r-sm);
+}
+
+@media (max-width: 860px) {
+  .card {
+    padding: var(--space-5) var(--space-6);
+  }
+  .title {
+    font-size: 18px;
+  }
+}
