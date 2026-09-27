@@ -10,7 +10,7 @@ For forward-looking work (what to pick next), see [`HANDOFF.md`](../HANDOFF.md) 
 
 - **Live URL:** https://istorija365.com/ (self-hosted on the owner's Hetzner VPS since 2026-09-27; pipeline and runbook in `docs/DEPLOY.md`). The Vercel project `learn365-web` still mirrors `main` until the owner deletes it.
 - **Branch model:** Trunk-based. Each phase ships as one PR merged to `main`. No release branches.
-- **Latest work (unmerged, 2026-09-27):** Phase 8 — accounts (Google sign-in) + cloud progress on branch `feat/phase-8-accounts`. See "Phase 8 — Accounts + cloud progress" below. Dark until the owner fills `.env` on the VPS.
+- **Last shipped phase:** Phase 8 — accounts (Google sign-in) + cloud progress (PR #34, squash `06e6a55`, merged and switched on in production 2026-09-27). See "Phase 8 — Accounts + cloud progress" below.
 - **Last shipped phase:** Phase 7.6 — Course page scroll restore (shipped 2026-05-21, PR #24, `17f2715`). See "Phase 7.6 — done" below. The Phase 7.5 mobile sticky-chrome scroll-collapse (PR #23, `4325e64`) and Phase 7.12b era-opener figures (`542edad`) are the prior milestones.
 
 ### UI/UX baseline (do not regress)
@@ -71,7 +71,7 @@ The next phase pick is recorded in [`HANDOFF.md`](../HANDOFF.md) at the repo roo
 
 The remainder of this document is the chronological build log. Each phase entry records the locked decisions, files touched, gates run, and rationale. The log is append-only — use it to answer "why did we build it this way?" or "when did X change?" The current state of any component or surface lives in the **Current Baseline** section above, not in the phase log.
 
-## Phase 8 — Accounts + cloud progress: Google sign-in, Postgres, sync beside the local stores (2026-09-27): done (unmerged)
+## Phase 8 — Accounts + cloud progress: Google sign-in, Postgres, sync beside the local stores (2026-09-27): done (PR #34, `06e6a55`, live)
 
 Owner direction 2026-09-27 ("idemo"), built the same day on `feat/phase-8-accounts` from the plan in `docs/PHASE_8_PLAN.md`. Four code commits, each leaving auth-off behaviour identical, so the merge is a dark deploy; the owner turns the feature on by filling `/srv/learn365/.env` (DEPLOY.md §10).
 
@@ -87,7 +87,7 @@ Owner direction 2026-09-27 ("idemo"), built the same day on `feat/phase-8-accoun
 
 **Gates:** `pnpm typecheck` + `lint` + `test` + `build` green (core 67 tests, web 69, ui-web 31). Playwright (Chromium desktop + mobile, accounts off): **61 pass / 1 documented skip**, including the new `e2e/auth-off.spec.ts` (no account entry, `/prijava` unavailable state, `/nalog` redirect, no ask after two completions, `/privatnost`). Manual verification against a local `next start` with accounts on and a seeded session: every route's 200/204/302/400/401/403 path, union sync, un-completion, account deletion cascade; and a Chromium walk of the signed-in flow (first-contact sync, PATCH on `Završi`, GET on reload, sign-out clearing without a stray delta, the ask + `Ne sada`).
 
-**Carry-forward (owner):** go-live steps in `PHASE_8_PLAN.md` §3 / `DEPLOY.md` §10 (Google Cloud project + consent screen + OAuth client, Cloudflare `www` → apex, VPS `.env` + `dc.sh up -d db`, cron for `backup.sh`), then the manual QA list in the plan §6 on production. Off-box backups and a persistent client outbox remain follow-ups. Move the plan to `docs/archive/phases/` once the PR merges.
+**Go-live (2026-09-27, same day):** Google Cloud project `istorija365` (consent screen published, OAuth client with the production redirect URI); VPS `.env` filled, `learn365-db` started (postgres:17-alpine, volume `learn365-pgdata`), `web` recreated, migrations applied on Postgres in 62 ms, public `/api/health` = `{"ok":true,"auth":true,"db":"ok"}`, nightly `backup.sh` in `deploy`'s crontab with a first 12 KB dump, Računi containers unchanged, RAM free 2.4 GB. **Carry-forward (owner):** Cloudflare `www` → apex redirect; manual QA list in the plan §6 on production. Off-box backups and a persistent client outbox remain follow-ups. Move the plan to `docs/archive/phases/` in the next docs pass.
 
 ## Polish — Course overview: one affordance per era card, labelled bookmark (2026-09-25): done (unmerged)
 
