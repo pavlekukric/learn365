@@ -155,7 +155,10 @@ Once `https://<DOMEN>/` serves from the VPS for a day without incident:
 | First rollout | done — 2026-09-27 manual `deploy.sh sha-11c51e776f3f` (first workflow rollout hit the ufw SSH limit, fixed by the pinned host key); `learn365-web` healthy, 64 MB RSS, `GET /` 200 from the compose network. Public URL check pending the domain. |
 | Public URL check | done — 2026-09-27: apex + `www` 200 over HTTPS, `og:url` = domain, `/_next/static` served with `cf-cache-status: HIT` |
 | Vercel deleted | pending — owner confirms after a day of clean serving (§8) |
-| Phase 8 code (db, auth, sync) | in PR (`feat/phase-8-accounts`, 2026-09-27) — dark until `.env` on the VPS carries the four values (§10) |
+| Phase 8 code (db, auth, sync) | done — PR #34 squash-merged as `06e6a55`, rolled out 2026-09-27 |
+| Phase 8 switched on (§10) | done — 2026-09-27: `.env` filled (Google project `istorija365`), `learn365-db` up (postgres:17-alpine, volume `learn365-pgdata`), `web` recreated, migrations applied in 62 ms, public `/api/health` = `{"ok":true,"auth":true,"db":"ok"}`, cron `15 3 * * *` for `backup.sh` as `deploy`, first dump 12 KB; Računi containers unchanged, RAM free 2.4 GB |
+| Cloudflare `www` → apex redirect | pending — owner (Rules → Redirect Rules); until then `www` serves the app on its own host, so a session cookie set on the apex does not apply there |
+| Phase 8 manual QA on production | pending — `PHASE_8_PLAN.md` §6 |
 
 ## 10. Database and accounts (Phase 8)
 
