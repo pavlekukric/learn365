@@ -8,6 +8,7 @@ import {
   DEFAULT_STORAGE_KEY,
   PROGRESS_SCHEMA_VERSION,
   type CourseProgress,
+  type CourseProgressSnapshot,
   type ProgressStorage,
   type ProgressStoreState,
 } from './types.js';
@@ -91,6 +92,19 @@ export function createProgressStore(
           const { [courseId]: _dropped, ...rest } = get().byCourse;
           void _dropped;
           set({ byCourse: rest });
+        },
+
+        replaceCourseProgress(courseId: CourseId, snapshot: CourseProgressSnapshot) {
+          set({
+            byCourse: {
+              ...get().byCourse,
+              [courseId]: {
+                completedLessonIds: new Set(snapshot.completedLessonIds),
+                lastOpenedLessonId: snapshot.lastOpenedLessonId,
+                updatedAt: snapshot.updatedAt,
+              },
+            },
+          });
         },
       }),
       {

@@ -1,7 +1,8 @@
-# Learn365 web na VPS-u: Next.js (standalone slika iz GHCR) + cloudflared (Cloudflare Tunnel).
-# Nijedan port nije objavljen ka internetu: jedini ulaz je tunel `learn365`, javan, bez Access-a.
-# Potpuno odvojeno od /srv/racuni: svoj compose projekat, svoja mreža, svoj tunel, svoj .env.
+# Learn365 web na VPS-u: Next.js (standalone slika iz GHCR) + Postgres (Faza 8) + cloudflared (Cloudflare Tunnel).
+# Nijedan port nije objavljen ka internetu: jedini ulaz je tunel `learn365`, javan, bez Access-a; baza je samo na compose mreži.
+# Potpuno odvojeno od /srv/racuni: svoj compose projekat, svoja mreža, svoj tunel, svoj .env, svoj volume.
 # Pokreće se kroz dc.sh (fiksira --env-file /srv/learn365/.env). Sliku menja deploy.sh (IMAGE_TAG).
+# Tajne idu u kontejnere samo kroz `environment:` ispod, nikad kroz env_file (web ne treba da vidi POSTGRES_PASSWORD).
 name: learn365
 
 x-logging: &logging
@@ -11,6 +12,29 @@ x-logging: &logging
     max-file: '5'
 
 services:
+  db:
+    image: postgres:17-alpine
+    container_name: learn365-db
+    restart: unless-stopped
+    logging: *logging
+    # mala baza pored Računovog SQL Servera (1,5 GB): tvrda granica + skromni buferi
+    mem_limit: 256m
+    shm_size: 64m
+    command: postgres -c shared_buffers=32MB -c max_connections=20
+    environment:
+      POSTGRES_DB: learn365
+      POSTGRES_USER: learn365
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?POSTGRES_PASSWORD nije podesen u /srv/learn365/.env}
+      TZ: Europe/Belgrade
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ['CMD-SHELL', 'pg_isready -U learn365 -d learn365']
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+
   web:
     image: ghcr.io/pavlekukric/learn365-web:${IMAGE_TAG:-latest}
     container_name: learn365-web
@@ -20,7 +44,15 @@ services:
     mem_limit: 512m
     environment:
       TZ: Europe/Belgrade
-    # healthcheck je u slici (apps/web/Dockerfile): GET / na 3000
+      # Faza 8 — sva četiri prazna = aplikacija bez naloga (kao pre). Migracije se puštaju pri startu servera.
+      DATABASE_URL: ${DATABASE_URL:-}
+      APP_URL: ${APP_URL:-}
+      GOOGLE_CLIENT_ID: ${GOOGLE_CLIENT_ID:-}
+      GOOGLE_CLIENT_SECRET: ${GOOGLE_CLIENT_SECRET:-}
+    depends_on:
+      db:
+        condition: service_healthy
+    # healthcheck je u slici (apps/web/Dockerfile): GET / na 3000 — namerno ne zavisi od baze
 
   cloudflared:
     image: cloudflare/cloudflared:2026.9.1
@@ -33,3 +65,7 @@ services:
     depends_on:
       web:
         condition: service_healthy
+
+volumes:
+  pgdata:
+    name: learn365-pgdata

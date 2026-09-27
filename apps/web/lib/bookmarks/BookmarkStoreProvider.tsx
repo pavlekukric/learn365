@@ -29,10 +29,15 @@ export function BookmarkStoreProvider({ children }: { children: ReactNode }) {
   );
 }
 
-export function useBookmarkStore<T>(selector: (state: BookmarkStoreState) => T): T {
+/** The raw store, for code that subscribes outside React (cloud sync). */
+export function useBookmarkStoreApi(): BookmarkStore {
   const store = useContext(BookmarkStoreContext);
   if (store === null) {
-    throw new Error('useBookmarkStore must be used inside <BookmarkStoreProvider>.');
+    throw new Error('useBookmarkStoreApi must be used inside <BookmarkStoreProvider>.');
   }
-  return useStore(store, selector);
+  return store;
+}
+
+export function useBookmarkStore<T>(selector: (state: BookmarkStoreState) => T): T {
+  return useStore(useBookmarkStoreApi(), selector);
 }

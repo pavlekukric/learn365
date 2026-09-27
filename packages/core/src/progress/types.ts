@@ -21,6 +21,18 @@ export interface CourseProgress {
   readonly updatedAt: string;
 }
 
+/**
+ * The same record with arrays instead of a Set: JSON-friendly, so it is
+ * what crosses the wire to and from the cloud (Phase 8) and what
+ * `replaceCourseProgress` accepts. Mirrors `UserProgress` in the content
+ * model field for field.
+ */
+export interface CourseProgressSnapshot {
+  readonly completedLessonIds: readonly LessonId[];
+  readonly lastOpenedLessonId: LessonId | null;
+  readonly updatedAt: string;
+}
+
 /** Full in-memory state shape. */
 export interface ProgressState {
   readonly byCourse: Readonly<Record<CourseId, CourseProgress>>;
@@ -31,6 +43,8 @@ export interface ProgressActions {
   toggleComplete(courseId: CourseId, lessonId: LessonId): void;
   markOpened(courseId: CourseId, lessonId: LessonId): void;
   resetCourse(courseId: CourseId): void;
+  /** Apply a snapshot wholesale (cloud sync); `updatedAt` is taken from the snapshot. */
+  replaceCourseProgress(courseId: CourseId, snapshot: CourseProgressSnapshot): void;
 }
 
 export type ProgressStoreState = ProgressState & ProgressActions;

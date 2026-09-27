@@ -49,3 +49,6 @@ desktop.ini
 
 # Claude Code local config (per-machine permissions, not shared)
 .claude/
+
+# Local PGlite database folder (apps/web/.env.example)
+.data/

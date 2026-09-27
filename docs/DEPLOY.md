@@ -2,7 +2,7 @@
 
 Canonical deploy procedure for Learn365 web. **Target since 2026-09-26: the owner's Hetzner VPS**, shared with the Računi app, behind a Cloudflare Tunnel. Vercel (`learn365-web.vercel.app`) stays up only until the custom domain serves from the VPS, then it is deleted (§8).
 
-Backend/auth (accounts, cloud progress) is the next step after this migration — see [BACKEND_STRATEGY.md](BACKEND_STRATEGY.md).
+Phase 8 (accounts + cloud progress) lives in this same compose project: a `db` service and four runtime secrets in `.env` — §5, §10 and [PHASE_8_PLAN.md](PHASE_8_PLAN.md). Without those secrets the app runs exactly as before (no accounts), so every deploy is safe to roll out dark.
 
 ---
 
@@ -11,7 +11,7 @@ Backend/auth (accounts, cloud progress) is the next step after this migration �
 | | |
 |---|---|
 | Host | Hetzner Cloud `pavleserver` — CX23 (2 vCPU, 4 GB, 40 GB), Helsinki, Ubuntu 24.04. Already runs Računi (SQL Server Express capped at 1.5 GB + .NET app + cloudflared). |
-| Runtime | Docker Compose project `learn365` in `/srv/learn365`: `web` (Next.js standalone image from GHCR, `mem_limit` 512 MB) + `cloudflared` (tunnel `learn365`). |
+| Runtime | Docker Compose project `learn365` in `/srv/learn365`: `web` (Next.js standalone image from GHCR, `mem_limit` 512 MB) + `db` (Postgres 17 alpine, `mem_limit` 256 MB, named volume `learn365-pgdata`, no published port — Phase 8) + `cloudflared` (tunnel `learn365`). |
 | Ingress | Cloudflare Tunnel only. **No port is published**; ufw allows SSH only. Cloudflare terminates TLS, absorbs DDoS and caches `/_next/static`. The hostname carries **no Cloudflare Access policy** — the site is public. |
 | Image | Built by GitHub Actions ([.github/workflows/deploy.yml](../.github/workflows/deploy.yml)) from [apps/web/Dockerfile](../apps/web/Dockerfile), pushed to `ghcr.io/pavlekukric/learn365-web` as `sha-<12>` + `latest`. **Never built on the VPS** (2 vCPU, RAM shared with SQL Server). |
 | Rollout | The workflow ssh-es in as user `deploy` and runs `/srv/learn365/deploy.sh <tag>`: writes `IMAGE_TAG` to `.env`, `compose pull`, `compose up -d web`, waits for the image healthcheck, prunes older `learn365-web` tags only. |
@@ -32,12 +32,13 @@ Hard rule from the owner. Everything Learn365 owns is separate: `/srv/learn365`,
 | `apps/web/lib/seo/metadata.ts` | `SITE_URL` = `NEXT_PUBLIC_SITE_URL` at build time, Vercel origin as fallback. Feeds `metadataBase` / Open Graph. |
 | `apps/web/Dockerfile` | 3 stages: deps (manifests only, pnpm 9.15 via npm, store cache) → build (`@learn365/ui` emits `dist/globals.css`, then `next build`) → runtime (`node:22-bookworm-slim`, non-root `node`, `HEALTHCHECK` = `GET /`). Context is the **repo root**; `.dockerignore` trims it. |
 | `.github/workflows/deploy.yml` | PR touching deploy files → build only. Push to `main` / manual → build, push to GHCR, ssh rollout. Rollout is a no-op until `DEPLOY_HOST` / `DEPLOY_SSH_KEY` exist. |
-| `deploy/docker-compose.yml` | `web` + `cloudflared`. Copied to `/srv/learn365/docker-compose.yml`. |
+| `deploy/docker-compose.yml` | `db` + `web` + `cloudflared`. Copied to `/srv/learn365/docker-compose.yml`. Secrets reach containers only through explicit `environment:` mappings interpolated from `.env` (no `env_file`). |
 | `deploy/cloudflared/config.yml` | Tunnel ingress template (`<TUNNEL_ID>`, `<DOMEN>` placeholders). Copied to `/srv/learn365/cloudflared/config.yml`; the credentials JSON is never in the repo. |
 | `deploy/dc.sh` | `docker compose` wrapper pinned to `/srv/learn365` + its `.env`. |
 | `deploy/deploy.sh` | The rollout script the workflow calls (see §1). |
 | `deploy/vps-install.sh` | One-time root script: user `deploy` (docker group, key-only, no forwarding) + `/srv/learn365` folders. Does nothing else. |
-| `deploy/.env.example` | `IMAGE_TAG` only; no secrets in this phase. |
+| `deploy/.env.example` | `IMAGE_TAG` + the Phase 8 runtime values: `POSTGRES_PASSWORD`, `DATABASE_URL`, `APP_URL`, `GOOGLE_CLIENT_ID`, `GOOGLE_CLIENT_SECRET`. |
+| `deploy/backup.sh` | Nightly `pg_dump -Fc` of the `db` container into `/srv/learn365/backups/`, 14-day retention. One cron line for user `deploy` (§10). |
 | `.gitattributes` | `*.sh`, `Dockerfile`, `deploy/**` forced to LF so files scp-ed from Windows run on Linux. |
 | `.nvmrc` | Bumped 20 → 22 (Node 20 is end-of-life since 2026-04); CI and the image agree. |
 
@@ -111,8 +112,13 @@ After every server step: `ssh root@<IP> 'docker ps --filter name=racuni --format
 | `NEXT_PUBLIC_SITE_URL` | build arg from repo variable `SITE_URL` | Public origin for `metadataBase` / Open Graph. Empty → Vercel fallback. |
 | `IMAGE_TAG` | `/srv/learn365/.env`, written by `deploy.sh` | Which image tag compose runs. |
 | `DEPLOY_HOST_KEY` | repo variable | Pinned `<IP> ssh-ed25519 …` line for the runner's `known_hosts` (no keyscan). |
+| `POSTGRES_PASSWORD` | `/srv/learn365/.env` → `db` | Password of the `learn365` database role. Hex only (`openssl rand -hex 24`) so the URL below needs no encoding. |
+| `DATABASE_URL` | `/srv/learn365/.env` → `web` | `postgres://learn365:<POSTGRES_PASSWORD>@db:5432/learn365`. Empty = no database, no accounts. |
+| `APP_URL` | `/srv/learn365/.env` → `web` | Public origin (`https://istorija365.com`); the Google redirect URI is `<APP_URL>/api/auth/google/callback` and mutating API calls must carry this `Origin`. |
+| `GOOGLE_CLIENT_ID` / `GOOGLE_CLIENT_SECRET` | `/srv/learn365/.env` → `web` | OAuth client (Web application) from the app's own Google Cloud project. |
+| `MIGRATIONS_DIR` | set in the Dockerfile | Where `instrumentation.ts` reads the drizzle-kit SQL migrations at server start. |
 
-Runtime secrets: none in this phase. The auth phase adds its own `.env` entries (Google client, database URL) to `/srv/learn365/.env` only.
+Runtime secrets exist only in `/srv/learn365/.env` (owner `deploy`, mode 600) — never in the image, the repo or GitHub. Accounts are on only when `DATABASE_URL`, `APP_URL` and both Google values are set; with any of them empty the app is the pre-Phase-8 app.
 
 ## 6. Rollback
 
@@ -136,7 +142,7 @@ Once `https://<DOMEN>/` serves from the VPS for a day without incident:
 2. Remove the `learn365-web.vercel.app` fallback from `apps/web/lib/seo/metadata.ts` (make `NEXT_PUBLIC_SITE_URL` required at build).
 3. Update `HANDOFF.md` / `PROJECT_STATE.md` live-URL lines.
 
-## 9. Status
+## 9. Status — deploy pipeline
 
 | Step | Status |
 |---|---|
@@ -149,3 +155,33 @@ Once `https://<DOMEN>/` serves from the VPS for a day without incident:
 | First rollout | done — 2026-09-27 manual `deploy.sh sha-11c51e776f3f` (first workflow rollout hit the ufw SSH limit, fixed by the pinned host key); `learn365-web` healthy, 64 MB RSS, `GET /` 200 from the compose network. Public URL check pending the domain. |
 | Public URL check | done — 2026-09-27: apex + `www` 200 over HTTPS, `og:url` = domain, `/_next/static` served with `cf-cache-status: HIT` |
 | Vercel deleted | pending — owner confirms after a day of clean serving (§8) |
+| Phase 8 code (db, auth, sync) | in PR (`feat/phase-8-accounts`, 2026-09-27) — dark until `.env` on the VPS carries the four values (§10) |
+
+## 10. Database and accounts (Phase 8)
+
+**Turning it on (once, ~10 min).** The image is already deployed dark; nothing below changes code.
+
+1. Owner: Google Cloud project + OAuth client + consent screen, and the Cloudflare `www` → apex redirect — steps in [PHASE_8_PLAN.md](PHASE_8_PLAN.md) §3.
+2. Fill `/srv/learn365/.env` from `deploy/.env.example` (`POSTGRES_PASSWORD` via `openssl rand -hex 24`, the same value inside `DATABASE_URL`).
+3. `scp deploy/docker-compose.yml deploy/backup.sh deploy@<IP>:/srv/learn365/ && ssh deploy@<IP> 'chmod +x /srv/learn365/backup.sh'` — the new compose needs `POSTGRES_PASSWORD`, so this comes **after** step 2.
+4. `ssh deploy@<IP> '/srv/learn365/dc.sh up -d db && /srv/learn365/dc.sh up -d web'` — `web` restarts with the env; `instrumentation.ts` applies migrations before the first request.
+5. `curl -s https://<DOMEN>/api/health` → `{"ok":true,"auth":true,"db":"ok"}`. `db: "off"` means `DATABASE_URL` is empty; `db: "error"` (503) means the database is unreachable — reading still works, only accounts are off.
+6. `ssh deploy@<IP> 'crontab -l 2>/dev/null; (crontab -l 2>/dev/null; echo "15 3 * * * /srv/learn365/backup.sh >> /srv/learn365/backups/backup.log 2>&1") | crontab -'` — one line, user `deploy`, nothing of Računi's.
+7. The usual check: three `racuni-*` containers unchanged, `https://kucniracuni.com/api/health` still `302`.
+
+**Migrations.** Generated on the laptop (`pnpm --filter @learn365/web db:generate`) into `apps/web/lib/server/db/migrations/` and committed; applied at server start. Additive only: an older image keeps running against a newer schema, so §6 rollback stays a plain re-tag. A failing migration keeps `web` unhealthy and `deploy.sh` exits 1 with the logs.
+
+**Backups.** `backup.sh` writes `learn365-YYYY-MM-DD.dump` (custom format) nightly and keeps 14. They live on the same box — protection against a bad deploy or a bad migration, not against losing the VPS; an off-box copy is a follow-up with an owner decision on destination.
+
+**Restore (rehearse once).**
+
+```
+ssh deploy@<IP>
+/srv/learn365/dc.sh stop web
+docker exec -i learn365-db psql -U learn365 -d postgres -c 'DROP DATABASE learn365;' -c 'CREATE DATABASE learn365 OWNER learn365;'
+docker exec -i learn365-db pg_restore -U learn365 -d learn365 --no-owner < /srv/learn365/backups/learn365-<date>.dump
+/srv/learn365/dc.sh up -d web
+curl -s https://<DOMEN>/api/health
+```
+
+**Memory.** `db` is capped at 256 MB (`shared_buffers` 32 MB, `max_connections` 20; the app pool is 5). Check `free -h` after the first day; Računi's SQL Server cap (1.5 GB) is untouched.

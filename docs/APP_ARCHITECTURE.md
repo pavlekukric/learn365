@@ -17,9 +17,8 @@ The first product experience shipped inside this repository is **History 365 / I
 ```
 learn365/
 ├─ apps/
-│  ├─ web/                        # Next.js 15 — phase 1
-│  ├─ mobile/                     # Expo — created in mobile phase
-│  └─ api/                        # .NET 9 Web API — created in backend phase, not before
+│  ├─ web/                        # Next.js 15 — phase 1; Phase 8 adds lib/server + app/api (auth, progress sync)
+│  └─ mobile/                     # Expo — created in mobile phase
 ├─ packages/
 │  ├─ ui/                         # Design tokens + themes + cross-platform contracts
 │  ├─ ui-web/                     # React + CSS Modules components for web
@@ -37,7 +36,7 @@ learn365/
 └─ package.json
 ```
 
-`apps/mobile` and `packages/ui-mobile` do not exist in phase 1. They appear only when mobile work begins (after web v1 is visually approved). `apps/api` does not exist in phase 1 either — see `docs/BACKEND_STRATEGY.md`.
+`apps/mobile` and `packages/ui-mobile` do not exist in phase 1. They appear only when mobile work begins (after web v1 is visually approved). There is no `apps/api`: the backend (Phase 8) is route handlers inside `apps/web` — see `docs/BACKEND_STRATEGY.md`.
 
 ---
 
@@ -72,10 +71,10 @@ learn365/
 ### `apps/mobile` *(future)*
 Same role for Expo. Imports `ui-mobile`, `core`, `content`, `ui`.
 
-### `apps/api` *(future — backend phase)*
-**Owns**: the .NET 9 Web API for auth and cloud progress sync. Authenticates users, persists `UserProgress` per `(userId, courseId)`, exposes `/api/auth/*` and `/api/me/progress/*` endpoints.
-**Imports**: nothing from the TypeScript packages at runtime. At build time, a code-generation step reads type shapes from `@learn365/content` to keep C# DTOs aligned with the wire format.
-**Does not own**: course / era / section / lesson data — those stay in `@learn365/content` for v2.0. If content ever moves server-side, the schema mirrors `docs/CONTENT_MODEL.md`. See `docs/BACKEND_STRATEGY.md`.
+### `apps/web/lib/server` + `apps/web/app/api` *(Phase 8 — backend inside the web app)*
+**Owns**: Google sign-in, sessions, and cloud progress / bookmarks per `(userId, courseId)`, exposed as route handlers (`/api/auth/*`, `/api/me`, `/api/me/progress*`, `/api/me/bookmarks*`, `/api/health`). Postgres via Drizzle; PGlite locally.
+**Imports**: `@learn365/content` (lesson-id validation) only. Every module carries `import 'server-only'` so it can never reach a client bundle.
+**Does not own**: course / era / section / lesson data — those stay in `@learn365/content`. See `docs/BACKEND_STRATEGY.md`.
 
 ---
 
@@ -86,7 +85,7 @@ Allowed import directions (→ means "may import from"):
 ```
 apps/web      →  ui-web, core, content, ui
 apps/mobile   →  ui-mobile, core, content, ui
-apps/api      →  (no TS package imports at runtime; build-time DTO generation from content types only)
+apps/web/lib/server →  content (id validation) only — never ui-web, never the core stores
 ui-web        →  ui  (+ types from content)
 ui-mobile     →  ui  (+ types from content)
 core          →  (types from content only)
@@ -100,9 +99,9 @@ Disallowed (must trigger a lint or review):
 - `core` importing React
 - `content` importing anything outside its own package
 - Any app importing `design/cloud-design-v1/*`
-- `apps/api` (.NET) reaching into TS packages at runtime — DTOs are generated at build time from `@learn365/content` type shapes; the API does not consume the package itself
+- `apps/web/lib/server/**` imported from a client component — the `server-only` package fails the build
 
-These rules keep content portable across platforms, keep the progress logic testable in isolation, keep components stateless with respect to user data, and keep the .NET API's wire format aligned with TS without runtime coupling.
+These rules keep content portable across platforms, keep the progress logic testable in isolation, keep components stateless with respect to user data, and keep server code out of the browser bundle.
 
 ---
 
@@ -171,7 +170,7 @@ interface ProgressStorage {
 
 - `apps/web` provides a `localStorage`-backed adapter under key `learn365:progress:v1`.
 - `apps/mobile` (later) provides an `AsyncStorage`-backed adapter.
-- A future `RemoteProgressStorage` will satisfy the same `ProgressStorage` interface and talk to `apps/api`. The store, selectors, and components don't change — only the adapter swaps when a user signs in. See `docs/BACKEND_STRATEGY.md`.
+- Phase 8 keeps the `localStorage` adapter and adds a sync layer beside the store (`ProgressSync`: server snapshot → `replaceCourseProgress`, local diffs → `PATCH /api/me/progress`). The store, selectors and components don't change. See `docs/BACKEND_STRATEGY.md`.
 
 `Set<LessonId>` serializes to `string[]` on write and rehydrates to a `Set` on read.
 
@@ -362,7 +361,7 @@ install → lint → typecheck → test → build → validate-content → e2e (
 
 ## 14. What stays out
 
-- Backend planned for v2, **not built in v1** — see `docs/BACKEND_STRATEGY.md`. v1 ships with local progress only.
+- Backend: Phase 8 (Google sign-in + cloud progress) as route handlers inside `apps/web` — see `docs/BACKEND_STRATEGY.md` and `docs/PHASE_8_PLAN.md`. v1 shipped with local progress only.
 - No CMS or admin UI in v1.
 - No analytics SDK in v1 (decision deferred).
 - No internationalization framework yet — copy is Serbian only.

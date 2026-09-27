@@ -42,12 +42,16 @@ ENV NEXT_TELEMETRY_DISABLED=1
 ENV HOSTNAME=0.0.0.0
 ENV PORT=3000
 ENV TZ=Europe/Belgrade
+# Drizzle SQL migrations are read from disk at server start (instrumentation.ts),
+# so they are copied next to the standalone tree and addressed explicitly.
+ENV MIGRATIONS_DIR=/app/apps/web/lib/server/db/migrations
 WORKDIR /app
 # Standalone tree mirrors the monorepo (outputFileTracingRoot = repo root),
 # so the server entry is apps/web/server.js and static/public sit beside it.
 COPY --from=build --chown=node:node /repo/apps/web/.next/standalone ./
 COPY --from=build --chown=node:node /repo/apps/web/.next/static ./apps/web/.next/static
 COPY --from=build --chown=node:node /repo/apps/web/public ./apps/web/public
+COPY --from=build --chown=node:node /repo/apps/web/lib/server/db/migrations ./apps/web/lib/server/db/migrations
 USER node
 EXPOSE 3000
 HEALTHCHECK --interval=30s --timeout=5s --start-period=20s --retries=3 \

@@ -1,0 +1,212 @@
+/*
+ * Shared surface for the two account pages (/prijava, /nalog): one paper
+ * card at reading width, left-aligned, in the register of the 404 page.
+ * Short content + one primary action — an essay layout would be too much.
+ */
+.wrap {
+  padding: var(--space-13) 0 var(--space-15);
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  width: 100%;
+  max-width: 560px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--space-5);
+  padding: var(--space-10) var(--space-9);
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  border-radius: var(--r-lg);
+}
+
+.title {
+  margin: 0;
+  overflow-wrap: anywhere;
+}
+
+.body {
+  margin: 0;
+  max-width: 46ch;
+  color: var(--ink-2);
+}
+
+.email {
+  margin: calc(-1 * var(--space-3)) 0 0;
+  color: var(--muted);
+  overflow-wrap: anywhere;
+}
+
+.note {
+  margin: 0;
+  color: var(--muted);
+}
+
+.error {
+  margin: 0;
+  color: var(--accent-ink);
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--space-4);
+}
+
+.actionsColumn {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  width: 100%;
+  margin-top: var(--space-2);
+}
+
+/* Primary pill — the same vocabulary as the Home hero CTA and the 404 page. */
+.primary {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: 12px 22px;
+  border: 0;
+  border-radius: var(--r-pill);
+  background: var(--ink);
+  color: var(--bg);
+  font-family: var(--sans);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  text-decoration: none;
+  cursor: pointer;
+  transition:
+    transform var(--dur-base) var(--ease),
+    background var(--dur-base) var(--ease),
+    opacity var(--dur-base) var(--ease);
+}
+
+.primary:hover:not(:disabled) {
+  transform: translateY(-1px);
+}
+
+.primary:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+.primary:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+/* Outlined pill for the one destructive confirmation. */
+.danger {
+  display: inline-flex;
+  align-items: center;
+  padding: 11px 21px;
+  border: 1px solid var(--ink);
+  border-radius: var(--r-pill);
+  background: transparent;
+  color: var(--ink);
+  font-family: var(--sans);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  cursor: pointer;
+  transition:
+    background var(--dur-base) var(--ease),
+    color var(--dur-base) var(--ease),
+    opacity var(--dur-base) var(--ease);
+}
+
+.danger:hover:not(:disabled) {
+  background: var(--ink);
+  color: var(--bg);
+}
+
+.danger:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+.danger:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+/* Quiet text action / link. */
+.secondary,
+.quiet {
+  font-family: var(--sans);
+  font-size: 14px;
+  color: var(--ink-2);
+  text-decoration: none;
+  background: none;
+  border: 0;
+  padding: 8px 0;
+  cursor: pointer;
+  transition: color var(--dur-base) var(--ease);
+}
+
+.secondary:hover,
+.quiet:hover:not(:disabled) {
+  color: var(--ink);
+}
+
+.secondary:focus-visible,
+.quiet:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+  border-radius: var(--r-sm);
+}
+
+.quiet:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+/* Two-step delete confirmation — an inset panel, not a modal. */
+.confirm {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  width: 100%;
+  padding: var(--space-5);
+  border: 1px solid var(--rule);
+  border-radius: var(--r-md);
+  background: var(--bg);
+}
+
+.confirmText {
+  margin: 0;
+  font-family: var(--serif);
+  font-size: 17px;
+  line-height: 1.4;
+  color: var(--ink);
+}
+
+.privacy {
+  margin: 0;
+  color: var(--muted);
+}
+
+.privacy a {
+  color: var(--ink-2);
+  border-bottom: 1px solid var(--rule-2);
+  transition: color var(--dur-base) var(--ease);
+}
+
+.privacy a:hover {
+  color: var(--ink);
+}
+
+@media (max-width: 720px) {
+  .wrap {
+    padding: var(--space-10) 0 var(--space-12);
+  }
+  .card {
+    padding: var(--space-8) var(--space-6);
+    gap: var(--space-4);
+  }
+}

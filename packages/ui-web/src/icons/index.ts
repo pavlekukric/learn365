@@ -5,3 +5,4 @@ export { IconArrowLeft } from './IconArrowLeft.js';
 export { IconBookmark } from './IconBookmark.js';
 export { IconMenu } from './IconMenu.js';
 export { IconClose } from './IconClose.js';
+export { IconUser } from './IconUser.js';

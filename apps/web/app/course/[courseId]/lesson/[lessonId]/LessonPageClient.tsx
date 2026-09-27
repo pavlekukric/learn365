@@ -16,6 +16,7 @@ import {
 import { isBookmarked, isCompleted } from '@learn365/core';
 import { CourseSidebar, type EraStat, LessonReader, MobileLessonDrawer } from '@learn365/ui-web';
 
+import { useSignInPrompt } from '@/lib/auth/useSignInPrompt';
 import { useBookmarkStore } from '@/lib/bookmarks/BookmarkStoreProvider';
 import { useProgressStore } from '@/lib/progress/ProgressStoreProvider';
 
@@ -58,6 +59,7 @@ export function LessonPageClient({
   );
   const bookmarked = useBookmarkStore((state) => isBookmarked(state, courseId, lesson.id));
   const toggleBookmark = useBookmarkStore((state) => state.toggleBookmark);
+  const signInPrompt = useSignInPrompt(courseId, lesson.id);
 
   const eras = useMemo(() => getEras(courseId), [courseId]);
   const sections = useMemo(() => getSections(courseId), [courseId]);
@@ -241,6 +243,11 @@ export function LessonPageClient({
               toggleBookmark(courseId, lesson.id);
             },
           }}
+          signInPrompt={
+            signInPrompt.show
+              ? { href: signInPrompt.href, onDismiss: signInPrompt.dismiss }
+              : undefined
+          }
         />
       </div>
 

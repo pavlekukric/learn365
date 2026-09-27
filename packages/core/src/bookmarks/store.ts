@@ -10,6 +10,7 @@ import {
   type BookmarkStorage,
   type BookmarkStoreState,
   type CourseBookmarks,
+  type CourseBookmarksSnapshot,
 } from './types.js';
 
 export interface CreateBookmarkStoreOptions {
@@ -73,6 +74,18 @@ export function createBookmarkStore(
           const { [courseId]: _dropped, ...rest } = get().byCourse;
           void _dropped;
           set({ byCourse: rest });
+        },
+
+        replaceCourseBookmarks(courseId: CourseId, snapshot: CourseBookmarksSnapshot) {
+          set({
+            byCourse: {
+              ...get().byCourse,
+              [courseId]: {
+                lessonIds: new Set(snapshot.lessonIds),
+                updatedAt: snapshot.updatedAt,
+              },
+            },
+          });
         },
       }),
       {

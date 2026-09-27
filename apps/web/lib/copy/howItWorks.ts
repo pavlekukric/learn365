@@ -23,7 +23,7 @@ export const HOW_IT_WORKS_STEPS: readonly HowItWorksStep[] = [
   },
   {
     title: 'Označi je kao pročitanu',
-    text: 'Jedan klik na kraju teksta. Napredak se pamti u ovom pregledaču, bez naloga.',
+    text: 'Jedan klik na kraju teksta. Napredak se pamti u ovom pregledaču; prijavom Google nalogom prenosi se i na druge uređaje.',
   },
   {
     title: 'Sutra nastavi gde si stao',
