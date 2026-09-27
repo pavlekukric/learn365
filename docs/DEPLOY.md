@@ -155,6 +155,7 @@ Once `https://<DOMEN>/` serves from the VPS for a day without incident:
 | First rollout | done — 2026-09-27 manual `deploy.sh sha-11c51e776f3f` (first workflow rollout hit the ufw SSH limit, fixed by the pinned host key); `learn365-web` healthy, 64 MB RSS, `GET /` 200 from the compose network. Public URL check pending the domain. |
 | Public URL check | done — 2026-09-27: apex + `www` 200 over HTTPS, `og:url` = domain, `/_next/static` served with `cf-cache-status: HIT` |
 | Vercel deleted | pending — owner confirms after a day of clean serving (§8) |
+| Phase 8 code (db, auth, sync) | in PR (`feat/phase-8-accounts`, 2026-09-27) — dark until `.env` on the VPS carries the four values (§10) |
 
 ## 10. Database and accounts (Phase 8)
 

@@ -1,6 +1,6 @@
 # Phase 8 — Nalog i napredak u oblaku: Google prijava + čuvanje napretka (PLAN)
 
-**Status:** Draft, awaiting owner sign-off on the locked decisions (§1) before any production code.
+**Status:** Signed off 2026-09-27 ("idemo") and built the same day on `feat/phase-8-accounts`. **Implementation notes:** `arctic` (D2) turned out to be deprecated on npm, so the authorization-code + PKCE flow is written directly against Google's endpoints (`apps/web/lib/server/auth/google.ts`, ~150 lines, tested against the RFC 7636 vector); the TopBar takes a structured `account` prop instead of a ReactNode slot; the sync layer is one generic engine (`apps/web/lib/sync/syncEngine.ts`) with a progress and a bookmark adapter, and the cloud marker is per store. Everything else shipped as written below. The file moves to `docs/archive/phases/` once the PR merges.
 **Date:** 2026-09-27
 **Predecessors:** self-hosting on the Hetzner VPS (PRs #31, #32; `docs/DEPLOY.md`), the 2026-09-25 product review groups 1–4 (PR #29), Phase 7.11 bookmarks (the second local store with the same swap seam).
 **Owner direction already given (2026-09-26/27, recorded in `HANDOFF.md`):** accounts via Google sign-in, cloud progress, Next.js route handlers + Postgres on the same VPS, the sign-in asked for when a reader marks a **second** lesson done, reading stays public.
