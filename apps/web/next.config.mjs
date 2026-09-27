@@ -21,6 +21,13 @@ const nextConfig = {
       }
     : {}),
   transpilePackages: ['@learn365/ui', '@learn365/ui-web', '@learn365/core', '@learn365/content'],
+  // PGlite (Postgres in WASM) is the laptop / test database only. It must stay
+  // a plain `require` at runtime (WASM + worker files) and must never be
+  // traced into the production image, where DATABASE_URL is postgres://.
+  serverExternalPackages: ['@electric-sql/pglite'],
+  outputFileTracingExcludes: {
+    '*': ['**/node_modules/@electric-sql/pglite/**', '**/node_modules/.pnpm/@electric-sql+pglite*/**'],
+  },
   typedRoutes: true,
   webpack(config) {
     // Workspace packages author imports with explicit ".js" extensions
