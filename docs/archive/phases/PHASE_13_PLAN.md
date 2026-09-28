@@ -1,6 +1,6 @@
 # Phase 13 — Era rail: stop truncating (PLAN)
 
-**Status:** Owner-authorized (standing authorization of 2026-09-28 to plan, build and merge the engineering backlog on green CI); built on `feat/phase-13-era-rail`.
+**Status:** Done — built under the standing authorization of 2026-09-28, merged (PR #48, squash `85ebe41`) and live through the CI gate the same evening. D5 (compact rail in the sidebar / drawer) left as an owner decision. Archived; outcome in `docs/PROJECT_STATE.md` → "Phase 13".
 **Date:** 2026-09-28
 **Predecessors:** Phase 12 code live (PR #46, `3a315c8`); Phase 11 live (PR #44, `fc72b29`).
 **Parent references:**
