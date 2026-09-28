@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { redirect } from 'next/navigation';
 
-import { Eyebrow } from '@learn365/ui-web';
+import { Button, Eyebrow } from '@learn365/ui-web';
 
 import { getCurrentSession } from '@/lib/server/auth/currentUser';
 import { sanitizeReturnTo } from '@/lib/server/auth/returnTo';
@@ -73,12 +73,9 @@ export default async function PrijavaPage({ searchParams }: PageProps) {
               </p>
             ) : null}
             <div className={styles.actions}>
-              <a
-                href={`/api/auth/google?return_to=${encodeURIComponent(returnTo)}`}
-                className={styles.primary}
-              >
+              <Button href={`/api/auth/google?return_to=${encodeURIComponent(returnTo)}`} plainAnchor>
                 Nastavi sa Google-om
-              </a>
+              </Button>
             </div>
             <p className={`tiny ${styles.privacy}`}>
               Od Google-a dobijamo ime, e-adresu i sliku, ništa više.{' '}

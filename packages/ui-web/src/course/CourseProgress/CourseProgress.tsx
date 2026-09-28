@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { formatDayEyebrow } from '@learn365/core';
 
 import { IconArrow } from '../../icons/IconArrow.js';
+import { Button } from '../../primitives/Button/Button.js';
 import { CompletionDot } from '../../primitives/CompletionDot/CompletionDot.js';
 import { ProgressRing } from '../../primitives/ProgressRing/ProgressRing.js';
 import { clamp01 } from '../../_internal/progressMath.js';
@@ -61,10 +62,14 @@ export function CourseProgress({
           <span className={styles.idleTitle}>{lesson.title}</span>
           {meta ? <span className={`tiny mono ${styles.rowMeta}`}>{meta}</span> : null}
         </div>
-        <Link href={href ?? '#'} className={styles.startCta} aria-disabled={href === null}>
+        <Button
+          href={href ?? '#'}
+          aria-disabled={href === null}
+          iconRight={<IconArrow />}
+          className={styles.startCta}
+        >
           Počni od Dana {lesson.day}
-          <IconArrow className={styles.ctaArrow} />
-        </Link>
+        </Button>
       </article>
     );
   }

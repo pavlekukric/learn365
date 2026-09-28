@@ -39,54 +39,6 @@
   margin-top: var(--space-3);
 }
 
-.primary {
-  display: inline-flex;
-  align-items: center;
-  gap: var(--space-2);
-  padding: 11px 20px;
-  border-radius: var(--r-pill);
-  background: var(--ink);
-  color: var(--bg);
-  font-family: var(--sans);
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.2;
-  text-decoration: none;
-  transition:
-    transform var(--dur-base) var(--ease),
-    background var(--dur-base) var(--ease);
-}
-
-.primary:hover {
-  transform: translateY(-1px);
-}
-
-.primary:focus-visible {
-  outline: 2px solid var(--accent);
-  outline-offset: 3px;
-}
-
-.dismiss {
-  font-family: var(--sans);
-  font-size: 14px;
-  color: var(--ink-2);
-  background: none;
-  border: 0;
-  padding: 8px 0;
-  cursor: pointer;
-  transition: color var(--dur-base) var(--ease);
-}
-
-.dismiss:hover {
-  color: var(--ink);
-}
-
-.dismiss:focus-visible {
-  outline: 2px solid var(--accent);
-  outline-offset: 3px;
-  border-radius: var(--r-sm);
-}
-
 @media (max-width: 860px) {
   .card {
     padding: var(--space-5) var(--space-6);

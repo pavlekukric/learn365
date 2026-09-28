@@ -1,5 +1,7 @@
 import Link from 'next/link';
 
+import { Button } from '@learn365/ui-web';
+
 import styles from './not-found.module.css';
 
 const DEFAULT_COURSE_ID = 'istorija-srbije-365';
@@ -15,9 +17,7 @@ export default function NotFound() {
           nastavi dalje.
         </p>
         <div className={styles.actions}>
-          <Link href="/" className={styles.primary}>
-            Početna
-          </Link>
+          <Button href="/">Početna</Button>
           <Link href={`/course/${DEFAULT_COURSE_ID}`} className={styles.secondary}>
             Otvori kurs
           </Link>

@@ -1,3 +1,5 @@
+import { Button } from '../../primitives/Button/Button.js';
+
 import styles from './SignInPrompt.module.css';
 
 export interface SignInPromptProps {
@@ -24,12 +26,12 @@ export function SignInPrompt({ href, onDismiss }: SignInPromptProps) {
         Prijava Google nalogom. Pročitane lekcije prenose se na nalog.
       </p>
       <div className={styles.actions}>
-        <a href={href} className={styles.primary}>
+        <Button href={href} plainAnchor>
           Nastavi sa Google-om
-        </a>
-        <button type="button" className={styles.dismiss} onClick={onDismiss}>
+        </Button>
+        <Button variant="quiet" onClick={onDismiss}>
           Ne sada
-        </button>
+        </Button>
       </div>
     </aside>
   );

@@ -31,50 +31,9 @@
   color: var(--ink);
 }
 
-/* Same pill vocabulary as the Home hero CTA so the button you press to
- * start looks identical on both surfaces. */
+/* The pill itself is the `Button` primitive (Phase 14); this only places it. */
 .startCta {
-  display: inline-flex;
-  align-items: center;
-  gap: var(--space-2);
-  padding: 12px 22px;
-  border-radius: var(--r-pill);
-  background: var(--ink);
-  color: var(--bg);
-  font-family: var(--sans);
-  font-weight: 500;
-  font-size: 14px;
-  text-decoration: none;
-  white-space: nowrap;
   justify-self: end;
-  transition:
-    transform var(--dur-base) var(--ease),
-    background var(--dur-base) var(--ease);
-}
-
-.startCta:hover {
-  transform: translateY(-1px);
-  background: var(--ink-2);
-}
-
-.startCta:focus-visible {
-  outline: 2px solid var(--accent);
-  outline-offset: 3px;
-}
-
-.startCta[aria-disabled='true'] {
-  opacity: 0.5;
-  pointer-events: none;
-}
-
-.ctaArrow {
-  width: 16px;
-  height: 16px;
-  transition: transform var(--dur-base) var(--ease);
-}
-
-.startCta:hover .ctaArrow {
-  transform: translateX(2px);
 }
 
 /* ---------- In-progress state ---------- */

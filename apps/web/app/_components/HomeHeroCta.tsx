@@ -1,8 +1,7 @@
 'use client';
 
-import Link from 'next/link';
-
 import type { CourseId } from '@learn365/content';
+import { Button } from '@learn365/ui-web';
 
 import { useResumeLesson } from '@/lib/progress/useResumeLesson';
 
@@ -33,9 +32,7 @@ export function HomeHeroCta({ courseId }: HomeHeroCtaProps) {
 
   return (
     <div className={styles.ctaRow}>
-      <Link href={href} className={styles.ctaPrimary}>
-        {label} →
-      </Link>
+      <Button href={href}>{label} →</Button>
     </div>
   );
 }

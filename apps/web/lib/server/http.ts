@@ -58,3 +58,23 @@ export async function readJsonBody(request: Request, maxBytes = 64 * 1024): Prom
   if (text.trim().length === 0) return undefined;
   return JSON.parse(text) as unknown;
 }
+
+/**
+ * The JSON object a mutating `/api/me/**` route expects, or the 4xx answer
+ * for a body that is too large (413), malformed (400 `json`) or not an
+ * object (400 `body`). One copy instead of four (Phase 14).
+ */
+export async function readJsonRecord(
+  request: Request,
+): Promise<Record<string, unknown> | NextResponse> {
+  let value: unknown;
+  try {
+    value = await readJsonBody(request);
+  } catch (error) {
+    if (error instanceof PayloadTooLargeError) return jsonNoStore({ error: 'too_large' }, 413);
+    return apiBadRequest('json');
+  }
+  return value !== null && typeof value === 'object' && !Array.isArray(value)
+    ? (value as Record<string, unknown>)
+    : apiBadRequest('body');
+}
