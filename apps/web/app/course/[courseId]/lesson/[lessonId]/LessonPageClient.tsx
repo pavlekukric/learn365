@@ -1,6 +1,6 @@
 'use client';
 
-import { useCallback, useEffect, useMemo, useState } from 'react';
+import { useCallback, useEffect, useMemo, useState, type ReactNode } from 'react';
 
 import {
   getEras,
@@ -36,6 +36,8 @@ interface LessonPageClientProps {
   courseId: CourseId;
   courseTitle: string;
   lesson: Lesson;
+  /** Server-rendered lesson text (body + sources + trust line); see `LessonReader`. */
+  article: ReactNode;
   era: Era;
   section: Section;
   prev: AdjacentLesson | null;
@@ -46,6 +48,7 @@ export function LessonPageClient({
   courseId,
   courseTitle,
   lesson,
+  article,
   era,
   section,
   prev,
@@ -197,6 +200,7 @@ export function LessonPageClient({
 
         <LessonReader
           lesson={lesson}
+          article={article}
           era={era}
           section={section}
           eras={eras}

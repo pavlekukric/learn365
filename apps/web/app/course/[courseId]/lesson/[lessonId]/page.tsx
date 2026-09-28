@@ -10,6 +10,7 @@ import {
   getSectionForLesson,
   type Lesson,
 } from '@learn365/content';
+import { LessonBody, LessonSources, LessonTrustLine } from '@learn365/ui-web';
 
 import { shareMetadata } from '@/lib/seo/metadata';
 
@@ -80,11 +81,25 @@ export default async function LessonPage({ params }: PageProps) {
 
   if (!era || !section) notFound();
 
+  // The lesson text is rendered here, on the server, and handed to the client
+  // reader as a finished node: the body has no interactivity, and keeping it
+  // out of the client component keeps the corpus out of the JS bundle.
+  const article = (
+    <>
+      <LessonBody blocks={lesson.content} />
+      {lesson.sources !== undefined && lesson.sources.length > 0 ? (
+        <LessonSources sources={lesson.sources} />
+      ) : null}
+      <LessonTrustLine byline={lesson.byline} lastReviewedAt={lesson.lastReviewedAt} />
+    </>
+  );
+
   return (
     <LessonPageClient
       courseId={course.id}
       courseTitle={course.title}
       lesson={lesson}
+      article={article}
       era={era}
       section={section}
       prev={adjacent(courseId, prev)}
