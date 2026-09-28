@@ -35,6 +35,7 @@ export {
   getLessonsBySection,
   getNextLesson,
   getPrevLesson,
+  getReadingTimeRange,
   getSectionById,
   getSectionForLesson,
   getSections,

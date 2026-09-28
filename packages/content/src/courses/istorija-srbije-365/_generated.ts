@@ -12,7 +12,7 @@ export const course: Course = {
   "totalLessons": 365,
   "language": "sr",
   "defaultScript": "latin",
-  "estimatedMinutesPerLesson": 8
+  "estimatedMinutesPerLesson": 6
 };
 
 export const eras: readonly Era[] = [
@@ -496,7 +496,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 1,
     "order": 1,
     "title": "Lepenski Vir — naselje na Dunavu",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": -9500,
     "isPlaceholder": false
   },
@@ -508,7 +508,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 2,
     "order": 2,
     "title": "Život u Lepenskom Viru",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 5,
     "year": -7000,
     "isPlaceholder": false
   },
@@ -520,7 +520,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 3,
     "order": 3,
     "title": "Kameni ljudi-ribe Lepenskog Vira",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 5,
     "year": -7500,
     "isPlaceholder": false
   },
@@ -532,7 +532,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 4,
     "order": 4,
     "title": "Starčevačka kultura",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 5,
     "year": -6000,
     "isPlaceholder": false
   },
@@ -544,7 +544,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 5,
     "order": 5,
     "title": "Vinčanska kultura — počeci",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 5,
     "year": -5400,
     "isPlaceholder": false
   },
@@ -556,7 +556,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 6,
     "order": 6,
     "title": "Vinča — naselja i svakodnevni život",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 5,
     "year": -5000,
     "isPlaceholder": false
   },
@@ -568,7 +568,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 7,
     "order": 7,
     "title": "Zagonetka vinčanskih znakova",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 5,
     "year": -5000,
     "isPlaceholder": false
   },
@@ -580,7 +580,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 8,
     "order": 1,
     "title": "Bakarno i bronzano doba",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 5,
     "year": -3500,
     "isPlaceholder": false
   },
@@ -592,7 +592,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 9,
     "order": 2,
     "title": "Velike zajednice bronzanog doba",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 5,
     "year": -1500,
     "isPlaceholder": false
   },
@@ -604,7 +604,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 10,
     "order": 3,
     "title": "Gvozdeno doba na Balkanu",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 5,
     "year": -800,
     "isPlaceholder": false
   },
@@ -616,7 +616,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 11,
     "order": 4,
     "title": "Utvrde i ostave gvozdenog doba",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": -700,
     "isPlaceholder": false
   },
@@ -628,7 +628,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 12,
     "order": 1,
     "title": "Iliri — ko su bili",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": -500,
     "isPlaceholder": false
   },
@@ -640,7 +640,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 13,
     "order": 2,
     "title": "Ilirsko društvo i verovanja",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": -400,
     "isPlaceholder": false
   },
@@ -652,7 +652,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 14,
     "order": 3,
     "title": "Tračani",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": -500,
     "isPlaceholder": false
   },
@@ -664,7 +664,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 15,
     "order": 4,
     "title": "Dolazak Kelta",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 5,
     "year": -350,
     "isPlaceholder": false
   },
@@ -676,7 +676,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 16,
     "order": 5,
     "title": "Skordisci i Singidunum",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 5,
     "year": -250,
     "isPlaceholder": false
   },
@@ -688,7 +688,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 17,
     "order": 6,
     "title": "Stari Grci i Balkan",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": -400,
     "isPlaceholder": false
   },
@@ -700,7 +700,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 18,
     "order": 1,
     "title": "Rim stiže na Balkan",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": -200,
     "isPlaceholder": false
   },
@@ -712,7 +712,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 19,
     "order": 2,
     "title": "Rimsko osvajanje Ilirika",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": -50,
     "isPlaceholder": false
   },
@@ -724,7 +724,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 20,
     "order": 3,
     "title": "Veliki ilirski ustanak",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 6,
     "isPlaceholder": false
   },
@@ -736,7 +736,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 21,
     "order": 4,
     "title": "Provincija Mezija",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 5,
     "year": 50,
     "isPlaceholder": false
   },
@@ -748,7 +748,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 22,
     "order": 5,
     "title": "Provincija Dalmacija",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 50,
     "isPlaceholder": false
   },
@@ -760,7 +760,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 23,
     "order": 6,
     "title": "Rimski gradovi na tlu Srbije",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": 150,
     "isPlaceholder": false
   },
@@ -772,7 +772,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 24,
     "order": 7,
     "title": "Dunav — granica carstva",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": 150,
     "isPlaceholder": false
   },
@@ -784,7 +784,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 25,
     "order": 8,
     "title": "Rudnici i privreda provincije",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 150,
     "isPlaceholder": false
   },
@@ -796,7 +796,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 26,
     "order": 9,
     "title": "Svakodnevni život u rimsko doba",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 150,
     "isPlaceholder": false
   },
@@ -808,7 +808,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 27,
     "order": 10,
     "title": "Sirmijum — carski grad",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": 290,
     "isPlaceholder": false
   },
@@ -820,7 +820,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 28,
     "order": 11,
     "title": "Carevi rođeni na tlu Srbije",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": 290,
     "isPlaceholder": false
   },
@@ -832,7 +832,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 29,
     "order": 1,
     "title": "Dioklecijan i tetrarhija",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 7,
     "year": 293,
     "isPlaceholder": false
   },
@@ -844,7 +844,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 30,
     "order": 2,
     "title": "Konstantin Veliki — uspon",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": 272,
     "isPlaceholder": false
   },
@@ -856,7 +856,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 31,
     "order": 3,
     "title": "Konstantin i hrišćanstvo",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": 313,
     "isPlaceholder": false
   },
@@ -868,7 +868,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 32,
     "order": 4,
     "title": "Hrišćanstvo na Balkanu",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 350,
     "isPlaceholder": false
   },
@@ -880,7 +880,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 33,
     "order": 5,
     "title": "Naissus i kasna antika",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 400,
     "isPlaceholder": false
   },
@@ -892,7 +892,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 34,
     "order": 6,
     "title": "Felix Romuliana i car Galerije",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 300,
     "isPlaceholder": false
   },
@@ -904,7 +904,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 35,
     "order": 7,
     "title": "Podela Rimskog carstva",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 395,
     "isPlaceholder": false
   },
@@ -916,7 +916,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 36,
     "order": 8,
     "title": "Vizantija — novo carstvo",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": 450,
     "isPlaceholder": false
   },
@@ -928,7 +928,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 37,
     "order": 1,
     "title": "Justinijan i Balkan",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": 527,
     "isPlaceholder": false
   },
@@ -940,7 +940,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 38,
     "order": 2,
     "title": "Velika seoba naroda",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": 450,
     "isPlaceholder": false
   },
@@ -952,7 +952,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 39,
     "order": 3,
     "title": "Huni, Goti i Avari",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 500,
     "isPlaceholder": false
   },
@@ -964,7 +964,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 40,
     "order": 4,
     "title": "Sloveni — poreklo i način života",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": 500,
     "isPlaceholder": false
   },
@@ -976,7 +976,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 41,
     "order": 5,
     "title": "Doseljavanje Slovena na Balkan",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 7,
     "year": 600,
     "isPlaceholder": false
   },
@@ -988,7 +988,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 42,
     "order": 6,
     "title": "Sloveni i Vizantija",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 5,
     "year": 750,
     "isPlaceholder": false
   },
@@ -1000,7 +1000,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 43,
     "order": 7,
     "title": "Sklavinije — prve slovenske političke zajednice",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 750,
     "isPlaceholder": false
   },
@@ -1012,7 +1012,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 44,
     "order": 8,
     "title": "Prve srpske zemlje i kneževine",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 7,
     "year": 850,
     "isPlaceholder": false
   },
@@ -1024,7 +1024,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 45,
     "order": 9,
     "title": "Pokrštavanje Srba i nasleđe antike",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": 870,
     "isPlaceholder": false
   },
@@ -1036,7 +1036,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 46,
     "order": 1,
     "title": "Srbija pre Nemanjića: Raška i Duklja",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": 1166,
     "isPlaceholder": false
   },
@@ -1048,7 +1048,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 47,
     "order": 2,
     "title": "Vladari pre Nemanjića",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1166,
     "isPlaceholder": false
   },
@@ -1060,7 +1060,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 48,
     "order": 1,
     "title": "Stefan Nemanja — poreklo i mladost",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1166,
     "isPlaceholder": false
   },
@@ -1072,7 +1072,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 49,
     "order": 2,
     "title": "Stefan Nemanja dolazi na vlast",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": 1166,
     "isPlaceholder": false
   },
@@ -1084,7 +1084,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 50,
     "order": 3,
     "title": "Nemanja širi državu",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 7,
     "year": 1170,
     "isPlaceholder": false
   },
@@ -1096,7 +1096,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 51,
     "order": 4,
     "title": "Nemanja i crkva",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1180,
     "isPlaceholder": false
   },
@@ -1108,7 +1108,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 52,
     "order": 5,
     "title": "Nemanja se odriče prestola",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 5,
     "year": 1196,
     "isPlaceholder": false
   },
@@ -1120,7 +1120,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 53,
     "order": 6,
     "title": "Sveti Simeon i Hilandar",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": 1198,
     "isPlaceholder": false
   },
@@ -1132,7 +1132,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 54,
     "order": 1,
     "title": "Sveti Sava — mladi Rastko",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": 1180,
     "isPlaceholder": false
   },
@@ -1144,7 +1144,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 55,
     "order": 2,
     "title": "Sava miri zavađenu braću",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1208,
     "isPlaceholder": false
   },
@@ -1156,7 +1156,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 56,
     "order": 3,
     "title": "Stefan Prvovenčani — prvi kralj",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": 1217,
     "isPlaceholder": false
   },
@@ -1168,7 +1168,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 57,
     "order": 4,
     "title": "Autokefalna srpska crkva",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 5,
     "year": 1219,
     "isPlaceholder": false
   },
@@ -1180,7 +1180,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 58,
     "order": 5,
     "title": "Sveti Sava — prvi arhiepiskop",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": 1219,
     "isPlaceholder": false
   },
@@ -1192,7 +1192,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 59,
     "order": 6,
     "title": "Žička povelja i ustrojstvo crkve",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 5,
     "year": 1220,
     "isPlaceholder": false
   },
@@ -1204,7 +1204,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 60,
     "order": 7,
     "title": "Sveti Sava — putovanja i smrt",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1236,
     "isPlaceholder": false
   },
@@ -1228,7 +1228,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 62,
     "order": 2,
     "title": "Kralj Uroš I",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1243,
     "isPlaceholder": false
   },
@@ -1240,7 +1240,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 63,
     "order": 3,
     "title": "Sasi i procvat rudarstva",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": 1250,
     "isPlaceholder": false
   },
@@ -1252,7 +1252,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 64,
     "order": 4,
     "title": "Kraljica Jelena Anžujska",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1276,
     "isPlaceholder": false
   },
@@ -1264,7 +1264,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 65,
     "order": 5,
     "title": "Kralj Dragutin",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1276,
     "isPlaceholder": false
   },
@@ -1276,7 +1276,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 66,
     "order": 6,
     "title": "Kralj Milutin — uspon",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 7,
     "year": 1282,
     "isPlaceholder": false
   },
@@ -1288,7 +1288,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 67,
     "order": 7,
     "title": "Milutin — ratovi i diplomatija",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": 1290,
     "isPlaceholder": false
   },
@@ -1300,7 +1300,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 68,
     "order": 8,
     "title": "Milutin — veliki zadužbinar",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1300,
     "isPlaceholder": false
   },
@@ -1312,7 +1312,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 69,
     "order": 9,
     "title": "Gračanica i srpsko slikarstvo",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": 1320,
     "isPlaceholder": false
   },
@@ -1324,7 +1324,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 70,
     "order": 10,
     "title": "Stefan Dečanski — sukob i vlast",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1322,
     "isPlaceholder": false
   },
@@ -1336,7 +1336,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 71,
     "order": 11,
     "title": "Bitka kod Velbužda",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1330,
     "isPlaceholder": false
   },
@@ -1348,7 +1348,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 72,
     "order": 12,
     "title": "Visoki Dečani",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": 1327,
     "isPlaceholder": false
   },
@@ -1360,7 +1360,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 73,
     "order": 1,
     "title": "Dušan dolazi na vlast",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1331,
     "isPlaceholder": false
   },
@@ -1372,7 +1372,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 74,
     "order": 2,
     "title": "Dušanova osvajanja na jugu",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": 1340,
     "isPlaceholder": false
   },
@@ -1384,7 +1384,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 75,
     "order": 3,
     "title": "Dušanovo carstvo",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": 1346,
     "isPlaceholder": false
   },
@@ -1396,7 +1396,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 76,
     "order": 4,
     "title": "Srpska patrijaršija",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1346,
     "isPlaceholder": false
   },
@@ -1408,7 +1408,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 77,
     "order": 5,
     "title": "Dušanov zakonik — nastanak",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": 1349,
     "isPlaceholder": false
   },
@@ -1420,7 +1420,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 78,
     "order": 6,
     "title": "Dušanov zakonik — društvo i pravo",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": 1350,
     "isPlaceholder": false
   },
@@ -1432,7 +1432,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 79,
     "order": 1,
     "title": "Život na dvoru Nemanjića",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1300,
     "isPlaceholder": false
   },
@@ -1456,7 +1456,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 81,
     "order": 3,
     "title": "Sebri i zavisni ljudi",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1300,
     "isPlaceholder": false
   },
@@ -1468,7 +1468,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 82,
     "order": 4,
     "title": "Gradovi i trgovina",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1300,
     "isPlaceholder": false
   },
@@ -1480,7 +1480,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 83,
     "order": 5,
     "title": "Novo Brdo i srpsko srebro",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": 1370,
     "isPlaceholder": false
   },
@@ -1492,7 +1492,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 84,
     "order": 6,
     "title": "Manastiri srednjovekovne Srbije",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1250,
     "isPlaceholder": false
   },
@@ -1504,7 +1504,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 85,
     "order": 7,
     "title": "Knjige i prepisivačke škole",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1250,
     "isPlaceholder": false
   },
@@ -1516,7 +1516,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 86,
     "order": 8,
     "title": "Freske i ikone",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": 1300,
     "isPlaceholder": false
   },
@@ -1528,7 +1528,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 87,
     "order": 9,
     "title": "Raška graditeljska škola",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1200,
     "isPlaceholder": false
   },
@@ -1540,7 +1540,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 88,
     "order": 10,
     "title": "Vardarska graditeljska škola",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1320,
     "isPlaceholder": false
   },
@@ -1564,7 +1564,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 90,
     "order": 1,
     "title": "Žene u srednjovekovnoj Srbiji",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1300,
     "isPlaceholder": false
   },
@@ -1576,7 +1576,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 91,
     "order": 2,
     "title": "Hrana, odeća i običaji",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1300,
     "isPlaceholder": false
   },
@@ -1588,7 +1588,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 92,
     "order": 3,
     "title": "Vojska srednjovekovne Srbije",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1300,
     "isPlaceholder": false
   },
@@ -1600,7 +1600,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 93,
     "order": 4,
     "title": "Diplomatija Nemanjića",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1300,
     "isPlaceholder": false
   },
@@ -1612,7 +1612,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 94,
     "order": 5,
     "title": "Srbija i Vizantija",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1300,
     "isPlaceholder": false
   },
@@ -1624,7 +1624,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 95,
     "order": 6,
     "title": "Srbija i Ugarska",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1300,
     "isPlaceholder": false
   },
@@ -1636,7 +1636,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 96,
     "order": 7,
     "title": "Srbija i Dubrovnik",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1300,
     "isPlaceholder": false
   },
@@ -1648,7 +1648,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 97,
     "order": 8,
     "title": "Srpski vladari i Sveta Gora",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1250,
     "isPlaceholder": false
   },
@@ -1660,7 +1660,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 98,
     "order": 1,
     "title": "Car Uroš — slabljenje carstva",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 5,
     "year": 1355,
     "isPlaceholder": false
   },
@@ -1672,7 +1672,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 99,
     "order": 2,
     "title": "Uspon oblasnih gospodara",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1360,
     "isPlaceholder": false
   },
@@ -1684,7 +1684,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 100,
     "order": 3,
     "title": "Raspad Dušanovog carstva",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": 1365,
     "isPlaceholder": false
   },
@@ -1696,7 +1696,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 101,
     "order": 4,
     "title": "Vukašin Mrnjavčević i kralj Marko",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1365,
     "isPlaceholder": false
   },
@@ -1708,7 +1708,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 102,
     "order": 5,
     "title": "Bitka na Marici",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": 1371,
     "isPlaceholder": false
   },
@@ -1720,7 +1720,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 103,
     "order": 6,
     "title": "Kraj dinastije Nemanjić",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1371,
     "isPlaceholder": false
   },
@@ -1732,7 +1732,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 104,
     "order": 7,
     "title": "Nasleđe Nemanjića — država",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1350,
     "isPlaceholder": false
   },
@@ -1744,7 +1744,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 105,
     "order": 8,
     "title": "Nasleđe Nemanjića — crkva i kultura",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": 1350,
     "isPlaceholder": false
   },
@@ -1756,7 +1756,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 106,
     "order": 1,
     "title": "Srpske zemlje posle carstva",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1380,
     "isPlaceholder": false
   },
@@ -1768,7 +1768,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 107,
     "order": 2,
     "title": "Knez Lazar — uspon",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1371,
     "isPlaceholder": false
   },
@@ -1780,7 +1780,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 108,
     "order": 3,
     "title": "Lazar sabira srpske zemlje",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": 1380,
     "isPlaceholder": false
   },
@@ -1792,7 +1792,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 109,
     "order": 4,
     "title": "Vuk Branković",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1380,
     "isPlaceholder": false
   },
@@ -1804,7 +1804,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 110,
     "order": 5,
     "title": "Balšići u Zeti",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1380,
     "isPlaceholder": false
   },
@@ -1816,7 +1816,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 111,
     "order": 6,
     "title": "Uspon Osmanskog carstva",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": 1380,
     "isPlaceholder": false
   },
@@ -1828,7 +1828,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 112,
     "order": 7,
     "title": "Prvi sudari sa Osmanlijama",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1385,
     "isPlaceholder": false
   },
@@ -1840,7 +1840,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 113,
     "order": 8,
     "title": "Bitka kod Pločnika",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1386,
     "isPlaceholder": false
   },
@@ -1852,7 +1852,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 114,
     "order": 9,
     "title": "Pred odlučujući sudar",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1389,
     "isPlaceholder": false
   },
@@ -1864,7 +1864,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 115,
     "order": 10,
     "title": "Kosovska bitka — tok",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 7,
     "year": 1389,
     "isPlaceholder": false
   },
@@ -1876,7 +1876,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 116,
     "order": 11,
     "title": "Pogibija kneza Lazara",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": 1389,
     "isPlaceholder": false
   },
@@ -1888,7 +1888,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 117,
     "order": 12,
     "title": "Miloš Obilić i predanje",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1389,
     "isPlaceholder": false
   },
@@ -1900,7 +1900,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 118,
     "order": 13,
     "title": "Kosovski mit",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": 1389,
     "isPlaceholder": false
   },
@@ -1912,7 +1912,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 119,
     "order": 1,
     "title": "Knjeginja Milica",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1389,
     "isPlaceholder": false
   },
@@ -1924,7 +1924,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 120,
     "order": 2,
     "title": "Stefan Lazarević — vazal i vladar",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 7,
     "year": 1389,
     "isPlaceholder": false
   },
@@ -1936,7 +1936,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 121,
     "order": 3,
     "title": "Bitka kod Angore",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1402,
     "isPlaceholder": false
   },
@@ -1948,7 +1948,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 122,
     "order": 4,
     "title": "Stefan Lazarević postaje despot",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1402,
     "isPlaceholder": false
   },
@@ -1960,7 +1960,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 123,
     "order": 5,
     "title": "Despotovina — nova srpska država",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 7,
     "year": 1402,
     "isPlaceholder": false
   },
@@ -1972,7 +1972,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 124,
     "order": 6,
     "title": "Beograd — prestonica despota",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": 1404,
     "isPlaceholder": false
   },
@@ -1984,7 +1984,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 125,
     "order": 7,
     "title": "Stefan Lazarević — vitez i pisac",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1410,
     "isPlaceholder": false
   },
@@ -1996,7 +1996,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 126,
     "order": 8,
     "title": "Privredni procvat Despotovine",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1420,
     "isPlaceholder": false
   },
@@ -2020,7 +2020,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 128,
     "order": 2,
     "title": "Smederevo — nova prestonica",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1428,
     "isPlaceholder": false
   },
@@ -2032,7 +2032,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 129,
     "order": 3,
     "title": "Smederevska tvrđava",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": 1430,
     "isPlaceholder": false
   },
@@ -2044,7 +2044,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 130,
     "order": 4,
     "title": "Despotovina između dva carstva",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": 1440,
     "isPlaceholder": false
   },
@@ -2056,7 +2056,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 131,
     "order": 5,
     "title": "Pad Smedereva 1439.",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1439,
     "isPlaceholder": false
   },
@@ -2068,7 +2068,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 132,
     "order": 6,
     "title": "Obnova i ponovni gubitak",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1444,
     "isPlaceholder": false
   },
@@ -2080,7 +2080,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 133,
     "order": 7,
     "title": "Janoš Hunjadi i borba protiv Turaka",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1448,
     "isPlaceholder": false
   },
@@ -2092,7 +2092,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 134,
     "order": 8,
     "title": "Pad Carigrada i njegov odjek",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 7,
     "year": 1453,
     "isPlaceholder": false
   },
@@ -2104,7 +2104,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 135,
     "order": 9,
     "title": "Opsada Beograda 1456.",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": 1456,
     "isPlaceholder": false
   },
@@ -2128,7 +2128,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 137,
     "order": 11,
     "title": "Poslednji despoti",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1456,
     "isPlaceholder": false
   },
@@ -2140,7 +2140,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 138,
     "order": 12,
     "title": "Pad Smedereva 1459.",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": 1459,
     "isPlaceholder": false
   },
@@ -2152,7 +2152,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 139,
     "order": 1,
     "title": "Pad Bosne",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1463,
     "isPlaceholder": false
   },
@@ -2164,7 +2164,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 140,
     "order": 2,
     "title": "Zeta i Crnojevići",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1480,
     "isPlaceholder": false
   },
@@ -2176,7 +2176,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 141,
     "order": 3,
     "title": "Crnojevića štamparija",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1493,
     "isPlaceholder": false
   },
@@ -2188,7 +2188,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 142,
     "order": 4,
     "title": "Srpski despoti u Ugarskoj",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1499,
     "isPlaceholder": false
   },
@@ -2200,7 +2200,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 143,
     "order": 5,
     "title": "Seobe stanovništva",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1490,
     "isPlaceholder": false
   },
@@ -2212,7 +2212,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 144,
     "order": 6,
     "title": "Crkva posle pada države",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1490,
     "isPlaceholder": false
   },
@@ -2224,7 +2224,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 145,
     "order": 7,
     "title": "Moravska škola",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": 1400,
     "isPlaceholder": false
   },
@@ -2236,7 +2236,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 146,
     "order": 8,
     "title": "Manastiri kao čuvari pamćenja",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1480,
     "isPlaceholder": false
   },
@@ -2248,7 +2248,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 147,
     "order": 9,
     "title": "Narodna pesma i predanje",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1480,
     "isPlaceholder": false
   },
@@ -2260,7 +2260,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 148,
     "order": 10,
     "title": "Šta je Srbija izgubila",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1485,
     "isPlaceholder": false
   },
@@ -2272,7 +2272,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 149,
     "order": 11,
     "title": "Šta je sačuvano",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1490,
     "isPlaceholder": false
   },
@@ -2284,7 +2284,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 150,
     "order": 12,
     "title": "Kraj srednjeg veka — pregled",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": 1495,
     "isPlaceholder": false
   },
@@ -2296,7 +2296,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 151,
     "order": 1,
     "title": "Ustrojstvo Osmanskog carstva",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": 1600,
     "isPlaceholder": false
   },
@@ -2320,7 +2320,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 153,
     "order": 3,
     "title": "Položaj hrišćana — raja",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": 1600,
     "isPlaceholder": false
   },
@@ -2332,7 +2332,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 154,
     "order": 4,
     "title": "Danak u krvi — devširma",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": 1550,
     "isPlaceholder": false
   },
@@ -2344,7 +2344,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 155,
     "order": 5,
     "title": "Islamizacija i verski život",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1600,
     "isPlaceholder": false
   },
@@ -2356,7 +2356,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 156,
     "order": 6,
     "title": "Srpska crkva pod Osmanlijama",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1530,
     "isPlaceholder": false
   },
@@ -2368,7 +2368,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 157,
     "order": 7,
     "title": "Obnova Pećke patrijaršije",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": 1557,
     "isPlaceholder": false
   },
@@ -2380,7 +2380,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 158,
     "order": 8,
     "title": "Mehmed-paša Sokolović",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": 1565,
     "isPlaceholder": false
   },
@@ -2392,7 +2392,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 159,
     "order": 9,
     "title": "Život na selu",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1650,
     "isPlaceholder": false
   },
@@ -2404,7 +2404,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 160,
     "order": 10,
     "title": "Gradovi pod osmanskom vlašću",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1650,
     "isPlaceholder": false
   },
@@ -2416,7 +2416,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 161,
     "order": 11,
     "title": "Hajduci",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1650,
     "isPlaceholder": false
   },
@@ -2428,7 +2428,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 162,
     "order": 12,
     "title": "Uskoci",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1600,
     "isPlaceholder": false
   },
@@ -2440,7 +2440,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 163,
     "order": 1,
     "title": "Velika seoba Srba 1690.",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": 1690,
     "isPlaceholder": false
   },
@@ -2452,7 +2452,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 164,
     "order": 2,
     "title": "Arsenije III Čarnojević",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1695,
     "isPlaceholder": false
   },
@@ -2464,7 +2464,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 165,
     "order": 3,
     "title": "Srbi u Habzburškoj monarhiji",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": 1700,
     "isPlaceholder": false
   },
@@ -2476,7 +2476,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 166,
     "order": 4,
     "title": "Vojna krajina",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": 1650,
     "isPlaceholder": false
   },
@@ -2488,7 +2488,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 167,
     "order": 5,
     "title": "Privilegije srpskog naroda",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1700,
     "isPlaceholder": false
   },
@@ -2500,7 +2500,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 168,
     "order": 6,
     "title": "Karlovačka mitropolija",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1730,
     "isPlaceholder": false
   },
@@ -2524,7 +2524,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 170,
     "order": 8,
     "title": "Srbi u Banatu, Bačkoj i Sremu",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1700,
     "isPlaceholder": false
   },
@@ -2536,7 +2536,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 171,
     "order": 9,
     "title": "Austrijsko-turski ratovi",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1700,
     "isPlaceholder": false
   },
@@ -2548,7 +2548,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 172,
     "order": 10,
     "title": "Požarevački mir i austrijska uprava",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1718,
     "isPlaceholder": false
   },
@@ -2560,7 +2560,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 173,
     "order": 1,
     "title": "Crna Gora — vladike i plemena",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 7,
     "year": 1700,
     "isPlaceholder": false
   },
@@ -2584,7 +2584,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 175,
     "order": 3,
     "title": "Boka Kotorska i primorje",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1700,
     "isPlaceholder": false
   },
@@ -2608,7 +2608,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 177,
     "order": 5,
     "title": "Kultura pod tuđom vlašću",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1700,
     "isPlaceholder": false
   },
@@ -2620,7 +2620,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 178,
     "order": 6,
     "title": "Pismenost i škole",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1750,
     "isPlaceholder": false
   },
@@ -2632,7 +2632,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 179,
     "order": 7,
     "title": "Srpsko građanstvo u monarhiji",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1750,
     "isPlaceholder": false
   },
@@ -2644,7 +2644,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 180,
     "order": 8,
     "title": "Barok kod Srba",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1750,
     "isPlaceholder": false
   },
@@ -2656,7 +2656,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 181,
     "order": 9,
     "title": "Jovan Rajić i istorijska svest",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1770,
     "isPlaceholder": false
   },
@@ -2680,7 +2680,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 183,
     "order": 11,
     "title": "Dositej Obradović",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": 1780,
     "isPlaceholder": false
   },
@@ -2692,7 +2692,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 184,
     "order": 12,
     "title": "Ideje prosvetiteljstva među Srbima",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1780,
     "isPlaceholder": false
   },
@@ -2716,7 +2716,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 186,
     "order": 1,
     "title": "Osmansko slabljenje",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1780,
     "isPlaceholder": false
   },
@@ -2728,7 +2728,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 187,
     "order": 2,
     "title": "Kočina krajina",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1788,
     "isPlaceholder": false
   },
@@ -2740,7 +2740,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 188,
     "order": 3,
     "title": "Svakodnevica uoči ustanka",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1795,
     "isPlaceholder": false
   },
@@ -2752,7 +2752,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 189,
     "order": 4,
     "title": "Dahije i bezvlašće",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 7,
     "year": 1801,
     "isPlaceholder": false
   },
@@ -2764,7 +2764,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 190,
     "order": 5,
     "title": "Seča knezova",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": 1804,
     "isPlaceholder": false
   },
@@ -2776,7 +2776,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 191,
     "order": 6,
     "title": "Narodni prvaci i sazrevanje otpora",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1800,
     "isPlaceholder": false
   },
@@ -2788,7 +2788,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 192,
     "order": 7,
     "title": "Veze sa Rusijom i Austrijom",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1800,
     "isPlaceholder": false
   },
@@ -2812,7 +2812,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 194,
     "order": 9,
     "title": "Živeti pod dve imperije",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1750,
     "isPlaceholder": false
   },
@@ -2824,7 +2824,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 195,
     "order": 10,
     "title": "Uoči Srpske revolucije — pregled",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 7,
     "year": 1803,
     "isPlaceholder": false
   },
@@ -2836,7 +2836,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 196,
     "order": 1,
     "title": "Šta je Srpska revolucija",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": 1804,
     "isPlaceholder": false
   },
@@ -2848,7 +2848,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 197,
     "order": 2,
     "title": "Izbijanje Prvog ustanka",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": 1804,
     "isPlaceholder": false
   },
@@ -2860,7 +2860,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 198,
     "order": 3,
     "title": "Karađorđe Petrović",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 7,
     "year": 1804,
     "isPlaceholder": false
   },
@@ -2872,7 +2872,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 199,
     "order": 4,
     "title": "Orašac i početak ustanka",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1804,
     "isPlaceholder": false
   },
@@ -2884,7 +2884,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 200,
     "order": 5,
     "title": "Prve pobede ustanika",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1804,
     "isPlaceholder": false
   },
@@ -2896,7 +2896,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 201,
     "order": 6,
     "title": "Organizacija ustaničke vlasti",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1805,
     "isPlaceholder": false
   },
@@ -2908,7 +2908,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 202,
     "order": 7,
     "title": "Praviteljstvujušči sovjet",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1805,
     "isPlaceholder": false
   },
@@ -2920,7 +2920,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 203,
     "order": 8,
     "title": "Boj na Mišaru",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": 1806,
     "isPlaceholder": false
   },
@@ -2932,7 +2932,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 204,
     "order": 9,
     "title": "Širenje ustanka",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1807,
     "isPlaceholder": false
   },
@@ -2944,7 +2944,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 205,
     "order": 10,
     "title": "Oslobođenje Beograda",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": 1806,
     "isPlaceholder": false
   },
@@ -2956,7 +2956,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 206,
     "order": 11,
     "title": "Ustanička Srbija — država u nastajanju",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 7,
     "year": 1808,
     "isPlaceholder": false
   },
@@ -2968,7 +2968,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 207,
     "order": 12,
     "title": "Prosveta i Velika škola",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1808,
     "isPlaceholder": false
   },
@@ -2980,7 +2980,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 208,
     "order": 13,
     "title": "Ustanak i Rusija",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1810,
     "isPlaceholder": false
   },
@@ -2992,7 +2992,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 209,
     "order": 14,
     "title": "Bukureštanski mir",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1812,
     "isPlaceholder": false
   },
@@ -3004,7 +3004,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 210,
     "order": 15,
     "title": "Slom Prvog ustanka",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": 1813,
     "isPlaceholder": false
   },
@@ -3040,7 +3040,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 213,
     "order": 1,
     "title": "Izbijanje Drugog ustanka",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": 1815,
     "isPlaceholder": false
   },
@@ -3052,7 +3052,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 214,
     "order": 2,
     "title": "Miloš Obrenović — vođa",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": 1815,
     "isPlaceholder": false
   },
@@ -3064,7 +3064,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 215,
     "order": 3,
     "title": "Takovo i početak ustanka",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1815,
     "isPlaceholder": false
   },
@@ -3076,7 +3076,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 216,
     "order": 4,
     "title": "Vojne pobede 1815.",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 5,
     "year": 1815,
     "isPlaceholder": false
   },
@@ -3088,7 +3088,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 217,
     "order": 5,
     "title": "Diplomatsko rešenje",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1815,
     "isPlaceholder": false
   },
@@ -3100,7 +3100,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 218,
     "order": 6,
     "title": "Usmena pogodba sa Portom",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1815,
     "isPlaceholder": false
   },
@@ -3112,7 +3112,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 219,
     "order": 7,
     "title": "Miloš učvršćuje vlast",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1820,
     "isPlaceholder": false
   },
@@ -3124,7 +3124,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 220,
     "order": 8,
     "title": "Sukob Miloša i Karađorđa",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": 1817,
     "isPlaceholder": false
   },
@@ -3148,7 +3148,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 222,
     "order": 10,
     "title": "Hatišerifi i priznanje autonomije",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 5,
     "year": 1830,
     "isPlaceholder": false
   },
@@ -3160,7 +3160,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 223,
     "order": 11,
     "title": "Sretenjski ustav",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": 1835,
     "isPlaceholder": false
   },
@@ -3172,7 +3172,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 224,
     "order": 12,
     "title": "Turski ustav iz 1838.",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1838,
     "isPlaceholder": false
   },
@@ -3184,7 +3184,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 225,
     "order": 13,
     "title": "Abdikacija kneza Miloša",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1839,
     "isPlaceholder": false
   },
@@ -3196,7 +3196,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 226,
     "order": 1,
     "title": "Knez Mihailo — prva vladavina",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 5,
     "year": 1839,
     "isPlaceholder": false
   },
@@ -3208,7 +3208,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 227,
     "order": 2,
     "title": "Ustavobranitelji dolaze na vlast",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1842,
     "isPlaceholder": false
   },
@@ -3232,7 +3232,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 229,
     "order": 4,
     "title": "Karađorđevići i Obrenovići",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 5,
     "year": 1820,
     "isPlaceholder": false
   },
@@ -3244,7 +3244,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 230,
     "order": 5,
     "title": "Nasleđe Srpske revolucije",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 7,
     "year": 1835,
     "isPlaceholder": false
   },
@@ -3256,7 +3256,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 231,
     "order": 1,
     "title": "Ustavobraniteljski režim",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1842,
     "isPlaceholder": false
   },
@@ -3268,7 +3268,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 232,
     "order": 2,
     "title": "Aleksandar Karađorđević",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1842,
     "isPlaceholder": false
   },
@@ -3280,7 +3280,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 233,
     "order": 3,
     "title": "Načertanije Ilije Garašanina",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": 1844,
     "isPlaceholder": false
   },
@@ -3292,7 +3292,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 234,
     "order": 4,
     "title": "Izgradnja državnih institucija",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1850,
     "isPlaceholder": false
   },
@@ -3304,7 +3304,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 235,
     "order": 5,
     "title": "Privreda mlade Kneževine",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1850,
     "isPlaceholder": false
   },
@@ -3316,7 +3316,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 236,
     "order": 6,
     "title": "Svetoandrejska skupština",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 5,
     "year": 1858,
     "isPlaceholder": false
   },
@@ -3328,7 +3328,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 237,
     "order": 7,
     "title": "Povratak Obrenovića",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 5,
     "year": 1858,
     "isPlaceholder": false
   },
@@ -3340,7 +3340,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 238,
     "order": 8,
     "title": "Knez Mihailo — reforme",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": 1860,
     "isPlaceholder": false
   },
@@ -3352,7 +3352,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 239,
     "order": 9,
     "title": "Stvaranje narodne vojske",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1861,
     "isPlaceholder": false
   },
@@ -3364,7 +3364,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 240,
     "order": 10,
     "title": "Predaja gradova 1867.",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": 1867,
     "isPlaceholder": false
   },
@@ -3376,7 +3376,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 241,
     "order": 11,
     "title": "Balkanski savez kneza Mihaila",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1865,
     "isPlaceholder": false
   },
@@ -3388,7 +3388,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 242,
     "order": 12,
     "title": "Ubistvo kneza Mihaila",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1868,
     "isPlaceholder": false
   },
@@ -3412,7 +3412,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 244,
     "order": 14,
     "title": "Ustav iz 1869.",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 5,
     "year": 1869,
     "isPlaceholder": false
   },
@@ -3424,7 +3424,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 245,
     "order": 15,
     "title": "Društvo i kultura sredinom veka",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1855,
     "isPlaceholder": false
   },
@@ -3436,7 +3436,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 246,
     "order": 16,
     "title": "Svetozar Marković",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1870,
     "isPlaceholder": false
   },
@@ -3448,7 +3448,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 247,
     "order": 1,
     "title": "Srpsko-turski ratovi",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 7,
     "year": 1876,
     "isPlaceholder": false
   },
@@ -3460,7 +3460,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 248,
     "order": 2,
     "title": "Rusko-turski rat i Srbija",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 5,
     "year": 1877,
     "isPlaceholder": false
   },
@@ -3472,7 +3472,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 249,
     "order": 3,
     "title": "Berlinski kongres — nezavisnost",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 7,
     "year": 1878,
     "isPlaceholder": false
   },
@@ -3484,7 +3484,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 250,
     "order": 4,
     "title": "Proglašenje Kraljevine",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": 1882,
     "isPlaceholder": false
   },
@@ -3496,7 +3496,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 251,
     "order": 5,
     "title": "Kralj Milan Obrenović",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 5,
     "year": 1882,
     "isPlaceholder": false
   },
@@ -3508,7 +3508,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 252,
     "order": 6,
     "title": "Radikali i Nikola Pašić",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": 1885,
     "isPlaceholder": false
   },
@@ -3520,7 +3520,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 253,
     "order": 7,
     "title": "Politički život i stranke",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1890,
     "isPlaceholder": false
   },
@@ -3532,7 +3532,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 254,
     "order": 8,
     "title": "Timočka buna",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1883,
     "isPlaceholder": false
   },
@@ -3544,7 +3544,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 255,
     "order": 9,
     "title": "Srpsko-bugarski rat",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1885,
     "isPlaceholder": false
   },
@@ -3556,7 +3556,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 256,
     "order": 10,
     "title": "Ustav iz 1888.",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1888,
     "isPlaceholder": false
   },
@@ -3580,7 +3580,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 258,
     "order": 12,
     "title": "Kralj Aleksandar Obrenović",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1889,
     "isPlaceholder": false
   },
@@ -3592,7 +3592,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 259,
     "order": 1,
     "title": "Državni udari i nestabilnost",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1895,
     "isPlaceholder": false
   },
@@ -3604,7 +3604,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 260,
     "order": 2,
     "title": "Železnice i banke",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 5,
     "year": 1890,
     "isPlaceholder": false
   },
@@ -3616,7 +3616,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 261,
     "order": 3,
     "title": "Beograd postaje moderna prestonica",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1895,
     "isPlaceholder": false
   },
@@ -3628,7 +3628,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 262,
     "order": 4,
     "title": "Škola, univerzitet i nauka",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1880,
     "isPlaceholder": false
   },
@@ -3640,7 +3640,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 263,
     "order": 5,
     "title": "Srpska književnost 19. veka",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": 1870,
     "isPlaceholder": false
   },
@@ -3652,7 +3652,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 264,
     "order": 6,
     "title": "Srpska umetnost i muzika",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1880,
     "isPlaceholder": false
   },
@@ -3664,7 +3664,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 265,
     "order": 7,
     "title": "Seljaštvo i agrarno pitanje",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1870,
     "isPlaceholder": false
   },
@@ -3676,7 +3676,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 266,
     "order": 1,
     "title": "Majski prevrat 1903.",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": 1903,
     "isPlaceholder": false
   },
@@ -3688,7 +3688,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 267,
     "order": 2,
     "title": "Povratak Karađorđevića",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1903,
     "isPlaceholder": false
   },
@@ -3700,7 +3700,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 268,
     "order": 3,
     "title": "Kralj Petar I",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": 1903,
     "isPlaceholder": false
   },
@@ -3712,7 +3712,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 269,
     "order": 4,
     "title": "Zlatno doba srpske demokratije",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": 1905,
     "isPlaceholder": false
   },
@@ -3724,7 +3724,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 270,
     "order": 5,
     "title": "Carinski rat sa Austro-Ugarskom",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1906,
     "isPlaceholder": false
   },
@@ -3736,7 +3736,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 271,
     "order": 6,
     "title": "Aneksiona kriza",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": 1908,
     "isPlaceholder": false
   },
@@ -3748,7 +3748,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 272,
     "order": 7,
     "title": "Modernizacija srpske vojske",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1908,
     "isPlaceholder": false
   },
@@ -3760,7 +3760,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 273,
     "order": 8,
     "title": "Nauka i kultura početkom veka",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1908,
     "isPlaceholder": false
   },
@@ -3772,7 +3772,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 274,
     "order": 9,
     "title": "Srbi izvan Srbije",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1900,
     "isPlaceholder": false
   },
@@ -3784,7 +3784,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 275,
     "order": 10,
     "title": "Nacionalni pokret i Mlada Bosna",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1910,
     "isPlaceholder": false
   },
@@ -3808,7 +3808,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 277,
     "order": 12,
     "title": "Spoljna politika Kraljevine",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1910,
     "isPlaceholder": false
   },
@@ -3820,7 +3820,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 278,
     "order": 13,
     "title": "Društvo uoči 1912.",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1912,
     "isPlaceholder": false
   },
@@ -3832,7 +3832,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 279,
     "order": 14,
     "title": "Beograd i Srbija 1903–1912.",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1908,
     "isPlaceholder": false
   },
@@ -3844,7 +3844,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 280,
     "order": 15,
     "title": "Kneževina i Kraljevina — nasleđe",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 7,
     "year": 1910,
     "isPlaceholder": false
   },
@@ -3856,7 +3856,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 281,
     "order": 1,
     "title": "Balkanski savez 1912.",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1912,
     "isPlaceholder": false
   },
@@ -3868,7 +3868,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 282,
     "order": 2,
     "title": "Prvi balkanski rat",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": 1912,
     "isPlaceholder": false
   },
@@ -3880,7 +3880,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 283,
     "order": 3,
     "title": "Kumanovska bitka",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1912,
     "isPlaceholder": false
   },
@@ -3892,7 +3892,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 284,
     "order": 4,
     "title": "Oslobođenje Stare Srbije i Makedonije",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": 1912,
     "isPlaceholder": false
   },
@@ -3904,7 +3904,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 285,
     "order": 5,
     "title": "Drugi balkanski rat",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1913,
     "isPlaceholder": false
   },
@@ -3916,7 +3916,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 286,
     "order": 6,
     "title": "Bukureštanski mir 1913.",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 5,
     "year": 1913,
     "isPlaceholder": false
   },
@@ -3928,7 +3928,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 287,
     "order": 7,
     "title": "Srbija posle balkanskih ratova",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1913,
     "isPlaceholder": false
   },
@@ -3940,7 +3940,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 288,
     "order": 1,
     "title": "Sarajevski atentat",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": 1914,
     "isPlaceholder": false
   },
@@ -3952,7 +3952,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 289,
     "order": 2,
     "title": "Julska kriza",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1914,
     "isPlaceholder": false
   },
@@ -3964,7 +3964,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 290,
     "order": 3,
     "title": "Austrougarski ultimatum",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1914,
     "isPlaceholder": false
   },
@@ -3976,7 +3976,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 291,
     "order": 4,
     "title": "Početak Prvog svetskog rata",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": 1914,
     "isPlaceholder": false
   },
@@ -3988,7 +3988,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 292,
     "order": 5,
     "title": "Cerska bitka",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": 1914,
     "isPlaceholder": false
   },
@@ -4000,7 +4000,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 293,
     "order": 6,
     "title": "Kolubarska bitka",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": 1914,
     "isPlaceholder": false
   },
@@ -4012,7 +4012,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 294,
     "order": 7,
     "title": "Srbija 1915.",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1915,
     "isPlaceholder": false
   },
@@ -4024,7 +4024,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 295,
     "order": 8,
     "title": "Povlačenje preko Albanije",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": 1915,
     "isPlaceholder": false
   },
@@ -4036,7 +4036,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 296,
     "order": 9,
     "title": "Golgota i obnova na Krfu",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": 1916,
     "isPlaceholder": false
   },
@@ -4048,7 +4048,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 297,
     "order": 10,
     "title": "Solunski front",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1917,
     "isPlaceholder": false
   },
@@ -4060,7 +4060,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 298,
     "order": 11,
     "title": "Život u okupiranoj Srbiji",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1917,
     "isPlaceholder": false
   },
@@ -4072,7 +4072,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 299,
     "order": 12,
     "title": "Krfska deklaracija",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1917,
     "isPlaceholder": false
   },
@@ -4084,7 +4084,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 300,
     "order": 13,
     "title": "Proboj Solunskog fronta",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": 1918,
     "isPlaceholder": false
   },
@@ -4096,7 +4096,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 301,
     "order": 14,
     "title": "Oslobođenje Srbije 1918.",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 5,
     "year": 1918,
     "isPlaceholder": false
   },
@@ -4108,7 +4108,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 302,
     "order": 15,
     "title": "Cena Prvog svetskog rata",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": 1917,
     "isPlaceholder": false
   },
@@ -4120,7 +4120,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 303,
     "order": 1,
     "title": "Stvaranje Kraljevine SHS",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": 1918,
     "isPlaceholder": false
   },
@@ -4132,7 +4132,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 304,
     "order": 2,
     "title": "Ujedinjenje 1. decembra 1918.",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1918,
     "isPlaceholder": false
   },
@@ -4144,7 +4144,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 305,
     "order": 3,
     "title": "Vidovdanski ustav",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1921,
     "isPlaceholder": false
   },
@@ -4156,7 +4156,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 306,
     "order": 4,
     "title": "Politički život Kraljevine SHS",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 5,
     "year": 1922,
     "isPlaceholder": false
   },
@@ -4168,7 +4168,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 307,
     "order": 5,
     "title": "Nacionalno pitanje i napetosti",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1925,
     "isPlaceholder": false
   },
@@ -4180,7 +4180,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 308,
     "order": 6,
     "title": "Atentat u skupštini 1928.",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1928,
     "isPlaceholder": false
   },
@@ -4192,7 +4192,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 309,
     "order": 7,
     "title": "Šestojanuarska diktatura",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1929,
     "isPlaceholder": false
   },
@@ -4204,7 +4204,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 310,
     "order": 8,
     "title": "Kraljevina Jugoslavija",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1929,
     "isPlaceholder": false
   },
@@ -4216,7 +4216,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 311,
     "order": 9,
     "title": "Ubistvo kralja Aleksandra",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1934,
     "isPlaceholder": false
   },
@@ -4228,7 +4228,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 312,
     "order": 10,
     "title": "Namesništvo i knez Pavle",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1935,
     "isPlaceholder": false
   },
@@ -4240,7 +4240,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 313,
     "order": 11,
     "title": "Društvo i kultura između dva rata",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": 1930,
     "isPlaceholder": false
   },
@@ -4252,7 +4252,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 314,
     "order": 12,
     "title": "Privreda Kraljevine Jugoslavije",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1930,
     "isPlaceholder": false
   },
@@ -4264,7 +4264,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 315,
     "order": 13,
     "title": "Beograd između dva rata",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1930,
     "isPlaceholder": false
   },
@@ -4276,7 +4276,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 316,
     "order": 1,
     "title": "Jugoslavija pred Drugim svetskim ratom",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1940,
     "isPlaceholder": false
   },
@@ -4288,7 +4288,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 317,
     "order": 2,
     "title": "Pakt i 27. mart 1941.",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": 1941,
     "isPlaceholder": false
   },
@@ -4300,7 +4300,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 318,
     "order": 3,
     "title": "Aprilski rat",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 5,
     "year": 1941,
     "isPlaceholder": false
   },
@@ -4312,7 +4312,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 319,
     "order": 4,
     "title": "Okupacija i podela zemlje",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": 1941,
     "isPlaceholder": false
   },
@@ -4324,7 +4324,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 320,
     "order": 5,
     "title": "Ustanak 1941.",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": 1941,
     "isPlaceholder": false
   },
@@ -4336,7 +4336,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 321,
     "order": 6,
     "title": "Partizanski i četnički pokret",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": 1942,
     "isPlaceholder": false
   },
@@ -4348,7 +4348,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 322,
     "order": 7,
     "title": "Građanski rat unutar rata",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": 1942,
     "isPlaceholder": false
   },
@@ -4360,7 +4360,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 323,
     "order": 8,
     "title": "Stradanje civila i logori",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": 1942,
     "isPlaceholder": false
   },
@@ -4372,7 +4372,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 324,
     "order": 9,
     "title": "Holokaust u okupiranoj Srbiji",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 7,
     "year": 1942,
     "isPlaceholder": false
   },
@@ -4384,7 +4384,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 325,
     "order": 10,
     "title": "Neretva i Sutjeska",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1943,
     "isPlaceholder": false
   },
@@ -4396,7 +4396,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 326,
     "order": 11,
     "title": "AVNOJ i temelji nove Jugoslavije",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 5,
     "year": 1943,
     "isPlaceholder": false
   },
@@ -4408,7 +4408,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 327,
     "order": 12,
     "title": "Oslobođenje 1944–1945.",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": 1944,
     "isPlaceholder": false
   },
@@ -4420,7 +4420,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 328,
     "order": 13,
     "title": "Cena Drugog svetskog rata",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": 1944,
     "isPlaceholder": false
   },
@@ -4432,7 +4432,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 329,
     "order": 1,
     "title": "Dolazak komunista na vlast",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1945,
     "isPlaceholder": false
   },
@@ -4444,7 +4444,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 330,
     "order": 2,
     "title": "FNRJ — nova država",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1945,
     "isPlaceholder": false
   },
@@ -4456,7 +4456,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 331,
     "order": 3,
     "title": "Sukob sa Informbiroom 1948.",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": 1948,
     "isPlaceholder": false
   },
@@ -4468,7 +4468,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 332,
     "order": 4,
     "title": "Samoupravljanje",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1955,
     "isPlaceholder": false
   },
@@ -4480,7 +4480,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 333,
     "order": 5,
     "title": "Privredni razvoj socijalističke Jugoslavije",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1960,
     "isPlaceholder": false
   },
@@ -4492,7 +4492,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 334,
     "order": 6,
     "title": "Svakodnevni život u Jugoslaviji",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1965,
     "isPlaceholder": false
   },
@@ -4516,7 +4516,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 336,
     "order": 8,
     "title": "Ustav iz 1974.",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1974,
     "isPlaceholder": false
   },
@@ -4528,7 +4528,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 337,
     "order": 9,
     "title": "Smrt Josipa Broza Tita",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1980,
     "isPlaceholder": false
   },
@@ -4540,7 +4540,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 338,
     "order": 1,
     "title": "Jugoslavija osamdesetih",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": 1985,
     "isPlaceholder": false
   },
@@ -4552,7 +4552,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 339,
     "order": 2,
     "title": "Buđenje nacionalnih pitanja",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": 1988,
     "isPlaceholder": false
   },
@@ -4564,7 +4564,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 340,
     "order": 3,
     "title": "Jugoslavija pred raspadom",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": 1989,
     "isPlaceholder": false
   },
@@ -4576,7 +4576,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 341,
     "order": 1,
     "title": "Raspad Jugoslavije — uzroci",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": 1991,
     "isPlaceholder": false
   },
@@ -4588,7 +4588,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 342,
     "order": 2,
     "title": "Početak ratova devedesetih",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": 1991,
     "isPlaceholder": false
   },
@@ -4600,7 +4600,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 343,
     "order": 3,
     "title": "Srbija u devedesetim — sankcije i izolacija",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 7,
     "year": 1993,
     "isPlaceholder": false
   },
@@ -4612,7 +4612,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 344,
     "order": 4,
     "title": "Hiperinflacija i ekonomski slom",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1993,
     "isPlaceholder": false
   },
@@ -4636,7 +4636,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 346,
     "order": 6,
     "title": "Savezna Republika Jugoslavija",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1992,
     "isPlaceholder": false
   },
@@ -4648,7 +4648,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 347,
     "order": 7,
     "title": "Dejtonski sporazum",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1995,
     "isPlaceholder": false
   },
@@ -4660,7 +4660,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 348,
     "order": 8,
     "title": "Kosovska kriza",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": 1998,
     "isPlaceholder": false
   },
@@ -4672,7 +4672,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 349,
     "order": 9,
     "title": "NATO bombardovanje 1999.",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": 1999,
     "isPlaceholder": false
   },
@@ -4684,7 +4684,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 350,
     "order": 1,
     "title": "Petooktobarske promene",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": 2000,
     "isPlaceholder": false
   },
@@ -4696,7 +4696,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 351,
     "order": 2,
     "title": "Demokratska tranzicija",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 2001,
     "isPlaceholder": false
   },
@@ -4708,7 +4708,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 352,
     "order": 3,
     "title": "Ubistvo Zorana Đinđića",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 2003,
     "isPlaceholder": false
   },
@@ -4744,7 +4744,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 355,
     "order": 6,
     "title": "Pitanje Kosova posle 1999.",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": 2008,
     "isPlaceholder": false
   },
@@ -4756,7 +4756,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 356,
     "order": 7,
     "title": "Srbija kao samostalna država",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 5,
     "year": 2008,
     "isPlaceholder": false
   },
@@ -4768,7 +4768,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 357,
     "order": 8,
     "title": "Put ka Evropskoj uniji",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 2012,
     "isPlaceholder": false
   },
@@ -4780,7 +4780,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 358,
     "order": 9,
     "title": "Privreda i društvo savremene Srbije",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 2020,
     "isPlaceholder": false
   },
@@ -4792,7 +4792,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 359,
     "order": 10,
     "title": "Srbi u regionu i dijaspora",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 2020,
     "isPlaceholder": false
   },
@@ -4804,7 +4804,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 360,
     "order": 11,
     "title": "Kultura i nauka savremene Srbije",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 2020,
     "isPlaceholder": false
   },
@@ -4828,7 +4828,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 362,
     "order": 13,
     "title": "Kako se istorija pamti i obeležava",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": 2024,
     "isPlaceholder": false
   },
@@ -4840,7 +4840,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 363,
     "order": 14,
     "title": "Spomenici, mitovi i istorijska svest",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 7,
     "year": 2024,
     "isPlaceholder": false
   },
@@ -4852,7 +4852,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 364,
     "order": 15,
     "title": "Kako kritički misliti o istoriji",
-    "readingTimeMinutes": 8,
+    "readingTimeMinutes": 6,
     "year": 2025,
     "isPlaceholder": false
   },
@@ -4864,7 +4864,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 365,
     "order": 16,
     "title": "Istorija Srbije — pogled unazad i unapred",
-    "readingTimeMinutes": 9,
+    "readingTimeMinutes": 5,
     "year": 2026,
     "isPlaceholder": false
   }

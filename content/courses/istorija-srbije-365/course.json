@@ -5,6 +5,5 @@
   "description": "Strukturisan dnevni vodič kroz istoriju Srbije: od najstarijih tragova ljudi na ovom tlu do savremene države. Jedna lekcija dnevno, kroz osam istorijskih epoha, tokom cele godine.",
   "totalLessons": 365,
   "language": "sr",
-  "defaultScript": "latin",
-  "estimatedMinutesPerLesson": 8
+  "defaultScript": "latin"
 }

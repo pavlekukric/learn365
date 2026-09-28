@@ -31,6 +31,8 @@ interface ValidationReport {
     readonly authoredLessons: number;
     readonly sections: number;
     readonly eras: number;
+    /** Derived reading minutes across authored lessons (Phase 11); median = course.estimatedMinutesPerLesson. */
+    readonly readingTime: { readonly min: number; readonly max: number; readonly median: number };
   };
 }
 
@@ -184,9 +186,11 @@ export function validateCourseDirectory(courseDir: string): ValidationReport {
         `lesson ${l.id} subtitle length ${String(l.subtitle.length)} exceeds max ${String(MAX_SUBTITLE_LENGTH)}`,
       );
     }
+    // readingTimeMinutes is derived from the text (Phase 11); a placeholder's
+    // stub body derives to 1, so the band applies to authored lessons only.
     if (
-      l.readingTimeMinutes < MIN_READING_MINUTES ||
-      l.readingTimeMinutes > MAX_READING_MINUTES
+      l.isPlaceholder !== true &&
+      (l.readingTimeMinutes < MIN_READING_MINUTES || l.readingTimeMinutes > MAX_READING_MINUTES)
     ) {
       fail(
         `lesson ${l.id} readingTimeMinutes ${String(l.readingTimeMinutes)} is outside [${String(MIN_READING_MINUTES)}..${String(MAX_READING_MINUTES)}]`,
@@ -224,6 +228,15 @@ export function validateCourseDirectory(courseDir: string): ValidationReport {
     }
   }
 
+  const authoredMinutes = lessons
+    .filter((l) => l.isPlaceholder !== true)
+    .map((l) => l.readingTimeMinutes);
+  const readingTime = {
+    min: authoredMinutes.length > 0 ? Math.min(...authoredMinutes) : 0,
+    max: authoredMinutes.length > 0 ? Math.max(...authoredMinutes) : 0,
+    median: course.estimatedMinutesPerLesson,
+  };
+
   return {
     problems,
     stats: {
@@ -232,6 +245,7 @@ export function validateCourseDirectory(courseDir: string): ValidationReport {
       authoredLessons: lessons.length - placeholderCount,
       sections: sections.length,
       eras: eras.length,
+      readingTime,
     },
   };
 }
@@ -262,7 +276,7 @@ if (isMainModule()) {
     const { problems, stats } = validateCourseDirectory(courseDir);
     if (problems.length === 0) {
       console.log(
-        `@learn365/content: ${courseDir} ✓ ${String(stats.totalLessons)} lessons (${String(stats.authoredLessons)} authored, ${String(stats.placeholderLessons)} placeholder), ${String(stats.sections)} sections, ${String(stats.eras)} eras.`,
+        `@learn365/content: ${courseDir} ✓ ${String(stats.totalLessons)} lessons (${String(stats.authoredLessons)} authored, ${String(stats.placeholderLessons)} placeholder), ${String(stats.sections)} sections, ${String(stats.eras)} eras; reading time ${String(stats.readingTime.min)}–${String(stats.readingTime.max)} min (median ${String(stats.readingTime.median)}).`,
       );
       process.exit(0);
     }

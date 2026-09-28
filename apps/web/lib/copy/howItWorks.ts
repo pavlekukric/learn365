@@ -8,6 +8,8 @@
  * calendar date — the reader moves at their own pace and nothing is lost by
  * skipping a day.
  */
+import { READING_TIME_LABEL } from './readingTime';
+
 export interface HowItWorksStep {
   readonly title: string;
   readonly text: string;
@@ -19,7 +21,7 @@ export const HOW_IT_WORKS_TITLE = 'Tri koraka, tvojim tempom.';
 export const HOW_IT_WORKS_STEPS: readonly HowItWorksStep[] = [
   {
     title: 'Otvori lekciju',
-    text: 'Svaki dan te čeka jedna kratka lekcija, oko osam minuta čitanja.',
+    text: `Svaki dan te čeka jedna kratka lekcija, ${READING_TIME_LABEL} čitanja.`,
   },
   {
     title: 'Označi je kao pročitanu',

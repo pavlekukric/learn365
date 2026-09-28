@@ -76,6 +76,26 @@ export function getLessons(courseId: CourseId): readonly LessonSummary[] {
   return dataFor(courseId)?.lessons ?? [];
 }
 
+/**
+ * Reading minutes across the authored (non-placeholder) lessons — the honest
+ * range the product promises (Phase 11; the minutes themselves are derived
+ * from the text by the loader). Null for an unknown course or one without an
+ * authored lesson.
+ */
+export function getReadingTimeRange(
+  courseId: CourseId,
+): { readonly min: number; readonly max: number } | null {
+  const lessons = dataFor(courseId)?.lessons.filter((l) => l.isPlaceholder !== true) ?? [];
+  if (lessons.length === 0) return null;
+  let min = Number.POSITIVE_INFINITY;
+  let max = 0;
+  for (const l of lessons) {
+    if (l.readingTimeMinutes < min) min = l.readingTimeMinutes;
+    if (l.readingTimeMinutes > max) max = l.readingTimeMinutes;
+  }
+  return { min, max };
+}
+
 export function getLessonById(courseId: CourseId, lessonId: LessonId): LessonSummary | null {
   return dataFor(courseId)?.lessonById.get(lessonId) ?? null;
 }

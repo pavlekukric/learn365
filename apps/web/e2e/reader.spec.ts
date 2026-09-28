@@ -29,7 +29,8 @@ test.describe('History 365 — reader chrome', () => {
       expect(metrics.firstParagraphTop as number).toBeLessThan(metrics.viewportH * 0.75);
       // No breadcrumb trail and no tick row on phones; the era rides in the eyebrow.
       await expect(page.getByRole('navigation', { name: 'Breadcrumbs' })).toBeHidden();
-      await expect(page.locator('article').getByText(/Praistorija i antika · 8 min/)).toBeVisible();
+      // The minutes are derived from the text (Phase 11), so only the shape is asserted.
+      await expect(page.locator('article').getByText(/Praistorija i antika · \d+ min/)).toBeVisible();
       // Sticky chrome (TopBar + context header) stays under a third of the screen.
       const chromeHeight = await page.evaluate(() => {
         const sticky = Array.from(document.querySelectorAll<HTMLElement>('header, div')).filter(

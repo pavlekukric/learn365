@@ -23,6 +23,7 @@ export interface Course {
   readonly totalLessons: number;
   readonly language: Language;
   readonly defaultScript: Script;
+  /** Derived by the loader (Phase 11): median of the lessons' `readingTimeMinutes`. Not authored. */
   readonly estimatedMinutesPerLesson: number;
   readonly coverImage?: string;
 }
@@ -117,6 +118,7 @@ export interface Lesson {
   readonly dayNumber: number;
   readonly title: string;
   readonly subtitle?: string;
+  /** Derived by the loader from the text (Phase 11): `max(1, ceil(words / 150))`. Not authored. */
   readonly readingTimeMinutes: number;
   readonly year: number;
   /** Display label for the lesson's date/period, e.g. "1166." or "oko 9500–6000. p.n.e.". */
