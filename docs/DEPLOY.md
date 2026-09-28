@@ -31,7 +31,8 @@ Hard rule from the owner. Everything Learn365 owns is separate: `/srv/learn365`,
 | `apps/web/next.config.mjs` | `output: 'standalone'` **only when `NEXT_STANDALONE=1`** (the Dockerfile sets it). Opt-in because the tracing step recreates pnpm symlinks, which Windows refuses without Developer Mode; a plain `pnpm build` on a dev machine is unchanged. `outputFileTracingRoot` = monorepo root so workspace packages are traced. |
 | `apps/web/lib/seo/metadata.ts` | `SITE_URL` = `NEXT_PUBLIC_SITE_URL` at build time, production origin (`https://istorija365.com`) as fallback. Feeds `metadataBase`, canonical URLs, Open Graph, `sitemap.xml` and `robots.txt`. |
 | `apps/web/Dockerfile` | 3 stages: deps (manifests only, pnpm 9.15 via npm, store cache) → build (`@learn365/ui` emits `dist/globals.css`, then `next build`) → runtime (`node:22-bookworm-slim`, non-root `node`, `HEALTHCHECK` = `GET /`). Context is the **repo root**; `.dockerignore` trims it. |
-| `.github/workflows/deploy.yml` | PR touching deploy files → build only. Push to `main` / manual → build, push to GHCR, ssh rollout. Rollout is a no-op until `DEPLOY_HOST` / `DEPLOY_SSH_KEY` exist. |
+| `.github/workflows/ci.yml` | Two parallel jobs on every PR and push to `main` (Phase 10): `validate` = install → validate-content → generated-content drift check (`pnpm gen-content` + `git diff`) → lint → typecheck → test → build → bundle budget; `e2e` = Playwright on Chromium desktop + mobile against `next start`, accounts off. |
+| `.github/workflows/deploy.yml` | PR touching deploy files → build only. Green CI for a push to `main` (`workflow_run`, Phase 10) / manual → build, push to GHCR, ssh rollout; the commit built is the one CI validated (`workflow_run.head_sha`). Rollout is a no-op until `DEPLOY_HOST` / `DEPLOY_SSH_KEY` exist. |
 | `deploy/docker-compose.yml` | `db` + `web` + `cloudflared`. Copied to `/srv/learn365/docker-compose.yml`. Secrets reach containers only through explicit `environment:` mappings interpolated from `.env` (no `env_file`). |
 | `deploy/cloudflared/config.yml` | Tunnel ingress template (`<TUNNEL_ID>`, `<DOMEN>` placeholders). Copied to `/srv/learn365/cloudflared/config.yml`; the credentials JSON is never in the repo. |
 | `deploy/dc.sh` | `docker compose` wrapper pinned to `/srv/learn365` + its `.env`. |
@@ -99,8 +100,9 @@ After every server step: `ssh root@<IP> 'docker ps --filter name=racuni --format
 
 ## 4. Routine deploy
 
-- **Push to `main`** → CI (`ci.yml`) and Deploy (`deploy.yml`) run in parallel. Deploy builds the image (GHA layer cache), pushes `sha-<12>` + `latest`, then rolls out. A red CI does **not** block the rollout — treat a red CI on `main` as revert-now.
-- **Manual**: `gh workflow run deploy.yml` (rebuilds and rolls out HEAD of `main`).
+- **Push to `main`** → CI (`ci.yml`: two parallel jobs — lint / typecheck / test / build / bundle budget / content + the generated-content drift check, and the Playwright suite on Chromium desktop + mobile). **Deploy waits for CI** (Phase 10, `workflow_run`): only a green CI for a push to `main` starts `deploy.yml`, which builds the image of that same commit (`workflow_run.head_sha`, GHA layer cache), pushes `sha-<12>` + `latest`, then rolls out. A red CI on `main` deploys **nothing** — the previous image stays live; fix forward. Merge → live = CI + image + rollout (measured in §9).
+- **Manual**: `gh workflow run deploy.yml` (rebuilds and rolls out HEAD of `main` **without waiting for CI** — the emergency bypass; otherwise let the gate do its job).
+- **Watching a rollout**: a `workflow_run`-triggered run is listed under Actions → Deploy, not among the commit's own checks. `gh run list --workflow=Deploy --limit 1 --json databaseId,headSha,status,conclusion` (then `gh run watch <id> --exit-status`) is the way to follow it; if no Deploy run appears within a minute of CI going green, the fault is in the trigger, not on the box — roll out by hand and fix the trigger forward.
 - **PRs** that touch the Dockerfile, `.dockerignore`, `next.config.mjs` or the workflow get a build-only run, so a broken image never reaches `main` unnoticed.
 - **Logs on the box**: `ssh deploy@<IP> '/srv/learn365/dc.sh logs --tail 100 web'`.
 - **SSH budget**: the VPS has `ufw limit` on port 22 (Računi hardening): more than 6 new connections from one IP within 30 s and the rest are dropped for a while. The workflow therefore uses a pinned host key (`DEPLOY_HOST_KEY`) and opens exactly one connection; never add `ssh-keyscan` back (it opens one connection per key type and tripped the limit on the first rollout). When operating by hand, keep bursts of scp/ssh under 5 and wait a minute if a connection times out.
@@ -128,7 +130,7 @@ Every deployed tag stays in GHCR. On the box:
 ssh deploy@<IP> 'bash /srv/learn365/deploy.sh sha-<previous 12 chars>'
 ```
 
-That is the same script the workflow runs, so a rollback is a normal rollout of an older tag. Fix forward on `main` afterwards.
+That is the same script the workflow runs, so a rollback is a normal rollout of an older tag. Fix forward on `main` afterwards. A red CI on `main` is **not** a rollback case: since Phase 10 nothing is deployed for that commit, the previous image simply stays live.
 
 ## 7. Pre-production gates
 
