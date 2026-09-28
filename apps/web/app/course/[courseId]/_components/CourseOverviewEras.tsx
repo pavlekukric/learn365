@@ -16,6 +16,7 @@ import {
 } from '@learn365/content';
 import {
   findActiveLocation,
+  formatDayRange,
   isCompleted,
   lastOpenedLessonId,
   progressForLessons,
@@ -29,10 +30,6 @@ import styles from './CourseOverviewEras.module.css';
 
 interface CourseOverviewErasProps {
   courseId: CourseId;
-}
-
-function formatDay(day: number): string {
-  return `D${String(day).padStart(3, '0')}`;
 }
 
 /**
@@ -100,7 +97,7 @@ function SectionAccordionRow({
         </span>
         <span className={styles.sectionMeta}>
           <span className={`tiny mono ${styles.sectionDays}`}>
-            {formatDay(section.startDay)}–{formatDay(section.endDay)}
+            {formatDayRange(section.startDay, section.endDay)}
           </span>
           <span className={styles.sectionTitle}>{section.title}</span>
         </span>

@@ -21,8 +21,10 @@ export default defineConfig({
   retries: 0,
   use: {
     baseURL: 'http://127.0.0.1:3100',
-    // Disable animations so screenshots are deterministic.
-    reducedMotion: 'reduce',
+    // Reduced motion so screenshots are deterministic. A context option: as a
+    // bare `use` key it was silently ignored (and fails the e2e type-check
+    // that Phase 14 added to `pnpm typecheck`).
+    contextOptions: { reducedMotion: 'reduce' },
   },
   projects: [
     {

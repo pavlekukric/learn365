@@ -39,14 +39,13 @@ For each viewport (file pattern `<viewport>-<slug>.png`):
 
 | Slug                                  | What it shows                                       |
 | ------------------------------------- | --------------------------------------------------- |
-| `home`                                | Home / hero, fresh session ("Započni kurs" CTA)     |
+| `home`                                | Home / hero, fresh session ("Počni kurs" CTA)        |
 | `home-with-progress`                  | Home after 2 lessons completed ("Nastavi" state)    |
 | `course-overview`                     | Course overview, fresh session                      |
 | `course-overview-with-progress`       | Course overview with 3 lessons completed            |
 | `lesson-001`                          | Day 001 lesson (era I, "Praistorija i antika")      |
 | `lesson-031-nemanjici`                | Day 031 lesson (era II, "Nemanjići") — era variety  |
-| `lesson-007-completed`                | Lesson reader after completion (button = "Završeno") |
-| `lesson-placeholder`                  | Upcoming/placeholder lesson state                   |
+| `lesson-007-completed`                | Lesson reader after completion (button = "Pročitano") |
 | `not-found`                           | 404 page                                            |
 
 Mobile-only extra shot:
@@ -55,15 +54,16 @@ Mobile-only extra shot:
 | ------------------------------------- | --------------------------------------------------- |
 | `lesson-001-sadrzaj-drawer`           | Lesson reader with "Sadržaj" drawer open            |
 
-Total: 8 shared × 2 viewports + 1 mobile-only = **17 PNGs**.
+One PNG per `test(...)` in `capture.spec.ts` per viewport. The former placeholder shot is gone: every lesson is authored (since 2026-05-19).
 
 ## What the app does NOT have (so no screenshots exist for them)
 
 The brief asked for several screens that this v1 codebase does not include.
 Documenting here so the absence isn't mistaken for a gap in the script:
 
-- **Auth / login / paywall / subscriptions** — explicitly out of scope for v1
-  (see `CLAUDE.md` → "Do not implement yet").
+- **Paywall / subscriptions** — out of scope for v1 (`CLAUDE.md` → "Do not implement
+  yet"). Accounts exist since Phase 8 (`/prijava`, `/nalog`), but the pack runs with
+  accounts off (no env vars), so those pages are not captured.
 - **Settings, notifications, streaks, quizzes pages** — same.
 - **Onboarding flow** — no first-run wizard exists; the home page is the entry.
 - **Mobile menu in TopBar** — the TopBar is always inline (no hamburger). The
@@ -79,8 +79,9 @@ If those surfaces are added later, extend `apps/web/scripts/screenshots/capture.
 
 ## Test data / setup requirements
 
-- **No auth, no backend, no env vars.** The whole app runs from static content
-  in `@learn365/content`.
+- **No env vars → accounts off.** The app renders from the generated content
+  modules; the database and Google sign-in stay off without `DATABASE_URL`,
+  `APP_URL` and the `GOOGLE_*` values.
 - **No DB / API server** to start.
 - **Progress state** is seeded via `localStorage` (`learn365:progress:v1`)
   through `addInitScript`, so "with progress" and "completed" shots are

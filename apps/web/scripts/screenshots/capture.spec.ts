@@ -26,7 +26,6 @@ const LESSON = {
   day1: 'day-001',
   day7: 'day-007',
   nemanjici1: 'day-046',
-  placeholder: 'day-359',
 } as const;
 
 const SCREENSHOTS_ROOT = path.resolve(__dirname, '../../../../screenshots');
@@ -116,7 +115,7 @@ test.describe('Screenshot pack', () => {
     await gotoAndSettle(page, `/course/${COURSE_ID}/lesson/${LESSON.day7}`);
     // Sanity: the button should reflect the completed state from seed.
     await expect(
-      page.getByRole('button', { name: /^Završeno$/ }).first(),
+      page.getByRole('button', { name: /^Pročitano$/ }).first(),
     ).toBeVisible();
     await snap(page, testInfo, 'lesson-007-completed');
   });
@@ -140,15 +139,6 @@ test.describe('Screenshot pack', () => {
     await snap(page, testInfo, 'lesson-007-completion-moment', {
       fullPage: false,
     });
-  });
-
-  test('lesson — placeholder/upcoming state', async ({ page }, testInfo) => {
-    await gotoAndSettle(
-      page,
-      `/course/${COURSE_ID}/lesson/${LESSON.placeholder}`,
-    );
-    await expect(page.getByText('Ova lekcija je u pripremi.')).toBeVisible();
-    await snap(page, testInfo, 'lesson-placeholder');
   });
 
   test('404 — not found', async ({ page }, testInfo) => {

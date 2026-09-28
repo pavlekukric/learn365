@@ -1,8 +1,7 @@
 'use client';
 
-import Link from 'next/link';
-
 import type { CourseId } from '@learn365/content';
+import { Button } from '@learn365/ui-web';
 
 import { useResumeLesson } from '@/lib/progress/useResumeLesson';
 
@@ -20,7 +19,7 @@ interface HomeHeroCtaProps {
  * `useResumeLesson` rule, so the hero, the recommended-lesson card and the
  * course overview always open the same lesson:
  *
- * - nothing completed  → "Započni kurs"   → Day 1
+ * - nothing completed  → "Počni kurs"      → Day 1
  * - something completed → "Nastavi lekciju" → the lesson left unfinished,
  *                          else the next unread day (never a finished one)
  * - everything completed → "Otvori kurs"  → course overview
@@ -29,13 +28,11 @@ export function HomeHeroCta({ courseId }: HomeHeroCtaProps) {
   const { hasStarted, lesson } = useResumeLesson(courseId);
 
   const href = lesson ? `/course/${courseId}/lesson/${lesson.id}` : `/course/${courseId}`;
-  const label = !hasStarted ? 'Započni kurs' : lesson ? 'Nastavi lekciju' : 'Otvori kurs';
+  const label = !hasStarted ? 'Počni kurs' : lesson ? 'Nastavi lekciju' : 'Otvori kurs';
 
   return (
     <div className={styles.ctaRow}>
-      <Link href={href} className={styles.ctaPrimary}>
-        {label} →
-      </Link>
+      <Button href={href}>{label} →</Button>
     </div>
   );
 }

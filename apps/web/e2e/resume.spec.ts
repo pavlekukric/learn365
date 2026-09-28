@@ -35,8 +35,8 @@ test.describe('History 365 — resume loop', () => {
     page,
   }) => {
     await page.goto(`/course/${COURSE_ID}/lesson/day-001`);
-    await page.getByRole('button', { name: /^Završi$/ }).click();
-    await expect(page.getByRole('button', { name: /^Završeno$/ })).toBeVisible();
+    await page.getByRole('button', { name: /^Označi kao pročitano$/ }).click();
+    await expect(page.getByRole('button', { name: /^Pročitano$/ })).toBeVisible();
 
     // First-win moment: a human sentence plus the labelled count, in the article.
     const article = page.locator('article');

@@ -1,16 +1,11 @@
-import type { NextRequest, NextResponse } from 'next/server';
+import { NextResponse, type NextRequest } from 'next/server';
 
 import { EPOCH_ISO } from '@learn365/core';
 
 import { guardApi } from '@/lib/server/auth/guard';
 import { syncCourseBookmarks } from '@/lib/server/bookmarks/repository';
-import { PayloadTooLargeError, apiBadRequest, jsonNoStore, readJsonBody } from '@/lib/server/http';
-import {
-  asRecord,
-  parseCourseId,
-  parseIsoTimestamp,
-  parseLessonIds,
-} from '@/lib/server/progress/validation';
+import { apiBadRequest, jsonNoStore, readJsonRecord } from '@/lib/server/http';
+import { parseCourseId, parseIsoTimestamp, parseLessonIds } from '@/lib/server/progress/validation';
 import type { BookmarksWire } from '@/lib/sync/wire';
 
 export const dynamic = 'force-dynamic';
@@ -20,14 +15,8 @@ export async function POST(request: NextRequest): Promise<NextResponse> {
   const guarded = await guardApi(request, { mutating: true });
   if (!('user' in guarded)) return guarded;
 
-  let body: Record<string, unknown> | null;
-  try {
-    body = asRecord(await readJsonBody(request));
-  } catch (error) {
-    if (error instanceof PayloadTooLargeError) return jsonNoStore({ error: 'too_large' }, 413);
-    return apiBadRequest('json');
-  }
-  if (body === null) return apiBadRequest('body');
+  const body = await readJsonRecord(request);
+  if (body instanceof NextResponse) return body;
 
   const courseId = parseCourseId(body['courseId']);
   if (courseId === null) return apiBadRequest('courseId');

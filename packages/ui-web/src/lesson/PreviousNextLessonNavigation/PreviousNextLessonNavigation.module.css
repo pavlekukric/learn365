@@ -80,7 +80,7 @@ a.link:focus-visible {
 
 .disabled .label,
 .disabled .title {
-  color: var(--faint);
+  color: var(--muted);
 }
 
 /* Default mobile (≈390px) keeps both halves on one row; only the very

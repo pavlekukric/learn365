@@ -7,6 +7,11 @@ interface MarkAsCompletedButtonProps {
   onClick: () => void;
 }
 
+/**
+ * The completion toggle. One vocabulary with every counter in the app
+ * (`Pročitano N / 365`, the era card's `Pročitano ✓`, the how-it-works
+ * step): the action is "Označi kao pročitano", the state is "Pročitano".
+ */
 export function MarkAsCompletedButton({
   isCompleted,
   onClick,
@@ -18,7 +23,7 @@ export function MarkAsCompletedButton({
       onClick={onClick}
       aria-pressed={isCompleted}
     >
-      <span>{isCompleted ? 'Završeno' : 'Završi'}</span>
+      <span>{isCompleted ? 'Pročitano' : 'Označi kao pročitano'}</span>
       <IconCheck className={styles.icon} />
     </button>
   );

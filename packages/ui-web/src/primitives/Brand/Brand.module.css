@@ -48,3 +48,18 @@
     font-size: 16px;
   }
 }
+
+/* Narrow phones (Phase 14 D4, measured): brand 113 px + Kurs + the labelled
+ * capsule + the account mark need 378 px, a 360–412 px masthead offers
+ * 320–372. The wordmark yields to the monogram below 420 px; it stays in the
+ * DOM (visually hidden) so the brand link keeps its accessible name. */
+@media (max-width: 420px) {
+  .name {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+  }
+}

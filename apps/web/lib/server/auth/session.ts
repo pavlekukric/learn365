@@ -13,7 +13,53 @@ import { sessions, users, type SessionRow, type UserRow } from '../db/schema';
  * that has less than fifteen days left. Expired rows are removed when met
  * and purged in bulk on every sign-in.
  */
+/** Pre-Phase-14 cookie name — still *read* for one release so nobody is signed out by the rename. */
 export const SESSION_COOKIE = 'l365_session';
+/**
+ * `__Host-` prefix (Phase 14, review P2 item 20): the browser accepts such a
+ * cookie only with `Secure`, `Path=/` and no `Domain`, so no subdomain can
+ * plant or shadow it. Local http cannot set `Secure`, hence the plain name there.
+ */
+export const SESSION_COOKIE_HOST = '__Host-l365_session';
+
+export function sessionCookieName(secure: boolean): string {
+  return secure ? SESSION_COOKIE_HOST : SESSION_COOKIE;
+}
+
+/** The subset of `RequestCookies` / `ReadonlyRequestCookies` the readers need. */
+export interface CookieReader {
+  get(name: string): { readonly value: string } | undefined;
+}
+
+/** The subset of `ResponseCookies` the writers need. */
+export interface CookieWriter {
+  set(
+    name: string,
+    value: string,
+    attributes: SessionCookieAttributes & { readonly maxAge?: number },
+  ): unknown;
+}
+
+export interface SessionTokenRead {
+  readonly token: string;
+  /** `true` when the token came from the pre-Phase-14 cookie name — the caller migrates it. */
+  readonly legacy: boolean;
+}
+
+/** The session token from the request: the `__Host-` cookie first, then the legacy name (https only). */
+export function readSessionToken(cookies: CookieReader, secure: boolean): SessionTokenRead | null {
+  const primary = cookies.get(sessionCookieName(secure))?.value;
+  if (primary !== undefined && primary.length > 0) return { token: primary, legacy: false };
+  if (!secure) return null;
+  const legacy = cookies.get(SESSION_COOKIE)?.value;
+  return legacy !== undefined && legacy.length > 0 ? { token: legacy, legacy: true } : null;
+}
+
+/** Drop the session cookie under every name this app has used. */
+export function clearSessionCookies(cookies: CookieWriter, secure: boolean): void {
+  cookies.set(sessionCookieName(secure), '', expiredSessionCookieAttributes(secure));
+  if (secure) cookies.set(SESSION_COOKIE, '', expiredSessionCookieAttributes(secure));
+}
 
 const DAY_MS = 86_400_000;
 export const SESSION_TTL_MS = 30 * DAY_MS;

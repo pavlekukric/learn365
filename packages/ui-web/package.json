@@ -23,6 +23,7 @@
   },
   "dependencies": {
     "@learn365/content": "workspace:*",
+    "@learn365/core": "workspace:*",
     "@learn365/ui": "workspace:*",
     "next": "^15.1.3"
   },

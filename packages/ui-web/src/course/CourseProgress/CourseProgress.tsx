@@ -1,6 +1,9 @@
 import Link from 'next/link';
 
+import { formatDayEyebrow } from '@learn365/core';
+
 import { IconArrow } from '../../icons/IconArrow.js';
+import { Button } from '../../primitives/Button/Button.js';
 import { CompletionDot } from '../../primitives/CompletionDot/CompletionDot.js';
 import { ProgressRing } from '../../primitives/ProgressRing/ProgressRing.js';
 import { clamp01 } from '../../_internal/progressMath.js';
@@ -34,10 +37,6 @@ interface CourseProgressProps {
   journeyDayLabel: string | null;
 }
 
-function formatDay(day: number): string {
-  return `DAN ${String(day).padStart(3, '0')}`;
-}
-
 function readingMeta(minutes: number | undefined): string | null {
   return minutes === undefined ? null : `${String(minutes)} min čitanja`;
 }
@@ -59,21 +58,25 @@ export function CourseProgress({
     return (
       <article className={`${styles.card} ${styles.cardIdle}`}>
         <div className={styles.idleText}>
-          <span className={`tiny mono ${styles.rowLabel}`}>Započni · {formatDay(lesson.day)}</span>
+          <span className={`tiny mono ${styles.rowLabel}`}>Počni · {formatDayEyebrow(lesson.day)}</span>
           <span className={styles.idleTitle}>{lesson.title}</span>
           {meta ? <span className={`tiny mono ${styles.rowMeta}`}>{meta}</span> : null}
         </div>
-        <Link href={href ?? '#'} className={styles.startCta} aria-disabled={href === null}>
+        <Button
+          href={href ?? '#'}
+          aria-disabled={href === null}
+          iconRight={<IconArrow />}
+          className={styles.startCta}
+        >
           Počni od Dana {lesson.day}
-          <IconArrow className={styles.ctaArrow} />
-        </Link>
+        </Button>
       </article>
     );
   }
 
   const value = total > 0 ? clamp01(completed / total) : 0;
   const meta = lesson
-    ? [formatDay(lesson.day), readingMeta(lesson.readingTimeMinutes)].filter(Boolean).join(' · ')
+    ? [formatDayEyebrow(lesson.day), readingMeta(lesson.readingTimeMinutes)].filter(Boolean).join(' · ')
     : null;
 
   return (

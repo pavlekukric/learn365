@@ -14,6 +14,7 @@ import {
   type LessonSummary,
 } from '@learn365/content';
 import { getLessonArticle } from '@learn365/content/server';
+import { formatDayProse } from '@learn365/core';
 import { LessonBody, LessonSources, LessonTrustLine } from '@learn365/ui-web';
 
 import { shareMetadata } from '@/lib/seo/metadata';
@@ -72,11 +73,11 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const lesson = getLessonById(courseId, lessonId);
   const article = getLessonArticle(courseId, lessonId);
   if (!course || !lesson || !article) return {};
-  const title = `Dan ${String(lesson.dayNumber)}: ${lesson.title}`;
+  const title = `${formatDayProse(lesson.dayNumber)}: ${lesson.title}`;
   const description =
     article.summary ??
     article.subtitle ??
-    `Dan ${String(lesson.dayNumber)} od ${String(course.totalLessons)} · ${course.title}`;
+    `${formatDayProse(lesson.dayNumber)} od ${String(course.totalLessons)} · ${course.title}`;
   return {
     title,
     description,

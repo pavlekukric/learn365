@@ -1,14 +1,11 @@
 export { AccountMark, initialsFor, type AccountMarkProps } from './AccountMark/AccountMark.js';
 export { Brand } from './Brand/Brand.js';
 export { Breadcrumbs, type BreadcrumbItem } from './Breadcrumbs/Breadcrumbs.js';
-export { Button } from './Button/Button.js';
-export { Card, type CardProps } from './Card/Card.js';
-export { Chip } from './Chip/Chip.js';
+export { Button, type ButtonProps, type ButtonVariant } from './Button/Button.js';
 export { CompletionDot } from './CompletionDot/CompletionDot.js';
 export { Eyebrow } from './Eyebrow/Eyebrow.js';
 export { Flourish } from './Flourish/Flourish.js';
 export { Footer } from './Footer/Footer.js';
-export { Placeholder } from './Placeholder/Placeholder.js';
 export { ProgressBar } from './ProgressBar/ProgressBar.js';
 export { ProgressRing } from './ProgressRing/ProgressRing.js';
 export { TopBar, type TopBarAccount, type TopBarRoute } from './TopBar/TopBar.js';

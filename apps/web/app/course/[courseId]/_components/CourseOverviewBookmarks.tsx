@@ -10,7 +10,7 @@ import {
   type EraId,
   type LessonSummary,
 } from '@learn365/content';
-import { bookmarkedLessonIds } from '@learn365/core';
+import { bookmarkedLessonIds, formatDayEyebrow } from '@learn365/core';
 import { Eyebrow } from '@learn365/ui-web';
 
 import { useBookmarkStore } from '@/lib/bookmarks/BookmarkStoreProvider';
@@ -24,10 +24,6 @@ interface CourseOverviewBookmarksProps {
 interface ResolvedBookmark {
   lesson: LessonSummary;
   era: Era | undefined;
-}
-
-function formatDay(day: number): string {
-  return `DAN ${String(day).padStart(3, '0')}`;
 }
 
 /**
@@ -77,7 +73,7 @@ export function CourseOverviewBookmarks({ courseId }: CourseOverviewBookmarksPro
               href={`/course/${courseId}/lesson/${lesson.id}`}
             >
               <span className={`tiny mono ${styles.day}`}>
-                {formatDay(lesson.dayNumber)}
+                {formatDayEyebrow(lesson.dayNumber)}
               </span>
               <span className={styles.title}>{lesson.title}</span>
               {era ? (

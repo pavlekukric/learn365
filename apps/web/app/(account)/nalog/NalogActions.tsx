@@ -2,6 +2,8 @@
 
 import { useState } from 'react';
 
+import { Button } from '@learn365/ui-web';
+
 import { useAuth } from '@/lib/auth/AuthProvider';
 
 import styles from '../account.module.css';
@@ -47,25 +49,19 @@ export function NalogActions() {
       ) : null}
 
       <div className={styles.actions}>
-        <button
-          type="button"
-          className={styles.primary}
-          onClick={() => void handleSignOut()}
-          disabled={busy !== null}
-        >
+        <Button variant="outline" onClick={() => void handleSignOut()} disabled={busy !== null}>
           {busy === 'signout' ? 'Odjava…' : 'Odjava'}
-        </button>
+        </Button>
         {!confirming ? (
-          <button
-            type="button"
-            className={styles.quiet}
+          <Button
+            variant="quiet"
             onClick={() => {
               setConfirming(true);
             }}
             disabled={busy !== null}
           >
             Obriši nalog
-          </button>
+          </Button>
         ) : null}
       </div>
 
@@ -75,24 +71,18 @@ export function NalogActions() {
             Ovo briše nalog, napredak i sačuvane lekcije, odmah i trajno. Sigurno?
           </p>
           <div className={styles.actions}>
-            <button
-              type="button"
-              className={styles.danger}
-              onClick={() => void handleDelete()}
-              disabled={busy !== null}
-            >
+            <Button variant="outline" onClick={() => void handleDelete()} disabled={busy !== null}>
               {busy === 'delete' ? 'Brisanje…' : 'Obriši'}
-            </button>
-            <button
-              type="button"
-              className={styles.quiet}
+            </Button>
+            <Button
+              variant="quiet"
               onClick={() => {
                 setConfirming(false);
               }}
               disabled={busy !== null}
             >
               Odustani
-            </button>
+            </Button>
           </div>
         </div>
       ) : null}

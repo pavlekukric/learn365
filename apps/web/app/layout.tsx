@@ -46,7 +46,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
     throw new Error(`Default course "${DEFAULT_COURSE_ID}" is missing from the content registry.`);
   }
   return (
-    <html lang="sr" data-direction="A" className={fontVariableClassName}>
+    <html lang="sr-Latn" data-direction="A" className={fontVariableClassName}>
       <body>
         <a href="#main-content" className="skip-link">
           Preskoči na sadržaj

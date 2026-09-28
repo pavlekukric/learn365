@@ -1,88 +1,90 @@
+/* The one pill (Phase 14). Same pixels the five former copies agreed on:
+ * 12 × 22 px, 14 px sans 500, --r-pill, ink on cream, a 1 px lift on hover. */
 .button {
   display: inline-flex;
   align-items: center;
   gap: var(--space-2);
   font-family: var(--sans);
   font-weight: 500;
-  border-radius: var(--r-md);
-  border: 1px solid transparent;
+  font-size: 14px;
+  line-height: 1.2;
+  text-decoration: none;
+  white-space: nowrap;
   cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
   transition:
+    transform var(--dur-base) var(--ease),
     background var(--dur-base) var(--ease),
     color var(--dur-base) var(--ease),
     border-color var(--dur-base) var(--ease),
-    transform var(--dur-base) var(--ease);
-  white-space: nowrap;
-  -webkit-tap-highlight-color: transparent;
+    opacity var(--dur-base) var(--ease);
 }
 
 .button:focus-visible {
   outline: 2px solid var(--accent);
-  outline-offset: 2px;
+  outline-offset: 3px;
 }
 
-.button:disabled {
-  opacity: 0.4;
-  cursor: not-allowed;
+.button:disabled,
+.button[aria-disabled='true'] {
+  opacity: 0.5;
+  cursor: default;
   pointer-events: none;
 }
 
-.label {
-  display: inline-block;
+.primary {
+  padding: 12px 22px;
+  border: 0;
+  border-radius: var(--r-pill);
+  background: var(--ink);
+  color: var(--bg);
+}
+
+.primary:hover:not(:disabled) {
+  transform: translateY(-1px);
+  background: var(--ink-2);
+}
+
+.outline {
+  padding: 11px 21px;
+  border: 1px solid var(--ink);
+  border-radius: var(--r-pill);
+  background: transparent;
+  color: var(--ink);
+}
+
+.outline:hover:not(:disabled) {
+  background: var(--ink);
+  color: var(--bg);
+}
+
+.quiet {
+  padding: 8px 0;
+  border: 0;
+  background: none;
+  color: var(--ink-2);
+}
+
+.quiet:hover:not(:disabled) {
+  color: var(--ink);
+}
+
+.quiet:focus-visible {
+  border-radius: var(--r-sm);
 }
 
 .icon {
   display: inline-flex;
-  align-items: center;
-  justify-content: center;
+  width: 16px;
+  height: 16px;
   transition: transform var(--dur-base) var(--ease);
 }
 
-.button:hover .iconRight {
+.icon > * {
+  width: 100%;
+  height: 100%;
+}
+
+.button:hover .icon {
   transform: translateX(2px);
-}
-
-/* Sizes */
-.size_sm {
-  font-size: 12px;
-  padding: 6px 10px;
-}
-.size_md {
-  font-size: 13px;
-  padding: 8px 14px;
-}
-.size_lg {
-  font-size: 14px;
-  padding: 10px 18px;
-}
-
-/* Variants */
-.variant_primary {
-  background: var(--ink);
-  color: var(--bg);
-  border-color: var(--ink);
-}
-.variant_primary:hover:not(:disabled) {
-  background: var(--ink-2);
-  border-color: var(--ink-2);
-}
-
-.variant_accent {
-  background: var(--accent);
-  color: var(--bg);
-  border-color: var(--accent);
-}
-.variant_accent:hover:not(:disabled) {
-  background: var(--accent-ink);
-  border-color: var(--accent-ink);
-}
-
-.variant_ghost {
-  background: transparent;
-  color: var(--ink);
-  border-color: var(--rule);
-}
-.variant_ghost:hover:not(:disabled) {
-  background: var(--surface-2);
-  border-color: var(--rule-2);
 }

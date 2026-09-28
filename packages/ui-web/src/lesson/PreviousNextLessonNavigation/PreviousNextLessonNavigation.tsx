@@ -1,5 +1,7 @@
 import Link from 'next/link';
 
+import { formatDayEyebrow } from '@learn365/core';
+
 import { IconArrow } from '../../icons/IconArrow.js';
 import { IconArrowLeft } from '../../icons/IconArrowLeft.js';
 
@@ -21,10 +23,6 @@ interface PreviousNextLessonNavigationProps {
   next: AdjacentLessonLink | null;
 }
 
-function formatDay(day: number): string {
-  return String(day).padStart(3, '0');
-}
-
 export function PreviousNextLessonNavigation({
   prev,
   next,
@@ -35,7 +33,7 @@ export function PreviousNextLessonNavigation({
         <Link href={prev.href} className={`${styles.link} ${styles.prev}`}>
           <span className={`tiny mono ${styles.label}`}>
             <IconArrowLeft className={styles.arrow} />
-            DAN {formatDay(prev.dayNumber)}
+            {formatDayEyebrow(prev.dayNumber)}
           </span>
           <span className={`small ${styles.title}`}>{prev.title}</span>
         </Link>
@@ -54,7 +52,7 @@ export function PreviousNextLessonNavigation({
       {next ? (
         <Link href={next.href} className={`${styles.link} ${styles.next}`}>
           <span className={`tiny mono ${styles.label}`}>
-            DAN {formatDay(next.dayNumber)}
+            {formatDayEyebrow(next.dayNumber)}
             <IconArrow className={styles.arrow} />
           </span>
           <span className={`small ${styles.title}`}>{next.title}</span>

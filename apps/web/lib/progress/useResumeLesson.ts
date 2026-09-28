@@ -27,12 +27,20 @@ export interface ResumeState {
    *   - all done  → `null`
    */
   readonly lesson: LessonSummary | null;
+  /**
+   * N in "Tvoj N. dan": the day of the lesson the reader is about to open,
+   * so the ritual eyebrow and the `DAN nnn` on the card beneath it always
+   * agree. `total` once everything is read; `null` before the first
+   * completion (the surfaces render their idle framing instead).
+   */
+  readonly journeyDay: number | null;
 }
 
 /**
  * One resume rule for every "where do I continue?" surface (Home hero CTA,
- * Home recommended-lesson card, Course overview progress card). Keeping the
- * resolution here means the three can never point at different lessons.
+ * Home recommended-lesson card, Home daily anchor, Course overview progress
+ * card). Keeping the resolution here means they can never point at
+ * different lessons or count different days.
  */
 export function useResumeLesson(courseId: CourseId): ResumeState {
   const completedSet = useProgressStore(
@@ -47,6 +55,7 @@ export function useResumeLesson(courseId: CourseId): ResumeState {
     const lesson = hasStarted
       ? findResumeLesson(lessons, completedSet, lastId)
       : (lessons[0] ?? null);
-    return { completed, total: lessons.length, hasStarted, lesson };
+    const journeyDay = hasStarted ? (lesson?.dayNumber ?? lessons.length) : null;
+    return { completed, total: lessons.length, hasStarted, lesson, journeyDay };
   }, [courseId, completedSet, lastId]);
 }

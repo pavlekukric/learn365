@@ -10,8 +10,8 @@ test.describe('History 365 — smoke', () => {
     await page.goto('/');
     await expect(page.getByRole('heading', { level: 1 })).toBeVisible();
     // Fresh session has no progress, so the state-aware hero CTA reads
-    // "Započni kurs" and links to the first lesson.
-    await expect(page.getByRole('link', { name: /Započni kurs/ })).toBeVisible();
+    // "Počni kurs" and links to the first lesson.
+    await expect(page.getByRole('link', { name: /Počni kurs/ })).toBeVisible();
   });
 
   test('home daily anchor reflects idle vs in-progress state', async ({ page }) => {
@@ -24,7 +24,7 @@ test.describe('History 365 — smoke', () => {
     await expect(anchor.getByText(/Tvoj \d+\. dan/)).toHaveCount(0);
 
     // In-progress: seed one completion via the persisted progress key, then
-    // re-navigate. Counter must read "Tvoj 2. dan" (completedCount + 1).
+    // re-navigate. Counter must read "Tvoj 2. dan" (the resume lesson's day).
     const seed = {
       state: {
         byCourse: {
@@ -66,7 +66,7 @@ test.describe('History 365 — smoke', () => {
     await expect(page.getByRole('heading', { level: 1 })).toBeVisible();
     // Post-2026-09-25 each era card is a disclosure button (opens its
     // sections) with one labelled action link beside it.
-    const eraCards = page.getByRole('button', { name: /^Epoha [IVX]+:/ });
+    const eraCards = page.getByRole('button', { name: /^EPOHA [IVX]+ / });
     await expect(eraCards).toHaveCount(8);
     await expect(page.getByRole('link', { name: /^Počni: / })).toHaveCount(8);
   });
@@ -80,17 +80,17 @@ test.describe('History 365 — smoke', () => {
     // longer render a "u toku" accent chip.
     await page.goto(`/course/${COURSE_ID}`);
 
-    // Idle (fresh session): kicker reads ZAPOČNI; no SLEDEĆE row exists;
+    // Idle (fresh session): kicker reads "Počni · DAN 001"; no SLEDEĆE row exists;
     // no NASTAVI fallback to the prior framing.
-    await expect(page.getByText('ZAPOČNI')).toBeVisible();
+    await expect(page.getByText(/^Počni · DAN 001$/)).toBeVisible();
     await expect(page.getByText('SLEDEĆE')).toHaveCount(0);
     await expect(page.getByText('NASTAVI')).toHaveCount(0);
     // No era card carries the dropped "u toku" accent chip.
     await expect(page.getByText('u toku')).toHaveCount(0);
 
     // In-progress: seed one completion via the persisted progress key and
-    // reload; the eyebrow flips to "Tvoj 2. dan" (computed identically to
-    // HomeDailyAnchor — completedCount + 1, capped at 365).
+    // reload; the eyebrow flips to "Tvoj 2. dan" (the resume lesson's day,
+    // shared with HomeDailyAnchor through useResumeLesson).
     const seed = {
       state: {
         byCourse: {
@@ -118,11 +118,11 @@ test.describe('History 365 — smoke', () => {
 
     // The day position is surfaced per layout: single-column (≤1024px) shows
     // "Dan 001 / 365" in the sticky LessonContextHeader; desktop shows the
-    // active "D001" row in the always-visible sidebar. (It is no longer a
+    // active "001" row in the always-visible sidebar. (It is no longer a
     // breadcrumb crumb.) Match whichever the current layout renders visible.
     await expect(
       page
-        .getByText(/Dan 001|D001/)
+        .getByText(/Dan 001|^001$/)
         .filter({ visible: true })
         .first(),
     ).toBeVisible();
@@ -146,11 +146,11 @@ test.describe('History 365 — smoke', () => {
       await expect(timeline).toBeVisible();
     }
 
-    const markBtn = page.getByRole('button', { name: /^Završi$/ });
+    const markBtn = page.getByRole('button', { name: /^Označi kao pročitano$/ });
     await expect(markBtn).toBeVisible();
     await markBtn.click();
 
-    await expect(page.getByRole('button', { name: /^Završeno$/ })).toBeVisible();
+    await expect(page.getByRole('button', { name: /^Pročitano$/ })).toBeVisible();
   });
 
   test('lesson meta row stays visible while scrolling (single-column)', async ({ page }) => {
@@ -252,12 +252,12 @@ test.describe('History 365 — smoke', () => {
 
   test('completion persists across reload', async ({ page }) => {
     await page.goto(`/course/${COURSE_ID}/lesson/${AUTHORED_LESSON_ID}`);
-    await page.getByRole('button', { name: /^Završi$/ }).click();
-    await expect(page.getByRole('button', { name: /^Završeno$/ })).toBeVisible();
+    await page.getByRole('button', { name: /^Označi kao pročitano$/ }).click();
+    await expect(page.getByRole('button', { name: /^Pročitano$/ })).toBeVisible();
 
     await page.reload();
 
-    await expect(page.getByRole('button', { name: /^Završeno$/ })).toBeVisible();
+    await expect(page.getByRole('button', { name: /^Pročitano$/ })).toBeVisible();
   });
 
   test('about page renders and is reachable from the footer', async ({ page }) => {

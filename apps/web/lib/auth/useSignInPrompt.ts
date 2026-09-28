@@ -9,7 +9,7 @@ import { useProgressStore } from '@/lib/progress/ProgressStoreProvider';
 import { useAuth } from './AuthProvider';
 import { SIGNIN_PROMPT_KEY } from './localKeys';
 
-/** The ask appears once this many lessons are completed (the second `Završi`). */
+/** The ask appears once this many lessons are completed (the second `Označi kao pročitano`). */
 export const SIGN_IN_ASK_AFTER = 2;
 
 function readDismissed(): boolean {

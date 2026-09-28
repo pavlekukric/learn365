@@ -20,7 +20,8 @@ function routeFromPath(pathname: string | null): TopBarRoute {
   }
   if (pathname.startsWith('/course/')) return 'course';
   if (pathname.startsWith('/o-aplikaciji')) return 'about';
-  return 'home';
+  // /prijava, /nalog, /privatnost, 404: no nav item is the current page.
+  return 'other';
 }
 
 /** Where `/prijava` should send the reader back to — never to an account page itself. */

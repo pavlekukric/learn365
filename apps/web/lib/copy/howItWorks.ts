@@ -24,11 +24,11 @@ export const HOW_IT_WORKS_STEPS: readonly HowItWorksStep[] = [
     text: `Svaki dan te čeka jedna kratka lekcija, ${READING_TIME_LABEL} čitanja.`,
   },
   {
-    title: 'Označi je kao pročitanu',
+    title: 'Označi kao pročitano',
     text: 'Jedan klik na kraju teksta. Napredak se pamti u ovom pregledaču; prijavom Google nalogom prenosi se i na druge uređaje.',
   },
   {
-    title: 'Sutra nastavi gde si stao',
+    title: 'Sutra nastavi dalje',
     text: 'Kurs te uvek vraća na prvu nepročitanu lekciju.',
   },
 ];

@@ -151,7 +151,7 @@ a.band:focus-visible {
 }
 
 .yearShort {
-  color: var(--faint);
+  color: var(--muted);
   font-variant-numeric: tabular-nums;
   /* "9500 p.n.e." must not wrap into two lines; the @container rule drops it instead. */
   white-space: nowrap;
@@ -160,7 +160,7 @@ a.band:focus-visible {
 /* Full year range — mobile only (there is room for it in the vertical rows). */
 .yearFull {
   display: none;
-  color: var(--faint);
+  color: var(--muted);
   font-variant-numeric: tabular-nums;
 }
 

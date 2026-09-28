@@ -62,41 +62,32 @@ type BreadcrumbsProps = { items: BreadcrumbItem[] };
 ```
 
 Render order: `href` → `<Link>`; `onClick` → `<button>`; neither → `<span>`.
-The last item always renders as a non-interactive span with
-`aria-current="page"`, regardless of `href` / `onClick`. Separator is `/`.
+The last item follows the same rule: with an `href` it is a link, without one a plain span
+marked `aria-current="page"`. Separator is `/`.
 
 Phase 6.8d completed the Phase-3 `onClick → href` revision for navigation —
 breadcrumbs that go up a level use `href` so middle-click / right-click /
 open-in-new-tab work and the crumb is a real anchor (not a styled span).
 
-A11y: wrap in `<nav aria-label="Breadcrumbs">`, last item gets `aria-current="page"`.
+A11y: wrap in `<nav aria-label="Breadcrumbs">`; a crumb with an `href` is a link wherever it sits, and only a last crumb *without* one gets `aria-current="page"` (the lesson page passes four ancestor links and no current crumb).
 Mobile: shows only the last two crumbs.
 
 ### `Button`
 
 ```ts
 type ButtonProps = {
-  variant?: 'primary' | 'accent' | 'ghost';
-  size?: 'sm' | 'md' | 'lg';
-  iconLeft?: ReactNode;
+  variant?: 'primary' | 'outline' | 'quiet';
   iconRight?: ReactNode;
-  disabled?: boolean;
-  onClick?: () => void;
+  className?: string; // layout hook only (grid placement)
   children: ReactNode;
-};
+} & (
+  | { href: string; plainAnchor?: boolean; 'aria-disabled'?: boolean } // next/link, or a plain <a> for /api/** hrefs
+  | { type?: 'button' | 'submit' | 'reset'; onClick?: MouseEventHandler; disabled?: boolean; 'aria-pressed'?: boolean }
+);
 ```
 
-States: idle, hover, focus-visible, active (pressed), disabled.
-The trailing arrow icon translates 2 px right on hover.
-A11y: native `<button>` with type=button by default.
-
-### `Card`
-
-```ts
-type CardProps = { as?: 'div' | 'button'; padding?: 'sm' | 'md' | 'lg'; children: ReactNode };
-```
-
-Surface with hairline border and `radii.lg`. When `as="button"`, becomes an interactive card with hover wash and focus ring.
+The one pill (Phase 14): `primary` is the ink pill — one per surface (Home hero CTA, course start, 404, sign-in); `outline` its hollow twin (`Odjava`, the delete confirmation); `quiet` a text action (`Ne sada`, `Obriši nalog`). Surfaces carry no pill CSS of their own. The trailing icon translates 2 px right on hover.
+A11y: a native `<button>` (type=button by default) or a real anchor; `aria-disabled` keeps an inert link in the tree.
 
 ### `ProgressBar`
 
@@ -129,14 +120,6 @@ States visually:
 
 A11y: decorative when paired with a lesson title; given `aria-hidden="true"`. Lesson row owns the textual state announcement.
 
-### `Chip`
-
-```ts
-type ChipProps = { variant?: 'default' | 'accent'; children: ReactNode };
-```
-
-Small pill with subtle background. Used for "u toku" on Course overview.
-
 ### `Eyebrow`
 
 ```ts
@@ -148,14 +131,6 @@ Renders the eyebrow type class — uppercase, tracked, muted.
 ### `Flourish`
 
 Decorative divider. Centered serif glyph (`✦`) with two hairlines. Hidden in Modern direction.
-
-### `Placeholder`
-
-```ts
-type PlaceholderProps = { label?: string; ratio?: string; children?: ReactNode };
-```
-
-Dot-grid background with a label chip. Used until real imagery is authored.
 
 ### Icons
 

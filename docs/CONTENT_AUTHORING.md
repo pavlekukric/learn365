@@ -1,67 +1,74 @@
 # Content Authoring
 
-> **Schema source of truth:** [`CONTENT_MODEL.md`](./CONTENT_MODEL.md). This document covers the *mechanics* of writing and shipping content for the first course (`istorija-srbije-365`) — file layout, validator, MDX migration path. Tone and historical-accuracy expectations come from `CONTENT_MODEL.md`.
+> **Schema source of truth:** [`CONTENT_MODEL.md`](./CONTENT_MODEL.md) and `packages/content/src/types.ts`. This document covers the *mechanics* of writing and shipping content for the first course (`istorija-srbije-365`): the JSON files, the validator, the codegen step, the checklist.
 
 ---
 
 ## 1. Core rule
 
-**Content lives in `packages/content` and is never written inside React components.** Lesson bodies are structured `LessonBlock[]` arrays. Components render the blocks; they do not contain the text.
-
-This separation is what lets the same lessons render unchanged on web today and on mobile later, and what lets us migrate to MDX/Markdown without touching UI code.
+**Content lives in JSON files under `content/`, never inside React components.** Lesson bodies are structured `LessonBlock[]` arrays; components render the blocks and contain no text of their own. This is what lets the same lessons render on web today and on a native app later, and what lets the source format change without touching UI code.
 
 ---
 
-## 2. v1 authoring format — TypeScript modules
-
-For v1, each lesson is a TypeScript file under:
+## 2. Where the files are
 
 ```
-packages/content/src/courses/istorija-srbije-365/lessons/<lesson-id>.ts
+content/courses/istorija-srbije-365/
+├─ course.json                 # one Course record
+├─ eras.json                   # 8 Era records
+├─ sections.json               # 37 Section records
+└─ lessons/
+   ├─ day-001.json             # one Lesson per file, 365 files
+   ├─ day-002.json
+   └─ …
 ```
 
-Each file default-exports a `Lesson` record.
+The loader (`packages/content/src/loader/loadCourseFromFiles.ts`) reads these once; nothing at runtime touches the file system. Two generated modules under `packages/content/src/courses/istorija-srbije-365/` make the content visible to the bundler — see §4.
 
-### Template
+---
 
-```ts
-import type { Lesson } from '@learn365/content/types';
+## 3. A lesson file (illustrative values)
 
-const lesson: Lesson = {
-  id: 'nemanjici-rani-001',
-  courseId: 'istorija-srbije-365',
-  eraId: 'nemanjici',
-  sectionId: 'nemanjici-rani',
-  dayNumber: 31,
-  order: 1,
-  title: 'Stefan Nemanja preuzima vlast',
-  subtitle: 'Sabor velikaša u Rasu i tihi početak nove ere',
-  // readingTimeMinutes is derived from the text by the loader (Phase 11) — never written by hand
-  year: 1166,
-  dateLabel: '1166.',
-  timelinePosition: '1166',
-  keyPeople: ['Stefan Nemanja', 'Tihomir'],
-  keyPlaces: ['Ras', 'Studenica'],
-  summary:
-    'Saborski preokret kojim Stefan Nemanja preuzima vlast nad Raškom i postavlja temelj nemanjićke države.',
-  content: [
-    { type: 'paragraph', dropcap: true, text:
-      'Poslednje godine dvanaestog veka zatekle su Rasku u trenutku kada je samo jasna ruka mogla da je ujedini…' },
-    { type: 'paragraph', text:
-      'Stefan Nemanja je u to vreme već bio iskusan vladar mlađe braće…' },
-    { type: 'heading', level: 2, text: 'Šta je značio sabor iz 1166.' },
-    { type: 'paragraph', text:
-      'Sabor velikaša u Rasu nije bio samo formalnost…' },
-    { type: 'quote',
-      text: 'Zakonom valja vladati, a ne silom; jer sila je za jedan dan, a zakon za vek.',
-      attribution: 'pripisano sv. Savi' },
-    { type: 'paragraph', text:
-      'U sledećoj lekciji govorimo o tome kako je Nemanja iskoristio crkveni raskol…' },
+```json
+{
+  "id": "day-046",
+  "courseId": "istorija-srbije-365",
+  "sectionId": "nemanjici-rani",
+  "eraId": "nemanjici",
+  "dayNumber": 46,
+  "order": 1,
+  "title": "Stefan Nemanja preuzima vlast",
+  "subtitle": "Sabor velikaša u Rasu i tihi početak nove ere",
+  "year": 1166,
+  "dateLabel": "1166.",
+  "timelinePosition": "1166",
+  "summary": "Saborski preokret kojim Stefan Nemanja preuzima vlast nad Raškom i postavlja temelj nemanjićke države.",
+  "keyPeople": ["Stefan Nemanja", "Tihomir"],
+  "keyPlaces": ["Ras", "Studenica"],
+  "content": [
+    { "type": "paragraph", "dropcap": true, "text": "Poslednje godine dvanaestog veka …" },
+    { "type": "paragraph", "text": "Stefan Nemanja je u to vreme …" },
+    { "type": "heading", "level": 2, "text": "Šta je značio sabor iz 1166." },
+    { "type": "paragraph", "text": "Sabor velikaša u Rasu nije bio samo formalnost …" },
+    { "type": "quote", "text": "…", "attribution": "Studenička povelja" },
+    { "type": "paragraph", "text": "…" }
   ],
-};
-
-export default lesson;
+  "isPlaceholder": false,
+  "lastReviewedAt": "2026-05-19",
+  "sources": [
+    { "kind": "book", "title": "Istorija srpskog naroda I", "author": "Sima Ćirković (ur.)", "year": 1981 },
+    { "kind": "web", "title": "Studenica — UNESCO World Heritage", "url": "https://whc.unesco.org/en/list/389/", "year": 2026 }
+  ]
+}
 ```
+
+### Rules the validator enforces
+
+- `id` is `day-NNN` (three digits) and equals the file name; `dayNumber` matches it, is unique, and the corpus covers 1..`totalLessons` with no gaps.
+- `courseId`, `eraId`, `sectionId` reference existing records; the lesson's era is its section's era; sections are contiguous day ranges in `order`; eras are in `order` with `yearStart ≤ yearEnd`.
+- At least one content block; an authored lesson's first block is a `paragraph` with `dropcap: true`; a body that is only the placeholder sentence must set `isPlaceholder: true`.
+- `image` blocks carry `width`, `height` and a non-empty `alt`.
+- **No `readingTimeMinutes` on a lesson and no `estimatedMinutesPerLesson` on the course** — both are derived by the loader (Phase 11: `max(1, ceil(words / 150))` per lesson; the median for the course) and rejected when present. The copy's promise (`5–7 minuta`) is computed from the corpus, so a lesson far outside 700–1100 words moves the promise.
 
 ### Block types
 
@@ -70,215 +77,88 @@ type LessonBlock =
   | { type: 'paragraph'; text: string; dropcap?: boolean }
   | { type: 'heading';   level: 2 | 3; text: string }
   | { type: 'quote';     text: string; attribution?: string }
-  | { type: 'image';     src: string; alt: string; caption?: string };
+  | { type: 'image';     src: string; alt: string; width: number; height: number; caption?: string };
 ```
 
-Rules:
+- `heading` level 2 is the largest in-body heading; level 3 is for sub-points. Most lessons need 0–2 headings.
+- `quote` is for short, attributed primary-source quotations.
+- `image` is used only on the 8 era-opener lessons (Days 1, 46, 106, 151, 196, 231, 281, 341), at `content[1]`, with a Wikimedia Commons asset under `apps/web/public/lessons/era-N-<slug>.webp` and the attribution inside `caption`. Other lessons stay imageless by design.
+- No HTML and no links inside `text`.
 
-- Exactly one `paragraph` may have `dropcap: true`, and it must be the first content block.
-- `heading` `level: 2` is the largest in-body heading; `level: 3` is for sub-points.
-- `quote` attribution is optional but recommended for primary-source quotations.
-- `image` `alt` is mandatory and must be meaningful (not "image of …").
+### Trust fields
 
-### File naming
-
-```
-lessons/<section-id>-<NNN>.ts
-```
-
-Where `NNN` is the lesson's position within the Section, 1-indexed and zero-padded to 3.
-
-The lesson `id` follows the same shape (`<section-id>-<NNN>` — e.g., `nemanjici-rani-007`).
+`sources[]` (book / article / museum / archive / web), `lastReviewedAt` (ISO date) and `byline { author?, reviewer? }` render after the body as *Izvori* and the trust line. A byline names a real person per lesson; there is no generic fallback, so leave it out rather than invent one.
 
 ---
 
-## 3. Eras and Sections
+## 4. Pipeline: validate, generate, commit
 
-Both live in dedicated files at the course root:
-
-```
-packages/content/src/courses/istorija-srbije-365/
-├─ course.ts
-├─ eras.ts                # 8 Era records
-├─ sections.ts            # ~30–40 Section records
-└─ lessons/
-   ├─ index.ts            # barrel: imports + exports every lesson
-   ├─ <section-id>-001.ts
-   ├─ <section-id>-002.ts
-   └─ …
+```bash
+pnpm validate-content     # the checks above; exits 1 with a list of failures
+pnpm gen-content          # writes packages/content/src/courses/istorija-srbije-365/_generated.ts
+                          #   (course, eras, sections, lesson summaries — the client index)
+                          # and _generated.articles.ts (bodies, sources, bylines — server only)
 ```
 
-### Era record
+Both generated files are committed. **CI fails when they differ from what `pnpm gen-content` produces** (the drift check runs before the build), so every content edit is: edit JSON → `pnpm validate-content` → `pnpm gen-content` → commit all three. The app never reads JSON at runtime; forgetting the codegen step ships stale content locally.
 
-```ts
+Why two generated files: the client bundle carries only the navigation index (~9 kB gzip for 365 lessons); the bodies (~800 kB gzip) are rendered by the server page (Phase 9). The split is declared once, as `LESSON_ARTICLE_KEYS` in `packages/content/src/types.ts`.
+
+---
+
+## 5. Eras and sections
+
+```json
+// eras.json (one of 8)
 {
-  id: 'nemanjici',
-  courseId: 'istorija-srbije-365',
-  num: 'II',
-  title: 'Nemanjićka Srbija',
-  description: 'Od Stefana Nemanje i Svetog Save do carstva Dušana Silnog…',
-  yearStart: 1166,
-  yearEnd: 1371,
-  yearsLabel: '1166 — 1371.',
-  eraShort: 'Nemanjići',
-  order: 2,
+  "id": "nemanjici", "courseId": "istorija-srbije-365", "num": "II",
+  "title": "Nemanjićka Srbija", "eraShort": "Nemanjići",
+  "description": "Uspon i vrhunac srednjovekovne srpske države …",
+  "yearStart": 1166, "yearEnd": 1371, "yearsLabel": "1166–1371.", "order": 2
+}
+
+// sections.json (one of 37; illustrative values)
+{
+  "id": "nemanjici-rani", "courseId": "istorija-srbije-365", "eraId": "nemanjici",
+  "title": "Rani Nemanjići", "subtitle": "Od Stefana Nemanje do Stefana Prvovenčanog",
+  "order": 6, "startDay": 46, "endDay": 60
 }
 ```
 
-### Section record
-
-```ts
-{
-  id: 'nemanjici-rani',
-  courseId: 'istorija-srbije-365',
-  eraId: 'nemanjici',
-  title: 'Rani Nemanjići',
-  subtitle: 'Od Stefana Nemanje do Stefana Prvovenčanog',
-  order: 1,
-  startDay: 31,
-  endDay: 45,
-}
-```
+`eraShort` must fit a timeline band (≤ 22 characters, no word longer than "Despotovina"). Moving a lesson between sections means updating both sections' day ranges and the lesson's `sectionId` / `eraId` / `order`; the validator catches anything left inconsistent.
 
 ---
 
-## 4. Validation
+## 6. Tone and style
 
-`pnpm --filter @learn365/content validate` runs and must exit 0 before any commit that touches content.
-
-It verifies:
-
-- Total lesson count equals `course.totalLessons` (365).
-- `dayNumber` values are unique and cover 1..365.
-- Each Section's lessons share its `eraId`.
-- Section day ranges are contiguous and non-overlapping.
-- Era year ranges are monotonic and cover the course span.
-- No orphan IDs (every `sectionId` in a Lesson exists in `sections.ts`, etc.).
-- Every Lesson has at least one content block.
-- Derived reading times (`max(1, ceil(words / 150))`) are between 4 and 15 minutes for authored lessons; the JSON must not carry `readingTimeMinutes`.
-- No duplicate lesson IDs.
-
-This validator runs in CI on every PR.
+- Serbian, Latin script; not stilted academic register, not tabloid casual. Ekavian standard — the corpus still carries a few Croatian-standard residues (`tisuću`, `stoljeće`) listed in the 2026-09-28 review, item 24; fix them when you touch a lesson.
+- Neutral, non-ideological framing; no romanticising, no polemics, no anachronistic moralising.
+- One clear arc per lesson: setup → core → significance. 700–1100 words. Vary the shape: not every lesson needs a heading, some deserve a quotation.
+- Gender-neutral address to the reader in UI copy (the lessons themselves are third person).
 
 ---
 
-## 5. Stub lessons for v1 development
+## 7. Future path — Markdown / MDX
 
-The product cannot render at full scale without 365 records. We do not need 365 fully-written lessons to start UI work. The strategy:
-
-- **Fully-authored lessons**: at least 6, spread across multiple Eras (so every era shape is exercised). Initial: Day 1, Day 7, Day 31, Day 106, Day 200, Day 305 — concrete choices made by the Historical Content Editor.
-- **Stub lessons**: every other lesson gets a record with metadata (title, day, section, era, year, reading time) and a single placeholder content block:
-
-  ```ts
-  { type: 'paragraph', text: 'Lekcija se uskoro objavljuje.' }
-  ```
-
-Stubs are generated by `packages/content/src/courses/istorija-srbije-365/_buildStubs.ts` running over the section/era definitions and the curated title list. Stubs convert into real lessons one at a time as the editor writes them.
-
-The sidebar, timeline, and course overview operate at full scale from day one because they only need the metadata, not the body.
-
----
-
-## 6. Tone and style (summary)
-
-Full tone guidance lives in `docs/CONTENT_MODEL.md`. The short version:
-
-- Serbian (Latin script for v1) — not stilted academic register, not tabloid casual.
-- Neutral, non-ideological framing.
-- 5–7 minutes of reading per lesson (≈ 700–1100 words at 150 wpm; the minutes are derived from the text, never written by hand).
-- One clear arc per lesson: setup → core → significance.
-- Avoid romanticization, polemics, anachronistic moralizing.
-
----
-
-## 7. Future path — MDX / Markdown migration
-
-The architecture is designed so v2 can move authoring out of TS without touching UI code.
-
-### Target shape
-
-```
-content/courses/istorija-srbije-365/lessons/
-└─ nemanjici-rani-001.mdx
-```
-
-Frontmatter:
-
-```mdx
----
-id: nemanjici-rani-001
-sectionId: nemanjici-rani
-eraId: nemanjici
-dayNumber: 31
-title: "Stefan Nemanja preuzima vlast"
-subtitle: "Sabor velikaša u Rasu i tihi početak nove ere"
-year: 1166
-dateLabel: "1166."
-keyPeople: ["Stefan Nemanja", "Tihomir"]
-keyPlaces: ["Ras", "Studenica"]
-summary: "Saborski preokret kojim Stefan Nemanja preuzima vlast…"
----
-
-# unused, frontmatter title wins
-
-Poslednje godine dvanaestog veka zatekle su Rasku u trenutku…  *(dropcap inferred from first paragraph)*
-
-Stefan Nemanja je u to vreme već bio iskusan vladar mlađe braće…
-
-## Šta je značio sabor iz 1166.
-
-Sabor velikaša u Rasu nije bio samo formalnost…
-
-> Zakonom valja vladati, a ne silom; jer sila je za jedan dan, a zakon za vek.
-> — pripisano sv. Savi
-
-U sledećoj lekciji…
-```
-
-### Migration mechanics
-
-A build step in `packages/content` reads MDX, parses frontmatter (`gray-matter`), parses the body into the same `LessonBlock[]` shape (`remark` → custom AST → block array), and emits the same exported `Lesson` records.
-
-**The consumer interface (`getLessonById`, `LessonBody`, etc.) does not change.** Only the source format changes.
-
-### When to migrate
-
-Trigger conditions for considering the migration:
-
-- A non-engineer content editor is contributing regularly.
-- The TS lesson files exceed ~50 fully-authored entries.
-- We need image / footnote support beyond what `LessonBlock` supports today.
-
-Until then, TypeScript modules are simpler, type-safe, and easier to grep.
+The loader is the seam: `loadCourseFromFiles` returns the same `Course` / `Era[]` / `Section[]` / `Lesson[]` whatever the source format, and everything downstream (validator, codegen, registry, components) is unchanged. A Markdown source would add a parser (frontmatter → the metadata fields, body → `LessonBlock[]`) in front of the same validator. Trigger for doing it: a non-engineer editor contributing regularly, or a need for footnotes / rich inline formatting the block union does not cover. Until then JSON is explicit, diffable and validated.
 
 ---
 
 ## 8. Localization (future)
 
-Not implemented in v1. The architecture supports it by:
-
-- `Course.language` already exists.
-- A future `lessons/<lesson-id>.<lang>.ts` (or MDX) pattern adds translations.
-- Content lookup helpers will accept a `language` arg.
-
-Out of scope for v1.
+Not implemented. `Course.language` exists; a second language would be a second course directory (`content/courses/<course-id>/`), not parallel files inside this one.
 
 ---
 
-## 9. Authoring checklist for a single lesson
+## 9. Checklist for one lesson
 
-Before merging a lesson into `main`:
-
-- [ ] File path matches `<section-id>-<NNN>.ts` convention.
-- [ ] `id` matches the file name.
-- [ ] `dayNumber` is correct and unique.
-- [ ] `sectionId` and `eraId` match the Section record.
-- [ ] `year` falls within the Era's year range.
-- [ ] First block has `dropcap: true` and is a paragraph.
-- [ ] Body length is between ~700 and ~1100 words.
-- [ ] No HTML in any text field.
-- [ ] No links inside `text` (link blocks deferred to v2).
-- [ ] `keyPeople` / `keyPlaces` are non-empty when historically relevant.
-- [ ] `summary` reads as a standalone sentence.
-- [ ] `pnpm --filter @learn365/content validate` exits 0.
-- [ ] Historical Content Editor agent has reviewed it (or a human equivalent).
+- [ ] File is `lessons/day-NNN.json`; `id` and `dayNumber` match it.
+- [ ] `sectionId` and `eraId` match the section record; `order` is right within the section.
+- [ ] `year` sits inside the era's range and does not run backwards against its neighbours.
+- [ ] First block is a `paragraph` with `dropcap: true`; 700–1100 words; no HTML, no links in `text`.
+- [ ] `summary` is one standalone sentence under ~160 characters.
+- [ ] `keyPeople` / `keyPlaces` are filled where historically relevant.
+- [ ] `sources[]` cover the checkable claims; `lastReviewedAt` set when a fact check was done; no invented `byline`.
+- [ ] No `readingTimeMinutes` in the file.
+- [ ] `pnpm validate-content` exits 0; `pnpm gen-content` run and both generated files committed.
+- [ ] Read once more as the Historical Content Editor (tone, accuracy, chronology).

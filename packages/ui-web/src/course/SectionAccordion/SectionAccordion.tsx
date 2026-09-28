@@ -1,6 +1,7 @@
 import { useId } from 'react';
 
 import type { LessonId, LessonSummary, Section } from '@learn365/content';
+import { formatDayRange } from '@learn365/core';
 
 import { IconChev } from '../../icons/IconChev.js';
 import { LessonNavItem } from '../LessonNavItem/LessonNavItem.js';
@@ -16,11 +17,6 @@ interface SectionAccordionProps {
   onToggle: () => void;
   /** Builder returning the href for a lesson within the parent course. */
   lessonHref: (lesson: LessonSummary) => string;
-}
-
-function formatDayRange(start: number, end: number): string {
-  const pad = (n: number) => String(n).padStart(3, '0');
-  return `D${pad(start)}–D${pad(end)}`;
 }
 
 export function SectionAccordion({

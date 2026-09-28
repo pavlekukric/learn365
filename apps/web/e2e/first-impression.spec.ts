@@ -26,7 +26,7 @@ test.describe('History 365 — first impression', () => {
     await expect(how.getByText('Otvori lekciju')).toBeVisible();
     await expect(how.getByText(/„Dan” je redni broj lekcije/)).toBeVisible();
     // The hero CTA still leads.
-    await expect(page.getByRole('link', { name: /Započni kurs/ })).toBeVisible();
+    await expect(page.getByRole('link', { name: /Počni kurs/ })).toBeVisible();
 
     // Once something is completed the block is gone — the daily anchor
     // takes its place.
@@ -70,7 +70,7 @@ test.describe('History 365 — first impression', () => {
   }) => {
     await page.goto('/o-aplikaciji');
     await expect(page.getByRole('heading', { level: 2, name: 'Kako funkcioniše' })).toBeVisible();
-    await expect(page.getByText('Sutra nastavi gde si stao')).toBeVisible();
+    await expect(page.getByText('Sutra nastavi dalje')).toBeVisible();
     await expect(page.getByText(/Ne navodimo bibliografiju/)).toHaveCount(0);
     await expect(page.getByText(/u fazi izgradnje kursa/)).toHaveCount(0);
     await expect(page.getByText(/Premium/)).toHaveCount(0);
