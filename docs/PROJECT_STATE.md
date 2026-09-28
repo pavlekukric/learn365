@@ -73,6 +73,23 @@ The next phase pick is recorded in [`HANDOFF.md`](../HANDOFF.md) at the repo roo
 
 The remainder of this document is the chronological build log. Each phase entry records the locked decisions, files touched, gates run, and rationale. The log is append-only — use it to answer "why did we build it this way?" or "when did X change?" The current state of any component or surface lives in the **Current Baseline** section above, not in the phase log.
 
+## Phase 10 — CI gates: gen-content drift check, Playwright in CI, deploy waits for CI (2026-09-28): done (PR #42, `eb7cc97`, live)
+
+Review P1 item 8, planned in `docs/archive/phases/PHASE_10_PLAN.md` (six locked decisions; owner sign-off 2026-09-28, together with the standing authorization to merge on green CI without per-phase sign-off for the engineering backlog) and built, merged and rolled out through the new gate the same day. Three commits, each green on its own. A pipeline-only phase: same app, same image, same box — different rules for what may reach the box. Nothing under `apps/` or `packages/` changed behaviour (one reporter line in `playwright.config.ts`).
+
+**What changed:**
+- **10a — Drift check.** `ci.yml`: `validate-content` moved up next to install; new step `Generated content is current` runs `pnpm gen-content`, `git add -N packages/content/src/courses` and fails on `git diff --quiet` with the `--stat` (1 s on the runner). `**/_generated*.ts` added to `.prettierignore` — without it `prettier --check` flags `_generated.ts` (double quotes), so a `pnpm format` would have tripped the check.
+- **10b — Browser suite.** Second job `E2E (Chromium desktop + mobile)` in `ci.yml`, in parallel with `validate` (no `needs`): install → `playwright install --with-deps chromium` (22 s) → `pnpm build` (32 s) → `playwright test --project=chromium-desktop --project=chromium-mobile` (≈ 20 s) → traces uploaded on failure. No env vars, so accounts are off exactly as locally. `playwright.config.ts`: `github` reporter on CI. `NEXT_TELEMETRY_DISABLED` at workflow level. Firefox / WebKit stay in the config for local runs only.
+- **10c — Deploy gate.** `deploy.yml`: `on.push` replaced by `workflow_run` (workflows `[CI]`, `types: [completed]`, `branches: [main]`); the `image` job runs only when `conclusion == 'success'` and the triggering event was a `push` (PR build-only and `workflow_dispatch` stay unconditional — manual is the emergency bypass); `env.SHA = workflow_run.head_sha || github.sha` pins the checkout `ref` and the `sha-<12>` tag to the commit CI validated, not the tip of `main`. Docs: `DEPLOY.md` §2 / §4 / §6 / §9, `APP_ARCHITECTURE.md` §12, this file (baseline + CI line), `HANDOFF.md`.
+
+**Measured:**
+- PR #42 CI: `validate` 1 m 28 s (drift step 1 s), `e2e` 1 m 32 s — **67 pass / 1 skip** in 21.9 s; re-run once as a flake check: 67 / 1 in 19.4 s. CI wall time 1 m 32 s with both jobs in parallel (was 1 m 03 s with one job).
+- First gated rollout (the merge commit `eb7cc97`): merge 18:13:06 UTC → CI green 18:14:44 → Deploy run created 18:14:46 (`event: workflow_run`, checkout log `HEAD is now at eb7cc97`) → image 2 m 03 s → rollout 18 s → live 18:17:19: **4 m 13 s merge → live** (was ≈ 2 m 45 s with the ungated parallel deploy). Production after: `/api/health` = `{"ok":true,"auth":true,"db":"ok"}`, `day-200` `200` in 0.27 s.
+
+**Deviations from the plan:** none in substance. The plan estimated ≈ 6 min merge → live; measured 4 m 13 s, because the e2e job is faster than estimated (Playwright ≈ 20 s on the runner against the prerendered pages).
+
+**Gates:** local drift check green on the committed tree and red on a deliberately stale pair (both directions verified, tree restored); both workflow files parsed with js-yaml; PR CI both jobs green twice; `deploy.yml` build-only run green on the PR; first `workflow_run` rollout green; Računi untouched (no `deploy/` change). Plan archived to `docs/archive/phases/PHASE_10_PLAN.md`.
+
 ## Phase 9 — Corpus out of the client bundle + 366 prerendered pages (2026-09-28): done (PR #40, `6a0a533`, live)
 
 Review P1 items 6 + 7 as one phase, planned in `docs/archive/phases/PHASE_9_PLAN.md` (eight locked decisions; owner sign-off 2026-09-28, "idemo") and built, merged and deployed the same day. Four commits, each green on its own. A delivery-shape phase: same pages, same pixels, same JSON on disk — different packaging.
