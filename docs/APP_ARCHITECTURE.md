@@ -44,8 +44,8 @@ learn365/
 
 ### `packages/content`
 **Owns**: the structured course data — `Course`, `Era`, `Section`, `Lesson` records.
-**Exports**: typed entity arrays/maps and lookup helpers (`getCourse`, `getLessonById`, `getLessonsBySection`, `getEraForLesson`, etc.).
-**Never imports**: anything from `ui`, `ui-web`, `ui-mobile`, `core`, or any app. It is a leaf package.
+**Exports**: two entries (Phase 9). `@learn365/content` — course / era / section records, the `LessonSummary` navigation index (`id`, `courseId`, `sectionId`, `eraId`, `dayNumber`, `order`, `title`, `readingTimeMinutes`, `year`, `isPlaceholder`; ~9 kB gzip for 365 lessons) and every lookup helper (`getCourse`, `getLessonById`, `getLessonsBySection`, `getEraForLesson`, etc.); safe to import from client components. `@learn365/content/server` — `getLessonArticle` (the `LessonArticle`: `content`, `sources`, `byline`, `lastReviewedAt`, `summary`, `keyPeople`, `keyPlaces`, `subtitle`, `dateLabel`, `timelinePosition`); it carries `import 'server-only'`, so a client import fails the build. The split is one constant, `LESSON_ARTICLE_KEYS` in `src/types.ts`; `pnpm gen-content` writes `_generated.ts` and `_generated.articles.ts` from one load.
+**Never imports**: anything from `ui`, `ui-web`, `ui-mobile`, `core`, or any app. It is a leaf package (its only runtime dependency is the `server-only` marker).
 **Side rule**: lesson body text is structured (`LessonBlock[]`), never a React component. The MDX migration path uses the same exit shape.
 
 ### `packages/ui`
@@ -86,6 +86,7 @@ Allowed import directions (→ means "may import from"):
 apps/web      →  ui-web, core, content, ui
 apps/mobile   →  ui-mobile, core, content, ui
 apps/web/lib/server →  content (id validation) only — never ui-web, never the core stores
+apps/web (server components, sitemap) →  content/server (lesson articles) — never from a 'use client' module
 ui-web        →  ui  (+ types from content)
 ui-mobile     →  ui  (+ types from content)
 core          →  (types from content only)
@@ -100,6 +101,7 @@ Disallowed (must trigger a lint or review):
 - `content` importing anything outside its own package
 - Any app importing `design/cloud-design-v1/*`
 - `apps/web/lib/server/**` imported from a client component — the `server-only` package fails the build
+- `@learn365/content/server` imported from a client component — the same `server-only` guard; the lesson articles never reach a browser bundle (Phase 9), and `pnpm --filter @learn365/web check-bundle` fails CI if a route grows past 175 kB gzip anyway
 
 These rules keep content portable across platforms, keep the progress logic testable in isolation, keep components stateless with respect to user data, and keep server code out of the browser bundle.
 
@@ -275,8 +277,9 @@ app/
 ```
 
 - Home is a server component.
-- Course overview is mostly server, with a small client island for the progress card.
-- Lesson reader is a client component (interactive: completion, prev/next, drawer).
+- Course overview and every lesson page are prerendered at build time (Phase 9: `generateStaticParams` + `dynamicParams = false`, 366 pages) — they are pure functions of the content registry; unknown ids are a router 404.
+- Course overview is mostly server, with client islands for the progress card, the bookmarks list and the era accordion (all reading the `LessonSummary` index).
+- The lesson *article* (`LessonBody` + `LessonSources` + `LessonTrustLine`) is rendered by the server page from `@learn365/content/server` and passed to `LessonReader` as one `article` node; the reader chrome (completion, prev/next, drawer, sidebar) is the client island and never sees a lesson body.
 - All progress reads happen client-side. SSR renders unauthenticated, baseline state.
 
 ### Mobile *(future, Expo Router)*
