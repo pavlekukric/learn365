@@ -4,8 +4,11 @@ import { isSameOriginRequest } from '@/lib/server/auth/csrf';
 import { DbUnavailableError, getSessionFromToken } from '@/lib/server/auth/currentUser';
 import {
   SESSION_COOKIE,
+  clearSessionCookies,
   expiredSessionCookieAttributes,
+  readSessionToken,
   sessionCookieAttributes,
+  sessionCookieName,
   validateSessionToken,
   type SessionValidation,
 } from '@/lib/server/auth/session';
@@ -38,17 +41,15 @@ export async function GET(request: NextRequest): Promise<NextResponse<MeResponse
   const auth = getAuthConfig();
   if (auth === null) return jsonNoStore<MeResponse>({ enabled: false, user: null });
 
-  const token = request.cookies.get(SESSION_COOKIE)?.value;
-  if (token === undefined || token.length === 0) {
-    return jsonNoStore<MeResponse>({ enabled: true, user: null });
-  }
+  const read = readSessionToken(request.cookies, auth.secureCookies);
+  if (read === null) return jsonNoStore<MeResponse>({ enabled: true, user: null });
 
   try {
     const db = await getDb();
-    const validation = await validateSessionToken(db, token);
+    const validation = await validateSessionToken(db, read.token);
     if (validation === null) {
       const response = jsonNoStore<MeResponse>({ enabled: true, user: null });
-      response.cookies.set(SESSION_COOKIE, '', expiredSessionCookieAttributes(auth.secureCookies));
+      clearSessionCookies(response.cookies, auth.secureCookies);
       return response;
     }
     const response = jsonNoStore<MeResponse>({ enabled: true, user: toPublicUser(validation.user) });
@@ -56,10 +57,15 @@ export async function GET(request: NextRequest): Promise<NextResponse<MeResponse
     // extended the row, and this is the only route that writes cookies — the
     // browser's expiry must follow the row's, not the value it was given once.
     response.cookies.set(
-      SESSION_COOKIE,
-      token,
+      sessionCookieName(auth.secureCookies),
+      read.token,
       sessionCookieAttributes(validation.session.expiresAt, auth.secureCookies),
     );
+    // A token that arrived under the pre-Phase-14 name now lives under the
+    // `__Host-` name; drop the old copy so the browser sends one cookie.
+    if (read.legacy) {
+      response.cookies.set(SESSION_COOKIE, '', expiredSessionCookieAttributes(auth.secureCookies));
+    }
     return response;
   } catch (error) {
     console.error('[auth] /api/me failed', error);
@@ -75,7 +81,7 @@ export async function DELETE(request: NextRequest): Promise<NextResponse> {
 
   let session: SessionValidation | null;
   try {
-    session = await getSessionFromToken(request.cookies.get(SESSION_COOKIE)?.value);
+    session = await getSessionFromToken(readSessionToken(request.cookies, auth.secureCookies)?.token);
   } catch (error) {
     if (error instanceof DbUnavailableError) return apiUnavailable();
     throw error;
@@ -91,6 +97,6 @@ export async function DELETE(request: NextRequest): Promise<NextResponse> {
   }
 
   const response = noContent();
-  response.cookies.set(SESSION_COOKIE, '', expiredSessionCookieAttributes(auth.secureCookies));
+  clearSessionCookies(response.cookies, auth.secureCookies);
   return response;
 }

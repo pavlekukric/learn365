@@ -7,6 +7,12 @@ import 'server-only';
  * `state` echoed by Google matches the one stored here.
  */
 export const OAUTH_COOKIE = 'l365_oauth';
+/** `__Host-` variant on https (Phase 14) — the same rule as `sessionCookieName`. */
+export const OAUTH_COOKIE_HOST = '__Host-l365_oauth';
+
+export function oauthCookieName(secure: boolean): string {
+  return secure ? OAUTH_COOKIE_HOST : OAUTH_COOKIE;
+}
 export const OAUTH_COOKIE_MAX_AGE_S = 600;
 
 export interface OAuthState {

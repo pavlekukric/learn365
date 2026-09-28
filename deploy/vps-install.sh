@@ -15,8 +15,9 @@ id deploy >/dev/null 2>&1 || useradd --create-home --shell /bin/bash deploy
 usermod -aG docker deploy
 install -d -m 700 -o deploy -g deploy /home/deploy/.ssh
 install -m 600 -o deploy -g deploy "$PUB" /home/deploy/.ssh/authorized_keys
-# ključ iz GitHub Actions sme samo komande: bez port/agent/X11 forwardinga
-sed -i 's/^\(ssh-\)/no-port-forwarding,no-agent-forwarding,no-X11-forwarding \1/' /home/deploy/.ssh/authorized_keys
+# ključ iz GitHub Actions sme TAČNO jednu komandu (deploy.sh sa sha- tagom — Faza 14, ssh-command.sh) i nikakav
+# forwarding ni pty. ssh-command.sh se kopira zajedno sa ostalim deploy/ fajlovima (DEPLOY.md §3b, korak 3).
+sed -i 's#^\(ssh-\)#command="/srv/learn365/ssh-command.sh",no-pty,no-port-forwarding,no-agent-forwarding,no-X11-forwarding \1#' /home/deploy/.ssh/authorized_keys
 
 echo "== folderi"
 install -d -m 755 -o deploy -g deploy /srv/learn365

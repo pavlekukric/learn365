@@ -4,9 +4,9 @@ import { cookies } from 'next/headers';
 import { cache } from 'react';
 
 import { getDb } from '../db/client';
-import { getServerEnv, isAuthEnabled } from '../env';
+import { getAuthConfig, getServerEnv, isAuthEnabled } from '../env';
 
-import { SESSION_COOKIE, validateSessionToken, type SessionValidation } from './session';
+import { readSessionToken, validateSessionToken, type SessionValidation } from './session';
 
 /** The session could not be checked because the database is unreachable (Phase 12). */
 export class DbUnavailableError extends Error {
@@ -38,9 +38,11 @@ export async function getSessionFromToken(
 
 /** Current session for server components / pages (reads the request cookies). */
 export const getCurrentSession = cache(async (): Promise<SessionValidation | null> => {
+  const auth = getAuthConfig();
+  if (auth === null) return null;
   const store = await cookies();
   try {
-    return await getSessionFromToken(store.get(SESSION_COOKIE)?.value);
+    return await getSessionFromToken(readSessionToken(store, auth.secureCookies)?.token);
   } catch (error) {
     // A page must render; without the database the reader is simply not signed in here.
     if (error instanceof DbUnavailableError) return null;

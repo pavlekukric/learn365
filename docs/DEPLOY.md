@@ -37,7 +37,8 @@ Hard rule from the owner. Everything Learn365 owns is separate: `/srv/learn365`,
 | `deploy/cloudflared/config.yml` | Tunnel ingress template (`<TUNNEL_ID>`, `<DOMEN>` placeholders). Copied to `/srv/learn365/cloudflared/config.yml`; the credentials JSON is never in the repo. |
 | `deploy/dc.sh` | `docker compose` wrapper pinned to `/srv/learn365` + its `.env`. |
 | `deploy/deploy.sh` | The rollout script the workflow calls (see §1). Phase 12: remembers the previous `IMAGE_TAG`, and when the new image does not become healthy within ~60 s it restores the previous tag, brings `web` up again and waits once more before exiting 1; the prune keeps the new, the previous and `latest` images. |
-| `deploy/vps-install.sh` | One-time root script: user `deploy` (docker group, key-only, no forwarding) + `/srv/learn365` folders. Does nothing else. |
+| `deploy/vps-install.sh` | One-time root script: user `deploy` (docker group, key-only, no forwarding, forced command) + `/srv/learn365` folders. Does nothing else. |
+| `deploy/ssh-command.sh` | Forced command for the GitHub Actions deploy key (Phase 14): accepts exactly `bash /srv/learn365/deploy.sh sha-<12 hex>` from `SSH_ORIGINAL_COMMAND` and refuses everything else. Lives at `/srv/learn365/ssh-command.sh`; the key's `authorized_keys` line names it in `command="…"` (§13a). |
 | `deploy/.env.example` | `IMAGE_TAG` + the Phase 8 runtime values: `POSTGRES_PASSWORD`, `DATABASE_URL`, `APP_URL`, `GOOGLE_CLIENT_ID`, `GOOGLE_CLIENT_SECRET`. |
 | `deploy/backup.sh` | Nightly `pg_dump -Fc` of the `db` container into `/srv/learn365/backups/`, 14-day retention. One cron line for user `deploy` (§10). Phase 12: `umask 077` (dumps readable by `deploy` only) and every dump is checked with `pg_restore --list` before it counts (the log line carries the entry count; an empty list exits 1). |
 | `.gitattributes` | `*.sh`, `Dockerfile`, `deploy/**` forced to LF so files scp-ed from Windows run on Linux. |
@@ -67,7 +68,7 @@ scp deploy/vps-install.sh ~/.ssh/learn365_deploy.pub root@<IP>:/root/
 ssh root@<IP> 'bash /root/vps-install.sh'
 
 # 3. server: compose + scripts
-scp deploy/docker-compose.yml deploy/dc.sh deploy/deploy.sh deploy@<IP>:/srv/learn365/
+scp deploy/docker-compose.yml deploy/dc.sh deploy/deploy.sh deploy/backup.sh deploy/ssh-command.sh deploy@<IP>:/srv/learn365/
 ssh deploy@<IP> 'chmod +x /srv/learn365/*.sh'
 
 # 4. tunnel (laptop) + its files (server, root because the folder is owned by uid 65532)
@@ -161,6 +162,8 @@ The Phase 5 manual gates (screen-reader smoke, editorial review of the 6 seed le
 | Phase 8 manual QA on production | done — owner, 2026-09-27: the ask after the second lesson, Google sign-in, second device, un-completion, bookmarks, sign-out / re-sign-in all as expected |
 | CI-gated deploy + browser suite in CI (Phase 10) | done — 2026-09-28, PR #42 (`eb7cc97`). First gated rollout: merge 18:13:06 UTC → CI green 18:14:44 (`validate` 1 m 16 s, `e2e` 1 m 35 s: 67 pass / 1 skip) → Deploy run created 18:14:46 from `workflow_run` on the merge SHA → image 2 m 03 s → rollout 18 s → live 18:17:19 = **4 m 13 s merge → live** (was ≈ 2 m 45 s with the ungated parallel deploy). `/api/health` ok, `day-200` `200` |
 | Backend reliability set (Phase 12) | code live — 2026-09-28, PR #46 (`3a315c8`), 4 m 35 s merge → live: 503 on outage, cookie re-set, tolerant start-up, postgres.js timeouts. **Box rollout done by the owner 2026-09-28 20:14 UTC:** the three files moved into place (old copies kept as `*.bak-2026-09-28`), `dc.sh config` ok, `dc.sh up -d web` left the running container as is — the new `depends_on` applies from the next rollout, which already runs the new `deploy.sh`; `learn365-web` and `learn365-db` healthy, `cloudflared` up, Računi containers unchanged. The first verified dump is the next nightly run (`backup.log` line ending in `N unosa`). The commands, for the record — as `deploy` (`ssh -i ~/.ssh/learn365_deploy deploy@<IP>`): `cd /srv/learn365 && for f in deploy.sh backup.sh docker-compose.yml; do cp -p "$f" "$f.bak-$(date +%F)"; mv ".phase12/$f" "$f"; done && rmdir .phase12 && chmod +x deploy.sh backup.sh && bash -n deploy.sh && bash -n backup.sh && ./dc.sh config --quiet && ./dc.sh up -d web && ./dc.sh ps` — then the usual Računi check (`docker ps --filter name=racuni`) and `curl -s https://istorija365.com/api/health`. The next nightly `backup.log` line should end with `N unosa`. |
+| Security headers + `__Host-` cookies (Phase 14) | in the image from the Phase 14 rollout: CSP, HSTS, nosniff, Referrer-Policy, frame-ancestors / X-Frame-Options, Permissions-Policy on every response, `x-powered-by` gone; the session cookie is `__Host-l365_session` (the old name is read for one release and migrated on the next `/api/me`). Check: `curl -sI https://istorija365.com/ \| grep -iE "content-security|strict-transport|x-content|referrer|x-frame|permissions|x-powered"`. |
+| Deploy key forced command + Cloudflare rate limit (Phase 14) | **owner actions, pending** — §13 |
 
 ## 10. Database and accounts (Phase 8)
 
@@ -207,3 +210,52 @@ Nothing in the repo changes for this; the code already uses the alias (`apps/web
 - `next build` prerenders the course overview and all 365 lesson pages (`prerender-manifest.json` lists 373 static routes); `next start` serves them as files, with no React render per request. The runtime image carries roughly 25 MB more (one HTML + one RSC file per page). The account pages (`/prijava`, `/nalog`) and `/api/**` stay dynamic.
 - Those pages answer with `cache-control: s-maxage=31536000`. **Cloudflare does not cache HTML by default, and no cache rule may be added without purge-on-deploy in `deploy.sh` first:** a cached page that references chunk hashes from the previous image is a broken page until purge. Today the edge caches `/_next/static` only, which is content-hashed and safe.
 - Client JS per route is 100–141 kB gzip (933–945 before Phase 9). `pnpm --filter @learn365/web check-bundle` (a CI step after Build) enforces 175 kB gzip per route and 300 kB raw per chunk.
+
+## 13. Owner actions from Phase 14 (review P2 item 20)
+
+Two one-off, reversible steps. Neither touches Računi. Do 13a before or after the Phase 14 rollout — the rollout command is the same either way.
+
+### 13a. The deploy key may run only `deploy.sh` (forced command)
+
+Today the GitHub Actions key opens a plain shell as `deploy` (a member of the `docker` group). With the forced command the same key can run exactly `bash /srv/learn365/deploy.sh sha-<12 hex>` and nothing else: a leaked `DEPLOY_SSH_KEY` could redeploy this app to an image that is already public, and that is all.
+
+**Before you start:** the manual box work so far ran as `deploy` with that same key. After 13a the GitHub key refuses everything but `deploy.sh`, so manual work as `deploy` needs a second key (the laptop's own) in `deploy`'s `authorized_keys`, or goes through `root`. Add the laptop key first if it is not there yet:
+
+```
+ssh root@<IP> 'cat >> /home/deploy/.ssh/authorized_keys' < ~/.ssh/id_ed25519.pub     # laptop key, plain line
+ssh deploy@<IP> id                                                                   # works with the laptop key
+```
+
+Then, from the laptop:
+
+```
+# 1. the script (kept with the other deploy/ files)
+scp deploy/ssh-command.sh deploy@<IP>:/srv/learn365/
+ssh deploy@<IP> 'chmod +x /srv/learn365/ssh-command.sh && bash -n /srv/learn365/ssh-command.sh && echo ok'
+
+# 2. prefix ONLY the GitHub key's line (its comment is "learn365-deploy"); a dated backup of the file stays next to it
+ssh deploy@<IP> 'cp -p ~/.ssh/authorized_keys ~/.ssh/authorized_keys.bak-$(date +%F) && sed -i "/learn365-deploy\$/ s#^#command=\"/srv/learn365/ssh-command.sh\",no-pty,#" ~/.ssh/authorized_keys && cat ~/.ssh/authorized_keys'
+
+# 3. verify: a shell command with the GitHub key is refused (exit 126, "odbijeno: …")
+ssh -i ~/.ssh/learn365_deploy deploy@<IP> id
+```
+
+The accept path is verified by the next gated rollout (any merge to `main`), or on demand with `gh workflow run deploy.yml` (it redeploys HEAD of `main`, ≈ 20 s of rollout). Undo: restore the `.bak-` file.
+
+### 13b. Cloudflare rate limit on `/api/`
+
+Dashboard → zone `istorija365.com` → **Security → WAF → Rate limiting rules → Create rule**:
+
+| Field | Value |
+|---|---|
+| Name | `learn365 api` |
+| If incoming requests match | `(starts_with(http.request.uri.path, "/api/"))` |
+| Characteristics | IP |
+| Rate | 30 requests / 10 seconds (the Free plan fixes the period at 10 s and allows one rule) |
+| Then | Block, for 10 seconds |
+
+Why 30 / 10 s: a page load makes at most three `/api/me*` calls and the sync engine coalesces its deltas, so ten seconds of ordinary use is well under ten requests; a scripted loop against `/api/auth/*` or `/api/me/*` is stopped at the edge before it reaches the box. If the plan allows a second rule, add `/api/auth/` at 6 / 10 s. Verify (this blocks your own IP for 10 s afterwards):
+
+```
+for i in $(seq 40); do curl -s -o /dev/null -w "%{http_code}\n" https://istorija365.com/api/health; done | sort | uniq -c   # some 429
+```

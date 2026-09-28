@@ -4,9 +4,49 @@ import { fileURLToPath } from 'node:url';
 /** Monorepo root — the standalone output traces files relative to it. */
 const repoRoot = resolve(dirname(fileURLToPath(import.meta.url)), '..', '..');
 
+/**
+ * Security headers on every response (Phase 14, review P2 item 20).
+ *
+ * The CSP has no nonce: a nonce needs a per-request render, which would undo
+ * the 373 prerendered pages (Phase 9). `'unsafe-inline'` for scripts is what a
+ * static Next app can promise — it still confines every load to this origin.
+ * Fonts are self-served by next/font (`/_next/static/media`); the only foreign
+ * image is the Google profile picture. `next dev` needs eval for HMR.
+ * Playwright runs against `next start`, so a CSP that broke hydration would
+ * fail CI.
+ */
+const isProductionBuild = process.env.NODE_ENV === 'production';
+const contentSecurityPolicy = [
+  "default-src 'self'",
+  `script-src 'self' 'unsafe-inline'${isProductionBuild ? '' : " 'unsafe-eval'"}`,
+  "style-src 'self' 'unsafe-inline'",
+  "img-src 'self' data: https://*.googleusercontent.com",
+  "font-src 'self'",
+  `connect-src 'self'${isProductionBuild ? '' : ' ws:'}`,
+  "frame-ancestors 'none'",
+  "base-uri 'self'",
+  "form-action 'self'",
+  "object-src 'none'",
+].join('; ');
+const securityHeaders = [
+  { key: 'Content-Security-Policy', value: contentSecurityPolicy },
+  { key: 'X-Content-Type-Options', value: 'nosniff' },
+  { key: 'Referrer-Policy', value: 'strict-origin-when-cross-origin' },
+  { key: 'X-Frame-Options', value: 'DENY' },
+  { key: 'Permissions-Policy', value: 'camera=(), microphone=(), geolocation=()' },
+  // HSTS only from a production build: a browser that saw it over http://localhost would ignore it anyway.
+  ...(isProductionBuild
+    ? [{ key: 'Strict-Transport-Security', value: 'max-age=31536000; includeSubDomains' }]
+    : []),
+];
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
+  poweredByHeader: false,
+  headers() {
+    return Promise.resolve([{ source: '/:path*', headers: securityHeaders }]);
+  },
   // Self-hosted image (apps/web/Dockerfile sets NEXT_STANDALONE=1): minimal
   // server bundle under .next/standalone. Opt-in because the tracing step
   // recreates pnpm's symlinks, which Windows refuses without Developer Mode

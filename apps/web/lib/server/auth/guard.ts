@@ -9,7 +9,7 @@ import { apiForbidden, apiNotFound, apiUnauthorized, apiUnavailable } from '../h
 
 import { isSameOriginRequest } from './csrf';
 import { DbUnavailableError, getSessionFromToken } from './currentUser';
-import { SESSION_COOKIE, type SessionValidation } from './session';
+import { readSessionToken, type SessionValidation } from './session';
 
 export interface ApiContext {
   readonly auth: AuthConfig;
@@ -33,7 +33,9 @@ export async function guardApi(
 
   let session: SessionValidation | null;
   try {
-    session = await getSessionFromToken(request.cookies.get(SESSION_COOKIE)?.value);
+    session = await getSessionFromToken(
+      readSessionToken(request.cookies, auth.secureCookies)?.token,
+    );
   } catch (error) {
     // Phase 12: an outage is 503, never 401 — the client keeps its deltas and retries.
     if (error instanceof DbUnavailableError) return apiUnavailable();

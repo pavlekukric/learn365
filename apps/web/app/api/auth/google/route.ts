@@ -2,9 +2,9 @@ import { NextResponse, type NextRequest } from 'next/server';
 
 import { buildAuthorizationUrl, googleRedirectUri, randomToken } from '@/lib/server/auth/google';
 import {
-  OAUTH_COOKIE,
   encodeOAuthState,
   oauthCookieAttributes,
+  oauthCookieName,
 } from '@/lib/server/auth/oauthState';
 import { sanitizeReturnTo } from '@/lib/server/auth/returnTo';
 import { getAuthConfig } from '@/lib/server/env';
@@ -34,7 +34,7 @@ export function GET(request: NextRequest): NextResponse {
 
   const response = NextResponse.redirect(url, { status: 302, headers: NO_STORE_HEADERS });
   response.cookies.set(
-    OAUTH_COOKIE,
+    oauthCookieName(auth.secureCookies),
     encodeOAuthState({ state, codeVerifier, returnTo }),
     oauthCookieAttributes(auth.secureCookies),
   );

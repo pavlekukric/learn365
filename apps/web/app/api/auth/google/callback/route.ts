@@ -7,15 +7,15 @@ import {
   verifyIdTokenClaims,
 } from '@/lib/server/auth/google';
 import {
-  OAUTH_COOKIE,
   decodeOAuthState,
   oauthCookieAttributes,
+  oauthCookieName,
 } from '@/lib/server/auth/oauthState';
 import {
-  SESSION_COOKIE,
   createSession,
   purgeExpiredSessions,
   sessionCookieAttributes,
+  sessionCookieName,
 } from '@/lib/server/auth/session';
 import { upsertGoogleUser } from '@/lib/server/auth/users';
 import { getDb } from '@/lib/server/db/client';
@@ -38,14 +38,14 @@ export async function GET(request: NextRequest): Promise<NextResponse> {
   if (auth === null) return apiNotFound();
 
   const params = request.nextUrl.searchParams;
-  const stored = decodeOAuthState(request.cookies.get(OAUTH_COOKIE)?.value);
+  const stored = decodeOAuthState(request.cookies.get(oauthCookieName(auth.secureCookies))?.value);
 
   const fail = (reason: Failure): NextResponse => {
     const response = NextResponse.redirect(new URL(`/prijava?greska=${reason}`, auth.appUrl), {
       status: 302,
       headers: NO_STORE_HEADERS,
     });
-    response.cookies.set(OAUTH_COOKIE, '', oauthCookieAttributes(auth.secureCookies, 0));
+    response.cookies.set(oauthCookieName(auth.secureCookies), '', oauthCookieAttributes(auth.secureCookies, 0));
     return response;
   };
 
@@ -81,8 +81,12 @@ export async function GET(request: NextRequest): Promise<NextResponse> {
       status: 302,
       headers: NO_STORE_HEADERS,
     });
-    response.cookies.set(SESSION_COOKIE, token, sessionCookieAttributes(expiresAt, auth.secureCookies));
-    response.cookies.set(OAUTH_COOKIE, '', oauthCookieAttributes(auth.secureCookies, 0));
+    response.cookies.set(
+      sessionCookieName(auth.secureCookies),
+      token,
+      sessionCookieAttributes(expiresAt, auth.secureCookies),
+    );
+    response.cookies.set(oauthCookieName(auth.secureCookies), '', oauthCookieAttributes(auth.secureCookies, 0));
     return response;
   } catch (error) {
     console.error('[auth] google callback failed:', error instanceof Error ? error.message : error);
