@@ -1,6 +1,6 @@
 # Phase 12 — Backend reliability set: honest failure modes for the database, the deploy and the backups (PLAN)
 
-**Status:** Owner-authorized (standing authorization of 2026-09-28 to plan, build and merge the engineering backlog on green CI); built on `feat/phase-12-backend-reliability`.
+**Status:** Code done — merged (PR #46, squash `3a315c8`) and live through the CI gate on 2026-09-28. **D6 (box rollout of the three `deploy/` files) pending the owner:** staged in `/srv/learn365/.phase12/`, the run is a remote shell write the Claude Code auto-mode policy refuses; commands in `docs/DEPLOY.md` §9. Archived; outcome in `docs/PROJECT_STATE.md` → "Phase 12".
 **Date:** 2026-09-28
 **Predecessors:** Phase 11 live (PR #44, `fc72b29`); Phase 10 live (PR #42, `eb7cc97`); Phase 8 live (PR #34, `06e6a55`).
 **Parent references:**
