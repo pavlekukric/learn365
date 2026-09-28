@@ -2,9 +2,11 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 
 import {
+  getAllCourseIds,
   getCourse,
   getEraForLesson,
   getLessonById,
+  getLessons,
   getNextLesson,
   getPrevLesson,
   getSectionForLesson,
@@ -20,6 +22,21 @@ import { LessonPageClient } from './LessonPageClient';
 
 interface PageProps {
   params: Promise<{ courseId: string; lessonId: string }>;
+}
+
+/**
+ * Every lesson is prerendered at build time (Phase 9). The page is a pure
+ * function of the content registry — progress and the session hydrate on
+ * the client — so there is nothing left to compute per request, and
+ * `dynamicParams = false` turns any id outside the registry into a router
+ * 404 instead of a render.
+ */
+export const dynamicParams = false;
+
+export function generateStaticParams(): { courseId: string; lessonId: string }[] {
+  return getAllCourseIds().flatMap((courseId) =>
+    getLessons(courseId).map((lesson) => ({ courseId, lessonId: lesson.id })),
+  );
 }
 
 /** Shape the client (and the post-completion footer) needs for prev/next.

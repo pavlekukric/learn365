@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 
-import { getCourse } from '@learn365/content';
+import { getAllCourseIds, getCourse } from '@learn365/content';
 import { Eyebrow } from '@learn365/ui-web';
 
 import { shareMetadata } from '@/lib/seo/metadata';
@@ -14,6 +14,13 @@ import styles from './page.module.css';
 
 interface PageProps {
   params: Promise<{ courseId: string }>;
+}
+
+/** Prerendered at build time; unknown course ids are a router 404 (Phase 9). */
+export const dynamicParams = false;
+
+export function generateStaticParams(): { courseId: string }[] {
+  return getAllCourseIds().map((courseId) => ({ courseId }));
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
