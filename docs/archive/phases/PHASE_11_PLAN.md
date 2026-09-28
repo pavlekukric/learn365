@@ -1,6 +1,6 @@
 # Phase 11 — Honest reading time: derived from the text, promised as a range (PLAN)
 
-**Status:** Owner-authorized (standing authorization of 2026-09-28 to plan, build and merge the engineering backlog on green CI); built on `feat/phase-11-honest-reading-time`.
+**Status:** Done — built under the standing authorization of 2026-09-28, merged (PR #44, squash `fc72b29`) and rolled out through the CI gate the same evening. Archived; the outcome is in `docs/PROJECT_STATE.md` → "Phase 11".
 **Date:** 2026-09-28
 **Predecessors:** Phase 10 live (PR #42, `eb7cc97`); Phase 9 live (PR #40, `6a0a533`).
 **Parent references:**
