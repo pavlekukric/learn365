@@ -16,7 +16,7 @@ const nextConfig = {
         output: 'standalone',
         // pnpm-linked workspace packages are traced because the root is the
         // monorepo root, not apps/web. Kept behind the same switch so the
-        // Vercel build (still live until the VPS serves the domain) is untouched.
+        // non-standalone build (local `next build`, CI) is untouched.
         outputFileTracingRoot: repoRoot,
       }
     : {}),
