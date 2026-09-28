@@ -159,6 +159,7 @@ The Phase 5 manual gates (screen-reader smoke, editorial review of the 6 seed le
 | Phase 8 switched on (§10) | done — 2026-09-27: `.env` filled (Google project `istorija365`), `learn365-db` up (postgres:17-alpine, volume `learn365-pgdata`), `web` recreated, migrations applied in 62 ms, public `/api/health` = `{"ok":true,"auth":true,"db":"ok"}`, cron `15 3 * * *` for `backup.sh` as `deploy`, first dump 12 KB; Računi containers unchanged, RAM free 2.4 GB |
 | Cloudflare `www` → apex redirect | done — 2026-09-27, 301 rule in the dashboard (query string not preserved; harmless) |
 | Phase 8 manual QA on production | done — owner, 2026-09-27: the ask after the second lesson, Google sign-in, second device, un-completion, bookmarks, sign-out / re-sign-in all as expected |
+| CI-gated deploy + browser suite in CI (Phase 10) | done — 2026-09-28, PR #42 (`eb7cc97`). First gated rollout: merge 18:13:06 UTC → CI green 18:14:44 (`validate` 1 m 16 s, `e2e` 1 m 35 s: 67 pass / 1 skip) → Deploy run created 18:14:46 from `workflow_run` on the merge SHA → image 2 m 03 s → rollout 18 s → live 18:17:19 = **4 m 13 s merge → live** (was ≈ 2 m 45 s with the ungated parallel deploy). `/api/health` ok, `day-200` `200` |
 
 ## 10. Database and accounts (Phase 8)
 

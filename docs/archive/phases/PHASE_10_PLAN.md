@@ -1,6 +1,6 @@
 # Phase 10 — CI gates: browser suite in CI, generated-content drift check, deploy waits for CI (PLAN)
 
-**Status:** Draft, awaiting owner sign-off on the locked decisions (§1).
+**Status:** Done — owner sign-off 2026-09-28 (with the standing authorization to merge on green CI); built, merged (PR #42, squash `eb7cc97`) and rolled out through the new gate the same day (4 m 13 s merge → live). Archived; the outcome is in `docs/PROJECT_STATE.md` → "Phase 10".
 **Date:** 2026-09-28
 **Predecessors:** Phase 9 live (PR #40, `6a0a533`); review P0 closed (PRs #37, #38).
 **Parent references:**
