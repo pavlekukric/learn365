@@ -343,10 +343,11 @@ test         — every package
 validate-content — pnpm --filter @learn365/content validate
 ```
 
-CI (`.github/workflows/ci.yml`) on every PR:
+CI (`.github/workflows/ci.yml`) on every PR and push to `main`, two jobs in parallel (Phase 10). Deploy (`.github/workflows/deploy.yml`) starts only from a green CI on `main` (`workflow_run`; `docs/DEPLOY.md` §4):
 
 ```
-install → lint → typecheck → test → build → validate-content → e2e (web)
+validate: install → validate-content → gen-content drift check → lint → typecheck → test → build → bundle budget
+e2e:      install → chromium → build → playwright (chromium-desktop + chromium-mobile)
 ```
 
 ---
