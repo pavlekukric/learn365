@@ -28,8 +28,7 @@ Example:
   "description": "A structured daily journey through Serbian history, from prehistory to the modern age.",
   "totalLessons": 365,
   "language": "sr",
-  "defaultScript": "latin",
-  "estimatedMinutesPerLesson": 10
+  "defaultScript": "latin"
 }
 ```
 
@@ -42,7 +41,7 @@ Fields:
 - totalLessons
 - language
 - defaultScript
-- estimatedMinutesPerLesson
+- estimatedMinutesPerLesson — derived by the loader (median of the lessons' reading minutes), never authored (Phase 11)
 - coverImage optional
 
 ## HistoricalPeriod / Chapter
@@ -90,7 +89,6 @@ Example:
   "dayNumber": 1,
   "title": "Lepenski Vir",
   "subtitle": "Jedna od najvažnijih praistorijskih kultura na Dunavu",
-  "readingTimeMinutes": 8,
   "dateLabel": "oko 9500–6000. p.n.e.",
   "timelinePosition": "9500 BCE",
   "content": "...",
@@ -109,7 +107,7 @@ Fields:
 - dayNumber
 - title
 - subtitle optional
-- readingTimeMinutes
+- readingTimeMinutes — derived by the loader from the text (`max(1, ceil(words / 150))`), never authored (Phase 11)
 - dateLabel optional
 - timelinePosition optional
 - content

@@ -57,7 +57,6 @@ All shapes mirror the TypeScript types in [packages/content/src/types.ts](packag
   "totalLessons": 365,
   "language": "sr",
   "defaultScript": "latin",
-  "estimatedMinutesPerLesson": 8,
   "coverImage": "optional/url-or-path"
 }
 ```
@@ -71,7 +70,7 @@ All shapes mirror the TypeScript types in [packages/content/src/types.ts](packag
 | `totalLessons`              | integer                    | yes      | Must equal the number of lesson files. For v1: `365`.   |
 | `language`                  | `"sr"`                     | yes      | Only `"sr"` is supported in v1.                         |
 | `defaultScript`             | `"latin"` \| `"cyrillic"`  | yes      | v1 ships Latin.                                         |
-| `estimatedMinutesPerLesson` | integer                    | yes      | Display estimate; per-lesson `readingTimeMinutes` wins. |
+| `estimatedMinutesPerLesson` | —                          | **no — derived** | Not authored (Phase 11): the loader sets it to the median of the lessons' derived `readingTimeMinutes` and rejects the field when present. |
 | `coverImage`                | string                     | no       | Reserved; not rendered today.                           |
 
 ### 2.2 `eras.json` — array of Era objects
@@ -152,7 +151,6 @@ Sections are the sidebar accordion units. Each section sits inside one era and c
   "order": 1,
   "title": "Stefan Nemanja preuzima vlast",
   "subtitle": "Sabor velikaša u Rasu i tihi početak nove ere",
-  "readingTimeMinutes": 8,
   "year": 1166,
   "dateLabel": "1166.",
   "timelinePosition": "1166",
@@ -180,7 +178,7 @@ Sections are the sidebar accordion units. Each section sits inside one era and c
 | `order`              | integer                  | yes      | 1-indexed position within the parent section.                                         |
 | `title`              | string                   | yes      | ≤ 70 characters. Shown as `<h1>` in the reader.                                       |
 | `subtitle`           | string                   | no       | ≤ 120 characters. One-line lede under the title.                                      |
-| `readingTimeMinutes` | integer                  | yes      | Integer minutes, `4..15`. Shown in the lesson eyebrow.                                |
+| `readingTimeMinutes` | —                        | **no — derived** | Not authored (Phase 11): `max(1, ceil(words / 150))` over the paragraph / heading / quote text, computed by the loader, which rejects the field when present. Shown in the lesson eyebrow; authored lessons must land in `4..15`. |
 | `year`               | integer                  | yes      | Must fall inside the era's `[yearStart..yearEnd]`. Negative = BCE.                    |
 | `dateLabel`          | string                   | no       | Display label for the date/period (e.g. `"1166."`, `"oko 9500–6000. p.n.e."`).        |
 | `timelinePosition`   | string                   | no       | Compact label for the timeline pin (e.g. `"9500 BCE"`).                               |
@@ -228,7 +226,6 @@ The app needs all 365 records present from day one — sidebar, timeline, progre
   "dayNumber": 42,
   "order": 12,
   "title": "Marička bitka",
-  "readingTimeMinutes": 7,
   "year": 1371,
   "isPlaceholder": true,
   "content": [
@@ -242,7 +239,7 @@ Hard rules for placeholders:
 - `isPlaceholder: true`.
 - `content` is exactly one `paragraph` block with text `"Lekcija se uskoro objavljuje."` — character-exact.
 - No `dropcap`, no other blocks.
-- Title, `dayNumber`, `sectionId`, `eraId`, `year`, `readingTimeMinutes` must still be valid — the lesson appears in the sidebar and timeline like any other.
+- Title, `dayNumber`, `sectionId`, `eraId`, `year` must still be valid — the lesson appears in the sidebar and timeline like any other. (`readingTimeMinutes` derives to 1 for the stub body; the `4..15` band is not applied to placeholders.)
 
 The reader detects `isPlaceholder` and shows an "Uskoro" notice instead of the body; the "Mark as completed" button is hidden.
 
@@ -285,7 +282,7 @@ The validator checks:
 10. Section day ranges are contiguous and cover `1..totalLessons` exactly.
 11. Era `order` and Section `order` are sequential starting at 1.
 12. Era year ranges are monotonic (non-decreasing `yearStart` by `order`).
-13. `readingTimeMinutes` is in `[4..15]`.
+13. The derived `readingTimeMinutes` is in `[4..15]` for every authored lesson (the field itself must not appear in the JSON — the loader rejects it).
 14. `title.length <= 70`, `subtitle.length <= 120`.
 15. Each lesson has at least one content block.
 16. Placeholders are marked correctly: `isPlaceholder: true` ↔ body is exactly the placeholder paragraph.
@@ -344,7 +341,7 @@ After the switch, the existing TypeScript modules (`course.ts`, `eras.ts`, `sect
 - [ ] `courseId`, `sectionId`, `eraId` resolve and agree with each other.
 - [ ] `year` is inside the era's year range.
 - [ ] `title` ≤ 70 chars.
-- [ ] `readingTimeMinutes` is an integer in `[4..15]`.
+- [ ] No `readingTimeMinutes` in the file — the loader derives it from the text (at 150 wpm, 700–1100 words read as 5–8 minutes).
 - [ ] If authored: first block is `paragraph` with `dropcap: true`; body is 700–1100 words.
 - [ ] If placeholder: `isPlaceholder: true` and body is exactly the placeholder paragraph.
 - [ ] `pnpm --filter @learn365/content validate-files` exits 0.

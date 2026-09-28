@@ -36,7 +36,7 @@ const lesson: Lesson = {
   order: 1,
   title: 'Stefan Nemanja preuzima vlast',
   subtitle: 'Sabor velikaša u Rasu i tihi početak nove ere',
-  readingTimeMinutes: 8,
+  // readingTimeMinutes is derived from the text by the loader (Phase 11) — never written by hand
   year: 1166,
   dateLabel: '1166.',
   timelinePosition: '1166',
@@ -155,7 +155,7 @@ It verifies:
 - Era year ranges are monotonic and cover the course span.
 - No orphan IDs (every `sectionId` in a Lesson exists in `sections.ts`, etc.).
 - Every Lesson has at least one content block.
-- Reading times are between 4 and 15 minutes.
+- Derived reading times (`max(1, ceil(words / 150))`) are between 4 and 15 minutes for authored lessons; the JSON must not carry `readingTimeMinutes`.
 - No duplicate lesson IDs.
 
 This validator runs in CI on every PR.
@@ -185,7 +185,7 @@ Full tone guidance lives in `docs/CONTENT_MODEL.md`. The short version:
 
 - Serbian (Latin script for v1) — not stilted academic register, not tabloid casual.
 - Neutral, non-ideological framing.
-- 7–10 minutes of reading per lesson (≈ 700–1100 words).
+- 5–7 minutes of reading per lesson (≈ 700–1100 words at 150 wpm; the minutes are derived from the text, never written by hand).
 - One clear arc per lesson: setup → core → significance.
 - Avoid romanticization, polemics, anachronistic moralizing.
 
@@ -212,7 +212,6 @@ eraId: nemanjici
 dayNumber: 31
 title: "Stefan Nemanja preuzima vlast"
 subtitle: "Sabor velikaša u Rasu i tihi početak nove ere"
-readingTimeMinutes: 8
 year: 1166
 dateLabel: "1166."
 keyPeople: ["Stefan Nemanja", "Tihomir"]

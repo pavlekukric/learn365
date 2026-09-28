@@ -198,7 +198,7 @@ interface Course {
   totalLessons: number;             // 365 for the first course
   language: 'sr';
   defaultScript: 'latin' | 'cyrillic';
-  estimatedMinutesPerLesson: number;
+  estimatedMinutesPerLesson: number; // derived: median of the lessons' reading minutes (Phase 11)
 }
 
 interface Era {                     // a.k.a. HistoricalPeriod
@@ -239,7 +239,7 @@ interface Lesson {
   dayNumber: number;                // 1..365 unique within course
   title: string;
   subtitle?: string;
-  readingTimeMinutes: number;
+  readingTimeMinutes: number;       // derived from the text by the loader (Phase 11), never authored
   year: number;
   dateLabel?: string;
   timelinePosition?: string;
