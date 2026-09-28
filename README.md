@@ -2,7 +2,7 @@
 
 History 365 is a premium daily learning app for Serbian history.
 
-The goal is to help users learn Serbian history through 365 short, structured lessons. Each lesson should take around 7–10 minutes to read.
+The goal is to help users learn Serbian history through 365 short, structured lessons. Each lesson takes 5–7 minutes to read (the range is derived from the texts, never promised by hand).
 
 The app should feel like a premium educational product: calm, elegant, highly polished, and easy to use.
 
@@ -30,15 +30,13 @@ The first version should NOT include:
 
 - Payment
 - Subscription plans
-- Login / authentication
-- Complex backend
 - Social features
 - Quizzes
 - Comments
 - Admin panel
 - AI-generated content pipeline inside the app
 
-These can be added later.
+These can be added later. Accounts (Google sign-in) and cloud progress left this list with Phase 8 (2026-09-27): Next.js route handlers + PostgreSQL inside `apps/web`; reading never requires an account.
 
 ## Main design inspiration
 
