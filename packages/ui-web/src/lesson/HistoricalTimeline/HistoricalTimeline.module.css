@@ -63,13 +63,14 @@
   display: flex;
 }
 
-/* Proportional width — `--weight` is the era's lesson count; flex-grow
- * distributes the row in proportion, with a floor so the smallest era stays
- * legible. */
+/* Proportional width — `--weight` is the era's (floored) lesson count; flex-grow
+ * distributes the row in proportion. No pixel floor: the floor lives in the
+ * weights (timelineMath `flooredWeights`), so the marker and the fill agree
+ * with the bands (Phase 13). */
 .bandItem {
   display: flex;
   flex: var(--weight, 1);
-  min-width: 64px;
+  min-width: 0;
 }
 
 .band {
@@ -101,9 +102,14 @@ a.band:focus-visible {
 
 .text {
   display: flex;
+  /* Fill the band: a size container has no intrinsic inline size, so without
+   * `flex: 1` it would collapse to 0 and hide every label. */
+  flex: 1;
   flex-direction: column;
   gap: 2px;
   min-width: 0;
+  /* Size container for the label fallback (Phase 13, @container rules at the end). */
+  container: era-text / inline-size;
 }
 
 /* Roman numeral — Spectral serif reads more historical than mono. */
@@ -115,19 +121,40 @@ a.band:focus-visible {
   color: var(--muted);
 }
 
+/* Desktop label: the short era name (`eraShort`) on up to two lines — a label
+ * either fits or is dropped by the @container rule at the end, never cut
+ * mid-word (Phase 13). The full title travels as the band's tooltip. */
 .title {
   font-family: var(--serif);
   font-size: 13px;
   line-height: 1.25;
   color: var(--ink);
-  white-space: nowrap;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
   overflow: hidden;
-  text-overflow: ellipsis;
+  overflow-wrap: normal;
+}
+
+/* Full title — shown only where there is room: the vertical mobile rows and
+ * the compact variant. */
+.titleFull {
+  display: none;
+}
+
+/* The lesson page's strip (`full` variant) sits in a ~700 px column where no
+ * label fits: numerals only, with the name and the years in the tooltip
+ * (Phase 13). Home keeps labels and years; the compact variant its rows. */
+.timeline:not(.home):not(.compact) .titleShort,
+.timeline:not(.home):not(.compact) .yearShort {
+  display: none;
 }
 
 .yearShort {
   color: var(--faint);
   font-variant-numeric: tabular-nums;
+  /* "9500 p.n.e." must not wrap into two lines; the @container rule drops it instead. */
+  white-space: nowrap;
 }
 
 /* Full year range — mobile only (there is room for it in the vertical rows). */
@@ -243,6 +270,7 @@ a.band:focus-visible {
     align-items: baseline;
     gap: var(--space-3);
     min-width: 0;
+    container-type: normal;
   }
 
   .num {
@@ -250,11 +278,17 @@ a.band:focus-visible {
     width: 1.75em;
   }
 
+  /* The vertical rows have room for the full title. */
   .title {
     flex: 1;
+    display: block;
     font-size: 15px;
     white-space: normal;
     overflow: visible;
+  }
+
+  .titleShort {
+    display: none;
   }
 
   .yearShort {
@@ -357,6 +391,7 @@ a.band:focus-visible {
   align-items: baseline;
   gap: var(--space-3);
   min-width: 0;
+  container-type: normal;
 }
 
 .compact .num {
@@ -366,9 +401,14 @@ a.band:focus-visible {
 
 .compact .title {
   flex: 1;
+  display: block;
   font-size: 14px;
   white-space: normal;
   overflow: visible;
+}
+
+.compact .titleShort {
+  display: none;
 }
 
 /* The full year range is dropped in the compact variant — the start year is
@@ -422,6 +462,11 @@ a.band:focus-visible {
     font-size: 14px;
   }
 
+  /* Own container name so the label fallback can use 14 px thresholds. */
+  .home .text {
+    container-name: era-text-home;
+  }
+
   /* Slightly stronger year colour than the default `--faint` so the
    * chronological labels carry their share of the rail's weight. */
   .home .yearShort {
@@ -447,5 +492,50 @@ a.band:focus-visible {
   .railFill,
   .node {
     transition: none;
+  }
+}
+
+/* ---------------------------------------------------------------------------
+ * Label fallback (Phase 13): when a band's text box is narrower than the
+ * longest single word of any short label — "Despotovina", measured 73 px at
+ * 13 px and 79 px at 14 px (Home) in Spectral — drop the label and keep the
+ * numeral + year; when even "9500 p.n.e." (≈ 73 px) cannot sit on one line,
+ * drop the year too. The full title and the years stay in the band's tooltip.
+ * Browsers without container queries simply keep the label.
+ * ------------------------------------------------------------------------- */
+@container era-text (max-width: 72px) {
+  .titleShort {
+    display: none;
+  }
+}
+
+/* A four-digit year needs ~30 px; only a BCE year ("9500 p.n.e.") needs ~73. */
+@container era-text (max-width: 30px) {
+  .yearShort {
+    display: none;
+  }
+}
+
+@container era-text (max-width: 68px) {
+  .textBce .yearShort {
+    display: none;
+  }
+}
+
+@container era-text-home (max-width: 78px) {
+  .titleShort {
+    display: none;
+  }
+}
+
+@container era-text-home (max-width: 32px) {
+  .yearShort {
+    display: none;
+  }
+}
+
+@container era-text-home (max-width: 73px) {
+  .textBce .yearShort {
+    display: none;
   }
 }

@@ -3,7 +3,7 @@ import type { CSSProperties } from 'react';
 
 import type { Era, EraId } from '@learn365/content';
 
-import { markerPositionPercent, timelineFillPercent } from './timelineMath.js';
+import { flooredWeights, markerPositionPercent, timelineFillPercent } from './timelineMath.js';
 
 import styles from './HistoricalTimeline.module.css';
 
@@ -68,9 +68,13 @@ export function HistoricalTimeline({
   eraStats,
   variant = 'full',
 }: HistoricalTimelineProps) {
-  // Per-era lesson counts → proportional band weights. Without `eraStats` every
-  // band weighs 1, so the layout falls back to equal widths.
-  const weights = eras.map((era) => eraStats?.get(era.id)?.lessonCount ?? 1);
+  // Per-era lesson counts → proportional band weights, with the smallest era
+  // raised to MIN_BAND_SHARE so its label has room (Phase 13). The same weights
+  // size the bands (CSS `--weight`), place the marker and draw the fill, so the
+  // three always agree. Without `eraStats` every band weighs 1 (equal widths).
+  const weights = eraStats
+    ? flooredWeights(eras.map((era) => eraStats.get(era.id)?.lessonCount ?? 0))
+    : eras.map(() => 1);
 
   const markerPct = markerPositionPercent(
     eras,
@@ -88,6 +92,7 @@ export function HistoricalTimeline({
             completedCount: stat?.completedCount ?? 0,
           };
         }),
+        weights,
       )
     : 0;
 
@@ -128,9 +133,12 @@ export function HistoricalTimeline({
             const content = (
               <>
                 <span className={styles.node} aria-hidden="true" />
-                <span className={styles.text}>
+                <span className={`${styles.text} ${era.yearStart < 0 ? styles.textBce : ''}`}>
                   <span className={`mono ${styles.num}`}>{era.num}</span>
-                  <span className={styles.title}>{era.title}</span>
+                  {/* Short label on the desktop rail, full title in the vertical rows;
+                      CSS shows one of the two (Phase 13). */}
+                  <span className={`${styles.title} ${styles.titleShort}`}>{era.eraShort}</span>
+                  <span className={`${styles.title} ${styles.titleFull}`}>{era.title}</span>
                   <span className={`tiny mono ${styles.yearShort}`}>
                     {formatYearShort(era.yearStart)}
                   </span>
@@ -150,6 +158,7 @@ export function HistoricalTimeline({
                   <Link
                     href={eraHref(era.id)}
                     className={cls}
+                    title={`${era.title} (${era.yearsLabel})`}
                     aria-current={state === 'current' ? 'true' : undefined}
                   >
                     {content}
@@ -157,6 +166,7 @@ export function HistoricalTimeline({
                 ) : (
                   <span
                     className={cls}
+                    title={`${era.title} (${era.yearsLabel})`}
                     aria-current={state === 'current' ? 'true' : undefined}
                   >
                     {content}
