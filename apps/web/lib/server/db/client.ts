@@ -64,7 +64,13 @@ export async function openConnection(url: string): Promise<DbConnection> {
     import('drizzle-orm/postgres-js'),
     import('drizzle-orm/postgres-js/migrator'),
   ]);
-  const client = postgres(url, { max: 5 });
+  const client = postgres(url, {
+    max: 5,
+    // Fail fast instead of hanging a request on a sick database (Phase 12):
+    // 5 s to connect, 10 s per statement.
+    connect_timeout: 5,
+    connection: { application_name: 'learn365-web', statement_timeout: 10_000 },
+  });
   const db = drizzle({ client, schema });
   return {
     db,
@@ -101,4 +107,45 @@ export function getConnection(): Promise<DbConnection> {
 
 export async function getDb(): Promise<Db> {
   return (await getConnection()).db;
+}
+
+/**
+ * Error codes that mean "the database cannot be reached right now", as
+ * opposed to a query or a migration that failed.
+ */
+const CONNECTIVITY_CODES: ReadonlySet<string> = new Set([
+  // Node sockets / DNS
+  'ECONNREFUSED',
+  'ECONNRESET',
+  'ENOTFOUND',
+  'EAI_AGAIN',
+  'ETIMEDOUT',
+  'EHOSTUNREACH',
+  'ENETUNREACH',
+  'EPIPE',
+  // postgres.js
+  'CONNECT_TIMEOUT',
+  'CONNECTION_CLOSED',
+  'CONNECTION_ENDED',
+  'CONNECTION_DESTROYED',
+  // PostgreSQL: cannot_connect_now, too_many_connections, connection exceptions (class 08)
+  '57P03',
+  '53300',
+  '08000',
+  '08001',
+  '08003',
+  '08004',
+  '08006',
+]);
+
+/**
+ * `true` when the error — or one of its `cause`s / `AggregateError.errors` —
+ * says the database is unreachable: the case start-up tolerates (Phase 12).
+ */
+export function isConnectivityError(error: unknown, depth = 0): boolean {
+  if (depth > 5 || typeof error !== 'object' || error === null) return false;
+  const { code, cause, errors } = error as { code?: unknown; cause?: unknown; errors?: unknown };
+  if (typeof code === 'string' && CONNECTIVITY_CODES.has(code)) return true;
+  if (Array.isArray(errors) && errors.some((e) => isConnectivityError(e, depth + 1))) return true;
+  return cause !== undefined && cause !== error && isConnectivityError(cause, depth + 1);
 }

@@ -1,17 +1,25 @@
 import type { NextRequest, NextResponse } from 'next/server';
 
 import { isSameOriginRequest } from '@/lib/server/auth/csrf';
-import { getSessionFromToken } from '@/lib/server/auth/currentUser';
+import { DbUnavailableError, getSessionFromToken } from '@/lib/server/auth/currentUser';
 import {
   SESSION_COOKIE,
   expiredSessionCookieAttributes,
   sessionCookieAttributes,
   validateSessionToken,
+  type SessionValidation,
 } from '@/lib/server/auth/session';
 import { deleteUser, toPublicUser, type PublicUser } from '@/lib/server/auth/users';
 import { getDb } from '@/lib/server/db/client';
 import { getAuthConfig } from '@/lib/server/env';
-import { apiForbidden, apiNotFound, apiUnauthorized, jsonNoStore, noContent } from '@/lib/server/http';
+import {
+  apiForbidden,
+  apiNotFound,
+  apiUnauthorized,
+  apiUnavailable,
+  jsonNoStore,
+  noContent,
+} from '@/lib/server/http';
 
 export const dynamic = 'force-dynamic';
 
@@ -44,13 +52,14 @@ export async function GET(request: NextRequest): Promise<NextResponse<MeResponse
       return response;
     }
     const response = jsonNoStore<MeResponse>({ enabled: true, user: toPublicUser(validation.user) });
-    if (validation.renewed) {
-      response.cookies.set(
-        SESSION_COOKIE,
-        token,
-        sessionCookieAttributes(validation.session.expiresAt, auth.secureCookies),
-      );
-    }
+    // Always re-set the cookie (Phase 12): any `/api/me/**` route may have
+    // extended the row, and this is the only route that writes cookies — the
+    // browser's expiry must follow the row's, not the value it was given once.
+    response.cookies.set(
+      SESSION_COOKIE,
+      token,
+      sessionCookieAttributes(validation.session.expiresAt, auth.secureCookies),
+    );
     return response;
   } catch (error) {
     console.error('[auth] /api/me failed', error);
@@ -64,7 +73,13 @@ export async function DELETE(request: NextRequest): Promise<NextResponse> {
   if (auth === null) return apiNotFound();
   if (!isSameOriginRequest(request, auth.appUrl)) return apiForbidden();
 
-  const session = await getSessionFromToken(request.cookies.get(SESSION_COOKIE)?.value);
+  let session: SessionValidation | null;
+  try {
+    session = await getSessionFromToken(request.cookies.get(SESSION_COOKIE)?.value);
+  } catch (error) {
+    if (error instanceof DbUnavailableError) return apiUnavailable();
+    throw error;
+  }
   if (session === null) return apiUnauthorized();
 
   try {
@@ -72,7 +87,7 @@ export async function DELETE(request: NextRequest): Promise<NextResponse> {
     await deleteUser(db, session.user.id);
   } catch (error) {
     console.error('[auth] account deletion failed', error);
-    return jsonNoStore({ error: 'unavailable' }, 503);
+    return apiUnavailable();
   }
 
   const response = noContent();

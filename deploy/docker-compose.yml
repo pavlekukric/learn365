@@ -49,9 +49,11 @@ services:
       APP_URL: ${APP_URL:-}
       GOOGLE_CLIENT_ID: ${GOOGLE_CLIENT_ID:-}
       GOOGLE_CLIENT_SECRET: ${GOOGLE_CLIENT_SECRET:-}
+    # Faza 12: čitanje ne zavisi od baze — web se diže čim db krene (ne čeka healthy); migracije pri
+    # startu tolerišu nedostupnu bazu i pokušavaju ponovo u pozadini (apps/web/instrumentation.ts).
     depends_on:
       db:
-        condition: service_healthy
+        condition: service_started
     # healthcheck je u slici (apps/web/Dockerfile): GET / na 3000 — namerno ne zavisi od baze
 
   cloudflared:

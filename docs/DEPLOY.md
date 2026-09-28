@@ -33,13 +33,13 @@ Hard rule from the owner. Everything Learn365 owns is separate: `/srv/learn365`,
 | `apps/web/Dockerfile` | 3 stages: deps (manifests only, pnpm 9.15 via npm, store cache) → build (`@learn365/ui` emits `dist/globals.css`, then `next build`) → runtime (`node:22-bookworm-slim`, non-root `node`, `HEALTHCHECK` = `GET /`). Context is the **repo root**; `.dockerignore` trims it. |
 | `.github/workflows/ci.yml` | Two parallel jobs on every PR and push to `main` (Phase 10): `validate` = install → validate-content → generated-content drift check (`pnpm gen-content` + `git diff`) → lint → typecheck → test → build → bundle budget; `e2e` = Playwright on Chromium desktop + mobile against `next start`, accounts off. |
 | `.github/workflows/deploy.yml` | PR touching deploy files → build only. Green CI for a push to `main` (`workflow_run`, Phase 10) / manual → build, push to GHCR, ssh rollout; the commit built is the one CI validated (`workflow_run.head_sha`). Rollout is a no-op until `DEPLOY_HOST` / `DEPLOY_SSH_KEY` exist. |
-| `deploy/docker-compose.yml` | `db` + `web` + `cloudflared`. Copied to `/srv/learn365/docker-compose.yml`. Secrets reach containers only through explicit `environment:` mappings interpolated from `.env` (no `env_file`). |
+| `deploy/docker-compose.yml` | `db` + `web` + `cloudflared`. Copied to `/srv/learn365/docker-compose.yml`. Secrets reach containers only through explicit `environment:` mappings interpolated from `.env` (no `env_file`). `web` depends on `db` with `service_started` (Phase 12): reading needs no database, so `web` boots even while `db` is still coming up or sick. |
 | `deploy/cloudflared/config.yml` | Tunnel ingress template (`<TUNNEL_ID>`, `<DOMEN>` placeholders). Copied to `/srv/learn365/cloudflared/config.yml`; the credentials JSON is never in the repo. |
 | `deploy/dc.sh` | `docker compose` wrapper pinned to `/srv/learn365` + its `.env`. |
-| `deploy/deploy.sh` | The rollout script the workflow calls (see §1). |
+| `deploy/deploy.sh` | The rollout script the workflow calls (see §1). Phase 12: remembers the previous `IMAGE_TAG`, and when the new image does not become healthy within ~60 s it restores the previous tag, brings `web` up again and waits once more before exiting 1; the prune keeps the new, the previous and `latest` images. |
 | `deploy/vps-install.sh` | One-time root script: user `deploy` (docker group, key-only, no forwarding) + `/srv/learn365` folders. Does nothing else. |
 | `deploy/.env.example` | `IMAGE_TAG` + the Phase 8 runtime values: `POSTGRES_PASSWORD`, `DATABASE_URL`, `APP_URL`, `GOOGLE_CLIENT_ID`, `GOOGLE_CLIENT_SECRET`. |
-| `deploy/backup.sh` | Nightly `pg_dump -Fc` of the `db` container into `/srv/learn365/backups/`, 14-day retention. One cron line for user `deploy` (§10). |
+| `deploy/backup.sh` | Nightly `pg_dump -Fc` of the `db` container into `/srv/learn365/backups/`, 14-day retention. One cron line for user `deploy` (§10). Phase 12: `umask 077` (dumps readable by `deploy` only) and every dump is checked with `pg_restore --list` before it counts (the log line carries the entry count; an empty list exits 1). |
 | `.gitattributes` | `*.sh`, `Dockerfile`, `deploy/**` forced to LF so files scp-ed from Windows run on Linux. |
 | `.nvmrc` | Bumped 20 → 22 (Node 20 is end-of-life since 2026-04); CI and the image agree. |
 
@@ -130,7 +130,7 @@ Every deployed tag stays in GHCR. On the box:
 ssh deploy@<IP> 'bash /srv/learn365/deploy.sh sha-<previous 12 chars>'
 ```
 
-That is the same script the workflow runs, so a rollback is a normal rollout of an older tag. Fix forward on `main` afterwards. A red CI on `main` is **not** a rollback case: since Phase 10 nothing is deployed for that commit, the previous image simply stays live.
+That is the same script the workflow runs, so a rollback is a normal rollout of an older tag. Fix forward on `main` afterwards. A red CI on `main` is **not** a rollback case: since Phase 10 nothing is deployed for that commit, the previous image simply stays live. Since Phase 12 a rollout whose image never becomes healthy **rolls itself back**: `deploy.sh` restores the previous tag, brings `web` up again and reports both outcomes in the Deploy run (still red, so the failure is seen). The manual command above remains for everything else.
 
 ## 7. Pre-production gates
 
@@ -173,9 +173,9 @@ The Phase 5 manual gates (screen-reader smoke, editorial review of the 6 seed le
 6. `ssh deploy@<IP> 'crontab -l 2>/dev/null; (crontab -l 2>/dev/null; echo "15 3 * * * /srv/learn365/backup.sh >> /srv/learn365/backups/backup.log 2>&1") | crontab -'` — one line, user `deploy`, nothing of Računi's.
 7. The usual check: three `racuni-*` containers unchanged, `https://kucniracuni.com/api/health` still `302`.
 
-**Migrations.** Generated on the laptop (`pnpm --filter @learn365/web db:generate`) into `apps/web/lib/server/db/migrations/` and committed; applied at server start. Additive only: an older image keeps running against a newer schema, so §6 rollback stays a plain re-tag. A failing migration keeps `web` unhealthy and `deploy.sh` exits 1 with the logs.
+**Migrations.** Generated on the laptop (`pnpm --filter @learn365/web db:generate`) into `apps/web/lib/server/db/migrations/` and committed; applied at server start. Additive only: an older image keeps running against a newer schema, so §6 rollback stays a plain re-tag. A failing migration keeps `web` unhealthy and `deploy.sh` rolls back to the previous tag (Phase 12). An **unreachable** database at start-up is different (Phase 12): `web` starts anyway, reading works, `/api/health` says `db: "error"`, and the migration is retried in the background every 15 s for 10 minutes (`instrumentation.ts` → `migrateAtStartup`). postgres.js runs with `connect_timeout` 5 s and `statement_timeout` 10 s; a heavy future migration must raise the timeout for its own statement (`SET LOCAL statement_timeout`).
 
-**Backups.** `backup.sh` writes `learn365-YYYY-MM-DD.dump` (custom format) nightly and keeps 14. They live on the same box — protection against a bad deploy or a bad migration, not against losing the VPS; an off-box copy is a follow-up with an owner decision on destination.
+**Backups.** `backup.sh` writes `learn365-YYYY-MM-DD.dump` (custom format, mode 600 via `umask 077`) nightly, verifies it with `pg_restore --list` (the `backup.log` line ends with `N unosa`; an unreadable dump exits 1) and keeps 14. They live on the same box — protection against a bad deploy or a bad migration, not against losing the VPS; an off-box copy is a follow-up with an owner decision on destination (then a five-line `rsync` / `rclone` step at the end of the script).
 
 **Restore (rehearse once).**
 

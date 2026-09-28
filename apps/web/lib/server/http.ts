@@ -21,6 +21,11 @@ export function apiForbidden(): NextResponse {
   return jsonNoStore({ error: 'forbidden' }, 403);
 }
 
+/** The database cannot be reached: retry later; nothing about the session changed (Phase 12). */
+export function apiUnavailable(): NextResponse {
+  return jsonNoStore({ error: 'unavailable' }, 503);
+}
+
 export function apiBadRequest(detail: string): NextResponse {
   return jsonNoStore({ error: 'bad_request', detail }, 400);
 }
