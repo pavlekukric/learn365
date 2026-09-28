@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-import type { Lesson } from '@learn365/content';
+import type { LessonSummary } from '@learn365/content';
 
 import { CompletionDot } from '../../primitives/CompletionDot/CompletionDot.js';
 
@@ -9,7 +9,7 @@ import styles from './LessonNavItem.module.css';
 export type LessonNavItemState = 'idle' | 'active' | 'completed';
 
 interface LessonNavItemProps {
-  lesson: Lesson;
+  lesson: LessonSummary;
   state: LessonNavItemState;
   href: string;
 }

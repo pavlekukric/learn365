@@ -2,7 +2,7 @@
 
 import { useMemo } from 'react';
 
-import { getLessons, type CourseId, type Lesson } from '@learn365/content';
+import { getLessons, type CourseId, type LessonSummary } from '@learn365/content';
 import { findResumeLesson, lastOpenedLessonId } from '@learn365/core';
 
 import { useProgressStore } from './ProgressStoreProvider';
@@ -26,7 +26,7 @@ export interface ResumeState {
    *                 left, else the next unread day — never a finished one)
    *   - all done  → `null`
    */
-  readonly lesson: Lesson | null;
+  readonly lesson: LessonSummary | null;
 }
 
 /**

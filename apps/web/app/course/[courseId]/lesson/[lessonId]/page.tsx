@@ -8,8 +8,10 @@ import {
   getNextLesson,
   getPrevLesson,
   getSectionForLesson,
-  type Lesson,
+  type LessonHeading,
+  type LessonSummary,
 } from '@learn365/content';
+import { getLessonArticle } from '@learn365/content/server';
 import { LessonBody, LessonSources, LessonTrustLine } from '@learn365/ui-web';
 
 import { shareMetadata } from '@/lib/seo/metadata';
@@ -26,7 +28,7 @@ interface PageProps {
  * to, and how long it takes to read. */
 function adjacent(
   courseId: string,
-  lesson: Lesson | null,
+  lesson: LessonSummary | null,
 ): {
   id: string;
   title: string;
@@ -51,11 +53,12 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const { courseId, lessonId } = await params;
   const course = getCourse(courseId);
   const lesson = getLessonById(courseId, lessonId);
-  if (!course || !lesson) return {};
+  const article = getLessonArticle(courseId, lessonId);
+  if (!course || !lesson || !article) return {};
   const title = `Dan ${String(lesson.dayNumber)}: ${lesson.title}`;
   const description =
-    lesson.summary ??
-    lesson.subtitle ??
+    article.summary ??
+    article.subtitle ??
     `Dan ${String(lesson.dayNumber)} od ${String(course.totalLessons)} · ${course.title}`;
   return {
     title,
@@ -72,7 +75,10 @@ export default async function LessonPage({ params }: PageProps) {
   const { courseId, lessonId } = await params;
   const course = getCourse(courseId);
   const lesson = getLessonById(courseId, lessonId);
-  if (!course || !lesson) notFound();
+  // The article (body, sources, byline, subtitle, …) lives on the server-only
+  // entry; the summary above is the client-safe navigation record.
+  const article = getLessonArticle(courseId, lessonId);
+  if (!course || !lesson || !article) notFound();
 
   const era = getEraForLesson(courseId, lesson.id);
   const section = getSectionForLesson(courseId, lesson.id);
@@ -81,16 +87,24 @@ export default async function LessonPage({ params }: PageProps) {
 
   if (!era || !section) notFound();
 
+  // What the reader's header needs beyond the summary: the two editorial
+  // header facts travel with the open lesson only, never in the index.
+  const heading: LessonHeading = {
+    ...lesson,
+    ...(article.subtitle !== undefined ? { subtitle: article.subtitle } : {}),
+    ...(article.dateLabel !== undefined ? { dateLabel: article.dateLabel } : {}),
+  };
+
   // The lesson text is rendered here, on the server, and handed to the client
   // reader as a finished node: the body has no interactivity, and keeping it
   // out of the client component keeps the corpus out of the JS bundle.
-  const article = (
+  const articleNode = (
     <>
-      <LessonBody blocks={lesson.content} />
-      {lesson.sources !== undefined && lesson.sources.length > 0 ? (
-        <LessonSources sources={lesson.sources} />
+      <LessonBody blocks={article.content} />
+      {article.sources !== undefined && article.sources.length > 0 ? (
+        <LessonSources sources={article.sources} />
       ) : null}
-      <LessonTrustLine byline={lesson.byline} lastReviewedAt={lesson.lastReviewedAt} />
+      <LessonTrustLine byline={article.byline} lastReviewedAt={article.lastReviewedAt} />
     </>
   );
 
@@ -98,8 +112,8 @@ export default async function LessonPage({ params }: PageProps) {
     <LessonPageClient
       courseId={course.id}
       courseTitle={course.title}
-      lesson={lesson}
-      article={article}
+      lesson={heading}
+      article={articleNode}
       era={era}
       section={section}
       prev={adjacent(courseId, prev)}

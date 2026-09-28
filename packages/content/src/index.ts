@@ -5,10 +5,14 @@ export type {
   EraId,
   Language,
   Lesson,
+  LessonArticle,
+  LessonArticleKey,
   LessonBlock,
   LessonByline,
+  LessonHeading,
   LessonId,
   LessonState,
+  LessonSummary,
   Script,
   Section,
   SectionId,
@@ -16,6 +20,7 @@ export type {
   SourceKind,
   UserProgress,
 } from './types.js';
+export { LESSON_ARTICLE_KEYS } from './types.js';
 
 export {
   getAllCourseIds,
@@ -40,3 +45,7 @@ export {
 // not leak into any client bundle. They are exposed only via the
 // `@learn365/content/loader` sub-entry, consumed by the codegen script
 // and the validator binary.
+//
+// The lesson *articles* (bodies, sources, bylines — the bulk of the corpus)
+// are likewise kept off this entry: `getLessonArticle` lives on
+// `@learn365/content/server`, which carries `import 'server-only'`.

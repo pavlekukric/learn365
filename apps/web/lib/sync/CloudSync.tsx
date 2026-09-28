@@ -2,8 +2,6 @@
 
 import { useEffect } from 'react';
 
-import { getAllCourseIds } from '@learn365/content';
-
 import { useAuth } from '@/lib/auth/AuthProvider';
 import { useBookmarkStoreApi } from '@/lib/bookmarks/BookmarkStoreProvider';
 import { useProgressStoreApi } from '@/lib/progress/ProgressStoreProvider';
@@ -22,7 +20,12 @@ function logSyncError(error: unknown): void {
  * effect cleanup (dispose) runs before the provider's own effect clears the
  * local stores — the clearing never reaches the account as a delta.
  */
-export function CloudSync() {
+export function CloudSync({
+  courseIds,
+}: {
+  /** Courses to keep in sync; from the server layout, not the registry. */
+  courseIds: readonly string[];
+}) {
   const { status, enabled, user } = useAuth();
   const progressStore = useProgressStoreApi();
   const bookmarkStore = useBookmarkStoreApi();
@@ -30,7 +33,6 @@ export function CloudSync() {
 
   useEffect(() => {
     if (status !== 'ready' || !enabled || userId === null) return;
-    const courseIds = getAllCourseIds();
     const handles = [
       startSync({
         adapter: createProgressAdapter(progressStore),
@@ -48,7 +50,7 @@ export function CloudSync() {
     return () => {
       for (const handle of handles) handle.dispose();
     };
-  }, [status, enabled, userId, progressStore, bookmarkStore]);
+  }, [status, enabled, userId, courseIds, progressStore, bookmarkStore]);
 
   return null;
 }

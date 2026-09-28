@@ -1,4 +1,4 @@
-import type { EraId, Lesson, LessonId, SectionId } from '@learn365/content/types';
+import type { EraId, LessonId, LessonSummary, SectionId } from '@learn365/content/types';
 
 /**
  * Find the previous lesson in a sorted lesson list, or null if the
@@ -8,9 +8,9 @@ import type { EraId, Lesson, LessonId, SectionId } from '@learn365/content/types
  * Sorting is the caller's responsibility — typically a `content` helper.
  */
 export function findPrevLesson(
-  lessons: readonly Lesson[],
+  lessons: readonly LessonSummary[],
   currentLessonId: LessonId,
-): Lesson | null {
+): LessonSummary | null {
   const idx = lessons.findIndex((l) => l.id === currentLessonId);
   if (idx <= 0) return null;
   return lessons[idx - 1] ?? null;
@@ -18,9 +18,9 @@ export function findPrevLesson(
 
 /** Find the next lesson in a sorted lesson list, or null if last. */
 export function findNextLesson(
-  lessons: readonly Lesson[],
+  lessons: readonly LessonSummary[],
   currentLessonId: LessonId,
-): Lesson | null {
+): LessonSummary | null {
   const idx = lessons.findIndex((l) => l.id === currentLessonId);
   if (idx < 0 || idx === lessons.length - 1) return null;
   return lessons[idx + 1] ?? null;
@@ -59,7 +59,7 @@ export interface ActiveLocation {
 }
 
 export function findActiveLocation(
-  lessons: readonly Lesson[],
+  lessons: readonly LessonSummary[],
   completedIds: ReadonlySet<LessonId> | null,
   lastOpenedLessonId: LessonId | null,
 ): ActiveLocation | null {
@@ -104,10 +104,10 @@ export function findActiveLocation(
  * pointing back at the lesson just completed.
  */
 export function findResumeLesson(
-  lessons: readonly Lesson[],
+  lessons: readonly LessonSummary[],
   completedIds: ReadonlySet<LessonId> | null,
   lastOpenedLessonId: LessonId | null,
-): Lesson | null {
+): LessonSummary | null {
   const done = completedIds ?? new Set<LessonId>();
   if (lastOpenedLessonId !== null) {
     const last = lessons.find((l) => l.id === lastOpenedLessonId);

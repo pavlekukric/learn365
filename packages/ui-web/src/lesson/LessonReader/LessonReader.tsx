@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, type ReactNode } from 'react';
 
-import type { Era, EraId, Lesson, Section } from '@learn365/content';
+import type { Era, EraId, LessonHeading, Section } from '@learn365/content';
 
 import { Breadcrumbs, type BreadcrumbItem } from '../../primitives/Breadcrumbs/Breadcrumbs.js';
 import { CompletedFooter } from '../CompletedFooter/CompletedFooter.js';
@@ -25,7 +25,7 @@ interface AdjacentLessonLink {
 }
 
 interface LessonReaderProps {
-  lesson: Lesson;
+  lesson: LessonHeading;
   /**
    * The rendered article — `LessonBody` plus the closing `LessonSources` /
    * `LessonTrustLine` — built by the *server* page and passed in as a node.

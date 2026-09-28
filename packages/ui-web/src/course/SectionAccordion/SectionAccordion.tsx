@@ -1,6 +1,6 @@
 import { useId } from 'react';
 
-import type { Lesson, LessonId, Section } from '@learn365/content';
+import type { LessonId, LessonSummary, Section } from '@learn365/content';
 
 import { IconChev } from '../../icons/IconChev.js';
 import { LessonNavItem } from '../LessonNavItem/LessonNavItem.js';
@@ -9,13 +9,13 @@ import styles from './SectionAccordion.module.css';
 
 interface SectionAccordionProps {
   section: Section;
-  lessons: readonly Lesson[];
+  lessons: readonly LessonSummary[];
   currentLessonId: LessonId | null;
   completedIds: ReadonlySet<LessonId>;
   isOpen: boolean;
   onToggle: () => void;
   /** Builder returning the href for a lesson within the parent course. */
-  lessonHref: (lesson: Lesson) => string;
+  lessonHref: (lesson: LessonSummary) => string;
 }
 
 function formatDayRange(start: number, end: number): string {

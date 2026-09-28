@@ -1,6 +1,7 @@
 import type { MetadataRoute } from 'next';
 
 import { getAllCourseIds, getLessons } from '@learn365/content';
+import { getLessonArticle } from '@learn365/content/server';
 
 import { SITE_URL } from '@/lib/seo/metadata';
 
@@ -28,7 +29,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
         changeFrequency: 'monthly',
         priority: 0.7,
       };
-      if (lesson.lastReviewedAt !== undefined) entry.lastModified = lesson.lastReviewedAt;
+      const lastReviewedAt = getLessonArticle(courseId, lesson.id)?.lastReviewedAt;
+      if (lastReviewedAt !== undefined) entry.lastModified = lastReviewedAt;
       entries.push(entry);
     }
   }
