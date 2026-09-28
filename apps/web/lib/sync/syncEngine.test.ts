@@ -98,6 +98,35 @@ describe('startSync', () => {
     handle.dispose();
   });
 
+  it('marker names another user: GETs (never unions the previous reader) and rewrites the marker', async () => {
+    const marker = memoryMarker('u1');
+    const adapter = fakeAdapter(marker);
+    const { impl, calls } = fakeFetch(() => ok({ remote: 3 }));
+    const handle = startSync({ adapter, courseIds: ['c1'], userId: 'u2', fetchImpl: impl, debounceMs: 0 });
+    await handle.settled;
+    expect(calls.map((c) => `${c.method} ${c.url}`)).toEqual(['GET /api/me/thing?courseId=c1']);
+    expect(adapter.applied).toEqual([{ courseId: 'c1', remote: { remote: 3 }, pending: undefined }]);
+    expect(marker.value).toBe('u2');
+    handle.dispose();
+  });
+
+  it('marker names another user and the load fails: keeps the old marker', async () => {
+    const marker = memoryMarker('u1');
+    const adapter = fakeAdapter(marker);
+    const { impl } = fakeFetch(() => fail());
+    const handle = startSync({
+      adapter,
+      courseIds: ['c1'],
+      userId: 'u2',
+      fetchImpl: impl,
+      debounceMs: 0,
+      onError: () => undefined,
+    });
+    await handle.settled;
+    expect(marker.value).toBe('u1');
+    handle.dispose();
+  });
+
   it('coalesces local deltas into one PATCH and never echoes an applied snapshot', async () => {
     const adapter = fakeAdapter(memoryMarker('u1'));
     const { impl, calls } = fakeFetch((call) => (call.method === 'GET' ? ok({}) : noContent()));

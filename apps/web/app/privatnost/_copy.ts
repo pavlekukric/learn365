@@ -51,7 +51,7 @@ export const PRIVACY_SECTIONS: readonly PrivacySection[] = [
     id: 'brisanje',
     heading: 'Brisanje',
     paragraphs: [
-      'Na strani Nalog postoji dugme Obriši nalog. Briše nalog, napredak i sačuvane lekcije odmah i trajno. Odjava briše napredak samo iz tog pregledača; nalog ostaje.',
+      'Na strani Nalog postoji dugme Obriši nalog. Briše nalog, napredak i sačuvane lekcije odmah i trajno. Odjava briše napredak samo iz tog pregledača; nalog ostaje. Isto se dešava kad prijava istekne: pročitane i sačuvane lekcije nestaju iz tog pregledača, a ostaju na nalogu i vraćaju se pri sledećoj prijavi.',
     ],
   },
 ];
