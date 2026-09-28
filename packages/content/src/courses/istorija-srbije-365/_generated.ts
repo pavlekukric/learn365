@@ -945,7 +945,7 @@ export const lessons: readonly Lesson[] = [
       },
       {
         "type": "paragraph",
-        "text": "Šta su onda ti znaci bili? Pošteno je reći: ne znamo pouzdano. Ali to „ne znamo” nije prazno — ima više razumnih mogućnosti, i vredi ih nabrojati. Možda su to bile oznake vlasništva ili pripadnosti — tihi način da se kaže „ovo je moje” ili „ovo je naše”. Možda znakovi zanatlije ili radionice, nešto poput potpisa na grnčariji. Možda simboli sa obrednim ili identitetskim značenjem. Možda način da se nešto prebroji ili evidentira. Možda i ukras koji je vremenom dobio dogovoreno značenje. A možda — i to je najverovatnije — više stvari odjednom, različite namene u različitim prilikama. Zagonetka ostaje otvorena, i to je sasvim u redu. Otvoreno pitanje pošteno priznato vredi više od zatvorenog odgovora koji nije tačan. Biti stariji od pisma ne čini nešto pismom — kao što biti stariji od točka ne čini nešto točkom."
+        "text": "Šta su onda ti znaci bili? Pošteno je reći: ne znamo pouzdano. Ali to „ne znamo” nije prazno — ima više razumnih mogućnosti, i vredi ih nabrojati. Možda su to bile oznake vlasništva ili pripadnosti — tihi način da se kaže „ovo je moje” ili „ovo je naše”. Možda znakovi zanatlije ili radionice, nešto poput potpisa na grnčariji. Možda simboli sa obrednim ili identitetskim značenjem. Možda način da se nešto prebroji ili evidentira. Možda i ukras koji je vremenom dobio dogovoreno značenje. A možda — i to je najverovatnije — više stvari odjednom, različite namene u različitim prilikama. Zagonetka ostaje otvorena, i to je sasvim u redu. Otvoreno pitanje pošteno priznato vredi više od zatvorenog odgovora koji nije tačan."
       }
     ],
     "subtitle": "Šta su urezani znaci sa vinčanskih predmeta, i zašto nisu „najstarije pismo na svetu”",
@@ -967,7 +967,7 @@ export const lessons: readonly Lesson[] = [
       },
       {
         "kind": "book",
-        "title": "Vinča Culture: An Iron-Age Center on the Danube",
+        "title": "Preistoriska Vinča I",
         "author": "Miloje M. Vasić",
         "year": 1932
       },
@@ -7502,7 +7502,7 @@ export const lessons: readonly Lesson[] = [
       },
       {
         "type": "paragraph",
-        "text": "Iznad svega toga, sa juga, raslo je nešto novo. Osmanlije, koje su posle Marice prešle u stalno napredovanje na Balkanu, zauzele su Sofiju 1385. i Niš 1386. i dolazile sve bliže središtu srpskih zemalja. Lazar i Tvrtko su 1386. ili 1387. godine kod Pločnika porazili jedan osmanski odred, što je bila ohrabrujuća, ali sama po sebi nedovoljna pobeda. Pravo pitanje nije više bilo da li će sukob biti odlučen na velikom polju, nego kada. Razjedinjenost srpskih oblasti činila je svaki dogovoreni otpor težim nego što bi inače bio: dok jedni gospodari biraju borbu, drugi su već vazali, treći gledaju u Jadran. Ono što sledeće decenije čini posebnim jeste upravo taj spoj — opadajuća politička snaga, rastući spoljni pritisak i, uprkos svemu, neugašen kulturni i ekonomski život jedne zemlje koja zna da se njena sudbina odlučuje vrlo brzo."
+        "text": "Iznad svega toga, sa juga, raslo je nešto novo. Osmanlije, koje su posle Marice prešle u stalno napredovanje na Balkanu, zauzele su Sofiju 1385. i Niš 1386. i dolazile sve bliže središtu srpskih zemalja. Lazareva vojska je 1386. ili 1387. godine kod Pločnika razbila jedan osmanski odred, a Tvrtkova je 1388. kod Bileće odbila drugi — ohrabrujuće, ali same po sebi nedovoljne pobede. Pravo pitanje nije više bilo da li će sukob biti odlučen na velikom polju, nego kada. Razjedinjenost srpskih oblasti činila je svaki dogovoreni otpor težim nego što bi inače bio: dok jedni gospodari biraju borbu, drugi su već vazali, treći gledaju u Jadran. Ono što sledeće decenije čini posebnim jeste upravo taj spoj — opadajuća politička snaga, rastući spoljni pritisak i, uprkos svemu, neugašen kulturni i ekonomski život jedne zemlje koja zna da se njena sudbina odlučuje vrlo brzo."
       }
     ],
     "subtitle": "Posle smrti cara Uroša 1371. srpski svet se rasipa u oblasti — Lazar, Vuk, Marko, Balšići, Tvrtko — pred Osmanlijama.",
@@ -13749,7 +13749,7 @@ export const lessons: readonly Lesson[] = [
       },
       {
         "kind": "book",
-        "title": "Memoari proté Mateje Nenadovića",
+        "title": "Memoari prote Mateje Nenadovića",
         "author": "Matija Nenadović",
         "year": 1867
       },
@@ -15827,7 +15827,7 @@ export const lessons: readonly Lesson[] = [
     "content": [
       {
         "type": "paragraph",
-        "text": "Kada je u jesen 1842. godine, posle nasilnog svrgavanja kneza Mihaila Obrenovića, Svetopetarska skupština u Topčideru izabrala Aleksandra Karađorđevića za novog kneza, mnogi su mislili da Srbija dobija samo novog vladara. U stvari, dobijala je novi tip države. Ljudi koji su izveli prevrat — Toma Vučić Perišić i Avram Petronijević, a uskoro i mlađi Ilija Garašanin, Stojan Simić i drugi — nazivani su ustavobraniteljima zato što su, još od sukoba sa knezom Milošem, branili Ustav iz 1838. godine i ograničenja kneževe lične vlasti. Sledećih šesnaest godina, sve do Svetoandrejske skupštine u decembru 1858, oni će vladati Srbijom — ne kao stranka u modernom smislu, već kao uska oligarhija visokih činovnika okupljena oko Sovjeta.",
+        "text": "Kada je u jesen 1842. godine, posle nasilnog svrgavanja kneza Mihaila Obrenovića, skupština na Vračaru izabrala Aleksandra Karađorđevića za novog kneza, mnogi su mislili da Srbija dobija samo novog vladara. U stvari, dobijala je novi tip države. Ljudi koji su izveli prevrat — Toma Vučić Perišić i Avram Petronijević, a uskoro i mlađi Ilija Garašanin, Stojan Simić i drugi — nazivani su ustavobraniteljima zato što su, još od sukoba sa knezom Milošem, branili Ustav iz 1838. godine i ograničenja kneževe lične vlasti. Sledećih šesnaest godina, sve do Svetoandrejske skupštine u decembru 1858, oni će vladati Srbijom — ne kao stranka u modernom smislu, već kao uska oligarhija visokih činovnika okupljena oko Sovjeta.",
         "dropcap": true
       },
       {
@@ -17131,7 +17131,7 @@ export const lessons: readonly Lesson[] = [
       },
       {
         "type": "paragraph",
-        "text": "Razlika između te dve titule bila je manja po stvarnoj vlasti, a veća po protokolu. Kneževi su u protokolu evropskih dvorova stajali ispod kraljeva, primani su drugim obredom, vodili su prepiske drugim formulama, sklapali ugovore sa nešto manje težine. Susedi su to već uveliko prevazišli. Grčka je kraljevina bila od 1832. godine, Rumunija je status promenila 1881, samo godinu dana ranije, a Ugarska i Habzburška monarhija imale su krune koje su sezale unazad vekovima. U takvom okruženju srpski knez je, kada bi prelazio Savu i Dunav, osećao da nosi manji čin nego njegovi sagovornici. Bugarska će kraljevsku titulu dobiti tek 1908. godine, što znači da je Srbija u tom trenutku postajala druga balkanska kraljevina."
+        "text": "Razlika između te dve titule bila je manja po stvarnoj vlasti, a veća po protokolu. Kneževi su u protokolu evropskih dvorova stajali ispod kraljeva, primani su drugim obredom, vodili su prepiske drugim formulama, sklapali ugovore sa nešto manje težine. Susedi su to već uveliko prevazišli. Grčka je kraljevina bila od 1832. godine, Rumunija je status promenila 1881, samo godinu dana ranije, a Ugarska i Habzburška monarhija imale su krune koje su sezale unazad vekovima. U takvom okruženju srpski knez je, kada bi prelazio Savu i Dunav, osećao da nosi manji čin nego njegovi sagovornici. Bugarska će kraljevsku titulu dobiti tek 1908. godine, što znači da je Srbija u tom trenutku postajala treća balkanska kraljevina, posle Grčke i Rumunije."
       },
       {
         "type": "paragraph",
