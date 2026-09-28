@@ -6,11 +6,12 @@ import type { Metadata } from 'next';
  * rebuild the whole block — `shareMetadata()` does that in one place.
  */
 /** Public origin, no trailing slash. Baked in at build time from
- *  `NEXT_PUBLIC_SITE_URL` (apps/web/Dockerfile build arg); the Vercel
- *  origin stays as the fallback until the custom domain is live. */
-export const SITE_URL = (
-  process.env.NEXT_PUBLIC_SITE_URL || 'https://learn365-web.vercel.app'
-).replace(/\/$/, '');
+ *  `NEXT_PUBLIC_SITE_URL` (apps/web/Dockerfile build arg). The fallback is
+ *  the production origin on purpose: any other build of this app (a local
+ *  `next start`, a leftover preview) then declares istorija365.com as the
+ *  canonical home of every page instead of itself. */
+export const PRODUCTION_ORIGIN = 'https://istorija365.com';
+export const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL || PRODUCTION_ORIGIN).replace(/\/$/, '');
 export const SITE_NAME = 'History 365';
 export const SITE_TITLE = 'History 365 — Istorija Srbije 365';
 export const SITE_DESCRIPTION =
@@ -31,13 +32,18 @@ interface ShareMetadataArgs {
   path: string;
 }
 
-/** Open Graph + Twitter blocks for one page, using the default share card. */
+/**
+ * Canonical URL + Open Graph + Twitter blocks for one page, using the
+ * default share card. `path` is resolved against `metadataBase` (set once
+ * in the root layout), so the canonical always names the production origin.
+ */
 export function shareMetadata({
   title,
   description,
   path,
-}: ShareMetadataArgs): Pick<Metadata, 'openGraph' | 'twitter'> {
+}: ShareMetadataArgs): Pick<Metadata, 'alternates' | 'openGraph' | 'twitter'> {
   return {
+    alternates: { canonical: path },
     openGraph: {
       type: 'website',
       locale: 'sr_RS',
