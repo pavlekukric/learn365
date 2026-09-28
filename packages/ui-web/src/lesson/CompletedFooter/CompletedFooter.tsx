@@ -1,6 +1,8 @@
 import Link from 'next/link';
 import type { ReactNode } from 'react';
 
+import { formatDayEyebrow, formatDayProse } from '@learn365/core';
+
 import { IconArrow } from '../../icons/IconArrow.js';
 import { IconArrowLeft } from '../../icons/IconArrowLeft.js';
 import { IconCheck } from '../../icons/IconCheck.js';
@@ -37,10 +39,6 @@ interface CompletedFooterProps {
   afterMoment?: ReactNode;
 }
 
-function formatDay(day: number): string {
-  return String(day).padStart(3, '0');
-}
-
 /**
  * Footer shown after the user marks a lesson complete. Promotes "what's
  * next" to the primary action and demotes "go back" to a quiet text link.
@@ -69,7 +67,7 @@ export function CompletedFooter({
           <span>
             {isFirstWin
               ? 'Prvi dan je iza tebe.'
-              : `Dan ${String(completedDayNumber)} je iza tebe.`}
+              : `${formatDayProse(completedDayNumber)} je iza tebe.`}
           </span>
         </p>
         <p className={`tiny mono ${styles.momentCount}`}>
@@ -82,7 +80,7 @@ export function CompletedFooter({
       {next ? (
         <Link href={next.href} className={styles.nextCard}>
           <span className={`tiny mono ${styles.eyebrow}`}>
-            Sledeća lekcija · DAN {formatDay(next.dayNumber)}
+            Sledeća lekcija · {formatDayEyebrow(next.dayNumber)}
           </span>
           <span className={styles.nextTitle}>{next.title}</span>
           {(next.eraLabel ?? next.readingTimeMinutes !== undefined) ? (
@@ -102,7 +100,7 @@ export function CompletedFooter({
       ) : (
         <Link href={courseHref} className={styles.endCard}>
           <span className={`tiny mono ${styles.eyebrow}`}>Kraj kursa</span>
-          <span className={styles.nextTitle}>Završio si poslednju lekciju ovog dela kursa.</span>
+          <span className={styles.nextTitle}>Poslednja lekcija kursa je iza tebe.</span>
           <span className={`small ${styles.endLink}`}>
             Otvori kurs <IconArrow className={styles.arrow} />
           </span>
@@ -112,7 +110,7 @@ export function CompletedFooter({
       {prev ? (
         <Link href={prev.href} className={styles.prevLink}>
           <IconArrowLeft className={styles.prevArrow} />
-          <span className={`tiny mono ${styles.prevLabel}`}>DAN {formatDay(prev.dayNumber)}</span>
+          <span className={`tiny mono ${styles.prevLabel}`}>{formatDayEyebrow(prev.dayNumber)}</span>
           <span className={styles.prevTitle}>{prev.title}</span>
         </Link>
       ) : null}

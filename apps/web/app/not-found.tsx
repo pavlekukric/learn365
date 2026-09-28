@@ -12,7 +12,7 @@ export default function NotFound() {
         <h1 className={`h1 ${styles.title}`}>Stranica nije pronađena</h1>
         <p className={`body ${styles.body}`}>
           Lekcija ili kurs ne postoji. Vrati se na početnu ili otvori kurs i
-          nastavi odakle si stao.
+          nastavi dalje.
         </p>
         <div className={styles.actions}>
           <Link href="/" className={styles.primary}>

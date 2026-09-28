@@ -21,7 +21,7 @@ export function SignInPrompt({ href, onDismiss }: SignInPromptProps) {
         Sačuvaj napredak i na drugim uređajima.
       </p>
       <p className={`small ${styles.body}`}>
-        Prijava Google nalogom. Ono što si ovde pročitao prenosi se na nalog.
+        Prijava Google nalogom. Pročitane lekcije prenose se na nalog.
       </p>
       <div className={styles.actions}>
         <a href={href} className={styles.primary}>

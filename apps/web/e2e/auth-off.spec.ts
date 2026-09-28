@@ -54,7 +54,7 @@ test.describe('History 365 — accounts off', () => {
       },
     );
     await page.goto('/course/istorija-srbije-365/lesson/day-002');
-    await page.getByRole('button', { name: /Završi/ }).click();
+    await page.getByRole('button', { name: /Označi kao pročitano/ }).click();
     await expect(page.getByText('Dan 2 je iza tebe.')).toBeVisible();
     await expect(page.getByText('Sačuvaj napredak i na drugim uređajima.')).toHaveCount(0);
     await expect(page.getByRole('link', { name: 'Nastavi sa Google-om' })).toHaveCount(0);

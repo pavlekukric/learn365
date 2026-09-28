@@ -1,5 +1,7 @@
 import Link from 'next/link';
 
+import { formatDayEyebrow } from '@learn365/core';
+
 import { CompletionDot } from '../../primitives/CompletionDot/CompletionDot.js';
 
 import styles from './CurrentLessonCard.module.css';
@@ -17,10 +19,6 @@ interface CurrentLessonCardProps {
   href: string;
 }
 
-function formatDay(day: number): string {
-  return String(day).padStart(3, '0');
-}
-
 export function CurrentLessonCard({
   lesson,
   state,
@@ -29,7 +27,7 @@ export function CurrentLessonCard({
   return (
     <Link href={href} className={styles.card}>
       <span className={`tiny mono ${styles.eyebrow}`}>
-        DAN {formatDay(lesson.day)} · {lesson.eraShort}
+        {formatDayEyebrow(lesson.day)} · {lesson.eraShort}
       </span>
       <span className={styles.title}>{lesson.title}</span>
       <span className={styles.foot}>

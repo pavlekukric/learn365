@@ -1,5 +1,6 @@
 'use client';
 
+import { padDay } from '@learn365/core';
 import { IconMenu } from '@learn365/ui-web';
 
 import styles from './LessonContextHeader.module.css';
@@ -11,10 +12,6 @@ interface LessonContextHeaderProps {
   totalLessons: number;
   /** Opens the "Sadržaj" drawer (timeline + course outline). */
   onOpenContents: () => void;
-}
-
-function formatDay(day: number): string {
-  return String(day).padStart(3, '0');
 }
 
 /**
@@ -48,7 +45,7 @@ export function LessonContextHeader({
       </button>
 
       <span className={`tiny mono ${styles.day}`}>
-        Dan {formatDay(dayNumber)} / {totalDays}
+        Dan {padDay(dayNumber)} / {totalDays}
       </span>
 
       <span

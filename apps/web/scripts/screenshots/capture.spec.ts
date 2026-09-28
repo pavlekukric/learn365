@@ -116,7 +116,7 @@ test.describe('Screenshot pack', () => {
     await gotoAndSettle(page, `/course/${COURSE_ID}/lesson/${LESSON.day7}`);
     // Sanity: the button should reflect the completed state from seed.
     await expect(
-      page.getByRole('button', { name: /^Završeno$/ }).first(),
+      page.getByRole('button', { name: /^Pročitano$/ }).first(),
     ).toBeVisible();
     await snap(page, testInfo, 'lesson-007-completed');
   });
