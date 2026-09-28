@@ -5,11 +5,11 @@ import type { NextRequest, NextResponse } from 'next/server';
 import { getDb, type Db } from '../db/client';
 import type { UserRow } from '../db/schema';
 import { getAuthConfig, type AuthConfig } from '../env';
-import { apiForbidden, apiNotFound, apiUnauthorized, jsonNoStore } from '../http';
+import { apiForbidden, apiNotFound, apiUnauthorized, apiUnavailable } from '../http';
 
 import { isSameOriginRequest } from './csrf';
-import { getSessionFromToken } from './currentUser';
-import { SESSION_COOKIE } from './session';
+import { DbUnavailableError, getSessionFromToken } from './currentUser';
+import { SESSION_COOKIE, type SessionValidation } from './session';
 
 export interface ApiContext {
   readonly auth: AuthConfig;
@@ -31,7 +31,14 @@ export async function guardApi(
   if (auth === null) return apiNotFound();
   if (options.mutating && !isSameOriginRequest(request, auth.appUrl)) return apiForbidden();
 
-  const session = await getSessionFromToken(request.cookies.get(SESSION_COOKIE)?.value);
+  let session: SessionValidation | null;
+  try {
+    session = await getSessionFromToken(request.cookies.get(SESSION_COOKIE)?.value);
+  } catch (error) {
+    // Phase 12: an outage is 503, never 401 — the client keeps its deltas and retries.
+    if (error instanceof DbUnavailableError) return apiUnavailable();
+    throw error;
+  }
   if (session === null) return apiUnauthorized();
 
   try {
@@ -39,6 +46,6 @@ export async function guardApi(
     return { auth, user: session.user, db };
   } catch (error) {
     console.error('[api] database unavailable', error);
-    return jsonNoStore({ error: 'unavailable' }, 503);
+    return apiUnavailable();
   }
 }
