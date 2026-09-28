@@ -10,8 +10,8 @@ For forward-looking work (what to pick next), see [`HANDOFF.md`](../HANDOFF.md) 
 
 - **Live URL:** https://istorija365.com/ (self-hosted on the owner's Hetzner VPS since 2026-09-27; pipeline and runbook in `docs/DEPLOY.md`). The former Vercel project `learn365-web` was deleted on 2026-09-28; istorija365.com is the only origin.
 - **Branch model:** Trunk-based. Each phase ships as one PR merged to `main`. No release branches.
-- **In progress (2026-09-28, branch `feat/phase-9-corpus-split-prerender`, PR pending):** Phase 9 — review P1 items 6 + 7: the lesson corpus leaves the client bundle (`LessonSummary` index for the client, `LessonArticle` behind `@learn365/content/server`; every route 100–141 kB gzip client JS, was 933–945) and the course overview + all 365 lesson pages are prerendered at build time (373 static routes). A bundle budget runs in CI. See "Phase 9" below. The review's P0 group is merged (PRs #37, #38).
-- **Last shipped phase:** Phase 8 — accounts (Google sign-in) + cloud progress (PR #34, squash `06e6a55`, merged and switched on in production 2026-09-27). See "Phase 8 — Accounts + cloud progress" below.
+- **Last shipped phase:** Phase 9 — review P1 items 6 + 7 (PR #40, squash `6a0a533`, merged and deployed 2026-09-28): the lesson corpus leaves the client bundle (`LessonSummary` index for the client, `LessonArticle` behind `@learn365/content/server`; every route 100–141 kB gzip client JS, was 933–945) and the course overview + all 365 lesson pages are prerendered at build time (373 static routes). A bundle budget runs in CI. See "Phase 9" below. The review's P0 group is merged too (PRs #37, #38).
+- **Before that:** Phase 8 — accounts (Google sign-in) + cloud progress (PR #34, squash `06e6a55`, merged and switched on in production 2026-09-27). See "Phase 8 — Accounts + cloud progress" below.
 - **Last shipped phase:** Phase 7.6 — Course page scroll restore (shipped 2026-05-21, PR #24, `17f2715`). See "Phase 7.6 — done" below. The Phase 7.5 mobile sticky-chrome scroll-collapse (PR #23, `4325e64`) and Phase 7.12b era-opener figures (`542edad`) are the prior milestones.
 
 ### UI/UX baseline (do not regress)
@@ -73,9 +73,9 @@ The next phase pick is recorded in [`HANDOFF.md`](../HANDOFF.md) at the repo roo
 
 The remainder of this document is the chronological build log. Each phase entry records the locked decisions, files touched, gates run, and rationale. The log is append-only — use it to answer "why did we build it this way?" or "when did X change?" The current state of any component or surface lives in the **Current Baseline** section above, not in the phase log.
 
-## Phase 9 — Corpus out of the client bundle + 366 prerendered pages (2026-09-28): built (branch `feat/phase-9-corpus-split-prerender`, PR pending)
+## Phase 9 — Corpus out of the client bundle + 366 prerendered pages (2026-09-28): done (PR #40, `6a0a533`, live)
 
-Review P1 items 6 + 7 as one phase, planned in `docs/PHASE_9_PLAN.md` (eight locked decisions; owner sign-off 2026-09-28, "idemo") and built the same day. Four commits, each green on its own. A delivery-shape phase: same pages, same pixels, same JSON on disk — different packaging.
+Review P1 items 6 + 7 as one phase, planned in `docs/archive/phases/PHASE_9_PLAN.md` (eight locked decisions; owner sign-off 2026-09-28, "idemo") and built, merged and deployed the same day. Four commits, each green on its own. A delivery-shape phase: same pages, same pixels, same JSON on disk — different packaging.
 
 **What changed:**
 - **9a — Article slot.** `LessonReader` takes `article: ReactNode`; the lesson page renders `LessonBody` + `LessonSources` + `LessonTrustLine` as server components and hands the node to the client reader. The body no longer travels as a `content[]` prop (it existed three times before: chunk, RSC prop, HTML).
@@ -87,7 +87,9 @@ Review P1 items 6 + 7 as one phase, planned in `docs/PHASE_9_PLAN.md` (eight loc
 
 **Deviations from the plan:** route budget 175 kB gzip instead of 150 — the lesson route measures 141 kB (the plan's 118 kB estimate left out the pages' own chunks) and the point of the budget is a ceiling with ~25 % headroom. Nothing else deviated; `server-only` inside the transpiled workspace package behaves exactly as in `apps/web/lib/server` (verified by importing the server entry from `LessonPageClient` once on purpose and watching `next build` refuse it).
 
-**Gates:** `pnpm typecheck` + `test` (content 26, core 67, ui-web 31, web 75) + `build` + `validate-content` green; `pnpm lint` green outside the git-ignored `apps/web/.data/ui-check.mjs`; `pnpm gen-content` idempotent on the committed tree; `pnpm install --frozen-lockfile` green with pnpm 9.15.0. Playwright (Chromium desktop + mobile, accounts off): **67 pass / 1 documented skip**, run after 9b and again after 9c against `next start` (i.e. against the prerendered pages).
+**Gates:** `pnpm typecheck` + `test` (content 26, core 67, ui-web 31, web 75) + `build` + `validate-content` green; `pnpm lint` green outside the git-ignored `apps/web/.data/ui-check.mjs`; `pnpm gen-content` idempotent on the committed tree; `pnpm install --frozen-lockfile` green with pnpm 9.15.0. Playwright (Chromium desktop + mobile, accounts off): **67 pass / 1 documented skip**, run after 9b and again after 9c against `next start` (i.e. against the prerendered pages). CI on the PR green in 1m27s including the new budget step.
+
+**Live (2026-09-28, deploy run for `6a0a533` green — image + rollout):** `/course/istorija-srbije-365/lesson/day-200` answers `200` with `x-nextjs-cache: HIT` and `cf-cache-status: DYNAMIC` (Cloudflare leaves HTML alone, as intended), the body sentence is in the HTML; `day-999`, `/course/nema`, `/course/nema/lesson/day-001` → `404`; `/api/health` = `{"ok":true,"auth":true,"db":"ok"}`. The lesson page's JS as transferred through Cloudflare: 184 kB compressed across 14 chunks, all `cf-cache-status: HIT`, of which 40 kB is the `noModule` polyfills chunk modern browsers skip — ≈ 146 kB for a modern browser, against ≈ 970 kB before. Plan archived to `docs/archive/phases/PHASE_9_PLAN.md`.
 
 ## Phase 8 — Accounts + cloud progress: Google sign-in, Postgres, sync beside the local stores (2026-09-27): done (PR #34, `06e6a55`, live)
 
