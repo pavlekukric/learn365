@@ -1,6 +1,8 @@
 import { getCourse } from '@learn365/content';
 import { Eyebrow, Flourish } from '@learn365/ui-web';
 
+import { READING_TIME_LABEL } from '@/lib/copy/readingTime';
+
 import { HomeCurrentLessonCard } from './_components/HomeCurrentLessonCard';
 import { HomeDailyAnchor } from './_components/HomeDailyAnchor';
 import { HomeEraTimeline } from './_components/HomeEraTimeline';
@@ -25,8 +27,9 @@ const HERO_DESCRIPTION =
  * chronological scope caption — era years are already encoded in the
  * timeline below and on every era card / lesson eyebrow, so the hero is
  * the right place to state the daily contract instead of restating scope.
+ * The minutes are the corpus's own range (Phase 11), never a literal.
  */
-const HERO_CONTRACT_LINE = '365 lekcija · 1 dnevno · ~8 minuta';
+const HERO_CONTRACT_LINE = `365 lekcija · 1 dnevno · ${READING_TIME_LABEL}`;
 
 export default function HomePage() {
   const course = getCourse(DEFAULT_COURSE_ID);

@@ -7,6 +7,8 @@
  * data-rights contact on /privatnost.
  */
 
+import { READING_TIME_LABEL } from '@/lib/copy/readingTime';
+
 export const CONTACT_EMAIL = 'kontakt@istorija365.com';
 
 export const PAGE_EYEBROW = 'O aplikaciji';
@@ -16,7 +18,7 @@ export const PAGE_LEDE =
 
 export const MISSION_HEADING = 'Misija';
 export const MISSION_BODY =
-  'Cilj nam je da istoriju Srbije izvedemo iz udžbenika i hronologija i predstavimo je kao povezanu, čitljivu priču dostupnu svakome ko želi da je razume. Verujemo da je dovoljno osam minuta dnevno tokom godinu dana da se izgradi solidna, hronološki uredna slika — od najstarijih kultura na Balkanu do savremenog doba. Kurs je namerno spor: ne nudi enciklopedijsku iscrpnost, već stabilan ritam koji se može održati.';
+  `Cilj nam je da istoriju Srbije izvedemo iz udžbenika i hronologija i predstavimo je kao povezanu, čitljivu priču dostupnu svakome ko želi da je razume. Verujemo da je dovoljno ${READING_TIME_LABEL} dnevno tokom godinu dana da se izgradi solidna, hronološki uredna slika — od najstarijih kultura na Balkanu do savremenog doba. Kurs je namerno spor: ne nudi enciklopedijsku iscrpnost, već stabilan ritam koji se može održati.`;
 
 export const STANDARD_HEADING = 'Urednički standard';
 export const STANDARD_BODY =
