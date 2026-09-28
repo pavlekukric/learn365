@@ -188,3 +188,14 @@ curl -s https://<DOMEN>/api/health
 ```
 
 **Memory.** `db` is capped at 256 MB (`shared_buffers` 32 MB, `max_connections` 20; the app pool is 5). Check `free -h` after the first day; Računi's SQL Server cap (1.5 GB) is untouched.
+
+## 11. Contact address — `kontakt@istorija365.com`
+
+The address on `/o-aplikaciji` and `/privatnost` is an alias on the production domain, not a mailbox. It works only once the owner creates the forwarding rule; until then mail to it bounces. One-time setup, free, in the Cloudflare dashboard for the `istorija365.com` zone (not the Računi zone):
+
+1. **Email → Email Routing → Get started.** Cloudflare adds the MX + SPF records for the zone (it warns if an existing MX would conflict; there is none).
+2. **Destination addresses → Add** the owner's inbox. Cloudflare sends a verification mail; click the link.
+3. **Routing rules → Create address:** custom address `kontakt`, action *Send to an email*, destination = the verified inbox. Save.
+4. Send a test mail to `kontakt@istorija365.com` and confirm it lands. Replies go out from the personal inbox (fine for now; a "send as" alias in Gmail is optional).
+
+Nothing in the repo changes for this; the code already uses the alias (`apps/web/app/o-aplikaciji/_copy.ts`).
