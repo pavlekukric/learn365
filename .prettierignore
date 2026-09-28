@@ -7,3 +7,5 @@ coverage
 out
 pnpm-lock.yaml
 design/cloud-design-v1/
+# Generated from content/courses/** by `pnpm gen-content`; CI checks the pair against the JSON (Phase 10).
+**/_generated*.ts
