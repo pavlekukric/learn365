@@ -24,6 +24,7 @@ Each file was the in-flight plan for a single feature bundle. The implementation
 - `PHASE_7_3_PLAN.md` — section crumb in lesson breadcrumb + sidebar indent guide (shipped as Phase 7.3a–b).
 - `PHASE_7_4_PLAN.md` — eras as editorial blocks on course page, eras default closed on fresh state (shipped 2026-05-19, merge `f6a849f`).
 - `PHASE_8_PLAN.md` — accounts: Google sign-in, Postgres on the VPS, sync beside the local stores, the ask after the second lesson (shipped 2026-09-27, PR #34 `06e6a55`, switched on the same day). Its `./…` links assume the old `docs/` location.
+- `PHASE_9_PLAN.md` — the lesson corpus out of the client bundle (`LessonSummary` index + server-only `LessonArticle` behind `@learn365/content/server`) and the course + 365 lesson pages prerendered, with a bundle budget in CI (review P1 items 6 + 7; shipped 2026-09-28, PR #40 `6a0a533`, deployed the same day). One deviation recorded in PROJECT_STATE: route budget 175 kB gzip, not 150. Its `./…` links assume the old `docs/` location.
 
 ### `reviews/` — superseded UX reviews and audits
 
