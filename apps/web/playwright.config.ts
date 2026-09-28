@@ -16,7 +16,8 @@ export default defineConfig({
   fullyParallel: true,
   forbidOnly: !!process.env['CI'],
   retries: process.env['CI'] ? 2 : 0,
-  reporter: 'list',
+  // On CI the `github` reporter annotates failures on the PR diff (Phase 10).
+  reporter: process.env['CI'] ? [['list'], ['github']] : 'list',
   use: {
     baseURL: 'http://127.0.0.1:3100',
     trace: 'on-first-retry',
