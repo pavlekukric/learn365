@@ -16,6 +16,7 @@ import { getAllCourseIds } from '@learn365/content';
 import { useBookmarkStore } from '@/lib/bookmarks/BookmarkStoreProvider';
 import { useProgressStore } from '@/lib/progress/ProgressStoreProvider';
 
+import { hasCloudMarker, isImplicitSignOut } from './implicitSignOut';
 import { ACCOUNT_LOCAL_KEYS } from './localKeys';
 
 /** Mirror of `PublicUser` on the server — what `/api/me` returns. */
@@ -67,14 +68,16 @@ async function fetchMe(): Promise<MeResponse> {
  * Client-side session state. Pages stay static; the provider asks `/api/me`
  * once per full load, the same way progress hydrates from `localStorage`.
  * A failed or "disabled" answer renders no sign-in surface and touches
- * nothing stored locally — only the reader's own `Odjava` / `Obriši nalog`
- * clear this browser, and they do so in an effect that runs *after* the
- * sync layer (a child) has been torn down, so the clearing is never sent
- * to the account as a change.
+ * nothing stored locally. This browser is cleared in exactly two cases, both
+ * in an effect that runs *after* the sync layer (a child) has been torn
+ * down, so the clearing is never sent to the account as a change: the
+ * reader's own `Odjava` / `Obriši nalog`, and an *implicit* sign-out — the
+ * server says the session is gone while a cloud marker says the local
+ * stores belonged to an account (see `isImplicitSignOut`).
  */
 export function AuthProvider({ children }: { children: ReactNode }) {
   const [state, setState] = useState<AuthState>({ enabled: false, user: null, status: 'loading' });
-  const [clearRequested, setClearRequested] = useState(false);
+  const [clearRequested, setClearRequested] = useState<'none' | 'explicit' | 'implicit'>('none');
   const resetCourse = useProgressStore((store) => store.resetCourse);
   const clearCourse = useBookmarkStore((store) => store.clearCourse);
   const router = useRouter();
@@ -82,7 +85,9 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   useEffect(() => {
     let cancelled = false;
     void fetchMe().then((me) => {
-      if (!cancelled) setState({ enabled: me.enabled, user: me.user, status: 'ready' });
+      if (cancelled) return;
+      setState({ enabled: me.enabled, user: me.user, status: 'ready' });
+      if (isImplicitSignOut(me, hasCloudMarker())) setClearRequested('implicit');
     });
     return () => {
       cancelled = true;
@@ -90,7 +95,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   }, []);
 
   useEffect(() => {
-    if (!clearRequested) return;
+    if (clearRequested === 'none') return;
     for (const courseId of getAllCourseIds()) {
       resetCourse(courseId);
       clearCourse(courseId);
@@ -102,9 +107,12 @@ export function AuthProvider({ children }: { children: ReactNode }) {
         // private mode / blocked storage — nothing to clear.
       }
     }
-    setClearRequested(false);
-    router.replace('/');
-    router.refresh();
+    const explicit = clearRequested === 'explicit';
+    setClearRequested('none');
+    if (explicit) {
+      router.replace('/');
+      router.refresh();
+    }
   }, [clearRequested, resetCourse, clearCourse, router]);
 
   const leave = useCallback(async (request: () => Promise<Response>): Promise<boolean> => {
@@ -118,7 +126,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     // Drop the user first: the sync layer disposes on this render, and the
     // local stores are cleared by the effect above right after.
     setState((previous) => ({ ...previous, user: null }));
-    setClearRequested(true);
+    setClearRequested('explicit');
     return true;
   }, []);
 

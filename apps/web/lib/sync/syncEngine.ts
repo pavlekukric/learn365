@@ -4,12 +4,15 @@ import type { Marker } from './marker';
  * The browser side of cloud sync, independent of which store it drives.
  *
  * Lifecycle per signed-in session and store:
- *   1. **First contact** for this (browser, user) — the marker does not name
- *      this user — `POST <endpoint>/sync` with the local snapshot; the
- *      account unions it in and returns the canonical state, which replaces
- *      the local copy. Then the marker is written.
+ *   1. **First contact** for this browser — no marker at all — `POST
+ *      <endpoint>/sync` with the local snapshot; the account unions it in
+ *      and returns the canonical state, which replaces the local copy. Then
+ *      the marker is written.
  *   2. **Every later load** — `GET <endpoint>?courseId=…` and replace local:
- *      the account is authoritative across devices.
+ *      the account is authoritative across devices. A marker naming a
+ *      *different* user takes this path too (a previous reader's local
+ *      state must never be unioned into this account) and is rewritten
+ *      once the load succeeds.
  *   3. **Every local change** — the adapter reports a delta per course; the
  *      engine coalesces for `debounceMs` and sends `PATCH <endpoint>`. One
  *      retry after `retryMs`; a second failure waits for the next change or
@@ -143,7 +146,12 @@ export function startSync<Delta>(options: SyncEngineOptions<Delta>): SyncHandle 
   const unsubscribe = adapter.subscribe(record);
 
   const initial = async (): Promise<void> => {
-    const migrate = adapter.marker.read() !== userId;
+    // Union only when this browser has never been merged into any account.
+    // A marker naming another user means a previous reader's local state is
+    // still here (their session ended without `Odjava`); the account replaces
+    // it instead of absorbing it.
+    const previous = adapter.marker.read();
+    const migrate = previous === null;
     let complete = true;
     for (const courseId of courseIds) {
       if (disposed) return;
@@ -168,7 +176,7 @@ export function startSync<Delta>(options: SyncEngineOptions<Delta>): SyncHandle 
       }
     }
     if (disposed) return;
-    if (migrate && complete) adapter.marker.write(userId);
+    if (previous !== userId && complete) adapter.marker.write(userId);
     // Even after a failed load, changes made now should reach the account
     // once it answers again — the next load re-reads it either way.
     ready = true;

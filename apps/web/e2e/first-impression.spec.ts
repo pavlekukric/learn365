@@ -74,5 +74,11 @@ test.describe('History 365 — first impression', () => {
     await expect(page.getByText(/Ne navodimo bibliografiju/)).toHaveCount(0);
     await expect(page.getByText(/u fazi izgradnje kursa/)).toHaveCount(0);
     await expect(page.getByText(/Premium/)).toHaveCount(0);
+    // No invented editorial team, and a contact address on the production domain.
+    await expect(page.getByText(/Tim History 365/)).toHaveCount(0);
+    await expect(page.getByRole('link', { name: 'kontakt@istorija365.com' })).toHaveAttribute(
+      'href',
+      'mailto:kontakt@istorija365.com',
+    );
   });
 });

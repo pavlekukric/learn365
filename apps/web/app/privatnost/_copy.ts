@@ -9,7 +9,7 @@ export const PRIVACY_EYEBROW = 'Privatnost';
 export const PRIVACY_TITLE = 'Šta čuvamo, i zašto';
 export const PRIVACY_LEDE =
   'History 365 radi i bez naloga. Nalog postoji samo da bi se napredak preneo na druge uređaje. Ovde je, bez sitnih slova, sve što se tada čuva.';
-export const PRIVACY_UPDATED = 'Poslednja izmena: 27. septembar 2026.';
+export const PRIVACY_UPDATED = 'Poslednja izmena: 28. septembar 2026.';
 
 export interface PrivacySection {
   readonly id: string;
@@ -18,6 +18,13 @@ export interface PrivacySection {
 }
 
 export const PRIVACY_SECTIONS: readonly PrivacySection[] = [
+  {
+    id: 'ko-vodi',
+    heading: 'Ko vodi sajt',
+    paragraphs: [
+      'History 365 vodi privatno lice, ne firma. To lice je rukovalac podataka opisanih na ovoj strani i odgovara na svako pitanje o njima preko adrese na dnu strane.',
+    ],
+  },
   {
     id: 'bez-naloga',
     heading: 'Bez naloga',
@@ -44,14 +51,14 @@ export const PRIVACY_SECTIONS: readonly PrivacySection[] = [
     id: 'gde',
     heading: 'Gde i koliko dugo',
     paragraphs: [
-      'Podaci su na serveru u Helsinkiju, u Evropskoj uniji (Hetzner). Čuvaju se dok postoji nalog. Rezervne kopije prave se noću i čuvaju četrnaest dana.',
+      'Podaci su na serveru u Helsinkiju, u Evropskoj uniji (Hetzner). Saobraćaj do servera ide preko Cloudflare-a, a prijava preko Google-a. Čuvaju se dok postoji nalog. Rezervne kopije prave se noću i čuvaju četrnaest dana.',
     ],
   },
   {
     id: 'brisanje',
     heading: 'Brisanje',
     paragraphs: [
-      'Na strani Nalog postoji dugme Obriši nalog. Briše nalog, napredak i sačuvane lekcije odmah i trajno. Odjava briše napredak samo iz tog pregledača; nalog ostaje.',
+      'Na strani Nalog postoji dugme Obriši nalog. Briše nalog, napredak i sačuvane lekcije odmah i trajno; iz rezervnih kopija nestaju najkasnije za četrnaest dana. Odjava briše napredak samo iz tog pregledača; nalog ostaje. Isto se dešava kad prijava istekne: pročitane i sačuvane lekcije nestaju iz tog pregledača, a ostaju na nalogu i vraćaju se pri sledećoj prijavi.',
     ],
   },
 ];

@@ -29,7 +29,7 @@ Hard rule from the owner. Everything Learn365 owns is separate: `/srv/learn365`,
 | File | Role |
 |---|---|
 | `apps/web/next.config.mjs` | `output: 'standalone'` **only when `NEXT_STANDALONE=1`** (the Dockerfile sets it). Opt-in because the tracing step recreates pnpm symlinks, which Windows refuses without Developer Mode; a plain `pnpm build` on a dev machine is unchanged. `outputFileTracingRoot` = monorepo root so workspace packages are traced. |
-| `apps/web/lib/seo/metadata.ts` | `SITE_URL` = `NEXT_PUBLIC_SITE_URL` at build time, Vercel origin as fallback. Feeds `metadataBase` / Open Graph. |
+| `apps/web/lib/seo/metadata.ts` | `SITE_URL` = `NEXT_PUBLIC_SITE_URL` at build time, production origin (`https://istorija365.com`) as fallback. Feeds `metadataBase`, canonical URLs, Open Graph, `sitemap.xml` and `robots.txt`. |
 | `apps/web/Dockerfile` | 3 stages: deps (manifests only, pnpm 9.15 via npm, store cache) → build (`@learn365/ui` emits `dist/globals.css`, then `next build`) → runtime (`node:22-bookworm-slim`, non-root `node`, `HEALTHCHECK` = `GET /`). Context is the **repo root**; `.dockerignore` trims it. |
 | `.github/workflows/deploy.yml` | PR touching deploy files → build only. Push to `main` / manual → build, push to GHCR, ssh rollout. Rollout is a no-op until `DEPLOY_HOST` / `DEPLOY_SSH_KEY` exist. |
 | `deploy/docker-compose.yml` | `db` + `web` + `cloudflared`. Copied to `/srv/learn365/docker-compose.yml`. Secrets reach containers only through explicit `environment:` mappings interpolated from `.env` (no `env_file`). |
@@ -109,7 +109,7 @@ After every server step: `ssh root@<IP> 'docker ps --filter name=racuni --format
 
 | Name | Where | Purpose |
 |---|---|---|
-| `NEXT_PUBLIC_SITE_URL` | build arg from repo variable `SITE_URL` | Public origin for `metadataBase` / Open Graph. Empty → Vercel fallback. |
+| `NEXT_PUBLIC_SITE_URL` | build arg from repo variable `SITE_URL` | Public origin for `metadataBase` / canonical / Open Graph / sitemap. Empty → `https://istorija365.com` (so a stray build never declares itself canonical). |
 | `IMAGE_TAG` | `/srv/learn365/.env`, written by `deploy.sh` | Which image tag compose runs. |
 | `DEPLOY_HOST_KEY` | repo variable | Pinned `<IP> ssh-ed25519 …` line for the runner's `known_hosts` (no keyscan). |
 | `POSTGRES_PASSWORD` | `/srv/learn365/.env` → `db` | Password of the `learn365` database role. Hex only (`openssl rand -hex 24`) so the URL below needs no encoding. |
@@ -139,7 +139,7 @@ The Phase 5 manual gates (screen-reader smoke, editorial review of the 6 seed le
 Once `https://<DOMEN>/` serves from the VPS for a day without incident:
 
 1. Vercel dashboard → project `learn365-web` → Settings → *Delete project*.
-2. Remove the `learn365-web.vercel.app` fallback from `apps/web/lib/seo/metadata.ts` (make `NEXT_PUBLIC_SITE_URL` required at build).
+2. ~~Remove the `learn365-web.vercel.app` fallback~~ — done 2026-09-28: the fallback is now the production origin, and every page carries a `<link rel="canonical">` to it, so the Vercel copy (while it exists) points search engines at istorija365.com.
 3. Update `HANDOFF.md` / `PROJECT_STATE.md` live-URL lines.
 
 ## 9. Status — deploy pipeline
@@ -188,3 +188,14 @@ curl -s https://<DOMEN>/api/health
 ```
 
 **Memory.** `db` is capped at 256 MB (`shared_buffers` 32 MB, `max_connections` 20; the app pool is 5). Check `free -h` after the first day; Računi's SQL Server cap (1.5 GB) is untouched.
+
+## 11. Contact address — `kontakt@istorija365.com`
+
+The address on `/o-aplikaciji` and `/privatnost` is an alias on the production domain, not a mailbox. It works only once the owner creates the forwarding rule; until then mail to it bounces. One-time setup, free, in the Cloudflare dashboard for the `istorija365.com` zone (not the Računi zone):
+
+1. **Email → Email Routing → Get started.** Cloudflare adds the MX + SPF records for the zone (it warns if an existing MX would conflict; there is none).
+2. **Destination addresses → Add** the owner's inbox. Cloudflare sends a verification mail; click the link.
+3. **Routing rules → Create address:** custom address `kontakt`, action *Send to an email*, destination = the verified inbox. Save.
+4. Send a test mail to `kontakt@istorija365.com` and confirm it lands. Replies go out from the personal inbox (fine for now; a "send as" alias in Gmail is optional).
+
+Nothing in the repo changes for this; the code already uses the alias (`apps/web/app/o-aplikaciji/_copy.ts`).
