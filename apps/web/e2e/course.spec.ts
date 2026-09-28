@@ -8,7 +8,7 @@ test.describe('History 365 — course overview', () => {
   }) => {
     await page.goto(`/course/${COURSE_ID}`);
     const card = page.getByRole('button', {
-      name: 'Epoha I: Praistorija, antika i doseljavanje Slovena',
+      name: 'EPOHA I Praistorija, antika i doseljavanje Slovena',
     });
     await expect(card).toHaveAttribute('aria-expanded', 'false');
     await card.click();

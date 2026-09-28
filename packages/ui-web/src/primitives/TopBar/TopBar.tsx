@@ -6,7 +6,8 @@ import { Brand } from '../Brand/Brand.js';
 
 import styles from './TopBar.module.css';
 
-export type TopBarRoute = 'home' | 'course' | 'lesson' | 'about';
+/** `other` = an account, privacy or 404 page: nothing in the nav is active. */
+export type TopBarRoute = 'home' | 'course' | 'lesson' | 'about' | 'other';
 
 /**
  * Account slot at the right end of the masthead (Phase 8). The app decides
@@ -112,7 +113,12 @@ export function TopBar({
            * carries a clearly-labelled "Pročitano X / 365", so the bare capsule
            * count would read as a confusing duplicate. Kept everywhere else
            * (Home / Course / About) and on the desktop lesson layout. */}
-          <div className={styles.progressGroup} data-route={route} aria-label="Pročitane lekcije">
+          <div
+            className={styles.progressGroup}
+            data-route={route}
+            role="status"
+            aria-label="Pročitane lekcije"
+          >
             <span className={`eyebrow ${styles.progressLabel}`}>Pročitano</span>
             <span className={`tiny mono ${styles.progressCount}`}>
               {completedCount} / {totalLessons}

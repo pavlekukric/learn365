@@ -73,7 +73,7 @@
 }
 
 .years {
-  color: var(--faint);
+  color: var(--muted);
 }
 
 /* Hierarchy: Era is the top-level row; Section rows nest under it. We shift

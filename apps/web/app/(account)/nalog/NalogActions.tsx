@@ -49,7 +49,7 @@ export function NalogActions() {
       <div className={styles.actions}>
         <button
           type="button"
-          className={styles.primary}
+          className={styles.outline}
           onClick={() => void handleSignOut()}
           disabled={busy !== null}
         >
@@ -77,7 +77,7 @@ export function NalogActions() {
           <div className={styles.actions}>
             <button
               type="button"
-              className={styles.danger}
+              className={styles.outline}
               onClick={() => void handleDelete()}
               disabled={busy !== null}
             >

@@ -75,11 +75,15 @@ export function CourseCard({
         onClick={onToggle}
         aria-expanded={isOpen}
         aria-controls={panelId}
-        aria-label={`Epoha ${era.num}: ${era.title}`}
+        aria-labelledby={`${panelId}-num ${panelId}-title`}
       >
-        <span className={`tiny mono ${styles.num}`}>EPOHA {era.num}</span>
+        <span id={`${panelId}-num`} className={`tiny mono ${styles.num}`}>
+          EPOHA {era.num}
+        </span>
         <span className={styles.titleBlock}>
-          <span className={`h3 ${styles.title}`}>{era.title}</span>
+          <span id={`${panelId}-title`} className={`h3 ${styles.title}`}>
+            {era.title}
+          </span>
           <span className={`tiny mono ${styles.years}`}>{era.yearsLabel}</span>
           {description ? (
             <span className={`small ${styles.description}`}>{description}</span>

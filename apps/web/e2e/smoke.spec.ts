@@ -66,7 +66,7 @@ test.describe('History 365 — smoke', () => {
     await expect(page.getByRole('heading', { level: 1 })).toBeVisible();
     // Post-2026-09-25 each era card is a disclosure button (opens its
     // sections) with one labelled action link beside it.
-    const eraCards = page.getByRole('button', { name: /^Epoha [IVX]+:/ });
+    const eraCards = page.getByRole('button', { name: /^EPOHA [IVX]+ / });
     await expect(eraCards).toHaveCount(8);
     await expect(page.getByRole('link', { name: /^Počni: / })).toHaveCount(8);
   });

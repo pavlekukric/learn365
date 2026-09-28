@@ -100,8 +100,9 @@
   cursor: default;
 }
 
-/* Outlined pill for the one destructive confirmation. */
-.danger {
+/* Outlined pill: `Odjava` and the delete confirmation — account actions are
+ * never the page's filled primary. */
+.outline {
   display: inline-flex;
   align-items: center;
   padding: 11px 21px;
@@ -120,17 +121,17 @@
     opacity var(--dur-base) var(--ease);
 }
 
-.danger:hover:not(:disabled) {
+.outline:hover:not(:disabled) {
   background: var(--ink);
   color: var(--bg);
 }
 
-.danger:focus-visible {
+.outline:focus-visible {
   outline: 2px solid var(--accent);
   outline-offset: 3px;
 }
 
-.danger:disabled {
+.outline:disabled {
   opacity: 0.5;
   cursor: default;
 }

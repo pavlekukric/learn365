@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Link from 'next/link';
 import { redirect } from 'next/navigation';
 
 import { Eyebrow } from '@learn365/ui-web';
@@ -41,6 +42,9 @@ export default async function NalogPage() {
           kojem se prijaviš.
         </p>
         <NalogActions />
+        <Link href="/" className={styles.secondary}>
+          Nazad na čitanje
+        </Link>
       </section>
     </div>
   );

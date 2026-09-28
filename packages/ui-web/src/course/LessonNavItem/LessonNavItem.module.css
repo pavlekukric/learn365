@@ -40,7 +40,7 @@
 }
 
 .meta {
-  color: var(--faint);
+  color: var(--muted);
   font-variant-numeric: tabular-nums;
 }
 
@@ -97,10 +97,10 @@
 }
 
 .placeholder .day {
-  color: var(--faint);
+  color: var(--muted);
 }
 
 .placeholder .title {
-  color: var(--faint);
+  color: var(--muted);
   font-style: italic;
 }

@@ -21,7 +21,7 @@ test.describe('History 365 — accounts off', () => {
   test('/prijava says sign-in is unavailable and keeps a way back', async ({ page }) => {
     await page.goto('/prijava');
     await expect(page.getByRole('heading', { level: 1, name: 'Prijava' })).toBeVisible();
-    await expect(page.getByRole('status')).toContainText('Prijava trenutno nije dostupna');
+    await expect(page.getByRole('status').filter({ hasText: /Prijava trenutno/ })).toContainText('Prijava trenutno nije dostupna');
     await expect(page.getByRole('link', { name: 'Nastavi sa Google-om' })).toHaveCount(0);
     await page.getByRole('link', { name: 'Nazad na čitanje' }).click();
     await expect(page).toHaveURL(/\/$/);

@@ -70,7 +70,7 @@ test.describe('History 365 — first impression', () => {
   }) => {
     await page.goto('/o-aplikaciji');
     await expect(page.getByRole('heading', { level: 2, name: 'Kako funkcioniše' })).toBeVisible();
-    await expect(page.getByText('Sutra nastavi gde si stao')).toBeVisible();
+    await expect(page.getByText('Sutra nastavi dalje')).toBeVisible();
     await expect(page.getByText(/Ne navodimo bibliografiju/)).toHaveCount(0);
     await expect(page.getByText(/u fazi izgradnje kursa/)).toHaveCount(0);
     await expect(page.getByText(/Premium/)).toHaveCount(0);

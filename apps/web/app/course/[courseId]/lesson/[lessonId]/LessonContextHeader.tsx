@@ -50,6 +50,7 @@ export function LessonContextHeader({
 
       <span
         className={`tiny mono ${styles.metaRow}`}
+        role="status"
         aria-label={`Pročitano ${String(completedCount)} od ${String(totalLessons)} lekcija`}
       >
         Pročitano {completedCount} / {totalLessons}

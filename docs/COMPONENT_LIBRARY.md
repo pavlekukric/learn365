@@ -62,14 +62,14 @@ type BreadcrumbsProps = { items: BreadcrumbItem[] };
 ```
 
 Render order: `href` → `<Link>`; `onClick` → `<button>`; neither → `<span>`.
-The last item always renders as a non-interactive span with
-`aria-current="page"`, regardless of `href` / `onClick`. Separator is `/`.
+The last item follows the same rule: with an `href` it is a link, without one a plain span
+marked `aria-current="page"`. Separator is `/`.
 
 Phase 6.8d completed the Phase-3 `onClick → href` revision for navigation —
 breadcrumbs that go up a level use `href` so middle-click / right-click /
 open-in-new-tab work and the crumb is a real anchor (not a styled span).
 
-A11y: wrap in `<nav aria-label="Breadcrumbs">`, last item gets `aria-current="page"`.
+A11y: wrap in `<nav aria-label="Breadcrumbs">`; a crumb with an `href` is a link wherever it sits, and only a last crumb *without* one gets `aria-current="page"` (the lesson page passes four ancestor links and no current crumb).
 Mobile: shows only the last two crumbs.
 
 ### `Button`
