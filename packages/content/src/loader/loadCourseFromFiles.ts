@@ -40,6 +40,8 @@ import type {
   SourceKind,
 } from '../types.js';
 
+import { estimateReadingMinutes, medianReadingMinutes } from './readingTime.js';
+
 export interface LoadedCourse {
   readonly course: Course;
   readonly eras: readonly Era[];
@@ -244,7 +246,10 @@ function optionalSources(
   return v.map((s, i) => parseSource(file, s, i));
 }
 
-function parseCourse(file: string, raw: unknown): Course {
+function parseCourse(
+  file: string,
+  raw: unknown,
+): Omit<Course, 'estimatedMinutesPerLesson'> {
   if (!isObject(raw)) {
     throw new ContentLoadError(file, 'top-level value must be an object');
   }
@@ -259,7 +264,13 @@ function parseCourse(file: string, raw: unknown): Course {
       `defaultScript must be "latin" or "cyrillic" (got "${defaultScript}")`,
     );
   }
-  const course: Course = {
+  if (raw['estimatedMinutesPerLesson'] !== undefined) {
+    throw new ContentLoadError(
+      file,
+      'field "estimatedMinutesPerLesson" is derived (median of the lesson reading times) — remove it',
+    );
+  }
+  const course: Omit<Course, 'estimatedMinutesPerLesson'> = {
     id: requireString(file, raw, 'id'),
     title: requireString(file, raw, 'title'),
     subtitle: requireString(file, raw, 'subtitle'),
@@ -267,7 +278,6 @@ function parseCourse(file: string, raw: unknown): Course {
     totalLessons: requireInt(file, raw, 'totalLessons'),
     language,
     defaultScript: defaultScript as Script,
-    estimatedMinutesPerLesson: requireInt(file, raw, 'estimatedMinutesPerLesson'),
   };
   const cover = optionalString(file, raw, 'coverImage');
   return cover === undefined ? course : { ...course, coverImage: cover };
@@ -370,6 +380,12 @@ function parseLesson(file: string, raw: unknown): Lesson {
     throw new ContentLoadError(file, 'content must be a non-empty array of blocks');
   }
   const content = contentRaw.map((b, i) => parseBlock(file, b, i));
+  if (raw['readingTimeMinutes'] !== undefined) {
+    throw new ContentLoadError(
+      file,
+      'field "readingTimeMinutes" is derived from the text (ceil(words / 150)) — remove it from the file',
+    );
+  }
 
   const lesson: Lesson = {
     id: requireString(file, raw, 'id'),
@@ -379,7 +395,8 @@ function parseLesson(file: string, raw: unknown): Lesson {
     dayNumber: requireInt(file, raw, 'dayNumber'),
     order: requireInt(file, raw, 'order'),
     title: requireString(file, raw, 'title'),
-    readingTimeMinutes: requireInt(file, raw, 'readingTimeMinutes'),
+    // Derived from the text (Phase 11) — see readingTime.ts.
+    readingTimeMinutes: estimateReadingMinutes(content),
     year: requireInt(file, raw, 'year'),
     content,
   };
@@ -434,7 +451,7 @@ export function loadCourseFromFiles(courseDir: string): LoadedCourse {
   const sectionsFile = join(courseDir, 'sections.json');
   const lessonsDir = join(courseDir, 'lessons');
 
-  const course = parseCourse(courseFile, readJson(courseFile));
+  const courseBase = parseCourse(courseFile, readJson(courseFile));
 
   const erasRaw = readJson(erasFile);
   if (!Array.isArray(erasRaw)) {
@@ -468,6 +485,12 @@ export function loadCourseFromFiles(courseDir: string): LoadedCourse {
       return parseLesson(file, readJson(file));
     })
     .sort((a, b) => a.dayNumber - b.dayNumber);
+
+  // The course-level estimate is the median of the derived lesson minutes (Phase 11).
+  const course: Course = {
+    ...courseBase,
+    estimatedMinutesPerLesson: medianReadingMinutes(lessons),
+  };
 
   return { course, eras, sections, lessons };
 }
