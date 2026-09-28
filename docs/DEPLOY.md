@@ -1,6 +1,6 @@
 # Deploy
 
-Canonical deploy procedure for Learn365 web. **Target since 2026-09-26: the owner's Hetzner VPS**, shared with the Računi app, behind a Cloudflare Tunnel. Vercel (`learn365-web.vercel.app`) stays up only until the custom domain serves from the VPS, then it is deleted (§8).
+Canonical deploy procedure for Learn365 web. **Target since 2026-09-26: the owner's Hetzner VPS**, shared with the Računi app, behind a Cloudflare Tunnel. The former Vercel project (`learn365-web`) was deleted on 2026-09-28 (§8); `learn365-web.vercel.app` answers 404.
 
 Phase 8 (accounts + cloud progress) lives in this same compose project: a `db` service and four runtime secrets in `.env` — §5, §10 and [archive/phases/PHASE_8_PLAN.md](archive/phases/PHASE_8_PLAN.md). Without those secrets the app runs exactly as before (no accounts), so every deploy is safe to roll out dark.
 
@@ -134,13 +134,11 @@ That is the same script the workflow runs, so a rollback is a normal rollout of 
 
 The Phase 5 manual gates (screen-reader smoke, editorial review of the 6 seed lessons) remain open and were consciously overridden for the Vercel launch (2026-05-14). The migration does not re-gate on them; they are tracked in [PROJECT_STATE.md](PROJECT_STATE.md).
 
-## 8. Vercel decommission
+## 8. Vercel decommission — done 2026-09-28
 
-Once `https://<DOMEN>/` serves from the VPS for a day without incident:
-
-1. Vercel dashboard → project `learn365-web` → Settings → *Delete project*.
-2. ~~Remove the `learn365-web.vercel.app` fallback~~ — done 2026-09-28: the fallback is now the production origin, and every page carries a `<link rel="canonical">` to it, so the Vercel copy (while it exists) points search engines at istorija365.com.
-3. Update `HANDOFF.md` / `PROJECT_STATE.md` live-URL lines.
+1. Project `learn365-web` deleted by the owner in the Vercel dashboard; `https://learn365-web.vercel.app/` now answers `404 DEPLOYMENT_NOT_FOUND`. The "Vercel" / "Vercel Preview Comments" checks disappear from PRs with it.
+2. The `SITE_URL` fallback has been the production origin since PR #37, and every page carries a `<link rel="canonical">` to it.
+3. `HANDOFF.md` / `PROJECT_STATE.md` live-URL lines updated the same day.
 
 ## 9. Status — deploy pipeline
 
@@ -154,7 +152,7 @@ Once `https://<DOMEN>/` serves from the VPS for a day without incident:
 | GitHub secrets (`DEPLOY_HOST`, `DEPLOY_USER`, `DEPLOY_SSH_KEY`) | done — 2026-09-26; `SITE_URL` = `https://istorija365.com` set 2026-09-27 and baked into the running image |
 | First rollout | done — 2026-09-27 manual `deploy.sh sha-11c51e776f3f` (first workflow rollout hit the ufw SSH limit, fixed by the pinned host key); `learn365-web` healthy, 64 MB RSS, `GET /` 200 from the compose network. Public URL check pending the domain. |
 | Public URL check | done — 2026-09-27: apex + `www` 200 over HTTPS, `og:url` = domain, `/_next/static` served with `cf-cache-status: HIT` |
-| Vercel deleted | pending — owner confirms after a day of clean serving (§8) |
+| Vercel deleted | done — 2026-09-28 (owner, dashboard); `learn365-web.vercel.app` → 404 |
 | Phase 8 code (db, auth, sync) | done — PR #34 squash-merged as `06e6a55`, rolled out 2026-09-27 |
 | Phase 8 switched on (§10) | done — 2026-09-27: `.env` filled (Google project `istorija365`), `learn365-db` up (postgres:17-alpine, volume `learn365-pgdata`), `web` recreated, migrations applied in 62 ms, public `/api/health` = `{"ok":true,"auth":true,"db":"ok"}`, cron `15 3 * * *` for `backup.sh` as `deploy`, first dump 12 KB; Računi containers unchanged, RAM free 2.4 GB |
 | Cloudflare `www` → apex redirect | done — 2026-09-27, 301 rule in the dashboard (query string not preserved; harmless) |
@@ -191,7 +189,7 @@ curl -s https://<DOMEN>/api/health
 
 ## 11. Contact address — `kontakt@istorija365.com`
 
-The address on `/o-aplikaciji` and `/privatnost` is an alias on the production domain, not a mailbox. It works only once the owner creates the forwarding rule; until then mail to it bounces. One-time setup, free, in the Cloudflare dashboard for the `istorija365.com` zone (not the Računi zone):
+The address on `/o-aplikaciji` and `/privatnost` is an alias on the production domain, not a mailbox. The forwarding rule was created and verified with a test mail on 2026-09-28; the steps below are the record of that setup. One-time setup, free, in the Cloudflare dashboard for the `istorija365.com` zone (not the Računi zone):
 
 1. **Email → Email Routing → Get started.** Cloudflare adds the MX + SPF records for the zone (it warns if an existing MX would conflict; there is none).
 2. **Destination addresses → Add** the owner's inbox. Cloudflare sends a verification mail; click the link.
