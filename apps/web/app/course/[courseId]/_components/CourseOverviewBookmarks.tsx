@@ -8,7 +8,7 @@ import {
   type CourseId,
   type Era,
   type EraId,
-  type Lesson,
+  type LessonSummary,
 } from '@learn365/content';
 import { bookmarkedLessonIds } from '@learn365/core';
 import { Eyebrow } from '@learn365/ui-web';
@@ -22,7 +22,7 @@ interface CourseOverviewBookmarksProps {
 }
 
 interface ResolvedBookmark {
-  lesson: Lesson;
+  lesson: LessonSummary;
   era: Era | undefined;
 }
 

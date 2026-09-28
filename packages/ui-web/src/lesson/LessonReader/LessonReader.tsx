@@ -1,16 +1,13 @@
 'use client';
 
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, type ReactNode } from 'react';
 
-import type { Era, EraId, Lesson, Section } from '@learn365/content';
+import type { Era, EraId, LessonHeading, Section } from '@learn365/content';
 
 import { Breadcrumbs, type BreadcrumbItem } from '../../primitives/Breadcrumbs/Breadcrumbs.js';
 import { CompletedFooter } from '../CompletedFooter/CompletedFooter.js';
 import { HistoricalTimeline, type EraStat } from '../HistoricalTimeline/HistoricalTimeline.js';
-import { LessonBody } from '../LessonBody/LessonBody.js';
 import { LessonHeader, type LessonBookmarkAction } from '../LessonHeader/LessonHeader.js';
-import { LessonSources } from '../LessonSources/LessonSources.js';
-import { LessonTrustLine } from '../LessonTrustLine/LessonTrustLine.js';
 import { MarkAsCompletedButton } from '../MarkAsCompletedButton/MarkAsCompletedButton.js';
 import { PreviousNextLessonNavigation } from '../PreviousNextLessonNavigation/PreviousNextLessonNavigation.js';
 import { SignInPrompt, type SignInPromptProps } from '../SignInPrompt/SignInPrompt.js';
@@ -28,7 +25,16 @@ interface AdjacentLessonLink {
 }
 
 interface LessonReaderProps {
-  lesson: Lesson;
+  lesson: LessonHeading;
+  /**
+   * The rendered article — `LessonBody` plus the closing `LessonSources` /
+   * `LessonTrustLine` — built by the *server* page and passed in as a node.
+   * The reader itself is a client component (completion, drawer, scroll),
+   * but the lesson text has no interactivity, so rendering it on the server
+   * keeps the 365 lesson bodies out of the client bundle. Ignored for
+   * placeholder lessons, which render the "Uskoro" state instead.
+   */
+  article: ReactNode;
   era: Era;
   section: Section;
   eras: readonly Era[];
@@ -61,6 +67,7 @@ interface LessonReaderProps {
 
 export function LessonReader({
   lesson,
+  article,
   era,
   section,
   eras,
@@ -119,15 +126,9 @@ export function LessonReader({
           </p>
         </div>
       ) : (
-        <LessonBody blocks={lesson.content} />
-      )}
-      {!isUpcoming && lesson.sources !== undefined && lesson.sources.length > 0 ? (
-        <LessonSources sources={lesson.sources} />
-      ) : null}
-      {/* Byline / last-reviewed date sits with the sources, at the end —
-       * where a reader judging the text looks for it. */}
-      {isUpcoming ? null : (
-        <LessonTrustLine byline={lesson.byline} lastReviewedAt={lesson.lastReviewedAt} />
+        // Body, then sources + byline / last-reviewed date at the end —
+        // where a reader judging the text looks for it. All server-rendered.
+        article
       )}
       <footer className={styles.footer}>
         {isUpcoming ? null : (

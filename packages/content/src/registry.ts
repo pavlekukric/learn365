@@ -3,8 +3,8 @@ import type {
   CourseId,
   Era,
   EraId,
-  Lesson,
   LessonId,
+  LessonSummary,
   Section,
   SectionId,
 } from './types.js';
@@ -20,8 +20,8 @@ interface CourseData {
   readonly course: Course;
   readonly eras: readonly Era[];
   readonly sections: readonly Section[];
-  readonly lessons: readonly Lesson[];
-  readonly lessonById: ReadonlyMap<LessonId, Lesson>;
+  readonly lessons: readonly LessonSummary[];
+  readonly lessonById: ReadonlyMap<LessonId, LessonSummary>;
   readonly sectionById: ReadonlyMap<SectionId, Section>;
   readonly eraById: ReadonlyMap<EraId, Era>;
 }
@@ -30,7 +30,7 @@ function buildCourseData(args: {
   course: Course;
   eras: readonly Era[];
   sections: readonly Section[];
-  lessons: readonly Lesson[];
+  lessons: readonly LessonSummary[];
 }): CourseData {
   return {
     course: args.course,
@@ -72,11 +72,11 @@ export function getSections(courseId: CourseId): readonly Section[] {
   return dataFor(courseId)?.sections ?? [];
 }
 
-export function getLessons(courseId: CourseId): readonly Lesson[] {
+export function getLessons(courseId: CourseId): readonly LessonSummary[] {
   return dataFor(courseId)?.lessons ?? [];
 }
 
-export function getLessonById(courseId: CourseId, lessonId: LessonId): Lesson | null {
+export function getLessonById(courseId: CourseId, lessonId: LessonId): LessonSummary | null {
   return dataFor(courseId)?.lessonById.get(lessonId) ?? null;
 }
 
@@ -91,13 +91,13 @@ export function getEraById(courseId: CourseId, eraId: EraId): Era | null {
 export function getLessonsBySection(
   courseId: CourseId,
   sectionId: SectionId,
-): readonly Lesson[] {
+): readonly LessonSummary[] {
   const lessons = dataFor(courseId)?.lessons;
   if (!lessons) return [];
   return lessons.filter((l) => l.sectionId === sectionId);
 }
 
-export function getLessonsByEra(courseId: CourseId, eraId: EraId): readonly Lesson[] {
+export function getLessonsByEra(courseId: CourseId, eraId: EraId): readonly LessonSummary[] {
   const lessons = dataFor(courseId)?.lessons;
   if (!lessons) return [];
   return lessons.filter((l) => l.eraId === eraId);
@@ -136,7 +136,7 @@ export function getEraForSection(
   return getEraById(courseId, section.eraId);
 }
 
-export function getPrevLesson(courseId: CourseId, lessonId: LessonId): Lesson | null {
+export function getPrevLesson(courseId: CourseId, lessonId: LessonId): LessonSummary | null {
   const lessons = dataFor(courseId)?.lessons;
   if (!lessons) return null;
   const idx = lessons.findIndex((l) => l.id === lessonId);
@@ -144,7 +144,7 @@ export function getPrevLesson(courseId: CourseId, lessonId: LessonId): Lesson | 
   return lessons[idx - 1] ?? null;
 }
 
-export function getNextLesson(courseId: CourseId, lessonId: LessonId): Lesson | null {
+export function getNextLesson(courseId: CourseId, lessonId: LessonId): LessonSummary | null {
   const lessons = dataFor(courseId)?.lessons;
   if (!lessons) return null;
   const idx = lessons.findIndex((l) => l.id === lessonId);

@@ -1,4 +1,4 @@
-import type { Lesson } from '@learn365/content';
+import type { LessonHeading } from '@learn365/content';
 
 import { IconBookmark } from '../../icons/IconBookmark.js';
 import { Flourish } from '../../primitives/Flourish/Flourish.js';
@@ -12,7 +12,8 @@ export interface LessonBookmarkAction {
 }
 
 interface LessonHeaderProps {
-  lesson: Lesson;
+  /** Summary plus `subtitle` / `dateLabel` — the open lesson, from the server page. */
+  lesson: LessonHeading;
   /**
    * Short era label (e.g. "Praistorija i antika"). Shown in the eyebrow on
    * single-column layouts only, where there is no sidebar or breadcrumb to

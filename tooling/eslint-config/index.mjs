@@ -12,6 +12,9 @@ export default [
       '**/.turbo/**',
       '**/node_modules/**',
       '**/coverage/**',
+      // Codegen output (`pnpm gen-content`): a ~2.4 MB literal that has
+      // nothing to lint and everything to slow the run down.
+      '**/_generated*.ts',
     ],
   },
   js.configs.recommended,

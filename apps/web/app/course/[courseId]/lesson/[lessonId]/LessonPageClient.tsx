@@ -1,6 +1,6 @@
 'use client';
 
-import { useCallback, useEffect, useMemo, useState } from 'react';
+import { useCallback, useEffect, useMemo, useState, type ReactNode } from 'react';
 
 import {
   getEras,
@@ -9,7 +9,8 @@ import {
   type CourseId,
   type Era,
   type EraId,
-  type Lesson,
+  type LessonHeading,
+  type LessonSummary,
   type Section,
   type SectionId,
 } from '@learn365/content';
@@ -35,7 +36,10 @@ interface AdjacentLesson {
 interface LessonPageClientProps {
   courseId: CourseId;
   courseTitle: string;
-  lesson: Lesson;
+  /** The open lesson: navigation summary plus the header's subtitle / date. */
+  lesson: LessonHeading;
+  /** Server-rendered lesson text (body + sources + trust line); see `LessonReader`. */
+  article: ReactNode;
   era: Era;
   section: Section;
   prev: AdjacentLesson | null;
@@ -46,6 +50,7 @@ export function LessonPageClient({
   courseId,
   courseTitle,
   lesson,
+  article,
   era,
   section,
   prev,
@@ -113,7 +118,10 @@ export function LessonPageClient({
     });
   }, []);
 
-  const lessonHref = useCallback((l: Lesson) => `/course/${courseId}/lesson/${l.id}`, [courseId]);
+  const lessonHref = useCallback(
+    (l: LessonSummary) => `/course/${courseId}/lesson/${l.id}`,
+    [courseId],
+  );
 
   const eraHref = useCallback(
     (eraId: string) => {
@@ -197,6 +205,7 @@ export function LessonPageClient({
 
         <LessonReader
           lesson={lesson}
+          article={article}
           era={era}
           section={section}
           eras={eras}

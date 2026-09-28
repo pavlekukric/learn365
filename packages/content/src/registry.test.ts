@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest';
 
+import { articles } from './courses/istorija-srbije-365/articles.js';
 import {
   getAllCourseIds,
   getCourse,
@@ -16,6 +17,8 @@ import {
   getSections,
   getSectionsByEra,
 } from './registry.js';
+import { getLessonArticle } from './server.js';
+import { LESSON_ARTICLE_KEYS } from './types.js';
 
 const COURSE = 'istorija-srbije-365';
 
@@ -112,15 +115,50 @@ describe('registry: authored seeds', () => {
 
   it.each(SEED_IDS)('%s is authored (not a stub)', (id) => {
     const lesson = getLessonById(COURSE, id);
+    const article = getLessonArticle(COURSE, id);
     expect(lesson).not.toBeNull();
+    expect(article).not.toBeNull();
     expect(lesson?.isPlaceholder).not.toBe(true);
-    expect(lesson?.content.length).toBeGreaterThan(1);
-    const firstBlock = lesson?.content[0];
+    expect(article?.content.length).toBeGreaterThan(1);
+    const firstBlock = article?.content[0];
     expect(firstBlock?.type).toBe('paragraph');
     if (firstBlock?.type === 'paragraph') {
       expect(firstBlock.dropcap).toBe(true);
       expect(firstBlock.text).not.toContain('Lekcija se uskoro objavljuje');
     }
+  });
+});
+
+describe('registry: summary / article split', () => {
+  it('every summary has an article and every article a summary', () => {
+    const lessons = getLessons(COURSE);
+    expect(Object.keys(articles)).toHaveLength(lessons.length);
+    for (const lesson of lessons) {
+      expect(getLessonArticle(COURSE, lesson.id)).not.toBeNull();
+    }
+  });
+
+  it('no article key leaks into the client-safe summary', () => {
+    // Guards the codegen: the navigation index must stay small, and the
+    // lesson bodies must never be reachable from the main entry.
+    for (const lesson of getLessons(COURSE)) {
+      for (const key of LESSON_ARTICLE_KEYS) {
+        expect(lesson).not.toHaveProperty(key);
+      }
+    }
+  });
+
+  it('the article carries the editorial fields', () => {
+    const article = getLessonArticle(COURSE, 'day-001');
+    expect(article?.subtitle).toBeTypeOf('string');
+    expect(article?.summary).toBeTypeOf('string');
+    expect(article?.dateLabel).toBeTypeOf('string');
+    expect(article?.sources?.length).toBeGreaterThan(0);
+  });
+
+  it('returns null for an unknown lesson or course', () => {
+    expect(getLessonArticle(COURSE, 'ne-postoji')).toBeNull();
+    expect(getLessonArticle('nepostojeci-kurs', 'day-001')).toBeNull();
   });
 });
 

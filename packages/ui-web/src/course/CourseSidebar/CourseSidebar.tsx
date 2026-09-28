@@ -1,8 +1,8 @@
 import type {
   Era,
   EraId,
-  Lesson,
   LessonId,
+  LessonSummary,
   Section,
   SectionId,
 } from '@learn365/content';
@@ -15,7 +15,7 @@ import styles from './CourseSidebar.module.css';
 interface CourseSidebarProps {
   eras: readonly Era[];
   sections: readonly Section[];
-  lessons: readonly Lesson[];
+  lessons: readonly LessonSummary[];
   currentLessonId: LessonId | null;
   completedIds: ReadonlySet<LessonId>;
   openSectionIds: ReadonlySet<SectionId>;
@@ -28,7 +28,7 @@ interface CourseSidebarProps {
   openEraIds: ReadonlySet<EraId>;
   onToggleEra: (id: EraId) => void;
   /** Builder returning the href for a lesson within the course. */
-  lessonHref: (lesson: Lesson) => string;
+  lessonHref: (lesson: LessonSummary) => string;
 }
 
 export function CourseSidebar({
@@ -53,7 +53,7 @@ export function CourseSidebar({
     list.sort((a, b) => a.order - b.order);
   }
 
-  const lessonsBySection = new Map<string, Lesson[]>();
+  const lessonsBySection = new Map<string, LessonSummary[]>();
   for (const lesson of lessons) {
     const list = lessonsBySection.get(lesson.sectionId) ?? [];
     list.push(lesson);

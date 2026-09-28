@@ -1,7 +1,7 @@
 import type { Metadata, Viewport } from 'next';
 import type { ReactNode } from 'react';
 
-import { getCourse } from '@learn365/content';
+import { getAllCourseIds, getCourse } from '@learn365/content';
 import { Footer } from '@learn365/ui-web';
 
 import { TopBarHost } from '@/components/top-bar/TopBarHost';
@@ -51,7 +51,10 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         <a href="#main-content" className="skip-link">
           Preskoči na sadržaj
         </a>
-        <AppProviders>
+        {/* Course ids resolve here, on the server, so the providers (and
+         * with them every route's client graph) never import the content
+         * registry. */}
+        <AppProviders courseIds={getAllCourseIds()}>
           <TopBarHost courseId={course.id} totalLessons={course.totalLessons} />
           <main id="main-content" tabIndex={-1}>
             {children}

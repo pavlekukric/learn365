@@ -197,3 +197,9 @@ The address on `/o-aplikaciji` and `/privatnost` is an alias on the production d
 4. Send a test mail to `kontakt@istorija365.com` and confirm it lands. Replies go out from the personal inbox (fine for now; a "send as" alias in Gmail is optional).
 
 Nothing in the repo changes for this; the code already uses the alias (`apps/web/app/o-aplikaciji/_copy.ts`).
+
+## 12. Prerendered pages and HTML caching (Phase 9, 2026-09-28)
+
+- `next build` prerenders the course overview and all 365 lesson pages (`prerender-manifest.json` lists 373 static routes); `next start` serves them as files, with no React render per request. The runtime image carries roughly 25 MB more (one HTML + one RSC file per page). The account pages (`/prijava`, `/nalog`) and `/api/**` stay dynamic.
+- Those pages answer with `cache-control: s-maxage=31536000`. **Cloudflare does not cache HTML by default, and no cache rule may be added without purge-on-deploy in `deploy.sh` first:** a cached page that references chunk hashes from the previous image is a broken page until purge. Today the edge caches `/_next/static` only, which is content-hashed and safe.
+- Client JS per route is 100–141 kB gzip (933–945 before Phase 9). `pnpm --filter @learn365/web check-bundle` (a CI step after Build) enforces 175 kB gzip per route and 300 kB raw per chunk.

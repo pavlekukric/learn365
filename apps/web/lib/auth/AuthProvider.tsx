@@ -11,8 +11,6 @@ import {
   type ReactNode,
 } from 'react';
 
-import { getAllCourseIds } from '@learn365/content';
-
 import { useBookmarkStore } from '@/lib/bookmarks/BookmarkStoreProvider';
 import { useProgressStore } from '@/lib/progress/ProgressStoreProvider';
 
@@ -75,7 +73,14 @@ async function fetchMe(): Promise<MeResponse> {
  * server says the session is gone while a cloud marker says the local
  * stores belonged to an account (see `isImplicitSignOut`).
  */
-export function AuthProvider({ children }: { children: ReactNode }) {
+export function AuthProvider({
+  courseIds,
+  children,
+}: {
+  /** Courses whose local stores a sign-out clears; from the server layout. */
+  courseIds: readonly string[];
+  children: ReactNode;
+}) {
   const [state, setState] = useState<AuthState>({ enabled: false, user: null, status: 'loading' });
   const [clearRequested, setClearRequested] = useState<'none' | 'explicit' | 'implicit'>('none');
   const resetCourse = useProgressStore((store) => store.resetCourse);
@@ -96,7 +101,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
 
   useEffect(() => {
     if (clearRequested === 'none') return;
-    for (const courseId of getAllCourseIds()) {
+    for (const courseId of courseIds) {
       resetCourse(courseId);
       clearCourse(courseId);
     }
@@ -113,7 +118,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       router.replace('/');
       router.refresh();
     }
-  }, [clearRequested, resetCourse, clearCourse, router]);
+  }, [clearRequested, courseIds, resetCourse, clearCourse, router]);
 
   const leave = useCallback(async (request: () => Promise<Response>): Promise<boolean> => {
     let response: Response;

@@ -45,5 +45,9 @@ jobs:
       - name: Build
         run: pnpm build
 
+      - name: Bundle budget
+        # Phase 9: every route ≤ 175 kB gzip client JS, every chunk ≤ 300 kB raw.
+        run: pnpm --filter @learn365/web check-bundle
+
       - name: Validate content
         run: pnpm validate-content

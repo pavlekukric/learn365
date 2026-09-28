@@ -152,6 +152,48 @@ export interface Lesson {
 }
 
 /**
+ * The runtime split of a `Lesson`. The JSON files, the loader and the
+ * validator always work with the whole `Lesson`; the generated registry
+ * splits it in two so the client bundle carries only what navigation needs:
+ *
+ * - `LessonSummary` — the navigation index (sidebar, drawer, era accordion,
+ *   timeline marker, resume rule, bookmarks list, counters). ~9 kB gzip for
+ *   365 lessons; safe to import from client components.
+ * - `LessonArticle` — everything only the open lesson (or the server) needs:
+ *   the body, sources, byline, review date, metadata copy. ~800 kB gzip;
+ *   reachable only through `@learn365/content/server`.
+ *
+ * `subtitle` and `dateLabel` sit on the article side because only the open
+ * lesson's header reads them, and that lesson arrives as a prop from the
+ * server page; `LessonHeading` is the summary plus those two.
+ *
+ * The codegen splits on this same constant, so types and data cannot drift.
+ */
+export const LESSON_ARTICLE_KEYS = [
+  'content',
+  'sources',
+  'byline',
+  'lastReviewedAt',
+  'summary',
+  'keyPeople',
+  'keyPlaces',
+  'subtitle',
+  'dateLabel',
+  'timelinePosition',
+] as const satisfies readonly (keyof Lesson)[];
+
+export type LessonArticleKey = (typeof LESSON_ARTICLE_KEYS)[number];
+
+/** Server-only part of a lesson; see `LESSON_ARTICLE_KEYS`. */
+export type LessonArticle = Pick<Lesson, LessonArticleKey>;
+
+/** Client-safe navigation index entry; see `LESSON_ARTICLE_KEYS`. */
+export type LessonSummary = Omit<Lesson, LessonArticleKey>;
+
+/** What the open lesson's header needs on top of the summary. */
+export type LessonHeading = LessonSummary & Pick<Lesson, 'subtitle' | 'dateLabel'>;
+
+/**
  * Local progress state for a single course.
  * Persisted by `@learn365/core`'s ProgressStore.
  */

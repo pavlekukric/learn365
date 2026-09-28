@@ -12,12 +12,19 @@ import { CloudSync } from '@/lib/sync/CloudSync';
  * stores, so `AuthProvider` must sit inside them. `CloudSync` sits inside
  * `AuthProvider` so its cleanup runs before the provider's clearing effect.
  */
-export function AppProviders({ children }: { children: ReactNode }) {
+export function AppProviders({
+  courseIds,
+  children,
+}: {
+  /** Every course in the registry — resolved by the root layout on the server. */
+  courseIds: readonly string[];
+  children: ReactNode;
+}) {
   return (
     <ProgressStoreProvider>
       <BookmarkStoreProvider>
-        <AuthProvider>
-          <CloudSync />
+        <AuthProvider courseIds={courseIds}>
+          <CloudSync courseIds={courseIds} />
           {children}
         </AuthProvider>
       </BookmarkStoreProvider>

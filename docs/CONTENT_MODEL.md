@@ -118,6 +118,16 @@ Fields:
 - keyPlaces optional
 - order
 
+### Runtime split (Phase 9, 2026-09-28)
+
+The JSON file and the `Lesson` type stay the one contract. At runtime the generated registry splits each lesson on `LESSON_ARTICLE_KEYS` (`packages/content/src/types.ts`) into:
+
+- `LessonSummary` — `id`, `courseId`, `sectionId`, `eraId`, `dayNumber`, `order`, `title`, `readingTimeMinutes`, `year`, `isPlaceholder`. The navigation index (sidebar, drawer, era accordion, timeline marker, resume rule, bookmarks list, counters); any surface may import it.
+- `LessonArticle` — `content`, `sources`, `byline`, `lastReviewedAt`, `summary`, `keyPeople`, `keyPlaces`, `subtitle`, `dateLabel`, `timelinePosition`. Reachable only through `@learn365/content/server` (`getLessonArticle`), never from a client component.
+- `LessonHeading` — the summary plus `subtitle` / `dateLabel`, for the open lesson's header.
+
+Adding a field to a lesson means deciding which side it belongs to: anything only the open lesson (or the server) reads goes to the article, so the index stays small. `pnpm gen-content` writes both generated modules from one load.
+
 ## UserProgress
 
 For v1, user progress can be stored locally.
