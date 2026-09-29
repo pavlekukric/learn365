@@ -230,6 +230,9 @@
  * ------------------------------------------------------------------------- */
 .heroTitle {
   font-size: clamp(56px, 6.3vw, 92px);
+  /* Below 1100 px the title wraps: balance the lines so "365" never sits
+   * alone on the last one ("Istorija / Srbije 365" at 390 px). */
+  text-wrap: balance;
 }
 
 @media (min-width: 1100px) {
