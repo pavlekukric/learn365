@@ -52,7 +52,7 @@ export default function HomePage() {
           <div className={styles.heroBackdrop} aria-hidden="true" />
 
           <div className={styles.heroInner}>
-            {/* No hero eyebrow: the TopBar already holds the History 365 brand,
+            {/* No hero eyebrow: the TopBar already holds the Istorija 365 brand,
              * and the h1 below carries the course identity. The title is kept
              * on one line from 1100px up (`.heroTitle`) so "365" never strands
              * alone on a second line. The CTA sits directly under the lede —

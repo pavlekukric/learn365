@@ -1,7 +1,7 @@
 'use client';
 
 import type { CourseId } from '@learn365/content';
-import { Button } from '@learn365/ui-web';
+import { Button, IconArrow } from '@learn365/ui-web';
 
 import { useResumeLesson } from '@/lib/progress/useResumeLesson';
 
@@ -31,8 +31,10 @@ export function HomeHeroCta({ courseId }: HomeHeroCtaProps) {
   const label = !hasStarted ? 'Počni kurs' : lesson ? 'Nastavi lekciju' : 'Otvori kurs';
 
   return (
-    <div className={styles.ctaRow}>
-      <Button href={href}>{label} →</Button>
+    <div className={styles.ctaRow} data-newcomer={hasStarted ? undefined : 'inline'}>
+      <Button href={href} iconRight={<IconArrow />}>
+        {label}
+      </Button>
     </div>
   );
 }

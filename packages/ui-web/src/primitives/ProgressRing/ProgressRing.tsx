@@ -15,7 +15,7 @@ interface ProgressRingProps {
   size?: number;
   /** Stroke width in px, relative to `size`. */
   stroke?: number;
-  /** Accessible label. Defaults to a percent-completed phrase. */
+  /** Accessible label. Defaults to "N % pročitano". */
   label?: string;
   /** Centered content (typically a count or percentage label). */
   children: ReactNode;
@@ -39,7 +39,7 @@ export function ProgressRing({
     <div
       className={styles.ring}
       role="img"
-      aria-label={label ?? `${String(pct)} percent completed`}
+      aria-label={label ?? `${String(pct)} % pročitano`}
     >
       <svg
         className={styles.svg}

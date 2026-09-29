@@ -28,8 +28,8 @@ interface HistoricalTimelineProps {
    */
   eraStats?: ReadonlyMap<EraId, EraStat> | undefined;
   /**
-   * Layout variant. `'full'` (default) is the responsive journey rail used by
-   * the lesson reader. `'compact'` forces the condensed vertical layout
+   * Layout variant. `'full'` (default) is the plain responsive rail — no
+   * caller since the lesson page's strip was dropped (2026-09-30). `'compact'` forces the condensed vertical layout
    * regardless of viewport — rendered at the top of the mobile "Sadržaj"
    * drawer (Phase 15), where it must not depend on the `≤720px` media query
    * (the drawer can be open up to 1024px). `'home'` is a heavier-weight
@@ -130,6 +130,9 @@ export function HistoricalTimeline({
         <ol className={styles.bands}>
           {eras.map((era, idx) => {
             const state = eraStateFor(era);
+            // The visible label can shrink to the numeral (container-query
+            // fallback), so the accessible name always carries the full title.
+            const name = `Epoha ${era.num}: ${era.title}, ${era.yearsLabel}`;
             const cls = `${styles.band} ${styles[state] ?? ''}`;
             const content = (
               <>
@@ -160,6 +163,7 @@ export function HistoricalTimeline({
                     href={eraHref(era.id)}
                     className={cls}
                     title={`${era.title} (${era.yearsLabel})`}
+                    aria-label={name}
                     aria-current={state === 'current' ? 'true' : undefined}
                   >
                     {content}

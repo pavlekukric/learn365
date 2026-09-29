@@ -28,7 +28,7 @@ export function HomeHowItWorks({ courseId }: HomeHowItWorksProps) {
   if (hasStarted) return null;
 
   return (
-    <section className={styles.how} aria-labelledby="kako-funkcionise">
+    <section className={styles.how} aria-labelledby="kako-funkcionise" data-newcomer="block">
       <header className={styles.howHeader}>
         <Eyebrow>{HOW_IT_WORKS_EYEBROW}</Eyebrow>
         <h2 id="kako-funkcionise" className="h2">

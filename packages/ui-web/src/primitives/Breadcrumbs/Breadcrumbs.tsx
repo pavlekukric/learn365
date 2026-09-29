@@ -32,7 +32,7 @@ export function Breadcrumbs({ items }: BreadcrumbsProps) {
   if (items.length === 0) return null;
   const lastIndex = items.length - 1;
   return (
-    <nav aria-label="Breadcrumbs" className={styles.nav}>
+    <nav aria-label="Putanja" className={styles.nav}>
       <ol className={styles.list}>
         {items.map((item, idx) => {
           const isLast = idx === lastIndex;

@@ -66,6 +66,11 @@ function LessonFrame({ courseId, lesson, children }: LessonFrameProps) {
     () => new Set([lesson.eraId]),
   );
   const [drawerOpen, setDrawerOpen] = useState(false);
+  // The section the shell opened by itself for the open lesson (not by hand).
+  // Moving to a lesson in another section closes it again, so a run of
+  // "next" does not leave a trail of expanded sections behind (review
+  // 2026-09-30, item 15).
+  const [autoSectionId, setAutoSectionId] = useState<SectionId | null>(lesson.sectionId);
 
   // The lesson changed under a shell that stays mounted (previous / next, a
   // row in the outline). Its era and section are opened in the same render —
@@ -76,8 +81,13 @@ function LessonFrame({ courseId, lesson, children }: LessonFrameProps) {
   if (shownLessonId !== lesson.id) {
     setShownLessonId(lesson.id);
     setDrawerOpen(false);
-    if (!openSectionIds.has(lesson.sectionId)) {
-      setOpenSectionIds(new Set(openSectionIds).add(lesson.sectionId));
+    if (lesson.sectionId !== autoSectionId) {
+      const nextOpen = new Set(openSectionIds);
+      if (autoSectionId !== null) nextOpen.delete(autoSectionId);
+      const opensNow = !nextOpen.has(lesson.sectionId);
+      nextOpen.add(lesson.sectionId);
+      setOpenSectionIds(nextOpen);
+      setAutoSectionId(opensNow ? lesson.sectionId : null);
     }
     if (!openEraIds.has(lesson.eraId)) {
       setOpenEraIds(new Set(openEraIds).add(lesson.eraId));
@@ -89,6 +99,9 @@ function LessonFrame({ courseId, lesson, children }: LessonFrameProps) {
   }, [courseId, lesson.id, markOpened]);
 
   const handleToggleSection = useCallback((id: SectionId) => {
+    // A section the reader toggles by hand is theirs: it is no longer closed
+    // when the lesson moves on.
+    setAutoSectionId((auto) => (auto === id ? null : auto));
     setOpenSectionIds((prev) => {
       const next = new Set(prev);
       if (next.has(id)) next.delete(id);
@@ -128,13 +141,18 @@ function LessonFrame({ courseId, lesson, children }: LessonFrameProps) {
 
   return (
     <div className={styles.layout}>
+      {/* The outline comes first in the DOM (15–30 controls on desktop):
+       * this link, first in <main>, lets a keyboard reader skip it. */}
+      <a href="#lesson-reader" className="skip-link">
+        Preskoči na tekst lekcije
+      </a>
       {/* Keyed by lesson: the hairline starts from zero on every lesson. */}
       <ReadingProgress key={lesson.id} />
       <aside className={styles.sidebarColumn}>
         <CourseSidebar {...sidebarProps} revealCurrent />
       </aside>
 
-      <div className={styles.readerColumn}>
+      <div id="lesson-reader" tabIndex={-1} className={styles.readerColumn}>
         <LessonContextHeader
           dayNumber={lesson.dayNumber}
           completedCount={completedIds.size}

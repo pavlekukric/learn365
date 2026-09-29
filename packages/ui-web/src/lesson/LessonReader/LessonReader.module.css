@@ -45,11 +45,7 @@
   color: var(--muted);
 }
 
-/* Inline timeline is desktop/two-column only; ≤1024px it lives in the drawer. */
 @media (max-width: 1024px) {
-  .timelineInline {
-    display: none;
-  }
   /* Single-column layouts have no sidebar to anchor against — centre the
    * reading column within the page padding so it feels balanced. */
   .reader {
@@ -79,8 +75,3 @@
   }
 }
 
-/* Era timeline now closes the article (desktop): a little air above it so
- * it reads as a separate orientation band, not part of the footer. */
-.timelineInline {
-  margin-top: var(--space-4);
-}

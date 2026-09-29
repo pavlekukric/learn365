@@ -99,9 +99,18 @@ export function MobileLessonDrawer({
 
     document.addEventListener('keydown', handleKey);
 
+    // Rotated or resized to the two-column layout, where the trigger is
+    // hidden and the outline sits beside the article: the drawer closes.
+    const desktop = window.matchMedia('(min-width: 1025px)');
+    function handleDesktop(event: MediaQueryListEvent) {
+      if (event.matches) onCloseRef.current();
+    }
+    desktop.addEventListener('change', handleDesktop);
+
     return () => {
       cancelAnimationFrame(scrollFrame);
       document.removeEventListener('keydown', handleKey);
+      desktop.removeEventListener('change', handleDesktop);
       document.body.style.overflow = prevOverflow;
       previouslyFocused.current?.focus?.();
     };
@@ -132,7 +141,17 @@ export function MobileLessonDrawer({
         >
           <IconClose />
         </button>
-        <div className={styles.body}>{children}</div>
+        {/* Any link inside closes the drawer — also one to the page already
+         * open (the current row, the current era), where no navigation
+         * happens and the shell would otherwise keep it open. */}
+        <div
+          className={styles.body}
+          onClick={(event) => {
+            if ((event.target as Element).closest('a[href]')) onClose();
+          }}
+        >
+          {children}
+        </div>
       </div>
     </div>
   );

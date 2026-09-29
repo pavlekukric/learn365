@@ -69,33 +69,37 @@ export function CourseCard({
 
   return (
     <article className={cls}>
-      <button
-        type="button"
-        className={styles.toggle}
-        onClick={onToggle}
-        aria-expanded={isOpen}
-        aria-controls={panelId}
-        aria-labelledby={`${panelId}-num ${panelId}-title`}
-      >
-        <span id={`${panelId}-num`} className={`tiny mono ${styles.num}`}>
-          EPOHA {era.num}
-        </span>
-        <span className={styles.titleBlock}>
-          <span id={`${panelId}-title`} className={`h3 ${styles.title}`}>
-            {era.title}
+      {/* The era is a heading (h1 → h2 → h3 on the overview) whose content is
+       * the disclosure button — the WAI accordion pattern. */}
+      <h3 className={styles.heading}>
+        <button
+          type="button"
+          className={styles.toggle}
+          onClick={onToggle}
+          aria-expanded={isOpen}
+          aria-controls={panelId}
+          aria-labelledby={`${panelId}-num ${panelId}-title`}
+        >
+          <span id={`${panelId}-num`} className={`tiny mono ${styles.num}`}>
+            EPOHA {era.num}
           </span>
-          <span className={`tiny mono ${styles.years}`}>{era.yearsLabel}</span>
-          {description ? (
-            <span className={`small ${styles.description}`}>{description}</span>
-          ) : null}
-          <span className={`tiny mono ${styles.hint}`}>
-            <span className={`${styles.chev} ${isOpen ? styles.chevOpen : ''}`} aria-hidden="true">
-              <IconChev />
+          <span className={styles.titleBlock}>
+            <span id={`${panelId}-title`} className={`h3 ${styles.title}`}>
+              {era.title}
             </span>
-            {isOpen ? 'Sakrij odeljke' : `Pokaži odeljke · ${String(sectionCount)}`}
+            <span className={`tiny mono ${styles.years}`}>{era.yearsLabel}</span>
+            {description ? (
+              <span className={`small ${styles.description}`}>{description}</span>
+            ) : null}
+            <span className={`tiny mono ${styles.hint}`}>
+              <span className={`${styles.chev} ${isOpen ? styles.chevOpen : ''}`} aria-hidden="true">
+                <IconChev />
+              </span>
+              {isOpen ? 'Sakrij odeljke' : `Pokaži odeljke · ${String(sectionCount)}`}
+            </span>
           </span>
-        </span>
-      </button>
+        </button>
+      </h3>
 
       <span className={styles.side}>
         <span className={styles.progressBlock}>

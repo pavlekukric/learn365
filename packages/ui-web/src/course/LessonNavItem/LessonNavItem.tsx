@@ -37,6 +37,8 @@ export function LessonNavItem({ lesson, state, href }: LessonNavItemProps) {
       <CompletionDot state={dotState} />
       <span className={`tiny mono ${styles.day}`}>{padDay(lesson.dayNumber)}</span>
       <span className={styles.title}>{lesson.title}</span>
+      {/* The dot is decoration (`aria-hidden`); the state is said in words. */}
+      {state === 'completed' ? <span className="visually-hidden">, pročitano</span> : null}
       {/* Placeholder rows omit the trailing meta cell entirely — the italic,
        * faded row styling carries the "not yet available" meaning, and an
        * aria-label keeps the state accessible without a visible chip. */}

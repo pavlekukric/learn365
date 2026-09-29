@@ -26,6 +26,11 @@
   padding: 0 var(--space-9) 0 clamp(var(--space-9), 5vw, var(--space-13));
 }
 
+/* Target of the "Preskoči na tekst lekcije" link — focusable, never ringed. */
+.readerColumn:focus {
+  outline: none;
+}
+
 /* Wider than the frame (`--shell-max` + the shell's two 40 px gutters): the
  * outline no longer touches the window's edge, so it gets a left rule and
  * reads as a panel, not as a list floating in the margin. */
