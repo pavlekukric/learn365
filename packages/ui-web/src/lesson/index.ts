@@ -5,6 +5,15 @@ export {
 } from './CompletedFooter/CompletedFooter.js';
 export { HistoricalTimeline, type EraStat } from './HistoricalTimeline/HistoricalTimeline.js';
 export { LessonBody } from './LessonBody/LessonBody.js';
+export {
+  LessonBookmarkButton,
+  type LessonBookmarkButtonProps,
+} from './LessonBookmarkButton/LessonBookmarkButton.js';
+export {
+  LessonFooter,
+  type LessonFooterLink,
+  type LessonFooterProps,
+} from './LessonFooter/LessonFooter.js';
 export { LessonHeader } from './LessonHeader/LessonHeader.js';
 export { LessonReader } from './LessonReader/LessonReader.js';
 export { LessonSources } from './LessonSources/LessonSources.js';

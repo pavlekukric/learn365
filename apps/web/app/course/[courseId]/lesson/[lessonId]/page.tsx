@@ -7,6 +7,8 @@ import {
   getEraForLesson,
   getLessonById,
   getLessons,
+  getLessonsByEra,
+  getLessonsBySection,
   getNextLesson,
   getPrevLesson,
   getSectionForLesson,
@@ -15,11 +17,19 @@ import {
 } from '@learn365/content';
 import { getLessonArticle } from '@learn365/content/server';
 import { formatDayProse } from '@learn365/core';
-import { LessonBody, LessonSources, LessonTrustLine } from '@learn365/ui-web';
+import {
+  LessonBody,
+  LessonReader,
+  LessonSources,
+  LessonTrustLine,
+  type LessonFooterLink,
+} from '@learn365/ui-web';
 
 import { shareMetadata } from '@/lib/seo/metadata';
 
-import { LessonPageClient } from './LessonPageClient';
+import { LessonBookmarkToggle } from './LessonBookmarkToggle';
+import { LessonCompletion } from './LessonCompletion';
+import { LessonEraStrip } from './LessonEraStrip';
 
 interface PageProps {
   params: Promise<{ courseId: string; lessonId: string }>;
@@ -40,26 +50,20 @@ export function generateStaticParams(): { courseId: string; lessonId: string }[]
   );
 }
 
-/** Shape the client (and the post-completion footer) needs for prev/next.
- * Extends the previous {id, title, dayNumber} with the small editorial
- * facts the completion card surfaces: which era the next lesson belongs
+function lessonPath(courseId: string, lessonId: string): string {
+  return `/course/${courseId}/lesson/${lessonId}`;
+}
+
+/** What the footer needs for prev / next: the link plus the small editorial
+ * facts the completion card surfaces — which era the next lesson belongs
  * to, and how long it takes to read. */
-function adjacent(
-  courseId: string,
-  lesson: LessonSummary | null,
-): {
-  id: string;
-  title: string;
-  dayNumber: number;
-  eraLabel?: string;
-  readingTimeMinutes?: number;
-} | null {
+function adjacent(courseId: string, lesson: LessonSummary | null): LessonFooterLink | null {
   if (!lesson) return null;
   const era = getEraForLesson(courseId, lesson.id);
   return {
-    id: lesson.id,
     title: lesson.title,
     dayNumber: lesson.dayNumber,
+    href: lessonPath(courseId, lesson.id),
     ...(era?.title !== undefined ? { eraLabel: era.title } : {}),
     ...(lesson.isPlaceholder === true ? {} : { readingTimeMinutes: lesson.readingTimeMinutes }),
   };
@@ -84,7 +88,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     ...shareMetadata({
       title,
       description,
-      path: `/course/${course.id}/lesson/${lesson.id}`,
+      path: lessonPath(course.id, lesson.id),
     }),
   };
 }
@@ -100,10 +104,11 @@ export default async function LessonPage({ params }: PageProps) {
 
   const era = getEraForLesson(courseId, lesson.id);
   const section = getSectionForLesson(courseId, lesson.id);
-  const prev = getPrevLesson(courseId, lesson.id);
-  const next = getNextLesson(courseId, lesson.id);
-
   if (!era || !section) notFound();
+
+  const courseHref = `/course/${course.id}`;
+  const firstInEra = getLessonsByEra(courseId, era.id)[0];
+  const firstInSection = getLessonsBySection(courseId, section.id)[0];
 
   // What the reader's header needs beyond the summary: the two editorial
   // header facts travel with the open lesson only, never in the index.
@@ -113,29 +118,52 @@ export default async function LessonPage({ params }: PageProps) {
     ...(article.dateLabel !== undefined ? { dateLabel: article.dateLabel } : {}),
   };
 
-  // The lesson text is rendered here, on the server, and handed to the client
-  // reader as a finished node: the body has no interactivity, and keeping it
-  // out of the client component keeps the corpus out of the JS bundle.
-  const articleNode = (
-    <>
-      <LessonBody blocks={article.content} />
-      {article.sources !== undefined && article.sources.length > 0 ? (
-        <LessonSources sources={article.sources} />
-      ) : null}
-      <LessonTrustLine byline={article.byline} lastReviewedAt={article.lastReviewedAt} />
-    </>
-  );
+  // Breadcrumb carries location hierarchy only (course · era · section). The
+  // day number is intentionally NOT a crumb — it would duplicate the dedicated
+  // day indicator (mobile context header / the sidebar's active row), and a
+  // within-section position doesn't belong in a location trail.
+  const breadcrumbs = [
+    { label: 'Početna', href: '/' },
+    { label: course.title, href: courseHref },
+    { label: era.title, href: firstInEra ? lessonPath(course.id, firstInEra.id) : courseHref },
+    {
+      label: section.title,
+      href: firstInSection ? lessonPath(course.id, firstInSection.id) : courseHref,
+    },
+  ];
 
+  // The whole reader is rendered here, on the server (Phase 15): the lesson
+  // text has no interactivity, and keeping it out of the client components
+  // keeps the corpus out of the JS bundle. The course chrome around it is the
+  // layout's (`LessonShell`); the three nodes below are the page's islands.
   return (
-    <LessonPageClient
-      courseId={course.id}
-      courseTitle={course.title}
+    <LessonReader
       lesson={heading}
-      article={articleNode}
-      era={era}
-      section={section}
-      prev={adjacent(courseId, prev)}
-      next={adjacent(courseId, next)}
+      breadcrumbs={breadcrumbs}
+      eraShort={era.eraShort}
+      bookmark={<LessonBookmarkToggle courseId={course.id} lessonId={lesson.id} />}
+      article={
+        <>
+          <LessonBody blocks={article.content} />
+          {article.sources !== undefined && article.sources.length > 0 ? (
+            <LessonSources sources={article.sources} />
+          ) : null}
+          <LessonTrustLine byline={article.byline} lastReviewedAt={article.lastReviewedAt} />
+        </>
+      }
+      footer={
+        <LessonCompletion
+          courseId={course.id}
+          lessonId={lesson.id}
+          dayNumber={lesson.dayNumber}
+          totalLessons={course.totalLessons}
+          isUpcoming={lesson.isPlaceholder === true}
+          prev={adjacent(courseId, getPrevLesson(courseId, lesson.id))}
+          next={adjacent(courseId, getNextLesson(courseId, lesson.id))}
+          courseHref={courseHref}
+        />
+      }
+      timeline={<LessonEraStrip courseId={course.id} eraId={era.id} year={lesson.year} />}
     />
   );
 }

@@ -1,3 +1,5 @@
+/* `position: relative` anchors the bookmark toggle (`LessonBookmarkButton`),
+ * which pins itself to the header's top-right corner. */
 .header {
   display: flex;
   flex-direction: column;
@@ -24,60 +26,5 @@
    * under the icon on narrow phones. */
   .eyebrow {
     padding-right: 48px;
-  }
-}
-
-/* Top-right bookmark toggle. Absolutely positioned so it doesn't reflow
- * the header's flex column and stays optical-aligned with the eyebrow row.
- * 44 px hit target via padding; the icon itself stays at the 16 px family
- * size set by IconBookmark. */
-.bookmark {
-  position: absolute;
-  top: 0;
-  right: 0;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: var(--space-2);
-  min-width: 44px;
-  height: 44px;
-  margin: calc(var(--space-2) * -1) calc(var(--space-2) * -1) 0 0;
-  padding: 0 var(--space-3);
-  border: 0;
-  background: transparent;
-  color: var(--muted);
-  font-family: var(--sans);
-  font-size: 12px;
-  font-weight: 500;
-  cursor: pointer;
-  border-radius: 999px;
-  transition:
-    color 120ms ease,
-    background-color 120ms ease;
-}
-
-.bookmark:hover,
-.bookmark:focus-visible {
-  color: var(--accent);
-  background: rgba(0, 0, 0, 0.04);
-}
-
-.bookmark:focus-visible {
-  outline: 2px solid var(--accent);
-  outline-offset: 2px;
-}
-
-.bookmark[aria-pressed='true'] {
-  color: var(--accent);
-}
-
-/* The word makes the ribbon legible on desktop; on phones the eyebrow needs
- * the room, so the icon (with its aria-label) stands alone. */
-@media (max-width: 1024px) {
-  .bookmarkLabel {
-    display: none;
-  }
-  .bookmark {
-    padding: 0;
   }
 }

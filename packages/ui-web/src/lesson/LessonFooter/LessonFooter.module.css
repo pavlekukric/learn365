@@ -1,0 +1,20 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-8);
+  border-top: 1px solid var(--rule);
+  padding-top: var(--space-8);
+}
+
+/* Scroll target for the post-completion moment — leaves a little air under
+ * the next-lesson card when it is scrolled into view. */
+.completedWrap {
+  scroll-margin-bottom: var(--space-6);
+}
+
+@media (max-width: 860px) {
+  .footer {
+    gap: var(--space-7);
+    padding-top: var(--space-7);
+  }
+}
