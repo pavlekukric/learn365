@@ -1,6 +1,6 @@
 # Phase 15 — The reader frame: persistent shell, desktop frame, mobile stack (PLAN)
 
-**Status:** In progress — built under the standing authorization of 2026-09-28 (plan, build, PR, squash-merge on green CI).
+**Status:** Built, in PR — under the standing authorization of 2026-09-28 (plan, build, PR, squash-merge on green CI). Outcome and measurements: `docs/PROJECT_STATE.md` → "Phase 15".
 **Date:** 2026-09-29
 **Predecessors:** Phase 14 live (PR #51, `3de5168`); Phase 13 live (PR #48, `85ebe41`).
 **Parent references:**
