@@ -5,6 +5,8 @@
 **Scope:** everything, the same as the 2026-09-28 review. Nothing was modified; this document and a pointer in `HANDOFF.md` are the only changes.
 **Previous review:** [`PRODUCT_REVIEW_2026-09-28.md`](PRODUCT_REVIEW_2026-09-28.md), overall 7 / 10. Its whole engineering backlog (P0, P1 6–8 and 10–12, P2 13–18 and 20–22) has shipped since.
 
+**Status (2026-09-30, morning):** every engineering item shipped overnight as Phase 17 (PRs #61–#65) — P0 1–5, P1 7–10, P2 12–19, and from P3 item 20 the brand rename and the About voice. Open: the content items (6, 11, 21–23), the controller's name (20), and the box-side steps of items 2 and 10 (HANDOFF → Owner steps). See PROJECT_STATE → "Phase 17".
+
 ---
 
 ## 1. Verdict

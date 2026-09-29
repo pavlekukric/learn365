@@ -58,7 +58,7 @@ Visual feeling should be closer to a premium historical/editorial reading experi
 Start here, in order:
 
 - [HANDOFF.md](HANDOFF.md) — what is true now and what to do next. Read this before starting any new work.
-- [docs/PROJECT_STATE.md](docs/PROJECT_STATE.md) — current baseline (do not regress below this) + full phase history.
+- [docs/PROJECT_STATE.md](docs/PROJECT_STATE.md) — current baseline (do not regress below this) + the newest phase entries; Phases 0–16 are in `docs/archive/PROJECT_STATE_PHASE_LOG.md`.
 - [docs/PRODUCT_BRIEF.md](docs/PRODUCT_BRIEF.md) — product idea, target user, scope.
 - [docs/UX_REQUIREMENTS.md](docs/UX_REQUIREMENTS.md) — IA, screen layouts, interaction patterns.
 - [docs/CONTENT_MODEL.md](docs/CONTENT_MODEL.md) — canonical content contract (entity shapes for `Course`, `Era`, `Section`, `Lesson`).
