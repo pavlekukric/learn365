@@ -15,7 +15,7 @@ import { useBookmarkStore } from '@/lib/bookmarks/BookmarkStoreProvider';
 import { useProgressStore } from '@/lib/progress/ProgressStoreProvider';
 
 import { hasCloudMarker, isImplicitSignOut } from './implicitSignOut';
-import { ACCOUNT_LOCAL_KEYS } from './localKeys';
+import { ACCOUNT_LOCAL_KEYS, ACCOUNT_SESSION_KEYS } from './localKeys';
 
 /** Mirror of `PublicUser` on the server — what `/api/me` returns. */
 export interface PublicUser {
@@ -108,6 +108,13 @@ export function AuthProvider({
     for (const key of ACCOUNT_LOCAL_KEYS) {
       try {
         window.localStorage.removeItem(key);
+      } catch {
+        // private mode / blocked storage — nothing to clear.
+      }
+    }
+    for (const key of ACCOUNT_SESSION_KEYS) {
+      try {
+        window.sessionStorage.removeItem(key);
       } catch {
         // private mode / blocked storage — nothing to clear.
       }

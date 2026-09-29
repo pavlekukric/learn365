@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, type ReactNode } from 'react';
 
 import type {
   Era,
@@ -42,6 +42,12 @@ interface CourseSidebarProps {
    * sidebar; the drawer scrolls to the row itself when it opens.
    */
   revealCurrent?: boolean;
+  /**
+   * Rendered at the top of the scrolling list, above the outline and outside
+   * its `nav` landmark — the drawer's era rail. It scrolls away with the
+   * list, so it costs the outline no room.
+   */
+  lead?: ReactNode;
 }
 
 export function CourseSidebar({
@@ -56,6 +62,7 @@ export function CourseSidebar({
   onToggleEra,
   lessonHref,
   revealCurrent = false,
+  lead,
 }: CourseSidebarProps) {
   const listRef = useRef<HTMLDivElement>(null);
   const revealedOnceRef = useRef(false);
@@ -104,40 +111,43 @@ export function CourseSidebar({
   }
 
   return (
-    <nav className={styles.sidebar} aria-label="Sadržaj kursa">
+    <div className={styles.sidebar}>
       <div ref={listRef} className={styles.body}>
-        {eras.map((era) => {
-          const eraSections = sectionsByEra.get(era.id) ?? [];
-          return (
-            <EraGroup
-              key={era.id}
-              era={era}
-              isOpen={openEraIds.has(era.id)}
-              onToggle={() => {
-                onToggleEra(era.id);
-              }}
-            >
-              {eraSections.map((section) => {
-                const sectionLessons = lessonsBySection.get(section.id) ?? [];
-                return (
-                  <SectionAccordion
-                    key={section.id}
-                    section={section}
-                    lessons={sectionLessons}
-                    currentLessonId={currentLessonId}
-                    completedIds={completedIds}
-                    isOpen={openSectionIds.has(section.id)}
-                    onToggle={() => {
-                      onToggleSection(section.id);
-                    }}
-                    lessonHref={lessonHref}
-                  />
-                );
-              })}
-            </EraGroup>
-          );
-        })}
+        {lead}
+        <nav aria-label="Sadržaj kursa">
+          {eras.map((era) => {
+            const eraSections = sectionsByEra.get(era.id) ?? [];
+            return (
+              <EraGroup
+                key={era.id}
+                era={era}
+                isOpen={openEraIds.has(era.id)}
+                onToggle={() => {
+                  onToggleEra(era.id);
+                }}
+              >
+                {eraSections.map((section) => {
+                  const sectionLessons = lessonsBySection.get(section.id) ?? [];
+                  return (
+                    <SectionAccordion
+                      key={section.id}
+                      section={section}
+                      lessons={sectionLessons}
+                      currentLessonId={currentLessonId}
+                      completedIds={completedIds}
+                      isOpen={openSectionIds.has(section.id)}
+                      onToggle={() => {
+                        onToggleSection(section.id);
+                      }}
+                      lessonHref={lessonHref}
+                    />
+                  );
+                })}
+              </EraGroup>
+            );
+          })}
+        </nav>
       </div>
-    </nav>
+    </div>
   );
 }

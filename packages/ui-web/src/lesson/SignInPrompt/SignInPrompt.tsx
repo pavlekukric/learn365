@@ -10,8 +10,9 @@ export interface SignInPromptProps {
 }
 
 /**
- * The one ask for an account, shown by the app under the completion moment
- * once a reader has finished their second lesson and is not signed in.
+ * The one ask for an account, shown by the app at the end of the completed
+ * footer — under the next-lesson card — once a reader has finished their
+ * second lesson and is not signed in, on one lesson per session.
  * Paper card in the completed-footer register: a serif line, one sentence
  * of body, a primary pill and a quiet way to say no. Never a modal.
  */

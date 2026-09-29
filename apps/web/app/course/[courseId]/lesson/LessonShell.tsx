@@ -4,7 +4,6 @@ import { useParams } from 'next/navigation';
 import { useCallback, useEffect, useMemo, useState, type ReactNode } from 'react';
 
 import {
-  getEras,
   getLessonById,
   getLessons,
   getSections,
@@ -13,9 +12,10 @@ import {
   type LessonSummary,
   type SectionId,
 } from '@learn365/content';
-import { CourseSidebar, MobileLessonDrawer } from '@learn365/ui-web';
+import { CourseSidebar, HistoricalTimeline, MobileLessonDrawer } from '@learn365/ui-web';
 
 import { useProgressStore } from '@/lib/progress/ProgressStoreProvider';
+import { useEraTimeline } from '@/lib/progress/useEraTimeline';
 
 import { LessonContextHeader } from './LessonContextHeader';
 import styles from './LessonShell.module.css';
@@ -55,7 +55,7 @@ function LessonFrame({ courseId, lesson, children }: LessonFrameProps) {
     (state) => state.byCourse[courseId]?.completedLessonIds ?? null,
   );
 
-  const eras = useMemo(() => getEras(courseId), [courseId]);
+  const { eras, eraStats, eraHref } = useEraTimeline(courseId);
   const sections = useMemo(() => getSections(courseId), [courseId]);
   const lessons = useMemo(() => getLessons(courseId), [courseId]);
 
@@ -137,7 +137,6 @@ function LessonFrame({ courseId, lesson, children }: LessonFrameProps) {
       <div className={styles.readerColumn}>
         <LessonContextHeader
           dayNumber={lesson.dayNumber}
-          totalDays={lessons.length}
           completedCount={completedIds.size}
           totalLessons={lessons.length}
           onOpenContents={() => {
@@ -153,7 +152,32 @@ function LessonFrame({ courseId, lesson, children }: LessonFrameProps) {
           setDrawerOpen(false);
         }}
       >
-        <CourseSidebar {...sidebarProps} />
+        {/* The era rail opens the drawer — the one era timeline a phone has
+         * on the lesson page. It scrolls with the outline beneath it. */}
+        <CourseSidebar
+          {...sidebarProps}
+          lead={
+            // The two eyebrows are for the eye; each `nav` beneath carries
+            // its own accessible name.
+            <div className={styles.drawerLead}>
+              <div className={styles.drawerRail}>
+                <p className={`eyebrow ${styles.drawerEyebrow}`} aria-hidden="true">
+                  Vremenska osa
+                </p>
+                <HistoricalTimeline
+                  variant="compact"
+                  eras={eras}
+                  currentLesson={{ eraId: lesson.eraId, year: lesson.year }}
+                  eraHref={eraHref}
+                  eraStats={eraStats}
+                />
+              </div>
+              <p className={`eyebrow ${styles.drawerEyebrow}`} aria-hidden="true">
+                Sadržaj
+              </p>
+            </div>
+          }
+        />
       </MobileLessonDrawer>
     </div>
   );

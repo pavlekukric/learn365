@@ -35,9 +35,10 @@ export interface LessonFooterProps {
   /** Href back to the course overview, used by the end-of-course footer
    * when there is no next lesson. */
   courseHref: string;
-  /** The one-time account ask, rendered under the completion moment when the
-   * app decides it is due (second completed lesson, not signed in, not
-   * dismissed). Omit to render nothing. */
+  /** The account ask, rendered after the next-lesson card and the previous
+   * link when the app decides it is due (second completed lesson, not signed
+   * in, not dismissed, not yet shown in this session). Omit to render
+   * nothing. */
   signInPrompt?: SignInPromptProps | undefined;
 }
 
@@ -85,21 +86,24 @@ export function LessonFooter({
        * action and demotes "previous" to a small text link. Placeholders
        * (which can't be completed) always get the symmetric footer. */}
       {isCompleted && !isUpcoming ? (
-        <div ref={completedWrapRef} className={styles.completedWrap}>
-          <CompletedFooter
-            completedDayNumber={dayNumber}
-            completedCount={completedCount}
-            totalLessons={totalLessons}
-            next={next}
-            prev={prev}
-            courseHref={courseHref}
-            afterMoment={
-              signInPrompt ? (
-                <SignInPrompt href={signInPrompt.href} onDismiss={signInPrompt.onDismiss} />
-              ) : null
-            }
-          />
-        </div>
+        <>
+          <div ref={completedWrapRef} className={styles.completedWrap}>
+            <CompletedFooter
+              completedDayNumber={dayNumber}
+              completedCount={completedCount}
+              totalLessons={totalLessons}
+              next={next}
+              prev={prev}
+              courseHref={courseHref}
+            />
+          </div>
+          {/* The account ask comes last (Phase 15): the next lesson is what
+           * the reader is brought to; the ask waits under it, outside the
+           * scroll target. */}
+          {signInPrompt ? (
+            <SignInPrompt href={signInPrompt.href} onDismiss={signInPrompt.onDismiss} />
+          ) : null}
+        </>
       ) : (
         <PreviousNextLessonNavigation prev={prev} next={next} />
       )}
