@@ -175,11 +175,6 @@ a.band:focus-visible {
   font-weight: 500;
 }
 
-/* On the tinted current band --muted falls just under AA (4.49:1, axe). */
-.current .yearShort {
-  color: var(--ink-2);
-}
-
 /* ---------------------------------------------------------------------------
  * Mobile (≤720px): the same data rotated into a vertical journey rail — one
  * full-width row per era, all 8 visible, no horizontal scroll.
@@ -472,6 +467,11 @@ a.band:focus-visible {
   .home .yearShort {
     color: var(--muted);
     margin-top: 2px;
+  }
+
+  /* On the tinted current band --muted falls just under AA (4.49:1, axe). */
+  .home .current .yearShort {
+    color: var(--ink-2);
   }
 
   /* "You are here" treatment at the band level — the rail marker stays the
