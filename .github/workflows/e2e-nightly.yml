@@ -1,0 +1,72 @@
+name: E2E nightly (Firefox + WebKit)
+
+# Review 2026-09-30 item 19: the browser suite on the engines CI does not
+# gate on. Every PR and push already runs Chromium desktop + mobile (ci.yml);
+# this runs the same specs on Firefox desktop, Safari desktop and iPhone
+# once a night against `main`. Not a merge gate: a red run is a signal to
+# look, not a blocked deploy. Run by hand from the Actions tab
+# (workflow_dispatch) after touching layout- or engine-sensitive code.
+
+on:
+  schedule:
+    # 02:30 UTC = 03:30 / 04:30 in Belgrade, clear of the 03:15 backup on the box.
+    - cron: '30 2 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: e2e-nightly
+  cancel-in-progress: true
+
+env:
+  NEXT_TELEMETRY_DISABLED: 1
+
+jobs:
+  e2e:
+    name: E2E (${{ matrix.browser }})
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - browser: firefox
+            projects: --project=firefox-desktop
+          - browser: webkit
+            projects: --project=webkit-desktop --project=webkit-mobile
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: '.nvmrc'
+          cache: 'pnpm'
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Install ${{ matrix.browser }}
+        run: pnpm --filter @learn365/web exec playwright install --with-deps ${{ matrix.browser }}
+
+      - name: Build
+        run: pnpm build
+
+      - name: Playwright
+        run: pnpm --filter @learn365/web exec playwright test ${{ matrix.projects }}
+
+      - name: Upload traces
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: playwright-traces-${{ matrix.browser }}
+          path: apps/web/test-results/
+          retention-days: 7
+          if-no-files-found: ignore

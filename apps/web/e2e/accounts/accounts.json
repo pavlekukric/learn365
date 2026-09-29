@@ -1,0 +1,13 @@
+{
+  "comment": "Accounts seeded into the throwaway PGlite database of the accounts-on Playwright project (seed.mjs). One account per test and per retry (CI retries twice), because signing out and deleting use them up. The session token of account <key> is 'e2e-session-<key>'; it exists only in that database.",
+  "accounts": [
+    { "key": "sync-0", "name": "Sinhronizacija Nula", "completed": ["day-003"] },
+    { "key": "sync-1", "name": "Sinhronizacija Jedan", "completed": ["day-003"] },
+    { "key": "sync-2", "name": "Sinhronizacija Dva", "completed": ["day-003"] },
+    { "key": "delete-0", "name": "Brisanje Nula", "completed": ["day-002"] },
+    { "key": "delete-1", "name": "Brisanje Jedan", "completed": ["day-002"] },
+    { "key": "delete-2", "name": "Brisanje Dva", "completed": ["day-002"] },
+    { "key": "reader", "name": "Običan Čitalac", "completed": [] },
+    { "key": "admin", "name": "Vlasnik Pregleda", "completed": ["day-001", "day-002"], "isAdmin": true }
+  ]
+}
