@@ -10,7 +10,7 @@ For forward-looking work (what to pick next), see [`HANDOFF.md`](../HANDOFF.md) 
 
 - **Live URL:** https://istorija365.com/ (self-hosted on the owner's Hetzner VPS since 2026-09-27; pipeline and runbook in `docs/DEPLOY.md`). The former Vercel project `learn365-web` was deleted on 2026-09-28; istorija365.com is the only origin.
 - **Branch model:** Trunk-based. Each phase ships as one PR merged to `main`. No release branches.
-- **Last shipped phase:** Phase 15 — the reader frame (review P2 items 16 + 17 and the rest of 21; built 2026-09-29). Before it Phase 14 — the review's P2 polish bundle A (items 13, 14, 15, 18, 20, 21, 22; PR #51, squash `3de5168`, live 2026-09-28) and, the same day, Phase 13 — the era rail stops truncating (PR #48, `85ebe41`). See "Phase 15", "Phase 14" and "Phase 13" below.
+- **Last shipped phase:** Phase 15 — the reader frame (review P2 items 16 + 17 and the rest of 21; PR #53, squash `49d34ae`, live 2026-09-29). Before it Phase 14 — the review's P2 polish bundle A (items 13, 14, 15, 18, 20, 21, 22; PR #51, squash `3de5168`, live 2026-09-28) and, the same day, Phase 13 — the era rail stops truncating (PR #48, `85ebe41`). See "Phase 15", "Phase 14" and "Phase 13" below.
 - **Before that (2026-09-27/28, all live):** Phase 12 backend reliability set (PR #46), Phase 11 honest reading time (PR #44), Phase 10 CI gates (PR #42), Phase 9 corpus out of the client bundle + 373 prerendered routes (PR #40), the review's P0 fixes (PRs #37, #38), Phase 8 accounts + cloud progress (PR #34, switched on in production 2026-09-27).
 - **Earlier milestones:** Phase 7.6 course-page scroll restore (PR #24, `17f2715`, 2026-05-21), Phase 7.5 mobile sticky-chrome scroll-collapse (PR #23, `4325e64`), Phase 7.12b era-opener figures (`542edad`).
 
@@ -74,9 +74,9 @@ The next phase pick is recorded in [`HANDOFF.md`](../HANDOFF.md) at the repo roo
 
 The remainder of this document is the chronological build log. Each phase entry records the locked decisions, files touched, gates run, and rationale. The log is append-only — use it to answer "why did we build it this way?" or "when did X change?" The current state of any component or surface lives in the **Current Baseline** section above, not in the phase log.
 
-## Phase 15 — The reader frame: persistent shell, desktop frame, mobile stack (2026-09-29): built, in PR
+## Phase 15 — The reader frame: persistent shell, desktop frame, mobile stack (2026-09-29): done (PR #53, `49d34ae`, live)
 
-Review P2 items 16 + 17 and the part of item 21 Phase 14 left for here, planned in `docs/PHASE_15_PLAN.md` (eight locked decisions; built under the standing authorization of 2026-09-28). Four commits, one PR. The lesson route only: no route, stored data or API changed, and no other page moved.
+Review P2 items 16 + 17 and the part of item 21 Phase 14 left for here, planned in `docs/archive/phases/PHASE_15_PLAN.md` (eight locked decisions; built under the standing authorization of 2026-09-28). Four commits, one PR (#53, squash `49d34ae`, merged 2026-09-29 06:54 UTC). The lesson route only: no route, stored data or API changed, and no other page moved.
 
 **What changed:**
 - **15a — Shell + islands.** `app/course/[courseId]/lesson/layout.tsx` renders `LessonShell` (client) around the page: the sticky `CourseSidebar`, the `MobileLessonDrawer`, the `LessonContextHeader`, `ReadingProgress`, the open-era / open-section sets, the drawer state and `markOpened` — everything that belongs to the course. It reads the open lesson from `useParams()` + the navigation index; the current era and section are opened by adjusting state during render (not in an effect), the drawer closes when the lesson changes. `LessonReader` lost `'use client'` and its callbacks and is rendered by the server page with three client islands handed in as nodes: `LessonBookmarkToggle` (→ new `LessonBookmarkButton`), `LessonCompletion` (→ new `LessonFooter`) and `LessonEraStrip`. `LessonPageClient` deleted; `useEraTimeline` is the one source of per-era stats for the strip and the drawer rail.
@@ -105,7 +105,11 @@ Client JS: the lesson route's first load is 141 kB in the build table (`check-bu
 
 **Owner decisions left open:** the desktop half of Phase 13 D5 (drop the era strip under the article — the strip stays); whether the Home rail's numerals should be serif, as the stylesheet's comment intends (the global `.mono` class wins today), which would also close the `VIII` gap.
 
-**Gates:** `pnpm typecheck` (incl. e2e), `pnpm lint`, `pnpm test` (ui-web 38 → 44, web 97 → 104), `pnpm build`, bundle budget, Playwright Chromium desktop + mobile **72 pass / 6 skip**; screenshots at 390, 1280, 1440 and 1920 read before the PR.
+**Gates:** `pnpm typecheck` (incl. e2e), `pnpm lint`, `pnpm test` (ui-web 38 → 44, web 97 → 104), `pnpm build`, bundle budget, Playwright Chromium desktop + mobile **72 pass / 6 skip**; screenshots at 390, 1280, 1440 and 1920 read before the PR. PR #53 CI: validate 1 m 30 s, e2e 1 m 33 s (72 / 6). Gated rollout: merge 06:54:45 UTC → CI green 06:56:25 → Deploy created 06:56:27 (`workflow_run`) → live 06:58:39 = **3 m 54 s merge → live**.
+
+**Production after the rollout:** `/api/health` = `{"ok":true,"auth":true,"db":"ok"}`; `day-200` `200` + `x-nextjs-cache: HIT`, the CSP and HSTS headers in place, the HTML carries the bare `Dan 200` and the outline inside the layout's `aside`; `day-999` `404`. The sign-in ask, which the local suite cannot see (accounts off), checked in a signed-out browser with three lessons seeded locally: on the first completed lesson opened it sits under the next-lesson card and the previous link (moment 4077 → card 4142 → previous 4316 → ask 4380 px); on the next lesson it is absent — after a full load and after a client navigation; back on the first lesson it is still there.
+
+**Found on production, not caused by this phase:** Cloudflare injects its Web Analytics beacon (`static.cloudflareinsights.com/beacon.min.js`) into the HTML and the CSP of Phase 14 refuses it — one console error per page, nothing collected, nothing visible. Owner decision (HANDOFF): switch the injection off in Cloudflare, which matches what `/privatnost` promises, or allow it and say so.
 
 ## Phase 14 — P2 polish bundle A: one vocabulary, one day label, a11y, secondary chrome, security headers, code hygiene, docs drift (2026-09-28): done (PR #51, `3de5168`, live)
 

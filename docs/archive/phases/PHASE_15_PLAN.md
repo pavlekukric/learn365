@@ -1,11 +1,11 @@
 # Phase 15 — The reader frame: persistent shell, desktop frame, mobile stack (PLAN)
 
-**Status:** Built, in PR — under the standing authorization of 2026-09-28 (plan, build, PR, squash-merge on green CI). Outcome and measurements: `docs/PROJECT_STATE.md` → "Phase 15".
+**Status:** Done — built under the standing authorization of 2026-09-28, merged (PR #53, squash `49d34ae`) and live through the CI gate the same morning (3 m 54 s merge → live). Archived; outcome and measurements in `docs/PROJECT_STATE.md` → "Phase 15".
 **Date:** 2026-09-29
 **Predecessors:** Phase 14 live (PR #51, `3de5168`); Phase 13 live (PR #48, `85ebe41`).
 **Parent references:**
-- [`docs/PRODUCT_REVIEW_2026-09-28.md`](./PRODUCT_REVIEW_2026-09-28.md) — P2 items **16** (mobile reader stack) and **17** (desktop reader frame), plus the one part of item **21** Phase 14 left for here ("keep the article a server component and island only the completion footer").
-- [`HANDOFF.md`](../HANDOFF.md) — "Next pick: Phase 15 — the reader frame".
+- [`docs/PRODUCT_REVIEW_2026-09-28.md`](../../PRODUCT_REVIEW_2026-09-28.md) — P2 items **16** (mobile reader stack) and **17** (desktop reader frame), plus the one part of item **21** Phase 14 left for here ("keep the article a server component and island only the completion footer").
+- [`HANDOFF.md`](../../../HANDOFF.md) — "Next pick: Phase 15 — the reader frame".
 - Phase 13 decision D5 (the era rail inside the drawer).
 
 ## Why one phase
