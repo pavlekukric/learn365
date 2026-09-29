@@ -1,9 +1,12 @@
 import { NextResponse, type NextRequest } from 'next/server';
 
 import { guardApi } from '@/lib/server/auth/guard';
-import { apiBadRequest, jsonNoStore, noContent, readJsonRecord } from '@/lib/server/http';
+import {
+  apiBadRequest,
+  apiUnavailable,
+  jsonNoStore, noContent, readJsonRecord } from '@/lib/server/http';
 import { applyProgressDelta, getCourseProgress } from '@/lib/server/progress/repository';
-import { parseCourseId, parseLastOpened, parseLessonIds } from '@/lib/server/progress/validation';
+import { parseCourseId, parseLastOpened, parseLessonIds } from '@/lib/server/validation';
 import type { ProgressWire } from '@/lib/sync/wire';
 
 export const dynamic = 'force-dynamic';
@@ -21,7 +24,7 @@ export async function GET(request: NextRequest): Promise<NextResponse> {
     return jsonNoStore<ProgressWire>({ courseId, ...snapshot });
   } catch (error) {
     console.error('[progress] read failed', error);
-    return jsonNoStore({ error: 'unavailable' }, 503);
+    return apiUnavailable();
   }
 }
 
@@ -54,6 +57,6 @@ export async function PATCH(request: NextRequest): Promise<NextResponse> {
     return noContent();
   } catch (error) {
     console.error('[progress] delta failed', error);
-    return jsonNoStore({ error: 'unavailable' }, 503);
+    return apiUnavailable();
   }
 }

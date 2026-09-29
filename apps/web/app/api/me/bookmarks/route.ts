@@ -2,8 +2,11 @@ import { NextResponse, type NextRequest } from 'next/server';
 
 import { guardApi } from '@/lib/server/auth/guard';
 import { applyBookmarksDelta, getCourseBookmarks } from '@/lib/server/bookmarks/repository';
-import { apiBadRequest, jsonNoStore, noContent, readJsonRecord } from '@/lib/server/http';
-import { parseCourseId, parseLessonIds } from '@/lib/server/progress/validation';
+import {
+  apiBadRequest,
+  apiUnavailable,
+  jsonNoStore, noContent, readJsonRecord } from '@/lib/server/http';
+import { parseCourseId, parseLessonIds } from '@/lib/server/validation';
 import type { BookmarksWire } from '@/lib/sync/wire';
 
 export const dynamic = 'force-dynamic';
@@ -21,7 +24,7 @@ export async function GET(request: NextRequest): Promise<NextResponse> {
     return jsonNoStore<BookmarksWire>({ courseId, ...snapshot });
   } catch (error) {
     console.error('[bookmarks] read failed', error);
-    return jsonNoStore({ error: 'unavailable' }, 503);
+    return apiUnavailable();
   }
 }
 
@@ -49,6 +52,6 @@ export async function PATCH(request: NextRequest): Promise<NextResponse> {
     return noContent();
   } catch (error) {
     console.error('[bookmarks] delta failed', error);
-    return jsonNoStore({ error: 'unavailable' }, 503);
+    return apiUnavailable();
   }
 }

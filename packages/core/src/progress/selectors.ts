@@ -60,11 +60,6 @@ export function progressForLessons(
   return { done, total: lessonIds.length, pct: safePct(done, lessonIds.length) };
 }
 
-/** Convenience alias for section progress — semantically identical. */
-export const sectionProgress = progressForLessons;
-/** Convenience alias for era progress — semantically identical. */
-export const eraProgress = progressForLessons;
-
 /**
  * Whole-course breakdown. `totalLessons` is taken from the `Course`
  * record (typically 365), so the store doesn't need to know how big

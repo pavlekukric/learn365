@@ -11,7 +11,7 @@ import {
 
 const COURSE = 'istorija-srbije-365';
 
-describe('progress validation', () => {
+describe('request validation', () => {
   it('accepts only known course ids', () => {
     expect(parseCourseId(COURSE)).toBe(COURSE);
     expect(parseCourseId('nope')).toBeNull();
