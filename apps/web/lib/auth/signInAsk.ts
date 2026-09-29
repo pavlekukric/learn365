@@ -14,6 +14,11 @@ export interface SignInAskInput {
   /** The lesson being rendered. */
   readonly lessonId: string;
   /**
+   * That lesson is completed — the only place the card renders, so the only
+   * place the ask may be spent (2026-09-30 review, P0 item 5).
+   */
+  readonly lessonCompleted: boolean;
+  /**
    * The lesson the ask was first shown on in this browser session: `null` —
    * not shown yet; `undefined` — `sessionStorage` was not read yet.
    */
@@ -33,6 +38,7 @@ export function isSignInAskDue(input: SignInAskInput): boolean {
   if (!input.ready || !input.accountsEnabled || input.signedIn) return false;
   if (input.dismissed !== false) return false;
   if (input.completedCount < SIGN_IN_ASK_AFTER) return false;
+  if (!input.lessonCompleted) return false;
   if (input.shownOnLessonId === undefined) return false;
   return input.shownOnLessonId === null || input.shownOnLessonId === input.lessonId;
 }

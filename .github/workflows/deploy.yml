@@ -7,7 +7,10 @@ name: Deploy
 #   deploys nothing; the previous image stays live.
 # - pull_request touching deploy files: build only (validates the Dockerfile).
 # - manual run (workflow_dispatch): build + rollout of HEAD of main WITHOUT
-#   waiting for CI — the emergency bypass.
+#   waiting for CI — the emergency bypass. Refused for any other branch.
+# - Only the tip of main is ever rolled out (2026-09-30 review, P0 item 3): a
+#   re-run of an older commit's CI (the next/font flake fix) goes green again,
+#   but the rollout step sees main has moved on and skips — no silent rollback.
 # The deploy job is a no-op until the DEPLOY_* secrets exist (see docs/DEPLOY.md).
 
 on:
@@ -37,7 +40,10 @@ jobs:
     name: Build image
     # Phase 10: on workflow_run, only after a green CI for a push to main.
     # PR (build-only) and manual runs are unconditional, as before.
-    if: github.event_name != 'workflow_run' || (github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.event == 'push')
+    if: >-
+      (github.event_name != 'workflow_run' ||
+        (github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.event == 'push')) &&
+      (github.event_name != 'workflow_dispatch' || github.ref == 'refs/heads/main')
     runs-on: ubuntu-latest
     timeout-minutes: 20
     permissions:
@@ -86,8 +92,22 @@ jobs:
     if: github.event_name != 'pull_request'
     runs-on: ubuntu-latest
     timeout-minutes: 10
+    permissions:
+      contents: read
     steps:
+      - name: Only the tip of main
+        id: tip
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          tip=$(gh api "repos/${{ github.repository }}/commits/main" --jq .sha)
+          if [ "$tip" != "$SHA" ]; then
+            echo "main is at $tip, this run built $SHA — rollout skipped (the newer commit deploys itself)."
+            echo "skip=1" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Roll out over SSH
+        if: steps.tip.outputs.skip != '1'
         env:
           HOST: ${{ secrets.DEPLOY_HOST }}
           HOST_KEY: ${{ vars.DEPLOY_HOST_KEY }}

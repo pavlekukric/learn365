@@ -220,6 +220,8 @@ Two one-off, reversible steps. Neither touches Računi. Do 13a before or after t
 
 Today the GitHub Actions key opens a plain shell as `deploy` (a member of the `docker` group). With the forced command the same key can run exactly `bash /srv/learn365/deploy.sh sha-<12 hex>` and nothing else: a leaked `DEPLOY_SSH_KEY` could redeploy this app to an image that is already public, and that is all.
 
+**The prefix is `restrict,command="…"`, not `command="…",no-pty` (corrected 2026-09-30, review P0 item 2).** A forced command governs only the session channel. Without `restrict` (or `no-port-forwarding`) the key can still open `ssh -N -L /tmp/d.sock:/var/run/docker.sock deploy@<IP>`, and `deploy` is in the `docker` group — that socket is root on the whole VPS, Računi included. `restrict` turns off pty, agent, X11 and every kind of forwarding at once. If 13a was already applied with the old `no-pty` prefix, step 2b upgrades the line.
+
 **Before you start:** the manual box work so far ran as `deploy` with that same key. After 13a the GitHub key refuses everything but `deploy.sh`, so manual work as `deploy` needs a second key (the laptop's own) in `deploy`'s `authorized_keys`, or goes through `root`. Add the laptop key first if it is not there yet:
 
 ```
@@ -235,10 +237,19 @@ scp deploy/ssh-command.sh deploy@<IP>:/srv/learn365/
 ssh deploy@<IP> 'chmod +x /srv/learn365/ssh-command.sh && bash -n /srv/learn365/ssh-command.sh && echo ok'
 
 # 2. prefix ONLY the GitHub key's line (its comment is "learn365-deploy"); a dated backup of the file stays next to it
-ssh deploy@<IP> 'cp -p ~/.ssh/authorized_keys ~/.ssh/authorized_keys.bak-$(date +%F) && sed -i "/learn365-deploy\$/ s#^#command=\"/srv/learn365/ssh-command.sh\",no-pty,#" ~/.ssh/authorized_keys && cat ~/.ssh/authorized_keys'
+ssh deploy@<IP> 'cp -p ~/.ssh/authorized_keys ~/.ssh/authorized_keys.bak-$(date +%F) && sed -i "/learn365-deploy\$/ s#^#restrict,command=\"/srv/learn365/ssh-command.sh\" #" ~/.ssh/authorized_keys && cat ~/.ssh/authorized_keys'
+
+# 2b. ONLY if the line already starts with the old `command="…",no-pty,` prefix — swap it for `restrict,…`
+ssh deploy@<IP> 'sed -i "/learn365-deploy\$/ s#^command=\"/srv/learn365/ssh-command.sh\",no-pty,#restrict,command=\"/srv/learn365/ssh-command.sh\" #" ~/.ssh/authorized_keys && grep learn365-deploy ~/.ssh/authorized_keys | cut -c1-60'
 
 # 3. verify: a shell command with the GitHub key is refused (exit 126, "odbijeno: …")
 ssh -i ~/.ssh/learn365_deploy deploy@<IP> id
+
+# 4. verify: forwarding with the GitHub key is refused (ssh exits 255 — "administratively prohibited")
+ssh -i ~/.ssh/learn365_deploy -o ExitOnForwardFailure=yes -N -L 127.0.0.1:23750:/var/run/docker.sock deploy@<IP>; echo "exit $?"
+
+# 5. the secrets file is readable by deploy only (§5; vps-install.sh does this on a new box)
+ssh deploy@<IP> 'chmod 600 /srv/learn365/.env && stat -c "%a %U" /srv/learn365/.env'   # → 600 deploy
 ```
 
 The accept path is verified by the next gated rollout (any merge to `main`), or on demand with `gh workflow run deploy.yml` (it redeploys HEAD of `main`, ≈ 20 s of rollout). Undo: restore the `.bak-` file.

@@ -9,6 +9,7 @@ const due: SignInAskInput = {
   dismissed: false,
   completedCount: 2,
   lessonId: 'day-002',
+  lessonCompleted: true,
   shownOnLessonId: null,
 };
 
@@ -40,6 +41,10 @@ describe('isSignInAskDue', () => {
     expect(
       isSignInAskDue({ ...due, completedCount: 3, lessonId: 'day-003', shownOnLessonId: 'day-002' }),
     ).toBe(false);
+  });
+
+  it('is not due — and so not spent — on a lesson that is not completed', () => {
+    expect(isSignInAskDue({ ...due, completedCount: 5, lessonCompleted: false })).toBe(false);
   });
 
   it('waits until the session record was read', () => {

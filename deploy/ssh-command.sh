@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
 # Forsirana komanda za deploy ključ iz GitHub Actions (Faza 14, pregled P2 stavka 20).
 # U /home/deploy/.ssh/authorized_keys linija tog ključa počinje sa:
-#   command="/srv/learn365/ssh-command.sh",no-pty,no-port-forwarding,no-agent-forwarding,no-X11-forwarding ssh-ed25519 AAAA… learn365-deploy
+#   restrict,command="/srv/learn365/ssh-command.sh" ssh-ed25519 AAAA… learn365-deploy
+# (`restrict` = bez pty-a i bez ikakvog forwardinga: forsirana komanda sama ne sprečava
+#  `ssh -N -L …:/var/run/docker.sock`, a docker.sock je root na celom VPS-u.)
 # Dozvoljava TAČNO jedno: `bash /srv/learn365/deploy.sh sha-<12 hex>` — ono što deploy.yml šalje.
 # Sve drugo (shell, drugi skript, drugi folder, Računi) se odbija. Ključ koji procuri može samo
 # ponovo da izvrti ovu aplikaciju na sliku koja je već javno objavljena — i ništa više.
