@@ -117,7 +117,7 @@ test.describe('History 365 — smoke', () => {
     await page.goto(`/course/${COURSE_ID}/lesson/${DAY_1_LESSON_ID}`);
 
     // The day position is surfaced per layout: single-column (≤1024px) shows
-    // "Dan 001 / 365" in the sticky LessonContextHeader; desktop shows the
+    // "Dan 001" in the sticky LessonContextHeader; desktop shows the
     // active "001" row in the always-visible sidebar. (It is no longer a
     // breadcrumb crumb.) Match whichever the current layout renders visible.
     await expect(

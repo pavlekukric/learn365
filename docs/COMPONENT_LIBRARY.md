@@ -181,22 +181,24 @@ The progress ring card on Course overview. Shows percentage in the ring, complet
 
 ```ts
 type CourseSidebarProps = {
-  course: { id: CourseId; title: string };
-  eras: Era[];
-  sections: Section[];
-  lessons: Lesson[];
-  currentLessonId: LessonId;
+  eras: readonly Era[];
+  sections: readonly Section[];
+  lessons: readonly LessonSummary[];
+  currentLessonId: LessonId | null;
   completedIds: ReadonlySet<LessonId>;
   openSectionIds: ReadonlySet<SectionId>;
   onToggleSection: (id: SectionId) => void;
-  onSelectLesson: (lesson: Lesson) => void;
-  onClose?: () => void;          // mobile drawer close handle
+  openEraIds: ReadonlySet<EraId>;
+  onToggleEra: (id: EraId) => void;
+  lessonHref: (lesson: LessonSummary) => string;
+  revealCurrent?: boolean;       // desktop: keep the current row in view (Phase 15)
+  lead?: ReactNode;              // drawer: the era rail, above the outline (Phase 15)
 };
 ```
 
-Composes `EraGroup` → `SectionAccordion` → `LessonNavItem`. Sticky at `top: 64px`; full-height scroll with thin scrollbar.
-Header shows course title and course-level progress.
-A11y: `<nav aria-label="Course outline">`. Section heads are real `<button>` with `aria-expanded`. Active lesson row carries `aria-current="page"`.
+Composes `EraGroup` → `SectionAccordion` → `LessonNavItem`. Full-height list with a thin scrollbar; the caller makes it sticky. Rows are `next/link` anchors; the open sets live in the caller (the lesson shell), so the desktop sidebar and the drawer share them.
+`revealCurrent`: on mount and whenever `currentLessonId` changes, a row outside the visible part of the list is centred in it — the list scrolls, never the page (`revealScrollTop`, unit-tested). `lead` renders at the top of the scrolling list, outside the `nav` landmark.
+A11y: `<nav aria-label="Sadržaj kursa">`. Era and section heads are real `<button>`s with `aria-expanded`. The active lesson row carries `aria-current="page"`.
 
 ### `EraGroup`
 
@@ -258,12 +260,24 @@ Mobile: horizontally scrollable with snap; current era scrolls into view on less
 
 ```ts
 type LessonHeaderProps = {
-  lesson: Lesson;
-  era: Era;
+  lesson: LessonHeading;
+  eraShort?: string;        // eyebrow prefix on single-column layouts
+  bookmark?: ReactNode;     // <LessonBookmarkButton />, pinned top-right
 };
 ```
 
-Renders the eyebrow row (`DAN xxx · ERA · x min čitanja · year`), title, subtitle, and the flourish below the subtitle.
+Renders the eyebrow row (`[eraShort ·] n min čitanja · date`), title, subtitle and the `LessonTimeline` divider (≤ 720 px: a plain rule, since Phase 15). No state and no handlers — it renders on the server; the bookmark control arrives as a node.
+
+### `LessonBookmarkButton`
+
+```ts
+type LessonBookmarkButtonProps = {
+  isBookmarked: boolean;
+  onToggle: () => void;
+};
+```
+
+The save-for-later toggle (`Sačuvaj` / `Sačuvano`), a client component. Positions itself against `LessonHeader`'s top-right corner. A11y: `aria-pressed`, a label that names the action.
 
 ### `LessonBody`
 
@@ -278,22 +292,38 @@ A11y: blockquote renders inside `<blockquote>` with `<cite>` for attribution. Im
 
 ### `LessonReader`
 
-Page-level composition: `Breadcrumbs` + `HistoricalTimeline` + `LessonHeader` + `Flourish` + `LessonBody` + completion strip + `PreviousNextLessonNavigation`.
+The reader's frame (Phase 15): `Breadcrumbs` + `LessonHeader` + the article + the footer + the era strip. It has no state and no handlers, so the lesson page renders it on the server; what depends on the reader arrives as nodes.
 
 ```ts
 type LessonReaderProps = {
-  lesson: Lesson;
-  era: Era;
-  section: Section;
-  isCompleted: boolean;
-  prevLesson: Lesson | null;
-  nextLesson: Lesson | null;
-  onToggleComplete: () => void;
-  onSelectLesson: (lesson: Lesson) => void;
-  onNavHome: () => void;
-  onNavCourse: () => void;
+  lesson: LessonHeading;
+  breadcrumbs: readonly BreadcrumbItem[];
+  eraShort?: string;
+  article: ReactNode;       // LessonBody + LessonSources + LessonTrustLine
+  bookmark?: ReactNode;     // <LessonBookmarkButton />
+  footer: ReactNode;        // <LessonFooter />
+  timeline?: ReactNode;     // <HistoricalTimeline />, two-column layouts only
 };
 ```
+
+### `LessonFooter`
+
+```ts
+type LessonFooterProps = {
+  dayNumber: number;
+  isUpcoming?: boolean;
+  isCompleted: boolean;
+  onToggleComplete: () => void;
+  completedCount: number;
+  totalLessons: number;
+  prev: LessonFooterLink | null;
+  next: LessonFooterLink | null;
+  courseHref: string;
+  signInPrompt?: SignInPromptProps;
+};
+```
+
+Client component: `MarkAsCompletedButton`, then `PreviousNextLessonNavigation` before completion or `CompletedFooter` after it (the moment → the next-lesson card → the previous link), then the `SignInPrompt` when the app says it is due. On the completion edge it scrolls the moment and the next card into view (reduced-motion aware); the ask is outside that scroll target.
 
 ### `MarkAsCompletedButton`
 
@@ -330,11 +360,11 @@ A11y: each is a real `<button>` with `aria-disabled` when there is no neighbor.
 type MobileLessonDrawerProps = {
   open: boolean;
   onClose: () => void;
-  children: ReactNode;     // typically <CourseSidebar />
+  children: ReactNode;     // <CourseSidebar lead={era rail} />
 };
 ```
 
-Slide-in panel from the left, max-width 360 px or 86% viewport. Backdrop closes the drawer. Locks body scroll while open.
+Slide-in panel from the left, max-width 360 px or 86% viewport. Backdrop closes the drawer. Locks body scroll while open. On open it centres the current lesson's row. Since Phase 15 its list starts with the era rail (`HistoricalTimeline` `variant="compact"`, under a `Vremenska osa` eyebrow), and the lesson shell closes it when the lesson changes.
 A11y: focus traps inside the drawer when open; ESC closes; first focusable element receives focus on open; focus returns to the trigger on close.
 
 ### `CurrentLessonCard`

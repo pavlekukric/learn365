@@ -7,10 +7,8 @@ import { completedCount } from '@learn365/core';
 import { useProgressStore } from '@/lib/progress/ProgressStoreProvider';
 
 import { useAuth } from './AuthProvider';
-import { SIGNIN_PROMPT_KEY } from './localKeys';
-
-/** The ask appears once this many lessons are completed (the second `Označi kao pročitano`). */
-export const SIGN_IN_ASK_AFTER = 2;
+import { SIGNIN_PROMPT_KEY, SIGNIN_PROMPT_SESSION_KEY } from './localKeys';
+import { isSignInAskDue } from './signInAsk';
 
 function readDismissed(): boolean {
   try {
@@ -31,8 +29,28 @@ function writeDismissed(): void {
   }
 }
 
+/** The lesson the ask was first shown on in this browser session, if any. */
+function readShownOn(): string | null {
+  try {
+    const raw = window.sessionStorage.getItem(SIGNIN_PROMPT_SESSION_KEY);
+    if (raw === null) return null;
+    const parsed = JSON.parse(raw) as { lessonId?: unknown };
+    return typeof parsed.lessonId === 'string' ? parsed.lessonId : null;
+  } catch {
+    return null;
+  }
+}
+
+function writeShownOn(lessonId: string): void {
+  try {
+    window.sessionStorage.setItem(SIGNIN_PROMPT_SESSION_KEY, JSON.stringify({ lessonId }));
+  } catch {
+    // blocked storage — the card falls back to showing under every completed lesson.
+  }
+}
+
 export interface SignInPromptState {
-  /** Render the card: accounts on, signed out, not dismissed, ≥ 2 completed. */
+  /** Render the card: see `isSignInAskDue`. */
   readonly show: boolean;
   /** `/api/auth/google?return_to=<this lesson>`. */
   readonly href: string;
@@ -42,12 +60,14 @@ export interface SignInPromptState {
 export function useSignInPrompt(courseId: string, lessonId: string): SignInPromptState {
   const { enabled, user, status } = useAuth();
   const completed = useProgressStore((state) => completedCount(state, courseId));
-  // `null` until mounted: the dismissal lives in localStorage, which the
-  // server render cannot see.
+  // `null` / `undefined` until mounted: both records live in browser storage,
+  // which the server render cannot see.
   const [dismissed, setDismissed] = useState<boolean | null>(null);
+  const [shownOnLessonId, setShownOnLessonId] = useState<string | null | undefined>(undefined);
 
   useEffect(() => {
     setDismissed(readDismissed());
+    setShownOnLessonId(readShownOn());
   }, []);
 
   const dismiss = useCallback(() => {
@@ -55,12 +75,23 @@ export function useSignInPrompt(courseId: string, lessonId: string): SignInPromp
     setDismissed(true);
   }, []);
 
-  const show =
-    status === 'ready' &&
-    enabled &&
-    user === null &&
-    dismissed === false &&
-    completed >= SIGN_IN_ASK_AFTER;
+  const show = isSignInAskDue({
+    ready: status === 'ready',
+    accountsEnabled: enabled,
+    signedIn: user !== null,
+    dismissed,
+    completedCount: completed,
+    lessonId,
+    shownOnLessonId,
+  });
+
+  // The first lesson the card appears on owns it for the rest of the session.
+  useEffect(() => {
+    if (!show || shownOnLessonId !== null) return;
+    writeShownOn(lessonId);
+    setShownOnLessonId(lessonId);
+  }, [show, shownOnLessonId, lessonId]);
+
   const returnTo = `/course/${courseId}/lesson/${lessonId}`;
   const href = `/api/auth/google?return_to=${encodeURIComponent(returnTo)}`;
 

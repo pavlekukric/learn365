@@ -11,14 +11,6 @@
   padding: var(--space-10) 0 var(--space-15);
 }
 
-.footer {
-  display: flex;
-  flex-direction: column;
-  gap: var(--space-8);
-  border-top: 1px solid var(--rule);
-  padding-top: var(--space-8);
-}
-
 /* Calm "upcoming" state for unauthored placeholder lessons.
  * Replaces the body so the drop-cap paragraph style is never applied. The
  * explicit USKORO eyebrow makes the state read as intentional editorial
@@ -74,19 +66,9 @@
      * else. */
     padding-bottom: calc(var(--space-12) + env(safe-area-inset-bottom));
   }
-  .footer {
-    gap: var(--space-7);
-    padding-top: var(--space-7);
-  }
   .upcoming {
     padding: var(--space-8) var(--space-5);
   }
-}
-
-/* Scroll target for the post-completion moment — leaves a little air under
- * the next-lesson card when it is scrolled into view. */
-.completedWrap {
-  scroll-margin-bottom: var(--space-6);
 }
 
 /* Breadcrumb trail is desktop-only; ≤1024px the sticky context header and

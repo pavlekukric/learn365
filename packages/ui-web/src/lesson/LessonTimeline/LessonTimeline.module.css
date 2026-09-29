@@ -79,14 +79,20 @@
   font-variant-numeric: tabular-nums;
 }
 
-/* Phones: the five round-year labels cannot fit side by side ("14000 p. n. e."
- * × 5 needs ~450px), so the tick row is dropped and the marker label alone
- * carries the date. The divider also gives back some vertical room so the
- * first sentence arrives sooner. */
+/* Phones: the divider is its hairline and nothing else (Phase 15). The five
+ * round-year labels cannot fit side by side ("14000 p. n. e." × 5 needs
+ * ~450px); without them the marker label only repeated the date the eyebrow
+ * states 100 px above it, and a pin without a scale says nothing. The rule
+ * still closes the header, and the first sentence arrives sooner. */
 @media (max-width: 720px) {
   .timeline {
     margin: var(--space-5) 0 var(--space-4);
   }
+  .track {
+    padding-top: 0;
+  }
+  .markerLabel,
+  .marker,
   .ticks {
     display: none;
   }

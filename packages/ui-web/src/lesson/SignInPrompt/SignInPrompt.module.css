@@ -1,6 +1,7 @@
-/* Sits between the completion moment and the next-lesson card. Same paper
- * and radius as that card, but a plain rule instead of the accent border —
- * the next lesson stays the primary thing on the page. */
+/* Closes the completed footer, under the next-lesson card and the previous
+ * link (Phase 15). Same paper and radius as that card, but a plain rule
+ * instead of the accent border — the next lesson stays the primary thing on
+ * the page. */
 .card {
   display: flex;
   flex-direction: column;

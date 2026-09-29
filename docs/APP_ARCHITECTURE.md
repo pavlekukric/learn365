@@ -273,13 +273,15 @@ app/
 ├─ providers.tsx                           # ProgressStoreProvider (client)
 └─ course/[courseId]/
    ├─ page.tsx                             # Course overview
-   └─ lesson/[lessonId]/page.tsx           # Lesson reader
+   └─ lesson/
+      ├─ layout.tsx                        # Persistent shell: outline, drawer, sticky header (Phase 15)
+      └─ [lessonId]/page.tsx               # Lesson reader — the article, server-rendered
 ```
 
 - Home is a server component.
 - Course overview and every lesson page are prerendered at build time (Phase 9: `generateStaticParams` + `dynamicParams = false`, 366 pages) — they are pure functions of the content registry; unknown ids are a router 404.
 - Course overview is mostly server, with client islands for the progress card, the bookmarks list and the era accordion (all reading the `LessonSummary` index).
-- The lesson *article* (`LessonBody` + `LessonSources` + `LessonTrustLine`) is rendered by the server page from `@learn365/content/server` and passed to `LessonReader` as one `article` node; the reader chrome (completion, prev/next, drawer, sidebar) is the client island and never sees a lesson body.
+- The lesson route is two layers (Phase 15). **The shell** — `lesson/layout.tsx` → `LessonShell` (client) — owns what belongs to the course: the sticky `CourseSidebar`, the `MobileLessonDrawer` (era rail + outline), the `LessonContextHeader`, the reading hairline, the open-era / open-section sets and `markOpened`. It reads the open lesson from `useParams()` and the `LessonSummary` index, and because a layout survives navigation between its pages, previous / next keeps the outline's scroll position and expansions. **The page** renders `LessonReader` on the server — trail, header and the *article* (`LessonBody` + `LessonSources` + `LessonTrustLine`, from `@learn365/content/server`) — and hands in three client islands as nodes: `LessonBookmarkToggle`, `LessonCompletion` (the footer: completion, prev / next, the sign-in ask) and `LessonEraStrip`. No client component ever sees a lesson body.
 - All progress reads happen client-side. SSR renders unauthenticated, baseline state.
 
 ### Mobile *(future, Expo Router)*
