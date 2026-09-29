@@ -1,15 +1,14 @@
 import type { Course } from '@learn365/content';
 
-import { DEFAULT_OG_IMAGE, SITE_URL } from './metadata';
+import { DEFAULT_OG_IMAGE, SITE_NAME, SITE_URL } from './metadata';
 
 /**
  * schema.org structured data for the course overview and the lesson pages
  * (review 2026-09-30, item 12). Built only from data the page already has.
  */
 
-/** The publisher's public name. The product is being renamed from "History
- *  365"; structured data carries the new name from the start. */
-export const ORGANIZATION_NAME = 'Istorija 365';
+/** The publisher's public name — the site name. */
+export const ORGANIZATION_NAME = SITE_NAME;
 
 type JsonLd = Record<string, unknown>;
 

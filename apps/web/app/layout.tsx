@@ -11,6 +11,7 @@ import { getAllCourseIds, getCourse } from '@learn365/content';
 import { Footer } from '@learn365/ui-web';
 
 import { TopBarHost } from '@/components/top-bar/TopBarHost';
+import { DEFAULT_COURSE_ID } from '@/lib/defaultCourse';
 import { fontVariableClassName } from '@/lib/fonts/fonts';
 import { PRE_PAINT_SCRIPT } from '@/lib/progress/prePaint';
 import {
@@ -22,8 +23,6 @@ import {
 } from '@/lib/seo/metadata';
 
 import { AppProviders } from './providers';
-
-const DEFAULT_COURSE_ID = 'istorija-srbije-365';
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
