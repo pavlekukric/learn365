@@ -3,7 +3,7 @@ import { expect, test } from '@playwright/test';
 const COURSE_ID = 'istorija-srbije-365';
 const LESSON = `/course/${COURSE_ID}/lesson/day-001`;
 
-test.describe('History 365 — reader chrome', () => {
+test.describe('Istorija 365 — reader chrome', () => {
   test('the first sentence arrives early and chrome stays short', async ({ page }) => {
     await page.goto(LESSON);
     const contentsButton = page.getByRole('button', { name: /Otvori sadržaj/ });

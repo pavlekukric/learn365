@@ -12,8 +12,8 @@ import type { Metadata } from 'next';
  *  canonical home of every page instead of itself. */
 export const PRODUCTION_ORIGIN = 'https://istorija365.com';
 export const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL || PRODUCTION_ORIGIN).replace(/\/$/, '');
-export const SITE_NAME = 'History 365';
-export const SITE_TITLE = 'History 365 — Istorija Srbije 365';
+export const SITE_NAME = 'Istorija 365';
+export const SITE_TITLE = 'Istorija 365 — Istorija Srbije kroz 365 lekcija';
 export const SITE_DESCRIPTION =
   'Dnevni vodič kroz istoriju Srbije: jedna kratka lekcija svakog dana, kroz osam istorijskih epoha, tokom cele godine.';
 
@@ -22,7 +22,7 @@ export const DEFAULT_OG_IMAGE = {
   url: '/og/istorija-srbije-365.jpg',
   width: 1200,
   height: 630,
-  alt: 'History 365 — Istorija Srbije 365',
+  alt: 'Istorija 365 — Istorija Srbije 365',
 } as const;
 
 interface ShareMetadataArgs {

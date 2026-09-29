@@ -17,7 +17,7 @@ export function Footer({ aboutHref, sourcesHref, privacyHref }: FooterProps) {
   return (
     <footer className={styles.footer} role="contentinfo">
       <div className={`shell ${styles.inner}`}>
-        <Link href="/" className={styles.brandLink} aria-label="History 365 — početna">
+        <Link href="/" className={styles.brandLink} aria-label="Istorija 365 — početna">
           <Brand />
         </Link>
 
@@ -39,7 +39,7 @@ export function Footer({ aboutHref, sourcesHref, privacyHref }: FooterProps) {
           ) : null}
         </nav>
 
-        <p className={`tiny ${styles.copy}`}>© 2026 History 365</p>
+        <p className={`tiny ${styles.copy}`}>© 2026 Istorija 365</p>
       </div>
     </footer>
   );

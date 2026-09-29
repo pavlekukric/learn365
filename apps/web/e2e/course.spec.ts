@@ -2,7 +2,7 @@ import { expect, test } from '@playwright/test';
 
 const COURSE_ID = 'istorija-srbije-365';
 
-test.describe('History 365 — course overview', () => {
+test.describe('Istorija 365 — course overview', () => {
   test('era card: the card opens its sections, the one link opens the right lesson', async ({
     page,
   }) => {

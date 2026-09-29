@@ -3,7 +3,7 @@ import { expect, test } from '@playwright/test';
 const COURSE_ID = 'istorija-srbije-365';
 const ORIGIN = 'https://istorija365.com';
 
-test.describe('History 365 — SEO surface', () => {
+test.describe('Istorija 365 — SEO surface', () => {
   test('every public page declares its canonical URL on the production origin', async ({
     page,
   }) => {

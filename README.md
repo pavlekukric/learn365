@@ -1,6 +1,6 @@
-# History 365 / Istorija 365
+# Istorija 365
 
-History 365 is a premium daily learning app for Serbian history.
+Istorija 365 (formerly "History 365") is a premium daily learning app for Serbian history.
 
 The goal is to help users learn Serbian history through 365 short, structured lessons. Each lesson takes 5–7 minutes to read (the range is derived from the texts, never promised by hand).
 
