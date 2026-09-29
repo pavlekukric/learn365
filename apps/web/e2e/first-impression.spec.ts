@@ -16,7 +16,7 @@ const STARTED_SEED = JSON.stringify({
   version: 1,
 });
 
-test.describe('History 365 — first impression', () => {
+test.describe('Istorija 365 — first impression', () => {
   test('home explains the ritual to a first-time visitor, then retires the block', async ({
     page,
   }) => {
@@ -47,7 +47,7 @@ test.describe('History 365 — first impression', () => {
     );
     await expect(page.locator('meta[property="og:title"]')).toHaveAttribute(
       'content',
-      /Istorija Srbije 365/,
+      /^Istorija 365 — Istorija Srbije/,
     );
     await expect(page.locator('meta[name="twitter:card"]')).toHaveAttribute(
       'content',
@@ -75,10 +75,33 @@ test.describe('History 365 — first impression', () => {
     await expect(page.getByText(/u fazi izgradnje kursa/)).toHaveCount(0);
     await expect(page.getByText(/Premium/)).toHaveCount(0);
     // No invented editorial team, and a contact address on the production domain.
-    await expect(page.getByText(/Tim History 365/)).toHaveCount(0);
+    await expect(page.getByText(/Tim (History|Istorija) 365/)).toHaveCount(0);
     await expect(page.getByRole('link', { name: 'kontakt@istorija365.com' })).toHaveAttribute(
       'href',
       'mailto:kontakt@istorija365.com',
     );
+    // One person runs the site: the page does not speak as "we", and its
+    // lede is its own, not the Home hero line.
+    const main = page.getByRole('main');
+    await expect(main.getByText(/Pišemo|proveravamo|Cilj nam je|Izbegavamo|naznačavamo/)).toHaveCount(0);
+    await expect(main.getByText(/jedan jasan put/)).toHaveCount(0);
+    await expect(main.getByText(/projekat jedne osobe/)).toBeVisible();
+    await expect(main.getByText(/AI model/)).toBeVisible();
+  });
+
+  test('the brand is Istorija 365 on every surface', async ({ page }) => {
+    await page.goto('/');
+    await expect(page).toHaveTitle(/^Istorija 365 — /);
+    await expect(page.getByRole('banner').getByRole('link', { name: /Istorija 365/ })).toBeVisible();
+    await expect(page.getByRole('contentinfo').getByText('© 2026 Istorija 365')).toBeVisible();
+    await expect(page.locator('meta[property="og:site_name"]')).toHaveAttribute(
+      'content',
+      'Istorija 365',
+    );
+    await expect(page.getByText(/History 365/)).toHaveCount(0);
+
+    await page.goto(`/course/${COURSE_ID}/lesson/day-001`);
+    await expect(page).toHaveTitle(/^Dan 1: .+ · Istorija 365$/);
+    await expect(page.getByText(/History 365/)).toHaveCount(0);
   });
 });

@@ -7,7 +7,7 @@ import { expect, test } from '@playwright/test';
  */
 const STATISTICS_ORIGIN = 'https://static.cloudflareinsights.com';
 
-test.describe('History 365 — privacy and what the page may load', () => {
+test.describe('Istorija 365 — privacy and what the page may load', () => {
   test('the policy allows the visit-statistics script and no other foreign script', async ({
     request,
   }) => {
@@ -37,5 +37,26 @@ test.describe('History 365 — privacy and what the page may load', () => {
     // The sentence that was true before statistics were allowed is gone.
     await expect(page.getByText(/Nemamo analitiku/)).toHaveCount(0);
     await expect(page.getByText(/ništa ne napušta tvoj pregledač/)).toHaveCount(0);
+  });
+
+  test('/privatnost names the legal basis, the transfers, the retention and the regulator', async ({
+    page,
+  }) => {
+    await page.goto('/privatnost');
+    const basis = page.locator('section[aria-labelledby="pravni-osnov"]');
+    await expect(basis).toContainText('pristanka');
+    await expect(basis).toContainText('legitimni interes');
+    const where = page.locator('section[aria-labelledby="gde"]');
+    await expect(where).toContainText('van Srbije');
+    await expect(where).toContainText('standardne ugovorne klauzule');
+    await expect(where).toContainText('najviše 14 dana');
+    // Everything the schema keeps, not a round "četiri stvari".
+    const account = page.locator('section[aria-labelledby="sa-nalogom"]');
+    await expect(account).toContainText('poslednje prijave');
+    await expect(account).toContainText('kada je svaka označena');
+    await expect(page.getByText(/četiri stvari/)).toHaveCount(0);
+    const rights = page.locator('section[aria-labelledby="prava"]');
+    await expect(rights).toContainText('Povereniku za informacije od javnog značaja');
+    await expect(rights).toContainText('poverenik.rs');
   });
 });

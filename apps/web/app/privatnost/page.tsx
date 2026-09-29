@@ -18,13 +18,13 @@ import {
 import styles from './page.module.css';
 
 const PRIVACY_DESCRIPTION =
-  'Šta History 365 čuva sa Google nalogom i bez njega, gde, koliko dugo i kako se briše.';
+  'Šta Istorija 365 čuva sa Google nalogom i bez njega, gde, koliko dugo i kako se briše.';
 
 export const metadata: Metadata = {
   title: 'Privatnost',
   description: PRIVACY_DESCRIPTION,
   ...shareMetadata({
-    title: 'Privatnost · History 365',
+    title: 'Privatnost · Istorija 365',
     description: PRIVACY_DESCRIPTION,
     path: '/privatnost',
   }),

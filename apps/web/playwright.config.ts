@@ -1,7 +1,7 @@
 import { defineConfig, devices } from '@playwright/test';
 
 /**
- * Playwright smoke configuration for History 365 web v1.
+ * Playwright smoke configuration for Istorija 365 web v1.
  *
  * Run locally with:
  *   pnpm --filter @learn365/web exec playwright install --with-deps

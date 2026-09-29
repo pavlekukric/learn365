@@ -8,6 +8,7 @@ import { getCurrentSession } from '@/lib/server/auth/currentUser';
 import { sanitizeReturnTo } from '@/lib/server/auth/returnTo';
 import { getAuthConfig } from '@/lib/server/env';
 
+import { CONTACT_EMAIL } from '../../o-aplikaciji/_copy';
 import styles from '../account.module.css';
 
 export const dynamic = 'force-dynamic';
@@ -29,12 +30,13 @@ function first(value: string | string[] | undefined): string | undefined {
 
 const ERROR_LINES: Readonly<Record<string, string>> = {
   odbijeno: 'Prijava je otkazana na Google-u. Možeš da pokušaš ponovo kad god želiš.',
-  neuspesno: 'Prijava nije uspela. Pokušaj ponovo; ako se ponovi, javi nam se.',
+  neuspesno: `Prijava nije uspela. Pokušaj ponovo; ako se ponovi, piši na ${CONTACT_EMAIL}.`,
 };
 
 /**
  * The sign-in page. One button, one sentence about what the account is
- * for, one line about what we keep. `?nazad=` carries the path to return
+ * for, one line about what is kept (matches `/privatnost` and the
+ * `openid email profile` scopes). `?nazad=` carries the path to return
  * to; `?greska=` renders the calm error line the callback redirects with.
  * With accounts off the page says so instead of a button.
  */
@@ -85,8 +87,8 @@ export default async function PrijavaPage({ searchParams }: PageProps) {
                 </Button>
               </div>
               <p className={`tiny ${styles.privacy}`}>
-                Od Google-a dobijamo ime, e-adresu i sliku, ništa više.{' '}
-                <Link href="/privatnost">Šta tačno čuvamo</Link>
+                Od Google-a se preuzimaju samo e-adresa, ime i slika profila.{' '}
+                <Link href="/privatnost">Šta se tačno čuva</Link>
               </p>
             </>
           )}

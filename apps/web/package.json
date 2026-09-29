@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "license": "UNLICENSED",
-  "description": "History 365 web app — Next.js 15 App Router shell.",
+  "description": "Istorija 365 web app — Next.js 15 App Router shell.",
   "type": "module",
   "scripts": {
     "dev": "next dev --port 3000",

@@ -5,7 +5,7 @@ import { expect, test } from '@playwright/test';
  * with no DATABASE_URL / APP_URL / Google client. Every surface Phase 8
  * added must be absent or degrade calmly, and reading must be untouched.
  */
-test.describe('History 365 — accounts off', () => {
+test.describe('Istorija 365 — accounts off', () => {
   test('masthead shows no account entry and /api/me reports disabled', async ({ page }) => {
     const me = page.waitForResponse((response) => response.url().includes('/api/me'));
     await page.goto('/');
@@ -101,7 +101,7 @@ test.describe('History 365 — accounts off', () => {
     await page.goto('/');
     await page.getByRole('contentinfo').getByRole('link', { name: 'Privatnost' }).click();
     await expect(page).toHaveURL(/\/privatnost$/);
-    await expect(page.getByRole('heading', { level: 1, name: 'Šta čuvamo, i zašto' })).toBeVisible();
+    await expect(page.getByRole('heading', { level: 1, name: 'Šta se čuva, i zašto' })).toBeVisible();
     await expect(page.getByRole('heading', { level: 2, name: 'Brisanje' })).toBeVisible();
   });
 });

@@ -24,13 +24,13 @@ import {
 import styles from './page.module.css';
 
 const ABOUT_DESCRIPTION =
-  'Kako History 365 funkcioniše, ko ga uređuje i na koje se izvore oslanja — dnevni vodič kroz istoriju Srbije.';
+  'Kako Istorija 365 funkcioniše, ko je uređuje i na koje se izvore oslanja — dnevni vodič kroz istoriju Srbije.';
 
 export const metadata: Metadata = {
   title: 'O aplikaciji',
   description: ABOUT_DESCRIPTION,
   ...shareMetadata({
-    title: 'O aplikaciji · History 365',
+    title: 'O aplikaciji · Istorija 365',
     description: ABOUT_DESCRIPTION,
     path: '/o-aplikaciji',
   }),

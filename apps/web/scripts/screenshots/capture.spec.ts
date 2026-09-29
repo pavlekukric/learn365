@@ -9,7 +9,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 /**
- * History 365 — full visual screenshot pack.
+ * Istorija 365 — full visual screenshot pack.
  *
  * One spec per shot, parameterised by Playwright projects (`desktop`,
  * `mobile`). All output goes to `<repo>/screenshots/{desktop,mobile}/`

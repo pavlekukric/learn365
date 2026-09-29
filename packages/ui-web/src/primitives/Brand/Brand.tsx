@@ -13,9 +13,9 @@ export function Brand({ className }: BrandProps) {
   return (
     <span className={`${styles.brand}${className ? ` ${className}` : ''}`}>
       <span className={styles.mark} aria-hidden="true">
-        H
+        I
       </span>
-      <span className={styles.name}>History 365</span>
+      <span className={styles.name}>Istorija 365</span>
     </span>
   );
 }

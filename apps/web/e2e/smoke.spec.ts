@@ -5,7 +5,7 @@ const DAY_1_LESSON_ID = 'day-001';
 // A second hand-authored (completable) lesson, distinct from day 1.
 const AUTHORED_LESSON_ID = 'day-007';
 
-test.describe('History 365 — smoke', () => {
+test.describe('Istorija 365 — smoke', () => {
   test('home renders hero + CTA', async ({ page }) => {
     await page.goto('/');
     await expect(page.getByRole('heading', { level: 1 })).toBeVisible();

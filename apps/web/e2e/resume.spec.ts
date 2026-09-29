@@ -18,7 +18,7 @@ function seed(completed: string[], lastOpened: string | null) {
   });
 }
 
-test.describe('History 365 — resume loop', () => {
+test.describe('Istorija 365 — resume loop', () => {
   test('fresh user gets a real start action on the course overview, no empty ring', async ({
     page,
   }) => {

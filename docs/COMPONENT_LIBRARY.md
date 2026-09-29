@@ -23,7 +23,7 @@ Components are **stateless with respect to user data**. They never call into `@l
 type BrandProps = { className?: string };
 ```
 
-Visual-only mark. Stateless — the host (e.g. `TopBar`) is responsible for wrapping it in the appropriate `next/link`. Renders the "H" mark + `History 365` wordmark.
+Visual-only mark. Stateless — the host (e.g. `TopBar`) is responsible for wrapping it in the appropriate `next/link`. Renders the "I" mark + `Istorija 365` wordmark (the brand was "History 365" until 2026-09-30).
 A11y: accessible name comes from the host link, not from `Brand` itself.
 Mobile: identical, sized down via CSS.
 
