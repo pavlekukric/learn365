@@ -1,8 +1,13 @@
+/* The reader's frame shares the TopBar's box: capped at `--shell-max` and
+ * centred, so on a wide window the outline sits under the brand instead of
+ * hugging the window's left edge (Phase 15). Below the cap nothing moves. */
 .layout {
   display: grid;
   grid-template-columns: var(--sidebar-width) 1fr;
   align-items: start;
   min-height: calc(100dvh - var(--topbar-height));
+  max-width: var(--shell-max);
+  margin: 0 auto;
 }
 
 .sidebarColumn {
@@ -12,9 +17,22 @@
   align-self: stretch;
 }
 
+/* Gutter between the outline and the article: 64 px at 1280, 72 px at 1440,
+ * 80 px from 1600 — and close to the old 40 px on small laptops, where a
+ * wider gutter would squeeze the 660 px measure. The article stays
+ * left-anchored; the right side carries the breathing room. */
 .readerColumn {
   min-width: 0;
-  padding: 0 var(--space-9);
+  padding: 0 var(--space-9) 0 clamp(var(--space-9), 5vw, var(--space-13));
+}
+
+/* Wider than the frame (`--shell-max` + the shell's two 40 px gutters): the
+ * outline no longer touches the window's edge, so it gets a left rule and
+ * reads as a panel, not as a list floating in the margin. */
+@media (min-width: 1520px) {
+  .sidebarColumn {
+    border-left: 1px solid var(--rule);
+  }
 }
 
 @media (max-width: 1024px) {

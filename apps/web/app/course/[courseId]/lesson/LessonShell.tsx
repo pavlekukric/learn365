@@ -131,7 +131,7 @@ function LessonFrame({ courseId, lesson, children }: LessonFrameProps) {
       {/* Keyed by lesson: the hairline starts from zero on every lesson. */}
       <ReadingProgress key={lesson.id} />
       <aside className={styles.sidebarColumn}>
-        <CourseSidebar {...sidebarProps} />
+        <CourseSidebar {...sidebarProps} revealCurrent />
       </aside>
 
       <div className={styles.readerColumn}>
