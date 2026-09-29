@@ -74,7 +74,7 @@ The next phase pick is recorded in [`HANDOFF.md`](../HANDOFF.md) at the repo roo
 
 The remainder of this document is the chronological build log. Each phase entry records the locked decisions, files touched, gates run, and rationale. The log is append-only — use it to answer "why did we build it this way?" or "when did X change?" The current state of any component or surface lives in the **Current Baseline** section above, not in the phase log.
 
-## Visit statistics — Cloudflare Web Analytics allowed (2026-09-29): PR #55
+## Visit statistics — Cloudflare Web Analytics allowed (2026-09-29): done (PR #55, `ab4442d`, live)
 
 Owner decision 2026-09-29, after the Phase 15 production check found that Cloudflare injects its Web Analytics beacon into the HTML and the Phase 14 CSP refuses it. The owner chose to count visits and say so, over switching the injection off. One commit of code, one of docs.
 
@@ -88,6 +88,8 @@ Owner decision 2026-09-29, after the Phase 15 production check found that Cloudf
 **Not changed:** no analytics code in the repo — Cloudflare injects the beacon at the edge for browser requests (a plain `curl` gets HTML without it). Switching statistics off again is one toggle in the Cloudflare dashboard (`docs/DEPLOY.md` §14) plus the reverse of this change.
 
 **Gates:** typecheck, lint, unit tests, build, bundle budget; Playwright Chromium desktop + mobile 76 pass / 6 skip. **Check after a rollout:** `curl -sI https://istorija365.com/ | grep -i content-security` names the origin; a browser console on any page shows no CSP error; visits appear in the Cloudflare dashboard (Web Analytics) within minutes.
+
+**Production after the rollout** (merge 08:35:25 UTC → live 08:39:41, through the CI gate): `/api/health` ok; the live `script-src` reads `'self' 'unsafe-inline' https://static.cloudflareinsights.com`; in a browser with the real policy, on Home, a lesson and `/privatnost`: **no console error**, the beacon script `200`, its reports `POST /cdn-cgi/rum` `204`, **no cookie** in the context; `/privatnost` shows `Statistika poseta` and `Poslednja izmena: 29. septembar 2026.`, the old sentence is gone.
 
 ## Phase 15 — The reader frame: persistent shell, desktop frame, mobile stack (2026-09-29): done (PR #53, `49d34ae`, live)
 
