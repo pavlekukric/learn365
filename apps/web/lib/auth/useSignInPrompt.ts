@@ -2,7 +2,7 @@
 
 import { useCallback, useEffect, useState } from 'react';
 
-import { completedCount } from '@learn365/core';
+import { completedCount, isCompleted } from '@learn365/core';
 
 import { useProgressStore } from '@/lib/progress/ProgressStoreProvider';
 
@@ -60,6 +60,7 @@ export interface SignInPromptState {
 export function useSignInPrompt(courseId: string, lessonId: string): SignInPromptState {
   const { enabled, user, status } = useAuth();
   const completed = useProgressStore((state) => completedCount(state, courseId));
+  const lessonCompleted = useProgressStore((state) => isCompleted(state, courseId, lessonId));
   // `null` / `undefined` until mounted: both records live in browser storage,
   // which the server render cannot see.
   const [dismissed, setDismissed] = useState<boolean | null>(null);
@@ -82,6 +83,7 @@ export function useSignInPrompt(courseId: string, lessonId: string): SignInPromp
     dismissed,
     completedCount: completed,
     lessonId,
+    lessonCompleted,
     shownOnLessonId,
   });
 

@@ -16,13 +16,16 @@ usermod -aG docker deploy
 install -d -m 700 -o deploy -g deploy /home/deploy/.ssh
 install -m 600 -o deploy -g deploy "$PUB" /home/deploy/.ssh/authorized_keys
 # ključ iz GitHub Actions sme TAČNO jednu komandu (deploy.sh sa sha- tagom — Faza 14, ssh-command.sh) i nikakav
-# forwarding ni pty. ssh-command.sh se kopira zajedno sa ostalim deploy/ fajlovima (DEPLOY.md §3b, korak 3).
-sed -i 's#^\(ssh-\)#command="/srv/learn365/ssh-command.sh",no-pty,no-port-forwarding,no-agent-forwarding,no-X11-forwarding \1#' /home/deploy/.ssh/authorized_keys
+# forwarding (ni port ni unix socket — docker.sock je root) ni pty: `restrict` gasi sve to odjednom.
+# ssh-command.sh se kopira zajedno sa ostalim deploy/ fajlovima (DEPLOY.md §3b, korak 3).
+sed -i 's#^\(ssh-\)#restrict,command="/srv/learn365/ssh-command.sh" \1#' /home/deploy/.ssh/authorized_keys
 
 echo "== folderi"
 install -d -m 755 -o deploy -g deploy /srv/learn365
 install -d -m 750 -o 65532 -g 65532 /srv/learn365/cloudflared
 [ -f /srv/learn365/.env ] || { echo 'IMAGE_TAG=latest' > /srv/learn365/.env; chown deploy:deploy /srv/learn365/.env; }
+# tajne (Google, baza) žive samo ovde — čita ih samo deploy (DEPLOY.md §5)
+chmod 600 /srv/learn365/.env
 
 echo "== gotovo: RAM slobodno $(free -h | awk '/Mem:/ {print $7}'), disk slobodno $(df -h / | awk 'NR==2 {print $4}')"
 echo "   racuni kontejneri (netaknuti): $(docker ps --filter name=racuni --format '{{.Names}}={{.Status}}' | tr '\n' ' ')"

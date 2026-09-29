@@ -3,9 +3,7 @@ import type { NextRequest, NextResponse } from 'next/server';
 import { isSameOriginRequest } from '@/lib/server/auth/csrf';
 import { DbUnavailableError, getSessionFromToken } from '@/lib/server/auth/currentUser';
 import {
-  SESSION_COOKIE,
   clearSessionCookies,
-  expiredSessionCookieAttributes,
   readSessionToken,
   sessionCookieAttributes,
   sessionCookieName,
@@ -61,11 +59,6 @@ export async function GET(request: NextRequest): Promise<NextResponse<MeResponse
       read.token,
       sessionCookieAttributes(validation.session.expiresAt, auth.secureCookies),
     );
-    // A token that arrived under the pre-Phase-14 name now lives under the
-    // `__Host-` name; drop the old copy so the browser sends one cookie.
-    if (read.legacy) {
-      response.cookies.set(SESSION_COOKIE, '', expiredSessionCookieAttributes(auth.secureCookies));
-    }
     return response;
   } catch (error) {
     console.error('[auth] /api/me failed', error);

@@ -36,14 +36,11 @@ describe('session cookie names (Phase 14)', () => {
       reader({ [SESSION_COOKIE_HOST]: 'new', [SESSION_COOKIE]: 'old' }),
       true,
     );
-    expect(read).toEqual({ token: 'new', legacy: false });
+    expect(read).toEqual({ token: 'new' });
   });
 
-  it('falls back to the pre-Phase-14 name on https and says so', () => {
-    expect(readSessionToken(reader({ [SESSION_COOKIE]: 'old' }), true)).toEqual({
-      token: 'old',
-      legacy: true,
-    });
+  it('never reads the plain name on https — a subdomain could plant it', () => {
+    expect(readSessionToken(reader({ [SESSION_COOKIE]: 'planted' }), true)).toBeNull();
   });
 
   it('ignores empty values and answers null when nothing is set', () => {
@@ -52,11 +49,8 @@ describe('session cookie names (Phase 14)', () => {
     expect(readSessionToken(reader({}), false)).toBeNull();
   });
 
-  it('on http the plain name is the primary name, never "legacy"', () => {
-    expect(readSessionToken(reader({ [SESSION_COOKIE]: 'x' }), false)).toEqual({
-      token: 'x',
-      legacy: false,
-    });
+  it('on http the plain name is the session cookie', () => {
+    expect(readSessionToken(reader({ [SESSION_COOKIE]: 'x' }), false)).toEqual({ token: 'x' });
     // A __Host- cookie cannot exist on http; it is not consulted there.
     expect(readSessionToken(reader({ [SESSION_COOKIE_HOST]: 'y' }), false)).toBeNull();
   });

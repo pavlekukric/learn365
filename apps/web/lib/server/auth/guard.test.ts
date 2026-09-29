@@ -35,7 +35,7 @@ describe('guardApi', () => {
 
   it('answers 404 with accounts off', async () => {
     restoreEnv = stubServerEnv({ ...AUTH_ON_UNREACHABLE, GOOGLE_CLIENT_SECRET: undefined });
-    const { status } = await statusOf(await guardApi(request('l365_session=x'), { mutating: false }));
+    const { status } = await statusOf(await guardApi(request('__Host-l365_session=x'), { mutating: false }));
     expect(status).toBe(404);
   });
 
@@ -48,7 +48,7 @@ describe('guardApi', () => {
   it('answers 503, not 401, when the database is unreachable (Phase 12)', async () => {
     restoreEnv = stubServerEnv(AUTH_ON_UNREACHABLE);
     const { status, body } = await statusOf(
-      await guardApi(request('l365_session=some-token'), { mutating: false }),
+      await guardApi(request('__Host-l365_session=some-token'), { mutating: false }),
     );
     expect(status).toBe(503);
     expect(body).toEqual({ error: 'unavailable' });
