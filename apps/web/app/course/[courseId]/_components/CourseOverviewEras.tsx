@@ -14,14 +14,7 @@ import {
   type Section,
   type SectionId,
 } from '@learn365/content';
-import {
-  findActiveLocation,
-  formatDayRange,
-  isCompleted,
-  lastOpenedLessonId,
-  progressForLessons,
-  type ProgressState,
-} from '@learn365/core';
+import { findActiveLocation, formatDayRange, lastOpenedLessonId } from '@learn365/core';
 import { CourseCard, IconChev, LessonNavItem } from '@learn365/ui-web';
 
 import { useProgressStore } from '@/lib/progress/ProgressStoreProvider';
@@ -38,6 +31,17 @@ interface CourseOverviewErasProps {
  * 10–20 so this resolves to "lekcija" in practice, but the helper keeps the
  * grammar correct if section ranges ever change.
  */
+/** How many of `lessons` are in the completed set. */
+function countDone(
+  completedSet: ReadonlySet<LessonId> | null,
+  lessons: readonly { id: LessonId }[],
+): number {
+  if (completedSet === null) return 0;
+  let done = 0;
+  for (const lesson of lessons) if (completedSet.has(lesson.id)) done += 1;
+  return done;
+}
+
 function lessonCountLabel(n: number): string {
   const mod10 = n % 10;
   const mod100 = n % 100;
@@ -50,7 +54,7 @@ interface SectionAccordionRowProps {
   section: Section;
   isOpen: boolean;
   onToggle: () => void;
-  progressState: ProgressState;
+  completedSet: ReadonlySet<LessonId> | null;
   currentLessonId: LessonId | null;
   /** Completion ratio for this section, used in the collapsed header meta. */
   done: number;
@@ -62,13 +66,17 @@ interface SectionAccordionRowProps {
  * the whole header toggles its daily lessons open inline. The daily
  * lessons are reused `LessonNavItem`s so completion / active state comes
  * from the existing progress logic — no new data is introduced here.
+ *
+ * The lesson list is always rendered and only `hidden` while collapsed, so
+ * the prerendered HTML carries the whole era → section → lesson tree for
+ * crawlers (review 2026-09-30); what a reader sees is unchanged.
  */
 function SectionAccordionRow({
   courseId,
   section,
   isOpen,
   onToggle,
-  progressState,
+  completedSet,
   currentLessonId,
   done,
   total,
@@ -104,27 +112,28 @@ function SectionAccordionRow({
         <span className={`tiny ${styles.sectionCount}`}>{collapsedMeta}</span>
       </button>
 
-      {isOpen ? (
-        <ol id={panelId} className={styles.lessons}>
-          {lessons.map((lesson) => {
-            const state =
-              lesson.id === currentLessonId
-                ? 'active'
-                : isCompleted(progressState, courseId, lesson.id)
-                  ? 'completed'
-                  : 'idle';
-            return (
-              <li key={lesson.id}>
-                <LessonNavItem
-                  lesson={lesson}
-                  state={state}
-                  href={`/course/${courseId}/lesson/${lesson.id}`}
-                />
-              </li>
-            );
-          })}
-        </ol>
-      ) : null}
+      <ol id={panelId} className={styles.lessons} hidden={!isOpen}>
+        {lessons.map((lesson) => {
+          const state =
+            lesson.id === currentLessonId
+              ? 'active'
+              : (completedSet?.has(lesson.id) ?? false)
+                ? 'completed'
+                : 'idle';
+          return (
+            <li key={lesson.id}>
+              <LessonNavItem
+                lesson={lesson}
+                state={state}
+                href={`/course/${courseId}/lesson/${lesson.id}`}
+                // The overview marks where the reader is, but that row is
+                // not the page being viewed.
+                isCurrentPage={false}
+              />
+            </li>
+          );
+        })}
+      </ol>
     </li>
   );
 }
@@ -136,7 +145,6 @@ export function CourseOverviewEras({ courseId }: CourseOverviewErasProps) {
   const completedSet = useProgressStore(
     (state) => state.byCourse[courseId]?.completedLessonIds ?? null,
   );
-  const progressState = useProgressStore((state) => state);
 
   // "Where is the user?" — drives which era + section open by default and
   // which lesson row shows the active accent in the expanded section. Shared
@@ -192,11 +200,8 @@ export function CourseOverviewEras({ courseId }: CourseOverviewErasProps) {
       {eras.map((era) => {
         const eraLessons = getLessonsByEra(courseId, era.id);
         const sections = getSectionsByEra(courseId, era.id);
-        const { done, total } = progressForLessons(
-          progressState,
-          courseId,
-          eraLessons.map((l) => l.id),
-        );
+        const total = eraLessons.length;
+        const done = countDone(completedSet, eraLessons);
         const isAllDone = total > 0 && done === total;
         const isCurrent = !isAllDone && lastId !== null && eraLessons.some((l) => l.id === lastId);
         // The card's one action opens the first unread lesson of the era (or
@@ -223,50 +228,40 @@ export function CourseOverviewEras({ courseId }: CourseOverviewErasProps) {
               panelId={panelId}
               sectionCount={sections.length}
               onToggle={() => {
+                const next = isOpen ? null : era.id;
                 setUserToggledEra(true);
                 setUserToggledSection(true);
-                setOpenEraId((prev) => {
-                  const next = prev === era.id ? null : era.id;
-                  // Reset the section accordion when we move between eras
-                  // so an unrelated section from the prior era doesn't
-                  // appear pre-expanded inside the newly opened one.
-                  setOpenSectionId(
-                    next !== null && next === active?.eraId ? active.sectionId : null,
-                  );
-                  return next;
-                });
+                setOpenEraId(next);
+                // Reset the section accordion when we move between eras so an
+                // unrelated section from the prior era doesn't appear
+                // pre-expanded inside the newly opened one.
+                setOpenSectionId(next !== null && next === active?.eraId ? active.sectionId : null);
               }}
             />
-            {isOpen ? (
-              <div id={panelId} className={styles.eraChildren}>
-                <ul className={styles.sections}>
-                  {sections.map((section) => {
-                    const sectionLessons = getLessonsBySection(courseId, section.id);
-                    const { done: sectionDone, total: sectionTotal } = progressForLessons(
-                      progressState,
-                      courseId,
-                      sectionLessons.map((l) => l.id),
-                    );
-                    return (
-                      <SectionAccordionRow
-                        key={section.id}
-                        courseId={courseId}
-                        section={section}
-                        isOpen={openSectionId === section.id}
-                        onToggle={() => {
-                          setUserToggledSection(true);
-                          setOpenSectionId((prev) => (prev === section.id ? null : section.id));
-                        }}
-                        progressState={progressState}
-                        currentLessonId={lastId}
-                        done={sectionDone}
-                        total={sectionTotal}
-                      />
-                    );
-                  })}
-                </ul>
-              </div>
-            ) : null}
+            {/* Always rendered, `hidden` while collapsed — see SectionAccordionRow. */}
+            <div id={panelId} className={styles.eraChildren} hidden={!isOpen}>
+              <ul className={styles.sections}>
+                {sections.map((section) => {
+                  const sectionLessons = getLessonsBySection(courseId, section.id);
+                  return (
+                    <SectionAccordionRow
+                      key={section.id}
+                      courseId={courseId}
+                      section={section}
+                      isOpen={openSectionId === section.id}
+                      onToggle={() => {
+                        setUserToggledSection(true);
+                        setOpenSectionId((prev) => (prev === section.id ? null : section.id));
+                      }}
+                      completedSet={completedSet}
+                      currentLessonId={lastId}
+                      done={countDone(completedSet, sectionLessons)}
+                      total={sectionLessons.length}
+                    />
+                  );
+                })}
+              </ul>
+            </div>
           </article>
         );
       })}

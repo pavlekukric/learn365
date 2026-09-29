@@ -14,11 +14,9 @@ export { createProgressStore, type CreateProgressStoreOptions } from './store.js
 export {
   completedCount,
   courseProgress,
-  eraProgress,
   isCompleted,
   lastOpenedLessonId,
   progressForLessons,
-  sectionProgress,
   type CourseProgressBreakdown,
   type ProgressBreakdown,
 } from './selectors.js';

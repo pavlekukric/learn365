@@ -13,9 +13,14 @@ interface LessonNavItemProps {
   lesson: LessonSummary;
   state: LessonNavItemState;
   href: string;
+  /**
+   * `false` where the 'active' row is not the page being viewed (the course
+   * overview's "you are here" row): same look, no `aria-current="page"`.
+   */
+  isCurrentPage?: boolean;
 }
 
-export function LessonNavItem({ lesson, state, href }: LessonNavItemProps) {
+export function LessonNavItem({ lesson, state, href, isCurrentPage = true }: LessonNavItemProps) {
   const isPlaceholder = lesson.isPlaceholder === true;
   const dotState: 'idle' | 'active' | 'done' =
     state === 'completed' ? 'done' : state;
@@ -31,7 +36,7 @@ export function LessonNavItem({ lesson, state, href }: LessonNavItemProps) {
     <Link
       href={href}
       className={cls}
-      aria-current={state === 'active' ? 'page' : undefined}
+      aria-current={state === 'active' && isCurrentPage ? 'page' : undefined}
       aria-label={isPlaceholder ? `${lesson.title} — uskoro dostupno` : undefined}
     >
       <CompletionDot state={dotState} />

@@ -100,11 +100,11 @@ export function getLessonById(courseId: CourseId, lessonId: LessonId): LessonSum
   return dataFor(courseId)?.lessonById.get(lessonId) ?? null;
 }
 
-export function getSectionById(courseId: CourseId, sectionId: SectionId): Section | null {
+function getSectionById(courseId: CourseId, sectionId: SectionId): Section | null {
   return dataFor(courseId)?.sectionById.get(sectionId) ?? null;
 }
 
-export function getEraById(courseId: CourseId, eraId: EraId): Era | null {
+function getEraById(courseId: CourseId, eraId: EraId): Era | null {
   return dataFor(courseId)?.eraById.get(eraId) ?? null;
 }
 

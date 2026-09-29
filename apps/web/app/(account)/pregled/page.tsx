@@ -23,6 +23,8 @@ export const dynamic = 'force-dynamic';
 export const metadata: Metadata = {
   title: 'Pregled naloga',
   robots: { index: false, follow: false },
+  // noindex: no canonical either (the root layout would hand it `/`).
+  alternates: { canonical: null },
 };
 
 async function loadOverview(): Promise<AccountsOverview | null> {

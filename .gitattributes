@@ -2,3 +2,6 @@
 *.sh text eol=lf
 Dockerfile text eol=lf
 deploy/** text eol=lf
+
+# Fonts are binary (apps/web/lib/fonts/files).
+*.woff2 binary

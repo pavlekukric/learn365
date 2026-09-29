@@ -153,8 +153,8 @@ Selectors (pure functions exported alongside the store):
 ```ts
 isCompleted(state, courseId, lessonId): boolean
 completedCount(state, courseId): number
-sectionProgress(state, courseId, sectionId): { done, total, pct }
-eraProgress(state, courseId, eraId): { done, total, pct }
+lastOpenedLessonId(state, courseId): LessonId | null
+progressForLessons(state, courseId, lessonIds): { done, total, pct }  // a section or an era
 courseProgress(state, courseId): { done, total, pct, remaining }
 ```
 
@@ -313,7 +313,7 @@ app/
 - **Inter** (sans): 400, 500, 600
 - **JetBrains Mono** (mono): 400, 500
 
-Web: `next/font/google` with `display: 'swap'` and preload on critical weights.
+Web: `next/font/local` over the committed woff2 files in `apps/web/lib/fonts/files/` (Google Fonts, OFL; `latin` + `latin-ext` subsets), `display: 'swap'`, preload on the Spectral and Inter faces.
 Mobile (later): bundled via `expo-font`.
 
 ---

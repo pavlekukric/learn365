@@ -25,7 +25,6 @@ export { LESSON_ARTICLE_KEYS } from './types.js';
 export {
   getAllCourseIds,
   getCourse,
-  getEraById,
   getEraForLesson,
   getEraForSection,
   getEras,
@@ -36,7 +35,6 @@ export {
   getNextLesson,
   getPrevLesson,
   getReadingTimeRange,
-  getSectionById,
   getSectionForLesson,
   getSections,
   getSectionsByEra,

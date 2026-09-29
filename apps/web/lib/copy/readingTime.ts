@@ -1,5 +1,7 @@
 import { getReadingTimeRange } from '@learn365/content';
 
+import { DEFAULT_COURSE_ID } from '@/lib/defaultCourse';
+
 /**
  * The reading-time promise, computed from the corpus (Phase 11).
  *
@@ -9,8 +11,6 @@ import { getReadingTimeRange } from '@learn365/content';
  * interpolate `READING_TIME_LABEL` — no surface carries a literal number of
  * minutes any more, and the label moves by itself when the corpus does.
  */
-
-const DEFAULT_COURSE_ID = 'istorija-srbije-365';
 
 export interface ReadingTimeRange {
   readonly min: number;

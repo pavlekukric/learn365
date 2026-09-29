@@ -4,8 +4,11 @@ import { EPOCH_ISO } from '@learn365/core';
 
 import { guardApi } from '@/lib/server/auth/guard';
 import { syncCourseBookmarks } from '@/lib/server/bookmarks/repository';
-import { apiBadRequest, jsonNoStore, readJsonRecord } from '@/lib/server/http';
-import { parseCourseId, parseIsoTimestamp, parseLessonIds } from '@/lib/server/progress/validation';
+import {
+  apiBadRequest,
+  apiUnavailable,
+  jsonNoStore, readJsonRecord } from '@/lib/server/http';
+import { parseCourseId, parseIsoTimestamp, parseLessonIds } from '@/lib/server/validation';
 import type { BookmarksWire } from '@/lib/sync/wire';
 
 export const dynamic = 'force-dynamic';
@@ -34,6 +37,6 @@ export async function POST(request: NextRequest): Promise<NextResponse> {
     return jsonNoStore<BookmarksWire>({ courseId, ...snapshot });
   } catch (error) {
     console.error('[bookmarks] sync failed', error);
-    return jsonNoStore({ error: 'unavailable' }, 503);
+    return apiUnavailable();
   }
 }

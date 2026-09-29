@@ -2,6 +2,7 @@ import { getCourse } from '@learn365/content';
 import { Eyebrow, Flourish } from '@learn365/ui-web';
 
 import { READING_TIME_LABEL } from '@/lib/copy/readingTime';
+import { DEFAULT_COURSE_ID } from '@/lib/defaultCourse';
 
 import { HomeCurrentLessonCard } from './_components/HomeCurrentLessonCard';
 import { HomeDailyAnchor } from './_components/HomeDailyAnchor';
@@ -9,8 +10,6 @@ import { HomeEraTimeline } from './_components/HomeEraTimeline';
 import { HomeHeroCta } from './_components/HomeHeroCta';
 import { HomeHowItWorks } from './_components/HomeHowItWorks';
 import styles from './page.module.css';
-
-const DEFAULT_COURSE_ID = 'istorija-srbije-365';
 
 /**
  * Home-only hero copy. Kept here as a page-level presentational string rather

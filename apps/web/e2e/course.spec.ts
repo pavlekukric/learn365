@@ -6,7 +6,9 @@ test.describe('Istorija 365 — course overview', () => {
   test('era card: the card opens its sections, the one link opens the right lesson', async ({
     page,
   }) => {
-    await page.goto(`/course/${COURSE_ID}`);
+    // The whole outline is in the server HTML now; wait for hydration before
+    // clicking, or the click lands on a button React has not wired yet.
+    await page.goto(`/course/${COURSE_ID}`, { waitUntil: 'networkidle' });
     const card = page.getByRole('button', {
       name: 'EPOHA I Praistorija, antika i doseljavanje Slovena',
     });

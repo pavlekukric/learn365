@@ -4,7 +4,10 @@ import { notFound } from 'next/navigation';
 import { getAllCourseIds, getCourse } from '@learn365/content';
 import { Eyebrow } from '@learn365/ui-web';
 
+import { truncateDescription } from '@/lib/seo/description';
+import { courseJsonLd } from '@/lib/seo/jsonLd';
 import { shareMetadata } from '@/lib/seo/metadata';
+import { StructuredData } from '@/lib/seo/StructuredData';
 
 import { CourseOverviewBookmarks } from './_components/CourseOverviewBookmarks';
 import { CourseOverviewEras } from './_components/CourseOverviewEras';
@@ -27,12 +30,13 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const { courseId } = await params;
   const course = getCourse(courseId);
   if (!course) return {};
+  const description = truncateDescription(course.description);
   return {
     title: course.title,
-    description: course.description,
+    description,
     ...shareMetadata({
       title: course.title,
-      description: course.description,
+      description,
       path: `/course/${course.id}`,
     }),
   };
@@ -49,6 +53,7 @@ export default async function CourseOverviewPage({ params }: PageProps) {
     // order decides which survives (Phase 16).
     <div className="shell">
       <div className={styles.page}>
+        <StructuredData data={courseJsonLd(course, `/course/${course.id}`)} />
         {/* Restores the reader's scroll position on return within the session
          * (renders nothing). Next's built-in restoration misses here because the
          * era accordion settles after hydration. */}

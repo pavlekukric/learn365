@@ -3,14 +3,17 @@ import { NextResponse, type NextRequest } from 'next/server';
 import { EPOCH_ISO } from '@learn365/core';
 
 import { guardApi } from '@/lib/server/auth/guard';
-import { apiBadRequest, jsonNoStore, readJsonRecord } from '@/lib/server/http';
+import {
+  apiBadRequest,
+  apiUnavailable,
+  jsonNoStore, readJsonRecord } from '@/lib/server/http';
 import { syncCourseProgress } from '@/lib/server/progress/repository';
 import {
   parseCourseId,
   parseIsoTimestamp,
   parseLastOpened,
   parseLessonIds,
-} from '@/lib/server/progress/validation';
+} from '@/lib/server/validation';
 import type { ProgressWire } from '@/lib/sync/wire';
 
 export const dynamic = 'force-dynamic';
@@ -44,6 +47,6 @@ export async function POST(request: NextRequest): Promise<NextResponse> {
     return jsonNoStore<ProgressWire>({ courseId, ...snapshot });
   } catch (error) {
     console.error('[progress] sync failed', error);
-    return jsonNoStore({ error: 'unavailable' }, 503);
+    return apiUnavailable();
   }
 }
