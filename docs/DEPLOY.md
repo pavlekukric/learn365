@@ -272,3 +272,19 @@ Owner decision: visits are counted, and `/privatnost` says so.
 - **Check.** `curl -sI https://istorija365.com/ | grep -i content-security` names `static.cloudflareinsights.com`; a browser console on any page shows no CSP error.
 - **Turning it off.** Dashboard → Web Analytics → the site → **Manage site** → disable the automatic setup; then remove the origin from the CSP and the `Statistika poseta` section from `apps/web/app/privatnost/_copy.ts` in one commit (`e2e/privacy.spec.ts` holds the two together).
 - **The rule.** The page and the policy change together: no second foreign script origin without a sentence on `/privatnost`.
+
+## 15. Accounts overview `/pregled` (Phase 16)
+
+A read-only page listing the accounts, for the owner only. It is a 404 for everyone until one account carries the flag.
+
+1. Sign in on https://istorija365.com with the Google account that should see the page (the row must exist).
+2. On the box, as `deploy` or `root`:
+
+```
+docker exec -i learn365-db psql -U learn365 -d learn365 -c "update users set is_admin = true where email = '<your address>';"
+```
+
+   `UPDATE 1` means it worked; `UPDATE 0` means no account has that address yet (step 1).
+3. Open https://istorija365.com/pregled — or `/nalog` → `Pregled naloga`.
+
+Undo: the same command with `false`. Who has the flag: `docker exec -i learn365-db psql -U learn365 -d learn365 -c "select email from users where is_admin;"`. Deleting the account on `/nalog` deletes the flag with it.

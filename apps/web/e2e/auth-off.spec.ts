@@ -32,6 +32,43 @@ test.describe('History 365 — accounts off', () => {
     await expect(page).toHaveURL(/\/prijava$/);
   });
 
+  test('the account card and the 404 card keep their room and their gutters', async ({ page }) => {
+    // Regression guard (Phase 16): `.shell` and the page's own wrapper used to
+    // share one element, so whichever stylesheet loaded last took the other's
+    // padding — since Phase 14 the cards sat glued to the masthead. They are
+    // separate elements now; this holds the result, not the order.
+    for (const path of ['/prijava', '/ova-strana-ne-postoji']) {
+      await page.goto(path);
+      const box = await page.evaluate(() => {
+        const masthead = document.querySelector('body header')?.getBoundingClientRect();
+        const card = document.querySelector('main h1')?.parentElement?.getBoundingClientRect();
+        if (!masthead || !card) return null;
+        return {
+          gap: Math.round(card.top - masthead.bottom),
+          left: Math.round(card.left),
+          right: Math.round(window.innerWidth - card.right),
+        };
+      });
+      expect(box, path).not.toBeNull();
+      if (!box) continue;
+      expect(box.gap, `${path}: room under the masthead`).toBeGreaterThanOrEqual(40);
+      expect(box.left, `${path}: left gutter`).toBeGreaterThanOrEqual(16);
+      expect(box.right, `${path}: right gutter`).toBeGreaterThanOrEqual(16);
+    }
+  });
+
+  test('/pregled does not exist, and crawlers are told to stay out', async ({ page, request }) => {
+    // The owner's accounts overview (Phase 16): with accounts off there is
+    // nobody who could be allowed in, so the address is a plain 404.
+    const response = await page.goto('/pregled');
+    expect(response?.status()).toBe(404);
+    await expect(page.getByRole('heading', { level: 1, name: 'Stranica nije pronađena' })).toBeVisible();
+    await expect(page.getByText('Nalozi', { exact: true })).toHaveCount(0);
+
+    const robots = await (await request.get('/robots.txt')).text();
+    expect(robots).toContain('Disallow: /pregled');
+  });
+
   test('no sign-in ask after the second completed lesson', async ({ page }) => {
     // One lesson already done; finishing a second one is exactly when the
     // ask would appear with accounts on. Here it must not.

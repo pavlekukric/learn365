@@ -1,4 +1,4 @@
-import { index, pgTable, primaryKey, text, timestamp, uuid } from 'drizzle-orm/pg-core';
+import { boolean, index, pgTable, primaryKey, text, timestamp, uuid } from 'drizzle-orm/pg-core';
 
 /**
  * Phase 8 schema. Content (courses, eras, sections, lessons) does not live
@@ -21,6 +21,11 @@ export const users = pgTable('users', {
   pictureUrl: text('picture_url'),
   createdAt: timestampTz('created_at').notNull().defaultNow(),
   lastSeenAt: timestampTz('last_seen_at'),
+  /**
+   * May open `/pregled`, the owner's accounts overview (Phase 16). Set by
+   * hand on the box (`docs/DEPLOY.md` §15); no code path writes it.
+   */
+  isAdmin: boolean('is_admin').notNull().default(false),
 });
 
 export const sessions = pgTable(

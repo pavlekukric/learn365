@@ -50,44 +50,52 @@ export default async function PrijavaPage({ searchParams }: PageProps) {
   const errorLine = greska === undefined ? undefined : ERROR_LINES[greska];
 
   return (
-    <div className={`shell ${styles.wrap}`}>
-      <section className={styles.card} aria-labelledby="prijava-naslov">
-        <Eyebrow>Nalog</Eyebrow>
-        <h1 id="prijava-naslov" className={`h1 ${styles.title}`}>
-          Prijava
-        </h1>
-        <p className={`body ${styles.body}`}>
-          Nalog služi samo jednom: da se pročitane i sačuvane lekcije prenesu na svaki tvoj
-          uređaj. Čitanje ostaje otvoreno i bez njega.
-        </p>
-
-        {auth === null ? (
-          <p className={`small ${styles.note}`} role="status">
-            Prijava trenutno nije dostupna. Napredak se i dalje pamti u ovom pregledaču.
+    // Two elements on purpose: `.shell` gives the gutters, `.wrap` the vertical
+    // room. On one element the two paddings override each other, and which
+    // one wins depends on the order the stylesheets happen to load in.
+    <div className="shell">
+      <div className={styles.wrap}>
+        <section className={styles.card} aria-labelledby="prijava-naslov">
+          <Eyebrow>Nalog</Eyebrow>
+          <h1 id="prijava-naslov" className={`h1 ${styles.title}`}>
+            Prijava
+          </h1>
+          <p className={`body ${styles.body}`}>
+            Nalog služi samo jednom: da se pročitane i sačuvane lekcije prenesu na svaki tvoj
+            uređaj. Čitanje ostaje otvoreno i bez njega.
           </p>
-        ) : (
-          <>
-            {errorLine !== undefined ? (
-              <p className={`small ${styles.error}`} role="alert">
-                {errorLine}
-              </p>
-            ) : null}
-            <div className={styles.actions}>
-              <Button href={`/api/auth/google?return_to=${encodeURIComponent(returnTo)}`} plainAnchor>
-                Nastavi sa Google-om
-              </Button>
-            </div>
-            <p className={`tiny ${styles.privacy}`}>
-              Od Google-a dobijamo ime, e-adresu i sliku, ništa više.{' '}
-              <Link href="/privatnost">Šta tačno čuvamo</Link>
-            </p>
-          </>
-        )}
 
-        <Link href="/" className={styles.secondary}>
-          Nazad na čitanje
-        </Link>
-      </section>
+          {auth === null ? (
+            <p className={`small ${styles.note}`} role="status">
+              Prijava trenutno nije dostupna. Napredak se i dalje pamti u ovom pregledaču.
+            </p>
+          ) : (
+            <>
+              {errorLine !== undefined ? (
+                <p className={`small ${styles.error}`} role="alert">
+                  {errorLine}
+                </p>
+              ) : null}
+              <div className={styles.actions}>
+                <Button
+                  href={`/api/auth/google?return_to=${encodeURIComponent(returnTo)}`}
+                  plainAnchor
+                >
+                  Nastavi sa Google-om
+                </Button>
+              </div>
+              <p className={`tiny ${styles.privacy}`}>
+                Od Google-a dobijamo ime, e-adresu i sliku, ništa više.{' '}
+                <Link href="/privatnost">Šta tačno čuvamo</Link>
+              </p>
+            </>
+          )}
+
+          <Link href="/" className={styles.secondary}>
+            Nazad na čitanje
+          </Link>
+        </section>
+      </div>
     </div>
   );
 }

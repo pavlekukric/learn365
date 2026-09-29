@@ -30,22 +30,33 @@ export default async function NalogPage() {
   const { user } = session;
 
   return (
-    <div className={`shell ${styles.wrap}`}>
-      <section className={styles.card} aria-labelledby="nalog-naslov">
-        <Eyebrow>Nalog</Eyebrow>
-        <h1 id="nalog-naslov" className={`h1 ${styles.title}`}>
-          {user.name ?? user.email}
-        </h1>
-        {user.name !== null ? <p className={`tiny mono ${styles.email}`}>{user.email}</p> : null}
-        <p className={`body ${styles.body}`}>
-          Pročitane i sačuvane lekcije čuvaju se na ovom nalogu i prenose na svaki uređaj na
-          kojem se prijaviš.
-        </p>
-        <NalogActions />
-        <Link href="/" className={styles.secondary}>
-          Nazad na čitanje
-        </Link>
-      </section>
+    // `.shell` (gutters) and `.wrap` (vertical room) on separate elements —
+    // see `/prijava`.
+    <div className="shell">
+      <div className={styles.wrap}>
+        <section className={styles.card} aria-labelledby="nalog-naslov">
+          <Eyebrow>Nalog</Eyebrow>
+          <h1 id="nalog-naslov" className={`h1 ${styles.title}`}>
+            {user.name ?? user.email}
+          </h1>
+          {user.name !== null ? <p className={`tiny mono ${styles.email}`}>{user.email}</p> : null}
+          <p className={`body ${styles.body}`}>
+            Pročitane i sačuvane lekcije čuvaju se na ovom nalogu i prenose na svaki uređaj na kojem
+            se prijaviš.
+          </p>
+          <NalogActions />
+          {/* The owner's accounts overview (Phase 16) — offered to an account
+           * that carries the flag and to nobody else. */}
+          {user.isAdmin ? (
+            <Link href="/pregled" className={styles.secondary}>
+              Pregled naloga
+            </Link>
+          ) : null}
+          <Link href="/" className={styles.secondary}>
+            Nazad na čitanje
+          </Link>
+        </section>
+      </div>
     </div>
   );
 }

@@ -74,6 +74,21 @@ The next phase pick is recorded in [`HANDOFF.md`](../HANDOFF.md) at the repo roo
 
 The remainder of this document is the chronological build log. Each phase entry records the locked decisions, files touched, gates run, and rationale. The log is append-only — use it to answer "why did we build it this way?" or "when did X change?" The current state of any component or surface lives in the **Current Baseline** section above, not in the phase log.
 
+## Phase 16 — Pregled naloga: the owner's read-only accounts overview (2026-09-29): built, in PR
+
+Requested by the owner on 2026-09-29 ("hoću stranicu"). `CLAUDE.md` lists "admin panel" under *do not implement unless explicitly requested*; this is that request, scoped to one read-only page. Plan: `docs/PHASE_16_PLAN.md` (eight locked decisions).
+
+**What changed:**
+- **Data + access.** `users.is_admin boolean not null default false` (migration `0001_admin_flag`, additive). No code path writes it; the owner sets it by hand on the box (`docs/DEPLOY.md` §15). `resolveOverviewAccess` (4 tests): accounts off → 404, signed out → `/prijava?nazad=/pregled`, signed in without the flag → 404, with it → the page. `getAccountsOverview` (5 tests, PGlite): total, new and active in 7 days, and per account — name, e-mail, registered, last activity (the later of the last sign-in and the last progress change), lessons read, lessons saved; newest first, capped at 500 rows; never the Google `sub`, the picture or the flag. `formatAccountDate` / `formatLastActivity` (6 tests): Serbian month names, Belgrade calendar days, `danas` / `juče` / `pre N dana`.
+- **Page.** `/pregled` (server component, `force-dynamic`, `noindex`, no `/api/**` route behind it): three figures between two rules, a hairline table; on a phone each account is a block with labelled facts. `/nalog` shows a quiet `Pregled naloga` link to a flagged account only. `robots.txt` disallows `/pregled`. `/privatnost` → `Sa Google nalogom`: "Spisak naloga vidi samo osoba koja vodi sajt."
+- **Fix found on the way — account cards glued to the masthead.** `/prijava`, `/nalog` and the 404 put `.shell` (global, `padding: 0 40px`) and the page's `.wrap` (`padding: 80px 0 120px`) on one element; whichever stylesheet loaded last won. Since Phase 14 the global one loads last, so the cards sat directly under the masthead (measured 0 px; 80 px before Phase 14, when the gutters were the ones lost). The two classes are on separate elements now; an e2e test holds the room (≥ 40 px) and the gutters (≥ 16 px). **Not changed:** Home and the course overview have the same collision and have shown 0 px of top padding since at least Phase 7.6 (May) — that is the approved look, so it was left for the owner to decide.
+
+**Verified locally with accounts on** (PGlite, ten invented accounts, a flagged session and a plain one): as the owner `/pregled` 200 with the figures and ten rows, no console error, no horizontal overflow at 1280 or 390, `cache-control: private, no-cache, no-store`; a plain account gets the 404 page and no e-mail address in the HTML, and no link on `/nalog`; signed out and with a forged cookie `307 → /prijava?nazad=%2Fpregled`.
+
+**Gates:** typecheck, lint, unit tests (web 104 → 119), build (`/pregled` dynamic, 375 static pages), bundle budget; Playwright Chromium desktop + mobile **80 pass / 6 skip**.
+
+**Owner action (turns it on):** sign in once, then on the box `docker exec -i learn365-db psql -U learn365 -d learn365 -c "update users set is_admin = true where email = '<address>';"` — `UPDATE 1`. Until then `/pregled` is a 404 for everyone.
+
 ## Visit statistics — Cloudflare Web Analytics allowed (2026-09-29): done (PR #55, `ab4442d`, live)
 
 Owner decision 2026-09-29, after the Phase 15 production check found that Cloudflare injects its Web Analytics beacon into the HTML and the Phase 14 CSP refuses it. The owner chose to count visits and say so, over switching the injection off. One commit of code, one of docs.

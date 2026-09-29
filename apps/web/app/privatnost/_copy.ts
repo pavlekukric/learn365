@@ -47,6 +47,7 @@ export const PRIVACY_SECTIONS: readonly PrivacySection[] = [
     paragraphs: [
       'Kad se prijaviš, od Google-a dobijamo i čuvamo četiri stvari: stalni identifikator tvog naloga, e-adresu, ime i sliku profila. Ništa više: ne čitamo poštu, kontakte ni kalendar, i ne čuvamo pristupne ključeve ka Google-u.',
       'Uz to čuvamo tvoj napredak: koje su lekcije pročitane, koja je poslednja otvorena i koje su sačuvane, sa vremenom poslednje promene.',
+      'Spisak naloga vidi samo osoba koja vodi sajt.',
     ],
   },
   {
