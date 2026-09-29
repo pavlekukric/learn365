@@ -29,15 +29,7 @@ interface KnownIssue {
   readonly why: string;
 }
 
-const KNOWN: readonly KnownIssue[] = [
-  {
-    rule: 'color-contrast',
-    target: /HistoricalTimeline_textBce__\S* > \.HistoricalTimeline_yearShort__/,
-    why:
-      'Home era strip, desktop: the BCE year label ("9500 p.n.e.", #6d6863 on the active band #e0ebe0) ' +
-      'measures 4.49:1 against 4.5:1 (found 2026-09-30; the UI files belong to the review-0930 UI work).',
-  },
-];
+const KNOWN: readonly KnownIssue[] = [];
 
 const GATED_IMPACTS = new Set(['serious', 'critical']);
 
