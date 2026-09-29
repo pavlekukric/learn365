@@ -54,6 +54,9 @@ COPY --from=build --chown=node:node /repo/apps/web/public ./apps/web/public
 COPY --from=build --chown=node:node /repo/apps/web/lib/server/db/migrations ./apps/web/lib/server/db/migrations
 USER node
 EXPOSE 3000
-HEALTHCHECK --interval=30s --timeout=5s --start-period=20s --retries=3 \
+# Kept in step with deploy/deploy.sh (HEALTH_WAIT=150): a check every 15 s, failures ignored for the
+# first 45 s of a cold start on the 512 MB box, `unhealthy` after 3 misses in a row (~90–105 s at the
+# earliest) — Docker's verdict always lands inside the script's wait, never after it.
+HEALTHCHECK --interval=15s --timeout=5s --start-period=45s --retries=3 \
   CMD node -e "fetch('http://127.0.0.1:3000/').then((r) => process.exit(r.ok ? 0 : 1)).catch(() => process.exit(1))"
 CMD ["node", "apps/web/server.js"]

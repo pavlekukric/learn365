@@ -101,7 +101,7 @@ After every server step: `ssh root@<IP> 'docker ps --filter name=racuni --format
 
 ## 4. Routine deploy
 
-- **Push to `main`** → CI (`ci.yml`: two parallel jobs — lint / typecheck / test / build / bundle budget / content + the generated-content drift check, and the Playwright suite on Chromium desktop + mobile). **Deploy waits for CI** (Phase 10, `workflow_run`): only a green CI for a push to `main` starts `deploy.yml`, which builds the image of that same commit (`workflow_run.head_sha`, GHA layer cache), pushes `sha-<12>` + `latest`, then rolls out. A red CI on `main` deploys **nothing** — the previous image stays live; fix forward. Merge → live = CI + image + rollout (measured in §9).
+- **Push to `main`** → CI (`ci.yml`: two parallel jobs — lint / typecheck / test / build / bundle budget / content + the generated-content drift check, and the Playwright suite on Chromium desktop + mobile, plus since review 2026-09-30 an axe pass and an accounts-on project against a seeded PGlite database; Firefox + WebKit run nightly in `e2e-nightly.yml`, not as a gate). **Deploy waits for CI** (Phase 10, `workflow_run`): only a green CI for a push to `main` starts `deploy.yml`, which builds the image of that same commit (`workflow_run.head_sha`, GHA layer cache), pushes `sha-<12>` + `latest`, then rolls out. A red CI on `main` deploys **nothing** — the previous image stays live; fix forward. Merge → live = CI + image + rollout (measured in §9).
 - **Manual**: `gh workflow run deploy.yml` (rebuilds and rolls out HEAD of `main` **without waiting for CI** — the emergency bypass; otherwise let the gate do its job).
 - **Watching a rollout**: a `workflow_run`-triggered run is listed under Actions → Deploy, not among the commit's own checks. `gh run list --workflow=Deploy --limit 1 --json databaseId,headSha,status,conclusion` (then `gh run watch <id> --exit-status`) is the way to follow it; if no Deploy run appears within a minute of CI going green, the fault is in the trigger, not on the box — roll out by hand and fix the trigger forward.
 - **PRs** that touch the Dockerfile, `.dockerignore`, `next.config.mjs` or the workflow get a build-only run, so a broken image never reaches `main` unnoticed.
@@ -164,6 +164,7 @@ The Phase 5 manual gates (screen-reader smoke, editorial review of the 6 seed le
 | Backend reliability set (Phase 12) | code live — 2026-09-28, PR #46 (`3a315c8`), 4 m 35 s merge → live: 503 on outage, cookie re-set, tolerant start-up, postgres.js timeouts. **Box rollout done by the owner 2026-09-28 20:14 UTC:** the three files moved into place (old copies kept as `*.bak-2026-09-28`), `dc.sh config` ok, `dc.sh up -d web` left the running container as is — the new `depends_on` applies from the next rollout, which already runs the new `deploy.sh`; `learn365-web` and `learn365-db` healthy, `cloudflared` up, Računi containers unchanged. The first verified dump is the next nightly run (`backup.log` line ending in `N unosa`). The commands, for the record — as `deploy` (`ssh -i ~/.ssh/learn365_deploy deploy@<IP>`): `cd /srv/learn365 && for f in deploy.sh backup.sh docker-compose.yml; do cp -p "$f" "$f.bak-$(date +%F)"; mv ".phase12/$f" "$f"; done && rmdir .phase12 && chmod +x deploy.sh backup.sh && bash -n deploy.sh && bash -n backup.sh && ./dc.sh config --quiet && ./dc.sh up -d web && ./dc.sh ps` — then the usual Računi check (`docker ps --filter name=racuni`) and `curl -s https://istorija365.com/api/health`. The next nightly `backup.log` line should end with `N unosa`. |
 | Security headers + `__Host-` cookies (Phase 14) | done — 2026-09-28, PR #51 (`3de5168`), 4 m 20 s merge → live, headers verified on production: CSP, HSTS, nosniff, Referrer-Policy, frame-ancestors / X-Frame-Options, Permissions-Policy on every response, `x-powered-by` gone; the session cookie is `__Host-l365_session` (the old name is read for one release and migrated on the next `/api/me`). Check: `curl -sI https://istorija365.com/ \| grep -iE "content-security|strict-transport|x-content|referrer|x-frame|permissions|x-powered"`. |
 | Deploy key forced command + Cloudflare rate limit (Phase 14) | **owner actions, pending** — §13 |
+| Ops set (review 2026-09-30 item 10): `/api/health` `migrations`, endless capped migration retry, healthcheck 15 s / 45 s, `deploy.sh` waits 150 s + migrations, `backup.sh` keeps exactly 14 + optional off-box copy | code in the repo (image changes ship with the merge). **Box files pending, owner:** as `deploy`, copy the new `deploy/deploy.sh` and `deploy/backup.sh` to `/srv/learn365/` (keep `*.bak-<date>` copies as in the Phase 12 row, `chmod +x`, `bash -n` both). Order does not matter: the new `deploy.sh` also accepts images without the `migrations` field (`legacy`), and the old one ignores it. Off-box destination + restore test: §10 owner steps. |
 | Visit statistics — Cloudflare Web Analytics | done — 2026-09-29, PR #55 (`ab4442d`), live 08:39 UTC, verified in a browser (beacon `200`, reports `204`, console clean, no cookie): CSP `script-src` names `static.cloudflareinsights.com`, `/privatnost` has `Statistika poseta` — §14 |
 
 ## 10. Database and accounts (Phase 8)
@@ -174,15 +175,50 @@ The Phase 5 manual gates (screen-reader smoke, editorial review of the 6 seed le
 2. Fill `/srv/learn365/.env` from `deploy/.env.example` (`POSTGRES_PASSWORD` via `openssl rand -hex 24`, the same value inside `DATABASE_URL`).
 3. `scp deploy/docker-compose.yml deploy/backup.sh deploy@<IP>:/srv/learn365/ && ssh deploy@<IP> 'chmod +x /srv/learn365/backup.sh'` — the new compose needs `POSTGRES_PASSWORD`, so this comes **after** step 2.
 4. `ssh deploy@<IP> '/srv/learn365/dc.sh up -d db && /srv/learn365/dc.sh up -d web'` — `web` restarts with the env; `instrumentation.ts` applies migrations before the first request.
-5. `curl -s https://<DOMEN>/api/health` → `{"ok":true,"auth":true,"db":"ok"}`. `db: "off"` means `DATABASE_URL` is empty; `db: "error"` (503) means the database is unreachable — reading still works, only accounts are off.
+5. `curl -s https://<DOMEN>/api/health` → `{"ok":true,"auth":true,"db":"ok","migrations":"ok"}`. `db: "off"` means `DATABASE_URL` is empty (then `migrations: "off"` too); `db: "error"` (503) means the database is unreachable — reading still works, only accounts are off. `migrations` (review 2026-09-30): `pending` (503) = not applied yet — the server just started or the database has not answered yet and the background retry is waiting on it; `failed` (503) = a migration threw, accounts stay off until the next deploy; `ok` = applied in this process.
 6. `ssh deploy@<IP> 'crontab -l 2>/dev/null; (crontab -l 2>/dev/null; echo "15 3 * * * /srv/learn365/backup.sh >> /srv/learn365/backups/backup.log 2>&1") | crontab -'` — one line, user `deploy`, nothing of Računi's.
 7. The usual check: three `racuni-*` containers unchanged, `https://kucniracuni.com/api/health` still `302`.
 
-**Migrations.** Generated on the laptop (`pnpm --filter @learn365/web db:generate`) into `apps/web/lib/server/db/migrations/` and committed; applied at server start. Additive only: an older image keeps running against a newer schema, so §6 rollback stays a plain re-tag. A failing migration keeps `web` unhealthy and `deploy.sh` rolls back to the previous tag (Phase 12). An **unreachable** database at start-up is different (Phase 12): `web` starts anyway, reading works, `/api/health` says `db: "error"`, and the migration is retried in the background every 15 s for 10 minutes (`instrumentation.ts` → `migrateAtStartup`). postgres.js runs with `connect_timeout` 5 s and `statement_timeout` 10 s; a heavy future migration must raise the timeout for its own statement (`SET LOCAL statement_timeout`).
+**Migrations.** Generated on the laptop (`pnpm --filter @learn365/web db:generate`) into `apps/web/lib/server/db/migrations/` and committed; applied at server start. Additive only: an older image keeps running against a newer schema, so §6 rollback stays a plain re-tag. A failing migration keeps `web` unhealthy and `deploy.sh` rolls back to the previous tag (Phase 12). An **unreachable** database at start-up is different (Phase 12): `web` starts anyway, reading works, `/api/health` says `db: "error"`, `migrations: "pending"`, and the migration is retried in the background — 15 s, 30 s, then every 60 s, **for as long as the database stays away** (review 2026-09-30; before, it gave up after 10 minutes and accounts stayed off until a restart). A migration that fails on a retry stops the loop and reports `migrations: "failed"`.
 
-**Backups.** `backup.sh` writes `learn365-YYYY-MM-DD.dump` (custom format, mode 600 via `umask 077`) nightly, verifies it with `pg_restore --list` (the `backup.log` line ends with `N unosa`; an unreadable dump exits 1) and keeps 14. They live on the same box — protection against a bad deploy or a bad migration, not against losing the VPS; an off-box copy is a follow-up with an owner decision on destination (then a five-line `rsync` / `rclone` step at the end of the script).
+**What `deploy.sh` waits for** (review 2026-09-30). First the image's Docker healthcheck (`GET /`, every 15 s, failures ignored for the first 45 s, `unhealthy` after 3 misses in a row) — up to 150 s, and it stops early on Docker's `unhealthy` verdict. Then, only when a database is configured, `/api/health` (asked from inside the container) until `migrations` is `ok` — up to 120 s; `failed` or still `pending` after that rolls back exactly like an unhealthy image. `off` (no database) and an older image without the field (a manual §6 rollback to an old tag) pass. Consequence: while the database is down, a rollout does not stick — the previous tag stays live, which is what you want anyway; start the database, then re-run the deploy. postgres.js runs with `connect_timeout` 5 s and `statement_timeout` 10 s; a heavy future migration must raise the timeout for its own statement (`SET LOCAL statement_timeout`).
 
-**Restore (rehearse once).**
+**Backups.** `backup.sh` writes `learn365-YYYY-MM-DD.dump` (custom format, mode 600 via `umask 077`) nightly, verifies it with `pg_restore --list` (the `backup.log` line ends with `N unosa`; an unreadable dump exits 1) and keeps **exactly the 14 newest** by name (review 2026-09-30; the old `find -mtime +14` kept 15–16). On the box alone they protect against a bad deploy or a bad migration, not against losing the VPS — hence the off-box copy below.
+
+**Off-box copy (optional, review 2026-09-30).** `backup.sh` reads one line from `/srv/learn365/.env`, `BACKUP_OFFBOX_TARGET`; empty or missing = no off-box step (today's behaviour). Set, it copies the night's dump there after the local check passes, adds a `offbox ok: … → …` line to `backup.log`, and exits 1 with `offbox NEUSPEH: …` if the copy fails (the local dump is kept either way). Nothing is ever deleted at the destination — the dumps are kilobytes, a year is a few MB; prune there by hand if ever needed.
+
+- `rclone:<remote>:<path>` — any rclone backend (Backblaze B2, S3, Google Drive…). **Use an rclone `crypt` remote on top**: the dumps hold account e-mails and names (personal data, `/privatnost`), so they must not sit readable at a third party.
+- `rsync:<user>@<host>:<path>` — rsync over ssh to a machine the owner controls (home NAS, second box), with a key of the `deploy` user.
+
+Owner steps (once, ~15 min; nothing here touches Računi):
+
+1. Pick the destination. Recommended: a Backblaze B2 bucket (free tier covers this) behind an rclone `crypt` remote; keep the crypt password in the password manager — without it the copies are unreadable, also to you.
+2. On the box, as root: `apt-get install -y rclone` (or `rsync` for the second option — usually already there).
+3. As `deploy`: `rclone config` → create the B2 remote (e.g. `b2`), then a `crypt` remote over it (e.g. `b2crypt` → `b2:<bucket>/learn365`). The config lands in `~deploy/.config/rclone/rclone.conf`; `chmod 600` it. For rsync instead: `ssh-keygen -t ed25519 -f ~/.ssh/learn365_backup -N ''`, put the public key on the target, and add a `Host` entry in `~deploy/.ssh/config` with `IdentityFile ~/.ssh/learn365_backup`.
+4. Add `BACKUP_OFFBOX_TARGET=rclone:b2crypt:` (or `rsync:…`) to `/srv/learn365/.env`, and copy the new `deploy/backup.sh` into `/srv/learn365/` (`chmod +x`, `bash -n backup.sh`).
+5. Run it once by hand: `/srv/learn365/backup.sh` → two lines, `backup ok: …` and `offbox ok: …`; `rclone ls b2crypt:` lists the dump.
+6. Do the restore test below once, from the **off-box** copy, and note the date in §9.
+
+**Restore test (rehearse once, and after any change to the backup chain).** Restores into a scratch database next to the live one — the live `learn365` database and `web` are not touched:
+
+```
+ssh deploy@<IP>
+cd /tmp
+# 1) take the newest dump — from off-box to prove that copy works (or from /srv/learn365/backups/)
+rclone copy b2crypt:learn365-<date>.dump /tmp/          # rsync: rsync <user>@<host>:<path>/learn365-<date>.dump /tmp/
+# 2) restore into a throwaway database
+docker exec learn365-db createdb -U learn365 learn365_restore_test
+docker exec -i learn365-db pg_restore -U learn365 -d learn365_restore_test --no-owner < /tmp/learn365-<date>.dump
+# 3) compare with live: the counts should match (live may be a few rows ahead since 03:15)
+for db in learn365 learn365_restore_test; do
+  docker exec learn365-db psql -U learn365 -d "$db" -Atc "select '$db', (select count(*) from users), (select count(*) from lesson_completions), (select count(*) from bookmarks)"
+done
+# 4) clean up
+docker exec learn365-db dropdb -U learn365 learn365_restore_test
+rm -f /tmp/learn365-<date>.dump
+```
+
+**Restore for real** (the live database is replaced — only after a loss):
 
 ```
 ssh deploy@<IP>
@@ -210,7 +246,7 @@ Nothing in the repo changes for this; the code already uses the alias (`apps/web
 
 - `next build` prerenders the course overview and all 365 lesson pages (`prerender-manifest.json` lists 373 static routes); `next start` serves them as files, with no React render per request. The runtime image carries roughly 25 MB more (one HTML + one RSC file per page). The account pages (`/prijava`, `/nalog`) and `/api/**` stay dynamic.
 - Those pages answer with `cache-control: s-maxage=31536000`. **Cloudflare does not cache HTML by default, and no cache rule may be added without purge-on-deploy in `deploy.sh` first:** a cached page that references chunk hashes from the previous image is a broken page until purge. Today the edge caches `/_next/static` only, which is content-hashed and safe.
-- Client JS per route is 100–141 kB gzip (933–945 before Phase 9). `pnpm --filter @learn365/web check-bundle` (a CI step after Build) enforces 175 kB gzip per route and 300 kB raw per chunk.
+- Client JS per route is 100–141 kB gzip (933–945 before Phase 9). `pnpm --filter @learn365/web check-bundle` (a CI step after Build) enforces 175 kB gzip per route and 300 kB raw per chunk. Since review 2026-09-30 a route counts the union of its page entry and every layout / boundary entry above it (root layout, the lesson segment's layout, `not-found`): 127–145 kB gzip measured 2026-09-30, the lesson route the largest.
 
 ## 13. Owner actions from Phase 14 (review P2 item 20)
 

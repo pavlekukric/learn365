@@ -2,8 +2,9 @@
  * Client-bundle budget for the web app (Phase 9, 2026-09-28).
  *
  * Reads `.next/app-build-manifest.json` after `next build`, sums the client
- * JS every route loads (its own chunks plus the shared ones), prints the
- * table and exits non-zero when a route or a single chunk crosses the budget.
+ * JS every route loads (the union of its page entry and every layout /
+ * boundary entry above it, shared chunks counted once), prints the table
+ * and exits non-zero when a route or a single chunk crosses the budget.
  *
  * Why: before Phase 9 the whole 365-lesson corpus (824 kB gzip) sat in the
  * layout's client graph, so every route — `/privatnost` included — paid for
@@ -50,11 +51,50 @@ function sizeOf(file) {
 
 const kb = (n) => (n / 1024).toFixed(1);
 
+/**
+ * The manifest has one entry per *file* of the app tree (`/layout`,
+ * `/course/[courseId]/lesson/layout`, `/course/[courseId]/lesson/[lessonId]/page`,
+ * …), not per route. A browser opening a page loads the page entry plus every
+ * segment file above it — the root layout, each nested layout / template,
+ * and the loading / error / not-found boundaries on the way down — so the
+ * route's cost is the *union* of those entries' chunks (review 2026-09-30
+ * item 14: summing only the page entry missed the layouts' own chunks).
+ */
+const SEGMENT_FILES = ['layout', 'template', 'loading', 'error', 'not-found'];
+
+/** Manifest keys of the segment files above (and beside) `pageKey`, root first. */
+function chainOf(pageKey) {
+  const segments = pageKey.split('/').filter(Boolean).slice(0, -1); // drop the trailing `page`
+  const keys = [];
+  for (let depth = 0; depth <= segments.length; depth += 1) {
+    const prefix = segments.slice(0, depth).map((segment) => `/${segment}`).join('');
+    for (const file of SEGMENT_FILES) {
+      const key = `${prefix}/${file}`;
+      if (key in manifest.pages) keys.push(key);
+    }
+  }
+  keys.push(pageKey);
+  return keys;
+}
+
+/** `/(account)/nalog/page` → `/nalog`; `/page` → `/`. */
+function routeOf(pageKey) {
+  const path = pageKey
+    .replace(/\/page$/, '')
+    .split('/')
+    .filter((segment) => segment !== '' && !/^\(.*\)$/.test(segment))
+    .join('/');
+  return `/${path}`;
+}
+
 const rows = [];
-for (const [route, files] of Object.entries(manifest.pages)) {
-  // Route handlers (`/api/**`, `/robots.txt`, `/sitemap.xml`) ship no page
-  // JS of their own; the manifest lists only the shared runtime for them.
-  if (route.endsWith('/route')) continue;
+for (const key of Object.keys(manifest.pages)) {
+  // Only page entries are routes. Route handlers (`/api/**`, `/robots.txt`,
+  // `/sitemap.xml`) ship no page JS; layouts / boundaries are counted inside
+  // every route below them.
+  if (!key.endsWith('/page')) continue;
+  const chain = chainOf(key);
+  const files = new Set(chain.flatMap((entry) => manifest.pages[entry] ?? []));
   let raw = 0;
   let gzip = 0;
   for (const file of files) {
@@ -63,14 +103,16 @@ for (const [route, files] of Object.entries(manifest.pages)) {
     raw += size.raw;
     gzip += size.gzip;
   }
-  rows.push({ route, raw, gzip });
+  rows.push({ route: routeOf(key), raw, gzip, entries: chain.length });
 }
 rows.sort((a, b) => b.gzip - a.gzip);
 
-console.log('Client JS per route (own chunks + shared, from app-build-manifest.json):');
+console.log(
+  'Client JS per route (union of the layout chain + page, from app-build-manifest.json):',
+);
 for (const row of rows) {
   console.log(
-    `  ${row.route.padEnd(44)} ${kb(row.raw).padStart(8)} kB raw ${kb(row.gzip).padStart(7)} kB gzip`,
+    `  ${row.route.padEnd(44)} ${kb(row.raw).padStart(8)} kB raw ${kb(row.gzip).padStart(7)} kB gzip  (${String(row.entries)} entries)`,
   );
 }
 

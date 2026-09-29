@@ -71,9 +71,11 @@ jobs:
   e2e:
     # Phase 10: the browser suite, in parallel with `validate` (its own build —
     # 22 s on the runner, cheaper than shipping .next as an artifact). Chromium
-    # only; Firefox / WebKit stay in playwright.config.ts for local runs.
-    # No env vars → accounts off, exactly like a local run.
-    name: E2E (Chromium desktop + mobile)
+    # only; Firefox / WebKit run nightly (e2e-nightly.yml).
+    # Review 2026-09-30 item 19: besides the accounts-off suite, the axe pass
+    # (desktop + mobile) and the accounts-on project — a second `next start`
+    # on a seeded PGlite database, configured in playwright.config.ts.
+    name: E2E (Chromium desktop + mobile, a11y, accounts)
     runs-on: ubuntu-latest
     timeout-minutes: 20
 
@@ -100,7 +102,11 @@ jobs:
         run: pnpm build
 
       - name: Playwright
-        run: pnpm --filter @learn365/web exec playwright test --project=chromium-desktop --project=chromium-mobile
+        run: >-
+          pnpm --filter @learn365/web exec playwright test
+          --project=chromium-desktop --project=chromium-mobile
+          --project=a11y-desktop --project=a11y-mobile
+          --project=accounts-chromium
 
       - name: Upload traces
         if: failure()
