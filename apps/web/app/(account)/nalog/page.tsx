@@ -16,6 +16,8 @@ export const dynamic = 'force-dynamic';
 export const metadata: Metadata = {
   title: 'Nalog',
   robots: { index: false, follow: false },
+  // noindex: no canonical either (the root layout would hand it `/`).
+  alternates: { canonical: null },
 };
 
 /**

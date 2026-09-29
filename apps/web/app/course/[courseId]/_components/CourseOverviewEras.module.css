@@ -128,6 +128,16 @@
   gap: 2px;
 }
 
+/*
+ * Collapsed panels stay in the DOM (the server HTML carries the whole tree)
+ * and are hidden with the `hidden` attribute — which the `display: flex`
+ * above would otherwise override.
+ */
+.eraChildren[hidden],
+.lessons[hidden] {
+  display: none;
+}
+
 @media (max-width: 720px) {
   .list {
     gap: var(--space-7);

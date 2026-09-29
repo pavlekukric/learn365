@@ -12,6 +12,8 @@ import {
   getNextLesson,
   getPrevLesson,
   getSectionForLesson,
+  type Course,
+  type LessonArticle,
   type LessonHeading,
   type LessonSummary,
 } from '@learn365/content';
@@ -25,7 +27,10 @@ import {
   type LessonFooterLink,
 } from '@learn365/ui-web';
 
+import { truncateDescription } from '@/lib/seo/description';
+import { lessonJsonLd } from '@/lib/seo/jsonLd';
 import { shareMetadata } from '@/lib/seo/metadata';
+import { StructuredData } from '@/lib/seo/StructuredData';
 
 import { LessonBookmarkToggle } from './LessonBookmarkToggle';
 import { LessonCompletion } from './LessonCompletion';
@@ -68,6 +73,20 @@ function adjacent(courseId: string, lesson: LessonSummary | null): LessonFooterL
   };
 }
 
+/** The meta description: the summary (most run past 160 characters, so it is
+ * cut at a word boundary), else the subtitle, else the day and the course. */
+function lessonDescription(
+  course: Course,
+  lesson: LessonSummary,
+  article: Pick<LessonArticle, 'summary' | 'subtitle'>,
+): string {
+  return truncateDescription(
+    article.summary ??
+      article.subtitle ??
+      `${formatDayProse(lesson.dayNumber)} od ${String(course.totalLessons)} · ${course.title}`,
+  );
+}
+
 /** Share-preview metadata per lesson: a shared lesson link should say which
  * day and which lesson it is, not just the site name. */
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
@@ -77,10 +96,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const article = getLessonArticle(courseId, lessonId);
   if (!course || !lesson || !article) return {};
   const title = `${formatDayProse(lesson.dayNumber)}: ${lesson.title}`;
-  const description =
-    article.summary ??
-    article.subtitle ??
-    `${formatDayProse(lesson.dayNumber)} od ${String(course.totalLessons)} · ${course.title}`;
+  const description = lessonDescription(course, lesson, article);
   return {
     title,
     description,
@@ -148,6 +164,21 @@ export default async function LessonPage({ params }: PageProps) {
             <LessonSources sources={article.sources} />
           ) : null}
           <LessonTrustLine byline={article.byline} lastReviewedAt={article.lastReviewedAt} />
+          <StructuredData
+            data={lessonJsonLd({
+              title: lesson.title,
+              description: lessonDescription(course, lesson, article),
+              path: lessonPath(course.id, lesson.id),
+              dayNumber: lesson.dayNumber,
+              readingTimeMinutes: lesson.readingTimeMinutes,
+              course: { title: course.title, path: courseHref },
+              ...(article.byline?.author !== undefined ? { author: article.byline.author } : {}),
+              ...(article.lastReviewedAt !== undefined
+                ? { lastReviewedAt: article.lastReviewedAt }
+                : {}),
+              breadcrumbs,
+            })}
+          />
         </>
       }
       footer={
