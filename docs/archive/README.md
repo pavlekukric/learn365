@@ -8,9 +8,13 @@ For the current baseline, start at the repo root:
 
 - [README.md](../../README.md) — product overview
 - [HANDOFF.md](../../HANDOFF.md) — what is true now + what to do next
-- [docs/PROJECT_STATE.md](../PROJECT_STATE.md) — current baseline + full phase history
+- [docs/PROJECT_STATE.md](../PROJECT_STATE.md) — current baseline + the newest phase entries
 
 ## Contents
+
+### `PROJECT_STATE_PHASE_LOG.md` — the phase log, Phases 0–16
+
+The append-only build log that followed the baseline in PROJECT_STATE until 2026-09-30, moved here unchanged (review 2026-09-30, item 17). Phase 17 onward is appended to PROJECT_STATE.
 
 ### `phases/` — completed phase plans
 
