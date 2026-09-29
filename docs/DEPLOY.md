@@ -164,6 +164,7 @@ The Phase 5 manual gates (screen-reader smoke, editorial review of the 6 seed le
 | Backend reliability set (Phase 12) | code live — 2026-09-28, PR #46 (`3a315c8`), 4 m 35 s merge → live: 503 on outage, cookie re-set, tolerant start-up, postgres.js timeouts. **Box rollout done by the owner 2026-09-28 20:14 UTC:** the three files moved into place (old copies kept as `*.bak-2026-09-28`), `dc.sh config` ok, `dc.sh up -d web` left the running container as is — the new `depends_on` applies from the next rollout, which already runs the new `deploy.sh`; `learn365-web` and `learn365-db` healthy, `cloudflared` up, Računi containers unchanged. The first verified dump is the next nightly run (`backup.log` line ending in `N unosa`). The commands, for the record — as `deploy` (`ssh -i ~/.ssh/learn365_deploy deploy@<IP>`): `cd /srv/learn365 && for f in deploy.sh backup.sh docker-compose.yml; do cp -p "$f" "$f.bak-$(date +%F)"; mv ".phase12/$f" "$f"; done && rmdir .phase12 && chmod +x deploy.sh backup.sh && bash -n deploy.sh && bash -n backup.sh && ./dc.sh config --quiet && ./dc.sh up -d web && ./dc.sh ps` — then the usual Računi check (`docker ps --filter name=racuni`) and `curl -s https://istorija365.com/api/health`. The next nightly `backup.log` line should end with `N unosa`. |
 | Security headers + `__Host-` cookies (Phase 14) | done — 2026-09-28, PR #51 (`3de5168`), 4 m 20 s merge → live, headers verified on production: CSP, HSTS, nosniff, Referrer-Policy, frame-ancestors / X-Frame-Options, Permissions-Policy on every response, `x-powered-by` gone; the session cookie is `__Host-l365_session` (the old name is read for one release and migrated on the next `/api/me`). Check: `curl -sI https://istorija365.com/ \| grep -iE "content-security|strict-transport|x-content|referrer|x-frame|permissions|x-powered"`. |
 | Deploy key forced command + Cloudflare rate limit (Phase 14) | **owner actions, pending** — §13 |
+| Visit statistics — Cloudflare Web Analytics | allowed 2026-09-29 (PR #55): CSP `script-src` names `static.cloudflareinsights.com`, `/privatnost` has `Statistika poseta` — §14 |
 
 ## 10. Database and accounts (Phase 8)
 
@@ -259,3 +260,15 @@ Why 30 / 10 s: a page load makes at most three `/api/me*` calls and the sync eng
 ```
 for i in $(seq 40); do curl -s -o /dev/null -w "%{http_code}\n" https://istorija365.com/api/health; done | sort | uniq -c   # some 429
 ```
+
+## 14. Visit statistics — Cloudflare Web Analytics (2026-09-29)
+
+Owner decision: visits are counted, and `/privatnost` says so.
+
+- **Where it comes from.** Nothing in the repo. Cloudflare injects `<script src="https://static.cloudflareinsights.com/beacon.min.js/…" data-cf-beacon=…>` into the HTML at the edge, for browser requests only (a plain `curl` gets the page without it). It is the zone's Web Analytics with automatic setup.
+- **What the app does.** The Content-Security-Policy in `apps/web/next.config.mjs` allows that one script origin. Reports go to `POST /cdn-cgi/rum` on this origin, which Cloudflare answers at the edge — they never reach the box.
+- **What it records.** The page, the referrer, browser engine and version, OS version, load timings; Cloudflare adds the country. No cookie is set (measured).
+- **Where the numbers are.** Cloudflare dashboard → **Analytics & Logs → Web Analytics** → `istorija365.com`.
+- **Check.** `curl -sI https://istorija365.com/ | grep -i content-security` names `static.cloudflareinsights.com`; a browser console on any page shows no CSP error.
+- **Turning it off.** Dashboard → Web Analytics → the site → **Manage site** → disable the automatic setup; then remove the origin from the CSP and the `Statistika poseta` section from `apps/web/app/privatnost/_copy.ts` in one commit (`e2e/privacy.spec.ts` holds the two together).
+- **The rule.** The page and the policy change together: no second foreign script origin without a sentence on `/privatnost`.
