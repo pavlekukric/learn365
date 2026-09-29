@@ -38,50 +38,55 @@ export default function HomePage() {
   }
 
   return (
-    <div className={`shell ${styles.page}`}>
-      <section className={styles.hero}>
-        {/*
-         * Atmospheric hero backdrop. Pure-CSS parchment wash by default; the
-         * final image is dropped in by setting the `--hero-image` CSS variable
-         * in page.module.css — no JSX change required. See `.heroBackdrop`.
-         */}
-        <div className={styles.heroBackdrop} aria-hidden="true" />
+    // `.shell` (gutters) and `.page` (vertical room) on separate elements: on
+    // one element their paddings override each other and the stylesheet
+    // order decides which survives (Phase 16).
+    <div className="shell">
+      <div className={styles.page}>
+        <section className={styles.hero}>
+          {/*
+           * Atmospheric hero backdrop. Pure-CSS parchment wash by default; the
+           * final image is dropped in by setting the `--hero-image` CSS variable
+           * in page.module.css — no JSX change required. See `.heroBackdrop`.
+           */}
+          <div className={styles.heroBackdrop} aria-hidden="true" />
 
-        <div className={styles.heroInner}>
-          {/* No hero eyebrow: the TopBar already holds the History 365 brand,
-           * and the h1 below carries the course identity. The title is kept
-           * on one line from 1100px up (`.heroTitle`) so "365" never strands
-           * alone on a second line. The CTA sits directly under the lede —
-           * above the fold on a 900px-tall desktop — and the flourish closes
-           * the hero band after it. */}
-          <h1 className={`display ${styles.heroTitle}`}>{course.title}</h1>
-          <p className={`mono ${styles.dateLine}`}>{HERO_CONTRACT_LINE}</p>
-          <p className={`body ${styles.description}`}>{HERO_DESCRIPTION}</p>
+          <div className={styles.heroInner}>
+            {/* No hero eyebrow: the TopBar already holds the History 365 brand,
+             * and the h1 below carries the course identity. The title is kept
+             * on one line from 1100px up (`.heroTitle`) so "365" never strands
+             * alone on a second line. The CTA sits directly under the lede —
+             * above the fold on a 900px-tall desktop — and the flourish closes
+             * the hero band after it. */}
+            <h1 className={`display ${styles.heroTitle}`}>{course.title}</h1>
+            <p className={`mono ${styles.dateLine}`}>{HERO_CONTRACT_LINE}</p>
+            <p className={`body ${styles.description}`}>{HERO_DESCRIPTION}</p>
 
-          <HomeHeroCta courseId={course.id} />
+            <HomeHeroCta courseId={course.id} />
 
-          <Flourish />
-        </div>
-      </section>
+            <Flourish />
+          </div>
+        </section>
 
-      {/* First-visit only: the three-step contract + what "Dan" means.
-       * Disappears after the first completed lesson. */}
-      <HomeHowItWorks courseId={course.id} />
+        {/* First-visit only: the three-step contract + what "Dan" means.
+         * Disappears after the first completed lesson. */}
+        <HomeHowItWorks courseId={course.id} />
 
-      <section className={styles.current} aria-label="Preporučena lekcija">
-        <HomeDailyAnchor courseId={course.id} />
-        <HomeCurrentLessonCard courseId={course.id} />
-      </section>
+        <section className={styles.current} aria-label="Preporučena lekcija">
+          <HomeDailyAnchor courseId={course.id} />
+          <HomeCurrentLessonCard courseId={course.id} />
+        </section>
 
-      <section className={styles.eras} aria-label="Osam epoha">
-        <header className={styles.erasHeader}>
-          <Eyebrow>Osam epoha</Eyebrow>
-          <h2 className="h2">Putovanje kroz 365 dana</h2>
-        </header>
-        <div className={styles.timeline}>
-          <HomeEraTimeline courseId={course.id} />
-        </div>
-      </section>
+        <section className={styles.eras} aria-label="Osam epoha">
+          <header className={styles.erasHeader}>
+            <Eyebrow>Osam epoha</Eyebrow>
+            <h2 className="h2">Putovanje kroz 365 dana</h2>
+          </header>
+          <div className={styles.timeline}>
+            <HomeEraTimeline courseId={course.id} />
+          </div>
+        </section>
+      </div>
     </div>
   );
 }

@@ -44,35 +44,40 @@ export default async function CourseOverviewPage({ params }: PageProps) {
   if (!course) notFound();
 
   return (
-    <div className={`shell ${styles.page}`}>
-      {/* Restores the reader's scroll position on return within the session
-       * (renders nothing). Next's built-in restoration misses here because the
-       * era accordion settles after hydration. */}
-      <CourseScrollRestore courseId={course.id} />
-      {/*
+    // `.shell` (gutters) and `.page` (vertical room) on separate elements: on
+    // one element their paddings override each other and the stylesheet
+    // order decides which survives (Phase 16).
+    <div className="shell">
+      <div className={styles.page}>
+        {/* Restores the reader's scroll position on return within the session
+         * (renders nothing). Next's built-in restoration misses here because the
+         * era accordion settles after hydration. */}
+        <CourseScrollRestore courseId={course.id} />
+        {/*
         Course overview is a navigation tool, not a second landing page — the
         header stays compact (eyebrow + title + lede). The lede is sourced
         from `course.description` so the page stops reading empty without
         gaining a second hero; the state-aware start/continue action lives on
         the CourseProgress card below.
       */}
-      <header className={styles.header}>
-        <Eyebrow>Kurs</Eyebrow>
-        <h1 className="h1">{course.title}</h1>
-        <p className={`body ${styles.lede}`}>{course.description}</p>
-      </header>
-
-      <CourseOverviewProgress courseId={course.id} totalLessons={course.totalLessons} />
-
-      <CourseOverviewBookmarks courseId={course.id} />
-
-      <section className={styles.eras} aria-label="Epohe i odeljci">
-        <header className={styles.erasHeader}>
-          <Eyebrow>Sadržaj</Eyebrow>
-          <h2 className="h2">Osam epoha, kroz 365 dana</h2>
+        <header className={styles.header}>
+          <Eyebrow>Kurs</Eyebrow>
+          <h1 className="h1">{course.title}</h1>
+          <p className={`body ${styles.lede}`}>{course.description}</p>
         </header>
-        <CourseOverviewEras courseId={course.id} />
-      </section>
+
+        <CourseOverviewProgress courseId={course.id} totalLessons={course.totalLessons} />
+
+        <CourseOverviewBookmarks courseId={course.id} />
+
+        <section className={styles.eras} aria-label="Epohe i odeljci">
+          <header className={styles.erasHeader}>
+            <Eyebrow>Sadržaj</Eyebrow>
+            <h2 className="h2">Osam epoha, kroz 365 dana</h2>
+          </header>
+          <CourseOverviewEras courseId={course.id} />
+        </section>
+      </div>
     </div>
   );
 }
