@@ -19,20 +19,22 @@ export function CourseOverviewProgress({ courseId, totalLessons }: CourseOvervie
   const { completed, lesson, journeyDay } = useResumeLesson(courseId);
 
   return (
-    <CourseProgress
-      completed={completed}
-      total={totalLessons}
-      journeyDayLabel={journeyDay === null ? null : formatJourneyDay(journeyDay)}
-      lesson={
-        lesson
-          ? {
-              day: lesson.dayNumber,
-              title: lesson.title,
-              readingTimeMinutes: lesson.readingTimeMinutes,
-            }
-          : null
-      }
-      href={lesson ? `/course/${courseId}/lesson/${lesson.id}` : null}
-    />
+    <div data-newcomer-wrap data-newcomer={journeyDay === null ? 'inline' : undefined}>
+      <CourseProgress
+        completed={completed}
+        total={totalLessons}
+        journeyDayLabel={journeyDay === null ? null : formatJourneyDay(journeyDay)}
+        lesson={
+          lesson
+            ? {
+                day: lesson.dayNumber,
+                title: lesson.title,
+                readingTimeMinutes: lesson.readingTimeMinutes,
+              }
+            : null
+        }
+        href={lesson ? `/course/${courseId}/lesson/${lesson.id}` : null}
+      />
+    </div>
   );
 }

@@ -29,15 +29,17 @@ export function HomeCurrentLessonCard({ courseId }: HomeCurrentLessonCardProps) 
   const href = `/course/${courseId}/lesson/${lesson.id}`;
 
   return (
-    <CurrentLessonCard
-      lesson={{
-        day: lesson.dayNumber,
-        title: lesson.title,
-        readingTimeMinutes: lesson.readingTimeMinutes,
-        eraShort: era?.eraShort ?? '',
-      }}
-      state={state}
-      href={href}
-    />
+    <div data-newcomer-wrap data-newcomer={hasStarted ? undefined : 'inline'}>
+      <CurrentLessonCard
+        lesson={{
+          day: lesson.dayNumber,
+          title: lesson.title,
+          readingTimeMinutes: lesson.readingTimeMinutes,
+          eraShort: era?.eraShort ?? '',
+        }}
+        state={state}
+        href={href}
+      />
+    </div>
   );
 }

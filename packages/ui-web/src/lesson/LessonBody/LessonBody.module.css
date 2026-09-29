@@ -4,6 +4,12 @@
   gap: var(--space-6);
 }
 
+/* A heading belongs to what follows it: twice the paragraph gap above
+ * (48 px), the plain gap below (review 2026-09-30, item 15). */
+.body > h2 {
+  margin: var(--space-6) 0 0;
+}
+
 .dropcap::first-letter {
   font-family: var(--serif);
   font-weight: 400;

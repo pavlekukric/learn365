@@ -22,9 +22,18 @@
 }
 
 /* The card body is the disclosure: a full-width, transparent button. */
+/* The heading that wraps the toggle adds nothing to the look. */
+.heading {
+  margin: 0;
+  min-width: 0;
+  font: inherit;
+  letter-spacing: inherit;
+}
+
 .toggle {
   display: grid;
-  grid-template-columns: 64px 1fr;
+  /* Wide enough for "EPOHA VIII" on one line at the eyebrow tracking. */
+  grid-template-columns: 92px 1fr;
   align-items: start;
   gap: var(--space-6);
   width: 100%;
@@ -46,6 +55,7 @@
 .num {
   color: var(--muted);
   letter-spacing: 0.14em;
+  white-space: nowrap;
   padding-top: 6px;
 }
 

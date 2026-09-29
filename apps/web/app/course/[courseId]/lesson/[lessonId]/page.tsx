@@ -29,7 +29,6 @@ import { shareMetadata } from '@/lib/seo/metadata';
 
 import { LessonBookmarkToggle } from './LessonBookmarkToggle';
 import { LessonCompletion } from './LessonCompletion';
-import { LessonEraStrip } from './LessonEraStrip';
 
 interface PageProps {
   params: Promise<{ courseId: string; lessonId: string }>;
@@ -163,7 +162,6 @@ export default async function LessonPage({ params }: PageProps) {
           courseHref={courseHref}
         />
       }
-      timeline={<LessonEraStrip courseId={course.id} eraId={era.id} year={lesson.year} />}
     />
   );
 }

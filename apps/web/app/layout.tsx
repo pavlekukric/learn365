@@ -1,11 +1,18 @@
 import type { Metadata, Viewport } from 'next';
 import type { ReactNode } from 'react';
 
+// First, before any component import: the global type classes (.display,
+// .h3, .tiny, .mono …) must land in the cascade *before* the CSS modules, so
+// a module rule on the same element wins at equal specificity (review
+// 2026-09-30, item 8 — imported last, the globals silently beat them).
+import './globals.css';
+
 import { getAllCourseIds, getCourse } from '@learn365/content';
 import { Footer } from '@learn365/ui-web';
 
 import { TopBarHost } from '@/components/top-bar/TopBarHost';
 import { fontVariableClassName } from '@/lib/fonts/fonts';
+import { PRE_PAINT_SCRIPT } from '@/lib/progress/prePaint';
 import {
   SITE_DESCRIPTION,
   SITE_NAME,
@@ -15,8 +22,6 @@ import {
 } from '@/lib/seo/metadata';
 
 import { AppProviders } from './providers';
-
-import './globals.css';
 
 const DEFAULT_COURSE_ID = 'istorija-srbije-365';
 
@@ -46,8 +51,12 @@ export default function RootLayout({ children }: { children: ReactNode }) {
     throw new Error(`Default course "${DEFAULT_COURSE_ID}" is missing from the content registry.`);
   }
   return (
-    <html lang="sr-Latn" data-direction="A" className={fontVariableClassName}>
+    // `data-progress` is set by the pre-paint script before hydration.
+    <html lang="sr-Latn" data-direction="A" className={fontVariableClassName} suppressHydrationWarning>
       <body>
+        {/* Before anything paints: mark a returning reader so the prerendered
+         * newcomer blocks stay hidden (lib/progress/prePaint.ts). */}
+        <script dangerouslySetInnerHTML={{ __html: PRE_PAINT_SCRIPT }} />
         <a href="#main-content" className="skip-link">
           Preskoči na sadržaj
         </a>

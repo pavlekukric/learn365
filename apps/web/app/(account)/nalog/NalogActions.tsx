@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 
 import { Button } from '@learn365/ui-web';
 
@@ -19,6 +19,16 @@ export function NalogActions() {
   const [confirming, setConfirming] = useState(false);
   const [busy, setBusy] = useState<Busy>(null);
   const [error, setError] = useState<string | null>(null);
+  // `Obriši nalog` disappears when pressed and reappears on `Odustani`: move
+  // focus with it, or it falls to <body> (review 2026-09-30, item 9).
+  const confirmRef = useRef<HTMLDivElement | null>(null);
+  const actionsRef = useRef<HTMLDivElement | null>(null);
+  const wasConfirming = useRef(false);
+  useEffect(() => {
+    if (confirming) confirmRef.current?.focus();
+    else if (wasConfirming.current) actionsRef.current?.querySelector<HTMLElement>('button:last-of-type')?.focus();
+    wasConfirming.current = confirming;
+  }, [confirming]);
 
   const handleSignOut = async () => {
     setBusy('signout');
@@ -48,7 +58,7 @@ export function NalogActions() {
         </p>
       ) : null}
 
-      <div className={styles.actions}>
+      <div ref={actionsRef} className={styles.actions}>
         <Button variant="outline" onClick={() => void handleSignOut()} disabled={busy !== null}>
           {busy === 'signout' ? 'Odjava…' : 'Odjava'}
         </Button>
@@ -66,7 +76,13 @@ export function NalogActions() {
       </div>
 
       {confirming ? (
-        <div className={styles.confirm} role="group" aria-labelledby="brisanje-naslov">
+        <div
+          ref={confirmRef}
+          tabIndex={-1}
+          className={styles.confirm}
+          role="group"
+          aria-labelledby="brisanje-naslov"
+        >
           <p id="brisanje-naslov" className={styles.confirmText}>
             Ovo briše nalog, napredak i sačuvane lekcije, odmah i trajno. Sigurno?
           </p>

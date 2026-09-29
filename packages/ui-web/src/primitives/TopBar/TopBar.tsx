@@ -95,7 +95,8 @@ export function TopBar({
             href={courseHref}
             data-link="course"
             className={courseActive ? styles.active : undefined}
-            aria-current={courseActive ? 'page' : undefined}
+            // The overview *is* this page; a lesson is inside it — `true`.
+            aria-current={route === 'course' ? 'page' : route === 'lesson' ? 'true' : undefined}
           >
             Kurs
           </Link>

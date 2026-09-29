@@ -28,7 +28,7 @@ test.describe('Istorija 365 — reader chrome', () => {
       expect(metrics.firstParagraphTop).not.toBeNull();
       expect(metrics.firstParagraphTop as number).toBeLessThan(metrics.viewportH * 0.75);
       // No breadcrumb trail and no tick row on phones; the era rides in the eyebrow.
-      await expect(page.getByRole('navigation', { name: 'Breadcrumbs' })).toBeHidden();
+      await expect(page.getByRole('navigation', { name: 'Putanja' })).toBeHidden();
       // The minutes are derived from the text (Phase 11), so only the shape is asserted.
       await expect(page.locator('article').getByText(/Praistorija i antika · \d+ min/)).toBeVisible();
       // Sticky chrome (TopBar + context header) stays under a third of the screen.
@@ -47,19 +47,12 @@ test.describe('Istorija 365 — reader chrome', () => {
       });
       expect(chromeHeight).toBeLessThan(metrics.viewportH / 3);
     } else {
-      // Desktop: the title sits high — the era strip no longer precedes it.
+      // Desktop: the title sits high, under the breadcrumb trail.
       expect(metrics.h1Top as number).toBeLessThan(320);
-      await expect(page.getByRole('navigation', { name: 'Breadcrumbs' })).toBeVisible();
-      const strip = page.getByRole('navigation', { name: 'Vremenska osa epoha' });
-      await expect(strip).toBeVisible();
-      const stripAboveTitle = await page.evaluate(() => {
-        const strip = document.querySelector('nav[aria-label="Vremenska osa epoha"]');
-        const h1 = document.querySelector('h1');
-        return (
-          !!strip && !!h1 && strip.getBoundingClientRect().top < h1.getBoundingClientRect().top
-        );
-      });
-      expect(stripAboveTitle).toBe(false);
+      await expect(page.getByRole('navigation', { name: 'Putanja' })).toBeVisible();
+      // No era strip under the article any more (Phase 13 D5, 2026-09-30):
+      // the outline beside it names the eras.
+      await expect(page.getByRole('navigation', { name: 'Vremenska osa epoha' })).toHaveCount(0);
     }
   });
 

@@ -71,3 +71,34 @@ main:focus {
     padding-right: max(20px, env(safe-area-inset-right));
   }
 }
+
+/* Text for assistive technology only (e.g. ", pročitano" on an outline row). */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+/*
+ * Returning readers on prerendered pages (lib/progress/prePaint.ts): until
+ * the components render from the store, what is meant for a first visit
+ * stays hidden — `block` out of the flow, `inline` invisible in its box.
+ */
+[data-newcomer-wrap] {
+  display: contents;
+}
+
+html[data-progress='started'] [data-newcomer='block'] {
+  display: none;
+}
+
+html[data-progress='started'] [data-newcomer='inline'] {
+  visibility: hidden;
+}

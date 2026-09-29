@@ -9,7 +9,10 @@
 
 .eyebrow {
   color: var(--muted);
-  letter-spacing: 0.14em;
+  /* Mixed-case meta line (era · minutes · date): light tracking, so it stays
+   * on one line on a phone. 0.14em was never applied until the global type
+   * classes moved first in the cascade (2026-09-30). */
+  letter-spacing: 0.04em;
 }
 
 /* Era prefix in the eyebrow — single-column layouts only (no sidebar /

@@ -23,15 +23,13 @@ interface LessonReaderProps {
   bookmark?: ReactNode;
   /** What follows the article: `LessonFooter` (completion, prev / next). */
   footer: ReactNode;
-  /** Era strip (`HistoricalTimeline`) — shown after the footer, two-column layouts only. */
-  timeline?: ReactNode;
 }
 
 /**
- * The reader's frame: trail, header, article, footer, era strip. It has no
+ * The reader's frame: trail, header, article, footer. It has no
  * state and no handlers, so the lesson page renders it — and the whole
  * article with it — on the server; the three parts that depend on the reader
- * (bookmark, footer, era strip) arrive as nodes, each a client island of the
+ * (bookmark, footer) arrive as nodes, each a client island of the
  * caller's.
  */
 export function LessonReader({
@@ -41,7 +39,6 @@ export function LessonReader({
   article,
   bookmark,
   footer,
-  timeline,
 }: LessonReaderProps) {
   const isUpcoming = lesson.isPlaceholder === true;
 
@@ -70,14 +67,10 @@ export function LessonReader({
         article
       )}
       {footer}
-      {/* Era timeline — desktop / two-column only, *after* the article so the
-       * title is the first thing under the breadcrumb. On single-column
-       * layouts it is hidden and reached through the "Sadržaj" drawer.
-       * `display:none` also drops it from the a11y tree, so there is no
-       * duplicate `nav` landmark. */}
-      {timeline !== undefined && timeline !== null ? (
-        <div className={styles.timelineInline}>{timeline}</div>
-      ) : null}
+      {/* No era strip under the footer any more (Phase 13 D5, decided
+       * 2026-09-30): on desktop the outline beside the article already names
+       * every era, and the strip could only show numerals. The compact rail
+       * stays at the top of the mobile drawer. */}
     </article>
   );
 }

@@ -142,14 +142,6 @@ a.band:focus-visible {
   display: none;
 }
 
-/* The lesson page's strip (`full` variant) sits in a ~700 px column where no
- * label fits: numerals only, with the name and the years in the tooltip
- * (Phase 13). Home keeps labels and years; the compact variant its rows. */
-.timeline:not(.home):not(.compact) .titleShort,
-.timeline:not(.home):not(.compact) .yearShort {
-  display: none;
-}
-
 .yearShort {
   color: var(--muted);
   font-variant-numeric: tabular-nums;

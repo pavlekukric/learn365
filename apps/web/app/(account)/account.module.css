@@ -46,7 +46,9 @@
 
 .error {
   margin: 0;
-  color: var(--accent-ink);
+  /* An error must not read as ordinary copy: a warm, muted red that holds
+   * AA on --bg (review 2026-09-30). */
+  color: oklch(0.47 0.13 32);
 }
 
 .actions {

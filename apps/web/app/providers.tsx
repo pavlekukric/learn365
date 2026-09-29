@@ -1,9 +1,10 @@
 'use client';
 
-import type { ReactNode } from 'react';
+import { useEffect, type ReactNode } from 'react';
 
 import { AuthProvider } from '@/lib/auth/AuthProvider';
 import { BookmarkStoreProvider } from '@/lib/bookmarks/BookmarkStoreProvider';
+import { clearPrePaintMark } from '@/lib/progress/prePaint';
 import { ProgressStoreProvider } from '@/lib/progress/ProgressStoreProvider';
 import { CloudSync } from '@/lib/sync/CloudSync';
 
@@ -20,6 +21,8 @@ export function AppProviders({
   courseIds: readonly string[];
   children: ReactNode;
 }) {
+  // The components render from the store now; the pre-paint mark is done.
+  useEffect(() => clearPrePaintMark(), []);
   return (
     <ProgressStoreProvider>
       <BookmarkStoreProvider>

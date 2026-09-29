@@ -126,16 +126,13 @@ test.describe('Istorija 365 — smoke', () => {
         .filter({ visible: true })
         .first(),
     ).toBeVisible();
-    // Navigation surfaces differ by layout. Desktop (two-column): the inline
-    // reader timeline is visible above the article. Single-column (≤1024px):
-    // the inline timeline is hidden (`display:none`, so it's out of the a11y
-    // tree too); the "Sadržaj" button reveals the course outline drawer.
+    // Navigation surfaces differ by layout. Desktop (two-column): the course
+    // outline sits beside the article (no era strip since 2026-09-30).
+    // Single-column (≤1024px): the "Sadržaj" button reveals the drawer.
     const contentsButton = page.getByRole('button', {
       name: /Otvori sadržaj/,
     });
-    const timeline = page.getByRole('navigation', {
-      name: 'Vremenska osa epoha',
-    });
+    const outline = page.getByRole('navigation', { name: 'Sadržaj kursa' });
     if (await contentsButton.isVisible()) {
       await contentsButton.click();
       const drawer = page.getByRole('dialog', { name: 'Sadržaj kursa' });
@@ -143,7 +140,7 @@ test.describe('Istorija 365 — smoke', () => {
       await page.getByRole('button', { name: 'Zatvori' }).click();
       await expect(drawer).toBeHidden();
     } else {
-      await expect(timeline).toBeVisible();
+      await expect(outline).toBeVisible();
     }
 
     const markBtn = page.getByRole('button', { name: /^Označi kao pročitano$/ });
@@ -295,7 +292,8 @@ test.describe('Istorija 365 — smoke', () => {
   test('prefers-reduced-motion collapses timeline marker animation', async ({ browser }) => {
     const context = await browser.newContext({ reducedMotion: 'reduce' });
     const page = await context.newPage();
-    await page.goto(`/course/${COURSE_ID}/lesson/${DAY_1_LESSON_ID}`);
+    // Home carries the rail (the lesson page's strip is gone, 2026-09-30).
+    await page.goto('/');
 
     // The timeline marker is the horizontal-rail element — present on every
     // viewport, but display:none on the ≤720px vertical layout (the current

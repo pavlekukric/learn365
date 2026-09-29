@@ -30,7 +30,7 @@ export function HomeDailyAnchor({ courseId }: HomeDailyAnchorProps) {
 
   if (journeyDay === null) {
     return (
-      <section className={styles.dailyAnchor} aria-label="Danas">
+      <section className={styles.dailyAnchor} aria-label="Danas" data-newcomer="inline">
         <p className={`body ${styles.dailyAnchorLine}`}>
           Pred tobom je {total} dana kroz srpsku istoriju.
         </p>
