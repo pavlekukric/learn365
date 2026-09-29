@@ -14,11 +14,18 @@ const repoRoot = resolve(dirname(fileURLToPath(import.meta.url)), '..', '..');
  * image is the Google profile picture. `next dev` needs eval for HMR.
  * Playwright runs against `next start`, so a CSP that broke hydration would
  * fail CI.
+ *
+ * One foreign script origin is allowed: Cloudflare Web Analytics (owner
+ * decision 2026-09-29). Cloudflare injects the beacon into the HTML at the
+ * edge; it sets no cookie and reports to this origin (`/cdn-cgi/rum`), so
+ * `connect-src` stays 'self'. `/privatnost` says what it records — the two
+ * change together (`e2e/privacy.spec.ts`).
  */
 const isProductionBuild = process.env.NODE_ENV === 'production';
+const VISIT_STATISTICS_SCRIPT_ORIGIN = 'https://static.cloudflareinsights.com';
 const contentSecurityPolicy = [
   "default-src 'self'",
-  `script-src 'self' 'unsafe-inline'${isProductionBuild ? '' : " 'unsafe-eval'"}`,
+  `script-src 'self' 'unsafe-inline' ${VISIT_STATISTICS_SCRIPT_ORIGIN}${isProductionBuild ? '' : " 'unsafe-eval'"}`,
   "style-src 'self' 'unsafe-inline'",
   "img-src 'self' data: https://*.googleusercontent.com",
   "font-src 'self'",

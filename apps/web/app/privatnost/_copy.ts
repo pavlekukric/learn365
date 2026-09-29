@@ -2,14 +2,15 @@
  * Privacy page copy. Plain Serbian, no legal register: what is kept, why,
  * where, for how long, and how to delete it. Linked from the footer, the
  * sign-in page and the Google consent screen. Keep it true — every claim
- * here matches the schema in `lib/server/db/schema.ts` and the cookies set
- * by `lib/server/auth/*`.
+ * here matches the schema in `lib/server/db/schema.ts`, the cookies set
+ * by `lib/server/auth/*` and the one foreign script the CSP in
+ * `next.config.mjs` allows (Cloudflare Web Analytics).
  */
 export const PRIVACY_EYEBROW = 'Privatnost';
 export const PRIVACY_TITLE = 'Šta čuvamo, i zašto';
 export const PRIVACY_LEDE =
   'History 365 radi i bez naloga. Nalog postoji samo da bi se napredak preneo na druge uređaje. Ovde je, bez sitnih slova, sve što se tada čuva.';
-export const PRIVACY_UPDATED = 'Poslednja izmena: 28. septembar 2026.';
+export const PRIVACY_UPDATED = 'Poslednja izmena: 29. septembar 2026.';
 
 export interface PrivacySection {
   readonly id: string;
@@ -29,7 +30,15 @@ export const PRIVACY_SECTIONS: readonly PrivacySection[] = [
     id: 'bez-naloga',
     heading: 'Bez naloga',
     paragraphs: [
-      'Dok čitaš bez prijave, ništa ne napušta tvoj pregledač. Pročitane i sačuvane lekcije pamte se u njegovoj lokalnoj memoriji i nestaju kad obrišeš podatke sajta. Nemamo analitiku, kolačiće za praćenje ni reklame.',
+      'Dok čitaš bez prijave, pročitane i sačuvane lekcije pamte se samo u lokalnoj memoriji tvog pregledača i nestaju kad obrišeš podatke sajta. Nema reklama ni kolačića za praćenje.',
+    ],
+  },
+  {
+    id: 'statistika',
+    heading: 'Statistika poseta',
+    paragraphs: [
+      'Brojimo posete da bismo znali koliko se sajt čita i koliko se brzo učitava. Za to koristimo Cloudflare Web Analytics, koji radi bez kolačića i ne prati te po drugim sajtovima.',
+      'Beleži se koja je strana otvorena i sa koje se došlo, vrsta pregledača i sistema, država i vreme učitavanja. Ti podaci se ne povezuju sa tvojim nalogom ni sa napretkom, i ne koristimo ih za reklame.',
     ],
   },
   {
@@ -44,14 +53,14 @@ export const PRIVACY_SECTIONS: readonly PrivacySection[] = [
     id: 'kolacici',
     heading: 'Kolačići',
     paragraphs: [
-      'Jedan kolačić, l365_session, drži te prijavljenim trideset dana i produžava se dok koristiš aplikaciju. Tokom same prijave postoji i privremeni kolačić od deset minuta koji štiti od lažiranja zahteva. Nema kolačića trećih strana.',
+      'Jedan kolačić, __Host-l365_session, drži te prijavljenim trideset dana i produžava se dok koristiš aplikaciju. Tokom same prijave postoji i privremeni kolačić od deset minuta koji štiti od lažiranja zahteva. Nema kolačića trećih strana.',
     ],
   },
   {
     id: 'gde',
     heading: 'Gde i koliko dugo',
     paragraphs: [
-      'Podaci su na serveru u Helsinkiju, u Evropskoj uniji (Hetzner). Saobraćaj do servera ide preko Cloudflare-a, a prijava preko Google-a. Čuvaju se dok postoji nalog. Rezervne kopije prave se noću i čuvaju četrnaest dana.',
+      'Podaci su na serveru u Helsinkiju, u Evropskoj uniji (Hetzner). Saobraćaj do servera ide preko Cloudflare-a, a prijava preko Google-a. Čuvaju se dok postoji nalog. Statistiku poseta obrađuje i čuva Cloudflare. Rezervne kopije prave se noću i čuvaju četrnaest dana.',
     ],
   },
   {
