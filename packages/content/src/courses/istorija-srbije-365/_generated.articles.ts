@@ -2309,7 +2309,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "I tu stižemo do najvažnije ograde. Skoro sve što se ovde kaže o pretkršćanskim Slovenima dolazi iz tri vrste izvora: vizantijskih i rimskih pisaca koji ih posmatraju spolja i često s nepoverenjem, arheoloških nalaza koji govore o naseljima i predmetima ali ne o mislima, i naknadne jezičke rekonstrukcije koja izvlači zaključke iz današnjih reči. Vlastiti glas Slovena javlja se mnogo kasnije, tek u devetom veku, kada misija Ćirila i Metodija stvara slovensko pismo i prvi tekstovi budu zapisani na jeziku koji oni razumeju. Sve pre toga čujemo iz druge ruke. Sa tim oprezom vredi pamtiti i sledeću sliku: kada je u šestom veku rimska granica na Dunavu počela da se pomera i kruni, sa one strane stajao je narod koji je već imao svoj jezik, svoj način života i svoje bogove — i koji će uskoro krenuti na jug. O tom prelasku govori sledeća lekcija."
+        "text": "I tu stižemo do najvažnije ograde. Skoro sve što se ovde kaže o prethrišćanskim Slovenima dolazi iz tri vrste izvora: vizantijskih i rimskih pisaca koji ih posmatraju spolja i često s nepoverenjem, arheoloških nalaza koji govore o naseljima i predmetima ali ne o mislima, i naknadne jezičke rekonstrukcije koja izvlači zaključke iz današnjih reči. Vlastiti glas Slovena javlja se mnogo kasnije, tek u devetom veku, kada misija Ćirila i Metodija stvara slovensko pismo i prvi tekstovi budu zapisani na jeziku koji oni razumeju. Sve pre toga čujemo iz druge ruke. Sa tim oprezom vredi pamtiti i sledeću sliku: kada je u šestom veku rimska granica na Dunavu počela da se pomera i kruni, sa one strane stajao je narod koji je već imao svoj jezik, svoj način života i svoje bogove — i koji će uskoro krenuti na jug. O tom prelasku govori sledeća lekcija."
       }
     ],
     "subtitle": "Ko su bili Sloveni pre nego što su prešli Dunav — narod bez države, ali ne i bez sveta",
@@ -4410,7 +4410,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Prvi deo zakonika donet je na velikom državnom saboru u Skoplju, na Uskrs, 21. maja 1349. godine. Skoplje je tada bilo prestonica carstva, mesto na kojem je tri godine ranije Dušan krunisan, i upravo je tu, pred okupljenom vlastelom i crkvenim velikodostojnicima na čelu sa patrijarhom Joanikijem II, prihvaćeno prvih 135 članova. Pet godina kasnije, u avgustu 1354, na novom saboru u gradu Seru — vizantijskom Sereu pod srpskom vlašću — pridodato je još 66 članova. U zbiru, prema uobičajenom modernom brojanju, zakonik ima 201 član, podeljen u dve celine koje su nastale s razmakom od pola decenije, ali su čitane i primenjivane kao jedinstveno delo."
+        "text": "Prvi deo zakonika donet je na velikom državnom saboru u Skoplju, na Spasovdan, 21. maja 1349. godine. Skoplje je tada bilo prestonica carstva, mesto na kojem je tri godine ranije Dušan krunisan, i upravo je tu, pred okupljenom vlastelom i crkvenim velikodostojnicima na čelu sa patrijarhom Joanikijem II, prihvaćeno prvih 135 članova. Pet godina kasnije, u avgustu 1354, na novom saboru u gradu Seru — vizantijskom Sereu pod srpskom vlašću — pridodato je još 66 članova. U zbiru, prema uobičajenom modernom brojanju, zakonik ima 201 član, podeljen u dve celine koje su nastale s razmakom od pola decenije, ali su čitane i primenjivane kao jedinstveno delo."
       },
       {
         "type": "paragraph",
@@ -7549,7 +7549,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Sa druge strane zidina, car Konstantin XI je sa nekoliko hiljada vizantijskih vojnika i venecijanskih i đenovljanskih dobrovoljaca branio nešto što se još uvek smatralo najjačim utvrđenjem srednjovekovnog sveta — trostruke Teodosijeve zidine, sagrađene tisuću godina ranije. Decenijama, vekovima čak, te su zidine odbijale sve napadače. Sada, pod udarcima kamenih topovskih kugli koje su sat za satom udarale uvek u iste tačke, počele su da pucaju. Opsada je trajala gotovo dva meseca, od početka aprila do kraja maja, sa pomorskim okršajima na Zlatnom rogu, sa odbranama proboja, sa sve manje hrane i sve manje nade da će sa Zapada stići pomoć koja je obećana, ali nije polazila."
+        "text": "Sa druge strane zidina, car Konstantin XI je sa nekoliko hiljada vizantijskih vojnika i venecijanskih i đenovljanskih dobrovoljaca branio nešto što se još uvek smatralo najjačim utvrđenjem srednjovekovnog sveta — trostruke Teodosijeve zidine, sagrađene hiljadu godina ranije. Decenijama, vekovima čak, te su zidine odbijale sve napadače. Sada, pod udarcima kamenih topovskih kugli koje su sat za satom udarale uvek u iste tačke, počele su da pucaju. Opsada je trajala gotovo dva meseca, od početka aprila do kraja maja, sa pomorskim okršajima na Zlatnom rogu, sa odbranama proboja, sa sve manje hrane i sve manje nade da će sa Zapada stići pomoć koja je obećana, ali nije polazila."
       },
       {
         "type": "paragraph",
@@ -9100,7 +9100,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Već od 1686. carska vojska je oslobađala mađarska polja, a 1688. Habzburzi su zauzeli Beograd. Naredne godine, pod komandom Ludviga Badenskog, prodrli su duboko na jug — kroz Moravu, do Niša, pa dalje preko Kosova sve do Skoplja, gde su početkom 1690. spalili grad. U tom kratkom prozoru učinilo se da Osmanlije neće moći da zadrže Balkan. Hrišćansko stanovništvo doživljavalo je carsku vojsku kao oslobodilačku; po selima i varošima podizali su se odredi koji su pomagali Austrijancima, vodili ih kroz kraj, sekli osmanske posade. Sliveni u jednu rečenicu, ti meseci su izgledali kao istorijski preokret. U stvarnosti, bili su to poslednji dani jedne iluzije."
+        "text": "Već od 1686. carska vojska je oslobađala mađarska polja, a 1688. Habzburzi su zauzeli Beograd. Naredne godine carska vojska prodrla je duboko na jug: Ludvig Badenski potukao je Osmanlije kod Batočine i Niša, a odred generala Pikolominija prošao je preko Kosova sve do Skoplja, koje je krajem oktobra 1689. spaljeno. U tom kratkom prozoru učinilo se da Osmanlije neće moći da zadrže Balkan. Hrišćansko stanovništvo doživljavalo je carsku vojsku kao oslobodilačku; po selima i varošima podizali su se odredi koji su pomagali Austrijancima, vodili ih kroz kraj, sekli osmanske posade. Sliveni u jednu rečenicu, ti meseci su izgledali kao istorijski preokret. U stvarnosti, bili su to poslednji dani jedne iluzije."
       },
       {
         "type": "paragraph",
@@ -9136,7 +9136,8 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       "Arsenije III Čarnojević",
       "Leopold I",
       "Jovan Monasterlija",
-      "Ludvig Badenski"
+      "Ludvig Badenski",
+      "Eneja Silvio Pikolomini"
     ],
     "keyPlaces": [
       "Beograd",
@@ -9984,7 +9985,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "content": [
       {
         "type": "paragraph",
-        "text": "Sredinom 18. veka, u varošima Habzburške monarhije, srpsko se ime sve češće sreće na kapijama velikih kuća, u esnafskim spiskovima, na pretplatama za knjige i u testamentima sa darovima za škole i crkve. Bio je to nov prizor — i u istoriji Srba zaista nov. Pre Velike seobe 1690. godine srpskog pravoslavnog građanstva, u modernom smislu reči, gotovo i nije bilo nigde. Srednjovekovne srpske varoši bile su male, a srpski trgovac retka pojava. U osmanskim gradovima krupni novac držali su muslimanski i jevrejski trgovci, dok su pravoslavni hrišćani u glavnom ostajali zanatlije, sitni dućandžije i seljaci. Tek na severu, pod habzburškim žezlom, javlja se ono što istoričari nazivaju srpskim građanstvom — pravoslavnim, slovenskim po jeziku, ali gradskim po načinu života.",
+        "text": "Sredinom 18. veka, u varošima Habzburške monarhije, srpsko se ime sve češće sreće na kapijama velikih kuća, u esnafskim spiskovima, na pretplatama za knjige i u testamentima sa darovima za škole i crkve. Bio je to nov prizor — i u istoriji Srba zaista nov. Pre Velike seobe 1690. godine srpskog pravoslavnog građanstva, u modernom smislu reči, gotovo i nije bilo nigde. Srednjovekovne srpske varoši bile su male, a srpski trgovac retka pojava. U osmanskim gradovima krupni novac držali su muslimanski i jevrejski trgovci, dok su pravoslavni hrišćani uglavnom ostajali zanatlije, sitni dućandžije i seljaci. Tek na severu, pod habzburškim žezlom, javlja se ono što istoričari nazivaju srpskim građanstvom — pravoslavnim, slovenskim po jeziku, ali gradskim po načinu života.",
         "dropcap": true
       },
       {
@@ -15983,7 +15984,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Središnji ugovor bio je srpsko-bugarski, potpisan 29. februara, odnosno po novom kalendaru 13. marta 1912. godine. Sa srpske strane potpisao ga je Nikola Pašić, predsednik vlade i ministar inostranih dela, sa znanjem i podrškom kralja Petra I; sa bugarske Ivan Evstratijev Geševov. Javni deo ugovora bio je obrambeni: dve države garantovale su jedna drugoj nezavisnost i celovitost i obavezivale se da će u slučaju napada velike sile na bilo koju od njih priteći u pomoć. Tajni dodatak išao je mnogo dalje. Predviđao je zajedničko ratovanje protiv Osmanskog carstva ako se na evropskim teritorijama Carstva dogodi „nered” koji bi ugrozio njihove nacionalne interese — formulacija koja je obema vladama davala lak izgovor za ofanzivu kad to procene pogodnim."
+        "text": "Središnji ugovor bio je srpsko-bugarski, potpisan 29. februara, odnosno po novom kalendaru 13. marta 1912. godine. Sa srpske strane potpisao ga je Nikola Pašić, predsednik vlade i ministar inostranih dela, sa znanjem i podrškom kralja Petra I; sa bugarske Ivan Evstratijev Gešov. Javni deo ugovora bio je odbrambeni: dve države garantovale su jedna drugoj nezavisnost i celovitost i obavezivale se da će u slučaju napada velike sile na bilo koju od njih priteći u pomoć. Tajni dodatak išao je mnogo dalje. Predviđao je zajedničko ratovanje protiv Osmanskog carstva ako se na evropskim teritorijama Carstva dogodi „nered” koji bi ugrozio njihove nacionalne interese — formulacija koja je obema vladama davala lak izgovor za ofanzivu kad to procene pogodnim."
       },
       {
         "type": "paragraph",
@@ -16022,7 +16023,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "keyPeople": [
       "Nikola Pašić",
       "kralj Petar I Karađorđević",
-      "Ivan Evstratijev Geševov",
+      "Ivan Evstratijev Gešov",
       "Eleftherios Venizelos",
       "knez Nikola Petrović",
       "ruski car Nikolaj II"
@@ -16424,7 +16425,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Zato treba jasno reći i šta atentat nije bio. Nije bio plan srpske države da pokrene svetski rat. Srbija 1914. nije bila zemlja spremna za novi rat — bila je iscrpljena posle dva balkanska rata, zadužena, sa neukrojenim novim oblastima na jugu i sa vojskom koja se još nije oporavila. Ipak, atentat je Austrougarskoj dao povod koji je u Beču dugo čekan: izgovor da se sa južnoslovenskim pitanjem obračuna jednim brzim ratom protiv Srbije. Mesec dana kasnije stići će ultimatum koji je trebalo da bude neprihvatljiv, a još koji dan posle toga — objava rata. Gavrilo Princip nije zamišljao Veliki rat. Bio je mladi ideolog koji je verovao da jedan pucanj može srušiti carstvo. Carstvo je pao, ali tek pošto je za sobom povukao četiri godine svetske krvi i milione mrtvih — lavinu koju, tog vedrog nedeljnog jutra, niko u Sarajevu nije mogao predvideti."
+        "text": "Zato treba jasno reći i šta atentat nije bio. Nije bio plan srpske države da pokrene svetski rat. Srbija 1914. nije bila zemlja spremna za novi rat — bila je iscrpljena posle dva balkanska rata, zadužena, sa neukrojenim novim oblastima na jugu i sa vojskom koja se još nije oporavila. Ipak, atentat je Austrougarskoj dao povod koji je u Beču dugo čekan: izgovor da se sa južnoslovenskim pitanjem obračuna jednim brzim ratom protiv Srbije. Mesec dana kasnije stići će ultimatum koji je trebalo da bude neprihvatljiv, a još koji dan posle toga — objava rata. Gavrilo Princip nije zamišljao Veliki rat. Bio je mladi ideolog koji je verovao da jedan pucanj može srušiti carstvo. Carstvo je palo, ali tek pošto je za sobom povuklo četiri godine svetske krvi i milione mrtvih — lavinu koju, tog vedrog nedeljnog jutra, niko u Sarajevu nije mogao predvideti."
       }
     ],
     "subtitle": "Vidovdan 1914. u Sarajevu — pucnji Gavrila Principa koji su pokrenuli lavinu na koju niko nije bio spreman",
@@ -16560,7 +16561,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "content": [
       {
         "type": "paragraph",
-        "text": "Dvadeset osmog jula 1914. godine, u podne, u srpsko ministarstvo inostranih dela u Nišu — kuda se vlada povukla čim je rat postao izvestan — stigao je telegram na francuskom jeziku. Bila je to objava rata, poslata iz Beča preko obične telegrafske linije, bez svečanog tona i bez izaslanika. Tekst je bio kratak i hladan: carsko‑kraljevska vlada smatra se u ratnom stanju sa Kraljevinom Srbijom. Ovakav način — telegramska objava rata jednoj suverenoj državi — bio je novost u evropskoj diplomatskoj praksi, i mnogi će ga kasnije pamtiti kao prvi znak da staro 19. stoljeće prestaje da važi.",
+        "text": "Dvadeset osmog jula 1914. godine, u podne, u srpsko ministarstvo inostranih dela u Nišu — kuda se vlada povukla čim je rat postao izvestan — stigao je telegram na francuskom jeziku. Bila je to objava rata, poslata iz Beča preko obične telegrafske linije, bez svečanog tona i bez izaslanika. Tekst je bio kratak i hladan: carsko‑kraljevska vlada smatra se u ratnom stanju sa Kraljevinom Srbijom. Ovakav način — telegramska objava rata jednoj suverenoj državi — bio je novost u evropskoj diplomatskoj praksi, i mnogi će ga kasnije pamtiti kao prvi znak da stari 19. vek prestaje da važi.",
         "dropcap": true
       },
       {
@@ -16618,7 +16619,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Plan austrougarskog napada vodio je general Oskar Pocjorek, vojni guverner Bosne, čovek koji je samo nekoliko nedelja ranije u Sarajevu bio u istom automobilu sa nadvojvodom Francom Ferdinandom. Pocjorek je sa svojom Drugom i Petom armijom imao zadatak da iz Bosne i Srema prodre u zapadnu Srbiju, brzo razbije srpsku odbranu i, u idealnom slučaju, za nekoliko nedelja okonča rat protiv male, ali vojnički iskusne države. Glavni udar krenuo je preko Drine kod Loznice i Lešnice, sa pratećim prelazima sa severa, preko Save kod Šapca. Cilj je bio jasan: zauzeti Mačvu i Pocerinu i izbiti u dolinu Kolubare."
+        "text": "Plan austrougarskog napada vodio je general Oskar Poćorek, vojni guverner Bosne, čovek koji je samo nekoliko nedelja ranije u Sarajevu bio u istom automobilu sa nadvojvodom Francom Ferdinandom. Poćorek je sa svojom Drugom i Petom armijom imao zadatak da iz Bosne i Srema prodre u zapadnu Srbiju, brzo razbije srpsku odbranu i, u idealnom slučaju, za nekoliko nedelja okonča rat protiv male, ali vojnički iskusne države. Glavni udar krenuo je preko Drine kod Loznice i Lešnice, sa pratećim prelazima sa severa, preko Save kod Šapca. Cilj je bio jasan: zauzeti Mačvu i Pocerinu i izbiti u dolinu Kolubare."
       },
       {
         "type": "paragraph",
@@ -16635,7 +16636,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Borbe se nisu završile te noći. U narednim danima, od 17. do 19. avgusta, srpske divizije proširile su uspeh duž celog cerskog grebena i ka Mačvi. Austrougarske trupe, iznenađene žestinom otpora i bez čvrste komande u uslovima opšte konfuzije, počele su da uzmiču. Do 19. avgusta veći deo Pocjorekovih snaga povukao se preko Drine i Save, ostavivši za sobom artiljeriju, transport i hiljade zarobljenih. Šabac, koji su Austro-Ugari kratko držali, ponovo je bio u srpskim rukama. Prva ofanziva protiv Srbije propala je za manje od dve nedelje."
+        "text": "Borbe se nisu završile te noći. U narednim danima, od 17. do 19. avgusta, srpske divizije proširile su uspeh duž celog cerskog grebena i ka Mačvi. Austrougarske trupe, iznenađene žestinom otpora i bez čvrste komande u uslovima opšte konfuzije, počele su da uzmiču. Do 19. avgusta veći deo Poćorekovih snaga povukao se preko Drine i Save, ostavivši za sobom artiljeriju, transport i hiljade zarobljenih. Šabac, koji su Austro-Ugari kratko držali, ponovo je bio u srpskim rukama. Prva ofanziva protiv Srbije propala je za manje od dve nedelje."
       },
       {
         "type": "paragraph",
@@ -16653,11 +16654,11 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "subtitle": "Kako je srpska vojska u avgustu 1914. odbranila Cer i donela Antanti prvu pobedu u Prvom svetskom ratu",
     "dateLabel": "16–19. avgust 1914.",
     "timelinePosition": "16–19. avgust 1914.",
-    "summary": "Sredinom avgusta 1914. austrougarske snage pod Pocjorekom prelaze Drinu i Savu, a srpska Druga armija Stepe Stepanovića ih u kratkoj i žestokoj borbi na obroncima Cera potiskuje natrag preko reka — prva pobeda Antante u celom ratu.",
+    "summary": "Sredinom avgusta 1914. austrougarske snage pod Poćorekom prelaze Drinu i Savu, a srpska Druga armija Stepe Stepanovića ih u kratkoj i žestokoj borbi na obroncima Cera potiskuje natrag preko reka — prva pobeda Antante u celom ratu.",
     "keyPeople": [
       "vojvoda Stepa Stepanović",
       "vojvoda Radomir Putnik",
-      "Oskar Pocjorek"
+      "Oskar Poćorek"
     ],
     "keyPlaces": [
       "Cer",
@@ -16674,7 +16675,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Tu treću ofanzivu povela je u novembru 1914. Balkanska vojska pod komandom generala Oskara Pocjoreka. Cilj više nije bio samo prodor preko granice — trebalo je razbiti srpsku vojsku, zauzeti Beograd i tako konačno otkloniti onu istu Srbiju koja je u Sarajevu, prema bečkom čitanju, izazvala rat. Austrougarske snage probile su se kroz zapadnu Srbiju, oslonile na pravce dolinama reka i postepeno potisnule srpske armije ka istoku. Početkom novembra napušteno je Valjevo, koje je dotad bilo glavni logistički oslonac srpske odbrane. Linija fronta povukla se na Kolubaru i njene pritoke — Ljig, Maljen, padine Suvobora — i tu se vojska zaustavila, sa rekom za leđima i sa neprijateljem koji je nadirao."
+        "text": "Tu treću ofanzivu povela je u novembru 1914. Balkanska vojska pod komandom generala Oskara Poćoreka. Cilj više nije bio samo prodor preko granice — trebalo je razbiti srpsku vojsku, zauzeti Beograd i tako konačno otkloniti onu istu Srbiju koja je u Sarajevu, prema bečkom čitanju, izazvala rat. Austrougarske snage probile su se kroz zapadnu Srbiju, oslonile na pravce dolinama reka i postepeno potisnule srpske armije ka istoku. Početkom novembra napušteno je Valjevo, koje je dotad bilo glavni logistički oslonac srpske odbrane. Linija fronta povukla se na Kolubaru i njene pritoke — Ljig, Maljen, padine Suvobora — i tu se vojska zaustavila, sa rekom za leđima i sa neprijateljem koji je nadirao."
       },
       {
         "type": "paragraph",
@@ -16691,15 +16692,15 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Prva Mišićeva odluka delovala je mnogima kao predaja. On je insistirao da se Prva armija povuče još dublje, na pogodnije položaje uz Suvobor, da skrati front, zbije jedinice, da ljudima i konjima omogući nekoliko dana odmora i da dovuče municiju koja je upravo počela da pristiže iz savezničkih isporuka. Putnik se kolebao, drugi komandanti su negodovali; svako dalje povlačenje izgledalo je kao otvaranje vrata Pocjoreku. Mišić je ipak izdejstvovao svoju varijantu. Pokazaće se da je upravo to skraćivanje fronta, spojeno sa pristiglim francuskim granatama i sa istovremenim rastezanjem austrougarskih linija snabdevanja kroz raskaljanu zapadnu Srbiju, stvorilo trenutni operativni preokret."
+        "text": "Prva Mišićeva odluka delovala je mnogima kao predaja. On je insistirao da se Prva armija povuče još dublje, na pogodnije položaje uz Suvobor, da skrati front, zbije jedinice, da ljudima i konjima omogući nekoliko dana odmora i da dovuče municiju koja je upravo počela da pristiže iz savezničkih isporuka. Putnik se kolebao, drugi komandanti su negodovali; svako dalje povlačenje izgledalo je kao otvaranje vrata Poćoreku. Mišić je ipak izdejstvovao svoju varijantu. Pokazaće se da je upravo to skraćivanje fronta, spojeno sa pristiglim francuskim granatama i sa istovremenim rastezanjem austrougarskih linija snabdevanja kroz raskaljanu zapadnu Srbiju, stvorilo trenutni operativni preokret."
       },
       {
         "type": "paragraph",
-        "text": "Trećeg decembra 1914. srpska Prva armija prešla je u ofanzivu na celom svom delu fronta, a ubrzo su krenule i Druga i Treća armija. Iznenađenje je bilo gotovo potpuno. Austrougarske jedinice, koje su mislile da imaju pred sobom poraženog protivnika u rasulu, nisu izdržale prvi udar; mnoge su se povukle haotično, gubeći artiljeriju, komore i hiljade zarobljenika. Pocjorekova vojska, sa predugačkim linijama snabdevanja, bez rezervi na pravim mestima, u nekoliko dana izgubila je inicijativu i počela uzmak ka Drini i Savi. Borbe su trajale na padinama Suvobora, oko Lazarevca i Mladenovca, na pravcu Valjeva. Do petnaestog decembra cela srpska teritorija bila je oslobođena. Sutradan, šesnaestog decembra, srpska vojska ponovo je ušla u Beograd; kralj Petar I obišao je oslobođeni grad nešto kasnije. Mišić je zbog tog uspeha unapređen u vojvodu."
+        "text": "Trećeg decembra 1914. srpska Prva armija prešla je u ofanzivu na celom svom delu fronta, a ubrzo su krenule i Druga i Treća armija. Iznenađenje je bilo gotovo potpuno. Austrougarske jedinice, koje su mislile da imaju pred sobom poraženog protivnika u rasulu, nisu izdržale prvi udar; mnoge su se povukle haotično, gubeći artiljeriju, komore i hiljade zarobljenika. Poćorekova vojska, sa predugačkim linijama snabdevanja, bez rezervi na pravim mestima, u nekoliko dana izgubila je inicijativu i počela uzmak ka Drini i Savi. Borbe su trajale na padinama Suvobora, oko Lazarevca i Mladenovca, na pravcu Valjeva. Do petnaestog decembra cela srpska teritorija bila je oslobođena. Sutradan, šesnaestog decembra, srpska vojska ponovo je ušla u Beograd; kralj Petar I obišao je oslobođeni grad nešto kasnije. Mišić je zbog tog uspeha unapređen u vojvodu."
       },
       {
         "type": "paragraph",
-        "text": "Cifre poraza za Austrougarsku bile su za tadašnje balkanske razmere ogromne. Procenjuje se da je njena vojska imala preko pedeset hiljada poginulih i ranjenih, a u srpskim rukama ostalo je više od sedamdeset hiljada zarobljenika, mada se pojedinačni brojevi po izvorima razlikuju i treba ih uzeti s oprezom. Srpski gubici procenjuju se na oko dvadeset i dve hiljade poginulih, uz znatno veći broj ranjenih i nestalih. Pocjorek je smenjen, treća ofanziva završena potpunim neuspehom, a u savezničkim štampama, od Pariza do Petrograda, Kolubarska bitka pominjala se kao prvi veliki saveznički uspeh na kopnu u 1914. godini."
+        "text": "Cifre poraza za Austrougarsku bile su za tadašnje balkanske razmere ogromne. Procenjuje se da je njena vojska imala preko pedeset hiljada poginulih i ranjenih, a u srpskim rukama ostalo je više od sedamdeset hiljada zarobljenika, mada se pojedinačni brojevi po izvorima razlikuju i treba ih uzeti s oprezom. Srpski gubici procenjuju se na oko dvadeset i dve hiljade poginulih, uz znatno veći broj ranjenih i nestalih. Poćorek je smenjen, treća ofanziva završena potpunim neuspehom, a u savezničkim štampama, od Pariza do Petrograda, Kolubarska bitka pominjala se kao prvi veliki saveznički uspeh na kopnu u 1914. godini."
       },
       {
         "type": "paragraph",
@@ -16714,7 +16715,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       "vojvoda Živojin Mišić",
       "vojvoda Radomir Putnik",
       "kralj Petar I",
-      "Oskar Pocjorek"
+      "Oskar Poćorek"
     ],
     "keyPlaces": [
       "Kolubara",
@@ -16919,7 +16920,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Saveznička grupacija u Solunu zvanično je nosila ime „Armée d'Orient” — Istočna armija — pod francuskom komandom. Prvih godina vodio ju je general Moris Saraj, oficir politički kontroverzan u Parizu i nikada potpuno omiljen kod britanskih saveznika, ali uporan u uverenju da Balkan može biti odlučujuće poprište rata. Posle njega komandu je kraće držao general Adolf Giro, a od juna 1918. preuzeo ju je Luj Franše d'Espere — energičan oficir kome će pripasti čast da odobri i izvede konačni proboj. U sastav armije, pored Francuza i Britanaca, ulazili su i Srbi, Italijani, ruska brigada, a od 1917, kada je Grčka napokon ušla u rat na strani Antante, i grčke divizije."
+        "text": "Saveznička grupacija u Solunu zvanično je nosila ime „Armée d'Orient” — Istočna armija — pod francuskom komandom. Prvih godina vodio ju je general Moris Saraj, oficir politički kontroverzan u Parizu i nikada potpuno omiljen kod britanskih saveznika, ali uporan u uverenju da Balkan može biti odlučujuće poprište rata. Posle njega komandu je kraće držao general Adolf Giro, a od juna 1918. preuzeo ju je Luj Franše d'Epere — energičan oficir kome će pripasti čast da odobri i izvede konačni proboj. U sastav armije, pored Francuza i Britanaca, ulazili su i Srbi, Italijani, ruska brigada, a od 1917, kada je Grčka napokon ušla u rat na strani Antante, i grčke divizije."
       },
       {
         "type": "paragraph",
@@ -16958,7 +16959,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "keyPeople": [
       "vojvoda Petar Bojović",
       "vojvoda Živojin Mišić",
-      "Luj Franše d'Espere",
+      "Luj Franše d'Epere",
       "kralj Petar I",
       "regent Aleksandar"
     ],
@@ -17090,12 +17091,12 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "content": [
       {
         "type": "paragraph",
-        "text": "Solunski front je do leta 1918. godine bio jedno od onih ratišta na koja su saveznički štabovi gledali sa nelagodom. Tu je, od jeseni 1915, stajala mešovita vojska — francuska, britanska, srpska, kasnije i italijanska i grčka — naslonjena na utvrđene položaje od Albanije do Egejskog mora, ali bez velikog uspeha. London i Pariz su radije slali ljude i municiju u Francusku, gde se vodio glavni rat. Tek u maju 1918, kada je komandu nad savezničkim snagama na istoku preuzeo francuski general Luj Franše d'Espere, krenula je ozbiljna priprema za nešto što je dotadašnji vrhovni štab smatrao previše rizičnim — za pravi proboj.",
+        "text": "Solunski front je do leta 1918. godine bio jedno od onih ratišta na koja su saveznički štabovi gledali sa nelagodom. Tu je, od jeseni 1915, stajala mešovita vojska — francuska, britanska, srpska, kasnije i italijanska i grčka — naslonjena na utvrđene položaje od Albanije do Egejskog mora, ali bez velikog uspeha. London i Pariz su radije slali ljude i municiju u Francusku, gde se vodio glavni rat. Tek u maju 1918, kada je komandu nad savezničkim snagama na istoku preuzeo francuski general Luj Franše d'Epere, krenula je ozbiljna priprema za nešto što je dotadašnji vrhovni štab smatrao previše rizičnim — za pravi proboj.",
         "dropcap": true
       },
       {
         "type": "paragraph",
-        "text": "Franše d'Espere je u Solun stigao sa reputacijom oficira koji ume da napada, ali i sa zadatkom koji nije bio popularan. Saveznički vrhovni komandant Foš nije verovao da je veliki uspeh na Balkanu moguć i nije hteo da na taj front šalje rezerve. Novi komandant je morao da planira ofanzivu sa onim što je već bilo na licu mesta. Nekoliko meseci je sa svojim štabom i sa srpskom Vrhovnom komandom — na čijem je čelu kao načelnik štaba bio vojvoda Živojin Mišić — proučavao bugarske položaje. Odluka koja je tu sazrela bila je suprotna onome što se obično očekivalo: glavni udar neće ići kroz dolinu, već preko najtežeg terena."
+        "text": "Franše d'Epere je u Solun stigao sa reputacijom oficira koji ume da napada, ali i sa zadatkom koji nije bio popularan. Saveznički vrhovni komandant Foš nije verovao da je veliki uspeh na Balkanu moguć i nije hteo da na taj front šalje rezerve. Novi komandant je morao da planira ofanzivu sa onim što je već bilo na licu mesta. Nekoliko meseci je sa svojim štabom i sa srpskom Vrhovnom komandom — na čijem je čelu kao načelnik štaba bio vojvoda Živojin Mišić — proučavao bugarske položaje. Odluka koja je tu sazrela bila je suprotna onome što se obično očekivalo: glavni udar neće ići kroz dolinu, već preko najtežeg terena."
       },
       {
         "type": "heading",
@@ -17104,7 +17105,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "U središtu fronta, između doline Crne reke i Vardara, dizao se planinski masiv koji je na kartama nosio mirno ime — Dobro Polje. To nije bilo polje u uobičajenom smislu, već visoravan iznad strmih padina, sa vrhovima preko hiljadu i sedamsto metara, golim grebenima i uskim prilazima. Bugarska vojska, koja je tu držala položaje, smatrala je taj sektor neprobojnim. Upravo zato je tu, kako će se ispostaviti, bilo manje rezervi, slabija artiljerija i niža gotovost nego na nižim, „logičnim” pravcima. Mišić i Franše d'Espere su pretpostavili da neprijatelj brani jako tamo gde i sam očekuje napad, a slabije tamo gde misli da napada neće biti. Pretpostavka je bila tačna."
+        "text": "U središtu fronta, između doline Crne reke i Vardara, dizao se planinski masiv koji je na kartama nosio mirno ime — Dobro Polje. To nije bilo polje u uobičajenom smislu, već visoravan iznad strmih padina, sa vrhovima preko hiljadu i sedamsto metara, golim grebenima i uskim prilazima. Bugarska vojska, koja je tu držala položaje, smatrala je taj sektor neprobojnim. Upravo zato je tu, kako će se ispostaviti, bilo manje rezervi, slabija artiljerija i niža gotovost nego na nižim, „logičnim” pravcima. Mišić i Franše d'Epere su pretpostavili da neprijatelj brani jako tamo gde i sam očekuje napad, a slabije tamo gde misli da napada neće biti. Pretpostavka je bila tačna."
       },
       {
         "type": "paragraph",
@@ -17120,7 +17121,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Kako se sa pristojne udaljenosti može videti šta je proboj Solunskog fronta zaista bio, vredi razdvojiti nekoliko stvari. To nije bila pobeda jedne vojske, niti, kako je kasnije volela da se piše, čisto „srpsko junaštvo”. Bila je to dobro pripremljena saveznička operacija u kojoj su se poklopili kompetentna komanda — Franše d'Espere u Solunu, Mišić u Vrhovnoj komandi, Bojović na čelu Prve armije — iskusne jedinice koje su iza sebe imale tri godine teškog rata, dobra logistika sa dovoljno artiljerije, granata i hrane, i ozbiljno pogrešna procena Centralnih sila o tome šta je u tom terenu moguće. Ofanziva je uspela jer je sve to delovalo zajedno. Bez ijednog od tih sastojaka — bilo bi drugačije."
+        "text": "Kako se sa pristojne udaljenosti može videti šta je proboj Solunskog fronta zaista bio, vredi razdvojiti nekoliko stvari. To nije bila pobeda jedne vojske, niti, kako je kasnije volela da se piše, čisto „srpsko junaštvo”. Bila je to dobro pripremljena saveznička operacija u kojoj su se poklopili kompetentna komanda — Franše d'Epere u Solunu, Mišić u Vrhovnoj komandi, Bojović na čelu Prve armije — iskusne jedinice koje su iza sebe imale tri godine teškog rata, dobra logistika sa dovoljno artiljerije, granata i hrane, i ozbiljno pogrešna procena Centralnih sila o tome šta je u tom terenu moguće. Ofanziva je uspela jer je sve to delovalo zajedno. Bez ijednog od tih sastojaka — bilo bi drugačije."
       },
       {
         "type": "paragraph",
@@ -17134,7 +17135,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "keyPeople": [
       "vojvoda Živojin Mišić",
       "vojvoda Petar Bojović",
-      "Luj Franše d'Espere"
+      "Luj Franše d'Epere"
     ],
     "keyPlaces": [
       "Dobro Polje",
@@ -18491,7 +18492,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "U avgustu 1942. nemački komandujući oficir u Srbiji javio je Berlinu — sažeto i hladno, jezikom administrativnog izveštaja — da je u Srbiji jevrejsko i ciganski pitanje rešeno, i da je Srbija jedina zemlja u kojoj je to postignuto. Procene istoričara su da je u nemačkoj okupacionoj zoni Srbije ubijeno između četrnaest i petnaest hiljada Jevreja, što znači da je preživelo svega nekoliko stotina, uglavnom u skrivanju, u partizanskim jedinicama ili zbog mešovitih brakova. Brojevi se razlikuju od izvora do izvora i moraju se navoditi s oprezom, ali razmera zločina ne ostavlja prostora za sumnju: jedna stara beogradska zajednica nestala je za godinu i po dana."
+        "text": "U avgustu 1942. nemački komandujući oficir u Srbiji javio je Berlinu — sažeto i hladno, jezikom administrativnog izveštaja — da je u Srbiji jevrejsko i cigansko pitanje rešeno, i da je Srbija jedina zemlja u kojoj je to postignuto. Procene istoričara su da je u nemačkoj okupacionoj zoni Srbije ubijeno između četrnaest i petnaest hiljada Jevreja, što znači da je preživelo svega nekoliko stotina, uglavnom u skrivanju, u partizanskim jedinicama ili zbog mešovitih brakova. Brojevi se razlikuju od izvora do izvora i moraju se navoditi s oprezom, ali razmera zločina ne ostavlja prostora za sumnju: jedna stara beogradska zajednica nestala je za godinu i po dana."
       },
       {
         "type": "paragraph",
@@ -18882,7 +18883,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Tada je počela razmena pisama između Centralnog komiteta SKP(b) i Centralnog komiteta KPJ. U dva navrata, u martu, aprilu i maju, stigla su iz Moskve oštra pisma puna optužbi: KPJ navodno skreće u nacionalizam, dopušta da nekomunisti utiču na partiju, neprijateljski se odnosi prema SSSR-u i svojim sovjetskim saveznicima. Jugoslovenski odgovori bili su odmereni, ali odlučni — odbacivali su tvrdnje kao netačne i molili da se nesporazum reši razgovorom. Razgovora nije bilo. U Moskvi se računalo da će partijski aparat u Beogradu, kao u drugim glavnim gradovima istočne Evrope, na prvi pritisak smeniti vlastite vođe. To se nije dogodilo."
+        "text": "Tada je počela razmena pisama između Centralnog komiteta SKP(b) i Centralnog komiteta KPJ. U više navrata, od marta do maja, stigla su iz Moskve oštra pisma puna optužbi: KPJ navodno skreće u nacionalizam, dopušta da nekomunisti utiču na partiju, neprijateljski se odnosi prema SSSR-u i svojim sovjetskim saveznicima. Jugoslovenski odgovori bili su odmereni, ali odlučni — odbacivali su tvrdnje kao netačne i molili da se nesporazum reši razgovorom. Razgovora nije bilo. U Moskvi se računalo da će partijski aparat u Beogradu, kao u drugim glavnim gradovima istočne Evrope, na prvi pritisak smeniti vlastite vođe. To se nije dogodilo."
       },
       {
         "type": "paragraph",
@@ -18907,7 +18908,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Normalizacija sa Moskvom došla je posle Staljinove smrti 1953. U maju 1955. Nikita Hruščov je doputovao u Beograd i na aerodromu, pred kamerama, priznao da je Rezolucija iz 1948. bila greška — krivicu je svalio na Beriju i nekadašnji aparat. Naredne godine Informbiro je tiho ukinut. Jugoslavija je vratila normalne odnose sa istočnim susedima, ali svoj kurs više nije menjala. Iz raskida iz 1948. izrasla je politika koja će krajem decenije, u Bandungu i Beogradu, dobiti svoje ime — nesvrstanost. Bez 1948. tog mesta u svetu Jugoslavija ne bi imala."
+        "text": "Normalizacija sa Moskvom došla je posle Staljinove smrti 1953. U maju 1955. Nikita Hruščov je doputovao u Beograd i na aerodromu, pred kamerama, priznao da je Rezolucija iz 1948. bila greška — krivicu je svalio na Beriju i nekadašnji aparat. Naredne godine Informbiro je tiho ukinut. Jugoslavija je vratila normalne odnose sa istočnim susedima, ali svoj kurs više nije menjala. Iz raskida iz 1948. izrasla je politika koja će, od sastanka na Brionima 1956. do konferencije u Beogradu 1961, dobiti svoje ime — nesvrstanost. Bez 1948. tog mesta u svetu Jugoslavija ne bi imala."
       },
       {
         "type": "paragraph",
@@ -18960,7 +18961,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Uporedo s tim, sistem se postepeno udaljavao od sovjetskog uzora i na drugim mestima. Ustavni zakon iz 1953. godine, zajedno sa promenama u poljoprivrednoj politici, faktički je napustio kolektivizaciju sela: seljaci su mogli zadržati zemlju, sa maksimumom koji je u glavnom iznosio oko deset hektara obradivog poseda. To je u Srbiji značilo da je seljačko domaćinstvo, sa svojom njivom i stokom, ostalo osnovna ćelija sela — nešto što istočnoevropski susedi, sa svojim kolhozima i poljoprivrednim zadrugama prinudnog tipa, nisu poznavali."
+        "text": "Uporedo s tim, sistem se postepeno udaljavao od sovjetskog uzora i na drugim mestima. Ustavni zakon iz 1953. godine, zajedno sa promenama u poljoprivrednoj politici, faktički je napustio kolektivizaciju sela: seljaci su mogli zadržati zemlju, sa maksimumom koji je uglavnom iznosio oko deset hektara obradivog poseda. To je u Srbiji značilo da je seljačko domaćinstvo, sa svojom njivom i stokom, ostalo osnovna ćelija sela — nešto što istočnoevropski susedi, sa svojim kolhozima i poljoprivrednim zadrugama prinudnog tipa, nisu poznavali."
       },
       {
         "type": "paragraph",
@@ -19578,7 +19579,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Istovremeno se na jugu Hrvatske odvijala opsada Dubrovnika. Od oktobra do decembra 1991. snage JNA i crnogorske rezerve granatirale su okolinu grada i, više puta, samo srednjovekovno staro jezgro pod zaštitom UNESKO-a. Razorene su kuće i krovovi unutar zidina, poginulo je više desetina ljudi. Haški tribunal je kasnije za naređivanje granatiranja starog grada osudio admirala Pavla Strugara. Slike Dubrovnika u dimu i Vukovara u ruševinama bile su one zbog kojih je svet prvi put shvatio da se na Balkanu vodi pravi rat — i te slike će u narednim godinama oblikovati spoljnopolitički odnos prema Beogradu."
+        "text": "Istovremeno se na jugu Hrvatske odvijala opsada Dubrovnika. Od oktobra do decembra 1991. snage JNA i crnogorske rezerve granatirale su okolinu grada i, više puta, samo srednjovekovno staro jezgro pod zaštitom UNESKO-a. Razorene su kuće i krovovi unutar zidina, poginulo je više desetina ljudi. Haški tribunal je kasnije osudio generala Pavla Strugara zato što granatiranje starog grada nije sprečio niti kaznio. Slike Dubrovnika u dimu i Vukovara u ruševinama bile su one zbog kojih je svet prvi put shvatio da se na Balkanu vodi pravi rat — i te slike će u narednim godinama oblikovati spoljnopolitički odnos prema Beogradu."
       },
       {
         "type": "paragraph",
@@ -20353,7 +20354,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Srbija je sledeće godine zatražila savetodavno mišljenje Međunarodnog suda pravde u Hagu o tome da li je proglašenje nezavisnosti u skladu sa međunarodnim pravom. Sud je u julu 2010. dao mišljenje da sam akt deklaracije, u datim okolnostima, ne predstavlja kršenje međunarodnog prava. Pravnici su, međutim, odmah upozorili da to nije bila presuda o zakonitosti samog državnog statusa Kosova, niti o obavezi drugih država da ga priznaju — već usko mišljenje o tekstu i činu deklaracije. Tumačenja u Beogradu i Prištini, kao i u svetu, otišla su u suprotnim smerovima, i mišljenje suda nije sklonilo statusno pitanje sa stola."
+        "text": "Srbija je iste godine, preko Generalne skupštine UN, zatražila savetodavno mišljenje Međunarodnog suda pravde u Hagu o tome da li je proglašenje nezavisnosti u skladu sa međunarodnim pravom. Sud je u julu 2010. dao mišljenje da sam akt deklaracije, u datim okolnostima, ne predstavlja kršenje međunarodnog prava. Pravnici su, međutim, odmah upozorili da to nije bila presuda o zakonitosti samog državnog statusa Kosova, niti o obavezi drugih država da ga priznaju — već usko mišljenje o tekstu i činu deklaracije. Tumačenja u Beogradu i Prištini, kao i u svetu, otišla su u suprotnim smerovima, i mišljenje suda nije sklonilo statusno pitanje sa stola."
       },
       {
         "type": "paragraph",
