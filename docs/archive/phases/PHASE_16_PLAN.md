@@ -1,6 +1,6 @@
 # Phase 16 — Pregled naloga: the owner's read-only accounts overview (PLAN)
 
-**Status:** Built, in PR — requested by the owner on 2026-09-29 ("hoću stranicu"), after asking how to see who has registered. Outcome: `docs/PROJECT_STATE.md` → "Phase 16".
+**Status:** Done — merged (PR #57, squash `02d226c`), live 2026-09-29 15:46 UTC — requested by the owner on 2026-09-29 ("hoću stranicu"), after asking how to see who has registered. Outcome: `docs/PROJECT_STATE.md` → "Phase 16".
 **Date:** 2026-09-29
 **Predecessors:** Phase 15 live (PR #53); visit statistics live (PR #55).
 **Parent references:** `HANDOFF.md`; `docs/BACKEND_STRATEGY.md`; `docs/DEPLOY.md` §10.

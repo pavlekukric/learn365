@@ -74,9 +74,9 @@ The next phase pick is recorded in [`HANDOFF.md`](../HANDOFF.md) at the repo roo
 
 The remainder of this document is the chronological build log. Each phase entry records the locked decisions, files touched, gates run, and rationale. The log is append-only — use it to answer "why did we build it this way?" or "when did X change?" The current state of any component or surface lives in the **Current Baseline** section above, not in the phase log.
 
-## Phase 16 — Pregled naloga: the owner's read-only accounts overview (2026-09-29): built, in PR
+## Phase 16 — Pregled naloga: the owner's read-only accounts overview (2026-09-29): done (PR #57, `02d226c`, live)
 
-Requested by the owner on 2026-09-29 ("hoću stranicu"). `CLAUDE.md` lists "admin panel" under *do not implement unless explicitly requested*; this is that request, scoped to one read-only page. Plan: `docs/PHASE_16_PLAN.md` (eight locked decisions).
+Requested by the owner on 2026-09-29 ("hoću stranicu"). `CLAUDE.md` lists "admin panel" under *do not implement unless explicitly requested*; this is that request, scoped to one read-only page. Plan: `docs/archive/phases/PHASE_16_PLAN.md` (eight locked decisions).
 
 **What changed:**
 - **Data + access.** `users.is_admin boolean not null default false` (migration `0001_admin_flag`, additive). No code path writes it; the owner sets it by hand on the box (`docs/DEPLOY.md` §15). `resolveOverviewAccess` (4 tests): accounts off → 404, signed out → `/prijava?nazad=/pregled`, signed in without the flag → 404, with it → the page. `getAccountsOverview` (5 tests, PGlite): total, new and active in 7 days, and per account — name, e-mail, registered, last activity (the later of the last sign-in and the last progress change), lessons read, lessons saved; newest first, capped at 500 rows; never the Google `sub`, the picture or the flag. `formatAccountDate` / `formatLastActivity` (6 tests): Serbian month names, Belgrade calendar days, `danas` / `juče` / `pre N dana`.
