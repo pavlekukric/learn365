@@ -1,0 +1,533 @@
+# Činjenični review — Era V: Srpska revolucija
+
+**Kurs:** Istorija Srbije 365 · **Era:** `srpska-revolucija` · **Lekcije:** Day 196–230
+**Datum:** 2026-09-30 · **Metod:** v2 — delovi od ≤ 8 lekcija, obavezan prolaz obaranja za nalaze srednje sigurnosti, provera doslednosti cele ere, zadati spisak izvora.
+**Status:** ispravke primenjene u istom PR-u; `lastReviewedAt` nije diran.
+
+## Zbir
+
+| | Broj |
+|---|---|
+| Pregledane lekcije | 35 |
+| Lekcije bez nalaza | 2 (197, 223) |
+| **Greške** | **63** |
+| **Sumnjivo** | **41** |
+| Sporno — ograda preporučena / nije | 8 / 25 |
+
+Brojevi uključuju i nalaze provere doslednosti, koji se delom poklapaju sa nalazima po lekcijama.
+
+## Top 10 nalaza
+
+| # | Lekcija | Nalaz | Sigurnost |
+|---|---|---|---|
+| 1 | Day 226 | „Vragolovi” i „Toplo Đorđević” nemaju potvrdu ni u jednom izvoru — verovatno izmišljena imena; uklonjena. Mihailo je imao 15–16 godina, nije abdicirao nego prebegao u Zemun, a vratio se 1859. | visoka |
+| 2 | Day 210, 204 | Stevan Sinđelić ne brani Deligrad 1813 — poginuo je na Čegru 1809 (kako kaže Day 204). | visoka |
+| 3 | Day 211, 212 | Miloš 1813. nije bio u izbeglištvu: ostao je, predao se u Takovu i postao obor-knez rudničke nahije. | visoka |
+| 4 | Day 224, 225 | Turski ustav izdao je Mahmud II u decembru 1838, ne Abdul Medžid 1839. | visoka |
+| 5 | Day 228 | Petronijević je umro u Carigradu 1852, Vučić u Beogradu 1859 kao zatvorenik — ne „obojica u Carigradu 1859”. | visoka |
+| 6 | Day 216, 217 | Imšir-paša je poginuo na Ljubiću; kod Dublja je zarobljen Ibrahim-paša; Stojan Čupić je 1815. pogubljen u Zvorniku. | visoka |
+| 7 | Day 203 | Karađorđe je lično vodio bitku na Mišaru; u Višnjićevoj pesmi nema pisma Kulin-kapetanice, nego razgovor s gavranovima. | visoka |
+| 8 | Day 198, 201, 202 | Orašac 2/14. februar 1804 (ne 15. februar); Karađorđeva žena Jelena Jovanović iz Masloševa; Sovjet osnovan na skupštini u Borku 1805 (ne u Pećanima ni u „Borču”). | visoka |
+| 9 | Day 202, 206, 207 | Popečitelji iz januara 1811: Karađorđe predsedava, Mladen je vojni, Jakov Nenadović unutrašnjih dela, Dositej prosvete (ne 1807/08). | visoka |
+| 10 | Day 208, 209, 219, 229 | Bukureštanski mir obećava prava „ostrva Arhipelaga” (ne vlaški obrazac); Miloje Petrović je pogubljen 1810. po Karađorđevom naređenju; „nijedan vladar nije umro prirodnom smrću na prestolu” je netačno (Milan 1839, Miloš 1860). | visoka |
+
+## Napomene o pouzdanosti
+
+- Srpska enciklopedija (istekao sertifikat), Britannica (403) i ISN V nisu bili dostupni; glavni pristupačni izvori bili su Ćorović na rastko.rs i Ministarstvo odbrane / Politika za bitke. Nalazi koji stoje samo na Wikipediji ostaju „sumnjivo”.
+- Broj stanovnika ustaničke Srbije (Day 204, 206) ispravljen je na procene iz literature (oko 400.000 u 1804; popis 1834: 678.000), ne na jedan izmišljen broj.
+- Datumi: Srbija koristi julijanski kalendar; gde lekcija meša stil, ispravka navodi oba (stari/novi).
+- **⚠** u koloni izvora znači da je kao izvor nađen samo enciklopedijski pregled (Wikipedia); takav nalaz je najviše „sumnjivo" osim ako ga ne potvrđuje i drugi izvor.
+
+---
+
+# Nalazi po lekcijama
+
+## Prvi srpski ustanak I (196–201)
+
+# Era V — Srpska revolucija, dani 196–201 (c1)
+
+### Day 196 — Šta je Srpska revolucija
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „iako je trajao svega nekoliko nedelja pre nego što su ga ruski i austrijski protesti suspendovali” | sumnjivo (nepotpuno) | srednja | „… pre nego što je, pod pritiskom Porte, Rusije i Austrije, suspendovan” — Porta (sizeren) je bila jedna od tri strane u protestu | D. Jerotijević, „Ustavnopravni razvoj Srbije od 1835. do 1868.”, časopis Pravnog fakulteta (casopis.pravni-fakultet.edu.rs); Danas, „Dokument koji je uplašio i Istok i Zapad”; sr.wikipedia „Ustav Kneževine Srbije iz 1835.” (pokazivač) |
+
+### Day 197 — Izbijanje Prvog ustanka
+ok — bez nalaza. (Datum 2/14. februar tačan; imena četvorice dahija tačna; „prema kazivanjima na Adi Kale” dovoljno ograđeno.)
+
+### Day 198 — Karađorđe Petrović
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Sa suprugom Jelenom, rođenom Bošković” (i keyPeople: „Jelena Bošković”) | greška | visoka | „Sa suprugom Jelenom, rođenom Jovanović” (kći Nikole Jovanovića, obor-kneza jaseničkog, iz Masloševa); u keyPeople „Jelena Petrović” | royalfamily.org „Jelena Petrović”; sr.wikipedia „Jelena Petrović” (pokazivač); M. Vukićević, „Karađorđe” |
+| 2 | „Kada su starešine 15. februara 1804. godine u Orašcu … tražile vođu” | greška (i unutrašnja nedoslednost sa Day 197/199) | visoka | „Kada su starešine na Sretenje, 2/14. februara 1804. godine, u Orašcu …” — 15. februar je današnji datum obeležavanja (razlika kalendara danas 13 dana, 1804. bila je 12) | Istorija srpskog naroda V/1; Day 197 i 199 ovog kursa daju 2/14. februar |
+
+### Day 199 — Orašac i početak ustanka
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Karađorđeve snage uskoro su zauzele Topolu, a u toku proleća i Smederevo i Šabac” | greška | visoka | „… a u toku proleća opsele Smederevo i Šabac” (ili izostaviti). Smederevska tvrđava predata je Karađorđu tek 8. novembra 1805; šabački grad predat je 6. februara 1807. (šabačka varoš jeste kratko zauzeta 1804, ali ju je posada povratila). Topola je Karađorđevo selo, a ne tursko uporište — „zauzele Topolu” je bar nejasno | sr.wikipedia „Smederevo” i podunavlje.info (8. XI 1805, pokazivači); sabac.rs „Istorija grada”; en.wikipedia „Siege of Šabac (First Serbian Uprising)” (pokazivač); Ćorović, „Istorija Srba” |
+
+### Day 200 — Prve pobede ustanika
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Posao je vodio Karađorđev komandant Mladen Milovanović.” | greška | visoka | „Poteru je vodio vojvoda Milenko Stojković, uz pismeni nalog Bekir-paše.” Dahije su posečene na Adi Kale u noći 25/26. jula (5/6. avgusta po novom) 1804. | sr.wikipedia „Milenko Stojković” i en.wikipedia „Dahije” (pokazivači); Vuk Karadžić, „Prva godina srpskog vojevanja na dahije”; Memoari prote Mateje Nenadovića |
+| 2 | „tirani koji su pre godinu dana posekli srpske knezove” | greška (unutrašnja hronologija) | visoka | „… koji su pre samo pola godine posekli srpske knezove” (Seča knezova januar 1804, pogubljenje dahija jul/avgust 1804) | sama lekcija i Day 197 |
+| 3 | „Karađorđe je sa starešinama dočekao taj odred … U bici koja je trajala više sati” i „niškog Hafiz-pašu sa nekoliko hiljada vojnika” | greška | srednja | „Na šančevima kod Ivankovca dočekali su ga Milenko Stojković i Petar Dobrnjac sa oko dve hiljade ljudi; posle dvodnevne borbe (17–18. avgusta), kada je noću stigao i Karađorđe sa pojačanjem, Osmanlije su se povukle.” Za Hafiz-pašu: „sa znatno brojnijom vojskom” (procene oko 15.000) | Ministarstvo odbrane RS, „Boj na Ivankovcu – 18. avgust 1805.” (mod.gov.rs); sr.wikipedia „Boj na Ivankovcu” (pokazivač); Istorija srpskog naroda V/1 |
+| 4 | „Mlađa generacija — među njima i Milan i Miloš Obrenović, tada još uvek mladi i sporedni” | sumnjivo | srednja | „… među njima i Miloš Obrenović, tada još u senci starijeg brata Milana, rudničkog vojvode” — Milan Obrenović je od 1804. bio jedan od vodećih vojvoda | izvor nije nađen online (opšte: Ćorović, „Istorija Srba”; Ljušić, „Knez Miloš”) |
+
+### Day 201 — Organizacija ustaničke vlasti
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Na zboru u Pećanima 1805. godine doneta je odluka koja će se pokazati prelomnom: formiran je prvi stalni savet — preteča Praviteljstvujuščeg sovjeta” | greška | visoka | „Na skupštini u Borku, na Veliku Gospojinu (15/27. avgusta) 1805, osnovan je Praviteljstvujušči sovjet — prvi stalni organ vlasti, čiji puni razvoj pripada sledećoj lekciji.” Skupština u Pećanima (17/29. aprila 1805) raspravljala je o povratku izaslanstva iz Rusije, deputaciji Porti i raspodeli poreza | Ministarstvo odbrane RS, „Osnivanje Praviteljstvujušćeg sovjeta srpskog – 27. avgust 1805.” (mod.gov.rs); RTS, „Godišnjica prve srpske vlade”; sr.wikipedia „Skupština u Pećanima” (pokazivač) |
+
+## Prvi srpski ustanak II (202–207)
+
+# Era V — Srpska revolucija, deo c2 (Days 202–207)
+
+### Day 202 — Praviteljstvujušči sovjet
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Najčešće se pominje skupština u Borču, u rudničkom kraju, u leto 1805.” (+ keyPlaces „Borač”) | greška | srednja | „Najčešće se pominje skupština u Borku (Veliki Borak, u Beogradskoj nahiji), 15. avgusta 1805; sovjet je potom smešten u manastir Voljavču u Rudničkoj nahiji.” keyPlaces: „Borač” → „Borak”, dodati „Voljavča”. | sr.wikipedia „Skupština u Borku” (lit. M. Stevanović o ustaničkim skupštinama); R. J. Popović, Novosti 15. 2. 2021 (sedišta: Voljavča, Bogovađa, Smederevo, od 1807. Beograd) — https://www.novosti.rs/c/drustvo/vesti/965015/ |
+| 2 | „uvedeni su popečitelji … a na čelo je došao Mladen Milovanović” (1811) | greška | srednja | „…a na čelo sovjeta stao je sam Karađorđe, dok je Mladen Milovanović postao popečitelj vojni.” | R. J. Popović (Novosti, 2021): „predsednik Sovjeta, odnosno vlade bio je vožd”; sr.wikipedia „Praviteljstvujušči sovjet serbski” (predsednici: Mateja 1805–06, Mladen 1808–09, Jakov 1809–11, Karađorđe 1811–13) |
+| 3 | „predstojnici resora za pravosuđe, finansije, vojsku, unutrašnje poslove i inostrane poslove” (pet resora) | sumnjivo (nepotpuno; neslaganje sa Day 206/207) | visoka | Dodati prosvetu: „…unutrašnje i inostrane poslove i prosvetu” (šest popečiteljstava; Day 206 i 207 imenuju Dositeja kao popečitelja prosvete). | Popović (Novosti, 2021); sr.wikipedia „Skupština u Beogradu (1811)” |
+
+### Day 203 — Boj na Mišaru
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Vrhovni vožd Karađorđe u tom trenutku nije bio u Mačvi — njegovo prisustvo bilo je potrebno na južnom frontu … Odbrana zapada pala je u ruke mačvanskih i pocerskih komandanata.” | greška | visoka | „Karađorđe je lično došao u Mačvu, izabrao položaj na Mišaru i komandovao bitkom; uz njega su bili Jakov Nenadović, pop Luka Lazarević, prota Mateja, Stojan Čupić i Miloš Pocerac.” (Uskladiti i rečenicu o Deligradu: Karađorđe je na Deligrad otišao posle Mišara.) | Politika, „Dva veka od Boja na Mišaru: Karađorđeva taktika…” (politika.rs/scc/clanak/778121); RTV, „220 godina od Boja na Mišaru, odlučne pobede Karađorđa”; sr.wikipedia „Bitka na Mišaru” (svedočenje Sekule Gavrilovića, zapisao I. Stojanović 1810) |
+| 2 | „Pesma je sažela bitku u nekoliko slika: pismo Kulin-kapetanove kapetanice…” | greška | visoka | „…dva gavrana koji sa Mišara donose vest kapetanici Kulinovoj…” | Tekst pesme, Projekat Rastko (rastko.rs/rastko-drina/umetnost/knjizevnost/usmena/visnjic/pesme/bojna-misaru.htm); sr.wikisource „Boj na Mišaru” — pesma počinje „Polećela dva vrana gavrana”, dijalog kapetanice i gavranova; pisma nema |
+
+### Day 204 — Širenje ustanka
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „ustanak je … privremeno kontrolisao deo Sandžaka i znatne delove Užičke nahije, što je bilo daleko preko granica starog pašaluka” | greška | visoka | Užička nahija je deo Beogradskog pašaluka: „…deo Sandžaka (Sjenica, Novi Pazar), što je bilo preko granica starog pašaluka.” (Užice izbaciti iz „trećeg pravca”.) | Srpska enciklopedija, „Beogradski pašaluk” (12 nahija, među njima Užička) — srpskaenciklopedija.rs/books/slovo-b/page/beogradski-pasaluk |
+| 2 | „Hajduk Veljko Petrović, čovek iz hajdučke tradicije Pomoravlja, koji je između 1807. i 1809. vodio oslobađanje Krajine i Negotinske oblasti” | greška | srednja | „…rodom iz Lenovca kod Zaječara, koji je u tim godinama branio Banju i dizao Crnu Reku, a 1811. postao krajinski vojvoda u Negotinu.” (Krajina je 1807. oslobođena uz rusku pomoć, bez Veljka kao vođe.) | sr.wikipedia „Hajduk Veljko” (Lenovac; 1809. brani Banju; 1811. krajinski vojvoda); Srpska enciklopedija, „Hajduk Veljko” (stranica nedostupna — istekao sertifikat; navod iz pretrage: „leta 1811. premešten iz Sokobanje u Negotin”) |
+| 3 | „pod ustaničkom upravom živelo je između milion i milion i po duša” | greška | srednja | „…živelo je, po grubim procenama, oko četiri stotine hiljada do pola miliona duša.” | Procena ~400.000 stanovnika Smederevskog sandžaka 1804. i ~300.000 u 1817/18. (sr.wikipedia „Smederevski sandžak”); popis Kneževine Srbije 1834: 678.192 na većoj teritoriji (RZS, „Popisi stanovništva u Kneževini Srbiji”, publikacije.stat.gov.rs/G2022/pdf/G20226003.pdf) |
+| 4 | keyPeople „Konstantin Rodofinikin” / tekst „Konstantin Rodofinjikin” | sumnjivo (neujednačeno) | visoka | Ujednačiti na „Rodofinikin”. | interna nedoslednost |
+
+### Day 205 — Oslobođenje Beograda
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „U noći između 30. novembra i 1. decembra 1806.” + timelinePosition „30. nov 1806 – 8. jan 1807.” (drugi datum je po novom kalendaru) | greška (mešanje kalendara) | srednja | „Na Andrijevdan, 30. novembra po starom, odnosno 12. decembra 1806. po novom kalendaru…”; timelinePosition: „12. dec 1806 – 8. jan 1807.” | sr.wikipedia „Opsada Beograda (1806)” i „Beograd u ustaničkoj Srbiji” (izvori: Prilozi za istoriju Prvog srpskog ustanka, 1954; Vuk, „Srpska istorija našega vremena”) |
+| 2 | „Glavni udar usmeren je na donji grad — naselje pod zidinama tvrđave, gde je živela većina beogradskih Turaka” (i dalje „pad donjeg grada”) | greška (terminološka) | srednja | „…na varoš — grad pod zidinama tvrđave…” (Donji grad je deo same tvrđave; ustanici su 12. 12. 1806. zauzeli varoš, Turci su se povukli u tvrđavu.) | isto: „Opsada Beograda (1806)” — Konda i Uzun-Mirko otvaraju Sava-kapiju i Varoš-kapiju |
+| 3 | „Beogradska tvrđava, koja je u turskim rukama bila od 1521. godine, vratila se posle skoro tri veka pod srpsku vlast.” | greška | srednja | „…vratila se pod srpsku vlast prvi put posle 1427, kada je po smrti despota Stefana predata Ugarskoj — posle gotovo četiri veka.” (Opciono: tursku vlast prekidala su austrijska zaposedanja 1688–90, 1717–39, 1789–91.) | Opšte poznato (despot Stefan † 1427, Beograd prelazi Ugarskoj); sr.wikipedia „Beograd u ustaničkoj Srbiji” |
+| 4 | „posle sloma ustanka, osmanska vojska nakratko povratiti. Tvrđava će u narednim decenijama više puta menjati gospodara dok ne dođe do konačnog srpskog preuzimanja sredinom devetnaestog veka” | greška | visoka | „…osmanska vojska povratiti 7. oktobra 1813. Tvrđava će ostati u turskim rukama sve do 1867, kada je knez Mihailo primio ključeve grada.” | sr.wikipedia „Beograd u ustaničkoj Srbiji” (7. 10. 1813; predaja ključeva 19. 4. 1867); opšte poznato |
+| 5 | „Praviteljstvujušči sovjet, do tada smešten po manastirima u Šumadiji, premestio se u grad” | sumnjivo | srednja | „…do tada smešten u Voljavči, Bogovađi i poslednje u Smederevu…” | R. J. Popović, Novosti 2021 |
+| 6 | keyPeople „Suleyman-paša Skopljak” | greška (metapodaci; unutrašnja protivrečnost) | visoka | Zameniti sa „Sulejman-paša (beogradski)” — sam tekst upozorava da se beogradski paša ne meša sa bosanskim Skopljakom; ujednačiti „Suleyman” → „Sulejman” i u tekstu. | interna protivrečnost |
+
+### Day 206 — Ustanička Srbija — država u nastajanju
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Mladen Milovanović vojne i unutrašnje poslove, Jakov Nenadović policiju” | greška | srednja | „Mladen Milovanović vojne poslove, Jakov Nenadović unutrašnje poslove (uključujući policiju)” | R. J. Popović, Novosti 2021; sr.wikipedia „Skupština u Beogradu (1811)” |
+| 2 | „najčešće se navodi raspon od oko milion do milion i po duša” | greška | srednja | „…najčešće se navodi oko četiri stotine hiljada do pola miliona duša” | kao Day 204 #3 |
+
+(Opciono, radi usklađivanja sa ispravkom Day 202 #2: u opisu uređenja iz 1811. dodati „na čelu sovjeta bio je sam vožd”.)
+
+### Day 207 — Prosveta i Velika škola
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Dositej je u Srbiju stigao 1807. godine … Karađorđe i Praviteljstvujušči sovjet poverili su mu … zvanje popečitelja prosveščenija” + podnaslov „1808. … dobila … prvog ministra prosvete” + summary | greška (hronologija) | visoka | „…Dositej je stigao 1807. i ušao u krug sovjeta; kada su januara 1811. uvedena popečiteljstva, postao je popečitelj prosveščenija…” Podnaslov: „…1808. dobila prvu višu školu, a 1811. i prvog ministra prosvete”. | R. J. Popović, Novosti 2021; sr.wikipedia „Skupština u Beogradu (1811)” (popečiteljstva uvedena januara 1811) |
+| 2 | keyPeople „Ivan Jugović”, „Jovan Savić” (dve stavke) | greška (metapodaci) | visoka | Jedna stavka: „Ivan Jugović (Jovan Savić)” — tekst sam kaže da je reč o istoj osobi. | interna protivrečnost; Srpska enciklopedija „Ivan Jugović” |
+| 3 | „Smeštena u Donjem gradu, u jednoj od zgrada koje su tek otete od turske posade” (i „zgrada u Donjem gradu”, „sva je počinjala u Donjem gradu”; keyPlaces „Donji grad”) | sumnjivo | srednja | „Smeštena u varoši, na Dorćolu — u turskoj kući u današnjoj Gospodar Jevremovoj ulici, gde je danas Muzej Vuka i Dositeja…” | Politika, „Mala kuća Velike škole” (politika.rs/scc/clanak/55172); Fondacija Srpski legat, „Osnovana je Velika škola u Beogradu” |
+
+## Prvi srpski ustanak III (208–212)
+
+# Era V „Srpska revolucija” — dani 208–212 (kraj odeljka „Prvi srpski ustanak”)
+
+### Day 208 — Ustanak i Rusija
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Pod Napoleonovim pritiskom, i uplašena ruskim uspesima protiv Francuza, Porta je zatvorila moreuze…” | sumnjivo | srednja | „Pod francuskim uticajem, i ohrabrena Napoleonovom pobedom nad Rusima kod Austerlica, Porta je zatvorila moreuze…” (1806. Porta je delovala posle Austerlica i na podsticaj Sebastijanija, ne iz straha od ruskih uspeha) | balkanhistory.org, „Russo-Turkish War 1806–12”; en.wikipedia „Constantine Ypsilantis” (⚠ samo Wikipedia/popularni pregled) |
+| 2 | „Konstantin Rodofinikin … 1807. stigao u Beograd … i tu ostao do 1810.” | sumnjivo | srednja | „… koji je 1807. stigao u Beograd … i tu ostao do 1809, kada je pred osmanskom ofanzivom napustio Srbiju.” | Rodofinikin je stigao avgusta 1807, a avgusta 1809. je, sa Dobrnjcem i drugima, otišao u Austriju/Vlašku (sr.wikipedia „Prvi srpski ustanak” / „Odnosi Srbije i Rusije”, ⚠ samo Wikipedia; proveriti u ISN V/1) |
+| 3 | „…ograničenu samoupravu po vlaškom obrascu, pod sultanovim suverenitetom” (tumačenje člana 8) | greška | srednja | „… i ograničenu samoupravu (unutrašnju upravu i ubiranje danka), uz obećanje prava kakva uživaju ostrva Arhipelaga, pod sultanovim suverenitetom.” | Član 8: Porta daje Srbima „ista prava koja imaju njeni podanici na ostrvima Arhipelaga i drugde”, unutrašnju upravu i ubiranje danka (sr.wikipedia „Bukureški mir 1812.”, poziva se na Srpsku enciklopediju; isto preporodbn.com „Slom Prvog srpskog ustanka (II dio)”) |
+| 4 | „…povratak osmanskih posada u utvrđenja, razoružanje srpske vojske…” | sumnjivo | srednja | „…povratak osmanskih posada u stare gradove i rušenje utvrđenja podignutih tokom ustanka…” (razoružanje je bilo osmansko tumačenje i zahtev 1812–13, ne izričita odredba) | isti izvor kao #3 (član 8: vraćanje gradova s garnizonima i artiljerijom; rušenje ustaničkih utvrđenja „ukoliko nisu potrebna Turskoj”) |
+
+### Day 209 — Bukureštanski mir
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | summary: „…potpisan u Bukureštu 28. maja 1812, samo nedelju dana pred Napoleonov pohod…” | greška | visoka | „…manje od mesec dana pred Napoleonov pohod…” (28. maj → 24. jun ≈ 4 nedelje; tekst lekcije sam kaže „svega nekoliko nedelja”) | unutrašnja protivrečnost; Britannica „Treaty of Bucharest (1812)” |
+| 2 | „Vrhovnom zapovedniku ruske Dunavske armije, feldmaršalu Mihailu Kutuzovu…” | greška | visoka | „…generalu Mihailu Kutuzovu…” (feldmaršal tek posle Borodina, septembar 1812) | Britannica „Mikhail Illarionovich, Prince Kutuzov”; en.wikipedia „Mikhail Kutuzov” |
+| 3 | „Srbima je obećano da će sami upravljati „unutrašnjim poslovima” … po uzoru na status Vlaške i Moldavije” | greška | srednja | „…uz obećanje povlastica kakve su uživala ostrva Arhipelaga — to jest, ograničena samouprava…” | kao Day 208 #3 |
+| 4 | „I četvrto, srpska vojska morala je da bude raspuštena, a ustaničke utvrde predate ili razoružane.” | sumnjivo | srednja | „I četvrto, utvrđenja podignuta tokom ustanka imala su da budu porušena, ako Porti nisu potrebna.” (raspuštanje vojske nije doslovno u tekstu; to je osmansko tumačenje, koje lekcija ionako pominje u narednom pasusu) | kao Day 208 #3/#4 |
+
+### Day 210 — Slom Prvog ustanka
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Na jugu, prema Deligradu, branili su se Stevan Sinđelić i drugi koji su preživeli tek nekoliko godina pre toga čuveni Čegar.” (+ „Stevan Sinđelić” u keyPeople) | greška | visoka | „Na jugu, prema Deligradu, branile su se vojvode koje su preživele Čegar, gde je 1809. poginuo Stevan Sinđelić.” — i ukloniti Sinđelića iz keyPeople | Sinđelić je poginuo na Čegru 31. maja 1809 (en.wikipedia „Battle of Čegar”, „Stevan Sinđelić”; opšte mesto u ISN V/1 i kod Ćorovića) |
+| 2 | „Mladen Milovanović, dugogodišnji predsednik Praviteljstvujuščeg sovjeta…” | sumnjivo | srednja | „Mladen Milovanović, nekadašnji predsednik Sovjeta, a tada popečitelj vojni…” | predsednik Sovjeta oko 1807/8–1810; 1811–1813 popečitelj vojni (sr.wikipedia „Mladen Milovanović”, „Praviteljstvujušči sovjet serbski”; ⚠ samo Wikipedia) |
+| 3 | „Sa druge strane Drine, Save i Timoka, sultan Mahmud II rešio je…” | sumnjivo | srednja | „Sa druge strane Drine, Morave i Timoka…” (preko Save je bila Habsburška monarhija; ofanziva je išla iz Bosne, Niša i Vidina, kako lekcija i sama kaže u sledećem pasusu) | unutrašnja logika lekcije; granica Beogradskog pašaluka na Savi i Dunavu bila je prema Austriji |
+
+### Day 211 — Odmazda i stradanje
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „…nekima od starešina koji su prešli u Austriju ponuđen je oprost ako se vrate … Među onima koji su to prihvatili bio je i mladi Miloš Obrenović … koji se vratio u rudničku nahiju” | greška | visoka | „…Među starešinama koji uopšte nisu napustili zemlju bio je i Miloš Obrenović … koji se predao Turcima i postao obor-knez rudničke nahije” | Miloš je 1813. ostao u Srbiji, predao oružje Ali-agi Serčesmi u Takovu i dobio amnestiju i rudničku kneževinu (en.wikipedia „Serčesma”, „Miloš Obrenović”; preporodbn.com: u Srbiji su ostali Glavaš, Hadži-Prodan i Miloš) |
+| 2 | „Sulejman-paša Skopljak, čovek koji je već ranije bio beogradski vezir i koji se sada vraćao na staro mesto.” | greška | srednja | „Sulejman-paša Skopljak, bosanski zapovednik koji se protiv ustanika borio od 1804. i koji je sada postavljen za beogradskog vezira.” | Hrvatski opći leksikon (hol2.lzmk.hr, „Sulejman-paša Skopljak”): „kao beogradski valija (1813)”; en.wikipedia „Sulejman Pasha Skopljak” (Rudić & Pavlović 2016): postavljen posle sloma 1813 |
+| 3 | „U poređenju sa nekim od najsurovijih osmanskih zapovednika, smatran je umerenim — više državnikom nego krvnikom” | sumnjivo | srednja | „Iako je prema pojedinim knezovima u početku nastupao pomirljivo, ostao je upamćen po tvrdoj restauraciji i nasilju…” | HOL: „nametima i nasiljem izazvao Drugi srp. ustanak”; en.wikipedia (Rudić & Pavlović): odmazde, nabijanje na kolac |
+| 4 | „U planinskim skrovištima opstali su pojedini ratnici, među njima i Stanoje Glavaš…” | sumnjivo | srednja | „…Neki su se, poput Stanoja Glavaša, predali i primili tursku službu (Glavaš kao čuvar Carigradskog druma), ali su vlastima ostali sumnjivi.” | Glavaš se predao, vezir ga postavio da čuva Carigradski drum; ubijen februara 1815. (sr.wikipedia „Stanoje Glavaš”, ⚠ samo Wikipedia) |
+| 5 | „Već u jesen 1814. izbila je u kragujevačkom kraju kratka pobuna … Hadži-Prodana” | sumnjivo | srednja | „…izbila je kod manastira Trnave u požeškoj nahiji i prelila se na kragujevački kraj…” (Day 212 kaže „oko Trnave kod Čačka” — neusklađeno) | en.wikipedia „Hadži-Prodan's rebellion” (izbila u Trnavi; najjači otpor potom u kragujevačkoj nahiji); sr.wikipedia „Hadži Prodanova buna” (⚠ samo Wikipedia) |
+
+### Day 212 — Hadži-Prodanova buna
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Miloš Obrenović, kome je Suleyman-paša Skopljak … po povratku iz izbeglištva poverio položaj obor-kneza Rudničke nahije.” | greška | visoka | „…Miloš Obrenović, koji 1813. nije napustio Srbiju i kome su osmanske vlasti posle predaje poverile položaj obor-kneza Rudničke nahije.” | kao Day 211 #1 |
+| 2 | „Hadži-Prodan se … uspeo prebaciti preko Save u Austriju, gde je preživeo; u obnovljenu Srbiju vratiće se godinama kasnije…” | sumnjivo | srednja | „…prebaciti preko Save u Austriju; odatle je otišao u Vlašku, 1821. učestvovao u Grčkom ustanku i umro oko 1825. u Besarabiji.” | sr.wikipedia „Hadži Prodan Gligorijević” (poziva se na „Znameniti Srbi 19. veka”, str. 98–99); rokselana.com (⚠ samo Wikipedia i popularni izvori — proveriti u ISN V/1) |
+| 3 | „…kada su tokom septembra 1814. … počele da kruže vesti da turska vlast namerava da pohvata … bivše ustanike, Hadži-Prodan je odlučio da ne čeka” | sumnjivo | srednja | Dodati neposredni povod: „…a povod je bio sukob u manastiru Trnavi između ljudi požeškog muselima Latif-age i Srba predvođenih igumanom Pajsijem i Hadži-Prodanovim bratom.” (videti Sporno) | en.wikipedia „Hadži-Prodan's rebellion”; sr.wikipedia „Hadži Prodanova buna” (⚠ samo Wikipedia) |
+
+## Drugi ustanak i sticanje autonomije I (213–219)
+
+# Era V „Srpska revolucija" — Dani 213–219 (Drugi ustanak i sticanje autonomije, 1. deo)
+
+Izvori (skraćenice): **Ćorović 5.7** = V. Ćorović, „Istorija Jugoslavije", gl. 5.7 (Vikizvornik: https://sr.wikisource.org/wiki/Историја_Југославије_(В._Ћоровић)_5.7). **SE** = Srpska enciklopedija (srpskaenciklopedija.org; stranice se nisu otvarale zbog isteklog sertifikata, pa su korišćeni isečci iz pretrage).
+
+### Day 213 — Izbijanje Drugog ustanka
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „krajem septembra 1814, izbila je u kragujevačkoj nahiji Hadži-Prodanova buna" | greška | srednja | „krajem septembra 1814, kod manastira Trnave blizu Čačka, izbila je Hadži-Prodanova buna, koja se zatim prenela i u kragujevačku nahiju" | Ćorović 5.7: „Буна је избила у манастиру Трнави, у близини Чачка, а из чачанског краја пренела се у крагујевачку нахију."; SE „Други српски устанак" (isečak: Trnava kod Čačka, 27. IX 1814) |
+
+### Day 214 — Miloš Obrenović — vođa
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Pismen je bio koliko i mnogi trgovci njegovog kraja — to znači da je s mukom mogao da pročita pismo i potpiše se" | sumnjivo | srednja | „Bio je nepismen: i za čitanje i za pisanje, do kraja života, koristio je pisare." | Uobičajeno u literaturi da je Miloš bio nepismen (akt o abdikaciji 1839. potpisao je i overio sin Mihailo). ⚠ samo Wikipedia (sr.wikipedia „Милош Обреновић") i popularni tekstovi; proveriti kod M. Gavrilovića „Miloš Obrenović" |
+| 2 | „Prvo kao starešina manjih četa, potom kao kapetan, da bi vremenom postao knez rudničke nahije" (u Prvom ustanku) | sumnjivo | srednja | „… da bi vremenom postao vojvoda" — u Prvom ustanku Miloš je nosio čin vojvode; kneževsku titulu (obor-knez, baš-knez) dobija tek od Turaka 1813/14. | ⚠ samo Wikipedia (vojvoda od 1805); Ćorović 5.7 (baš-knez tek 26. VII 1814) |
+
+### Day 215 — Takovo i početak ustanka
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „posle sedam godina otvorenog rata i nekoliko godina ponovne potčinjenosti" | greška | visoka | „posle devet godina ustanka i godinu i po dana ponovne potčinjenosti" | Unutrašnja nedoslednost: Prvi ustanak 1804–1813 (Day 213: „gotovo deset godina ustaničke države"), slom X 1813 → Takovo IV 1815; Ćorović 5.7 |
+
+### Day 216 — Vojne pobede 1815.
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Iz Bosne je prema pašaluku pošao veliki korpus pod komandom Imšir-paše … sam Imšir-paša je poginuo" (i summary: „kod Dublja … razbijaju Imšir-pašin korpus") | greška | visoka | Imšir-paša (Sulejmanov ćehaja) poginuo je na **Ljubiću** kod Čačka. Za Dublje: „Iz Bosne je prema pašaluku pošla vojska pod Ibrahim-pašom … turska vojska je razbijena, a sam Ibrahim-paša zarobljen (Miloš ga je potom pustio)". Summary: „…kod Dublja kraj Šapca razbijaju vojsku pristiglu iz Bosne". Imširovu pogibiju preneti u pasus o Ljubiću. | Ćorović 5.7: „случајна погибија Имшир-пашина смела је Турке" (Ljubić); na Dublju, 14. jula, Miloš „ослобађа заробљеног Ибрахим-пашу"; SE „Бој на Љубићу" (isečak: poginuo „Ћаја Имшир-паша") |
+| 2 | „Ustanici su, pod komandom Stojana Čupića i drugih vojvoda iz zapadne Srbije, dočekali Imšir-pašu … kod Dublja" | greška | visoka | „Ustanici su, pod Miloševim vođstvom i sa vojvodama iz zapadne Srbije, dočekali bosansku vojsku…" — Čupić je 1815. izdat Turcima i pogubljen u Zvorniku; na Dublju nije komandovao. (Na Dublju su poginuli vojvode Milić Drinčić i Sima Nenadović.) | SE „Стојан Чупић" (isečak: pogubljen u turskom zatvoru u Zvorniku 1815); ⚠ sr.wikipedia „Бој на Дубљу" za imena vojvoda |
+| 3 | „u ustaničke ruke pao je veliki deo turske artiljerije, baruta i komore" | sumnjivo | srednja | ublažiti: „a ustanicima je pao u ruke znatan ratni plen" | izvor nije nađen za zaplenu artiljerije; Ćorović 5.7 govori samo o razbijanju turske vojske i zarobljavanju paše |
+| 4 | „Nije pokušao da pred Carstvo izađe kao samostalna država, niti je prešao na desnu obalu Save i Dunava." | greška | visoka | „…niti je rat prenosio preko Save i Dunava" (desna obala Save i Dunava je upravo srpska strana) | geografija; ista lekcija ispravno kaže da je Palež „na desnoj obali Save" |
+
+### Day 217 — Diplomatsko rešenje
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Posle pobeda kod Ljubića, Palež-Požege i, najvažnije, kod Dublja, gde je Imšir-paša bio razbijen" | greška | visoka | „Posle pobeda kod Ljubića, Paleža i, najvažnije, kod Dublja, gde je razbijena vojska pristigla iz Bosne" (Palež = Obrenovac, nije Požega; Imšir je poginuo na Ljubiću) | Ćorović 5.7; Day 216 (Palež = Obrenovac) |
+| 2 | „U martu 1815. Napoleon je pobegao s Elbe, vratio se u Pariz" | greška | visoka | „Krajem februara 1815. Napoleon je pobegao s Elbe, a u martu se vratio u Pariz" (bekstvo 26. II, iskrcavanje 1. III, Pariz 20. III) | opšte poznato; Britannica, „Hundred Days" |
+
+### Day 218 — Usmena pogodba sa Portom
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „takovski knez koji je u martu digao ustanak" | greška | visoka | „…koji je u aprilu digao ustanak" | Day 215 (Cveti 11/23. april 1815); Ćorović 5.7 („На Цвети, 11. априла год. 1815.") |
+| 2 | Summary: „prvi put posle pet vekova ostavlja domaću upravu u nahijama"; tekst: „prvi put posle pet vekova u Beogradskom pašaluku postojao je jasno odeljen domaći srpski politički subjekt" | greška | visoka | „prvi put uz priznanje same Porte …" — od pada Despotovine (1459) prošlo je oko tri i po veka, a domaću upravu već je imala Karađorđeva Srbija 1804–1813 | hronologija; Day 213 („gotovo deset godina ustaničke države") |
+| 3 | „Miloš je u tom dogovoru priznat kao „veliki knez” beogradske nahije" | sumnjivo | srednja | „Miloš je u tom dogovoru prećutno priznat kao vrhovni knez (baš-knez) Srba u pašaluku" — nije bio knez beogradske nahije; baš-knez rudničke, kragujevačke i čačanske nahije bio je već od jula 1814, a naslednim knezom proglasila ga je skupština u novembru 1817. | Ćorović 5.7 (26. VII 1814; 6. XI 1817) |
+
+### Day 219 — Miloš učvršćuje vlast
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Marko Todorović Abdula, ugledni knez iz požarevačkog kraja, smaknut je 1825. zbog navodne zavere" | greška | srednja | „Marko Todorović Abdula, knez požarevačke nahije, digao je 1821. sa Stevanom Dobrnjcem bunu protiv Miloša; pomilovan je i smenjen, a 1823. ubijen iz zasede u Požarevcu" | SE „Абдула Марко Тодоровић" (isečak: 1780–1823, Požarevac); sr.wikipedia „Марко Тодоровић (кнез)" (po M. Đ. Milićeviću: Abdulina buna 25. III – 9. IV 1821, pomilovan, ubijen iz potaje 1823) |
+| 2 | „Miloje Petrović, jedan od prvaka koji se nije uklapao, takođe je nastradao" | greška | srednja | izbaciti ili zameniti: „…a 1817. smaknuti su i Sima Marković i Pavle Cukić" — Miloje Petrović Trnavac pogubljen je 1810. po Karađorđevom, ne Miloševom nalogu (u keyPeople takođe zameniti) | sr.wikipedia „Милоје Петровић" (po Milićeviću i Vuku Karadžiću: pogubio ga Luka Lazarević 1810); Ćorović 5.7 (Marković i Cukić, 1817) |
+| 3 | „Petar Moler, koji je u jednom trenutku stajao uz njega kao narodni sekretar, završio je tako što je 1816. godine ubijen po Miloševom nalogu" | sumnjivo | srednja | „Petar Nikolajević Moler, predsednik Narodne kancelarije, ubijen je 1816. u Beogradu — pogubio ga je Marašli Ali-paša na Miloševo insistiranje" | Ćorović 5.7 („натерао Марашлију у мају год. 1816. да овога даде убити"); SE „Петар Николајевић Молер" (predsednik Narodne kancelarije 1815–1816) |
+| 4 | „Dimitrije Davidović … koji od sredine dvadesetih godina ulazi u Miloševu službu" | greška | srednja | „…koji 1821. prelazi u Srbiju i ubrzo ulazi u Miloševu službu kao sekretar kneževe kancelarije" | SE „Димитрије Давидовић" (isečak); Narodna biblioteka Ćuprija, „Istorijska čitanka" (prešao 1821, sekretar do 1829) |
+
+## Drugi ustanak i sticanje autonomije II (220–225)
+
+### Day 220 — Sukob Miloša i Karađorđa
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „U noći između 13. i 25. jula 1817, prema starom i novom kalendaru” | greška (formulacija daje „noć” od 12 dana; 13. i 25. jul su isti dan u dva kalendara) | visoka | „U noći uoči 13. jula 1817. (25. jula po novom kalendaru)” | en.wikipedia „Karađorđe” (25. jul [st. 13. jul] 1817) kao pokazivač; RTS „Radovanjski lug – sećanje na Karađorđa” (rts.rs/lat/vesti/drustvo/2820816) |
+| 2 | „Karađorđu je presečen vrat dok je još bio u snu.” | sumnjivo | srednja | „Karađorđa je, po predanju, Nikola Novaković udario sekirom dok je spavao; glava mu je potom odsečena.” | danas.rs „Na današnji dan ubijen Karađorđe”; rtv.rs „Vremeplov: Ubijen Karađorđe” (neposredni izvršilac Novaković, sekirom) |
+| 3 | „Što je Miloš to naredio — … makar to dvor nikad nije zvanično priznao” | sumnjivo (u napetosti sa istom lekcijom: glava je poslata veziru i Porti „kao dokaz da knez srpski stoji čvrsto uz Portu”, tj. Miloš je ubistvo prijavio vlastima) | srednja | „makar to pred narodom nikad nije otvoreno priznao” | unutrašnja protivrečnost lekcije; izvor za preciznu formulaciju nije nađen |
+
+### Day 221 — Postepeno sticanje autonomije
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Pogodba nije bila zapisana, nije bila potvrđena fermanom, nije imala međunarodnog svedoka.” | sumnjivo (Porta je tokom zime 1815/1816. izdala niz fermana kojima je delimično potvrdila dogovor: porez, amnestija, Narodna kancelarija) | srednja | „Pogodba nije bila zapisana kao ugovor; fermani iz 1816. potvrdili su tek deo dogovorenog, bez međunarodnog svedoka.” | sr.wikipedia „Marašli Ali-paša” / „Miloš Obrenović” (osam fermana 1815–1816) — ⚠ samo Wikipedia; proveriti u ISN V-1 i Ljušić „Kneževina Srbija” |
+
+### Day 222 — Hatišerifi i priznanje autonomije
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Tako se 1830. godine, krajem avgusta, u Beogradu svečano čita prvi hatišerif” | greška | visoka | „Hatišerif, izdat 1830, svečano je pročitan u Beogradu na Andrijevdan, 30. novembra (12. decembra) 1830.” | Beogradsko nasleđe (Zavod za zaštitu spomenika) „Mesto čitanja hatišerifa iz 1830. godine” (beogradskonasledje.rs); sr.wikipedia „Hatišerif iz 1830.” (poziva se na Ljušić, ISN V-1) |
+| 2 | „Šest nahija … koje su faktički ostale pod srpskom upravom i posle Bukureštanskog mira … koje je Miloš godinama čuvao kao svršenu činjenicu” | greška (posle 1813. nahije su bile pod osmanskom vlašću; Miloš ih je zaposeo vojskom tek 1833, posle buna koje je podsticao) | visoka | „Šest nahija koje su bile deo Karađorđeve Srbije, a posle 1813. ostale pod turskom vlašću … Miloš ih je 1833, podstičući bune, zaposeo vojskom, a hatišerif je to potvrdio.” | sr.wikipedia „Hatišerif iz 1833.” (okupirane od Osmanlija posle 1813); aleksinac.net „Istorijski značaj oslobođenja Aleksinca 1833.”; Ljušić „Kneževina Srbija” (proveriti) |
+| 3 | „Krajina, Crna Reka, Banja, Aleksinac, Kruševac i Paraćin činili su pojas duž istočne i južne granice” | sumnjivo (uobičajeni spisak: Krajina, Crna Reka, Paraćin, Kruševac, Stari Vlah, Jadar s Rađevinom — dakle i zapadne oblasti; Banja i Aleksinac jesu pripojeni 1833, ali u sklopu drugačijeg nabrajanja) | srednja | „Krajina, Crna Reka, Paraćin, Kruševac, Stari Vlah i Jadar s Rađevinom — oblasti na istoku, jugu i zapadu” | sr.wikipedia „Hatišerif iz 1833.” — ⚠ samo Wikipedia; proveriti u ISN V-1 |
+| 4 | „U decembru 1833. godine sultan izdaje drugi hatišerif” | sumnjivo (akt potpisan u novembru, u Kragujevac stigao 4. decembra, pročitan na Trifunskoj skupštini februara 1834) | srednja | „Krajem 1833. godine sultan izdaje drugi hatišerif” | sr.wikipedia „Hatišerif iz 1833.” — ⚠ samo Wikipedia |
+| 5 | keyPeople: „Hadži-Prodan” | greška (metapodatak: Hadži-Prodan Gligorijević umro je 1825, ne pominje se u tekstu i nema veze sa hatišerifima 1830/1833) | srednja | ukloniti iz keyPeople | en.wikipedia „Hadži-Prodan” (c. 1760–1825) — pokazivač; Wikidata Q1567647 |
+
+### Day 223 — Sretenjski ustav
+ok — bez nalaza. (Davidovićeve „prve srpske novine” — v. Sporno.)
+
+### Day 224 — Turski ustav iz 1838.
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Sultan Mahmud II … umro je u leto 1839. godine, pa je konačnu redakciju i izdavanje hatišerifa formalno potpisao njegov mladi naslednik Abdul Medžid. Sam dokument je nosio decembarski datum 1838.” | greška (i unutrašnja protivrečnost: akt iz decembra 1838. ne može potpisati sultan koji je stupio na presto jula 1839; Turski ustav izdao je Mahmud II, tekst je srpskoj deputaciji u Carigradu predat 10. decembra 1838) | visoka | „Hatišerif je izdao sultan Mahmud II u decembru 1838. godine; u Srbiji je dobio ime …” — i ukloniti „Abdul Medžid” iz keyPeople | en.wikipedia „1838 Constitution of Serbia” (promulgated by Mahmud II, Dec 1838); sr.wikipedia „Hatišerif” (10. decembar 1838); Hacettepe CTAD 9/17 „Sırp Knezliği’nde İktidar Mücadelesi: 1838 Türk Anayasası” |
+
+### Day 225 — Abdikacija kneza Miloša
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „[Milan] umro je dvadeset šestog juna, po novom kalendaru osmog jula 1839, ne navršivši ni dvadeset šestu godinu.” | greška (rođen 21. oktobra 1819 → umro sa 19 godina) | visoka | „… ne navršivši ni dvadesetu godinu.” | en.wikipedia „Milan Obrenović, Prince of Serbia” (1819–1839); sh.wikipedia „Milan Obrenović (knez)” |
+| 2 | „Mihaila Obrenovića, koji je imao tek šesnaest godina” | greška (rođen 16. septembra 1823 → u julu 1839. imao je 15 godina) | srednja | „koji je imao tek petnaest godina” | sr.wikipedia „Mihailo Obrenović”; 025.rs „Na današnji dan 1823. rođen Mihailo Obrenović” |
+| 3 | „Kada je u jesen 1838. godine u Beograd stigao sultanov hatišerif” | greška (tekst je srpskoj deputaciji predat u Carigradu tek 10. decembra 1838, a u Srbiji proglašen 1839; protivreči i Danu 224 „decembarski datum 1838.”) | srednja | „Kada je početkom 1839. godine u Srbiju stigao sultanov hatišerif” | sr.wikipedia „Hatišerif” (10. decembar 1838); en.wikipedia „1838 Constitution of Serbia” (pročitan 1839) |
+| 4 | „Sovjetom, telom od sedamnaest doživotnih savetnika koje knez više nije mogao ni da postavi ni da smeni po svojoj volji” | sumnjivo (po ustavu iz 1838. knez je postavljao savetnike, ali ih nije mogao smeniti bez pristanka Porte; tako kaže i Dan 224) | srednja | „koje knez, jednom postavljene, više nije mogao da smeni po svojoj volji” | Dan 224 iste lekcije; en.wikipedia „1838 Constitution of Serbia” |
+| 5 | „U Srbiju će se vratiti tek 1858. godine, kada ga Svetoandrejska skupština ponovo pozove na presto” | greška (skupština ga je pozvala decembra 1858, a Miloš je u Beograd ušao januara 1859) | srednja | „Svetoandrejska skupština ponovo ga je krajem 1858. pozvala na presto, a u Srbiju se vratio početkom 1859.” | sr.wikipedia „Miloš Obrenović” (izgnanstvo 1839–1859); velikipark.com „Svetoandrejska skupština zbacila Aleksandra…” |
+
+## Ustavi i dinastičko rivalstvo (226–230)
+
+# Era V — Srpska revolucija, dani 226–230 (sekcija „Ustavi i dinastičko rivalstvo”)
+
+### Day 226 — Knez Mihailo — prva vladavina
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „sedamnaestogodišnjeg Mihaila, rođenog 1823.” (i summary: „Sedamnaestogodišnji Mihailo Obrenović preuzima presto”) | greška (i unutrašnja nedoslednost: rođen 16. 9. 1823, na presto jul 1839 → 15/16 godina) | visoka | „šesnaestogodišnjeg Mihaila” / „Šesnaestogodišnji Mihailo” | Srpska enciklopedija / sr.wikipedia „Mihailo Obrenović” (rođen 16. 9. 1823, Kragujevac); ISN V/1 |
+| 2 | „Doveo je u zemlju oca Miloša na kratko” | greška — Miloš je 1839–1858/59. ostao u izgnanstvu, u Srbiju se nije vraćao za prve Mihailove vladavine | visoka | izbaciti; npr. „Oslanjao se na strica Jevrema i majku Ljubicu, pokušao da na ključna mesta dovede svoje pristalice…” | ISN V/1; sr.wikipedia „Mihailo Obrenović” (otac u izgnanstvu, majka Ljubica aktivna) |
+| 3 | „Vučićeva buna, sa središtem oko Vragolova i sa okupljanjem prvaka među kojima se ističe Toplo Đorđević” (+ keyPlaces „Vragolovi”; zaključni pasus „u Vragolovima i Topčideru”) | sumnjivo — izvor nije nađen ni za „Vragolove” (jedino takvo selo je kod Rogatice u BiH) ni za „Topla Đorđevića”; buna je išla preko Smedereva i Kragujevca, odlučni sukob 4. 9. 1842. kod Kragujevca | srednja | „…Vučićeva buna, čije je središte bio Kragujevac: Vučić je tamo preuzeo topove i stajaću vojsku, a Mihailova vojska je 4. septembra 1842. razbijena kod grada.” Izbaciti „Toplo Đorđević” i „Vragolovi” (i iz keyPlaces); u poslednjem pasusu „kod Kragujevca” | sr.wikipedia „Toma Vučić Perišić” i „Mihailo Obrenović”; prviprvinaskali.com „Gospodar Vučić 1842. sa Metinog brda bombardovao Kragujevac” (lokalna istoriografija); ISN V/1 |
+| 4 | „Mihailo je … abdicirao i napustio Srbiju” | greška — Mihailo nije abdicirao; prebegao je u Zemun (6. 9. 1842), a nova vlast i skupština na Vračaru su ga smenile i izabrale Aleksandra | srednja | „Mihailo je … prebegao preko Save u Zemun, a nova vlast ga je proglasila svrgnutim.” | sr.wikipedia „Mihailo Obrenović” (bekstvo u Zemun, bez abdikacije); Ljušić, „Istorija srpske državnosti” |
+| 5 | „Mihailo će se u Srbiju vratiti tek 1860. godine” | greška — vratio se početkom 1859. (posle Svetoandrejske skupštine; ušao preko Gurgusovca, koji je tada nazvan Knjaževac), a knez je ponovo postao u septembru 1860. | srednja | „Mihailo će se u Srbiju vratiti tek 1859, a na presto 1860. godine” | sr.wikipedia „Mihailo Obrenović” (⚠ proveriti u ISN V/1) |
+
+### Day 227 — Ustavobranitelji dolaze na vlast
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Toma Vučić Perišić, čovek vojničkog porekla iz Tršića” | greška — Tršić je Vukovo selo; Vučić je rođen 1787/88. u Posavini (Barič kod Obrenovca; deo literature navodi Barzilovicu) | visoka | „čovek vojničkog porekla iz Posavine” | sr.wikipedia „Toma Vučić Perišić” (Barič); en.wikipedia; Srpski biografski rečnik (proveriti) |
+| 2 | „Septembra 1842, posle Mihailovog odlaska, Sovjet je izabrao Aleksandra Karađorđevića za kneza” | greška — Aleksandra je 14. 9. 1842. proglasila narodna skupština u logoru na Vračaru, na predlog privremene vlade | srednja | „…narodna skupština na Vračaru proglasila je Aleksandra Karađorđevića za kneza” | sr.wikipedia „Toma Vučić Perišić” (proglašenje „u logoru na Vračaru”); Ljušić, „Istorija srpske državnosti”; S. Jovanović, „Ustavobranitelji i njihova vlada” |
+| 3 | „ruska saglasnost je 1843. data, a Aleksandar je sa novim, slabijim ovlašćenjima ostao na prestolu” | sumnjivo — drugi izbor (jun 1843) nije doneo nova, slabija ovlašćenja; ruski uslov je bio ponovni izbor i privremeno udaljavanje Vučića i Petronijevića iz Srbije; izvor za „slabija ovlašćenja” nije nađen | srednja | „…a Aleksandar je, ponovo izabran, ostao na prestolu, dok su Vučić i Petronijević na ruski zahtev morali privremeno da napuste Srbiju” | izvor nije nađen onlajn (preporuka: Jovanović, „Ustavobranitelji i njihova vlada”) |
+| 4 | „U narednim godinama … ustanoviti Liceum kao klica buduće više škole” | greška — Licej je osnovao Miloš 1838. u Kragujevcu, a 1841. je preseljen u Beograd — pre dolaska ustavobranitelja | visoka | „…proširiti Licej (osnovan još 1838)” ili izbaciti Licej iz nabrajanja | Univerzitet u Kragujevcu, stranica „Liceum” (uni.kg.ac.rs/liceum.php); sr.wikipedia „Liceum Knjažestva serbskog” |
+
+### Day 228 — Vučić i Petronijević
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „U proleće 1859. obojica su se zatekla u Carigradu … Tamo su, u razmaku od nekoliko nedelja, obojica umrla.” | greška — Petronijević je umro 22. 4. 1852. u Carigradu na diplomatskoj misiji (sahranjen kod Sv. Petke na Bosforu); Vučić je umro 13. 7. 1859. u Beogradu, kao zatvorenik (vojna bolnica), posle hapšenja po Miloševom povratku | visoka | Prepisati pasus: „Petronijević je umro još 1852, u Carigradu, na diplomatskoj misiji. Vučića je Miloš po povratku 1859. dao uhapsiti; umro je u julu iste godine kao zatvorenik u Beogradu, a savremenici (i britanski konzul) odmah su pisali da je otrovan — što nikada nije dokazano.” | SANU (sanu.ac.rs, „Petronijević Avram”); dipos.rs; en.wikipedia „Avram Petronijević”; sr.wikipedia „Toma Vučić Perišić” |
+| 2 | „Toma Vučić Perišić rođen je oko 1788. godine u okolini Užica.” | greška — rođen u Posavini (Barič kod Obrenovca, ili Barzilovica), ne kod Užica | visoka | „rođen je oko 1788. u Posavini, kod Obrenovca” | sr.wikipedia „Toma Vučić Perišić”; en.wikipedia |
+| 3 | „Rođen 1791. godine u porodici cincarskog porekla” (i podnaslov „diplomata cincarskog porekla”) | sumnjivo — izvor za cincarsko poreklo nije nađen; pouzdano je rođenje 1791. u Tekiji na Dunavu i školovanje u Oršavi | srednja | „Rođen 1791. u Tekiji na Dunavu, …”; podnaslov: „diplomata iz Tekije” | SANU; dipos.rs; en.wikipedia |
+| 4 | „Godinama je bio ministar inostranih dela, kasnije i finansija” | sumnjivo — izvori ga navode kao popečitelja inostranih dela i višestrukog predstavnika vlade (predsednika vlade), ne ministra finansija | srednja | „…ministar inostranih dela, a potom i predstavnik (predsednik) vlade” | dipos.rs; en.wikipedia (⚠ proveriti u ISN V/1) |
+| 5 | „Pod Milošem je dospeo do kapetana, kasnije do generala” | sumnjivo — Vučić je nosio zvanje vojvode (1844) i titulu „prevashoditeljstvo”, ne generalski čin | srednja | „…kasnije do zvanja vojvode” | ⚠ samo Wikipedia (sr.wikipedia „Toma Vučić Perišić”) |
+| 6 | „Sovjet je proglasio Mihailovu vlast za nepostojeću … Na njegovo mesto izabran je Aleksandar” | sumnjivo — smenu i izbor sproveli su privremena vlada i skupština na Vračaru, ne Sovjet | srednja | „…privremena vlada i skupština na Vračaru proglasile su Mihaila svrgnutim” | kao Day 227 #2 |
+
+### Day 229 — Karađorđevići i Obrenovići
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „nijedan srpski vladar tog veka nije umro prirodnom smrću na prestolu. Svaki je otišao kroz abdikaciju, svrgavanje, atentat ili prevrat.” | greška (i unutrašnja protivrečnost: isti tekst kaže da je Miloš vraćen na presto i „umro je dve godine kasnije”) — Milan Obrenović umro je na prestolu 1839, a Miloš 1860, obojica prirodnom smrću | visoka | „…retko je koji srpski vladar tog veka umro na prestolu — izuzeci su teško bolesni Milan (1839) i ostareli Miloš (1860); svi ostali su otišli kroz abdikaciju, svrgavanje, atentat ili prevrat.” | en.wikipedia „Milan Obrenović, Prince of Serbia” i „Miloš Obrenović” (umro na vlasti); ISN V/1 |
+| 2 | „Nasledio ga je sin Mihailo I … opet Mihailo, sada kao Mihailo II” (preskočen Milan 1839) | greška — u rednim brojevima dinastije Mihailo je Mihailo III (Miloš I, Milan II, Mihailo III, Milan IV); pre Mihaila je nekoliko nedelja vladao Milan | visoka | „Nasledio ga je, posle nekoliko nedelja vladavine teško bolesnog Milana, sin Mihailo…” i „nasledio ga je opet Mihailo” (bez rednih brojeva ili „Mihailo III”) | sr.wikipedia „Mihailo Obrenović” (Mihailo III); en.wikipedia „House of Obrenović” |
+| 3 | „Tek tada se, posle više od osam decenija, presto vratio drugoj kući” | greška — Karađorđevići su izgubili presto 1858; do 1903. prošlo je 45 godina (lekcija sama navodi Aleksandra 1842–1858) | visoka | „posle četiri i po decenije” | unutrašnja provera |
+| 4 | „presto je dobio njegov maloletni sinovac Milan Obrenović” | sumnjivo — Milan je unuk Jevrema, brata kneza Miloša, tj. sin Mihailovog brata od strica, ne sinovac u užem smislu | srednja | „njegov maloletni rođak Milan Obrenović” | en.wikipedia „Jevrem Obrenović”, „Milan I of Serbia” (⚠ uglavnom Wikipedia) |
+| 5 | metapodaci: `year: 1820`, `dateLabel: "od 1817."` | sumnjivo — godina ne odgovara ni tekstu ni oznaci | srednja | `year: 1817` | unutrašnja provera |
+
+### Day 230 — Nasleđe Srpske revolucije
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Leopold Ranke 1829. godine u Berlinu objavio knjigu ‚Die serbische Revolution'” | greška — knjiga je izašla u Hamburgu, kod Friedricha Perthesa | visoka | „1829. godine objavio” (bez Berlina) ili „u Hamburgu objavio” | Deutsche Digitale Bibliothek (Ranke, Die serbische Revolution, Hamburg: Perthes 1829); ÖNB digital; digitale-sammlungen.de (BSB) |
+| 2 | „dao je tridesetogodišnjem nizu ustanaka” (u 1829) | sumnjivo — 1829. je od 1804. prošlo 25 godina | srednja | „četvrtvekovnom nizu” | unutrašnja provera |
+| 3 | „Stari osmanski poredak … počivao je na čifluku — na tome da je zemlja krajnje vlasništvo spahije … Miloš je sistematski otkupljivao spahijska prava i isplaćivao bivše vlasnike” | sumnjivo — meša spahiluk (timar: zemlja sultanova, spahija ima pravo na dažbine) i čitluk; feudalni odnosi ukinuti su hatišerifima 1830/1833. i Sretenjskim ustavom 1835, a spahije je obeštećivala Porta iz godišnjeg danka, ne Miloš pojedinačnim otkupom | srednja | „…počivao je na spahiluku — zemlja je bila sultanova, a spahija je od seljaka ubirao dažbine. Hatišerifi 1830. i 1833. i Sretenjski ustav 1835. ukinuli su te odnose; spahije su obeštećene iz danka koji je Srbija plaćala Porti. Iz toga je nastalo slobodno seljaštvo…” | scindeks.ceon.rs: „Hatišerifi iz 1830. i 1833. godine i zemljišna svojina u Srbiji” (Zbornik radova PF Novi Sad); ISN V/1 |
+
+## Doslednost između lekcija (cela era)
+
+_Nalazi koje vidi samo poređenje lekcija; deo se poklapa sa nalazima po lekcijama iznad (ista ispravka)._
+
+# Era V „Srpska revolucija" (Days 196–230): provera doslednosti između lekcija
+
+Poređenje sa Days 186–195 i 231–240 tamo gde se teme preklapaju. Samo čitanje; ništa u `content/` nije menjano.
+
+### Day 196 — Šta je Srpska revolucija
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „trajao svega nekoliko nedelja pre nego što su ga ruski i austrijski protesti suspendovali" (u Day 223 stoji: „pod pritiskom Porte, Rusije i Austrije"; Day 230: „Carigrada, Beča i Petrograda") | sumnjivo | srednja | „…pre nego što je, pod pritiskom Porte, Rusije i Austrije, suspendovan" | Ćorović, Istorija srpskog naroda (rastko.rs, gl. o Milošu); usklađivanje sa Day 223/230 |
+| 2 | „od dahijskog terora i seče knezova, preko Misara, …" (dahije i Seča knezova su Day 189–190, u Eri IV; u Day 203 „Mišar") | sumnjivo | visoka | „sve što sledi u Eri V — od Orašca, preko Mišara, Deligrada i Negotina…“ (i ispraviti slovnu grešku „Misara“ → „Mišara“) | struktura kursa (eras.json, Day 189/190) |
+
+### Day 198 — Karađorđe Petrović
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Kada su starešine 15. februara 1804. godine u Orašcu…" (u Day 197/199/190 stoji: „2. februara po starom — 14. februara po novom kalendaru") | greška | visoka | „na Sretenje, 2. (14.) februara 1804.“. Datum 15. februar je današnji Dan državnosti, tj. 2. februar preračunat sa razlikom od 13 dana koja važi od 1900. godine; u 19. veku razlika je bila 12 dana | Julijanski/gregorijanski pomak 12 dana u 19. veku; Day 199 tp „2/14. februar 1804.“ |
+
+### Day 201 — Organizacija ustaničke vlasti
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Na zboru u Pećanima 1805. godine … formiran je prvi stalni savet — preteča Praviteljstvujuščeg sovjeta" (u Day 202 stoji: sovjet je nastao na skupštini „u Borču … u leto 1805.") | greška | srednja | Savet je osnovan na skupštini u Borku (Veliki Borak, Beogradska nahija) avgusta 1805. Pećane pomenuti samo kao prolećnu skupštinu 1805. na kojoj se raspravljalo o pregovorima sa Portom, bez tvrdnje da je tu nastao savet | MO RS, „Osnivanje Praviteljstvujuščeg sovjeta – 27. avgust 1805.“ (mod.gov.rs); sr.wikipedia „Praviteljstvujušči sovjet serbski“ (samo kao putokaz) |
+| 2 | „Prota Matija" (u Day 202 stoji: „prote Mateje") | sumnjivo | srednja | Izabrati jedan oblik imena za ceo kurs (npr. „prota Mateja Nenadović") | usklađivanje |
+
+### Day 202 — Praviteljstvujušči sovjet
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „skupština u Borču, u rudničkom kraju, u leto 1805." (u Day 201 stoji: „u Pećanima") | greška | visoka | „skupština u Borku (Veliki Borak kod Beograda), 14/15. (26/27.) avgusta 1805.“. Mesto je Borak, ne Borač, i nalazi se u Beogradskoj nahiji, ne u rudničkom kraju | MO RS (mod.gov.rs, 27. avgust 1805); CK Barajevo, „Praviteljstvujušči sovjet serbski“ (kuća kneza Sime Markovića u Velikom Borku) |
+
+### Day 205 — Oslobođenje Beograda
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | tp „30. nov 1806 – 8. jan 1807." i „U noći između 30. novembra i 1. decembra 1806" pored „8. januara 1807. po novom kalendaru — po starom 27. decembra 1806" | greška | visoka | Mešaju se kalendari: 30. novembar je datum po starom kalendaru (Andrijevdan), a 8. januar po novom. Tp: „30. nov. (12. dec.) 1806 – 27. dec. 1806 (8. jan. 1807)“; u tekstu „u noći uoči Andrijevdana, 30. novembra (12. decembra) 1806.“ | sr.wikipedia „Opsada Beograda (1806)“ (putokaz: juriš 12. decembra / 30. novembra); Mitropolija CP, „Ljetopis: Oslobođenje Beograda 1806.“ |
+| 2 | „Suleyman-paše Skopljaka" (u Day 203/211/213 stoji: „Sulejman-paša") | sumnjivo | visoka | „Sulejman-paša Skopljak“ (isto i u keyPeople) | usklađivanje |
+
+### Day 207 — Prosveta i Velika škola
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | podnaslov „ustanička Srbija 1808. godine … dobila prvu višu školu i prvog ministra prosvete" (u Day 202/206 stoji: popečiteljstva su uvedena uređenjem iz 1811.) | greška | srednja | „1808. dobila prvu višu školu, a 1811. u Dositeju i prvog popečitelja prosveščenija“ | Day 202/206 (reforma 1811); Ćorović, Istorija srpskog naroda, gl. o Prvom ustanku (rastko.rs) |
+
+### Day 208 — Ustanak i Rusija
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „borbama oko Negotinske Krajine i Štubika, gde će kasnije, već 1813, poginuti i Hajduk-Veljko" (u Day 210 stoji: „Hajduk Veljko je u Negotinu poginuo") | sumnjivo | visoka | „…u Negotinskoj krajini, gde će 1813, braneći Negotin, poginuti Hajduk Veljko“ (bez crtice u imenu, kao u Day 204/210) | Day 210; opšte poznato (Negotin, 1813) |
+| 2 | „Rodofinikin" (u Day 204 stoji: „Rodofinjikin") | sumnjivo | visoka | Svuda „Rodofinikin“ (ispraviti Day 204) | usklađivanje |
+
+### Day 209 — Bukureštanski mir
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | sažetak: „samo nedelju dana pred Napoleonov pohod" (u tekstu iste lekcije stoji: 28. maj, pa „Napoleon, 24. juna … prešao Njemen", tj. „nekoliko nedelja") | greška | visoka | „manje od mesec dana pred Napoleonov pohod“ | unutrašnja doslednost (28. maj → 24. jun 1812) |
+
+### Day 210 — Slom Prvog ustanka
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Na jugu, prema Deligradu, branili su se Stevan Sinđelić i drugi koji su preživeli … čuveni Čegar" (u Day 204 stoji: na Čegru 1809. Sinđelić je „raznetom barutanom poveo svoje ljude i napadače u zajedničku smrt") | greška | visoka | Izbaciti Sinđelića: „Na jugu, kod Deligrada, branili su se Petar Dobrnjac i Mladen Milovanović…“ (ili drugi proverljivi zapovednici) | Day 204; Sinđelić je poginuo na Čegru 31. maja 1809. |
+
+### Day 211 — Odmazda i stradanje
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „u jesen 1814. izbila je u kragujevačkom kraju kratka pobuna … Hadži-Prodana" (u Day 212 stoji: „u kraju oko Trnave") | sumnjivo | srednja | „izbila je kod manastira Trnave u Požeškoj nahiji (kod Čačka) i proširila se na kragujevačku i jagodinsku nahiju“ | sr.wikipedia „Hadži Prodanova buna“ (putokaz); zvucisrbije.rs (Trnava kod Čačka, 1814.) |
+
+### Day 212 — Hadži-Prodanova buna
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „kome je Suleyman-paša Skopljak … po povratku iz izbeglištva poverio položaj obor-kneza" (u Day 213/214 stoji: Miloš „nije pobegao preko Save; ostao je u zemlji") | sumnjivo | srednja | Rečenicu jasno vezati za vezira ili je izbaciti: „…kome je beogradski vezir Sulejman-paša Skopljak poverio položaj obor-kneza Rudničke nahije“ | Day 213/214 |
+| 2 | „Suleyman-paša" (dvaput, i u keyPeople) | sumnjivo | visoka | „Sulejman-paša“ | usklađivanje |
+
+### Day 213 — Izbijanje Drugog ustanka
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „krajem septembra 1814, izbila je u kragujevačkoj nahiji Hadži-Prodanova buna" (u Day 212 stoji: „u kraju oko Trnave") | sumnjivo | srednja | „izbila je u Požeškoj nahiji, kod manastira Trnave, i prenela se na kragujevačku“ | kao Day 211 |
+
+### Day 215 — Takovo i početak ustanka
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „posle sedam godina otvorenog rata" (u Day 196 stoji: „u tih devet godina"; u Day 210: „u devet godina rata i vladanja") | greška | visoka | „posle devet godina otvorenog rata (1804–1813)“ | Day 196/210 |
+
+### Day 216 — Vojne pobede 1815.
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „kod Dublja kraj Šapca razbijaju Imšir-pašin korpus" i „dočekali Imšir-pašu … kod sela Dublja" (isto u Day 217: „kod Dublja, gde je Imšir-paša bio razbijen") | greška | visoka | Imšir-paša (ćehaja Sulejman-paše) poginuo je na Ljubiću. Kod Dublja je razbijena bosanska vojska, a zarobljen Ibrahim-paša Nikšić (ne može se pouzdano reći „Imšir“). Predlog: „kod Dublja razbijaju vojsku koja je prodrla iz Bosne“, a pogibiju Imšir-paše premestiti u odeljak o Ljubiću | Ćorović, Istorija srpskog naroda, rastko.rs/rastko-bl/istorija/corovic/istorija/7_7_l.html („slučajna pogibija Imšir-paše“ na Ljubiću); sr.wikipedia „Boj na Dublju“ (putokaz) |
+
+### Day 217 — Diplomatsko rešenje
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „kod Dublja, gde je Imšir-paša bio razbijen" | greška | visoka | kao Day 216 | Ćorović, 7_7 (rastko.rs) |
+| 2 | „kod Ljubića, Palež-Požege" (u Day 216 stoji: Ljubić, Palež, Dublje; „Palež, današnji Obrenovac") | greška | visoka | „kod Ljubića, Paleža i, najvažnije, kod Dublja“ | Day 216 |
+| 3 | „Marasli-Ali paša" (u Day 214/216/219/221 stoji: „Marašli Ali-paša") | sumnjivo | visoka | Svuda „Marašli Ali-paša“ (isto u Day 218 i 220) | usklađivanje |
+
+### Day 218 — Usmena pogodba sa Portom
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „takovski knez koji je u martu digao ustanak" (u Day 215/216 stoji: Cveti, 11/23. april 1815.) | greška | visoka | „koji je u aprilu, na Cveti, digao ustanak“ | Day 215 tp „11/23. april 1815.“ |
+| 2 | „Marasli-Ali paša" (6×), „Bukureškog mira" (u Day 208/209/221: „Bukureštanski") | sumnjivo | visoka | „Marašli Ali-paša“; „Bukureštanskog mira“ (usklađivanje i u Day 196) | usklađivanje |
+
+### Day 219 — Miloš učvršćuje vlast
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | `year: 1820` (Day 220 posle nje ima `year: 1817`, pa marker na vremenskoj liniji ide unazad) | sumnjivo | visoka | `year: 1816` (Molerovo ubistvo; lekcija počinje 1815) ili zameniti mesta sa Day 220 | eras.json / redosled |
+
+### Day 220 — Sukob Miloša i Karađorđa
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „U noći između 13. i 25. jula 1817, prema starom i novom kalendaru" (u Day 198 stoji: „u noći između 24. i 25. jula 1817.") | greška | visoka | „U zoru 13. (25.) jula 1817.“ ili „u noći 12/13. (24/25.) jula 1817.“ Sadašnja formulacija čita se kao raspon od 12 dana | Day 198; Srna, „Smrt Karađorđa Petrovića“; sr.wikipedia „Karađorđe“ (putokaz) |
+| 2 | „Marasli Ali-paša", „Marasli-paši" | sumnjivo | visoka | „Marašli Ali-paša“ | usklađivanje |
+
+### Day 222 — Hatišerifi i priznanje autonomije
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Tako se 1830. godine, krajem avgusta, u Beogradu svečano čita prvi hatišerif" (u Day 219 stoji: „Hatišerifi iz 1829. i 1830."; hatišerif iz 1829. je već pročitan u Kragujevcu 1830.) | greška | visoka | „Hatišerif i berat svečano su pročitani na Velikoj narodnoj skupštini u Beogradu na Andrijevdan, 30. novembra (12. decembra) 1830.“; „prvi“ zameniti sa „hatišerif iz 1830.“, ili pomenuti i onaj iz 1829. | sr.wikipedia „Hatišerif iz 1830.“ i „Velika narodna skupština u Beogradu (1830)“ (putokaz); Srpska enciklopedija, „Hatišerif iz 1830.“ |
+
+### Day 224 — Turski ustav iz 1838.
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Mahmud II … umro je u leto 1839. godine, pa je konačnu redakciju i izdavanje hatišerifa formalno potpisao njegov mladi naslednik Abdul Medžid" (u istoj lekciji stoji: „nosio decembarski datum 1838"; Day 222/240: hatišerifi Mahmuda II) | greška | visoka | Izbaciti. Ustav je izdat hatišerifom Mahmuda II 10. (22.) decembra 1838, više od pola godine pre njegove smrti (1. jul 1839) | R. Ljušić, „O Ustavu od 1838. godine“, Anali PF 4/1989 (putokaz, nije čitano u celini); sr.wikipedia „Ustav Kneževine Srbije iz 1838.“ (10. decembar 1838.) |
+
+### Day 225 — Abdikacija kneza Miloša
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Kada je u jesen 1838. godine u Beograd stigao sultanov hatišerif" (u Day 224 stoji: „decembarski datum 1838") | greška | visoka | „Kada je početkom 1839. u Srbiju stigao i obnarodovan sultanov hatišerif od decembra 1838.“ | kao Day 224 |
+| 2 | „Sovjetom … koje knez više nije mogao ni da postavi ni da smeni" (u Day 224 stoji: „koje je knez postavljao … nisu se mogli smeniti bez saglasnosti Porte") | greška | srednja | „…koje knez jeste imenovao, ali više nije mogao da smeni bez saglasnosti Porte“ | Day 224/231 |
+| 3 | „U Srbiju će se vratiti tek 1858. godine, kada ga Svetoandrejska skupština ponovo pozove" (u Day 236/237 stoji: „početkom 1859. ušao u Beograd", „januara 1859.") | greška | visoka | „Pozvan je nazad krajem 1858, a u Beograd je ušao januara 1859.“ | Day 236/237 |
+
+### Day 226 — Knez Mihailo — prva vladavina
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „sedamnaestogodišnjeg Mihaila, rođenog 1823." (rođen 4/16. septembra 1823, pa je u jesen 1839. imao 16 godina) | greška | srednja | „šesnaestogodišnjeg Mihaila“ (i u sažetku) | Srpska enciklopedija, „Mihailo Obrenović“; poreklo.rs (rođen 16. septembra 1823. u Kragujevcu) |
+| 2 | „Mihailo će se u Srbiju vratiti tek 1860. godine" (u Day 237 stoji: posle 1859. Miloš „iz Beča je pozvao sina Mihaila") | sumnjivo | srednja | „Na presto će se vratiti tek 1860.“, jer se povratak u zemlju vezuje za očev povratak 1859. | Day 237 |
+
+### Day 227 — Ustavobranitelji dolaze na vlast
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „ustanoviti Liceum kao klica buduće više škole" (posle 1842; u Day 207 stoji: „Iz Kragujevca će 1838. nastati Licej"; Day 231: „Licej, osnovan još 1838 … premešten 1841. u Beograd") | greška | visoka | „razviti Licej, osnovan još 1838, u klicu buduće Velike škole“ | Day 207/231 |
+| 2 | „Septembra 1842 … Sovjet je izabrao Aleksandra Karađorđevića" (u Day 231/232 stoji: izabrala ga je skupština na Vračaru) | greška | srednja | „narodna skupština na Vračaru izabrala je 14. septembra 1842.“ (vidi i napomenu o Day 232 u Meti) | Srpska enciklopedija, „Aleksandar Karađorđević“ (skupština na Vračaru, 14. septembra 1842.) |
+| 3 | „posle prinudne abdikacije Mihaila Obrenovića" (u Day 226 i 231 stoji: odlazak preko Save, „nasilno svrgavanje") | sumnjivo | srednja | „posle Vučićeve bune i Mihailovog odlaska preko Save“ | Day 226/231 |
+
+### Day 228 — Vučić i Petronijević
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „U proleće 1859. obojica su se zatekla u Carigradu" (Petronijević je umro u Carigradu 1852; u Day 236 stoji: „Vučić, Petronijević … uglavnom su pomrli"; u Day 237: Vučić je umro 1859. u Srbiji) | greška | visoka | Razdvojiti sudbine: „Petronijević je umro u Carigradu 1852, tokom diplomatske misije; Vučić je, posle povratka Obrenovića, umro 1859. u zatvoru u Beogradu“ | sr.wikipedia „Avram Petronijević“ (Carigrad, 22. april 1852; putokaz); SANU, „Petronijević Avram“; Freska, „Avram Petronijević (1791–1852)“ |
+
+### Day 229 — Karađorđevići i Obrenovići
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „nijedan srpski vladar tog veka nije umro prirodnom smrću na prestolu" (u istoj lekciji: Miloš „umro je dve godine kasnije" na prestolu, 1860; Day 225: knez Milan umro 1839. kao vladar) | greška | visoka | „…mnogi srpski vladari tog veka presto su izgubili nasilno — ubistvom, prevratom ili abdikacijom“ | Day 225, 229 |
+| 2 | „Nasledio ga je sin Mihailo I … sada kao Mihailo II" (preskočen je knez Milan, 1839; u Day 225 stoji: Miloš abdicira „u korist … Milana") | greška | visoka | „Nasledio ga je stariji sin Milan, koji je umro posle nekoliko nedelja, a zatim Mihailo“. Oznake I/II izbaciti; ustaljeno je „Mihailo Obrenović III“ | Day 225/226 |
+| 3 | `year: 1820` između Day 228 (1842) i Day 230 (1835) | sumnjivo | visoka | `year: 1842` (tematski pregled na kraju ere; dateLabel „od 1817.“ može ostati) | eras.json / redosled |
+| 4 | „njegov maloletni sinovac Milan Obrenović" (Milan je unuk Miloševog brata Jevrema, dakle Mihailov brat od strica u drugom kolenu, a ne sinovac) | sumnjivo | srednja | „njegov maloletni rođak Milan Obrenović, unuk Miloševog brata Jevrema“ | proveriti prema Day 241+ (nije u opsegu) |
+
+### Day 230 — Nasleđe Srpske revolucije
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Ranke 1829. godine u Berlinu objavio knjigu" | greška | visoka | „…u Hamburgu (izdavač Perthes)…“ | Deutsche Digitale Bibliothek: Ranke, *Die serbische Revolution*, Hamburg: Perthes 1829 |
+| 2 | „dao je tridesetogodišnjem nizu … jedno ime. Od tada … razdoblje između 1804. i 1839. … „Srpska revolucija"" (knjiga iz 1829. ne može imenovati period do 1839; u Day 196 stoji: „najčešće … od 1804. do 1835.") | greška | visoka | „dao je ime nizu ustanaka i pregovora započetom 1804.“; granicu perioda uskladiti sa Day 196 (vidi Sporno) | Day 196; Ranke 1829 |
+| 3 | `year: 1835`, tp „1804–1839." (posle Day 229) | sumnjivo | srednja | Ako Day 229 dobije 1842, i ovde staviti `year: 1842` (ili 1839) da redosled na liniji bude monoton | redosled |
+
+### Day 204 — Širenje ustanka (samo polje year)
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | `year: 1807`, a Day 205 posle nje ima `year: 1806` | sumnjivo | visoka | `year: 1806` (dateLabel „1806–1809.“ počinje 1806) | redosled |
+| 2 | „Konstantin Rodofinjikin" (u keyPeople i Day 208 stoji: „Rodofinikin") | sumnjivo | visoka | „Rodofinikin“ | usklađivanje |
+
+---
+
+# Sporno u istoriografiji
+
+Nisu greške. „Ograda: DA" znači da je lekcija dobila kratku odredbu (jedna rečenica ili reč, u glasu lekcije); „NE" da je lekcija već ograđena ili je spor sitan. OSETLJIVO = nacionalno ili politički osetljiva formulacija.
+
+### Prvi srpski ustanak I (196–201)
+
+- Day 198 / Day 197 — „rođen je oko 1768. godine” / „Imao je oko četrdeset godina” — godina rođenja se u literaturi daje kao 1762. ili 1768; lekcija 198 je već ograđena („oko”, „tačan datum se ne zna”), a 197 implicitno pretpostavlja stariju godinu — ograda: NE (ali uskladiti: u 197 „oko trideset pet godina” ako se ostaje pri 1768) — Vukićević, „Karađorđe”; ISN V/1.
+- Day 198 — „Karađorđa su, po Miloševom znanju i nalogu, ubili njegovi ljudi” — deo literature naglašava i zahtev beogradskog vezira Marašli Ali-paše; Miloševa odgovornost je opšteprihvaćena, udeo Porte je predmet rasprave — ograda: NE [OSETLJIVO] (dinastički spor) — eventualno „po Miloševom nalogu, uz znanje beogradskog vezira” — Ćorović; Ljušić, „Knez Miloš”.
+- Day 198 — „ubio Turčina koji je nasrnuo na njegovu porodicu i potom morao da beži” — predanje o bekstvu 1787. (Vuk Karadžić) uključuje i ubistvo sopstvenog oca; lekcija već kaže „različita predanja” — ograda: NE [OSETLJIVO].
+- Day 199 — „Bilo ih je … oko sto pedeset, možda i više” — broj učesnika zbora nije utvrđen; već ograđeno — ograda: NE.
+
+### Prvi srpski ustanak II (202–207)
+
+- Day 207 — „Glavno Dositejevo delo bila je Velika škola” — škola se u literaturi zove i „Velika škola Ivana Jugovića”; Jugović je pokretač i glavni nastavnik, Dositej je otvara govorom i podržava; lekcija zasluge pripisuje Dositeju, a Jugovića svodi na nastavnika — ograda: DA — predlog: „Velika škola, osnovana 1808. zalaganjem Ivana Jugovića i uz Dositejevu podršku…” — Srpski legat; sr.wikipedia „Velika škola Ivana Jugovića”; Srpska enciklopedija „Velika škola 1808–1813”.
+- Day 205 — „Dana 8. januara 1807. po novom kalendaru … srpska vojska je ušla u gornji grad” — datumi predaje tvrđave se razlikuju (22. 12. 1806 / 3. 1. 1807. vs 8. 1. 1807; ključevi predati već 20. 12.) — ograda: NE (datum je u prihvaćenom rasponu) — opciono „početkom januara 1807.” — sr.wikipedia „Opsada Beograda (1806)” vs „Beograd u ustaničkoj Srbiji”.
+- Day 205 — nasilje nad beogradskim Turcima 1806–07 — obim i odgovornost (uključujući sudbinu Sulejman-paše posle izlaska) različito se tumače — ograda: NE [OSETLJIVO] — lekcija već kaže da „tačan broj žrtava nije pouzdano poznat”.
+- Day 206 — „Bila je to prva srpska država posle pada Smedereva 1459.” — Crna Gora pod vladikama ima kontinuitet samouprave; tvrdnja važi za Srbiju u užem smislu — ograda: NE [OSETLJIVO] — opciono „prva država u Srbiji posle 1459.”.
+- Day 202 — mesto i datum osnivanja sovjeta — lekcija već ograđuje („izvori se ne slažu sasvim”) — ograda: NE (ali ispraviti Borač → Borak, v. tabelu).
+
+### Prvi srpski ustanak III (208–212)
+
+- Day 210 — „Karađorđev prelaz bio je i tada, i kasnije, predmet teške rasprave” — ocena Karađorđevog napuštanja Srbije (izdaja vs. nužnost) sporna je od savremenika do danas — ograda: NE [OSETLJIVO] — lekcija već iznosi obe strane — M. Vukićević, „Karađorđe”; ISN V/1.
+- Day 210 — „savremenici i kasnije procene govore o desetinama hiljada, ponekad i do sto hiljada izbeglica” — broj izbeglica 1813. varira — ograda: NE — već ograđeno — ISN V/1.
+- Day 211 — „do nekoliko desetina hiljada zarobljenih žena i dece” — brojke robljenja nisu pouzdane — ograda: NE [OSETLJIVO] — već ograđeno — ISN V/1.
+- Day 212 — „Taj potez je već među savremenicima izazvao oštre sudove” (Miloševo učešće u gušenju bune) — spor obrenovićevske i karađorđevićevske tradicije — ograda: NE [OSETLJIVO] — lekcija već daje oba viđenja — Ćorović, „Istorija srpskog naroda”; ISN V/1.
+- Day 212 — povod bune: lekcija je prikazuje kao Hadži-Prodanovu preventivnu odluku zbog glasina o hapšenjima; deo literature kao okidač ističe sukob u manastiru Trnavi (16/28. septembar 1814), izbio dok je Hadži-Prodan bio odsutan — ograda: DA — „neposredni povod bio je sukob u manastiru Trnavi, posle kojeg se Hadži-Prodan stavio na čelo pobune” — en.wikipedia „Hadži-Prodan's rebellion” (⚠ samo Wikipedia; proveriti u ISN V/1).
+- Day 209 — „Kutuzov je … prihvatio takvu maglovitu formulaciju nadajući se da će je vreme … razraditi u srpsku korist” — tumačenje motiva; ruska literatura ga brani, srpska ga delom vidi kao napuštanje — ograda: NE — interpretativni ton je jasan.
+
+### Drugi ustanak i sticanje autonomije I (213–219)
+
+- Day 219 — „Ubistvo Karađorđa u leto 1817. … pripada istoj logici: dok god je neko sa boljim ratničkim ugledom živ, Miloš nije sam." — Da je ubistvo (13/25. VII 1817, Radovanjski lug) izvršeno po Miloševom nalogu i da je glava poslata u Carigrad nije sporno; sporni su motivi: strah od suparnika, turski pritisak, i procena da bi Karađorđev plan novog ustanka u dogovoru s Heterijom izazvao rat i srušio pogodbu iz 1815. Lekcija navodi samo lični motiv. — ograda: DA **OSETLJIVO** — predlog: „…pripada istoj logici, iako istoričari kao motiv navode i strah da bi Karađorđev plan novog ustanka, u vezi s Heterijom, izazvao turski upad." — Ćorović 5.7; R. Ljušić „Kneževina Srbija"; ISN V/1.
+- Day 216 — „Bila je to, po obimu i posledicama, najveća pobeda Drugog ustanka" — deo literature veći značaj daje Ljubiću i Požarevcu; Ćorović Dublje pominje kratko. — ograda: NE (vrednosni sud; eventualno „jedna od najvećih pobeda") — Ćorović 5.7.
+- Day 213/214 — Miloševo držanje 1813–1814: lekcije ne pominju da je Miloš učestvovao u gušenju Hadži-Prodanove bune. — ograda: NE (214 već iznosi obe ocene: „kukavičluk ili izdaja" / „trezvena računica"); po želji jedna odredba u 213: „u čijem je gušenju učestvovao i Miloš". — Ćorović 5.7 („њима се придружио и Милош Обреновић").
+- Day 215 — „Evo mene, evo vama rata sa Turcima" — predanje; lekcija već ograđena. — ograda: NE.
+
+### Drugi ustanak i sticanje autonomije II (220–225)
+
+- Day 220 — „Što je Miloš to naredio — a malo ko je sumnjao da jeste” — deo starije, proobrenovićevske literature odgovornost prebacuje na zahtev vezira Marašli Ali-paše (neki izvori: „po naređenju beogradskog vezira i kneza Miloša”); lekcija već ograđuje — ograda: NE — OSETLJIVO — danas.rs „Na današnji dan ubijen Karađorđe”; Gavrilović „Miloš Obrenović” (proveriti)
+- Day 220 — „Vožd je u Vlaškoj stupio u vezu sa Filiki eterijom” — gde je i kada Karađorđe primljen u Eteriju (Besarabija/Rusija 1817) i koliko je plan bio stvaran, sporno je; lekcija ograđuje („izgleda”) — ograda: NE — — izvor nije nađen
+- Day 221 — „srpska autonomija nije dobijena junaštvom srpskog oružja … moderna istoriografija ga uglavnom ne osporava” — srpska istoriografija (ISN V-1, Ekmečić) naglašava sadejstvo ustanka, Miloševe politike i ruske diplomatije; tvrdnja da istoriografija „uglavnom ne osporava” jednostrano stanje predstavlja kao usaglašeno — ograda: DA — OSETLJIVO — „autonomija nije dobijena samo srpskim oružjem” i izbaciti „moderna istoriografija ga uglavnom ne osporava” — Ekmečić „Stvaranje Jugoslavije” / ISN V-1 (proveriti)
+- Day 223 — „u Beču svojevremeno pokrenuo prve srpske novine” — u popularnoj i delu stručne literature Davidovićeve „Novine serbske” (1813) zovu se „prvim srpskim novinama”, ali su u Beču već 1791. izlazile „Serbskija povsednevnija novini” braće Markides Pulio — ograda: DA — „pokrenuo Novine serbske, prve dugotrajne srpske novine” — RTS „Pre 203 godine objavljene prve srpske novine”; en.wikipedia „Dimitrije Davidović”
+- Day 223 — „jedan od najliberalnijih ustava u tadašnjoj Evropi” — ocena, već pripisana „mnogim kasnijim istoričarima” — ograda: NE
+- Day 225 — „ovo je bio prvi srpski miran prenos vlasti” — abdikacija je iznuđena (pritisak Sovjeta, Porte, Rusije i Vučićeve vojske); lekcija već kaže „pod pritiskom, jeste” i „formalno gledano” — ograda: NE
+
+### Ustavi i dinastičko rivalstvo (226–230)
+
+- Day 229 — „Karađorđevići su, naprotiv, češće tražili oslonac u Rusiji … Petrograd je gajio simpatije prema Karađorđevićima” — Rusija se 1842–43. oštro protivila izboru Aleksandra Karađorđevića, a njegov režim važi za austrofilski; šema važi tek za kraj veka (Petar I) — ograda: NE (tekst već kaže „nije bila apsolutna” i „posebno u kasnijem periodu"), ali je korisna kratka odredba — predlog: „…u Rusiji (iako je upravo Rusija 1843. osporila izbor Aleksandra Karađorđevića)” — Jovanović, „Ustavobranitelji i njihova vlada”; Ćorović.
+- Day 229 — „1868. ubijen u Košutnjaku, najverovatnije u uroti vezanoj za pristalice Karađorđevića” — udeo kneza Aleksandra nikada nije sudski dokazan (oslobođen u Pešti) — ograda: NE [OSETLJIVO] (već ograđeno) — ISN V/1.
+- Day 228 — trovanje Vučića 1859 (posle ispravke greške #1) — savremenici i britanski konzul pisali su o trovanju; deo literature to navodi kao činjenicu „uz Miloševo znanje” — ograda: DA — „savremenici su tvrdili da je otrovan, što nikada nije dokazano” — sr.wikipedia (pointer), Jovanović.
+- Day 230 — „Sretenjski ustav … među najslobodoumnijima u Evropi tog časa” — uobičajena ocena srpske literature, osporavana kao preterivanje — ograda: NE (već ublaženo „za jedan trenutak").
+- Day 227 — „Građanski zakonik, prvi moderni kodifikovani građanski zakon na Balkanu” — rangiranje zavisi od toga šta se računa (standardno: „četvrti građanski zakonik u Evropi”) — ograda: NE.
+
+### Doslednost između lekcija (cela era)
+
+- Day 196 / Day 230 / eras.json — „Najčešće se Srpska revolucija datira od 1804. do 1835." prema „razdoblje između 1804. i 1839." (Day 230, tp „1804–1839.", era yearsLabel „1804–1839."). Za Day 195 revolucija je Prvi i Drugi ustanak, 1804–1817. — spor: granica 1815/1817, 1830/1833, 1835 ili 1839; ograda: DA — predlog: Day 196 zadržava svoje nabrajanje varijanti, a Day 230 dobija ogradu: „u ovom kursu, kao i kod dela istoričara, period se zaključuje abdikacijom kneza Miloša 1839.“ — izvor: Ranke 1829 (naslov i opseg knjige); Ekmečić i Ljušić koriste različite granice (nisam proverio konkretna mesta, pa ih ne citirati bez provere).
+- Day 229 — „Miloš Obrenović vladao je od 1817. do 1839." prema Day 198: „vođa obnovljene srpske autonomije od 1815." — spor: od 1815. je vrhovni knez de facto, a od novembra 1817. ga skupština proglašava naslednim knezom; ograda: DA — predlog: „vodio je Srbiju od 1815, a kao nasledni knez, proglašen 1817, vladao je do 1839.“ — izvor: Day 198/219; Ćorović, Istorija srpskog naroda (rastko.rs, gl. o Milošu).
+- Day 205 — „juriš na donji grad krajem novembra 1806" / podnaslov „zauzela donji i gornji grad beogradske tvrđave". Juriš na Andrijevdan u većini prikaza zauzima varoš (šanac), a posada se povlači u Gornji grad — spor: terminologija „donji grad“ prema „varoš“; ograda: NE — predlog: „varoš i Donji grad“ — izvor: Mitropolija CP, „Ljetopis: Oslobođenje Beograda 1806.“ (putokaz).
