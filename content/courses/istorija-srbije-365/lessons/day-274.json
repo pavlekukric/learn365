@@ -6,18 +6,18 @@
   "dayNumber": 274,
   "order": 9,
   "title": "Srbi izvan Srbije",
-  "subtitle": "Krajem 19. i početkom 20. veka više je Srba živelo van Kraljevine Srbije nego u njoj — rasuti preko tri imperije",
-  "year": 1900,
+  "subtitle": "Oko 1900. van Kraljevine Srbije živelo je gotovo isto toliko Srba koliko i u njoj — u dve imperije i Crnoj Gori",
+  "year": 1910,
   "dateLabel": "kraj 19 – početak 20. veka",
   "timelinePosition": "kraj 19 – početak 20. veka",
-  "summary": "Pred Prvi svetski rat Kraljevina Srbija ima oko 2,9 miliona stanovnika, ali gotovo dvostruko više etničkih Srba živi izvan njenih granica — u Austro-Ugarskoj, Osmanskom carstvu, Crnoj Gori i prekomorskoj dijaspori. Iz te disperzije izrasta većina političkih programa epohe.",
+  "summary": "Pred Prvi svetski rat Kraljevina Srbija ima oko 2,9 miliona stanovnika, ali otprilike isto toliko, možda i nešto više etničkih Srba živi izvan njenih granica — u Austro-Ugarskoj, Osmanskom carstvu, Crnoj Gori i prekomorskoj dijaspori. Iz te disperzije izrasta većina političkih programa epohe.",
   "keyPeople": ["Nikola I Petrović", "patrijarh Georgije Branković", "Svetozar Miletić", "Jaša Tomić", "Petar Kočić"],
   "keyPlaces": ["Sremski Karlovci", "Novi Sad", "Sarajevo", "Cetinje", "Skoplje", "Pittsburgh"],
   "content": [
     {
       "type": "paragraph",
       "dropcap": true,
-      "text": "Kada se 1910. godine u Beogradu objave podaci popisa, Kraljevina Srbija ima oko 2,9 miliona stanovnika. To je, na karti Evrope, mala balkanska država — manja od mnogih austrougarskih krunovina, manja od većine evropskih kraljevina. Ali srpski problem tog vremena nije pitanje koliko ljudi živi između Save i Vardara; on je pitanje gde sve, izvan tih granica, žive Srbi. Najpažljivije procene pokazuju da je krajem 19. i početkom 20. veka izvan Kraljevine Srbije živelo gotovo dvostruko više etničkih Srba nego u njoj. Bili su rasuti preko tri imperije i jedne kneževine, i svaki politički program koji će tih godina nastati — od ujedinjenja, preko autonomije, do jugoslovenstva — izrastao je upravo iz te činjenice."
+      "text": "Kada se 1910. godine u Beogradu objave podaci popisa, Kraljevina Srbija ima oko 2,9 miliona stanovnika. To je, na karti Evrope, mala balkanska država — manja od mnogih austrougarskih krunovina, manja od većine evropskih kraljevina. Ali srpski problem tog vremena nije pitanje koliko ljudi živi između Save i Vardara; on je pitanje gde sve, izvan tih granica, žive Srbi. Najpažljivije procene pokazuju da je krajem 19. i početkom 20. veka izvan Kraljevine Srbije živelo otprilike isto toliko, možda i nešto više etničkih Srba nego u njoj. Bili su rasuti preko dve imperije, susedne Crne Gore i prekomorske dijaspore, i svaki politički program koji će tih godina nastati — od ujedinjenja, preko autonomije, do jugoslovenstva — izrastao je upravo iz te činjenice."
     },
     {
       "type": "paragraph",
@@ -25,11 +25,11 @@
     },
     {
       "type": "paragraph",
-      "text": "U Bosni i Hercegovini, koju je Austro-Ugarska okupirala 1878. a anektirala 1908. godine, pravoslavni Srbi su od ukupno oko 1,9 miliona stanovnika 1910. činili najveću pojedinačnu konfesionalnu grupu — oko 825 hiljada ljudi, ispred bosanskih muslimana i katolika. Njihov položaj bio je posebno složen: za samo trideset godina prešli su iz osmanskog poretka, u kome su bili raja sa ograničenim pravima ali sa naviknutom verskom autonomijom, u austrijski poredak, u kome su dobili moderne zakone i upravu ali su izgubili politički horizont koji je do tada vodio ka Beogradu. Crkvena autonomija je sačuvana, ali kulturno-politički pokreti, naročito Srpska narodna organizacija od 1907, ulazili su u stalne sukobe sa upravom Benjamina Kalaja i njegovih naslednika."
+      "text": "U Bosni i Hercegovini, koju je Austro-Ugarska okupirala 1878. a anektirala 1908. godine, pravoslavni Srbi su od ukupno oko 1,9 miliona stanovnika 1910. činili najveću pojedinačnu konfesionalnu grupu — oko 825 hiljada ljudi, ispred bosanskih muslimana i katolika. Njihov položaj bio je posebno složen: za samo trideset godina prešli su iz osmanskog poretka, u kome su bili raja sa ograničenim pravima ali sa naviknutom verskom autonomijom, u austrijski poredak, u kome su dobili moderne zakone i upravu ali su izgubili politički horizont koji je do tada vodio ka Beogradu. Borba za crkveno-školsku autonomiju sukobljavala se sa upravom Benjamina Kalaja, a od 1907. Srpska narodna organizacija sa upravom njegovih naslednika."
     },
     {
       "type": "paragraph",
-      "text": "Treća srpska država tog vremena bila je Crna Gora. Pod knezom Nikolom I Petrovićem-Njegošem, koji je vladao od 1860. a 1910. se proglasio kraljem, Crna Gora je sa oko trista hiljada stanovnika bila etnički gotovo isključivo srpska po jeziku i pravoslavnoj veri, ali institucionalno potpuno samostalna. Odnosi sa Beogradom bili su bliski po krvi i kulturi, a politički često hladni — dva srpska dvora ćutke su se nadmetala oko prvenstva. Crnogorska kultura bila je arhaičnija, manje evropeizovana od vojvođanske ili beogradske, i u tome je čuvala nešto što je u Srbiji već nestajalo, ali je istovremeno teško održavala korak sa modernim institucijama."
+      "text": "Treća srpska država tog vremena bila je Crna Gora. Pod knezom Nikolom I Petrovićem-Njegošem, koji je vladao od 1860. a 1910. se proglasio kraljem, Crna Gora je sa oko trista hiljada stanovnika bila pretežno pravoslavna i srpskog jezika, sa albanskom i muslimanskom manjinom na jugu, ali institucionalno potpuno samostalna. Odnosi sa Beogradom bili su bliski po krvi i kulturi, a politički često hladni — dva srpska dvora ćutke su se nadmetala oko prvenstva. Crnogorska kultura bila je arhaičnija, manje evropeizovana od vojvođanske ili beogradske, i u tome je čuvala nešto što je u Srbiji već nestajalo, ali je istovremeno teško održavala korak sa modernim institucijama."
     },
     {
       "type": "heading",
@@ -38,11 +38,11 @@
     },
     {
       "type": "paragraph",
-      "text": "Treća imperija u kojoj su živeli Srbi bila je Osmansko carstvo. U tzv. Staroj Srbiji — na Kosovu, u Metohiji i Raškoj oblasti, koja se tada nazivala Novopazarskim sandžakom — te u Makedoniji, koja je do 1912. ostala osmanska, srpsko stanovništvo živelo je u znatno težim uslovima nego u Habsburškoj monarhiji. Tu nije bilo ni patrijaršije ni matice, nego škole, mitropolije i konzulati koji su radili pod stalnim pritiskom albanskih nasilja, turske uprave i konkurentske grčke i bugarske propagande. Konačno, krajem 19. veka počinje i prvi veći talas iseljavanja u prekomorske zemlje — najpre iz Like i Hercegovine, gde se zemlja iscrpla i porodice zaduživale, ka Sjedinjenim Američkim Državama. Niču srpske kolonije u Pitsburgu i Klivlendu, u rudarskim i čeličanskim gradovima, sa svojim crkvama i listovima."
+      "text": "Druga imperija u kojoj su živeli Srbi bila je Osmansko carstvo. U tzv. Staroj Srbiji — na Kosovu, u Metohiji i Raškoj oblasti, koja se tada nazivala Novopazarskim sandžakom — te u Makedoniji, koja je do 1912. ostala osmanska, srpsko stanovništvo živelo je u znatno težim uslovima nego u Habsburškoj monarhiji. Tu nije bilo ni patrijaršije ni matice, nego škole, mitropolije i konzulati koji su radili pod stalnim pritiskom albanskih nasilja, turske uprave i konkurentske grčke i bugarske propagande. Konačno, krajem 19. veka počinje i prvi veći talas iseljavanja u prekomorske zemlje — najpre iz Like i Hercegovine, gde se zemlja iscrpla i porodice zaduživale, ka Sjedinjenim Američkim Državama. Niču srpske kolonije u Pitsburgu i Klivlendu, u rudarskim i čeličanskim gradovima, sa svojim crkvama i listovima."
     },
     {
       "type": "paragraph",
-      "text": "U Habsburškoj monarhiji Srbi su uživali građanska prava, ali pod stalnim pritiskom mađarizacije u ugarskom i nemačko-austrijske uprave u drugim delovima države. Branili su se onim oružjem koje su imali — crkvenom autonomijom, štampom i strankama. Listovi „Srpski narodni list”, „Zastava” Svetozara Miletića, „Branik” i sarajevski „Srbobran” oblikovali su javno mnjenje koje je često bilo modernije i otvorenije nego ono u samoj Kraljevini Srbiji. U Hrvatskoj je 1905. godine Srpska samostalna stranka, zajedno sa hrvatskim partnerima, potpisala Riječku i Zadarsku rezoluciju i ušla u Hrvatsko-srpsku koaliciju — prvi ozbiljan pokušaj zajedničkog političkog nastupa Srba i Hrvata u monarhiji."
+      "text": "U Habsburškoj monarhiji Srbi su uživali građanska prava, ali pod stalnim pritiskom mađarizacije u ugarskom i nemačko-austrijske uprave u drugim delovima države. Branili su se onim oružjem koje su imali — crkvenom autonomijom, štampom i strankama. Listovi „Srpski narodni list”, „Zastava” Svetozara Miletića, „Branik” i zagrebački „Srbobran” oblikovali su javno mnjenje koje je često bilo modernije i otvorenije nego ono u samoj Kraljevini Srbiji. U Hrvatskoj su 1905. godine hrvatski političari doneli Riječku, a srpski Zadarsku rezoluciju, na osnovu kojih je nastala Hrvatsko-srpska koalicija, u koju je ušla i Srpska samostalna stranka — prvi ozbiljan pokušaj zajedničkog političkog nastupa Srba i Hrvata u monarhiji."
     },
     {
       "type": "paragraph",

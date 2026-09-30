@@ -3280,7 +3280,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 233,
     "order": 3,
     "title": "Načertanije Ilije Garašanina",
-    "readingTimeMinutes": 6,
+    "readingTimeMinutes": 7,
     "year": 1844,
     "isPlaceholder": false
   },
@@ -3316,7 +3316,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 236,
     "order": 6,
     "title": "Svetoandrejska skupština",
-    "readingTimeMinutes": 5,
+    "readingTimeMinutes": 6,
     "year": 1858,
     "isPlaceholder": false
   },
@@ -3377,7 +3377,7 @@ export const lessons: readonly LessonSummary[] = [
     "order": 11,
     "title": "Balkanski savez kneza Mihaila",
     "readingTimeMinutes": 6,
-    "year": 1865,
+    "year": 1867,
     "isPlaceholder": false
   },
   {
@@ -3509,7 +3509,7 @@ export const lessons: readonly LessonSummary[] = [
     "order": 6,
     "title": "Radikali i Nikola Pašić",
     "readingTimeMinutes": 6,
-    "year": 1885,
+    "year": 1882,
     "isPlaceholder": false
   },
   {
@@ -3521,7 +3521,7 @@ export const lessons: readonly LessonSummary[] = [
     "order": 7,
     "title": "Politički život i stranke",
     "readingTimeMinutes": 6,
-    "year": 1890,
+    "year": 1883,
     "isPlaceholder": false
   },
   {
@@ -3593,7 +3593,7 @@ export const lessons: readonly LessonSummary[] = [
     "order": 1,
     "title": "Državni udari i nestabilnost",
     "readingTimeMinutes": 6,
-    "year": 1895,
+    "year": 1893,
     "isPlaceholder": false
   },
   {
@@ -3604,7 +3604,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 260,
     "order": 2,
     "title": "Železnice i banke",
-    "readingTimeMinutes": 5,
+    "readingTimeMinutes": 6,
     "year": 1890,
     "isPlaceholder": false
   },
@@ -3724,7 +3724,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 270,
     "order": 5,
     "title": "Carinski rat sa Austro-Ugarskom",
-    "readingTimeMinutes": 6,
+    "readingTimeMinutes": 7,
     "year": 1906,
     "isPlaceholder": false
   },
@@ -3773,7 +3773,7 @@ export const lessons: readonly LessonSummary[] = [
     "order": 9,
     "title": "Srbi izvan Srbije",
     "readingTimeMinutes": 6,
-    "year": 1900,
+    "year": 1910,
     "isPlaceholder": false
   },
   {
@@ -3833,7 +3833,7 @@ export const lessons: readonly LessonSummary[] = [
     "order": 14,
     "title": "Beograd i Srbija 1903–1912.",
     "readingTimeMinutes": 6,
-    "year": 1908,
+    "year": 1912,
     "isPlaceholder": false
   },
   {
@@ -3845,7 +3845,7 @@ export const lessons: readonly LessonSummary[] = [
     "order": 15,
     "title": "Kneževina i Kraljevina — nasleđe",
     "readingTimeMinutes": 7,
-    "year": 1910,
+    "year": 1912,
     "isPlaceholder": false
   },
   {

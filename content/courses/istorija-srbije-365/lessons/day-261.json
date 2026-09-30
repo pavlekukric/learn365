@@ -11,13 +11,13 @@
   "dateLabel": "kraj 19. veka",
   "timelinePosition": "kraj 19. veka",
   "summary": "Između turske predaje gradova 1867. i Prvog svetskog rata Beograd se iz orijentalne varoši pretvorio u skromnu, ali nesumnjivo evropsku prestonicu — sa urbanističkim planom, vodovodom, tramvajem i novom arhitekturom.",
-  "keyPeople": ["Emilijan Josimović", "Marko Leko", "knez Mihailo Obrenović", "kralj Milan Obrenović", "kralj Aleksandar Obrenović"],
+  "keyPeople": ["Emilijan Josimović","knez Mihailo Obrenović", "kralj Milan Obrenović", "kralj Aleksandar Obrenović"],
   "keyPlaces": ["Beograd", "Kalemegdan", "Knez Mihailova ulica", "Terazije", "Savamala"],
   "content": [
     {
       "type": "paragraph",
       "dropcap": true,
-      "text": "Kada je u proleće 1867. turski zapovednik predao knezu Mihailu ključeve Beogradske tvrđave, grad pod njom još uvek je bio orijentalna palanka. Krive uličice, niske kuće od ćerpiča, džamijski minareti iznad krovova, čaršije po mahalama, mnogo blata kad pada kiša i mnogo prašine kad ne pada — takvu sliku ostavili su putopisci sredinom veka. Stanovništva je bilo oko dvadesetak hiljada. Pola veka kasnije, uoči Prvog svetskog rata, isti grad imaće preko sto hiljada stanovnika, električni tramvaj, telefonsku centralu, novu palatu Skupštine i bulevare po uzoru na Beč i Pariz. Preobražaj nije bio potpun i nije bio jednako raspoređen, ali je bio stvaran."
+      "text": "Kada je u proleće 1867. turski zapovednik predao knezu Mihailu ključeve Beogradske tvrđave, grad pod njom još uvek je bio orijentalna palanka. Krive uličice, niske kuće od ćerpiča, džamijski minareti iznad krovova, čaršije po mahalama, mnogo blata kad pada kiša i mnogo prašine kad ne pada — takvu sliku ostavili su putopisci sredinom veka. Stanovništva je bilo oko dvadesetak hiljada. Pola veka kasnije, uoči Prvog svetskog rata, isti grad imaće blizu sto hiljada stanovnika, električni tramvaj, telefonsku centralu, novu palatu Skupštine i bulevare po uzoru na Beč i Pariz. Preobražaj nije bio potpun i nije bio jednako raspoređen, ali je bio stvaran."
     },
     {
       "type": "paragraph",
@@ -25,7 +25,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Drugi korak bio je infrastrukturni, i tu se najjasnije vidi koliko ozbiljno je mlada srpska država shvatala svoju prestonicu. Tokom 1880-ih, po projektu inženjera Marka Leka, počela je da se gradi prva ulična kanalizacija. Godine 1883. otvorena je telefonska linija — Beograd je dobio telefon ranije od mnogih sličnih gradova u Evropi. Naredne godine, 1884, otvorena je železnička stanica na Savi i Beograd je preko Niša i Vranja, a uskoro i preko Zemuna, povezan sa evropskom železničkom mrežom. Godine 1892. počeo je da radi prvi gradski vodovod sa makiškog izvorišta, čime je rešen vekovni problem snabdevanja vodom; iste godine krenuo je i konjski tramvaj. Već 1893. zasvetlela je prva električna ulična svetiljka, a 1894. tramvaj je postao električan. Sistematska električna rasveta proširiće se posle 1900."
+      "text": "Drugi korak bio je infrastrukturni, i tu se najjasnije vidi koliko ozbiljno je mlada srpska država shvatala svoju prestonicu. Pripreme za kanalizaciju počele su krajem veka, a prvi kanali izgrađeni su 1905, po generalnom projektu Dušana Ninkovića. Godine 1883. otvorena je telefonska linija — Beograd je dobio telefon ranije od mnogih sličnih gradova u Evropi. Naredne godine, 1884, otvorena je železnička stanica na Savi i Beograd je preko Niša i Vranja, a uskoro i preko Zemuna, povezan sa evropskom železničkom mrežom. Godine 1892. počeo je da radi prvi gradski vodovod sa makiškog izvorišta, čime je rešen vekovni problem snabdevanja vodom; iste godine krenuo je i konjski tramvaj. Već 1893. zasvetlela je prva električna ulična svetiljka, a 1894. tramvaj je postao električan. Sistematska električna rasveta proširiće se posle 1900."
     },
     {
       "type": "heading",
@@ -34,7 +34,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Uz infrastrukturu se menjala i arhitektura. Kapetan-Mišino zdanje, podignuto 1863. kao dar Miše Anastasijevića narodu i prvobitno dom Velike škole — kasnije Beogradskog univerziteta — bilo je možda prva zgrada u gradu koja je izgledala kao da pripada nekoj zapadnoevropskoj prestonici. Narodno pozorište otvoreno je 1869. na Pozorišnom trgu, na potezu koji će postati centar gradskog života. Stari dvor kralja Milana završen je 1884. godine kao zvanično sedište vladarske porodice. Banke, hoteli i prodavnice nicali su duž Knez Mihailove ulice, koja se iz nekadašnje turske čaršije pretvorila u glavnu trgovačku i šetačku arteriju, sa fasadama u duhu bečkog i pariskog akademizma. Crkva Svetog Marka, Saborna crkva, nove osnovne škole, gimnazije, sudovi — sve to dobilo je u tom razdoblju ozbiljne, reprezentativne zgrade. Zgrada Narodne skupštine, započeta još 1907, biće završena tek posle Prvog svetskog rata, ali je već svojim temeljima najavljivala nove razmere države."
+      "text": "Uz infrastrukturu se menjala i arhitektura. Kapetan-Mišino zdanje, podignuto 1863. kao dar Miše Anastasijevića narodu i prvobitno dom Velike škole — kasnije Beogradskog univerziteta — bilo je možda prva zgrada u gradu koja je izgledala kao da pripada nekoj zapadnoevropskoj prestonici. Narodno pozorište otvoreno je 1869. na Pozorišnom trgu, na potezu koji će postati centar gradskog života. Stari dvor kralja Milana završen je 1884. godine kao zvanično sedište vladarske porodice. Banke, hoteli i prodavnice nicali su duž Knez Mihailove ulice, koja se iz nekadašnje turske čaršije pretvorila u glavnu trgovačku i šetačku arteriju, sa fasadama u duhu bečkog i pariskog akademizma. Nove osnovne škole, gimnazije, sudovi — sve to dobilo je u tom razdoblju ozbiljne, reprezentativne zgrade. Zgrada Narodne skupštine, započeta još 1907, biće završena tek posle Prvog svetskog rata, ali je već svojim temeljima najavljivala nove razmere države."
     },
     {
       "type": "paragraph",
