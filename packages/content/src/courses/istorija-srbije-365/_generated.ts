@@ -509,7 +509,7 @@ export const lessons: readonly LessonSummary[] = [
     "order": 2,
     "title": "Život u Lepenskom Viru",
     "readingTimeMinutes": 5,
-    "year": -7000,
+    "year": -6100,
     "isPlaceholder": false
   },
   {
@@ -521,7 +521,7 @@ export const lessons: readonly LessonSummary[] = [
     "order": 3,
     "title": "Kameni ljudi-ribe Lepenskog Vira",
     "readingTimeMinutes": 5,
-    "year": -7500,
+    "year": -6100,
     "isPlaceholder": false
   },
   {
@@ -808,7 +808,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 27,
     "order": 10,
     "title": "Sirmijum — carski grad",
-    "readingTimeMinutes": 6,
+    "readingTimeMinutes": 7,
     "year": 290,
     "isPlaceholder": false
   },
@@ -1013,7 +1013,7 @@ export const lessons: readonly LessonSummary[] = [
     "order": 8,
     "title": "Prve srpske zemlje i kneževine",
     "readingTimeMinutes": 7,
-    "year": 850,
+    "year": 840,
     "isPlaceholder": false
   },
   {
