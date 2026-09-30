@@ -54,14 +54,12 @@ export default function HomePage() {
             {/* No hero eyebrow: the TopBar already holds the Istorija 365 brand,
              * and the h1 below carries the course identity. The title is kept
              * on one line from 1100px up (`.heroTitle`) so "365" never strands
-             * alone on a second line. The CTA sits directly under the lede —
-             * above the fold on a 900px-tall desktop — and the flourish closes
-             * the hero band after it. */}
+             * alone on a second line. The lede and CTA (newcomers only) sit
+             * under it — above the fold on a 900px-tall desktop — and the
+             * flourish closes the hero band after them. */}
             <h1 className={`display ${styles.heroTitle}`}>{course.title}</h1>
             <p className={`mono ${styles.dateLine}`}>{HERO_CONTRACT_LINE}</p>
-            <p className={`body ${styles.description}`}>{HERO_DESCRIPTION}</p>
-
-            <HomeHeroCta courseId={course.id} />
+            <HomeHeroCta courseId={course.id} description={HERO_DESCRIPTION} />
 
             <Flourish />
           </div>

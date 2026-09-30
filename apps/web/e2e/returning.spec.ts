@@ -34,7 +34,8 @@ test.describe('Returning reader — review 2026-09-30', () => {
 
   test('after hydration the mark is gone and the reader state shows', async ({ page }) => {
     await page.goto('/');
-    await expect(page.getByRole('link', { name: 'Nastavi lekciju' })).toBeVisible();
+    await expect(page.getByRole('link', { name: /DAN 003/ })).toBeVisible();
+    await expect(page.getByRole('link', { name: 'Počni kurs' })).toHaveCount(0);
     await expect(page.locator('html')).not.toHaveAttribute('data-progress', /.*/);
     await expect(page.locator('#kako-funkcionise')).toHaveCount(0);
   });

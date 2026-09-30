@@ -41,8 +41,8 @@
 }
 
 /* Drawer lead: the era rail, then the outline's own label. Side padding
- * matches the outline's era rows (16 px); the first eyebrow shares its line
- * with the drawer's close button, which sits top-right. */
+ * matches the outline's era rows (16 px); the drawer's close button has its
+ * own row above. */
 .drawerLead {
   display: flex;
   flex-direction: column;

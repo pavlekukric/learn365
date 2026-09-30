@@ -13,10 +13,11 @@ import { DEFAULT_STORAGE_KEY } from '@learn365/core';
  * painted: when any course has a completed lesson it sets
  * `<html data-progress="started">`, and `globals.css` hides what is marked
  * `data-newcomer` — `block` is removed from the flow (the how-it-works
- * block), `inline` keeps its box but is invisible (CTA, anchor, cards). Once
- * the components have rendered the reader's own state (they no longer carry
- * `data-newcomer`), `clearPrePaintMark()` removes the attribute so the page
- * follows the store again — e.g. after sign-out clears progress.
+ * block, the hero lede and CTA), `inline` keeps its box but is invisible
+ * (anchor, cards). Once the components have rendered the reader's own state
+ * (they no longer carry `data-newcomer`), `clearPrePaintMark()` removes the
+ * attribute so the page follows the store again — e.g. after sign-out
+ * clears progress.
  *
  * Plain ES5, no imports at run time: it is inlined as a string. It never
  * throws (blocked storage, bad JSON) — the worst case is today's behaviour.

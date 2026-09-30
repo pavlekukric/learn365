@@ -77,7 +77,7 @@ export function CourseOverviewBookmarks({ courseId }: CourseOverviewBookmarksPro
               </span>
               <span className={styles.title}>{lesson.title}</span>
               {era ? (
-                <span className={`tiny ${styles.era}`}>{era.title}</span>
+                <span className={`tiny ${styles.era}`}>{era.eraShort}</span>
               ) : null}
             </Link>
           </li>

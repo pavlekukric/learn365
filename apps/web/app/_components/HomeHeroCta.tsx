@@ -9,32 +9,34 @@ import styles from '../page.module.css';
 
 interface HomeHeroCtaProps {
   courseId: CourseId;
+  /** The hero lede — shown with the CTA, to first-time visitors only. */
+  description: string;
 }
 
 /**
- * State-aware primary CTA for the Home hero.
+ * The newcomer half of the Home hero: the lede and "Počni kurs" → Day 1.
  *
- * The start/continue distinction is **completion-driven** (opening a lesson
- * never flips the label) and the target comes from the shared
- * `useResumeLesson` rule, so the hero, the recommended-lesson card and the
- * course overview always open the same lesson:
- *
- * - nothing completed  → "Počni kurs"      → Day 1
- * - something completed → "Nastavi lekciju" → the lesson left unfinished,
- *                          else the next unread day (never a finished one)
- * - everything completed → "Otvori kurs"  → course overview
+ * A returning reader (something completed) gets neither: the hero shrinks to
+ * the title, and the recommended-lesson card right under it is the one
+ * action — the "Tvoj N. dan" card is then above the fold on a phone, and no
+ * second "continue" button competes with it (review 2026-09-30, user pass).
+ * Completion-driven like the rest of Home: opening a lesson changes nothing.
+ * `data-newcomer="block"` keeps the prerendered newcomer version out of the
+ * flow for a returning reader before the JS runs (lib/progress/prePaint.ts).
  */
-export function HomeHeroCta({ courseId }: HomeHeroCtaProps) {
+export function HomeHeroCta({ courseId, description }: HomeHeroCtaProps) {
   const { hasStarted, lesson } = useResumeLesson(courseId);
-
+  if (hasStarted) return null;
   const href = lesson ? `/course/${courseId}/lesson/${lesson.id}` : `/course/${courseId}`;
-  const label = !hasStarted ? 'Počni kurs' : lesson ? 'Nastavi lekciju' : 'Otvori kurs';
 
   return (
-    <div className={styles.ctaRow} data-newcomer={hasStarted ? undefined : 'inline'}>
-      <Button href={href} iconRight={<IconArrow />}>
-        {label}
-      </Button>
+    <div data-newcomer-wrap data-newcomer="block">
+      <p className={`body ${styles.description}`}>{description}</p>
+      <div className={styles.ctaRow}>
+        <Button href={href} iconRight={<IconArrow />}>
+          Počni kurs
+        </Button>
+      </div>
     </div>
   );
 }

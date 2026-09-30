@@ -44,12 +44,10 @@ test.describe('Istorija 365 — resume loop', () => {
     await expect(article.getByText('Pročitano 1 / 365')).toBeVisible();
     await expect(article.getByRole('link', { name: /Sledeća lekcija · DAN 002/ })).toBeVisible();
 
-    // Home: hero CTA and recommended card both open Day 2.
+    // Home: the hero drops its CTA for a returning reader; the recommended
+    // card right under the title is the one action, and it opens Day 2.
     await page.goto('/');
-    await expect(page.getByRole('link', { name: /Nastavi lekciju/ })).toHaveAttribute(
-      'href',
-      `/course/${COURSE_ID}/lesson/day-002`,
-    );
+    await expect(page.getByRole('link', { name: /Počni kurs/ })).toHaveCount(0);
     await expect(page.getByRole('link', { name: /DAN 002/ })).toHaveAttribute(
       'href',
       `/course/${COURSE_ID}/lesson/day-002`,
@@ -74,7 +72,7 @@ test.describe('Istorija 365 — resume loop', () => {
       value: seed(['day-001'], 'day-002'),
     });
     await page.goto('/');
-    await expect(page.getByRole('link', { name: /Nastavi lekciju/ })).toHaveAttribute(
+    await expect(page.getByRole('link', { name: /DAN 002/ })).toHaveAttribute(
       'href',
       `/course/${COURSE_ID}/lesson/day-002`,
     );
@@ -89,7 +87,7 @@ test.describe('Istorija 365 — resume loop', () => {
       value: seed(['day-001', 'day-002'], 'day-002'),
     });
     await page.goto('/');
-    await expect(page.getByRole('link', { name: /Nastavi lekciju/ })).toHaveAttribute(
+    await expect(page.getByRole('link', { name: /DAN 003/ })).toHaveAttribute(
       'href',
       `/course/${COURSE_ID}/lesson/day-003`,
     );

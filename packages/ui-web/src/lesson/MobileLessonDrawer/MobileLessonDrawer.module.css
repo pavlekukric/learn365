@@ -27,12 +27,16 @@
   outline: 0;
 }
 
+/* Close row above the scrolling body, so no content ever passes under the
+ * button. The top padding respects the notch / status-bar inset on iOS. */
+.header {
+  flex: none;
+  display: flex;
+  justify-content: flex-end;
+  padding: calc(var(--space-3) + env(safe-area-inset-top)) var(--space-3) var(--space-2);
+}
+
 .closeButton {
-  position: absolute;
-  /* Respect notch / status-bar inset so the close affordance never sits
-   * under the system overlay on iOS. */
-  top: calc(var(--space-3) + env(safe-area-inset-top));
-  right: var(--space-3);
   width: 32px;
   height: 32px;
   display: inline-flex;
@@ -46,7 +50,6 @@
   transition:
     background var(--dur-base) var(--ease),
     color var(--dur-base) var(--ease);
-  z-index: 1;
 }
 
 .closeButton:hover {
