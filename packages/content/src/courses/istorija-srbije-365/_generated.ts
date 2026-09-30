@@ -1757,7 +1757,7 @@ export const lessons: readonly LessonSummary[] = [
     "order": 1,
     "title": "Srpske zemlje posle carstva",
     "readingTimeMinutes": 6,
-    "year": 1380,
+    "year": 1371,
     "isPlaceholder": false
   },
   {
@@ -1792,7 +1792,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 109,
     "order": 4,
     "title": "Vuk Branković",
-    "readingTimeMinutes": 6,
+    "readingTimeMinutes": 7,
     "year": 1380,
     "isPlaceholder": false
   },
@@ -2045,7 +2045,7 @@ export const lessons: readonly LessonSummary[] = [
     "order": 4,
     "title": "Despotovina između dva carstva",
     "readingTimeMinutes": 6,
-    "year": 1440,
+    "year": 1435,
     "isPlaceholder": false
   },
   {
@@ -2104,7 +2104,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 135,
     "order": 9,
     "title": "Opsada Beograda 1456.",
-    "readingTimeMinutes": 6,
+    "readingTimeMinutes": 7,
     "year": 1456,
     "isPlaceholder": false
   },

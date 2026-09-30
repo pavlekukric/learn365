@@ -6,10 +6,10 @@
   "dayNumber": 115,
   "order": 10,
   "title": "Kosovska bitka — tok",
-  "subtitle": "Šta se zaista zna o sudaru na Kosovu polju 28. juna 1389. i gde se istorija završava, a tradicija počinje",
+  "subtitle": "Šta se zaista zna o sudaru na Kosovu polju na Vidovdan 1389. i gde se istorija završava, a tradicija počinje",
   "year": 1389,
-  "dateLabel": "28. jun 1389.",
-  "timelinePosition": "28. jun 1389.",
+  "dateLabel": "15/28. jun 1389.",
+  "timelinePosition": "15/28. jun 1389.",
   "summary": "Tok bitke na Kosovu polju: sukob srpsko-bosanske koalicije i osmanske vojske, smrt sultana Murata i kneza Lazara, i neizvestan ishod koji su izvori ostavili u nekoliko verzija.",
   "keyPeople": ["Lazar", "Murad I", "Bajazit", "Vuk Branković", "Vlatko Vuković"],
   "keyPlaces": ["Kosovo polje", "Priština"],
@@ -17,7 +17,7 @@
     {
       "type": "paragraph",
       "dropcap": true,
-      "text": "Na Vidovdan, 28. juna 1389. godine po julijanskom kalendaru, na ravnici severno od današnje Prištine sukobile su se dve vojske koje su znale da od ishoda zavisi mnogo više od jednog dana. Sa jedne strane stajala je osmanska sila pod sultanom Muratom I, sa njegovim sinovima Bajazitom i Jakubom; sa druge, koalicija koju je predvodio knez Lazar Hrebeljanović, sa Vukom Brankovićem, gospodarom oblasti oko same prištinske ravnice, i sa bosanskim vojvodom Vlatkom Vukovićem, koga je u pomoć poslao kralj Tvrtko I. Bila je to, po svemu sudeći, najveća bitka koju je srednjovekovna Srbija ikada vodila. O njoj se, paradoksalno, sigurno zna manje nego o mnogim manjim sukobima istog veka."
+      "text": "Na Vidovdan, 15. juna 1389. godine po julijanskom kalendaru (danas 28. jun), na ravnici severno od današnje Prištine sukobile su se dve vojske koje su znale da od ishoda zavisi mnogo više od jednog dana. Sa jedne strane stajala je osmanska sila pod sultanom Muratom I, sa njegovim sinovima Bajazitom i Jakubom; sa druge, koalicija koju je predvodio knez Lazar Hrebeljanović, sa Vukom Brankovićem, gospodarom oblasti oko same prištinske ravnice, i sa bosanskim vojvodom Vlatkom Vukovićem, koga je u pomoć poslao kralj Tvrtko I. Bila je to, po svemu sudeći, najveća bitka koju je srednjovekovna Srbija ikada vodila. O njoj se, paradoksalno, sigurno zna manje nego o mnogim manjim sukobima istog veka."
     },
     {
       "type": "paragraph",
@@ -38,7 +38,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Sigurno je, dalje, da je knez Lazar zarobljen — verovatno tokom same bitke ili neposredno posle nje — i da je u osmanskom logoru pogubljen mačem. Više izvora govori da je pogubljen u znak osvete za smrt sultana, mada je sasvim moguće i da je razlog bio prostiji: zarobljeni vladar protivničke vojske u srednjovekovnim ratovima nije imao mnogo izgleda, pogotovo kada je sopstveni vladar pobednika već ležao mrtav. Bajazit, sultanov stariji sin, iskoristio je trenutak da osigura nasleđe na način koji su osmanski izvori tek kasnije počeli da pominju otvoreno: dao je da se ubije njegov rođeni brat Jakub, eliminišući time jedinog mogućeg suparnika u borbi za presto. Sa Kosovog polja vratio se kao novi sultan."
+      "text": "Sigurno je, dalje, da je knez Lazar zarobljen — verovatno tokom same bitke ili neposredno posle nje — i da je u osmanskom logoru pogubljen mačem. Više izvora govori da je pogubljen u znak osvete za smrt sultana, mada je sasvim moguće i da je razlog bio prostiji: zarobljeni vladar protivničke vojske u srednjovekovnim ratovima nije imao mnogo izgleda, pogotovo kada je sopstveni vladar pobednika već ležao mrtav. Bajazit, sultanov mlađi sin, iskoristio je trenutak da osigura nasleđe na način koji su osmanski izvori tek kasnije počeli da pominju otvoreno: dao je da se ubije njegov rođeni brat Jakub, eliminišući time jedinog mogućeg suparnika u borbi za presto. Sa Kosovog polja vratio se kao novi sultan."
     },
     {
       "type": "paragraph",
