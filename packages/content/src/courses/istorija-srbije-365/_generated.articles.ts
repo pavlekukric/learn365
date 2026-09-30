@@ -194,7 +194,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
         "text": "Možda je baš to ono što ih čini tako snažnima. Pred nama je delo ljudske ruke staro hiljadama godina, koje očigledno nešto znači — koje je nekom bilo važno dovoljno da ga drži u srcu svoga doma — a mi stojimo pred njim i ne umemo sasvim da ga pročitamo. To nije neuspeh nauke. To je iskren susret sa zaista dalekom prošlošću, koja nam ostavlja svoje tragove, ali ne i ključ za sve njih. Ono što sa sigurnošću možemo da kažemo, ipak, vredi ponoviti: hiljadama godina pre nego što je u ove krajeve stigla bilo kakva pisana reč, ljudi su umeli da kamenu daju lik, da taj lik smeste u središte svoga doma i da iza sebe ostave delo koje će drugima — nepoznatima, dalekima, nama — i posle svih tih milenijuma još uvek nešto saopštavati. Iz oblutka koji je oblikovala reka, ljudska ruka je pre više hiljada godina isklesala lice — a mi i danas stojimo pred njim ne znajući pouzdano šta nam govori."
       }
     ],
-    "subtitle": "Najstarije monumentalne skulpture Evrope, klesane od rečnih oblutaka u srcu doma",
+    "subtitle": "Među najstarijim monumentalnim skulpturama Evrope, klesane od rečnih oblutaka u srcu doma",
     "dateLabel": "oko 9500–6000. p. n. e.",
     "timelinePosition": "~9500–6000. p. n. e.",
     "summary": "Među temeljima kuća Lepenskog Vira nalaze se kamene skulpture sa licima — pola čovek, pola riba — među najstarijim takvim delima u Evropi.",
@@ -274,7 +274,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Vredi se zaustaviti na jednoj pojedinosti, jer ona lepo pokazuje kako nauka radi i zašto joj treba verovati upravo zato što se ispravlja. Vasić je verovao da poreklo Vinče treba tražiti daleko, u vezi sa egejskim i antičkim svetom — da je ovde reč o odjeku neke razvijenije, južne civilizacije. To tumačenje danas je napušteno. Kasnija istraživanja, sa boljim metodama datiranja, pokazala su da je vinčanska kultura izrasla ovde, na domaćem tlu — kao razvijeniji nastavak ranijeg neolitskog života, onog koji smo upoznali kroz starčevačku kulturu. Vasićeva zasluga za samo otkriće ostaje neosporna i velika; ali njegov zaključak o poreklu ispravljen je. To nije sramota nauke — to je njen zdrav, normalan tok."
+        "text": "Vredi se zaustaviti na jednoj pojedinosti, jer ona lepo pokazuje kako nauka radi i zašto joj treba verovati upravo zato što se ispravlja. Vasić je verovao da poreklo Vinče treba tražiti daleko, u vezi sa egejskim i antičkim svetom — da je ovde reč o odjeku neke razvijenije, južne civilizacije. To tumačenje danas je napušteno. Kasnija istraživanja, sa boljim metodama datiranja, otvorila su dve mogućnosti: da je vinčanska kultura izrasla ovde, na domaćem tlu, kao razvijeniji nastavak starčevačke kulture — ili da ju je doneo novi talas doseljenika iz Anadolije. To pitanje ni danas nije rešeno. Vasićeva zasluga za samo otkriće ostaje neosporna i velika; ali njegov zaključak o poreklu ispravljen je. To nije sramota nauke — to je njen zdrav, normalan tok."
       },
       {
         "type": "paragraph",
@@ -379,7 +379,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "A upravo tu vinčanski znaci ne prolaze test. Ne postoji dokaz da oni beleže jezik. Znaci se najčešće javljaju pojedinačno ili u kratkim grupama, nema ponovljivih nizova koji bi odgovarali rečenicama, nema ničega što bi se moglo „pročitati” u pravom smislu te reči. Zato je stručni konsenzus jasan i ujednačen: vinčanski znaci nisu pismo. Oni jesu nešto — namerni, smisleni, deljeni — ali pismo nisu. To dvoje ne treba mešati."
+        "text": "A upravo tu vinčanski znaci ne prolaze test. Ne postoji dokaz da oni beleže jezik. Znaci se najčešće javljaju pojedinačno ili u kratkim grupama, nema ponovljivih nizova koji bi odgovarali rečenicama, nema ničega što bi se moglo „pročitati” u pravom smislu te reči. Zato većina stručnjaka smatra da vinčanski znaci nisu pismo; manjina govori o „protopismu” ili čak o „dunavskom pismu”. Oni jesu nešto — namerni, smisleni, deljeni — ali pismo nisu. To dvoje ne treba mešati."
       },
       {
         "type": "heading",
@@ -402,7 +402,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "subtitle": "Šta su urezani znaci sa vinčanskih predmeta, i zašto nisu „najstarije pismo na svetu”",
     "dateLabel": "oko 5400–4500. p. n. e.",
     "timelinePosition": "~5000. p. n. e.",
-    "summary": "Vinčanski znaci su namerni i ponavljaju se — ali, po stručnom konsenzusu, nisu pismo. Vežba iz kritičkog mišljenja primenjena na poznati istorijski mit.",
+    "summary": "Vinčanski znaci su namerni i ponavljaju se — ali, po većinskom mišljenju stručnjaka, nisu pismo. Vežba iz kritičkog mišljenja primenjena na poznati istorijski mit.",
     "keyPeople": [],
     "keyPlaces": [
       "Vinča"
@@ -523,7 +523,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "subtitle": "Utvrđena naselja, humke i mreže razmene — društvo koje se raslojava",
     "dateLabel": "bronzano doba (oko 2200–1200. p. n. e.)",
     "timelinePosition": "~1500. p. n. e.",
-    "summary": "U bronzanom dobu na Balkanu javljaju se utvrđena naselja, a uz sahranjivanje pod humkom i sve vidljivije razlike među pokojnicima — znak društva u kome moć počinje da se nasleđuje.",
+    "summary": "U bronzanom dobu na Balkanu javljaju se utvrđena naselja, a uz sahranjivanje pod humkom i sve vidljivije razlike među pokojnicima — verovatno znak društva u kome moć počinje da se nasleđuje.",
     "keyPeople": [],
     "keyPlaces": [
       "Vojvodina",
@@ -561,7 +561,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Najznačajnija promena, međutim, nije materijalna — ona je u tome što tek u ovom razdoblju počinjemo da znamo imena ljudi koji ovde žive. Do gvozdenog doba o stanovnicima Balkana govorimo isključivo kroz njihove stvari, jer nemamo ničije reči o njima. Sa gvozdenim dobom, prvi grčki istoričari i geografi počinju da pominju narode sa kojima njihovi pomorci i trgovci dolaze u dodir: na zapadu Ilire, na istoku Tračane, kasnije Kelte koji u talasima dolaze sa severozapada. To su prva imena pod kojima ovi prostori ulaze u zapisanu istoriju. Ko su tačno bili, kako su sami sebe zvali, koliko su međusobno bili srodni — to su pitanja na koja ćemo se u narednim lekcijama vraćati. Ali važno je odmah reći: Ilire i Tračane ne treba zamišljati kao doseljenike iz nekog novog talasa; oni su, pre svega, potomci ljudi koji su na ovom tlu već generacijama živeli, samo što ih sada, prvi put, neko izdaleka imenuje. Kelti su, naprotiv, zaista došli sa strane."
+        "text": "Najznačajnija promena, međutim, nije materijalna — ona je u tome što tek u ovom razdoblju počinjemo da znamo imena ljudi koji ovde žive. Do gvozdenog doba o stanovnicima Balkana govorimo isključivo kroz njihove stvari, jer nemamo ničije reči o njima. Sa gvozdenim dobom, prvi grčki istoričari i geografi počinju da pominju narode sa kojima njihovi pomorci i trgovci dolaze u dodir: na zapadu Ilire, na istoku Tračane, kasnije Kelte koji u talasima dolaze sa severozapada. To su prva imena pod kojima ovi prostori ulaze u zapisanu istoriju. Ko su tačno bili, kako su sami sebe zvali, koliko su međusobno bili srodni — to su pitanja na koja ćemo se u narednim lekcijama vraćati. Ali važno je odmah reći: preovlađuje mišljenje da Ilire i Tračane ne treba zamišljati kao doseljenike iz nekog novog talasa, nego pre svega kao potomke ljudi koji su na ovom tlu već generacijama živeli, samo što ih sada, prvi put, neko izdaleka imenuje. Kelti su, naprotiv, zaista došli sa strane."
       },
       {
         "type": "paragraph",
@@ -650,7 +650,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Kada grčki i rimski izvori počnu da nabrajaju plemena pod ilirskim imenom, dobijamo dugačak spisak koji nije svuda jednako pouzdan. Među onima koja se najčešće pominju i koja su za našu priču najvažnija nekoliko ih se izdvaja. Ardijejci su živeli na jadranskoj obali i u njenom zaleđu, i upravo će oni, u trećem veku pre nove ere, postati jezgro jedne ilirske kraljevine o kojoj će pisati i Rim. Autarijati su, prema antičkim piscima, bili moćno pleme centralnog Balkana, smatrano u jednom razdoblju gotovo najjačim među Ilirima, premda je njihova istorija puna kasnijih previranja i seoba. Liburnci su bili pomorci severnog Jadrana, dovoljno vešti na moru da po njima jedan tip ratnog broda nosi ime — liburna. Dardanci su živeli najbliže onome što danas zovemo Srbijom: na prostoru današnjeg Kosova i njegovog šireg okruženja, gde će se u sledećim vekovima često sukobljavati sa Makedoncima na jugu i sa rimskom silom koja nadolazi. Pominju se i Tribali, premda se izvori i moderni istraživači spore — neki ih svrstavaju među Ilire, drugi ih radije vide kao narod bliži Tračanima."
+        "text": "Kada grčki i rimski izvori počnu da nabrajaju plemena pod ilirskim imenom, dobijamo dugačak spisak koji nije svuda jednako pouzdan. Među onima koja se najčešće pominju i koja su za našu priču najvažnija nekoliko ih se izdvaja. Ardijejci su živeli na jadranskoj obali i u njenom zaleđu, i upravo će oni, u trećem veku pre nove ere, postati jezgro jedne ilirske kraljevine o kojoj će pisati i Rim. Autarijati su, prema antičkim piscima, bili moćno pleme centralnog Balkana, smatrano u jednom razdoblju gotovo najjačim među Ilirima, premda je njihova istorija puna kasnijih previranja i seoba. Liburnci su bili pomorci severnog Jadrana, dovoljno vešti na moru da po njima jedan tip ratnog broda nosi ime — liburna. Dardanci, koje antički pisci i današnji istraživači najčešće, ali ne jednoglasno, ubrajaju među Ilire, živeli su najbliže onome što danas zovemo Srbijom: na prostoru današnjeg Kosova i njegovog šireg okruženja, gde će se u sledećim vekovima često sukobljavati sa Makedoncima na jugu i sa rimskom silom koja nadolazi. Pominju se i Tribali, premda se izvori i moderni istraživači spore — neki ih svrstavaju među Ilire, drugi ih radije vide kao narod bliži Tračanima."
       },
       {
         "type": "heading",
@@ -677,7 +677,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "subtitle": "Tuđe ime za mnoštvo srodnih plemena zapadnog i centralnog Balkana",
     "dateLabel": "gvozdeno doba",
     "timelinePosition": "~500. p. n. e.",
-    "summary": "Iliri nisu bili jedan narod ni jedna država, nego porodica srodnih plemena gvozdenog doba kojima su grčki i rimski pisci, gledano spolja, dali zajedničko ime. Pod tim imenom kriju se Ardijejci, Autarijati, Dardanci, Liburnci i drugi — različiti po jeziku tek u nijansama, po sudbini često veoma različito.",
+    "summary": "Iliri nisu bili jedan narod ni jedna država, nego porodica srodnih plemena gvozdenog doba kojima su grčki i rimski pisci, gledano spolja, dali zajedničko ime. Pod tim imenom kriju se Ardijejci, Autarijati, Liburnci, obično i Dardanci, i drugi — različiti po jeziku tek u nijansama, po sudbini često veoma različito.",
     "keyPeople": [
       "Agron",
       "Teuta",
@@ -980,7 +980,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Pravi preokret doneli su, međutim, sukobi sa Makedonijom. Helenistička makedonska država, naslednica Filipa II i Aleksandra Velikog, bila je daleko ozbiljniji protivnik od ilirskih kraljevstava — uređena država sa profesionalnom vojskom, dvorom i diplomatskom mrežom. Između 215. i 148. godine pre nove ere Rim je sa Makedonijom vodio četiri rata, danas poznata kao Makedonski ratovi. Prvi je izbio za vreme Drugog punskog rata, kada se makedonski kralj Filip V vezao sa Hanibalom; on se završio bez jasnog pobednika. Drugi i Treći rat doneli su rimske pobede, pre svega kod Kinoskefala 197. i kod Pidne 168. godine, gde je kralj Persej izgubio i bitku i kraljevstvo. Posle kratkog ustanka, 148. godine pre nove ere Makedonija je pretvorena u rimsku provinciju."
+        "text": "Pravi preokret doneli su, međutim, sukobi sa Makedonijom. Helenistička makedonska država, naslednica Filipa II i Aleksandra Velikog, bila je daleko ozbiljniji protivnik od ilirskih kraljevstava — uređena država sa profesionalnom vojskom, dvorom i diplomatskom mrežom. Između 215. i 148. godine pre nove ere Rim je sa Makedonijom vodio četiri rata, danas poznata kao Makedonski ratovi. Prvi je izbio za vreme Drugog punskog rata, kada se makedonski kralj Filip V vezao sa Hanibalom; on se završio bez jasnog pobednika. Drugi i Treći rat doneli su rimske pobede, pre svega kod Kinoskefala 197. i kod Pidne 168. godine, gde je kralj Persej izgubio i bitku i kraljevstvo. Posle kratkog ustanka, između 148. i 146. godine pre nove ere Makedonija je pretvorena u rimsku provinciju."
       },
       {
         "type": "paragraph",
@@ -1172,7 +1172,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Prestonica Gornje Mezije postao je Viminacijum, na ušću Mlave u Dunav, kraj današnjeg Kostolca. Tu je bio stalni logor jedne legije, ali oko logora se vrlo brzo razvio i veliki civilni grad sa svojim forumom, hramovima, termama, nekropolama i — što je u ovom delu carstva retkost — sa amfiteatrom. Viminacijum je bio upravno, vojno i ekonomsko središte provincije, čvorište puteva koji su vodili u unutrašnjost i mesto gde su se sticali porezi, rude i ljudi. U njegovoj senci stajali su drugi važni gradovi: Singidunum, na ušću Save u Dunav, kao snažan legijski logor i začetak današnjeg Beograda; Naissus, današnji Niš, kao raskrsnica puteva koji su povezivali Dunav sa Egejom; Margum kod ušća Velike Morave, Horeum Margi kod današnje Ćuprije, i Ulpijana na Kosovu, blizu današnjeg Lipljana."
+        "text": "Prestonica Gornje Mezije najverovatnije je postao Viminacijum, na ušću Mlave u Dunav, kraj današnjeg Kostolca. Tu je bio stalni logor jedne legije, ali oko logora se vrlo brzo razvio i veliki civilni grad sa svojim forumom, hramovima, termama, nekropolama i — što je u ovom delu carstva retkost — sa amfiteatrom. Viminacijum je bio upravno, vojno i ekonomsko središte provincije, čvorište puteva koji su vodili u unutrašnjost i mesto gde su se sticali porezi, rude i ljudi. U njegovoj senci stajali su drugi važni gradovi: Singidunum, na ušću Save u Dunav, kao snažan legijski logor i začetak današnjeg Beograda; Naissus, današnji Niš, kao raskrsnica puteva koji su povezivali Dunav sa Egejom; Margum kod ušća Velike Morave, Horeum Margi kod današnje Ćuprije, i Ulpijana na Kosovu, blizu današnjeg Lipljana."
       },
       {
         "type": "paragraph",
@@ -1187,10 +1187,10 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
         "text": "Vremenom će se pokazati da Mezija nije samo davala vojnike i rude, nego i ljude koji će se popeti do samog vrha carstva. Iz njenih logora i gradova poteći će nekoliko rimskih careva — vladara koji su rođeni u ovim krajevima ili na njima započeli svoje uspone. O njima će biti reči nešto kasnije; za sada je dovoljno reći da je ovo tlo, koje je prvog veka još bilo posmatrano kao surova granica, već nosilo u sebi začetak jedne sasvim drugačije uloge u istoriji Rima."
       }
     ],
-    "subtitle": "Dunavska granica, Viminacijum kao prestonica i provincija koja će dati careve",
+    "subtitle": "Dunavska granica, Viminacijum kao verovatna prestonica i provincija koja će dati careve",
     "dateLabel": "1. vek n. e.",
     "timelinePosition": "~50. n. e.",
-    "summary": "Rim u prvom veku organizuje Meziju — pograničnu provinciju na Dunavu, nazvanu po lokalnom plemenu Meza; pod Domicijanom se deli na Gornju i Donju, sa Viminacijumom kao prestonicom one koja pokriva najveći deo današnje Srbije.",
+    "summary": "Rim u prvom veku organizuje Meziju — pograničnu provinciju na Dunavu, nazvanu po lokalnom plemenu Meza; pod Domicijanom se deli na Gornju i Donju, sa Viminacijumom kao verovatnom prestonicom one koja pokriva najveći deo današnje Srbije.",
     "keyPeople": [
       "Avgust",
       "Domicijan"
@@ -1237,7 +1237,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Provincija je svoj doprinos carstvu davala i ljudima. Iz Dalmacije su u rimsku vojsku odlazile čitave generacije regruta, posebno iz tvrdog planinskog zaleđa, gde su se vrbovali izdržljivi pešaci i konjanici. Tokom kriza trećeg veka, kada se carstvo branilo na svim granicama, baš iz ovih krajeva izrastao je niz vojnika koji su stigli do najviših činova. Među njima je i čovek čije se ime najjače vezuje za Dalmaciju — Dioklecijan, rođen u skromnoj porodici negde u okolini Salone. Posle decenija ratovanja i vladanja, on će se u svoju domovinu vratiti kao penzionisani car i podići, na obali blizu Salone, ogromnu palatu u mestu zvanom Spalatum. Ta palata danas čini istorijsko jezgro Splita — redak primer rimske rezidencije koja je nadživela carstvo tako što je postala grad."
+        "text": "Provincija je svoj doprinos carstvu davala i ljudima. Iz Dalmacije su u rimsku vojsku odlazile čitave generacije regruta, posebno iz tvrdog planinskog zaleđa, gde su se vrbovali izdržljivi pešaci i konjanici. Tokom kriza trećeg veka, kada se carstvo branilo na svim granicama, baš iz ovih krajeva izrastao je niz vojnika koji su stigli do najviših činova. Među njima je i čovek čije se ime najjače vezuje za Dalmaciju — Dioklecijan, rođen u skromnoj porodici, prema predanju u Saloni ili njenoj okolini, a prema drugom u Dokleji. Posle decenija ratovanja i vladanja, on će se u svoju domovinu vratiti kao penzionisani car i podići, na obali blizu Salone, ogromnu palatu u mestu zvanom Spalatum. Ta palata danas čini istorijsko jezgro Splita — redak primer rimske rezidencije koja je nadživela carstvo tako što je postala grad."
       },
       {
         "type": "paragraph",
@@ -1270,7 +1270,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Stvarni upravni i ekonomski centar ovog dela carstva ležao je nešto nizvodnije — u Viminacijumu, kraj današnjeg Kostolca. Tu je bila prestonica provincije Gornje Mezije, sedište namesnika i baza Legije VII Klaudije. U doba najvećeg uspona, sredinom drugog veka, procene govore da je Viminacijum imao oko četrdeset hiljada stanovnika, što ga svrstava među najveće gradove na celom Dunavu. Imao je jasno razdvojen vojni logor i civilnu varoš, sopstvenu kovnicu novca, amfiteatar sa stepenicama koje su prvo bile drvene a kasnije zidane, te ogromnu nekropolu sa više hiljada grobova različitih vera i običaja. Ta nekropola danas je jedan od najznačajnijih izvora za poznavanje života u rimskim podunavskim provincijama — u njoj počivaju vojnici, trgovci, zanatlije, žene i deca svih porekala koje je carstvo skupilo na svojoj granici."
+        "text": "Stvarni upravni i ekonomski centar ovog dela carstva ležao je nešto nizvodnije — u Viminacijumu, kraj današnjeg Kostolca. Tu je najverovatnije bila prestonica provincije Gornje Mezije, sedište namesnika i baza Legije VII Klaudije. U doba najvećeg uspona, sredinom drugog veka, procene govore da je Viminacijum imao oko četrdeset hiljada stanovnika, što ga svrstava među najveće gradove na celom Dunavu. Imao je jasno razdvojen vojni logor i civilnu varoš, sopstvenu kovnicu novca, amfiteatar sa stepenicama koje su prvo bile drvene a kasnije zidane, te ogromnu nekropolu sa više hiljada grobova različitih vera i običaja. Ta nekropola danas je jedan od najznačajnijih izvora za poznavanje života u rimskim podunavskim provincijama — u njoj počivaju vojnici, trgovci, zanatlije, žene i deca svih porekala koje je carstvo skupilo na svojoj granici."
       },
       {
         "type": "paragraph",
@@ -1295,13 +1295,13 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Najtrajnija ostavština ovih gradova ipak nije ostala u pojedinačnim zdanjima — od kojih je vreme malo šta sačuvalo nad zemljom — nego u samoj činjenici da je urbani život uopšte stigao u ove krajeve. Pre Rimljana, na tlu današnje Srbije nije bilo pravih gradova u smislu kakav antika podrazumeva: planiranih, kamenih, sa javnim institucijama. Rim je tu doneo — i ostavio. Ulice starog jezgra Beograda, između Kalemegdana i Studentskog trga, deo Niša oko Tvrđave, središte Sremske Mitrovice — sve to još uvek nosi trag rimskog rastera. Carstvo je davno propalo, ali obrisi njegovih gradova još su vidljivi, kao slabi crteži ispod kasnijih boja."
+        "text": "Najtrajnija ostavština ovih gradova ipak nije ostala u pojedinačnim zdanjima — od kojih je vreme malo šta sačuvalo nad zemljom — nego u samoj činjenici da je urbani život uopšte stigao u ove krajeve. Pre Rimljana, na tlu današnje Srbije gotovo da nije bilo pravih gradova u smislu kakav antika podrazumeva: planiranih, kamenih, sa javnim institucijama — izuzetak je možda Kale-Krševica kod Vranja, naselje iz 5–3. veka pre nove ere koje neki tumače kao grad. Rim je tu doneo — i ostavio. Ulice starog jezgra Beograda, između Kalemegdana i Studentskog trga, deo Niša oko Tvrđave, središte Sremske Mitrovice — sve to još uvek nosi trag rimskog rastera. Carstvo je davno propalo, ali obrisi njegovih gradova još su vidljivi, kao slabi crteži ispod kasnijih boja."
       }
     ],
     "subtitle": "Singidunum, Viminacijum, Naissus i mreža varoši koje su unele urbani život u ove krajeve",
     "dateLabel": "rimsko doba",
     "timelinePosition": "~150. n. e.",
-    "summary": "Pod rimskom upravom na tlu današnje Srbije izrasta gusta mreža gradova — od legionarskog Singidunuma na ušću Save u Dunav, preko Viminacijuma kao prestonice provincije, do Naissusa na velikom raskršću puteva. Rim ovde po prvi put donosi pravu urbanu civilizaciju.",
+    "summary": "Pod rimskom upravom na tlu današnje Srbije izrasta gusta mreža gradova — od legionarskog Singidunuma na ušću Save u Dunav, preko Viminacijuma kao verovatne prestonice provincije, do Naissusa na velikom raskršću puteva. Rim ovde po prvi put donosi pravu urbanu civilizaciju.",
     "keyPeople": [],
     "keyPlaces": [
       "Singidunum",
@@ -1326,7 +1326,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Na današnjem srpskom toku Dunava nizale su se tvrđave čija imena i danas zvuče poznato. Na zapadnom kraju stajao je Singidunum, na ušću Save u Dunav, sedište Četvrte Flavijeve legije — mesto na kome će vekovima kasnije izrasti Beograd. Nizvodno od njega, na današnjem Kostolcu, dizao se Viminacijum, sedište Sedme Klaudijeve legije i glavni grad rimske provincije Gornje Mezije, jedan od najvećih gradova ovog dela carstva. Preko puta današnje Banatske Palanke, na rimskoj strani, stajala je Lederata, ključno prelazno mesto za pohode preko reke. Dalje na istok, u oblasti Đerdapa, lanac utvrđenja se zgušnjavao: tu su bili Pontes kod današnjeg Kostola, gde je počinjao čuveni most, i tvrđava Dijana iznad samih klisura, podignuta da nadgleda najuži i najopasniji deo reke."
+        "text": "Na današnjem srpskom toku Dunava nizale su se tvrđave čija imena i danas zvuče poznato. Na zapadnom kraju stajao je Singidunum, na ušću Save u Dunav, sedište Četvrte Flavijeve legije — mesto na kome će vekovima kasnije izrasti Beograd. Nizvodno od njega, na današnjem Kostolcu, dizao se Viminacijum, sedište Sedme Klaudijeve legije i, najverovatnije, glavni grad rimske provincije Gornje Mezije, jedan od najvećih gradova ovog dela carstva. Preko puta današnje Banatske Palanke, na rimskoj strani, stajala je Lederata, ključno prelazno mesto za pohode preko reke. Dalje na istok, u oblasti Đerdapa, lanac utvrđenja se zgušnjavao: tu su bili Pontes kod današnjeg Kostola, gde je počinjao čuveni most, i tvrđava Dijana iznad samih klisura, podignuta da nadgleda najuži i najopasniji deo reke."
       },
       {
         "type": "heading",
@@ -1555,7 +1555,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Geografski pregled je gotovo zapanjujući. Aurelijan, jedan od ključnih careva koji je u kratkoj vladavini od 270. do 275. zaustavio raspad carstva, rođen je u okolini Sirmijuma, današnje Sremske Mitrovice. Prob, koji vlada od 276. do 282, takođe je sa sirmijumskog tla; antičke beleške pamte ga i kao cara koji je svoje vojnike koristio za sadnju vinove loze u Sremu. Galerije, kasniji august i jedan od poslednjih velikih progonitelja hrišćana, rođen je u blizini Romulijane — palate koju će sebi podići na istoku današnje Srbije, u kraju oko Gamzigrada. Konstancije Hlor, otac Konstantina Velikog, dolazi iz šireg ilirskog kruga, dok je sam Konstantin rođen u Naisusu, današnjem Nišu, oko 272. godine."
+        "text": "Geografski pregled je gotovo zapanjujući. Aurelijan, jedan od ključnih careva koji je u kratkoj vladavini od 270. do 275. zaustavio raspad carstva, rođen je, prema jednoj tradiciji, u okolini Sirmijuma, današnje Sremske Mitrovice; Eutropije ga ipak vezuje za Priobalnu Dakiju. Prob, koji vlada od 276. do 282, takođe je sa sirmijumskog tla; antičke beleške pamte ga i kao cara koji je svoje vojnike koristio za sadnju vinove loze u Sremu. Galerije, kasniji august i jedan od poslednjih velikih progonitelja hrišćana, rođen je u blizini Romulijane — palate koju će sebi podići na istoku današnje Srbije, u kraju oko Gamzigrada. Konstancije Hlor, otac Konstantina Velikog, dolazi iz šireg ilirskog kruga, dok je sam Konstantin rođen u Naisusu, današnjem Nišu, oko 272. godine."
       },
       {
         "type": "paragraph",
@@ -1753,7 +1753,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Treba odmah razjasniti i jedno često nesporazumevanje. Konstantin nije proglasio hrišćanstvo za jedinu, državnu veru. Tako daleko nije išao. On sam kršten je tek na samrtnom času, godine 337, što je u njegovo vreme i bilo uobičajeno: krštenje se ostavljalo za kraj života, da bi grehovi koji bi mu prethodili bili oprošteni. Većinu vladavine on je formalno bio i car-paganin, koji je istovremeno gradio crkve i obavljao stare rimske svečanosti. Hrišćanstvo će biti proglašeno državnom verom tek nešto manje od pola veka kasnije, pod carem Teodosijem. Ali bez Konstantina to ne bi bilo moguće."
+        "text": "Treba odmah razjasniti i jedno često nesporazumevanje. Konstantin nije proglasio hrišćanstvo za jedinu, državnu veru. Tako daleko nije išao. On sam kršten je tek na samrtnom času, godine 337, što je u njegovo vreme i bilo uobičajeno: krštenje se ostavljalo za kraj života, da bi grehovi koji bi mu prethodili bili oprošteni. Većinu vladavine on je formalno bio i car-paganin, koji je istovremeno gradio crkve i obavljao stare rimske svečanosti; koliko je rano i koliko iskreno on sam postao hrišćanin, istoričari se ni danas ne slažu. Hrišćanstvo će biti proglašeno državnom verom tek nešto manje od pola veka kasnije, pod carem Teodosijem. Ali bez Konstantina to ne bi bilo moguće."
       },
       {
         "type": "paragraph",
@@ -1818,7 +1818,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Zatim je došao Dioklecijanov progon, od 303. do 311. godine — poslednji i najsistematičniji udar rimske države na hrišćane. Pošto su carevi — naročito Galerije — dobar deo vremena provodili upravo u Sirmijumu i Solunu, balkanske provincije bile su među prvima na udaru. Predanje pamti čitav niz mučenika iz tih godina. U Sirmijumu su pogubljeni episkop Irinej i đakon Dimitrije; u Solunu, prema kasnijem žitiju, vojnik Demetrije — onaj koji će vekovima kasnije postati zaštitnik grada i jedan od najpoštovanijih svetitelja istočnog hrišćanstva. U kamenolomima oko Sirmijuma predanje pamti i petoricu klesara, kasnije poštovanih pod imenom „kvatuor koronati”, koji su odbili da isklešu pagansku statuu. Koliko su ti pojedinačni opisi tačni, a koliko su nakitni dodaci kasnijih hagiografa, danas je nemoguće precizno reći."
+        "text": "Zatim je došao Dioklecijanov progon, od 303. do 311. godine — poslednji i najsistematičniji udar rimske države na hrišćane. Pošto su carevi — naročito Galerije — dobar deo vremena provodili upravo u Sirmijumu i Solunu, balkanske provincije bile su među prvima na udaru. Predanje pamti čitav niz mučenika iz tih godina. U Sirmijumu su pogubljeni episkop Irinej i đakon Dimitrije; u Solunu, prema kasnijem žitiju, vojnik Demetrije — onaj koji će vekovima kasnije postati zaštitnik grada i jedan od najpoštovanijih svetitelja istočnog hrišćanstva. Mnogi istraživači ipak smatraju da je solunski kult izrastao iz sirmijumskog, kada su u 5. veku mučenikove mošti i poštovanje preneti u Solun. U kamenolomima oko Sirmijuma predanje pamti i petoricu klesara, kasnije poštovanih pod imenom „kvatuor koronati”, koji su odbili da isklešu pagansku statuu. Koliko su ti pojedinačni opisi tačni, a koliko su nakitni dodaci kasnijih hagiografa, danas je nemoguće precizno reći."
       },
       {
         "type": "heading",
@@ -1940,7 +1940,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Ono što je sagrađeno bilo je neuobičajeno čak i po merilima carskog graditeljstva. Kompleks je okružen masivnim bedemom dugim nekoliko stotina metara, sa dvadesetak monumentalnih poligonalnih kula koje su mu davale izgled tvrđave, ne samo rezidencije. Unutar zidina nalazila se carska palata sa raskošnim svečanim dvoranama, čiji su podovi bili pokriveni mozaicima — od scena lova do geometrijskih kompozicija visokog kvaliteta. Tu su bila i dva hrama, jedan veći posvećen Jupiteru, drugi manji verovatno bogovima zaštitnicima carske porodice. Nedaleko od palate, na obližnjem brežuljku Magura, podignut je mauzolejski kompleks: dva groba i dve takozvane konsekracione građevine, mesta na kojima su preminuli vladari simbolično uznošeni među bogove. Najprihvaćenije tumačenje je da je jedan grob bio za Romulu, drugi za samog Galerija, mada se oko detalja arheolozi i danas spore."
+        "text": "Ono što je sagrađeno bilo je neuobičajeno čak i po merilima carskog graditeljstva. Kompleks je okružen masivnim bedemom dugim nekoliko stotina metara, sa dvadesetak monumentalnih poligonalnih kula koje su mu davale izgled tvrđave, ne samo rezidencije. Unutar zidina nalazila se carska palata sa raskošnim svečanim dvoranama, čiji su podovi bili pokriveni mozaicima — od scena lova do geometrijskih kompozicija visokog kvaliteta. Tu su bila i dva hrama: veći arheolozi danas tumače kao dvojno svetilište, htonskog božanstva i Herkula (starije tumačenje ga je pripisivalo Jupiteru), a manji vezuju za kult Kibele, u kome je poštovana i obožena Romula. Nedaleko od palate, na obližnjem brežuljku Magura, podignut je mauzolejski kompleks: dva groba i dve takozvane konsekracione građevine, mesta na kojima su preminuli vladari simbolično uznošeni među bogove. Najprihvaćenije tumačenje je da je jedan grob bio za Romulu, drugi za samog Galerija, mada se oko detalja arheolozi i danas spore."
       },
       {
         "type": "paragraph",
@@ -1948,7 +1948,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Lik Galerija u izvorima ostaje podvojen. Vojnički je bio sposoban i odlučan, reorganizovao je provincije na Balkanu i u Maloj Aziji, učvrstio dunavski front. Istovremeno, bio je glavni pokretač velikog progona hrišćana koji je započet 303. godine pod Dioklecijanom — najsistematičnijeg progona u istoriji carstva. Hrišćanski pisci su ga zato pamtili kao surovog neprijatelja vere. Ipak, na samrti, teško bolestan, 311. godine izdao je u Serdiki edikt kojim je hrišćanima priznato pravo na javno ispovedanje vere. Bio je to neobičan obrt, koji je u praksi okončao Veliki progon i pripremio teren za Konstantinov Milanski edikt dve godine kasnije. Razlozi su mogli biti politički, mogli su biti i lični; o tome se može samo nagađati."
+        "text": "Lik Galerija u izvorima ostaje podvojen. Vojnički je bio sposoban i odlučan, reorganizovao je provincije na Balkanu i u Maloj Aziji, učvrstio dunavski front. Istovremeno, prema Laktanciju, bio je glavni pokretač velikog progona hrišćana koji je započet 303. godine pod Dioklecijanom — najsistematičnijeg progona u istoriji carstva. Hrišćanski pisci su ga zato pamtili kao surovog neprijatelja vere. Ipak, na samrti, teško bolestan, 311. godine izdao je u Serdiki edikt kojim je hrišćanima priznato pravo na javno ispovedanje vere. Bio je to neobičan obrt, koji je u praksi okončao Veliki progon i pripremio teren za Konstantinov Milanski edikt dve godine kasnije. Razlozi su mogli biti politički, mogli su biti i lični; o tome se može samo nagađati."
       },
       {
         "type": "paragraph",
@@ -2127,7 +2127,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Justinijanova vladavina nije bila samo zid i zakon. Godine 541. carstvo je pogodila velika pošast, danas poznata kao Justinijanova kuga, koja je u talasima harala Sredozemljem decenijama. Procene gubitaka veoma se razlikuju, ali ozbiljniji istoričari smatraju da je carstvo u tim epidemijama izgubilo veliki, možda i trećinski deo stanovništva. Balkanske provincije su oslabile u trenutku kada im je snaga bila najpotrebnija. Iza vojski koje su se borile za Italiju i Afriku ostajali su gradovi sa manje ljudi, manje vojnika, manje poreza."
+        "text": "Justinijanova vladavina nije bila samo zid i zakon. Godine 541. carstvo je pogodila velika pošast, danas poznata kao Justinijanova kuga, koja je u talasima harala Sredozemljem decenijama. Procene gubitaka veoma se razlikuju: jedni istoričari smatraju da je carstvo u tim epidemijama izgubilo veliki, možda i trećinski deo stanovništva, dok pojedine novije studije demografski udar vide kao znatno manji. Balkanske provincije su oslabile u trenutku kada im je snaga bila najpotrebnija. Iza vojski koje su se borile za Italiju i Afriku ostajali su gradovi sa manje ljudi, manje vojnika, manje poreza."
       },
       {
         "type": "paragraph",
@@ -2164,7 +2164,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Pokretači ovog razdoblja bili su brojni i isprepleteni. Klimatske promene, pre svega hladniji i nestabilniji vekovi, smanjivale su prinose u stepi i pomerale ljude ka jugu i zapadu. Demografski pritisak stvarao je gladne i pokretne zajednice. Slom starijih stepskih sila u dalekoj unutrašnjosti Azije — pre svega zajednice koju kineski izvori zovu Sjungnu — pokrenuo je lančanu reakciju, jer su narodi koji su se sklanjali ispred jednih guranjem pomerali druge ispred sebe. Konačno, samo Rimsko carstvo, oslabljeno krizom trećeg veka, građanskim ratovima i sve težim oporezivanjem, više nije imalo snagu da svoju dugu granicu na Dunavu i Rajni drži kao nekada. Tačan udeo svakog od ovih činilaca istoričari i danas raspravljaju, ali smer slike je jasan."
+        "text": "Pokretači ovog razdoblja bili su brojni i isprepleteni. Klimatske promene, pre svega hladniji i nestabilniji vekovi, smanjivale su prinose u stepi i pomerale ljude ka jugu i zapadu. Demografski pritisak stvarao je gladne i pokretne zajednice. Slom starijih stepskih sila u dalekoj unutrašnjosti Azije — pre svega zajednice koju kineski izvori zovu Sjungnu, sa kojom se povezuju i Huni — verovatno je pokrenuo lančanu reakciju, jer su narodi koji su se sklanjali ispred jednih guranjem pomerali druge ispred sebe. Konačno, samo Rimsko carstvo, oslabljeno krizom trećeg veka, građanskim ratovima i sve težim oporezivanjem, više nije imalo snagu da svoju dugu granicu na Dunavu i Rajni drži kao nekada. Tačan udeo svakog od ovih činilaca istoričari i danas raspravljaju, ali smer slike je jasan."
       },
       {
         "type": "heading",
@@ -2465,7 +2465,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Iz vizantijskih spisa devetog i desetog veka znamo nekoliko imena koja se izričito vezuju za prostor današnje Srbije, Crne Gore i susednih oblasti. Pominju se Srbi, smešteni u zaleđu — u oblasti koja će kasnije dobiti ime Raška, ali i u delu Bosne, kao i u oblastima koje su izvori nazivali Paganija, Travunija i Konavle. Zapadno od njih, prema jadranskoj obali i panonskoj ravnici, pominju se Hrvati. Na jugu, u oblasti današnje Crne Gore, javljaju se Dukljani, po staroj Duklji u zaleđu Skadarskog jezera. Južno od reke Neretve, na obali, smešteni su Zahumljani. Sve su to imena oblasti i njihovih stanovnika — ne država u savremenom smislu, već pre teritorijalno-rodovskih zajednica koje su Vizantinci jasno razlikovali."
+        "text": "Iz vizantijskih spisa devetog i desetog veka znamo nekoliko imena koja se izričito vezuju za prostor današnje Srbije, Crne Gore i susednih oblasti. Pominju se Srbi, smešteni u zaleđu — u oblasti koja će kasnije dobiti ime Raška, ali i u delu Bosne; prema Porfirogenitu, Srbi su bili i stanovnici oblasti Paganija, Travunija i Konavle, mada se raspravlja da li to odražava sedmi vek ili političke prilike desetog. Zapadno od njih, prema jadranskoj obali i panonskoj ravnici, pominju se Hrvati. Na jugu, u oblasti današnje Crne Gore, javljaju se Dukljani, po staroj Duklji u zaleđu Skadarskog jezera. Južno od reke Neretve, na obali, smešteni su Zahumljani. Sve su to imena oblasti i njihovih stanovnika — ne država u savremenom smislu, već pre teritorijalno-rodovskih zajednica koje su Vizantinci jasno razlikovali."
       },
       {
         "type": "paragraph",
@@ -2514,7 +2514,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "U središtu te slike nalazi se Raška — srpska zemlja u užem smislu, smeštena oko gornjeg toka istoimene reke, na prostoru današnje jugozapadne Srbije i Sandžaka. Severozapadno od nje pominje se Bosna, organizovana oko gornjeg toka istoimene reke, sa svojim posebnim životom već u to rano doba. Na jugu, prema jadranskoj obali, pružala se Duklja, oblast koja će kasnije, pod imenom Zeta, postati zametak države u današnjoj Crnoj Gori. Iznad nje, u zaleđu današnjeg Trebinja, stajala je Travunija. Dalje na zapad, prema dolini Neretve i jadranskim ušćima, ležalo je Zahumlje — Hum — koje pokriva južnu Hercegovinu i deo dalmatinskog zaleđa. A sasvim uz more, između Neretve i Cetine, prostirala se Paganija ili Neretvljanska oblast, čije je ime samo po sebi obaveštenje: tamošnji Sloveni najduže su ostali izvan dometa hrišćanske misije."
+        "text": "U središtu te slike nalazi se Raška — srpska zemlja u užem smislu, smeštena oko gornjeg toka istoimene reke, na prostoru današnje jugozapadne Srbije i Sandžaka. Severozapadno od nje pominje se Bosna, organizovana oko gornjeg toka istoimene reke, sa svojim posebnim životom već u to rano doba. Na jugu, prema jadranskoj obali, pružala se Duklja, oblast koja će kasnije, pod imenom Zeta, postati zametak države u današnjoj Crnoj Gori. Iznad nje, u zaleđu današnjeg Trebinja, stajala je Travunija. Dalje na zapad, prema dolini Neretve i jadranskim ušćima, ležalo je Zahumlje — Hum — koje pokriva južnu Hercegovinu i deo dalmatinskog zaleđa. A sasvim uz more, između Neretve i Cetine, prostirala se Paganija ili Neretvljanska oblast, čije je ime samo po sebi obaveštenje: tamošnji Sloveni najduže su ostali izvan dometa hrišćanske misije. Travunjane, Zahumljane i Neretljane Porfirogenit ubraja u Srbe — raspravlja se da li to odražava sedmi vek ili prilike desetog — dok za Dukljane srpsko poreklo ne navodi."
       },
       {
         "type": "paragraph",
@@ -2546,7 +2546,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
         "text": "Pred kraj ove slike vredi se podsetiti i toga koliko je naše znanje o ovom dobu nesigurno. Veliki deo onoga što je gore rečeno počiva, posredno ili neposredno, na jednom jedinom izvoru pisanom čitav vek kasnije i na nekoliko kratkih pomena u drugim hronikama. Imena pojedinih kneževa ostaju upitna, granice oblasti pomerane su napred i nazad, a sam pojam „Srbi” u 9. veku znatno je uži nego u kasnijim vekovima. Sa svom tom rezervom, jedno se ipak može reći mirno: do sredine 9. veka, na zapadnom Balkanu već postoji prepoznatljiv srpski svet, podeljen na nekoliko zemalja, sa prvim vladarima čija imena pamtimo i sa neprijateljem na istoku koji ga prisiljava da se brani. Iz tog sveta razviće se, najpre crkva, a zatim i dinastija koja će sve te zemlje, mnogo kasnije, sabrati u jednu državu."
       }
     ],
-    "subtitle": "Raška, Bosna, Duklja, Travunija, Zahumlje i Paganija — obrisi srpskog sveta u 8. i 9. veku",
+    "subtitle": "Raška, Bosna, Travunija, Zahumlje, Paganija i susedna Duklja — obrisi srpskog sveta u 8. i 9. veku",
     "dateLabel": "8–9. vek n. e.",
     "timelinePosition": "~840.",
     "summary": "Najranije srpske kneževine na zapadnom Balkanu, prvi istorijski potvrđeni knez Vlastimir i borba sa Bugarima — obrisi sveta koji još nije sasvim hrišćanski, ali je već prepoznatljiv.",
@@ -2595,7 +2595,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Drugi izbor bio je manje vidljiv, ali jednako sudbonosan. Srbi su hrišćanstvo primili iz Carigrada, ne iz Rima. U trenutku Mutimirovog pokrštavanja istočna i zapadna crkva još uvek su, formalno, bile jedna; veliki raskol dolazi tek 1054. godine. Ali već u 9. veku osećale su se razlike — u jeziku, obredu, pravnoj tradiciji, u shvatanju odnosa cara i patrijarha. Time što su se vezali za vizantijski svet, Srbi su zauzeli mesto u istočnohrišćanskoj sferi i sa njom će deliti sve docnije sudbine: i procvat slovenskog manastirskog života, i raskol, i sukobe sa zapadnim susedima, i, vekovima kasnije, susret sa islamom."
+        "text": "Drugi izbor bio je manje vidljiv, ali jednako sudbonosan. Srbi u unutrašnjosti primili su hrišćanstvo pod Vasilijem I iz Carigrada, ne iz Rima — premda su primorske oblasti dugo ostale pod rimskom crkvenom jurisdikcijom. U trenutku Mutimirovog pokrštavanja istočna i zapadna crkva još uvek su, formalno, bile jedna; veliki raskol dolazi tek 1054. godine. Ali već u 9. veku osećale su se razlike — u jeziku, obredu, pravnoj tradiciji, u shvatanju odnosa cara i patrijarha. Time što su se vezali za vizantijski svet, Srbi su zauzeli mesto u istočnohrišćanskoj sferi i sa njom će deliti sve docnije sudbine: i procvat slovenskog manastirskog života, i raskol, i sukobe sa zapadnim susedima, i, vekovima kasnije, susret sa islamom."
       },
       {
         "type": "paragraph",

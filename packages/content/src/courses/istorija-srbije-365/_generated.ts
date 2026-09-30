@@ -928,7 +928,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 37,
     "order": 1,
     "title": "Justinijan i Balkan",
-    "readingTimeMinutes": 6,
+    "readingTimeMinutes": 7,
     "year": 527,
     "isPlaceholder": false
   },

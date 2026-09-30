@@ -6,11 +6,11 @@
   "dayNumber": 21,
   "order": 4,
   "title": "Provincija Mezija",
-  "subtitle": "Dunavska granica, Viminacijum kao prestonica i provincija koja će dati careve",
+  "subtitle": "Dunavska granica, Viminacijum kao verovatna prestonica i provincija koja će dati careve",
   "year": 50,
   "dateLabel": "1. vek n. e.",
   "timelinePosition": "~50. n. e.",
-  "summary": "Rim u prvom veku organizuje Meziju — pograničnu provinciju na Dunavu, nazvanu po lokalnom plemenu Meza; pod Domicijanom se deli na Gornju i Donju, sa Viminacijumom kao prestonicom one koja pokriva najveći deo današnje Srbije.",
+  "summary": "Rim u prvom veku organizuje Meziju — pograničnu provinciju na Dunavu, nazvanu po lokalnom plemenu Meza; pod Domicijanom se deli na Gornju i Donju, sa Viminacijumom kao verovatnom prestonicom one koja pokriva najveći deo današnje Srbije.",
   "keyPeople": ["Avgust", "Domicijan"],
   "keyPlaces": ["Mezija", "Viminacijum", "Singidunum", "Naissus", "Dunav"],
   "content": [
@@ -38,7 +38,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Prestonica Gornje Mezije postao je Viminacijum, na ušću Mlave u Dunav, kraj današnjeg Kostolca. Tu je bio stalni logor jedne legije, ali oko logora se vrlo brzo razvio i veliki civilni grad sa svojim forumom, hramovima, termama, nekropolama i — što je u ovom delu carstva retkost — sa amfiteatrom. Viminacijum je bio upravno, vojno i ekonomsko središte provincije, čvorište puteva koji su vodili u unutrašnjost i mesto gde su se sticali porezi, rude i ljudi. U njegovoj senci stajali su drugi važni gradovi: Singidunum, na ušću Save u Dunav, kao snažan legijski logor i začetak današnjeg Beograda; Naissus, današnji Niš, kao raskrsnica puteva koji su povezivali Dunav sa Egejom; Margum kod ušća Velike Morave, Horeum Margi kod današnje Ćuprije, i Ulpijana na Kosovu, blizu današnjeg Lipljana."
+      "text": "Prestonica Gornje Mezije najverovatnije je postao Viminacijum, na ušću Mlave u Dunav, kraj današnjeg Kostolca. Tu je bio stalni logor jedne legije, ali oko logora se vrlo brzo razvio i veliki civilni grad sa svojim forumom, hramovima, termama, nekropolama i — što je u ovom delu carstva retkost — sa amfiteatrom. Viminacijum je bio upravno, vojno i ekonomsko središte provincije, čvorište puteva koji su vodili u unutrašnjost i mesto gde su se sticali porezi, rude i ljudi. U njegovoj senci stajali su drugi važni gradovi: Singidunum, na ušću Save u Dunav, kao snažan legijski logor i začetak današnjeg Beograda; Naissus, današnji Niš, kao raskrsnica puteva koji su povezivali Dunav sa Egejom; Margum kod ušća Velike Morave, Horeum Margi kod današnje Ćuprije, i Ulpijana na Kosovu, blizu današnjeg Lipljana."
     },
     {
       "type": "paragraph",
