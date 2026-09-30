@@ -2,7 +2,7 @@
 
 **Kurs:** Istorija Srbije 365 · **Era:** `praistorija-i-antika` · **Lekcije:** Day 001–045 (6 sekcija)
 **Datum:** 2026-09-30 · **Vrsta:** pilot historian pass (stavka 6, `docs/PRODUCT_REVIEW_2026-09-30.md`)
-**Status:** ispravke primenjene 2026-09-30 (grana `content/era-01-fact-fixes`): sve greške i sva sumnjiva mesta osim Day 033 #2 (kovnica u Naisu — bez izvora). Deo „Sporno u istoriografiji” još nije primenjen; `lastReviewedAt` nije diran.
+**Status:** ispravke primenjene 2026-09-30 (grana `content/era-01-fact-fixes`): sve greške i sva sumnjiva mesta osim Day 033 #2 (kovnica u Naisu — bez izvora). Ograde iz dela „Sporno u istoriografiji” primenjene su 2026-09-30 na 19 mesta (kratka odredba, u glasu lekcije); preskočeno je 12 mesta koja su već ograđena, sitna ili već rešena; `lastReviewedAt` nije diran.
 
 ## Zbir
 
