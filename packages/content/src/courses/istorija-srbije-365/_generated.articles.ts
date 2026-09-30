@@ -5938,7 +5938,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Istočno i južno od Lazareve oblasti, preko Kopaonika, prostirale su se zemlje Vuka Brankovića. On je držao veliki deo Kosova i delove Metohije, sa Prištinom kao važnim središtem i sa rudnikom Novo Brdo kao glavnim izvorom prihoda. Vuk je bio Lazarev zet — oženjen kneževom kćerkom Marom — i njihova saradnja dugo je bila stub srpske politike. U Zeti, na obalama Skadarskog jezera i niz primorje, vladali su Balšići, dinastija koja se izdigla u toj generaciji i koja je istovremeno gledala u dva pravca: prema Mlecima i jadranskim gradovima i prema unutrašnjim srpskim sporovima. Iz njihove senke, u brdima nad Zetom, polako su rasli Crnojevići, koji će svoje vreme dočekati tek u sledećem stoleću."
+        "text": "Južno i jugozapadno od Lazareve oblasti, preko Kopaonika, prostirale su se zemlje Vuka Brankovića. On je držao veliki deo Kosova i delove Metohije, sa Prištinom kao važnim središtem i sa rudnicima Trepčom i Janjevom kao izvorima prihoda. Vuk je bio Lazarev zet — oženjen kneževom kćerkom Marom — i njihova saradnja dugo je bila stub srpske politike. U Zeti, na obalama Skadarskog jezera i niz primorje, vladali su Balšići, dinastija koja se izdigla u toj generaciji i koja je istovremeno gledala u dva pravca: prema Mlecima i jadranskim gradovima i prema unutrašnjim srpskim sporovima. Iz njihove senke, u brdima nad Zetom, polako su rasli Crnojevići, koji će svoje vreme dočekati tek u sledećem stoleću."
       },
       {
         "type": "paragraph",
@@ -5951,7 +5951,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Politička karta, dakle, jeste bila razlomljena, ali svakodnevni život nije se raspao u istoj meri. Trgovina sa Dubrovnikom išla je dalje uobičajenim putevima; dubrovački trgovci držali su kolonije u Novom Brdu, Rudniku, Prištini i Prizrenu, vodili knjige, posredovali u izvozu srebra i u uvozu tkanina. Rudarstvo je upravo u ovim decenijama dostiglo svoj vrhunac. Novo Brdo, sa rudom srebra pomešanog sa zlatom, bilo je jedno od najbogatijih nalazišta u Evropi tog doba i punilo je riznice Brankovića, a kasnije i Lazarevih naslednika. Sela su sejala i kosila, sajmovi su se držali, putnici su prolazili. Osetna razlika u odnosu na Dušanovo vreme nije bila u tome što je narod osiromašio preko noći, nego u tome što više nije postojala jedna gornja vlast koja bi sve to čuvala i sudila."
+        "text": "Politička karta, dakle, jeste bila razlomljena, ali svakodnevni život nije se raspao u istoj meri. Trgovina sa Dubrovnikom išla je dalje uobičajenim putevima; dubrovački trgovci držali su kolonije u Novom Brdu, Rudniku, Prištini i Prizrenu, vodili knjige, posredovali u izvozu srebra i u uvozu tkanina. Rudarstvo je upravo u ovim decenijama dostiglo svoj vrhunac. Novo Brdo, sa rudom srebra pomešanog sa zlatom, bilo je jedno od najbogatijih nalazišta u Evropi tog doba i punilo je riznice kneza Lazara, a kasnije i njegovih naslednika. Sela su sejala i kosila, sajmovi su se držali, putnici su prolazili. Osetna razlika u odnosu na Dušanovo vreme nije bila u tome što je narod osiromašio preko noći, nego u tome što više nije postojala jedna gornja vlast koja bi sve to čuvala i sudila."
       },
       {
         "type": "paragraph",
@@ -6019,7 +6019,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Pod Dušanom, a zatim i pod Urošem V, Lazar je služio kao oblasni gospodar u središnjem Pomoravlju, sa težištem oko Kruševca i Prokuplja. Bila je to oblast koja u Dušanovo vreme nije spadala u najsjajnije — sjaj je tada bio na jugu, u Skoplju, Seru, Prilepu, u zemljama koje su gledale ka Egeju. Posle pogibije braće Mrnjavčevića na Marici 1371. i smrti cara Uroša iste godine, ta geografija se preokrenula. Jug se prvi našao pod osmanskim pritiskom; središte, zaklonjeno planinama i rekama, najednom je postalo strateški najvrednije. Lazar je sedeo upravo u njemu."
+        "text": "Pod Dušanom Lazar je bio dvorski stavilac; tek sredinom šezdesetih godina, pod Urošem V, napustio je dvor i počeo da gradi sopstvenu oblast u središnjem Pomoravlju, sa težištem oko Kruševca i Prokuplja. Bila je to oblast koja u Dušanovo vreme nije spadala u najsjajnije — sjaj je tada bio na jugu, u Skoplju, Seru, Prilepu, u zemljama koje su gledale ka Egeju. Posle pogibije braće Mrnjavčevića na Marici 1371. i smrti cara Uroša iste godine, ta geografija se preokrenula. Jug se prvi našao pod osmanskim pritiskom; središte, zaklonjeno planinama i rekama, najednom je postalo strateški najvrednije. Lazar je sedeo upravo u njemu."
       },
       {
         "type": "heading",
@@ -6048,8 +6048,8 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       }
     ],
     "subtitle": "Od dvorskog službenika Dušanovog vremena do prvog čoveka srpskih zemalja u senci osmanske pretnje",
-    "dateLabel": "oko 1371.",
-    "timelinePosition": "oko 1371.",
+    "dateLabel": "oko 1329–1381.",
+    "timelinePosition": "oko 1329–1381.",
     "summary": "Poreklo, brak i postepeno uzdizanje kneza Lazara Hrebeljanovića u središtu srpskih zemalja posle Maričke bitke i smrti cara Uroša 1371. godine.",
     "keyPeople": [
       "Lazar Hrebeljanović",
@@ -6088,11 +6088,11 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Ono što je Lazara izdvojilo od ostalih oblasnih gospodara nije bila samo vojska, nego brižljivo građena mreža brakova. Sa kneginjom Milicom, koja je preko svoje porodice nosila krv jedne od bočnih nemanjićkih loza, imao je više kćeri — najčešće se pominje pet: Mara, Jelena, Olivera, Despina i Teodora. Mara je udata za Vuka Brankovića, gospodara Kosova i Metohije, koji je tako postao Lazarov najmoćniji zet, ali je nad svojom oblašću zadržao punu samostalnost. Jelena se udala u kuću Balšića, vladare Zete; druge kćeri vezale su Lazarevu kuću za bosanski dvor, za bugarsku vlastelu Stracimirovića i za drugu krupnu gospodu. Posle Kosova će i najmlađa, Olivera, biti poslata na osmanski dvor — Bajazitu — kao deo nagodbe pobeđene strane. Lazar nije bio jedini vladar koji je tako računao, ali je taj sistem proveo doslednije od bilo kog savremenika: skoro svaka važna kneževska kuća na Balkanu krajem 14. veka bila je u nekoj vezi sa Kruševcem."
+        "text": "Ono što je Lazara izdvojilo od ostalih oblasnih gospodara nije bila samo vojska, nego brižljivo građena mreža brakova. Sa kneginjom Milicom, koja je preko svoje porodice nosila krv jedne od bočnih nemanjićkih loza, imao je više kćeri — najčešće se pominje pet: Mara, Dragana, Jelena, Teodora i Olivera (zvana i Despina). Mara je udata za Vuka Brankovića, gospodara Kosova i Metohije, koji je tako postao Lazarov najmoćniji zet, ali je nad svojom oblašću zadržao punu samostalnost. Jelena se udala u kuću Balšića, vladare Zete; Dragana se udala u carsku kuću u Trnovu, a Teodora za ugarskog velikaša Nikolu Gorjanskog. Posle Kosova će i najmlađa, Olivera, biti poslata na osmanski dvor — Bajazitu — kao deo nagodbe pobeđene strane. Lazar nije bio jedini vladar koji je tako računao, ali je taj sistem proveo doslednije od bilo kog savremenika: skoro svaka važna kneževska kuća na Balkanu krajem 14. veka bila je u nekoj vezi sa Kruševcem."
       },
       {
         "type": "paragraph",
-        "text": "Uz rat i brakove išla je i diplomatija s većim susedima. Prema Ugarskoj, Lazar je u osnovi prihvatio stvarnost: Beograd i jedan deo severne Srbije bili su pod ugarskim vrhovništvom, ali su lokalni vojvode bili Srbi i u praksi često bliži Kruševcu nego Budimu. Lazarov uticaj se tako protezao i tamo gde njegova vlast formalno nije sezala. Prema Vizantiji odnosi su bili daleki — Carigrad više nije bio sila s kojom se računa na ovoj strani Balkana — a glavna spoljna briga, koja će rasti svake godine, dolazila je sa juga, od Osmanlija."
+        "text": "Uz rat i brakove išla je i diplomatija s većim susedima. Prema Ugarskoj, Lazar je u osnovi prihvatio stvarnost: Beograd je bio u ugarskim rukama, a sam Lazar je posle 1373. priznao vrhovništvo ugarskog kralja Ludovika i od njega dobio bar deo Mačve. Prema Vizantiji odnosi su bili daleki — Carigrad više nije bio sila s kojom se računa na ovoj strani Balkana — a glavna spoljna briga, koja će rasti svake godine, dolazila je sa juga, od Osmanlija."
       },
       {
         "type": "paragraph",
@@ -6131,7 +6131,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Rođen je oko 1345. godine, u porodici koja je već uživala visoki položaj pod Nemanjićima. Njegov otac Branko Mladenović bio je sevastokrator cara Dušana i upravljao Ohridom; po njemu je porodica i dobila prezime kojim će ući u istoriju. Posle Dušanove smrti i postepenog rasula carstva, sin je nastavio očev posao na drugačijem terenu — ne kao činovnik velikog cara, nego kao samostalni oblasni gospodar. U deceniji posle Maričke bitke 1371, dok su se nekadašnje carske zemlje prelivale iz jednih ruku u druge, Vuk je oko sebe okupio prostranu i bogatu oblast: Kosovo i Metohiju kao srce, sa Prištinom i Vučitrnom kao glavnim središtima, delove Polimlja i Sjenice na severozapadu, i pojas u današnjoj zapadnoj Makedoniji sa Skopljem na jugu. Bila je to jedna od najvećih i najbolje uređenih srpskih oblasti svoga vremena."
+        "text": "Rođen je oko 1345. godine, u porodici koja je već uživala visoki položaj pod Nemanjićima. Njegov otac Branko Mladenović bio je sevastokrator cara Dušana i upravljao Ohridom; po njemu je porodica i dobila prezime kojim će ući u istoriju. Posle Dušanove smrti i postepenog rasula carstva, sin je nastavio očev posao na drugačijem terenu — ne kao činovnik velikog cara, nego kao samostalni oblasni gospodar. U deceniji posle Maričke bitke 1371, dok su se nekadašnje carske zemlje prelivale iz jednih ruku u druge, Vuk je oko sebe okupio prostranu i bogatu oblast: Kosovo i Metohiju kao srce, sa Prištinom i Vučitrnom kao glavnim središtima, delove Polimlja i Sjenice na severozapadu, i pojas na severu današnje Makedonije sa Skopljem na jugu. Bila je to jedna od najvećih i najbolje uređenih srpskih oblasti svoga vremena."
       },
       {
         "type": "paragraph",
@@ -6139,7 +6139,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Kada se 1389. godine Lazar suočio sa Muratovom vojskom na Kosovu polju, Vuk je u tu bitku ušao kao jedan od glavnih zapovednika. Njegove čete činile su značajan deo srpske strane, i nema istorijskih razloga sumnjati u to da su se borile. Bitka je, kao što je u kasnijim danima ovog poglavlja podrobnije obrađeno, završila teško i dvosmisleno — oba vladara su pala, gubici su bili veliki na obe strane, a osmanska sila se, uprkos smrti sultana, povukla sa Kosova kao pobednik. Vuk Branković je preživeo, i upravo ta činjenica postaće, mnogo godina kasnije, izvor svih nesporazuma. U sopstvenom vremenu, međutim, njegovo preživljavanje nije bilo ništa neobično: bitke se nisu sastojale od smrti svih komandanata, a deo srpskih velikaša izašao je sa Kosova polja živ, među njima i Vuk."
+        "text": "Kada se 1389. godine Lazar suočio sa Muratovom vojskom na Kosovu polju, Vuk je u tu bitku ušao kao jedan od glavnih zapovednika. Njegove čete činile su značajan deo srpske strane, i nema istorijskih razloga sumnjati u to da su se borile. Bitka je, kao što je u kasnijim danima ovog poglavlja podrobnije obrađeno, završila teško i dvosmisleno — oba vladara su pala, gubici su bili veliki na obe strane, a Osmanlije su se, uprkos smrti sultana, povukle sa Kosova kao strana koja je iz bitke izašla u strateškom dobitku. Vuk Branković je preživeo, i upravo ta činjenica postaće, mnogo godina kasnije, izvor svih nesporazuma. U sopstvenom vremenu, međutim, njegovo preživljavanje nije bilo ništa neobično: bitke se nisu sastojale od smrti svih komandanata, a deo srpskih velikaša izašao je sa Kosova polja živ, među njima i Vuk."
       },
       {
         "type": "paragraph",
@@ -6152,11 +6152,11 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Konačni slom došao je posle Nikopoljske bitke 1396, kada je velika krstaška vojska, u kojoj je Vuk pomagao protivosmansku stranu, pretrpela razoran poraz na Dunavu. Iskoristivši trenutak, sultan Bajazit obračunao se sa onima koji su mu se i dalje opirali. Vuk Branković bio je zarobljen, njegove oblasti rasturene, i godine 1397. umro je u osmanskom zarobljeništvu. Njegova udovica Mara i sinovi će kasnije, strpljivom politikom, povratiti deo porodičnih zemalja; jedan od tih sinova, Đurađ Branković, postaće despot i obnoviti srpsku državu na novim osnovama u petnaestom veku."
+        "text": "Konačni slom došao je posle Nikopoljske bitke 1396, kada je velika krstaška vojska pretrpela razoran poraz na Dunavu; Vuk — za razliku od drugih srpskih gospodara — nije hteo da se bori na osmanskoj strani. Iskoristivši trenutak, sultan Bajazit obračunao se sa onima koji su mu se i dalje opirali. Vuk Branković bio je zarobljen, njegove oblasti rasturene, i godine 1397. umro je u osmanskom zarobljeništvu. Njegova udovica Mara i sinovi će kasnije, strpljivom politikom, povratiti deo porodičnih zemalja; jedan od tih sinova, Đurađ Branković, postaće despot i obnoviti srpsku državu na novim osnovama u petnaestom veku."
       },
       {
         "type": "paragraph",
-        "text": "Optužba za izdaju, po kojoj je Vuk navodno povukao svoje čete sa Kosova polja ili prešao na osmansku stranu i tako prouzrokovao srpski poraz, ne pojavljuje se ni u jednom savremenom ili bliskom izvoru. Ni vizantijski hroničari, ni dubrovački spisi, ni rana srpska žitija o tome ne govore. Priča o izdajniku javlja se mnogo kasnije, u sedamnaestom i osamnaestom veku, kada se uobličavao kosovski mit i kada je narodna pesma tražila objašnjenje za poraz — figuru Jude koja bi moralno opravdala pad jedne hrišćanske vojske. Vuk je u tu ulogu pao verovatno zato što je preživeo bitku i što su njegovi potomci, Brankovići, kasnije bili u dinastičkom suparništvu sa Lazarevićima u sećanju pevača. Moderna istoriografija, srpska i strana, ovu optužbu odbacuje kao kasnu književnu tvorevinu, ne kao istorijsku činjenicu. O samom razvoju kosovskog mita i njegove unutrašnje logike biće više reči na drugom mestu u ovom poglavlju."
+        "text": "Optužba za izdaju, po kojoj je Vuk navodno povukao svoje čete sa Kosova polja ili prešao na osmansku stranu i tako prouzrokovao srpski poraz, ne pojavljuje se ni u jednom savremenom ili bliskom izvoru. Ni vizantijski hroničari, ni dubrovački spisi, ni rana srpska žitija o tome ne govore. Motiv da se neko od vlastele nije verno borio javlja se već u XV veku, ali ime Vuka Brankovića kao izdajnika prvi put beleži Mavro Orbini 1601. Priča o izdajniku razvija se potom u sedamnaestom i osamnaestom veku, kada se uobličavao kosovski mit i kada je narodna pesma tražila objašnjenje za poraz — figuru Jude koja bi moralno opravdala pad jedne hrišćanske vojske. Vuk je u tu ulogu pao verovatno zato što je preživeo bitku i što su njegovi potomci, Brankovići, kasnije bili u dinastičkom suparništvu sa Lazarevićima u sećanju pevača. Moderna istoriografija, srpska i strana, ovu optužbu odbacuje kao kasnu književnu tvorevinu, ne kao istorijsku činjenicu. O samom razvoju kosovskog mita i njegove unutrašnje logike biće više reči na drugom mestu u ovom poglavlju."
       },
       {
         "type": "paragraph",
@@ -6195,7 +6195,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "U prvim godinama brat je delio vlast sa bratom. Stracimir, kao najstariji, držao je severniji deo, Đurađ — najsposobniji od trojice — vodio je spoljnu politiku, a najmlađi Balša pomagao u vojnim poduhvatima. Ratovali su gotovo bez prekida: sa susednim albanskim plemstvom oko zaleđa, sa kraljevinom Bosnom oko Huma, sa Dubrovnikom oko trgovačkih privilegija, a najuporenije sa Mletačkom republikom oko primorskih gradova Dalmacije i Albanije. Krajem sedamdesetih godina, posle smrti starije braće — Đurađ I umire oko 1378. godine, prirodnom smrću, što treba reći jer ga predanje ponekad pogrešno svrstava među pale na Marici — sva vlast prelazi u ruke Balše II."
+        "text": "U prvim godinama brat je delio vlast sa bratom. Stracimir, kao najstariji, držao je severniji deo, Đurađ — najsposobniji od trojice — vodio je spoljnu politiku, a najmlađi Balša pomagao u vojnim poduhvatima. Ratovali su gotovo bez prekida: sa susednim albanskim plemstvom oko zaleđa, sa kraljevinom Bosnom oko Huma, sa Dubrovnikom oko trgovačkih privilegija, a najupornije sa Kotorom i albanskim gospodarima poput Karla Topije. Krajem sedamdesetih godina, posle smrti starije braće — Đurađ I umire oko 1378. godine, prirodnom smrću, što treba reći jer ga predanje ponekad pogrešno svrstava među pale na Marici — sva vlast prelazi u ruke Balše II."
       },
       {
         "type": "heading",
@@ -6212,7 +6212,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Posle Đurđa II vladali su još njegov sin Balša III i, kratko, drugi rođaci, ali je dinastija u muškoj lozi ugašena 1421. godine. Po sporazumu, Zeta je tada prešla pod vlast despota Stefana Lazarevića i postala deo Srpske despotovine. Time se završava prvo poglavlje samostalne zetske vlasti — ono balšićko, primorsko, jadransko. Drugo poglavlje, koje će uskoro otvoriti porodica Crnojevića u gornjoj Zeti, nastaviće istu nit otpora i samostalnosti duboko u osmanski period; o tome će biti reči kasnije. Za sada je dovoljno reći da su Balšići bili prvi koji su pokazali da na jugozapadu starih srpskih zemalja može da postoji država okrenuta moru."
+        "text": "Posle Đurđa II vladao je još njegov sin Balša III (uz majku Jelenu), i s njegovom smrću dinastija je u muškoj lozi ugašena 1421. godine. Po sporazumu, Zeta je tada prešla pod vlast despota Stefana Lazarevića i postala deo Srpske despotovine. Time se završava prvo poglavlje samostalne zetske vlasti — ono balšićko, primorsko, jadransko. Drugo poglavlje, koje će uskoro otvoriti porodica Crnojevića u gornjoj Zeti, nastaviće istu nit otpora i samostalnosti duboko u osmanski period; o tome će biti reči kasnije. Za sada je dovoljno reći da su Balšići bili prvi koji su pokazali da na jugozapadu starih srpskih zemalja može da postoji država okrenuta moru."
       },
       {
         "type": "paragraph",
@@ -6220,8 +6220,8 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       }
     ],
     "subtitle": "Kako su tri brata sa juga Zete, između Mletaka i Osmanlija, podigli najprimorskiju srpsku vlastelinsku državu 14. veka",
-    "dateLabel": "14. vek",
-    "timelinePosition": "14. vek",
+    "dateLabel": "oko 1360–1421.",
+    "timelinePosition": "oko 1360–1421.",
     "summary": "Uspon Balšića od sitne vlastele iz južne Zete do gospodara Skadra i Bara, sukobi sa Mlecima, Bosnom i Osmanlijama, i sudbina dinastije do gašenja muške loze 1421. godine.",
     "keyPeople": [
       "Stracimir Balšić",
@@ -6305,7 +6305,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "U središnjim srpskim zemljama, sada okupljenim oko kneza Lazara u Pomoravlju i oko Vuka Brankovića na Kosovu i u susednim oblastima, ti upadi nisu mogli ostati bez odgovora. Hroničari i kasniji rodoslovi pominju jedan sudar na Kosovu polju, koji se obično datuje u 1380. ili 1381. godinu, u kome je srpska vojska razbila jednu osmansku četu koja je doprla duboko na sever. O toj bici znamo malo — izvori je tek usput pominju, broj učesnika nije zabeležen, ime osmanskog zapovednika nije sigurno. Ali sama činjenica da je sačuvana u sećanju nešto govori: ovo nije bio rutinski pljačkaški upad, već događaj dovoljno krupan da uđe u letopis. Bila je to, koliko se može videti, prva veća srpska pobeda nad Osmanlijama na sopstvenom tlu."
+        "text": "U središnjim srpskim zemljama, sada okupljenim oko kneza Lazara u Pomoravlju i oko Vuka Brankovića na Kosovu i u susednim oblastima, ti upadi nisu mogli ostati bez odgovora. Letopisi pominju sudar na Dubravnici, kod Paraćina, koji se obično datuje u 1380. ili 1381. godinu, u kome su Lazareve vojvode Crep i Vitomir razbili jednu osmansku četu koja je doprla duboko na sever. O toj bici znamo malo — izvori je tek usput pominju, broj učesnika nije zabeležen, ime osmanskog zapovednika nije sigurno. Ali sama činjenica da je sačuvana u sećanju nešto govori: ovo nije bio rutinski pljačkaški upad, već događaj dovoljno krupan da uđe u letopis. Bila je to, koliko se može videti, prva veća srpska pobeda nad Osmanlijama na sopstvenom tlu."
       },
       {
         "type": "heading",
@@ -6318,7 +6318,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Verovatno već naredne godine, 1386, knez Lazar sukobio se sa jednim osmanskim odredom kod Pločnika, u dolini Toplice. O toj bici biće više reči u sledećoj lekciji; ovde je dovoljno reći da je završena srpskom pobedom i da je u Lazaru, koliko se može pretpostaviti, ojačala uverenje da Osmanlije jesu opasne, ali nisu nepobedive ako se na njih izađe sa organizovanom vojskom u pogodnom trenutku. Sklop tih sudara — Kosovo polje, Savra, Pločnik — pokazao je obrazac koji će se ponavljati: akindžije su bile strašne dok su jurile po otvorenom terenu, ali kada bi ih u kotlini ili na prevoju dočekala teža srpska konjica, gubile su prednost brzine i često bivale potučene. Slabost srpskih zemalja nije bila u pojedinačnoj bici, nego u nemogućnosti da se mnogo malih pobeda spoji u jednu zajedničku odbranu."
+        "text": "Verovatno već naredne godine, 1386, knez Lazar sukobio se sa jednim osmanskim odredom kod Pločnika, u dolini Toplice. O toj bici biće više reči u sledećoj lekciji; ovde je dovoljno reći da je završena srpskom pobedom i da je u Lazaru, koliko se može pretpostaviti, ojačala uverenje da Osmanlije jesu opasne, ali nisu nepobedive ako se na njih izađe sa organizovanom vojskom u pogodnom trenutku. Sklop tih sudara — Dubravnica, Savra, Pločnik — pokazao je obrazac koji će se ponavljati: akindžije su bile strašne dok su jurile po otvorenom terenu, ali kada bi ih u kotlini ili na prevoju dočekala teža srpska konjica, gubile su prednost brzine i često bivale potučene. Slabost srpskih zemalja nije bila u pojedinačnoj bici, nego u nemogućnosti da se mnogo malih pobeda spoji u jednu zajedničku odbranu."
       },
       {
         "type": "paragraph",
@@ -6326,7 +6326,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Treba na kraju reći ono što izvori traže da se kaže. Dokumentacija o sudarima iz 1380-ih je oskudna i raštrkana po hronikama koje su nastale decenijama posle samih događaja. Tačni datumi pojedinih bitaka — naročito one na Kosovu polju — predmet su istoriografske rasprave; brojevi vojnika, imena zapovednika, čak i mesta sudara često počivaju na jednom jedinom izvoru. Ono što je sigurno jeste opšti pravac. Tokom petnaest godina između Marice i Kosova, osmanska sila je iz pljačkaške postala stalna, a srpski gospodari su prešli put od iznenađenih posmatrača do saveznika koji se spremaju na odsudan sudar. Sve što će se dogoditi u junu 1389. na Kosovu polju nije pao s neba — bio je to ishod jedne decenije malih ratova koji su se polako pretvarali u veliki."
+        "text": "Treba na kraju reći ono što izvori traže da se kaže. Dokumentacija o sudarima iz 1380-ih je oskudna i raštrkana po hronikama koje su nastale decenijama posle samih događaja. Tačni datumi pojedinih bitaka — naročito one na Dubravnici — predmet su istoriografske rasprave; brojevi vojnika, imena zapovednika, čak i mesta sudara često počivaju na jednom jedinom izvoru. Ono što je sigurno jeste opšti pravac. Tokom petnaest godina između Marice i Kosova, osmanska sila je iz pljačkaške postala stalna, a srpski gospodari su prešli put od iznenađenih posmatrača do saveznika koji se spremaju na odsudan sudar. Sve što će se dogoditi u junu 1389. na Kosovu polju nije pao s neba — bio je to ishod jedne decenije malih ratova koji su se polako pretvarali u veliki."
       }
     ],
     "subtitle": "Kako su tokom 1380-ih osmanski upadi u srpske oblasti rasli iz pljačkaških četa u sve ozbiljnije ratne sudare",
@@ -6341,7 +6341,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       "Tvrtko I"
     ],
     "keyPlaces": [
-      "Kosovo polje",
+      "Dubravnica",
       "Savra",
       "Pločnik",
       "Makedonija",
@@ -6352,16 +6352,16 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "content": [
       {
         "type": "paragraph",
-        "text": "Negde oko 1386. godine, u dolini Toplice, na putu koji je iz pravca juga vodio ka Nišu i dalje ka srcu Lazareve države, došlo je do sudara srpske i osmanske vojske. Mesto se zove Pločnik, danas selo nedaleko od Prokuplja. O bici se u kasnijim srpskim sećanjima govori kao o pobedi — ozbiljnoj, ne slučajnoj — kojom je knez Lazar zaustavio osmansko napredovanje i pokazao da turska vojska, kad je dočekaju ujedinjeni srpski odredi, nije nepobediva. Istorijska istina o samom događaju, međutim, nešto je krhkija nego njegovo predanje, i pošteno je odmah reći zašto.",
+        "text": "Negde oko 1386. godine, u dolini Toplice, na putu koji je od Niša vodio ka Prokuplju i dalje ka srcu Lazareve države, došlo je do sudara srpske i osmanske vojske. Mesto se zove Pločnik, danas selo nedaleko od Prokuplja. O bici se u kasnijim srpskim sećanjima govori kao o pobedi — ozbiljnoj, ne slučajnoj — kojom je knez Lazar zaustavio osmansko napredovanje i pokazao da turska vojska, kad je dočekaju ujedinjeni srpski odredi, nije nepobediva. Istorijska istina o samom događaju, međutim, nešto je krhkija nego njegovo predanje, i pošteno je odmah reći zašto.",
         "dropcap": true
       },
       {
         "type": "paragraph",
-        "text": "Posle Marice 1371. godine i sloma vojske braće Mrnjavčević, južni put preko Vardara i Morave bio je otvoren. Osmanlije nisu odmah krenuli u veliko osvajanje srpskih zemalja, ali su skoro svake godine slali pljačkaške i izviđačke pohode preko nove granice, vezivali za sebe vazale i probali snagu hrišćanskih kneževina. Knez Lazar je u međuvremenu sredio prilike u svojoj oblasti, izmirio se sa Vukom Brankovićem — gospodarem Kosova i okoline — i sa bosanskim kraljem Tvrtkom I, sa kojim je delio i porodične veze i razumevanje da je Osmansko carstvo zajednička opasnost. Kada je osmanska vojska, po svemu sudeći jedan ozbiljniji odred upućen kao prethodnica budućeg pohoda, krenula uz Toplicu prema Nišu, Lazar ju je dočekao."
+        "text": "Posle Marice 1371. godine i sloma vojske braće Mrnjavčević, južni put preko Vardara i Morave bio je otvoren. Osmanlije nisu odmah krenuli u veliko osvajanje srpskih zemalja, ali su skoro svake godine slali pljačkaške i izviđačke pohode preko nove granice, vezivali za sebe vazale i probali snagu hrišćanskih kneževina. Knez Lazar je u međuvremenu sredio prilike u svojoj oblasti, izmirio se sa Vukom Brankovićem — gospodarem Kosova i okoline — i sa bosanskim kraljem Tvrtkom I, sa kojim je delio i porodične veze i razumevanje da je Osmansko carstvo zajednička opasnost. Kada je osmanska vojska, po svemu sudeći jedan ozbiljniji odred iz sultanovog pohoda koji je te godine zauzeo Niš, krenula od Niša uz Toplicu, prema Lazarevoj zemlji, Lazar ju je dočekao."
       },
       {
         "type": "paragraph",
-        "text": "Po onome što se može sastaviti iz različitih kasnijih hronika — ugarskih, dubrovačkih i srpskih — srpska vojska kod Pločnika nije bila samo Lazareva. Uz nju su se borili odredi Vuka Brankovića, a po nekim izveštajima i pomoćne čete koje je poslao Tvrtko iz Bosne. Bila je to, dakle, koalicija — ono što će se tri godine kasnije ponoviti, u mnogo većim razmerama, na Kosovu polju. Bitka je vođena u relativno povoljnom terenu za branioce; uska dolina Toplice oduzimala je osmanskoj konjici prostor da se rasporedi, a srpski teški oklopnici, kojih je u Lazarevoj vojsci bilo dosta, mogli su da iskoriste prednost čeonog udara. Ishod je bio jasan: osmanski odred je razbijen i odbačen na jug, sa znatnim gubicima."
+        "text": "Po onome što se može sastaviti iz različitih kasnijih hronika — ugarskih, dubrovačkih i srpskih — srpska vojska kod Pločnika nije bila samo Lazareva. Uz nju su se borili odredi Vuka Brankovića, a po nekim izveštajima i pomoćne čete koje je poslao Tvrtko iz Bosne. Bila je to, dakle, koalicija — ono što će se tri godine kasnije ponoviti, u mnogo većim razmerama, na Kosovu polju. Bitka je vođena u relativno povoljnom terenu za branioce; uska dolina Toplice oduzimala je osmanskoj konjici prostor da se rasporedi, a srpski teški oklopnici, kojih je u Lazarevoj vojsci bilo dosta, mogli su da iskoriste prednost čeonog udara. Ishod je bio jasan: osmanski odred je razbijen i odbačen nazad, sa znatnim gubicima."
       },
       {
         "type": "heading",
@@ -6374,7 +6374,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Zbog toga deo modernih istraživača upozorava da Pločnik ne treba zamišljati kao jednu veliku, precizno datovanu bitku po uzoru na Marice ili Kosovo. Možda je reč o jednom odlučujućem sudaru u okviru duže kampanje — ili o više manjih okršaja koje je predanje s vremenom saželo u jedno ime. Osnovna činjenica, međutim, prihvata se i u opreznijoj nauci: oko 1386. godine, u toplicom kraju, Lazareva vojska je porazila osmanski odred dovoljno ozbiljan da poraz odjekne i preko granica srpskih zemalja. Razlog za oprez nije sumnja u pobedu, već u njene tačne razmere."
+        "text": "Zbog toga deo modernih istraživača upozorava da Pločnik ne treba zamišljati kao jednu veliku, precizno datovanu bitku po uzoru na Marice ili Kosovo. Možda je reč o jednom odlučujućem sudaru u okviru duže kampanje — ili o više manjih okršaja koje je predanje s vremenom saželo u jedno ime. Osnovnu činjenicu, međutim, prihvata većina istoričara: oko 1386. godine, u toplicom kraju, Lazareva vojska je porazila osmanski odred dovoljno ozbiljan da poraz odjekne i preko granica srpskih zemalja. Neki ipak smatraju da je reč samo o čarki ili povlačenju osmanskih odreda; za većinu, razlog za oprez nije sumnja u pobedu, već u njene tačne razmere."
       },
       {
         "type": "paragraph",
@@ -6382,7 +6382,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Sa druge strane Bosfora, vest o porazu primljena je kao uvreda i kao poziv. Sultan Murad I do tada je glavne pohode na hrišćanske susede prepuštao svojim zapovednicima u Rumeliji, oslanjajući se na vazalske odnose i postupno potkopavanje. Posle Pločnika postalo je jasno da takav način neće biti dovoljan. Veliki, lično vođeni pohod sa glavninom carske vojske počeo je tiho da se priprema. Tri godine kasnije, 1389, Murad će sam povesti vojsku preko Kosova polja — i tamo dočekati istu onu srpsku koaliciju koja se prvi put okupila kod Pločnika. U tom smislu pobeda u Toplici nije samo zaustavila Osmanlije; ona ih je istovremeno prizvala u krupnijem broju."
+        "text": "Na osmanskom dvoru, vest o porazu primljena je kao uvreda i kao poziv. Pohod iz 1386. vodio je, po većini izvora, sam sultan Murad I, koji je tada zauzeo Niš; poraz kod Pločnika pokazao mu je da vazalski odnosi i delimične snage neće biti dovoljni. Veliki pohod sa glavninom carske vojske počeo je tiho da se priprema. Tri godine kasnije, 1389, Murad će sam povesti vojsku preko Kosova polja — i tamo dočekati istu onu srpsku koaliciju koja se prvi put okupila kod Pločnika. U tom smislu pobeda u Toplici nije samo zaustavila Osmanlije; ona ih je istovremeno prizvala u krupnijem broju."
       },
       {
         "type": "paragraph",
@@ -6392,7 +6392,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "subtitle": "Srpska pobeda nad osmanskom vojskom u Toplici, oko 1386. godine — događaj o kome izvori govore različito",
     "dateLabel": "oko 1386.",
     "timelinePosition": "oko 1386.",
-    "summary": "Oko 1386. godine kneževa vojska, uz pomoć Vuka Brankovića i verovatno bosanskih odreda, porazila je osmansku vojsku kod Pločnika u Toplici — pobeda koja je nakratko zaustavila osmansko nadiranje i ojačala Lazarevu odluku da pruži otvoren otpor.",
+    "summary": "Oko 1386. godine kneževa vojska, uz moguću pomoć saveznika, porazila je osmansku vojsku kod Pločnika u Toplici — pobeda koja je nakratko zaustavila osmansko nadiranje i ojačala Lazarevu odluku da pruži otvoren otpor.",
     "keyPeople": [
       "Lazar",
       "Vuk Branković",
@@ -6410,12 +6410,12 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "content": [
       {
         "type": "paragraph",
-        "text": "Do zime 1388. godine sultanu Muratu I postalo je jasno da se srpsko pitanje na centralnom Balkanu više ne može rešavati pohodima pograničnih begova. Niz manjih neuspeha — odbijeni prepadi, pa pre svega poraz osmanskog odreda kod Pločnika nekoliko godina ranije — pokazao je da knez Lazar, oslonjen na utvrđeno jezgro Pomoravlja i na savez sa Vukom Brankovićem, predstavlja prepreku koja zahteva potpunu sultanovu pažnju. Murat, koji je do tada uglavnom vodio osvajanja preko svojih sinova i vojskovođa, doneo je odluku koju u njegovoj vladavini ne susrećemo često: u sledeći balkanski pohod krenuće lično, na čelu glavnih snaga Carstva.",
+        "text": "Do zime 1388. godine sultanu Muratu I postalo je jasno da se srpsko pitanje na centralnom Balkanu više ne može rešavati pohodima pograničnih begova. Niz manjih neuspeha — odbijeni prepadi, pa pre svega poraz osmanskog odreda kod Pločnika nekoliko godina ranije — pokazao je da knez Lazar, oslonjen na utvrđeno jezgro Pomoravlja i na savez sa Vukom Brankovićem, predstavlja prepreku koja zahteva potpunu sultanovu pažnju. Murat je odlučio da i ovaj pohod povede lično, sa glavninom snaga Carstva.",
         "dropcap": true
       },
       {
         "type": "paragraph",
-        "text": "Skupljanje vojske počelo je još tokom zime, a sabirno mesto određeno je u Plovdivu, na velikoj rumelijskoj drumskoj raskrsnici. Tamo se u proleće 1389. okupila gotovo sva slobodna snaga osmanske države. Jezgro su činili kapikulu — sultanovi stalni odredi konjice i pešadije, plaćeni iz dvorske blagajne i odani lično vladaru. Uz njih su stigle anadolske trupe pod komandom mlađeg sultanovog sina Bajazita, kao i rumelijski odredi pod starijim sinom Jakubom. Ali to nije bilo sve. Po pravilima vazalskog poretka, hrišćanski kneževi koji su priznali sultanovu vrhovnu vlast morali su da pošalju svoje odrede; među njima su bili bugarski i makedonski velikaši, a izvori spominju i Konstantina Dejanovića, srpskog vlastelina iz oblasti Velbužda, koji se kao Muratov vazal našao u sastavu osmanske vojske."
+        "text": "Skupljanje vojske počelo je još tokom zime, a sabirno mesto određeno je u Plovdivu, na velikoj rumelijskoj drumskoj raskrsnici. Tamo se u proleće 1389. okupila gotovo sva slobodna snaga osmanske države. Jezgro su činili kapikulu — sultanovi stalni odredi konjice i pešadije, plaćeni iz dvorske blagajne i odani lično vladaru. Uz njih su stigle anadolske i rumelijske trupe, a među zapovednicima su bila i oba sultanova sina, Jakub i mlađi Bajazit. Ali to nije bilo sve. Po pravilima vazalskog poretka, hrišćanski kneževi koji su priznali sultanovu vrhovnu vlast morali su da pošalju svoje odrede; među njima su bili bugarski i makedonski velikaši, a izvori spominju i Konstantina Dejanovića, srpskog vlastelina iz oblasti Velbužda, koji se kao Muratov vazal našao u sastavu osmanske vojske."
       },
       {
         "type": "paragraph",
@@ -6428,7 +6428,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Vesti o okupljanju u Plovdivu stizale su u Kruševac tokom proleća. Lazar je odmah pokrenuo ono što je u njegovoj politici već godinama bilo strpljivo pripremano: koaliciju srpskih i bosanskih oblasti spremnih da brane jezgro srpskih zemalja. Najvažniji saveznik bio je njegov zet, Vuk Branković, gospodar oblasti koja se prostirala upravo preko Kosova i Metohije i koji je svojim četama branio prilaze severu. Iz Bosne je stigao odred kralja Tvrtka I, jedinog južnoslovenskog vladara koji je tada nosio kraljevsku titulu; njega na bojištu nije bilo, ali je poslao iskusnog vojvodu — Vlatka Vukovića, koji je već imao iza sebe pobedu nad osmanskim odredom kod Bileće. Uz to su krenule i Lazarove sopstvene družine, oklopljena vlastela iz pomoravskih oblasti i opšti poziv moravskog zbora."
+        "text": "Vesti o okupljanju u Plovdivu stizale su u Kruševac tokom proleća. Lazar je odmah pokrenuo ono što je u njegovoj politici već godinama bilo strpljivo pripremano: koaliciju srpskih i bosanskih oblasti spremnih da brane jezgro srpskih zemalja. Najvažniji saveznik bio je njegov zet, Vuk Branković, gospodar oblasti koja se prostirala upravo preko Kosova i Metohije i koji je svojim četama branio prilaze severu. Iz Bosne je stigao odred kralja Tvrtka I, najmoćnijeg saveznika koji je nosio kraljevsku krunu; njega na bojištu nije bilo, ali je poslao iskusnog vojvodu — Vlatka Vukovića, koji je već imao iza sebe pobedu nad osmanskim odredom kod Bileće. Uz to su krenule i Lazarove sopstvene družine, oklopljena vlastela iz pomoravskih oblasti i opšti poziv moravskog zbora."
       },
       {
         "type": "paragraph",
@@ -6444,7 +6444,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Mnogi detalji koje danas vezujemo za uoči Kosova — razgovori, predskazanja, pojedinačni zaveti — potiču iz kasnijih slojeva tradicije koja je bitku, posle njenog ishoda, pretvarala u temeljnu priču o srpskom narodu. Trezven okvir je, ipak, čvrst: osmanska inicijativa, srpsko-bosanski odgovor u koaliciji, susret na Kosovu polju 28. juna 1389. po julijanskom kalendaru. Oko tih nekoliko činjenica vekovima će se taložiti i istorija i ep, a sve što će kasnije biti rečeno o Lazaru, Muratu i Kosovu — počinje od njihovog dolaska, jedne te iste nedelje, na onu široku ravnicu pod Prištinom."
+        "text": "Mnogi detalji koje danas vezujemo za uoči Kosova — razgovori, predskazanja, pojedinačni zaveti — potiču iz kasnijih slojeva tradicije koja je bitku, posle njenog ishoda, pretvarala u temeljnu priču o srpskom narodu. Trezven okvir je, ipak, čvrst: osmanska inicijativa, srpsko-bosanski odgovor u koaliciji, susret na Kosovu polju 15. juna 1389. po julijanskom kalendaru (Vidovdan, koji se danas obeležava 28. juna). Oko tih nekoliko činjenica vekovima će se taložiti i istorija i ep, a sve što će kasnije biti rečeno o Lazaru, Muratu i Kosovu — počinje od njihovog dolaska, jedne te iste nedelje, na onu široku ravnicu pod Prištinom."
       }
     ],
     "subtitle": "Kako su se u proleće i leto 1389. spremale dve vojske koje će se sresti na Kosovu polju",
@@ -6471,7 +6471,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "content": [
       {
         "type": "paragraph",
-        "text": "Na Vidovdan, 28. juna 1389. godine po julijanskom kalendaru, na ravnici severno od današnje Prištine sukobile su se dve vojske koje su znale da od ishoda zavisi mnogo više od jednog dana. Sa jedne strane stajala je osmanska sila pod sultanom Muratom I, sa njegovim sinovima Bajazitom i Jakubom; sa druge, koalicija koju je predvodio knez Lazar Hrebeljanović, sa Vukom Brankovićem, gospodarom oblasti oko same prištinske ravnice, i sa bosanskim vojvodom Vlatkom Vukovićem, koga je u pomoć poslao kralj Tvrtko I. Bila je to, po svemu sudeći, najveća bitka koju je srednjovekovna Srbija ikada vodila. O njoj se, paradoksalno, sigurno zna manje nego o mnogim manjim sukobima istog veka.",
+        "text": "Na Vidovdan, 15. juna 1389. godine po julijanskom kalendaru (danas 28. jun), na ravnici severno od današnje Prištine sukobile su se dve vojske koje su znale da od ishoda zavisi mnogo više od jednog dana. Sa jedne strane stajala je osmanska sila pod sultanom Muratom I, sa njegovim sinovima Bajazitom i Jakubom; sa druge, koalicija koju je predvodio knez Lazar Hrebeljanović, sa Vukom Brankovićem, gospodarom oblasti oko same prištinske ravnice, i sa bosanskim vojvodom Vlatkom Vukovićem, koga je u pomoć poslao kralj Tvrtko I. Bila je to, po svemu sudeći, najveća bitka koju je srednjovekovna Srbija ikada vodila. O njoj se, paradoksalno, sigurno zna manje nego o mnogim manjim sukobima istog veka.",
         "dropcap": true
       },
       {
@@ -6493,7 +6493,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Sigurno je, dalje, da je knez Lazar zarobljen — verovatno tokom same bitke ili neposredno posle nje — i da je u osmanskom logoru pogubljen mačem. Više izvora govori da je pogubljen u znak osvete za smrt sultana, mada je sasvim moguće i da je razlog bio prostiji: zarobljeni vladar protivničke vojske u srednjovekovnim ratovima nije imao mnogo izgleda, pogotovo kada je sopstveni vladar pobednika već ležao mrtav. Bajazit, sultanov stariji sin, iskoristio je trenutak da osigura nasleđe na način koji su osmanski izvori tek kasnije počeli da pominju otvoreno: dao je da se ubije njegov rođeni brat Jakub, eliminišući time jedinog mogućeg suparnika u borbi za presto. Sa Kosovog polja vratio se kao novi sultan."
+        "text": "Sigurno je, dalje, da je knez Lazar zarobljen — verovatno tokom same bitke ili neposredno posle nje — i da je u osmanskom logoru pogubljen mačem. Više izvora govori da je pogubljen u znak osvete za smrt sultana, mada je sasvim moguće i da je razlog bio prostiji: zarobljeni vladar protivničke vojske u srednjovekovnim ratovima nije imao mnogo izgleda, pogotovo kada je sopstveni vladar pobednika već ležao mrtav. Bajazit, sultanov mlađi sin, iskoristio je trenutak da osigura nasleđe na način koji su osmanski izvori tek kasnije počeli da pominju otvoreno: dao je da se ubije njegov rođeni brat Jakub, eliminišući time jedinog mogućeg suparnika u borbi za presto. Sa Kosovog polja vratio se kao novi sultan."
       },
       {
         "type": "paragraph",
@@ -6508,9 +6508,9 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
         "text": "Ovde je važno odmah povući granicu koju će sledeće dve lekcije podrobnije obraditi. Mnogo onoga što se danas zna o Kosovskoj bici — Lazarev izbor „carstva nebeskoga”, junački čin Miloša Obilića, izdaja Vuka Brankovića, tajna večera uoči boja, oklade i zakletve, dijalozi između junaka — ne potiče iz savremenih izvora, nego iz potonje narodne poezije i pisane tradicije, koja se oblikovala od petnaestog do devetnaestog veka. To ne znači da je ta tradicija lažna; ona je sama postala istorijska činjenica, deo načina na koji su se generacije razumele. Ali ona nije isto što i događaj iz 1389. godine. Istorijsko Kosovo i kulturno Kosovo dve su stvarnosti, obe stvarne na svoj način. Ova lekcija govori o prvoj; sledeće će govoriti o drugoj."
       }
     ],
-    "subtitle": "Šta se zaista zna o sudaru na Kosovu polju 28. juna 1389. i gde se istorija završava, a tradicija počinje",
-    "dateLabel": "28. jun 1389.",
-    "timelinePosition": "28. jun 1389.",
+    "subtitle": "Šta se zaista zna o sudaru na Kosovu polju na Vidovdan 1389. i gde se istorija završava, a tradicija počinje",
+    "dateLabel": "15/28. jun 1389.",
+    "timelinePosition": "15/28. jun 1389.",
     "summary": "Tok bitke na Kosovu polju: sukob srpsko-bosanske koalicije i osmanske vojske, smrt sultana Murata i kneza Lazara, i neizvestan ishod koji su izvori ostavili u nekoliko verzija.",
     "keyPeople": [
       "Lazar",
@@ -6528,7 +6528,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "content": [
       {
         "type": "paragraph",
-        "text": "Lazar nije poginuo u jurišu. To je prva i najvažnija činjenica koju treba držati na umu kada se govori o njegovoj smrti. U većini izvora, kako srpskih tako i osmanskih, srpski knez je u toku Kosovske bitke, 28. juna 1389. godine, ili neposredno posle nje, zarobljen — ranjen, opkoljen ili odsečen od svojih — i odveden u osmanski logor. Tamo je, po naređenju Bajazita, novog sultana koji je samo nekoliko časova pre toga nasledio ubijenog oca Murata, posečen mačem. Zajedno s njim pogubljeno je i nekoliko zarobljenih srpskih velikaša. Tako se završio život vladara koji je u poslednjih petnaestak godina sastavljao razlomljenu zemlju posle smrti cara Uroša — ne na bojnom polju, u sečivu konjičkog naleta, već u tišini logora, vezanih ruku.",
+        "text": "Lazar nije poginuo u jurišu. To je prva i najvažnija činjenica koju treba držati na umu kada se govori o njegovoj smrti. U većini izvora, kako srpskih tako i osmanskih, srpski knez je u toku Kosovske bitke, 15. juna 1389. godine po julijanskom kalendaru, ili neposredno posle nje, zarobljen — ranjen, opkoljen ili odsečen od svojih — i odveden u osmanski logor. Tamo je, po naređenju Bajazita, novog sultana koji je samo nekoliko časova pre toga nasledio ubijenog oca Murata, posečen mačem. Zajedno s njim pogubljeno je i nekoliko zarobljenih srpskih velikaša. Tako se završio život vladara koji je u poslednjih petnaestak godina sastavljao razlomljenu zemlju posle smrti cara Uroša — ne na bojnom polju, u sečivu konjičkog naleta, već u tišini logora, vezanih ruku.",
         "dropcap": true
       },
       {
@@ -6537,7 +6537,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Telo je, posle nekog vremena i pod okolnostima koje izvori prikazuju različito, vraćeno Srbima. Najpre je sahranjeno u crkvi Svete Bogorodice nedaleko od Prištine, gde je ostalo svega godinu ili dve. Potom je, verovatno 1390. ili 1391. godine, sa svom svečanošću preneto u manastir Ravanicu — zadužbinu koju je Lazar sam podigao u Pomoravlju kao mesto svog upokojenja. Tamo, u hramu posvećenom Vaznesenju Hristovom, sahranjen je kao knez i kao mučenik. Bila je to namera koju je on sam, gradeći Ravanicu još osamdesetih godina XIV veka, jasno postavio: biti sahranjen u sopstvenoj zadužbini, među freskama svojih predaka u veri, a ne u nekoj prestonoj crkvi tuđeg vladara."
+        "text": "Telo je, posle nekog vremena i pod okolnostima koje izvori prikazuju različito, vraćeno Srbima. Najpre je sahranjeno u crkvi Vaznesenja (Svetog Spasa) u Prištini, prestonici Vuka Brankovića, gde je ostalo svega godinu ili dve. Potom je, verovatno 1390. ili 1391. godine, sa svom svečanošću preneto u manastir Ravanicu — zadužbinu koju je Lazar sam podigao u Pomoravlju kao mesto svog upokojenja. Tamo, u hramu posvećenom Vaznesenju Hristovom, sahranjen je kao knez i kao mučenik. Bila je to namera koju je on sam, gradeći Ravanicu još osamdesetih godina XIV veka, jasno postavio: biti sahranjen u sopstvenoj zadužbini, među freskama svojih predaka u veri, a ne u nekoj prestonoj crkvi tuđeg vladara."
       },
       {
         "type": "paragraph",
@@ -6550,7 +6550,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Lazar je vrlo brzo posle smrti počeo da se poštuje kao svetac. Srpska crkva ga je svrstala među mučenike već u prvim godinama po Kosovu — najkasnije u deceniji posle bitke — a njegov praznik određen je za 28. jun, dan same bitke, koji će u potonjim vekovima postati poznat kao Vidovdan. Liturgijski tekstovi sastavljeni u njegovu čast, žitija i pohvale koje su pisale obrazovane crkvene ruke s kraja XIV i početka XV veka, oblikovali su sliku kneza koji nije pao kao poraženi vojvoda, već kao hrišćanski vladar koji je svojom krvlju zapečatio veru. U toj slici poraz prestaje da bude poraz, a postaje prinos, žrtva, ulazak u red mučenika za Hrista. Sve to dogodilo se brzo, gotovo neposredno, dok su učesnici bitke još bili živi."
+        "text": "Lazar je vrlo brzo posle smrti počeo da se poštuje kao svetac. Srpska crkva ga je svrstala među mučenike već u prvim godinama po Kosovu — najkasnije u deceniji posle bitke — a njegov praznik određen je za dan same bitke, 15. jun po starom kalendaru (danas 28. jun), koji će u potonjim vekovima postati poznat kao Vidovdan. Liturgijski tekstovi sastavljeni u njegovu čast, žitija i pohvale koje su pisale obrazovane crkvene ruke s kraja XIV i početka XV veka, oblikovali su sliku kneza koji nije pao kao poraženi vojvoda, već kao hrišćanski vladar koji je svojom krvlju zapečatio veru. U toj slici poraz prestaje da bude poraz, a postaje prinos, žrtva, ulazak u red mučenika za Hrista. Sve to dogodilo se brzo, gotovo neposredno, dok su učesnici bitke još bili živi."
       },
       {
         "type": "paragraph",
@@ -6558,7 +6558,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Iz svega ovoga izrasta i ono što je u srpskoj kulturi najpoznatije: tumačenje da je Lazar, pred bitku, izabrao „carstvo nebesko” umesto „carstva zemaljskog” — da je svesno pristao na poraz na zemlji da bi dobio spasenje na nebu. Ova misao postala je središte čitavog kosovskog predanja, od crkvenih besednika preko narodnih pesama do moderne književnosti. Ona vekovima oblikuje način na koji se u Srbiji misli o porazu, o žrtvi i o smislu istorije. Treba, međutim, biti pošten: takav izbor nije zabeležen kao Lazareva izgovorena reč. To je teološko tumačenje koje su, decenijama posle bitke, izgradili pisci žitija i pohvala, pokušavajući da poraženom dadu duhovnu pobedu. Istorijski Lazar nije ostavio takav iskaz. Ipak, upravo to potonje tumačenje, sa sve svojim retoričkim oklopom, pretvorilo je vojničku katastrofu u moralni vrhunac i učinilo Kosovo ne završetkom jedne države, nego početkom jedne duge unutrašnje povesti."
+        "text": "Iz svega ovoga izrasta i ono što je u srpskoj kulturi najpoznatije: tumačenje da je Lazar, pred bitku, izabrao „carstvo nebesko” umesto „carstva zemaljskog” — da je svesno pristao na poraz na zemlji da bi dobio spasenje na nebu. Ova misao postala je središte čitavog kosovskog predanja, od crkvenih besednika preko narodnih pesama do moderne književnosti. Ona vekovima oblikuje način na koji se u Srbiji misli o porazu, o žrtvi i o smislu istorije. Treba, međutim, biti pošten: takav izbor nije zabeležen kao Lazareva izgovorena reč. To je teološko tumačenje koje su, već u prvim godinama i decenijama posle bitke, izgradili pisci žitija i pohvala, pokušavajući da poraženom dadu duhovnu pobedu. Istorijski Lazar nije ostavio takav iskaz. Ipak, upravo to potonje tumačenje, sa sve svojim retoričkim oklopom, pretvorilo je vojničku katastrofu u moralni vrhunac i učinilo Kosovo ne završetkom jedne države, nego početkom jedne duge unutrašnje povesti."
       }
     ],
     "subtitle": "Kako je smrt srpskog kneza na Kosovu pretvorena u svetiteljski lik i u izbor između zemaljskog i nebeskog carstva",
@@ -6587,11 +6587,11 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Istorijsko jezgro je čvrsto u jednoj tački. Da je sultan Murad I poginuo 15. juna 1389. na Kosovu polju, beleže savremeni i bliski savremeni izvori sa različitih strana — firentinska kancelarija, koja je dva meseca posle bitke pisala bosanskom kralju Tvrtku, vizantijski hroničari, rani osmanski istoriografi i srpska crkvena predanja. Da ga je ubio jedan srpski plemić koji je uspeo da mu se približi, takođe se slaže veliki broj nezavisnih izvora. Manje je sigurno kako je do ubistva tačno došlo: jedni izvori kažu da se vlastelin u toku bitke probio do sultanovog šatora, drugi da je prišao posle bitke, pod izgovorom da se predaje ili da nosi važnu vest, i da je tada izvadio sakriveni nož. Razlike u opisu su stvarne — ali sama činjenica ubistva i identitet ubice kao srpskog plemića ne podležu razumnoj sumnji."
+        "text": "Istorijsko jezgro je čvrsto u jednoj tački. Da je sultan Murad I poginuo 15. juna 1389. na Kosovu polju, beleže savremeni i bliski savremeni izvori sa različitih strana — firentinska kancelarija, koja je nešto više od četiri meseca posle bitke (20. oktobra 1389) pisala bosanskom kralju Tvrtku, vizantijski hroničari, rani osmanski istoriografi i srpska crkvena predanja. Da ga je ubio jedan srpski plemić koji je uspeo da mu se približi, takođe se slaže veliki broj nezavisnih izvora. Manje je sigurno kako je do ubistva tačno došlo: jedni izvori kažu da se vlastelin u toku bitke probio do sultanovog šatora, drugi da je prišao posle bitke, pod izgovorom da se predaje ili da nosi važnu vest, i da je tada izvadio sakriveni nož. Razlike u opisu su stvarne — ali sama činjenica ubistva i identitet ubice kao srpskog plemića ne podležu razumnoj sumnji."
       },
       {
         "type": "paragraph",
-        "text": "Ime se u izvorima pojavljuje kasnije i ne odjednom. U 15. veku, Konstantin Mihailović iz Ostrovice, Srbin koji je kao janičar dospeo do mađarskog dvora i ostavio uspomene poznate kao „Janjičareve uspomene”, naziva ga Miloš Kobilović. Otprilike u isto vreme, jedan italijanski hroničar beleži sličnu formu — Cobilich. Po tim i drugim ranim spomenima vidi se da je prvobitni oblik prezimena verovatno bio Kobilović ili Kobilić. Tek u kasnijim vekovima, kada je prezime u narodu počelo da se oseća kao nedostojno junaka, oblik se promenio u Obilić — od reči koja sugeriše obilje i snagu. Pod tim imenom je ušao u kanon srpske kulture."
+        "text": "Ime se u izvorima pojavljuje kasnije i ne odjednom. U 15. veku, Konstantin Mihailović iz Ostrovice, Srbin koji je kao janičar dospeo do mađarskog dvora i ostavio uspomene poznate kao „Janjičareve uspomene”, naziva ga Miloš Kobilović. U 16. veku Benedikt Kuripešić (1530) beleži oblik Kobilić. Po tim i drugim ranim spomenima vidi se da je prvobitni oblik prezimena verovatno bio Kobilović ili Kobilić. Tek u kasnijim vekovima, kada je prezime u narodu počelo da se oseća kao nedostojno junaka, oblik se promenio u Obilić — od reči koja sugeriše obilje i snagu. Pod tim imenom je ušao u kanon srpske kulture."
       },
       {
         "type": "heading",
@@ -6600,7 +6600,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Sve ostalo što ljudi danas „znaju” o Milošu dolazi iz narodne pesme, koja se vekovima oblikovala u guslarskoj tradiciji i konačno bila zapisana u 19. veku, najviše u zbirkama Vuka Karadžića. Po tom predanju, Miloš je Lazarov zet, oženjen jednom od kneževih kćeri — Marom — i u svojti je sa Vukom Brankovićem, koji je oženjen njenom sestrom. Već tu se vidi pesnička sloboda: Mara je u stvari bila Brankovićeva žena, a porodične veze koje pesma pripisuje Milošu istorijski se ne mogu potvrditi. Na večeri uoči bitke, peva se, knez Lazar diže zdravicu i optuži Miloša da će ga sutra izdati. Miloš ustaje povređen i obećava da će svoju vernost dokazati delom: jutro će ga, kaže, naći ili u sultanovom šatoru kao ubicu, ili na bojnom polju kao mrtvog vojnika. Tako je iz pesničke potrebe — da se junaštvo dokaže nasuprot sumnji — izrasla cela drama izdaje i žrtve."
+        "text": "Sve ostalo što ljudi danas „znaju” o Milošu dolazi iz narodne pesme, koja se vekovima oblikovala u guslarskoj tradiciji i konačno bila zapisana u 19. veku, najviše u zbirkama Vuka Karadžića. Po tom predanju, Miloš je Lazarov zet, oženjen kneževom kćeri Vukosavom, i u svojti je sa Vukom Brankovićem, mužem njene sestre Mare. Već tu se vidi pesnička sloboda: istorijski je posvedočen samo Vukov brak sa Marom, a Miloševa veza sa Lazarevom kućom ne može se potvrditi. Na večeri uoči bitke, peva se, knez Lazar diže zdravicu i optuži Miloša da će ga sutra izdati. Miloš ustaje povređen i obećava da će svoju vernost dokazati delom: jutro će ga, kaže, naći ili u sultanovom šatoru kao ubicu, ili na bojnom polju kao mrtvog vojnika. Tako je iz pesničke potrebe — da se junaštvo dokaže nasuprot sumnji — izrasla cela drama izdaje i žrtve."
       },
       {
         "type": "paragraph",
@@ -6608,7 +6608,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Njegova kulturna uloga proširila se daleko van pesme. U srpskoj narodnoj veri Miloš je odavno bio poštovan gotovo kao svetac; Srpska pravoslavna crkva ga je u 20. veku zvanično uvrstila u kalendar kao Svetog Miloša, zajedno sa drugim kosovskim mučenicima. Njegovo ime nosi Orden Miloša Obilića, ustanovljen za hrabrost u ratu, kao i naselja, ulice i škole. U svakoj generaciji od 19. veka naovamo, kada se postavljalo pitanje šta znači lična hrabrost u trenutku kolektivnog poraza, neko se vraćao Milošu — ne onom iz dokumenata, koga gotovo i nema, nego onom iz pesme, koji je za to vraćanje i bio stvoren."
+        "text": "Njegova kulturna uloga proširila se daleko van pesme. U srpskoj narodnoj veri Miloš je odavno bio poštovan gotovo kao svetac; od početka 19. veka poštuje se i u crkvenoj sredini kao svetitelj (freska u Hilandaru), iako formalna kanonizacija nije zabeležena. Njegovo ime nosi Orden Miloša Obilića, ustanovljen za hrabrost u ratu, kao i naselja, ulice i škole. U svakoj generaciji od 19. veka naovamo, kada se postavljalo pitanje šta znači lična hrabrost u trenutku kolektivnog poraza, neko se vraćao Milošu — ne onom iz dokumenata, koga gotovo i nema, nego onom iz pesme, koji je za to vraćanje i bio stvoren."
       },
       {
         "type": "paragraph",
@@ -6703,7 +6703,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Cena tog mira bila je jasna i teška. Srbija je plaćala harač, slala vojsku kada bi je sultan pozvao, i u osmanskim ratovima na istoku borila se na strani onoga ko je u Kosovu odneo pobedu. Zauzvrat, Lazarevićka kuća je ostala na prestolu, država se nije raspala na osmanske sandžake, a Stefan je dobio vreme da odraste i da uđe u vlast. Olivera će u harem otići kao žrtva i kao diplomatkinja u jednoj osobi; o njoj se zna malo, ali se zna da je preživela očevu propast, da je posle Bajazitovog poraza kod Angore 1402. godine vraćena u Srbiju i da je do kraja života ostala uz brata Stefana. Ovaj brak nije bio sramota; bio je hladan, gorak račun jedne majke koja je znala šta sve može da izgubi."
+        "text": "Cena tog mira bila je jasna i teška. Srbija je plaćala harač, slala vojsku kada bi je sultan pozvao, i u osmanskim ratovima na istoku borila se na strani sile protiv koje je Lazar pao na Kosovu. Zauzvrat, Lazarevićka kuća je ostala na prestolu, država se nije raspala na osmanske sandžake, a Stefan je dobio vreme da odraste i da uđe u vlast. Olivera će u harem otići kao žrtva i kao diplomatkinja u jednoj osobi; o njoj se zna malo, ali se zna da je preživela muževljev slom, da je posle Bajazitovog poraza kod Angore 1402. godine vraćena u Srbiju i da je ostatak života provela u Despotovini. Ovaj brak nije bio sramota; bio je hladan, gorak račun jedne majke koja je znala šta sve može da izgubi."
       },
       {
         "type": "heading",
@@ -6807,7 +6807,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Timur Lenk, u zapadnim izvorima Tamerlan, do 1400. već je razorio Delhi, opljačkao Bagdad, prešao preko Sirije i kod Damaska ostavio kule od ljudskih lobanja. Njegova država protezala se od Indije do istočne Anadolije, a vojska mu je bila ono što se u to doba najviše bližilo savršenoj sili — brojna, disciplinovana konjica iza koje su išli ratni slonovi dovedeni iz Indije. Kada su anadolski emiri zbačeni od strane Bajazita potražili zaštitu na njegovom dvoru, Timur je dobio i izgovor i razlog da krene na zapad. Razmena pisama dvojice vladara, koliko god od nje sačuvano, vodila se tonom koji nije ostavljao prostora dogovoru: svaki od njih očekivao je od drugog priznanje, a nijedan nije bio od onih koji priznanje daju."
+        "text": "Timur Lenk, u zapadnim izvorima Tamerlan, do 1401. već je razorio Delhi, opljačkao Bagdad, prešao preko Sirije i kod Damaska ostavio kule od ljudskih lobanja. Njegova država protezala se od Indije do istočne Anadolije, a vojska mu je bila ono što se u to doba najviše bližilo savršenoj sili — brojna, disciplinovana konjica iza koje su išli ratni slonovi dovedeni iz Indije. Kada su anadolski emiri zbačeni od strane Bajazita potražili zaštitu na njegovom dvoru, Timur je dobio i izgovor i razlog da krene na zapad. Razmena pisama dvojice vladara, koliko god od nje sačuvano, vodila se tonom koji nije ostavljao prostora dogovoru: svaki od njih očekivao je od drugog priznanje, a nijedan nije bio od onih koji priznanje daju."
       },
       {
         "type": "paragraph",
@@ -6824,7 +6824,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Put kući vodio je preko Konstantinopolja. Tamo se Stefan u oktobru 1402. zaustavio kod cara Manojla II Paleologa, koji je upravo bio doživeo veliko olakšanje — Bajazitova opsada Carigrada, dugogodišnji teret, prestala je čim je vest o Angori stigla. Manojlo je u srpskom knezu video saveznika koga vredi privezati uz carstvo i podario mu je titulu despota, drugu po dostojanstvu u vizantijskoj hijerarhiji, tradicionalno čuvanu za carske zetove i upravnike pridruženih oblasti. Tom titulom Stefan se vraćao kući više nego kao osmanski vazal: kao vizantijski despot, sa novim ugledom u celom pravoslavnom svetu. Od te jeseni i sama zemlja kojom je vladao u izvorima sve češće dobija ime po njegovoj tituli — Despotovina."
+        "text": "Put kući vodio je preko Konstantinopolja. Tamo se Stefan u oktobru 1402. zaustavio kod Jovana VII Paleologa, koji je upravljao Carigradom dok je car Manojlo II bio na Zapadu i koji je upravo bio doživeo veliko olakšanje — Bajazitova opsada Carigrada, dugogodišnji teret, prestala je čim je vest o Angori stigla. Jovan VII je u srpskom knezu video saveznika koga vredi privezati uz carstvo i podario mu je titulu despota (Manojlo II ju je potvrdio 1410), drugu po dostojanstvu u vizantijskoj hijerarhiji, tradicionalno čuvanu za carske zetove i upravnike pridruženih oblasti. Tom titulom Stefan se vraćao kući više nego kao osmanski vazal: kao vizantijski despot, sa novim ugledom u celom pravoslavnom svetu. Od te jeseni i sama zemlja kojom je vladao u izvorima sve češće dobija ime po njegovoj tituli — Despotovina."
       },
       {
         "type": "paragraph",
@@ -6845,7 +6845,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       "Timur Lenk",
       "Sulejman",
       "Mehmed I",
-      "Manojlo II"
+      "Jovan VII"
     ],
     "keyPlaces": [
       "Angora",
@@ -6857,16 +6857,16 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "content": [
       {
         "type": "paragraph",
-        "text": "U oktobru 1402. godine, nekoliko meseci posle strašnog poraza koji je Tamerlan naneo sultanu Bajazitu kod Angore, mladi srpski knez Stefan Lazarević nije pošao najkraćim putem kući. Sa preživelim srpskim odredom krenuo je sa istoka, ali se na povratku zaustavio u Carigradu, na dvoru vizantijskog cara Manojla II Paleologa. Bio je to susret dvojice ljudi koje je nedavna katastrofa Osmanskog carstva zatekla na različitim stranama sveta — car se upravo vratio sa višegodišnjeg putovanja po zapadnim dvorovima, gde je uzaludno tražio pomoć protiv Turaka, a knez se vraćao iz bitke u kojoj je kao vazal sultana morao da se bije protiv hrišćanskih saveznika koje je njegov gospodar smatrao manje opasnim od mongolskog osvajača. Iz tog susreta Stefan će poneti titulu koja će zauvek promeniti ime srpske države.",
+        "text": "U oktobru 1402. godine, nekoliko meseci posle strašnog poraza koji je Tamerlan naneo sultanu Bajazitu kod Angore, mladi srpski knez Stefan Lazarević nije pošao najkraćim putem kući. Sa preživelim srpskim odredom krenuo je sa istoka, ali se na povratku zaustavio u Carigradu, kod Jovana VII Paleologa, koji je upravljao gradom dok je car Manojlo II još bio na višegodišnjem putovanju po zapadnim dvorovima, gde je uzaludno tražio pomoć protiv Turaka. Bio je to susret dvojice ljudi koje je nedavna katastrofa Osmanskog carstva zatekla u sasvim različitim položajima — Jovan VII je tek dočekao kraj duge osmanske opsade Carigrada, a knez se vraćao iz bitke u kojoj se, kao sultanov vazal, borio protiv Timura. Iz tog susreta Stefan će poneti titulu koja će zauvek promeniti ime srpske države.",
         "dropcap": true
       },
       {
         "type": "paragraph",
-        "text": "Manojlo II bio je iskusan i obrazovan vladar, naviknut da meri ljude pažljivo. Stefanovo držanje pod nemogućim okolnostima — vernost data Bajazitu i ispoštovana do kraja, hladnokrvno povlačenje sa bojišta posle sloma osmanske vojske, sposobnost da se sa porazom nosi bez panike — ostavili su na cara dubok utisak. Pred sobom je imao mladog hrišćanskog vladara koji se, makar i kao vazal nevernika, držao kao pravi pravoslavni knez. Caru, čije je carstvo bilo svedeno na Konstantinopolj sa okolinom i nekoliko ostrva, takav saveznik na Balkanu vredeo je više od formalnih obećanja iz Pariza i Londona. Odgovorio je Stefanu jedinim sredstvom koje mu je još uvek bilo na raspolaganju — titulom."
+        "text": "Jovan VII, Manojlov sinovac i savladar, bio je iskusan političar, naviknut da meri ljude pažljivo. Stefanovo držanje pod nemogućim okolnostima — vernost data Bajazitu i ispoštovana do kraja, hladnokrvno povlačenje sa bojišta posle sloma osmanske vojske, sposobnost da se sa porazom nosi bez panike — ostavili su na njega dubok utisak. Pred sobom je imao mladog hrišćanskog vladara koji se, makar i kao vazal nevernika, držao kao pravi pravoslavni knez. Vladaru carstva svedenog na Konstantinopolj sa okolinom i nekoliko ostrva, takav saveznik na Balkanu vredeo je više od formalnih obećanja iz Pariza i Londona. Odgovorio je Stefanu jedinim sredstvom koje mu je još uvek bilo na raspolaganju — titulom."
       },
       {
         "type": "paragraph",
-        "text": "Dodelio mu je čin despota — drugu po visini titulu vizantijske hijerarhije, odmah ispod careve. Ta titula je u Vizantiji tradicionalno pripadala carevim sinovima, zetovima ili najznačajnijim klijentskim vladarima. Nije bila potpuno nepoznata u srpskoj prošlosti: pre Stefana već su je nosili pojedini srpski velikaši, među njima i Jovan Uglješa Mrnjavčević, brat kralja Vukašina. Ali nijedan od njih nije ju primio kao trajnu vladarsku titulu srpske države. Sa Stefanom Lazarevićem despotska titula prvi put postaje krunsko ime srpskog prestola — i upravo iz nje izvešće se i novo ime cele zemlje: Despotovina."
+        "text": "Dodelio mu je čin despota — drugu po visini titulu vizantijske hijerarhije, odmah ispod careve; car Manojlo II potvrdiće je 1410. Ta titula je u Vizantiji tradicionalno pripadala carevim sinovima, zetovima ili najznačajnijim klijentskim vladarima. Nije bila potpuno nepoznata u srpskoj prošlosti: pre Stefana već su je nosili pojedini srpski velikaši, među njima i Jovan Uglješa Mrnjavčević, brat kralja Vukašina. Ali nijedan od njih nije ju primio kao trajnu vladarsku titulu srpske države. Sa Stefanom Lazarevićem despotska titula prvi put postaje krunsko ime srpskog prestola — i upravo iz nje izvešće se i novo ime cele zemlje: Despotovina."
       },
       {
         "type": "heading",
@@ -6875,7 +6875,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Treba odmah biti pošten: despot nije isto što i kralj u zapadnom smislu. To nije bila samostalna kruna evropske vrste, kakvu je dva veka ranije iz Rima dobio Stefan Prvovenčani. Despotska titula podrazumevala je formalnu hijerarhiju u kojoj je davalac titule, vizantijski car, ostajao simbolički nadređen. U praktičnom smislu carstvo Manojla II više nije bilo u stanju da ma šta nameće Stefanu — pa je titula bila gotovo isključivo simbolička. Ali simboli su u to vreme imali težinu kakvu danas teško zamišljamo."
+        "text": "Treba odmah biti pošten: despot nije isto što i kralj u zapadnom smislu. To nije bila samostalna kruna evropske vrste, kakvu je dva veka ranije iz Rima dobio Stefan Prvovenčani. Despotska titula podrazumevala je formalnu hijerarhiju u kojoj je davalac titule, vizantijski car, ostajao simbolički nadređen. U praktičnom smislu Vizantija Paleologa više nije bilo u stanju da ma šta nameće Stefanu — pa je titula bila gotovo isključivo simbolička. Ali simboli su u to vreme imali težinu kakvu danas teško zamišljamo."
       },
       {
         "type": "paragraph",
@@ -6883,11 +6883,11 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Vraćajući se u zemlju, Stefan je novu titulu odmah pretvorio u praksu. Despot je počeo da se javlja na njegovim poveljama i u zvaničnoj prepisci, na kovanom novcu, u natpisima zadužbina. Dvor je preuzeo bogatiji vizantijski ceremonijal, a kao državni simbol pojavio se dvoglavi orao — stari carski znak Vizantije, koji će od tada postati i srpski znak. Sve to nije bilo prazno preuzimanje tuđih oblika. Bila je to dosledno sprovedena politička poruka: srpski vladar pripada istoj pravoslavnoj porodici kao i carigradski car, a Despotovina je nastavak velike hrišćanske tradicije koju Osmanlije, koliko god moćne, nikako ne mogu sasvim potisnuti."
+        "text": "Vraćajući se u zemlju, Stefan je novu titulu odmah pretvorio u praksu. Despot je počeo da se javlja na njegovim poveljama i u zvaničnoj prepisci, na kovanom novcu, u natpisima zadužbina. Dvor je preuzeo bogatiji vizantijski ceremonijal, a dvoglavi orao, stari carski znak Vizantije poznat već Nemanjićima, dobio je u Despotovini još istaknutije mesto. Sve to nije bilo prazno preuzimanje tuđih oblika. Bila je to dosledno sprovedena politička poruka: srpski vladar pripada istoj pravoslavnoj porodici kao i carigradski car, a Despotovina je nastavak velike hrišćanske tradicije koju Osmanlije, koliko god moćne, nikako ne mogu sasvim potisnuti."
       },
       {
         "type": "paragraph",
-        "text": "Nova titula otvorila je i prostor za novu spoljnu politiku. Osmansko carstvo posle Angore raspalo se u građanski rat između Bajazitovih sinova — Sulejmana, Muse i Mehmeda — koji će trajati od 1402. do 1413. godine. Stefan je u tom haosu vešto menjao strane, plaćajući harač onome ko bi se trenutno učvrstio, podržavajući čas jednog čas drugog pretendenta, i koristeći svako njihovo iscrpljivanje da ojača sopstvenu zemlju. Istovremeno se okretao i ka severu: ugarski kralj Sigismund Luksemburški primio ga je 1403–1404. kao naslednog ugarskog barona i dao mu krupne posede, među njima i grad Beograd, koji će despot pretvoriti u novu prestonicu i u jedan od najsnažnijih hrišćanskih gradova na granici sa Osmanlijama. Slične veze održavao je i sa Vizantijom, Vlaškom i Bosnom."
+        "text": "Nova titula otvorila je i prostor za novu spoljnu politiku. Osmansko carstvo posle Angore raspalo se u građanski rat između Bajazitovih sinova — Sulejmana, Ise, Muse i Mehmeda — koji će trajati od 1402. do 1413. godine. Stefan je u tom haosu vešto menjao strane, plaćajući harač onome ko bi se trenutno učvrstio, podržavajući čas jednog čas drugog pretendenta, i koristeći svako njihovo iscrpljivanje da ojača sopstvenu zemlju. Istovremeno se okretao i ka severu: ugarski kralj Sigismund Luksemburški primio ga je 1403–1404. kao naslednog ugarskog barona i dao mu krupne posede, među njima i grad Beograd, koji će despot pretvoriti u novu prestonicu i u jedan od najsnažnijih hrišćanskih gradova na granici sa Osmanlijama. Slične veze održavao je i sa Vizantijom, Vlaškom i Bosnom."
       },
       {
         "type": "paragraph",
@@ -6897,10 +6897,10 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "subtitle": "Kako je srpski knez na povratku iz Angore u Carigradu dobio titulu koja je promenila ime i status srpske države",
     "dateLabel": "1402.",
     "timelinePosition": "1402.",
-    "summary": "U oktobru 1402. Stefan Lazarević u Carigradu prima od cara Manojla II Paleologa titulu despota — drugu po rangu u pravoslavnom svetu. Time srpska država postaje Despotovina i ulazi u epohu opreznog višestranog manevrisanja između Osmanlija, Ugarske i Vizantije.",
+    "summary": "U oktobru 1402. Stefan Lazarević u Carigradu prima od Jovana VII Paleologa (u ime cara Manojla II) titulu despota — drugu po rangu u pravoslavnom svetu. Time srpska država postaje Despotovina i ulazi u epohu opreznog višestranog manevrisanja između Osmanlija, Ugarske i Vizantije.",
     "keyPeople": [
       "Stefan Lazarević",
-      "Manojlo II Paleolog",
+      "Jovan VII Paleolog",
       "Sulejman",
       "Musa",
       "Mehmed I"
@@ -7027,7 +7027,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "content": [
       {
         "type": "paragraph",
-        "text": "Malo je vladara u srednjovekovnoj Evropi koji su istovremeno bili priznati ratnici, kruna evropskog viteštva, pisci pobožne lirike i pokrovitelji čitave škole pismenosti. Stefan Lazarević, sin kneza Lazara i kneginje Milice, bio je sve to. Vladao je iz Beograda više od tri decenije, između dva carstva i nekoliko kraljevstava, i u tom uskom prostoru izgradio je vlastiti svet — ozbiljan, miran, evropski po obrascima, srpski po jeziku i veri. Ako se za nekog srpskog vladara može uslovno reći da je bio „renesansni čovek”, to je Stefan.",
+        "text": "Malo je vladara u srednjovekovnoj Evropi koji su istovremeno bili priznati ratnici, kruna evropskog viteštva, pisci pobožne lirike i pokrovitelji čitave škole pismenosti. Stefan Lazarević, sin kneza Lazara i kneginje Milice, bio je sve to. Vladao je gotovo četiri decenije, od toga više od dve iz Beograda, između dva carstva i nekoliko kraljevstava, i u tom uskom prostoru izgradio je vlastiti svet — ozbiljan, miran, evropski po obrascima, srpski po jeziku i veri. Ako se za nekog srpskog vladara može uslovno reći da je bio „renesansni čovek”, to je Stefan.",
         "dropcap": true
       },
       {
@@ -7049,7 +7049,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Najlepše svedočanstvo o njegovom unutrašnjem životu nije ostavio neko drugi, nego on sam. Negde između 1404. i 1409. godine napisao je „Slovo ljubve” — kratko, lirsko razmišljanje o ljubavi među braćom u Hristu, upućeno sinovcu Đurđu Brankoviću, s kojim su mu odnosi povremeno bili napeti. Tekst je sastavljen tako da prva slova stihova sklapaju posvetu; ton je smiren, gotovo molitven, daleko od dvorske retorike. Po opštem sudu, „Slovo ljubve” spada u vrhunce srpske srednjovekovne književnosti — delo vladara koji je u međuvremenu, na bojnom polju, dokazao da ume i da zapoveda i da ćuti."
+        "text": "Najlepše svedočanstvo o njegovom unutrašnjem životu nije ostavio neko drugi, nego on sam. Negde između 1404. i 1409. godine napisao je „Slovo ljubve” — kratko, lirsko razmišljanje o ljubavi među braćom u Hristu, upućeno, po jednom tumačenju bratu Vuku, a po drugom sestriću Đurđu Brankoviću, s kojim su mu odnosi povremeno bili napeti. Tekst je sastavljen tako da prva slova stihova sklapaju posvetu; ton je smiren, gotovo molitven, daleko od dvorske retorike. Po opštem sudu, „Slovo ljubve” spada u vrhunce srpske srednjovekovne književnosti — delo vladara koji je u međuvremenu, na bojnom polju, dokazao da ume i da zapoveda i da ćuti."
       },
       {
         "type": "paragraph",
@@ -7065,7 +7065,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Umro je 19. jula 1427. godine, naglo, od moždanog udara, dok je bio u lovu blizu Glave kod rudničkih strana. Sahranjen je u Koporinu, a kasnije ga je Srpska crkva proslavila kao Svetog despota Stefana. Sve što je sagradio — Manasija, beogradske bedeme, Resavska škola, krug učenika i pisara — nadživelo je i njega i despotovinu koja će za nešto više od tri decenije pasti pod Osmanlije. Ostalo je nešto teže za rušenje od kamena: predstava da je Srbija, u najtežem trenutku svoje istorije, imala vladara koji je istovremeno bio i vitez i pisac."
+        "text": "Umro je 19. jula 1427. godine, naglo, od moždanog udara, dok je bio u lovu blizu Glave kod rudničkih strana. Sahranjen je u svojoj zadužbini Manasiji (starija pretpostavka govorila je o Koporinu), a kasnije ga je Srpska crkva proslavila kao Svetog despota Stefana. Sve što je sagradio — Manasija, beogradske bedeme, Resavska škola, krug učenika i pisara — nadživelo je i njega i despotovinu koja će za nešto više od tri decenije pasti pod Osmanlije. Ostalo je nešto teže za rušenje od kamena: predstava da je Srbija, u najtežem trenutku svoje istorije, imala vladara koji je istovremeno bio i vitez i pisac."
       }
     ],
     "subtitle": "Ratnik koji je primljen u Red Zmaja, pisac „Slova ljubve” i pokrovitelj Manasije i Resavske škole",
@@ -7090,7 +7090,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "content": [
       {
         "type": "paragraph",
-        "text": "Postoji jedan paradoks koji često zbuni one koji prvi put čitaju o srpskoj Despotovini. Vreme u kome je država živela pod sve težom osmanskom senkom, vreme koje će se završiti padom 1459. godine, bilo je istovremeno — gledano čisto materijalno — najbogatiji period pozne srednjovekovne srpske istorije. Rudnici su radili punim kapacitetom, gradovi su rasli, dubrovački trgovci punili su gostionice u rudarskim varošima, a despotova blagajna primala je tolike prihode da je mogla istovremeno da gradi Manasiju, utvrđuje Beograd i Smederevo, izdržava stalnu vojsku i šalje mlade ljude na strane univerzitete. Procvat i propast išli su uporedo.",
+        "text": "Postoji jedan paradoks koji često zbuni one koji prvi put čitaju o srpskoj Despotovini. Vreme u kome je država živela pod sve težom osmanskom senkom, vreme koje će se završiti padom 1459. godine, bilo je istovremeno — gledano čisto materijalno — najbogatiji period pozne srednjovekovne srpske istorije. Rudnici su radili punim kapacitetom, gradovi su rasli, dubrovački trgovci punili su gostionice u rudarskim varošima, a despotova blagajna primala je tolike prihode da je mogla istovremeno da gradi Manasiju, utvrđuje Beograd i Smederevo, izdržava stalnu vojsku i daruje atoske manastire. Procvat i propast išli su uporedo.",
         "dropcap": true
       },
       {
@@ -7112,7 +7112,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Despotova blagajna od svega toga uzimala je svoj deo. Carine na trgovinu, posebno na dubrovačku, bile su jedan od najbogatijih prihoda; uz njih su išle dažbine sa rudnika, takozvani urbur, koji je državi pripadao kao gospodaru zemljišta i rude. Prihodi su bili dovoljni za stvari koje srpska država ranije nije sebi mogla da priušti u takvom obimu. Iz tih sredstava plaćana je nova prestonica u Smederevu posle 1430. godine, podizan je manastir Manasija sa svojim moćnim zidovima, izdržavana je stalna vojska na koju se vladar mogao osloniti i bez pozivanja vlastele, slati su darovi atoskim manastirima i, što je možda i najlepši pojedinačni potez, plaćane su školarine odabranim mladićima koje je despot Stefan slao na studije u Italiju i Ugarsku."
+        "text": "Despotova blagajna od svega toga uzimala je svoj deo. Carine na trgovinu, posebno na dubrovačku, bile su jedan od najbogatijih prihoda; uz njih su išle dažbine sa rudnika, takozvani urbur, koji je državi pripadao kao gospodaru zemljišta i rude. Prihodi su bili dovoljni za stvari koje srpska država ranije nije sebi mogla da priušti u takvom obimu. Iz tih sredstava plaćana je nova prestonica u Smederevu od 1428. godine, podizan je manastir Manasija sa svojim moćnim zidovima, izdržavana je stalna vojska na koju se vladar mogao osloniti i bez pozivanja vlastele, i slati su darovi atoskim manastirima."
       },
       {
         "type": "paragraph",
@@ -7141,7 +7141,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "content": [
       {
         "type": "paragraph",
-        "text": "Kada je 19. jula 1427. godine despot Stefan Lazarević, u lovu negde u oblasti Glave Šumadijske, iznenada pao i ubrzo umro — verovatno od moždanog udara — pitanje nasledstva u srpskoj državi bilo je već unapred rešeno. Stefan nije imao dece, a od više godina ranije za naslednika je određen njegov sinovac Đurađ Branković, sin Stefanove sestre Mare i kosovskog gospodara Vuka Brankovića. Prenos vlasti odigrao se brzo i bez građanskog rata, ali sa teretom koji je novi despot morao da preuzme istog časa. Srbija je tog leta bila bogatija nego ikada u poslednjih pola veka — i istovremeno opasnije izložena nego što je bila dok je Stefan još bio živ.",
+        "text": "Kada je 19. jula 1427. godine despot Stefan Lazarević, u lovu negde u oblasti Glave Šumadijske, iznenada pao i ubrzo umro — verovatno od moždanog udara — pitanje nasledstva u srpskoj državi bilo je već unapred rešeno. Stefan nije imao dece, a od više godina ranije za naslednika je određen njegov sestrić Đurađ Branković, sin Stefanove sestre Mare i kosovskog gospodara Vuka Brankovića. Prenos vlasti odigrao se brzo i bez građanskog rata, ali sa teretom koji je novi despot morao da preuzme istog časa. Srbija je tog leta bila bogatija nego ikada u poslednjih pola veka — i istovremeno opasnije izložena nego što je bila dok je Stefan još bio živ.",
         "dropcap": true
       },
       {
@@ -7150,11 +7150,11 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "U tom svetu Đurađ je odrastao kao čovek koji je naučio da računa pre nego da naređuje. Posle smrti starije braće postao je glava Brankovića, ali ne kao samostalan vladar, već kao oblasni gospodar koji je svoj položaj morao iznova da gradi u svakom novom obrtu sila. U jednom periodu bio je osmanski vazal i vodio je odrede na sultanovoj strani; bio je i ugarski saveznik kada se to isplatilo; boravio je i u Vizantiji kao gost cara. Iz tih godina ostao mu je trajan utisak da nijedan saveznik nije pouzdan duže od jedne odluke, i da država preživljava samo ako vladar istovremeno drži otvorena vrata na više strana."
+        "text": "U tom svetu Đurađ je odrastao kao čovek koji je naučio da računa pre nego da naređuje. Posle smrti braće Grgura i Lazara postao je glava Brankovića, ali ne kao samostalan vladar, već kao oblasni gospodar koji je svoj položaj morao iznova da gradi u svakom novom obrtu sila. U jednom periodu bio je osmanski vazal i vodio je odrede na sultanovoj strani; bio je i ugarski saveznik kada se to isplatilo; boravio je i u Vizantiji kao gost cara. Iz tih godina ostao mu je trajan utisak da nijedan saveznik nije pouzdan duže od jedne odluke, i da država preživljava samo ako vladar istovremeno drži otvorena vrata na više strana."
       },
       {
         "type": "paragraph",
-        "text": "Pomirenje sa Lazarevićima bilo je dug proces, ali do dvadesetih godina petnaestog veka Đurađ je bio na dvoru svog ujaka Stefana kao priznati naslednik. Stefan, koji sam nije imao sina, video je u njemu poslednjeg ozbiljnog izdanka i Nemanjićkog i Lazarevićkog kruga preko ženskih linija, a od Brankovića onog koji je već imao iskustva sa svim važnim susedima. Na saboru u Srebrenici 1426. godine, prema kasnijem svedočenju, taj izbor je svečano potvrđen pred vlastelom. Kada je leto 1427. donelo smrt despotovu, vlastela se ubrzo okupila na zboru i Đurđa proglasila despotom. Tu titulu kasnije će formalno potvrditi i vizantijski car, što je u srednjovekovnom poretku bio izvor njene pravne težine."
+        "text": "Pomirenje sa Lazarevićima bilo je dug proces, ali do dvadesetih godina petnaestog veka Đurađ je bio na dvoru svog ujaka Stefana kao priznati naslednik. Stefan, koji sam nije imao sina, video je u njemu poslednjeg ozbiljnog izdanka i Nemanjićkog i Lazarevićkog kruga preko ženskih linija, a od Brankovića onog koji je već imao iskustva sa svim važnim susedima. Na jednom saboru 1426. godine, prema kasnijem svedočenju, taj izbor je svečano potvrđen pred vlastelom. Kada je leto 1427. donelo smrt despotovu, vlastela se ubrzo okupila na zboru i Đurđa priznala za gospodara. Despotsku titulu dodeliće mu 1429. vizantijski car Jovan VIII, što je u srednjovekovnom poretku bio izvor njene pravne težine."
       },
       {
         "type": "heading",
@@ -7163,7 +7163,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Smirena promena na prestolu odmah je naišla na prvi udarac. Ugarski kralj Sigismund Luksemburški poslao je glasnike sa jasnim zahtevom: Beograd i oblast Mačve, koje je Stefanu lično ustupio dve decenije ranije, nisu deo naslednog poseda Lazarevića, već ugarska kruna data jednom čoveku doživotno. Sa Stefanovom smrću taj posed se vraća kralju. Đurađ je morao da se povinuje. Beograd, ojačan i izgrađen kao prestonica i ekonomsko središte, prešao je u ugarske ruke; novi despot dobio je u zamenu izvesne ustupke u severnoj Mačvi, ali ne i grad koji bi mogao da bude novo središte. Tako je nova despotovina, već u prvoj godini, ostala bez glavnog grada."
+        "text": "Smirena promena na prestolu odmah je naišla na prvi udarac. Ugarski kralj Sigismund Luksemburški poslao je glasnike sa jasnim zahtevom: Beograd i oblast Mačve, koje je Stefanu lično ustupio dve decenije ranije, nisu deo naslednog poseda Lazarevića, već ugarska kruna data jednom čoveku doživotno. Sa Stefanovom smrću taj posed se vraća kralju. Đurađ je morao da se povinuje. Beograd, ojačan i izgrađen kao prestonica i ekonomsko središte, prešao je u ugarske ruke; novi despot zadržao je južni i zapadni deo Mačve i dobio posede u Ugarskoj, ali ne i grad koji bi mogao da bude novo središte. Tako je nova despotovina, već u prvoj godini, ostala bez glavnog grada."
       },
       {
         "type": "paragraph",
@@ -7178,7 +7178,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
         "text": "Tako je u leto 1427. počela vladavina koja će trajati skoro tri decenije, do 1456. godine. Bila je to vladavina u kojoj će se nova prestonica Smederevo dva puta dizati i dva puta padati, u kojoj će se srpski despot kretati između Budima i Edirna kao između dve vatre, i u kojoj će svaki potez morati biti odmeren i unapred plaćen. Đurađ Branković preuzeo je državu koja je bila bogata srebrom Novog Brda i Srebrenice, ali bez velikog grada na severu i bez sigurnog saveznika u zaleđu. Sve što će u narednim godinama pokušati — gradnja Smedereva, balansiranje između Ugarske i Osmanlija, krstaški pohodi četrdesetih godina, dvostruki pad i privremeni povratak — započelo je tog jula, mirnim, gotovo tihim preuzimanjem prestola koji je već u prvi mah morao da plati prvi račun."
       }
     ],
-    "subtitle": "Posle smrti Stefana Lazarevića 1427. godine, despotsku stolicu nasleđuje sinovac Đurađ — i odmah gubi Beograd",
+    "subtitle": "Posle smrti Stefana Lazarevića 1427. godine, despotsku stolicu nasleđuje sestrić Đurađ — i odmah gubi Beograd",
     "dateLabel": "1427.",
     "timelinePosition": "1427.",
     "summary": "Smrću Stefana Lazarevića 19. jula 1427. despotska vlast prelazi na Đurđa Brankovića. Nasleđe je dvostruko: bogata, ali ranjiva država i obaveza da se Beograd preda ugarskom kralju.",
@@ -7202,7 +7202,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "content": [
       {
         "type": "paragraph",
-        "text": "Kada je 1427. godine, po nasleđu od Stefana Lazarevića, Beograd vraćen ugarskoj kruni, despot Đurađ Branković našao se u neobičnom položaju: imao je državu, vojsku, dvor i čin, ali više nije imao prestonicu. Beograd, koji je dve decenije bio središte despotovine, sada je bio tuđ grad. Trebalo je naći novo mesto — i to brzo. Izbor je pao na Smederevo, malu varoš na južnoj obali Dunava, oko pedeset kilometara nizvodno od Beograda, tamo gde se rečica Jezava uliva u veliku reku. Taj izbor će, za nešto više od dve godine, izneti na svet jednu od najvećih tvrđava srednjovekovne jugoistočne Evrope.",
+        "text": "Kada je 1427. godine, po nasleđu od Stefana Lazarevića, Beograd vraćen ugarskoj kruni, despot Đurađ Branković našao se u neobičnom položaju: imao je državu, vojsku, dvor i čin, ali više nije imao prestonicu. Beograd, koji je dve decenije bio središte despotovine, sada je bio tuđ grad. Trebalo je naći novo mesto — i to brzo. Izbor je pao na Smederevo, malu varoš na južnoj obali Dunava, oko pedeset kilometara nizvodno od Beograda, tamo gde se rečica Jezava uliva u veliku reku. Taj izbor će, za nešto više od dve godine, izneti na svet Mali grad, jezgro jedne od najvećih tvrđava srednjovekovne jugoistočne Evrope.",
         "dropcap": true
       },
       {
@@ -7211,7 +7211,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Gradnja je počela 1428. godine, a glavni deo tvrđave bio je gotov već oko 1430. Tempo je bio izvanredan, gotovo nepojmljiv za srednjovekovni standard. Smederevska tvrđava je u osnovi trougao, sa stranicama od po nekoliko stotina metara, sa dvadeset pet kula i sa zidovima koji na pojedinim mestima dostižu visinu od oko dvadeset pet metara. Unutar tog spoljnog pojasa odvajao se manji deo — Mali grad, despotov utvrđeni dvor u severnom uglu, uz samu obalu Dunava. U Malom gradu bile su palate, riznica, vladarski stanovi i posebno utvrđeni donžon, glavna kula koja je u krajnjoj nuždi mogla služiti kao poslednje uporište. Ostatak prostora bio je Veliki grad — širi pojas zidina koji je obuhvatao gradsku četvrt, vojničke barake, magacine i prostor za stanovništvo u vreme opsade."
+        "text": "Gradnja je počela 1428. godine, a Mali grad, despotov dvor, bio je gotov već oko 1430; bedemi Velikog grada dovršeni su do 1439. Tempo je bio izvanredan, gotovo nepojmljiv za srednjovekovni standard. Smederevska tvrđava je u osnovi trougao, sa stranicama od po nekoliko stotina metara i sa ukupno dvadeset pet kula visokih i do dvadesetak metara. Unutar tog spoljnog pojasa odvajao se manji deo — Mali grad, despotov utvrđeni dvor u severnom uglu, uz samu obalu Dunava. U Malom gradu bile su palate, riznica, vladarski stanovi i posebno utvrđeni donžon, glavna kula koja je u krajnjoj nuždi mogla služiti kao poslednje uporište. Ostatak prostora bio je Veliki grad — širi pojas zidina koji je obuhvatao gradsku četvrt, vojničke barake, magacine i prostor za stanovništvo u vreme opsade."
       },
       {
         "type": "paragraph",
@@ -7224,7 +7224,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Cena tog tempa platila se ljudskim rukama. Da bi se za dve godine podigli kilometri zidina visokih kao zgrada od osam spratova, bilo je potrebno mnogo radnika, dugih radnih dana i čvrste organizacije. Narodno pamćenje sve to je vezalo za jednu ličnost — despotovu ženu Jerinu, koja je u epskim pesmama postala „prokleta Jerina”, strašna gospodarica koja tera narod na kuluk i zida grad od ljudskih kostiju. Istoričari na to gledaju trezvenije. Jerina je bila stvarna ličnost, vizantijska princeza, despotova saputnica i savetnica; u gradnji je bez sumnje učestvovala. Da je rad bio prinudan i naporan, to je verovatno tačno — projekat takvih razmera u tom vremenu drugačije nije bio moguć. Ali slika okrutne gospodarice koja sama izmišlja muke jeste pretežno legenda; krivica za teret gradnje pala je na nju i zato što je bila stranac, žena na vlasti i lak cilj kasnijih pevača."
+        "text": "Cena tog tempa platila se ljudskim rukama. Da bi se za dve godine podigle zidine Malog grada, a zatim i kule visoke kao zgrada od šest-sedam spratova, bilo je potrebno mnogo radnika, dugih radnih dana i čvrste organizacije. Narodno pamćenje sve to je vezalo za jednu ličnost — despotovu ženu Jerinu, koja je u epskim pesmama postala „prokleta Jerina”, strašna gospodarica koja tera narod na kuluk i zida grad od ljudskih kostiju. Istoričari na to gledaju trezvenije. Jerina je bila stvarna ličnost, vizantijska princeza, despotova saputnica i savetnica; u gradnji je bez sumnje učestvovala. Da je rad bio prinudan i naporan, to je verovatno tačno — projekat takvih razmera u tom vremenu drugačije nije bio moguć. Ali slika okrutne gospodarice koja sama izmišlja muke jeste pretežno legenda; krivica za teret gradnje pala je na nju i zato što je bila stranac, žena na vlasti i lak cilj kasnijih pevača."
       },
       {
         "type": "paragraph",
@@ -7236,13 +7236,13 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Smederevo treba gledati i šire od kamena i opeke. Time što je za dve godine podigao novu prestonicu, despot Đurađ kupio je svojoj državi još skoro tri decenije postojanja. Bez tog uporišta, bez riznice i dvora na sigurnom, despotovina se posle 1427. teško mogla održati pred sve jačim osmanskim pritiskom. Brzina gradnje, koja je narodu donela teret i nadahnula legendu o prokletoj Jerini, dala je istovremeno onu materijalnu osnovu na kojoj je srpska država dočekala i poslednja desetljeća svoje srednjovekovne istorije."
+        "text": "Smederevo treba gledati i šire od kamena i opeke. Time što je za dve godine podigao dvor nove prestonice, despot Đurađ kupio je svojoj državi još skoro tri decenije postojanja. Bez tog uporišta, bez riznice i dvora na sigurnom, despotovina se posle 1427. teško mogla održati pred sve jačim osmanskim pritiskom. Brzina gradnje, koja je narodu donela teret i nadahnula legendu o prokletoj Jerini, dala je istovremeno onu materijalnu osnovu na kojoj je srpska država dočekala i poslednja desetljeća svoje srednjovekovne istorije."
       }
     ],
-    "subtitle": "Kako je despot Đurađ Branković za samo dve godine podigao novu prestonicu na ušću Jezave u Dunav",
+    "subtitle": "Kako je despot Đurađ Branković za samo dve godine podigao dvor nove prestonice na ušću Jezave u Dunav",
     "dateLabel": "1428–1430.",
     "timelinePosition": "1428–1430.",
-    "summary": "Posle predaje Beograda Ugarskoj 1427, despot Đurađ Branković izabrao je Smederevo za novu prestonicu i za nešto više od dve godine podigao jednu od najvećih tvrđava srednjovekovne jugoistočne Evrope.",
+    "summary": "Posle predaje Beograda Ugarskoj 1427, despot Đurađ Branković izabrao je Smederevo za novu prestonicu i za nešto više od dve godine podigao Mali grad, jezgro jedne od najvećih tvrđava srednjovekovne jugoistočne Evrope.",
     "keyPeople": [
       "Đurađ Branković",
       "Jerina Kantakuzina"
@@ -7263,7 +7263,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Osnova grada bila je strog trougao. Dve njegove duže strane pratile su tokove Dunava i Jezave, a treća, južna, gledala je u kopno; svaka je bila duga oko pet stotina pedeset metara, a unutar zidina je sklopljeno blizu jedanaest i po hektara prostora. Po tom obimu Smederevo se već u trenutku gradnje svrstavalo među najveće utvrđene komplekse svog vremena, uporedo sa najznačajnijim evropskim tvrđavama kasnog srednjeg veka. Trougao je iznutra bio podeljen na dve nejednake celine, čime je dobijena jasna razlika između vladarskog srca grada i njegovog vojnog i gradskog tela."
+        "text": "Osnova grada bila je strog trougao. Dve njegove strane pratile su tokove Dunava i Jezave, a treća, južna, gledala je u kopno; strana uz Dunav duga je oko pet stotina pedeset metara, uz Jezavu oko četiri stotine, a kopnena oko pet stotina, a unutar zidina je sklopljeno nešto više od jedanaest hektara prostora. Po tom obimu Smederevo se već u trenutku gradnje svrstavalo među najveće utvrđene komplekse svog vremena, uporedo sa najznačajnijim evropskim tvrđavama kasnog srednjeg veka. Trougao je iznutra bio podeljen na dve nejednake celine, čime je dobijena jasna razlika između vladarskog srca grada i njegovog vojnog i gradskog tela."
       },
       {
         "type": "paragraph",
@@ -7276,15 +7276,15 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       {
         "type": "heading",
         "level": 2,
-        "text": "Zidovi, kule i natpis na donžonu"
+        "text": "Zidovi, kule i natpis u Malom gradu"
       },
       {
         "type": "paragraph",
-        "text": "Bedeme je nosilo oko dvadeset pet kula, raspoređenih duž svih triju strana trougla. Visina zidova dostizala je i do dvadeset pet metara, debljina u podnožju bila je dva do tri metra, a glavni materijal bio je lomljeni i tesani kamen, prošaran horizontalnim pojasevima crvene opeke u vizantijskom maniru — postupkom koji nije samo ukrašavao zid, nego mu je davao i veću čvrstinu i pomagao u izravnavanju redova prilikom gradnje. Sa spoljne strane zidove je dodatno štitio dubok šanac, koji se kod Velikog grada mogao po potrebi puniti vodom iz Jezave. Među svim kulama posebno se izdvajao donžon Malog grada, glavna kula citadele, viša i jača od ostalih, zamišljena kao poslednje uporište odbrane i kao simbol vladarske moći."
+        "text": "Bedeme je nosilo oko dvadeset pet kula, raspoređenih duž svih triju strana trougla. Kule su dostizale visinu od dvadesetak metara, zidovi su bili debeli dva i više metara, prema kopnu i do četiri i po, a glavni materijal bio je lomljeni i tesani kamen, prošaran horizontalnim pojasevima crvene opeke u vizantijskom maniru — postupkom koji nije samo ukrašavao zid, nego mu je davao i veću čvrstinu i pomagao u izravnavanju redova prilikom gradnje. Sa spoljne strane zidove je dodatno štitio dubok šanac, koji se kod Velikog grada mogao po potrebi puniti vodom iz Jezave. Među svim kulama posebno se izdvajao donžon Malog grada, glavna kula citadele, viša i jača od ostalih, zamišljena kao poslednje uporište odbrane i kao simbol vladarske moći."
       },
       {
         "type": "paragraph",
-        "text": "Na zidu donžona, ugrađen u samu opeku, sačuvan je slavni natpis na slovenskom jeziku koji imenuje despota Đurđa kao graditelja i navodi godinu podizanja. Najčešće se čita kao 1430, mada pojedini istraživači sporeći se oko pojedinih slova predlažu i nešto drugačija tumačenja; sigurno je da natpis pripada prvoj fazi gradnje i da pripisuje delo despotu lično. Reč je o jednom od najznačajnijih srednjovekovnih ktitorskih natpisa u srpskim zemljama uopšte — retkom svedočanstvu o tome ko, kada i s kojom namerom zida prestonicu. Narodno predanje će kasnije čitavu gradnju vezati za despotovu ženu Jerinu, ali tvrđava je delo države i despota, čije ime opeka i danas nosi."
+        "text": "U zidinama Malog grada, ugrađen u samu opeku, sačuvan je slavni natpis na slovenskom jeziku koji imenuje despota Đurđa kao graditelja i navodi godinu podizanja. Najčešće se čita kao 1430, mada pojedini istraživači sporeći se oko pojedinih slova predlažu i nešto drugačija tumačenja; sigurno je da natpis pripada prvoj fazi gradnje i da pripisuje delo despotu lično. Reč je o jednom od najznačajnijih srednjovekovnih ktitorskih natpisa u srpskim zemljama uopšte — retkom svedočanstvu o tome ko, kada i s kojom namerom zida prestonicu. Narodno predanje će kasnije čitavu gradnju vezati za despotovu ženu Jerinu, ali tvrđava je delo države i despota, čije ime opeka i danas nosi."
       },
       {
         "type": "paragraph",
@@ -7292,13 +7292,13 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Pod osmanskom vlašću Smederevo nije napušteno, naprotiv: ostalo je važno upravno središte sandžaka i granični garnizon, sa stalnom posadom kroz šesnaesti i sedamnaesti vek. Tek u kasnijim ratovima tvrđava će platiti tešku cenu. U Prvom svetskom ratu pretrpela je austrougarsko granatiranje, a najteži udarac doneo je juni 1941, kada je u tvrđavi eksplodirala nemačka municija uskladištena u njenim prostorijama; eksplozija je usmrtila više hiljada ljudi i razorila značajan deo zidova i kula. Sistematska obnova počinje od druge polovine dvadesetog veka i traje do danas. Smederevska tvrđava je u međuvremenu postala jedan od najvažnijih spomenika srednjovekovne arhitekture u Srbiji i kandidat za upis na Uneskovu listu svetske baštine — trougaoni svedok ambicije jedne države koja je, baš u trenutku kada je gubila zaleđe, podigla svoj najveći grad."
+        "text": "Pod osmanskom vlašću Smederevo nije napušteno, naprotiv: ostalo je važno upravno središte sandžaka i granični garnizon, sa stalnom posadom kroz šesnaesti i sedamnaesti vek. Tek u kasnijim ratovima tvrđava će platiti tešku cenu. U Prvom svetskom ratu pretrpela je austrougarsko granatiranje, a najteži udarac doneo je juni 1941, kada je u tvrđavi eksplodirala municija bivše jugoslovenske vojske koju su Nemci skladištili u tvrđavi; eksplozija je usmrtila više hiljada ljudi i razorila značajan deo zidova i kula. Sistematska obnova počinje od druge polovine dvadesetog veka i traje do danas. Smederevska tvrđava je u međuvremenu postala jedan od najvažnijih spomenika srednjovekovne arhitekture u Srbiji i kandidat za upis na Uneskovu listu svetske baštine — trougaoni svedok ambicije jedne države koja je, baš u trenutku kada je gubila zaleđe, podigla svoj najveći grad."
       }
     ],
     "subtitle": "Trougaoni grad na ušću Jezave u Dunav: prestonica despota Đurđa i jedna od najvećih tvrđava srednjovekovne Evrope",
     "dateLabel": "1428–1439.",
     "timelinePosition": "1428–1439.",
-    "summary": "Gradnja Smederevske tvrđave između 1428. i 1439. godine: trougaoni plan, Mali i Veliki grad, oko dvadeset pet kula, slovenski natpis na donžonu i sudbina grada od pada 1439. do današnjeg dana.",
+    "summary": "Gradnja Smederevske tvrđave između 1428. i 1439. godine: trougaoni plan, Mali i Veliki grad, oko dvadeset pet kula, slovenski natpis u Malom gradu i sudbina grada od pada 1439. do današnjeg dana.",
     "keyPeople": [
       "Đurađ Branković",
       "Jerina Branković"
@@ -7338,15 +7338,15 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Njegov izlaz iz tog protivrečja bio je oprezno klimanje na osmansku stranu kad god je pretila trenutna opasnost, uz pažljivo održavanje hrišćanskih veza i mostova. Kada su 1443. godine vojske pod vođstvom erdeljskog vojvode Janoša Hunjadija krenule u takozvani Dugi pohod preko Balkana, Đurađ je pomogao koliko se moglo a da se ne provocira potpuni osmanski odgovor. Hrišćanski uspesi te zime bili su iznenađujući: osmanske posade su uzmicale, a Despotovina, koja je dotle bila prošla i kroz prvi pad Smedereva, dobila je trenutak predaha. Te 1444. godine, kao deo šireg mira, Murad II je vratio Despotovini srž njenih zemalja, a Đurađ se posle godina pregnanstva vratio u svoju prestonicu. Kratko, ali stvarno, izgledalo je da se kotač okreće."
+        "text": "Njegov izlaz iz tog protivrečja bio je oprezno klimanje na osmansku stranu kad god je pretila trenutna opasnost, uz pažljivo održavanje hrišćanskih veza i mostova. Kada su 1443. godine vojske pod vođstvom erdeljskog vojvode Janoša Hunjadija krenule u takozvani Dugi pohod preko Balkana, Đurađ je u pohodu učestvovao sa svojim odredima, oko osam hiljada ljudi. Hrišćanski uspesi te zime bili su iznenađujući: osmanske posade su uzmicale, a Despotovina, koja je dotle bila prošla i kroz prvi pad Smedereva, dobila je trenutak predaha. Te 1444. godine, kao deo šireg mira, Murad II je vratio Despotovini srž njenih zemalja, a Đurađ se posle godina izgnanstva vratio u svoju prestonicu. Kratko, ali stvarno, izgledalo je da se kotač okreće."
       },
       {
         "type": "paragraph",
-        "text": "Iste te jeseni krenuo je krstaški pohod do Varne. Đurađ je tom poduhvatu ostao po strani: smatrao je da je rat protiv već postignutog mira besmislen, a možda je verovao i da neće uspeti. Bitka kod Varne 10. novembra 1444. završila se hrišćanskim porazom u kojem je poginuo i mladi kralj Vladislav. Sve što je krstaški talas obećavao otišlo je u dim. Đurađ je razumeo poruku tog dana — da hrišćanska Evropa ne može Osmanlijama vratiti ono što im je već uzela — i u narednim godinama je još više zategao osmansku vezicu. Hunjadi mu nikada nije oprostio neutralnost; sukob između despota i ugarskog vojvode prerastao je 1448., posle Hunjadijevog drugog poraza na Kosovu polju, u kratko zatočeništvo Đurđa u Smederevu. Pomirili su se kasnije, kao što su se morali pomiriti, ali poverenja više nije bilo."
+        "text": "Iste te jeseni krenuo je krstaški pohod do Varne. Đurađ je tom poduhvatu ostao po strani: smatrao je da je rat protiv već postignutog mira besmislen, a možda je verovao i da neće uspeti. Bitka kod Varne 10. novembra 1444. završila se hrišćanskim porazom u kojem je poginuo i mladi kralj Vladislav. Sve što je krstaški talas obećavao otišlo je u dim. Đurađ je razumeo poruku tog dana — da hrišćanska Evropa ne može Osmanlijama vratiti ono što im je već uzela — i u narednim godinama je još više zategao osmansku vezicu. Hunjadi mu nikada nije oprostio neutralnost; sukob između despota i ugarskog vojvode prerastao je 1448., posle Hunjadijevog poraza na Kosovu polju, u kratko zatočeništvo Hunjadija, koga je Đurađ držao u Smederevu. Pomirili su se kasnije, kao što su se morali pomiriti, ali poverenja više nije bilo."
       },
       {
         "type": "paragraph",
-        "text": "Iz svega ovoga izlazi slika koja nije laskava ali jeste tačna. Đurađ Branković nije bio osvajač, ni veliki vojskovođa, ni vladar slave. Bio je čovek koji je svoju državu, stisnutu između dva carstva, držao u životu pažljivim mehanizmom danka, braka, povremene saradnje i povremenog otpora. Tri puta je u tom rasponu gledao Smederevo iz daljine — kao izgnanik, kao zatočenik, kao oprezni povratnik. Kada je 1456. godine umro, Despotovina je bila iscrpljena, ali još uvek živa. Tri godine kasnije, bez njegove strpljive ruke, srušila se. Ovo je, pošteno rečeno, priča o opstanku bez pobede — o vladaru koji je iz nemoguće situacije izvukao dvadeset devet godina, i o ceni koju je za to morao da plati."
+        "text": "Iz svega ovoga izlazi slika koja nije laskava ali jeste tačna. Đurađ Branković nije bio osvajač, ni veliki vojskovođa, ni vladar slave. Bio je čovek koji je svoju državu, stisnutu između dva carstva, držao u životu pažljivim mehanizmom danka, braka, povremene saradnje i povremenog otpora. Tri puta je u tom rasponu gledao Smederevo iz daljine — kao izgnanik, kao molilac na tuđim dvorovima, kao oprezni povratnik. Kada je 1456. godine umro, Despotovina je bila iscrpljena, ali još uvek živa. Tri godine kasnije, bez njegove strpljive ruke, srušila se. Ovo je, pošteno rečeno, priča o opstanku bez pobede — o vladaru koji je iz nemoguće situacije izvukao dvadeset devet godina, i o ceni koju je za to morao da plati."
       }
     ],
     "subtitle": "Đurađ Branković i njegovih dvadeset devet godina strpljive ravnoteže između Osmanlija i Ugarske",
@@ -7389,21 +7389,21 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Opsada je trajala oko tri meseca. U gradu se postepeno trošila hrana, pojavile su se bolesti, a izvesnost da pomoć neće stići rasla je iz nedelje u nedelju. Ugarska je tek bila ušla u sopstvenu krizu posle smrti kralja Alberta, a despotovi pokušaji da iz Sirmijuma organizuje deblokadu nisu urodili plodom. Krajem leta 1439. branioci su shvatili da dalji otpor više nema smisla. Pregovori sa sultanovim ljudima vođeni su nekoliko dana, a 18. avgusta 1439. Grgur je predao Smederevo. Osmanska vojska je ušla u tvrđavu bez razaranja — Murat II je grad video kao svoju buduću graničnu utvrdu, a ne kao mesto za rušenje."
+        "text": "Opsada je trajala oko tri meseca. U gradu se postepeno trošila hrana, pojavile su se bolesti, a izvesnost da pomoć neće stići rasla je iz nedelje u nedelju. Kralj Albert je doduše krenuo s vojskom, ali je ona, zahvaćena dizenterijom, zastala kod Titela, a despotovi pokušaji da iz Sirmijuma organizuje deblokadu nisu urodili plodom. Krajem leta 1439. branioci su shvatili da dalji otpor više nema smisla. Pregovori sa sultanovim ljudima vođeni su nekoliko dana, a 18. avgusta 1439. Grgur je predao Smederevo. Osmanska vojska je ušla u tvrđavu bez razaranja — Murat II je grad video kao svoju buduću graničnu utvrdu, a ne kao mesto za rušenje."
       },
       {
         "type": "paragraph",
-        "text": "Sultan je sa Grgurom i njegovim mlađim bratom Stefanom, koji se takođe našao u njegovim rukama, postupio kako je bila praksa osmanskog dvora: odveo ih je sa sobom, držao u časnom zatočeništvu i pokušavao da ih iskoristi kao političke karte. Najmlađi despotov sin, Lazar, ostao je uz oca u Ugarskoj. Dve godine kasnije, 1441, kada je Murat posumnjao da bi braća mogla biti iskorišćena u nekoj zaveri ili da bi se preko njih mogao podići novi srpski pretendent, naredio je da Grgur i Stefan budu oslepljeni. Bio je to surov, ali u osmanskoj i vizantijskoj praksi poznat način političkog isključenja — slep čovek nije mogao biti vladar. Za despota Đurađa, koji je vest primio u izgnanstvu, to je bio jedan od najtežih ličnih udaraca života."
+        "text": "Grgura je sultan postavio da upravlja delom osvojene zemlje, pod budnim okom; njegov mlađi brat Stefan, koji se takođe našao u sultanovim rukama, ostao je kod Osmanlija kao politička karta. Najmlađi despotov sin, Lazar, ostao je uz oca. Dve godine kasnije, 1441, kada su braća optužena za tajne veze s ocem, Murat je naredio da Grgur i Stefan budu oslepljeni. Bio je to surov, ali u osmanskoj i vizantijskoj praksi poznat način političkog isključenja — slep čovek nije mogao biti vladar. Za despota Đurađa, koji je vest primio u izgnanstvu, to je bio jedan od najtežih ličnih udaraca života."
       },
       {
         "type": "paragraph",
-        "text": "Posle pada Smedereva pala je, polako, i većina ostalih utvrđenja. Novo Brdo se branilo izuzetno tvrdoglavo i zadržalo se duže od mnogih drugih, ali su rudničke tvrđave jedna po jedna padale ili pristajale na osmansku upravu. Najveći deo despotovine pretvoren je u osmanske sandžake; rudnici su nastavili da rade, ali su prihod i nadzor sada išli sultanu. Srpska crkva je preživela, sa ograničenjima koja su važila u svim osvojenim oblastima. Despot Đurađ ostao je u Ugarskoj, sa Lazarom uz sebe i sa praznom titulom u rukama, ali ne i bez nade. Već 1443. nove krstaške vojske pod Janošem Hunjadijem zatresle su balkanski poredak — i otvorile, makar privremeno, vrata za povratak. O tome je sledeća priča."
+        "text": "Posle pada Smedereva pala je, polako, i većina ostalih utvrđenja. Novo Brdo se branilo izuzetno tvrdoglavo i zadržalo se duže od mnogih drugih, ali su rudničke tvrđave jedna po jedna padale ili pristajale na osmansku upravu. Najveći deo despotovine pretvoren je u osmanske sandžake; rudnici su nastavili da rade, ali su prihod i nadzor sada išli sultanu. Srpska crkva je preživela, sa ograničenjima koja su važila u svim osvojenim oblastima. Despot Đurađ lutao je između Ugarske, Zete i Dubrovnika, sa Lazarom uz sebe i sa praznom titulom u rukama, ali ne i bez nade. Već 1443. nove krstaške vojske pod Janošem Hunjadijem zatresle su balkanski poredak — i otvorile, makar privremeno, vrata za povratak. O tome je sledeća priča."
       }
     ],
     "subtitle": "Posle kratkog primirja Murat II je 1439. opseo i osvojio Smederevo — prvi veliki slom despotovine",
     "dateLabel": "1439.",
     "timelinePosition": "1439.",
-    "summary": "Murat II 1439. lično opseda Smederevo; despot Đurađ beži u Ugarsku, tvrđava pada 18. avgusta, a despotovi sinovi Grgur i Stefan kasnije će biti oslepljeni na sultanovom dvoru.",
+    "summary": "Murat II 1439. lično opseda Smederevo; despot Đurađ beži u Ugarsku, tvrđava pada 18. avgusta, a despotovi sinovi Grgur i Stefan kasnije će biti oslepljeni po sultanovom nalogu.",
     "keyPeople": [
       "Đurađ Branković",
       "Murad II",
@@ -7482,7 +7482,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Prve velike pobede stigle su 1442. godine. Najpre je u Transilvaniji odbio jedan osmanski upad, a zatim u istoj godini razbio i veću tursku vojsku koja je krenula u osvetu. Vest se brzo proširila Evropom i pripremila teren za pohod koji će u srpskoj istoriji ostati upamćen kao Duga vojna. Krajem 1443. godine Hunjadi je, zajedno sa kraljem Vladislavom i uz savezništvo despota Đurđa Brankovića, poveo vojsku dolinom Morave duboko na jug, tukao osmanske odrede po redu i prodro skoro do Sofije. Pohod je bio iscrpljujući i nije doneo trajno teritorijalno osvajanje, ali je sultana Murada II naterao za pregovarački sto. Mir sklopljen u Segedinu 1444. godine vratio je despotu Đurđu deo njegove zemlje i, na kratko, obnovio srpsku despotovinu."
+        "text": "Prve velike pobede stigle su 1442. godine. Najpre je u Transilvaniji odbio jedan osmanski upad, a zatim u istoj godini razbio i veću tursku vojsku koja je krenula u osvetu. Vest se brzo proširila Evropom i pripremila teren za pohod koji će u srpskoj istoriji ostati upamćen kao Duga vojna. Krajem 1443. godine Hunjadi je, zajedno sa kraljem Vladislavom i uz savezništvo despota Đurđa Brankovića, poveo vojsku dolinom Morave duboko na jug, tukao osmanske odrede po redu, zauzeo Niš i Sofiju i prodro do planinskih prolaza Balkana kod Zlatice. Pohod je bio iscrpljujući i nije doneo trajno teritorijalno osvajanje, ali je sultana Murada II naterao za pregovarački sto. Mir sklopljen u Segedinu 1444. godine vratio je despotu Đurđu deo njegove zemlje i, na kratko, obnovio srpsku despotovinu."
       },
       {
         "type": "paragraph",
@@ -7503,7 +7503,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Hunjadijev najveći trenutak došao je 1456. godine, ispod beogradskih bedema. Sultan Mehmed II, već osvajač Carigrada, lično je doveo vojsku da zauzme grad koji je čuvao ulaz u ugarsku ravnicu. Hunjadi je sa malom posadom, sastavljenom od najamnika i mase krstaša koje je oko sebe okupio franjevac Jovan Kapistran, uspeo da odbije osmanski juriš i nanese sultanu prvi veliki neuspeh posle 1453. godine. Pojedinosti te odbrane biće tema posebne lekcije. Sam Hunjadi nije dugo nadživeo svoju pobedu: nekoliko nedelja kasnije umro je od kuge koja je harala logorom. Vest o beogradskoj pobedi obišla je Evropu, a papa Kaliksto III odredio je da se svakog dana u podne zvona zvone u znak sećanja na taj dan — običaj koji u katoličkim krajevima traje i danas."
+        "text": "Hunjadijev najveći trenutak došao je 1456. godine, ispod beogradskih bedema. Sultan Mehmed II, već osvajač Carigrada, lično je doveo vojsku da zauzme grad koji je čuvao ulaz u ugarsku ravnicu. Hunjadi je sa malom posadom, sastavljenom od najamnika i mase krstaša koje je oko sebe okupio franjevac Jovan Kapistran, uspeo da odbije osmanski juriš i nanese sultanu prvi veliki neuspeh posle 1453. godine. Pojedinosti te odbrane biće tema posebne lekcije. Sam Hunjadi nije dugo nadživeo svoju pobedu: nekoliko nedelja kasnije umro je od kuge koja je harala logorom. Vest o beogradskoj pobedi obišla je Evropu. Papa Kalist III je još pre bitke naredio da podnevna zvona pozivaju na molitvu za branioce; posle pobede to se zvono ustalilo kao njen spomen — običaj koji u katoličkim krajevima traje i danas."
       },
       {
         "type": "paragraph",
@@ -7532,7 +7532,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "content": [
       {
         "type": "paragraph",
-        "text": "U proleće 1453. godine Vizantijsko carstvo bilo je sećanje na samo sebe. Od ogromne države koja je nekada držala obale od Britanije do Mesopotamije ostao je grad — Konstantinopolj sa nešto okolne zemlje, šačica gradova na Peloponezu i još poneka pravoslavna oblast. Sve drugo već je odavno bilo osmansko ili latinsko. Pa ipak, dok god su carske dveri u Carigradu stajale, istočnom hrišćanstvu se činilo da postoji neka tačka u kojoj se svet drži. Kada su 29. maja te godine te dveri pukle pod osmanskom vojskom, učinilo se da je sa njima pala i jedna celina vremena.",
+        "text": "U proleće 1453. godine Vizantijsko carstvo bilo je sećanje na samo sebe. Od ogromne države koja je nekada držala obale od Italije i Španije do Mesopotamije ostao je grad — Konstantinopolj sa nešto okolne zemlje, šačica gradova na Peloponezu i još poneka pravoslavna oblast. Sve drugo već je odavno bilo osmansko ili latinsko. Pa ipak, dok god su carske dveri u Carigradu stajale, istočnom hrišćanstvu se činilo da postoji neka tačka u kojoj se svet drži. Kada su 29. maja te godine te dveri pukle pod osmanskom vojskom, učinilo se da je sa njima pala i jedna celina vremena.",
         "dropcap": true
       },
       {
@@ -7541,7 +7541,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Najpoznatiji deo tih priprema bila je artiljerija. Mehmed je uspeo da pridobije ugarskog livca topova po imenu Urban, koji je svoje usluge prvo ponudio caru Konstantinu XI Paleologu. Vizantijska kasa, prazna i opterećena dugovima, nije mogla da plati njegovu cenu; sultanova jeste, i to bogato. Urban je za Mehmeda izlio nekoliko velikih bronzanih bombardi, među njima i džinovsku spravu kojoj su za vuču trebale stotine ljudi i desetine volova. Tačan domet i razorna moć tih topova ostaju predmet rasprave — neka stara svedočanstva preuveličavaju, neka moderna preispituju — ali da je prvi put u istoriji opsade jednog grada artiljerijska tutnjava trajala iz dana u dan, sigurno je."
+        "text": "Najpoznatiji deo tih priprema bila je artiljerija. Mehmed je uspeo da pridobije ugarskog livca topova po imenu Urban, koji je svoje usluge prvo ponudio caru Konstantinu XI Paleologu. Vizantijska kasa, prazna i opterećena dugovima, nije mogla da plati njegovu cenu; sultanova jeste, i to bogato. Urban je za Mehmeda izlio nekoliko velikih bronzanih bombardi, među njima i džinovsku spravu kojoj su za vuču trebale stotine ljudi i desetine volova. Tačan domet i razorna moć tih topova ostaju predmet rasprave — neka stara svedočanstva preuveličavaju, neka moderna preispituju — ali da je artiljerija ovde, kao retko kad pre toga, iz dana u dan rušila zidine, sigurno je."
       },
       {
         "type": "paragraph",
@@ -7549,7 +7549,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "U noći između 28. i 29. maja krenuo je opšti juriš. Branioci su odbili prve talase, ali su, posle nekoliko sati borbe, osmanske jedinice provalile kroz oštećeni deo zidina kod kapije Svetog Romana. Car Konstantin XI poginuo je u tom proboju, boreći se kao običan vojnik; o njegovoj smrti postoji više predanja, ali svi se slažu da nije pobegao. Kada je sunce izašlo iznad Bosfora, na zidinama je bila osmanska zastava. Carigrad — grad koji je za pravoslavni svet bio jednostavno Grad, sa velikim G — bio je pao. Po vojnom običaju vremena, Mehmed je vojsci dao tri dana pljačke, posle čega je lično ušao u Aja Sofiju i naredio da se uspostavi red. Grad je odmah počeo da se preuređuje u novu prestonicu osmanske države, pod imenom Istanbul, u zvaničnoj osmanskoj kancelariji još dugo zvanu i Konstantinije."
+        "text": "U noći između 28. i 29. maja krenuo je opšti juriš. Branioci su odbili prve talase, ali su, posle nekoliko sati borbe, osmanske jedinice provalile kroz oštećeni deo zidina kod kapije Svetog Romana. Car Konstantin XI poginuo je u tom proboju, boreći se kao običan vojnik; o njegovoj smrti postoji više predanja, ali svi se slažu da nije pobegao. Kada je sunce izašlo iznad Bosfora, na zidinama je bila osmanska zastava. Carigrad — grad koji je za pravoslavni svet bio jednostavno Grad, sa velikim G — bio je pao. Po vojnom običaju vremena, Mehmed je vojsci obećao tri dana pljačke, a sam je još istog dana, po podne, ujahao u grad, ušao u Aja Sofiju i naredio da se uspostavi red. Grad je odmah počeo da se preuređuje u novu prestonicu osmanske države, pod imenom Istanbul, u zvaničnoj osmanskoj kancelariji još dugo zvanu i Konstantinije."
       },
       {
         "type": "heading",
@@ -7600,7 +7600,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Beograd u to vreme nije bio srpski grad. Despot Đurađ Branković ga je još 1427. godine, prinuđen ugovorom sa Ugarskom, predao kralju Žigmundu kao deo cene za priznanje despotske titule. Otada je Beograd bio ugarska granična tvrđava — najjača na južnoj međi kraljevstva, sa posadom, topovima i dvostrukim sistemom zidina koji se spuštao od Gornjeg grada ka rekama. Za Mađare je bio najistureniji bedem hrišćanstva; za Mehmeda, poslednja brava pred otvorenim putem ka Budimu i dalje. Ako Beograd padne, padaju i Srem, i južna Ugarska, i, ko zna, možda i sam kraljevski Budim."
+        "text": "Beograd u to vreme nije bio srpski grad. Despot Đurađ Branković ga je još 1427. godine predao kralju Žigmundu, kako je predviđao ugovor koji je Stefan Lazarević sklopio 1426. u zamenu za ugarsko priznanje Đurđa za naslednika. Otada je Beograd bio ugarska granična tvrđava — najjača na južnoj međi kraljevstva, sa posadom, topovima i dvostrukim sistemom zidina koji se spuštao od Gornjeg grada ka rekama. Za Mađare je bio najistureniji bedem hrišćanstva; za Mehmeda, poslednja brava pred otvorenim putem ka Budimu i dalje. Ako Beograd padne, padaju i Srem, i južna Ugarska, i, ko zna, možda i sam kraljevski Budim."
       },
       {
         "type": "paragraph",
@@ -7629,7 +7629,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Posledice su bile ogromne, i kratkoročne i dugoročne. Osmansko napredovanje ka srednjoj Evropi bilo je zaustavljeno; Beograd nije pao tada, niti će pasti narednih šezdeset pet godina, sve do 1521. Kada je vest stigla u Rim, papa Kalist III, koji je još pre opsade odredio da se podnevna zvona zvone za pomoć braniocima, naredio je da se ta navika pretvori u trajno sećanje na pobedu — podnevno zvono u katoličkim crkvama, koje i danas zvoni, vuče poreklo iz beogradskog jula 1456. godine."
+        "text": "Posledice su bile ogromne, i kratkoročne i dugoročne. Osmansko napredovanje ka srednjoj Evropi bilo je zaustavljeno; Beograd nije pao tada, niti će pasti narednih šezdeset pet godina, sve do 1521. Kada je vest 6. avgusta stigla u Rim, papa Kalist III, koji je još pre opsade odredio da podnevna zvona pozivaju na molitvu za branioce, uveo je u spomen pobede praznik Preobraženja — a podnevno zvono u katoličkim crkvama, koje i danas zvoni, u tradiciji se takođe vezuje za beogradski jul 1456. godine."
       },
       {
         "type": "paragraph",
@@ -7656,7 +7656,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "content": [
       {
         "type": "paragraph",
-        "text": "Kada je 24. decembra 1456. godine u Smederevu izdahnuo despot Đurađ Branković, nije umro samo jedan vladar — umro je čovek koji je gotovo tri decenije, od 1427. naovamo, lično držao srpsku državu u životu. Bio je star, po svemu sudeći oko osamdeset godina, rođen još negde sredinom sedamdesetih godina četrnaestog veka. Iza sebe je imao ratove, izgnanstvo, povratak, oslepljenje dva sina, gubitak i ponovno dobijanje prestonice. Kraj je došao tiho, posle jedne sitne, gotovo slučajne rane — ali u trenutku kada Srbiji više niko ravan njemu nije ostao.",
+        "text": "Kada je 24. decembra 1456. godine u Smederevu izdahnuo despot Đurađ Branković, nije umro samo jedan vladar — umro je čovek koji je gotovo tri decenije, od 1427. naovamo, lično držao srpsku državu u životu. Bio je star, po svemu sudeći oko osamdeset godina, rođen još negde sredinom sedamdesetih godina četrnaestog veka. Iza sebe je imao ratove, izgnanstvo, povratak, oslepljenje dva sina, gubitak i ponovno dobijanje prestonice. Kraj je došao tiho, posle jedne rane koja nije morala biti smrtna — ali u trenutku kada Srbiji više niko ravan njemu nije ostao.",
         "dropcap": true
       },
       {
@@ -7665,11 +7665,11 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "U poslednjoj godini života zatekao se u nezgodnom položaju. U avgustu 1456. pod Beogradom je odbijena velika opsada Mehmeda II, ali je nedugo zatim, od kuge u logoru, umro Janoš Hunjadi — čovek koji je decenijama bio glavni hrišćanski branilac Podunavlja. Sa njegovom smrću u Ugarskoj je izbila otvorena borba za prevlast između porodice Hunjadi i njihovih protivnika, među kojima je bio i Ulrih Celjski, Đurđev zet. Despot, već oronuo, uplitao se u to nemirno raspleto stanje koliko je morao. Krajem te jeseni, u jednom manjem sukobu vezanom za ugarske dvorske razmirice posle Hunjadijeve smrti, Đurađ je bio lakše ranjen. Sama rana nije bila opasna; ali na čoveku od osamdeset godina nije htela da zaraste."
+        "text": "U poslednjoj godini života zatekao se u nezgodnom položaju. U julu 1456. pod Beogradom je odbijena velika opsada Mehmeda II, ali je nedugo zatim, 11. avgusta, od kuge u logoru, umro Janoš Hunjadi — čovek koji je decenijama bio glavni hrišćanski branilac Podunavlja. Sa njegovom smrću u Ugarskoj je izbila otvorena borba za prevlast između porodice Hunjadi i njihovih protivnika, među kojima je bio i Ulrih Celjski, Đurđev zet. Despot, već oronuo, uplitao se u to nemirno raspleto stanje koliko je morao. U napadu Mihaila Silađija, zapovednika Beograda, na despota u Kupinovu — koji se datuje u decembar 1455. ili 1456. — ostareli Đurađ je izgubio prste desne ruke. Sama rana nije morala biti smrtna; ali na čoveku od osamdeset godina nije htela da zaraste."
       },
       {
         "type": "paragraph",
-        "text": "Vratio se u Smederevo i tu mu se stanje pogoršavalo iz nedelje u nedelju. Na Badnje veče po starom kalendaru, 24. decembra 1456, despot je umro u svom gradu. Uz njega su, prema sačuvanim vestima, bili supruga Jerina i sinovi: Lazar, jedini koji je gledao oba oka, i dvojica oslepljenih — Stefan i Grgur. Sahranjen je u despotskoj grobnici; po jednom predanju u manastiru Krušedolu na Fruškoj gori, koji je kasnije postao zadužbina njegovih potomaka, po drugom u Mileševi. Tačno mesto njegovog prvobitnog groba ostaje predmet sporova i nije pouzdano utvrđeno; jasno je samo da je sahrana obavljena dostojanstveno i u skladu sa njegovim despotskim činom."
+        "text": "Vratio se u Smederevo i tu mu se stanje pogoršavalo iz nedelje u nedelju. Na Badnje veče po starom kalendaru, 24. decembra 1456, despot je umro u svom gradu. Sahranjen je, po starijim vestima, u crkvi u Krivoj Reci kod Despotovice, ali tačno mesto njegovog groba danas nije pouzdano utvrđeno; jasno je samo da je sahrana obavljena dostojanstveno i u skladu sa njegovim despotskim činom."
       },
       {
         "type": "heading",
@@ -7678,19 +7678,19 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Đurađ je iza sebe ostavio državu i porodicu koje su gotovo odmah ušle u krizu. Po njegovom oporučnom raspoređivanju, despotsku titulu i glavnu vlast trebalo je da preuzme najmlađi sin Lazar — jedini koji je zdravim očima mogao da gleda u poslove vlasti; oslepljenoj braći namenjeni su delovi prihoda i posedi, ali ne i prvenstvo. Despotica Jerina, dugogodišnja, često ozloglašena saputnica njegove politike, pokušala je da iz pozadine sačuva svoj uticaj. Oko prestola su se gotovo istog časa nazreli različiti pravci: jedan je gledao ka Ugarskoj i tražio savez sa Beogradom, drugi je preko despotove kćeri Mare, koja je u Adrijanopolju imala položaj sultanove udovice, tražio nagodbu sa Mehmedom II. Zemlja koja je trideset godina hodala po žici između dva gospodara, sada nije imala jednu ruku koja bi je vodila."
+        "text": "Đurađ je iza sebe ostavio državu i porodicu koje su gotovo odmah ušle u krizu. Po njegovom oporučnom raspoređivanju, despotsku titulu i glavnu vlast trebalo je da preuzme najmlađi sin Lazar — jedini koji je zdravim očima mogao da gleda u poslove vlasti; oslepljenoj braći namenjeni su delovi prihoda i posedi, ali ne i prvenstvo. Despotica Jerina, dugogodišnja, često ozloglašena saputnica njegove politike, pokušala je da iz pozadine sačuva svoj uticaj. Oko prestola su se gotovo istog časa nazreli različiti pravci: jedan je gledao ka Ugarskoj i tražio savez sa Beogradom, drugi je, predvođen despotovom kćeri Marom, sultanovom udovicom koja je posle 1451. živela na svojim posedima u Srbiji, tražio nagodbu sa Mehmedom II. Zemlja koja je trideset godina hodala po žici između dva gospodara, sada nije imala jednu ruku koja bi je vodila."
       },
       {
         "type": "paragraph",
-        "text": "Spoljni svet, ironično, ostao je još prazniji nego unutrašnji. U dvadeset četiri meseca između leta 1456. i jeseni 1458. iščezla je čitava jedna generacija hrišćanskih vođa koje su Osmanlijama stajale na putu: u avgustu 1456. Hunjadi, u decembru iste godine Đurađ, a 1458. i papa Kaliksto III, organizator poslednjih krstaških napora oko Beograda. Mehmedu II, mladom i ambicioznom, posle pada Carigrada 1453. nije ostao niko sličnog ranga sa kim bi morao da računa kao sa ravnim. U tom rasporedu sila, mala despotovina sa razdeljenim dvorom i bez Đurđevog autoriteta već je bila označena."
+        "text": "Spoljni svet, ironično, ostao je još prazniji nego unutrašnji. U dvadeset četiri meseca između leta 1456. i jeseni 1458. iščezla je čitava jedna generacija hrišćanskih vođa koje su Osmanlijama stajale na putu: u avgustu 1456. Hunjadi, u decembru iste godine Đurađ, a 1458. i papa Kalist III, organizator poslednjih krstaških napora oko Beograda. Mehmedu II, mladom i ambicioznom, posle pada Carigrada 1453. nije ostao niko sličnog ranga sa kim bi morao da računa kao sa ravnim. U tom rasporedu sila, mala despotovina sa razdeljenim dvorom i bez Đurđevog autoriteta već je bila označena."
       },
       {
         "type": "paragraph",
-        "text": "Lazar Branković vladao je svega oko godinu i po dana, do svoje nagle smrti 1458; potom su se braća i rodbina otvoreno sukobili oko vlasti. Sve što je Đurađ trideset godina sastavljao, razgradilo se za nepune tri. Početkom leta 1459. Smederevo je palo pod osmansku vlast, i sa njim je nestala srednjovekovna srpska država. Despotov grob, ma gde tačno bio, ostao je poslednji znak doba u kome je još neko mogao da kaže: srpski vladar."
+        "text": "Lazar Branković vladao je svega nešto više od godinu dana, do svoje nagle smrti u januaru 1458; potom su se braća i rodbina otvoreno sukobili oko vlasti. Sve što je Đurađ trideset godina sastavljao, razgradilo se za nepune tri. Početkom leta 1459. Smederevo je palo pod osmansku vlast, i sa njim je nestala srednjovekovna srpska država. Despotov grob, ma gde tačno bio, ostao je poslednji znak doba u kome je još neko mogao da kaže: srpski vladar."
       },
       {
         "type": "paragraph",
-        "text": "Sud o Đurđu nikada nije bio jednoznačan. Stariji nacionalni pisci često su mu zamerali oprez, popustljivost prema Osmanlijama, brak ćerke sa sultanom, dvostruke poklone i Budimu i Adrijanopolju. Pažljiviji potonji istoričari u istim potezima vide pragmatičnog vladara koji je, sa malim resursima i bez pravih saveznika, uspevao da odlaže neminovno. Crkva ga je s vremenom pribrojala svetiteljima — kao svetog despota Đurđa praznuje ga 19. decembra po novom kalendaru, što odgovara 6. decembru po starom. Bez obzira na konačnu meru, ostaje činjenica koja se teško osporava: dokle god je on bio živ, srpska država je postojala. Onog časa kada ga nije bilo, počelo je njeno gašenje."
+        "text": "Sud o Đurđu nikada nije bio jednoznačan. Stariji nacionalni pisci često su mu zamerali oprez, popustljivost prema Osmanlijama, brak ćerke sa sultanom, dvostruke poklone i Budimu i Adrijanopolju. Pažljiviji potonji istoričari u istim potezima vide pragmatičnog vladara koji je, sa malim resursima i bez pravih saveznika, uspevao da odlaže neminovno. Bez obzira na konačnu meru, ostaje činjenica koja se teško osporava: dokle god je on bio živ, srpska država je postojala. Onog časa kada ga nije bilo, počelo je njeno gašenje."
       }
     ],
     "subtitle": "Kraj skoro tri decenije vladavine starog despota i otvaranje pitanja ko će čuvati ono što je on jedva sačuvao",
@@ -7709,8 +7709,6 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     ],
     "keyPlaces": [
       "Smederevo",
-      "Krušedol",
-      "Mileševa",
       "Beograd"
     ]
   },
@@ -7718,16 +7716,16 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "content": [
       {
         "type": "paragraph",
-        "text": "Kada je Đurađ Branković krajem decembra 1456. umro u Smederevu, despotovina je nasledila državu i nasledila brigu. Stari despot je tri i po decenije balansirao između Ugarske i Osmanlija, plaćao danak, ženio i udavao decu po svim dvorovima jugoistočne Evrope i tako, korak po korak, kupovao zemlji vreme. Vreme koje je on kupovao isteklo je za manje od tri godine posle njegove sahrane. Između njegove smrti i pada Smedereva 20. juna 1459. preko despotovine je prešlo tri vladara, dve strane na dvoru i jedan sultan koji više nije bio sklon strpljenju.",
+        "text": "Kada je Đurađ Branković krajem decembra 1456. umro u Smederevu, despotovina je nasledila državu i nasledila brigu. Stari despot je gotovo tri decenije balansirao između Ugarske i Osmanlija, plaćao danak, ženio i udavao decu po svim dvorovima jugoistočne Evrope i tako, korak po korak, kupovao zemlji vreme. Vreme koje je on kupovao isteklo je za manje od tri godine posle njegove sahrane. Između njegove smrti i pada Smedereva 20. juna 1459. preko despotovine je prešlo tri vladara, dve strane na dvoru i jedan sultan koji više nije bio sklon strpljenju.",
         "dropcap": true
       },
       {
         "type": "paragraph",
-        "text": "Naslednik je bio najmlađi sin, Lazar Branković, jedini koji je sačuvao vid. Njegova starija braća, Grgur i Stefan, oslepljena su još četrdesetih godina po naređenju sultana Murata II, i taj telesni nedostatak — koji se u srednjovekovnoj politici doživljavao kao smetnja za vladara — onemogućio im je da bez otpora preuzmu presto. Lazar je stoga, uz pristanak većine vlastele i bez većih sukoba, primio despotski venac. Njegova vladavina trajala je tek nešto duže od godinu dana i ostala je u izvorima tanka — manje delovanjem, više čekanjem. Pokušao je da nastavi očevu politiku, ali je vidno više nego stari despot naginjao ka Porti, smatrajući da se sa silom koja je već tri godine ranije srušila Carigrad više ne može razgovarati iz pozicije ugarskog saveznika."
+        "text": "Naslednik je bio najmlađi sin, Lazar Branković, jedini koji je sačuvao vid. Njegova starija braća, Grgur i Stefan, oslepljena su još četrdesetih godina po naređenju sultana Murata II, i taj telesni nedostatak — koji se u srednjovekovnoj politici doživljavao kao smetnja za vladara — onemogućio im je da bez otpora preuzmu presto. Lazar, koji je despotsku titulu nosio još od 1446, preuzeo je vlast, ali se dvor odmah podelio: majka Jerina, sestra Mara i brat Grgur stali su na turkofilsku stranu, a Mara i Grgur su 1457. otišli Turcima. Njegova vladavina trajala je tek nešto duže od godinu dana i ostala je u izvorima tanka — manje delovanjem, više čekanjem. Pokušao je da nastavi očevu politiku, ali je vidno više nego stari despot naginjao ka Porti, smatrajući da se sa silom koja je već tri godine ranije srušila Carigrad više ne može razgovarati iz pozicije ugarskog saveznika."
       },
       {
         "type": "paragraph",
-        "text": "U januaru 1458. Lazar je iznenada umro, mlad i bez očiglednog razloga. U Smederevu i izvan njega odmah su se pojavile glasine da je otrovan; one se u kasnijim hronikama ponavljaju, ali pouzdanog dokaza nikada nije bilo. Iza sebe je ostavio udovicu Helenu Paleolog — Jelenu, iz vizantijske carske loze — i malu kćer Maru, suviše mladu da vlada. Helena je preuzela namesništvo. Bila je odlučna, obrazovana i jasno opredeljena ka zapadu: tražila je ugarsku pomoć, a u jednom trenutku razmatrala je i crkveno približavanje Rimu kao cenu te pomoći. Za većinski pravoslavnu vlastelu i sveštenstvo despotovine to je bilo previše. Dvor se podelio na dve struje koje će u narednim mesecima rastrgnuti ono malo zajedničkog što je još postojalo."
+        "text": "U januaru 1458. Lazar je iznenada umro, mlad i bez očiglednog razloga. U Smederevu i izvan njega odmah su se pojavile glasine da je otrovan; one se u kasnijim hronikama ponavljaju, ali pouzdanog dokaza nikada nije bilo. Iza sebe je ostavio udovicu Helenu Paleolog — Jelenu, iz vizantijske carske loze — i tri male kćeri; najstarija, Jelena (Mara), imala je nešto više od deset godina. Vlast je preuzelo namesništvo: Jelena i slepi Stefan, oslonjeni na Ugarsku, i veliki čelnik Mihailo Anđelović, oslonac Turaka. Helena je bila odlučna, obrazovana i jasno opredeljena ka zapadu: tražila je ugarsku pomoć, a u jednom trenutku razmatrala je i crkveno približavanje Rimu kao cenu te pomoći. Za većinski pravoslavnu vlastelu i sveštenstvo despotovine to je bilo previše. Dvor se podelio na dve struje koje će u narednim mesecima rastrgnuti ono malo zajedničkog što je još postojalo."
       },
       {
         "type": "heading",
@@ -7736,11 +7734,11 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Pravoslavna, osmanski naklonjena strana vlastele istakla je svog kandidata: Stefana Brankovića, starijeg Lazarevog brata, oslepljenog još kao mladića. U narodu je ostao upamćen kao Stefan Slijepi. Krajem leta 1458. on je formalno proglašen za despota i kratko vreme držao Smederevo, sa namerom da despotovinu vrati u stariji okvir mirenja sa Portom. Vladavina mu je, međutim, bila kratka i bez stvarne moći — bio je kompromis između dve struje koje međusobno nisu mogle da se nagode. Pre nego što je proleće 1459. donelo nove pregovore, on je već bio uklonjen sa prestola i upućen u izgnanstvo, gde će kasnije živeti kao počasni gost po stranim dvorovima."
+        "text": "Kada je Anđelović, pošto je pokušao da u Smederevo uvede tursku posadu, uhapšen 31. marta 1458, vlast je pripala Stefanu Brankoviću, starijem Lazarevom bratu, oslepljenom još kao mladiću. U narodu je ostao upamćen kao Stefan Slijepi. U proleće 1458. on je proglašen za despota i vladao je zajedno sa Jelenom, oslonjen na ugarski savez. Vladavina mu je, međutim, bila kratka i bez stvarne moći — dvor je i dalje bio rastrzan između dve struje koje međusobno nisu mogle da se nagode."
       },
       {
         "type": "paragraph",
-        "text": "Iz Budima je u međuvremenu stiglo rešenje koje je trebalo da spase ono što se još spasti moglo. Ugarska je predložila brak Lazarove kćeri Mare sa Stefanom Tomaševićem, sinom bosanskog kralja. Brakom bi se despotovina vezala uz bosansku dinastiju Kotromanića i, posredno, čvršće uz ugarsko zaleđe. Venčanje je obavljeno u rano proleće 1459, i Stefan Tomašević je u martu iste godine ušao u Smederevo kao novi, treći po redu despot. Bio je mlad, neiskusan, i, što je presudno, bez korena u srpskoj vlasteli. Grad ga je dočekao podeljen: jedan deo branilaca držao je do ugarskog saveza, drugi je već bio uveren da otpor sultanu nema smisla."
+        "text": "Iz Budima je u međuvremenu stiglo rešenje koje je trebalo da spase ono što se još spasti moglo. Ugarska je predložila brak Lazarove kćeri Mare sa Stefanom Tomaševićem, sinom bosanskog kralja. Brakom bi se despotovina vezala uz bosansku dinastiju Kotromanića i, posredno, čvršće uz ugarsko zaleđe. Venčanje je obavljeno u rano proleće 1459, i Stefan Tomašević je u martu iste godine ušao u Smederevo kao novi, treći po redu despot. Slepi Stefan se s njim sukobio i 8. aprila morao da napusti Srbiju; kasnije će živeti kao počasni gost po stranim dvorovima. Novi despot bio je mlad, neiskusan, i, što je presudno, bez korena u srpskoj vlasteli. Grad ga je dočekao podeljen: jedan deo branilaca držao je do ugarskog saveza, drugi je već bio uveren da otpor sultanu nema smisla."
       },
       {
         "type": "paragraph",
@@ -7748,7 +7746,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Padom Smedereva srednjovekovna srpska država je prestala da postoji. Njena teritorija pretvorena je u osmanske sandžake, kovnica novca je utihnula, dvorska kancelarija je zatvorena, a vlastela se ili pomirila sa novim gospodarom ili se povukla preko Save i Dunava u Ugarsku. Despotska titula nije nestala odmah — kraljevi u Budimu davaće je još više od jednog veka srpskim izbeglim porodicama, Brankovićima, Berislavićima, Zaharijama — ali to su već bili počasni naslovi nad posedima u tuđoj zemlji, a ne vlast nad svojom. O tom potonjem životu titule biće reči u jednoj od narednih lekcija."
+        "text": "Padom Smedereva srednjovekovna srpska država je prestala da postoji. Njena teritorija pretvorena je u osmanske sandžake, kovnica novca je utihnula, dvorska kancelarija je zatvorena, a vlastela se ili pomirila sa novim gospodarom ili se povukla preko Save i Dunava u Ugarsku. Despotska titula nije nestala odmah — kraljevi u Budimu davaće je još oko osam decenija, do 1537, srpskim izbeglim porodicama i velikašima — Brankovićima, Berislavićima, Božiću, Bakiću — ali to su već bili počasni naslovi nad posedima u tuđoj zemlji, a ne vlast nad svojom. O tom potonjem životu titule biće reči u jednoj od narednih lekcija."
       },
       {
         "type": "paragraph",
@@ -7785,7 +7783,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Smederevski grad, koji je Đurađ Branković podizao tri decenije ranije, i dalje je bio jedna od najjačih tvrđava na Dunavu. Sa svojim visokim kulama, dvostrukim zidinama i položajem na ušću Jezave, mogao je, u boljim okolnostima, izdržati dugu opsadu. Ali okolnosti više nisu bile bolje. U gradu nije bilo dovoljno vojske ni hrane za dugotrajno držanje, a ono što je nedostajalo nije se moglo nadoknaditi sopstvenim snagama zemlje. Sve je zavisilo od toga hoće li ugarski kralj Matija Korvin, sa kim je Stefan Tomašević računao po krvnoj i političkoj liniji, stići na vreme sa vojskom. Ta vojska nije stigla — ni te nedelje, ni docnije."
+        "text": "Smederevski grad, koji je Đurađ Branković podizao tri decenije ranije, i dalje je bio jedna od najjačih tvrđava na Dunavu. Sa svojim visokim kulama, dvostrukim zidinama i položajem na ušću Jezave, mogao je, u boljim okolnostima, izdržati dugu opsadu. Ali okolnosti više nisu bile bolje. U gradu nije bilo dovoljno vojske ni hrane za dugotrajno držanje, a ono što je nedostajalo nije se moglo nadoknaditi sopstvenim snagama zemlje. Sve je zavisilo od toga hoće li ugarski kralj Matija Korvin, na koga je Stefan Tomašević računao kao na saveznika i gospodara, stići na vreme sa vojskom. Ta vojska nije stigla — ni te nedelje, ni docnije."
       },
       {
         "type": "heading",
@@ -7798,7 +7796,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Posledice predaje bile su trenutne i temeljite. Osvojena oblast je gotovo odmah uklopljena u osmansku upravnu mrežu kao Smederevski sandžak. Sam grad je postao sedište sandžak-bega, osmanskog namesnika koji je odande upravljao novim graničnim područjem prema Ugarskoj. Stara despotska kancelarija je prestala da postoji, ali običan život na zemlji nije stao. Mineri u Novom Brdu i Rudniku nastavili su rad pod novim gospodarima — srebro je bilo potrebno i sultanu jednako kao i despotu. Srpska pravoslavna crkva je trpela ograničenja kakva su važila za sve nemuslimanske zajednice u carstvu, ali joj je obredni život ostavljen; manastiri su, gde su mogli, sačuvali rukopise, freske i memoriju. Deo srpske vlastele našao je mesto u osmanskoj službi kao vazali; pojedinci su, prešavši u islam, dosezali visoke položaje u Porti — ime Mehmed-paše Sokolovića vek docnije najpoznatiji je takav primer."
+        "text": "Posledice predaje bile su trenutne i temeljite. Osvojena oblast je gotovo odmah uklopljena u osmansku upravnu mrežu kao Smederevski sandžak. Sam grad je postao sedište sandžak-bega, osmanskog namesnika koji je odande upravljao novim graničnim područjem prema Ugarskoj. Stara despotska kancelarija je prestala da postoji, ali običan život na zemlji nije stao. Rudari su i pod novim gospodarima nastavili rad — Novo Brdo je, uostalom, osmansko bilo još od 1455, a srebro je bilo potrebno i sultanu jednako kao i despotu. Srpska pravoslavna crkva je trpela ograničenja kakva su važila za sve nemuslimanske zajednice u carstvu, ali joj je obredni život ostavljen; manastiri su, gde su mogli, sačuvali rukopise, freske i memoriju. Deo srpske vlastele našao je mesto u osmanskoj službi kao vazali; pojedinci su, prešavši u islam, dosezali visoke položaje u Porti — ime Mehmed-paše Sokolovića vek docnije najpoznatiji je takav primer."
       },
       {
         "type": "paragraph",
@@ -7812,7 +7810,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "subtitle": "Kako je 20. juna 1459. tiho, bez velike bitke, ugašena srednjovekovna srpska država",
     "dateLabel": "1459.",
     "timelinePosition": "20. jun 1459.",
-    "summary": "Predaja Smedereva sultanu Mehmedu II 20. juna 1459: kraj srpske despotovine, stvaranje Smederevskog sandžaka i početak gotovo četiri veka bez sopstvene države.",
+    "summary": "Predaja Smedereva sultanu Mehmedu II 20. juna 1459: kraj srpske despotovine, stvaranje Smederevskog sandžaka i početak gotovo tri i po veka bez sopstvene države.",
     "keyPeople": [
       "Mehmed II",
       "Stefan Tomašević"
@@ -7833,11 +7831,11 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Bosna je do tog trenutka bila država sa složenom unutrašnjom istorijom. Njome je od XIV veka vladala dinastija Kotromanića, a u verskom pogledu bila je jedinstvena u regionu — pored katolika i pravoslavnih, na njenom tlu postojala je i posebna Crkva bosanska, hrišćanska zajednica oko koje istoričari još vode rasprave: bila je verovatno doktrinarno neobična, a savremenici sa Zapada često su je proglašavali jeretičkom. Ta verska složenost dugo je Bosnu držala u poluizolaciji od katoličke Evrope. Pod Tvrtkom I, krunisanim za kralja 1377. godine, kraljevstvo je doseglo svoj vrhunac: Tvrtko je proširio vlast na delove srpskog zemljišta i na primorje, krunišući se i kao „kralj Srbljem i Bosni”. Posle njegove smrti 1391. Bosna je počela da slabi iznutra — velikaši su jačali, kraljevska vlast je popuštala, a oblasti poput Hercegovine i Huma pretvarale su se u poluautonomne gospodštine."
+        "text": "Bosna je do tog trenutka bila država sa složenom unutrašnjom istorijom. Njome je od XIV veka vladala dinastija Kotromanića, a u verskom pogledu bila je jedinstvena u regionu — pored katolika i pravoslavnih, na njenom tlu postojala je i posebna Crkva bosanska, hrišćanska zajednica oko koje istoričari još vode rasprave: bila je verovatno doktrinarno neobična, a savremenici sa Zapada često su je proglašavali jeretičkom. Ta verska složenost dugo je Bosnu držala u poluizolaciji od katoličke Evrope. Pod Tvrtkom I, krunisanim za kralja 1377. godine u Milima kod Visokog ili, po starijem mišljenju, u Mileševi, kraljevstvo je doseglo svoj vrhunac: Tvrtko je proširio vlast na delove srpskog zemljišta i na primorje, krunišući se i kao „kralj Srbljem i Bosni”. Posle njegove smrti 1391. Bosna je počela da slabi iznutra — velikaši su jačali, kraljevska vlast je popuštala, a oblasti poput Hercegovine i Huma pretvarale su se u poluautonomne gospodštine."
       },
       {
         "type": "paragraph",
-        "text": "Posljednji bosanski kralj, Stefan Tomašević, već je bio poznata ličnost u srpskoj priči. Isti onaj mladi Kotromanić koji je 1459. nakratko sedeo na smederevskom prestolu kao despot Srbije — i u čije vreme je Smederevo predato Turcima — vratio se u Bosnu i 1461. godine, posle smrti oca Stefana Tomaša, postao njen kralj. Bio je iz roda koji je već gubio jednu krunu i sada nasleđivao drugu. Pokušao je da spase ono što se može spasti: tražio je čvrst savez sa Ugarskom, dozvolio jače prisustvo katoličke crkve na dvoru i razmišljao o krunisanju koje bi ga jasnije svrstalo uz Zapad. Iste te godine, 1463, odbio je da Mehmedu II plati ugovoreni godišnji danak, računajući da će ga ugarska i zapadna pomoć stići pre osmanske vojske."
+        "text": "Posljednji bosanski kralj, Stefan Tomašević, već je bio poznata ličnost u srpskoj priči. Isti onaj mladi Kotromanić koji je 1459. nakratko sedeo na smederevskom prestolu kao despot Srbije — i u čije vreme je Smederevo predato Turcima — vratio se u Bosnu i 1461. godine, posle smrti oca Stefana Tomaša, postao njen kralj. Bio je iz roda koji je već gubio jednu krunu i sada nasleđivao drugu. Pokušao je da spase ono što se može spasti: tražio je čvrst savez sa Ugarskom, dozvolio jače prisustvo katoličke crkve na dvoru i u novembru 1461. krunisao se u Jajcu krunom koju mu je poslao papa Pije II, čime se jasno svrstao uz Zapad. Već 1462. odbio je da Mehmedu II plati ugovoreni godišnji danak, računajući da će ga ugarska i zapadna pomoć stići pre osmanske vojske."
       },
       {
         "type": "heading",
@@ -7850,21 +7848,21 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Stigla je na vreme. Ključ je opkoljen, kralj je uhvaćen i, prema pouzdanim izvorima, izveden pred sultana u Jajcu — jedan od najvažnijih bosanskih gradova, krunidbeno mesto Tvrtka I i utvrđenje od simboličkog značaja. Tu je Stefan Tomašević pogubljen, najverovatnije odsečenjem glave. Sa njim su pobijeni i mnogi članovi vladajuće porodice i bosanske vlastele. Sa krvavim činom kod Jajca prestala je da postoji srednjovekovna Bosanska kraljevina. Mehmed II je veći deo njenih oblasti preuredio u Bosanski sandžak, novu jedinicu Osmanskog carstva. Hercegovački vojvoda Stjepan Vukčić Kosača i njegovi naslednici držaće se još nekoliko godina u zaleđu Jadrana, ali i njihova oblast pašće do 1482."
+        "text": "Stigla je na vreme. Ključ je opkoljen, kralj je uhvaćen i, prema pouzdanim izvorima, izveden pred sultana u Jajcu — jedan od najvažnijih bosanskih gradova, krunidbeno mesto samog Stefana Tomaševića i utvrđenje od simboličkog značaja. Tu je Stefan Tomašević pogubljen, najverovatnije odsečenjem glave. Sa njim su pobijeni i mnogi članovi vladajuće porodice i bosanske vlastele. Sa krvavim činom kod Jajca prestala je da postoji srednjovekovna Bosanska kraljevina. Mehmed II je veći deo njenih oblasti preuredio u Bosanski sandžak, novu jedinicu Osmanskog carstva. Hercegovački vojvoda Stjepan Vukčić Kosača i njegovi naslednici držaće se još nekoliko godina u zaleđu Jadrana, ali i njihova oblast pašće do 1482."
       },
       {
         "type": "paragraph",
-        "text": "Već iste 1463. ugarski kralj Matija Korvin pokrenuo je protivnapad i uspeo da povrati Jajce sa pojasom severne Bosne. Tako je nastao takozvani „Jajački banat”, uska ugarska pogranična oblast koja će opstajati kao hrišćanska tampon-zona sve do 1527. godine. Najveći deo Bosne, međutim, do 1464. bio je čvrsto u osmanskim rukama. U narednim decenijama i vekovima jedan deo bosanskog hrišćanskog stanovništva — naročito onaj povezan sa Crkvom bosanskom, čije je vlastito ustrojstvo posle pada brzo nestalo — postepeno je primao islam. Tako se polako oblikovala buduća bosanska muslimanska zajednica. Pravoslavni Srbi i katolički Hrvati ostali su pri svojim crkvama, ali pod sve težim pritiscima nove vlasti."
+        "text": "Već iste 1463. ugarski kralj Matija Korvin pokrenuo je protivnapad i uspeo da povrati Jajce sa pojasom severne Bosne. Tako je nastao takozvani „Jajački banat”, uska ugarska pogranična oblast koja će opstajati kao hrišćanska tampon-zona sve do 1527. godine. Najveći deo Bosne, međutim, do 1464. bio je čvrsto u osmanskim rukama. U narednim decenijama i vekovima jedan deo bosanskog hrišćanskog stanovništva postepeno je primao islam; stara teza o posebnoj ulozi Crkve bosanske, čije je ustrojstvo posle pada brzo nestalo, danas je sporna. Tako se polako oblikovala buduća bosanska muslimanska zajednica. Pravoslavni Srbi i katolički Hrvati ostali su pri svojim crkvama, ali pod sve težim pritiscima nove vlasti."
       },
       {
         "type": "paragraph",
-        "text": "Posmatrano iz srpskog ugla, pad Bosne 1463. nije bio nečija tuđa nesreća. Bosna se srušila samo četiri godine posle Smedereva; čitav zapadnobalkanski hrišćanski pojas, koji je vekovima bio okvir srpske istorije, urušio se za manje od pet godina. Pravoslavno stanovništvo Bosne i Hercegovine — istog jezika i veoma bliske kulture sa onim u nekadašnjoj Despotovini — sada je delilo sudbinu sa Srbima istočno od Drine, pod istom osmanskom upravom. Hrišćanska granica pomerila se na Savu i Dunav: novi front protiv Osmanlija postala je Ugarska. Kada je 1468. pao i albanski otpor pod Skenderbegom, postalo je jasno da su zapadnobalkanska hrišćanska kraljevstva — srpsko, bosansko, albansko — istorijski zaklopljena. Slobodne su ostale još samo Ugarska na severu i pojas dalmatinskih gradova pod Venecijom na obali, a iza njih, sve do Beča, ravnica koja sledećih dva veka neće znati za mir."
+        "text": "Posmatrano iz srpskog ugla, pad Bosne 1463. nije bio nečija tuđa nesreća. Bosna se srušila samo četiri godine posle Smedereva; čitav zapadnobalkanski hrišćanski pojas, koji je vekovima bio okvir srpske istorije, urušio se za manje od pet godina. Pravoslavno stanovništvo Bosne i Hercegovine — istog jezika i veoma bliske kulture sa onim u nekadašnjoj Despotovini — sada je delilo sudbinu sa Srbima istočno od Drine, pod istom osmanskom upravom. Hrišćanska granica pomerila se na Savu i Dunav: novi front protiv Osmanlija postala je Ugarska. Kada je 1468. umro Skenderbeg (Kroja je pala 1478, Skadar 1479), postalo je jasno da su zapadnobalkanska hrišćanska kraljevstva — srpsko, bosansko, albansko — istorijski zaklopljena. Slobodne su ostale još samo Ugarska na severu i pojas dalmatinskih gradova pod Venecijom na obali, a iza njih, sve do Beča, ravnica koja sledećih dva veka neće znati za mir."
       }
     ],
     "subtitle": "Kako je u proleće 1463. godine sultan Mehmed II u nekoliko nedelja sravnio susednu Bosansku kraljevinu sa zemljom",
     "dateLabel": "1463.",
     "timelinePosition": "1463.",
-    "summary": "Pad Bosanske kraljevine 1463. godine: pohod Mehmeda II, pogubljenje kralja Stefana Tomaševića kod Jajca i kraj zapadnobalkanskih hrišćanskih država.",
+    "summary": "Pad Bosanske kraljevine 1463. godine: pohod Mehmeda II, pogubljenje kralja Stefana Tomaševića kod Jajca i kraj Bosanske kraljevine.",
     "keyPeople": [
       "Stefan Tomašević",
       "Mehmed II",
@@ -7907,7 +7905,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Posle Ivanove smrti 1490. godine vlast je preuzeo njegov sin Đurađ Crnojević. Bio je obrazovan, povezan sa italijanskim humanističkim svetom kroz brak sa Elizabetom Erico iz Venecije i svestan da male države opstaju i kroz simbole. Učvrstio je upravu, nastavio politiku oslonca na Veneciju i učinio nešto što će ovoj kneževini doneti posebno mesto u kulturnoj istoriji srpskog naroda — u Cetinje je doveo štampariju, prvu na slovenskom jugu, o kojoj će biti reči u sledećoj lekciji. Ali politički prostor se sužavao. Godine 1496. Đurađa je sa vlasti zbacio njegov brat Stefan II Crnojević, koji je prihvatio osmansko vazalstvo. Dinastija se u senovitoj vazalskoj ulozi zadržala još kratko, a Zeta je formalno ušla u osmanski sistem kao poseban sandžak."
+        "text": "Posle Ivanove smrti 1490. godine vlast je preuzeo njegov sin Đurađ Crnojević. Bio je obrazovan, povezan sa italijanskim humanističkim svetom kroz brak sa Elizabetom Erico iz Venecije i svestan da male države opstaju i kroz simbole. Učvrstio je upravu, nastavio politiku oslonca na Veneciju i učinio nešto što će ovoj kneževini doneti posebno mesto u kulturnoj istoriji srpskog naroda — u Cetinje je doveo štampariju, prvu ćiriličnu na slovenskom jugu, o kojoj će biti reči u sledećoj lekciji. Ali politički prostor se sužavao. Godine 1496. Đurađ je izgubio vlast, a zemljom je kratko upravljao njegov brat Stefan II Crnojević kao osmanski vazal. Dinastija se u senovitoj vazalskoj ulozi zadržala još kratko, a Zeta je krajem veka formalno ušla u osmanski sistem."
       },
       {
         "type": "paragraph",
@@ -7939,7 +7937,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Reč je o štampariji Crnojevića na Cetinju. Đurađ Crnojević, poslednji samostalni gospodar Zete, nasledio je 1490. oca Ivana i preuzeo vlast u zemlji koja je već bila stešnjena između mletačkog primorja i osmanske moći u zaleđu. Dvor je iz tvrđave Žabljak preseljen u Cetinje, podignut je manastir uz koji će se vezati cela docnija crnogorska istorija, a u tom istom krugu, oko 1493. godine, postavljena je i štamparska presa. Đurađ je bio obrazovan vladar, oženjen Mletkinjom Elizabetom Erico, i dobro je poznavao Veneciju, koja je tada bila evropska prestonica štamparstva i jedno od retkih mesta gde su već bili izliveni ćirilični tipografski znaci. Iz tog mletačkog kruga gotovo sigurno potiču i slova i znanje koje su dovedeni na Cetinje."
+        "text": "Reč je o štampariji Crnojevića na Cetinju. Đurađ Crnojević, poslednji samostalni gospodar Zete, nasledio je 1490. oca Ivana i preuzeo vlast u zemlji koja je već bila stešnjena između mletačkog primorja i osmanske moći u zaleđu. Dvor je iz tvrđave Žabljak preseljen u Cetinje, podignut je manastir uz koji će se vezati cela docnija crnogorska istorija, a u tom istom krugu, oko 1493. godine, postavljena je i štamparska presa. Đurađ je bio obrazovan vladar, oženjen Mletkinjom Elizabetom Erico, i dobro je poznavao Veneciju, koja je tada bila evropska prestonica štamparstva, gde su se mogli nabaviti presa i veština livenja slova. Iz tog mletačkog kruga gotovo sigurno potiču i presa i znanje koje su dovedeni na Cetinje."
       },
       {
         "type": "paragraph",
@@ -7952,7 +7950,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Iz cetinjske štamparije izašlo je u kratkom periodu, između 1493. i 1496. godine, pet liturgijskih knjiga na crkvenoslovenskom jeziku srpske redakcije. Prva je bio „Oktoih prvoglasnik”, štampan po većini istraživača 1494. godine — zbornik bogoslužbenih pesama prva četiri glasa osmoglasnika. Za njim je usledio „Oktoih petoglasnik”, koji sadrži glasove od petog do osmog; od tog izdanja sačuvani su samo delovi, pa se i sam njegov puni obim danas može samo rekonstruisati. Sledili su „Psaltir s posledovanjem”, jedna od najpotrebnijih bogoslužbenih knjiga, zatim „Molitvenik” i, kao poslednje poznato izdanje, „Služabnik” — knjiga po kojoj sveštenik služi svetu liturgiju. Tačan redosled i tačni datumi pojedinih izdanja u nauci još nisu sasvim usaglašeni, ali okvir 1493–1496. i broj od pet knjiga drže se kao pouzdan."
+        "text": "Iz cetinjske štamparije izašlo je u kratkom periodu, između 1493. i 1496. godine, pet liturgijskih knjiga na crkvenoslovenskom jeziku srpske redakcije. Prva je bio „Oktoih prvoglasnik”, štampan po većini istraživača 1494. godine — zbornik bogoslužbenih pesama prva četiri glasa osmoglasnika. Za njim je usledio „Oktoih petoglasnik”, koji sadrži glasove od petog do osmog; od tog izdanja sačuvani su samo delovi, pa se i sam njegov puni obim danas može samo rekonstruisati. Sledili su „Psaltir s posledovanjem”, jedna od najpotrebnijih bogoslužbenih knjiga, zatim „Molitvenik” (Trebnik, Euhologij) i, kao poslednje, „Četvorojevanđelje”, sačuvano samo posredno. Tačan redosled i tačni datumi pojedinih izdanja u nauci još nisu sasvim usaglašeni, ali okvir 1493–1496. i broj od pet knjiga drže se kao pouzdan."
       },
       {
         "type": "paragraph",
@@ -7995,7 +7993,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "U toj sredini, oko 1471, kralj Matija Korvin podario je titulu srpskog despota Vuku Grgureviću, unuku slepog Grgura Brankovića, dakle praunuku despota Đurđa. Vuk je bio rođen i odrastao u Ugarskoj, ali je vukao staro despotsko poreklo, i upravo to ga je činilo pogodnim za politički poduhvat koji je Korvin smislio: da postoji čovek pred kojim se srpski izbeglice, naseljeni duž granice, mogu okupiti kao pred „svojim” gospodarom, ostajući pritom verni ugarskoj kruni. Ono što je za dvor bila računica, za Vuka je postala životna uloga. Sledećih četrnaest godina vodio je smele upade preko Save i Dunava, palio osmanske utvrde u severnoj Srbiji i Bosni, branio Beograd i Šabac, i postao jedan od najuspešnijih Korvinovih zapovednika u pograničnom ratu. Tačan razmer njegovih pohoda ne treba preuveličavati — bili su to udari, ne oslobađanja — ali je njegova hrabrost bila stvarna i priznata."
+        "text": "U toj sredini, oko 1471, kralj Matija Korvin podario je titulu srpskog despota Vuku Grgureviću, vanbračnom sinu slepog Grgura Brankovića, dakle unuku despota Đurđa. Vuk je posle 1459. najpre ratovao u službi sultana, a 1465. prešao je kralju Matiji, ali je vukao staro despotsko poreklo, i upravo to ga je činilo pogodnim za politički poduhvat koji je Korvin smislio: da postoji čovek pred kojim se srpski izbeglice, naseljeni duž granice, mogu okupiti kao pred „svojim” gospodarom, ostajući pritom verni ugarskoj kruni. Ono što je za dvor bila računica, za Vuka je postala životna uloga. Sledećih četrnaest godina vodio je smele upade preko Save i Dunava, palio osmanske utvrde u severnoj Srbiji i Bosni, branio Beograd i Šabac, i postao jedan od najuspešnijih Korvinovih zapovednika u pograničnom ratu. Tačan razmer njegovih pohoda ne treba preuveličavati — bili su to udari, ne oslobađanja — ali je njegova hrabrost bila stvarna i priznata."
       },
       {
         "type": "paragraph",
@@ -8117,11 +8115,11 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Ono što je u praksi održavalo srpsko hrišćansko telo na okupu — i u onim godinama kada je središte u Peći bilo bez patrijarha — bila je mreža starih manastira. Studenica, podignuta još u vreme Stefana Nemanje, ostala je grobno mesto dinastije i zadržala simbolički značaj iako je delom opustela. Mileševa, sa moštima Svetog Save, nije prestajala da privlači hodočasnike iz svih krajeva u kojima su Srbi živeli. Dečani su, uprkos sve težim uslovima, nastavili svakodnevnu liturgijsku službu, kao i Gračanica na Kosovu i Sopoćani u Polimlju. Manastirske zajednice su se smanjivale, a poneke i privremeno gasile, ali se nit nikada nije do kraja prekinula. Uz njih, na grčkoj Svetoj Gori, srpski manastir Hilandar je nastavio da bude duhovno i kulturno čvorište — od njega su u srpske krajeve odlazile knjige, ikone i monasi obučeni u vizantijskoj tradiciji."
+        "text": "Ono što je u praksi održavalo srpsko hrišćansko telo na okupu — i u onim godinama kada je središte u Peći bilo bez patrijarha — bila je mreža starih manastira. Studenica, podignuta još u vreme Stefana Nemanje, ostala je grobno mesto dinastije i zadržala simbolički značaj iako je delom opustela. Mileševa, sa moštima Svetog Save, nije prestajala da privlači hodočasnike iz svih krajeva u kojima su Srbi živeli. Dečani su, uprkos sve težim uslovima, nastavili svakodnevnu liturgijsku službu, kao i Gračanica na Kosovu i Sopoćani kod izvora Raške, nedaleko od Novog Pazara. Manastirske zajednice su se smanjivale, a poneke i privremeno gasile, ali se nit nikada nije do kraja prekinula. Uz njih, na grčkoj Svetoj Gori, srpski manastir Hilandar je nastavio da bude duhovno i kulturno čvorište — od njega su u srpske krajeve odlazile knjige, ikone i monasi obučeni u vizantijskoj tradiciji."
       },
       {
         "type": "paragraph",
-        "text": "U tim zidinama nastavljen je i tihi rad koji će se kasnije pokazati ključnim za očuvanje pamćenja. Pisari su prepisivali jevanđelja, časoslove, žitija i tipikone; freske su čuvale slike nemanjićkih vladara i svetitelja čak i onda kada od same države nije ostao kamen na kamenu. Naporedo sa rukopisom, na samom kraju 15. veka počela je da deluje i prva južnoslovenska štamparija pravoslavnog sveta — Crnojevića štamparija na Cetinju, čije će knjige, mada izdate na zetskom dvoru, kružiti i kroz manastire pod osmanskom upravom. Kult srpskih svetitelja — pre svih Svetog Save i Svetog Simeona, ali i kosovskih mučenika — pevao se podjednako u Peći, na Svetoj Gori, u ugarskom Sremu i u dalmatinskim primorskim varošima u kojima su živele srpske pravoslavne zajednice."
+        "text": "U tim zidinama nastavljen je i tihi rad koji će se kasnije pokazati ključnim za očuvanje pamćenja. Pisari su prepisivali jevanđelja, časoslove, žitija i tipikone; freske su čuvale slike nemanjićkih vladara i svetitelja čak i onda kada od same države nije ostao kamen na kamenu. Naporedo sa rukopisom, na samom kraju 15. veka počela je da deluje i prva južnoslovenska ćirilična štamparija — Crnojevića štamparija na Cetinju, čije će knjige, mada izdate na zetskom dvoru, kružiti i kroz manastire pod osmanskom upravom. Kult srpskih svetitelja — pre svih Svetog Save i Svetog Simeona, ali i kosovskih mučenika — pevao se podjednako u Peći, na Svetoj Gori, u ugarskom Sremu i u dalmatinskim primorskim varošima u kojima su živele srpske pravoslavne zajednice."
       },
       {
         "type": "paragraph",
@@ -8169,7 +8167,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Najraniji zreli primer stila jeste Lazarica u Kruševcu, dvorska kapela kneza Lazara podignuta verovatno između 1377. i 1380. godine. Mala je, gotovo intimna, ali sve glavne crte budućeg stila već su tu — trolisna osnova, visoka kupola, polihromne fasade i klesani ukras oko prozora. Skoro u isto vreme, oko 1377–1381, Lazar zida i Ravanicu, manastir u koji će biti sahranjen posle Kosovskog boja. Ravanica je krupnija, monaška, i, što je novo, okružena je zidovima sa kulama — manastir-tvrđava, jer je osmanlijska opasnost već stvarna. Kneginja Milica, posle smrti muža, podiže Ljubostinju oko 1388, kao žensku zadužbinu i mesto u koje će se i sama povući u monaštvo."
+        "text": "Najraniji zreli primer stila jeste Lazarica u Kruševcu, dvorska kapela kneza Lazara podignuta verovatno između 1377. i 1380. godine. Mala je, gotovo intimna, ali sve glavne crte budućeg stila već su tu — trolisna osnova, visoka kupola, polihromne fasade i klesani ukras oko prozora. Skoro u isto vreme, oko 1377–1381, Lazar zida i Ravanicu, manastir u koji će biti sahranjen posle Kosovskog boja. Ravanica je krupnija, monaška, i, što je novo, okružena je zidovima sa kulama — manastir-tvrđava, jer je osmanlijska opasnost već stvarna. Kneginja Milica podiže Ljubostinju (između oko 1388. i 1405. godine), kao žensku zadužbinu i mesto u koje će se, posle muževljeve smrti, i sama povući u monaštvo."
       },
       {
         "type": "paragraph",
@@ -8213,12 +8211,12 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "content": [
       {
         "type": "paragraph",
-        "text": "Kada je 1459. godine pala Despotovina, srpski narod je ostao bez jedne vrste ustanove koja u srednjem veku nije imala zamenu — bez sopstvenog vladara i sopstvenog dvora. Nestala je kancelarija koja je izdavala povelje, nestao je sabor biran iz vlastele, nestala je vojska koja je nosila zastavu jednog imena. Ono što je ostalo, i što je u sledećim vekovima nosilo težinu kakvu u prvi mah niko nije slutio, bili su manastiri. Oni su, posle pada države, postali mnogo više od bogomolja — postali su jedini trajni, srpski, pravoslavni okvir u kome se nastavilo ono što je započela vladarska kuća Nemanjića.",
+        "text": "Kada je 1459. godine pala Despotovina, srpski narod je ostao bez jedne vrste ustanove koja u srednjem veku nije imala zamenu — bez sopstvenog vladara i sopstvenog dvora. Nestala je kancelarija koja je izdavala povelje, nestao je državni sabor vlastele, nestala je vojska koja je nosila zastavu jednog imena. Ono što je ostalo, i što je u sledećim vekovima nosilo težinu kakvu u prvi mah niko nije slutio, bili su manastiri. Oni su, posle pada države, postali mnogo više od bogomolja — postali su jedini trajni, srpski, pravoslavni okvir u kome se nastavilo ono što je započela vladarska kuća Nemanjića.",
         "dropcap": true
       },
       {
         "type": "paragraph",
-        "text": "U bivšoj srednjovekovnoj Srbiji, pod osmanskom vlašću, glavne zadužbine su, uz prekide i štete, opstale. Studenica, mauzolej Nemanjin; Mileševa, sa moštima Svetog Save; Sopoćani sa svojim freskama; Visoki Dečani i Gračanica na Kosovu; Pećka patrijaršija u podnožju Prokletija — sve su to mesta koja su kroz petnaesti, šesnaesti i sedamnaesti vek nastavila da pevaju istu liturgiju, čuvaju iste knjige i pominju iste vladare po imenu. Severno od Save i Dunava, u Sremu pod ugarskom krunom, izrastao je u istom razdoblju novi monaški pojas — manastiri Fruške gore: Krušedol, Vrdnik, Hopovo, Bešenovo i drugi, koji će postati duhovno utočište izbeglih vlastelinskih porodica i mesto čuvanja knjiga iznesenih sa juga. Daleko od svega toga, na Svetoj gori, Hilandar — zadužbina Nemanje i Save — neprekidno je radio kao srpska kuća unutar vaseljenske pravoslavne zajednice."
+        "text": "U bivšoj srednjovekovnoj Srbiji, pod osmanskom vlašću, glavne zadužbine su, uz prekide i štete, opstale. Studenica, mauzolej Nemanjin; Mileševa, sa moštima Svetog Save; Sopoćani sa svojim freskama; Visoki Dečani i Gračanica na Kosovu; Pećka patrijaršija u podnožju Prokletija — sve su to mesta koja su kroz petnaesti, šesnaesti i sedamnaesti vek nastavila da pevaju istu liturgiju, čuvaju iste knjige i pominju iste vladare po imenu. Severno od Save i Dunava, u Sremu — do 1520-ih pod ugarskom krunom, a potom pod osmanskom vlašću — izrastao je u istom razdoblju novi monaški pojas — manastiri Fruške gore: Krušedol, Vrdnik, Hopovo, Bešenovo i drugi, koji će postati duhovno utočište izbeglih vlastelinskih porodica i mesto čuvanja knjiga iznesenih sa juga. Daleko od svega toga, na Svetoj gori, Hilandar — zadužbina Nemanje i Save — neprekidno je radio kao srpska kuća unutar vaseljenske pravoslavne zajednice."
       },
       {
         "type": "heading",
@@ -8231,7 +8229,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Uz knjigu, čuvao se i kalendar. Srpski sveti — Sveti Sava, Sveti Stefan Dečanski, Sveti knez Lazar Kosovski, Sveti car Uroš, Sveti Simeon Mirotočivi — imali su svoje dane u crkvenoj godini i te dane su manastiri javno obeležavali. To je bila tiha, a istrajna politika pamćenja: svake godine, na istim datumima, ime jednog srpskog vladara izgovaralo se na liturgiji u istom hramu koji je on, ili neko iz njegove kuće, podigao. Iz tog kalendara izrasla je i porodična slava — patronalni praznik svetog zaštitnika doma — koja je iz monaške i crkvene prakse prešla u običaj srpskih domaćinstava i tako, preko trpeze i sveće, vezala obične ljude za isti svet svetitelja koji su pominjali monasi."
+        "text": "Uz knjigu, čuvao se i kalendar. Srpski sveti — Sveti Sava, Sveti Stefan Dečanski, Sveti knez Lazar Kosovski, Sveti car Uroš, Sveti Simeon Mirotočivi — imali su svoje dane u crkvenoj godini i te dane su manastiri javno obeležavali. To je bila tiha, a istrajna politika pamćenja: svake godine, na istim datumima, ime jednog srpskog vladara izgovaralo se na liturgiji u istom hramu koji je on, ili neko iz njegove kuće, podigao. Uz taj kalendar živela je i porodična slava — patronalni praznik svetog zaštitnika doma, čije se poreklo tumači različito, kao hristijanizovani kult predaka ili kao crkveni običaj — koja je postala običaj srpskih domaćinstava i tako, preko trpeze i sveće, vezala obične ljude za isti svet svetitelja koji su pominjali monasi."
       },
       {
         "type": "paragraph",
@@ -8289,7 +8287,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Treći sloj, pokosovski, okreće se prema životu pod tuđom vlašću. Njegov najveći junak je Kraljević Marko — istorijski Marko Mrnjavčević, vladar male oblasti na jugu, osmanski vazal, koji je u stvarnosti poginuo boreći se na turskoj strani 1395. U pesmi je on, međutim, postao oličenje snage i lukavstva potlačenog naroda: jaše Šarca, nosi šestoper, izlazi na megdane, brani slabe, prkosi caru kome je inače dužan. Sačuvano je preko trideset pesama o njemu i one čine zasebnu malu epopeju. Uz Marka, u pokosovskom sloju nalaze se i pesme o drugim junacima koji se odupiru Turcima, o porodičnim sudbinama, o seobama. Hajdučke i uskočke pesme, vezane za otporne čete na osmansko-habzburškoj granici, čine kasniji nastavak iste tradicije, i njima ćemo se vratiti."
+        "text": "Treći sloj, pokosovski, okreće se prema životu pod tuđom vlašću. Njegov najveći junak je Kraljević Marko — istorijski Marko Mrnjavčević, vladar male oblasti na jugu, osmanski vazal, koji je u stvarnosti poginuo boreći se na turskoj strani 1395. U pesmi je on, međutim, postao oličenje snage i lukavstva potlačenog naroda: jaše Šarca, nosi šestoper, izlazi na megdane, brani slabe, prkosi caru kome je inače dužan. Sačuvane su desetine, u svim zbirkama zajedno i stotine pesama o njemu, i one čine zasebnu malu epopeju. Uz Marka, u pokosovskom sloju nalaze se i pesme o drugim junacima koji se odupiru Turcima, o porodičnim sudbinama, o seobama. Hajdučke i uskočke pesme, vezane za otporne čete na osmansko-habzburškoj granici, čine kasniji nastavak iste tradicije, i njima ćemo se vratiti."
       },
       {
         "type": "paragraph",
@@ -8297,7 +8295,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Sve to bi ostalo u sećanju samo onih koji su slušali da nije bilo onoga što se dogodilo mnogo kasnije, početkom 19. veka. Tada je Vuk Stefanović Karadžić, sin krajiške porodice i jezikoslovac samouk, počeo da beleži pesme od guslara koje je sretao po Srbiji, Hercegovini i Vojvodini, da ih objavljuje i da šalje u Evropu. Njegovi zbornici „Srpske narodne pjesme”, izlazili od 1814. nadalje, otkrili su evropskim učenjacima — od Getea do Jakoba Grima — postojanje žive epske tradicije srpskih seljaka. Bez Vukovog truda, dobar deo te poezije bio bi izgubljen kada je 20. vek ugasio i poslednje guslare živog usmenog kolovrata."
+        "text": "Sve to bi ostalo u sećanju samo onih koji su slušali da nije bilo onoga što se dogodilo mnogo kasnije, početkom 19. veka. Tada je Vuk Stefanović Karadžić, sin seljačke porodice iz Tršića, doseljene iz Drobnjaka, i jezikoslovac samouk, počeo da beleži pesme od guslara koje je sretao po Srbiji, Hercegovini i Vojvodini, da ih objavljuje i da šalje u Evropu. Njegove zbirke, od „Pjesnarice” 1814. do višetomnih „Srpskih narodnih pjesama” (od 1823), otkrile su evropskim učenjacima — od Getea do Jakoba Grima — postojanje žive epske tradicije srpskih seljaka. Bez Vukovog truda, dobar deo te poezije bio bi izgubljen kada je 20. vek potisnuo živo usmeno stvaranje."
       },
       {
         "type": "paragraph",
@@ -8317,7 +8315,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "content": [
       {
         "type": "paragraph",
-        "text": "Tri decenije posle pada Smedereva i nekoliko godina posle pada poslednjih despotskih ostrva na severu, korisno je stati i napraviti trezven popis onoga što je sa srednjovekovnom srpskom državom nestalo. Nije reč o žalopojci, nego o knjigovodstvu — o pokušaju da se, bez sentimentalnog uveličavanja i bez umanjivanja, izbroji šta je tačno otišlo i šta to znači. Tek kada se taj račun pošteno podvuče, može se u sledećoj lekciji govoriti o onome što je, uprkos svemu, ostalo.",
+        "text": "Tri decenije posle pada Smedereva i nekoliko godina posle pada Hercegovine (1482), korisno je stati i napraviti trezven popis onoga što je sa srednjovekovnom srpskom državom nestalo. Nije reč o žalopojci, nego o knjigovodstvu — o pokušaju da se, bez sentimentalnog uveličavanja i bez umanjivanja, izbroji šta je tačno otišlo i šta to znači. Tek kada se taj račun pošteno podvuče, može se u sledećoj lekciji govoriti o onome što je, uprkos svemu, ostalo.",
         "dropcap": true
       },
       {
@@ -8330,7 +8328,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Drugi krupan gubitak jeste plemstvo. Čitav srednjovekovni srpski vlasteoski sloj, sa svojim posedima, gradovima, vojnom obavezom i sopstvenom kulturom, prestao je da postoji kao klasa na srpskom tlu. Sudbine pojedinaca su različite. Jedan deo je izbegao u Ugarsku, gde su Brankovići i mlađe vlasteoske porodice nastavili da se bore na granici. Drugi deo je primio islam i ušao u osmansku službu — odatle će potom izrasti uticajne porodice, među njima i ona iz koje će poteći Mehmed-paša Sokolović. Najveći broj je, međutim, raseljen, osiromašen ili izgubljen u dugim ratovima. Posledica je jednostavna: na zemljama nekadašnje Despotovine više nema domaće aristokratije koja bi mogla da govori u ime društva."
+        "text": "Drugi krupan gubitak jeste plemstvo. Čitav srednjovekovni srpski vlasteoski sloj, sa svojim posedima, gradovima, vojnom obavezom i sopstvenom kulturom, prestao je da postoji kao klasa na srpskom tlu. Sudbine pojedinaca su različite. Jedan deo je izbegao u Ugarsku, gde su Brankovići i mlađe vlasteoske porodice nastavili da se bore na granici. Drugi deo je primio islam i ušao u osmansku službu — odatle će potom izrasti uticajne porodice u osmanskoj službi. Najveći broj je, međutim, raseljen, osiromašen ili izgubljen u dugim ratovima. Posledica je jednostavna: na zemljama nekadašnje Despotovine više nema domaće aristokratije koja bi mogla da govori u ime društva."
       },
       {
         "type": "heading",
@@ -8351,7 +8349,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Najmanje opipljiv, a možda najtrajniji gubitak tiče se međunarodnog glasa. Dokle god je postojala Despotovina, postojala je i adresa: u Carigrad, u Rim, u Budim, u Veneciju polazila su srpska poslanstva, pisma i molbe potpisane imenom vladara. Posle 1459, a pogotovo posle 1485, te adrese više nema. Srpski narod živi i dalje, brojan i raseljen, ali nema državu koja bi za njega govorila pred evropskim dvorovima. Taj nedostatak glasa odraziće se i unutra — kao osećanje raseljenosti i lišenja onih okvira koji su vekovima organizovali zajednički život."
+        "text": "Najmanje opipljiv, a možda najtrajniji gubitak tiče se međunarodnog glasa. Dokle god je postojala Despotovina, postojala je i adresa: u Carigrad, u Rim, u Budim, u Veneciju polazila su srpska poslanstva, pisma i molbe potpisane imenom vladara. Posle 1459, a pogotovo posle pada Bosne 1463. i Hercegovine 1482, te adrese više nema. Srpski narod živi i dalje, brojan i raseljen, ali nema državu koja bi za njega govorila pred evropskim dvorovima. Taj nedostatak glasa odraziće se i unutra — kao osećanje raseljenosti i lišenja onih okvira koji su vekovima organizovali zajednički život."
       },
       {
         "type": "paragraph",
@@ -8369,7 +8367,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "content": [
       {
         "type": "paragraph",
-        "text": "Kada se podvuče crta ispod kraja srednjovekovne srpske države — Smederevo 1459, Bosna 1463, Hercegovina 1482, Zeta krajem veka — lako je videti samo ono što je nestalo: presto, vojska, dvor, kovani novac, diplomatska prepiska, pravni sistem. Sve to je zaista presekano. Ali ispod te razrušene političke ljušture ostao je sloj koji Osmanlije nisu ni želele ni umele da unište — i upravo taj sloj će četiri i po veka kasnije omogućiti da se ponovo govori o srpskoj državi. Vredi, pre nego što se pređe na osmanske vekove, mirno popisati šta je to što je sačuvano.",
+        "text": "Kada se podvuče crta ispod kraja srednjovekovne srpske države — Smederevo 1459, Bosna 1463, Hercegovina 1482, Zeta krajem veka — lako je videti samo ono što je nestalo: presto, vojska, dvor, kovani novac, diplomatska prepiska, pravni sistem. Sve to je zaista presekano. Ali ispod te razrušene političke ljušture ostao je sloj koji Osmanlije nisu ni želele ni umele da unište — i upravo taj sloj će tri i po veka kasnije omogućiti da se ponovo govori o srpskoj državi. Vredi, pre nego što se pređe na osmanske vekove, mirno popisati šta je to što je sačuvano.",
         "dropcap": true
       },
       {
@@ -8391,7 +8389,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Treće — manastiri. Najveći deo srednjovekovnih zadužbina je preživeo. Studenica, Mileševa, Sopoćani, Dečani, Gračanica, Pećka patrijaršija, Manasija, Ravanica — sve su to zdanja koja su, uz oštećenja i privremena pustošenja, dočekala devetnaesti vek. Hilandar na Svetoj Gori nije ni prestajao da postoji. U Sremu, pod ugarskom vlašću u petnaestom i šesnaestom veku, fruškogorski manastiri — Krušedol, Hopovo, Šišatovac, Beočin i drugi — postali su novo monaško srce srpskog sveta, sklonište za mošti, ikone i prepisivače koji su bežali sa juga. Tako se, paralelno sa starim središtima u Raškoj i na Kosovu, formirao novi pojas duhovnog života koji je nadoknađivao ono što je na jugu bilo otežano."
+        "text": "Treće — manastiri. Najveći deo srednjovekovnih zadužbina je preživeo. Studenica, Mileševa, Sopoćani, Dečani, Gračanica, Pećka patrijaršija, Manasija, Ravanica — sve su to zdanja koja su, uz oštećenja i privremena pustošenja, dočekala devetnaesti vek. Hilandar na Svetoj Gori nije ni prestajao da postoji. U Sremu, najpre pod ugarskom, a od 1520-ih pod osmanskom vlašću, fruškogorski manastiri — Krušedol, Hopovo, Šišatovac, Beočin i drugi — postali su novo monaško srce srpskog sveta, sklonište za mošti, ikone i prepisivače koji su bežali sa juga. Tako se, paralelno sa starim središtima u Raškoj i na Kosovu, formirao novi pojas duhovnog života koji je nadoknađivao ono što je na jugu bilo otežano."
       },
       {
         "type": "paragraph",
