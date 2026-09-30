@@ -19997,7 +19997,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Diplomatsko rešenje sazrevalo je u maju i početkom juna. Posrednici su bili ruski izaslanik Viktor Černomirdin i finski predsednik Marti Ahtisari. Rusija je svojim odbijanjem da podrži direktnu intervenciju, a istovremenim pritiskom na Beograd, pomogla da se izvuče kompromis: Kosovo ostaje formalno deo Jugoslavije, ali prelazi pod upravu Ujedinjenih nacija; jugoslovenske snage se povlače; ulazi međunarodni vojni kontingent pod oznakom KFOR, sa značajnim učešćem NATO trupa. Slobodan Milošević je tu formulu prihvatio 3. juna, a Savet bezbednosti UN ozakonio ju je 10. juna 1999. Rezolucijom 1244. Iste večeri NATO je zvanično obustavio vazdušne udare."
+        "text": "Diplomatsko rešenje sazrevalo je u maju i početkom juna. Posrednici su bili ruski izaslanik Viktor Černomirdin i finski predsednik Marti Ahtisari. Rusija je svojim odbijanjem da podrži direktnu intervenciju, a istovremenim pritiskom na Beograd, pomogla da se izvuče kompromis: Kosovo ostaje formalno deo Jugoslavije, ali prelazi pod upravu Ujedinjenih nacija; jugoslovenske snage se povlače; ulazi međunarodni vojni kontingent pod oznakom KFOR, sa značajnim učešćem NATO trupa. Slobodan Milošević je tu formulu prihvatio 3. juna. Devetog juna u Kumanovu su predstavnici KFOR-a, Vojske Jugoslavije i srpske policije potpisali Vojno-tehnički sporazum o povlačenju jugoslovenskih snaga sa Kosova. Kada je povlačenje počelo, NATO je 10. juna obustavio vazdušne udare, a Savet bezbednosti UN istog dana je Rezolucijom 1244 ozakonio novi poredak u pokrajini."
       },
       {
         "type": "paragraph",
@@ -20655,20 +20655,20 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "content": [
       {
         "type": "paragraph",
-        "text": "Ako se istorija Srbije čita kao niz teških odluka donetih pod pritiskom — između istoka i zapada, između carstava i sopstvenog opstanka, između tradicije i modernizacije — onda početak treće decenije 21. veka pokazuje da taj niz nije završen. Srbija danas nije ratom razorena zemlja kao devedesetih, niti izolovani autoritarni sistem kao u velikom delu devedesetih, ali pred sobom ima dugačku listu otvorenih pitanja. Nijedno od njih nije strogo novo; većina je nastajala godinama, neka i decenijama. Pošteno ih je nabrojati zajedno, ne pretvarati se da su rešena, i ne tražiti jednostavnu krivicu za njihovu prisutnost. To je tema ove lekcije.",
+        "text": "Ako se istorija Srbije čita kao niz teških odluka donetih pod pritiskom — između istoka i zapada, između carstava i sopstvenog opstanka, između tradicije i modernizacije — onda početak treće decenije 21. veka pokazuje da taj niz nije završen. Srbija danas nije ratom razorena, izolovana i autoritarno vođena zemlja kakva je bila devedesetih, ali pred sobom ima dugačku listu otvorenih pitanja, koja su većinom nastajala godinama, neka i decenijama. Pošteno ih je nabrojati zajedno, ne pretvarati se da su rešena, i ne tražiti jednostavnu krivicu za njihovu prisutnost.",
         "dropcap": true
       },
       {
         "type": "paragraph",
-        "text": "Prvi izazov je demografski. Stopa nataliteta u Srbiji već decenijama je ispod nivoa proste reprodukcije; broj umrlih duže vreme nadmašuje broj rođenih. Popis stanovništva sproveden 2022. godine pokazao je dalji pad ukupnog broja stanovnika u odnosu na popis iz 2011. Stanovništvo stari, prosečan životni vek raste, ali raste i udeo starijih u ukupnoj strukturi. Uporedo s tim, mnogi mladi i obrazovani odlaze — u zemlje Evropske unije, pre svega u Nemačku, Austriju i Skandinaviju, ali i preko okeana. Iseljavanje nije pojava karakteristična samo za Srbiju, ali je razmera, naročito odliva lekara, inženjera i programera, ozbiljna. Posledice su dugoročne: manja radna snaga, manji poreski osnov i sve veći pritisak na penzioni i zdravstveni sistem."
+        "text": "Prvi izazov je demografski. Stopa nataliteta u Srbiji već decenijama je ispod nivoa proste reprodukcije; broj umrlih duže vreme nadmašuje broj rođenih. Popis iz 2022. pokazao je dalji pad ukupnog broja stanovnika u odnosu na popis iz 2011. Stanovništvo stari. Uporedo s tim, mnogi mladi i obrazovani odlaze — u zemlje Evropske unije, pre svega u Nemačku, Austriju i Skandinaviju, ali i preko okeana. Iseljavanje nije samo srpska pojava, ali je njegova razmera, naročito kod lekara, inženjera i programera, ozbiljna. Posledice su dugoročne: manja radna snaga, manji poreski osnov i sve veći pritisak na penzioni i zdravstveni sistem."
       },
       {
         "type": "paragraph",
-        "text": "Drugi izazov je status Kosova. Posle proglašenja nezavisnosti 2008. i posle pregovora vođenih pod okriljem Evropske unije od 2011. godine, glavna politička i pravna pitanja ostala su otvorena. Srbija nezavisnost ne priznaje; deo međunarodne zajednice je priznaje, drugi deo ne; Zajednica srpskih opština, predviđena dogovorima iz 2013, više puta je obećavana, ali nije formirana u celini. Kosovo se javlja gotovo u svakoj važnijoj raspravi o evropskoj budućnosti zemlje, jer Brisel uslovljava napredak normalizacijom odnosa Beograda i Prištine. To je centralno otvoreno pitanje srpske politike u 21. veku, i nije moguće govoriti o izazovima države a ne pomenuti ga."
+        "text": "Drugi izazov je status Kosova. Posle proglašenja nezavisnosti 2008. i posle pregovora vođenih pod okriljem Evropske unije od 2011. godine, glavna politička i pravna pitanja ostala su otvorena. Srbija nezavisnost ne priznaje; deo međunarodne zajednice je priznaje, drugi deo ne; Zajednica srpskih opština, predviđena dogovorima iz 2013, više puta je obećavana, ali nije formirana u celini. Brisel evropski napredak Srbije uslovljava normalizacijom odnosa Beograda i Prištine, pa je to centralno otvoreno pitanje srpske politike u 21. veku."
       },
       {
         "type": "paragraph",
-        "text": "Treći izazov vezan je za institucije i vladavinu prava. Srbija je status kandidata za članstvo u Evropskoj uniji dobila 2012, a pregovore otvorila 2014. godine. Najteža poglavlja — 23, koje pokriva pravosuđe i osnovna prava, i 24, koje obuhvata pravdu, slobodu i bezbednost — još uvek nisu zatvorena. U javnosti se godinama vodi rasprava o nezavisnosti pravosuđa, o uslovima rada medija, o izbornim uslovima i o kontroli javnih nabavki. Različiti izveštaji evropskih institucija i domaćih organizacija ukazivali su na potrebu daljih reformi. Ovde je dovoljno reći da je institucionalna izgradnja, kao i u mnogim postsocijalističkim društvima, posao koji nije završen."
+        "text": "Treći izazov vezan je za institucije i vladavinu prava. Srbija je status kandidata za članstvo u Evropskoj uniji dobila 2012, a pregovore otvorila 2014. godine. Najteža poglavlja — 23, koje pokriva pravosuđe i osnovna prava, i 24, koje obuhvata pravdu, slobodu i bezbednost — još uvek nisu zatvorena. Godinama se raspravlja o nezavisnosti pravosuđa, uslovima rada medija, izbornim uslovima i kontroli javnih nabavki. Različiti izveštaji evropskih institucija i domaćih organizacija ukazivali su na potrebu daljih reformi. Institucionalna izgradnja, kao i u mnogim postsocijalističkim društvima, posao je koji nije završen."
       },
       {
         "type": "heading",
@@ -20677,33 +20677,46 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Ekonomski, slika je dvostruka. Posle teških devedesetih i sporog oporavka dvehiljaditih, Srbija u 2020-im beleži stabilan rast, niži javni dug nego ranije i veće strane investicije. Ali rast nije ravnomerno raspoređen. Beograd i Novi Sad, sa okolinom, čine ekonomsko jezgro u koje se sliva većina ulaganja, dok mnoga područja u unutrašnjosti — južna i istočna Srbija, delovi Šumadije, pogranične opštine — beleže demografsko i privredno opadanje. Privatizacija velikih preduzeća, započeta još početkom 2000-ih, ostavila je za sobom otvorena pitanja i nerešene sudbine pojedinih nekadašnjih industrijskih centara. Privreda se u velikoj meri oslanja na strane direktne investicije, pre svega u prerađivačku industriju, što daje radna mesta ali i zavisnost od globalnih ciklusa."
+        "text": "Ekonomski, slika je dvostruka. Posle teških devedesetih i sporog oporavka dvehiljaditih, Srbija u 2020-im beleži stabilan rast, niži javni dug nego ranije i veće strane investicije, ali rast je neravnomeran. Beograd i Novi Sad, sa okolinom, čine ekonomsko jezgro u koje se sliva većina ulaganja, dok mnoga područja u unutrašnjosti — južna i istočna Srbija, delovi Šumadije, pogranične opštine — beleže demografsko i privredno opadanje. Privatizacija velikih preduzeća, započeta početkom 2000-ih, ostavila je iza sebe i nerešene sudbine nekadašnjih industrijskih centara. Privreda se u velikoj meri oslanja na strane direktne investicije, pre svega u prerađivačku industriju, što daje radna mesta ali i zavisnost od globalnih ciklusa."
       },
       {
         "type": "paragraph",
-        "text": "Na taj okvir dodaje se spoljnopolitičko balansiranje. Srbija je formalno na evropskom putu, ali održava bliske političke veze sa Ruskom Federacijom — istorijske, energetske i diplomatske — i razvija sve značajnije ekonomsko partnerstvo sa Narodnom Republikom Kinom, naročito u oblasti infrastrukture i rudarstva. Ova trostruka geometrija, između Brisela, Moskve i Pekinga, oblikuje i ekonomske odluke; ona je predmet stalne rasprave i, do trenutka pisanja ove lekcije, nije razrešena u jednom jasnom strateškom pravcu."
+        "text": "Na taj okvir dodaje se spoljnopolitičko balansiranje. Srbija je formalno na evropskom putu, ali održava bliske političke veze sa Ruskom Federacijom — istorijske, energetske i diplomatske — i razvija sve značajnije ekonomsko partnerstvo sa Narodnom Republikom Kinom, naročito u oblasti infrastrukture i rudarstva. Ova trostruka geometrija, između Brisela, Moskve i Pekinga, oblikuje i ekonomske odluke; ona je predmet stalne rasprave i nije razrešena u jednom jasnom strateškom pravcu."
       },
       {
         "type": "paragraph",
-        "text": "Ekološka pitanja postala su u 2020-im jedna od najvidljivijih tema. Beograd se redovno nalazi pri vrhu evropskih lista gradova sa najlošijim kvalitetom vazduha u zimskim mesecima, pre svega zbog grejanja na ugalj i dotrajalih termoenergetskih kapaciteta. Kvalitet vode u rekama i podzemnim slojevima u više navrata bio je razlog zabrinutosti stručnjaka. Posebno snažnu javnu reakciju izazvao je projekat rudnika litijuma u dolini Jadra, koji je vodila kompanija „Rio Tinto”: zbog protesta krajem 2021. i početkom 2022. godine vlada je tada povukla prostorni plan, ali pitanje rudarenja litijuma kasnije se vraćalo u javnu raspravu. Bez ulaženja u sukobljene argumente, jasno je da se odnos između privrednog razvoja, rudnog bogatstva i zaštite životne sredine nametnuo kao jedno od ključnih pitanja sadašnjeg trenutka."
+        "text": "Ekološka pitanja postala su u 2020-im jedna od najvidljivijih tema. Beograd se redovno nalazi pri vrhu evropskih lista gradova sa najlošijim kvalitetom vazduha u zimskim mesecima, pre svega zbog grejanja na ugalj i dotrajalih termoenergetskih kapaciteta. Stručnjake je više puta zabrinjavao i kvalitet vode. Posebno snažnu javnu reakciju izazvao je projekat rudnika litijuma u dolini Jadra, koji je vodila kompanija „Rio Tinto”: zbog protesta krajem 2021. i početkom 2022. godine vlada je tada povukla prostorni plan, ali pitanje rudarenja litijuma kasnije se vraćalo u javnu raspravu. Odnos između privrednog razvoja, rudnog bogatstva i zaštite životne sredine nametnuo se kao jedno od ključnih pitanja."
       },
       {
         "type": "paragraph",
-        "text": "Društveni izazovi prepliću se sa svim navedenim. Sistem zdravstvene zaštite se reformiše, ali nosi nasleđe nedovoljnog ulaganja i odliva kadrova. Obrazovanje, od osnovnog do visokog, prolazi kroz rasprave o programima, finansiranju i pripremi mladih za tržište rada koje se brzo menja. Odlazak obrazovanih ljudi — ono što se često naziva odliv mozgova — dodatno opterećuje ove sisteme. Sve to se odvija u društvu koje stari, što znači da rastu i zahtevi prema penzionom i socijalnom sistemu."
+        "text": "Društveni izazovi prepliću se sa svim navedenim. Sistem zdravstvene zaštite se reformiše, ali nosi nasleđe nedovoljnog ulaganja i odliva kadrova. Obrazovanje, od osnovnog do visokog, prolazi kroz rasprave o programima, finansiranju i pripremi mladih za tržište rada koje se brzo menja. Odliv mozgova i starenje stanovništva dodatno opterećuju ove sisteme."
       },
       {
         "type": "paragraph",
-        "text": "U toj klimi, 2020-e su donele i talas građanske mobilizacije. Protesti protiv zagađenja vazduha, protesti povodom projekta litijuma, ekološke blokade puteva 2021. godine, kao i ponovljene demonstracije oko izbornih uslova, pokazali su da postoji aktivna javnost koja traži učešće u odlukama. Bez procenjivanja političkih ishoda, ovi događaji deo su istorijske slike: znak da građanski angažman u Srbiji nije zamro i da se važna pitanja sve češće postavljaju i izvan stranačkih okvira."
+        "text": "U toj klimi, 2020-e su donele i talas građanske mobilizacije. Protesti protiv zagađenja vazduha, protesti povodom projekta litijuma, ekološke blokade puteva 2021. godine, kao i ponovljene demonstracije oko izbornih uslova, pokazali su da postoji aktivna javnost koja traži učešće u odlukama. Važna pitanja sve češće su se postavljala izvan stranačkih okvira."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Novi Sad, 1. novembar 2024."
       },
       {
         "type": "paragraph",
-        "text": "Spisak je dugačak i, pošteno rečeno, ovde nije iscrpan. Neka pitanja — demografija, Kosovo, vladavina prava, regionalne nejednakosti, životna sredina — verovatno će obeležiti i sledeću deceniju. Istorija se ne završava srećnim krajem niti konačnom katastrofom; ona se nastavlja kao niz odluka koje neka generacija mora doneti. Razumeti današnje izazove znači videti ih kao deo dužeg toka — od stvaranja moderne države u 19. veku, preko jugoslovenskih iskustava, do današnje Republike Srbije — i prihvatiti da je odgovornost za odgovore na njih, kao i uvek, na onima koji žive u sadašnjem trenutku."
+        "text": "Malo pre podneva 1. novembra 2024. obrušila se betonska nadstrešnica nad ulazom u železničku stanicu u Novom Sadu, zgradu koja je nedugo pre toga bila rekonstruisana. Poginulo je šesnaestoro ljudi — četrnaestoro na mestu, dvoje kasnije od povreda — a jedna osoba je teško povređena. Iz okupljanja u spomen na žrtve i protesta izrastao je pokret koji su predvodili studenti. Od kraja novembra fakulteti su jedan za drugim ulazili u blokade, tražeći objavljivanje kompletne dokumentacije o rekonstrukciji i gonjenje napadača na demonstrante; vlast je tvrdila da su zahtevi ispunjeni, studenti da nisu. Premijer Miloš Vučević podneo je ostavku 28. januara 2025, a nova vlada, na čelu sa Đurom Macutom, izabrana je u aprilu. Najveći skup održan je u Beogradu 15. marta 2025; procene se razlikuju — Arhiv javnih skupova naveo je između 275.000 i 325.000 učesnika, a policija oko 107.000."
+      },
+      {
+        "type": "paragraph",
+        "text": "Krivični postupci vode se pred više tužilaštava. Optužnica novosadskog tužilaštva, među čijim su okrivljenima i bivši ministar i drugi funkcioneri, potvrđena je u junu 2026, ali suđenje do jeseni nije počelo, jer se čeka odluka Vrhovnog suda o zahtevima odbrane. Istraga i sudski postupci su u toku, a krivična odgovornost nije utvrđena. U septembru 2026. raspisani su vanredni parlamentarni izbori za 25. oktobar, na kojima učestvuje i lista koju su prijavili studenti iz protestnog pokreta; njihov ishod u trenutku pisanja nije poznat."
+      },
+      {
+        "type": "paragraph",
+        "text": "Spisak ovde nije iscrpan. Neka pitanja — demografija, Kosovo, vladavina prava, regionalne nejednakosti, životna sredina — verovatno će obeležiti i sledeću deceniju. Istorija se ne završava srećnim krajem niti konačnom katastrofom; ona se nastavlja kao niz odluka koje neka generacija mora doneti. Razumeti današnje izazove znači videti ih kao deo dužeg toka — od stvaranja moderne države u 19. veku, preko jugoslovenskih iskustava, do današnje Republike Srbije — i prihvatiti da je odgovornost za odgovore na njih, kao i uvek, na onima koji žive u sadašnjem trenutku."
       }
     ],
     "subtitle": "Demografija, Kosovo, vladavina prava, ekonomija i ekologija — otvoreni zadaci s kojima Srbija ulazi u 2020-e",
     "dateLabel": "savremeno doba",
     "timelinePosition": "savremeno doba",
-    "summary": "Pregled glavnih otvorenih pitanja sa kojima Srbija ulazi u 2020-e: demografski pad i odlazak mladih, status Kosova, vladavina prava i evropske integracije, regionalne nejednakosti, spoljnopolitičko balansiranje, ekološki izazovi i građanska mobilizacija.",
+    "summary": "Pregled glavnih otvorenih pitanja sa kojima Srbija ulazi u 2020-e: demografski pad i odlazak mladih, status Kosova, vladavina prava i evropske integracije, regionalne nejednakosti, spoljnopolitičko balansiranje, ekološki izazovi i građanska mobilizacija, do pada nadstrešnice u Novom Sadu 2024. i studentskih protesta koji su usledili.",
     "keyPeople": [],
     "keyPlaces": [
       "Beograd",
