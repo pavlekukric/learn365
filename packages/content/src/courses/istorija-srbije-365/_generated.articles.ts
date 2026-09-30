@@ -2531,7 +2531,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Sukob je bio gotovo neizbežan. Oko 840. godine (po nekim istraživačima nešto kasnije) bugarski kan Presijam, prema Porfirogenitovom svedočanstvu, pokrenuo je veliki pohod na srpske zemlje, sa ciljem da ih potčini. Rat je trajao oko tri godine, vodio se po teškom planinskom terenu i završio se neuspehom Bugara — Vlastimir je odbranio svoje zemlje, a sukob je ostao u sećanju kao prvi veliki srpski odbrambeni rat. Mir nije bio trajan; tokom narednih decenija, već pod Vlastimirovim sinovima, dolazilo je do novih ratova, primirja i razmena talaca. Bugarska će ostati glavni rival srpskim zemljama sve do velikih promena na Balkanu krajem 10. veka."
+        "text": "Sukob je bio gotovo neizbežan. Oko 840. godine (po nekim istraživačima nešto kasnije) bugarski kan Presijan, prema Porfirogenitovom svedočanstvu, pokrenuo je veliki pohod na srpske zemlje, sa ciljem da ih potčini. Rat je trajao oko tri godine, vodio se po teškom planinskom terenu i završio se neuspehom Bugara — Vlastimir je odbranio svoje zemlje, a sukob je ostao u sećanju kao prvi veliki srpski odbrambeni rat. Mir nije bio trajan; tokom narednih decenija, već pod Vlastimirovim sinovima, dolazilo je do novih ratova, primirja i razmena talaca. Bugarska će ostati glavni rival srpskim zemljama sve do velikih promena na Balkanu krajem 10. veka."
       },
       {
         "type": "paragraph",
@@ -2667,11 +2667,11 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Treba biti iskren u jednom — izvora za ovo razdoblje ima malo, i svaki ima svoju stranu. Vizantijski hroničari, pre svih Konstantin Porfirogenit u desetom veku, pišu o srpskim zemljama iz ugla carstva i prvenstveno onda kada se one umešaju u carske poslove. Papska pisma osvetljavaju samo one trenutke kada je Rim slao krune ili pregovarao o crkvenoj jurisdikciji. Domaći izvor postoji, ali samo jedan veliki — takozvani „Letopis popa Dukljanina”, poznat i kao Barski rodoslov, sastavljen sredinom dvanaestog veka u Baru. Taj spis pomešao je predanja, dinastičke spiskove i lokalne legende u jedinstvenu pripovest, i istoričari ga koriste oprezno: deo onoga što tvrdi može se proveriti drugim izvorima, deo izgleda kao kasnija konstrukcija, a deo je verovatno čisto predanje. Mnogo toga što o ovom vremenu znamo, znamo zato što se to predanje sačuvalo — ali baš zato treba pažljivo razlikovati ono što je sigurno od onoga što je verovatno ili samo moguće."
+        "text": "Treba biti iskren u jednom — izvora za ovo razdoblje ima malo, i svaki ima svoju stranu. Vizantijski hroničari, pre svih Konstantin Porfirogenit u desetom veku, pišu o srpskim zemljama iz ugla carstva i prvenstveno onda kada se one umešaju u carske poslove. Papska pisma osvetljavaju samo one trenutke kada je Rim slao krune ili pregovarao o crkvenoj jurisdikciji. Domaći izvor postoji, ali samo jedan veliki — takozvani „Letopis popa Dukljanina”, poznat i kao Barski rodoslov, nastao u Baru verovatno u drugoj polovini dvanaestog veka, mada ga deo istraživača datuje i znatno kasnije. Taj spis pomešao je predanja, dinastičke spiskove i lokalne legende u jedinstvenu pripovest, i istoričari ga koriste oprezno: deo onoga što tvrdi može se proveriti drugim izvorima, deo izgleda kao kasnija konstrukcija, a deo je verovatno čisto predanje. Mnogo toga što o ovom vremenu znamo, znamo zato što se to predanje sačuvalo — ali baš zato treba pažljivo razlikovati ono što je sigurno od onoga što je verovatno ili samo moguće."
       },
       {
         "type": "paragraph",
-        "text": "Iz svega toga izlazi slika dva paralelna srpska sveta koja su tri veka delila prostor, veru, dinastije i susede. Duklja je imala svoj kratki kraljevski sjaj i ostala upamćena po krunisanju u Baru. Raška je strpljivo gradila ono što će se pokazati trajnijim — kontinentalnu, pravoslavnu, vizantijski uobličenu državu sa središtem u brdima. Kada se 1166. na čelu Raške pojavi Stefan Nemanja, on neće graditi na praznom mestu. Iza njega stoji dugo iskustvo dveju srpskih oblasti, jedno priobalno i jedno planinsko, iz čijeg susreta i sukoba izlazi država o kojoj će biti reč u narednim lekcijama."
+        "text": "Iz svega toga izlazi slika dva paralelna srpska sveta koja su tri veka delila prostor, veru, dinastije i susede. Duklja je imala svoj kratki kraljevski sjaj i ostala upamćena po kraljevskoj tituli koju je 1077/78. priznao papa Grgur VII. Raška je strpljivo gradila ono što će se pokazati trajnijim — kontinentalnu, pravoslavnu, vizantijski uobličenu državu sa središtem u brdima. Kada se 1166. na čelu Raške pojavi Stefan Nemanja, on neće graditi na praznom mestu. Iza njega stoji dugo iskustvo dveju srpskih oblasti, jedno priobalno i jedno planinsko, iz čijeg susreta i sukoba izlazi država o kojoj će biti reč u narednim lekcijama."
       }
     ],
     "subtitle": "Dva središta srpskog sveta između pokrštavanja i dolaska Stefana Nemanje",
@@ -2703,7 +2703,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Prvi srpski vladar kome ime sa dovoljno sigurnosti znamo jeste Vlastimir, knez Raške sredinom devetog veka. O njemu glavnu vest donosi vizantijski car-pisac Konstantin Porfirogenit, gotovo sto godina kasnije, ali njegovo svedočanstvo ima težinu jer se oslanja na carsku kancelariju. Vlastimir je vladao u trenutku kada je susedna Bugarska bila u snažnom usponu i pokušavala da svoju vlast proširi i na slovenske oblasti zapadno od svojih granica. Kada je bugarski kan poveo vojsku na Srbe, oko 850. godine, Vlastimir ga je porazio — koliko vojnom veštinom, toliko i poznavanjem terena. Bila je to prva pobeda srpskog vladara koju izvori jasno beleže, i njome ulazi srpsko ime u redovan vizantijski rečnik."
+        "text": "Prvi srpski vladar kome ime sa dovoljno sigurnosti znamo jeste Vlastimir, knez Raške sredinom devetog veka. O njemu glavnu vest donosi vizantijski car-pisac Konstantin Porfirogenit, gotovo sto godina kasnije, ali njegovo svedočanstvo ima težinu jer se oslanja na carsku kancelariju. Vlastimir je vladao u trenutku kada je susedna Bugarska bila u snažnom usponu i pokušavala da svoju vlast proširi i na slovenske oblasti zapadno od svojih granica. Kada je bugarski kan Presijan poveo vojsku na Srbe, Vlastimir ga je u ratu vođenom oko 839–842. godine porazio — koliko vojnom veštinom, toliko i poznavanjem terena. Bila je to prva pobeda srpskog vladara koju izvori jasno beleže, i njome ulazi srpsko ime u redovan vizantijski rečnik."
       },
       {
         "type": "paragraph",
@@ -2837,11 +2837,11 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Ovde valja stati i biti pošten prema izvorima. Najveći deo onoga što znamo o Pantinu, o Tihomirovom utapanju i o Nemanjinom čudesnom izbavljenju iz tamnice ne dolazi iz dokumenata vremena u kome se zbilo, već iz žitija koja su napisali Nemanjini sinovi i potonji crkveni pisci. Stefan Prvovenčani, sin koji je nasledio oca, sastavio je hagiografiju u kojoj se otac prikazuje kao pravedan, bogom vođen vladar; sličan ton ima i nešto kasnije žitije iz pera Svetog Save. U takvim tekstovima drama, čudo i moralna pouka idu zajedno sa činjenicom. Jezgro je istorijski sigurno — Nemanja je oko 1166. godine postao veliki župan Raške i potisnuo brata — ali svaki dramatični detalj treba čitati sa svešću da iza njega stoji i pero koje je već znalo kako se priča završava."
+        "text": "Ovde valja stati i biti pošten prema izvorima. Najveći deo onoga što znamo o Pantinu, o Tihomirovom utapanju i o Nemanjinom čudesnom izbavljenju iz tamnice ne dolazi iz dokumenata vremena u kome se zbilo, već iz žitija koje je napisao Nemanjin sin Stefan i iz spisa potonjih crkvenih pisaca. Stefan Prvovenčani, sin koji je nasledio oca, sastavio je hagiografiju u kojoj se otac prikazuje kao pravedan, bogom vođen vladar; sličan ton ima i nešto ranije, kraće žitije iz pera Svetog Save, koje o ovim događajima ćuti. U takvim tekstovima drama, čudo i moralna pouka idu zajedno sa činjenicom. Jezgro je istorijski sigurno — Nemanja je oko 1166. godine postao veliki župan Raške i potisnuo brata — ali svaki dramatični detalj treba čitati sa svešću da iza njega stoji i pero koje je već znalo kako se priča završava."
       },
       {
         "type": "paragraph",
-        "text": "Prvi koji je morao da prihvati novu stvarnost bio je vizantijski car Manojlo. Po naslednom pravu i po dotadašnjoj praksi, on je bio taj koji je potvrđivao velikog župana. Tihomir je do tog časa bio njegov čovek; Nemanja, koji je vlast preuzeo silom, bio je za carstvo nepoznanica. Ipak, Manojlo je, posle početne uzdržanosti, novu vlast priznao — verovatno procenivši da je jaka i jedinstvena Raška, čak i pod čovekom koji je sam došao do prestola, korisnija od podeljene zemlje u građanskom ratu. Nemanja je formalno ostao vizantijski vazal, slao darove i poklisare u Carigrad i pratio carske vojne pohode kada se to od njega tražilo. Pravo razračunavanje sa Carstvom doći će tek kasnije, kada Manojlo umre i kada se ravnoteža sila promeni."
+        "text": "Prvi koji je morao da odgovori na novu stvarnost bio je vizantijski car Manojlo. Po naslednom pravu i po dotadašnjoj praksi, on je bio taj koji je potvrđivao velikog župana. Tihomir je bio carev čovek i kod Pantina je imao vizantijske pomoćne čete; Nemanja, koji je vlast preuzeo silom, bio je za carstvo pobunjeni vazal. Posle pobede on se okrenuo Veneciji i Ugarskoj, tražeći oslonac protiv Carigrada, pa ga je Manojlo 1172. velikim pohodom naterao na pokornost. Od tada je Nemanja formalno ostao vizantijski vazal, slao darove i poklisare u Carigrad i pratio carske vojne pohode kada se to od njega tražilo. Tek posle careve smrti 1180. godine, kada se ravnoteža sila promeni, Nemanja će moći da se osamostali."
       },
       {
         "type": "paragraph",
@@ -2889,7 +2889,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Posebno složena bila je borba za Zetu. Tamo je još uvek živelo sećanje na samostalno dukljansko kraljevstvo, sa svojim plemstvom, svojim primorskim gradovima i sa crkvenom organizacijom okrenutom Rimu. Nemanja je na Zetu polagao pravo i kao na deo srpskog prostora i kao na neophodan izlaz na more, bez koga bi država ostala zatvorena u brdima. Borbe nisu išle brzo. Bilo je pohoda, povlačenja, pregovora s primorskim gradovima — Kotorom, Barom, Ulcinjem — koji su čuvali svoje stare povlastice. Tek pred kraj svoje vladavine Nemanja je mogao reći da Zeta zaista pripada njegovoj državi; uprava nad njom poverena je njegovom najstarijem sinu Vukanu, što je istovremeno bila i nagrada i način da se osetljiva oblast drži pod čvrstom porodičnom rukom."
+        "text": "Posebno složena bila je borba za Zetu. Tamo je još uvek živelo sećanje na samostalno dukljansko kraljevstvo, sa svojim plemstvom, svojim primorskim gradovima i sa crkvenom organizacijom okrenutom Rimu. Nemanja je na Zetu polagao pravo i kao na deo srpskog prostora i kao na neophodan izlaz na more, bez koga bi država ostala zatvorena u brdima. Borbe nisu išle brzo. Bilo je pohoda, povlačenja, pregovora s primorskim gradovima — Kotorom, Barom, Ulcinjem — koji su čuvali svoje stare povlastice. Tek sredinom osamdesetih godina Nemanja je mogao reći da Zeta zaista pripada njegovoj državi; uprava nad njom poverena je njegovom najstarijem sinu Vukanu, što je istovremeno bila i nagrada i način da se osetljiva oblast drži pod čvrstom porodičnom rukom."
       },
       {
         "type": "paragraph",
@@ -2951,7 +2951,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Nemanja je u tom poslu bio neumoran. Negde oko 1170. godine podigao je, ili obnovio, Đurđeve Stupove iznad Rasa, posvećene Svetom Đorđu — manastir koji se i danas, iako oštećen, vidi u brdima nad starom prestonicom. Iz njegovog vremena potiče i niz manjih zadužbina po Raškoj i susednim oblastima. Ali pravo remek-delo, ono koje će postati zaštitni znak čitavog jednog stila, jeste Studenica. Nemanja je počeo da je zida oko 1190. godine u dolini istoimene reke, kao svoju buduću grobnu crkvu. Crkva Bogorodičinog Vavedenja izgrađena je od belog mermera, sa izuzetno klesanim portalima i prozorima koji spajaju vizantijsku osnovu sa romaničkom plastikom primorskih majstora. Iz tog spoja izrasla je takozvana raška škola — prepoznatljiv srpski graditeljski izraz koji će obeležiti naredni vek."
+        "text": "Nemanja je u tom poslu bio neumoran. Negde oko 1170. godine podigao je, ili obnovio, Đurđeve Stupove iznad Rasa, posvećene Svetom Đorđu — manastir koji se i danas, iako oštećen, vidi u brdima nad starom prestonicom. Iz njegovog vremena potiče i niz manjih zadužbina po Raškoj i susednim oblastima. Ali pravo remek-delo, ono koje će postati zaštitni znak čitavog jednog stila, jeste Studenica. Nemanja je počeo da je zida krajem osamdesetih godina dvanaestog veka ili oko 1190, u dolini istoimene reke, kao svoju buduću grobnu crkvu. Crkva Bogorodice Dobrotvorke (Uspenja Bogorodice) izgrađena je od belog mermera, sa izuzetno klesanim portalima i prozorima koji spajaju vizantijsku osnovu sa romaničkom plastikom primorskih majstora. Iz tog spoja izrasla je takozvana raška škola — prepoznatljiv srpski graditeljski izraz koji će obeležiti naredni vek."
       },
       {
         "type": "paragraph",
@@ -2980,12 +2980,12 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "content": [
       {
         "type": "paragraph",
-        "text": "U proleće 1196. godine, u utvrđenom Rasu, prestonici srpske države, dogodilo se nešto što savremenici nisu mogli da prime kao običnu vest. Veliki župan Stefan Nemanja, čovek koji je decenijama gradio državu, ratovao sa Vizantijom i podizao crkve, sazvao je sabor — skup velmoža, episkopa i sveštenstva — i pred njima objavio da silazi sa prestola. Imao je tada blizu sedamdeset godina, vlast mu nije bila ugrožena, niti je bio prinuđen. Sišao je dobrovoljno. To je bila odluka koja je u srednjovekovnom svetu, gde su vladari po pravilu umirali na prestolu, izgledala gotovo neshvatljivo.",
+        "text": "U proleće 1196. godine, u utvrđenom Rasu, prestonici srpske države, dogodilo se nešto što savremenici nisu mogli da prime kao običnu vest. Veliki župan Stefan Nemanja, čovek koji je decenijama gradio državu, ratovao sa Vizantijom i podizao crkve, sazvao je sabor — skup velmoža, episkopa i sveštenstva — i pred njima objavio da silazi sa prestola. Imao je tada preko osamdeset godina, vlast mu nije bila ugrožena, niti je bio prinuđen. Sišao je dobrovoljno. To je bila odluka koja je u srednjovekovnom svetu, gde su vladari po pravilu umirali na prestolu, izgledala gotovo neshvatljivo.",
         "dropcap": true
       },
       {
         "type": "paragraph",
-        "text": "Sabor je sazvan po svečanom obredu. U Ras su pozvani članovi porodice, dvorska vlastela, episkopi i igumani manastira. O događaju najpotpunije svedoči Stefan Prvovenčani u žitiju svog oca, napisanom nekoliko godina kasnije. Njegov tekst je u osnovi pouzdan u pogledu glavnog događaja, ali je delom i hagiografski — pisan u tonu pohvale ocu-monahu — pa pojedinosti o govorima i suzama treba čitati sa svešću o žanru. Ono što je sigurno: Nemanja je pred saborom obrazložio svoju odluku, predao znamenja vlasti i izvršio podelu nasleđa među sinovima."
+        "text": "Sabor je sazvan po svečanom obredu. U Ras su pozvani članovi porodice, dvorska vlastela, episkopi i igumani manastira. O događaju najpotpunije svedoči Stefan Prvovenčani u žitiju svog oca, napisanom dvadesetak godina kasnije (oko 1216). Njegov tekst je u osnovi pouzdan u pogledu glavnog događaja, ali je delom i hagiografski — pisan u tonu pohvale ocu-monahu — pa pojedinosti o govorima i suzama treba čitati sa svešću o žanru. Ono što je sigurno: Nemanja je pred saborom obrazložio svoju odluku, predao znamenja vlasti i izvršio podelu nasleđa među sinovima."
       },
       {
         "type": "paragraph",
@@ -3002,7 +3002,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Ali Studenica nije bila konačno odredište. Već u jesen 1197. ili u prvoj polovini 1198. godine — izvori se u tačnom datumu razlikuju — Simeon je krenuo na dalek put, na Svetu Goru, da se pridruži sinu Savi. Tamo će njih dvojica zajedno obnoviti opustelu vizantijsku zadužbinu i podići manastir Hilandar, koji će vekovima ostati duhovni centar srpskog naroda. O tom putovanju i o Hilandaru govoriće naredne lekcije; ovde je važno samo zabeležiti da je Nemanjina abdikacija bila i početak novog života, ne samo kraj starog."
+        "text": "Ali Studenica nije bila konačno odredište. Već u jesen 1197. godine Simeon je krenuo na dalek put, na Svetu Goru, da se pridruži sinu Savi. Tamo će njih dvojica zajedno obnoviti opustelu vizantijsku zadužbinu i podići manastir Hilandar, koji će vekovima ostati duhovni centar srpskog naroda. O tom putovanju i o Hilandaru govoriće naredne lekcije; ovde je važno samo zabeležiti da je Nemanjina abdikacija bila i početak novog života, ne samo kraj starog."
       },
       {
         "type": "paragraph",
@@ -3034,16 +3034,16 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "content": [
       {
         "type": "paragraph",
-        "text": "Kada je Stefan Nemanja u proleće 1196. skinuo vladarski plašt i u Studenici primio monaški postrig pod imenom Simeon, mnogi su to mogli razumeti kao časan kraj jednog dugog veka. Ispostavilo se da je to bio početak druge, ništa manje važne biografije. U naredne tri godine nekadašnji veliki župan napraviće, zajedno sa svojim sinom Rastkom — već poznatim u monaštvu kao Sava — potez koji će srpsku duhovnu istoriju vezati za jednu daleku poluostrvsku stenu na egejskoj obali i tamo je držati sve do današnjeg dana.",
+        "text": "Kada je Stefan Nemanja u proleće 1196. skinuo vladarski plašt i u crkvi Svetih apostola Petra i Pavla u Rasu primio monaški postrig pod imenom Simeon, mnogi su to mogli razumeti kao časan kraj jednog dugog veka. Ispostavilo se da je to bio početak druge, ništa manje važne biografije. U naredne tri godine nekadašnji veliki župan napraviće, zajedno sa svojim sinom Rastkom — već poznatim u monaštvu kao Sava — potez koji će srpsku duhovnu istoriju vezati za jednu daleku poluostrvsku stenu na egejskoj obali i tamo je držati sve do današnjeg dana.",
         "dropcap": true
       },
       {
         "type": "paragraph",
-        "text": "Prva godina nakon abdikacije prošla je u Studenici, u manastiru koji je on sam podigao. Život tamo bio je strog, ali blizak; Nemanja je u Raškoj još uvek bio prisutna pojava, otac vladajućeg sina, monah pred kojim su se i velikaši duboko klanjali. Ipak, nešto ga je vuklo dalje. Vesti sa Svete Gore, koje je preko poklisara i hodočasnika već godinama dobijao, govorile su o Savi — mladom sinu koji je još dečakom napustio dvor i tamo se zamonašio — i o životu u monaškoj republici koja je tada već bila glavno duhovno središte istočnog hrišćanstva. Krajem 1197. ili početkom 1198, prema podacima koje izvori dopuštaju, Simeon je krenuo na Atos."
+        "text": "Prva godina nakon abdikacije prošla je u Studenici, u manastiru koji je on sam podigao. Život tamo bio je strog, ali blizak; Nemanja je u Raškoj još uvek bio prisutna pojava, otac vladajućeg sina, monah pred kojim su se i velikaši duboko klanjali. Ipak, nešto ga je vuklo dalje. Vesti sa Svete Gore, koje je preko poklisara i hodočasnika već godinama dobijao, govorile su o Savi — mladom sinu koji je još dečakom napustio dvor i tamo se zamonašio — i o životu u monaškoj republici koja je tada već bila glavno duhovno središte istočnog hrišćanstva. U jesen 1197. Simeon je krenuo na Atos."
       },
       {
         "type": "paragraph",
-        "text": "Susret oca i sina na Svetoj Gori bio je susret dve generacije i dve uloge. Sava je u međuvremenu odrastao u zrelog monaha, dobro upoznatog sa pravilima svetogorskog života, sa grčkim jezikom i sa vizantijskom crkvenom upravom. Simeon je doneo nešto drugo — autoritet bivšeg vladara, mrežu veza sa carskim dvorom u Konstantinopolju i, što nije bilo nevažno, sredstva. Prve dve godine proveli su zajedno u Vatopedu, jednom od velikih grčkih manastira na Atosu, učeći i pomažući njegovoj zajednici. Tu je sazrela zamisao koja će obeležiti sve što sledi: da Srbi dobiju svoj manastir na Svetoj Gori."
+        "text": "Susret oca i sina na Svetoj Gori bio je susret dve generacije i dve uloge. Sava je u međuvremenu odrastao u zrelog monaha, dobro upoznatog sa pravilima svetogorskog života, sa grčkim jezikom i sa vizantijskom crkvenom upravom. Simeon je doneo nešto drugo — autoritet bivšeg vladara, mrežu veza sa carskim dvorom u Konstantinopolju i, što nije bilo nevažno, sredstva. Prve mesece proveli su zajedno u Vatopedu, jednom od velikih grčkih manastira na Atosu, učeći i pomažući njegovoj zajednici. Tu je sazrela zamisao koja će obeležiti sve što sledi: da Srbi dobiju svoj manastir na Svetoj Gori."
       },
       {
         "type": "heading",
@@ -3052,7 +3052,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "U gornjem delu Atosa nalazilo se napušteno svetilište — mali manastir Hilandar, koji je u to vreme bio gotovo pust i bez monaha. Sava i Simeon zatražili su dozvolu da ga obnove i da ga, uz blagoslov svetogorske zajednice, dobiju kao srpski dom. Pristanak je morao doći iz dva pravca: od same monaške zajednice na Atosu i od vizantijskog cara, koji je nad Svetom Gorom imao vrhovnu zaštitu. Te 1198. godine car Aleksije III Anđel izdao je hrisovulju — zlatnopečatnu povelju — kojom Hilandar prepušta Simeonu i Savi „kao baštinu srpskom narodu”, sa pravom da u njemu žive srpski monasi i da se njime sami upravljaju. Original te hrisovulje sačuvan je do danas u manastirskoj riznici i jedan je od najstarijih srpskih državno-crkvenih dokumenata uopšte."
+        "text": "U gornjem delu Atosa nalazilo se napušteno svetilište — mali manastir Hilandar, koji je u to vreme bio gotovo pust i bez monaha. Sava i Simeon zatražili su dozvolu da ga obnove i da ga, uz blagoslov svetogorske zajednice, dobiju kao srpski dom. Pristanak je morao doći iz dva pravca: od same monaške zajednice na Atosu i od vizantijskog cara, koji je nad Svetom Gorom imao vrhovnu zaštitu. Te 1198. godine car Aleksije III Anđel izdao je hrisovulju — zlatnopečatnu povelju — kojom Hilandar prepušta Simeonu i Savi kao manastir za monahe iz srpskog naroda, sa pravom da se njime sami upravljaju. Original te hrisovulje, pisan na grčkom, sačuvan je do danas u manastirskoj riznici i jedan je od najstarijih dokumenata srpske crkvene istorije."
       },
       {
         "type": "paragraph",
@@ -3060,7 +3060,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Simeon nije dugo živeo da vidi koliko će daleko otići ono što je započeo. Umro je u Hilandaru 13. februara 1199. godine, u ćeliji do crkve koju je sa Savom obnovio. Po žitiju koje je kasnije sastavio njegov sin, kraj je bio miran, među monasima i u molitvi. Sahranjen je tu, u Hilandaru. Tek nekoliko godina kasnije, 1207, kada su prilike u Srbiji to zahtevale, Sava će preneti očeve mošti u Studenicu — ali to je već druga priča, za koju će biti vremena u sledećim danima."
+        "text": "Simeon nije dugo živeo da vidi koliko će daleko otići ono što je započeo. Umro je u Hilandaru 13. februara 1199. godine, u ćeliji do crkve koju je sa Savom obnovio. Po žitiju koje je kasnije sastavio njegov sin, kraj je bio miran, među monasima i u molitvi. Sahranjen je tu, u Hilandaru. Tek nekoliko godina kasnije, 1207. ili 1208, kada su prilike u Srbiji to zahtevale, Sava će preneti očeve mošti u Studenicu — ali to je već druga priča, za koju će biti vremena u sledećim danima."
       },
       {
         "type": "paragraph",
@@ -3157,7 +3157,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Vukan se okrenuo Ugarskoj, koja je u tom trenutku tražila način da svoj uticaj proširi prema jugu. Uz ugarsku podršku, negde oko 1202. godine, on je zbacio brata sa raškog prestola i kratko vreme — verovatno dve do tri godine — sam vladao kao veliki župan. Stefan je morao da beži, najverovatnije u Bugarsku, i da odande priprema povratak. Pojedinosti tih sukoba u izvorima nisu sasvim jasne; ono što je sigurno jeste da je oko 1204. ili 1205. Stefan vraćen na presto, a da je Vukan ostao u Zeti, ovog puta vidno oslabljen. Mir je sklopljen, ali nije bio iskren. Zemlja je i dalje bila podeljena, i svako je znao da svaka nova varnica može da je zapali."
+        "text": "Vukan se okrenuo Ugarskoj, koja je u tom trenutku tražila način da svoj uticaj proširi prema jugu. Uz ugarsku podršku, negde oko 1202. godine, on je zbacio brata sa raškog prestola i kratko vreme — verovatno dve do tri godine — sam vladao kao veliki župan. Stefan je morao da beži, najverovatnije u Bugarsku, i da odande priprema povratak. Pojedinosti tih sukoba u izvorima nisu sasvim jasne; ono što je sigurno jeste da je oko 1204–1205. Stefan vraćen na presto, a da je Vukan ostao u Zeti, ovog puta vidno oslabljen. Mir je sklopljen, ali nije bio iskren. Zemlja je i dalje bila podeljena, i svako je znao da svaka nova varnica može da je zapali."
       },
       {
         "type": "paragraph",
@@ -3215,11 +3215,11 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Sukob dvojice braće trajao je nekoliko godina i prepleo se sa krupnim spoljnim događajima. Stefan se sklonio kod bugarskog dvora, sakupio saveznike i 1204. godine, ili nešto pre, vratio se i povratio vlast. Krv je tekla na obe strane, a presudnu posredničku ulogu odigrao je njihov najmlađi brat — Rastko, sada već monah Sava, koji je sa Svete Gore došao u zemlju, preneo očeve mošti u Studenicu i tako, oko zajedničke porodične svetinje, primorao braću na izmirenje. Vukan je zadržao Zetu kao oblast, ali se odrekao prvenstva. Stefan je ponovo bio veliki župan — i, što je važnije, vratio se iz unutrašnjeg rata mudriji nego što je u njega ušao."
+        "text": "Sukob dvojice braće trajao je nekoliko godina i prepleo se sa krupnim spoljnim događajima. Stefan se sklonio kod bugarskog dvora, sakupio saveznike i oko 1204–1205. vratio se i povratio vlast. Krv je tekla na obe strane, a presudnu posredničku ulogu odigrao je njihov najmlađi brat — Rastko, sada već monah Sava, koji je sa Svete Gore došao u zemlju, preneo očeve mošti u Studenicu i tako, oko zajedničke porodične svetinje, primorao braću na izmirenje. Vukan je zadržao Zetu kao oblast, ali se odrekao prvenstva. Stefan je ponovo bio veliki župan — i, što je važnije, vratio se iz unutrašnjeg rata mudriji nego što je u njega ušao."
       },
       {
         "type": "paragraph",
-        "text": "U isto vreme, na istočnoj strani Mediterana, dogodilo se nešto što je iz korena promenilo političku kartu pravoslavnog sveta. Aprila 1204. krstaši Četvrtog krstaškog rata, umesto da krenu u Svetu zemlju, opljačkali su i osvojili Carigrad. Vizantija, dotadašnje središte istočnog hrišćanstva i ona velika senka koja je vekovima nadvisivala balkanske dvorove, raspala se na više delova. Na njenim ruševinama Latini su osnovali Carigradsko carstvo, a vaseljenski patrijarh sklonio se u Nikeju, u Maloj Aziji. Za Stefana je to značilo da glavni susedni gospodar — vizantijski car — više nema snagu kao pre, niti može da osporava njegove poteze sa one strane Bosfora."
+        "text": "U isto vreme, na istočnoj strani Mediterana, dogodilo se nešto što je iz korena promenilo političku kartu pravoslavnog sveta. Aprila 1204. krstaši Četvrtog krstaškog rata, umesto da krenu u Svetu zemlju, opljačkali su i osvojili Carigrad. Vizantija, dotadašnje središte istočnog hrišćanstva i ona velika senka koja je vekovima nadvisivala balkanske dvorove, raspala se na više delova. Na njenim ruševinama Latini su osnovali Carigradsko carstvo, a vaseljenska patrijaršija je nekoliko godina kasnije (1208) obnovljena u Nikeji, u Maloj Aziji. Za Stefana je to značilo da glavni susedni gospodar — vizantijski car — više nema snagu kao pre, niti može da osporava njegove poteze sa one strane Bosfora."
       },
       {
         "type": "heading",
@@ -3232,7 +3232,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Tako je 1217. godine iz Rima u Srbiju poslata kraljevska kruna. Stefan ju je primio i tim činom postao prvi krunisani srpski vladar — kralj, latinski rex. Otuda i ime po kome će ostati upamćen: Prvovenčani. Sam čin krunisanja, koliko god političkim računom motivisan, bio je istorijski preokret. Srbija je dobila titulu sa kojom je mogla ravnopravno da razgovara sa Budimom, Trnovom i sa latinskim dvorovima na Jadranu. Vladarska kuća Nemanjića postala je kraljevska dinastija u punom evropskom smislu, a država je iz porodičnog poseda jednog roda prerasla u kraljevstvo sa kojim su drugi morali računati."
+        "text": "Tako je 1217. godine iz Rima u Srbiju poslata kraljevska kruna. Stefan ju je primio i tim činom postao prvi krunisani srpski vladar — kralj, latinski rex. Otuda i ime po kome će ostati upamćen: Prvovenčani. Sam čin krunisanja, koliko god političkim računom motivisan, bio je istorijski preokret. Srbija je dobila titulu sa kojom je mogla ravnopravno da razgovara sa ugarskim dvorom, Trnovom i sa latinskim dvorovima na Jadranu. Vladarska kuća Nemanjića postala je kraljevska dinastija u punom evropskom smislu, a država je iz porodičnog poseda jednog roda prerasla u kraljevstvo sa kojim su drugi morali računati."
       },
       {
         "type": "paragraph",
@@ -3270,7 +3270,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Sve do 1219. godine srpske eparhije nalazile su se pod jurisdikcijom Ohridske arhiepiskopije. To je značilo da je crkveni vrh — onaj koji postavlja episkope, sudi u crkvenim sporovima i potvrđuje odluke sabora — bio izvan zemlje, u rukama grčkog sveštenstva i u okvirima vizantijskog crkvenog poretka. Za mladu državu koja je tek dobila sopstvenu krunu i sopstveni dinastički kult — kult Svetog Simeona, kako se zamonašeni Stefan Nemanja zvao posle smrti — takav položaj postajao je sve teži za obrazloženje. Vladar je bio svoj, vojska je bila svoja, ali crkva nije."
+        "text": "Sve do 1219. godine srpske eparhije nalazile su se pod jurisdikcijom Ohridske arhiepiskopije. To je značilo da je crkveni vrh — onaj koji postavlja episkope, sudi u crkvenim sporovima i potvrđuje odluke sabora — bio izvan zemlje, u rukama grčkog sveštenstva i u okvirima vizantijskog crkvenog poretka. Za mladu državu koja je tek dobila sopstvenu krunu i sopstveni dinastički kult — kult Svetog Simeona, kako se Stefan Nemanja zvao u monaštvu — takav položaj postajao je sve teži za obrazloženje. Vladar je bio svoj, vojska je bila svoja, ali crkva nije."
       },
       {
         "type": "paragraph",
@@ -3295,7 +3295,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Ipak, de facto autokefalija se održala. Nikejska patrijaršija je u međuvremenu, posle povratka u Carigrad 1261. godine, samostalnost srpske crkve postepeno priznala i u praksi i u tonu, a ohridski protesti su s vremenom oslabili. Srpska crkva nastavila je da postoji kao samostalna zajednica, da bi gotovo sto trideset godina kasnije, u doba cara Dušana, bila uzdignuta na rang patrijaršije. Početak svega toga, međutim, ostao je 1219. godina."
+        "text": "Ipak, de facto autokefalija se održala. Carigradska patrijaršija je i posle povratka u Carigrad 1261. godine poštovala samostalnost srpske crkve, a ohridski protesti su s vremenom oslabili. Srpska crkva nastavila je da postoji kao samostalna zajednica, da bi gotovo sto trideset godina kasnije, u doba cara Dušana, bila uzdignuta na rang patrijaršije. Početak svega toga, međutim, ostao je 1219. godina."
       },
       {
         "type": "paragraph",
@@ -3348,7 +3348,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Pored Nomokanona, Savi se pripisuje uvođenje liturgijskih knjiga i tipika po atonskim uzorima, kao i posebna pravila života za Studenicu, najstariji nemanjićki manastir. Ovde je važno reći šta o tome zaista znamo. Mnogi konkretni događaji i datumi iz Savine arhiepiskopske službe poznati su nam, pre svega, iz žitija koja su mu posvetili Domentijan i Teodosije u drugoj polovini trinaestog i prvoj polovini četrnaestog veka. Ta žitija su dragocena, ali su pisana sa namerom da prikažu svetitelja, ne hroničara. Pojedinosti — koliko je tačno episkopija osnovano, gde su prve od njih bile, koje je godine ovo ili ono delo nastalo — često znamo samo otuda, i otuda i nesigurnost. Ali okvir koji ta žitija opisuju — Sava kao osnivač samostalne crkve, Žiča kao katedra, Nomokanon kao temelj — potvrđuje se i iz drugih izvora i danas se smatra istorijski pouzdanim."
+        "text": "Pored Nomokanona, Savi se pripisuje uvođenje liturgijskih knjiga i tipika po atonskim uzorima, kao i posebna pravila života za Studenicu, najvažniju Nemanjinu zadužbinu. Ovde je važno reći šta o tome zaista znamo. Mnogi konkretni događaji i datumi iz Savine arhiepiskopske službe poznati su nam, pre svega, iz žitija koja su mu posvetili Domentijan i Teodosije u drugoj polovini trinaestog i prvoj polovini četrnaestog veka. Ta žitija su dragocena, ali su pisana sa namerom da prikažu svetitelja, ne hroničara. Pojedinosti — koliko je tačno episkopija osnovano, gde su prve od njih bile, koje je godine ovo ili ono delo nastalo — često znamo samo otuda, i otuda i nesigurnost. Ali okvir koji ta žitija opisuju — Sava kao osnivač samostalne crkve, Žiča kao katedra, Nomokanon kao temelj — potvrđuje se i iz drugih izvora i danas se smatra istorijski pouzdanim."
       },
       {
         "type": "paragraph",
@@ -3379,7 +3379,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Žiča je za to bila pažljivo izabrana. Manastir podignut između Studenice i Rasa, u plodnoj dolini i blizu glavnih puteva srpske zemlje, postao je prvo sedište srpskog arhiepiskopa. Tu je, prema predanju, Sava krunisao brata kraljevskom krunom, i tu je trebalo da bude srce nove crkvene uprave. Sama građevina pripada onome što se kasnije nazvalo raškom školom — jednobrodna crkva sa kupolom, srodna Studenici, sa zidovima koje su uskoro ispunile freske jakih boja. Spolja skromna, iznutra svečana, Žiča je već svojim oblikom govorila šta hoće da bude: kraljevska crkva i nastavak nemanjićkog stila gradnje."
+        "text": "Žiča je za to bila pažljivo izabrana. Manastir podignut severno od Studenice, kod ušća Ibra u Zapadnu Moravu, u plodnoj dolini i blizu glavnih puteva srpske zemlje, postao je prvo sedište srpskog arhiepiskopa. Tu je, prema predanju, Sava krunisao brata kraljevskom krunom, i tu je trebalo da bude srce nove crkvene uprave. Sama građevina pripada onome što se kasnije nazvalo raškom školom — jednobrodna crkva sa kupolom, srodna Studenici, sa zidovima koje su uskoro ispunile freske jakih boja. Spolja skromna, iznutra svečana, Žiča je već svojim oblikom govorila šta hoće da bude: kraljevska crkva i nastavak nemanjićkog stila gradnje."
       },
       {
         "type": "paragraph",
@@ -3431,7 +3431,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Prvo veliko putovanje Sava je preduzeo oko 1229. godine, dakle samo nekoliko godina po osnivanju samostalne srpske arhiepiskopije. Plan mu je bio i pobožan i praktičan. Krenuo je preko Carigrada i Nikeje, gde je tada bilo vasilevsovo i patrijarhovo sedište u izgnanstvu, prošao kroz Svetu Goru, a onda nastavio brodom ka Palestini. U Jerusalimu se poklonio Hristovom grobu i drugim svetim mestima, obišao je manastire palestinske pustinje i ušao u Egipat, do velikih manastirskih centara u kojima je istočno monaštvo i izvorno nastalo. Na tom putu nije bio samo hodočasnik — bio je i predstavnik mlade srpske crkve, koji je sa istočnim patrijarsima i monaškim starešinama uspostavljao veze, dogovarao prava srpskih monaha u svetim mestima i, koliko izvori dozvoljavaju da se pretpostavi, kupovao manastirske posede u korist svoje arhiepiskopije."
+        "text": "Prvo veliko putovanje Sava je preduzeo oko 1229. godine, dakle samo nekoliko godina po osnivanju samostalne srpske arhiepiskopije. Plan mu je bio i pobožan i praktičan. Brodom je otplovio ka Palestini, u Jerusalimu se poklonio Hristovom grobu i drugim svetim mestima i obišao je manastire palestinske pustinje. Na povratku je svratio u Nikeju, gde je tada bilo vasilevsovo i patrijarhovo sedište u izgnanstvu, i na Svetu Goru. Na tom putu nije bio samo hodočasnik — bio je i predstavnik mlade srpske crkve, koji je sa istočnim patrijarsima i monaškim starešinama uspostavljao veze, dogovarao prava srpskih monaha u svetim mestima i, koliko izvori dozvoljavaju da se pretpostavi, kupovao manastirske posede u korist svoje arhiepiskopije."
       },
       {
         "type": "paragraph",
@@ -3444,11 +3444,11 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Drugo putovanje, koje je počelo verovatno krajem 1234. godine, ponovilo je u osnovi rutu prvog, ali je bilo još šire i još napornije. Sava je ponovo prošao kroz Carigrad i Svetu Goru, ponovo se obreo u Nikeji kod patrijarha, a zatim opet krenuo ka Svetoj zemlji. Ovog puta je išao i dalje — do Sinaja, do manastira Svete Katarine podno gore na kojoj je, prema predanju, Mojsije primio Zakon. Obišao je egipatske svete oce, aleksandrijskog i antiohijskog patrijarha; svuda je, kažu sačuvana žitija, ostavljao darove i dobijao darove, sklapao veze, učvršćivao mesto srpske crkve u širem pravoslavnom svetu. Bio je to čin čoveka koji je znao da više neće ići, i koji je hteo da na kraju vidi sve što je hteo da vidi."
+        "text": "Drugo putovanje, koje je počelo verovatno krajem 1234. godine, ponovilo je u osnovi rutu prvog, ali je bilo još šire i još napornije. Sava je ponovo krenuo ka Svetoj zemlji; Nikeju i Carigrad obići će tek na povratku. Ovog puta je išao i dalje — do Sinaja, do manastira Svete Katarine podno gore na kojoj je, prema predanju, Mojsije primio Zakon. Obišao je egipatske svete oce, aleksandrijskog i antiohijskog patrijarha; svuda je, kažu sačuvana žitija, ostavljao darove i dobijao darove, sklapao veze, učvršćivao mesto srpske crkve u širem pravoslavnom svetu. Bio je to čin čoveka koji je znao da više neće ići, i koji je hteo da na kraju vidi sve što je hteo da vidi."
       },
       {
         "type": "paragraph",
-        "text": "Na povratku je svratio u Trnovo, prestonicu tadašnjeg bugarskog carstva, kod cara Jovana Asena II, koji mu je bio i u srodstvu i u savezništvu. Tu ga je, posle dugog puta i godina koje su počele da pritiskaju, savladala bolest. Umro je u Trnovu, prema sačuvanim podacima, 14. januara 1236. godine po starom kalendaru — dan koji srpska crkva i danas obeležava kao Savindan, 27. januara po novom kalendaru. Tačan datum smrti pojedini izvori daju različito, ali se godina i mesto u glavnim žitijima slažu. Bugarski car ga je sahranio sa svim počastima u crkvi Svetih četrdeset mučenika u Trnovu."
+        "text": "Na povratku je svratio u Trnovo, prestonicu tadašnjeg bugarskog carstva, kod cara Jovana Asena II, koji mu je bio i u srodstvu i u savezništvu. Tu ga je, posle dugog puta i godina koje su počele da pritiskaju, savladala bolest. Umro je u Trnovu, prema sačuvanim podacima, 14. januara 1236. godine po starom kalendaru — dan koji srpska crkva i danas obeležava kao Savindan, 27. januara po novom kalendaru. Mesto smrti nije sporno, ali pojedini istoričari godinu stavljaju u 1235. Bugarski car ga je sahranio sa svim počastima u crkvi Svetih četrdeset mučenika u Trnovu."
       },
       {
         "type": "paragraph",
@@ -3540,7 +3540,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "content": [
       {
         "type": "paragraph",
-        "text": "Kada je 1243. godine na presto došao Stefan Uroš I, najmlađi sin Stefana Prvovenčanog, malo je ko mogao naslutiti da će upravo on, treći po redu Nemanjić na kraljevskom prestolu, vladati duže od svih srpskih vladara svoga veka. Pred njim su bili stariji braća — Radoslav i Vladislav — koji su jedan za drugim, svaki posle svega nekoliko godina vladavine, izgubili krunu zbog zavisnosti od jakih suseda. Uroš je presto preuzeo upravo nakon što je u kratkom unutrašnjem prevratu zbacio Vladislava, oslonjenog na bugarsko carstvo Asenovaca. Iz tog početka, koji nije bio ni svečan ni miran, izrasla je vladavina od više od tri decenije i jedna od najvažnijih konsolidacija srpske države u trinaestom veku.",
+        "text": "Kada je 1243. godine na presto došao Stefan Uroš I, najmlađi sin Stefana Prvovenčanog, malo je ko mogao naslutiti da će upravo on, četvrti po redu Nemanjić na kraljevskom prestolu, vladati duže od svih srpskih vladara svoga veka. Pred njim su bili stariji braća — Radoslav i Vladislav — koji su jedan za drugim, svaki posle svega nekoliko godina vladavine, izgubili krunu zbog zavisnosti od jakih suseda. Uroš je presto preuzeo upravo nakon što je u kratkom unutrašnjem prevratu zbacio Vladislava, oslonjenog na bugarsko carstvo Asenovaca. Iz tog početka, koji nije bio ni svečan ni miran, izrasla je vladavina od više od tri decenije i jedna od najvažnijih konsolidacija srpske države u trinaestom veku.",
         "dropcap": true
       },
       {
@@ -3557,7 +3557,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Sa Vizantijom je odnos bio složeniji. Posle obnove Carstva 1261, kada je Mihailo VIII Paleolog povratio Carigrad od Latina, srpski i vizantijski interesi sukobili su se u Makedoniji. Kratak rat tokom šezdesetih godina nije doneo trajnu prevagu nijednoj strani, ali je posle njega usledio dug period mira i obazrive saradnje. Uroš je shvatio da ga obnovljena Vizantija pod sposobnim carem ne sme imati za stalnog neprijatelja, a Mihailo je u Srbiji video silu sa kojom se mora računati. Taj sporazum bez svečanog ugovora pokazao se trajnijim od mnogih ranijih saveza."
+        "text": "Sa Vizantijom je odnos bio složeniji. Još pre obnove Carstva, 1258, Uroš je kratko zauzeo Skoplje, Prilep i Kičevo, ali taj upad u Makedoniju nije doneo trajnu prevagu. Kada je 1261. Mihailo VIII Paleolog povratio Carigrad od Latina, usledio je dug period mira i obazrive saradnje, u kome se pregovaralo i o bračnom savezu dveju kuća. Uroš je shvatio da ga obnovljena Vizantija pod sposobnim carem ne sme imati za stalnog neprijatelja, a Mihailo je u Srbiji video silu sa kojom se mora računati. Taj sporazum bez svečanog ugovora pokazao se trajnijim od mnogih ranijih saveza."
       },
       {
         "type": "heading",
@@ -3570,11 +3570,11 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Od bogatstva koje su donosili rudnici i poreske reforme, Uroš je gradio i zadužbine. Najvažnija među njima, podignuta tokom šezdesetih godina, jeste manastir Sopoćani u dolini Raške. Njegov hram Svete Trojice danas se ubraja među najznačajnije spomenike pravoslavne umetnosti trinaestog veka; freske u naosu, izrađene oko 1270, mnogi istoričari umetnosti smatraju vrhuncem srednjovekovnog srpskog slikarstva i jednim od najlepših fresko-ansambala čitavog pravoslavnog sveta toga doba. U Sopoćanima se vidi do koje je mere Uroševa Srbija u kratkom vremenu prešla put — od političke zavisnosti do države sposobne da naruči i plati umetnost evropskog ranga."
+        "text": "Od bogatstva koje su donosili rudnici i poreske reforme, Uroš je gradio i zadužbine. Najvažnija među njima, podignuta tokom šezdesetih godina, jeste manastir Sopoćani u dolini Raške. Njegov hram Svete Trojice danas se ubraja među najznačajnije spomenike pravoslavne umetnosti trinaestog veka; freske u naosu, izrađene oko 1265, mnogi istoričari umetnosti smatraju vrhuncem srednjovekovnog srpskog slikarstva i jednim od najlepših fresko-ansambala čitavog pravoslavnog sveta toga doba. U Sopoćanima se vidi do koje je mere Uroševa Srbija u kratkom vremenu prešla put — od političke zavisnosti do države sposobne da naruči i plati umetnost evropskog ranga."
       },
       {
         "type": "paragraph",
-        "text": "Kraj njegove vladavine, kao i početak, došao je iznutra. Godine 1276. njegov stariji sin Dragutin, već zreo čovek i sa sopstvenim oslonom u vlasteli i kod ugarskog tasta, podigao se protiv oca. Razlozi su bili više: starost kralja, pitanje nasleđa, verovatno i Uroševa nesklonost da sina pripusti pravoj vlasti. U kratkom unutrašnjem ratu, čije pojedinosti izvori različito opisuju, Uroš je poražen kod Gacka i prisiljen na odlazak sa prestola. Povukao se u Hum, primio monaški postrig i nedugo zatim, najverovatnije 1277, umro. Tako se završila vladavina kralja koji je Srbiju preuzeo kao osetljivu državu pod tuđim uticajima, a predao je — protiv svoje volje — kao kraljevstvo sa rudnicima, vojnim ugledom, manastirima evropskog ranga i sa dva sina koji će je voditi dalje."
+        "text": "Kraj njegove vladavine, kao i početak, došao je iznutra. Godine 1276. njegov stariji sin Dragutin, već zreo čovek i sa sopstvenim oslonom u vlasteli i na ugarskom dvoru, podigao se protiv oca. Razlozi su bili više: starost kralja, pitanje nasleđa, verovatno i Uroševa nesklonost da sina pripusti pravoj vlasti. U kratkom unutrašnjem ratu, čije pojedinosti izvori različito opisuju, Uroš je poražen kod Gacka i prisiljen na odlazak sa prestola. Povukao se u Hum, primio monaški postrig i nedugo zatim, najverovatnije 1277, umro. Tako se završila vladavina kralja koji je Srbiju preuzeo kao osetljivu državu pod tuđim uticajima, a predao je — protiv svoje volje — kao kraljevstvo sa rudnicima, vojnim ugledom, manastirima evropskog ranga i sa dva sina koji će je voditi dalje."
       }
     ],
     "subtitle": "Najmlađi sin Prvovenčanog koji je tri decenije vladao i Srbiju iz zavisnosti podigao u regionalnu silu",
@@ -3621,7 +3621,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Privredne posledice bile su ogromne i mogu se sasvim trezveno meriti. Već krajem 13. i tokom 14. veka srpsko srebro postalo je jedan od najvažnijih artikala mediteranske trgovine. Najveći deo njega odlazio je preko Dubrovnika, čiji su trgovci držali otkup i izvoz, a odatle dalje u italijanske gradove, Veneciju pre svih. Kralj je počeo da kuje sopstvene srebrne dinare, izrađivane po uzoru na venecijanski groš — toliko verno da su ih Venecijanci više puta optuživali zbog konkurencije. Rudarska renta, takozvani „urbar”, postala je glavni izvor državnih prihoda. Zahvaljujući njoj, vladari iz druge polovine 13. i prve polovine 14. veka, pre svih Milutin i Dušan, mogli su sebi da dozvole velike zadužbine, profesionalnu najamničku konjicu i ratove na više strana istovremeno. Bez rudnika Sasa, ni Gračanica ni Dušanovo carstvo verovatno ne bi izgledali onako kako ih danas pamtimo."
+        "text": "Privredne posledice bile su ogromne i mogu se sasvim trezveno meriti. Već krajem 13. i tokom 14. veka srpsko srebro postalo je jedan od najvažnijih artikala mediteranske trgovine. Najveći deo njega odlazio je preko Dubrovnika, čiji su trgovci držali otkup i izvoz, a odatle dalje u italijanske gradove, Veneciju pre svih. Kralj je počeo da kuje sopstvene srebrne dinare, izrađivane po uzoru na venecijanski groš — toliko verno da su ih Venecijanci više puta optuživali zbog konkurencije. Rudarska renta, takozvana „urbura”, postala je glavni izvor državnih prihoda. Zahvaljujući njoj, vladari iz druge polovine 13. i prve polovine 14. veka, pre svih Milutin i Dušan, mogli su sebi da dozvole velike zadužbine, profesionalnu najamničku konjicu i ratove na više strana istovremeno. Bez rudnika Sasa, ni Gračanica ni Dušanovo carstvo verovatno ne bi izgledali onako kako ih danas pamtimo."
       },
       {
         "type": "paragraph",
@@ -3659,7 +3659,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Za Uroša I udala se oko 1250. godine, u vreme kada je Srbija pod njim mirno jačala, gradila rudnike i prvi put se ozbiljnije uključivala u trgovinu sa primorskim gradovima. Kraljevski dvor u Brnjacima, u dolini Ibra, postao je njeno prvo sedište. Tu je, prema kasnijim izvorima, podigla školu za devojke iz siromašnijih porodica — vest koju treba uzeti sa oprezom, jer dolazi iz idealizujućeg žitija, ali koja se uklapa u sve ostalo što o njoj znamo. Brnjaci su pod njom postali mesto na kome su se sretali latinski sveštenici, vizantijski izaslanici i dubrovački trgovci, i to spajanje različitih svetova ostaće obeležje svega što je radila."
+        "text": "Za Uroša I udala se oko 1250. godine, u vreme kada je Srbija pod njim mirno jačala, gradila rudnike i prvi put se ozbiljnije uključivala u trgovinu sa primorskim gradovima. Kraljevski dvor u Brnjacima, u dolini Ibra, postaće kasnije njeno glavno sedište. Tu je, prema kasnijim izvorima, podigla školu za devojke iz siromašnijih porodica — vest koju treba uzeti sa oprezom, jer dolazi iz idealizujućeg žitija, ali koja se uklapa u sve ostalo što o njoj znamo. Brnjaci su pod njom postali mesto na kome su se sretali latinski sveštenici, vizantijski izaslanici i dubrovački trgovci, i to spajanje različitih svetova ostaće obeležje svega što je radila."
       },
       {
         "type": "heading",
@@ -3680,7 +3680,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Pred kraj života, prema običaju tadašnjih vladara, zamonašila se i uzela ime Jelisaveta. Umrla je 1314. godine kao pravoslavna monahinja, mada je ceo život u svojoj okolini tolerisala i katoličku i pravoslavnu pobožnost, i u sopstvenoj kapeli, kažu izvori, slušala mise na oba obreda. Srpska crkva ju je ubrzo posle smrti uvrstila među svetitelje, a njeno najvažnije žitije napisao je arhiepiskop Danilo II, koji ju je lično poznavao. Treba imati u vidu da Danilov tekst, pisan posle njene smrti, idealizuje lik kraljice; jezgro je istorijski pouzdano, ali pojedinosti — naročito dirljive scene iz porodičnog života — treba čitati kao hagiografiju, ne kao zapisnik. Njen značaj ostaje, međutim, daleko izvan tih književnih ukrasa: bila je moćna kraljica u svetu skrojenom za muškarce, kulturni most između latinskog Zapada i vizantijskog Istoka, i uzor po kome će se kasnije meriti druge srpske vladarke — od kneginje Milice do despine Mare."
+        "text": "Još za života, prema običaju tadašnjih vladara, zamonašila se u Skadru, u crkvi Svetog Nikole, najkasnije sredinom devedesetih godina 13. veka, i — po Danilu — zadržala ime Jelena. Umrla je 1314. godine kao pravoslavna monahinja, mada je ceo život u svojoj okolini tolerisala i katoličku i pravoslavnu pobožnost i ostala u vezi sa obe crkve. Srpska crkva ju je ubrzo posle smrti uvrstila među svetitelje, a njeno najvažnije žitije napisao je arhiepiskop Danilo II, koji ju je lično poznavao. Treba imati u vidu da Danilov tekst, pisan posle njene smrti, idealizuje lik kraljice; jezgro je istorijski pouzdano, ali pojedinosti — naročito dirljive scene iz porodičnog života — treba čitati kao hagiografiju, ne kao zapisnik. Njen značaj ostaje, međutim, daleko izvan tih književnih ukrasa: bila je moćna kraljica u svetu skrojenom za muškarce, kulturni most između latinskog Zapada i vizantijskog Istoka, i uzor po kome će se kasnije meriti druge srpske vladarke — od kneginje Milice do despine Mare."
       }
     ],
     "subtitle": "Strankinja katoličkog vaspitanja koja je postala srpska kraljica, majka dva kralja i pravoslavna svetiteljka",
@@ -3710,11 +3710,11 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Tako je Dragutin postao kralj. Njegova prva vladavina trajala je svega šest godina, ali je u njima već stekao iskustvo koje je oblikovalo sve ostalo. Pokušao je da održi unutrašnji red između velikaša koji su prvi put videli kako se jedan kralj smenjuje silom, da nastavi rudarsku i trgovačku politiku svog oca, i da brakom sa Katarinom, kćerkom ugarskog kralja Stefana V, učvrsti severnu granicu. Taj brak će se pokazati važnijim nego što je u trenutku sklapanja izgledao: kroz Katarinu i njenu rodbinu otvoriće se vrata ugarskih darova i posedâ na koje će se Dragutin osloniti u drugom delu svog života."
+        "text": "Tako je Dragutin postao kralj. Njegova prva vladavina trajala je svega šest godina, ali je u njima već stekao iskustvo koje je oblikovalo sve ostalo. Pokušao je da održi unutrašnji red između velikaša koji su prvi put videli kako se jedan kralj smenjuje silom, da nastavi rudarsku i trgovačku politiku svog oca, i da čuva severnu granicu, gde ga je brak sa Katarinom, kćerkom ugarskog kralja Stefana V, sklopljen još oko 1268, već vezivao za ugarski dvor. Taj brak će se pokazati važnijim nego što je u trenutku sklapanja izgledao: kroz Katarinu i njenu rodbinu otvoriće se vrata ugarskih darova i posedâ na koje će se Dragutin osloniti u drugom delu svog života."
       },
       {
         "type": "paragraph",
-        "text": "Negde oko 1282. godine, u lovu, Dragutin je teško pao s konja i slomio nogu. Povreda nije zarasla kako treba i ostavila ga je trajno obeleženim. U srednjovekovnom poimanju vlasti telesna nesposobnost vladara nije bila samo lična nevolja, već i znak da Bog povlači svoju ruku sa njega. Dragutin je to razumeo, ili je bar tako odlučio da postupi. Sazvao je sabor u mestu Deževo, blizu Rasa, i tu, pred velikašima i crkvenim ljudima, prepustio presto mlađem bratu Milutinu. Sporazum iz Deževa ostao je u istoriji kao jedan od najpoznatijih trenutaka nemanjićke unutrašnje politike."
+        "text": "Negde oko 1282. godine, kod Jeleča, Dragutin je teško pao s konja i slomio nogu. Povreda nije zarasla kako treba i ostavila ga je trajno obeleženim. U srednjovekovnom poimanju vlasti telesna nesposobnost vladara nije bila samo lična nevolja, već i znak da Bog povlači svoju ruku sa njega. Dragutin je to razumeo, ili je bar tako odlučio da postupi. Sazvao je sabor u mestu Deževo, blizu Rasa, i tu, pred velikašima i crkvenim ljudima, prepustio presto mlađem bratu Milutinu. Sporazum iz Deževa ostao je u istoriji kao jedan od najpoznatijih trenutaka nemanjićke unutrašnje politike."
       },
       {
         "type": "heading",
@@ -3723,11 +3723,11 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Šta je tačno na Deževu dogovoreno, predmet je stručne rasprave do današnjeg dana. Pouzdano se zna da je Milutin preuzeo srpski presto, a da je Dragutin zadržao kraljevsku titulu i dobio na upravu posebnu oblast. Kasniji izvori, naročito biograf arhiepiskop Danilo II, beleže i to da je dogovoreno kako presto posle Milutina ne treba da pripadne njegovim sinovima, već Dragutinovom potomstvu — pre svega njegovom sinu Vladislavu. Da li je tako zaista rečeno svim onim rečima koje su nam preneli kasniji pisci, ili je to naknadno uobličeno tumačenje, istoričari pošteno priznaju kao otvoreno pitanje. Sigurno je da je Deževo dugo bacalo senku na odnose dvojice braće i njihovih sinova."
+        "text": "Šta je tačno na Deževu dogovoreno, predmet je stručne rasprave do današnjeg dana. Pouzdano se zna da je Milutin preuzeo srpski presto, a da je Dragutin zadržao kraljevsku titulu i dobio na upravu posebnu oblast. Prema kasnijim izvorima, dogovoreno je i to da presto posle Milutina ne treba da pripadne njegovim sinovima, već Dragutinovom potomstvu — pre svega njegovom sinu Vladislavu. Da li je tako zaista rečeno svim onim rečima koje su nam preneli kasniji pisci, ili je to naknadno uobličeno tumačenje, istoričari pošteno priznaju kao otvoreno pitanje. Sigurno je da je Deževo dugo bacalo senku na odnose dvojice braće i njihovih sinova."
       },
       {
         "type": "paragraph",
-        "text": "Povlačenje sa glavnog prestola Dragutina nije pretvorilo u monaha ni u sporedan lik. Naprotiv, njegova druga vladavina počinje upravo posle Deževa. Preko svoje žene Katarine i tasta, ugarski dvor mu je predao na upravu prostrane severne oblasti — Mačvu, deo Bosne, i u jednom periodu sam Beograd sa okolinom. Tako je nastala posebna „kraljevina Srema”, kako su je zvali izvori, čije je središte ležalo između Save i Dunava i na južnim padinama severnih planina. Dragutin je u njoj zadržao titulu kralja, kovao svoj novac, primao poslanike i vladao kao odvojen, mada srodan vladar uz Milutinovu Srbiju na jugu."
+        "text": "Povlačenje sa glavnog prestola Dragutina nije pretvorilo u monaha ni u sporedan lik. Naprotiv, njegova druga vladavina počinje upravo posle Deževa. Preko svoje žene Katarine i njene rodbine, ugarski dvor mu je oko 1284. predao na upravu prostrane severne oblasti — Mačvu, deo Bosne, i u jednom periodu sam Beograd sa okolinom. Tako je nastala posebna „kraljevina Srema”, kako su je zvali izvori, čije je središte ležalo između Save i Dunava i na južnim padinama severnih planina. Dragutin je u njoj zadržao titulu kralja, kovao svoj novac, primao poslanike i vladao kao odvojen, mada srodan vladar uz Milutinovu Srbiju na jugu."
       },
       {
         "type": "paragraph",
@@ -3735,11 +3735,11 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Odnos između braće nije bio ni jednostavna saradnja ni stalna svađa. Godinama su delovali usklađeno, branili zajedničke granice, razmenjivali poslanike i poklone. Ali kako su sinovi rasli, pitanje nasledstva iz Deževa postajalo je sve teže. Milutin je imao svoje planove i svog sina Stefana, koga će kasnije istorija znati kao Stefana Dečanskog. Dragutin je verovao da pravo prvenstva pripada njegovom sinu Vladislavu. Krajem prve decenije četrnaestog veka došlo je između braće do otvorenog sukoba sa borbama i pomirenjima koja su se smenjivala. Nijedna od strana nije uspela trajno da nametne svoje rešenje, a stvar je bila ostavljena vremenu i sudbini sinova."
+        "text": "Odnos između braće nije bio ni jednostavna saradnja ni stalna svađa. Godinama su delovali usklađeno, branili zajedničke granice, razmenjivali poslanike i poklone. Ali kako su sinovi rasli, pitanje nasledstva iz Deževa postajalo je sve teže. Milutin je imao svoje planove i svog sina Stefana, koga će kasnije istorija znati kao Stefana Dečanskog. Dragutin je verovao da pravo prvenstva pripada njegovom sinu Vladislavu. Početkom četrnaestog veka, oko 1301, došlo je između braće do otvorenog sukoba sa borbama i pomirenjima koja su se smenjivala sve do 1312. Nijedna od strana nije uspela trajno da nametne svoje rešenje, a stvar je bila ostavljena vremenu i sudbini sinova."
       },
       {
         "type": "paragraph",
-        "text": "Dragutin je umro 1316. godine, povučen u monaški postrig pod imenom Teoktist, kao što su to činili mnogi vladari iz nemanjićke kuće. Sahranjen je u manastiru koji je zadužbinski vezivao za sebe — izvori se razilaze između Đurđevih Stupova i Arilja, mada kasnija tradicija najčešće pominje Arilje kao mesto njegovog počivanja. Njegova severna kraljevina nije ga dugo nadživela: ubrzo posle njegove smrti Ugarska je povratila Beograd i Mačvu, a Vladislavovi pokušaji da održi nasleđe brzo su slomljeni od strane snažnijeg strica. Pa ipak, ono što je Dragutin uradio nije nestalo bez traga. Njegova vladavina pokazala je da se srpsko kraljevstvo može produžiti severno od svojih starih raških granica i da pravoslavni vladar može, bez gubljenja sopstvenog identiteta, da vodi politiku otvorenu prema zapadnoj Evropi. Bila je to lekcija koju će njegovi naslednici, svako na svoj način, tek morati ponovo da uče."
+        "text": "Dragutin je umro 1316. godine, povučen u monaški postrig pod imenom Teoktist, kao što su to činili mnogi vladari iz nemanjićke kuće. Sahranjen je u Đurđevim Stupovima kod Novog Pazara, u kapeli koju je sam pridodao obnovljenom Nemanjinom manastiru. Njegova severna kraljevina nije ga dugo nadživela: ubrzo posle njegove smrti Ugarska je povratila Beograd i Mačvu, a Vladislavovi pokušaji da održi nasleđe brzo su slomljeni od strane snažnijeg strica. Pa ipak, ono što je Dragutin uradio nije nestalo bez traga. Njegova vladavina pokazala je da se srpsko kraljevstvo može produžiti severno od svojih starih raških granica i da pravoslavni vladar može, bez gubljenja sopstvenog identiteta, da vodi politiku otvorenu prema zapadnoj Evropi. Bila je to lekcija koju će njegovi naslednici, svako na svoj način, tek morati ponovo da uče."
       }
     ],
     "subtitle": "Od kratke vladavine u Raškoj do dugog kraljevanja na severu — vladar koji je Srbiju vezao za Ugarsku i zapadnu Evropu",
@@ -3757,7 +3757,6 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       "Deževo",
       "Mačva",
       "Beograd",
-      "Arilje",
       "Đurđevi Stupovi"
     ]
   },
@@ -3770,11 +3769,11 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Okolnosti smene bile su neobične i odredile su čitavu Milutinovu kasniju politiku. Dragutin je nekoliko godina ranije, 1276, oružjem zbacio s prestola sopstvenog oca Uroša I i sam postao kralj. Vladao je svega šest godina kada je, prema vestima izvora, prilikom putovanja kod Jeleča pao s konja i teško slomio nogu. Povreda mu je trajno oštetila zdravlje i, što je u ono doba bilo jednako važno, oštetila mu je i ugled ratničkog vladara — kralj koji ne može da uzjaše konja teško je mogao da vodi vojsku. Na saboru u mestu Deževo, negde u Raškoj, braća su sklopila sporazum: Dragutin se povlači u korist mlađeg brata, a Milutin preuzima krunu. O tačnim uslovima Deževskog sporazuma izvori govore tek u opštim crtama, a kasniji srpski letopisi tvrde da je dogovoreno i da posle Milutina presto pripadne Dragutinovom sinu Vladislavu. Da li je takva odredba zaista bila izričito uneta u sporazum ili je naknadno pripisana, ostaje predmet stručne rasprave; sigurno je samo da Milutin u poznijim godinama te uslove neće poštovati."
+        "text": "Okolnosti smene bile su neobične i odredile su čitavu Milutinovu kasniju politiku. Dragutin je nekoliko godina ranije, 1276, oružjem zbacio s prestola sopstvenog oca Uroša I i sam postao kralj. Vladao je svega šest godina kada je, prema vestima izvora, prilikom putovanja kod Jeleča pao s konja i teško slomio nogu. Povreda mu je trajno oštetila zdravlje i, što je u ono doba bilo jednako važno, oštetila mu je i ugled ratničkog vladara — kralj koji ne može da uzjaše konja teško je mogao da vodi vojsku. Na saboru u mestu Deževo, negde u Raškoj, braća su sklopila sporazum: Dragutin se povlači u korist mlađeg brata, a Milutin preuzima krunu. O tačnim uslovima Deževskog sporazuma izvori govore tek u opštim crtama, a prema kasnijim izvorima dogovoreno je i da posle Milutina presto pripadne Dragutinovom sinu Vladislavu. Da li je takva odredba zaista bila izričito uneta u sporazum ili je naknadno pripisana, ostaje predmet stručne rasprave; sigurno je samo da Milutin u poznijim godinama te uslove neće poštovati."
       },
       {
         "type": "paragraph",
-        "text": "Dragutin je dobio na upravu severne oblasti, sa centrom u Beogradu i Mačvi, koje je delom držao kao zet ugarskog kralja, i tamo je vladao kao zaseban vladar — „sremski kralj”, kako će ga zvati. Milutin je zadržao Rašku, srce države, i odmah usmerio pogled na jug. Vizantijsko carstvo, nedavno obnovljeno u Carigradu pod Mihailom VIII Paleologom, bilo je iscrpljeno ratovima na zapadu, prepirkama sa papstvom oko unije i pretnjom Karla Anžujskog iz južne Italije. Kada je Mihailo VIII umro krajem 1282. godine, presto je nasledio njegov sin Andronik II, vladar učen i pobožan, ali bez očeve ratničke odlučnosti. Za mladog srpskog kralja to je bio poziv koji je odmah razumeo."
+        "text": "Dragutin je zadržao severne oblasti kraljevstva, kojima će uskoro, preko ugarske rodbine, pridodati Mačvu i Beograd, i tamo je vladao kao zaseban vladar — „sremski kralj”, kako će ga zvati. Milutin je zadržao Rašku, srce države, i odmah usmerio pogled na jug. Vizantijsko carstvo, nedavno obnovljeno u Carigradu pod Mihailom VIII Paleologom, bilo je iscrpljeno ratovima na zapadu, prepirkama sa papstvom oko unije i pretnjom Karla Anžujskog iz južne Italije. Kada je Mihailo VIII umro krajem 1282. godine, presto je nasledio njegov sin Andronik II, vladar učen i pobožan, ali bez očeve ratničke odlučnosti. Za mladog srpskog kralja to je bio poziv koji je odmah razumeo."
       },
       {
         "type": "heading",
@@ -3787,7 +3786,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Vizantijska reakcija bila je više diplomatska nego vojna. Andronik II pokušao je u nekoliko navrata da pokrene odgovor — uključujući i unajmljivanje turskih i alanskih najamnika — ali su svi pohodi propali ili završili polovičnim uspesima. Sukobi na granici trajali su gotovo dve decenije, sa kraćim primirjima i novim provalama. Tokom tih godina Milutin je dograđivao i unutrašnju vlast. Imao je, jedno za drugim, više supruga, što je u to doba bilo i zakonski i crkveno problematično. Najpre se oženio ćerkom jednog tesalijskog gospodara, zatim ugarskom princezom, pa bugarskom princezom Anom Terter, ćerkom tadašnjeg bugarskog cara. Svaki od tih brakova bio je politički potez — sklapanje saveza, otvaranje granice, razbijanje protivničke koalicije — i svaki je, kada bi promenu zahtevala nova prilika, bivao napuštan. Crkva je takvu praksu trpela jer nije imala snagu da je spreči, ali joj je zamerala; to će ostaviti traga na Milutinovom unutrašnjem ugledu kod ozbiljnih duhovnih krugova."
+        "text": "Vizantijska reakcija bila je više diplomatska nego vojna. Andronik II pokušao je u nekoliko navrata da pokrene odgovor — uključujući i unajmljivanje turskih i alanskih najamnika — ali su svi pohodi propali ili završili polovičnim uspesima. Sukobi na granici trajali su gotovo dve decenije, sa kraćim primirjima i novim provalama. Tokom tih godina Milutin je dograđivao i unutrašnju vlast. Imao je, jedno za drugim, više supruga, što je u to doba bilo i zakonski i crkveno problematično. Između ostalih, oženio se ćerkom jednog tesalijskog gospodara, ugarskom princezom i bugarskom princezom Anom Terter, ćerkom tadašnjeg bugarskog cara. Svaki od tih brakova bio je politički potez — sklapanje saveza, otvaranje granice, razbijanje protivničke koalicije — i svaki je, kada bi promenu zahtevala nova prilika, bivao napuštan. Crkva je takvu praksu trpela jer nije imala snagu da je spreči, ali joj je zamerala; to će ostaviti traga na Milutinovom unutrašnjem ugledu kod ozbiljnih duhovnih krugova."
       },
       {
         "type": "paragraph",
@@ -3849,7 +3848,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "U svemu tome diplomatija je radila bez prestanka. Milutin je tokom života imao više žena — ugarsku princezu, ćerku tesalskog gospodara, jednu bugarsku vezu i konačno Simonidu — i svaki od tih brakova bio je deo političkog računa, dogovor sa nekim susedom o miru ili savezu. Pisao je papama u Rim; sa Klementom V vodio je prepisku u kojoj se, u jednom trenutku, ozbiljno razmatralo i približavanje crkvenoj uniji, jasno korišćeno kao adut prema Ugarskoj i prema zapadnim silama. Slao je poslanstva u Napulj i u Veneciju, sa kojom je sklapao trgovinske dogovore važne za prihode iz rudnika i carina. Najneobičnije od svih, krajem devedesetih godina poslao je izaslanike čak do dvora Ilkanida, mongolskih vladara Persije — gest koji je Srbiju, makar simbolično, stavio na mapu evroazijske diplomatije svog vremena."
+        "text": "U svemu tome diplomatija je radila bez prestanka. Milutin je tokom života imao više žena — ugarsku princezu, ćerku tesalskog gospodara, jednu bugarsku vezu i konačno Simonidu — i svaki od tih brakova bio je deo političkog računa, dogovor sa nekim susedom o miru ili savezu. Pisao je papama u Rim; sa Klementom V vodio je prepisku u kojoj se, u jednom trenutku, ozbiljno razmatralo i približavanje crkvenoj uniji, jasno korišćeno kao adut prema Ugarskoj i prema zapadnim silama. Slao je poslanstva u Napulj i u Veneciju, sa kojom je sklapao trgovinske dogovore važne za prihode iz rudnika i carina."
       },
       {
         "type": "paragraph",
@@ -3857,13 +3856,13 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Kada je 1321. umro, Milutin je iza sebe ostavio državu koja se prvi put u svojoj istoriji ozbiljno računala kao činilac u mediteranskoj politici. Granica je bila pomerena daleko na jug, carska kći sedela je u srpskoj palati, rimske kurije su mu pisale, a venecijanski i mongolski dvorovi znali su za njegovo ime. To nije bila slučajnost niti samo posledica vojničke sreće. Bio je to zbir četiri decenije strpljivog rada — pohoda koji nisu išli predaleko, mirova koji su uvek nešto donosili, brakova koji su otvarali vrata. Sa tim nasleđem suočili su se njegovi naslednici, i upravo iz njega će, jedno pokolenje kasnije, izrasti carsko doba Dušanovo."
+        "text": "Kada je 1321. umro, Milutin je iza sebe ostavio državu koja se prvi put u svojoj istoriji ozbiljno računala kao činilac u mediteranskoj politici. Granica je bila pomerena daleko na jug, carska kći sedela je u srpskoj palati, rimske kurije su mu pisale, a u Veneciji i Napulju znali su za njegovo ime. To nije bila slučajnost niti samo posledica vojničke sreće. Bio je to zbir četiri decenije strpljivog rada — pohoda koji nisu išli predaleko, mirova koji su uvek nešto donosili, brakova koji su otvarali vrata. Sa tim nasleđem suočili su se njegovi naslednici, i upravo iz njega će, jedno pokolenje kasnije, izrasti carsko doba Dušanovo."
       }
     ],
     "subtitle": "Kroz četiri decenije ratova, brakova i poslanstava, Milutin je Srbiju uveo u krug evropskih i mediteranskih sila",
     "dateLabel": "1282–1321.",
     "timelinePosition": "1282–1321.",
-    "summary": "Milutinova osvajanja prema jugu, mir sa Vizantijom 1299, brak sa Simonidom i poslanstva od Rima do Ilkanidskog dvora — kako je Srbija u njegovo doba postala mediteranski činilac.",
+    "summary": "Milutinova osvajanja prema jugu, mir sa Vizantijom 1299, brak sa Simonidom i poslanstva od Rima do Venecije i Napulja — kako je Srbija u njegovo doba postala mediteranski činilac.",
     "keyPeople": [
       "Milutin",
       "Andronik II Paleolog",
@@ -3875,8 +3874,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       "Skoplje",
       "Vardar",
       "Polog",
-      "Konstantinopolj",
-      "Tabriz"
+      "Konstantinopolj"
     ]
   },
   "day-068": {
@@ -3896,7 +3894,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Ni stare porodične svetinje nije zaobišao. U Studenici, manastiru svog pradede Nemanje, podigao je takozvanu Kraljevu crkvu, malu ali izvanrednu građevinu posvećenu svetim Joakimu i Ani, koja stoji uz Nemanjinu Bogorodičinu crkvu kao tihi dodatak iz nove epohe. Na Svetoj Gori, u srpskom Hilandaru, dao je sagraditi novi glavni hram — sadašnji katolikon manastira — i tako u atonskom monaškom svetu trajno potvrdio srpsko prisustvo koje je počelo s njegovim pretkom Savom. Slao je darove i mnogo dalje: kapelu Četrdeset mučenika podigao je u bugarskom Trnovu, a zabeleženo je njegovo darivanje manastira na Sinaju i u Jerusalimu, kao i pomoć vizantijskim crkvama u prestonici."
+        "text": "Ni stare porodične svetinje nije zaobišao. U Studenici, manastiru svog pradede Nemanje, podigao je takozvanu Kraljevu crkvu, malu ali izvanrednu građevinu posvećenu svetim Joakimu i Ani, koja stoji uz Nemanjinu Bogorodičinu crkvu kao tihi dodatak iz nove epohe. Na Svetoj Gori, u srpskom Hilandaru, dao je sagraditi novi glavni hram — sadašnji katolikon manastira — i tako u atonskom monaškom svetu trajno potvrdio srpsko prisustvo koje su započeli Nemanja i sveti Sava. Slao je darove i mnogo dalje: zabeleženo je njegovo darivanje manastira na Sinaju i u Jerusalimu, kao i pomoć vizantijskim crkvama u prestonici."
       },
       {
         "type": "heading",
@@ -3909,7 +3907,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Slično važi i za slikarstvo. Milutin je dovodio najbolje grčke majstore svog doba. Među freskama u nekoliko njegovih crkava — u Bogorodici Ljeviškoj, u Starom Nagoričinu i u crkvi svetog Đorđa u Solunu — sačuvani su, što je za srednji vek redak slučaj, sami potpisi slikara: Mihaila Astrape i Evtihija. Njih dvojica, najverovatnije iz Soluna, donela su Srbiji ono što danas zovemo zrelim paleologovskim stilom — figuralno slikarstvo u kome se klasično grčko nasleđe ponovo budi, lica dobijaju zaokruženu plastiku, a kompozicije meku, gotovo pozorišnu napetost. Bili su to umetnici evropskog ranga; činjenica da su radili za srpskog kralja govori i o sredstvima koja je on bio spreman da uloži i o ozbiljnosti s kojom su ga njegovi savremenici doživljavali."
+        "text": "Slično važi i za slikarstvo. Milutin je dovodio najbolje grčke majstore svog doba. Među freskama u nekoliko njegovih crkava — u Bogorodici Ljeviškoj, u Starom Nagoričinu i u crkvi svetog Nikite kod Skoplja — sačuvani su, što je za srednji vek redak slučaj, sami potpisi slikara: Mihaila Astrape i Evtihija. Njih dvojica, najverovatnije iz Soluna, donela su Srbiji ono što danas zovemo zrelim paleologovskim stilom — figuralno slikarstvo u kome se klasično grčko nasleđe ponovo budi, lica dobijaju zaokruženu plastiku, a kompozicije meku, gotovo pozorišnu napetost. Bili su to umetnici evropskog ranga; činjenica da su radili za srpskog kralja govori i o sredstvima koja je on bio spreman da uloži i o ozbiljnosti s kojom su ga njegovi savremenici doživljavali."
       },
       {
         "type": "paragraph",
@@ -3942,7 +3940,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Crkva je dovršena oko 1318–1321. godine, na mestu starije bogomolje koja je sama bila nasleđe još ranijih hrišćanskih građevina. Milutin ju je posvetio Uspenju Bogorodice i učinio sedištem novouspostavljene Lipljanske, kasnije Gračaničke episkopije. Po osnovi pripada tipu upisanog krsta sa pet kupola — jednom velikom u sredini, na visokom tamburu, i četiri manje na uglovima — ali način na koji su mase složene nije obična shema. Zidne površine se prema vrhu stupnjevito povlače, krovovi se penju u nekoliko nivoa, a tamburi se izdižu iznad njih kao niz vertikala koje siluetu vuku uvis. To je takozvani srpsko-vizantijski, kompaktni izraz pozne paleologovske arhitekture, u kome je Gračanica jedno od najčistijih ostvarenja."
+        "text": "Crkva je dovršena oko 1318–1321. godine, na mestu starije bogomolje koja je sama bila nasleđe još ranijih hrišćanskih građevina. Milutin ju je posvetio Uspenju Bogorodice i učinio sedištem stare Lipljanske, kasnije Gračaničke episkopije. Po osnovi pripada tipu upisanog krsta sa pet kupola — jednom velikom u sredini, na visokom tamburu, i četiri manje na uglovima — ali način na koji su mase složene nije obična shema. Zidne površine se prema vrhu stupnjevito povlače, krovovi se penju u nekoliko nivoa, a tamburi se izdižu iznad njih kao niz vertikala koje siluetu vuku uvis. To je takozvani srpsko-vizantijski, kompaktni izraz pozne paleologovske arhitekture, u kome je Gračanica jedno od najčistijih ostvarenja."
       },
       {
         "type": "paragraph",
@@ -3955,7 +3953,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Najveće blago Gračanice ipak su njene freske. Oslikana je u prvoj polovini četvrte decenije četrnaestog veka, ubrzo po dovršetku, i smatra se jednim od vrhunaca takozvanog paleologovskog stila — onog poznog vizantijskog izraza koji je istovremeno bio dramatičan i istančan, narativno bogat i psihološki produbljen. Glavni majstori se sa potpunom sigurnošću ne mogu imenovati, ali se gračanički ciklus stavlja u krug zografa Mihaila Astrape i Evtihija, dvojice slikara iz Soluna koji su za Milutina radili u nekoliko zadužbina i potpisivali svoja dela. Pitanje koliko su oni lično učestvovali u Gračanici i dalje je predmet stručne rasprave; bez obzira na konačan odgovor, vidi se da je posao bio poveren radionici na visini tadašnjeg vizantijskog vrha."
+        "text": "Najveće blago Gračanice ipak su njene freske. Oslikana je oko 1321–1322. godine, ubrzo po dovršetku, i smatra se jednim od vrhunaca takozvanog paleologovskog stila — onog poznog vizantijskog izraza koji je istovremeno bio dramatičan i istančan, narativno bogat i psihološki produbljen. Glavni majstori se sa potpunom sigurnošću ne mogu imenovati, ali se gračanički ciklus stavlja u krug zografa Mihaila Astrape i Evtihija, dvojice slikara iz Soluna koji su za Milutina radili u nekoliko zadužbina i potpisivali svoja dela. Pitanje koliko su oni lično učestvovali u Gračanici i dalje je predmet stručne rasprave; bez obzira na konačan odgovor, vidi se da je posao bio poveren radionici na visini tadašnjeg vizantijskog vrha."
       },
       {
         "type": "paragraph",
@@ -3999,15 +3997,15 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Razlozi pobune oko 1314. godine nisu bili samo lični. Milutin je u to vreme već razmišljao o nasledniku, a u igri su bili i drugi sinovi, pa i polusestrićevi. Stefan se, oslonjen na zetske velikaše i na deo primorskih gradova, pobunio protiv očeve volje. Pobuna je brzo slomljena. Kazna je bila stara, vizantijska i strašna: oslepljenje. Po Milutinovom naređenju Stefan je oslepljen, a zatim sa malim sinom Dušanom poslat u izgnanstvo u Konstantinopolj, na vizantijski dvor, koji je Nemanjićima istovremeno bio i rodbina i nadzornik. Tu je, u manastiru Pantokratora, proveo nekoliko godina pod paskom carskog dvora."
+        "text": "Razlozi pobune oko 1314. godine nisu bili samo lični. Milutin je u to vreme već razmišljao o nasledniku, a u igri su bili i drugi sin Konstantin i bratanac Vladislav. Stefan se, oslonjen na zetske velikaše i na deo primorskih gradova, pobunio protiv očeve volje. Pobuna je brzo slomljena. Kazna je bila stara, vizantijska i strašna: oslepljenje. Po Milutinovom naređenju Stefan je oslepljen, a zatim sa malim sinom Dušanom poslat u izgnanstvo u Konstantinopolj, na vizantijski dvor, koji je Nemanjićima istovremeno bio i rodbina i nadzornik. Tu je, u manastiru Pantokratora, proveo nekoliko godina pod paskom carskog dvora."
       },
       {
         "type": "paragraph",
-        "text": "Oko same kazne istoričari su oprezni. Da je oslepljenje izvršeno, posvedočeno je u izvorima. Ali stepen je sporan: kasniji žitijski tekstovi, pre svega „Žitije Stefana Dečanskog” koje je u XIV veku sastavio Grigorije Camblak, govore o čudesnom povratku vida, a pažljivije čitanje istih izvora i poznavanje vizantijske prakse upućuju na to da je oslepljenje verovatno bilo nepotpuno — možda samo na jednom oku, ili izvedeno tako da je deo vida ostao. Bilo kako bilo, posledice su mu vidno opterećivale ostatak života i ulazile u predstavu o njemu kao o vladaru koji je svoju krunu nosio uz vidljiv trag prošle kazne."
+        "text": "Oko same kazne istoričari su oprezni. Da je oslepljenje izvršeno, posvedočeno je u izvorima. Ali stepen je sporan: kasniji žitijski tekstovi, pre svega „Žitije Stefana Dečanskog” koje je početkom XV veka (oko 1402–1406) sastavio Grigorije Camblak, govore o čudesnom povratku vida, a pažljivije čitanje istih izvora i poznavanje vizantijske prakse upućuju na to da je oslepljenje verovatno bilo nepotpuno — možda samo na jednom oku, ili izvedeno tako da je deo vida ostao. Bilo kako bilo, posledice su mu vidno opterećivale ostatak života i ulazile u predstavu o njemu kao o vladaru koji je svoju krunu nosio uz vidljiv trag prošle kazne."
       },
       {
         "type": "paragraph",
-        "text": "Kada je Milutin umro 1321. godine, vlast nije bila jasno opredeljena. Pretendenti su se javili gotovo istovremeno: Konstantin, drugi Milutinov sin; Vladislav II, sin nekadašnjeg kralja Dragutina, koji je svoja prava izvodio iz starije grane dinastije; i sam Stefan, koji se iz Carigrada vratio u Srbiju oslonjen na deo dvorske vlastele i na crkvene krugove. Borba je trajala nekoliko godina, sa promenljivom srećom. Stefan je 1322. krunisan za kralja, ali je tek do oko 1324. uspeo da nadvlada Vladislava II i učvrsti vlast nad celom državom. Po srednjovekovnom običaju, već tada je pored sebe za savladara krunisao i sina Dušana — odluku koja će se kasnije pokazati i kao oslonac i kao opasnost."
+        "text": "Kada je Milutin umro 1321. godine, vlast nije bila jasno opredeljena. Pretendenti su se javili gotovo istovremeno: Konstantin, drugi Milutinov sin; Vladislav II, sin nekadašnjeg kralja Dragutina, koji je svoja prava izvodio iz starije grane dinastije; i sam Stefan, koji se iz Carigrada vratio još oko 1320. i od oca dobio Budimlje, a sada se oslanjao na deo dvorske vlastele i na crkvene krugove. Borba je trajala nekoliko godina, sa promenljivom srećom. Stefan je 1322. krunisan za kralja, ali je tek do oko 1324. uspeo da nadvlada Vladislava II i učvrsti vlast nad celom državom. Po srednjovekovnom običaju, već tada je pored sebe za savladara krunisao i sina Dušana — odluku koja će se kasnije pokazati i kao oslonac i kao opasnost."
       },
       {
         "type": "heading",
@@ -4028,7 +4026,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Zatvoren u tvrđavi Zvečan iznad Kosovske Mitrovice, Stefan Dečanski je u njoj umro u novembru iste 1331. godine. Po veoma raširenom, ali ne i potpuno sigurnom kazivanju izvora, ubijen je — najčešće se navodi davljenje — i to po nalogu sina. Drugi, oprezniji čitači ostavljaju otvorenu i mogućnost prirodne smrti u zatočeništvu posle teško podnetog poraza. Bilo kako bilo, prelaz vlasti bio je nasilan, a Dušan je iz tog događaja izašao kao novi kralj, sa težinom očeve smrti na svom imenu. Vekovima kasnije, crkva je oca koga je sin zbacio uvrstila među svetitelje: kult Svetog Stefana Dečanskog, oslonjen na Camblakovo žitije, slika ga kao stradalnog, mučeničkog vladara, dok istorijski izvori dopuštaju i hladniju sliku — kompetentnog, ali teško opterećenog kralja čiji je život počeo i završio u istoj porodičnoj senci."
+        "text": "Zatvoren u tvrđavi Zvečan iznad Kosovske Mitrovice, Stefan Dečanski je u njoj umro u novembru iste 1331. godine. Po veoma raširenom, ali ne i potpuno sigurnom kazivanju izvora, ubijen je — najčešće se navodi davljenje — i to po nalogu sina. Drugi, oprezniji čitači ostavljaju otvorenu i mogućnost prirodne smrti u zatočeništvu posle teško podnetog poraza. Bilo kako bilo, prelaz vlasti bio je nasilan, a Dušan je iz tog događaja izašao kao novi kralj, sa težinom očeve smrti na svom imenu. Već nekoliko decenija kasnije crkva je oca koga je sin zbacio počela da poštuje kao svetitelja: kult Svetog Stefana Dečanskog, oslonjen na Camblakovo žitije, slika ga kao stradalnog, mučeničkog vladara, dok istorijski izvori dopuštaju i hladniju sliku — kompetentnog, ali teško opterećenog kralja čiji je život počeo i završio u istoj porodičnoj senci."
       }
     ],
     "subtitle": "Život jednog Nemanjića između očeve kazne, izgnanstva, povratka na presto i konačnog pada od ruke sopstvenog sina",
@@ -4052,7 +4050,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "content": [
       {
         "type": "paragraph",
-        "text": "Krajem dvadesetih godina četrnaestog veka Balkan se nakratko činio kao jasno raspoređena šahovska tabla. Bugarska, pod carem Mihailom Šišmanom, držala je istok i veliki deo Trakije, bila u savezu sa obnovljenom Vizantijom mladog Andronika III i delovala kao prvi među pravoslavnim vladarima na poluostrvu. Srbija kralja Stefana Dečanskog, posle godina unutrašnjih previranja i posle pobede nad rođenom decom u Zeti, bila je manja, ali sređenija nego što su je susedi videli. Iz Trnova i Carigrada gledalo se na nju kao na silu koju treba pritisnuti pre nego što naraste. Plan je bio jasan: zajednički napad sa dve strane, kratak rat, vraćanje srpskog kralja u red poslušnih suseda.",
+        "text": "Krajem dvadesetih godina četrnaestog veka Balkan se nakratko činio kao jasno raspoređena šahovska tabla. Bugarska, pod carem Mihailom Šišmanom, držala je istok i veliki deo Trakije, bila u savezu sa obnovljenom Vizantijom mladog Andronika III i delovala kao prvi među pravoslavnim vladarima na poluostrvu. Srbija kralja Stefana Dečanskog, posle godina unutrašnjih previranja i posle pobede nad polubratom Konstantinom i bratancem Vladislavom, bila je manja, ali sređenija nego što su je susedi videli. Iz Trnova i Carigrada gledalo se na nju kao na silu koju treba pritisnuti pre nego što naraste. Plan je bio jasan: zajednički napad sa dve strane, kratak rat, vraćanje srpskog kralja u red poslušnih suseda.",
         "dropcap": true
       },
       {
@@ -4078,7 +4076,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Stefan Dečanski se sa pohoda vratio i sa jednom važnom putnicom — sa Mihailovom sestrom, srpskom kraljicom udovicom koja je u Trnovu bila odbačena pred sam rat. Sa njom je u Srbiju došao i njen mali sin Ivan Stefan, koji će ubrzo, pod srpskim pokroviteljstvom, biti postavljen za novog bugarskog cara. Bilo je to mekše rešenje od osvajanja, ali ne manje delotvorno: Bugarska je narednih godina, makar formalno, ostala u srpskom političkom krugu. Sam Dušan je sa Velbužda izašao kao mlad, ovenčan ratnom slavom, sa potvrđenim ugledom među vlastelom i sa onim mirnim samopouzdanjem koje će za nekoliko godina postati osnov njegove sopstvene politike — i, na kraju, povod za sukob sa ocem."
+        "text": "Posle bitke na bugarski dvor vraćena je Ana Neda — sestra Stefana Dečanskog i Mihailova žena, koju je car 1324. oterao — a njen sin Ivan Stefan postavljen je, pod srpskim pokroviteljstvom, za novog bugarskog cara (1330–1331). Bilo je to mekše rešenje od osvajanja, ali ne manje delotvorno: Bugarska je narednih godina, makar formalno, ostala u srpskom političkom krugu. Sam Dušan je sa Velbužda izašao kao mlad, ovenčan ratnom slavom, sa potvrđenim ugledom među vlastelom i sa onim mirnim samopouzdanjem koje će za nekoliko godina postati osnov njegove sopstvene politike — i, na kraju, povod za sukob sa ocem."
       },
       {
         "type": "paragraph",
@@ -4131,7 +4129,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "U tom ogromnom programu naročito pažljivo razrađene su tri tematske celine. Prva je Loza Nemanjića — slikarski rodoslov dinastije u kome iz Stefana Nemanje, prikazanog kao monaha Simeona, izrastaju potomci sve do ktitora, sa Stefanom Dečanskim na vrhu izdanka u trenutku osvećenja. Druga je ktitorska kompozicija u kojoj kralj, sam ili sa sinom Dušanom, prinosi model crkve Hristu, čin koji u srednjovekovnom slikarstvu znači uručivanje zadužbine njenom nebeskom domaćinu. Treća je razgranat hristološki i marijanski ciklus — gotovo enciklopedijski raspored scena iz Jevanđelja i života Bogorodice, među kojima se nalaze i prizori koji se drugde ne pojavljuju tako razrađeni, uključujući i prikaz koji deo istraživača tumači kao astronomsku predstavu nebeskog svoda."
+        "text": "U tom ogromnom programu naročito pažljivo razrađene su tri tematske celine. Prva je Loza Nemanjića — slikarski rodoslov dinastije u kome iz Stefana Nemanje, prikazanog kao monaha Simeona, izrastaju potomci sve do cara Dušana i njegovog sina Uroša. Druga je ktitorska kompozicija u kojoj kralj, sam ili sa sinom Dušanom, prinosi model crkve Hristu, čin koji u srednjovekovnom slikarstvu znači uručivanje zadužbine njenom nebeskom domaćinu. Treća je razgranat hristološki i marijanski ciklus — gotovo enciklopedijski raspored scena iz Jevanđelja i života Bogorodice, među kojima se nalaze i prizori koji se drugde ne pojavljuju tako razrađeni, uključujući i prikaz koji deo istraživača tumači kao astronomsku predstavu nebeskog svoda."
       },
       {
         "type": "paragraph",
@@ -4188,7 +4186,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "U leto 1331. došlo je do otvorenog raskola. Dušan je, oslonjen na uticajnu vlastelu, podigao ustanak protiv oca. Vojni sukob nije bio dug ni naročito krvav po merilima onog doba: Stefan Dečanski je zarobljen kod Nerodimlja i sproveden u tvrđavu Zvečan, jedno od najjačih utvrđenja stare Raške. Tamo je, u zatočeništvu, novembra iste godine umro. O okolnostima smrti izvori se razilaze. Srednjovekovni srpski tekstovi, naročito oni koji su nastajali pod Dušanovim okriljem, opisuju je sažeto i obazrivo, povremeno kao prirodnu smrt u zatočeništvu. Vizantijski pisci su otvoreniji i govore o nasilnoj smrti, najverovatnije davljenju. Današnji istoričari uglavnom prihvataju Dušanovu odgovornost za zatočenje koje je dovelo do očeve smrti, dok o tome da li je izričito naredio ubistvo ostaje nesigurnost; to je čvor koji se nikada nije do kraja razrešio."
+        "text": "U leto 1331. došlo je do otvorenog raskola. Dušan je, oslonjen na uticajnu vlastelu, podigao ustanak protiv oca. Vojni sukob nije bio dug ni naročito krvav po merilima onog doba: Stefan Dečanski je, iznenađen u Nerodimlju, pobegao u tvrđavu Petrič, gde se predao, pa je sproveden u tvrđavu Zvečan, jedno od najjačih utvrđenja stare Raške. Tamo je, u zatočeništvu, novembra iste godine umro. O okolnostima smrti izvori se razilaze. Srednjovekovni srpski tekstovi, naročito oni koji su nastajali pod Dušanovim okriljem, opisuju je sažeto i obazrivo, povremeno kao prirodnu smrt u zatočeništvu. Vizantijski pisci su otvoreniji i govore o nasilnoj smrti, najverovatnije davljenju. Današnji istoričari uglavnom prihvataju Dušanovu odgovornost za zatočenje koje je dovelo do očeve smrti, dok o tome da li je izričito naredio ubistvo ostaje nesigurnost; to je čvor koji se nikada nije do kraja razrešio."
       },
       {
         "type": "paragraph",
@@ -4196,7 +4194,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Dušan je taj teret nosio na svoj način. Tokom narednih godina i decenija u zvaničnim natpisima i poveljama o ocu je govorio kao o „blaženom kralju”, podizao mu je zadužbine, slao darove manastirima i tražio od crkve da Stefana Dečanskog vremenom primi u red svetih vladara — što će se i dogoditi, ali tek mnogo posle Dušanove smrti. Ti gestovi nisu bili samo lična pokora; bili su i politika. Vladar koji je presto preuzeo silom morao je da osnaži svoju legitimnost svakim raspoloživim sredstvom — pre svega crkvenim, jer je u srednjovekovnoj Srbiji upravo crkva davala konačnu meru opravdanosti vlasti."
+        "text": "Dušan je taj teret nosio na svoj način. Tokom narednih godina i decenija u zvaničnim natpisima i poveljama o ocu je govorio kao o „blaženom kralju”, podizao mu je zadužbine, slao darove manastirima i tražio od crkve da Stefana Dečanskog vremenom primi u red svetih vladara — što će se i dogoditi: kult mu je ustanovljen još za Dušanovog života, oko 1343, a Camblakovo žitije učvrstilo ga je početkom 15. veka. Ti gestovi nisu bili samo lična pokora; bili su i politika. Vladar koji je presto preuzeo silom morao je da osnaži svoju legitimnost svakim raspoloživim sredstvom — pre svega crkvenim, jer je u srednjovekovnoj Srbiji upravo crkva davala konačnu meru opravdanosti vlasti."
       },
       {
         "type": "paragraph",
@@ -4222,7 +4220,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "content": [
       {
         "type": "paragraph",
-        "text": "Kada je Stefan Dušan 1331. godine, posle svrgavanja oca Stefana Dečanskog, preuzeo srpski presto, nasledio je državu koja je već bila najjača sila u središnjem delu Balkana. Milutin i Dečanski pomerili su granice duboko na jug, do Vardara i Bregalnice; sada je trebalo odlučiti šta dalje. Mladi kralj je odluku doneo brzo i nedvosmisleno: nastaviti pritisak na slabu Vizantiju, dok se za to ukazuje prilika. Naredne petnaest godina biće u znaku jednog dugog, gotovo neprekinutog pohoda na jug — pohoda koji će do 1346. udvostručiti teritoriju srpske države i učiniti Dušana gospodarem prostora od Dunava do Korintskog zaliva.",
+        "text": "Kada je Stefan Dušan 1331. godine, posle svrgavanja oca Stefana Dečanskog, preuzeo srpski presto, nasledio je državu koja je već bila najjača sila u središnjem delu Balkana. Milutin i Dečanski pomerili su granice duboko na jug, do Vardara i Bregalnice; sada je trebalo odlučiti šta dalje. Mladi kralj je odluku doneo brzo i nedvosmisleno: nastaviti pritisak na slabu Vizantiju, dok se za to ukazuje prilika. Narednih petnaestak godina biće u znaku jednog dugog, gotovo neprekinutog pohoda na jug — pohoda koji će do 1348. udvostručiti teritoriju srpske države i učiniti Dušana gospodarem prostora od Dunava do Korintskog zaliva.",
         "dropcap": true
       },
       {
@@ -4231,7 +4229,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Osvajanje se odvijalo u nekoliko jasnih talasa. Prvi je bila Makedonija. Već do 1334. većina makedonskih gradova prešla je pod srpsku vlast — Prilep, Strumica, Vodena, a iste godine i Ohrid, drevno sedište nekadašnje Samuilove države i autokefalne arhiepiskopije. Drugi talas, u drugoj polovini tridesetih godina, doneo je tvrđave oko Svete Gore i obale Egejskog mora. Treći, u godinama vizantijskog građanskog rata, raširio je srpsku vlast na zapad i jug — u Albaniju i Epir. Berat, Kanina i delovi jadranske obale došli su u Dušanove ruke između 1343. i 1345; Tesalija će uslediti do 1348. Kako se proširivao, Dušan je državu sve više pretvarao u zajednicu dveju velikih celina — srpskog severa i grčkog juga."
+        "text": "Osvajanje se odvijalo u nekoliko jasnih talasa. Prvi je bila Makedonija. Već do 1334. većina makedonskih gradova prešla je pod srpsku vlast — Prilep, Strumica, Kostur, a iste godine i Ohrid, drevno sedište nekadašnje Samuilove države i autokefalne arhiepiskopije. Drugi talas, posle 1341, u godinama vizantijskog građanskog rata, doneo je tvrđave oko Svete Gore i obale Egejskog mora. Treći, u istim godinama, raširio je srpsku vlast na zapad i jug — u Albaniju, a potom i u Epir. Berat, Kanina i delovi jadranske obale došli su u Dušanove ruke između 1343. i 1345; Epir i Tesalija uslediće 1347–1348. Kako se proširivao, Dušan je državu sve više pretvarao u zajednicu dveju velikih celina — srpskog severa i grčkog juga."
       },
       {
         "type": "heading",
@@ -4244,7 +4242,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Najduže su se opirali najveći utvrđeni gradovi. Ser, ključ donjeg Strimona i bogato trgovačko središte, pao je tek 1345. posle duge opsade — i upravo će tamo, sledeće godine, Dušan biti krunisan za cara. Solun, drugi grad Vizantije, ostao je nedostižan: Dušan ga je više puta opsedao, pokušavao da iskoristi unutrašnje prevrate u gradu, ali zidine, mornarica i upornost branilaca uvek su bili jači. Solun nikada nije pao u srpske ruke. Ta činjenica često se zaboravlja kada se priča o Dušanovom carstvu, a važna je: granica njegove moći vrlo precizno se zaustavila pred najvećim grčkim gradovima Egeja."
+        "text": "Najduže su se opirali najveći utvrđeni gradovi. Ser, ključ donjeg Strimona i bogato trgovačko središte, pao je tek 1345. posle duge opsade — i upravo se tamo, krajem iste godine, Dušan proglasio za cara; krunisan je u Skoplju 16. aprila 1346. Solun, drugi grad Vizantije, ostao je nedostižan: Dušan ga je više puta opsedao, pokušavao da iskoristi unutrašnje prevrate u gradu, ali zidine, mornarica i upornost branilaca uvek su bili jači. Solun nikada nije pao u srpske ruke. Ta činjenica često se zaboravlja kada se priča o Dušanovom carstvu, a važna je: granica njegove moći vrlo precizno se zaustavila pred najvećim grčkim gradovima Egeja."
       },
       {
         "type": "paragraph",
@@ -4256,13 +4254,13 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Do 1346. rezultat je bio zapanjujući. Dušanova država protezala se od Dunava i Save na severu do Korintskog zaliva na jugu, od jadranske obale do Egejskog mora. Po veličini je bila skoro dvostruko veća od one koju je Milutin ostavio. Po sastavu stanovništva, prvi put u istoriji srpske države, grčki podanici bili su brojniji od srpskih. Vladar koji je počeo kao mladi kralj jedne balkanske kraljevine sada je vladao većim delom nekadašnjih evropskih oblasti Vizantije. To stanje moralo je dobiti i novo ime, novu titulu i nov državnopravni oblik — što će biti tema sledeće lekcije."
+        "text": "Do 1348. rezultat je bio zapanjujući. Dušanova država protezala se od Dunava na severu do Korintskog zaliva na jugu, od jadranske obale do Egejskog mora. Po veličini je bila skoro dvostruko veća od one koju je Milutin ostavio. Po sastavu stanovništva, prvi put u istoriji srpske države, grčki podanici bili su, po svoj prilici, brojniji od srpskih. Vladar koji je počeo kao mladi kralj jedne balkanske kraljevine sada je vladao većim delom nekadašnjih evropskih oblasti Vizantije. To stanje moralo je dobiti i novo ime, novu titulu i nov državnopravni oblik — a Dušan ih je, usred pohoda, uzeo već 1345–1346, što će biti tema sledeće lekcije."
       }
     ],
-    "subtitle": "Od Vardara do Korintskog zaliva — kako je Dušan za petnaest godina udvostručio srpsku državu",
-    "dateLabel": "1331–1346.",
-    "timelinePosition": "1331–1346.",
-    "summary": "Dušanovi pohodi na jug između 1331. i 1346.: Makedonija, Albanija, Epir i Tesalija, vizantijski građanski rat kao prilika, i stvaranje države u kojoj je grčko stanovništvo postalo većinsko.",
+    "subtitle": "Od Vardara do Korintskog zaliva — kako je Dušan za nepunih dvadeset godina udvostručio srpsku državu",
+    "dateLabel": "1331–1348.",
+    "timelinePosition": "1331–1348.",
+    "summary": "Dušanovi pohodi na jug između 1331. i 1348.: Makedonija, Albanija, Epir i Tesalija, vizantijski građanski rat kao prilika, i stvaranje države u kojoj je grčko stanovništvo verovatno postalo većinsko.",
     "keyPeople": [
       "Dušan",
       "Jovan Kantakuzin",
@@ -4302,7 +4300,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Po krunisanju, Dušan je u svojim ispravama nosio titulu „po milosti božjoj car Srba i Grka, blagočastivi car”. Reč „blagočastivi” preuzeta je iz vizantijske kancelarije, gde je vekovima opisivala pravoverne careve istočnog hrišćanstva. Time je Dušan jasno govorio da ne osniva novo carstvo iz ničega, već da preuzima jedan deo carskog dostojanstva koje je Vizantija, po njegovom shvatanju, oslabila i izneverila. Istog dana, ili neposredno potom, njegov sin Uroš krunisan je za kralja — „mladi kralj”, kako će se zvati u darovnicama — i tako je uveden kao otvoreno označeni naslednik. Carstvo je dobilo i drugog vladara, mlađeg po godinama i po stepenu vlasti, ali već postavljenog uz oca."
+        "text": "Po krunisanju, Dušan je u svojim ispravama nosio titulu „u Hrista Boga blagoverni car Srbljem i Grkom”. Reč „blagoverni” (grč. pistos) preuzeta je iz vizantijske kancelarije, gde je vekovima opisivala pravoverne careve istočnog hrišćanstva. Time je Dušan jasno govorio da ne osniva novo carstvo iz ničega, već da preuzima jedan deo carskog dostojanstva koje je Vizantija, po njegovom shvatanju, oslabila i izneverila. Istog dana, ili neposredno potom, njegov sin Uroš krunisan je za kralja — „mladi kralj”, kako će se zvati u darovnicama — i tako je uveden kao otvoreno označeni naslednik. Carstvo je dobilo i drugog vladara, mlađeg po godinama i po stepenu vlasti, ali već postavljenog uz oca."
       },
       {
         "type": "paragraph",
@@ -4310,7 +4308,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Ipak, čin krunisanja od početka je bio sporan. Po vizantijskom poimanju, na svetu je mogao da postoji samo jedan car — onaj u Carigradu, koji je svoju vlast izvodio neposredno od Boga preko Hrista. Dušanova carska titula ravna toj titulu bila je nešto čega ranije nije bilo. Vaseljenski patrijarh u Carigradu odgovorio je tako što je nešto kasnije izrekao odluku o izopštenju Srpske crkve, smatrajući njeno samovoljno proglašenje patrijaršije neispravnim. Taj raskol između srpske i carigradske crkve potrajaće sve do 1375. godine, kada će biti svečano izmiren — dakle skoro tri decenije, daleko posle Dušanove smrti. Politički, raskol nije slomio Dušanovo carstvo, ali je ostavio trag o kome će kasnije lekcije više govoriti."
+        "text": "Ipak, čin krunisanja od početka je bio sporan. Po vizantijskom poimanju, na svetu je mogao da postoji samo jedan car — onaj u Carigradu, koji je svoju vlast izvodio neposredno od Boga preko Hrista. Dušanova carska titula ravna toj titulu bila je izazov kakav je Vizantija ranije imala samo od bugarskih careva. Vaseljenski patrijarh u Carigradu odgovorio je tako što je nešto kasnije izrekao odluku o izopštenju Srpske crkve, smatrajući njeno samovoljno proglašenje patrijaršije neispravnim. Taj raskol između srpske i carigradske crkve potrajaće sve do 1375. godine, kada će biti svečano izmiren — dakle skoro tri decenije, daleko posle Dušanove smrti. Politički, raskol nije slomio Dušanovo carstvo, ali je ostavio trag o kome će kasnije lekcije više govoriti."
       },
       {
         "type": "paragraph",
@@ -4346,7 +4344,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Na saboru, 9. aprila 1346. godine, srpski arhiepiskop Joanikije II proglašen je za prvog srpskog patrijarha. Puna titula, koju će nositi i njegovi naslednici, glasila je „patrijarh Srba i Grka” — što je istovremeno bilo crkveno priznanje novostečenih dušanovih grčkih oblasti u Makedoniji, Albaniji i Tesaliji i jasna poruka da nova patrijaršija jurisdikciono pokriva ne samo srpsko stanovništvo, nego i grčke episkopije koje su do juče bile pod Carigradom. Za sedište je određena Peć, gde je srpska arhiepiskopija već imala uporište. Otuda i ime po kome će ta institucija biti zapamćena: Pećka patrijaršija. Sa istog sabora Joanikije će nedelju dana kasnije, 16. aprila, miropomazati Dušana za cara — što je, gledano unazad, bio i suštinski razlog zbog kojeg je sve sazvano."
+        "text": "Na saboru, 9. aprila 1346. godine, srpski arhiepiskop Joanikije II proglašen je za prvog srpskog patrijarha. Puna titula, koju će nositi i njegovi naslednici, glasila je „patrijarh Srba i Grka” — što je istovremeno bilo crkveno priznanje novostečenih dušanovih grčkih oblasti u Makedoniji i Albaniji i jasna poruka da nova patrijaršija jurisdikciono pokriva ne samo srpsko stanovništvo, nego i grčke episkopije koje su do juče bile pod Carigradom. Za sedište je određena Peć, gde je srpska arhiepiskopija već imala uporište. Otuda i ime po kome će ta institucija biti zapamćena: Pećka patrijaršija. Sa istog sabora Joanikije će nedelju dana kasnije, 16. aprila, miropomazati Dušana za cara — što je, gledano unazad, bio i suštinski razlog zbog kojeg je sve sazvano."
       },
       {
         "type": "heading",
@@ -4363,7 +4361,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Ono što je 1346. počelo kao crkveni instrument jedne carske krunidbe pokazalo se, sa stoletnom distancom, kao najtrajnije Dušanovo delo. Carstvo se raspalo već u generaciji posle njegove smrti. Stara srpska država pala je pod Osmanlije konačno 1459. godine. Ali Pećka patrijaršija opstala je i kroz tursko doba — sa prekidima, kroz progonstva i pomeranja, kroz čuvenu obnovu 1557. godine za vreme velikog vezira Mehmed-paše Sokolovića, kada je za prvog obnovljenog patrijarha postavljen Makarije Sokolović. Ukinuta je 1766. godine sultanskom odlukom i potčinjena carigradskoj patrijaršiji, da bi krajem 19. veka, posle obnove srpske državnosti, bila postupno vraćena: 1879. godine priznata je autokefalnost beogradske mitropolije, a puni patrijaršijski rang vraćen je 1920. ujedinjenjem srpskih crkvenih oblasti u obnovljenu Srpsku pravoslavnu crkvu."
+        "text": "Ono što je 1346. počelo kao crkveni instrument jedne carske krunidbe pokazalo se, sa stoletnom distancom, kao najtrajnije Dušanovo delo. Carstvo se raspalo već u generaciji posle njegove smrti. Stara srpska država pala je pod Osmanlije konačno 1459. godine. Ali Pećka patrijaršija opstala je i kroz tursko doba — sa prekidima, kroz progonstva i pomeranja, kroz čuvenu obnovu 1557. godine, uz podršku Mehmed-paše Sokolovića, tada jednog od vezira (veliki vezir od 1565), kada je za prvog obnovljenog patrijarha postavljen Makarije Sokolović. Ukinuta je 1766. godine sultanskom odlukom i potčinjena carigradskoj patrijaršiji, da bi krajem 19. veka, posle obnove srpske državnosti, bila postupno vraćena: 1879. godine priznata je autokefalnost beogradske mitropolije, a puni patrijaršijski rang vraćen je 1920. ujedinjenjem srpskih crkvenih oblasti u obnovljenu Srpsku pravoslavnu crkvu."
       },
       {
         "type": "paragraph",
@@ -4391,12 +4389,12 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "content": [
       {
         "type": "paragraph",
-        "text": "Krunisanjem za cara Srba i Grka u Skoplju 1346. godine Dušan je preuzeo i obavezu koja se podrazumevala uz novu titulu — da svojoj državi da uređen pravni okvir. Carstvo koje je u tom trenutku držao više nije bilo raška kraljevina očeva i dedova; obuhvatalo je staru srpsku zemlju, ali i široke vizantijske oblasti Makedonije, dela Tesalije i Epira, sa gradovima u kojima se vekovima sudilo po rimskom i grčkom pravu. Vladar koji je nameravao da takvu tvorevinu drži na okupu morao je da odgovori na jasno pitanje: po kom će se zakonu suditi u njegovim sudnicama, od Dunava do Egejskog mora.",
+        "text": "Krunisanjem za cara Srba i Grka u Skoplju 1346. godine Dušan je preuzeo i obavezu koja se podrazumevala uz novu titulu — da svojoj državi da uređen pravni okvir. Carstvo koje je u tom trenutku držao više nije bilo raška kraljevina očeva i dedova; obuhvatalo je staru srpsku zemlju, ali i široke vizantijske oblasti Makedonije i Albanije, a uskoro i Epira i Tesalije, sa gradovima u kojima se vekovima sudilo po rimskom i grčkom pravu. Vladar koji je nameravao da takvu tvorevinu drži na okupu morao je da odgovori na jasno pitanje: po kom će se zakonu suditi u njegovim sudnicama, od Dunava do Egejskog mora.",
         "dropcap": true
       },
       {
         "type": "paragraph",
-        "text": "Odgovor nije bio improvizacija. Dušan je već 1346, u istoj godini kao i carska kruna, dao da se na slovenski prevede „Sintagma” Matije Vlastara — opsežna vizantijska kompilacija crkvenog i svetovnog prava, sastavljena u Solunu nekoliko godina ranije. Uz nju je u upotrebu ušao i takozvani „Justinijanov zakon”, skraćeni slovenski prevod delova vizantijskog svetovnog prava koji se vezuju za pravnu tradiciju cara Justinijana. Time je carstvo dobilo dva velika tela prevedenog grčko-rimskog prava — jedno opštije i više crkveno, drugo svetovno i konkretnije — koja su mogla da posluže kao osnova za svakodnevno suđenje."
+        "text": "Odgovor nije bio improvizacija. Dušan je ubrzo posle krunisanja dao da se na slovenski prevede „Sintagma” Matije Vlastara — opsežna vizantijska kompilacija crkvenog i svetovnog prava, sastavljena u Solunu nekoliko godina ranije. Uz nju je u upotrebu ušao i takozvani „Justinijanov zakon”, skraćeni slovenski prevod delova vizantijskog svetovnog prava koji se vezuju za pravnu tradiciju cara Justinijana. Time je carstvo dobilo dva velika tela prevedenog grčko-rimskog prava — jedno opštije i više crkveno, drugo svetovno i konkretnije — koja su mogla da posluže kao osnova za svakodnevno suđenje."
       },
       {
         "type": "paragraph",
@@ -4417,7 +4415,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Treba odmah reći i ono što je u nauci poznato a u popularnoj predstavi često zanemareno. Izvorni rukopis Dušanovog zakonika nije sačuvan. Tekst nam je poznat preko više kasnijih prepisa, takozvanih redakcija, nastalih krajem 14. i tokom 15, 16. i 17. veka. Najvažniji među njima su Prizrenski rukopis s kraja 14. veka, Atonska redakcija sa Svete Gore i još nekoliko mlađih prepisa koji se međusobno razlikuju u redosledu članova, u pojedinim formulacijama, ponegde i u sadržaju. Današnji čitalac zakonika čita, dakle, naučnu rekonstrukciju — tekst koji su istoričari prava pažljivo sastavili upoređujući rukopise, beležeći varijante i, gde je potrebno, pošteno priznajući da se tačno izvorno čitanje nekog člana ne može sa sigurnošću utvrditi."
+        "text": "Treba odmah reći i ono što je u nauci poznato a u popularnoj predstavi često zanemareno. Izvorni rukopis Dušanovog zakonika nije sačuvan. Tekst nam je poznat preko više kasnijih prepisa, takozvanih redakcija, nastalih krajem 14. i tokom 15, 16. i 17. veka. Najstariji je Struški prepis iz 1373, sačuvan samo delimično; najvažniji su Atonski, sa Svete Gore (oko 1418), i Prizrenski, s kraja 15. ili početka 16. veka, najpotpuniji po tekstu, uz još nekoliko mlađih prepisa koji se međusobno razlikuju u redosledu članova, u pojedinim formulacijama, ponegde i u sadržaju. Današnji čitalac zakonika čita, dakle, naučnu rekonstrukciju — tekst koji su istoričari prava pažljivo sastavili upoređujući rukopise, beležeći varijante i, gde je potrebno, pošteno priznajući da se tačno izvorno čitanje nekog člana ne može sa sigurnošću utvrditi."
       },
       {
         "type": "paragraph",
@@ -4473,7 +4471,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Privredni članovi opisuju svet pijaca, mera i puteva. Određuju se pravila trgovine, kažnjavaju lažne mere i tegovi, štite stranci-trgovci, najčešće Dubrovčani, kojima se garantuje pravo na pravičan sud i bezbedan prolaz. Rudarstvo, koje je u Dušanovo doba donosilo ogromne prihode, ostaje u rukama posebnog „saskog” zakona — pravnog zbornika nemačkih rudara doseljenih u Novo Brdo, Rudnik i druga središta — a Dušanov zakonik to izričito priznaje. Imamo, dakle, sliku pravne kulture u kojoj država ne pokušava sve da uguši pod jednim obrascem, već dozvoljava da uz opšti zakon žive i posebna pravila tamo gde se pokazala korisnima."
+        "text": "Privredni članovi opisuju svet pijaca, mera i puteva. Određuju se pravila trgovine, kažnjavaju lažne mere i tegovi, štite stranci-trgovci, najčešće Dubrovčani, kojima se garantuje pravo na pravičan sud i bezbedan prolaz. Rudarstvo, koje je u Dušanovo doba donosilo ogromne prihode, uređivali su posebni običaji saskih rudara doseljenih u Novo Brdo, Rudnik i druga središta; Zakonik Sase pominje (u članu o seči šuma), a pisani rudarski zakon doneće tek despot Stefan 1412. Imamo, dakle, sliku pravne kulture u kojoj država ne pokušava sve da uguši pod jednim obrascem, već dozvoljava da uz opšti zakon žive i posebna pravila tamo gde se pokazala korisnima."
       },
       {
         "type": "paragraph",
@@ -4497,7 +4495,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "content": [
       {
         "type": "paragraph",
-        "text": "Kada se danas pomene „dvor Nemanjića”, lako je zamisliti jedno stalno mesto — kameni grad sa prestolom, gde vladar sedi i odakle godinama upravlja zemljom. Stvarnost je bila drugačija. Srednjovekovni srpski dvor bio je pre svega pokretna ustanova. Kralj, a kasnije car, putovao je sa svojom pratnjom između nekoliko omiljenih boravišta — u ranijim vremenima oko Rasa, kasnije u Skoplju, Prizrenu, povremeno u Kruševcu i drugim utvrđenim gradovima — i držao dvor tamo gde se zatekao. Iza njega su išla kola sa pisarima, kovčezi sa poveljama, kuvari, sluge, lovci i vojna pratnja. Vlast je bila tamo gde je vladar.",
+        "text": "Kada se danas pomene „dvor Nemanjića”, lako je zamisliti jedno stalno mesto — kameni grad sa prestolom, gde vladar sedi i odakle godinama upravlja zemljom. Stvarnost je bila drugačija. Srednjovekovni srpski dvor bio je pre svega pokretna ustanova. Kralj, a kasnije car, putovao je sa svojom pratnjom između nekoliko omiljenih boravišta — u ranijim vremenima oko Rasa, kasnije u Skoplju, Prizrenu i drugim utvrđenim gradovima — i držao dvor tamo gde se zatekao. Iza njega su išla kola sa pisarima, kovčezi sa poveljama, kuvari, sluge, lovci i vojna pratnja. Vlast je bila tamo gde je vladar.",
         "dropcap": true
       },
       {
@@ -4506,7 +4504,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Tokom 13. i naročito 14. veka, dvorska ceremonija sve više se ugledala na Carigrad. Što je srpska država postajala moćnija i što su Nemanjići držali više grčkih oblasti, to je formalnost na dvoru bila sličnija vizantijskoj. U vreme Dušana, kada se Srbija proglasila carstvom, ta sličnost dostigla je vrhunac. Svečane odežde, povorke na velike praznike, formalni prijemi stranih izaslanika, hijerarhija titula koje su odzvanjale grčkim poreklom — sevastokrator, despot, kesar — sve je to ulazilo u srpski dvorski život. Vladar je za važne prilike oblačio odeću nalik carskoj, sedeo na prestolu sa svečanim baldahinom, a od Dušanovog vremena dvoglavi orao postao je državni znak."
+        "text": "Tokom 13. i naročito 14. veka, dvorska ceremonija sve više se ugledala na Carigrad. Što je srpska država postajala moćnija i što su Nemanjići držali više grčkih oblasti, to je formalnost na dvoru bila sličnija vizantijskoj. U vreme Dušana, kada se Srbija proglasila carstvom, ta sličnost dostigla je vrhunac. Svečane odežde, povorke na velike praznike, formalni prijemi stranih izaslanika, hijerarhija titula koje su odzvanjale grčkim poreklom — sevastokrator, despot, kesar — sve je to ulazilo u srpski dvorski život. Vladar je za važne prilike oblačio odeću nalik carskoj, sedeo na prestolu sa svečanim baldahinom, a dvoglavi orao, poznat na odeći Nemanjića već od 13. veka, u Dušanovo vreme postaje sve istaknutiji vladarski znak."
       },
       {
         "type": "heading",
@@ -4523,7 +4521,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Dvor Nemanjića, naročito u svom poznom razdoblju, bio je kosmopolitsko mesto. U njega su dolazili italijanski trgovci iz Dubrovnika i Kotora, vizantijski izaslanici sa pismima i poklonima, ugarski i bugarski velikaši, povremeno papski legati. Govorili su se različiti jezici, prevodilo se sa grčkog i latinskog, sklapali su se ugovori i bračne veze koje su srpski dvor uplitale u širu evropsku mrežu. Žene u vladarskoj kući imale su tu vidnu ulogu: kraljice i carice držale su svoje pratnje, učestvovale u ceremonijalu, a pojedine — poput Jelene, supruge kralja Uroša I — vodile su sopstvene oblasti i bavile se pokroviteljstvom crkava, bolnica i učenja, što ih je činilo političkim akterima na svoj način."
+        "text": "Dvor Nemanjića, naročito u svom poznom razdoblju, bio je kosmopolitsko mesto. U njega su dolazili trgovci iz Dubrovnika i Kotora, pa i iz italijanskih gradova, vizantijski izaslanici sa pismima i poklonima, ugarski i bugarski velikaši, povremeno papski legati. Govorili su se različiti jezici, prevodilo se sa grčkog i latinskog, sklapali su se ugovori i bračne veze koje su srpski dvor uplitale u širu evropsku mrežu. Žene u vladarskoj kući imale su tu vidnu ulogu: kraljice i carice držale su svoje pratnje, učestvovale u ceremonijalu, a pojedine — poput Jelene, supruge kralja Uroša I — vodile su sopstvene oblasti i bavile se pokroviteljstvom crkava, bolnica i učenja, što ih je činilo političkim akterima na svoj način."
       },
       {
         "type": "paragraph",
@@ -4538,8 +4536,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "keyPlaces": [
       "Ras",
       "Skoplje",
-      "Prizren",
-      "Kruševac"
+      "Prizren"
     ]
   },
   "day-080": {
@@ -4572,7 +4569,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Odnos vlastele prema kruni bio je sastavljen od službe i pregovora. Vlastela je dolazila na dvor, ratovala u kraljevim, pa carevim ratovima, dobijala činove i darove. Ali zakoni i krupne odluke nisu donošeni bez sabora — skupština na kojima su, pored vladara i visokog sveštenstva, sedeli i prvaci vlastele. Sabor je 1219. potvrdio autokefalnost Srpske crkve, sabori su proglasili carstvo 1346. i krunisali Dušana, sabori su donosili i potvrđivali zakonik. Vladar je vladao sa vlastelom, a ne nad njom; kada bi se taj odnos pokvario, država je počinjala da puca."
+        "text": "Odnos vlastele prema kruni bio je sastavljen od službe i pregovora. Vlastela je dolazila na dvor, ratovala u kraljevim, pa carevim ratovima, dobijala činove i darove. Ali zakoni i krupne odluke nisu donošeni bez sabora — skupština na kojima su, pored vladara i visokog sveštenstva, sedeli i prvaci vlastele. Žički sabor (verovatno 1221) svečano je obznanio autokefalnost koju je Sava 1219. doneo iz Nikeje, sabori su proglasili carstvo 1346. i krunisali Dušana, sabori su donosili i potvrđivali zakonik. Vladar je vladao sa vlastelom, a ne nad njom; kada bi se taj odnos pokvario, država je počinjala da puca."
       },
       {
         "type": "paragraph",
@@ -4580,7 +4577,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "U Dušanovo vreme među vlastelom su izrasle porodice koje su u svojim oblastima već bile gotovo suverene: Mrnjavčevići na jugu, Balšići u Zeti, Vojislav Vojinović u zaleđu Dubrovnika i drugi. Dok je sam Dušan bio živ, njegova ličnost i ugled držali su ih u carskom sklopu. Kada se posle 1355. centralna vlast oslabila, krupne porodice su sopstvene oblasti pretvorile u svoje države, sa svojim novcem, vojskama i međusobnim ratovima. Carstvo se nije raspalo zato što su vlastelu izmislili Dušanovi naslednici, već zato što je rast moći vlastele tekao decenijama, a kruna je tek u krizi otkrila koliko je u međuvremenu izgubila. Tu se najjasnije vidi šta je vlastela bila — ne samo sloj gospodara, nego deo same vladarske mašine, koja je, dok je radila zajedno sa krunom, držala državu, a kada je radila sama, raznela ju je u nekoliko pokrajina. Slika koju imamo o tom svetu sastavljena je iz povelja, Dušanovog zakonika i vizantijskih vesti, pa pojedine porodične istorije ostaju delimično rekonstruisane i mestimično nesigurne."
+        "text": "Moć vlastele rasla je i u Dušanovo vreme, ali dok je car bio živ, njegova ličnost i ugled držali su je u carskom sklopu. Kada se posle 1355. centralna vlast oslabila, iz redova vlastele brzo su izrasle porodice koje su u svojim oblastima postale gotovo suverene — Mrnjavčevići na jugu, Balšići u Zeti, Vojislav Vojinović u zaleđu Dubrovnika i drugi — i sopstvene oblasti pretvorile u svoje države, sa svojim novcem, vojskama i međusobnim ratovima. Carstvo se nije raspalo zato što su vlastelu izmislili Dušanovi naslednici, već zato što je rast moći vlastele tekao decenijama, a kruna je tek u krizi otkrila koliko je u međuvremenu izgubila. Tu se najjasnije vidi šta je vlastela bila — ne samo sloj gospodara, nego deo same vladarske mašine, koja je, dok je radila zajedno sa krunom, držala državu, a kada je radila sama, raznela ju je u nekoliko pokrajina. Slika koju imamo o tom svetu sastavljena je iz povelja, Dušanovog zakonika i vizantijskih vesti, pa pojedine porodične istorije ostaju delimično rekonstruisane i mestimično nesigurne."
       }
     ],
     "subtitle": "Sloj vlastele između krune i seljaka — zemlja, služba i moć u srpskoj državi 13. i 14. veka",
@@ -4599,11 +4596,11 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Reč „sebar” u srpskim spomenicima označava običnog čoveka, neplemića, najčešće zemljoradnika. Ona stoji nasuprot vlasteli iznad i nasuprot malobrojnim otrocima ispod. Najveći deo sebra činili su meropsi — zavisni seljaci koji su obrađivali zemlju nekog gospodara, bio on kralj, manastir ili vlastelin. Meropah nije bio rob; imao je sopstveno domaćinstvo, sopstvenu stoku, ponekad i sopstveni vinograd, ali zemlja na kojoj je sedeo nije bila njegova. Za pravo da je koristi plaćao je gospodaru u tri oblika: u radu na njegovom imanju, u delu žita i drugih plodova, i u sitnijim dažbinama u sireu, vunenoj robi ili gvožđu. Vezanost za zemlju bila je glavno pravilo — meropah se mogao seliti samo pod tačno propisanim uslovima, najčešće kroz zamenu, otkup ili posebnu dozvolu gospodara."
+        "text": "Reč „sebar” u srpskim spomenicima označava običnog čoveka, neplemića, najčešće zemljoradnika. Ona stoji nasuprot vlasteli iznad i nasuprot malobrojnim otrocima ispod. Najveći deo sebra činili su meropsi — zavisni seljaci koji su obrađivali zemlju nekog gospodara, bio on kralj, manastir ili vlastelin. Meropah nije bio rob; imao je sopstveno domaćinstvo, sopstvenu stoku, ponekad i sopstveni vinograd, ali zemlja na kojoj je sedeo nije bila njegova. Za pravo da je koristi plaćao je gospodaru u tri oblika: u radu na njegovom imanju, u delu žita i drugih plodova, i u sitnijim dažbinama u siru, vunenoj robi ili gvožđu. Vezanost za zemlju bila je glavno pravilo — meropah se mogao seliti samo pod tačno propisanim uslovima, najčešće kroz zamenu, otkup ili posebnu dozvolu gospodara."
       },
       {
         "type": "paragraph",
-        "text": "Pored meropaha postojali su i drugi, uže određeni slojevi. Sokalnici su bili kućna posluga vlastelinskog dvora — ljudi koji su služili u kuhinji, oko stoke, oko gospodarevog domaćinstva, i koji su živeli u senci njegove kuće pre nego u sopstvenom selu. Otroci su činili posebnu, malu skupinu pravih neslobodnih ljudi, najčešće zarobljenika iz ratova ili potomaka ranijih robova. Njihov položaj nije bio sjajan, ali ni neograničen: pod uticajem vizantijskog prava i crkvene pouke, ropstvo u srpskim zemljama bilo je obuzdano, a Dušanov zakonik unosi pravila koja regulišu kako se otroci smeju kupovati, prodavati i, ponekad, oslobađati. U svakodnevnom radu razlika između otroka i siromašnog meropha možda nije uvek bila velika, ali u pravu je postojala."
+        "text": "Pored meropaha postojali su i drugi, uže određeni slojevi. Sokalnici su bili zavisni ljudi sa obavezama sličnim meropaškim, ali manjim i posebnim — služba oko gospodarevog domaćinstva, oko stoke, prevoz — iako su imali sopstvena domaćinstva; njihov tačan položaj izvori ne otkrivaju sasvim. Otroci su činili posebnu, malu skupinu pravih neslobodnih ljudi, najčešće zarobljenika iz ratova ili potomaka ranijih robova. Njihov položaj nije bio sjajan, ali ni neograničen: pod uticajem vizantijskog prava i crkvene pouke, ropstvo u srpskim zemljama bilo je obuzdano, a Dušanov zakonik unosi pravila koja regulišu kako se otroci smeju kupovati, prodavati i, ponekad, oslobađati. U svakodnevnom radu razlika između otroka i siromašnog meropaha možda nije uvek bila velika, ali u pravu je postojala."
       },
       {
         "type": "paragraph",
@@ -4616,15 +4613,15 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Život običnog sebra bio je, po današnjim merilima, težak. Većina sela bila je samoupravna pod sopstvenim županom ili starešinom; glavno okupljanje izvan kuće bila je parohijska crkva, koja je i krštavala, i venčavala, i sahranjivala, i posredno učila pismenosti. Radna godina ređala se po crkvenim praznicima i poljskim poslovima — oranju, kosidbi, žetvi, berbi. Pored rada na sopstvenoj njivi, meropah je imao i obavezu rabote, prinudnog rada na gospodarevom imanju, koja je u nekim poveljama merena tačnim brojem dana u godini. Za uzvrat se očekivala zaštita: od razbojnika, od stranih upada, od zlostavljanja drugih moćnika. Ta zaštita je, kada je bila stvarna, ozbiljno menjala život na bolje; kada je izostajala, ostajao je samo običaj koji je teško mogao da zaustavi naoružanog čoveka."
+        "text": "Život običnog sebra bio je, po današnjim merilima, težak. Većina sela bila je samoupravna pod sopstvenim starešinom; glavno okupljanje izvan kuće bila je parohijska crkva, koja je i krštavala, i venčavala, i sahranjivala, i posredno učila pismenosti. Radna godina ređala se po crkvenim praznicima i poljskim poslovima — oranju, kosidbi, žetvi, berbi. Pored rada na sopstvenoj njivi, meropah je imao i obavezu rabote, prinudnog rada na gospodarevom imanju, koja je u nekim poveljama merena tačnim brojem dana u godini. Za uzvrat se očekivala zaštita: od razbojnika, od stranih upada, od zlostavljanja drugih moćnika. Ta zaštita je, kada je bila stvarna, ozbiljno menjala život na bolje; kada je izostajala, ostajao je samo običaj koji je teško mogao da zaustavi naoružanog čoveka."
       },
       {
         "type": "paragraph",
-        "text": "Upravo zato je Dušanov zakonik, donet sredinom 14. veka, neobičan dokument. Iako ga je pisala vlastela za potrebe carske države, on na više mesta izričito štiti sebra od silništva. Vlastelin ne sme ubiti ni osakatiti sebra bez suda; ne sme mu uzeti poslednje žito ni poslednjeg konja, jer su to sredstva preživljavanja; seljak ima pravo da svoju žalbu iznese pred više sudije i, ako je obman, da traži ispravku. Najpoznatiji je član koji kaže da naredba samog cara, ako je iznuđena u gnevu ili pristrasnosti, nije obavezujuća — izvanredna odredba koja čak i vladara stavlja pod meru zakona. Takve rečenice ne treba čitati naivno: one opisuju red kakav je zakonodavac želeo, a ne nužno stvarnost koju je seljak živeo."
+        "text": "Upravo zato je Dušanov zakonik, donet sredinom 14. veka, neobičan dokument. Iako ga je pisala vlastela za potrebe carske države, on na više mesta izričito štiti sebra od silništva. Za ubistvo sebra vlastelin plaća visoku globu; meropah sme da se sudi i sa sopstvenim gospodarom, a seljak ima pravo da svoju žalbu iznese pred više sudije i, ako je obmanut, da traži ispravku. Najpoznatiji je član koji kaže da naredba samog cara, ako je iznuđena u gnevu ili pristrasnosti, nije obavezujuća — izvanredna odredba koja čak i vladara stavlja pod meru zakona. Takve rečenice ne treba čitati naivno: one opisuju red kakav je zakonodavac želeo, a ne nužno stvarnost koju je seljak živeo."
       },
       {
         "type": "paragraph",
-        "text": "Pa ipak, kada se uporedi sa nekim zapadnoevropskim društvima istog doba, srpski feudalni poredak deluje primetno bolje regulisan na papiru. Postojanje pisanih zaštita, makar i često kršenih, ostavljalo je sebrima nešto što mnogi njihovi savremenici nisu imali — okvir u kome su mogli da traže pravdu, čak i protiv moćnika. U svakodnevnom životu, naravno, mnogo je više zavisilo od dobrog ili lošeg gospodara, od urodice, od mira ili rata, nego od slova zakonika. Sebar je hranio dvor, branio među, kopao temelje manastira i punio vojsku kada se zatraži. O sebi je ćutao, jer pisanje nije bilo njegov posao. Ako mu danas damo glas, treba ga dati skromno: ne kao herojima, ni kao žrtvama, već kao širokom temelju države koji se vekovima nije pomerao, i bez koga se nijedna kruna ne bi održala."
+        "text": "Pa ipak, kada se uporedi sa nekim zapadnoevropskim društvima istog doba, srpski feudalni poredak deluje primetno bolje regulisan na papiru. Postojanje pisanih zaštita, makar i često kršenih, ostavljalo je sebrima nešto što mnogi njihovi savremenici nisu imali — okvir u kome su mogli da traže pravdu, čak i protiv moćnika. U svakodnevnom životu, naravno, mnogo je više zavisilo od dobrog ili lošeg gospodara, od uroda, od mira ili rata, nego od slova zakonika. Sebar je hranio dvor, branio među, kopao temelje manastira i punio vojsku kada se zatraži. O sebi je ćutao, jer pisanje nije bilo njegov posao. Ako mu danas damo glas, treba ga dati skromno: ne kao herojima, ni kao žrtvama, već kao širokom temelju države koji se vekovima nije pomerao, i bez koga se nijedna kruna ne bi održala."
       }
     ],
     "subtitle": "Široki sloj zavisnih seljaka, slugu i stočara koji je nosio srednjovekovnu Srbiju, a o sebi ostavio jedva koji red",
@@ -4689,12 +4686,12 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "content": [
       {
         "type": "paragraph",
-        "text": "Na padinama jedne ugasle vulkanske gore u istočnom delu Kosova, nedaleko od današnje Prištine, krajem 13. veka počelo je da niče naselje koje će za stotinak godina postati jedan od najbogatijih gradova jugoistočne Evrope. Zvao se Novo Brdo. Nije bio prestonica, ni sedište arhiepiskopije, ni manastirsko središte — bio je rudnik. A ipak je upravo on, više nego mnogi dvorovi i katedrale, držao u rukama ono čime se u srednjem veku kupovala i sila i mir: srebro.",
+        "text": "Na padinama jedne ugasle vulkanske gore u istočnom delu Kosova, nedaleko od današnje Prištine, početkom 14. veka (prvi pomen 1326) počelo je da niče naselje koje će za stotinak godina postati jedan od najbogatijih gradova jugoistočne Evrope. Zvao se Novo Brdo. Nije bio prestonica, ni sedište arhiepiskopije, ni manastirsko središte — bio je rudnik. A ipak je upravo on, više nego mnogi dvorovi i katedrale, držao u rukama ono čime se u srednjem veku kupovala i sila i mir: srebro.",
         "dropcap": true
       },
       {
         "type": "paragraph",
-        "text": "Srpski rudnici otvarali su se i ranije, ali Novo Brdo se izdvojilo onim što je geologija stavila u njegove žile. Tamošnja ruda davala je takozvano „glamsko srebro” — argentum de glama, kako su ga zvali Dubrovčani u svojim ugovorima. Bilo je to srebro koje je u sebi prirodno nosilo i znatan udeo zlata, otprilike jedan deo zlata na šest do deset delova srebra, u zavisnosti od žile. Takav metal vredeo je osetno više od običnog srebra i tražen je od kovnica novca u Veneciji, Ugarskoj i drugde. Pretapanje, razdvajanje i kovanje glamskog srebra bili su posao koji je tražio i znanje i kapital — i upravo oko tog posla okupila se neobična, šarolika gradska zajednica."
+        "text": "Srpski rudnici otvarali su se i ranije, ali Novo Brdo se izdvojilo onim što je geologija stavila u njegove žile. Tamošnja ruda davala je takozvano „glamsko srebro” — argentum de glama, kako su ga zvali Dubrovčani u svojim ugovorima. Bilo je to srebro koje je u sebi prirodno nosilo i primetan udeo zlata, koji je od žile do žile i od ugovora do ugovora znatno varirao. Takav metal vredeo je osetno više od običnog srebra i tražen je od kovnica novca u Veneciji, Ugarskoj i drugde. Pretapanje, razdvajanje i kovanje glamskog srebra bili su posao koji je tražio i znanje i kapital — i upravo oko tog posla okupila se neobična, šarolika gradska zajednica."
       },
       {
         "type": "paragraph",
@@ -4757,7 +4754,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Manastir srednjovekovne Srbije bio je, pre svega ostalog, krupan zemljoposednik. Osnivačke povelje Nemanjića poklanjale su mu sela, oranice, vinograde, mlinove, ribnjake, ponekad i rudnike, zajedno sa zavisnim seljacima — meropsima i sokalnicima — koji su na manastirskoj zemlji radili određeni broj dana godišnje. Hilandarska, dečanska i banjska povelja zato i imaju toliku vrednost za istoričare: one popisuju ne samo darove nego i čitave seoske zajednice sa imenima domaćina, brojem stoke i obavezama. Manastir je u toj privredi bio organizator — vodio je račune o žetvi, ubirao desetak, prodavao vino i so, davao ili pozajmljivao novac. U vremenu pre razvijenih gradskih tržišta, igumanije velikih manastira bile su među najvećim ekonomskim igračima u zemlji."
+        "text": "Manastir srednjovekovne Srbije bio je, pre svega ostalog, krupan zemljoposednik. Osnivačke povelje Nemanjića poklanjale su mu sela, oranice, vinograde, mlinove, ribnjake, ponekad i rudnike, zajedno sa zavisnim seljacima — meropsima i sokalnicima — koji su na manastirskoj zemlji radili određeni broj dana godišnje. Hilandarska, dečanska i banjska povelja zato i imaju toliku vrednost za istoričare: one popisuju ne samo darove nego i čitave seoske zajednice sa imenima domaćina, brojem stoke i obavezama. Manastir je u toj privredi bio organizator — vodio je račune o žetvi, ubirao desetak, prodavao vino i so, davao ili pozajmljivao novac. U vremenu pre razvijenih gradskih tržišta, igumani velikih manastira bili su među najvećim ekonomskim igračima u zemlji."
       },
       {
         "type": "paragraph",
@@ -4765,7 +4762,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Politička uloga bila je manje vidljiva ali jednako stalna. U Žiči je krunisan Stefan Prvovenčani, u istom manastiru i kasniji kraljevi. Sabori su zasedali u manastirskim trpezarijama. Vladari su se povlačili u manastir kada bi se umorili ili kada bi politički bili poraženi — Stefan Nemanja u Studenici i Hilandaru, Stefan Dečanski neko vreme u Pantokratoru. Manastir je bio i poslednje počivalište: nemanjićki grobovi raštrkani su po Studenici, Mileševi, Sopoćanima, Dečanima, Banjskoj. Tako je sama zadužbina bila i obećanje — da će se nad kostima vladara moliti dok njegova kuća postoji."
+        "text": "Politička uloga bila je manje vidljiva ali jednako stalna. U Žiči je, po žitijima, Sava krunisao Stefana Prvovenčanog, a Žiča je važila za krunidbenu crkvu kasnijih kraljeva. Sabori su zasedali u manastirskim trpezarijama. Vladari su se povlačili u manastir kada bi se umorili ili kada bi politički bili poraženi — Stefan Nemanja u Studenici i Hilandaru, Stefan Dečanski neko vreme u Pantokratoru. Manastir je bio i poslednje počivalište: nemanjićki grobovi raštrkani su po Studenici, Mileševi, Sopoćanima, Dečanima, Banjskoj. Tako je sama zadužbina bila i obećanje — da će se nad kostima vladara moliti dok njegova kuća postoji."
       },
       {
         "type": "paragraph",
@@ -4822,11 +4819,11 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Glavni centri prepisivanja menjali su se sa razvojem države. Hilandar, srpska zadužbina na Svetoj Gori, postao je središte knjige već u vreme Save i Stefana Nemanje, a zlatno doba doživeo je u 14. veku, pod Dušanom i njegovim naslednicima, kada se njegova biblioteka brojala u stotinama tomova. U Raškoj su Studenica i Žiča rano dobile sopstvene radionice; Mileševa je u 13. veku bila važno književno i bogoslužbeno središte, kao i Pećka patrijaršija od osnivanja autokefalne arhiepiskopije. Dečani su u 14. veku okupljali svoje pisce i prepisivače, a krajem srednjeg veka, već u doba Stefana Lazarevića, oformiće se i čuvena resavska škola, kojoj će biti posvećena posebna lekcija."
+        "text": "Glavni centri prepisivanja menjali su se sa razvojem države. Hilandar, srpska zadužbina na Svetoj Gori, postao je središte knjige već u vreme Save i Stefana Nemanje, a zlatno doba doživeo je u 14. veku, pod Dušanom i njegovim naslednicima, kada se njegova biblioteka brojala u stotinama tomova. U Raškoj su Studenica i Žiča rano dobile sopstvene radionice; Mileševa je u 13. veku bila važno književno i bogoslužbeno središte, a od sredine 13. veka i Peć, kuda je arhiepiskop Arsenije I preneo sedište (kasnija Pećka patrijaršija). Dečani su u 14. veku okupljali svoje pisce i prepisivače, a krajem srednjeg veka, već u doba Stefana Lazarevića, oformiće se i čuvena resavska škola, kojoj će biti posvećena posebna lekcija."
       },
       {
         "type": "paragraph",
-        "text": "Imena samih prepisivača retko su zapisivana — posao je smatran skromnim, a monah je svoje delo radije pripisivao Bogu nego sebi. Ipak, neka imena su preživela. Iz kruga Svetog Save javljaju se prvi domaći pisci čije znanje pretpostavlja godine prepisivačkog rada. U 13. veku monah Domentijan, učenik Savin, napisao je opširna žitija Save i Simeona; nešto kasnije Teodosije Hilandarac, takođe hilandarski monah, dao je tim istim životima svoj književni oblik, mekši i razuđeniji, koji će u potonjim vekovima više čitati od Domentijanovog. Krajem 14. i početkom 15. veka u Srbiju će iz Bugarske doći Konstantin Filozof, učeni gramatičar koji će uobličiti jezičku reformu resavske škole."
+        "text": "Imena samih prepisivača retko su zapisivana — posao je smatran skromnim, a monah je svoje delo radije pripisivao Bogu nego sebi. Ipak, neka imena su preživela. Iz kruga Svetog Save javljaju se prvi domaći pisci čije znanje pretpostavlja godine prepisivačkog rada. U 13. veku monah Domentijan, učenik Savin, napisao je opširna žitija Save i Simeona; nešto kasnije Teodosije Hilandarac, takođe hilandarski monah, dao je Domentijanovom Žitiju Svetog Save svoj književni oblik, mekši i razuđeniji, koji će se u potonjim vekovima više čitati od Domentijanovog. Krajem 14. i početkom 15. veka u Srbiju će iz Bugarske doći Konstantin Filozof, učeni gramatičar koji će uobličiti jezičku reformu resavske škole."
       },
       {
         "type": "paragraph",
@@ -4834,7 +4831,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Najpoznatiji preživeli primer ove kulture jeste Miroslavljevo jevanđelje, napisano krajem 12. veka za humskog kneza Miroslava, brata Stefana Nemanje. To je najstariji sačuvani srpski ćirilični rukopis i jedno od remek-dela srednjovekovne knjižne umetnosti uopšte — sa preko tri stotine raskošno oslikanih inicijala u kojima se prepliću ljudske figure, životinje i biljni ukrasi. Danas se čuva u beogradskom Narodnom muzeju i upisano je u Uneskov registar „Pamćenja sveta”. Već iz tog jednog primera vidi se koliko je rano srpska knjiga dostigla zrelost i kao tekst i kao slika."
+        "text": "Najpoznatiji preživeli primer ove kulture jeste Miroslavljevo jevanđelje, napisano krajem 12. veka za humskog kneza Miroslava, brata Stefana Nemanje. To je najstariji sačuvani srpski ćirilični rukopis i jedno od remek-dela srednjovekovne knjižne umetnosti uopšte — sa gotovo tri stotine raskošno oslikanih inicijala i zastavica u kojima se prepliću ljudske figure, životinje i biljni ukrasi. Danas se čuva u beogradskom Narodnom muzeju i upisano je u Uneskov registar „Pamćenja sveta”. Već iz tog jednog primera vidi se koliko je rano srpska knjiga dostigla zrelost i kao tekst i kao slika."
       },
       {
         "type": "paragraph",
@@ -4888,7 +4885,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "U inskripcijama tih crkava sačuvana su i imena slikara — što je za srednji vek dragoceno i retko. Među najpoznatijima su Mihail Astrapas i Evtihije, dvojica majstora grčkog porekla iz Soluna, koji su početkom 14. veka oslikali nekoliko zadužbina kralja Milutina. Većina vrhunskih majstora u Srbiji ovog doba zaista jesu Grci — to je činjenica koju izvori jasno kažu i koju ne treba prećutkivati. Ipak, uz njih su radili i domaći slikari, pretežno na drugorednim programima i u manjim crkvama, postepeno usvajajući zanat. Tako je srpsko fresko slikarstvo bilo i deo vizantijskog kulturnog kruga i istovremeno nešto sopstveno, sa naručiocima, programima i svecima koje je biralo srpsko društvo."
+        "text": "U inskripcijama tih crkava sačuvana su i imena slikara — što je za srednji vek dragoceno i retko. Među najpoznatijima su Mihail Astrapas i Evtihije, dvojica majstora grčkog porekla iz Soluna, koji su početkom 14. veka oslikali nekoliko zadužbina kralja Milutina. Prema većini istraživača, vodeći majstori ovog doba bili su Grci — i to ne treba prećutkivati. Ipak, uz njih su radili i domaći slikari, pretežno na drugorednim programima i u manjim crkvama, postepeno usvajajući zanat. Tako je srpsko fresko slikarstvo bilo i deo vizantijskog kulturnog kruga i istovremeno nešto sopstveno, sa naručiocima, programima i svecima koje je biralo srpsko društvo."
       },
       {
         "type": "paragraph",
@@ -4931,7 +4928,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Početak se obično vezuje za Stefana Nemanju i njegove zadužbine u drugoj polovini 12. veka. Đurđevi Stupovi kod Novog Pazara, podignuti oko 1170, već pokazuju glavnu ideju: relativno mala, izdužena crkva sa kupolom nad središnjim delom broda, građena od pravilno klesanih kvadera. Pravi obrazac, međutim, postaće Studenica, započeta oko 1190. godine. Njena Bogorodičina crkva obložena je belim mermerom koji se i danas, kada padne kosa svetlost, gotovo svetli; portali, prozori i kupolni tambur ukrašeni su klesanim ornamentom — biljnim viticama, isprepletanim trakama, ljudskim i životinjskim glavama. Te detalje, prema starim zapisima, izrađivali su majstori sa primorja, najverovatnije iz dalmatinskih i apulskih radionica, navikli na romanički repertoar. U unutrašnjosti je sve drugačije: kupola, oltarski prostor i raspored fresaka pripadaju vizantijskom svetu koji je Nemanja kao pravoslavni vladar smatrao svojim."
+        "text": "Početak se obično vezuje za Stefana Nemanju i njegove zadužbine u drugoj polovini 12. veka. Đurđevi Stupovi kod Novog Pazara, podignuti oko 1170, već pokazuju glavnu ideju: relativno mala, izdužena crkva sa kupolom nad središnjim delom broda, građena od pravilno klesanih kvadera. Pravi obrazac, međutim, postaće Studenica, započeta krajem 1180-ih ili oko 1190. godine. Njena Bogorodičina crkva obložena je belim mermerom koji se i danas, kada padne kosa svetlost, gotovo svetli; portali, prozori i kupolni tambur ukrašeni su klesanim ornamentom — biljnim viticama, isprepletanim trakama, ljudskim i životinjskim glavama. Te detalje, sudeći po stilu, izrađivali su majstori sa primorja, najverovatnije iz dalmatinskih i apulskih radionica, navikli na romanički repertoar. U unutrašnjosti je sve drugačije: kupola, oltarski prostor i raspored fresaka pripadaju vizantijskom svetu koji je Nemanja kao pravoslavni vladar smatrao svojim."
       },
       {
         "type": "heading",
@@ -4940,7 +4937,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Kroz nekoliko decenija ustalio se prepoznatljiv tip. Raška crkva je po pravilu jednobrodna — dakle nema bočne lađe kao starohrišćanske bazilike i kao mnogi vizantijski hramovi — ali je iznad središta broda postavljen tambur sa kupolom. Taj spoj, jednobrodna osnova plus kupola, neuobičajen je u vizantijskoj praksi; bliži je romaničkim crkvama zapadne Evrope, samo što je kupola srpsku verziju vratila u istočni liturgijski svet. Tambur je visok i vitak, najčešće osmostran, sa uskim prozorima koji u unutrašnjost puštaju usku, vertikalnu svetlost iznad oltara. Zidovi su građeni od pažljivo tesanog kamena, često u dva tona — belom krečnjaku sa crvenkastim ili ružičastim naglascima, koji ivicama i lezenama daju crtež bez potrebe za bojom."
+        "text": "Kroz nekoliko decenija ustalio se prepoznatljiv tip. Raška crkva je po pravilu jednobrodna — dakle nema bočne lađe kao starohrišćanske bazilike i kao mnogi vizantijski hramovi — ali je iznad središta broda postavljen tambur sa kupolom. Taj spoj, jednobrodna osnova plus kupola, neuobičajen je u vizantijskoj praksi; bliži je romaničkim crkvama zapadne Evrope, samo što je kupola srpsku verziju vratila u istočni liturgijski svet. Tambur je visok i vitak, najčešće osmostran, sa uskim prozorima koji u unutrašnjost puštaju usku, vertikalnu svetlost iznad oltara. U najraskošnijim zadužbinama — Studenici, Banjskoj, Dečanima — zidovi su građeni od pažljivo tesanog kamena, često u dva tona — belom krečnjaku sa crvenkastim ili ružičastim naglascima, koji ivicama i lezenama daju crtež bez potrebe za bojom; mnoge druge, poput Žiče, Mileševe i Sopoćana, zidane su lomljenim kamenom i malterisane."
       },
       {
         "type": "paragraph",
@@ -4952,7 +4949,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Poslednja velika raška građevina je istovremeno i izuzetak — Visoki Dečani, podignuti između 1327. i 1335. po nalogu kralja Stefana Dečanskog, a po nacrtu kotorskog fratra Vite. Dečani su najveća srpska srednjovekovna crkva, ali su već u nečemu drugačiji: imaju tri broda umesto jednog, monumentalniju kamenu plastiku i očiglednije romaničko-gotičke odlike. U tom smislu Dečani su istovremeno kruna raške škole i znak da je njeno vreme prošlo. Do tada su Milutinova osvajanja na jugu već donela novi obrazac — crkve u opeci i kamenu, sa nekoliko kupola, na način koji se kasnije nazvao vardarskom ili srpsko-vizantijskom školom, i o tome će biti reči u sledećoj lekciji."
+        "text": "Poslednja velika raška građevina je istovremeno i izuzetak — Visoki Dečani, podignuti između 1327. i 1335. po nalogu kralja Stefana Dečanskog, a po nacrtu kotorskog fratra Vite. Dečani su najveća srpska srednjovekovna crkva, ali su već u nečemu drugačiji: imaju petobrodni naos i trobrodnu pripratu umesto jednog broda, monumentalniju kamenu plastiku i očiglednije romaničko-gotičke odlike. U tom smislu Dečani su istovremeno kruna raške škole i znak da je njeno vreme prošlo. Do tada su Milutinova osvajanja na jugu već donela novi obrazac — crkve u opeci i kamenu, sa nekoliko kupola, na način koji se kasnije nazvao vardarskom ili srpsko-vizantijskom školom, i o tome će biti reči u sledećoj lekciji."
       },
       {
         "type": "paragraph",
@@ -4962,7 +4959,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "subtitle": "Prvi veliki stil srpske srednjovekovne arhitekture — susret vizantijske liturgije i romaničkog klesara",
     "dateLabel": "12–13. vek",
     "timelinePosition": "12–13. vek",
-    "summary": "Kako je u Raškoj 12. i 13. veka, oko Nemanjinih i potonjih zadužbina, nastao prepoznatljiv stil crkvene arhitekture — jednobrodne kupolne crkve od finog kamena, vizantijske po duhu i romaničke po klesarskoj ruci.",
+    "summary": "Kako je u Raškoj 12. i 13. veka, oko Nemanjinih i potonjih zadužbina, nastao prepoznatljiv stil crkvene arhitekture — jednobrodne kupolne crkve, najraskošnije od finog kamena, vizantijske po duhu i romaničke po klesarskoj ruci.",
     "keyPeople": [],
     "keyPlaces": [
       "Studenica",
@@ -5007,7 +5004,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Vardarski manir nije ostao samo na novoosvojenom jugu. Milutin je, otprilike 1314, u samom srcu Raške, unutar studeničkog kruga, podigao malu Kraljevu crkvu posvećenu svetim Joakimu i Ani — pravu minijaturu vardarske škole, sa kupolom na visokom tamburu i fasadom u opeci i kamenu, ugnezdenu pored stare Bogorodičine crkve od belog mermera. Taj kontrast dva susedna zdanja dragocen je za razumevanje promene: stara i nova faza srpskog graditeljstva stoje jedna pored druge u istom dvorištu. Sličnu logiku ponavlja i kapela Svetih apostola pri Pećkoj patrijaršiji, kao i, nešto kasnije, manastir Lesnovo iz sredine četrnaestog veka, gde se vardarski jezik već polako prepliće sa lokalnim sklonostima."
+        "text": "Vardarski manir nije ostao samo na novoosvojenom jugu. Milutin je, otprilike 1314, u samom srcu Raške, unutar studeničkog kruga, podigao malu Kraljevu crkvu posvećenu svetim Joakimu i Ani — pravu minijaturu vardarske škole, sa kupolom na visokom tamburu i fasadom u opeci i kamenu, ugnezdenu pored stare Bogorodičine crkve od belog mermera. Taj kontrast dva susedna zdanja dragocen je za razumevanje promene: stara i nova faza srpskog graditeljstva stoje jedna pored druge u istom dvorištu. Sličnu logiku ponavljaju i crkve Svetog Dimitrija i Bogorodice Odigitrije pri Pećkoj patrijaršiji, kao i, nešto kasnije, manastir Lesnovo iz sredine četrnaestog veka, gde se vardarski jezik već polako prepliće sa lokalnim sklonostima."
       },
       {
         "type": "paragraph",
@@ -5040,7 +5037,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Tu sredinu istorija umetnosti zove moravskom školom. Naziv je kasniji, izveden iz reke koja teče kroz središte njenih zadužbina, i odnosi se na poslednji veliki srpski srednjovekovni graditeljski stil — onaj koji će svoj puni izraz dobiti tek u vreme despota Stefana Lazarevića, u Ravanici, Ljubostinji, Kaleniću i Manasiji. Ali stil se ne pojavljuje sa potpisom i datumom; on se priprema. Upravo poslednje decenije 14. veka, vreme kneza Lazara Hrebeljanovića, jesu period u kome se još raško-vardarska tradicija polako pretapa u nešto drugo, prepoznatljivo srpsko, a opet nesvedeno samo na ponavljanje već viđenog."
+        "text": "Tu sredinu istorija umetnosti zove moravskom školom. Naziv je kasniji, izveden iz reke koja teče kroz središte njenih zadužbina, i odnosi se na poslednji veliki srpski srednjovekovni graditeljski stil — onaj koji će svoj puni izraz dobiti u Ravanici kneza Lazara (1375–1377), a zatim u Ljubostinji, Kaleniću i Manasiji u doba despota Stefana Lazarevića. Ali stil se ne pojavljuje sa potpisom i datumom; on se priprema. Upravo poslednje decenije 14. veka, vreme kneza Lazara Hrebeljanovića, jesu period u kome se još raško-vardarska tradicija polako pretapa u nešto drugo, prepoznatljivo srpsko, a opet nesvedeno samo na ponavljanje već viđenog."
       },
       {
         "type": "paragraph",
@@ -5053,11 +5050,11 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Najraniji primer koji se obično navodi kao prelaz ka moravskom stilu jeste Lazarica u Kruševcu, dvorska crkva koju je knez Lazar podigao u svojoj prestonici, najverovatnije između 1377. i 1380. godine. Posvećena je Svetom prvomučeniku Stefanu, po Lazarevom sinu Stefanu, budućem despotu. Mala je, jednokupolna, sa trikonhalnom osnovom; zidana je u dva tona — svetlim peščarom i crvenom opekom — i ukrašena rozetama, bifoarama i kamenom plastikom oko portala koja je tu, na jednom mestu, sažela ono što će kasniji moravski majstori razviti u čitav rečnik. Onaj ko prvi put stane pred Lazaricu lako vidi i koliko ona još duguje vardarskim crkvama, i koliko se već odvojila od njih u proporcijama i u ukrasu."
+        "text": "Uz Ravanicu, najraniji primer koji se obično navodi kao prelaz ka moravskom stilu jeste Lazarica u Kruševcu, dvorska crkva koju je knez Lazar podigao u svojoj prestonici, najverovatnije između 1377. i 1380. godine. Posvećena je Svetom prvomučeniku Stefanu, po Lazarevom sinu Stefanu, budućem despotu. Mala je, jednokupolna, sa trikonhalnom osnovom; zidana je u dva tona — svetlim peščarom i crvenom opekom — i ukrašena rozetama, bifoarama i kamenom plastikom oko portala koja je tu, na jednom mestu, sažela ono što će kasniji moravski majstori razviti u čitav rečnik. Onaj ko prvi put stane pred Lazaricu lako vidi i koliko ona još duguje vardarskim crkvama, i koliko se već odvojila od njih u proporcijama i u ukrasu."
       },
       {
         "type": "paragraph",
-        "text": "Pored Lazarice, u toj istoj generaciji nastaje i crkva Svete Trojice u Drenči, zadužbina čelnika Musića, sestrića kneza Lazara, podignuta osamdesetih godina 14. veka u podnožju Kopaonika. Drenča je danas u ruševinama, ali ono što je ostalo dovoljno govori: ista trikonhalna osnova, ista naizmenična zidarska obrada, ista pažnja prema kamenoj plastici. Iz istog vremena vodi se i crkva Svetog Stefana u Konči, južnije, u okolini koja je već tada bila izložena pritisku, kao još jedan od mostova između starije vardarske tradicije i onoga što počinje oko Morave. Različiti ktitori, različita okruženja, ali srodne odluke — siguran znak da nije reč o izolovanim hirovima, već o stilskom pravcu koji sazreva."
+        "text": "Pored Lazarice, u toj istoj generaciji nastaje i crkva Vavedenja Bogorodice u Drenči, zadužbina monaha Doroteja i njegovog sina jeromonaha Danila, potonjeg patrijarha Danila III, podignuta oko 1379–1382. u podnožju Kopaonika. Drenča je danas u ruševinama, ali ono što je ostalo dovoljno govori: ista trikonhalna osnova, ista naizmenična zidarska obrada, ista pažnja prema kamenoj plastici. Nešto ranije, 1366, južnije, u okolini koja je već tada bila izložena pritisku, podignuta je crkva Svetog Stefana u Konči, zadužbina velikog vojvode Nikole Stanjevića — još jedan od mostova između starije vardarske tradicije i onoga što počinje oko Morave. Različiti ktitori, različita okruženja, ali srodne odluke — siguran znak da nije reč o izolovanim hirovima, već o stilskom pravcu koji sazreva."
       },
       {
         "type": "paragraph",
@@ -5091,11 +5088,11 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Najjasnije vidimo žene s vrha društva. Uz Stefana Prvovenčanog stoji njegova druga žena, Ana Dandolo, unuka mletačkog dužda Enrika Dandola, koja u Srbiju donosi vezu sa zapadnim trgovačkim gradovima i čiji se potomci kasnije računaju u glavnu lozu Nemanjića. Najuticajnija od ranih kraljica bila je Jelena Anžujska, supruga kralja Uroša I i majka Dragutina i Milutina. Posle muževljeve smrti dobila je na upravu oblasti u Zeti i Pomorju i njima vladala kao prava vladarka — sudila, ubirala prihode, gradila. Pomagala je gradnji crkava i na pravoslavnoj i na katoličkoj strani, što za vladarku tog doba nije bilo malo, a u Gradcu na Ibru podigla je zadužbinu u kojoj je i sahranjena, da bi vekovima kasnije bila proglašena za sveticu. Njena dvorska kancelarija pisala je povelje u njeno ime, što znači da je njena vlast bila i pravno priznata, ne samo dopuštena."
+        "text": "Najjasnije vidimo žene s vrha društva. Uz Stefana Prvovenčanog stoji njegova druga žena, Ana Dandolo, unuka mletačkog dužda Enrika Dandola, koja u Srbiju donosi vezu sa zapadnim trgovačkim gradovima i čiji se potomci kasnije računaju u glavnu lozu Nemanjića. Najuticajnija od ranih kraljica bila je Jelena Anžujska, supruga kralja Uroša I i majka Dragutina i Milutina. Posle muževljeve smrti dobila je na upravu oblasti u Zeti i Pomorju i njima vladala kao prava vladarka — sudila, ubirala prihode, gradila. Pomagala je gradnji crkava i na pravoslavnoj i na katoličkoj strani, što za vladarku tog doba nije bilo malo, a u Gradcu na Ibru podigla je zadužbinu u kojoj je i sahranjena, a ubrzo posle smrti (1314) počela je da se poštuje kao svetiteljka. Njena dvorska kancelarija pisala je povelje u njeno ime, što znači da je njena vlast bila i pravno priznata, ne samo dopuštena."
       },
       {
         "type": "paragraph",
-        "text": "Posle nje, na fresci u Kraljevoj crkvi u Studenici i na zidovima manastira širom Milutinove države, gleda nas Simonida — peta supruga kralja Milutina, kći vizantijskog cara Andronika II. Udata je sa pet godina u brak koji je bio čisto diplomatski potez i koji savremena merila ne mogu da pravdaju; o njenom stvarnom životu zna se malo, ali je njen lik na zidovima ostao jedan od najprepoznatljivijih portreta srednjovekovne Srbije. Polovinu veka kasnije, na čelu carskog dvora stoji Jelena Kantakuzina, supruga cara Dušana, krunisana caricom 1346. godine. Bila je grčka princeza iz moćne porodice i nije bila samo ukras prestola: posle Dušanove smrti, njen sin Uroš poverio joj je upravu nad jednim delom carstva i ona je iz Sera vladala bogatom južnom oblašću sa svojim dvorom i svojom kancelarijom, sve dok je nadiranje Turaka nije primoralo da se povuče."
+        "text": "Posle nje, na fresci u Kraljevoj crkvi u Studenici i na zidovima manastira širom Milutinove države, gleda nas Simonida — poslednja supruga kralja Milutina (po jednima četvrta, po drugima peta; broj njegovih brakova je sporan), kći vizantijskog cara Andronika II. Udata je sa pet godina u brak koji je bio čisto diplomatski potez i koji savremena merila ne mogu da pravdaju; o njenom stvarnom životu zna se malo, ali je njen lik na zidovima ostao jedan od najprepoznatljivijih portreta srednjovekovne Srbije. Polovinu veka kasnije, na čelu carskog dvora stoji Jelena, supruga cara Dušana, sestra bugarskog cara Jovana Aleksandra, krunisana caricom 1346. godine. Bila je bugarska princeza, udata za Dušana 1332, i nije bila samo ukras prestola: posle Dušanove smrti, njen sin Uroš poverio joj je upravu nad jednim delom carstva i ona je iz Sera vladala bogatom južnom oblašću sa svojim dvorom i svojom kancelarijom, sve dok upravu nad Serskom oblašću oko 1365. nije preuzeo despot Jovan Uglješa."
       },
       {
         "type": "heading",
@@ -5112,7 +5109,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Crkva je za žene bila i ograničenje i prostor. Iz svešteničke i bogoslužbene službe bile su isključene, ali su u pobožnosti zauzimale središnje mesto. Kult Bogorodice bio je najsnažnija nit narodne vere; ženski manastiri su postojali, manji i malobrojniji od muških, ali stvarni, i mnoge vladarske udovice, ali i obične žene iz vlastele, završavale su život kao monahinje, uzimajući veo u starosti kao prirodan poslednji korak. Iz tog sloja izrasta i osobeni kult svetih srpskih vladarki — Jelene Anžujske, a kasnije i kneginje Milice, koja će posle Lazareve pogibije na Kosovu voditi državu kao monahinja Jevgenija pre nego što bude i sama proglašena za sveticu. Pravoslavna crkva tako je ženama dala oblik svetosti koji nije bio samo pasivan."
+        "text": "Crkva je za žene bila i ograničenje i prostor. Iz svešteničke i bogoslužbene službe bile su isključene, ali su u pobožnosti zauzimale središnje mesto. Kult Bogorodice bio je najsnažnija nit narodne vere; ženski manastiri su postojali, manji i malobrojniji od muških, ali stvarni, i mnoge vladarske udovice, ali i obične žene iz vlastele, završavale su život kao monahinje, uzimajući veo u starosti kao prirodan poslednji korak. Iz tog sloja izrasta i osobeni kult svetih srpskih vladarki — Jelene Anžujske, a kasnije i kneginje Milice, koja će posle Lazareve pogibije na Kosovu voditi državu kao regentkinja, a i kao monahinja Jevgenija (od oko 1393) ostati uticajna u politici, pre nego što bude i sama proglašena za sveticu. Pravoslavna crkva tako je ženama dala oblik svetosti koji nije bio samo pasivan."
       },
       {
         "type": "paragraph",
@@ -5127,7 +5124,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       "Jelena Anžujska",
       "Ana Dandolo",
       "Simonida",
-      "Jelena Kantakuzina",
+      "Carica Jelena",
       "Knjeginja Milica"
     ],
     "keyPlaces": []
@@ -5158,7 +5155,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Život čoveka bio je upisan u crkveni kalendar od prvog do poslednjeg dana. Krštenje, venčanje i poslednji obredi bili su pravoslavni; venčanje se počinjalo pred vratima hrama, a nastavljalo unutra, pred svetim oltarom. Uporedo s tim, u narodu su živeli i stariji običaji, nasleđeni iz predhrišćanskog sloja: poštovanje ognjišta i kućnih zaštitnika, žetveni obredi, određene svadbene radnje. Srednjovekovna crkva ih je velikim delom trpela, mireći ih sa hrišćanskom godinom umesto da ih kažnjava. Slava — porodični praznik posvećen svecu zaštitniku doma, koji će postati jedna od najprepoznatljivijih odlika srpskog pravoslavlja — u nekom obliku se već praktikovala u kasnom srednjem veku; tačno vreme njenog nastanka i konačnog uobličenja predmet je naučne rasprave, ali sama navika porodičnog praznika svecu bila je tada već raširena. Veliki praznici — Božić, Vaskrs, Vidovdan, Đurđevdan i Savindan — delili su godinu na razdoblja sa svojim mirisima, jelima i pesmama."
+        "text": "Život čoveka bio je upisan u crkveni kalendar od prvog do poslednjeg dana. Krštenje, venčanje i poslednji obredi bili su pravoslavni; venčanje se počinjalo pred vratima hrama, a nastavljalo unutra, pred svetim oltarom. Uporedo s tim, u narodu su živeli i stariji običaji, nasleđeni iz predhrišćanskog sloja: poštovanje ognjišta i kućnih zaštitnika, žetveni obredi, određene svadbene radnje. Srednjovekovna crkva ih je velikim delom trpela, mireći ih sa hrišćanskom godinom umesto da ih kažnjava. Slava — porodični praznik posvećen svecu zaštitniku doma, koji će postati jedna od najprepoznatljivijih odlika srpskog pravoslavlja — u nekom obliku se već praktikovala u kasnom srednjem veku; tačno vreme njenog nastanka i konačnog uobličenja predmet je naučne rasprave, ali sama navika porodičnog praznika svecu bila je tada već raširena. Veliki praznici — Božić, Vaskrs, Đurđevdan i Savindan — delili su godinu na razdoblja sa svojim mirisima, jelima i pesmama."
       },
       {
         "type": "paragraph",
@@ -5176,7 +5173,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "content": [
       {
         "type": "paragraph",
-        "text": "Srednjovekovna Srbija, od vremena Stefana Nemanje do poslednjih Nemanjića, nije imala vojsku u modernom smislu te reči — nije postojao stalni, plaćeni i uvek pripravan vojni aparat koji bi vladar mogao da pokrene preko noći. Vojska je bila stanje, ne ustanova. Sazivala se kada je trebalo, sastavljala se od nekoliko različitih slojeva društva, ratovala je nekoliko meseci, a potom se razilazila kućama. Razumeti tu vojsku znači razumeti i sámo društvo iz kojeg je izlazila: vladara, vlastelu, sebrove i utvrđene gradove koji su tu vlastelu i njene seljake držali u određenom mestu na karti.",
+        "text": "Srednjovekovna Srbija, od vremena Stefana Nemanje do poslednjih Nemanjića, nije imala vojsku u modernom smislu te reči — nije postojao stalni, plaćeni i uvek pripravan vojni aparat koji bi vladar mogao da pokrene preko noći. Vojska je bila stanje, ne ustanova. Sazivala se kada je trebalo, sastavljala se od nekoliko različitih slojeva društva, ratovala je nekoliko meseci, a potom se razilazila kućama. Razumeti tu vojsku znači razumeti i sámo društvo iz kojeg je izlazila: vladara, vlastelu, sebre i utvrđene gradove koji su tu vlastelu i njene seljake držali u određenom mestu na karti.",
         "dropcap": true
       },
       {
@@ -5185,7 +5182,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Pored konjičkog jezgra, u velikim pohodima sazivao se i sebrov, to jest seoski sloj. Bile su to pešačke desetine i stotine seljaka, naoružanih onim što su imali kod kuće: lukom, kopljem, sekirom, retko mačem. Ratnička obuka im je bila skromna; uloga im je bila da popune redove, da drže krila i da, u opsadama, kopaju i nose. Po vrednosti se sebrov vojnik nije mogao meriti sa oklopnikom, ali je davao ono što vlastela nije mogla — broj. Ključne tvrđave i utvrđene varoši čuvale su stalne posade pod zapovedništvom kefalija ili gradskih starešina, koji su živeli u samom gradu i bili odgovorni za njegovu odbranu."
+        "text": "Pored konjičkog jezgra, u velikim pohodima sazivali su se i sebri, to jest seoski sloj. Bile su to pešačke desetine i stotine seljaka, naoružanih onim što su imali kod kuće: lukom, kopljem, sekirom, retko mačem. Ratnička obuka im je bila skromna; uloga im je bila da popune redove, da drže krila i da, u opsadama, kopaju i nose. Po vrednosti se vojnik iz reda sebara nije mogao meriti sa oklopnikom, ali je davao ono što vlastela nije mogla — broj. Ključne tvrđave i utvrđene varoši čuvale su stalne posade pod zapovedništvom kefalija ili gradskih starešina, koji su živeli u samom gradu i bili odgovorni za njegovu odbranu."
       },
       {
         "type": "heading",
@@ -5210,7 +5207,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Kroz dva i po veka ta se vojska menjala. U 12. veku ona je još pretežno feudalni saziv — župan, vlastela, družine, malo sebrova. Pod Milutinom i Dušanom postaje brojnija, bolje opremljena, sa stranim odredima i sa centralnijom voljom vladara koji njome upravlja. Posle Dušana, sa raspadom carstva i sve oštrijim osmanskim pritiskom, broj ljudi koje srpski velikaši mogu da izvedu na bojište opada, a težište se neminovno premešta na odbranu tvrđava. Konačno, mora se reći i ono što istoričari pošteno priznaju: o opremi srpskog srednjovekovnog ratnika znamo manje nego što bismo želeli. Najveći deo onoga što danas tvrdimo dolazi iz nekoliko stotina grobnih nalaza, iz fresaka po manastirima, gde su sveti ratnici slikani savremenim oružjem, i iz tuđih hronika. Mnoge pojedinosti ostaju otvorene, i tamo gde izvori ćute — i naš opis mora da bude oprezan."
+        "text": "Kroz dva i po veka ta se vojska menjala. U 12. veku ona je još pretežno feudalni saziv — župan, vlastela, družine, malo sebara. Pod Milutinom i Dušanom postaje brojnija, bolje opremljena, sa stranim odredima i sa centralnijom voljom vladara koji njome upravlja. Posle Dušana, sa raspadom carstva i sve oštrijim osmanskim pritiskom, broj ljudi koje srpski velikaši mogu da izvedu na bojište opada, a težište se neminovno premešta na odbranu tvrđava. Konačno, mora se reći i ono što istoričari pošteno priznaju: o opremi srpskog srednjovekovnog ratnika znamo manje nego što bismo želeli. Najveći deo onoga što danas tvrdimo dolazi iz nekoliko stotina grobnih nalaza, iz fresaka po manastirima, gde su sveti ratnici slikani savremenim oružjem, i iz tuđih hronika. Mnoge pojedinosti ostaju otvorene, i tamo gde izvori ćute — i naš opis mora da bude oprezan."
       }
     ],
     "subtitle": "Kako je raška, a potom kraljevska i carska Srbija ratovala — od vlasteoske konjice do tvrđava i plaćenika",
@@ -5229,11 +5226,11 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Najtrajniji instrument te diplomatije bili su dinastički brakovi. Stefan Prvovenčani oženio se najpre vizantijskom princezom Evdokijom, ćerkom cara Aleksija III Anđela, a kasnije Mlečankom Anom Dandolo, unukom poznatog dužda Enrika Dandola — jednim potezom vezao se i za Carigrad i za Veneciju. Kralj Uroš I uzeo je za ženu Jelenu, francusko-ugarsku plemkinju, koja će u srpskoj istoriji ostati zapamćena kao Jelena Anžujska. Njegov sin Milutin tokom dugog života imao je više supruga upravo iz političkih razloga — najpre ugarsku princezu, zatim bugarsku Anu Tertera, pa vizantijsku Simonidu, ćerku cara Andronika II. Dušan se oženio Jelenom Kantakuzin, sestrom moćnog vizantijskog velikaša Jovana Kantakuzina, i tim brakom se vezao za jednu od dveju strana u građanskom ratu koji je razdirao Vizantiju."
+        "text": "Najtrajniji instrument te diplomatije bili su dinastički brakovi. Stefan Prvovenčani oženio se najpre vizantijskom princezom Evdokijom, ćerkom cara Aleksija III Anđela, a kasnije Mlečankom Anom Dandolo, unukom poznatog dužda Enrika Dandola — jednim potezom vezao se i za Carigrad i za Veneciju. Kralj Uroš I uzeo je za ženu Jelenu, francusko-ugarsku plemkinju, koja će u srpskoj istoriji ostati zapamćena kao Jelena Anžujska. Njegov sin Milutin tokom dugog života imao je više supruga upravo iz političkih razloga — četiri ili pet, broj je sporan — među njima ugarsku princezu Jelisavetu, bugarsku Anu Terter i vizantijsku Simonidu, ćerku cara Andronika II. Dušan se 1332. oženio Jelenom, sestrom bugarskog cara Jovana Aleksandra, i tim brakom posle Velbužda zapečatio mir sa Bugarskom; sa Jovanom Kantakuzinom sklopio je 1342. savez u građanskom ratu koji je razdirao Vizantiju."
       },
       {
         "type": "paragraph",
-        "text": "Drugi stub diplomatije bila su poslanstva. Srpski vladari su gotovo neprekidno slali izaslanike u Carigrad — bilo da pregovaraju o miru, o granicama, o crkvenim pitanjima ili o trgovini. U Rim su poslanstva odlazila ređe, ali u presudnim trenucima: Stefan Prvovenčani 1217. zbog kraljevske krune, a kasniji Nemanjići povremeno zbog crkvenih pregovora i traženja saveznika. Ugarski dvor u Budimu, mletačka Signorija, dvor anžujskih kraljeva u Napulju, čak i daleki mongolski Ilkanat — svuda su stizali srpski izaslanici. Sačuvani izvori posebno pominju Milutinovo poslanstvo upućeno mongolskom dvoru krajem 13. veka, u trenutku kada je tražio podršku protiv suparničke vizantijske politike. Mongoli tada nisu bili samo daleka pretnja, nego i sila s kojom se računalo u celom istočnom Mediteranu."
+        "text": "Drugi stub diplomatije bila su poslanstva. Srpski vladari su gotovo neprekidno slali izaslanike u Carigrad — bilo da pregovaraju o miru, o granicama, o crkvenim pitanjima ili o trgovini. U Rim su poslanstva odlazila ređe, ali u presudnim trenucima: Stefan Prvovenčani 1217. zbog kraljevske krune, a kasniji Nemanjići povremeno zbog crkvenih pregovora i traženja saveznika. Ugarski dvor u Budimu, mletačka Signorija, dvor anžujskih kraljeva u Napulju, čak i dvor tatarskog kana Nogaja — svuda su stizali srpski izaslanici. Izvori pominju Milutinovo poslanstvo Nogaju oko 1292, kada je, da bi otklonio tatarski napad, prihvatio kanovu vrhovnu vlast i poslao sina Stefana kao taoca. Mongoli tada nisu bili daleka pretnja, nego sila s kojom se računalo na celom Balkanu."
       },
       {
         "type": "heading",
@@ -5272,7 +5269,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "content": [
       {
         "type": "paragraph",
-        "text": "Nijedan susedan svet nije srpsku srednjovekovnu državu oblikovao toliko duboko kao Vizantija. Tri veka, otprilike od dolaska Stefana Nemanje na presto pa do smrti cara Dušana, Carigrad je za Srbe bio sve odjednom — politički gospodar prema kome se osvajala samostalnost, crkvena majka iz koje su tekli pravoslavlje i monaštvo, kulturna radionica iz koje su dolazili slikari, pisari i pravnici, trgovački partner i, kada je trebalo, vojni protivnik. Sve to istovremeno, i sve to u stalnom kretanju. Razumeti srpski srednji vek bez Vizantije isto je što i pokušati razumeti reku bez njenog izvora.",
+        "text": "Nijedan susedan svet nije srpsku srednjovekovnu državu oblikovao toliko duboko kao Vizantija. Dva veka, otprilike od dolaska Stefana Nemanje na presto (oko 1166) pa do smrti cara Dušana (1355), Carigrad je za Srbe bio sve odjednom — politički gospodar prema kome se osvajala samostalnost, crkvena majka iz koje su tekli pravoslavlje i monaštvo, kulturna radionica iz koje su dolazili slikari, pisari i pravnici, trgovački partner i, kada je trebalo, vojni protivnik. Sve to istovremeno, i sve to u stalnom kretanju. Razumeti srpski srednji vek bez Vizantije isto je što i pokušati razumeti reku bez njenog izvora.",
         "dropcap": true
       },
       {
@@ -5294,7 +5291,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "U četrnaestom veku odnos snaga se pomerio brže nego što je iko mogao da pretpostavi. Kralj Milutin je krajem trinaestog i početkom četrnaestog veka pomerio srpsku granicu duboko na jug, u oblasti koje su vekovima pripadale Carstvu — Skoplje, severna Makedonija, delovi današnje Severne Makedonije i Albanije. Pridobio je vizantijsku princezu Simonidu za ženu i time se uglavio u carigradsku porodičnu mrežu, ali je istovremeno gradio Bogorodicu Ljevišku i Gračanicu kao kraljevske, srpske spomenike u zemlji koja je donedavno bila „grčka”. To dvojstvo — porodična bliskost i teritorijalno odvajanje — bilo je tipično za ceo srpsko-vizantijski odnos."
+        "text": "U četrnaestom veku odnos snaga se pomerio brže nego što je iko mogao da pretpostavi. Kralj Milutin je krajem trinaestog i početkom četrnaestog veka pomerio srpsku granicu duboko na jug, u oblasti koje su vekovima pripadale Carstvu — Skoplje, severna Makedonija, delovi današnje Severne Makedonije i Albanije. Pridobio je vizantijsku princezu Simonidu za ženu i time se uglavio u carigradsku porodičnu mrežu, ali je istovremeno gradio Bogorodicu Ljevišku i Gračanicu kao velike kraljevske zadužbine, a u tek osvojenim krajevima podizao crkve poput Svetog Đorđa u Starom Nagoričinu. To dvojstvo — porodična bliskost i teritorijalno odvajanje — bilo je tipično za ceo srpsko-vizantijski odnos."
       },
       {
         "type": "paragraph",
@@ -5309,7 +5306,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
         "text": "Manje od jednog veka posle Dušanove smrti, 1453, Carigrad je pao pod osmansku vlast. Vizantija kao država nestaje, ali ono što je Srbima ostavila — pismo, liturgija, manastirsko ustrojstvo, pravna kultura, ikonografski jezik — ostaje srž njihove duhovne i državne baštine i pod tuđom vlašću. U vekovima koji slede srpska crkva će sebe, ne bez razloga, doživljavati kao jednu od poslednjih većih pravoslavnih političko-duhovnih zajednica koje su preživele pad. Ali to je već druga priča. U razdoblju o kome je ovde reč Vizantija je za Srbiju bila i učitelj i takmac, i ogledalo i meta, i izvor i protivteža — i upravo zato nezamenljiva."
       }
     ],
-    "subtitle": "Tri veka odnosa sa Carigradom — uzor, učitelj, sused i suparnik srpske srednjovekovne države",
+    "subtitle": "Dva veka odnosa sa Carigradom — uzor, učitelj, sused i suparnik srpske srednjovekovne države",
     "dateLabel": "12–14. vek",
     "timelinePosition": "12–14. vek",
     "summary": "Od Nemanjinog vazalstva do Dušanovog carstva: kako je Vizantija istovremeno bila glavni uzor, crkvena majka, kulturni izvor i najteži sused srpske srednjovekovne države.",
@@ -5324,7 +5321,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "content": [
       {
         "type": "paragraph",
-        "text": "Od svih suseda koje je srpska država u doba Nemanjića imala, nijedan nije bio toliko trajno prisutan kao Ugarska. Vizantija je slabila, Bugarska je tonula i dizala se, italijanski gradovi i Dubrovnik bili su važni ali daleki — Ugarska je, međutim, vekovima sedela neposredno preko Save i Dunava i nije se nikuda pomerala. Linija dveju velikih reka bila je prirodna granica, ali i stalno mesto trenja: prelaza, sajmova, pregovora, ratnih pohoda i izmenjenih poseda. U tri veka koja pokrivaju vreme od Nemanje do poslednjih Nemanjića, srpsko-ugarski odnos prešao je preko svih lica koja takav susedski odnos može imati — od otvorenog rata do bračnog ugovora, i od dinastičkog savezništva do tihog rivalstva oko istih oblasti.",
+        "text": "Od svih suseda koje je srpska država u doba Nemanjića imala, nijedan nije bio toliko trajno prisutan kao Ugarska. Vizantija je slabila, Bugarska je tonula i dizala se, italijanski gradovi i Dubrovnik bili su važni ali daleki — Ugarska je, međutim, vekovima sedela neposredno preko Save i Dunava i nije se nikuda pomerala. Linija dveju velikih reka bila je prirodna granica, ali i stalno mesto trenja: prelaza, sajmova, pregovora, ratnih pohoda i izmenjenih poseda. U dva veka koja pokrivaju vreme od Nemanje do poslednjih Nemanjića, srpsko-ugarski odnos prešao je preko svih lica koja takav susedski odnos može imati — od otvorenog rata do bračnog ugovora, i od dinastičkog savezništva do tihog rivalstva oko istih oblasti.",
         "dropcap": true
       },
       {
@@ -5333,7 +5330,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Sukob je počeo rano. Već u doba velikog župana Stefana Nemanje ugarska vojska je više puta pokušala da se učvrsti južno od Save, u oblastima koje će kasnije biti poznate kao Mačva. Nemanja je te pritiske odbijao, ponekad uz pomoć Vizantije, ponekad sam, i uspeo da očuva srž raške države nepovređenom. Beograd je u tom periodu ostao u ugarskim rukama, kao tvrđava-ključ koja je kontrolisala donji Dunav. Granica se nije pomerala daleko ni u jednom ni u drugom pravcu — pomerali su se ljudi, sela, povremeni gospodari i nazivi, ali okvir je ostao isti."
+        "text": "Sukob je počeo rano. Već u doba velikog župana Stefana Nemanje ugarska vojska je više puta pokušala da se učvrsti južno od Save, u oblastima koje će kasnije biti poznate kao Mačva. Nemanja je sa Ugarskom menjao savez i sukob — 1183. ratovao je uz kralja Belu III protiv Vizantije, a početkom 1190-ih Ugri su upali u Srbiju. Beograd je u to doba prelazio iz vizantijskih u ugarske ruke i nazad, kao tvrđava-ključ koja je kontrolisala donji Dunav. Granica se nije pomerala daleko ni u jednom ni u drugom pravcu — pomerali su se ljudi, sela, povremeni gospodari i nazivi, ali okvir je ostao isti."
       },
       {
         "type": "heading",
@@ -5346,7 +5343,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Njegov mlađi brat, kralj Milutin, oženio se najpre ugarskom princezom Jelisavetom — prvom od četiri žene koje će tokom života imati. Brak je bio kratak i diplomatski, ali je pokazao isti obrazac: Budim je Nemanjiće gledao kao ravnopravne sagovornike, a Nemanjići su Budim gledali kao mesto gde se prave i razvrgavaju ozbiljne veze. Verska razlika rešavala se pragmatično. Mlada kraljevska nevesta bi, prema okolnostima, prešla u veru muža, ili bi prelaz ostao formalan; dvor se prilagođavao, a sveštenstvo nije imalo poslednju reč."
+        "text": "Njegov mlađi brat, kralj Milutin, oženio se i ugarskom princezom Jelisavetom, Katarininom sestrom — jednom od četiri ili pet žena koje je imao (broj je sporan). Brak je bio kratak i diplomatski, ali je pokazao isti obrazac: Budim je Nemanjiće gledao kao ravnopravne sagovornike, a Nemanjići su Budim gledali kao mesto gde se prave i razvrgavaju ozbiljne veze. Verska razlika rešavala se pragmatično. Mlada kraljevska nevesta bi, prema okolnostima, prešla u veru muža, ili bi prelaz ostao formalan; dvor se prilagođavao, a sveštenstvo nije imalo poslednju reč."
       },
       {
         "type": "paragraph",
@@ -5362,10 +5359,10 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Ono što je pouzdano, to je opšti obrazac. Tri veka odnosa između Srbije i Ugarske nisu bila ni stalni rat ni stalni mir, već dugačko susedstvo dva srednje jaka kraljevstva sa zajedničkom granicom i različitim crkvama, koja su naučila da žive jedno uz drugo. Ratovala su, ženila se, podržavala međusobne odmetnike, trgovala preko reka i kovala povelje koje će kasnije, u vreme despota i osmanske najezde, dobiti nov i mnogo dramatičniji značaj. Severna granica je, drugim rečima, ostavljena epohi koja dolazi — i biće upravo ona ivica preko koje će Srbija u 15. veku tražiti zaštitu, i preko koje će je ta ista zaštita ponekad izneveriti."
+        "text": "Ono što je pouzdano, to je opšti obrazac. Dva veka odnosa između Srbije i Ugarske nisu bila ni stalni rat ni stalni mir, već dugačko susedstvo dva srednje jaka kraljevstva sa zajedničkom granicom i različitim crkvama, koja su naučila da žive jedno uz drugo. Ratovala su, ženila se, podržavala međusobne odmetnike, trgovala preko reka i kovala povelje koje će kasnije, u vreme despota i osmanske najezde, dobiti nov i mnogo dramatičniji značaj. Severna granica je, drugim rečima, ostavljena epohi koja dolazi — i biće upravo ona ivica preko koje će Srbija u 15. veku tražiti zaštitu, i preko koje će je ta ista zaštita ponekad izneveriti."
       }
     ],
-    "subtitle": "Severni sused kroz tri veka — duga granica na Savi i Dunavu, rivalstvo, brakovi i pragmatični prelasci",
+    "subtitle": "Severni sused kroz dva veka — duga granica na Savi i Dunavu, rivalstvo, brakovi i pragmatični prelasci",
     "dateLabel": "12–14. vek",
     "timelinePosition": "12–14. vek",
     "summary": "Odnos srpske države i Ugarske u doba Nemanjića: trajno rivalstvo na Sava-Dunavskoj liniji, dinastički brakovi preko katoličko-pravoslavne granice i borba oko Mačve, Beograda i Srema.",
@@ -5405,7 +5402,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Sa svoje strane, Dubrovnik je srpskom kralju, a kasnije caru, plaćao precizno odmerene godišnje obaveze. Najpoznatija je bila ona koja se ustalila posle 1333. godine, kada je Stefan Dušan, tada još mladi kralj, prodao Dubrovčanima poluostrvo Ston i deo Pelješca. Otada se uvelo redovno godišnje plaćanje, takozvani stonski dohodak, koji je Dubrovnik isplaćivao srpskom vladaru u zlatnicima. Pored njega, postojali su i drugi, manji tributi i pokloni o pojedinim prilikama. Odnos između dva suseda uređen je, dakle, brojkama i datumima, a ne maglovitom vazalnom zavisnošću; obe strane su tačno znale ko šta duguje i do kada."
+        "text": "Sa svoje strane, Dubrovnik je srpskom kralju, a kasnije caru, plaćao precizno odmerene godišnje obaveze. Najstariji i najveći bio je svetodmitarski (srpski) dohodak od 2.000 perpera godišnje, plaćan od 1268. za slobodu trgovine. Posle 1333. godine, kada je Stefan Dušan, tada već kralj (car će postati tek 1346), prodao Dubrovčanima Ston sa Pelješcem za 8.000 perpera odjednom, dodat je i takozvani stonski dohodak od 500 perpera godišnje. Pored njih, postojali su i pokloni o pojedinim prilikama. Odnos između dva suseda uređen je, dakle, brojkama i datumima, a ne maglovitom vazalnom zavisnošću; obe strane su tačno znale ko šta duguje i do kada."
       },
       {
         "type": "paragraph",
@@ -5455,15 +5452,15 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Najveći graditeljski zamah došao je krajem trinaestog i početkom četrnaestog veka, sa kraljem Milutinom. Tada je u Hilandaru podignut novi glavni hram, katolikon, na mestu starije crkve — građevina koja u svojim osnovama i danas stoji. Milutin je u manastir uložio sredstva kakva u prethodnom veku nisu viđena, a kao i u drugim svojim zadužbinama, zaposlio je najbolje grčke majstore i slikare iz solunskog kruga. Pola veka kasnije, Stefan Dušan nastavio je delo svoga pradede sa još širom rukom: dodao je nove kule i konake, proširio katolikon, povećao posede i izdao niz hrisovulja koje su Hilandaru obezbedile prihode iz različitih krajeva srpske države."
+        "text": "Najveći graditeljski zamah došao je krajem trinaestog i početkom četrnaestog veka, sa kraljem Milutinom. Tada je u Hilandaru podignut novi glavni hram, katolikon, na mestu starije crkve — građevina koja u svojim osnovama i danas stoji. Milutin je u manastir uložio sredstva kakva u prethodnom veku nisu viđena, a kao i u drugim svojim zadužbinama, zaposlio je najbolje grčke majstore i slikare iz solunskog kruga. Pola veka kasnije, Stefan Dušan nastavio je delo svoga dede sa još širom rukom: zaokružio je i povećao hilandarske posede i izdao desetak hrisovulja koje su oblikovale glavninu manastirskog vlastelinstva i Hilandaru obezbedile prihode iz različitih krajeva srpske države."
       },
       {
         "type": "paragraph",
-        "text": "Dušan je, međutim, učinio i nešto što nije učinio nijedan drugi srednjovekovni srpski vladar — lično je došao na Svetu Goru. Krajem 1347. i tokom prve polovine 1348. godine, posle svog carskog krunisanja u Skoplju i u jeku velike kuge koja je tada harala Evropom, Dušan je sa caricom Jelenom proveo više meseci među atonskim manastirima. To je bio neobičan i pažljivo organizovan boravak. Po starom svetogorskom pravilu, na poluostrvo ne smeju da uđu žene; za Jelenu je, prema vizantijskim izvorima, napravljen poseban izuzetak, mada izvori opisuju različito da li je ona sama prešla granicu monaške zemlje ili je boravila u pratnji koja je ostala uz njene rubove. O tome istoričari i danas raspravljaju. Sigurno je da je sam Dušan obišao niz manastira i tamo izdao niz dokumenata koji se računaju u temeljne akte odnosa srpske države i Svete Gore."
+        "text": "Dušan je, međutim, učinio i nešto što nije učinio nijedan drugi srpski vladar dok je bio na prestolu — lično je došao na Svetu Goru. Krajem 1347. i tokom prve polovine 1348. godine, posle svog carskog krunisanja u Skoplju i u jeku velike kuge koja je tada harala Evropom, Dušan je sa caricom Jelenom proveo više meseci među atonskim manastirima. To je bio neobičan i pažljivo organizovan boravak. Po starom svetogorskom pravilu, na poluostrvo ne smeju da uđu žene; za Jelenu je, prema vizantijskim izvorima, napravljen poseban izuzetak, mada izvori opisuju različito da li je ona sama prešla granicu monaške zemlje ili je boravila u pratnji koja je ostala uz njene rubove. O tome istoričari i danas raspravljaju. Sigurno je da je sam Dušan obišao niz manastira i tamo izdao niz dokumenata koji se računaju u temeljne akte odnosa srpske države i Svete Gore."
       },
       {
         "type": "paragraph",
-        "text": "Tom prilikom Dušan nije darivao samo Hilandar. Posebnu pažnju ukazao je Vatopedu, velikom grčkom manastiru u kome je nekada, kao mladi monah, živeo Sveti Sava, i u kome je sahranjen Simeon pre nego što su mu mošti prenete u Studenicu. Hrisovulje je izdao i drugim velikim kućama — Velikoj Lavri, Esfigmenu, Filoteju, Karakalu. Time je srpski car praktično protegao svoju carsku zaštitu nad celom svetogorskom zajednicom, ne samo nad sopstvenim manastirom. Sve to vreme on je formalno bio i car Romeja, što mu je davalo pravo da se prema Atosu odnosi onako kako su se prema njemu vekovima odnosili vizantijski carevi — kao vrhovni svetovni zaštitnik."
+        "text": "Tom prilikom Dušan nije darivao samo Hilandar. Posebnu pažnju ukazao je Vatopedu, velikom grčkom manastiru u kome je Sveti Sava, kao mladi monah, započeo monaški život, a Simeon proveo prve svetogorske dane. Hrisovulje je izdao i drugim velikim kućama — Velikoj Lavri, Esfigmenu, Filoteju, Karakalu. Time je srpski car praktično protegao svoju carsku zaštitu nad celom svetogorskom zajednicom, ne samo nad sopstvenim manastirom. Sve to vreme on je formalno bio i car Romeja, što mu je davalo pravo da se prema Atosu odnosi onako kako su se prema njemu vekovima odnosili vizantijski carevi — kao vrhovni svetovni zaštitnik."
       },
       {
         "type": "paragraph",
@@ -5495,7 +5492,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "content": [
       {
         "type": "paragraph",
-        "text": "Kada je u decembru 1355. car Stefan Dušan iznenada umro, presto je nasledio jedini sin — Stefan Uroš, rođen oko 1336. godine. Imao je devetnaest godina, a od 1346, kada je otac u Skoplju krunisan za cara, već je nosio titulu mladog kralja i bio formalni saučesnik vlasti. Na papiru je smena bila glatka. U stvarnosti, mladić je preuzimao carstvo koje je počivalo gotovo isključivo na očevoj ličnoj snazi — na Dušanovom autoritetu, na strahu koji je ulivao velikašima i na ratnoj sreći koja ga je dve decenije pratila. Sve to se nije moglo naslediti zajedno sa krunom.",
+        "text": "Kada je u decembru 1355. car Stefan Dušan iznenada umro, presto je nasledio jedini sin — Stefan Uroš, rođen oko 1336. godine. Imao je devetnaest godina, a od 1346, kada je otac u Skoplju krunisan za cara, već je nosio titulu kralja i bio formalni saučesnik vlasti. Na papiru je smena bila glatka. U stvarnosti, mladić je preuzimao carstvo koje je počivalo gotovo isključivo na očevoj ličnoj snazi — na Dušanovom autoritetu, na strahu koji je ulivao velikašima i na ratnoj sreći koja ga je dve decenije pratila. Sve to se nije moglo naslediti zajedno sa krunom.",
         "dropcap": true
       },
       {
@@ -5504,7 +5501,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Prvi udarac stigao je iz porodice. Uroševog strica, Simeona Uroša, Dušan je postavio kao despota nad jugozapadnim grčkim oblastima — Epirom i Tesalijom. Već 1356. ili 1357. Simeon je iskoristio sinovčevu mladost i proglasio se carem Srba i Grka, tražeći krunu za sebe. Iz jednog carstva nastala su dva centra, a između njih ležala je linija razlaganja koju Uroš nije mogao da zatvori. Borba sa stricem za južne pokrajine vodila se kratko i nesigurno; na kraju je Simeon zadržao Tesaliju kao svoju državicu, a Uroševa vlast nad jugom svela se na ime."
+        "text": "Prvi udarac stigao je iz porodice. Uroševog strica, Simeona Uroša, Dušan je postavio kao despota nad jugozapadnim grčkim oblastima — Epirom i Akarnanijom; Tesaliju će preuzeti tek kasnije. Već 1356. ili 1357. Simeon je iskoristio sinovčevu mladost i proglasio se carem Srba i Grka, tražeći krunu za sebe. Iz jednog carstva nastala su dva centra, a između njih ležala je linija razlaganja koju Uroš nije mogao da zatvori. Borba sa stricem za južne pokrajine vodila se kratko i nesigurno; na kraju je Simeon zadržao Tesaliju kao svoju državicu, a Uroševa vlast nad jugom svela se na ime."
       },
       {
         "type": "heading",
@@ -5521,17 +5518,17 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Najjasniji znak gubitka stvarne vlasti došao je 1365. godine. Tada je Uroš, najverovatnije pod pritiskom prilika i samog Vukašina Mrnjavčevića, ovog krunisao za kralja i postavio ga kao savladara — mladog kralja pored cara. Bio je to izuzetan postupak, jer je titulu kralja, koju su Nemanjići vekovima čuvali za sebe, sada delio sa čovekom koji nije bio iz dinastije. Formalno se moglo reći da car ima jakog saradnika; suštinski, Vukašin je postao stvarni gospodar znatnog dela države, dok je Uroš zadržao ime i sveti oreol porekla. Od tog trenutka srpsko carstvo praktično je vodilo dvojno rukovodstvo, a velikaši u udaljenim oblastima slušali su sve manje i jednog i drugog."
+        "text": "Najjasniji znak gubitka stvarne vlasti došao je 1365. godine. Tada je Uroš, najverovatnije pod pritiskom prilika i samog Vukašina Mrnjavčevića, ovog krunisao za kralja i postavio ga kao savladara pored cara. Bio je to izuzetan postupak, jer je titulu kralja, koju su Nemanjići vekovima čuvali za sebe, sada delio sa čovekom koji nije bio iz dinastije. Formalno se moglo reći da car ima jakog saradnika; suštinski, Vukašin je postao stvarni gospodar znatnog dela države, dok je Uroš zadržao ime i sveti oreol porekla. Od tog trenutka srpsko carstvo praktično je vodilo dvojno rukovodstvo, a velikaši u udaljenim oblastima slušali su sve manje i jednog i drugog."
       },
       {
         "type": "paragraph",
-        "text": "Kraj je došao iznenada i u senci katastrofe. Septembra 1371, u bici na Marici, osmanska vojska pobedila je vojsku braće Mrnjavčevića; tu su poginuli i kralj Vukašin i despot Uglješa, a sa njima i veliki deo srpske velmoške snage na jugu. Uroš ih je nadživeo svega dva meseca. Umro je 4. decembra 1371. godine, ne ostavivši naslednika. Sa njim se ugasila loza Nemanjića, koja je od Stefana Nemanje vladala punih dvesta godina. Sahranjen je u manastiru Šudikova kod Berana; kasnije su mu mošti prenete u Jazak u Fruškoj gori, a narodno predanje i crkva primili su ga kao Svetog cara Uroša — mučenika čije je carstvo, pre nego što je palo, prošlo kroz njega kao kroz tihi i neopiranje hodnik."
+        "text": "Kraj je došao iznenada i u senci katastrofe. Septembra 1371, u bici na Marici, osmanska vojska pobedila je vojsku braće Mrnjavčevića; tu su poginuli i kralj Vukašin i despot Uglješa, a sa njima i veliki deo srpske velmoške snage na jugu. Uroš ih je nadživeo svega dva meseca. Umro je 4. decembra 1371. godine, ne ostavivši naslednika. Sa njim se ugasila loza Nemanjića, koja je od Stefana Nemanje vladala punih dvesta godina. Sahranjen je, po jednom tumačenju, u Nerodimlju, a po drugom u manastiru Šudikova kod Berana; kasnije su mu mošti prenete u Jazak u Fruškoj gori, a narodno predanje i crkva primili su ga kao Svetog cara Uroša — mučenika čije je carstvo, pre nego što je palo, prošlo kroz njega kao kroz tihi i neopiranje hodnik."
       }
     ],
     "subtitle": "Sin i naslednik cara Dušana, poslednji Nemanjić na prestolu, pod kojim se carstvo postepeno raspalo na oblasti velikaša",
     "dateLabel": "1355–1371.",
     "timelinePosition": "1355–1371.",
-    "summary": "Stefan Uroš V, jedini sin cara Dušana, nasledio je carstvo 1355. kao mladić bez očeve snage; za šesnaest godina njegove vladavine velikaši su otrgli oblasti, a sa njegovom smrću 1371. ugasila se loza Nemanjića.",
+    "summary": "Stefan Uroš V, jedini sin cara Dušana, nasledio je carstvo 1355. kao mladić bez očeve snage; za šesnaest godina njegove vladavine velikaši su otrgli oblasti, a sa njegovom smrću 1371. ugasila se vladarska loza Nemanjića.",
     "keyPeople": [
       "Stefan Uroš V",
       "Vukašin Mrnjavčević",
@@ -5546,7 +5543,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "content": [
       {
         "type": "paragraph",
-        "text": "Smrt cara Stefana Dušana 1355. nije odmah srušila carstvo, ali je počela tiho da ga rastače. Presto je preuzeo njegov sin Uroš, mlad, blag i bez očeve teške ruke, kog će docnija predaja zvati Nerotki — onaj koji nije rodio nasledstva ni potomstvu ni državi. U formalnom smislu on je i dalje bio car Srba i Grka, a velikaši su mu polagali zakletvu vernosti i u poveljama ga pominjali pre svojih imena. U stvarnom smislu, već polovinom šezdesetih godina, vlast u carstvu nisu više držale carske kancelarije, nego dvorovi nekolicine krupnih oblasnih gospodara koji su u svojim zemljama vladali kao gotovi suvereni.",
+        "text": "Smrt cara Stefana Dušana 1355. nije odmah srušila carstvo, ali je počela tiho da ga rastače. Presto je preuzeo njegov sin Uroš, mlad, blag i bez očeve teške ruke, kog će docnija predaja zvati Nejaki. U formalnom smislu on je i dalje bio car Srba i Grka, a velikaši su mu polagali zakletvu vernosti i u poveljama ga pominjali pre svojih imena. U stvarnom smislu, već polovinom šezdesetih godina, vlast u carstvu nisu više držale carske kancelarije, nego dvorovi nekolicine krupnih oblasnih gospodara koji su u svojim zemljama vladali kao gotovi suvereni.",
         "dropcap": true
       },
       {
@@ -5555,7 +5552,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Na jugu, u srpskoj Makedoniji, izrasla je još veća sila — porodica Mrnjavčevića. Vukašin je 1365. od cara Uroša dobio titulu mladog kralja, što je u vizantijskoj tradiciji značilo savladara i, po pravilu, određenog naslednika. U dokumentima iz tih godina dva imena stoje rame uz rame: car Uroš i kralj Vukašin. Praktično, Vukašin je vladao iz Prilepa i Skoplja sopstvenom vojskom i sopstvenim novcem, a Uroš se sve više povlačio u uže oblasti oko centralne Srbije. Vukašinov brat Uglješa, despot, držao je krajnji jugoistok — oblast Sera, na granici sa propadajućim Vizantijskim carstvom, i upravo je on prvi jasno video opasnost od nove sile koja je s istoka prelazila Bosfor."
+        "text": "Na jugu, u srpskoj Makedoniji, izrasla je još veća sila — porodica Mrnjavčevića. Vukašin je 1365. krunisan za kralja i postao Urošev savladar; titulu „mladog kralja”, tj. naslednika, dobio je njegov sin Marko. U dokumentima iz tih godina dva imena stoje rame uz rame: car Uroš i kralj Vukašin. Praktično, Vukašin je vladao iz Prilepa i Skoplja sopstvenom vojskom i sopstvenim novcem, a Uroš se sve više povlačio u uže oblasti oko centralne Srbije. Vukašinov brat Uglješa, despot, držao je krajnji jugoistok — oblast Sera, na granici sa propadajućim Vizantijskim carstvom, i upravo je on prvi jasno video opasnost od nove sile koja je preko Dardanela, kod Galipolja, prelazila u Evropu."
       },
       {
         "type": "heading",
@@ -5568,7 +5565,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "U isto vreme, sa zapada, u igru je ušao i bosanski ban Tvrtko Kotromanić. Iako je formalno bio vladar Bosne, njegov uspon se vremenski i prostorno preklopio sa propadanjem srpske carske vlasti. Tvrtko je iskoristio sukobe oko Altomanovićeve oblasti i preuzeo veliki deo Huma, a zatim, po majčinoj liniji koja je išla do Nemanjića, 1377. sebe krunisao za kralja Srba, Bosne i Primorja. Time je dao do znanja da se nemanjićko nasleđe može tražiti i izvan stare Raške — sa zapada, ne samo iz Moravske doline. Bio je to znak da je dušanovska kruna postala otvorena tema o kojoj se može razgovarati i odlučivati i preko granica nekadašnjeg carstva."
+        "text": "U isto vreme, sa zapada, u igru je ušao i bosanski ban Tvrtko Kotromanić. Iako je formalno bio vladar Bosne, njegov uspon se vremenski i prostorno preklopio sa propadanjem srpske carske vlasti. Tvrtko je iskoristio sukobe oko Altomanovićeve oblasti i preuzeo veliki deo Huma, a zatim, pozivajući se na nemanjićku krv koju je nosio preko babe Jelisavete, kćeri kralja Dragutina, 1377. sebe krunisao za kralja Srba, Bosne i Primorja. Time je dao do znanja da se nemanjićko nasleđe može tražiti i izvan stare Raške — sa zapada, ne samo iz Moravske doline. Bio je to znak da je dušanovska kruna postala otvorena tema o kojoj se može razgovarati i odlučivati i preko granica nekadašnjeg carstva."
       },
       {
         "type": "paragraph",
@@ -5576,7 +5573,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Treba biti i pošten prema izvorima. Ovaj period poznajemo fragmentarno. Najviše znamo iz dubrovačkih arhiva, koji su vodili pažljivu evidenciju o trgovini i ugovorima sa kopnenim gospodarima, zatim iz povelja i hrisovulja, i iz crkvenih spisa, naročito žitija. Neki od oblasnih gospodara su zato dobro osvetljeni, dok o drugima znamo malo više od imena i grube karte poseda. Pojedine titule i granice oblasti istoričari i danas oprezno rekonstruišu. Posle smrti cara Uroša u decembru 1371. — koja je usledila samo nekoliko nedelja posle pogibije braće Mrnjavčevića na Marici — i poslednja zajednička karika je pukla. Oblasni gospodari više nisu bili savladari nikog. Bili su, svako u svome, knezovi i kraljevi sami za sebe, sve dok se među njima, polako ali sigurno, ne bude izdvojio onaj koji će povezati ostatke razbijenog carstva — Lazar."
+        "text": "Treba biti i pošten prema izvorima. Ovaj period poznajemo fragmentarno. Najviše znamo iz dubrovačkih arhiva, koji su vodili pažljivu evidenciju o trgovini i ugovorima sa kopnenim gospodarima, zatim iz povelja i hrisovulja, i iz crkvenih spisa, naročito žitija. Neki od oblasnih gospodara su zato dobro osvetljeni, dok o drugima znamo malo više od imena i grube karte poseda. Pojedine titule i granice oblasti istoričari i danas oprezno rekonstruišu. Posle smrti cara Uroša u decembru 1371. — koja je usledila nešto više od dva meseca posle pogibije braće Mrnjavčevića na Marici — i poslednja zajednička karika je pukla. Oblasni gospodari više nisu bili savladari nikog. Bili su, svako u svome, knezovi i kraljevi sami za sebe, sve dok se među njima, polako ali sigurno, ne bude izdvojio onaj koji će povezati ostatke razbijenog carstva — Lazar."
       }
     ],
     "subtitle": "Kako se srpsko carstvo, pod slabim Urošem, raspalo na više gotovo samostalnih kneževina velikih plemića",
@@ -5604,7 +5601,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Naslednik je bio Dušanov sin Uroš V, mladić od oko devetnaest godina. Nije bio nesposoban vladar kako ga je kasnija narodna pesma prikazala, ali nije imao ni očevu volju ni očevu reputaciju. Carsku titulu je nosio, ali iza titule nije stajala lična mreža odanosti koju je Dušan godinama gradio po bojištima i saborima. Već prvih godina njegove vladavine počele su da se javljaju pukotine. Najpre na jugu: Dušanov polubrat Simeon Uroš, koji je upravljao Epirom i Tesalijom, već 1356. nije priznavao sinovčevu vlast, a do 1357. proglasio je sebe carem i u praksi otcepio te oblasti. Bio je to prvi otvoren signal da carstvo više ne funkcioniše kao jedna država."
+        "text": "Naslednik je bio Dušanov sin Uroš V, mladić od oko devetnaest godina. Nije bio nesposoban vladar kako ga je kasnija narodna pesma prikazala, ali nije imao ni očevu volju ni očevu reputaciju. Carsku titulu je nosio, ali iza titule nije stajala lična mreža odanosti koju je Dušan godinama gradio po bojištima i saborima. Već prvih godina njegove vladavine počele su da se javljaju pukotine. Najpre na jugu: Dušanov polubrat Simeon Uroš, koji je upravljao Epirom, već 1356. nije priznavao sinovčevu vlast, a do 1357. proglasio je sebe carem i u praksi otcepio svoje oblasti. Bio je to prvi otvoren signal da carstvo više ne funkcioniše kao jedna država."
       },
       {
         "type": "paragraph",
@@ -5629,7 +5626,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Upravo se u tom trenutku, dok su se srpske oblasti dovršavale i međusobno premeravale, sa juga sve brže približavala osmanska sila. Turci su već čvrsto stali u Trakiju i Makedoniju i počeli da ih osvajaju oblast po oblast. Vukašin i Uglješa bili su među retkima koji su jasno videli o čemu se radi i pokušali da povedu zajedničku odbranu — pohod koji će se 1371. završiti porazom kod Marice, o čemu će biti reči u narednim lekcijama. Drugi su Osmanlije potcenjivali, ili su se nadali da će ih iskoristiti jedne protiv drugih. Tako je upravo u času najveće spoljne opasnosti unutrašnja podela bila najdublja."
+        "text": "Upravo se u tom trenutku, dok su se srpske oblasti dovršavale i međusobno premeravale, sa juga sve brže približavala osmanska sila. Turci su već čvrsto stali u Trakiju i odatle pritiskali granice Makedonije. Vukašin i Uglješa bili su među retkima koji su jasno videli o čemu se radi i pokušali da povedu zajedničku odbranu — pohod koji će se 1371. završiti porazom kod Marice, o čemu će biti reči u narednim lekcijama. Drugi su Osmanlije potcenjivali, ili su se nadali da će ih iskoristiti jedne protiv drugih. Tako je upravo u času najveće spoljne opasnosti unutrašnja podela bila najdublja."
       },
       {
         "type": "paragraph",
@@ -5664,7 +5661,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Godine 1365. dogodilo se nešto što ranije srpska istorija nije pamtila. Slabi car Uroš proglasio je Vukašina za „mladog kralja”, suvladara — tradicionalnu titulu kojom su se kod Nemanjića ranije obeležavali sinovi-naslednici. Sada je tu titulu, prvi put, primio čovek koji s vladajućom kućom nije bio krvno povezan. Razlozi su bili praktični: Uroš nije imao odraslog sina, sopstvene snage nije imao gotovo nikakve, a Vukašin je posedovao i vojsku i mreže koje su bez njega oslabljenog cara mogle smesta zbaciti. Krunisanjem suvladara, formalno jedinstvo carstva bilo je sačuvano. U stvarnosti, od te godine Vukašin je vodio politiku po sopstvenoj volji, u nekim oblastima i potpuno samostalno; Uroš je ostao car po imenu, ali ne više i po sili."
+        "text": "Godine 1365. dogodilo se nešto što ranije srpska istorija nije pamtila. Slabi car Uroš krunisao je Vukašina za kralja, suvladara — titulu koju je pod Dušanom nosio sam Uroš. Sada je tu titulu, prvi put, primio čovek koji s vladajućom kućom nije bio krvno povezan. Razlozi su bili praktični: Uroš nije imao dece, sopstvene snage nije imao gotovo nikakve, a Vukašin je posedovao i vojsku i mreže koje su bez njega oslabljenog cara mogle smesta zbaciti. Krunisanjem suvladara, formalno jedinstvo carstva bilo je sačuvano. U stvarnosti, od te godine Vukašin je vodio politiku po sopstvenoj volji, u nekim oblastima i potpuno samostalno; Uroš je ostao car po imenu, ali ne više i po sili."
       },
       {
         "type": "heading",
@@ -5673,7 +5670,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Vukašinov najstariji sin Marko rođen je oko 1335. godine i, dok je otac vladao, pominjan je kao prestolonaslednik — „mladi kralj” u senci „mladog kralja”. Njegov svet bio je svet velikaškog dvora u Prilepu, povelja, crkvenih zadužbina i pažljivog kretanja između carskog dvora i sve bliže osmanske opasnosti. Sve se promenilo u jednoj noći. U bici na Marici, 26. septembra 1371. godine, vojska Vukašina i Uglješe potučena je do nogu od osmanske prethodnice; oba brata su poginula. Marko je tog jutra postao kralj — ali kraljevstvo koje je nasledio više nije bilo isto kraljevstvo o kojem je sanjao kao prestolonaslednik."
+        "text": "Vukašinov najstariji sin Marko rođen je oko 1335. godine i, dok je otac vladao, pominjan je kao prestolonaslednik i nosio je titulu „mladog kralja”, tj. naslednika. Njegov svet bio je svet velikaškog dvora u Prilepu, povelja, crkvenih zadužbina i pažljivog kretanja između carskog dvora i sve bliže osmanske opasnosti. Sve se promenilo u jednoj noći. U bici na Marici, 26. septembra 1371. godine, vojska Vukašina i Uglješe potučena je do nogu od osmanske prethodnice; oba brata su poginula. Marko je tog jutra postao kralj — ali kraljevstvo koje je nasledio više nije bilo isto kraljevstvo o kojem je sanjao kao prestolonaslednik."
       },
       {
         "type": "paragraph",
@@ -5695,7 +5692,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "subtitle": "Otac koji je postao kralj bez nemanjićke krvi i sin čije se ime u narodu pretvorilo u najvećeg junaka",
     "dateLabel": "1365–1371.",
     "timelinePosition": "1365–1371.",
-    "summary": "Vukašin Mrnjavčević 1365. postaje mladi kralj uz slabog cara Uroša; posle pogibije na Marici 1371. njegov sin Marko nasleđuje krunu, ali kao osmanski vazal — dok ga narodna pesma pretvara u besmrtnog junaka.",
+    "summary": "Vukašin Mrnjavčević 1365. postaje kralj i savladar slabog cara Uroša; posle pogibije na Marici 1371. njegov sin Marko nasleđuje krunu, ali kao osmanski vazal — dok ga narodna pesma pretvara u besmrtnog junaka.",
     "keyPeople": [
       "Vukašin Mrnjavčević",
       "Marko Mrnjavčević",
@@ -5717,7 +5714,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Najjačima na jugu, u tom času, smatrana su braća Mrnjavčevići. Stariji, Vukašin, krunisan još 1365. za „mladog kralja” pored cara Uroša, držao je veliki deo Makedonije sa središtem u Prilepu i Skoplju. Mlađi, Uglješa, vladao je kao despot Serskom oblašću — bogatom egejskom Makedonijom oko grada Sera, na samoj granici sa osmanskim posedima u Trakiji. Uglješa je prvi i najjasnije video šta dolazi. Pokušao je da okupi širi pravoslavni savez, da pomiri svađu sa carigradskom patrijaršijom oko priznavanja srpske patrijaršije, čak da pridobije i vizantijskog cara — ali odziva, sa strane onih koji su sedeli dalje od granice, gotovo nije bilo. Na kraju je morao da računa samo na ono što mu brat može da dovede sa zapada."
+        "text": "Najjačima na jugu, u tom času, smatrana su braća Mrnjavčevići. Stariji, Vukašin, krunisan još 1365. za kralja i savladara cara Uroša, držao je veliki deo Makedonije sa središtem u Prilepu i Skoplju. Mlađi, Uglješa, vladao je kao despot Serskom oblašću — bogatom egejskom Makedonijom oko grada Sera, na samoj granici sa osmanskim posedima u Trakiji. Uglješa je prvi i najjasnije video šta dolazi. Pokušao je da okupi širi pravoslavni savez, da pomiri svađu sa carigradskom patrijaršijom oko priznavanja srpske patrijaršije, čak da pridobije i vizantijskog cara — ali odziva, sa strane onih koji su sedeli dalje od granice, gotovo nije bilo. Na kraju je morao da računa samo na ono što mu brat može da dovede sa zapada."
       },
       {
         "type": "paragraph",
@@ -5742,7 +5739,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Posledice su bile teže nego što su savremenici u prvi mah razumeli. Serska oblast pokojnog Uglješe ubrzo je pripojena osmanskoj državi. Zapadne zemlje Vukašinove ostale su nominalno pod njegovim naslednikom, sinom Markom, koji je posle 1371. naslov „kralja” mogao da zadrži samo kao osmanski vazal — i to je priča koja se nastavlja u jučerašnjoj lekciji. Ostali srpski velmože — knez Lazar u Pomoravlju, Balšići u Zeti, Vlatkovići i drugi po Makedoniji — našli su se pred odlukom koju više nije bilo lako odlagati: vojni otpor velikih razmera, ili pojedinačni dogovor sa Osmanlijama, danak, povremena vazalna služba. Veliki zajednički front juga, kakav su Mrnjavčevići pokušali, nije se posle Marice više sastavio."
+        "text": "Posledice su bile teže nego što su savremenici u prvi mah razumeli. Sersku oblast pokojnog Uglješe ubrzo je zauzeo vizantijski despot Manojlo Paleolog; Osmanlije su Ser osvojile tek 1383. Zapadne zemlje Vukašinove ostale su nominalno pod njegovim naslednikom, sinom Markom, koji je posle 1371. naslov „kralja” mogao da zadrži samo kao osmanski vazal — i to je priča koja se nastavlja u jučerašnjoj lekciji. Ostali srpski velmože — knez Lazar u Pomoravlju, Balšići u Zeti, oblasni gospodari po Makedoniji — našli su se pred odlukom koju više nije bilo lako odlagati: vojni otpor velikih razmera, ili pojedinačni dogovor sa Osmanlijama, danak, povremena vazalna služba. Veliki zajednički front juga, kakav su Mrnjavčevići pokušali, nije se posle Marice više sastavio."
       },
       {
         "type": "paragraph",
@@ -5770,12 +5767,12 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "content": [
       {
         "type": "paragraph",
-        "text": "Dva meseca nakon poraza na Marici, 4. decembra 1371. godine, umro je car Uroš V. Bio je poslednji muški izdanak loze koja je od Stefana Nemanje, još od 1166, držala srpski presto u jednoj porodici. Iza njega nije ostalo dece — jedini brak, sklopljen sa vlaškom princezom Ankom, ostao je bez potomstva. Tog decembarskog dana, tiho i bez bitke, ugasila se dinastija koja je više od dva veka davala župane, kraljeve i careve, gradila zadužbine i pisala povelje. Srbija je ostala bez vladara koga bi svi morali da priznaju.",
+        "text": "Dva meseca nakon poraza na Marici, 4. decembra 1371. godine, umro je car Uroš V. Bio je poslednji Nemanjić na srpskom prestolu, iz loze koja je od Stefana Nemanje, još od 1166, držala srpski presto u jednoj porodici. Iza njega nije ostalo dece — jedini brak, sklopljen sa vlaškom princezom Ankom, ostao je bez potomstva. Tog decembarskog dana, tiho i bez bitke, ugasila se dinastija koja je više od dva veka davala župane, kraljeve i careve, gradila zadužbine i pisala povelje. Srbija je ostala bez vladara koga bi svi morali da priznaju.",
         "dropcap": true
       },
       {
         "type": "paragraph",
-        "text": "Smrt jednog vladara u srednjem veku nije bila samo lični događaj. Ona je pokretala čitav mehanizam nasleđivanja: zakletve velmoža novom gospodaru, potvrde poseda, izdavanje povelja, ulazak u molitvene diptihe crkve. Sve to računalo je na jasnu liniju roda. Uroševom smrću ta linija je presečena. Rođaci koji su mogli da polažu pravo preko ženskih grana — deca Dušanovih sestara i druge bočne loze — bili su politički slabi i bez ozbiljnog crkvenog ili vojnog oslonca da svoj zahtev pretvore u stvarnu vlast. Niko od njih nije imao snagu da okupi raspršene oblasti carstva oko jednog imena."
+        "text": "Smrt jednog vladara u srednjem veku nije bila samo lični događaj. Ona je pokretala čitav mehanizam nasleđivanja: zakletve velmoža novom gospodaru, potvrde poseda, izdavanje povelja, ulazak u molitvene diptihe crkve. Sve to računalo je na jasnu liniju roda. Uroševom smrću ta linija je presečena. Rođaci koji su mogli da polažu pravo preko ženskih grana — deca Dušanovih sestara i druge bočne loze — bili su politički slabi i bez ozbiljnog crkvenog ili vojnog oslonca da svoj zahtev pretvore u stvarnu vlast, a tesalijska grana Simeona Uroša bila je daleka i bez uticaja u srpskim zemljama. Niko od njih nije imao snagu da okupi raspršene oblasti carstva oko jednog imena."
       },
       {
         "type": "paragraph",
@@ -5788,7 +5785,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Najsmeliji potez učinio je bosanski ban Tvrtko I Kotromanić. Po majčinoj liniji vukao je nemanjićku krv, i upravo na tom srodstvu izgradio je svoj zahtev. Godine 1377, u manastiru Mileševi — pred grobom Svetog Save — krunisao se „za kralja Srba, Bosne i Primorja”. Mesto nije bilo slučajno: Mileševa je bila jedno od središnjih svetilišta nemanjićke uspomene, a Sava simbol same dinastije. Kruna je trebalo da pokaže da Tvrtko nije skorojević, već zakoniti baštinik. Ipak, treba reći otvoreno: Tvrtko je vladao Bosnom, njegova stvarna vlast nije dopirala duboko u nekadašnje srpsko jezgro, a kraljevska titula „Srba” kod njega je više bila ideološka tvrdnja nego upravna stvarnost. U Moravskoj Srbiji, Zeti ili na Kosovu njegove povelje nisu menjale ko gde naplaćuje porez."
+        "text": "Najsmeliji potez učinio je bosanski ban Tvrtko I Kotromanić. Preko babe Jelisavete, kćeri kralja Dragutina, vukao je nemanjićku krv, i upravo na tom srodstvu izgradio je svoj zahtev. Godine 1377, u Mileševi ili, po drugom mišljenju, u Milima kod Visokog, krunisao se „za kralja Srba, Bosne i Primorja”. Ako je to bila Mileševa, sa grobom Svetog Save, mesto nije bilo slučajno: ona je bila jedno od središnjih svetilišta nemanjićke uspomene, a Sava simbol same dinastije. Kruna je trebalo da pokaže da Tvrtko nije skorojević, već zakoniti baštinik. Ipak, treba reći otvoreno: Tvrtko je vladao Bosnom, njegova stvarna vlast nije dopirala duboko u nekadašnje srpsko jezgro, a kraljevska titula „Srba” kod njega je više bila ideološka tvrdnja nego upravna stvarnost. U Moravskoj Srbiji, Zeti ili na Kosovu njegove povelje nisu menjale ko gde naplaćuje porez."
       },
       {
         "type": "paragraph",
@@ -5807,10 +5804,10 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
         "text": "Zato treba biti pošten i sa datumom. Godina 1371. u udžbenicima stoji kao kraj dinastije Nemanjić, i ona to jeste — u smislu vladajuće loze, državne titule i neprekinutog niza vladara. U širem smislu, međutim, Nemanjići su nadživeli svoju dinastiju. Njihove zadužbine i danas stoje, njihova imena se i danas pominju u liturgijama, a njihova ideja srpske države pratila je sve potonje pokušaje da se ta država obnovi, od kneza Lazara pa do moderne epohe. Decembar 1371. zatvorio je jednu lozu, ali ne i njen odjek; ono što je iza Nemanjića ostalo bilo je manje od carstva, a opet, na svoj način, dovoljno trajno da nadživi i Osmanlije i vekove koji slede."
       }
     ],
-    "subtitle": "Smrt cara Uroša 1371. i gašenje muške loze koja je više od dva veka držala srpski presto",
+    "subtitle": "Smrt cara Uroša 1371. i gašenje vladajuće loze koja je više od dva veka držala srpski presto",
     "dateLabel": "1371.",
     "timelinePosition": "1371.",
-    "summary": "Smrću cara Uroša V, 4. decembra 1371, ugasila se muška loza Nemanjića koja je vladala Srbijom od Stefana Nemanje. Država ostaje bez priznatog naslednika, a oblasni gospodari preuzimaju samostalnu vlast.",
+    "summary": "Smrću cara Uroša V, 4. decembra 1371, ugasila se vladajuća loza Nemanjića koja je vladala Srbijom od Stefana Nemanje. Država ostaje bez priznatog naslednika, a oblasni gospodari preuzimaju samostalnu vlast.",
     "keyPeople": [
       "Uroš V",
       "Tvrtko I",
