@@ -1085,7 +1085,7 @@ export const lessons: readonly LessonSummary[] = [
     "order": 3,
     "title": "Nemanja širi državu",
     "readingTimeMinutes": 7,
-    "year": 1170,
+    "year": 1172,
     "isPlaceholder": false
   },
   {
@@ -1192,7 +1192,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 59,
     "order": 6,
     "title": "Žička povelja i ustrojstvo crkve",
-    "readingTimeMinutes": 5,
+    "readingTimeMinutes": 6,
     "year": 1220,
     "isPlaceholder": false
   },
@@ -1300,7 +1300,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 68,
     "order": 8,
     "title": "Milutin — veliki zadužbinar",
-    "readingTimeMinutes": 6,
+    "readingTimeMinutes": 5,
     "year": 1300,
     "isPlaceholder": false
   },
@@ -1420,7 +1420,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 78,
     "order": 6,
     "title": "Dušanov zakonik — društvo i pravo",
-    "readingTimeMinutes": 6,
+    "readingTimeMinutes": 7,
     "year": 1350,
     "isPlaceholder": false
   },
@@ -1553,7 +1553,7 @@ export const lessons: readonly LessonSummary[] = [
     "order": 11,
     "title": "Najava moravske škole",
     "readingTimeMinutes": 6,
-    "year": 1360,
+    "year": 1371,
     "isPlaceholder": false
   },
   {
@@ -1564,7 +1564,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 90,
     "order": 1,
     "title": "Žene u srednjovekovnoj Srbiji",
-    "readingTimeMinutes": 6,
+    "readingTimeMinutes": 7,
     "year": 1300,
     "isPlaceholder": false
   },
@@ -1660,7 +1660,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 98,
     "order": 1,
     "title": "Car Uroš — slabljenje carstva",
-    "readingTimeMinutes": 5,
+    "readingTimeMinutes": 6,
     "year": 1355,
     "isPlaceholder": false
   },
