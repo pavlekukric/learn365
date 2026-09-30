@@ -8476,11 +8476,11 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Na vrhu cele zgrade stajao je sultan. On je istovremeno bio i vrhovni vladar, i vrhovni vojskovođa, i — barem u načelu — zaštitnik islama u celom carstvu; od početka 16. veka, posle osvajanja Egipta, osmanski sultan nosio je i titulu halife, vođe svih sunitskih muslimana. Njegova vlast bila je apsolutna u smislu da nije postojalo telo koje bi je formalno ograničavalo, ali je u praksi bila ograničena šerijatom, dvorskom tradicijom i moći velikih službenika oko njega. Sultanova ličnost i sposobnost, kao i u svakoj monarhiji, dramatično su uticali na to kako je carstvo funkcionisalo: razlika između Sulejmana i njegovih slabijih naslednika osetila se na sve četiri strane Balkana."
+        "text": "Na vrhu cele zgrade stajao je sultan. On je istovremeno bio i vrhovni vladar, i vrhovni vojskovođa, i — barem u načelu — zaštitnik islama u celom carstvu; od početka 16. veka, posle osvajanja Egipta, osmanski sultan sebi je pripisivao i halifski ugled, koji će se tek kasnije tumačiti kao vođstvo nad svim sunitima. Njegova vlast bila je apsolutna u smislu da nije postojalo telo koje bi je formalno ograničavalo, ali je u praksi bila ograničena šerijatom, dvorskom tradicijom i moći velikih službenika oko njega. Sultanova ličnost i sposobnost, kao i u svakoj monarhiji, dramatično su uticali na to kako je carstvo funkcionisalo: razlika između Sulejmana i njegovih slabijih naslednika osetila se na sve četiri strane Balkana."
       },
       {
         "type": "paragraph",
-        "text": "Oko sultana se gradila centralna vlada koja se zvala Porta, ili svečanije Visoka Porta — po vratima carskog dvora kroz koja se ulazilo u službene odaje. Njen prvi čovek bio je veliki vezir, glavni ministar i, kada je sultan bio na vojnom pohodu ili duhovno odsutan, faktički upravnik carstva. Veliki vezir je predsedavao Divanom, savetom najviših državnih službenika u kome su sedeli i drugi veziri, vrhovne sudije (kadi-askeri), čuvar pečata i upravnik finansija. Divan je nekoliko puta nedeljno odlučivao o državnim poslovima, primao žalbe i izdavao zapovesti — bila je to, sa današnje tačke gledišta, kombinacija vlade, vrhovnog suda i upravnog tela."
+        "text": "Oko sultana se gradila centralna vlada koja se zvala Porta, ili svečanije Visoka Porta — po vratima carskog dvora kroz koja se ulazilo u službene odaje. Njen prvi čovek bio je veliki vezir, glavni ministar i, kada je sultan bio na vojnom pohodu ili duhovno odsutan, faktički upravnik carstva. Veliki vezir je predsedavao Divanom, savetom najviših državnih službenika u kome su sedeli i drugi veziri, vrhovne sudije (kadi-askeri), nišandžija (koji je na isprave stavljao sultanov znak — tugru) i defterdar (upravnik finansija). Divan je nekoliko puta nedeljno odlučivao o državnim poslovima, primao žalbe i izdavao zapovesti — bila je to, sa današnje tačke gledišta, kombinacija vlade, vrhovnog suda i upravnog tela."
       },
       {
         "type": "heading",
@@ -8493,7 +8493,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Posebnost osmanske države, koja je za sudbinu srpskog naroda bila presudna, jeste način na koji je organizovala stanovništvo drugih vera. Carstvo je svoje nemuslimanske podanike posmatralo prevashodno kroz versku pripadnost, a ne kroz jezik ili poreklo. Svaka veća verska zajednica činila je jedan milet, sa pravom da pod nadzorom svojih crkvenih ili verskih starešina sama uređuje porodična i verska pitanja. Pravoslavni milet — takozvani „Rum milet” — bio je pod vrhovnom vlašću carigradskog patrijarha, i u tom je okviru funkcionisala i Srpska pravoslavna crkva, naročito pošto je 1557. godine, milošću Porte, obnovljena Pećka patrijaršija. Paralelno su postojali katolički, jermenski i jevrejski milet. Mileti su sami ubirali deo poreza, vodili svoje matične i sudske knjige i bili u dnevnom dodiru sa svojim vernicima."
+        "text": "Posebnost osmanske države, koja je za sudbinu srpskog naroda bila presudna, jeste način na koji je organizovala stanovništvo drugih vera. Carstvo je svoje nemuslimanske podanike posmatralo prevashodno kroz versku pripadnost, a ne kroz jezik ili poreklo. Svaka veća verska zajednica činila je ono što će se kasnije nazvati miletom (u 15–17. veku još neformalan skup povlastica), sa pravom da pod nadzorom svojih crkvenih ili verskih starešina sama uređuje porodična i verska pitanja. Pravoslavni milet — takozvani „Rum milet” — bio je pod vlašću carigradskog patrijarha; srpska crkva je, međutim, od 1557. godine, kada je milošću Porte obnovljena Pećka patrijaršija, imala sopstvenog patrijarha nezavisnog od Carigrada. Paralelno su postojale jermenska i jevrejska zajednica; katolici nisu imali sopstveni milet, već su se oslanjali na posebne povlastice franjevaca i Dubrovčana. Mileti su sami ubirali deo poreza, vodili svoje matične i sudske knjige i bili u dnevnom dodiru sa svojim vernicima."
       },
       {
         "type": "paragraph",
@@ -8536,7 +8536,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Seljaci na timaru zvali su se raja — reč koja izvorno znači stado, a koja u osmanskoj upravi označava poreske podanike, hrišćane i muslimane podjednako, mada se vremenom u svakodnevnom govoru učvrstila kao naziv za hrišćansko stanovništvo. Raja je sipahiji dugovala tačno utvrđene dažbine: deo letine, najčešće desetinu žita, vina i drugih plodova, glavarinu, određene radne obaveze. Sipahija je, sa svoje strane, bio dužan da pazi na red, da štiti selo i da brine o pravdi. Odnos je bio strog, ali i propisan; seljak je znao šta duguje i kome."
+        "text": "Seljaci na timaru zvali su se raja — reč koja izvorno znači stado, a koja u osmanskoj upravi označava poreske podanike, hrišćane i muslimane podjednako, mada se vremenom u svakodnevnom govoru učvrstila kao naziv za hrišćansko stanovništvo. Raja je sipahiji dugovala tačno utvrđene dažbine: deo letine, najčešće desetinu žita, vina i drugih plodova, ispendžu (novčanu dažbinu od 25 akči po domaćinstvu), određene radne obaveze. Sipahija je, sa svoje strane, bio dužan da pazi na red, da štiti selo i da brine o pravdi. Odnos je bio strog, ali i propisan; seljak je znao šta duguje i kome."
       },
       {
         "type": "heading",
@@ -8580,7 +8580,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Pravni okvir u kome je raja živela bio je okvir takozvanih zaštićenih zajednica — zimija. Po islamskoj pravnoj tradiciji, hrišćani i Jevreji su, kao „narodi Knjige”, smeli zadržati svoju veru pod određenim uslovima. Mogli su da drže crkve, da po sopstvenim crkvenim sudovima rešavaju brak, nasleđe i unutrašnje sporove, da poseduju imovinu, da trguju i da se kreću. Zauzvrat su nosili teret koji muslimansko stanovništvo nije nosilo. Plaćali su džiziju, lični porez na nemuslimansku glavu odraslog muškarca, i harač, zemljarinu, koja je u praksi često bila vezana za istu obavezu. Na sudu su, u većini slučajeva, plaćali dvostruke takse, a njihovo svedočanstvo protiv muslimana nije imalo istu vrednost."
+        "text": "Pravni okvir u kome je raja živela bio je okvir takozvanih zaštićenih zajednica — zimija. Po islamskoj pravnoj tradiciji, hrišćani i Jevreji su, kao „narodi Knjige”, smeli zadržati svoju veru pod određenim uslovima. Mogli su da drže crkve, da po sopstvenim crkvenim sudovima rešavaju brak, nasleđe i unutrašnje sporove, da poseduju imovinu, da trguju i da se kreću. Zauzvrat su nosili teret koji muslimansko stanovništvo nije nosilo. Plaćali su džiziju — lični porez na odraslog muškarca nemuslimana, koji se u narodu i u osmanskim spisima zvao i harač. Na sudu njihovo svedočanstvo protiv muslimana nije imalo istu vrednost."
       },
       {
         "type": "paragraph",
@@ -8632,7 +8632,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Postupak je u svom redovnom obliku tekao tako što bi izaslanik centralne vlasti, najčešće janjičarski oficir, dolazio u kadijsko sedište oblasti, sazivao seoske starešine i sveštenike i tražio spiskove dečaka odgovarajućeg uzrasta. Birali su se najjači i najpribraniji. Postojala su delimična izuzeća: jedinac u kući, jedini sin udovice, mladić već oženjen — ali ta izuzeća nisu uvek poštovana i mnogo je zavisilo od savesti i pohlepe lokalnog činovnika. Odabrani dečaci sprovođeni su preko Soluna ili drugih luka u Istanbul. Tamo se put razdvajao. Većinu su slali u takozvane „adžamijske” odrede, gde su godinama učili turski jezik, primali islam i pripremani su za vojnu službu u janjičarskom korpusu — kapikulu jeniçeri, „robovima Porte” u širem smislu te reči. Manji, ali sposobniji deo, izdvajan je za carski dvor i palatinske škole, odakle se otvarao put ka višim upravnim, diplomatskim i vojnim položajima."
+        "text": "Postupak je u svom redovnom obliku tekao tako što bi izaslanik centralne vlasti, najčešće janjičarski oficir, dolazio u kadijsko sedište oblasti, sazivao seoske starešine i sveštenike i tražio spiskove dečaka odgovarajućeg uzrasta. Birali su se najjači i najpribraniji. Postojala su delimična izuzeća: jedinac u kući, jedini sin udovice, mladić već oženjen — ali ta izuzeća nisu uvek poštovana i mnogo je zavisilo od savesti i pohlepe lokalnog činovnika. Odabrani dečaci sprovođeni su u grupama, kopnom, do Istanbula. Tamo se put razdvajao. Većinu su slali u takozvane „adžamijske” odrede, gde su godinama učili turski jezik, primali islam i pripremani su za vojnu službu u janjičarskom korpusu — kapikulu jeniçeri, „robovima Porte” u širem smislu te reči. Manji, ali sposobniji deo, izdvajan je za carski dvor i palatinske škole, odakle se otvarao put ka višim upravnim, diplomatskim i vojnim položajima."
       },
       {
         "type": "heading",
@@ -8645,7 +8645,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "A onda i druga, paradoksalna strana. Za samu osmansku državu, ovaj sistem bio je jedinstven instrument: stvarao je elitnu vojnu i upravnu kastu lično vezanu za sultana, bez sopstvene zemlje i bez nasledne aristokratije iza sebe. Među onima koji su tako stigli u Istanbul kao deca bilo je budućih beglerbegova, vojskovođa, vezira — i, u nekoliko slučajeva, velikih vezira, drugih ljudi po moći u Carstvu, odmah iza sultana. Najpoznatiji srpski primer je Mehmed-paša Sokolović, rođen u selu Sokolovići nedaleko od Višegrada, uzet kao dečak, doveden u prestonicu i kroz decenije službe popeo se do položaja velikog vezira, koji je držao od 1565. do 1579. godine. Sokolović je u tom svojstvu, kao što će biti reči u kasnijim lekcijama, ostao u tihoj vezi sa svojim rodnim krajem i, ne slučajno, bio je glavni činilac obnove Pećke patrijaršije 1557. godine — uspon dečaka iz devširme tako je, u njegovom slučaju, dao plodove i samoj srpskoj crkvi koju je devširma izvorno presecala."
+        "text": "A onda i druga, paradoksalna strana. Za samu osmansku državu, ovaj sistem bio je jedinstven instrument: stvarao je elitnu vojnu i upravnu kastu lično vezanu za sultana, bez sopstvene zemlje i bez nasledne aristokratije iza sebe. Među onima koji su tako stigli u Istanbul kao deca bilo je budućih beglerbegova, vojskovođa, vezira — i, u nekoliko slučajeva, velikih vezira, drugih ljudi po moći u Carstvu, odmah iza sultana. Najpoznatiji srpski primer je Mehmed-paša Sokolović, rođen u selu Sokolovići nedaleko od Višegrada, uzet kao dečak, doveden u prestonicu i kroz decenije službe popeo se do položaja velikog vezira, koji je držao od 1565. do 1579. godine. Sokolović je, kao što će biti reči u kasnijim lekcijama, ostao u tihoj vezi sa svojim rodnim krajem i, tada već vezir na Porti, po preovlađujućem mišljenju imao važnu ulogu u obnovi Pećke patrijaršije 1557. godine — uspon dečaka iz devširme tako je, u njegovom slučaju, dao plodove i samoj srpskoj crkvi koju je devširma izvorno presecala."
       },
       {
         "type": "paragraph",
@@ -8670,7 +8670,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Mapa prelaska u islam nije bila ravnomerna. U srednjim srpskim zemljama — u Šumadiji, u dolinama Morave, u zapadnoj Srbiji — udeo onih koji su prešli u islam ostao je razmerno nizak. Pravoslavna većina je opstala, sela su zadržala svoje sveštenike i svoje slave, a osmanski sloj bio je uglavnom gradski i upravni. U Bosni je slika bila bitno drugačija: do 18. veka procene govore da je između trećine i polovine stanovništva bilo muslimansko. Razloga je više i istorijska struka ih i danas pomera — slabost srednjovekovne Crkve bosanske, posebni posedovni odnosi nakon osmanskog osvajanja, položaj Bosne kao granične oblasti. U Albaniji su prelasci takođe bili obimni, naročito od 17. veka. Severni srpski krajevi, naprotiv, ostali su prvenstveno pravoslavni."
+        "text": "Mapa prelaska u islam nije bila ravnomerna. U srednjim srpskim zemljama — u Šumadiji, u dolinama Morave, u zapadnoj Srbiji — udeo onih koji su prešli u islam ostao je razmerno nizak. Pravoslavna većina je opstala, sela su zadržala svoje sveštenike i svoje slave, a osmanski sloj bio je uglavnom gradski i upravni. U Bosni je slika bila bitno drugačija: već početkom 17. veka procene govore o muslimanskoj većini, možda i o dve trećine stanovništva. Razloga je više i istorijska struka ih i danas pomera — slabost srednjovekovne Crkve bosanske, posebni posedovni odnosi nakon osmanskog osvajanja, položaj Bosne kao granične oblasti. U Albaniji su prelasci takođe bili obimni, naročito od 17. veka. Severni srpski krajevi, naprotiv, ostali su prvenstveno pravoslavni."
       },
       {
         "type": "paragraph",
@@ -8695,7 +8695,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Verska slika bila je još složenija. U rudarskim varošima i u Bosni postojale su male katoličke zajednice — dubrovački trgovci, hrvatski rudari, albanski katolici — pod franjevačkom brigom i u sopstvenom miletu. Posle 1492. u osmanske gradove, među njima u Beograd, Sarajevo i Skoplje, doselili su se sefardski Jevreji proterani iz Španije; i oni su imali svoju zajednicu, svoju sinagogu i svoje rabine. Romske grupe živele su raštrkano, delom muslimanske, delom hrišćanske vere, najčešće na margini i jednog i drugog sveta."
+        "text": "Verska slika bila je još složenija. U rudarskim varošima i u Bosni postojale su male katoličke zajednice — dubrovački trgovci, hrvatski rudari, albanski katolici — pod franjevačkom brigom, na osnovu posebnih sultanskih povlastica. Posle 1492. u osmanske gradove, među njima u Beograd, Sarajevo i Skoplje, doselili su se sefardski Jevreji proterani iz Španije; i oni su imali svoju zajednicu, svoju sinagogu i svoje rabine. Romske grupe živele su raštrkano, delom muslimanske, delom hrišćanske vere, najčešće na margini i jednog i drugog sveta."
       },
       {
         "type": "paragraph",
@@ -8719,7 +8719,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "content": [
       {
         "type": "paragraph",
-        "text": "Posle pada Smedereva 1459. godine srpska država je nestala, ali srpska crkva nije. Ono što jeste nestalo, negde oko 1463, bila je samostalna Pećka patrijaršija — institucija osnovana u doba cara Dušana, koja je gotovo čitav vek davala srpskoj zemlji sopstveno crkveno vrhovništvo. Osmanske vlasti su je suspendovale, a eparhije na srpskim prostorima podredile Ohridskoj arhiepiskopiji. Time je započeo težak, slabo dokumentovan vek — onaj između ukidanja i obnove patrijaršije 1557. — u kome je crkva opstajala bez glave, ali ne i bez tela.",
+        "text": "Posle pada Smedereva 1459. godine srpska država je nestala, ali srpska crkva nije. Ono što jeste nestalo, negde oko 1463, bila je samostalna Pećka patrijaršija — institucija osnovana u doba cara Dušana, koja je više od jednog veka davala srpskoj zemlji sopstveno crkveno vrhovništvo. Osmanske vlasti su je suspendovale, a eparhije na srpskim prostorima podredile Ohridskoj arhiepiskopiji. Time je započeo težak, slabo dokumentovan vek — onaj između ukidanja i obnove patrijaršije 1557. — u kome je crkva opstajala bez glave, ali ne i bez tela.",
         "dropcap": true
       },
       {
@@ -8732,7 +8732,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "U samim manastirima je tekao mali ali stalan rad prepisivača. Bez kraljevskih radionica i bez velikih dvorskih narudžbina, knjige su nastajale sporije, često rukom pojedinačnog monaha koji je godinama prepisivao jedno jevanđelje ili minej. Cetinjska štamparija, koja je od 1493. do 1496. izdala nekoliko bogoslužbenih knjiga, ostala je izuzetan, kratak bljesak — uspomena na ono što bi srpska crkva mogla, kada bi imala državu iza sebe. Posle njenog gašenja, štampa će se nastaviti na drugim mestima, u Veneciji i Vlaškoj, gde su Srbi imali zaštitu lokalnih vladara, ali rukopis je u srpskim manastirima ostao osnovni način prenošenja knjige čitav 16. vek."
+        "text": "U samim manastirima je tekao mali ali stalan rad prepisivača. Bez kraljevskih radionica i bez velikih dvorskih narudžbina, knjige su nastajale sporije, često rukom pojedinačnog monaha koji je godinama prepisivao jedno jevanđelje ili minej. Cetinjska štamparija, koja je od 1493. do 1496. izdala nekoliko bogoslužbenih knjiga, ostala je izuzetan, kratak bljesak — uspomena na ono što bi srpska crkva mogla, kada bi imala državu iza sebe. Posle njenog gašenja, štampa će se nastaviti na drugim mestima, u Veneciji i Vlaškoj, gde su Srbi imali zaštitu lokalnih vladara, ali i u samim srpskim manastirima pod osmanskom vlašću — u Rujnu, Gračanici, Mileševi — a ipak je rukopis ostao osnovni način prenošenja knjige čitav 16. vek."
       },
       {
         "type": "heading",
@@ -8749,11 +8749,11 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "U tom razvučenom prostoru postepeno se obrazovala mreža u kojoj će kasnije počivati obnovljena patrijaršija. Eparhije u osmanskim zemljama pod nadzorom Carigrada i Ohrida, vladike u Sremu pod habzburškim i ugarskim okriljem, samostalna crkvena uprava u Crnoj Gori koja se polako razvijala uz cetinjske vladike, i Hilandar kao prekomorska kuća — sve to činilo je „srpski pravoslavni svet“ koji se nije podudarao ni sa jednom državnom granicom. Kult srpskih svetitelja, pre svega Svetoga Save, držao je tu mrežu na okupu kao zajednička porodična uspomena, prenošena žitijima, ikonama i bogosluženjem na slovenskom jeziku."
+        "text": "U tom razvučenom prostoru postepeno se obrazovala mreža u kojoj će kasnije počivati obnovljena patrijaršija. Eparhije u osmanskim zemljama pod nadzorom Carigrada i Ohrida, vladike u Sremu, dok je bio pod ugarskom vlašću, samostalna crkvena uprava u Crnoj Gori koja se polako razvijala uz cetinjske vladike, i Hilandar kao prekomorska kuća — sve to činilo je „srpski pravoslavni svet“ koji se nije podudarao ni sa jednom državnom granicom. Kult srpskih svetitelja, pre svega Svetoga Save, držao je tu mrežu na okupu kao zajednička porodična uspomena, prenošena žitijima, ikonama i bogosluženjem na slovenskom jeziku."
       },
       {
         "type": "paragraph",
-        "text": "Do sredine 16. veka prilike su počele da sazrevaju za promenu. Osmansko carstvo Sulejmana Veličanstvenog bilo je u svom vrhuncu i moglo je sebi da dopusti pragmatičnost prema pravoslavnoj crkvi koja mu je obezbeđivala mirne podanike i uredan porez. Na vrhu državne uprave nalazio se Mehmed-paša Sokolović, veliki vezir poreklom iz srpske pravoslavne porodice iz Bosne, čiji će lični interes i porodične veze odigrati važnu ulogu u onome što sledi. Sa naše današnje strane, koja unapred zna kraj priče, lako je videti taj vek kao pripremu za 1557. godinu i obnovu Pećke patrijaršije. Iz onoga vremena, međutim, izgledalo je drugačije — kao tiho, strpljivo trajanje pod sve težim uslovima, bez obećanja da će sutra biti bolje."
+        "text": "Do sredine 16. veka prilike su počele da sazrevaju za promenu. Osmansko carstvo Sulejmana Veličanstvenog bilo je u svom vrhuncu i moglo je sebi da dopusti pragmatičnost prema pravoslavnoj crkvi koja mu je obezbeđivala mirne podanike i uredan porez. Na Porti se uzdizao Mehmed-paša Sokolović, tada jedan od vezira, a kasnije veliki vezir, poreklom iz srpske pravoslavne porodice iz Bosne, čiji će lični interes i porodične veze odigrati važnu ulogu u onome što sledi. Sa naše današnje strane, koja unapred zna kraj priče, lako je videti taj vek kao pripremu za 1557. godinu i obnovu Pećke patrijaršije. Iz onoga vremena, međutim, izgledalo je drugačije — kao tiho, strpljivo trajanje pod sve težim uslovima, bez obećanja da će sutra biti bolje."
       }
     ],
     "subtitle": "Vek tihog opstanka između ukidanja Pećke patrijaršije i njene obnove, od sredine 15. do sredine 16. veka",
@@ -8777,7 +8777,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Te 1557. godine, fermanom Sulejmana Veličanstvenog, Pećka patrijaršija je obnovljena. Njeno sedište vraćeno je u Peć — u onaj isti manastirski kompleks ispod Prokletija koji je još od vremena svetog Save i njegovih naslednika bio duhovno središte srpskog pravoslavlja. Za prvog obnovljenog patrijarha postavljen je Makarije Sokolović, čovek o kome se zna malo lično, ali čije ime nije slučajno: bio je u rodbinskoj vezi sa velikim vezirom Mehmed-pašom Sokolovićem. Izvori ga nazivaju njegovim bratom ili bliskim srodnikom; tačan stepen rodbinske veze u nauci ostaje predmet rasprave, ali sama veza je posvedočena."
+        "text": "Te 1557. godine, fermanom Sulejmana Veličanstvenog, Pećka patrijaršija je obnovljena. Njeno sedište vraćeno je u Peć — u onaj isti manastirski kompleks ispod Prokletija koji je još od vremena svetog Save i njegovih naslednika bio duhovno središte srpskog pravoslavlja. Za prvog obnovljenog patrijarha postavljen je Makarije Sokolović, čovek o kome se zna malo lično, ali čije ime nije slučajno: bio je u rodbinskoj vezi sa budućim velikim vezirom Mehmed-pašom Sokolovićem. Izvori ga nazivaju njegovim bratom ili bliskim srodnikom; tačan stepen rodbinske veze u nauci ostaje predmet rasprave, ali sama veza je posvedočena."
       },
       {
         "type": "heading",
@@ -8786,7 +8786,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Bez Mehmed-paše Sokolovića obnova se ne može razumeti. Rođen kao srpsko pravoslavno dete u Sokolovićima u istočnoj Bosni, odveden u Carigrad devširmom — danak u krvi koji je osmanska država skupljala od hrišćanskog stanovništva — odrastao je u dvorskoj školi, primio islam i ušao u sam vrh carstva. Do 1557. bio je već treći čovek države, a do 1565. postaće veliki vezir, položaj koji će držati skoro petnaest godina pod tri sultana. O njegovom životu i ulozi opširnije ćemo govoriti u sledećoj lekciji; ovde je važno samo da se zna da je odluka o obnovi patrijaršije pala u trenutku kada je on imao moć da je sprovede i ličnu motivaciju da je podrži."
+        "text": "Bez Mehmed-paše Sokolovića obnova se ne može razumeti. Rođen kao srpsko pravoslavno dete u Sokolovićima u istočnoj Bosni, odveden u Carigrad devširmom — danak u krvi koji je osmanska država skupljala od hrišćanskog stanovništva — odrastao je u dvorskoj školi, primio islam i ušao u sam vrh carstva. Do 1557. bio je već treći vezir Carstva, a do 1565. postaće veliki vezir, položaj koji će držati skoro petnaest godina pod tri sultana. O njegovom životu i ulozi opširnije ćemo govoriti u sledećoj lekciji; ovde je važno samo da se zna da je odluka o obnovi patrijaršije pala u trenutku kada je on imao moć da je sprovede i ličnu motivaciju da je podrži."
       },
       {
         "type": "paragraph",
@@ -8794,7 +8794,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Obnovljena patrijaršija dobila je nadležnost koja je daleko prevazilazila granice srednjovekovne srpske države. Njena jurisdikcija prostirala se od severne Bugarske, preko današnje Srbije, Kosova i delova Makedonije, kroz celu Bosnu, u delove Hrvatske i južne Ugarske gde su živeli pravoslavni Srbi pod habzburškom vlašću, sve do Vlaške. U vrhuncu je obuhvatala oko četrdeset eparhija. Time je Pećka patrijaršija postala krovna institucija jednog raseljenog naroda — prvi i, dugo vremena, jedini okvir koji je sve srpske pravoslavne zajednice, gde god se nalazile, držao na okupu pod istom kanonskom upravom."
+        "text": "Obnovljena patrijaršija dobila je nadležnost koja je daleko prevazilazila granice srednjovekovne srpske države. Njena jurisdikcija prostirala se od zapadne Bugarske (Ćustendil, Samokov), preko današnje Srbije, Kosova i delova Makedonije, kroz celu Bosnu i Hercegovinu, do Dalmacije, Srema, Slavonije i južne Ugarske — sve do Budima i Temišvara. U vrhuncu je obuhvatala oko četrdeset eparhija. Time je Pećka patrijaršija postala krovna institucija jednog raseljenog naroda — prvi i, dugo vremena, jedini okvir koji je sve srpske pravoslavne zajednice, gde god se nalazile, držao na okupu pod istom kanonskom upravom."
       },
       {
         "type": "paragraph",
@@ -8806,7 +8806,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Sudbina obnovljene patrijaršije nije bila trajna. Godine 1766. osmanska vlast će je drugim fermanom ponovo ukinuti, a srpske eparhije pripojiti Carigradskoj patrijaršiji — o čemu će biti reči kasnije. Tek 1879, posle sticanja srpske autonomije i nezavisnosti, i konačno 1920, ujedinjenjem svih srpskih pravoslavnih oblasti, biće uspostavljena Srpska pravoslavna crkva u današnjem obliku. Ali tih dvesta deset godina između 1557. i 1766 — period koji počinje fermanom iz vremena Sulejmana Veličanstvenog i odlukom jednog vezira poreklom iz Sokolovića — ostaju kao drugi život srpske crkvene samostalnosti, vreme u kome je narod bez države sačuvao instituciju, a institucija sačuvala narod."
+        "text": "Sudbina obnovljene patrijaršije nije bila trajna. Godine 1766. osmanska vlast će je drugim fermanom ponovo ukinuti, a srpske eparhije pripojiti Carigradskoj patrijaršiji. Tek 1879, posle sticanja srpske autonomije i nezavisnosti, i konačno 1920, ujedinjenjem svih srpskih pravoslavnih oblasti, biće uspostavljena Srpska pravoslavna crkva u današnjem obliku. Ali tih više od dva veka između 1557. i 1766 — period koji počinje fermanom iz vremena Sulejmana Veličanstvenog i odlukom jednog vezira poreklom iz Sokolovića — ostaju kao drugi život srpske crkvene samostalnosti, vreme u kome je narod bez države sačuvao instituciju, a institucija sačuvala narod."
       }
     ],
     "subtitle": "Kako je 1557. godine, posle 94 godine prekida, vraćeno sedište srpske crkve u Peći i obnovljena samostalna patrijaršija",
@@ -8834,11 +8834,11 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Devširme nije bila proizvoljna otmica, već uređeno carsko pravilo. Hrišćanski dečaci sa Balkana, najčešće iz pravoslavnih porodica, prevođeni su u islam, slati u posebne škole i obučavani za službu sultanu — bilo kao janičari u vojsci, bilo, oni najsposobniji, u enderunu, dvorskoj školi za buduće državnike. Mladić iz Sokolovića dobio je novo ime — Mehmed — i krenuo je tom drugom, retkom stazom. Od acemi-oglana, šegrta carske službe, brzo je napredovao do enderuna, gde se učila uprava, jezici, ratna veština i složeni protokol osmanskog dvora. Uz darovitost i sreću, sredinom 16. veka već je u višim zvanjima: zapovednik carskih vrtova, pa veliki admiral osmanske flote, pa beglerbeg Rumelije — namesnik svih evropskih provincija carstva."
+        "text": "Devširme nije bila proizvoljna otmica, već uređeno carsko pravilo. Hrišćanski dečaci sa Balkana, najčešće iz pravoslavnih porodica, prevođeni su u islam, slati u posebne škole i obučavani za službu sultanu — bilo kao janičari u vojsci, bilo, oni najsposobniji, u enderunu, dvorskoj školi za buduće državnike. Mladić iz Sokolovića dobio je novo ime — Mehmed — i krenuo je tom drugom, retkom stazom. Od acemi-oglana, šegrta carske službe, brzo je napredovao do enderuna, gde se učila uprava, jezici, ratna veština i složeni protokol osmanskog dvora. Uz darovitost i sreću, sredinom 16. veka već je u višim zvanjima: zapovednik dvorske straže (kapidžibaša), pa veliki admiral osmanske flote, pa beglerbeg Rumelije — namesnik svih evropskih provincija carstva."
       },
       {
         "type": "paragraph",
-        "text": "Treći vezir postao je 1555. godine, ubrzo i drugi, a 1565. ga je sultan Sulejman Veličanstveni postavio za velikog vezira — prvog čoveka carstva odmah do sultana. Tu dužnost zadržao je punih četrnaest godina, pod trojicom sultana: Sulejmana, pa Selima II, pa Murata III. To je u osmanskoj istoriji izuzetno dugo. Velikim vezirima vlast je obično trajala kraće od smrti gospodara koji ih je postavio; Mehmed-paša je preživeo dvojicu sultana na položaju koji se obično gubio glavom. Razlog je bio jednostavan i istovremeno redak — sva trojica sultana videla su da bez njega carstvo ne radi."
+        "text": "Treći vezir postao je 1555. godine, drugi 1561, a 1565. ga je sultan Sulejman Veličanstveni postavio za velikog vezira — prvog čoveka carstva odmah do sultana. Tu dužnost zadržao je punih četrnaest godina, pod trojicom sultana: Sulejmana, pa Selima II, pa Murata III. To je u osmanskoj istoriji izuzetno dugo. Velikim vezirima vlast je obično trajala kraće od smrti gospodara koji ih je postavio; Mehmed-paša je preživeo dvojicu sultana na položaju koji se obično gubio glavom. Razlog je bio jednostavan i istovremeno redak — sva trojica sultana videla su da bez njega carstvo ne radi."
       },
       {
         "type": "heading",
@@ -8847,11 +8847,11 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Godine njegove vlasti pale su u prelazno doba osmanske moći. Sulejmanovo carstvo bilo je na vrhuncu, ali se već nazirao zamor; Selim II više je voleo dvor nego rat, a Murat III bio je sklon dvorskim spletkama. U svim tim okolnostima Mehmed-paša je držao mašineriju države. Posle teškog poraza osmanske flote kod Lepanta 1571. godine, kada je Sveta liga uništila stotine osmanskih brodova, on je u roku od jedne zime sproveo obnovu flote — toliko da je već naredne godine Osmansko carstvo ponovo izlazilo na more u punoj snazi. Slavna je njegova rečenica, koju izvori prepričavaju u različitim oblicima, o tome da je hrišćanima kod Lepanta odsečena brada, a Osmanlijama samo ruka — brada raste sporo, ruka brzo. Računica iza tih reči pokazala se tačnom, čak i ako sam izvorni oblik izričaja ostaje neproveriv."
+        "text": "Godine njegove vlasti pale su u prelazno doba osmanske moći. Sulejmanovo carstvo bilo je na vrhuncu, ali se već nazirao zamor; Selim II više je voleo dvor nego rat, a Murat III bio je sklon dvorskim spletkama. U svim tim okolnostima Mehmed-paša je držao mašineriju države. Posle teškog poraza osmanske flote kod Lepanta 1571. godine, kada je Sveta liga uništila stotine osmanskih brodova, on je u roku od jedne zime sproveo obnovu flote — toliko da je već naredne godine Osmansko carstvo ponovo izlazilo na more u punoj snazi. Slavna je njegova rečenica, koju izvori prepričavaju u različitim oblicima, o tome da su Osmanlije, uzevši Kipar, Mlecima odsekle ruku, a hrišćani su im kod Lepanta samo obrijali bradu — odsečena ruka ne raste, a obrijana brada raste još gušća. Računica iza tih reči pokazala se tačnom, čak i ako sam izvorni oblik izričaja ostaje neproveriv."
       },
       {
         "type": "paragraph",
-        "text": "Ono što njegovu priču čini bitnom za srpsku istoriju jeste odnos koji je, na sopstvenu odgovornost, zadržao prema svome poreklu. Iako je formalno bio musliman i osmanski državnik, Mehmed-paša nije zaboravio rodbinu, ni jezik, ni veru u kojoj je rođen. Najtrajniji znak toga jeste obnova Pećke patrijaršije 1557. godine, o kojoj je bilo reči prethodnog dana. Carskim ukazom, pripremljenim i sprovedenim njegovom rukom, srpska crkva je posle više od dva veka ponovo dobila samostalnu patrijaršiju sa sedištem u Peći. Za prvog obnovljenog patrijarha postavljen je Makarije Sokolović — po većini izvora njegov rođeni brat, mada neki govore o nešto daljem srodstvu. Tako je jedan deo Mehmedove porodice ostao u Bosni, drugi je iz Istanbula vodio carstvo, a treći je iz Peći vodio srpsku crkvu."
+        "text": "Ono što njegovu priču čini bitnom za srpsku istoriju jeste odnos koji je, na sopstvenu odgovornost, zadržao prema svome poreklu. Iako je formalno bio musliman i osmanski državnik, Mehmed-paša nije zaboravio rodbinu, ni jezik, ni veru u kojoj je rođen. Najtrajniji znak toga jeste obnova Pećke patrijaršije 1557. godine, o kojoj je bilo reči prethodnog dana. Carskim ukazom, pripremljenim i sprovedenim njegovom rukom, srpska crkva je posle skoro sto godina ponovo dobila samostalnu patrijaršiju sa sedištem u Peći. Za prvog obnovljenog patrijarha postavljen je Makarije Sokolović — po većini izvora njegov rođeni brat, mada neki govore o nešto daljem srodstvu. Tako je jedan deo Mehmedove porodice ostao u Bosni, drugi je iz Istanbula vodio carstvo, a treći je iz Peći vodio srpsku crkvu."
       },
       {
         "type": "paragraph",
@@ -8859,17 +8859,17 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Kraj je došao iznenada. Dana 12. oktobra 1579. godine, dok je u Istanbulu sedeo na zasedanju divana, prišao mu je bosanski derviš i nožem ga smrtno ubo. Razlozi su do danas predmet rasprave: lično nezadovoljstvo, dvorska zavera ili nešto treće — nijedna verzija nije do kraja dokazana. Sa njim je nestala i jedna era. Carstvo koje je decenijama držao u rukama brzo je krenulo putem sporijeg, mukotrpnijeg propadanja."
+        "text": "Kraj je došao iznenada. Dana 11. oktobra 1579. godine, dok je u Istanbulu sedeo na zasedanju divana, prišao mu je bosanski derviš i nožem ga smrtno ubo. Razlozi su do danas predmet rasprave: lično nezadovoljstvo, dvorska zavera ili nešto treće — nijedna verzija nije do kraja dokazana. Sa njim je nestala i jedna era. Carstvo koje je decenijama držao u rukama brzo je krenulo putem sporijeg, mukotrpnijeg propadanja."
       },
       {
         "type": "paragraph",
         "text": "Lik Mehmed-paše Sokolovića ne pristaje uz jednostavne presude. On je bio i žrtva danka u krvi i njegov najveći dobitnik; i osmanski državnik koji je ratovao za sultana i čovek koji je svoj rođeni narod, u času kada je to mogao, obdario obnovljenom patrijaršijom; i graditelj koji je iza sebe ostavio most preko reke pored koje je rođen. Njegova priča opominje da istorija pod Osmanlijama nije jednoznačna i da se sudbine pojedinaca ne uklapaju uvek u kalupe koje im potonja vremena nude. Mehmed-paša Sokolović je istovremeno sve to — i ni jedna od tih slika sama za sebe nije dovoljna."
       }
     ],
-    "subtitle": "Dečak odveden danakom u krvi koji je postao veliki vezir tri sultana — i obnovitelj Pećke patrijaršije",
+    "subtitle": "Dečak odveden danakom u krvi koji je postao veliki vezir tri sultana — i jedan od zaslužnih za obnovu Pećke patrijaršije",
     "dateLabel": "16. vek",
     "timelinePosition": "16. vek",
-    "summary": "Od srpskog dečaka iz Sokolovića do velikog vezira Sulejmana Veličanstvenog: kako je Mehmed-paša Sokolović četrnaest godina vodio Osmansko carstvo i istovremeno obnovio Pećku patrijaršiju.",
+    "summary": "Od srpskog dečaka iz Sokolovića do velikog vezira Sulejmana Veličanstvenog: kako je Mehmed-paša Sokolović četrnaest godina vodio Osmansko carstvo — a pre toga, kao vezir, imao važnu ulogu u obnovi Pećke patrijaršije 1557.",
     "keyPeople": [
       "Mehmed-paša Sokolović",
       "Makarije Sokolović",
@@ -8960,11 +8960,11 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Oko čaršije se prostiru mahale, stambene četvrti grupisane po veri. Muslimanske mahale okupljene su oko džamije, pravoslavne oko crkve, katoličke oko svoje bogomolje, jevrejske oko sinagoge. Svaka zajednica živi kao zaseban milet — pravna i verska kategorija osmanskog sistema — i unutar njega ima sopstvene starešine, sopstvene sudove za porodična pitanja i sopstvenu školu. Na ulici se čuju turski kao zvanični jezik, lokalni slovenski govori, grčki među pravoslavnim trgovcima, ladino — judeošpanski — među Sefardima protereanim iz Španije, italijanski i slovenski među katoličkim trgovcima. Vrhovnu vlast vrše paša ili sandžak-beg sa svojom pratnjom, a islamski sudija — kadija — presuđuje po šerijatskom pravu i vodi sudski protokol u kome su, srećom po istoričare, sačuvani mnogi tragovi gradskog života."
+        "text": "Oko čaršije se prostiru mahale, stambene četvrti grupisane po veri. Muslimanske mahale okupljene su oko džamije, pravoslavne oko crkve, katoličke oko svoje bogomolje, jevrejske oko sinagoge. Svaka zajednica živi kao zasebna verska celina — ono što će se tek u 19. veku formalizovati kao milet — i unutar nje ima sopstvene starešine, sopstvene sudove za porodična pitanja i sopstvenu školu. Na ulici se čuju turski kao zvanični jezik, lokalni slovenski govori, grčki među pravoslavnim trgovcima, ladino — judeošpanski — među Sefardima protereanim iz Španije, italijanski i slovenski među katoličkim trgovcima. Vrhovnu vlast vrše paša ili sandžak-beg sa svojom pratnjom, a islamski sudija — kadija — presuđuje po šerijatskom pravu i vodi sudski protokol u kome su, srećom po istoričare, sačuvani mnogi tragovi gradskog života."
       },
       {
         "type": "paragraph",
-        "text": "Hrišćansko, najvećim delom srpsko pravoslavno stanovništvo u ovim gradovima nije malo. U Beogradu, Nišu, Užicu, Sarajevu, Skoplju i Prizrenu ono čini znatan deo stanovništva — trgovci, zanatlije, sveštenstvo, sluge u kućama imućnih muslimana. Pravoslavne crkve i parohije, iako po pravilu skromnijeg izgleda od džamija i bez visokih zvonika, čine duhovno uporište zajednice; obnova Pećke patrijaršije 1557. dodatno učvršćuje crkvenu mrežu u celom prostoru. U isto vreme, sistem mileta i prateće obaveze — poseban porez, ograničenja u izgradnji, nošenju oružja, jahanju konja u nekim sredinama — jasno pokazuju da se radi o društvu strukturne nejednakosti, u kome pravoslavni nisu ravnopravni sa muslimanima."
+        "text": "Hrišćansko, najvećim delom srpsko pravoslavno stanovništvo u ovim gradovima nije malo. U Beogradu, Nišu, Užicu, Sarajevu, Skoplju i Prizrenu ono čini znatan deo stanovništva — trgovci, zanatlije, sveštenstvo, sluge u kućama imućnih muslimana. Pravoslavne crkve i parohije, iako po pravilu skromnijeg izgleda od džamija i bez visokih zvonika, čine duhovno uporište zajednice; obnova Pećke patrijaršije 1557. dodatno učvršćuje crkvenu mrežu u celom prostoru. U isto vreme, podela po verskim zajednicama i prateće obaveze — poseban porez, ograničenja u izgradnji, nošenju oružja, jahanju konja u nekim sredinama — jasno pokazuju da se radi o društvu strukturne nejednakosti, u kome pravoslavni nisu ravnopravni sa muslimanima."
       },
       {
         "type": "paragraph",
@@ -9042,7 +9042,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Uskočke zajednice nastale su kao posledica osmanskog napredovanja na Balkanu. Posle pada srpskih i bosanskih zemalja, deo hrišćanskog stanovništva odbio je da ostane pod novim gospodarem i krenuo na sever i zapad, ka onim oblastima koje su još bile u rukama Habzburga ili Mletačke republike. Habzburška Vojna krajina, koja se postepeno organizovala duž granice prema Osmanlijama, primala je takve doseljenike i davala im zemlju u zamenu za vojnu službu. Mleci su, sa svoje strane, koristili izbeglice u dalmatinskim utvrđenjima. Tako su preko nekoliko generacija nastale male, čvrsto povezane oružane zajednice — najpoznatije među njima senjski, žumberački i crnogorski uskoci."
+        "text": "Uskočke zajednice nastale su kao posledica osmanskog napredovanja na Balkanu. Posle pada srpskih i bosanskih zemalja, deo hrišćanskog stanovništva odbio je da ostane pod novim gospodarem i krenuo na sever i zapad, ka onim oblastima koje su još bile u rukama Habzburga ili Mletačke republike. Habzburška Vojna krajina, koja se postepeno organizovala duž granice prema Osmanlijama, primala je takve doseljenike i davala im zemlju u zamenu za vojnu službu. Mleci su, sa svoje strane, koristili izbeglice u dalmatinskim utvrđenjima. Tako su preko nekoliko generacija nastale male, čvrsto povezane oružane zajednice — najpoznatije među njima senjski i žumberački uskoci, a u 17. veku i hercegovački uskoci u mletačkoj službi."
       },
       {
         "type": "paragraph",
@@ -9050,7 +9050,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Žumberački uskoci bili su drugačiji slučaj. Reč je pretežno o pravoslavnim srpskim izbeglicama koje su se u šesnaestom veku naselile na padinama Žumberka, u današnjoj Hrvatskoj, na osnovu habzburških povlastica — zemlja u zamenu za graničnu službu. Vremenom, pod pritiskom katoličkog okruženja i posebnih crkvenih sporazuma, deo žumberačkih porodica prešao je u uniju sa Rimom, čuvajući istočni obred ali priznajući papsku vlast. Tako se razvila grkokatolička, takozvana unijatska žumberačka zajednica, koja se izdvojila iz šire pravoslavne celine ali je sačuvala uspomenu na svoje uskočko poreklo. Crnogorski i hercegovački uskoci, opet, nisu imali jedan utvrđeni grad kao Senj; oni su delovali iz brda, iz plemenske strukture, iz manastira i zbegova, pomažući hajdučkim četama sa one strane granice i sami često prelazeći u njihove redove."
+        "text": "Žumberački uskoci bili su drugačiji slučaj. Reč je pretežno o pravoslavnim izbeglicama — u izvorima Vlasima, koje srpska istoriografija smatra Srbima — koje su se u šesnaestom veku naselile na padinama Žumberka, u današnjoj Hrvatskoj, na osnovu habzburških povlastica — zemlja u zamenu za graničnu službu. Vremenom, pod pritiskom katoličkog okruženja i posebnih crkvenih sporazuma, deo žumberačkih porodica prešao je u uniju sa Rimom, čuvajući istočni obred ali priznajući papsku vlast. Tako se razvila grkokatolička, takozvana unijatska žumberačka zajednica, koja se izdvojila iz šire pravoslavne celine ali je sačuvala uspomenu na svoje uskočko poreklo. Hercegovački uskoci, opet, nisu imali jedan utvrđeni grad kao Senj; oni su delovali iz brda, iz plemenske strukture, iz manastira i zbegova, pomažući hajdučkim četama sa one strane granice i sami često prelazeći u njihove redove."
       },
       {
         "type": "heading",
@@ -9073,7 +9073,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "subtitle": "Hrišćanski graničari koji su „uskakali” preko osmanske međe — junaci u svojoj pesmi, gusari u tuđim izveštajima",
     "dateLabel": "16–17. vek",
     "timelinePosition": "16–17. vek",
-    "summary": "Uskoci — izbeglice iz osmanske Bosne i Hercegovine koje su se iz Senja, Žumberka i crnogorskih brda vraćale preko granice u oružane pohode; kako su ih različite strane videle.",
+    "summary": "Uskoci — izbeglice iz osmanske Bosne i Hercegovine koje su se iz Senja, Žumberka i hercegovačkih brda vraćale preko granice u oružane pohode; kako su ih različite strane videle.",
     "keyPeople": [
       "Ivan Senjanin",
       "Stojan Janković"
@@ -9098,7 +9098,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "U središtu zbivanja stajao je Arsenije III Čarnojević, pećki patrijarh od 1674. godine i, u trenutku rata, najugledniji čovek srpskog naroda pod sultanom. Pećka patrijaršija, obnovljena 1557, bila je jedina velika srpska ustanova; patrijarh je bio i verski poglavar i, u praksi, narodni zastupnik pred svakom vlašću. Arsenije se posle dugog kolebanja opredelio za Habzburge: stupio je u veze sa carem Leopoldom I, primio njegov poziv da pozove svoj narod u oružje i postao moralni jamac da će ustanak biti masovan. Pod komandom Jovana Monasterlije — koga je car postavio za podvojvodu srpske milicije — formirani su srpski odredi koji su se borili rame uz rame sa carskom vojskom. Te odluke bile su sudbinske: jednom kada je narod javno digao oružje protiv sultana, povratak na staro stanje više nije bio bezbolan."
+        "text": "U središtu zbivanja stajao je Arsenije III Čarnojević, pećki patrijarh od 1674. godine i, u trenutku rata, najugledniji čovek srpskog naroda pod sultanom. Pećka patrijaršija, obnovljena 1557, bila je jedina velika srpska ustanova; patrijarh je bio i verski poglavar i, u praksi, narodni zastupnik pred svakom vlašću. Arsenije se posle dugog kolebanja opredelio za Habzburge: stupio je u veze sa carem Leopoldom I, primio njegov poziv da pozove svoj narod u oružje i postao moralni jamac da će ustanak biti masovan. Pod komandom Jovana Monasterlije — koga će car 1691. postaviti za podvojvodu srpskog naroda — formirani su srpski odredi koji su se borili rame uz rame sa carskom vojskom. Te odluke bile su sudbinske: jednom kada je narod javno digao oružje protiv sultana, povratak na staro stanje više nije bio bezbolan."
       },
       {
         "type": "heading",
@@ -9107,11 +9107,11 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Već u leto 1690. ravnoteža se prelomila. Veliki vezir Mustafa Ćuprilić poveo je obnovljenu osmansku vojsku u protivudar. Niš je pao u septembru, Smederevo i druge tvrđave brzo za njim, a u oktobru je i Beograd ponovo bio u rukama sultana. Carska vojska je u neredu uzmicala preko Save i Dunava. Iza nje, u opustelim kotlinama Pomoravlja, Kosova i severne Makedonije, ostajalo je ono stanovništvo koje se otvoreno svrstalo uz Habzburge. Vesti o prvim osmanskim odmazdama — paljenju sela, ubistvima sveštenstva, odvođenju u ropstvo — putovale su brže od vojske. Pred Srbima, a naročito pred onima koji su sa patrijarhom imali makar i posredne veze, otvorilo se jedno teško, nesimetrično pitanje: ostati i nadati se milosti, ili krenuti."
+        "text": "Već početkom 1690, porazom carske vojske kod Kačanika, ravnoteža se prelomila. U leto je veliki vezir Mustafa Ćuprilić poveo obnovljenu osmansku vojsku u protivudar. Niš je pao u septembru, Smederevo i druge tvrđave brzo za njim, a u oktobru je i Beograd ponovo bio u rukama sultana. Carska vojska je u neredu uzmicala preko Save i Dunava. Iza nje, u opustelim kotlinama Pomoravlja, Kosova i severne Makedonije, ostajalo je ono stanovništvo koje se otvoreno svrstalo uz Habzburge. Vesti o prvim osmanskim odmazdama — paljenju sela, ubistvima sveštenstva, odvođenju u ropstvo — putovale su brže od vojske. Pred Srbima, a naročito pred onima koji su sa patrijarhom imali makar i posredne veze, otvorilo se jedno teško, nesimetrično pitanje: ostati i nadati se milosti, ili krenuti."
       },
       {
         "type": "paragraph",
-        "text": "Arsenije III je sazvao crkveno-narodni sabor i odlučio da se krene. U toku jeseni 1690. dugačke kolone — porodice sa stokom, kolima, ikonama, crkvenim knjigama — pošle su severno, ka Savi i Dunavu, ka habzburškoj strani. Tačan broj ljudi koji su tada prešli reku ne zna se i, najverovatnije, nikada se neće znati. Stariji srpski izvori govorili su o trideset sedam, pa i preko dvesta hiljada porodica; savremena istoriografija najčešće računa s nečim skromnijim — možda trideset do pedeset hiljada porodica, što bi, sa decom, moglo značiti sto do dvesta hiljada duša. Brojke su sporne i biće sporne i dalje. Nesporno je da se radi o seobi bez presedana u srpskoj istoriji, i da je ona za sobom ostavila opustele krajeve u središtu starih srpskih zemalja."
+        "text": "Arsenije III je 18. juna 1690. sazvao u Beogradu crkveno-narodni sabor, koji je odgovorio na carev poziv i poslao izaslanika u Beč; kada je carska vojska uzmakla, krenuo je i narod. U toku jeseni 1690. dugačke kolone — porodice sa stokom, kolima, ikonama, crkvenim knjigama — pošle su severno, ka Savi i Dunavu, ka habzburškoj strani. Tačan broj ljudi koji su tada prešli reku ne zna se i, najverovatnije, nikada se neće znati. Stariji srpski letopisi i pisci 18. veka govorili su o trideset sedam hiljada porodica, što je verovatno preuveličano; sam patrijarh zapisao je da je prešlo „više od 30.000 duša”, a savremene procene kreću se od nekoliko desetina hiljada do, po najsmelijim računima, nešto preko sto hiljada ljudi. Brojke su sporne i biće sporne i dalje. Nesporno je da se radi o seobi bez presedana u srpskoj istoriji, i da je ona za sobom ostavila opustele krajeve u središtu starih srpskih zemalja."
       },
       {
         "type": "paragraph",
@@ -9146,7 +9146,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "content": [
       {
         "type": "paragraph",
-        "text": "Arsenije III Čarnojević rođen je oko 1633. godine, najverovatnije u Bajicama kod Cetinja, u staroj srpskoj porodici koja se kasnije, po njemu, počela označavati prezimenom Crnojević — u latinskim izvorima Tschernojewitsch. O njegovim prvim godinama zna se malo; izvesno je da je rano stupio u monaštvo, da je obrazovanje stekao u manastirskim sredinama Stare Hercegovine i da se kao crkveni čovek brzo isticao. Već 1669. postao je mitropolit hvostanski, a 1674. godine, pošto je njegov prethodnik Maksim Skopljanac umro, izabran je za pećkog patrijarha — duhovnog poglavara svih pravoslavnih Srba pod osmanskom vlašću, od Peći i Skoplja do Budima i Sentandreje.",
+        "text": "Arsenije III Čarnojević rođen je oko 1633. godine, najverovatnije u Bajicama kod Cetinja, u porodici koja je sebe vezivala za staru dinastiju Crnojevića; otud se njegovo prezime piše i Crnojević i Čarnojević — u latinskim izvorima Tschernojewitsch. O njegovim prvim godinama zna se malo; izvesno je da je rano stupio u monaštvo, da je obrazovanje stekao u manastirskim sredinama Stare Hercegovine i da se kao crkveni čovek brzo isticao. Već 1669. postao je mitropolit hvostanski, a 1674. godine, pošto se njegov prethodnik Maksim Skopljanac zbog teške bolesti povukao, izabran je za pećkog patrijarha — duhovnog poglavara svih pravoslavnih Srba pod osmanskom vlašću, od Peći i Skoplja do Budima i Sentandreje.",
         "dropcap": true
       },
       {
@@ -9172,11 +9172,11 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "U Beču je Arsenije od cara Leopolda dobio dve povelje, takozvane Privilegije iz 1690. i 1691. godine, koje su Srbima u Monarhiji priznale slobodu pravoslavne vere, izbor sopstvenog poglavara, crkvenu samoupravu i određena staleška prava. Tim ispravama je, pravno gledano, srpska zajednica u habzburškim zemljama prvi put dobila status zaštićenog naroda sa sopstvenom crkvenom hijerarhijom. Arsenije je svoju stolicu prvo prebacio u Sečuj, zatim u manastir Krušedol u Fruškoj gori, koji je postao njegovo glavno boravište, a kasnije — već posle njegove smrti — crkveno središte će se konačno utvrditi u Sremskim Karlovcima. Pri tom je on i dalje nosio titulu pećkog patrijarha; u Peći su Osmanlije nastavile da postavljaju druge srpske patrijarhe, sve do ukidanja Pećke patrijaršije 1766."
+        "text": "Od cara Leopolda Arsenije je, preko svojih izaslanika u Beču, dobio povelje — takozvane Privilegije, najvažnije iz 1690. i 1691, a treću 1695. godine — koje su Srbima u Monarhiji priznale slobodu pravoslavne vere, izbor sopstvenog poglavara, crkvenu samoupravu i određena staleška prava. Tim ispravama je, pravno gledano, srpska zajednica u habzburškim zemljama prvi put dobila status zaštićenog naroda sa sopstvenom crkvenom hijerarhijom. Arsenije nije imao stalno sedište: boravio je u Sentandreji, Sečuju, Hopovu, Futogu i drugde, a 1701. mu je naređeno da živi u Sentandreji. Tek posle njegove smrti sedište mitropolije postaće manastir Krušedol u Fruškoj gori, a 1713. crkveno središte će se konačno utvrditi u Sremskim Karlovcima. Pri tom je on i dalje nosio titulu pećkog patrijarha; u Peći su Osmanlije nastavile da postavljaju druge srpske patrijarhe, sve do ukidanja Pećke patrijaršije 1766."
       },
       {
         "type": "paragraph",
-        "text": "Život u Monarhiji nije bio lakši od života pod Osmanlijama, samo drugačiji. Arsenije se sukobljavao sa katoličkim crkvenim vlastima koje su pritiskale da se srpski vernici pripoje uniji sa Rimom, sa ugarskim plemstvom koje je s nelagodom gledalo na carske povlastice date pridošlicama, i sa sopstvenim raseljenim narodom koji je živeo razbacan od Komorana do Budima, od Sentandreje do Slavonije. Iznova je putovao između Beča, Krušedola i ratnih logorišta, branio Privilegije pred dvorskim kancelarijama, postavljao episkope za nove eparhije, organizovao škole i prepisivačke radionice. Umro je u Beču 27. oktobra 1706, a telo mu je preneseno u Krušedol i tu sahranjeno; Srpska pravoslavna crkva ga poštuje kao svetitelja."
+        "text": "Život u Monarhiji nije bio lakši od života pod Osmanlijama, samo drugačiji. Arsenije se sukobljavao sa katoličkim crkvenim vlastima koje su pritiskale da se srpski vernici pripoje uniji sa Rimom, sa ugarskim plemstvom koje je s nelagodom gledalo na carske povlastice date pridošlicama, i sa sopstvenim raseljenim narodom koji je živeo razbacan od Komorana do Budima, od Sentandreje do Slavonije. Iznova je putovao između Beča, Krušedola i ratnih logorišta, branio Privilegije pred dvorskim kancelarijama, postavljao episkope za nove eparhije, organizovao škole i prepisivačke radionice. Umro je u Beču 27. oktobra 1706, a telo mu je preneseno u Krušedol i tu sahranjeno."
       },
       {
         "type": "paragraph",
@@ -9225,7 +9225,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Crkveno središte tog sveta postali su Sremski Karlovci. Tu je posle 1690. utvrđena rezidencija srpskog mitropolita, tu se sastajao Narodno-crkveni sabor, tu su se vremenom razvile i prve ozbiljnije srpske škole, a kasnije i bogoslovija. Karlovci su za 18. vek bili ono što su za srednji vek bili Žiča ili Peć: simbolično središte oko kojeg se okupljala cela zajednica. Sentandreja je, opet, dugo bila najbogatiji srpski grad u monarhiji — varoš trgovaca i zanatlija, sa nekoliko pravoslavnih crkava na malom prostoru, čiji su gradski oci pisali testamente i ktitorske natpise jezikom koji se polako oblikovao u takozvani slavjanoserbski."
+        "text": "Crkveno središte tog sveta postali su Sremski Karlovci. Tu je od 1713. bilo stalno sedište srpskog mitropolita, tu se sastajao Narodno-crkveni sabor, tu su se vremenom razvile i prve ozbiljnije srpske škole, a kasnije i bogoslovija. Karlovci su za 18. vek bili ono što su za srednji vek bili Žiča ili Peć: simbolično središte oko kojeg se okupljala cela zajednica. Sentandreja je, opet, dugo bila najbogatiji srpski grad u monarhiji — varoš trgovaca i zanatlija, sa nekoliko pravoslavnih crkava na malom prostoru, čiji su gradski oci pisali testamente i ktitorske natpise jezikom koji se polako oblikovao u takozvani slavjanoserbski."
       },
       {
         "type": "paragraph",
@@ -9237,7 +9237,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Tako je do sredine 18. veka srpski narod živeo, zapravo, u dva paralelna sveta. Južni je bio seljački, pod Osmanlijama, sa ograničenim crkvenim institucijama, naročito posle ukidanja Pećke patrijaršije 1766. godine, o čemu će biti reči u lekciji koja sledi. Severni je imao gradove, privilegije, štamparije, građansku klasu i sopstveni sabor. Oba sveta delila su jezik, veru i osećaj zajedničke prošlosti; oba su, svaki na svoj način, pripremala tle za nacionalni preporod 19. veka. Pošteno je reći — i to lekcija o ovom dobu ne sme da zaboravi — da je dobar deo kulturne i intelektualne snage srpskog 18. i ranog 19. veka došao upravo iz tog severnog, habzburškog sveta. Bez Karlovaca, Novog Sada i Sentandreje, bez građanstva i njegovih knjiga, kasnije buđenje bilo bi sporije i siromašnije."
+        "text": "Tako je do sredine 18. veka srpski narod živeo, zapravo, u dva paralelna sveta. Južni je bio seljački, pod Osmanlijama, sa ograničenim crkvenim institucijama, naročito posle ukidanja Pećke patrijaršije 1766. godine. Severni je imao gradove, privilegije, štamparije, građansku klasu i sopstveni sabor. Oba sveta delila su jezik, veru i osećaj zajedničke prošlosti; oba su, svaki na svoj način, pripremala tle za nacionalni preporod 19. veka. Pošteno je reći — i to lekcija o ovom dobu ne sme da zaboravi — da je dobar deo kulturne i intelektualne snage srpskog 18. i ranog 19. veka došao upravo iz tog severnog, habzburškog sveta. Bez Karlovaca, Novog Sada i Sentandreje, bez građanstva i njegovih knjiga, kasnije buđenje bilo bi sporije i siromašnije."
       }
     ],
     "subtitle": "Drugi srpski svet, severno od Save i Dunava, sa privilegijama, gradovima i sopstvenom građanskom klasom",
@@ -9269,7 +9269,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Svrha sistema bila je dvostruka. Prvo, slojevita odbrana — niz utvrđenja, stalnih straža i naoružanih sela koji bi usporili svaku osmansku provalu dok se carska vojska ne sakupi. Drugo, ljudski rezervoar — krajina je davala Beču izvanrednu, jeftinu i bojevu pešadiju i lako konjaništvo, „graničare” koji su, kada nije bilo turskog rata, slati u sasvim druge ratove: u Italiju, u Nizozemsku, na Rajnu, kasnije i protiv Napoleona. Habzburzi su tako uspeli da po uzoru na osmansku graničnu organizaciju izgrade sopstveni odgovor — vojničku populaciju koja se sama hrani i sama brani, a koja je trajno na raspolaganju vladaru."
+        "text": "Svrha sistema bila je dvostruka. Prvo, slojevita odbrana — niz utvrđenja, stalnih straža i naoružanih sela koji bi usporili svaku osmansku provalu dok se carska vojska ne sakupi. Drugo, ljudski rezervoar — krajina je davala Beču izvanrednu, jeftinu i bojevu pešadiju i lako konjaništvo, „graničare” koji su, kada nije bilo turskog rata, slati u sasvim druge ratove: u Italiju, u Nizozemsku, na Rajnu, kasnije i protiv Napoleona. Habzburzi su tako uspeli da, delom po uzoru na osmansku graničnu organizaciju, izgrade sopstveni odgovor — vojničku populaciju koja se sama hrani i sama brani, a koja je trajno na raspolaganju vladaru."
       },
       {
         "type": "heading",
@@ -9298,7 +9298,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Tokom 18. i 19. veka sistem se postepeno menjao. Sa povlačenjem osmanske granice na jug, neke deonice gubile su prvobitan smisao i bile demilitarizovane; Banatska krajina ukinuta je sredinom 19. veka, a poslednji, hrvatski delovi vraćeni su civilnoj hrvatskoj upravi 1881. godine. Time je formalno zatvorena ustanova koja je više od tri stoleća držala jednu od najdužih granica u Evropi. Za srpski narod Vojna krajina ostala je jedno od mesta gde se, daleko od matice, kalio osećaj zajednice — pod tuđom krunom, ali sa sopstvenom verom, jezikom i puškom u ruci."
+        "text": "Tokom 18. i 19. veka sistem se postepeno menjao. Sa povlačenjem osmanske granice na jug, neke deonice gubile su prvobitan smisao i bile demilitarizovane; Banatska krajina ukinuta je 1872. godine, a poslednji, hrvatski delovi vraćeni su civilnoj hrvatskoj upravi 1881. godine. Time je formalno zatvorena ustanova koja je više od tri stoleća držala jednu od najdužih granica u Evropi. Za srpski narod Vojna krajina ostala je jedno od mesta gde se, daleko od matice, kalio osećaj zajednice — pod tuđom krunom, ali sa sopstvenom verom, jezikom i puškom u ruci."
       }
     ],
     "subtitle": "Habzburški pojas uz osmansku granicu u kome je deo srpskog naroda živeo pod puškom i pod posebnim povlasticama",
@@ -9318,12 +9318,12 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "content": [
       {
         "type": "paragraph",
-        "text": "Kada je u leto 1690. godine patrijarh Arsenije III Čarnojević sa kolonom izbeglica prešao Savu i Dunav i potražio zaklon na zemljištu rimokatoličke Habzburške monarhije, obe strane su znale da pred sobom imaju nešto čemu ranija pravila nisu sasvim odgovarala. Beč je dobijao desetine hiljada pravoslavnih ljudi spremnih da nose oružje na novoj granici prema Osmanlijama. Doseljenici su, sa svoje strane, dolazili sa živom crkvenom organizacijom, sa patrijarhom, episkopima, manastirskim bratstvima — i sa potpuno jasnom svešću da bez priznatih prava njihova zajednica neće preživeti u državi u kojoj je vladajuća crkva katolička, a zemaljska vlast u rukama mađarskog plemstva. Iz tog susreta nastaće dokumenta koja će u srpskoj istoriji biti upamćena prosto kao „Privilegije”.",
+        "text": "Kada je 1690. godine patrijarh Arsenije III Čarnojević sa kolonom izbeglica prešao Savu i Dunav i potražio zaklon na zemljištu rimokatoličke Habzburške monarhije, obe strane su znale da pred sobom imaju nešto čemu ranija pravila nisu sasvim odgovarala. Beč je dobijao desetine hiljada pravoslavnih ljudi spremnih da nose oružje na novoj granici prema Osmanlijama. Doseljenici su, sa svoje strane, dolazili sa živom crkvenom organizacijom, sa patrijarhom, episkopima, manastirskim bratstvima — i sa potpuno jasnom svešću da bez priznatih prava njihova zajednica neće preživeti u državi u kojoj je vladajuća crkva katolička, a zemaljska vlast u rukama mađarskog plemstva. Iz tog susreta nastaće dokumenta koja će u srpskoj istoriji biti upamćena prosto kao „Privilegije”.",
         "dropcap": true
       },
       {
         "type": "paragraph",
-        "text": "Prvu povelju izdao je car Leopold I 21. avgusta 1690. godine, još pre nego što je glavnina seobe stigla na sever. Dve godine kasnije, 1691, sledi nova, šira potvrda; treća, iz 1695, dodatno razrađuje crkvena pitanja. Ova tri akta čine jezgro takozvanih Leopoldinskih privilegija. Kasniji vladari — Josif I, Karlo VI, Marija Terezija — više puta su ih potvrđivali, dopunjavali ili tumačili, tako da je „Privilegija” u svesti zajednice vremenom postala zajednički naziv za čitavu lepezu carskih diploma."
+        "text": "Prvu povelju izdao je car Leopold I 21. avgusta 1690. godine, još pre nego što je glavnina seobe stigla na sever. Godinu dana kasnije, 20. avgusta 1691, sledi nova, šira potvrda; treća, iz 1695, dodatno razrađuje crkvena pitanja. Ova tri akta čine jezgro takozvanih Leopoldinskih privilegija. Kasniji vladari — Josif I, Karlo VI, Marija Terezija — više puta su ih potvrđivali, dopunjavali ili tumačili, tako da je „Privilegija” u svesti zajednice vremenom postala zajednički naziv za čitavu lepezu carskih diploma."
       },
       {
         "type": "paragraph",
@@ -9348,7 +9348,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Među ustanovama koje su Privilegije omogućile posebno mesto pripada Narodno-crkvenom saboru. Sastajao se povremeno tokom osamnaestog veka, redovno u Sremskim Karlovcima, i donosio je odluke koje su prevazilazile usko crkvena pitanja: birao je mitropolite, raspravljao o školama, fondovima, o odnosima sa krunom, pa i o položaju Srba na Vojnoj granici. Posle 1779. godine, kada je Marija Terezija takozvanim Reglementom suzila njegove nadležnosti i podredila ga državnom nadzoru, sabor je izgubio deo nekadašnje težine, ali je kao oblik narodnog predstavništva preživeo sve do austrougarskog doba."
+        "text": "Među ustanovama koje su Privilegije omogućile posebno mesto pripada Narodno-crkvenom saboru. Sastajao se povremeno tokom osamnaestog veka, redovno u Sremskim Karlovcima, i donosio je odluke koje su prevazilazile usko crkvena pitanja: birao je mitropolite, raspravljao o školama, fondovima, o odnosima sa krunom, pa i o položaju Srba na Vojnoj granici. Posle 1779. godine, kada je Marija Terezija takozvanom Deklaratorijom (posle Regulamenta iz 1770) suzila njegove nadležnosti i podredila ga državnom nadzoru, sabor je izgubio deo nekadašnje težine, ali je kao oblik narodnog predstavništva preživeo sve do austrougarskog doba."
       },
       {
         "type": "paragraph",
@@ -9374,11 +9374,11 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Prvi koraci nove crkvene uprave bili su nesigurni i pomerajni. Arsenije se najpre oslonio na manastir Krušedol u Fruškoj Gori, gde je već postojala razvijena monaška zajednica i porodična grobnica srpske despotske kuće Brankovića. Krušedol je tako, faktički, postao prvo sedište izbeglog patrijarha. Posle njegove smrti 1706. mitropolijska stolica je neko vreme bila i u Sečuju u južnoj Ugarskoj, pa povremeno na drugim mestima — sve dok se rano u 18. veku nije ustalila u Sremskim Karlovcima, varoši nad Dunavom na južnom rubu Fruške Gore. Položaj nije bio slučajan: u blizini su bili veliki fruškogorski manastiri, granica prema Osmanlijama bila je nadohvat, a sama varoš dovoljno mirna da postane administrativno središte."
+        "text": "Prvi koraci nove crkvene uprave bili su nesigurni i pomerajni. Arsenije je bez stalnog sedišta boravio u Sentandreji, pa u Sečuju u južnoj Ugarskoj, gde je imao vlastelinstvo. Posle njegove smrti 1706. sabor u Krušedolu (1708) učinio je sedištem mitropolije taj fruškogorski manastir, sa razvijenom monaškom zajednicom i porodičnom grobnicom srpske despotske kuće Brankovića. Od 1713. stolica se ustalila u Sremskim Karlovcima, varoši nad Dunavom na južnom rubu Fruške Gore. Položaj nije bio slučajan: u blizini su bili veliki fruškogorski manastiri, granica prema Osmanlijama bila je nadohvat, a sama varoš dovoljno mirna da postane administrativno središte."
       },
       {
         "type": "paragraph",
-        "text": "Pravni okvir nove mitropolije izgrađivao se postepeno. Beč je Srbima u nekoliko navrata potvrđivao tzv. privilegije — povelje Leopolda I i njegovih naslednika kojima im je priznavana verska autonomija, pravo na sopstvenog crkvenog poglavara i na narodno-crkvene sabore. Tek u doba Marije Terezije, sredinom 18. veka, ti odnosi su dobili konačniju formu: Karlovačka mitropolija je u nizu carskih dekreta iz tog razdoblja potvrđena kao zasebna pravoslavna crkvena celina u Habzburškoj monarhiji, sa jasnim sastavom dioceza. Pod njom se, u različitim trenucima, našlo i do desetak eparhija — u Ugarskoj, Slavoniji, Hrvatskoj, na Vojnoj krajini, povremeno i u Dalmaciji. Kanonski, Karlovci su ostali izvan jurisdikcije Pećke patrijaršije, koja je u osmanskim zemljama nastavila zaseban život sve do svog ukidanja 1766. godine."
+        "text": "Pravni okvir nove mitropolije izgrađivao se postepeno. Beč je Srbima u nekoliko navrata potvrđivao tzv. privilegije — povelje Leopolda I i njegovih naslednika kojima im je priznavana verska autonomija, pravo na sopstvenog crkvenog poglavara i na narodno-crkvene sabore. Tek u doba Marije Terezije, sredinom 18. veka, ti odnosi su dobili konačniju formu: Karlovačka mitropolija je u nizu carskih dekreta iz tog razdoblja potvrđena kao zasebna pravoslavna crkvena celina u Habzburškoj monarhiji, sa jasnim sastavom dioceza. Pod njom se, u različitim trenucima, našlo i do desetak eparhija — u Ugarskoj, Slavoniji, Hrvatskoj, na Vojnoj krajini, povremeno i u Dalmaciji. Kanonski, Karlovci su bili autonomna mitropolija u okviru Pećke patrijaršije, koju je patrijarh Kalinik I priznao 1710; ta veza trajala je do ukidanja Peći 1766. godine."
       },
       {
         "type": "heading",
@@ -9395,11 +9395,11 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Iz tog kruga, neposredno ili posredno, izrastao je dobar deo srpske prosvećenosti. U Karlovcima je kraće učio Dositej Obradović, pre nego što je krenuo svojim evropskim putovanjem; iz iste sredine ponikao je Lukijan Mušicki, pesnik i kasniji vladika; tu su odjekivala dela istoričara Jovana Rajića, monaha iz fruškogorskog kruga. Ulogu krovnog pokrovitelja te „karlovačke prosvete” preuzeo je mitropolit Stefan Stratimirović, koji je upravljao mitropolijom od 1790. do 1836 — gotovo pola veka. Stratimirović je bio konzervativan u mnogim pitanjima i nije sve podržavao bez ograda, ali je njegova podrška školstvu, izgradnji crkava i očuvanju srpskog identiteta u Monarhiji bila trajna. Prema Vukovoj jezičkoj reformi imao je dvojstven stav — u nekim trenucima opreznu naklonost, u drugim oštro neslaganje — i to je deo karlovačke priče koji ne treba ulepšavati."
+        "text": "Iz tog kruga, neposredno ili posredno, izrastao je dobar deo srpske prosvećenosti. U Karlovcima je 1758. rukopoložen za đakona mladi hopovski monah Dositej Obradović, pre nego što je krenuo svojim putovanjima; iz iste sredine ponikao je Lukijan Mušicki, pesnik i kasniji vladika; tu su odjekivala dela istoričara Jovana Rajića, monaha iz fruškogorskog kruga. Ulogu krovnog pokrovitelja te „karlovačke prosvete” preuzeo je mitropolit Stefan Stratimirović, koji je upravljao mitropolijom od 1790. do 1836 — gotovo pola veka. Stratimirović je bio konzervativan u mnogim pitanjima i nije sve podržavao bez ograda, ali je njegova podrška školstvu, izgradnji crkava i očuvanju srpskog identiteta u Monarhiji bila trajna. Prema Vukovoj jezičkoj reformi imao je dvojstven stav — u nekim trenucima opreznu naklonost, u drugim oštro neslaganje — i to je deo karlovačke priče koji ne treba ulepšavati."
       },
       {
         "type": "paragraph",
-        "text": "Karlovačka mitropolija nije bila samo crkva. Bila je i jedini priznati politički organ Srba u Monarhiji: narodno-crkveni sabori, koji su se povremeno sazivali u Karlovcima, raspravljali su o privilegijama, finansijama, obrazovanju, izboru mitropolita. Mitropolit je u praksi bio i verski poglavar i predstavnik naroda pred Bečom. Posle revolucije 1848. i kratkotrajne Srpske Vojvodine, Karlovačka mitropolija je carskim aktom uzdignuta na rang patrijaršije; karlovački poglavar je nosio titulu patrijarha sve do kraja Prvog svetskog rata i ujedinjenja srpskih crkvenih oblasti u obnovljenu Srpsku pravoslavnu crkvu 1920. godine. Time je završeno više od dva veka karlovačkog razdoblja — vremena u kome je jedna mala varoš nad Dunavom, bez dvora i bez vojske, bila ono što su Srbima u Monarhiji bili i Peć u srednjem veku i Beograd u novijoj istoriji: mesto na koje se gleda kao na središte."
+        "text": "Karlovačka mitropolija nije bila samo crkva. Bila je i jedini priznati politički organ Srba u Monarhiji: narodno-crkveni sabori, koji su se povremeno sazivali u Karlovcima, raspravljali su o privilegijama, finansijama, obrazovanju, izboru mitropolita. Mitropolit je u praksi bio i verski poglavar i predstavnik naroda pred Bečom. U revoluciji 1848, na Majskoj skupštini, karlovački mitropolit proglašen je za patrijarha, što je car potom potvrdio; karlovački poglavar je nosio titulu patrijarha sve do kraja Prvog svetskog rata i ujedinjenja srpskih crkvenih oblasti u obnovljenu Srpsku pravoslavnu crkvu 1920. godine. Time je završeno više od dva veka karlovačkog razdoblja — vremena u kome je jedna mala varoš nad Dunavom, bez dvora i bez vojske, bila ono što su Srbima u Monarhiji bili i Peć u srednjem veku i Beograd u novijoj istoriji: mesto na koje se gleda kao na središte."
       }
     ],
     "subtitle": "Kako je mala varoš u Sremu, oko crkve i škole, postala duhovno središte Srba u Habzburškoj monarhiji",
@@ -9423,7 +9423,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "content": [
       {
         "type": "paragraph",
-        "text": "Pola veka posle Velike seobe pod patrijarhom Arsenijem III Čarnojevićem, srpski narod je ponovo, u manjem ali stvarnom talasu, krenuo preko Save i Dunava. Druga seoba Srba zbila se 1739. i 1740. godine, kao posledica novog rata između Habzburške monarhije i Osmanskog carstva i mira koji je taj rat naglo, i za Beč nepovoljno, zaključio. Reč je o događaju manje glasnom od onog iz 1690, ali sa sličnom logikom: kada se carska granica povuče, povlači se i deo stanovništva koje je s tom granicom vezalo svoju sudbinu.",
+        "text": "Pola veka posle Velike seobe pod patrijarhom Arsenijem III Čarnojevićem, srpski narod je ponovo, u manjem ali stvarnom talasu, krenuo preko Save i Dunava. Druga seoba Srba zbila se 1739. i 1740. godine (u literaturi se datira i 1737–1739, jer je povlačenje počelo već 1737), kao posledica novog rata između Habzburške monarhije i Osmanskog carstva i mira koji je taj rat naglo, i za Beč nepovoljno, zaključio. Reč je o događaju manje glasnom od onog iz 1690, ali sa sličnom logikom: kada se carska granica povuče, povlači se i deo stanovništva koje je s tom granicom vezalo svoju sudbinu.",
         "dropcap": true
       },
       {
@@ -9432,7 +9432,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Beogradski mir, potpisan u septembru 1739, vratio je Osmanlijama severnu Srbiju, Beograd i severnu Bosnu — sve ono što je Karlo VI dobio dve decenije ranije. Granica je opet legla na Savu i Dunav. Habzburški komandanti su, pre povlačenja, dali srušiti beogradske utvrde po kojima su upravo bili poznati. Za pravoslavne vernike koji su se otvoreno svrstali uz cara, povratak osmanske vlasti značio je strah od odmazde, novih nameta i pojačanog pritiska. U takvoj atmosferi, pećki patrijarh Arsenije IV Jovanović Šakabenta odlučio je da pređe na habzburšku stranu i da povede sa sobom onaj deo naroda koji je mogao i hteo da krene."
+        "text": "Beogradski mir, potpisan u septembru 1739, vratio je Osmanlijama severnu Srbiju, Beograd i severnu Bosnu — sve ono što je Karlo VI dobio dve decenije ranije. Granica je opet legla na Savu i Dunav. Habzburški komandanti su, pre povlačenja, dali srušiti beogradske utvrde po kojima su upravo bili poznati. Za pravoslavne vernike koji su se otvoreno svrstali uz cara, povratak osmanske vlasti značio je strah od odmazde, novih nameta i pojačanog pritiska. U takvoj atmosferi, pećki patrijarh Arsenije IV Jovanović Šakabenta, koji je još 1737. napustio Peć i stao uz cara, poveo je iz Beograda preko reke onaj deo naroda koji je mogao i hteo da krene."
       },
       {
         "type": "heading",
@@ -9445,7 +9445,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Doseljenici su raspoređivani u već postojeća srpska naselja u Bačkoj, Banatu, Sremu i Slavoniji. Carica Marija Terezija, koja je 1740. nasledila oca Karla VI, potvrdila je doseljenicima stare srpske privilegije i tako ih uklopila u već uspostavljeni okvir „ilirske nacije” pod habzburškom krunom. Sam patrijarh Arsenije IV nastanio se u Sremskim Karlovcima, gde je već postojala karlovačka mitropolija osnovana posle Velike seobe. Iz tog susreta nastala je osetljiva situacija: pećki patrijarh u izgnanstvu i karlovački mitropolit živeli su pod istim krovom carstva, sa preklapajućim ovlašćenjima i istorijskim pravima. Tenzije nisu uvek bile lake, ali su se, vremenom, dve linije srpske crkvene uprave izmirile pod karlovačkim okriljem. Pećka patrijaršija nastavila je da postoji pod osmanskom vlašću do 1766, kada će biti ukinuta — ali to je već priča za neki drugi dan."
+        "text": "Doseljenici su raspoređivani u već postojeća srpska naselja u Bačkoj, Banatu, Sremu i Slavoniji. Carica Marija Terezija, koja je 1740. nasledila oca Karla VI, potvrdila je doseljenicima stare srpske privilegije i tako ih uklopila u već uspostavljeni okvir „ilirske nacije” pod habzburškom krunom. Sam patrijarh Arsenije IV preuzeo je upražnjenu beogradsko-karlovačku mitropoliju i, kada je Beograd 1739. vraćen Osmanlijama, preneo sedište u Sremske Karlovce, gde je do smrti 1748. upravljao srpskom crkvom u Monarhiji, i dalje se smatrajući patrijarhom. Pećka patrijaršija nastavila je da postoji pod osmanskom vlašću do 1766, kada je ukinuta."
       },
       {
         "type": "paragraph",
@@ -9477,7 +9477,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "content": [
       {
         "type": "paragraph",
-        "text": "Severno od Save i Dunava, na južnom rubu velike Panonske nizije, prostiru se tri ravne oblasti koje će vekovima biti jedna od dve srpske domovine — naporedo sa Srbijom pod sultanom. Srem leži između Save i Dunava, Bačka između Dunava i Tise, Banat istočno od Tise, sve do podnožja karpatskih ogranaka. Sve tri su u srednjem veku pripadale Ugarskoj kruni, a od kraja 17. veka, posle Velikog bečkog rata i Karlovačkog mira 1699, gotovo u celini su prešle pod Habzburge. U toj ravnici, na međi dva carstva, oblikovaće se srpsko građansko, crkveno i kulturno biće koje će kasnije postati temelj nacionalnog preporoda.",
+        "text": "Severno od Save i Dunava, na južnom rubu velike Panonske nizije, prostiru se tri ravne oblasti koje će vekovima biti jedna od dve srpske domovine — naporedo sa Srbijom pod sultanom. Srem leži između Save i Dunava, Bačka između Dunava i Tise, Banat istočno od Tise, sve do podnožja karpatskih ogranaka. Sve tri su u srednjem veku pripadale Ugarskoj kruni; posle Velikog bečkog rata Bačka i najveći deo Srema prešli su pod Habzburge Karlovačkim mirom 1699, a Banat tek Požarevačkim mirom 1718. U toj ravnici, na međi dva carstva, oblikovaće se srpsko građansko, crkveno i kulturno biće koje će kasnije postati temelj nacionalnog preporoda.",
         "dropcap": true
       },
       {
@@ -9538,11 +9538,11 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Prvi u nizu, Veliki bečki rat, počeo je osmanskim porazom pod Bečom 1683. godine. Iz tog poraza rodila se Sveta liga — Habzburzi, Poljaci, Mlečani i kasnije Rusija — koja je u narednim godinama isterala Osmanlije iz cele Ugarske. Carska vojska je 1688. ušla u Beograd, a već naredne godine prodrla duboko na jug, sve do Skoplja i Prizrena. Tada je, kratko, izgledalo da bi se osmanska vlast nad srpskim zemljama mogla srušiti. Preokret 1690. bio je utoliko teži: turska protivofanziva vratila je granicu na Savu i Dunav, a patrijarh Arsenije III Čarnojević poveo je u Habzburšku monarhiju Veliku seobu Srba, čiji su odjeci već posebno obrađeni. Mir u Sremskim Karlovcima 1699. potvrdio je novu sliku: Habzburzi su dobili Ugarsku, Erdelj i delove Hrvatske i Slavonije, a Sava je postala stalna granica."
+        "text": "Prvi u nizu, Veliki bečki rat, počeo je osmanskim porazom pod Bečom 1683. godine. Iz tog poraza rodila se Sveta liga — Habzburzi, Poljaci, Mlečani i kasnije Rusija — koja je u narednim godinama isterala Osmanlije iz gotovo cele Ugarske. Carska vojska je 1688. ušla u Beograd, a već naredne godine prodrla duboko na jug, sve do Skoplja i Prizrena. Tada je, kratko, izgledalo da bi se osmanska vlast nad srpskim zemljama mogla srušiti. Preokret 1690. bio je utoliko teži: turska protivofanziva vratila je granicu na Savu i Dunav, a patrijarh Arsenije III Čarnojević poveo je u Habzburšku monarhiju Veliku seobu Srba, čiji su odjeci već posebno obrađeni. Mir u Sremskim Karlovcima 1699. potvrdio je novu sliku: Habzburzi su dobili Ugarsku bez Banata, Erdelj i delove Hrvatske i Slavonije, a Sava je postala stalna granica."
       },
       {
         "type": "paragraph",
-        "text": "Drugi rat, vođen od 1716. do 1718. godine, ostao je zapamćen po blistavim pohodima princa Eugena Savojskog. Pobeda kod Petrovaradina 1716. i osvajanje Beograda 1717. ušli su u evropske ratne udžbenike. Požarevačkim mirom 1718. Habzburzi su dobili severnu Srbiju sa Beogradom, Banat i severne delove Bosne. Po prvi put posle skoro tri stotine godina, prostor severno od zapadne Morave i južno od Save našao se pod hrišćanskom državom. Carska uprava pokušala je da od te oblasti, nazvane „Kraljevina Srbija”, napravi uređenu pograničnu provinciju: popisani su porezi, povučeni novi putevi, obnavljani gradovi, a Beograd je dobio baroknu tvrđavu. Sve to potrajalo je nepunih dvadeset i jednu godinu."
+        "text": "Drugi rat, vođen od 1716. do 1718. godine, ostao je zapamćen po blistavim pohodima princa Eugena Savojskog. Pobeda kod Petrovaradina 1716. i osvajanje Beograda 1717. ušli su u evropske ratne udžbenike. Požarevačkim mirom 1718. Habzburzi su dobili severnu Srbiju sa Beogradom, Banat i severne delove Bosne. Po prvi put posle više od dva i po veka, prostor severno od zapadne Morave i južno od Save našao se pod hrišćanskom državom. Carska uprava pokušala je da od te oblasti, nazvane „Kraljevina Srbija”, napravi uređenu pograničnu provinciju: popisani su porezi, povučeni novi putevi, obnavljani gradovi, a Beograd je dobio baroknu tvrđavu. Sve to potrajalo je nešto više od dve decenije."
       },
       {
         "type": "heading",
@@ -9596,7 +9596,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Granica je povučena tako da je Beč dobio Banat — poslednju osmansku oblast severno od Dunava — zatim severnu Srbiju sa Beogradom, Šapcem i Smederevom, uski pojas severne Bosne uz Savu koji će u dokumentima dobiti naziv „habzburška Bosna”, i Malu Vlašku do reke Olta. Venecija je u istom miru dobila nešto, ali je u Moreji izgubila više nego što je u Dalmaciji dobila — njena uloga velike sile u istočnom Sredozemlju počela je tu, u Požarevcu, da se gasi. Za srpsku istoriju, međutim, presudna je jedna jednostavna činjenica: po prvi put posle 1459. godine i pada Smedereva, oblast koja obuhvata Beograd, Šumadiju i središnje Pomoravlje našla se pod hrišćanskom, ne više osmanskom, upravom."
+        "text": "Granica je povučena tako da je Beč dobio Banat — poslednji osmanski deo Ugarske — zatim severnu Srbiju sa Beogradom, Šapcem i Smederevom, uski pojas severne Bosne uz Savu koji će u dokumentima dobiti naziv „habzburška Bosna”, i Malu Vlašku do reke Olta. Venecija je u istom miru dobila nešto, ali je u Moreji izgubila više nego što je u Dalmaciji dobila — njena uloga velike sile u istočnom Sredozemlju počela je tu, u Požarevcu, da se gasi. Za srpsku istoriju, međutim, presudna je jedna jednostavna činjenica: po prvi put posle 1459. godine i pada Smedereva, oblast koja obuhvata Beograd, Šumadiju i središnje Pomoravlje našla se pod hrišćanskom, ne više osmanskom, upravom."
       },
       {
         "type": "heading",
@@ -9609,15 +9609,15 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Odnos lokalnog srpskog stanovništva prema novoj vlasti bio je složen i ne treba ga prikazivati ni kao oduševljenje ni kao otpor. Posle decenija osmanske uprave, kuluka i poreske neizvesnosti, hrišćanska država — makar i tuđa, makar i katolička — donosila je neke vidljive olakšice: prestajao je danak u krvi, slabili su zulumi pojedinih spahija, raja je formalno izlazila iz statusa zimija. Ali nova vlast je donosila i sopstvene terete. Habzburški porezi nisu bili manji, samo drugačiji i tačnije naplaćivani; činovnici su pisali sve, što seljak nikada nije voleo; trgovina je morala kroz carine i monopole; a u verskim stvarima carska kruna, oslonjena na katoličku crkvu, vršila je tih ali stalan pritisak na pravoslavnu jerarhiju da se približi uniji s Rimom. Mitropolija u Beogradu i Karlovačka mitropolija severno od Save morale su da brane svoju samostalnost diplomatskom strpljivošću, ne otvorenim sukobom."
+        "text": "Odnos lokalnog srpskog stanovništva prema novoj vlasti bio je složen i ne treba ga prikazivati ni kao oduševljenje ni kao otpor. Posle decenija osmanske uprave, kuluka i poreske neizvesnosti, hrišćanska država — makar i tuđa, makar i katolička — donosila je neke vidljive olakšice: slabili su zulumi pojedinih spahija, raja je formalno izlazila iz statusa zimija. Ali nova vlast je donosila i sopstvene terete. Habzburški porezi nisu bili manji, samo drugačiji i tačnije naplaćivani; činovnici su pisali sve, što seljak nikada nije voleo; trgovina je morala kroz carine i monopole; a u verskim stvarima carska kruna, oslonjena na katoličku crkvu, vršila je tih ali stalan pritisak na pravoslavnu jerarhiju da se približi uniji s Rimom. Mitropolija u Beogradu i Karlovačka mitropolija severno od Save morale su da brane svoju samostalnost diplomatskom strpljivošću, ne otvorenim sukobom."
       },
       {
         "type": "paragraph",
-        "text": "Najvidljiviji trag tog vremena ostao je u Beogradu. Habzburški inženjeri prepravili su staru osmansku tvrđavu u modernu baroknu utvrdu sa zvezdastim bastionima — glavni plan izradio je švajcarski oficir Nicolas Doxat de Demoret, jedan od najboljih utvrđivača svoga doba. Donji grad i Kalemegdan dobili su izgled koji je odgovarao tadašnjoj evropskoj fortifikacijskoj nauci; oko tvrđave je nicala nova varoš sa pravim ulicama, kasarnama, magacinima i crkvama. Stanovništvo Beograda u tih dvadeset godina bilo je šaroliko kao retko kad u njegovoj istoriji: pored Srba, doselili su se Nemci, Italijani, Mađari, Jermeni, sefardski Jevreji, francuski i češki oficiri. Otvarale su se škole, počela je da se štampa pisana reč na nemačkom, formirao se začetak građanskog života — sve to u gradu koji je još pre dve decenije bio osmanska palanka."
+        "text": "Najvidljiviji trag tog vremena ostao je u Beogradu. Habzburški inženjeri prepravili su staru osmansku tvrđavu u modernu baroknu utvrdu sa zvezdastim bastionima — glavni plan izradio je švajcarski oficir Nicolas Doxat de Demoret, jedan od najboljih utvrđivača svoga doba. Donji grad i Kalemegdan dobili su izgled koji je odgovarao tadašnjoj evropskoj fortifikacijskoj nauci; oko tvrđave je nicala nova varoš sa pravim ulicama, kasarnama, magacinima i crkvama. Stanovništvo Beograda u tih dvadeset godina bilo je šaroliko kao retko kad u njegovoj istoriji: pored Srba, doselili su se Nemci, Italijani, Mađari, Jermeni, sefardski Jevreji, francuski i češki oficiri. Otvarale su se škole, formirao se začetak građanskog života — sve to u gradu koji je još pre dve decenije bio osmanska palanka."
       },
       {
         "type": "paragraph",
-        "text": "Habzburški eksperiment u Srbiji trajao je tačno onoliko koliko i naredni mir između dva carstva. Kada je 1737. izbio nov austro-turski rat, Beč je u njega ušao loše pripremljen, sa precenjenim snagama i podeljenom komandom. Posle nekoliko poraza u Bosni i Vlaškoj i propalog pohoda na jug, austrijska vojska se 1739. povukla pred Osmanlijama čak do Beograda. Mir potpisan u logoru pod gradom, poznat kao Beogradski mir, vratio je sultanu severnu Srbiju, habzburšku Bosnu i Malu Vlašku. Po jednoj od tačaka tog mira, novosagrađena barokna tvrđava morala je biti porušena pre povlačenja — Doxatovo delo Habzburzi su sopstvenim rukama digli u vazduh. Sam Nicolas Doxat, optužen zbog predaje Niša, bio je pogubljen u Beču iste godine; njegova sudbina ostala je gorka uspomena na to vreme."
+        "text": "Habzburški eksperiment u Srbiji trajao je tačno onoliko koliko i naredni mir između dva carstva. Kada je 1737. izbio nov austro-turski rat, Beč je u njega ušao loše pripremljen, sa precenjenim snagama i podeljenom komandom. Posle nekoliko poraza u Bosni i Vlaškoj i propalog pohoda na jug, austrijska vojska se 1739. povukla pred Osmanlijama čak do Beograda. Mir potpisan u logoru pod gradom, poznat kao Beogradski mir, vratio je sultanu severnu Srbiju, habzburšku Bosnu i Malu Vlašku. Po jednoj od tačaka tog mira, novosagrađena barokna tvrđava morala je biti porušena pre povlačenja — Doxatovo delo Habzburzi su sopstvenim rukama digli u vazduh. Sam Nicolas Doxat, optužen zbog predaje Niša 1737, pogubljen je u Beogradu već u martu 1738; njegova sudbina ostala je gorka uspomena na to vreme."
       },
       {
         "type": "paragraph",
@@ -9645,7 +9645,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "content": [
       {
         "type": "paragraph",
-        "text": "Kada je 1496. godine ugasla dinastija Crnojevića i kada su Osmanlije zauzele Žabljak i ostale crnogorske gradove, na karti sultanove države Crna Gora je formalno postala još jedna pogranična oblast. U stvarnosti, ona to nikada nije postala u potpunosti. Visoke krševite planine, siromašno tle koje nije nudilo plen vredan velikog rata, jaka kućna i bratstvenička povezanost, i pravoslavna vladika u Cetinju — sve je to zajedno učinilo da Carigrad nad ovim parčetom Balkana vlada više po imenu nego po stvari. Tokom 16, 17. i 18. veka Crna Gora je živela u neobičnom poluprostoru: nije bila slobodna država u modernom smislu, ali nije bila ni obična osmanska nahija. Bila je savez plemena pod krovom jedne mitre.",
+        "text": "Kada je 1496. godine pala vlast Crnojevića — Žabljak su Osmanlije zauzele još 1478. — na karti sultanove države Crna Gora je formalno postala još jedna pogranična oblast. U stvarnosti, ona to nikada nije postala u potpunosti. Visoke krševite planine, siromašno tle koje nije nudilo plen vredan velikog rata, jaka kućna i bratstvenička povezanost, i pravoslavna vladika u Cetinju — sve je to zajedno učinilo da Carigrad nad ovim parčetom Balkana vlada više po imenu nego po stvari. Tokom 16, 17. i 18. veka Crna Gora je živela u neobičnom poluprostoru: nije bila slobodna država u modernom smislu, ali nije bila ni obična osmanska nahija. Bila je savez plemena pod krovom jedne mitre.",
         "dropcap": true
       },
       {
@@ -9654,7 +9654,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Drugi stub vlasti bio je vladika. Cetinjska episkopija, osnovana još u doba Crnojevića, postala je tokom 16. veka tačka oko koje se okupljao verski, a postepeno i politički život. Vladika je bio duhovni poglavar, ali je u zemlji bez kralja, bez stalne vojske i bez prestonice, on počeo da preuzima i ono što vladar inače radi: sazivao je zborove plemenskih glavara, posredovao u krvnim sukobima, vodio prepiske sa stranim dvorovima, primao subvencije. Ta dvostruka uloga — episkop koji je istovremeno i prvak plemenskog saveza — najjasnije se uobličila u poslednjoj deceniji 17. veka, kada je vladičanska čast prešla u jednu porodicu."
+        "text": "Drugi stub vlasti bio je vladika. Zetska episkopija, čije je sedište u doba Crnojevića preneto na Cetinje, postala je tokom 16. veka tačka oko koje se okupljao verski, a postepeno i politički život. Vladika je bio duhovni poglavar, ali je u zemlji bez kralja, bez stalne vojske i bez prestonice, on počeo da preuzima i ono što vladar inače radi: sazivao je zborove plemenskih glavara, posredovao u krvnim sukobima, vodio prepiske sa stranim dvorovima, primao subvencije. Ta dvostruka uloga — episkop koji je istovremeno i prvak plemenskog saveza — najjasnije se uobličila u poslednjoj deceniji 17. veka, kada je vladičanska čast prešla u jednu porodicu."
       },
       {
         "type": "heading",
@@ -9671,7 +9671,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Spolja, Crna Gora je tokom čitavog ovog perioda balansirala između četiri sile. Mletačka republika držala je Boku Kotorsku i bila je najbliži, mada nepouzdan, sused. Habzburška monarhija nadirala je sa severa, posebno posle 1797. kada je Boka prešla u njene ruke. Osmansko carstvo iz Skadra i Hercegovine slalo je vojne ekspedicije čiji je cilj bio da se jednom za svagda slomi neposlušnost plemena. Rusija, najdalja od njih, paradoksalno je postala najvažnija — od vremena Petra Velikog Cetinje je primalo redovne novčane subvencije i osećaj da iza njega stoji jedna pravoslavna carevina. Najpoznatija od osmanskih ekspedicija, ona velikog vezira Ahmed-paše Ćuprilića, slomljena je 1712. u Boju na Carevom Lazu, u kome su crnogorska plemena izvojevala odbrambenu pobedu koja je u predanju ostala kao dokaz da se zemlja, i kada je brojčano nadjačana, ne može osvojiti."
+        "text": "Spolja, Crna Gora je tokom čitavog ovog perioda balansirala između četiri sile. Mletačka republika držala je Boku Kotorsku i bila je najbliži, mada nepouzdan, sused. Habzburška monarhija nadirala je sa severa, posebno posle 1797. kada je Boka prešla u njene ruke. Osmansko carstvo iz Skadra i Hercegovine slalo je vojne ekspedicije čiji je cilj bio da se jednom za svagda slomi neposlušnost plemena. Rusija, najdalja od njih, paradoksalno je postala najvažnija — od vremena Petra Velikog Cetinje je primalo redovne novčane subvencije i osećaj da iza njega stoji jedna pravoslavna carevina. Najpoznatija od osmanskih ekspedicija, ona seraskera Ahmed-paše, slomljena je 1712. u Boju na Carevom Lazu, u kome su crnogorska plemena izvojevala odbrambenu pobedu koja je u predanju ostala kao dokaz da se zemlja, i kada je brojčano nadjačana, ne može osvojiti."
       },
       {
         "type": "paragraph",
@@ -9705,15 +9705,15 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Razlozi te neuhvatljivosti bili su pre svega geografski i društveni. Krš oko Cetinja nije podnosio veliku konjicu ni tešku artiljeriju, vodu i ispašu trebalo je tražiti, a svaki klanac je mogao da postane stupica. Stanovništvo je živelo u plemenima — Katunjani, Riđani, Bjelopavlići, Piperi, Kuči i drugi — gde se vlast oslanjala na rod, na zborove starešina i na običajno pravo. Sukobi između plemena bili su česti, krvna osveta gotovo redovna, ali pred zajedničkim spoljnim neprijateljem ti sukobi su, makar privremeno, znali da se utišaju. Iz vremena u vreme dolazile su osmanske ekspedicije sa namerom da konačno reše „crnogorsko pitanje”. Dolazile su, palile sela, povlačile se — i Crna Gora bi se, kao retko koja zemlja, posle svakog poraza vraćala u svoje stare granice."
+        "text": "Razlozi te neuhvatljivosti bili su pre svega geografski i društveni. Krš oko Cetinja nije podnosio veliku konjicu ni tešku artiljeriju, vodu i ispašu trebalo je tražiti, a svaki klanac je mogao da postane stupica. Stanovništvo je živelo u plemenima — Katunjani, Riječani, Lješnjani, Crmničani, a u susednim Brdima Bjelopavlići, Piperi, Kuči i drugi — gde se vlast oslanjala na rod, na zborove starešina i na običajno pravo. Sukobi između plemena bili su česti, krvna osveta gotovo redovna, ali pred zajedničkim spoljnim neprijateljem ti sukobi su, makar privremeno, znali da se utišaju. Iz vremena u vreme dolazile su osmanske ekspedicije sa namerom da konačno reše „crnogorsko pitanje”. Dolazile su, palile sela, povlačile se — i Crna Gora bi se, kao retko koja zemlja, posle svakog poraza vraćala u svoje stare granice."
       },
       {
         "type": "paragraph",
-        "text": "Najteže iskušenje toga doba zbilo se početkom osamnaestog veka, u vreme vladike Danila I Petrovića, prvog iz porodice koja će dva veka držati cetinjsku stolicu. Godine 1712. bosanski vezir Ahmed-paša Ćuprilić, iz čuvene istanbulske porodice, krenuo je sa velikom vojskom da Crnu Goru najzad pokori. U brdima iznad Cetinja, na mestu koje će u narodnom sećanju ostati zapamćeno kao Carev Laz, plemenske čete pod Danilom i tribalnim glavarima zaustavile su osmansku silu i naterale je na povlačenje. Pojedinosti bitke, broj boraca i tačan tok sukoba u izvorima se razlikuju, a kasnija pesma je preuveličala razmere; ono što je sigurno jeste da je odbranjena cetinjska oblast i da je Danilo iz toga izašao kao vođa kome se veruje."
+        "text": "Najteže iskušenje toga doba zbilo se početkom osamnaestog veka, u vreme vladike Danila I Petrovića, prvog iz porodice koja će dva veka držati cetinjsku stolicu. Godine 1712. serasker Ahmed-paša krenuo je sa velikom vojskom da Crnu Goru najzad pokori. U brdima iznad Cetinja, na mestu koje će u narodnom sećanju ostati zapamćeno kao Carev Laz, plemenske čete pod Danilom i tribalnim glavarima zaustavile su osmansku silu i naterale je na povlačenje. Pojedinosti bitke, broj boraca i tačan tok sukoba u izvorima se razlikuju, a kasnija pesma je preuveličala razmere; ono što je sigurno jeste da je odbranjena cetinjska oblast i da je Danilo iz toga izašao kao vođa kome se veruje."
       },
       {
         "type": "paragraph",
-        "text": "Uspeh nije dugo trajao. Već 1714. isti Ahmed-paša Ćuprilić vratio se sa još jačom vojskom, ovoga puta dobro pripremljenom za planinski rat. Ćuprilićev pohod te godine probio se sve do Cetinja, spalio manastir i opustošio širok pojas oko prestonice. Vladika Danilo morao je da se skloni preko granice — najpre u Boku Kotorsku, koja je tada bila pod Mletačkom Republikom, a potom dalje, do Rusije. Tamo je, kod Petra Velikog, dobio prvu redovnu rusku pomoć za Crnu Goru, novac i obećanje pokroviteljstva. Kada se osmanska vojska, kao i obično, povukla pred zimom i logistikom, stanovništvo se vratilo u popaljena sela. Manastir je obnovljen, plemena ponovo prikupljena. Pohod je pokazao da Porta može da uđe u Crnu Goru, ali ne i da u njoj ostane."
+        "text": "Uspeh nije dugo trajao. Već 1714. bosanski vezir Numan-paša Ćuprilić, iz čuvene porodice velikih vezira, krenuo je sa još jačom vojskom, ovoga puta dobro pripremljenom za planinski rat. Ćuprilićev pohod te godine probio se sve do Cetinja, spalio manastir i opustošio širok pojas oko prestonice. Vladika Danilo morao je da se skloni preko granice — najpre u Boku Kotorsku, koja je tada bila pod Mletačkom Republikom, a potom dalje, do Rusije. Tamo je, kod Petra Velikog, dobio prvu redovnu rusku pomoć za Crnu Goru, novac i obećanje pokroviteljstva. Kada se osmanska vojska, kao i obično, povukla pred zimom i logistikom, stanovništvo se vratilo u popaljena sela. Manastir je obnovljen, plemena ponovo prikupljena. Pohod je pokazao da Porta može da uđe u Crnu Goru, ali ne i da u njoj ostane."
       },
       {
         "type": "heading",
@@ -9722,7 +9722,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Tokom čitavog osamnaestog veka, glavni protivnik Crne Gore nije više bio daleki sultan, već susedi sa istoka i juga — pre svih moćni skadarski paše iz porodice Bušatlija. Najopasniji među njima, Mahmud-paša Bušatlija, gradio je u severnoj Albaniji gotovo samostalnu kneževinu i Crnu Goru je smatrao prirodnim dopunom svojih poseda. Dva njegova pohoda kasnih osamdesetih i ranih devedesetih nanela su Crnogorcima teške udarce. Treći, septembra 1796, završio se drugačije. U bici kod Krusa, nedaleko od Podgorice, Crnogorci pod vladikom Petrom I Petrovićem Njegošem razbili su skadarsku vojsku, a sam Mahmud-paša poginuo je u boju. Pobeda na Krusima, zajedno sa onom kod Martinića iste godine, učvrstila je crnogorsku faktičku samostalnost za nekoliko narednih desetleća."
+        "text": "Tokom čitavog osamnaestog veka, glavni protivnik Crne Gore nije više bio daleki sultan, već susedi sa istoka i juga — pre svih moćni skadarski paše iz porodice Bušatlija. Najopasniji među njima, Mahmud-paša Bušatlija, gradio je u severnoj Albaniji gotovo samostalnu kneževinu i Crnu Goru je smatrao prirodnim dopunom svojih poseda. Njegov pohod 1785, kada je spaljen i Cetinjski manastir, naneo je Crnogorcima težak udarac. Godine 1796. ishod je bio drugačiji. U bici kod Krusa, septembra te godine, nedaleko od Podgorice, Crnogorci pod vladikom Petrom I Petrovićem Njegošem razbili su skadarsku vojsku, a sam Mahmud-paša poginuo je u boju. Pobeda na Krusima, zajedno sa onom kod Martinića iste godine, učvrstila je crnogorsku faktičku samostalnost za nekoliko narednih desetleća."
       },
       {
         "type": "paragraph",
@@ -9730,7 +9730,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Iznutra, glavni posao vladika bio je da plemena drže zajedno. Duhovna i politička vlast slivene u jednu ličnost davale su im autoritet kakav nijedan svetovni glavar nije mogao da ima sam. Petar I je taj autoritet upotrebio i za pokušaj zakonodavnog uređenja: njegov Zakonik, donošen u nekoliko verzija početkom devetnaestog veka, pokušao je da svede krvnu osvetu, propiše kazne za izdaju i krađu i da nekoliko opštih pravila stavi iznad plemenskih običaja. Sprovođenje je bilo neujednačeno, ali sam pokušaj govori dovoljno o pravcu — od saveza plemena ka nečemu što već liči na državu. Kada je Petar I 1830. umro, nasledniku Petru II ostavio je zemlju ratnu, siromašnu i unutra podeljenu, ali nesumnjivo jedinstveniju nego što ju je zatekao."
+        "text": "Iznutra, glavni posao vladika bio je da plemena drže zajedno. Duhovna i politička vlast slivene u jednu ličnost davale su im autoritet kakav nijedan svetovni glavar nije mogao da ima sam. Petar I je taj autoritet upotrebio i za pokušaj zakonodavnog uređenja: njegov Zakonik, donet 1798. i dopunjen 1803, pokušao je da svede krvnu osvetu, propiše kazne za izdaju i krađu i da nekoliko opštih pravila stavi iznad plemenskih običaja. Sprovođenje je bilo neujednačeno, ali sam pokušaj govori dovoljno o pravcu — od saveza plemena ka nečemu što već liči na državu. Kada je Petar I 1830. umro, nasledniku Petru II ostavio je zemlju ratnu, siromašnu i unutra podeljenu, ali nesumnjivo jedinstveniju nego što ju je zatekao."
       },
       {
         "type": "paragraph",
@@ -9745,7 +9745,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       "Danilo I Petrović",
       "Petar I Petrović Njegoš",
       "Mahmud-paša Bušatlija",
-      "Ahmed-paša Ćuprilić",
+      "Numan-paša Ćuprilić",
       "Petar Veliki"
     ],
     "keyPlaces": [
@@ -9766,11 +9766,11 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Stanovništvo Boke bilo je već u srednjem veku mešavina koja je ostavljala traga u svakom kamenu. Najstariji sloj činili su romanski Dalmatinci, govornici izumrlog dalmatskog jezika, koji su davali ton kotorskim patricijskim porodicama. Sa zaleđa su, vekovima, silazili Sloveni, najvećim delom pravoslavni Srbi, naseljavajući naročito istočnu i severniju stranu zaliva — okolinu Perasta, Risna i kasnije Herceg Novog. Katolička, italijanizovana elita držala je tradicionalno Kotor, dok je pravoslavna većina obeležila niz primorskih varoši. Iznad svih njih, kao tanak ali uticajan sloj, vekovima je stajao mletački administrativni i trgovački jezik."
+        "text": "Stanovništvo Boke bilo je već u srednjem veku mešavina koja je ostavljala traga u svakom kamenu. Najstariji sloj činili su romanski Dalmatinci, govornici izumrlog dalmatskog jezika, koji su davali ton kotorskim patricijskim porodicama. Sa zaleđa su, vekovima, silazili Sloveni, najvećim delom pravoslavni Srbi, naseljavajući naročito okolinu Risna i kasnije Herceg Novog. Katolička, italijanizovana elita držala je tradicionalno Kotor, dok je pravoslavna većina obeležila niz primorskih varoši. Iznad svih njih, kao tanak ali uticajan sloj, vekovima je stajao mletački administrativni i trgovački jezik."
       },
       {
         "type": "paragraph",
-        "text": "Politički okvir menjao se češće nego u mnogim sredinama. Kotor je u 12. i 13. veku ulazio u sferu Nemanjića — srpski vladari su gradili crkve u Boki i potpisivali se kao gospodari primorja — pa potom dolazio pod razne kratke gospodare, da bi 1420. godine ceo zaliv osim Herceg Novog priznao mletačku vlast. U mletačkim spisima ova oblast nosila je ime Mletačka Albanija, što je tada značilo prosto „naša krajnja jugoistočna obala”, bez ikakve etničke poruke. Herceg Novi je u tom razdoblju živeo posebnu sudbinu: bio je hercegovo-bosanski, pa osmanski od 1482, kratko špansko-mletački posle 1538, opet osmanski, i konačno mletački od 1687. — i sa svakom promenom menjalo se i ponešto u njegovom stanovništvu."
+        "text": "Politički okvir menjao se češće nego u mnogim sredinama. Kotor je u 12. i 13. veku ulazio u sferu Nemanjića — srpski vladari su gradili crkve u Boki i potpisivali se kao gospodari primorja — pa potom dolazio pod razne kratke gospodare, da bi 1420. godine Kotor priznao mletačku vlast, dok su Herceg Novi i Risan 1482. pali pod Osmanlije i ostali njihovi do Morejskog rata. U mletačkim spisima ova oblast nosila je ime Mletačka Albanija, što je tada značilo prosto „naša krajnja jugoistočna obala”, bez ikakve etničke poruke. Herceg Novi je u tom razdoblju živeo posebnu sudbinu: bio je hercegovo-bosanski, pa osmanski od 1482, kratko špansko-mletački posle 1538, opet osmanski, i konačno mletački od 1687. — i sa svakom promenom menjalo se i ponešto u njegovom stanovništvu."
       },
       {
         "type": "paragraph",
@@ -9783,11 +9783,11 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "U pomorskom smislu, među svim bokeljskim varošima posebno mesto pripalo je Perastu. Mala varoš nasuprot Ostrva Gospe od Škrpjela u 17. i 18. veku razvila je jednu od najuglednijih pomorskih škola na istočnom Jadranu. Peraški kapetani plovili su do Levanta, Egipta i severne Evrope, donosili kući bogatstvo i naručivali baroknu kamenu arhitekturu koja i danas izgleda preveliko za veličinu grada. Kuće Smekja, Bujovića, Mazarovića i Visković podsećaju na palate, a peraške crkve — pravoslavna i katoličke uz nju — pokazuju da su dve veroispovesti vekovima stajale rame uz rame, ne mešajući se sasvim, ali ni ne udarajući jedna na drugu."
+        "text": "U pomorskom smislu, među svim bokeljskim varošima posebno mesto pripalo je Perastu. Mala varoš nasuprot Ostrva Gospe od Škrpjela u 17. i 18. veku razvila je jednu od najuglednijih pomorskih škola na istočnom Jadranu. Peraški kapetani plovili su do Levanta, Egipta i severne Evrope, donosili kući bogatstvo i naručivali baroknu kamenu arhitekturu koja i danas izgleda preveliko za veličinu grada. Kuće Smekja, Bujovića, Mazarovića i Visković podsećaju na palate, a peraške katoličke crkve svedoče o varoši čije su vodeće pomorske porodice bile katoličke. U Boki kao celini, katoličke crkve i pravoslavni manastiri pokazuju da su dve veroispovesti vekovima stajale rame uz rame, ne mešajući se sasvim, ali ni ne udarajući jedna na drugu."
       },
       {
         "type": "paragraph",
-        "text": "Glas peraške veštine stigao je i do dvora u kojem se tek rađala jedna nova svetska sila. Petar Veliki, koji je krajem 17. veka po Evropi tražio učitelje za svoju buduću mornaricu, čuo je za Perast i za peraškog kapetana Marka Martinovića. Godine 1697. Martinović je u Perastu primio grupu mladih ruskih plemića i nekoliko meseci ih učio jedrenju, navigaciji i pomorskom računu. Nešto kasnije, oko 1712. godine, u rusku službu prešao je još jedan Peraštanin, Matija Zmajević (1680–1735), iz stare bokeljske porodice. U Rusiji je napredovao do čina admirala baltičke flote, vodio brodogradilišta i bitke i postao jedan od najistaknutijih stranih oficira u službi cara Petra. Veza između male bokeljske varoši i ruske imperije bila je više nego anegdotska — bila je deo šireg pravoslavnog i diplomatskog kanala koji je vodio preko Jadrana ka Cetinju i severu."
+        "text": "Glas peraške veštine stigao je i do dvora u kojem se tek rađala jedna nova svetska sila. Petar Veliki, koji je krajem 17. veka po Evropi tražio učitelje za svoju buduću mornaricu, čuo je za Perast i za peraškog kapetana Marka Martinovića. Godine 1697. Martinović je u Perastu primio grupu mladih ruskih plemića i nekoliko meseci ih učio jedrenju, navigaciji i pomorskom računu. Nešto kasnije, oko 1712. godine, u rusku službu prešao je još jedan Peraštanin, Matija Zmajević (1680–1735), iz stare bokeljske porodice. U Rusiji je napredovao do čina admirala baltičke flote, vodio brodogradilišta i bitke i postao jedan od najistaknutijih stranih oficira u službi cara Petra. Veza između male bokeljske varoši i ruske imperije bila je više nego anegdotska — bila je deo šireg diplomatskog kanala koji je vodio preko Jadrana ka Cetinju i severu."
       },
       {
         "type": "paragraph",
@@ -9798,10 +9798,10 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
         "text": "Kraj te kompozicije došao je iznenada. Kada je Napoleon 1797. ukinuo Mletačku Republiku, Boka je za trenutak ostala bez gospodara. Domaći ljudi su pokušali da je sami vode, a u narednim godinama zaliv su, smenjujući se, držali Austrijanci, Francuzi i Rusi — ruska flota je 1806. uplovila u Boku uz oduševljen doček lokalnog pravoslavnog stanovništva, što je samo potvrdilo koliko je ruska veza tada bila živa. Bečki kongres je 1814. svu Boku predao Habzburškoj monarhiji, pod kojom će ostati do 1918. godine. Iza mletačkih vekova ostao je trajan pečat: barokne palate uz vodu, dvojezični natpisi na nadgrobnim pločama, pravoslavni manastiri okruženi maslinjacima i sećanje na malu varoš koja je dala admirala ruskoj floti."
       }
     ],
-    "subtitle": "Mletački zaliv pravoslavnih pomoraca, na granici Italije, Crne Gore i Rusije, između 16. i 18. veka",
+    "subtitle": "Mletački zaliv katoličkih i pravoslavnih pomoraca, na granici Italije, Crne Gore i Rusije, između 16. i 18. veka",
     "dateLabel": "16–18. vek",
     "timelinePosition": "16–18. vek",
-    "summary": "Boka Kotorska kao mletačko-pravoslavno primorje: Perast, Kotor i Herceg Novi između Venecije, Crne Gore i Rusije Petra Velikog.",
+    "summary": "Boka Kotorska kao mletačko primorje katolika i pravoslavnih: Perast, Kotor i Herceg Novi između Venecije, Crne Gore i Rusije Petra Velikog.",
     "keyPeople": [
       "Matija Zmajević",
       "Petar Veliki",
@@ -9825,7 +9825,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Pravno-politička sudbina Republike bila je niz uglavljenih vasalstava. Od ranog srednjeg veka stajala je u nekoj formi zavisnosti od Vizantije, od 1205. do 1358. priznavala je vlast Venecije, zatim do 1526. ugarsko-hrvatske krune, a od pada Ugarske kod Mohača preuzela je obavezu plaćanja godišnjeg danka — harača — osmanskom sultanu. U praksi je sve to vreme upravljala sama sobom: Veliko veće dubrovačke vlastele, Malo veće i knez koji se birao na mesec dana vodili su zatvorenu, brižljivo izbalansiranu aristokratsku republiku. Dok su srednjovekovna srpska država, bosansko kraljevstvo i drugi balkanski politički organizmi nestajali pred Osmanlijama, Dubrovnik je opstao — plaćajući, pregovarajući i ćuteći onda kada je ćutanje bilo skuplje od reči. Tek 1808. ukinuće ga Napoleon, i to je bio kraj jedne od najdugovečnijih republika u Evropi."
+        "text": "Pravno-politička sudbina Republike bila je niz uglavljenih vasalstava. Od ranog srednjeg veka stajala je u nekoj formi zavisnosti od Vizantije, od 1205. do 1358. priznavala je vlast Venecije, zatim do 1526. ugarsko-hrvatske krune, a već od 1458. plaćala je i godišnji danak — harač — osmanskom sultanu. U praksi je sve to vreme upravljala sama sobom: Veliko veće dubrovačke vlastele, Malo veće i knez koji se birao na mesec dana vodili su zatvorenu, brižljivo izbalansiranu aristokratsku republiku. Dok su srednjovekovna srpska država, bosansko kraljevstvo i drugi balkanski politički organizmi nestajali pred Osmanlijama, Dubrovnik je opstao — plaćajući, pregovarajući i ćuteći onda kada je ćutanje bilo skuplje od reči. Tek 1808. ukinuće ga Napoleon, i to je bio kraj jedne od najdugovečnijih republika u Evropi."
       },
       {
         "type": "heading",
@@ -9893,7 +9893,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "U oba ambijenta osnovna kulturna tehnika ostala je prepisivanje knjiga. U Hilandaru, Pećkoj patrijaršiji, Krušedolu, Studenici, fruškogorskim manastirima i nizu manjih skriptorija monasi su vekovima nastavljali rad srednjovekovnih pisara — liturgijske knjige, jevanđelja, hronike, pomenici. Štampana knjiga je tu dolazila kao dragocen dopunski izvor. Posle kratkog veka Cetinjske štamparije (1493–1496), srpske štampane knjige radile su se daleko od srpskih zemalja: u Veneciji, gde je Božidar Vuković od 1519. izdavao srpskoslovenske knjige ćirilicom; kasnije u Vlaškoj i Rusiji; a od 18. veka u Beču i Budimu, kada su privilegije bečkog dvora omogućile redovno štampanje za pravoslavnu publiku Habzburške monarhije."
+        "text": "U oba ambijenta osnovna kulturna tehnika ostala je prepisivanje knjiga. U Hilandaru, Pećkoj patrijaršiji, Krušedolu, Studenici, fruškogorskim manastirima i nizu manjih skriptorija monasi su vekovima nastavljali rad srednjovekovnih pisara — liturgijske knjige, jevanđelja, hronike, pomenici. Štampana knjiga je tu dolazila kao dragocen dopunski izvor. Posle kratkog veka Cetinjske štamparije (1493–1496), srpske knjige štampale su se u Veneciji, gde je Božidar Vuković od 1519. izdavao srpskoslovenske knjige ćirilicom, ali i u kratkovekim štamparijama u samim srpskim zemljama — u Goraždu, Rujnu, Gračanici, Mileševi, Beogradu i Mrkšinoj crkvi; kasnije u Vlaškoj i Rusiji; a od 18. veka u Beču i Budimu, kada su privilegije bečkog dvora omogućile redovno štampanje za pravoslavnu publiku Habzburške monarhije."
       },
       {
         "type": "paragraph",
@@ -9984,7 +9984,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Glavna središta tog staleža nicala su duž velikih trgovačkih puteva koji su Podunavlje vezivali sa Sredozemljem i sa centralnom Evropom. Sentandreja, mala varošica nadomak Budima, postala je u 17. i 18. veku verovatno najimućnije srpsko trgovačko gnezdo. Tu je izbeglo svešteno i imućno građanstvo iz južnih krajeva podiglo niz crkava i lepih kuća, a njegovi se ljudi pojavljuju na sajmovima od Lajpciga do Trsta. Novi Sad, koji je 1748. godine od carice Marije Terezije dobio status slobodnog kraljevskog grada, ubrzano se razvijao kao kulturno i trgovačko središte i do kraja veka stekao nadimak „srpska Atina”. Sremski Karlovci bili su sedište mitropolije i, posredno, središte u kome se okupljao novac vezan za crkvene poslove i škole. U Beču, Pešti i Budimu postojale su krupne srpske trgovačke kolonije, a Zemun, Pančevo, Zadar i Trst čine drugi krug — manji, ali i u njima dobro stoji ko ume da trguje."
+        "text": "Glavna središta tog staleža nicala su duž velikih trgovačkih puteva koji su Podunavlje vezivali sa Sredozemljem i sa centralnom Evropom. Sentandreja, mala varošica nadomak Budima, postala je u 17. i 18. veku verovatno najimućnije srpsko trgovačko gnezdo. Tu je izbeglo svešteno i imućno građanstvo iz južnih krajeva podiglo niz crkava i lepih kuća, a njegovi se ljudi pojavljuju na sajmovima od Lajpciga do Trsta. Novi Sad, koji je 1748. godine od carice Marije Terezije dobio status slobodnog kraljevskog grada, ubrzano se razvijao kao kulturno i trgovačko središte a u 19. veku stekao nadimak „srpska Atina”. Sremski Karlovci bili su sedište mitropolije i, posredno, središte u kome se okupljao novac vezan za crkvene poslove i škole. U Beču, Pešti i Budimu postojale su krupne srpske trgovačke kolonije, a Zemun, Pančevo, Zadar i Trst čine drugi krug — manji, ali i u njima dobro stoji ko ume da trguje."
       },
       {
         "type": "paragraph",
@@ -9997,7 +9997,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Bogatstvo se najpre videlo na kućama. U Sentandreji, Novom Sadu i Pešti imućne srpske porodice gradile su prostrane spratne zgrade sa magazama u prizemlju, sa baroknim portalima i sa salonima u kojima se sreću furniri, ogledala, porculan i klaviri. Žene tih kuća nose svilene haljine; deca uče nemački i mađarski, ali se kod kuće govori srpski, čita ćirilica, drži post i poštuje slava. Među poznatijim familijama bile su Tekelije, Soproni, Markovići, Bajići i Nakovi. Najpoznatiji od svih, Sava Popović Tekelija, krajem veka i početkom narednog osnovaće u Pešti čuveni Tekelijanum — zavod sa stipendijama za siromašne srpske đake, koji će kroz 19. vek izdržavati cele generacije srpske inteligencije."
+        "text": "Bogatstvo se najpre videlo na kućama. U Sentandreji, Novom Sadu i Pešti imućne srpske porodice gradile su prostrane spratne zgrade sa magazama u prizemlju, sa baroknim portalima i sa salonima u kojima se sreću furniri, ogledala, porculan i klaviri. Žene tih kuća nose svilene haljine; deca uče nemački i mađarski, ali se kod kuće govori srpski, čita ćirilica, drži post i poštuje slava. Među poznatijim familijama bile su Tekelije, Soproni, Markovići, Bajići i Nakovi. Najpoznatiji od svih, Sava Popović Tekelija, osnovaće 1838. u Pešti čuveni Tekelijanum — zavod sa stipendijama za siromašne srpske đake, koji će kroz 19. vek izdržavati cele generacije srpske inteligencije."
       },
       {
         "type": "paragraph",
@@ -10058,11 +10058,11 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Uporedo s tim, srpska knjiga postaje barokni predmet. Bogoslužbene knjige, bukvari, istorijska dela i pohvalne besede štampaju se u Beču i Budimu, sa ukrašenim frontispisima, alegorijskim figurama, anđelima koji drže trake s naslovima, ornamentom oko inicijala. Pismo je crkvenoslovensko ili „slavjanoserbsko” — mešavina ruske redakcije crkvenoslovenskog, srpskog narodnog i ruskih i nemačkih kulturnih slojeva. Iz iste sredine izlazi i nova škola. Karlovačka „Slavjano-latinska škola”, osnovana sredinom veka, uči latinski, nemački, retoriku i versku nauku po srednjoevropskom obrascu; deo srpske crkvene elite obrazuje se na bečkim, peštanskim i kijevskim učilištima i čita baroknu pobožnu literaturu kao i njihovi katolički susedi."
+        "text": "Uporedo s tim, srpska knjiga postaje barokni predmet. Bogoslužbene knjige, bukvari, istorijska dela i pohvalne besede štampaju se u Beču i Budimu, sa ukrašenim frontispisima, alegorijskim figurama, anđelima koji drže trake s naslovima, ornamentom oko inicijala. Pismo je crkvenoslovensko ili „slavjanoserbsko” — mešavina ruske redakcije crkvenoslovenskog, srpskog narodnog i ruskih i nemačkih kulturnih slojeva. Iz iste sredine izlazi i nova škola. Karlovačka latinska škola, osnovana 1726, a od 1733. pod Emanuilom Kozačinskim, uči latinski, nemački, retoriku i versku nauku po srednjoevropskom obrascu; deo srpske crkvene elite obrazuje se na bečkim, peštanskim i kijevskim učilištima i čita baroknu pobožnu literaturu kao i njihovi katolički susedi."
       },
       {
         "type": "paragraph",
-        "text": "U liturgijskom pevanju glavni novi uticaj ne dolazi iz Beča, nego iz Rusije. Tokom 18. veka u Karlovačkoj mitropoliji postepeno se prima ruska crkvenomuzička praksa — harmonizovano horsko pojanje umesto starog jednoglasja — koje samo po sebi nosi pečat ruskog baroka. Tako se i u zvuku hrama oseća isti obrazac kao u njegovoj fasadi i ikonostasu: forma je nova i šira, ali se peva i moli stara stvar."
+        "text": "U liturgijskom pevanju glavni novi uticaj ne dolazi iz Beča, nego iz Rusije. Tokom 18. veka u Karlovačku mitropoliju stižu ruske pojačke knjige i ruski crkvenomuzički uticaji, koji i sami nose pečat ruskog baroka; jednoglasno pojanje ipak ostaje osnova, a višeglasno horsko pevanje ustaliće se tek u 19. veku. Tako se i u zvuku hrama oseća isti obrazac kao u njegovoj fasadi i ikonostasu: forma je nova i šira, ali se peva i moli stara stvar."
       },
       {
         "type": "paragraph",
@@ -10070,7 +10070,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Do kraja 18. veka barokni talas i sam je počeo da slabi. U arhitekturi i slikarstvu polako preuzimaju neoklasicizam, a zatim bidermajer; nova građanska Srbija s početka 19. veka graditi će drugačije i govoriti drugačije. Ali ono što je „barok kod Srba” ostavio nije bilo prolazno. Mreža crkava sa zvonicima nad ravnicom, ikonostasi Fruške gore, štampane knjige iz Beča i Budima, Žefarovićeva „Stematografija” kao slika srpske prošlosti — sve to ušlo je u trajno nasleđe. Mala pravoslavna zajednica u katoličkoj carevini pokazala je u tom veku ono što retko kome polazi za rukom: da pozajmi tuđi oblik a ostane svoja, i da iz susreta s jačom kulturom izađe sa sopstvenim, prepoznatljivim licem."
+        "text": "Do kraja 18. veka barokni talas i sam je počeo da slabi. U arhitekturi i slikarstvu polako preuzimaju neoklasicizam, a zatim bidermajer; nova građanska Srbija s početka 19. veka gradiće drugačije i govoriti drugačije. Ali ono što je „barok kod Srba” ostavio nije bilo prolazno. Mreža crkava sa zvonicima nad ravnicom, ikonostasi Fruške gore, štampane knjige iz Beča i Budima, Žefarovićeva „Stematografija” kao slika srpske prošlosti — sve to ušlo je u trajno nasleđe. Mala pravoslavna zajednica u katoličkoj carevini pokazala je u tom veku ono što retko kome polazi za rukom: da pozajmi tuđi oblik a ostane svoja, i da iz susreta s jačom kulturom izađe sa sopstvenim, prepoznatljivim licem."
       }
     ],
     "subtitle": "Kako je srpska pravoslavna kultura u Habzburškoj monarhiji 18. veka primila barokne forme, a zadržala svoj sadržaj",
@@ -10125,7 +10125,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Rajić je pisao i mimo svoje velike istorije. Ostavio je bogoslovske spise, religiozne drame i poeziju; među pesničkim radovima izdvaja se „Boj Zmaja s Orlovi”, političko-istorijska pesma povezana sa austrijsko-turskim ratom za Bosnu krajem osamdesetih godina 18. veka, u kojoj se pravoslavna alegorija meša sa savremenom političkom porukom. Ta dela danas su uglavnom predmet stručnog interesovanja, ali u njegovom vremenu govorila su da arhimandrit iz Kovilja prati život svoga naroda, a ne samo prošlost iz knjiga."
+        "text": "Rajić je pisao i mimo svoje velike istorije. Ostavio je bogoslovske spise, istorijsku dramu (preradu Kozačinskove „Tragedije” o smrti cara Uroša, 1798) i poeziju; među pesničkim radovima izdvaja se „Boj Zmaja s Orlovi”, alegorijsko-istorijski spev (1791) o ratu Austrije i Rusije protiv Osmanlija 1787–1791, posvećen i austrijskom zauzimanju Beograda 1789, u kojoj se pravoslavna alegorija meša sa savremenom političkom porukom. Ta dela danas su uglavnom predmet stručnog interesovanja, ali u njegovom vremenu govorila su da arhimandrit iz Kovilja prati život svoga naroda, a ne samo prošlost iz knjiga."
       },
       {
         "type": "paragraph",
@@ -10208,7 +10208,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "content": [
       {
         "type": "paragraph",
-        "text": "Dimitrije Obradović rodio se 1739. godine u Čakovu, malom mestu u Banatu, u srpskoj porodici koja se izdržavala zanatom i sitnom trgovinom. Rano je ostao bez roditelja i odrastao u kući strica, među knjigama crkvenoslovenskog jezika i pričama putnika koji su prolazili kroz banatske varoši. Kao dečak je čitao žitija svetaca i, kako će sam kasnije priznati, sanjao da i sam postane svetac — da napusti svet, ode u pustinju i živi posni, podvižnički život. To je bilo prvo lice jednog karaktera koji će ceo vek tražiti smisao u kretanju i u učenju; drugo lice istog karaktera, ono prosvetiteljsko, javiće se tek pošto prvi san pukne.",
+        "text": "Dimitrije Obradović rodio se 1739. godine u Čakovu, malom mestu u Banatu, u srpskoj porodici koja se izdržavala zanatom i sitnom trgovinom. Rano je ostao bez roditelja i dospeo kod tetka, koji ga je dao na zanat u Temišvar, među knjigama crkvenoslovenskog jezika i pričama putnika koji su prolazili kroz banatske varoši. Kao dečak je čitao žitija svetaca i, kako će sam kasnije priznati, sanjao da i sam postane svetac — da napusti svet, ode u pustinju i živi posni, podvižnički život. To je bilo prvo lice jednog karaktera koji će ceo vek tražiti smisao u kretanju i u učenju; drugo lice istog karaktera, ono prosvetiteljsko, javiće se tek pošto prvi san pukne.",
         "dropcap": true
       },
       {
@@ -10238,11 +10238,11 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Kada je 1804. izbio Prvi srpski ustanak, Dositej je već bio u sedmoj deceniji, čovek umoran od putovanja ali nemiran pred mogućnošću da se prvi put u životu nađe u oslobođenoj Srbiji. Krenuo je put Beograda i 1807. stigao u Karađorđevu Srbiju. Vožd ga je primio sa poštovanjem; staraca njegovog ranga i znanja nije bilo mnogo. Iste godine postavljen je za prvog popečitelja prosveščenija — to jest, prvog ministra prosvete obnovljene srpske države. Njegov najvažniji praktični potez bio je osnivanje Velike škole u Beogradu 1808, koja je trebalo da obrazuje činovnike, učitelje i sveštenike nove Srbije. Iz te ustanove, posle više preinačenja, izrašće Beogradski univerzitet."
+        "text": "Kada je 1804. izbio Prvi srpski ustanak, Dositej je već bio u sedmoj deceniji, čovek umoran od putovanja ali nemiran pred mogućnošću da se prvi put u životu nađe u oslobođenoj Srbiji. Krenuo je put Beograda i 1807. stigao u Karađorđevu Srbiju. Vožd ga je primio sa poštovanjem; staraca njegovog ranga i znanja nije bilo mnogo. Bio je Karađorđev savetnik i član Sovjeta, a kada je u januaru 1811. Praviteljstvujušči sovjet podeljen na popečiteljstva, postao je prvi popečitelj prosveščenija — to jest, prvi ministar prosvete obnovljene srpske države. Njegov najvažniji praktični potez bio je osnivanje Velike škole u Beogradu 1808, koja je trebalo da obrazuje činovnike, učitelje i sveštenike nove Srbije. Iz te ustanove, posle više preinačenja, izrašće Beogradski univerzitet."
       },
       {
         "type": "paragraph",
-        "text": "Dositej je umro u Beogradu 1811, ne dočekavši pad ustanka. Sahranjen je kod Saborne crkve, na mestu koje će kasniji naraštaji čuvati kao jedno od osnivačkih obeležja moderne srpske kulture. Sa njim je nestao prvi srpski pisac u punom smislu reči svetski — čovek koji je Evropu i Aziju prošao peške i kočijama, koji je decu trgovaca podučavao gramatici u Smirni i u Londonu, i koji je sa sedamdeset godina krenuo da otvara školu u tek oslobođenom Beogradu. U srpskoj svesti ostao je kao spoj putnika, učitelja, pisca i državnika — kao dokaz da se prosvetiteljski projekat, koliko god skromnim sredstvima započet, može sprovesti i u sredini koja je tek izlazila iz vekovnog tutorstva."
+        "text": "Dositej je umro u Beogradu 1811, ne dočekavši pad ustanka. Sahranjen je kod Saborne crkve, na mestu koje će kasniji naraštaji čuvati kao jedno od osnivačkih obeležja moderne srpske kulture. Sa njim je nestao prvi srpski pisac u punom smislu reči svetski — čovek koji je Evropu i Aziju prošao peške i kočijama, koji je decu trgovaca podučavao u Dalmaciji, Trstu i Beču, a sam učio u Smirni i Londonu, i koji je sa sedamdeset godina krenuo da otvara školu u tek oslobođenom Beogradu. U srpskoj svesti ostao je kao spoj putnika, učitelja, pisca i državnika — kao dokaz da se prosvetiteljski projekat, koliko god skromnim sredstvima započet, može sprovesti i u sredini koja je tek izlazila iz vekovnog tutorstva."
       }
     ],
     "subtitle": "Putujući monah, prosvetitelj i prvi srpski ministar prosvete — čovek koji je verovao u knjigu i u narodni jezik",
@@ -10289,7 +10289,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Pored Dositeja, Rajića i Orfelina, na kojima je počivao prvi sloj srpske prosvećenosti, javila se i druga generacija. Atanasije Stojković (1773–1832) bio je matematičar i prirodoslovac, pisac naučnih dela na srpskom, kasnije profesor i rektor na ruskom univerzitetu u Harkovu. Pavle Solarić (1779–1821) radio je kao filolog i geograf, povezan sa štamparijama u Veneciji i Beču. Lukijan Mušicki (1777–1837), pesnik klasicistički obrazovan, kasnije karlovački arhijerej, predstavljao je tip prosvećenog crkvenog čoveka. Sava Tekelija (1761–1842), bogati plemić i prvi srpski doktor pravnih nauka, osnovao je u Pešti zadužbinu poznatu kao Tekelijanum — dom za srpske studente, jedan od najtrajnijih plodova ovog vremena. Stefan Stratimirović (1757–1836), dugogodišnji mitropolit karlovački, podržavao je obrazovne reforme u granicama crkvene tradicije."
+        "text": "Pored Dositeja, Rajića i Orfelina, na kojima je počivao prvi sloj srpske prosvećenosti, javila se i druga generacija. Atanasije Stojković (1773–1832) bio je matematičar i prirodoslovac, pisac naučnih dela na srpskom, kasnije profesor i rektor na ruskom univerzitetu u Harkovu. Pavle Solarić (1779–1821) radio je kao filolog i geograf, povezan sa štamparijama u Veneciji i Beču. Lukijan Mušicki (1777–1837), pesnik klasicistički obrazovan, kasnije episkop gornjokarlovački, predstavljao je tip prosvećenog crkvenog čoveka. Sava Tekelija (1761–1842), bogati plemić i prvi srpski doktor pravnih nauka, osnovao je u Pešti zadužbinu poznatu kao Tekelijanum — dom za srpske studente, jedan od najtrajnijih plodova ovog vremena. Stefan Stratimirović (1757–1836), dugogodišnji mitropolit karlovački, podržavao je obrazovne reforme u granicama crkvene tradicije."
       },
       {
         "type": "paragraph",
@@ -10358,7 +10358,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Bogatstvo se koncentrisalo u relativno uskom krugu porodica. Tekelije, Markovići, Nakovi, Stojadinovići i drugi grade kuće u Aradu, Pešti, Beču i Novom Sadu, kupuju spahiluke, šalju decu na školovanje u inostranstvo, ulažu u zadužbine. Sava Tekelija, krajem veka već doktor prava bečkog univerziteta, u sledećoj generaciji će u Pešti osnovati čuveni zavod za srpske studente. Ti pojedinci nisu bili tipični — većina srpskih trgovaca radila je u znatno skromnijim okvirima — ali njihovo postojanje pokazuje koliki je raspon postao moguć."
+        "text": "Bogatstvo se koncentrisalo u relativno uskom krugu porodica. Tekelije, Markovići, Nakovi, Stojadinovići i drugi grade kuće u Aradu, Pešti, Beču i Novom Sadu, kupuju spahiluke, šalju decu na školovanje u inostranstvo, ulažu u zadužbine. Sava Tekelija, još 1786. doktor prava peštanskog univerziteta, pred kraj života (1838) sam će u Pešti osnovati čuveni zavod za srpske studente. Ti pojedinci nisu bili tipični — većina srpskih trgovaca radila je u znatno skromnijim okvirima — ali njihovo postojanje pokazuje koliki je raspon postao moguć."
       },
       {
         "type": "paragraph",
@@ -10442,7 +10442,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "content": [
       {
         "type": "paragraph",
-        "text": "Krajem leta 1787. Osmansko carstvo objavilo je rat Rusiji, a već početkom 1788. u rat je, kao ruski saveznik, ušla i Habzburška monarhija pod carem Josifom II. Front se otvorio duž Save i Dunava, na onoj istoj liniji koja je još od početka osamnaestog veka delila dva carstva i sekla srpski narod na dva dela. Za Srbe u Beogradskom pašaluku, koji su četiri decenije ranije, posle požarevačkog mira i kratkotrajne austrijske vladavine, ponovo pali pod osmansku vlast, nova austrijska ofanziva nije bila samo strana vojna operacija. Bila je prilika kakvu njihovi dedovi pamte kao retku — da se uz uređenu hrišćansku vojsku, makar i tuđu, ponovo pojavi srpska puška na sopstvenom tlu.",
+        "text": "Krajem leta 1787. Osmansko carstvo objavilo je rat Rusiji, a već početkom 1788. u rat je, kao ruski saveznik, ušla i Habzburška monarhija pod carem Josifom II. Front se otvorio duž Save i Dunava, na onoj istoj liniji koja je još od početka osamnaestog veka delila dva carstva i sekla srpski narod na dva dela. Za Srbe u Beogradskom pašaluku, koji su pola veka ranije, Beogradskim mirom 1739, posle dvadesetogodišnje austrijske vladavine, ponovo pali pod osmansku vlast, nova austrijska ofanziva nije bila samo strana vojna operacija. Bila je prilika kakvu njihovi dedovi pamte kao retku — da se uz uređenu hrišćansku vojsku, makar i tuđu, ponovo pojavi srpska puška na sopstvenom tlu.",
         "dropcap": true
       },
       {
@@ -10451,7 +10451,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Najpoznatije ime tog pokreta ostao je Koča Anđelković, čovek iz šumadijske sredine, po jednoj tradiciji rodom iz okoline Jagodine. O njegovim ranim godinama izvori govore oprezno, kao i o tačnoj veličini odreda koji je vodio — brojevi koje navode kasnije hronike treba uzimati kao zaokružene procene. Sigurno je da je Koča sa svojim frajkorcima prešao na osmansku stranu, prodirao u Pomoravlje i Resavu, prekidao osmanske veze i u nekoliko meseci 1788. uspostavio nešto što su savremenici počeli da nazivaju krajinom — pograničnim, oružano držanim prostorom koji u trenutku nije bio ni potpuno osmanski ni austrijski. Po njemu je čitav taj kratki teritorijalni doživljaj ostao upamćen kao Kočina krajina."
+        "text": "Najpoznatije ime tog pokreta ostao je Koča Anđelković, čovek iz šumadijske sredine, po jednoj tradiciji rodom iz okoline Jagodine. O njegovim ranim godinama izvori govore oprezno, kao i o tačnoj veličini odreda koji je vodio — brojevi koje navode kasnije hronike treba uzimati kao zaokružene procene. Sigurno je da je Koča sa svojim frajkorcima prešao preko granice u pašaluk, prodirao u Pomoravlje i Resavu, prekidao osmanske veze i u nekoliko meseci 1788. uspostavio nešto što su savremenici počeli da nazivaju krajinom — pograničnim, oružano držanim prostorom koji u trenutku nije bio ni potpuno osmanski ni austrijski. Po njemu je čitav taj kratki teritorijalni doživljaj ostao upamćen kao Kočina krajina."
       },
       {
         "type": "heading",
@@ -10464,7 +10464,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Osmanska reakcija nije izostala. Krajem 1788. Koča je u jednom od sukoba zarobljen. Po predanju koje su prenosile narodne pesme i kasniji hroničari, odveden je u Niš i tamo, na zastrašujući način — nabijanjem na kolac — pogubljen pred svetom. Pojedinosti tog kraja teško su proverljive u svakom detalju, ali sama činjenica pogubljenja i njegov demonstrativni karakter potvrđeni su i u austrijskim izveštajima toga vremena. U narodnom sećanju Koča je odmah postao mučenik — slika onoga što čeka srpskog vođu koji digne pušku, ali i dokaz da je takav vođa moguć. Frajkor je nastavio da deluje i posle njegove smrti, a Beograd je 1789. konačno pao u austrijske ruke, posle teške opsade pod feldmaršalom Laudonom."
+        "text": "Osmanska reakcija nije izostala. U septembru 1788. Koča je, braneći Brzasku u Banatu, zarobljen. Odveden je u obližnju Tekiju na Dunavu i tamo, zajedno sa drugovima, na zastrašujući način — nabijanjem na kolac — pogubljen pred svetom. Pojedinosti tog kraja teško su proverljive u svakom detalju, ali sama činjenica pogubljenja i njegov demonstrativni karakter potvrđeni su i u austrijskim izveštajima toga vremena. U narodnom sećanju Koča je odmah postao mučenik — slika onoga što čeka srpskog vođu koji digne pušku, ali i dokaz da je takav vođa moguć. Frajkor je nastavio da deluje i posle njegove smrti, a Beograd je 1789. konačno pao u austrijske ruke, posle teške opsade pod feldmaršalom Laudonom."
       },
       {
         "type": "paragraph",
@@ -10493,7 +10493,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       "Beogradski pašaluk",
       "Šumadija",
       "Resava",
-      "Niš",
+      "Tekija",
       "Banat"
     ]
   },
@@ -10523,11 +10523,11 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Uz njega, u tim godinama, izrasta čitav sloj imena koja će obeležiti ustanak — Jakov Nenadović iz valjevskog kraja, hajdučki harambaša Stanoje Glavaš u kragujevačkoj nahiji, mladi krajinski junak Veljko Petrović, brojni nahijski knezovi po Pomoravlju i Mačvi. Hajduci i knezovi, dotad razdvojeni svetovi šume i sela, počeli su da se prepliću: knez je znao gde mu je hajduk, hajduk je znao na čiju kuću ne sme da udari. U miru su to bili dva lica iste seoske zajednice koja se polako učila da o sebi misli kao o celini."
+        "text": "Uz njega, u tim godinama, izrasta čitav sloj imena koja će obeležiti ustanak — Jakov Nenadović iz valjevskog kraja, hajdučki harambaša Stanoje Glavaš u smederevskoj nahiji, mladi krajinski junak Veljko Petrović, brojni nahijski knezovi po Pomoravlju i Mačvi. Hajduci i knezovi, dotad razdvojeni svetovi šume i sela, počeli su da se prepliću: knez je znao gde mu je hajduk, hajduk je znao na čiju kuću ne sme da udari. U miru su to bili dva lica iste seoske zajednice koja se polako učila da o sebi misli kao o celini."
       },
       {
         "type": "paragraph",
-        "text": "Život je ostao siromašan, ali ne više i bezuk. Po selima su se javljale prve, retke škole pri crkvama, najčešće sa jednim učiteljem dovedenim preko Save; preko granice su stizale i knjige štampane u Sremskim Karlovcima i Beču, među njima i spisi Dositeja Obradovića, koji su u pašaluk donosili nov, prosvetiteljski tonos. Uz to je tekao stari, neprekinuti život pravoslavne parohije — slave, postovi, sabori — i bogata usmena književnost: uz gusle se pevalo o starim kraljevima, o Kosovu, o Marku Kraljeviću, i u tim pesmama narod je pamtio sebe pre nego što je imao svoju državu."
+        "text": "Život je ostao siromašan, ali ne više i bezuk. Po selima su se javljale prve, retke škole pri crkvama, najčešće sa jednim učiteljem dovedenim preko Save; preko granice su stizale i knjige štampane u Beču, Veneciji i Budimu, među njima i spisi Dositeja Obradovića, koji su u pašaluk donosili nov, prosvetiteljski tonos. Uz to je tekao stari, neprekinuti život pravoslavne parohije — slave, postovi, sabori — i bogata usmena književnost: uz gusle se pevalo o starim kraljevima, o Kosovu, o Marku Kraljeviću, i u tim pesmama narod je pamtio sebe pre nego što je imao svoju državu."
       },
       {
         "type": "paragraph",
@@ -10569,7 +10569,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Carstvo je tada vodilo dugu i tešku borbu sa unutrašnjim neredima. Sultan Selim III pokušavao je reforme koje su mu pravile neprijatelje u samom janičarskom redu, dok su mu na granicama pretili Pazvan-Oglu iz Vidina i drugi pobunjeni paše. U toj nuždi, Selim je 1799. nerado dopustio da se janičari vrate u Beogradski pašaluk — računajući da će ih sada moći upotrebiti protiv vidinskog pobunjenika. Bila je to mera koju je on sam smatrao privremenom, a koja se vrlo brzo izmakla kontroli. Vraćeni janičari, prekaljeni i ogorčeni godinama izgnanstva, brzo su se okupili oko nekolicine vođa i 1801. ubili Hadži Mustafa-pašu u beogradskoj tvrđavi. Od tog časa formalna sultanova vlast u pašaluku bila je prazna ljuska."
+        "text": "Carstvo je tada vodilo dugu i tešku borbu sa unutrašnjim neredima. Sultan Selim III pokušavao je reforme koje su mu pravile neprijatelje u samom janičarskom redu, dok su mu na granicama pretili Pazvan-Oglu iz Vidina i drugi pobunjeni paše. U toj nuždi, Selim je 1799. nerado dopustio da se janičari vrate u Beogradski pašaluk — u sklopu opšteg pomilovanja odmetnika, kojim je istovremeno oprošteno i samom Pazvan-Oglu, jer carstvo, napadnuto od Francuske u Egiptu, nije moglo da ratuje i spolja i iznutra. Bila je to mera koju je on sam smatrao privremenom, a koja se vrlo brzo izmakla kontroli. Vraćeni janičari, prekaljeni i ogorčeni godinama izgnanstva, brzo su se okupili oko nekolicine vođa i 1801. ubili Hadži Mustafa-pašu u beogradskoj tvrđavi. Od tog časa formalna sultanova vlast u pašaluku bila je prazna ljuska."
       },
       {
         "type": "heading",
@@ -10634,7 +10634,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Najpoznatiji i najteži udarac pao je u valjevskoj nahiji. Aleksa Nenadović, oborknez valjevski, i Ilija Birčanin, knez posavotamnavski, bili su među najuglednijim ljudima srpske strane — Nenadović pismen, povezan sa austrijskom granicom i sa mitropolijom u Sremskim Karlovcima, Birčanin čuven po smirenom autoritetu nad sopstvenim ljudima. Obojica su znala šta dolazi; postoji predanje, koje je kasnije zabeležio i Vuk Karadžić, o oprostu i o tome kako su u susret smrti pošli mirno. Uhvaćeni su, dovedeni u Valjevo i 4. februara 1804. godine, na obali Kolubare, posečeni. Njihove glave izložene su na vidnom mestu kao opomena."
+        "text": "Najpoznatiji i najteži udarac pao je u valjevskoj nahiji. Aleksa Nenadović, oborknez valjevski, i Ilija Birčanin, knez podgorski, bili su među najuglednijim ljudima srpske strane — Nenadović pismen, povezan sa austrijskom granicom i sa mitropolijom u Sremskim Karlovcima, Birčanin čuven po smirenom autoritetu nad sopstvenim ljudima. Obojica su znala šta dolazi; postoji predanje, koje je kasnije zabeležio i Vuk Karadžić, o oprostu i o tome kako su u susret smrti pošli mirno. Uhvaćeni su, dovedeni u Valjevo i 4. februara 1804. godine, na obali Kolubare, posečeni. Njihove glave izložene su na vidnom mestu kao opomena."
       },
       {
         "type": "paragraph",
@@ -10651,7 +10651,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Na praznik Sretenja, 14. februara po starom odnosno 26. februara po novom kalendaru 1804. godine, skupina srpskih prvaka okupila se u Orašcu, selu u srcu Šumadije, kod marvenog hana i pod stogodišnjim drvetom koje će kasnije ući u predanje. Bilo je sveštenika, oborknezova, hajdučkih harambaša i seoskih starešina. Razgovaralo se bez svečanosti, kratko i u stvar: ko će povesti. Predlozi su išli i na strane uglednijih i pismenijih ljudi; sam Karađorđe Petrović, hajduk i nekadašnji frajkor u habzburškoj vojsci 1788–1791, izabran je gotovo nužno — bio je čovek od oružja, bez visokog porekla, ali sa naravom koja se nije savijala. Predanje govori da se najpre opirao, pominjući svoju oštru ćud, ali da je pristao kada mu je rečeno da druge nema."
+        "text": "Na praznik Sretenja, 2. februara po starom odnosno 14. februara po novom kalendaru 1804. godine, skupina srpskih prvaka okupila se u Orašcu, selu u srcu Šumadije, pod stogodišnjim drvetom koje će kasnije ući u predanje. Bilo je sveštenika, oborknezova, hajdučkih harambaša i seoskih starešina. Razgovaralo se bez svečanosti, kratko i u stvar: ko će povesti. Predlozi su išli i na strane uglednijih i pismenijih ljudi; sam Karađorđe Petrović, hajduk i nekadašnji frajkor u habzburškoj vojsci 1788–1791, izabran je gotovo nužno — bio je čovek od oružja, bez visokog porekla, ali sa naravom koja se nije savijala. Predanje govori da se najpre opirao, pominjući svoju oštru ćud, ali da je pristao kada mu je rečeno da druge nema."
       },
       {
         "type": "paragraph",
@@ -10709,7 +10709,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Pored Karađorđa, oko 1800. već se naziru obrisi ljudi koji će u ustanku postati vojvode i prvaci. U Valjevskoj nahiji, knez Jakov Nenadović bio je jedan od najuglednijih i najbogatijih domaćina, a njegov sinovac, prota Matija Nenadović, parohijski sveštenik vrlo mlad postavljen za protu, kasnije će u svojim „Memoarima” ostaviti jedan od najvažnijih unutrašnjih opisa kako se ustanak rađao. U Jasenici se isticao Janko Katić, jedan od onih knezova koji su umeli i da pregovaraju i da podignu naoružane ljude. Stanoje Glavaš bio je tada već poznati hajdučki harambaša, iskusan u sukobima koji su prethodili 1804. Mlađi od njih, Hajduk Veljko Petrović, tek se počinjao kaliti u onome što će ga učiniti legendom istočne Srbije. U Mačvi će se uskoro istaći pop Luka Lazarević, sveštenik koji će se opasati sabljom. Nijedno od ovih imena 1800. još nije izgovarano sa istorijskim odjekom — ali ljudi su već postojali, znali jedni za druge i, postepeno, počinjali da se međusobno povezuju."
+        "text": "Pored Karađorđa, oko 1800. već se naziru obrisi ljudi koji će u ustanku postati vojvode i prvaci. U Valjevskoj nahiji, knez Jakov Nenadović bio je jedan od najuglednijih i najbogatijih domaćina, a njegov sinovac, prota Matija Nenadović, parohijski sveštenik vrlo mlad postavljen za protu, kasnije će u svojim „Memoarima” ostaviti jedan od najvažnijih unutrašnjih opisa kako se ustanak rađao. Pod Kosmajem, u Turijskoj knežini, isticao se Janko Katić iz Rogače, buljubaša iz borbi s janičarima devedesetih, koji je umeo da podigne naoružane ljude. Stanoje Glavaš bio je tada već poznati hajdučki harambaša, iskusan u sukobima koji su prethodili 1804. Mlađi od njih, Hajduk Veljko Petrović, tek se počinjao kaliti u onome što će ga učiniti legendom istočne Srbije. U Mačvi će se uskoro istaći pop Luka Lazarević, sveštenik koji će se opasati sabljom. Nijedno od ovih imena 1800. još nije izgovarano sa istorijskim odjekom — ali ljudi su već postojali, znali jedni za druge i, postepeno, počinjali da se međusobno povezuju."
       },
       {
         "type": "paragraph",
@@ -10755,7 +10755,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Ali Habzburška monarhija je istovremeno bila katolička država sa sopstvenim interesima. Pravoslavnim podanicima je priznavala versku zajednicu, ali ih je gledala i sa nepoverenjem — kao mogući kanal ruskog uticaja i kao narod sklon da bukne kada se na granici nešto pokrene. Njena spoljna politika prema Osmanlijama nije se vodila po sentimentalnim osnovama. Beč bi pomogao srpski pokret samo onda kada bi to odgovaralo carskim računicama; čim bi se računice promenile, podrška bi prestala. Iskustvo srpskog frajkora iz rata 1788–1791. bilo je sveže — tada je Austrija organizovala i naoružala dobrovoljce sa osmanske strane, da bi ih u Svištovskom miru ostavila bez zaštite i prepustila osmanskoj odmazdi. Niko ko je preživeo tu deceniju nije te lekcije zaboravio."
+        "text": "Ali Habzburška monarhija je istovremeno bila katolička država sa sopstvenim interesima. Pravoslavnim podanicima je priznavala versku zajednicu, ali ih je gledala i sa nepoverenjem — kao mogući kanal ruskog uticaja i kao narod sklon da bukne kada se na granici nešto pokrene. Njena spoljna politika prema Osmanlijama nije se vodila po sentimentalnim osnovama. Beč bi pomogao srpski pokret samo onda kada bi to odgovaralo carskim računicama; čim bi se računice promenile, podrška bi prestala. Iskustvo srpskog frajkora iz rata 1788–1791. bilo je sveže — tada je Austrija organizovala i naoružala dobrovoljce sa osmanske strane, da bi ih u Svištovskom miru vratila pod Portu, uz tek ugovorenu amnestiju. Niko ko je preživeo tu deceniju nije te lekcije zaboravio."
       },
       {
         "type": "paragraph",
@@ -10772,7 +10772,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Praktične ruske veze sa Srbima u 18. veku bile su tanke ali stvarne. Sveti sinod u Sankt Peterburgu slao je crkvene knjige i ikone, a pojedini sveštenici i učitelji odlazili su odande u srpske škole na habzburškoj strani. Crna Gora je više puta, zahvaljujući svojim vladikama, dobijala iz Rusije subvencije i diplomatsku podršku. Među intelektualcima, neki Srbi su gradili karijere u ruskim ustanovama — najpoznatiji je primer Atanasija Stojkovića, koji je u Harkovu postao profesor i kasnije rektor univerziteta. Bilo je i tiše prepiske između Karlovačke mitropolije i ruskih crkvenih krugova, naročito u vreme mitropolita Stefana Stratimirovića, koji je o Rusiji razmišljao kao o jedinom dugoročnom oslonu pravoslavnih Srba."
+        "text": "Praktične ruske veze sa Srbima u 18. veku bile su tanke ali stvarne. Sveti sinod u Sankt Peterburgu slao je crkvene knjige i ikone, a pojedini sveštenici i učitelji odlazili su odande u srpske škole na habzburškoj strani. Crna Gora je više puta, zahvaljujući svojim vladikama, dobijala iz Rusije subvencije i diplomatsku podršku. Među intelektualcima, neki Srbi su gradili karijere u ruskim ustanovama — najpoznatiji je primer Atanasija Stojkovića, koji je od 1804. bio profesor, a potom i rektor univerziteta u Harkovu. Bilo je i tiše prepiske između Karlovačke mitropolije i ruskih crkvenih krugova, naročito u vreme mitropolita Stefana Stratimirovića, koji je o Rusiji razmišljao kao o jedinom dugoročnom oslonu pravoslavnih Srba."
       },
       {
         "type": "paragraph",
@@ -10908,7 +10908,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Polazna tačka bila je teška koliko može biti. Sredinom petnaestog veka srpska država je ugašena, Despotovina je nestala, vladajući rod se rasuo, a poslednji ostaci samostalnosti u Zeti, Hercegovini i Bosni padali su u narednim decenijama. Crkva, koja je vekovima išla uz državu, ostala je bez svog zaštitnika; Pećka patrijaršija je već 1463. godine ukinuta i potčinjena Ohridskoj arhiepiskopiji. Plemstvo se podelilo: jedan deo izginuo, drugi se sklonio na sever pod ugarsku vlast, treći se utopio u osmanski poredak. Iznad seoskog praga, gotovo nijedna srpska institucija nije ostala. Bio je to potpun politički prekid — narod bez države, bez crkvenog središta, bez svog grada."
+        "text": "Polazna tačka bila je teška koliko može biti. Sredinom petnaestog veka srpska država je ugašena, Despotovina je nestala, vladajući rod se rasuo, a poslednji ostaci samostalnosti u Zeti, Hercegovini i Bosni padali su u narednim decenijama. Crkva, koja je vekovima išla uz državu, ostala je bez svog zaštitnika; Pećka patrijaršija je ubrzo posle pada Despotovine, oko 1463, izgubila samostalnost, a njene eparhije su potpale pod Ohridsku arhiepiskopiju. Plemstvo se podelilo: jedan deo izginuo, drugi se sklonio na sever pod ugarsku vlast, treći se utopio u osmanski poredak. Iznad seoskog praga, gotovo nijedna srpska institucija nije ostala. Bio je to potpun politički prekid — narod bez države, bez crkvenog središta, bez svog grada."
       },
       {
         "type": "paragraph",
@@ -10929,7 +10929,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Iznad svega toga lebdela je epska pesma. Ona je, sa guslama u rukama slepih pevača, čuvala moralnu i istorijsku maštu naroda kroz vekove kada druge ustanove za to nisu postojale. Kosovo, Marko Kraljević, despoti, hajduci — sve je to ulazilo u svest dece pre svake škole, i stvaralo osećaj da je ono što se vidi oko sebe samo jedan trenutak duže priče. Kada su krajem osamnaestog veka strani putnici i učeni Srbi počeli da te pesme beleže, otkrili su da pred sobom imaju jedan od najbogatijih epskih zbornika u Evropi tog vremena."
+        "text": "Iznad svega toga lebdela je epska pesma. Ona je, sa guslama u rukama slepih pevača, čuvala moralnu i istorijsku maštu naroda kroz vekove kada druge ustanove za to nisu postojale. Kosovo, Marko Kraljević, despoti, hajduci — sve je to ulazilo u svest dece pre svake škole, i stvaralo osećaj da je ono što se vidi oko sebe samo jedan trenutak duže priče. Kada su strani putnici i učeni Srbi, a naročito Vuk Karadžić početkom devetnaestog veka, počeli da te pesme sistematski beleže, otkrili su da pred sobom imaju jedan od najbogatijih epskih zbornika u Evropi tog vremena."
       },
       {
         "type": "paragraph",

@@ -1,0 +1,505 @@
+# Činjenični review — Era IV: Pod osmanskom i habzburškom vlašću
+
+**Kurs:** Istorija Srbije 365 · **Era:** `osmansko-i-habzbursko-doba` · **Lekcije:** Day 151–195
+**Datum:** 2026-09-30 · **Metod:** v2 — delovi od ≤ 8 lekcija, obavezan prolaz obaranja za nalaze srednje sigurnosti, provera doslednosti cele ere, zadati spisak izvora.
+**Status:** ispravke primenjene u istom PR-u; `lastReviewedAt` nije diran.
+
+## Zbir
+
+| | Broj |
+|---|---|
+| Pregledane lekcije | 45 |
+| Lekcije bez nalaza | 8 (159, 160, 161, 178, 182, 186, 193, 194) |
+| **Greške** | **57** |
+| **Sumnjivo** | **51** |
+| Sporno — ograda preporučena / nije | 9 / 36 |
+
+Brojevi uključuju i nalaze provere doslednosti, koji se delom poklapaju sa nalazima po lekcijama.
+
+## Top 10 nalaza
+
+| # | Lekcija | Nalaz | Sigurnost |
+|---|---|---|---|
+| 1 | Day 190 | Zbor u Orašcu: Sretenje je 2. februar po starom, odnosno 14. februar po novom kalendaru 1804 (ne „14. po starom / 26. po novom”); Days 197 i 199 to tačno kažu. | visoka |
+| 2 | Day 156, 154, 157–158 | Mehmed-paša Sokolović postaje veliki vezir tek 1565 (1557. veliki vezir je Rustem-paša); Day 154 samom sebi protivreči. Njegova izreka o Lepantu je izvrnuta (Kipar = odsečena ruka Mletaka, Lepant = obrijana brada Osmanlija). | visoka |
+| 3 | Day 173, 174 | Carev Laz 1712: serasker Ahmed-paša; pohod 1714. koji je spalio Cetinjski manastir vodio je bosanski vezir Numan-paša Ćuprilić. | visoka |
+| 4 | Day 170, 171 | Karlovački mir 1699. nije doneo Banat Habzburzima — Banat ostaje osmanski do 1716/1718 (Požarevac), kako tačno kaže Day 172. | visoka |
+| 5 | Day 172 | Doksat je pogubljen u Beogradu 20. marta 1738 (posle predaje Niša 1737), ne „u Beču” 1739. | visoka |
+| 6 | Day 187 | Koča Anđelković nije pogubljen u Nišu: zarobljen 1788. kod Brzaske i nabijen na kolac u Tekiji. | visoka |
+| 7 | Day 166 | Banatska krajina ukinuta je 1. novembra 1872, ne „sredinom 19. veka”. | visoka |
+| 8 | Day 169, 168 | Arsenije IV je sam preuzeo Karlovačku mitropoliju i vodio crkvu do 1748; prelazi Habsburzima 1737. Karlovci su bili autonomna mitropolija unutar Pećke patrijaršije (priznanje 1710). | visoka |
+| 9 | Day 176, 177 | Dubrovnik plaća harač od 1458 (ne od Mohača); srpske knjige u 16. veku štampane su i na domaćem tlu (Goražde, Rujno, Gračanica, Mileševa, Beograd, Mrkšina crkva). | visoka |
+| 10 | Day 183, 185 | Dositej postaje popečitelj prosveštenija 1811 (ne 1807); Tekelija doktorira u Pešti 1786 i sam osniva Tekelijanum 1838. | srednja |
+
+## Napomene o pouzdanosti
+
+- Broj učesnika Velike seobe 1690 (Day 163) je ograđen rasponom procena iz literature, ne jednim brojem — procene se stvarno razilaze (Arsenijevo „preko 30.000 duša”, Ruvarac, Ćirković, tradicionalnih 37.000 porodica).
+- ISN III–IV, Popović i Pantelić nisu pretraživi onlajn; glavni dostupni izvor bio je Ćorović na rastko.rs. Nalazi sa samo Wikipedijom ostaju „sumnjivo”.
+- Nalaz za Day 198 (era V) iz provere doslednosti obrađuje se u eri V.
+- **⚠** u koloni izvora znači da je kao izvor nađen samo enciklopedijski pregled (Wikipedia); takav nalaz je najviše „sumnjivo" osim ako ga ne potvrđuje i drugi izvor.
+
+---
+
+# Nalazi po lekcijama
+
+## Osmansko carstvo i život pod njim I (151–156)
+
+# Era IV, deo 1 — dani 151–156 (Osmansko carstvo i život pod njim)
+
+### Day 151 — Ustrojstvo Osmanskog carstva
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Pravoslavni milet — takozvani „Rum milet” — bio je pod vrhovnom vlašću carigradskog patrijarha, i u tom je okviru funkcionisala i Srpska pravoslavna crkva, naročito pošto je 1557. godine … obnovljena Pećka patrijaršija” | greška | srednja | Obnovljena Pećka patrijaršija bila je autokefalna, a patrijarh je berat dobijao neposredno od Porte — nije bila pod Carigradom. Predlog: „…bio je pod vlašću carigradskog patrijarha; srpska crkva je, međutim, od 1557. godine, obnovom Pećke patrijaršije, imala sopstvenog patrijarha nezavisnog od Carigrada.” | „Položaj Pećke patrijaršije u Osmanskom Carstvu od 1557”, hrcak.srce.hr/file/44109; ISN III/1 (SKZ); Ćorović, „Istorija Srba” |
+| 2 | „Paralelno su postojali katolički, jermenski i jevrejski milet.” | greška | srednja | Katolici u 15–18. veku nisu imali milet (prvi katolički — jermensko-katolički — milet priznat je tek 1831); balkanski katolici su se oslanjali na povlastice (ahdname) franjevaca i Dubrovnika. Predlog: „Paralelno su postojale jermenska i jevrejska zajednica; katolici nisu imali sopstveni milet, već su se oslanjali na posebne povlastice franjevaca i Dubrovčana.” | B. Braude, „Foundation Myths of the Millet System”, u: Braude–Lewis, *Christians and Jews in the Ottoman Empire* (1982) |
+| 3 | „…u kome su sedeli i drugi veziri, vrhovne sudije (kadi-askeri), čuvar pečata i upravnik finansija” | sumnjivo | srednja | Carski pečat je čuvao sam veliki vezir; član Divana bio je nišandžija, koji je na isprave stavljao sultanovu tugru. Predlog: „…nišandžija (koji je na isprave stavljao sultanov znak — tugru) i defterdar (upravnik finansija)”. | H. İnalcık, *The Ottoman Empire: The Classical Age 1300–1600*; EI2 „Nishāndji” (⚠ na mreži provereno samo preko Wikipedije kao putokaza) |
+
+### Day 152 — Timarski sistem
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Raja je sipahiji dugovala tačno utvrđene dažbine: deo letine, najčešće desetinu žita, vina i drugih plodova, glavarinu, određene radne obaveze.” | sumnjivo | srednja | Glavarina (džizija, harač) išla je državi/sultanu, ne spahiji; spahiji je hrišćansko domaćinstvo plaćalo ispendžu (25 akči). Predlog: „…desetinu žita, vina i drugih plodova, ispendžu (novčanu dažbinu od 25 akči po domaćinstvu), određene radne obaveze”. | Kanuni Smederevskog sandžaka (ISN III/1); „Opširni popis Kliškog sandžaka iz 1550 — tumač pojmova” (ramski-vjesnik.ba); diplomski radovi FF Osijek (repozitorij.ffos.hr) o osmanskim dažbinama |
+
+### Day 153 — Položaj hrišćana — raja
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Plaćali su džiziju, lični porez na nemuslimansku glavu odraslog muškarca, i harač, zemljarinu, koja je u praksi često bila vezana za istu obavezu.” | sumnjivo | srednja | U osmanskoj praksi na Balkanu (i u srpskom jeziku) harač je bio drugo ime za džiziju — glavarinu; „zemljarina” je značenje iz klasičnog islamskog prava. Predlog: „Plaćali su džiziju — lični porez na odraslog muškarca nemuslimana, koji se u narodu i u osmanskim spisima zvao i harač.” | EI2 „Djizya” i „Kharādj”; ISN III/1; ramski-vjesnik.ba (tumač pojmova, popis 1550) |
+| 2 | „Na sudu su, u većini slučajeva, plaćali dvostruke takse” | sumnjivo | srednja | Izvor nije nađen za dvostruke sudske takse; poznata je viša carina za nemuslimanske trgovce, pa je moguća zamena. Predlog: izbaciti ovu odredbu, a zadržati „…a njihovo svedočanstvo protiv muslimana nije imalo istu vrednost”. | izvor nije nađen |
+
+### Day 154 — Danak u krvi — devširma
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „…popeo se do položaja velikog vezira, koji je držao od 1565. do 1579. godine. Sokolović je u tom svojstvu … bio glavni činilac obnove Pećke patrijaršije 1557. godine” | greška | visoka | Unutrašnja protivrečnost: 1557. Sokolović nije bio veliki vezir (bio je treći vezir, pre toga rumelijski beglerbeg; veliki vezir bio je Rustem-paša, 1555–1561). „Glavni činilac” je i sporno (v. Sporno). Predlog: „Sokolović je, tada već vezir na Porti, po preovlađujućem mišljenju imao važnu ulogu u obnovi Pećke patrijaršije 1557. godine…” | ISN III/1; Leksikon Marina Držića, „Sokolović, Mehmed-paša”; prenos stručne rasprave: Glas Srpske / B92 (2020), „Mehmed paša Sokolović: gde se završava istorija, a počinje mit?” |
+| 2 | „Odabrani dečaci sprovođeni su preko Soluna ili drugih luka u Istanbul.” | sumnjivo | srednja | Izvori opisuju da su dečaci u grupama („sürü”, stado, po 100–150) kopnom sprovođeni u Istanbul (ili Jedrene). Predlog: „Odabrani dečaci sprovođeni su u grupama, kopnom, do Istanbula.” | V. L. Ménage, EI2 „Devshirme”; *Belleten* 79/286 (2015), „The Devshirme System and the Levied Children of Bursa in 1603–4”; World History Commons, „Devshirme System” |
+
+### Day 155 — Islamizacija i verski život
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „U Bosni je slika bila bitno drugačija: do 18. veka procene govore da je između trećine i polovine stanovništva bilo muslimansko.” | greška | srednja | Procene za početak 17. veka daju muslimansku većinu (izveštaj apostolskog vizitatora P. Masarekija 1624: oko 450.000 muslimana, 150.000 katolika, 75.000 pravoslavnih — oko dve trećine). Predlog: „…već početkom 17. veka procene govore o muslimanskoj većini, možda i o dve trećine stanovništva.” | M. Kukić, „Peasants into Muslims: Poverty and conversions to Islam in Ottoman Bosnia”, *Economic History Review* (2026); N. Malcolm, *Bosnia: A Short History* |
+| 2 | „…male katoličke zajednice … pod franjevačkom brigom i u sopstvenom miletu.” | greška | srednja | Katolici u ovom razdoblju nisu imali milet (v. Day 151 #2). Predlog: „…pod franjevačkom brigom, na osnovu posebnih sultanskih povlastica.” | Braude (1982), kao gore |
+
+### Day 156 — Srpska crkva pod Osmanlijama
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Na vrhu državne uprave nalazio se Mehmed-paša Sokolović, veliki vezir poreklom iz srpske pravoslavne porodice iz Bosne” (u kontekstu sredine 16. veka, pre 1557) | greška | visoka | Veliki vezir 1555–1561 bio je Rustem-paša; Sokolović je to postao 1565 (i lekcija 154 to kaže). Predlog: „Na Porti se uzdizao Mehmed-paša Sokolović, tada jedan od vezira, a kasnije veliki vezir, poreklom iz srpske pravoslavne porodice iz Bosne…” | ISN III/1; Leksikon Marina Držića; Glas Srpske / B92 (2020) |
+| 2 | „…Pećka patrijaršija — institucija osnovana u doba cara Dušana, koja je gotovo čitav vek davala srpskoj zemlji sopstveno crkveno vrhovništvo” | greška | visoka | 1346 – oko 1463 je više od jednog veka (≈117 godina). Predlog: „…koja je više od jednog veka davala…” | računica iz podataka same lekcije |
+| 3 | „…vladike u Sremu pod habzburškim i ugarskim okriljem” | greška | srednja | U razdoblju 1463–1557 Srem je bio ugarski do 1521–1526, a potom osmanski; habzburška vlast u Sremu dolazi tek krajem 17. veka. Predlog: „…vladike u Sremu, dok je bio pod ugarskom vlašću…” | Ćorović, „Istorija Srba”; D. Popović, „Srbi u Vojvodini” I |
+| 4 | „Posle njenog gašenja, štampa će se nastaviti na drugim mestima, u Veneciji i Vlaškoj, gde su Srbi imali zaštitu lokalnih vladara, ali rukopis je … ostao osnovni način” | sumnjivo | srednja | Izostavlja da se štampalo i na osmanskom tlu: Goražde (1519–1523), Rujno (1537), Gračanica (1539), Mileševa (1544–1546, 1557), Beograd (1552), Mrkšina crkva (1562). Da je rukopis ostao osnovni način — tačno. Predlog: „…u Veneciji i Vlaškoj, ali i u samim srpskim manastirima pod osmanskom vlašću — u Rujnu, Gračanici, Mileševi —, a ipak je rukopis ostao osnovni način…” | Srpska enciklopedija / Narodna biblioteka Srbije (štamparije srbulja); ⚠ sr.wikipedia „Srpske štamparije u 16. veku” samo kao putokaz |
+
+## Osmansko carstvo i život pod njim II (157–162)
+
+# Era IV, chunk c2 — Days 157–162
+
+### Day 157 — Obnova Pećke patrijaršije
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Njena jurisdikcija prostirala se od severne Bugarske, preko današnje Srbije, [...] sve do Vlaške." | greška | srednja | „Njena jurisdikcija prostirala se od zapadne Bugarske (Ćustendil, Samokov), preko današnje Srbije, Kosova i delova Makedonije, kroz celu Bosnu i Hercegovinu, do Dalmacije, Srema, Slavonije i južne Ugarske — sve do Budima i Temišvara." (Vlaška je pripadala Carigradskoj patrijaršiji — Ugrovlaška mitropolija.) | sr.wikipedia „Istorija Pećke patrijaršije" (po Bogdanoviću/Barišiću; ⚠ Wikipedia kao putokaz, proveriti u ISN III/1): „cijelu Bosnu i Hercegovinu s Dalmacijom, Srijem i Slavoniju s Hrvatskom, Banat i Bačku s Baranjom, sve do više Budima, Temišvara i Arada" + Ćustendil i Samokov; Hodočasnik (Eparhija zvorničko-tuzlanska): „od Ohrida do Budima" — https://hodocasnik.com/manastiri-i-crkve/eparhija-zvornicko-tuzlanska/istorija-eparhije-zvornicko-tuzlanske/u-obnoveljenoj-peckoj-patrijarsiji/ |
+| 2 | „tih dvesta deset godina između 1557. i 1766" | greška | visoka | „tih dvesta devet godina" ili „tih više od dva veka između 1557. i 1766" | aritmetika (1766 − 1557 = 209) |
+
+### Day 158 — Mehmed-paša Sokolović
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „o tome da je hrišćanima kod Lepanta odsečena brada, a Osmanlijama samo ruka — brada raste sporo, ruka brzo." | greška | visoka | Izreka je izvrnuta. Po izveštaju mletačkog bajla M. A. Barbara, Sokolović je rekao da su Osmanlije oduzimanjem Kipra Mlecima odsekle ruku, a Mleci su kod Lepanta Osmanlijama samo obrijali bradu; ruka ne izraste, a obrijana brada raste još jača. Predlog: „...o tome da su Osmanlije, uzevši Kipar, Mlecima odsekle ruku, a hrišćani su im kod Lepanta samo obrijali bradu — odsečena ruka ne raste, a obrijana brada raste još gušća." | Barbarov izveštaj (1571/72), navođen kod Braudela; putokaz: https://en.wikipedia.org/wiki/Battle_of_Lepanto i History of Cyprus Podcast, „Primary Source: Grand Vizier Sokollu Mehmet Pasha 1571" (https://cyprusthepodcast.podbean.com/e/new-primary-source-xv-grand-vizier-sokollu-mehmet-pasha-1571/) |
+| 2 | „srpska crkva je posle više od dva veka ponovo dobila samostalnu patrijaršiju" | greška | visoka | „posle skoro sto godina" (u skladu sa Day 157: prekid ≈1459/1463–1557, 94 godine) | Day 157 (unutrašnja protivrečnost); sr.wikipedia „Istorija Pećke patrijaršije": pad Smedereva 1459, smrt patrijarha Arsenija II oko 1463 |
+| 3 | „Dana 12. oktobra 1579. godine [...] nožem ga smrtno ubo." | sumnjivo | srednja | „Dana 11. oktobra 1579. godine" | Uobičajeni datum je 11. oktobar 1579 (en/sr/sh Wikipedia; RTV, „Dan kada je ubijen Mehmed-paša Sokolović", https://rtv.rs/sr_lat/zivot/magazin/dan-kada-je-ubijen-mehmed-pasa-sokolovic_152272.html) — ⚠ bez naučnog izvora; proveriti EI² „Soḳollu Meḥmed Pasha" |
+| 4 | „zapovednik carskih vrtova, pa veliki admiral osmanske flote, pa beglerbeg Rumelije" | sumnjivo | srednja | „zapovednik dvorske straže (kapidžibaša), pa veliki admiral..." | Pre kapudan-paše (1546) bio je kapıcıbaşı / zapovednik carske straže (1543–1546); služba u „carskim vrtovima" (bostandžibaša) nije potvrđena — en.wikipedia „Sokollu Mehmed Pasha" (⚠ samo Wikipedia; proveriti EI² / Samardžić, *Mehmed Sokolović*) |
+
+### Day 159 — Život na selu
+ok — bez nalaza.
+
+### Day 160 — Gradovi pod osmanskom vlašću
+ok — bez nalaza. (Vidi „Sporno" za milet.)
+
+### Day 161 — Hajduci
+ok — bez nalaza.
+
+### Day 162 — Uskoci
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „najpoznatije među njima senjski, žumberački i crnogorski uskoci" (lekcija za 16–17. vek) | sumnjivo | srednja | „...senjski i žumberački uskoci, a u 17. veku i hercegovački uskoci u mletačkoj službi" | „Uskoci" kao crnogorsko pleme nastaju krajem 18. i početkom 19. veka (Trebješani proterani 1789) — sr.wikipedia „Uskoci (pleme)" (⚠ samo Wikipedia). Hercegovačke uskočke/hajdučke čete u mletačkoj službi (Kotor, Perast) u Kandijskom i Morejskom ratu jesu postojale, pa je formulacija samo delimično anahrona. |
+
+## Velike seobe i Srbi u Habzburškoj monarhiji I (163–167)
+
+# Era IV — Velike seobe i Srbi u Habzburškoj monarhiji (dani 163–167)
+
+### Day 163 — Velika seoba Srba 1690.
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Stariji srpski izvori govorili su o trideset sedam, pa i preko dvesta hiljada porodica; savremena istoriografija najčešće računa s nečim skromnijim — možda trideset do pedeset hiljada porodica, što bi, sa decom, moglo značiti sto do dvesta hiljada duša." | greška | srednja | „Stariji srpski letopisi i pisci 18. veka (Julinac, Rajić) govorili su o trideset sedam hiljada porodica; sam patrijarh zapisao je krajem 1690. da je prešlo „više od 30.000 duša", a savremene procene uglavnom se kreću od nekoliko desetina hiljada do sedamdeset–osamdeset hiljada ljudi." (Brojka „preko dvesta hiljada porodica" nije nađena ni u jednom izvoru; najveća starija procena, É. Picot, je 400–500 hiljada ljudi. Lekcija je i u neskladu sa danima 164, 165 i 167, koji govore o „desetinama hiljada".) | V. Ćorović, Istorija srpskog naroda (rastko.rs, http://rastko.rs/rastko-bl/istorija/corovic/istorija/6_8_l.html): patrijarh sam navodi „više od 30.000 duša"; I. Ruvarac 70–80 hiljada; pregled procena (Arsenije 30.000 pa 40.000 duša; Ćirković: i 40.000 je preterano) — en.wikipedia „Great Migrations of the Serbs" kao putokaz |
+| 2 | „Pod komandom Jovana Monasterlije — koga je car postavio za podvojvodu srpske milicije — formirani su srpski odredi" (u kontekstu 1689–1690) | sumnjivo | srednja | „Pod komandom Jovana Monasterlije — koga će car 1691. postaviti za podvojvodu srpskog naroda — formirani su srpski odredi" | Ćorović (rastko.rs, isto): Monasterlija „imenovan (ne izabran)" za podvojvodu posle budimskog skupa marta 1691 |
+| 3 | „Već u leto 1690. ravnoteža se prelomila." | sumnjivo | srednja | „Već početkom 1690, porazom carske vojske kod Kačanika, ravnoteža se prelomila; u leto je veliki vezir Mustafa Ćuprilić…" | Ćorović (rastko.rs): potpuni poraz Austrijanaca kod Kačanika na katolički Novu godinu 1690, posle čega počinje povlačenje s Kosova |
+| 4 | „Arsenije III je sazvao crkveno-narodni sabor i odlučio da se krene." | sumnjivo | srednja | „Arsenije III je 18. juna 1690. sazvao u Beogradu crkveno-narodni sabor, koji je odgovorio na carev poziv i poslao izaslanika u Beč; kada je carska vojska na jesen uzmakla, krenuo je i narod." (Beogradski sabor nije odlučivao o seobi, nego o uslovima pod kojima će Srbi služiti caru.) | Ćorović (rastko.rs): sabor 18. juna 1690 sazvan „da odgovori na carev poziv"; poslanstvo Isaije Đakovića u Beč |
+
+### Day 164 — Arsenije III Čarnojević
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Srpska pravoslavna crkva ga poštuje kao svetitelja." | sumnjivo | visoka | Izbaciti rečenicu (ili: „Srpska pravoslavna crkva ga nije kanonizovala, ali ga pamti kao jednog od najvećih patrijaraha."). | Arsenije III nije na spisku svetitelja SPC (sh.wikipedia „Lista svetitelja Srpske pravoslavne crkve" — jedini Arsenije je Arsenije Sremac); nijedan pronađeni izvor ne navodi kanonizaciju — ⚠ samo Wikipedia |
+| 2 | „1674. godine, pošto je njegov prethodnik Maksim Skopljanac umro, izabran je za pećkog patrijarha" | sumnjivo | visoka | „1674. godine, pošto se njegov prethodnik Maksim Skopljanac zbog teške bolesti povukao, izabran je za pećkog patrijarha" (Maksim je umro tek 1680.) | en.wikipedia „Maksim I" (povukao se 1674. zbog bolesti, umro oktobra 1680. u Peći); sr.wikipedia „Arsenije III" (Arsenije bio Maksimov koadjutor) — ⚠ samo Wikipedia |
+| 3 | „U Beču je Arsenije od cara Leopolda dobio dve povelje" | sumnjivo | srednja | „Od cara Leopolda Arsenije je, preko svojih izaslanika u Beču, dobio povelje — takozvane Privilegije iz 1690. i 1691. godine" (Arsenije tada nije bio u Beču; pregovore je vodio episkop Isaija Đaković) | Ćorović (rastko.rs): poslanstvo Isaije Đakovića; privilegije od 21. avg. 1690, 11. dec. 1690, 20. avg. 1691 |
+| 4 | „Arsenije je svoju stolicu prvo prebacio u Sečuj, zatim u manastir Krušedol u Fruškoj gori, koji je postao njegovo glavno boravište" | sumnjivo | srednja | „Arsenije nije imao stalno sedište: boravio je u Sentandreji, Sečuju, Hopovu, Futogu i drugde, a 1701. mu je naređeno da živi u Sentandreji; Krušedol je postao sedište mitropolije tek posle njegove smrti" | sr.wikipedia „Arsenije III Crnojević" (boravišta 1690–1701: Sentandreja, Kovin, Siriga, Hopovo, Sečuj, Futog, Pakrac; 1701. naređen boravak u Sentandreji) — ⚠ samo Wikipedia; Ćorović pominje Sentandreju kao utočište |
+| 5 | „u staroj srpskoj porodici koja se kasnije, po njemu, počela označavati prezimenom Crnojević" | sumnjivo | srednja | „u porodici koja je sebe vezivala za staru dinastiju Crnojevića; otud se njegovo prezime piše i Crnojević i Čarnojević" | Prezime Crnojević postojalo je pre Arsenija; oblik Čarnojević je potonji (sr.wikipedia vodi članak kao „Arsenije III Crnojević") — ⚠ samo Wikipedia |
+
+### Day 165 — Srbi u Habzburškoj monarhiji
+ok — bez nalaza.
+
+### Day 166 — Vojna krajina
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Banatska krajina ukinuta je sredinom 19. veka" | greška | visoka | „Banatska krajina ukinuta je 1872. godine" | RTV Vojvodine (2022), „Obeleženo 150 godina od ukidanja Vojne granice u Narodnom muzeju Pančeva" (https://rtv.rs/sr_lat/vojvodina/banat/obelezeno-150-godina-od-ukidanja-vojne-granice-u-narodnom-muzeju-panceva_1387418.html): ukinuta 1. novembra 1872; sh.wikipedia „Banatska vojna granica" (razvojačenje 1871/72) |
+
+### Day 167 — Privilegije srpskog naroda
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Prvu povelju izdao je car Leopold I 21. avgusta 1690. … Dve godine kasnije, 1691, sledi nova, šira potvrda" | greška | visoka | „Godinu dana kasnije, 20. avgusta 1691, sledi nova, šira potvrda" (lekcija protivreči sama sebi: 1690 → 1691 je jedna godina) | unutrašnja protivrečnost; Ćorović (rastko.rs): povelje 21. avg. 1690, 11. dec. 1690, 20. avg. 1691 |
+| 2 | „Posle 1779. godine, kada je Marija Terezija takozvanim Reglementom suzila njegove nadležnosti" | greška | srednja | „Posle 1779. godine, kada je Marija Terezija takozvanom Deklaratorijom (posle Regulamenta iz 1770) suzila njegove nadležnosti" | Regulament privilegija 27. sept. 1770; Rescriptum declaratorium Illyricae nationis 16. jula 1779 — sh.wikipedia „Srpski narodno-crkveni sabori u Karlovačkoj mitropoliji", sr.wikipedia „Karlovačka mitropolija" (putokaz; standardno i u ISN IV/1) |
+
+## Velike seobe i Srbi u Habzburškoj monarhiji II (168–172)
+
+# Era IV — Days 168–172 (Velike seobe i Srbi u Habzburškoj monarhiji, 2. polovina)
+
+Napomena: u ovom opsegu nema posebnih lekcija o Vojnoj krajini ni o Vojvodini kao političkoj jedinici. Dani 168–172 su: Karlovačka mitropolija, Druga seoba, Srbi u Banatu/Bačkoj/Sremu, Austrijsko-turski ratovi, Požarevački mir.
+
+### Day 168 — Karlovačka mitropolija
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Arsenije se najpre oslonio na manastir Krušedol … Krušedol je tako, faktički, postao prvo sedište izbeglog patrijarha. Posle njegove smrti 1706. mitropolijska stolica je neko vreme bila i u Sečuju“ | greška | srednja | Redosled je obrnut: Arsenije III je boravio u Sentandreji, pa u Sečuju (od 1698. oko deset godina); tek posle njegove smrti sabor u Krušedolu 1708. učinio je Krušedol sedištem, a od 1713. to su Karlovci. Predlog: „Arsenije je bez stalnog sedišta boravio u Sentandreji, pa u Sečuju u južnoj Ugarskoj. Posle njegove smrti 1706. sabor u Krušedolu (1708) učinio je taj manastir sedištem mitropolije, a od 1713. ona se ustalila u Sremskim Karlovcima…“ | Ćorović, Istorija srpskog naroda, VI/IX „Srbi u Ugarskoj“ (rastko.rs/rastko-bl/istorija/corovic/istorija/6_9_l.html) — Krušedol izabran za sedište 1708; sr.wikipedia „Sečuj“ i „Karlovačka mitropolija“ (⚠ Wikipedia kao pokazivač; Krušedol 1708–1713, Karlovci od 1713) |
+| 2 | „Kanonski, Karlovci su ostali izvan jurisdikcije Pećke patrijaršije“ | greška | srednja | Krušedolsko-karlovačka mitropolija osnovana je 1708. kao autonomna (ne autokefalna) oblast u okviru Pećke patrijaršije; pećki patrijarh Kalinik I gramatom 1710. priznao je njenu autonomiju. Predlog: „Kanonski, Karlovci su bili autonomna mitropolija u okviru Pećke patrijaršije, koju je patrijarh Kalinik I priznao 1710; ta veza trajala je do ukidanja Peći 1766.“ | Ćorović, VI/IX (6_9_l.html) — pećki patrijarh Kalinik priznao crkveno jedinstvo Srba u Austriji; sr.wikipedia „Karlovačka mitropolija“ (gramata od 18. maja 1710; ⚠ pokazivač) |
+| 3 | „Posle revolucije 1848. i kratkotrajne Srpske Vojvodine, Karlovačka mitropolija je carskim aktom uzdignuta na rang patrijaršije“ | greška | visoka | Mitropolit Josif Rajačić proglašen je za patrijarha na Majskoj skupštini u Karlovcima 1/13. maja 1848, dakle na početku revolucije i istovremeno sa proglašenjem Srpske Vojvodine; car je to potom potvrdio iste godine. Predlog: „U revoluciji 1848, na Majskoj skupštini, karlovački mitropolit proglašen je za patrijarha, što je car potom potvrdio;“ | Majska skupština 1848 (sr/sh.wikipedia „Majska skupština“, ⚠ pokazivač); en.wikipedia „Metropolitanate of Karlovci“ (Rajačić „elevated to Patriarch at the May Assembly“); opšte mesto u ISN V/2 |
+| 4 | „U Karlovcima je kraće učio Dositej Obradović, pre nego što je krenuo svojim evropskim putovanjem“ | sumnjivo | srednja | Nije potvrđeno da je Dositej učio u Karlovcima; potvrđeno je da je došao u Hopovo 1757, zamonašen 1758. i iste godine u Karlovcima rukopoložen za đakona. Predlog: „U Karlovcima je 1758. rukopoložen za đakona mladi hopovski monah Dositej Obradović, pre nego što je krenuo svojim putovanjima“ | Biografije Dositeja (sr.wikipedia „Dositej Obradović“: rukopoložen 16. 4. 1758. u Karlovcima; ⚠ pokazivač); izvor za školovanje u Karlovcima nije nađen |
+
+### Day 169 — Druga seoba Srba
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Sam patrijarh Arsenije IV nastanio se u Sremskim Karlovcima, gde je već postojala karlovačka mitropolija … pećki patrijarh u izgnanstvu i karlovački mitropolit živeli su pod istim krovom carstva, sa preklapajućim ovlašćenjima … Tenzije nisu uvek bile lake“ | greška | visoka | Posle smrti mitropolita Vićentija Jovanovića (1737) beogradsko-karlovačka stolica bila je upražnjena i Arsenije IV je sam preuzeo upravu nad njom (potvrđen od cara); od 1737/1739. do smrti 1748. on je bio poglavar Srpske crkve u Monarhiji — dva paralelna poglavara nije bilo. Predlog: „Sam patrijarh Arsenije IV preuzeo je upražnjenu beogradsko-karlovačku mitropoliju i, kada je Beograd 1739. pao, preneo sedište u Sremske Karlovce, gde je do smrti 1748. upravljao srpskom crkvom u Monarhiji, i dalje se smatrajući patrijarhom.“ (izbaciti rečenice o dva poglavara i tenzijama) | Ćorović, VI/XIII „Austriski porazi“ (rastko.rs/rastko-bl/istorija/corovic/istorija/6_13_l.html) — mitropolija „beše ostala prazna“, Arsenije IV je preuzima; en.wikipedia „Arsenije IV Jovanović Šakabenta“ (poglavar crkve u Monarhiji 1737–1748) |
+| 2 | „U takvoj atmosferi [posle Beogradskog mira, sept. 1739], pećki patrijarh Arsenije IV … odlučio je da pređe na habzburšku stranu“ | greška | srednja | Arsenije IV se svrstao uz Habzburge i napustio Peć već 1737; iz Niša je otišao u Beograd, a sredinom decembra 1737. bio je u Beču. Posle Beogradskog mira on je samo preneo sedište iz Beograda preko reke. Predlog: „Pećki patrijarh Arsenije IV, koji je još 1737. napustio Peć i stao uz cara, sada je iz Beograda poveo preko reke onaj deo naroda koji je mogao i hteo da krene.“ | Ćorović, VI/XIII (6_13_l.html): „Sredinom decembra 1737. otišao je Arsenije IV u Beč“ |
+
+### Day 170 — Srbi u Banatu, Bačkoj i Sremu
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „od kraja 17. veka, posle Velikog bečkog rata i Karlovačkog mira 1699, gotovo u celini su prešle pod Habzburge“ | greška | visoka | Karlovačkim mirom Habzburzi su dobili Bačku i veći deo Srema, ali je Banat (Temišvarski ejalet) ostao osmanski do 1716, a Habzburzima pripao Požarevačkim mirom 1718. Predlog: „…Bačka i veći deo Srema prešli su pod Habzburge Karlovačkim mirom 1699, a Banat tek Požarevačkim mirom 1718.“ | Britannica, „Treaty of Carlowitz“ (Austrija dobija Ugarsku „except the Banat of Temesvár“); Stanford UP, „The Banat of Temesvar“ (uvod); en.wikipedia „Temeşvar Eyalet“ |
+
+### Day 171 — Austrijsko-turski ratovi
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Sveta liga … koja je u narednim godinama isterala Osmanlije iz cele Ugarske“ i „Mir u Sremskim Karlovcima 1699 … Habzburzi su dobili Ugarsku, Erdelj…“ | greška | visoka | Banat je ostao osmanski do 1716/1718. Predlog: „…isterala Osmanlije iz gotovo cele Ugarske“ i „Habzburzi su dobili Ugarsku bez Banata, Erdelj…“ | Britannica, „Treaty of Carlowitz“ |
+| 2 | „Po prvi put posle skoro tri stotine godina, prostor … južno od Save našao se pod hrišćanskom državom.“ | sumnjivo | visoka | Od pada Smedereva 1459. do 1718. prošlo je 259 godina (Beograd je bio ugarski do 1521); Day 172 ispravno kaže „posle dva i po veka“. Predlog: „Po prvi put posle više od dva i po veka…“ | aritmetika; unutrašnja usklađenost sa Day 172 |
+| 3 | „Sve to potrajalo je nepunih dvadeset i jednu godinu.“ | sumnjivo | visoka | Od Požarevačkog mira (21. 7. 1718) do Beogradskog mira (18. 9. 1739) prošla je nešto više od 21 godine. Predlog: „Sve to potrajalo je nešto više od dve decenije.“ | aritmetika (datumi u Day 172 i 169) |
+
+### Day 172 — Požarevački mir i austrijska uprava
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Sam Nicolas Doxat, optužen zbog predaje Niša, bio je pogubljen u Beču iste godine [1739]“ | greška | visoka | Doxat je predao Niš u oktobru 1737, osuđen za izdaju i pogubljen (odrubljena glava) 20. marta 1738. u Beogradu. Predlog: „Sam Nicolas Doxat, optužen zbog predaje Niša 1737, pogubljen je u Beogradu već u martu 1738;“ | Historisches Lexikon der Schweiz, „Doxat, Nicolas“ (hls-dhs-dss.ch/de/articles/023620/): „20.3.1738 Belgrad … enthauptet“ |
+| 2 | „Beč je dobio Banat — poslednju osmansku oblast severno od Dunava — … i Malu Vlašku do reke Olta“ | greška | visoka | Lekcija protivreči sama sebi: i Mala Vlaška (dobijena istim mirom) leži severno od Dunava, a Vlaška i Moldavija ostale su osmanski vazali. Predlog: „Banat — poslednji osmanski deo Ugarske —“ | unutrašnja protivrečnost; Britannica „Treaty of Passarowitz“ |
+| 3 | „prestajao je danak u krvi“ (kao olakšica habzburške vlasti posle 1718) | sumnjivo | srednja | Devširma je u 17. veku postepeno napuštena i do kraja tog veka praktično ugašena; 1718. nije bila živa praksa koju je nova vlast ukinula. Predlog: izbaciti „prestajao je danak u krvi,“ | Hrvatski opći leksikon (LZMK), „danak u krvi“ (hol2.lzmk.hr/clanak/danak-u-krvi) |
+| 4 | „počela je da se štampa pisana reč na nemačkom“ (u habzburškom Beogradu 1718–1739) | sumnjivo | srednja | Izvor o štampariji u Beogradu tog doba nije nađen. Predlog: izbaciti ili zameniti sa „ustalila se nemačka administracija i prepiska“ | izvor nije nađen |
+
+## Crna Gora, primorje i kultura I (173–179)
+
+# Era IV — deo c5 (Days 173–179)
+
+### Day 173 — Crna Gora — vladike i plemena
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Kada je 1496. godine ugasla dinastija Crnojevića i kada su Osmanlije zauzele Žabljak i ostale crnogorske gradove" | greška | visoka | Žabljak je pao 1478 (Ivan Crnojević tada prenosi prestonicu na Cetinje). Predlog: „Kada je 1496. godine ugasla vlast Crnojevića — Žabljak su Osmanlije zauzele još 1478 — …" | Ćorović, Istorija Srba; Projekat Rastko – Cetinje, „Crna Gora od kraja XV veka do 1914." (https://www.rastko.rs/rastko-cg/povijest/Cg-XIV-XX.html); dan.co.me feljton „Povlačenje sa Žabljaka na Cetinje" |
+| 2 | „Cetinjska episkopija, osnovana još u doba Crnojevića" | greška | srednja | Zetsku episkopiju osnovao je Sveti Sava 1219; u doba Crnojevića (1485) njeno sedište je preneto na Cetinje. Predlog: „Zetska episkopija, čije je sedište u doba Crnojevića preneto na Cetinje, …" | ISN II (Zetska episkopija 1219); o Cetinjskom manastiru 1484–85: standard.co.me „Podignut 1484. godine, rušen i obnavljan" |
+| 3 | „Najpoznatija od osmanskih ekspedicija, ona velikog vezira Ahmed-paše Ćuprilića, slomljena je 1712. u Boju na Carevom Lazu" | greška | visoka | Pohod 1712. vodio je Ahmed-paša, ne Ćuprilić i ne veliki vezir; Ćuprilić (Numan-paša, bosanski vezir) vodio je pohod 1714. Predlog: „…ekspedicija Ahmed-paše slomljena je 1712. u Boju na Carevom Lazu" | Projekat Rastko – Cetinje, hronologija („1712 – kazneni pohod pod Ahmed-pašom … 1714 – novi kazneni pohod pod Numan-pašom Ćuprilićem"); rastko.rs „Mitropolija crnogorska za vrijeme mitropolita Petrovića" (https://www.rastko.rs/rastko-cg/povijest/istorijat/istorijat_3.html) |
+
+### Day 174 — Borba Crne Gore za samostalnost
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Godine 1712. bosanski vezir Ahmed-paša Ćuprilić, iz čuvene istanbulske porodice, krenuo je" | greška | visoka | „Godine 1712. osmanski zapovednik Ahmed-paša krenuo je…" | isto kao Day 173 #3 |
+| 2 | „Već 1714. isti Ahmed-paša Ćuprilić vratio se sa još jačom vojskom" | greška | visoka | „Već 1714. bosanski vezir Numan-paša Ćuprilić, iz čuvene porodice velikih vezira, krenuo je sa još jačom vojskom" | Rastko – Cetinje hronologija; rastko.rs „Mitropolija crnogorska…" (1714: ~2.000 poginulih, ~3.000 odvedenih na Glasinac/Romaniju) |
+| 3 | „Dva njegova pohoda kasnih osamdesetih i ranih devedesetih nanela su Crnogorcima teške udarce. Treći, septembra 1796, …" | greška | srednja | Glavni raniji pohod Mahmud-paše bio je 1785 (spaljen Cetinjski manastir); 1796. su usledile dve bitke (Martinići, jul; Krusi, 22. sept.). Predlog: „Njegov pohod 1785, kada je spaljen i Cetinjski manastir, naneo je Crnogorcima težak udarac. Godine 1796. ishod je bio drugačiji. U bici kod Krusa…" | Rastko – Cetinje hronologija („1785 – kazneni pohod pod Mahmud-pašom Bušatlijom"; „1796 – … Martinići"; „1796 – 22. septembra … Krusi; pogibija Mahmud-paše") |
+| 4 | „Stanovništvo je živelo u plemenima — Katunjani, Riđani, Bjelopavlići, Piperi, Kuči i drugi" | sumnjivo | srednja | Bjelopavlići i Piperi ulaze u sastav Crne Gore tek 1796. (posle Martinića), Kuči još kasnije; Riđani su hercegovačko (nikšićko) pleme. Predlog: „…u plemenima — Katunjani, Riječani, Lješnjani, Crmničani, a u susednim Brdima Bjelopavlići, Piperi, Kuči…" | ⚠ samo Wikipedia (Piperi; Bitka kod Martinića 1796; Brda) — proveriti u Istoriji Crne Gore III |
+| 5 | „njegov Zakonik, donošen u nekoliko verzija početkom devetnaestog veka" (Day 173: „1798. godine doneo") | sumnjivo | srednja | Neusaglašeno sa Day 173: prvi deo 1798, dopuna 1803. Predlog: „njegov Zakonik, donet 1798. i dopunjen 1803, …" | Istorija Crne Gore III (Titograd 1975) – Zakonik opšti crnogorski i brdski; poređenje sa Day 173 |
+
+### Day 175 — Boka Kotorska i primorje
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „…da bi 1420. godine ceo zaliv osim Herceg Novog priznao mletačku vlast" | greška | srednja | Kotor je 1420. priznao Veneciju, ali su Risan i obala od Herceg Novog do Risna bili hercegovi pa osmanski (1482–1687). Predlog: „da bi 1420. Kotor priznao mletačku vlast, dok su Herceg Novi i Risan 1482. pali pod Osmanlije i ostali njihovi do Morejskog rata" | L. Čoralić, „Boka kotorska u doba Morejskoga rata (1684–1699)", Kolo 3/2001 (matica.hr); Risan (Wikipedia kao putokaz) |
+| 2 | „Sloveni, najvećim delom pravoslavni Srbi, naseljavajući naročito … okolinu Perasta, Risna…" + podnaslov „Mletački zaliv pravoslavnih pomoraca" + „peraške crkve — pravoslavna i katoličke uz nju" + „deo šireg pravoslavnog … kanala" | sumnjivo | srednja | Perast je u 17–18. veku bio izrazito katolička pomorska varoš (Zmajevići, Viskovići, Bujovići, Martinovići, Smekje — katoličke porodice sa mletačkim plemstvom; Matija Zmajević i Marko Martinović bili su katolici). Pravoslavni su bili pre svega Risan, Herceg Novi, Grbalj, Krivošije. Predlog: „…naseljavajući naročito okolinu Risna i kasnije Herceg Novog"; podnaslov: „Mletački zaliv katoličkih i pravoslavnih pomoraca"; „peraške katoličke crkve…"; „deo šireg diplomatskog kanala" | Pomorski leksikon LZMK, „Perast" (https://pomorski.lzmk.hr/clanak/perast); Share Montenegro, „Ta gospoda, slavni Zmajevići" |
+
+### Day 176 — Dubrovnik i srpsko zaleđe
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „…zatim do 1526. ugarsko-hrvatske krune, a od pada Ugarske kod Mohača preuzela je obavezu plaćanja godišnjeg danka — harača — osmanskom sultanu" | greška | visoka | Harač sultanu Dubrovnik plaća od 1458. (1.500 dukata; od 1481. 12.500), dakle još pod ugarskim vrhovništvom; Mohač je samo okončao ugarsku zaštitu. Predlog: „…do 1526. ugarsko-hrvatske krune, a već od 1458. plaćala je i godišnji danak — harač — osmanskom sultanu" | I. Serdarević, „Dubrovačka Republika i Osmansko Carstvo" (repozitorij.hrstud.unizg.hr); Leksikon Marina Držića, „Diplomacija na istoku"; V. Miović (hrcak.srce.hr/file/46061) |
+
+### Day 177 — Kultura pod tuđom vlašću
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Posle kratkog veka Cetinjske štamparije (1493–1496), srpske štampane knjige radile su se daleko od srpskih zemalja: u Veneciji … kasnije u Vlaškoj i Rusiji" | greška | visoka | U 16. veku radio je niz štamparija u srpskim zemljama pod Osmanlijama: Goražde (1519–23), Rujno (1537), Gračanica (1539), Mileševa (1544–57), Beograd (1552), Mrkšina crkva (1562–66), Skadar (1563). Predlog: „…srpske knjige štampale su se u Veneciji, gde je Božidar Vuković od 1519. …, ali i u kratkovekim štamparijama u samim srpskim zemljama — u Goraždu, Rujnu, Gračanici, Mileševi, Beogradu i Mrkšinoj crkvi; kasnije u Vlaškoj i Rusiji…" | ISN III-2 (štamparstvo 16. veka); pregled „Srpske štamparije u 16. veku" (sr.wikipedia, kao putokaz); Goražde printing house |
+
+### Day 178 — Pismenost i škole
+ok — bez nalaza.
+
+### Day 179 — Srpsko građanstvo u monarhiji
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Sava Popović Tekelija, krajem veka i početkom narednog osnovaće u Pešti čuveni Tekelijanum" | greška | visoka | Tekelijanum je osnovan 1838. Predlog: „…Sava Popović Tekelija osnovaće 1838. u Pešti čuveni Tekelijanum…" | danas.rs / BBC na srpskom o Savi Tekeliji; novibechej.com „Establishment of Tekelijanum" |
+| 2 | „Novi Sad … do kraja veka stekao nadimak „srpska Atina"" | sumnjivo | srednja | Nadimak je iz 19. veka (vezuje se za 1860-e i preseljenje Matice srpske 1864). Predlog: „…a u 19. veku stekao nadimak „srpska Atina"" | nshronika.rs „Znate li zašto Novi Sad nosi naziv Srpska Atina?"; mojnovisad.com (2023) — lokalni izvori, bez akademske potvrde |
+
+## Crna Gora, primorje i kultura II (180–185)
+
+# Era IV — c6: dani 180–185 (Crna Gora, primorje i kultura — barok i prosvetiteljstvo, II deo)
+
+### Day 180 — Barok kod Srba
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Karlovačka ‚Slavjano-latinska škola', osnovana sredinom veka, uči latinski…" | greška | visoka | „Karlovačka latinska škola, osnovana 1726, a od 1733. pod Emanuilom Kozačinskim, uči latinski…" | Istorija srpskog naroda IV/1 (SKZ), poglavlje o školstvu Karlovačke mitropolije; Ćorović, Istorija Srba (rastko.rs) — Mojsije Petrović, Maksim Suvorov 1726, Kozačinski 1733; potvrđeno i u en.wikipedia „Karlovci Gymnasium" (samo kao pokazivač) |
+| 2 | „Tokom 18. veka u Karlovačkoj mitropoliji postepeno se prima ruska crkvenomuzička praksa — harmonizovano horsko pojanje umesto starog jednoglasja" | sumnjivo | srednja | „Tokom 18. veka u Karlovačku mitropoliju stižu ruske pojačke knjige i ruski uticaji; višeglasno horsko pojanje ustaliće se tek u 19. veku, a jednoglasno karlovačko pojanje ostaje osnova." | Pančevačko srpsko crkveno pevačko društvo (osn. 1838, prvo višeglasje u crkvi Božić 1838 — pscpd.com/en/about-history); višeglasje prvi put zabeleženo u Karlovcima 1834 (sr.wikipedia „Kornelije Stanković", ⚠ pokazivač); izvor za redovno horsko pojanje u 18. veku nije nađen |
+
+Napomena (van opsega činjenica): „nova građanska Srbija … graditi će" — pravopisna greška, treba „gradiće".
+
+### Day 181 — Jovan Rajić i istorijska svest
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „„Boj Zmaja s Orlovi", političko-istorijska pesma povezana sa austrijsko-turskim ratom za Bosnu krajem osamdesetih godina 18. veka" | greška | srednja | „… alegorijsko-istorijski spev (1791) o ratu Austrije i Rusije protiv Osmanlija 1787–1791, posvećen i austrijskom zauzimanju Beograda 1789" | Proleksis enciklopedija (LZMK), s.v. Rajić, Jovan — „ratovanje Austrije i Rusije protiv Osmanlija" (https://proleksis.lzmk.hr/43244/); M. Kostić, „Ep Boj zmaja s orlovi Jovana Rajića u srpskoj književnosti XVIII veka" (scindeks.ceon.rs) |
+| 2 | „Ostavio je bogoslovske spise, religiozne drame i poeziju" | sumnjivo | srednja | „… bogoslovske spise, istorijsku dramu (preradu Kozačinskove „Tragedije" o smrti cara Uroša, 1798) i poeziju" | Muzej pozorišne umetnosti Srbije, Teatroslov (teatroslov.mpus.org.rs); sr.wikipedia „Arhimandrit Jovan (Rajić)" ⚠ pokazivač |
+
+### Day 182 — Zaharije Orfelin
+ok — bez nalaza.
+
+### Day 183 — Dositej Obradović
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Iste godine [1807] postavljen je za prvog popečitelja prosveščenija" | greška | srednja | „Kada je u januaru 1811. Praviteljstvujušči sovjet podeljen na popečiteljstva, postao je prvi popečitelj prosveščenija; pre toga je bio Karađorđev savetnik i sovjetnik." | Istorija srpskog naroda V/1 (SKZ) — reorganizacija Sovjeta 1811; Ćorović, Istorija Srba (rastko.rs); talas.rs „Praviteljstvujušči sovjet serbski" (2021). Napomena: sr.wikipedia navodi „1807–1811", ali popečiteljstva formalno postoje tek od 1811. |
+| 2 | „koji je decu trgovaca podučavao gramatici u Smirni i u Londonu" | greška | srednja | „… koji je decu trgovaca podučavao u Dalmaciji, Trstu i Beču, a sam učio u Smirni i Londonu" | U Smirni je bio učenik škole Jeroteja Dendrina (1765–1768); u Londonu je 1784–1785. boravio kao gost (kod Džona Livija) i učio engleski; učiteljevao je u Dalmaciji (Kninsko polje, 1761–1763), Trstu, Beču — digitens.org, notice „Dositej Obradović"; Istorija srpskog naroda IV/2 |
+| 3 | „Rano je ostao bez roditelja i odrastao u kući strica" | sumnjivo | srednja | „… i dospeo kod tetka (tetkinog muža), koji ga je dao na zanat u Temišvar" | Dositej, „Život i priključenija", I; sr.wikipedia „Dositej Obradović" (⚠ pokazivač: „dopadne jednom tetku") |
+
+### Day 184 — Ideje prosvetiteljstva među Srbima
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Lukijan Mušicki … kasnije karlovački arhijerej" | sumnjivo (dvosmisleno) | visoka | „kasnije episkop gornjokarlovački" — u kontekstu lekcije „karlovački" čitalac vezuje za Sremske Karlovce/mitropoliju | Srpski biografski rečnik (Matica srpska), s.v. Mušicki: episkop gornjokarlovački od 1828 |
+
+### Day 185 — Trgovina i prvi privredni uspon
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Sava Tekelija, krajem veka već doktor prava bečkog univerziteta" | greška | visoka | „… doktor prava peštanskog univerziteta (1786)" | Srpski biografski rečnik / Matica srpska; en.wikipedia „Sava Tekelija" i više srpskih izvora: doktorirao u Pešti 1786 |
+| 2 | „Sava Tekelija … u sledećoj generaciji će u Pešti osnovati čuveni zavod" | sumnjivo | srednja | „… a pred kraj života (1838) sam će u Pešti osnovati čuveni zavod" — nije osnovan „u sledećoj generaciji", nego od samog Tekelije | Isti izvori (Tekelijanum osnovan njegovim zaveštanjem 1838) |
+
+## Pred ustanak I (186–190)
+
+# Era IV — c7: Dani 186–190 (Pred ustanak, prva polovina)
+
+### Day 186 — Osmansko slabljenje
+ok — bez nalaza.
+
+### Day 187 — Kočina krajina
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Krajem 1788. Koča je u jednom od sukoba zarobljen. Po predanju … odveden je u Niš i tamo … nabijanjem na kolac … pogubljen" (i `keyPlaces`: „Niš") | greška | visoka | „U septembru 1788. Koča je, braneći Brzasku u Banatu, zarobljen. … odveden je u Tekiju na Dunavu i tamo, zajedno sa drugovima, nabijen na kolac"; u `keyPlaces` zameniti „Niš" sa „Tekija" | V. Ćorović, Istorija srpskog naroda, VI/15 „Kočina krajina" (rastko.rs/rastko-bl/istorija/corovic/istorija/6_15_l.html): „branio rudarsko mesto Brzasku … bio opkoljen i zarobljen. Za kaznu Turci su njega i njegove drugove nabili na kolac u obližnjoj Tekiji"; RTV Vremeplov (7. sept. 1788, Brzasko) |
+| 2 | „Za Srbe u Beogradskom pašaluku, koji su četiri decenije ranije, posle požarevačkog mira i kratkotrajne austrijske vladavine, ponovo pali pod osmansku vlast" | greška | visoka | „…koji su pola veka ranije, Beogradskim mirom 1739, posle dvadesetogodišnje austrijske vladavine, ponovo pali pod osmansku vlast" (1739→1788 = 49 godina; povratak je doneo Beogradski, ne Požarevački mir — što i sama lekcija 186 kaže) | unutrašnja aritmetika; lekcija 186 („Osmanlije Beograd vratile 1739") |
+| 3 | „Sigurno je da je Koča sa svojim frajkorcima prešao na osmansku stranu" | sumnjivo (formulacija čita kao prebeg Osmanlijama) | srednja | „…prešao na osmansku teritoriju" / „prešao preko granice u pašaluk" | smisao celog pasusa; Ćorović VI/15 |
+
+### Day 188 — Svakodnevica uoči ustanka
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „preko granice su stizale i knjige štampane u Sremskim Karlovcima i Beču" | sumnjivo | srednja | „…knjige štampane u Beču, Veneciji i Budimu" (Karlovci su bili centar mitropolije i škola, ali srpska štamparija u 18. veku tamo nije radila; od 1770. monopol na srpsku ćiriličku štampu ima Kurcbek u Beču, od 1796. Univerzitetska štamparija u Budimu) | Cambridge, Austrian History Yearbook — „Austrian Enlightenment in Cyrillic: Joseph Kurzböck's Cyrillic Printing Shop…"; ⚠ samo Wikipedia za podatak da je Srpska manastirska štamparija u Karlovcima otvorena tek 1895 |
+| 2 | „hajdučki harambaša Stanoje Glavaš u kragujevačkoj nahiji" | sumnjivo | srednja | „…Stanoje Glavaš u smederevskoj nahiji" (rodom iz Glibovca kod Smederevske Palanke, vojvoda smederevske nahije) | RTS, „Smederevska nahija u Prvom srpskom ustanku"; ⚠ samo Wikipedia (Stanoje Glavaš, sr/en) |
+
+### Day 189 — Dahije i bezvlašće
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Selim je 1799. nerado dopustio da se janičari vrate u Beogradski pašaluk — računajući da će ih sada moći upotrebiti protiv vidinskog pobunjenika." | sumnjivo | srednja | „…dopustio da se janičari vrate u Beogradski pašaluk — u sklopu opšteg pomilovanja odmetnika, kojim je istovremeno oprošteno i samom Pazvan-Oglu, jer carstvo, napadnuto od Francuske u Egiptu, nije moglo da ratuje i spolja i iznutra." | Ćorović, Istorija srpskog naroda VII/1 (rastko.rs/rastko-bl/istorija/corovic/istorija/7_1_l.html): „proglasila milost svima odmetnicima … Tako je bilo krajem 1798. god. oprošteno i Pazvanoglu, i janjičarima. Ovima je čak bilo izrično dozvoljeno, da se vrate u Srbiju." (Ista mera koju i lekcija 188 tačno pripisuje ratu sa Francuskom.) |
+
+### Day 190 — Seča knezova
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Na praznik Sretenja, 14. februara po starom odnosno 26. februara po novom kalendaru 1804." | greška | visoka | „Na praznik Sretenja, 2. februara po starom odnosno 14. februara po novom kalendaru 1804." (Sretenje je 2. februar po julijanskom; razlika u 19. veku 12 dana — odatle i 4. februar = 23. januar za seču u istoj lekciji) | Ćorović VII/2 („u Orašcu na Sretenije 1804"); kalendarska aritmetika; Zbor u Orašcu (⚠ Wikipedia kao pokazivač: 2. II st. / 14. II n. st.) |
+| 2 | „Ilija Birčanin, knez posavotamnavski" | greška | srednja | „Ilija Birčanin, knez podgorski" (posavsko-tamnavska knežina bila je Aleksina; Birčanin je bio oborknez Podgorine „ispod Medvednika", iz Suvodanja) | Biografski leksikon Valjevskog kraja (Kolubara, knjige.kolubara.info/sh/BLVK1/tekst/2006/ — sadržaj nije bilo moguće učitati, pokazivač iz pretrage); J. Nović-Otočanin, „Birčanin Ilija oborknez ispod Međednika" (1862); ⚠ Wikipedia (Ilija Birčanin, Aleksa Nenadović) |
+| 3 | „skupina srpskih prvaka okupila se u Orašcu … kod marvenog hana i pod stogodišnjim drvetom" | sumnjivo | srednja | „…okupila se kod Orašca, u skrovitoj Marićevića jaruzi" (podatak o „marvenom hanu" nije nađen) | Ćorović VII/2 (zbor „u Orašcu", oko 300 ljudi); ⚠ Wikipedia (Marićevića jaruga) — izvor za „marveni han" nije nađen |
+
+## Pred ustanak II (191–195)
+
+# Era IV — dani 191–195 (Pred ustanak — dahije i seča knezova, 2. deo)
+
+### Day 191 — Narodni prvaci i sazrevanje otpora
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „U Jasenici se isticao Janko Katić, jedan od onih knezova koji su umeli i da pregovaraju i da podignu naoružane ljude." | greška | srednja | „Pod Kosmajem, u Turijskoj knežini, isticao se Janko Katić iz Rogače, buljubaša iz borbi s janičarima devedesetih, koji je umeo da podigne naoružane ljude." (Katić je rodom iz Rogače, Beogradska nahija, Turija/Kosmaj; knez i vojvoda postaje tek 1804; Jasenica je Glavaševa oblast u Smederevskoj nahiji.) | Politika, „Janko Katić – desna ruka vožda Karađorđa" (politika.rs/scc/clanak/422869) i „Janko Katić – jedan od pokretača Prvog srpskog ustanka" (politika.rs/scc/clanak/599690); en.wikipedia „Janko Katić" kao putokaz |
+
+### Day 192 — Veze sa Rusijom i Austrijom
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „da bi ih u Svištovskom miru ostavila bez zaštite i prepustila osmanskoj odmazdi" | sumnjivo | srednja | „da bi ih u Svištovskom miru vratila pod Portu, uz tek ugovorenu amnestiju" — Svištovski mir (1791) sadrži amnestiju za učesnike rata na austrijskoj strani, a sledi period fermana 1793/94 i relativnog mira pod Hadži Mustafa-pašom (što i Day 191 opisuje kao „prosperitet devedesetih"). Osećaj izdaje je stvaran, ali „odmazda" kao ishod mira nije. | Svištovski mir, tekst o amnestiji (⚠ samo Wikipedia: sh.wikipedia.org/wiki/Svištovski_mir); ISN IV/1 (poglavlje o Kočinoj krajini) za proveru |
+| 2 | „Praktične ruske veze sa Srbima u 18. veku … najpoznatiji je primer Atanasija Stojkovića, koji je u Harkovu postao profesor i kasnije rektor univerziteta." | sumnjivo | srednja | Dodati vreme: „…Atanasija Stojkovića, koji je od 1804. bio profesor, a potom i rektor univerziteta u Harkovu." — Stojković u Rusiju odlazi tek 1803/04, pa nije primer veza „u 18. veku". | opšte poznata biografija (Srpski biografski rečnik); izvor na mreži nije proveren |
+
+### Day 193 — Epska poezija kao pamćenje
+ok — bez nalaza.
+
+### Day 194 — Živeti pod dve imperije
+ok — bez nalaza.
+
+### Day 195 — Uoči Srpske revolucije — pregled
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Kada su krajem osamnaestog veka strani putnici i učeni Srbi počeli da te pesme beleže, otkrili su da pred sobom imaju jedan od najbogatijih epskih zbornika u Evropi tog vremena." | greška | srednja | „Kada su strani putnici i učeni Srbi, a naročito Vuk Karadžić početkom 19. veka, počeli da te pesme sistematski beleže…" — beleženje je starije (bugarštice kod Hektorovića 1568; Erlangenski rukopis oko 1716–1733, 217 pesama; Fortis 1774), a evropsko „otkriće" dolazi tek s Vukovim zbirkama od 1814 (što kaže i Day 193). | Oral Tradition Journal (M. Murko, „The Singers and their Epic Songs", journal.oraltradition.org); Vreme, „Geologija pesme" (vreme.com/en/kultura/geologija-pesme); izdanje Erlangenskog rukopisa, SKA 1925 (Gesemann) |
+
+## Doslednost između lekcija (cela era)
+
+_Nalazi koje vidi samo poređenje lekcija; deo se poklapa sa nalazima po lekcijama iznad (ista ispravka)._
+
+# Era IV (Days 151–195): usklađenost između lekcija
+
+Pregledane su sve 45 lekcija ere IV (naslov, `year`, `dateLabel`, sve rečenice s godinom, brojem, vladarom, titulom ili ključnim imenom), uz poređenje sa Days 139–150 (samo čitano; ta lekcije možda upravo menja drugi agent) i Days 196–200 tamo gde se teme preklapaju. Pod naslovom je uvek lekcija u kojoj treba nešto promeniti, a u zagradi stoji lekcija s kojom je u sukobu.
+
+### Day 157 — Obnova Pećke patrijaršije
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Do 1557. bio je već treći čovek države" (u Day 158 stoji: „Treći vezir postao je 1555. godine") | sumnjivo | srednja | „Do 1557. bio je već treći vezir Carstva" (treći vezir nije „treći čovek države": iznad njega su sultan, veliki i drugi vezir) | en.wikipedia „Sokollu Mehmed Pasha" kao putokaz (treći vezir 1555–1561, drugi 1561–1565, veliki 1565–1579); Hrvatski opći leksikon, s.v. „Sokolović, Mehmed-paša" |
+| 2 | „tih dvesta deset godina između 1557. i 1766" | sumnjivo | visoka | „tih dvesta devet godina" ili „više od dva veka" | aritmetika (1766 − 1557 = 209) |
+| 3 | „Godine 1766. osmanska vlast će je … ponovo ukinuti … — o čemu će biti reči kasnije." (isto obećanje u Day 165: „o čemu će biti reči u lekciji koja sledi", Day 169: „to je već priča za neki drugi dan") | sumnjivo | visoka | Nijedna lekcija ere IV ne obrađuje ukidanje 1766 (Day 166 je Vojna krajina; 1766 se u 164, 168, 173, 177 i 194 samo pominje). Ili izbaciti najavu u 157/165/169, ili u Day 194 dodati dve rečenice o ukidanju (ferman 1766, eparhije pod Carigradskom patrijaršijom, grčki arhijereji) | unutrašnja provera |
+
+### Day 158 — Mehmed-paša Sokolović
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Treći vezir postao je 1555. godine, ubrzo i drugi" (Day 157: „Do 1557. bio je već treći čovek države") | sumnjivo | srednja | „Treći vezir postao je 1555, drugi 1561. godine" (između je šest godina, ne „ubrzo") | isto kao Day 157 #1 |
+
+### Day 156 — Srpska crkva pod Osmanlijama
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Pećka patrijaršija … koja je gotovo čitav vek davala srpskoj zemlji sopstveno crkveno vrhovništvo" (Day 144: patrijaršija „osnovana je 1346"; ovde nestaje „negde oko 1463") | sumnjivo | visoka | „…koja je više od jednog veka davala…" (1346–oko 1463 je oko 117 godina) | aritmetika; datumi iz Day 144 i 157 |
+
+### Day 163 — Velika seoba Srba 1690.
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Stariji srpski izvori govorili su o trideset sedam, pa i preko dvesta hiljada porodica; savremena istoriografija najčešće računa s nečim skromnijim — možda trideset do pedeset hiljada porodica, što bi, sa decom, moglo značiti sto do dvesta hiljada duša." (u Day 164 stoji: 37.000 „familija" je „verovatno preuveličano", a „ozbiljne procene kreću se od nekoliko desetina hiljada do, po najsmelijim računima, više od stotinu hiljada duša"; Day 165: „nekoliko desetina hiljada ljudi") | greška | visoka | 30–50 hiljada porodica nije „skromnije" od 37 hiljada, a 100–200 hiljada duša je u Day 164 gornja, „najsmelija" granica. Uskladiti s Day 164: „Stariji izvori, oslonjeni na patrijarhove reči, govore o 37.000 porodica, što je verovatno preuveličano; savremene procene kreću se od nekoliko desetina hiljada do nešto preko sto hiljada duša." (izbaciti „preko dvesta hiljada porodica") | broj 37.000 porodica: Vuk Karadžić i tradicija (putokaz: sh.wikipedia „Velika seoba Srba", gde se procene kreću od 30.000 ljudi do 40.000 porodica); precizne procene treba proveriti u ISN III/1 (poglavlje o seobi) — nisam ih mogao proveriti na mreži |
+
+### Day 164 — Arsenije III Čarnojević
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „U Beču je Arsenije od cara Leopolda dobio dve povelje, takozvane Privilegije iz 1690. i 1691. godine" (u Day 165 i 167 stoje tri povelje: 1690, 1691. i 1695) | greška | visoka | „…dobio je povelje, takozvane Privilegije — najvažnije iz 1690. i 1691, a treću 1695. godine —…" | en.wikipedia „Metropolitanate of Karlovci" kao putokaz („three imperial chapters … 1690 … 1691 … 1695"); Britannica, „Arsenije III Crnojević" |
+
+### Day 165 — Srbi u Habzburškoj monarhiji
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „[Sremski Karlovci] Tu je posle 1690. utvrđena rezidencija srpskog mitropolita" (u Day 164 stoji: sedište se „već posle njegove smrti" utvrdilo u Karlovcima; Day 168: „rano u 18. veku") | greška | visoka | „Tu je od 1713. bilo stalno sedište srpskog mitropolita…" | Karlovačka mitropolija: Krušedol 1708–1713, Karlovci od 1713 (povelja Karla VI, oktobar 1713) — en.wikipedia „Metropolitanate of Karlovci" kao putokaz; proveriti u ISN IV/1 |
+| 2 | „naročito posle ukidanja Pećke patrijaršije 1766. godine, o čemu će biti reči u lekciji koja sledi" (Day 166 je Vojna krajina i o 1766 ne govori) | greška | visoka | izbaciti „o čemu će biti reči u lekciji koja sledi" (vidi Day 157 #3) | unutrašnja provera |
+
+### Day 167 — Privilegije srpskog naroda
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Kada je u leto 1690. godine patrijarh Arsenije III … prešao Savu i Dunav" (u Day 163 stoji: „U toku jeseni 1690. dugačke kolone … pošle su severno"; ista lekcija kaže da je prva povelja od 21. avgusta 1690. izdata „još pre nego što je glavnina seobe stigla na sever") | sumnjivo | srednja | „Kada je u jesen 1690. …" ili „Kada je 1690. godine …" (Beograd je pao 8. oktobra 1690; glavni prelaz preko Save bio je pred tim padom) | Day 163; ISN III/1 (tok seobe) — datum proveriti tamo |
+
+### Day 168 — Karlovačka mitropolija
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Posle njegove smrti 1706. mitropolijska stolica je neko vreme bila i u Sečuju u južnoj Ugarskoj, pa povremeno na drugim mestima — sve dok se rano u 18. veku nije ustalila u Sremskim Karlovcima" (u Day 164 stoji: „Arsenije je svoju stolicu prvo prebacio u Sečuj, zatim u manastir Krušedol") | greška | srednja | „Za Arsenijeva života stolica je bila u Sentandreji i Sečuju, gde je patrijarh imao vlastelinstvo; posle njegove smrti mitropolija je 1708–1713. imala sedište u Krušedolu, a 1713. se ustalila u Sremskim Karlovcima" (Sečuj je Arsenijev posed, zamenjen 1706. za Dalj — nije sedište posle njegove smrti) | en.wikipedia „Metropolitanate of Karlovci" i „Arsenije III Crnojević" kao putokaz (Sentandreja, Sečuj; Krušedol 1708, Karlovci 1713); proveriti u ISN IV/1 |
+
+### Day 170 — Srbi u Banatu, Bačkoj i Sremu
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „[Banat, Bačka i Srem] od kraja 17. veka, posle Velikog bečkog rata i Karlovačkog mira 1699, gotovo u celini su prešle pod Habzburge." (u Day 172 stoji: Požarevačkim mirom 1718 „Beč je dobio Banat — poslednju osmansku oblast severno od Dunava"; Day 171 isto) | greška | visoka | „Bačka i najveći deo Srema prešli su pod Habzburge Karlovačkim mirom 1699, a Banat tek Požarevačkim mirom 1718." | Karlovački mir 1699 (Temišvarski ejalet ostaje osmanski); Požarevački mir 1718; Britannica, „Treaty of Carlowitz" / „Treaty of Passarowitz" |
+
+### Day 173 — Crna Gora — vladike i plemena
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Najpoznatija od osmanskih ekspedicija, ona velikog vezira Ahmed-paše Ćuprilića, slomljena je 1712. u Boju na Carevom Lazu" (u Day 174 isti čovek je „bosanski vezir"; ni jedno ni drugo ne odgovara izvorima) | greška | visoka | „…ona serasker Ahmed-paše, slomljena je 1712. u Boju na Carevom Lazu" (Ćuprilić je vodio pohod 1714, vidi Day 174) | M. M. Marković, *Crnogorski rat* (feljton na montenegrina.net, „Bojevi na Carevom lazu, Čevu, Martinićima i Krusima"): „potučena vojska serašćera Ahmet-paše skadarskog"; 1714: „bosanski vezir Numan-paša Ćuprilić" |
+| 2 | „Kada je 1496. godine ugasla dinastija Crnojevića" (Day 140/141: Đurađ Crnojević je 1496. „primoran da napusti zemlju", Zeta posle toga pada pod Osmanlije) | sumnjivo | srednja | „Kada je 1496. pala vlast Crnojevića…" — dinastija nije izumrla (Đurđev brat Staniša, kasnije Skender-beg Crnojević, bio je osmanski sandžak-beg Crne Gore 1513–1528) | Day 141; ISN II (Zeta krajem 15. veka) |
+
+### Day 174 — Borba Crne Gore za samostalnost
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Godine 1712. bosanski vezir Ahmed-paša Ćuprilić, iz čuvene istanbulske porodice, krenuo je …" (Day 173: „velikog vezira Ahmed-paše Ćuprilića") | greška | visoka | „Godine 1712. serasker Ahmed-paša krenuo je sa velikom vojskom…" (izbaciti „Ćuprilić, iz čuvene istanbulske porodice") | isto kao Day 173 #1 |
+| 2 | „Već 1714. isti Ahmed-paša Ćuprilić vratio se sa još jačom vojskom" | greška | visoka | „Već 1714. bosanski vezir Numan-paša Ćuprilić, iz čuvene porodice velikih vezira, krenuo je sa još jačom vojskom" | isto kao Day 173 #1 |
+
+### Day 190 — Seča knezova
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Na praznik Sretenja, 14. februara po starom odnosno 26. februara po novom kalendaru 1804. godine" (u Day 197 i 199 stoji: 2. februara po starom, 14. februara po novom) | greška | visoka | „Na praznik Sretenja, 2. februara po starom odnosno 14. februara po novom kalendaru 1804. godine" | Sretenje je 2. februara po julijanskom kalendaru; razlika u 19. veku je 12 dana; Day 197/199 |
+
+### Day 195 — Uoči Srpske revolucije — pregled
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Pećka patrijaršija je već 1463. godine ukinuta i potčinjena Ohridskoj arhiepiskopiji." (Day 144: „Prema većem broju istraživača … oko 1463"; Day 156: „negde oko 1463"; Day 157: „Od oko 1463") | sumnjivo | visoka | „Pećka patrijaršija je ubrzo posle pada Despotovine, oko 1463, izgubila samostalnost, a njene eparhije su potpale pod Ohridsku arhiepiskopiju." | Days 144/156/157; hrcak.srce.hr, „Položaj Pećke patrijaršije u Osmanskom Carstvu od 1557. do 1690." (o sporu oko odnosa Peći i Ohrida posle 1459) |
+
+### Day 198 — Karađorđe Petrović (era V, preklapanje)
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Kada su starešine 15. februara 1804. godine u Orašcu … tražile vođu" (u Day 197 i 199 stoji: Sretenje, 2. februara po starom / 14. februara po novom) | greška | visoka | „…na Sretenje (2/14. februara) 1804. …" — 15. februar je današnji datum praznika (razlika kalendara je od 1900. 13 dana), ne datum iz 1804. | Day 197/199; aritmetika julijanskog/gregorijanskog kalendara |
+
+### Metapodatak `year` — hod unazad unutar ere (sve lekcije ispod)
+| # | Tvrdnja | Ocena | Sigurnost | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | 151 (1600) → **152 (1550)** → 153 (1600) → **154 (1550)** → 155 (1600) → **156 (1530)** | sumnjivo | visoka | 151–155 → `1520` (vrhunac pod Sulejmanom, pad Beograda 1521; sve lekcije su „15–17/18. vek"), 156 ostaje 1530 | CONTENT_MODEL.md („should not run backwards"); PRODUCT_REVIEW_2026-09-28 P3 #25 |
+| 2 | 161 (1650) → **162 (1600)** | sumnjivo | visoka | 159–161 → `1600` („16–18. vek"), 162 → `1615` (Uskočki rat 1615–1617, opisan u lekciji) | isto |
+| 3 | 165 (1700) → **166 (1650)** | sumnjivo | srednja | 166 → `1700` (lekcija: veliki talasi naseljavanja krajine „posle Seobe 1690") | isto |
+| 4 | 169 (1739) → **170 (1700)**; 172 (1718) → **173 (1700)** | sumnjivo | srednja | ne može se ispraviti bez promene redosleda (170–172 su tematske lekcije posle Druge seobe; 172 = Požarevac 1718). Ostaviti kao izuzetak | isto |
+| 5 | 175 (1700) → **176 (1650)** | sumnjivo | visoka | 176 → `1700` (Dubrovnik, „15–18. vek") | isto |
+| 6 | 184 (1780) → **185 (1770)** | sumnjivo | visoka | 185 → `1780` („18. vek") | isto |
+| 7 | 190 (1804) → **191 (1800)**, 192 (1800) → **193 (1700)** | sumnjivo | srednja | 191 i 192 → `1803` a 190 ostaje 1804 samo uz pomeranje 190 iza 192; bez promene redosleda ostaviti kao izuzetak. 193 (epska poezija, „16–19. vek") → `1803` ili izuzetak | isto |
+
+Svi `year` su u opsegu ere [1500..1804]; nijedan `year`/`dateLabel` ne protivreči opisanom sadržaju osim gore navedenog.
+
+---
+
+# Sporno u istoriografiji
+
+Nisu greške. „Ograda: DA" znači da je lekcija dobila kratku odredbu (jedna rečenica ili reč, u glasu lekcije); „NE" da je lekcija već ograđena ili je spor sitan. OSETLJIVO = nacionalno ili politički osetljiva formulacija.
+
+### Osmansko carstvo i život pod njim I (151–156)
+
+- Day 151 — „Svaka veća verska zajednica činila je jedan milet … Mileti su sami ubirali deo poreza, vodili svoje matične i sudske knjige” — Braude i novija literatura pokazuju da je „milet-sistem” kao uređena ustanova tvorevina 18–19. veka, a priča o uvođenju od Mehmeda II osnivački mit; u klasičnom razdoblju odnosi su uređivani pojedinačnim beratima crkvenim poglavarima — ograda: DA — „…ono što će se kasnije nazvati milet-sistemom (u 15–17. veku još neformalan skup povlastica)…” — Braude (1982)
+- Day 151 — „od početka 16. veka, posle osvajanja Egipta, osmanski sultan nosio je i titulu halife, vođe svih sunitskih muslimana” — priča o prenosu halifata sa al-Mutavakila na Selima 1517. kasnija je legenda; ideja o sultanu-halifi kao vođi svih sunita uobličena je u 18. veku (Kučuk-Kajnardžija 1774) — ograda: DA — „…sultan je sebi pripisivao i halifski ugled, koji će se tek kasnije tumačiti kao vođstvo nad svim sunitima” — H. Karateke, „Legitimizing the Ottoman Sultanate” (U. Chicago); EI2 „Khalīfa”
+- Day 154 — „bio je glavni činilac obnove Pećke patrijaršije 1557. godine” — tradicionalno gledište (prvi patrijarh Makarije bio je njegov rođak) nasuprot mišljenju da je odluku doneo sultan/Rustem-paša, a Sokolović imao posrednu ulogu — ograda: DA [OSETLJIVO] — „po preovlađujućem mišljenju imao je važnu ulogu…” — ISN III/1; rasprava prenesena u Glas Srpske / B92 (2020)
+- Day 156 — „čiji će lični interes i porodične veze odigrati važnu ulogu” — isti spor, ali već blago formulisan — ograda: NE — ISN III/1
+- Day 156 — „negde oko 1463 … Osmanske vlasti su je suspendovale” — nejasno je da li je patrijaršija formalno ukinuta ili je posle smrti Arsenija II (1463) ostala nepopunjena, pa je Ohrid postepeno preuzeo eparhije — ograda: NE (već „negde oko”; eventualno „nije obnovljena posle smrti patrijarha Arsenija II”) — ISN III/1; hrcak.srce.hr/file/44109
+- Day 152 — „Timar nije bio porodični posed … Smrću sipahije timar se vraćao sultanu” — tačno za sam timar, ali sinovi spahija imali su pravo na (manji) timar, pa je spahijski stalež faktički bio polunasledan — ograda: NE (pojednostavljenje) — İnalcık, *Classical Age*
+- Day 155 — „krsna slava sa korenima koji sežu daleko pre hrišćanstva” — paganski koreni slave su raširena, ali ne jednoglasna teza — ograda: NE — Srpski mitološki rečnik (Kulišić, Petrović, Pantelić)
+- Day 154 — brojevi (1 dečak na 40 kuća, 500–3.000 po skupljanju, 200–300 hiljada ukupno) — procene se jako razlikuju — ograda: NE (već ograđeno „s oprezom”) — Ménage, EI2 „Devshirme”
+
+### Osmansko carstvo i život pod njim II (157–162)
+
+- Day 157 — „Od oko 1463, kada je posle pada Bosne i konačnog sloma srednjovekovne srpske države Pećka patrijaršija prestala da postoji" — kraj se datuje različito: 1459 (pad Smedereva), oko 1463 (smrt Arsenija II) ili tek formalnim potčinjavanjem Ohridu (1530-ih, spor Pavla Smederevskog i Prohora); uzrok nije pad Bosne — ograda: NE (već stoji „oko"; eventualno „posle pada Smedereva 1459. i smrti patrijarha Arsenija II oko 1463") — sr.wikipedia „Istorija Pećke patrijaršije"; Ćirković, *Srbi u srednjem veku*.
+- Day 158 — „Carskim ukazom, pripremljenim i sprovedenim njegovom rukom" — uloga Mehmed-paše je opšteprihvaćena, ali bez direktnog dokumenta; deo literature naglašava inicijativu samog Makarija i spor sa Ohridom — ograda: NE (Day 157 već kaže da izvori ćute o pobudama; po želji „po svemu sudeći uz njegovo posredovanje") — Samardžić, *Mehmed Sokolović*; sr.wikipedia („Mehmedovom intervencijom ... njegovom rođaku Makariju").
+- Day 158 — „Makarije Sokolović — po većini izvora njegov rođeni brat" — brat, bratanac ili rođak; „po većini izvora" nije potkrepljeno (Day 157 kaže samo „bratom ili bliskim srodnikom") — ograda: NE (već ograđeno; poželjno uskladiti sa Day 157) — en.wikipedia „Makarije Sokolović" (⚠ putokaz).
+- Day 160 — „Svaka zajednica živi kao zaseban milet — pravna i verska kategorija osmanskog sistema" — Braude („Foundation Myths of the Millet System", 1982) i novija literatura: „milet sistem" je projekcija 19. veka unazad; katolički milet formalno priznat tek 1831 — ograda: DA — „Svaka verska zajednica ima sopstvene starešine... (ono što će se u 19. veku formalizovati kao milet)" — Braude & Lewis (ur.), *Christians and Jews in the Ottoman Empire* (1982), https://www.degruyterbrill.com/document/doi/10.1515/9781685850753-006/html
+- Day 161 — „Dolazi, najverovatnije, od mađarskog hajdú" — mađarsko ili tursko poreklo reči je sporno — ograda: NE (već ograđeno) — Skok, *Etimologijski rječnik*.
+- Day 162 — „Reč je pretežno o pravoslavnim srpskim izbeglicama" (Žumberak) — hrvatska istoriografija ih pretežno naziva Vlasima/uskocima, srpska Srbima; etnička oznaka za 16. vek je sporna — ograda: DA **OSETLJIVO** — „pravoslavnim izbeglicama, u izvorima Vlasima, koje srpska istoriografija smatra Srbima" — Ćorović, *Istorija Srba*; K. Kaser, *Slobodan seljak i vojnik*.
+- Day 162 — „Ivan Senjanin — figura sastavljena od više stvarnih ljudi" — lik se povezuje i sa konkretnim licima (npr. Ivan Vlatković) — ograda: NE — izvor nije nađen za konkretnu identifikaciju.
+
+### Velike seobe i Srbi u Habzburškoj monarhiji I (163–167)
+
+- Day 163 — „Brojke su sporne i biće sporne i dalje." / Day 164 — „ozbiljne procene kreću se od nekoliko desetina hiljada do … više od stotinu hiljada duša" — broj iseljenih 1690 (u literaturi od nekoliko hiljada do 400–500 hiljada) — ograda: NE (već ograđeno; ispraviti samo netačnu „savremenu" procenu u danu 163, vidi 163/1) — Ćorović; Ruvarac; pregled u en.wikipedia „Great Migrations of the Serbs".
+- Day 163 — „ostavila opustele krajeve u središtu starih srpskih zemalja … deo prostora preuzeli su, vremenom, drugi balkanski narodi i muslimansko stanovništvo" — obim depopulacije Kosova posle 1690 i sastav izbeglica (srpska istoriografija naspram N. Malcolma, koji smanjuje razmere seobe i ističe učešće Albanaca-katolika u ustanku) — ograda: NE — OSETLJIVO — formulacija je već umerena („deo prostora", „vremenom") — N. Malcolm, Kosovo: A Short History (1998), gl. 8; Ćorović.
+- Day 163 / 164 — Arsenijev prelazak na habzburšku stranu i uloga u seobi (da li je patrijarh „predvodio" seobu ili je s narodom bežao pred osmanskom vojskom; da li je carski proglas od 6. aprila 1690 bio poziv na ustanak ili na seobu) — dan 163 ispravno kaže „poziv … u oružje", dan 164 ocenu ograđuje — ograda: NE — Ćorović; D. Popović, Velika seoba Srba (1954).
+- Day 166 — „Habzburzi su tako uspeli da po uzoru na osmansku graničnu organizaciju izgrade sopstveni odgovor" — poreklo krajiškog uređenja (osmanski uzor, vlaški/uskočki obrasci ili habzburška inovacija) je sporno, a lekcija ga iznosi kao činjenicu — ograda: DA — predlog: „delom po uzoru na osmansku graničnu organizaciju" — izvor nije nađen u prolazu 2 (poznat spor; G. Rothenberg, The Austrian Military Border in Croatia, 1960).
+- Day 167 — „po nekim tumačenjima, na određenu ‚narodnu teritoriju'" — srpsko naspram bečkog/ugarskog tumačenja Privilegija — ograda: NE (lekcija već prikazuje obe strane) — ISN IV/1.
+
+### Velike seobe i Srbi u Habzburškoj monarhiji II (168–172)
+
+- Day 169 — „Druga seoba Srba zbila se 1739. i 1740. godine“ (i `dateLabel` „1739.“) — u srpskoj literaturi seoba se najčešće datira 1737–1739 (povlačenje sa Kosova i iz Pomoravlja počinje već 1737, posle neuspelog ustanka), a deo izvora ističe 1740. kao godinu glavnog prelaska — ograda: DA — „(u literaturi se datira i 1737–1739, jer je povlačenje počelo već 1737)“ — Ćorović VI/XIII (6_13_l.html); sr.wikipedia „Velike seobe Srba“ (⚠ pokazivač); Novosti, „Druga seoba Srba“ (1740)
+- Day 169 — „prazan prostor postepeno popunjava albansko stanovništvo, najčešće muslimansko“ — obim i uzročnost demografske promene na Kosovu u 18. veku predmet su spora srpske i albanske istoriografije — ograda: NE (lekcija je već ograđena: „dug i složen proces … samo upućuje“) — OSETLJIVO — —
+- Day 169 — broj iseljenika „od nekoliko hiljada do više od deset hiljada porodica“ — procene se jako razlikuju (Ćorović navodi skromne brojke, Vuk visoke o stradalima) — ograda: NE (već ograđeno) — Ćorović VI/XIII
+- Day 168 — Stratimirović i Vuk: „dvojstven stav“ — veći deo literature Stratimirovića vidi kao doslednog protivnika Vukove reforme; „dvojstven“ je blaže tumačenje — ograda: NE (lekcija već kaže „oštro neslaganje“ i „ne treba ulepšavati“) — opšte mesto, ISN V
+- Day 168 — „najstarija srpska gimnazija“ (Karlovci 1791) — ustaljena odredba, ali u Karlovcima je od 1726/1730-ih radila i latinska/slovenska škola — ograda: NE
+- Day 171 — iskustvo Frajkora „postati kičma Karađorđeve vojske“ — interpretacija, u srpskoj istoriografiji široko prihvaćena (Karađorđe i niz vođa služili u Frajkoru) — ograda: NE
+
+### Crna Gora, primorje i kultura I (173–179)
+
+- Day 173 — „takozvana „Istraga poturica" … savremena istoriografija … smatra verovatnijim da se radilo o dužem, postupnom procesu" — istoričnost i datovanje (1702/1707/1709 ili proces) — ograda: NE [OSETLJIVO] — već ograđeno, dobro — Istorija Crne Gore III/1; ISN IV.
+- Day 174 — „Pojedinosti bitke, broj boraca i tačan tok sukoba u izvorima se razlikuju" (Carev Laz) — razmere pobede preuveličane u predanju — ograda: NE — već ograđeno — Istorija Crne Gore III/1.
+- Day 175 — „Sloveni, najvećim delom pravoslavni Srbi" (Boka) — etnička identifikacija bokeljskog stanovništva (srpska / crnogorska / hrvatska / bokeljska historiografija) — ograda: NE [OSETLJIVO] — za pravoslavne 17–18. veka srpska identifikacija je u literaturi uobičajena; ali je ne proširivati na katolički Perast (vidi Day 175 #2) — ISN IV; Čoralić (matica.hr).
+- Day 176 — „Nije bila „srpski grad" niti je sebe takvim videla … danas pre svega ubrojena u hrvatsku kulturnu istoriju" — pripadnost dubrovačke baštine — ograda: NE [OSETLJIVO] — već neutralno formulisano.
+- Day 173/174 — „nasledna teokratska vlast … dinastija Petrovića-Njegoša" / crnogorska „nezavisnost" 18. veka — stepen stvarne samostalnosti i državnosti pre 1878. (crnogorska, srpska i osmanistička historiografija) — ograda: NE [OSETLJIVO] — Day 174 već kaže „tu meru treba zadržati"; neutralno.
+
+### Crna Gora, primorje i kultura II (180–185)
+
+- Day 183 — „Dimitrije Obradović rodio se 1739. godine" (i dateLabel „1739–1811.") — godina rođenja se u literaturi navodi kao 1739/1740 ili 1742/1743 — ograda: NE (standard u većini priručnika je 1739; može se dodati „verovatno") — predlog: „rodio se, po najčešćem navodu, 1739." — sr.wikipedia „Dositej Obradović" (⚠ pokazivač), Srpska enciklopedija
+- Day 183 — „Njegov najvažniji praktični potez bio je osnivanje Velike škole u Beogradu 1808 … Iz te ustanove … izrašće Beogradski univerzitet" — deo literature ističe da je školu organizovao i otvorio Ivan Jugović (1. IX 1808), a kontinuitet s Univerzitetom je simboličan (Velika škola prestaje 1813; Licej 1838) — ograda: NE (lekcija već kaže „posle više preinačenja") — Istorija srpskog naroda V/1
+- Day 180 — „harmonizovano horsko pojanje umesto starog jednoglasja" u 18. veku — vidi nalaz 180/2; ako se ne prepravi, ograda: DA — „prvi ruski uticaji na pojanje"
+- Day 185 — „Vojvodine, koja u 18. veku postaje žitnica monarhije" — anahron naziv (Vojvodina kao pojam od 1848) — ograda: NE (uobičajeno pojednostavljenje)
+
+### Pred ustanak I (186–190)
+
+- Day 187 — „po jednoj tradiciji rodom iz okoline Jagodine" — Ćorović navodi Panjevac kod Jagodine bez ograde; lekcija ogradu već ima — ograda: NE — (bez izmene; može se dodati „iz Panjevca kod Jagodine") — Ćorović VI/15
+- Day 188 — „Hatišerif iz 1793." — u literaturi se govori o nizu fermana 1793, 1794. i 1796, a naziv „hatišerif iz 1793" je uobičajen skraćeni — ograda: NE — Ćorović VII/1; Istorija srpskog naroda IV/1
+- Day 188/189 — „Srpska majka" — nadimak iz predanja; lekcija 188 već ograđuje („oblikovana i naknadno") — ograda: NE
+- Day 189 — „deo Turaka pašaluka tiho je saosećao sa srpskim tegobama … šira pobuna pašaluka protiv dahijske vlasti" — interpretacija (Ekmečić, ISN V) koju deo istoriografije umanjuje; već ograđeno („deo", „u prvom svom času") — ograda: NE [OSETLJIVO]
+- Day 190 — broj žrtava seče (lekcija: „nekoliko desetina … do stotinu i više") — Ćorović: „ukupno oko 70 lica"; lekcija već ograđena — ograda: NE — Ćorović VII/2
+- Day 186 — pravo Rusije iz Kučuk-Kajnardžija da se „zauzima za pravoslavne podanike" — sporno tumačenje čl. 7 i 14; lekcija već ograđena — ograda: NE
+
+### Pred ustanak II (191–195)
+
+- Day 195 — „Pećka patrijaršija je već 1463. godine ukinuta i potčinjena Ohridskoj arhiepiskopiji" — nema formalnog akta ukidanja; posle smrti patrijarha Arsenija II (1463) nije biran naslednik, a Ohrid je jurisdikciju preuzimao postepeno. Datum 1463 je standardan u srpskoj literaturi — ograda: NE — (ako se želi: „posle 1463. ostala je bez patrijarha i potpala pod Ohridsku arhiepiskopiju") — Istorija Pećke patrijaršije (sr.wikipedia kao putokaz); hrcak.srce.hr/file/44109 („Položaj Pećke patrijaršije u Osmanskom Carstvu od 1557").
+- Day 195 — „Crna Gora je, u brdima koje osmanska vojska nikada nije do kraja pokorila, održala neprekinutu nit srpskog političkog života" — obim osmanske vlasti (sandžak Crna Gora 1514–1528, harač) i nacionalno određenje crnogorske tradicije sporni su između srpske i crnogorske istoriografije; lekcija već ograđuje („do kraja") — ograda: NE OSETLJIVO — bez izmene ili „…političkog života pravoslavnih Srba i Crnogoraca" — bez proverenog izvora na mreži.
+- Day 192 — „prepustila osmanskoj odmazdi" (vidi nalaz 192/1) — deo srpske tradicije o „izdaji" 1791. — ograda: DA — vidi predlog iznad — sh.wikipedia Svištovski mir (⚠ samo Wikipedia).
+- Day 193 — „Najstariji sloj činile su pesme o Nemanjićima" — ciklusi se dele po predmetu, ne po starosti nastanka; najstariji zapisi (bugarštice) su kosovski i o Marku/despotima — ograda: NE — (moguće „Hronološki prvi ciklus…") — opšte mesto folkloristike (Murko, Oral Tradition).
