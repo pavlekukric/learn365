@@ -13,7 +13,7 @@ export interface LessonFooterLink {
   title: string;
   dayNumber: number;
   href: string;
-  /** Era label (e.g. "Nemanjićka Srbija") rendered on the post-completion
+  /** Short era label (e.g. "Nemanjići") rendered on the post-completion
    * next-lesson card. Optional so callers that don't have it pass nothing. */
   eraLabel?: string;
   readingTimeMinutes?: number;

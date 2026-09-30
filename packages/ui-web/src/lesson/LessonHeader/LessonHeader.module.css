@@ -31,3 +31,17 @@
     padding-right: 48px;
   }
 }
+
+/* Phones: the header's rhythm is the flex gap alone. The title and the lede
+ * used to add the browser's default margins (~20 px + ~18 px) on top of it,
+ * which pushed the first sentence to ~60 % of an 844 px screen (review
+ * 2026-09-30, user pass). Desktop keeps its airier, reviewed spacing. */
+@media (max-width: 720px) {
+  .header > h1,
+  .header > p {
+    margin: 0;
+  }
+  .header > h1 {
+    margin-top: var(--space-1);
+  }
+}

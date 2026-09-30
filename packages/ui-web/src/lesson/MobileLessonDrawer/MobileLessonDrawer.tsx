@@ -144,15 +144,19 @@ export function MobileLessonDrawer({
         aria-modal="true"
         aria-label={ariaLabel}
       >
-        <button
-          type="button"
-          data-drawer-close
-          className={styles.closeButton}
-          onClick={onClose}
-          aria-label="Zatvori"
-        >
-          <IconClose />
-        </button>
+        {/* The close button has its own row: pinned over the scrolling body
+         * it covered whatever scrolled under it (e.g. the era rail's years). */}
+        <div className={styles.header}>
+          <button
+            type="button"
+            data-drawer-close
+            className={styles.closeButton}
+            onClick={onClose}
+            aria-label="Zatvori"
+          >
+            <IconClose />
+          </button>
+        </div>
         <div className={styles.body}>{children}</div>
       </div>
     </div>

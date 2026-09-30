@@ -1,6 +1,6 @@
 # Handoff — Istorija 365 / Istorija Srbije 365
 
-**Last updated:** 2026-09-30, early morning — **Phase 17 done:** the whole engineering backlog of [`docs/PRODUCT_REVIEW_2026-09-30.md`](docs/PRODUCT_REVIEW_2026-09-30.md) (P0, P1 items 7–10, P2 items 12–19, the owner-approved parts of P3 item 20) shipped overnight as PRs #60–#65, each squash-merged on green CI and rolled out. What is true now: [`docs/PROJECT_STATE.md`](docs/PROJECT_STATE.md) → "Current Baseline" and "Phase 17". The previous, much longer version of this file is [`docs/archive/HANDOFF_2026-09-29.md`](docs/archive/HANDOFF_2026-09-29.md) (history only).
+**Last updated:** 2026-09-30, morning — **Phase 18 done:** a user-side walk of the live site (8 / 10) and its first four fixes — era names, Home for a returning reader, the mobile lesson header, the drawer's close row (PROJECT_STATE → "Phase 18"). **Phase 17 done:** the whole engineering backlog of [`docs/PRODUCT_REVIEW_2026-09-30.md`](docs/PRODUCT_REVIEW_2026-09-30.md) (P0, P1 items 7–10, P2 items 12–19, the owner-approved parts of P3 item 20) shipped overnight as PRs #60–#65, each squash-merged on green CI and rolled out. What is true now: [`docs/PROJECT_STATE.md`](docs/PROJECT_STATE.md) → "Current Baseline" and "Phase 17". The previous, much longer version of this file is [`docs/archive/HANDOFF_2026-09-29.md`](docs/archive/HANDOFF_2026-09-29.md) (history only).
 
 ## Where the app is right now
 
@@ -23,6 +23,7 @@ The Claude Code auto-mode policy refuses remote shell writes on the VPS, so thes
 
 - **Content (the review's biggest remaining risk):** the historian pass over all 365 lessons (the sample found ~1 checkable slip per lesson — review item 6, with the medium-confidence list), a named reviewer + per-era reading lists (trust layer), Day 361 (stops at 2021–22; the Novi Sad canopy and the 2024–25 protests are missing — item 11), coverage gaps and voice (items 21–22), unused fields (item 23). Editorial work; Claude can prepare drafts lesson by lesson, the owner decides.
 - **Manual QA a person has to do:** a screen-reader pass (VoiceOver / NVDA) over TopBar, the era accordion, the completion toggle and the drawer; a look at the site on a real phone after the cascade fix and the font move.
+- **UI left from the Phase 18 walk (owner's call):** the desktop hero's empty right half, uneven Home era-rail bands, paragraph spacing (default `p` margins on top of the flex gap → ~58 px), the blurry Day 1 figure, the long mobile course overview, the small desktop `Označi kao pročitano`.
 - **Engineering left over (small, optional):** English route segments (`/course/…/lesson/…`) → Serbian with redirects; `og:url` on the 404 / account pages still inherits Home (noindex pages); type-aware lint (`strictTypeChecked`) for floating promises; a mobile Lighthouse re-measure; Phase 8b native mobile (plan-before-code).
 
 ## How to plan the next phase

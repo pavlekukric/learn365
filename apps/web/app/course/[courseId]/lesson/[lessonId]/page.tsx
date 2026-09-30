@@ -68,7 +68,7 @@ function adjacent(courseId: string, lesson: LessonSummary | null): LessonFooterL
     title: lesson.title,
     dayNumber: lesson.dayNumber,
     href: lessonPath(courseId, lesson.id),
-    ...(era?.title !== undefined ? { eraLabel: era.title } : {}),
+    ...(era ? { eraLabel: era.eraShort } : {}),
     ...(lesson.isPlaceholder === true ? {} : { readingTimeMinutes: lesson.readingTimeMinutes }),
   };
 }
@@ -140,7 +140,7 @@ export default async function LessonPage({ params }: PageProps) {
   const breadcrumbs = [
     { label: 'Početna', href: '/' },
     { label: course.title, href: courseHref },
-    { label: era.title, href: firstInEra ? lessonPath(course.id, firstInEra.id) : courseHref },
+    { label: era.eraShort, href: firstInEra ? lessonPath(course.id, firstInEra.id) : courseHref },
     {
       label: section.title,
       href: firstInSection ? lessonPath(course.id, firstInSection.id) : courseHref,
