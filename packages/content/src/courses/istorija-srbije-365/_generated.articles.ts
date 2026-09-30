@@ -15976,11 +15976,11 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Središnji ugovor bio je srpsko-bugarski, potpisan 29. februara, odnosno po novom kalendaru 13. marta 1912. godine. Sa srpske strane potpisao ga je Nikola Pašić, predsednik vlade i ministar inostranih dela, sa znanjem i podrškom kralja Petra I; sa bugarske Ivan Evstratijev Gešov. Javni deo ugovora bio je odbrambeni: dve države garantovale su jedna drugoj nezavisnost i celovitost i obavezivale se da će u slučaju napada velike sile na bilo koju od njih priteći u pomoć. Tajni dodatak išao je mnogo dalje. Predviđao je zajedničko ratovanje protiv Osmanskog carstva ako se na evropskim teritorijama Carstva dogodi „nered” koji bi ugrozio njihove nacionalne interese — formulacija koja je obema vladama davala lak izgovor za ofanzivu kad to procene pogodnim."
+        "text": "Središnji ugovor bio je srpsko-bugarski, potpisan 29. februara, odnosno po novom kalendaru 13. marta 1912. godine. Sa srpske strane potpisao ga je Milovan Milovanović, predsednik vlade i ministar inostranih dela, sa znanjem i podrškom kralja Petra I; sa bugarske Ivan Evstratijev Gešov. Osnovni tekst ugovora — i sam poverljiv — bio je odbrambeni: dve države garantovale su jedna drugoj nezavisnost i celovitost i obavezivale se da će u slučaju napada velike sile na bilo koju od njih priteći u pomoć. Tajni dodatak išao je mnogo dalje. Predviđao je zajedničko ratovanje protiv Osmanskog carstva ako se na evropskim teritorijama Carstva dogodi „nered” koji bi ugrozio njihove nacionalne interese — formulacija koja je obema vladama davala lak izgovor za ofanzivu kad to procene pogodnim."
       },
       {
         "type": "paragraph",
-        "text": "U tom tajnom prilogu krila se i najosetljivija stavka: podela osmanskih teritorija u Makedoniji. Jedan deo predviđen je kao nesporno bugarski — istočno od Strume i Rodopa — a drugi kao nesporno srpski, severno i severozapadno od planinskog luka Šar — Karadag. Između njih ostavljena je tzv. sporna zona, oblast oko Skoplja, Kumanova, Velesa i južno odatle, koju nijedna strana nije bila spremna ni da prepusti ni formalno da traži. O njenoj sudbini odlučivao bi, ako se strane ne dogovore, ruski car kao arbitar. Već u tom članu može se nazreti otvoreno pitanje koje će se vratiti godinu dana kasnije: da li je sama konstrukcija „sporne zone” unapred nosila seme rascepa, jer su obe strane potpisivale ugovor uverene da bi krajnja arbitraža išla njima u korist."
+        "text": "U tom tajnom prilogu krila se i najosetljivija stavka: podela osmanskih teritorija u Makedoniji. Jedan deo predviđen je kao nesporno bugarski — istočno od Strume i Rodopa — a drugi kao nesporno srpski, severno i severozapadno od planinskog luka Šar — Karadag. Između njih ostavljena je tzv. sporna zona, oblast oko Skoplja, Kumanova, Debra i Struge, severno od linije Kriva Palanka–Ohrid (južno od te linije sve je pripadalo Bugarskoj), koju nijedna strana nije bila spremna ni da prepusti ni formalno da traži. O njenoj sudbini odlučivao bi, ako se strane ne dogovore, ruski car kao arbitar. Već u tom članu može se nazreti otvoreno pitanje koje će se vratiti godinu dana kasnije: da li je sama konstrukcija „sporne zone” unapred nosila seme rascepa, jer su obe strane potpisivale ugovor uverene da bi krajnja arbitraža išla njima u korist."
       },
       {
         "type": "heading",
@@ -15993,7 +15993,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Mrežu je upotpunio srpsko-crnogorski sporazum, zaključen tokom leta 1912. godine. Crna Gora, najmanja članica budućeg saveza i jedina kraljevina sa pravoslavnom dinastijom koja je već imala neposrednu granicu sa Osmanlijama, ušla je u dogovor preko vladara Nikole Petrovića. Beograd i Cetinje uskladili su vojne planove za nastup u Sandžaku, prema Kosovu i prema Skadru. Postojao je i usmeni, neformalni sloj dogovora između Sofije i Cetinja. Tako se do jeseni 1912. oblikovao sistem od četiri države povezanih sa tri pisana ugovora i nizom neformalnih obaveza — bez ijedne zajedničke konferencije, bez jednog dokumenta koji bi sve obavezivao istovremeno."
+        "text": "Mrežu je upotpunio srpsko-crnogorski sporazum, zaključen početkom jeseni 1912. (23. septembra / 6. oktobra). Crna Gora, najmanja članica budućeg saveza, kraljevina od 1910, ušla je u dogovor preko vladara Nikole Petrovića. Beograd i Cetinje uskladili su vojne planove za nastup u Sandžaku, prema Kosovu i prema Skadru. Postojao je i usmeni, neformalni sloj dogovora između Sofije i Cetinja. Tako se do oktobra 1912. oblikovao sistem od četiri države povezanih sa tri pisana ugovora i nizom neformalnih obaveza — bez ijedne zajedničke konferencije, bez jednog dokumenta koji bi sve obavezivao istovremeno."
       },
       {
         "type": "paragraph",
@@ -16005,19 +16005,19 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Sa kraljem Petrom I koji je pažljivo poklanjao podršku, ali ostavljao operativno vođenje Pašiću, Srbija je u to leto stajala spremnija nego ikada pre. Vojska je bila reorganizovana posle aneksione krize 1908, finansije ojačane francuskim zajmovima, oficirski kor uvežban. Ostalo je još samo da neki povod — bilo koji nered u Makedoniji ili nova osmanska represija — pokrene mehanizam koji su ugovori već postavili. Da li su odredbe o Makedoniji, naročito konstrukcija sporne zone, već u sebi nosile seme rascepa koji će između saveznika izbiti 1913, ostaje otvoreno pitanje. Istoričari ga rešavaju različito — ali svi se slažu da je 1912. saveznicima izgledalo da imaju vremena da o tome odluče tek posle pobede koja im se činila izvesnom."
+        "text": "Sa kraljem Petrom I koji je pažljivo poklanjao podršku, ali ostavljao operativno vođenje vladi, Srbija je u to leto stajala spremnija nego ikada pre. Vojska je bila reorganizovana posle aneksione krize 1908, finansije ojačane francuskim zajmovima, oficirski kor uvežban. Ostalo je još samo da neki povod — bilo koji nered u Makedoniji ili nova osmanska represija — pokrene mehanizam koji su ugovori već postavili. Da li su odredbe o Makedoniji, naročito konstrukcija sporne zone, već u sebi nosile seme rascepa koji će između saveznika izbiti 1913, ostaje otvoreno pitanje. Istoričari ga rešavaju različito — ali svi se slažu da je 1912. saveznicima izgledalo da imaju vremena da o tome odluče tek posle pobede koja im se činila izvesnom."
       }
     ],
-    "subtitle": "Kako su tajni bilateralni ugovori u proleće 1912. povezali Srbiju, Bugarsku, Grčku i Crnu Goru protiv Osmanlija",
+    "subtitle": "Kako su tajni bilateralni ugovori 1912. povezali Srbiju, Bugarsku, Grčku i Crnu Goru protiv Osmanlija",
     "dateLabel": "1912.",
     "timelinePosition": "proleće 1912.",
-    "summary": "Niz tajnih bilateralnih ugovora iz proleća 1912. povezao je Srbiju, Bugarsku, Grčku i Crnu Goru u savez protiv slabećeg Osmanskog carstva — trezven diplomatski poduhvat, a ne romantičan pan-slovenski pokret.",
+    "summary": "Niz tajnih bilateralnih ugovora iz proleća i leta 1912. povezao je Srbiju, Bugarsku, Grčku i Crnu Goru u savez protiv slabećeg Osmanskog carstva — trezven diplomatski poduhvat, a ne romantičan pan-slovenski pokret.",
     "keyPeople": [
-      "Nikola Pašić",
+      "Milovan Milovanović",
       "kralj Petar I Karađorđević",
       "Ivan Evstratijev Gešov",
       "Eleftherios Venizelos",
-      "knez Nikola Petrović",
+      "kralj Nikola I Petrović",
       "ruski car Nikolaj II"
     ],
     "keyPlaces": [
@@ -16063,7 +16063,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Osmanska država, iznutra rastrzana posle mladoturske revolucije i italijansko-turskog rata u Libiji, nije izdržala udar na više frontova istovremeno. Već u decembru 1912. tražila je primirje. Mirovni pregovori pokrenuti su u Londonu, pod okriljem velikih sila; prekinuti su zbog državnog udara u Carigradu u januaru 1913, pa nastavljeni, i konačno završeni Londonskim ugovorom u maju 1913. godine. Po tom miru, Osmansko carstvo je izgubilo gotovo celu evropsku teritoriju zapadno od linije Enos–Midija, na dvadesetak kilometara od Carigrada — najveći teritorijalni gubitak u njegovoj evropskoj istoriji."
+        "text": "Osmanska država, iznutra rastrzana posle mladoturske revolucije i italijansko-turskog rata u Libiji, nije izdržala udar na više frontova istovremeno. Već u decembru 1912. tražila je primirje. Mirovni pregovori pokrenuti su u Londonu, pod okriljem velikih sila; prekinuti su zbog državnog udara u Carigradu u januaru 1913, pa nastavljeni, i konačno završeni Londonskim ugovorom u maju 1913. godine. Po tom miru, Osmansko carstvo je izgubilo gotovo celu evropsku teritoriju zapadno od linije Enos–Midija, koja je od Carigrada bila udaljena stotinak i više kilometara — najveći teritorijalni gubitak u njegovoj evropskoj istoriji."
       },
       {
         "type": "paragraph",
@@ -16127,7 +16127,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "U javnom pamćenju, bitka je vrlo brzo dobila i drugu dimenziju. Govorilo se i pisalo o „osveti Kosova”, o povratku na poprišta srednjovekovne države, o krugu koji se posle pet vekova zatvara. To je bio lukav i emotivno snažan simbol, ali — istorijski gledano — u stvarnim odlukama koje su donosili Putnik, Aleksandar i komandanti divizija on nije imao bitnu ulogu. Operativni razlozi bili su prozaičniji: kontrola Vardara, izlazak na železnicu, presecanje osmanskih komunikacija. Veza sa 1389. dodata je kasnije, da bi se vojnička pobeda upisala u stariju, već poznatu nacionalnu priču."
+        "text": "U javnom pamćenju, bitka je vrlo brzo dobila i drugu dimenziju. Govorilo se i pisalo o „osveti Kosova”, o povratku na poprišta srednjovekovne države, o krugu koji se posle pet vekova zatvara. To je bio lukav i emotivno snažan simbol, ali — istorijski gledano — u stvarnim odlukama koje su donosili Putnik, Aleksandar i komandanti divizija on nije imao bitnu ulogu. Operativni razlozi bili su prozaičniji: kontrola Vardara, izlazak na železnicu, presecanje osmanskih komunikacija. Veza sa 1389. isticana je već tada, u proglasima i štampi, ali na operativne odluke nije bitno uticala."
       },
       {
         "type": "paragraph",
@@ -16162,7 +16162,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Iz Skoplja je vojska krenula u dva pravca. Treća armija, pod komandom generala Božidara Jankovića, okrenula se zapadno, ka oblasti koju su tadašnji srpski izvori nazivali Starom Srbijom — kosovskom vilajetu i delu metohijskog. U razmaku od nekoliko nedelja oslobođeni su Prizren, Peć i Đakovica, gradovi u kojima je srpska crkva imala stara središta i u kojima je pravoslavno stanovništvo decenijama živelo pod teškim pritiskom. Druga i Prva armija nastavile su na jug, kroz Vardarsku Makedoniju, i susrele se sa novom turskom odbranom kod Bitolja. Tamo se 16, 17. i 18. novembra vodila teška, dvodnevna bitka — po obimu odmah iza Kumanova — koja je završena srpskom pobedom i ulaskom u grad 18. odnosno 19. novembra. Ubrzo posle Bitolja pao je i Ohrid, a srpske jedinice spojile su se sa grčkom vojskom koja je dolazila sa juga."
+        "text": "Iz Skoplja je vojska krenula u dva pravca. Treća armija, pod komandom generala Božidara Jankovića, okrenula se zapadno, ka oblasti koju su tadašnji srpski izvori nazivali Starom Srbijom — kosovskom vilajetu, sa Metohijom. U razmaku od nekoliko nedelja oslobođen je Prizren, dok su Peć (30. oktobra) zauzele crnogorske jedinice, a Đakovicu (4. novembra) crnogorska i srpska vojska zajedno — gradove u kojima je srpska crkva imala stara središta i u kojima je pravoslavno stanovništvo decenijama živelo pod teškim pritiskom. Druga i Prva armija nastavile su na jug, kroz Vardarsku Makedoniju, i susrele se sa novom turskom odbranom kod Bitolja. Tamo se od 16. do 19. novembra vodila teška, višednevna bitka — po obimu odmah iza Kumanova — koja je završena srpskom pobedom i ulaskom u grad 18. odnosno 19. novembra. Ubrzo posle Bitolja pao je i Ohrid, a srpske jedinice spojile su se sa grčkom vojskom koja je dolazila sa juga."
       },
       {
         "type": "paragraph",
@@ -16216,7 +16216,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "content": [
       {
         "type": "paragraph",
-        "text": "Pobeda nad Osmanskim carstvom u proleće 1913. godine ostavila je balkanske saveznike sa ogromnim plenom — i sa pitanjem na koje predratni sporazumi nisu davali jasan odgovor. Mir u Londonu povukao je granicu Osmanskog carstva u Evropi na liniju Enos—Midija, ali nije rekao gde se završava srpsko, a gde počinje bugarsko. Sve se vrtelo oko Makedonije. Po srpsko-bugarskom ugovoru iz marta 1912. veći deo te oblasti bio je obećan Bugarskoj, a sporna „severna zona” trebalo je da se prepusti arbitraži ruskog cara. Ali rat je tekao drugačije od plana: srpska vojska je u brzom pohodu osvojila Vardarsku Makedoniju do Bitolja, dok je bugarska glavnina bila vezana za tešku tračku frontu i opsadu Jedrena. Srbija i Grčka, koje su se u međuvremenu sporazumele o zajedničkoj liniji, smatrale su da nova stvarnost traži novi račun i da arbitražni okvir, sklopljen za sasvim drugačiji ratni scenario, više ne odgovara.",
+        "text": "Pobeda nad Osmanskim carstvom u proleće 1913. godine ostavila je balkanske saveznike sa ogromnim plenom — i sa pitanjem na koje predratni sporazumi nisu davali jasan odgovor. Mir u Londonu povukao je granicu Osmanskog carstva u Evropi na liniju Enos—Midija, ali nije rekao gde se završava srpsko, a gde počinje bugarsko. Sve se vrtelo oko Makedonije. Po srpsko-bugarskom ugovoru iz marta 1912. veći deo te oblasti bio je obećan Bugarskoj, a sporna zona u centralnoj i severnoj Makedoniji trebalo je da se prepusti arbitraži ruskog cara. Ali rat je tekao drugačije od plana: srpska vojska je u brzom pohodu osvojila Vardarsku Makedoniju do Bitolja, dok je bugarska glavnina bila vezana za tešku tračku frontu i opsadu Jedrena. Srbija i Grčka, koje su se u međuvremenu sporazumele o zajedničkoj liniji, smatrale su da nova stvarnost traži novi račun i da arbitražni okvir, sklopljen za sasvim drugačiji ratni scenario, više ne odgovara.",
         "dropcap": true
       },
       {
@@ -16230,7 +16230,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Prvi udar bio je snažan i u nekim sektorima je probio srpske prednje linije. Ipak, srpska Druga armija, pod komandom generala Stepe Stepanovića, brzo se sabrala i krenula u protivnapad. Borbe na Bregalnici trajale su prvih deset dana jula i bile su među najkrvavijim koje je srpska vojska do tada vodila — vođene po brdovitom, isečenom terenu, sa bajonetom isto koliko i puškom. Načelnik Vrhovne komande, vojvoda Radomir Putnik, držao je čitavu operaciju u rukama smireno i metodično. Do sredine jula bugarska ofanziva bila je zaustavljena, a potom i odbačena. Bregalnička bitka je za srpsku vojsku postala drugi veliki naziv te decenije, odmah uz Kumanovo, i u srpskom sećanju ostala je kao odlučujuća pobeda Drugog balkanskog rata."
+        "text": "Prvi udar bio je snažan i u nekim sektorima je probio srpske prednje linije. Ipak, srpska Prva armija prestolonaslednika Aleksandra i Treća armija generala Božidara Jankovića brzo su se sabrale i krenule u protivnapad. Borbe na Bregalnici trajale su prvih deset dana jula i bile su među najkrvavijim koje je srpska vojska do tada vodila — vođene po brdovitom, isečenom terenu, sa bajonetom isto koliko i puškom. Načelnik Vrhovne komande, vojvoda Radomir Putnik, držao je čitavu operaciju u rukama smireno i metodično. Do sredine jula bugarska ofanziva bila je zaustavljena, a potom i odbačena. Bregalnička bitka je za srpsku vojsku postala drugi veliki naziv te decenije, odmah uz Kumanovo, i u srpskom sećanju ostala je kao odlučujuća pobeda Drugog balkanskog rata."
       },
       {
         "type": "paragraph",
@@ -16256,7 +16256,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "keyPeople": [
       "Ferdinand I Koburški",
       "Radomir Putnik",
-      "Stepa Stepanović",
+      "Božidar Janković",
       "Konstantin I Grčki"
     ],
     "keyPlaces": [
@@ -16271,7 +16271,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "content": [
       {
         "type": "paragraph",
-        "text": "Drugi balkanski rat trajao je svega mesec dana. Bugarska vojska, koja je krajem juna 1913. iznenada udarila na srpske i grčke položaje u Makedoniji, za nekoliko nedelja našla se opkoljena sa svih strana. Srbi i Grci uzvratili su udarac, Rumunija je bez objave rata prešla Dunav i uputila trupe ka Sofiji, a Osmansko carstvo je iskoristilo trenutak da povrati Jedrene. Početkom avgusta bugarska vlada je tražila mir. Dogovoreno je da se delegacije sastanu u Bukureštu, glavnom gradu pobednika koji je jedva i ispalio metak — Rumunije.",
+        "text": "Drugi balkanski rat trajao je svega mesec dana. Bugarska vojska, koja je krajem juna 1913. iznenada udarila na srpske i grčke položaje u Makedoniji, za nekoliko nedelja našla se opkoljena sa svih strana. Srbi i Grci uzvratili su udarac, Rumunija je objavila rat (10. jula) i prešla Dunav, uputivši trupe ka Sofiji, a Osmansko carstvo je iskoristilo trenutak da povrati Jedrene. Početkom avgusta bugarska vlada je tražila mir. Dogovoreno je da se delegacije sastanu u Bukureštu, glavnom gradu pobednika koji je jedva i ispalio metak — Rumunije.",
         "dropcap": true
       },
       {
@@ -16280,7 +16280,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Sporazum je potpisan 10. avgusta 1913. godine. Sa Bugarskom s jedne strane, a Srbijom, Grčkom, Crnom Gorom i Rumunijom s druge, on je u nekoliko članova prepravio kartu Balkana koja je nastala posle Prvog balkanskog rata. Vardarska Makedonija — sa Skopljem, Bitoljem, Kumanovom, Štipom, Velesom i Ohridom — pripala je Srbiji. Egejska Makedonija, sa lukom Solunom kao najvrednijim dobitkom, pripala je Grčkoj. Južna Dobrudža, sa gradovima Silistrom i Dobričem, prešla je Rumuniji. Crna Gora je dobila proširenja u Metohiji i Sandžaku, koja su, zajedno sa srpskim, dovršila podelu starih turskih sandžaka u tom delu poluostrva. Bugarskoj je ostao izlazak na Egejsko more sa lukom Dedeagač, ali bez Soluna i bez većeg dela teritorije za koju se godinama spremala."
+        "text": "Sporazum je potpisan 10. avgusta 1913. godine. Sa Bugarskom s jedne strane, a Srbijom, Grčkom, Crnom Gorom i Rumunijom s druge, on je u nekoliko članova prepravio kartu Balkana koja je nastala posle Prvog balkanskog rata. Vardarska Makedonija — sa Skopljem, Bitoljem, Kumanovom, Štipom, Velesom i Ohridom — pripala je Srbiji. Egejska Makedonija, sa lukom Solunom kao najvrednijim dobitkom, pripala je Grčkoj. Južna Dobrudža, sa gradovima Silistrom i Dobričem, prešla je Rumuniji. Proširenja Crne Gore u Metohiji i Sandžaku utvrđena su posebnim srpsko-crnogorskim sporazumom o razgraničenju od 12. novembra 1913. Bugarskoj je ostao izlazak na Egejsko more sa lukom Dedeagač, ali bez Soluna i bez većeg dela teritorije za koju se godinama spremala."
       },
       {
         "type": "heading",
@@ -16289,7 +16289,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Račun je za Srbiju bio krupan. Pre balkanskih ratova država je obuhvatala oko 48.300 kvadratnih kilometara; posle Bukureštanskog mira ta brojka popela se na otprilike 87.800. Stanovništvo je sa nekih dva i po miliona naraslo na blizu četiri i po. Granice su se prvi put posle vekova pomerile duboko na jug — u oblasti koje su za srpsku javnost imale snažan istorijski značaj, jer su tu bila središta srednjovekovne države, manastiri, grobnice vladara. U Beogradu je vest o sporazumu primljena sa olakšanjem i ponosom; u Sofiji je istog tog dana, prema kasnijim sećanjima, vladala teška tišina. Bugarska je u svega mesec dana izgubila gotovo sve što je u prvom ratu vojnički osvojila."
+        "text": "Račun je za Srbiju bio krupan. Pre balkanskih ratova država je obuhvatala oko 48.300 kvadratnih kilometara; posle Bukureštanskog mira ta brojka popela se na otprilike 87.800. Stanovništvo je sa oko 2,9 miliona naraslo na oko 4,4 miliona. Granice su se prvi put posle vekova pomerile duboko na jug — u oblasti koje su za srpsku javnost imale snažan istorijski značaj, jer su tu bila središta srednjovekovne države, manastiri, grobnice vladara. U Beogradu je vest o sporazumu primljena sa olakšanjem i ponosom; u Sofiji je istog tog dana, prema kasnijim sećanjima, vladala teška tišina. Bugarska je u svega mesec dana izgubila gotovo sve što je u prvom ratu vojnički osvojila."
       },
       {
         "type": "paragraph",
@@ -16307,7 +16307,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "subtitle": "Kako je posle Drugog balkanskog rata u Bukureštu povučena nova karta Balkana — i kako je Srbija udvostručena",
     "dateLabel": "1913.",
     "timelinePosition": "10. avgust 1913.",
-    "summary": "Mirovni ugovor potpisan 10. avgusta 1913. u Bukureštu okončao je Drugi balkanski rat: Bugarska je izgubila gotovo sve dobitke iz prvog rata, a Srbija je gotovo udvostručila teritoriju i stanovništvo.",
+    "summary": "Mirovni ugovor potpisan 10. avgusta 1913. u Bukureštu okončao je Drugi balkanski rat: Bugarska je izgubila gotovo sve dobitke iz prvog rata, a Srbija je gotovo udvostručila teritoriju i znatno uvećala stanovništvo.",
     "keyPeople": [
       "Nikola Pašić",
       "Ferdinand I Koburg",
@@ -16327,7 +16327,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "content": [
       {
         "type": "paragraph",
-        "text": "Kada je u leto 1913. godine u Bukureštu potpisan mir koji je okončao Drugi balkanski rat, Kraljevina Srbija je iz dva uzastopna sukoba izašla kao jedan od pobednika — ali kao pobednik kome je pobeda bila skupa. Prema brojkama koje se najčešće navode, država je sa prethodnih oko 48.300 kvadratnih kilometara narasla na blizu 87.800, dok je stanovništvo, sa nekadašnja dva i po do tri miliona, dostiglo oko četiri i po. Drugim rečima, Srbija se za niti godinu dana gotovo udvostručila. Bila je to promena razmera kakvu mala balkanska kraljevina nije doživela ni u jednoj generaciji ranije.",
+        "text": "Kada je u leto 1913. godine u Bukureštu potpisan mir koji je okončao Drugi balkanski rat, Kraljevina Srbija je iz dva uzastopna sukoba izašla kao jedan od pobednika — ali kao pobednik kome je pobeda bila skupa. Prema brojkama koje se najčešće navode, država je sa prethodnih oko 48.300 kvadratnih kilometara narasla na blizu 87.800, dok je stanovništvo, sa oko 2,9 miliona, dostiglo oko 4,4 miliona. Drugim rečima, teritorija Srbije se za niti godinu dana gotovo udvostručila. Bila je to promena razmera kakvu mala balkanska kraljevina nije doživela ni u jednoj generaciji ranije.",
         "dropcap": true
       },
       {
@@ -16336,7 +16336,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Najteže je, ipak, bilo ono što se na karti činilo najjednostavnijim — uključivanje novih krajeva. Vardarska Makedonija, Kosovo i deo Sandžaka pripojeni su Srbiji ugovorima, ali ti ugovori nisu sami od sebe stvarali državu. Stanovništvo je bilo izmešano: pravoslavni Srbi i Makedonci, muslimanski Albanci i Turci, vlaški i jevrejski trgovački slojevi po gradovima, sa različitim jezicima, običajima i lojalnostima formiranim pod osmanskom upravom. Srpske vlasti u prvo vreme držale su oblast pod vojnom upravom; civilna administracija, sudovi, škole i poreski sistem tek su se postavljali. Bilo je i nasilja — odmazdi za stvarne ili pripisane otpore, oduzimanja zemlje, povremenih incidenata koje su strani novinari, naročito iz susednih protivničkih zemalja, koristili u svojoj propagandi. Ozbiljniji srpski politički krugovi i sami su upozoravali da je „južnim pokrajinama” potrebna pravna, a ne samo vojnička, vlast."
+        "text": "Najteže je, ipak, bilo ono što se na karti činilo najjednostavnijim — uključivanje novih krajeva. Vardarska Makedonija, Kosovo i deo Sandžaka pripojeni su Srbiji ugovorima, ali ti ugovori nisu sami od sebe stvarali državu. Stanovništvo je bilo izmešano: pravoslavni Srbi i Makedonci, muslimanski Albanci i Turci, vlaški i jevrejski trgovački slojevi po gradovima, sa različitim jezicima, običajima i lojalnostima formiranim pod osmanskom upravom. Srpske vlasti u prvo vreme držale su oblast pod vojnom upravom; civilna administracija, sudovi, škole i poreski sistem tek su se postavljali. Bilo je i nasilja — odmazdi za stvarne ili pripisane otpore, oduzimanja zemlje — koje su beležili i strani posmatrači i pojedini srpski savremenici, poput Dimitrija Tucovića. Ozbiljniji srpski politički krugovi i sami su upozoravali da je „južnim pokrajinama” potrebna pravna, a ne samo vojnička, vlast."
       },
       {
         "type": "paragraph",
@@ -16363,7 +16363,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "subtitle": "Udvostručena država, iscrpljena vojska, nove pokrajine i Beč koji sve neprijateljskije gleda preko Drine",
     "dateLabel": "1913–1914.",
     "timelinePosition": "1913–1914.",
-    "summary": "Posle dva uzastopna rata Kraljevina Srbija je gotovo udvostručila teritoriju i stanovništvo, ali je istovremeno iscrpljena, suočena sa teškom integracijom „južnih pokrajina” i sa Austro-Ugarskom koja je u proleće 1914. otvoreno neprijateljska.",
+    "summary": "Posle dva uzastopna rata Kraljevina Srbija je gotovo udvostručila teritoriju i za polovinu uvećala stanovništvo, ali je istovremeno iscrpljena, suočena sa teškom integracijom „južnih pokrajina” i sa Austro-Ugarskom koja je u proleće 1914. otvoreno neprijateljska.",
     "keyPeople": [
       "Nikola Pašić",
       "kralj Petar I Karađorđević",
@@ -16401,11 +16401,11 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Tog vedrog nedeljnog jutra povorka otvorenih automobila kretala se obalom Miljacke. Franc Ferdinand i njegova supruga Sofija sedeli su u trećem vozilu. Bezbednosne mere bile su iznenađujuće slabe — bez vojnog špalira, sa malo policije na poznatoj trasi. Duž puta je, na različitim mestima, čekalo nekoliko zaverenika. Prva tri nisu reagovala. Tada je Nedeljko Čabrinović bacio bombu na automobil prestolonaslednika. Vozač je instinktivno ubrzao, bomba je pala na poklopac, odskočila i eksplodirala pod sledećim vozilom, ranivši nekoliko ljudi. Čabrinović je progutao cijankalij i skočio u Miljacku, ali se otrov pokazao slabim, a reka plitkom; izvukli su ga živog. Povorka je nastavila do Gradske kuće, gde je nadvojvoda održao zvanični govor, vidno potresen, ali pribran."
+        "text": "Tog vedrog nedeljnog jutra povorka otvorenih automobila kretala se obalom Miljacke. Franc Ferdinand i njegova supruga Sofija sedeli su u trećem vozilu. Bezbednosne mere bile su iznenađujuće slabe — bez vojnog špalira, sa malo policije na poznatoj trasi. Duž puta je, na različitim mestima, čekalo nekoliko zaverenika. Prva dvojica nisu reagovala. Tada je Nedeljko Čabrinović bacio bombu na automobil prestolonaslednika. Vozač je instinktivno ubrzao, bomba je pala na poklopac, odskočila i eksplodirala pod sledećim vozilom, ranivši nekoliko ljudi. Čabrinović je progutao cijankalij i skočio u Miljacku, ali se otrov pokazao slabim, a reka plitkom; izvukli su ga živog. Povorka je nastavila do Gradske kuće, gde je nadvojvoda održao zvanični govor, vidno potresen, ali pribran."
       },
       {
         "type": "paragraph",
-        "text": "Posle prijema došlo je do izmene plana. Franc Ferdinand je želeo da poseti ranjene u bolnici. Pratnja je krenula nazad obalom, ali vozač prvog automobila skrenuo je u sporednu Franc Jozefovu ulicu — po starom, izmenjenom rasporedu. General Oskar Poćorek mu je doviknuo da je pogrešno skrenuo. Vozač je zakočio i počeo da unazad izvodi automobil iz uskog skretanja, na ulici i pred kafanom Morica Šilera. Tu, na svega nekoliko koraka, stajao je Gavrilo Princip, devetnaestogodišnji student koji je posle propalog jutra već smatrao da je sve gotovo. Imao je pištolj u džepu. Prišao je vozilu i ispalio dva hica iz neposredne blizine. Sofija je pogođena u stomak, Franc Ferdinand u vrat. Oboje su umrli u roku od sat vremena u rezidenciji generala Poćoreka."
+        "text": "Posle prijema došlo je do izmene plana. Franc Ferdinand je želeo da poseti ranjene u bolnici. Pratnja je krenula nazad obalom, ali vozač prvog automobila skrenuo je u sporednu Franc Jozefovu ulicu — po starom, izmenjenom rasporedu — a za njim i vozač prestolonaslednikovog automobila. General Oskar Poćorek, koji je sedeo u tom automobilu, doviknuo mu je da je pogrešno skrenuo. Vozač je zakočio i počeo da unazad izvodi automobil iz uskog skretanja, na ulici i pred radnjom Morica Šilera. Tu, na svega nekoliko koraka, stajao je Gavrilo Princip, devetnaestogodišnji student koji je posle propalog jutra već smatrao da je sve gotovo. Imao je pištolj u džepu. Prišao je vozilu i ispalio dva hica iz neposredne blizine. Sofija je pogođena u stomak, Franc Ferdinand u vrat. Oboje su umrli u roku od sat vremena u rezidenciji generala Poćoreka."
       },
       {
         "type": "paragraph",
@@ -16460,7 +16460,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Sistem savezništava davao je svemu tome opasnu geometriju. Trojnom savezu Nemačke, Austrougarske i Italije stajala je nasuprot Antanta — Francuska, Rusija i Velika Britanija, ne tako čvrsto vezane ugovorima kao centralne sile, ali povezane interesima i strahom od nemačke prevlasti. Svaki potez jedne sile povlačio je proračun ostalih. Srbija, oslabljena posle dva balkanska rata, bez novca, sa vojskom koja se još nije oporavila i koleri koja je tokom proleća kosila po južnim krajevima, nije imala manevarski prostor. Imala je, međutim, moralnu podršku Rusije, koja je sebe doživljavala kao zaštitnicu pravoslavnih i slovenskih naroda na Balkanu. Ministar spoljnih poslova Sergej Sazonov nekoliko puta je tokom jula stavio do znanja Beču da Rusija neće gledati skrštenih ruku kako se Srbija slama."
+        "text": "Sistem savezništava davao je svemu tome opasnu geometriju. Trojnom savezu Nemačke, Austrougarske i Italije stajala je nasuprot Antanta — Francuska, Rusija i Velika Britanija, ne tako čvrsto vezane ugovorima kao centralne sile, ali povezane interesima i strahom od nemačke prevlasti. Svaki potez jedne sile povlačio je proračun ostalih. Srbija, oslabljena posle dva balkanska rata, bez novca, sa vojskom koja se još nije oporavila posle kolere koja ju je u leto 1913. kosila, nije imala manevarski prostor. Imala je, međutim, moralnu podršku Rusije, koja je sebe doživljavala kao zaštitnicu pravoslavnih i slovenskih naroda na Balkanu. Ministar spoljnih poslova Sergej Sazonov nekoliko puta je tokom jula stavio do znanja Beču da Rusija neće gledati skrštenih ruku kako se Srbija slama."
       },
       {
         "type": "paragraph",
@@ -16472,10 +16472,10 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Često se kasnije ponavljala fraza da je to bio „rat koji niko nije želeo”. Istraživanja arhiva pokazala su da je istina složenija. Većina evropskih državnika rat nije aktivno tražila, ali nekoliko ključnih ljudi jeste. Konrad u Beču video je u krizi dugo očekivani povod; nemački načelnik štaba Helmut fon Moltke smatrao je da je 1914. poslednja godina u kojoj Nemačka može uspešno voditi rat protiv Rusije pre nego što ova završi modernizaciju vojske. Njihove procene davale su težinu odlukama koje su političari, oklevajući, ipak potpisivali. Julska kriza nije bila iznenadan izliv osvete za jedan pucanj u Sarajevu, već hladnokrvna politička računica koja je trajala mesec dana i, korak po korak, učinila opšti evropski rat neizbežnim."
+        "text": "Često se kasnije ponavljala fraza da je to bio „rat koji niko nije želeo”. Istraživanja arhiva pokazala su da je istina složenija. Većina evropskih državnika rat nije aktivno tražila, ali nekoliko ključnih ljudi jeste. Konrad u Beču video je u krizi dugo očekivani povod; nemački načelnik štaba Helmut fon Moltke smatrao je da je 1914. poslednja godina u kojoj Nemačka može uspešno voditi rat protiv Rusije pre nego što ova završi modernizaciju vojske. Njihove procene davale su težinu odlukama koje su političari, oklevajući, ipak potpisivali. Julska kriza nije bila iznenadan izliv osvete za jedan pucanj u Sarajevu, već hladnokrvna politička računica koja je trajala mesec dana i koja je, po oceni dobrog dela istoričara, korak po korak učinila opšti evropski rat gotovo neizbežnim."
       }
     ],
-    "subtitle": "Mesec dana između atentata u Sarajevu i izbijanja rata — diplomatija koja je hladnokrvno pripremila katastrofu",
+    "subtitle": "Mesec dana između atentata u Sarajevu i izbijanja rata — diplomatija koja je korak po korak vodila ka katastrofi",
     "dateLabel": "jul 1914.",
     "timelinePosition": "jul 1914.",
     "summary": "Od atentata na Franca Ferdinanda 28. juna do austrougarske objave rata Srbiji 28. jula 1914. prošao je tačno mesec dana — period u kome su evropske prestonice, naizgled mirno, korak po korak isključivale sve diplomatske izlaze.",
@@ -16558,7 +16558,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Iste noći, sa rečnih monitora austrougarske dunavske flotile, ispaljene su prve granate na Beograd. Pogođena je „Tabačka” kasarna i okolne zgrade u nizini grada, blizu ušća Save u Dunav. Po opštem mišljenju istoričara, ti hici spadaju među prve topovske hice Prvog svetskog rata uopšte, mada se o tačnom redosledu pojedinih pucnjeva tih sati još uvek raspravlja. Beograd se te noći našao u neobičnom položaju: prestonica zaraćene zemlje, na samoj granici, na domet artiljerije neprijatelja koji je preko reke. Stanovništvo je počelo da napušta grad; državne ustanove već su bile evakuisane prema unutrašnjosti."
+        "text": "Iste noći, sa rečnih monitora austrougarske dunavske flotile, ispaljene su prve granate na Beograd. Pogođene su kasarne i okolne zgrade u nizini grada, blizu ušća Save u Dunav. Po opštem mišljenju istoričara, ti hici spadaju među prve topovske hice Prvog svetskog rata uopšte, mada se o tačnom redosledu pojedinih pucnjeva tih sati još uvek raspravlja. Beograd se te noći našao u neobičnom položaju: prestonica zaraćene zemlje, na samoj granici, na domet artiljerije neprijatelja koji je preko reke. Stanovništvo je počelo da napušta grad; državne ustanove već su bile evakuisane prema unutrašnjosti."
       },
       {
         "type": "paragraph",
@@ -16628,7 +16628,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Borbe se nisu završile te noći. U narednim danima, od 17. do 19. avgusta, srpske divizije proširile su uspeh duž celog cerskog grebena i ka Mačvi. Austrougarske trupe, iznenađene žestinom otpora i bez čvrste komande u uslovima opšte konfuzije, počele su da uzmiču. Do 19. avgusta veći deo Poćorekovih snaga povukao se preko Drine i Save, ostavivši za sobom artiljeriju, transport i hiljade zarobljenih. Šabac, koji su Austro-Ugari kratko držali, ponovo je bio u srpskim rukama. Prva ofanziva protiv Srbije propala je za manje od dve nedelje."
+        "text": "Borbe se nisu završile te noći. U narednim danima, od 17. do 19. avgusta, srpske divizije proširile su uspeh duž celog cerskog grebena i ka Mačvi. Austrougarske trupe, iznenađene žestinom otpora i bez čvrste komande u uslovima opšte konfuzije, počele su da uzmiču. Do 20. avgusta veći deo Poćorekovih snaga povukao se preko Drine i Save, ostavivši za sobom artiljeriju, transport i hiljade zarobljenih. Šabac, koji su Austro-Ugari kratko držali, oslobođen je 24. avgusta, posle borbi na mostobranu. Prva ofanziva protiv Srbije propala je za manje od dve nedelje."
       },
       {
         "type": "paragraph",
@@ -16667,7 +16667,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Tu treću ofanzivu povela je u novembru 1914. Balkanska vojska pod komandom generala Oskara Poćoreka. Cilj više nije bio samo prodor preko granice — trebalo je razbiti srpsku vojsku, zauzeti Beograd i tako konačno otkloniti onu istu Srbiju koja je u Sarajevu, prema bečkom čitanju, izazvala rat. Austrougarske snage probile su se kroz zapadnu Srbiju, oslonile na pravce dolinama reka i postepeno potisnule srpske armije ka istoku. Početkom novembra napušteno je Valjevo, koje je dotad bilo glavni logistički oslonac srpske odbrane. Linija fronta povukla se na Kolubaru i njene pritoke — Ljig, Maljen, padine Suvobora — i tu se vojska zaustavila, sa rekom za leđima i sa neprijateljem koji je nadirao."
+        "text": "Tu treću ofanzivu povela je u novembru 1914. Balkanska vojska pod komandom generala Oskara Poćoreka. Cilj više nije bio samo prodor preko granice — trebalo je razbiti srpsku vojsku, zauzeti Beograd i tako konačno otkloniti onu istu Srbiju koja je u Sarajevu, prema bečkom čitanju, izazvala rat. Austrougarske snage probile su se kroz zapadnu Srbiju, oslonile na pravce dolinama reka i postepeno potisnule srpske armije ka istoku. Sredinom novembra (15. novembra) napušteno je Valjevo, koje je dotad bilo glavni logistički oslonac srpske odbrane. Linija fronta povukla se na Kolubaru i Ljig, do padina Maljena i Suvobora, i tu se vojska zaustavila, sa rekom za leđima i sa neprijateljem koji je nadirao."
       },
       {
         "type": "paragraph",
@@ -16688,11 +16688,11 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Trećeg decembra 1914. srpska Prva armija prešla je u ofanzivu na celom svom delu fronta, a ubrzo su krenule i Druga i Treća armija. Iznenađenje je bilo gotovo potpuno. Austrougarske jedinice, koje su mislile da imaju pred sobom poraženog protivnika u rasulu, nisu izdržale prvi udar; mnoge su se povukle haotično, gubeći artiljeriju, komore i hiljade zarobljenika. Poćorekova vojska, sa predugačkim linijama snabdevanja, bez rezervi na pravim mestima, u nekoliko dana izgubila je inicijativu i počela uzmak ka Drini i Savi. Borbe su trajale na padinama Suvobora, oko Lazarevca i Mladenovca, na pravcu Valjeva. Do petnaestog decembra cela srpska teritorija bila je oslobođena. Sutradan, šesnaestog decembra, srpska vojska ponovo je ušla u Beograd; kralj Petar I obišao je oslobođeni grad nešto kasnije. Mišić je zbog tog uspeha unapređen u vojvodu."
+        "text": "Trećeg decembra 1914. srpska Prva armija prešla je u ofanzivu na celom svom delu fronta, a ubrzo su krenule i Druga i Treća armija. Iznenađenje je bilo gotovo potpuno. Austrougarske jedinice, koje su mislile da imaju pred sobom poraženog protivnika u rasulu, nisu izdržale prvi udar; mnoge su se povukle haotično, gubeći artiljeriju, komore i hiljade zarobljenika. Poćorekova vojska, sa predugačkim linijama snabdevanja, bez rezervi na pravim mestima, u nekoliko dana izgubila je inicijativu i počela uzmak ka Drini i Savi. Borbe su trajale na padinama Suvobora, oko Lazarevca i Mladenovca, na pravcu Valjeva. Petnaestog decembra srpska vojska ponovo je ušla u Beograd, a time je cela srpska teritorija bila oslobođena. Sutradan, 16. decembra, u oslobođeni grad ušao je i kralj Petar I. Mišić je zbog tog uspeha unapređen u vojvodu."
       },
       {
         "type": "paragraph",
-        "text": "Cifre poraza za Austrougarsku bile su za tadašnje balkanske razmere ogromne. Procenjuje se da je njena vojska imala preko pedeset hiljada poginulih i ranjenih, a u srpskim rukama ostalo je više od sedamdeset hiljada zarobljenika, mada se pojedinačni brojevi po izvorima razlikuju i treba ih uzeti s oprezom. Srpski gubici procenjuju se na oko dvadeset i dve hiljade poginulih, uz znatno veći broj ranjenih i nestalih. Poćorek je smenjen, treća ofanziva završena potpunim neuspehom, a u savezničkim štampama, od Pariza do Petrograda, Kolubarska bitka pominjala se kao prvi veliki saveznički uspeh na kopnu u 1914. godini."
+        "text": "Cifre poraza za Austrougarsku bile su za tadašnje balkanske razmere ogromne. Procenjuje se da je njena vojska imala oko trideset hiljada poginulih i više od sto hiljada ranjenih, a u srpskim rukama ostalo je šezdeset do sedamdeset hiljada zarobljenika, mada se pojedinačni brojevi po izvorima razlikuju i treba ih uzeti s oprezom. Srpski gubici procenjuju se na oko dvadeset i dve hiljade poginulih, uz znatno veći broj ranjenih i nestalih. Poćorek je smenjen, treća ofanziva završena potpunim neuspehom, a u savezničkim štampama, od Pariza do Petrograda, Kolubarska bitka pominjala se kao prvi veliki saveznički uspeh na kopnu u 1914. godini."
       },
       {
         "type": "paragraph",
@@ -16725,11 +16725,11 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Bolest je izbila prvih meseci 1915. u prepunim bolnicama i logorima za zarobljenike, a zatim je krenula i preko vojnih jedinica. Od februara do leta umiralo se brže nego što se sahranjivalo. Procene broja žrtava se i danas razlikuju — najčešće se navodi između sto i dvesta hiljada mrtvih, što je više nego što je srpska vojska izgubila u borbi tokom prethodne godine. Tačan broj se verovatno nikada neće znati, jer su evidencije vođene tek tu i tamo, a u nekim mestima nije bilo ni ko da ih vodi."
+        "text": "Bolest je izbila prvih meseci 1915. u prepunim bolnicama i logorima za zarobljenike, a zatim je krenula i preko vojnih jedinica. Od februara do leta umiralo se brže nego što se sahranjivalo. Procene broja žrtava se i danas jako razlikuju — od nekoliko desetina hiljada u izveštajima savezničkih sanitetskih misija 1915. do oko sto pedeset hiljada i više u kasnijoj srpskoj literaturi. Tačan broj se verovatno nikada neće znati, jer su evidencije vođene tek tu i tamo, a u nekim mestima nije bilo ni ko da ih vodi."
       },
       {
         "type": "paragraph",
-        "text": "Pomoć je stigla spolja. Engleska, francuska, ruska i američka medicinska misija dolazile su sa lekarima, sestrama, sanitetskim materijalom i, što je možda najvažnije, sa iskustvom u savremenoj higijeni i karantinu. Među njima je bila škotska lekarka Eleonor Soltau u Kragujevcu, britanski lekar Vilijam Hanter koji je u Srbiji organizovao sistemski plan suzbijanja tifusa, i američki lekar Aleksandar Hardi. Domaću stranu nosili su, među ostalima, vojni hirurg Roman Sondermajer i fiziolog Vladimir Šćepanović. Mere su bile jednostavne i nemilosrdne: izolacija, parna dezinfekcija odeće, šišanje i kupanje, paljenje slame iz bolnica. Strani lekari i sestre umirali su zajedno sa srpskim — neki spomenici u Nišu i Kragujevcu i danas to čuvaju u kamenu."
+        "text": "Pomoć je stigla spolja. Engleska, francuska, ruska i američka medicinska misija dolazile su sa lekarima, sestrama, sanitetskim materijalom i, što je možda najvažnije, sa iskustvom u savremenoj higijeni i karantinu. Među njima je bila britanska lekarka Eleonor Soltau, na čelu Škotske ženske bolnice u Kragujevcu, britanski lekar Vilijam Hanter koji je u Srbiji organizovao sistemski plan suzbijanja tifusa, i američki epidemiolog Ričard Strong. Domaću stranu nosio je, među ostalima, vojni hirurg Roman Sondermajer. Mere su bile jednostavne i nemilosrdne: izolacija, parna dezinfekcija odeće, šišanje i kupanje, paljenje slame iz bolnica. Strani lekari i sestre umirali su zajedno sa srpskim — neki spomenici u Nišu i Kragujevcu i danas to čuvaju u kamenu."
       },
       {
         "type": "heading",
@@ -16738,7 +16738,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Spolja gledano, Srbija je u prolećnim i letnjim mesecima 1915. imala čudan luksuz mira. Centralne sile bile su zaokupljene velikim borbama na istočnom i zapadnom frontu — nemačko-austrougarski proboj kod Gorlica i Tarnova, ofanziva u Galiciji, rovovski stalež u Francuskoj — i nisu imale slobodne snage za novi napad preko Save i Dunava. Vojska Radomira Putnika dobila je pet meseci predaha, ali predaha bez mogućnosti prave obnove: industrije nije bilo, saveznička pomoć je dolazila tanko, a tifus je iz vojne snage izvlačio ono malo što je ostalo."
+        "text": "Spolja gledano, Srbija je u prolećnim i letnjim mesecima 1915. imala čudan luksuz mira. Centralne sile bile su zaokupljene velikim borbama na istočnom i zapadnom frontu — nemačko-austrougarski proboj kod Gorlica i Tarnova, ofanziva u Galiciji, rovovski stalež u Francuskoj — i nisu imale slobodne snage za novi napad preko Save i Dunava. Vojska Radomira Putnika dobila je desetak meseci predaha, ali predaha bez mogućnosti prave obnove: industrije nije bilo, saveznička pomoć je dolazila tanko, a tifus je iz vojne snage izvlačio ono malo što je ostalo."
       },
       {
         "type": "paragraph",
@@ -16758,13 +16758,13 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Tako se završava prva godina rata za Srbiju — ne porazom u otvorenoj bici, nego opkoljenjem. Pegavi tifus je odneo desetine hiljada pre nego što je ispaljen prvi metak nove ofanzive. Politička procena Bugarske ispostavila se pogrešnom, mada je teško reći da li bi i drugačija ponuda Antante uopšte mogla da promeni odluku Sofije. Vojnički, Centralne sile su 1915. bile nedvosmisleno nadmoćne — i u ljudstvu, i u topovima, i u koordinaciji. Srpska vojska je pred sobom imala planinski put i zimu, i još uvek nije znala koliko će je samih taj put koštati."
+        "text": "Tako se završava prva faza rata za Srbiju — ne porazom u otvorenoj bici, nego opkoljenjem. Pegavi tifus je odneo desetine, a možda i više od sto hiljada života pre nego što je ispaljen prvi metak nove ofanzive. Politička procena Bugarske ispostavila se pogrešnom, mada je teško reći da li bi i drugačija ponuda Antante uopšte mogla da promeni odluku Sofije. Vojnički, Centralne sile su 1915. bile nedvosmisleno nadmoćne — i u ljudstvu, i u topovima, i u koordinaciji. Srpska vojska je pred sobom imala planinski put i zimu, i još uvek nije znala koliko će je samih taj put koštati."
       }
     ],
     "subtitle": "Godina iscrpljenosti, pegavog tifusa i jesenjeg napada Centralnih sila kojim je srpski front zaokružen sa tri strane",
     "dateLabel": "1915.",
     "timelinePosition": "1915.",
-    "summary": "Posle pobede na Kolubari Srbija je 1915. dobila pet meseci predaha, ali ih je dočekala u epidemiji pegavog tifusa. U oktobru su Centralne sile pod komandom Makenzena, uz ulazak Bugarske u rat, pokrenule koordinisani napad i zatvorile srpski front sa tri strane.",
+    "summary": "Posle pobede na Kolubari Srbija je 1915. dobila desetak meseci predaha, ali ih je dočekala u epidemiji pegavog tifusa. U oktobru su Centralne sile pod komandom Makenzena, uz ulazak Bugarske u rat, pokrenule koordinisani napad i zatvorile srpski front sa tri strane.",
     "keyPeople": [
       "vojvoda Radomir Putnik",
       "Nikola Pašić",
@@ -16791,7 +16791,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "U koloni koja je krenula prema Kosovu, pa odatle u tri glavna pravca — preko Crne Gore ka Skadru, preko Prizrena i Đakovice takođe ka Skadru, i preko Peći — bilo je, po proceni vrhovne komande, oko 300.000 ljudi. Brojka obuhvata vojsku, vladu Nikole Pašića, narodnu skupštinu, državnu blagajnu, ostarelog i bolesnog kralja Petra I — koji je deo puta prešao u kolima, a na najtežim deonicama, kažu izvori, na nosilima — regenta Aleksandra, načelnika štaba vojvodu Radomira Putnika, samog teško bolesnog i takođe nošenog na nosilima, veliki broj izbeglih civila i, što će se pokazati kao zasebna tragedija, oko 30.000 austrougarskih ratnih zarobljenika koje je vrhovna komanda povela sa sobom umesto da ih ostavi neprijatelju."
+        "text": "U koloni koja je krenula prema Kosovu, pa odatle u tri glavna pravca — preko Peći i Crne Gore ka Skadru, preko Prizrena i Ljum-Kule takođe ka Skadru, i južnije, preko Debra i Elbasana, ka Draču — bilo je, po proceni vrhovne komande, oko 300.000 ljudi. Brojka obuhvata vojsku, vladu Nikole Pašića, narodnu skupštinu, državnu blagajnu, ostarelog i bolesnog kralja Petra I — koji je deo puta prešao u kolima, a na najtežim deonicama, kažu izvori, na nosilima — regenta Aleksandra, načelnika štaba vojvodu Radomira Putnika, samog teško bolesnog i takođe nošenog na nosilima, veliki broj izbeglih civila i, što će se pokazati kao zasebna tragedija, oko 30.000 austrougarskih ratnih zarobljenika koje je vrhovna komanda povela sa sobom umesto da ih ostavi neprijatelju."
       },
       {
         "type": "heading",
@@ -16845,12 +16845,12 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "content": [
       {
         "type": "paragraph",
-        "text": "Kada su prvi srpski vojnici početkom 1916. godine kročili na obalu grčkog ostrva Krfa, izgledali su kao ljudi koji su iz rata već izašli — samo što rat nije izašao iz njih. Iza njih je bila albanska golgota, marš preko snežnih klanaca, glad i tifus; ispred njih jedno mediteransko ostrvo na kome saveznici treba da od ostataka jedne vojske ponovo naprave vojsku. Krf je tih meseci postao najčudnije mesto srpske istorije Prvog svetskog rata: istovremeno bolnica, groblje, štab, diplomatska kancelarija i logor za preporod. Iz njega će, nešto više od godinu dana kasnije, na Solunski front krenuti vojska koja će se boriti za probojem.",
+        "text": "Kada su prvi srpski vojnici početkom 1916. godine kročili na obalu grčkog ostrva Krfa, izgledali su kao ljudi koji su iz rata već izašli — samo što rat nije izašao iz njih. Iza njih je bila albanska golgota, marš preko snežnih klanaca, glad i tifus; ispred njih jedno mediteransko ostrvo na kome saveznici treba da od ostataka jedne vojske ponovo naprave vojsku. Krf je tih meseci postao najčudnije mesto srpske istorije Prvog svetskog rata: istovremeno bolnica, groblje, štab, diplomatska kancelarija i logor za preporod. Iz njega će, već posle nekoliko meseci, na Solunski front krenuti vojska koja će se boriti za probojem.",
         "dropcap": true
       },
       {
         "type": "paragraph",
-        "text": "Prebacivanje sa albanske obale počelo je sredinom januara 1916. i odužilo se do kraja februara. Brodovi francuske, britanske i italijanske mornarice, uz pratnju ratnih plovila zbog opasnosti od austrougarskih i nemačkih podmornica, prevozili su iz luka Drač i Valona ono što je preostalo od srpske vojske, od izbeglica i od državne uprave. Procene se razlikuju, ali se ukupan broj prevezenih ljudi obično navodi oko sto pedeset hiljada vojnika, uz dodatne hiljade civila i nekoliko hiljada austrougarskih zarobljenika koji su sa vojskom delili put preko Albanije. Glavnu ulogu u organizaciji preuzela je francuska komanda; bez te savezničke logistike evakuacija ne bi bila moguća na vreme."
+        "text": "Prebacivanje sa albanske obale počelo je sredinom januara 1916. i odužilo se do kraja februara. Brodovi francuske, britanske i italijanske mornarice, uz pratnju ratnih plovila zbog opasnosti od austrougarskih i nemačkih podmornica, prevozili su iz luka Drač i Valona ono što je preostalo od srpske vojske, od izbeglica i od državne uprave. Procene se razlikuju, ali se ukupan broj prevezenih ljudi obično navodi oko sto pedeset hiljada vojnika, uz dodatne hiljade civila; austrougarske zarobljenike, njih oko dvadeset četiri hiljade, Italijani su odvojeno prevezli iz Valone na ostrvo Azinaru. Glavnu ulogu u organizaciji preuzela je francuska komanda; bez te savezničke logistike evakuacija ne bi bila moguća na vreme."
       },
       {
         "type": "paragraph",
@@ -16867,7 +16867,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Brojke žrtava na Krfu treba uzimati sa rezervom, ali jedna stvar je u literaturi često ponovljena: po pojedinim procenama, više srpskih vojnika je umrlo u prvim mesecima na Krfu i Vidu nego tokom samog povlačenja preko Albanije. Ako je ta procena tačna ili samo blizu istine, ona govori koliko je dubinski bila slomljena vojska koja je 1915. krenula iz Srbije. Spasavanje preko mora donelo je sigurnost od neprijatelja, ali ne i od bolesti i iscrpljenosti koje su već bile u telima ljudi."
+        "text": "Brojke žrtava na Krfu treba uzimati sa rezervom, ali po pojedinim procenama, na Krfu i Vidu umrlo je oko sedam hiljada vojnika — poslednje žrtve albanske golgote. Već ta brojka govori koliko je dubinski bila slomljena vojska koja je 1915. krenula iz Srbije. Spasavanje preko mora donelo je sigurnost od neprijatelja, ali ne i od bolesti i iscrpljenosti koje su već bile u telima ljudi."
       },
       {
         "type": "paragraph",
@@ -16875,7 +16875,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Komanda se takođe menjala. Vojvoda Radomir Putnik, načelnik štaba Vrhovne komande i čovek koji je vojsku vodio kroz Cer, Kolubaru i albansku golgotu, na Krf je stigao teško bolestan, nošen u nosilima preko planina. Više nije mogao da nosi teret vrhovne komande i povučen je sa dužnosti; saveznici su ga prebacili na lečenje u Francusku, gde će umreti maja 1917. u Nici. Na njegovo mesto, za načelnika štaba Vrhovne komande postavljen je vojvoda Petar Bojović, dotadašnji komandant Prve armije, čovek staloženog tona i jake organizacione ruke, koji će predvoditi vojsku u njenoj solunskoj fazi."
+        "text": "Komanda se takođe menjala. Vojvoda Radomir Putnik, načelnik štaba Vrhovne komande i čovek koji je vojsku vodio kroz Cer, Kolubaru i albansku golgotu, na Krf je stigao teško bolestan, nošen u nosilima preko planina. Više nije mogao da nosi teret vrhovne komande i povučen je sa dužnosti; saveznici su ga prebacili na lečenje u Francusku, gde će umreti maja 1917. u Nici. Na njegovo mesto, za načelnika štaba Vrhovne komande postavljen je vojvoda Petar Bojović, komandant Prve armije iz 1914. godine, čovek staloženog tona i jake organizacione ruke, koji će predvoditi vojsku u njenoj solunskoj fazi."
       },
       {
         "type": "paragraph",
@@ -16883,7 +16883,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Od leta 1916. obnovljene srpske jedinice počele su se brodovima prebacivati u Solun, u sastav savezničkog Solunskog fronta. Krf je polako prestajao da bude logor i postajao zaleđe — pozadinska baza, bolnica, vladin centar. Za istoriju srpske vojske ostao je dvostruko obeležen. S jedne strane mesto agonije, ostrvo Vido i more koje je zadržalo hiljade umrlih; s druge strane mesto preporoda, gde su saveznička pomoć, francuska organizacija i poslednji rezerv ljudske snage spojeni u jedinu odbrambenu snagu izgnane države. Bez patetike, oba lica Krfa su istinita, i upravo ih zajedno treba pamtiti."
+        "text": "Od sredine aprila 1916. obnovljene srpske jedinice počele su se brodovima prebacivati u Solun, u sastav savezničkog Solunskog fronta; do kraja maja prebačena je glavnina. Krf je polako prestajao da bude logor i postajao zaleđe — pozadinska baza, bolnica, vladin centar. Za istoriju srpske vojske ostao je dvostruko obeležen. S jedne strane mesto agonije, ostrvo Vido i more koje je zadržalo hiljade umrlih; s druge strane mesto preporoda, gde su saveznička pomoć, francuska organizacija i poslednji rezerv ljudske snage spojeni u jedinu odbrambenu snagu izgnane države. Bez patetike, oba lica Krfa su istinita, i upravo ih zajedno treba pamtiti."
       }
     ],
     "subtitle": "Grčko ostrvo na kome se srpska vojska 1916. istovremeno gasila i preporađala — između „Plavog groba” i savezničke pomoći",
@@ -16912,7 +16912,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Saveznička grupacija u Solunu zvanično je nosila ime „Armée d'Orient” — Istočna armija — pod francuskom komandom. Prvih godina vodio ju je general Moris Saraj, oficir politički kontroverzan u Parizu i nikada potpuno omiljen kod britanskih saveznika, ali uporan u uverenju da Balkan može biti odlučujuće poprište rata. Posle njega komandu je kraće držao general Adolf Giro, a od juna 1918. preuzeo ju je Luj Franše d'Epere — energičan oficir kome će pripasti čast da odobri i izvede konačni proboj. U sastav armije, pored Francuza i Britanaca, ulazili su i Srbi, Italijani, ruska brigada, a od 1917, kada je Grčka napokon ušla u rat na strani Antante, i grčke divizije."
+        "text": "Saveznička grupacija u Solunu zvanično je nosila ime „Armée d'Orient” — Istočna armija — pod francuskom komandom. Prvih godina vodio ju je general Moris Saraj, oficir politički kontroverzan u Parizu i nikada potpuno omiljen kod britanskih saveznika, ali uporan u uverenju da Balkan može biti odlučujuće poprište rata. Posle njega komandu je kraće držao general Adolf Gijoma, a od juna 1918. preuzeo ju je Luj Franše d'Epere — energičan oficir kome će pripasti čast da odobri i izvede konačni proboj. U sastav armije, pored Francuza i Britanaca, ulazili su i Srbi, Italijani, ruska brigada, a od 1917, kada je Grčka napokon ušla u rat na strani Antante, i grčke divizije."
       },
       {
         "type": "paragraph",
@@ -16925,11 +16925,11 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Septembra 1916. započela je prva veća ofanziva u kojoj su srpske jedinice imale glavnu ulogu. Prva i Druga srpska armija, pod komandom vojvode Petra Bojovića i vojvode Živojina Mišića, krenule su uz strme padine Kajmakčalana protiv bugarskih položaja. Borba je trajala oko dve nedelje, vodila se na visini, često bajonetom i bombama u kamenju, i završila se srpskim osvajanjem vrha krajem septembra. Sa Kajmakčalana se pružao pogled na predratnu Srbiju — tadašnja granica Kraljevine prolazila je u neposrednoj blizini, i osvajanje vrha značilo je prvi povratak srpske vojske na sopstveno tlo, makar samo na nekoliko kilometara dubine. Za vojnike koji su prethodne zime prešli Albaniju i izgubili polovinu boraca, simbolika je bila gotovo veća od vojničke koristi."
+        "text": "Septembra 1916. započela je prva veća ofanziva u kojoj su srpske jedinice imale glavnu ulogu. Treća srpska armija, sa Drinskom divizijom na čelu, krenula je uz strme padine Kajmakčalana protiv bugarskih položaja. Borba je trajala oko dve nedelje, vodila se na visini, često bajonetom i bombama u kamenju, i završila se srpskim osvajanjem vrha krajem septembra. Sa Kajmakčalana se pružao pogled na predratnu Srbiju — tadašnja granica Kraljevine prolazila je u neposrednoj blizini, i osvajanje vrha značilo je prvi povratak srpske vojske na sopstveno tlo, makar samo na nekoliko kilometara dubine. Za vojnike koji su prethodne zime prešli Albaniju i izgubili polovinu boraca, simbolika je bila gotovo veća od vojničke koristi."
       },
       {
         "type": "paragraph",
-        "text": "Posle Kajmakčalana ofanziva se nastavila ka jugozapadu i u novembru 1916. dovela do oslobađanja Bitolja, prvog većeg grada u kome su saveznici vratili pređašnju srpsku administraciju. Tu je napredovanje, međutim, stalo. Naredne dve godine — kraj 1916, cela 1917. i prva polovina 1918 — pretvorile su Solunski front u pozicioni rat sličan onom u Francuskoj: ukopani rovovi, betonski zakloni na grebenima, kratki napadi i protivnapadi oko Crne reke, dolinske bitke koje su koštale hiljade života a pomerale liniju za nekoliko stotina metara. Bolesti su, naročito malarija, ponekad u jednoj sezoni odnosile više vojnika nego borba."
+        "text": "Posle Kajmakčalana ofanziva se nastavila i u novembru 1916. dovela do oslobađanja Bitolja, prvog većeg grada u kome su saveznici vratili pređašnju srpsku administraciju. Tu je napredovanje, međutim, stalo. Naredne dve godine — kraj 1916, cela 1917. i prva polovina 1918 — pretvorile su Solunski front u pozicioni rat sličan onom u Francuskoj: ukopani rovovi, betonski zakloni na grebenima, kratki napadi i protivnapadi oko Crne reke, dolinske bitke koje su koštale hiljade života a pomerale liniju za nekoliko stotina metara. Bolesti su, naročito malarija, ponekad u jednoj sezoni odnosile više vojnika nego borba."
       },
       {
         "type": "paragraph",
@@ -16947,7 +16947,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "subtitle": "Saveznička linija u severnoj Grčkoj na kojoj je srpska vojska, od leta 1916, vodila svoj povratak ka kući",
     "dateLabel": "1916–1918.",
     "timelinePosition": "1916–1918.",
-    "summary": "Posle obnove na Krfu, srpska vojska je leta 1916. prebačena u severnu Grčku, gde je u sastavu savezničke „Armée d'Orient” držala najteže planinske položaje Solunskog fronta — od Kajmakčalana do Crne reke — dve godine pozicionog rata pred odlučujući proboj.",
+    "summary": "Posle obnove na Krfu, srpska vojska je u proleće 1916. prebačena u severnu Grčku, gde je u sastavu savezničke „Armée d'Orient” držala najteže planinske položaje Solunskog fronta — od Kajmakčalana do Crne reke — dve godine pozicionog rata pred odlučujući proboj.",
     "keyPeople": [
       "vojvoda Petar Bojović",
       "vojvoda Živojin Mišić",
@@ -16984,7 +16984,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Krajem februara i u martu 1917. godine, u brdovitom kraju Toplice južno od Kruševca, izbio je masovni narodni ustanak. Neposredan povod bio je bugarski pokušaj mobilizacije srpskih regruta; dublji uzrok bilo je trogodišnje iskustvo okupacije. Ustanike su predvodili Kosta Vojinović, predratni oficir koji je posle povlačenja ostao u zemlji, i Kosta Milovanović Pećanac, izaslanik srpske vrhovne komande koji je iz Soluna prebačen da pripremi gerilsku akciju kada za to dođe vreme. Ustanak je u prvom naletu uspeo da oslobodi nekoliko varošica i prereže komunikacije; po nekim procenama u njemu je učestvovalo nekoliko desetina hiljada ljudi, mada se tačan broj i danas razlikuje od izvora do izvora. Pećanac se zalagao da se akcija ograniči na gerilsko ratovanje i sačeka prodor sa Soluna, dok je Vojinović insistirao na otvorenom frontu — neslaganje koje je ostalo zabeleženo i koje je doprinelo brzom slomu."
+        "text": "Krajem februara i u martu 1917. godine, u brdovitom kraju Toplice južno od Kruševca, izbio je masovni narodni ustanak. Neposredan povod bio je bugarski pokušaj mobilizacije srpskih regruta; dublji uzrok bilo je iskustvo godinu i po dana okupacije. Ustanike su predvodili Kosta Vojinović, predratni oficir koji je posle povlačenja ostao u zemlji, i Kosta Milovanović Pećanac, izaslanik srpske vrhovne komande koji je iz Soluna prebačen da pripremi gerilsku akciju kada za to dođe vreme. Ustanak je u prvom naletu uspeo da oslobodi nekoliko varošica i prereže komunikacije; po nekim procenama u njemu je učestvovalo nekoliko desetina hiljada ljudi, mada se tačan broj i danas razlikuje od izvora do izvora. Pećanac se zalagao da se akcija ograniči na gerilsko ratovanje i sačeka prodor sa Soluna, dok je Vojinović insistirao na otvorenom frontu — neslaganje koje je ostalo zabeleženo i koje je doprinelo brzom slomu."
       },
       {
         "type": "paragraph",
@@ -16992,7 +16992,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Posle Topličkog ustanka, poslednja godina i po okupacije bila je za stanovništvo najteža. Rekvizicije su pojačane, jer su Centralne sile sa svih frontova vukle hranu; zima 1917–1918. donela je ozbiljnu nestašicu. Smrtnost dece, starih i bolesnih naglo je porasla u varošima i selima oba okupaciona područja. Srpski civili i ratni zarobljenici završavali su u logorima koje su Austrougarska i Bugarska držale širom svojih teritorija — Nežider, Aršau-Boldogason, Mautauzen, Doboj, Sliven i drugi — u uslovima u kojima su tifus, dizenterija i glad ubijali sistematski. Pouzdane brojke i danas se utvrđuju, ali je smrtnost u nekim logorima merena u desetinama procenata."
+        "text": "Posle Topličkog ustanka, poslednja godina i po okupacije bila je za stanovništvo najteža. Rekvizicije su pojačane, jer su Centralne sile sa svih frontova vukle hranu; zima 1917–1918. donela je ozbiljnu nestašicu. Smrtnost dece, starih i bolesnih naglo je porasla u varošima i selima oba okupaciona područja. Srpski civili i ratni zarobljenici završavali su u logorima koje su Austrougarska i Bugarska držale širom svojih teritorija — Nežider, Boldogasonj, Ašah, Mauthauzen, Doboj, Sliven i drugi — u uslovima u kojima su tifus, dizenterija i glad ubijali sistematski. Pouzdane brojke i danas se utvrđuju, ali je smrtnost u nekim logorima merena u desetinama procenata."
       },
       {
         "type": "paragraph",
@@ -17028,7 +17028,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Odnos između Pašićeve vlade i Odbora bio je od početka osetljiv. Obe strane želele su ujedinjenje, ali su ga zamišljale različito. Srpska vlada videla je novu državu kao prirodno proširenje pobedničke Kraljevine Srbije — ujedinjenje pod već postojećom dinastijom Karađorđevića, sa državnim aparatom razvijenim u Beogradu i sa srpskom vojskom kao oslonom. Trumbić i njegovi saradnici, naprotiv, polazili su od pretpostavke da Habsburški Sloveni u zajedničku državu donose sopstvene političke tradicije, sopstveni saborski život i pravo da te posebnosti budu garantovane — bilo federalnim uređenjem, bilo posebnim ustavnim mehanizmima. Spor oko Supila, koji je tokom 1916. otvoreno tražio jasnije garancije za hrvatsku stranu i potom napustio Odbor — umro je u martu 1917. — pokazao je koliko je razlika bila ozbiljna."
+        "text": "Odnos između Pašićeve vlade i Odbora bio je od početka osetljiv. Obe strane želele su ujedinjenje, ali su ga zamišljale različito. Srpska vlada videla je novu državu kao prirodno proširenje pobedničke Kraljevine Srbije — ujedinjenje pod već postojećom dinastijom Karađorđevića, sa državnim aparatom razvijenim u Beogradu i sa srpskom vojskom kao oslonom. Trumbić i njegovi saradnici, naprotiv, polazili su od pretpostavke da Habsburški Sloveni u zajedničku državu donose sopstvene političke tradicije, sopstveni saborski život i pravo da te posebnosti budu garantovane — bilo federalnim uređenjem, bilo posebnim ustavnim mehanizmima. Spor oko Supila, koji je tokom 1916. otvoreno tražio jasnije garancije za hrvatsku stranu i potom napustio Odbor — umro je u septembru 1917, dva meseca posle Krfske deklaracije — pokazao je koliko je razlika bila ozbiljna."
       },
       {
         "type": "paragraph",
@@ -17083,7 +17083,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "content": [
       {
         "type": "paragraph",
-        "text": "Solunski front je do leta 1918. godine bio jedno od onih ratišta na koja su saveznički štabovi gledali sa nelagodom. Tu je, od jeseni 1915, stajala mešovita vojska — francuska, britanska, srpska, kasnije i italijanska i grčka — naslonjena na utvrđene položaje od Albanije do Egejskog mora, ali bez velikog uspeha. London i Pariz su radije slali ljude i municiju u Francusku, gde se vodio glavni rat. Tek u maju 1918, kada je komandu nad savezničkim snagama na istoku preuzeo francuski general Luj Franše d'Epere, krenula je ozbiljna priprema za nešto što je dotadašnji vrhovni štab smatrao previše rizičnim — za pravi proboj.",
+        "text": "Solunski front je do leta 1918. godine bio jedno od onih ratišta na koja su saveznički štabovi gledali sa nelagodom. Tu je, od jeseni 1915, stajala saveznička vojska — isprva francuska i britanska, od 1916. i srpska, italijanska i ruska, od 1917. i grčka — naslonjena na utvrđene položaje od Albanije do Egejskog mora, ali bez velikog uspeha. London i Pariz su radije slali ljude i municiju u Francusku, gde se vodio glavni rat. Tek u junu 1918, kada je komandu nad savezničkim snagama na istoku preuzeo francuski general Luj Franše d'Epere, priprema — koju je započeo njegov prethodnik Gijoma — dobila je pravi zamah, i to za nešto što je dotadašnji vrhovni štab smatrao previše rizičnim — za pravi proboj.",
         "dropcap": true
       },
       {
@@ -17157,7 +17157,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Petog novembra 1918. srpske jedinice ušle su u Beograd. Grad je bio razrušen, mostovi srušeni, mnogi kvartovi opustošeni — Beograd je u ratu bio bombardovan već prvog dana, avgusta 1914, i otada više puta. Ipak, ono što su građani videli bilo je nezaboravno: u prestonicu su, među prvim jedinicama, ulazili kralj Petar I, regent Aleksandar i vojvoda Živojin Mišić. Stari kralj, već bolestan i izmoren izgnanstvom, vraćao se u grad iz kojeg je oktobra 1915. otišao kroz albanske planine. Iza njega je bila vojska koja je od krhotina obnovljena na Krfu i u Solunu, sada već priznata kao jedna od ratnih sila pobednica."
+        "text": "Prvog novembra 1918. srpske jedinice ušle su u Beograd. Grad je bio razrušen, mostovi srušeni, mnogi kvartovi opustošeni — Beograd je u ratu bio bombardovan već prve ratne noći, 28/29. jula 1914, i otada više puta. Ipak, ono što su građani videli bilo je nezaboravno: u prestonicu je ušla Prva armija vojvode Petra Bojovića, a prvi je u grad umarširao Sedmi pešadijski puk, sastavljen mahom od Beograđana. Stari kralj Petar, bolestan i izmoren izgnanstvom, u grad iz kojeg je oktobra 1915. otišao kroz albanske planine vratiće se tek naredne godine. U Beograd je ulazila vojska koja je od krhotina obnovljena na Krfu i u Solunu, sada već priznata kao jedna od ratnih sila pobednica."
       },
       {
         "type": "paragraph",
@@ -17165,17 +17165,17 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Srpska vojska je u međuvremenu nastavljala napredovanje preko Drine i Save, ulazeći u Bosnu, Srem i Vojvodinu. Do sredine novembra držala je celu predratnu srpsku teritoriju, Vojvodinu, veliki deo Bosne, Crnu Goru i Makedoniju. Jedanaestog novembra Nemačka je u Kompijenu potpisala primirje i Veliki rat je na zapadnom frontu zvanično bio završen. Politički, najkrupnije odluke padale su gotovo iz dana u dan. Dvadeset četvrtog novembra Velika narodna skupština Srba, Bunjevaca i ostalih Slovena u Novom Sadu izglasala je priključenje Banata, Bačke i Baranje Kraljevini Srbiji. Dva dana kasnije, 26. novembra, sporna Podgorička skupština svrgnula je dinastiju Petrović-Njegoš i proglasila ujedinjenje Crne Gore sa Srbijom — odluka koja će decenijama izazivati otpor jednog dela crnogorskog naroda i ostati među najspornijim trenucima te jeseni."
+        "text": "Srpska vojska je u međuvremenu nastavljala napredovanje preko Drine i Save, ulazeći u Bosnu, Srem i Vojvodinu. Do sredine novembra držala je celu predratnu srpsku teritoriju, Vojvodinu, veliki deo Bosne, Crnu Goru i Makedoniju. Jedanaestog novembra Nemačka je u Kompijenu potpisala primirje i Veliki rat je na zapadnom frontu zvanično bio završen. Politički, najkrupnije odluke padale su gotovo iz dana u dan. Dvadeset petog novembra Velika narodna skupština Srba, Bunjevaca i ostalih Slovena u Novom Sadu izglasala je priključenje Banata, Bačke i Baranje Kraljevini Srbiji. Sutradan, 26. novembra, sporna Podgorička skupština svrgnula je dinastiju Petrović-Njegoš i proglasila ujedinjenje Crne Gore sa Srbijom — odluka koja će decenijama izazivati otpor jednog dela crnogorskog naroda i ostati među najspornijim trenucima te jeseni."
       },
       {
         "type": "paragraph",
         "text": "Lako je o ovim nedeljama govoriti samo kao o trijumfu, i one to jesu bile — vojska koja je 1915. izašla preko Albanije vraćala se kao deo savezničke pobedničke koalicije, predvodnica jedne nove i mnogo veće države u nastajanju. Ali iza paradnog koraka stajao je niz otvorenih pitanja. Kakvi će biti odnosi između Beograda i Zagreba, ko ima pravo da govori u ime „naroda”, kako će se rešiti pitanje crnogorskog prestola, kako će se uskladiti pravoslavna, katolička i muslimanska tradicija u istoj državi — sve je to ostajalo na stolu. Vojničko oslobođenje bilo je dovršeno, politički okvir tek je trebalo izgraditi. Za to je trebalo sačekati još svega nekoliko dana: prvog decembra 1918. u Beogradu će biti proglašeno Kraljevstvo Srba, Hrvata i Slovenaca. Tada počinje jedna drugačija istorija — i jedna drugačija priča."
       }
     ],
-    "subtitle": "Od proboja Solunskog fronta do ulaska u Beograd 5. novembra — i otvorenog pitanja kakva će država nastati",
+    "subtitle": "Od proboja Solunskog fronta do ulaska u Beograd 1. novembra — i otvorenog pitanja kakva će država nastati",
     "dateLabel": "oktobar–novembar 1918.",
     "timelinePosition": "oktobar–novembar 1918.",
-    "summary": "Posle proboja Solunskog fronta i bugarskog sloma srpska vojska za nekoliko nedelja oslobađa zemlju i 5. novembra ulazi u Beograd, dok se u pozadini raspada Austrougarska i otvara pitanje nove države.",
+    "summary": "Posle proboja Solunskog fronta i bugarskog sloma srpska vojska za nekoliko nedelja oslobađa zemlju i 1. novembra ulazi u Beograd, dok se u pozadini raspada Austrougarska i otvara pitanje nove države.",
     "keyPeople": [
       "kralj Petar I",
       "regent Aleksandar",
@@ -17193,16 +17193,16 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "content": [
       {
         "type": "paragraph",
-        "text": "Kada se krajem 1918. završio rat i kada su se prebrojavali oni koji su preživeli, Srbija se našla pred računom koji je teško bilo izraziti običnim jezikom. Predratno stanovništvo Kraljevine Srbije, posle balkanskih ratova i pripajanja novih oblasti, procenjivano je na oko četiri i po miliona ljudi. Različita istraživanja, srpska i strana, slažu se da je u toku rata izgubljeno između milion i milion i četvrt stanovnika — vojnika i civila zajedno. To je više od dvadesetog dela stanovništva; po nekim procenama i preko četvrtine. U poređenju sa drugim zaraćenim državama, Srbija je pretrpela najteže gubitke u odnosu na svoju veličinu. Tačne brojke ostaju predmet stručne rasprave, ali red veličine je nesporan.",
+        "text": "Kada se krajem 1918. završio rat i kada su se prebrojavali oni koji su preživeli, Srbija se našla pred računom koji je teško bilo izraziti običnim jezikom. Predratno stanovništvo Kraljevine Srbije, posle balkanskih ratova i pripajanja novih oblasti, procenjivano je na oko četiri i po miliona ljudi. Po podacima srpske delegacije na Mirovnoj konferenciji 1919. i po kasnijim procenama, u toku rata izgubljeno je između milion i milion i četvrt stanovnika — vojnika i civila zajedno, pri čemu te brojke delom obuhvataju i demografski manjak, a ne samo neposredno poginule. To je više od petine stanovništva; po nekim procenama i preko četvrtine. U poređenju sa drugim zaraćenim državama, Srbija je pretrpela najteže gubitke u odnosu na svoju veličinu. Tačne brojke ostaju predmet stručne rasprave, ali red veličine je nesporan.",
         "dropcap": true
       },
       {
         "type": "paragraph",
-        "text": "Vojni gubici procenjuju se na oko 370.000 do 400.000 ljudi. U taj zbir ulaze poginuli u bitkama od Cera i Kolubare do Solunskog fronta, oni koji su umrli od bolesti — najviše od pegavog tifusa u zimu 1914–1915. i u albanskom povlačenju — kao i ranjenici koji nisu preživeli. Vojska koja je u jesen 1915. krenula preko Albanije imala je oko 400.000 ljudi; na grčku obalu stiglo ih je oko 150.000. Ta razlika nije samo statistika, ona je generacija. U pitanju su uglavnom mladi i sredovečni muškarci, ljudi u dobi za rad i potomstvo, koji su iz srpskih sela i varoši nestali u svega četiri godine."
+        "text": "Vojni gubici procenjuju se na oko 370.000 do 400.000 ljudi. U taj zbir ulaze poginuli u bitkama od Cera i Kolubare do Solunskog fronta, oni koji su umrli od bolesti — najviše od pegavog tifusa u zimu 1914–1915. i u albanskom povlačenju — kao i ranjenici koji nisu preživeli. U povlačenje preko Albanije krenulo je, po proceni Vrhovne komande, oko 300.000 ljudi — vojska, civili i zarobljenici; na Krf je do proleća 1916. prevezeno oko 150.000 vojnika. Ta razlika nije samo statistika, ona je generacija. U pitanju su uglavnom mladi i sredovečni muškarci, ljudi u dobi za rad i potomstvo, koji su iz srpskih sela i varoši nestali u svega četiri godine."
       },
       {
         "type": "paragraph",
-        "text": "Civilni gubici su još veći — procenjuju se na šeststo hiljada i više. Pegavi tifus, koji je 1914. i 1915. harao Srbijom, sam je ubio između sto i sto pedeset hiljada ljudi, među njima i strane lekare koji su došli u pomoć. Glad i nestašice u okupiranim oblastima odnosile su decu, starce i porodilje godinama. Internacija u austrougarske i bugarske logore obuhvatila je desetine hiljada — od Mauthauzena i Boldogasonja do logora u Bugarskoj — i mnogi se odande nisu vratili. Topličkom ustanku u proleće 1917. usledila je oštra odmazda: streljanja, paljenje sela, masovne deportacije. Sve to zajedno dalo je zbir koji prevazilazi gubitke same vojske."
+        "text": "Civilni gubici su još veći — procenjuju se na šeststo hiljada i više. Pegavi tifus, koji je 1914. i 1915. harao Srbijom, odneo je, po procenama koje se jako razlikuju, od nekoliko desetina hiljada ljudi — koliko navode izveštaji savezničkih sanitetskih misija 1915. — do oko sto pedeset hiljada i više, koliko navodi kasnija srpska literatura; među žrtvama bili su i strani lekari koji su došli u pomoć. Glad i nestašice u okupiranim oblastima odnosile su decu, starce i porodilje godinama. Internacija u austrougarske i bugarske logore obuhvatila je desetine hiljada — od Mauthauzena i Boldogasonja do logora u Bugarskoj — i mnogi se odande nisu vratili. Topličkom ustanku u proleće 1917. usledila je oštra odmazda: streljanja, paljenje sela, masovne deportacije. Sve to zajedno dalo je zbir koji prevazilazi gubitke same vojske."
       },
       {
         "type": "heading",
@@ -17211,7 +17211,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Materijalna šteta bila je razmerna ljudskim gubicima. Železničke pruge bile su delom razorene, delom istrošene; lokomotive i vagoni odneti su ili uništeni. Mostovi preko Save, Dunava, Drine i Morave srušeni su u različitim fazama rata. Fabrike u Beogradu, Kragujevcu, Nišu i Smederevu — nikada brojne — radile su za okupatorske potrebe ili su demontirane i odvezene. Poljoprivredna proizvodnja bila je u rasulu: stoka rekvirirana ili zaklana, oranice neobrađene, semenski fond pretopljen u hleb. Procene iz posleratnih godina govore da je broj goveda i ovaca u Srbiji bio smanjen za polovinu, na nekim područjima i više. Mnoga sela u Mačvi, Kolubari, Toplici i istočnoj Srbiji ostala su poluprazna; kuće bez krovova, bunari zatrpani, voćnjaci podivljali."
+        "text": "Materijalna šteta bila je razmerna ljudskim gubicima. Železničke pruge bile su delom razorene, delom istrošene; lokomotive i vagoni odneti su ili uništeni. Mostovi preko Save, Drine i Morave srušeni su u različitim fazama rata. Fabrike u Beogradu, Kragujevcu, Nišu i Smederevu — nikada brojne — radile su za okupatorske potrebe ili su demontirane i odvezene. Poljoprivredna proizvodnja bila je u rasulu: stoka rekvirirana ili zaklana, oranice neobrađene, semenski fond pretopljen u hleb. Procene iz posleratnih godina govore da je broj goveda i ovaca u Srbiji bio smanjen za polovinu, na nekim područjima i više. Mnoga sela u Mačvi, Kolubari, Toplici i istočnoj Srbiji ostala su poluprazna; kuće bez krovova, bunari zatrpani, voćnjaci podivljali."
       },
       {
         "type": "paragraph",
@@ -17270,7 +17270,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "U tim okolnostima Narodno vijeće je 24. novembra 1918. donelo odluku da uputi delegaciju u Beograd, sa zadatkom da sa srpskom vladom i regentom Aleksandrom pregovara o stvaranju zajedničke države. Skoro istovremeno donete su dve odluke koje su pravac ujedinjenja učinile neumitnim. Velika narodna skupština Srba, Bunjevaca i ostalih Slovena u Banatu, Bačkoj i Baranji sastala se 25. novembra u Novom Sadu i izglasala priključenje Vojvodine Kraljevini Srbiji. Dan ranije, 26. novembra, takozvana Podgorička skupština svrgla je dinastiju Petrovića-Njegoša i proglasila ujedinjenje Crne Gore sa Srbijom. Pitanje legitimiteta te skupštine — način izbora poslanika, prisustvo srpske vojske, sukob između „bjelaša” i „zelenaša” — ostaje sporno do danas i istoričari ga otvoreno označavaju kao otvoreno pitanje."
+        "text": "U tim okolnostima Narodno vijeće je 24. novembra 1918. donelo odluku da uputi delegaciju u Beograd, sa zadatkom da sa srpskom vladom i regentom Aleksandrom pregovara o stvaranju zajedničke države. Skoro istovremeno donete su dve odluke koje su pravac ujedinjenja učinile neumitnim. Velika narodna skupština Srba, Bunjevaca i ostalih Slovena u Banatu, Bačkoj i Baranji sastala se 25. novembra u Novom Sadu i izglasala priključenje Vojvodine Kraljevini Srbiji. Dan kasnije, 26. novembra, takozvana Podgorička skupština svrgla je dinastiju Petrovića-Njegoša i proglasila ujedinjenje Crne Gore sa Srbijom. Pitanje legitimiteta te skupštine — način izbora poslanika, prisustvo srpske vojske, sukob između „bjelaša” i „zelenaša” — ostaje sporno do danas i istoričari ga otvoreno označavaju kao otvoreno pitanje."
       },
       {
         "type": "paragraph",
@@ -17329,7 +17329,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "U Zagrebu i Ljubljani prijem je bio mešovit. Na ulicama je bilo iskrene radosti zbog kraja Habsburške monarhije i zbog života u sopstvenoj državi, ali se u političkim krugovima brzo osetilo razočaranje formom. Mnogi su očekivali pregovore o organizaciji države — federaciju ili bar široku autonomiju, ravnopravnost dinastije i ustavnih institucija — a ne deklarativno proglašenje koje sve to ostavlja za kasnije. Najoštriji je bio Stjepan Radić, vođa Hrvatske pučke seljačke stranke. On je još na sednici Narodnog vijeća uoči polaska delegacije govorio protiv žurbe i upozorio, u rečenici koja će ostati upamćena, da se Hrvatska na ovaj način „gura u sigurni nemir”. Njegova stranka odbila je da pošalje delegate u Beograd i ostala u opoziciji od prvog dana nove države."
+        "text": "U Zagrebu i Ljubljani prijem je bio mešovit. Na ulicama je bilo iskrene radosti zbog kraja Habsburške monarhije i zbog života u sopstvenoj državi, ali se u političkim krugovima brzo osetilo razočaranje formom. Mnogi su očekivali pregovore o organizaciji države — federaciju ili bar široku autonomiju, ravnopravnost dinastije i ustavnih institucija — a ne deklarativno proglašenje koje sve to ostavlja za kasnije. Najoštriji je bio Stjepan Radić, vođa Hrvatske pučke seljačke stranke. On je još na sednici Narodnog vijeća uoči polaska delegacije govorio protiv žurbe i upozorio, u rečenici koja će ostati upamćena, da delegati „srljaju kao guske u maglu”. Njegova stranka odbila je da pošalje delegate u Beograd i ostala u opoziciji od prvog dana nove države."
       },
       {
         "type": "paragraph",
@@ -17366,7 +17366,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Birano je 419 poslanika. Rezultati su pokazali zemlju u kojoj nije bilo nijedne stranke s ubedljivom većinom, ali se već naziralo nekoliko jakih blokova. Demokratska stranka Ljube Davidovića i Svetozara Pribićevića — okupljena oko ideje jedinstvene jugoslovenske nacije i čvrste države — izašla je kao najveća snaga. Odmah za njom je Pašićeva Radikalna stranka, oslonjena pre svega na Srbiju i takođe sklona centralizmu, ali sa nešto opreznijim odnosom prema „jugoslovenstvu“ kao zameni za nacionalne identitete. Treća velika sila bila je Hrvatska republikanska seljačka stranka Stjepana Radića, sa pedesetak mandata; ona je odbila da uđe u skupštinu, proklamovala je hrvatsku republiku i tako se sama isključila iz najvažnije rasprave. Komunistička partija osvojila je 58 mandata i pokazala da postoji i radikalna leva alternativa, ali će već 1921. godine, posle takozvane Obznane, biti politički zabranjena."
+        "text": "Birano je 419 poslanika. Rezultati su pokazali zemlju u kojoj nije bilo nijedne stranke s ubedljivom većinom, ali se već naziralo nekoliko jakih blokova. Demokratska stranka Ljube Davidovića i Svetozara Pribićevića — okupljena oko ideje jedinstvene jugoslovenske nacije i čvrste države — izašla je kao najveća snaga. Odmah za njom je Pašićeva Radikalna stranka, oslonjena pre svega na Srbiju i takođe sklona centralizmu, ali sa nešto opreznijim odnosom prema „jugoslovenstvu“ kao zameni za nacionalne identitete. Velika snaga bila je i Hrvatska republikanska seljačka stranka Stjepana Radića, sa pedesetak mandata; ona je odbila da uđe u skupštinu, proklamovala je hrvatsku republiku i tako se sama isključila iz najvažnije rasprave. Komunistička partija osvojila je 58 mandata i pokazala da postoji i radikalna leva alternativa, ali će joj već krajem decembra 1920. takozvana Obznana zabraniti rad, a Zakon o zaštiti države u avgustu 1921. staviti je i formalno van zakona."
       },
       {
         "type": "paragraph",
@@ -17383,7 +17383,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Glasanje je održano 28. juna 1921. godine, na Vidovdan — datum koji je u srpskoj svesti već nosio težinu Kosovskog boja i Sarajevskog atentata, pa otuda i ime ustava. Od 419 poslanika, 223 je glasalo za, 35 protiv, 161 je bilo odsutno ili je bojkotovalo. Ustav je tako prošao prostom većinom prisutnih. Krfska deklaracija iz 1917. godine predviđala je upravo taj prag, ali su kritičari odmah, pa i posle, tvrdili da akt takvog značaja zahteva širu legitimnost — saglasnost koja bi obuhvatila i one koji su odbili da glasaju. Spor o tome da li je Vidovdanski ustav bio pravno besprekoran, a politički nedovoljno utemeljen, traje među istoričarima do danas."
+        "text": "Glasanje je održano 28. juna 1921. godine, na Vidovdan — datum koji je u srpskoj svesti već nosio težinu Kosovskog boja i Sarajevskog atentata, pa otuda i ime ustava. Od 419 poslanika, 223 je glasalo za, 35 protiv, 161 je bilo odsutno ili je bojkotovalo. Ustav je tako prošao apsolutnom većinom ukupnog broja poslanika. Vlada je to tumačila kao „numerički kvalifikovanu većinu” koju je predviđala Krfska deklaracija iz 1917. godine, ali su kritičari odmah, pa i posle, tvrdili da je Deklaracija podrazumevala širu saglasnost i da akt takvog značaja zahteva širu legitimnost — saglasnost koja bi obuhvatila i one koji su odbili da glasaju. Spor o tome da li je Vidovdanski ustav bio pravno besprekoran, a politički nedovoljno utemeljen, traje među istoričarima do danas."
       },
       {
         "type": "paragraph",
@@ -17431,10 +17431,6 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
         "title": "Istorija Jugoslavije 1918–1988",
         "author": "Branko Petranović",
         "year": 1988
-      },
-      {
-        "kind": "archive",
-        "title": "Arhiv Jugoslavije — fondovi Ustavotvorne skupštine i Ministarstva ustavotvornih dela"
       }
     ]
   },
@@ -17447,7 +17443,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Politička scena bila je raznolika i, sa beogradske strane gledana, teško pregledna. Najjača srpska stranka bili su Radikali Nikole Pašića — centralisti, oslonjeni na seljaštvo Srbije pre svega, sa starim partijskim aparatom još iz Kraljevine Srbije. Demokrate Svetozara Pribićevića i Ljube Davidovića okupljale su Srbe iz prečanskih krajeva i unioniste različitog porekla, takođe pristalice jake državne celine. Hrvatska republikanska seljačka stranka Stjepana Radića bila je daleko najjača stranka u Hrvatskoj — federalistička, isprva otvoreno republikanska, oslonjena na ogromnu seljačku većinu. Slovenačku narodnu stranku vodio je sveštenik Anton Korošec — klerikalna, kulturno samosvesna, ali pragmatično spremna da ulazi u koalicije. Jugoslovenska muslimanska organizacija Mehmeda Spahe branila je interese bosanskih muslimana, najviše agrarne i verske. Komunistička partija, izborno iznenađujuće jaka 1920, već 1921. zabranjena je „Obznanom” i Zakonom o zaštiti države i nastavila je da deluje u ilegali."
+        "text": "Politička scena bila je raznolika i, sa beogradske strane gledana, teško pregledna. Najjača srpska stranka bili su Radikali Nikole Pašića — centralisti, oslonjeni na seljaštvo Srbije pre svega, sa starim partijskim aparatom još iz Kraljevine Srbije. Demokrate Svetozara Pribićevića i Ljube Davidovića okupljale su Srbe iz prečanskih krajeva i unioniste različitog porekla, takođe pristalice jake državne celine. Hrvatska republikanska seljačka stranka Stjepana Radića bila je daleko najjača stranka u Hrvatskoj — federalistička, isprva otvoreno republikanska, oslonjena na ogromnu seljačku većinu. Slovenačku narodnu stranku vodio je sveštenik Anton Korošec — klerikalna, kulturno samosvesna, ali pragmatično spremna da ulazi u koalicije. Jugoslovenska muslimanska organizacija Mehmeda Spahe branila je interese bosanskih muslimana, najviše agrarne i verske. Komunistička partija, izborno iznenađujuće jaka 1920, zabranjena je „Obznanom” krajem 1920. i Zakonom o zaštiti države 1921. i nastavila je da deluje u ilegali."
       },
       {
         "type": "heading",
@@ -17464,7 +17460,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Najteže otvoreno pitanje ostalo je hrvatsko. Stjepan Radić je godinama bojkotovao beogradski parlament, držao se republikanske platforme i tražio reviziju ustava; njegova stranka osvajala je sve više glasova. Zatim je 1925, posle hapšenja i pregovora, izvršio nagli zaokret — priznao monarhiju, preimenovao stranku u Hrvatsku seljačku stranku i ušao u koaliciju sa Pašićevim radikalima. „Radikalsko‑radićevska” vlada bila je politička senzacija, ali i kratkog daha: razlike su bile preduboke, lične trzavice prevelike, pa se savez razišao već naredne godine. Pašić je u međuvremenu pao i kao premijer i u stranci, a u junu 1926. i umro, oduzevši radikalima njihovog jedinog nespornog vođu. Najteže od svega bilo je pitanje oblasti: Vidovdanski ustav podelio je državu na trideset tri oblasti, čije su granice namerno krčene preko istorijskih međa, pa je nekadašnja Hrvatska‑Slavonija bila isečena u nekoliko delova — što je u Zagrebu doživljavano kao smišljeno cepanje hrvatskog tela države."
+        "text": "Najteže otvoreno pitanje ostalo je hrvatsko. Stjepan Radić je godinama bojkotovao beogradski parlament, držao se republikanske platforme i tražio reviziju ustava; njegova stranka osvajala je sve više glasova. Zatim je 1925, posle hapšenja i pregovora, izvršio nagli zaokret — priznao monarhiju, preimenovao stranku u Hrvatsku seljačku stranku i ušao u koaliciju sa Pašićevim radikalima. „Radikalsko‑radićevska” vlada bila je politička senzacija, ali i kratkog daha: razlike su bile preduboke, lične trzavice prevelike, pa se savez razišao već naredne godine. Pašić je u međuvremenu pao i kao premijer i u stranci, a u decembru 1926. i umro, oduzevši radikalima njihovog jedinog nespornog vođu. Najteže od svega bilo je pitanje oblasti: Vidovdanski ustav podelio je državu na trideset tri oblasti, čije su granice namerno krčene preko istorijskih međa, pa je nekadašnja Hrvatska‑Slavonija bila isečena u nekoliko delova — što je u Zagrebu doživljavano kao smišljeno cepanje hrvatskog tela države."
       },
       {
         "type": "paragraph",
@@ -17497,11 +17493,11 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Najteže i najglasnije bilo je hrvatsko pitanje. Hrvatska seljačka stranka braće Radić, ubrzo Hrvatska republikanska seljačka stranka pod Stjepanom Radićem, iz izbora u izbore osvajala je veliku većinu hrvatskih glasova. Radić je centralizmu suprotstavljao zahtev za federalizmom, za hrvatskim saborom i za priznanjem da Hrvati u novoj državi nisu samo „pleme” jednog troimenog naroda nego poseban politički narod. Argumenti su bili konkretni: vlada u Beogradu, kralj iz dinastije Karađorđevića, oficirski kor pretežno srpski, nova administrativna podela koja deli istorijsku Hrvatsku na više oblasti. Radićeve oštre izjave, među kojima i poznata reč o „arnautsko-azijatskoj” upravi, bile su deo političkog stila tog vremena — gruba, namerno provokativna, smišljena da odjekne dalje od skupštinske dvorane."
+        "text": "Najteže i najglasnije bilo je hrvatsko pitanje. Hrvatska pučka seljačka stranka braće Radić, od kraja 1920. Hrvatska republikanska seljačka stranka pod Stjepanom Radićem, iz izbora u izbore osvajala je veliku većinu hrvatskih glasova. Radić je centralizmu suprotstavljao zahtev za federalizmom, za hrvatskim saborom i za priznanjem da Hrvati u novoj državi nisu samo „pleme” jednog troimenog naroda nego poseban politički narod. Argumenti su bili konkretni: vlada u Beogradu, kralj iz dinastije Karađorđevića, oficirski kor pretežno srpski, nova administrativna podela koja deli istorijsku Hrvatsku na više oblasti. Radićeve oštre izjave bile su deo političkog stila tog vremena — gruba, namerno provokativna, smišljena da odjekne dalje od skupštinske dvorane."
       },
       {
         "type": "paragraph",
-        "text": "Slovenačko pitanje bilo je manje konfliktno, ali ne i manje važno. Slovenačka ljudska stranka Antona Korošca, naslonjena na katoličku crkvu i seljaštvo, uspela je da očuva ono što je Slovencima bilo najvažnije: slovenački jezik u školi, upravi i javnom životu, sopstvenu univerzitetsku tradiciju u Ljubljani i znatnu autonomiju kulturnih ustanova. Korošec je vodio pragmatičnu politiku — povremeno je sa svojom strankom ulazio u beogradske vlade, povremeno odlazio u opoziciju, a 1928. postaće prvi i, do kraja Kraljevine, jedini nesrbin na čelu jugoslovenske vlade. Slovenački centralizam Beograda nije voleo, ali je sa njim umeo da pregovara."
+        "text": "Slovenačko pitanje bilo je manje konfliktno, ali ne i manje važno. Slovenačka ljudska stranka Antona Korošca, naslonjena na katoličku crkvu i seljaštvo, uspela je da očuva ono što je Slovencima bilo najvažnije: slovenački jezik u školi, upravi i javnom životu, sopstvenu univerzitetsku tradiciju u Ljubljani i znatnu autonomiju kulturnih ustanova. Korošec je vodio pragmatičnu politiku — povremeno je sa svojom strankom ulazio u beogradske vlade, povremeno odlazio u opoziciju, a 1928. postaće prvi i, do 1941, jedini nesrbin na čelu jugoslovenske vlade. Slovenački centralizam Beograda nije voleo, ali je sa njim umeo da pregovara."
       },
       {
         "type": "paragraph",
@@ -17514,7 +17510,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Albansko pitanje bilo je u prvoj deceniji rešavano otvoreno diskriminatornom politikom i tako ga treba i nazvati. Na Kosovu, u zapadnoj Makedoniji i delovima Sandžaka živelo je oko pola miliona Albanaca. Kraljevina je tu vodila politiku „srbizacije”: zatvarane su albanske škole otvarane u osmansko doba, javni život na albanskom jeziku bio je sveden na najmanju moguću meru, a kroz agrarnu reformu i posebne kolonizacione zakone na južne krajeve doseljeno je između šezdeset i sedamdeset hiljada srpskih i crnogorskih kolonista, kojima je deljena zemlja, često ona oduzeta lokalnim porodicama. Albansko stanovništvo nije imalo političke stranke ravnopravne sa ostalima, a nezadovoljstvo se izražavalo i kroz oružani pokret kačaka, koji je vojska godinama suzbijala."
+        "text": "Albansko pitanje bilo je u prvoj deceniji rešavano otvoreno diskriminatornom politikom i tako ga treba i nazvati. Na Kosovu, u zapadnoj Makedoniji i delovima Sandžaka živelo je oko pola miliona Albanaca. Kraljevina je tu vodila politiku „srbizacije”: zatvarane su albanske škole,javni život na albanskom jeziku bio je sveden na najmanju moguću meru, a kroz agrarnu reformu i posebne kolonizacione zakone na južne krajeve do 1941. doseljeno je, po različitim procenama, između šezdeset i sedamdeset hiljada srpskih i crnogorskih kolonista, kojima je deljena zemlja, često ona oduzeta lokalnim porodicama. Albansko stanovništvo nije imalo političke stranke ravnopravne sa ostalima, a nezadovoljstvo se izražavalo i kroz oružani pokret kačaka, koji je vojska godinama suzbijala."
       },
       {
         "type": "paragraph",
@@ -17555,16 +17551,16 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "content": [
       {
         "type": "paragraph",
-        "text": "Bila je sreda, 20. jun 1928. godine — po starom kalendaru Vidovdan, datum koji je u srpskoj svesti već nosio težinu Kosova i Sarajevskog atentata. Tog jutra Narodna skupština u Beogradu bila je puna, vazduh zagušljiv, raspoloženje napeto već danima. Hrvatska seljačka stranka Stjepana Radića vodila je oštru opozicionu kampanju protiv vladine većine, sa neprekidnim optužbama za korupciju ministarstava i sa otvorenim napadima na zaostavštinu Nikole Pašića, koji je dve godine ranije umro. Radikali su uzvraćali jednako grubo. Niko, međutim, nije slutio da će se prepirka u sali tog jutra završiti pucnjevima.",
+        "text": "Bila je sreda, 20. jun 1928. godine — osam dana pred Vidovdan, datum koji je u srpskoj svesti već nosio težinu Kosova i Sarajevskog atentata. Tog jutra Narodna skupština u Beogradu bila je puna, vazduh zagušljiv, raspoloženje napeto već danima. Hrvatska seljačka stranka Stjepana Radića vodila je oštru opozicionu kampanju protiv vladine većine, sa neprekidnim optužbama za korupciju ministarstava i sa otvorenim napadima na zaostavštinu Nikole Pašića, koji je dve godine ranije umro. Radikali su uzvraćali jednako grubo. Niko, međutim, nije slutio da će se prepirka u sali tog jutra završiti pucnjevima.",
         "dropcap": true
       },
       {
         "type": "paragraph",
-        "text": "Tokom debate o budžetu i o radu pojedinih ministarstava reč je uzeo Puniša Račić, poslanik Narodne radikalne stranke iz Crne Gore, čovek tvrdog karaktera i poznat po naprasitosti. Već ranije se sa govornice požalio da je lično napadnut i tražio satisfakciju. Sa klupa HSS-a stizali su odgovori, uzvici, dobacivanja. U jednom trenutku Račić je odustao od reči, vratio se ka svom mestu, izvadio revolver i počeo da puca u pravcu poslaničkih klupa Hrvatske seljačke stranke. Pucnji su odjeknuli skupštinskom salom kao nešto za šta zgrada nije bila pripremljena: pojava do tada nezamisliva u evropskom parlamentu mirnodopskog vremena."
+        "text": "Tokom debate o budžetu i o radu pojedinih ministarstava reč je uzeo Puniša Račić, poslanik Narodne radikalne stranke iz Crne Gore, čovek tvrdog karaktera i poznat po naprasitosti. Već ranije se sa govornice požalio da je lično napadnut i tražio satisfakciju. Sa klupa HSS-a stizali su odgovori, uzvici, dobacivanja. U jednom trenutku Račić je, još na govornici, izvadio revolver i počeo da puca u pravcu poslaničkih klupa Hrvatske seljačke stranke. Pucnji su odjeknuli skupštinskom salom kao nešto za šta zgrada nije bila pripremljena: pojava do tada nezamisliva u evropskom parlamentu mirnodopskog vremena."
       },
       {
         "type": "paragraph",
-        "text": "Na licu mesta poginula su dvojica poslanika. Pavle Radić, nećak Stjepana Radića i jedan od najbližih saradnika u vrhu HSS-a, pao je smrtno pogođen. Sa njim je ubijen i Đuro Basariček, poslanik iz Zagreba, čovek mirne, gotovo neprimetne pojave. Ranjeni su Ivan Pernar i Ivan Granđa. Težak hitac pogodio je samog Stjepana Radića, koji je ostao na nogama, ali sa ranom u trbuhu od koje se više neće oporaviti. Račić je oboren, zadržan i predat policiji; revolver je oduzet, sednica prekinuta. Za nekoliko minuta jedan unutrašnjopolitički sukob pretvoren je u krivično delo bez presedana — poslanik je u zgradi parlamenta ubio drugog poslanika usred zasedanja."
+        "text": "Na licu mesta poginula su dvojica poslanika. Pavle Radić, nećak Stjepana Radića i jedan od najbližih saradnika u vrhu HSS-a, pao je smrtno pogođen. Sa njim je ubijen i Đuro Basariček, poslanik iz Zagreba, čovek mirne, gotovo neprimetne pojave. Ranjeni su Ivan Pernar i Ivan Granđa. Težak hitac pogodio je samog Stjepana Radića, koji je ostao na nogama, ali sa ranom u trbuhu od koje se više neće oporaviti. Račić je neometano napustio zgradu i ubrzo se sam javio vlastima; sednica je prekinuta. Za nekoliko minuta jedan unutrašnjopolitički sukob pretvoren je u krivično delo bez presedana — poslanik je u zgradi parlamenta ubio drugog poslanika usred zasedanja."
       },
       {
         "type": "heading",
@@ -17573,7 +17569,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Stjepan Radić prebačen je u bolnicu, a potom, kada se činilo da se stanje stabilizovalo, vraćen u Zagreb. Sedmicama je trajalo borenje sa posledicama rane i komplikacijama; umro je 8. avgusta 1928. godine. Njegova sahrana u Zagrebu pretvorila se u jednu od najvećih masovnih manifestacija u istoriji grada — savremene procene govorile su o više od sto hiljada ljudi na ulicama, što je u tadašnjoj sredini bilo gotovo nezamislivo. Žalost za Radićem nije bila samo lična ili stranačka; postala je opštehrvatsko političko izjašnjavanje protiv stanja u zajedničkoj državi. Hrvatska seljačka stranka i njeni saveznici povukli su se iz Beograda i odbili da dalje učestvuju u radu Narodne skupštine; tako je nastala Seljačko-demokratska koalicija sa zahtevom za temeljnu reviziju državnog uređenja."
+        "text": "Stjepan Radić prebačen je u bolnicu, a potom, kada se činilo da se stanje stabilizovalo, vraćen u Zagreb. Sedmicama je trajalo borenje sa posledicama rane i komplikacijama; umro je 8. avgusta 1928. godine. Njegova sahrana u Zagrebu pretvorila se u jednu od najvećih masovnih manifestacija u istoriji grada — savremene procene govorile su o više od sto hiljada ljudi na ulicama, što je u tadašnjoj sredini bilo gotovo nezamislivo. Žalost za Radićem nije bila samo lična ili stranačka; postala je opštehrvatsko političko izjašnjavanje protiv stanja u zajedničkoj državi. Hrvatska seljačka stranka i njeni saveznici povukli su se iz Beograda i odbili da dalje učestvuju u radu Narodne skupštine; Seljačko-demokratska koalicija, stvorena još u jesen 1927, zatražila je temeljnu reviziju državnog uređenja."
       },
       {
         "type": "paragraph",
@@ -17608,7 +17604,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "content": [
       {
         "type": "paragraph",
-        "text": "Šestog januara 1929. godine, na pravoslavni Badnji dan, građani Kraljevine Srba, Hrvata i Slovenaca čitali su u novinama proglas kralja Aleksandra Karađorđevića kojim se obaveštavaju da odsada žive u državi bez ustava, bez skupštine i bez stranaka. Vidovdanski ustav, donet svega osam godina ranije, suspendovan je jednim potezom pera. Narodna skupština je raspuštena. Sve političke partije, kao i sva udruženja koja okupljaju ljude na nacionalnoj ili verskoj osnovi, zabranjeni su. Kralj je u proglasu objasnio da „parlamentarizam… više nije u stanju da služi interesima države” i da on, kao vladar, preuzima neposrednu odgovornost za sudbinu zemlje.",
+        "text": "Šestog januara 1929. godine, na pravoslavni Badnji dan, građani Kraljevine Srba, Hrvata i Slovenaca čitali su u novinama proglas kralja Aleksandra Karađorđevića kojim se obaveštavaju da odsada žive u državi bez ustava, bez skupštine i bez stranaka. Vidovdanski ustav, donet svega osam godina ranije, suspendovan je jednim potezom pera. Narodna skupština je raspuštena. Sve političke partije, kao i sva udruženja koja okupljaju ljude na nacionalnoj ili verskoj osnovi, zabranjeni su. Kralj je u proglasu objasnio da je „nastupio čas kad između Naroda i Kralja ne može i ne sme više biti posrednika”, jer je parlamentarizam postao „smetnja za svaki plodni rad u Državi”, i da on, kao vladar, preuzima neposrednu odgovornost za sudbinu zemlje.",
         "dropcap": true
       },
       {
@@ -17626,7 +17622,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Pravi smisao šestojanuarskog reza video se tek u jesen 1929. Trećeg oktobra država je promenila ime: iz Kraljevine Srba, Hrvata i Slovenaca postala je Kraljevina Jugoslavija. Stare trideset i tri oblasti, naslednice nekadašnjih pokrajinskih granica, zamenjene su sa devet banovina nazvanih po rekama — Drinska, Vrbaska, Savska, Dunavska, Moravska, Vardarska, Zetska i Primorska, uz beogradsku upravu kao posebnu jedinicu. Granice banovina povučene su namerno tako da preseku istorijske nacionalne celine: Hrvatska je podeljena između Savske i Primorske, srpska Vojvodina između Dunavske i Drinske, makedonske oblasti smeštene su u Vardarsku, a Crna Gora u Zetsku. Reka kao ime — bezbojna, geografska, neopterećena nacijom — trebalo je da zameni Hrvatsku, Srbiju, Bosnu, Sloveniju, Crnu Goru."
+        "text": "Pravi smisao šestojanuarskog reza video se tek u jesen 1929. Trećeg oktobra država je promenila ime: iz Kraljevine Srba, Hrvata i Slovenaca postala je Kraljevina Jugoslavija. Dotadašnje trideset tri oblasti zamenjene su sa devet banovina nazvanih uglavnom po rekama — Dravska, Savska, Vrbaska, Primorska, Drinska, Zetska, Dunavska, Moravska i Vardarska, uz beogradsku upravu kao posebnu jedinicu. Granice banovina povučene su namerno tako da preseku istorijske nacionalne celine: Hrvatska je podeljena između Savske i Primorske, Vojvodina je sa severnom Srbijom spojena u Dunavsku, makedonske oblasti smeštene su u Vardarsku, a Crna Gora u Zetsku. Reka kao ime — bezbojna, geografska, neopterećena nacijom — trebalo je da zameni Hrvatsku, Srbiju, Bosnu, Sloveniju, Crnu Goru."
       },
       {
         "type": "paragraph",
@@ -17634,7 +17630,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Reakcije su bile podeljene i, gledano unazad, opasne. U Hrvatskoj je novi vođa Seljačke stranke Vlatko Maček, naslednik Stjepana Radića, isprva nastupao oprezno; ipak je već 1933. završio u pritvoru. Krug nepomirljivih hrvatskih nacionalista otišao je u emigraciju — u Italiji je iste 1929. godine Ante Pavelić osnovao Ustaški pokret, otvoreno terorističku organizaciju koja je rešenje videla u razbijanju Jugoslavije, uz podršku Rima i kasnije Berlina. U Srbiji je deo intelektualaca i centralistički nastrojenih radikalskih i demokratskih krugova diktaturu prećutno prihvatio kao manje zlo; drugi deo demokratske opozicije, ostavši bez stranke i bez novina, jednostavno je ućutao. Komunistička partija ušla je u još dublju ilegalu, gde je sledeću deceniju provela kao mreža ćelija."
+        "text": "Reakcije su bile podeljene i, gledano unazad, opasne. U Hrvatskoj je novi vođa Seljačke stranke Vladko Maček, naslednik Stjepana Radića, isprva nastupao oprezno; ipak je već 1933. završio u pritvoru. Krug nepomirljivih hrvatskih nacionalista otišao je u emigraciju — u Italiji je iste 1929. godine Ante Pavelić osnovao Ustaški pokret, otvoreno terorističku organizaciju koja je rešenje videla u razbijanju Jugoslavije, uz podršku Rima i kasnije Berlina. U Srbiji je deo intelektualaca i centralistički nastrojenih radikalskih i demokratskih krugova diktaturu prećutno prihvatio kao manje zlo; drugi deo demokratske opozicije, ostavši bez stranke i bez novina, jednostavno je ućutao. Komunistička partija ušla je u još dublju ilegalu, gde je sledeću deceniju provela kao mreža ćelija."
       },
       {
         "type": "paragraph",
@@ -17652,7 +17648,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "keyPeople": [
       "kralj Aleksandar Karađorđević",
       "Petar Živković",
-      "Vlatko Maček",
+      "Vladko Maček",
       "Ante Pavelić"
     ],
     "keyPlaces": [
@@ -17668,7 +17664,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Uz novo ime, država je dobila i novu unutrašnju kartu. Stare oblasti i istorijske pokrajine ukinute su, a zemlja je podeljena na devet banovina, nazvanih po rekama, ne po narodima ili istorijskim oblastima. Dravska banovina, sa sedištem u Ljubljani, pokrivala je Sloveniju. Savska, sa sedištem u Zagrebu, obuhvatala je veći deo Hrvatske i Slavoniju. Primorska, sa sedištem u Splitu, spajala je dalmatinsku obalu sa zaleđem zapadne Hercegovine. Vrbaska, sa sedištem u Banjoj Luci, i Drinska, sa sedištem u Sarajevu, podelile su Bosnu na više delova, a delovi su otišli i Primorskoj i Zetskoj. Zetska banovina, najpre sa sedištem na Cetinju, obuhvatala je Crnu Goru, deo Hercegovine i Sandžak. Vardarska, sa sedištem u Skoplju, pokrivala je današnju Severnu Makedoniju, deo južne Srbije i Kosovo. Dunavska, sa sedištem u Novom Sadu, ujedinila je Vojvodinu i delove severne Srbije. Moravska, sa sedištem u Nišu, obuhvatala je centralnu i istočnu Srbiju. Beograd je izdvojen kao posebna upravna jedinica."
+        "text": "Uz novo ime, država je dobila i novu unutrašnju kartu. Stare oblasti i istorijske pokrajine ukinute su, a zemlja je podeljena na devet banovina, nazvanih po rekama, ne po narodima ili istorijskim oblastima. Dravska banovina, sa sedištem u Ljubljani, pokrivala je Sloveniju. Savska, sa sedištem u Zagrebu, obuhvatala je veći deo Hrvatske i Slavoniju. Primorska, sa sedištem u Splitu, spajala je dalmatinsku obalu sa zaleđem zapadne Hercegovine. Vrbaska, sa sedištem u Banjoj Luci, i Drinska, sa sedištem u Sarajevu, podelile su Bosnu na više delova, a delovi su otišli i Primorskoj i Zetskoj. Zetska banovina, sa sedištem na Cetinju, obuhvatala je Crnu Goru, deo Hercegovine i Sandžak. Vardarska, sa sedištem u Skoplju, pokrivala je današnju Severnu Makedoniju, deo južne Srbije i Kosovo. Dunavska, sa sedištem u Novom Sadu, ujedinila je Vojvodinu i delove severne Srbije. Moravska, sa sedištem u Nišu, obuhvatala je centralnu i istočnu Srbiju. Beograd je izdvojen kao posebna upravna jedinica."
       },
       {
         "type": "paragraph",
@@ -17720,11 +17716,11 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Pored kralja u otvorenom automobilu „Delaž” sedeo je francuski ministar inostranih poslova Luj Bartu, jedan od glavnih graditelja francuske antinacističke politike te godine. Kolona se sporo kretala niz bulevar La Kanebijer, kroz gusti špalir publike i slabo obezbeđenu pratnju francuske policije. Iz mase je iskočio krupan čovek u tamnom mantilu, popeo se na papučicu automobila i, sa razdaljine od pola metra, opalio iz pištolja u kralja. Aleksandar je bio pogođen u predeo grudi i u trbuh i izdahnuo je u kolima, pre nego što su stigla do prefekture. Bartu je odveden u bolnicu sa ranom u ruci, ali je usled spore intervencije i izgubljene krvi umro nekoliko sati kasnije. Dugo je ostalo otvoreno pitanje koje opisuju i današnji istoričari: da li je francuskog ministra pogodio metak atentatora ili slučajni rafal francuske policije, ispaljen u opštoj zbrci pre nego što je napadač oboren. Ta nedoumica nikada nije do kraja razrešena i treba je tako i predstaviti."
+        "text": "Pored kralja u otvorenom automobilu „Delaž” sedeo je francuski ministar inostranih poslova Luj Bartu, jedan od glavnih graditelja francuske antinacističke politike te godine. Kolona se sporo kretala niz bulevar La Kanebijer, kroz gusti špalir publike i slabo obezbeđenu pratnju francuske policije. Iz mase je iskočio krupan čovek u tamnom mantilu, popeo se na papučicu automobila i, sa razdaljine od pola metra, opalio iz pištolja u kralja. Aleksandar je bio pogođen u predeo grudi i u trbuh i izdahnuo je ubrzo, pošto je automobil stigao do prefekture. Bartu je odveden u bolnicu sa ranom u ruci, ali je usled spore intervencije i izgubljene krvi umro nekoliko sati kasnije. Dugo je ostalo otvoreno pitanje koje opisuju i današnji istoričari: da li je francuskog ministra pogodio metak atentatora ili slučajni rafal francuske policije, ispaljen u opštoj zbrci pre nego što je napadač oboren. Ta nedoumica nikada nije do kraja razrešena i treba je tako i predstaviti."
       },
       {
         "type": "paragraph",
-        "text": "Atentator je na licu mesta isečen sabljom konjičkog oficira i dotučen udarcima razjarene gomile, pa je umro u toku noći a da nije rekao ni reč. Tek su istraga i dokumenti pronađeni uz telo otkrili da je reč o Vladu Černozemskom, Bugarinu makedonskog porekla, čije je pravo ime bilo Velički Veličko Kerin. Bio je profesionalni egzekutor bugarske Unutrašnje makedonske revolucionarne organizacije — VMRO — sa nekoliko ranijih političkih ubistava iza sebe. U Marsej nije došao sam: u Francuskoj je već nedeljama bila razmeštena rezervna grupa hrvatskih ustaških atentatora, doputovala iz Mađarske preko Švajcarske. Da je Černozemski promašio, oni su trebali da deluju duž rute kraljevog voza ka Parizu."
+        "text": "Atentator je na licu mesta isečen sabljom konjičkog oficira i dotučen udarcima razjarene gomile, pa je umro u toku noći a da nije rekao ni reč. Tek su istraga i dokumenti pronađeni uz telo otkrili da je reč o Vladu Černozemskom, Bugarinu rodom iz Kamenice kod Pazardžika, čije je pravo ime bilo Veličko Dimitrov Kerin. Bio je profesionalni egzekutor bugarske Unutrašnje makedonske revolucionarne organizacije — VMRO — sa nekoliko ranijih političkih ubistava iza sebe. U Marsej nije došao sam: u Francuskoj je već nedeljama bila razmeštena rezervna grupa hrvatskih ustaških atentatora, doputovala iz Mađarske preko Švajcarske. Da je Černozemski promašio, oni su trebali da deluju duž rute kraljevog voza ka Parizu."
       },
       {
         "type": "heading",
@@ -17733,15 +17729,15 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Iza ubistva u Marseju stajao je savez dva pokreta i dve države. Ustaški pokret Ante Pavelića, osnovan 1929. nakon uvođenja šestojanuarske diktature, već nekoliko godina je radio iz emigracije, najviše iz fašističke Italije, gde je u logorima oko Brešije i na Liparskim ostrvima obučavao naoružane grupe. Pavelić je u Italiji dobijao pasoše, novac i zaštitu, a u Mađarskoj logor za obuku kod mesta Janka Pusta. Bugarska VMRO, oslabljena unutrašnjim raskolima, ponudila mu je iskusnog egzekutora kakvog ustaše tada još nisu imale. Italijanske i mađarske obaveštajne službe znale su za pripremu, a u nekim segmentima i pomagale je — kasnije objavljeni dokumenti to potvrđuju, iako su tadašnji italijanski i mađarski zvanični stavovi sve poricali. Kralj Aleksandar je za sve njih bio personalni protivnik: čovek koji je 1929. ukinuo stranke, sklopio Malu Antantu, čvrsto vezao Jugoslaviju za Francusku i blokirao svaku reviziju granica koje je Versaj ostavio Mađarskoj i Bugarskoj."
+        "text": "Iza ubistva u Marseju stajao je savez dva pokreta i dve države. Ustaški pokret Ante Pavelića, osnovan 1929. nakon uvođenja šestojanuarske diktature, već nekoliko godina je radio iz emigracije, najviše iz fašističke Italije, gde je u logorima u severnoj Italiji, u Borgotaru i Bovenju kod Brešije, obučavao naoružane grupe. Pavelić je u Italiji dobijao pasoše, novac i zaštitu, a u Mađarskoj logor za obuku kod mesta Janka Pusta. Bugarska VMRO, oslabljena unutrašnjim raskolima, ponudila mu je iskusnog egzekutora kakvog ustaše tada još nisu imale. Italijanske i mađarske obaveštajne službe znale su za pripremu, a u nekim segmentima i pomagale je — kasnije objavljeni dokumenti to potvrđuju, iako su tadašnji italijanski i mađarski zvanični stavovi sve poricali. Kralj Aleksandar je za sve njih bio personalni protivnik: čovek koji je 1929. ukinuo stranke, sklopio Malu Antantu, čvrsto vezao Jugoslaviju za Francusku i blokirao svaku reviziju granica koje je Versaj ostavio Mađarskoj i Bugarskoj."
       },
       {
         "type": "paragraph",
-        "text": "U zemlji su vesti iz Marseja izazvale šok bez presedana. Aleksandar je, uprkos diktaturi koja je još uvek držala glavne poluge vlasti, bio centar celokupnog političkog sistema; bez njega je sistem bio bezglav. Naslednik prestola, princ Petar, imao je tek jedanaest godina. Po kraljevom testamentu uspostavljeno je trojno namesništvo na čelu sa knezom Pavlom Karađorđevićem, kraljevim rođakom. Pavle, čovek znatno blažeg i opreznijeg kova od pokojnog kralja, postaće u narednim godinama stvarni vladar zemlje. Represivni aparat reagovao je oštro — usledila su hapšenja, pojačan nadzor nad hrvatskim, makedonskim i komunističkim emigrantskim mrežama, deportacije iz Francuske i Belgije — ali do velikog unutrašnjeg rasplamsavanja sukoba, kakvog su organizatori atentata verovatno priželjkivali, ipak nije došlo. Sahrana kralja u Oplencu okupila je predstavnike skoro svih evropskih dvorova i vlada, što je samo po sebi bila slika promenjenog kontinenta — godinu dana posle Hitlerovog dolaska na vlast."
+        "text": "U zemlji su vesti iz Marseja izazvale šok bez presedana. Aleksandar je, uprkos diktaturi koja je još uvek držala glavne poluge vlasti, bio centar celokupnog političkog sistema; bez njega je sistem bio bezglav. Naslednik prestola, princ Petar, imao je tek jedanaest godina. Po kraljevom testamentu uspostavljeno je trojno namesništvo na čelu sa knezom Pavlom Karađorđevićem, kraljevim rođakom. Pavle, čovek znatno blažeg i opreznijeg kova od pokojnog kralja, postaće u narednim godinama stvarni vladar zemlje. Represivni aparat reagovao je oštro — usledila su hapšenja, pojačan nadzor nad hrvatskim, makedonskim i komunističkim emigrantskim mrežama, deportacije iz Francuske i Belgije — ali do velikog unutrašnjeg rasplamsavanja sukoba, kakvog su organizatori atentata verovatno priželjkivali, ipak nije došlo. Sahrana kralja u Oplencu okupila je predstavnike skoro svih evropskih dvorova i vlada, što je samo po sebi bila slika promenjenog kontinenta — godinu i po dana posle Hitlerovog dolaska na vlast."
       },
       {
         "type": "paragraph",
-        "text": "Međunarodne posledice bile su jednako značajne. Jugoslavija je slučaj iznela pred Ligu naroda u Ženevi, optužujući Mađarsku za sapomaganje teroristima i posredno upirući prst u Italiju. U decembru 1934. Liga je formalno osudila Mađarsku zbog propusta, ali stvarnog suđenja državama-pokroviteljima nije bilo: zapadne sile, pre svega Britanija i sama Francuska, plašile su se da ne gurnu Italiju dalje u Hitlerov zagrljaj. Suđeno je samo neposrednim izvršiocima — trojici ustaša uhvaćenih u Francuskoj, koji su 1935. u Eks-an-Provansu osuđeni na doživotnu robiju; Pavelić i njegov zamenik Eugen Kvaternik, kojima je suđeno u odsustvu, mirno su čekali rasplet u Italiji, koja je odbila da ih izruči. Smrt Luja Bartua bila je za francusku diplomatiju gubitak težine koju je teško nadoknaditi; njegova politika čvrstog savezništva sa Beogradom, Pragom i Moskvom polako je posle 1934. počela da gubi pravac."
+        "text": "Međunarodne posledice bile su jednako značajne. Jugoslavija je slučaj iznela pred Ligu naroda u Ženevi, optužujući Mađarsku za sapomaganje teroristima i posredno upirući prst u Italiju. U decembru 1934. Liga je formalno osudila Mađarsku zbog propusta, ali stvarnog suđenja državama-pokroviteljima nije bilo: zapadne sile, pre svega Britanija i sama Francuska, plašile su se da ne gurnu Italiju dalje u Hitlerov zagrljaj. Suđeno je samo neposrednim izvršiocima — trojici ustaša uhvaćenih u Francuskoj, koji su februara 1936. u Eks-an-Provansu osuđeni na doživotnu robiju; Pavelić i njegov zamenik Eugen Kvaternik, osuđeni u odsustvu na smrt, bili su u Italiji uhapšeni i zadržani u zatvoru u Torinu do 1936, ali ih Italija nije izručila Francuskoj. Smrt Luja Bartua bila je za francusku diplomatiju gubitak težine koju je teško nadoknaditi; njegova politika čvrstog savezništva sa Beogradom, Pragom i Moskvom polako je posle 1934. počela da gubi pravac."
       },
       {
         "type": "paragraph",
@@ -17768,7 +17764,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "content": [
       {
         "type": "paragraph",
-        "text": "Kada je kralj Aleksandar oktobra 1934. ubijen u Marselju, jugoslovenski presto pripao je njegovom najstarijem sinu Petru — dečaku od jedanaest godina, koji se školovao u Engleskoj i nije mogao sam da preuzme vlast. Aleksandar je još za života, u tajnom testamentu, predvideo upravo taj trenutak. Odredio je trojicu namesnika koji će u Petrovo ime voditi državu do njegove punoletnosti: kraljevog brata od strica princa Pavla Karađorđevića kao prvog i najvažnijeg člana, lekara dr Radenka Stankovića i vojnika Iva Perovića kao dvojicu pratećih ljudi od poverenja. Stanković i Perović bili su sigurni glasovi režima, ali stvarna težina pala je na jednog čoveka. Knez Pavle je od prvog dana postao faktički šef države, i takav će ostati narednih sedam godina.",
+        "text": "Kada je kralj Aleksandar oktobra 1934. ubijen u Marselju, jugoslovenski presto pripao je njegovom najstarijem sinu Petru — dečaku od jedanaest godina, koji se školovao u Engleskoj i nije mogao sam da preuzme vlast. Aleksandar je još za života, u tajnom testamentu, predvideo upravo taj trenutak. Odredio je trojicu namesnika koji će u Petrovo ime voditi državu do njegove punoletnosti: kraljevog brata od strica princa Pavla Karađorđevića kao prvog i najvažnijeg člana, lekara dr Radenka Stankovića i pravnika Iva Perovića, bana Savske banovine, kao dvojicu pratećih ljudi od poverenja. Stanković i Perović bili su sigurni glasovi režima, ali stvarna težina pala je na jednog čoveka. Knez Pavle je od prvog dana postao faktički šef države, i takav će ostati narednih sedam godina.",
         "dropcap": true
       },
       {
@@ -17782,15 +17778,15 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Sredinom 1935. godine knez Pavle je za predsednika vlade postavio Milana Stojadinovića, ekonomistu i bankara iz redova starih radikala. Stojadinović je formirao novu stranku — Jugoslovensku radikalnu zajednicu, skraćeno JRZ — kao koaliciju srpskih radikala, slovenačkih klerikalaca oko Antona Korošca i muslimanske Jugoslovenske muslimanske organizacije Mehmeda Spaha. Bila je to pokušaj da se Aleksandrova jugoslovenska ideja održi novim sredstvima, blažim od diktature, ali bez stvarnog višestranačkog života. Stojadinović je vladao energično i samouvereno, sa dosta sklonosti ka spoljnoj reprezentaciji; pregovore sa hrvatskim vođom Vlatkom Mačekom, predvodnikom najjače opozicije, vodio je dugo ali bez rezultata. Zamoren tim neuspehom i ne baš zadovoljan njegovim sve izraženijim ličnim ambicijama, knez Pavle ga je februara 1939. smenio."
+        "text": "Sredinom 1935. godine knez Pavle je za predsednika vlade postavio Milana Stojadinovića, ekonomistu i bankara iz redova starih radikala. Stojadinović je formirao novu stranku — Jugoslovensku radikalnu zajednicu, skraćeno JRZ — kao koaliciju srpskih radikala, slovenačkih klerikalaca oko Antona Korošca i muslimanske Jugoslovenske muslimanske organizacije Mehmeda Spaha. Bila je to pokušaj da se Aleksandrova jugoslovenska ideja održi novim sredstvima, blažim od diktature, ali bez stvarnog višestranačkog života. Stojadinović je vladao energično i samouvereno, sa dosta sklonosti ka spoljnoj reprezentaciji; pregovore sa hrvatskim vođom Vladkom Mačekom, predvodnikom najjače opozicije, vodio je dugo ali bez rezultata. Zamoren tim neuspehom i ne baš zadovoljan njegovim sve izraženijim ličnim ambicijama, knez Pavle ga je februara 1939. smenio."
       },
       {
         "type": "paragraph",
-        "text": "Novi premijer Dragiša Cvetković dobio je jasan zadatak — postići sporazum sa Mačekom po svaku razumnu cenu. Avgusta 1939. godine, samo nekoliko dana pre nemačkog napada na Poljsku, sporazum je potpisan. Time je stvorena Banovina Hrvatska, posebna upravna jedinica koja je obuhvatila Savsku i Primorsku banovinu sa delovima Bosne i Dalmacije. Zagreb je dobio sopstvenu vladu sa banom na čelu, sopstveni sabor i nadležnost nad unutrašnjim poslovima, prosvetom, sudstvom, poljoprivredom i delom finansija. U Hrvatskoj je sporazum pozdravljen kao priznanje narodne posebnosti; u Srbiji je primljen sa mešavinom razočaranja i zbunjenosti. Srpski centralisti smatrali su da je previše ustupljeno bez odgovarajuće reorganizacije ostatka države. Deo srpskih političkih krugova počeo je tada da govori o „srpskoj banovini” koja bi obuhvatila Vojvodinu, Bosnu i Crnu Goru, ali ta zamisao nije se ostvarila pre rata. Sporazum Cvetković–Maček ostao je, uz svu krhkost, verovatno najveći domaći politički napor da se Jugoslavija stabilizuje u celom međuratnom periodu."
+        "text": "Novi premijer Dragiša Cvetković dobio je jasan zadatak — postići sporazum sa Mačekom po svaku razumnu cenu. Avgusta 1939. godine, samo nekoliko dana pre nemačkog napada na Poljsku, sporazum je potpisan. Time je stvorena Banovina Hrvatska, posebna upravna jedinica koja je obuhvatila Savsku i Primorsku banovinu sa delovima Bosne i Dalmacije. Zagreb je dobio sopstvenu vladu sa banom na čelu i nadležnost nad unutrašnjim poslovima, prosvetom, sudstvom, poljoprivredom i delom finansija; predviđen je i sabor, ali izbori za njega do rata nisu održani. U Hrvatskoj je sporazum pozdravljen kao priznanje narodne posebnosti; u Srbiji je primljen sa mešavinom razočaranja i zbunjenosti. Srpski centralisti smatrali su da je previše ustupljeno bez odgovarajuće reorganizacije ostatka države. Deo srpskih političkih krugova počeo je tada da govori o „srpskoj banovini” koja bi obuhvatila Vojvodinu, Bosnu i Crnu Goru, ali ta zamisao nije se ostvarila pre rata. Sporazum Cvetković–Maček ostao je, uz svu krhkost, verovatno najveći domaći politički napor da se Jugoslavija stabilizuje u celom međuratnom periodu."
       },
       {
         "type": "paragraph",
-        "text": "U spoljnoj politici Pavle je nasledio dobre odnose sa Francuskom i Malom antantom, ali svet oko Jugoslavije se naglo menjao. Posle prvih godina nastavka starih saveza, knez se trudio da državu drži između Londona i Berlina, sve manje sa Parizom. Godine 1937. potpisan je sporazum o „večnom prijateljstvu” sa Italijom — pokušaj da se umiri najopasniji jadranski sused, koji je deceniju ranije podržavao ustaške emigrante. Istovremeno je nemačka privredna prisutnost rasla iz godine u godinu. Pred sam rat oko polovine jugoslovenske spoljne trgovine išlo je preko Nemačke, koja je kupovala srpsko žito, rumunsku naftu i bosanske rude, i zauzvrat slala industrijske proizvode. Ekonomski lanac bio je tako čvrst da ga nije bilo lako preseći ni kad bi se to političkim glavama htelo."
+        "text": "U spoljnoj politici Pavle je nasledio dobre odnose sa Francuskom i Malom antantom, ali svet oko Jugoslavije se naglo menjao. Posle prvih godina nastavka starih saveza, knez se trudio da državu drži između Londona i Berlina, sve manje sa Parizom. Godine 1937. potpisan je sporazum o prijateljstvu sa Italijom — pokušaj da se umiri najopasniji jadranski sused, koji je do tada podržavao ustaške emigrante. Istovremeno je nemačka privredna prisutnost rasla iz godine u godinu. Pred sam rat oko polovine jugoslovenske spoljne trgovine išlo je preko Nemačke, koja je kupovala jugoslovensko žito, stoku, bakar i bosanske rude, i zauzvrat slala industrijske proizvode. Ekonomski lanac bio je tako čvrst da ga nije bilo lako preseći ni kad bi se to političkim glavama htelo."
       },
       {
         "type": "paragraph",
@@ -17810,7 +17806,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       "Petar II Karađorđević",
       "Milan Stojadinović",
       "Dragiša Cvetković",
-      "Vlatko Maček"
+      "Vladko Maček"
     ],
     "keyPlaces": [
       "Beograd",
@@ -17826,7 +17822,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Gradova je bilo malo, a pravih velikih gradova još manje. Beograd je 1931. brojao oko 240.000 stanovnika, Zagreb oko 180.000, a tek je nekoliko drugih centara — Subotica, Ljubljana, Sarajevo — prelazilo granicu od stotinu hiljada duša. Te brojke deluju skromno čak i za onaj evropski trenutak, ali su za jugoslovenske prilike značile pravu eksploziju: Beograd se za jednu generaciju gotovo udvostručio. U njemu su se pojavili prvi soliteri, prošireni tramvajski koloseci, otvarali se bioskopi, hoteli i kafane novog tipa. Slično, samo skromnije, dešavalo se i u drugim središtima — Novom Sadu, Skoplju, Nišu. Negde se sa fenjera prelazilo na električno svetlo, negde se još uvek išlo po vodu na česmu."
+        "text": "Gradova je bilo malo, a pravih velikih gradova još manje. Beograd je 1931. brojao oko 240.000 stanovnika, Zagreb oko 180.000, a od ostalih je samo Subotica prelazila granicu od stotinu hiljada duša; Sarajevo je imalo oko 78.000, Ljubljana oko 60.000. Te brojke deluju skromno čak i za onaj evropski trenutak, ali su za jugoslovenske prilike značile pravu eksploziju: Beograd se za jednu generaciju gotovo udvostručio. U njemu su se pojavili prvi soliteri, prošireni tramvajski koloseci, otvarali se bioskopi, hoteli i kafane novog tipa. Slično, samo skromnije, dešavalo se i u drugim središtima — Novom Sadu, Skoplju, Nišu. Negde se sa fenjera prelazilo na električno svetlo, negde se još uvek išlo po vodu na česmu."
       },
       {
         "type": "paragraph",
@@ -17843,7 +17839,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Likovne umetnosti dobijaju modernu scenu po prvi put u takvom obimu. Vajar Toma Rosandić, slikari Sava Šumanović i mladi Petar Lubarda — uz mnoge druge — donose iz Pariza, Praga i Minhena nove jezike, ali ih primenjuju na sopstvene predele i ljude. Otvaraju se izložbe, salonske rasprave, prve ozbiljne galerije. U muzici, posle smrti Stevana Mokranjca 1914. godine koja je ostavila temelje, kompozitori poput Miloja Milojevića i Stevana Hristića vode srpsku muziku ka modernijem zvuku; opera u Narodnom pozorištu redovno postavlja programe. Godine 1929. počinje sa radom Radio Beograd — prvi pravi medij koji je istovremeno dopirao u kafanu na uglu i u seosku kuću sa baterijskim prijemnikom. Film je još uvek mlad: snimaju se kratki dokumentarni i poneki igrani filmovi, među pionirima se pamte Ernest Bošnjak i Mihail Avramović, ali domaća produkcija ostaje skromna i neredovna."
+        "text": "Likovne umetnosti dobijaju modernu scenu po prvi put u takvom obimu. Vajar Toma Rosandić, slikari Sava Šumanović i mladi Petar Lubarda — uz mnoge druge — donose iz Pariza, Praga i Minhena nove jezike, ali ih primenjuju na sopstvene predele i ljude. Otvaraju se izložbe, salonske rasprave, prve ozbiljne galerije. U muzici, posle smrti Stevana Mokranjca 1914. godine koja je ostavila temelje, kompozitori poput Miloja Milojevića i Stevana Hristića vode srpsku muziku ka modernijem zvuku; opera u Narodnom pozorištu redovno postavlja programe. Godine 1929. počinje sa radom Radio Beograd — prvi pravi medij koji je istovremeno dopirao u kafanu na uglu i u seosku kuću sa baterijskim prijemnikom. Film je još uvek mlad: snimaju se kratki dokumentarni i poneki igrani filmovi, među pionirima se pamti Ernest Bošnjak, ali domaća produkcija ostaje skromna i neredovna."
       },
       {
         "type": "paragraph",
@@ -17910,7 +17906,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Gledana hladno, privreda Kraljevine Jugoslavije nije bila ni jugoslovenski neuspeh ni jugoslovenski uspeh — bila je realan razvoj zaostale, ratom iscrpljene zemlje u veoma teškim okolnostima. Unutrašnja ograničenja — siromaštvo, nepismenost, fragmentacija tržišta, nasleđene razlike između austrougarskog i osmanskog dela — sapeta su, a spoljni okvir, od krize 1929. do nemačke trgovinske dominacije, dodatno je sužavao manevarski prostor. Ono što je rasta bilo, dolazilo je sporo i neravnomerno: Slovenija i Vojvodina napredovale su brže, jug zemlje ostao je daleko za njima. Sa takvom privredom i sa takvim spoljnim partnerom u sve neprijatnijem geopolitičkom susedstvu, Kraljevina Jugoslavija ulaziće u poslednje, najteže godine svoje prve i jedine decenije mira."
+        "text": "Gledana hladno, privreda Kraljevine Jugoslavije nije bila ni jugoslovenski neuspeh ni jugoslovenski uspeh — bila je realan razvoj zaostale, ratom iscrpljene zemlje u veoma teškim okolnostima. Unutrašnja ograničenja — siromaštvo, nepismenost, fragmentacija tržišta, nasleđene razlike između austrougarskog i osmanskog dela — sapeta su, a spoljni okvir, od krize 1929. do nemačke trgovinske dominacije, dodatno je sužavao manevarski prostor. Ono što je rasta bilo, dolazilo je sporo i neravnomerno: Slovenija i Vojvodina napredovale su brže, jug zemlje ostao je daleko za njima. Sa takvom privredom i sa takvim spoljnim partnerom u sve neprijatnijem geopolitičkom susedstvu, Kraljevina Jugoslavija ulaziće u poslednje, najteže godine svoje dve decenije mira."
       }
     ],
     "subtitle": "Seljačka zemlja, slaba industrija, udar Velike depresije i sve dublja trgovinska zavisnost od Nemačke",
@@ -17929,7 +17925,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "content": [
       {
         "type": "paragraph",
-        "text": "Beograd koji je u jesen 1918. dočekao kraj rata bio je grad rana. Posle dve austrougarske okupacije, dugih bombardovanja sa Save i Dunava i hiljada izbeglica koje su se kroz njega vukle u oba pravca, ostalo je svega oko 120.000 stanovnika u gradu koji je u značajnim delovima i dalje izgledao osmansko-balkanski — niske kuće, kaldrmisane uličice, dvorišta sa bunarima, ravne ćeramidne strehe. Dvadeset i tri godine kasnije, u proleće 1941, taj isti grad imao je oko 320.000 stanovnika, savremen diplomatski kvart, monumentalne državne palate, tramvaje, autobuse, prve semafore i radio stanicu. Bio je prestonica zemlje od preko petnaest miliona ljudi. Malo koji evropski grad se u međuratnim decenijama tako vidno promenio za tako kratko vreme.",
+        "text": "Beograd koji je u jesen 1918. dočekao kraj rata bio je grad rana. Posle dve austrougarske okupacije, dugih bombardovanja sa Save i Dunava i hiljada izbeglica koje su se kroz njega vukle u oba pravca, ostalo je manje od 100.000 stanovnika u gradu koji je u značajnim delovima i dalje izgledao osmansko-balkanski — niske kuće, kaldrmisane uličice, dvorišta sa bunarima, ravne ćeramidne strehe. Dvadeset i tri godine kasnije, u proleće 1941, taj isti grad imao je oko 320.000 stanovnika, savremen diplomatski kvart, monumentalne državne palate, tramvaje, autobuse, prve semafore i radio stanicu. Bio je prestonica zemlje od preko petnaest miliona ljudi. Malo koji evropski grad se u međuratnim decenijama tako vidno promenio za tako kratko vreme.",
         "dropcap": true
       },
       {
@@ -17942,7 +17938,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Saobraćaj se menjao još brže. Tramvajska mreža, nasleđena iz predratnog Beograda, proširena je novim linijama; pojavili su se prvi autobusi, taksi vozila i znatno veći broj privatnih automobila. Most kralja Aleksandra, otvoren 1934. preko Save — danas poznat kao Brankov most — prvi je put Stari grad povezao sa Zemunom čvrstom drumskom vezom, što je bio uslov svakog daljeg rasta. Prvi semafori upalili su se na raskršćima u središtu grada krajem decenije, oko 1939. Beograd je dobio i vazduhoplovni saobraćaj: civilni aerodrom na Banjičkom polju otvoren je 1927, a 1936. preseljen je na bolju lokaciju u Zemunu, gde su počele da sleću linije iz Pariza, Beča i Bukurešta."
+        "text": "Saobraćaj se menjao još brže. Tramvajska mreža, nasleđena iz predratnog Beograda, proširena je novim linijama; pojavili su se prvi autobusi, taksi vozila i znatno veći broj privatnih automobila. Most kralja Aleksandra, otvoren 1934. preko Save — srušen 1941; na njegovim stubovima 1956. podignut je današnji Brankov most — prvi je put Stari grad povezao sa Zemunom čvrstom drumskom vezom, što je bio uslov svakog daljeg rasta. Prvi semafori upalili su se na raskršćima u središtu grada krajem decenije, oko 1939. Beograd je dobio i vazduhoplovni saobraćaj: civilni aerodrom otvoren je marta 1927. na Dojnom polju kod Bežanijske kose, južno od Zemuna; 1931. dobio je modernu zgradu, a 1936. opremu za sletanje pri slaboj vidljivosti. Na njega su sletale linije iz Pariza, Beča i Bukurešta."
       },
       {
         "type": "heading",
@@ -17970,7 +17966,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
         "text": "Tako je grad ušao u 1941. — istovremeno mlad, ambiciozan i nesavršen. Bio je dovoljno velik i sređen da bude prestonica srednjoevropske države, dovoljno raznolik da spaja zapadnjačku eleganciju sa orijentalnim navikama, i dovoljno nejednak da pod novim staklenim portalima čuva ćumeze. Aprilski rat, bombardovanje 6. aprila i godine okupacije koje slede prekinuće taj razvoj u zaletu i razoriti veliki deo onoga što je izgrađeno. Ali ono što je između dva rata podignuto — od regulacionog plana i mostova do Univerziteta, akademije, filharmonije i novinarske tradicije — ostaće osnova na kojoj će se posle 1945. graditi sasvim drugačiji, ali ipak prepoznatljiv Beograd."
       }
     ],
-    "subtitle": "Kako je razoreni balkanski grad od 120.000 stanovnika za dve decenije postao jugoslovenska prestonica od 320.000 ljudi",
+    "subtitle": "Kako je razoreni balkanski grad od manje od 100.000 stanovnika za dve decenije postao prestonica od 320.000 ljudi",
     "dateLabel": "1918–1941.",
     "timelinePosition": "1918–1941.",
     "summary": "Beograd između 1918. i 1941. — od razrušenog graničnog grada do prestonice Jugoslavije, sa modernim središtem, novom arhitekturom, ali i siromašnim periferijama koje su rasle uporedo sa svečanim Terazijama.",
@@ -17994,11 +17990,11 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Spoljnu politiku je u tim godinama formalno vodio knez namesnik Pavle Karađorđević, stric maloletnog kralja Petra II. Pavle je bio obrazovan, anglofilski raspoložen čovek, vezan za britanski dvor porodičnim i ličnim sponama; ali kao realan političar znao je da Britanija nije u stanju da brani Balkan i da Jugoslavija mora kupovati vreme. Njegov dugogodišnji predsednik vlade Milan Stojadinović vodio je politiku obazrivog približavanja Nemačkoj i Italiji, više iz ekonomske nužde nego iz ideoloških razloga — nemačko tržište je sve više gutalo jugoslovenski izvoz žita, bakra i drveta. Početkom 1939. Pavle je Stojadinovića smenio, jer je posumnjao da ovaj teži ličnoj diktaturi po uzoru na italijanski fašizam; na čelo spoljnih poslova došao je Aleksandar Cincar-Marković, čovek bez svojih ambicija, podesan za politiku odlaganja."
+        "text": "Spoljnu politiku je u tim godinama formalno vodio knez namesnik Pavle Karađorđević, stric maloletnog kralja Petra II. Pavle je bio obrazovan, anglofilski raspoložen čovek, vezan za britanski dvor porodičnim i ličnim sponama; ali kao realan političar znao je da Britanija nije u stanju da brani Balkan i da Jugoslavija mora kupovati vreme. Njegov dugogodišnji predsednik vlade Milan Stojadinović vodio je politiku obazrivog približavanja Nemačkoj i Italiji, više iz ekonomske nužde nego iz ideoloških razloga — nemačko tržište je sve više gutalo jugoslovenski izvoz žita, bakra i drveta. Početkom 1939. Pavle je Stojadinovića smenio, između ostalog i zato što je posumnjao da ovaj teži ličnoj diktaturi po uzoru na italijanski fašizam; na čelo spoljnih poslova došao je Aleksandar Cincar-Marković, čovek bez svojih ambicija, podesan za politiku odlaganja."
       },
       {
         "type": "paragraph",
-        "text": "Pre nego što je rat zakucao na vrata, trebalo je nešto učiniti i sa unutrašnjom napuklinom. Hrvatsko pitanje, otvoreno još od atentata u skupštini 1928. i diktature kralja Aleksandra, godinama je tinjalo. U avgustu 1939, samo nekoliko dana pre nemačkog napada na Poljsku, predsednik vlade Dragiša Cvetković i vođa Hrvatske seljačke stranke Vladko Maček potpisali su takozvani sporazum Cvetković–Maček. Njime je stvorena Banovina Hrvatska — autonomna jedinica sa sopstvenim saborom, banom i širokim ovlašćenjima u unutrašnjim poslovima. To nije bilo savršeno rešenje; Srbi u Hrvatskoj, Bosna, Muslimani i mnogi drugi ostali su nezadovoljni, a srpsko političko mnjenje bilo je podeljeno između onih koji su to videli kao pravedan kompromis i onih koji su strahovali da je država načeta. Posmatrano hladno, bio je to pokušaj da se zemlja unutrašnje stabilizuje pre velike spoljne oluje."
+        "text": "Pre nego što je rat zakucao na vrata, trebalo je nešto učiniti i sa unutrašnjom napuklinom. Hrvatsko pitanje, otvoreno još od atentata u skupštini 1928. i diktature kralja Aleksandra, godinama je tinjalo. U avgustu 1939, samo nekoliko dana pre nemačkog napada na Poljsku, predsednik vlade Dragiša Cvetković i vođa Hrvatske seljačke stranke Vladko Maček potpisali su takozvani sporazum Cvetković–Maček. Njime je stvorena Banovina Hrvatska — autonomna jedinica sa banom, predviđenim saborom (izbori za njega nisu održani) i širokim ovlašćenjima u unutrašnjim poslovima. To nije bilo savršeno rešenje; Srbi u Hrvatskoj, Bosna, Muslimani i mnogi drugi ostali su nezadovoljni, a srpsko političko mnjenje bilo je podeljeno između onih koji su to videli kao pravedan kompromis i onih koji su strahovali da je država načeta. Posmatrano hladno, bio je to pokušaj da se zemlja unutrašnje stabilizuje pre velike spoljne oluje."
       },
       {
         "type": "heading",
@@ -18015,7 +18011,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Hitlerov pritisak da se i Jugoslavija pridruži Trojnom paktu pojačavao se kroz jesen 1940. i prve mesece 1941. Sastanci kneza Pavla sa Hitlerom u Berghofu, susreti Cincar-Markovića sa Ribentropom, otvoreni i tajni razgovori — sve se vrtelo oko istog: pristupiti paktu i dobiti garancije, ili odbiti i dočekati rat. Pavle je tražio i dobio neuobičajeno meke uslove — pisanu garanciju da Jugoslavija neće morati da pusti nemačke trupe preko svoje teritorije niti da učestvuje u ratnim operacijama. Javnost je, naročito u Srbiji, bila u velikoj većini protiv pakta; sećanje na 1914. i osećaj saveza sa Francuskom i Britanijom bili su jaki. U eliti je bilo i pronemački raspoloženih glasova, ali oni nisu nadjačali opšte raspoloženje."
+        "text": "Hitlerov pritisak da se i Jugoslavija pridruži Trojnom paktu pojačavao se kroz jesen 1940. i prve mesece 1941. Tajni sastanak kneza Pavla sa Hitlerom u Berghofu 4. marta 1941, susreti Cincar-Markovića sa Ribentropom, otvoreni i tajni razgovori — sve se vrtelo oko istog: pristupiti paktu i dobiti garancije, ili odbiti i dočekati rat. Pavle je tražio i dobio neuobičajeno meke uslove — pisanu garanciju da Jugoslavija neće morati da pusti nemačke trupe preko svoje teritorije niti da učestvuje u ratnim operacijama. Javnost je, naročito u Srbiji, bila u velikoj većini protiv pakta; sećanje na 1914. i osećaj saveza sa Francuskom i Britanijom bili su jaki. U eliti je bilo i pronemački raspoloženih glasova, ali oni nisu nadjačali opšte raspoloženje."
       },
       {
         "type": "paragraph",
@@ -18064,7 +18060,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "U noći između 26. i 27. marta 1941. grupa oficira jugoslovenskog Vazduhoplovstva izvela je vojni udar. Operativni mozak zavere bio je brigadni general Borivoje Mirković, komandant vazduhoplovne baze u Zemunu; politički prvak novog poretka postao je armijski general Dušan Simović, koji je preuzeo mesto predsednika vlade. U toku noći zaposednute su ključne tačke u Beogradu — zgrada Glavnog generalštaba, pošta, radio-stanica, ministarstva. Knez Pavle, koji se zatekao na putu za Brdo kod Kranja, presretnut je i prinuđen da se odrekne namesništva. Vlada Cvetkovića uhapšena je bez ozbiljnijeg otpora; pristalice režima u policiji i vojsci ili su se pridružile puču ili su se povukle. Krv gotovo nije ni tekla."
+        "text": "U noći između 26. i 27. marta 1941. grupa oficira jugoslovenskog Vazduhoplovstva izvela je vojni udar. Operativni mozak zavere bio je brigadni general Borivoje Mirković, zamenik komandanta Vazduhoplovstva; politički prvak novog poretka postao je armijski general Dušan Simović, koji je preuzeo mesto predsednika vlade. U toku noći zaposednute su ključne tačke u Beogradu — zgrada Glavnog generalštaba, pošta, radio-stanica, ministarstva. Knez Pavle, koji se zatekao na putu za Brdo kod Kranja, presretnut je i prinuđen da se odrekne namesništva. Vlada Cvetkovića uhapšena je bez ozbiljnijeg otpora; pristalice režima u policiji i vojsci ili su se pridružile puču ili su se povukle. Krv gotovo nije ni tekla."
       },
       {
         "type": "paragraph",
@@ -18080,7 +18076,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Zato 27. mart treba pamtiti bez trijumfalne pozlate. Bio je to čin moralnog prkosa jednog dela srpskog oficirskog kora i jednog dela građanske Srbije prema poretku koji je u Evropi tih meseci izgledao gotovo nepobediv. Cena tog prkosa naplaćena je već dvanaest dana kasnije, bombardovanjem Beograda i Aprilskim ratom. Pakt nije bio puka kapitulacija, a puč nije bio puka avantura. Bili su to dva ozbiljna pokušaja — jedan diplomatski, drugi vojnički — da se mala zemlja iznese iz olujnog vremena. Oba su, na svoj način, propala; ali iz njih, i iz dana koji su sledili, izrasla je jugoslovenska drama Drugog svetskog rata."
+        "text": "Zato 27. mart treba pamtiti bez trijumfalne pozlate. Bio je to čin moralnog prkosa jednog dela srpskog oficirskog kora i jednog dela građanske Srbije prema poretku koji je u Evropi tih meseci izgledao gotovo nepobediv. Cena tog prkosa naplaćena je već deset dana kasnije, bombardovanjem Beograda i Aprilskim ratom. Pakt nije bio puka kapitulacija, a puč nije bio puka avantura. Bili su to dva ozbiljna pokušaja — jedan diplomatski, drugi vojnički — da se mala zemlja iznese iz olujnog vremena. Oba su, na svoj način, propala; ali iz njih, i iz dana koji su sledili, izrasla je jugoslovenska drama Drugog svetskog rata."
       }
     ],
     "subtitle": "Kako je Jugoslavija za tri dana prešla put od potpisa Trojnog pakta u Beču do vojnog puča i Hitlerove Direktive 25",
@@ -18108,7 +18104,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "content": [
       {
         "type": "paragraph",
-        "text": "U nedelju 6. aprila 1941. godine, na pravoslavne Cveti, nemački bombarderi pojavili su se nad Beogradom u ranim jutarnjim časovima. Operacija je u nemačkim štabovima nosila ime „Strafgericht” — Kazneni sud — i bila je Hitlerov lični odgovor na puč od 27. marta, kojim je oboren sporazum o pristupanju Jugoslavije Trojnom paktu. Iako je vlada nekoliko dana ranije Beograd proglasila otvorenim, nezaštićenim gradom, Luftvafe je u dva uzastopna dana sručila na njega više stotina tona bombi. Tako je počeo Aprilski rat — kratak, neravnopravan i tragičan sukob koji će za jedanaest dana izbrisati Kraljevinu Jugoslaviju sa karte Evrope.",
+        "text": "U nedelju 6. aprila 1941. godine, na katoličke Cveti, nedelju dana pred pravoslavne Cveti, nemački bombarderi pojavili su se nad Beogradom u ranim jutarnjim časovima. Operacija je u nemačkim štabovima nosila ime „Strafgericht” — Kazneni sud — i bila je Hitlerov lični odgovor na puč od 27. marta, kojim je oboren sporazum o pristupanju Jugoslavije Trojnom paktu. Iako je vlada nekoliko dana ranije Beograd proglasila otvorenim, nezaštićenim gradom, Luftvafe je u dva uzastopna dana sručila na njega više stotina tona bombi. Tako je počeo Aprilski rat — kratak, neravnopravan i tragičan sukob koji će za jedanaest dana izbrisati Kraljevinu Jugoslaviju sa karte Evrope.",
         "dropcap": true
       },
       {
@@ -18122,7 +18118,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Napad nije došao samo iz jednog pravca. Nemačke armije ulazile su istovremeno iz Bugarske, gde su prethodno bile raspoređene, i iz pravca Austrije i okupirane Mađarske, probijajući se ka Skoplju, Nišu, Zagrebu i Beogradu. Italijanske jedinice nadirale su sa zapada, iz Istre i Slovenije, i sa juga, iz Albanije, ka makedonskom prostoru. Mađarske trupe sačekale su nekoliko dana — kako bi se zaobišao formalni problem ugovora o večnom prijateljstvu sa Jugoslavijom — pa su tek 11. aprila prešle granicu u Vojvodini. Sa svih strana, Kraljevina je bila stisnuta u klešta iz kojih nije imala kud."
+        "text": "Napad nije došao samo iz jednog pravca. Nemačke armije ulazile su istovremeno iz Bugarske, gde su prethodno bile raspoređene, i iz pravca Austrije, savezničke Mađarske i Rumunije, probijajući se ka Skoplju, Nišu, Zagrebu i Beogradu. Italijanske jedinice nadirale su sa zapada, iz Istre i Slovenije, i sa juga, iz Albanije, ka makedonskom prostoru. Mađarske trupe sačekale su nekoliko dana — kako bi se zaobišao formalni problem ugovora o večnom prijateljstvu sa Jugoslavijom — pa su tek 11. aprila prešle granicu u Vojvodini. Sa svih strana, Kraljevina je bila stisnuta u klešta iz kojih nije imala kud."
       },
       {
         "type": "paragraph",
@@ -18138,7 +18134,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Posle desetak dana borbi i bekstva štabova, 17. aprila 1941. u Beogradu je potpisana bezuslovna kapitulacija jugoslovenske vojske. U ime razbijene kraljevske vojske akt je potpisao general Danilo Kalafatović, načelnik štaba Vrhovne komande, dok je u ime države sporazum potvrdio bivši ministar inostranih poslova Aleksandar Cincar-Marković. Time je formalno okončan jedanaestodnevni rat. Tačno toliko bilo je potrebno silama Osovine da skrše državu koja je 1918. nastala kao zajednički dom Južnih Slovena."
+        "text": "Posle desetak dana borbi i bekstva štabova, 17. aprila 1941. u Beogradu je potpisana bezuslovna kapitulacija jugoslovenske vojske. U ime razbijene kraljevske vojske, po ovlašćenju generala Danila Kalafatovića, načelnika štaba Vrhovne komande, akt su potpisali general Radivoje Janković i bivši ministar inostranih poslova Aleksandar Cincar-Marković. Time je formalno okončan jedanaestodnevni rat. Tačno toliko bilo je potrebno silama Osovine da skrše državu koja je 1918. nastala kao zajednički dom Južnih Slovena."
       },
       {
         "type": "paragraph",
@@ -18148,13 +18144,14 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "subtitle": "Jedanaest dana od bombardovanja Beograda do bezuslovne kapitulacije Kraljevine Jugoslavije u proleće 1941. godine",
     "dateLabel": "6–17. april 1941.",
     "timelinePosition": "6–17. april 1941.",
-    "summary": "Nemačka invazija na Jugoslaviju počela je bombardovanjem Beograda na Cveti 6. aprila 1941. godine i okončala se kapitulacijom u Beogradu jedanaest dana kasnije, posle bržeg sloma od onoga koji je iko očekivao.",
+    "summary": "Nemačka invazija na Jugoslaviju počela je bombardovanjem Beograda u nedelju 6. aprila 1941. godine i okončala se kapitulacijom u Beogradu jedanaest dana kasnije, posle bržeg sloma od onoga koji je iko očekivao.",
     "keyPeople": [
       "Petar II Karađorđević",
       "Dušan Simović",
       "Adolf Hitler",
       "Aleksandar Cincar-Marković",
-      "Danilo Kalafatović"
+      "Danilo Kalafatović",
+      "Radivoje Janković"
     ],
     "keyPlaces": [
       "Beograd",
@@ -18177,7 +18174,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Italija je uzela najraznorodniji deo plena. Anektirala je delove Slovenije sa Ljubljanom, najveći deo dalmatinske obale sa ostrvima, Boku Kotorsku i delove Kosova i Metohije, koje je pripojila Velikoj Albaniji pod svojim pokroviteljstvom. Crnu Goru je pretvorila u italijanski protektorat sa namerom da je obnovi kao posebnu državu, što je već u julu 1941. dovelo do velikog narodnog ustanka protiv okupacije. U Zagrebu je, samo dva dana posle nemačkog ulaska, 10. aprila 1941. proglašena Nezavisna Država Hrvatska. Na njeno čelo doveden je Ante Pavelić sa ustaškim pokretom, dotad malom emigrantskom organizacijom; nova država obuhvatila je današnju Hrvatsku, celu Bosnu i Hercegovinu i delove Srema, a podelila se na nemačku i italijansku interesnu zonu. Bila je to fašistička satelitska tvorevina koja će u naredne četiri godine sprovesti masovne zločine nad Srbima, Jevrejima i Romima na svojoj teritoriji — temu koja zaslužuje zasebnu lekciju i zato je ovde samo nagoveštena."
+        "text": "Italija je uzela najraznorodniji deo plena. Anektirala je delove Slovenije sa Ljubljanom, najveći deo dalmatinske obale sa ostrvima, Boku Kotorsku i delove Kosova i Metohije, koje je pripojila Velikoj Albaniji pod svojim pokroviteljstvom. Crnu Goru je pretvorila u italijanski protektorat sa namerom da je obnovi kao posebnu državu, što je već u julu 1941. dovelo do velikog narodnog ustanka protiv okupacije. U Zagrebu je 10. aprila 1941, četiri dana posle početka napada i neposredno pre ulaska nemačkih trupa u grad, proglašena Nezavisna Država Hrvatska. Na njeno čelo doveden je Ante Pavelić sa ustaškim pokretom, dotad malom emigrantskom organizacijom; nova država obuhvatila je današnju Hrvatsku, celu Bosnu i Hercegovinu i delove Srema, a podelila se na nemačku i italijansku interesnu zonu. Bila je to fašistička satelitska tvorevina koja će u naredne četiri godine sprovesti masovne zločine nad Srbima, Jevrejima i Romima na svojoj teritoriji — temu koja zaslužuje zasebnu lekciju i zato je ovde samo nagoveštena."
       },
       {
         "type": "heading",
@@ -18186,11 +18183,11 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "U onome što je od Srbije ostalo, nemački okupator je odmah morao da reši praktično pitanje: kako da sa malo svojih ljudi održi red u zemlji koja je upravo izgubila državu. Rešenje je nađeno u kvislinškoj upravi sastavljenoj od domaćih ljudi. Već u maju 1941. obrazovana je takozvana Komesarska uprava na čelu sa Milanom Aćimovićem, predratnim ministrom unutrašnjih poslova bliskim desnim krugovima. Ta uprava bila je provizorna i slaba, više činovnička nego politička, i nije bila u stanju da odgovori na talas oružanog otpora koji će se podići tog leta. Posle ustanka, krajem avgusta 1941. Nemci su je zamenili Vladom narodnog spasa pod generalom Milanom Nedićem, ratnim ministrom iz prethodne Kraljevine, koji je svoj pristanak pravdao tvrdnjom da nastoji da spase srpsko biološko jezgro od potpunog uništenja. Nedićeva vlada nije bila država; bila je domaća administracija u službi okupatora, sa ograničenom policijom i bez vojske."
+        "text": "U onome što je od Srbije ostalo, nemački okupator je odmah morao da reši praktično pitanje: kako da sa malo svojih ljudi održi red u zemlji koja je upravo izgubila državu. Rešenje je nađeno u kvislinškoj upravi sastavljenoj od domaćih ljudi. Već krajem aprila 1941. obrazovana je takozvana Komesarska uprava na čelu sa Milanom Aćimovićem, predratnim ministrom unutrašnjih poslova bliskim desnim krugovima. Ta uprava bila je provizorna i slaba, više činovnička nego politička, i nije bila u stanju da odgovori na talas oružanog otpora koji će se podići tog leta. Posle ustanka, krajem avgusta 1941. Nemci su je zamenili Vladom narodnog spasa pod generalom Milanom Nedićem, ratnim ministrom iz prethodne Kraljevine, koji je svoj pristanak pravdao tvrdnjom da nastoji da spase srpsko biološko jezgro od potpunog uništenja. Nedićeva vlada nije bila država; bila je domaća administracija u službi okupatora, sa ograničenom policijom i bez vojske."
       },
       {
         "type": "paragraph",
-        "text": "Okupaciona politika u Srbiji bila je krajnje eksploatatorska i kaznena. Nemačka privreda izvlačila je iz zemlje hranu, rude i radnu snagu; uvedene su prinudne rekvizicije žita i stoke, a desetine hiljada ljudi otpremljene su na prinudni rad u Rajh. Najteža crta okupacionog režima bila je sistematska upotreba kolektivne odmazde. Naredbom feldmaršala Vilhelma Kajtela iz septembra 1941. propisana je formula koja će obeležiti rat na ovom prostoru — za svakog ubijenog nemačkog vojnika streljati sto, a za svakog ranjenog pedeset talaca. Ta naredba pretvorena je u praksu već iste jeseni, u masovnim streljanjima u Kragujevcu i Kraljevu, koja će biti tema posebne lekcije."
+        "text": "Okupaciona politika u Srbiji bila je krajnje eksploatatorska i kaznena. Nemačka privreda izvlačila je iz zemlje hranu, rude i radnu snagu; uvedene su prinudne rekvizicije žita i stoke, a desetine hiljada ljudi otpremljene su na prinudni rad u Rajh. Najteža crta okupacionog režima bila je sistematska upotreba kolektivne odmazde. Na osnovu naredbe feldmaršala Vilhelma Kajtela iz septembra 1941, general Franc Beme je u oktobru propisao formulu koja će obeležiti rat na ovom prostoru — za svakog ubijenog nemačkog vojnika streljati sto, a za svakog ranjenog pedeset talaca. Ta naredba pretvorena je u praksu već iste jeseni, u masovnim streljanjima u Kragujevcu i Kraljevu, koja će biti tema posebne lekcije."
       },
       {
         "type": "paragraph",
@@ -18210,7 +18207,8 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       "Milan Aćimović",
       "Ante Pavelić",
       "Dimitrije Ljotić",
-      "Wilhelm Keitel"
+      "Wilhelm Keitel",
+      "Franz Böhme"
     ],
     "keyPlaces": [
       "Srbija",
@@ -18235,7 +18233,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Drugi pokret rodio se na sasvim drugom toku. Komunistička partija Jugoslavije, ilegalna od 1921. godine, do 1941. je pod Josipom Brozom Titom postala disciplinovana organizacija sa iskustvom konspiracije. Sve dok je važio nemačko-sovjetski pakt, partija je odbijala da se uključi u rat. Sve se promenilo 22. juna 1941, kada je Hitler napao Sovjetski Savez. Već istog dana CK KPJ objavio je proglas o oružanoj borbi, a 4. jula u Beogradu doneta je odluka o opštem ustanku. U julu i avgustu partijski ljudi prebacivali su se u šume, a Tito je početkom septembra prešao iz okupiranog Beograda na slobodnu teritoriju u zapadnu Srbiju. Tu su nastali prvi partizanski odredi, sa crvenom petokrakom na kapama i sa programom koji je išao dalje od oslobođenja — ka revolucionarnoj promeni društvenog poretka."
+        "text": "Drugi pokret rodio se na sasvim drugom toku. Komunistička partija Jugoslavije, ilegalna od 1921. godine, do 1941. je pod Josipom Brozom Titom postala disciplinovana organizacija sa iskustvom konspiracije. Sve dok je važio nemačko-sovjetski pakt, partija je odbijala da se uključi u rat. Sve se promenilo 22. juna 1941, kada je Hitler napao Sovjetski Savez. Već istog dana CK KPJ objavio je proglas o oružanoj borbi, a 4. jula u Beogradu doneta je odluka o opštem ustanku. U julu i avgustu partijski ljudi prebacivali su se u šume, a Tito je sredinom septembra prešao iz okupiranog Beograda na slobodnu teritoriju u zapadnu Srbiju. Tu su nastali prvi partizanski odredi, sa crvenom petokrakom na kapama i sa programom koji je išao dalje od oslobođenja — ka revolucionarnoj promeni društvenog poretka."
       },
       {
         "type": "heading",
@@ -18248,7 +18246,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "U toj kratkoj jeseni dva vođe sastala su se dva puta — u selu Struganik 19. septembra i u Brajićima 27. oktobra 1941. Razgovori su, prema kasnijim svedočenjima sa obe strane, vođeni o zajedničkoj komandi, podeli oružja i odnosu prema okupatoru. Dogovor nije postignut. Razlozi su bili dublji od ličnog nepoverenja. Mihailović je polazio od ideje kontinuiteta — kralja, države i vojske; Tito od ideje revolucije, koja je rat protiv okupatora videla i kao priliku za novi poredak. Mihailović se plašio prebrzanih akcija zbog represalija; Tito ih je smatrao nužnim. Već u novembru, dok su nemačke kolone nadirale ka Užicu, između dva pokreta došlo je do prvih oružanih sukoba — i građanski rat unutar ustanka postao je činjenica."
+        "text": "U toj kratkoj jeseni dva vođe sastala su se dva puta — u selu Struganik 19. septembra i u Brajićima 26. oktobra 1941. Razgovori su, prema kasnijim svedočenjima sa obe strane, vođeni o zajedničkoj komandi, podeli oružja i odnosu prema okupatoru. Dogovor nije postignut. Razlozi su bili dublji od ličnog nepoverenja. Mihailović je polazio od ideje kontinuiteta — kralja, države i vojske; Tito od ideje revolucije, koja je rat protiv okupatora videla i kao priliku za novi poredak. Mihailović se plašio prebrzanih akcija zbog represalija; Tito ih je smatrao nužnim. Već u novembru, dok su nemačke kolone nadirale ka Užicu, između dva pokreta došlo je do prvih oružanih sukoba — i građanski rat unutar ustanka postao je činjenica."
       },
       {
         "type": "paragraph",
@@ -18256,7 +18254,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Krajem novembra Vermaht je krenuo u veliku ofanzivu na slobodnu teritoriju. Užice je palo 29. novembra 1941; eksplozija u fabrici oružja odnela je više stotina života, a partizanske jedinice probile su se preko Zlatibora prema Sandžaku i dalje u istočnu Bosnu, na Igman i potom u Foču. Mihailovićevi četnici, manje pokretljivi i vezani za rodni kraj, rasuli su se u manje grupe po selima; deo njih je pred očiglednom snagom okupatora ušao u taktičke aranžmane koji će kasnije teško opteretiti pokret. Slobodne teritorije više nije bilo. Do kraja decembra Srbija je ponovo bila čvrsto u rukama nemačke uprave i kvinsliške vlade Milana Nedića, a dva pokreta otpora — sada već razdvojena i nepomirljiva — povukla su se u dugu, mukotrpnu fazu rata."
+        "text": "Krajem novembra Vermaht je krenuo u veliku ofanzivu na slobodnu teritoriju. Eksplozija u fabrici oružja 22. novembra odnela je, prema procenama koje se razlikuju, više od stotinu života; Užice je palo 29. novembra 1941, a partizanske jedinice probile su se preko Zlatibora prema Sandžaku i dalje u istočnu Bosnu, na Igman i potom u Foču. Mihailovićevi četnici, manje pokretljivi i vezani za rodni kraj, rasuli su se u manje grupe po selima; deo njih je pred očiglednom snagom okupatora ušao u taktičke aranžmane koji će kasnije teško opteretiti pokret. Slobodne teritorije više nije bilo. Do kraja decembra Srbija je ponovo bila čvrsto u rukama nemačke uprave i kvislinške vlade Milana Nedića, a dva pokreta otpora — sada već razdvojena i nepomirljiva — povukla su se u dugu, mukotrpnu fazu rata."
       },
       {
         "type": "paragraph",
@@ -18297,7 +18295,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "U jesen 1941. dva pokreta su se sastala, prvo neformalno, a zatim na sastancima Mihailovića i Tita u Strugaviku i Brajićima u zapadnoj Srbiji. Pokušaj zajedničke borbe nije izdržao. Krajem oktobra i u novembru izbili su prvi sukobi, najpre oko Užica, gde su partizani držali kratkotrajnu „Užičku republiku”. Posle nemačke ofanzive koja je tu republiku slomila, partizansko jezgro povuklo se preko Sandžaka u Bosnu, a četnički prvaci ostali su uglavnom u Srbiji, sve više u dvosmernom odnosu sa Nedićevom kvislinškom upravom. Od tog trenutka, građanski rat unutar otpora postaje stalna tema."
+        "text": "U jesen 1941. dva pokreta su se sastala, prvo neformalno, a zatim na sastancima Mihailovića i Tita u Struganiku i Brajićima u zapadnoj Srbiji. Pokušaj zajedničke borbe nije izdržao. Krajem oktobra i u novembru izbili su prvi sukobi, najpre oko Užica, gde su partizani držali kratkotrajnu „Užičku republiku”. Posle nemačke ofanzive koja je tu republiku slomila, partizansko jezgro povuklo se preko Sandžaka u Bosnu, a četnički prvaci ostali su uglavnom u Srbiji, sve više u dvosmernom odnosu sa Nedićevom kvislinškom upravom. Od tog trenutka, građanski rat unutar otpora postaje stalna tema."
       },
       {
         "type": "heading",
@@ -18314,7 +18312,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Saveznici su do 1943. godine podržavali Mihailovića kao zvaničnog komandanta otpora. Tokom te godine, međutim, britanske vojne misije poslate i četnicima i partizanima, među kojima je najpoznatija ona brigadira Fitzroya Macleana kod Tita, izveštavale su Čerčila da glavninu nemačkih i italijanskih snaga drži pod pritiskom partizanska vojska. Na konferenciji u Teheranu u novembru 1943, savezničke vođe priznale su partizane kao glavnu otpornu snagu u Jugoslaviji. Tokom 1944. britanska pomoć biće preusmerena na njih, kralj Petar II pozvaće svoje pristalice da se priključe Titovoj vojsci, a Mihailović — i pokret koji je sa njim pošao iz Ravne gore — naći će se s pogrešne strane rata koji se završavao."
+        "text": "Saveznici su do 1943. godine podržavali Mihailovića kao zvaničnog komandanta otpora. Tokom te godine, međutim, britanske vojne misije poslate i četnicima i partizanima, među kojima je najpoznatija ona brigadira Fitzroya Macleana kod Tita, izveštavale su Čerčila da glavninu nemačkih i italijanskih snaga drži pod pritiskom partizanska vojska. Na konferenciji u Teheranu krajem 1943, savezničke vođe odlučile su da partizane podrže zalihama i opremom u najvećoj mogućoj meri. Tokom 1944. britanska pomoć biće preusmerena na njih, kralj Petar II pozvaće svoje pristalice da se priključe Titovoj vojsci, a Mihailović — i pokret koji je sa njim pošao iz Ravne gore — naći će se s pogrešne strane rata koji se završavao."
       }
     ],
     "subtitle": "Dva oružana pokreta u Jugoslaviji 1941–1945, njihova evolucija od saveza do građanskog rata i prelom 1943.",
@@ -18342,7 +18340,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "content": [
       {
         "type": "paragraph",
-        "text": "Najteže poglavlje rata u Jugoslaviji nije ono u kome se borilo protiv stranog okupatora, nego ono u kome su se njeni stanovnici borili međusobno. Već u jesen 1941, dok su se nemački tenkovi i italijanske posade utvrđivali u gradovima, zemlja se iznutra cepala duž više linija. Razgovori između Tita i Draže Mihailovića u oktobru i novembru te godine — u Strugovima i Brajićima — nisu doneli dogovor o zajedničkoj borbi. Vizije dvojice vođa bile su nepomirljive, a tlo pod njima previše krvavo. Od tog časa, rat unutar rata postao je svakodnevica.",
+        "text": "Najteže poglavlje rata u Jugoslaviji nije ono u kome se borilo protiv stranog okupatora, nego ono u kome su se njeni stanovnici borili međusobno. Već u jesen 1941, dok su se nemački tenkovi i italijanske posade utvrđivali u gradovima, zemlja se iznutra cepala duž više linija. Razgovori između Tita i Draže Mihailovića u septembru i oktobru te godine — u Struganiku i Brajićima — nisu doneli dogovor o zajedničkoj borbi. Vizije dvojice vođa bile su nepomirljive, a tlo pod njima previše krvavo. Od tog časa, rat unutar rata postao je svakodnevica.",
         "dropcap": true
       },
       {
@@ -18412,7 +18410,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "U Kraljevu su, između 14. i 20. oktobra 1941, nemačke jedinice streljale velike grupe muškaraca, među njima radnike Fabrike vagona i druge građane, kao odmazdu za napade jedinica otpora u okolini. Procene broja žrtava se kreću u rasponu od oko 1.700 do preko 2.000 ljudi, uz priznanje da su izvori nepotpuni. Sedam dana kasnije, 21. oktobra 1941, u Kragujevcu su streljani muškarci i dečaci — uključujući đake gimnazije i zanatskih škola izvedene direktno iz učionica. Dugo se kao zvanična cifra navodio broj od oko 7.000 žrtava; novija ozbiljna istraživanja, zasnovana na poimeničnim spiskovima, taj broj smatraju precenjenim i procenjuju stradanje na otprilike 2.800 do 3.000 ljudi. Pošteno je reći oboje: i da je tačan broj manji nego što je decenijama navođeno, i da je u jednom jesenjem danu ubijeno više muškaraca jednog grada nego što neki gradovi imaju odraslih stanovnika."
+        "text": "U Kraljevu su, između 14. i 20. oktobra 1941, nemačke jedinice streljale velike grupe muškaraca, među njima radnike Fabrike vagona i druge građane, kao odmazdu za napade jedinica otpora u okolini. Procene broja žrtava se kreću u rasponu od oko 1.700 do preko 2.000 ljudi, uz priznanje da su izvori nepotpuni. Sedam dana kasnije, 21. oktobra 1941, u Kragujevcu su streljani muškarci i dečaci — uključujući đake gimnazije i zanatskih škola izvedene direktno iz učionica. Dugo se kao zvanična cifra navodio broj od oko 7.000 žrtava; novija ozbiljna istraživanja, zasnovana na poimeničnim spiskovima Spomen-parka „Kragujevački oktobar”, taj broj smatraju precenjenim i procenjuju stradanje na otprilike 2.800 do 3.000 ljudi. Pošteno je reći oboje: i da je tačan broj manji nego što je decenijama navođeno, i da je u jednom jesenjem danu ubijeno više muškaraca jednog grada nego što neki gradovi imaju odraslih stanovnika."
       },
       {
         "type": "heading",
@@ -18425,11 +18423,11 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Na teritoriji Nezavisne Države Hrvatske, sistem nasilja imao je drugačiji karakter. Tamo su, od leta 1941, ustaške vlasti sprovodile politiku otvorenog progona Srba, Jevreja i Roma, kao i protivnika režima među samim Hrvatima i Muslimanima. Središte tog sistema bio je kompleks logora kod Jasenovca, u kome su, u različitim podlogorima, ubijani muškarci, žene i deca. Broj žrtava Jasenovca dugo je bio predmet političkih sporova. Posleratne jugoslovenske procene koje su navodile cifre od oko 700.000 ubijenih danas su, u svetlu poimeničnih istraživanja, smatrane preuveličanim. Ozbiljne savremene procene — koje stoje, među ostalim, iza Memorijalnog muzeja Holokausta u Vašingtonu, Spomen-područja Jasenovac, kao i radova istoričara poput Vladimira Žerjavića i Bogoljuba Kočovića — kreću se otprilike u rasponu od 77.000 do 100.000 žrtava u samom logoru, uz svest da je celokupan ustaški sistem nasilja u NDH usmrtio znatno više ljudi. Iznose se i veće cifre, i istraživanja se nastavljaju; ono što ozbiljna istoriografija ne dovodi u pitanje jeste da je reč o organizovanom genocidu, pre svega nad Srbima, Jevrejima i Romima."
+        "text": "Na teritoriji Nezavisne Države Hrvatske, sistem nasilja imao je drugačiji karakter. Tamo su, od proleća 1941, ustaške vlasti sprovodile politiku otvorenog progona Srba, Jevreja i Roma, kao i protivnika režima među samim Hrvatima i Muslimanima. Središte tog sistema bio je kompleks logora kod Jasenovca, u kome su, u različitim podlogorima, ubijani muškarci, žene i deca. Broj žrtava Jasenovca dugo je bio predmet političkih sporova. Posleratne jugoslovenske procene koje su navodile cifre od oko 700.000 ubijenih danas su, u svetlu poimeničnih istraživanja, smatrane preuveličanim. Ozbiljne savremene procene — među ostalim Memorijalnog muzeja Holokausta u Vašingtonu (od 77.000 do 99.000) i proračuni demografa Vladimira Žerjavića, uz poimenični, još nepotpun popis Spomen-područja Jasenovac sa preko 83.000 imena — kreću se otprilike u rasponu od 77.000 do 100.000 žrtava u samom logoru, uz svest da je celokupan ustaški sistem nasilja u NDH usmrtio znatno više ljudi. Iznose se i veće cifre, i istraživanja se nastavljaju; ono što ozbiljna istoriografija ne dovodi u pitanje jeste da je reč o organizovanom genocidu, pre svega nad Srbima, Jevrejima i Romima."
       },
       {
         "type": "paragraph",
-        "text": "Italijanska okupaciona zona imala je drugačiji karakter — nasilje nad civilima tamo nije bilo programski genocidno kao u NDH, ali su Italijani sprovodili stroge represalije nad selima u zaleđu Dalmacije i Crne Gore i držali logore za internirce, među kojima je najpoznatiji bio logor na Rabu, gde su uslovi, naročito za jevrejske i slovenačke zatočenike, bili teški, sa značajnim brojem umrlih od gladi i bolesti. Mađarska okupacija severne Bačke donela je, u januaru 1942, takozvanu „raciju” u Novom Sadu, Šajkaškoj i okolnim mestima. U nekoliko dana, pripadnici mađarske vojske i žandarmerije pobili su oko 3.000 do 4.000 ljudi, najvećim delom Srba i Jevreja, neke od njih bacajući pod led Dunava i Tise. Reč je o ratnom zločinu koji je posle rata, makar delom, bio i pravno procesuiran u samoj Mađarskoj."
+        "text": "Italijanska okupaciona zona imala je drugačiji karakter — nasilje nad civilima tamo nije bilo programski genocidno kao u NDH, ali su Italijani sprovodili stroge represalije nad selima u zaleđu Dalmacije i Crne Gore i držali logore za internirce, među kojima je najpoznatiji bio logor na Rabu, gde su uslovi, naročito za slovenačke i hrvatske zatočenike smeštene u šatorima, bili teški, sa oko 1.500 umrlih od gladi i bolesti. Mađarska okupacija severne Bačke donela je, u januaru 1942, takozvanu „raciju” u Novom Sadu, Šajkaškoj i okolnim mestima. U nekoliko dana, pripadnici mađarske vojske i žandarmerije pobili su oko 3.000 do 4.000 ljudi, najvećim delom Srba i Jevreja, neke od njih bacajući pod led Dunava i Tise. Reč je o ratnom zločinu koji je posle rata, makar delom, bio i pravno procesuiran u samoj Mađarskoj."
       },
       {
         "type": "paragraph",
@@ -18484,15 +18482,15 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "U avgustu 1942. nemački komandujući oficir u Srbiji javio je Berlinu — sažeto i hladno, jezikom administrativnog izveštaja — da je u Srbiji jevrejsko i cigansko pitanje rešeno, i da je Srbija jedina zemlja u kojoj je to postignuto. Procene istoričara su da je u nemačkoj okupacionoj zoni Srbije ubijeno između četrnaest i petnaest hiljada Jevreja, što znači da je preživelo svega nekoliko stotina, uglavnom u skrivanju, u partizanskim jedinicama ili zbog mešovitih brakova. Brojevi se razlikuju od izvora do izvora i moraju se navoditi s oprezom, ali razmera zločina ne ostavlja prostora za sumnju: jedna stara beogradska zajednica nestala je za godinu i po dana."
+        "text": "U avgustu 1942. šef nemačke vojne uprave u Srbiji Harald Turner izvestio je novog vojnog zapovednika Jugoistoka, generala Lera — sažeto i hladno, jezikom administrativnog izveštaja — da je u Srbiji jevrejsko i cigansko pitanje rešeno, i da je Srbija jedina zemlja u kojoj je to postignuto. Procene istoričara su da je u nemačkoj okupacionoj zoni Srbije ubijeno između četrnaest i petnaest hiljada Jevreja, što znači da je preživela tek manjina — oni koji su na vreme pobegli u italijansku zonu, skrivali se, otišli u partizane ili bili zaštićeni mešovitim brakom. Brojevi se razlikuju od izvora do izvora i moraju se navoditi s oprezom, ali razmera zločina ne ostavlja prostora za sumnju: jedna stara beogradska zajednica nestala je za godinu i po dana."
       },
       {
         "type": "paragraph",
-        "text": "Romsko stanovništvo Srbije bilo je drugi rasni cilj iste politike. Procene govore da je u istoj okupacionoj zoni ubijeno između dvanaest i petnaest hiljada Roma — muškaraca u talačkim streljanjima 1941, žena i dece u logorima i prepadima. Tačne cifre verovatno neće biti utvrđene, pošto je romska zajednica i pre rata bila slabo popisana. Među pojedinačnim ljudskim pričama treba pomenuti i to da je u Beogradu, pre rata, postojala bogata jevrejska kultura — sefardska zajednica oko stare jevrejske četvrti na Dorćolu, aškenaska zajednica u centru grada, naučnici, prevodioci, novinari, lekari, muzičari, učitelji. Posle 1942. od svega toga ostala su uglavnom imena u dokumentima i poneki natpis na kamenu."
+        "text": "Romsko stanovništvo Srbije bilo je drugi rasni cilj iste politike. Procene broja ubijenih Roma u istoj okupacionoj zoni veoma se razlikuju — prema Memorijalnom muzeju Holokausta u Vašingtonu, od oko hiljadu do dvanaest hiljada — a stradali su muškarci u talačkim streljanjima 1941, žene i deca u logorima i prepadima. Tačne cifre verovatno neće biti utvrđene, pošto je romska zajednica i pre rata bila slabo popisana. Među pojedinačnim ljudskim pričama treba pomenuti i to da je u Beogradu, pre rata, postojala bogata jevrejska kultura — sefardska zajednica oko stare jevrejske četvrti na Dorćolu, aškenaska zajednica u centru grada, naučnici, prevodioci, novinari, lekari, muzičari, učitelji. Posle 1942. od svega toga ostala su uglavnom imena u dokumentima i poneki natpis na kamenu."
       },
       {
         "type": "paragraph",
-        "text": "Kao i svuda u okupiranoj Evropi, pojavili su se i pomagači — i u dobrom i u zlu. Bilo je Srba koji su, rizikujući sopstvene živote, krili jevrejske komšije, davali im lažna dokumenta, hranili decu u skrovištima; mnogi od njih su kasnije priznati među Pravednicima među narodima u Jad Vašemu. Bilo je i onih, u nemačkoj specijalnoj policiji i u administraciji kvislinške Vlade narodnog spasa, koji su učestvovali u popisivanju, hapšenju i čuvanju logora. Obe pojave pripadaju istoj istoriji i moraju se pamtiti zajedno, bez uveličavanja jednog ni prikrivanja drugog."
+        "text": "Kao i svuda u okupiranoj Evropi, pojavili su se i pomagači — i u dobrom i u zlu. Bilo je Srba koji su, rizikujući sopstvene živote, krili jevrejske komšije, davali im lažna dokumenta, hranili decu u skrovištima; mnogi od njih su kasnije priznati među Pravednicima među narodima u Jad Vašemu. Bilo je i onih, u Specijalnoj policiji beogradske Uprave grada, koja je radila pod nadzorom Gestapoa, i u administraciji kvislinške Vlade narodnog spasa, koji su učestvovali u popisivanju, hapšenju i čuvanju logora. Obe pojave pripadaju istoj istoriji i moraju se pamtiti zajedno, bez uveličavanja jednog ni prikrivanja drugog."
       },
       {
         "type": "paragraph",
@@ -18546,7 +18544,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Vojnički, Neretva i Sutjeska bile su porazi po broju gubitaka — partizanski štab je sam priznavao razmere stradanja. Politički su, međutim, bile pobede u onom smislu koji se u ratu retko poklapa sa statistikom. Pokret koji je preživeo dve sistematske nemačke ofanzive, sačuvao štab i jedinstvo komande, i izvukao se sposoban da nastavi rat — više nije mogao biti tretiran kao lokalna pobuna. Britanske savezničke misije, koje su do tada uglavnom računale na Mihailovićeve četnike, ubrzo posle Sutjeske dolaze u partizanski štab, a do jeseni 1943. britanska podrška se odlučno prebacuje na partizansku stranu. O odlukama vrhovnog štaba u tim ofanzivama, posebno o ceni koja je plaćena ranjenicima i borcima, postojaće rasprave i mnogo decenija kasnije; ali u letu 1943. one su dale partizanskom pokretu nešto što se kasnije više nije moglo izgubiti — ratni autoritet."
+        "text": "Vojnički, Neretva i Sutjeska bile su porazi po broju gubitaka — partizanski štab je sam priznavao razmere stradanja. Politički su, međutim, bile pobede u onom smislu koji se u ratu retko poklapa sa statistikom. Pokret koji je preživeo dve sistematske nemačke ofanzive, sačuvao štab i jedinstvo komande, i izvukao se sposoban da nastavi rat — više nije mogao biti tretiran kao lokalna pobuna. Britanci, koji su do tada uglavnom računali na Mihailovićeve četnike, spustili su misiju kapetana Vilijama Dikina u partizanski štab još 28. maja 1943, usred bitke na Sutjesci; u septembru stiže i misija Ficroja Mekleina, a do jeseni 1943. britanska podrška se odlučno prebacuje na partizansku stranu. O odlukama vrhovnog štaba u tim ofanzivama, posebno o ceni koja je plaćena ranjenicima i borcima, postojaće rasprave i mnogo decenija kasnije; ali u letu 1943. one su dale partizanskom pokretu nešto što se kasnije više nije moglo izgubiti — ratni autoritet."
       }
     ],
     "subtitle": "Dve velike nemačke ofanzive 1943. i probijanje glavne partizanske grupe kroz Bosnu i Hercegovinu",
@@ -18585,7 +18583,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Drugo zasedanje, održano u Jajcu 29. i 30. novembra 1943, bilo je mnogo dalekosežnije. U malom bosanskom gradu, u zgradi predratnog Doma kulture, okupilo se oko sto četrdeset delegata. Politički trenutak bio je povoljan: nekoliko dana ranije, na konferenciji u Teheranu, vođe velikih savezničkih sila prećutno su priznale partizane kao glavnu snagu otpora u Jugoslaviji i odlučile da im upućuju pomoć. To je davalo pokretu osećaj da može da govori kao buduća vlast, a ne samo kao gerilska vojska."
+        "text": "Drugo zasedanje, održano u Jajcu 29. i 30. novembra 1943, bilo je mnogo dalekosežnije. U malom bosanskom gradu, u zgradi nekadašnjeg Sokolskog doma, obnovljenoj za tu priliku, okupila su se 142 većnika. Politički trenutak bio je povoljan: savezničke misije već su bile u partizanskom štabu, a upravo tih dana, na konferenciji u Teheranu, vođe velikih sila odlučile su da partizanima upućuju pomoć. To je davalo pokretu osećaj da može da govori kao buduća vlast, a ne samo kao gerilska vojska."
       },
       {
         "type": "paragraph",
@@ -18655,7 +18653,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Tokom proleća 1945. ravnoteža je konačno pukla. Početkom aprila probijen je Sremski front, oslobođeni su Vukovar i Osijek, a 6. aprila u Sarajevo su ušle jedinice Druge i Treće armije. Sledilo je oslobađanje Like, Hrvatskog primorja, Istre, a 8. maja 1945. Jugoslovenska armija ušla je u Zagreb. Završne borbe vodile su se još nekoliko dana u Sloveniji i delovima Koruške, dok se nemačka grupa „E”, zajedno sa ustaškim, domobranskim i slovenačkim domobranskim jedinicama, povlačila prema austrijskoj granici, u pokušaju da se preda britanskim, a ne partizanskim snagama."
+        "text": "Tokom proleća 1945. ravnoteža je konačno pukla. Već 6. aprila u Sarajevo su ušle jedinice Druge i Treće armije, a 12. aprila probijen je Sremski front i oslobođen Vukovar, pa zatim Osijek. Sledilo je oslobađanje Like, Hrvatskog primorja, Istre, a 8. maja 1945. Jugoslovenska armija ušla je u Zagreb. Završne borbe vodile su se još nekoliko dana u Sloveniji i delovima Koruške, dok se nemačka grupa „E”, zajedno sa ustaškim, domobranskim i slovenačkim domobranskim jedinicama, povlačila prema austrijskoj granici, u pokušaju da se preda britanskim, a ne partizanskim snagama."
       },
       {
         "type": "paragraph",
@@ -18699,7 +18697,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Ono što se iza tih ukupnih cifara krije teže je za pisanje nego za sabiranje. Po proračunima oba demografa, najbrojnija pojedinačna grupa žrtava bili su Srbi: Kočović je procenio oko 487.000, Žerjavić oko 530.000 stradalih pripadnika srpskog naroda u celoj Jugoslaviji. To je posledica i borbe partizanskog i četničkog pokreta otpora i nemačke odmazde, ali, pre svega, masovnog stradanja Srba pod ustaškom vlašću u Nezavisnoj Državi Hrvatskoj — u Jasenovcu i drugim logorima i u progonima u Bosni i Hercegovini, Lici, Kordunu i Slavoniji. Hrvata je, po istim procenama, stradalo oko 207.000, bosanskih Muslimana oko 86.000, Slovenaca oko 32.000, Crnogoraca oko 20.000. Za Jevreje cifra od oko 57.000 znači da je u Holokaustu ubijeno oko četiri od svakih pet jugoslovenskih Jevreja koji su rat dočekali. Roma je stradalo oko 27.000, što je za njihovu malu zajednicu imalo razmer katastrofe."
+        "text": "Ono što se iza tih ukupnih cifara krije teže je za pisanje nego za sabiranje. Po proračunima oba demografa, najbrojnija pojedinačna grupa žrtava bili su Srbi: Kočović je procenio oko 487.000, Žerjavić oko 530.000 stradalih pripadnika srpskog naroda u celoj Jugoslaviji. To je posledica i borbe partizanskog i četničkog pokreta otpora i nemačke odmazde, ali, pre svega, masovnog stradanja Srba pod ustaškom vlašću u Nezavisnoj Državi Hrvatskoj — u Jasenovcu i drugim logorima i u progonima u Bosni i Hercegovini, Lici, Kordunu i Slavoniji. Hrvata je, po ovim dvema procenama, stradalo između oko 192.000 i 207.000, bosanskih Muslimana između 86.000 i 103.000, Slovenaca između 32.000 i 42.000, Crnogoraca između 20.000 i 50.000. Za Jevreje se procene kreću od oko 57.000 (Žerjavić) do 60.000 (Kočović), a u istraživanjima Holokausta i nešto više — što znači da je ubijeno između dve trećine i četiri petine od oko osamdeset hiljada jugoslovenskih Jevreja koji su rat dočekali. Roma je stradalo između oko 18.000 i 27.000, što je za njihovu malu zajednicu imalo razmer katastrofe."
       },
       {
         "type": "heading",
@@ -18712,7 +18710,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Materijalna cena je merljivija, ali ne i manja. Po proračunima posleratne komisije, oštećena je bila otprilike svaka četvrta stambena jedinica u zemlji. Saobraćajna mreža bila je razorena — pruge, mostovi, lokomotive, putevi. Industrija, već skromna pre rata, ostala je bez znatnog dela kapaciteta; poljoprivredna proizvodnja pala je ispod predratnog nivoa i tu se godinama zadržala. Pojedini gradovi platili su naročito visoku cenu — Podgorica je bombardovana toliko puta i tako temeljno da se posle rata gradila gotovo iz temelja, Zadar je u savezničkim napadima izgubio veliki deo starog jezgra, Leskovac je u proleće 1944. teško razoren u savezničkom bombardovanju. Stotine hiljada ljudi promenilo je adresu pod prisilom — prognani Srbi iz NDH, proterani Nemci posle rata, kolonizovani borci u Vojvodini, raseljeni Jevreji čija se zajednica više nikada nije obnovila u predratnoj veličini."
+        "text": "Materijalna cena je merljivija, ali ne i manja. Po proračunima posleratne komisije, oštećena je bila otprilike svaka četvrta stambena jedinica u zemlji. Saobraćajna mreža bila je razorena — pruge, mostovi, lokomotive, putevi. Industrija, već skromna pre rata, ostala je bez znatnog dela kapaciteta; poljoprivredna proizvodnja pala je ispod predratnog nivoa i tu se godinama zadržala. Pojedini gradovi platili su naročito visoku cenu — Podgorica je bombardovana toliko puta i tako temeljno da se posle rata gradila gotovo iz temelja, Zadar je u savezničkim napadima izgubio veliki deo starog jezgra, Leskovac je 6. septembra 1944. teško razoren u savezničkom bombardovanju. Stotine hiljada ljudi promenilo je adresu pod prisilom — prognani Srbi iz NDH, proterani Nemci posle rata, kolonizovani borci u Vojvodini, raseljeni Jevreji čija se zajednica više nikada nije obnovila u predratnoj veličini."
       },
       {
         "type": "paragraph",
@@ -18807,12 +18805,12 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "content": [
       {
         "type": "paragraph",
-        "text": "Kada je 29. novembra 1945. godine novoizabrana Ustavotvorna skupština u Beogradu proglasila ukidanje monarhije i Jugoslaviju stavila u red narodnih republika, stari državni okvir nestao je za jednu noć. Kraljevina Jugoslavija pravno je prestala da postoji; na njeno mesto došla je Demokratska Federativna Jugoslavija, a nedugo zatim, ustavom od 31. januara 1946, dobila je i konačno ime — Federalna Narodna Republika Jugoslavija. Bila je to nova država i po imenu i po unutrašnjem ustrojstvu, a njen tvorac, Komunistička partija Jugoslavije pod Titom, gradio ju je sa dva uzora pred očima: sovjetskom federacijom kao modelom i partizanskim ratom kao moralnim opravdanjem.",
+        "text": "Kada je 29. novembra 1945. godine novoizabrana Ustavotvorna skupština u Beogradu proglasila ukidanje monarhije i Jugoslaviju stavila u red narodnih republika, stari državni okvir nestao je za jednu noć: Demokratska Federativna Jugoslavija postala je Federativna Narodna Republika Jugoslavija, a ustav od 31. januara 1946. dao joj je i pravni okvir. Bila je to nova država i po imenu i po unutrašnjem ustrojstvu, a njen tvorac, Komunistička partija Jugoslavije pod Titom, gradio ju je sa dva uzora pred očima: sovjetskom federacijom kao modelom i partizanskim ratom kao moralnim opravdanjem.",
         "dropcap": true
       },
       {
         "type": "paragraph",
-        "text": "Ustav iz januara 1946. bio je gotovo doslovno rađen po Staljinovom sovjetskom ustavu iz 1936. godine. Preuzeti su isti pojmovi, ista podela vlasti i ista retorika o radnom narodu kao nosiocu suvereniteta. Na čelu države stajao je Prezidijum Narodne skupštine, kolektivno predsedništvo koje je vršilo funkcije šefa države između zasedanja. Savezna skupština imala je dva doma — Savezno veće, birano po opštem pravu, i Veće naroda, sastavljeno od izaslanika republika i pokrajina, kao izraz federalnog karaktera države. Formalno je sve podsećalo na evropski parlamentarni poredak, ali je pravo političko središte ležalo na drugom mestu: u Centralnom komitetu KPJ i u Politbirou, gde su odluke padale pre nego što bi došle na sednice skupština."
+        "text": "Ustav iz januara 1946. bio je gotovo doslovno rađen po Staljinovom sovjetskom ustavu iz 1936. godine. Preuzeti su isti pojmovi, ista podela vlasti i ista retorika o radnom narodu kao nosiocu suvereniteta. Na čelu države stajao je Prezidijum Narodne skupštine, kolektivno predsedništvo koje je vršilo funkcije šefa države između zasedanja. Savezna skupština imala je dva doma — Savezno veće, birano po opštem pravu, i Veće naroda, u koje su građani svake republike birali jednak broj poslanika (a autonomne jedinice manji), kao izraz federalnog karaktera države. Formalno je sve podsećalo na evropski parlamentarni poredak, ali je pravo političko središte ležalo na drugom mestu: u Centralnom komitetu KPJ i u Politbirou, gde su odluke padale pre nego što bi došle na sednice skupština."
       },
       {
         "type": "paragraph",
@@ -18829,7 +18827,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Spoljnopolitički, mlada FNRJ izlazila je iz rata sa krupnim teritorijalnim dobicima i jednim bolnim porazom. Mirovnim ugovorom sa Italijom 1947. Jugoslaviji su pripale Istra, veći deo Julijske krajine, Rijeka i Zadar, kao i Kvarnerska ostrva — krupno pomeranje zapadne granice u korist slovenskog stanovništva. Ali grad Trst, oko kojeg se vodio dug i napet spor, ostao je van Jugoslavije; tršćanska kriza vukla se sve do Londonskog memoranduma 1954, kada je Trst konačno pripao Italiji, a Zona B Jugoslaviji. Na severu je pitanje južne Koruške ostalo otvoreno prema Austriji i neće biti rešeno u jugoslovensku korist. Bili su to prvi znaci da nova država, koliko god ratom ojačana, deluje u svetu koji je njene granice gledao i kroz hladnoratovsku optiku."
+        "text": "Spoljnopolitički, mlada FNRJ izlazila je iz rata sa krupnim teritorijalnim dobicima i jednim bolnim porazom. Mirovnim ugovorom sa Italijom 1947. Jugoslaviji su pripale Istra, veći deo Julijske krajine, Rijeka i Zadar, kao i Kvarnerska ostrva — krupno pomeranje zapadne granice u korist slovenskog stanovništva. Ali grad Trst, oko kojeg se vodio dug i napet spor, ostao je van Jugoslavije; tršćanska kriza vukla se sve do Londonskog memoranduma 1954, kada je Trst prešao pod italijansku upravu, a Zona B pod jugoslovensku; granica je konačno potvrđena Osimskim sporazumima 1975. Na severu je pitanje južne Koruške ostalo otvoreno prema Austriji i neće biti rešeno u jugoslovensku korist. Bili su to prvi znaci da nova država, koliko god ratom ojačana, deluje u svetu koji je njene granice gledao i kroz hladnoratovsku optiku."
       },
       {
         "type": "paragraph",
@@ -18847,7 +18845,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "subtitle": "Kako je posleratna Jugoslavija postala narodna republika po sovjetskom uzoru, sa šest republika i jednom partijom",
     "dateLabel": "1945–1947.",
     "timelinePosition": "1945–1947.",
-    "summary": "Osnivanje Federalne Narodne Republike Jugoslavije, njen ustav iz 1946. po sovjetskom uzoru, federalna struktura sa šest republika i dve autonomne jedinice unutar Srbije, i prve godine društvene preobrazbe.",
+    "summary": "Osnivanje Federativne Narodne Republike Jugoslavije, njen ustav iz 1946. po sovjetskom uzoru, federalna struktura sa šest republika i dve autonomne jedinice unutar Srbije, i prve godine društvene preobrazbe.",
     "keyPeople": [
       "Josip Broz Tito",
       "Aleksandar Ranković",
@@ -18866,12 +18864,12 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "content": [
       {
         "type": "paragraph",
-        "text": "Posle 1945. Jugoslavija je u istočnoj Evropi izgledala kao najodaniji Staljinov đak. Sama je izvojevala revoluciju, bez sovjetske vojske na svojoj zemlji, i sama je gradila partijsku državu po sovjetskom uzoru. Upravo ta činjenica — da je Tito imao sopstvenu legitimaciju, sopstvenu armiju i sopstvenu pobedu iz rata — postaće 1948. kamen spoticanja. Kada se Moskva najednom okrenula protiv Beograda, nije bilo posredi neka jeretička ideja, nego pitanje ko, na kraju, određuje pravac jednoj socijalističkoj zemlji.",
+        "text": "Posle 1945. Jugoslavija je u istočnoj Evropi izgledala kao najodaniji Staljinov đak. Revoluciju je izvojevala uglavnom sopstvenim snagama, a sovjetska vojska se posle 1944. nije zadržala na njenoj zemlji; sama je gradila partijsku državu po sovjetskom uzoru. Upravo ta činjenica — da je Tito imao sopstvenu legitimaciju, sopstvenu armiju i sopstvenu pobedu iz rata — postaće 1948. kamen spoticanja. Kada se Moskva najednom okrenula protiv Beograda, nije bilo posredi neka jeretička ideja, nego pitanje ko, na kraju, određuje pravac jednoj socijalističkoj zemlji.",
         "dropcap": true
       },
       {
         "type": "paragraph",
-        "text": "Trvenja su počela tiho tokom 1947. i u prvim mesecima 1948. Jugoslovenska partija vodila je sopstvenu spoljnu politiku: pomagala je grčkim komunistima u građanskom ratu, uvodila se ekonomski i vojno u Albaniju, razgovarala sa Bugarskom o mogućoj balkanskoj federaciji, branila Trst od italijanskih pretenzija. Sve je to bilo previše samostalno za Staljina, koji je tek delio sfere uticaja sa Zapadom i nije želeo da mu jedan mlađi saveznik samostalno radi na osetljivim mestima. Sovjetski vojni i ekonomski savetnici u Jugoslaviji javljali su da se njihov uticaj ne prima kao u Sofiji ili Pragu, već se uljudno odbija. Krajem marta 1948. Moskva ih je povukla."
+        "text": "Trvenja su počela tiho tokom 1947. i u prvim mesecima 1948. Jugoslovenska partija vodila je sopstvenu spoljnu politiku: pomagala je grčkim komunistima u građanskom ratu, uvodila se ekonomski i vojno u Albaniju, razgovarala sa Bugarskom o mogućoj balkanskoj federaciji, branila Trst od italijanskih pretenzija. Sve je to bilo previše samostalno za Staljina, koji je tek delio sfere uticaja sa Zapadom i nije želeo da mu jedan mlađi saveznik samostalno radi na osetljivim mestima. Sovjetski vojni i ekonomski savetnici u Jugoslaviji javljali su da se njihov uticaj ne prima kao u Sofiji ili Pragu, već se uljudno odbija. Sredinom marta 1948. Moskva ih je povukla."
       },
       {
         "type": "paragraph",
@@ -18879,7 +18877,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Razrešenje je došlo 28. juna 1948. u Bukureštu. Tog dana — simbolično na Vidovdan — Informacioni biro komunističkih i radničkih partija, takozvani Informbiro, objavio je Rezoluciju kojom je KPJ izbačena iz svojih redova. Optužbe su bile teške: skretanje s marksizma-lenjinizma, neprijateljska politika prema Sovjetskom Savezu, terorizam u partiji, kulačko popuštanje na selu. Jugoslovensko rukovodstvo nije bilo pozvano da prisustvuje. Rezolucija je u stvari bila poziv „zdravim snagama” u samoj KPJ da svrgnu Tita. Umesto toga, partija je gotovo jednoglasno stala uz svoje vodstvo. Tito, Kardelj, Ranković i Đilas javno su odbacili optužbe i pozvali zemlju na otpor."
+        "text": "Razrešenje je došlo 28. juna 1948. u Bukureštu. Tog dana — simbolično na Vidovdan — Informacioni biro komunističkih i radničkih partija, takozvani Informbiro, objavio je Rezoluciju kojom je KPJ izbačena iz svojih redova. Optužbe su bile teške: skretanje s marksizma-lenjinizma, neprijateljska politika prema Sovjetskom Savezu, terorizam u partiji, kulačko popuštanje na selu. Jugoslovensko rukovodstvo odbilo je poziv da prisustvuje sastanku. Rezolucija je u stvari bila poziv „zdravim snagama” u samoj KPJ da svrgnu Tita. Umesto toga, partija je gotovo jednoglasno stala uz svoje vodstvo. Tito, Kardelj, Ranković i Đilas javno su odbacili optužbe i pozvali zemlju na otpor."
       },
       {
         "type": "paragraph",
@@ -18892,7 +18890,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "U zemlji se istovremeno odvijala druga, mračnija strana sukoba. Ko god je u partiji ili van nje bio osumnjičen da podržava Staljina — takozvani „informbirovci” — hapšen je bez suda, isključivan iz partije, slat na izdržavanje kazne. Najpoznatije mesto te represije postao je Goli otok, kameniti, bezvodni ostrvski logor u severnom Jadranu, otvoren 1949. Tu su, kroz strogu izolaciju, prinudni rad u kamenolomu i sistem međusobnog mučenja zatočenika, prošli — prema procenama koje variraju — između šesnaest i dvadeset pet hiljada ljudi u prvom talasu, do 1956. Mnogi nisu preživeli; mnogi su izašli slomljeni. Goli otok je bio jugoslovenski odgovor na sovjetski gulag — manjeg obima, ali iste prirode. O njemu se decenijama ćutalo i ozbiljnije se počelo govoriti tek posle Titove smrti 1980."
+        "text": "U zemlji se istovremeno odvijala druga, mračnija strana sukoba. Ko god je u partiji ili van nje bio osumnjičen da podržava Staljina — takozvani „informbirovci” — hapšen je bez suda, isključivan iz partije, slat na izdržavanje kazne. Najpoznatije mesto te represije postao je Goli otok, kameniti, bezvodni ostrvski logor u severnom Jadranu, otvoren 1949. Tu su, kroz strogu izolaciju, prinudni rad u kamenolomu i sistem međusobnog mučenja zatočenika, prošli — prema procenama koje variraju — od oko šesnaest hiljada, koliko navode arhivski podaci Udbe, do dvadeset pet hiljada ljudi u prvom talasu, do 1956. Mnogi nisu preživeli; mnogi su izašli slomljeni. Goli otok je bio jugoslovenski odgovor na sovjetski gulag — manjeg obima, ali iste prirode. O njemu se decenijama ćutalo i ozbiljnije se počelo govoriti tek posle Titove smrti 1980."
       },
       {
         "type": "paragraph",
@@ -18953,7 +18951,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Uporedo s tim, sistem se postepeno udaljavao od sovjetskog uzora i na drugim mestima. Ustavni zakon iz 1953. godine, zajedno sa promenama u poljoprivrednoj politici, faktički je napustio kolektivizaciju sela: seljaci su mogli zadržati zemlju, sa maksimumom koji je uglavnom iznosio oko deset hektara obradivog poseda. To je u Srbiji značilo da je seljačko domaćinstvo, sa svojom njivom i stokom, ostalo osnovna ćelija sela — nešto što istočnoevropski susedi, sa svojim kolhozima i poljoprivrednim zadrugama prinudnog tipa, nisu poznavali."
+        "text": "Uporedo s tim, sistem se postepeno udaljavao od sovjetskog uzora i na drugim mestima. Uredbom o reorganizaciji seljačkih radnih zadruga i zakonom o zemljišnom maksimumu iz 1953. godine kolektivizacija sela faktički je napuštena: seljaci su mogli zadržati zemlju, do maksimuma od oko deset hektara obradivog poseda. To je u Srbiji značilo da je seljačko domaćinstvo, sa svojom njivom i stokom, ostalo osnovna ćelija sela — nešto što istočnoevropski susedi, sa svojim kolhozima i poljoprivrednim zadrugama prinudnog tipa, nisu poznavali."
       },
       {
         "type": "paragraph",
@@ -18993,7 +18991,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "content": [
       {
         "type": "paragraph",
-        "text": "Prvi petogodišnji plan, donet 1947. godine, postavio je jednostavan i ambiciozan zadatak — od ratom razorene, pretežno seljačke zemlje napraviti industrijsku državu. Model je bio sovjetski: centralno planiranje, prioritet teškoj industriji, rudnicima, čeličanama i hidroelektranama, mobilizacija omladinskih brigada za pruge i puteve, niska potrošnja u korist investicija. Glavni planer Boris Kidrič projektovao je rast koji bi za pet godina udvostručio industrijsku proizvodnju. Plan je donosio i nove pruge — Brčko–Banovići, Šamac–Sarajevo — građene rukama desetina hiljada mladih dobrovoljaca. Sve to počivalo je na očekivanju sovjetske tehničke pomoći i kredita.",
+        "text": "Prvi petogodišnji plan, donet 1947. godine, postavio je jednostavan i ambiciozan zadatak — od ratom razorene, pretežno seljačke zemlje napraviti industrijsku državu. Model je bio sovjetski: centralno planiranje, prioritet teškoj industriji, rudnicima, čeličanama i hidroelektranama, mobilizacija omladinskih brigada za pruge i puteve, niska potrošnja u korist investicija. Plan, čije je sprovođenje vodio Boris Kidrič, predviđao je da industrijska proizvodnja 1951. bude oko pet puta veća nego 1939. U istom zamahu nastale su i nove pruge — Brčko–Banovići (1946) i Šamac–Sarajevo (1947) — građene rukama desetina hiljada mladih dobrovoljaca. Sve to počivalo je na očekivanju sovjetske tehničke pomoći i kredita.",
         "dropcap": true
       },
       {
@@ -19077,7 +19075,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Televizija je promenila ritam večeri. Televizija Beograd počela je redovan program 1958, a tokom šezdesetih i sedamdesetih televizor je postao standardni komad nameštaja — najpre crno-beli, od sredine sedamdesetih sve češće u boji. Centralni „Dnevnik” u 19.30 bio je obavezna tačka dana; subotom su deca čekala „Žikinu šarenicu”, porodice su pratile domaće serije i strane filmove, a od kasnih osamdesetih kultnim humorom probiće se i sarajevska „Top lista nadrealista”. Štampa je takođe imala svoje stalne tačke — „Politikin zabavnik”, „Politika”, „NIN”, „Ilustrovana politika” — a deca su uz zabavnik učila istoriju, popularne nauke i strip."
+        "text": "Televizija je promenila ritam večeri. Televizija Beograd počela je redovan program 1958, a tokom šezdesetih i sedamdesetih televizor je postao standardni komad nameštaja — najpre crno-beli, od sredine sedamdesetih sve češće u boji. Centralni „Dnevnik” u 19.30 bio je obavezna tačka dana; deca su čekala „Na slovo, na slovo”, porodice su pratile domaće serije i strane filmove, a od sredine osamdesetih kultnim humorom probiće se i sarajevska „Top lista nadrealista”. Štampa je takođe imala svoje stalne tačke — „Politikin zabavnik”, „Politika”, „NIN”, „Ilustrovana politika” — a deca su uz zabavnik učila istoriju, popularne nauke i strip."
       },
       {
         "type": "paragraph",
@@ -19148,7 +19146,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Sport nije bio samo vrhunski. Iz međuratne sokolske i posleratne fiskulturne tradicije izrasle su masovne smotre — „spartakijade” — školski sportski sistemi, fabrička i radnička društva. Beograd je 1973. bio domaćin Univerzijade, a Sarajevo je 1984. organizovalo Zimske olimpijske igre koje su, makar na dve nedelje, gradu i zemlji dale međunarodni sjaj kakav posle više neće videti. Sve to je zahtevalo dvorane, stadione, trenere i sistem — i sve to je ostavljeno u nasleđe i godinama posle raspada zemlje."
+        "text": "Sport nije bio samo vrhunski. Iz međuratne sokolske i posleratne fiskulturne tradicije izrasle su masovne smotre — „spartakijade” — školski sportski sistemi, fabrička i radnička društva. Beograd je 1973. bio domaćin prvog Svetskog prvenstva u vodenim sportovima, Zagreb 1987. Univerzijade, a Sarajevo je 1984. organizovalo Zimske olimpijske igre koje su, makar na dve nedelje, gradu i zemlji dale međunarodni sjaj kakav posle više neće videti. Sve to je zahtevalo dvorane, stadione, trenere i sistem — i sve to je ostavljeno u nasleđe i godinama posle raspada zemlje."
       },
       {
         "type": "paragraph",
@@ -19195,7 +19193,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Tekst iz 1974. republike je definisao kao države zasnovane na pravu naroda na samoopredeljenje, „uključujući i pravo na otcepljenje”. Ta formulacija iz preambule bila je u trenutku usvajanja shvaćena kao istorijska tekovina iz vremena narodnooslobodilačke borbe, a ne kao praktično uputstvo; ipak, ostala je upisana u temelj države. Federacija je odlučivala konsenzusom osam jedinica — šest republika i dveju autonomnih pokrajina, Vojvodine i Kosova. Po brojnim pitanjima nije se moglo izglasati ništa što bi neka od jedinica izričito odbacila."
+        "text": "Tekst iz 1974. republike je definisao kao države zasnovane na pravu naroda (ne izričito republika) na samoopredeljenje, „uključujući i pravo na otcepljenje”. Ta formulacija iz preambule bila je u trenutku usvajanja shvaćena kao istorijska tekovina iz vremena narodnooslobodilačke borbe, a ne kao praktično uputstvo; ipak, ostala je upisana u temelj države. Federacija je odlučivala konsenzusom osam jedinica — šest republika i dveju autonomnih pokrajina, Vojvodine i Kosova. Po brojnim pitanjima nije se moglo izglasati ništa što bi neka od jedinica izričito odbacila."
       },
       {
         "type": "paragraph",
@@ -19240,7 +19238,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "content": [
       {
         "type": "paragraph",
-        "text": "U petak 4. maja 1980. godine, u petnaest časova i pet minuta, u Kliničkom centru u Ljubljani umro je Josip Broz Tito, predsednik Socijalističke Federativne Republike Jugoslavije. Imao je gotovo osamdeset osam godina — rođendan bi mu pao tri dana kasnije. Bio je to čovek koji je punih trideset pet godina stajao na vrhu jugoslovenske države: prvo kao komandant partizanske vojske, zatim kao predsednik vlade, pa kao predsednik republike, i konačno, posle ustava iz 1974, kao doživotni predsednik. Za dve generacije građana, on je jednostavno bio onaj koji je oduvek tu i koji će uvek biti tu. Sa tih nekoliko minuta, ta predstava je prestala da važi.",
+        "text": "U nedelju 4. maja 1980. godine, u petnaest časova i pet minuta, u Kliničkom centru u Ljubljani umro je Josip Broz Tito, predsednik Socijalističke Federativne Republike Jugoslavije. Imao je gotovo osamdeset osam godina — rođendan bi mu pao tri dana kasnije. Bio je to čovek koji je punih trideset pet godina stajao na vrhu jugoslovenske države: prvo kao komandant partizanske vojske, zatim kao predsednik vlade, pa kao predsednik republike, i konačno, posle ustava iz 1974, kao doživotni predsednik. Za dve generacije građana, on je jednostavno bio onaj koji je oduvek tu i koji će uvek biti tu. Sa tih nekoliko minuta, ta predstava je prestala da važi.",
         "dropcap": true
       },
       {
@@ -19249,7 +19247,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Vest o smrti stigla je u Jugoslaviju usred običnog popodneva. Možda najpoznatiji prizor toga trenutka odigrao se u Zagrebu, na stadionu Maksimir, gde je tekla utakmica između Hajduka i Crvene zvezde. Spiker je preko razglasa saopštio da je drug Tito umro. Stadion je za nekoliko trenutaka utihnuo. Igrači su stali, zatim seli na travu, a navijači obeju ekipa, do maločas suparnici, počeli su da plaču i da pevaju — najpre tiho, pa sve glasnije — „Druže Tito, mi ti se kunemo”. Slične scene odigrale su se po fabrikama, kancelarijama, vozovima, školskim hodnicima. Ljudi su zastajali na ulici, neki nepoznati jedni drugima padali u zagrljaj. To nije bila propagandno režirana tuga; bila je, za veliki deo zemlje, sasvim stvarna."
+        "text": "Vest o smrti stigla je u Jugoslaviju usred običnog popodneva. Možda najpoznatiji prizor toga trenutka odigrao se u Splitu, na stadionu Poljud, gde je tekla utakmica između Hajduka i Crvene zvezde. Spiker je preko razglasa saopštio da je drug Tito umro. Stadion je za nekoliko trenutaka utihnuo. Igrači su stali, zatim seli na travu, a navijači obeju ekipa, do maločas suparnici, počeli su da plaču i da pevaju — najpre tiho, pa sve glasnije — „Druže Tito, mi ti se kunemo”. Slične scene odigrale su se po fabrikama, kancelarijama, vozovima, školskim hodnicima. Ljudi su zastajali na ulici, neki nepoznati jedni drugima padali u zagrljaj. To nije bila propagandno režirana tuga; bila je, za veliki deo zemlje, sasvim stvarna."
       },
       {
         "type": "heading",
@@ -19274,7 +19272,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Iza emocija, već prvih dana posle sahrane, počele su se nazirati strukturne pukotine sistema. Ustav iz 1974. predvideo je za ovaj slučaj kolektivno predsedništvo — telo od osam članova, po jedan iz svake republike i pokrajine, koji su se na čelu smenjivali iz godine u godinu. Ta konstrukcija bila je pravno besprekorna, ali politički bezbojna: niko od rotirajućih predsedavajućih nije imao ni autoritet ni biografiju da preuzme ulogu integrativnog čvora kakvu je decenijama igrao Tito. Već 1981. izbiće prvi veliki nemiri na Kosovu; tokom narednih godina javni dug, hiperinflacija i pad standarda počeće da nagrizaju strpljenje stanovništva, a republičke politike sve otvorenije će se okretati svojim sopstvenim interesima."
+        "text": "Iza emocija, već prvih dana posle sahrane, počele su se nazirati strukturne pukotine sistema. Ustav iz 1974. predvideo je za ovaj slučaj kolektivno predsedništvo — telo od devet članova — po jedan iz svake republike i pokrajine i, po položaju, predsednik Predsedništva CK SKJ — koji su se na čelu smenjivali iz godine u godinu. Ta konstrukcija bila je pravno besprekorna, ali politički bezbojna: niko od rotirajućih predsedavajućih nije imao ni autoritet ni biografiju da preuzme ulogu integrativnog čvora kakvu je decenijama igrao Tito. Već 1981. izbiće prvi veliki nemiri na Kosovu; tokom narednih godina javni dug, hiperinflacija i pad standarda počeće da nagrizaju strpljenje stanovništva, a republičke politike sve otvorenije će se okretati svojim sopstvenim interesima."
       },
       {
         "type": "paragraph",
@@ -19298,7 +19296,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       "Beograd",
       "Kuća cveća",
       "Dedinje",
-      "Zagreb"
+      "Split"
     ]
   },
   "day-338": {
@@ -19314,7 +19312,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Politički sistem je sa tom krizom loše izlazio na kraj. Posle Titove smrti, predsedništvo SFRJ postalo je kolektivno: osam članova, po jedan iz svake republike i pokrajine, sa godišnjom rotacijom funkcije predsednika. Takvo ustrojstvo zamišljeno je da spreči koncentraciju moći, ali u praksi je značilo da niko ne snosi punu odgovornost i da se odluke odlažu dok ne postanu neizvodljive. Republike i pokrajine sve su otvorenije sledile sopstvene računice. Savezna vlada nije imala dovoljno mehanizama da utera jedinstvenu ekonomsku politiku, a partija — Savez komunista Jugoslavije — koja je dotad bila glavna spona, počela je da se raspada na osam manjih centara odlučivanja."
+        "text": "Politički sistem je sa tom krizom loše izlazio na kraj. Posle Titove smrti, predsedništvo SFRJ postalo je kolektivno: devet članova — po jedan iz svake republike i pokrajine i predsednik Predsedništva CK SKJ po položaju (do 1988) — sa godišnjom rotacijom funkcije predsednika. Takvo ustrojstvo zamišljeno je da spreči koncentraciju moći, ali u praksi je značilo da niko ne snosi punu odgovornost i da se odluke odlažu dok ne postanu neizvodljive. Republike i pokrajine sve su otvorenije sledile sopstvene računice. Savezna vlada nije imala dovoljno mehanizama da utera jedinstvenu ekonomsku politiku, a partija — Savez komunista Jugoslavije — koja je dotad bila glavna spona, počela je da se raspada na osam manjih centara odlučivanja."
       },
       {
         "type": "heading",
@@ -19327,7 +19325,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Uporedo sa krizom, osamdesete su bile i godine snažnog kulturnog vrenja. U Beogradu i Zagrebu javio se novi talas — Idoli, Električni orgazam, Šarlo akrobata, Azra — sa zvukom koji je odudarao od ranije estradne Jugoslavije; u Sarajevu su „novi primitivci” i Top lista nadrealista satirom rasturali ono što se ozbiljnim tonom više nije dalo izgovoriti. Književnost je tematizovala dotad polupotisnuto: Goli otok, žrtve Drugog svetskog rata, sudbinu seljaka i običnog vojnika. Dobrica Ćosić je u Knjizi o Milutinu i drugim romanima glasno postavio pitanje srpske istorijske sudbine. Bila je to, u kulturnom smislu, jedna od najživljih jugoslovenskih decenija — upravo zato što je politika tonula."
+        "text": "Uporedo sa krizom, osamdesete su bile i godine snažnog kulturnog vrenja. U Beogradu i Zagrebu javio se novi talas — Idoli, Električni orgazam, Šarlo akrobata, Azra — sa zvukom koji je odudarao od ranije estradne Jugoslavije; u Sarajevu su „novi primitivci” i Top lista nadrealista satirom rasturali ono što se ozbiljnim tonom više nije dalo izgovoriti. Književnost je tematizovala dotad polupotisnuto: Goli otok, žrtve Drugog svetskog rata, sudbinu seljaka i običnog vojnika. Danko Popović u „Knjizi o Milutinu” (1985) i Dobrica Ćosić u romanima „Grešnik” i „Otpadnik” glasno su postavili pitanje srpske istorijske sudbine. Bila je to, u kulturnom smislu, jedna od najživljih jugoslovenskih decenija — upravo zato što je politika tonula."
       },
       {
         "type": "paragraph",
@@ -19335,7 +19333,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "U partijskim vrhovima generacija koja je nasledila ratne starešine donosila je nove ljude — i reformatore i nacionalno orijentisane političare. U Srbiji se posle aprila 1987, kada je u Kosovu Polju održao govor o zaštiti tamošnjih Srba, a zatim posle Osme sednice Centralnog komiteta Saveza komunista Srbije u septembru iste godine, kao novi prvi čovek partije nametnuo Slobodan Milošević, do tada bliski saradnik Ivana Stambolića. Slično se i u Sloveniji, Hrvatskoj i drugim republikama pomerao centar gravitacije ka temama nacionalnog identiteta i ekonomske samostalnosti. Tačno je: jedan deo savezne elite još je verovao u reformu zajedničke države, premijer Ante Marković će krajem decenije pokušati ozbiljan ekonomski preokret. Ali okvir u kome se to dešavalo svake godine je sve više pucao."
+        "text": "U partijskim vrhovima generacija koja je nasledila ratne starešine donosila je nove ljude — i reformatore i nacionalno orijentisane političare. U Srbiji se posle aprila 1987, kada je u Kosovu Polju održao govor o zaštiti tamošnjih Srba, a zatim posle Osme sednice Centralnog komiteta Saveza komunista Srbije u septembru iste godine, kao neprikosnoveni prvi čovek Srbije nametnuo Slobodan Milošević, od 1986. predsednik CK SK Srbije i do tada bliski saradnik Ivana Stambolića. Slično se i u Sloveniji, Hrvatskoj i drugim republikama pomerao centar gravitacije ka temama nacionalnog identiteta i ekonomske samostalnosti. Tačno je: jedan deo savezne elite još je verovao u reformu zajedničke države, premijer Ante Marković će krajem decenije pokušati ozbiljan ekonomski preokret. Ali okvir u kome se to dešavalo svake godine je sve više pucao."
       },
       {
         "type": "paragraph",
@@ -19394,7 +19392,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "U isto vreme i druge republike su otvarale svoja nacionalna pitanja. U Sloveniji su se u javnosti pojavili predlozi konfederacije i jačeg odvajanja od saveznog centra; krajem 1989. slovenačka Skupština usvojila je amandmane koji su Sloveniji davali pravo da sama odlučuje o svom statusu u jugoslovenskoj federaciji. U Hrvatskoj je u proleće 1989. osnovana Hrvatska demokratska zajednica Franje Tuđmana, a stranački pluralizam tih meseci bio je samo pitanje vremena. U Bosni i Hercegovini će tokom 1990. nastati stranke organizovane uglavnom po nacionalnoj osnovi. Reč je o talasu koji nigde nije bio izum jedne strane — svuda su se otvarala dugo zatvorena pitanja, svuda su političke elite videle prilike i koristile ih."
+        "text": "U isto vreme i druge republike su otvarale svoja nacionalna pitanja. U Sloveniji su se u javnosti pojavili predlozi konfederacije i jačeg odvajanja od saveznog centra; krajem 1989. slovenačka Skupština usvojila je amandmane koji su Sloveniji davali pravo da sama odlučuje o svom statusu u jugoslovenskoj federaciji. U Hrvatskoj je u junu 1989. osnovana Hrvatska demokratska zajednica Franje Tuđmana, a stranački pluralizam tih meseci bio je samo pitanje vremena. U Bosni i Hercegovini će tokom 1990. nastati stranke organizovane uglavnom po nacionalnoj osnovi. Reč je o talasu koji nigde nije bio izum jedne strane — svuda su se otvarala dugo zatvorena pitanja, svuda su političke elite videle prilike i koristile ih."
       },
       {
         "type": "paragraph",
@@ -19441,11 +19439,11 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Tokom 1990. godine u svih šest republika održani su prvi posleratni višestranački izbori — i svaki put rezultat je išao u prilog nacionalnoj, ne jugoslovenskoj opciji. U Sloveniji su u aprilu i maju pobedili demokratski blok DEMOS i Milan Kučan kao predsednik predsedništva. U Hrvatskoj je u istim mesecima ubedljivu većinu osvojila Hrvatska demokratska zajednica Franje Tuđmana. Makedonija je glasala u novembru, Bosna i Hercegovina takođe — i tu su sva tri vodeća mesta podelile tri nacionalne stranke: muslimanska SDA Alije Izetbegovića, srpska SDS Radovana Karadžića i hrvatski HDZ BiH. U Crnoj Gori je u decembru pobedio reformisani komunistički DPS. U Srbiji je, takođe decembra, Socijalistička partija Srbije Slobodana Miloševića osvojila vlast pošto su prethodno usvojeni ustavni amandmani koji su znatno ojačali predsedničke nadležnosti i ukinuli stvarnu autonomiju Kosova i Vojvodine."
+        "text": "Tokom 1990. godine u svih šest republika održani su prvi posleratni višestranački izbori — i svaki put rezultat je išao u prilog nacionalnoj, ne jugoslovenskoj opciji. U Sloveniji su u aprilu i maju pobedili demokratski blok DEMOS i Milan Kučan kao predsednik predsedništva. U Hrvatskoj je u istim mesecima ubedljivu većinu osvojila Hrvatska demokratska zajednica Franje Tuđmana. Makedonija je glasala u novembru, Bosna i Hercegovina takođe — i tu su sva tri vodeća mesta podelile tri nacionalne stranke: muslimanska SDA Alije Izetbegovića, srpska SDS Radovana Karadžića i hrvatski HDZ BiH. U Crnoj Gori je u decembru pobedio reformisani Savez komunista Crne Gore (od juna 1991. DPS). U Srbiji je, takođe decembra, Socijalistička partija Srbije Slobodana Miloševića osvojila vlast pošto je u septembru 1990. usvojen novi Ustav Srbije, koji je uveo neposredno biranog predsednika sa jakim ovlašćenjima i potvrdio ukidanje stvarne autonomije Kosova i Vojvodine."
       },
       {
         "type": "paragraph",
-        "text": "Pravac kojim će zemlja krenuti dodatno je određen u Sloveniji 23. decembra 1990, kada je na referendumu o nezavisnosti osamdeset osam odsto izašlih građana glasalo za izlazak iz Jugoslavije, ako se za šest meseci ne postigne dogovor o novom uređenju. Slovenačko i hrvatsko rukovodstvo počeli su otvoreno da pripremaju proglašenje samostalnosti za 25. jun 1991. U isto vreme, u Hrvatskoj su nove ustavne odredbe sredinom 1990. godine srpsku manjinu — oko dvanaest odsto stanovništva — iz „konstitutivnog naroda” spustile na status manjine, što je u uslovima rasta nacionalne retorike na obe strane bilo dočekano kao opasan znak. Već u avgustu 1990. u Kninu i okolnim opštinama, u onome što će ostati upamćeno kao „balvan-revolucija”, srpsko stanovništvo počelo je da podiže barikade i da proglašava sopstvene autonomne oblasti pod vodstvom SDS-a."
+        "text": "Pravac kojim će zemlja krenuti dodatno je određen u Sloveniji 23. decembra 1990, kada je na referendumu o nezavisnosti za izlazak iz Jugoslavije glasalo 88,5 odsto svih upisanih birača (oko 95 odsto izašlih), ako se za šest meseci ne postigne dogovor o novom uređenju. Slovenačko i hrvatsko rukovodstvo počeli su otvoreno da pripremaju proglašenje samostalnosti za 25. jun 1991. U isto vreme, u Hrvatskoj su nove ustavne odredbe — konačno Ustav od 22. decembra 1990, koji Hrvatsku određuje kao nacionalnu državu hrvatskog naroda — Srbe, oko dvanaest odsto stanovništva, iz „konstitutivnog naroda” spustile na status manjine, što je u uslovima rasta nacionalne retorike na obe strane bilo dočekano kao opasan znak. Već u avgustu 1990. u Kninu i okolnim opštinama, u onome što će ostati upamćeno kao „balvan-revolucija”, srpsko stanovništvo počelo je da podiže barikade i da proglašava sopstvene autonomne oblasti pod vodstvom SDS-a."
       },
       {
         "type": "paragraph",

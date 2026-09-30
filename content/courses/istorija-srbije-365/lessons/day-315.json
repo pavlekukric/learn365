@@ -6,8 +6,8 @@
   "dayNumber": 315,
   "order": 13,
   "title": "Beograd između dva rata",
-  "subtitle": "Kako je razoreni balkanski grad od 120.000 stanovnika za dve decenije postao jugoslovenska prestonica od 320.000 ljudi",
-  "year": 1930,
+  "subtitle": "Kako je razoreni balkanski grad od manje od 100.000 stanovnika za dve decenije postao prestonica od 320.000 ljudi",
+  "year": 1935,
   "dateLabel": "1918–1941.",
   "timelinePosition": "1918–1941.",
   "summary": "Beograd između 1918. i 1941. — od razrušenog graničnog grada do prestonice Jugoslavije, sa modernim središtem, novom arhitekturom, ali i siromašnim periferijama koje su rasle uporedo sa svečanim Terazijama.",
@@ -17,7 +17,7 @@
     {
       "type": "paragraph",
       "dropcap": true,
-      "text": "Beograd koji je u jesen 1918. dočekao kraj rata bio je grad rana. Posle dve austrougarske okupacije, dugih bombardovanja sa Save i Dunava i hiljada izbeglica koje su se kroz njega vukle u oba pravca, ostalo je svega oko 120.000 stanovnika u gradu koji je u značajnim delovima i dalje izgledao osmansko-balkanski — niske kuće, kaldrmisane uličice, dvorišta sa bunarima, ravne ćeramidne strehe. Dvadeset i tri godine kasnije, u proleće 1941, taj isti grad imao je oko 320.000 stanovnika, savremen diplomatski kvart, monumentalne državne palate, tramvaje, autobuse, prve semafore i radio stanicu. Bio je prestonica zemlje od preko petnaest miliona ljudi. Malo koji evropski grad se u međuratnim decenijama tako vidno promenio za tako kratko vreme."
+      "text": "Beograd koji je u jesen 1918. dočekao kraj rata bio je grad rana. Posle dve austrougarske okupacije, dugih bombardovanja sa Save i Dunava i hiljada izbeglica koje su se kroz njega vukle u oba pravca, ostalo je manje od 100.000 stanovnika u gradu koji je u značajnim delovima i dalje izgledao osmansko-balkanski — niske kuće, kaldrmisane uličice, dvorišta sa bunarima, ravne ćeramidne strehe. Dvadeset i tri godine kasnije, u proleće 1941, taj isti grad imao je oko 320.000 stanovnika, savremen diplomatski kvart, monumentalne državne palate, tramvaje, autobuse, prve semafore i radio stanicu. Bio je prestonica zemlje od preko petnaest miliona ljudi. Malo koji evropski grad se u međuratnim decenijama tako vidno promenio za tako kratko vreme."
     },
     {
       "type": "paragraph",
@@ -29,7 +29,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Saobraćaj se menjao još brže. Tramvajska mreža, nasleđena iz predratnog Beograda, proširena je novim linijama; pojavili su se prvi autobusi, taksi vozila i znatno veći broj privatnih automobila. Most kralja Aleksandra, otvoren 1934. preko Save — danas poznat kao Brankov most — prvi je put Stari grad povezao sa Zemunom čvrstom drumskom vezom, što je bio uslov svakog daljeg rasta. Prvi semafori upalili su se na raskršćima u središtu grada krajem decenije, oko 1939. Beograd je dobio i vazduhoplovni saobraćaj: civilni aerodrom na Banjičkom polju otvoren je 1927, a 1936. preseljen je na bolju lokaciju u Zemunu, gde su počele da sleću linije iz Pariza, Beča i Bukurešta."
+      "text": "Saobraćaj se menjao još brže. Tramvajska mreža, nasleđena iz predratnog Beograda, proširena je novim linijama; pojavili su se prvi autobusi, taksi vozila i znatno veći broj privatnih automobila. Most kralja Aleksandra, otvoren 1934. preko Save — srušen 1941; na njegovim stubovima 1956. podignut je današnji Brankov most — prvi je put Stari grad povezao sa Zemunom čvrstom drumskom vezom, što je bio uslov svakog daljeg rasta. Prvi semafori upalili su se na raskršćima u središtu grada krajem decenije, oko 1939. Beograd je dobio i vazduhoplovni saobraćaj: civilni aerodrom otvoren je marta 1927. na Dojnom polju kod Bežanijske kose, južno od Zemuna; 1931. dobio je modernu zgradu, a 1936. opremu za sletanje pri slaboj vidljivosti. Na njega su sletale linije iz Pariza, Beča i Bukurešta."
     },
     {
       "type": "heading",

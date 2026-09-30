@@ -1,0 +1,674 @@
+# Činjenični review — Era VII: Balkanski ratovi, svetski ratovi i Jugoslavija
+
+**Kurs:** Istorija Srbije 365 · **Era:** `jugoslavija-i-20-vek` · **Lekcije:** Day 281–340
+**Datum:** 2026-09-30 · **Metod:** v2 — delovi od ≤ 8 lekcija, obavezan prolaz obaranja za nalaze srednje sigurnosti, provera doslednosti cele ere, zadati spisak izvora.
+**Status:** ispravke primenjene u istom PR-u; `lastReviewedAt` nije diran.
+
+## Zbir
+
+| | Broj |
+|---|---|
+| Pregledane lekcije | 60 |
+| Lekcije bez nalaza | 5 (283, 287, 290, 329, 336) |
+| **Greške** | **92** |
+| **Sumnjivo** | **40** |
+| Sporno — ograda preporučena / nije | 14 / 48 |
+
+Brojevi uključuju i nalaze provere doslednosti, koji se delom poklapaju sa nalazima po lekcijama.
+
+## Top 10 nalaza
+
+| # | Lekcija | Nalaz | Sigurnost |
+|---|---|---|---|
+| 1 | Day 288, 293, 324 | Kalibracija: sva tri ranije nađena propusta su i dalje bila u tekstu i sada su uhvaćena — „Prva dvojica” (ne „Prva tri”), Beograd oslobođen 15. decembra 1914, Valjevo palo 15. novembra, austrougarski gubici znatno veći; Specijalna policija je bila srpska (Uprava grada Beograda), ne „nemačka”. | visoka |
+| 2 | Day 301, 293 | Beograd je oslobođen 1. novembra 1918 (ušla Bojovićeva Prva armija; kralj se vratio tek 1919), a prvi put bombardovan u noći 28/29. jula 1914. | visoka |
+| 3 | Day 297, 300 | Francuski komandant je Gijoma (ne „Adolf Giro”); Franše d'Epere preuzima komandu u junu 1918; Kajmakčalan zauzima Treća armija. | visoka |
+| 4 | Day 281, 282, 285 | Srpsko-bugarski ugovor 1912. potpisao je Milovan Milovanović (Pašić postaje premijer u septembru); linija Enos–Midija nije „20 km od Carigrada”; na Bregalnici su bile Prva i Treća armija. | visoka |
+| 5 | Day 294 | Lekari „Aleksandar Hardi” i „Vladimir Šćepanović” nisu potvrđeni ni u jednom izvoru — uklonjeni; američku misiju vodio je Richard Strong. | visoka |
+| 6 | Day 305, 306, 308, 309 | Krfska deklaracija traži kvalifikovanu većinu; Obznana je 29. decembra 1920; Pašić umire 10. decembra 1926; 20. jun 1928. nije Vidovdan ni po jednom kalendaru; banovina je bilo devet (Dravska izostavljena). | visoka |
+| 7 | Day 311, 312, 313 | Atentator u Marselju: Veličko Dimitrov Kerin; presuda u Eksu februara 1936; Ivo Perović je bio pravnik i ban, ne vojnik; „večno prijateljstvo” 1937. sa Bugarskom; Ljubljana i Sarajevo 1931. ispod 100.000; „Mihail Avramović” nije potvrđen — uklonjen. | visoka |
+| 8 | Day 318, 321, 322 | 6. april 1941. nije pravoslavna Cveti (bila je 13. aprila); Mađarska je bila saveznik Osovine, ne okupirana; sastanak Tito–Mihailović u Struganiku, septembar–oktobar 1941. | visoka |
+| 9 | Day 326, 327, 330, 331 | Teheran i Jajce su istovremeni; Sremski front probijen 12. aprila 1945; FNRJ proglašena 29. novembra 1945 („Federativna”); KPJ je pozvana u Bukurešt i odbila; Crvena armija je učestvovala u oslobođenju Beograda. | visoka |
+| 10 | Day 335, 337, 338 | Beograd 1973: prvo Svetsko prvenstvo u vodenim sportovima (ne Univerzijada); 4. maj 1980: Poljud u Splitu, nedelja; „Knjiga o Milutinu” je delo Danka Popovića. | visoka |
+
+## Napomene o pouzdanosti
+
+- Brojevi žrtava (Prvi i Drugi svetski rat, Jasenovac, Kragujevac, Jevreji, Romi, Goli otok, Užice 1941) nigde nisu menjani na jedan broj bez institucionalnog izvora — gde se lekcije razilaze, usklađeni su na raspon sa imenovanim izvorom (Kočović / Žerjavić, USHMM, JUSP Jasenovac).
+- Nekoliko imena nije potvrđeno ni u jednom izvoru („Adolf Giro”, „Aleksandar Hardi”, „Vladimir Šćepanović”, „Mihail Avramović”, „Pacijaroti” u eri VIII) — ispravljeni na potvrđeno ime ili uklonjeni.
+- Srbija koristi julijanski kalendar do 1919; datumi su usklađeni sa oznakom stila.
+- **⚠** u koloni izvora znači da je kao izvor nađen samo enciklopedijski pregled (Wikipedia); takav nalaz je najviše „sumnjivo" osim ako ga ne potvrđuje i drugi izvor.
+
+---
+
+# Nalazi po lekcijama
+
+## Balkanski ratovi (281–287)
+
+# Era VII — chunk 1 (Days 281–287, Balkanski ratovi 1912–1913)
+
+### Day 281 — Balkanski savez 1912.
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Sa srpske strane potpisao ga je Nikola Pašić, predsednik vlade i ministar inostranih dela” | greška | visoka | „Sa srpske strane potpisao ga je Milovan Milovanović, predsednik vlade i ministar inostranih dela” (Pašić postaje predsednik vlade tek u septembru 1912) | Wikisource, tekst ugovora (potpisuju vladari i ministri inostranih dela): https://en.wikisource.org/wiki/Treaty_Of_Friendship_And_Alliance_Between_Bulgaria_And_Serbia ; ResearchGate, „Pašić and Milovanović in the negotiations for the conclusion of the Balkan alliance of 1912”: https://www.researchgate.net/publication/276307239 ; https://en.wikipedia.org/wiki/Milovan_Milovanovi%C4%87 (pokazivač) |
+| 2 | „Sa kraljem Petrom I koji je … ostavljao operativno vođenje Pašiću, Srbija je u to leto…” | greška | srednja | „…ostavljao operativno vođenje vladi…” (leto 1912: Milovanović do smrti početkom jula, zatim Marko Trifković; Pašić od septembra) | isto kao #1 |
+| 3 | „sporna zona, oblast oko Skoplja, Kumanova, Velesa i južno odatle” | greška | srednja | „sporna zona, oblast oko Skoplja, Kumanova, Debra i Struge, severno od linije Kriva Palanka–Ohrid; južno od te linije sve je pripadalo Bugarskoj” (lekcija ovde protivreči i Danu 285, koji tačno kaže da je „veći deo” obećan Bugarskoj) | ⚠ Tajni aneks, Wikisource (link #1): linija od Golem vrha (sev. od Kriva Palanke) do Ohridskog jezera, Srbija se odriče svega „s one strane” linije; https://en.wikipedia.org/wiki/Second_Balkan_War (pokazivač) |
+| 4 | „Javni deo ugovora bio je odbrambeni” | sumnjivo | srednja | „Osnovni tekst ugovora — i sam poverljiv — bio je odbrambeni” (čl. 7: ugovor se ne objavljuje niti saopštava drugima bez saglasnosti) | Wikisource, tekst ugovora (link #1) |
+| 5 | „srpsko-crnogorski sporazum, zaključen tokom leta 1912. godine” | sumnjivo | srednja | „zaključen početkom jeseni 1912. (23. septembra / 6. oktobra)” | „The Failure of the Balkan Alliance of 1912” (scispace PDF): https://scispace.com/pdf/the-failure-of-the-balkan-alliance-of-1912-3wo8zp8rzr.pdf ; feljton „Novi krajevi Srbije (2): Saveznički sporazum Srbije i Crne Gore”, Dan: https://www.dan.co.me/vijesti/feljton/novi-krajevi-srbije-1912-1915-2-saveznicki-sporazum-srbije-i-crne-gore-5147213/ |
+| 6 | „Crna Gora … jedina kraljevina sa pravoslavnom dinastijom koja je već imala neposrednu granicu sa Osmanlijama” | sumnjivo | srednja | Izbaciti odredbu, ili: „Crna Gora, najmanja članica budućeg saveza, kraljevina od 1910, ušla je…” (sve četiri članice su se graničile sa Osmanskim carstvom) | geografija 1912; Leksikon CANU, „Crna Gora u balkanskim ratovima”: https://leks.canu.ac.me/web/ldcg.php?OID=2502 |
+| 7 | keyPeople: „knez Nikola Petrović” | greška | visoka | „kralj Nikola I Petrović” (kralj od 1910; Dan 282 ga tačno zove kraljem) | https://leks.canu.ac.me/web/ldcg.php?OID=2502 |
+
+### Day 282 — Prvi balkanski rat
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „zapadno od linije Enos–Midija, na dvadesetak kilometara od Carigrada” | greška | visoka | „zapadno od linije Enos–Midija, koja je od Carigrada bila udaljena stotinak i više kilometara” (Midija/Kıyıköy je oko 100 km, Enos/Enez oko 200 km od Carigrada; „tridesetak km” važi za Čataldžu, ne za Enos–Midiju) | https://en.wikipedia.org/wiki/Treaty_of_London_(1913) (pokazivač; granica Enez–Kıyıköy) ; Hansard, „The Enos-Midia frontier” (23. 7. 1913): https://api.parliament.uk/historic-hansard/lords/1913/jul/23/the-enos-midia-frontier ; geografija |
+
+### Day 283 — Kumanovska bitka
+ok — bez nalaza.
+
+### Day 284 — Oslobođenje Stare Srbije i Makedonije
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Tamo se 16, 17. i 18. novembra vodila teška, dvodnevna bitka” | greška | visoka | „Tamo se od 16. do 19. novembra vodila teška, višednevna bitka” (tri–četiri datuma nazvana „dvodnevnom”; lekcija protivreči sama sebi) | Srpska enciklopedija, „Битољска битка”: http://srpskaenciklopedija.org/doku.php?id=битољска_битка ; https://sr.wikipedia.org/sr-el/Битољска_битка (pokazivač) |
+| 2 | „Treća armija … U razmaku od nekoliko nedelja oslobođeni su Prizren, Peć i Đakovica” | greška | srednja | „…oslobođen je Prizren, dok su Peć (30. oktobra) zauzele crnogorske jedinice, a Đakovicu (4. novembra) crnogorska i srpska vojska zajedno” | SPC Kotor, „30. oktobra 1912. crnogorska vojska oslobodila Peć”: https://www.spckotor.com/en/news/on-this-day-october-30-1912-the-montenegrin-army-liberated-pec/ ; Leksikon CANU: https://leks.canu.ac.me/web/ldcg.php?OID=2502 |
+| 3 | „kosovskom vilajetu i delu metohijskog” | sumnjivo | srednja | „kosovskom vilajetu, sa Metohijom” (nije postojao „metohijski vilajet”; Metohija je bila deo Kosovskog vilajeta) | https://en.wikipedia.org/wiki/Kosovo_vilayet (⚠ samo Wikipedia) |
+
+### Day 285 — Drugi balkanski rat
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „srpska Druga armija, pod komandom generala Stepe Stepanovića, brzo se sabrala i krenula u protivnapad. Borbe na Bregalnici…” | greška | srednja | „srpska Prva armija prestolonaslednika Aleksandra i Treća armija generala Božidara Jankovića brzo su se sabrale i krenule u protivnapad” (Stepanovićeva Druga armija branila je pravac Pirot–Niš; u keyPeople Stepu zameniti Petrom Bojovićem ili Božidarom Jankovićem) | https://sr.wikipedia.org/sr-el/Брегалничка_битка (pokazivač; „učestvovale 1. i 3. armija”, lit. S. Skoko) ; Koreni, „Bregalnička bitka”: https://www.koreni.rs/bregalnicka-bitka-najkrvaviji-boj-srpske-vojske/ ; https://en.wikipedia.org/wiki/Battle_of_Pirot_(1913) (pokazivač) |
+
+### Day 286 — Bukureštanski mir 1913.
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Rumunija je bez objave rata prešla Dunav” | greška | visoka | „Rumunija je objavila rat (10. jula) i prešla Dunav” (Dan 285 tačno kaže da je rat objavljen 10. jula — unutrašnja protivrečnost) | https://en.wikipedia.org/wiki/Southern_Dobruja_Offensive (pokazivač) ; Hellenic Army History Directorate, „Treaty of Bucharest. The role of Romania”: https://stelexi.army.gr/wp-content/uploads/2022/10/treaty_of_bucharest_the_role_of_romania_in_the_end_of_balkan_warii.pdf |
+| 2 | „Crna Gora je dobila proširenja u Metohiji i Sandžaku, koja su, zajedno sa srpskim, dovršila podelu…” (u okviru opisa Bukureštanskog ugovora) | greška | srednja | „Proširenja Crne Gore u Metohiji i Sandžaku utvrđena su posebnim srpsko-crnogorskim sporazumom o razgraničenju od 12. novembra 1913.” (Bukureštanski ugovor određuje bugarske granice) | Montenegrina, B. Borilović, „Razgraničenje Crne Gore i Srbije 1913.”: https://www.montenegrina.net/pages/pages1/istorija/dokumenti/razgranicenje_cg_i_srbije1913.html ; Leksikon CANU, „Granice Crne Gore”: https://leks.canu.ac.me/web/ldcg.php?OID=4096 |
+| 3 | „Stanovništvo je sa nekih dva i po miliona naraslo na blizu četiri i po” | greška | srednja | „sa oko 2,9 miliona naraslo na oko 4,4 miliona” (popis 1910: ~2,91 mil.; Dan 287 već daje „dva i po do tri”) | RTS, „Geostrateški položaj Srbije 1914.”: https://www.rts.rs/page/stories/sr/Velikirat/story/2216/srbija-u-ratu/1653085/geostrateski-polozaj-srbije-1914.-godine.html ; Helsinški odbor, UZB: http://helsinki.org.rs/uzb/theme2.html |
+
+### Day 287 — Srbija posle balkanskih ratova
+ok — bez nalaza.
+
+## Prvi svetski rat I (288–294)
+
+# Era VII — chunk c2 (Days 288–294)
+
+### Day 288 — Sarajevski atentat
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Prva tri nisu reagovala. Tada je Nedeljko Čabrinović bacio bombu" | greška | visoka | „Prva dvojica nisu reagovala." (pre Čabrinovića stajali su Muhamed Mehmedbašić i Vaso Čubrilović) | Open University / OpenLearn „The assassination of Franz Ferdinand"; New World Encyclopedia; V. Dedijer, *Sarajevo 1914* (redosled zaverenika na Apelovom keju) |
+| 2 | „vozač prvog automobila skrenuo je u sporednu Franc Jozefovu ulicu … General Oskar Poćorek mu je doviknuo da je pogrešno skrenuo. Vozač je zakočio i počeo da unazad izvodi automobil" | greška | srednja | „vozač prvog automobila skrenuo je u sporednu Franc Jozefovu ulicu — po starom rasporedu — a za njim i vozač prestolonaslednikovog automobila. General Oskar Poćorek, koji je sedeo u tom automobilu, doviknuo mu je da je pogrešno skrenuo." (Poćorek je vikao Leopoldu Lojki, vozaču nadvojvodinog auta, koji je potom stao i krenuo unazad.) Uz to: „pred radnjom Morica Šilera" umesto „pred kafanom" (bila je delikatesna radnja). | History.com „How a Wrong Turn Started World War I"; Smithsonian Magazine (Gräf & Stift, vozač Lojka); ⚠ Wikipedia „Leopold Lojka" samo kao pokazivač |
+
+### Day 289 — Julska kriza
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „sa vojskom koja se još nije oporavila i koleri koja je tokom proleća kosila po južnim krajevima" | sumnjivo | srednja | Velika epidemija kolere bila je u leto 1913, u Drugom balkanskom ratu; za proleće 1914. izvor nije nađen. Predlog: „…i posle kolere koja je u leto 1913. kosila vojsku" — ili izbaciti. | hrcak.srce.hr i croris.hr (kolera na Balkanu jula 1913); za proleće 1914. izvor nije nađen |
+
+### Day 290 — Austrougarski ultimatum
+ok — bez nalaza.
+
+### Day 291 — Početak Prvog svetskog rata
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Pogođena je „Tabačka” kasarna i okolne zgrade u nizini grada, blizu ušća Save u Dunav." | sumnjivo | srednja | Nađeni izvori kažu da su prve granate pale na kasarne u Donjem gradu Beogradske tvrđave; „Tabačka kasarna" nije potvrđena. Predlog: „Pogođene su kasarne u Donjem gradu Beogradske tvrđave, blizu ušća Save u Dunav." | RTS „Duga istorija broda Bodrog"; Politika „Brod iz koga je 1914. počeo napad na Beograd"; serbia.com „The first night of the Great War" — za „Tabačku" izvor nije nađen |
+
+### Day 292 — Cerska bitka
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Do 19. avgusta veći deo Poćorekovih snaga povukao se preko Drine i Save … Šabac, koji su Austro-Ugari kratko držali, ponovo je bio u srpskim rukama." | greška | srednja | Povlačenje preko Drine bilo je 19–20. avgusta, a Šabac je oslobođen tek 24. avgusta, posle borbi na mostobranu. Predlog: „…Šabac, koji su Austro-Ugari kratko držali, oslobođen je 24. avgusta." | Politika „Bitka na Ceru – pobeda koja je proslavila srpsku vojsku"; Glas Podrinja (110 godina od Cerske bitke); ⚠ sr.wikipedia „Cerska bitka" |
+
+### Day 293 — Kolubarska bitka
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Početkom novembra napušteno je Valjevo" | greška | srednja | „Sredinom novembra (15. novembra) napušteno je Valjevo" | mod.gov.rs „Kolubarska bitka" (povlačenje od 8. novembra); sr.wikipedia „Austrougarska okupacija Srbije" (Valjevo 15. novembra) |
+| 2 | „Linija fronta povukla se na Kolubaru i njene pritoke — Ljig, Maljen, padine Suvobora" | greška | srednja | Maljen je planina, a ne pritoka. Predlog: „…na Kolubaru i Ljig, do padina Maljena i Suvobora" | opšta geografija (Maljen — planina u zapadnoj Srbiji) |
+| 3 | „Do petnaestog decembra cela srpska teritorija bila je oslobođena. Sutradan, šesnaestog decembra, srpska vojska ponovo je ušla u Beograd; kralj Petar I obišao je oslobođeni grad nešto kasnije." | greška | visoka | „Petnaestog decembra srpska vojska ponovo je ušla u Beograd, a time je cela srpska teritorija bila oslobođena. Sutradan, 16. decembra, u oslobođeni grad ušao je i kralj Petar I." | mod.gov.rs „Kolubarska bitka" („do 15. decembra"); Wikipedia „Battle of Kolubara" (Beograd 15. decembra); 24sedam.rs „Dan oslobođenja Beograda u Prvom svetskom ratu" (kralj 16. decembra) |
+| 4 | „Procenjuje se da je njena vojska imala preko pedeset hiljada poginulih i ranjenih, a u srpskim rukama ostalo je više od sedamdeset hiljada zarobljenika" | greška | srednja | Brojka je doslovno tačna („preko"), ali mnogostruko potcenjuje gubitke. Uobičajene procene: oko 28–30 hiljada poginulih i više od 120 hiljada ranjenih; zarobljenih oko 60–76 hiljada; MO RS navodi da je Balkanska vojska izgubila „dve trećine svog sastava". Predlog: „…imala je oko trideset hiljada poginulih i više od sto hiljada ranjenih, a u srpskim rukama ostalo je šezdeset do sedamdeset hiljada zarobljenika, mada se brojevi po izvorima razlikuju…" | mod.gov.rs „Kolubarska bitka" (~60.000 zarobljenika, gubitak 2/3 sastava); ⚠ Wikipedia „Battle of Kolubara" (30.000 poginulih, 173.000 ranjenih, 70.000 zarobljenih) |
+
+### Day 294 — Srbija 1915.
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Pegavi tifus je odneo desetine hiljada pre nego što je ispaljen prvi metak nove ofanzive." | greška (unutrašnja nedoslednost) | visoka | U istoj lekciji piše „između sto i dvesta hiljada mrtvih". Predlog: „Pegavi tifus je odneo više od sto hiljada života pre nego što je…" | sama lekcija (2. pasus); Politika „Sto godina od epidemije pegavca u Srbiji" (~150.000); sr.wikipedia „Epidemija tifusa u Srbiji 1914—1915." (Hanter: 135–150 hiljada) |
+| 2 | „Tako se završava prva godina rata za Srbiju" | greška | srednja | Kraj 1915. je kraj druge ratne godine (rat je počeo jula 1914). Predlog: „Tako se završava prva faza rata za Srbiju" | hronologija same lekcije i Days 291–293 |
+| 3 | „Posle pobede na Kolubari Srbija je 1915. dobila pet meseci predaha" (sažetak; ponovljeno u tekstu) | sumnjivo | srednja | Front je mirovao od sredine decembra 1914. do 6. oktobra 1915, desetak meseci. Ako se misli na period posle tifusa (maj–oktobar), treba to reći. Predlog: „…dobila je desetak meseci predaha, ali ih je dočekala u epidemiji…" | datumi iz same lekcije i Day 293 (15. decembar 1914 → 6/7. oktobar 1915) |
+| 4 | „škotska lekarka Eleonor Soltau u Kragujevcu" | sumnjivo | srednja | Soltau je bila Engleskinja (rođena u Romfordu, Eseks) i vodila je prvu jedinicu Škotskih ženskih bolnica. Predlog: „britanska lekarka Eleonor Soltau, na čelu Škotske ženske bolnice u Kragujevcu" | IWM Lives of the First World War (SWH Kragujevac); Historic Environment Scotland blog; ⚠ Wikipedia „Eleanor Soltau" (za mesto rođenja samo Wikipedia) |
+| 5 | „i američki lekar Aleksandar Hardi" | sumnjivo | srednja | Američki lekar „Aleksandar Hardi" nije pronađen; američku sanitetsku misiju 1915. vodio je epidemiolog Ričard Strong (Harvard, Američki Crveni krst / Rokfelerova fondacija). Predlog: „i američki epidemiolog Ričard Strong" | Politika „Američka misija i epidemija tifusa u Srbiji 1915."; M. Pisarri, „The Typhus Epidemic in Serbia in 1915: The Role of Dr Richard Strong", Acta historiae medicinae… (2018) — za „Hardija" izvor nije nađen |
+| 6 | „Domaću stranu nosili su, među ostalima, vojni hirurg Roman Sondermajer i fiziolog Vladimir Šćepanović." | sumnjivo | srednja | „Vladimir Šćepanović" nije pronađen ni u jednom izvoru o epidemiji. Sondermajer je u redu. Predlog: zameniti potvrđenim imenom, npr. „…i načelnik saniteta Vrhovne komande pukovnik dr Lazar Genčić" — ili samo izbaciti drugo ime. | sr.wikipedia „Epidemija tifusa u Srbiji 1914—1915." (Genčić, Buli, Karanović); izvor za Šćepanovića nije nađen |
+
+## Prvi svetski rat II (295–302)
+
+# Era VII — dani 295–302 (fact-check v2)
+
+### Day 295 — Povlačenje preko Albanije
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „u tri glavna pravca — preko Crne Gore ka Skadru, preko Prizrena i Đakovice takođe ka Skadru, i preko Peći" | greška | srednja | Pravac „preko Peći" i pravac „preko Crne Gore" su isti (Peć–Andrijevica–Podgorica–Skadar); izostavljen je treći, južni pravac (Debar–Elbasan ka Draču). Predlog: „…u tri glavna pravca — preko Peći i Crne Gore ka Skadru, preko Prizrena i Ljum-Kule takođe ka Skadru, i južnije, preko Debra i Elbasana, ka Draču" | Ministarstvo odbrane, „Albanska golgota" (mod.gov.rs/lat/17006) — naređenje Vrhovne komande od 25. 11. 1915: Peć–Andrijevica–Podgorica–Skadar; Đakovica/Prizren–Ljum-Kula–Skadar; Timočka vojska preko Debra i Struge ka Elbasanu |
+
+### Day 296 — Golgota i obnova na Krfu
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Iz njega će, nešto više od godinu dana kasnije, na Solunski front krenuti vojska" | greška | visoka | Vojska je sa Krfa prebačena u Solun april–maj 1916, tri–četiri meseca posle dolaska (lekcija to i sama kaže niže). Predlog: „Iz njega će, već posle nekoliko meseci, na Solunski front krenuti vojska…" | MO, „Srpska vojska na Krfu" (mod.gov.rs/lat/16996): prebacivanje od sredine aprila 1916; RTS „Srbi na Krfu": ukrcavanje 13. 4. – 21. 5. 1916 |
+| 2 | „Od leta 1916. obnovljene srpske jedinice počele su se brodovima prebacivati u Solun" | greška | visoka | „Od sredine aprila 1916. obnovljene srpske jedinice počele su se brodovima prebacivati u Solun; do kraja maja prebačena je glavnina." (usaglasiti i sa Day 295 „u proleće 1916" i Day 297 „u proleće i leto 1916") | isto kao #1 (prevezeno 6.025 oficira i 124.090 vojnika, 13. 4. – 21. 5. 1916) |
+| 3 | „više srpskih vojnika je umrlo u prvim mesecima na Krfu i Vidu nego tokom samog povlačenja preko Albanije" | greška | srednja | Protivreči Day 295 (60.000–100.000+ stradalih u povlačenju) i institucionalnoj proceni od oko 7.000 umrlih na Krfu. Predlog: izbaciti rečenicu ili: „po pojedinim procenama, na Krfu i Vidu umrlo je oko sedam hiljada vojnika — poslednje žrtve albanske golgote." | MO, „Srpska vojska na Krfu" (dr Aleksandar Životić): „na Krfu je umrlo oko 7.000 srpskih vojnika" |
+| 4 | „uz dodatne hiljade civila i nekoliko hiljada austrougarskih zarobljenika" (u broju prevezenih) | sumnjivo | srednja | Zarobljenike (oko 24.000) nije prevozila francuska evakuacija na Krf, nego Italijani iz Valone na ostrvo Azinaru (Sardinija). Predlog: „…uz dodatne hiljade civila; austrougarske zarobljenike, njih oko dvadeset četiri hiljade, Italijani su odvojeno prevezli iz Valone na ostrvo Azinaru." | Life and death of the Austro-Hungarian POWs on Asinara 1915–1916 (academia.edu); 1914-1918-online, „Prisoners of War (Italy)" |
+| 5 | „vojvoda Petar Bojović, dotadašnji komandant Prve armije" | sumnjivo | srednja | Bojović je Prvom armijom komandovao 1914 (ranjen, zamenio ga Mišić); u jesen 1915. nije bio njen komandant. Predlog: „…vojvoda Petar Bojović, komandant Prve armije iz 1914. godine…" | Wikipedia (en) „Petar Bojović" ⚠ samo Wikipedia — kao pokazivač; proveriti u ISN VI |
+
+### Day 297 — Solunski front
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Posle njega komandu je kraće držao general Adolf Giro" | greška | visoka | General se zvao Adolf Gijoma (Marie-Louis-Adolphe Guillaumat), komandovao dec. 1917 – jun 1918. Predlog: „…general Adolf Gijoma…" | Imperial War Museum, „Allied commanders of the Salonika campaign 1915–1918"; Salonika Campaign Society |
+| 2 | „Prva i Druga srpska armija, pod komandom vojvode Petra Bojovića i vojvode Živojina Mišića, krenule su uz strme padine Kajmakčalana" | greška | visoka | 1916. Bojović je bio načelnik štaba Vrhovne komande; Kajmakčalan je napadala Treća armija (Drinska divizija), Prvom armijom komandovao je Miloš Vasić, a od oktobra Mišić, Drugom Stepa Stepanović. Predlog: „Treća srpska armija, sa Drinskom divizijom na čelu, krenula je uz strme padine Kajmakčalana…" | MO, „Bitka na Kajmakčalanu" (mod.gov.rs/lat/16992): Treća armija, Drinska divizija, vrh zauzet 30. 9. 1916; sr.wikipedia „Osvajanje Kajmakčalana" (pokazivač) |
+| 3 | „Posle Kajmakčalana ofanziva se nastavila ka jugozapadu i … dovela do oslobađanja Bitolja" | sumnjivo | srednja | Bitolj leži zapadno/severozapadno od Kajmakčalana, a srpski prodor išao je na sever kroz okuku Crne reke. Predlog: „…ofanziva se nastavila preko okuke Crne reke i u novembru 1916. dovela do oslobađanja Bitolja…" | geografski položaj (Kajmakčalan ≈ 21,8° i. g. d., Bitolj ≈ 21,3° i. g. d., ista geografska širina); izvor o pravcu nije posebno nađen |
+
+### Day 298 — Život u okupiranoj Srbiji
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „dublji uzrok bilo je trogodišnje iskustvo okupacije" (o ustanku u februaru 1917) | greška | visoka | Okupacija je tada trajala oko godinu i po dana (lekcija je sama datira od kraja 1915). Predlog: „…dublji uzrok bilo je iskustvo godinu i po dana okupacije." | unutrašnja protivrečnost lekcije (prvi pasus: „krajem 1915") |
+| 2 | „Nežider, Aršau-Boldogason, Mautauzen, Doboj, Sliven" | greška | srednja | „Aršau-Boldogason" ne postoji; reč je o dva logora — Ašah (Aschach) i Boldogasonj (Frauenkirchen). Predlog: „Nežider, Boldogasonj, Ašah, Mauthauzen, Doboj, Sliven" (i ujednačiti sa Day 302 „Mauthauzena i Boldogasonja") | sr.wikipedia „Austrougarski logori 1914—1918" (pokazivač); RTS, „Od Mauthauzena do Nežidera" (rts.rs/lat/vesti/drustvo/5713944) |
+
+### Day 299 — Krfska deklaracija
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „…i potom napustio Odbor — umro je u martu 1917." (Supilo) | greška | visoka | Supilo je umro 25. septembra 1917. u Londonu. Predlog: „…i potom napustio Odbor — umro je u septembru 1917, dva meseca posle Krfske deklaracije." | Britannica / Hrvatska enciklopedija s. v. Supilo; Muzeji i galerije Konavala (blog.migk.hr, 2023) — 25. 9. 1917, London |
+
+### Day 300 — Proboj Solunskog fronta
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Tek u maju 1918, kada je komandu … preuzeo francuski general Luj Franše d'Epere, krenula je ozbiljna priprema" | greška | visoka | Franše d'Epere je imenovan 6. juna, a u Solun stigao 18. juna 1918 (Day 297 ispravno kaže „od juna 1918"). Planove proboja počeo je da razrađuje već njegov prethodnik Gijoma. Predlog: „Tek u junu 1918, kada je komandu … preuzeo francuski general Luj Franše d'Epere, priprema za proboj — koju je započeo njegov prethodnik Gijoma — dobila je pravi zamah…" | Imperial War Museum (Allied commanders…); Salonika Campaign Society, „Introducing Desperate Frankie"; Wikipedia „Adolphe Guillaumat" (pokazivač) |
+
+### Day 301 — Oslobođenje Srbije 1918.
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Petog novembra 1918. srpske jedinice ušle su u Beograd" (i u podnaslovu i sažetku: „5. novembra") | greška | visoka | Beograd je oslobođen 1. novembra 1918 (Prva armija vojvode Bojovića, prvi ušao 7. pešadijski puk). Ispraviti na „1. novembra" u podnaslovu, sažetku i tekstu. | Tanjug, „Na današnji dan 1918. Beograd je oslobođen"; RTS, „Oslobođenje Beograda u Prvom svetskom ratu…"; Ambasada Francuske u Srbiji, „Pre sto godina oslobođen je Beograd" |
+| 2 | „u prestonicu su, među prvim jedinicama, ulazili kralj Petar I, regent Aleksandar i vojvoda Živojin Mišić. Stari kralj … vraćao se u grad" | greška | visoka | Grad je oslobodila Prva armija pod Bojovićem; kralj Petar vratio se u Beograd tek 1919 (uselio se na Senjak septembra 1919). Predlog: „…u prestonicu je ušla Prva armija vojvode Petra Bojovića, a prvi je u grad umarširao Sedmi pešadijski puk, sastavljen mahom od Beograđana. Stari kralj Petar, bolestan i izmoren izgnanstvom, vratiće se u grad tek naredne godine." | Tanjug i RTS (kao #1); sr.wikipedia „Kuća kralja Petra I" (pokazivač: useljenje 24. 9. 1919) |
+| 3 | „Beograd je u ratu bombardovan već prvog dana, avgusta 1914" | greška | visoka | Prvo granatiranje bilo je u noći 28/29. jula 1914. Predlog: „…bombardovan već prvog dana rata, krajem jula 1914…" | Ministarstvo odbrane, „Odbrana Beograda" (mod.gov.rs/lat/17011); Wikipedia „Bombardment of Belgrade (1914)" (pokazivač) |
+| 4 | „Dvadeset četvrtog novembra Velika narodna skupština … u Novom Sadu izglasala je priključenje" / „Dva dana kasnije, 26. novembra" | greška | visoka | Skupština je odluku donela 25. novembra 1918. Predlog: „Dvadeset petog novembra … Sutradan, 26. novembra, sporna Podgorička skupština…" | RTV, „Godišnjica prisajedinjenja Vojvodine Srbiji 1918"; NSPM hronika; Ravnoplov |
+
+### Day 302 — Cena Prvog svetskog rata
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „To je više od dvadesetog dela stanovništva; po nekim procenama i preko četvrtine." | greška | visoka | 1–1,25 miliona od 4,5 miliona je 22–28 %, dakle više od petine, ne „dvadesetog dela" (5 %). Predlog: „To je više od petine stanovništva; po nekim procenama i preko četvrtine." | unutrašnja računica lekcije |
+| 2 | „Vojska koja je u jesen 1915. krenula preko Albanije imala je oko 400.000 ljudi; na grčku obalu stiglo ih je oko 150.000." | sumnjivo | srednja | Oko 400.000 je procena ukupnog broja ljudi (vojska, civili, zarobljenici) koji su krenuli u povlačenje, ne same vojske; Day 295 za isto navodi 300.000 / 240.000. Vojska je stigla na albansku obalu, a na Krf je prevezeno oko 150.000. Predlog: „U povlačenje preko Albanije krenulo je, po procenama, oko 400.000 ljudi — vojnika, civila i zarobljenika; na Krf je prevezeno oko 150.000 vojnika." (i usaglasiti brojke sa Day 295) | MO, „Albanska golgota" (mod.gov.rs/lat/17006): „u povlačenje krenulo više od 400.000 ljudi" |
+| 3 | „Mostovi preko Save, Dunava, Drine i Morave srušeni su" | sumnjivo | srednja | Predratna Srbija nije imala nijedan most preko Dunava (prvi beogradski, Pančevački, otvoren 1935). Predlog: „Mostovi preko Save, Drine i Morave srušeni su…" | sr.wikipedia „Pančevački most" ⚠ samo Wikipedia (i Telegraf) — ostaje sumnjivo |
+
+## Kraljevina SHS (303–309)
+
+### Day 303 — Stvaranje Kraljevine SHS
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Velika narodna skupština … sastala se 25. novembra u Novom Sadu … **Dan ranije, 26. novembra**, takozvana Podgorička skupština…" | greška (unutrašnja protivrečnost: 26. je dan kasnije, ne ranije) | visoka | „**Dan kasnije, 26. novembra**, takozvana Podgorička skupština…" | Sam tekst lekcije; datum 26. (13. po st. kal.) novembra 1918. za Podgoričku skupštinu je standardan (Leksikon CANU, ISN VI/1) |
+
+### Day 304 — Ujedinjenje 1. decembra 1918.
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | Radić je „upozorio, u rečenici koja će ostati upamćena, da se Hrvatska na ovaj način „gura u sigurni nemir”." | sumnjivo (upamćena rečenica iz govora od 24. 11. 1918. je „Ne srljajte kao guske u maglu"; izraz „sigurni nemir" nije nađen u objavljenom tekstu govora) | srednja | „…upozorio, u rečenici koja će ostati upamćena, da delegati „srljaju kao guske u maglu”." | Hrvatski sabor, „Govor Stjepana Radića 24. studenoga 1918." (sabor.hr); povijest.hr |
+
+### Day 305 — Vidovdanski ustav
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „**Treća** velika sila bila je Hrvatska republikanska seljačka stranka … sa pedesetak mandata … Komunistička partija osvojila je 58 mandata" | greška (unutrašnja protivrečnost: sa 58 mandata KPJ je bila treća, HRSS sa 50 četvrta) | visoka | „**Velika snaga** bila je i Hrvatska republikanska seljačka stranka…" (ili „Četvrta po broju mandata…") | Sam tekst; informator.hr „Vremeplov: Obznana" (KPJ „treća najjača stranka"); Petranović, Istorija Jugoslavije I |
+| 2 | „Krfska deklaracija iz 1917. godine **predviđala je upravo taj prag**" | greška (Krfska deklaracija, tač. 13/14, predviđala je „numerički kvalifikovanu većinu"; poslovnik koji je vlada nametnula uveo je apsolutnu/prostu većinu, i to je jezgro spora) | visoka | „Krfska deklaracija predviđala je „numerički kvalifikovanu većinu”, ali je poslovnik Skupštine uveo prostu većinu, pa su kritičari…" | Leksikon CANU, „Krfska deklaracija" (leks.canu.ac.me); Arhiv Jugoslavije, Leksikon – Vidovdanski ustav; Gligorijević, Parlament i političke stranke 1919–1929 |
+| 3 | Izvor: „Arhiv Jugoslavije — fondovi Ustavotvorne skupštine i **Ministarstva ustavotvornih dela**" | sumnjivo (ministarstvo tog imena nije nađeno; resor se zvao Ministarstvo za Konstituantu i izjednačenje zakona; u spisku fondova AJ do 1945. relevantan je fond 72 Narodna skupština) | srednja | „Arhiv Jugoslavije — fond 72, Narodna skupština Kraljevine Jugoslavije" (ili ukloniti arhivski navod) | arhivyu.rs – Fondovi iz perioda do 1945. |
+
+### Day 306 — Politički život Kraljevine SHS
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Pašić je u međuvremenu pao i kao premijer i u stranci, a **u junu 1926.** i umro" | greška (Pašić je umro 10. decembra 1926) | visoka | „…a **u decembru 1926.** i umro" | Britannica, „Nikola Pašić"; 025.rs / Danas (na današnji dan 10. 12. 1926) |
+| 2 | „Komunistička partija … **već 1921. zabranjena je „Obznanom”** i Zakonom o zaštiti države" | greška (Obznana je doneta 29/30. decembra 1920; Zakon o zaštiti države avgusta 1921) | srednja | „…zabranjena je „Obznanom” krajem 1920. i Zakonom o zaštiti države 1921." | informator.hr, „Vremeplov: Obznana – 29. prosinca 1920."; RTS, „Sto godina Obznane" |
+
+### Day 307 — Nacionalno pitanje i napetosti
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Hrvatska seljačka stranka braće Radić, ubrzo Hrvatska republikanska seljačka stranka" | greška (anahronizam: 1918–1920. stranka se zvala Hrvatska pučka seljačka stranka; ime HSS tek od 1925) | srednja | „Hrvatska pučka seljačka stranka braće Radić, od kraja 1920. Hrvatska republikanska seljačka stranka…" | Hrvatska enciklopedija / Proleksis, „Hrvatska seljačka stranka" |
+| 2 | Korošec će 1928. postati „prvi i, **do kraja Kraljevine**, jedini nesrbin na čelu jugoslovenske vlade" | sumnjivo (Hrvat Ivan Šubašić bio je 1944–1945. predsednik kraljevske vlade u izbeglištvu) | srednja | „…prvi i, do 1941, jedini nesrbin na čelu jugoslovenske vlade." | Biblioteka Znaci, „Ivan Šubašić"; Institut za savremenu istoriju (isi.ac.rs), rad o izbegličkoj vladi 1941–1944 |
+| 3 | „zatvarane su albanske škole **otvarane u osmansko doba**" | sumnjivo (albanske škole koje je Kraljevina zatvarala otvorene su pretežno pod austrougarskom okupacijom 1916–1918; Osmanlije albanske škole uglavnom nisu dopuštale) | srednja | „zatvarane su albanske škole otvorene za vreme austrougarske okupacije 1916–1918" | ⚠ samo Wikipedia (sh.wikipedia „Historija Kosova u 20. vijeku"); izvor iz preporučene liste nije nađen |
+| 4 | „poznata reč o „arnautsko-azijatskoj” upravi" | sumnjivo (izvor nije nađen) | srednja | Proveriti u Radićevim govorima; ako nema potvrde, ukloniti navodnike ili celu odredbu | izvor nije nađen |
+
+### Day 308 — Atentat u skupštini 1928.
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Bila je sreda, 20. jun 1928. godine — **po starom kalendaru Vidovdan**" | greška (Vidovdan je 15. jun po julijanskom = 28. jun po gregorijanskom; 20. jun 1928. bio je 7. jun po starom kalendaru) | visoka | „Bila je sreda, 20. jun 1928. godine — osam dana pred Vidovdan, datum koji…" | Kalendarska računica; Vidovdan (SPC) 28. jun |
+| 2 | „Hrvatska seljačka stranka i njeni saveznici povukli su se … **tako je nastala Seljačko-demokratska koalicija**" | greška (SDK Radića i Pribićevića osnovana je 11. novembra 1927, pre atentata) | visoka | „…povukli su se iz Beograda; Seljačko-demokratska koalicija, stvorena još u jesen 1927, zatražila je temeljnu reviziju…" | Hrvatski obiteljski leksikon, „Seljačko-demokratska koalicija" (hol.lzmk.hr); povijest.hr |
+| 3 | „Račić je odustao od reči, **vratio se ka svom mestu**, izvadio revolver" | sumnjivo (izvori ga opisuju kako puca sa skupštinske govornice) | srednja | „…Račić je, još na govornici, izvadio revolver…" | Latinka Perović, „Ubistvo Radića" (Peščanik, prema listu „Reč"); hr.wikipedia „Atentat u Narodnoj skupštini 1928." |
+| 4 | „Račić je **oboren, zadržan i predat policiji**" | greška (Račić je sam napustio zgradu, odvezao se automobilom i potom se javio ministru unutrašnjih poslova Korošcu, koji ga je uputio Upravi grada) | srednja | „Račić je neometano napustio zgradu i ubrzo se sam javio vlastima; sednica je prekinuta." | L. Perović, „Ubistvo Radića" (Peščanik); en.wikipedia „Puniša Račić" (pointer) |
+
+### Day 309 — Šestojanuarska diktatura
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „devet banovina nazvanih po rekama — Drinska, Vrbaska, Savska, Dunavska, Moravska, Vardarska, Zetska i Primorska" (nabrojano 8) | greška (izostavljena Dravska banovina, sedište Ljubljana; Primorska nije nazvana po reci) | visoka | „devet banovina nazvanih uglavnom po rekama — Dravska, Savska, Vrbaska, Primorska, Drinska, Zetska, Dunavska, Moravska i Vardarska" | informator.hr, „Vremeplov: Zakon o nazivu i podjeli Kraljevine na upravna područja – 3. listopada 1929." |
+| 2 | „**srpska Vojvodina između Dunavske i Drinske**" | greška (Vojvodina je cela ušla u Dunavsku banovinu, zajedno sa severnom Srbijom; Drinska je obuhvatala istočnu Bosnu i zapadnu Srbiju) | visoka | „Vojvodina je sa severnom Srbijom spojena u Dunavsku" | isti zakon (informator.hr); Petranović, Istorija Jugoslavije I |
+| 3 | Kralj je u proglasu objasnio da „**parlamentarizam… više nije u stanju da služi interesima države**” | sumnjivo (navodnici sugerišu doslovan citat, a te reči nisu u proglasu) | srednja | Kralj je u proglasu objasnio da je „nastupio čas kad između Naroda i Kralja ne može i ne sme više biti posrednika”, jer je parlamentarizam postao „smetnja za svaki plodni rad u Državi”. | informator.hr, „Vremeplov: Šestosiječanjska diktatura – 6. siječnja 1929." (tekst proglasa) |
+| 4 | „Stare trideset i tri oblasti, **naslednice nekadašnjih pokrajinskih granica**" | sumnjivo (protivreči Day 305/306, gde se kaže da su oblasti namerno presecale istorijske granice) | srednja | „Dotadašnje trideset tri oblasti zamenjene su…" | Day 306 ove lekcije; Vidovdanski ustav i Uredba o podeli zemlje na oblasti (1922) |
+
+## Kraljevina Jugoslavija (310–316)
+
+# Era VII — dani 310–316 (Kraljevina Jugoslavija 1929–1941)
+
+### Day 310 — Kraljevina Jugoslavija
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Zetska banovina, najpre sa sedištem na Cetinju, obuhvatala je…” | sumnjivo | srednja | „Zetska banovina, sa sedištem na Cetinju, …” (sedište se nije menjalo 1929–1941; „najpre” sugeriše premeštanje) | arte.rs „Zgrada Zetske banovine” (http://www.arte.rs/sr/5551-zgrada_zetske_banovine/); ⚠ inače samo Wikipedia (Zeta Banovina) |
+
+### Day 311 — Ubistvo kralja Aleksandra
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „čije je pravo ime bilo Velički Veličko Kerin” | greška | visoka | „čije je pravo ime bilo Veličko Dimitrov Kerin” | Library of Congress Name Authority n94103700 (Chernozemski, Vlado, 1897–1934); Britannica / en.wikipedia (Vlado Chernozemski) |
+| 2 | „Vladu Černozemskom, Bugarinu makedonskog porekla” | sumnjivo | srednja | „Vladu Černozemskom, Bugarinu rodom iz sela Kamenice (Bugarska), pripadniku VMRO” | LoC authority; rođen u Kamenici kod Pazardžika — ⚠ samo Wikipedia za mesto rođenja |
+| 3 | „izdahnuo je u kolima, pre nego što su stigla do prefekture” | sumnjivo | srednja | „izdahnuo je ubrzo, pošto je automobil stigao do prefekture” (većina prikaza: preminuo nekoliko minuta posle 17 h u zgradi prefekture/policije, ne u kolima) | sh.wikipedia „Marsejski atentat” (pointer); Hrčak, „Kralj Aleksandar I. Karađorđević (1888.–1934.)” https://hrcak.srce.hr/70029 |
+| 4 | „u logorima oko Brešije i na Liparskim ostrvima obučavao naoružane grupe” | greška | srednja | „u logorima u severnoj Italiji (Borgotaro, Bovegno kod Brešije) obučavao naoružane grupe” — na Lipari su ustaše internirane tek posle atentata, oktobra 1934. | F. Jelić-Butić, „Prilog proučavanju djelatnosti ustaša do 1941.”, https://hrcak.srce.hr/file/243214 |
+| 5 | „trojici ustaša … koji su 1935. u Eks-an-Provansu osuđeni na doživotnu robiju” | greška | visoka | „… koji su februara 1936. u Eks-an-Provansu osuđeni…” (presuda 12. 2. 1936) | en.wikipedia Zvonimir Pospišil / es.wikipedia Asesinatos de Marsella (pointer); savremena štampa, Gallica (L'Ouest-Éclair) |
+| 6 | „Pavelić i … Kvaternik … mirno su čekali rasplet u Italiji, koja je odbila da ih izruči” | greška | srednja | „Pavelić i Kvaternik, osuđeni u odsustvu na smrt, bili su u Italiji uhapšeni i zadržani u zatvoru u Torinu do 1936, ali ih Italija nije izručila Francuskoj” | Jelić-Butić (Hrčak 243214); SABA RH „Ante Pavelić” (hapšenje u Torinu 17/18. 10. 1934, pušten marta 1936) |
+| 7 | „Sahrana … godinu dana posle Hitlerovog dolaska na vlast” | greška | visoka | „… godinu i po dana posle Hitlerovog dolaska na vlast” (30. 1. 1933 → 18. 10. 1934) | opšte poznati datumi |
+
+### Day 312 — Namesništvo i knez Pavle
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „lekara dr Radenka Stankovića i vojnika Iva Perovića” | greška | visoka | „… i pravnika Iva Perovića, bana Savske banovine” | Istorijski muzej Srbije, „Dr Ivo Perović, kraljevski namesnik, ban Savske banovine” (kultura.rs); sr.wikipedia Ivo Perović |
+| 2 | „Zagreb je dobio sopstvenu vladu sa banom na čelu, sopstveni sabor …” | greška | srednja | „… sa banom na čelu; predviđen je i sabor, ali izbori za njega do rata nisu održani …” | Hrvatski sabor, „Povijest saborovanja” (sabor.hr); S. Leček, „Samouprava u Hrvatskoj 1918–1941” |
+| 3 | „Godine 1937. potpisan je sporazum o „večnom prijateljstvu” sa Italijom” | greška | srednja | „Godine 1937. potpisan je sporazum o prijateljstvu sa Italijom” („večno prijateljstvo” je pakt sa Bugarskom od 24. 1. 1937) | Vikizvornik, „Sporazum o prijateljstvu (Jugoslavija i Bugarska 1937)”; ISI, M. Žikić „Jugoslavija i Bugarska 1929–1941” |
+| 4 | „jadranskog suseda, koji je deceniju ranije podržavao ustaške emigrante” | sumnjivo | srednja | „… koji je do tada podržavao ustaške emigrante” (Italija ih je držala i pomagala do sporazuma 1937, pa i posle) | Jelić-Butić (Hrčak 243214) |
+| 5 | „Nemačka, koja je kupovala srpsko žito, rumunsku naftu i bosanske rude” | greška | visoka | „… koja je kupovala jugoslovensko žito, stoku, bakar i bosanske rude” (rumunska nafta nije jugoslovenski izvoz) | unutrašnja logika; up. Day 314 („žitarice, bakar, drvo i meso”) |
+
+### Day 313 — Društvo i kultura između dva rata
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „tek je nekoliko drugih centara — Subotica, Ljubljana, Sarajevo — prelazilo granicu od stotinu hiljada duša” | greška | visoka | „… a samo je Subotica prelazila granicu od stotinu hiljada; Sarajevo je imalo oko 78.000, Ljubljana oko 60.000” | Popis 1931, RZS (publikacije.stat.gov.rs/G1931); Subotica 100.058, Sarajevo 78.173, Ljubljana 59.765 |
+| 2 | „među pionirima se pamte Ernest Bošnjak i Mihail Avramović” | sumnjivo | srednja | proveriti ime; verovatno se misli na Mihajla Al. Popovića („S verom u Boga”, 1932) | Bošnjak potvrđen; za „Mihaila Avramovića” izvor nije nađen |
+
+### Day 314 — Privreda Kraljevine Jugoslavije
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „ulaziće u poslednje, najteže godine svoje prve i jedine decenije mira” | sumnjivo | srednja | „… svoje dve decenije mira” (mir je trajao 1918–1941) | unutrašnja logika (dateLabel 1918–1941) |
+
+### Day 315 — Beograd između dva rata
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „ostalo je svega oko 120.000 stanovnika” (1918; i podnaslov „od 120.000”) | sumnjivo | srednja | „ostalo je manje od 100.000 stanovnika” ili navesti popis 1921: „oko 112.000” (1910 ~90.000, 1916 ~48.000, 1921 111.739) | T. Bogavac, „Stanovništvo Beograda 1918–1971” (prikaz, Hrčak 319819); Danas, pregled popisa |
+| 2 | „Most kralja Aleksandra, otvoren 1934. preko Save — danas poznat kao Brankov most” | greška | srednja | „Most kralja Aleksandra, otvoren 1934. preko Save (srušen 1941; na njegovim stubovima 1956. podignut je današnji Brankov most)” | beograd.rs, „Beogradska riznica: … danas poznat kao Brankov”; sr.wikipedia „Most kralja Aleksandra” |
+| 3 | „civilni aerodrom na Banjičkom polju otvoren je 1927, a 1936. preseljen je na bolju lokaciju u Zemunu” | greška | srednja | „civilni aerodrom otvoren je marta 1927. na Dojnom polju kod Bežanijske kose, južno od Zemuna; 1931. dobio je modernu zgradu, a 1936. opremu za sletanje pri slaboj vidljivosti” | Aerodrom Nikola Tesla, „History” (beg.aero/eng/corporate/history); Novosti, „Na Novom Beogradu je do Drugog svetskog rata bio…” |
+
+### Day 316 — Jugoslavija pred Drugim svetskim ratom
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Banovina Hrvatska — autonomna jedinica sa sopstvenim saborom” | greška | srednja | „… sa predviđenim saborom (izbori za njega nisu održani), banom i …” | Hrvatski sabor, „Povijest saborovanja” |
+| 2 | „Sastanci kneza Pavla sa Hitlerom u Berghofu” | sumnjivo | srednja | „Tajni sastanak kneza Pavla sa Hitlerom u Berghofu 4. marta 1941” (jedini u Berghofu; 1939. zvanična poseta Berlinu) | ⚠ samo Wikipedia (Yugoslav accession to the Tripartite Pact); Warfare History Network |
+
+## Drugi svetski rat I (317–322)
+
+# Era VII — provera, dani 317–322
+
+### Day 317 — Pakt i 27. mart 1941.
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Operativni mozak zavere bio je brigadni general Borivoje Mirković, komandant vazduhoplovne baze u Zemunu" | greška | srednja | „…brigadni general Borivoje Mirković, zamenik komandanta Vazduhoplovstva" (puč je izveo sa vazduhoplovnim jedinicama i trupama zemunskog garnizona) | en.wikipedia „Borivoje Mirković" (pokazivač; navodi dužnost 1939–1941 kao zamenik komandanta Vazduhoplovstva) + sh.wikipedia „Vojni puč 27. marta 1941." — ⚠ samo Wikipedia; potvrditi kod Petranovića / ISN VI |
+| 2 | „Cena tog prkosa naplaćena je već dvanaest dana kasnije, bombardovanjem Beograda" | greška | visoka | „…već deset dana kasnije…" (27. mart → 6. april 1941) | računica; datumi potvrđeni u samoj lekciji i u Day 318 |
+
+### Day 318 — Aprilski rat
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „U nedelju 6. aprila 1941. godine, na pravoslavne Cveti" | greška | visoka | „U nedelju 6. aprila 1941. godine, na katoličke Cveti, nedelju dana pred pravoslavne Cveti" ili samo „U nedelju 6. aprila 1941." | Pravoslavni Uskrs 1941. bio je 20. aprila (Cveti 13. aprila); 6. april je bila Cvetna nedelja po gregorijanskom (katoličkom) kalendaru. Danas, „Nemci nas nisu bombardovali na Uskrs" (danas.rs); en.wikipedia „German bombing of Belgrade" (pokazivač); proverljivo računom za julijanski Uskrs |
+| 2 | „probijajući se … i iz pravca Austrije i okupirane Mađarske" | greška | visoka | „…iz pravca Austrije, savezničke Mađarske i Rumunije" | Mađarska 1941. nije bila okupirana — bila je članica Trojnog pakta (od nov. 1940), okupirana je tek marta 1944. USHMM, „Axis Invasion of Yugoslavia" (encyclopedia.ushmm.org) |
+| 3 | „U ime razbijene kraljevske vojske akt je potpisao general Danilo Kalafatović, načelnik štaba Vrhovne komande" | greška | srednja | „U ime razbijene kraljevske vojske, po ovlašćenju generala Danila Kalafatovića, akt su potpisali general Radivoje Janković i bivši ministar inostranih poslova Aleksandar Cincar-Marković." | Kalafatović je ovlastio Jankovića i Cincar-Markovića da potpišu; sa nemačke strane potpisao je general Vajks. en.wikipedia „Danilo Kalafatović", „Radivoje Janković"; RTV „Vremeplov: Kraljevina Jugoslavija potpisala kapitulaciju" (rtv.rs); Tomasevich, *The Chetniks* (1975), gl. 3 |
+
+### Day 319 — Okupacija i podela zemlje
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „U Zagrebu je, samo dva dana posle nemačkog ulaska, 10. aprila 1941. proglašena Nezavisna Država Hrvatska" | greška | srednja | „U Zagrebu je 10. aprila 1941, četiri dana posle početka napada i istog dana kada su nemačke trupe ušle u grad, proglašena…" | Unutrašnja protivrečnost sa Day 318 („još pre nego što su nemačke trupe stigle u grad"); napad počeo 6. aprila, Nemci ušli u Zagreb uveče 10. aprila (Tomasevich, *Occupation and Collaboration*, 2001) |
+| 2 | „Već u maju 1941. obrazovana je takozvana Komesarska uprava na čelu sa Milanom Aćimovićem" | greška | srednja | „Već krajem aprila 1941. (30. aprila) obrazovana je…" | Komesarska uprava obrazovana 30. aprila 1941. — sr/hr.wikipedia „Komesarska uprava Milana Aćimovića", en.wikipedia „Commissioner Government" (pokazivači); Petranović, *Srbija u Drugom svetskom ratu* |
+| 3 | „Naredbom feldmaršala Vilhelma Kajtela iz septembra 1941. propisana je formula … za svakog ubijenog nemačkog vojnika streljati sto, a za svakog ranjenog pedeset talaca" | sumnjivo | srednja | „Na osnovu naredbe feldmaršala Vilhelma Kajtela iz septembra 1941, general Franc Beme je u oktobru propisao formulu … sto za ubijenog, pedeset za ranjenog" | Kajtelova naredba od 16. 9. 1941. propisuje opšti raspon 50–100 talaca za jednog ubijenog; tačna formula 100/50 potiče iz Bemeove naredbe od 10. 10. 1941. Nuremberg Trials Project (Harvard), NMT 7 „Hostage Case", dok. NOKW-458; Manoschek, *„Serbien ist judenfrei"* |
+
+### Day 320 — Ustanak 1941.
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Tito je početkom septembra prešao iz okupiranog Beograda na slobodnu teritoriju u zapadnu Srbiju" | greška | srednja | „…sredinom septembra (16. septembra) prešao…" | Tito napustio Beograd 16. 9. 1941, stigao u Robaje/Stolice 18. 9. — znaci.org, „Otpor i kolaboracija u Srbiji 1941." (178_6.pdf); en.wikipedia „Josip Broz Tito" (pokazivač) |
+| 2 | „Užice je palo 29. novembra 1941; eksplozija u fabrici oružja odnela je više stotina života" | greška | srednja | „…eksplozija u fabrici oružja 22. novembra odnela je oko 120 života" | Eksplozija u trezoru 22. 11. 1941: oko 120 poginulih, 111 poznatih imena (62 civila, 49 radnika) — Danas, „Sećanje na Užičane koji su 1941. stradali u partizanskoj Fabrici oružja i municije"; Informer/Telegraf godišnjice (podaci Narodnog muzeja Užice) |
+
+### Day 321 — Partizanski i četnički pokret
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „na sastancima Mihailovića i Tita u Strugaviku i Brajićima" | greška | visoka | „…u Struganiku i Brajićima" | Selo je Struganik (sastanak 19. 9. 1941), kako tačno piše i Day 320; znaci.org, „Otpor i kolaboracija u Srbiji 1941." |
+| 2 | „Na konferenciji u Teheranu u novembru 1943, savezničke vođe priznale su partizane kao glavnu otpornu snagu u Jugoslaviji" | sumnjivo | srednja | „…savezničke vođe odlučile su da partizane podrže zalihama i opremom u najvećoj mogućoj meri" | Vojni zaključci Teheranske konferencije (1. 12. 1943): „the Partisans in Yugoslavia should be supported by supplies and equipment to the greatest possible extent" — Avalon Project, Yale (avalon.law.yale.edu/wwii/tehran.asp). Formalnog „priznanja" nema; tumačenje je uobičajeno u jugoslovenskoj istoriografiji, pa je nalaz samo „sumnjivo" |
+
+### Day 322 — Građanski rat unutar rata
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Razgovori između Tita i Draže Mihailovića u oktobru i novembru te godine — u Strugovima i Brajićima" | greška | visoka | „Razgovori između Tita i Draže Mihailovića u septembru i oktobru te godine — u Struganiku i Brajićima" | Struganik 19. 9, Brajići 26/27. 10. 1941 (Day 320 to tačno navodi); znaci.org 178_6.pdf; narod.hr, „27. listopada 1941. Brajići" |
+
+## Drugi svetski rat II (323–328)
+
+# Era VII — provera činjenica, dani 323–328
+
+### Day 323 — Stradanje civila i logori
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Ozbiljne savremene procene — koje stoje, među ostalim, iza Memorijalnog muzeja Holokausta u Vašingtonu, Spomen-područja Jasenovac, kao i radova istoričara poput Vladimira Žerjavića i Bogoljuba Kočovića — kreću se otprilike u rasponu od 77.000 do 100.000 žrtava u samom logoru" | greška | srednja | Kočović nije procenjivao broj žrtava samog Jasenovca (tek 1998. pominje 150–200.000 Srba u svim logorima NDH); „…kao i proračuna demografa Vladimira Žerjavića — kreću se…" (izbaciti Kočovića iz ove rečenice). Raspon USHMM je 77.000–99.000. | CroFacta, „Je li Bogoljub Kočović procjenjivao broj jasenovačkih žrtava?" (crofacta.hr); rad o broju žrtava Jasenovca u hrv. i srp. historiografiji, hrcak.srce.hr/file/350228; USHMM Holocaust Encyclopedia, „Jasenovac" |
+| 2 | „Tamo su, od leta 1941, ustaške vlasti sprovodile politiku otvorenog progona Srba, Jevreja i Roma" | sumnjivo | srednja | „od proleća 1941" — rasne odredbe 30. aprila 1941, pokolj u Gudovcu 28. aprila, Glina u maju; logori Gospić/Jadovno pre Jasenovca. | informator.hr, „Rasni zakoni u NDH – 30. travnja 1941"; hr.wikipedia „Ustaški zločini u Drugom svjetskom ratu" (⚠ samo Wikipedia kao pokazivač) |
+| 3 | „logor na Rabu, gde su uslovi, naročito za jevrejske i slovenačke zatočenike, bili teški, sa značajnim brojem umrlih od gladi i bolesti" | greška | srednja | „…gde su uslovi, naročito za slovenačke i hrvatske zatočenike smeštene u šatorima, bili teški, sa oko 1.500 umrlih od gladi i bolesti" (Jevreji su bili u posebnom delu logora, u barakama, pod znatno blažim režimom). | Documenta, „Story of Kampor" (documenta.hr); Encyclopaedia GSR, lema „Rab" (encyclopaedia-gsr.eu) |
+
+### Day 324 — Holokaust u okupiranoj Srbiji
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Bilo je i onih, u nemačkoj specijalnoj policiji i u administraciji kvislinške Vlade narodnog spasa" | greška (NIJE ispravljeno — tekst i dalje glasi „nemačkoj specijalnoj policiji") | visoka | „Bilo je i onih, u Specijalnoj policiji beogradske Uprave grada i u administraciji kvislinške Vlade narodnog spasa" (Specijalna policija bila je srpska kolaboracionistička policija pod nadzorom Gestapoa; imala je poseban odsek za Jevreje). | B. Božović, „Specijalna policija i stradanje Jevreja u okupiranom Beogradu", Zbornik Jevrejskog istorijskog muzeja 8 (jevrejskadigitalnabiblioteka.rs); en.wikipedia „Belgrade Special Police" (pokazivač) |
+| 2 | „U avgustu 1942. nemački komandujući oficir u Srbiji javio je Berlinu … da je u Srbiji jevrejsko i cigansko pitanje rešeno" | greška | srednja | „U avgustu 1942. šef nemačke vojne uprave u Srbiji Harald Turner izvestio je novog vojnog zapovednika Jugoistoka, generala Lera, …" (izveštaj od 29. 8. 1942, nije upućen Berlinu, Turner nije komandujući oficir). | Encyclopaedia GSR, „1942/08/29 – Bericht Harald Turner II (Serbien)" i lema „Harald Turner" (encyclopaedia-gsr.eu) |
+| 3 | „ubijeno između četrnaest i petnaest hiljada Jevreja, što znači da je preživelo svega nekoliko stotina" (uz ranije: „bilo ih je oko sedamnaest hiljada") | sumnjivo (unutrašnja nesaglasnost) | srednja | Brojke u lekciji daju razliku od ~2.000; „…što znači da je preživela tek manjina — oni koji su na vreme pobegli u italijansku zonu, skrivali se, otišli u partizane ili bili zaštićeni mešovitim brakom." | unutrašnja provera; Encyclopaedia GSR / en.wikipedia „The Holocaust in German-occupied Serbia" (pokazivač) |
+| 4 | „ubijeno između dvanaest i petnaest hiljada Roma" | sumnjivo — OSETLJIVO | srednja | „Procene broja ubijenih Roma u istoj okupacionoj zoni veoma se razlikuju — od oko hiljadu do dvanaest hiljada —" (USHMM); v. i Sporno. Takođe u neskladu sa Day 328 (27.000 Roma u celoj Jugoslaviji, većina u NDH). | USHMM, „Genocide of European Roma (Gypsies), 1939–1945": „Estimates range between 1,000 and 12,000"; ista stranica: ~25.000 Roma ubijeno u NDH |
+
+### Day 325 — Neretva i Sutjeska
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Britanske savezničke misije, koje su do tada uglavnom računale na Mihailovićeve četnike, ubrzo posle Sutjeske dolaze u partizanski štab" | greška | visoka | „Britanska misija (kapetan Vilijam Dikin) spustila se u partizanski štab još 28. maja 1943, usred bitke na Sutjesci, a u septembru 1943. stiže i misija Ficroja Mekleina" (Dikin je ranjen u istom bombardovanju kao Tito). | F. W. Deakin, „The Embattled Mountain" (1971); en.wikipedia „Operation Typical" (pokazivač) |
+
+### Day 326 — AVNOJ i temelji nove Jugoslavije
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „nekoliko dana ranije, na konferenciji u Teheranu, vođe velikih savezničkih sila prećutno su priznale partizane … i odlučile da im upućuju pomoć" | greška | visoka | Konferencija u Teheranu trajala je 28. 11 – 1. 12. 1943, istovremeno sa zasedanjem u Jajcu (29–30. 11), a vojni zaključak o pomoći partizanima usvojen je 1. decembra. „Politički trenutak bio je povoljan: savezničke misije već su bile u partizanskom štabu, a upravo tih dana, na konferenciji u Teheranu, vođe velikih sila odlučile su da partizanima upućuju pomoć." | Britannica, „Tehran Conference" (28. 11 – 1. 12. 1943); hrcak.srce.hr/file/223117 (ustaška propaganda o konferenciji Velike trojice 1943) |
+| 2 | „u zgradi predratnog Doma kulture, okupilo se oko sto četrdeset delegata" | sumnjivo | srednja | „u zgradi nekadašnjeg Sokolskog doma, obnovljenoj za tu priliku, okupila su se 142 većnika" (Dom kulture je posleratni naziv). | Muzej II zasjedanja AVNOJ-a Jajce (muzejavnoj.ba); sh.wikipedia „Drugo zasjedanje AVNOJ-a" (pokazivač) |
+
+### Day 327 — Oslobođenje 1944–1945.
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Početkom aprila probijen je Sremski front, oslobođeni su Vukovar i Osijek, a 6. aprila u Sarajevo su ušle jedinice…" | greška | visoka | Sremski front probijen je 12. aprila 1945 (isti dan oslobođen Vukovar, Osijek 14. aprila), dakle posle Sarajeva: „Već 6. aprila u Sarajevo su ušle jedinice Druge i Treće armije, a 12. aprila probijen je Sremski front i oslobođen Vukovar, pa zatim Osijek." | Tanjug, „Na današnji dan probijen Sremski front" (12. 4. 1945); RTS/B92 godišnjice proboja |
+
+### Day 328 — Cena Drugog svetskog rata
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Leskovac je u proleće 1944. teško razoren u savezničkom bombardovanju" | greška | visoka | „Leskovac je 6. septembra 1944. teško razoren u savezničkom bombardovanju" | Narodna biblioteka „Radoje Domanović" Leskovac, „Savezničko bombardovanje Leskovca"; Politika, „Leskovački šesti septembar 1944."; RTS |
+| 2 | „Hrvata je, po istim procenama, stradalo oko 207.000, bosanskih Muslimana oko 86.000, Slovenaca oko 32.000, Crnogoraca oko 20.000. Za Jevreje cifra od oko 57.000 … Roma je stradalo oko 27.000" | sumnjivo | srednja | Brojke su izmešane iz dva izvora (Kočović: Hrvati 207.000, Muslimani 86.000, Slovenci 32.000, Crnogorci 50.000, Jevreji 60.000, Romi 27.000; Žerjavić: 192.000 / 103.000 / 42.000 / 20.000 / 57.000 / 18.000). Predlog: „Hrvata je, po ovim procenama, stradalo oko 190.000–210.000, bosanskih Muslimana 86.000–103.000, Slovenaca 32.000–42.000, Crnogoraca 20.000–50.000; Jevreja oko 57.000–60.000 …; Roma 18.000–27.000". | Kočović 1985 i Žerjavić 1989, tabele po narodnostima, preko hr.wikipedia „Demografski gubici Jugoslavije u Drugom svjetskom ratu" (⚠ samo Wikipedia — proveriti u originalima) |
+
+## Socijalistička Jugoslavija I (329–334)
+
+# Era VII — dani 329–334 (fact-check, c8)
+
+### Day 329 — Dolazak komunista na vlast
+ok — bez nalaza.
+
+(Provereno bez nalaza: oslobođenje Beograda 20. 10. 1944; Beogradski sporazum Tito–Šubašić novembra 1944; vlada od 7. 3. 1945; OZNA 1944 pod Rankovićem; izbori 11. 11. 1945 i „kutija bez liste”; Grolova ostavka pre izbora; proglašenje FNRJ 29. 11. 1945; Ustav 31. 1. 1946; hvatanje Mihailovića marta 1946, suđenje jun–jul, streljanje 17. 7. 1946; rehabilitacija 2015; suđenje Stepincu 1946; agrarna reforma 1945; Zakon o nacionalizaciji decembra 1946.)
+
+### Day 330 — FNRJ — nova država
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Kraljevina Jugoslavija pravno je prestala da postoji; na njeno mesto došla je Demokratska Federativna Jugoslavija, a nedugo zatim, ustavom od 31. januara 1946, dobila je i konačno ime — Federalna Narodna Republika Jugoslavija.” (i u `summary`: „Federalne Narodne Republike Jugoslavije”) | greška | visoka | Ime FNRJ proglašeno je Deklaracijom Ustavotvorne skupštine 29. 11. 1945 (DFJ je naziv od marta 1945, tj. PRE 29. novembra), a zvanični naziv je **Federativna**, ne „Federalna”. Lekcija protivreči i Danu 329. Predlog: „…stari državni okvir nestao je za jednu noć: Demokratska Federativna Jugoslavija postala je Federativna Narodna Republika Jugoslavija, a ustavom od 31. januara 1946. nova država dobila je i pravni okvir.” U `summary`: „Federativne Narodne Republike Jugoslavije”. | Ustav FNRJ 1946, čl. 1 („Federativna Narodna Republika Jugoslavija je savezna narodna država…”), Wikizvornik: https://sr.wikisource.org/sr-el/Ustav_Federativne_Narodne_Republike_Jugoslavije_(1946); Politika, „29. novembar bio je praznik nad praznicima”: https://www.politika.rs/sr/clanak/493240/ ; Dan 329 iste lekcije |
+| 2 | „Veće naroda, sastavljeno od izaslanika republika i pokrajina” | sumnjivo | srednja | Po Ustavu 1946. Veće naroda birali su neposredno građani, po republikama (po 30), autonomnim pokrajinama (20) i oblastima (15) — nisu bili izaslanici republičkih tela. Predlog: „Veće naroda, u koje su građani svake republike birali jednak broj poslanika (a autonomne jedinice manji)”. | Ustav FNRJ 1946, čl. 54 (Wikizvornik, isti link) |
+| 3 | „tršćanska kriza vukla se sve do Londonskog memoranduma 1954, kada je Trst konačno pripao Italiji, a Zona B Jugoslaviji” | sumnjivo | srednja | Memorandum 1954. dao je samo civilnu upravu (Zona A Italiji, Zona B Jugoslaviji); konačno razgraničenje potvrđeno je Osimskim sporazumima 1975. Predlog: „…kada je Trst prešao pod italijansku upravu, a Zona B pod jugoslovensku; granica je konačno potvrđena Osimskim sporazumima 1975.” | Arcipelago Adriatico, „The Osimo Question 1945–1975”: https://www.arcipelagoadriatico.it/en/la-questione-di-osimo-storia-di-un-trattato-1945-1975/ ; tekst Osimskog ugovora (FOMOSO PDF): https://www.fomoso.org/wp-content/uploads/2018/07/Osimo-Treaty-1975.pdf |
+
+### Day 331 — Sukob sa Informbiroom 1948.
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Jugoslovensko rukovodstvo nije bilo pozvano da prisustvuje.” | greška | visoka | KPJ je bila pozvana na sastanak Informbiroa u Bukureštu i odbila je da dođe (odluka CK KPJ, maj–jun 1948); Rezolucija je doneta u odsustvu. Predlog: „Jugoslovensko rukovodstvo odbilo je poziv da prisustvuje sastanku.” | Encyclopedia.com, „Communist Information Bureau”: https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/communist-information-bureau ; Vlada Slovenije, „Cominform Conflict”: https://www.gov.si/en/news/2019-06-01-cominform-conflict-when-white-suddenly-becomes-black/ ; FRUS 1948 IV, Editorial Note: https://history.state.gov/historicaldocuments/frus1948v04/d697 |
+| 2 | „Sama je izvojevala revoluciju, bez sovjetske vojske na svojoj zemlji” | greška | visoka | Crvena armija je u jesen 1944. učestvovala u oslobođenju Srbije i Beograda (što Dan 329 i kaže); nije, međutim, ostala u zemlji. Predlog: „Revoluciju je izvojevala uglavnom sopstvenim snagama, a sovjetska vojska se posle 1944. nije zadržala na njenoj zemlji”. | Britannica, „Partisan (Yugoslavian resistance force)”: https://www.britannica.com/topic/Partisan-Yugoslavian-military-force ; Ministarstvo odbrane RS, godišnjica oslobođenja Beograda: https://www.mod.gov.rs/eng/20589/obelezena-godisnjica-oslobodjenja-beograda-u-drugom-svetskom-ratu20589 ; Dan 329 |
+| 3 | „Krajem marta 1948. Moskva ih je povukla.” (sovjetske savetnike) | sumnjivo | srednja | Vojni savetnici opozvani su telegramom Bulganjina 18. marta, civilni stručnjaci 19. marta 1948; krajem marta (27. 3.) stiglo je prvo pismo. Predlog: „Sredinom marta 1948. Moskva ih je povukla.” | RTV, „Vremeplov: SSSR opozvao vojne stručnjake iz Jugoslavije”: https://www.rtv.rs/sr_lat/drustvo/vremeplov/vremeplov-sssr-opozvao-vojne-strucnjake-iz-jugoslavije_306981.html |
+
+### Day 332 — Samoupravljanje
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Ustavni zakon iz 1953. godine, zajedno sa promenama u poljoprivrednoj politici, faktički je napustio kolektivizaciju sela: seljaci su mogli zadržati zemlju, sa maksimumom koji je uglavnom iznosio oko deset hektara” | sumnjivo | srednja | Napuštanje kolektivizacije nije delo Ustavnog zakona (januar 1953), nego Uredbe o imovinskim odnosima i reorganizaciji seljačkih radnih zadruga (proleće 1953) i zakona o zemljišnom fondu iz maja 1953, koji je uveo maksimum od 10 ha. Predlog: „Uredbom o reorganizaciji seljačkih radnih zadruga i zakonom o zemljišnom maksimumu iz 1953. godine kolektivizacija je faktički napuštena: seljaci su mogli zadržati zemlju, do maksimuma od oko deset hektara obradivog poseda.” | Tekst Uredbe (Agencija za restituciju): https://www.restitucija.gov.rs/doc/oduzeta%20imovina/pdf/UREDBA%20O%20IMOVINSKIM%20ODNOSIMA%20I%20REORGANIZACIJI%20SELJACKIH%20RADNIH%20ZADRUGA_33.pdf ; spisak propisa: https://www.restitucija.gov.rs/latinica/propisi-o-oduzetoj-imovini.php |
+
+### Day 333 — Privredni razvoj socijalističke Jugoslavije
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Glavni planer Boris Kidrič projektovao je rast koji bi za pet godina udvostručio industrijsku proizvodnju.” | greška | srednja | Plan (zakon od 26. 4. 1947) predviđao je industrijsku proizvodnju 1951. na oko 494% nivoa iz 1939, tj. oko pet puta više — ne udvostručenje. Idejni tvorac plana bio je Andrija Hebrang (predsednik Savezne planske komisije), a Kidrič je preuzeo sprovođenje. Predlog: „Plan, čije je sprovođenje vodio Boris Kidrič, predviđao je da industrijska proizvodnja 1951. bude oko pet puta veća nego 1939.” | CSP (Časopis za suvremenu povijest) 18/2, 1986, str. 77–87 (Hrčak): https://hrcak.srce.hr/file/315164 ; Bife.ba, „Rast industrijske proizvodnje u BiH – 494%”: https://www.bife.ba/2023/12/16/rast-industrijske-proizvodnje-u-bosni-i-hercegovini-494/ ; za Hebranga ⚠ samo Wikipedia (sr.wikipedia „Prvi petogodišnji plan u Jugoslaviji”) |
+| 2 | „Plan je donosio i nove pruge — Brčko–Banovići, Šamac–Sarajevo” | sumnjivo | srednja | Pruga Brčko–Banovići građena je 1946, pre usvajanja plana (april 1947); Šamac–Sarajevo 1947. Predlog: „U istom zamahu nastale su i nove pruge — Brčko–Banovići (1946) i Šamac–Sarajevo (1947)”. | ResearchGate, „Kulturno-prosvjetne aktivnosti omladinskih radnih brigada u toku izgradnje pruge Brčko–Banovići 1946. godine”: https://www.researchgate.net/publication/348713719 ; Staro sajmište, „Savezne omladinske radne akcije 1946–1963”: https://www.starosajmiste.info/blog/savezne-omladinske-radne-akcije-u-jugoslaviji-1946-1963-godine/index.html |
+
+### Day 334 — Svakodnevni život u Jugoslaviji
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „subotom su deca čekala „Žikinu šarenicu”” (u opisu 1960-ih i 1970-ih) | greška | visoka | Anahronizam: „Šarenica” Žike Nikolića nastala je na RTS-u tek 2004/2005 (za direktora Tijanića), i nije dečja emisija. Predlog zameniti emisijom iz tog doba, npr. „deca su čekala „Na slovo, na slovo”” (TV Beograd, 1971–). | RTS, „Žikina šarenica”: https://www.rts.rs/page/tv/sr/story/22/rts-svet/3025247/zikina-sarenica.html ; Novosti, intervju sa Žikom Nikolićem: https://www.novosti.rs/kultura/tv-novosti/1625784/ ; RTS, „Na slovo, na slovo”: https://www.rts.rs/page/tv/sr/story/22/rts-svet/2012359/na-slovo-na-slovo.html |
+| 2 | „od kasnih osamdesetih kultnim humorom probiće se i sarajevska „Top lista nadrealista”” | greška | srednja | TV serija počela je 2. 6. 1984 (radio-emisija od 1981). Predlog: „od sredine osamdesetih”. | Telegraf, „Pre 35 godina snimljena prva TV epizoda Nadrealista”: https://www.telegraf.rs/pop-i-kultura/film-tv/3137727 ; Direktno.rs: https://direktno.rs/magazin/zabava/film-i-tv/244985/ (⚠ popularni izvori; datum je nesporan) |
+
+## Socijalistička Jugoslavija II i kriza (335–340)
+
+### Day 335 — Kultura, sport i obrazovanje
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Beograd je 1973. bio domaćin Univerzijade" | greška | visoka | „Beograd je 1973. bio domaćin prvog Svetskog prvenstva u vodenim sportovima, Zagreb 1987. Univerzijade" (Univerzijada 1973. održana je u Moskvi) | FISU, 7th Summer Universiade (Moskva 1973): https://www.fisu.net/events/7th-summer-universiade/ ; FISU, Zagreb 1987: https://www.fisu.net/news/summer-fisu-world-university-games/spotlight-remembering-the-zagreb-1987-summer-universiade ; 1. SP u vodenim sportovima, Beograd (Tašmajdan) 31. 8 – 9. 9. 1973 (⚠ samo Wikipedia za ovaj deo, ali činjenica široko poznata) |
+
+### Day 336 — Ustav iz 1974.
+ok — bez nalaza.
+
+### Day 337 — Smrt Josipa Broza Tita
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „U petak 4. maja 1980. godine" | greška | visoka | „U nedelju 4. maja 1980. godine" (4. 5. 1980. bio je nedelja; zato su se i igrale prvenstvene utakmice) | Kalendarski proračun; Washington Post, 5. 5. 1980, „President Tito Dies": https://www.washingtonpost.com/archive/politics/1980/05/05/president-tito-dies/0df00f64-f525-4783-8a0c-2af1b92b2f9a/ |
+| 2 | „odigrao se u Zagrebu, na stadionu Maksimir, gde je tekla utakmica između Hajduka i Crvene zvezde" | greška | visoka | „odigrao se u Splitu, na stadionu Poljud, gde je tekla utakmica između Hajduka i Crvene zvezde" (vest je saopštio gradonačelnik Splita, u 41. minutu) | Football Makes History (EU projekat), „The Match when Tito Died": https://footballmakeshistory.eu/the-match-when-tito-died/ ; mondo.ba: https://mondo.ba/Sport/Fudbal/a955349/Dan-kada-je-umro-Josip-Broz-Tito-4.-maj-1980.-Hajduk-Crvena-zvezda-Dule-Savic-i-Pizon.html |
+| 3 | „kolektivno predsedništvo — telo od osam članova, po jedan iz svake republike i pokrajine" | greška | srednja | „telo od devet članova — po jedan iz svake republike i pokrajine i, po položaju, predsednik Predsedništva CK SKJ" (osam članova tek posle amandmana 1988) | Ustav SFRJ 1974, čl. 321; Predsedništvo SFRJ (⚠ Wikipedia kao putokaz): https://sr.wikipedia.org/sr-el/Председништво_СФРЈ ; DOI UBKG, „Izvršna vlast na osnovu Ustava SFRJ iz 1974": https://doi.ub.kg.ac.rs/doi/zbornici/10-46793-ustav74-381b/ |
+
+(Napomena: keyPlaces sadrži „Zagreb" — posle ispravke #2 zameniti sa „Split".)
+
+### Day 338 — Jugoslavija osamdesetih
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Dobrica Ćosić je u Knjizi o Milutinu i drugim romanima glasno postavio pitanje srpske istorijske sudbine" | greška | visoka | „Danko Popović je u „Knjizi o Milutinu” (1985), a Dobrica Ćosić u romanima „Grešnik” i „Otpadnik”, glasno postavili pitanje srpske istorijske sudbine" | Springer (Kindlers Literatur Lexikon), „Popović, Danko: Knjiga o Milutinu": https://link.springer.com/rwe/10.1007/978-3-476-05728-0_14083-1 |
+| 2 | „predsedništvo SFRJ postalo je kolektivno: osam članova, po jedan iz svake republike i pokrajine" | greška | srednja | „devet članova — po jedan iz svake republike i pokrajine i predsednik Predsedništva CK SKJ po položaju (do 1988)" | Isto kao Day 337 #3 |
+| 3 | „posle Osme sednice ... u septembru iste godine, kao novi prvi čovek partije nametnuo Slobodan Milošević" | greška | srednja | „... nametnuo kao neprikosnoveni prvi čovek Srbije Slobodan Milošević, od 1986. predsednik CK SK Srbije i do tada bliski saradnik Ivana Stambolića" (partiju je vodio već od maja 1986) | 8. sednica CK SKS i izbor 1986 (⚠ Wikipedia kao putokaz): https://en.wikipedia.org/wiki/8th_session_of_the_Central_Committee_of_the_League_of_Communists_of_Serbia ; RSE, „Stefanović: Da je Stambolić pobedio, ne bi bilo rata": https://www.slobodnaevropa.org/a/srbija-stambolic-milosevic-osma-sednica-radoje-stefanovic/28737659.html |
+
+### Day 339 — Buđenje nacionalnih pitanja
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „U Hrvatskoj je u proleće 1989. osnovana Hrvatska demokratska zajednica" | sumnjivo | srednja | „U Hrvatskoj je u junu 1989. osnovana ..." (inicijativa javno izneta 28. 2. 1989, osnivačka skupština 17. 6. 1989) | HDZ, „1989. godina": https://www.hdz.hr/article/378/1989-godina ; povijest.hr: https://povijest.hr/nadanasnjidan/kako-je-osnovan-hdz-1989/ |
+
+### Day 340 — Jugoslavija pred raspadom
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „na referendumu o nezavisnosti osamdeset osam odsto izašlih građana glasalo za izlazak" | greška | visoka | „za izlazak je glasalo 88,5 odsto svih upisanih birača (oko 95 odsto izašlih)" | Vlada Slovenije, Dan samostalnosti i jedinstva: https://www.gov.si/en/news/independence-and-unity-day/ ; Banka Slovenije, 30. godišnjica plebiscita: https://www.bsi.si/en/cash/numismatics/30th-anniversary-of-the-referendum-on-slovenia-s-independence-2020 |
+| 2 | „osvojila vlast pošto su prethodno usvojeni ustavni amandmani koji su znatno ojačali predsedničke nadležnosti i ukinuli stvarnu autonomiju" | greška | srednja | „... pošto je u septembru 1990. usvojen novi Ustav Srbije, koji je uveo neposredno biranog predsednika sa jakim ovlašćenjima i potvrdio ukidanje stvarne autonomije Kosova i Vojvodine" (amandmani su iz marta 1989; ustav od 28. 9. 1990) | Vlada RS, arhiva „Činjenice o Srbiji — Ustav": http://www.arhiva.srbija.gov.rs/cms/view.php?id=1014 ; tekst Ustava 1990 (Vikizvornik) |
+| 3 | „U Crnoj Gori je u decembru pobedio reformisani komunistički DPS" | greška | srednja | „U Crnoj Gori je u decembru pobedio reformisani Savez komunista Crne Gore (od juna 1991. DPS)" | DPS, „Istorijat": https://dps.me/istorijat/ ; V. Goati, „Partije i partijski sistem Crne Gore" (UCG): https://www.ucg.ac.me/skladiste/blog_50333/objava_70782/fajlovi/Vladimir%20Goati%20_%20Partije%20i%20partijski%20sistem%20Crne%20Gore.pdf |
+| 4 | „u Hrvatskoj su nove ustavne odredbe sredinom 1990. godine srpsku manjinu ... iz „konstitutivnog naroda” spustile na status manjine" | sumnjivo | srednja | „... nove ustavne odredbe — konačno Ustav od 22. decembra 1990, koji Hrvatsku određuje kao nacionalnu državu hrvatskog naroda — srpsko stanovništvo ..." (sredinom 1990. pokrenut je ustavni postupak i promenjeni simboli; spor oko statusa Srba vezuje se prvenstveno za Božićni ustav) | Hrvatski sabor, „22. prosinca — Božićni Ustav": https://www.sabor.hr/hr/o-saboru/povijest-saborovanja/vazni-datumi/22-prosinca-bozicni-ustav-prvi-ustav-neovisne-republike |
+
+## Doslednost između lekcija (cela era)
+
+_Nalazi koje vidi samo poređenje lekcija; deo se poklapa sa nalazima po lekcijama iznad (ista ispravka)._
+
+# Era VII — provera doslednosti između lekcija (Days 281–340, uz poređenje 270–280 i 341–350)
+
+Obuhvat: isti događaj, datum, broj, ime ili titula opisani različito u dve lekcije; redosled polja `year` i `year`/`dateLabel` naspram teksta. Nekoliko grešaka u datumima iz spiska u zadatku uneto je i kada se nalaze u samo jednoj lekciji (označeno „van poređenja").
+
+### Day 285 — Drugi balkanski rat
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „a sporna „severna zona” trebalo je da se prepusti arbitraži ruskog cara” (u Day 281 stoji: „tzv. sporna zona, oblast oko Skoplja, Kumanova, Velesa i južno odatle”; Day 277: „„spornoj zoni“ u centralnoj Makedoniji”) | sumnjivo | visoka | „a sporna zona u centralnoj i severnoj Makedoniji trebalo je da se prepusti arbitraži ruskog cara” (termin kao u Day 281) | Srpsko-bugarski ugovor 13. 3. 1912. i tajni aneks (Istorija srpskog naroda VI-1); Britannica, „Balkan Wars” |
+
+### Day 293 — Kolubarska bitka
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Sutradan, šesnaestog decembra, srpska vojska ponovo je ušla u Beograd” (van poređenja; referentni datum je 15. decembar) | greška | visoka | „Petnaestog decembra srpska vojska ponovo je ušla u Beograd, i time je bitka okončana” (ili ukloniti „Sutradan”) | Ministarstvo odbrane, „Kolubarska bitka” (mod.gov.rs/lat/17016/kolubarska-bitka17016): bitka 16. 11. – 15. 12. 1914, oslobođenje Beograda 15. 12. |
+
+### Day 294 — Srbija 1915.
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „najčešće se navodi između sto i dvesta hiljada mrtvih” (od pegavog tifusa; u Day 302 stoji: „sam je ubio između sto i sto pedeset hiljada ljudi”) | sumnjivo (neusklađen raspon) [OSETLJIVO] | visoka | Obe lekcije svesti na isti pripisani raspon: „procene se jako razlikuju — od nekoliko desetina hiljada u izveštajima savezničkih sanitetskih misija 1915. do oko 150.000 (i više) u kasnijoj srpskoj literaturi”. Vidi i Day 302 #3. | W. Hunter, „The Serbian Epidemics of Typhus and Relapsing Fever in 1915”, PubMed 19981291; „Notes on the typhus epidemic in Serbia, 1915” (PMC2303087); A. Mitrović, *Srbija u Prvom svetskom ratu* |
+
+### Day 297 — Solunski front
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „komandu je kraće držao general Adolf Giro” | greška | visoka | „general Adolf Gijoma (Guillaumat)” — Giro (Giraud) je drugi general | 1914-1918-Online, „Franchet d'Espèrey”; Imperial War Museum; (pokazivač: en.wikipedia „Adolphe Guillaumat") |
+
+### Day 300 — Proboj Solunskog fronta
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Tek u maju 1918, kada je komandu nad savezničkim snagama na istoku preuzeo francuski general Luj Franše d'Epere” (u Day 297 stoji: „od juna 1918.”) | greška | visoka | „Tek u junu 1918, …” | 1914-1918-Online, „Franchet d'Espèrey”: imenovan juna 1918, posle poraza na Šmen de Dam u maju |
+| 2 | „Tu je, od jeseni 1915, stajala mešovita vojska — francuska, britanska, srpska, kasnije i italijanska i grčka” (u Day 297 stoji: srpska vojska „prebačena brodovima u Solun u proleće i leto 1916”) | sumnjivo | visoka | „Tu je, od jeseni 1915, stajala saveznička vojska — isprva francuska i britanska, od 1916. i srpska, italijanska i ruska, od 1917. i grčka” | Day 296/297; Mitrović, *Srbija u Prvom svetskom ratu* |
+
+### Day 301 — Oslobođenje Srbije 1918.
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Petog novembra 1918. srpske jedinice ušle su u Beograd.” | greška | visoka | „Prvog novembra 1918. srpske jedinice ušle su u Beograd.” | Ambasada Francuske u Srbiji, „Pre sto godina, oslobođen je Beograd” (rs.ambafrance.org); RTS, „Oslobođenje Beograda 1918.”; Dan oslobođenja Beograda u Prvom svetskom ratu = 1. novembar |
+| 2 | „Beograd je u ratu bio bombardovan već prvog dana, avgusta 1914” (u Day 291 stoji: rat objavljen 28. jula i „iste noći bombarduje Beograd”) | greška | visoka | „već prve ratne noći, 28/29. jula 1914” | Day 291; Mitrović, *Srbija u Prvom svetskom ratu*; IWM |
+
+### Day 302 — Cena Prvog svetskog rata
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Vojska koja je u jesen 1915. krenula preko Albanije imala je oko 400.000 ljudi; na grčku obalu stiglo ih je oko 150.000.” (u Day 295 stoji: „oko 300.000 ljudi” u koloni, od toga „oko 240.000” na planinskom delu, „između 60.000 i preko 100.000 nije stiglo do obale”; Day 296: „oko sto pedeset hiljada vojnika” prevezeno na Krf) | greška (neusklađeno) [OSETLJIVO] | visoka | „U povlačenje preko Albanije krenulo je, po proceni Vrhovne komande, oko 300.000 ljudi — vojska, civili i zarobljenici; na Krf je do proleća 1916. prevezeno oko 150.000 vojnika.” (brojke iz Day 295/296; „grčku obalu” → „Krf”: vojska je stigla na albansku obalu, a na grčko ostrvo prevezena brodovima) | Mitrović, *Srbija u Prvom svetskom ratu*; RTS, „Od Srbije do Krfa – put albanske Golgote”; Day 295/296 |
+| 2 | „To je više od dvadesetog dela stanovništva; po nekim procenama i preko četvrtine.” (uz „milion do milion i četvrt ljudi” i ~4,5 miliona stanovnika po Day 287) | greška (aritmetika) | visoka | „To je više od petine stanovništva; po nekim procenama i preko četvrtine.” | Day 287 (≈4,5 miliona stanovnika); isti pasus |
+| 3 | „Pegavi tifus … sam je ubio između sto i sto pedeset hiljada ljudi” (u Day 294 stoji: „između sto i dvesta hiljada”) | sumnjivo (neusklađen raspon) [OSETLJIVO] | visoka | Isti pripisani raspon kao u Day 294 #1 | kao Day 294 #1 |
+| 4 | `year: 1917` (dateLabel „1914–1918.”; susedi Day 301 = 1918, Day 303 = 1918) | sumnjivo (vraća se unazad) | visoka | `year` → `1918` (lekcija je bilans na kraju rata) | CONTENT_MODEL.md („should not run backwards") |
+
+### Day 305 — Vidovdanski ustav
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Ustav je tako prošao prostom većinom prisutnih. Krfska deklaracija iz 1917. godine predviđala je upravo taj prag” (u Day 299 stoji: Deklaracija je predviđala „„kvalifikovanom”, odnosno brojčano određenom većinom” i „Pašić je istu formulaciju shvatao kao otvoren put ka odluci prostom većinom”) | greška (protivreči Day 299) [OSETLJIVO] | visoka | „Ustav je tako prošao apsolutnom većinom ukupnog broja poslanika (223 od 419). Vlada je to tumačila kao „brojno kvalifikovanu većinu” iz Krfske deklaracije; kritičari su odmah, pa i posle, tvrdili da je Deklaracija podrazumevala širu saglasnost …” | Krfska deklaracija, tekst (Wikizvor bs.wikisource.org/wiki/Krfska_deklaracija); Pravni fakultet Sarajevo, „Vidovdanski ustav — analiza teksta” (pfsa.unsa.ba); B. Petranović, *Istorija Jugoslavije 1918–1988* I |
+| 2 | „ali će već 1921. godine, posle takozvane Obznane, biti politički zabranjena” | sumnjivo | visoka | „ali je već krajem decembra 1920. Obznanom zabranjen rad partije, a Zakonom o zaštiti države u avgustu 1921. ona je i formalno stavljena van zakona” | Informator, „Vremeplov: Obznana – 29. prosinca 1920.”; RTV, „Kada je Zakon o zaštiti države stupio na snagu” (2. 8. 1921) |
+
+### Day 306 — Politički život Kraljevine SHS
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „a u junu 1926. i umro” (Pašić; Day 252: „do smrti 1926”, Day 308: „koji je dve godine ranije umro” — godina je ista, mesec nije) | greška | visoka | „a u decembru 1926. i umro” | Britannica, „Nikola Pašić” (umro 10. decembra 1926) |
+| 2 | „već 1921. zabranjena je „Obznanom” i Zakonom o zaštiti države” | sumnjivo | visoka | „Obznanom krajem 1920. i Zakonom o zaštiti države 1921.” (usklađeno sa Day 305 #2) | kao Day 305 #2 |
+
+### Day 308 — Atentat u skupštini 1928.
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Bila je sreda, 20. jun 1928. godine — po starom kalendaru Vidovdan” (u Day 288/305 stoji: Vidovdan = 28. jun po novom kalendaru; 20. jun 1928. po novom = 7. jun po starom) | greška | visoka | „Bila je sreda, 20. jun 1928. godine — nedelju dana pred Vidovdan, datum koji je …” | Day 288, 305; julijanski pomak od 13 dana (brief) |
+
+### Day 309 — Šestojanuarska diktatura
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Vlatko Maček” (tekst i `keyPeople`; u Day 316 stoji: „Vladko Maček”) | greška (ime) | visoka | „Vladko Maček” | Britannica, „Vladko Maček”; Hrvatska enciklopedija |
+
+### Day 312 — Namesništvo i knez Pavle
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Vlatko Maček” / „Vlatkom Mačekom” (tekst i `keyPeople`; u Day 316 stoji: „Vladko Maček”) | greška (ime) | visoka | „Vladko Maček” / „Vladkom Mačekom” | kao Day 309 |
+
+### Day 313 — Društvo i kultura između dva rata (isto za Day 314 i 315)
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | `year: 1930` za Days 313, 314, 315 (dateLabel „1918–1941.”), posle Day 312 = 1935 i pre Day 316 = 1940 | sumnjivo (vraća se unazad) | srednja | Days 313–315 → `1935` (ili ih ostaviti kao tematski blok i upisati u izuzetke P3 #25) | CONTENT_MODEL.md; PRODUCT_REVIEW_2026-09-28 P3 #25 |
+
+### Day 319 — Okupacija i podela zemlje
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „U Zagrebu je, samo dva dana posle nemačkog ulaska, 10. aprila 1941. proglašena Nezavisna Država Hrvatska.” (u Day 318 stoji: „u Zagrebu je 10. aprila proglašena … još pre nego što su nemačke trupe stigle u grad”) | greška | visoka | „U Zagrebu je 10. aprila 1941, neposredno pre ulaska nemačkih trupa u grad, proglašena Nezavisna Država Hrvatska.” (kao Day 318) | Povijest.hr / Kamenjar, „10. travnja 1941.” (proglas preko Radio Zagreba popodne, nemačke jedinice ulaze oko sat kasnije); Tomasevich, *War and Revolution in Yugoslavia: Occupation and Collaboration* |
+
+### Day 320 — Ustanak 1941.
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „i u Brajićima 27. oktobra 1941” | sumnjivo | srednja | „u Brajićima 26. oktobra 1941” (ili „26/27. oktobra”) | RTV, „Vremeplov: sastanak Draže i Tita”; sh.wikipedia „Sastanak u Brajićima” (pokazivač); Tomasevich, *The Chetniks* |
+
+### Day 321 — Partizanski i četnički pokret
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „na sastancima Mihailovića i Tita u Strugaviku i Brajićima” (u Day 320 stoji: „u selu Struganik 19. septembra”) | greška (toponim) | visoka | „u Struganiku i Brajićima” | Day 320; RTV „Vremeplov” |
+
+### Day 322 — Građanski rat unutar rata
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Razgovori između Tita i Draže Mihailovića u oktobru i novembru te godine — u Strugovima i Brajićima” (u Day 320 stoji: „Struganik 19. septembra i … Brajićima 27. oktobra”) | greška (mesec i toponim) | visoka | „Razgovori između Tita i Draže Mihailovića u septembru i oktobru te godine — u Struganiku i Brajićima” | Day 320; RTV „Vremeplov” |
+
+### Day 327 — Oslobođenje 1944–1945.
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Početkom aprila probijen je Sremski front, oslobođeni su Vukovar i Osijek” (van poređenja) | greška | visoka | „Sredinom aprila (12. aprila) probijen je Sremski front, oslobođeni su Vukovar i Osijek” | Petranović, *Istorija Jugoslavije 1918–1988* II; Muzej Sremskog fronta / mod.gov.rs |
+
+### Day 328 — Cena Drugog svetskog rata
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Leskovac je u proleće 1944. teško razoren u savezničkom bombardovanju” (van poređenja) | greška | visoka | „Leskovac je 6. septembra 1944. teško razoren u savezničkom bombardovanju” | Politika, „Šesti septembar 1944 – tragedija Leskovca”; Narodna biblioteka Leskovac, „Savezničko bombardovanje Leskovca” |
+| 2 | „Za Jevreje cifra od oko 57.000 znači da je u Holokaustu ubijeno oko četiri od svakih pet jugoslovenskih Jevreja” (u Day 324 stoji: „oko osamdeset hiljada Jevreja”; 57.000 / 80.000 ≈ 71 %) | sumnjivo (neusklađeno) [OSETLJIVO] | visoka | „Za Jevreje procene se kreću od oko 57.000 (Žerjavić) do 60.000 (Kočović), a u holokaust-istraživanjima i više — između dve trećine i četiri petine od oko 80.000 jugoslovenskih Jevreja” | USHMM Holocaust Encyclopedia, „Yugoslavia”; Yad Vashem; Žerjavić / Kočović |
+| 3 | „Hrvata je, po istim procenama, stradalo oko 207.000, bosanskih Muslimana oko 86.000, Slovenaca oko 32.000, Crnogoraca oko 20.000.” (pre toga se navode dva autora, pa „po istim procenama” mešа njihove brojke) | sumnjivo [OSETLJIVO] | srednja | Pripisati jednom autoru („po Kočoviću …”) i dodati Žerjavićeve vrednosti gde se razlikuju, ili zameniti rasponima | B. Kočović, *Žrtve Drugog svetskog rata u Jugoslaviji* (1985); V. Žerjavić, *Gubici stanovništva Jugoslavije u Drugom svetskom ratu* (1989) |
+
+### Day 330 — FNRJ — nova država
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „Federalne Narodne Republike Jugoslavije” / „Federalna Narodna Republika Jugoslavija” (u Day 329 stoji: „Federativnu Narodnu Republiku Jugoslaviju”; skraćenica FNRJ u naslovu) | greška (zvanični naziv) | visoka | „Federativna Narodna Republika Jugoslavija” (podnaslov i telo teksta) | Deklaracija Ustavotvorne skupštine 29. 11. 1945; Ustav FNRJ 1946; Dimić, *Istorija srpske državnosti III* |
+| 2 | „na njeno mesto došla je Demokratska Federativna Jugoslavija, a nedugo zatim, ustavom od 31. januara 1946, dobila je i konačno ime” (u Day 329 i u prvoj rečenici same Day 330 stoji: 29. novembra 1945. proglašena FNRJ) | greška (protivreči Day 329) | visoka | „Naziv Demokratska Federativna Jugoslavija, korišćen od 1943/1945, zamenjen je 29. novembra 1945. imenom Federativna Narodna Republika Jugoslavija, a ustav od 31. januara 1946. je to potvrdio.” | Day 329; Petranović, *Istorija Jugoslavije 1918–1988* III |
+
+### Day 337 — Smrt Josipa Broza Tita
+| # | Tvrdnja (citat iz lekcije) | Ocena (greška / sumnjivo) | Sigurnost (visoka / srednja) | Predlog ispravke | Izvor |
+|---|---|---|---|---|---|
+| 1 | „U petak 4. maja 1980. godine” (van poređenja) | greška | visoka | „U nedelju 4. maja 1980. godine” | kalendar za 1980 (4. 5. 1980. = nedelja); Britannica, „Josip Broz Tito” (datum) |
+
+---
+
+# Sporno u istoriografiji
+
+Nisu greške. „Ograda: DA" znači da je lekcija dobila kratku odredbu (jedna rečenica ili reč, u glasu lekcije); „NE" da je lekcija već ograđena ili je spor sitan. OSETLJIVO = nacionalno ili politički osetljiva formulacija.
+
+### Balkanski ratovi (281–287)
+
+- Day 283 — „Veza sa 1389. dodata je kasnije, da bi se vojnička pobeda upisala u stariju … nacionalnu priču” — kosovska retorika („osveta Kosova”) bila je savremena ratu, ne naknadna: prisutna u ratnoj propagandi 1912, a kralj Petar već 31. oktobra 1913. ustanovljuje „Spomenicu za oslobođeno Kosovo”; spor je o tome koliko je uticala na odluke, ne kada se javila — ograda: DA — predlog: „Veza sa 1389. isticana je već tada, u proglasima i štampi, ali na operativne odluke nije bitno uticala.” — https://sh.wikipedia.org/wiki/Spomenica_na_rat_1912._godine (⚠ samo Wikipedia)
+- Day 287 — „Bilo je i nasilja — … povremenih incidenata koje su strani novinari, naročito iz susednih protivničkih zemalja, koristili u svojoj propagandi” — uz Karnegijev izveštaj (Dan 284) nasilje nad albanskim stanovništvom opisali su i srpski savremenici (D. Tucović, „Srbija i Arbanija”, 1914), pa „povremeni incidenti” + „propaganda” umanjuju ono što Dan 284 priznaje — ograda: DA — OSETLJIVO — predlog: zameniti „povremenih incidenata … propagandi” sa „nasilja koje su beležili i strani posmatrači i pojedini srpski savremenici, poput Dimitrija Tucovića” — Carnegie Endowment, Report of the International Commission (1914); Tucović, „Srbija i Arbanija” (1914)
+- Day 284 — Karnegijev izveštaj i nasilje nad civilima — razmere sporne, pouzdanost komisije osporavana u srpskoj (i grčkoj) javnosti — ograda: NE (lekcija već kaže da se procene razilaze) — OSETLJIVO — Carnegie Endowment 1914
+- Day 286 — etnički sastav Makedonije 1913 — ograda: NE (lekcija eksplicitno kaže da pouzdane brojke ne postoje) — OSETLJIVO
+- Day 287 — „oko trideset šest hiljada” poginulih u oba rata — raspon procena — ograda: NE (lekcija već ogradila brojku kao „radnu”) — OSETLJIVO
+- Day 281 — „Rusija nije … ‘stvorila’ Balkanski savez” — uloga Hartviga i Nekljudova različito se ocenjuje — ograda: NE (formulacija umerena, „pokrovitelj, ne tvorac”)
+
+### Prvi svetski rat I (288–294)
+
+- Day 288 — „Apisova umešanost u logistiku atentata danas se uglavnom prihvata. Mnogo je sporniji stepen znanja srpske vlade." — Spor: koliko je Pašićeva vlada znala o planu i šta je preduzela. — ograda: NE [OSETLJIVO] — lekcija je već ogradila („To pitanje ostaje otvoreno") i razdvaja činjenice od tumačenja. — Dedijer, *Sarajevo 1914*; C. Clark, *The Sleepwalkers* (2012).
+- Day 289 — „Julska kriza nije bila iznenadan izliv osvete…, već hladnokrvna politička računica koja je … učinila opšti evropski rat neizbežnim" (i podnaslov „diplomatija koja je hladnokrvno pripremila katastrofu") — Spor: odgovornost za rat. Fišerova škola vidi nameru Berlina i Beča, a Klark i drugi vide zajedničku odgovornost i „mesečare"; i sama „neizbežnost" je sporna. — ograda: DA [OSETLJIVO] — predlog: „…računica koja je, po oceni dobrog dela istoričara, korak po korak učinila opšti evropski rat gotovo neizbežnim." — F. Fischer, *Griff nach der Weltmacht*; C. Clark, *The Sleepwalkers*; A. Mitrović, *Srbija u Prvom svetskom ratu*.
+- Day 292 — „prva pobeda jedne sile Antante u celom ratu" (ponovljeno u podnaslovu i sažetku) — Spor: to je ustaljena tvrdnja, ali su Belgijanci kod Halena (12. avgust) i Francuzi u Alzasu (Milhauz, 7–8. avgust) imali ranije taktičke uspehe. Cer je prva velika saveznička pobeda u bici. — ograda: NE — dovoljno je u jednom od tri pominjanja reći „prva velika pobeda". — ⚠ Wikipedia „Battle of Cer" / „Battle of Halen" samo kao pokazivač.
+- Day 293 — gubici na Kolubari (vidi nalaz #4) — Spor: raspon procena po izvorima (MO RS: ~60.000 zarobljenika; strani pregledi do 76.000; ukupni gubici 225–273 hiljade). — ograda: NE — lekcija već kaže „treba ih uzeti s oprezom"; ispravlja se samo red veličine. [OSETLJIVO — ratni gubici]
+- Day 294 — „između sto i dvesta hiljada mrtvih" od tifusa — Spor: Hanter navodi 135–150 hiljada, novija istraživanja oko 100.000 civila i 15.000 vojnika, a memorandum iz 1919. čak 360.000. — ograda: NE — raspon je već dat i ograđen („Tačan broj se verovatno nikada neće znati"). [OSETLJIVO]
+
+### Prvi svetski rat II (295–302)
+
+- Day 295 — „oko 300.000 ljudi" / „od oko 240.000 … između 60.000 i preko 100.000 nije stiglo do obale" — procene broja učesnika i stradalih u povlačenju se jako razilaze (MO: „više od 400.000" krenulo; druge procene i do 240.000 stradalih ukupno); lekcija je već ogradila — ograda: NE — OSETLJIVO — (samo usaglasiti početni broj sa Day 302) — mod.gov.rs/lat/17006
+- Day 302 — „između milion i milion i četvrt stanovnika" / „Vojni gubici … 370.000 do 400.000" — zvanična srpska cifra sa Mirovne konferencije (≈1,25 mil.) vs. niže demografske procene; lekcija navodi da je predmet rasprave — ograda: NE — OSETLJIVO — izvor: A. Mitrović, „Srbija u Prvom svetskom ratu" (poglavlje o gubicima; nije proveren onlajn)
+- Day 298 — „od dvadesetak do preko pedeset hiljada ubijenih i interniranih" (Toplički ustanak) — raspon procena; već ograđeno — ograda: NE — OSETLJIVO — ISN VI (nije proveren onlajn)
+- Day 301 — „sporna Podgorička skupština" — legitimitet skupštine sporan u srpskoj i crnogorskoj istoriografiji; lekcija već kaže „sporna" — ograda: NE — OSETLJIVO — Wikipedia „Podgorica Assembly" (pokazivač)
+- Day 299 — tumačenje „kvalifikovane većine" (Pašić vs. Trumbić) — lekcija predstavlja oba čitanja — ograda: NE — OSETLJIVO (1918/ustav)
+
+### Kraljevina SHS (303–309)
+
+- Day 303 — „Pitanje legitimiteta te skupštine … ostaje sporno do danas" — Podgorička skupština (izbor poslanika, uloga srpske vojske) — ograda: NE OSETLJIVO — već ograđeno — Leksikon CANU; Š. Rastoder vs. D. Živojinović
+- Day 304 — „Sve uslove i ograde koje je „Adresa” pažljivo nabrojala regent je u svom odgovoru prešao" / „fait accompli" — ocena prvodecembarskog akta (nužnost vs. oktroisano ujedinjenje) — ograda: NE OSETLJIVO — lekcija već daje obe strane — Petranović; Banac
+- Day 305 — „Spor o tome da li je Vidovdanski ustav bio pravno besprekoran…" — legitimnost usvajanja — ograda: NE OSETLJIVO — već ograđeno (uz ispravku o Krfskoj deklaraciji) — Gligorijević; Leksikon CANU
+- Day 307 — „doseljeno je između šezdeset i sedamdeset hiljada srpskih i crnogorskih kolonista" — procene variraju, a broj se odnosi na ceo period 1918–1941, ne samo na „prvu deceniju" o kojoj pasus govori — ograda: DA OSETLJIVO — „…do 1941. doseljeno je, po različitim procenama, oko šezdeset hiljada…" — M. Obradović, Agrarna reforma i kolonizacija na Kosovu 1918–1941 (1981); FHP „Pod lupom: Kosovski Albanci II"
+- Day 308 — „Pitanje političkog pokroviteljstva ostalo je predmet pretpostavki" — hrvatska literatura (npr. HOL) tvrdi podršku radikala i dvora — ograda: NE OSETLJIVO — lekcija već pošteno ograđena — HOL „Skupštinski atentat"; L. Perović
+- Day 309 — „u Italiji je iste 1929. godine Ante Pavelić osnovao Ustaški pokret" — datum i mesto osnivanja sporni (tradicionalno 7. 1. 1929; organizaciono 1930–1932 u Italiji) — ograda: NE — sitno za tok lekcije — Tomasevich; Hrvatska enciklopedija
+- Day 309 — „Granice banovina povučene su namerno tako da preseku istorijske nacionalne celine" — deo literature ističe da su Savska i Primorska imale hrvatsku većinu i da je podela kombinovala geografski i politički kriterijum — ograda: NE OSETLJIVO — interpretacija je preovlađujuća — Petranović; Banac
+
+### Kraljevina Jugoslavija (310–316)
+
+- Day 310 — „Za njih je jugoslovenstvo … izgledalo kao prikriveno proširenje srpskog uticaja” — spor o karakteru šestojanuarskog režima (unitaristički projekat vs. srpska hegemonija) — ograda: NE OSETLJIVO — već je formulisano kao percepcija aktera — Dimić, „Istorija srpske državnosti III”.
+- Day 311 — „da li je francuskog ministra pogodio metak atentatora ili … francuske policije” — balistička analiza 1974. ukazuje na policijski metak; lekcija ostavlja otvoreno — ograda: NE — već ograđeno — en.wikipedia Vlado Chernozemski (pointer).
+- Day 312 / 316 — „Pavle je Stojadinovića smenio, jer je posumnjao da ovaj teži ličnoj diktaturi” (316) — razlozi smene su u literaturi višestruki (neuspeh sa Mačekom, rezultati izbora 1938, samostalna spoljna politika, Pavlovo nepoverenje) — ograda: DA — „između ostalog i zato što je posumnjao …” — Petranović, „Istorija Jugoslavije 1918–1988” I.
+- Day 312 — „Sporazum Cvetković–Maček ostao je … verovatno najveći domaći politički napor” — vrednovanje sporazuma sporno (srpska i hrvatska istoriografija) — ograda: NE OSETLJIVO — već ograđeno („verovatno”) — Dimić.
+- Day 316 — „mnogi mobilisani Hrvati, Slovenci i Muslimani nisu nužno osećali da brane svoju državu” — pitanje lojalnosti u Aprilskom ratu — ograda: NE OSETLJIVO — već ograđeno — Tomasevich, War and Revolution in Yugoslavia.
+- Day 315 — „oko 30.000 do 40.000 ruskih izbeglica” — procene variraju (do ~70.000 u prolazu) — ograda: NE — već dat raspon.
+
+### Drugi svetski rat I (317–322)
+
+- Day 317 — „Većina ozbiljnih istoričara danas se slaže da je puč ubrzao i zaoštrio sudar, ali da neutralnost ni bez njega ne bi bila trajno održiva." — spor o tome da li je puč „izazvao" rat ili ga samo ubrzao (revizionistička odbrana politike kneza Pavla vs. tradicionalno slavljenje 27. marta; rasprava i o britanskoj ulozi u puču). Lekcija već navodi obe strane — ograda: NE [OSETLJIVO] — izvor: Petranović, *Istorija Jugoslavije* I; Tomasevich, *The Chetniks*, gl. 2.
+- Day 318 — „u literaturi se najčešće navode brojke između dve i četiri hiljade poginulih" — raspon procena žrtava bombardovanja (starije brojke do 17.000 i više; novija istraživanja 2.000–4.000). Već ograđeno — ograda: NE [OSETLJIVO] — izvor: en.wikipedia „German bombing of Belgrade" (pokazivač, ⚠ samo Wikipedia za pregled procena).
+- Day 318 — „U više slučajeva delovi hrvatskih i slovenačkih jedinica dezertirali su … Glavnina otpora pala je na srpske jedinice" — pobune (npr. Bjelovar) su dokumentovane, ali se raspadale su i srpske jedinice; težina „pete kolone" u slomu je predmet rasprave. Lekcija je dovoljno odmerena („u više slučajeva", „ni one … nisu mogle") — ograda: NE [OSETLJIVO] — izvor: Tomasevich, *The Chetniks*, gl. 3; „Bjelovarska pobuna u Aprilskom ratu 1941." (ResearchGate).
+- Day 320 — „prvi veliki ustanak u okupiranoj Evropi" (i summary) — prvenstvo se osporava (Poljska, Krit maja 1941, Crna Gora 13. jula 1941. u istoj lekcionoj seriji). Uobičajena formulacija — ograda: NE — izvor: Tomasevich, *Occupation and Collaboration*.
+- Day 320 / 321 — Mihailovićevi „taktički aranžmani" i stepen znanja centralne komande o saradnji komandanata s okupatorom (uklj. razgovore u Divcima 11. 11. 1941) — jedno od najspornijih pitanja; lekcije drže sredinu i razdvajaju činjenice od ocene — ograda: NE [OSETLJIVO] — izvor: Tomasevich, *The Chetniks*, gl. 5–7; Dimić, *Istorija srpske državnosti* III.
+- Day 321 — „o tačnom sadržaju razgovora istoričari se i danas razilaze" (martovski pregovori 1943) — već ograđeno — ograda: NE [OSETLJIVO] — izvor: Tomasevich, *The Chetniks*, gl. 7.
+- Day 322 — „sa preuređenim granicama unutar zemlje koje bi Srbima dale više teritorije" — program „Homogene Srbije" (Moljević, 1941) i ravnogorski ciljevi dokumentovani su; osporava se autentičnost pojedinih Mihailovićevih instrukcija (20. 12. 1941) i koliko je program bio zvanična politika pokreta. Lekcija iznosi samo dokumentovano jezgro — ograda: NE [OSETLJIVO] — izvor: Tomasevich, *The Chetniks*, gl. 5.
+
+### Drugi svetski rat II (323–328)
+
+- Day 323 — „procenjuju stradanje na otprilike 2.800 do 3.000 ljudi" (Kragujevac) — zvanična cifra 7.000 prema poimeničnom spisku Spomen-parka (2.796, S. Brkić „Ime i broj") — ograda: NE [OSETLJIVO] — lekcija već daje oba broja i objašnjenje — izvor: Spomen-park Kragujevački oktobar.
+- Day 323 — „od 77.000 do 100.000 žrtava u samom logoru" (Jasenovac) — raspon USHMM / poimenični spisak JUSP (83.145) prema višim procenama srpskih institucija — ograda: NE [OSETLJIVO] — lekcija već kaže „Iznose se i veće cifre" (ispraviti samo atribuciju Kočoviću, v. nalaz 323/1) — izvor: USHMM „Jasenovac"; hrcak.srce.hr/file/350228.
+- Day 324 — „između dvanaest i petnaest hiljada Roma" — procene se kreću od ~1.000 do ~12.000 — ograda: DA [OSETLJIVO] — „procene se veoma razlikuju, od oko hiljadu do dvanaest hiljada" — izvor: USHMM, „Genocide of European Roma".
+- Day 325 — četnička koordinacija s Italijanima na Neretvi — obim saradnje sporan — ograda: NE [OSETLJIVO] — lekcija već ograđena („i danas su predmet rasprave") — izvor: Tomasevich, „The Chetniks" (1975).
+- Day 325 — rušenje mosta kod Jablanice kao smišljeno „zavaravanje" — deo literature smatra da je rušenje (1–4. marta, pet mostova) prvobitno bilo deo plana proboja ka severu, a tumačenje kao lukavstva kasnije — ograda: NE — sitno za popularnu lekciju — izvor: nije nađen pouzdan akademski izvor (⚠ samo bs.wikipedia „Most u Jablanici").
+- Day 327 — Bleiburg, „od oko dvadeset do preko sedamdeset hiljada" — raspon procena — ograda: NE [OSETLJIVO] — već ograđeno, imenuje žrtve svih strana; zaštititi taj registar — izvor: Žerjavić 1992 (Jasenovac i Bleiburg), hrvatska i slovenačka historiografija.
+- Day 327 — broj poginulih na Sremskom frontu — ograda: NE [OSETLJIVO] — već ograđeno („pouzdane jedinstvene cifre nema").
+- Day 328 — cifra 1.706.000 i motiv reparacija — ograda: NE — u skladu s Kočović/Žerjavić i literaturom o komisiji 1946.
+
+### Socijalistička Jugoslavija I (329–334)
+
+- Day 329 — „da je reč o desetinama hiljada ljudi, ozbiljna istoriografija ne spori” (posleratne likvidacije, Bleiburg–Kočevski Rog) — procene se kreću od više desetina hiljada naviše; lekcija već iskazuje raspon i spor — ograda: NE OSETLJIVO — (nije potrebna) — Tomasevich, *War and Revolution in Yugoslavia: Occupation and Collaboration* (2001), pogl. o Bleiburgu.
+- Day 329 — „Bio je to politički proces u kome odbrana praktično nije imala prostora” (suđenje Mihailoviću) — ocena procesa i uloge Mihailovića deli istoričare; lekcija već navodi da „pitanje njegove uloge u ratu i dalje deli istoričare” i da je rehabilitacija 2015. odluka o postupku — ograda: NE OSETLJIVO — (nije potrebna) — rešenje Višeg suda u Beogradu, maj 2015; Tomasevich, *The Chetniks* (1975).
+- Day 331 — „prošli — prema procenama koje variraju — između šesnaest i dvadeset pet hiljada ljudi u prvom talasu, do 1956” (Goli otok) — arhivski spisak UDB-e (Previšić) daje 16.101 zatočenika na Golom otoku (i 413 umrlih u logorima za informbirovce 1949–1956); više brojke potiču iz memoarske literature i sabiranja svih logora/kažnjenika. Lekcija je već ograđena — ograda: NE OSETLJIVO — eventualno dodati „arhivski podaci govore o oko šesnaest hiljada” — M. Previšić, *Povijest Golog otoka* (Fraktura, 2019); RSE: https://www.slobodnaevropa.org/a/previsic-knjiga-goli-otok/29746333.html ; Hrčak, „Broj kažnjenika na Golom otoku…”: https://hrcak.srce.hr/file/197840
+- Day 330 — „ali totalitarna u praksi” — karakterizacija FNRJ 1945–1947 kao totalitarne je interpretacija (deo literature koristi „autoritarna”/„staljinistička”); za rani period široko prihvaćena — ograda: NE OSETLJIVO — (nije potrebna) — Petranović, *Istorija Jugoslavije 1918–1988*, knj. III.
+
+### Socijalistička Jugoslavija II i kriza (335–340)
+
+- Day 336 — „republike je definisao kao države zasnovane na pravu naroda na samoopredeljenje, „uključujući i pravo na otcepljenje”" — nosilac prava na otcepljenje (narodi ili republike) i da li je ono „potrošeno" 1943–45 bio je centralni spor 1990–91 (Badinterova komisija vs. srpsko stanovište); lekcija tačno pominje „pravo naroda", ali uvodni deo rečenice ga vezuje za republike — ograda: DA OSETLJIVO — predlog: „... pravu naroda (ne izričito republika) na samoopredeljenje ..." — Ustav SFRJ 1974, Osnovna načela I; Badinter Commission, Opinion No. 1 (1991).
+- Day 336 — „Ustav iz 1974. nije sam po sebi izazvao raspad — ali je oblikovao institucije ..." — ocena uloge ustava u raspadu; lekcija već iznosi oba ugla — ograda: NE OSETLJIVO — (Petranović; Dimić, „Istorija srpske državnosti III").
+- Day 337 — „rođendan bi mu pao tri dana kasnije" — Titov stvarni datum rođenja (7. maj po matičnoj knjizi vs. zvanični 25. maj) — ograda: NE (lekcija uzima 7. maj, što je tačno po izvorima) — Washington Post 1980; Britannica.
+- Day 339 — „Skupština SAP Kosovo, pod pritiskom javnih okupljanja i prisustva snaga bezbednosti, izglasala ustavne promene" — regularnost glasanja 23. 3. 1989. (kvorum, dvotrećinska većina, prisustvo policije) — ograda: NE OSETLJIVO (lekcija već kaže da je način donošenja „predmet stručnih prepiravanja").
+- Day 338/339 — Memorandum SANU kao „program" — lekcija razdvaja recepciju od sadržaja i naglašava da je nacrt — ograda: NE OSETLJIVO.
+- Day 340 — „nijedan jedan akter nije „srušio Jugoslaviju” sam" i „srpsko rukovodstvo želelo je centralizovaniju federaciju u kojoj će se eventualne granice menjati u korist srpskog stanovništva" — raspodela odgovornosti za raspad — ograda: NE OSETLJIVO (već ograđeno: „tumačenja ... ostaju sporna").
+
+### Doslednost između lekcija (cela era)
+
+- Day 302 — „gubitkom koji se različito procenjuje na milion do milion i četvrt ljudi … Vojni gubici … 370.000 do 400.000 … Civilni gubici … šeststo hiljada i više" — spor: ukupni srpski gubici u Prvom svetskom ratu (demografski gubitak nasuprot direktnim žrtvama; brojke iz reparacionih memoranduma 1919. nasuprot kasnijim procenama) — ograda: DA (već postoji „Tačne brojke ostaju predmet stručne rasprave") [OSETLJIVO] — predlog: pripisati raspon („po podacima srpske delegacije na Mirovnoj konferenciji 1919. i kod A. Mitrovića …") i razdvojiti direktne gubitke od demografskog manjka — izvor: A. Mitrović, *Srbija u Prvom svetskom ratu*; Istorija srpskog naroda VI-2.
+- Day 294 / Day 302 — „između sto i dvesta hiljada" / „između sto i sto pedeset hiljada" (tifus) — spor: broj umrlih od pegavog tifusa 1914–1915; savremeni britanski lekari navode znatno niže brojke od kasnije srpske literature — ograda: DA u Day 294, NE u Day 302 [OSETLJIVO] — predlog: isti raspon sa imenovanim izvorima u obe lekcije — izvor: Hunter 1915 (PubMed 19981291); PMC2303087; Mitrović.
+- Day 295 / Day 302 — „oko 300.000" / „oko 400.000" (Albanija 1915) — spor: broj učesnika i stradalih u povlačenju (procene stradalih od 60.000 do preko 240.000 u popularnim izvorima) — ograda: DA u Day 295 („Prema najčešće navođenoj proceni"), NE u Day 302 [OSETLJIVO] — predlog: Day 302 uskladiti sa Day 295 i zadržati Day 295 raspon — izvor: Mitrović; RTS „Od Srbije do Krfa".
+- Day 323 — „77.000 do 100.000 žrtava u samom logoru … koje stoje … iza … Spomen-područja Jasenovac, kao i radova … Žerjavića i … Kočovića" — spor: broj žrtava Jasenovca; JUSP vodi poimenični, nepotpun popis (83.145 imena), USHMM navodi 77.000–99.000, Žerjavić oko 83.000 za logor; Kočović ne daje posebnu brojku za logor; Muzej žrtava genocida i deo srpske istoriografije navode više — ograda: DA [OSETLJIVO] — predlog: pripisati tačno („USHMM: 77.000–99.000; JUSP: poimenični popis od preko 83.000 imena, nepotpun; više procene: …"), ukloniti Kočovića iz nabrajanja ako se ne može citirati brojka za logor — izvor: USHMM, „Jasenovac"; jusp-jasenovac.hr (Poimenični popis žrtava).
+- Day 323 — „novija ozbiljna istraživanja … procenjuju stradanje na otprilike 2.800 do 3.000 ljudi" (Kragujevac) — spor: 7.000 iz posleratne literature nasuprot poimeničnom popisu Spomen-parka (oko 2.800 imena) — ograda: DA [OSETLJIVO] — predlog: imenovati Spomen-park „Kragujevački oktobar" kao izvor brojke — izvor: Spomen-park Kragujevački oktobar; Manoschek, *„Serbien ist judenfrei"*.
+- Day 328 — „57.000" / Day 324 — „oko osamdeset hiljada Jevreja" — spor: broj ubijenih jugoslovenskih Jevreja (Žerjavić 57.000, Kočović 60.000, holokaust-istraživanja 60.000–67.000) — ograda: NE [OSETLJIVO] — predlog: raspon sa imenima autora (vidi Day 328 #2) — izvor: USHMM; Yad Vashem.
+- Day 305 / Day 299 — „prostom većinom" — spor: da li je način izglasavanja Vidovdanskog ustava prekršio Krfsku deklaraciju (vlada: apsolutna većina ukupnog broja = „brojno kvalifikovana"; opozicija: potrebna šira saglasnost) — ograda: DA u Day 305 („Spor … traje među istoričarima do danas") [OSETLJIVO] — predlog: oba teksta neka iznesu oba tumačenja, bez tvrdnje da je Deklaracija „predviđala upravo taj prag" — izvor: Petranović I; tekst Krfske deklaracije.
+- Day 331 — „između šesnaest i dvadeset pet hiljada ljudi" (Goli otok) — spor: broj zatočenika (zvanični podaci UDB-e oko 16.000 za Goli otok i Sv. Grgur; drugi autori više) — ograda: DA („prema procenama koje variraju") [OSETLJIVO] — predlog: bez izmene; po želji imenovati izvor (Radelić; Previšić) — izvor: M. Radelić; M. Previšić, *Povijest Golog otoka* (2019).

@@ -4096,7 +4096,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 301,
     "order": 14,
     "title": "Oslobođenje Srbije 1918.",
-    "readingTimeMinutes": 5,
+    "readingTimeMinutes": 6,
     "year": 1918,
     "isPlaceholder": false
   },
@@ -4109,7 +4109,7 @@ export const lessons: readonly LessonSummary[] = [
     "order": 15,
     "title": "Cena Prvog svetskog rata",
     "readingTimeMinutes": 6,
-    "year": 1917,
+    "year": 1918,
     "isPlaceholder": false
   },
   {
@@ -4180,7 +4180,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 308,
     "order": 6,
     "title": "Atentat u skupštini 1928.",
-    "readingTimeMinutes": 6,
+    "readingTimeMinutes": 5,
     "year": 1928,
     "isPlaceholder": false
   },
@@ -4216,7 +4216,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 311,
     "order": 9,
     "title": "Ubistvo kralja Aleksandra",
-    "readingTimeMinutes": 6,
+    "readingTimeMinutes": 7,
     "year": 1934,
     "isPlaceholder": false
   },
@@ -4241,7 +4241,7 @@ export const lessons: readonly LessonSummary[] = [
     "order": 11,
     "title": "Društvo i kultura između dva rata",
     "readingTimeMinutes": 6,
-    "year": 1930,
+    "year": 1935,
     "isPlaceholder": false
   },
   {
@@ -4253,7 +4253,7 @@ export const lessons: readonly LessonSummary[] = [
     "order": 12,
     "title": "Privreda Kraljevine Jugoslavije",
     "readingTimeMinutes": 6,
-    "year": 1930,
+    "year": 1935,
     "isPlaceholder": false
   },
   {
@@ -4265,7 +4265,7 @@ export const lessons: readonly LessonSummary[] = [
     "order": 13,
     "title": "Beograd između dva rata",
     "readingTimeMinutes": 6,
-    "year": 1930,
+    "year": 1935,
     "isPlaceholder": false
   },
   {
@@ -4420,7 +4420,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 328,
     "order": 13,
     "title": "Cena Drugog svetskog rata",
-    "readingTimeMinutes": 6,
+    "readingTimeMinutes": 7,
     "year": 1944,
     "isPlaceholder": false
   },
@@ -4540,7 +4540,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 338,
     "order": 1,
     "title": "Jugoslavija osamdesetih",
-    "readingTimeMinutes": 6,
+    "readingTimeMinutes": 7,
     "year": 1985,
     "isPlaceholder": false
   },

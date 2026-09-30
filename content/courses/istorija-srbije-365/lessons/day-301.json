@@ -6,11 +6,11 @@
   "dayNumber": 301,
   "order": 14,
   "title": "Oslobođenje Srbije 1918.",
-  "subtitle": "Od proboja Solunskog fronta do ulaska u Beograd 5. novembra — i otvorenog pitanja kakva će država nastati",
+  "subtitle": "Od proboja Solunskog fronta do ulaska u Beograd 1. novembra — i otvorenog pitanja kakva će država nastati",
   "year": 1918,
   "dateLabel": "oktobar–novembar 1918.",
   "timelinePosition": "oktobar–novembar 1918.",
-  "summary": "Posle proboja Solunskog fronta i bugarskog sloma srpska vojska za nekoliko nedelja oslobađa zemlju i 5. novembra ulazi u Beograd, dok se u pozadini raspada Austrougarska i otvara pitanje nove države.",
+  "summary": "Posle proboja Solunskog fronta i bugarskog sloma srpska vojska za nekoliko nedelja oslobađa zemlju i 1. novembra ulazi u Beograd, dok se u pozadini raspada Austrougarska i otvara pitanje nove države.",
   "keyPeople": ["kralj Petar I", "regent Aleksandar", "vojvoda Živojin Mišić", "vojvoda Petar Bojović"],
   "keyPlaces": ["Beograd", "Niš", "Skoplje", "Novi Sad"],
   "content": [
@@ -34,7 +34,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Petog novembra 1918. srpske jedinice ušle su u Beograd. Grad je bio razrušen, mostovi srušeni, mnogi kvartovi opustošeni — Beograd je u ratu bio bombardovan već prvog dana, avgusta 1914, i otada više puta. Ipak, ono što su građani videli bilo je nezaboravno: u prestonicu su, među prvim jedinicama, ulazili kralj Petar I, regent Aleksandar i vojvoda Živojin Mišić. Stari kralj, već bolestan i izmoren izgnanstvom, vraćao se u grad iz kojeg je oktobra 1915. otišao kroz albanske planine. Iza njega je bila vojska koja je od krhotina obnovljena na Krfu i u Solunu, sada već priznata kao jedna od ratnih sila pobednica."
+      "text": "Prvog novembra 1918. srpske jedinice ušle su u Beograd. Grad je bio razrušen, mostovi srušeni, mnogi kvartovi opustošeni — Beograd je u ratu bio bombardovan već prve ratne noći, 28/29. jula 1914, i otada više puta. Ipak, ono što su građani videli bilo je nezaboravno: u prestonicu je ušla Prva armija vojvode Petra Bojovića, a prvi je u grad umarširao Sedmi pešadijski puk, sastavljen mahom od Beograđana. Stari kralj Petar, bolestan i izmoren izgnanstvom, u grad iz kojeg je oktobra 1915. otišao kroz albanske planine vratiće se tek naredne godine. U Beograd je ulazila vojska koja je od krhotina obnovljena na Krfu i u Solunu, sada već priznata kao jedna od ratnih sila pobednica."
     },
     {
       "type": "paragraph",
@@ -42,7 +42,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Srpska vojska je u međuvremenu nastavljala napredovanje preko Drine i Save, ulazeći u Bosnu, Srem i Vojvodinu. Do sredine novembra držala je celu predratnu srpsku teritoriju, Vojvodinu, veliki deo Bosne, Crnu Goru i Makedoniju. Jedanaestog novembra Nemačka je u Kompijenu potpisala primirje i Veliki rat je na zapadnom frontu zvanično bio završen. Politički, najkrupnije odluke padale su gotovo iz dana u dan. Dvadeset četvrtog novembra Velika narodna skupština Srba, Bunjevaca i ostalih Slovena u Novom Sadu izglasala je priključenje Banata, Bačke i Baranje Kraljevini Srbiji. Dva dana kasnije, 26. novembra, sporna Podgorička skupština svrgnula je dinastiju Petrović-Njegoš i proglasila ujedinjenje Crne Gore sa Srbijom — odluka koja će decenijama izazivati otpor jednog dela crnogorskog naroda i ostati među najspornijim trenucima te jeseni."
+      "text": "Srpska vojska je u međuvremenu nastavljala napredovanje preko Drine i Save, ulazeći u Bosnu, Srem i Vojvodinu. Do sredine novembra držala je celu predratnu srpsku teritoriju, Vojvodinu, veliki deo Bosne, Crnu Goru i Makedoniju. Jedanaestog novembra Nemačka je u Kompijenu potpisala primirje i Veliki rat je na zapadnom frontu zvanično bio završen. Politički, najkrupnije odluke padale su gotovo iz dana u dan. Dvadeset petog novembra Velika narodna skupština Srba, Bunjevaca i ostalih Slovena u Novom Sadu izglasala je priključenje Banata, Bačke i Baranje Kraljevini Srbiji. Sutradan, 26. novembra, sporna Podgorička skupština svrgnula je dinastiju Petrović-Njegoš i proglasila ujedinjenje Crne Gore sa Srbijom — odluka koja će decenijama izazivati otpor jednog dela crnogorskog naroda i ostati među najspornijim trenucima te jeseni."
     },
     {
       "type": "paragraph",
