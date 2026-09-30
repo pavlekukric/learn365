@@ -10,14 +10,14 @@
   "year": 1883,
   "dateLabel": "1883.",
   "timelinePosition": "1883.",
-  "summary": "U oktobru 1883. seljaci istočne Srbije ustaju protiv vladine odluke da im se oduzmu stare puške; buna je brzo razbijena, a represija — prevremeni sud u Zaječaru, streljanja i progon radikala — postaje prvi krvavi sukob dvora i Narodne radikalne stranke.",
-  "keyPeople": ["Milan Obrenović", "Milan Piroćanac", "Nikola Pašić", "Pera Todorović", "Aca Stanojević"],
-  "keyPlaces": ["Zaječar", "Timok", "Crnorečki okrug", "Krajinski okrug", "Banjski okrug"],
+  "summary": "U oktobru 1883. seljaci istočne Srbije ustaju protiv vladine odluke da im se oduzmu puške narodne vojske koje su čuvali kod kuće; buna je brzo razbijena, a represija — preki sud u Zaječaru, streljanja i progon radikala — postaje prvi krvavi sukob dvora i Narodne radikalne stranke.",
+  "keyPeople": ["Milan Obrenović", "Milan Piroćanac", "Nikola Hristić", "Nikola Pašić", "Pera Todorović", "Aca Stanojević"],
+  "keyPlaces": ["Zaječar", "Timok", "Knjaževac", "Boljevac", "Sokobanja"],
   "content": [
     {
       "type": "paragraph",
       "dropcap": true,
-      "text": "U jesen 1883. godine, u krajevima oko Timoka — u Crnorečkom, Krajinskom i Banjskom okrugu — selo se diglo protiv sopstvene vlade. Povod je bio naizgled tehnički, gotovo administrativni: odluka da se seljacima oduzmu stare puške, pretežno „kremenjače“ zaostale iz srpsko-turskih ratova, i da se time dovrši reforma vojske i razoružanje paramilitarnih elemenata u zemlji. Vlada Milana Piroćanca, sastavljena od ljudi Napredne stranke, na to je gledala kao na razuman korak modernizacije. Selo je na isto gledalo sasvim drugačije — puška je u domu bila porodični amanet, znak časti i dokaz da je kuća učestvovala u nedavnim ratovima protiv Osmanlija. Tu se sukobio jedan beogradski zakon sa jednim seljačkim osećanjem."
+      "text": "U jesen 1883. godine, u krajevima oko Timoka — u knjaževačkom, zaječarskom, boljevačkom i sokobanjskom kraju — selo se diglo protiv sopstvene vlade. Povod je bio naizgled tehnički, gotovo administrativni: odluka da se seljacima oduzmu puške narodne vojske koje su se po starom sistemu čuvale po kućama, i da se time dovrši reforma vojske. Vlada Milana Piroćanca, sastavljena od ljudi Napredne stranke, na to je gledala kao na razuman korak modernizacije. Selo je na isto gledalo sasvim drugačije — puška je u domu bila porodični amanet, znak časti i dokaz da je kuća učestvovala u nedavnim ratovima protiv Osmanlija. Tu se sukobio jedan beogradski zakon sa jednim seljačkim osećanjem."
     },
     {
       "type": "paragraph",
@@ -25,7 +25,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Kada su krajem oktobra 1883. u timočke sreze stigli organi vlasti da preuzmu puške, na više mesta dočekani su otporom. Otpor se proširio brže nego što je iko očekivao. U svega nekoliko dana pristupilo mu je nekoliko hiljada ljudi — seljaci sa svojim oružjem, mahom oni isti koje je vlast želela razoružati. Pobunjenici su zauzeli pojedine opštine, razoružali žandarme, prekinuli telegrafske linije; čuli su se i pojedinačni pozivi na svrgavanje vlade. Ipak, pokret je od početka bio bez jasnog vojnog vođstva i bez jedinstvenog plana — više roj ogorčenih sela nego organizovana vojska."
+      "text": "Posle izbornog poraza naprednjaka u septembru 1883. vladu je preuzeo Nikola Hristić; pod njim je sprovedeno oduzimanje oružja i ugušena buna. Kada su krajem oktobra 1883. u timočke sreze stigli organi vlasti da preuzmu puške, na više mesta dočekani su otporom. Otpor se proširio brže nego što je iko očekivao. U svega nekoliko dana pristupilo mu je nekoliko hiljada ljudi — seljaci sa svojim oružjem, mahom oni isti koje je vlast želela razoružati. Pobunjenici su zauzeli pojedine opštine, razoružali žandarme, prekinuli telegrafske linije; čuli su se i pojedinačni pozivi na svrgavanje vlade. Ipak, pokret je od početka bio bez jasnog vojnog vođstva i bez jedinstvenog plana — više roj ogorčenih sela nego organizovana vojska."
     },
     {
       "type": "heading",
@@ -34,7 +34,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Vlada je odgovorila brzo i odlučno. Iz Beograda i Niša upućene su redovne vojne jedinice, sa topovima i konjicom. Sukobi su trajali svega nekoliko dana — kod Knjaževca i u okolini Zaječara, pobunjenici su razbijeni gotovo bez prave bitke. Mnogi su pobegli u šume i preko granice u Bugarsku; oni koji su uhvaćeni odvedeni su u Zaječar, gde je u rekordnom roku organizovan prevremeni sud, jedna vrsta ratnog suda nadležnog za pobunjenike. Suđenja su tekla kratko, a brojke su bile teške: više od osam stotina ljudi optuženo je, devedeset četvorica osuđena na smrt, dvadeset jedan stvarno streljan. Među streljanima su uglavnom bili seljaci i nekoliko sreskih radikalnih prvaka."
+      "text": "Vlada je odgovorila brzo i odlučno. Iz Beograda i Niša upućene su redovne vojne jedinice, sa topovima i konjicom. Sukobi su trajali svega nekoliko dana — kod Knjaževca i u okolini Zaječara, pobunjenici su razbijeni gotovo bez prave bitke. Mnogi su pobegli u šume i preko granice u Bugarsku; oni koji su uhvaćeni odvedeni su u Zaječar, gde je u rekordnom roku organizovan preki sud nadležan za pobunjenike. Suđenja su tekla kratko, a brojke su bile teške: više od osam stotina ljudi optuženo je, devedeset četvorica osuđena na smrt, dvadeset jedan stvarno streljan. Među streljanima su uglavnom bili seljaci i nekoliko sreskih radikalnih prvaka."
     },
     {
       "type": "paragraph",
@@ -46,7 +46,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Posledice Timočke bune nadrastaju njen kratak trenutak. Sa jedne strane, kralj Milan i naprednjaci dobili su trenutni vojni i sudski trijumf — pokazali su da država ima snagu da uguši pobunu i kazni je primerno. Sa druge, otvorili su ranu koja se neće zaceliti: porodice streljanih, sela koja su pamtila vešala, izgnani prvaci u Sofiji — sve je to ulazilo u narodnu memoriju kao priča o nepravedno prolivenoj krvi. Narodna radikalna stranka iz tog je iskustva izašla teža za nekoliko stotina svojih ljudi, ali i ojačana kao moralni rival dvoru. Sukob koji će u narednim decenijama obeležiti srpsku politiku — između Obrenovića i radikala, između birokratske modernizacije odozgo i narodne samouprave odozdo — dobio je u oktobru 1883. svoj prvi krvavi obris. Timočka buna bila je upozorenje da brzina reformi, ako preskoči ono što selo doživljava kao svoju čast, ume da plati visoku cenu."
+      "text": "Posledice Timočke bune nadrastaju njen kratak trenutak. Sa jedne strane, kralj Milan i njegova vlada dobili su trenutni vojni i sudski trijumf — pokazali su da država ima snagu da uguši pobunu i kazni je primerno. Sa druge, otvorili su ranu koja se neće zaceliti: porodice streljanih, sela koja su pamtila streljanja, izgnani prvaci u Sofiji — sve je to ulazilo u narodnu memoriju kao priča o nepravedno prolivenoj krvi. Narodna radikalna stranka iz tog je iskustva izašla teža za nekoliko stotina svojih ljudi, ali i ojačana kao moralni rival dvoru. Sukob koji će u narednim decenijama obeležiti srpsku politiku — između Obrenovića i radikala, između birokratske modernizacije odozgo i narodne samouprave odozdo — dobio je u oktobru 1883. svoj prvi krvavi obris. Timočka buna bila je upozorenje da brzina reformi, ako preskoči ono što selo doživljava kao svoju čast, ume da plati visoku cenu."
     }
   ],
   "isPlaceholder": false

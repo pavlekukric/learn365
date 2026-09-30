@@ -13053,11 +13053,11 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Učinak ustavobranitelja, gledano iz perspektive ustanova, bio je značajan. Godine 1844. donet je Građanski zakonik, koji je u suštini bio prevod austrijskog Allgemeines bürgerliches Gesetzbuch iz 1811, prilagođen srpskim prilikama uz neke izmene u oblasti porodičnog i naslednog prava, posebno zbog zadruge. Bio je to prvi moderni kodeks građanskog prava na Balkanu i, što je još važnije, ostao je na snazi sve do sredine 20. veka. Reorganizovano je sudstvo na tri stepena, uvedene su redovne sudske procedure, a samovolja vlasti — koja je u Miloševo vreme bila pravilo — počela je polako da se ograničava pisanim zakonom."
+        "text": "Učinak ustavobranitelja, gledano iz perspektive ustanova, bio je značajan. Godine 1844. donet je Građanski zakonik, koji je u suštini bio prevod austrijskog Allgemeines bürgerliches Gesetzbuch iz 1811, prilagođen srpskim prilikama uz neke izmene u oblasti porodičnog i naslednog prava, posebno zbog zadruge. Bio je to jedan od prvih modernih građanskih zakonika u Evropi — posle francuskog, austrijskog i holandskog — i, što je još važnije, ostao je na snazi sve do sredine 20. veka. Reorganizovano je sudstvo na tri stepena, uvedene su redovne sudske procedure, a samovolja vlasti — koja je u Miloševo vreme bila pravilo — počela je polako da se ograničava pisanim zakonom."
       },
       {
         "type": "paragraph",
-        "text": "U isto vreme uređivana je državna uprava. Osnovana je organizovana policija — pandurija i žandarmerija — sa Ministarstvom unutrašnjih dela kao njenim centrom. Garašanin, koji je tim ministarstvom dugo upravljao, postao je najmoćniji čovek režima upravo zato što je držao polugu unutrašnje bezbednosti. Reformisan je poreski sistem: umesto dažbina koje su se naplaćivale na stari, balkanski način, uvođen je porez prema imovini i prihodu, sa boljim evidencijama i kanalisanim tokom novca u državnu kasu. Građene su prve moderne pošte, prvi tvrdi putevi, prvi telegrafski vodovi koji su Beograd povezivali sa unutrašnjošću zemlje."
+        "text": "U isto vreme uređivana je državna uprava. Osnovana je organizovana policija — pandurija — sa Ministarstvom unutrašnjih dela kao njenim centrom. Garašanin, koji je tim ministarstvom dugo upravljao, postao je najmoćniji čovek režima upravo zato što je držao polugu unutrašnje bezbednosti. Uređen je poreski sistem, sa boljim evidencijama i kanalisanim tokom novca u državnu kasu. Građene su prve moderne pošte, prvi tvrdi putevi, prvi telegrafski vodovi koji su Beograd povezivali sa unutrašnjošću zemlje."
       },
       {
         "type": "paragraph",
@@ -13065,7 +13065,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Spoljnopolitički, ustavobranitelji su menjali pravac koji je Srbija dotad sledila. Umesto oslonca na Rusiju, koji su negovali Obrenovići, sada se traži ravnoteža: priznaje se vrhovništvo Porte, ali se diplomatski mostovi grade pre svega prema Beču. Iz tog miljea izrasta i Garašaninovo Načertanije iz 1844, tajni program o budućnosti srpske države i jugoslovenskom prostoru, kome će biti posvećena posebna lekcija. Dovoljno je ovde reći da je Načertanije ideja jedne uske grupe ljudi u režimu, a ne otvorena državna politika tog vremena."
+        "text": "Spoljnopolitički, ustavobranitelji su menjali pravac koji je Srbija dotad sledila. Umesto dotadašnje zavisnosti od ruskog protektorata, sada se postepeno traži ravnoteža: priznaje se vrhovništvo Porte, ali se diplomatski mostovi grade pre svega prema Beču. Iz tog miljea izrasta i Garašaninovo Načertanije iz 1844, tajni program o budućnosti srpske države i jugoslovenskom prostoru, kome će biti posvećena posebna lekcija. Dovoljno je ovde reći da je Načertanije ideja jedne uske grupe ljudi u režimu, a ne otvorena državna politika tog vremena."
       },
       {
         "type": "paragraph",
@@ -13098,16 +13098,16 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "content": [
       {
         "type": "paragraph",
-        "text": "Kada je u jesen 1842. godine, na vanrednoj Skupštini sazvanoj u Beogradu, izabran novi srpski knez, mnogima je delovalo da se istorija na čudan način vraća: presto je dobio Aleksandar, sin Karađorđa Petrovića, vožda Prvog srpskog ustanka. Trideset godina ranije, Karađorđe je 1813. pred turskom silom napustio Srbiju i poveo porodicu u izgnanstvo; njegov mali sin Aleksandar, rođen 1806, odrastao je daleko od zemlje koju mu je otac pokušao da oslobodi. Sada je, kao zreo čovek od trideset šest godina, dolazio nazad ne kao osvetnik za očevu krv, nego kao kompromisno rešenje jedne sasvim druge političke računice.",
+        "text": "Kada je u jesen 1842. godine, na vanrednoj Skupštini sazvanoj u Beogradu, izabran novi srpski knez, mnogima je delovalo da se istorija na čudan način vraća: presto je dobio Aleksandar, sin Karađorđa Petrovića, vožda Prvog srpskog ustanka. Trideset godina ranije, Karađorđe je 1813. pred turskom silom napustio Srbiju i poveo porodicu u izgnanstvo; njegov mali sin Aleksandar, rođen 1806, odrastao je daleko od zemlje koju mu je otac pokušao da oslobodi. Sada je, kao zreo čovek od trideset pet godina, dolazio nazad ne kao osvetnik za očevu krv, nego kao kompromisno rešenje jedne sasvim druge političke računice.",
         "dropcap": true
       },
       {
         "type": "paragraph",
-        "text": "Detinjstvo i mladost proveo je u Hotinju, u tadašnjoj ruskoj Besarabiji, a zatim u Petrogradu, gde je dobio vojnu i opštu školu kakvu mu domovina nikako ne bi mogla pružiti. Oženio se Persidom Nenadović (1813–1873), unukom Jakova Nenadovića, jednog od velikih vojvoda iz očeve generacije — i tim brakom spojio dve najpoznatije ustaničke loze. Vratio se u Srbiju za vlade Miloša Obrenovića i ušao u njegovu vojsku kao oficir, da bi posle postao i adjutant samog kneza. Bila je to čudna ravnoteža: sin čoveka koga su Obrenovići dali ubiti 1817. godine službovao je na dvoru sina onoga koji je tu naredbu izdao. Aleksandar nije pravio nevolje — ćutljiv, povučen, sklon vojnoj formi i crkvenom obredu, delovao je kao čovek koji svoju lozu nosi tiho, bez izazova."
+        "text": "Detinjstvo i mladost proveo je u Hotinju, u tadašnjoj ruskoj Besarabiji. Oženio se Persidom Nenadović (1813–1873), unukom Jakova Nenadovića, jednog od velikih vojvoda iz očeve generacije — i tim brakom spojio dve najpoznatije ustaničke loze. Vratio se u Srbiju 1839, posle Miloševe abdikacije, i ušao u vojsku kao oficir, da bi postao i ađutant kneza Mihaila. Bila je to čudna ravnoteža: sin čoveka koga su Obrenovići dali ubiti 1817. godine službovao je na dvoru sina onoga koji je tu naredbu izdao. Aleksandar nije pravio nevolje — ćutljiv, povučen, sklon vojnoj formi i crkvenom obredu, delovao je kao čovek koji svoju lozu nosi tiho, bez izazova."
       },
       {
         "type": "paragraph",
-        "text": "Upravo ta osobina ga je 1842. godine, posle ustavobraniteljskog prevrata i zbacivanja mladog kneza Mihaila, učinila pogodnim. Vučić i Petronijević, jaki ljudi novog režima, tražili su kneza koji će biti dovoljno legitiman po krvi — sin vožda — a istovremeno dovoljno slab po karakteru da im neće smetati. Mihailo Obrenović je za njih bio i preopasan i previše vezan za očevu strogu, ličnu vlast. Aleksandar je bio suprotnost: čovek bez ambicije da sam vlada, koji će potpisivati ono što mu Savet i ministri stave pred ruku. Skupština ga je 14. (26.) septembra 1842. izabrala za kneza, a ruska i turska strana, posle pregovora, prihvatile su izbor. Na Topolu, gde je svojevremeno započela očeva pobuna, sin se vraćao kao vladar — ali u suštinski drugačijoj ulozi."
+        "text": "Upravo ta osobina ga je 1842. godine, posle ustavobraniteljskog prevrata i zbacivanja mladog kneza Mihaila, učinila pogodnim. Vučić i Petronijević, jaki ljudi novog režima, tražili su kneza koji će biti dovoljno legitiman po krvi — sin vožda — a istovremeno dovoljno slab po karakteru da im neće smetati. Mihailo Obrenović je za njih bio i preopasan i previše vezan za očevu strogu, ličnu vlast. Aleksandar je bio suprotnost: čovek bez ambicije da sam vlada, koji će potpisivati ono što mu Savet i ministri stave pred ruku. Skupština na Vračaru ga je 2. (14.) septembra 1842. izabrala za kneza, a ruska i turska strana, posle pregovora, prihvatile su izbor. Na Topolu, gde je svojevremeno započela očeva pobuna, sin se vraćao kao vladar — ali u suštinski drugačijoj ulozi."
       },
       {
         "type": "heading",
@@ -13124,7 +13124,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Sve se prelomilo krajem 1858. godine. Svetoandrejska skupština, sazvana u Beogradu, pretvorila se u sud nad njegovom vladavinom. Optužbe su išle od popuštanja prema strancima do zanemarivanja zakona; iza političkog jezika ležala je jednostavna ocena da knez više nije sposoban da državu drži u rukama. Skupština ga je smenila i pozvala nazad Miloša Obrenovića, koji se vraćao iz izgnanstva kao starac, ali kao čovek koga je narod pamtio. Aleksandar je presto napustio bez većeg otpora i otišao u inostranstvo, gde je preostale godine života proveo kao privatno lice. Umro je u Beču 1885. godine, daleko od zemlje kojom je nominalno vladao."
+        "text": "Sve se prelomilo krajem 1858. godine. Svetoandrejska skupština, sazvana u Beogradu, pretvorila se u sud nad njegovom vladavinom. Optužbe su išle od popuštanja prema strancima do zanemarivanja zakona; iza političkog jezika ležala je jednostavna ocena da knez više nije sposoban da državu drži u rukama. Skupština ga je smenila i pozvala nazad Miloša Obrenovića, koji se vraćao iz izgnanstva kao starac, ali kao čovek koga je narod pamtio. Aleksandar je presto napustio bez većeg otpora i otišao u inostranstvo, gde je preostale godine života proveo kao privatno lice. Umro je 1885. godine na svom imanju kod Temišvara, a sahranjen u Beču — daleko od zemlje kojom je nominalno vladao."
       },
       {
         "type": "paragraph",
@@ -13146,7 +13146,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       "Beograd",
       "Topola",
       "Hotin",
-      "Petrograd",
+      "Temišvar",
       "Beč"
     ]
   },
@@ -13154,12 +13154,12 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "content": [
       {
         "type": "paragraph",
-        "text": "U leto i jesen 1844. godine, dok je ustavobraniteljski režim u Beogradu još uvek pažljivo merio svoj položaj između sultana, ruskog cara i zapadnih sila, ministar unutrašnjih dela Ilija Garašanin sastavio je za uzak krug knežev i nekoliko poverenika dokument koji nije imao zvanično ime, nije bio objavljen, niti je ikada postao deo vladine politike u službenom smislu. Kasnije će ga istoričari nazvati Načertanije — „nacrt”, „skica”. Bio je to pokušaj da se na nekoliko gusto pisanih strana skicira ono što Srbija, kao mala kneževina pod sultanovom vrhovnom vlašću, misli o svom položaju, susedima i budućnosti.",
+        "text": "U leto i jesen 1844. godine, dok je ustavobraniteljski režim u Beogradu još uvek pažljivo merio svoj položaj između sultana, ruskog cara i zapadnih sila, ministar unutrašnjih dela Ilija Garašanin sastavio je za uzak krug knežev i nekoliko poverenika dokument koji je sam Garašanin nazvao Načertanije — „nacrt”, „skica” — ali koji nije bio objavljen, niti je ikada postao deo vladine politike u službenom smislu. Bio je to pokušaj da se na nekoliko gusto pisanih strana skicira ono što Srbija, kao mala kneževina pod sultanovom vrhovnom vlašću, misli o svom položaju, susedima i budućnosti.",
         "dropcap": true
       },
       {
         "type": "paragraph",
-        "text": "Garašanin tekst nije izmislio iz prazne sobe. Iza njega je stajala šira evropska mreža. U Parizu je delovao knez Adam Čartoriski, vođa poljske emigracije okupljene oko palate Hôtel Lambert — ljudi koji su, posle propasti ustanka iz 1830, tražili načine da oslabe Rusiju i Austriju i da slovenske narode na Balkanu povežu u protivtežu tim silama. Čartoriski je 1843. razradio takozvani „Plan slovenske politike”, a u Beograd je kao svog agenta uputio Čeha Franju Zaha. Zah je, oslanjajući se na Čartoriskijeve ideje, sastavio prvi nacrt memoranduma sa širim, jugoslovenskim okvirom — pretpostavkom da bi Srbija mogla da bude središte oko kojeg će se okupiti i drugi južnoslovenski narodi pod turskom i habzburškom vlašću."
+        "text": "Garašanin tekst nije izmislio iz prazne sobe. Iza njega je stajala šira evropska mreža. U Parizu je delovao knez Adam Čartoriski, vođa poljske emigracije okupljene oko palate Hôtel Lambert — ljudi koji su, posle propasti ustanka iz 1830, tražili načine da oslabe Rusiju i Austriju i da slovenske narode na Balkanu povežu u protivtežu tim silama. Čartoriski je početkom 1843. sastavio „Savete o postupanju Srbije” (Conseils sur la conduite à suivre par la Serbie), a u Beograd je kao svog agenta uputio Čeha Franju Zaha. Zah je, oslanjajući se na Čartoriskijeve ideje, sastavio prvi nacrt memoranduma sa širim, jugoslovenskim okvirom — pretpostavkom da bi Srbija mogla da bude središte oko kojeg će se okupiti i drugi južnoslovenski narodi pod turskom i habzburškom vlašću."
       },
       {
         "type": "paragraph",
@@ -13172,7 +13172,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Sredstva koja Načertanije predlaže nisu rat. Naprotiv: tekst izričito upozorava da Srbija nema snage da otvoreno izaziva ni sultana ni velike sile, i da svaki preuranjen oružani potez vodi u propast. Umesto toga, predlaže se strpljiva politika — slanje pouzdanih ljudi u susedne oblasti, podržavanje škola, knjiga i crkve, prikupljanje znanja o tim sredinama, izgradnja mreže veza i uticaja. Pojavljuje se ideja koju će kasnija nauka nazvati „mekom moći”: utiče se rečju, vezama i ugledom, a oružje se ostavlja za trenutak koji možda nikada ne dođe, ili koji dolazi tek kada okolnosti same otvore vrata. Garašanin posebno naglašava da Srbija mora paziti na odnose sa Zapadom — sa Francuskom i Britanijom — i da ne sme dopustiti da postane puki izvršilac ruske politike, koliko god joj ruska podrška bila važna."
+        "text": "Za neposredno vreme, sredstva koja Načertanije predlaže nisu rat. Naprotiv: tekst izričito upozorava da Srbija nema snage da otvoreno izaziva ni sultana ni velike sile, i da svaki preuranjen oružani potez vodi u propast. Umesto toga, predlaže se strpljiva politika — slanje pouzdanih ljudi u susedne oblasti, podržavanje škola, knjiga i crkve, prikupljanje znanja o tim sredinama, izgradnja mreže veza i uticaja. Pojavljuje se ideja koju će kasnija nauka nazvati „mekom moći”: utiče se rečju, vezama i ugledom, a oružje se ostavlja za trenutak koji možda nikada ne dođe, ili koji dolazi tek kada okolnosti same otvore vrata. Garašanin posebno naglašava da Srbija mora paziti na odnose sa Zapadom — sa Francuskom i Britanijom — i da ne sme dopustiti da postane puki izvršilac ruske politike, koliko god joj ruska podrška bila važna."
       },
       {
         "type": "paragraph",
@@ -13221,7 +13221,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Da bi takvi sudovi mogli da rade, bio je potreban zakon. Godine 1844. donet je Građanski zakonik Kneževine Srbije, delo Jovana Hadžića, pravnika rođenog u Sremu i školovanog u Pešti i Beču. Hadžić je u osnovi preuzeo austrijski Allgemeines bürgerliches Gesetzbuch iz 1811. godine — jedan od najuglednijih evropskih građanskih zakonika tog doba — i prilagodio ga srpskim prilikama, pre svega zadružnoj svojini i pravoslavnom porodičnom pravu. Zakonik je pisan staloženim jezikom, sa jasno numerisanim paragrafima, i postao je jedan od najznamenitijih pravnih spomenika srpske istorije. Ostao je na snazi sve do posle 1918. godine, dakle skoro tri četvrtine veka, i prešao je iz Kneževine u Kraljevinu i potom u novu jugoslovensku državu kao činjenica koju nijedan režim nije lako dirao. Krivični zakonik donet je nešto kasnije, 1860, ali u istom duhu evropske kodifikacije."
+        "text": "Da bi takvi sudovi mogli da rade, bio je potreban zakon. Godine 1844. donet je Građanski zakonik Kneževine Srbije, delo Jovana Hadžića, pravnika rođenog u Somboru i školovanog u Pešti i Beču. Hadžić je u osnovi preuzeo austrijski Allgemeines bürgerliches Gesetzbuch iz 1811. godine — jedan od najuglednijih evropskih građanskih zakonika tog doba — i prilagodio ga srpskim prilikama, pre svega zadružnoj svojini i pravoslavnom porodičnom pravu. Zakonik je pisan staloženim jezikom, sa jasno numerisanim paragrafima, i postao je jedan od najznamenitijih pravnih spomenika srpske istorije. Ostao je na snazi preko sto godina — do 1946, a pojedine njegove odredbe primenjivale su se kao pravna pravila i posle toga — i prešao je iz Kneževine u Kraljevinu i potom u novu jugoslovensku državu kao činjenica koju nijedan režim nije lako dirao. Krivični zakonik donet je nešto kasnije, 1860, ali u istom duhu evropske kodifikacije."
       },
       {
         "type": "heading",
@@ -13238,7 +13238,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Uz institucije rastao je i materijalni okvir države. Postavljene su prve telegrafske linije, organizovana je redovna pošta sa markama i raspisanim taksama, počelo se sa popravkom puteva i podizanjem mostova preko reka koje su do tada značile granicu između susednih sela. Ništa od toga još nije bilo evropski razmah; bila je to skromna mreža, često u kvaru, ali je po prvi put postojala kao sistem, a ne kao niz pojedinačnih kneževih darova."
+        "text": "Uz institucije rastao je i materijalni okvir države. Postavljene su prve telegrafske linije, organizovana je redovna pošta sa propisanim taksama, počelo se sa popravkom puteva i podizanjem mostova preko reka koje su do tada značile granicu između susednih sela. Ništa od toga još nije bilo evropski razmah; bila je to skromna mreža, često u kvaru, ali je po prvi put postojala kao sistem, a ne kao niz pojedinačnih kneževih darova."
       },
       {
         "type": "paragraph",
@@ -13296,11 +13296,11 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Slika postaje još jasnija kada se pogleda novac. Kneževina Srbija sredinom 19. veka nije imala sopstvenu valutu. U opticaju je bila šarena mešavina kovanica — turski groševi, austrijski forinti i talili, ruske rublje, francuski franci, ponegde i starije osmanske pare. Ceniti, plaćati i računati u takvoj zbrci bio je posao za sebe; svaka veća pijaca imala je menjače koji su, uz proviziju, izračunavali odnose. Sopstveni srpski dinar uvešće se tek 1873. godine, dakle više od dve decenije posle vremena o kome govorimo. Sve dotle, zemlja je politički vodila sopstvenu spoljnu politiku, ali je novčano živela na tuđem novcu — još jedna fina mera njene tadašnje stvarnosti."
+        "text": "Slika postaje još jasnija kada se pogleda novac. Kneževina Srbija sredinom 19. veka nije imala sopstvenu valutu. U opticaju je bila šarena mešavina kovanica — turski groševi, austrijski forinti i taliri, ruske rublje, francuski franci, ponegde i starije osmanske pare. Ceniti, plaćati i računati u takvoj zbrci bio je posao za sebe; svaka veća pijaca imala je menjače koji su, uz proviziju, izračunavali odnose. Sopstveni srpski dinar uvešće se tek 1873. godine, dakle više od dve decenije posle vremena o kome govorimo. Sve dotle, zemlja je politički vodila sopstvenu spoljnu politiku, ali je novčano živela na tuđem novcu — još jedna fina mera njene tadašnje stvarnosti."
       },
       {
         "type": "paragraph",
-        "text": "Život je bio uglavnom seoski. Beograd, glavni grad, imao je sredinom veka oko trideset hiljada stanovnika — po današnjim merilima manje varoš nego grad. Druge varoši — Kragujevac, Šabac, Požarevac, Užice — bile su znatno manje. Velika većina ljudi živela je na selu, u zadružnim domaćinstvima koja su pod jednim krovom okupljala više porodica. Pismenost je bila niska, naročito kod žena; štampana knjiga i novine bili su redak gost u kući. Lekara je bilo malo, bolnica gotovo nikako, a osnovne mere države — porez, vojska, sud — često su do sela stizale preko kmeta i sveštenika."
+        "text": "Život je bio uglavnom seoski. Beograd, glavni grad, imao je sredinom veka oko sedamnaest hiljada stanovnika — po današnjim merilima manje varoš nego grad. Druge varoši — Kragujevac, Šabac, Požarevac, Užice — bile su znatno manje. Velika većina ljudi živela je na selu, u zadružnim domaćinstvima koja su pod jednim krovom okupljala više porodica. Pismenost je bila niska, naročito kod žena; štampana knjiga i novine bili su redak gost u kući. Lekara je bilo malo, bolnica gotovo nikako, a osnovne mere države — porez, vojska, sud — često su do sela stizale preko kmeta i sveštenika."
       },
       {
         "type": "paragraph",
@@ -13328,7 +13328,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "content": [
       {
         "type": "paragraph",
-        "text": "Sredinom pedesetih godina devetnaestog veka ustavobraniteljski poredak u Srbiji počeo je da se troši iznutra. Knez Aleksandar Karađorđević, koga su 1842. doveli upravo ustavobranitelji, već dugo nije bio samostalan vladar, ali ni oni sami više nisu bili jedinstveni. Sovjet, telo doživotnih senatora koje je po Turskom ustavu iz 1838. delilo vlast s knezom, raslojio se na frakcije, a stari saborci iz prvih godina — Vučić, Petronijević i drugi — uglavnom su pomrli ili izgubili uticaj. U pozadini, evropska politička karta menjala se nakon Krimskog rata.",
+        "text": "Sredinom pedesetih godina devetnaestog veka ustavobraniteljski poredak u Srbiji počeo je da se troši iznutra. Knez Aleksandar Karađorđević, koga su 1842. doveli upravo ustavobranitelji, već dugo nije bio samostalan vladar, ali ni oni sami više nisu bili jedinstveni. Sovjet, telo doživotnih senatora koje je po Turskom ustavu iz 1838. delilo vlast s knezom, raslojio se na frakcije, a stari saborci iz prvih godina su se razišli: Petronijević je umro još 1852, a Vučić je sada, zajedno sa Garašaninom, radio na kneževom svrgavanju. U pozadini, evropska politička karta menjala se nakon Krimskog rata.",
         "dropcap": true
       },
       {
@@ -13337,7 +13337,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "U toj atmosferi, krajem novembra 1858. godine, sazvana je u Beogradu Narodna skupština. Po pravoslavnom prazniku Svetog Andreja, koji je padao na 12. odnosno 24. novembar po novom kalendaru, ostaće upamćena kao Svetoandrejska. Po sastavu i veličini bila je drugačija od svega što se do tada viđalo: računa se da je okupila preko četiri stotine delegata iz svih nahija, mnogo više nego ranije skupštine. Sastav je bio izrazito mešovit — seoski knezovi, sveštenici, varoški trgovci, jedan deo mladih obrazovanih ljudi koji su se vraćali sa studija u Francuskoj i Nemačkoj. Među njima su se isticali Jevrem Grujić i Milovan Janković, takozvani „pariski đaci”, koji su u Srbiju doneli ideje predstavničke vlasti, slobode štampe i vladavine zakona."
+        "text": "U toj atmosferi, krajem novembra 1858. godine, sazvana je u Beogradu Narodna skupština. Po prazniku Svetog Andreja, 30. novembra (12. decembra po novom kalendaru), kada je otvorena, ostaće upamćena kao Svetoandrejska. Po sastavu i veličini bila je drugačija od svega što se do tada viđalo: računa se da je okupila preko četiri stotine delegata iz svih nahija, mnogo više nego ranije skupštine. Sastav je bio izrazito mešovit — seoski knezovi, sveštenici, varoški trgovci, jedan deo mladih obrazovanih ljudi koji su se vraćali sa studija u Francuskoj i Nemačkoj. Među njima su se isticali Jevrem Grujić i Milovan Janković, takozvani „pariski đaci”, koji su u Srbiju doneli ideje predstavničke vlasti, slobode štampe i vladavine zakona."
       },
       {
         "type": "heading",
@@ -13346,11 +13346,11 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Skupština je radila u nervoznoj atmosferi, uz strah od oružane intervencije i uz pokušaje kneževe pratnje da raspoloženje preokrenu. Posle nekoliko nedelja rasprave, 10. odnosno 22. decembra 1858. doneta je odluka koja je prelomila epohu: Aleksandar Karađorđević je svrgnut, a stari knez Miloš Obrenović pozvan je da se iz dugog izgnanstva vrati u zemlju i ponovo preuzme presto. Aleksandar je posle kratkog kolebanja napustio Beograd i otišao u Zemun, pod austrijsku zaštitu. Miloš se odazvao pozivu i početkom 1859. ušao u Beograd kao knez po drugi put, sada već starac od skoro osamdeset godina, ali još uvek prepoznatljiv po istoj snazi volje s kojom je nekada vladao."
+        "text": "Skupština je radila u nervoznoj atmosferi, uz strah od oružane intervencije i uz pokušaje kneževe pratnje da raspoloženje preokrenu. Posle desetak dana rasprave, 10. odnosno 22. decembra 1858, od kneza je zatraženo da se odrekne prestola. Aleksandar se posle kratkog kolebanja iste noći sklonio u beogradsku tvrđavu, kod turskog paše, a skupština je sutradan, 11. (23.) decembra, donela odluku koja je prelomila epohu: Aleksandar Karađorđević je proglašen svrgnutim, a stari knez Miloš Obrenović pozvan je da se iz dugog izgnanstva vrati u zemlju i ponovo preuzme presto. Svrgnuti knez je potom napustio zemlju. Miloš se odazvao pozivu i početkom 1859. ušao u Beograd kao knez po drugi put, sada već starac od skoro osamdeset godina, ali još uvek prepoznatljiv po istoj snazi volje s kojom je nekada vladao."
       },
       {
         "type": "paragraph",
-        "text": "Značaj Svetoandrejske skupštine ima dva sloja. Prvi je dinastički. Posle petnaest godina Karađorđevića na prestolu, Obrenovići su se vratili na vlast, i to ne osvajanjem ili spoljnom intervencijom, nego odlukom domaće skupštine. Time je započela nova faza borbe dve dinastije, koja će obeležiti narednih pola veka srpske istorije. Drugi sloj je ustavni. Po prvi put u modernoj srpskoj državi jedno predstavničko telo svrglo je kneza i postavilo drugog — to je bila praksa koja je nadilazila slovo Turskog ustava i koja se može opisati kao prvi srpski „parlamentarni” trenutak u širem smislu reči."
+        "text": "Značaj Svetoandrejske skupštine ima dva sloja. Prvi je dinastički. Posle šesnaest godina Karađorđevića na prestolu, Obrenovići su se vratili na vlast, i to ne osvajanjem ili spoljnom intervencijom, nego odlukom domaće skupštine. Time je započela nova faza borbe dve dinastije, koja će obeležiti narednih pola veka srpske istorije. Drugi sloj je ustavni. Po prvi put u modernoj srpskoj državi jedno predstavničko telo svrglo je kneza i postavilo drugog — to je bila praksa koja je nadilazila slovo Turskog ustava i koja se može opisati kao prvi srpski „parlamentarni” trenutak u širem smislu reči."
       },
       {
         "type": "paragraph",
@@ -13383,7 +13383,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "content": [
       {
         "type": "paragraph",
-        "text": "Kada je Svetoandrejska skupština krajem 1858. godine zbacila Aleksandra Karađorđevića i izglasala povratak dinastije Obrenović, nije birala mladog reformatora, već starca. Miloš Obrenović imao je sedamdeset devet godina, živeo je već skoro dve decenije u izgnanstvu po Vlaškoj, Beču i drugim evropskim varošima i odavno je važio za političku prošlost. Pa ipak, januara 1859. ušao je u Beograd dočekan kao „stari knez” — onaj koji je 1815. podigao Drugi srpski ustanak i 1830. doneo hatišerifom potvrđenu autonomiju. Krug se zatvarao na način koji je istovremeno delovao trijumfalno i pomalo neprirodno: vlast je vraćena onome koji ju je sam izgubio dvadeset godina ranije.",
+        "text": "Kada je Svetoandrejska skupština krajem 1858. godine zbacila Aleksandra Karađorđevića i izglasala povratak dinastije Obrenović, nije birala mladog reformatora, već starca. Miloš Obrenović imao je sedamdeset osam godina, živeo je već skoro dve decenije u izgnanstvu po Vlaškoj, Beču i drugim evropskim varošima i odavno je važio za političku prošlost. Pa ipak, januara 1859. ušao je u Beograd dočekan kao „stari knez” — onaj koji je 1815. podigao Drugi srpski ustanak i 1830. doneo hatišerifom potvrđenu autonomiju. Krug se zatvarao na način koji je istovremeno delovao trijumfalno i pomalo neprirodno: vlast je vraćena onome koji ju je sam izgubio dvadeset godina ranije.",
         "dropcap": true
       },
       {
@@ -13392,11 +13392,11 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Među prvim potezima Miloš je počeo da obračunava račune sa preživelim protivnicima iz starog doba. Najistaknutiji od njih bio je Toma Vučić Perišić — čovek koji ga je 1839. doslovno isterao iz zemlje i decenijama bio jedan od glavnih stubova ustavobraniteljskog poretka. Vučić je iznenada umro 1859. godine, ubrzo posle Miloševog povratka. Pojedini istraživači još uvek dopuštaju mogućnost da je bio otrovan, povezujući njegovu smrt s tihim Miloševim svođenjem računa. Treba reći otvoreno: trovanje nije dokazano. Nema sigurnog savremenog svedočenja, niti obdukcijskog nalaza koji bi to potvrdio, a Vučić je bio star i bolešljiv. Sumnja je deo političke atmosfere onog doba, ali istorijski sud o njoj mora ostati oprezan."
+        "text": "Među prvim potezima Miloš je počeo da obračunava račune sa preživelim protivnicima iz starog doba. Najistaknutiji od njih bio je Toma Vučić Perišić — čovek koji ga je 1839. doslovno isterao iz zemlje i decenijama bio jedan od glavnih stubova ustavobraniteljskog poretka. Miloš ga je ubrzo po povratku dao uhapsiti, i Vučić je 1859. umro u zatočeništvu. Pojedini istraživači još uvek dopuštaju mogućnost da je bio otrovan, povezujući njegovu smrt s tihim Miloševim svođenjem računa. Treba reći otvoreno: trovanje nije dokazano. Nema sigurnog savremenog svedočenja, niti obdukcijskog nalaza koji bi to potvrdio, a Vučić je bio star i bolešljiv. Sumnja je deo političke atmosfere onog doba, ali istorijski sud o njoj mora ostati oprezan."
       },
       {
         "type": "paragraph",
-        "text": "Paralelno sa obračunom sa prošlošću, Miloš je radio na osiguravanju budućnosti dinastije. Iz Beča je pozvao sina Mihaila, koji je posle prve, kratke vladavine 1839–1842. proveo gotovo sedamnaest godina u izgnanstvu — putujući po Evropi, čitajući, družeći se sa diplomatama i intelektualcima, i 1853. oženivši se mađarskom groficom Julijom Hunjadi. Otac ga je postavio za saregenta i jasno označio za naslednika, vraćajući time porodičnu liniju nasleđa koju je Svetoandrejska skupština i sama priznala. Bio je to gest u kojem se videlo da Miloš svoju drugu vladavinu razume i kao most — kratku obnovu starog stila, posle koje treba da dođe drugačiji vladar."
+        "text": "Paralelno sa obračunom sa prošlošću, Miloš je radio na osiguravanju budućnosti dinastije. Iz Beča je pozvao sina Mihaila, koji je posle prve, kratke vladavine 1839–1842. proveo gotovo sedamnaest godina u izgnanstvu — putujući po Evropi, čitajući, družeći se sa diplomatama i intelektualcima, i 1853. oženivši se mađarskom groficom Julijom Hunjadi. Otac ga je jasno označio za naslednika, vraćajući time porodičnu liniju nasleđa koju je Svetoandrejska skupština i sama priznala. Bio je to gest u kojem se videlo da Miloš svoju drugu vladavinu razume i kao most — kratku obnovu starog stila, posle koje treba da dođe drugačiji vladar."
       },
       {
         "type": "heading",
@@ -13405,7 +13405,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Stari knez umro je 14. odnosno 26. septembra 1860. godine, u svom topčiderskom konaku, u osamdesetoj godini života. Smrt je nastupila prirodno, posle dugog slabljenja koje su lekari pratili nedeljama. Nije bilo ni državnog udara, ni atentata, ni krize nasledstva — upravo zato što je pitanje naslednika već bilo rešeno. Mihailo Obrenović, koji je do tog časa već sedeo uz oca kao saregent, mirno je preuzeo presto. Bio je to retko miran prelaz vlasti u srpskoj devetnaestovekovnoj istoriji, gotovo neobičan u zemlji koja je decenijama menjala dinastije zaverama, skupštinama i progonima."
+        "text": "Stari knez umro je 14. odnosno 26. septembra 1860. godine, u svom topčiderskom konaku, u osamdeset prvoj godini života. Smrt je nastupila prirodno, posle dugog slabljenja koje su lekari pratili nedeljama. Nije bilo ni državnog udara, ni atentata, ni krize nasledstva — upravo zato što je pitanje naslednika već bilo rešeno. Mihailo Obrenović, koji je do tog časa već stajao uz oca kao označeni naslednik, mirno je preuzeo presto. Bio je to retko miran prelaz vlasti u srpskoj devetnaestovekovnoj istoriji, gotovo neobičan u zemlji koja je decenijama menjala dinastije zaverama, skupštinama i progonima."
       },
       {
         "type": "paragraph",
@@ -13436,7 +13436,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "content": [
       {
         "type": "paragraph",
-        "text": "Kada je u jesen 1860. godine, posle smrti oca Miloša, knez Mihailo Obrenović po drugi put preuzeo srpski presto, na njega je seo zreo čovek od četrdeset dve godine, sa iskustvom prve, kratke vladavine iz tridesetih, sa dugim godinama izgnanstva u Beču i Pešti, i sa jasnom predstavom o tome šta hoće. Srbija je za njega bila nedovršena država — autonomna kneževina pod sultanovom vrhovnom vlašću, sa turskim posadama u gradovima, bez moderne vojske, bez uređenog sudstva, bez razvijenih opština. Sve to je nameravao da promeni, i to po sopstvenoj zamisli, bez parlamentarnih rasprava koje je smatrao gubljenjem vremena.",
+        "text": "Kada je u jesen 1860. godine, posle smrti oca Miloša, knez Mihailo Obrenović po drugi put preuzeo srpski presto, na njega je seo zreo čovek od trideset sedam godina, sa iskustvom prve, kratke vladavine 1839–1842, sa dugim godinama izgnanstva u Beču i Pešti, i sa jasnom predstavom o tome šta hoće. Srbija je za njega bila nedovršena država — autonomna kneževina pod sultanovom vrhovnom vlašću, sa turskim posadama u gradovima, bez moderne vojske, bez uređenog sudstva, bez razvijenih opština. Sve to je nameravao da promeni, i to po sopstvenoj zamisli, bez parlamentarnih rasprava koje je smatrao gubljenjem vremena.",
         "dropcap": true
       },
       {
@@ -13462,7 +13462,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Spoljna politika kretala se uporedo sa unutrašnjom. Garašanin je tih godina, po Mihailovom uputstvu, tkao mrežu pregovora koja je trebalo da se pretvori u balkanski savez. Sa Crnom Gorom i sa kneževinom Rumunijom potpisani su sporazumi; sa bugarskim prvacima, sa grčkom vladom i sa pojedinim albanskim glavarima vođeni su tajni razgovori o zajedničkom ustanku protiv Osmanlija. Plan nikada nije sazreo do otvorenog rata, jer su se interesi pojedinih učesnika razilazili, a velike sile — pre svega Austrija — pažljivo motrile da ravnoteža na Balkanu ne bude poremećena. Ipak, sama činjenica da je iz Beograda mogao da se vodi takav posao govorila je o novom mestu Srbije u regionu."
+        "text": "Spoljna politika kretala se uporedo sa unutrašnjom. Garašanin je tih godina, po Mihailovom uputstvu, tkao mrežu pregovora koja je trebalo da se pretvori u balkanski savez. Sa Crnom Gorom, Grčkom i kneževinom Rumunijom potpisani su sporazumi; sa bugarskim prvacima i sa pojedinim albanskim glavarima vođeni su tajni razgovori o zajedničkom ustanku protiv Osmanlija. Plan nikada nije sazreo do otvorenog rata, jer su se interesi pojedinih učesnika razilazili, a velike sile — pre svega Austrija — pažljivo motrile da ravnoteža na Balkanu ne bude poremećena. Ipak, sama činjenica da je iz Beograda mogao da se vodi takav posao govorila je o novom mestu Srbije u regionu."
       },
       {
         "type": "paragraph",
@@ -13470,7 +13470,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Kada se danas, posle više od veka i po, sve sabere, valja reći pošteno: knez Mihailo je između 1860. i 1868. godine doneo Srbiji više stvarne modernizacije nego bilo koji vladar pre kralja Petra Prvog. Pod njim su sazidani okviri savremene uprave, sudstva i vojske, izvojevana je predaja gradova 1867. — kojoj ovaj kurs takođe posvećuje zasebnu lekciju — i postavljen je temelj za buduće širenje države. A ipak, način na koji je sve to izvedeno — bez parlamenta, bez javne rasprave, sa činovničkim aparatom odanim samo knezu — hranio je u tišini opoziciju koja će se u sledećoj generaciji uobličiti kao radikalski pokret. Sve se završilo iznenada, 29. maja 1868. godine, u Topčideru, atentatom o kome će biti reči posebno; ali već u tom poslednjem letu njegove vladavine, pažljivijem posmatraču bilo je jasno da modernizacija bez slobode ne može trajati zauvek."
+        "text": "Kada se danas, posle više od veka i po, sve sabere, valja reći pošteno: knez Mihailo je između 1860. i 1868. godine doneo Srbiji više stvarne modernizacije nego bilo koji vladar pre kralja Petra Prvog. Pod njim su sazidani okviri savremene uprave, sudstva i vojske, izvojevana je predaja gradova 1867. — kojoj ovaj kurs takođe posvećuje zasebnu lekciju — i postavljen je temelj za buduće širenje države. A ipak, način na koji je sve to izvedeno — bez parlamenta, bez javne rasprave, sa činovničkim aparatom odanim samo knezu — hranio je u tišini opoziciju koja će se u sledećoj generaciji uobličiti kao radikalski pokret. Sve se završilo iznenada, 29. maja (10. juna) 1868. godine, u Košutnjaku, atentatom o kome će biti reči posebno; ali već u tom poslednjem letu njegove vladavine, pažljivijem posmatraču bilo je jasno da modernizacija bez slobode ne može trajati zauvek."
       }
     ],
     "subtitle": "Druga vladavina Mihaila Obrenovića: modernizacija odozgo, ideja Srbije kao Pijemonta Balkana i autoritarni stil",
@@ -13488,7 +13488,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "keyPlaces": [
       "Beograd",
       "Kragujevac",
-      "Topčider"
+      "Košutnjak"
     ]
   },
   "day-239": {
@@ -13500,7 +13500,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Plod tog razmišljanja bio je Zakon o ustrojstvu narodne vojske, donet 31. avgusta po starom, odnosno 12. septembra po novom kalendaru 1861. godine. Zakon je uveo načelo opšte vojne obaveze za sve sposobne muškarce između dvadesete i pedesete godine života. Bila je to za srpske prilike velika novina: vojna služba postala je dužnost svih, a ne više stvar dobrovoljne ustaničke družine ili plaćene garde. Vojska je podeljena u dva poziva. Prvi poziv obuhvatao je mlađe ljude i predstavljao je glavnu borbenu snagu, sa najvišim stepenom obuke i gotovosti. Drugi poziv činili su stariji obveznici, predviđeni kao rezerva, posada utvrđenja i podrška u dužim ratovima."
+        "text": "Plod tog razmišljanja bio je Zakon o ustrojstvu narodne vojske, donet 17. avgusta po starom, odnosno 29. avgusta po novom kalendaru 1861. godine. Zakon je uveo načelo opšte vojne obaveze za sve sposobne muškarce između dvadesete i pedesete godine života. Bila je to za srpske prilike velika novina: vojna služba postala je dužnost svih, a ne više stvar dobrovoljne ustaničke družine ili plaćene garde. Vojska je podeljena u dva poziva. Prvi poziv obuhvatao je mlađe ljude i predstavljao je glavnu borbenu snagu, sa najvišim stepenom obuke i gotovosti. Drugi poziv činili su stariji obveznici, predviđeni kao rezerva, posada utvrđenja i podrška u dužim ratovima."
       },
       {
         "type": "paragraph",
@@ -13513,7 +13513,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Uz zakon je išla i prva ozbiljnija modernizacija. Uvedena je redovna obuka po pukovima, sa propisanim vežbama, gađanjem i smotrama. U narednim godinama Srbija je počela da nabavlja puške novijeg tipa; tek kasnije, već u drugoj polovini decenije i početkom sedamdesetih, doći će i čuvene puške sistema Pibodi-Martini, koje će postati simbol naoružanja narodne vojske u ratu sa Turskom. Oficirski kor gradio se postupno. Glavni rasadnik bio je Beograd — još od 1850. godine tu je radila Artiljerijska škola, iz koje će se vremenom razviti puna Vojna akademija. Mnogi mladi oficiri slati su na školovanje u Prusku, Francusku i Rusiju, da donesu kući ono što je u Evropi tada bilo najbolje vojno znanje."
+        "text": "Uz zakon je išla i prva ozbiljnija modernizacija. Uvedena je redovna obuka po pukovima, sa propisanim vežbama, gađanjem i smotrama. U narednim godinama Srbija je počela da nabavlja puške novijeg tipa; tek kasnije, već u drugoj polovini decenije i početkom sedamdesetih, doći će i puške sistema Pibodi, koje će uz prepravljene „Grinovke” činiti glavno naoružanje prvog poziva u ratu sa Turskom. Oficirski kor gradio se postupno. Glavni rasadnik bio je Beograd — još od 1850. godine tu je radila Artiljerijska škola, iz koje će se vremenom razviti puna Vojna akademija. Mnogi mladi oficiri slati su na školovanje u Prusku, Francusku i Rusiju, da donesu kući ono što je u Evropi tada bilo najbolje vojno znanje."
       },
       {
         "type": "paragraph",
@@ -13551,11 +13551,11 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Tokom prve polovine veka taj suživot bio je hladan, ali se mogao podneti. Sredinom šezdesetih godina više nije. Tri i petnaestog juna 1862, na Čukur-česmi u Beogradu, turski vojnik je ranio srpskog dečaka koji je dolazio po vodu. Sitan, gotovo svakodnevni nesporazum prerastao je u pravu uličnu bitku oko Varoš-kapije. Iste noći, sa beogradske tvrđave, turski topovi su otvorili vatru na varoš. Bombardovanje je oštetilo crkve, kuće i čaršiju, a u srpskoj javnosti je posejalo uverenje koje se više nije dalo iskoreniti — da grad u kojem na jednoj strani postoji srpska prestonica, a na drugoj turska tvrđava, ne može još dugo da traje u miru."
+        "text": "Tokom prve polovine veka taj suživot bio je hladan, ali se mogao podneti. Sredinom šezdesetih godina više nije. Trećeg, odnosno petnaestog juna 1862, na Čukur-česmi u Beogradu, turski vojnik je smrtno ranio srpskog dečaka koji je dolazio po vodu. Sitan, gotovo svakodnevni nesporazum prerastao je u pravu uličnu bitku oko Varoš-kapije. Dva dana kasnije, 5. (17.) juna, sa beogradske tvrđave turski topovi su otvorili vatru na varoš. Bombardovanje je oštetilo crkve, kuće i čaršiju, a u srpskoj javnosti je posejalo uverenje koje se više nije dalo iskoreniti — da grad u kojem na jednoj strani postoji srpska prestonica, a na drugoj turska tvrđava, ne može još dugo da traje u miru."
       },
       {
         "type": "paragraph",
-        "text": "Knez Mihailo, koji je tek nepunu godinu dana ranije po drugi put seo na presto, izvukao je iz tog krvavog incidenta jednu vrlo svesnu pouku. Nije pošao u rat — bio je suviše trezven da bi nasilno otimao tvrđave od carstva čija je vojska, ma koliko da je slabila, još uvek bila brojnija od srpske. Umesto toga, oslonio se na strpljivu diplomatiju Ilije Garašanina, svog kancelara, i na novu evropsku klimu posle Krimskog rata. Osmansko carstvo je tih godina bilo sve više zavisno od velikih sila i sve manje sigurno u sebe. Rusija je, posle poraza u Krimskom ratu, tražila načine da prisustvo na Balkanu povrati posredno — preko Srbije, Crne Gore i bugarskog narodnog buđenja."
+        "text": "Knez Mihailo, koji je nepune dve godine ranije po drugi put seo na presto, izvukao je iz tog krvavog incidenta jednu vrlo svesnu pouku. Nije pošao u rat — bio je suviše trezven da bi nasilno otimao tvrđave od carstva čija je vojska, ma koliko da je slabila, još uvek bila brojnija od srpske. Umesto toga, oslonio se na strpljivu diplomatiju Ilije Garašanina, svog kancelara, i na novu evropsku klimu posle Krimskog rata. Osmansko carstvo je tih godina bilo sve više zavisno od velikih sila i sve manje sigurno u sebe. Rusija je, posle poraza u Krimskom ratu, tražila načine da prisustvo na Balkanu povrati posredno — preko Srbije, Crne Gore i bugarskog narodnog buđenja."
       },
       {
         "type": "heading",
@@ -13568,11 +13568,11 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Konačan preokret došao je u proleće 1867. Šestog, odnosno osamnaestog aprila po novom kalendaru, sultan Abdul-Aziz izdao je ferman kojim se turske posade povlače iz svih šest srpskih gradova. Tvrđave se predaju srpskom knezu i srpskoj vojsci. Sačuvana je jedna jedina simbolična obaveza: na bedemu Beograda, pored srpske, ostaće formalno da se vije i turska zastava — kao znak sultanovog vrhovnog suvereniteta, koji Srbija u tom času još nije osporavala. Bio je to kompromis. Mihailo je dobio sve što je tražio u stvarnom smislu, a sultanu je ostavljen jezik kojim je pred svojim narodom mogao da kaže da Srbija nije izgubljena."
+        "text": "Konačan preokret došao je u proleće 1867. Šestog, odnosno osamnaestog aprila po novom kalendaru, sultan Abdul-Aziz izdao je ferman kojim se turske posade povlače iz četiri preostala grada — Beograda, Šapca, Smedereva i Kladova (Užice i Soko napušteni su već 1862, posle Kanlidžanske konferencije). Tvrđave se predaju srpskom knezu i srpskoj vojsci. Sačuvana je jedna jedina simbolična obaveza: na bedemu Beograda, pored srpske, ostaće formalno da se vije i turska zastava — kao znak sultanovog vrhovnog suvereniteta, koji Srbija u tom času još nije osporavala. Bio je to kompromis. Mihailo je dobio sve što je tražio u stvarnom smislu, a sultanu je ostavljen jezik kojim je pred svojim narodom mogao da kaže da Srbija nije izgubljena."
       },
       {
         "type": "paragraph",
-        "text": "Sedmog, odnosno devetnaestog aprila 1867. godine, na Kalemegdanu se odigrala svečanost koja je u sećanju Srbije ostala kao jedan od najsvetlijih trenutaka veka. Beogradski paša Ali Riza, u prisustvu srpskih i stranih predstavnika, predao je knezu Mihailu ključeve beogradske tvrđave. Smotra, muzika, počasne salve — sve je bilo izvedeno mirno, gotovo svečano hladno. Po prvi put posle više od tri stotine godina, srpski vladar je ulazio u Kalemegdan kao gospodar, a ne kao gost. Posade su se u narednim nedeljama povukle iz Šapca, Smedereva, Užica, Soko-grada i Kladova, i tvrđave su zaposele srpske jedinice obučene po novoj reformi."
+        "text": "Istog dana, šestog, odnosno osamnaestog aprila 1867. godine, na Kalemegdanu se odigrala svečanost koja je u sećanju Srbije ostala kao jedan od najsvetlijih trenutaka veka. Beogradski paša Ali Riza, u prisustvu srpskih i stranih predstavnika, predao je knezu Mihailu ključeve beogradske tvrđave. Smotra, muzika, počasne salve — sve je bilo izvedeno mirno, gotovo svečano hladno. Po prvi put posle pola veka — od Karađorđevih dana — srpski vladar je ulazio u Kalemegdan kao gospodar, a ne kao gost. Posade su se u narednim nedeljama povukle iz Šapca, Smedereva i Kladova, i tvrđave su zaposele srpske jedinice obučene po novoj reformi."
       },
       {
         "type": "paragraph",
@@ -13580,13 +13580,13 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Slika beogradske tvrđave sa dve zastave ostala je samo godinu dana. Već u maju 1868, knez Mihailo će biti ubijen u Košutnjaku, a politika koju je on tako pažljivo gradio — savez balkanskih hrišćanskih država i postepeno potiskivanje Osmanlija — ostaće bez svog glavnog tvorca. Pa ipak, ono što je 1867. dobijeno više nikada nije izgubljeno. Tvrđave su ostale srpske. Beograd je od tog aprila prestao da bude grad sa tuđim garnizonom u sopstvenom srcu i postao je, u punom smislu, prestonica. Sve što će u narednim decenijama doći — Berlin, nezavisnost, kraljevina — počiva, makar jednim svojim oslonjenim uglom, na tih nekoliko mirnih dana 1867. na Kalemegdanu."
+        "text": "Mihailo je u slobodnoj tvrđavi uživao samo godinu dana. Već u maju 1868, knez Mihailo će biti ubijen u Košutnjaku, a politika koju je on tako pažljivo gradio — savez balkanskih hrišćanskih država i postepeno potiskivanje Osmanlija — ostaće bez svog glavnog tvorca. Pa ipak, ono što je 1867. dobijeno više nikada nije izgubljeno. Tvrđave su ostale srpske. Beograd je od tog aprila prestao da bude grad sa tuđim garnizonom u sopstvenom srcu i postao je, u punom smislu, prestonica. Sve što će u narednim decenijama doći — Berlin, nezavisnost, kraljevina — počiva, makar jednim svojim oslonjenim uglom, na tih nekoliko mirnih dana 1867. na Kalemegdanu."
       }
     ],
     "subtitle": "Kako je knez Mihailo, bez ispaljenog metka, dobio ključeve Beograda i istisnuo turske posade iz srpskih gradova",
     "dateLabel": "1867.",
     "timelinePosition": "april 1867.",
-    "summary": "Posle decenija nepotpune slobode i bombardovanja Beograda 1862, sultan Abdul-Aziz fermanom 1867. predaje šest tvrđava srpskoj vlasti, a knez Mihailo na Kalemegdanu prima ključeve grada.",
+    "summary": "Posle decenija nepotpune slobode i bombardovanja Beograda 1862, sultan Abdul-Aziz fermanom 1867. predaje četiri preostale tvrđave srpskoj vlasti, a knez Mihailo na Kalemegdanu prima ključeve grada.",
     "keyPeople": [
       "knez Mihailo Obrenović",
       "Ilija Garašanin",
@@ -13608,16 +13608,16 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "content": [
       {
         "type": "paragraph",
-        "text": "Pošto je 1867. godine, mirnim putem i bez ispaljenog metka, izdejstvovao predaju poslednjih turskih gradova u Srbiji, knez Mihailo Obrenović okrenuo se ka onome što je smatrao prirodnim nastavkom tog uspeha — širem oslobođenju balkanskih hrišćana. Srbija je bila vazalna kneževina, mala i siromašna, ali je u njegovoj viziji trebalo da postane organizacioni stožer regije. Iza te zamisli stajao je i stari spis — „Načertanije” Ilije Garašanina iz 1844, koje je Srbiji namenjivalo ulogu balkanskog Pijemonta, sile koja okuplja srodne narode kao što je Sardinija okupljala Italijance. Dve decenije kasnije Garašanin se, sada kao prvi ministar i ministar inostranih dela, prihvatio da tu ideju prevede u konkretne ugovore.",
+        "text": "Pošto je 1867. godine, mirnim putem i bez ispaljenog metka, izdejstvovao predaju poslednjih turskih gradova u Srbiji, knez Mihailo Obrenović okrenuo se ka onome što je smatrao prirodnim nastavkom tog uspeha — širem oslobođenju balkanskih hrišćana. Srbija je bila vazalna kneževina, mala i siromašna, ali je u njegovoj viziji trebalo da postane organizacioni stožer regije. Iza te zamisli stajao je i stari spis — „Načertanije” Ilije Garašanina iz 1844, koje su kasniji tumači čitali kao program srpskog ‚Pijemonta’, sile koja okuplja srodne narode. Dve decenije kasnije Garašanin se, sada kao prvi ministar i ministar inostranih dela, prihvatio da tu ideju prevede u konkretne ugovore.",
         "dropcap": true
       },
       {
         "type": "paragraph",
-        "text": "Prvi korak učinjen je prema Crnoj Gori. U leto 1866. potpisan je tajni savez sa knjazom Nikolom I Petrovićem — ugovor o uzajamnoj pomoći u slučaju rata sa Turskom. Cetinje je obećalo da će dići ustanak u Hercegovini i severnoj Albaniji, Beograd da će izvesti glavnu vojnu akciju ka Bosni i Staroj Srbiji. Reči su bile odlučne, ali su obe strane znale da je realna izvodljivost ograničena: Crna Gora je bila gotovo bez novca i bez moderne vojske, a Srbija je svoju armiju tek gradila. Vrednost tog ugovora bila je više politička nego vojna — prvi put su dve srpske države stale, makar na papiru, iza zajedničkog plana."
+        "text": "Prvi korak učinjen je prema Crnoj Gori. U jesen 1866. potpisan je tajni savez sa knjazom Nikolom I Petrovićem — ugovor o uzajamnoj pomoći u slučaju rata sa Turskom. Cetinje je obećalo da će dići ustanak u Hercegovini i severnoj Albaniji, Beograd da će izvesti glavnu vojnu akciju ka Bosni i Staroj Srbiji. Reči su bile odlučne, ali su obe strane znale da je realna izvodljivost ograničena: Crna Gora je bila gotovo bez novca i bez moderne vojske, a Srbija je svoju armiju tek gradila. Vrednost tog ugovora bila je više politička nego vojna — prvi put su dve srpske države stale, makar na papiru, iza zajedničkog plana."
       },
       {
         "type": "paragraph",
-        "text": "Najvažniji deo mreže sklopljen je sledeće godine s Grčkom. U avgustu 1867. srpski i grčki izaslanici potpisali su u Vesleu, kod Marijenbada, savez kojim su se obe strane — kneževina i kraljevina — obavezale da, ako jedna zaratu sa Osmanskim carstvom, druga uđe u rat na njenoj strani. Predviđalo se da Srbija povede operacije u Bosni i Staroj Srbiji, a Grčka u Epiru i Tesaliji; sporazum je dopunjen vojnom konvencijom 1868. godine. Sa kraljem Đorđem I, mladim danskim princem koga su Atinjani izabrali samo nekoliko godina ranije, Mihailo je delio i lični interes — i njegov i Đorđev tron osetljivo su zavisili od velikih sila. Sledeće, 1868. godine, Beograd je postigao i sličan, opštije postavljen sporazum sa Rumunijom kneza Karla I."
+        "text": "Najvažniji deo mreže sklopljen je sledeće godine s Grčkom. U avgustu 1867. srpski i grčki izaslanici potpisali su u Vesleu, kod Beča, savez kojim su se obe strane — kneževina i kraljevina — obavezale da, ako jedna zaratu sa Osmanskim carstvom, druga uđe u rat na njenoj strani. Predviđalo se da Srbija povede operacije u Bosni i Staroj Srbiji, a Grčka u Epiru i Tesaliji; sporazum je dopunjen vojnom konvencijom 1868. godine. Sa kraljem Đorđem I, mladim danskim princem koga su Atinjani izabrali samo nekoliko godina ranije, Mihailo je delio i lični interes — i njegov i Đorđev tron osetljivo su zavisili od velikih sila. Sledeće, 1868. godine, Beograd je postigao i sličan, opštije postavljen sporazum sa Rumunijom kneza Karla I."
       },
       {
         "type": "heading",
@@ -13634,7 +13634,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Razgovori su se vodili, ugovori potpisivali, ali do koordinisanog ustanka nikada nije došlo. Najkrupniji udarac celom planu zadat je u maju 1868. godine u Košutnjaku, kada je knez Mihailo ubijen u atentatu. Garašanin je ubrzo posle toga sklonjen s vlasti; namesništvo koje je preuzelo poslove u ime malolentog Milana okrenulo se drugim, hitnijim prioritetima — donošenju ustava 1869, učvršćivanju dinastije, normalizovanju odnosa s Bečom. Savezi sa Crnom Gorom, Grčkom i Rumunijom nisu formalno raskinuti, ali su izgubili stožer i polako se pretvorili u nedužne arhivske spise."
+        "text": "Razgovori su se vodili, ugovori potpisivali, ali do koordinisanog ustanka nikada nije došlo. Najkrupniji udarac celom planu zadat je u maju 1868. godine u Košutnjaku, kada je knez Mihailo ubijen u atentatu. Garašanina je sam knez smenio još novembra 1867; posle atentata namesništvo koje je preuzelo poslove u ime maloletnog Milana okrenulo se drugim, hitnijim prioritetima — donošenju ustava 1869, učvršćivanju dinastije, normalizovanju odnosa s Bečom. Savezi sa Crnom Gorom, Grčkom i Rumunijom nisu formalno raskinuti, ali su izgubili stožer i polako se pretvorili u nedužne arhivske spise."
       },
       {
         "type": "paragraph",
@@ -13667,16 +13667,16 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "content": [
       {
         "type": "paragraph",
-        "text": "Bila je nedelja, 29. maja po starom, odnosno 10. juna po novom kalendaru 1868. godine. Posle podne knez Mihailo Obrenović izašao je iz topčiderskog konaka u kratku šetnju Košutnjakom, kao što je činio mnogo puta. Sa njim su bile rođaka Ana Konstantinović, ćerka Jevrema Obrenovića i njegova bliska prijateljica, i njena kći Katarina, mlada žena za koju se već govorilo da je u tihoj romansi sa knezom. Pratilo ih je nekoliko ljudi iz dvora, među njima kapetan Žica Vujković. Vazduh je bio topal, šuma puna lišća, a put od konaka do mesta ubistva ne traje ni petnaest minuta hoda.",
+        "text": "Bila je sreda, 29. maja po starom, odnosno 10. juna po novom kalendaru 1868. godine. Posle podne knez Mihailo Obrenović izašao je iz topčiderskog konaka u kratku šetnju Košutnjakom, kao što je činio mnogo puta. Sa njim su bile rođaka Ana Konstantinović, ćerka Jevrema Obrenovića i njegova bliska prijateljica, i njena kći Katarina, mlada žena za koju se već govorilo da je u tihoj romansi sa knezom. Pratilo ih je nekoliko ljudi iz dvora, među njima ađutant Svetozar Garašanin, sin Ilije Garašanina. Vazduh je bio topal, šuma puna lišća, a put od konaka do mesta ubistva ne traje ni petnaest minuta hoda.",
         "dropcap": true
       },
       {
         "type": "paragraph",
-        "text": "Na jednom zavijutku staze, iz gustiša su iznenada izronili naoružani ljudi. Hici su pali brzo, gotovo bez upozorenja. Knez Mihailo pao je smrtno pogođen, Ana Konstantinović izdahnula je gotovo istog časa pored njega, Katarina je teško ranjena ostala u životu, a kapetan Vujković takođe je pao pod mecima. Vlast najvišeg ugleda u zemlji nestala je za nekoliko sekundi, par koraka od kneževog letnjeg konaka, u sopstvenoj šumi, usred glavnog grada koji je još verovao da živi miran nedeljni dan."
+        "text": "Na jednom zavijutku staze, iz gustiša su iznenada izronili naoružani ljudi. Hici su pali brzo, gotovo bez upozorenja. Knez Mihailo pao je smrtno pogođen, Ana Konstantinović izdahnula je gotovo istog časa pored njega, Katarina je teško ranjena ostala u životu, a ađutant Garašanin bio je ranjen. Vlast najvišeg ugleda u zemlji nestala je za nekoliko sekundi, par koraka od kneževog letnjeg konaka, u sopstvenoj šumi, usred glavnog grada koji je još verovao da živi miran letnji dan."
       },
       {
         "type": "paragraph",
-        "text": "Napadači su pobegli kroz šumu, ali ne daleko. Već u narednim satima i danima uhvaćeni su glavni izvršioci: braća Pavle, Đoka i Kosta Radovanović, zajedno sa Lazarom Marićem i još nekolicinom saučesnika. Istraga je vođena brzo, pred prekim sudom, u atmosferi straha i potrebe da se javnosti pruži odgovor. Presuda je bila smrtna; izvršioci su streljani već u julu iste godine. Pravna strana zločina time je formalno zatvorena u svega nešto više od mesec dana."
+        "text": "Napadači su pobegli kroz šumu, ali ne daleko. Već u narednim satima i danima uhvaćeni su glavni izvršioci: braća Đoka i Kosta Radovanović, Lazar Marić i Stanoje Rogić, a uskoro i njihov brat Pavle, koji je zaveru organizovao, zajedno sa još nekolicinom saučesnika. Istraga je vođena brzo, pred prekim sudom, u atmosferi straha i potrebe da se javnosti pruži odgovor. Presuda je bila smrtna; izvršioci su streljani već u julu iste godine. Pravna strana zločina time je formalno zatvorena u svega nešto više od mesec dana."
       },
       {
         "type": "heading",
@@ -13689,11 +13689,11 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Istoričari, od Slobodana Jovanovića do kasnijih istraživača, ostavili su nekoliko hipoteza otvorenim. Da su braća Radovanović i Lazar Marić zaista pucali u kneza, ne sporimo — to su utvrdili svedoci i sami priznanjem. Ali ko je stajao iza njih, ko je dao novac, ko je obećao zaštitu posle čina, da li je u zaveru bio uvučen i neko iz najužeg kneževog okruženja koji je znao za nedeljnu šetnju i nije upozorio — sve to ostaje predmet stručne rasprave bez sigurnog odgovora. Pošteno je reći: izvršioci su utvrđeni, naredbodavci nisu, i istorija je primorana da na tom mestu prizna granice svog znanja."
+        "text": "Istoričari, od Slobodana Jovanovića do kasnijih istraživača, ostavili su nekoliko hipoteza otvorenim. Da su Đoka i Kosta Radovanović, Marić i Rogić zaista pucali u kneza, ne sporimo — to su utvrdili svedoci i sami priznanjem. Ali ko je stajao iza njih, ko je dao novac, ko je obećao zaštitu posle čina, da li je u zaveru bio uvučen i neko iz najužeg kneževog okruženja koji je znao za kneževu šetnju i nije upozorio — sve to ostaje predmet stručne rasprave bez sigurnog odgovora. Pošteno je reći: izvršioci su utvrđeni, naredbodavci nisu, i istorija je primorana da na tom mestu prizna granice svog znanja."
       },
       {
         "type": "paragraph",
-        "text": "Posledice ubistva osetile su se odmah. Knez Mihailo nije imao zakonite dece i pitanje naslednika postavilo se već istog dana. Po dogovorima unutar kuće Obrenović, presto je trebalo da pripadne njegovom bratancu Milanu, sinu Miloša Obrenovića mlađeg — brata pokojnog kneza, a ne starom knezu Milošu. Milan je tada bio dečak od četrnaest godina, na školovanju u Parizu. Maloletnost naslednika značila je da državom neko mora upravljati u njegovo ime. Već za nekoliko dana sastavljeno je trojno namesništvo: general Milivoje Petrović Blaznavac, političar i pravnik Jovan Ristić i Jovan Gavrilović. Tom rešenju i prvim potezima namesnika biće posvećena sledeća lekcija."
+        "text": "Posledice ubistva osetile su se odmah. Knez Mihailo nije imao zakonite dece i pitanje naslednika postavilo se već istog dana. Po dogovorima unutar kuće Obrenović, presto je trebalo da pripadne njegovom mladom rođaku Milanu, unuku Jevrema Obrenovića i sinu Miloša Obrenovića (1829–1861), Mihailovog brata od strica. Milan je tada bio dečak od trinaest godina, na školovanju u Parizu. Maloletnost naslednika značila je da državom neko mora upravljati u njegovo ime. Već za nekoliko dana sastavljeno je trojno namesništvo: general Milivoje Petrović Blaznavac, političar i pravnik Jovan Ristić i Jovan Gavrilović. Tom rešenju i prvim potezima namesnika biće posvećena sledeća lekcija."
       },
       {
         "type": "paragraph",
@@ -13701,17 +13701,17 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Paradoksalno, dinastija Obrenović iz tragedije je izašla ojačana. Saosećanje sa ubijenim knezom, brzo hvatanje izvršilaca i jasno prebacivanje krivice na suparničku kuću učvrstili su Obrenoviće u svesti građanstva i većeg dela elite. Mladi Milan, koga gotovo niko u zemlji nije lično poznavao, dočekan je kao zakonit naslednik i ostaće na prestolu narednih dvadeset jednu godinu — najpre kao knez, potom kao kralj. Tek na samom kraju veka, kada druga krv padne u drugom dvoru, ova kuća će se ponovo naći na ivici."
+        "text": "Paradoksalno, dinastija Obrenović iz tragedije je izašla ojačana. Saosećanje sa ubijenim knezom, brzo hvatanje izvršilaca i jasno prebacivanje krivice na suparničku kuću učvrstili su Obrenoviće u svesti građanstva i većeg dela elite. Mladi Milan, koga gotovo niko u zemlji nije lično poznavao, dočekan je kao zakonit naslednik i ostaće na prestolu narednih dvadeset jednu godinu — najpre kao knez, potom kao kralj. Tek početkom novog veka, kada druga krv padne u drugom dvoru, ova kuća će se ponovo naći na ivici."
       },
       {
         "type": "paragraph",
-        "text": "Ostaje slika koju je teško zaboraviti. U trenutku kada je Srbija konačno izlazila iz turskih garnizona, dobijala železnicu na horizontu, modernu vojsku, evropski uređenu prestonicu i kneza koga su u Beču i Berlinu primali kao ozbiljnog sagovornika, taj isti knez ubijen je u nedeljnoj šetnji svojom šumom, par stotina koraka od kuće, hicima iz zasede koju niko nije očekivao. Košutnjak je posle 1868. prestao da bude samo izletište prestonice — postao je i mesto sećanja na čas u kome se srpska modernizacija najednom našla bez vladara."
+        "text": "Ostaje slika koju je teško zaboraviti. U trenutku kada je Srbija konačno izlazila iz turskih garnizona, dobijala železnicu na horizontu, modernu vojsku, evropski uređenu prestonicu i kneza koga su u Beču i Berlinu primali kao ozbiljnog sagovornika, taj isti knez ubijen je u popodnevnoj šetnji svojom šumom, par stotina koraka od kuće, hicima iz zasede koju niko nije očekivao. Košutnjak je posle 1868. prestao da bude samo izletište prestonice — postao je i mesto sećanja na čas u kome se srpska modernizacija najednom našla bez vladara."
       }
     ],
-    "subtitle": "Kako je u nedeljnoj šetnji Košutnjakom 1868. godine, hicima iz zasede, prekinuta vladavina jednog modernog kneza",
+    "subtitle": "Kako je u popodnevnoj šetnji Košutnjakom 1868. godine, hicima iz zasede, prekinuta vladavina jednog modernog kneza",
     "dateLabel": "1868.",
     "timelinePosition": "29. maj / 10. jun 1868.",
-    "summary": "Atentat na kneza Mihaila Obrenovića u Košutnjaku, izveden u nedelju popodne 1868. godine, naglo je prekinuo dvadesetogodišnji ciklus modernizacije i otvorio pitanje naslednika i namesništva.",
+    "summary": "Atentat na kneza Mihaila Obrenovića u Košutnjaku, izveden u sredu popodne 1868. godine, naglo je prekinuo osmogodišnju vladavinu i ciklus modernizacije i otvorio pitanje naslednika i namesništva.",
     "keyPeople": [
       "knez Mihailo Obrenović",
       "Ana Konstantinović",
@@ -13729,12 +13729,12 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "content": [
       {
         "type": "paragraph",
-        "text": "Kada je 10. juna 1868. godine, po starom kalendaru, knez Mihailo Obrenović ubijen u Košutnjaku, srpska država se preko noći našla pred pitanjem na koje nije imala spreman odgovor. Mihailo je bio bez muške dece. Ustavobraniteljska i namesnička iskustva iz prve polovine veka pokazala su koliko brzo prekid dinastije ume da otvori vrata stranom uplitanju i unutrašnjim podelama. Sat vremena posle pucnjeva u Topčideru, na sednici u beogradskoj tvrđavi, vojni ministar i general Milivoje Petrović Blaznavac iznenadio je sve okupljene tako što je sa vojskom već iza sebe predložio jedino moguće, a istovremeno najmlađe rešenje — kneževski presto da pređe na Mihailovog sinovca Milana.",
+        "text": "Kada je 29. maja (10. juna) 1868. godine knez Mihailo Obrenović ubijen u Košutnjaku, srpska država se preko noći našla pred pitanjem na koje nije imala spreman odgovor. Mihailo je bio bez muške dece. Ustavobraniteljska i namesnička iskustva iz prve polovine veka pokazala su koliko brzo prekid dinastije ume da otvori vrata stranom uplitanju i unutrašnjim podelama. Sat vremena posle pucnjeva u Košutnjaku, na sednici u beogradskoj tvrđavi, vojni ministar i general Milivoje Petrović Blaznavac iznenadio je sve okupljene tako što je sa vojskom već iza sebe predložio jedino moguće, a istovremeno najmlađe rešenje — kneževski presto da pređe na mladog Milana, unuka Jevrema Obrenovića.",
         "dropcap": true
       },
       {
         "type": "paragraph",
-        "text": "Milan je tada imao četrnaest godina. Rođen je 22. avgusta 1854. u Mărășeștiju u Moldaviji, kao sin Miloša Obrenovića mlađeg — brata kneza Mihaila — i Marije Katardži, žene iz rumunsko-moldavske vlasteoske kuće poznate po neobičnom temperamentu i burnom privatnom životu. Sa ocem koji je rano umro i majkom čije su prilike bile sve drugo samo ne sređene, dečak je odrastao više po tuđim kućama nego u sopstvenoj. Za Srbiju je on bio gotovo nepoznat: ime Obrenović je nosio, krv je nesporno bila, ali politički kapital nije imao nikakav. Upravo to je Blaznavcu išlo u prilog. Maloletan knez značio je da neko drugi mora vladati u njegovo ime, a to „neko drugi” imalo je vremena da se pripremi."
+        "text": "Milan je tada imao trinaest godina. Rođen je 22. avgusta 1854. u Mărășeștiju u Moldaviji, kao sin Miloša Obrenovića (1829–1861) — sina Jevrema Obrenovića i brata od strica kneza Mihaila — i Marije Katardži, žene iz rumunsko-moldavske vlasteoske kuće poznate po neobičnom temperamentu i burnom privatnom životu. Sa ocem koji je rano umro i majkom čije su prilike bile sve drugo samo ne sređene, dečak je odrastao više po tuđim kućama nego u sopstvenoj. Za Srbiju je on bio gotovo nepoznat: ime Obrenović je nosio, krv je nesporno bila, ali politički kapital nije imao nikakav. Upravo to je Blaznavcu išlo u prilog. Maloletan knez značio je da neko drugi mora vladati u njegovo ime, a to „neko drugi” imalo je vremena da se pripremi."
       },
       {
         "type": "paragraph",
@@ -13755,17 +13755,17 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Ekonomski život se nastavio bez većih trzavica, ali i bez naročitog ubrzanja. Srbija je ostala pretežno seljačka zemlja, sa tankim slojem činovništva, oficira i trgovaca u nekoliko gradova. Železnice, banaka i industrije gotovo da nije bilo, a državni budžet je pažljivo balansirao između otplate dugova i izdržavanja vojske. Mladi knez u međuvremenu je sazrevao izvan zemlje. Deo svog školovanja proveo je kod kuće, sa odabranim učiteljima, a od 1869. do 1870. boravio je u Parizu, gde je upoznao zapadni svet, francusku kulturu i način života koji će, dobro ili loše, ostaviti dubok trag na njegov karakter. U Beograd se vraćao kao gost na sopstvenom prestolu, dok su tri namesnika nastavljala da odlučuju u njegovo ime."
+        "text": "Ekonomski život se nastavio bez većih trzavica, ali i bez naročitog ubrzanja. Srbija je ostala pretežno seljačka zemlja, sa tankim slojem činovništva, oficira i trgovaca u nekoliko gradova. Železnice, banaka i industrije gotovo da nije bilo, a državni budžet je pažljivo balansirao između otplate dugova i izdržavanja vojske. Mladi knez u međuvremenu je sazrevao pod tuđim okom. Do 1868. školovao se u Parizu, gde je upoznao zapadni svet, francusku kulturu i način života koji će, dobro ili loše, ostaviti dubok trag na njegov karakter. Posle izbora nastavio je školovanje u Beogradu, sa odabranim učiteljima, dok su tri namesnika nastavljala da odlučuju u njegovo ime."
       },
       {
         "type": "paragraph",
         "text": "Treba pošteno reći: namesništvo od 1868. do 1872. godine bilo je jedan od retko skladnih perioda srpske politike. Nije bilo prevrata, ni državnog rata, ni dramatičnih obračuna. Blaznavac je do svoje smrti 1873. — koja će uslediti ubrzo posle predaje vlasti — držao vojsku i upravu pod čvrstom rukom; Ristić je polako preuzimao primat u civilnim poslovima; Gavrilović je obezbeđivao kontinuitet i miran ton. Kada je 22. avgusta 1872. Milan napunio osamnaest godina i po ustavu postao punoletan, prenos vlasti obavljen je glatko, u nekoliko dana, bez najmanjeg incidenta. To je u srpskoj istoriji devetnaestog veka više izuzetak nego pravilo, i sam taj podatak govori o kakvoj se trojici radilo. Ali isti period nosi i svoju senku — konzervativan oprez prema širem parlamentarizmu, dominaciju malobrojne elite, i navike vladanja iza zatvorenih vrata koje će mladi Milan vrlo brzo prihvatiti kao svoje."
       }
     ],
-    "subtitle": "Kako su tri namesnika držala srpski presto za četrnaestogodišnjeg Milana Obrenovića od 1868. do 1872. godine",
+    "subtitle": "Kako su tri namesnika držala srpski presto za trinaestogodišnjeg Milana Obrenovića od 1868. do 1872. godine",
     "dateLabel": "1868–1872.",
     "timelinePosition": "1868–1872.",
-    "summary": "Posle ubistva kneza Mihaila Srbija dobija četrnaestogodišnjeg kneza Milana Obrenovića, a stvarnu vlast četiri godine drže tri namesnika — Blaznavac, Ristić i Gavrilović.",
+    "summary": "Posle ubistva kneza Mihaila Srbija dobija trinaestogodišnjeg kneza Milana Obrenovića, a stvarnu vlast četiri godine drže tri namesnika — Blaznavac, Ristić i Gavrilović.",
     "keyPeople": [
       "Milan Obrenović",
       "Milivoje Petrović Blaznavac",
@@ -13784,12 +13784,12 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "content": [
       {
         "type": "paragraph",
-        "text": "Kada je u jesen 1868. knez Mihailo Obrenović pao od metaka u Košutnjaku, Srbija je naglo ostala bez vladara i bez jasnog naslednika. Presto je preuzeo četrnaestogodišnji Milan Obrenović, sinovac ubijenog kneza, a do njegove punoletnosti zemljom je upravljalo trojno namesništvo — general Milivoje Petrović Blaznavac, političar i diplomata Jovan Ristić i stari državnik Jovan Gavrilović. Namesnici su znali da je njihov položaj krhak: dinastija je bila uzdrmana, evropski susedi su pomno pratili svaki potez, a unutar zemlje rastao je pritisak da se ukine lični režim kakav je vodio knez Mihailo i da se konačno donese ustav.",
+        "text": "Kada je 29. maja (10. juna) 1868. knez Mihailo Obrenović pao od metaka u Košutnjaku, Srbija je naglo ostala bez vladara i bez jasnog naslednika. Presto je preuzeo trinaestogodišnji Milan Obrenović, mladi rođak ubijenog kneza, a do njegove punoletnosti zemljom je upravljalo trojno namesništvo — general Milivoje Petrović Blaznavac, političar i diplomata Jovan Ristić i stari državnik Jovan Gavrilović. Namesnici su znali da je njihov položaj krhak: dinastija je bila uzdrmana, evropski susedi su pomno pratili svaki potez, a unutar zemlje rastao je pritisak da se ukine lični režim kakav je vodio knez Mihailo i da se konačno donese ustav.",
         "dropcap": true
       },
       {
         "type": "paragraph",
-        "text": "Glavni autor i pokretač posla bio je Ristić. On je verovao da Srbija ne sme ostati bez pisanog osnovnog zakona, ali je istovremeno smatrao da bi nagli skok u potpuni parlamentarizam, po zapadnom uzoru, bio opasan u zemlji koja tek izlazi iz turskog poretka i u kojoj je politička klasa malobrojna. Njegovo rešenje bilo je oprezno: dati narodu stalnu skupštinu i pisana prava, ali zadržati u rukama kneza i namesništva najvažnije poluge moći. U Beogradu je 29. juna, odnosno 11. jula po novom kalendaru 1869. godine, Velika narodna skupština usvojila tekst koji će ostati upamćen kao prvi ustav Kneževine Srbije."
+        "text": "Glavni autor i pokretač posla bio je Ristić. On je verovao da Srbija ne sme ostati bez pisanog osnovnog zakona, ali je istovremeno smatrao da bi nagli skok u potpuni parlamentarizam, po zapadnom uzoru, bio opasan u zemlji koja tek izlazi iz turskog poretka i u kojoj je politička klasa malobrojna. Njegovo rešenje bilo je oprezno: dati narodu stalnu skupštinu i pisana prava, ali zadržati u rukama kneza i namesništva najvažnije poluge moći. U Kragujevcu je 29. juna, odnosno 11. jula po novom kalendaru 1869. godine, Velika narodna skupština usvojila tekst koji će ostati upamćen kao prvi ustav koji je Srbija donela sama, bez odobrenja Porte."
       },
       {
         "type": "heading",
@@ -13798,7 +13798,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Najvažnija novina bila je stalna Narodna skupština. Po novom ustavu, ona se sazivala svake godine, raspravljala o predlozima zakona i — što je posebno važno — glasala o državnom budžetu. Bila je jednodomna, bez gornjeg doma ili senata kakvi su postojali u nekim drugim evropskim ustavima toga doba. Tri četvrtine poslanika birao je narod, a jednu četvrtinu postavljao je sam knez; to su bili takozvani „kraljevski poslanici”, obično ugledni činovnici i stručnjaci, kojima je vlada osiguravala stalno jezgro lojalnih glasova. Pravo glasa nije bilo opšte: postojao je porezni cenzus, pa su birači bili odrasli muškarci koji su plaćali određeni iznos državnog poreza. Krug birača ipak je bio širi nego ranije, i prvi put se može govoriti o redovnim, zakonom uređenim izborima."
+        "text": "Najvažnija novina bila je stalna Narodna skupština. Po novom ustavu, ona se sazivala svake godine, raspravljala o predlozima zakona i — što je posebno važno — glasala o državnom budžetu. Bila je jednodomna, bez gornjeg doma ili senata kakvi su postojali u nekim drugim evropskim ustavima toga doba. Tri četvrtine poslanika birao je narod, a jednu četvrtinu postavljao je sam knez; to su bili poslanici po kneževom imenovanju, obično ugledni činovnici i stručnjaci, kojima je vlada osiguravala stalno jezgro lojalnih glasova. Pravo glasa nije bilo opšte: postojao je porezni cenzus, pa su birači bili odrasli muškarci koji su plaćali određeni iznos državnog poreza. Krug birača ipak je bio širi nego ranije, i prvi put se može govoriti o redovnim, zakonom uređenim izborima."
       },
       {
         "type": "paragraph",
@@ -13806,21 +13806,21 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Reakcije su bile dvojake i u tome je sva istina o ovom ustavu. Konzervativni krugovi, naročito stariji ustavobranitelji i deo birokratije, smatrali su ga preliberalnim — plašili su se da će stalna skupština, ma koliko ograničena, vremenom narasti u stranački parlament i potkopati autoritet kneza. S druge strane, mlada liberalna i tek nastajuća radikalska generacija, okupljena oko Svetozara Markovića i njegovih sledbenika, smatrala je da ustav daje samo prividna prava. Po njihovom mišljenju, „kraljevski poslanici”, porezni cenzus i kneževa kontrola vlade pretvarali su skupštinu u ukras, a ne u stvarnu kontrolu vlasti. Tako je novi ustav istovremeno označen kao preopasan i kao premali iskorak — što je možda najpoštenija ocena njegovog prelaznog karaktera."
+        "text": "Reakcije su bile dvojake i u tome je sva istina o ovom ustavu. Konzervativni krugovi, naročito stariji ustavobranitelji i deo birokratije, smatrali su ga preliberalnim — plašili su se da će stalna skupština, ma koliko ograničena, vremenom narasti u stranački parlament i potkopati autoritet kneza. S druge strane, mlada liberalna i tek nastajuća radikalska generacija, okupljena oko Svetozara Markovića i njegovih sledbenika, smatrala je da ustav daje samo prividna prava. Po njihovom mišljenju, imenovani poslanici, porezni cenzus i kneževa kontrola vlade pretvarali su skupštinu u ukras, a ne u stvarnu kontrolu vlasti. Tako je novi ustav istovremeno označen kao preopasan i kao premali iskorak — što je možda najpoštenija ocena njegovog prelaznog karaktera."
       },
       {
         "type": "paragraph",
-        "text": "U poređenju sa onim što je prethodilo, ipak je reč o značajnom napretku. Sretenjski ustav iz 1835. trajao je svega nekoliko nedelja pre nego što su ga ugušili pritisci sa strane; takozvani Turski ustav iz 1838, koji mu je sledio, bio je u suštini oligarhijski hatišerif kojim je vlast deljena između kneza i uskog kruga ustavobranitelja, bez ikakve narodne skupštine kao redovne ustanove. Ustav iz 1869. prvi put je u Srbiji uveo parlamentarizam, makar kontrolisan i odozgo doziran. Ostao je na snazi, sa izmenama, sve do donošenja novog, mnogo liberalnijeg ustava iz 1888. — devetnaest godina, najduže od svih srpskih ustava devetnaestog veka."
+        "text": "U poređenju sa onim što je prethodilo, ipak je reč o značajnom napretku. Sretenjski ustav iz 1835. trajao je svega nekoliko nedelja pre nego što su ga ugušili pritisci sa strane; takozvani Turski ustav iz 1838, koji mu je sledio, bio je u suštini oligarhijski hatišerif kojim je vlast deljena između kneza i uskog kruga ustavobranitelja, bez ikakve narodne skupštine kao redovne ustanove. Ustav iz 1869. prvi put je u Srbiji uveo predstavničku vladu, makar kontrolisanu i odozgo doziranu. Ostao je na snazi, sa izmenama, sve do donošenja novog, mnogo liberalnijeg ustava iz 1888. — devetnaest godina u prvom mahu, a na snagu je vraćen još jednom, od 1894. do 1901."
       },
       {
         "type": "paragraph",
         "text": "Kada se danas gleda unazad, Ristićev ustav najtačnije se opisuje kao prelazni okvir. Nije bio puna demokratija, ali nije bio ni puko nastavljanje ličnog režima. Uveo je naviku da se vlast bar deklarativno suočava sa biranim telom, da se budžet javno brani i da se prava građana zapisuju u osnovni zakon. Te navike, posejane oprezno i s mnogo ograda, postaće sledećih decenija glavni argument liberala i radikala kada budu tražili više — i one su, na kraju, dovele do mnogo otvorenijeg ustava iz 1888. godine."
       }
     ],
-    "subtitle": "Prvi ustav Kneževine Srbije — oprezan kompromis između kneževe vlasti i stalne Narodne skupštine",
+    "subtitle": "Prvi ustav donet bez odobrenja Porte — oprezan kompromis između kneževe vlasti i stalne Narodne skupštine",
     "dateLabel": "1869.",
     "timelinePosition": "1869.",
-    "summary": "Velika narodna skupština u Beogradu donela je prvi ustav Kneževine Srbije — Jovan Ristić je iz namesništva osmislio sistem koji je uveo redovnu skupštinu, ali je ostavio glavnu vlast knezu.",
+    "summary": "Velika narodna skupština u Kragujevcu usvojila je prvi ustav koji je Srbija donela sama, bez odobrenja Porte — Jovan Ristić je iz namesništva osmislio sistem koji je uveo redovnu skupštinu, ali je ostavio glavnu vlast knezu.",
     "keyPeople": [
       "Jovan Ristić",
       "Milivoje Petrović Blaznavac",
@@ -13837,7 +13837,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "content": [
       {
         "type": "paragraph",
-        "text": "Sredinom 19. veka Kneževina Srbija bila je mala zemlja, tek izašla iz turske vlasti, sa oko milion i sto hiljada stanovnika. Devet od svakih deset ljudi živelo je na selu, u kućama od pletera ili ćerpiča, u zadružnim porodicama koje su zajednički obrađivale zemlju i zajednički je delile. Gradova u pravom smislu te reči gotovo da nije ni bilo. Beograd, prestonica, brojao je oko trideset hiljada duša — mali grad po evropskim merilima onog vremena, sa carskom kapijom, kaldrmom u centru, baštama na padinama prema Savi i još uvek turskom posadom u tvrđavi. Kragujevac, Šabac i Užice bile su tek varošice. Niš, jedan od najvećih balkanskih gradova, ležao je još pod Turcima i ostaće tamo do 1878.",
+        "text": "Sredinom 19. veka Kneževina Srbija bila je mala zemlja, tek izašla iz turske vlasti, sa oko milion i sto hiljada stanovnika. Devet od svakih deset ljudi živelo je na selu, u kućama od pletera ili ćerpiča, u zadružnim porodicama koje su zajednički obrađivale zemlju i zajednički je delile. Gradova u pravom smislu te reči gotovo da nije ni bilo. Beograd, prestonica, brojao je oko petnaest do dvadeset hiljada duša — mali grad po evropskim merilima onog vremena, sa carskom kapijom, kaldrmom u centru, baštama na padinama prema Savi i još uvek turskom posadom u tvrđavi. Kragujevac, Šabac i Užice bile su tek varošice. Niš, jedan od najvećih balkanskih gradova, ležao je još pod Turcima i ostaće tamo do 1878.",
         "dropcap": true
       },
       {
@@ -13851,7 +13851,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "U središtu kulturnog života bila je dugačka, mukotrpna borba oko jezika. Vuk Stefanović Karadžić, rođen 1787. u Tršiću, samouki sin seoske porodice koji je u mladosti bio pisar kod Karađorđa, krenuo je od „Pismenice srpskoga jezika” i „Malog bukvara” 1814, pa preko „Srpskog rječnika” 1818. do prevoda „Novog zavjeta” 1847. da srpskom narodu da književni jezik na narodnoj osnovi i pravopis po načelu „piši kao što govoriš, čitaj kao što je napisano”. Sveštenstvo i klasicisti, predvođeni Jovanom Hadžićem koji se potpisivao kao „Miloš Svetić”, smatrali su to spuštanjem visokog stila na sirov, seljački govor. Spor je trajao decenijama. Tek šezdesetih godina, već posle Vukove smrti 1864, njegova reforma će u Kneževini biti i službeno priznata. Bila je to tiha revolucija — možda najvažnija od svih revolucija veka."
+        "text": "U središtu kulturnog života bila je dugačka, mukotrpna borba oko jezika. Vuk Stefanović Karadžić, rođen 1787. u Tršiću, samouki sin seoske porodice koji je u mladosti bio pisar u ustaničkoj Srbiji, krenuo je od „Pismenice srpskoga jezika” i „Male prostonarodnje slaveno-serbske pjesnarice” 1814, pa preko „Srpskog rječnika” 1818. do prevoda „Novog zavjeta” 1847. da srpskom narodu da književni jezik na narodnoj osnovi i pravopis po načelu „piši kao što govoriš, čitaj kao što je napisano”. Sveštenstvo i klasicisti, predvođeni Jovanom Hadžićem koji se potpisivao kao „Miloš Svetić”, smatrali su to spuštanjem visokog stila na sirov, seljački govor. Spor je trajao decenijama. Tek šezdesetih godina, već posle Vukove smrti 1864, njegova reforma će u Kneževini biti i službeno priznata. Bila je to tiha revolucija — možda najvažnija od svih revolucija veka."
       },
       {
         "type": "paragraph",
@@ -13863,11 +13863,11 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Druge umetnosti pratile su pisanu reč. Kornelije Stanković, školovan u Beču, počeo je sistematski da beleži narodne melodije i da ih harmonizuje za klavir i hor — prvi pokušaj da se srpska usmena muzika prenese u oblike evropskog koncertnog života. Davorin Jenko, doseljeni Slovenac, komponovaće 1872. „Bože pravde”, već na samom kraju ovog perioda. U slikarstvu se izdvaja Anastas Jovanović, jedan od prvih fotografa u ovom delu Evrope, čije litografije čuvaju lica kneza Miloša, Mihaila i njihove okoline. Đura Jakšić, pesnik, bio je i strastan slikar mračnih, romantičarskih platana. Crkva je 1832. dobila autokefalnu mitropoliju beogradsku, a od 1859. na njenom čelu je mlad i obrazovan mitropolit Mihailo, koji će je voditi do kraja veka."
+        "text": "Druge umetnosti pratile su pisanu reč. Kornelije Stanković, školovan u Beču, počeo je sistematski da beleži narodne melodije i da ih harmonizuje za klavir i hor — prvi pokušaj da se srpska usmena muzika prenese u oblike evropskog koncertnog života. Davorin Jenko, doseljeni Slovenac, komponovaće 1872. „Bože pravde”, već na samom kraju ovog perioda. U slikarstvu se izdvaja Anastas Jovanović, jedan od prvih fotografa u ovom delu Evrope, čije litografije čuvaju lica kneza Miloša, Mihaila i njihove okoline. Đura Jakšić, pesnik, bio je i strastan slikar mračnih, romantičarskih platana. Crkva je 1831–1832. dobila samostalnu (autonomnu) mitropoliju beogradsku — punu autokefalnost dobiće tek 1879 — a od 1859. na njenom čelu je mlad i obrazovan mitropolit Mihailo, koji će je, uz prekid 1881–1889, voditi do smrti 1898."
       },
       {
         "type": "paragraph",
-        "text": "Svakodnevni život ostajao je, ipak, pretežno tradicionalan. Slavila se krsna slava, išlo se na sabore i na vašare, pevale su se hajdučke i ljubavne pesme uz gusle i frulu, čuvala se narodna nošnja. Istovremeno, u Beogradu i drugim varošima nemački šeširi, frakovi i kaputi postajali su uniforma činovnika, a kafane evropskog tipa polako su istiskivale stare mehane. Kultura sredine veka bila je, pošteno gledano, dvojaka — još uvek patrijarhalna u temelju, ali već vidljivo modernizujuća na svojim vrhovima. Od skoro nepismenog dečaka Vuka, prinuđenog da bude pisar u Karađorđevom ustanku, do generacije mladih ljudi sa diplomama iz Pariza i Hajdelberga, prešao se put od jednog do drugog sveta. U toj generaciji, koja će sredinom sedamdesetih dati i Jovana Ristića i Svetozara Markovića, već su sazrevali ozbiljni glasovi koji će zahtevati još brži korak — i pred kojima će se Kneževina morati izgledom i sadržajem opravdati."
+        "text": "Svakodnevni život ostajao je, ipak, pretežno tradicionalan. Slavila se krsna slava, išlo se na sabore i na vašare, pevale su se hajdučke i ljubavne pesme uz gusle i frulu, čuvala se narodna nošnja. Istovremeno, u Beogradu i drugim varošima nemački šeširi, frakovi i kaputi postajali su uniforma činovnika, a kafane evropskog tipa polako su istiskivale stare mehane. Kultura sredine veka bila je, pošteno gledano, dvojaka — još uvek patrijarhalna u temelju, ali već vidljivo modernizujuća na svojim vrhovima. Od skoro nepismenog dečaka Vuka, prinuđenog da bude pisar u Karađorđevom ustanku, do generacije mladih ljudi sa diplomama iz Pariza i Hajdelberga, prešao se put od jednog do drugog sveta. U toj generaciji, koja će šezdesetih i sedamdesetih dati i Jovana Ristića i Svetozara Markovića, već su sazrevali ozbiljni glasovi koji će zahtevati još brži korak — i pred kojima će se Kneževina morati izgledom i sadržajem opravdati."
       }
     ],
     "subtitle": "Kako je Srbija sredinom 19. veka izgledala iznutra — selo, varoš, jezik, škola i prvi obrisi moderne kulture",
@@ -13904,7 +13904,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Te veze sa narodnjacima i krugom koji su vlasti zvale nihilistima skupo su ga koštale. Krajem 1869. godine proteran je iz Rusije i prešao je u Cirih, a potom u Berlin, gde je pokušao da nastavi studije. U Švajcarskoj se prvi put zbližio sa zapadnoevropskom socijalističkom literaturom i sa srpskim i ruskim emigrantskim krugovima, ali ga je vest da je u Srbiji počelo intelektualno previranje vukla nazad. U domovinu se vratio 1870, sa dvadeset četiri godine i bez diplome — sa sveskama, planovima i osećajem da vreme ne čeka."
+        "text": "Te veze sa narodnjacima i krugom koji su vlasti zvale nihilistima skupo su ga koštale. Krajem 1869. godine morao je da napusti Rusiju i prešao je u Cirih, gde je upisao Politehniku. U Švajcarskoj se prvi put zbližio sa zapadnoevropskom socijalističkom literaturom i sa srpskim i ruskim emigrantskim krugovima, ali ga je vest da je u Srbiji počelo intelektualno previranje vukla nazad. U domovinu se vratio 1870, sa dvadeset četiri godine i bez diplome — sa sveskama, planovima i osećajem da vreme ne čeka."
       },
       {
         "type": "heading",
@@ -13913,7 +13913,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Sledećih pet godina Marković je pisao kao čovek koji zna da nema mnogo vremena. Sarađivao je u listu „Svetlost”, potom pokrenuo „Javnost” u Kragujevcu, a kasnije i „Oslobođenje”. Vlasti su mu listove zatvarale, on ih je obnavljao pod drugim imenima i sa novim saradnicima. Iz tih članaka i iz programskog spisa „Srbija na Istoku”, štampanog 1872. u Novom Sadu, izlazi celovita slika njegove misli. Marković je oštro napadao birokratiju koju je smatrao novim, neproduktivnim slojem između vladara i naroda; tražio je punu opštinsku samoupravu, narodnu miliciju umesto stajaće vojske i federaciju balkanskih naroda kao odgovor na velike sile koje su Balkan delile na sfere uticaja."
+        "text": "Sledećih pet godina Marković je pisao kao čovek koji zna da nema mnogo vremena. Pokrenuo je „Radenik” u Beogradu (1871), potom „Javnost” u Kragujevcu (1873), a kasnije i „Oslobođenje”. Vlasti su mu listove zatvarale, on ih je obnavljao pod drugim imenima i sa novim saradnicima. Iz tih članaka i iz programskog spisa „Srbija na Istoku”, štampanog 1872. u Novom Sadu, izlazi celovita slika njegove misli. Marković je oštro napadao birokratiju koju je smatrao novim, neproduktivnim slojem između vladara i naroda; tražio je punu opštinsku samoupravu, narodnu miliciju umesto stajaće vojske i federaciju balkanskih naroda kao odgovor na velike sile koje su Balkan delile na sfere uticaja."
       },
       {
         "type": "paragraph",
@@ -13921,7 +13921,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Politički, njegov uticaj se merio krugom mladih ljudi koji su se oko njega okupljali. Među njima su bili Nikola Pašić, Pera Todorović, Adam Bogosavljević i mnogi drugi koji će, šest godina posle Markovićeve smrti, 1881. osnovati Narodnu radikalnu stranku — najuticajniju srpsku partiju do kraja veka. Radikali će vremenom napustiti deo njegovih utopijskih ideja, ali će sačuvati ono što je on smatrao srcem stvari: ideju jake lokalne samouprave, nepoverenje prema činovničkoj državi i osećaj da seljak mora biti politički subjekt, a ne objekt vladanja."
+        "text": "Politički, njegov uticaj se merio krugom mladih ljudi koji su se oko njega okupljali. Među njima su bili Nikola Pašić, Pera Todorović i mnogi drugi koji će, šest godina posle Markovićeve smrti, 1881. osnovati Narodnu radikalnu stranku — najuticajniju srpsku partiju do kraja veka. Adam Bogosavljević, vođa male seljačke opozicije u skupštini, umro je 1880, pre toga. Radikali će vremenom napustiti deo njegovih utopijskih ideja, ali će sačuvati ono što je on smatrao srcem stvari: ideju jake lokalne samouprave, nepoverenje prema činovničkoj državi i osećaj da seljak mora biti politički subjekt, a ne objekt vladanja."
       },
       {
         "type": "paragraph",
@@ -13955,7 +13955,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "content": [
       {
         "type": "paragraph",
-        "text": "U leto 1876. godine Kneževina Srbija, mala i još uvek formalno vazalna država pod vlašću kneza Milana Obrenovića, objavila je rat Osmanskom carstvu. Istog dana isto je učinila i Crna Gora. Bio je to potez koji je u Beogradu dugo pripreman kao moralna obaveza i kao spoljnopolitička prilika, a koji će se u narednim mesecima pokazati kao mnogo teži zadatak nego što su njegovi pokretači želeli da priznaju. Iz dve godine ratovanja, sa kratkim primirjem između njih, Srbija će izaći iscrpljena, sa hiljadama mrtvih, ali i sa novim granicama na jugu i sa otvorenim putem ka međunarodnom priznanju nezavisnosti.",
+        "text": "U leto 1876. godine Kneževina Srbija, mala i još uvek formalno vazalna država pod vlašću kneza Milana Obrenovića, objavila je rat Osmanskom carstvu. Istog dana isto je učinila i Crna Gora. Bio je to potez koji je u Beogradu dugo pripreman kao moralna obaveza i kao spoljnopolitička prilika, a koji će se u narednim mesecima pokazati kao mnogo teži zadatak nego što su njegovi pokretači želeli da priznaju. Iz dve godine ratovanja, sa desetomesečnim predahom i formalnim mirom između njih, Srbija će izaći iscrpljena, sa hiljadama mrtvih, ali i sa novim granicama na jugu i sa otvorenim putem ka međunarodnom priznanju nezavisnosti.",
         "dropcap": true
       },
       {
@@ -13972,7 +13972,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Spas je došao iz Petrograda. Ruski car Aleksandar II, suočen sa pritiskom javnog mnjenja kod kuće i sa nemogućnošću da pusti malu pravoslavnu državu da bude pregažena, uputio je Visokoj porti ultimatum kojim je zahtevao trenutno primirje. Osmanska strana je popustila. U decembru 1876. potpisano je primirje koje je Srbiju vratilo, manje-više, u predratne granice — ali ju je sačuvalo kao državu. Prvi rat je tako završen porazom koji bi, bez ruske intervencije, mogao biti i mnogo gori. Ostala je za njim teška cena: hiljade poginulih i ranjenih, opustošena polja u Pomoravlju i Toplici, prazna kasa i jasno upozorenje koliko je razmak između srpskih ambicija i srpskih realnih snaga toga časa."
+        "text": "Spas je došao iz Petrograda. Ruski car Aleksandar II, suočen sa pritiskom javnog mnjenja kod kuće i sa nemogućnošću da pusti malu pravoslavnu državu da bude pregažena, uputio je Visokoj porti ultimatum kojim je zahtevao trenutno primirje. Osmanska strana je popustila. Početkom novembra 1876. zaključeno je primirje, a mirom potpisanim krajem februara 1877. Srbija je vraćena u predratne granice — ali je sačuvana kao država. Prvi rat je tako završen porazom koji bi, bez ruske intervencije, mogao biti i mnogo gori. Ostala je za njim teška cena: hiljade poginulih i ranjenih, opustošena polja u Pomoravlju i Toplici, prazna kasa i jasno upozorenje koliko je razmak između srpskih ambicija i srpskih realnih snaga toga časa."
       },
       {
         "type": "heading",
@@ -13985,7 +13985,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "U toku samo nekoliko nedelja, u januaru 1878. godine, srpska vojska je oslobodila Niš, jedan od najvažnijih gradova na Balkanu i ključnu osmansku tvrđavu južno od Dunava. Ubrzo su pali i Pirot, Leskovac i Vranje. Bili su to gradovi u kojima je srpsko stanovništvo vekovima živelo pod osmanskom vlašću; njihovo oslobađanje doživeo je narod kao istorijski događaj prve veličine, a u srpskoj vojsci se rodio osećaj da je, posle poraza iz prethodne godine, sopstvenim naporom platila i deo svog mesta u evropskim računima. Vredi spomenuti da se u redovima srpske vojske u drugom ratu istakao i Petar Karađorđević, sin nekadašnjeg kneza Aleksandra i budući kralj, koji je tu stekao deo svog vojničkog ugleda."
+        "text": "U toku samo nekoliko nedelja, u januaru 1878. godine, srpska vojska je oslobodila Niš, jedan od najvažnijih gradova na Balkanu i ključnu osmansku tvrđavu južno od Dunava. Pre toga su već bili oslobođeni Prokuplje, Leskovac i Pirot, a posle Niša, krajem januara, i Vranje. Bili su to gradovi u kojima je srpsko stanovništvo vekovima živelo pod osmanskom vlašću; njihovo oslobađanje doživeo je narod kao istorijski događaj prve veličine, a u srpskoj vojsci se rodio osećaj da je, posle poraza iz prethodne godine, sopstvenim naporom platila i deo svog mesta u evropskim računima. Petar Karađorđević, sin nekadašnjeg kneza Aleksandra i budući kralj, bio je tada emigrant; vojnički ugled stekao je u Francusko-pruskom ratu i u ustanku u Bosni 1875, pod imenom Petar Mrkonjić."
       },
       {
         "type": "paragraph",
@@ -13993,7 +13993,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Kada se dve godine ratovanja sagledaju zajedno, slika je trezvena. Srpsko-turski ratovi 1876–1878. nisu bili niz lakih pobeda male hrabre države, kako su ih kasnije ponekad opisivale prigodne istorije. Bili su to ratovi vođeni preko snage, sa skromnom logistikom, uz veliku zavisnost od ruske vojničke i diplomatske pomoći, sa porazom kod Đunisa kao jasnim podsetnikom na granice mogućeg. Istovremeno, bili su to ratovi u kojima je srpski vojnik — naročito u drugom pohodu — doneo konkretan teritorijalni rezultat i pomerio južnu granicu Kneževine duboko ka Vardaru i Moravi. Cenu su platili obični ljudi: poginuli, ranjeni, popaljena sela, raseljeno stanovništvo. Ono što će tek Berlinski kongres pretvoriti u trajno dobro — međunarodno priznanje nezavisnosti — izvojevano je upravo tu, u dva teška i neravnopravna rata između 1876. i 1878. godine."
+        "text": "Kada se dve godine ratovanja sagledaju zajedno, slika je trezvena. Srpsko-turski ratovi 1876–1878. nisu bili niz lakih pobeda male hrabre države, kako su ih kasnije ponekad opisivale prigodne istorije. Bili su to ratovi vođeni preko snage, sa skromnom logistikom, uz veliku zavisnost od ruske vojničke i diplomatske pomoći, sa porazom kod Đunisa kao jasnim podsetnikom na granice mogućeg. Istovremeno, bili su to ratovi u kojima je srpski vojnik — naročito u drugom pohodu — doneo konkretan teritorijalni rezultat i pomerio južnu granicu Kneževine duboko niz Južnu Moravu, do iza Vranja. Cenu su platili obični ljudi: poginuli, ranjeni, popaljena sela, raseljeno stanovništvo. Ono što će tek Berlinski kongres pretvoriti u trajno dobro — međunarodno priznanje nezavisnosti — izvojevano je upravo tu, u dva teška i neravnopravna rata između 1876. i 1878. godine."
       }
     ],
     "subtitle": "Dva rata Kneževine Srbije protiv Osmanskog carstva, od poraza kod Đunisa do oslobođenja Niša",
@@ -14031,7 +14031,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Srbija je sve to vreme stajala po strani, oporavljajući se od poraza iz prethodnog rata 1876. Knez Milan i njegova vlada znali su da bi prerano uključivanje, bez čvrstog ruskog uspeha, ponovo izložilo zemlju turskoj odmazdi. Tek kada je Plevna pala i kada je postalo jasno da glavnina osmanske vojske ostaje vezana na bugarskom ratištu, u Beogradu je doneta odluka. Decembra 1877. Srbija je objavila drugi rat Turskoj. Ovog puta vojska je bila bolje opremljena i organizovana nego godinu dana ranije, sa jasnijom komandom — na čelu glavnih operacija stajao je general Kosta Protić — i sa konkretnim, ograničenim ciljem: pomeranje granice na jug i jugoistok, ka dolinama Južne i Zapadne Morave."
+        "text": "Srbija je sve to vreme stajala po strani, oporavljajući se od poraza iz prethodnog rata 1876. Knez Milan i njegova vlada znali su da bi prerano uključivanje, bez čvrstog ruskog uspeha, ponovo izložilo zemlju turskoj odmazdi. Tek kada je Plevna pala i kada je postalo jasno da glavnina osmanske vojske ostaje vezana na bugarskom ratištu, u Beogradu je doneta odluka. Decembra 1877. Srbija je objavila drugi rat Turskoj. Ovog puta vojska je bila bolje opremljena i organizovana nego godinu dana ranije, sa jasnijom komandom — na čelu glavnih operacija stajao je general Kosta Protić — i sa konkretnim, ograničenim ciljem: pomeranje granice na jug i jugoistok, ka dolinama Južne Morave, Nišave i Toplice."
       },
       {
         "type": "heading",
@@ -14040,7 +14040,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Operacije su tekle brzo. Srpske jedinice su krajem decembra i u prvim danima januara 1878. opkolile Niš, najjače tursko uporište na jugu. Posle kraće opsade, grad je predat — po novom kalendaru 10. januara 1878. godine, što je datum koji će ući u srpsko nacionalno pamćenje kao oslobođenje Niša. U narednim nedeljama redom su pali Pirot, Vranje, Leskovac i Prokuplje. Pravac napada pratio je dolinu Nišave i Južne Morave, a operacije ka jugu, prema Kosovu i Makedoniji, zaustavljene su uglavnom usled diplomatskih okolnosti, ne usled turskog otpora. Crna Gora je istovremeno na svom delu fronta oslobađala Nikšić, izlazila na more kod Bara i prilazila Ulcinju."
+        "text": "Operacije su tekle brzo. Srpske jedinice su krajem decembra i u prvim danima januara 1878. opkolile Niš, najjače tursko uporište na jugu. Posle kraće opsade, grad je predat — po novom kalendaru 10. januara 1878. godine, što je datum koji će ući u srpsko nacionalno pamćenje kao oslobođenje Niša. Prokuplje, Leskovac i Pirot oslobođeni su još u decembru, pre pada Niša, a Vranje krajem januara 1878.Pravac napada pratio je dolinu Nišave i Južne Morave, a operacije ka jugu, prema Kosovu i Makedoniji, zaustavljene su uglavnom usled diplomatskih okolnosti, ne usled turskog otpora. Crna Gora je na svom delu fronta još u septembru 1877. zauzela Nikšić, a u januaru 1878. Bar i Ulcinj."
       },
       {
         "type": "paragraph",
@@ -14097,7 +14097,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Berlinski ugovor doneo je Srbiji tri velike stvari. Prvo i najvažnije — punu državnu nezavisnost od Osmanskog carstva, posle gotovo četiri i po veka u kojima je ona, u različitim oblicima, bila samo vazalna ili autonomna jedinica. Drugo, teritorijalno proširenje od oko jedanaest hiljada kvadratnih kilometara: krug oko Niša, Pirota, Vranja, Leskovca, Prokuplja i Toplica. Sa tim zemljama Srbija je dobila i prvu pravu južnu granicu, polje za novu upravu, nove škole i nove železničke planove. Treće, ulazak u red država sa kojima Evropa razgovara protokolom, a ne fermanom. Cena tih dobitaka bila je obavezujuća: Srbija je morala da prizna verska prava manjinama — pre svega Jevrejima, čije je puno građanstvo postalo međunarodna obaveza — i da prihvati propise o slobodnoj plovidbi Dunavom i o povezivanju srpskih železnica sa austrougarskim sistemom."
+        "text": "Berlinski ugovor doneo je Srbiji tri velike stvari. Prvo i najvažnije — punu državnu nezavisnost od Osmanskog carstva, posle više od četiri veka u kojima je ona, u različitim oblicima, bila samo vazalna ili autonomna jedinica. Drugo, teritorijalno proširenje od oko jedanaest hiljada kvadratnih kilometara: krug oko Niša, Pirota, Vranja, Leskovca, Prokuplja i Toplica. Sa tim zemljama Srbija je dobila i prvu pravu južnu granicu, polje za novu upravu, nove škole i nove železničke planove. Treće, ulazak u red država sa kojima Evropa razgovara protokolom, a ne fermanom. Cena tih dobitaka bila je obavezujuća: Srbija je morala da prizna verska prava manjinama — pre svega Jevrejima, čije je puno građanstvo postalo međunarodna obaveza — i da prihvati propise o slobodnoj plovidbi Dunavom i o povezivanju srpskih železnica sa austrougarskim sistemom."
       },
       {
         "type": "paragraph",
@@ -14149,7 +14149,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Knez Milan je pitanje krune otvarao već u godinama posle Berlinskog kongresa. Njemu, pored državnih razloga, nije bilo svejedno ni lično. Bio je vladar nesigurnog osećanja sopstvene težine, sklon da spoljnim znacima nadoknadi unutrašnju neizvesnost. Kruna mu je trebala kao dokaz da Srbija — i on lično — pripadaju krugu pravih evropskih monarha. Spoljnopolitički preokret koji je to omogućio dogodio se godinu dana ranije. Godine 1881. potpisana je tajna konvencija sa Austro-Ugarskom, dokument poznat i kao Beogradski sporazum, kojim se Srbija obavezivala da svoju spoljnu politiku usklađuje sa Bečom i da ne podržava agitaciju protiv Monarhije među Slovenima u njoj. Zauzvrat je Beč obećavao podršku, između ostalog i podršku eventualnom proglašenju kraljevine."
+        "text": "Knez Milan je pitanje krune otvarao već u godinama posle Berlinskog kongresa. Njemu, pored državnih razloga, nije bilo svejedno ni lično. Bio je vladar nesigurnog osećanja sopstvene težine, sklon da spoljnim znacima nadoknadi unutrašnju neizvesnost. Kruna mu je trebala kao dokaz da Srbija — i on lično — pripadaju krugu pravih evropskih monarha. Spoljnopolitički preokret koji je to omogućio dogodio se godinu dana ranije. Godine 1881. potpisana je tajna konvencija sa Austro-Ugarskom, kojom se Srbija obavezivala da svoju spoljnu politiku usklađuje sa Bečom i da ne podržava agitaciju protiv Monarhije među Slovenima u njoj. Zauzvrat je Beč obećavao podršku, između ostalog i podršku eventualnom proglašenju kraljevine."
       },
       {
         "type": "heading",
@@ -14194,7 +14194,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "content": [
       {
         "type": "paragraph",
-        "text": "Kada je u Topčideru 1868. godine ubijen knez Mihailo Obrenović, dinastija je ostala bez muškog naslednika u zreloj dobi. Izbor je pao na četrnaestogodišnjeg Milana, sina Mihailovog rođaka Miloša, tada dečaka koji se školovao u Parizu i koji se Srbiji jedva sećao. Doveden je u Beograd preko noći i postavljen za kneza, a zemljom je do njegovog punoletstva vladalo namesništvo. Tako je započela jedna od najprotivurečnijih vladavina u srpskoj istoriji — vladavina pod kojom će Srbija dobiti nezavisnost, kraljevsku krunu i moderan ustav, a istovremeno se duboko, gotovo nepovratno podeliti.",
+        "text": "Kada je u Košutnjaku 1868. godine ubijen knez Mihailo Obrenović, dinastija je ostala bez muškog naslednika u zreloj dobi. Izbor je pao na trinaestogodišnjeg Milana (u četrnaestoj godini), sina Mihailovog rođaka Miloša, tada dečaka koji se školovao u Parizu i koji se Srbiji jedva sećao. Doveden je u Beograd preko noći i postavljen za kneza, a zemljom je do njegovog punoletstva vladalo namesništvo. Tako je započela jedna od najprotivurečnijih vladavina u srpskoj istoriji — vladavina pod kojom će Srbija dobiti nezavisnost, kraljevsku krunu i moderan ustav, a istovremeno se duboko, gotovo nepovratno podeliti.",
         "dropcap": true
       },
       {
@@ -14216,7 +14216,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Spoljnopolitički udarac usledio je dve godine kasnije. Posle ujedinjenja Kneževine Bugarske sa Istočnom Rumelijom 1885. godine, Milan je, oslonjen na austrougarsku diplomatsku podršku i uveren u sopstvenu vojnu prednost, objavio rat Bugarskoj. Srpsko-bugarski rat trajao je samo dve nedelje. Kod Slivnice, u novembru 1885, srpska vojska je pretrpela težak poraz od bugarskih snaga koje je predvodio sam knez Aleksandar Batenberg. Bilo je to ratovanje koje niko u zemlji nije razumeo niti tražio, izgubljeno protiv naroda koji se decenijama smatrao saveznikom. Mir u Bukureštu sledeće godine vratio je granice na pređašnje stanje, ali je ugled krune ozbiljno pao."
+        "text": "Spoljnopolitički udarac usledio je dve godine kasnije. Posle ujedinjenja Kneževine Bugarske sa Istočnom Rumelijom 1885. godine, Milan je, oslonjen na austrougarsku diplomatsku podršku i uveren u sopstvenu vojnu prednost, objavio rat Bugarskoj. Srpsko-bugarski rat trajao je samo dve nedelje. Kod Slivnice, u novembru 1885, srpska vojska je pretrpela težak poraz od bugarskih snaga koje je predvodio sam knez Aleksandar Batenberg. Bilo je to ratovanje koje je veliki deo zemlje teško razumeo, izgubljeno protiv naroda koji se decenijama smatrao saveznikom. Mir u Bukureštu sledeće godine vratio je granice na pređašnje stanje, ali je ugled krune ozbiljno pao."
       },
       {
         "type": "paragraph",
@@ -14246,12 +14246,12 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "content": [
       {
         "type": "paragraph",
-        "text": "U januaru 1881. godine, u Kragujevcu, izašao je prvi broj lista „Samouprava”. U njemu je objavljen programski manifest jedne nove stranke — Narodne radikalne. Ime je biralo stranu unapred. Radikali nisu želeli da budu još jedna grupica činovnika i advokata oko kneza, kakve je dotadašnja srpska politika već dobro poznavala; želeli su da menjaju temelje. Bili su to mahom mlađi ljudi, deca seoskih i palanačkih kuća, koja su se školovala u Cirihu, Petrogradu i drugim središtima evropske levice, a vratila se u kneževinu sa knjigama Černiševskog, Bakunjina i ruskih narodnjaka u prtljagu. Iz domaće tradicije nasledili su misao Svetozara Markovića, umrlog 1875. godine — i njegov pogled na opštinu i seljaka kao na pravu osnovu države.",
+        "text": "U januaru 1881. godine, u Beogradu, izašao je prvi broj lista „Samouprava”. U njemu je objavljen programski manifest jedne nove stranke — Narodne radikalne, koja će prvu glavnu skupštinu održati jula 1882. u Kragujevcu. Ime je biralo stranu unapred. Radikali nisu želeli da budu još jedna grupica činovnika i advokata oko kneza, kakve je dotadašnja srpska politika već dobro poznavala; želeli su da menjaju temelje. Bili su to mahom mlađi ljudi, deca seoskih i palanačkih kuća, koja su se školovala u Cirihu, Petrogradu i drugim središtima evropske levice, a vratila se u kneževinu sa knjigama Černiševskog, Bakunjina i ruskih narodnjaka u prtljagu. Iz domaće tradicije nasledili su misao Svetozara Markovića, umrlog 1875. godine — i njegov pogled na opštinu i seljaka kao na pravu osnovu države.",
         "dropcap": true
       },
       {
         "type": "paragraph",
-        "text": "Među osnivačima bila su tri imena koja će se ponavljati. Pera Todorović — pero stranke, novinar oštrog jezika, pisac „Samouprave” i kasnije, posle Timočke bune, jedan od retkih koji će o tom slomu progovoriti otvoreno. Pera Velimirović — inženjer i organizator. I Nikola Pašić, rođen 1845. u Zaječaru, takođe inženjer po obrazovanju, ćutljiv, strpljiv čovek bez govorničkog dara, ali sa neobičnim osećajem za to kako se ljudi okupljaju, drže na okupu i čekaju pravi trenutak. Pašićev stil bio je opisan tačno jednom rečenicom koja će ga pratiti ceo vek — „čekati i sačekati”. U politici koja je u Srbiji često bila prgava i nestrpljiva, to je bila retka osobina."
+        "text": "Među osnivačima bila su tri imena koja će se ponavljati. Pera Todorović — pero stranke, novinar oštrog jezika, jedan od glavnih pisaca „Samouprave” i kasnije, posle Timočke bune, jedan od retkih koji će o tom slomu progovoriti otvoreno. Pera Velimirović — inženjer i organizator. I Nikola Pašić, rođen 1845. u Zaječaru, takođe inženjer po obrazovanju, ćutljiv, strpljiv čovek bez govorničkog dara, ali sa neobičnim osećajem za to kako se ljudi okupljaju, drže na okupu i čekaju pravi trenutak. Pašićev stil bio je opisan tačno jednom rečenicom koja će ga pratiti ceo vek — „čekati i sačekati”. U politici koja je u Srbiji često bila prgava i nestrpljiva, to je bila retka osobina."
       },
       {
         "type": "paragraph",
@@ -14272,17 +14272,17 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Kakav je čovek bio na čelu te stranke, najbolje govori sledećih četrdeset godina. Pašić je preživeo trojicu vladara, dve dinastije, dva svetska rata i raspad jedne države, da bi učestvovao u stvaranju druge. Vodio je srpsku vladu u Balkanskim ratovima i u Prvom svetskom ratu, predstavljao Srbiju u pregovorima koji su 1918. doveli do ujedinjenja, i bio prvi predsednik vlade Kraljevine Srba, Hrvata i Slovenaca. Sve to nije bilo plod blistavih govora — Pašić je u skupštini govorio retko i kratko — nego dugog, gotovo seljačkog strpljenja, sposobnosti da se sluša, da se ne odgovara odmah, da se sačeka da se prilike same okrenu."
+        "text": "Kakav je čovek bio na čelu te stranke, najbolje govori sledećih četrdeset godina. Pašić je preživeo trojicu vladara, dve dinastije, Balkanske ratove i Prvi svetski rat, i raspad jedne države, da bi učestvovao u stvaranju druge. Vodio je srpsku vladu u tim ratovima, predstavljao Srbiju u pregovorima koji su 1918. doveli do ujedinjenja, a kasnije bio i predsednik vlade Kraljevine Srba, Hrvata i Slovenaca. Sve to nije bilo plod blistavih govora — Pašić je u skupštini govorio retko i kratko — nego dugog, gotovo seljačkog strpljenja, sposobnosti da se sluša, da se ne odgovara odmah, da se sačeka da se prilike same okrenu."
       },
       {
         "type": "paragraph",
-        "text": "Ipak, bilo bi nepošteno ostaviti samo svetlu sliku. Stranka koja je u osamdesetim godinama bila glas seljaka i opštine kasnije nije ostala imuna na sopstveni uspeh. Sa godinama na vlasti došli su i klijentelizam, postavljanja po srodstvu i po stranačkoj liniji, sklonost da se opozicija pritiska sredstvima koje je nekada osuđivala. Pašićev lični autoritet, koji je u opoziciji bio dragocen, u dugim godinama upravljanja imao je i autoritarnu stranu. To su istoričari kasnije ispisivali pošteno, ne da bi umanjili značaj, već da se ne bi zaboravilo: prva masovna srpska stranka donela je u zemlju i demokratiju i njene zamke. Ono što je osamdesetih u Kragujevcu počelo kao manifest mladih povratnika iz Ciriha postalo je za jedan ljudski vek glavni tok srpske politike — sa svim što takav uspeh nosi."
+        "text": "Ipak, bilo bi nepošteno ostaviti samo svetlu sliku. Stranka koja je u osamdesetim godinama bila glas seljaka i opštine kasnije nije ostala imuna na sopstveni uspeh. Sa godinama na vlasti došli su i klijentelizam, postavljanja po srodstvu i po stranačkoj liniji, sklonost da se opozicija pritiska sredstvima koje je nekada osuđivala. Pašićev lični autoritet, koji je u opoziciji bio dragocen, u dugim godinama upravljanja imao je i autoritarnu stranu. To su istoričari kasnije ispisivali pošteno, ne da bi umanjili značaj, već da se ne bi zaboravilo: prva masovna srpska stranka donela je u zemlju i demokratiju i njene zamke. Ono što je početkom osamdesetih počelo kao manifest mladih povratnika iz Ciriha postalo je za jedan ljudski vek glavni tok srpske politike — sa svim što takav uspeh nosi."
       }
     ],
-    "subtitle": "Kako je u Kragujevcu 1881. nastala prva masovna srpska stranka i kako je u njoj sazreo Nikola Pašić",
+    "subtitle": "Kako je 1881. nastala prva masovna srpska stranka i kako je u njoj sazreo Nikola Pašić",
     "dateLabel": "1880-e.",
     "timelinePosition": "1880-e.",
-    "summary": "Nastanak Narodne radikalne stranke u Kragujevcu 1881, njen program opštinske samouprave i seljačke politike, i uspon Nikole Pašića — strpljivog inženjera koji će kroz Timočku bunu, sukobe sa kraljem Milanom i dugotrajan otpor izrasti u centralnu figuru srpske politike sve do stvaranja Jugoslavije.",
+    "summary": "Nastanak Narodne radikalne stranke 1881, njen program opštinske samouprave i seljačke politike, i uspon Nikole Pašića — strpljivog inženjera koji će kroz Timočku bunu, sukobe sa kraljem Milanom i dugotrajan otpor izrasti u centralnu figuru srpske politike sve do stvaranja Jugoslavije.",
     "keyPeople": [
       "Nikola Pašić",
       "Pera Todorović",
@@ -14302,12 +14302,12 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "content": [
       {
         "type": "paragraph",
-        "text": "Kada je Srbija 1878. godine na Berlinskom kongresu dobila punu nezavisnost, a 1882. proglašena za kraljevinu, izgledalo je da je politički okvir konačno na svom mestu: Ustav iz 1869, prošireni i dopunjeni 1888, Narodna skupština, podeljene vlasti, pisani izborni zakon. U stvarnosti je tek tada počeo težak i često neuredan posao — da se taj okvir napuni sadržajem, da se stvore stranke, novine, politička kultura i navika da se vlast i opozicija smenjuju bez puške. Sledeće dve decenije, od početka 1880-ih do prevrata 1903, biće upravo to: vreme u kojem srpski parlamentarizam postoji na papiru, ali se istovremeno bori za vazduh sa dvorom, sa sopstvenom nezrelošću i sa stranačkim strastima koje često idu preko ivice.",
+        "text": "Kada je Srbija 1878. godine na Berlinskom kongresu dobila punu nezavisnost, a 1882. proglašena za kraljevinu, izgledalo je da je politički okvir konačno na svom mestu: Ustav iz 1869 (koji će 1888. zameniti novi), Narodna skupština, podeljene vlasti, pisani izborni zakon. U stvarnosti je tek tada počeo težak i često neuredan posao — da se taj okvir napuni sadržajem, da se stvore stranke, novine, politička kultura i navika da se vlast i opozicija smenjuju bez puške. Sledeće dve decenije, od početka 1880-ih do prevrata 1903, biće upravo to: vreme u kojem srpski parlamentarizam postoji na papiru, ali se istovremeno bori za vazduh sa dvorom, sa sopstvenom nezrelošću i sa stranačkim strastima koje često idu preko ivice.",
         "dropcap": true
       },
       {
         "type": "paragraph",
-        "text": "Politički život kristališe se oko tri stranke koje će dugo ostati glavni igrači. Narodna radikalna stranka, osnovana 1881. pod neformalnim vođstvom Nikole Pašića, oslanja se na seljaštvo — onu većinu koja čini i biračko telo i vojsku. Njen program traži opštinsku samoupravu, jeftinu i blisku državu, slobodu štampe i okupljanja, a u spoljnoj politici naglašava bliskost s Rusijom. Liberalna stranka, koju vodi Jovan Ristić, naslednik je „mladokonzervativaca” iz šezdesetih godina; njeno uporište je viša birokratska klasa, gradski činovnici i obrazovani sloj, a politički ton joj je ustavotvoran i, u spoljnim odnosima, više okrenut Britaniji nego drugima. Napredna stranka, koju 1880. okupljaju Milan Piroćanac, Milutin Garašanin i Čedomilj Mijatović, najmanja je od tri, ali intelektualno gusta — okrenuta zapadnim institucionalnim modelima, sklona Austro-Ugarskoj iz pragmatičnih razloga i bliska kralju Milanu."
+        "text": "Politički život kristališe se oko tri stranke koje će dugo ostati glavni igrači. Narodna radikalna stranka, osnovana 1881. pod neformalnim vođstvom Nikole Pašića, oslanja se na seljaštvo — onu većinu koja čini i biračko telo i vojsku. Njen program traži opštinsku samoupravu, jeftinu i blisku državu, slobodu štampe i okupljanja, a u spoljnoj politici naglašava bliskost s Rusijom. Liberalna stranka, koju vodi Jovan Ristić, naslednik je liberala iz vremena Svetoandrejske skupštine (1858) i šezdesetih godina; njeno uporište je viša birokratska klasa, gradski činovnici i obrazovani sloj, a politički ton joj je ustavotvoran i, u spoljnim odnosima, tradicionalno bliži Rusiji. Napredna stranka, koju 1880. okupljaju Milan Piroćanac, Milutin Garašanin i Čedomilj Mijatović, najmanja je od tri, ali intelektualno gusta — okrenuta zapadnim institucionalnim modelima, sklona Austro-Ugarskoj iz pragmatičnih razloga i bliska kralju Milanu."
       },
       {
         "type": "heading",
@@ -14316,7 +14316,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Svaka stranka ima svoj glasnogovornik. „Samouprava” je radikalska, „Srpska nezavisnost” liberalna, „Videlo” napredna. Listovi se međusobno svađaju oštrije nego što je do tada bio običaj u javnoj reči — sa optužbama za izdaju, korupciju, kukavičluk, prodaju strancima. Polemike povremeno klize u grubost i, u uličnim događajima, u nasilje. Taj prvi politički gorak ton biće obeležje epohe. Skupština se često raspušta, izbori se ponavljaju, pa kralj smenjuje vladu i pre nego što novi parlament završi prvo zasedanje. Izborni zakon menja se nekoliko puta, granice okruga prekrajaju se — onim što bi se danas nazvalo „dženderingom” — kako bi se jednoj ili drugoj strani obezbedila većina."
+        "text": "Svaka stranka ima svoj glasnogovornik. „Samouprava” je radikalska, „Srpska nezavisnost” liberalna, „Videlo” napredna. Listovi se međusobno svađaju oštrije nego što je do tada bio običaj u javnoj reči — sa optužbama za izdaju, korupciju, kukavičluk, prodaju strancima. Polemike povremeno klize u grubost i, u uličnim događajima, u nasilje. Taj prvi politički gorak ton biće obeležje epohe. Skupština se često raspušta, izbori se ponavljaju, pa kralj smenjuje vladu i pre nego što novi parlament završi prvo zasedanje. Izborni zakon menja se nekoliko puta, granice okruga prekrajaju se — onim što bi se danas nazvalo „džerimanderingom” — kako bi se jednoj ili drugoj strani obezbedila većina."
       },
       {
         "type": "paragraph",
@@ -14332,7 +14332,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Iz današnje perspektive, srpski parlamentarizam ovog perioda najtačnije se opisuje kao stvaran, ali nedozreo. Institucije postoje, ali ih svi učesnici — i kralj i stranke — koriste taktički, koliko im trenutno odgovara. Stranke su organizovane oko ličnosti više nego oko trajnih programa; vlade su kratke, ministarske krize česte; sudstvo nije nezavisno onoliko koliko ustavi obećavaju. Ipak, u tim teškim godinama izgrađene su navike koje će se tek posle Majskog prevrata 1903. razviti u ono što se često naziva „zlatnim dobom” srpskog parlamentarizma. Bez sukoba, gerimanderinga, smenjivanja ustava i Ivanjdanskih suđenja iz ovog perioda ne bi bilo ni one zrelije, slobodnije politike koja dolazi posle. Pošteno gledano, dvadeset godina između Berlinskog kongresa i prevrata nisu bile demokratska idila, ali jesu bile škola — često surova — iz koje je srpska država izašla sa stranačkim sistemom, politički pismenom javnošću i jasnom svešću da se vlast u modernoj zemlji ne osvaja samo na bojištu, već i u skupštinskoj sali."
+        "text": "Iz današnje perspektive, srpski parlamentarizam ovog perioda najtačnije se opisuje kao stvaran, ali nedozreo. Institucije postoje, ali ih svi učesnici — i kralj i stranke — koriste taktički, koliko im trenutno odgovara. Stranke su organizovane oko ličnosti više nego oko trajnih programa; vlade su kratke, ministarske krize česte; sudstvo nije nezavisno onoliko koliko ustavi obećavaju. Ipak, u tim teškim godinama izgrađene su navike koje će se tek posle Majskog prevrata 1903. razviti u ono što se često naziva „zlatnim dobom” srpskog parlamentarizma. Bez sukoba, džerimanderinga, smenjivanja ustava i Ivanjdanskih suđenja iz ovog perioda ne bi bilo ni one zrelije, slobodnije politike koja dolazi posle. Pošteno gledano, dvadeset godina između Berlinskog kongresa i prevrata nisu bile demokratska idila, ali jesu bile škola — često surova — iz koje je srpska država izašla sa stranačkim sistemom, politički pismenom javnošću i jasnom svešću da se vlast u modernoj zemlji ne osvaja samo na bojištu, već i u skupštinskoj sali."
       }
     ],
     "subtitle": "Tri stranke, dva ustava i dvor koji se ne miri sa parlamentom — srpska politika krajem 19. veka",
@@ -14357,7 +14357,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "content": [
       {
         "type": "paragraph",
-        "text": "U jesen 1883. godine, u krajevima oko Timoka — u Crnorečkom, Krajinskom i Banjskom okrugu — selo se diglo protiv sopstvene vlade. Povod je bio naizgled tehnički, gotovo administrativni: odluka da se seljacima oduzmu stare puške, pretežno „kremenjače“ zaostale iz srpsko-turskih ratova, i da se time dovrši reforma vojske i razoružanje paramilitarnih elemenata u zemlji. Vlada Milana Piroćanca, sastavljena od ljudi Napredne stranke, na to je gledala kao na razuman korak modernizacije. Selo je na isto gledalo sasvim drugačije — puška je u domu bila porodični amanet, znak časti i dokaz da je kuća učestvovala u nedavnim ratovima protiv Osmanlija. Tu se sukobio jedan beogradski zakon sa jednim seljačkim osećanjem.",
+        "text": "U jesen 1883. godine, u krajevima oko Timoka — u knjaževačkom, zaječarskom, boljevačkom i sokobanjskom kraju — selo se diglo protiv sopstvene vlade. Povod je bio naizgled tehnički, gotovo administrativni: odluka da se seljacima oduzmu puške narodne vojske koje su se po starom sistemu čuvale po kućama, i da se time dovrši reforma vojske. Vlada Milana Piroćanca, sastavljena od ljudi Napredne stranke, na to je gledala kao na razuman korak modernizacije. Selo je na isto gledalo sasvim drugačije — puška je u domu bila porodični amanet, znak časti i dokaz da je kuća učestvovala u nedavnim ratovima protiv Osmanlija. Tu se sukobio jedan beogradski zakon sa jednim seljačkim osećanjem.",
         "dropcap": true
       },
       {
@@ -14366,7 +14366,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Kada su krajem oktobra 1883. u timočke sreze stigli organi vlasti da preuzmu puške, na više mesta dočekani su otporom. Otpor se proširio brže nego što je iko očekivao. U svega nekoliko dana pristupilo mu je nekoliko hiljada ljudi — seljaci sa svojim oružjem, mahom oni isti koje je vlast želela razoružati. Pobunjenici su zauzeli pojedine opštine, razoružali žandarme, prekinuli telegrafske linije; čuli su se i pojedinačni pozivi na svrgavanje vlade. Ipak, pokret je od početka bio bez jasnog vojnog vođstva i bez jedinstvenog plana — više roj ogorčenih sela nego organizovana vojska."
+        "text": "Posle izbornog poraza naprednjaka u septembru 1883. vladu je preuzeo Nikola Hristić; pod njim je sprovedeno oduzimanje oružja i ugušena buna. Kada su krajem oktobra 1883. u timočke sreze stigli organi vlasti da preuzmu puške, na više mesta dočekani su otporom. Otpor se proširio brže nego što je iko očekivao. U svega nekoliko dana pristupilo mu je nekoliko hiljada ljudi — seljaci sa svojim oružjem, mahom oni isti koje je vlast želela razoružati. Pobunjenici su zauzeli pojedine opštine, razoružali žandarme, prekinuli telegrafske linije; čuli su se i pojedinačni pozivi na svrgavanje vlade. Ipak, pokret je od početka bio bez jasnog vojnog vođstva i bez jedinstvenog plana — više roj ogorčenih sela nego organizovana vojska."
       },
       {
         "type": "heading",
@@ -14375,7 +14375,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Vlada je odgovorila brzo i odlučno. Iz Beograda i Niša upućene su redovne vojne jedinice, sa topovima i konjicom. Sukobi su trajali svega nekoliko dana — kod Knjaževca i u okolini Zaječara, pobunjenici su razbijeni gotovo bez prave bitke. Mnogi su pobegli u šume i preko granice u Bugarsku; oni koji su uhvaćeni odvedeni su u Zaječar, gde je u rekordnom roku organizovan prevremeni sud, jedna vrsta ratnog suda nadležnog za pobunjenike. Suđenja su tekla kratko, a brojke su bile teške: više od osam stotina ljudi optuženo je, devedeset četvorica osuđena na smrt, dvadeset jedan stvarno streljan. Među streljanima su uglavnom bili seljaci i nekoliko sreskih radikalnih prvaka."
+        "text": "Vlada je odgovorila brzo i odlučno. Iz Beograda i Niša upućene su redovne vojne jedinice, sa topovima i konjicom. Sukobi su trajali svega nekoliko dana — kod Knjaževca i u okolini Zaječara, pobunjenici su razbijeni gotovo bez prave bitke. Mnogi su pobegli u šume i preko granice u Bugarsku; oni koji su uhvaćeni odvedeni su u Zaječar, gde je u rekordnom roku organizovan preki sud nadležan za pobunjenike. Suđenja su tekla kratko, a brojke su bile teške: više od osam stotina ljudi optuženo je, devedeset četvorica osuđena na smrt, dvadeset jedan stvarno streljan. Među streljanima su uglavnom bili seljaci i nekoliko sreskih radikalnih prvaka."
       },
       {
         "type": "paragraph",
@@ -14387,16 +14387,17 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Posledice Timočke bune nadrastaju njen kratak trenutak. Sa jedne strane, kralj Milan i naprednjaci dobili su trenutni vojni i sudski trijumf — pokazali su da država ima snagu da uguši pobunu i kazni je primerno. Sa druge, otvorili su ranu koja se neće zaceliti: porodice streljanih, sela koja su pamtila vešala, izgnani prvaci u Sofiji — sve je to ulazilo u narodnu memoriju kao priča o nepravedno prolivenoj krvi. Narodna radikalna stranka iz tog je iskustva izašla teža za nekoliko stotina svojih ljudi, ali i ojačana kao moralni rival dvoru. Sukob koji će u narednim decenijama obeležiti srpsku politiku — između Obrenovića i radikala, između birokratske modernizacije odozgo i narodne samouprave odozdo — dobio je u oktobru 1883. svoj prvi krvavi obris. Timočka buna bila je upozorenje da brzina reformi, ako preskoči ono što selo doživljava kao svoju čast, ume da plati visoku cenu."
+        "text": "Posledice Timočke bune nadrastaju njen kratak trenutak. Sa jedne strane, kralj Milan i njegova vlada dobili su trenutni vojni i sudski trijumf — pokazali su da država ima snagu da uguši pobunu i kazni je primerno. Sa druge, otvorili su ranu koja se neće zaceliti: porodice streljanih, sela koja su pamtila streljanja, izgnani prvaci u Sofiji — sve je to ulazilo u narodnu memoriju kao priča o nepravedno prolivenoj krvi. Narodna radikalna stranka iz tog je iskustva izašla teža za nekoliko stotina svojih ljudi, ali i ojačana kao moralni rival dvoru. Sukob koji će u narednim decenijama obeležiti srpsku politiku — između Obrenovića i radikala, između birokratske modernizacije odozgo i narodne samouprave odozdo — dobio je u oktobru 1883. svoj prvi krvavi obris. Timočka buna bila je upozorenje da brzina reformi, ako preskoči ono što selo doživljava kao svoju čast, ume da plati visoku cenu."
       }
     ],
     "subtitle": "Oktobar 1883: seljačka pobuna u istočnoj Srbiji i prvi krvavi obračun dvora kralja Milana sa radikalima",
     "dateLabel": "1883.",
     "timelinePosition": "1883.",
-    "summary": "U oktobru 1883. seljaci istočne Srbije ustaju protiv vladine odluke da im se oduzmu stare puške; buna je brzo razbijena, a represija — prevremeni sud u Zaječaru, streljanja i progon radikala — postaje prvi krvavi sukob dvora i Narodne radikalne stranke.",
+    "summary": "U oktobru 1883. seljaci istočne Srbije ustaju protiv vladine odluke da im se oduzmu puške narodne vojske koje su čuvali kod kuće; buna je brzo razbijena, a represija — preki sud u Zaječaru, streljanja i progon radikala — postaje prvi krvavi sukob dvora i Narodne radikalne stranke.",
     "keyPeople": [
       "Milan Obrenović",
       "Milan Piroćanac",
+      "Nikola Hristić",
       "Nikola Pašić",
       "Pera Todorović",
       "Aca Stanojević"
@@ -14404,9 +14405,9 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "keyPlaces": [
       "Zaječar",
       "Timok",
-      "Crnorečki okrug",
-      "Krajinski okrug",
-      "Banjski okrug"
+      "Knjaževac",
+      "Boljevac",
+      "Sokobanja"
     ]
   },
   "day-255": {
@@ -14422,7 +14423,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Pa ipak, 14. novembra 1885. po julijanskom kalendaru — 26. novembra po novom — Srbija je objavila rat Bugarskoj. Plan je bio sastavljen u duhu brze pobedničke kampanje: srpska vojska treba da nadre preko granice, razbije bugarske snage raspoređene daleko na jugu i u nekoliko marševa izbije pred Sofiju. Verovalo se da će rat trajati najviše dve nedelje i da će se završiti diplomatskim stolom za kojim će Srbija govoriti sa pozicije pobednika. Stvarnost je ubrzo demantovala taj račun."
+        "text": "Pa ipak, 2. novembra 1885. po julijanskom kalendaru — 14. novembra po novom —Srbija je objavila rat Bugarskoj. Plan je bio sastavljen u duhu brze pobedničke kampanje: srpska vojska treba da nadre preko granice, razbije bugarske snage raspoređene daleko na jugu i u nekoliko marševa izbije pred Sofiju. Verovalo se da će rat trajati najviše dve nedelje i da će se završiti diplomatskim stolom za kojim će Srbija govoriti sa pozicije pobednika. Stvarnost je ubrzo demantovala taj račun."
       },
       {
         "type": "heading",
@@ -14435,15 +14436,15 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Ključna bitka odigrala se kod Slivnice, na putu prema Sofiji, između 17. i 19. novembra po julijanskom kalendaru — 29. novembra i 1. decembra po novom. Tu se srpski napad slomio. Posle tri dana borbi, srpska vojska je bila prinuđena na povlačenje, sa teškim gubicima, u neredu koji su savremenici opisivali kao tešku, gotovo nepodnošljivu sliku. Bugari su zatim prešli u kontranapad, prešli granicu i krajem novembra ušli u Pirot. Put prema Nišu bio je, makar privremeno, otvoren. Srbija se našla u poziciji koja se na početku rata nije ni zamišljala — branila je sopstvenu teritoriju u ratu koji je sama započela."
+        "text": "Ključna bitka odigrala se kod Slivnice, na putu prema Sofiji, između 5. i 7. novembra po julijanskom kalendaru — 17. i 19. novembra po novom. Tu se srpski napad slomio. Posle tri dana borbi, srpska vojska je bila prinuđena na povlačenje, sa teškim gubicima, u neredu koji su savremenici opisivali kao tešku, gotovo nepodnošljivu sliku. Bugari su zatim prešli u kontranapad, prešli granicu i krajem novembra ušli u Pirot. Put prema Nišu bio je, makar privremeno, otvoren. Srbija se našla u poziciji koja se na početku rata nije ni zamišljala — branila je sopstvenu teritoriju u ratu koji je sama započela."
       },
       {
         "type": "paragraph",
-        "text": "U tom trenutku, kad se činilo da gubitak može postati još veći, u igru je ušla Austro-Ugarska. Grof Kevenhiler, austrijski poslanik u Beogradu, pojavio se u bugarskom glavnom stanu sa ultimatumom: ako bugarska vojska nastavi napredovanje, Austro-Ugarska će reagovati. Pretnja je delovala. Bugarska, koja je upravo bila u nezavidnoj diplomatskoj poziciji zbog samog ujedinjenja, nije smela da rizikuje sukob sa velikom silom. Primirje je sklopljeno 28. novembra 1885. po julijanskom — 10. decembra po novom kalendaru. Mirovni ugovor potpisan je u Bukureštu u martu 1886. godine. Po njemu, granice ostaju nepromenjene; nije bilo ni teritorijalnog gubitka, ni teritorijalne dobiti. Formalno, vraćalo se predratno stanje."
+        "text": "U tom trenutku, kad se činilo da gubitak može postati još veći, u igru je ušla Austro-Ugarska. Grof Kevenhiler, austrijski poslanik u Beogradu, pojavio se u bugarskom glavnom stanu sa ultimatumom: ako bugarska vojska nastavi napredovanje, Austro-Ugarska će reagovati. Pretnja je delovala. Bugarska, koja je upravo bila u nezavidnoj diplomatskoj poziciji zbog samog ujedinjenja, nije smela da rizikuje sukob sa velikom silom. Borbe su obustavljene 16. novembra 1885. po julijanskom — 28. novembra po novom kalendaru. Mirovni ugovor potpisan je u Bukureštu u martu 1886. godine. Po njemu, granice ostaju nepromenjene; nije bilo ni teritorijalnog gubitka, ni teritorijalne dobiti. Formalno, vraćalo se predratno stanje."
       },
       {
         "type": "paragraph",
-        "text": "Politički, međutim, ništa nije bilo isto. Srpska vojska je ostala bez ijedne sigurne pobede u ratu koji je sama otvorila, a uz to je morala da prihvati da je njena teritorija — Pirot — bila u rukama suseda. Ironična izreka koja je tih meseci kružila Beogradom — da su Bugari „pobednici Slivnice, a gubitnici mira“ — više je govorila o srpskoj potrebi da nađe utehu nego o stvarnom odnosu snaga. U novinama, u kafanama, u parlamentu počelo je tiho ali neumoljivo prebrojavanje odgovornosti. Kraljev politički ugled, već uzdrman ranijim spoljnopolitičkim odlukama i ličnim skandalima, ovim ratom je nepovratno potresen. Milan je iz 1885. izašao kao kralj kome više niko u zemlji ne veruje na reč."
+        "text": "Politički, međutim, ništa nije bilo isto. Srpska vojska je ostala bez ijedne sigurne pobede u ratu koji je sama otvorila, a uz to je morala da prihvati da je njena teritorija — Pirot — bila u rukama suseda. Utešna priča koja je tih meseci kružila Beogradom — da su Bugari dobili bitku, ali ne i mir — više je govorila o srpskoj potrebi da nađe utehu nego o stvarnom odnosu snaga. U novinama, u kafanama, u parlamentu počelo je tiho ali neumoljivo prebrojavanje odgovornosti. Kraljev politički ugled, već uzdrman ranijim spoljnopolitičkim odlukama i ličnim skandalima, ovim ratom je nepovratno potresen. Milan je iz 1885. izašao kao kralj kome više niko u zemlji ne veruje na reč."
       },
       {
         "type": "paragraph",
@@ -14476,7 +14477,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Posao je obavila ustavotvorna skupština, sastavljena tako da u njoj sede sve tri velike stranke. Sa jedne strane bili su radikali, sa Nikolom Pašićem i Stojanom Protićem kao glavnim glasovima, koji su tražili širok narodni ustav. Sa druge liberali pod Jovanom Ristićem, iskusnim državnikom još iz kneževskih vremena, kome je bilo stalo do reda i postupnosti. Sa treće naprednjaci, gradska intelektualna stranka koja je dotad bila najbliža kralju. Kralj sam, preko svojih ljudi, pokušavao je da spase što se spasti može od izvršne vlasti. Rezultat je bio kompromis u kome je svaka strana morala da popusti, ali u kome je narodna struja, prvi put posle dugo vremena, dobila više nego što je izgubila."
+        "text": "Tekst je pripremio ustavni odbor u kome su sedeli predstavnici sve tri velike stranke, a usvojila ga je Velika narodna skupština sa ubedljivom radikalskom većinom. Sa jedne strane bili su radikali, sa Nikolom Pašićem i Stojanom Protićem kao glavnim glasovima, koji su tražili širok narodni ustav. Sa druge liberali pod Jovanom Ristićem, iskusnim državnikom još iz kneževskih vremena, kome je bilo stalo do reda i postupnosti. Sa treće naprednjaci, gradska intelektualna stranka koja je dotad bila najbliža kralju. Kralj sam, preko svojih ljudi, pokušavao je da spase što se spasti može od izvršne vlasti. Rezultat je bio kompromis u kome je svaka strana morala da popusti, ali u kome je narodna struja, prvi put posle dugo vremena, dobila više nego što je izgubila."
       },
       {
         "type": "heading",
@@ -14485,7 +14486,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Ustav od 22. decembra 1888. po starom kalendaru uveo je u Srbiju, prvi put doslovno, parlamentarni sistem zapadnoevropskog tipa. Vlada je odgovarala Narodnoj skupštini, ne više samo kralju; ministri su mogli biti smenjeni glasanjem poslanika. Biračko pravo prošireno je na sve odrasle muškarce koji plaćaju neki porez i imaju navršenu dvadeset prvu godinu — što je u tadašnjoj Srbiji značilo ogromnu većinu odraslih muškaraca, jer je zemlja bila seljačka i poreski obveznici su bili gotovo svi domaćini. Uveden je princip tajnog glasanja, čime je sprečen najgrublji oblik pritiska vlasti na birače. Zajemčene su, jasnim ustavnim formulacijama, sloboda štampe, sloboda zbora i udruživanja, kao i druga osnovna građanska prava. Sudstvo je proglašeno nezavisnim, a lokalna samouprava — opštine i okruzi — dobila je svoj prostor van neposredne ruke ministarstva."
+        "text": "Ustav od 22. decembra 1888. po starom kalendaru uveo je u Srbiju, prvi put doslovno, parlamentarni sistem zapadnoevropskog tipa. Vlada je odgovarala Narodnoj skupštini, ne više samo kralju; ministri su mogli biti smenjeni glasanjem poslanika. Biračko pravo prošireno je na sve odrasle muškarce koji plaćaju najmanje 15 dinara neposrednog poreza godišnje (zadrugari bez obzira na iznos) i imaju navršenu dvadeset prvu godinu — što je u tadašnjoj Srbiji značilo ogromnu većinu odraslih muškaraca, jer je zemlja bila seljačka i poreski obveznici su bili gotovo svi domaćini. Uveden je princip tajnog glasanja, čime je sprečen najgrublji oblik pritiska vlasti na birače. Zajemčene su, jasnim ustavnim formulacijama, sloboda štampe, sloboda zbora i udruživanja, kao i druga osnovna građanska prava. Sudstvo je proglašeno nezavisnim, a lokalna samouprava — opštine i okruzi — dobila je svoj prostor van neposredne ruke ministarstva."
       },
       {
         "type": "paragraph",
@@ -14493,11 +14494,11 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "A onda je gotovo odmah krenula priča koja pokazuje kako pisani okvir ne znači mnogo bez zrelih institucija. Već u martu 1889, samo nekoliko meseci posle donošenja ustava, kralj Milan je abdicirao u korist svog trinaestogodišnjeg sina Aleksandra i otišao iz zemlje. Postavljeno je namesništvo, u kome je glavnu reč imao Jovan Ristić, i pod tim namesništvom radikali su prvi put ozbiljno ušli u vlast — vladali su, padali, dolazili ponovo, učili državni posao iz prve ruke. Period od 1889. do 1893. bio je, uz sve unutrašnje sukobe, vreme u kome je novi ustav stvarno radio."
+        "text": "A onda je gotovo odmah krenula priča koja pokazuje kako pisani okvir ne znači mnogo bez zrelih institucija. Već u martu 1889, samo nekoliko meseci posle donošenja ustava, kralj Milan je abdicirao u korist svog dvanaestogodišnjeg sina Aleksandra i otišao iz zemlje. Postavljeno je namesništvo, u kome je glavnu reč imao Jovan Ristić, i pod tim namesništvom radikali su prvi put ozbiljno ušli u vlast — vladali su, padali, dolazili ponovo, učili državni posao iz prve ruke. Period od 1889. do 1893. bio je, uz sve unutrašnje sukobe, vreme u kome je novi ustav stvarno radio."
       },
       {
         "type": "paragraph",
-        "text": "Tada je, aprila 1893, mladi Aleksandar — jedva sedamnaestogodišnji — državnim udarom zbacio namesnike i sam preuzeo vlast. Sledeće, 1894, povukao je još radikalniji potez: ukinuo je Ustav iz 1888. i vratio stari Ustav iz 1869. Učinio je to dekretom, mimo svake ustavne procedure, oslonjen na vojsku i na očev savet iz pozadine. Sedam godina kasnije, 1901, doneće sopstveni „Aprilski ustav”, dvodomni i znatno manje slobodouman od onog koji je ukinuo. Pravo trajanje Ustava iz 1888, dakle, svodi se na svega šest godina od donošenja do ukidanja."
+        "text": "Tada je, aprila 1893, mladi Aleksandar — tek šesnaestogodišnji —državnim udarom zbacio namesnike i sam preuzeo vlast. Sledeće, 1894, povukao je još radikalniji potez: ukinuo je Ustav iz 1888. i vratio stari Ustav iz 1869. Učinio je to dekretom, mimo svake ustavne procedure, oslonjen na vojsku i na očev savet iz pozadine. Sedam godina kasnije, 1901, doneće sopstveni „Aprilski ustav”, dvodomni i znatno manje slobodouman od onog koji je ukinuo. Pravo trajanje Ustava iz 1888, dakle, svodi se na svega šest godina od donošenja do ukidanja."
       },
       {
         "type": "paragraph",
@@ -14528,12 +14529,12 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "content": [
       {
         "type": "paragraph",
-        "text": "Dvadeset drugog februara 1889. godine — po novom kalendaru šestog marta — kralj Milan Obrenović sazvao je Narodnu skupštinu u Beogradu i pred njom objavio da silazi s prestola. Aktom abdikacije presto je predao svom jedinom sinu Aleksandru, koji je tih dana navršio trinaestu godinu, i imenovao trojicu regenata da do njegovog punoletstva vladaju u njegovo ime: bivšeg predsednika vlade i diplomatu Jovana Ristića, generala Kostu Protića i generala Jovana Belimarkovića. Skupština je pozvana da položi zakletvu novom kralju i regentima. Sve se odvilo brzo, mirno i u oblicima koje je propisivao ustav koji je sam Milan, samo dva meseca ranije, svečano potvrdio.",
+        "text": "Dvadeset drugog februara 1889. godine — po novom kalendaru šestog marta — na godišnjicu proglašenja Kraljevine, kralj Milan Obrenović objavio je proklamaciju da silazi s prestola. Aktom abdikacije presto je predao svom jedinom sinu Aleksandru, koji je bio u trinaestoj godini, i imenovao trojicu regenata da do njegovog punoletstva vladaju u njegovo ime: bivšeg predsednika vlade i diplomatu Jovana Ristića, generala Kostu Protića i generala Jovana Belimarkovića. Skupština je pozvana da položi zakletvu novom kralju i regentima. Sve se odvilo brzo, mirno i u oblicima koje je propisivao ustav koji je sam Milan, samo dva meseca ranije, svečano potvrdio.",
         "dropcap": true
       },
       {
         "type": "paragraph",
-        "text": "Iznenađenje je bilo veliko, ali pažljivim posmatračima nije izgledalo bezrazložno. Iza abdikacije stajao je čitav splet razloga, ličnih i političkih, koji su se godinama gomilali. Najteži među njima bio je razvod s kraljicom Natalijom, formalno proveden 1888. odlukom crkvenog suda. Postupak je bio sproveden na način koji je i u tadašnjoj javnosti smatran nepravilnim, a u istorijskoj literaturi se opisuje kao nasilno i kanonski sporno rešenje koje je teško kompromitovalo i krunu i mitropoliju. Bračni rat Obrenovića vodio se godinama u evropskoj štampi; pitanje vaspitanja malog Aleksandra postalo je predmet javnog sukoba u kome dostojanstvo dvora nije imalo gde da se skloni."
+        "text": "Iznenađenje je bilo veliko, ali pažljivim posmatračima nije izgledalo bezrazložno. Iza abdikacije stajao je čitav splet razloga, ličnih i političkih, koji su se godinama gomilali. Najteži među njima bio je razvod s kraljicom Natalijom, formalno proveden 1888. ličnim aktom mitropolita Teodosija, mimo nadležnog duhovnog suda. Postupak je bio sproveden na način koji je i u tadašnjoj javnosti smatran nepravilnim, a u istorijskoj literaturi se opisuje kao nasilno i kanonski sporno rešenje koje je teško kompromitovalo i krunu i mitropoliju. Bračni rat Obrenovića vodio se godinama u evropskoj štampi; pitanje vaspitanja malog Aleksandra postalo je predmet javnog sukoba u kome dostojanstvo dvora nije imalo gde da se skloni."
       },
       {
         "type": "paragraph",
@@ -14545,7 +14546,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Već u trenutku abdikacije bilo je jasno da to nije ostavka u modernom smislu, nego povlačenje s otvorenim vratima. Milan je sebi obezbedio rentu, pravo da napušta zemlju i živi van nje, ali i prećutnu mogućnost da se vrati u politiku. Tako i biva. Već 1893. ponovo je u Beogradu, a od 1894. do 1900. igraće značajnu ulogu u zemlji: kao savetnik sina, kao nezvanični faktor vlade i, od 1898. do 1900, kao komandant aktivne vojske, položaj sa kojeg je sproveo i jednu pravu reformu srpske vojske. Definitivno odlazi tek 1900, kada Aleksandar — protiv očeve volje — ženi Dragu Mašin. Umreće u Beču početkom 1901. Njegov silazak s prestola, gledan iz daljine, više liči na dugo, mučno povlačenje nego na čist kraj."
+        "text": "Već u trenutku abdikacije bilo je jasno da to nije ostavka u modernom smislu, nego povlačenje s otvorenim vratima. Milan je sebi obezbedio rentu, pravo da napušta zemlju i živi van nje, ali i prećutnu mogućnost da se vrati u politiku. Tako i biva. Već januara 1894. ponovo je u Beogradu; posle kraćeg odlaska vraća se 1897. i do 1900. igraće značajnu ulogu u zemlji: kao savetnik sina, kao nezvanični faktor vlade i, od 1898. do 1900, kao komandant aktivne vojske, položaj sa kojeg je sproveo i jednu pravu reformu srpske vojske. Definitivno odlazi tek 1900, kada Aleksandar — protiv očeve volje — ženi Dragu Mašin. Umreće u Beču početkom 1901. Njegov silazak s prestola, gledan iz daljine, više liči na dugo, mučno povlačenje nego na čist kraj."
       },
       {
         "type": "paragraph",
@@ -14556,7 +14557,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
         "text": "Milan Obrenović ostao je u srpskoj istoriji kao složen i, u mnogo čemu, tragičan vladar. Pod njim je Srbija dobila nezavisnost na Berlinskom kongresu i kraljevsku titulu 1882, ali je za to platila visoku spoljnopolitičku cenu i unutrašnju iscrpljenost. Bio je obrazovan, oštrouman, ciničan i nestrpljiv, sposoban da povuče smele poteze i isto tako sposoban da ih u trenutku napusti. Abdikacija 1889. nije mu donela dostojanstven kraj na prestolu kakav su imali neki njegovi savremenici; donela je samo predah, posle kojeg će se vratiti — ne više kao kralj, nego kao senka oko sina koji nije bio spreman za ono što ga je čekalo."
       }
     ],
-    "subtitle": "Dva meseca posle novog ustava, kralj Milan iznenada silazi s prestola i ostavlja Srbiju trinaestogodišnjem sinu",
+    "subtitle": "Dva meseca posle novog ustava, kralj Milan iznenada silazi s prestola i ostavlja Srbiju dvanaestogodišnjem sinu",
     "dateLabel": "1889.",
     "timelinePosition": "1889.",
     "summary": "Dvadeset drugog februara 1889. kralj Milan Obrenović abdicira u korist sina Aleksandra i imenuje regentstvo na čelu sa Jovanom Ristićem; potez je delom posledica ličnih lomova, delom političke iscrpljenosti, ali ne i konačni odlazak.",
@@ -14592,11 +14593,11 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Na večeri u dvoru, u noći 1. aprila 1893. godine, mladi kralj je pozvao trojicu regenata. Posle obroka, zaverenički krug oficira pod njegovim znanjem ušao je u dvor; regenti su, kako stoji u kasnijim svedočanstvima, „uljudno zadržani” dok je Aleksandar proglasio sebe punoletnim i preuzeo ličnu vlast. Taj „Belomanastirski prevrat” izveden je bez krvi, ali je značio jasan raskid sa Ustavom iz 1888. Već naredne godine, 1894, Aleksandar je taj ustav formalno ukinuo i vratio stari Namesnički ustav iz 1869. godine, znatno povoljniji za vladara. Liberalna ustavna gradnja koja je trajala šest godina svedena je preko noći na ranije, autoritarnije pravilo igre."
+        "text": "Na večeri u dvoru, u noći 1. aprila 1893. godine, mladi kralj je pozvao trojicu regenata. Posle obroka, zaverenički krug oficira pod njegovim znanjem ušao je u dvor; regenti su, kako stoji u kasnijim svedočanstvima, „uljudno zadržani” dok je Aleksandar proglasio sebe punoletnim i preuzeo ličnu vlast. Taj „Prvi aprilski prevrat” izveden je bez krvi — kralj je istom prilikom smenio liberalnu vladu Jovana Avakumovića i mandat poverio radikalima — ali je značio jasan raskid sa Ustavom iz 1888. Već naredne godine, 1894, Aleksandar je taj ustav formalno ukinuo i vratio stari Namesnički ustav iz 1869. godine, znatno povoljniji za vladara. Liberalna ustavna gradnja koja je trajala šest godina svedena je preko noći na ranije, autoritarnije pravilo igre."
       },
       {
         "type": "paragraph",
-        "text": "Politički kurs koji je usledio bio je nesiguran. Smenjivale su se konzervativne i napredne vlade; radikali su povremeno bili dopušteni, povremeno potiskivani. Krajem decenije, 1897, u zemlju se vratio i otac Milan, sada bez krune ali sa činom komandanta aktivne vojske — položajem koji mu je sin namenio kao priznanje, a koji je u praksi stvorio neobičnu dvovlast. Vlada Vladana Đorđevića, oslonjena na Beč, vodila je proaustrijsku spoljnu politiku, dok je Milan u kasarnama reorganizovao oficirski kor i nametao stroge propise. Za jedan deo društva bila je to potrebna disciplina; za drugi — tihi povratak omraženog kralja kroz uniformu."
+        "text": "Politički kurs koji je usledio bio je nesiguran. Smenjivale su se konzervativne i napredne vlade; radikali su povremeno bili dopušteni, povremeno potiskivani. Krajem decenije, 1897, u zemlju se ponovo vratio i otac Milan, sada bez krune ali sa činom komandanta aktivne vojske — položajem koji mu je sin namenio kao priznanje, a koji je u praksi stvorio neobičnu dvovlast. Vlada Vladana Đorđevića, oslonjena na Beč, vodila je proaustrijsku spoljnu politiku, dok je Milan u kasarnama reorganizovao oficirski kor i nametao stroge propise. Za jedan deo društva bila je to potrebna disciplina; za drugi — tihi povratak omraženog kralja kroz uniformu."
       },
       {
         "type": "paragraph",
@@ -14604,11 +14605,11 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Sledeće dve godine bile su godine sve veće izolacije. Krajem 1901. proširila se vest — nije nikada pouzdano potvrđena — da je kraljica Draga trudna; lažna ili stvarna, glasina je u vojnim krugovima dolila ulje na vatru. Aleksandar je u aprilu 1901. izdao novi, takozvani Aprilski ustav, umereno liberalniji, ali nedovoljan da povrati poverenje radikala; već 1903. ga je suspendovao i opet posegnuo za starim ustavom iz 1869. Politički prostor mu se sužavao u svim pravcima — radikali su bili otuđeni, vojska razdražena, austrijska podrška sve hladnija, ruska nedovoljna. U sve uže krugove, u kasarnama i u nekim ministarstvima, ulazila je ideja koja je do tada bila nezamisliva: da se dinastija promeni silom."
+        "text": "Sledeće dve godine bile su godine sve veće izolacije. Već 1900. objavljeno je da je kraljica Draga trudna, a u proleće 1901. lekari su utvrdili da trudnoće nema; lažna trudnoća teško je pogodila ugled dvora i u vojnim krugovima dolila ulje na vatru. Aleksandar je u aprilu 1901. izdao novi, takozvani Aprilski ustav, umereno liberalniji, ali nedovoljan da povrati poverenje radikala; u martu 1903. suspendovao ga je na manje od sat vremena, promenio zakone i zatim ga ponovo vratio na snagu. Politički prostor mu se sužavao u svim pravcima — radikali su bili otuđeni, vojska razdražena, austrijska podrška sve hladnija, ruska nedovoljna. U sve uže krugove, u kasarnama i u nekim ministarstvima, ulazila je ideja koja je do tada bila nezamisliva: da se dinastija promeni silom."
       },
       {
         "type": "paragraph",
-        "text": "U noći između 28. i 29. maja 1903. godine — po grigorijanskom 10. i 11. juna — grupa zaverenika predvođena kapetanom Dragutinom Dimitrijevićem, kasnije poznatim kao Apis, provalila je u Stari dvor. Kralj Aleksandar i kraljica Draga ubijeni su u sopstvenim odajama, a sa njima i nekoliko najbližih ministara. O samom činu, njegovoj brutalnosti i posledicama govoriće druga lekcija; ovde je važno reći samo da je njime — naglo, krvavo i bez naslednika — okončana dinastija Obrenović koja je Srbiju vodila gotovo ceo vek, od ustanka Miloša Obrenovića 1815. do te junske noći u Beogradu."
+        "text": "U noći između 28. i 29. maja 1903. godine — po grigorijanskom 10. i 11. juna — grupa zaverenika, među čijim je glavnim organizatorima bio kapetan Dragutin Dimitrijević, kasnije poznat kao Apis, provalila je u Stari dvor. Kralj Aleksandar i kraljica Draga ubijeni su u sopstvenim odajama, a sa njima predsednik vlade Dimitrije Cincar-Marković, ministar vojske Milovan Pavlović i kraljičina braća. O samom činu, njegovoj brutalnosti i posledicama govoriće druga lekcija; ovde je važno reći samo da je njime — naglo, krvavo i bez naslednika — okončana dinastija Obrenović koja je Srbiju vodila gotovo ceo vek, od ustanka Miloša Obrenovića 1815. do te junske noći u Beogradu."
       },
       {
         "type": "paragraph",
@@ -14639,12 +14640,12 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "content": [
       {
         "type": "paragraph",
-        "text": "Deset godina koje su prethodile Majskom prevratu 1903. najbolje pokazuju koliko je srpski ustavni poredak pod poslednjim Obrenovićima bio krhak. Institucije su postojale — Skupština, ustav, sudovi, štampa — ali su sve češće radile u dahu jedne dvorske volje. Krunisane glave i njihovi savetnici menjali su ustave kada im se nije sviđao raspored snaga, raspuštali skupštine, brisali izborne spiskove, a političke protivnike izvodili pred sud po sumnjivim optužnicama. U tih deset godina Srbija je doživela čak pet ustavnih obrta, dva otvorena državna udara od strane krune i jedno politički režirano suđenje — i sve se završilo krvavo, ubistvom kralja i kraljice u dvoru.",
+        "text": "Deset godina koje su prethodile Majskom prevratu 1903. najbolje pokazuju koliko je srpski ustavni poredak pod poslednjim Obrenovićima bio krhak. Institucije su postojale — Skupština, ustav, sudovi, štampa — ali su sve češće radile u dahu jedne dvorske volje. Krunisane glave i njihovi savetnici menjali su ustave kada im se nije sviđao raspored snaga, raspuštali skupštine, brisali izborne spiskove, a političke protivnike izvodili pred sud po sumnjivim optužnicama. U tih deset godina Srbija je doživela čak četiri ustavna obrta, među njima dva otvorena državna udara od strane krune, i jedno politički režirano suđenje — i sve se završilo krvavo, ubistvom kralja i kraljice u dvoru.",
         "dropcap": true
       },
       {
         "type": "paragraph",
-        "text": "Prvi rez dogodio se 1. aprila 1893. godine. Maloletni kralj Aleksandar Obrenović, kome još nije bilo ni sedamnaest godina, na večeri u dvoru iznenada je objavio regentima i ministrima da preuzima ličnu vlast i da regenstvo time prestaje. Bilo je to pravno nemoguće — po Ustavu iz 1888. tek je 1895. trebalo da postane punoletan — ali su oficiri straže i lojalni dvorjani sproveli odluku na licu mesta. Regenti, među njima i ostareli Jovan Ristić, povukli su se bez otpora. Aprilski prevrat 1893. nije pokrenuo ulicu, nije pucao u nikoga, ali je u jednoj noći pokazao šta će biti pravilo decenije: kralj radi šta hoće, a država se posle prilagođava."
+        "text": "Prvi rez dogodio se 1. aprila 1893. godine. Maloletni kralj Aleksandar Obrenović, kome još nije bilo ni sedamnaest godina, na večeri u dvoru iznenada je objavio regentima i ministrima da preuzima ličnu vlast i da regenstvo time prestaje. Bilo je to pravno nemoguće — po Ustavu iz 1888. tek je u avgustu 1894. trebalo da postane punoletan — ali su oficiri straže i lojalni dvorjani sproveli odluku na licu mesta. Regenti, među njima i ostareli Jovan Ristić, povukli su se bez otpora. Aprilski prevrat 1893. nije pokrenuo ulicu, nije pucao u nikoga, ali je u jednoj noći pokazao šta će biti pravilo decenije: kralj radi šta hoće, a država se posle prilagođava."
       },
       {
         "type": "paragraph",
@@ -14657,7 +14658,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Ivanjdanski atentat 1899. godine bio je sledeći lom. Na bivšeg kralja Milana Obrenovića, koji se vratio u zemlju i preuzeo položaj komandanta aktivne vojske, pucao je čovek u centru Beograda; Milan je lakše ranjen. Vlast je odmah optužila Radikalnu stranku za zaveru. Nikola Pašić, dotad najuticajniji srpski političar, izveden je pred sud, a Pera Velimirović i drugi prvaci uhapšeni. Pravih dokaza o umešanosti vodstva radikala nije bilo; suđenje je, kako su to već tada videli i strani posmatrači, bilo politički progon, pokušaj da se najjača opoziciona stranka razbije pretnjom vešalima. Pašić je na kraju izvukao glavu uz teško poniženje i obećanje političke pasivnosti, ali rana je ostala — radikali su naučili da im pred dvorom nema sigurnosti."
+        "text": "Ivanjdanski atentat 1899. godine bio je sledeći lom. Na bivšeg kralja Milana Obrenovića, koji se vratio u zemlju i preuzeo položaj komandanta aktivne vojske, pucao je čovek u centru Beograda; Milan je lakše ranjen. Vlast je odmah optužila Radikalnu stranku za zaveru. Nikola Pašić, dotad najuticajniji srpski političar, izveden je pred sud, a Kosta Taušanović, Stojan Protić i drugi prvaci uhapšeni i osuđeni. Pravih dokaza o umešanosti vodstva radikala nije bilo; suđenje je, kako su to već tada videli i strani posmatrači, bilo politički progon, pokušaj da se najjača opoziciona stranka razbije pretnjom vešalima. Pašić je na kraju izvukao glavu uz teško poniženje i obećanje političke pasivnosti, ali rana je ostala — radikali su naučili da im pred dvorom nema sigurnosti."
       },
       {
         "type": "paragraph",
@@ -14665,27 +14666,26 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "U martu 1903. dogodio se najčudniji ustavni rez te decenije. Kralj Aleksandar je na kratko suspendovao Aprilski ustav, za to vreme dekretima poništio izborne spiskove i naredio uredbe koje bi inače Skupština i Senat morali da odobre, a zatim ustav „vratio na snagu“. Stvar je u istoriji ostala zapamćena kao prevrat „od pola sata“ — pravni trik koji je dvoru omogućio da pred nove izbore izađe sa očišćenom biračkom listom i bez ikakvog parlamentarnog otpora. Bio je to peti veliki ustavni potez u deset godina i prvi koji je, čini se, konačno uverio i deo umerene javnosti i deo vojske da sa ovim kraljem nikakav uredan poredak nije moguć."
+        "text": "U martu 1903. dogodio se najčudniji ustavni rez te decenije. Kralj Aleksandar je na kratko suspendovao Aprilski ustav, za to vreme dekretima poništio izborne spiskove i naredio uredbe koje bi inače Skupština i Senat morali da odobre, a zatim ustav „vratio na snagu“. Stvar je u istoriji ostala zapamćena kao prevrat „od pola sata“ — pravni trik koji je dvoru omogućio da pred nove izbore izađe sa očišćenom biračkom listom i bez ikakvog parlamentarnog otpora. Bio je to četvrti veliki ustavni potez u deset godina i prvi koji je, čini se, konačno uverio i deo umerene javnosti i deo vojske da sa ovim kraljem nikakav uredan poredak nije moguć."
       },
       {
         "type": "paragraph",
-        "text": "U noći između 29. maja i 11. juna 1903. po novom kalendaru, grupa zaverenika iz redova oficira ušla je u Stari dvor. Krvavi Majski prevrat ubistvom kralja Aleksandra i kraljice Drage završio je dinastiju Obrenović i otvorio novu epohu — temu koja sledi u narednoj sekciji. Ali ono što treba videti unazad jeste razmera puta koji je do te noći prešla srpska država. Za deset godina: dva dvorska prevrata izvedena odozgo, tri ustavne promene, jedno politički režirano suđenje protiv vodstva najjače stranke, izborni falsifikati uvedeni kao tehnika vladanja i, na kraju, ubistvo krune oružjem sopstvene vojske."
+        "text": "U noći između 28. i 29. maja (10. i 11. juna po novom kalendaru) 1903, grupa zaverenika iz redova oficira ušla je u Stari dvor. Krvavi Majski prevrat ubistvom kralja Aleksandra i kraljice Drage završio je dinastiju Obrenović i otvorio novu epohu — temu koja sledi u narednoj sekciji. Ali ono što treba videti unazad jeste razmera puta koji je do te noći prešla srpska država. Za deset godina: dva dvorska prevrata izvedena odozgo, tri ustavne promene, jedno politički režirano suđenje protiv vodstva najjače stranke, izborni falsifikati uvedeni kao tehnika vladanja i, na kraju, ubistvo krune oružjem sopstvene vojske."
       },
       {
         "type": "paragraph",
-        "text": "Treba reći otvoreno i ono što ne ide ni dvoru ni zaverenicima u prilog. Srpski parlamentarizam pred 1903. nije bio bezvredan — pravo glasa, slobodni listovi i jake stranke postojali su, i kasnije „zlatno doba“ 1903–1914. izniklo je upravo iz njih. Ali je radio više u dahu nego sigurno, kao mehanizam koji svaki put kada dođe pod pritisak krune popušta. S druge strane, deo srpske političke kulture toga doba — i u dvoru, i u oficirskom koru, i u nekim strankama — bio je sklon da krizu rešava nasilnim presekom, ne dugotrajnim institucionalnim sporom. Aprilski i Majski prevrat 1894, Ivanjdansko suđenje i, najzad, krvavi Maj 1903. različite su strane iste navike. Bez heroizovanja zaverenika i bez ulepšavanja krune, ostaje upozorenje koje će se vraćati i u kasnijim epohama srpske istorije."
+        "text": "Treba reći otvoreno i ono što ne ide ni dvoru ni zaverenicima u prilog. Srpski parlamentarizam pred 1903. nije bio bezvredan — pravo glasa, slobodni listovi i jake stranke postojali su, i kasnije „zlatno doba“ 1903–1914. izniklo je upravo iz njih. Ali je radio više u dahu nego sigurno, kao mehanizam koji svaki put kada dođe pod pritisak krune popušta. S druge strane, deo srpske političke kulture toga doba — i u dvoru, i u oficirskom koru, i u nekim strankama — bio je sklon da krizu rešava nasilnim presekom, ne dugotrajnim institucionalnim sporom. Aprilski prevrat 1893. i Majski 1894, Ivanjdansko suđenje i, najzad, krvavi Maj 1903. različite su strane iste navike. Bez heroizovanja zaverenika i bez ulepšavanja krune, ostaje upozorenje koje će se vraćati i u kasnijim epohama srpske istorije."
       }
     ],
     "subtitle": "Decenija ustavnih obrta, dvorskih prevrata i političkih suđenja koja vodi pravo u Majski prevrat 1903.",
     "dateLabel": "1890-e–1903.",
     "timelinePosition": "1890-e–1903.",
-    "summary": "Između 1893. i 1903. Srbija je doživela pet ustavnih obrta, dva dvorska prevrata i politička suđenja koja su unapred urušila krhki parlamentarni poredak poslednjih Obrenovića.",
+    "summary": "Između 1893. i 1903. Srbija je doživela četiri ustavna obrta — među njima dva dvorska prevrata — i politička suđenja koja su unapred urušila krhki parlamentarni poredak poslednjih Obrenovića.",
     "keyPeople": [
       "kralj Aleksandar Obrenović",
       "kralj Milan Obrenović",
       "kraljica Draga",
       "Nikola Pašić",
-      "Pera Velimirović",
       "Jovan Ristić"
     ],
     "keyPlaces": [
@@ -14703,11 +14703,11 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Železnica je u zemlju ušla pod pritiskom Berlinskog kongresa. Kao deo cene za međunarodno priznanje nezavisnosti, Srbija je 1878. preuzela obavezu da u kratkom roku poveže evropsku magistralu Beč—Carigrad, koja je morala ići preko njene teritorije. Konvencija sa Austro-Ugarskom potpisana je 1881. godine, a radovi su krenuli 1882. Glavni izvođač bio je francusko-belgijski konzorcijum „Comptoir d'Escompte” pod vođstvom finansijera Ežena Bontua. Posao je tek bio počeo kada se Bontuova banka Union générale u Parizu srušila u jednoj od najvećih berzanskih kriza tog veka, ostavivši mladu srpsku državu sa nedovršenom prugom i s aferom oko koje će se godinama voditi sudski sporovi. Deo radova preuzela je sama država, deo drugi izvođači, a prva linija — Beograd—Niš — puštena je u rad 1884. Dve godine kasnije pruga je stigla do otomanske granice kod Vranja, a 1888. i do bugarske granice kod Pirota."
+        "text": "Železnica je u zemlju ušla pod pritiskom Berlinskog kongresa. Kao deo cene za međunarodno priznanje nezavisnosti, Srbija je 1878. preuzela obavezu da u kratkom roku poveže evropsku magistralu Beč—Carigrad, koja je morala ići preko njene teritorije. Železnička konvencija sa Austro-Ugarskom potpisana je 1880, ugovor o gradnji 1881, a radovi su krenuli 1882. Glavni izvođač bila je pariska banka Union générale finansijera Ežena Bontua. Posao je tek bio počeo kada se ona 1882. srušila u jednoj od najvećih berzanskih kriza tog veka, ostavivši mladu srpsku državu sa nedovršenom prugom i s aferom oko koje će se godinama voditi sudski sporovi. Gradnju je zatim preuzelo novo društvo koje su osnovali pariski Comptoir d'Escompte i bečka Länderbank, a prva linija — Beograd—Niš — puštena je u rad 1884. Dve godine kasnije pruga je stigla do otomanske granice kod Vranja, a 1888. i do bugarske granice kod Pirota."
       },
       {
         "type": "paragraph",
-        "text": "Šta je to konkretno značilo, najlakše se vidi na putovanju Beograd—Niš. Pre pruge to je za poštanske kočije, po dobrom vremenu, bilo putovanje od nekoliko dana, sa noćenjima, presedanjima i zavisnošću od stanja drumova. Sa vozom se isti put svodio na nekih dvanaest sati. Vojska je preko noći mogla biti pomerena s jednog kraja zemlje na drugi. Svinje iz Šumadije i Pomoravlja, dotad glavni srpski izvozni proizvod, mogle su brže stizati do bečkog i peštanskog tržišta; isto i šljive iz zapadne Srbije. Industrija — mala, ali sad konačno moguća — počinje da se hvata uz prugu: pivare, mlinovi, klanice, prvi rudnici uglja kod Senja i Vrdnika. Telegraf i pošta, koji su već postojali, dobijaju duž pruge sopstvenu kičmu."
+        "text": "Šta je to konkretno značilo, najlakše se vidi na putovanju Beograd—Niš. Pre pruge to je za poštanske kočije, po dobrom vremenu, bilo putovanje od nekoliko dana, sa noćenjima, presedanjima i zavisnošću od stanja drumova. Sa vozom se isti put svodio na nekih dvanaest sati. Vojska je preko noći mogla biti pomerena s jednog kraja zemlje na drugi. Svinje iz Šumadije i Pomoravlja, dotad glavni srpski izvozni proizvod, mogle su brže stizati do bečkog i peštanskog tržišta; isto i šljive iz zapadne Srbije. Industrija — mala, ali sad konačno moguća — počinje da se hvata uz prugu: pivare, mlinovi, klanice, rudnici uglja poput Senjskog rudnika. Telegraf i pošta, koji su već postojali, dobijaju duž pruge sopstvenu kičmu."
       },
       {
         "type": "heading",
@@ -14716,7 +14716,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Druga revolucija bila je tiša. Zakonom iz 1878. Srbija je uvela sopstveni decimalni novčani sistem — dinar od sto para, izričito vezan za vrednost francuskog franka i za standarde Latinske monetarne unije. Bio je to izbor i tehnički i politički: oslanjanje na francuski monetarni krug značilo je distanciranje od dotadašnje neformalne dominacije austrijskih forinti i turskih groša u domaćem opticaju. Da bi taj dinar postao stvaran novac, a ne samo proklamacija, bila je potrebna emisiona ustanova. Tu ulogu preuzela je Privilegovana narodna banka Kraljevine Srbije, osnovana 1884. godine kao akcionarsko društvo sa državnom privilegijom izdavanja novčanica. Od tog trenutka srpski dinar — najpre u srebru, potom i u papiru — postao je glavno sredstvo plaćanja u zemlji, a Narodna banka mesto gde se vodila monetarna politika države."
+        "text": "Druga revolucija bila je tiša. Zakonom iz 1873. (29. novembra / 12. decembra) Srbija je uvela sopstveni decimalni novčani sistem — dinar od sto para, izričito vezan za vrednost francuskog franka i za standarde Latinske monetarne unije; prvi srebrni dinari iskovani su 1875. Bio je to izbor i tehnički i politički: oslanjanje na francuski monetarni krug značilo je distanciranje od dotadašnje neformalne dominacije austrijskih forinti i turskih groša u domaćem opticaju. Da bi taj dinar postao stvaran novac, a ne samo proklamacija, bila je potrebna emisiona ustanova. Tu ulogu preuzela je Privilegovana narodna banka Kraljevine Srbije, osnovana 1884. godine kao akcionarsko društvo sa državnom privilegijom izdavanja novčanica. Od tog trenutka srpski dinar — najpre u srebru, potom i u papiru — postao je glavno sredstvo plaćanja u zemlji, a Narodna banka mesto gde se vodila monetarna politika države."
       },
       {
         "type": "paragraph",
@@ -14750,7 +14750,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "content": [
       {
         "type": "paragraph",
-        "text": "Kada je u proleće 1867. turski zapovednik predao knezu Mihailu ključeve Beogradske tvrđave, grad pod njom još uvek je bio orijentalna palanka. Krive uličice, niske kuće od ćerpiča, džamijski minareti iznad krovova, čaršije po mahalama, mnogo blata kad pada kiša i mnogo prašine kad ne pada — takvu sliku ostavili su putopisci sredinom veka. Stanovništva je bilo oko dvadesetak hiljada. Pola veka kasnije, uoči Prvog svetskog rata, isti grad imaće preko sto hiljada stanovnika, električni tramvaj, telefonsku centralu, novu palatu Skupštine i bulevare po uzoru na Beč i Pariz. Preobražaj nije bio potpun i nije bio jednako raspoređen, ali je bio stvaran.",
+        "text": "Kada je u proleće 1867. turski zapovednik predao knezu Mihailu ključeve Beogradske tvrđave, grad pod njom još uvek je bio orijentalna palanka. Krive uličice, niske kuće od ćerpiča, džamijski minareti iznad krovova, čaršije po mahalama, mnogo blata kad pada kiša i mnogo prašine kad ne pada — takvu sliku ostavili su putopisci sredinom veka. Stanovništva je bilo oko dvadesetak hiljada. Pola veka kasnije, uoči Prvog svetskog rata, isti grad imaće blizu sto hiljada stanovnika, električni tramvaj, telefonsku centralu, novu palatu Skupštine i bulevare po uzoru na Beč i Pariz. Preobražaj nije bio potpun i nije bio jednako raspoređen, ali je bio stvaran.",
         "dropcap": true
       },
       {
@@ -14759,7 +14759,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Drugi korak bio je infrastrukturni, i tu se najjasnije vidi koliko ozbiljno je mlada srpska država shvatala svoju prestonicu. Tokom 1880-ih, po projektu inženjera Marka Leka, počela je da se gradi prva ulična kanalizacija. Godine 1883. otvorena je telefonska linija — Beograd je dobio telefon ranije od mnogih sličnih gradova u Evropi. Naredne godine, 1884, otvorena je železnička stanica na Savi i Beograd je preko Niša i Vranja, a uskoro i preko Zemuna, povezan sa evropskom železničkom mrežom. Godine 1892. počeo je da radi prvi gradski vodovod sa makiškog izvorišta, čime je rešen vekovni problem snabdevanja vodom; iste godine krenuo je i konjski tramvaj. Već 1893. zasvetlela je prva električna ulična svetiljka, a 1894. tramvaj je postao električan. Sistematska električna rasveta proširiće se posle 1900."
+        "text": "Drugi korak bio je infrastrukturni, i tu se najjasnije vidi koliko ozbiljno je mlada srpska država shvatala svoju prestonicu. Pripreme za kanalizaciju počele su krajem veka, a prvi kanali izgrađeni su 1905, po generalnom projektu Dušana Ninkovića. Godine 1883. otvorena je telefonska linija — Beograd je dobio telefon ranije od mnogih sličnih gradova u Evropi. Naredne godine, 1884, otvorena je železnička stanica na Savi i Beograd je preko Niša i Vranja, a uskoro i preko Zemuna, povezan sa evropskom železničkom mrežom. Godine 1892. počeo je da radi prvi gradski vodovod sa makiškog izvorišta, čime je rešen vekovni problem snabdevanja vodom; iste godine krenuo je i konjski tramvaj. Već 1893. zasvetlela je prva električna ulična svetiljka, a 1894. tramvaj je postao električan. Sistematska električna rasveta proširiće se posle 1900."
       },
       {
         "type": "heading",
@@ -14768,7 +14768,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Uz infrastrukturu se menjala i arhitektura. Kapetan-Mišino zdanje, podignuto 1863. kao dar Miše Anastasijevića narodu i prvobitno dom Velike škole — kasnije Beogradskog univerziteta — bilo je možda prva zgrada u gradu koja je izgledala kao da pripada nekoj zapadnoevropskoj prestonici. Narodno pozorište otvoreno je 1869. na Pozorišnom trgu, na potezu koji će postati centar gradskog života. Stari dvor kralja Milana završen je 1884. godine kao zvanično sedište vladarske porodice. Banke, hoteli i prodavnice nicali su duž Knez Mihailove ulice, koja se iz nekadašnje turske čaršije pretvorila u glavnu trgovačku i šetačku arteriju, sa fasadama u duhu bečkog i pariskog akademizma. Crkva Svetog Marka, Saborna crkva, nove osnovne škole, gimnazije, sudovi — sve to dobilo je u tom razdoblju ozbiljne, reprezentativne zgrade. Zgrada Narodne skupštine, započeta još 1907, biće završena tek posle Prvog svetskog rata, ali je već svojim temeljima najavljivala nove razmere države."
+        "text": "Uz infrastrukturu se menjala i arhitektura. Kapetan-Mišino zdanje, podignuto 1863. kao dar Miše Anastasijevića narodu i prvobitno dom Velike škole — kasnije Beogradskog univerziteta — bilo je možda prva zgrada u gradu koja je izgledala kao da pripada nekoj zapadnoevropskoj prestonici. Narodno pozorište otvoreno je 1869. na Pozorišnom trgu, na potezu koji će postati centar gradskog života. Stari dvor kralja Milana završen je 1884. godine kao zvanično sedište vladarske porodice. Banke, hoteli i prodavnice nicali su duž Knez Mihailove ulice, koja se iz nekadašnje turske čaršije pretvorila u glavnu trgovačku i šetačku arteriju, sa fasadama u duhu bečkog i pariskog akademizma. Nove osnovne škole, gimnazije, sudovi — sve to dobilo je u tom razdoblju ozbiljne, reprezentativne zgrade. Zgrada Narodne skupštine, započeta još 1907, biće završena tek posle Prvog svetskog rata, ali je već svojim temeljima najavljivala nove razmere države."
       },
       {
         "type": "paragraph",
@@ -14789,7 +14789,6 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "summary": "Između turske predaje gradova 1867. i Prvog svetskog rata Beograd se iz orijentalne varoši pretvorio u skromnu, ali nesumnjivo evropsku prestonicu — sa urbanističkim planom, vodovodom, tramvajem i novom arhitekturom.",
     "keyPeople": [
       "Emilijan Josimović",
-      "Marko Leko",
       "knez Mihailo Obrenović",
       "kralj Milan Obrenović",
       "kralj Aleksandar Obrenović"
@@ -14815,7 +14814,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Iznad osnovne škole stajala je gimnazija. Najstarija srpska gimnazija osnovana je 1791. u Sremskim Karlovcima — ali tamo, preko Save i Dunava, u Habzburškoj monarhiji, među prečanskim Srbima koji su imali svoju mitropoliju i svoju građansku elitu. U samoj Kneževini prva gimnazija otvorena je u Kragujevcu 1833. godine, dok je glavni grad bio još tamo; zatim u Beogradu 1839, kada se i prestonica preselila. Niš je svoju gimnaziju dobio 1878, ubrzo posle oslobođenja od osmanske vlasti. Te ustanove dugo su bile male, sa malim brojem profesora i još manjim brojem đaka, ali su upravo iz njih izlazili budući činovnici, učitelji i studenti."
+        "text": "Iznad osnovne škole stajala je gimnazija. Najstarija srpska gimnazija osnovana je 1791. u Sremskim Karlovcima — ali tamo, preko Save i Dunava, u Habzburškoj monarhiji, među prečanskim Srbima koji su imali svoju mitropoliju i svoju građansku elitu. U samoj Kneževini prva gimnazija otvorena je u Kragujevcu 1833. godine, dok je glavni grad bio još tamo; zatim u Beogradu 1839. Niš je svoju gimnaziju dobio 1878, ubrzo posle oslobođenja od osmanske vlasti. Te ustanove dugo su bile male, sa malim brojem profesora i još manjim brojem đaka, ali su upravo iz njih izlazili budući činovnici, učitelji i studenti."
       },
       {
         "type": "heading",
@@ -14832,7 +14831,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Uporedo s obrazovanjem, gradila se i naučna zajednica. Srpsko učeno društvo osnovano je 1864, kao mala zajednica učenih ljudi koji su pisali, prikupljali građu i objavljivali rasprave. Ono je 1886. godine, zakonom kralja Milana, preraslo u Srpsku kraljevsku akademiju — instituciju koja je za nauku značila isto što i Velika škola za nastavu: krov, plata, pečat i kontinuitet. Prvi predsednik Akademije bio je botaničar Josif Pančić, čovek koji je celu drugu polovinu svog života proveo opisujući biljke Srbije i okolnih oblasti, među njima i pančićevu omoriku — drvo koje će dobiti njegovo ime."
+        "text": "Uporedo s obrazovanjem, gradila se i naučna zajednica. Srpsko učeno društvo osnovano je 1864, kao mala zajednica učenih ljudi koji su pisali, prikupljali građu i objavljivali rasprave. Godine 1886. zakonom kralja Milana osnovana je Srpska kraljevska akademija, u koju je 1892. uključeno i Srpsko učeno društvo — institucija koja je za nauku značila isto što i Velika škola za nastavu: krov, plata, pečat i kontinuitet. Prvi predsednik Akademije bio je botaničar Josif Pančić, čovek koji je celu drugu polovinu svog života proveo opisujući biljke Srbije i okolnih oblasti, među njima i pančićevu omoriku — drvo koje će dobiti njegovo ime."
       },
       {
         "type": "paragraph",
@@ -14903,7 +14902,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Časopisi su sve vreme bili kičma ovog procesa. „Letopis Matice srpske”, pokrenut još 1824, ostao je najstariji živi srpski književni časopis. „Otadžbina”, oko koje su se okupljali Jakšić, Marković i kasnije Zmaj, davala je glas tekućim sporovima. „Srpski književni glasnik” je u Skerlićevo vreme bio merilo ukusa. Uporedo, status pisca menjao se od povremenog gosta u školi i kancelariji ka profesionalnom literati koji od pera, prevoda i uredništva može — bar u nekoj meri — da živi."
+        "text": "Časopisi su sve vreme bili kičma ovog procesa. „Letopis Matice srpske”, pokrenut još 1824, ostao je najstariji živi srpski književni časopis. „Otadžbina” Vladana Đorđevića (1875–1892), oko koje su se okupljali Jakšić, Glišić i drugi, davala je glas tekućim sporovima. „Srpski književni glasnik” je u Skerlićevo vreme bio merilo ukusa. Uporedo, status pisca menjao se od povremenog gosta u školi i kancelariji ka profesionalnom literati koji od pera, prevoda i uredništva može — bar u nekoj meri — da živi."
       },
       {
         "type": "paragraph",
@@ -14946,7 +14945,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "U Kneževini Srbiji početak je bio sporiji. Anastas Jovanović (1817–1899), školovan u Beču, postao je dvorski litograf knezu Aleksandru Karađorđeviću, a istoriji ostaje upamćen po dvostrukom doprinosu — kao pionir fotografije među Srbima i kao autor albuma „Spomenici srbski”, litografskog niza koji je prvi put srednjoevropskoj publici predstavio srpske vladare, junake i znamenita mesta. Steva Todorović, rođen 1832, dugo je delovao u Beogradu kao slikar i učitelj crtanja, oblikujući više generacija. U istoj generaciji bio je i Đura Jakšić (1832–1878) — pesnik romantičar koga šira publika pamti po stihovima, ali koji je iza sebe ostavio i niz slika, među kojima „Devojka u plavom” i „Noć u Skadarliji” pripadaju standardnom korpusu srpske likovne baštine."
+        "text": "U Kneževini Srbiji početak je bio sporiji. Anastas Jovanović (1817–1899), školovan u Beču, pod knezom Aleksandrom je zbog odanosti Obrenovićima izgubio stipendiju i živeo od litografije, a kasnije je postao upravnik dvora kneza Mihaila Obrenovića; istoriji ostaje upamćen po dvostrukom doprinosu — kao pionir fotografije među Srbima i kao autor albuma „Spomenici srbski”, litografskog niza koji je prvi put srednjoevropskoj publici predstavio srpske vladare, junake i znamenita mesta. Steva Todorović, rođen 1832, dugo je delovao u Beogradu kao slikar i učitelj crtanja, oblikujući više generacija. U istoj generaciji bio je i Đura Jakšić (1832–1878) — pesnik romantičar koga šira publika pamti po stihovima, ali koji je iza sebe ostavio i niz slika, među kojima „Devojka u plavom” i „Noć u Skadarliji” pripadaju standardnom korpusu srpske likovne baštine."
       },
       {
         "type": "heading",
@@ -14963,7 +14962,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Muzička scena imala je sopstvene putanje. Kornelije Stanković (1831–1865), kratkog veka ali odlučujućeg uticaja, prvi je sistematski beležio srpsko crkveno pojanje i narodne melodije, prevodeći usmenu tradiciju u notni zapis i otvarajući put svemu što dolazi. Ključna ličnost srpske muzike tog stoleća postao je Stevan Stojanović Mokranjac (1856–1914) — školovan u Minhenu, Rimu i Lajpcigu, dirigent Beogradskog pevačkog društva od 1887. godine i osnivač prve srpske muzičke škole. Njegovih „Petnaest rukoveti”, komponovanih između 1883. i 1909. godine, vokalne su kompozicije zasnovane na narodnim melodijama koje i danas čine srž horskog repertoara, a njegova „Statira” (liturgija) ostala je standardna u crkvenoj praksi."
+        "text": "Muzička scena imala je sopstvene putanje. Kornelije Stanković (1831–1865), kratkog veka ali odlučujućeg uticaja, prvi je sistematski beležio srpsko crkveno pojanje i narodne melodije, prevodeći usmenu tradiciju u notni zapis i otvarajući put svemu što dolazi. Ključna ličnost srpske muzike tog stoleća postao je Stevan Stojanović Mokranjac (1856–1914) — školovan u Minhenu, Rimu i Lajpcigu, dirigent Beogradskog pevačkog društva od 1887. godine i osnivač prve srpske muzičke škole. Njegovih „Petnaest rukoveti”, komponovanih između 1883. i 1909. godine, vokalne su kompozicije zasnovane na narodnim melodijama koje i danas čine srž horskog repertoara, a njegova „Liturgija Svetog Jovana Zlatoustog” (1895) ostala je standardna u crkvenoj praksi."
       },
       {
         "type": "paragraph",
@@ -15003,7 +15002,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "content": [
       {
         "type": "paragraph",
-        "text": "Kada se govori o Srbiji 19. veka, lako je zaboraviti najprostiju i najvažniju činjenicu: to je bila zemlja seljaka. Sve do uoči Prvog svetskog rata oko devet od deset stanovnika živelo je od zemlje, od oranice, šljivika i ovaca. Gradovi su rasli sporo, varoši su bile male, a Beograd je tek krajem veka prešao osamdeset hiljada duša. Sve što se u toj državi dešavalo — ratovi, ustavi, stranke, dugovi — počivalo je, na kraju, na leđima čoveka koji je u zoru izlazio s ralom u njivu. Razumeti tog čoveka, njegovu njivu i njegov pravni položaj, znači razumeti i zašto je Srbija mogla da postoji kao autonomna, a zatim i nezavisna država — i zašto je u istom dahu zaostajala za susedima na zapadu.",
+        "text": "Kada se govori o Srbiji 19. veka, lako je zaboraviti najprostiju i najvažniju činjenicu: to je bila zemlja seljaka. Sve do uoči Prvog svetskog rata oko devet od deset stanovnika živelo je od zemlje, od oranice, šljivika i ovaca. Gradovi su rasli sporo, varoši su bile male, a Beograd je krajem veka imao tek oko sedamdeset hiljada duša. Sve što se u toj državi dešavalo — ratovi, ustavi, stranke, dugovi — počivalo je, na kraju, na leđima čoveka koji je u zoru izlazio s ralom u njivu. Razumeti tog čoveka, njegovu njivu i njegov pravni položaj, znači razumeti i zašto je Srbija mogla da postoji kao autonomna, a zatim i nezavisna država — i zašto je u istom dahu zaostajala za susedima na zapadu.",
         "dropcap": true
       },
       {
@@ -15021,7 +15020,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Zakon o „domaćinskom minimumu” iz 1873. godine pravno je ovekovečio ovaj model. Određeno je da se seljaku za dug ne mogu zapleniti minimum zemlje — oko pet hektara — kao ni plug, par volova i osnovna kućna stoka. Ideja je bila jednostavna i, gledano iz onog vremena, humana: nijedan domaćin ne sme zbog zelenaša ili poreza pasti ispod granice na kojoj porodica može da preživi. Posledice su bile dvostruke. S jedne strane, masa srpskih seljaka spasena je sudbine svojih kolega u Irskoj ili južnoj Italiji — nije bilo masovne deložacije, nije bilo bezemljaške proletarizacije, nije bilo praznih sela i prekookeanske emigracije velikih razmera. S druge strane, isti zakon je sputavao akumulaciju. Ko ne može da izgubi zemlju, taj teško dobija i kredit; ko ima zaštićenih pet hektara, retko ih udvostručuje. Srpsko selo je opstalo, ali nije naraslo."
+        "text": "Zakon o „domaćinskom minimumu” iz 1873. godine pravno je ovekovečio ovaj model. Određeno je da se seljaku za dug ne mogu zapleniti minimum zemlje — pet dana oranja, oko tri hektara — kao ni plug, par volova i osnovna kućna stoka. Ideja je bila jednostavna i, gledano iz onog vremena, humana: nijedan domaćin ne sme zbog zelenaša ili poreza pasti ispod granice na kojoj porodica može da preživi. Posledice su bile dvostruke. S jedne strane, masa srpskih seljaka spasena je sudbine svojih kolega u Irskoj ili južnoj Italiji — nije bilo masovne deložacije, nije bilo bezemljaške proletarizacije, nije bilo praznih sela i prekookeanske emigracije velikih razmera. S druge strane, isti zakon je sputavao akumulaciju. Ko ne može da izgubi zemlju, taj teško dobija i kredit; ko ima zaštićena tri hektara, retko ih udvostručuje. Srpsko selo je opstalo, ali nije naraslo."
       },
       {
         "type": "paragraph",
@@ -15057,7 +15056,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "content": [
       {
         "type": "paragraph",
-        "text": "U noći između 28. i 29. maja 1903. godine, po starom kalendaru — između 10. i 11. juna po novom — grupa od oko sedamdesetak mlađih oficira beogradskog garnizona ušla je naoružana u Stari dvor. Pre nego što je svanulo, kralj Aleksandar Obrenović i kraljica Draga bili su mrtvi, a sa njima i nekoliko ljudi iz najužeg dvorskog kruga. Dinastija Obrenovića, koja je vladala Srbijom, sa kratkim prekidima, gotovo ceo vek, prestala je da postoji u jednoj jedinoj noći. Bio je to prvi atentat na vladara u modernoj srpskoj istoriji i događaj koji je istog časa potresao Evropu.",
+        "text": "U noći između 28. i 29. maja 1903. godine, po starom kalendaru — između 10. i 11. juna po novom — grupa od oko sedamdesetak mlađih oficira beogradskog garnizona ušla je naoružana u Stari dvor. Pre nego što je svanulo, kralj Aleksandar Obrenović i kraljica Draga bili su mrtvi, a sa njima i nekoliko ljudi iz najužeg dvorskog kruga. Dinastija Obrenovića, koja je vladala Srbijom, sa kratkim prekidima, gotovo ceo vek, prestala je da postoji u jednoj jedinoj noći. Bilo je to drugo ubistvo vladara u modernoj Srbiji, posle atentata na kneza Mihaila 1868, ali prvo koje su izvršili oficiri sopstvene vojske — i događaj koji je istog časa potresao Evropu.",
         "dropcap": true
       },
       {
@@ -15079,11 +15078,11 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Iste noći ubijeni su i ministar vojske general Milovan Pavlović, ministar policije Velimir Todorović, kao i kraljičina braća Nikola i Nikodije Lunjevica — oni su odvedeni iz svojih stanova i streljani bez suđenja. Cilj je bio jasan: ne samo skinuti kralja, nego ukloniti i ceo krug koji bi mogao tražiti odmazdu ili polagati pravo na presto. Do jutra je grad bio u rukama zaverenika; vlada je bila obrazovana po pripremljenom planu, a vojska je stala uz nove vlasti."
+        "text": "Iste noći ubijeni su i predsednik vlade general Dimitrije Cincar-Marković i ministar vojske general Milovan Pavlović, teško je ranjen ministar unutrašnjih poslova Velimir Todorović, a ubijena su i kraljičina braća Nikola i Nikodije Lunjevica — oni su odvedeni iz svojih stanova i streljani bez suđenja. Cilj je bio jasan: ne samo skinuti kralja, nego ukloniti i ceo krug koji bi mogao tražiti odmazdu ili polagati pravo na presto. Do jutra je grad bio u rukama zaverenika; vlada je bila obrazovana po pripremljenom planu, a vojska je stala uz nove vlasti."
       },
       {
         "type": "paragraph",
-        "text": "Vest se munjevito raširila Evropom. Velika Britanija i Holandija privremeno su povukle svoje diplomatske predstavnike iz Beograda; nekoliko godina će, naročito sa Londonom, odnosi ostati hladni upravo zbog toga što zaverenici nisu bili kažnjeni, već su zadržani — i unapređivani — u redovnoj vojsci. Druge prestonice reagovale su uzdržanije, ali je opšti utisak bio isti: dogodilo se nešto što se u Evropi početkom dvadesetog veka više nije smatralo mogućim. Već sutradan, 30. maja po starom kalendaru, Narodna skupština je za novog kralja proglasila Petra Karađorđevića, koji je dotad živeo u emigraciji u Ženevi. Dinastija Karađorđevića, posle skoro pola veka, vraćala se na presto."
+        "text": "Vest se munjevito raširila Evropom. Velika Britanija i Holandija privremeno su povukle svoje diplomatske predstavnike iz Beograda; nekoliko godina će, naročito sa Londonom, odnosi ostati hladni upravo zbog toga što zaverenici nisu bili kažnjeni, već su zadržani — i unapređivani — u redovnoj vojsci. Druge prestonice reagovale su uzdržanije, ali je opšti utisak bio isti: dogodilo se nešto što se u Evropi početkom dvadesetog veka više nije smatralo mogućim. Već istog jutra zaverenici i nova vlada proglasili su za kralja Petra Karađorđevića, koji je dotad živeo u emigraciji u Ženevi, a Narodna skupština izabrala ga je 2. juna po starom kalendaru. Dinastija Karađorđevića, posle skoro pola veka, vraćala se na presto."
       },
       {
         "type": "paragraph",
@@ -15091,7 +15090,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Tu je i druga, mračnija strana. Mreža oficira koja je organizovala prevrat nije se rasturila. Apis i njegovi ljudi ostali su unutar vojske kao zatvoreno bratstvo, čvrsto svesno svoje uloge u događaju od kog niko nije smeo da ih razdvoji. Iz tog jezgra će vremenom izrasti tajne organizacije — pre svega „Crna ruka”, a posredno i krug koji će uticati na mladobosanski pokret. Linija od majskih noći 1903. do Sarajeva 1914. tanka je, ali postoji, i istoričari je odavno vide. Bez heroizovanja i bez moralnih presuda, ostaje činjenica: prvi atentat na vladara u modernoj Srbiji bio je istovremeno i uvodna scena za sav onaj politički metod nasilja kojim će dvadeseti vek na ovim prostorima biti tako gusto ispunjen."
+        "text": "Tu je i druga, mračnija strana. Mreža oficira koja je organizovala prevrat nije se rasturila. Apis i njegovi ljudi ostali su unutar vojske kao zatvoreno bratstvo, čvrsto svesno svoje uloge u događaju od kog niko nije smeo da ih razdvoji. Iz tog jezgra će vremenom izrasti tajne organizacije — pre svega „Crna ruka”, a posredno i krug koji će uticati na mladobosanski pokret. Linija od majskih noći 1903. do Sarajeva 1914. tanka je, ali postoji, i istoričari je odavno vide. Bez heroizovanja i bez moralnih presuda, ostaje činjenica: ovo ubistvo vladara bilo je istovremeno i uvodna scena za sav onaj politički metod nasilja kojim će dvadeseti vek na ovim prostorima biti tako gusto ispunjen."
       }
     ],
     "subtitle": "Noć kada je grupa oficira u Starom dvoru krvavo prekinula vladavinu Obrenovića i otvorila put Karađorđevićima",
@@ -15105,6 +15104,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       "Đorđe Genčić",
       "Jovan Avakumović",
       "Petar Karađorđević",
+      "Dimitrije Cincar-Marković",
       "Milovan Pavlović",
       "Velimir Todorović"
     ],
@@ -15119,7 +15119,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "content": [
       {
         "type": "paragraph",
-        "text": "Kada je u zoru 29. maja 1903. — po julijanskom kalendaru — beogradski Stari dvor utihnuo, a tela kralja Aleksandra i kraljice Drage iznesena, Srbija je iznenada ostala bez vladara i bez dinastije. Loza Obrenovića bila je prekinuta, a u zemlji je ostao jedan jedini čovek za koga su se zaverenici i parlamentarne stranke unapred složili: Petar Karađorđević, šezdesetogodišnji unuk Karađorđa Petrovića, vođe Prvog srpskog ustanka. Njegovo ime nije bilo izabrano u poslednjem trenutku. Ono je decenijama čekalo svoj red, daleko od Beograda, u skromnom stanu u Ženevi.",
+        "text": "Kada je u zoru 29. maja 1903. — po julijanskom kalendaru — beogradski Stari dvor utihnuo, a tela kralja Aleksandra i kraljice Drage iznesena, Srbija je iznenada ostala bez vladara i bez dinastije. Loza Obrenovića bila je prekinuta, a u zemlji je ostao jedan jedini čovek za koga su se zaverenici i parlamentarne stranke unapred složili: Petar Karađorđević, pedesetosmogodišnji unuk Karađorđa Petrovića, vođe Prvog srpskog ustanka. Njegovo ime nije bilo izabrano u poslednjem trenutku. Ono je decenijama čekalo svoj red, daleko od Beograda, u skromnom stanu u Ženevi.",
         "dropcap": true
       },
       {
@@ -15128,11 +15128,11 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Imao je iza sebe i jedan rat. Pod pseudonimom Petar Mrkonjić borio se 1875. i 1876. godine u Hercegovačkom ustanku, na strani srpskih i hrišćanskih ustanika protiv osmanske vlasti. Bio je tamo običan, gotovo anoniman komandant — bez čina, bez velikih bitaka, ali sa stvarnim barutom u kosi. To iskustvo, koliko god skromno po vojničkom dometu, kasnije će mu dati ono što mnogi vladari nemaju: ličnu uspomenu na rat i na ljude koji u njemu ginu. Brakom sa Zorkom, kćerkom crnogorskog kneza Nikole Petrovića Njegoša, ušao je 1883. i u vladarsku porodicu Crne Gore — porodicu koja je, preko Vasojevića, bila u dalekom rodu i sa samim Karađorđevićima. Iz tog kratkog braka rodili su se Đorđe, Aleksandar i kći Jelena. Zorka je umrla 1890, mlada, u trideset prvoj godini, i Petar je nastavio sam, među decom i knjigama."
+        "text": "Imao je iza sebe i ratno iskustvo: borio se u francusko-pruskom ratu, a pod pseudonimom Petar Mrkonjić 1875. i 1876. godine u ustanku u Bosni i Hercegovini, predvodeći četu u Bosanskoj krajini, na strani srpskih i hrišćanskih ustanika protiv osmanske vlasti. Bio je tamo običan, gotovo anoniman komandant — bez čina, bez velikih bitaka, ali sa stvarnim barutom u kosi. To iskustvo, koliko god skromno po vojničkom dometu, kasnije će mu dati ono što mnogi vladari nemaju: ličnu uspomenu na rat i na ljude koji u njemu ginu. Brakom sa Zorkom, kćerkom crnogorskog kneza Nikole Petrovića Njegoša, ušao je 1883. i u vladarsku porodicu Crne Gore. Iz tog kratkog braka rodili su se Đorđe, Aleksandar i kći Jelena. Zorka je umrla 1890, mlada, u dvadeset šestoj godini, i Petar je nastavio sam, među decom i knjigama."
       },
       {
         "type": "paragraph",
-        "text": "Njegov život u Ženevi nije podsećao na život pretendenta. Stanovao je skromno, bez dvorskog osoblja, bez novca za zaverenička putovanja. Nije slao agente po Beogradu, nije plaćao novine, nije, koliko se danas zna, znao unapred za pojedinosti Majskog prevrata. To je važno, jer ga je upravo ta uzdržanost — gotovo izolacija — kasnije sačuvala od osnovane sumnje da je naredbodavac ubistva svog prethodnika. Zaverenici su radili na svoju ruku; on je, kada je glasnik stigao, primio vest mirno, kao čovek koji decenijama nije računao da će ikada videti Beograd kao vladar."
+        "text": "Njegov život u Ženevi nije podsećao na život pretendenta. Stanovao je skromno, bez dvorskog osoblja, bez novca za zaverenička putovanja. Nije plaćao novine; preko rođaka Jaše Nenadovića znao je da zavera postoji, ali se ne zna da je znao za plan ubistva. To je važno, jer ga je upravo ta uzdržanost — gotovo izolacija — kasnije sačuvala od osnovane sumnje da je naredbodavac ubistva svog prethodnika. Prevrat su izveli zaverenici; on je, kada je glasnik stigao, primio vest mirno, kao čovek koji decenijama nije računao da će ikada videti Beograd kao vladar."
       },
       {
         "type": "heading",
@@ -15141,7 +15141,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Narodna skupština, sazvana u Beogradu odmah po prevratu, izabrala je Petra Karađorđevića za kralja Srba 2. juna 1903. godine po julijanskom kalendaru — 15. juna po novom. Izbor je bio jednoglasan, a u zapisniku stoji ono što je tog trenutka bilo važnije od svake titule: Skupština je istog dana vratila na snagu Ustav iz 1888. godine, takozvani Radikalski ustav, koji je Aleksandar Obrenović bio derogirao oktroisanim ustavom iz 1901. Bio je to suštinski liberalan dokument: parlamentarna vlada, opšte muško pravo glasa pod određenim uslovima, slobodne novine i nezavisno sudstvo. Petar je, dakle, biran ne kao apsolutni gospodar, nego kao ustavni kralj jedne male evropske parlamentarne države."
+        "text": "Narodna skupština, sazvana u Beogradu odmah po prevratu, izabrala je Petra Karađorđevića za kralja Srba 2. juna 1903. godine po julijanskom kalendaru — 15. juna po novom. Izbor je bio jednoglasan, a ono što je tog trenutka bilo važnije od svake titule usledilo je tri dana kasnije: 5. (18.) juna 1903. Skupština je usvojila nov ustav, u osnovi obnovljen Ustav iz 1888. godine, takozvani Radikalski ustav, koji je Aleksandar Obrenović ukinuo još 1894. Bio je to suštinski liberalan dokument: parlamentarna vlada, opšte muško pravo glasa pod određenim uslovima, slobodne novine i nezavisno sudstvo. Petar je, dakle, biran ne kao apsolutni gospodar, nego kao ustavni kralj jedne male evropske parlamentarne države."
       },
       {
         "type": "paragraph",
@@ -15167,7 +15167,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       "Beograd",
       "Ženeva",
       "Pariz",
-      "Hercegovina",
+      "Bosanska krajina",
       "Cetinje"
     ]
   },
@@ -15175,7 +15175,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "content": [
       {
         "type": "paragraph",
-        "text": "Kada je u junu 1903. godine, posle Majskog prevrata, Narodna skupština pozvala Petra Karađorđevića da preuzme presto, na njega se gledalo s mešavinom nade i opreza. Imao je pedeset devet godina, iza sebe život u izgnanstvu — školovanje u Ženevi i pariskoj akademiji Sen Sir, učešće u francusko-pruskom ratu i hercegovačkom ustanku, dugo čekanje u Crnoj Gori i Beču. U Beograd je stigao kao gotov čovek, bez ambicije da gradi ličnu vlast i bez iluzija o vlasti uopšte. Upravo ta zrelost biće njegova najveća državnička vrlina.",
+        "text": "Kada je u junu 1903. godine, posle Majskog prevrata, Narodna skupština pozvala Petra Karađorđevića da preuzme presto, na njega se gledalo s mešavinom nade i opreza. Imao je pedeset osam godina, iza sebe život u izgnanstvu — školovanje u Ženevi i pariskoj akademiji Sen Sir, učešće u francusko-pruskom ratu i ustanku u Bosni i Hercegovini, dugo čekanje na Cetinju i u Ženevi. U Beograd je stigao kao gotov čovek, bez ambicije da gradi ličnu vlast i bez iluzija o vlasti uopšte. Upravo ta zrelost biće njegova najveća državnička vrlina.",
         "dropcap": true
       },
       {
@@ -15184,7 +15184,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Politički život u kojem je vladao bio je sve samo ne miran. Radikalna stranka Nikole Pašića činila je okosnicu većine vlada, a iz nje se povremeno izdvajalo krilo Samostalnih radikala Stojana Protića i Ljube Stojanovića. Kralj je sa svima radio kako su izbori i parlamentarne većine nalagali. Pašića je više puta pozvao za predsednika vlade, samostalce takođe, naprednjake i liberale puštao u koalicije bez ličnih simpatija ili netrpeljivosti. Nije pravio „kraljevu stranku”, nije podržavao tajne dvorske grupe, nije se mešao u rad ministarstava van onoga što mu po ustavu pripada. Kada bi vlada pala, tražio je onoga ko može sastaviti novu većinu, a ne onoga ko bi mu lično odgovarao."
+        "text": "Politički život u kojem je vladao bio je sve samo ne miran. Radikalna stranka Nikole Pašića činila je okosnicu većine vlada, a iz nje se povremeno izdvajalo krilo Samostalnih radikala Ljubomira Stojanovića i Ljubomira Davidovića. Kralj je sa svima radio kako su izbori i parlamentarne većine nalagali. Pašića je više puta pozvao za predsednika vlade, samostalce takođe, naprednjake i liberale puštao u koalicije bez ličnih simpatija ili netrpeljivosti. Nije pravio „kraljevu stranku”, nije podržavao tajne dvorske grupe, nije se mešao u rad ministarstava van onoga što mu po ustavu pripada. Kada bi vlada pala, tražio je onoga ko može sastaviti novu većinu, a ne onoga ko bi mu lično odgovarao."
       },
       {
         "type": "heading",
@@ -15219,11 +15219,11 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "subtitle": "Vladar koji je svoju moć namerno ograničio i pustio parlament i vladu da rade — osamnaest godina ustavne krune",
     "dateLabel": "1903–1921.",
     "timelinePosition": "1903–1921.",
-    "summary": "Petar I Karađorđević dolazi na presto 1903. godine kao zreo čovek od pedeset devet leta i, suprotno navici svojih prethodnika, vlada kao istinski ustavni monarh — bez ličnih udara, bez mešanja u izbore, oslonjen na vlade i parlament sve do svoje smrti 1921.",
+    "summary": "Petar I Karađorđević dolazi na presto 1903. godine kao zreo čovek od pedeset osam leta i, suprotno navici svojih prethodnika, vlada kao istinski ustavni monarh — bez ličnih udara, bez mešanja u izbore, oslonjen na vlade i parlament sve do svoje smrti 1921.",
     "keyPeople": [
       "Petar I Karađorđević",
       "Nikola Pašić",
-      "Stojan Protić",
+      "Ljubomir Davidović",
       "Aleksandar Karađorđević",
       "Đorđe Karađorđević"
     ],
@@ -15244,7 +15244,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Osnova svega bila je novi-stari ustav. Već u jesen 1903. Skupština je, uz manje izmene, vratila ustav iz 1888. — onaj koji je Milan Obrenović bio dao, a Aleksandar Obrenović pa onda i sam Milan oktroisanim ustavom iz 1901. faktički ukinuo. Vraćanje tog ustava značilo je parlamentarni sistem u kome vlada zavisi od većine u Skupštini, prošireno biračko pravo za muškarce uz minimalni porez, tajno glasanje, slobodu štampe i slobodu udruživanja. Ključna razlika u odnosu na ranija razdoblja nije bila toliko u slovu zakona koliko u tome što ga je novi vladar zaista poštovao."
+        "text": "Osnova svega bila je novi-stari ustav. Već u junu 1903. Skupština je, uz manje izmene, vratila ustav iz 1888. — onaj koji je Milan Obrenović bio dao, a Aleksandar Obrenović 1894. suspendovao i oktroisanim ustavom iz 1901. konačno zamenio. Vraćanje tog ustava značilo je parlamentarni sistem u kome vlada zavisi od većine u Skupštini, prošireno biračko pravo za muškarce uz minimalni porez, tajno glasanje, slobodu štampe i slobodu udruživanja. Ključna razlika u odnosu na ranija razdoblja nije bila toliko u slovu zakona koliko u tome što ga je novi vladar zaista poštovao."
       },
       {
         "type": "paragraph",
@@ -15252,7 +15252,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Politički život vodile su dve stranke izrasle iz istog korena. Narodna radikalna stranka, na čelu sa Nikolom Pašićem, bila je velika, dobro umrežena partija sa snažnim osloncem u seoskoj Srbiji. Samostalna radikalna stranka, koja se odvojila 1901, okupljala je mlađe i obrazovanije radikale — Ljubomira Davidovića, Stojana Protića, Jašu Prodanovića — koji su, polazeći od istih programskih osnova, insistirali na strožijem poštovanju parlamentarnih procedura i manjem stranačkom autoritarizmu. Dve radikalske stranke razmenjivale su vlast, ponekad u koaliciji sa naprednjacima ili liberalima, a Skupština je aktivno radila — raspravljala budžete, donosila zakone, postavljala pitanja ministrima."
+        "text": "Politički život vodile su dve stranke izrasle iz istog korena. Narodna radikalna stranka, na čelu sa Nikolom Pašićem, bila je velika, dobro umrežena partija sa snažnim osloncem u seoskoj Srbiji. Samostalna radikalna stranka, koja se odvojila 1901, okupljala je mlađe i obrazovanije radikale — Ljubomira Stojanovića, Ljubomira Davidovića, Jašu Prodanovića — koji su, polazeći od istih programskih osnova, insistirali na strožijem poštovanju parlamentarnih procedura i manjem stranačkom autoritarizmu. Dve radikalske stranke razmenjivale su vlast, ponekad u koaliciji sa naprednjacima ili liberalima, a Skupština je aktivno radila — raspravljala budžete, donosila zakone, postavljala pitanja ministrima."
       },
       {
         "type": "heading",
@@ -15273,7 +15273,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Sve to, međutim, ne sme da zakloni senke. Parlamentarni sistem se na više nivoa oslanjao na klijentelizam: glasovi su se kupovali uslugama, lokalni moćnici su imali presudan uticaj, a stranačka disciplina umela je da bude tvrda. Biračko pravo i dalje je važilo samo za muškarce, i to one koji su plaćali minimalan porez — žene, najsiromašniji slojevi i manjine ostale su bez glasa. Ozbiljniji od svega bila je činjenica da iza ustavne fasade postoji paralelna vlast: tajne oficirske organizacije, izrasle iz iste zavereničke struje koja je 1903. pobila Aleksandra i Dragu, nikada nisu raspuštene. Godine 1911. one su se zaokružile u organizaciji „Ujedinjenje ili smrt”, poznatijoj kao „Crna ruka”, na čelu sa pukovnikom Dragutinom Dimitrijevićem Apisom — istim onim koji je u Konaku predvodio prevrat. Ta mreža je u vojsci, policiji i nacionalnim društvima zadržala uticaj koji nijedna vlada nije uspevala da kontroliše, i njeni tragovi vodiće 1914. pravo do Sarajeva."
+        "text": "Sve to, međutim, ne sme da zakloni senke. Parlamentarni sistem se na više nivoa oslanjao na klijentelizam: glasovi su se kupovali uslugama, lokalni moćnici su imali presudan uticaj, a stranačka disciplina umela je da bude tvrda. Biračko pravo i dalje je važilo samo za muškarce, i to one koji su plaćali minimalan porez — žene, najsiromašniji slojevi i manjine ostale su bez glasa. Ozbiljniji od svega bila je činjenica da iza ustavne fasade postoji paralelna vlast: tajne oficirske organizacije, izrasle iz iste zavereničke struje koja je 1903. pobila Aleksandra i Dragu, nikada nisu raspuštene. Godine 1911. one su se zaokružile u organizaciji „Ujedinjenje ili smrt”, poznatijoj kao „Crna ruka”, na čelu sa pukovnikom Dragutinom Dimitrijevićem Apisom — istim onim koji je u Konaku predvodio prevrat. Ta mreža je u vojsci, policiji i nacionalnim društvima zadržala uticaj koji nijedna vlada nije uspevala da kontroliše, a pojedinci iz nje biće 1914. upleteni u pripremu atentata u Sarajevu."
       },
       {
         "type": "paragraph",
@@ -15283,12 +15283,12 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "subtitle": "Jedanaest godina između Majskog prevrata i Velikog rata — najslobodnije godine Kraljevine, ali ne bez senki",
     "dateLabel": "1903–1914.",
     "timelinePosition": "1903–1914.",
-    "summary": "Period od Majskog prevrata do 1914. često se naziva zlatnim dobom srpskog parlamentarizma: ustav iz 1888. vraćen, stranke se smenjuju, štampa cveta, ekonomija jača — ali u senci radi tajna oficirska organizacija koja će 1914. eksplodirati u Sarajevu.",
+    "summary": "Period od Majskog prevrata do 1914. često se naziva zlatnim dobom srpskog parlamentarizma: ustav iz 1888. vraćen, stranke se smenjuju, štampa cveta, ekonomija jača — ali u senci radi tajna oficirska organizacija čiji će pojedinci 1914. biti upleteni u atentat u Sarajevu.",
     "keyPeople": [
       "Petar I Karađorđević",
       "Nikola Pašić",
       "Ljubomir Davidović",
-      "Stojan Protić",
+      "Ljubomir Stojanović",
       "Dragutin Dimitrijević Apis"
     ],
     "keyPlaces": [
@@ -15302,16 +15302,16 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "content": [
       {
         "type": "paragraph",
-        "text": "Do 1906. godine srpska privreda visila je o jednoj jedinoj žici. Preko osamdeset pet odsto izvoza odlazilo je u Austro-Ugarsku, a najveći deo tog izvoza bile su žive svinje — sitna mangulica iz Šumadije i Mačve koja je, ugojena na žiru, putovala vozovima ka Budimpešti i Beču. Uz svinje su išle goveda, suve šljive, žito i kože. Bila je to ekonomija dvostruko zavisna: od jednog kupca i od jednog dobavljača. Kada je taj kupac, u leto 1906, naglo zatvorio granicu, učinilo se da Srbiji preti slom. Pet godina kasnije ispostaviće se da je preživela — i da je, plativši visoku cenu, postala drugačija država.",
+        "text": "Do 1906. godine srpska privreda visila je o jednoj jedinoj žici. Preko osamdeset pet odsto izvoza odlazilo je u Austro-Ugarsku, a najveći deo tog izvoza bile su žive svinje — sitna mangulica iz Šumadije i Mačve koja je, ugojena na žiru, putovala vozovima ka Budimpešti i Beču. Uz svinje su išle goveda, suve šljive, žito i kože. Bila je to ekonomija dvostruko zavisna: od jednog kupca i od jednog dobavljača. Kada je taj kupac, početkom 1906, naglo zatvorio granicu, učinilo se da Srbiji preti slom. Pet godina kasnije ispostaviće se da je preživela — i da je, plativši visoku cenu, postala drugačija država.",
         "dropcap": true
       },
       {
         "type": "paragraph",
-        "text": "Povod sukobu bio je naizgled tehnički, ali politički prozračan. Srbija je 1904. godine, sa novim kraljem Petrom Karađorđevićem i radikalskom vladom Nikole Pašića, sklopila ugovor sa francuskom firmom Schneider-Creusot o velikom zajmu i nabavci artiljerijskih topova. Beč je očekivao da će taj posao otići češko-austrijskoj Škodi, kako je decenijama bivalo. Kada je odlučeno drugačije, austrougarska diplomatija to je razumela kao otvoreno izlaženje Srbije iz njene privredne i vojne orbite. Pravi razlog za odmazdu, međutim, bio je dublji: mađarski poljoprivredni magnati, gospodari ravnice koja je takođe slala svinje i žito na bečko tržište, dugo su zahtevali da im se srpska konkurencija ukloni. Schneider je bio povod; mađarska kasa pravi pokretač."
+        "text": "Povod sukobu bio je naizgled tehnički, ali politički prozračan. Srbija je od 1904. godine, sa novim kraljem Petrom Karađorđevićem i radikalskom vladom Nikole Pašića, vodila spor oko nabavke novih artiljerijskih topova — takozvano „topovsko pitanje”. Beč je očekivao da će taj posao otići češko-austrijskoj Škodi, kako je decenijama bivalo, a Beograd je naginjao francuskoj firmi Schneider-Creusot. Kada je uz to 1905. sklopljen carinski savez sa Bugarskom, austrougarska diplomatija to je razumela kao otvoreno izlaženje Srbije iz njene privredne i vojne orbite i prekinula je pregovore; ugovor sa Schneiderom, uz francuski zajam, potpisan je tek 30. decembra 1906, usred carinskog rata. Razlozi za odmazdu bili su, međutim, dublji: uz težnju Beča da Srbiju politički potčini, važan pokretač bili su i mađarski poljoprivredni magnati, gospodari ravnice koja je takođe slala svinje i žito na bečko tržište, koji su dugo zahtevali da im se srpska konkurencija ukloni. Topovi i bugarski savez bili su povod; mađarska kasa jedan od pravih pokretača."
       },
       {
         "type": "paragraph",
-        "text": "Pritisak je u Beograd stigao u obliku dva zahteva. Prvi: novi trgovinski ugovor sa znatno višim carinskim tarifima i strožijim veterinarskim odredbama, koje su praktično mogle u svakom trenutku zatvoriti uvoz srpske stoke. Drugi: obaveza da se topovi, baruti i druga vojna nabavka i ubuduće naručuju u Austro-Ugarskoj. Pašićeva vlada, podržana skupštinskom većinom, odbila je ucenu. Ono što je usledilo nije bio rat oružjem nego rat granicom. Beč je u januaru 1906. zatvorio svoju granicu za uvoz srpske stoke, pravdajući to navodnom epidemijom svinjske kuge. Trgovina svinjama, kičma srpskog izvoza, prekinuta je preko noći."
+        "text": "Pritisak je u Beograd stigao u obliku dva zahteva. Prvi: novi trgovinski ugovor sa znatno višim carinskim tarifima i strožijim veterinarskim odredbama, koje su praktično mogle u svakom trenutku zatvoriti uvoz srpske stoke. Drugi: obaveza da se topovi, baruti i druga vojna nabavka i ubuduće naručuju u Austro-Ugarskoj. Pašićeva vlada, podržana skupštinskom većinom, odbila je ucenu. Ono što je usledilo nije bio rat oružjem nego rat granicom. Beč je u januaru 1906. zatvorio svoju granicu za uvoz srpske stoke, pravdajući to navodnom epidemijom svinjske kuge, a od jula 1906, kada je istekao trgovinski ugovor, zatvaranje je postalo potpuno. Trgovina svinjama, kičma srpskog izvoza, prekinuta je preko noći."
       },
       {
         "type": "heading",
@@ -15324,11 +15324,11 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Već tokom 1907. i 1908. počele su da se otvaraju nove rute. Srpska vlada, uz pomoć trgovačkih komora i pojedinih banaka, slala je izaslanike u Egipat, Francusku, Nemačku, Italiju i Veliku Britaniju. Egipat, koji je dotada svinje uvozio iz Mađarske, prihvatio je srpsko meso. Francuska, blisko vezana sa Beogradom novim zajmom, otvorila je vrata za suvo meso, salamu i kožu. Nemačka i Italija primale su žito i šljivu. Pošto put preko Austro-Ugarske više nije bio pouzdan, robu je trebalo slati ka jugu — preko Soluna, čime je ta železnička i lučka veza dobila novi privredni smisao. Do 1910. udeo Austro-Ugarske u srpskom izvozu pao je sa preko osamdeset pet na otprilike trideset odsto."
+        "text": "Već tokom 1907. i 1908. počele su da se otvaraju nove rute. Srpska vlada, uz pomoć trgovačkih komora i pojedinih banaka, slala je izaslanike u Egipat, Francusku, Nemačku, Italiju i Veliku Britaniju. Egipat je počeo da kupuje srpsku stoku, pre svega volove, koji su preko Soluna brodovima odlazili u Aleksandriju. Francuska, blisko vezana sa Beogradom novim zajmom, otvorila je vrata za suvo meso, salamu i kožu. Nemačka i Italija primale su žito i šljivu. Pošto put preko Austro-Ugarske više nije bio pouzdan, robu je trebalo slati ka jugu — preko Soluna, čime je ta železnička i lučka veza dobila novi privredni smisao. Do 1910. udeo Austro-Ugarske u srpskom izvozu pao je sa preko osamdeset pet na otprilike trideset odsto."
       },
       {
         "type": "paragraph",
-        "text": "Najtrajnija posledica nije bila promena karte tržišta, nego promena unutar same zemlje. Pošto stranci više nisu hteli žive svinje, neko je morao da ih kolje, soli, suši i pakuje pre nego što napuste Srbiju. Tako je carinski rat ubrzao nastanak prerađivačke industrije kakvu zemlja dotad gotovo nije imala. U Beogradu je proširena Vajfertova klanica, oslonjena na pivarski i preduzetnički kapital Đorđa Vajferta; nove velike klanice nikle su u Šapcu i Smederevu. Uz njih su građene hladnjače, sušare i fabrike salame i konzervi. Železnice su dobile vagone-hladnjače. Izvozni broj počeo je da uključuje stavke koje se ranije nisu ni navodile: suho meso, slanina, salama, prerađena koža. Bilo je to prvo srpsko iskustvo da se sirovina, pre nego što pređe granicu, isplati pretvoriti u proizvod."
+        "text": "Najtrajnija posledica nije bila promena karte tržišta, nego promena unutar same zemlje. Pošto stranci više nisu hteli žive svinje, neko je morao da ih kolje, soli, suši i pakuje pre nego što napuste Srbiju. Tako je carinski rat ubrzao nastanak prerađivačke industrije kakvu zemlja dotad gotovo nije imala. U Beogradu je proširena velika akcionarska klanica; nove velike klanice nikle su u Šapcu i Smederevu. Uz njih su građene hladnjače, sušare i fabrike salame i konzervi. Železnice su dobile vagone-hladnjače. Izvozni broj počeo je da uključuje stavke koje se ranije nisu ni navodile: suho meso, slanina, salama, prerađena koža. Bilo je to prvo srpsko iskustvo da se sirovina, pre nego što pređe granicu, isplati pretvoriti u proizvod."
       },
       {
         "type": "paragraph",
@@ -15345,7 +15345,6 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "summary": "Petogodišnji ekonomski sukob s Austro-Ugarskom, popularno nazvan „Svinjski rat”, koji je Srbiju izbacio iz bečke orbite i naterao je da pronađe nova tržišta, izgradi sopstvenu prerađivačku industriju i potvrdi samostalnu spoljnu politiku.",
     "keyPeople": [
       "Nikola Pašić",
-      "Đorđe Vajfert",
       "kralj Petar I Karađorđević",
       "Milovan Milovanović"
     ],
@@ -15375,7 +15374,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "U Srbiji je reakcija bila i emotivna i institucionalna. Mitinzi su izbili po varošima, od Beograda do unutrašnjosti; štampa je danima pisala samo o jednoj temi. Skupština je svečano osudila akt i izrazila protest. Vlada Pere Velimirovića, a potom i nova vlada koju je obrazovao Stojan Novaković, naredila je delimičnu mobilizaciju rezervista. Mladi kralj Petar I Karađorđević — koji je vladao tek pet godina — povezao se sa političkim vrhom u stavu da Srbija ne sme jednostavno da prećuti gubitak. Vojvoda Stepa Stepanović počeo je da razmatra šta bi srpska vojska mogla, a šta ne. Istovremeno se otvarala neugodna istina: protiv Austro-Ugarske, sama, Srbija ratovati ne može."
+        "text": "U Srbiji je reakcija bila i emotivna i institucionalna. Mitinzi su izbili po varošima, od Beograda do unutrašnjosti; štampa je danima pisala samo o jednoj temi. Skupština je svečano osudila akt i izrazila protest. Vlada Pere Velimirovića, a potom i nova vlada koju je obrazovao Stojan Novaković, naredila je delimičnu mobilizaciju rezervista. Kralj Petar I Karađorđević — koji je vladao tek pet godina — povezao se sa političkim vrhom u stavu da Srbija ne sme jednostavno da prećuti gubitak. General Stepa Stepanović, tada ministar vojni, počeo je da razmatra šta bi srpska vojska mogla, a šta ne. Istovremeno se otvarala neugodna istina: protiv Austro-Ugarske, sama, Srbija ratovati ne može."
       },
       {
         "type": "heading",
@@ -15430,11 +15429,11 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Pravna osnova reforme već je postojala. Zakon o ustrojstvu vojske donet je još 1901. godine, pod kraljem Aleksandrom, ali je tek posle 1903. dosledno primenjen. Uvodio je opštu vojnu obavezu — svaki sposoban muškarac dužan je da odsluži aktivnu vojnu službu, dve godine u pešadiji, nešto duže u konjici i artiljeriji — a posle toga prelazi u rezervu organizovanu po teritorijalnom načelu. Kraljevina je podeljena na pet armijskih oblasti, sa sedištima u Beogradu, Nišu, Šapcu, Kragujevcu i Valjevu, tako da je svaka oblast mogla da mobiliše ljudstvo iz svog kraja i da ga, u slučaju rata, brzo izvede u stroj. Mirnodopski sastav iznosio je oko trideset hiljada vojnika; pri punoj mobilizaciji, sa svim rezervama i pozivima, brojka se mogla popeti i preko dvesta pedeset hiljada — što je za zemlju od jedva tri miliona stanovnika bilo na ivici onoga što društvo može da podnese."
+        "text": "Pravna osnova reforme već je postojala. Opšta vojna obaveza postojala je još od zakona iz 1883, a Zakon o ustrojstvu vojske iz 1901. godine, donet pod kraljem Aleksandrom, ju je doradio; tek posle 1903. dosledno je primenjen. Po njemu je svaki sposoban muškarac bio dužan da odsluži aktivnu vojnu službu, dve godine u pešadiji, nešto duže u konjici i artiljeriji — a posle toga da pređe u rezervu organizovanu po teritorijalnom načelu. Kraljevina je podeljena na pet divizijskih oblasti (Dunavska, Moravska, Šumadijska, Drinska, Timočka), sa sedištima u Beogradu, Nišu, Kragujevcu, Valjevu i Zaječaru, tako da je svaka oblast mogla da mobiliše ljudstvo iz svog kraja i da ga, u slučaju rata, brzo izvede u stroj. Mirnodopski sastav iznosio je oko trideset hiljada vojnika; pri punoj mobilizaciji, sa svim rezervama i pozivima, brojka se mogla popeti i preko dvesta pedeset hiljada — što je za zemlju od jedva tri miliona stanovnika bilo na ivici onoga što društvo može da podnese."
       },
       {
         "type": "paragraph",
-        "text": "Srce reforme bio je generalštab. Na njegovo čelo došao je 1903. pukovnik, kasnije general i vojvoda, Radomir Putnik — strpljiv, sistematičan oficir koji je već decenijama proučavao ratnu doktrinu i koji je sa južnih granica do Beograda doneo naviku rada bez glasa. Pod njim je generalštab prerastao iz uske kancelarije u stvarni mozak vojske. Uveden je redovan ciklus letnjih manevara u kojima su se uvežbavale velike jedinice, štabni kursevi za oficire, planovi mobilizacije rađeni do najsitnijih detalja — koliko vagona, koliko konja, koliko zoba po danu. Putnik je oko sebe okupio krug ljudi koji će postati legenda srpskog ratovanja: Živojin Mišić, budući pobednik na Kolubari, Stepa Stepanović, Petar Bojović, general Božidar Janković. Većina ih se školovala u Francuskoj, neki u Rusiji ili Nemačkoj, i u zemlju su donosili savremena štiva i navike."
+        "text": "Srce reforme bio je generalštab. Na njegovo čelo došao je 1903. pukovnik, kasnije general i vojvoda, Radomir Putnik — strpljiv, sistematičan oficir koji je već decenijama proučavao ratnu doktrinu i koji je sa južnih granica do Beograda doneo naviku rada bez glasa. Pod njim je generalštab prerastao iz uske kancelarije u stvarni mozak vojske. Uveden je redovan ciklus letnjih manevara u kojima su se uvežbavale velike jedinice, štabni kursevi za oficire, planovi mobilizacije rađeni do najsitnijih detalja — koliko vagona, koliko konja, koliko zoba po danu. Putnik je oko sebe okupio krug ljudi koji će postati legenda srpskog ratovanja: Živojin Mišić, budući pobednik na Kolubari, Stepa Stepanović, Petar Bojović, general Božidar Janković. Neki od oficira ovog naraštaja usavršavali su se u inostranstvu i u zemlju su donosili savremena štiva i navike."
       },
       {
         "type": "heading",
@@ -15443,11 +15442,11 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Najteže pitanje bilo je naoružanje. Srbija je dugo zavisila od austrijskih dobavljača — pre svih od češke Škode — što je u svakom političkom sukobu sa Bečom značilo i pretnju da će topovi ostati bez rezervnih delova. Carinski rat sa Austro-Ugarskom, koji je trajao od 1906. do 1911. i koji su Beč i Pešta otvorili u nadi da će Srbiju ekonomski slomiti, paradoksalno je oslobodio vojsku tog stiska. Beograd se okrenuo Francuskoj i naručio brzometni top Schneider-Creusot model 1907, kalibra 75 milimetara — jedan od najboljih artiljerijskih komada svoga vremena, sa hidropneumatskim povratnikom koji je topu dozvoljavao brzu i tačnu paljbu bez promene položaja. Pešadija je dobila pušku sistema Mauser, u srpskoj modifikaciji model 1899, kalibra 7,9 milimetara. Stigli su i prvi mitraljezi sistema Maxim, telefoni i telegrafi za vezu, prva motorizovana oprema u inženjeriji."
+        "text": "Najteže pitanje bilo je naoružanje. Beč je tražio da Srbija nove topove naruči od češke Škode, što bi u svakom političkom sukobu sa Monarhijom značilo i pretnju da će topovi ostati bez rezervnih delova. Kada se Beograd opredelio za francuski Šnajder i francuski zajam, to je bio jedan od povoda Carinskom ratu (1906–1911), koji su Beč i Pešta otvorili u nadi da će Srbiju ekonomski slomiti. Srbija je 1906. naručila brzometni top Schneider-Creusot model 1907, kalibra 75 milimetara — jedan od najboljih artiljerijskih komada svoga vremena, sa hidropneumatskim povratnikom koji je topu dozvoljavao brzu i tačnu paljbu bez promene položaja. Pešadija je dobila pušku sistema Mauser, u srpskoj modifikaciji model 1899, kalibra 7 milimetara. Stigli su i prvi mitraljezi sistema Maxim, telefoni i telegrafi za vezu, prva motorizovana oprema u inženjeriji."
       },
       {
         "type": "paragraph",
-        "text": "Uporedo sa naoružanjem rasla je i tehnička strana vojske. Vojna akademija, osnovana još 1850. i obnovljena 1880, posle 1903. dobija nove nastavne programe rađene po francuskom uzoru. Pešadijske divizije organizovane su takođe po francuskom modelu, sa pratećom artiljerijom i sopstvenim sanitetom. Godine 1912. osnovana je i prva srpska avijacija — oficirska škola, najpre u Pirotu pa premeštena u Niš, na kojoj su obučeni i prvi srpski piloti. Avioni, kupljeni u Francuskoj, bili su krhki, drveni, više simbol nego ratno oružje, ali su Srbiju svrstali među prve države sveta koje su uopšte imale vojnu avijaciju. Mlade oficire koji su seli za upravljače posmatralo se u Beogradu kao ljude jednog novog doba."
+        "text": "Uporedo sa naoružanjem rasla je i tehnička strana vojske. Vojna akademija, osnovana još 1850. i obnovljena 1880, posle 1903. dobija nove nastavne programe rađene po francuskom uzoru. Pešadijske divizije organizovane su takođe po francuskom modelu, sa pratećom artiljerijom i sopstvenim sanitetom. Krajem 1912. (24. decembra) u Nišu je obrazovana Vazduhoplovna komanda — začetak srpske vojne avijacije; prvi srpski piloti obučeni su u Francuskoj. Avioni, kupljeni u Francuskoj, bili su krhki, drveni, više simbol nego ratno oružje, ali su Srbiju svrstali među prve države sveta koje su uopšte imale vojnu avijaciju. Mlade oficire koji su seli za upravljače posmatralo se u Beogradu kao ljude jednog novog doba."
       },
       {
         "type": "paragraph",
@@ -15455,13 +15454,13 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Kada je u jesen 1912. objavljena mobilizacija za rat protiv Turske, sistem je radio. Rezervisti su iz sela stigli u svoje pukove u predviđenom roku, oficiri su znali svoje zadatke, planovi koje je Putnikov štab godinama brusio pretvarali su se u marševe. Pobede koje su sledile — Kumanovo, Prilep, Bitolj — često su pripisivane samo hrabrosti srpskog vojnika, i ta hrabrost je doista bila stvarna. Ali iza nje je stajala desetogodišnja, dosadna, nevidljiva radinost: zakon iz 1901, manevri u Šumadiji, francuski topovi, štabni kursevi, mauserovke iz Kragujevca. Modernizacija pokrenuta posle 1903. nije bila samo vojnička priprema; bila je tihi dokaz da Srbija, kada hoće ozbiljno, ume da radi ozbiljno."
+        "text": "Kada je u jesen 1912. objavljena mobilizacija za rat protiv Turske, sistem je radio. Rezervisti su iz sela stigli u svoje pukove u predviđenom roku, oficiri su znali svoje zadatke, planovi koje je Putnikov štab godinama brusio pretvarali su se u marševe. Pobede koje su sledile — Kumanovo, Prilep, Bitolj — često su pripisivane samo hrabrosti srpskog vojnika, i ta hrabrost je doista bila stvarna. Ali iza nje je stajala desetogodišnja, dosadna, nevidljiva radinost: zakon iz 1901, manevri u Šumadiji, francuski topovi, štabni kursevi, mauserovke iz nemačkih fabrika. Modernizacija pokrenuta posle 1903. nije bila samo vojnička priprema; bila je tihi dokaz da Srbija, kada hoće ozbiljno, ume da radi ozbiljno."
       }
     ],
     "subtitle": "Kako je Srbija između 1903. i 1912. od skromne balkanske sile izgradila najbolje pripremljenu vojsku poluostrva",
     "dateLabel": "1903–1912.",
     "timelinePosition": "1903–1912.",
-    "summary": "Posle Majskog prevrata srpska vojska prolazi kroz temeljitu reformu — opštu vojnu obavezu, novi generalštab pod Putnikom, francuske topove i moderne doktrine. Do 1912. ona ulazi u Balkanske ratove kao najpripremljenija sila na poluostrvu.",
+    "summary": "Posle Majskog prevrata srpska vojska prolazi kroz temeljitu reformu — doslednu primenu opšte vojne obaveze, novi generalštab pod Putnikom, francuske topove i moderne doktrine. Do 1912. ona ulazi u Balkanske ratove kao najpripremljenija sila na poluostrvu.",
     "keyPeople": [
       "Radomir Putnik",
       "Živojin Mišić",
@@ -15474,9 +15473,8 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       "Beograd",
       "Niš",
       "Kragujevac",
-      "Šabac",
       "Valjevo",
-      "Pirot"
+      "Zaječar"
     ]
   },
   "day-273": {
@@ -15517,7 +15515,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Kraj ovog perioda dolazi naglo i neumoljivo. Prvi balkanski rat 1912, a potom Veliki rat 1914, presekli su upravo onaj sloj koji je obećavao najviše. Skerlić umire 1914. od tifusa, u jeku rata. Dis nestaje 1917, potonuvši sa brodom u Sredozemlju. Nadežda Petrović, koja je u oba balkanska rata i u Velikom ratu radila kao dobrovoljna bolničarka, umire 1915. od groznice. Dučić, Stanković, Slobodan Jovanović i drugi preživeli, ali svi će posle 1918. raditi u drugoj državi, u drugom svetu i sa svešću da je nešto presečeno. Pošteno je reći da je ovo bio vrh predratne srpske kulture i da će se sve što sledi, htelo se to ili ne, meriti sa snagom te mlade, prerano prekinute generacije."
+        "text": "Kraj ovog perioda dolazi naglo i neumoljivo. Prvi balkanski rat 1912, a potom Veliki rat 1914, presekli su upravo onaj sloj koji je obećavao najviše. Skerlić umire iznenada u maju 1914, dva i po meseca pre rata. Dis nestaje 1917, potonuvši sa brodom u Sredozemlju. Nadežda Petrović, koja je u oba balkanska rata i u Velikom ratu radila kao dobrovoljna bolničarka, umire 1915. od groznice. Dučić, Stanković, Slobodan Jovanović i drugi preživeli, ali svi će posle 1918. raditi u drugoj državi, u drugom svetu i sa svešću da je nešto presečeno. Pošteno je reći da je ovo bio vrh predratne srpske kulture i da će se sve što sledi, htelo se to ili ne, meriti sa snagom te mlade, prerano prekinute generacije."
       }
     ],
     "subtitle": "Od osnivanja Univerziteta 1905. do izbijanja Balkanskih ratova — kratak, ali izuzetno plodan trenutak srpske kulture",
@@ -15542,7 +15540,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "content": [
       {
         "type": "paragraph",
-        "text": "Kada se 1910. godine u Beogradu objave podaci popisa, Kraljevina Srbija ima oko 2,9 miliona stanovnika. To je, na karti Evrope, mala balkanska država — manja od mnogih austrougarskih krunovina, manja od većine evropskih kraljevina. Ali srpski problem tog vremena nije pitanje koliko ljudi živi između Save i Vardara; on je pitanje gde sve, izvan tih granica, žive Srbi. Najpažljivije procene pokazuju da je krajem 19. i početkom 20. veka izvan Kraljevine Srbije živelo gotovo dvostruko više etničkih Srba nego u njoj. Bili su rasuti preko tri imperije i jedne kneževine, i svaki politički program koji će tih godina nastati — od ujedinjenja, preko autonomije, do jugoslovenstva — izrastao je upravo iz te činjenice.",
+        "text": "Kada se 1910. godine u Beogradu objave podaci popisa, Kraljevina Srbija ima oko 2,9 miliona stanovnika. To je, na karti Evrope, mala balkanska država — manja od mnogih austrougarskih krunovina, manja od većine evropskih kraljevina. Ali srpski problem tog vremena nije pitanje koliko ljudi živi između Save i Vardara; on je pitanje gde sve, izvan tih granica, žive Srbi. Najpažljivije procene pokazuju da je krajem 19. i početkom 20. veka izvan Kraljevine Srbije živelo otprilike isto toliko, možda i nešto više etničkih Srba nego u njoj. Bili su rasuti preko dve imperije, susedne Crne Gore i prekomorske dijaspore, i svaki politički program koji će tih godina nastati — od ujedinjenja, preko autonomije, do jugoslovenstva — izrastao je upravo iz te činjenice.",
         "dropcap": true
       },
       {
@@ -15551,11 +15549,11 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "U Bosni i Hercegovini, koju je Austro-Ugarska okupirala 1878. a anektirala 1908. godine, pravoslavni Srbi su od ukupno oko 1,9 miliona stanovnika 1910. činili najveću pojedinačnu konfesionalnu grupu — oko 825 hiljada ljudi, ispred bosanskih muslimana i katolika. Njihov položaj bio je posebno složen: za samo trideset godina prešli su iz osmanskog poretka, u kome su bili raja sa ograničenim pravima ali sa naviknutom verskom autonomijom, u austrijski poredak, u kome su dobili moderne zakone i upravu ali su izgubili politički horizont koji je do tada vodio ka Beogradu. Crkvena autonomija je sačuvana, ali kulturno-politički pokreti, naročito Srpska narodna organizacija od 1907, ulazili su u stalne sukobe sa upravom Benjamina Kalaja i njegovih naslednika."
+        "text": "U Bosni i Hercegovini, koju je Austro-Ugarska okupirala 1878. a anektirala 1908. godine, pravoslavni Srbi su od ukupno oko 1,9 miliona stanovnika 1910. činili najveću pojedinačnu konfesionalnu grupu — oko 825 hiljada ljudi, ispred bosanskih muslimana i katolika. Njihov položaj bio je posebno složen: za samo trideset godina prešli su iz osmanskog poretka, u kome su bili raja sa ograničenim pravima ali sa naviknutom verskom autonomijom, u austrijski poredak, u kome su dobili moderne zakone i upravu ali su izgubili politički horizont koji je do tada vodio ka Beogradu. Borba za crkveno-školsku autonomiju sukobljavala se sa upravom Benjamina Kalaja, a od 1907. Srpska narodna organizacija sa upravom njegovih naslednika."
       },
       {
         "type": "paragraph",
-        "text": "Treća srpska država tog vremena bila je Crna Gora. Pod knezom Nikolom I Petrovićem-Njegošem, koji je vladao od 1860. a 1910. se proglasio kraljem, Crna Gora je sa oko trista hiljada stanovnika bila etnički gotovo isključivo srpska po jeziku i pravoslavnoj veri, ali institucionalno potpuno samostalna. Odnosi sa Beogradom bili su bliski po krvi i kulturi, a politički često hladni — dva srpska dvora ćutke su se nadmetala oko prvenstva. Crnogorska kultura bila je arhaičnija, manje evropeizovana od vojvođanske ili beogradske, i u tome je čuvala nešto što je u Srbiji već nestajalo, ali je istovremeno teško održavala korak sa modernim institucijama."
+        "text": "Treća srpska država tog vremena bila je Crna Gora. Pod knezom Nikolom I Petrovićem-Njegošem, koji je vladao od 1860. a 1910. se proglasio kraljem, Crna Gora je sa oko trista hiljada stanovnika bila pretežno pravoslavna i srpskog jezika, sa albanskom i muslimanskom manjinom na jugu, ali institucionalno potpuno samostalna. Odnosi sa Beogradom bili su bliski po krvi i kulturi, a politički često hladni — dva srpska dvora ćutke su se nadmetala oko prvenstva. Crnogorska kultura bila je arhaičnija, manje evropeizovana od vojvođanske ili beogradske, i u tome je čuvala nešto što je u Srbiji već nestajalo, ali je istovremeno teško održavala korak sa modernim institucijama."
       },
       {
         "type": "heading",
@@ -15564,21 +15562,21 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Treća imperija u kojoj su živeli Srbi bila je Osmansko carstvo. U tzv. Staroj Srbiji — na Kosovu, u Metohiji i Raškoj oblasti, koja se tada nazivala Novopazarskim sandžakom — te u Makedoniji, koja je do 1912. ostala osmanska, srpsko stanovništvo živelo je u znatno težim uslovima nego u Habsburškoj monarhiji. Tu nije bilo ni patrijaršije ni matice, nego škole, mitropolije i konzulati koji su radili pod stalnim pritiskom albanskih nasilja, turske uprave i konkurentske grčke i bugarske propagande. Konačno, krajem 19. veka počinje i prvi veći talas iseljavanja u prekomorske zemlje — najpre iz Like i Hercegovine, gde se zemlja iscrpla i porodice zaduživale, ka Sjedinjenim Američkim Državama. Niču srpske kolonije u Pitsburgu i Klivlendu, u rudarskim i čeličanskim gradovima, sa svojim crkvama i listovima."
+        "text": "Druga imperija u kojoj su živeli Srbi bila je Osmansko carstvo. U tzv. Staroj Srbiji — na Kosovu, u Metohiji i Raškoj oblasti, koja se tada nazivala Novopazarskim sandžakom — te u Makedoniji, koja je do 1912. ostala osmanska, srpsko stanovništvo živelo je u znatno težim uslovima nego u Habsburškoj monarhiji. Tu nije bilo ni patrijaršije ni matice, nego škole, mitropolije i konzulati koji su radili pod stalnim pritiskom albanskih nasilja, turske uprave i konkurentske grčke i bugarske propagande. Konačno, krajem 19. veka počinje i prvi veći talas iseljavanja u prekomorske zemlje — najpre iz Like i Hercegovine, gde se zemlja iscrpla i porodice zaduživale, ka Sjedinjenim Američkim Državama. Niču srpske kolonije u Pitsburgu i Klivlendu, u rudarskim i čeličanskim gradovima, sa svojim crkvama i listovima."
       },
       {
         "type": "paragraph",
-        "text": "U Habsburškoj monarhiji Srbi su uživali građanska prava, ali pod stalnim pritiskom mađarizacije u ugarskom i nemačko-austrijske uprave u drugim delovima države. Branili su se onim oružjem koje su imali — crkvenom autonomijom, štampom i strankama. Listovi „Srpski narodni list”, „Zastava” Svetozara Miletića, „Branik” i sarajevski „Srbobran” oblikovali su javno mnjenje koje je često bilo modernije i otvorenije nego ono u samoj Kraljevini Srbiji. U Hrvatskoj je 1905. godine Srpska samostalna stranka, zajedno sa hrvatskim partnerima, potpisala Riječku i Zadarsku rezoluciju i ušla u Hrvatsko-srpsku koaliciju — prvi ozbiljan pokušaj zajedničkog političkog nastupa Srba i Hrvata u monarhiji."
+        "text": "U Habsburškoj monarhiji Srbi su uživali građanska prava, ali pod stalnim pritiskom mađarizacije u ugarskom i nemačko-austrijske uprave u drugim delovima države. Branili su se onim oružjem koje su imali — crkvenom autonomijom, štampom i strankama. Listovi „Srpski narodni list”, „Zastava” Svetozara Miletića, „Branik” i zagrebački „Srbobran” oblikovali su javno mnjenje koje je često bilo modernije i otvorenije nego ono u samoj Kraljevini Srbiji. U Hrvatskoj su 1905. godine hrvatski političari doneli Riječku, a srpski Zadarsku rezoluciju, na osnovu kojih je nastala Hrvatsko-srpska koalicija, u koju je ušla i Srpska samostalna stranka — prvi ozbiljan pokušaj zajedničkog političkog nastupa Srba i Hrvata u monarhiji."
       },
       {
         "type": "paragraph",
         "text": "Ovde treba biti pošten u jednoj stvari koja se kasnije često zaboravljala. Srpske zajednice u različitim sredinama nisu bile homogene niti su mislile istovetno. Vojvodina je, kroz vekove života u srednjoevropskom građanskom svetu, postala kulturno evropeizovanija od Srbije; njena varoška kultura, štampa i ženska društva merila su se sa češkim ili mađarskim, ne sa balkanskim. Bosanski Srbi nosili su pečat dugog osmanskog nasleđa i seoske, patrijarhalne strukture. Crnogorci su čuvali plemenski poredak i epsku tradiciju gotovo netaknuti. Lički i krajiški Srbi imali su mentalitet starih graničara. Te razlike u kulturnoj orijentaciji bile su stvarne i istorijski važne, i pred Prvi svetski rat one nisu bile prepreka zajedničkom osećanju pripadnosti, ali su bile podsetnik da pred zajednicom, ako jednog dana bude ujedinjena, neće biti samo politički, nego i unutrašnji kulturni zadatak."
       }
     ],
-    "subtitle": "Krajem 19. i početkom 20. veka više je Srba živelo van Kraljevine Srbije nego u njoj — rasuti preko tri imperije",
+    "subtitle": "Oko 1900. van Kraljevine Srbije živelo je gotovo isto toliko Srba koliko i u njoj — u dve imperije i Crnoj Gori",
     "dateLabel": "kraj 19 – početak 20. veka",
     "timelinePosition": "kraj 19 – početak 20. veka",
-    "summary": "Pred Prvi svetski rat Kraljevina Srbija ima oko 2,9 miliona stanovnika, ali gotovo dvostruko više etničkih Srba živi izvan njenih granica — u Austro-Ugarskoj, Osmanskom carstvu, Crnoj Gori i prekomorskoj dijaspori. Iz te disperzije izrasta većina političkih programa epohe.",
+    "summary": "Pred Prvi svetski rat Kraljevina Srbija ima oko 2,9 miliona stanovnika, ali otprilike isto toliko, možda i nešto više etničkih Srba živi izvan njenih granica — u Austro-Ugarskoj, Osmanskom carstvu, Crnoj Gori i prekomorskoj dijaspori. Iz te disperzije izrasta većina političkih programa epohe.",
     "keyPeople": [
       "Nikola I Petrović",
       "patrijarh Georgije Branković",
@@ -15625,7 +15623,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Veza između te oficirske mreže i bosanske omladine bila je tanja i zamršenija nego što su to kasnije tvrdile i optužnice i apologije. Sigurno je da je upravo Tankosić, u svojstvu organizatora četničkih akcija, mladim Mladobosancima — Principu, Čabrinoviću, Grabežu — dao pištolje i bombe i prebacio ih preko granice u Bosnu uoči atentata u junu 1914. godine. Manje je sigurno koliko je o tome znala srpska vlada; ozbiljni istraživači danas se slažu da je Pašić bio uznemiren glasinama i pokušavao da upozori Beč, ali da nije zaustavio akciju koja se odvijala u sivoj zoni državnih službi."
+        "text": "Veza između te oficirske mreže i bosanske omladine bila je tanja i zamršenija nego što su to kasnije tvrdile i optužnice i apologije. Sigurno je da je upravo Tankosić, u svojstvu organizatora četničkih akcija, mladim Mladobosancima — Principu, Čabrinoviću, Grabežu — dao pištolje i bombe i prebacio ih preko granice u Bosnu uoči atentata u junu 1914. godine. Manje je sigurno koliko je o tome znala srpska vlada; Pašić je bio uznemiren glasinama i verovatno pokušavao da, preko poslanika u Beču, neodređeno upozori austrijske vlasti — što je i danas predmet rasprave — ali nije zaustavio akciju koja se odvijala u sivoj zoni državnih službi."
       },
       {
         "type": "paragraph",
@@ -15668,7 +15666,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Najveći test te privrede bio je takozvani Carinski rat sa Austro-Ugarskom, koji je trajao od 1906. do 1911. godine. Beč je iznenadno zatvorio granicu za srpsku stoku, pre svega za svinje, koje su do tada uglavnom išle na austrijsko i češko tržište. Bio je to udarac usmeren na sam živac srpskog izvoza. Umesto sloma, usledilo je prestrojavanje: modernizovane su klanice u zemlji, otvorene su nove izvozne rute preko Soluna i ka Egiptu, a partneri su se razgranali — Nemačka, Francuska, Velika Britanija, Italija, Belgija i Egipat postali su važni kupci. Kada se 1911. trgovina sa Austro-Ugarskom konačno normalizovala, ona se nije vratila na predratni nivo, ali Srbija više nije bila vezana za jedno tržište kao ranije. Taj rast i diversifikacija izvoza, postignuti pod pritiskom, ostali su predratni privredni uspeh koji se ne sme prećutati."
+        "text": "Najveći test te privrede bio je takozvani Carinski rat sa Austro-Ugarskom, koji je trajao od 1906. do 1911. godine. Beč je iznenadno zatvorio granicu za srpsku stoku, pre svega za svinje, koje su do tada uglavnom išle na austrijsko i češko tržište. Bio je to udarac usmeren na sam živac srpskog izvoza. Umesto sloma, usledilo je prestrojavanje: modernizovane su klanice u zemlji, otvorene su nove izvozne rute preko Soluna i ka Egiptu, a partneri su se razgranali — Nemačka, Francuska, Velika Britanija, Italija, Belgija i Egipat postali su važni kupci. Kada se 1911. trgovina sa Austro-Ugarskom konačno normalizovala, ona se nije vratila na predratni nivo, ali Srbija više nije bila vezana za jedno tržište kao ranije. Taj rast i diversifikacija izvoza, postignuti pod pritiskom, u srpskoj istoriografiji obično se vide kao predratni privredni uspeh, iako je rast dohotka po stanovniku ostao spor."
       },
       {
         "type": "heading",
@@ -15681,7 +15679,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Iza svega toga stajao je razgranatiji finansijski sistem nego što se obično pretpostavlja. Na vrhu je bila Privilegovana narodna banka, centralna i emisiona ustanova, koja je čuvala dinar i kontrolisala novčanu masu. Oko nje su u Beogradu radile približno dvadeset pet komercijalnih banaka, a po gradovima i varošicama, prema različitim procenama, između osamdeset i sto dvadeset lokalnih štedionica i banki. Strani kreditori — pre svega francuski Société Générale i češko-austrijski Wiener Bankverein — bili su prisutni i kao zajmodavci države i kao učesnici u industrijskim projektima. Srbija je krajem prve decenije veka uveliko bila uvučena u evropske finansijske tokove, što joj je davalo kapital, ali i obavezivalo na disciplinu."
+        "text": "Iza svega toga stajao je razgranatiji finansijski sistem nego što se obično pretpostavlja. Na vrhu je bila Privilegovana narodna banka, centralna i emisiona ustanova, koja je čuvala dinar i kontrolisala novčanu masu. Oko nje su u Beogradu radile približno dvadeset pet komercijalnih banaka, a po gradovima i varošicama, prema različitim procenama, između osamdeset i sto dvadeset lokalnih štedionica i banki. Strani kreditori — pre svega francuski Société Générale i bečki Wiener Bankverein — bili su prisutni i kao zajmodavci države i kao učesnici u industrijskim projektima. Srbija je krajem prve decenije veka uveliko bila uvučena u evropske finansijske tokove, što joj je davalo kapital, ali i obavezivalo na disciplinu."
       },
       {
         "type": "paragraph",
@@ -15689,7 +15687,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Ako se sve uzme zajedno, slika je dvostruka, i tako je treba pošteno predstaviti. Po proceni bruto domaćeg proizvoda po stanovniku, Srbija je 1910. godine bila iznad Bugarske, Crne Gore i Albanije, a ispod Grčke — dakle u sredini balkanskog niza, ne na njegovom dnu. Istovremeno, ostala je daleko ispod austrougarskog i nemačkog standarda, sa siromašnim selom, niskom pismenošću i krhkom industrijskom bazom. Bila je to zemlja koja je u prethodnoj deceniji pokazala da može da izdrži udarac, promeni tržišta i izgradi nešto skromne, ali stvarne moderne infrastrukture. Sa takvom privredom Srbija je 1912. godine ušla u Balkanske ratove — još uvek seljačka, ali sa tihim samopouzdanjem da nije mala zato što ne ume, već zato što ima malo prostora i još manje vremena."
+        "text": "Ako se sve uzme zajedno, slika je dvostruka, i tako je treba pošteno predstaviti. Po procenama bruto domaćeg proizvoda po stanovniku, Srbija je 1910. godine bila otprilike u sredini balkanskog niza, blizu Bugarske, a ispod Grčke — dakle ne na njegovom dnu. Istovremeno, ostala je daleko ispod austrougarskog i nemačkog standarda, sa siromašnim selom, niskom pismenošću i krhkom industrijskom bazom. Bila je to zemlja koja je u prethodnoj deceniji pokazala da može da izdrži udarac, promeni tržišta i izgradi nešto skromne, ali stvarne moderne infrastrukture. Sa takvom privredom Srbija je 1912. godine ušla u Balkanske ratove — još uvek seljačka, ali sa tihim samopouzdanjem da nije mala zato što ne ume, već zato što ima malo prostora i još manje vremena."
       }
     ],
     "subtitle": "Mala agrarna zemlja koja je u nekoliko godina pre 1912. preživela carinski rat i diversifikovala izvoz",
@@ -15723,11 +15721,11 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Drugi oslonac, manje glasan ali praktično važan, bila je Francuska. Posle 1903. Beograd zatvara stari aranžman sa austrijskim bankama i obraća se Parizu za novi državni zajam. Francuski kapital ulazi u srpske železnice, rudnike, državne nabavke. Godine 1907. donesena je odluka koja će se kasnije pokazati sudbinskom — srpska vojska napušta austrijski top i prelazi na francuski brzometni top Schneider, isti onaj sa kojim će ulaziti u Balkanske ratove. Uporedo s tim ide i kulturni uticaj: srpski oficiri školuju se u francuskim vojnim akademijama, intelektualci u Parizu, a francuska škola postaje preovlađujući obrazovni model nove generacije."
+        "text": "Drugi oslonac, manje glasan ali praktično važan, bila je Francuska. Posle 1903. Beograd zatvara stari aranžman sa austrijskim bankama i obraća se Parizu za novi državni zajam. Francuski kapital ulazi u srpske železnice, rudnike, državne nabavke. Krajem 1906. doneta je odluka koja će se kasnije pokazati sudbinskom — srpska vojska odbija ponudu austrijske Škode i uvodi francuski brzometni top Schneider (model 1907), isti onaj sa kojim će ulaziti u Balkanske ratove. Uporedo s tim ide i kulturni uticaj: srpski oficiri školuju se u francuskim vojnim akademijama, intelektualci u Parizu, a francuska škola postaje preovlađujući obrazovni model nove generacije."
       },
       {
         "type": "paragraph",
-        "text": "Sa Austro-Ugarskom odnosi se brzo pogoršavaju. Beč je prevrat 1903. doživeo kao gubitak uticaja i započeo niz pritisaka. Najteži je bio takozvani Carinski rat 1906–1911. — Austro-Ugarska je zatvorila granicu za izvoz srpskih svinja, glavnog srpskog izvoznog artikla, pokušavajući da privredno slomi Beograd i vrati ga u poslušnost. Računica nije izašla. Srbija je u nekoliko godina uspela da pronađe nova tržišta — u Nemačkoj, Egiptu, Francuskoj — i izašla je iz krize osnaženija, sa diversifikovanijom privredom i sa snažnim osećajem da Beč više nije neminovan partner. Kriza je politički takođe učvrstila narodnoradikalsku vlast i otvorila prostor za samostalniji spoljnopolitički ton."
+        "text": "Sa Austro-Ugarskom odnosi se brzo pogoršavaju. Beč je prevrat 1903. doživeo kao gubitak uticaja i započeo niz pritisaka. Najteži je bio takozvani Carinski rat 1906–1911. — Austro-Ugarska je zatvorila granicu za izvoz srpskih svinja, glavnog srpskog izvoznog artikla, pokušavajući da privredno slomi Beograd i vrati ga u poslušnost. Računica nije izašla. Srbija je u nekoliko godina uspela da pronađe nova tržišta — u Nemačkoj, Egiptu, Francuskoj — i, po uobičajenoj oceni srpske istoriografije, izašla je iz krize osnaženija, sa diversifikovanijom privredom i sa snažnim osećajem da Beč više nije neminovan partner, iako je dohodak po stanovniku i dalje rastao sporo. Kriza je politički takođe učvrstila narodnoradikalsku vlast i otvorila prostor za samostalniji spoljnopolitički ton."
       },
       {
         "type": "heading",
@@ -15740,7 +15738,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Prema Osmanskom carstvu odnos je bio dvostruk. Sa jedne strane, to je bio istorijski sused i formalni gospodar oblasti u kojima je živelo srpsko stanovništvo — Stare Srbije i Makedonije. Sa druge, bilo je jasno da je carstvo pred raspadom i da je pitanje samo ko će na njegovom evropskom delu zauzeti koji deo. Srpski cilj bio je da se osigura izlaz na jug i pravo na deo Makedonije pre nego što tu uđu Bugari ili Grci. U toj logici sazreva i odnos prema Bugarskoj. Posle kratkog savezničkog perioda osamdesetih i bolnog rata 1885, Sofija i Beograd su decenijama bili rivali oko Makedonije. Milovanović je, tiho i strpljivo, otvorio nove razgovore."
+        "text": "Prema Osmanskom carstvu odnos je bio dvostruk. Sa jedne strane, to je bio istorijski sused i formalni gospodar oblasti u kojima je živelo srpsko stanovništvo — Stare Srbije i Makedonije. Sa druge, bilo je jasno da je carstvo pred raspadom i da je pitanje samo ko će na njegovom evropskom delu zauzeti koji deo. Srpski cilj bio je da se osigura izlaz na jug i pravo na deo Makedonije pre nego što tu uđu Bugari ili Grci. U toj logici sazreva i odnos prema Bugarskoj. Posle bolnog rata 1885. i kratkotrajnog zbližavanja 1904–1905, Sofija i Beograd ostali su rivali oko Makedonije. Milovanović je, tiho i strpljivo, otvorio nove razgovore."
       },
       {
         "type": "paragraph",
@@ -15779,7 +15777,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Od tih 2,9 miliona, oko osamdeset šest odsto živelo je na selu. Samo četrnaest odsto stanovnika spadalo je u gradsko stanovništvo, a i tu brojku treba uzeti uslovno, jer su mnoge tadašnje „varoši” bile zapravo veće seoske kasabe sa par hiljada duša. Beograd je imao oko devedeset hiljada stanovnika i bio je daleko najveći grad. Za njim su išli Niš sa nekih dvadeset pet hiljada i Kragujevac sa oko osamnaest hiljada. Šabac, Smederevo, Užice i nekoliko drugih palanki imali su između deset i petnaest hiljada stanovnika. Sve ostalo bila je zemlja malih sela, opština i parohija — Srbija u kojoj se još uvek živelo unutar pešačke daljine od mesta rođenja."
+        "text": "Od tih 2,9 miliona, oko osamdeset šest odsto živelo je na selu. Samo četrnaest odsto stanovnika spadalo je u gradsko stanovništvo, a i tu brojku treba uzeti uslovno, jer su mnoge tadašnje „varoši” bile zapravo veće seoske kasabe sa par hiljada duša. Beograd je imao oko devedeset hiljada stanovnika i bio je daleko najveći grad. Za njim su išli Niš sa nekih dvadeset pet hiljada i Kragujevac sa oko osamnaest hiljada. Leskovac, Požarevac, Šabac, Vranje i Pirot imali su između jedanaest i petnaest hiljada stanovnika. Sve ostalo bila je zemlja malih sela, opština i parohija — Srbija u kojoj se još uvek živelo unutar pešačke daljine od mesta rođenja."
       },
       {
         "type": "paragraph",
@@ -15822,9 +15820,11 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       "Beograd",
       "Niš",
       "Kragujevac",
+      "Leskovac",
+      "Požarevac",
       "Šabac",
-      "Smederevo",
-      "Užice"
+      "Vranje",
+      "Pirot"
     ]
   },
   "day-279": {
@@ -15836,11 +15836,11 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Beograd na početku perioda još je manji grad. Procene za 1900. godinu daju mu nešto preko sedamdeset hiljada stanovnika; do 1912. taj broj prelazi sto hiljada. Grad izlazi iz starog jezgra oko Kalemegdana i Knez Mihailove ulice i širi se prema Vračaru i Paliluli, gde se ulice tek probijaju kroz nekadašnje bašte i kukuruzišta. Gradi se kamen i opeka tamo gde su do juče stajale ćerpičare; pojavljuju se prva spratna zdanja u stilu beogradske akademske arhitekture, sa balkonima od kovanog gvožđa i visokim tavanicama. Generalni urbanistički plan koji će gradu dati Đorđe Kovaljevski stići će tek 1923, ali ideje o regulaciji Dunavske i Savske strane, o produžecima Knez Mihailove i o uređenju zelenih površina raspravljaju se već u ovim godinama."
+        "text": "Beograd na početku perioda još je manji grad. Procene za 1900. godinu daju mu nešto preko sedamdeset hiljada stanovnika; do 1910. taj broj se približava devedeset hiljada. Grad izlazi iz starog jezgra oko Kalemegdana i Knez Mihailove ulice i širi se prema Vračaru i Paliluli, gde se ulice tek probijaju kroz nekadašnje bašte i kukuruzišta. Gradi se kamen i opeka tamo gde su do juče stajale ćerpičare; pojavljuju se prva spratna zdanja u stilu beogradske akademske arhitekture, sa balkonima od kovanog gvožđa i visokim tavanicama. Generalni urbanistički plan koji će gradu dati Đorđe Kovaljevski stići će tek 1923, ali ideje o regulaciji Dunavske i Savske strane, o produžecima Knez Mihailove i o uređenju zelenih površina raspravljaju se već u ovim godinama."
       },
       {
         "type": "paragraph",
-        "text": "Pojedine zgrade i danas stoje kao spomenici tog naleta. Hipotekarna banka, Narodni muzej smešten u prostorijama starog kraljevskog dvora, novi delovi Kalemegdana sa prvim uređenim gradskim parkovima, i — započeta 1907. — zgrada koja će tek mnogo kasnije postati Stara skupština. Skadarska, do tada već dobro poznata uska ulica sa malim radnjama i mehanama, učvršćuje svoju reputaciju boemske četvrti u kojoj se pesnik, glumac i novinar susreću posle ponoći. Knez Mihailova i Ulica kralja Petra dobijaju izloge prvih modernih trgovačkih radnji, sa staklom u celoj površini i mesinganim okvirima, kakvi su do juče viđani samo u Pešti ili Beču."
+        "text": "Pojedine zgrade i danas stoje kao spomenici tog naleta. Zgrada Uprave fondova (Hipotekarne banke) iz 1903, u kojoj je danas Narodni muzej, novi delovi Kalemegdana sa prvim uređenim gradskim parkovima, i — započeta 1907. — zgrada koja će tek mnogo kasnije postati Stara skupština. Skadarska, do tada već dobro poznata uska ulica sa malim radnjama i mehanama, učvršćuje svoju reputaciju boemske četvrti u kojoj se pesnik, glumac i novinar susreću posle ponoći. Knez Mihailova i Ulica kralja Petra dobijaju izloge prvih modernih trgovačkih radnji, sa staklom u celoj površini i mesinganim okvirima, kakvi su do juče viđani samo u Pešti ili Beču."
       },
       {
         "type": "heading",
@@ -15853,7 +15853,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Kafane su drugo lice te javne sfere. „Dardaneli“, „Kod Tri šešira“, „Tri lista duvana“ — imena koja će u sećanju kasnijih naraštaja zvučati gotovo kao naslovi knjiga. U njima se sastaju poslanici i pisci, planiraju listovi i razbijaju se prijateljstva. Narodno pozorište modernizuje repertoar: pored domaćih autora, na njegovoj sceni redovno se igraju Šekspir, Ibzen i Čehov. Beogradsko pevačko društvo drži koncerte koji okupljaju građanski sloj u njegovim najsvečanijim trenucima. Bioskopi — „Pariz“, „Kasina“, „Korzo“ — donose pokretne slike iz Pariza, Berlina i Beča; gledalište je u početku mahom mlado, ali se brzo proširuje. Univerzitet, koji je 1905. godine prerastao iz Velike škole, do 1912. iznedrio je generaciju studenata i mladih nastavnika kakvu zemlja do tada nije imala."
+        "text": "Kafane su drugo lice te javne sfere. „Kod Tri šešira“, „Tri lista duvana“, „Moskva“ — imena koja će u sećanju kasnijih naraštaja zvučati gotovo kao naslovi knjiga. U njima se sastaju poslanici i pisci, planiraju listovi i razbijaju se prijateljstva. Narodno pozorište modernizuje repertoar: pored domaćih autora, na njegovoj sceni redovno se igraju Šekspir, Ibzen i Čehov. Beogradsko pevačko društvo drži koncerte koji okupljaju građanski sloj u njegovim najsvečanijim trenucima. Bioskopi — „Pariz“, „Kasina“, „Korzo“ — donose pokretne slike iz Pariza, Berlina i Beča; gledalište je u početku mahom mlado, ali se brzo proširuje. Univerzitet, koji je 1905. godine prerastao iz Velike škole, do 1912. iznedrio je generaciju studenata i mladih nastavnika kakvu zemlja do tada nije imala."
       },
       {
         "type": "paragraph",
@@ -15913,7 +15913,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Teritorijalno, od malog pašaluka država je porasla na oko 48.300 kvadratnih kilometara i 2,9 miliona stanovnika uoči 1912. Demografski rast je bio postojan: od približno 700.000 ljudi u Milošev popis 1834. do gotovo četiri puta više za tri četvrti veka. Ekonomski temelji su postavljeni u poslednjoj trećini veka — dinar je uveden 1878, Narodna banka osnovana je 1884, iste godine puštena je prva železnica Beograd–Niš. Bankarski sektor je narastao u Beogradu, prvi industrijski pogoni — pivare, mlinovi, rudnici, tekstilne i duvanske manufakture — promenili su lice nekoliko gradova. Carinski rat sa Austrougarskom između 1906. i 1911. bio je teška, ali presudna potvrda da Srbija može da preživi i bez austrijskog tržišta — i da nađe nove puteve preko Soluna i Crne Gore."
+        "text": "Teritorijalno, od malog pašaluka država je porasla na oko 48.300 kvadratnih kilometara i 2,9 miliona stanovnika uoči 1912. Demografski rast je bio postojan: od približno 700.000 stanovnika po Miloševom popisu iz 1834. do više nego četvorostruko većeg broja za tri četvrti veka. Ekonomski temelji su postavljeni u poslednjoj trećini veka — dinar je uveden 1873, Narodna banka osnovana je 1884, iste godine puštena je prva železnica Beograd–Niš. Bankarski sektor je narastao u Beogradu, prvi industrijski pogoni — pivare, mlinovi, rudnici, tekstilne i duvanske manufakture — promenili su lice nekoliko gradova. Carinski rat sa Austrougarskom između 1906. i 1911. bio je teška, ali presudna potvrda da Srbija može da preživi i bez austrijskog tržišta — i da nađe nove puteve, pre svega preko Soluna."
       },
       {
         "type": "paragraph",
@@ -15925,11 +15925,11 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Ograničenja su jednako stvarna kao i dostignuća. Srbija 1910. ostaje pretežno seoska, siromašna zemlja. Pismenost je još uvek niska — većina seoskog stanovništva ne zna da čita. Modernizacija je dosegla Beograd, Niš, Kragujevac, ali periferiju samo delom. Srpska dijaspora preko Save i Dunava, u Vojvodini, Bosni, Hercegovini, Hrvatskoj, Staroj Srbiji i Makedoniji, brojnija je nego stanovništvo same kraljevine — što je i njena snaga i njena trajna politička obaveza. Odnosi sa Austrougarskom, sa Bugarskom, sa Turskom — niti jedan nije rešen. Sve te otvorene račune narednih godina otvoriće sila, ne sporazum."
+        "text": "Ograničenja su jednako stvarna kao i dostignuća. Srbija 1910. ostaje pretežno seoska, siromašna zemlja. Pismenost je još uvek niska — većina seoskog stanovništva ne zna da čita. Modernizacija je dosegla Beograd, Niš, Kragujevac, ali periferiju samo delom. Srpska dijaspora preko Save i Dunava, u Vojvodini, Bosni, Hercegovini, Hrvatskoj, Staroj Srbiji i u Makedoniji, gde je nacionalna pripadnost stanovništva bila sporna, gotovo je onoliko brojna koliko i stanovništvo same kraljevine — što je i njena snaga i njena trajna politička obaveza. Odnosi sa Austrougarskom, sa Bugarskom, sa Turskom — niti jedan nije rešen. Sve te otvorene račune narednih godina otvoriće sila, ne sporazum."
       },
       {
         "type": "paragraph",
-        "text": "Politička kultura nosi dva lica. S jedne strane, vek ustavnosti, izbora, skupštinske rasprave, slobodne štampe i razvijenog stranačkog života. S druge, niz nasilnih političkih prelaza — ubistvo kneza Mihaila 1868, abdikacija kneza Miloša 1858, Majski prevrat 1903 — koji pokazuju da nasilje nije bilo strano načinima na koje se rešavalo pitanje vlasti. Oba ta nasleđa ulaze u dvadeseti vek zajedno; ni jedno se ne može odvojiti od drugog."
+        "text": "Politička kultura nosi dva lica. S jedne strane, vek ustavnosti, izbora, skupštinske rasprave, slobodne štampe i razvijenog stranačkog života. S druge, niz nasilnih političkih prelaza — abdikacija kneza Miloša 1839, zbacivanje kneza Aleksandra Karađorđevića 1858, ubistvo kneza Mihaila 1868, Majski prevrat 1903 — koji pokazuju da nasilje nije bilo strano načinima na koje se rešavalo pitanje vlasti. Oba ta nasleđa ulaze u dvadeseti vek zajedno; ni jedno se ne može odvojiti od drugog."
       },
       {
         "type": "paragraph",
