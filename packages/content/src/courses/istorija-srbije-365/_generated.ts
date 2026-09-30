@@ -4588,7 +4588,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 342,
     "order": 2,
     "title": "Početak ratova devedesetih",
-    "readingTimeMinutes": 6,
+    "readingTimeMinutes": 7,
     "year": 1991,
     "isPlaceholder": false
   },
@@ -4612,7 +4612,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 344,
     "order": 4,
     "title": "Hiperinflacija i ekonomski slom",
-    "readingTimeMinutes": 6,
+    "readingTimeMinutes": 7,
     "year": 1993,
     "isPlaceholder": false
   },
@@ -4637,7 +4637,7 @@ export const lessons: readonly LessonSummary[] = [
     "order": 6,
     "title": "Savezna Republika Jugoslavija",
     "readingTimeMinutes": 6,
-    "year": 1992,
+    "year": 1995,
     "isPlaceholder": false
   },
   {
@@ -4672,7 +4672,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 349,
     "order": 9,
     "title": "NATO bombardovanje 1999.",
-    "readingTimeMinutes": 6,
+    "readingTimeMinutes": 7,
     "year": 1999,
     "isPlaceholder": false
   },
