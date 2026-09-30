@@ -10981,7 +10981,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Treći sastavni deo je upravo taj diplomatski proces između 1815. i 1830. godine. Korak po korak, kroz sultanove hatišerife — carske ukaze koji su imali snagu osnovnog zakona — Srbija je dobijala sve šire pravo na samoupravu, na sopstvenu crkvenu organizaciju, na izbor kneza i na povlačenje muslimanskog stanovništva iz seoskih oblasti. Četvrti sastavni deo je unutrašnja institucionalna izgradnja pod Milošem, koja je 1835. dosegla vrhunac u Sretenjskom ustavu, jednom od najnaprednijih ustavnih tekstova svog vremena u Evropi, iako je trajao svega nekoliko nedelja pre nego što su ga ruski i austrijski protesti suspendovali."
+        "text": "Treći sastavni deo je upravo taj diplomatski proces između 1815. i 1830. godine. Korak po korak, kroz sultanove hatišerife — carske ukaze koji su imali snagu osnovnog zakona — Srbija je dobijala sve šire pravo na samoupravu, na sopstvenu crkvenu organizaciju, na izbor kneza i na povlačenje muslimanskog stanovništva iz seoskih oblasti. Četvrti sastavni deo je unutrašnja institucionalna izgradnja pod Milošem, koja je 1835. dosegla vrhunac u Sretenjskom ustavu, jednom od najnaprednijih ustavnih tekstova svog vremena u Evropi, iako je trajao svega nekoliko nedelja pre nego što je, pod pritiskom Porte, Rusije i Austrije, suspendovan."
       },
       {
         "type": "paragraph",
@@ -10989,7 +10989,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Spoljnopolitički, Srpska revolucija nije se odigrala u praznini. Rusija je više puta intervenisala u srpsku korist — najjasnije Bukureškim mirom 1812. i Jedrenskim mirom 1829, kojima je Porta obavezivana da reši srpsko pitanje. Austrija je, kao prvi sused i trgovinski partner, oprezno motrila i povremeno pomagala. Iza svega je stajao širi sklop koji će istoričari nazvati Istočno pitanje — sporo opadanje Osmanskog carstva i pokušaj evropskih sila da to opadanje urede. Od ovog perioda nadalje, srpsko pitanje je trajno deo evropske diplomatije."
+        "text": "Spoljnopolitički, Srpska revolucija nije se odigrala u praznini. Rusija je više puta intervenisala u srpsku korist — najjasnije Bukureštanskim mirom 1812. i Jedrenskim mirom 1829, kojima je Porta obavezivana da reši srpsko pitanje. Austrija je, kao prvi sused i trgovinski partner, oprezno motrila i povremeno pomagala. Iza svega je stajao širi sklop koji će istoričari nazvati Istočno pitanje — sporo opadanje Osmanskog carstva i pokušaj evropskih sila da to opadanje urede. Od ovog perioda nadalje, srpsko pitanje je trajno deo evropske diplomatije."
       },
       {
         "type": "paragraph",
@@ -10997,7 +10997,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Ovaj uvodni dan postavlja okvir; sve što sledi u Eri V — od dahijskog terora i seče knezova, preko Misara, Deligrada i Negotina, do Takova, hatišerifa i Sretenja — popunjava ga konkretnim ljudima i događajima. Ono što treba imati na umu jeste da Srpska revolucija nije ni mit ni puka pobuna, već dugačak, neujednačen, često bolan proces u kome je jedna seljačka zajednica postala moderna država. Ni romantizovati je ni umanjivati ne treba; treba je razumeti kao ono što jeste — temelj svega što u srpskoj istoriji devetnaestog i dvadesetog veka dolazi posle."
+        "text": "Ovaj uvodni dan postavlja okvir; sve što sledi u Eri V — od Orašca, preko Mišara, Deligrada i Negotina, do Takova, hatišerifa i Sretenja — popunjava ga konkretnim ljudima i događajima. Ono što treba imati na umu jeste da Srpska revolucija nije ni mit ni puka pobuna, već dugačak, neujednačen, često bolan proces u kome je jedna seljačka zajednica postala moderna država. Ni romantizovati je ni umanjivati ne treba; treba je razumeti kao ono što jeste — temelj svega što u srpskoj istoriji devetnaestog i dvadesetog veka dolazi posle."
       }
     ],
     "subtitle": "Pojam, vremenski okvir i smisao perioda koji je iz osmanskog pašaluka izveo modernu srpsku državu",
@@ -11100,11 +11100,11 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Kada su starešine 15. februara 1804. godine u Orašcu, na zboru o kome će biti reči u sledećoj lekciji, tražile vođu, Karađorđe se, prema kasnijim svedočenjima, isprva opirao. Sam je rekao da je naprasit, da neće moći da trpi neposlušnost i da će za sitna ogrešenja kažnjavati strogo. Ipak je prihvatio. Pokazalo se da je u tim teškim godinama upravo takav čovek bio potreban: odlučan na bojištu, gde je vodio iz prvih redova, a u politici dovoljno širok da prepozna ono što mnogi seljački starešine nisu — da Beograd mora biti uzet, da se mora tražiti savez sa Rusijom i da od ustaničkog saveza treba praviti pravu državu sa ustanovama."
+        "text": "Kada su starešine na Sretenje, 2. (14.) februara 1804. godine, u Orašcu, na zboru o kome će biti reči u sledećoj lekciji, tražile vođu, Karađorđe se, prema kasnijim svedočenjima, isprva opirao. Sam je rekao da je naprasit, da neće moći da trpi neposlušnost i da će za sitna ogrešenja kažnjavati strogo. Ipak je prihvatio. Pokazalo se da je u tim teškim godinama upravo takav čovek bio potreban: odlučan na bojištu, gde je vodio iz prvih redova, a u politici dovoljno širok da prepozna ono što mnogi seljački starešine nisu — da Beograd mora biti uzet, da se mora tražiti savez sa Rusijom i da od ustaničkog saveza treba praviti pravu državu sa ustanovama."
       },
       {
         "type": "paragraph",
-        "text": "Od 1808. godine, posebnom skupštinskom odlukom, priznat je za naslednog poglavara Srbije. Vladao je mešavinom vojne komande i patrijarhalne vlasti, povremeno u napetosti sa Praviteljstvujuščim sovjetom — telom starešina koje će biti tema posebne lekcije — oko toga gde leži stvarni izvor odluka. U Topoli je podigao porodični konak i crkvu, koji su postali neformalno središte mlade države. Sa suprugom Jelenom, rođenom Bošković, imao je veliku porodicu, a najbliži krug činili su mu provereni vojvode i rodbina. Mane su mu, međutim, bile vidljive i savremenicima: teško je delio vlast, prema rivalima je znao biti nemilosrdan, a u nekoliko poznatih epizoda — uključujući lično učešće u kažnjavanju neposlušnih, pa i članova bliske rodbine — pokazao je tamnu stranu svoje naravi. Diplomatski je, kad bi planuo, znao da naškodi sopstvenoj stvari."
+        "text": "Od 1808. godine, posebnom skupštinskom odlukom, priznat je za naslednog poglavara Srbije. Vladao je mešavinom vojne komande i patrijarhalne vlasti, povremeno u napetosti sa Praviteljstvujuščim sovjetom — telom starešina koje će biti tema posebne lekcije — oko toga gde leži stvarni izvor odluka. U Topoli je podigao porodični konak i crkvu, koji su postali neformalno središte mlade države. Sa suprugom Jelenom, rođenom Jovanović, iz Masloševa, imao je veliku porodicu, a najbliži krug činili su mu provereni vojvode i rodbina. Mane su mu, međutim, bile vidljive i savremenicima: teško je delio vlast, prema rivalima je znao biti nemilosrdan, a u nekoliko poznatih epizoda — uključujući lično učešće u kažnjavanju neposlušnih, pa i članova bliske rodbine — pokazao je tamnu stranu svoje naravi. Diplomatski je, kad bi planuo, znao da naškodi sopstvenoj stvari."
       },
       {
         "type": "paragraph",
@@ -11122,7 +11122,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "keyPeople": [
       "Karađorđe Petrović",
       "Miloš Obrenović",
-      "Jelena Bošković"
+      "Jelena Petrović"
     ],
     "keyPlaces": [
       "Viševac",
@@ -11161,7 +11161,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Već u prvim sedmicama pokazalo se da odluka iz Orašca nije ostala na papiru. Naoružane čete krenule su na Topolu, Rudnik, na puteve oko Beograda, na turske ispostave duž Drine. Janičarske patrole upadale su u zasede; manje posade predavale su se ili bivale poklane. Selo za selom diglo se na noge, snabdevajući borce hlebom, slaninom, baruta koliko ga je bilo i puškama čuvanim još iz austrijskih ratova. Pašaluk je za nekoliko sedmica praktično prešao u ruke ustanika svuda osim u utvrđenim varošima; dahije su se zatvorile iza zidina beogradske tvrđave. Karađorđeve snage uskoro su zauzele Topolu, a u toku proleća i Smederevo i Šabac, dok su oko njih nikle prve organizovane ustaničke jedinice — knezovi kao kapetani, frajkori kao oficiri, hajduci kao prethodnice."
+        "text": "Već u prvim sedmicama pokazalo se da odluka iz Orašca nije ostala na papiru. Naoružane čete krenule su na Topolu, Rudnik, na puteve oko Beograda, na turske ispostave duž Drine. Janičarske patrole upadale su u zasede; manje posade predavale su se ili bivale poklane. Selo za selom diglo se na noge, snabdevajući borce hlebom, slaninom, baruta koliko ga je bilo i puškama čuvanim još iz austrijskih ratova. Pašaluk je za nekoliko sedmica praktično prešao u ruke ustanika svuda osim u utvrđenim varošima; dahije su se zatvorile iza zidina beogradske tvrđave. Karađorđeve snage su u toku proleća opsele Smederevo i Šabac, dok su oko njih nikle prve organizovane ustaničke jedinice — knezovi kao kapetani, frajkori kao oficiri, hajduci kao prethodnice."
       },
       {
         "type": "paragraph",
@@ -11202,7 +11202,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "U isto vreme i sultan je doneo svoju odluku — ne u korist dahija, već protiv njih. Iz Carigrada je u Beogradski pašaluk poslat bosanski vezir Bekir-paša sa zadatkom da uspostavi red i, posebno, da kazni odmetnute janičarske glavešine. Pred tim dvostrukim pritiskom — srpskim ustaničkim obručem spolja i sultanovim oficirom iznutra — dahije su jula 1804. napustile Beograd i Dunavom krenule nizvodno, nadajući se da će se sakriti u nekom udaljenom kutku Carstva. Stigle su do Ade Kale, malog dunavskog ostrva nedaleko od Kladova; tu su ih ustaničke potere stigle. Posao je vodio Karađorđev komandant Mladen Milovanović. Sve četiri dahije pogubljene su, glave odsečene i javno izložene. Bila je to surova slika po merilima današnjice, ali po merilima toga vremena nedvosmislena i razumljiva poruka: tirani koji su pre godinu dana posekli srpske knezove sada su, na isti način, izgubili svoje glave."
+        "text": "U isto vreme i sultan je doneo svoju odluku — ne u korist dahija, već protiv njih. Iz Carigrada je u Beogradski pašaluk poslat bosanski vezir Bekir-paša sa zadatkom da uspostavi red i, posebno, da kazni odmetnute janičarske glavešine. Pred tim dvostrukim pritiskom — srpskim ustaničkim obručem spolja i sultanovim oficirom iznutra — dahije su jula 1804. napustile Beograd i Dunavom krenule nizvodno, nadajući se da će se sakriti u nekom udaljenom kutku Carstva. Stigle su do Ade Kale, malog dunavskog ostrva nedaleko od Kladova; tu su ih ustaničke potere stigle. Poteru je vodio vojvoda Milenko Stojković, uz pismeni nalog Bekir-paše. Sve četiri dahije pogubljene su, glave odsečene i javno izložene. Bila je to surova slika po merilima današnjice, ali po merilima toga vremena nedvosmislena i razumljiva poruka: tirani koji su pre samo pola godine posekli srpske knezove sada su, na isti način, izgubili svoje glave."
       },
       {
         "type": "paragraph",
@@ -11215,11 +11215,11 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Prva velika potvrda da ustanici mogu da izdrže i regularnu osmansku vojsku došla je u avgustu 1805. godine kod Ivankovca, sela u Pomoravlju nedaleko od Ćuprije. Sultan je na Srbe poslao niškog Hafiz-pašu sa nekoliko hiljada vojnika. Karađorđe je sa starešinama dočekao taj odred na pažljivo izabranom položaju, sa šancima na uzvišenju i sa pešadijom raspoređenom tako da osmanska konjica ne može da je obiđe. U bici koja je trajala više sati Osmanlije su odbijene, sam Hafiz-paša smrtno ranjen, a njegova vojska razbijena u povlačenju. Ivankovac je bio prvi pravi sudar regularne sultanove vojske i srpskih ustaničkih snaga u otvorenom polju — i prošao je u srpsku korist. Posle njega niko više nije mogao reći da su ustanici samo seljaci sa puškama. Tokom sledećih meseci, u manjim sukobima oko Svilajnca, Paraćina i šire u Pomoravlju, isti odnos snaga se ponovio na nižem nivou."
+        "text": "Prva velika potvrda da ustanici mogu da izdrže i regularnu osmansku vojsku došla je u avgustu 1805. godine kod Ivankovca, sela u Pomoravlju nedaleko od Ćuprije. Sultan je na Srbe poslao niškog Hafiz-pašu sa znatno brojnijom vojskom. Na šančevima kod Ivankovca dočekali su ga Milenko Stojković i Petar Dobrnjac sa oko dve hiljade ljudi, na pažljivo izabranom položaju, raspoređenim tako da osmanska konjica ne može da ih obiđe. Posle dvodnevne borbe (17–18. avgusta), kada je noću stigao i Karađorđe sa pojačanjem, Osmanlije su odbijene, sam Hafiz-paša smrtno ranjen, a njegova vojska razbijena u povlačenju. Ivankovac je bio prvi pravi sudar regularne sultanove vojske i srpskih ustaničkih snaga u otvorenom polju — i prošao je u srpsku korist. Posle njega niko više nije mogao reći da su ustanici samo seljaci sa puškama. Tokom sledećih meseci, u manjim sukobima oko Svilajnca, Paraćina i šire u Pomoravlju, isti odnos snaga se ponovio na nižem nivou."
       },
       {
         "type": "paragraph",
-        "text": "Uz Karađorđa, u tim mesecima izranjaju i drugi vojnici i prvaci koji će obeležiti čitav ustanak. Jakov Nenadović drži zapad, Stanoje Glavaš donosi iskustvo starog hajduka, Hajduk Veljko Petrović istočnu Krajinu, Prota Matija Nenadović spaja vojno i pisano. Mlađa generacija — među njima i Milan i Miloš Obrenović, tada još uvek mladi i sporedni — uči ratovanje pod tim starijim ljudima. Taktika je bila mešovita: redovna bitka kad se mora, opsada utvrđenih varoši, brzi prepadi i česti ustanički šančevi na povoljnim položajima. Snabdevali su se iz sela, iz zaplenjenog osmanskog naoružanja i, manjim delom, krijumčarenjem preko austrijske granice."
+        "text": "Uz Karađorđa, u tim mesecima izranjaju i drugi vojnici i prvaci koji će obeležiti čitav ustanak. Jakov Nenadović drži zapad, Stanoje Glavaš donosi iskustvo starog hajduka, Hajduk Veljko Petrović istočnu Krajinu, Prota Mateja Nenadović spaja vojno i pisano. Mlađa generacija — među njima i Milan i Miloš Obrenović, tada još uvek mladi i sporedni — uči ratovanje pod tim starijim ljudima. Taktika je bila mešovita: redovna bitka kad se mora, opsada utvrđenih varoši, brzi prepadi i česti ustanički šančevi na povoljnim položajima. Snabdevali su se iz sela, iz zaplenjenog osmanskog naoružanja i, manjim delom, krijumčarenjem preko austrijske granice."
       },
       {
         "type": "paragraph",
@@ -11232,13 +11232,14 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "summary": "Od Orašca do Ivankovca: kako je u svega godinu i po dana ustanak ovladao šumadijskim selima, opkolio Beograd, sklonio dahije i prvi put porazio sultanovu redovnu vojsku.",
     "keyPeople": [
       "Karađorđe",
-      "Mladen Milovanović",
+      "Milenko Stojković",
+      "Petar Dobrnjac",
       "Hafiz-paša",
       "Bekir-paša",
       "Stanoje Glavaš",
       "Jakov Nenadović",
       "Hajduk Veljko Petrović",
-      "Prota Matija Nenadović"
+      "Prota Mateja Nenadović"
     ],
     "keyPlaces": [
       "Beograd",
@@ -11296,11 +11297,11 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Krupne odluke nisu se, međutim, donosile samo u voždovoj kući. Od prvih meseci ustanak je razvio i treći sloj — skupštinu, periodični zbor vojvoda, knezova i drugih uglednih ljudi. Skupština je odlučivala o ratu i miru, o porezima, o glavnim postavljenjima i o sporovima koji su prerasli nahijski okvir. Na zboru u Pećanima 1805. godine doneta je odluka koja će se pokazati prelomnom: formiran je prvi stalni savet — preteča Praviteljstvujuščeg sovjeta, čiji puni razvoj pripada sledećoj lekciji. Time je ustanička vlast prvi put dobila telo koje radi između skupština i koje stoji uz vožda kao kolektivno protivtežište."
+        "text": "Krupne odluke nisu se, međutim, donosile samo u voždovoj kući. Od prvih meseci ustanak je razvio i treći sloj — skupštinu, periodični zbor vojvoda, knezova i drugih uglednih ljudi. Skupština je odlučivala o ratu i miru, o porezima, o glavnim postavljenjima i o sporovima koji su prerasli nahijski okvir. Na skupštini u Borku (Veliki Borak kod Beograda), avgusta 1805. godine, doneta je odluka koja će se pokazati prelomnom: osnovan je Praviteljstvujušči sovjet — prvi stalni savet, čiji puni razvoj pripada sledećoj lekciji. Time je ustanička vlast prvi put dobila telo koje radi između skupština i koje stoji uz vožda kao kolektivno protivtežište."
       },
       {
         "type": "paragraph",
-        "text": "Među onima koji su tu novu mašinu sastavljali izdvojila se porodica Nenadović iz Valjeva. Jakov Nenadović bio je jedan od najuticajnijih vojvoda i tvrd politički igrač, čovek koji se rano zauzeo za to da savet bude ozbiljna ustanova, a ne voždov dodatak. Njegov sinovac, prota Matija Nenadović, bio je drugačijeg kova — sveštenik, pismen, smiren, sposoban da sastavi pismo na način kako se to u Evropi pisalo. Prota Matija postao je u praksi glavni politički organizator i sekretar ustanka: pisao je odluke, vodio prepisku, predvodio prvu izaslaničku misiju u Petrograd 1804. i ostavio memoare iz kojih danas znamo većinu detalja unutrašnjeg života vlasti."
+        "text": "Među onima koji su tu novu mašinu sastavljali izdvojila se porodica Nenadović iz Valjeva. Jakov Nenadović bio je jedan od najuticajnijih vojvoda i tvrd politički igrač, čovek koji se rano zauzeo za to da savet bude ozbiljna ustanova, a ne voždov dodatak. Njegov sinovac, prota Mateja Nenadović, bio je drugačijeg kova — sveštenik, pismen, smiren, sposoban da sastavi pismo na način kako se to u Evropi pisalo. Prota Mateja postao je u praksi glavni politički organizator i sekretar ustanka: pisao je odluke, vodio prepisku, predvodio prvu izaslaničku misiju u Petrograd 1804. i ostavio memoare iz kojih danas znamo većinu detalja unutrašnjeg života vlasti."
       },
       {
         "type": "paragraph",
@@ -11322,13 +11323,13 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "keyPeople": [
       "Karađorđe",
       "Jakov Nenadović",
-      "Prota Matija Nenadović",
+      "Prota Mateja Nenadović",
       "Dositej Obradović"
     ],
     "keyPlaces": [
       "Beograd",
       "Topola",
-      "Pećani",
+      "Veliki Borak",
       "Orašac"
     ]
   },
@@ -11345,7 +11346,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "O tačnom mestu i datumu osnivanja izvori se ne slažu sasvim. Najčešće se pominje skupština u Borču, u rudničkom kraju, u leto 1805. godine, sazvana na inicijativu Nenadovića — pre svega prote Mateje i njegovog strica Jakova, valjevskog vojvode. Sledeće skupštine, naročito ona u Smederevu krajem 1805. i početkom 1806, dodatno su potvrdile i proširile savet. U svakom slučaju, do kraja te godine sovjet je postojao kao telo od oko dvanaest članova, po jednom iz svake nahije, sastavljeno uglavnom od istaknutih knezova i sveštenika. Prvi predsednik bio je Mateja Nenadović — čovek koji je već imao iskustvo u pisanju zakonika i u diplomatiji sa Rusijom."
+        "text": "O tačnom mestu i datumu osnivanja izvori se ne slažu sasvim. Najčešće se pominje skupština u Borku (Veliki Borak, u Beogradskoj nahiji), avgusta 1805. godine, sazvana na inicijativu Nenadovića — pre svega prote Mateje i njegovog strica Jakova, valjevskog vojvode; sovjet je potom smešten u manastir Voljavču u Rudničkoj nahiji. Sledeće skupštine, naročito ona u Smederevu krajem 1805. i početkom 1806, dodatno su potvrdile i proširile savet. U svakom slučaju, do kraja te godine sovjet je postojao kao telo od oko dvanaest članova, po jednom iz svake nahije, sastavljeno uglavnom od istaknutih knezova i sveštenika. Prvi predsednik bio je Mateja Nenadović — čovek koji je već imao iskustvo u pisanju zakonika i u diplomatiji sa Rusijom."
       },
       {
         "type": "heading",
@@ -11366,7 +11367,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Najdublji pokušaj uređenja dogodio se 1811. godine. Na skupštini te zime sovjet je preuređen u nešto što danas najlakše razumemo kao prvu srpsku vladu: uvedeni su popečitelji — predstojnici resora za pravosuđe, finansije, vojsku, unutrašnje poslove i inostrane poslove — a na čelo je došao Mladen Milovanović. Karađorđe je u toj reformi prihvaćen kao vrhovni vožd sa proširenim ovlašćenjima, ali sada formalno unutar institucionalnog okvira, sa savetom-vladom uz sebe. Bio je to, koliko god krhko izveden, prvi nacrt podele vlasti u modernoj Srbiji. Praksa je, naravno, ostala znatno haotičnija od propisa, a već dve godine kasnije ustanak će se srušiti pod osmanskom ofanzivom — i sovjet, i popečitelji, i vožd, svi će se 1813. razbežati preko Save."
+        "text": "Najdublji pokušaj uređenja dogodio se 1811. godine. Na skupštini te zime sovjet je preuređen u nešto što danas najlakše razumemo kao prvu srpsku vladu: uvedeni su popečitelji — predstojnici resora za pravosuđe, finansije, vojsku, unutrašnje i inostrane poslove i prosvetu — a na čelo sovjeta stao je sam Karađorđe, dok je Mladen Milovanović postao popečitelj vojni. Karađorđe je u toj reformi prihvaćen kao vrhovni vožd sa proširenim ovlašćenjima, ali sada formalno unutar institucionalnog okvira, sa savetom-vladom uz sebe. Bio je to, koliko god krhko izveden, prvi nacrt podele vlasti u modernoj Srbiji. Praksa je, naravno, ostala znatno haotičnija od propisa, a već dve godine kasnije ustanak će se srušiti pod osmanskom ofanzivom — i sovjet, i popečitelji, i vožd, svi će se 1813. razbežati preko Save."
       },
       {
         "type": "paragraph",
@@ -11384,7 +11385,8 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       "Mladen Milovanović"
     ],
     "keyPlaces": [
-      "Borač",
+      "Borak",
+      "Voljavča",
       "Beograd",
       "Smederevo"
     ]
@@ -11402,7 +11404,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Vrhovni vožd Karađorđe u tom trenutku nije bio u Mačvi — njegovo prisustvo bilo je potrebno na južnom frontu, gde se sa istog razloga skupljala druga osmanska vojska. Odbrana zapada pala je u ruke mačvanskih i pocerskih komandanata. Jakov Nenadović, jedan od najstarijih i najuticajnijih starešina ustanka, preuzeo je politički i organizacioni teret. Pop Luka Lazarević, sveštenik koji je rano stao na čelo oružanih ljudi svoga kraja, Stojan Čupić, hajdučki vođa kasnije upamćen kao „zmaj od Noćaja”, i Miloš Stojićević Pocerac, jedan od najboljih ratnika svoga vremena, vodili su odrede na terenu. Pod njihovom komandom okupilo se, po različitim procenama, između sedam i deset hiljada ustanika. Bili su brojčano slabiji, ali su poznavali svaku gredu, šumarak i mokrinu Mačve."
+        "text": "Vrhovni vožd Karađorđe lično je došao u Mačvu, izabrao položaj na Mišaru i preuzeo komandu; na južni front, gde se skupljala druga osmanska vojska, otići će tek posle bitke. Uz njega su bili mačvanski i pocerski komandanti. Jakov Nenadović, jedan od najstarijih i najuticajnijih starešina ustanka, preuzeo je politički i organizacioni teret. Pop Luka Lazarević, sveštenik koji je rano stao na čelo oružanih ljudi svoga kraja, Stojan Čupić, hajdučki vođa kasnije upamćen kao „zmaj od Noćaja”, i Miloš Stojićević Pocerac, jedan od najboljih ratnika svoga vremena, vodili su odrede na terenu. Na Mišaru se okupilo, po različitim procenama, između sedam i deset hiljada ustanika. Bili su brojčano slabiji, ali su poznavali svaku gredu, šumarak i mokrinu Mačve."
       },
       {
         "type": "heading",
@@ -11419,7 +11421,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Mišar je vrlo brzo prešao iz vojne istorije u narodno pamćenje. Slepi guslar Filip Višnjić, koji je tih godina pratio ustanak po Sremu i Mačvi, sastavio je epsku pesmu „Boj na Mišaru” — jedno od najpoznatijih dela srpske usmene epike, koje će kasnije Vuk Karadžić zapisati i objaviti. Pesma je sažela bitku u nekoliko slika: pismo Kulin-kapetanove kapetanice, dolazak vojske, sukob u polju, propast napada. Upravo je ta pesma više od bilo kog vojnog izveštaja učvrstila Mišar u kolektivnom sećanju i dala mu mesto među bitkama koje se pamte i kada se zaboravi sve drugo iz iste godine. Treba, međutim, čitati istoriju i epiku odvojeno: pesma uvećava, ujednačava i moralizuje, dok stvarna bitka ima svoju težinu i bez tih ukrasa."
+        "text": "Mišar je vrlo brzo prešao iz vojne istorije u narodno pamćenje. Slepi guslar Filip Višnjić, koji je tih godina pratio ustanak po Sremu i Mačvi, sastavio je epsku pesmu „Boj na Mišaru” — jedno od najpoznatijih dela srpske usmene epike, koje će kasnije Vuk Karadžić zapisati i objaviti. Pesma je sažela bitku u nekoliko slika: dva gavrana koji sa Mišara donose vest kapetanici Kulinovoj, dolazak vojske, sukob u polju, propast napada. Upravo je ta pesma više od bilo kog vojnog izveštaja učvrstila Mišar u kolektivnom sećanju i dala mu mesto među bitkama koje se pamte i kada se zaboravi sve drugo iz iste godine. Treba, međutim, čitati istoriju i epiku odvojeno: pesma uvećava, ujednačava i moralizuje, dok stvarna bitka ima svoju težinu i bez tih ukrasa."
       },
       {
         "type": "paragraph",
@@ -11431,6 +11433,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "timelinePosition": "13. avgust 1806.",
     "summary": "Pobeda ustaničke vojske u Mačvi 13. avgusta 1806. nad bosanskom Sulejman-pašinom vojskom — bitka koja je odbranila zapadni front Prvog srpskog ustanka i ušla u narodnu epiku Filipa Višnjića.",
     "keyPeople": [
+      "Karađorđe",
       "Jakov Nenadović",
       "Luka Lazarević",
       "Stojan Čupić",
@@ -11453,7 +11456,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Najuspešniji pravac bio je istočni, ka Timoku. Tu je glavnu ulogu odigrao Hajduk Veljko Petrović, čovek iz hajdučke tradicije Pomoravlja, koji je između 1807. i 1809. vodio oslobađanje Krajine i Negotinske oblasti. Padom utvrđenih palanki niz Timok, ustanička vlast je prvi put izbila na obalu Dunava izvan staroga pašaluka i približila se Vlaškoj, koju su upravo tih godina, u rusko-turskom ratu 1806–1812, držale ruske trupe. Ta veza nije bila slučajna: ona je ustanicima dala otvoren bok prema savezniku i pristup snabdevanju, a Rusiji ozbiljnu kopnenu vezu sa pobunjenicima na jugu Dunava. Krajina je tako postala drugo žarište ustanka, sa Hajduk Veljkom kao gotovo nezavisnim vojvodom istoka."
+        "text": "Najuspešniji pravac bio je istočni, ka Timoku. Krajina i Negotinska oblast oslobođene su 1807. uz rusku pomoć, a glavni čovek istoka postaće Hajduk Veljko Petrović, rodom iz Lenovca kod Zaječara, koji je u tim godinama branio Banju i dizao Crnu Reku, a 1811. postao krajinski vojvoda u Negotinu. Padom utvrđenih palanki niz Timok, ustanička vlast je prvi put izbila na obalu Dunava izvan staroga pašaluka i približila se Vlaškoj, koju su upravo tih godina, u rusko-turskom ratu 1806–1812, držale ruske trupe. Ta veza nije bila slučajna: ona je ustanicima dala otvoren bok prema savezniku i pristup snabdevanju, a Rusiji ozbiljnu kopnenu vezu sa pobunjenicima na jugu Dunava. Krajina je tako postala drugo žarište ustanka, sa Hajduk Veljkom kao gotovo nezavisnim vojvodom istoka."
       },
       {
         "type": "paragraph",
@@ -11461,7 +11464,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Treći pravac vodio je na jugozapad, ka Sandžaku i Staroj Raškoj. Ustaničke kolone delovale su prema Novom Pazaru, Sjenici i Užicu, sa nadom da će se povezati sa Crnom Gorom vladike Petra I, koja je u istom periodu vodila sopstvene borbe protiv Skadarskog pašaluka. Bilo je trenutaka stvarne koordinacije i zajedničkih operacija na hercegovačkoj granici, pre svega oko Drobnjaka i Pive, ali do trajnog spajanja dveju ustaničkih oblasti nije došlo — osmanske snage, pre svega bosanske, držale su pojas između njih čvrsto. Ipak, ustanak je u toj fazi privremeno kontrolisao deo Sandžaka i znatne delove Užičke nahije, što je bilo daleko preko granica starog pašaluka."
+        "text": "Treći pravac vodio je na jugozapad, ka Sandžaku i Staroj Raškoj. Ustaničke kolone delovale su prema Novom Pazaru i Sjenici, sa nadom da će se povezati sa Crnom Gorom vladike Petra I, koja je u istom periodu vodila sopstvene borbe protiv Skadarskog pašaluka. Bilo je trenutaka stvarne koordinacije i zajedničkih operacija na hercegovačkoj granici, pre svega oko Drobnjaka i Pive, ali do trajnog spajanja dveju ustaničkih oblasti nije došlo — osmanske snage, pre svega bosanske, držale su pojas između njih čvrsto. Ipak, ustanak je u toj fazi privremeno kontrolisao deo Sandžaka, oko Sjenice i Novog Pazara, što je bilo preko granica starog pašaluka."
       },
       {
         "type": "heading",
@@ -11474,11 +11477,11 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Kada se ovo sve sabere, slika koja se dobija jeste slika države mnogo veće nego što je 1804. iko mogao da zamisli. Do 1809–1810. pod ustaničkom vlašću našli su se ceo nekadašnji Beogradski pašaluk, istočna Srbija sa Krajinom, delovi vidinskog zaleđa, deo Sandžaka i niška-topličko područje južno od Morave. Po grubim procenama istoričara — a brojevi za ovo doba moraju se uzeti s oprezom — pod ustaničkom upravom živelo je između milion i milion i po duša. Ekonomska i demografska dubina koju je to dalo bila je razlog zašto je ustanak uopšte mogao da preživi tako dugo: bilo je polja sa kojih se hrani, ljudstva za regrutaciju i trgovačkih puteva ka Austriji i Vlaškoj."
+        "text": "Kada se ovo sve sabere, slika koja se dobija jeste slika države mnogo veće nego što je 1804. iko mogao da zamisli. Do 1809–1810. pod ustaničkom vlašću našli su se ceo nekadašnji Beogradski pašaluk, istočna Srbija sa Krajinom, delovi vidinskog zaleđa, deo Sandžaka i niška-topličko područje južno od Morave. Po grubim procenama istoričara — a brojevi za ovo doba moraju se uzeti s oprezom — pod ustaničkom upravom živelo je oko četiri stotine hiljada do pola miliona duša. Ekonomska i demografska dubina koju je to dalo bila je razlog zašto je ustanak uopšte mogao da preživi tako dugo: bilo je polja sa kojih se hrani, ljudstva za regrutaciju i trgovačkih puteva ka Austriji i Vlaškoj."
       },
       {
         "type": "paragraph",
-        "text": "Spoljni faktor koji je sve to omogućio bila je Rusija. Rusko-turski rat 1806–1812. vezao je velike osmanske snage u Vlaškoj i Moldaviji i sprečio da Porta na Srbe pošalje ono što bi inače poslala. Rusija je slala novac, oružje, oficire i diplomatske predstavnike; u Beograd je 1807. stigao Konstantin Rodofinjikin kao ruski poverenik kod Karađorđa, čovek koji će se u srpsko-ruske odnose upisati i kao saveznik i kao izvor trvenja. Srbija je u tim godinama prvi put posle vekova bila tretirana kao saveznička strana jedne velike sile, ne kao unutrašnji slučaj sultanovog carstva."
+        "text": "Spoljni faktor koji je sve to omogućio bila je Rusija. Rusko-turski rat 1806–1812. vezao je velike osmanske snage u Vlaškoj i Moldaviji i sprečio da Porta na Srbe pošalje ono što bi inače poslala. Rusija je slala novac, oružje, oficire i diplomatske predstavnike; u Beograd je 1807. stigao Konstantin Rodofinikin kao ruski poverenik kod Karađorđa, čovek koji će se u srpsko-ruske odnose upisati i kao saveznik i kao izvor trvenja. Srbija je u tim godinama prvi put posle vekova bila tretirana kao saveznička strana jedne velike sile, ne kao unutrašnji slučaj sultanovog carstva."
       },
       {
         "type": "paragraph",
@@ -11515,15 +11518,15 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Spoljne okolnosti bile su za branioce porazne. Veliki pohod koji je trebalo da slomi ustanak — bosanska vojska Suleyman-paše Skopljaka — razbijen je na Mišaru u avgustu 1806; istovremeno je istočna vojska Ibrahim-paše Skadarskog stala kod Deligrada. Beogradski branioci ostali su bez izgleda da im pomoć stigne sa zapada ili sa istoka. U gradu je vladala glad, novca je nestajalo, a u srpskim logorima oko zidina bilo je sve više topova, koje su ustanici delom dobili od Rusa preko Vlaške, delom oteli iz turskih konvoja, delom doneli iz austrijskih graničarskih skladišta. Odnos snaga, koji je dve godine bio sumnjiv, sada se okrenuo."
+        "text": "Spoljne okolnosti bile su za branioce porazne. Veliki pohod koji je trebalo da slomi ustanak — bosanska vojska Sulejman-paše Skopljaka — razbijen je na Mišaru u avgustu 1806; istovremeno je istočna vojska Ibrahim-paše Skadarskog stala kod Deligrada. Beogradski branioci ostali su bez izgleda da im pomoć stigne sa zapada ili sa istoka. U gradu je vladala glad, novca je nestajalo, a u srpskim logorima oko zidina bilo je sve više topova, koje su ustanici delom dobili od Rusa preko Vlaške, delom oteli iz turskih konvoja, delom doneli iz austrijskih graničarskih skladišta. Odnos snaga, koji je dve godine bio sumnjiv, sada se okrenuo."
       },
       {
         "type": "paragraph",
-        "text": "Kroz jesen 1806. i prve nedelje zime tekli su pregovori. Karađorđe je sa beogradskim pašom Suleyman-pašom — sa kojim ga ne treba mešati sa istoimenim bosanskim zapovednikom — vodio razgovore o mirnoj predaji. Nacrti sporazuma pisani su više puta: posada bi izašla pod oružjem i bila prebačena preko Save u austrijske krajeve, civilno stanovništvo bi dobilo zaštitu, gornji grad bi prešao u srpske ruke. Ti dogovori su redom otkazivani — čas zbog nepoverenja paše, čas zbog tvrde struje među samim beogradskim Turcima, čas zato što je Karađorđu bivalo sve teže da obuzdava sopstvene starešine, željne osvete za dahijske godine. Pregovaračka logika sve više je ustupala mesto logici juriša."
+        "text": "Kroz jesen 1806. i prve nedelje zime tekli su pregovori. Karađorđe je sa beogradskim pašom Sulejman-pašom — sa kojim ga ne treba mešati sa istoimenim bosanskim zapovednikom — vodio razgovore o mirnoj predaji. Nacrti sporazuma pisani su više puta: posada bi izašla pod oružjem i bila prebačena preko Save u austrijske krajeve, civilno stanovništvo bi dobilo zaštitu, gornji grad bi prešao u srpske ruke. Ti dogovori su redom otkazivani — čas zbog nepoverenja paše, čas zbog tvrde struje među samim beogradskim Turcima, čas zato što je Karađorđu bivalo sve teže da obuzdava sopstvene starešine, željne osvete za dahijske godine. Pregovaračka logika sve više je ustupala mesto logici juriša."
       },
       {
         "type": "paragraph",
-        "text": "U noći između 30. novembra i 1. decembra 1806. ustanici su izveli prvi veliki napad. Glavni udar usmeren je na donji grad — naselje pod zidinama tvrđave, gde je živela većina beogradskih Turaka. Prema ustaničkim sećanjima, deo srpskih boraca ušao je u donji grad iznenadnim probojem kapija; uporedo su grupe ustanika sa Save prešle nasipom u podgrađe. Bitka u uskim ulicama trajala je do zore. Donji grad je tu noć zauzet, ali po teškoj ceni za njegovo stanovništvo: u jurišu i potom u haosu koji je sledio poginuo je veliki broj beogradskih Turaka, mnoge kuće su zapaljene, deo posade povukao se u gornji grad i zatvorio kapije."
+        "text": "U noći uoči Andrijevdana, 30. novembra po starom, odnosno 12. decembra 1806. po novom kalendaru, ustanici su izveli prvi veliki napad. Glavni udar usmeren je na varoš — grad pod zidinama tvrđave, gde je živela većina beogradskih Turaka. Prema ustaničkim sećanjima, deo srpskih boraca ušao je u varoš iznenadnim probojem kapija; uporedo su grupe ustanika sa Save prešle nasipom u podgrađe. Bitka u uskim ulicama trajala je do zore. Varoš je te noći zauzeta, ali po teškoj ceni za njegovo stanovništvo: u jurišu i potom u haosu koji je sledio poginuo je veliki broj beogradskih Turaka, mnoge kuće su zapaljene, deo posade povukao se u gornji grad i zatvorio kapije."
       },
       {
         "type": "heading",
@@ -11532,7 +11535,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Posle pada donjeg grada, gornji grad — sama citadela na uzvišenju iznad ušća — držao se još nešto više od mesec dana. Karađorđe je u toj fazi vodio operaciju lično, postavivši se s glavninom vojske ispod severnih bedema. Topovska vatra trajala je danima, a pregovori su, sada sa nove pozicije, ponovo otvoreni. Posada je tražila slobodan izlaz; ustanici, koji su znali da je svaki dan odlaganja opasan zbog mogućeg dolaska turske pomoći iz Bosne ili Niša, pristali su na uslove koji su predviđali predaju tvrđave uz garantovan prelaz preostalih branilaca preko Save. Dana 8. januara 1807. po novom kalendaru — po starom 27. decembra 1806. — srpska vojska je ušla u gornji grad. Beogradska tvrđava, koja je u turskim rukama bila od 1521. godine, vratila se posle skoro tri veka pod srpsku vlast."
+        "text": "Posle pada varoši, gornji grad — sama citadela na uzvišenju iznad ušća — držao se još nešto više od mesec dana. Karađorđe je u toj fazi vodio operaciju lično, postavivši se s glavninom vojske ispod severnih bedema. Topovska vatra trajala je danima, a pregovori su, sada sa nove pozicije, ponovo otvoreni. Posada je tražila slobodan izlaz; ustanici, koji su znali da je svaki dan odlaganja opasan zbog mogućeg dolaska turske pomoći iz Bosne ili Niša, pristali su na uslove koji su predviđali predaju tvrđave uz garantovan prelaz preostalih branilaca preko Save. Dana 8. januara 1807. po novom kalendaru — po starom 27. decembra 1806. — srpska vojska je ušla u gornji grad. Beogradska tvrđava vratila se pod srpsku vlast prvi put posle 1427, kada je po smrti despota Stefana predata Ugarskoj — posle gotovo četiri veka."
       },
       {
         "type": "paragraph",
@@ -11540,26 +11543,26 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Politički, posledice su bile dalekosežne i brze. Karađorđe je preselio svoj dvor u Beograd; Praviteljstvujušči sovjet, do tada smešten po manastirima u Šumadiji, premestio se u grad i počeo da radi iz beogradskih kuća. Već tokom 1807. u Beograd je stigao i Dositej Obradović, koji će uskoro pomoći osnivanje Velike škole — prve ustanove višeg obrazovanja u obnovljenoj Srbiji. Tvrđavske crkve obnovljene su za pravoslavnu službu, a gornji grad, prvi put posle 1521, postao je srpsko sedište vlasti. Iz Petrograda je stigao topao odjek — Rusija je u padu Beograda videla potvrdu da ulog u srpski ustanak ima smisla; iz Beča je odgovor bio uzdržaniji, ali bez otvorenog negodovanja."
+        "text": "Politički, posledice su bile dalekosežne i brze. Karađorđe je preselio svoj dvor u Beograd; Praviteljstvujušči sovjet, do tada smešten u Voljavči, Bogovađi i poslednje u Smederevu, premestio se u grad i počeo da radi iz beogradskih kuća. Već tokom 1807. u Beograd je stigao i Dositej Obradović, koji će uskoro pomoći osnivanje Velike škole — prve ustanove višeg obrazovanja u obnovljenoj Srbiji. Tvrđavske crkve obnovljene su za pravoslavnu službu, a gornji grad, prvi put posle despota Stefana, postao je srpsko sedište vlasti. Iz Petrograda je stigao topao odjek — Rusija je u padu Beograda videla potvrdu da ulog u srpski ustanak ima smisla; iz Beča je odgovor bio uzdržaniji, ali bez otvorenog negodovanja."
       },
       {
         "type": "paragraph",
-        "text": "Beograd će ostati srpski glavni grad do 1813, kada će ga, posle sloma ustanka, osmanska vojska nakratko povratiti. Tvrđava će u narednim decenijama više puta menjati gospodara dok ne dođe do konačnog srpskog preuzimanja sredinom devetnaestog veka. Pa ipak, zima 1806–1807. ostaje prelomna. Za ustanike, oslobođenje Beograda bilo je najveći vojni uspeh posle prvih pobeda iz 1804. i potvrda da pobuna nije epizoda, nego politički projekat — obnovljena srpska država sa glavnim gradom, vladom, vojskom i pretendentom na sopstvenu školu i crkvu. Cena pobede bila je visoka, na obema stranama. Strateški i simbolički, težina onoga što je u tih nekoliko nedelja izvojevano nadrasla je sve što je ustanak do tada postigao."
+        "text": "Beograd će ostati srpski glavni grad sve dok ga, posle sloma ustanka, osmanska vojska ne povrati 7. oktobra 1813. Tvrđava će ostati u turskim rukama sve do 1867, kada je knez Mihailo primio ključeve grada. Pa ipak, zima 1806–1807. ostaje prelomna. Za ustanike, oslobođenje Beograda bilo je najveći vojni uspeh posle prvih pobeda iz 1804. i potvrda da pobuna nije epizoda, nego politički projekat — obnovljena srpska država sa glavnim gradom, vladom, vojskom i pretendentom na sopstvenu školu i crkvu. Cena pobede bila je visoka, na obema stranama. Strateški i simbolički, težina onoga što je u tih nekoliko nedelja izvojevano nadrasla je sve što je ustanak do tada postigao."
       }
     ],
-    "subtitle": "Kako je krajem 1806. i početkom 1807. ustanička vojska zauzela donji i gornji grad beogradske tvrđave",
+    "subtitle": "Kako je krajem 1806. i početkom 1807. ustanička vojska zauzela beogradsku varoš i gornji grad tvrđave",
     "dateLabel": "1806–1807.",
-    "timelinePosition": "30. nov 1806 – 8. jan 1807.",
-    "summary": "Posle pobede na Mišaru beogradska posada ostala je usamljena; juriš na donji grad krajem novembra 1806. i predaja gornjeg grada 8. januara 1807. donose ustanicima glavnu nagradu rata — i tešku senku nasilja nad gradskim Turcima.",
+    "timelinePosition": "12. dec 1806 – 8. jan 1807.",
+    "summary": "Posle pobede na Mišaru beogradska posada ostala je usamljena; juriš na varoš na Andrijevdan 1806. i predaja gornjeg grada 8. januara 1807. donose ustanicima glavnu nagradu rata — i tešku senku nasilja nad gradskim Turcima.",
     "keyPeople": [
       "Karađorđe",
-      "Suleyman-paša Skopljak",
+      "Sulejman-paša (beogradski)",
       "Dositej Obradović"
     ],
     "keyPlaces": [
       "Beograd",
       "Beogradska tvrđava",
-      "Donji grad",
+      "Varoš",
       "Gornji grad"
     ]
   },
@@ -11572,7 +11575,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Teritorija te ustaničke Srbije menjala se iz godine u godinu, ali je u vrhuncu, oko 1810. i 1811, obuhvatala najveći deo nekadašnjeg Beogradskog pašaluka, prodore u istočnu Srbiju do Timoka, delove Sandžaka i povremeno područje oko Niša. Procene stanovništva variraju — najčešće se navodi raspon od oko milion do milion i po duša — ali se istoričari slažu da se radilo o području dovoljno velikom i dovoljno gusto naseljenom da iznese ozbiljan državni aparat. Granice su bile pokretne i krvave; svaka kampanja ih je pomerala, svaki neuspeh ih je vraćao."
+        "text": "Teritorija te ustaničke Srbije menjala se iz godine u godinu, ali je u vrhuncu, oko 1810. i 1811, obuhvatala najveći deo nekadašnjeg Beogradskog pašaluka, prodore u istočnu Srbiju do Timoka, delove Sandžaka i povremeno područje oko Niša. Procene stanovništva variraju — najčešće se navodi oko četiri stotine hiljada do pola miliona duša — ali se istoričari slažu da se radilo o području dovoljno velikom i dovoljno gusto naseljenom da iznese ozbiljan državni aparat. Granice su bile pokretne i krvave; svaka kampanja ih je pomerala, svaki neuspeh ih je vraćao."
       },
       {
         "type": "paragraph",
@@ -11585,7 +11588,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Najbliže onome što bismo danas nazvali ustavnim okvirom jeste uređenje koje je dogovoreno 1811. godine. Tim aktom je Karađorđe potvrđen kao vožd sa naslednim pravima, a uz njega je obrazovano šest popečiteljstava — neke vrste protoministarstava. Svako je imalo svog popečitelja: Dositej Obradović vodio je popečiteljstvo prosvete, Mladen Milovanović vojne i unutrašnje poslove, Jakov Nenadović policiju, a posebna popečiteljstva pokrivala su pravosuđe, finansije i inostrane poslove. Sovjet je dobio jasniju ulogu kao kolektivno telo vlasti, a skupština ostala kao širi savetodavni organ. Bilo je to, u dahu jedne godine, više državnog uređenja nego što su srpske zemlje pod Osmanlijama videle kroz čitav prethodni vek."
+        "text": "Najbliže onome što bismo danas nazvali ustavnim okvirom jeste uređenje koje je dogovoreno 1811. godine. Tim aktom je Karađorđe potvrđen kao vožd sa naslednim pravima i stao na čelo sovjeta, a uz njega je obrazovano šest popečiteljstava — neke vrste protoministarstava. Svako je imalo svog popečitelja: Dositej Obradović vodio je popečiteljstvo prosvete, Mladen Milovanović vojne poslove, Jakov Nenadović unutrašnje poslove (uključujući policiju), a posebna popečiteljstva pokrivala su pravosuđe, finansije i inostrane poslove. Sovjet je dobio jasniju ulogu kao kolektivno telo vlasti, a skupština ostala kao širi savetodavni organ. Bilo je to, u dahu jedne godine, više državnog uređenja nego što su srpske zemlje pod Osmanlijama videle kroz čitav prethodni vek."
       },
       {
         "type": "paragraph",
@@ -11640,7 +11643,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Dositej je u Srbiju stigao 1807. godine i odmah ušao u krug ustaničkih starešina. Karađorđe i Praviteljstvujušči sovjet poverili su mu, kako se tada govorilo, zvanje popečitelja prosveščenija — u prevodu na današnji jezik, ministra prosvete. Time je on, posle više od tri i po veka, postao prvi srpski ministar prosvete u modernom smislu. Sam izraz „popečitelj” odaje koliko se mlada uprava oslanjala na ruske kancelarijske termine; ali ono što je iza tog teškog naziva stajalo bilo je jednostavno — neko je morao da organizuje škole, da nabavi knjige, da nađe učitelje, i to brzo."
+        "text": "Dositej je u Srbiju stigao 1807. godine i odmah ušao u krug ustaničkih starešina i sovjeta. Kada su januara 1811. uvedena popečiteljstva, postao je, kako se tada govorilo, popečitelj prosveščenija — u prevodu na današnji jezik, ministar prosvete. Time je on, posle više od tri i po veka, postao prvi srpski ministar prosvete u modernom smislu. Sam izraz „popečitelj” odaje koliko se mlada uprava oslanjala na ruske kancelarijske termine; ali ono što je iza tog teškog naziva stajalo bilo je jednostavno — neko je morao da organizuje škole, da nabavi knjige, da nađe učitelje, i to brzo."
       },
       {
         "type": "heading",
@@ -11649,7 +11652,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Glavno Dositejevo delo bila je Velika škola, osnovana u Beogradu 1808. godine. Smeštena u Donjem gradu, u jednoj od zgrada koje su tek otete od turske posade, ona je bila zamišljena kao nešto više od obične osnovne škole, ali manje od pravog univerziteta. Po uzoru delom na habsburške gimnazije, koje je Dositej dobro poznavao, a delom na ruske duhovne i svetovne škole, u njoj se predavalo slovensko i srpsko pismo, matematika, geografija, istorija, filozofija i veronauka. Dositej je u privatnim pismima sa nadom govorio o tome da bi ta škola mogla, vremenom, da preraste u „srpsku akademiju”."
+        "text": "Najvažniji plod tog kruga bila je Velika škola, osnovana u Beogradu 1808. zalaganjem Ivana Jugovića, koji ju je organizovao, i Dositeja Obradovića. Smeštena u varoši, na Dorćolu — u turskoj kući u današnjoj Gospodar Jevremovoj ulici, gde je danas Muzej Vuka i Dositeja — ona je bila zamišljena kao nešto više od obične osnovne škole, ali manje od pravog univerziteta. Po uzoru delom na habsburške gimnazije, koje je Dositej dobro poznavao, a delom na ruske duhovne i svetovne škole, u njoj se predavalo slovensko i srpsko pismo, matematika, geografija, istorija, filozofija i veronauka. Dositej je u privatnim pismima sa nadom govorio o tome da bi ta škola mogla, vremenom, da preraste u „srpsku akademiju”."
       },
       {
         "type": "paragraph",
@@ -11665,27 +11668,26 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Slom ustanka 1813. godine prekinuo je rad Velike škole. Učitelji i đaci razbežali su se preko Save i Dunava, knjige su raznete, zgrada u Donjem gradu vratila se u turske ruke. Ali institucionalni trag nije nestao. Pod Milošem Obrenovićem, posle 1830, javno školstvo u Srbiji obnavljano je oslanjajući se, makar u sećanju i u kadru, na to kratko ustaničko iskustvo. Iz Kragujevca će 1838. nastati Licej, koji se neposredno smatrao nastavkom Velike škole; iz Liceja će izrasti beogradska Velika škola devetnaestog veka, a iz nje, 1905. godine, Beogradski univerzitet. Linija nije bila prava, ali jeste bila kontinuirana — i sva je počinjala u Donjem gradu 1808."
+        "text": "Slom ustanka 1813. godine prekinuo je rad Velike škole. Učitelji i đaci razbežali su se preko Save i Dunava, knjige su raznete, kuća na Dorćolu vratila se u turske ruke. Ali institucionalni trag nije nestao. Pod Milošem Obrenovićem, posle 1830, javno školstvo u Srbiji obnavljano je oslanjajući se, makar u sećanju i u kadru, na to kratko ustaničko iskustvo. Iz Kragujevca će 1838. nastati Licej, koji se neposredno smatrao nastavkom Velike škole; iz Liceja će izrasti beogradska Velika škola devetnaestog veka, a iz nje, 1905. godine, Beogradski univerzitet. Linija nije bila prava, ali jeste bila kontinuirana — i sva je počinjala na Dorćolu 1808."
       },
       {
         "type": "paragraph",
-        "text": "Treba, dakle, biti pošten u oba pravca. Ustanička Srbija nije postala pismena zemlja za pet godina; krug obrazovanih ljudi ostao je uzak, knjige malobrojne, a najveći deo dece i dalje nije išao ni u kakvu školu. Ali je prvi put neko izgovorio, sa državnog mesta, da je obrazovanje briga vlasti, a ne samo crkve ili porodice. Dositejeva Velika škola bila je mala po broju klupa, a velika po onom što je za sobom ostavila — uverenju da slobodna srpska država ne može opstati bez sopstvenih škola, i tihu institucionalnu nit koja vodi sve do današnjeg univerziteta."
+        "text": "Treba, dakle, biti pošten u oba pravca. Ustanička Srbija nije postala pismena zemlja za pet godina; krug obrazovanih ljudi ostao je uzak, knjige malobrojne, a najveći deo dece i dalje nije išao ni u kakvu školu. Ali je prvi put neko izgovorio, sa državnog mesta, da je obrazovanje briga vlasti, a ne samo crkve ili porodice. Velika škola bila je mala po broju klupa, a velika po onom što je za sobom ostavila — uverenju da slobodna srpska država ne može opstati bez sopstvenih škola, i tihu institucionalnu nit koja vodi sve do današnjeg univerziteta."
       }
     ],
-    "subtitle": "Kako je ustanička Srbija 1808. godine, naporom Dositeja Obradovića, dobila prvu višu školu i prvog ministra prosvete",
+    "subtitle": "Kako je ustanička Srbija 1808. godine dobila prvu višu školu, a 1811. u Dositeju Obradoviću i prvog ministra prosvete",
     "dateLabel": "1808.",
     "timelinePosition": "1808.",
-    "summary": "Dolazak Dositeja Obradovića u oslobođenu Srbiju, njegovo postavljenje za popečitelja prosveščenija i osnivanje Velike škole u Beogradu 1808. godine — prvi koraci ka srpskom javnom školstvu posle tri i po veka.",
+    "summary": "Dolazak Dositeja Obradovića u oslobođenu Srbiju, osnivanje Velike škole u Beogradu 1808. godine i Dositejevo postavljenje za popečitelja prosveščenija 1811. — prvi koraci ka srpskom javnom školstvu posle tri i po veka.",
     "keyPeople": [
       "Dositej Obradović",
-      "Ivan Jugović",
-      "Jovan Savić",
+      "Ivan Jugović (Jovan Savić)",
       "Karađorđe"
     ],
     "keyPlaces": [
       "Beograd",
       "Velika škola",
-      "Donji grad",
+      "Dorćol",
       "Saborna crkva"
     ]
   },
@@ -11698,11 +11700,11 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Sve se promenilo krajem 1806. godine. Pod Napoleonovim pritiskom, i uplašena ruskim uspesima protiv Francuza, Porta je zatvorila moreuze ruskim brodovima i smenila prijateljske vladare u Vlaškoj i Moldaviji. Petrograd je to s pravom shvatio kao povod za rat. Rusko-turski rat, koji će potrajati punih šest godina, izbio je u trenutku kada je Karađorđev ustanak već imao oslobođen Beograd i kontrolisao veći deo Beogradskog pašaluka. Preko noći Rusija i Srbija dobile su istog neprijatelja. Za ustanike je to bio strateški preokret: bili su odjednom delom šire ratne računice jedne velike sile."
+        "text": "Sve se promenilo krajem 1806. godine. Pod francuskim uticajem, i ohrabrena Napoleonovom pobedom nad Rusima kod Austerlica, Porta je zatvorila moreuze ruskim brodovima i smenila prijateljske vladare u Vlaškoj i Moldaviji. Petrograd je to s pravom shvatio kao povod za rat. Rusko-turski rat, koji će potrajati punih šest godina, izbio je u trenutku kada je Karađorđev ustanak već imao oslobođen Beograd i kontrolisao veći deo Beogradskog pašaluka. Preko noći Rusija i Srbija dobile su istog neprijatelja. Za ustanike je to bio strateški preokret: bili su odjednom delom šire ratne računice jedne velike sile."
       },
       {
         "type": "paragraph",
-        "text": "Glavnina ruskih operacija odvijala se severno od Dunava, u Vlaškoj i Moldaviji, gde su se smenjivali generali — Mihelson, Bagration, Kamenski, a od 1811. i Mihail Kutuzov, čovek koji će potom presudno odlučiti i ishod rata sa Napoleonom. Za Srbiju je bilo važno to što su ruske kolone povremeno prelazile Dunav i sadejstvovale sa ustaničkom vojskom u istočnoj Srbiji. Manje ruske jedinice učestvovale su u borbama oko Negotinske Krajine i Štubika, gde će kasnije, već 1813, poginuti i Hajduk-Veljko Petrović. Tačan obim ruskih snaga koje su prelazile na desnu obalu Dunava bio je promenljiv i obično skroman, ali simbolika zajedničkog ratovanja imala je veću težinu od samih bataljona."
+        "text": "Glavnina ruskih operacija odvijala se severno od Dunava, u Vlaškoj i Moldaviji, gde su se smenjivali generali — Mihelson, Bagration, Kamenski, a od 1811. i Mihail Kutuzov, čovek koji će potom presudno odlučiti i ishod rata sa Napoleonom. Za Srbiju je bilo važno to što su ruske kolone povremeno prelazile Dunav i sadejstvovale sa ustaničkom vojskom u istočnoj Srbiji. Manje ruske jedinice učestvovale su u borbama u Negotinskoj krajini i kod Štubika — u krajini u kojoj će 1813, braneći Negotin, poginuti Hajduk Veljko Petrović. Tačan obim ruskih snaga koje su prelazile na desnu obalu Dunava bio je promenljiv i obično skroman, ali simbolika zajedničkog ratovanja imala je veću težinu od samih bataljona."
       },
       {
         "type": "paragraph",
@@ -11715,7 +11717,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Lice te saradnje u samoj Srbiji bio je Konstantin Rodofinikin, ruski diplomata grčkog porekla, koji je 1807. stigao u Beograd kao carev izaslanik i tu ostao do 1810. Bio je obrazovan, vešt i ambiciozan, i ubrzo se umešao ne samo u spoljne poslove ustaničke države nego i u njena unutrašnja sporenja oko Praviteljstvujuščeg sovjeta i položaja Karađorđa. Pristalice jačeg vožda smatrale su ga sklonim njegovim protivnicima; drugi su u njemu videli dragocenu vezu sa Petrogradom i savetnika koji je doneo elemente uređene kancelarijske prakse. Njegovo nasleđe ostalo je mešano — i to je verovatno najtačnija ocena: bio je istovremeno koristan i naporan, što je čest sudbinski opis stranih izaslanika u malim državama u nastanku."
+        "text": "Lice te saradnje u samoj Srbiji bio je Konstantin Rodofinikin, ruski diplomata grčkog porekla, koji je 1807. stigao u Beograd kao carev izaslanik i tu ostao do 1809, kada je pred osmanskom ofanzivom napustio Srbiju. Bio je obrazovan, vešt i ambiciozan, i ubrzo se umešao ne samo u spoljne poslove ustaničke države nego i u njena unutrašnja sporenja oko Praviteljstvujuščeg sovjeta i položaja Karađorđa. Pristalice jačeg vožda smatrale su ga sklonim njegovim protivnicima; drugi su u njemu videli dragocenu vezu sa Petrogradom i savetnika koji je doneo elemente uređene kancelarijske prakse. Njegovo nasleđe ostalo je mešano — i to je verovatno najtačnija ocena: bio je istovremeno koristan i naporan, što je čest sudbinski opis stranih izaslanika u malim državama u nastanku."
       },
       {
         "type": "paragraph",
@@ -11723,11 +11725,11 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Početkom 1812. sve je dobilo nagao obrt. Napoleonova priprema za pohod na Rusiju postala je očigledna, a Petrogradu je svaki vojnik bio potreban na zapadnom frontu. Trebalo je hitno okončati rat sa Portom. Pregovori u Bukureštu, koje je sa ruske strane vodio Kutuzov, doveli su 28. maja 1812. do mira. Rusija je dobila Besarabiju i druge dobitke; Srbija je u tom tekstu dobila čuveni osmi član. On je predviđao amnestiju ustanicima, povratak osmanskih posada u utvrđenja, razoružanje srpske vojske i ograničenu samoupravu po vlaškom obrascu, pod sultanovim suverenitetom. To je bilo daleko manje od onoga što su srpski prvaci očekivali — i, što je još opasnije, povratak osmanskih garnizona delovao je kao otvaranje vrata onima koje su sedam godina pokušavali da drže napolju."
+        "text": "Početkom 1812. sve je dobilo nagao obrt. Napoleonova priprema za pohod na Rusiju postala je očigledna, a Petrogradu je svaki vojnik bio potreban na zapadnom frontu. Trebalo je hitno okončati rat sa Portom. Pregovori u Bukureštu, koje je sa ruske strane vodio Kutuzov, doveli su 28. maja 1812. do mira. Rusija je dobila Besarabiju i druge dobitke; Srbija je u tom tekstu dobila čuveni osmi član. On je predviđao amnestiju ustanicima, povratak osmanskih posada u stare gradove i rušenje utvrđenja podignutih tokom ustanka, i ograničenu samoupravu (unutrašnju upravu i ubiranje danka), uz obećanje prava kakva imaju ostrva Arhipelaga, pod sultanovim suverenitetom. To je bilo daleko manje od onoga što su srpski prvaci očekivali — i, što je još opasnije, povratak osmanskih garnizona delovao je kao otvaranje vrata onima koje su sedam godina pokušavali da drže napolju."
       },
       {
         "type": "paragraph",
-        "text": "U Srbiji je vest dočekana sa razočaranjem i strahom. Vožd i Sovjet odbili su da brzo izvrše uslove razoružanja, nadajući se da će se prilike još jednom okrenuti. Ali Rusija je svoje pukove povukla na zapad da dočeka Napoleona, a Porta je, oslobođena pretnje sa severa, počela da priprema veliku ofanzivu za narednu godinu. Srbija je ostala sama da pregovara sa daleko jačim protivnikom — i to u trenutku kada je njena unutrašnja kohezija već bila načeta. Pouka koja će ostati u srpskom političkom sećanju kroz čitav 19. vek bila je gorka, ali jasna: podrška velike sile je stvarna, ali i prolazna; vezivati sopstveni opstanak samo za jednu tuđu politiku znači biti spreman na trenutak kada ta politika promeni pravac."
+        "text": "U Srbiji je vest dočekana sa razočaranjem i strahom. Vožd i Sovjet odbili su da brzo prihvate osmanski zahtev da se razoružaju, nadajući se da će se prilike još jednom okrenuti. Ali Rusija je svoje pukove povukla na zapad da dočeka Napoleona, a Porta je, oslobođena pretnje sa severa, počela da priprema veliku ofanzivu za narednu godinu. Srbija je ostala sama da pregovara sa daleko jačim protivnikom — i to u trenutku kada je njena unutrašnja kohezija već bila načeta. Pouka koja će ostati u srpskom političkom sećanju kroz čitav 19. vek bila je gorka, ali jasna: podrška velike sile je stvarna, ali i prolazna; vezivati sopstveni opstanak samo za jednu tuđu politiku znači biti spreman na trenutak kada ta politika promeni pravac."
       }
     ],
     "subtitle": "Glavni spoljni oslonac ustanka — od oprezne ruske naklonosti 1804. do napuštanja u Bukureštanskom miru 1812.",
@@ -11758,7 +11760,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Vrhovnom zapovedniku ruske Dunavske armije, feldmaršalu Mihailu Kutuzovu, stigla je iz prestonice nedvosmislena zapovest — sklopiti mir što pre, po cenu koju situacija dopušta. Kutuzov, oprezan i iskusan diplomata koliko i vojnik, vodio je pregovore u Bukureštu, prestonici Vlaške koja je tada bila pod ruskom upravom. Sporazum je potpisan 28. maja 1812. po novom kalendaru — 16. maja po starom — svega nekoliko nedelja pre nego što je Napoleon, 24. juna iste godine, prešao Njemen i započeo pohod na Rusiju. Vremensko poklapanje nije bilo slučajno: Porta je dobro znala da Rusija beži s Balkana, a Rusija je znala da Porta to zna."
+        "text": "Vrhovnom zapovedniku ruske Dunavske armije, generalu Mihailu Kutuzovu, stigla je iz prestonice nedvosmislena zapovest — sklopiti mir što pre, po cenu koju situacija dopušta. Kutuzov, oprezan i iskusan diplomata koliko i vojnik, vodio je pregovore u Bukureštu, prestonici Vlaške koja je tada bila pod ruskom upravom. Sporazum je potpisan 28. maja 1812. po novom kalendaru — 16. maja po starom — svega nekoliko nedelja pre nego što je Napoleon, 24. juna iste godine, prešao Njemen i započeo pohod na Rusiju. Vremensko poklapanje nije bilo slučajno: Porta je dobro znala da Rusija beži s Balkana, a Rusija je znala da Porta to zna."
       },
       {
         "type": "paragraph",
@@ -11771,7 +11773,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Za srpsku istoriju, ceo ugovor sažima se u jednu odredbu — član 8. Tekst je, na prvi pogled, sadržao četiri obaveze. Prvo, Porta je morala da proglasi opštu amnestiju za sve koji su učestvovali u ustanku. Drugo, Srbima je obećano da će sami upravljati „unutrašnjim poslovima” svoje zemlje, po uzoru na status Vlaške i Moldavije — to jest, ograničena samouprava unutar osmanskog suvereniteta. Treće, osmanski garnizoni vraćali su se u srpske utvrđene gradove, uključujući Beograd. I četvrto, srpska vojska morala je da bude raspuštena, a ustaničke utvrde predate ili razoružane."
+        "text": "Za srpsku istoriju, ceo ugovor sažima se u jednu odredbu — član 8. Tekst je, na prvi pogled, sadržao četiri obaveze. Prvo, Porta je morala da proglasi opštu amnestiju za sve koji su učestvovali u ustanku. Drugo, Srbima je obećano da će sami upravljati „unutrašnjim poslovima” svoje zemlje, uz obećanje povlastica kakve imaju ostrva Arhipelaga — to jest, ograničena samouprava unutar osmanskog suvereniteta. Treće, osmanski garnizoni vraćali su se u srpske utvrđene gradove, uključujući Beograd. I četvrto, utvrđenja podignuta tokom ustanka imala su da budu porušena, ako Porti nisu potrebna."
       },
       {
         "type": "paragraph",
@@ -11793,7 +11795,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "subtitle": "Kako je rusko-turski mir iz 1812. godine, sklopljen pred Napoleonov pohod, ostavio srpski ustanak bez zaštitnika",
     "dateLabel": "1812.",
     "timelinePosition": "28. maj 1812.",
-    "summary": "Rusko-turski mir potpisan u Bukureštu 28. maja 1812, samo nedelju dana pred Napoleonov pohod, vratio je Porti slobodne ruke prema Srbiji i u članu 8. ostavio dvosmislenu osnovu za kasnije pregovore o autonomiji.",
+    "summary": "Rusko-turski mir potpisan u Bukureštu 28. maja 1812, manje od mesec dana pred Napoleonov pohod, vratio je Porti slobodne ruke prema Srbiji i u članu 8. ostavio dvosmislenu osnovu za kasnije pregovore o autonomiji.",
     "keyPeople": [
       "Karađorđe",
       "Mihail Kutuzov",
@@ -11812,7 +11814,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "content": [
       {
         "type": "paragraph",
-        "text": "U proleće 1813. ustanička Srbija stajala je sama. Bukureškim mirom prethodne godine Rusija je, primorana napoleonskim ratom, sklopila mir sa Portom i prepustila srpsko pitanje osmanskoj strani; obećane garancije ostale su na hartiji. Devet godina rata iscrplo je zemlju — sela su bila proređena, kase prazne, vojska umorna, a unutar samog vrha vladali su nepoverenje i suparništvo između Karađorđa i pojedinih vojvoda. Sa druge strane Drine, Save i Timoka, sultan Mahmud II rešio je da pitanje srpske pobune zatvori jednim, krupnim udarcem. Ono što je dolazilo nije bila još jedna pogranična bitka, nego sistematski pohod sračunat da uništi ustaničku državu.",
+        "text": "U proleće 1813. ustanička Srbija stajala je sama. Bukureškim mirom prethodne godine Rusija je, primorana napoleonskim ratom, sklopila mir sa Portom i prepustila srpsko pitanje osmanskoj strani; obećane garancije ostale su na hartiji. Devet godina rata iscrplo je zemlju — sela su bila proređena, kase prazne, vojska umorna, a unutar samog vrha vladali su nepoverenje i suparništvo između Karađorđa i pojedinih vojvoda. Sa druge strane Drine, Morave i Timoka, sultan Mahmud II rešio je da pitanje srpske pobune zatvori jednim, krupnim udarcem. Ono što je dolazilo nije bila još jedna pogranična bitka, nego sistematski pohod sračunat da uništi ustaničku državu.",
         "dropcap": true
       },
       {
@@ -11821,7 +11823,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Ofanziva je počela u toku leta. Obrazac se ponavljao: osmanske kolone su prilazile, šance su odolevale danima, ponegde i kraće, a onda bivale obuhvaćene, opkoljene ili napuštene. Na jugu, prema Deligradu, branili su se Stevan Sinđelić i drugi koji su preživeli tek nekoliko godina pre toga čuveni Čegar. Na zapadu, oko Drine, Luka Lazarević i mačvanski odredi pokušavali su da zadrže prelaze i da ne dozvole spajanje bosanske vojske sa snagama koje su nadirale iz unutrašnjosti. Na istoku, gde je bila najtanja i najslabije oslonjena linija, otpor se brzo urušio — Hajduk Veljko je u Negotinu poginuo braneći grad još leta 1813, a sa njegovom smrću pao je i ključ Krajine."
+        "text": "Ofanziva je počela u toku leta. Obrazac se ponavljao: osmanske kolone su prilazile, šance su odolevale danima, ponegde i kraće, a onda bivale obuhvaćene, opkoljene ili napuštene. Na jugu, prema Deligradu, branile su se vojvode koje su preživele Čegar, gde je 1809. poginuo Stevan Sinđelić. Na zapadu, oko Drine, Luka Lazarević i mačvanski odredi pokušavali su da zadrže prelaze i da ne dozvole spajanje bosanske vojske sa snagama koje su nadirale iz unutrašnjosti. Na istoku, gde je bila najtanja i najslabije oslonjena linija, otpor se brzo urušio — Hajduk Veljko je u Negotinu poginuo braneći grad još leta 1813, a sa njegovom smrću pao je i ključ Krajine."
       },
       {
         "type": "heading",
@@ -11830,7 +11832,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Što su fronovi više popuštali, to je u Beogradu i Topoli postajalo jasnije da među vođama nema jedinstva. Karađorđe se zalagao za uporni otpor iz utvrđenih položaja i, ako zatreba, povlačenje u brda i nastavak rata gerilskim načinom — onako kako je ustanak i počeo. Deo vojvoda mislio je drugačije: jedni su tražili pregovore i pokušaj političkog kompromisa s Portom, drugi su, videvši razmere udara, već računali kako da spasu glave i porodice. Mladen Milovanović, dugogodišnji predsednik Praviteljstvujuščeg sovjeta, naginjao je dogovoru. Odlučivanje se zaglavilo; svaki dan oklevanja koštao je još jednog branjenog položaja."
+        "text": "Što su fronovi više popuštali, to je u Beogradu i Topoli postajalo jasnije da među vođama nema jedinstva. Karađorđe se zalagao za uporni otpor iz utvrđenih položaja i, ako zatreba, povlačenje u brda i nastavak rata gerilskim načinom — onako kako je ustanak i počeo. Deo vojvoda mislio je drugačije: jedni su tražili pregovore i pokušaj političkog kompromisa s Portom, drugi su, videvši razmere udara, već računali kako da spasu glave i porodice. Mladen Milovanović, nekadašnji predsednik Sovjeta, a tada popečitelj vojni, naginjao je dogovoru. Odlučivanje se zaglavilo; svaki dan oklevanja koštao je još jednog branjenog položaja."
       },
       {
         "type": "paragraph",
@@ -11856,7 +11858,6 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "keyPeople": [
       "Karađorđe",
       "Mladen Milovanović",
-      "Stevan Sinđelić",
       "Hajduk Veljko",
       "Luka Lazarević",
       "Hurşid-paša",
@@ -11900,15 +11901,15 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Na čelu obnovljene beogradske uprave našao se Sulejman-paša Skopljak, čovek koji je već ranije bio beogradski vezir i koji se sada vraćao na staro mesto. U poređenju sa nekim od najsurovijih osmanskih zapovednika, smatran je umerenim — više državnikom nego krvnikom — ali je upravo on rukovodio tvrdom restauracijom. Janjičari su se vraćali u Beograd, oprezniji nego u doba dahija, jer je Porta dobro pamtila kuda je odvelo njihovo bezakonje. Oštećene džamije obnavljane su, gradske kapije ponovo stražarene, a sav teret rajinskih obaveza — porez, kuluk, desetina, vanredne dažbine — vraćen je hrišćanskom seljaku, često sa zaostacima iz ratnih godina."
+        "text": "Na čelu obnovljene beogradske uprave našao se Sulejman-paša Skopljak, bosanski zapovednik koji se protiv ustanika borio od 1804. i koji je sada postavljen za beogradskog vezira. Iako je prema pojedinim knezovima u početku nastupao pomirljivo, ostao je upamćen po tvrdoj restauraciji i nasilju kojima je rukovodio. Janjičari su se vraćali u Beograd, oprezniji nego u doba dahija, jer je Porta dobro pamtila kuda je odvelo njihovo bezakonje. Oštećene džamije obnavljane su, gradske kapije ponovo stražarene, a sav teret rajinskih obaveza — porez, kuluk, desetina, vanredne dažbine — vraćen je hrišćanskom seljaku, često sa zaostacima iz ratnih godina."
       },
       {
         "type": "paragraph",
-        "text": "Pa ipak, vraćanje na stanje pre 1804. nije bilo moguće u potpunosti. Porta je naučila da gola sila proizvodi novu bunu i pristala je na ograničene ustupke. Kneževske službe u selima i nahijama dozvoljene su tamo gde su postojale; sveštenstvo je nastavilo da deluje; nekima od starešina koji su prešli u Austriju ponuđen je oprost ako se vrate i polože oružje. Među onima koji su to prihvatili bio je i mladi Miloš Obrenović, tada još jedna od sporednih figura ustanka, koji se vratio u rudničku nahiju i počeo da gradi novu mrežu odnosa sa osmanskim vlastima. U planinskim skrovištima opstali su pojedini ratnici, među njima i Stanoje Glavaš, ali je njihov broj bio mali i njihova borba sve više ličila na hajdučki život nego na ustanak."
+        "text": "Pa ipak, vraćanje na stanje pre 1804. nije bilo moguće u potpunosti. Porta je naučila da gola sila proizvodi novu bunu i pristala je na ograničene ustupke. Kneževske službe u selima i nahijama dozvoljene su tamo gde su postojale; sveštenstvo je nastavilo da deluje; nekima od starešina koji su prešli u Austriju ponuđen je oprost ako se vrate i polože oružje. Među starešinama koji uopšte nisu napustili zemlju bio je i mladi Miloš Obrenović, tada još jedna od sporednih figura ustanka, koji se predao Turcima u Takovu, postao obor-knez rudničke nahije i počeo da gradi novu mrežu odnosa sa osmanskim vlastima. U planinskim skrovištima opstali su pojedini ratnici, ali je njihov broj bio mali i njihova borba sve više ličila na hajdučki život nego na ustanak. Neki su se, poput Stanoja Glavaša, predali i primili tursku službu (Glavaš kao čuvar Carigradskog druma), ali su vlastima ostali sumnjivi."
       },
       {
         "type": "paragraph",
-        "text": "Već u jesen 1814. izbila je u kragujevačkom kraju kratka pobuna vezana za ime Hadži-Prodana Gligorijevića — pokušaj koji je vrlo brzo ugušen, ali koji je pokazao da Srbi nisu spremni da prihvate stari poredak na starim uslovima. O njoj će biti više reči u sledećoj lekciji; ovde je dovoljno zabeležiti da su nasilje 1813. i nemir 1814. tekli zajedno, kao uzrok i posledica."
+        "text": "Već u jesen 1814. kod manastira Trnave u požeškoj nahiji, nedaleko od Čačka, izbila je kratka pobuna vezana za ime Hadži-Prodana Gligorijevića, koja se prelila i na kragujevački kraj — pokušaj koji je vrlo brzo ugušen, ali koji je pokazao da Srbi nisu spremni da prihvate stari poredak na starim uslovima. O njoj će biti više reči u sledećoj lekciji; ovde je dovoljno zabeležiti da su nasilje 1813. i nemir 1814. tekli zajedno, kao uzrok i posledica."
       },
       {
         "type": "paragraph",
@@ -11944,7 +11945,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Među njima je bio i Hadži-Prodan Gligorijević, nekadašnji vojvoda iz okoline Trnave kod Čačka, veteran prvog ustanka. Za razliku od mnogih starešina koji su u jesen 1813. prešli u Austriju, on je ostao u zemlji. Imao je veze sa preostalim ustaničkim ljudima, znao je kako se diže selo i bio je u dosluhu sa monasima ovčarsko-kablarskih manastira, koji su u tom kraju činili sopstvenu vrstu mreže. Kada su tokom septembra 1814. po Beogradskom pašaluku počele da kruže vesti da turska vlast namerava da pohvata, prebije i — gde se moglo — pogubi istaknute bivše ustanike, Hadži-Prodan je odlučio da ne čeka da na njega dođe red."
+        "text": "Među njima je bio i Hadži-Prodan Gligorijević, nekadašnji vojvoda iz okoline Trnave kod Čačka, veteran prvog ustanka. Za razliku od mnogih starešina koji su u jesen 1813. prešli u Austriju, on je ostao u zemlji. Imao je veze sa preostalim ustaničkim ljudima, znao je kako se diže selo i bio je u dosluhu sa monasima ovčarsko-kablarskih manastira, koji su u tom kraju činili sopstvenu vrstu mreže. Kada su tokom septembra 1814. po Beogradskom pašaluku počele da kruže vesti da turska vlast namerava da pohvata, prebije i — gde se moglo — pogubi istaknute bivše ustanike, Hadži-Prodan je odlučio da ne čeka da na njega dođe red. Prema delu literature, neposredni povod bio je sukob u manastiru Trnavi između ljudi požeškog muselima Latif-age i Srba predvođenih igumanom Pajsijem i Hadži-Prodanovim bratom, posle kojeg se Hadži-Prodan stavio na čelo pobune."
       },
       {
         "type": "paragraph",
@@ -11957,7 +11958,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Najvažnija odluka tih nedelja, međutim, nije pala na bojnom polju, nego u Rudniku. Tamo je tada živeo Miloš Obrenović, kome je Suleyman-paša Skopljak — novi beogradski vezir — po povratku iz izbeglištva poverio položaj obor-kneza Rudničke nahije. Hadži-Prodan mu je poslao poruke i pozive da se pridruži; po nekim kazivanjima i lično je dolazio kod njega. Miloš je odbio. Ocenio je da je ustanak preuranjen, da nema ni baruta ni reda, ni spoljnog saveznika, i da će biti slomljen pre nego što se pravo razgori. Više od toga: prihvatio je da Turcima pomogne u smirivanju pobune u svom kraju, pokazujući se kao odan obor-knez."
+        "text": "Najvažnija odluka tih nedelja, međutim, nije pala na bojnom polju, nego u Rudniku. Tamo je tada živeo Miloš Obrenović, koji 1813. nije napustio Srbiju i kome je novi beogradski vezir Sulejman-paša Skopljak posle predaje poverio položaj obor-kneza Rudničke nahije. Hadži-Prodan mu je poslao poruke i pozive da se pridruži; po nekim kazivanjima i lično je dolazio kod njega. Miloš je odbio. Ocenio je da je ustanak preuranjen, da nema ni baruta ni reda, ni spoljnog saveznika, i da će biti slomljen pre nego što se pravo razgori. Više od toga: prihvatio je da Turcima pomogne u smirivanju pobune u svom kraju, pokazujući se kao odan obor-knez."
       },
       {
         "type": "paragraph",
@@ -11965,7 +11966,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Turski odgovor na bunu bio je brz i namerno zastrašujući. Vezirske čete su u nekoliko manjih sukoba razbile ustaničke grupe, a otpor se ugasio već tokom oktobra. Sledilo je ono što je Porta u ovakvim prilikama gotovo uvek činila — javna odmazda. Veći broj zarobljenih ustanika, među njima i ljudi koji sa samom bunom nisu imali mnogo veze, pogubljen je u Beogradu i drugim varošima; nabijanje na kolac korišćeno je svesno, kao prizor koji treba da odvrati ostale od pomisli na novi pokret. Hadži-Prodan se sa nekolicinom svojih uspeo prebaciti preko Save u Austriju, gde je preživeo; u obnovljenu Srbiju vratiće se godinama kasnije, ali nikada više neće biti čovek o kome se odlučuje."
+        "text": "Turski odgovor na bunu bio je brz i namerno zastrašujući. Vezirske čete su u nekoliko manjih sukoba razbile ustaničke grupe, a otpor se ugasio već tokom oktobra. Sledilo je ono što je Porta u ovakvim prilikama gotovo uvek činila — javna odmazda. Veći broj zarobljenih ustanika, među njima i ljudi koji sa samom bunom nisu imali mnogo veze, pogubljen je u Beogradu i drugim varošima; nabijanje na kolac korišćeno je svesno, kao prizor koji treba da odvrati ostale od pomisli na novi pokret. Hadži-Prodan se sa nekolicinom svojih uspeo prebaciti preko Save u Austriju i više se nikada nije vratio kao čovek o kome se odlučuje."
       },
       {
         "type": "paragraph",
@@ -11983,7 +11984,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "keyPeople": [
       "Hadži-Prodan Gligorijević",
       "Miloš Obrenović",
-      "Suleyman-paša Skopljak"
+      "Sulejman-paša Skopljak"
     ],
     "keyPlaces": [
       "Trnava",
@@ -12005,7 +12006,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "U takvoj atmosferi, krajem septembra 1814, izbila je u kragujevačkoj nahiji Hadži-Prodanova buna. Hadži-Prodan Gligorijević, stari ustanički starešina, podigao je narod na lokalnom nivou, bez šire pripreme i bez dovoljno saveznika. Buna se brzo proširila preko nekoliko sela, ali je isto tako brzo bila ugušena. Hadži-Prodan je sa malom grupom uspeo da prebegne preko granice, dok je Sulejman-pašin odgovor pao na obične ljude. Stradala su čitava sela, broj žrtava nikada nije pouzdano utvrđen, ali savremene procene govore o stotinama pobijenih i o talasu novih nameta na nahije za koje se sumnjalo da su podržale Hadži-Prodana. Paradoksalno, neuspeh te bune pojačao je teror — i upravo time učinio veliki ustanak izvesnijim."
+        "text": "U takvoj atmosferi, krajem septembra 1814, kod manastira Trnave blizu Čačka, izbila je Hadži-Prodanova buna, koja se zatim prenela i u kragujevačku nahiju. Hadži-Prodan Gligorijević, stari ustanički starešina, podigao je narod na lokalnom nivou, bez šire pripreme i bez dovoljno saveznika. Buna se brzo proširila preko nekoliko sela, ali je isto tako brzo bila ugušena. Hadži-Prodan je sa malom grupom uspeo da prebegne preko granice, dok je Sulejman-pašin odgovor pao na obične ljude. Stradala su čitava sela, broj žrtava nikada nije pouzdano utvrđen, ali savremene procene govore o stotinama pobijenih i o talasu novih nameta na nahije za koje se sumnjalo da su podržale Hadži-Prodana. Paradoksalno, neuspeh te bune pojačao je teror — i upravo time učinio veliki ustanak izvesnijim."
       },
       {
         "type": "paragraph",
@@ -12063,11 +12064,11 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Formalnog obrazovanja gotovo da nije imao. Pismen je bio koliko i mnogi trgovci njegovog kraja — to znači da je s mukom mogao da pročita pismo i potpiše se, dok je za sve ozbiljnije pisanje, do kraja života, koristio pisare. To ga, paradoksalno, nije činilo nesposobnim za vlast; činilo ga je nepoverljivim prema svakom obrazovanom čoveku oko sebe. Verovao je onome što je čuo svojim ušima i video svojim očima, a izveštaje na hartiji slušao je kao da iza svake rečenice neko nešto krije. To će kasnije, kada bude vladao, postati i prednost i breme njegovog dvora."
+        "text": "Formalnog obrazovanja gotovo da nije imao. Bio je nepismen: i za čitanje i za pisanje, do kraja života, koristio je pisare. To ga, paradoksalno, nije činilo nesposobnim za vlast; činilo ga je nepoverljivim prema svakom obrazovanom čoveku oko sebe. Verovao je onome što je čuo svojim ušima i video svojim očima, a izveštaje na hartiji slušao je kao da iza svake rečenice neko nešto krije. To će kasnije, kada bude vladao, postati i prednost i breme njegovog dvora."
       },
       {
         "type": "paragraph",
-        "text": "U Prvom ustanku, koji je 1804. godine podigao Karađorđe, Miloš se istakao postepeno, ne odmah. Prvo kao starešina manjih četa, potom kao kapetan, da bi vremenom postao knez rudničke nahije — oblasti koju je dobro poznavao iz svojih trgovačkih dana. Bio je blizak Karađorđu, ali sa drugačijim temperamentom. Vožd je bio plahovit, ratnik po prirodi, čovek koji deluje brzo i kažnjava bez okolišanja; Miloš je bio strpljiv, sklon odugovlačenju, sumnjičav prema svakom potezu koji se ne može povući. Ta razlika je tinjala godinama i u javnom poslu i u privatnim odnosima, mada do otvorenog raskida između njih dvojice nije došlo."
+        "text": "U Prvom ustanku, koji je 1804. godine podigao Karađorđe, Miloš se istakao postepeno, ne odmah. Prvo kao starešina manjih četa, potom kao kapetan, da bi vremenom postao vojvoda rudničke nahije — oblasti koju je dobro poznavao iz svojih trgovačkih dana. Bio je blizak Karađorđu, ali sa drugačijim temperamentom. Vožd je bio plahovit, ratnik po prirodi, čovek koji deluje brzo i kažnjava bez okolišanja; Miloš je bio strpljiv, sklon odugovlačenju, sumnjičav prema svakom potezu koji se ne može povući. Ta razlika je tinjala godinama i u javnom poslu i u privatnim odnosima, mada do otvorenog raskida između njih dvojice nije došlo."
       },
       {
         "type": "heading",
@@ -12076,7 +12077,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Slom ustanka u jesen 1813. godine pred Milošem je postavio izbor koji je većinu vođa odvukao na drugu stranu Save i Dunava. Karađorđe je prešao u Austriju; mnoge starešine pošle su za njim. Miloš je ostao. Prihvatio je tursku amnestiju, izašao pred nove gospodare Beogradskog pašaluka i prihvatio da i dalje služi kao knez u Rudničkoj nahiji. Taj izbor će mu kasnije neki zameriti kao kukavičluk ili izdaju, drugi ga braniti kao trezvenu računicu čoveka koji je shvatio da iz emigracije narod ne može da se brani. Verovatnije je da je posredi bilo i jedno i drugo: i strah od progona, i hladna procena da onaj ko ostane u zemlji ostaje i jedini sagovornik svake nove vlasti."
+        "text": "Slom ustanka u jesen 1813. godine pred Milošem je postavio izbor koji je većinu vođa odvukao na drugu stranu Save i Dunava. Karađorđe je prešao u Austriju; mnoge starešine pošle su za njim. Miloš je ostao. Prihvatio je tursku amnestiju, izašao pred nove gospodare Beogradskog pašaluka i prihvatio da služi kao knez u Rudničkoj nahiji. Taj izbor će mu kasnije neki zameriti kao kukavičluk ili izdaju, drugi ga braniti kao trezvenu računicu čoveka koji je shvatio da iz emigracije narod ne može da se brani. Verovatnije je da je posredi bilo i jedno i drugo: i strah od progona, i hladna procena da onaj ko ostane u zemlji ostaje i jedini sagovornik svake nove vlasti."
       },
       {
         "type": "paragraph",
@@ -12148,7 +12149,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "To, naravno, ne umanjuje njegov značaj. Takovo jeste bilo trenutak preokreta — dan u kome je narod Šumadije, posle sedam godina otvorenog rata i nekoliko godina ponovne potčinjenosti, drugi put u jednoj generaciji digao oružje, ovog puta sa vođom koji je znao šta hoće i kako da to izvede. Razlika između legende i činjenice ne kvari taj dan; ona ga čini bližim. Iza ikone sa grmom i zastavom stoji čovek koji je do pred sam Cveti vagao da li uopšte da pristane, i grupa knezova koji su znali da druge prilike možda neće biti. Drugi srpski ustanak je tako počeo — ne kao iznenadan plamen, nego kao odluka koja je dugo sazrevala i koja je, na pravu nedelju i na pravom mestu, najzad izrečena."
+        "text": "To, naravno, ne umanjuje njegov značaj. Takovo jeste bilo trenutak preokreta — dan u kome je narod Šumadije, posle devet godina ustanka (1804–1813) i godinu i po dana ponovne potčinjenosti, drugi put u jednoj generaciji digao oružje, ovog puta sa vođom koji je znao šta hoće i kako da to izvede. Razlika između legende i činjenice ne kvari taj dan; ona ga čini bližim. Iza ikone sa grmom i zastavom stoji čovek koji je do pred sam Cveti vagao da li uopšte da pristane, i grupa knezova koji su znali da druge prilike možda neće biti. Drugi srpski ustanak je tako počeo — ne kao iznenadan plamen, nego kao odluka koja je dugo sazrevala i koja je, na pravu nedelju i na pravom mestu, najzad izrečena."
       }
     ],
     "subtitle": "Kako je na Cveti 1815. Miloš Obrenović pred crkvom u Takovu javno preuzeo vođstvo novog ustanka protiv Turaka",
@@ -12177,7 +12178,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Prva veća borba odigrala se na Ljubićkom brdu, iznad Čačka, krajem aprila i u prvim majskim danima. Ustanici su, pod neposrednim Miloševim zapovedništvom, opkolili tursku posadu i prinudili je na povlačenje; Čačak je oslobođen ubrzo zatim. Pobeda nije bila samo vojnička. Ona je u zapadnoj Srbiji pokazala da Miloš nije lokalni knez koji se buni protiv pojedinog dahije, nego vođa pokreta koji ume da osvoji utvrđenu varoš. U narodu se to brzo razglasilo, a ustanak se počeo širiti dolinom Morave i niz Kolubaru."
+        "text": "Prva veća borba odigrala se na Ljubićkom brdu, iznad Čačka, krajem aprila i u prvim majskim danima. Ustanici su, pod neposrednim Miloševim zapovedništvom, opkolili tursku vojsku i prinudili je na povlačenje — u borbi je poginuo i njen zapovednik Imšir-paša, ćehaja Sulejman-paše; Čačak je oslobođen ubrzo zatim. Pobeda nije bila samo vojnička. Ona je u zapadnoj Srbiji pokazala da Miloš nije lokalni knez koji se buni protiv pojedinog dahije, nego vođa pokreta koji ume da osvoji utvrđenu varoš. U narodu se to brzo razglasilo, a ustanak se počeo širiti dolinom Morave i niz Kolubaru."
       },
       {
         "type": "paragraph",
@@ -12190,7 +12191,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Odlučujuća bitka odigrala se 14. jula po starom, odnosno 26. jula po novom kalendaru, kod Dublja u Mačvi, nedaleko od Šapca. Iz Bosne je prema pašaluku pošao veliki korpus pod komandom Imšir-paše, s namerom da prelaskom Drine udari na ustaničke snage s leđa i deblokira turske posade. Ustanici su, pod komandom Stojana Čupića i drugih vojvoda iz zapadne Srbije, dočekali Imšir-pašu na otvorenom polju kod sela Dublja. U dugotrajnoj borbi turski korpus je razbijen, sam Imšir-paša je poginuo, a u ustaničke ruke pao je veliki deo turske artiljerije, baruta i komore. Bila je to, po obimu i posledicama, najveća pobeda Drugog ustanka i jedna od retkih bitaka u kojima je srpska seljačka vojska u otvorenom polju savladala redovnu osmansku silu pojačanu topovima."
+        "text": "Odlučujuća bitka odigrala se 14. jula po starom, odnosno 26. jula po novom kalendaru, kod Dublja u Mačvi, nedaleko od Šapca. Iz Bosne je prema pašaluku pošla vojska pod Ibrahim-pašom, s namerom da prelaskom Drine udari na ustaničke snage s leđa i deblokira turske posade. Ustanici su, pod Miloševim vođstvom i sa vojvodama iz zapadne Srbije, dočekali bosansku vojsku na otvorenom polju kod sela Dublja. U dugotrajnoj borbi turska vojska je razbijena, a sam Ibrahim-paša zarobljen (Miloš ga je potom pustio); ustanicima je pao u ruke znatan ratni plen. Bila je to, po obimu i posledicama, najveća pobeda Drugog ustanka i jedna od retkih bitaka u kojima je srpska seljačka vojska u otvorenom polju savladala redovnu osmansku silu pojačanu topovima."
       },
       {
         "type": "paragraph",
@@ -12198,7 +12199,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Razlika prema Prvom ustanku nije bila u hrabrosti, nego u meri. Drugi ustanak je vođen sa manjim brojem ljudi i na užem prostoru, ali sa jasnijim ciljem. Miloš nije obećao potpuno oslobođenje. Nije pokušao da pred Carstvo izađe kao samostalna država, niti je prešao na desnu obalu Save i Dunava. Beograd, Šabac, Smederevo i druge velike tvrđave ostale su u turskim rukama, sa svojim posadama i topovima. Mnoga područja koja su nekada nosila ustanak iz 1804. godine — Krajina na istoku, delovi Pomoravlja, krajevi pod Avalom — u 1815. nisu se podigla istom snagom. Pokret je ostao stešnjen unutar Beogradskog pašaluka i, u stvari, stalno svestan da Stambol može poslati novu vojsku ako se prekorači mera."
+        "text": "Razlika prema Prvom ustanku nije bila u hrabrosti, nego u meri. Drugi ustanak je vođen sa manjim brojem ljudi i na užem prostoru, ali sa jasnijim ciljem. Miloš nije obećao potpuno oslobođenje. Nije pokušao da pred Carstvo izađe kao samostalna država, niti je rat prenosio preko Save i Dunava. Beograd, Šabac, Smederevo i druge velike tvrđave ostale su u turskim rukama, sa svojim posadama i topovima. Mnoga područja koja su nekada nosila ustanak iz 1804. godine — Krajina na istoku, delovi Pomoravlja, krajevi pod Avalom — u 1815. nisu se podigla istom snagom. Pokret je ostao stešnjen unutar Beogradskog pašaluka i, u stvari, stalno svestan da Stambol može poslati novu vojsku ako se prekorači mera."
       },
       {
         "type": "paragraph",
@@ -12208,13 +12209,13 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "subtitle": "Od Ljubićkog brda do Dublja — leto u kome je Drugi srpski ustanak izvojevao svoje najveće bitke",
     "dateLabel": "1815.",
     "timelinePosition": "april–avgust 1815.",
-    "summary": "Posle Takova ustanak se širi munjevito: za nekoliko meseci ustanici osvajaju Čačak, Palež, Valjevo i Požarevac, a kod Dublja kraj Šapca razbijaju Imšir-pašin korpus i osvajaju tursku artiljeriju.",
+    "summary": "Posle Takova ustanak se širi munjevito: za nekoliko meseci ustanici osvajaju Čačak, Palež, Valjevo i Požarevac, a kod Dublja kraj Šapca razbijaju vojsku pristiglu iz Bosne.",
     "keyPeople": [
       "Miloš Obrenović",
       "Imšir-paša",
       "Petar Nikolajević Moler",
       "Sima Marković",
-      "Stojan Čupić"
+      "Ibrahim-paša"
     ],
     "keyPlaces": [
       "Ljubićko brdo",
@@ -12230,12 +12231,12 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "content": [
       {
         "type": "paragraph",
-        "text": "Leto 1815. godine zateklo je Miloša Obrenovića u retko povoljnom položaju. Posle pobeda kod Ljubića, Palež-Požege i, najvažnije, kod Dublja, gde je Imšir-paša bio razbijen, ustanička vojska držala je najveći deo Beogradskog pašaluka, a turski garnizoni bili su stešnjeni u nekoliko utvrđenih varoši. Mnogi ustanici, naročito stariji ljudi koji su prošli Karađorđev rat, očekivali su sledeći, logični korak — opštu navalu na Beograd, čišćenje pašaluka i, ako bude moguće, prelazak na sever. Miloš je odlučio drugačije. Umesto rata do kraja, ponudio je razgovor. Taj njegov izbor — pregovore umesto pobedonosnog napada — bio je najveća politička novina Drugog ustanka i istovremeno tačka oko koje će se generacijama lomiti procene njegovog vladanja.",
+        "text": "Leto 1815. godine zateklo je Miloša Obrenovića u retko povoljnom položaju. Posle pobeda kod Ljubića, Paleža i, najvažnije, kod Dublja, gde je razbijena vojska pristigla iz Bosne, ustanička vojska držala je najveći deo Beogradskog pašaluka, a turski garnizoni bili su stešnjeni u nekoliko utvrđenih varoši. Mnogi ustanici, naročito stariji ljudi koji su prošli Karađorđev rat, očekivali su sledeći, logični korak — opštu navalu na Beograd, čišćenje pašaluka i, ako bude moguće, prelazak na sever. Miloš je odlučio drugačije. Umesto rata do kraja, ponudio je razgovor. Taj njegov izbor — pregovore umesto pobedonosnog napada — bio je najveća politička novina Drugog ustanka i istovremeno tačka oko koje će se generacijama lomiti procene njegovog vladanja.",
         "dropcap": true
       },
       {
         "type": "paragraph",
-        "text": "Da bi se taj izbor razumeo, mora se gledati šire od bojišta. U martu 1815. Napoleon je pobegao s Elbe, vratio se u Pariz i započeo Sto dana — vojnu i političku epizodu koja je sve evropske dvorove ponovo gurnula u krizu. Bečki kongres, koji je tek završavao rad, najednom je morao da misli na novu koaliciju i na novi rat protiv Francuske. Bitka kod Vaterloa, juna 1815, nije rešila stvar preko noći — još mesecima su saveznici sređivali Francusku i mirovne uslove. Za male narode na rubu carstava to je značilo jednu hladnu istinu: niko u Beču, Londonu ili Petrogradu nije imao vremena da se ozbiljno bavi šta se događa u Šapcu i Beogradu. Srpsko pitanje, koliko god važno za one koji su ga živeli, na evropskoj mapi tog leta bilo je sporedno."
+        "text": "Da bi se taj izbor razumeo, mora se gledati šire od bojišta. Krajem februara 1815. Napoleon je pobegao s Elbe, u martu se vratio u Pariz i započeo Sto dana — vojnu i političku epizodu koja je sve evropske dvorove ponovo gurnula u krizu. Bečki kongres, koji je tek završavao rad, najednom je morao da misli na novu koaliciju i na novi rat protiv Francuske. Bitka kod Vaterloa, juna 1815, nije rešila stvar preko noći — još mesecima su saveznici sređivali Francusku i mirovne uslove. Za male narode na rubu carstava to je značilo jednu hladnu istinu: niko u Beču, Londonu ili Petrogradu nije imao vremena da se ozbiljno bavi šta se događa u Šapcu i Beogradu. Srpsko pitanje, koliko god važno za one koji su ga živeli, na evropskoj mapi tog leta bilo je sporedno."
       },
       {
         "type": "paragraph",
@@ -12256,7 +12257,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Sreća je htela da i sa druge strane sedne čovek sličnog rezona. Marasli-Ali paša, novi rumelijski beglerbeg poslat da ugasi pobunu, brzo je shvatio da bi pun rat protiv Srba u trenutku kada Carstvo ima druge brige — od ruske granice do unutrašnjih buna — bio skup i neizvestan. Vojni resursi nisu bili neograničeni, a Beogradski pašaluk je decenijama bio rana koja gnoji. Bolje je, mislio je on, dopustiti Srbima da sami sebi održavaju red, ako tako više neće dizati oružje. Tako su se u jesen 1815. dva pragmatičara — jedan ustanik koji ne želi novi 1813, jedan paša koji ne želi novi rat — sastali i postigli usmeni sporazum koji nije bio mir u zapadnom smislu, ali jeste bio prećutno priznanje srpske samouprave."
+        "text": "Sreća je htela da i sa druge strane sedne čovek sličnog rezona. Marašli Ali-paša, novi rumelijski beglerbeg poslat da ugasi pobunu, brzo je shvatio da bi pun rat protiv Srba u trenutku kada Carstvo ima druge brige — od ruske granice do unutrašnjih buna — bio skup i neizvestan. Vojni resursi nisu bili neograničeni, a Beogradski pašaluk je decenijama bio rana koja gnoji. Bolje je, mislio je on, dopustiti Srbima da sami sebi održavaju red, ako tako više neće dizati oružje. Tako su se u jesen 1815. dva pragmatičara — jedan ustanik koji ne želi novi 1813, jedan paša koji ne želi novi rat — sastali i postigli usmeni sporazum koji nije bio mir u zapadnom smislu, ali jeste bio prećutno priznanje srpske samouprave."
       },
       {
         "type": "paragraph",
@@ -12269,7 +12270,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "summary": "Posle pobeda kod Dublja i drugih mesta, Miloš Obrenović nije nastavio rat do potpunog oslobođenja, već je tražio delimično rešenje koje će Porta priznati. Bio je to njegov pragmatični zaključak iz sloma 1813. i iz brzo izmenjenog evropskog konteksta.",
     "keyPeople": [
       "Miloš Obrenović",
-      "Marasli-Ali paša",
+      "Marašli Ali-paša",
       "Napoleon Bonaparta",
       "Aleksandar I Romanov"
     ],
@@ -12284,12 +12285,12 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "content": [
       {
         "type": "paragraph",
-        "text": "Posle uspeha ustanika u leto 1815. godine, ratno pitanje je naizgled bilo rešeno, ali pravo pitanje — šta će sada da bude od Srbije — tek je počinjalo. Porta nije mogla, a ni htela, da ponovi greške iz vremena Sulejman-paše Skopljaka i njegovih ljudi koji su 1813. odveli zemlju u nove zulume. U Beograd je za vezira postavljen Marasli-Ali paša, čovek sklon dogovoru, sa nalogom da smiri pokret bez novog krvoprolića. Sa srpske strane, u svakom selu i nahiji, vođa je već bio jasan: Miloš Obrenović, takovski knez koji je u martu digao ustanak i koji je u međuvremenu, ne čekajući ničije priznanje, počeo da se ponaša kao narodni starešina.",
+        "text": "Posle uspeha ustanika u leto 1815. godine, ratno pitanje je naizgled bilo rešeno, ali pravo pitanje — šta će sada da bude od Srbije — tek je počinjalo. Porta nije mogla, a ni htela, da ponovi greške iz vremena Sulejman-paše Skopljaka i njegovih ljudi koji su 1813. odveli zemlju u nove zulume. U Beograd je za vezira postavljen Marašli Ali-paša, čovek sklon dogovoru, sa nalogom da smiri pokret bez novog krvoprolića. Sa srpske strane, u svakom selu i nahiji, vođa je već bio jasan: Miloš Obrenović, takovski knez koji je u aprilu, na Cveti, digao ustanak i koji je u međuvremenu, ne čekajući ničije priznanje, počeo da se ponaša kao narodni starešina.",
         "dropcap": true
       },
       {
         "type": "paragraph",
-        "text": "Sastanak Miloša i Marasli-Ali paše dogodio se u jesen 1815, u okolini Beograda. O njemu nije sačuvan nijedan pisani sporazum, niti su njegovi članovi ikada zvanično ratifikovani na Porti. Pogodba je bila usmena — niz uzajamnih obećanja izgovorenih pred svedocima sa obe strane, koja su zatim počela tiho da se primenjuju. Upravo zato je istoričarima teško da je rekonstruišu po tačkama: ono što danas znamo o njenom sadržaju izvedeno je iz kasnijih ponašanja obe strane, iz Miloševih pisama i iz turskih službenih zapisa. Ipak, glavni obrisi su jasni, i o njima se u struci uglavnom slaže."
+        "text": "Sastanak Miloša i Marašli Ali-paše dogodio se u jesen 1815, u okolini Beograda. O njemu nije sačuvan nijedan pisani sporazum, niti su njegovi članovi ikada zvanično ratifikovani na Porti. Pogodba je bila usmena — niz uzajamnih obećanja izgovorenih pred svedocima sa obe strane, koja su zatim počela tiho da se primenjuju. Upravo zato je istoričarima teško da je rekonstruišu po tačkama: ono što danas znamo o njenom sadržaju izvedeno je iz kasnijih ponašanja obe strane, iz Miloševih pisama i iz turskih službenih zapisa. Ipak, glavni obrisi su jasni, i o njima se u struci uglavnom slaže."
       },
       {
         "type": "paragraph",
@@ -12297,7 +12298,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Miloš je u tom dogovoru priznat kao „veliki knez” beogradske nahije i kao nadnahijski vođa, čovek preko koga će se ubuduće voditi pregovori između Porte i Srba. To nije bila titula koju je Carigrad svečano izdao — bila je to praktična formula koja je vredela onoliko koliko su je obe strane bile spremne da poštuju. Ali i takva, ona je značila da postoji jedan jedini srpski sagovornik, prepoznat od osmanskih vlasti, i da preko njega prolazi sve što se odnosi na srpsku zajednicu u Beogradskom pašaluku."
+        "text": "Miloš je u tom dogovoru prećutno priznat kao vrhovni knez (baš-knez) Srba u pašaluku, čovek preko koga će se ubuduće voditi pregovori između Porte i Srba. To nije bila titula koju je Carigrad svečano izdao — bila je to praktična formula koja je vredela onoliko koliko su je obe strane bile spremne da poštuju. Ali i takva, ona je značila da postoji jedan jedini srpski sagovornik, prepoznat od osmanskih vlasti, i da preko njega prolazi sve što se odnosi na srpsku zajednicu u Beogradskom pašaluku."
       },
       {
         "type": "heading",
@@ -12310,24 +12311,24 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Rešenje je bilo nesavršeno i krhko. Pisanog ugovora nije bilo, pa je sve zavisilo od dobre volje pojedinih ljudi — pre svega Marasli-Ali paše, koji je svoj autoritet ulagao u održanje pogodbe, i Miloša, koji je morao da spreči nove pobune u brdima. Bilo je dovoljno da na vezirsko mesto dođe oštriji čovek, ili da neki ustanički kapetan ne izdrži zulum lokalnog age, pa da sve počne iznova. Pa ipak, prvi put posle pet vekova u Beogradskom pašaluku postojao je jasno odeljen domaći srpski politički subjekt: priznat vođa, priznati knezovi, priznata uloga u poreskom poslu. Knezovi više nisu bili samo posrednici između dva sveta — bili su, makar delimično, deo vlasti."
+        "text": "Rešenje je bilo nesavršeno i krhko. Pisanog ugovora nije bilo, pa je sve zavisilo od dobre volje pojedinih ljudi — pre svega Marašli Ali-paše, koji je svoj autoritet ulagao u održanje pogodbe, i Miloša, koji je morao da spreči nove pobune u brdima. Bilo je dovoljno da na vezirsko mesto dođe oštriji čovek, ili da neki ustanički kapetan ne izdrži zulum lokalnog age, pa da sve počne iznova. Pa ipak, prvi put uz priznanje same Porte u Beogradskom pašaluku postojao je jasno odeljen domaći srpski politički subjekt: priznat vođa, priznati knezovi, priznata uloga u poreskom poslu. Knezovi više nisu bili samo posrednici između dva sveta — bili su, makar delimično, deo vlasti."
       },
       {
         "type": "paragraph",
-        "text": "Upravo iz tog krhkog usmenog dogovora izrašće, korak po korak, prava srpska autonomija. Sve što će uslediti — Miloševa diplomatska igra sa Portom, posredovanje Rusije na osnovu Bukureškog mira, hatišerifi iz 1830. i 1833. godine kojima će Srbija biti priznata kao kneževina pod sopstvenim naslednim knezom — sve to ima koren u sastanku iz jeseni 1815. Bez te prve, neispisane pogodbe, kasnija pisana priznanja ne bi imala šta da potvrde."
+        "text": "Upravo iz tog krhkog usmenog dogovora izrašće, korak po korak, prava srpska autonomija. Sve što će uslediti — Miloševa diplomatska igra sa Portom, posredovanje Rusije na osnovu Bukureštanskog mira, hatišerifi iz 1830. i 1833. godine kojima će Srbija biti priznata kao kneževina pod sopstvenim naslednim knezom — sve to ima koren u sastanku iz jeseni 1815. Bez te prve, neispisane pogodbe, kasnija pisana priznanja ne bi imala šta da potvrde."
       },
       {
         "type": "paragraph",
-        "text": "Treba primetiti i inovaciju koju je Miloš tada uveo u srpsku politiku. Karađorđe je vodio veliki sukob — otvoren rat protiv osmanske države, sa idejom potpunog oslobođenja. Miloš je izabrao drugačiji put: postepen, pregovarački, formalno lojalan sultanu, a u suštini usmeren ka tihom širenju domaće vlasti. Bila je to strategija strpljenja, koja je u narednim godinama Srbiji donela ono što puška ne bi mogla — vreme. Donela mu je i uspehe i optužbe za apsolutizam, jer je vlast koju je tako pažljivo izgrađivao zadržao čvrsto u svojim rukama. Ali tog jesenjeg dana 1815, dok je sa Marasli-Ali pašom sklapao dogovor bez papira i pečata, on je u srpsku istoriju uneo nešto čega tu pre njega nije bilo: državno strpljenje."
+        "text": "Treba primetiti i inovaciju koju je Miloš tada uveo u srpsku politiku. Karađorđe je vodio veliki sukob — otvoren rat protiv osmanske države, sa idejom potpunog oslobođenja. Miloš je izabrao drugačiji put: postepen, pregovarački, formalno lojalan sultanu, a u suštini usmeren ka tihom širenju domaće vlasti. Bila je to strategija strpljenja, koja je u narednim godinama Srbiji donela ono što puška ne bi mogla — vreme. Donela mu je i uspehe i optužbe za apsolutizam, jer je vlast koju je tako pažljivo izgrađivao zadržao čvrsto u svojim rukama. Ali tog jesenjeg dana 1815, dok je sa Marašli Ali-pašom sklapao dogovor bez papira i pečata, on je u srpsku istoriju uneo nešto čega tu pre njega nije bilo: državno strpljenje."
       }
     ],
-    "subtitle": "Kako je Miloš Obrenović bez pisanog sporazuma izborio prvi obris srpske autonomije pod Marasli-Ali pašom",
+    "subtitle": "Kako je Miloš Obrenović bez pisanog sporazuma izborio prvi obris srpske autonomije pod Marašli Ali-pašom",
     "dateLabel": "1815–1816.",
     "timelinePosition": "jesen 1815.",
-    "summary": "U jesen 1815. Miloš Obrenović se sastaje sa novim beogradskim vezirom Marasli-Ali pašom i postiže usmenu pogodbu koja ustanicima donosi mir, ali im prvi put posle pet vekova ostavlja domaću upravu u nahijama i priznatog srpskog vođu.",
+    "summary": "U jesen 1815. Miloš Obrenović se sastaje sa novim beogradskim vezirom Marašli Ali-pašom i postiže usmenu pogodbu koja ustanicima donosi mir, ali im prvi put uz priznanje same Porte ostavlja domaću upravu u nahijama i priznatog srpskog vođu.",
     "keyPeople": [
       "Miloš Obrenović",
-      "Marasli-Ali paša",
+      "Marašli Ali-paša",
       "sultan Mahmud II"
     ],
     "keyPlaces": [
@@ -12346,7 +12347,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Prvi i najopasniji posao bio je uklanjanje suparnika. Miloš nije bio jedini ugledan čovek iz Drugog ustanka. Pored njega stajali su drugi knezovi, vojvode i kapetani, ljudi sa sopstvenim naoružanim pratnjama, sa sopstvenim ugledom u svojim nahijama, ljudi koji su pamtili kako je Karađorđe vladao i koji nisu nameravali da se pred Milošem klanjaju kao pred gospodarem. Miloš ih je, jednog po jednog, sklanjao. Petar Moler, koji je u jednom trenutku stajao uz njega kao narodni sekretar, završio je tako što je 1816. godine ubijen po Miloševom nalogu. Slično je prošao Sima Marković, koji se opirao novom poretku. Marko Todorović Abdula, ugledni knez iz požarevačkog kraja, smaknut je 1825. zbog navodne zavere; Miloje Petrović, jedan od prvaka koji se nije uklapao, takođe je nastradao. Ubistvo Karađorđa u leto 1817. — o kome će biti zasebne reči — pripada istoj logici: dok god je neko sa boljim ratničkim ugledom živ, Miloš nije sam."
+        "text": "Prvi i najopasniji posao bio je uklanjanje suparnika. Miloš nije bio jedini ugledan čovek iz Drugog ustanka. Pored njega stajali su drugi knezovi, vojvode i kapetani, ljudi sa sopstvenim naoružanim pratnjama, sa sopstvenim ugledom u svojim nahijama, ljudi koji su pamtili kako je Karađorđe vladao i koji nisu nameravali da se pred Milošem klanjaju kao pred gospodarem. Miloš ih je, jednog po jednog, sklanjao. Petar Nikolajević Moler, predsednik Narodne kancelarije, ubijen je 1816. u Beogradu — pogubio ga je Marašli Ali-paša na Miloševo insistiranje. Slično su 1817. prošli Sima Marković, koji se opirao novom poretku, i Pavle Cukić. Marko Todorović Abdula, knez požarevačke nahije, digao je 1821. sa Stevanom Dobrnjcem bunu protiv Miloša; pomilovan je i smenjen, a 1823. ubijen iz zasede u Požarevcu. Ubistvo Karađorđa u leto 1817. — o kome će biti zasebne reči — pripada, bar delom, istoj logici: dok god je neko sa boljim ratničkim ugledom živ, Miloš nije sam; istoričari kao motiv navode i strah da bi Karađorđev plan novog ustanka, u vezi s Heterijom, izazvao turski upad."
       },
       {
         "type": "paragraph",
@@ -12359,7 +12360,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Treća poluga bila je administracija. Miloš je iz Beograda, gde je sedeo turski vezir, povukao stvarnu vlast u unutrašnjost — u Kragujevac, koji od 1818. postaje njegova prestonica, i u sopstvene konake u Topčideru i Požarevcu. Tu je počeo da gradi nešto što ranije Srbija nije imala: stalni knežev dvor sa pisarima, ćatibima i savetnicima koji odgovaraju lično njemu. Među prvima koji će tom dvoru dati pisani oblik biće Dimitrije Davidović, donedavno urednik bečkih „Novina serbskih”, koji od sredine dvadesetih godina ulazi u Miloševu službu i kasnije postaje glavna ruka u sastavljanju državnih akata. Po nahijama, na ključna mesta, Miloš je postavljao rođake i ljude od ličnog poverenja. Brat Jevrem dobio je Šabac, brat Jovan Rudničku nahiju; tako su krvne veze postale i mreža vlasti."
+        "text": "Treća poluga bila je administracija. Miloš je iz Beograda, gde je sedeo turski vezir, povukao stvarnu vlast u unutrašnjost — u Kragujevac, koji od 1818. postaje njegova prestonica, i u sopstvene konake u Topčideru i Požarevcu. Tu je počeo da gradi nešto što ranije Srbija nije imala: stalni knežev dvor sa pisarima, ćatibima i savetnicima koji odgovaraju lično njemu. Među prvima koji će tom dvoru dati pisani oblik biće Dimitrije Davidović, donedavno urednik bečkih „Novina serbskih”, koji 1821. prelazi u Srbiju i ubrzo ulazi u Miloševu službu kao sekretar kneževe kancelarije i kasnije postaje glavna ruka u sastavljanju državnih akata. Po nahijama, na ključna mesta, Miloš je postavljao rođake i ljude od ličnog poverenja. Brat Jevrem dobio je Šabac, brat Jovan Rudničku nahiju; tako su krvne veze postale i mreža vlasti."
       },
       {
         "type": "paragraph",
@@ -12381,8 +12382,8 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "keyPeople": [
       "Miloš Obrenović",
       "Marko Todorović Abdula",
-      "Miloje Petrović",
-      "Petar Moler",
+      "Pavle Cukić",
+      "Petar Nikolajević Moler",
       "Dimitrije Davidović"
     ],
     "keyPlaces": [
@@ -12414,15 +12415,15 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Miloš je opasnost razumeo trenutno i u celini. Karađorđev povratak značio je dve mogućnosti, obe loše. Ili će vožd, oslonjen na heteriste i sopstveni ugled, povesti narod u novi opšti ustanak — i tada će Marasli Ali-paša, novi beogradski vezir s kojim je Miloš tek bio uspostavio krhki radni odnos, pozvati osmansku vojsku iz Niša i Bosne, a sve što je izboreno 1815. nestaće u krvi. Ili će dva vođe ostati u zemlji jedan pored drugog — i tada će se, pre ili kasnije, ljudi razdeliti, nahije podeliti, a unutrašnji rat učiniti ono što Turci nisu uspeli. U oba slučaja gubi se autonomija, gubi se mir koji je tek počeo da raste, gubi se i samo ime srpske kneževine pred Portom."
+        "text": "Miloš je opasnost razumeo trenutno i u celini. Karađorđev povratak značio je dve mogućnosti, obe loše. Ili će vožd, oslonjen na heteriste i sopstveni ugled, povesti narod u novi opšti ustanak — i tada će Marašli Ali-paša, novi beogradski vezir s kojim je Miloš tek bio uspostavio krhki radni odnos, pozvati osmansku vojsku iz Niša i Bosne, a sve što je izboreno 1815. nestaće u krvi. Ili će dva vođe ostati u zemlji jedan pored drugog — i tada će se, pre ili kasnije, ljudi razdeliti, nahije podeliti, a unutrašnji rat učiniti ono što Turci nisu uspeli. U oba slučaja gubi se autonomija, gubi se mir koji je tek počeo da raste, gubi se i samo ime srpske kneževine pred Portom."
       },
       {
         "type": "paragraph",
-        "text": "Posle žurnih i tajnih razgovora sa nekolicinom prvaka, Miloš donosi odluku. Vulićeviću je upućena poruka — usmena ili pismena, izvori se razilaze — da Karađorđa ne sme pustiti iz Radovanjskog luga živog. U noći između 13. i 25. jula 1817, prema starom i novom kalendaru, Vulićević i njegov pratilac, po predanju Nikola Novaković, ušli su u kolibu u kojoj je vožd spavao. Karađorđu je presečen vrat dok je još bio u snu. Glava je odsečena i kasnije, prepariranau soli, otpravljena u Beograd, a odatle Marasli-paši i dalje u Carigrad — kao dokaz da knez srpski stoji čvrsto uz Portu i da među Srbima nema mesta za ljude koji bi dizali novi ustanak. Bio je to čin svireposti svesno odabran kao politička poruka, namenjen i Turcima i sopstvenom narodu."
+        "text": "Posle žurnih i tajnih razgovora sa nekolicinom prvaka, Miloš donosi odluku. Vulićeviću je upućena poruka — usmena ili pismena, izvori se razilaze — da Karađorđa ne sme pustiti iz Radovanjskog luga živog. U noći uoči 13. jula 1817. (25. jula po novom kalendaru), Vulićević i njegov pratilac, po predanju Nikola Novaković, ušli su u kolibu u kojoj je vožd spavao. Po predanju, Novaković ga je udario sekirom dok je još bio u snu. Glava je potom odsečena i kasnije, preparirana u soli, otpravljena u Beograd, a odatle Marašli Ali-paši i dalje u Carigrad — kao dokaz da knez srpski stoji čvrsto uz Portu i da među Srbima nema mesta za ljude koji bi dizali novi ustanak. Bio je to čin svireposti svesno odabran kao politička poruka, namenjen i Turcima i sopstvenom narodu."
       },
       {
         "type": "paragraph",
-        "text": "Posledice su počele istog časa i traju, na svoj način, do danas. Marasli-paša je primio poklon i Miloš je zauzvrat zadržao ono što mu je bilo najvažnije — turska vojska nije ušla u nahije, a postupno proširivanje autonomije moglo je da se nastavi. U narodu je, međutim, vest pala teško. Karađorđe je bio vožd Prvog ustanka, čovek koji je 1804. podigao zastavu i koji je u sećanju mnogih kuća još uvek bio simbol slobode. Što je Miloš to naredio — a malo ko je sumnjao da jeste, makar to dvor nikad nije zvanično priznao — ostalo je mrlja koja se nije isprala. Iz tog ubistva izrasla je dinastička mržnja Obrenovića i Karađorđevića, niz prevrata, abdikacija i atentata, koji će obeležiti gotovo svaku deceniju devetnaestog veka, do krvave 1903."
+        "text": "Posledice su počele istog časa i traju, na svoj način, do danas. Marašli Ali-paša je primio poklon i Miloš je zauzvrat zadržao ono što mu je bilo najvažnije — turska vojska nije ušla u nahije, a postupno proširivanje autonomije moglo je da se nastavi. U narodu je, međutim, vest pala teško. Karađorđe je bio vožd Prvog ustanka, čovek koji je 1804. podigao zastavu i koji je u sećanju mnogih kuća još uvek bio simbol slobode. Što je Miloš to naredio — a malo ko je sumnjao da jeste, makar to pred narodom nikad nije otvoreno priznao — ostalo je mrlja koja se nije isprala. Iz tog ubistva izrasla je dinastička mržnja Obrenovića i Karađorđevića, niz prevrata, abdikacija i atentata, koji će obeležiti gotovo svaku deceniju devetnaestog veka, do krvave 1903."
       },
       {
         "type": "paragraph",
@@ -12437,7 +12438,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       "Karađorđe Petrović",
       "Miloš Obrenović",
       "Vujica Vulićević",
-      "Marasli Ali-paša"
+      "Marašli Ali-paša"
     ],
     "keyPlaces": [
       "Radovanjski lug",
@@ -12450,7 +12451,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "content": [
       {
         "type": "paragraph",
-        "text": "Kada se u jesen 1815. Miloš Obrenović sastao sa Marašli Ali-pašom i sa njim usmeno pogodio uslove pod kojima će Srbi položiti oružje, niko od savremenika nije imao razloga da poveruje da je tog dana rođena nekakva srpska država. Postignut je bio prekid borbi, podela vlasti u nahijama, obećanje da će se porez ubirati preko srpskih knezova — i ništa više. Pogodba nije bila zapisana, nije bila potvrđena fermanom, nije imala međunarodnog svedoka. Sve što je iz nje moglo da nastane zavisilo je od onoga što će uslediti u narednih petnaest godina — od strpljenja, prepiske, podmićivanja i, na kraju, od jednog rata koji Srbi nisu vodili.",
+        "text": "Kada se u jesen 1815. Miloš Obrenović sastao sa Marašli Ali-pašom i sa njim usmeno pogodio uslove pod kojima će Srbi položiti oružje, niko od savremenika nije imao razloga da poveruje da je tog dana rođena nekakva srpska država. Postignut je bio prekid borbi, podela vlasti u nahijama, obećanje da će se porez ubirati preko srpskih knezova — i ništa više. Pogodba nije bila zapisana kao ugovor, fermani iz 1816. potvrdili su tek deo dogovorenog, a međunarodnog svedoka nije imala. Sve što je iz nje moglo da nastane zavisilo je od onoga što će uslediti u narednih petnaest godina — od strpljenja, prepiske, podmićivanja i, na kraju, od jednog rata koji Srbi nisu vodili.",
         "dropcap": true
       },
       {
@@ -12476,7 +12477,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Treba ovo izgovoriti otvoreno, jer kasnije nacionalno predanje rado prelazi preko toga: srpska autonomija nije dobijena junaštvom srpskog oružja. Drugi ustanak je obezbedio polazište; sve ostalo izvojevala je strpljiva diplomatija u senci ruske vojne moći. Da Rusija 1829. nije pobedila kod Jedrena, hatišerifa 1830. najverovatnije ne bi bilo — bar ne tada, i bar ne u onom obliku u kome je izdat. To je neudoban zaključak, ali je tačan, i moderna istoriografija ga uglavnom ne osporava."
+        "text": "Treba ovo izgovoriti otvoreno, jer kasnije nacionalno predanje rado prelazi preko toga: srpska autonomija nije dobijena samo junaštvom srpskog oružja. Drugi ustanak je obezbedio polazište; sve ostalo izvojevala je strpljiva diplomatija u senci ruske vojne moći. Da Rusija 1829. nije pobedila kod Jedrena, hatišerifa 1830. najverovatnije ne bi bilo — bar ne tada, i bar ne u onom obliku u kome je izdat. To je neudoban zaključak, ali je tačan."
       },
       {
         "type": "paragraph",
@@ -12520,7 +12521,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Tako se 1830. godine, krajem avgusta, u Beogradu svečano čita prvi hatišerif sultana Mahmuda II o Srbiji. Reč hatišerif — turski hatt-ı şerif — znači „uzvišeni rukopis”: fermane je sultan potpisivao i diktirao kroz veliko vezirstvo, ali hatišerif je najsvečaniji oblik osmanskog akta, onaj na kome stoji carev sopstveni rukopis. Davati nekoj oblasti pravo hatišerifom značilo je dati joj najjači pravni rang koji je Carstvo uopšte poznavalo. Time je srpska autonomija, u hijerarhiji osmanskih institucija, postavljena visoko — i pravno, i simbolično."
+        "text": "Tako se na Andrijevdan, 30. novembra (12. decembra) 1830. godine, u Beogradu svečano čita hatišerif sultana Mahmuda II o Srbiji. Reč hatišerif — turski hatt-ı şerif — znači „uzvišeni rukopis”: fermane je sultan potpisivao i diktirao kroz veliko vezirstvo, ali hatišerif je najsvečaniji oblik osmanskog akta, onaj na kome stoji carev sopstveni rukopis. Davati nekoj oblasti pravo hatišerifom značilo je dati joj najjači pravni rang koji je Carstvo uopšte poznavalo. Time je srpska autonomija, u hijerarhiji osmanskih institucija, postavljena visoko — i pravno, i simbolično."
       },
       {
         "type": "paragraph",
@@ -12533,11 +12534,11 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Akt iz 1830. nije, međutim, do kraja rešio jedno bolno pitanje — pitanje teritorije. Šest nahija koje je srpska vojska oslobodila još u Prvom ustanku, a koje su faktički ostale pod srpskom upravom i posle Bukureštanskog mira, formalno nisu bile uključene u pašaluk. Krajina, Crna Reka, Banja, Aleksinac, Kruševac i Paraćin činili su pojas duž istočne i južne granice, naseljen srpskim stanovništvom, koji je Miloš godinama čuvao kao svršenu činjenicu. Diplomatski pritisak, ruska podrška i njegova vešta upornost dali su rezultat tek nekoliko godina kasnije. U decembru 1833. godine sultan izdaje drugi hatišerif, kojim se tih šest nahija zvanično priključuju Kneževini Srbiji."
+        "text": "Akt iz 1830. nije, međutim, do kraja rešio jedno bolno pitanje — pitanje teritorije. Šest nahija koje je srpska vojska oslobodila još u Prvom ustanku, a koje su posle 1813. ostale pod turskom vlašću, nisu bile uključene u pašaluk. Krajina, Crna Reka, Paraćin, Kruševac, Stari Vlah i Jadar s Rađevinom bile su oblasti na istoku, jugu i zapadu, naseljene srpskim stanovništvom. Diplomatski pritisak, ruska podrška i Miloševa vešta upornost dali su rezultat tek 1833, kada ih je on, podstičući bune, zaposeo vojskom. Krajem 1833. godine sultan izdaje drugi hatišerif, kojim se tih šest nahija zvanično priključuju Kneževini Srbiji."
       },
       {
         "type": "paragraph",
-        "text": "Time su, u suštini, povučene granice unutar kojih će Srbija živeti narednih četrdeset godina, do Berlinskog kongresa. Teritorija je sada povezivala plodnu Šumadiju sa istočnim i južnim oblastima, a Miloševa država dobila je oblik i veličinu koji su je činili sposobnom za ozbiljan unutrašnji život — za uvođenje administracije, poreza, sudova i škola. Dva hatišerifa, jedan iz 1830. i drugi iz 1833. godine, treba zato čitati zajedno: prvi je dao pravni okvir, drugi mu je dao telo."
+        "text": "Time su, u suštini, povučene granice unutar kojih će Srbija živeti narednih četrdeset godina, do Berlinskog kongresa. Teritorija je sada povezivala plodnu Šumadiju sa istočnim, južnim i zapadnim oblastima, a Miloševa država dobila je oblik i veličinu koji su je činili sposobnom za ozbiljan unutrašnji život — za uvođenje administracije, poreza, sudova i škola. Dva hatišerifa, jedan iz 1830. i drugi iz 1833. godine, treba zato čitati zajedno: prvi je dao pravni okvir, drugi mu je dao telo."
       },
       {
         "type": "paragraph",
@@ -12559,8 +12560,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "keyPeople": [
       "Miloš Obrenović",
       "sultan Mahmud II",
-      "Jovan Obrenović",
-      "Hadži-Prodan"
+      "Jovan Obrenović"
     ],
     "keyPlaces": [
       "Beograd",
@@ -12584,7 +12584,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Posao pisanja poveren je Dimitriju Davidoviću, jednom od najobrazovanijih ljudi tadašnje Srbije. Davidović, rođen 1789, bio je novinar i kulturni radnik koji je u Beču svojevremeno pokrenuo prve srpske novine; godinama je već radio kao Milošev sekretar i diplomata, i znao je evropske ustave gotovo napamet. Za uzore je uzeo dva najuglednija liberalna teksta tog vremena — francusku Povelju iz 1814, donesenu posle Napoleonovog pada, i belgijski ustav iz 1831, plod nedavne revolucije u Briselu. Iz njih je izvukao podelu vlasti, ulogu skupštine, zaštitu osnovnih prava — i sve to pažljivo prilagodio prilikama jedne male agrarne kneževine pod sultanovim vrhovništvom."
+        "text": "Posao pisanja poveren je Dimitriju Davidoviću, jednom od najobrazovanijih ljudi tadašnje Srbije. Davidović, rođen 1789, bio je novinar i kulturni radnik koji je u Beču svojevremeno pokrenuo „Novine serbske”, prve dugotrajne srpske novine; godinama je već radio kao Milošev sekretar i diplomata, i znao je evropske ustave gotovo napamet. Za uzore je uzeo dva najuglednija liberalna teksta tog vremena — francusku Povelju iz 1814, donesenu posle Napoleonovog pada, i belgijski ustav iz 1831, plod nedavne revolucije u Briselu. Iz njih je izvukao podelu vlasti, ulogu skupštine, zaštitu osnovnih prava — i sve to pažljivo prilagodio prilikama jedne male agrarne kneževine pod sultanovim vrhovništvom."
       },
       {
         "type": "paragraph",
@@ -12640,7 +12640,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Sultan Mahmud II, koji je celu deceniju pre toga vodio reforme u samoj Osmanskoj državi, umro je u leto 1839. godine, pa je konačnu redakciju i izdavanje hatišerifa formalno potpisao njegov mladi naslednik Abdul Medžid. Sam dokument je nosio decembarski datum 1838. godine i u Srbiji je odmah dobio ime po onome ko ga je izdao — „Turski ustav”. Ime je donekle nepravedno, jer su tekst u suštini sklopili srpski pregovarači sa ruskom podrškom, ali je tačno označavalo izvor pravne snage: dokument nije proistekao iz srpske narodne skupštine, nego iz volje vrhovnog vladara, sultana, kao gospodara Beogradskog pašaluka."
+        "text": "Hatišerif je u decembru 1838. godine izdao sultan Mahmud II, koji je celu deceniju pre toga vodio reforme u samoj Osmanskoj državi. U Srbiji je dokument odmah dobio ime po onome ko ga je izdao — „Turski ustav”. Ime je donekle nepravedno, jer su tekst u suštini sklopili srpski pregovarači sa ruskom podrškom, ali je tačno označavalo izvor pravne snage: dokument nije proistekao iz srpske narodne skupštine, nego iz volje vrhovnog vladara, sultana, kao gospodara Beogradskog pašaluka."
       },
       {
         "type": "heading",
@@ -12671,7 +12671,6 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "keyPeople": [
       "Miloš Obrenović",
       "Mahmud II",
-      "Abdul Medžid",
       "Toma Vučić Perišić",
       "Avram Petronijević"
     ],
@@ -12686,7 +12685,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "content": [
       {
         "type": "paragraph",
-        "text": "Kada je u jesen 1838. godine u Beograd stigao sultanov hatišerif, takozvani Turski ustav, Milošu Obrenoviću je bilo jasno da je njegova dotadašnja vlast u suštini završena. Dokument je formalno bio osmanski poklon srpskoj autonomiji, ali u stvari pažljivo skrojen tako da kneza okruži ustanovom koju je do tada uspevao da drži po strani — Sovjetom, telom od sedamnaest doživotnih savetnika koje knez više nije mogao ni da postavi ni da smeni po svojoj volji. Iza tog rešenja stajala je i Rusija, koja je u Sovjetu videla branu protiv Miloševog samovlašća, i grupa srpskih prvaka koji su godinama strpljivo čekali priliku da kneza naprave prvim među jednakima, a ne gospodarem zemlje.",
+        "text": "Kada je početkom 1839. godine u Srbiju stigao i obnarodovan sultanov hatišerif od decembra 1838, takozvani Turski ustav, Milošu Obrenoviću je bilo jasno da je njegova dotadašnja vlast u suštini završena. Dokument je formalno bio osmanski poklon srpskoj autonomiji, ali u stvari pažljivo skrojen tako da kneza okruži ustanovom koju je do tada uspevao da drži po strani — Sovjetom, telom od sedamnaest doživotnih savetnika koje je knez imenovao, ali ih više nije mogao da smeni bez saglasnosti Porte. Iza tog rešenja stajala je i Rusija, koja je u Sovjetu videla branu protiv Miloševog samovlašća, i grupa srpskih prvaka koji su godinama strpljivo čekali priliku da kneza naprave prvim među jednakima, a ne gospodarem zemlje.",
         "dropcap": true
       },
       {
@@ -12712,11 +12711,11 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Nasleđe je, međutim, odmah pokazalo svoju krhku stranu. Knez Milan Obrenović Drugi bio je teško bolestan već u trenutku kada je preuzeo titulu — toliko bolestan da, prema svemu što izvori kažu, nije ni saznao da je postao knez. Vladao je nominalno svega nekoliko nedelja i umro je dvadeset šestog juna, po novom kalendaru osmog jula 1839, ne navršivši ni dvadeset šestu godinu. Presto je tada prešao na njegovog mlađeg brata, takođe Miloševog sina, Mihaila Obrenovića, koji je imao tek šesnaest godina. Pošto je bio maloletan, zemlja je dobila namesništvo — Jevrema Obrenovića, Tomu Vučića Perišića i Avrama Petronijevića — to jest, u stvari, zvaničnu vlast onih istih ljudi koji su Miloša prinudili da ode."
+        "text": "Nasleđe je, međutim, odmah pokazalo svoju krhku stranu. Knez Milan Obrenović Drugi bio je teško bolestan već u trenutku kada je preuzeo titulu — toliko bolestan da, prema svemu što izvori kažu, nije ni saznao da je postao knez. Vladao je nominalno svega nekoliko nedelja i umro je dvadeset šestog juna, po novom kalendaru osmog jula 1839, ne navršivši ni dvadesetu godinu. Presto je tada prešao na njegovog mlađeg brata, takođe Miloševog sina, Mihaila Obrenovića, koji je imao tek petnaest godina. Pošto je bio maloletan, zemlja je dobila namesništvo — Jevrema Obrenovića, Tomu Vučića Perišića i Avrama Petronijevića — to jest, u stvari, zvaničnu vlast onih istih ljudi koji su Miloša prinudili da ode."
       },
       {
         "type": "paragraph",
-        "text": "Sam Miloš je sa porodicom i delom imanja krenuo na put koji će potrajati gotovo dve decenije. Najpre je prešao u Vlašku, gde je već imao zemljišne posede, zatim boravio u Beču, lečio se i banjski boravio u Hofgasteinu, putovao po Evropi sa novcem i sa starim navikama, ali bez vlasti. U Srbiju će se vratiti tek 1858. godine, kada ga Svetoandrejska skupština ponovo pozove na presto — ali to je već priča za drugu epohu. Za sada je ostalo da se zapiše kraj jednog načina vladanja: srpska država prestala je da bude despotat jednog čoveka i ušla je, makar formalno, u red uređenih ustavnih sistema."
+        "text": "Sam Miloš je sa porodicom i delom imanja krenuo na put koji će potrajati gotovo dve decenije. Najpre je prešao u Vlašku, gde je već imao zemljišne posede, zatim boravio u Beču, lečio se i banjski boravio u Hofgasteinu, putovao po Evropi sa novcem i sa starim navikama, ali bez vlasti. Svetoandrejska skupština ponovo će ga pozvati na presto tek krajem 1858. godine, a u Beograd će ući januara 1859 — ali to je već priča za drugu epohu. Za sada je ostalo da se zapiše kraj jednog načina vladanja: srpska država prestala je da bude despotat jednog čoveka i ušla je, makar formalno, u red uređenih ustavnih sistema."
       },
       {
         "type": "paragraph",
@@ -12745,7 +12744,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "content": [
       {
         "type": "paragraph",
-        "text": "Kada je u junu 1839. Miloš Obrenović, posle dugog rvanja sa Sovjetom i sa hatišerifom koji mu je oduzeo gotovo svu ličnu vlast, najzad abdicirao i napustio Srbiju, presto je formalno prešao na njegovog starijeg sina Milana. Milan je već tada bio teško bolestan i umro je posle samo nekoliko nedelja vladavine, koju nikada zapravo nije ni preuzeo. Tako je u jesen iste godine knežev presto pao na drugog Miloševog sina — sedamnaestogodišnjeg Mihaila, rođenog 1823. u Kragujevcu. Bio je to nagao i tih dolazak na vlast jednog dečaka koji još uvek nije imao ni navršene osamnaeste, a već je nasledio državu u jeku ustavnog spora.",
+        "text": "Kada je u junu 1839. Miloš Obrenović, posle dugog rvanja sa Sovjetom i sa hatišerifom koji mu je oduzeo gotovo svu ličnu vlast, najzad abdicirao i napustio Srbiju, presto je formalno prešao na njegovog starijeg sina Milana. Milan je već tada bio teško bolestan i umro je posle samo nekoliko nedelja vladavine, koju nikada zapravo nije ni preuzeo. Tako je u jesen iste godine knežev presto pao na drugog Miloševog sina — šesnaestogodišnjeg Mihaila, rođenog 1823. u Kragujevcu. Bio je to nagao i tih dolazak na vlast jednog dečaka koji još uvek nije imao ni navršene osamnaeste, a već je nasledio državu u jeku ustavnog spora.",
         "dropcap": true
       },
       {
@@ -12763,11 +12762,11 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Mihailo je krenuo putem koji je u datim okolnostima bio rizičan: pokušao je da vlada nezavisnije od Sovjeta, koristeći metode koje je dobro poznavao iz očevog stila — ličnu vlast, neformalne ljude oko sebe, pritisak na one koji se ne pokoravaju. Doveo je u zemlju oca Miloša na kratko, pokušao da na ključna mesta dovede svoje pristalice, slao poverljive ljude da osmotre raspoloženje u nahijama. Sovjet je odgovarao otporom, žalbama Porti i predstavkama u kojima je sebe prikazivao kao branioca ustavnog poretka, a kneza kao mladića koji srlja u samovolju. Spor se vukao više od dve godine, ulazio u sitnice administracije, prelivao se u svađe oko činovničkih postavljenja i oko upravljanja prihodima."
+        "text": "Mihailo je krenuo putem koji je u datim okolnostima bio rizičan: pokušao je da vlada nezavisnije od Sovjeta, koristeći metode koje je dobro poznavao iz očevog stila — ličnu vlast, neformalne ljude oko sebe, pritisak na one koji se ne pokoravaju. Oslanjao se na strica Jevrema i majku Ljubicu, pokušao da na ključna mesta dovede svoje pristalice, slao poverljive ljude da osmotre raspoloženje u nahijama. Sovjet je odgovarao otporom, žalbama Porti i predstavkama u kojima je sebe prikazivao kao branioca ustavnog poretka, a kneza kao mladića koji srlja u samovolju. Spor se vukao više od dve godine, ulazio u sitnice administracije, prelivao se u svađe oko činovničkih postavljenja i oko upravljanja prihodima."
       },
       {
         "type": "paragraph",
-        "text": "Krajem leta 1842. stvari su se izvile iz okvira pregovora. Vučić je, pošto je pripremio teren, podigao oružanu bunu — u izvorima poznatu kao Vučićeva buna, sa središtem oko Vragolova i sa okupljanjem prvaka među kojima se ističe Toplo Đorđević. Naoružana opozicija krenula je prema Topčideru i Beogradu. Mihailo je pokušao da prikupi snage, ali se brzo pokazalo da podrške u zemlji nema dovoljno: ustavobranitelji su imali na svojoj strani veći deo prvaka, deo vojske i, što je bilo presudno, naklonost Porte koja u mladom knezu nije videla pouzdanog sagovornika. Krajem avgusta 1842. Mihailo je, pod pritiskom i sa svešću da otpor više nema smisla, abdicirao i napustio Srbiju. Otišao je u izgnanstvo, koje će potrajati gotovo dve decenije."
+        "text": "Krajem leta 1842. stvari su se izvile iz okvira pregovora. Vučić je, pošto je pripremio teren, podigao oružanu bunu — u izvorima poznatu kao Vučićeva buna. Naoružana opozicija krenula je prema Topčideru i Beogradu. Mihailo je pokušao da prikupi snage, ali se brzo pokazalo da podrške u zemlji nema dovoljno: ustavobranitelji su imali na svojoj strani veći deo prvaka, deo vojske i, što je bilo presudno, naklonost Porte koja u mladom knezu nije videla pouzdanog sagovornika. Početkom septembra 1842. Mihailo je, pod pritiskom i sa svešću da otpor više nema smisla, prebegao preko Save u Zemun, a nova vlast ga je proglasila svrgnutim. Otišao je u izgnanstvo, koje će potrajati gotovo dve decenije."
       },
       {
         "type": "paragraph",
@@ -12775,13 +12774,13 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Mihailo će se u Srbiju vratiti tek 1860. godine, kao zreo čovek koji je u međuvremenu video pola Evrope, izbliza pratio kako se vode druge male države i naučio koliko košta nestrpljenje. Druga vladavina biće drugačija — promišljenija, opreznija u sukobima, jasnija u ciljevima. Ali ono što se 1842. dogodilo u Vragolovima i Topčideru ostalo je u njegovom pamćenju kao prva, skupo plaćena lekcija: knez u Srbiji devetnaestog veka ne može vladati protiv prvaka samo zato što ima titulu i očevo ime."
+        "text": "Mihailo će se u Srbiju vratiti tek 1859, a na presto 1860. godine, kao zreo čovek koji je u međuvremenu video pola Evrope, izbliza pratio kako se vode druge male države i naučio koliko košta nestrpljenje. Druga vladavina biće drugačija — promišljenija, opreznija u sukobima, jasnija u ciljevima. Ali ono što se dogodilo 1842. ostalo je u njegovom pamćenju kao prva, skupo plaćena lekcija: knez u Srbiji devetnaestog veka ne može vladati protiv prvaka samo zato što ima titulu i očevo ime."
       }
     ],
     "subtitle": "Mlad obrenovićki knez između očevog nasleđa, Sovjeta ustavobranitelja i bune Tome Vučića Perišića",
     "dateLabel": "1839–1842.",
     "timelinePosition": "1839–1842.",
-    "summary": "Sedamnaestogodišnji Mihailo Obrenović preuzima presto u senci hatišerifa iz 1838, sukobljava se sa ustavobraniteljima i posle Vučićeve bune 1842. odlazi u prvo izgnanstvo.",
+    "summary": "Šesnaestogodišnji Mihailo Obrenović preuzima presto u senci hatišerifa iz 1838, sukobljava se sa ustavobraniteljima i posle Vučićeve bune 1842. odlazi u prvo izgnanstvo.",
     "keyPeople": [
       "Mihailo Obrenović",
       "Miloš Obrenović",
@@ -12792,8 +12791,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "keyPlaces": [
       "Kragujevac",
       "Beograd",
-      "Topčider",
-      "Vragolovi"
+      "Topčider"
     ]
   },
   "day-227": {
@@ -12809,11 +12807,11 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Sastav grupe bio je šarolikiji nego što kasnije slike obično pokazuju. Jezgro su činili viši činovnici izrasli u Miloševoj administraciji koji su se postepeno okrenuli protiv njega, deo stare vojvodske elite iz Drugog ustanka, trgovci koji su tražili pravnu sigurnost za svoj kapital, i mlađi ljudi školovani u Habzburškoj monarhiji ili u Rusiji — prvi srpski činovnici koji su o državi mislili rečnikom evropske birokratije. Među vođama su se izdvajala četiri imena. Toma Vučić Perišić, čovek vojničkog porekla iz Tršića, bio je narodni tribun i ruka koja je u presudnim trenucima okupljala oružanu pratnju. Avram Petronijević, iskusan diplomata i dugogodišnji ministar, bio je politički mozak grupe i njena veza sa Portom. Stojan Simić, bogati trgovac i predsednik Sovjeta, davao je pokretu pečat staloženosti. A nad svima, kao novi simbolični vrh, stajao je Aleksandar Karađorđević, sin vožda Karađorđa, do tada čovek bez velike političke biografije, ali sa imenom koje je za suparničku dinastiju značilo sve."
+        "text": "Sastav grupe bio je šarolikiji nego što kasnije slike obično pokazuju. Jezgro su činili viši činovnici izrasli u Miloševoj administraciji koji su se postepeno okrenuli protiv njega, deo stare vojvodske elite iz Drugog ustanka, trgovci koji su tražili pravnu sigurnost za svoj kapital, i mlađi ljudi školovani u Habzburškoj monarhiji ili u Rusiji — prvi srpski činovnici koji su o državi mislili rečnikom evropske birokratije. Među vođama su se izdvajala četiri imena. Toma Vučić Perišić, čovek vojničkog porekla iz Posavine, bio je narodni tribun i ruka koja je u presudnim trenucima okupljala oružanu pratnju. Avram Petronijević, iskusan diplomata i dugogodišnji ministar, bio je politički mozak grupe i njena veza sa Portom. Stojan Simić, bogati trgovac i predsednik Sovjeta, davao je pokretu pečat staloženosti. A nad svima, kao novi simbolični vrh, stajao je Aleksandar Karađorđević, sin vožda Karađorđa, do tada čovek bez velike političke biografije, ali sa imenom koje je za suparničku dinastiju značilo sve."
       },
       {
         "type": "paragraph",
-        "text": "Septembra 1842, posle Mihailovog odlaska, Sovjet je izabrao Aleksandra Karađorđevića za kneza. Time se rivalska dinastija prvi put popela na presto, i to je bio događaj čiji se značaj tada nije do kraja sagledao. Dve velike srpske kuće, koje su iz dva ustanka izašle kao suparnici, sada su se otvoreno smenjivale na čelu države, i unutrašnji život Srbije narednih decenija biće u velikoj meri određen tom dinastičkom dvojnošću. Spolja, izbor je morao biti potvrđen — i Carigrad i Petrograd su imali svoju reč. Posle više meseci pregovora, pritisaka i jednog dodatnog izbora, ruska saglasnost je 1843. data, a Aleksandar je sa novim, slabijim ovlašćenjima ostao na prestolu."
+        "text": "Septembra 1842, posle Mihailovog odlaska, narodna skupština na Vračaru proglasila je Aleksandra Karađorđevića za kneza. Time se rivalska dinastija prvi put popela na presto, i to je bio događaj čiji se značaj tada nije do kraja sagledao. Dve velike srpske kuće, koje su iz dva ustanka izašle kao suparnici, sada su se otvoreno smenjivale na čelu države, i unutrašnji život Srbije narednih decenija biće u velikoj meri određen tom dinastičkom dvojnošću. Spolja, izbor je morao biti potvrđen — i Carigrad i Petrograd su imali svoju reč. Posle više meseci pregovora, pritisaka i jednog dodatnog izbora, ruska saglasnost je 1843. data, a Aleksandar je, ponovo izabran, ostao na prestolu."
       },
       {
         "type": "heading",
@@ -12830,13 +12828,13 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Pa ipak, ono što je ova grupa ostavila iza sebe bilo je trajno. U narednim godinama proširiće se činovnički aparat, uvesti redovan budžet, ustanoviti Liceum kao klica buduće više škole, pojaviti se prve ozbiljne novine, i — što je verovatno najvažnije — 1844. biti donet Građanski zakonik, prvi moderni kodifikovani građanski zakon na Balkanu. Srbija će u tim godinama prestati da bude jedna velika seoska kneževina sa dvorom u Topčideru i početi da liči na malu evropsku državu sa kancelarijama, pisarima, registrima i pečatima. To što su sve to radili ljudi kojima je bliža bila reč „red” nego reč „sloboda” deo je istine — ali deo iste istine je i to da bez tog reda kasnija sloboda nije imala na šta da se osloni. Jesen 1842. u tom smislu nije samo dinastička smena. Ona je tačka u kojoj srpska država tiho odlučuje da ubuduće, ma kojeg da imena nosi vladar, mora postojati nešto čvršće od njegove volje."
+        "text": "Pa ipak, ono što je ova grupa ostavila iza sebe bilo je trajno. U narednim godinama proširiće se činovnički aparat, uvesti redovan budžet, razviti Licej, osnovan još 1838, u klicu buduće Velike škole, pojaviti se prve ozbiljne novine, i — što je verovatno najvažnije — 1844. biti donet Građanski zakonik, prvi moderni kodifikovani građanski zakon na Balkanu. Srbija će u tim godinama prestati da bude jedna velika seoska kneževina sa dvorom u Topčideru i početi da liči na malu evropsku državu sa kancelarijama, pisarima, registrima i pečatima. To što su sve to radili ljudi kojima je bliža bila reč „red” nego reč „sloboda” deo je istine — ali deo iste istine je i to da bez tog reda kasnija sloboda nije imala na šta da se osloni. Jesen 1842. u tom smislu nije samo dinastička smena. Ona je tačka u kojoj srpska država tiho odlučuje da ubuduće, ma kojeg da imena nosi vladar, mora postojati nešto čvršće od njegove volje."
       }
     ],
     "subtitle": "Kako je posle pada Mihaila Obrenovića Srbijom počela da upravlja oligarhija činovnika u ime hatišerifa iz 1838.",
     "dateLabel": "1842.",
     "timelinePosition": "1842.",
-    "summary": "U jesen 1842, posle prinudne abdikacije Mihaila Obrenovića, vlast u Srbiji preuzima krug činovnika i prvaka koji sebe naziva ustavobraniteljima — branitelji hatišerifa iz 1838. i graditelji prve prave državne uprave.",
+    "summary": "U jesen 1842, posle Vučićeve bune i Mihailovog odlaska preko Save, vlast u Srbiji preuzima krug činovnika i prvaka koji sebe naziva ustavobraniteljima — branitelji hatišerifa iz 1838. i graditelji prve prave državne uprave.",
     "keyPeople": [
       "Toma Vučić Perišić",
       "Avram Petronijević",
@@ -12861,11 +12859,11 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Toma Vučić Perišić rođen je oko 1788. godine u okolini Užica. Bio je sin sela i bune. Učestvovao je u Prvom srpskom ustanku kao mladić, prošao kroz poraz 1813. i izgnanstvo, vratio se sa Milošem u Drugi ustanak i tu se istakao kao vojnik koji se ne plaši ni krvi ni naređenja. Pod Milošem je dospeo do kapetana, kasnije do generala, a u narodu je stekao glas surovog ali pravičnog čoveka, koji govori jezikom šumadijske raje i ume sa njom. Bio je dugo Milošev čovek, jedan od onih na koje se knez oslanjao kada je trebalo slomiti otpor neke nahije. Ali tridesetih godina, kako je Miloš sve više vladao samovoljno, Vučić se od njega počeo udaljavati. Smatrao je — možda iskreno, možda iz lične ambicije — da je vreme da se vlast jednog čoveka ograniči."
+        "text": "Toma Vučić Perišić rođen je oko 1788. godine u Posavini, kod Obrenovca. Bio je sin sela i bune. Učestvovao je u Prvom srpskom ustanku kao mladić, prošao kroz poraz 1813. i izgnanstvo, vratio se sa Milošem u Drugi ustanak i tu se istakao kao vojnik koji se ne plaši ni krvi ni naređenja. Pod Milošem je dospeo do kapetana, kasnije do zvanja vojvode, a u narodu je stekao glas surovog ali pravičnog čoveka, koji govori jezikom šumadijske raje i ume sa njom. Bio je dugo Milošev čovek, jedan od onih na koje se knez oslanjao kada je trebalo slomiti otpor neke nahije. Ali tridesetih godina, kako je Miloš sve više vladao samovoljno, Vučić se od njega počeo udaljavati. Smatrao je — možda iskreno, možda iz lične ambicije — da je vreme da se vlast jednog čoveka ograniči."
       },
       {
         "type": "paragraph",
-        "text": "Avram Petronijević bio je sasvim druga vrsta čoveka. Rođen 1791. godine u porodici cincarskog porekla, odrastao je među trgovcima i činovnicima, naučio grčki i francuski, video Beč i Carigrad. Dok je Vučić u mladosti gađao iz puške, Petronijević je u kancelarijama učio kako se piše diplomatska nota. Ušao je u srpsku upravu kao prevodilac i pisar, brzo se uzdigao i postao jedan od prvih „evropskih” činovnika kneževine — čovek u kojem je novonastala srpska država dobila ono što joj je najviše nedostajalo: nekoga ko zna kako se razgovara sa stranim dvorovima. Godinama je bio ministar inostranih dela, kasnije i finansija; bio je intelektualni mozak ustavobraniteljske politike dok je Vučić bio njena snaga."
+        "text": "Avram Petronijević bio je sasvim druga vrsta čoveka. Rođen 1791. godine u Tekiji na Dunavu, odrastao je među trgovcima i činovnicima, naučio grčki i francuski, video Beč i Carigrad. Dok je Vučić u mladosti gađao iz puške, Petronijević je u kancelarijama učio kako se piše diplomatska nota. Ušao je u srpsku upravu kao prevodilac i pisar, brzo se uzdigao i postao jedan od prvih „evropskih” činovnika kneževine — čovek u kojem je novonastala srpska država dobila ono što joj je najviše nedostajalo: nekoga ko zna kako se razgovara sa stranim dvorovima. Godinama je bio ministar inostranih dela, a potom i predsednik vlade; bio je intelektualni mozak ustavobraniteljske politike dok je Vučić bio njena snaga."
       },
       {
         "type": "heading",
@@ -12874,11 +12872,11 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Do 1842. njih dvojica su, svaki sa svoje strane, došli do istog zaključka: mladi knez Mihailo Obrenović, koji je nasledio oca posle Miloševe abdikacije 1839, ne sme više da vlada. Mihailo je pokušavao da održi obrenovićevsku ličnu vlast u sistemu koji su 1838. nametnuli „Turski ustav” i Sovjet — i u tom sukobu izgubio je. U septembru 1842. Vučić je podigao šumadijsku vojnu pobunu, Petronijević joj je dao politički i diplomatski oblik, a Sovjet je proglasio Mihailovu vlast za nepostojeću. Knez je napustio zemlju. Na njegovo mesto izabran je Aleksandar Karađorđević, sin vožda Karađorđa — čovek umeren, donekle povučen, kojeg su upravo zato izabrali. Vučić i Petronijević nisu želeli novog jakog kneza; želeli su kneza kroz kojeg će vladati Sovjet."
+        "text": "Do 1842. njih dvojica su, svaki sa svoje strane, došli do istog zaključka: mladi knez Mihailo Obrenović, koji je nasledio oca posle Miloševe abdikacije 1839, ne sme više da vlada. Mihailo je pokušavao da održi obrenovićevsku ličnu vlast u sistemu koji su 1838. nametnuli „Turski ustav” i Sovjet — i u tom sukobu izgubio je. U septembru 1842. Vučić je podigao šumadijsku vojnu pobunu, Petronijević joj je dao politički i diplomatski oblik. Knez je napustio zemlju, a privremena vlada i skupština na Vračaru proglasile su ga svrgnutim. Na njegovo mesto izabran je Aleksandar Karađorđević, sin vožda Karađorđa — čovek umeren, donekle povučen, kojeg su upravo zato izabrali. Vučić i Petronijević nisu želeli novog jakog kneza; želeli su kneza kroz kojeg će vladati Sovjet."
       },
       {
         "type": "paragraph",
-        "text": "U narednoj deceniji oni jesu vladali. Petronijević je u Beogradu i evropskim prestonicama vodio spoljne poslove, finansije i pregovore sa Portom; Vučić je bio onaj koga su se ljudi po unutrašnjosti bojali. Politički su sebe predstavljali kao „narodnjake”, oslonjene na seljaštvo nasuprot obrenovićevskoj kliki, i u tome je bilo istine: Vučić je zaista umeo da govori narodu i imao je oslonac u Šumadiji. Ali u stvarnosti su vladali kroz Sovjet, kroz činovništvo i, kada je trebalo, kroz policijska sredstva — hapšenja, progonstva, ućutkivanje opozicije. Njihov režim doneo je Srbiji prve ozbiljne institucije, sređenu upravu i 1844. godine Građanski zakonik, jedan od najvažnijih pravnih spomenika devetnaestog veka. Doneo je i represiju nad protivnicima koja se ne sme prećutati. Nisu bili tirani u potpunom smislu reči, ali ni demokrate; bili su činovnička oligarhija sa vojničkom rukom."
+        "text": "U narednoj deceniji oni jesu vladali. Petronijević je u Beogradu i evropskim prestonicama vodio spoljne poslove i pregovore sa Portom; Vučić je bio onaj koga su se ljudi po unutrašnjosti bojali. Politički su sebe predstavljali kao „narodnjake”, oslonjene na seljaštvo nasuprot obrenovićevskoj kliki, i u tome je bilo istine: Vučić je zaista umeo da govori narodu i imao je oslonac u Šumadiji. Ali u stvarnosti su vladali kroz Sovjet, kroz činovništvo i, kada je trebalo, kroz policijska sredstva — hapšenja, progonstva, ućutkivanje opozicije. Njihov režim doneo je Srbiji prve ozbiljne institucije, sređenu upravu i 1844. godine Građanski zakonik, jedan od najvažnijih pravnih spomenika devetnaestog veka. Doneo je i represiju nad protivnicima koja se ne sme prećutati. Nisu bili tirani u potpunom smislu reči, ali ni demokrate; bili su činovnička oligarhija sa vojničkom rukom."
       },
       {
         "type": "paragraph",
@@ -12886,10 +12884,10 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Kraj im je došao gotovo istovremeno i u istom gradu. U proleće 1859. obojica su se zatekla u Carigradu, na putu vezanom za diplomatsku misiju Porti, u trenutku kada je Miloš Obrenović već bio vraćen na presto i kada je ustavobraniteljska era bila gotova. Tamo su, u razmaku od nekoliko nedelja, obojica umrla. Među savremenicima je odmah počela da kruži sumnja da su otrovani — bilo od strane novih Obrenovićevih ljudi, bilo nekog drugog — ali za to nikada nije iznet pouzdan dokaz, pa istorija tu sumnju mora ostaviti otvorenom. Sa njima je nestao i poslednji aktivni oslonac njihovog režima. Ono što su za sobom ostavili nije bila dinastija ni stranka, već nešto teže pokvarljivo: državna uprava, zakon i ideja da Srbijom ne mora vladati jedan čovek."
+        "text": "Kraj im nije došao zajedno. Petronijević je umro još 1852, u Carigradu, na diplomatskoj misiji. Vučića je Miloš Obrenović, vraćen na presto kada je ustavobraniteljska era bila gotova, 1859. dao uhapsiti; umro je u julu iste godine kao zatvorenik u Beogradu. Savremenici su tvrdili da je otrovan, što nikada nije dokazano. Sa njima je nestao i poslednji aktivni oslonac njihovog režima. Ono što su za sobom ostavili nije bila dinastija ni stranka, već nešto teže pokvarljivo: državna uprava, zakon i ideja da Srbijom ne mora vladati jedan čovek."
       }
     ],
-    "subtitle": "Dvojica ljudi koji su 1842. preuzeli Srbiju — kapetan iz šumadijskih ustanaka i diplomata cincarskog porekla",
+    "subtitle": "Dvojica ljudi koji su 1842. preuzeli Srbiju — kapetan iz šumadijskih ustanaka i diplomata iz Tekije",
     "dateLabel": "1842.",
     "timelinePosition": "1842.",
     "summary": "Toma Vučić Perišić i Avram Petronijević bili su vojnička snaga i diplomatski mozak ustavobraniteljskog režima — različiti ljudi koji su, zajedno, srušili Obrenoviće 1842. i deceniju vodili Srbiju.",
@@ -12902,7 +12900,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     ],
     "keyPlaces": [
       "Beograd",
-      "Užice",
+      "Posavina",
       "Carigrad",
       "Šumadija"
     ]
@@ -12920,16 +12918,16 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Hronologija smena izgleda kao kazaljka koja se zaglavila između dva broja. Miloš Obrenović vladao je od 1817. do 1839, kada je pod pritiskom ustavobranitelja morao da abdicira. Nasledio ga je sin Mihailo I, ali kratko, do 1842, kada ga je narodna pobuna pomerila u korist Aleksandra Karađorđevića, sina Karađorđevog. Aleksandar je vladao do 1858, kada je na Svetoandrejskoj skupštini smenjen i pozvan — Miloš Obrenović, sada već star, ali simbolično vraćen na presto. Umro je dve godine kasnije i nasledio ga je opet Mihailo, sada kao Mihailo II, koji je 1868. ubijen u Košutnjaku, najverovatnije u uroti vezanoj za pristalice Karađorđevića, premda do danas detalji ostaju delimično otvoreni."
+        "text": "Hronologija smena izgleda kao kazaljka koja se zaglavila između dva broja. Miloš Obrenović vodio je Srbiju od 1815, a kao nasledni knez, proglašen 1817, vladao je do 1839, kada je pod pritiskom ustavobranitelja morao da abdicira. Nasledio ga je stariji sin Milan, koji je umro posle nekoliko nedelja, a zatim Mihailo, ali kratko, do 1842, kada ga je narodna pobuna pomerila u korist Aleksandra Karađorđevića, sina Karađorđevog. Aleksandar je vladao do 1858, kada je na Svetoandrejskoj skupštini smenjen i pozvan — Miloš Obrenović, sada već star, ali simbolično vraćen na presto. Umro je dve godine kasnije i nasledio ga je opet Mihailo, koji je 1868. ubijen u Košutnjaku, najverovatnije u uroti vezanoj za pristalice Karađorđevića, premda do danas detalji ostaju delimično otvoreni."
       },
       {
         "type": "heading",
         "level": 2,
-        "text": "Ni jedan presto, ni jedna mirna smrt"
+        "text": "Jedan presto, retko mirna smrt"
       },
       {
         "type": "paragraph",
-        "text": "Posle Mihailove pogibije presto je dobio njegov maloletni sinovac Milan Obrenović, koji će vladati do 1889. — najpre kao knez, a od 1882. kao kralj proglašene Kraljevine Srbije. Milan je abdicirao posle dugog ličnog i političkog sloma, ostavivši presto sinu Aleksandru, koji je vladao do 1903, kada su ga oficiri u Majskom prevratu ubili zajedno sa kraljicom Dragom. Tek tada se, posle više od osam decenija, presto vratio drugoj kući — Petar I Karađorđević, unuk Karađorđev, došao je iz izgnanstva i zavladao Srbijom. Ako se redom prebroje sve smene od 1817. do 1903, dolazi se do trezvenog zaključka: nijedan srpski vladar tog veka nije umro prirodnom smrću na prestolu. Svaki je otišao kroz abdikaciju, svrgavanje, atentat ili prevrat."
+        "text": "Posle Mihailove pogibije presto je dobio njegov maloletni rođak Milan Obrenović, unuk Miloševog brata Jevrema, koji će vladati do 1889. — najpre kao knez, a od 1882. kao kralj proglašene Kraljevine Srbije. Milan je abdicirao posle dugog ličnog i političkog sloma, ostavivši presto sinu Aleksandru, koji je vladao do 1903, kada su ga oficiri u Majskom prevratu ubili zajedno sa kraljicom Dragom. Tek tada se, posle četiri i po decenije, presto vratio drugoj kući — Petar I Karađorđević, unuk Karađorđev, došao je iz izgnanstva i zavladao Srbijom. Ako se redom prebroje sve smene od 1817. do 1903, dolazi se do trezvenog zaključka: retko je koji srpski vladar tog veka umro na prestolu — izuzeci su teško bolesni Milan (1839) i ostareli Miloš (1860); svi ostali su otišli kroz abdikaciju, svrgavanje, atentat ili prevrat."
       },
       {
         "type": "paragraph",
@@ -12970,7 +12968,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "content": [
       {
         "type": "paragraph",
-        "text": "Kada je nemački istoričar Leopold Ranke 1829. godine u Berlinu objavio knjigu „Die serbische Revolution”, on je gotovo nehotice učinio nešto što ni sami akteri u Srbiji nisu još sasvim razumeli — dao je tridesetogodišnjem nizu ustanaka, ratova, pregovora i tihih reformi jedno ime. Od tada, za evropsku istoriografiju, razdoblje između 1804. i 1839. nije više zbir lokalnih buna na granici Carstva, nego „Srpska revolucija” — pojava istog reda kao grčki ustanak ili italijanski Rizorđimento. Iz današnje udaljenosti može se mirno reći šta je to razdoblje trajno donelo, a šta je ostavilo otvorenim za one koji dolaze.",
+        "text": "Kada je nemački istoričar Leopold Ranke 1829. godine u Hamburgu objavio knjigu „Die serbische Revolution”, on je gotovo nehotice učinio nešto što ni sami akteri u Srbiji nisu još sasvim razumeli — dao je četvrtvekovnom nizu ustanaka, ratova, pregovora i tihih reformi jedno ime. Od tada, za evropsku istoriografiju, ono što je počelo 1804. nije više zbir lokalnih buna na granici Carstva, nego „Srpska revolucija” — pojava istog reda kao grčki ustanak ili italijanski Rizorđimento. U ovom kursu, kao i kod dela istoričara, to razdoblje se zaključuje abdikacijom kneza Miloša 1839. Iz današnje udaljenosti može se mirno reći šta je to razdoblje trajno donelo, a šta je ostavilo otvorenim za one koji dolaze.",
         "dropcap": true
       },
       {
@@ -12979,7 +12977,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Drugo, ispod političke promene odigrala se i jedna tiha društvena. Stari osmanski poredak u srpskim oblastima počivao je na čifluku — na tome da je zemlja krajnje vlasništvo spahije, a seljak na njoj radi uz davanje dela roda. Tokom 1830-ih, koristeći ovlašćenja koja mu je donela autonomija, Miloš je sistematski otkupljivao spahijska prava i isplaćivao bivše vlasnike, sve dok od starog poretka nije ostala samo uspomena. Iz toga je nastalo srpsko slobodno seljaštvo — sitan posednik koji je sam na svojoj zemlji. Taj sloj će vekovima ostati socijalna osnova srpske države, sa svim svojim vrlinama strpljive izdržljivosti i sa svojim ograničenjima koja će se osetiti kasnije, kada se zatraži brz industrijski razvoj."
+        "text": "Drugo, ispod političke promene odigrala se i jedna tiha društvena. Stari osmanski poredak u srpskim oblastima počivao je na spahiluku — zemlja je bila sultanova, a spahija je od seljaka ubirao dažbine. Hatišerifi 1830. i 1833. i Sretenjski ustav 1835. ukinuli su te odnose; spahije su obeštećene iz danka koji je Srbija plaćala Porti. Iz toga je nastalo srpsko slobodno seljaštvo — sitan posednik koji je sam na svojoj zemlji. Taj sloj će vekovima ostati socijalna osnova srpske države, sa svim svojim vrlinama strpljive izdržljivosti i sa svojim ograničenjima koja će se osetiti kasnije, kada se zatraži brz industrijski razvoj."
       },
       {
         "type": "paragraph",

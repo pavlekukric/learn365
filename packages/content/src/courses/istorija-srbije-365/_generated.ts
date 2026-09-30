@@ -2933,7 +2933,7 @@ export const lessons: readonly LessonSummary[] = [
     "order": 9,
     "title": "Širenje ustanka",
     "readingTimeMinutes": 6,
-    "year": 1807,
+    "year": 1806,
     "isPlaceholder": false
   },
   {
@@ -3113,7 +3113,7 @@ export const lessons: readonly LessonSummary[] = [
     "order": 7,
     "title": "Miloš učvršćuje vlast",
     "readingTimeMinutes": 6,
-    "year": 1820,
+    "year": 1816,
     "isPlaceholder": false
   },
   {
@@ -3172,7 +3172,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 224,
     "order": 12,
     "title": "Turski ustav iz 1838.",
-    "readingTimeMinutes": 6,
+    "readingTimeMinutes": 5,
     "year": 1838,
     "isPlaceholder": false
   },
@@ -3233,7 +3233,7 @@ export const lessons: readonly LessonSummary[] = [
     "order": 4,
     "title": "Karađorđevići i Obrenovići",
     "readingTimeMinutes": 5,
-    "year": 1820,
+    "year": 1842,
     "isPlaceholder": false
   },
   {
@@ -3245,7 +3245,7 @@ export const lessons: readonly LessonSummary[] = [
     "order": 5,
     "title": "Nasleđe Srpske revolucije",
     "readingTimeMinutes": 7,
-    "year": 1835,
+    "year": 1842,
     "isPlaceholder": false
   },
   {
