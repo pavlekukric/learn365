@@ -2703,7 +2703,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Prvi srpski vladar kome ime sa dovoljno sigurnosti znamo jeste Vlastimir, knez Raške sredinom devetog veka. O njemu glavnu vest donosi vizantijski car-pisac Konstantin Porfirogenit, gotovo sto godina kasnije, ali njegovo svedočanstvo ima težinu jer se oslanja na carsku kancelariju. Vlastimir je vladao u trenutku kada je susedna Bugarska bila u snažnom usponu i pokušavala da svoju vlast proširi i na slovenske oblasti zapadno od svojih granica. Kada je bugarski kan Presijan poveo vojsku na Srbe, Vlastimir ga je u ratu vođenom oko 839–842. godine porazio — koliko vojnom veštinom, toliko i poznavanjem terena. Bila je to prva pobeda srpskog vladara koju izvori jasno beleže, i njome ulazi srpsko ime u redovan vizantijski rečnik."
+        "text": "Prvi srpski vladar kome ime sa dovoljno sigurnosti znamo jeste Vlastimir, knez Raške sredinom devetog veka. O njemu glavnu vest donosi vizantijski car-pisac Konstantin Porfirogenit, gotovo sto godina kasnije, ali njegovo svedočanstvo ima težinu jer se oslanja na carsku kancelariju. Vlastimir je vladao u trenutku kada je susedna Bugarska bila u snažnom usponu i pokušavala da svoju vlast proširi i na slovenske oblasti zapadno od svojih granica. Kada je bugarski kan Presijan poveo vojsku na Srbe, Vlastimir ga je u trogodišnjem ratu, vođenom sredinom 9. veka, porazio — koliko vojnom veštinom, toliko i poznavanjem terena. Bila je to prva pobeda srpskog vladara koju izvori jasno beleže, i njome ulazi srpsko ime u redovan vizantijski rečnik."
       },
       {
         "type": "paragraph",
@@ -3710,7 +3710,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Tako je Dragutin postao kralj. Njegova prva vladavina trajala je svega šest godina, ali je u njima već stekao iskustvo koje je oblikovalo sve ostalo. Pokušao je da održi unutrašnji red između velikaša koji su prvi put videli kako se jedan kralj smenjuje silom, da nastavi rudarsku i trgovačku politiku svog oca, i da čuva severnu granicu, gde ga je brak sa Katarinom, kćerkom ugarskog kralja Stefana V, sklopljen još oko 1268, već vezivao za ugarski dvor. Taj brak će se pokazati važnijim nego što je u trenutku sklapanja izgledao: kroz Katarinu i njenu rodbinu otvoriće se vrata ugarskih darova i posedâ na koje će se Dragutin osloniti u drugom delu svog života."
+        "text": "Tako je Dragutin postao kralj. Njegova prva vladavina trajala je svega šest godina, ali je u njima već stekao iskustvo koje je oblikovalo sve ostalo. Pokušao je da održi unutrašnji red između velikaša koji su prvi put videli kako se jedan kralj smenjuje silom, da nastavi rudarsku i trgovačku politiku svog oca, i da čuva severnu granicu, gde ga je brak sa Katarinom, kćerkom ugarskog kralja Stefana V, sklopljen između 1268. i 1270, već vezivao za ugarski dvor. Taj brak će se pokazati važnijim nego što je u trenutku sklapanja izgledao: kroz Katarinu i njenu rodbinu otvoriće se vrata ugarskih darova i posedâ na koje će se Dragutin osloniti u drugom delu svog života."
       },
       {
         "type": "paragraph",
@@ -4686,7 +4686,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "content": [
       {
         "type": "paragraph",
-        "text": "Na padinama jedne ugasle vulkanske gore u istočnom delu Kosova, nedaleko od današnje Prištine, početkom 14. veka (prvi pomen 1326) počelo je da niče naselje koje će za stotinak godina postati jedan od najbogatijih gradova jugoistočne Evrope. Zvao se Novo Brdo. Nije bio prestonica, ni sedište arhiepiskopije, ni manastirsko središte — bio je rudnik. A ipak je upravo on, više nego mnogi dvorovi i katedrale, držao u rukama ono čime se u srednjem veku kupovala i sila i mir: srebro.",
+        "text": "Na padinama jedne ugasle vulkanske gore u istočnom delu Kosova, nedaleko od današnje Prištine, početkom 14. veka (prvi pomeni 1319. i 1326) počelo je da niče naselje koje će za stotinak godina postati jedan od najbogatijih gradova jugoistočne Evrope. Zvao se Novo Brdo. Nije bio prestonica, ni sedište arhiepiskopije, ni manastirsko središte — bio je rudnik. A ipak je upravo on, više nego mnogi dvorovi i katedrale, držao u rukama ono čime se u srednjem veku kupovala i sila i mir: srebro.",
         "dropcap": true
       },
       {
@@ -6152,7 +6152,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Konačni slom došao je posle Nikopoljske bitke 1396, kada je velika krstaška vojska pretrpela razoran poraz na Dunavu; Vuk — za razliku od drugih srpskih gospodara — nije hteo da se bori na osmanskoj strani. Iskoristivši trenutak, sultan Bajazit obračunao se sa onima koji su mu se i dalje opirali. Vuk Branković bio je zarobljen, njegove oblasti rasturene, i godine 1397. umro je u osmanskom zarobljeništvu. Njegova udovica Mara i sinovi će kasnije, strpljivom politikom, povratiti deo porodičnih zemalja; jedan od tih sinova, Đurađ Branković, postaće despot i obnoviti srpsku državu na novim osnovama u petnaestom veku."
+        "text": "Konačni slom došao je posle Nikopoljske bitke 1396, kada je velika krstaška vojska pretrpela razoran poraz na Dunavu; Vuk — za razliku od drugih srpskih gospodara — već je bio otkazao poslušnost sultanu. Iskoristivši trenutak, sultan Bajazit obračunao se sa onima koji su mu se i dalje opirali. Vuk Branković bio je zarobljen, njegove oblasti rasturene, i godine 1397. umro je u osmanskom zarobljeništvu. Njegova udovica Mara i sinovi će kasnije, strpljivom politikom, povratiti deo porodičnih zemalja; jedan od tih sinova, Đurađ Branković, postaće despot i obnoviti srpsku državu na novim osnovama u petnaestom veku."
       },
       {
         "type": "paragraph",
@@ -7280,7 +7280,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Bedeme je nosilo oko dvadeset pet kula, raspoređenih duž svih triju strana trougla. Kule su dostizale visinu od dvadesetak metara, zidovi su bili debeli dva i više metara, prema kopnu i do četiri i po, a glavni materijal bio je lomljeni i tesani kamen, prošaran horizontalnim pojasevima crvene opeke u vizantijskom maniru — postupkom koji nije samo ukrašavao zid, nego mu je davao i veću čvrstinu i pomagao u izravnavanju redova prilikom gradnje. Sa spoljne strane zidove je dodatno štitio dubok šanac, koji se kod Velikog grada mogao po potrebi puniti vodom iz Jezave. Među svim kulama posebno se izdvajao donžon Malog grada, glavna kula citadele, viša i jača od ostalih, zamišljena kao poslednje uporište odbrane i kao simbol vladarske moći."
+        "text": "Bedeme je nosilo oko dvadeset pet kula, raspoređenih duž svih triju strana trougla. Kule su dostizale visinu od dvadesetak metara, zidovi su bili debeli dva i više metara, prema kopnu četiri do četiri i po, a glavni materijal bio je lomljeni i tesani kamen, prošaran horizontalnim pojasevima crvene opeke u vizantijskom maniru — postupkom koji nije samo ukrašavao zid, nego mu je davao i veću čvrstinu i pomagao u izravnavanju redova prilikom gradnje. Sa spoljne strane zidove je dodatno štitio dubok šanac, koji se kod Velikog grada mogao po potrebi puniti vodom iz Jezave. Među svim kulama posebno se izdvajao donžon Malog grada, glavna kula citadele, viša i jača od ostalih, zamišljena kao poslednje uporište odbrane i kao simbol vladarske moći."
       },
       {
         "type": "paragraph",
@@ -8859,7 +8859,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Kraj je došao iznenada. Dana 11. oktobra 1579. godine, dok je u Istanbulu sedeo na zasedanju divana, prišao mu je bosanski derviš i nožem ga smrtno ubo. Razlozi su do danas predmet rasprave: lično nezadovoljstvo, dvorska zavera ili nešto treće — nijedna verzija nije do kraja dokazana. Sa njim je nestala i jedna era. Carstvo koje je decenijama držao u rukama brzo je krenulo putem sporijeg, mukotrpnijeg propadanja."
+        "text": "Kraj je došao iznenada. Dana 12. oktobra 1579. godine, dok je u Istanbulu sedeo na zasedanju divana, prišao mu je bosanski derviš i nožem ga smrtno ubo. Razlozi su do danas predmet rasprave: lično nezadovoljstvo, dvorska zavera ili nešto treće — nijedna verzija nije do kraja dokazana. Sa njim je nestala i jedna era. Carstvo koje je decenijama držao u rukama brzo je krenulo putem sporijeg, mukotrpnijeg propadanja."
       },
       {
         "type": "paragraph",
@@ -9098,7 +9098,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "U središtu zbivanja stajao je Arsenije III Čarnojević, pećki patrijarh od 1674. godine i, u trenutku rata, najugledniji čovek srpskog naroda pod sultanom. Pećka patrijaršija, obnovljena 1557, bila je jedina velika srpska ustanova; patrijarh je bio i verski poglavar i, u praksi, narodni zastupnik pred svakom vlašću. Arsenije se posle dugog kolebanja opredelio za Habzburge: stupio je u veze sa carem Leopoldom I, primio njegov poziv da pozove svoj narod u oružje i postao moralni jamac da će ustanak biti masovan. Pod komandom Jovana Monasterlije — koga će car 1691. postaviti za podvojvodu srpskog naroda — formirani su srpski odredi koji su se borili rame uz rame sa carskom vojskom. Te odluke bile su sudbinske: jednom kada je narod javno digao oružje protiv sultana, povratak na staro stanje više nije bio bezbolan."
+        "text": "U središtu zbivanja stajao je Arsenije III Čarnojević, pećki patrijarh od 1672. godine i, u trenutku rata, najugledniji čovek srpskog naroda pod sultanom. Pećka patrijaršija, obnovljena 1557, bila je jedina velika srpska ustanova; patrijarh je bio i verski poglavar i, u praksi, narodni zastupnik pred svakom vlašću. Arsenije se posle dugog kolebanja opredelio za Habzburge: stupio je u veze sa carem Leopoldom I, primio njegov poziv da pozove svoj narod u oružje i postao moralni jamac da će ustanak biti masovan. Pod komandom Jovana Monasterlije — koga će car 1691. postaviti za podvojvodu srpskog naroda — formirani su srpski odredi koji su se borili rame uz rame sa carskom vojskom. Te odluke bile su sudbinske: jednom kada je narod javno digao oružje protiv sultana, povratak na staro stanje više nije bio bezbolan."
       },
       {
         "type": "heading",
@@ -9146,7 +9146,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "content": [
       {
         "type": "paragraph",
-        "text": "Arsenije III Čarnojević rođen je oko 1633. godine, najverovatnije u Bajicama kod Cetinja, u porodici koja je sebe vezivala za staru dinastiju Crnojevića; otud se njegovo prezime piše i Crnojević i Čarnojević — u latinskim izvorima Tschernojewitsch. O njegovim prvim godinama zna se malo; izvesno je da je rano stupio u monaštvo, da je obrazovanje stekao u manastirskim sredinama Stare Hercegovine i da se kao crkveni čovek brzo isticao. Već 1669. postao je mitropolit hvostanski, a 1674. godine, pošto se njegov prethodnik Maksim Skopljanac zbog teške bolesti povukao, izabran je za pećkog patrijarha — duhovnog poglavara svih pravoslavnih Srba pod osmanskom vlašću, od Peći i Skoplja do Budima i Sentandreje.",
+        "text": "Arsenije III Čarnojević rođen je oko 1633. godine, najverovatnije u Bajicama kod Cetinja, u porodici koja je sebe vezivala za staru dinastiju Crnojevića; otud se njegovo prezime piše i Crnojević i Čarnojević — u latinskim izvorima Tschernojewitsch. O njegovim prvim godinama zna se malo; izvesno je da je rano stupio u monaštvo, da je obrazovanje stekao u manastirskim sredinama Stare Hercegovine i da se kao crkveni čovek brzo isticao. Već 1669. postao je mitropolit hvostanski, a 1672. godine, pošto se njegov prethodnik Maksim Skopljanac zbog teške bolesti povukao, izabran je za pećkog patrijarha — duhovnog poglavara svih pravoslavnih Srba pod osmanskom vlašću, od Peći i Skoplja do Budima i Sentandreje.",
         "dropcap": true
       },
       {
@@ -12859,7 +12859,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Toma Vučić Perišić rođen je oko 1788. godine u Posavini, kod Obrenovca. Bio je sin sela i bune. Učestvovao je u Prvom srpskom ustanku kao mladić, prošao kroz poraz 1813. i izgnanstvo, vratio se sa Milošem u Drugi ustanak i tu se istakao kao vojnik koji se ne plaši ni krvi ni naređenja. Pod Milošem je dospeo do kapetana, kasnije do zvanja vojvode, a u narodu je stekao glas surovog ali pravičnog čoveka, koji govori jezikom šumadijske raje i ume sa njom. Bio je dugo Milošev čovek, jedan od onih na koje se knez oslanjao kada je trebalo slomiti otpor neke nahije. Ali tridesetih godina, kako je Miloš sve više vladao samovoljno, Vučić se od njega počeo udaljavati. Smatrao je — možda iskreno, možda iz lične ambicije — da je vreme da se vlast jednog čoveka ograniči."
+        "text": "Toma Vučić Perišić rođen je oko 1788. godine u Posavini, kod Obrenovca. Bio je sin sela i bune. Učestvovao je u Prvom srpskom ustanku kao mladić, prošao kroz poraz 1813. i izgnanstvo, vratio se sa Milošem u Drugi ustanak i tu se istakao kao vojnik koji se ne plaši ni krvi ni naređenja. Pod Milošem je dospeo do komandanta kneževe garde i ministra vojnog, kasnije do zvanja vojvode, a u narodu je stekao glas surovog ali pravičnog čoveka, koji govori jezikom šumadijske raje i ume sa njom. Bio je dugo Milošev čovek, jedan od onih na koje se knez oslanjao kada je trebalo slomiti otpor neke nahije. Ali tridesetih godina, kako je Miloš sve više vladao samovoljno, Vučić se od njega počeo udaljavati. Smatrao je — možda iskreno, možda iz lične ambicije — da je vreme da se vlast jednog čoveka ograniči."
       },
       {
         "type": "paragraph",
@@ -12887,7 +12887,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
         "text": "Kraj im nije došao zajedno. Petronijević je umro još 1852, u Carigradu, na diplomatskoj misiji. Vučića je Miloš Obrenović, vraćen na presto kada je ustavobraniteljska era bila gotova, 1859. dao uhapsiti; umro je u julu iste godine kao zatvorenik u Beogradu. Savremenici su tvrdili da je otrovan, što nikada nije dokazano. Sa njima je nestao i poslednji aktivni oslonac njihovog režima. Ono što su za sobom ostavili nije bila dinastija ni stranka, već nešto teže pokvarljivo: državna uprava, zakon i ideja da Srbijom ne mora vladati jedan čovek."
       }
     ],
-    "subtitle": "Dvojica ljudi koji su 1842. preuzeli Srbiju — kapetan iz šumadijskih ustanaka i diplomata iz Tekije",
+    "subtitle": "Dvojica ljudi koji su 1842. preuzeli Srbiju — vojnik iz šumadijskih ustanaka i diplomata iz Tekije",
     "dateLabel": "1842.",
     "timelinePosition": "1842.",
     "summary": "Toma Vučić Perišić i Avram Petronijević bili su vojnička snaga i diplomatski mozak ustavobraniteljskog režima — različiti ljudi koji su, zajedno, srušili Obrenoviće 1842. i deceniju vodili Srbiju.",
@@ -13057,7 +13057,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "U isto vreme uređivana je državna uprava. Osnovana je organizovana policija — pandurija — sa Ministarstvom unutrašnjih dela kao njenim centrom. Garašanin, koji je tim ministarstvom dugo upravljao, postao je najmoćniji čovek režima upravo zato što je držao polugu unutrašnje bezbednosti. Uređen je poreski sistem, sa boljim evidencijama i kanalisanim tokom novca u državnu kasu. Građene su prve moderne pošte, prvi tvrdi putevi, prvi telegrafski vodovi koji su Beograd povezivali sa unutrašnjošću zemlje."
+        "text": "U isto vreme uređivana je državna uprava. Osnovana je organizovana policija — pandurija — sa Ministarstvom unutrašnjih dela kao njenim centrom. Garašanin, koji je tim ministarstvom dugo upravljao, postao je najmoćniji čovek režima upravo zato što je držao polugu unutrašnje bezbednosti. Građene su prve moderne pošte, prvi tvrdi putevi, prvi telegrafski vodovi koji su Beograd povezivali sa unutrašnjošću zemlje."
       },
       {
         "type": "paragraph",
@@ -13154,7 +13154,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "content": [
       {
         "type": "paragraph",
-        "text": "U leto i jesen 1844. godine, dok je ustavobraniteljski režim u Beogradu još uvek pažljivo merio svoj položaj između sultana, ruskog cara i zapadnih sila, ministar unutrašnjih dela Ilija Garašanin sastavio je za uzak krug knežev i nekoliko poverenika dokument koji je sam Garašanin nazvao Načertanije — „nacrt”, „skica” — ali koji nije bio objavljen, niti je ikada postao deo vladine politike u službenom smislu. Bio je to pokušaj da se na nekoliko gusto pisanih strana skicira ono što Srbija, kao mala kneževina pod sultanovom vrhovnom vlašću, misli o svom položaju, susedima i budućnosti.",
+        "text": "U leto i jesen 1844. godine, dok je ustavobraniteljski režim u Beogradu još uvek pažljivo merio svoj položaj između sultana, ruskog cara i zapadnih sila, ministar unutrašnjih dela Ilija Garašanin sastavio je za uzak krug knežev i nekoliko poverenika dokument poznat kao Načertanije — „nacrt”, „skica” — koji nije bio objavljen, niti je ikada postao deo vladine politike u službenom smislu. Bio je to pokušaj da se na nekoliko gusto pisanih strana skicira ono što Srbija, kao mala kneževina pod sultanovom vrhovnom vlašću, misli o svom položaju, susedima i budućnosti.",
         "dropcap": true
       },
       {
@@ -13513,7 +13513,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Uz zakon je išla i prva ozbiljnija modernizacija. Uvedena je redovna obuka po pukovima, sa propisanim vežbama, gađanjem i smotrama. U narednim godinama Srbija je počela da nabavlja puške novijeg tipa; tek kasnije, već u drugoj polovini decenije i početkom sedamdesetih, doći će i puške sistema Pibodi, koje će uz prepravljene „Grinovke” činiti glavno naoružanje prvog poziva u ratu sa Turskom. Oficirski kor gradio se postupno. Glavni rasadnik bio je Beograd — još od 1850. godine tu je radila Artiljerijska škola, iz koje će se vremenom razviti puna Vojna akademija. Mnogi mladi oficiri slati su na školovanje u Prusku, Francusku i Rusiju, da donesu kući ono što je u Evropi tada bilo najbolje vojno znanje."
+        "text": "Uz zakon je išla i prva ozbiljnija modernizacija. Uvedena je redovna obuka po pukovima, sa propisanim vežbama, gađanjem i smotrama. U narednim godinama Srbija je počela da nabavlja puške novijeg tipa; tek kasnije, već u drugoj polovini decenije i početkom sedamdesetih, doći će i puške sistema Pibodi, koje će uz prepravljene „Grinovke” činiti najmodernije naoružanje srpske vojske u ratu sa Turskom. Oficirski kor gradio se postupno. Glavni rasadnik bio je Beograd — još od 1850. godine tu je radila Artiljerijska škola, iz koje će se vremenom razviti puna Vojna akademija. Mnogi mladi oficiri slati su na školovanje u Prusku, Francusku i Rusiju, da donesu kući ono što je u Evropi tada bilo najbolje vojno znanje."
       },
       {
         "type": "paragraph",
@@ -17510,7 +17510,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Albansko pitanje bilo je u prvoj deceniji rešavano otvoreno diskriminatornom politikom i tako ga treba i nazvati. Na Kosovu, u zapadnoj Makedoniji i delovima Sandžaka živelo je oko pola miliona Albanaca. Kraljevina je tu vodila politiku „srbizacije”: zatvarane su albanske škole, javni život na albanskom jeziku bio je sveden na najmanju moguću meru, a kroz agrarnu reformu i posebne kolonizacione zakone na južne krajeve do 1941. doseljeno je, po različitim procenama, između šezdeset i sedamdeset hiljada srpskih i crnogorskih kolonista, kojima je deljena zemlja, često ona oduzeta lokalnim porodicama. Albansko stanovništvo nije imalo političke stranke ravnopravne sa ostalima, a nezadovoljstvo se izražavalo i kroz oružani pokret kačaka, koji je vojska godinama suzbijala."
+        "text": "Albansko pitanje bilo je u prvoj deceniji rešavano otvoreno diskriminatornom politikom i tako ga treba i nazvati. Na Kosovu, u zapadnoj Makedoniji i delovima Sandžaka živelo je oko pola miliona Albanaca. Kraljevina je tu vodila politiku „srbizacije”: nastava na albanskom jeziku nije bila dopuštena, javni život na albanskom jeziku bio je sveden na najmanju moguću meru, a kroz agrarnu reformu i posebne kolonizacione zakone na južne krajeve do 1941. doseljeno je, po različitim procenama, između šezdeset i sedamdeset hiljada srpskih i crnogorskih kolonista, kojima je deljena zemlja, često ona oduzeta lokalnim porodicama. Albansko stanovništvo nije imalo političke stranke ravnopravne sa ostalima, a nezadovoljstvo se izražavalo i kroz oružani pokret kačaka, koji je vojska godinama suzbijala."
       },
       {
         "type": "paragraph",

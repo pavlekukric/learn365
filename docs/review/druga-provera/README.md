@@ -32,6 +32,8 @@ Nijedna ispravka iz prvog prolaza nije se pokazala pogrešnom.
 
 ## Za vlasnika — otvorena pitanja
 
+> **Rešeno u trećoj proveri** — vidi odeljak „Treća provera" na kraju. Tabela ispod ostaje kao zapis stanja posle druge provere.
+
 Svako ima predlog blaže formulacije u fajlu ere; ništa nije primenjeno.
 
 | Lekcija | Pitanje | Predlog |
@@ -50,7 +52,9 @@ Svako ima predlog blaže formulacije u fajlu ere; ništa nije primenjeno.
 | Day 241 | Vesle kod Beča potvrđuje jedan izvor; datum ugovora avgust (Ćorović, Marković) ili novembar 1867 (Srpska enciklopedija) | ostaviti |
 | Day 328 | Žrtve među Romima: 18.000 (Žerjavić) potvrđuje samo aritmetika kod Geigera (štamparska greška „8 000") | ostaviti ili strože |
 
-## Usputni nalazi van ⚠ redova (nisu provereni do kraja)
+## Usputni nalazi van ⚠ redova
+
+> Provereni do kraja u trećoj proveri (osim Day 212 i 307, koji su već rešeni) — vidi dole.
 
 - **Day 164:** Arsenije III izabran za patrijarha 1672 (Srpska enciklopedija); lekcija kaže 1674.
 - **Day 238:** lekcija kaže da su potpisani sporazumi sa Rumunijom; Ćorović (PDF str. 502): savez sa Rumunijom nije sklopljen.
@@ -67,3 +71,32 @@ Svako ima predlog blaže formulacije u fajlu ere; ništa nije primenjeno.
 - Ćorović je pisan 1941; tamo gde je zastareo (npr. poreklo Katarine, Day 065) to je rečeno u fajlu ere.
 - Nekoliko ✅ počiva na slabijim izvorima (turistički, novinski, školski sajtovi koji se međusobno slažu) — označeni su u fajlovima era: Day 117, 128–129, 147, 210, 222, 228, 266.
 - Ovo nije zamena za istoričara koji potpisuje kurs; to pitanje ostaje otvoreno.
+
+## Treća provera (2026-10-01)
+
+Na zahtev vlasnika: dublja pretraga za svih 13 otvorenih stavki i usputne nalaze (tri agenta; dokazi u [treca-A](./treca-A.md), [treca-B](./treca-B.md), [treca-C](./treca-C.md)). Lekcija je menjana kad dva nezavisna izvora stoje protiv teksta, ili blažom formulacijom koja važi po svim čitanjima kad spor ostaje.
+
+| Lekcija | Ishod | Izmena / razlog |
+|---|---|---|
+| Day 047 | ispravljeno | „oko 839–842" → „u trogodišnjem ratu, vođenom sredinom 9. veka" (Komatina 2021: posle ~845; Živković 2006: ~848–851; Ćorović: 840–850) |
+| Day 063 | ostaje | „urbura" je termin Leksikona srpskog srednjeg veka i novije literature |
+| Day 065 | ispravljeno | brak „između 1268. i 1270" (Srpska enciklopedija; Lazarević) |
+| Day 083 | precizirano | Novo Brdo „početkom 14. veka" potvrđeno (SANU; Zarković po Ćirkoviću); prvi pomeni 1319. i 1326 |
+| Day 109 | ublaženo | „nije hteo da se bori na osmanskoj strani" → „već je bio otkazao poslušnost sultanu" (Srpska enciklopedija / Blagojević; Ćorović) |
+| Day 129 | ublaženo | bedemi prema kopnu „četiri do četiri i po" metra (izvori 4 / 4,5) |
+| Day 148 | ostaje | `year: 1485` odgovara uvodu lekcije i redosledu 146–150 |
+| Day 158 | ispravljeno | 12. oktobar 1579 (20. šaban 987 — Gökbilgin, Afyoncu/TDV; preračunavanje po julijanskom) |
+| Day 163, 164 | ispravljeno | Arsenije III patrijarh od 1672 (Srpska enciklopedija; Pravoslavnaja enciklopedija) |
+| Day 168 | ostaje | Dositej sam piše da ga je u Karlovcima rukopoložio Pavle Nenadović; Sečuj je Arsenijev posed 1697/98–1702 (dva izvora) |
+| Day 157 | ostaje | Ćustendil i Samokov pod Peći 1557–1766 (tri izvora) |
+| Day 222 | ostaje | hatišerif novembra 1833 (Leovac; Ceylan po osmanskom dokumentu) — „krajem 1833." tačno |
+| Day 228 | ispravljeno | Vučić nije „kapetan": komandant kneževe garde i ministar vojni (Srpska enciklopedija; Milićević 2022); podnaslov „vojnik" |
+| Day 231 | uklonjeno | rečenica o „uređenom poreskom sistemu" bez izvora izbrisana (ništa nije dodato) |
+| Day 233 | ublaženo | „dokument poznat kao Načertanije" (original nije sačuvan; ne zna se ko je dao naslov) |
+| Day 238 | ostaje | sporazum sa Rumunijom 1868 postoji (Srpska enciklopedija; MSP Srbije); vojnog saveza nije bilo, lekcija ga ne tvrdi |
+| Day 239 | ublaženo | Pibodi „najmodernije naoružanje srpske vojske" (spor o prvom / drugom pozivu nije rešen) |
+| Day 241 | ostaje | Vesle kod Beča, 26. avgust 1867 (Marković; Srpska enciklopedija 2018; Ćorović) |
+| Day 307 | ispravljeno | „nastava na albanskom jeziku nije bila dopuštena" umesto „zatvarane su škole" |
+| Day 328 | ostaje | Žerjavić 18.000 Roma potvrđen u njegovoj knjizi (1993, tab. 3); „8 000" kod Geigera je štamparska greška |
+
+**Ništa više nije otvoreno iz ove provere.** Ostaje opšte: imenovani recenzent, i slabiji izvori kod nekoliko ✅ (vidi „Pouzdanost").

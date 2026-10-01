@@ -3280,7 +3280,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 233,
     "order": 3,
     "title": "Načertanije Ilije Garašanina",
-    "readingTimeMinutes": 7,
+    "readingTimeMinutes": 6,
     "year": 1844,
     "isPlaceholder": false
   },
