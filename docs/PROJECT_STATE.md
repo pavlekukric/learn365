@@ -55,6 +55,10 @@ Payments, subscriptions, push notifications, streaks, quizzes, admin / CMS, AI c
 
 ---
 
+## Security bump — Next 15.5.27 (2026-10-01): done
+
+From the 2026-10-01 review (P1 item 2): `next` 15.5.18 → 15.5.27 in `apps/web` and `packages/ui-web` (`@next/eslint-plugin-next` too), `sharp` 0.34.5 → 0.35.5 and the lint-only `brace-expansion` / `js-yaml` via root `pnpm.overrides`. `pnpm audit --prod` went from 2 critical / 20 high / 10 moderate to 0 critical; what is left is `postcss` 8.4.31 (+ its `nanoid`), which Next pins exactly and uses at build time only — it clears when Next moves it. Still open from that item: Dependabot / an audit step in CI.
+
 ## Phase 20 — second-source pass on the ⚠ items (2026-10-01): done
 
 The owner asked overnight for every ⚠ row in the era reports (a finding whose only source was Wikipedia) to be checked against independent sources and reconciled. Seven research agents (one per era, I + VIII together) read the current lesson text for each of the 154 rows and looked for ≥ 2 non-Wikipedia sources: Srpska enciklopedija, doiserbia / scindeks articles, Leksikon CANU, the SANU monuments database, TDV, published primary sources, ICTY / HRW / HLC, and the full text of Ćorović's *Istorija srpskog naroda* (svetlost.org PDF, cited by PDF page). Summary and per-era evidence: [`docs/review/druga-provera/`](./review/druga-provera/README.md).
