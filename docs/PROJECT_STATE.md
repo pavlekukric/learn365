@@ -28,7 +28,7 @@ This section is the single "what is true right now" snapshot of Istorija 365 / I
 ### Content baseline
 
 - **Contract:** [`docs/CONTENT_MODEL.md`](./CONTENT_MODEL.md) + [`docs/CONTENT_AUTHORING.md`](./CONTENT_AUTHORING.md). `Course → Era (8) → Section (37) → Lesson (365)`, all authored. Source: `content/courses/istorija-srbije-365/*.json`; `pnpm gen-content` writes `_generated.ts` (the `LessonSummary` navigation index, client-safe) and `_generated.articles.ts` (bodies, server-only via `@learn365/content/server`). Reading time is derived (`ceil(words / 150)`), never authored. CI fails on a stale generated file.
-- **Trust fields:** `sources` on 6 lessons, `byline` on none, `lastReviewedAt` on 6 (untouched by Phase 19 — it should carry a human reviewer's date). **Historian pass (Phase 19): all 365 lessons done** — eight era reports in [`docs/review/`](./review/), fixes merged era by era (PRs #68–#76). The Phase 17 note that the 2026-09-30 review's eight slips were fixed was wrong for four of them: Days 288, 324, 342 and 355 still carried them and Phase 19 fixed them (Day 293 too). Open (owner): a named reviewer + `lastReviewedAt`, the ⚠ items in the reports that rest on Wikipedia only, further coverage gaps and voice (review items 11, 21–23).
+- **Trust fields:** `sources` on 6 lessons, `byline` on none, `lastReviewedAt` on 6 (untouched by Phase 19 — it should carry a human reviewer's date). **Historian pass (Phase 19): all 365 lessons done** — eight era reports in [`docs/review/`](./review/), fixes merged era by era (PRs #68–#76). The Phase 17 note that the 2026-09-30 review's eight slips were fixed was wrong for four of them: Days 288, 324, 342 and 355 still carried them and Phase 19 fixed them (Day 293 too). **Second-source pass (Phase 20):** all 154 ⚠ rows (Wikipedia-only findings) re-checked against ≥ 2 non-Wikipedia sources — 138 confirmed, 3 corrected, 13 open for the owner ([`docs/review/druga-provera/`](./review/druga-provera/README.md)). Open (owner): a named reviewer + `lastReviewedAt`, the 13 open items and the side findings in that summary, further coverage gaps and voice (review items 11, 21–23).
 - **Figures:** one image on each of the 8 era-opener lessons (Wikimedia Commons, attribution in the caption).
 
 ### Technical baseline
@@ -54,6 +54,14 @@ This section is the single "what is true right now" snapshot of Istorija 365 / I
 Payments, subscriptions, push notifications, streaks, quizzes, admin / CMS, AI content generation in the app, native mobile (Expo, planned as Phase 8b in [`docs/MOBILE_NOTES.md`](./MOBILE_NOTES.md)), a user-facing theme toggle.
 
 ---
+
+## Phase 20 — second-source pass on the ⚠ items (2026-10-01): done
+
+The owner asked overnight for every ⚠ row in the era reports (a finding whose only source was Wikipedia) to be checked against independent sources and reconciled. Seven research agents (one per era, I + VIII together) read the current lesson text for each of the 154 rows and looked for ≥ 2 non-Wikipedia sources: Srpska enciklopedija, doiserbia / scindeks articles, Leksikon CANU, the SANU monuments database, TDV, published primary sources, ICTY / HRW / HLC, and the full text of Ćorović's *Istorija srpskog naroda* (svetlost.org PDF, cited by PDF page). Summary and per-era evidence: [`docs/review/druga-provera/`](./review/druga-provera/README.md).
+
+- **Result:** 138 confirmed, 3 corrected, 0 reverted, 13 open. None of the first pass's fixes turned out wrong.
+- **Lesson fixes:** Day 190 (no "stogodišnje drvo"; Marićevića jaruga by tradition), Day 212 (Latif-aga was the Čačak muselim; the Trnava clash as the cause; the unsourced "did not wait" story removed), Day 311 (Kamenica, today part of Velingrad), Day 070 (cult of Stefan Dečanski within about ten years, consistent with Day 073; Camblak's vita came later), Day 307 typo.
+- **Left to the owner:** 13 open items with optional softer wordings, and eight side findings outside the ⚠ rows (e.g. Day 164 Arsenije III elected 1672, Day 238 no alliance with Romania per Ćorović). Nothing in those lists was applied.
 
 ## Phase 19 — historian pass, all eras (2026-09-30): done (PRs #68–#76, live)
 

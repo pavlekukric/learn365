@@ -4026,7 +4026,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Zatvoren u tvrđavi Zvečan iznad Kosovske Mitrovice, Stefan Dečanski je u njoj umro u novembru iste 1331. godine. Po veoma raširenom, ali ne i potpuno sigurnom kazivanju izvora, ubijen je — najčešće se navodi davljenje — i to po nalogu sina. Drugi, oprezniji čitači ostavljaju otvorenu i mogućnost prirodne smrti u zatočeništvu posle teško podnetog poraza. Bilo kako bilo, prelaz vlasti bio je nasilan, a Dušan je iz tog događaja izašao kao novi kralj, sa težinom očeve smrti na svom imenu. Već nekoliko decenija kasnije crkva je oca koga je sin zbacio počela da poštuje kao svetitelja: kult Svetog Stefana Dečanskog, oslonjen na Camblakovo žitije, slika ga kao stradalnog, mučeničkog vladara, dok istorijski izvori dopuštaju i hladniju sliku — kompetentnog, ali teško opterećenog kralja čiji je život počeo i završio u istoj porodičnoj senci."
+        "text": "Zatvoren u tvrđavi Zvečan iznad Kosovske Mitrovice, Stefan Dečanski je u njoj umro u novembru iste 1331. godine. Po veoma raširenom, ali ne i potpuno sigurnom kazivanju izvora, ubijen je — najčešće se navodi davljenje — i to po nalogu sina. Drugi, oprezniji čitači ostavljaju otvorenu i mogućnost prirodne smrti u zatočeništvu posle teško podnetog poraza. Bilo kako bilo, prelaz vlasti bio je nasilan, a Dušan je iz tog događaja izašao kao novi kralj, sa težinom očeve smrti na svom imenu. Već desetak godina kasnije crkva je oca koga je sin zbacio počela da poštuje kao svetitelja: kult Svetog Stefana Dečanskog, koji je početkom 15. veka učvrstilo Camblakovo žitije, slika ga kao stradalnog, mučeničkog vladara, dok istorijski izvori dopuštaju i hladniju sliku — kompetentnog, ali teško opterećenog kralja čiji je život počeo i završio u istoj porodičnoj senci."
       }
     ],
     "subtitle": "Život jednog Nemanjića između očeve kazne, izgnanstva, povratka na presto i konačnog pada od ruke sopstvenog sina",
@@ -10651,7 +10651,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Na praznik Sretenja, 2. februara po starom odnosno 14. februara po novom kalendaru 1804. godine, skupina srpskih prvaka okupila se u Orašcu, selu u srcu Šumadije, pod stogodišnjim drvetom koje će kasnije ući u predanje. Bilo je sveštenika, oborknezova, hajdučkih harambaša i seoskih starešina. Razgovaralo se bez svečanosti, kratko i u stvar: ko će povesti. Predlozi su išli i na strane uglednijih i pismenijih ljudi; sam Karađorđe Petrović, hajduk i nekadašnji frajkor u habzburškoj vojsci 1788–1791, izabran je gotovo nužno — bio je čovek od oružja, bez visokog porekla, ali sa naravom koja se nije savijala. Predanje govori da se najpre opirao, pominjući svoju oštru ćud, ali da je pristao kada mu je rečeno da druge nema."
+        "text": "Na praznik Sretenja, 2. februara po starom odnosno 14. februara po novom kalendaru 1804. godine, skupina srpskih prvaka okupila se u Orašcu, selu u srcu Šumadije, po predanju u skrovitoj Marićevića jaruzi. Bilo je sveštenika, oborknezova, hajdučkih harambaša i seoskih starešina. Razgovaralo se bez svečanosti, kratko i u stvar: ko će povesti. Predlozi su išli i na strane uglednijih i pismenijih ljudi; sam Karađorđe Petrović, hajduk i nekadašnji frajkor u habzburškoj vojsci 1788–1791, izabran je gotovo nužno — bio je čovek od oružja, bez visokog porekla, ali sa naravom koja se nije savijala. Predanje govori da se najpre opirao, pominjući svoju oštru ćud, ali da je pristao kada mu je rečeno da druge nema."
       },
       {
         "type": "paragraph",
@@ -11945,7 +11945,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Među njima je bio i Hadži-Prodan Gligorijević, nekadašnji vojvoda iz okoline Trnave kod Čačka, veteran prvog ustanka. Za razliku od mnogih starešina koji su u jesen 1813. prešli u Austriju, on je ostao u zemlji. Imao je veze sa preostalim ustaničkim ljudima, znao je kako se diže selo i bio je u dosluhu sa monasima ovčarsko-kablarskih manastira, koji su u tom kraju činili sopstvenu vrstu mreže. Kada su tokom septembra 1814. po Beogradskom pašaluku počele da kruže vesti da turska vlast namerava da pohvata, prebije i — gde se moglo — pogubi istaknute bivše ustanike, Hadži-Prodan je odlučio da ne čeka da na njega dođe red. Prema delu literature, neposredni povod bio je sukob u manastiru Trnavi između ljudi požeškog muselima Latif-age i Srba predvođenih igumanom Pajsijem i Hadži-Prodanovim bratom, posle kojeg se Hadži-Prodan stavio na čelo pobune."
+        "text": "Među njima je bio i Hadži-Prodan Gligorijević, nekadašnji vojvoda iz okoline Trnave kod Čačka, veteran prvog ustanka. Za razliku od mnogih starešina koji su u jesen 1813. prešli u Austriju, on je ostao u zemlji. Imao je veze sa preostalim ustaničkim ljudima, znao je kako se diže selo i bio je u dosluhu sa monasima ovčarsko-kablarskih manastira, koji su u tom kraju činili sopstvenu vrstu mreže. Tokom 1814. turska vlast je po Beogradskom pašaluku progonila bivše ustanike. Neposredni povod pobune bio je sukob u manastiru Trnavi, u septembru 1814, između ljudi čačanskog muselima Latif-age i Srba predvođenih igumanom Pajsijem i Hadži-Prodanovim bratom; posle toga, kada povratka više nije bilo, Hadži-Prodan se stavio na čelo pobune."
       },
       {
         "type": "paragraph",
@@ -17510,7 +17510,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Albansko pitanje bilo je u prvoj deceniji rešavano otvoreno diskriminatornom politikom i tako ga treba i nazvati. Na Kosovu, u zapadnoj Makedoniji i delovima Sandžaka živelo je oko pola miliona Albanaca. Kraljevina je tu vodila politiku „srbizacije”: zatvarane su albanske škole,javni život na albanskom jeziku bio je sveden na najmanju moguću meru, a kroz agrarnu reformu i posebne kolonizacione zakone na južne krajeve do 1941. doseljeno je, po različitim procenama, između šezdeset i sedamdeset hiljada srpskih i crnogorskih kolonista, kojima je deljena zemlja, često ona oduzeta lokalnim porodicama. Albansko stanovništvo nije imalo političke stranke ravnopravne sa ostalima, a nezadovoljstvo se izražavalo i kroz oružani pokret kačaka, koji je vojska godinama suzbijala."
+        "text": "Albansko pitanje bilo je u prvoj deceniji rešavano otvoreno diskriminatornom politikom i tako ga treba i nazvati. Na Kosovu, u zapadnoj Makedoniji i delovima Sandžaka živelo je oko pola miliona Albanaca. Kraljevina je tu vodila politiku „srbizacije”: zatvarane su albanske škole, javni život na albanskom jeziku bio je sveden na najmanju moguću meru, a kroz agrarnu reformu i posebne kolonizacione zakone na južne krajeve do 1941. doseljeno je, po različitim procenama, između šezdeset i sedamdeset hiljada srpskih i crnogorskih kolonista, kojima je deljena zemlja, često ona oduzeta lokalnim porodicama. Albansko stanovništvo nije imalo političke stranke ravnopravne sa ostalima, a nezadovoljstvo se izražavalo i kroz oružani pokret kačaka, koji je vojska godinama suzbijala."
       },
       {
         "type": "paragraph",
@@ -17720,7 +17720,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       },
       {
         "type": "paragraph",
-        "text": "Atentator je na licu mesta isečen sabljom konjičkog oficira i dotučen udarcima razjarene gomile, pa je umro u toku noći a da nije rekao ni reč. Tek su istraga i dokumenti pronađeni uz telo otkrili da je reč o Vladu Černozemskom, Bugarinu rodom iz Kamenice kod Pazardžika, čije je pravo ime bilo Veličko Dimitrov Kerin. Bio je profesionalni egzekutor bugarske Unutrašnje makedonske revolucionarne organizacije — VMRO — sa nekoliko ranijih političkih ubistava iza sebe. U Marsej nije došao sam: u Francuskoj je već nedeljama bila razmeštena rezervna grupa hrvatskih ustaških atentatora, doputovala iz Mađarske preko Švajcarske. Da je Černozemski promašio, oni su trebali da deluju duž rute kraljevog voza ka Parizu."
+        "text": "Atentator je na licu mesta isečen sabljom konjičkog oficira i dotučen udarcima razjarene gomile, pa je umro u toku noći a da nije rekao ni reč. Tek su istraga i dokumenti pronađeni uz telo otkrili da je reč o Vladu Černozemskom, Bugarinu rodom iz Kamenice (danas deo Velingrada), čije je pravo ime bilo Veličko Dimitrov Kerin. Bio je profesionalni egzekutor bugarske Unutrašnje makedonske revolucionarne organizacije — VMRO — sa nekoliko ranijih političkih ubistava iza sebe. U Marsej nije došao sam: u Francuskoj je već nedeljama bila razmeštena rezervna grupa hrvatskih ustaških atentatora, doputovala iz Mađarske preko Švajcarske. Da je Černozemski promašio, oni su trebali da deluju duž rute kraljevog voza ka Parizu."
       },
       {
         "type": "heading",
