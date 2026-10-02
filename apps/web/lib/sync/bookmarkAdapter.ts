@@ -10,6 +10,7 @@ import {
 import { BOOKMARKS_MARKER_KEY } from '@/lib/auth/localKeys';
 
 import { localStorageMarker, type Marker } from './marker';
+import type { DeltaCodec } from './pendingQueue';
 import type { SyncAdapter } from './syncEngine';
 import { BOOKMARKS_ENDPOINT, type BookmarksDeltaWire } from './wire';
 
@@ -40,6 +41,30 @@ export function mergeBookmarksDelta(into: BookmarksDelta, next: BookmarksDelta):
   }
   return { add, remove };
 }
+
+/** What `queued` still owes once `sent` has been delivered (`pendingQueue` ack). */
+export function subtractBookmarksDelta(queued: BookmarksDelta, sent: BookmarksDelta): BookmarksDelta {
+  return {
+    add: new Set([...queued.add].filter((id) => !sent.add.has(id))),
+    remove: new Set([...queued.remove].filter((id) => !sent.remove.has(id))),
+  };
+}
+
+const isStringArray = (value: unknown): value is string[] =>
+  Array.isArray(value) && value.every((item) => typeof item === 'string');
+
+export const bookmarksDeltaCodec: DeltaCodec<BookmarksDelta> = {
+  merge: mergeBookmarksDelta,
+  subtract: subtractBookmarksDelta,
+  isEmpty: (delta) => delta.add.size === 0 && delta.remove.size === 0,
+  toJSON: (delta) => ({ add: [...delta.add], remove: [...delta.remove] }),
+  fromJSON(value) {
+    if (value === null || typeof value !== 'object') return null;
+    const { add, remove } = value as Record<string, unknown>;
+    if (!isStringArray(add) || !isStringArray(remove)) return null;
+    return { add: new Set(add), remove: new Set(remove) };
+  },
+};
 
 export function withPendingBookmarks(
   snapshot: CourseBookmarksSnapshot,
@@ -85,8 +110,6 @@ export function createBookmarkAdapter(
       if (snapshot === null) throw new Error('bookmarks payload is malformed');
       store.getState().replaceCourseBookmarks(courseId, withPendingBookmarks(snapshot, pending));
     },
-
-    mergeDelta: mergeBookmarksDelta,
 
     serializeDelta(courseId, delta) {
       const body: BookmarksDeltaWire = { courseId, add: [...delta.add], remove: [...delta.remove] };

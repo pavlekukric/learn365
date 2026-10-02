@@ -11,11 +11,18 @@ import {
   type ReactNode,
 } from 'react';
 
-import { useBookmarkStore } from '@/lib/bookmarks/BookmarkStoreProvider';
-import { useProgressStore } from '@/lib/progress/ProgressStoreProvider';
+import { useBookmarkStore, useBookmarkSync } from '@/lib/bookmarks/BookmarkStoreProvider';
+import { useProgressStore, useProgressSync } from '@/lib/progress/ProgressStoreProvider';
+import { flushCloudSync } from '@/lib/sync/flush';
+import { pendingQueueKeys } from '@/lib/sync/pendingQueue';
 
 import { hasCloudMarker, isImplicitSignOut } from './implicitSignOut';
-import { ACCOUNT_LOCAL_KEYS, ACCOUNT_SESSION_KEYS } from './localKeys';
+import {
+  ACCOUNT_LOCAL_KEYS,
+  ACCOUNT_SESSION_KEYS,
+  BOOKMARKS_MARKER_KEY,
+  PROGRESS_MARKER_KEY,
+} from './localKeys';
 
 /** Mirror of `PublicUser` on the server — what `/api/me` returns. */
 export interface PublicUser {
@@ -72,6 +79,14 @@ async function fetchMe(): Promise<MeResponse> {
  * reader's own `Odjava` / `Obriši nalog`, and an *implicit* sign-out — the
  * server says the session is gone while a cloud marker says the local
  * stores belonged to an account (see `isImplicitSignOut`).
+ *
+ * Phase 23: the clearing runs outside the sync journal, so it is never
+ * queued as "unread everything". `Odjava` first sends the pending queue
+ * (best effort, ≤ 2 s) and then deletes it with everything else; an
+ * implicit sign-out keeps the queue — it is tagged with that account and
+ * only ever replayed into it. A sign-out in another tab (its marker keys
+ * disappear) re-asks `/api/me` here; the stores follow the other tab's
+ * clearing on their own (`followOtherTabs`).
  */
 export function AuthProvider({
   courseIds,
@@ -85,27 +100,50 @@ export function AuthProvider({
   const [clearRequested, setClearRequested] = useState<'none' | 'explicit' | 'implicit'>('none');
   const resetCourse = useProgressStore((store) => store.resetCourse);
   const clearCourse = useBookmarkStore((store) => store.clearCourse);
+  const { journal: progressJournal } = useProgressSync();
+  const { journal: bookmarkJournal } = useBookmarkSync();
   const router = useRouter();
 
   useEffect(() => {
     let cancelled = false;
-    void fetchMe().then((me) => {
-      if (cancelled) return;
-      setState({ enabled: me.enabled, user: me.user, status: 'ready' });
-      if (isImplicitSignOut(me, hasCloudMarker())) setClearRequested('implicit');
-    });
+    const ask = (): void => {
+      void fetchMe().then((me) => {
+        if (cancelled) return;
+        setState({ enabled: me.enabled, user: me.user, status: 'ready' });
+        if (isImplicitSignOut(me, hasCloudMarker())) setClearRequested('implicit');
+      });
+    };
+    ask();
+    // Another tab signed out (or its session ended): its clearing removes
+    // the markers. Ask the server again rather than trust this tab's state.
+    const onStorage = (event: StorageEvent): void => {
+      if (event.storageArea !== window.localStorage) return;
+      const markerGone =
+        event.key === null ||
+        ((event.key === PROGRESS_MARKER_KEY || event.key === BOOKMARKS_MARKER_KEY) &&
+          event.newValue === null);
+      if (markerGone) ask();
+    };
+    window.addEventListener('storage', onStorage);
     return () => {
       cancelled = true;
+      window.removeEventListener('storage', onStorage);
     };
   }, []);
 
   useEffect(() => {
     if (clearRequested === 'none') return;
+    const explicit = clearRequested === 'explicit';
     for (const courseId of courseIds) {
-      resetCourse(courseId);
-      clearCourse(courseId);
+      progressJournal.external(() => {
+        resetCourse(courseId);
+      });
+      bookmarkJournal.external(() => {
+        clearCourse(courseId);
+      });
     }
-    for (const key of ACCOUNT_LOCAL_KEYS) {
+    const keys = explicit ? [...ACCOUNT_LOCAL_KEYS, ...pendingQueueKeys()] : ACCOUNT_LOCAL_KEYS;
+    for (const key of keys) {
       try {
         window.localStorage.removeItem(key);
       } catch {
@@ -119,15 +157,17 @@ export function AuthProvider({
         // private mode / blocked storage — nothing to clear.
       }
     }
-    const explicit = clearRequested === 'explicit';
     setClearRequested('none');
     if (explicit) {
       router.replace('/');
       router.refresh();
     }
-  }, [clearRequested, courseIds, resetCourse, clearCourse, router]);
+  }, [clearRequested, courseIds, resetCourse, clearCourse, progressJournal, bookmarkJournal, router]);
 
   const leave = useCallback(async (request: () => Promise<Response>): Promise<boolean> => {
+    // Send what is still queued while the session is valid; whatever does
+    // not make it in 2 s is dropped with the rest of this browser's data.
+    await flushCloudSync();
     let response: Response;
     try {
       response = await request();

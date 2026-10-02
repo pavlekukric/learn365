@@ -90,7 +90,7 @@ export const PRIVACY_SECTIONS: readonly PrivacySection[] = [
     id: 'brisanje',
     heading: 'Brisanje',
     paragraphs: [
-      'Na strani Nalog postoji dugme Obriši nalog. Briše nalog, napredak i sačuvane lekcije odmah i trajno; iz rezervnih kopija nestaju najkasnije za 14 dana. Odjava briše napredak samo iz tog pregledača; nalog ostaje. Isto se dešava kad prijava istekne: pročitane i sačuvane lekcije nestaju iz tog pregledača, a ostaju na nalogu i vraćaju se pri sledećoj prijavi.',
+      'Na strani Nalog postoji dugme Obriši nalog. Briše nalog, napredak i sačuvane lekcije odmah i trajno; iz rezervnih kopija nestaju najkasnije za 14 dana. Odjava briše napredak samo iz tog pregledača; nalog ostaje. Isto se dešava kad prijava istekne: pročitane i sačuvane lekcije nestaju iz tog pregledača, a ostaju na nalogu i vraćaju se pri sledećoj prijavi. Samo izmene koje do tada nisu stigle do naloga (na primer, bez mreže) ostaju u pregledaču, vezane za taj nalog, i šalju mu se pri sledećoj prijavi; ako se u tom pregledaču prijavi neko drugi, brišu se.',
     ],
   },
   {

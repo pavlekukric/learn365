@@ -36,7 +36,7 @@ This section is the single "what is true right now" snapshot of Istorija 365 / I
 - **Stack:** pnpm + Turborepo, Next.js 15 App Router, strict TypeScript, CSS Modules + token CSS variables, Zustand + persist, Vitest + Playwright. Packages: `apps/web`, `packages/{ui, ui-web, core, content}`, `tooling/`.
 - **Fonts (Phase 22):** self-hosted with `next/font/local`, one woff2 per face subset to Serbian Latin (`apps/web/lib/fonts/files/`, 7 files, 139 kB in all; built by `apps/web/scripts/fonts/subset-fonts.sh` from the google/fonts sources, same versions Google served; OFL licences beside them). Only Spectral 400 and Inter (variable, 400–500) are preloaded — 2 files, 48 kB; the rest load on use. A Vitest test keeps the course text inside the subset's unicode-range. No build touches the network for fonts. (Local Windows builds never emit font preloads — a Next path bug; Linux CI / Docker do.)
 - **Delivery:** 127–145 kB gzip client JS per route, counted as the whole layout chain + page (`scripts/bundle-size.mjs`, budget 175 kB / route, 300 kB raw / chunk, and ≤ 2 preloaded font files / 64 kB, in CI). Home preloads its hero backdrop (a 1000 px, 14 kB copy under 720 px). 373 prerendered routes; account pages and `/api/**` dynamic. Cloudflare caches `/_next/static` only.
-- **Accounts + sync:** Google sign-in (code + PKCE), `__Host-l365_session` on https — the un-prefixed name is never read there (Phase 17), plain `l365_session` only on local http; Postgres 17 via Drizzle (PGlite on the laptop and in tests); union once per browser, server authoritative after, a marker for another user takes the replace path, implicit sign-out clears local stores. `/api/**` answers 503 on a database outage. Accounts are off unless all four env values are set; the default e2e suite runs that way.
+- **Accounts + sync:** Google sign-in (code + PKCE), `__Host-l365_session` on https — the un-prefixed name is never read there (Phase 17), plain `l365_session` only on local http; Postgres 17 via Drizzle (PGlite on the laptop and in tests); union once per browser, server authoritative after, a marker for another user takes the replace path, implicit sign-out clears local stores. **Unsent changes are never only in memory (Phase 23):** a per-tab, per-account pending queue in `localStorage` is written from store load, applied over every loaded snapshot and sent with ack, and closed tabs' queues are adopted (Web Locks). Tabs follow each other's store writes, and a sign-out in one tab empties the others. `Odjava` sends the queue first (≤ 2 s) and then deletes it. An expired session keeps it for that account only. `/api/**` answers 503 on a database outage. Accounts are off unless all four env values are set; the default e2e suite runs that way.
 - **Health + migrations (Phase 17):** `/api/health` → `{ ok, auth, db, migrations: off | pending | ok | failed }`, 503 unless the database is reachable and migrated. Start-up migrations retry forever while the database is unreachable (15 s → 30 s → 60 s cap); a failing migration still fails. Docker healthcheck `GET /` every 15 s (start period 45 s).
 - **Deploy:** `deploy.yml` — image on green CI (`workflow_run`, the validated SHA), rollout only when that SHA is still the tip of `main`; `workflow_dispatch` only on `main`. `deploy.sh` (on the box — see HANDOFF for the pending copy) waits up to 150 s for `healthy`, then up to 120 s for `migrations: ok`, and rolls back to the previous tag otherwise. `backup.sh` keeps the 14 newest verified dumps and can copy off-box when `BACKUP_OFFBOX_TARGET` is set (DEPLOY §10). The deploy key's `authorized_keys` line should start `restrict,command="/srv/learn365/ssh-command.sh"` (DEPLOY §13a — owner step).
 - **Security headers:** CSP (`'self'`, inline scripts/styles, Google avatars, `static.cloudflareinsights.com` for the visit statistics), HSTS, nosniff, Referrer-Policy, frame-ancestors none, Permissions-Policy; `x-powered-by` off.
@@ -54,6 +54,26 @@ This section is the single "what is true right now" snapshot of Istorija 365 / I
 Payments, subscriptions, push notifications, streaks, quizzes, admin / CMS, AI content generation in the app, native mobile (Expo, planned as Phase 8b in [`docs/MOBILE_NOTES.md`](./MOBILE_NOTES.md)), a user-facing theme toggle.
 
 ---
+
+## Phase 23 — signed-in sync: no silent loss (2026-10-02): done
+
+From the 2026-10-01 review, P1 item 4, one PR (plan: [`archive/phases/PHASE_23_PLAN.md`](./archive/phases/PHASE_23_PLAN.md), owner-approved; an implicit sign-out keeps the queue).
+
+- **Six loss paths closed.** Before, changes waited only in the engine's memory and the next load's `GET` replaced the local copy:
+  1. a reload inside the debounce, or a click before `/api/me` answered;
+  2. a database outage, then the tab closed;
+  3. offline, then the tab closed;
+  4. the session expiring with changes queued;
+  5. two tabs overwriting each other's local copy;
+  6. sign-out in one tab while another tab later wrote the previous account's progress back without a marker. This was the cross-account union.
+- **How:**
+  - `lib/sync/pendingQueue.ts`: a per-tab, per-account queue in `localStorage`, idempotent set deltas, ack by subtraction.
+  - `journal.ts`: records from store creation, for the running engine's user or else the marker's, and never for snapshots, rehydrates or sign-out clearing.
+  - `syncEngine.ts`: applies every tab's queue over each snapshot, sends its own, and adopts the queues of closed tabs (`tabLock.ts`, Web Locks). It also flushes on start, on `online` and when the tab becomes visible.
+  - `storeSync.ts`: tabs rehydrate on each other's writes.
+  - `AuthProvider`: re-asks `/api/me` when another tab removes the markers. `Odjava` flushes first (≤ 2 s).
+  - No server change.
+- **Tests:** unit tests for the queue, codecs, journal, cross-tab rehydrate and engine (closed-tab replay, an in-flight change, another account's queue never sent, orphan adoption). Four new accounts-on e2e cases: reload at once, an outage then the tab closed, two tabs, and `Odjava` in one tab with the next account not inheriting it.
 
 ## Phase 22 — fonts back to the mobile floor (2026-10-02): done
 
