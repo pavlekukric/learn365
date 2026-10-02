@@ -2,16 +2,16 @@
 
 import {
   getEras,
-  getLessonById,
   getLessons,
   getLessonsByEra,
   type CourseId,
   type EraId,
 } from '@learn365/content';
-import { lastOpenedLessonId, progressForLessons } from '@learn365/core';
+import { progressForLessons } from '@learn365/core';
 import { HistoricalTimeline, type EraStat } from '@learn365/ui-web';
 
 import { useProgressStore } from '@/lib/progress/ProgressStoreProvider';
+import { useResumeLesson } from '@/lib/progress/useResumeLesson';
 
 interface HomeEraTimelineProps {
   courseId: CourseId;
@@ -23,18 +23,19 @@ interface HomeEraTimelineProps {
  * navigation tree lives only on the Course overview — Home stays a calm,
  * visual landing surface rather than a second copy of the course page.
  *
- * The marker reflects the user's last-opened lesson (where they are in
- * history), falling back to the first lesson for a fresh visitor; `eraStats`
- * feeds the rail's proportional band widths and completion fill.
+ * The marker sits on the resume lesson (`useResumeLesson`) — the lesson the
+ * card above opens and "Tvoj N. dan" names, so Home and the course overview
+ * agree on where the reader is. A fresh visitor gets Day 1; once every
+ * lesson is read, the last one. `eraStats` feeds the rail's proportional
+ * band widths and completion fill.
  */
 export function HomeEraTimeline({ courseId }: HomeEraTimelineProps) {
   const eras = getEras(courseId);
-  const lastId = useProgressStore((state) => lastOpenedLessonId(state, courseId));
+  const { lesson: resume } = useResumeLesson(courseId);
   const progressState = useProgressStore((state) => state);
 
   const lessons = getLessons(courseId);
-  const markerLesson =
-    (lastId ? getLessonById(courseId, lastId) : null) ?? lessons[0] ?? null;
+  const markerLesson = resume ?? lessons.at(-1) ?? null;
 
   if (!markerLesson || eras.length === 0) return null;
 

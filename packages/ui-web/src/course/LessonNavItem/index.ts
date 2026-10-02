@@ -1,1 +1,1 @@
-export { LessonNavItem, type LessonNavItemState } from './LessonNavItem.js';
+export { LessonNavItem } from './LessonNavItem.js';

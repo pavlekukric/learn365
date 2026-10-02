@@ -45,3 +45,28 @@
     margin-top: var(--space-1);
   }
 }
+
+/* The date in the eyebrow, when the timeline divider below shows it at its
+ * marker (wider than 720 px — on phones the divider is a bare hairline and
+ * the eyebrow is the one place the date is seen). Hidden for the eye only:
+ * the divider is aria-hidden, so the eyebrow stays the date's spoken source.
+ * Same recipe as the global .visually-hidden. */
+@media (min-width: 721px) {
+  .dateCovered {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
+}
+
+/* The title takes focus only by script (after a lesson change); a target,
+ * not a control, so — like #lesson-reader — it shows no ring. */
+.header > h1:focus {
+  outline: none;
+}

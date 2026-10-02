@@ -55,6 +55,17 @@ Payments, subscriptions, push notifications, streaks, quizzes, admin / CMS, AI c
 
 ---
 
+## Phase 21 — the progress tree tells the truth + reader polish + focus/ARIA (2026-10-02): done
+
+From the 2026-10-01 review, P1 items 5–6 and P2 item 11, one PR (plan: [`archive/phases/PHASE_21_PLAN.md`](./archive/phases/PHASE_21_PLAN.md)).
+
+- **Resume rule (owner-approved):** "Tvoj N. dan" and every continue surface = the first unread lesson after the highest-numbered completed one, else the earliest unread; Day 1 before the first completion, none when all are read. Merely opening a lesson no longer moves it (`findResumeLesson(lessons, completedIds)`; `lastOpenedLessonId` is still stored and synced but decides nothing). The course overview's highlighted row and Home's era-rail marker use the same lesson as the progress card.
+- **Tree:** `LessonNavItem` takes `active` and `completed` as two flags — the row you are on shows its check and says ", pročitano". Section counters read "4 od 9 pročitano".
+- **Completion copy follows position:** "Prvi dan je iza tebe." only on Day 1 (else "Dan N je iza tebe."), last lesson read early → a card to the resume lesson, 365 / 365 → a calm finish ("Kurs je završen."). The completed footer is one left-aligned column.
+- **Reader:** body paragraphs drop their default margins (the flex gap sets the rhythm); `Označi kao pročitano` is the primary action (48 px, 16 px text, full width ≤ 720 px); the header shows the date once above 720 px.
+- **Focus / ARIA:** focus moves to the new lesson's h1 after a lesson change (not on first load, not inside the desktop outline); `Ne sada` hands focus to the footer; the `Sadržaj` trigger has `aria-haspopup` / `aria-expanded` / `aria-controls`; the bookmark keeps a constant "Sačuvaj" with `aria-pressed`; era cards and the Home rail name themselves with their visible text first; the page behind the open drawer is `inert`.
+- **Not verified locally:** `next dev` fails on this machine (webpack cannot compile `instrumentation.ts` → `drizzle-orm/migrator`, `node:crypto`), so desktop screenshots and e2e ran in CI / on production only.
+
 ## Security bump — Next 15.5.27 (2026-10-01): done
 
 From the 2026-10-01 review (P1 item 2): `next` 15.5.18 → 15.5.27 in `apps/web` and `packages/ui-web` (`@next/eslint-plugin-next` too), `sharp` 0.34.5 → 0.35.5 and the lint-only `brace-expansion` / `js-yaml` via root `pnpm.overrides`. `pnpm audit --prod` went from 2 critical / 20 high / 10 moderate to 0 critical; what is left is `postcss` 8.4.31 (+ its `nanoid`), which Next pins exactly and uses at build time only — it clears when Next moves it. Still open from that item: Dependabot / an audit step in CI.

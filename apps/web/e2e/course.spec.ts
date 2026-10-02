@@ -56,7 +56,10 @@ test.describe('Istorija 365 — course overview', () => {
     const toggle = page.getByRole('button', { name: 'Sačuvaj lekciju' });
     await expect(toggle).toBeVisible();
     await expect(toggle).toHaveAttribute('title', /strani kursa/);
+    await expect(toggle).toHaveAttribute('aria-pressed', 'false');
     await toggle.click();
-    await expect(page.getByRole('button', { name: 'Ukloni iz sačuvanih' })).toBeVisible();
+    // One name in both states (WCAG 2.5.3); aria-pressed carries the state.
+    await expect(toggle).toHaveAttribute('aria-pressed', 'true');
+    await expect(page.getByRole('button', { name: 'Sačuvaj lekciju' })).toBeVisible();
   });
 });

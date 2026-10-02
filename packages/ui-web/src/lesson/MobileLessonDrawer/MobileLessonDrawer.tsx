@@ -13,6 +13,8 @@ interface MobileLessonDrawerProps {
   children: ReactNode;
   /** Optional aria label for the dialog. Defaults to "Sadržaj kursa". */
   ariaLabel?: string;
+  /** id of the dialog panel, for the trigger's `aria-controls`. */
+  id?: string;
 }
 
 const FOCUSABLE_SELECTOR =
@@ -23,6 +25,7 @@ export function MobileLessonDrawer({
   onClose,
   children,
   ariaLabel = 'Sadržaj kursa',
+  id,
 }: MobileLessonDrawerProps) {
   const panelRef = useRef<HTMLDivElement | null>(null);
   const previouslyFocused = useRef<HTMLElement | null>(null);
@@ -139,6 +142,7 @@ export function MobileLessonDrawer({
       />
       <div
         ref={panelRef}
+        id={id}
         className={styles.panel}
         role="dialog"
         aria-modal="true"

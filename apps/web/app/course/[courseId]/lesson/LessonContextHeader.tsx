@@ -11,6 +11,10 @@ interface LessonContextHeaderProps {
   totalLessons: number;
   /** Opens the "Sadržaj" drawer (timeline + course outline). */
   onOpenContents: () => void;
+  /** Whether that drawer is open — the trigger's `aria-expanded`. */
+  drawerOpen: boolean;
+  /** id of the drawer's dialog panel — the trigger's `aria-controls`. */
+  drawerId: string;
 }
 
 /**
@@ -31,6 +35,8 @@ export function LessonContextHeader({
   completedCount,
   totalLessons,
   onOpenContents,
+  drawerOpen,
+  drawerId,
 }: LessonContextHeaderProps) {
   return (
     <div className={styles.header}>
@@ -39,6 +45,12 @@ export function LessonContextHeader({
         className={styles.contentsButton}
         onClick={onOpenContents}
         aria-label="Otvori sadržaj"
+        // Says what the button opens and whether it is open. The panel
+        // exists only while open; axe and the ARIA spec accept a dangling
+        // aria-controls while aria-expanded is false.
+        aria-haspopup="dialog"
+        aria-expanded={drawerOpen}
+        aria-controls={drawerId}
       >
         <IconMenu />
         <span>Sadržaj</span>

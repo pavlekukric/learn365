@@ -5,6 +5,7 @@ import { LessonFooter, type LessonFooterLink } from '@learn365/ui-web';
 
 import { useSignInPrompt } from '@/lib/auth/useSignInPrompt';
 import { useProgressStore } from '@/lib/progress/ProgressStoreProvider';
+import { useResumeLesson } from '@/lib/progress/useResumeLesson';
 
 interface LessonCompletionProps {
   courseId: string;
@@ -18,9 +19,9 @@ interface LessonCompletionProps {
 }
 
 /**
- * The lesson footer, wired to the progress store and the sign-in ask. With
- * the bookmark toggle and the era strip it is all of the lesson page that
- * runs in the browser; the article above it is server-rendered.
+ * The lesson footer, wired to the progress store, the shared resume rule
+ * and the sign-in ask. With the bookmark toggle it is all of the lesson page
+ * that runs in the browser; the article above it is server-rendered.
  */
 export function LessonCompletion({
   courseId,
@@ -36,6 +37,18 @@ export function LessonCompletion({
   const done = useProgressStore((state) => completedCount(state, courseId));
   const toggleComplete = useProgressStore((state) => state.toggleComplete);
   const signInPrompt = useSignInPrompt(courseId, lessonId);
+  // After the course's last lesson there is no "next": the footer offers the
+  // resume lesson instead (the earliest unread day), the same one Home and
+  // the overview name.
+  const { lesson: resumeLesson } = useResumeLesson(courseId);
+  const resume: LessonFooterLink | null =
+    next === null && resumeLesson !== null && resumeLesson.id !== lessonId
+      ? {
+          title: resumeLesson.title,
+          dayNumber: resumeLesson.dayNumber,
+          href: `/course/${courseId}/lesson/${resumeLesson.id}`,
+        }
+      : null;
 
   return (
     <LessonFooter
@@ -49,6 +62,7 @@ export function LessonCompletion({
       totalLessons={totalLessons}
       prev={prev}
       next={next}
+      resume={resume}
       courseHref={courseHref}
       signInPrompt={
         signInPrompt.show

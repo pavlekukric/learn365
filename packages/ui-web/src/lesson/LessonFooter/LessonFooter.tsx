@@ -32,6 +32,11 @@ export interface LessonFooterProps {
   totalLessons: number;
   prev: LessonFooterLink | null;
   next: LessonFooterLink | null;
+  /**
+   * The lesson to continue from when this is the course's last lesson and
+   * others are still unread (the shared resume lesson). Ignored otherwise.
+   */
+  resume?: LessonFooterLink | null | undefined;
   /** Href back to the course overview, used by the end-of-course footer
    * when there is no next lesson. */
   courseHref: string;
@@ -56,6 +61,7 @@ export function LessonFooter({
   totalLessons,
   prev,
   next,
+  resume,
   courseHref,
   signInPrompt,
 }: LessonFooterProps) {
@@ -76,6 +82,22 @@ export function LessonFooter({
     });
   }, [isCompleted]);
 
+  // The account ask unmounts while its own button holds focus (`Ne sada`,
+  // or a sign-in that settles): focus would fall to <body>, and Safari /
+  // Firefox would restart Tab at the top of the page. Hand it to the
+  // completion moment the ask sat under instead.
+  const hasPrompt = signInPrompt !== undefined;
+  const hadPromptRef = useRef(hasPrompt);
+  useEffect(() => {
+    const promptWentAway = hadPromptRef.current && !hasPrompt;
+    hadPromptRef.current = hasPrompt;
+    if (!promptWentAway) return;
+    const focused = document.activeElement;
+    if (focused === null || focused === document.body) {
+      completedWrapRef.current?.focus({ preventScroll: true });
+    }
+  }, [hasPrompt]);
+
   return (
     <footer className={styles.footer}>
       {isUpcoming ? null : (
@@ -87,13 +109,15 @@ export function LessonFooter({
        * (which can't be completed) always get the symmetric footer. */}
       {isCompleted && !isUpcoming ? (
         <>
-          <div ref={completedWrapRef} className={styles.completedWrap}>
+          {/* Focusable (never ringed) only as the target of the focus hand-off above. */}
+          <div ref={completedWrapRef} className={styles.completedWrap} tabIndex={-1}>
             <CompletedFooter
               completedDayNumber={dayNumber}
               completedCount={completedCount}
               totalLessons={totalLessons}
               next={next}
               prev={prev}
+              resume={resume}
               courseHref={courseHref}
             />
           </div>

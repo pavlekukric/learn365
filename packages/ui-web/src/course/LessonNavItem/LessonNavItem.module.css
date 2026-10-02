@@ -44,16 +44,23 @@
   font-variant-numeric: tabular-nums;
 }
 
-.state_idle {
-  /* baseline styling */
+/* Read rows: green day numeral, quieter title. Declared before `.active`
+ * so a row that is both (the open lesson, already read) keeps the active
+ * row's ink and contrast and only adds the check. */
+.completed .day {
+  color: var(--completed);
 }
 
-.state_active {
+.completed .title {
+  color: var(--muted);
+}
+
+.active {
   background: var(--accent-soft);
   color: var(--ink);
 }
 
-.state_active::before {
+.active::before {
   content: '';
   position: absolute;
   left: 0;
@@ -64,23 +71,17 @@
   border-radius: var(--r-pill);
 }
 
-.state_active .title {
+.active .title {
   font-weight: 500;
+  color: var(--ink);
 }
 
-/* On the accent-soft active background, var(--muted) and var(--faint) drop
- * below WCAG 4.5:1 — promote them to the darker --ink-2 ramp. */
-.state_active .day,
-.state_active .meta {
+/* On the accent-soft active background, var(--muted), var(--faint) and the
+ * completed green drop below WCAG 4.5:1 — promote them to the darker
+ * --ink-2 ramp. */
+.active .day,
+.active .meta {
   color: var(--ink-2);
-}
-
-.state_completed .day {
-  color: var(--completed);
-}
-
-.state_completed .title {
-  color: var(--muted);
 }
 
 /* Placeholder lessons — the row reads as "upcoming, not yet available" so
@@ -89,8 +90,9 @@
  * noise; the italic + faint title now carries the meaning on its own.
  * The active state's accent backdrop still wins (the user might be sitting
  * on an unavailable lesson and we want them to see "where am I"); these
- * rules only soften the row's text content. Rules sit after the state_*
- * blocks so they override the active/idle text colours at equal specificity. */
+ * rules only soften the row's text content. Rules sit after the
+ * state blocks so they override the active / read text colours at equal
+ * specificity. */
 .placeholder {
   padding-top: 8px;
   padding-bottom: 8px;
