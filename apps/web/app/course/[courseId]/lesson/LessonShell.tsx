@@ -108,7 +108,10 @@ function LessonFrame({ courseId, lesson, children }: LessonFrameProps) {
   // screen reader starts there. Not on the first load — the ref starts at
   // the first lesson, which also keeps Strict Mode's double effect quiet —
   // and not when the reader is moving through the desktop outline, which
-  // stays mounted and keeps its own focus.
+  // stays mounted and keeps its own focus. The new title may not be in the
+  // DOM yet when the shell sees the new id, and a drawer row closes the
+  // drawer, which hands focus back to its trigger in the same moment — so
+  // try once per frame (up to ~1 s) until the new lesson's h1 holds focus.
   const layoutRef = useRef<HTMLDivElement>(null);
   const focusedLessonIdRef = useRef(lesson.id);
   useEffect(() => {
@@ -117,10 +120,21 @@ function LessonFrame({ courseId, lesson, children }: LessonFrameProps) {
     const focused = document.activeElement;
     const outline = layoutRef.current?.querySelector('aside');
     if (focused !== null && focused !== document.body && outline?.contains(focused)) return;
-    const reader = document.getElementById('lesson-reader');
-    const target = reader?.querySelector<HTMLElement>('h1[tabindex]') ?? reader;
-    target?.focus({ preventScroll: true });
-  }, [lesson.id]);
+    const title = lesson.title;
+    let frame = 0;
+    let attempts = 0;
+    const tryFocus = () => {
+      const h1 = document.querySelector<HTMLElement>('#lesson-reader h1[tabindex]');
+      if (h1 !== null && h1.textContent === title && !h1.closest('[inert]')) {
+        h1.focus({ preventScroll: true });
+        if (document.activeElement === h1) return;
+      }
+      attempts += 1;
+      if (attempts < 60) frame = requestAnimationFrame(tryFocus);
+    };
+    frame = requestAnimationFrame(tryFocus);
+    return () => cancelAnimationFrame(frame);
+  }, [lesson.id, lesson.title]);
 
   // While the drawer is open the page behind it is inert, not only hidden
   // by `aria-modal` (older iOS VoiceOver and TalkBack still swipe past
