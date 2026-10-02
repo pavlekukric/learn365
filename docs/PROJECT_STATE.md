@@ -34,26 +34,35 @@ This section is the single "what is true right now" snapshot of Istorija 365 / I
 ### Technical baseline
 
 - **Stack:** pnpm + Turborepo, Next.js 15 App Router, strict TypeScript, CSS Modules + token CSS variables, Zustand + persist, Vitest + Playwright. Packages: `apps/web`, `packages/{ui, ui-web, core, content}`, `tooling/`.
-- **Fonts (Phase 17):** self-hosted with `next/font/local` — the same woff2 files Google served (`apps/web/lib/fonts/files/`, OFL licences beside them), two calls per family (`latin`, `latin-ext`) with the same family names and unicode ranges; Spectral italic 300 dropped. No build touches the network for fonts any more. (Local Windows builds never emit font preloads — a Next path bug; Linux CI / Docker do.)
-- **Delivery:** 127–145 kB gzip client JS per route, counted as the whole layout chain + page (`scripts/bundle-size.mjs`, budget 175 kB / route, 300 kB raw / chunk, in CI). 373 prerendered routes; account pages and `/api/**` dynamic. Cloudflare caches `/_next/static` only.
+- **Fonts (Phase 22):** self-hosted with `next/font/local`, one woff2 per face subset to Serbian Latin (`apps/web/lib/fonts/files/`, 7 files, 139 kB in all; built by `apps/web/scripts/fonts/subset-fonts.sh` from the google/fonts sources, same versions Google served; OFL licences beside them). Only Spectral 400 and Inter (variable, 400–500) are preloaded — 2 files, 48 kB; the rest load on use. A Vitest test keeps the course text inside the subset's unicode-range. No build touches the network for fonts. (Local Windows builds never emit font preloads — a Next path bug; Linux CI / Docker do.)
+- **Delivery:** 127–145 kB gzip client JS per route, counted as the whole layout chain + page (`scripts/bundle-size.mjs`, budget 175 kB / route, 300 kB raw / chunk, and ≤ 2 preloaded font files / 64 kB, in CI). Home preloads its hero backdrop (a 1000 px, 14 kB copy under 720 px). 373 prerendered routes; account pages and `/api/**` dynamic. Cloudflare caches `/_next/static` only.
 - **Accounts + sync:** Google sign-in (code + PKCE), `__Host-l365_session` on https — the un-prefixed name is never read there (Phase 17), plain `l365_session` only on local http; Postgres 17 via Drizzle (PGlite on the laptop and in tests); union once per browser, server authoritative after, a marker for another user takes the replace path, implicit sign-out clears local stores. `/api/**` answers 503 on a database outage. Accounts are off unless all four env values are set; the default e2e suite runs that way.
 - **Health + migrations (Phase 17):** `/api/health` → `{ ok, auth, db, migrations: off | pending | ok | failed }`, 503 unless the database is reachable and migrated. Start-up migrations retry forever while the database is unreachable (15 s → 30 s → 60 s cap); a failing migration still fails. Docker healthcheck `GET /` every 15 s (start period 45 s).
 - **Deploy:** `deploy.yml` — image on green CI (`workflow_run`, the validated SHA), rollout only when that SHA is still the tip of `main`; `workflow_dispatch` only on `main`. `deploy.sh` (on the box — see HANDOFF for the pending copy) waits up to 150 s for `healthy`, then up to 120 s for `migrations: ok`, and rolls back to the previous tag otherwise. `backup.sh` keeps the 14 newest verified dumps and can copy off-box when `BACKUP_OFFBOX_TARGET` is set (DEPLOY §10). The deploy key's `authorized_keys` line should start `restrict,command="/srv/learn365/ssh-command.sh"` (DEPLOY §13a — owner step).
 - **Security headers:** CSP (`'self'`, inline scripts/styles, Google avatars, `static.cloudflareinsights.com` for the visit statistics), HSTS, nosniff, Referrer-Policy, frame-ancestors none, Permissions-Policy; `x-powered-by` off.
-- **Gates (CI on every PR and push to `main`):** gen-content drift check, validate-content, lint (`apps/web` and `packages/ui-web` both run the rules of hooks + jsx-a11y), typecheck (incl. `e2e/`), Vitest, build, bundle budget; a parallel e2e job runs Playwright `chromium-desktop`, `chromium-mobile`, `a11y-desktop`, `a11y-mobile` (axe) and `accounts-chromium` (a second server with accounts on over a throwaway PGlite — sign-in union / sign-out, `/nalog` delete, `/pregled` gating). A nightly workflow runs Firefox + WebKit (not a gate). 11 spec files.
+- **Gates (CI on every PR and push to `main`):** gen-content drift check, validate-content, lint (`apps/web` and `packages/ui-web` both run the rules of hooks + jsx-a11y), typecheck (incl. `e2e/`), Vitest, build, bundle budget; a parallel e2e job runs Playwright `chromium-desktop`, `chromium-mobile`, `a11y-desktop`, `a11y-mobile` (axe) and `accounts-chromium` (a second server with accounts on over a throwaway PGlite — sign-in union / sign-out, `/nalog` delete, `/pregled` gating). A third parallel job runs mobile Lighthouse on Home, the course overview and Day 1 (median of 3, warn-only under 82, `pnpm --filter @learn365/web lighthouse`). A nightly workflow runs Firefox + WebKit (not a gate). 11 spec files.
 
 ### Known issues / carry-forward
 
 - Owner steps on the box (HANDOFF lists them): DEPLOY §13a `restrict` + `chmod 600 .env`; copy the new `deploy.sh` / `backup.sh`; the off-box backup target and one restore test; the Cloudflare rate limit (§13b); the Google client secret rotation.
 - Screen-reader smoke (VoiceOver / NVDA) never done by a person; axe covers the automatable part.
 - The historian pass over all 365 lessons (the review's sample found ~1 checkable slip per lesson), per-era reading lists and a named reviewer.
-- Mobile Lighthouse performance 82–85 when last measured (Phase 5); not re-measured since the fonts moved.
+- Mobile Lighthouse on production fell to 61–83 after the Phase 17 font move (review 2026-10-01); Phase 22 cut the font preloads from 12 files / ~295 kB to 2 / 48 kB. Local runs: main 81–87 → 92–96. The production re-measure after the deploy is in the Phase 22 entry.
 
 ### Explicitly deferred (not in v1)
 
 Payments, subscriptions, push notifications, streaks, quizzes, admin / CMS, AI content generation in the app, native mobile (Expo, planned as Phase 8b in [`docs/MOBILE_NOTES.md`](./MOBILE_NOTES.md)), a user-facing theme toggle.
 
 ---
+
+## Phase 22 — fonts back to the mobile floor (2026-10-02): done
+
+From the 2026-10-01 review, P1 item 3, one PR.
+
+- **Fonts:** one Serbian-Latin subset per face instead of Google's `latin` + `latin-ext` pair (Basic Latin + Latin-1, č ć đ š ž, ă ğ ı ş ș ț, typographic punctuation, arrows, ≤ ≥); unhinted with Google's GSUB features, as Google served them. Inter and JetBrains Mono cut to the 400–500 weight range (Inter's optical size pinned to 14, as Google serves it). Preloaded: Spectral 400 + Inter only. 12 preloads / ~295 kB → 2 / 48 kB; all font files 270 → 139 kB.
+- **Hero (Home's mobile LCP):** the backdrop is preloaded with the HTML (`<link rel="preload" media>` per breakpoint); under 720 px it is a 1000 px copy (14 kB instead of 45 kB). Same look.
+- **Guards:** `check-bundle` fails on more than 2 preloaded font files or 64 kB; `lib/fonts/fonts.test.ts` fails when course text uses a character outside the subset, or a `localFont` call drifts from the shared range; a warn-only Lighthouse CI job (`scripts/lighthouse.mjs`).
+- **Measured locally** (Lighthouse 12.8.2 mobile, `next start`, 2–3 runs each): Home 81–84 → 91–94 (LCP 4.4 → 3.0 s), course overview 85 → 92–96, Day 1 84–85 → 92–96, Day 150 86–87 → 95–96. Local runs read higher than production (no network latency).
 
 ## Phase 21 — the progress tree tells the truth + reader polish + focus/ARIA (2026-10-02): done
 

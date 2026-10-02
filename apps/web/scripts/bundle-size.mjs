@@ -13,6 +13,12 @@
  * creeping back into `LessonSummary`, or a client import of the article
  * entry, fails this check.
  *
+ * Font preloads (review 2026-10-01, P1 item 3): every preloaded font file is
+ * fetched at top priority on every page, ahead of the LCP. In Phase 17 the
+ * set silently grew to 12 files (about 295 kB) and mobile Lighthouse fell to
+ * 61–83. The budget below allows Spectral 400 + Inter (49 kB measured
+ * 2026-10-02); a third preloaded face or a heavier subset fails the check.
+ *
  * Run: `pnpm --filter @learn365/web check-bundle` (after `pnpm build`).
  */
 
@@ -23,10 +29,13 @@ import { gzipSync } from 'node:zlib';
 
 const ROUTE_BUDGET_GZIP_KB = 175;
 const CHUNK_BUDGET_RAW_KB = 300;
+const FONT_PRELOAD_MAX_FILES = 2;
+const FONT_PRELOAD_BUDGET_KB = 64;
 
 const webRoot = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const nextDir = join(webRoot, '.next');
 const manifestPath = join(nextDir, 'app-build-manifest.json');
+const fontManifestPath = join(nextDir, 'server', 'next-font-manifest.json');
 
 if (!existsSync(manifestPath)) {
   console.error(`bundle-size: ${manifestPath} not found — run \`next build\` first.`);
@@ -67,7 +76,10 @@ function chainOf(pageKey) {
   const segments = pageKey.split('/').filter(Boolean).slice(0, -1); // drop the trailing `page`
   const keys = [];
   for (let depth = 0; depth <= segments.length; depth += 1) {
-    const prefix = segments.slice(0, depth).map((segment) => `/${segment}`).join('');
+    const prefix = segments
+      .slice(0, depth)
+      .map((segment) => `/${segment}`)
+      .join('');
     for (const file of SEGMENT_FILES) {
       const key = `${prefix}/${file}`;
       if (key in manifest.pages) keys.push(key);
@@ -124,12 +136,41 @@ for (const [file, size] of largest) {
   );
 }
 
+/**
+ * `next-font-manifest.json` lists, per app entry (layout / page), the font
+ * files Next emits `<link rel="preload" as="font">` for. A page preloads the
+ * union over its entries; the root layout's set reaches every page, so the
+ * check is per entry plus the root layout's set added to each other entry.
+ */
+/** @type {{ app?: Record<string, string[]> }} */
+const fontManifest = existsSync(fontManifestPath)
+  ? JSON.parse(readFileSync(fontManifestPath, 'utf8'))
+  : {};
+const fontEntries = Object.entries(fontManifest.app ?? {});
+const rootLayoutFonts = fontEntries.find(([entry]) => entry.endsWith('/app/layout'))?.[1] ?? [];
+const fontRows = fontEntries.map(([entry, files]) => {
+  const union = [...new Set([...rootLayoutFonts, ...files])];
+  const raw = union.reduce((sum, file) => sum + readFileSync(join(nextDir, file)).length, 0);
+  return { entry: entry.replace(/^.*\/app(?=\/)/, ''), files: union, raw };
+});
+
+console.log('Font preloads per app entry (from server/next-font-manifest.json):');
+if (fontRows.length === 0) console.log('  (none)');
+for (const row of fontRows) {
+  console.log(
+    `  ${row.entry.padEnd(44)} ${String(row.files.length).padStart(3)} files ${kb(row.raw).padStart(7)} kB`,
+  );
+}
+
 const overRoutes = rows.filter((row) => row.gzip > ROUTE_BUDGET_GZIP_KB * 1024);
 const overChunks = [...chunkSizes.entries()].filter(
   ([, size]) => size.raw > CHUNK_BUDGET_RAW_KB * 1024,
 );
+const overFonts = fontRows.filter(
+  (row) => row.files.length > FONT_PRELOAD_MAX_FILES || row.raw > FONT_PRELOAD_BUDGET_KB * 1024,
+);
 
-if (overRoutes.length > 0 || overChunks.length > 0) {
+if (overRoutes.length > 0 || overChunks.length > 0 || overFonts.length > 0) {
   for (const row of overRoutes) {
     console.error(
       `bundle-size: route ${row.route} is ${kb(row.gzip)} kB gzip — budget ${String(ROUTE_BUDGET_GZIP_KB)} kB.`,
@@ -140,9 +181,14 @@ if (overRoutes.length > 0 || overChunks.length > 0) {
       `bundle-size: chunk ${file} is ${kb(size.raw)} kB raw — budget ${String(CHUNK_BUDGET_RAW_KB)} kB.`,
     );
   }
+  for (const row of overFonts) {
+    console.error(
+      `bundle-size: ${row.entry} preloads ${String(row.files.length)} font files, ${kb(row.raw)} kB — budget ${String(FONT_PRELOAD_MAX_FILES)} files, ${String(FONT_PRELOAD_BUDGET_KB)} kB (lib/fonts/fonts.ts: \`preload: false\` on anything past the first paint).`,
+    );
+  }
   process.exit(1);
 }
 
 console.log(
-  `bundle-size: OK — every route ≤ ${String(ROUTE_BUDGET_GZIP_KB)} kB gzip, every chunk ≤ ${String(CHUNK_BUDGET_RAW_KB)} kB raw.`,
+  `bundle-size: OK — every route ≤ ${String(ROUTE_BUDGET_GZIP_KB)} kB gzip, every chunk ≤ ${String(CHUNK_BUDGET_RAW_KB)} kB raw, font preloads ≤ ${String(FONT_PRELOAD_MAX_FILES)} files / ${String(FONT_PRELOAD_BUDGET_KB)} kB.`,
 );

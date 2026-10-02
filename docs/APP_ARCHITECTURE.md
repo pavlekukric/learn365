@@ -310,10 +310,10 @@ app/
 ## 10. Fonts
 
 - **Spectral** (serif): 300, 400, 500 + italics
-- **Inter** (sans): 400, 500, 600
+- **Inter** (sans): 400, 500
 - **JetBrains Mono** (mono): 400, 500
 
-Web: `next/font/local` over the committed woff2 files in `apps/web/lib/fonts/files/` (Google Fonts, OFL; `latin` + `latin-ext` subsets), `display: 'swap'`, preload on the Spectral and Inter faces.
+Web: `next/font/local` over the committed woff2 files in `apps/web/lib/fonts/files/` (Google Fonts sources, OFL; one Serbian-Latin subset per face, built by `apps/web/scripts/fonts/subset-fonts.sh`), `display: 'swap'`. Only Spectral 400 and Inter are preloaded; `check-bundle` holds that at ≤ 2 files / 64 kB.
 Mobile (later): bundled via `expo-font`.
 
 ---

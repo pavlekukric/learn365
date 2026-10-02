@@ -49,6 +49,28 @@ export default function HomePage() {
            * in page.module.css — no JSX change required. See `.heroBackdrop`.
            */}
           <div className={styles.heroBackdrop} aria-hidden="true" />
+          {/*
+           * The backdrop is Home's LCP on phones, and as a CSS background the
+           * browser finds it only after the stylesheets load (about 2.2 s late
+           * on mobile, review 2026-10-01 P1 item 3). These preloads (React
+           * hoists them into <head>) start the one image the viewport needs
+           * with the HTML. URLs and breakpoint match `--hero-image` in
+           * page.module.css.
+           */}
+          <link
+            rel="preload"
+            as="image"
+            href="/hero/hero-bg-mobile.webp"
+            media="(max-width: 719.98px)"
+            fetchPriority="high"
+          />
+          <link
+            rel="preload"
+            as="image"
+            href="/hero/hero-bg.webp"
+            media="(min-width: 720px)"
+            fetchPriority="high"
+          />
 
           <div className={styles.heroInner}>
             {/* No hero eyebrow: the TopBar already holds the Istorija 365 brand,
