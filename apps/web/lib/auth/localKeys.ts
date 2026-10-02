@@ -13,7 +13,11 @@ export const BOOKMARKS_MARKER_KEY = 'learn365:cloud:bookmarks:v1';
 /** `{ dismissedAt }` — the reader answered `Ne sada` to the sign-in ask. */
 export const SIGNIN_PROMPT_KEY = 'learn365:signin-prompt:v1';
 
-/** `localStorage` keys. */
+/**
+ * `localStorage` keys. The pending-change queues (`learn365:cloud:pending:v1:…`,
+ * `lib/sync/pendingQueue.ts`) are removed by `Odjava` / account deletion
+ * too, but kept on an implicit sign-out — tagged with their account.
+ */
 export const ACCOUNT_LOCAL_KEYS: readonly string[] = [
   PROGRESS_MARKER_KEY,
   BOOKMARKS_MARKER_KEY,

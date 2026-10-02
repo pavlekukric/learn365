@@ -75,6 +75,23 @@ async function me(page: Page): Promise<unknown> {
   return (await page.request.get('/api/me')).json();
 }
 
+async function serverCompleted(page: Page): Promise<string[]> {
+  const response = await page.request.get(`/api/me/progress?courseId=${COURSE_ID}`);
+  if (!response.ok()) return [];
+  const body = (await response.json()) as { completedLessonIds: string[] };
+  return [...body.completedLessonIds].sort();
+}
+
+/** Open a lesson signed in and wait until this browser is synced (marker written). */
+async function openSynced(page: Page, lessonId: string, expected: readonly string[]): Promise<void> {
+  await page.goto(`/course/${COURSE_ID}/lesson/${lessonId}`);
+  await expect.poll(() => localMarkers(page)).not.toContain(null);
+  await expect.poll(() => localCompleted(page)).toEqual([...expected].sort());
+}
+
+const markRead = (page: Page) =>
+  page.getByRole('button', { name: /Označi kao pročitano/ }).first().click();
+
 test.describe('History 365 — accounts on', () => {
   test('signing in unions local progress into the account; signing out clears this browser', async ({
     page,
@@ -82,8 +99,12 @@ test.describe('History 365 — accounts on', () => {
   }, testInfo) => {
     const reader = accountForAttempt('sync', testInfo);
 
-    // Anonymous reading first: one lesson done, only in this browser.
+    // Anonymous reading first: one lesson done, only in this browser. Wait
+    // for this page's `/api/me` first — answered after the cookie below, it
+    // would start a sync from this page's (empty) store.
+    const anonymousMe = page.waitForResponse((response) => response.url().endsWith('/api/me'));
     await page.goto('/');
+    await anonymousMe;
     await page.evaluate(
       ({ key, value }) => window.localStorage.setItem(key, value),
       {
@@ -182,5 +203,103 @@ test.describe('History 365 — accounts on', () => {
     await expect(page.getByRole('heading', { level: 1, name: 'Nalozi' })).toBeVisible();
     await expect(page.getByRole('row').filter({ hasText: owner.name })).toBeVisible();
     expect((await page.request.get('/pregled')).status()).toBe(200);
+  });
+  // Phase 23 (review 2026-10-01 P1 item 4): no silent loss of signed-in progress.
+
+  test('a lesson marked read and reloaded at once is kept and reaches the account', async ({
+    page,
+    context,
+  }, testInfo) => {
+    const reader = accountForAttempt('reload', testInfo);
+    await signInAs(context, testInfo, reader.key);
+    await openSynced(page, 'day-010', reader.completed);
+
+    // Reload inside the 250 ms debounce: no PATCH left this page.
+    await markRead(page);
+    await page.reload();
+
+    const expected = [...reader.completed, 'day-010'].sort();
+    await expect.poll(() => localCompleted(page)).toEqual(expected);
+    await expect.poll(() => serverCompleted(page)).toEqual(expected);
+  });
+
+  test('changes made during an outage survive closing the tab and go out on the next visit', async ({
+    page,
+    context,
+  }, testInfo) => {
+    const reader = accountForAttempt('outage', testInfo);
+    await signInAs(context, testInfo, reader.key);
+    await openSynced(page, 'day-011', reader.completed);
+
+    let refused = 0;
+    await page.route('**/api/me/progress', async (route) => {
+      if (route.request().method() !== 'PATCH') return route.continue();
+      refused += 1;
+      return route.fulfill({ status: 503, body: '{"error":"db"}' });
+    });
+    await markRead(page);
+    // The first try and the one retry, then the engine waits.
+    await expect.poll(() => refused, { timeout: 10_000 }).toBeGreaterThanOrEqual(2);
+    expect(await serverCompleted(page)).toEqual([...reader.completed].sort());
+    await page.close();
+
+    const next = await context.newPage();
+    await next.goto(`/course/${COURSE_ID}`);
+    const expected = [...reader.completed, 'day-011'].sort();
+    await expect.poll(() => serverCompleted(next)).toEqual(expected);
+    await expect.poll(() => localCompleted(next)).toEqual(expected);
+  });
+
+  test('two tabs: a lesson read in each is kept in both and on the account', async ({
+    page,
+    context,
+  }, testInfo) => {
+    const reader = accountForAttempt('tabs', testInfo);
+    await signInAs(context, testInfo, reader.key);
+    await openSynced(page, 'day-012', reader.completed);
+    const other = await context.newPage();
+    await openSynced(other, 'day-013', reader.completed);
+
+    await markRead(page);
+    await expect.poll(() => localCompleted(other)).toContain('day-012');
+    await markRead(other);
+
+    const expected = [...reader.completed, 'day-012', 'day-013'].sort();
+    await expect.poll(() => localCompleted(page)).toEqual(expected);
+    await expect.poll(() => localCompleted(other)).toEqual(expected);
+    await expect.poll(() => serverCompleted(page)).toEqual(expected);
+  });
+
+  test('Odjava in one tab: the other tab drops the account and cannot leak it into the next one', async ({
+    page,
+    context,
+  }, testInfo) => {
+    const first = accountForAttempt('tabsout', testInfo);
+    const second = accountForAttempt('next', testInfo);
+    await signInAs(context, testInfo, first.key);
+    await openSynced(page, 'day-020', first.completed);
+    const other = await context.newPage();
+    await openSynced(other, 'day-021', first.completed);
+
+    await page.goto('/nalog');
+    await page.getByRole('button', { name: 'Odjava', exact: true }).click();
+    await expect(page).toHaveURL(/:\d+\/$/);
+
+    // The other tab followed: empty store, no markers, signed out.
+    await expect.poll(() => localCompleted(other)).toEqual([]);
+    await expect.poll(() => localMarkers(other)).toEqual([null, null]);
+    // Reading on there now is anonymous reading — only this lesson.
+    await markRead(other);
+    await expect.poll(() => localCompleted(other)).toEqual(['day-021']);
+
+    // The next reader signs in on this browser: their first sync unions
+    // the anonymous lesson, and none of the first account's.
+    await signInAs(context, testInfo, second.key);
+    await other.goto(`/course/${COURSE_ID}`);
+    const expected = [...second.completed, 'day-021'].sort();
+    await expect.poll(() => serverCompleted(other)).toEqual(expected);
+    for (const lessonId of first.completed) {
+      expect(await serverCompleted(other)).not.toContain(lessonId);
+    }
   });
 });

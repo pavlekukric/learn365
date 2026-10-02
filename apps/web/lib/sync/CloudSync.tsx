@@ -3,11 +3,10 @@
 import { useEffect } from 'react';
 
 import { useAuth } from '@/lib/auth/AuthProvider';
-import { useBookmarkStoreApi } from '@/lib/bookmarks/BookmarkStoreProvider';
-import { useProgressStoreApi } from '@/lib/progress/ProgressStoreProvider';
+import { useBookmarkSync } from '@/lib/bookmarks/BookmarkStoreProvider';
+import { useProgressSync } from '@/lib/progress/ProgressStoreProvider';
 
-import { createBookmarkAdapter } from './bookmarkAdapter';
-import { createProgressAdapter } from './progressAdapter';
+import { runningSync } from './flush';
 import { startSync } from './syncEngine';
 
 function logSyncError(error: unknown): void {
@@ -27,30 +26,24 @@ export function CloudSync({
   courseIds: readonly string[];
 }) {
   const { status, enabled, user } = useAuth();
-  const progressStore = useProgressStoreApi();
-  const bookmarkStore = useBookmarkStoreApi();
+  const progress = useProgressSync();
+  const bookmarks = useBookmarkSync();
   const userId = user?.id ?? null;
 
   useEffect(() => {
     if (status !== 'ready' || !enabled || userId === null) return;
     const handles = [
-      startSync({
-        adapter: createProgressAdapter(progressStore),
-        courseIds,
-        userId,
-        onError: logSyncError,
-      }),
-      startSync({
-        adapter: createBookmarkAdapter(bookmarkStore),
-        courseIds,
-        userId,
-        onError: logSyncError,
-      }),
+      startSync({ ...progress, courseIds, userId, onError: logSyncError }),
+      startSync({ ...bookmarks, courseIds, userId, onError: logSyncError }),
     ];
+    for (const handle of handles) runningSync.add(handle);
     return () => {
-      for (const handle of handles) handle.dispose();
+      for (const handle of handles) {
+        handle.dispose();
+        runningSync.delete(handle);
+      }
     };
-  }, [status, enabled, userId, courseIds, progressStore, bookmarkStore]);
+  }, [status, enabled, userId, courseIds, progress, bookmarks]);
 
   return null;
 }
