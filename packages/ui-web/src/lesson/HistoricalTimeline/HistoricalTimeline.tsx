@@ -130,9 +130,13 @@ export function HistoricalTimeline({
         <ol className={styles.bands}>
           {eras.map((era, idx) => {
             const state = eraStateFor(era);
-            // The visible label can shrink to the numeral (container-query
-            // fallback), so the accessible name always carries the full title.
-            const name = `Epoha ${era.num}: ${era.title}, ${era.yearsLabel}`;
+            // The accessible name starts with what the horizontal rail shows
+            // (numeral, short label, start year) so a voice-control user can
+            // say the visible words (WCAG 2.5.3, Lighthouse
+            // label-content-name-mismatch); the full title and range follow,
+            // which also contain what the vertical rows and the numeral-only
+            // container-query fallback show.
+            const name = `${era.num} ${era.eraShort}, ${formatYearShort(era.yearStart)}. Epoha ${era.num}: ${era.title}, ${era.yearsLabel}`;
             const cls = `${styles.band} ${styles[state] ?? ''}`;
             const content = (
               <>

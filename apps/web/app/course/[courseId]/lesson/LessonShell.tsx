@@ -1,7 +1,7 @@
 'use client';
 
 import { useParams } from 'next/navigation';
-import { useCallback, useEffect, useMemo, useState, type ReactNode } from 'react';
+import { useCallback, useEffect, useMemo, useRef, useState, type ReactNode } from 'react';
 
 import {
   getLessonById,
@@ -20,6 +20,9 @@ import { useEraTimeline } from '@/lib/progress/useEraTimeline';
 import { LessonContextHeader } from './LessonContextHeader';
 import styles from './LessonShell.module.css';
 import { ReadingProgress } from './ReadingProgress';
+
+/** The drawer's dialog panel — what the "Sadržaj" trigger controls. */
+const DRAWER_ID = 'lesson-contents-drawer';
 
 interface LessonShellProps {
   courseId: CourseId;
@@ -98,6 +101,51 @@ function LessonFrame({ courseId, lesson, children }: LessonFrameProps) {
     markOpened(courseId, lesson.id);
   }, [courseId, lesson.id, markOpened]);
 
+  // Lesson to lesson (the next card, prev / next, a drawer row), the page
+  // under the shell is replaced and focus would fall to <body>; Safari and
+  // Firefox then restart Tab at the skip links on every lesson. Move it to
+  // the new lesson's title (a never-ringed `tabIndex={-1}` target) so a
+  // screen reader starts there. Not on the first load — the ref starts at
+  // the first lesson, which also keeps Strict Mode's double effect quiet —
+  // and not when the reader is moving through the desktop outline, which
+  // stays mounted and keeps its own focus.
+  const layoutRef = useRef<HTMLDivElement>(null);
+  const focusedLessonIdRef = useRef(lesson.id);
+  useEffect(() => {
+    if (focusedLessonIdRef.current === lesson.id) return;
+    focusedLessonIdRef.current = lesson.id;
+    const focused = document.activeElement;
+    const outline = layoutRef.current?.querySelector('aside');
+    if (focused !== null && focused !== document.body && outline?.contains(focused)) return;
+    const reader = document.getElementById('lesson-reader');
+    const target = reader?.querySelector<HTMLElement>('h1[tabindex]') ?? reader;
+    target?.focus({ preventScroll: true });
+  }, [lesson.id]);
+
+  // While the drawer is open the page behind it is inert, not only hidden
+  // by `aria-modal` (older iOS VoiceOver and TalkBack still swipe past
+  // that). Inside the frame the outline, the skip link and the reader column
+  // take the `inert` prop, so the attribute is gone before the drawer hands
+  // focus back to its trigger; outside it (the TopBar, the site footer)
+  // every sibling on the way up to <body> is marked here.
+  useEffect(() => {
+    if (!drawerOpen) return;
+    const marked: Element[] = [];
+    let node: Element | null = layoutRef.current;
+    while (node !== null && node !== document.body && node.parentElement !== null) {
+      for (const sibling of Array.from(node.parentElement.children)) {
+        if (sibling === node || sibling.hasAttribute('inert')) continue;
+        if (sibling instanceof HTMLScriptElement || sibling instanceof HTMLStyleElement) continue;
+        sibling.setAttribute('inert', '');
+        marked.push(sibling);
+      }
+      node = node.parentElement;
+    }
+    return () => {
+      for (const el of marked) el.removeAttribute('inert');
+    };
+  }, [drawerOpen]);
+
   const handleToggleSection = useCallback((id: SectionId) => {
     // A section the reader toggles by hand is theirs: it is no longer closed
     // when the lesson moves on.
@@ -140,19 +188,19 @@ function LessonFrame({ courseId, lesson, children }: LessonFrameProps) {
   };
 
   return (
-    <div className={styles.layout}>
+    <div ref={layoutRef} className={styles.layout}>
       {/* The outline comes first in the DOM (15–30 controls on desktop):
        * this link, first in <main>, lets a keyboard reader skip it. */}
-      <a href="#lesson-reader" className="skip-link">
+      <a href="#lesson-reader" className="skip-link" inert={drawerOpen}>
         Preskoči na tekst lekcije
       </a>
       {/* Keyed by lesson: the hairline starts from zero on every lesson. */}
       <ReadingProgress key={lesson.id} />
-      <aside className={styles.sidebarColumn}>
+      <aside className={styles.sidebarColumn} inert={drawerOpen}>
         <CourseSidebar {...sidebarProps} revealCurrent />
       </aside>
 
-      <div id="lesson-reader" tabIndex={-1} className={styles.readerColumn}>
+      <div id="lesson-reader" tabIndex={-1} className={styles.readerColumn} inert={drawerOpen}>
         <LessonContextHeader
           dayNumber={lesson.dayNumber}
           completedCount={completedIds.size}
@@ -160,11 +208,14 @@ function LessonFrame({ courseId, lesson, children }: LessonFrameProps) {
           onOpenContents={() => {
             setDrawerOpen(true);
           }}
+          drawerOpen={drawerOpen}
+          drawerId={DRAWER_ID}
         />
         {children}
       </div>
 
       <MobileLessonDrawer
+        id={DRAWER_ID}
         open={drawerOpen}
         onClose={() => {
           setDrawerOpen(false);

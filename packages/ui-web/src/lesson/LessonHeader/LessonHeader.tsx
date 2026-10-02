@@ -4,6 +4,7 @@ import type { LessonHeading } from '@learn365/content';
 
 import { Flourish } from '../../primitives/Flourish/Flourish.js';
 import { LessonTimeline } from '../LessonTimeline/LessonTimeline.js';
+import { buildLessonTimelineScale } from '../LessonTimeline/lessonTimelineScale.js';
 
 import styles from './LessonHeader.module.css';
 
@@ -26,6 +27,11 @@ interface LessonHeaderProps {
 
 export function LessonHeader({ lesson, eraShort, bookmark }: LessonHeaderProps) {
   const isPlaceholder = lesson.isPlaceholder === true;
+  const dateText = lesson.dateLabel ?? `${String(lesson.year)}.`;
+  // The timeline divider prints the same date at its marker on wider
+  // screens; when it does, the eyebrow keeps the date for assistive tech
+  // only (the divider is `aria-hidden`), so the eye reads it once.
+  const timelineShowsDate = !isPlaceholder && buildLessonTimelineScale(lesson.year) !== null;
 
   return (
     <header className={styles.header}>
@@ -39,10 +45,17 @@ export function LessonHeader({ lesson, eraShort, bookmark }: LessonHeaderProps) 
       {isPlaceholder ? null : (
         <p className={`tiny mono ${styles.eyebrow}`}>
           {eraShort ? <span className={styles.eraMobile}>{eraShort} · </span> : null}
-          {`${String(lesson.readingTimeMinutes)} min čitanja · ${lesson.dateLabel ?? `${String(lesson.year)}.`}`}
+          {`${String(lesson.readingTimeMinutes)} min čitanja`}
+          <span className={timelineShowsDate ? styles.dateCovered : undefined}>
+            {` · ${dateText}`}
+          </span>
         </p>
       )}
-      <h1 className="reader-title">{lesson.title}</h1>
+      {/* `tabIndex={-1}`: where the lesson shell moves focus after a
+       * lesson-to-lesson navigation, so a screen reader starts at the title. */}
+      <h1 className="reader-title" tabIndex={-1}>
+        {lesson.title}
+      </h1>
       {lesson.subtitle ? <p className="lede">{lesson.subtitle}</p> : null}
       {/* Byline / last-reviewed date moved to the end of the article
        * (`LessonTrustLine`, next to Izvori) so the first sentence arrives

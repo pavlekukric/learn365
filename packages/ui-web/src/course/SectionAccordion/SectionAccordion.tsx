@@ -63,25 +63,29 @@ export function SectionAccordion({
           </span>
         </span>
         <span className={`tiny mono ${styles.counter}`}>
-          {completedCount} / {lessons.length}
+          {/* "4 / 9" for the eye; a bare fraction says nothing to a screen
+           * reader, so it hears "4 od 9 pročitano". */}
+          <span aria-hidden="true">
+            {completedCount} / {lessons.length}
+          </span>
+          <span className="visually-hidden">
+            {`${String(completedCount)} od ${String(lessons.length)} pročitano`}
+          </span>
         </span>
       </button>
 
       {isOpen ? (
         <ol id={panelId} className={styles.lessons}>
-          {lessons.map((lesson) => {
-            const state =
-              lesson.id === currentLessonId
-                ? 'active'
-                : completedIds.has(lesson.id)
-                  ? 'completed'
-                  : 'idle';
-            return (
-              <li key={lesson.id}>
-                <LessonNavItem lesson={lesson} state={state} href={lessonHref(lesson)} />
-              </li>
-            );
-          })}
+          {lessons.map((lesson) => (
+            <li key={lesson.id}>
+              <LessonNavItem
+                lesson={lesson}
+                active={lesson.id === currentLessonId}
+                completed={completedIds.has(lesson.id)}
+                href={lessonHref(lesson)}
+              />
+            </li>
+          ))}
         </ol>
       ) : null}
     </section>

@@ -3,7 +3,7 @@
 import { useMemo } from 'react';
 
 import { getLessons, type CourseId, type LessonSummary } from '@learn365/content';
-import { findResumeLesson, lastOpenedLessonId } from '@learn365/core';
+import { findResumeLesson } from '@learn365/core';
 
 import { useProgressStore } from './ProgressStoreProvider';
 
@@ -22,8 +22,9 @@ export interface ResumeState {
   /**
    * The lesson a start / continue action should open.
    *   - fresh user → Day 1
-   *   - started   → `findResumeLesson` (the unfinished lesson the reader
-   *                 left, else the next unread day — never a finished one)
+   *   - started   → `findResumeLesson`: the first unread day after the
+   *                 highest-numbered completed one, else the earliest unread
+   *                 day. Merely opening a lesson never moves it (Phase 21).
    *   - all done  → `null`
    */
   readonly lesson: LessonSummary | null;
@@ -38,24 +39,27 @@ export interface ResumeState {
 
 /**
  * One resume rule for every "where do I continue?" surface (Home hero CTA,
- * Home recommended-lesson card, Home daily anchor, Course overview progress
- * card). Keeping the resolution here means they can never point at
- * different lessons or count different days.
+ * Home recommended-lesson card, Home daily anchor, Home era rail marker,
+ * Course overview progress card and its highlighted tree row, the lesson
+ * footer after the course's last day). Keeping the resolution here means
+ * they can never point at different lessons or count different days.
+ *
+ * Reads completions only — `lastOpenedLessonId` is not an input — so a
+ * lesson browsed from the outline does not become "Tvoj N. dan".
  */
 export function useResumeLesson(courseId: CourseId): ResumeState {
   const completedSet = useProgressStore(
     (state) => state.byCourse[courseId]?.completedLessonIds ?? null,
   );
-  const lastId = useProgressStore((state) => lastOpenedLessonId(state, courseId));
 
   return useMemo(() => {
     const lessons = getLessons(courseId);
     const completed = completedSet?.size ?? 0;
     const hasStarted = completed > 0;
     const lesson = hasStarted
-      ? findResumeLesson(lessons, completedSet, lastId)
+      ? findResumeLesson(lessons, completedSet)
       : (lessons[0] ?? null);
     const journeyDay = hasStarted ? (lesson?.dayNumber ?? lessons.length) : null;
     return { completed, total: lessons.length, hasStarted, lesson, journeyDay };
-  }, [courseId, completedSet, lastId]);
+  }, [courseId, completedSet]);
 }

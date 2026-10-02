@@ -12,6 +12,12 @@
   scroll-margin-bottom: var(--space-6);
 }
 
+/* Focus lands here only by script (after the account ask closes); like
+ * #lesson-reader it is a target, not a control, so it shows no ring. */
+.completedWrap:focus {
+  outline: none;
+}
+
 @media (max-width: 860px) {
   .footer {
     gap: var(--space-7);

@@ -78,7 +78,19 @@ export function CourseCard({
           onClick={onToggle}
           aria-expanded={isOpen}
           aria-controls={panelId}
-          aria-labelledby={`${panelId}-num ${panelId}-title`}
+          // The name is the card's visible text in reading order, so it starts
+          // with the visible label and contains every visible word (WCAG
+          // 2.5.3; naming only "EPOHA I" + the title failed Lighthouse's
+          // label-content-name-mismatch). The ids keep the parts spaced.
+          aria-labelledby={[
+            `${panelId}-num`,
+            `${panelId}-title`,
+            `${panelId}-years`,
+            description ? `${panelId}-desc` : null,
+            `${panelId}-hint`,
+          ]
+            .filter(Boolean)
+            .join(' ')}
         >
           <span id={`${panelId}-num`} className={`tiny mono ${styles.num}`}>
             EPOHA {era.num}
@@ -87,11 +99,15 @@ export function CourseCard({
             <span id={`${panelId}-title`} className={`h3 ${styles.title}`}>
               {era.title}
             </span>
-            <span className={`tiny mono ${styles.years}`}>{era.yearsLabel}</span>
+            <span id={`${panelId}-years`} className={`tiny mono ${styles.years}`}>
+              {era.yearsLabel}
+            </span>
             {description ? (
-              <span className={`small ${styles.description}`}>{description}</span>
+              <span id={`${panelId}-desc`} className={`small ${styles.description}`}>
+                {description}
+              </span>
             ) : null}
-            <span className={`tiny mono ${styles.hint}`}>
+            <span id={`${panelId}-hint`} className={`tiny mono ${styles.hint}`}>
               <span className={`${styles.chev} ${isOpen ? styles.chevOpen : ''}`} aria-hidden="true">
                 <IconChev />
               </span>

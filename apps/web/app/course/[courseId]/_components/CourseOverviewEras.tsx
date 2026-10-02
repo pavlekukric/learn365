@@ -1,10 +1,9 @@
 'use client';
 
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useState } from 'react';
 
 import {
   getEras,
-  getLessons,
   getLessonsByEra,
   getLessonsBySection,
   getSectionsByEra,
@@ -14,10 +13,11 @@ import {
   type Section,
   type SectionId,
 } from '@learn365/content';
-import { findActiveLocation, formatDayRange, lastOpenedLessonId } from '@learn365/core';
+import { formatDayRange } from '@learn365/core';
 import { CourseCard, IconChev, LessonNavItem } from '@learn365/ui-web';
 
 import { useProgressStore } from '@/lib/progress/ProgressStoreProvider';
+import { useResumeLesson } from '@/lib/progress/useResumeLesson';
 
 import styles from './CourseOverviewEras.module.css';
 
@@ -55,6 +55,7 @@ interface SectionAccordionRowProps {
   isOpen: boolean;
   onToggle: () => void;
   completedSet: ReadonlySet<LessonId> | null;
+  /** The resume lesson — the row tinted as "you are here". */
   currentLessonId: LessonId | null;
   /** Completion ratio for this section, used in the collapsed header meta. */
   done: number;
@@ -86,10 +87,7 @@ function SectionAccordionRow({
   // When the section is closed and the user has progress in it, surface a
   // compact "done / total" count instead of the static lesson-count label —
   // it answers "how far am I in this group?" without expanding the panel.
-  const collapsedMeta =
-    !isOpen && total > 0 && done > 0
-      ? `${String(done)} / ${String(total)}`
-      : lessonCountLabel(total);
+  const showRatio = !isOpen && total > 0 && done > 0;
 
   return (
     <li className={styles.sectionItem}>
@@ -109,30 +107,35 @@ function SectionAccordionRow({
           </span>
           <span className={styles.sectionTitle}>{section.title}</span>
         </span>
-        <span className={`tiny ${styles.sectionCount}`}>{collapsedMeta}</span>
+        <span className={`tiny ${styles.sectionCount}`}>
+          {showRatio ? (
+            <>
+              {/* "4 / 9" for the eye, "4 od 9 pročitano" for a screen reader. */}
+              <span aria-hidden="true">{`${String(done)} / ${String(total)}`}</span>
+              <span className="visually-hidden">
+                {`${String(done)} od ${String(total)} pročitano`}
+              </span>
+            </>
+          ) : (
+            lessonCountLabel(total)
+          )}
+        </span>
       </button>
 
       <ol id={panelId} className={styles.lessons} hidden={!isOpen}>
-        {lessons.map((lesson) => {
-          const state =
-            lesson.id === currentLessonId
-              ? 'active'
-              : (completedSet?.has(lesson.id) ?? false)
-                ? 'completed'
-                : 'idle';
-          return (
-            <li key={lesson.id}>
-              <LessonNavItem
-                lesson={lesson}
-                state={state}
-                href={`/course/${courseId}/lesson/${lesson.id}`}
-                // The overview marks where the reader is, but that row is
-                // not the page being viewed.
-                isCurrentPage={false}
-              />
-            </li>
-          );
-        })}
+        {lessons.map((lesson) => (
+          <li key={lesson.id}>
+            <LessonNavItem
+              lesson={lesson}
+              active={lesson.id === currentLessonId}
+              completed={completedSet?.has(lesson.id) ?? false}
+              href={`/course/${courseId}/lesson/${lesson.id}`}
+              // The overview marks where the reader is, but that row is
+              // not the page being viewed.
+              isCurrentPage={false}
+            />
+          </li>
+        ))}
       </ol>
     </li>
   );
@@ -140,36 +143,30 @@ function SectionAccordionRow({
 
 export function CourseOverviewEras({ courseId }: CourseOverviewErasProps) {
   const eras = getEras(courseId);
-  const allLessons = useMemo(() => getLessons(courseId), [courseId]);
-  const lastId = useProgressStore((state) => lastOpenedLessonId(state, courseId));
   const completedSet = useProgressStore(
     (state) => state.byCourse[courseId]?.completedLessonIds ?? null,
   );
 
-  // "Where is the user?" — drives which era + section open by default and
-  // which lesson row shows the active accent in the expanded section. Shared
-  // selector so the lesson sidebar and this page always agree.
-  const active = useMemo(
-    () => findActiveLocation(allLessons, completedSet, lastId),
-    [allLessons, completedSet, lastId],
-  );
-
-  // First-time visitor signal — `findActiveLocation` falls back to lesson 1
-  // when neither `lastOpenedLessonId` nor a completed set exists, which on
-  // this page would auto-expand Era I into an editorial wall of nested
-  // panels. On the lesson reader that fallback is right (the sidebar must
-  // surface *some* active position); on the course overview it works against
-  // the "8 calm editorial blocks" register that the always-visible era
-  // descriptions establish. So we keep `active` available for the sidebar's
-  // selector and just suppress the auto-open here when there's no real
-  // progress to point at.
-  const hasRealProgress = lastId !== null || (completedSet !== null && completedSet.size > 0);
+  // "Where is the reader?" — the resume lesson, the same one the progress
+  // card above names (`useResumeLesson`), so the tinted row, the open era
+  // and section, and "Tvoj N. dan" always point at one lesson (review
+  // 2026-10-01: the card said Dan 121 while the tree tinted row 120).
+  //
+  // Before the first completion the resume lesson is Day 1, which on this
+  // page would auto-expand Era I into an editorial wall of nested panels —
+  // against the "8 calm editorial blocks" register the always-visible era
+  // descriptions establish. So nothing opens or tints until there is real
+  // progress; once everything is read (`lesson === null`) nothing does
+  // either.
+  const { hasStarted, lesson: resume } = useResumeLesson(courseId);
+  const active = hasStarted ? resume : null;
+  const hasRealProgress = active !== null;
 
   // Era + section accordion state. We can't just seed with `useState(active)`
   // because the persisted progress store hydrates *after* first render — at
-  // that moment `lastOpenedLessonId` is still null, so `active` collapses to
-  // Era I. Seeding with that and never re-reading would strand the user on
-  // Era I even after the store reports they're on Era II. Solution: keep an
+  // that moment the completed set is still empty, so `active` is null.
+  // Seeding with that and never re-reading would leave every era closed
+  // even after the store reports the reader is in Era II. Solution: keep an
   // override that tracks "user manually toggled," and otherwise sync to the
   // current `active` location via effect. Manual taps win once dirtied.
   const [userToggledEra, setUserToggledEra] = useState(false);
@@ -203,7 +200,7 @@ export function CourseOverviewEras({ courseId }: CourseOverviewErasProps) {
         const total = eraLessons.length;
         const done = countDone(completedSet, eraLessons);
         const isAllDone = total > 0 && done === total;
-        const isCurrent = !isAllDone && lastId !== null && eraLessons.some((l) => l.id === lastId);
+        const isCurrent = !isAllDone && active !== null && active.eraId === era.id;
         // The card's one action opens the first unread lesson of the era (or
         // its first lesson once everything is read) — "Počni" / "Nastavi".
         const targetLesson =
@@ -254,7 +251,7 @@ export function CourseOverviewEras({ courseId }: CourseOverviewErasProps) {
                         setOpenSectionId((prev) => (prev === section.id ? null : section.id));
                       }}
                       completedSet={completedSet}
-                      currentLessonId={lastId}
+                      currentLessonId={active?.id ?? null}
                       done={countDone(completedSet, sectionLessons)}
                       total={sectionLessons.length}
                     />

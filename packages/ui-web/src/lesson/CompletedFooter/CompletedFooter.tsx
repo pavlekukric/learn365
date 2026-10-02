@@ -1,12 +1,13 @@
 import Link from 'next/link';
 
-import { formatDayEyebrow, formatDayProse } from '@learn365/core';
+import { formatDayEyebrow } from '@learn365/core';
 
 import { IconArrow } from '../../icons/IconArrow.js';
 import { IconArrowLeft } from '../../icons/IconArrowLeft.js';
 import { IconCheck } from '../../icons/IconCheck.js';
 
 import styles from './CompletedFooter.module.css';
+import { completionMoment } from './completionMoment.js';
 
 export interface CompletedFooterNext {
   href: string;
@@ -32,7 +33,13 @@ interface CompletedFooterProps {
   totalLessons: number;
   next: CompletedFooterNext | null;
   prev: CompletedFooterPrev | null;
-  /** Where to send the user when there is no next lesson (end-of-course). */
+  /**
+   * Where to continue when there is no next lesson but the course is not
+   * finished — the shared resume lesson (the earliest unread day). Omitted,
+   * the card opens the course overview instead.
+   */
+  resume?: CompletedFooterNext | null | undefined;
+  /** Course overview — the end-of-course link, and the fallback above. */
   courseHref: string;
 }
 
@@ -43,7 +50,13 @@ interface CompletedFooterProps {
  * Editorial, not gamified — one human sentence that acknowledges the day,
  * the labelled count underneath (so the reader sees the number move without
  * hunting for it in the chrome), a serif title on a paper card, a chevron.
- * No XP, no streaks, no percentages.
+ * No XP, no streaks, no percentages. What the sentence says follows the
+ * lesson's position and the course's state (`completionMoment`); at
+ * 365 / 365 it becomes the course's quiet finish: a heading, one line and a
+ * way back to the course.
+ *
+ * One column, one left edge (Phase 21): the sentence, the card and the
+ * previous link all start where the completion button above them starts.
  */
 export function CompletedFooter({
   completedDayNumber,
@@ -51,55 +64,56 @@ export function CompletedFooter({
   totalLessons,
   next,
   prev,
+  resume,
   courseHref,
 }: CompletedFooterProps) {
-  const isFirstWin = completedCount === 1;
+  const moment = completionMoment({
+    dayNumber: completedDayNumber,
+    isLastLesson: next === null,
+    completedCount,
+    totalLessons,
+  });
 
   return (
     <div className={styles.wrap}>
       <div className={styles.moment} role="status">
-        <p className={styles.momentLine}>
-          <IconCheck className={styles.check} />
-          <span>
-            {isFirstWin
-              ? 'Prvi dan je iza tebe.'
-              : `${formatDayProse(completedDayNumber)} je iza tebe.`}
-          </span>
-        </p>
+        {moment.kind === 'finished' ? (
+          <>
+            <p className={styles.finishHeading}>
+              <IconCheck className={styles.check} />
+              <span>{moment.heading}</span>
+            </p>
+            <p className={styles.finishLine}>{moment.line}</p>
+          </>
+        ) : (
+          <p className={styles.momentLine}>
+            <IconCheck className={styles.check} />
+            <span>{moment.line}</span>
+          </p>
+        )}
         <p className={`tiny mono ${styles.momentCount}`}>
           Pročitano {completedCount} / {totalLessons}
         </p>
       </div>
 
-      {next ? (
-        <Link href={next.href} className={styles.nextCard}>
-          <span className={`tiny mono ${styles.eyebrow}`}>
-            Sledeća lekcija · {formatDayEyebrow(next.dayNumber)}
-          </span>
-          <span className={styles.nextTitle}>{next.title}</span>
-          {(next.eraLabel ?? next.readingTimeMinutes !== undefined) ? (
-            <span className={`tiny mono ${styles.meta}`}>
-              {[
-                next.eraLabel,
-                next.readingTimeMinutes !== undefined
-                  ? `${String(next.readingTimeMinutes)} min čitanja`
-                  : null,
-              ]
-                .filter(Boolean)
-                .join(' · ')}
-            </span>
-          ) : null}
-          <IconArrow className={styles.arrow} />
+      {moment.kind === 'finished' ? (
+        <Link href={courseHref} className={styles.courseLink}>
+          <span>Otvori kurs</span>
+          <IconArrow className={styles.courseLinkArrow} />
         </Link>
-      ) : (
-        <Link href={courseHref} className={styles.endCard}>
-          <span className={`tiny mono ${styles.eyebrow}`}>Kraj kursa</span>
-          <span className={styles.nextTitle}>Poslednja lekcija kursa je iza tebe.</span>
-          <span className={`small ${styles.endLink}`}>
-            Otvori kurs <IconArrow className={styles.arrow} />
-          </span>
-        </Link>
-      )}
+      ) : moment.kind === 'lastDay' ? (
+        resume ? (
+          <LessonCard eyebrow={`Nastavi · ${formatDayEyebrow(resume.dayNumber)}`} lesson={resume} meta={moment.remaining} />
+        ) : (
+          <Link href={courseHref} className={styles.nextCard}>
+            <span className={`tiny mono ${styles.eyebrow}`}>{moment.remaining}</span>
+            <span className={styles.nextTitle}>Otvori kurs</span>
+            <IconArrow className={styles.arrow} />
+          </Link>
+        )
+      ) : next ? (
+        <LessonCard eyebrow={`Sledeća lekcija · ${formatDayEyebrow(next.dayNumber)}`} lesson={next} />
+      ) : null}
 
       {prev ? (
         <Link href={prev.href} className={styles.prevLink}>
@@ -109,5 +123,36 @@ export function CompletedFooter({
         </Link>
       ) : null}
     </div>
+  );
+}
+
+/** The primary paper card: eyebrow, serif title, a quiet meta line, an arrow. */
+function LessonCard({
+  eyebrow,
+  lesson,
+  meta,
+}: {
+  eyebrow: string;
+  lesson: CompletedFooterNext;
+  /** Replaces the era / reading-time line (the "how many remain" note). */
+  meta?: string;
+}) {
+  const metaText =
+    meta ??
+    [
+      lesson.eraLabel,
+      lesson.readingTimeMinutes !== undefined
+        ? `${String(lesson.readingTimeMinutes)} min čitanja`
+        : null,
+    ]
+      .filter(Boolean)
+      .join(' · ');
+  return (
+    <Link href={lesson.href} className={styles.nextCard}>
+      <span className={`tiny mono ${styles.eyebrow}`}>{eyebrow}</span>
+      <span className={styles.nextTitle}>{lesson.title}</span>
+      {metaText ? <span className={`tiny mono ${styles.meta}`}>{metaText}</span> : null}
+      <IconArrow className={styles.arrow} />
+    </Link>
   );
 }

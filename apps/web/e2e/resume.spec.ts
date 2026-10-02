@@ -65,8 +65,8 @@ test.describe('Istorija 365 — resume loop', () => {
     await expect(page.getByText('0%')).toHaveCount(0);
   });
 
-  test('an unfinished lesson the reader left is where "Nastavi" returns', async ({ page }) => {
-    // Day 1 done, Day 2 opened but not finished → resume Day 2.
+  test('"Nastavi" opens the day after the last one read', async ({ page }) => {
+    // Day 1 done (Day 2 opened but not finished) → resume Day 2.
     await page.addInitScript(({ key, value }) => window.localStorage.setItem(key, value), {
       key: PROGRESS_KEY,
       value: seed(['day-001'], 'day-002'),
@@ -78,24 +78,50 @@ test.describe('Istorija 365 — resume loop', () => {
     );
   });
 
-  test('a completed lastOpened lesson is skipped in favour of the next unread day', async ({
-    page,
-  }) => {
-    // Days 1–2 done, last opened was Day 2 (just finished) → resume Day 3.
+  test('a lesson merely opened far ahead does not move "Tvoj N. dan"', async ({ page }) => {
+    // Phase 21 rule: Days 1–3 read, Day 250 opened from the outline and left
+    // unread → resume is Day 4 on Home and on the overview, and the
+    // overview's tinted "you are here" row is that same lesson.
     await page.addInitScript(({ key, value }) => window.localStorage.setItem(key, value), {
       key: PROGRESS_KEY,
-      value: seed(['day-001', 'day-002'], 'day-002'),
+      value: seed(['day-001', 'day-002', 'day-003'], 'day-250'),
     });
     await page.goto('/');
-    await expect(page.getByRole('link', { name: /DAN 003/ })).toHaveAttribute(
+    await expect(
+      page.getByRole('region', { name: 'Danas' }).getByText('Tvoj 4. dan'),
+    ).toBeVisible();
+    await expect(page.getByRole('link', { name: /DAN 004/ })).toHaveAttribute(
       'href',
-      `/course/${COURSE_ID}/lesson/day-003`,
+      `/course/${COURSE_ID}/lesson/day-004`,
     );
+    await expect(page.getByText(/Tvoj 250\. dan/)).toHaveCount(0);
+
     await page.goto(`/course/${COURSE_ID}`);
-    await expect(page.getByRole('link', { name: /Tvoj 3\. dan/ })).toHaveAttribute(
+    await expect(page.getByRole('link', { name: /Tvoj 4\. dan/ })).toHaveAttribute(
       'href',
-      `/course/${COURSE_ID}/lesson/day-003`,
+      `/course/${COURSE_ID}/lesson/day-004`,
     );
+    await expect(page.locator('a[class*="LessonNavItem_active"]')).toHaveAttribute(
+      'href',
+      `/course/${COURSE_ID}/lesson/day-004`,
+    );
+  });
+
+  test('the open lesson, once read, keeps its place and says it is read', async ({ page }) => {
+    // Active and completed are two facts: the current row stays the current
+    // row (aria-current) and still carries ", pročitano".
+    await page.addInitScript(({ key, value }) => window.localStorage.setItem(key, value), {
+      key: PROGRESS_KEY,
+      value: seed(['day-001'], 'day-001'),
+    });
+    await page.goto(`/course/${COURSE_ID}/lesson/day-001`);
+    const contents = page.getByRole('button', { name: 'Otvori sadržaj' });
+    if (await contents.isVisible()) await contents.click();
+    const current = page
+      .getByRole('navigation', { name: 'Sadržaj kursa' })
+      .first()
+      .locator('a[aria-current="page"]');
+    await expect(current).toHaveAccessibleName(/Lepenski Vir.*pročitano/);
   });
 
   test('TopBar progress capsule is labelled on every viewport', async ({ page }) => {

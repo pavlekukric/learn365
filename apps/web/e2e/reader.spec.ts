@@ -150,6 +150,14 @@ test.describe('Istorija 365 — reader chrome', () => {
     expect(frame.overflow).toBeLessThanOrEqual(0);
   });
 
+  test('after the next-lesson card, focus starts at the new lesson title', async ({ page }) => {
+    await page.goto(LESSON);
+    await page.getByRole('button', { name: /^Označi kao pročitano$/ }).click();
+    await page.getByRole('link', { name: /Sledeća lekcija · DAN 002/ }).click();
+    await expect(page).toHaveURL(/day-002$/);
+    await expect(page.locator('#lesson-reader h1')).toBeFocused();
+  });
+
   test('the sticky header names the day once and the divider repeats nothing', async ({
     page,
   }) => {

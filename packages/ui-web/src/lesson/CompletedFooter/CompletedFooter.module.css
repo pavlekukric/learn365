@@ -5,14 +5,14 @@
 }
 
 /* The "moment": one serif sentence that acknowledges the day, the labelled
- * count underneath. Centered so it reads as deliberate punctuation before
- * the next-lesson card, not as a status bar. */
+ * count underneath. Left-aligned since Phase 21: the button above, this
+ * sentence, the card and the previous link share one left edge instead of
+ * stacking three alignments (pill left, line centred, card full width). */
 .moment {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   gap: var(--space-1);
-  text-align: center;
 }
 
 .momentLine {
@@ -34,6 +34,28 @@
   flex-shrink: 0;
 }
 
+/* The finish moment at 365 / 365: the same serif voice, one step larger,
+ * and one plain line under it. No confetti, no score. */
+.finishHeading {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  margin: 0;
+  font-family: var(--serif);
+  font-size: 24px;
+  line-height: 1.25;
+  letter-spacing: -0.008em;
+  color: var(--ink);
+}
+
+.finishLine {
+  margin: var(--space-1) 0 var(--space-1);
+  font-family: var(--serif);
+  font-size: 17px;
+  line-height: 1.45;
+  color: var(--ink-2);
+}
+
 .momentCount {
   margin: 0;
   color: var(--muted);
@@ -45,8 +67,7 @@
  * card you tap to start the journey looks like the card you tap to
  * continue it. The accent border is the single editorial flourish that
  * marks this as the primary action. */
-.nextCard,
-.endCard {
+.nextCard {
   position: relative;
   display: grid;
   grid-template-columns: 1fr auto;
@@ -69,14 +90,12 @@
     border-color var(--dur-base) var(--ease);
 }
 
-.nextCard:hover,
-.endCard:hover {
+.nextCard:hover {
   transform: translateY(-1px);
   background: var(--surface-2);
 }
 
-.nextCard:focus-visible,
-.endCard:focus-visible {
+.nextCard:focus-visible {
   outline: 2px solid var(--accent);
   outline-offset: 3px;
 }
@@ -109,17 +128,38 @@
   transition: transform var(--dur-base) var(--ease);
 }
 
-.nextCard:hover .arrow,
-.endCard:hover .arrow {
+.nextCard:hover .arrow {
   transform: translateX(2px);
 }
 
-.endLink {
-  grid-area: meta;
+/* After the finish moment: a quiet way back to the course, not a card. */
+.courseLink {
   display: inline-flex;
   align-items: center;
-  gap: 6px;
+  gap: var(--space-2);
+  align-self: flex-start;
+  padding: var(--space-2) 0;
+  font-family: var(--sans);
+  font-size: 15px;
+  font-weight: 500;
   color: var(--accent-ink);
+  text-decoration: none;
+}
+
+.courseLink:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: var(--r-sm);
+}
+
+.courseLinkArrow {
+  width: 16px;
+  height: 16px;
+  transition: transform var(--dur-base) var(--ease);
+}
+
+.courseLink:hover .courseLinkArrow {
+  transform: translateX(2px);
 }
 
 /* Secondary previous link — quiet text row beneath the primary card.
@@ -168,8 +208,7 @@
   .wrap {
     gap: var(--space-5);
   }
-  .nextCard,
-  .endCard {
+  .nextCard {
     padding: var(--space-5) var(--space-6);
   }
   .nextTitle {
