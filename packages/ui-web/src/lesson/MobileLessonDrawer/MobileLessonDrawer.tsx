@@ -113,15 +113,20 @@ export function MobileLessonDrawer({
     // Any link inside closes the drawer — also one to the page already open
     // (the current row, the current era), where no navigation happens and
     // the shell would otherwise keep it open. Enter on a link fires `click`
-    // too, so keyboard use is covered.
+    // too, so keyboard use is covered. Closed on the next task, not in this
+    // listener: it runs before React's root listener, and unmounting the
+    // drawer here would detach the link before next/link sees the click —
+    // the browser then follows it as a full page load.
+    let closeTimer: ReturnType<typeof setTimeout> | undefined;
     function handleLinkClick(event: MouseEvent) {
       if (event.target instanceof Element && event.target.closest('a[href]')) {
-        onCloseRef.current();
+        closeTimer = setTimeout(() => onCloseRef.current(), 0);
       }
     }
     panel?.addEventListener('click', handleLinkClick);
 
     return () => {
+      clearTimeout(closeTimer);
       cancelAnimationFrame(scrollFrame);
       document.removeEventListener('keydown', handleKey);
       desktop.removeEventListener('change', handleDesktop);
