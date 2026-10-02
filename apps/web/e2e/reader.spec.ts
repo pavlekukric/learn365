@@ -158,6 +158,18 @@ test.describe('Istorija 365 — reader chrome', () => {
     await expect(page.locator('#lesson-reader h1')).toBeFocused();
   });
 
+  test('after a lesson chosen in the drawer, focus starts at the new lesson title', async ({
+    page,
+  }) => {
+    await page.goto(LESSON);
+    const contentsButton = page.getByRole('button', { name: /Otvori sadržaj/ });
+    test.skip(!(await contentsButton.isVisible()), 'Desktop two-column layout — no drawer');
+    await contentsButton.click();
+    await page.getByRole('dialog', { name: 'Sadržaj kursa' }).locator('a[href$="day-002"]').click();
+    await expect(page).toHaveURL(/day-002$/);
+    await expect(page.locator('#lesson-reader h1')).toBeFocused();
+  });
+
   test('the sticky header names the day once and the divider repeats nothing', async ({
     page,
   }) => {
