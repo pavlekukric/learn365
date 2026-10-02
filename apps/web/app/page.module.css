@@ -31,9 +31,12 @@
  * SWAP SEAM: the image is set via the `--hero-image` CSS variable below.
  * To replace or remove it, change only that one line (use `none` to fall
  * back to the pure-CSS wash). The asset lives in apps/web/public/hero/.
+ * Phones get a 1000 px copy (14 kB instead of 45 kB): the backdrop is
+ * Home's LCP there (review 2026-10-01 P1 item 3). Both URLs are preloaded
+ * with the same breakpoint in page.tsx — keep the three in step.
  */
 .heroBackdrop {
-  --hero-image: url('/hero/hero-bg.webp');
+  --hero-image: url('/hero/hero-bg-mobile.webp');
 
   position: absolute;
   z-index: 0;
@@ -70,6 +73,12 @@
     transparent 100%
   );
   mask-image: linear-gradient(to bottom, transparent 0%, #000 12%, #000 46%, transparent 100%);
+}
+
+@media (min-width: 720px) {
+  .heroBackdrop {
+    --hero-image: url('/hero/hero-bg.webp');
+  }
 }
 
 /*

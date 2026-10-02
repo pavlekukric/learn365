@@ -15,6 +15,7 @@
     "test:e2e": "playwright test",
     "screenshots": "next build && playwright test --config=playwright.screenshots.config.ts",
     "check-bundle": "node scripts/bundle-size.mjs",
+    "lighthouse": "node scripts/lighthouse.mjs",
     "db:generate": "drizzle-kit generate"
   },
   "dependencies": {

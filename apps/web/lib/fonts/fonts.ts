@@ -1,43 +1,42 @@
 import localFont from 'next/font/local';
 
 /**
- * Self-hosted fonts (review 2026-09-30, item 13). `files/` holds the exact
- * woff2 files `next/font/google` used to download on every build (Google
- * Fonts, OFL — licences beside them), so a build no longer touches the
- * network and the bytes a reader downloads do not change.
+ * Self-hosted fonts (review 2026-09-30 item 13; reworked by review
+ * 2026-10-01 P1 item 3).
  *
- * Google splits every face into unicode-range subsets; Serbian Latin needs
- * two of them — `latin` and `latin-ext` (č ć đ š ž). `next/font/local`
- * applies `declarations` to a whole call, so each family is two calls, one
- * per subset, that declare the same `font-family` name: the browser sees one
- * family and fetches a subset file only for the characters a page uses —
- * the same @font-face set Google's CSS produced, with the same family names
- * ("Spectral", "Inter", "JetBrains Mono") and `display: swap`.
+ * One file per face, subset to Serbian Latin (`scripts/fonts/subset-fonts.sh`
+ * builds them from the google/fonts sources, same versions Google served):
+ * Basic Latin + Latin-1, č ć đ š ž, the few foreign letters the lessons use
+ * (ă ğ ı ş ș ț), typographic punctuation („ ” – — …), arrows and ≤ ≥. Before,
+ * every face was Google's `latin` + `latin-ext` pair, and a Serbian page
+ * needed both: 12 files, about 295 kB, all preloaded.
  *
- * Only the `latin` call carries the metric-adjusted fallback face and the
- * public CSS variable; the `latin-ext` call's variable (`--font-*-ext`) is
- * unused and only keeps its @font-face rules in the stylesheet.
+ * Preload is per `localFont` call, so a family is split into the face the
+ * first paint needs (preloaded) and the rest (fetched when a rule uses them).
+ * Every call declares the same `font-family` name, so the browser sees one
+ * family. Only the preloaded call carries the metric-adjusted fallback face
+ * and the public CSS variable (`globals.css`); the other calls' variables
+ * (`--font-*-rest`) are unused and only keep their @font-face rules.
  *
- * The unicode ranges are Google's `latin` / `latin-ext` ranges, repeated per
- * call because font loader options must be literals.
+ * Preloaded: Spectral 400 (body text, headings) and Inter (one variable file
+ * for 400–500: UI). Not preloaded: Spectral 300 (lede), 500 and the italics
+ * (the brand mark, upcoming-lesson rows), JetBrains Mono (small print).
+ * `scripts/bundle-size.mjs` fails the build when more than these two are
+ * preloaded or their size grows past the budget.
+ *
+ * The unicode-range is SERBIAN_LATIN_RANGE (`serbianLatin.ts`), repeated per
+ * call because font loader options must be literals; `fonts.test.ts` keeps
+ * the copies identical and the lesson text inside the range.
  */
 
-// Spectral: roman 300 (lede) / 400 / 500 and italic 400 / 500 (the brand
-// mark, upcoming-lesson rows). Italic 300 was never used and is gone.
-const spectralLatin = localFont({
-  src: [
-    { path: './files/spectral-normal-300-latin.woff2', weight: '300', style: 'normal' },
-    { path: './files/spectral-normal-400-latin.woff2', weight: '400', style: 'normal' },
-    { path: './files/spectral-normal-500-latin.woff2', weight: '500', style: 'normal' },
-    { path: './files/spectral-italic-400-latin.woff2', weight: '400', style: 'italic' },
-    { path: './files/spectral-italic-500-latin.woff2', weight: '500', style: 'italic' },
-  ],
+const spectral = localFont({
+  src: [{ path: './files/spectral-normal-400.woff2', weight: '400', style: 'normal' }],
   declarations: [
     { prop: 'font-family', value: 'Spectral' },
     {
       prop: 'unicode-range',
       value:
-        'U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD',
+        'U+0020-007E, U+00A0-00FF, U+0102-0103, U+0106-0107, U+010C-010D, U+0110-0111, U+011E-011F, U+0130-0131, U+0152-0153, U+015E-0161, U+017D-017E, U+0218-021B, U+02BB-02BC, U+02BF, U+02C6, U+02DA, U+02DC, U+0300-0308, U+030C, U+2010-2027, U+202F-203A, U+20AC, U+2122, U+2190-2193, U+2212, U+2248, U+2260, U+2264-2265, U+FEFF, U+FFFD',
     },
   ],
   display: 'swap',
@@ -46,40 +45,40 @@ const spectralLatin = localFont({
   preload: true,
 });
 
-const spectralLatinExt = localFont({
+const spectralRest = localFont({
   src: [
-    { path: './files/spectral-normal-300-latin-ext.woff2', weight: '300', style: 'normal' },
-    { path: './files/spectral-normal-400-latin-ext.woff2', weight: '400', style: 'normal' },
-    { path: './files/spectral-normal-500-latin-ext.woff2', weight: '500', style: 'normal' },
-    { path: './files/spectral-italic-400-latin-ext.woff2', weight: '400', style: 'italic' },
-    { path: './files/spectral-italic-500-latin-ext.woff2', weight: '500', style: 'italic' },
+    { path: './files/spectral-normal-300.woff2', weight: '300', style: 'normal' },
+    { path: './files/spectral-normal-500.woff2', weight: '500', style: 'normal' },
+    { path: './files/spectral-italic-400.woff2', weight: '400', style: 'italic' },
+    { path: './files/spectral-italic-500.woff2', weight: '500', style: 'italic' },
   ],
   declarations: [
     { prop: 'font-family', value: 'Spectral' },
     {
       prop: 'unicode-range',
       value:
-        'U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF',
+        'U+0020-007E, U+00A0-00FF, U+0102-0103, U+0106-0107, U+010C-010D, U+0110-0111, U+011E-011F, U+0130-0131, U+0152-0153, U+015E-0161, U+017D-017E, U+0218-021B, U+02BB-02BC, U+02BF, U+02C6, U+02DA, U+02DC, U+0300-0308, U+030C, U+2010-2027, U+202F-203A, U+20AC, U+2122, U+2190-2193, U+2212, U+2248, U+2260, U+2264-2265, U+FEFF, U+FFFD',
     },
   ],
   display: 'swap',
-  variable: '--font-spectral-ext',
+  variable: '--font-spectral-rest',
   adjustFontFallback: false,
-  preload: true,
+  preload: false,
 });
 
-// Inter and JetBrains Mono: one variable-weight file serves 400 and 500.
-const interLatin = localFont({
+// Inter and JetBrains Mono: one variable-weight file (cut to 400–500) serves
+// both weights.
+const inter = localFont({
   src: [
-    { path: './files/inter-latin.woff2', weight: '400', style: 'normal' },
-    { path: './files/inter-latin.woff2', weight: '500', style: 'normal' },
+    { path: './files/inter.woff2', weight: '400', style: 'normal' },
+    { path: './files/inter.woff2', weight: '500', style: 'normal' },
   ],
   declarations: [
     { prop: 'font-family', value: 'Inter' },
     {
       prop: 'unicode-range',
       value:
-        'U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD',
+        'U+0020-007E, U+00A0-00FF, U+0102-0103, U+0106-0107, U+010C-010D, U+0110-0111, U+011E-011F, U+0130-0131, U+0152-0153, U+015E-0161, U+017D-017E, U+0218-021B, U+02BB-02BC, U+02BF, U+02C6, U+02DA, U+02DC, U+0300-0308, U+030C, U+2010-2027, U+202F-203A, U+20AC, U+2122, U+2190-2193, U+2212, U+2248, U+2260, U+2264-2265, U+FEFF, U+FFFD',
     },
   ],
   display: 'swap',
@@ -88,37 +87,17 @@ const interLatin = localFont({
   preload: true,
 });
 
-const interLatinExt = localFont({
+const jetbrainsMono = localFont({
   src: [
-    { path: './files/inter-latin-ext.woff2', weight: '400', style: 'normal' },
-    { path: './files/inter-latin-ext.woff2', weight: '500', style: 'normal' },
-  ],
-  declarations: [
-    { prop: 'font-family', value: 'Inter' },
-    {
-      prop: 'unicode-range',
-      value:
-        'U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF',
-    },
-  ],
-  display: 'swap',
-  variable: '--font-inter-ext',
-  adjustFontFallback: false,
-  preload: true,
-});
-
-// Mono is small print (day numbers, minutes): not preloaded, as before.
-const jetbrainsMonoLatin = localFont({
-  src: [
-    { path: './files/jetbrains-mono-latin.woff2', weight: '400', style: 'normal' },
-    { path: './files/jetbrains-mono-latin.woff2', weight: '500', style: 'normal' },
+    { path: './files/jetbrains-mono.woff2', weight: '400', style: 'normal' },
+    { path: './files/jetbrains-mono.woff2', weight: '500', style: 'normal' },
   ],
   declarations: [
     { prop: 'font-family', value: 'JetBrains Mono' },
     {
       prop: 'unicode-range',
       value:
-        'U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD',
+        'U+0020-007E, U+00A0-00FF, U+0102-0103, U+0106-0107, U+010C-010D, U+0110-0111, U+011E-011F, U+0130-0131, U+0152-0153, U+015E-0161, U+017D-017E, U+0218-021B, U+02BB-02BC, U+02BF, U+02C6, U+02DA, U+02DC, U+0300-0308, U+030C, U+2010-2027, U+202F-203A, U+20AC, U+2122, U+2190-2193, U+2212, U+2248, U+2260, U+2264-2265, U+FEFF, U+FFFD',
     },
   ],
   display: 'swap',
@@ -127,30 +106,9 @@ const jetbrainsMonoLatin = localFont({
   preload: false,
 });
 
-const jetbrainsMonoLatinExt = localFont({
-  src: [
-    { path: './files/jetbrains-mono-latin-ext.woff2', weight: '400', style: 'normal' },
-    { path: './files/jetbrains-mono-latin-ext.woff2', weight: '500', style: 'normal' },
-  ],
-  declarations: [
-    { prop: 'font-family', value: 'JetBrains Mono' },
-    {
-      prop: 'unicode-range',
-      value:
-        'U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF',
-    },
-  ],
-  display: 'swap',
-  variable: '--font-jetbrains-mono-ext',
-  adjustFontFallback: false,
-  preload: false,
-});
-
 export const fontVariableClassName = [
-  spectralLatin.variable,
-  spectralLatinExt.variable,
-  interLatin.variable,
-  interLatinExt.variable,
-  jetbrainsMonoLatin.variable,
-  jetbrainsMonoLatinExt.variable,
+  spectral.variable,
+  spectralRest.variable,
+  inter.variable,
+  jetbrainsMono.variable,
 ].join(' ');

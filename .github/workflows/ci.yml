@@ -116,3 +116,38 @@ jobs:
           path: apps/web/test-results/
           retention-days: 7
           if-no-files-found: ignore
+
+  lighthouse:
+    # Review 2026-10-01 P1 item 3: mobile Lighthouse on Home, the course
+    # overview and Day 1 — warn-only (a `::warning::` and the job summary
+    # under 82), never red: runner timings drift. The hard font-preload and
+    # JS budgets are in `check-bundle` above.
+    name: Lighthouse mobile (warn-only)
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    continue-on-error: true
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: '.nvmrc'
+          cache: 'pnpm'
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Install Chromium
+        run: pnpm --filter @learn365/web exec playwright install --with-deps chromium
+
+      - name: Build
+        run: pnpm build
+
+      - name: Lighthouse
+        run: pnpm --filter @learn365/web lighthouse
