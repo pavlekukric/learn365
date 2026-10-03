@@ -353,4 +353,24 @@ test.describe('Istorija 365 — reader chrome', () => {
     await expect(page.getByRole('dialog', { name: 'Sadržaj kursa' })).toHaveCount(0);
     await expect(page.locator('#lesson-reader h1')).toBeFocused();
   });
+
+  test('a portrait figure is capped in height and keeps its caption at its width', async ({
+    page,
+  }) => {
+    // Day 231 carries the 1440×2141 era-6 portrait (review 2026-10-03 P2 9).
+    await page.goto(`/course/${COURSE_ID}/lesson/day-231`);
+    const figure = page.locator('article figure').first();
+    const image = figure.locator('img');
+    await image.scrollIntoViewIfNeeded();
+    await expect(image).toHaveJSProperty('complete', true);
+    const box = await image.boundingBox();
+    const figureBox = await figure.boundingBox();
+    const viewport = page.viewportSize();
+    expect(box).not.toBeNull();
+    expect(figureBox).not.toBeNull();
+    expect(viewport).not.toBeNull();
+    if (!box || !figureBox || !viewport) return;
+    expect(box.height).toBeLessThanOrEqual(Math.min(0.8 * viewport.height, 720) + 2);
+    expect(Math.abs(box.width - figureBox.width)).toBeLessThanOrEqual(1);
+  });
 });

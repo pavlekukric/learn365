@@ -7,6 +7,7 @@ import { TopBar, type TopBarAccount, type TopBarRoute } from '@learn365/ui-web';
 
 import { useAuth } from '@/lib/auth/AuthProvider';
 import { useProgressStore } from '@/lib/progress/ProgressStoreProvider';
+import { courseHref, isCoursePath, isLessonPath } from '@/lib/routes';
 
 interface TopBarHostProps {
   courseId: string;
@@ -15,10 +16,8 @@ interface TopBarHostProps {
 
 function routeFromPath(pathname: string | null): TopBarRoute {
   if (!pathname || pathname === '/') return 'home';
-  if (pathname.startsWith('/course/') && pathname.includes('/lesson/')) {
-    return 'lesson';
-  }
-  if (pathname.startsWith('/course/')) return 'course';
+  if (isLessonPath(pathname)) return 'lesson';
+  if (isCoursePath(pathname)) return 'course';
   if (pathname.startsWith('/o-aplikaciji')) return 'about';
   // /prijava, /nalog, /privatnost, 404: no nav item is the current page.
   return 'other';
@@ -57,7 +56,7 @@ export function TopBarHost({ courseId, totalLessons }: TopBarHostProps) {
   return (
     <TopBar
       route={routeFromPath(pathname)}
-      courseHref={`/course/${courseId}`}
+      courseHref={courseHref(courseId)}
       aboutHref="/o-aplikaciji"
       totalLessons={totalLessons}
       completedCount={done}

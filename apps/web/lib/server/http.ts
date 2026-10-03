@@ -21,6 +21,11 @@ export function apiForbidden(): NextResponse {
   return jsonNoStore({ error: 'forbidden' }, 403);
 }
 
+/** The session belongs to another account than the client syncs for (`SYNC_USER_HEADER`). */
+export function apiAccountChanged(): NextResponse {
+  return jsonNoStore({ error: 'account_changed' }, 409);
+}
+
 /** The database cannot be reached: retry later; nothing about the session changed (Phase 12). */
 export function apiUnavailable(): NextResponse {
   return jsonNoStore({ error: 'unavailable' }, 503);
@@ -45,16 +50,29 @@ export class PayloadTooLargeError extends Error {
  * Read a JSON body with a hard byte cap (default 64 KB). Returns
  * `undefined` for an empty body; throws `PayloadTooLargeError` above the
  * cap and `SyntaxError` for malformed JSON — callers map both to 4xx.
+ * Without a `Content-Length` (chunked) the bytes are counted as they
+ * arrive and the read stops at the cap, so nothing larger is buffered.
  */
 export async function readJsonBody(request: Request, maxBytes = 64 * 1024): Promise<unknown> {
   const declared = Number(request.headers.get('content-length') ?? '0');
   if (Number.isFinite(declared) && declared > maxBytes) {
     throw new PayloadTooLargeError();
   }
-  const text = await request.text();
-  if (Buffer.byteLength(text, 'utf8') > maxBytes) {
-    throw new PayloadTooLargeError();
+  if (request.body === null) return undefined;
+  const reader = request.body.getReader();
+  const chunks: Uint8Array[] = [];
+  let total = 0;
+  for (;;) {
+    const { done, value } = await reader.read();
+    if (done) break;
+    total += value.byteLength;
+    if (total > maxBytes) {
+      await reader.cancel().catch(() => undefined);
+      throw new PayloadTooLargeError();
+    }
+    chunks.push(value);
   }
+  const text = new TextDecoder().decode(Buffer.concat(chunks, total));
   if (text.trim().length === 0) return undefined;
   return JSON.parse(text) as unknown;
 }

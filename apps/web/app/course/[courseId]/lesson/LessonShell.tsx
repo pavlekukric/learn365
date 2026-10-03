@@ -21,6 +21,7 @@ import {
 
 import { useProgressStore } from '@/lib/progress/ProgressStoreProvider';
 import { useEraTimeline } from '@/lib/progress/useEraTimeline';
+import { lessonHref } from '@/lib/routes';
 
 import { LessonContextHeader } from './LessonContextHeader';
 import styles from './LessonShell.module.css';
@@ -195,10 +196,7 @@ function LessonFrame({ courseId, lesson, children }: LessonFrameProps) {
     });
   }, []);
 
-  const lessonHref = useCallback(
-    (l: LessonSummary) => `/course/${courseId}/lesson/${l.id}`,
-    [courseId],
-  );
+  const hrefForLesson = useCallback((l: LessonSummary) => lessonHref(courseId, l.id), [courseId]);
 
   const completedIds = useMemo(() => completedSet ?? new Set<string>(), [completedSet]);
 
@@ -212,7 +210,7 @@ function LessonFrame({ courseId, lesson, children }: LessonFrameProps) {
     onToggleSection: handleToggleSection,
     openEraIds,
     onToggleEra: handleToggleEra,
-    lessonHref,
+    lessonHref: hrefForLesson,
   };
 
   return (

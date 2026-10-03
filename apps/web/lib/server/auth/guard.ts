@@ -2,10 +2,18 @@ import 'server-only';
 
 import type { NextRequest, NextResponse } from 'next/server';
 
+import { SYNC_USER_HEADER } from '@/lib/sync/wire';
+
 import { getDb, type Db } from '../db/client';
 import type { UserRow } from '../db/schema';
 import { getAuthConfig, type AuthConfig } from '../env';
-import { apiForbidden, apiNotFound, apiUnauthorized, apiUnavailable } from '../http';
+import {
+  apiAccountChanged,
+  apiForbidden,
+  apiNotFound,
+  apiUnauthorized,
+  apiUnavailable,
+} from '../http';
 
 import { isSameOriginRequest } from './csrf';
 import { DbUnavailableError, getSessionFromToken } from './currentUser';
@@ -20,8 +28,9 @@ export interface ApiContext {
 /**
  * Everything a `/api/me/**` handler needs before touching data, or the
  * response that ends the request: 404 with accounts off, 403 on a
- * cross-origin mutation, 401 without a live session, 503 when the database
- * is unreachable. Narrow with `'user' in result`.
+ * cross-origin mutation, 401 without a live session, 409 when the request
+ * names (`SYNC_USER_HEADER`) another user than the session's, 503 when the
+ * database is unreachable. Narrow with `'user' in result`.
  */
 export async function guardApi(
   request: NextRequest,
@@ -42,6 +51,10 @@ export async function guardApi(
     throw error;
   }
   if (session === null) return apiUnauthorized();
+  // A tab that missed a sign-in as another account still syncs for the
+  // previous one: refuse rather than read or write the new account.
+  const claimed = request.headers.get(SYNC_USER_HEADER);
+  if (claimed !== null && claimed !== session.user.id) return apiAccountChanged();
 
   try {
     const db = await getDb();

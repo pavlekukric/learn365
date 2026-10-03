@@ -67,13 +67,27 @@ const nextConfig = {
         outputFileTracingRoot: repoRoot,
       }
     : {}),
+  // Lesson figures (review 2026-10-03 P2 9). AVIF first, WebP otherwise. The
+  // optimizer's answers are cached for a year, so a replaced plate must get a
+  // new file name — its old URL would keep serving the cached copy (the 60 s
+  // default before this block means nothing older is out there). The width
+  // ladder stops at the
+  // 1440 px originals — 1920 / 2048 / 3840 only re-served the same pixels.
+  images: {
+    formats: ['image/avif', 'image/webp'],
+    minimumCacheTTL: 31536000,
+    deviceSizes: [640, 750, 828, 1080, 1200, 1440],
+  },
   transpilePackages: ['@learn365/ui', '@learn365/ui-web', '@learn365/core', '@learn365/content'],
   // PGlite (Postgres in WASM) is the laptop / test database only. It must stay
   // a plain `require` at runtime (WASM + worker files) and must never be
   // traced into the production image, where DATABASE_URL is postgres://.
   serverExternalPackages: ['@electric-sql/pglite'],
   outputFileTracingExcludes: {
-    '*': ['**/node_modules/@electric-sql/pglite/**', '**/node_modules/.pnpm/@electric-sql+pglite*/**'],
+    '*': [
+      '**/node_modules/@electric-sql/pglite/**',
+      '**/node_modules/.pnpm/@electric-sql+pglite*/**',
+    ],
   },
   typedRoutes: true,
   webpack(config) {

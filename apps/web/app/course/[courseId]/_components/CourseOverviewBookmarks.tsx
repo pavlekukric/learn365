@@ -14,6 +14,7 @@ import { bookmarkedLessonIds, formatDayEyebrow } from '@learn365/core';
 import { Eyebrow } from '@learn365/ui-web';
 
 import { useBookmarkStore } from '@/lib/bookmarks/BookmarkStoreProvider';
+import { lessonHref } from '@/lib/routes';
 
 import styles from './CourseOverviewBookmarks.module.css';
 
@@ -37,28 +38,21 @@ export function CourseOverviewBookmarks({ courseId }: CourseOverviewBookmarksPro
 
   if (ids.length === 0) return null;
 
-  const erasById = new Map<EraId, Era>(
-    getEras(courseId).map((era) => [era.id, era]),
-  );
+  const erasById = new Map<EraId, Era>(getEras(courseId).map((era) => [era.id, era]));
 
   // Resolve ids to lessons. A bookmark for a lesson that no longer exists
   // (corpus regen, slug change) is silently dropped — no broken links.
   const resolved: ResolvedBookmark[] = ids
     .map((id) => {
       const lesson = getLessonById(courseId, id);
-      return lesson === null
-        ? null
-        : { lesson, era: erasById.get(lesson.eraId) };
+      return lesson === null ? null : { lesson, era: erasById.get(lesson.eraId) };
     })
     .filter((item): item is ResolvedBookmark => item !== null);
 
   if (resolved.length === 0) return null;
 
   return (
-    <section
-      className={styles.section}
-      aria-labelledby="bookmarks-heading"
-    >
+    <section className={styles.section} aria-labelledby="bookmarks-heading">
       <header className={styles.header}>
         <Eyebrow>Sačuvano</Eyebrow>
         <h2 id="bookmarks-heading" className="h2">
@@ -68,17 +62,12 @@ export function CourseOverviewBookmarks({ courseId }: CourseOverviewBookmarksPro
       <ul className={styles.list}>
         {resolved.map(({ lesson, era }) => (
           <li key={lesson.id}>
-            <Link
-              className={styles.card}
-              href={`/course/${courseId}/lesson/${lesson.id}`}
-            >
+            <Link className={styles.card} href={lessonHref(courseId, lesson.id)}>
               <span className={`tiny mono ${styles.day}`}>
                 {formatDayEyebrow(lesson.dayNumber)}
               </span>
               <span className={styles.title}>{lesson.title}</span>
-              {era ? (
-                <span className={`tiny ${styles.era}`}>{era.eraShort}</span>
-              ) : null}
+              {era ? <span className={`tiny ${styles.era}`}>{era.eraShort}</span> : null}
             </Link>
           </li>
         ))}

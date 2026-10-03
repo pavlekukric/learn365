@@ -1911,7 +1911,7 @@ export const lessons: readonly LessonSummary[] = [
     "eraId": "knez-lazar-i-despotovina",
     "dayNumber": 119,
     "order": 1,
-    "title": "Knjeginja Milica",
+    "title": "Kneginja Milica",
     "readingTimeMinutes": 6,
     "year": 1389,
     "isPlaceholder": false

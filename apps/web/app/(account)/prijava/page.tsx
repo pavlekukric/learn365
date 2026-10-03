@@ -4,6 +4,7 @@ import { redirect } from 'next/navigation';
 
 import { Button, Eyebrow } from '@learn365/ui-web';
 
+import { noindexMetadata } from '@/lib/seo/metadata';
 import { getCurrentSession } from '@/lib/server/auth/currentUser';
 import { sanitizeReturnTo } from '@/lib/server/auth/returnTo';
 import { getAuthConfig } from '@/lib/server/env';
@@ -13,12 +14,7 @@ import styles from '../account.module.css';
 
 export const dynamic = 'force-dynamic';
 
-export const metadata: Metadata = {
-  title: 'Prijava',
-  robots: { index: false, follow: false },
-  // noindex: no canonical either (the root layout would hand it `/`).
-  alternates: { canonical: null },
-};
+export const metadata: Metadata = noindexMetadata('Prijava');
 
 type SearchParams = Record<string, string | string[] | undefined>;
 

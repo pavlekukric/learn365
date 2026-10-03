@@ -6,6 +6,7 @@ import { getAllCourseIds, getCourse } from '@learn365/content';
 import { Eyebrow } from '@learn365/ui-web';
 
 import { formatAccountDate, formatLastActivity } from '@/lib/copy/accountDates';
+import { noindexMetadata } from '@/lib/seo/metadata';
 import { resolveOverviewAccess } from '@/lib/server/admin/access';
 import {
   OVERVIEW_WINDOW_DAYS,
@@ -20,12 +21,7 @@ import styles from './page.module.css';
 
 export const dynamic = 'force-dynamic';
 
-export const metadata: Metadata = {
-  title: 'Pregled naloga',
-  robots: { index: false, follow: false },
-  // noindex: no canonical either (the root layout would hand it `/`).
-  alternates: { canonical: null },
-};
+export const metadata: Metadata = noindexMetadata('Pregled naloga');
 
 async function loadOverview(): Promise<AccountsOverview | null> {
   try {

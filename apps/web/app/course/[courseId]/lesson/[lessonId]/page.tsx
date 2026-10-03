@@ -7,8 +7,6 @@ import {
   getEraForLesson,
   getLessonById,
   getLessons,
-  getLessonsByEra,
-  getLessonsBySection,
   getNextLesson,
   getPrevLesson,
   getSectionForLesson,
@@ -17,7 +15,7 @@ import {
   type LessonHeading,
   type LessonSummary,
 } from '@learn365/content';
-import { getLessonArticle } from '@learn365/content/server';
+import { getLessonArticle, getLessonModifiedAt } from '@learn365/content/server';
 import { formatDayProse } from '@learn365/core';
 import {
   LessonBody,
@@ -27,6 +25,7 @@ import {
   type LessonFooterLink,
 } from '@learn365/ui-web';
 
+import { courseHref, eraAnchorId, lessonHref, sectionAnchorId } from '@/lib/routes';
 import { truncateDescription } from '@/lib/seo/description';
 import { lessonJsonLd } from '@/lib/seo/jsonLd';
 import { shareMetadata } from '@/lib/seo/metadata';
@@ -54,10 +53,6 @@ export function generateStaticParams(): { courseId: string; lessonId: string }[]
   );
 }
 
-function lessonPath(courseId: string, lessonId: string): string {
-  return `/course/${courseId}/lesson/${lessonId}`;
-}
-
 /** What the footer needs for prev / next: the link plus the small editorial
  * facts the completion card surfaces — which era the next lesson belongs
  * to, and how long it takes to read. */
@@ -67,7 +62,7 @@ function adjacent(courseId: string, lesson: LessonSummary | null): LessonFooterL
   return {
     title: lesson.title,
     dayNumber: lesson.dayNumber,
-    href: lessonPath(courseId, lesson.id),
+    href: lessonHref(courseId, lesson.id),
     ...(era ? { eraLabel: era.eraShort } : {}),
     ...(lesson.isPlaceholder === true ? {} : { readingTimeMinutes: lesson.readingTimeMinutes }),
   };
@@ -97,13 +92,19 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   if (!course || !lesson || !article) return {};
   const title = `${formatDayProse(lesson.dayNumber)}: ${lesson.title}`;
   const description = lessonDescription(course, lesson, article);
+  const era = getEraForLesson(courseId, lesson.id);
+  const modifiedAt = getLessonModifiedAt(courseId, lesson.id);
   return {
     title,
     description,
     ...shareMetadata({
       title,
       description,
-      path: lessonPath(course.id, lesson.id),
+      path: lessonHref(course.id, lesson.id),
+      article: {
+        section: era?.eraShort ?? course.title,
+        ...(modifiedAt !== null ? { modifiedTime: modifiedAt } : {}),
+      },
     }),
   };
 }
@@ -121,9 +122,7 @@ export default async function LessonPage({ params }: PageProps) {
   const section = getSectionForLesson(courseId, lesson.id);
   if (!era || !section) notFound();
 
-  const courseHref = `/course/${course.id}`;
-  const firstInEra = getLessonsByEra(courseId, era.id)[0];
-  const firstInSection = getLessonsBySection(courseId, section.id)[0];
+  const overviewHref = courseHref(course.id);
 
   // What the reader's header needs beyond the summary: the two editorial
   // header facts travel with the open lesson only, never in the index.
@@ -137,27 +136,26 @@ export default async function LessonPage({ params }: PageProps) {
   // day number is intentionally NOT a crumb — it would duplicate the dedicated
   // day indicator (mobile context header / the sidebar's active row), and a
   // within-section position doesn't belong in a location trail.
-  //
   // On the page the era and the section are plain text: they have no page
   // of their own, and as links they opened the era's / section's first
   // lesson — Day 1 from any lesson of Era I (review 2026-10-03 item 18).
-  // The structured-data trail keeps its URLs until real era / section
-  // pages exist (review item 9).
-  const jsonLdBreadcrumbs = [
-    { label: 'Početna', href: '/' },
-    { label: course.title, href: courseHref },
-    { label: era.eraShort, href: firstInEra ? lessonPath(course.id, firstInEra.id) : courseHref },
-    {
-      label: section.title,
-      href: firstInSection ? lessonPath(course.id, firstInSection.id) : courseHref,
-    },
-  ];
   const breadcrumbs = [
     { label: 'Početna', href: '/' },
-    { label: course.title, href: courseHref },
+    { label: course.title, href: overviewHref },
     { label: era.eraShort },
     { label: section.title, current: false },
   ];
+  // The structured-data trail names the places, not the first lessons the
+  // visible crumbs open: an era or a section is a part of the course
+  // overview, so its item is the overview's anchor for it — never a lesson
+  // URL, which made Day 1 list itself three times (review 2026-10-03 P2 9).
+  const structuredBreadcrumbs = [
+    { label: 'Početna', href: '/' },
+    { label: course.title, href: overviewHref },
+    { label: era.eraShort, href: `${overviewHref}#${eraAnchorId(era.id)}` },
+    { label: section.title, href: `${overviewHref}#${sectionAnchorId(section.id)}` },
+  ];
+  const modifiedAt = getLessonModifiedAt(course.id, lesson.id);
 
   // The whole reader is rendered here, on the server (Phase 15): the lesson
   // text has no interactivity, and keeping it out of the client components
@@ -180,15 +178,14 @@ export default async function LessonPage({ params }: PageProps) {
             data={lessonJsonLd({
               title: lesson.title,
               description: lessonDescription(course, lesson, article),
-              path: lessonPath(course.id, lesson.id),
+              path: lessonHref(course.id, lesson.id),
               dayNumber: lesson.dayNumber,
               readingTimeMinutes: lesson.readingTimeMinutes,
-              course: { title: course.title, path: courseHref },
+              course: { title: course.title, path: overviewHref },
+              section: era.eraShort,
               ...(article.byline?.author !== undefined ? { author: article.byline.author } : {}),
-              ...(article.lastReviewedAt !== undefined
-                ? { lastReviewedAt: article.lastReviewedAt }
-                : {}),
-              breadcrumbs: jsonLdBreadcrumbs,
+              ...(modifiedAt !== null ? { dateModified: modifiedAt } : {}),
+              breadcrumbs: structuredBreadcrumbs,
             })}
           />
         </>
@@ -202,7 +199,7 @@ export default async function LessonPage({ params }: PageProps) {
           isUpcoming={lesson.isPlaceholder === true}
           prev={adjacent(courseId, getPrevLesson(courseId, lesson.id))}
           next={adjacent(courseId, getNextLesson(courseId, lesson.id))}
-          courseHref={courseHref}
+          courseHref={overviewHref}
         />
       }
     />

@@ -5,6 +5,7 @@ import { formatJourneyDay } from '@learn365/core';
 import { CourseProgress } from '@learn365/ui-web';
 
 import { useResumeLesson } from '@/lib/progress/useResumeLesson';
+import { lessonHref } from '@/lib/routes';
 
 interface CourseOverviewProgressProps {
   courseId: CourseId;
@@ -33,7 +34,7 @@ export function CourseOverviewProgress({ courseId, totalLessons }: CourseOvervie
               }
             : null
         }
-        href={lesson ? `/course/${courseId}/lesson/${lesson.id}` : null}
+        href={lesson ? lessonHref(courseId, lesson.id) : null}
       />
     </div>
   );

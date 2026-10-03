@@ -2,12 +2,15 @@
 # Deploy nove slike Learn365 na VPS-u. Zove ga GitHub Actions kroz ssh kao korisnik `deploy`,
 # posle zelenog CI-ja na main (Faza 10):
 #   bash /srv/learn365/deploy.sh sha-xxxxxxxxxxxx
-# Radi: zapamti prethodni IMAGE_TAG, upiše novi u .env, povuče sliku, podigne samo `web`, sačeka
-# healthcheck iz slike, pa (ako postoji baza) da /api/health kaže da migracije nisu `pending`. Ako web
-# ne postane healthy ili migracije ne prođu, VRATI prethodni tag, ponovo podigne web i sačeka
-# (Faza 12, review 2026-09-30) — pokvarena slika nikad ne ostaje da radi. Briše starije learn365-web
-# tagove osim novog, prethodnog i latest (samo ovaj repo slike — ništa globalno, ništa od Računa).
-set -euo pipefail
+# Radi: zapamti prethodni IMAGE_TAG, povuče novu sliku, TEK TADA upiše novi tag u .env, podigne samo
+# `web`, sačeka healthcheck iz slike, pa (ako postoji baza) da /api/health kaže da migracije nisu
+# `pending`. Ako web ne postane healthy ili migracije ne prođu, VRATI prethodni tag, ponovo podigne web
+# i sačeka (Faza 12, review 2026-09-30) — pokvarena slika nikad ne ostaje da radi. Briše starije
+# learn365-web tagove osim novog, prethodnog i latest (samo ovaj repo slike — ništa globalno, ništa od
+# Računa).
+# Review 2026-10-03 P2 11: ako `pull` ne uspe, .env i web ostaju netaknuti (tag se piše posle pull-a);
+# svaka neočekivana greška posle upisa taga (npr. `up` pukne) ide kroz trap ERR → isti rollback.
+set -Eeuo pipefail
 R=/srv/learn365
 TAG="${1:?tag slike, npr. sha-1a2b3c4d5e6f}"
 IMG=ghcr.io/pavlekukric/learn365-web
@@ -30,8 +33,7 @@ set_tag() {
 HEALTH_WAIT=150
 wait_healthy() {
   local status=none
-  local i
-  for i in $(seq 1 $((HEALTH_WAIT / 2))); do
+  for _ in $(seq 1 $((HEALTH_WAIT / 2))); do
     status=$(docker inspect -f '{{.State.Health.Status}}' learn365-web 2>/dev/null || echo none)
     if [ "$status" = healthy ]; then
       echo healthy
@@ -59,8 +61,7 @@ migrations_state() {
 MIGRATIONS_WAIT=120
 wait_migrations() {
   local state=unknown
-  local i
-  for i in $(seq 1 $((MIGRATIONS_WAIT / 3))); do
+  for _ in $(seq 1 $((MIGRATIONS_WAIT / 3))); do
     state=$(migrations_state)
     case "$state" in
       ok | off | legacy)
@@ -79,13 +80,15 @@ wait_migrations() {
 
 # Vraća prethodni tag, podigne web i čeka healthy; uvek završava sa exit 1 (deploy nije primenjen).
 rollback() {
+  trap - ERR
   echo "$1; poslednji logovi:"
-  "$DC" logs --tail 40 web
+  "$DC" logs --tail 40 web || true
   if [ -n "$PREV" ] && [ "$PREV" != "$TAG" ]; then
     echo "vraćam prethodni tag $PREV"
     set_tag "$PREV"
-    "$DC" up -d web
-    if back=$(wait_healthy); then
+    if ! "$DC" up -d web; then
+      echo "rollback NIJE uspeo: \`up -d web\` na $PREV pao — ručna intervencija (docs/DEPLOY.md §6)"
+    elif back=$(wait_healthy); then
       echo "rollback ok: web je healthy na $PREV; $TAG nije primenjen"
     else
       echo "rollback NIJE uspeo: web je $back na $PREV — ručna intervencija (docs/DEPLOY.md §6)"
@@ -96,8 +99,23 @@ rollback() {
   exit 1
 }
 
+# Neočekivana greška (set -e): pre upisa taga ništa nije promenjeno; posle upisa — rollback.
+TAG_SET=0
+on_error() {
+  local rc=$?
+  trap - ERR
+  if [ "$TAG_SET" = 1 ]; then
+    rollback "neočekivana greška (exit $rc) na $TAG"
+  fi
+  echo "deploy prekinut (exit $rc) pre promene taga: $TAG nije povučen, .env i web ostaju na ${PREV:-none}"
+  exit 1
+}
+trap on_error ERR
+
+# Prvo povuci sliku; .env dobija novi tag tek kad slika postoji lokalno.
+docker pull --quiet "$IMG:$TAG" >/dev/null
 set_tag "$TAG"
-"$DC" pull --quiet web
+TAG_SET=1
 "$DC" up -d web
 
 if ! status=$(wait_healthy); then
@@ -108,6 +126,8 @@ if ! migrations=$(wait_migrations); then
   rollback "migracije nisu primenjene na $TAG (/api/health: migrations=$migrations)"
 fi
 echo "web healthy na $TAG; migracije: $migrations"
+# Novi tag je primenjen; čišćenje ispod nikad ne pokreće rollback.
+trap - ERR
 
 # Čuvamo novi, prethodni i latest da sledeći rollback bude trenutan.
 keep=(-e ":$TAG\$" -e ':latest$' -e ':<none>$')

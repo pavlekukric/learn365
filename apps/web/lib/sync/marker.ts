@@ -8,19 +8,27 @@ export interface Marker {
   write(userId: string): void;
 }
 
+/** The user a stored marker value names, or `null` (absent / unreadable). */
+export function markerUserId(raw: string | null): string | null {
+  if (raw === null) return null;
+  try {
+    const parsed: unknown = JSON.parse(raw);
+    const userId =
+      parsed !== null && typeof parsed === 'object'
+        ? (parsed as { userId?: unknown }).userId
+        : undefined;
+    return typeof userId === 'string' ? userId : null;
+  } catch {
+    return null;
+  }
+}
+
 export function localStorageMarker(key: string): Marker {
   return {
     read() {
       if (typeof window === 'undefined') return null;
       try {
-        const raw = window.localStorage.getItem(key);
-        if (raw === null) return null;
-        const parsed: unknown = JSON.parse(raw);
-        const userId =
-          parsed !== null && typeof parsed === 'object'
-            ? (parsed as { userId?: unknown }).userId
-            : undefined;
-        return typeof userId === 'string' ? userId : null;
+        return markerUserId(window.localStorage.getItem(key));
       } catch {
         return null;
       }
@@ -28,7 +36,10 @@ export function localStorageMarker(key: string): Marker {
     write(userId) {
       if (typeof window === 'undefined') return;
       try {
-        window.localStorage.setItem(key, JSON.stringify({ userId, syncedAt: new Date().toISOString() }));
+        window.localStorage.setItem(
+          key,
+          JSON.stringify({ userId, syncedAt: new Date().toISOString() }),
+        );
       } catch {
         // private mode / quota — the merge simply runs again next load.
       }
