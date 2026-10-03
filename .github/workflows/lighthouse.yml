@@ -1,0 +1,61 @@
+name: Lighthouse
+
+# Review 2026-10-01 P1 item 3: mobile Lighthouse on Home, the course overview
+# and Day 1 — warn-only (a `::warning::` and the job summary under 82), never
+# red: runner timings drift. The hard font-preload and JS budgets are in
+# `check-bundle` (ci.yml).
+# Review 2026-10-03 P2 10: its own workflow, off the deploy path. Deploy
+# (deploy.yml, `workflow_run` on CI) waits for the whole CI workflow, and this
+# 3½-minute job was its slowest part. It still runs on every PR, and nightly
+# against `main`; run it by hand from the Actions tab (workflow_dispatch).
+
+on:
+  pull_request:
+  schedule:
+    # 02:00 UTC, before e2e-nightly (02:30) and clear of the 03:15 backup on the box.
+    - cron: '0 2 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: lighthouse-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  NEXT_TELEMETRY_DISABLED: 1
+
+jobs:
+  lighthouse:
+    name: Lighthouse mobile (warn-only)
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    continue-on-error: true
+    permissions:
+      contents: read
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@fc06bc1257f339d1d5d8b3a19a8cae5388b55320 # v4.4.0
+
+      - name: Setup Node
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          node-version-file: '.nvmrc'
+          cache: 'pnpm'
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Install Chromium
+        run: pnpm --filter @learn365/web exec playwright install --with-deps chromium
+
+      - name: Build
+        run: pnpm build
+
+      - name: Lighthouse
+        run: pnpm --filter @learn365/web lighthouse
