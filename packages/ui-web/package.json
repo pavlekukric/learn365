@@ -25,7 +25,7 @@
     "@learn365/content": "workspace:*",
     "@learn365/core": "workspace:*",
     "@learn365/ui": "workspace:*",
-    "next": "^15.5.27"
+    "next": "^16.3.7"
   },
   "devDependencies": {
     "@learn365/eslint-config": "workspace:*",
