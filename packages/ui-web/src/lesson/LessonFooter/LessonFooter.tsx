@@ -67,14 +67,19 @@ export function LessonFooter({
 }: LessonFooterProps) {
   // When the reader *just* completed the lesson, bring the completion moment
   // and the next-lesson card into view — on a phone the footer that appears
-  // under the button is otherwise easy to miss. Only on the false→true edge,
-  // never on first paint of an already-completed lesson.
+  // under the button is otherwise easy to miss. Only after the reader's own
+  // click: the store rehydrating after first paint (or another tab's write)
+  // also flips `isCompleted` false→true, and must not move the page.
   const completedWrapRef = useRef<HTMLDivElement>(null);
-  const wasCompletedRef = useRef(isCompleted);
+  const toggledByReaderRef = useRef(false);
+  const handleToggle = (): void => {
+    toggledByReaderRef.current = true;
+    onToggleComplete();
+  };
   useEffect(() => {
-    const justCompleted = isCompleted && !wasCompletedRef.current;
-    wasCompletedRef.current = isCompleted;
-    if (!justCompleted) return;
+    const byReader = toggledByReaderRef.current;
+    toggledByReaderRef.current = false;
+    if (!byReader || !isCompleted) return;
     const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
     completedWrapRef.current?.scrollIntoView({
       behavior: reduce ? 'auto' : 'smooth',
@@ -101,7 +106,7 @@ export function LessonFooter({
   return (
     <footer className={styles.footer}>
       {isUpcoming ? null : (
-        <MarkAsCompletedButton isCompleted={isCompleted} onClick={onToggleComplete} />
+        <MarkAsCompletedButton isCompleted={isCompleted} onClick={handleToggle} />
       )}
       {/* Pre-completion: symmetric prev/next. Post-completion: a stronger
        * "what's next" moment that promotes the next lesson to the primary

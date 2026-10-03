@@ -59,4 +59,20 @@ test.describe('Returning reader — review 2026-09-30', () => {
     const outline = page.getByRole('navigation', { name: 'Sadržaj kursa' }).first();
     await expect(outline.getByRole('link', { name: /Lepenski Vir.*pročitano/ })).toBeAttached();
   });
+
+  // Review 2026-10-03 P1 1: the store rehydrating after first paint flipped
+  // the footer to "completed" and fired the just-completed scroll, so a read
+  // lesson opened by URL (reload, new tab, bookmark) landed on its footer.
+  test('a read lesson opened by URL stays at the top', async ({ page }) => {
+    await page.goto(`/course/${COURSE_ID}/lesson/day-002`);
+    await expect(page.getByRole('button', { name: /^Pročitano/ })).toBeVisible();
+    await page.waitForTimeout(800); // a smooth scroll would be under way by now
+    expect(await page.evaluate(() => window.scrollY)).toBe(0);
+  });
+
+  test("the reader's own click still brings the completion moment into view", async ({ page }) => {
+    await page.goto(`/course/${COURSE_ID}/lesson/day-003`);
+    await page.getByRole('button', { name: /^Označi kao pročitano$/ }).click();
+    await expect(page.getByRole('link', { name: /Sledeća lekcija · DAN 004/ })).toBeInViewport();
+  });
 });
