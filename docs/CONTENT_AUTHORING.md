@@ -54,7 +54,6 @@ The loader (`packages/content/src/loader/loadCourseFromFiles.ts`) reads these on
     { "type": "paragraph", "text": "…" }
   ],
   "isPlaceholder": false,
-  "lastReviewedAt": "2026-05-19",
   "sources": [
     {
       "kind": "book",
@@ -98,7 +97,7 @@ type LessonBlock =
 
 ### Trust fields
 
-`sources[]` (book / article / museum / archive / web), `lastReviewedAt` (ISO date) and `byline { author?, reviewer? }` render after the body as _Izvori_ and the trust line. A byline names a real person per lesson; there is no generic fallback, so leave it out rather than invent one.
+`sources[]` (book / article / museum / archive / web), `byline { author?, reviewer? }` and `lastReviewedAt` (ISO date) render after the body as _Izvori_ and the trust line. A byline names a real person per lesson; there is no generic fallback, so leave it out rather than invent one. `lastReviewedAt` is the date _that named reviewer_ checked the lesson — the loader rejects it without `byline.reviewer`; a machine-assisted pass never sets it. Under every lesson the trust line also carries one course-wide note (how the text was made and checked, `apps/web/lib/trust/trustLine.ts`) linking the era's section of `/course/<id>/literatura` (`apps/web/lib/trust/readingList.ts`, built from `docs/review/`). When a new checking pass lands, update both together with its report.
 
 ---
 
@@ -170,7 +169,7 @@ Not implemented. `Course.language` exists; a second language would be a second c
 - [ ] First block is a `paragraph` with `dropcap: true`; 700–1100 words; no HTML, no links in `text`.
 - [ ] `summary` is one standalone sentence under ~160 characters.
 - [ ] `keyPeople` / `keyPlaces` are filled where historically relevant.
-- [ ] `sources[]` cover the checkable claims; `lastReviewedAt` set when a fact check was done; no invented `byline`.
+- [ ] `sources[]` cover the checkable claims; `lastReviewedAt` only with a named `byline.reviewer`; no invented `byline`.
 - [ ] No `readingTimeMinutes` in the file.
 - [ ] `pnpm validate-content` exits 0; `pnpm gen-content` run and both generated files committed.
 - [ ] Read once more as the Historical Content Editor (tone, accuracy, chronology).

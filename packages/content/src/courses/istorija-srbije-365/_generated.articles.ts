@@ -73,7 +73,6 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       "Đerdap",
       "Dunav"
     ],
-    "lastReviewedAt": "2026-05-19",
     "sources": [
       {
         "kind": "book",
@@ -407,7 +406,6 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "keyPlaces": [
       "Vinča"
     ],
-    "lastReviewedAt": "2026-05-19",
     "sources": [
       {
         "kind": "book",
@@ -1775,7 +1773,6 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       "Carigrad",
       "Naissus"
     ],
-    "lastReviewedAt": "2026-05-19",
     "sources": [
       {
         "kind": "book",
@@ -5974,7 +5971,6 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       "Marko Mrnjavčević"
     ],
     "keyPlaces": [],
-    "lastReviewedAt": "2026-05-19",
     "sources": [
       {
         "kind": "book",
@@ -11249,7 +11245,6 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       "Paraćin",
       "Šumadija"
     ],
-    "lastReviewedAt": "2026-05-19",
     "sources": [
       {
         "kind": "book",
@@ -17412,7 +17407,6 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "keyPlaces": [
       "Beograd"
     ],
-    "lastReviewedAt": "2026-05-19",
     "sources": [
       {
         "kind": "book",
@@ -20944,7 +20938,7 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
 
 /** When each lesson's JSON last changed (`lesson-dates.json`), `YYYY-MM-DD`. */
 export const lessonModifiedAt: Readonly<Record<LessonId, string>> = {
-  "day-001": "2026-09-28",
+  "day-001": "2026-10-03",
   "day-002": "2026-09-30",
   "day-003": "2026-09-30",
   "day-004": "2026-09-30",
@@ -20974,7 +20968,7 @@ export const lessonModifiedAt: Readonly<Record<LessonId, string>> = {
   "day-028": "2026-10-03",
   "day-029": "2026-10-03",
   "day-030": "2026-10-03",
-  "day-031": "2026-09-30",
+  "day-031": "2026-10-03",
   "day-032": "2026-10-03",
   "day-033": "2026-10-03",
   "day-034": "2026-10-03",

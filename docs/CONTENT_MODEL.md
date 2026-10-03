@@ -99,7 +99,6 @@ Sections are contiguous, non-overlapping day ranges (`startDay..endDay`, 4–18 
     { "type": "paragraph", "text": "…" }
   ],
   "isPlaceholder": false,
-  "lastReviewedAt": "2026-05-19",
   "sources": [
     { "kind": "book", "title": "Lepenski Vir: nova praistorijska kultura u Podunavlju", "author": "Dragoslav Srejović", "year": 1969 },
     { "kind": "museum", "title": "Muzej Lepenski Vir, Donji Milanovac" }
@@ -121,8 +120,8 @@ Sections are contiguous, non-overlapping day ranges (`startDay..endDay`, 4–18 
 | `isPlaceholder` | `false` on every lesson today. `true` would render the calm "Uskoro" state and disable completion; the field stays for any future re-introduction. |
 | `summary` | One standalone sentence; feeds the share-preview description (keep it under ~160 characters). |
 | `keyPeople`, `keyPlaces` | Authored on every lesson; not rendered in the reader yet (review P3 item 26). |
-| `byline` | `{ author?, reviewer? }`. Rendered in `LessonTrustLine` after the sources; absent on every lesson today — each name is authored explicitly, there is no course-wide fallback. |
-| `lastReviewedAt` | ISO date of the last editorial fact check; rendered in the trust line when present. |
+| `byline` | `{ author?, reviewer? }`. Rendered in `LessonTrustLine` after the sources (mono line above the course-wide check note); absent on every lesson today — each name is authored explicitly, there is no course-wide fallback. |
+| `lastReviewedAt` | ISO date of a **named** reviewer's fact check; the loader rejects it without `byline.reviewer`. Absent on every lesson today: the six 2026-05-19 dates were dropped (review 2026-10-03 P1 4) because no named person stood behind them. The machine-assisted passes of Sept–Oct 2026 are not recorded here — the trust line under every lesson states them and links `/course/<id>/literatura`. |
 | `sources` | `Source[]`; rendered as the closing *Izvori* block when present. |
 
 ### `LessonBlock`

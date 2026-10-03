@@ -3,8 +3,9 @@ import type { MetadataRoute } from 'next';
 import { getAllCourseIds, getLessons } from '@learn365/content';
 import { getLessonModifiedAt } from '@learn365/content/server';
 
-import { courseHref, lessonHref } from '@/lib/routes';
+import { courseHref, lessonHref, readingListHref } from '@/lib/routes';
 import { SITE_URL } from '@/lib/seo/metadata';
+import { getReadingList } from '@/lib/trust/readingList';
 
 /**
  * `/sitemap.xml` — every public page. Account pages and the API are left out
@@ -24,6 +25,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'weekly',
       priority: 0.9,
     });
+    if (getReadingList(courseId) !== null) {
+      entries.push({
+        url: `${SITE_URL}${readingListHref(courseId)}`,
+        changeFrequency: 'monthly',
+        priority: 0.4,
+      });
+    }
     for (const lesson of getLessons(courseId)) {
       const entry: MetadataRoute.Sitemap[number] = {
         url: `${SITE_URL}${lessonHref(courseId, lesson.id)}`,

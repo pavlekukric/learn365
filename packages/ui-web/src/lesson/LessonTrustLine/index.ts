@@ -1,1 +1,1 @@
-export { LessonTrustLine } from './LessonTrustLine.js';
+export { LessonTrustLine, type LessonTrustLink } from './LessonTrustLine.js';

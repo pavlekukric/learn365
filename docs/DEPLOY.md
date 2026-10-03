@@ -115,6 +115,7 @@ After every server step: `ssh root@<IP> 'docker ps --filter name=racuni --format
 | Name | Where | Purpose |
 |---|---|---|
 | `NEXT_PUBLIC_SITE_URL` | build arg from repo variable `SITE_URL` | Public origin for `metadataBase` / canonical / Open Graph / sitemap. Empty → `https://istorija365.com` (so a stray build never declares itself canonical). |
+| `NEXT_PUBLIC_REPORT_EMAIL` | build arg from repo variable `REPORT_EMAIL` | Address of the „Prijavi grešku” link under every lesson (`mailto:` with subject „Greška u lekciji — Dan NNN” and the lesson URL in the body; `apps/web/lib/trust/reportError.ts`). Empty or not an address → the link is not rendered. Baked in at `next build` (lesson pages are prerendered), so a change needs a rebuild, not a restart. Not set yet — the owner picks the address (an Email Routing alias as in §11 works). |
 | `IMAGE_TAG` | `/srv/learn365/.env`, written by `deploy.sh` | Which image tag compose runs. |
 | `DEPLOY_HOST_KEY` | repo variable | Pinned `<IP> ssh-ed25519 …` line for the runner's `known_hosts` (no keyscan). |
 | `POSTGRES_PASSWORD` | `/srv/learn365/.env` → `db` | Password of the `learn365` database role. Hex only (`openssl rand -hex 24`) so the URL below needs no encoding. |

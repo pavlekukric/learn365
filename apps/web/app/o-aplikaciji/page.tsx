@@ -1,8 +1,11 @@
 import type { Metadata } from 'next';
+import Link from 'next/link';
 
 import { Eyebrow, Flourish } from '@learn365/ui-web';
 
 import { HOW_IT_WORKS_EYEBROW, HOW_IT_WORKS_NOTE, HOW_IT_WORKS_STEPS } from '@/lib/copy/howItWorks';
+import { DEFAULT_COURSE_ID } from '@/lib/defaultCourse';
+import { readingListHref } from '@/lib/routes';
 import { shareMetadata } from '@/lib/seo/metadata';
 
 import {
@@ -18,6 +21,7 @@ import {
   PAGE_TITLE,
   SOURCES_BODY,
   SOURCES_HEADING,
+  SOURCES_LINK_LABEL,
   STANDARD_BODY,
   STANDARD_HEADING,
 } from './_copy';
@@ -88,6 +92,11 @@ export default function AboutPage() {
             {SOURCES_HEADING}
           </h2>
           <p className={`body ${styles.paragraph}`}>{SOURCES_BODY}</p>
+          <p className={styles.contactLine}>
+            <Link className={styles.contactLink} href={readingListHref(DEFAULT_COURSE_ID)}>
+              {SOURCES_LINK_LABEL}
+            </Link>
+          </p>
         </section>
 
         <section className={styles.section} aria-labelledby="urednistvo">

@@ -1,5 +1,50 @@
 .trust {
+  margin-top: var(--space-6);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.credit {
   margin: 0;
   color: var(--muted);
   letter-spacing: 0.12em;
+}
+
+/* One quiet sentence, then the links — a dot separates each from what came
+ * before. Same muted register as a caption, so it never competes with the
+ * text it closes. */
+.note {
+  margin: 0;
+  color: var(--muted);
+}
+
+/* A link label never breaks across lines; the line wraps between items. */
+.linkItem {
+  white-space: nowrap;
+}
+
+.linkItem::before {
+  content: ' · ';
+  color: var(--faint);
+}
+
+.note > .linkItem:first-child::before {
+  content: none;
+}
+
+.link {
+  color: var(--ink-2);
+  text-decoration: underline;
+  text-decoration-color: var(--rule-2);
+  text-underline-offset: 0.2em;
+  transition:
+    color var(--motion-fast) var(--ease-out),
+    text-decoration-color var(--motion-fast) var(--ease-out);
+}
+
+.link:hover,
+.link:focus-visible {
+  color: var(--ink);
+  text-decoration-color: var(--accent-ink);
 }
