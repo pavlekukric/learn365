@@ -18,7 +18,7 @@ test.describe('Istorija 365 — trust layer', () => {
     const note = page.getByTestId('lesson-trust-note');
     await expect(note).toBeVisible();
     await expect(note).toContainText('Pripremljeno uz AI, uređeno ručno');
-    await expect(note).toContainText('septembru i oktobru 2026');
+    await expect(note).toContainText('sept.–okt. 2026');
     // The stale 19.05.2026 date is gone, and no reviewer is named.
     await expect(page.locator('article')).not.toContainText('POSLEDNJI PREGLED');
     await expect(page.locator('article')).not.toContainText('PREGLEDAO');
