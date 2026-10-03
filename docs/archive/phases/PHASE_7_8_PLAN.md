@@ -6,7 +6,7 @@
 PR #17 — assumed merged before 7.8 ships).
 **Parent references:**
 
-- [`docs/ROADMAP_PRE_PHASE_8.md`](./ROADMAP_PRE_PHASE_8.md) — Phase 7.8 entry
+- [`docs/ROADMAP_PRE_PHASE_8.md`](../ROADMAP_PRE_PHASE_8.md) — Phase 7.8 entry
   (Bundle B). Locked R2: since-you-started counter, no real-calendar
   dependency.
 - Independent mobile UI/UX assessment, 2026-05-19, §4 issue #2 and §5

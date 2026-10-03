@@ -7,7 +7,7 @@
 in `docs/PROJECT_STATE.md` § Current Baseline.
 **Parent references:**
 
-- [`docs/ROADMAP_PRE_PHASE_8.md`](./ROADMAP_PRE_PHASE_8.md) — Phase 7.7 entry
+- [`docs/ROADMAP_PRE_PHASE_8.md`](../ROADMAP_PRE_PHASE_8.md) — Phase 7.7 entry
   (Bundle A). Locked R1: this bundle ships first.
 - Independent mobile UI/UX assessment, 2026-05-19, §4 issue #1.
 - [`docs/PROJECT_STATE.md`](./PROJECT_STATE.md) — Current Baseline:

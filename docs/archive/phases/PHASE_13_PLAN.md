@@ -4,7 +4,7 @@
 **Date:** 2026-09-28
 **Predecessors:** Phase 12 code live (PR #46, `3a315c8`); Phase 11 live (PR #44, `fc72b29`).
 **Parent references:**
-- [`docs/PRODUCT_REVIEW_2026-09-28.md`](./PRODUCT_REVIEW_2026-09-28.md) — P1 item 12, "Era rail: stop truncating (S)": _`HistoricalTimeline.module.css:118-126` uses `nowrap` + ellipsis on bands sized by lesson count, so "Kraj 20. veka i savremena Srbija" gets ~58 px on Home at 1440 and the lesson-page rail shows "Praistorij…". `eras.json` already carries `eraShort` (all ≤ 22 chars) — use it on the rail with the full title as tooltip; on the lesson page move the existing `compact` vertical variant into the sidebar/drawer (it is referenced in three comments and rendered nowhere) and drop the post-footer strip._
+- [`docs/PRODUCT_REVIEW_2026-09-28.md`](../reviews/PRODUCT_REVIEW_2026-09-28.md) — P1 item 12, "Era rail: stop truncating (S)": _`HistoricalTimeline.module.css:118-126` uses `nowrap` + ellipsis on bands sized by lesson count, so "Kraj 20. veka i savremena Srbija" gets ~58 px on Home at 1440 and the lesson-page rail shows "Praistorij…". `eras.json` already carries `eraShort` (all ≤ 22 chars) — use it on the rail with the full title as tooltip; on the lesson page move the existing `compact` vertical variant into the sidebar/drawer (it is referenced in three comments and rendered nowhere) and drop the post-footer strip._
 - [`HANDOFF.md`](../HANDOFF.md) — "Next pick: review P1 item 12".
 - `packages/ui-web/src/lesson/HistoricalTimeline/` — the component, its stylesheet and `timelineMath.ts`.
 

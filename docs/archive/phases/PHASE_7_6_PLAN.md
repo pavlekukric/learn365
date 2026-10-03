@@ -9,7 +9,7 @@
 
 - [`HANDOFF.md`](../HANDOFF.md) — "Next pick: Phase 7.6 — Course page scroll
   restore." Pre-existing pre-7.0 polish backlog item.
-- [`docs/ROADMAP_PRE_PHASE_8.md`](./ROADMAP_PRE_PHASE_8.md) — 7.5/7.6 polish
+- [`docs/ROADMAP_PRE_PHASE_8.md`](../ROADMAP_PRE_PHASE_8.md) — 7.5/7.6 polish
   items preserved through the 7.7–7.12 reframe.
 - [`docs/UX_REQUIREMENTS.md`](./UX_REQUIREMENTS.md) — premium / calm / editorial
   bar.

@@ -5,7 +5,7 @@
 **Predecessors:**
 
 - Phase 7.10 + 7.12-a merged 2026-05-19 (PR #20, commit `7fb1d18`) — lesson trust scaffolding + `next/image` figure renderer.
-- [`docs/ROADMAP_PRE_PHASE_8.md`](./ROADMAP_PRE_PHASE_8.md) §E — Bundle E (this phase).
+- [`docs/ROADMAP_PRE_PHASE_8.md`](../ROADMAP_PRE_PHASE_8.md) §E — Bundle E (this phase).
 - [`HANDOFF.md`](../HANDOFF.md) — next-step pointer names Phase 7.11 as the next pick.
 
 This is the detailed plan for Bundle E of the pre-Phase-8 roadmap. It is written one bundle at a time, per the locked process in the roadmap.

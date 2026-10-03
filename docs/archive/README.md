@@ -16,6 +16,14 @@ For the current baseline, start at the repo root:
 
 The append-only build log that followed the baseline in PROJECT_STATE until 2026-09-30, moved here unchanged (review 2026-09-30, item 17). Phase 17 onward is appended to PROJECT_STATE.
 
+### Early plans and the design origin
+
+Moved from `docs/` on 2026-10-03 (review 2026-10-03 P2 12 / 2026-10-01 item 16).
+
+- `IMPLEMENTATION_PLAN.md` — the original "canonical plan" (Phases 0–8). Still says the app is on Vercel (deleted 2026-09-28); the phase log in PROJECT_STATE replaced it.
+- `ROADMAP_PRE_PHASE_8.md` — the 2026-05-19 roadmap draft (bundles 7.5–7.12, all shipped).
+- `CLOUD_DESIGN_PROMPT.md` — the prompt that produced the Cloud Design V1 prototype in `design/cloud-design-v1/`. Its "History 365" brand and 7–10-minute lessons are out of date.
+
 ### `phases/` — completed phase plans
 
 Each file was the in-flight plan for a single feature bundle. The implementation is now merged into `main`. Completion is recorded in `docs/PROJECT_STATE.md`.
@@ -37,6 +45,11 @@ Each file captured a live read of the app at a point in time and produced recomm
 - `UX_REVIEW_2026-05-15.md` — post-7.1 review. All five identified bundles shipped by Phase 7.1.
 - `UX_AUDIT_CURRENT_UI.md` — live audit of the post-7.0e build. Main finding (course-page eras as editorial blocks) shipped as Phase 7.4.
 - `NEXT_PHASE_RECOMMENDATION.md` — phase pick rationale. All three picks (7.1 trust polish, 7.2 home hero v2, 7.4 eras editorial) shipped. Replaced by `HANDOFF.md` at repo root as the live forward-looking pointer.
+- `DESIGN_REVIEW.md` — the Cloud Design V1 approval and its implementation rule (the design source is still `design/cloud-design-v1/`; the live system is `docs/DESIGN_SYSTEM.md`).
+- `PRODUCT_REVIEW_2026-09-28.md` — full review, 7 / 10. Its engineering backlog shipped as the P0 fixes and Phases 9–15.
+- `PRODUCT_REVIEW_2026-09-30.md` — full review, 7.5 / 10. Its engineering backlog shipped as Phase 17; the content items led to Phases 19–20.
+
+The newer reviews (`PRODUCT_REVIEW_2026-10-01.md`, `PRODUCT_REVIEW_2026-10-03.md`) stay in `docs/` while their items are open.
 
 ## When to consult an archived doc
 

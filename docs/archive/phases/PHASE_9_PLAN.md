@@ -4,7 +4,7 @@
 **Date:** 2026-09-28
 **Predecessors:** Review P0 closed (PRs #37, #38); Phase 8 live (PR #34, `06e6a55`).
 **Parent references:**
-- [`docs/PRODUCT_REVIEW_2026-09-28.md`](./PRODUCT_REVIEW_2026-09-28.md) — P1 items 6 (corpus out of the client bundle) and 7 (prerender the 366 course/lesson pages); Performance 5/10; §5 "Measurements behind the scores".
+- [`docs/PRODUCT_REVIEW_2026-09-28.md`](../reviews/PRODUCT_REVIEW_2026-09-28.md) — P1 items 6 (corpus out of the client bundle) and 7 (prerender the 366 course/lesson pages); Performance 5/10; §5 "Measurements behind the scores".
 - [`HANDOFF.md`](../HANDOFF.md) — "Next pick, agreed with the owner 2026-09-28: review P1 items 6 + 7 as one planned phase."
 - [`docs/APP_ARCHITECTURE.md`](./APP_ARCHITECTURE.md) §3 / §4 — package responsibilities and dependency rules this phase tightens.
 - [`docs/CONTENT_MODEL.md`](./CONTENT_MODEL.md) — the `Lesson` contract, unchanged on disk by this phase.

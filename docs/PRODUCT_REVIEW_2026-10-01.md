@@ -11,7 +11,7 @@ The merger re-checked the headline claims directly: plain-http 200, Next 15.5.18
 
 **Build reviewed:** `main` at `309bc2b`, with Phases 17–20 live and Hetzner Backups on since 2026-10-01.
 **Scope:** everything. Nothing was modified. This document and a pointer in `HANDOFF.md` are the only changes.
-**Previous review:** [`PRODUCT_REVIEW_2026-09-30.md`](PRODUCT_REVIEW_2026-09-30.md), overall 7.5 / 10. Its whole engineering backlog shipped as Phase 17. The content risk it named led to Phases 19–20: a fact-check of all 365 lessons and a second-source pass, about 900 fixes in total.
+**Previous review:** [`PRODUCT_REVIEW_2026-09-30.md`](archive/reviews/PRODUCT_REVIEW_2026-09-30.md), overall 7.5 / 10. Its whole engineering backlog shipped as Phase 17. The content risk it named led to Phases 19–20: a fact-check of all 365 lessons and a second-source pass, about 900 fixes in total.
 
 **Per-pass evidence:** the five pass reports, Lighthouse JSON and screenshots were kept outside the repo (session scratchpad). Every finding below carries its own evidence (file:line, URL + width, or quote).
 
