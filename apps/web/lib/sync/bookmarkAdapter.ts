@@ -43,7 +43,10 @@ export function mergeBookmarksDelta(into: BookmarksDelta, next: BookmarksDelta):
 }
 
 /** What `queued` still owes once `sent` has been delivered (`pendingQueue` ack). */
-export function subtractBookmarksDelta(queued: BookmarksDelta, sent: BookmarksDelta): BookmarksDelta {
+export function subtractBookmarksDelta(
+  queued: BookmarksDelta,
+  sent: BookmarksDelta,
+): BookmarksDelta {
   return {
     add: new Set([...queued.add].filter((id) => !sent.add.has(id))),
     remove: new Set([...queued.remove].filter((id) => !sent.remove.has(id))),

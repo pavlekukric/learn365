@@ -10,7 +10,9 @@ export const EMPTY_BOOKMARKS_SNAPSHOT: CourseBookmarksSnapshot = {
 };
 
 /** Flatten a store record (Set) to the wire shape (array). */
-export function toBookmarksSnapshot(bookmarks: CourseBookmarks | undefined): CourseBookmarksSnapshot {
+export function toBookmarksSnapshot(
+  bookmarks: CourseBookmarks | undefined,
+): CourseBookmarksSnapshot {
   if (bookmarks === undefined) return EMPTY_BOOKMARKS_SNAPSHOT;
   return { lessonIds: Array.from(bookmarks.lessonIds), updatedAt: bookmarks.updatedAt };
 }

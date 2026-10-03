@@ -11,7 +11,13 @@
   "dateLabel": "1999–danas",
   "timelinePosition": "1999–danas",
   "summary": "Kosovo posle NATO bombardovanja: UN protektorat pod Rezolucijom 1244, mart 2004, Ahtisarijev plan, jednostrana nezavisnost 2008. i Briselski dijalog.",
-  "keyPeople": ["Marti Ahtisari", "Hašim Tači", "Boris Tadić", "Vojislav Koštunica", "Aleksandar Vučić"],
+  "keyPeople": [
+    "Marti Ahtisari",
+    "Hašim Tači",
+    "Boris Tadić",
+    "Vojislav Koštunica",
+    "Aleksandar Vučić"
+  ],
   "keyPlaces": ["Priština", "Beograd", "Kosovska Mitrovica", "Brisel", "Ohrid"],
   "content": [
     {

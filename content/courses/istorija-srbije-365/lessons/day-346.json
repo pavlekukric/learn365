@@ -11,7 +11,17 @@
   "dateLabel": "1992–2003.",
   "timelinePosition": "1992–2003.",
   "summary": "SR Jugoslavija, krnja zajednica Srbije i Crne Gore iz 1992. pod Miloševićevom dominacijom, primljena je u UN tek 2000, a 2003. postaje državna zajednica.",
-  "keyPeople": ["Slobodan Milošević", "Dobrica Ćosić", "Momir Bulatović", "Milo Đukanović", "Zoran Đinđić", "Vojislav Koštunica", "Vuk Drašković", "Vojislav Šešelj", "Mirjana Marković"],
+  "keyPeople": [
+    "Slobodan Milošević",
+    "Dobrica Ćosić",
+    "Momir Bulatović",
+    "Milo Đukanović",
+    "Zoran Đinđić",
+    "Vojislav Koštunica",
+    "Vuk Drašković",
+    "Vojislav Šešelj",
+    "Mirjana Marković"
+  ],
   "keyPlaces": ["Beograd", "Podgorica", "Savezna skupština", "Žabljak", "Dejton"],
   "content": [
     {

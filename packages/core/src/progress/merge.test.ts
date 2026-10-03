@@ -13,7 +13,11 @@ describe('toProgressSnapshot', () => {
         lastOpenedLessonId: 'day-003',
         updatedAt: T1,
       }),
-    ).toEqual({ completedLessonIds: ['day-001', 'day-002'], lastOpenedLessonId: 'day-003', updatedAt: T1 });
+    ).toEqual({
+      completedLessonIds: ['day-001', 'day-002'],
+      lastOpenedLessonId: 'day-003',
+      updatedAt: T1,
+    });
     expect(toProgressSnapshot(undefined)).toBe(EMPTY_PROGRESS_SNAPSHOT);
   });
 });

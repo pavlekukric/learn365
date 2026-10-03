@@ -1,6 +1,6 @@
 # Era IV — Osmansko i habzburško doba: druga provera ⚠ stavki
 
-Izveštaj: docs/review/era-04-osmansko-i-habzbursko-doba.md (24 ⚠ reda). Ćorović = Vladimir Ćorović, *Istorija srpskog naroda* (1941), lokalni tekst, citiran po PDF strani.
+Izveštaj: docs/review/era-04-osmansko-i-habzbursko-doba.md (24 ⚠ reda). Ćorović = Vladimir Ćorović, _Istorija srpskog naroda_ (1941), lokalni tekst, citiran po PDF strani.
 
 ZBIR (24 stavke): ✅ potvrđeno — 21 · ❌ ispraviti — 1 · ↩ vratiti — 0 · ❓ otvoreno — 2
 
@@ -17,7 +17,7 @@ ZBIR (24 stavke): ✅ potvrđeno — 21 · ❌ ispraviti — 1 · ↩ vratiti �
 - **Nalaz iz prvog prolaza:** „čuvar pečata” zameniti nišandžijom (tugra) — ispravka je unesena.
 - **Izvori:**
   - TDV İslâm Ansiklopedisi, „Nişancı” — https://islamansiklopedisi.org.tr/nisanci — „başlıca görevi ferman, nâme, ahidnâme ve berat gibi belgelerin üzerine padişahın tuğrasını çekmekti”; nišandžija je „Dîvân-ı Hümâyun'un aslî üyelerinden”.
-  - „Carski divan kod Osmanlija”, *Ilmijja* (časopis) — https://ilmijja.ba/ojs/index.php/casopis1/article/view/177 — sažetak: članovi Carskog divana su veliki vezir (predsedava od 1475), rumelijski i anadolski kadiasker, nišandžija („državni kancelar”), defterdar, kapudan-paša, janičarski aga.
+  - „Carski divan kod Osmanlija”, _Ilmijja_ (časopis) — https://ilmijja.ba/ojs/index.php/casopis1/article/view/177 — sažetak: članovi Carskog divana su veliki vezir (predsedava od 1475), rumelijski i anadolski kadiasker, nišandžija („državni kancelar”), defterdar, kapudan-paša, janičarski aga.
 - **Presuda:** ✅ potvrđeno (članstvo nišandžije i defterdara u Divanu potvrđuju oba izvora; tugru kao nišandžijin posao izričito navodi TDV).
 
 ### Day 156 — #4 — Štampanje i na osmanskom tlu (Rujno, Gračanica, Mileševa)
@@ -25,7 +25,7 @@ ZBIR (24 stavke): ✅ potvrđeno — 21 · ❌ ispraviti — 1 · ↩ vratiti �
 - **Tekst u lekciji sada:** „…u Veneciji i Vlaškoj, gde su Srbi imali zaštitu lokalnih vladara, ali i u samim srpskim manastirima pod osmanskom vlašću — u Rujnu, Gračanici, Mileševi — a ipak je rukopis ostao osnovni način prenošenja knjige čitav 16. vek.”
 - **Nalaz iz prvog prolaza:** dodati štamparije pod osmanskom vlašću — uneseno.
 - **Izvori:**
-  - Ljiljana Puzović (Narodna biblioteka Srbije), *Verzal* IV (2024) — https://verzal.nub.rs/assets/files/4-02.pdf — štampanje „pod влашћу Османског царства, од Горажда преко Рујна до Грачанице и од Милешеве преко Мркшине цркве до Београда”; Rujno 1536/37, Gračanički oktoih 1538/39, Mileševski psaltir 1544.
+  - Ljiljana Puzović (Narodna biblioteka Srbije), _Verzal_ IV (2024) — https://verzal.nub.rs/assets/files/4-02.pdf — štampanje „pod влашћу Османског царства, од Горажда преко Рујна до Грачанице и од Милешеве преко Мркшине цркве до Београда”; Rujno 1536/37, Gračanički oktoih 1538/39, Mileševski psaltir 1544.
   - Ćorović, ISN, PDF str. 329 — „оснивање српских штампарија у Милешеву, Горажду, Рујну, Грачаници, Београду”; PDF str. 333 — Mrkšina crkva 1562.
   - Dopunski: NBS, „Istorijat i zapisi u sačuvanim primercima Rujanskog četvorojevanđelja” — https://nb.rs/istorijat-i-zapisi-u-sacuvanim-primercima-rujanskog-cetvorojevandjelja/ (Rujno 1536/1537).
 - **Presuda:** ✅ potvrđeno.
@@ -35,7 +35,7 @@ ZBIR (24 stavke): ✅ potvrđeno — 21 · ❌ ispraviti — 1 · ↩ vratiti �
 - **Tekst u lekciji sada:** „Njena jurisdikcija prostirala se od zapadne Bugarske (Ćustendil, Samokov), preko današnje Srbije, Kosova i delova Makedonije, kroz celu Bosnu i Hercegovinu, do Dalmacije, Srema, Slavonije i južne Ugarske — sve do Budima i Temišvara.”
 - **Nalaz iz prvog prolaza:** „severna Bugarska … do Vlaške” bilo je pogrešno; zamenjeno — uneseno.
 - **Izvori:**
-  - *Politika*, „Pećka patrijaršija, čuvar istorije” — https://www.politika.rs/sr/clanak/48192/pecka-patrijarsija-cuvar-istorije — „pored oblasti u južnoj i severnoj Srbiji i Crnoj Gori, i celu Bosnu i Hercegovinu sa Dalmacijom, Slavoniju, Srem, Banat i Bačku, deo današnje Bugarske i teritoriju do Budima, Temišvara i Arada.”
+  - _Politika_, „Pećka patrijaršija, čuvar istorije” — https://www.politika.rs/sr/clanak/48192/pecka-patrijarsija-cuvar-istorije — „pored oblasti u južnoj i severnoj Srbiji i Crnoj Gori, i celu Bosnu i Hercegovinu sa Dalmacijom, Slavoniju, Srem, Banat i Bačku, deo današnje Bugarske i teritoriju do Budima, Temišvara i Arada.”
   - Ćorović, ISN, PDF str. 331 — vlast patrijaršije „допирала свуда докле су ишле, међу Србима, и границе турске државе”; izričito pominje Bosnu i „onostrani Srem” kao nove oblasti.
 - **Presuda:** ✅ potvrđeno — obim (Bosna, Dalmacija, Srem, Slavonija, deo Bugarske, do Budima i Temišvara) i izostavljanje Vlaške. Napomena: zagrada „(Ćustendil, Samokov)” nije potvrđena ni u jednom ne-Wikipedia izvoru koji sam otvorio (Politika kaže samo „deo današnje Bugarske”); ako vlasnik želi strožu verziju: „od zapadne Bugarske (Ćustendil, Samokov)” → „od delova današnje Bugarske”.
 
@@ -76,7 +76,7 @@ ZBIR (24 stavke): ✅ potvrđeno — 21 · ❌ ispraviti — 1 · ↩ vratiti �
 - **Tekst u lekciji sada:** rečenica je izbačena; u lekciji više nema tvrdnje o svetiteljstvu.
 - **Nalaz iz prvog prolaza:** Arsenije III nije kanonizovan — izbačeno.
 - **Izvori:**
-  - *Srpska enciklopedija* (Matica srpska/SANU), „Arsenije III (Crnojević/Čarnojević)” — https://srpskaenciklopedija.rs/books/slovo-a/page/arsenije-iii-crnojeviccarnojevic — ocenjuje ga kao „један од најпознатијих и најзаслужнијих српских архијереја”, „сахрањен у манастиру Крушедол”; nigde ga ne naziva svetiteljem.
+  - _Srpska enciklopedija_ (Matica srpska/SANU), „Arsenije III (Crnojević/Čarnojević)” — https://srpskaenciklopedija.rs/books/slovo-a/page/arsenije-iii-crnojeviccarnojevic — ocenjuje ga kao „један од најпознатијих и најзаслужнијих српских архијереја”, „сахрањен у манастиру Крушедол”; nigde ga ne naziva svetiteljem.
   - RT Balkan, „Tajna groba Arsenija III Čarnojevića” — https://rt.rs/srbija-i-balkan/53813-arsenije-carnokevic-mosti-krusedol/ — o grobu u Krušedolu; nema pomena kulta ili kanonizacije.
   - Ćorović, ISN, PDF str. 360–372 — opširno o patrijarhu, bez pomena svetiteljstva.
 - **Presuda:** ✅ potvrđeno (izbacivanje je ispravno). Napomena: ovo je zaključak iz ćutanja izvora; nijedan otvoreni izvor ne tvrdi da je kanonizovan.
@@ -88,14 +88,14 @@ ZBIR (24 stavke): ✅ potvrđeno — 21 · ❌ ispraviti — 1 · ↩ vratiti �
 - **Izvori:**
   - Pravoslavnik, „Arhiepiskopi i patrijarsi SPC” — https://pravoslavnik.com/ocrkvi/arhiepiskopi_i_patrijarsi.html — Maksim „1656–1674; +1680”.
   - OrthodoxWiki, „Maximus I of Peć” — https://orthodoxwiki.org/Maximus_I_of_Pec — moždani udar 1669, Arsenije izabran za hvostanskog mitropolita i koadjutora; „when it was clear that patriarch's condition would not improve Arsenije was elected patriarch”; Maksim umro 29. 10. 1680. u Peći. (Enciklopedijski wiki, ali ne Wikipedia.)
-- **Presuda:** ✅ potvrđeno — Maksim je bio živ u trenutku izbora. Otvoreno pitanje van ovog reda: *Srpska enciklopedija* kaže da je Arsenije „за пећког патријарха изабран 1672.” (i OrthodoxWiki u tabeli nasleđa ima 1672), a lekcija i Pravoslavnik 1674. Vlasnik može da razmotri „1672. ili 1674.” ili da proveri u ISN III/1.
+- **Presuda:** ✅ potvrđeno — Maksim je bio živ u trenutku izbora. Otvoreno pitanje van ovog reda: _Srpska enciklopedija_ kaže da je Arsenije „за пећког патријарха изабран 1672.” (i OrthodoxWiki u tabeli nasleđa ima 1672), a lekcija i Pravoslavnik 1674. Vlasnik može da razmotri „1672. ili 1674.” ili da proveri u ISN III/1.
 
 ### Day 164 — #4 — Boravišta posle 1690 (ne Krušedol)
 
 - **Tekst u lekciji sada:** „Arsenije nije imao stalno sedište: boravio je u Sentandreji, Sečuju, Hopovu, Futogu i drugde, a 1701. mu je naređeno da živi u Sentandreji. Tek posle njegove smrti sedište mitropolije postaće manastir Krušedol u Fruškoj gori, a 1713. crkveno središte će se konačno utvrditi u Sremskim Karlovcima.”
 - **Nalaz iz prvog prolaza:** Krušedol nije bio njegovo boravište — uneseno.
 - **Izvori:**
-  - *Srpska enciklopedija*, isti članak — „пуних 11 година није у Угарској имао стално место боравка, него је становао у Сентандреји, Ковину, Сиригу, Хопову, Сечују, Футогу и Пакрацу”.
+  - _Srpska enciklopedija_, isti članak — „пуних 11 година није у Угарској имао стално место боравка, него је становао у Сентандреји, Ковину, Сиригу, Хопову, Сечују, Футогу и Пакрацу”.
   - Ćorović, ISN, PDF str. 374 — Arsenije 1700. hirotonisao Danila „у Сечују”; PDF str. 372 — posle smrti (26. 10. 1706) „за митрополитово средиште би изабран манастир Крушедол” (1708).
   - Predrag Puzović, „Karlovačka mitropolija” — http://www.vsnmod.hr/istorija/Mitropolija_Karlovacka_u_Austro_Ugarskoj.pdf — sabor u Krušedolu januara 1708. odredio Krušedol za sedište; sabor u Karlovcima aprila 1713. preneo sedište u Sremske Karlovce.
   - Royal Family of Serbia, „Patriarch Arsenije” — https://royalfamily.org/about-serbia/patriarch-arsenije/ — 1701. njegova vlast ograničena na doseljenike „in the vicinity of Szentendre”.
@@ -106,8 +106,8 @@ ZBIR (24 stavke): ✅ potvrđeno — 21 · ❌ ispraviti — 1 · ↩ vratiti �
 - **Tekst u lekciji sada:** „…u porodici koja je sebe vezivala za staru dinastiju Crnojevića; otud se njegovo prezime piše i Crnojević i Čarnojević — u latinskim izvorima Tschernojewitsch.”
 - **Nalaz iz prvog prolaza:** prezime nije nastalo „po njemu” — uneseno.
 - **Izvori:**
-  - *Srpska enciklopedija* — odrednica „АРСЕНИЈЕ III (Црнојевић/Чарнојевић)”, rođen u Bajicama oko 1633.
-  - *Politika*, „Hrabri patrijarh Arsenije Treći Čarnojević” — https://www.politika.rs/sr/clanak/576067/hrabri-patrijarh-arsenije-treci-carnojevic — rođen „u Bajicama u Cetinjskom polju”; pominje oblik „Črnojević”.
+  - _Srpska enciklopedija_ — odrednica „АРСЕНИЈЕ III (Црнојевић/Чарнојевић)”, rođen u Bajicama oko 1633.
+  - _Politika_, „Hrabri patrijarh Arsenije Treći Čarnojević” — https://www.politika.rs/sr/clanak/576067/hrabri-patrijarh-arsenije-treci-carnojevic — rođen „u Bajicama u Cetinjskom polju”; pominje oblik „Črnojević”.
   - Royal Family of Serbia — „claimed to be a descendant of the medieval Crnojević family”.
 - **Presuda:** ✅ potvrđeno (oba oblika i vezivanje za Crnojeviće). „Tschernojewitsch” nisam proveravao.
 
@@ -118,8 +118,8 @@ ZBIR (24 stavke): ✅ potvrđeno — 21 · ❌ ispraviti — 1 · ↩ vratiti �
 - **Izvori:**
   - Puzović, „Karlovačka mitropolija” (PDF gore) — sabor u Krušedolu januara 1708: „За седиште Митрополије одређен је манастир Крушедол”; 1713. sedište preneto u Sremske Karlovce.
   - Ćorović, ISN, PDF str. 372 — Krušedol izabran za sedište posle Arsenijeve smrti; str. 374 — Arsenije u Sečuju 1700.
-  - *Srpska enciklopedija* — boravišta Sentandreja, Sečuj i dr.
-  - *Srpska enciklopedija*, „Istorija Eparhije sremske” — http://srpskaenciklopedija.org (odrednica) — premeštanje sedišta „из Сентандреје почетком 18. века прво у манастир Крушедол 1708, а потом и у Сремске Карловце 1713”.
+  - _Srpska enciklopedija_ — boravišta Sentandreja, Sečuj i dr.
+  - _Srpska enciklopedija_, „Istorija Eparhije sremske” — http://srpskaenciklopedija.org (odrednica) — premeštanje sedišta „из Сентандреје почетком 18. века прво у манастир Крушедол 1708, а потом и у Сремске Карловце 1713”.
 - **Presuda:** ✅ potvrđeno. Napomena: dodatak „gde je imao vlastelinstvo” (Sečuj) nije potvrđen ni u jednom izvoru koji sam otvorio (SE pominje samo posed Dalj, dobijen 1706). Predlog za opreznost, van presude: izbaciti „, gde je imao vlastelinstvo”.
 
 ### Day 168 — #2 — Karlovci kanonski u okviru Pećke patrijaršije
@@ -165,7 +165,7 @@ ZBIR (24 stavke): ✅ potvrđeno — 21 · ❌ ispraviti — 1 · ↩ vratiti �
 - **Tekst u lekciji sada:** „Tokom 18. veka u Karlovačku mitropoliju stižu ruske pojačke knjige i ruski crkvenomuzički uticaji…; jednoglasno pojanje ipak ostaje osnova, a višeglasno horsko pevanje ustaliće se tek u 19. veku.”
 - **Nalaz iz prvog prolaza:** horsko višeglasje u 18. veku nije potvrđeno — ublaženo.
 - **Izvori:**
-  - Danica Petrović, „The Beginnings of Polyphony in Serbian Church Music”, *Muzikološki zbornik* (Ljubljana) — https://journals.uni-lj.si/MuzikoloskiZbornik/article/view/5137 — „Polyphonic singing appeared for the first time in Serbian churches in the 1830's, after several centuries of exclusive cultivation of church singing in unison”; prvi zvanični put 1834. u Karlovcima; uzrok „the influence of Russian liturgical music”.
+  - Danica Petrović, „The Beginnings of Polyphony in Serbian Church Music”, _Muzikološki zbornik_ (Ljubljana) — https://journals.uni-lj.si/MuzikoloskiZbornik/article/view/5137 — „Polyphonic singing appeared for the first time in Serbian churches in the 1830's, after several centuries of exclusive cultivation of church singing in unison”; prvi zvanični put 1834. u Karlovcima; uzrok „the influence of Russian liturgical music”.
   - Pančevačko srpsko crkveno pevačko društvo — https://pscpd.com/en/about-history/ — osnovano 29. 3. 1838; Pavle Radivojević se 1837. vratio iz Rusije i osnovao četvoroglasni crkveni hor.
 - **Presuda:** ✅ potvrđeno (višeglasje tek u 19. veku, pod ruskim uticajem). Podatak o ruskim pojačkim knjigama u 18. veku nisam posebno proveravao.
 
@@ -175,7 +175,7 @@ ZBIR (24 stavke): ✅ potvrđeno — 21 · ❌ ispraviti — 1 · ↩ vratiti �
 - **Nalaz iz prvog prolaza:** „religiozne drame” → istorijska drama — ispravljeno.
 - **Izvori:**
   - Muzej pozorišne umetnosti Srbije, Teatroslov, „Jovan Rajić” — https://teatroslov.mpus.org.rs/licnost.php?id=4438 — „Tragedija, sirječ pečalnaja povest o smerti poslednjaga carja serbskaga Uroša Pjataga”, 1798; „preradio je ’Tragikomediju’ Emanuila Kozačinskog”.
-  - Miloš Savković, *Jugoslovenska književnost* II (1938), preneto na http://antikvarijat.blogspot.com/2016/04/jovan-rajic.html — „Rajić je napisao i jednu istorijsku dramu (Tragedija … Uroša Pjatoga, 1798)”, prerada drame Kozačinskog izvedene u Karlovcima 1736.
+  - Miloš Savković, _Jugoslovenska književnost_ II (1938), preneto na http://antikvarijat.blogspot.com/2016/04/jovan-rajic.html — „Rajić je napisao i jednu istorijsku dramu (Tragedija … Uroša Pjatoga, 1798)”, prerada drame Kozačinskog izvedene u Karlovcima 1736.
   - Ćorović, ISN, PDF str. 381 — Kozačinski „написао и прву нашу Трагедију о смрти цара Уроша”.
 - **Presuda:** ✅ potvrđeno.
 
@@ -184,8 +184,8 @@ ZBIR (24 stavke): ✅ potvrđeno — 21 · ❌ ispraviti — 1 · ↩ vratiti �
 - **Tekst u lekciji sada:** „Rano je ostao bez roditelja i dospeo kod tetka, koji ga je dao na zanat u Temišvar,”
 - **Nalaz iz prvog prolaza:** „kuća strica” → tetak — ispravljeno.
 - **Izvori:**
-  - Dositej Obradović, *Život i priključenija* (tekst na Peščaniku) — https://pescanik.net/zivot-i-prikljucenija/ — „Moj dobri tetak to osetivši, uzjaše na konja…”; „k volji moga tetka … Ovaj dobri blagodetelj … s roditeljskom milošću”.
-  - *Danas*, „Dositej Obradović: Nauka, obrazovanje i razum ispred svega” — https://www.danas.rs/zivot/dositej-obradovic-nauka-obrazovanje-i-razum-ispred-svega/ — roditelji umrli rano, „starateljstvo preuzeli njegovi rođaci, a posebno teča”; „poslali u Temišvar, kod nekog jorgandžije, da uči zanat”.
+  - Dositej Obradović, _Život i priključenija_ (tekst na Peščaniku) — https://pescanik.net/zivot-i-prikljucenija/ — „Moj dobri tetak to osetivši, uzjaše na konja…”; „k volji moga tetka … Ovaj dobri blagodetelj … s roditeljskom milošću”.
+  - _Danas_, „Dositej Obradović: Nauka, obrazovanje i razum ispred svega” — https://www.danas.rs/zivot/dositej-obradovic-nauka-obrazovanje-i-razum-ispred-svega/ — roditelji umrli rano, „starateljstvo preuzeli njegovi rođaci, a posebno teča”; „poslali u Temišvar, kod nekog jorgandžije, da uči zanat”.
 - **Presuda:** ✅ potvrđeno.
 
 ### Day 188 — #1 — Gde su štampane knjige (ne Karlovci)
@@ -203,7 +203,7 @@ ZBIR (24 stavke): ✅ potvrđeno — 21 · ❌ ispraviti — 1 · ↩ vratiti �
 - **Tekst u lekciji sada:** „hajdučki harambaša Stanoje Glavaš u smederevskoj nahiji”
 - **Nalaz iz prvog prolaza:** „kragujevačka” → „smederevska” — ispravljeno.
 - **Izvori:**
-  - *Novosti*, „Ubijen na današnji dan: srpski junak Stanoje Glavaš” — https://nportal.novosti.rs/vest/127498/zanimljivosti/viral/stanoje-glavas-srbija-sretenje-junak — „Rođen je u selu Glibovcu, kod Smederevske Palanke”; „vojvoda u Smederevskoj nahiji”.
+  - _Novosti_, „Ubijen na današnji dan: srpski junak Stanoje Glavaš” — https://nportal.novosti.rs/vest/127498/zanimljivosti/viral/stanoje-glavas-srbija-sretenje-junak — „Rođen je u selu Glibovcu, kod Smederevske Palanke”; „vojvoda u Smederevskoj nahiji”.
   - RTS, „Smederevska nahija u Prvom srpskom ustanku” — https://www.rts.rs/lat/vesti/srbija-danas/5366904/.html?print=true — u prilogu o smederevskoj nahiji: „Stanoje Glavaš, ovde u Glibovcu, na par kilometara od grada, on je predložen za vođu ustanka.”
   - Ćorović, ISN, PDF str. 421–422 — Glavaš kao „чувени хајдучки харамбаша, познат на све стране по Шумадији” (bez nahije).
 - **Presuda:** ✅ potvrđeno (nijedan izvor ne vezuje Glavaša za kragujevačku nahiju).
@@ -214,7 +214,7 @@ ZBIR (24 stavke): ✅ potvrđeno — 21 · ❌ ispraviti — 1 · ↩ vratiti �
 - **Nalaz iz prvog prolaza:** bilo je 14/26. februar — ispravljeno.
 - **Izvori:**
   - Ćorović, ISN, PDF str. 422 — „на једном збору, држаном у Орашцу на Сретеније 1804. год.” (Sretenje je nepokretni praznik, 2. februar po julijanskom; razlika u 19. veku je 12 dana.)
-  - *Politika*, „Dan kada su Srbi krenuli u boj za slobodu” — https://www.politika.rs/sr/clanak/499547/dan-kada-su-srbi-krenuli-u-boj-za-slobodu — „Na zboru starešina u Orašcu 14. februara 1804. godine…”.
+  - _Politika_, „Dan kada su Srbi krenuli u boj za slobodu” — https://www.politika.rs/sr/clanak/499547/dan-kada-su-srbi-krenuli-u-boj-za-slobodu — „Na zboru starešina u Orašcu 14. februara 1804. godine…”.
 - **Presuda:** ✅ potvrđeno.
 
 ### Day 190 — #2 — Birčanin, knez podgorski
@@ -222,8 +222,8 @@ ZBIR (24 stavke): ✅ potvrđeno — 21 · ❌ ispraviti — 1 · ↩ vratiti �
 - **Tekst u lekciji sada:** „Aleksa Nenadović, oborknez valjevski, i Ilija Birčanin, knez podgorski,”
 - **Nalaz iz prvog prolaza:** „posavotamnavski” → „podgorski” — ispravljeno.
 - **Izvori:**
-  - Vladimir Krivošejev, *Biografski leksikon Valjevskog kraja*, preneto na Boške.rs — https://www.boske.rs/stranice/bircanin_ilija.html — „obor-knez Podgorske knežine” Valjevske nahije; rođen u Suvodanju (po Memoarima).
-  - Prota Mateja Nenadović, *Memoari*, I (Vikizvornik) — https://sr.wikisource.org/wiki/Мемоари_(Матија_Ненадовић)/I — tri kneza valjevske nahije: „мој отац Алекса, Никола Грбовић и Бирчанин Илија”; Aleksina knežina je „од Ваљева до Саве” (Posavina/Tamnava), Grbović je „преко Колубаре … љишки кнез”, a Podgorci posebna knežina — dakle Birčaninu ostaje Podgorina (posredno).
+  - Vladimir Krivošejev, _Biografski leksikon Valjevskog kraja_, preneto na Boške.rs — https://www.boske.rs/stranice/bircanin_ilija.html — „obor-knez Podgorske knežine” Valjevske nahije; rođen u Suvodanju (po Memoarima).
+  - Prota Mateja Nenadović, _Memoari_, I (Vikizvornik) — https://sr.wikisource.org/wiki/Мемоари_(Матија_Ненадовић)/I — tri kneza valjevske nahije: „мој отац Алекса, Никола Грбовић и Бирчанин Илија”; Aleksina knežina je „од Ваљева до Саве” (Posavina/Tamnava), Grbović je „преко Колубаре … љишки кнез”, a Podgorci posebna knežina — dakle Birčaninu ostaje Podgorina (posredno).
   - Ćorović, ISN, PDF str. 421 — Birčanin pogubljen sa knezom Aleksom (bez knežine).
 - **Presuda:** ✅ potvrđeno (izričito kod Krivošejeva, posredno u Memoarima; „posavotamnavska” je bila Aleksina knežina).
 
@@ -248,6 +248,5 @@ ZBIR (24 stavke): ✅ potvrđeno — 21 · ❌ ispraviti — 1 · ↩ vratiti �
 - **Nalaz iz prvog prolaza:** mir je sadržao amnestiju — ispravljeno.
 - **Izvori:**
   - Ćorović, ISN, PDF str. 404 — „Аустрија је успела само у толико што им је израдила амнестију, коју су и сами Турци осетили као потребну, да земља не би остала без радне снаге”; mir u Svištovu 4. 8. 1791.
-  - Stanoje Stanojević, *Istorija srpskoga naroda* (1910), Vikizvornik — https://sr.wikisource.org/sr-el/Историја_српскога_народа_(С._Станојевић)_10 — „Ugovorena je, istina, opšta amnestija za Srbe, ali je to za njih bila slaba uteha…”.
+  - Stanoje Stanojević, _Istorija srpskoga naroda_ (1910), Vikizvornik — https://sr.wikisource.org/sr-el/Историја_српскога_народа_(С._Станојевић)_10 — „Ugovorena je, istina, opšta amnestija za Srbe, ali je to za njih bila slaba uteha…”.
 - **Presuda:** ✅ potvrđeno.
-

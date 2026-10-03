@@ -1,10 +1,6 @@
 import { describe, expect, it } from 'vitest';
 
-import {
-  bookmarkCount,
-  bookmarkedLessonIds,
-  isBookmarked,
-} from './selectors.js';
+import { bookmarkCount, bookmarkedLessonIds, isBookmarked } from './selectors.js';
 import type { BookmarkState } from './types.js';
 
 const COURSE = 'istorija-srbije-365';
@@ -46,11 +42,7 @@ describe('bookmarkCount', () => {
 
 describe('bookmarkedLessonIds', () => {
   it('returns ids in insertion order', () => {
-    expect(bookmarkedLessonIds(stateWith(['c', 'a', 'b']), COURSE)).toEqual([
-      'c',
-      'a',
-      'b',
-    ]);
+    expect(bookmarkedLessonIds(stateWith(['c', 'a', 'b']), COURSE)).toEqual(['c', 'a', 'b']);
   });
 
   it('returns an empty array for an unknown course', () => {
@@ -63,9 +55,7 @@ describe('bookmarkedLessonIds', () => {
     // React 19. The store builds a new Set on every toggleBookmark; the
     // cache invalidates when the Set identity changes.
     const state = stateWith(['a', 'b']);
-    expect(bookmarkedLessonIds(state, COURSE)).toBe(
-      bookmarkedLessonIds(state, COURSE),
-    );
+    expect(bookmarkedLessonIds(state, COURSE)).toBe(bookmarkedLessonIds(state, COURSE));
   });
 
   it('returns a new array when the underlying Set changes', () => {

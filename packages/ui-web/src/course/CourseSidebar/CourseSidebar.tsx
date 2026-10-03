@@ -2,14 +2,7 @@
 
 import { useEffect, useRef, type ReactNode } from 'react';
 
-import type {
-  Era,
-  EraId,
-  LessonId,
-  LessonSummary,
-  Section,
-  SectionId,
-} from '@learn365/content';
+import type { Era, EraId, LessonId, LessonSummary, Section, SectionId } from '@learn365/content';
 
 import { EraGroup } from '../EraGroup/EraGroup.js';
 import { SectionAccordion } from '../SectionAccordion/SectionAccordion.js';

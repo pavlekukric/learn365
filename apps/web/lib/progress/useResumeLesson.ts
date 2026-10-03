@@ -56,9 +56,7 @@ export function useResumeLesson(courseId: CourseId): ResumeState {
     const lessons = getLessons(courseId);
     const completed = completedSet?.size ?? 0;
     const hasStarted = completed > 0;
-    const lesson = hasStarted
-      ? findResumeLesson(lessons, completedSet)
-      : (lessons[0] ?? null);
+    const lesson = hasStarted ? findResumeLesson(lessons, completedSet) : (lessons[0] ?? null);
     const journeyDay = hasStarted ? (lesson?.dayNumber ?? lessons.length) : null;
     return { completed, total: lessons.length, hasStarted, lesson, journeyDay };
   }, [courseId, completedSet]);

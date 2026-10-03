@@ -27,7 +27,7 @@ Declined by the owner (2026-10-01), kept for the record: rotating the Google cli
 
 - **Editorial (biggest remaining lever, review 2026-10-03 P3 20):** coverage by swapping lessons (Tesla, Pupin, Milanković, Nevesinje, Gazimestan; Vuk and Njegoš own lessons; women after 1400; Day 360 is a weak catalogue, 105 / 194–195 overlap), and the one-template voice (one H2 per lesson, „Kada…” openings, primary-source quotes). Claude can draft lesson by lesson; the owner decides.
 - **A named reviewer** — then `byline.reviewer` + `lastReviewedAt` per lesson (the loader already enforces the pair).
-- **Engineering left (small):** Serbian route segments with 308 redirects (`lessonHref()` is in place); per-era share cards; sync ordering across devices (per-id timestamps); session hygiene (end old sessions on re-login, absolute lifetime, "sign out everywhere"); the desktop hero's empty right half; one Prettier format commit + `format:check` in CI; Phase 8b native mobile (plan-before-code).
+- **Engineering left (small):** Serbian route segments with 308 redirects (`lessonHref()` is in place); per-era share cards; sync ordering across devices (per-id timestamps); session hygiene (end old sessions on re-login, absolute lifetime, "sign out everywhere"); the desktop hero's empty right half; Phase 8b native mobile (plan-before-code).
 
 ## How to plan the next phase
 

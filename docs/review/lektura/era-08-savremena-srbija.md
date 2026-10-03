@@ -1,6 +1,7 @@
 # Proofreading report: savremena-srbija (days 341–365)
 
 ## Counts
+
 - Lessons read: 25 (341–365, every text block in full)
 - Lessons changed: 23 (no changes: 353, 357)
 - Total edits: 74. Grammar: 52. Orthography: 22. House style: 0. De-tick: 0.
@@ -11,84 +12,86 @@
 - Note for 348: I transcribed Jashari, Holbrooke and William Walker in the body (Jašari, Ričard Holbruk, Vilijam Voker) to match 347 ("Ričard Holbruk"). I left `keyPeople` in their original spelling because that field is outside the brief.
 
 ## Edits
-| Day | Cat. | Before → After |
-|---|---|---|
-| 341 | grammar | „Spoljnotrgovinski dug naraslo je” → „Spoljnotrgovinski dug narastao je” |
-| 341 | grammar | „Tek svi zajedno objašnjavaju” → „Tek sve zajedno objašnjavaju” |
-| 341 | grammar | „učinili da jugoslovenski sistem više nije imao ni hladnoratovsku” → „učinili da jugoslovenski sistem više nema ni hladnoratovsku” |
-| 341 | grammar | „da takozvana teza o „drevnim mržnjama”, koja kaže da su narodi Jugoslavije oduvek bili u sukobu, među istoričarima je uglavnom odbačena” → „da je takozvana teza o „drevnim mržnjama”, koja kaže da su narodi Jugoslavije oduvek bili u sukobu, među istoričarima uglavnom odbačena” |
-| 342 | grammar | „Dok je u Hrvatskoj pucao samo predah” → „Dok je u Hrvatskoj nastupio tek predah” |
-| 342 | orthography | „počela je 5. aprila, i trajaće” → „počela je 5. aprila i trajaće” |
-| 342 | grammar | „ali je, prema nalazima Haškog tribunala, najveći obim” → „ali su, prema nalazima Haškog tribunala, najveći obim” |
-| 342 | grammar | „odlukama učinjenim tih meseci” → „odlukama donetim tih meseci” |
-| 343 | orthography | „pretežno fakultetski obrazovani, ljudi u dvadesetim” → „pretežno fakultetski obrazovani ljudi u dvadesetim” |
-| 343 | grammar | „parče papira koji do kraja meseca nije vredeo ni hleba” → „parče papira koje do kraja meseca nije vredelo ni hleba” |
-| 344 | orthography | „a Nemačka marka u stvarnu valutu” → „a nemačka marka u stvarnu valutu” |
-| 344 | grammar | „Kada je 1992. uvedena Savezna Republika Jugoslavija” → „Kada je 1992. proglašena Savezna Republika Jugoslavija” |
-| 344 | grammar | „isplaćivale su se u kešu” → „isplaćivale su se u gotovini” |
-| 344 | orthography | „i, na kratko, status” → „i, nakratko, status” |
-| 345 | grammar | „deo onog stanovništva koji je državi bio najpotrebniji” → „deo onog stanovništva koje je državi bilo najpotrebnije” |
-| 345 | grammar | „„pristojne” merilo ponašanja” → „„pristojne” merila ponašanja” |
-| 345 | grammar | „fenomen kome su se obraćali mnogi obični ljudi” → „fenomen kome su se okretali mnogi obični ljudi” |
-| 345 | grammar | „kolone studenata uz koalicioni saziv „Zajedno”” → „kolone studenata uz koaliciju „Zajedno”” |
-| 345 | grammar | „u zemlji koja je sportom igrala pred praznim tribinama zbog sankcija” → „u zemlji čiji su sportisti zbog sankcija igrali pred praznim tribinama” |
-| 346 | grammar | „crnogorski pandan SPS-a” → „crnogorski pandan SPS-u” |
-| 346 | grammar | „interes Podgorice za posebnošću” → „interes Podgorice za posebnost” |
-| 347 | grammar | „i Republiku Srpsku sa oko četrdeset devet posto, srpskim entitetom” → „i Republiku Srpsku, srpski entitet, sa oko četrdeset devet posto” |
-| 348 | grammar | „desetine hiljada automatskih pušaka i drugog naoružanja preliveni su preko granice” → „desetine hiljada automatskih pušaka i drugog naoružanja prebačene su preko granice” |
-| 348 | orthography | „porodično imanje Jasharijevih” → „porodično imanje Jašarijevih” |
-| 348 | orthography | „Adem Jashari, jedan od osnivača” → „Adem Jašari, jedan od osnivača” |
-| 348 | orthography | „američki diplomata Richard Holbrooke u Beogradu” → „američki diplomata Ričard Holbruk u Beogradu” |
-| 348 | orthography | „američki ambasador William Walker, pred kamerama” → „američki ambasador Vilijam Voker, pred kamerama” |
-| 348 | grammar | „Mirovni hod, međutim, držao se” → „Mirovni proces, međutim, držao se” |
-| 349 | grammar | „Ljudska prava istraživačke organizacije, pre svega Human Rights Watch, dokumentovala su” → „Organizacije za ljudska prava, pre svega Human Rights Watch, dokumentovale su” |
-| 349 | grammar | „kolona ljudi koje su preživele Aleksinac” → „kolona ljudi koji su preživeli Aleksinac” |
-| 350 | grammar | „Operativni štab, kojim je najvećim delom vodio Zoran Đinđić” → „Operativni štab, koji je najvećim delom vodio Zoran Đinđić” |
-| 350 | grammar | „i točkaš Ljubisav Đokić” → „i rukovalac Ljubisav Đokić” |
-| 350 | grammar | „Zato Petooktobarske promene najtačnije nije gledati kao kraj jednog vremena” → „Zato je Petooktobarske promene najtačnije gledati ne kao kraj jednog vremena” |
-| 351 | grammar | „sedeo nov savezni predsednik” → „sedeo novi savezni predsednik” |
-| 351 | grammar | „dobila je u decembarskim izborima” → „dobila je na decembarskim izborima” |
-| 351 | grammar | „savez sa dva polariteta” → „savez sa dva pola” |
-| 351 | orthography | „u kojem je savezni ustavni sud privremeno” → „u kojem je Savezni ustavni sud privremeno” |
-| 351 | orthography | „grupe poput zemunskog klana” → „grupe poput Zemunskog klana” |
-| 351 | grammar | „na granici legalnosti i ilegale” → „na granici legalnosti i ilegalnosti” |
-| 351 | grammar | „gde svršava reforma a gde počinje” → „gde se završava reforma, a gde počinje” |
-| 352 | grammar | „ali su kasnije iz nje izvedene i kritike” → „ali su kasnije na nju upućene i kritike” |
-| 352 | grammar | „svoj rad nisu privele jasnom kraju” → „svoj rad nije privelo jasnom kraju” |
-| 352 | orthography | „ko je sve od njega imao koristi, ostaju otvorena” → „ko je sve od njega imao koristi ostaju otvorena” |
-| 352 | grammar | „koju je morala da platiti” → „koju je morala da plati” |
-| 352 | grammar | „izvršio najteže odluke” → „doneo najteže odluke” |
-| 352 | orthography | „na auto-putu kod” → „na autoputu kod” |
-| 354 | orthography | „međunarodno-pravnim subjektivitetom” → „međunarodnopravnim subjektivitetom” |
-| 354 | orthography | „Iza pro-nezavisnog bloka” → „Iza pronezavisnog bloka” |
-| 354 | orthography | „kao i pro-nezavisnih Srba” → „kao i pronezavisnih Srba” |
-| 355 | grammar | „Kada je u junu 1999. godine, posle jedanaest nedelja NATO bombardovanja, jugoslovenska vojska i policija povukla iz Kosova” → „Kada se u junu 1999. godine, posle jedanaest nedelja NATO bombardovanja, jugoslovenska vojska i policija povukla sa Kosova” |
-| 355 | grammar | „Pod posredstvom Evropske unije” → „Uz posredovanje Evropske unije” |
-| 355 | grammar | „na drugoj fazi dijaloga” → „u drugoj fazi dijaloga” |
-| 355 | grammar | „tek moraju da odrešuju” → „tek moraju da odreše” |
-| 356 | grammar | „sa Moskvom, čije je oslanjanje na ruski gas” → „sa Moskvom, a oslanjanje na ruski gas” |
-| 356 | orthography | „carini, energetici i zajednici srpskih opština” → „carini, energetici i Zajednici srpskih opština” |
-| 358 | grammar | „banke u kojima građani nisu verovali svojoj uštedi” → „banke kojima građani nisu poveravali svoju ušteđevinu” |
-| 358 | grammar | „po pravilima koje nameće” → „po pravilima koja nameće” |
-| 358 | orthography | „manja nego u jugoslovensko doba ali tehnološki” → „manja nego u jugoslovensko doba, ali tehnološki” |
-| 358 | grammar | „Najupadljiviji nov sektor” → „Najupadljiviji novi sektor” |
-| 358 | orthography | „fabrika auto-delova” → „fabrika autodelova” |
-| 359 | orthography | „Bosne i Hercegovine; proglašena 1992” → „Bosne i Hercegovine, proglašena 1992” |
-| 359 | orthography | „posle Oluje i ratnih iseljavanja” → „posle „Oluje” i ratnih iseljavanja” |
-| 360 | orthography | „niz Grend slem titula” → „niz grend slem titula” |
-| 360 | grammar | „jeste da je kultura i nauka savremene Srbije scena vredna i živa — ali da svoju vitalnost duguje” → „jeste da su kultura i nauka savremene Srbije scena vredna i živa — ali da svoju vitalnost duguju” |
-| 361 | grammar | „za njihovu prisutnost” → „za njihovo prisustvo” |
-| 362 | grammar | „nosi i prirodna oznaka, cvet Ramonde nathaliae” → „nosi i znak — cvet Natalijine ramonde” |
-| 362 | grammar | „šta se ističe a šta samo pomene” → „šta se ističe, a šta samo pominje” |
-| 363 | orthography | „spalili moći svetiteljevog tela” → „spalili mošti svetiteljevog tela” |
-| 363 | grammar | „bavi se upravo tom prepiskom” → „bavi se upravo tim preplitanjem” |
-| 364 | grammar | „oni koji su ni za šta nesigurni, a o svemu sigurni” → „oni koji ni u šta ne sumnjaju, a o svemu su sigurni” |
-| 365 | grammar | „Srbije koja se još uvek definiše, kao i njeno mesto u svetu” → „Srbije koja još uvek određuje sebe i svoje mesto u svetu” |
-| 365 | grammar | „Najčešće se zloupotrebi tako” → „Najčešće se zloupotrebljava tako” |
-| 365 | grammar | „teže nasedne na nove” → „teže naseda na nove” |
-| 365 | grammar | „kako tu istoriju korisno koristiti dalje” → „kako se tom istorijom služiti dalje” |
+
+| Day | Cat.        | Before → After                                                                                                                                                                                                                                                                        |
+| --- | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 341 | grammar     | „Spoljnotrgovinski dug naraslo je” → „Spoljnotrgovinski dug narastao je”                                                                                                                                                                                                              |
+| 341 | grammar     | „Tek svi zajedno objašnjavaju” → „Tek sve zajedno objašnjavaju”                                                                                                                                                                                                                       |
+| 341 | grammar     | „učinili da jugoslovenski sistem više nije imao ni hladnoratovsku” → „učinili da jugoslovenski sistem više nema ni hladnoratovsku”                                                                                                                                                    |
+| 341 | grammar     | „da takozvana teza o „drevnim mržnjama”, koja kaže da su narodi Jugoslavije oduvek bili u sukobu, među istoričarima je uglavnom odbačena” → „da je takozvana teza o „drevnim mržnjama”, koja kaže da su narodi Jugoslavije oduvek bili u sukobu, među istoričarima uglavnom odbačena” |
+| 342 | grammar     | „Dok je u Hrvatskoj pucao samo predah” → „Dok je u Hrvatskoj nastupio tek predah”                                                                                                                                                                                                     |
+| 342 | orthography | „počela je 5. aprila, i trajaće” → „počela je 5. aprila i trajaće”                                                                                                                                                                                                                    |
+| 342 | grammar     | „ali je, prema nalazima Haškog tribunala, najveći obim” → „ali su, prema nalazima Haškog tribunala, najveći obim”                                                                                                                                                                     |
+| 342 | grammar     | „odlukama učinjenim tih meseci” → „odlukama donetim tih meseci”                                                                                                                                                                                                                       |
+| 343 | orthography | „pretežno fakultetski obrazovani, ljudi u dvadesetim” → „pretežno fakultetski obrazovani ljudi u dvadesetim”                                                                                                                                                                          |
+| 343 | grammar     | „parče papira koji do kraja meseca nije vredeo ni hleba” → „parče papira koje do kraja meseca nije vredelo ni hleba”                                                                                                                                                                  |
+| 344 | orthography | „a Nemačka marka u stvarnu valutu” → „a nemačka marka u stvarnu valutu”                                                                                                                                                                                                               |
+| 344 | grammar     | „Kada je 1992. uvedena Savezna Republika Jugoslavija” → „Kada je 1992. proglašena Savezna Republika Jugoslavija”                                                                                                                                                                      |
+| 344 | grammar     | „isplaćivale su se u kešu” → „isplaćivale su se u gotovini”                                                                                                                                                                                                                           |
+| 344 | orthography | „i, na kratko, status” → „i, nakratko, status”                                                                                                                                                                                                                                        |
+| 345 | grammar     | „deo onog stanovništva koji je državi bio najpotrebniji” → „deo onog stanovništva koje je državi bilo najpotrebnije”                                                                                                                                                                  |
+| 345 | grammar     | „„pristojne” merilo ponašanja” → „„pristojne” merila ponašanja”                                                                                                                                                                                                                       |
+| 345 | grammar     | „fenomen kome su se obraćali mnogi obični ljudi” → „fenomen kome su se okretali mnogi obični ljudi”                                                                                                                                                                                   |
+| 345 | grammar     | „kolone studenata uz koalicioni saziv „Zajedno”” → „kolone studenata uz koaliciju „Zajedno””                                                                                                                                                                                          |
+| 345 | grammar     | „u zemlji koja je sportom igrala pred praznim tribinama zbog sankcija” → „u zemlji čiji su sportisti zbog sankcija igrali pred praznim tribinama”                                                                                                                                     |
+| 346 | grammar     | „crnogorski pandan SPS-a” → „crnogorski pandan SPS-u”                                                                                                                                                                                                                                 |
+| 346 | grammar     | „interes Podgorice za posebnošću” → „interes Podgorice za posebnost”                                                                                                                                                                                                                  |
+| 347 | grammar     | „i Republiku Srpsku sa oko četrdeset devet posto, srpskim entitetom” → „i Republiku Srpsku, srpski entitet, sa oko četrdeset devet posto”                                                                                                                                             |
+| 348 | grammar     | „desetine hiljada automatskih pušaka i drugog naoružanja preliveni su preko granice” → „desetine hiljada automatskih pušaka i drugog naoružanja prebačene su preko granice”                                                                                                           |
+| 348 | orthography | „porodično imanje Jasharijevih” → „porodično imanje Jašarijevih”                                                                                                                                                                                                                      |
+| 348 | orthography | „Adem Jashari, jedan od osnivača” → „Adem Jašari, jedan od osnivača”                                                                                                                                                                                                                  |
+| 348 | orthography | „američki diplomata Richard Holbrooke u Beogradu” → „američki diplomata Ričard Holbruk u Beogradu”                                                                                                                                                                                    |
+| 348 | orthography | „američki ambasador William Walker, pred kamerama” → „američki ambasador Vilijam Voker, pred kamerama”                                                                                                                                                                                |
+| 348 | grammar     | „Mirovni hod, međutim, držao se” → „Mirovni proces, međutim, držao se”                                                                                                                                                                                                                |
+| 349 | grammar     | „Ljudska prava istraživačke organizacije, pre svega Human Rights Watch, dokumentovala su” → „Organizacije za ljudska prava, pre svega Human Rights Watch, dokumentovale su”                                                                                                           |
+| 349 | grammar     | „kolona ljudi koje su preživele Aleksinac” → „kolona ljudi koji su preživeli Aleksinac”                                                                                                                                                                                               |
+| 350 | grammar     | „Operativni štab, kojim je najvećim delom vodio Zoran Đinđić” → „Operativni štab, koji je najvećim delom vodio Zoran Đinđić”                                                                                                                                                          |
+| 350 | grammar     | „i točkaš Ljubisav Đokić” → „i rukovalac Ljubisav Đokić”                                                                                                                                                                                                                              |
+| 350 | grammar     | „Zato Petooktobarske promene najtačnije nije gledati kao kraj jednog vremena” → „Zato je Petooktobarske promene najtačnije gledati ne kao kraj jednog vremena”                                                                                                                        |
+| 351 | grammar     | „sedeo nov savezni predsednik” → „sedeo novi savezni predsednik”                                                                                                                                                                                                                      |
+| 351 | grammar     | „dobila je u decembarskim izborima” → „dobila je na decembarskim izborima”                                                                                                                                                                                                            |
+| 351 | grammar     | „savez sa dva polariteta” → „savez sa dva pola”                                                                                                                                                                                                                                       |
+| 351 | orthography | „u kojem je savezni ustavni sud privremeno” → „u kojem je Savezni ustavni sud privremeno”                                                                                                                                                                                             |
+| 351 | orthography | „grupe poput zemunskog klana” → „grupe poput Zemunskog klana”                                                                                                                                                                                                                         |
+| 351 | grammar     | „na granici legalnosti i ilegale” → „na granici legalnosti i ilegalnosti”                                                                                                                                                                                                             |
+| 351 | grammar     | „gde svršava reforma a gde počinje” → „gde se završava reforma, a gde počinje”                                                                                                                                                                                                        |
+| 352 | grammar     | „ali su kasnije iz nje izvedene i kritike” → „ali su kasnije na nju upućene i kritike”                                                                                                                                                                                                |
+| 352 | grammar     | „svoj rad nisu privele jasnom kraju” → „svoj rad nije privelo jasnom kraju”                                                                                                                                                                                                           |
+| 352 | orthography | „ko je sve od njega imao koristi, ostaju otvorena” → „ko je sve od njega imao koristi ostaju otvorena”                                                                                                                                                                                |
+| 352 | grammar     | „koju je morala da platiti” → „koju je morala da plati”                                                                                                                                                                                                                               |
+| 352 | grammar     | „izvršio najteže odluke” → „doneo najteže odluke”                                                                                                                                                                                                                                     |
+| 352 | orthography | „na auto-putu kod” → „na autoputu kod”                                                                                                                                                                                                                                                |
+| 354 | orthography | „međunarodno-pravnim subjektivitetom” → „međunarodnopravnim subjektivitetom”                                                                                                                                                                                                          |
+| 354 | orthography | „Iza pro-nezavisnog bloka” → „Iza pronezavisnog bloka”                                                                                                                                                                                                                                |
+| 354 | orthography | „kao i pro-nezavisnih Srba” → „kao i pronezavisnih Srba”                                                                                                                                                                                                                              |
+| 355 | grammar     | „Kada je u junu 1999. godine, posle jedanaest nedelja NATO bombardovanja, jugoslovenska vojska i policija povukla iz Kosova” → „Kada se u junu 1999. godine, posle jedanaest nedelja NATO bombardovanja, jugoslovenska vojska i policija povukla sa Kosova”                           |
+| 355 | grammar     | „Pod posredstvom Evropske unije” → „Uz posredovanje Evropske unije”                                                                                                                                                                                                                   |
+| 355 | grammar     | „na drugoj fazi dijaloga” → „u drugoj fazi dijaloga”                                                                                                                                                                                                                                  |
+| 355 | grammar     | „tek moraju da odrešuju” → „tek moraju da odreše”                                                                                                                                                                                                                                     |
+| 356 | grammar     | „sa Moskvom, čije je oslanjanje na ruski gas” → „sa Moskvom, a oslanjanje na ruski gas”                                                                                                                                                                                               |
+| 356 | orthography | „carini, energetici i zajednici srpskih opština” → „carini, energetici i Zajednici srpskih opština”                                                                                                                                                                                   |
+| 358 | grammar     | „banke u kojima građani nisu verovali svojoj uštedi” → „banke kojima građani nisu poveravali svoju ušteđevinu”                                                                                                                                                                        |
+| 358 | grammar     | „po pravilima koje nameće” → „po pravilima koja nameće”                                                                                                                                                                                                                               |
+| 358 | orthography | „manja nego u jugoslovensko doba ali tehnološki” → „manja nego u jugoslovensko doba, ali tehnološki”                                                                                                                                                                                  |
+| 358 | grammar     | „Najupadljiviji nov sektor” → „Najupadljiviji novi sektor”                                                                                                                                                                                                                            |
+| 358 | orthography | „fabrika auto-delova” → „fabrika autodelova”                                                                                                                                                                                                                                          |
+| 359 | orthography | „Bosne i Hercegovine; proglašena 1992” → „Bosne i Hercegovine, proglašena 1992”                                                                                                                                                                                                       |
+| 359 | orthography | „posle Oluje i ratnih iseljavanja” → „posle „Oluje” i ratnih iseljavanja”                                                                                                                                                                                                             |
+| 360 | orthography | „niz Grend slem titula” → „niz grend slem titula”                                                                                                                                                                                                                                     |
+| 360 | grammar     | „jeste da je kultura i nauka savremene Srbije scena vredna i živa — ali da svoju vitalnost duguje” → „jeste da su kultura i nauka savremene Srbije scena vredna i živa — ali da svoju vitalnost duguju”                                                                               |
+| 361 | grammar     | „za njihovu prisutnost” → „za njihovo prisustvo”                                                                                                                                                                                                                                      |
+| 362 | grammar     | „nosi i prirodna oznaka, cvet Ramonde nathaliae” → „nosi i znak — cvet Natalijine ramonde”                                                                                                                                                                                            |
+| 362 | grammar     | „šta se ističe a šta samo pomene” → „šta se ističe, a šta samo pominje”                                                                                                                                                                                                               |
+| 363 | orthography | „spalili moći svetiteljevog tela” → „spalili mošti svetiteljevog tela”                                                                                                                                                                                                                |
+| 363 | grammar     | „bavi se upravo tom prepiskom” → „bavi se upravo tim preplitanjem”                                                                                                                                                                                                                    |
+| 364 | grammar     | „oni koji su ni za šta nesigurni, a o svemu sigurni” → „oni koji ni u šta ne sumnjaju, a o svemu su sigurni”                                                                                                                                                                          |
+| 365 | grammar     | „Srbije koja se još uvek definiše, kao i njeno mesto u svetu” → „Srbije koja još uvek određuje sebe i svoje mesto u svetu”                                                                                                                                                            |
+| 365 | grammar     | „Najčešće se zloupotrebi tako” → „Najčešće se zloupotrebljava tako”                                                                                                                                                                                                                   |
+| 365 | grammar     | „teže nasedne na nove” → „teže naseda na nove”                                                                                                                                                                                                                                        |
+| 365 | grammar     | „kako tu istoriju korisno koristiti dalje” → „kako se tom istorijom služiti dalje”                                                                                                                                                                                                    |
 
 ## Suspected facts (not changed)
+
 - **342**: „jugoslovenska država je 25. juna 1991. godine ušla u rat”. 25 June is the date of the declarations of independence. Fighting began on 26–27 June (the next paragraph itself says 27 June).
 - **346**: „Krnja Jugoslavija je tako, kao i mnogo veća zajednica iz koje je nastala, otišla u istoriju mirnim putem”. The SFRJ did not end peacefully, so this probably should be „za razliku od”.
 - **355**: „Statusni razgovori počeli su 2005”. Ahtisaari was appointed in November 2005, but the talks themselves began in February 2006 (Vienna).
@@ -98,6 +101,7 @@
 - **361**: The events of June–October 2026 (indictment confirmed, elections called for 25 October) cannot be checked against sources and are time-sensitive. The text will need updating after the elections.
 
 ## Lessons that read weak
+
 - 345: the closing paragraph is loose („Javno mnjenje bilo je rascepljeno… obe zajednice”). The point about two societies is good, but the sentences are long.
 - 346, 343, 351 and 355 overlap heavily on the same facts (sanctions suspended and then lifted, the 1996/97 protests, Milošević's arrest and extradition), which reads repetitive within the era.
 - 362: „Pored države i javnih ustanova, sećanje nose još dva važna toka… Ta tri toka” is a slightly confusing count.

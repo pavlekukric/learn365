@@ -95,9 +95,7 @@ export function createBookmarkStore(
           replacer: (_key, value) =>
             value instanceof Set ? Array.from(value as Set<LessonId>) : value,
           reviver: (key, value) =>
-            key === 'lessonIds' && Array.isArray(value)
-              ? new Set(value as LessonId[])
-              : value,
+            key === 'lessonIds' && Array.isArray(value) ? new Set(value as LessonId[]) : value,
         }),
         partialize: (state) => ({ byCourse: state.byCourse }),
         migrate: (persistedState, _version) => persistedState as BookmarkStoreState,

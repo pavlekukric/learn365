@@ -11,7 +11,12 @@
   "dateLabel": "1903–1912.",
   "timelinePosition": "1903–1912.",
   "summary": "Srbija od Majskog prevrata do 1912: grad koji raste, novine i kafane koje stvaraju javnost, prvi automobili i aeroplani i provincija koja se modernizuje.",
-  "keyPeople": ["Jovan Skerlić", "Bogdan Popović", "kralj Petar I Karađorđević", "Đorđe Kovaljevski"],
+  "keyPeople": [
+    "Jovan Skerlić",
+    "Bogdan Popović",
+    "kralj Petar I Karađorđević",
+    "Đorđe Kovaljevski"
+  ],
   "keyPlaces": ["Beograd", "Niš", "Kragujevac", "Užice", "Šabac", "Smederevo"],
   "content": [
     {

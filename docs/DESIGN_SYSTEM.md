@@ -26,7 +26,7 @@ The design system extracted from Cloud Design V1 (`design/cloud-design-v1/`) and
 - Evergreen accent (low-chroma green).
 - Hairline rules; ornamental flourish dividers; dropcap on first paragraph.
 
-### Modern *(future / dev only)*
+### Modern _(future / dev only)_
 
 - Higher-contrast off-white background.
 - Sans-serif headings (Inter weights).
@@ -42,21 +42,21 @@ Switching mechanism (kept from the prototype): `data-direction` attribute on `<h
 
 OKLCH-authored. Each token name maps 1:1 to a CSS variable.
 
-| Token | Editorial | Purpose |
-|---|---|---|
-| `bg` | `oklch(0.962 0.012 85)` | Page background — warm cream |
-| `surface` | `oklch(0.985 0.008 85)` | Cards, raised surfaces |
-| `surface2` | `oklch(0.945 0.014 82)` | Alternate rows, hover wash |
-| `ink` | `oklch(0.22 0.012 60)` | Primary text |
-| `ink2` | `oklch(0.36 0.012 60)` | Secondary text |
-| `muted` | `oklch(0.52 0.010 60)` | Meta / nav / muted labels |
-| `faint` | `oklch(0.68 0.010 60)` | Tertiary / placeholder |
-| `rule` | `oklch(0.86 0.014 78)` | Hairlines |
-| `rule2` | `oklch(0.78 0.018 78)` | Heavier dividers, ghost button border |
-| `accent` | `oklch(0.36 0.060 155)` | Evergreen accent |
-| `accentInk` | `oklch(0.24 0.050 155)` | Active text on accent surfaces |
-| `accentSoft` | `oklch(0.88 0.030 155)` | Soft accent tint |
-| `completed` | `oklch(0.46 0.085 150)` | Completion check fill |
+| Token        | Editorial               | Purpose                               |
+| ------------ | ----------------------- | ------------------------------------- |
+| `bg`         | `oklch(0.962 0.012 85)` | Page background — warm cream          |
+| `surface`    | `oklch(0.985 0.008 85)` | Cards, raised surfaces                |
+| `surface2`   | `oklch(0.945 0.014 82)` | Alternate rows, hover wash            |
+| `ink`        | `oklch(0.22 0.012 60)`  | Primary text                          |
+| `ink2`       | `oklch(0.36 0.012 60)`  | Secondary text                        |
+| `muted`      | `oklch(0.52 0.010 60)`  | Meta / nav / muted labels             |
+| `faint`      | `oklch(0.68 0.010 60)`  | Tertiary / placeholder                |
+| `rule`       | `oklch(0.86 0.014 78)`  | Hairlines                             |
+| `rule2`      | `oklch(0.78 0.018 78)`  | Heavier dividers, ghost button border |
+| `accent`     | `oklch(0.36 0.060 155)` | Evergreen accent                      |
+| `accentInk`  | `oklch(0.24 0.050 155)` | Active text on accent surfaces        |
+| `accentSoft` | `oklch(0.88 0.030 155)` | Soft accent tint                      |
+| `completed`  | `oklch(0.46 0.085 150)` | Completion check fill                 |
 
 ### sRGB fallbacks
 
@@ -82,24 +82,25 @@ A `@supports not (color: oklch(0 0 0))` block ships sRGB equivalents for `bg`, `
 
 ### Scale
 
-| Token | Font | Size | Line height | Letter spacing | Weight | Use |
-|---|---|---|---|---|---|---|
-| `display` | serif | clamp(56, 7.2vw, 104) px | 1.04 | -0.015em | 400 | Home hero |
-| `h1` | serif | 48 px | 1.08 | -0.018em | 400 | Course overview heading |
-| `readerTitle` | serif | 44 px | 1.08 | -0.018em | 400 | Lesson title |
-| `h2` | serif | 32 px | 1.15 | -0.012em | 400 | Section headings |
-| `readerH2` | serif | 26 px | 1.25 | -0.008em | 500 | Inline lesson headings |
-| `h3` | serif | 22 px | 1.25 | -0.008em | 500 | Card titles |
-| `lede` | serif | 20 px | 1.55 | — | 300 | Subtitles, leading copy |
-| `body` | serif | 18 px | 1.72 | — | 400 | Lesson paragraphs |
-| `small` | serif | 13 px | 1.5 | — | 400 | Descriptions |
-| `tiny` | sans | 11.5 px | 1.4 | 0.02em | 400 | Meta lines |
-| `eyebrow` | sans | 11 px | 1.2 | 0.14em, uppercase | 500 | Section labels |
-| `mono` | mono | 10.5–12 px | 1.3 | 0.06–0.10em | 400/500 | Counters, day numbers, year stamps |
+| Token         | Font  | Size                     | Line height | Letter spacing    | Weight  | Use                                |
+| ------------- | ----- | ------------------------ | ----------- | ----------------- | ------- | ---------------------------------- |
+| `display`     | serif | clamp(56, 7.2vw, 104) px | 1.04        | -0.015em          | 400     | Home hero                          |
+| `h1`          | serif | 48 px                    | 1.08        | -0.018em          | 400     | Course overview heading            |
+| `readerTitle` | serif | 44 px                    | 1.08        | -0.018em          | 400     | Lesson title                       |
+| `h2`          | serif | 32 px                    | 1.15        | -0.012em          | 400     | Section headings                   |
+| `readerH2`    | serif | 26 px                    | 1.25        | -0.008em          | 500     | Inline lesson headings             |
+| `h3`          | serif | 22 px                    | 1.25        | -0.008em          | 500     | Card titles                        |
+| `lede`        | serif | 20 px                    | 1.55        | —                 | 300     | Subtitles, leading copy            |
+| `body`        | serif | 18 px                    | 1.72        | —                 | 400     | Lesson paragraphs                  |
+| `small`       | serif | 13 px                    | 1.5         | —                 | 400     | Descriptions                       |
+| `tiny`        | sans  | 11.5 px                  | 1.4         | 0.02em            | 400     | Meta lines                         |
+| `eyebrow`     | sans  | 11 px                    | 1.2         | 0.14em, uppercase | 500     | Section labels                     |
+| `mono`        | mono  | 10.5–12 px               | 1.3         | 0.06–0.10em       | 400/500 | Counters, day numbers, year stamps |
 
 ### Mobile overrides
 
 Below 860px:
+
 - `readerTitle` → 30 px
 - `body` → 17 px
 - `display` keeps the `clamp` lower bound
@@ -120,57 +121,57 @@ Every counter (`x / 365`, day numbers, percentages) renders with `font-variant-n
 
 8-px base grid, with 4-px refinements where the prototype demands them.
 
-| Token | Value |
-|---|---|
-| `space.0` | 0 |
-| `space.1` | 4 px |
-| `space.2` | 8 px |
-| `space.3` | 12 px |
-| `space.4` | 16 px |
-| `space.5` | 20 px |
-| `space.6` | 24 px |
-| `space.7` | 28 px |
-| `space.8` | 32 px |
-| `space.9` | 40 px |
-| `space.10` | 48 px |
-| `space.11` | 56 px |
-| `space.12` | 64 px |
-| `space.13` | 80 px |
-| `space.14` | 96 px |
+| Token      | Value  |
+| ---------- | ------ |
+| `space.0`  | 0      |
+| `space.1`  | 4 px   |
+| `space.2`  | 8 px   |
+| `space.3`  | 12 px  |
+| `space.4`  | 16 px  |
+| `space.5`  | 20 px  |
+| `space.6`  | 24 px  |
+| `space.7`  | 28 px  |
+| `space.8`  | 32 px  |
+| `space.9`  | 40 px  |
+| `space.10` | 48 px  |
+| `space.11` | 56 px  |
+| `space.12` | 64 px  |
+| `space.13` | 80 px  |
+| `space.14` | 96 px  |
 | `space.15` | 120 px |
 
 Semantic aliases:
 
-| Token | Value |
-|---|---|
-| `readingColMax` | 660 px |
-| `shellMax` | 1440 px |
-| `sidebarWidth` | 320 px |
-| `topbarHeight` | 64 px |
+| Token           | Value   |
+| --------------- | ------- |
+| `readingColMax` | 660 px  |
+| `shellMax`      | 1440 px |
+| `sidebarWidth`  | 320 px  |
+| `topbarHeight`  | 64 px   |
 
 ---
 
 ## 6. Radii
 
-| Token | Value |
-|---|---|
-| `radii.sm` | 4 px |
-| `radii.md` | 6 px |
-| `radii.lg` | 10 px |
-| `radii.xl` | 16 px |
+| Token        | Value  |
+| ------------ | ------ |
+| `radii.sm`   | 4 px   |
+| `radii.md`   | 6 px   |
+| `radii.lg`   | 10 px  |
+| `radii.xl`   | 16 px  |
 | `radii.pill` | 999 px |
 
 ---
 
 ## 7. Motion
 
-| Token | Value | Use |
-|---|---|---|
-| `easing.editorial` | `cubic-bezier(.2, .7, .2, 1)` | All transitions |
-| `duration.fast` | 120 ms | Hover state changes |
-| `duration.base` | 150 ms | Default UI transitions |
-| `duration.medium` | 350 ms | Progress bar / ring fills, timeline marker |
-| `duration.slow` | 400 ms | Drawer slide-in |
+| Token              | Value                         | Use                                        |
+| ------------------ | ----------------------------- | ------------------------------------------ |
+| `easing.editorial` | `cubic-bezier(.2, .7, .2, 1)` | All transitions                            |
+| `duration.fast`    | 120 ms                        | Hover state changes                        |
+| `duration.base`    | 150 ms                        | Default UI transitions                     |
+| `duration.medium`  | 350 ms                        | Progress bar / ring fills, timeline marker |
+| `duration.slow`    | 400 ms                        | Drawer slide-in                            |
 
 ### Reduced motion
 
@@ -178,7 +179,9 @@ Global rule (kept from prototype):
 
 ```css
 @media (prefers-reduced-motion: reduce) {
-  *, *::before, *::after {
+  *,
+  *::before,
+  *::after {
     animation-duration: 0.01ms !important;
     transition-duration: 0.01ms !important;
   }
@@ -191,12 +194,12 @@ The timeline marker, drawer, and progress bar all degrade to instant changes whe
 
 ## 8. Elevation
 
-| Token | Value | Use |
-|---|---|---|
-| `elevation.none` | none | Default |
-| `elevation.card` | `0 1px 0 0 var(--rule)` (essentially a hairline) | Standard card |
-| `elevation.floating` | `0 16px 40px -20px rgba(40, 30, 10, 0.25)` | Home floating "current lesson" card |
-| `elevation.drawer` | `12px 0 40px -10px rgba(0, 0, 0, 0.2)` | Mobile drawer |
+| Token                | Value                                            | Use                                 |
+| -------------------- | ------------------------------------------------ | ----------------------------------- |
+| `elevation.none`     | none                                             | Default                             |
+| `elevation.card`     | `0 1px 0 0 var(--rule)` (essentially a hairline) | Standard card                       |
+| `elevation.floating` | `0 16px 40px -20px rgba(40, 30, 10, 0.25)`       | Home floating "current lesson" card |
+| `elevation.drawer`   | `12px 0 40px -10px rgba(0, 0, 0, 0.2)`           | Mobile drawer                       |
 
 Shadows use warm rgba (not neutral black) to match parchment tone.
 
@@ -278,11 +281,11 @@ The emitter also emits `packages/ui/dist/tokens.ts` for mobile consumption (RN d
 
 ## 16. What lives where
 
-| Concern | Location |
-|---|---|
-| Color/typo/space/etc. tokens | `packages/ui/src/tokens` |
-| Theme bundles (Editorial, Modern) | `packages/ui/src/themes` |
-| Generated CSS variables | `packages/ui/dist/globals.css` |
-| Component styles | `packages/ui-web/src/<Component>/<Component>.module.css` |
-| Base typography classes (`.display`, `.h1`, `.body`, `.eyebrow`, etc.) | `packages/ui/dist/globals.css` |
-| Layout shell + reset | `apps/web/app/globals.css` |
+| Concern                                                                | Location                                                 |
+| ---------------------------------------------------------------------- | -------------------------------------------------------- |
+| Color/typo/space/etc. tokens                                           | `packages/ui/src/tokens`                                 |
+| Theme bundles (Editorial, Modern)                                      | `packages/ui/src/themes`                                 |
+| Generated CSS variables                                                | `packages/ui/dist/globals.css`                           |
+| Component styles                                                       | `packages/ui-web/src/<Component>/<Component>.module.css` |
+| Base typography classes (`.display`, `.h1`, `.body`, `.eyebrow`, etc.) | `packages/ui/dist/globals.css`                           |
+| Layout shell + reset                                                   | `apps/web/app/globals.css`                               |

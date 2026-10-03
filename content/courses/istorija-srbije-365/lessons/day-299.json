@@ -11,7 +11,13 @@
   "dateLabel": "20. jul 1917.",
   "timelinePosition": "20. jul 1917.",
   "summary": "Krfska deklaracija 1917. postavlja program ujedinjenja Srba, Hrvata i Slovenaca pod Karađorđevićima — ali već nosi pitanja koja će opteretiti novu državu.",
-  "keyPeople": ["Nikola Pašić", "Ante Trumbić", "kralj Petar I", "regent Aleksandar", "Frano Supilo"],
+  "keyPeople": [
+    "Nikola Pašić",
+    "Ante Trumbić",
+    "kralj Petar I",
+    "regent Aleksandar",
+    "Frano Supilo"
+  ],
   "keyPlaces": ["Krf", "London", "Pariz", "Beograd", "Zagreb"],
   "content": [
     {

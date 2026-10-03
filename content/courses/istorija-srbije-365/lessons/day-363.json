@@ -11,7 +11,13 @@
   "dateLabel": "19–21. vek",
   "timelinePosition": "pregled",
   "summary": "Spomenici i mitovi kao oblici pamćenja: šta se gradi, gde i ko ga podiže — od Karađorđa do Hrama Svetog Save — i kako mitovi oblikuju istorijsku svest.",
-  "keyPeople": ["Karađorđe", "knez Mihailo Obrenović", "Ivan Meštrović", "Sveti Sava", "Zoran Đinđić"],
+  "keyPeople": [
+    "Karađorđe",
+    "knez Mihailo Obrenović",
+    "Ivan Meštrović",
+    "Sveti Sava",
+    "Zoran Đinđić"
+  ],
   "keyPlaces": ["Beograd", "Avala", "Vračar", "Šumarice", "Sutjeska"],
   "content": [
     {

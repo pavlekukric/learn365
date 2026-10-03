@@ -58,7 +58,9 @@ export function CourseProgress({
     return (
       <article className={`${styles.card} ${styles.cardIdle}`}>
         <div className={styles.idleText}>
-          <span className={`tiny mono ${styles.rowLabel}`}>Počni · {formatDayEyebrow(lesson.day)}</span>
+          <span className={`tiny mono ${styles.rowLabel}`}>
+            Počni · {formatDayEyebrow(lesson.day)}
+          </span>
           <span className={styles.idleTitle}>{lesson.title}</span>
           {meta ? <span className={`tiny mono ${styles.rowMeta}`}>{meta}</span> : null}
         </div>
@@ -76,7 +78,9 @@ export function CourseProgress({
 
   const value = total > 0 ? clamp01(completed / total) : 0;
   const meta = lesson
-    ? [formatDayEyebrow(lesson.day), readingMeta(lesson.readingTimeMinutes)].filter(Boolean).join(' · ')
+    ? [formatDayEyebrow(lesson.day), readingMeta(lesson.readingTimeMinutes)]
+        .filter(Boolean)
+        .join(' · ')
     : null;
 
   return (

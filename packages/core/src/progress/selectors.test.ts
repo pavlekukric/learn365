@@ -93,8 +93,6 @@ describe('courseProgress', () => {
   });
 
   it('clamps remaining at zero when the user is somehow over-counted', () => {
-    expect(
-      courseProgress(stateWith(['a', 'b', 'c']), COURSE, 2).remaining,
-    ).toBe(0);
+    expect(courseProgress(stateWith(['a', 'b', 'c']), COURSE, 2).remaining).toBe(0);
   });
 });

@@ -11,7 +11,12 @@
   "dateLabel": "16–18. vek",
   "timelinePosition": "16–18. vek",
   "summary": "Crna Gora od 16. do 18. veka: nominalno osmanska, stvarno autonomna oblast plemena i cetinjskog vladike, do nasledne vlasti Petrovića-Njegoša.",
-  "keyPeople": ["Danilo I Petrović", "Sava Petrović", "Petar I Petrović Njegoš", "Petar II Petrović Njegoš"],
+  "keyPeople": [
+    "Danilo I Petrović",
+    "Sava Petrović",
+    "Petar I Petrović Njegoš",
+    "Petar II Petrović Njegoš"
+  ],
   "keyPlaces": ["Cetinje", "Crna Gora", "Cetinjski manastir", "Carev Laz", "Boka Kotorska"],
   "content": [
     {

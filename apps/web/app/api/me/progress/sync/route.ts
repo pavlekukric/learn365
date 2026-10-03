@@ -3,10 +3,7 @@ import { NextResponse, type NextRequest } from 'next/server';
 import { EPOCH_ISO } from '@learn365/core';
 
 import { guardApi } from '@/lib/server/auth/guard';
-import {
-  apiBadRequest,
-  apiUnavailable,
-  jsonNoStore, readJsonRecord } from '@/lib/server/http';
+import { apiBadRequest, apiUnavailable, jsonNoStore, readJsonRecord } from '@/lib/server/http';
 import { syncCourseProgress } from '@/lib/server/progress/repository';
 import {
   parseCourseId,
@@ -35,7 +32,9 @@ export async function POST(request: NextRequest): Promise<NextResponse> {
   const completed = parseLessonIds(courseId, body['completedLessonIds']);
   if (completed === null) return apiBadRequest('completedLessonIds');
   if (completed.dropped > 0) {
-    console.warn(`[progress] sync dropped ${String(completed.dropped)} unknown lesson id(s) for ${courseId}`);
+    console.warn(
+      `[progress] sync dropped ${String(completed.dropped)} unknown lesson id(s) for ${courseId}`,
+    );
   }
 
   try {

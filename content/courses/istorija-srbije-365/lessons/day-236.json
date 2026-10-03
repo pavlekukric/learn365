@@ -11,7 +11,13 @@
   "dateLabel": "1858.",
   "timelinePosition": "1858.",
   "summary": "Krajem 1858. više od četiri stotine delegata svrglo je kneza Aleksandra i pozvalo Miloša — dinastički preokret i prvi parlamentarni trenutak.",
-  "keyPeople": ["Aleksandar Karađorđević", "Miloš Obrenović", "Jevrem Grujić", "Milovan Janković", "Toma Vučić Perišić"],
+  "keyPeople": [
+    "Aleksandar Karađorđević",
+    "Miloš Obrenović",
+    "Jevrem Grujić",
+    "Milovan Janković",
+    "Toma Vučić Perišić"
+  ],
   "keyPlaces": ["Beograd", "Šumadija", "Pariz", "Beč"],
   "content": [
     {

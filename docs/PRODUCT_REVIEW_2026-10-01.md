@@ -1,6 +1,7 @@
 # Product Review — Istorija Srbije 365 (2026-10-01)
 
 **Reviewer:** Claude. Five parallel read-only passes:
+
 1. Visual design and UX of the live site: Playwright at 360 / 390 / 1440 / 1920 px, fresh and returning reader, 80 page loads.
 2. Lesson reader, shell and accessibility: code read, 19 live axe scans, keyboard walk.
 3. Backend, accounts, sync, security and ops: code read plus read-only HTTP probes.
@@ -20,10 +21,12 @@ The merger re-checked the headline claims directly: plain-http 200, Next 15.5.18
 ## 1. Verdict
 
 **Overall: 8 / 10 (was 7.5).** The facts are no longer the weak point:
+
 - Every lesson was fact-checked.
 - Every Wikipedia-only finding was re-checked against two other sources, and nothing open is left.
 
 Engineering held up:
+
 - 0 JS errors in 80 live loads and no horizontal scroll at any width.
 - axe reports 0 violations in 19 scans.
 - Strict TypeScript, with no `any`, `!` or lint suppressions in about 23k lines.
@@ -32,6 +35,7 @@ Engineering held up:
 Nothing has regressed in UX since 2026-09-30.
 
 **What holds it below 9:**
+
 - **Mobile speed fell:**
   - Lighthouse mobile is 61–83, below the Phase 5 floor of 82–85.
   - The cause is the font move: 12 font preloads (about 295 kB) on every page. With fonts blocked, Home scores 80–81 and a lesson 82–85.
@@ -51,17 +55,17 @@ Nothing has regressed in UX since 2026-09-30.
 
 ## 2. Scores
 
-| Area | Score | 2026-09-30 (its dimensions) | One line |
-|---|---|---|---|
-| Visual design + UX | 7.5 | polish 8, premium 7.5, IA 8 | Premium palette and type, a resume loop that works; held back by tree state, spacing and the mobile overview |
-| Lesson reader + shell | 8.5 | desktop 8, mobile 8 | Server-rendered reader with three client islands; every edge state renders |
-| Accessibility | 8 | 7.5 | 0 axe violations; focus drops to `<body>` after lesson moves; no screen-reader pass yet |
-| Backend + security + ops | 7.5 | security 7.5, data 7.5, ops 6.5 | Sign-in/session sound (CSRF probes 403); http, Next advisories, sync loss, no rate limit |
-| Performance | 7 | 8.5 | Desktop 90–99, CLS 0 everywhere; mobile 61–83 because of fonts and the hero background |
-| SEO | 8 | 7 | Last review's items shipped; plain http, generic share card, stale `lastmod` |
-| Code + DX + docs | 8.5 | code 8, DX 8 | Very clean code; doc drift (COMPONENT_LIBRARY, APP_ARCHITECTURE), no perf gate |
-| Content as product | 7 | accuracy 6.5, voice 8, coverage 6, trust 3.5 | Accuracy now high after Phases 19–20 and voice excellent; grammar, one template ×365, trust still hidden (about 3.5), coverage unchanged (6) |
-| **Overall** | **8** | 7.5 | |
+| Area                     | Score | 2026-09-30 (its dimensions)                  | One line                                                                                                                                     |
+| ------------------------ | ----- | -------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| Visual design + UX       | 7.5   | polish 8, premium 7.5, IA 8                  | Premium palette and type, a resume loop that works; held back by tree state, spacing and the mobile overview                                 |
+| Lesson reader + shell    | 8.5   | desktop 8, mobile 8                          | Server-rendered reader with three client islands; every edge state renders                                                                   |
+| Accessibility            | 8     | 7.5                                          | 0 axe violations; focus drops to `<body>` after lesson moves; no screen-reader pass yet                                                      |
+| Backend + security + ops | 7.5   | security 7.5, data 7.5, ops 6.5              | Sign-in/session sound (CSRF probes 403); http, Next advisories, sync loss, no rate limit                                                     |
+| Performance              | 7     | 8.5                                          | Desktop 90–99, CLS 0 everywhere; mobile 61–83 because of fonts and the hero background                                                       |
+| SEO                      | 8     | 7                                            | Last review's items shipped; plain http, generic share card, stale `lastmod`                                                                 |
+| Code + DX + docs         | 8.5   | code 8, DX 8                                 | Very clean code; doc drift (COMPONENT_LIBRARY, APP_ARCHITECTURE), no perf gate                                                               |
+| Content as product       | 7     | accuracy 6.5, voice 8, coverage 6, trust 3.5 | Accuracy now high after Phases 19–20 and voice excellent; grammar, one template ×365, trust still hidden (about 3.5), coverage unchanged (6) |
+| **Overall**              | **8** | 7.5                                          |                                                                                                                                              |
 
 ## 3. Priority list
 
@@ -73,7 +77,7 @@ Effort: S = under an hour, M = half a day, L = more.
    - `http://istorija365.com/` and `/api/me` answer 200 with the page.
    - Sign-in from http fails, because the `__Host-` cookie is refused.
    - Local progress on http is stored separately from https.
-   - Cloudflare → SSL/TLS → Edge Certificates → *Always Use HTTPS*. Optionally add HSTS preload later.
+   - Cloudflare → SSL/TLS → Edge Certificates → _Always Use HTTPS_. Optionally add HSTS preload later.
 2. **Bump Next to ≥ 15.5.24 and sharp to ≥ 0.35.4 (S).**
    - Add Dependabot, plus a non-blocking `pnpm audit --prod` step in CI.
    - `/_next/image` is live, so the image-optimizer advisories apply. Exploitability is judged low but was not proven.
@@ -92,7 +96,7 @@ Effort: S = under an hour, M = half a day, L = more.
    - `LessonNavItem` takes `active` and `completed` as two flags. Today `state` is single-valued and "active" wins (`LessonNavItem.tsx:10,25-26,46`), so the current row never shows as read and screen readers lose ", pročitano".
    - The course overview's progress card and the highlighted tree row point at the same lesson (today Dan 121 vs row 120).
    - Completion copy follows position, not count (`CompletedFooter.tsx:56,65,94`), and a real finish moment at 365 / 365.
-   - **Owner picks the resume rule:** today "Tvoj N. dan" follows any lesson merely *opened* (Days 1–3 read and Day 250 opened gives "Tvoj 250. dan"). Recommended: resume follows the first unread after the last *read* lesson; "opened" only feeds "Nastavi gde si stao".
+   - **Owner picks the resume rule:** today "Tvoj N. dan" follows any lesson merely _opened_ (Days 1–3 read and Day 250 opened gives "Tvoj 250. dan"). Recommended: resume follows the first unread after the last _read_ lesson; "opened" only feeds "Nastavi gde si stao".
 6. **Reader polish already announced in HANDOFF (S each, one PR):**
    - Paragraphs sit 60 px apart; add `.body > p { margin: 0 }`.
    - `Označi kao pročitano` is 194×42 px with 13 px text. Make it the primary action, full width on mobile.
@@ -199,12 +203,12 @@ Effort: S = under an hour, M = half a day, L = more.
 
 ## 5. Measurements
 
-| Route | Mobile LH | Mobile LCP | Desktop LH | Desktop LCP |
-|---|---|---|---|---|
-| Home | 61 / 65 / 69 | 5.0–5.8 s | 95–96 | 1.2–1.4 s |
-| Course overview | 70 / 78 | 4.8–5.2 s | 90–97 | 1.2–1.8 s |
-| Lesson day-001 | 73 / 83 | 3.7–5.3 s | 98–99 | 0.8–1.1 s |
-| Lesson day-150 | 72 / 73 | 4.9–5.1 s | 94–97 | 1.25–1.6 s |
+| Route           | Mobile LH    | Mobile LCP | Desktop LH | Desktop LCP |
+| --------------- | ------------ | ---------- | ---------- | ----------- |
+| Home            | 61 / 65 / 69 | 5.0–5.8 s  | 95–96      | 1.2–1.4 s   |
+| Course overview | 70 / 78      | 4.8–5.2 s  | 90–97      | 1.2–1.8 s   |
+| Lesson day-001  | 73 / 83      | 3.7–5.3 s  | 98–99      | 0.8–1.1 s   |
+| Lesson day-150  | 72 / 73      | 4.9–5.1 s  | 94–97      | 1.25–1.6 s  |
 
 - Lighthouse Accessibility, Best Practices and SEO score 100 on every run. CLS is 0.000 everywhere. Mobile TBT is 147–555 ms.
 - **Fonts:** 12–13 requests and 277–308 kB per page, more than all the JS (about 170 kB). With fonts blocked, Home scores 80–81 and a lesson 82–85.

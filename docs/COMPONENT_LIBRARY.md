@@ -38,8 +38,8 @@ Mobile: identical, sized down via CSS.
 type TopBarRoute = 'home' | 'course' | 'lesson' | 'about' | 'other'; // other: account, privacy, 404
 
 type TopBarAccount =
-  | { kind: 'loading' }                                   // invisible placeholder, no layout shift
-  | { kind: 'signed-out'; href: string }                  // quiet `Prijava` link (icon-only ≤ 720 px)
+  | { kind: 'loading' } // invisible placeholder, no layout shift
+  | { kind: 'signed-out'; href: string } // quiet `Prijava` link (icon-only ≤ 720 px)
   | { kind: 'signed-in'; href: string; name: string | null; pictureUrl: string | null }; // AccountMark
 
 type TopBarProps = {
@@ -80,7 +80,7 @@ Phase 6.8d completed the Phase-3 `onClick → href` revision for navigation —
 breadcrumbs that go up a level use `href` so middle-click / right-click /
 open-in-new-tab work and the crumb is a real anchor (not a styled span).
 
-A11y: wrap in `<nav aria-label="Breadcrumbs">`; a crumb with an `href` is a link wherever it sits, and only a last crumb *without* one gets `aria-current="page"` (the lesson page passes four ancestor links and no current crumb).
+A11y: wrap in `<nav aria-label="Breadcrumbs">`; a crumb with an `href` is a link wherever it sits, and only a last crumb _without_ one gets `aria-current="page"` (the lesson page passes four ancestor links and no current crumb).
 Mobile: shows only the last two crumbs.
 
 ### `Button`
@@ -93,7 +93,12 @@ type ButtonProps = {
   children: ReactNode;
 } & (
   | { href: string; plainAnchor?: boolean; 'aria-disabled'?: boolean } // next/link, or a plain <a> for /api/** hrefs
-  | { type?: 'button' | 'submit' | 'reset'; onClick?: MouseEventHandler; disabled?: boolean; 'aria-pressed'?: boolean }
+  | {
+      type?: 'button' | 'submit' | 'reset';
+      onClick?: MouseEventHandler;
+      disabled?: boolean;
+      'aria-pressed'?: boolean;
+    }
 );
 ```
 
@@ -117,7 +122,13 @@ A11y: `role="progressbar"` with `aria-valuenow` (0..100) and the caller's `aria-
 ### `ProgressRing`
 
 ```ts
-type ProgressRingProps = { value: number; size?: number; stroke?: number; label?: string; children: ReactNode };
+type ProgressRingProps = {
+  value: number;
+  size?: number;
+  stroke?: number;
+  label?: string;
+  children: ReactNode;
+};
 ```
 
 SVG ring; child content centered. Animates with `duration.medium`.
@@ -130,6 +141,7 @@ type CompletionDotProps = { state: 'idle' | 'active' | 'done' };
 ```
 
 States visually:
+
 - `idle` — empty circle, faint border
 - `active` — accent border with a small accent center dot
 - `done` — filled completion-color circle with white check
@@ -164,8 +176,8 @@ All use `stroke="currentColor"`, no fill.
 type AccountMarkProps = {
   name: string | null;
   pictureUrl: string | null; // requested with referrerPolicy="no-referrer"
-  href: string;              // the account page
-  label?: string;            // default `Nalog: <name>` / `Nalog`
+  href: string; // the account page
+  label?: string; // default `Nalog: <name>` / `Nalog`
 };
 ```
 
@@ -192,11 +204,11 @@ type CourseCardProps = {
   completedLessons: number;
   isCurrent: boolean;
   isAllDone: boolean;
-  href: string;          // the action link: first unread lesson of the era (its first lesson once all are read)
-  description?: string;  // editorial paragraph
-  isOpen: boolean;       // disclosure of the era's section list below the card
+  href: string; // the action link: first unread lesson of the era (its first lesson once all are read)
+  description?: string; // editorial paragraph
+  isOpen: boolean; // disclosure of the era's section list below the card
   onToggle: () => void;
-  panelId: string;       // id of that section-list panel
+  panelId: string; // id of that section-list panel
   sectionCount: number;
 };
 ```
@@ -233,8 +245,8 @@ type CourseSidebarProps = {
   openEraIds: ReadonlySet<EraId>;
   onToggleEra: (id: EraId) => void;
   lessonHref: (lesson: LessonSummary) => string;
-  revealCurrent?: boolean;       // desktop: keep the current row in view (Phase 15)
-  lead?: ReactNode;              // drawer: the era rail, above the outline (Phase 15)
+  revealCurrent?: boolean; // desktop: keep the current row in view (Phase 15)
+  lead?: ReactNode; // drawer: the era rail, above the outline (Phase 15)
 };
 ```
 
@@ -251,7 +263,7 @@ type EraGroupProps = { era: Era; isOpen: boolean; onToggle: () => void; children
 The era-level accordion in the sidebar and drawer: `EPOHA II`, the short era label (`eraShort`, full title as tooltip), the years; its `SectionAccordion`s inside. Collapsed by default; the shell opens the current era. Same chevron row as `SectionAccordion`, so the two levels read as one hierarchy.
 A11y: a `<button>` with `aria-expanded` / `aria-controls`.
 
-### `SectionAccordion` *(formerly CourseSectionAccordion)*
+### `SectionAccordion` _(formerly CourseSectionAccordion)_
 
 ```ts
 type SectionAccordionProps = {
@@ -275,15 +287,16 @@ A11y: header is a `<button>` with `aria-expanded` and `aria-controls` pointing t
 ```ts
 type LessonNavItemProps = {
   lesson: LessonSummary;
-  active: boolean;          // "you are here": the open lesson, or the overview's resume row
-  completed: boolean;       // read — independent of `active` since Phase 21
+  active: boolean; // "you are here": the open lesson, or the overview's resume row
+  completed: boolean; // read — independent of `active` since Phase 21
   href: string;
-  isCurrentPage?: boolean;  // default true; false where the active row is not the page being viewed
+  isCurrentPage?: boolean; // default true; false where the active row is not the page being viewed
 };
 ```
 
 Row: `CompletionDot`, day number (`padDay` → `012`), lesson title, reading time (left out on placeholder rows).
 States visualized (the two flags combine):
+
 - neither — muted text
 - `active` — accent-tinted background + 2-px accent left bar
 - `completed` — muted title color, completion-color day number, filled green dot; an active row that is also read keeps the tint and shows the check
@@ -296,8 +309,8 @@ A11y: `<a>` with `aria-current="page"` when `active && isCurrentPage`; a read ro
 type HistoricalTimelineProps = {
   eras: readonly Era[];
   currentLesson: { eraId: EraId; year: number };
-  eraHref?: (eraId: EraId) => string;               // bands become links
-  eraStats?: ReadonlyMap<EraId, EraStat>;           // { lessonCount, completedCount }
+  eraHref?: (eraId: EraId) => string; // bands become links
+  eraStats?: ReadonlyMap<EraId, EraStat>; // { lessonCount, completedCount }
   variant?: 'full' | 'compact' | 'home';
 };
 ```
@@ -312,8 +325,8 @@ A11y: `<nav aria-label="Vremenska osa epoha">`; the rail is `aria-hidden`; the c
 ```ts
 type LessonHeaderProps = {
   lesson: LessonHeading;
-  eraShort?: string;        // eyebrow prefix on single-column layouts
-  bookmark?: ReactNode;     // <LessonBookmarkButton />, pinned top-right
+  eraShort?: string; // eyebrow prefix on single-column layouts
+  bookmark?: ReactNode; // <LessonBookmarkButton />, pinned top-right
 };
 ```
 
@@ -350,9 +363,9 @@ type LessonReaderProps = {
   lesson: LessonHeading;
   breadcrumbs: readonly BreadcrumbItem[];
   eraShort?: string;
-  article: ReactNode;       // LessonBody + LessonSources + LessonTrustLine
-  bookmark?: ReactNode;     // <LessonBookmarkButton />
-  footer: ReactNode;        // <LessonFooter />
+  article: ReactNode; // LessonBody + LessonSources + LessonTrustLine
+  bookmark?: ReactNode; // <LessonBookmarkButton />
+  footer: ReactNode; // <LessonFooter />
 };
 ```
 
@@ -414,7 +427,7 @@ A11y: one persistent, initially empty `role="status"` / `aria-live="polite"` reg
 ```ts
 type CompletedFooterProps = {
   completedDayNumber: number;
-  completedCount: number;          // after this completion
+  completedCount: number; // after this completion
   totalLessons: number;
   next: CompletedFooterNext | null;
   prev: CompletedFooterPrev | null;
@@ -443,6 +456,7 @@ type MarkAsCompletedButtonProps = {
 ```
 
 States (one vocabulary with every counter: the action is "pročitano"):
+
 - not completed → `Označi kao pročitano` + check icon
 - completed → `Pročitano`
 
@@ -466,9 +480,9 @@ A11y: `<nav aria-label="Prethodna i sledeća lekcija">`; the boundary spans carr
 type MobileLessonDrawerProps = {
   open: boolean;
   onClose: () => void;
-  children: ReactNode;     // <CourseSidebar lead={era rail} />
-  ariaLabel?: string;      // default `Sadržaj kursa`
-  id?: string;             // for the trigger's aria-controls
+  children: ReactNode; // <CourseSidebar lead={era rail} />
+  ariaLabel?: string; // default `Sadržaj kursa`
+  id?: string; // for the trigger's aria-controls
 };
 ```
 
@@ -500,7 +514,7 @@ Every component above has a planned mobile equivalent in `packages/ui-mobile`. D
 
 ---
 
-## 4. Storybook? *(open question)*
+## 4. Storybook? _(open question)_
 
 Not in v1. Reserved for v2 if the library grows past ~25 components or if a non-engineer needs to review states in isolation.
 

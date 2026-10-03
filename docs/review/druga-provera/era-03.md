@@ -3,12 +3,13 @@
 Izvorni izveštaj: `docs/review/era-03-knez-lazar-i-despotovina.md` — svi redovi tabela sa „⚠" (22 reda). Lekcije čitane u trenutnom stanju (`content/courses/istorija-srbije-365/lessons/day-NNN.json`); sve ispravke iz prvog prolaza za ove redove već su unete u tekst.
 
 **Zbir presuda (22):**
+
 - ✅ potvrđeno: 21
 - ❌ ispraviti: 0
 - ↩ vratiti: 0
 - ❓ otvoreno: 1 (Day 109 #2)
 
-Napomene o izvorima: Ćorović, *Istorija srpskog naroda* (1941), citiran po PDF stranama izvučenog teksta. Najjači izvori van Ćorovića: Srpska enciklopedija (Matica srpska), Leksikon CANU (Ž. Andrijašević), KCNS (S. Graovac). Za Smederevsku tvrđavu, Miloša Obilića i Marka Kraljevića raspoloživi izvori su turistički, novinski i školski sajtovi — ocenjeni kao slabiji, ali međusobno nezavisni i saglasni. Wikipedija nije računata ni na jednom mestu.
+Napomene o izvorima: Ćorović, _Istorija srpskog naroda_ (1941), citiran po PDF stranama izvučenog teksta. Najjači izvori van Ćorovića: Srpska enciklopedija (Matica srpska), Leksikon CANU (Ž. Andrijašević), KCNS (S. Graovac). Za Smederevsku tvrđavu, Miloša Obilića i Marka Kraljevića raspoloživi izvori su turistički, novinski i školski sajtovi — ocenjeni kao slabiji, ali međusobno nezavisni i saglasni. Wikipedija nije računata ni na jednom mestu.
 
 ---
 
@@ -46,7 +47,7 @@ Napomene o izvorima: Ćorović, *Istorija srpskog naroda* (1941), citiran po PDF
 - **Nalaz iz prvog prolaza:** „očevu propast" → „muževljev slom"; Olivera je nadživela Stefana (umrla posle 1444), pa „do kraja života uz brata Stefana" ne stoji. Ispravka je već u tekstu.
 - **Izvori:**
   - Kraljevski dom Srbije, „Despot Stefan" (https://royalfamily.org/about-serbia/despot-stefan-2/) — posle Angore 1402. „she returned to Serbia (spring 1403), and a little later she settled permanently in Stefan's castle, in Belgrade."
-  - Novosti, „Hrabra i čudesna Olivera", prikaz monografije N. Giljena i dr., *Princeza Olivera* (https://www.novosti.rs/vesti/kultura.71.html:252248-Hrabra-i-cudesna-Olivera) — „Despina Olivera se vratila u Srbiju 1403. godine i živela na dvoru svog brata Stefana"; kasnije „najverovatnije kod svog sestrića despota Đurđa Brankovića u Smederevu"; poslednji pomen 1443, „smatra se da je umrla posle 1444."
+  - Novosti, „Hrabra i čudesna Olivera", prikaz monografije N. Giljena i dr., _Princeza Olivera_ (https://www.novosti.rs/vesti/kultura.71.html:252248-Hrabra-i-cudesna-Olivera) — „Despina Olivera se vratila u Srbiju 1403. godine i živela na dvoru svog brata Stefana"; kasnije „najverovatnije kod svog sestrića despota Đurđa Brankovića u Smederevu"; poslednji pomen 1443, „smatra se da je umrla posle 1444."
   - Ćorović, ISN, PDF str. 205 i 213 — Olivera data u Bajazitov harem; imala „велик утицај на емира" (o kasnijem životu ne govori).
 - **Presuda:** ✅ potvrđeno (povratak 1403, odnosno „posle Angore", i život u Despotovini; tekst „ostatak života proveo u Despotovini" je u skladu s oba izvora).
 

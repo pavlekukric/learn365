@@ -11,7 +11,17 @@
   "dateLabel": "19. vek",
   "timelinePosition": "19. vek",
   "summary": "Srpska književnost 19. veka u tri talasa: prosvetiteljstvo i Vukova reforma, romantizam Branka i Njegoša, pa realizam i prve naznake moderne.",
-  "keyPeople": ["Vuk Stefanović Karadžić", "Dositej Obradović", "Petar II Petrović Njegoš", "Branko Radičević", "Jovan Jovanović Zmaj", "Laza Kostić", "Stevan Sremac", "Branislav Nušić", "Jovan Skerlić"],
+  "keyPeople": [
+    "Vuk Stefanović Karadžić",
+    "Dositej Obradović",
+    "Petar II Petrović Njegoš",
+    "Branko Radičević",
+    "Jovan Jovanović Zmaj",
+    "Laza Kostić",
+    "Stevan Sremac",
+    "Branislav Nušić",
+    "Jovan Skerlić"
+  ],
   "keyPlaces": ["Beograd", "Novi Sad", "Beč", "Cetinje", "Pešta"],
   "content": [
     {

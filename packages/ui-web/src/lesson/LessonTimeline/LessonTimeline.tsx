@@ -2,10 +2,7 @@ import type { CSSProperties } from 'react';
 
 import { Flourish } from '../../primitives/Flourish/Flourish.js';
 
-import {
-  buildLessonTimelineScale,
-  formatTickYear,
-} from './lessonTimelineScale.js';
+import { buildLessonTimelineScale, formatTickYear } from './lessonTimelineScale.js';
 
 import styles from './LessonTimeline.module.css';
 

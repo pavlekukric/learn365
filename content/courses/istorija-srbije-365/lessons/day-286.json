@@ -12,7 +12,14 @@
   "timelinePosition": "10. avgust 1913.",
   "summary": "Mir u Bukureštu 10. avgusta 1913. okončao je Drugi balkanski rat: Bugarska gubi gotovo sve dobitke, a Srbija gotovo udvostručuje teritoriju.",
   "keyPeople": ["Nikola Pašić", "Ferdinand I Koburg", "Eleftherios Venizelos", "Titu Maiorescu"],
-  "keyPlaces": ["Bukurešt", "Vardarska Makedonija", "Egejska Makedonija", "Solun", "južna Dobrudža", "Jedrene"],
+  "keyPlaces": [
+    "Bukurešt",
+    "Vardarska Makedonija",
+    "Egejska Makedonija",
+    "Solun",
+    "južna Dobrudža",
+    "Jedrene"
+  ],
   "content": [
     {
       "type": "paragraph",

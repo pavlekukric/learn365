@@ -80,10 +80,7 @@ describe('registry: lookups', () => {
     // sections' day spans, whatever the editorial structure looks like.
     const sections = getSectionsByEra(COURSE, 'nemanjici');
     expect(sections.length).toBeGreaterThan(0);
-    const expected = sections.reduce(
-      (n, s) => n + (s.endDay - s.startDay + 1),
-      0,
-    );
+    const expected = sections.reduce((n, s) => n + (s.endDay - s.startDay + 1), 0);
     expect(getLessonsByEra(COURSE, 'nemanjici')).toHaveLength(expected);
   });
 

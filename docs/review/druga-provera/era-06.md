@@ -5,7 +5,7 @@ Lekcije: `content/courses/istorija-srbije-365/lessons/day-NNN.json` (stanje na g
 
 **Zbir presuda:** ✅ potvrđeno 25 · ❌ ispraviti 0 · ↩ vratiti 0 · ❓ otvoreno 4 (ukupno 29 stavki sa „⚠").
 
-Napomena o izvorima: „Ćorović, ISN" = V. Ćorović, *Istorija srpskog naroda* (1941), lokalni tekst izvučen iz PDF-a. Srpska enciklopedija (srpskaenciklopedija.rs, Matica srpska / SANU) računata je kao nezavisan, ne-Wikipedia izvor. Datumi u izvorima: kada se navode dva, prvi je po starom (julijanskom), drugi po novom kalendaru.
+Napomena o izvorima: „Ćorović, ISN" = V. Ćorović, _Istorija srpskog naroda_ (1941), lokalni tekst izvučen iz PDF-a. Srpska enciklopedija (srpskaenciklopedija.rs, Matica srpska / SANU) računata je kao nezavisan, ne-Wikipedia izvor. Datumi u izvorima: kada se navode dva, prvi je po starom (julijanskom), drugi po novom kalendaru.
 
 ---
 
@@ -14,10 +14,10 @@ Napomena o izvorima: „Ćorović, ISN" = V. Ćorović, *Istorija srpskog naroda
 - **Tekst u lekciji sada:** „Uređen je poreski sistem, sa boljim evidencijama i kanalisanim tokom novca u državnu kasu."
 - **Nalaz iz prvog prolaza:** tvrdnja o uvođenju poreza na imovinu i prihod je sumnjiva; glavnica (porez „po glavi") ostaje osnovni neposredni porez; tvrdnja uklonjena.
 - **Izvori:**
-  - R. Bukvić, D. Aleksić i dr., „Nacionalna ekonomija", u: *Geografija Srbije*, Geografski institut „Jovan Cvijić" SANU, 2017, str. 614–751 (MPRA 103354: https://mpra.ub.uni-muenchen.de/103354/1/MPRA_paper_103354.pdf) — „Reformom od 1835. glavnica je postala jedini neposredni porez. Plaćala su je sva muška punoletna lica bez obzira na imovno i bračno stanje…" Potvrđuje da porez nije bio „prema imovini i prihodu" (uz izuzetak „bećarskog danka" prema visini plate).
+  - R. Bukvić, D. Aleksić i dr., „Nacionalna ekonomija", u: _Geografija Srbije_, Geografski institut „Jovan Cvijić" SANU, 2017, str. 614–751 (MPRA 103354: https://mpra.ub.uni-muenchen.de/103354/1/MPRA_paper_103354.pdf) — „Reformom od 1835. glavnica je postala jedini neposredni porez. Plaćala su je sva muška punoletna lica bez obzira na imovno i bračno stanje…" Potvrđuje da porez nije bio „prema imovini i prihodu" (uz izuzetak „bećarskog danka" prema visini plate).
   - Ćorović, ISN, PDF str. 471–490 — o poreskoj reformi ustavobranitelja ništa određeno ne kaže.
   - Za opštu rečenicu koja je sada u lekciji („boljim evidencijama i kanalisanim tokom novca u državnu kasu") nije nađen nijedan nezavisan izvor.
-- **Presuda:** ❓ otvoreno — uklanjanje tvrdnje o porezu na imovinu i prihod podržava jedan naučni izvor (SANU 2017; Wikipedia „Glavnica" kaže isto), pa je ispravka u pravcu sigurnog. Nova opšta rečenica nije netačna ali nije ni potvrđena; vlasnik može da je ostavi (bezopasna je) ili da je zameni nečim konkretnijim tek kada se proveri kod S. Jovanovića, *Ustavobranitelji i njihova vlada*.
+- **Presuda:** ❓ otvoreno — uklanjanje tvrdnje o porezu na imovinu i prihod podržava jedan naučni izvor (SANU 2017; Wikipedia „Glavnica" kaže isto), pa je ispravka u pravcu sigurnog. Nova opšta rečenica nije netačna ali nije ni potvrđena; vlasnik može da je ostavi (bezopasna je) ili da je zameni nečim konkretnijim tek kada se proveri kod S. Jovanovića, _Ustavobranitelji i njihova vlada_.
 
 ### Day 233 — #2 — ko je dokumentu dao ime „Načertanije"
 
@@ -26,8 +26,8 @@ Napomena o izvorima: „Ćorović, ISN" = V. Ćorović, *Istorija srpskog naroda
 - **Izvori:**
   - Ćorović, ISN, PDF str. 473 — „…on je 1844. год. саставио своје чувено Начертаније или „Програм спољне и националне политике Србије"" — imenuje spis ali ne kaže ko mu je dao naslov.
   - Večernje novosti, „Veliki propust obaveštajnog aparata Austrije: Načertanije postalo poznato srpskoj javnosti tek 1906." (https://www.novosti.rs/vesti/politika/1183895/...) — Vukićević ga je 1906. objavio pod naslovom „Program spoljne politike Ilije Garašanina na koncu 1844. godine"; Milićević ga 1888. pominje kao „plan za unutrašnju i spoljnu politiku Srbije". O tome ko je skovao naziv „Načertanije" ništa.
-  - A. Radenić, *Spoljna politika Srbije u kontroverznoj istoriografiji* (Službeni glasnik; PDF https://www.andrijaradenicistoricar.com/images/pdf/Spoljna_Politika_Srbije_u_kontroverznnoj_istoriografiji.pdf) — pretražen ceo tekst; o poreklu naslova ništa.
-- **Presuda:** ❓ otvoreno — nijedan otvoreni ne-Wikipedia izvor ne kaže ni da je naslov dao sam Garašanin ni da su ga dali istoričari. Ako se ne proveri kod R. Ljušića (*Knjiga o Načertaniju*, 1993), najbezbednije je ukloniti tvrdnju o autorstvu naslova. Predlog (neobavezno): STARO „dokument koji je sam Garašanin nazvao Načertanije — „nacrt", „skica" — ali koji" → NOVO „dokument poznat kao Načertanije — „nacrt", „skica" — koji".
+  - A. Radenić, _Spoljna politika Srbije u kontroverznoj istoriografiji_ (Službeni glasnik; PDF https://www.andrijaradenicistoricar.com/images/pdf/Spoljna_Politika_Srbije_u_kontroverznnoj_istoriografiji.pdf) — pretražen ceo tekst; o poreklu naslova ništa.
+- **Presuda:** ❓ otvoreno — nijedan otvoreni ne-Wikipedia izvor ne kaže ni da je naslov dao sam Garašanin ni da su ga dali istoričari. Ako se ne proveri kod R. Ljušića (_Knjiga o Načertaniju_, 1993), najbezbednije je ukloniti tvrdnju o autorstvu naslova. Predlog (neobavezno): STARO „dokument koji je sam Garašanin nazvao Načertanije — „nacrt", „skica" — ali koji" → NOVO „dokument poznat kao Načertanije — „nacrt", „skica" — koji".
 
 ### Day 236 — #5 — kuda se knez Aleksandar sklonio decembra 1858.
 
@@ -53,7 +53,7 @@ Napomena o izvorima: „Ćorović, ISN" = V. Ćorović, *Istorija srpskog naroda
 - **Nalaz iz prvog prolaza:** sa Grčkom je potpisan formalni savez (Vesle 1867) i vojna konvencija 1868; Grčka premeštena među potpisnike.
 - **Izvori:**
   - Ćorović, ISN, PDF str. 502 — „После дужих преговора савезни уговор потписан је 14. августа 1867… Војна конвенција између обе земље закључена је у Атини 16. фебруара 1868."
-  - S. G. Marković, „History of Hellenic-Serbian (Yugoslav) Alliances from Karageorge to the Balkan Pact 1817–1954", *Balcanica* LI (2020), str. 149 (https://doiserbia.nb.rs/img/doi/0350-7653/2020/0350-76532051143M.pdf) — „The agreement was signed in Bad Voeslau near Vienna on August 14/26, 1867"; Vojna konvencija 16/28. februara 1868.
+  - S. G. Marković, „History of Hellenic-Serbian (Yugoslav) Alliances from Karageorge to the Balkan Pact 1817–1954", _Balcanica_ LI (2020), str. 149 (https://doiserbia.nb.rs/img/doi/0350-7653/2020/0350-76532051143M.pdf) — „The agreement was signed in Bad Voeslau near Vienna on August 14/26, 1867"; Vojna konvencija 16/28. februara 1868.
   - (Napomena) Ćorović na istoj strani kaže da sa Rumunijom „створене су само везе заинтересованог пријатељства", tj. formalni savez s Rumunijom nije sklopljen — vidi napomenu ispod.
 - **Presuda:** ✅ potvrđeno (za Grčku). Usput: oba izvora ne potvrđuju „potpisan sporazum" sa Rumunijom (Ćorović izričito kaže da se knez Karol „није могао да одлучи на склапање савеза"); to nije predmet ove ⚠ stavke, ali vlasnik može da razmotri.
 
@@ -71,7 +71,7 @@ Napomena o izvorima: „Ćorović, ISN" = V. Ćorović, *Istorija srpskog naroda
 - **Tekst u lekciji sada:** Sažetak: „predaje četiri preostale tvrđave srpskoj vlasti…"; tekst: „…ferman kojim se turske posade povlače iz četiri preostala grada — Beograda, Šapca, Smedereva i Kladova (Užice i Soko napušteni su već 1862, posle Kanlidžanske konferencije)".
 - **Nalaz iz prvog prolaza:** po odlukama Kanlidžanske konferencije 1862. Užice i Soko su napušteni i porušeni; 1867. predata su četiri grada.
 - **Izvori:**
-  - V. Đ. Krestić, „Bombardovanje Beograda 1862.", *Srpska enciklopedija* (https://srpskaenciklopedija.rs/books/slovo-b/page/bombardovanje-beograda-1862/export/html) — konferencija je odlučila da se poruše tvrđave Soko i Užice, a da ostanu Šabac, Beograd, Smederevo i Fetislam (Kladovo).
+  - V. Đ. Krestić, „Bombardovanje Beograda 1862.", _Srpska enciklopedija_ (https://srpskaenciklopedija.rs/books/slovo-b/page/bombardovanje-beograda-1862/export/html) — konferencija je odlučila da se poruše tvrđave Soko i Užice, a da ostanu Šabac, Beograd, Smederevo i Fetislam (Kladovo).
   - Glas Podrinja, „Predaja šabačkog grada" (https://www.glaspodrinja.rs/vesti/5324/predaja-sabackog-grada/) — 1862. „rešeno je da se poruše dva manja grada, Soko i Užice"; ferman od 29. marta 1867. predaje „gradove u Srbiji, kao: Beograd, Fetislam (Kladovo), Smederevo i Šabac".
   - Politika, „Dan kada je knez Mihailo „preuzeo" Beograd" (https://www.politika.rs/scc/clanak/384268/...) — „Turci su srušili tvrđave Užice i Soko" posle 1862.
 - **Presuda:** ✅ potvrđeno.
@@ -82,7 +82,7 @@ Napomena o izvorima: „Ćorović, ISN" = V. Ćorović, *Istorija srpskog naroda
 - **Nalaz iz prvog prolaza:** bombardovanje nije bilo „iste noći", nego 5/17. juna.
 - **Izvori:**
   - Ćorović, ISN, PDF str. 498 — „…сукоб код Чукур-чесме 3. јуна 1862… док 5. јуна турски паша није наредио бомбардовање града за време погреба палих жртава."
-  - Krestić, *Srpska enciklopedija* (gore) — incident 15. VI 1862; Turci su „17. јуна почели да бомбардују варош… Бомбардовање је настављено и током ноћи између 17. и 18. јуна".
+  - Krestić, _Srpska enciklopedija_ (gore) — incident 15. VI 1862; Turci su „17. јуна почели да бомбардују варош… Бомбардовање је настављено и током ноћи између 17. и 18. јуна".
   - Politika, „Istorijska uloga Čukur-česme" (https://www.politika.rs/scc/clanak/431324/pogledi/istorijska-uloga-cukur-cesme) — incident „3. juna po starom i 15. juna po novom kalendaru"; bombardovanje „5. juna po starom kalendaru".
 - **Presuda:** ✅ potvrđeno.
 
@@ -92,7 +92,7 @@ Napomena o izvorima: „Ćorović, ISN" = V. Ćorović, *Istorija srpskog naroda
 - **Nalaz iz prvog prolaza:** većina izvora kaže da je dečak (šegrt Sava Petković) ubijen; „ranio" → „smrtno ranio".
 - **Izvori:**
   - Ćorović, ISN, PDF str. 498 — „Тог дана погинуо је од турских војника један српски дечак".
-  - Krestić, *Srpska enciklopedija* (gore) — „Турски војници убили су код Чукур-чесме једног српског дечака".
+  - Krestić, _Srpska enciklopedija_ (gore) — „Турски војници убили су код Чукур-чесме једног српског дечака".
   - Politika, „Vek i po od ubistva dečaka kod Čukur česme" (https://www.politika.rs/scc/clanak/222462/Vek-i-po-od-ubistva-decaka-kod-Cukur-cesme) — Savi Petkoviću razbijen krčag o glavu, „od posledica izdahnuo".
 - **Presuda:** ✅ potvrđeno („smrtno ranio" = umro od rane; u skladu sa svim izvorima).
 
@@ -101,9 +101,9 @@ Napomena o izvorima: „Ćorović, ISN" = V. Ćorović, *Istorija srpskog naroda
 - **Tekst u lekciji sada:** „U avgustu 1867. srpski i grčki izaslanici potpisali su u Vesleu, kod Beča, savez…"
 - **Nalaz iz prvog prolaza:** Vesle je u Donjoj Austriji, kod Badena i Beča; Marijenbad je u Češkoj — ispravljeno u „kod Beča".
 - **Izvori:**
-  - Marković, *Balcanica* LI (2020), str. 149 (gore) — „signed in Bad Voeslau near Vienna on August 14/26, 1867".
+  - Marković, _Balcanica_ LI (2020), str. 149 (gore) — „signed in Bad Voeslau near Vienna on August 14/26, 1867".
   - Ćorović, ISN, PDF str. 502 — potvrđuje datum (14. avgust 1867), ali ne navodi mesto.
-  - U. Tatić, „Balkanski savez (1866–1868)", *Srpska enciklopedija* (https://srpskaenciklopedija.rs/books/slovo-b/page/balkanski-savez-1866-1868/export/html) — mesto ne navodi; kaže da je „политички уговор потписан тек у новембру 1867, а војни уговор у пролеће 1868" (protivreči Ćoroviću i Markoviću za mesec; verovatno se misli na ratifikaciju).
+  - U. Tatić, „Balkanski savez (1866–1868)", _Srpska enciklopedija_ (https://srpskaenciklopedija.rs/books/slovo-b/page/balkanski-savez-1866-1868/export/html) — mesto ne navodi; kaže da je „политички уговор потписан тек у новембру 1867, а војни уговор у пролеће 1868" (protivreči Ćoroviću i Markoviću za mesec; verovatno se misli na ratifikaciju).
 - **Presuda:** ❓ otvoreno — mesto „Vesle, kod Beča" potvrđuje samo jedan ne-Wikipedia izvor (Marković; en.wikipedia kaže isto); drugi nezavisan izvor koji imenuje mesto nije nađen. Stara verzija („kod Marijenbada") nema nikakvu podršku, pa sadašnji tekst treba ostaviti. Mesec (avgust 1867) potvrđuju Ćorović i Marković; Srpska enciklopedija navodi novembar.
 
 ### Day 241 — #2 — Garašanin smenjen novembra 1867, pre atentata
@@ -112,7 +112,7 @@ Napomena o izvorima: „Ćorović, ISN" = V. Ćorović, *Istorija srpskog naroda
 - **Nalaz iz prvog prolaza:** knez Mihailo ga je smenio novembra 1867, a ne posle atentata 1868.
 - **Izvori:**
   - Ćorović, ISN, PDF str. 504 — „Чињеница је, да је кнез ненадано, 2. новембра 1867., отпустио Илију Гарашанина, који је био носилац његове спољашње политике"; navodi i tumačenje o kneževoj nameri da se oženi rođakom (Katarinom Konstantinović).
-  - Marković, *Balcanica* LI (2020), str. 148 — Garašanin je bio predsednik vlade i ministar inostranih dela „from December 1861 until November 1867… After the removal of Garašanin, [Ristić] became Serbia's minister of foreign affairs."
+  - Marković, _Balcanica_ LI (2020), str. 148 — Garašanin je bio predsednik vlade i ministar inostranih dela „from December 1861 until November 1867… After the removal of Garašanin, [Ristić] became Serbia's minister of foreign affairs."
 - **Presuda:** ✅ potvrđeno.
 
 ### Day 245 — #5 — mitropolit Mihailo: prekid 1881–1889, smrt 1898.
@@ -142,7 +142,7 @@ Napomena o izvorima: „Ćorović, ISN" = V. Ćorović, *Istorija srpskog naroda
 - **Tekst u lekciji sada:** „Crna Gora je na svom delu fronta još u septembru 1877. zauzela Nikšić, a u januaru 1878. Bar i Ulcinj."
 - **Nalaz iz prvog prolaza:** stara rečenica („istovremeno… oslobađala Nikšić, izlazila na more kod Bara i prilazila Ulcinju") pogrešno je sinhronizovala događaje.
 - **Izvori:**
-  - *Istorijski leksikon Crne Gore*, prenet na Montenegrina.net, „Crnogorsko-osmanski rat 1876–1878." (https://montenegrina.net/crnogorsko-osmanski-rat-1876-1878/) — Nikšić „konačno predao 8. septembra 1877"; „posada Bara predala se 9. januara 1878"; „nekoliko dana kasnije… oslobodile i Ulcinj".
+  - _Istorijski leksikon Crne Gore_, prenet na Montenegrina.net, „Crnogorsko-osmanski rat 1876–1878." (https://montenegrina.net/crnogorsko-osmanski-rat-1876-1878/) — Nikšić „konačno predao 8. septembra 1877"; „posada Bara predala se 9. januara 1878"; „nekoliko dana kasnije… oslobodile i Ulcinj".
   - Projekat Rastko – Cetinje, „Crna Gora od kraja XV veka do 1914. godine" (https://www.rastko.rs/rastko-cg/povijest/Cg-XIV-XX.html) — „Tokom januara 1878. godine Crnogorci su zauzeli Bar, Ulcinj i nekoliko utvrđenja na Skadarskom jezeru."
   - Ćorović, ISN, PDF str. 521 — Crnogorci „још тога лета освојили су Никшић и Билећу", zatim „почео опсаду Бара".
 - **Presuda:** ✅ potvrđeno.
@@ -153,7 +153,7 @@ Napomena o izvorima: „Ćorović, ISN" = V. Ćorović, *Istorija srpskog naroda
 - **Nalaz iz prvog prolaza:** stara tvrdnja („više okrenuta Britaniji nego drugima") sumnjiva; liberali su bili rusofili.
 - **Izvori:**
   - Ćorović, ISN, PDF str. 528 — kralj je nalazio da su radikali „скоро више од либерала, захваћени „панславистичком" струјом. Само, док су либерали тражили везе са службеном и црквеном Русијом, радикали су важили као васпитаници левичарске и нихилистичке Русије."
-  - S. Bogosavac, *Spoljna politika Srbije između Rusije i Austrougarske 1878–1886*, master rad, Filozofski fakultet Novi Sad, 2023 (https://remaster.ff.uns.ac.rs/materijal/punirad/Master_rad_20231003_ist_240024_2021.pdf) — srpska politika do 1878. „била русофилска"; mitropolit Mihailo, „доследни русофил", bio je „један од стубова Либералне странке" i omrznut od naprednjaka (posredna potvrda).
+  - S. Bogosavac, _Spoljna politika Srbije između Rusije i Austrougarske 1878–1886_, master rad, Filozofski fakultet Novi Sad, 2023 (https://remaster.ff.uns.ac.rs/materijal/punirad/Master_rad_20231003_ist_240024_2021.pdf) — srpska politika do 1878. „била русофилска"; mitropolit Mihailo, „доследни русофил", bio je „један од стубова Либералне странке" i omrznut od naprednjaka (posredna potvrda).
 - **Presuda:** ✅ potvrđeno (Ćorović izričito; master rad posredno). Nijedan izvor ne podržava staru „britansku" orijentaciju.
 
 ### Day 254 — #4 — bunu je ugušila vlada Nikole Hristića
@@ -182,7 +182,7 @@ Napomena o izvorima: „Ćorović, ISN" = V. Ćorović, *Istorija srpskog naroda
 - **Nalaz iz prvog prolaza:** izostavljeno da je kralj vlast predao radikalima; dodato.
 - **Izvori:**
   - Ćorović, ISN, PDF str. 537 — 1. aprila 1893. kralj se proglasio punoletnim i razrešio namesnike i ministre; „Нову владу саставио је бивши краљев гувернер, др Лаза Докић, са неколико угледних радикала… захваљујући понајвише радикалима, који су се ослободили либералског терора и поново дошли до власти."
-  - „Jovan Avakumović", *Srpska enciklopedija* (srpskaenciklopedija.org, otvoreno preko curl-a zbog istekao sertifikata) — predsednik vlade od 22. avgusta 1892. do 13. aprila 1893; „Краљ је тада срушио Авакумовићеву владу и дао мандат Лазару Докићу"; Skupština „у којој су радикали имали већину" potom je optužila Avakumovićevu vladu.
+  - „Jovan Avakumović", _Srpska enciklopedija_ (srpskaenciklopedija.org, otvoreno preko curl-a zbog istekao sertifikata) — predsednik vlade od 22. avgusta 1892. do 13. aprila 1893; „Краљ је тада срушио Авакумовићеву владу и дао мандат Лазару Докићу"; Skupština „у којој су радикали имали већину" potom je optužila Avakumovićevu vladu.
 - **Presuda:** ✅ potvrđeno (Dokić nije bio formalno radikal, ali vlada je bila radikalska — oba izvora).
 
 ### Day 259 — #3 — datum Majskog prevrata
@@ -221,7 +221,7 @@ Napomena o izvorima: „Ćorović, ISN" = V. Ćorović, *Istorija srpskog naroda
 - **Tekst u lekciji sada:** „U Beogradu je proširena velika akcionarska klanica; nove velike klanice nikle su u Šapcu i Smederevu." (Vajfert uklonjen iz keyPeople.)
 - **Nalaz iz prvog prolaza:** klanicu je podiglo akcionarsko društvo beogradskih trgovaca (osn. 1895, gradio Miloš Savčić, 1898); veza sa Vajfertom nije potvrđena.
 - **Izvori:**
-  - V. Aleksić, „Sprega države i akcionarskih banaka u Srbiji do Drugog svetskog rata: primer Izvozne banke AD (I deo)", *Bankarstvo* 9–10/2011, str. 112–114 (https://www.ubs-asb.com/Portals/0/Casopis/2011/9_10/UBS-Bankarstvo-09-10-2011-Aleksic.pdf) — vlada 1895. donosi zakon o državnoj pomoći klaničkim preduzećima; Miloš Savčić dobija izgradnju; „Srpsko akcionarsko društvo za klanje i preradu stoke u Beogradu… izgrađeno isključivo na domaćem kapitalu, odnosno dobrim delom su je finansirali akcionari i članovi Uprave Izvozne banke ad." Vajfert se pominje samo kao predsednik jedne zadruge 1882–1890.
+  - V. Aleksić, „Sprega države i akcionarskih banaka u Srbiji do Drugog svetskog rata: primer Izvozne banke AD (I deo)", _Bankarstvo_ 9–10/2011, str. 112–114 (https://www.ubs-asb.com/Portals/0/Casopis/2011/9_10/UBS-Bankarstvo-09-10-2011-Aleksic.pdf) — vlada 1895. donosi zakon o državnoj pomoći klaničkim preduzećima; Miloš Savčić dobija izgradnju; „Srpsko akcionarsko društvo za klanje i preradu stoke u Beogradu… izgrađeno isključivo na domaćem kapitalu, odnosno dobrim delom su je finansirali akcionari i članovi Uprave Izvozne banke ad." Vajfert se pominje samo kao predsednik jedne zadruge 1882–1890.
   - Večernje novosti, „Crvena kuća kao sećanje na zonu industrije…" (https://www.novosti.rs/beograd/vesti/1586370/...) — Beogradska klanica „izgrađena 1898. godine, sa najsavremenijom opremom", vezana za Savčića (bez pominjanja Vajferta).
   - Ćorović, ISN, PDF str. 553 — tokom carinskog rata „Тад се у земљи подижу прве велике модерне кланице."
 - **Presuda:** ✅ potvrđeno za suštinu ispravke (akcionarska klanica na domaćem kapitalu, bez Vajferta). Glagol „proširena" (tokom carinskog rata) nijedan otvoreni izvor posebno ne potvrđuje; ako vlasnik želi potpunu sigurnost, „proširena" može postati „radila je".
@@ -231,7 +231,7 @@ Napomena o izvorima: „Ćorović, ISN" = V. Ćorović, *Istorija srpskog naroda
 - **Tekst u lekciji sada:** „Beč je tražio da Srbija nove topove naruči od češke Škode, što bi u svakom političkom sukobu sa Monarhijom značilo i pretnju da će topovi ostati bez rezervnih delova… Kada se Beograd opredelio za francuski Šnajder i francuski zajam, to je bio jedan od povoda Carinskom ratu (1906–1911)…"
 - **Nalaz iz prvog prolaza:** stari tekst je obrnuo uzročnost (kao da je carinski rat „oslobodio" vojsku zavisnosti od Škode).
 - **Izvori:**
-  - „Topovsko pitanje", *Srpska enciklopedija* (srpskaenciklopedija.org, otvoreno preko curl-a) — Beču je srpska porudžbina trebala „да спаси заводе Шкода"; Goluhovski „је чак претио и царинским ратом, ако би се одустало од поруџбине"; austrijske novine: ako topove ne kupi u Austriji, „да тада гледа где ће продати свиње"; ugovor sa „Шнајдер-Крезо" 20. novembra, zajam 25. novembra 1906.
+  - „Topovsko pitanje", _Srpska enciklopedija_ (srpskaenciklopedija.org, otvoreno preko curl-a) — Beču je srpska porudžbina trebala „да спаси заводе Шкода"; Goluhovski „је чак претио и царинским ратом, ако би се одустало од поруџбине"; austrijske novine: ako topove ne kupi u Austriji, „да тада гледа где ће продати свиње"; ugovor sa „Шнајдер-Крезо" 20. novembra, zajam 25. novembra 1906.
   - Ćorović, ISN, PDF str. 553 — povod carinskom ratu bio je srpsko-bugarski carinski savez; „У току тог царинског рата аустриска влада је постављала као услов Србији за обнову трговачког уговора још и то, да мора у њеним фабрикама оружја набавити известан број топовских батерија… Српска влада није хтела попустити".
 - **Presuda:** ✅ potvrđeno — formulacija „jedan od povoda" u skladu je sa oba izvora (Ćorović kao glavni povod ističe carinski savez s Bugarskom, a topove kao uslov tokom rata; Srpska enciklopedija beleži pretnju carinskim ratom zbog topova).
 
@@ -295,18 +295,19 @@ Napomena o izvorima: „Ćorović, ISN" = V. Ćorović, *Istorija srpskog naroda
 
 ## Zbir
 
-| Presuda | Broj |
-|---|---|
-| ✅ potvrđeno | 25 |
-| ❌ ispraviti | 0 |
-| ↩ vratiti | 0 |
-| ❓ otvoreno | 4 |
+| Presuda             | Broj   |
+| ------------------- | ------ |
+| ✅ potvrđeno        | 25     |
+| ❌ ispraviti        | 0      |
+| ↩ vratiti           | 0      |
+| ❓ otvoreno         | 4      |
 | **Ukupno ⚠ stavki** | **29** |
 
 **❓ otvoreno (za vlasnika):**
+
 - Day 231 #2 — opšta rečenica o „uređenom poreskom sistemu" nije potvrđena; uklanjanje poreza na imovinu i prihod podržava jedan naučni izvor (SANU 2017).
 - Day 233 #2 — ko je dao naslov „Načertanije": nijedan izvor ne potvrđuje ni Garašanina ni kasnije istoričare; predlog ublažavanja: „dokument poznat kao Načertanije".
 - Day 239 #2 — „Pibodi" potvrđen; da su Grinovke 1876. nosio prvi poziv sporno (jedan izvor kaže drugi poziv); predlog: „…glavno naoružanje narodne vojske…".
-- Day 241 #1 — „Vesle, kod Beča" potvrđuje samo Marković (*Balcanica* 2020); stara verzija („kod Marijenbada") nema podršku — ostaviti sadašnji tekst.
+- Day 241 #1 — „Vesle, kod Beča" potvrđuje samo Marković (_Balcanica_ 2020); stara verzija („kod Marijenbada") nema podršku — ostaviti sadašnji tekst.
 
 **Usputna zapažanja (nisu ⚠ stavke):** Day 238 — Ćorović (PDF str. 502) kaže da sa Rumunijom savez nije sklopljen („само везе заинтересованог пријатељства"), a lekcija kaže da su sa Rumunijom „potpisani sporazumi"; vredi proveriti.

@@ -11,7 +11,13 @@
   "dateLabel": "1690.",
   "timelinePosition": "1690.",
   "summary": "Bečki rat, habzburški prodor na jug, ustanak pod patrijarhom Arsenijem III i, posle osmanskog protivudara, masovno povlačenje preko Save i Dunava 1690.",
-  "keyPeople": ["Arsenije III Čarnojević", "Leopold I", "Jovan Monasterlija", "Ludvig Badenski", "Eneja Silvio Pikolomini"],
+  "keyPeople": [
+    "Arsenije III Čarnojević",
+    "Leopold I",
+    "Jovan Monasterlija",
+    "Ludvig Badenski",
+    "Eneja Silvio Pikolomini"
+  ],
   "keyPlaces": ["Beograd", "Sava", "Dunav", "Niš", "Peć", "Sremski Karlovci"],
   "content": [
     {

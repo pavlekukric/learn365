@@ -33,10 +33,7 @@ const EMPTY: readonly LessonId[] = Object.freeze([]);
  * stable across reads of the same state — safe to consume through
  * `useSyncExternalStore` without an external equality function.
  */
-export function bookmarkedLessonIds(
-  state: BookmarkState,
-  courseId: CourseId,
-): readonly LessonId[] {
+export function bookmarkedLessonIds(state: BookmarkState, courseId: CourseId): readonly LessonId[] {
   const set = state.byCourse[courseId]?.lessonIds;
   if (!set) return EMPTY;
   const cached = arrayCache.get(set);

@@ -11,7 +11,13 @@
   "dateLabel": "9. oktobar 1934.",
   "timelinePosition": "9. oktobar 1934.",
   "summary": "Kralj Aleksandar ubijen je u Marseju sa ministrom Lujom Bartuom; atentat su organizovali ustaše i VMRO uz podršku Italije i Mađarske.",
-  "keyPeople": ["Aleksandar Karađorđević", "Luj Bartu", "Vlado Černozemski", "Ante Pavelić", "knez Pavle Karađorđević"],
+  "keyPeople": [
+    "Aleksandar Karađorđević",
+    "Luj Bartu",
+    "Vlado Černozemski",
+    "Ante Pavelić",
+    "knez Pavle Karađorđević"
+  ],
   "keyPlaces": ["Marsej", "Beograd"],
   "content": [
     {

@@ -11,7 +11,13 @@
   "dateLabel": "1916.",
   "timelinePosition": "januar–jul 1916.",
   "summary": "Početkom 1916. saveznički brodovi prebacuju oko 150.000 srpskih vojnika na Krf, gde se istovremeno umire od iscrpljenosti i obnavlja vojska.",
-  "keyPeople": ["vojvoda Radomir Putnik", "vojvoda Petar Bojović", "Nikola Pašić", "Ante Trumbić", "Frano Supilo"],
+  "keyPeople": [
+    "vojvoda Radomir Putnik",
+    "vojvoda Petar Bojović",
+    "Nikola Pašić",
+    "Ante Trumbić",
+    "Frano Supilo"
+  ],
   "keyPlaces": ["Krf", "Vido", "Solun"],
   "content": [
     {

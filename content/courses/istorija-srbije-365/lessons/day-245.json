@@ -11,7 +11,15 @@
   "dateLabel": "sredina 19. veka",
   "timelinePosition": "oko 1850.",
   "summary": "Srbija sredinom 19. veka — oko milion i sto hiljada ljudi, devet desetina na selu, tanak sloj činovnika i kultura između patrijarhalnog i evropskog.",
-  "keyPeople": ["Vuk Stefanović Karadžić", "Jovan Hadžić", "Petar II Petrović Njegoš", "Branko Radičević", "Kornelije Stanković", "Anastas Jovanović", "mitropolit Mihailo"],
+  "keyPeople": [
+    "Vuk Stefanović Karadžić",
+    "Jovan Hadžić",
+    "Petar II Petrović Njegoš",
+    "Branko Radičević",
+    "Kornelije Stanković",
+    "Anastas Jovanović",
+    "mitropolit Mihailo"
+  ],
   "keyPlaces": ["Beograd", "Kragujevac", "Šabac", "Užice", "Cetinje"],
   "content": [
     {

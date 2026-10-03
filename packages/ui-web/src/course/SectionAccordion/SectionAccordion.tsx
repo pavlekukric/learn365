@@ -29,12 +29,8 @@ export function SectionAccordion({
   lessonHref,
 }: SectionAccordionProps) {
   const panelId = useId();
-  const completedCount = lessons.reduce(
-    (acc, l) => (completedIds.has(l.id) ? acc + 1 : acc),
-    0,
-  );
-  const containsCurrent =
-    currentLessonId !== null && lessons.some((l) => l.id === currentLessonId);
+  const completedCount = lessons.reduce((acc, l) => (completedIds.has(l.id) ? acc + 1 : acc), 0);
+  const containsCurrent = currentLessonId !== null && lessons.some((l) => l.id === currentLessonId);
 
   const headerCls = [
     styles.header,

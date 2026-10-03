@@ -11,7 +11,13 @@
   "dateLabel": "1878.",
   "timelinePosition": "1878.",
   "summary": "Berlinski kongres revidira Sanstefanski mir: Srbija dobija punu nezavisnost i nove krajeve na jugu, a Austro-Ugarska mandat nad Bosnom i Hercegovinom.",
-  "keyPeople": ["Jovan Ristić", "Otto von Bismarck", "knez Milan Obrenović", "Andrássy", "Gorčakov"],
+  "keyPeople": [
+    "Jovan Ristić",
+    "Otto von Bismarck",
+    "knez Milan Obrenović",
+    "Andrássy",
+    "Gorčakov"
+  ],
   "keyPlaces": ["Berlin", "San Stefano", "Niš", "Pirot", "Vranje", "Bosna i Hercegovina"],
   "content": [
     {

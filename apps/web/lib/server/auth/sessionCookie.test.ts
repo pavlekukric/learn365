@@ -58,7 +58,9 @@ describe('session cookie names (Phase 14)', () => {
   it('clears both names on https and only the plain one on http', () => {
     const secure = writer();
     clearSessionCookies(secure, true);
-    expect(secure.calls.map((c) => c.name).sort()).toEqual([SESSION_COOKIE_HOST, SESSION_COOKIE].sort());
+    expect(secure.calls.map((c) => c.name).sort()).toEqual(
+      [SESSION_COOKIE_HOST, SESSION_COOKIE].sort(),
+    );
     expect(secure.calls.every((c) => c.value === '' && c.maxAge === 0)).toBe(true);
 
     const plain = writer();

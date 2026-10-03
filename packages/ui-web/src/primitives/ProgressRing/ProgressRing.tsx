@@ -36,11 +36,7 @@ export function ProgressRing({
   const center = size / 2;
 
   return (
-    <div
-      className={styles.ring}
-      role="img"
-      aria-label={label ?? `${String(pct)} % pročitano`}
-    >
+    <div className={styles.ring} role="img" aria-label={label ?? `${String(pct)} % pročitano`}>
       <svg
         className={styles.svg}
         viewBox={`0 0 ${String(size)} ${String(size)}`}

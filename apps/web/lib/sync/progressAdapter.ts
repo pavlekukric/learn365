@@ -26,7 +26,10 @@ export interface ProgressDelta {
 export function parseProgressWire(value: unknown): CourseProgressSnapshot | null {
   if (value === null || typeof value !== 'object') return null;
   const { completedLessonIds, lastOpenedLessonId, updatedAt } = value as Record<string, unknown>;
-  if (!Array.isArray(completedLessonIds) || !completedLessonIds.every((id) => typeof id === 'string')) {
+  if (
+    !Array.isArray(completedLessonIds) ||
+    !completedLessonIds.every((id) => typeof id === 'string')
+  ) {
     return null;
   }
   if (lastOpenedLessonId !== null && typeof lastOpenedLessonId !== 'string') return null;
@@ -77,7 +80,8 @@ export const progressDeltaCodec: DeltaCodec<ProgressDelta> = {
     if (value === null || typeof value !== 'object') return null;
     const { complete, uncomplete, lastOpened } = value as Record<string, unknown>;
     if (!isStringArray(complete) || !isStringArray(uncomplete)) return null;
-    if (lastOpened !== undefined && lastOpened !== null && typeof lastOpened !== 'string') return null;
+    if (lastOpened !== undefined && lastOpened !== null && typeof lastOpened !== 'string')
+      return null;
     const base = { complete: new Set(complete), uncomplete: new Set(uncomplete) };
     return lastOpened === undefined ? base : { ...base, lastOpened };
   },
@@ -116,7 +120,10 @@ export function createProgressAdapter(
           const before = prev.byCourse[courseId];
           const after = state.byCourse[courseId];
           if (before === after) continue;
-          const { added, removed } = diffSets(before?.completedLessonIds, after?.completedLessonIds);
+          const { added, removed } = diffSets(
+            before?.completedLessonIds,
+            after?.completedLessonIds,
+          );
           const lastBefore = before?.lastOpenedLessonId ?? null;
           const lastAfter = after?.lastOpenedLessonId ?? null;
           if (added.length === 0 && removed.length === 0 && lastBefore === lastAfter) continue;

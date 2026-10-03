@@ -11,7 +11,15 @@
   "dateLabel": "19. vek",
   "timelinePosition": "19. vek",
   "summary": "Srpsko obrazovanje i nauka u 19. veku — od prvih škola i gimnazija, preko Liceja i Velike škole, do Učenog društva, Akademije i Univerziteta 1905.",
-  "keyPeople": ["Josif Pančić", "Jovan Cvijić", "Mihailo Petrović Alas", "Slobodan Jovanović", "Jovan Žujović", "kralj Milan Obrenović", "kralj Petar I Karađorđević"],
+  "keyPeople": [
+    "Josif Pančić",
+    "Jovan Cvijić",
+    "Mihailo Petrović Alas",
+    "Slobodan Jovanović",
+    "Jovan Žujović",
+    "kralj Milan Obrenović",
+    "kralj Petar I Karađorđević"
+  ],
   "keyPlaces": ["Kragujevac", "Beograd", "Sremski Karlovci", "Niš", "Beč", "Berlin"],
   "content": [
     {

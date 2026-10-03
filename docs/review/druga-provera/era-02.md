@@ -3,19 +3,21 @@
 Izvor zadatka: `docs/review/era-02-nemanjici.md`, svi redovi tabela sa „⚠" (32 reda). Bulet-stavke „Ograda" na kraju izveštaja (Day 059, 066, 079, 086/087) nisu redovi tabele i nisu ovde obrađene. Lekcije nisu menjane.
 
 **Ukupno: 32 stavke**
+
 - ✅ potvrđeno: 28
 - ❌ ispraviti: 0
 - ↩ vratiti: 0
 - ❓ otvoreno: 4 — Day 047 #1 (datum Vlastimirovog rata), Day 063 #1 (oblik reči „urbura"), Day 065 #3 (godina braka Dragutina i Katarine), Day 083 #1 (poreklo Novog Brda: kraj 13. ili početak 14. veka)
 
 **Opcione, bezbedne izmene za vlasnika (nijedna nije obavezna, nijedna ne dodaje nov podatak):**
+
 - Day 047: „u ratu vođenom oko 839–842. godine" → „u trogodišnjem ratu vođenom oko 840. godine" (Ćorović: 840–850, datum nesiguran).
 - Day 063: „takozvana „urbura”" → „takozvani „urbur”" (oblik iz dva otvorena izvora: „urbur" / „urbor").
 - Day 065: „sklopljen još oko 1268" → „sklopljen još krajem šezdesetih godina" (Lazarević: najverovatnije 1270).
 - Day 083: „početkom 14. veka (prvi pomen 1326)" → „krajem 13. ili početkom 14. veka (prvi pomen 1326)".
 - Day 070 (nije ⚠ red, ali je nesklad u lekcijama): „Već nekoliko decenija kasnije crkva je oca … počela da poštuje kao svetitelja" ne slaže se sa Day 073 i izvorima (kult 1343, dvanaest godina posle smrti) — predlog „Već desetak godina kasnije…".
 
-**Glavni izvori ovog prolaza (osim Ćorovića):** J. Deretić, *Istorija srpske književnosti* (PDF); D. Lazarević, „Teritorija kralja Dragutina" (Glasnik IA Valjevo 25); S. Šarkić, „Maistorije, sokalnici i seoski popovi" (Zbornik PF Novi Sad 2011); D. Kovačević-Kojić, *Balcanica* XLV (2014); Danilovi nastavljači (Projekat Rastko, prevod); Srpska enciklopedija, s.v. Gračanica; decani.org; hilandar.info; Muzej srpskog jezika FF Beograd; Mapping Eastern Europe (Princeton).
+**Glavni izvori ovog prolaza (osim Ćorovića):** J. Deretić, _Istorija srpske književnosti_ (PDF); D. Lazarević, „Teritorija kralja Dragutina" (Glasnik IA Valjevo 25); S. Šarkić, „Maistorije, sokalnici i seoski popovi" (Zbornik PF Novi Sad 2011); D. Kovačević-Kojić, _Balcanica_ XLV (2014); Danilovi nastavljači (Projekat Rastko, prevod); Srpska enciklopedija, s.v. Gračanica; decani.org; hilandar.info; Muzej srpskog jezika FF Beograd; Mapping Eastern Europe (Princeton).
 
 ---
 
@@ -44,7 +46,7 @@ Izvor zadatka: `docs/review/era-02-nemanjici.md`, svi redovi tabela sa „⚠" (
 - **Nalaz iz prvog prolaza:** „nešto kasnije" → „nešto ranije" (Sava ~1208, Stefan ~1216); Pantino i tamnovanje su iz Stefanovog žitija (primenjeno).
 - **Izvori:**
   - Ćorović, ISN, PDF str. 116: Sava je pisac „прво, лепо писано, оригинално житије српско (рађено као увод за Студенички Типик) Стевана Немање".
-  - J. Deretić, *Istorija srpske književnosti* (PDF, ucg.ac.me — https://www.ucg.ac.me/skladiste/blog_23003/objava_66242/fajlovi/Deretic%20Istorija%20srpske%20knjizevnosti.pdf), PDF str. 12: Savin *Život gospodina Simeona* „obuhvaćene su samo poslednje, monaške godine Nemanjina života. Raniji život izložen je sažeto"; Stefanov *Život i podvizi svetog Simeona* „(oko 1216) jeste prva naša celovita biografija".
+  - J. Deretić, _Istorija srpske književnosti_ (PDF, ucg.ac.me — https://www.ucg.ac.me/skladiste/blog_23003/objava_66242/fajlovi/Deretic%20Istorija%20srpske%20knjizevnosti.pdf), PDF str. 12: Savin _Život gospodina Simeona_ „obuhvaćene su samo poslednje, monaške godine Nemanjina života. Raniji život izložen je sažeto"; Stefanov _Život i podvizi svetog Simeona_ „(oko 1216) jeste prva naša celovita biografija".
   - Lj. Juhas-Georgievska, „Stefan Prvovenčani i njegovo književno delo" (zlatousti.org — https://zlatousti.org/index.php/sample-sites-2/213-stefan-prvovencani-i-njegovo-knjizevno-delo-zitije-svetog-simeona): Stefanovo žitije pisano duže, „uzima se obično 1208", završeno pouzdano 1216; Savin „opširniji životopis u Studeničkom tipiku (1208)"; Stefanovo žitije opisuje Pantino i Nemanjino tamnovanje.
 - **Presuda:** ✅ potvrđeno. (Napomena: „kraće" i „ćuti" su u skladu sa Deretićem — Savino žitije prethodni život daje samo sažeto.)
 
@@ -53,7 +55,7 @@ Izvor zadatka: `docs/review/era-02-nemanjici.md`, svi redovi tabela sa „⚠" (
 - **Tekst u lekciji sada:** „O događaju najpotpunije svedoči Stefan Prvovenčani u žitiju svog oca, napisanom dvadesetak godina kasnije (oko 1216)."
 - **Nalaz iz prvog prolaza:** „nekoliko godina kasnije" → „dvadesetak godina kasnije (oko 1216)" (primenjeno).
 - **Izvori:**
-  - J. Deretić, *Istorija srpske književnosti*, PDF str. 12: „Život i podvizi svetog Simeona (oko 1216)".
+  - J. Deretić, _Istorija srpske književnosti_, PDF str. 12: „Život i podvizi svetog Simeona (oko 1216)".
   - Lj. Juhas-Georgievska, zlatousti.org (gore): „godina završetka je pouzdana (1216)".
   - (Abdikacija 1196 — Ćorović, ISN, PDF str. 106, kontekst Nemanjinog odlaska; razmak ≈ 20 godina.)
 - **Presuda:** ✅ potvrđeno.
@@ -81,7 +83,7 @@ Izvor zadatka: `docs/review/era-02-nemanjici.md`, svi redovi tabela sa „⚠" (
 - **Tekst u lekciji sada:** „Rudarska renta, takozvana „urbura”, postala je glavni izvor državnih prihoda."
 - **Nalaz iz prvog prolaza:** „urbar" → „urbura" (urbar je popis kmetskih obaveza) (primenjeno).
 - **Izvori:**
-  - S. Vujić, *Istorija srpskog rudarstva* (PDF, serbianmedievalcoins.com — https://www.serbianmedievalcoins.com/resources/Istorija%20Srpskog%20Rudarstva.pdf), PDF str. 16: „Rudnici su imali obavezu da deo iskopane rude ustupe vladaru. To je bio porez koji se nazivao urbur i njega su ubirali urburari."
+  - S. Vujić, _Istorija srpskog rudarstva_ (PDF, serbianmedievalcoins.com — https://www.serbianmedievalcoins.com/resources/Istorija%20Srpskog%20Rudarstva.pdf), PDF str. 16: „Rudnici su imali obavezu da deo iskopane rude ustupe vladaru. To je bio porez koji se nazivao urbur i njega su ubirali urburari."
   - Tekst Zakona o rudnicima despota Stefana u prevodu (pokimica.com — https://pokimica.com/zakon-o-rudnicima-despota-stefana-lazarevica/): u samom zakonu stoje oblici „урбор" („данак, дажбина која се даје држави у току рударске експлоатације") i „урбарар" (državni službenik).
   - Ćorović, ISN: termin nije nađen (pretraga „урбур/урбар").
 - **Presuda:** ❓ otvoreno. Da je reč o dažbini na iskopanu rudu potvrđuju oba izvora, ali oblik reči varira: Vujić „urbur", zakonski tekst „urbor/urbarar"; oblik „urbura" (uobičajen u istoriografiji, npr. Ćirković) nisam našao u dva otvorena izvora. Ni prvobitno „urbar" nije čista greška, jer zakon ima „urbarar". Ako vlasnik želi sigurnu varijantu: „takozvani „urbur”". „Glavni izvor državnih prihoda" — Vujić kaže samo da je vladar od rudnika i trgova imao velike prihode; superlativ nije dvostruko potvrđen, ali je u lekciji opšte mesto.
@@ -100,7 +102,7 @@ Izvor zadatka: `docs/review/era-02-nemanjici.md`, svi redovi tabela sa „⚠" (
 - **Tekst u lekciji sada:** „…brak sa Katarinom, kćerkom ugarskog kralja Stefana V, sklopljen još oko 1268, već vezivao za ugarski dvor."
 - **Nalaz iz prvog prolaza:** brak sklopljen oko 1268, za vlade Uroša I, posle poraza u Mačvi (primenjeno).
 - **Izvori:**
-  - D. Lazarević, „Teritorija kralja Dragutina", *Glasnik Istorijskog arhiva Valjevo* 25 — http://istorijskiarhiv.rs/sites/default/files/PODACI/materijali/GLASNIK%2025/Glasnik%2025%20Dragana%20Lazarevic.pdf , PDF str. 4: Uroš je oženio sina „кћерком угарског краља Стефана V Каталином"; braku je prethodio rat — Uroš poražen i zarobljen u proleće 1268, „а затим до склапања поменутог брака. Највероватније да је то било 1270".
+  - D. Lazarević, „Teritorija kralja Dragutina", _Glasnik Istorijskog arhiva Valjevo_ 25 — http://istorijskiarhiv.rs/sites/default/files/PODACI/materijali/GLASNIK%2025/Glasnik%2025%20Dragana%20Lazarevic.pdf , PDF str. 4: Uroš je oženio sina „кћерком угарског краља Стефана V Каталином"; braku je prethodio rat — Uroš poražen i zarobljen u proleće 1268, „а затим до склапања поменутог брака. Највероватније да је то било 1270".
   - Ćorović, ISN, PDF str. 122: Dragutin se oženio „Катарином, ћерком краља Беле IV", u kontekstu pre 1264 (zastarelo čitanje).
 - **Presuda:** ❓ otvoreno. Kontekst (brak posle poraza 1268, za Uroševe vlade) potvrđuje Lazarević; ona brak stavlja „najverovatnije" u 1270, Ćorović ranije i sa drugim ocem neveste. Bezbedna, manja izmena za vlasnika: „sklopljen još krajem šezdesetih godina" umesto „sklopljen još oko 1268" (pokriva i 1268. i 1270).
 
@@ -136,7 +138,7 @@ Izvor zadatka: `docs/review/era-02-nemanjici.md`, svi redovi tabela sa „⚠" (
 - **Tekst u lekciji sada:** „Milutin ju je posvetio Uspenju Bogorodice i učinio sedištem stare Lipljanske, kasnije Gračaničke episkopije."
 - **Nalaz iz prvog prolaza:** „novouspostavljene" → „stare" (episkopija se pominje već 1019/1020) (primenjeno).
 - **Izvori:**
-  - D. Gatarić, „Gračanica", *Srpska enciklopedija* (Matica srpska/SANU) — https://srpskaenciklopedija.rs/books/slovo-g/page/gracanica-KHk/export/html : Lipljanska episkopija se prvi put pominje 1019. u hrisovulji Vasilija II Ohridskoj arhiepiskopiji; prvo sedište bila je bazilika ispod Milutinove crkve; jednobrodna crkva oko 1230; Milutin gradi novu oko 1315–1321.
+  - D. Gatarić, „Gračanica", _Srpska enciklopedija_ (Matica srpska/SANU) — https://srpskaenciklopedija.rs/books/slovo-g/page/gracanica-KHk/export/html : Lipljanska episkopija se prvi put pominje 1019. u hrisovulji Vasilija II Ohridskoj arhiepiskopiji; prvo sedište bila je bazilika ispod Milutinove crkve; jednobrodna crkva oko 1230; Milutin gradi novu oko 1315–1321.
   - „Manastir Gračanica, zadužbina kralja Milutina", Srpska srednjovekovna istorija — https://srpskasrednjovekovnaistorija.com/manastir-gracanica-zaduzbina-kralja-milutina/ : mlađa crkva iz 13. veka „bila je sedište lipljanskih episkopa"; posle Milutina se episkopija zove i Gračanička.
 - **Presuda:** ✅ potvrđeno. (Srpska enciklopedija jeste enciklopedija, ali potpisana i stručna, nije Wikipedia.)
 
@@ -145,7 +147,7 @@ Izvor zadatka: `docs/review/era-02-nemanjici.md`, svi redovi tabela sa „⚠" (
 - **Tekst u lekciji sada:** „…„Žitije Stefana Dečanskog” koje je početkom XV veka (oko 1402–1406) sastavio Grigorije Camblak…"
 - **Nalaz iz prvog prolaza:** „u XIV veku" → „početkom XV veka (oko 1402–1406)" (primenjeno).
 - **Izvori:**
-  - J. Deretić, *Istorija srpske književnosti* (PDF, gore), PDF str. 18: Camblak „U Srbiju je došao 1402. i kao iguman manastira Dečana ostao u njoj do 1406. Za to vreme napisao je … Život Stefana Dečanskog".
+  - J. Deretić, _Istorija srpske književnosti_ (PDF, gore), PDF str. 18: Camblak „U Srbiju je došao 1402. i kao iguman manastira Dečana ostao u njoj do 1406. Za to vreme napisao je … Život Stefana Dečanskog".
   - „Grigorije Camblak – Žitije Svetog Stefana Dečanskog", Art-nit / Pero — https://www.artnit.net/pero/item/1672-grigorije-camblak-%C5%BEitije-svetog-stefana-de%C4%8Danskog.html : „Igumanujući u manastiru Dečani Grigorije Camblak je između 1402. i 1406. godine napisao Žitije".
   - (decani.org daje igumanstvo 1402–1409, što ne menja „početkom XV veka".)
 - **Presuda:** ✅ potvrđeno.
@@ -220,8 +222,8 @@ Izvor zadatka: `docs/review/era-02-nemanjici.md`, svi redovi tabela sa „⚠" (
 - **Tekst u lekciji sada:** „Sokalnici su bili zavisni ljudi sa obavezama sličnim meropaškim, ali manjim i posebnim — služba oko gospodarevog domaćinstva, oko stoke, prevoz — iako su imali sopstvena domaćinstva; njihov tačan položaj izvori ne otkrivaju sasvim."
 - **Nalaz iz prvog prolaza:** „kućna posluga koja živi u senci vlastelinove kuće" zameniti opreznijim opisom (primenjeno).
 - **Izvori:**
-  - S. Šarkić, „Maistorije, sokalnici i seoski popovi", *Zbornik radova Pravnog fakulteta u Novom Sadu* 1/2011 — https://zbornik.pf.uns.ac.rs/wp-content/uploads/2018/09/doi_10.5937_zrpfns45-0003.pdf , PDF str. 3–4: sokalnici su „категорију становништва чији правни статус није баш сасвим јасан"; „феудалне обавезе сокалника биле сличне обавезама меропаха, али квантитативно мање" (oru upola manje, ali kose seno i daju obrok kao meropah); stajali „нешто више на друштвеној лествици од меропха" (Skopska povelja 1299/1300); daju pratnju igumanu, dobijaju konja kad se sin oženi, jednom godišnje prenose tovar žita i vina.
-  - J. Kovačić Kostić, „Porezi i carine u srednjovekovnoj Srbiji u doba Nemanjića", *Glasnik prava* (Pravni fakultet Kragujevac) — https://www.jura.kg.ac.rs/gp/21/l/clanci/6kovacic.htm : sokalnici su „феудално зависне сеоске занатлије и послуга на властеоским имањима".
+  - S. Šarkić, „Maistorije, sokalnici i seoski popovi", _Zbornik radova Pravnog fakulteta u Novom Sadu_ 1/2011 — https://zbornik.pf.uns.ac.rs/wp-content/uploads/2018/09/doi_10.5937_zrpfns45-0003.pdf , PDF str. 3–4: sokalnici su „категорију становништва чији правни статус није баш сасвим јасан"; „феудалне обавезе сокалника биле сличне обавезама меропаха, али квантитативно мање" (oru upola manje, ali kose seno i daju obrok kao meropah); stajali „нешто више на друштвеној лествици од меропха" (Skopska povelja 1299/1300); daju pratnju igumanu, dobijaju konja kad se sin oženi, jednom godišnje prenose tovar žita i vina.
+  - J. Kovačić Kostić, „Porezi i carine u srednjovekovnoj Srbiji u doba Nemanjića", _Glasnik prava_ (Pravni fakultet Kragujevac) — https://www.jura.kg.ac.rs/gp/21/l/clanci/6kovacic.htm : sokalnici su „феудално зависне сеоске занатлије и послуга на властеоским имањима".
 - **Presuda:** ✅ potvrđeno. (Sitnica: „oko stoke" nijedan izvor ne kaže izričito; Šarkić pominje košenje sena i konje. Ako vlasnik želi da bude doslovan, može da skrati na „služba oko gospodarevog domaćinstva, pratnja i prevoz".)
 
 ### Day 083 — #1 — Novo Brdo: „početkom 14. veka (prvi pomen 1326)"
@@ -230,7 +232,7 @@ Izvor zadatka: `docs/review/era-02-nemanjici.md`, svi redovi tabela sa „⚠" (
 - **Nalaz iz prvog prolaza:** „krajem 13. veka" → „početkom 14. veka (prvi pomen 1326)" (primenjeno).
 - **Izvori:**
   - Društvo „Trag vekova", „„Grad srebrni i u istinu zlatni” – Novo Brdo" — https://tragvekova.rs/metohija-i-kosovo/grad-srebrni-i-u-istinu-zlatni-novo-brdo/ : „Оно се први пут у историјским изворима јавља 1326. године"; ali i: „Тврђава Ново Брдо настала је током првих година владавине Краља Милутина (1282—1321)".
-  - S. Vujić, *Istorija srpskog rudarstva* (gore), PDF str. 16: među najznačajnijim „kraljevskim trgovima" **u XIII veku** navodi i Novo Brdo.
+  - S. Vujić, _Istorija srpskog rudarstva_ (gore), PDF str. 16: među najznačajnijim „kraljevskim trgovima" **u XIII veku** navodi i Novo Brdo.
   - (Panacomp.net, turistički tekst, daje 1285. za tvrđavu i 1319/1325. za prvi pomen — nepouzdano, ne računam.)
 - **Presuda:** ❓ otvoreno. Godinu prvog pomena (1326) potvrđuje jedan otvoreni izvor (Trag vekova); poreklo „početkom 14. veka" otvoreni izvori ne potvrđuju — dva ga stavljaju u kraj 13. veka (Milutinove prve godine, odnosno „XIII vek"), dok prvi prolaz navodi Ćirković–Kovačević-Kojić–Ćuk za prve decenije 14. veka (nije proveravano onlajn). Bezbedna formulacija za vlasnika: „krajem 13. ili početkom 14. veka (prvi pomen 1326) počelo je da niče naselje…".
 
@@ -239,8 +241,8 @@ Izvor zadatka: `docs/review/era-02-nemanjici.md`, svi redovi tabela sa „⚠" (
 - **Tekst u lekciji sada:** „Bilo je to srebro koje je u sebi prirodno nosilo i primetan udeo zlata, koji je od žile do žile i od ugovora do ugovora znatno varirao."
 - **Nalaz iz prvog prolaza:** izbaciti konkretan odnos „jedan deo zlata na šest do deset delova srebra" (primenjeno).
 - **Izvori:**
-  - D. Kovačević-Kojić, „On the composition and processing of precious metals mined in Medieval Serbia", *Balcanica* XLV (2014) — https://doiserbia.nb.rs/Article.aspx?ID=0350-76531445097K , PDF str. 7–9: cena funte zlatonosnog srebra „depended on the copper to gold content ratio"; V. Simić, na osnovu dubrovačke građe, piše o „high gold content of the Novo Brdo silver (as high as up to 25 per cent)".
-  - S. Vujić, *Istorija srpskog rudarstva*, PDF str. 17: „U Novom Brdu je kopano takozvano glamsko srebro, koje sadrži znatnu količinu zlata".
+  - D. Kovačević-Kojić, „On the composition and processing of precious metals mined in Medieval Serbia", _Balcanica_ XLV (2014) — https://doiserbia.nb.rs/Article.aspx?ID=0350-76531445097K , PDF str. 7–9: cena funte zlatonosnog srebra „depended on the copper to gold content ratio"; V. Simić, na osnovu dubrovačke građe, piše o „high gold content of the Novo Brdo silver (as high as up to 25 per cent)".
+  - S. Vujić, _Istorija srpskog rudarstva_, PDF str. 17: „U Novom Brdu je kopano takozvano glamsko srebro, koje sadrži znatnu količinu zlata".
 - **Presuda:** ✅ potvrđeno (neodređena formulacija sa promenljivim udelom odgovara izvorima; konkretan odnos s pravom uklonjen).
 
 ### Day 085 — #2 — Teodosije preradio Domentijanovo Žitije Svetog Save
@@ -249,7 +251,7 @@ Izvor zadatka: `docs/review/era-02-nemanjici.md`, svi redovi tabela sa „⚠" (
 - **Nalaz iz prvog prolaza:** Teodosije je preradio samo Savino žitije, ne i Simeonovo (primenjeno).
 - **Izvori:**
   - Ćorović, ISN, PDF str. 137: „Теодосије, оригинални прерађивач врло популарне Доментијанове биографије Св. Саве и писац службе и похвале Св. Симеону и Св. Сави".
-  - J. Deretić, *Istorija srpske književnosti* (PDF, gore), PDF str. 12–13: Domentijan i Teodosije „napisali su Život svetog Save … Teodosijeva je napisana na osnovu Domentijanove"; Teodosije je napisao „Života svetog Save (pre 1292)", „Život Petra Koriškog, zatim retorska Pohvala Simeonu i Savi i šest liturgijskih himni".
+  - J. Deretić, _Istorija srpske književnosti_ (PDF, gore), PDF str. 12–13: Domentijan i Teodosije „napisali su Život svetog Save … Teodosijeva je napisana na osnovu Domentijanove"; Teodosije je napisao „Života svetog Save (pre 1292)", „Život Petra Koriškog, zatim retorska Pohvala Simeonu i Savi i šest liturgijskih himni".
 - **Presuda:** ✅ potvrđeno.
 
 ### Day 089 — #3 — Konča, 1366, Nikola Stanjević
@@ -316,4 +318,3 @@ Izvor zadatka: `docs/review/era-02-nemanjici.md`, svi redovi tabela sa „⚠" (
   - Ćorović, ISN, PDF str. 176: „Год. 1361. пала је Димотика, а 1363. год. Адријанопољ, у који Турци преносе своју престоницу. Већ 1366. год. држе Турци целу родопску област."
   - „Not a Battle But a Slaughter Secured the Ottoman Expansion on the Balkan Peninsula", War History Online — https://www.warhistoryonline.com/medieval/not-battle-slaughter-secured-ottoman-expansion-balkan-peninsula.html : „Soon after the entire Thrace was under Ottoman rule, their ghazi began attacking the territories of the two Serbian despots"; posle Marice makedonski gospodari nisu mogli da skupe novu vojsku.
 - **Presuda:** ✅ potvrđeno.
-

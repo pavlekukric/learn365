@@ -11,7 +11,14 @@
   "dateLabel": "4. maj 1980.",
   "timelinePosition": "4. maj 1980.",
   "summary": "Titova smrt 4. maja 1980. i veliki pogreb u Beogradu — trenutak iskrenog tugovanja koji je otkrio koliko je Jugoslavija zavisila od jednog čoveka.",
-  "keyPeople": ["Josip Broz Tito", "Leonid Brežnjev", "Margaret Tačer", "Volter Mondejl", "Erih Honeker", "Indira Gandi"],
+  "keyPeople": [
+    "Josip Broz Tito",
+    "Leonid Brežnjev",
+    "Margaret Tačer",
+    "Volter Mondejl",
+    "Erih Honeker",
+    "Indira Gandi"
+  ],
   "keyPlaces": ["Ljubljana", "Beograd", "Kuća cveća", "Dedinje", "Split"],
   "content": [
     {

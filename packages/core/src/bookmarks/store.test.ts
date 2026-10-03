@@ -1,10 +1,6 @@
 import { beforeEach, describe, expect, it } from 'vitest';
 
-import {
-  BOOKMARKS_STORAGE_KEY,
-  createBookmarkStore,
-  type BookmarkStorage,
-} from './index.js';
+import { BOOKMARKS_STORAGE_KEY, createBookmarkStore, type BookmarkStorage } from './index.js';
 
 class InMemoryStorage implements BookmarkStorage {
   private readonly data = new Map<string, string>();
@@ -44,16 +40,12 @@ describe('bookmark store', () => {
     const store = createBookmarkStore({ storage, now: fixedNow });
     store.getState().toggleBookmark('istorija-srbije-365', 'nemanjici-rani-001');
     expect(
-      store.getState().byCourse['istorija-srbije-365']?.lessonIds.has(
-        'nemanjici-rani-001',
-      ),
+      store.getState().byCourse['istorija-srbije-365']?.lessonIds.has('nemanjici-rani-001'),
     ).toBe(true);
 
     store.getState().toggleBookmark('istorija-srbije-365', 'nemanjici-rani-001');
     expect(
-      store.getState().byCourse['istorija-srbije-365']?.lessonIds.has(
-        'nemanjici-rani-001',
-      ),
+      store.getState().byCourse['istorija-srbije-365']?.lessonIds.has('nemanjici-rani-001'),
     ).toBe(false);
   });
 
@@ -62,9 +54,7 @@ describe('bookmark store', () => {
     store.getState().toggleBookmark('istorija-srbije-365', 'a');
     store.getState().toggleBookmark('istorija-srbije-365', 'b');
     store.getState().toggleBookmark('istorija-srbije-365', 'c');
-    const ids = Array.from(
-      store.getState().byCourse['istorija-srbije-365']?.lessonIds ?? [],
-    );
+    const ids = Array.from(store.getState().byCourse['istorija-srbije-365']?.lessonIds ?? []);
     expect(ids).toEqual(['a', 'b', 'c']);
   });
 

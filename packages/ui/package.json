@@ -11,7 +11,10 @@
     "./themes": "./src/themes/index.ts",
     "./globals.css": "./dist/globals.css"
   },
-  "files": ["src", "dist"],
+  "files": [
+    "src",
+    "dist"
+  ],
   "scripts": {
     "build": "tsx scripts/emit-globals.ts",
     "lint": "eslint .",

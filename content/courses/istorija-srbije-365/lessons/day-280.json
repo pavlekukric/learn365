@@ -11,7 +11,16 @@
   "dateLabel": "1804–1912.",
   "timelinePosition": "pregled",
   "summary": "Političko, institucionalno, ekonomsko i kulturno nasleđe moderne srpske države od ustanka 1804. do Balkanskih ratova — dometi i ograničenja.",
-  "keyPeople": ["Karađorđe", "Miloš Obrenović", "Mihailo Obrenović", "Milan Obrenović", "Petar I Karađorđević", "Vuk Karadžić", "Jovan Cvijić", "Stevan Mokranjac"],
+  "keyPeople": [
+    "Karađorđe",
+    "Miloš Obrenović",
+    "Mihailo Obrenović",
+    "Milan Obrenović",
+    "Petar I Karađorđević",
+    "Vuk Karadžić",
+    "Jovan Cvijić",
+    "Stevan Mokranjac"
+  ],
   "keyPlaces": ["Beograd", "Kragujevac", "Niš", "Berlin", "Carigrad", "Beč"],
   "content": [
     {

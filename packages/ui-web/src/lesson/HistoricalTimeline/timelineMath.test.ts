@@ -1,10 +1,6 @@
 import { describe, expect, it } from 'vitest';
 
-import {
-  bandWeightPercents,
-  markerPositionPercent,
-  timelineFillPercent,
-} from './timelineMath.js';
+import { bandWeightPercents, markerPositionPercent, timelineFillPercent } from './timelineMath.js';
 
 const eras = [
   { id: 'a', yearStart: 0, yearEnd: 100 },
@@ -93,8 +89,6 @@ describe('timelineFillPercent', () => {
   });
 
   it('clamps per-era completed counts to the lesson count', () => {
-    expect(
-      timelineFillPercent([{ lessonCount: 10, completedCount: 999 }]),
-    ).toBeCloseTo(100);
+    expect(timelineFillPercent([{ lessonCount: 10, completedCount: 999 }])).toBeCloseTo(100);
   });
 });

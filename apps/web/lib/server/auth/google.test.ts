@@ -87,7 +87,13 @@ describe('ID token claims', () => {
 
   it('accepts the bare issuer and an audience array; missing name/picture become null', () => {
     const identity = verifyIdTokenClaims(
-      { ...validClaims, iss: 'accounts.google.com', aud: ['other', CLIENT_ID], name: undefined, picture: '' },
+      {
+        ...validClaims,
+        iss: 'accounts.google.com',
+        aud: ['other', CLIENT_ID],
+        name: undefined,
+        picture: '',
+      },
       { clientId: CLIENT_ID, now: NOW },
     );
     expect(identity.name).toBeNull();
@@ -151,7 +157,8 @@ describe('code exchange', () => {
   it('fails on a non-2xx answer or a response without id_token', async () => {
     const bad = (async () => new Response('nope', { status: 400 })) as unknown as typeof fetch;
     await expect(exchangeAuthorizationCode(input, bad)).rejects.toThrow(GoogleTokenError);
-    const empty = (async () => new Response(JSON.stringify({}), { status: 200 })) as unknown as typeof fetch;
+    const empty = (async () =>
+      new Response(JSON.stringify({}), { status: 200 })) as unknown as typeof fetch;
     await expect(exchangeAuthorizationCode(input, empty)).rejects.toThrow(GoogleTokenError);
   });
 });

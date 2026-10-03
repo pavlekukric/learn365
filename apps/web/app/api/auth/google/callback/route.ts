@@ -45,7 +45,11 @@ export async function GET(request: NextRequest): Promise<NextResponse> {
       status: 302,
       headers: NO_STORE_HEADERS,
     });
-    response.cookies.set(oauthCookieName(auth.secureCookies), '', oauthCookieAttributes(auth.secureCookies, 0));
+    response.cookies.set(
+      oauthCookieName(auth.secureCookies),
+      '',
+      oauthCookieAttributes(auth.secureCookies, 0),
+    );
     return response;
   };
 
@@ -86,7 +90,11 @@ export async function GET(request: NextRequest): Promise<NextResponse> {
       token,
       sessionCookieAttributes(expiresAt, auth.secureCookies),
     );
-    response.cookies.set(oauthCookieName(auth.secureCookies), '', oauthCookieAttributes(auth.secureCookies, 0));
+    response.cookies.set(
+      oauthCookieName(auth.secureCookies),
+      '',
+      oauthCookieAttributes(auth.secureCookies, 0),
+    );
     return response;
   } catch (error) {
     console.error('[auth] google callback failed:', error instanceof Error ? error.message : error);

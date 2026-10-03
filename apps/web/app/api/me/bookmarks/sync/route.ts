@@ -4,10 +4,7 @@ import { EPOCH_ISO } from '@learn365/core';
 
 import { guardApi } from '@/lib/server/auth/guard';
 import { syncCourseBookmarks } from '@/lib/server/bookmarks/repository';
-import {
-  apiBadRequest,
-  apiUnavailable,
-  jsonNoStore, readJsonRecord } from '@/lib/server/http';
+import { apiBadRequest, apiUnavailable, jsonNoStore, readJsonRecord } from '@/lib/server/http';
 import { parseCourseId, parseIsoTimestamp, parseLessonIds } from '@/lib/server/validation';
 import type { BookmarksWire } from '@/lib/sync/wire';
 
@@ -26,7 +23,9 @@ export async function POST(request: NextRequest): Promise<NextResponse> {
   const lessonIds = parseLessonIds(courseId, body['lessonIds']);
   if (lessonIds === null) return apiBadRequest('lessonIds');
   if (lessonIds.dropped > 0) {
-    console.warn(`[bookmarks] sync dropped ${String(lessonIds.dropped)} unknown lesson id(s) for ${courseId}`);
+    console.warn(
+      `[bookmarks] sync dropped ${String(lessonIds.dropped)} unknown lesson id(s) for ${courseId}`,
+    );
   }
 
   try {

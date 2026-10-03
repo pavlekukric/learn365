@@ -12,7 +12,16 @@
   "timelinePosition": "april 1867.",
   "summary": "Posle bombardovanja Beograda 1862, sultan Abdul-Aziz fermanom 1867. predaje četiri preostale tvrđave, a knez Mihailo prima ključeve grada.",
   "keyPeople": ["knez Mihailo Obrenović", "Ilija Garašanin", "sultan Abdul-Aziz", "Ali Riza-paša"],
-  "keyPlaces": ["Beograd", "Kalemegdan", "Šabac", "Smederevo", "Užice", "Soko", "Kladovo", "Carigrad"],
+  "keyPlaces": [
+    "Beograd",
+    "Kalemegdan",
+    "Šabac",
+    "Smederevo",
+    "Užice",
+    "Soko",
+    "Kladovo",
+    "Carigrad"
+  ],
   "content": [
     {
       "type": "paragraph",

@@ -66,14 +66,20 @@ export async function applyProgressDelta(
   now: Date = new Date(),
 ): Promise<void> {
   const uncomplete = delta.uncomplete.filter((id) => !delta.complete.includes(id));
-  if (delta.complete.length === 0 && uncomplete.length === 0 && delta.lastOpenedLessonId === undefined) {
+  if (
+    delta.complete.length === 0 &&
+    uncomplete.length === 0 &&
+    delta.lastOpenedLessonId === undefined
+  ) {
     return;
   }
   await db.transaction(async (tx) => {
     if (delta.complete.length > 0) {
       await tx
         .insert(lessonCompletions)
-        .values(delta.complete.map((lessonId) => ({ userId, courseId, lessonId, completedAt: now })))
+        .values(
+          delta.complete.map((lessonId) => ({ userId, courseId, lessonId, completedAt: now })),
+        )
         .onConflictDoNothing();
     }
     if (uncomplete.length > 0) {

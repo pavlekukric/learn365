@@ -39,7 +39,12 @@ describe('isSignInAskDue', () => {
 
   it('is not repeated on another lesson in the same session', () => {
     expect(
-      isSignInAskDue({ ...due, completedCount: 3, lessonId: 'day-003', shownOnLessonId: 'day-002' }),
+      isSignInAskDue({
+        ...due,
+        completedCount: 3,
+        lessonId: 'day-003',
+        shownOnLessonId: 'day-002',
+      }),
     ).toBe(false);
   });
 

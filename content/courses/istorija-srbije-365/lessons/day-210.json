@@ -11,8 +11,25 @@
   "dateLabel": "1813.",
   "timelinePosition": "1813.",
   "summary": "Bez ruskog saveznika, podeljena i suočena s trostrukim osmanskim udarom, ustanička Srbija pada 1813; Karađorđe prelazi Savu, a Osmanlije ulaze u Beograd.",
-  "keyPeople": ["Karađorđe", "Mladen Milovanović","Hajduk Veljko", "Luka Lazarević", "Huršid-paša", "Mahmud II"],
-  "keyPlaces": ["Beograd", "Deligrad", "Niš", "Drina", "Sava", "Zemun", "Negotin", "Vidin", "Bosna"],
+  "keyPeople": [
+    "Karađorđe",
+    "Mladen Milovanović",
+    "Hajduk Veljko",
+    "Luka Lazarević",
+    "Huršid-paša",
+    "Mahmud II"
+  ],
+  "keyPlaces": [
+    "Beograd",
+    "Deligrad",
+    "Niš",
+    "Drina",
+    "Sava",
+    "Zemun",
+    "Negotin",
+    "Vidin",
+    "Bosna"
+  ],
   "content": [
     {
       "type": "paragraph",

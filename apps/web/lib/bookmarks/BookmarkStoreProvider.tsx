@@ -10,7 +10,11 @@ import {
   type BookmarkStoreState,
 } from '@learn365/core';
 
-import { createBookmarkAdapter, bookmarksDeltaCodec, type BookmarksDelta } from '@/lib/sync/bookmarkAdapter';
+import {
+  createBookmarkAdapter,
+  bookmarksDeltaCodec,
+  type BookmarksDelta,
+} from '@/lib/sync/bookmarkAdapter';
 import { createStoreSync, followOtherTabs, type StoreSync } from '@/lib/sync/storeSync';
 
 import { createLocalStorageAdapter } from './localStorageAdapter';
@@ -32,7 +36,10 @@ export function BookmarkStoreProvider({ children }: { children: ReactNode }) {
     });
     // Phase 23: the journal subscribes with the store, before any page
     // effect runs, so every signed-in change is queued from the first one.
-    valueRef.current = { store, sync: createStoreSync('bookmarks', createBookmarkAdapter(store), bookmarksDeltaCodec) };
+    valueRef.current = {
+      store,
+      sync: createStoreSync('bookmarks', createBookmarkAdapter(store), bookmarksDeltaCodec),
+    };
   }
   const { store, sync } = valueRef.current;
   useEffect(

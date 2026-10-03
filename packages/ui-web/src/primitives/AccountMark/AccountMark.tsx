@@ -18,7 +18,10 @@ export interface AccountMarkProps {
 /** Up to two initials from a display name (`Pavle Kukrić` → `PK`, `Ana` → `A`). */
 export function initialsFor(name: string | null): string {
   if (name === null) return '';
-  const parts = name.trim().split(/\s+/).filter((part) => part.length > 0);
+  const parts = name
+    .trim()
+    .split(/\s+/)
+    .filter((part) => part.length > 0);
   const first = parts[0]?.[0] ?? '';
   const last = parts.length > 1 ? (parts[parts.length - 1]?.[0] ?? '') : '';
   return (first + last).toLocaleUpperCase('sr-Latn');

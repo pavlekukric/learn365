@@ -38,6 +38,9 @@ describe('bookmarks merge', () => {
     const store = createBookmarkStore({ storage: new InMemoryStorage(), now: () => T1 });
     store.getState().toggleBookmark('c', 'day-050');
     store.getState().replaceCourseBookmarks('c', { lessonIds: ['day-001'], updatedAt: T2 });
-    expect(store.getState().byCourse['c']).toEqual({ lessonIds: new Set(['day-001']), updatedAt: T2 });
+    expect(store.getState().byCourse['c']).toEqual({
+      lessonIds: new Set(['day-001']),
+      updatedAt: T2,
+    });
   });
 });

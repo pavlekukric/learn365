@@ -12,7 +12,17 @@
   "timelinePosition": "jesen 1912 — proleće 1913.",
   "summary": "Posle Kumanova srpska vojska oslobađa Staru Srbiju i veći deo Makedonije, izlazi na Jadran i povlači se, a strani posmatrači beleže i nasilje nad civilima.",
   "keyPeople": ["Radomir Putnik", "Petar Bojović", "Božidar Janković", "kralj Nikola Petrović"],
-  "keyPlaces": ["Skoplje", "Prizren", "Peć", "Đakovica", "Bitolj", "Ohrid", "Skadar", "Lješ", "London"],
+  "keyPlaces": [
+    "Skoplje",
+    "Prizren",
+    "Peć",
+    "Đakovica",
+    "Bitolj",
+    "Ohrid",
+    "Skadar",
+    "Lješ",
+    "London"
+  ],
   "content": [
     {
       "type": "paragraph",

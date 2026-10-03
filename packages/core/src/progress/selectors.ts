@@ -18,11 +18,7 @@ function safePct(done: number, total: number): number {
 }
 
 /** Did the user complete this lesson? */
-export function isCompleted(
-  state: ProgressState,
-  courseId: CourseId,
-  lessonId: LessonId,
-): boolean {
+export function isCompleted(state: ProgressState, courseId: CourseId, lessonId: LessonId): boolean {
   return state.byCourse[courseId]?.completedLessonIds.has(lessonId) ?? false;
 }
 
@@ -32,10 +28,7 @@ export function completedCount(state: ProgressState, courseId: CourseId): number
 }
 
 /** Last lesson the user opened in this course, if any. */
-export function lastOpenedLessonId(
-  state: ProgressState,
-  courseId: CourseId,
-): LessonId | null {
+export function lastOpenedLessonId(state: ProgressState, courseId: CourseId): LessonId | null {
   return state.byCourse[courseId]?.lastOpenedLessonId ?? null;
 }
 

@@ -11,7 +11,12 @@
   "dateLabel": "april 1815.",
   "timelinePosition": "11/23. april 1815.",
   "summary": "Na Cveti 1815. u Takovu Miloš prihvata vođstvo Drugog ustanka — čin pažljivo pripreman sa knezovima, koji će predanje kasnije učiniti teatralnijim.",
-  "keyPeople": ["Miloš Obrenović", "Paja Jovanović", "Karađorđe Petrović", "Sulejman-paša Skopljak"],
+  "keyPeople": [
+    "Miloš Obrenović",
+    "Paja Jovanović",
+    "Karađorđe Petrović",
+    "Sulejman-paša Skopljak"
+  ],
   "keyPlaces": ["Takovo", "Gornji Milanovac", "Šumadija", "Rudnik"],
   "content": [
     {

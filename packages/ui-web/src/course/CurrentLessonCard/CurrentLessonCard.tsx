@@ -19,11 +19,7 @@ interface CurrentLessonCardProps {
   href: string;
 }
 
-export function CurrentLessonCard({
-  lesson,
-  state,
-  href,
-}: CurrentLessonCardProps) {
+export function CurrentLessonCard({ lesson, state, href }: CurrentLessonCardProps) {
   return (
     <Link href={href} className={styles.card}>
       <span className={`tiny mono ${styles.eyebrow}`}>
@@ -32,9 +28,7 @@ export function CurrentLessonCard({
       <span className={styles.title}>{lesson.title}</span>
       <span className={styles.foot}>
         <CompletionDot state={state} />
-        <span className={`tiny mono ${styles.meta}`}>
-          {lesson.readingTimeMinutes} min čitanja
-        </span>
+        <span className={`tiny mono ${styles.meta}`}>{lesson.readingTimeMinutes} min čitanja</span>
       </span>
     </Link>
   );

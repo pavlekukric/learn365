@@ -12,7 +12,16 @@
   "timelinePosition": "oko 1910.",
   "summary": "Srbija uoči 1912: nepuna tri miliona stanovnika, seljačka privreda, ali i moderne banke, prve elektrane, rudnik u Boru i izvoz koji je našao nove kupce.",
   "keyPeople": ["Đorđe Vajfert"],
-  "keyPlaces": ["Beograd", "Bor", "Paraćin", "Leskovac", "Užice", "Senjski Rudnik", "Aleksinac", "Vučje"],
+  "keyPlaces": [
+    "Beograd",
+    "Bor",
+    "Paraćin",
+    "Leskovac",
+    "Užice",
+    "Senjski Rudnik",
+    "Aleksinac",
+    "Vučje"
+  ],
   "content": [
     {
       "type": "paragraph",

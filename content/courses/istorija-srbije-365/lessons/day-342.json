@@ -11,8 +11,27 @@
   "dateLabel": "1991–1992.",
   "timelinePosition": "1991–1992.",
   "summary": "Raspad Jugoslavije u tri talasa: kratak rat u Sloveniji, dug i razoran rat u Hrvatskoj, i početak rata u Bosni i Hercegovini sa opsadom Sarajeva.",
-  "keyPeople": ["Slobodan Milošević", "Franjo Tuđman", "Alija Izetbegović", "Milan Babić", "Mile Mrkšić", "Veselin Šljivančanin", "Pavle Strugar", "lord Peter Carrington", "Cyrus Vance"],
-  "keyPlaces": ["Slovenija", "Brioni", "Vukovar", "Ovčara", "Dubrovnik", "Knin", "Sarajevo", "Bosna i Hercegovina"],
+  "keyPeople": [
+    "Slobodan Milošević",
+    "Franjo Tuđman",
+    "Alija Izetbegović",
+    "Milan Babić",
+    "Mile Mrkšić",
+    "Veselin Šljivančanin",
+    "Pavle Strugar",
+    "lord Peter Carrington",
+    "Cyrus Vance"
+  ],
+  "keyPlaces": [
+    "Slovenija",
+    "Brioni",
+    "Vukovar",
+    "Ovčara",
+    "Dubrovnik",
+    "Knin",
+    "Sarajevo",
+    "Bosna i Hercegovina"
+  ],
   "content": [
     {
       "type": "paragraph",

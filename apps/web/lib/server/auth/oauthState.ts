@@ -49,6 +49,9 @@ export interface OAuthCookieAttributes {
   readonly maxAge: number;
 }
 
-export function oauthCookieAttributes(secure: boolean, maxAge = OAUTH_COOKIE_MAX_AGE_S): OAuthCookieAttributes {
+export function oauthCookieAttributes(
+  secure: boolean,
+  maxAge = OAUTH_COOKIE_MAX_AGE_S,
+): OAuthCookieAttributes {
   return { httpOnly: true, sameSite: 'lax', secure, path: '/', maxAge };
 }

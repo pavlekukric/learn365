@@ -11,7 +11,15 @@
   "dateLabel": "1806.",
   "timelinePosition": "13. avgust 1806.",
   "summary": "Pobeda ustanika u Mačvi 13. avgusta 1806. nad Sulejman-pašinom vojskom odbranila je zapadni front ustanka i ušla u epiku Filipa Višnjića.",
-  "keyPeople": ["Karađorđe", "Jakov Nenadović", "Luka Lazarević", "Stojan Čupić", "Miloš Stojićević Pocerac", "Sulejman-paša Skopljak", "Filip Višnjić"],
+  "keyPeople": [
+    "Karađorđe",
+    "Jakov Nenadović",
+    "Luka Lazarević",
+    "Stojan Čupić",
+    "Miloš Stojićević Pocerac",
+    "Sulejman-paša Skopljak",
+    "Filip Višnjić"
+  ],
   "keyPlaces": ["Mišar", "Mačva", "Šabac"],
   "content": [
     {

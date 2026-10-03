@@ -50,7 +50,10 @@ export async function GET(request: NextRequest): Promise<NextResponse<MeResponse
       clearSessionCookies(response.cookies, auth.secureCookies);
       return response;
     }
-    const response = jsonNoStore<MeResponse>({ enabled: true, user: toPublicUser(validation.user) });
+    const response = jsonNoStore<MeResponse>({
+      enabled: true,
+      user: toPublicUser(validation.user),
+    });
     // Always re-set the cookie (Phase 12): any `/api/me/**` route may have
     // extended the row, and this is the only route that writes cookies — the
     // browser's expiry must follow the row's, not the value it was given once.
@@ -74,7 +77,9 @@ export async function DELETE(request: NextRequest): Promise<NextResponse> {
 
   let session: SessionValidation | null;
   try {
-    session = await getSessionFromToken(readSessionToken(request.cookies, auth.secureCookies)?.token);
+    session = await getSessionFromToken(
+      readSessionToken(request.cookies, auth.secureCookies)?.token,
+    );
   } catch (error) {
     if (error instanceof DbUnavailableError) return apiUnavailable();
     throw error;

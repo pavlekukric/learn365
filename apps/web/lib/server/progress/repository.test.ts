@@ -41,9 +41,27 @@ describe('progress repository', () => {
 
   it('applies deltas idempotently and tracks last opened', async () => {
     const db = connection.db;
-    await applyProgressDelta(db, userId, COURSE, { complete: ['day-001', 'day-002'], uncomplete: [] }, T1);
-    await applyProgressDelta(db, userId, COURSE, { complete: ['day-001'], uncomplete: ['day-404'] }, T1);
-    await applyProgressDelta(db, userId, COURSE, { complete: [], uncomplete: [], lastOpenedLessonId: 'day-003' }, T2);
+    await applyProgressDelta(
+      db,
+      userId,
+      COURSE,
+      { complete: ['day-001', 'day-002'], uncomplete: [] },
+      T1,
+    );
+    await applyProgressDelta(
+      db,
+      userId,
+      COURSE,
+      { complete: ['day-001'], uncomplete: ['day-404'] },
+      T1,
+    );
+    await applyProgressDelta(
+      db,
+      userId,
+      COURSE,
+      { complete: [], uncomplete: [], lastOpenedLessonId: 'day-003' },
+      T2,
+    );
 
     const snapshot = await getCourseProgress(db, userId, COURSE);
     expect(snapshot.completedLessonIds).toEqual(['day-001', 'day-002']);
@@ -54,11 +72,26 @@ describe('progress repository', () => {
     expect((await getCourseProgress(db, userId, COURSE)).completedLessonIds).toEqual(['day-002']);
 
     // A lesson in both lists is treated as completed (the newer intent).
-    await applyProgressDelta(db, userId, COURSE, { complete: ['day-001'], uncomplete: ['day-001'] }, T2);
-    expect((await getCourseProgress(db, userId, COURSE)).completedLessonIds).toEqual(['day-002', 'day-001']);
+    await applyProgressDelta(
+      db,
+      userId,
+      COURSE,
+      { complete: ['day-001'], uncomplete: ['day-001'] },
+      T2,
+    );
+    expect((await getCourseProgress(db, userId, COURSE)).completedLessonIds).toEqual([
+      'day-002',
+      'day-001',
+    ]);
 
     // Nothing to do → no row churn, timestamp untouched.
-    await applyProgressDelta(db, userId, COURSE, { complete: [], uncomplete: [] }, new Date('2030-01-01'));
+    await applyProgressDelta(
+      db,
+      userId,
+      COURSE,
+      { complete: [], uncomplete: [] },
+      new Date('2030-01-01'),
+    );
     expect((await getCourseProgress(db, userId, COURSE)).updatedAt).toBe(T2.toISOString());
   });
 
@@ -68,7 +101,11 @@ describe('progress repository', () => {
       db,
       userId,
       COURSE,
-      { completedLessonIds: ['day-010', 'day-002'], lastOpenedLessonId: 'day-011', updatedAt: '2026-09-25T00:00:00.000Z' },
+      {
+        completedLessonIds: ['day-010', 'day-002'],
+        lastOpenedLessonId: 'day-011',
+        updatedAt: '2026-09-25T00:00:00.000Z',
+      },
       new Date('2026-09-26T00:00:00.000Z'),
     );
     expect(merged.completedLessonIds).toEqual(['day-002', 'day-001', 'day-010']);
@@ -80,7 +117,11 @@ describe('progress repository', () => {
       db,
       userId,
       COURSE,
-      { completedLessonIds: ['day-020'], lastOpenedLessonId: 'day-000', updatedAt: '2020-01-01T00:00:00.000Z' },
+      {
+        completedLessonIds: ['day-020'],
+        lastOpenedLessonId: 'day-000',
+        updatedAt: '2020-01-01T00:00:00.000Z',
+      },
       new Date('2026-09-27T00:00:00.000Z'),
     );
     expect(again.completedLessonIds).toContain('day-020');
@@ -94,6 +135,8 @@ describe('progress repository', () => {
       name: null,
       picture: null,
     });
-    expect((await getCourseProgress(connection.db, other.id, COURSE)).completedLessonIds).toEqual([]);
+    expect((await getCourseProgress(connection.db, other.id, COURSE)).completedLessonIds).toEqual(
+      [],
+    );
   });
 });

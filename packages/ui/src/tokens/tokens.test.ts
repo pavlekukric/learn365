@@ -16,9 +16,7 @@ describe('color tokens', () => {
       const modernValue = modern.color[key as keyof typeof modern.color];
       const isOverridden = key in modernColorOverrides;
       if (isOverridden) {
-        expect(modernValue).toBe(
-          modernColorOverrides[key as keyof typeof modernColorOverrides],
-        );
+        expect(modernValue).toBe(modernColorOverrides[key as keyof typeof modernColorOverrides]);
       } else {
         expect(modernValue).toBe(editorialValue);
       }
