@@ -36,7 +36,7 @@
     "@electric-sql/pglite": "0.5.8",
     "@learn365/eslint-config": "workspace:*",
     "@learn365/tsconfig": "workspace:*",
-    "@next/eslint-plugin-next": "^15.5.27",
+    "@next/eslint-plugin-next": "^16.3.7",
     "@playwright/test": "^1.49.1",
     "@types/node": "^20.17.10",
     "@types/react": "^19.0.2",
