@@ -18,6 +18,7 @@ import { CourseCard, IconChev, LessonNavItem } from '@learn365/ui-web';
 
 import { useProgressStore } from '@/lib/progress/ProgressStoreProvider';
 import { useResumeLesson } from '@/lib/progress/useResumeLesson';
+import { courseHref, eraAnchorId, lessonHref, sectionAnchorId } from '@/lib/routes';
 
 import styles from './CourseOverviewEras.module.css';
 
@@ -90,7 +91,7 @@ function SectionAccordionRow({
   const showRatio = !isOpen && total > 0 && done > 0;
 
   return (
-    <li className={styles.sectionItem}>
+    <li id={sectionAnchorId(section.id)} className={styles.sectionItem}>
       <button
         type="button"
         className={`${styles.sectionRow} ${isOpen ? styles.sectionRowOpen : ''}`}
@@ -129,7 +130,7 @@ function SectionAccordionRow({
               lesson={lesson}
               active={lesson.id === currentLessonId}
               completed={completedSet?.has(lesson.id) ?? false}
-              href={`/course/${courseId}/lesson/${lesson.id}`}
+              href={lessonHref(courseId, lesson.id)}
               // The overview marks where the reader is, but that row is
               // not the page being viewed.
               isCurrentPage={false}
@@ -205,14 +206,13 @@ export function CourseOverviewEras({ courseId }: CourseOverviewErasProps) {
         // its first lesson once everything is read) — "Počni" / "Nastavi".
         const targetLesson =
           eraLessons.find((l) => !(completedSet?.has(l.id) ?? false)) ?? eraLessons[0];
-        const href = targetLesson
-          ? `/course/${courseId}/lesson/${targetLesson.id}`
-          : `/course/${courseId}`;
+        const href = targetLesson ? lessonHref(courseId, targetLesson.id) : courseHref(courseId);
         const isOpen = openEraId === era.id;
         const panelId = `era-panel-${era.id}`;
 
         return (
-          <article key={era.id} className={styles.era}>
+          // The id is the fragment a lesson's structured-data breadcrumb names.
+          <article key={era.id} id={eraAnchorId(era.id)} className={styles.era}>
             <CourseCard
               era={era}
               totalLessons={total}

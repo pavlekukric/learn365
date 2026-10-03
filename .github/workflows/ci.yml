@@ -42,13 +42,15 @@ jobs:
       - name: Generated content is current
         # Phase 10: _generated.ts + _generated.articles.ts must be exactly what
         # `pnpm gen-content` produces from content/courses/**. `add -N` makes a
-        # brand-new generated file show up in the diff too.
+        # brand-new generated file show up in the diff too. lesson-dates.json
+        # is written by the same run; a date moves only when that lesson's
+        # JSON moved, so re-running it here on another day changes nothing.
         run: |
           pnpm gen-content
-          git add -N packages/content/src/courses
-          if ! git diff --quiet -- packages/content/src/courses; then
-            echo "::error::packages/content/src/courses/**/_generated*.ts is stale — run 'pnpm gen-content' and commit the result."
-            git --no-pager diff --stat -- packages/content/src/courses
+          git add -N packages/content/src/courses content/courses
+          if ! git diff --quiet -- packages/content/src/courses 'content/courses/*/lesson-dates.json'; then
+            echo "::error::_generated*.ts or lesson-dates.json is stale — run 'pnpm gen-content' and commit the result."
+            git --no-pager diff --stat -- packages/content/src/courses 'content/courses/*/lesson-dates.json'
             exit 1
           fi
 

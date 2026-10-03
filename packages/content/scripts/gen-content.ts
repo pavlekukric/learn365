@@ -12,14 +12,28 @@
  * `node:fs` at runtime: the JSON files are the source of truth and this
  * script just makes them visible to the bundler.
  *
+ * It also keeps `content/courses/<id>/lesson-dates.json` (see
+ * `src/loader/lessonDates.ts`): a lesson whose JSON changed gets today's
+ * date, an unchanged one keeps its date, and the articles module carries the
+ * result as `lessonModifiedAt`.
+ *
  * Run via `pnpm gen-content` (root) or `pnpm --filter @learn365/content gen-content`.
  */
 
-import { mkdirSync, writeFileSync } from 'node:fs';
+import { execFileSync } from 'node:child_process';
+import { mkdirSync, readdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { dirname, join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 import { loadCourseFromFiles } from '../src/loader/index.js';
+import {
+  LESSON_DATES_FILE,
+  lessonContentHash,
+  readLessonDates,
+  serializeLessonDates,
+  updateLessonDates,
+  type LessonDates,
+} from '../src/loader/lessonDates.js';
 import { LESSON_ARTICLE_KEYS, type Lesson } from '../src/types.js';
 
 const SCRIPT_DIR = dirname(fileURLToPath(import.meta.url));
@@ -58,8 +72,66 @@ function splitLesson(lesson: Lesson): {
   return { summary, article };
 }
 
+function git(args: readonly string[]): string | null {
+  try {
+    return execFileSync('git', args, {
+      cwd: REPO_ROOT,
+      encoding: 'utf8',
+      stdio: ['ignore', 'pipe', 'ignore'],
+    }).trim();
+  } catch {
+    return null;
+  }
+}
+
+/**
+ * The date for a lesson the map has not seen with its current hash. Git is
+ * asked only for a file that is committed and unchanged in the working tree
+ * (the map's first run, or a deleted map file); an edited or brand-new
+ * lesson — and any run without full git history — gets today.
+ */
+function firstSeenDate(file: string, today: string, historyComplete: boolean): string {
+  if (!historyComplete) return today;
+  if (git(['status', '--porcelain', '--', file]) !== '') return today;
+  const committed = git(['log', '-1', '--format=%cs', '--', file]);
+  return committed !== null && /^\d{4}-\d{2}-\d{2}$/.test(committed) ? committed : today;
+}
+
+/** Rehash every lesson file and bring `lesson-dates.json` up to date. */
+function updateDates(): LessonDates {
+  const lessonsDir = join(SOURCE_DIR, 'lessons');
+  const datesFile = join(SOURCE_DIR, LESSON_DATES_FILE);
+  const hashes = new Map<string, string>();
+  const files = new Map<string, string>();
+  for (const name of readdirSync(lessonsDir).filter((f) => f.endsWith('.json'))) {
+    const file = join(lessonsDir, name);
+    const parsed: unknown = JSON.parse(readFileSync(file, 'utf8'));
+    // The loader above has already validated every file, so `id` is a string.
+    const id = (parsed as { id: string }).id;
+    hashes.set(id, lessonContentHash(parsed));
+    files.set(id, file);
+  }
+  const previous = readLessonDates(datesFile);
+  const today = new Date().toISOString().slice(0, 10);
+  // `--is-shallow-repository` prints "false" only for a full clone; no git → null.
+  const historyComplete = git(['rev-parse', '--is-shallow-repository']) === 'false';
+  const next = updateLessonDates(previous, hashes, (id) =>
+    firstSeenDate(files.get(id) ?? '', today, historyComplete),
+  );
+  writeFileSync(datesFile, serializeLessonDates(next), 'utf8');
+  return next;
+}
+
 function emit(): void {
   const loaded = loadCourseFromFiles(SOURCE_DIR);
+  const dates = updateDates();
+  const modifiedAt = Object.fromEntries(
+    loaded.lessons.map((lesson) => {
+      const entry = dates[lesson.id];
+      if (entry === undefined) throw new Error(`${LESSON_DATES_FILE}: no entry for ${lesson.id}`);
+      return [lesson.id, entry.modifiedAt];
+    }),
+  );
   const split = loaded.lessons.map((lesson) => ({ id: lesson.id, ...splitLesson(lesson) }));
   const summaries = split.map((entry) => entry.summary);
   const articles = Object.fromEntries(split.map((entry) => [entry.id, entry.article]));
@@ -83,6 +155,9 @@ export const lessons: readonly LessonSummary[] = ${JSON.stringify(summaries, nul
 import type { LessonArticle, LessonId } from '../../types.js';
 
 export const articles: Readonly<Record<LessonId, LessonArticle>> = ${JSON.stringify(articles, null, 2)};
+
+/** When each lesson's JSON last changed (\`${LESSON_DATES_FILE}\`), \`YYYY-MM-DD\`. */
+export const lessonModifiedAt: Readonly<Record<LessonId, string>> = ${JSON.stringify(modifiedAt, null, 2)};
 `;
 
   mkdirSync(OUT_DIR, { recursive: true });

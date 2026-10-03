@@ -5,6 +5,8 @@ import { useCallback, useMemo } from 'react';
 import { getEras, getLessons, type Era, type EraId } from '@learn365/content';
 import type { EraStat } from '@learn365/ui-web';
 
+import { courseHref, lessonHref } from '@/lib/routes';
+
 import { useProgressStore } from './ProgressStoreProvider';
 
 export interface EraTimeline {
@@ -41,7 +43,7 @@ export function useEraTimeline(courseId: string): EraTimeline {
   const eraHref = useCallback(
     (eraId: EraId) => {
       const firstInEra = lessons.find((l) => l.eraId === eraId);
-      return firstInEra ? `/course/${courseId}/lesson/${firstInEra.id}` : `/course/${courseId}`;
+      return firstInEra ? lessonHref(courseId, firstInEra.id) : courseHref(courseId);
     },
     [courseId, lessons],
   );

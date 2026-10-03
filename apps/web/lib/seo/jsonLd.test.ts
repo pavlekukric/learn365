@@ -27,6 +27,7 @@ describe('structured data', () => {
       dayNumber: 2,
       readingTimeMinutes: 6,
       course: { title: 'Kurs', path: '/course/c' },
+      section: 'Era I',
       author: 'Autor',
       breadcrumbs: [
         { label: 'Početna', href: '/' },
@@ -36,6 +37,7 @@ describe('structured data', () => {
     expect(article).toMatchObject({
       '@type': ['Article', 'LearningResource'],
       headline: 'Lekcija',
+      articleSection: 'Era I',
       timeRequired: 'PT6M',
       author: { '@type': 'Person', name: 'Autor' },
     });
@@ -48,6 +50,37 @@ describe('structured data', () => {
       name: 'Lekcija',
       item: `${SITE_URL}/course/c/lesson/day-002`,
     });
+  });
+
+  it('carries the date the lesson last changed, and anchors era and section on the overview', () => {
+    const [article, trail] = lessonJsonLd({
+      title: 'Lekcija',
+      description: 'Opis.',
+      path: '/course/c/lesson/day-001',
+      dayNumber: 1,
+      readingTimeMinutes: 6,
+      course: { title: 'Kurs', path: '/course/c' },
+      section: 'Era I',
+      dateModified: '2026-09-30',
+      breadcrumbs: [
+        { label: 'Početna', href: '/' },
+        { label: 'Kurs', href: '/course/c' },
+        { label: 'Era I', href: '/course/c#era-e1' },
+        { label: 'Odeljak', href: '/course/c#section-s1' },
+      ],
+    });
+    expect(article).toMatchObject({ dateModified: '2026-09-30' });
+    const items = (trail as { itemListElement: { item: string }[] }).itemListElement.map(
+      (i) => i.item,
+    );
+    expect(items).toEqual([
+      `${SITE_URL}/`,
+      `${SITE_URL}/course/c`,
+      `${SITE_URL}/course/c#era-e1`,
+      `${SITE_URL}/course/c#section-s1`,
+      `${SITE_URL}/course/c/lesson/day-001`,
+    ]);
+    expect(new Set(items).size).toBe(items.length);
   });
 
   it('serializes without a raw "<" so the script element cannot be closed early', () => {

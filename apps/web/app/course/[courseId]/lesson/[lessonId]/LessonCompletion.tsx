@@ -6,6 +6,7 @@ import { LessonFooter, type LessonFooterLink } from '@learn365/ui-web';
 import { useSignInPrompt } from '@/lib/auth/useSignInPrompt';
 import { useProgressStore } from '@/lib/progress/ProgressStoreProvider';
 import { useResumeLesson } from '@/lib/progress/useResumeLesson';
+import { lessonHref } from '@/lib/routes';
 
 interface LessonCompletionProps {
   courseId: string;
@@ -46,7 +47,7 @@ export function LessonCompletion({
       ? {
           title: resumeLesson.title,
           dayNumber: resumeLesson.dayNumber,
-          href: `/course/${courseId}/lesson/${resumeLesson.id}`,
+          href: lessonHref(courseId, resumeLesson.id),
         }
       : null;
 
@@ -65,9 +66,7 @@ export function LessonCompletion({
       resume={resume}
       courseHref={courseHref}
       signInPrompt={
-        signInPrompt.show
-          ? { href: signInPrompt.href, onDismiss: signInPrompt.dismiss }
-          : undefined
+        signInPrompt.show ? { href: signInPrompt.href, onDismiss: signInPrompt.dismiss } : undefined
       }
     />
   );

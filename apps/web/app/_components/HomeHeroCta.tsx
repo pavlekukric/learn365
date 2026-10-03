@@ -4,6 +4,7 @@ import type { CourseId } from '@learn365/content';
 import { Button, IconArrow } from '@learn365/ui-web';
 
 import { useResumeLesson } from '@/lib/progress/useResumeLesson';
+import { courseHref, lessonHref } from '@/lib/routes';
 
 import styles from '../page.module.css';
 
@@ -27,7 +28,7 @@ interface HomeHeroCtaProps {
 export function HomeHeroCta({ courseId, description }: HomeHeroCtaProps) {
   const { hasStarted, lesson } = useResumeLesson(courseId);
   if (hasStarted) return null;
-  const href = lesson ? `/course/${courseId}/lesson/${lesson.id}` : `/course/${courseId}`;
+  const href = lesson ? lessonHref(courseId, lesson.id) : courseHref(courseId);
 
   return (
     <div data-newcomer-wrap data-newcomer="block">

@@ -4,6 +4,7 @@ import { getEraForLesson, getLessons, type CourseId } from '@learn365/content';
 import { CurrentLessonCard } from '@learn365/ui-web';
 
 import { useResumeLesson } from '@/lib/progress/useResumeLesson';
+import { lessonHref } from '@/lib/routes';
 
 interface HomeCurrentLessonCardProps {
   courseId: CourseId;
@@ -26,7 +27,7 @@ export function HomeCurrentLessonCard({ courseId }: HomeCurrentLessonCardProps) 
 
   const era = getEraForLesson(courseId, lesson.id);
   const state = allDone ? 'done' : hasStarted ? 'active' : 'idle';
-  const href = `/course/${courseId}/lesson/${lesson.id}`;
+  const href = lessonHref(courseId, lesson.id);
 
   return (
     <div data-newcomer-wrap data-newcomer={hasStarted ? undefined : 'inline'}>
