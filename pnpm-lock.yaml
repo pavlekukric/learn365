@@ -73,8 +73,8 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/tsconfig
       '@next/eslint-plugin-next':
-        specifier: ^15.5.27
-        version: 15.5.27
+        specifier: ^16.3.7
+        version: 16.3.7(eslint@9.39.4)
       '@playwright/test':
         specifier: ^1.49.1
         version: 1.60.0
@@ -852,6 +852,12 @@ packages:
     cpu: [x64]
     os: [win32]
 
+  '@eslint-community/eslint-utils@4.10.1':
+    resolution: {integrity: sha512-cuadcxVFE8sDK6iWJbs8Sn0av2Nrh2QSGQhVlBW9AaAHqHwjWsZHT8LJ4hFGPh7ASBV2deFdM7H/DPjulmh8rg==}
+    engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+    peerDependencies:
+      eslint: ^6.0.0 || ^7.0.0 || >=8.0.0
+
   '@eslint-community/eslint-utils@4.9.1':
     resolution: {integrity: sha512-phrYmNiYppR7znFEdqgfWHXR6NCkZEK7hwWDHZUjit/2/U0r6XvkDl0SYnoM51Hq7FhCGdLDT6zxCCOY1hexsQ==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
@@ -1062,8 +1068,8 @@ packages:
   '@next/env@15.5.27':
     resolution: {integrity: sha512-WC5hvVqiuFOcRyz6gKPeJkiVvSMf3scNeAV49CdWtVqxmUlzh8UKR6YHt9yiNkh8LngtzqSlVz07/Ma3ZAzchA==}
 
-  '@next/eslint-plugin-next@15.5.27':
-    resolution: {integrity: sha512-a94xlzvOLaULh4Fzcvj9B2hwIOtPHJW75gghkXiJ8s1Jk0eo00UknrDVhx04Y+8ARu9ds13vy/jHg5u/PdVGqw==}
+  '@next/eslint-plugin-next@16.3.7':
+    resolution: {integrity: sha512-ZQwUKBxqKAasarxLHJkkIv0cuG80pJ7TKvCUcFvlKewkuzYkL+Lsxb++DQlcBnY4uT0kOazDye4j1pyDPlDcDQ==}
 
   '@next/swc-darwin-arm64@15.5.27':
     resolution: {integrity: sha512-fBA9QurmK4+uj4wNhmRTuO5zMVRaBHCvp6H93zTG/5i6Yi6TewbvbesXB8YQNj8T99Cwrow87hHiFV6wL/hyMA==}
@@ -1826,8 +1832,8 @@ packages:
   fast-levenshtein@2.0.6:
     resolution: {integrity: sha512-DCXu6Ifhqcks7TZKY3Hxp3y6qphY5SJZmrWMDrKcERSOXWQdMhU9Ig/PYrzyw/ul9jOIyh0N4M0tbC5hodg8dw==}
 
-  fastq@1.20.1:
-    resolution: {integrity: sha512-GGToxJ/w1x32s/D2EKND7kTil4n8OVk/9mycTc4VDza13lOvpUZTGX3mFSCtV9ksdGBVzvsyAVLM6mHFThxXxw==}
+  fastq@1.20.3:
+    resolution: {integrity: sha512-XKv5nnLs6nLF71NgiKJLIZFLkPyIEuOselLG7ujZnGrRfQK8HpvY+WqKhAJUAdLomwVHErVS4LfxFlPq0/FTAw==}
 
   fdir@6.5.0:
     resolution: {integrity: sha512-tIbYtZbucOs0BRGqPJkshJUYdL+SDH7dVM8gjy+ERp3WAUjLEFJE+02kanyHtwjWOnwrKYBiwAmM0p4kLJAnXg==}
@@ -2230,8 +2236,8 @@ packages:
     resolution: {integrity: sha512-V7+vQEJ06Z+c5tSye8S+nHUfI51xoXIXjHQ99cQtKUkQqqO1kO/KCJUfZXuB47h/YBlDhah2H3hdUGXn8ie0oA==}
     engines: {node: '>=8.6'}
 
-  picomatch@4.0.4:
-    resolution: {integrity: sha512-QP88BAKvMam/3NxH6vj2o21R6MjxZUAd6nlwAS/pnGvN9IVLocLHxGYIzFhg6fUQ+5th6P4dv4eW9jX3DSIj7A==}
+  picomatch@4.0.7:
+    resolution: {integrity: sha512-qcJu88Q2IWqJsDD529JKMdwGm/dvInW4HvQnRwiH9JtihJvzGOscDtHE3x1pBKeUOTysQ8kVmLnJ2kJu7yhcGA==}
     engines: {node: '>=12'}
 
   playwright-core@1.60.0:
@@ -2962,6 +2968,11 @@ snapshots:
   '@esbuild/win32-x64@0.27.7':
     optional: true
 
+  '@eslint-community/eslint-utils@4.10.1(eslint@9.39.4)':
+    dependencies:
+      eslint: 9.39.4
+      eslint-visitor-keys: 3.4.3
+
   '@eslint-community/eslint-utils@4.9.1(eslint@9.39.4)':
     dependencies:
       eslint: 9.39.4
@@ -3135,9 +3146,12 @@ snapshots:
 
   '@next/env@15.5.27': {}
 
-  '@next/eslint-plugin-next@15.5.27':
+  '@next/eslint-plugin-next@16.3.7(eslint@9.39.4)':
     dependencies:
+      '@eslint-community/eslint-utils': 4.9.1(eslint@9.39.4)
       fast-glob: 3.3.1
+    transitivePeerDependencies:
+      - eslint
 
   '@next/swc-darwin-arm64@15.5.27':
     optional: true
@@ -3173,7 +3187,7 @@ snapshots:
   '@nodelib/fs.walk@1.2.8':
     dependencies:
       '@nodelib/fs.scandir': 2.1.5
-      fastq: 1.20.1
+      fastq: 1.20.3
 
   '@playwright/test@1.60.0':
     dependencies:
@@ -3371,7 +3385,7 @@ snapshots:
 
   '@typescript-eslint/utils@8.59.3(eslint@9.39.4)(typescript@5.9.3)':
     dependencies:
-      '@eslint-community/eslint-utils': 4.9.1(eslint@9.39.4)
+      '@eslint-community/eslint-utils': 4.10.1(eslint@9.39.4)
       '@typescript-eslint/scope-manager': 8.59.3
       '@typescript-eslint/types': 8.59.3
       '@typescript-eslint/typescript-estree': 8.59.3(typescript@5.9.3)
@@ -3946,13 +3960,13 @@ snapshots:
 
   fast-levenshtein@2.0.6: {}
 
-  fastq@1.20.1:
+  fastq@1.20.3:
     dependencies:
       reusify: 1.1.0
 
-  fdir@6.5.0(picomatch@4.0.4):
+  fdir@6.5.0(picomatch@4.0.7):
     optionalDependencies:
-      picomatch: 4.0.4
+      picomatch: 4.0.7
 
   file-entry-cache@8.0.0:
     dependencies:
@@ -4351,7 +4365,7 @@ snapshots:
 
   picomatch@2.3.2: {}
 
-  picomatch@4.0.4: {}
+  picomatch@4.0.7: {}
 
   playwright-core@1.60.0: {}
 
@@ -4637,8 +4651,8 @@ snapshots:
 
   tinyglobby@0.2.16:
     dependencies:
-      fdir: 6.5.0(picomatch@4.0.4)
-      picomatch: 4.0.4
+      fdir: 6.5.0(picomatch@4.0.7)
+      picomatch: 4.0.7
 
   tinypool@1.1.1: {}
 
