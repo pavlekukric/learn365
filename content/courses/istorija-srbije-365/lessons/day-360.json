@@ -8,9 +8,9 @@
   "title": "Kultura i nauka savremene Srbije",
   "subtitle": "Vredna kulturna i naučna scena posle 2000. godine — između starih institucija, novih festivala i odliva mozgova",
   "year": 2020,
-  "dateLabel": "savremeno doba",
+  "dateLabel": "od 2000.",
   "timelinePosition": "savremeno doba",
-  "summary": "Srpska kultura, nauka i sport posle 2000. godine: stare institucije i novi festivali, književnost, film i muzika, vrhunski sportisti i nauka pod pritiskom odliva mozgova.",
+  "summary": "Srpska kultura, nauka i sport posle 2000: stare institucije i novi festivali, književnost, film i muzika, vrhunski sportisti i odliv mozgova.",
   "keyPeople": ["Milorad Pavić", "David Albahari", "Dragan Velikić", "Emir Kusturica", "Novak Đoković"],
   "keyPlaces": ["Beograd", "Novi Sad", "SANU", "Narodni muzej Srbije", "Petrovaradinska tvrđava"],
   "content": [
@@ -42,7 +42,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Muzička scena bila je jednako šarolika. Klasična tradicija, čiji se koren često vezuje za delo Stevana Mokranjca s kraja 19. veka, nastavljena je preko Beogradske filharmonije, opere Narodnog pozorišta i niza horova i kamernih ansambala. Popularna i rok muzika imale su svoje publike i svoja okupljanja. Najveći novi simbol postao je festival EXIT, nastao 2000. kao studentski festival u Novom Sadu, koji se od 2001. održava na Petrovaradinskoj tvrđavi iznad grada i koji je u jednom trenutku postao jedan od najpoznatijih muzičkih festivala u jugoistočnoj Evropi. U Beogradu su BELEF, BITEF — pozorišni festival međunarodnog ugleda osnovan još 1967 — i druge smotre nastavljale da grad povezuju sa savremenom umetničkom scenom; u Novom Sadu Sterijino pozorje ostalo je glavni godišnji pregled domaće drame."
+      "text": "Muzička scena bila je jednako šarolika. Klasična tradicija, čiji se koren često vezuje za delo Stevana Mokranjca s kraja 19. veka, nastavljena je preko Beogradske filharmonije, opere Narodnog pozorišta i niza horova i kamernih ansambala. Popularna i rok muzika imale su svoje publike i svoja okupljanja. Najveći novi simbol postao je festival EXIT, nastao 2000. kao studentski festival u Novom Sadu, koji se od 2001. održava na Petrovaradinskoj tvrđavi iznad grada i koji je u jednom trenutku postao jedan od najpoznatijih muzičkih festivala u jugoistočnoj Evropi. U Beogradu su BELEF, BITEF — pozorišni festival međunarodnog ugleda osnovan još 1967. — i druge smotre nastavljale da grad povezuju sa savremenom umetničkom scenom; u Novom Sadu Sterijino pozorje ostalo je glavni godišnji pregled domaće drame."
     },
     {
       "type": "paragraph",

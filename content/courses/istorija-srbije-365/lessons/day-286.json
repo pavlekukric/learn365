@@ -10,7 +10,7 @@
   "year": 1913,
   "dateLabel": "1913.",
   "timelinePosition": "10. avgust 1913.",
-  "summary": "Mirovni ugovor potpisan 10. avgusta 1913. u Bukureštu okončao je Drugi balkanski rat: Bugarska je izgubila gotovo sve dobitke iz prvog rata, a Srbija je gotovo udvostručila teritoriju i znatno uvećala stanovništvo.",
+  "summary": "Mir u Bukureštu 10. avgusta 1913. okončao je Drugi balkanski rat: Bugarska gubi gotovo sve dobitke, a Srbija gotovo udvostručuje teritoriju.",
   "keyPeople": ["Nikola Pašić", "Ferdinand I Koburg", "Eleftherios Venizelos", "Titu Maiorescu"],
   "keyPlaces": ["Bukurešt", "Vardarska Makedonija", "Egejska Makedonija", "Solun", "južna Dobrudža", "Jedrene"],
   "content": [
@@ -46,7 +46,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Za Srbiju je leto 1913. ipak bio trenutak najvećeg teritorijalnog uspeha od obnove države u devetnaestom veku. Vojska se vratila kući praćena ovacijama, a vlada je počela da uređuje upravu u takozvanim „novim krajevima” na jugu. Ali već u tom času trezveniji posmatrači su upozoravali da je novi balkanski poredak krhak. Bugarska je bila ponižena i osvetoljubiva, Albanija tek u nastajanju i nezadovoljna granicama, Austrougarska iznervirana srpskim uspehom. Bukureštanski mir je zatvorio jedno poglavlje i, u istom potezu, otvorio sledeće — ono koje će svega godinu dana kasnije, kroz sarajevski metak i austrougarski ultimatum, prerasti u svetski rat."
+      "text": "Za Srbiju je leto 1913. ipak bio trenutak najvećeg teritorijalnog uspeha od obnove države u devetnaestom veku. Vojska se vratila kući praćena ovacijama, a vlada je počela da uređuje upravu u takozvanim „novim krajevima” na jugu. Ali već u tom času trezveniji posmatrači su upozoravali da je novi balkanski poredak krhak. Bugarska je bila ponižena i osvetoljubiva, Albanija tek u nastajanju i nezadovoljna granicama, Austro-Ugarska iznervirana srpskim uspehom. Bukureštanski mir je zatvorio jedno poglavlje i, u istom potezu, otvorio sledeće — ono koje će svega godinu dana kasnije, kroz sarajevski metak i austrougarski ultimatum, prerasti u svetski rat."
     }
   ],
   "isPlaceholder": false

@@ -10,18 +10,18 @@
   "year": 1914,
   "dateLabel": "28. jun 1914.",
   "timelinePosition": "28. jun 1914.",
-  "summary": "Na Vidovdan 1914. u Sarajevu, Gavrilo Princip je iz neposredne blizine ubio austrougarskog prestolonaslednika Franca Ferdinanda i njegovu suprugu Sofiju — povod koji će Beč iskoristiti za rat sa Srbijom i koji će prerasti u Veliki rat.",
+  "summary": "Na Vidovdan 1914. Gavrilo Princip ubija Franca Ferdinanda i njegovu suprugu Sofiju — povod koji Beč koristi za rat sa Srbijom i koji prerasta u Veliki rat.",
   "keyPeople": ["Gavrilo Princip", "Franc Ferdinand", "Nedeljko Čabrinović", "Dragutin Dimitrijević Apis"],
   "keyPlaces": ["Sarajevo"],
   "content": [
     {
       "type": "paragraph",
       "dropcap": true,
-      "text": "Da bi se razumeo jedan jutarnji čas u Sarajevu, treba se vratiti šest godina unazad. Godine 1908. Austrougarska je formalno aneksirala Bosnu i Hercegovinu, oblast koju je već tri decenije držala pod svojom upravom po odluci Berlinskog kongresa. Aneksija je u Beogradu primljena kao udarac — Srbija je verovala da Bosna jednog dana mora pripasti zajedničkoj južnoslovenskoj državi, a sada je bila trajno uključena u dvojnu monarhiju. U samoj Bosni, naročito među pravoslavnim Srbima i delom hrvatske i muslimanske mladeži, rastao je sloj revolucionarne omladine koji nije prihvatao trajnost austrijske vlasti. Iz tog raspoloženja izrasla je labava mreža grupa i kružoka, kasnije nazvanih jednim imenom — Mlada Bosna."
+      "text": "Da bi se razumeo jedan jutarnji čas u Sarajevu, treba se vratiti šest godina unazad. Godine 1908. Austro-Ugarska je formalno aneksirala Bosnu i Hercegovinu, oblast koju je već tri decenije držala pod svojom upravom po odluci Berlinskog kongresa. Aneksija je u Beogradu primljena kao udarac — Srbija je verovala da Bosna jednog dana mora pripasti zajedničkoj južnoslovenskoj državi, a sada je bila trajno uključena u dvojnu monarhiju. U samoj Bosni, naročito među pravoslavnim Srbima i delom hrvatske i muslimanske mladeži, rastao je sloj revolucionarne omladine koji nije prihvatao trajnost austrijske vlasti. Iz tog raspoloženja izrasla je labava mreža grupa i kružoka, kasnije nazvanih jednim imenom — Mlada Bosna."
     },
     {
       "type": "paragraph",
-      "text": "Mlada Bosna nije bila stranka ni vojska. Bila je generacija — đaci, studenti, učitelji u nastajanju, ljudi rođeni oko 1890. godine, koji su čitali rusku revolucionarnu literaturu, nemačku filozofiju i pesme svojih savremenika. Među njima su, uz brojne pravoslavne Srbe, bili i Hrvati i bosanski muslimani. Verovali su u oslobođenje južnih Slovena od Austrougarske, a sredstvo su, po uzoru na ruske narodnjake i italijanske karbonare, videli u atentatu — u ciljanom udarcu protiv simbola tuđinske vlasti. Bio je to opasan, romantičan, ali i smrtno ozbiljan svet."
+      "text": "Mlada Bosna nije bila stranka ni vojska. Bila je generacija — đaci, studenti, učitelji u nastajanju, ljudi rođeni oko 1890. godine, koji su čitali rusku revolucionarnu literaturu, nemačku filozofiju i pesme svojih savremenika. Među njima su, uz brojne pravoslavne Srbe, bili i Hrvati i bosanski muslimani. Verovali su u oslobođenje južnih Slovena od Austro-Ugarske, a sredstvo su, po uzoru na ruske narodnjake i italijanske karbonare, videli u atentatu — u ciljanom udarcu protiv simbola tuđinske vlasti. Bio je to opasan, romantičan, ali i smrtno ozbiljan svet."
     },
     {
       "type": "paragraph",
@@ -50,7 +50,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Zato treba jasno reći i šta atentat nije bio. Nije bio plan srpske države da pokrene svetski rat. Srbija 1914. nije bila zemlja spremna za novi rat — bila je iscrpljena posle dva balkanska rata, zadužena, sa neukrojenim novim oblastima na jugu i sa vojskom koja se još nije oporavila. Ipak, atentat je Austrougarskoj dao povod koji je u Beču dugo čekan: izgovor da se sa južnoslovenskim pitanjem obračuna jednim brzim ratom protiv Srbije. Mesec dana kasnije stići će ultimatum koji je trebalo da bude neprihvatljiv, a još koji dan posle toga — objava rata. Gavrilo Princip nije zamišljao Veliki rat. Bio je mladi ideolog koji je verovao da jedan pucanj može srušiti carstvo. Carstvo je palo, ali tek pošto je za sobom povuklo četiri godine svetske krvi i milione mrtvih — lavinu koju, tog vedrog nedeljnog jutra, niko u Sarajevu nije mogao predvideti."
+      "text": "Zato treba jasno reći i šta atentat nije bio. Nije bio plan srpske države da pokrene svetski rat. Srbija 1914. nije bila zemlja spremna za novi rat — bila je iscrpljena posle dva balkanska rata, zadužena, sa neukrojenim novim oblastima na jugu i sa vojskom koja se još nije oporavila. Ipak, atentat je Austro-Ugarskoj dao povod koji je u Beču dugo čekan: izgovor da se sa južnoslovenskim pitanjem obračuna jednim brzim ratom protiv Srbije. Mesec dana kasnije stići će ultimatum koji je trebalo da bude neprihvatljiv, a još koji dan posle toga — objava rata. Gavrilo Princip nije zamišljao Veliki rat. Bio je mladi ideolog koji je verovao da jedan pucanj može srušiti carstvo. Carstvo je palo, ali tek pošto je za sobom povuklo četiri godine svetske krvi i milione mrtvih — lavinu koju, tog vedrog nedeljnog jutra, niko u Sarajevu nije mogao predvideti."
     }
   ],
   "isPlaceholder": false

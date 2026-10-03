@@ -6,11 +6,11 @@
   "dayNumber": 291,
   "order": 4,
   "title": "Početak Prvog svetskog rata",
-  "subtitle": "Kako se za jednu nedelju kazneni pohod Austrougarske protiv Srbije pretvorio u svetski rat",
+  "subtitle": "Kako se za jednu nedelju kazneni pohod Austro-Ugarske protiv Srbije pretvorio u svetski rat",
   "year": 1914,
   "dateLabel": "28. jul – 4. avgust 1914.",
   "timelinePosition": "28. jul – 4. avgust 1914.",
-  "summary": "Austrougarska 28. jula 1914. telegramom objavljuje rat Srbiji i iste noći bombarduje Beograd; za sedam dana lanac savezničkih obaveza uvlači sve velike sile osim Italije u rat.",
+  "summary": "Austro-Ugarska 28. jula 1914. objavljuje rat Srbiji i iste noći bombarduje Beograd; za sedam dana savezničke obaveze uvlače u rat gotovo sve velike sile.",
   "keyPeople": ["kralj Petar I", "regent Aleksandar", "vojvoda Radomir Putnik", "Franc Jozef I"],
   "keyPlaces": ["Beograd", "Beč", "Berlin"],
   "content": [
@@ -25,7 +25,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Mobilizacija u Srbiji odvijala se brzo, ali u senci stvarne iscrpljenosti. Iza zemlje su bila dva balkanska rata, jedva završena pre nepunih godinu dana, sa hiljadama poginulih i ogromnim materijalnim teretom. Kralj Petar I, već star i bolestan, formalno je 24. juna te godine predao kraljevska ovlašćenja sinu — prestolonasledniku Aleksandru, koji od tada vlada kao regent. Vrhovna komanda poverena je vojvodi Radomiru Putniku, načelniku Generalštaba, čoveku koji je sa istog mesta vodio i balkanske ratove. Putnik se u trenutku objave rata zatekao u Austrougarskoj, gde se lečio u banji; po naredbi cara Franca Jozefa pušten je da se vrati u Srbiju, mada je već bio formalno neprijateljski podanik. Taj postupak — viteški gest jednog ostarelog vladara prema neprijateljskom generalu — često se navodi kao poslednji odsjaj evropskog 19. veka, sveta u kome su i ratovi imali svoje konvencije."
+      "text": "Mobilizacija u Srbiji odvijala se brzo, ali u senci stvarne iscrpljenosti. Iza zemlje su bila dva balkanska rata, jedva završena pre nepunih godinu dana, sa hiljadama poginulih i ogromnim materijalnim teretom. Kralj Petar I, već star i bolestan, formalno je 24. juna te godine predao kraljevska ovlašćenja sinu — prestolonasledniku Aleksandru, koji od tada vlada kao regent. Vrhovna komanda poverena je vojvodi Radomiru Putniku, načelniku Generalštaba, čoveku koji je sa istog mesta vodio i balkanske ratove. Putnik se u trenutku objave rata zatekao u Austro-Ugarskoj, gde se lečio u banji; po naredbi cara Franca Jozefa pušten je da se vrati u Srbiju, mada je već bio formalno neprijateljski podanik. Taj postupak — viteški gest jednog ostarelog vladara prema neprijateljskom generalu — često se navodi kao poslednji odsjaj evropskog 19. veka, sveta u kome su i ratovi imali svoje konvencije."
     },
     {
       "type": "heading",
