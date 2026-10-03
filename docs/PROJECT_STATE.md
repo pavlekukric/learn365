@@ -55,6 +55,14 @@ Payments, subscriptions, push notifications, streaks, quizzes, admin / CMS, AI c
 
 ---
 
+## Fix — a read lesson opens at the top (2026-10-03): done
+
+From the 2026-10-03 review, P1 item 1, one PR.
+
+- **Bug:** opening a lesson already read (reload, new tab, bookmark, search) scrolled the page to its completion footer (scrollY ≈ 2300–2900). `LessonFooter` scrolled on any `isCompleted` false → true edge; the progress store rehydrates after first paint, so that edge fired on load. Present since Phase 15.
+- **Fix:** `LessonFooter` scrolls only after the reader's own click on `Označi kao pročitano` (a ref set in the click handler). A rehydrate or another tab's write no longer moves the page.
+- **Tests:** two cases in `e2e/returning.spec.ts`: a read lesson opened by URL stays at scrollY 0 (failed before the fix on desktop and mobile), and the reader's own click still brings the next-lesson card into view.
+
 ## Phase 23 — signed-in sync: no silent loss (2026-10-02): done
 
 From the 2026-10-01 review, P1 item 4, one PR (plan: [`archive/phases/PHASE_23_PLAN.md`](./archive/phases/PHASE_23_PLAN.md), owner-approved; an implicit sign-out keeps the queue).
