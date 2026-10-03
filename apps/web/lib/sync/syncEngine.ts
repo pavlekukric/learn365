@@ -2,6 +2,7 @@ import type { Journal } from './journal';
 import type { Marker } from './marker';
 import type { PendingQueue } from './pendingQueue';
 import { liveTabIds } from './tabLock';
+import { SYNC_USER_HEADER } from './wire';
 
 /**
  * The browser side of cloud sync, independent of which store it drives.
@@ -30,6 +31,15 @@ import { liveTabIds } from './tabLock';
  * Applying a snapshot never queues a change, `dispose()` (sign-out, unmount)
  * stops sending but leaves the queue in storage, and the queues of other
  * accounts are deleted at start — never sent.
+ *
+ * Every call names the user it is for (`SYNC_USER_HEADER`, review
+ * 2026-10-03 P1 item 2). A 401 (the session ended) or 409 (the cookie now
+ * belongs to another account) pauses the engine with the queue kept for
+ * this user and calls `onSessionLost`, so the app re-asks `/api/me` and
+ * takes the sign-out or account-switch path; `online`, the tab becoming
+ * visible or `flush()` try again. A 400 / 413 / 422 means the server will
+ * never take that delta: it is dropped (and reported) instead of blocking
+ * the course's queue forever.
  */
 export interface SyncAdapter<Delta> {
   /** `/api/me/progress` or `/api/me/bookmarks`. */
@@ -57,6 +67,8 @@ export interface SyncEngineOptions<Delta> {
   readonly onError?: (error: unknown) => void;
   /** Ids of the live tabs (`tabLock.ts`); `null` when unknown. */
   readonly liveTabs?: () => Promise<ReadonlySet<string> | null>;
+  /** The server answered 401 / 409: this tab no longer syncs for the signed-in account. */
+  readonly onSessionLost?: (status: 401 | 409) => void;
 }
 
 export interface SyncHandle {
@@ -69,6 +81,11 @@ export interface SyncHandle {
 
 type Timer = ReturnType<typeof setTimeout>;
 
+const sessionLost = (status: number): status is 401 | 409 => status === 401 || status === 409;
+
+/** The server refuses the request itself: sending the same delta again can never succeed. */
+const refused = (status: number): boolean => status === 400 || status === 413 || status === 422;
+
 export function startSync<Delta>(options: SyncEngineOptions<Delta>): SyncHandle {
   const { adapter, queue, journal, courseIds, userId } = options;
   const fetchImpl: typeof fetch = options.fetchImpl ?? ((input, init) => fetch(input, init));
@@ -79,6 +96,8 @@ export function startSync<Delta>(options: SyncEngineOptions<Delta>): SyncHandle 
 
   let disposed = false;
   let ready = false;
+  /** After a 401 / 409, until `online`, visible or `flush()`. */
+  let paused = false;
   let inFlight: Promise<void> | null = null;
   let retryArmed = false;
   let flushTimer: Timer | null = null;
@@ -88,21 +107,38 @@ export function startSync<Delta>(options: SyncEngineOptions<Delta>): SyncHandle 
     options.onError?.(error);
   };
 
-  const call = (method: 'GET' | 'POST' | 'PATCH', url: string, body?: unknown): Promise<Response> => {
-    const init: RequestInit = { method, credentials: 'same-origin', cache: 'no-store' };
+  const call = (
+    method: 'GET' | 'POST' | 'PATCH',
+    url: string,
+    body?: unknown,
+  ): Promise<Response> => {
+    const headers: Record<string, string> = { [SYNC_USER_HEADER]: userId };
+    const init: RequestInit = { method, credentials: 'same-origin', cache: 'no-store', headers };
     if (body !== undefined) {
-      init.headers = { 'Content-Type': 'application/json' };
+      headers['Content-Type'] = 'application/json';
       init.body = JSON.stringify(body);
       init.keepalive = true;
     }
     return fetchImpl(url, init);
   };
 
+  /** Stop sending; the queue stays for `userId` — never sent to whoever is signed in now. */
+  const loseSession = (status: 401 | 409, what: string): void => {
+    paused = true;
+    retryArmed = false;
+    if (flushTimer !== null) clearTimeout(flushTimer);
+    if (retryTimer !== null) clearTimeout(retryTimer);
+    flushTimer = null;
+    retryTimer = null;
+    report(new Error(`${adapter.endpoint} ${what} answered ${String(status)}; sync paused`));
+    options.onSessionLost?.(status);
+  };
+
   const queued = (): [string, Delta][] =>
     [...queue.read(userId).entries()].filter(([courseId]) => courses.has(courseId));
 
   const schedule = (): void => {
-    if (!ready || disposed || inFlight !== null || flushTimer !== null) return;
+    if (!ready || disposed || paused || inFlight !== null || flushTimer !== null) return;
     if (queued().length === 0) return;
     flushTimer = setTimeout(() => {
       flushTimer = null;
@@ -127,17 +163,32 @@ export function startSync<Delta>(options: SyncEngineOptions<Delta>): SyncHandle 
     if (disposed) return false;
     let failed = false;
     for (const [courseId, delta] of queued()) {
-      if (disposed) return false;
+      if (disposed || paused) return false;
       try {
-        const response = await call('PATCH', adapter.endpoint, adapter.serializeDelta(courseId, delta));
-        if (!response.ok) throw new Error(`${adapter.endpoint} PATCH answered ${String(response.status)}`);
+        const response = await call(
+          'PATCH',
+          adapter.endpoint,
+          adapter.serializeDelta(courseId, delta),
+        );
+        if (sessionLost(response.status)) {
+          loseSession(response.status, 'PATCH');
+          return false;
+        }
+        const answered = `${adapter.endpoint} PATCH answered ${String(response.status)}`;
+        if (refused(response.status)) {
+          // Ack what was sent (changes made since stay queued) and say so.
+          queue.ack(userId, courseId, delta);
+          report(new Error(`${answered}; change dropped`));
+          continue;
+        }
+        if (!response.ok) throw new Error(answered);
         queue.ack(userId, courseId, delta);
       } catch (error) {
         failed = true;
         report(error);
       }
     }
-    if (disposed) return false;
+    if (disposed || paused) return false;
     if (!failed) {
       retryArmed = false;
       return true;
@@ -159,6 +210,7 @@ export function startSync<Delta>(options: SyncEngineOptions<Delta>): SyncHandle 
   const flush = (): Promise<void> => {
     if (disposed || !ready) return Promise.resolve();
     if (inFlight !== null) return inFlight;
+    paused = false;
     if (flushTimer !== null) {
       clearTimeout(flushTimer);
       flushTimer = null;
@@ -203,10 +255,20 @@ export function startSync<Delta>(options: SyncEngineOptions<Delta>): SyncHandle 
       if (disposed) return;
       try {
         const response = migrate
-          ? await call('POST', `${adapter.endpoint}/sync`, { courseId, ...adapter.readLocal(courseId) })
+          ? await call('POST', `${adapter.endpoint}/sync`, {
+              courseId,
+              ...adapter.readLocal(courseId),
+            })
           : await call('GET', `${adapter.endpoint}?courseId=${encodeURIComponent(courseId)}`);
+        if (sessionLost(response.status)) {
+          complete = false;
+          loseSession(response.status, migrate ? 'sync' : 'get');
+          break;
+        }
         if (!response.ok) {
-          throw new Error(`${adapter.endpoint} ${migrate ? 'sync' : 'get'} answered ${String(response.status)}`);
+          throw new Error(
+            `${adapter.endpoint} ${migrate ? 'sync' : 'get'} answered ${String(response.status)}`,
+          );
         }
         const remote: unknown = await response.json();
         if (disposed) return;
@@ -226,7 +288,7 @@ export function startSync<Delta>(options: SyncEngineOptions<Delta>): SyncHandle 
     // Even after a failed load, queued changes should reach the account
     // once it answers again — the next load re-reads it either way.
     ready = true;
-    void flush();
+    if (!paused) void flush();
   };
 
   const settled = initial();
