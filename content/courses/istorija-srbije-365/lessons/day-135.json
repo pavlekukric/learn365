@@ -6,12 +6,12 @@
   "dayNumber": 135,
   "order": 9,
   "title": "Opsada Beograda 1456.",
-  "subtitle": "Kako su Janoš Hunjadi i Ivan Kapistran, pod zidinama na ušću Save u Dunav, zaustavili Mehmeda II nakon pada Carigrada",
+  "subtitle": "Kako su Janoš Hunjadi i Jovan Kapistran, pod zidinama na ušću Save u Dunav, zaustavili Mehmeda II nakon pada Carigrada",
   "year": 1456,
   "dateLabel": "1456.",
   "timelinePosition": "jul 1456.",
   "summary": "Tri godine posle pada Carigrada, Mehmed II je sa ogromnom vojskom krenuo na Beograd, ključ srednje Evrope. Branili su ga Hunjadi i Kapistran — i odbranili.",
-  "keyPeople": ["Mehmed II", "Janoš Hunjadi", "Ivan Kapistran", "papa Kalist III"],
+  "keyPeople": ["Mehmed II", "Janoš Hunjadi", "Jovan Kapistran", "papa Kalist III"],
   "keyPlaces": ["Beograd", "Sava", "Dunav"],
   "content": [
     {
@@ -21,7 +21,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Beograd u to vreme nije bio srpski grad. Despot Đurađ Branković ga je još 1427. godine predao kralju Žigmundu, kako je predviđao ugovor koji je Stefan Lazarević sklopio 1426. u zamenu za ugarsko priznanje Đurđa za naslednika. Otada je Beograd bio ugarska granična tvrđava — najjača na južnoj međi kraljevstva, sa posadom, topovima i dvostrukim sistemom zidina koji se spuštao od Gornjeg grada ka rekama. Za Mađare je bio najistureniji bedem hrišćanstva; za Mehmeda, poslednja brava pred otvorenim putem ka Budimu i dalje. Ako Beograd padne, padaju i Srem, i južna Ugarska, i, ko zna, možda i sam kraljevski Budim."
+      "text": "Beograd u to vreme nije bio srpski grad. Despot Đurađ Branković ga je još 1427. godine predao kralju Sigismundu, kako je predviđao ugovor koji je Stefan Lazarević sklopio 1426. u zamenu za ugarsko priznanje Đurđa za naslednika. Otada je Beograd bio ugarska granična tvrđava — najjača na južnoj međi kraljevstva, sa posadom, topovima i dvostrukim sistemom zidina koji se spuštao od Gornjeg grada ka rekama. Za Mađare je bio najistureniji bedem hrišćanstva; za Mehmeda, poslednja brava pred otvorenim putem ka Budimu i dalje. Ako Beograd padne, padaju i Srem, i južna Ugarska, i, ko zna, možda i sam kraljevski Budim."
     },
     {
       "type": "paragraph",
@@ -29,7 +29,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Branioci su bili nesrazmerno slabiji — bar na papiru. Posada Beograda brojala je svega nekoliko hiljada profesionalnih vojnika. Komandovao im je Janoš Hunjadi, erdeljski velikaš mađarsko-vlaškog porekla, najuspešniji hrišćanski vojskovođa svog doba i dugogodišnji regent Ugarske. Njemu se pridružio i Ivan Kapistran, italijanski franjevac, propovednik nesvakidašnje vatrenosti, koji je po nalogu pape Kalista III obilazio Ugarsku i Hrvatsku i pozivao na krstaški rat. Pred zidinama Beograda okupilo se, na njegov poziv, više desetina hiljada seljaka, zanatlija i sitnih plemića — slabo naoružana, slabo obučena, ali brojna i, što će se pokazati, neobično odlučna masa."
+      "text": "Branioci su bili nesrazmerno slabiji — bar na papiru. Posada Beograda brojala je svega nekoliko hiljada profesionalnih vojnika. Komandovao im je Janoš Hunjadi, erdeljski velikaš mađarsko-vlaškog porekla, najuspešniji hrišćanski vojskovođa svog doba i dugogodišnji regent Ugarske. Njemu se pridružio i Jovan Kapistran, italijanski franjevac, propovednik nesvakidašnje vatrenosti, koji je po nalogu pape Kalista III obilazio Ugarsku i Hrvatsku i pozivao na krstaški rat. Pred zidinama Beograda okupilo se, na njegov poziv, više desetina hiljada seljaka, zanatlija i sitnih plemića — slabo naoružana, slabo obučena, ali brojna i, što će se pokazati, neobično odlučna masa."
     },
     {
       "type": "heading",
@@ -54,7 +54,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Cena je, međutim, bila visoka. U vojnom logoru izbila je kuga; Janoš Hunjadi je od nje umro već 11. avgusta, nepuna tri nedelje posle pobede. Ivan Kapistran je preminuo krajem oktobra. A nekoliko meseci kasnije, 24. decembra iste godine, u svojim dvorovima u Smederevu, umro je i ostareli despot Đurađ Branković — i sam već ranjen i bolestan posle ranijih sukoba. Za jednu jedinu godinu nestala su dva najveća hrišćanska protivnika sultana Mehmeda na Balkanu i čovek koji je još uvek držao srpsku državu na okupu. Pobeda kod Beograda spasla je Ugarsku i odložila pad srednje Evrope za generacije; ali je istovremeno, sticajem okolnosti, ostavila Srpsku despotovinu bez svojih oslonaca — i otvorila vrata događajima koji će već za tri godine doneti njen konačni slom."
+      "text": "Cena je, međutim, bila visoka. U vojnom logoru izbila je kuga; Janoš Hunjadi je od nje umro već 11. avgusta, nepuna tri nedelje posle pobede. Jovan Kapistran je preminuo krajem oktobra. A nekoliko meseci kasnije, 24. decembra iste godine, u svojim dvorovima u Smederevu, umro je i ostareli despot Đurađ Branković — i sam već ranjen i bolestan posle ranijih sukoba. Za jednu jedinu godinu nestala su dva najveća hrišćanska protivnika sultana Mehmeda na Balkanu i čovek koji je još uvek držao srpsku državu na okupu. Pobeda kod Beograda spasla je Ugarsku i odložila pad srednje Evrope za generacije; ali je istovremeno, sticajem okolnosti, ostavila Srpsku despotovinu bez svojih oslonaca — i otvorila vrata događajima koji će već za tri godine doneti njen konačni slom."
     }
   ],
   "isPlaceholder": false
