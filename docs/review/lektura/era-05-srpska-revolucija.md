@@ -1,0 +1,139 @@
+# Proof pass — srpska-revolucija (days 196–230)
+
+## Counts
+- Lessons read: 35 (196–230), each in full
+- Lessons changed: 34 (day 230 had nothing to change)
+- Total edits: 106 — grammar 67 / orthography 33 / house style 0 / de-tick 6
+- Word counts: largest drift −0.53% (day 211); reading time unchanged everywhere. `validate-content` (run directly with tsx, since turbo replayed a cached result): ✓ 365 lessons, no errors.
+- House style: no Habsburg/Austro-Ugarska/Kneginja/ijekavian/reader-address problems found in this range.
+
+## Edits
+| Day | Before → After | Category |
+|---|---|---|
+| 196 | „pregovorima a ne porazom” → „pregovorima, a ne porazom” | orthography |
+| 196 | „timarsko-čifluksarski sistem” → „timarsko-čitlučki sistem” | grammar |
+| 196 | „Vredi je u kontekst staviti i šire.” → „Vredi je staviti i u širi kontekst.” | grammar |
+| 197 | „događaj koji će u sećanju ostati upamćen kao Seča knezova” → „događaj koji će ostati upamćen kao Seča knezova” | grammar |
+| 197 | „presečeno glavu pokretu” → „preseći glavu pokretu” | grammar |
+| 197 | „ljudi koji su tek bili obični seoski starešine” → „ljudi koji su donedavno bili obični seoski starešine” | grammar |
+| 197 | „kakvu malo ko od okupljenih može da pokaže” → „kakvu je malo ko od okupljenih mogao da pokaže” | grammar |
+| 197 | „Cilj — bar formalno proglašeni — nije bila nezavisnost.” → „Cilj — bar formalno proglašeni — nije bio nezavisnost.” | grammar |
+| 197 | „sultanovog Hatišerifa iz 1793.” → „sultanovog hatišerifa iz 1793.” | orthography |
+| 197 | „dahije nije voleo ništa manje od Srba” → „dahije nije voleo ništa više nego Srbi” | grammar |
+| 197 | „Sa jeseni 1804. ustanak je nezametno” → „Od jeseni 1804. ustanak je neprimetno” | grammar |
+| 197 | „razgnjevljenih” → „razgnevljenih” | orthography |
+| 198 | „u Austro-turskom ratu 1788–1791” → „u austrijsko-turskom ratu 1788–1791” | orthography |
+| 198 | „fizički nametljivog čoveka” → „fizički impozantnog čoveka” | grammar |
+| 198 | „ali se važnijim ispravama oslanjao” → „ali se kod važnijih isprava oslanjao” | grammar |
+| 199 | „iz cele Beogradskog pašaluka” → „iz celog Beogradskog pašaluka” | grammar |
+| 199 | „iz Valjevskog, Smederevskog, Kragujevačkog i Rudničkog kraja” → „iz valjevskog, smederevskog, kragujevačkog i rudničkog kraja” | orthography |
+| 199 | „reputaciju surovog ali pravednog” → „reputaciju surovog, ali pravednog” | orthography |
+| 199 | „slaninom, baruta koliko ga je bilo” → „slaninom, barutom koliko ga je bilo” | grammar |
+| 200 | „ni inženjerce za pravu opsadu” → „ni inženjere za pravu opsadu” | grammar |
+| 200 | „izabranom položaju, raspoređenim tako” → „izabranom položaju, raspoređenih tako” | grammar |
+| 200 | „zauzeli selo, opkolili gradove” → „zauzeli sela, opkolili gradove” | grammar |
+| 201 | „po istom rasporedu po kome ih je grubo zatekla osmanska uprava” → „po istom rasporedu u kome su ih grubo zatekli iz osmanske uprave” | grammar |
+| 202 | „smatrao je, dobijena je glava manje na bojištu” → „smatrao je, plaća se glavama na bojištu” | grammar |
+| 202 | „priznat kao naslednik vrhovne vlasti” → „priznat kao nasledni nosilac vrhovne vlasti” | grammar |
+| 202 | „za sredinu koja je iz nje izrasla” → „za sredinu iz koje je izrasla” | grammar |
+| 203 | „u klještima” → „u kleštima” | orthography |
+| 203 | „klečali su nad zemljom, ali su izdržali” → „klecali su, ali su izdržali” | grammar |
+| 203 | „slanjem jedne paše s vojskom” → „slanjem jednog paše s vojskom” | grammar |
+| 204 | „želelo da im se vojska približi” → „želelo da mu se vojska približi” | grammar |
+| 204 | „sa pobunjenicima na jugu Dunava” → „sa pobunjenicima južno od Dunava” | grammar |
+| 204 | „niška-topličko područje” → „niško-topličko područje” | orthography |
+| 205 | „koji je dve godine bio sumnjiv” → „koji je dve godine bio neizvestan” | grammar |
+| 205 | „sa kojim ga ne treba mešati sa istoimenim” → „koga ne treba mešati sa istoimenim” | grammar |
+| 205 | „teškoj ceni za njegovo stanovništvo” → „teškoj ceni za njeno stanovništvo” | grammar |
+| 205 | „Bogovađi i poslednje u Smederevu” → „Bogovađi i naposletku u Smederevu” | grammar |
+| 205 | „uskoro pomoći osnivanje Velike škole” → „uskoro pomoći u osnivanju Velike škole” | grammar |
+| 206 | „ali je u vrhuncu, oko 1810.” → „ali je na vrhuncu, oko 1810.” | grammar |
+| 206 | „sa naslednim pravima i stao na čelo sovjeta” → „sa naslednim pravima i postavljen na čelo sovjeta” | grammar |
+| 206 | „u vreme Rusko-turskog rata” → „u vreme rusko-turskog rata” | orthography |
+| 207 | „već skroman ali jasan” → „već skroman, ali jasan” | orthography |
+| 207 | „Iz Kragujevca će 1838. nastati Licej” → „U Kragujevcu će 1838. nastati Licej” | grammar |
+| 207 | „i tihu institucionalnu nit koja vodi” → „i tihoj institucionalnoj niti koja vodi” | grammar |
+| 208 | „Treba pošteno reći — ruska pomoć” → „Treba reći otvoreno — ruska pomoć” | de-tick |
+| 209 | „dobici su bili znatni ali ispod” → „dobici su bili znatni, ali ispod” | orthography |
+| 209 | „član 8., u svoj svojoj nejasnoći” → „član 8, u svoj svojoj nejasnoći” | orthography |
+| 209 | „koji će preživeti svoju propast” → „koji će preživeti tu propast” | grammar |
+| 210 | „iscrplo je zemlju” → „iscrpelo je zemlju” | orthography |
+| 210 | „jednim, krupnim udarcem” → „jednim krupnim udarcem” | orthography |
+| 210 | „šance su odolevale danima, ponegde i kraće, a onda bivale obuhvaćene, opkoljene ili napuštene” → „šančevi su odolevali danima, ponegde i kraće, a onda bivali obuhvaćeni, opkoljeni ili napušteni” | grammar |
+| 210 | „Što su fronovi više popuštali” → „Što su frontovi više popuštali” | orthography |
+| 210 | „koštao je još jednog branjenog položaja” → „koštao je još jedan branjeni položaj” | grammar |
+| 210 | „ostao bez naslona” → „ostao bez oslonca” | grammar |
+| 210 | „nastave razbacan otpor” → „nastave raštrkan otpor” | grammar |
+| 211 | „iz Beograda su roblje otpremano dalje” → „iz Beograda je roblje otpremano dalje” | grammar |
+| 211 | „Janjičari su se vraćali” → „Janičari su se vraćali” | orthography |
+| 211 | „ovde je dovoljno zabeležiti da su nasilje 1813. i nemir 1814. tekli zajedno” → „nasilje 1813. i nemir 1814. tekli su zajedno” | de-tick |
+| 212 | „posle sloma prvog ustanka” → „posle sloma Prvog ustanka” | orthography |
+| 212 | „veteran prvog ustanka” → „veteran Prvog ustanka” | orthography |
+| 212 | „poslednji odjek prvog ustanka i prvi nagoveštaj drugog” → „poslednji odjek Prvog ustanka i prvi nagoveštaj Drugog” | orthography |
+| 212 | „ni baruta ni reda, ni spoljnog” → „ni baruta, ni reda, ni spoljnog” | orthography |
+| 212 | „da se gase njegovi sopstveni saplemenici” → „da se guše njegovi sopstveni saplemenici” | grammar |
+| 212 | „izbiti tek u Cveti 1815.” → „izbiti tek na Cveti 1815.” | grammar |
+| 212 | „mali ali stvaran red” → „mali, ali stvaran red” | orthography |
+| 213 | „pred-ustanički poredak” → „predustanički poredak” | orthography |
+| 213 | „vršila se javna pogubljenja” → „vršila su se javna pogubljenja” | grammar |
+| 213 | „proširila preko nekoliko sela” → „proširila na nekoliko sela” | grammar |
+| 213 | „od početka mišljen kao” → „od početka zamišljen kao” | grammar |
+| 214 | „jedan od retkih putova ka imovini” → „jedan od retkih puteva ka imovini” | grammar |
+| 214 | „preko kojih bi smirila i ubirala porez sa neke od najnemirnijih oblasti carstva” → „preko kojih bi smirila neke od najnemirnijih oblasti carstva i u njima ubirala porez” | grammar |
+| 215 | „sukobima na zapadnoj Moravi” → „sukobima na Zapadnoj Moravi” | orthography |
+| 215 | „Miloš je iz prvog ustanka izvukao” → „Miloš je iz Prvog ustanka izvukao” | orthography |
+| 215 | „do pred sam Cveti” → „do pred same Cveti” | grammar |
+| 216 | „padaju, jedno za drugim, varoši” → „padaju, jedna za drugom, varoši” | grammar |
+| 216 | „Ljubićkoj, Palškoj i Dubljanskoj bici” → „Ljubićkoj, Paleškoj i Dubljanskoj bici” | orthography |
+| 217 | „pregovore umesto pobedonosnog napada — bio je” → „pregovori umesto pobedonosnog napada — bio je” | grammar |
+| 217 | „da se ozbiljno bavi šta se događa” → „da se ozbiljno bavi time šta se događa” | grammar |
+| 217 | „bio rana koja gnoji” → „bio rana koja se gnoji” | grammar |
+| 217 | „Treba pošteno reći i ono što su Milošu zamerali.” → „Treba reći i ono što su Milošu zamerali.” | de-tick |
+| 218 | „i o njima se u struci uglavnom slaže” → „i oko njih se struka uglavnom slaže” | grammar |
+| 218 | „svaki dinar prošao” → „svaki groš prošao” | grammar |
+| 219 | „u Karađorđevoj Praviteljstvujuščem sovjetu” → „u Karađorđevom Praviteljstvujuščem sovjetu” | grammar |
+| 220 | „za njega je 1813. bio poraz” → „za njega je 1813. bila poraz” | grammar |
+| 221 | „pisare i prevodioce u Porti” → „pisare i prevodioce na Porti” | grammar |
+| 221 | „— uloga koju ni Beč ni London” → „— ulogu koju ni Beč ni London” | grammar |
+| 221 | „Stvar je odsekao rat.” → „Stvar je presekao rat.” | grammar |
+| 222 | „Iz tog okvira izrasti će sve što sledi” → „Iz tog okvira izrašće sve što sledi” | orthography |
+| 223 | „Negodovanje je rastlo godinama” → „Negodovanje je raslo godinama” | orthography |
+| 223 | „Za kneza Metterniha” → „Za kneza Meterniha” | orthography |
+| 223 | „Miloš se, mora se pošteno reći, nije” → „Miloš se, mora se reći, nije” | de-tick |
+| 224 | „četvorouglovog rvanja” → „četvorostranog rvanja” | grammar |
+| 224 | „ali sa odlučujućim zahvatom” → „ali sa odlučujućom ogradom” | grammar |
+| 224 | „Pošteno je reći ono što ovaj dokument jeste” → „Valja reći ono što ovaj dokument jeste” | de-tick |
+| 225 | „banjski boravio u Hofgasteinu” → „banjski boravio u Hofgaštajnu” | orthography |
+| 225 | „drugi vladao i umro a treći” → „drugi vladao i umro, a treći” | orthography |
+| 226 | „lukav, hrabar i bez obzira” → „lukav, hrabar i bezobziran” | grammar |
+| 227 | „i očima i pristalica i protivnika postalo je jasno” → „i pristalicama i protivnicima postalo je jasno” | grammar |
+| 227 | „takozvani „turski ustav”” → „takozvani „Turski ustav”” | orthography |
+| 227 | „oslonac ne sme biti samo na Rusiju” → „oslonac ne sme biti samo Rusija” | grammar |
+| 227 | „Treba ipak pošteno reći ono što” → „Treba ipak otvoreno reći ono što” | de-tick |
+| 227 | „ma kojeg da imena nosi vladar” → „ma koje ime da nosi vladar” | grammar |
+| 228 | „glas surovog ali pravičnog čoveka” → „glas surovog, ali pravičnog čoveka” | orthography |
+| 228 | „ne bi sami održali sistem” → „ne bi same održale sistem” | grammar |
+| 229 | „sa narodnjacima a kasnije sa radikalima” → „sa narodnjacima, a kasnije sa radikalima” | orthography |
+| 229 | „kada je na Svetoandrejskoj skupštini smenjen i pozvan — Miloš Obrenović, sada već star, ali simbolično vraćen na presto.” → „kada je na Svetoandrejskoj skupštini smenjen, a pozvan je Miloš Obrenović, sada već star, ali simbolično vraćen na presto.” | grammar |
+| 229 | „dinastijske doktrine” → „dinastičke doktrine” | grammar |
+## Suspected facts (not changed)
+- 199: „krenule su … na turske ispostave duž Drine” in the first weeks after Orašac, and „opsele Smederevo i Šabac” that spring. The fighting on the Drina and the Šabac siege may have come later; worth checking.
+- 203: „poveren je bosanskom valiji. Sulejman-paša Skopljak” — Skopljak commanded at Mišar, but in 1806 he was probably not the Bosnian vizier (valija).
+- 208 (and 206 „ustanak iz proleća 1804.”): „Kada je u proleće 1804. počeo ustanak” — the uprising began in February 1804 (Sretenje), not in spring.
+- 210: „Kraj je došao u septembru” but Karađorđe crossed the Sava „3. oktobra 1813” (that date is new style; old style is 21 September). The style should be stated or the text aligned.
+- 211: the Belgrade Turks returned „posle gotovo decenije izgnanstva” — they were expelled in 1806/07, so it was about 6–7 years.
+- 211: Filip Višnjić „ispevali su neke od svojih najtežih pesama upravo o stradanju iz 1813.” — this attribution is doubtful; please check.
+- 215: „Cveti — Vrbica, nedelja pred Vaskrs” — Vrbica is Lazarus Saturday, not Palm Sunday itself.
+- 216: the Dublje commander is named as Ibrahim-paša, captured and released by Miloš — please check against a source (the Ljubić commander Imšir-paša looks correct).
+- 219: „sopstvene konake u Topčideru i Požarevcu” in the 1815–1830 period — the Topčider konak was built in 1831–34. Topčider is also in Belgrade, which conflicts with the claim that power was „povukao iz Beograda”.
+- 222: „Pet vekova posle Maričke i Kosovske bitke” — from 1371/1389 to 1829 is about 4.5 centuries.
+- 224: „Institucionalni značaj tih osamnaest godina” — it is unclear which span this means (1839–1858 is about 19 years; 1842–1858 is 16).
+- 226: Mihailo got the throne „u jesen iste godine” — Milan died on 8 July 1839, so Mihailo succeeded in summer (he arrived in Serbia in 1840).
+- 230: the free peasantry „će vekovima ostati socijalna osnova” — „vekovima” overstates it (roughly a century and a half).
+
+## Weak spots (one line each)
+- 217: „Karađorđeva Srbija, vojnički velika i moralno besprekorna” clashes with the balanced handling of violence in 205/211. This is an interpretation, so I did not change it.
+- 200/204/206: the same population estimate („četiri stotine hiljada do pola miliona”) and the „first victories” material repeat across the lessons.
+- 197/199/200: the Orašac assembly, the election of the vožd and the fate of the dahije are told three times in close succession, with heavy overlap.
+- 218/221: the oral agreement of 1815 is re-explained at length in both lessons.
+- The „pošteno/treba reći” hedge appears in about 15 lessons of this era. I varied it in 208, 217, 223, 224 and 227; the rest are single uses and I left them.

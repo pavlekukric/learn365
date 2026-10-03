@@ -6,7 +6,7 @@
   "dayNumber": 260,
   "order": 2,
   "title": "Železnice i banke",
-  "subtitle": "Kako su pruga Beograd—Niš i Narodna banka osamdesetih godina 19. veka postavile kostur moderne srpske države",
+  "subtitle": "Kako su pruga Beograd–Niš i Narodna banka osamdesetih godina 19. veka postavile kostur moderne srpske države",
   "year": 1890,
   "dateLabel": "kraj 19. veka",
   "timelinePosition": "kraj 19. veka",
@@ -17,15 +17,15 @@
     {
       "type": "paragraph",
       "dropcap": true,
-      "text": "Kada se hoće u jednoj rečenici opisati šta je Srbiju razlikovalo 1890. od Srbije 1875. godine, najpoštenije je reći — pruga i banka. Sve drugo što se tih godina događalo, od dinastičkih svađa do izborne borbe radikala i naprednjaka, odvijalo se na pozadini dveju mirnih, gotovo neprimetnih revolucija. Jedna je gvozdena, druga papirna; jedna se mogla čuti u pištaljci voza, druga se osećala u tome što su seoski trgovci prvi put nosili u džepu novčanice u sopstvenom dinaru. Bez te dve infrastrukture, sve što će se Srbiji desiti u ratovima 1912—1918. teško bi se moglo i zamisliti."
+      "text": "Kada se hoće u jednoj rečenici opisati šta je Srbiju razlikovalo 1890. od Srbije 1875. godine, najpoštenije je reći — pruga i banka. Sve drugo što se tih godina događalo, od dinastičkih svađa do izborne borbe radikala i naprednjaka, odvijalo se na pozadini dveju mirnih, gotovo neprimetnih revolucija. Jedna je gvozdena, druga papirna; jedna se mogla čuti u pištaljci voza, druga se osećala u tome što su seoski trgovci prvi put nosili u džepu novčanice u sopstvenom dinaru. Bez te dve infrastrukture, sve što će se Srbiji desiti u ratovima 1912–1918. teško bi se moglo i zamisliti."
     },
     {
       "type": "paragraph",
-      "text": "Železnica je u zemlju ušla pod pritiskom Berlinskog kongresa. Kao deo cene za međunarodno priznanje nezavisnosti, Srbija je 1878. preuzela obavezu da u kratkom roku poveže evropsku magistralu Beč—Carigrad, koja je morala ići preko njene teritorije. Železnička konvencija sa Austro-Ugarskom potpisana je 1880, ugovor o gradnji 1881, a radovi su krenuli 1882. Glavni izvođač bila je pariska banka Union générale finansijera Ežena Bontua. Posao je tek bio počeo kada se ona 1882. srušila u jednoj od najvećih berzanskih kriza tog veka, ostavivši mladu srpsku državu sa nedovršenom prugom i s aferom oko koje će se godinama voditi sudski sporovi. Gradnju je zatim preuzelo novo društvo koje su osnovali pariski Comptoir d'Escompte i bečka Länderbank, a prva linija — Beograd—Niš — puštena je u rad 1884. Dve godine kasnije pruga je stigla do otomanske granice kod Vranja, a 1888. i do bugarske granice kod Pirota."
+      "text": "Železnica je u zemlju ušla pod pritiskom Berlinskog kongresa. Kao deo cene za međunarodno priznanje nezavisnosti, Srbija je 1878. preuzela obavezu da u kratkom roku poveže evropsku magistralu Beč–Carigrad, koja je morala ići preko njene teritorije. Železnička konvencija sa Austro-Ugarskom potpisana je 1880, ugovor o gradnji 1881, a radovi su krenuli 1882. Glavni izvođač bila je pariska banka Union générale finansijera Ežena Bontua. Posao je tek bio počeo kada se ona 1882. srušila u jednoj od najvećih berzanskih kriza tog veka, ostavivši mladu srpsku državu sa nedovršenom prugom i s aferom oko koje će se godinama voditi sudski sporovi. Gradnju je zatim preuzelo novo društvo koje su osnovali pariski Comptoir d'Escompte i bečka Länderbank, a prva linija — Beograd–Niš — puštena je u rad 1884. Dve godine kasnije pruga je stigla do otomanske granice kod Vranja, a 1888. i do bugarske granice kod Pirota."
     },
     {
       "type": "paragraph",
-      "text": "Šta je to konkretno značilo, najlakše se vidi na putovanju Beograd—Niš. Pre pruge to je za poštanske kočije, po dobrom vremenu, bilo putovanje od nekoliko dana, sa noćenjima, presedanjima i zavisnošću od stanja drumova. Sa vozom se isti put svodio na nekih dvanaest sati. Vojska je preko noći mogla biti pomerena s jednog kraja zemlje na drugi. Svinje iz Šumadije i Pomoravlja, dotad glavni srpski izvozni proizvod, mogle su brže stizati do bečkog i peštanskog tržišta; isto i šljive iz zapadne Srbije. Industrija — mala, ali sad konačno moguća — počinje da se hvata uz prugu: pivare, mlinovi, klanice, rudnici uglja poput Senjskog rudnika. Telegraf i pošta, koji su već postojali, dobijaju duž pruge sopstvenu kičmu."
+      "text": "Šta je to konkretno značilo, najlakše se vidi na putovanju Beograd–Niš. Pre pruge to je za poštanske kočije, po dobrom vremenu, bilo putovanje od nekoliko dana, sa noćenjima, presedanjima i zavisnošću od stanja drumova. Sa vozom se isti put svodio na nekih dvanaest sati. Vojska je preko noći mogla biti pomerena s jednog kraja zemlje na drugi. Svinje iz Šumadije i Pomoravlja, dotad glavni srpski izvozni proizvod, mogle su brže stizati do bečkog i peštanskog tržišta; isto i šljive iz zapadne Srbije. Industrija — mala, ali sad konačno moguća — počinje da se hvata uz prugu: pivare, mlinovi, klanice, rudnici uglja poput Senjskog rudnika. Telegraf i pošta, koji su već postojali, dobijaju duž pruge sopstvenu kičmu."
     },
     {
       "type": "heading",
