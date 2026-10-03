@@ -7,6 +7,15 @@
 export const PROGRESS_ENDPOINT = '/api/me/progress';
 export const BOOKMARKS_ENDPOINT = '/api/me/bookmarks';
 
+/**
+ * The account a sync request is meant for (review 2026-10-03 P1 item 2).
+ * Every call the sync engine makes names the user it syncs for; the server
+ * answers 409 when the session cookie now belongs to someone else (a
+ * sign-in as another account without `Odjava`), so a stale tab can never
+ * read or write the new account.
+ */
+export const SYNC_USER_HEADER = 'X-Sync-User';
+
 /** GET / POST sync response and POST sync request body. */
 export interface ProgressWire {
   readonly courseId: string;

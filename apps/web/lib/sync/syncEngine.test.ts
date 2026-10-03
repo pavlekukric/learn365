@@ -4,6 +4,7 @@ import { createJournal } from './journal';
 import { memoryMarker, type Marker } from './marker';
 import { createPendingQueue, type DeltaCodec, type QueueStorage } from './pendingQueue';
 import { startSync, type SyncAdapter } from './syncEngine';
+import { SYNC_USER_HEADER } from './wire';
 
 interface Delta {
   readonly items: readonly string[];
@@ -17,6 +18,8 @@ interface Call {
 
 function fakeFetch(handler: (call: Call) => Response | Promise<Response>) {
   const calls: Call[] = [];
+  /** The `X-Sync-User` header of each call, in order. */
+  const users: (string | null)[] = [];
   const impl = (async (input: string | URL | Request, init?: RequestInit) => {
     const call: Call = {
       method: init?.method ?? 'GET',
@@ -24,9 +27,10 @@ function fakeFetch(handler: (call: Call) => Response | Promise<Response>) {
       body: typeof init?.body === 'string' ? (JSON.parse(init.body) as unknown) : undefined,
     };
     calls.push(call);
+    users.push(new Headers(init?.headers).get(SYNC_USER_HEADER));
     return handler(call);
   }) as unknown as typeof fetch;
-  return { impl, calls };
+  return { impl, calls, users };
 }
 
 const ok = (body: unknown) => new Response(JSON.stringify(body), { status: 200 });
@@ -35,7 +39,9 @@ const fail = () => new Response('nope', { status: 500 });
 
 const codec: DeltaCodec<Delta> = {
   merge: (into, next) => ({ items: [...new Set([...into.items, ...next.items])] }),
-  subtract: (queued, sent) => ({ items: queued.items.filter((item) => !sent.items.includes(item)) }),
+  subtract: (queued, sent) => ({
+    items: queued.items.filter((item) => !sent.items.includes(item)),
+  }),
   isEmpty: (delta) => delta.items.length === 0,
   toJSON: (delta) => delta.items,
   fromJSON: (value) => (Array.isArray(value) ? { items: value as string[] } : null),
@@ -98,7 +104,11 @@ function setup(marker: Marker = memoryMarker(), storage = memoryStorage()) {
   const tabId = `tab-${String(tabs)}`;
   const adapter = fakeAdapter(marker);
   const queue = createPendingQueue('progress', codec, () => storage, tabId);
-  const journal = createJournal({ subscribe: (onDelta) => adapter.subscribe(onDelta), queue, marker });
+  const journal = createJournal({
+    subscribe: (onDelta) => adapter.subscribe(onDelta),
+    queue,
+    marker,
+  });
   // Only this "tab" is alive: every other tab's queue is an orphan.
   const liveTabs = () => Promise.resolve(new Set([tabId]));
   return { adapter, queue, journal, storage, marker, liveTabs };
@@ -119,12 +129,24 @@ describe('startSync', () => {
     const page = setup(marker);
     const { adapter } = page;
     const { impl, calls } = fakeFetch(() => ok({ remote: 1 }));
-    const handle = startSync({ ...page, courseIds: ['c1'], userId: 'u1', fetchImpl: impl, debounceMs: 0 });
+    const handle = startSync({
+      ...page,
+      courseIds: ['c1'],
+      userId: 'u1',
+      fetchImpl: impl,
+      debounceMs: 0,
+    });
     await handle.settled;
 
     expect(calls).toHaveLength(1);
-    expect(calls[0]).toEqual({ method: 'POST', url: '/api/me/thing/sync', body: { courseId: 'c1', local: true } });
-    expect(adapter.applied).toEqual([{ courseId: 'c1', remote: { remote: 1 }, pending: undefined }]);
+    expect(calls[0]).toEqual({
+      method: 'POST',
+      url: '/api/me/thing/sync',
+      body: { courseId: 'c1', local: true },
+    });
+    expect(adapter.applied).toEqual([
+      { courseId: 'c1', remote: { remote: 1 }, pending: undefined },
+    ]);
     expect(marker.value).toBe('u1');
     handle.dispose();
   });
@@ -132,7 +154,13 @@ describe('startSync', () => {
   it('later loads: GETs the account state when the marker already names the user', async () => {
     const page = setup(memoryMarker('u1'));
     const { impl, calls } = fakeFetch(() => ok({ remote: 2 }));
-    const handle = startSync({ ...page, courseIds: ['c1'], userId: 'u1', fetchImpl: impl, debounceMs: 0 });
+    const handle = startSync({
+      ...page,
+      courseIds: ['c1'],
+      userId: 'u1',
+      fetchImpl: impl,
+      debounceMs: 0,
+    });
     await handle.settled;
     expect(calls.map((c) => `${c.method} ${c.url}`)).toEqual(['GET /api/me/thing?courseId=c1']);
     handle.dispose();
@@ -143,10 +171,18 @@ describe('startSync', () => {
     const page = setup(marker);
     const { adapter } = page;
     const { impl, calls } = fakeFetch(() => ok({ remote: 3 }));
-    const handle = startSync({ ...page, courseIds: ['c1'], userId: 'u2', fetchImpl: impl, debounceMs: 0 });
+    const handle = startSync({
+      ...page,
+      courseIds: ['c1'],
+      userId: 'u2',
+      fetchImpl: impl,
+      debounceMs: 0,
+    });
     await handle.settled;
     expect(calls.map((c) => `${c.method} ${c.url}`)).toEqual(['GET /api/me/thing?courseId=c1']);
-    expect(adapter.applied).toEqual([{ courseId: 'c1', remote: { remote: 3 }, pending: undefined }]);
+    expect(adapter.applied).toEqual([
+      { courseId: 'c1', remote: { remote: 3 }, pending: undefined },
+    ]);
     expect(marker.value).toBe('u2');
     handle.dispose();
   });
@@ -172,7 +208,13 @@ describe('startSync', () => {
     const page = setup(memoryMarker('u1'));
     const { adapter } = page;
     const { impl, calls } = fakeFetch((call) => (call.method === 'GET' ? ok({}) : noContent()));
-    const handle = startSync({ ...page, courseIds: ['c1'], userId: 'u1', fetchImpl: impl, debounceMs: 0 });
+    const handle = startSync({
+      ...page,
+      courseIds: ['c1'],
+      userId: 'u1',
+      fetchImpl: impl,
+      debounceMs: 0,
+    });
     await handle.settled;
     calls.length = 0;
 
@@ -182,7 +224,9 @@ describe('startSync', () => {
     await tick();
     await tick();
 
-    expect(calls).toEqual([{ method: 'PATCH', url: '/api/me/thing', body: { courseId: 'c1', items: ['a', 'b'] } }]);
+    expect(calls).toEqual([
+      { method: 'PATCH', url: '/api/me/thing', body: { courseId: 'c1', items: ['a', 'b'] } },
+    ]);
     handle.dispose();
   });
 
@@ -200,7 +244,13 @@ describe('startSync', () => {
       }
       return noContent();
     });
-    const handle = startSync({ ...page, courseIds: ['c1'], userId: 'u1', fetchImpl: impl, debounceMs: 0 });
+    const handle = startSync({
+      ...page,
+      courseIds: ['c1'],
+      userId: 'u1',
+      fetchImpl: impl,
+      debounceMs: 0,
+    });
     adapter.emit('c1', 'during');
     release();
     await handle.settled;
@@ -255,7 +305,13 @@ describe('startSync', () => {
     const page = setup(marker);
     const { adapter } = page;
     const { impl, calls } = fakeFetch((call) => (call.method === 'POST' ? fail() : noContent()));
-    const handle = startSync({ ...page, courseIds: ['c1'], userId: 'u1', fetchImpl: impl, debounceMs: 0 });
+    const handle = startSync({
+      ...page,
+      courseIds: ['c1'],
+      userId: 'u1',
+      fetchImpl: impl,
+      debounceMs: 0,
+    });
     await handle.settled;
     expect(marker.value).toBeNull();
     expect(adapter.applied).toHaveLength(0);
@@ -270,7 +326,13 @@ describe('startSync', () => {
   it('dispose stops sending but keeps the queue in storage', async () => {
     const page = setup(memoryMarker('u1'));
     const { impl, calls } = fakeFetch((call) => (call.method === 'GET' ? ok({}) : noContent()));
-    const handle = startSync({ ...page, courseIds: ['c1'], userId: 'u1', fetchImpl: impl, debounceMs: 50 });
+    const handle = startSync({
+      ...page,
+      courseIds: ['c1'],
+      userId: 'u1',
+      fetchImpl: impl,
+      debounceMs: 50,
+    });
     await handle.settled;
     page.adapter.emit('c1', 'kept');
     handle.dispose();
@@ -282,13 +344,23 @@ describe('startSync', () => {
   it('a change made before the engine starts (before /api/me) is queued and sent', async () => {
     const page = setup(memoryMarker('u1'));
     page.adapter.emit('c1', 'early');
-    const { impl, calls } = fakeFetch((call) => (call.method === 'GET' ? ok({ remote: 1 }) : noContent()));
-    const handle = startSync({ ...page, courseIds: ['c1'], userId: 'u1', fetchImpl: impl, debounceMs: 0 });
+    const { impl, calls } = fakeFetch((call) =>
+      call.method === 'GET' ? ok({ remote: 1 }) : noContent(),
+    );
+    const handle = startSync({
+      ...page,
+      courseIds: ['c1'],
+      userId: 'u1',
+      fetchImpl: impl,
+      debounceMs: 0,
+    });
     await handle.settled;
     await tick();
     await tick();
     expect(page.adapter.applied[0]?.pending).toEqual({ items: ['early'] });
-    expect(calls.filter((c) => c.method === 'PATCH').map((c) => c.body)).toEqual([{ courseId: 'c1', items: ['early'] }]);
+    expect(calls.filter((c) => c.method === 'PATCH').map((c) => c.body)).toEqual([
+      { courseId: 'c1', items: ['early'] },
+    ]);
     expect(page.queue.read('u1').size).toBe(0);
     handle.dispose();
   });
@@ -296,7 +368,9 @@ describe('startSync', () => {
   it('an outage, the tab closed, the next visit: the queue is applied over GET and sent', async () => {
     const storage = memoryStorage();
     const first = setup(memoryMarker('u1'), storage);
-    const down = fakeFetch((call) => (call.method === 'GET' ? ok({}) : new Response('down', { status: 503 })));
+    const down = fakeFetch((call) =>
+      call.method === 'GET' ? ok({}) : new Response('down', { status: 503 }),
+    );
     const one = startSync({
       ...first,
       courseIds: ['c1'],
@@ -314,7 +388,13 @@ describe('startSync', () => {
 
     const second = setup(memoryMarker('u1'), storage);
     const up = fakeFetch((call) => (call.method === 'GET' ? ok({ remote: 2 }) : noContent()));
-    const two = startSync({ ...second, courseIds: ['c1'], userId: 'u1', fetchImpl: up.impl, debounceMs: 0 });
+    const two = startSync({
+      ...second,
+      courseIds: ['c1'],
+      userId: 'u1',
+      fetchImpl: up.impl,
+      debounceMs: 0,
+    });
     await two.settled;
     await tick();
     await tick();
@@ -339,7 +419,13 @@ describe('startSync', () => {
       if (patches === 1) await gate;
       return noContent();
     });
-    const handle = startSync({ ...page, courseIds: ['c1'], userId: 'u1', fetchImpl: impl, debounceMs: 0 });
+    const handle = startSync({
+      ...page,
+      courseIds: ['c1'],
+      userId: 'u1',
+      fetchImpl: impl,
+      debounceMs: 0,
+    });
     await handle.settled;
     page.adapter.emit('c1', 'a');
     await tick();
@@ -356,12 +442,18 @@ describe('startSync', () => {
     handle.dispose();
   });
 
-  it('never sends another account\'s queue, and deletes it on sign-in', async () => {
+  it("never sends another account's queue, and deletes it on sign-in", async () => {
     const storage = memoryStorage();
     const page = setup(memoryMarker('u1'), storage);
     page.adapter.emit('c1', 'from-u1'); // queued for u1 (the marker)
     const { impl, calls } = fakeFetch((call) => (call.method === 'GET' ? ok({}) : noContent()));
-    const handle = startSync({ ...page, courseIds: ['c1'], userId: 'u2', fetchImpl: impl, debounceMs: 0 });
+    const handle = startSync({
+      ...page,
+      courseIds: ['c1'],
+      userId: 'u2',
+      fetchImpl: impl,
+      debounceMs: 0,
+    });
     await handle.settled;
     await tick();
     expect(page.adapter.applied[0]?.pending).toBeUndefined();
@@ -370,7 +462,7 @@ describe('startSync', () => {
     handle.dispose();
   });
 
-  it('a live tab keeps its own queue; a closed tab\'s queue is adopted', async () => {
+  it("a live tab keeps its own queue; a closed tab's queue is adopted", async () => {
     const storage = memoryStorage();
     const other = setup(memoryMarker('u1'), storage);
     other.adapter.emit('c1', 'theirs');
@@ -414,11 +506,151 @@ describe('startSync', () => {
   it('flush() sends the queue now', async () => {
     const page = setup(memoryMarker('u1'));
     const { impl, calls } = fakeFetch((call) => (call.method === 'GET' ? ok({}) : noContent()));
-    const handle = startSync({ ...page, courseIds: ['c1'], userId: 'u1', fetchImpl: impl, debounceMs: 10_000 });
+    const handle = startSync({
+      ...page,
+      courseIds: ['c1'],
+      userId: 'u1',
+      fetchImpl: impl,
+      debounceMs: 10_000,
+    });
     await handle.settled;
     page.adapter.emit('c1', 'now');
     await handle.flush();
     expect(calls.filter((c) => c.method === 'PATCH')).toHaveLength(1);
     handle.dispose();
   });
+
+  // Review 2026-10-03: P1 item 2 (account switch) and P3 item 16 (permanent 4xx, 401).
+
+  it('names the user it syncs for on every call', async () => {
+    const page = setup(memoryMarker(null));
+    const { impl, calls, users } = fakeFetch((call) =>
+      call.method === 'POST' ? ok({}) : noContent(),
+    );
+    const handle = startSync({
+      ...page,
+      courseIds: ['c1'],
+      userId: 'u1',
+      fetchImpl: impl,
+      debounceMs: 0,
+    });
+    await handle.settled;
+    page.adapter.emit('c1', 'x');
+    await handle.flush();
+    expect(calls.map((c) => c.method)).toEqual(['POST', 'PATCH']);
+    expect(users).toEqual(['u1', 'u1']);
+    handle.dispose();
+  });
+
+  it.each([409, 401] as const)(
+    'a %i on PATCH pauses: the queue stays for this user, no retry, the app is told',
+    async (status) => {
+      const page = setup(memoryMarker('u1'));
+      let accepted = false;
+      const { impl, calls } = fakeFetch((call) => {
+        if (call.method === 'GET') return ok({});
+        return accepted ? noContent() : new Response('{}', { status });
+      });
+      const lost: number[] = [];
+      const handle = startSync({
+        ...page,
+        courseIds: ['c1'],
+        userId: 'u1',
+        fetchImpl: impl,
+        debounceMs: 0,
+        retryMs: 10,
+        onError: () => undefined,
+        onSessionLost: (code) => lost.push(code),
+      });
+      await handle.settled;
+      page.adapter.emit('c1', 'mine');
+      await vi.advanceTimersByTimeAsync(50);
+      expect(lost).toEqual([status]);
+      expect(calls.filter((c) => c.method === 'PATCH')).toHaveLength(1);
+      expect(page.queue.read('u1').get('c1')).toEqual({ items: ['mine'] });
+
+      // Paused: a later change is queued (for this user) but not sent.
+      page.adapter.emit('c1', 'later');
+      await vi.advanceTimersByTimeAsync(50);
+      expect(calls.filter((c) => c.method === 'PATCH')).toHaveLength(1);
+      expect(page.queue.read('u1').get('c1')).toEqual({ items: ['mine', 'later'] });
+
+      // `/api/me` still says this user (or the tab came back): flush() resumes.
+      accepted = true;
+      await handle.flush();
+      expect(calls.filter((c) => c.method === 'PATCH').at(-1)?.body).toEqual({
+        courseId: 'c1',
+        items: ['mine', 'later'],
+      });
+      expect(page.queue.read('u1').size).toBe(0);
+      handle.dispose();
+    },
+  );
+
+  it('a 409 on the first load applies nothing and keeps the queue unsent', async () => {
+    const marker = memoryMarker(null);
+    const page = setup(marker);
+    const { impl, calls } = fakeFetch(() => new Response('{}', { status: 409 }));
+    const lost: number[] = [];
+    const handle = startSync({
+      ...page,
+      courseIds: ['c1', 'c2'],
+      userId: 'u1',
+      fetchImpl: impl,
+      debounceMs: 0,
+      onError: () => undefined,
+      onSessionLost: (code) => lost.push(code),
+    });
+    // A first contact: the local snapshot must not be unioned into another account.
+    page.adapter.emit('c1', 'queued');
+    await handle.settled;
+    await vi.advanceTimersByTimeAsync(50);
+    expect(lost).toEqual([409]);
+    expect(calls.map((c) => `${c.method} ${c.url}`)).toEqual(['POST /api/me/thing/sync']);
+    expect(page.adapter.applied).toHaveLength(0);
+    expect(marker.value).toBeNull();
+    expect(page.queue.read('u1').get('c1')).toEqual({ items: ['queued'] });
+    handle.dispose();
+  });
+
+  it.each([400, 413, 422])(
+    'a %i drops the refused delta instead of retrying it forever',
+    async (status) => {
+      const page = setup(memoryMarker('u1'));
+      let refuse = true;
+      const { impl, calls } = fakeFetch((call) => {
+        if (call.method === 'GET') return ok({});
+        return refuse ? new Response('{}', { status }) : noContent();
+      });
+      const errors: unknown[] = [];
+      const lost: number[] = [];
+      const handle = startSync({
+        ...page,
+        courseIds: ['c1'],
+        userId: 'u1',
+        fetchImpl: impl,
+        debounceMs: 0,
+        retryMs: 10,
+        onError: (error) => errors.push(error),
+        onSessionLost: (code) => lost.push(code),
+      });
+      await handle.settled;
+      page.adapter.emit('c1', 'bad');
+      await vi.advanceTimersByTimeAsync(50);
+      expect(calls.filter((c) => c.method === 'PATCH')).toHaveLength(1);
+      expect(page.queue.read('u1').size).toBe(0);
+      expect(errors).toHaveLength(1);
+      expect(lost).toEqual([]);
+
+      // The next change goes out on its own, not stuck behind the refused one.
+      refuse = false;
+      page.adapter.emit('c1', 'good');
+      await vi.advanceTimersByTimeAsync(50);
+      expect(calls.filter((c) => c.method === 'PATCH').map((c) => c.body)).toEqual([
+        { courseId: 'c1', items: ['bad'] },
+        { courseId: 'c1', items: ['good'] },
+      ]);
+      handle.dispose();
+    },
+  );
 });

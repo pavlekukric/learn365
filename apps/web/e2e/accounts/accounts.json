@@ -8,7 +8,12 @@
     { "key": "delete-1", "name": "Brisanje Jedan", "completed": ["day-002"] },
     { "key": "delete-2", "name": "Brisanje Dva", "completed": ["day-002"] },
     { "key": "reader", "name": "Običan Čitalac", "completed": [] },
-    { "key": "admin", "name": "Vlasnik Pregleda", "completed": ["day-001", "day-002"], "isAdmin": true },
+    {
+      "key": "admin",
+      "name": "Vlasnik Pregleda",
+      "completed": ["day-001", "day-002"],
+      "isAdmin": true
+    },
     { "key": "reload-0", "name": "Ponovno Učitavanje Nula", "completed": ["day-003"] },
     { "key": "reload-1", "name": "Ponovno Učitavanje Jedan", "completed": ["day-003"] },
     { "key": "reload-2", "name": "Ponovno Učitavanje Dva", "completed": ["day-003"] },
@@ -23,6 +28,12 @@
     { "key": "tabsout-2", "name": "Odjava Tab Dva", "completed": ["day-005", "day-006"] },
     { "key": "next-0", "name": "Sledeći Čitalac Nula", "completed": ["day-009"] },
     { "key": "next-1", "name": "Sledeći Čitalac Jedan", "completed": ["day-009"] },
-    { "key": "next-2", "name": "Sledeći Čitalac Dva", "completed": ["day-009"] }
+    { "key": "next-2", "name": "Sledeći Čitalac Dva", "completed": ["day-009"] },
+    { "key": "switchfrom-0", "name": "Promena Naloga Od Nula", "completed": ["day-004"] },
+    { "key": "switchfrom-1", "name": "Promena Naloga Od Jedan", "completed": ["day-004"] },
+    { "key": "switchfrom-2", "name": "Promena Naloga Od Dva", "completed": ["day-004"] },
+    { "key": "switchto-0", "name": "Promena Naloga Na Nula", "completed": ["day-007"] },
+    { "key": "switchto-1", "name": "Promena Naloga Na Jedan", "completed": ["day-007"] },
+    { "key": "switchto-2", "name": "Promena Naloga Na Dva", "completed": ["day-007"] }
   ]
 }
