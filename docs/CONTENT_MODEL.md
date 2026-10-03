@@ -1,6 +1,6 @@
 # Content Model
 
-> **Canonical content contract.** This document defines the entity shapes (`Course`, `Era`, `Section`, `Lesson`, `LessonBlock`, `Source`, `UserProgress`) the app is built on. The TypeScript source of these shapes is [`packages/content/src/types.ts`](../packages/content/src/types.ts); when the two disagree, the types win and this file is corrected. For the mechanics of writing and shipping a lesson (files, validator, codegen), see [`CONTENT_AUTHORING.md`](./CONTENT_AUTHORING.md). The repo-root [`CONTENT_CONTRACT.md`](../CONTENT_CONTRACT.md) restates the contract for external content generators; keep the two in step.
+> **Canonical content contract.** This document defines the entity shapes (`Course`, `Era`, `Section`, `Lesson`, `LessonBlock`, `Source`, `UserProgress`) the app is built on. The TypeScript source of these shapes is [`packages/content/src/types.ts`](../packages/content/src/types.ts); when the two disagree, the types win and this file is corrected. For the mechanics of writing and shipping a lesson (files, validator, codegen), see [`CONTENT_AUTHORING.md`](./CONTENT_AUTHORING.md). The repo-root [`CONTENT_CONTRACT.md`](../CONTENT_CONTRACT.md) is only a pointer here.
 
 ## Overview
 
@@ -113,13 +113,13 @@ Sections are contiguous, non-overlapping day ranges (`startDay..endDay`, 4–18 
 | `dayNumber` | 1..365, unique, no gaps across the corpus. |
 | `order` | Position within the section, 1-indexed. |
 | `title`, `subtitle` | `subtitle` optional, shown under the title in the lesson header. |
-| `year` | The representative year for the timeline marker (BCE negative). Should not run backwards inside an era (review P3 item 25 lists the current exceptions). |
+| `year` | The representative year for the timeline marker (BCE negative). Should not run backwards inside an era (25 backward steps remain; the validator does not enforce it). |
 | `dateLabel`, `timelinePosition` | Display strings; optional. |
 | `readingTimeMinutes` | **Derived by the loader** (Phase 11): `max(1, ceil(words / 150))` over paragraph, heading and quote text. Never written in JSON — the loader rejects it. |
 | `content` | `LessonBlock[]`, at least one block; the first block of an authored lesson is a paragraph with `dropcap: true`. |
 | `isPlaceholder` | `false` on every lesson today. `true` would render the calm "Uskoro" state and disable completion; the field stays for any future re-introduction. |
 | `summary` | One standalone sentence; feeds the share-preview description (keep it under ~160 characters). |
-| `keyPeople`, `keyPlaces` | Authored on every lesson; not rendered in the reader yet (review P3 item 26). |
+| `keyPeople`, `keyPlaces` | Optional lists (`keyPeople` is empty on 64 lessons); not rendered in the reader yet. |
 | `byline` | `{ author?, reviewer? }`. Rendered in `LessonTrustLine` after the sources (mono line above the course-wide check note); absent on every lesson today — each name is authored explicitly, there is no course-wide fallback. |
 | `lastReviewedAt` | ISO date of a **named** reviewer's fact check; the loader rejects it without `byline.reviewer`. Absent on every lesson today: the six 2026-05-19 dates were dropped (review 2026-10-03 P1 4) because no named person stood behind them. The machine-assisted passes of Sept–Oct 2026 are not recorded here — the trust line under every lesson states them and links `/course/<id>/literatura`. |
 | `sources` | `Source[]`; rendered as the closing *Izvori* block when present. |
@@ -207,3 +207,14 @@ Sources
 ```
 
 Future additions under consideration: a "Ličnosti · Mesta" line from `keyPeople` / `keyPlaces`, related lessons, maps. Quizzes and streaks are out of scope for v1.
+
+## Validator rules not restated above
+
+Carried over from the old root `CONTENT_CONTRACT.md` (2026-10-03); `packages/content/src/loader/validateContentFiles.ts` is the source of truth.
+
+1. Lesson `title` ≤ 70 characters, `subtitle` ≤ 120.
+2. The derived reading time of an authored lesson is 4–15 minutes.
+3. A placeholder's body is exactly `Lekcija se uskoro objavljuje.`
+4. A lesson's `year` falls inside its era's range; era `yearStart` never decreases by `order`; era and section `order` run from 1 with no gaps.
+5. The validator takes the course directory as an argument and exits 0 (clean), 1 (problems) or 2 (malformed JSON or missing files).
+6. Lesson ids are permanent: progress and bookmarks are keyed by them.
