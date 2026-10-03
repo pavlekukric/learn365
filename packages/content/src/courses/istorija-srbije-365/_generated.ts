@@ -4300,7 +4300,7 @@ export const lessons: readonly LessonSummary[] = [
     "dayNumber": 318,
     "order": 3,
     "title": "Aprilski rat",
-    "readingTimeMinutes": 5,
+    "readingTimeMinutes": 6,
     "year": 1941,
     "isPlaceholder": false
   },

@@ -15,6 +15,12 @@ export interface BreadcrumbItem {
    * (e.g. opening a panel) rather than a route change.
    */
   onClick?: MouseEventHandler<HTMLButtonElement> | undefined;
+  /**
+   * Whether a plain-text crumb is the page itself (`aria-current="page"`).
+   * Defaults to "the last crumb, when it has no href or onClick"; pass
+   * `false` for a place that is named but has no page (a lesson's section).
+   */
+  current?: boolean | undefined;
 }
 
 interface BreadcrumbsProps {
@@ -24,8 +30,9 @@ interface BreadcrumbsProps {
 /**
  * Location trail. A crumb with an `href` (or `onClick`) is interactive
  * wherever it sits; a crumb with neither renders as plain text and, when it
- * is the last one, is marked `aria-current="page"` — it *is* the page. The
- * lesson page passes four ancestor links (Home · course · era · section)
+ * is the last one, is marked `aria-current="page"` — it *is* the page
+ * (unless `current: false`). The lesson page passes Home · course as links
+ * and its era · section as plain text — they have no page of their own —
  * and no current crumb: the article title below is the page.
  */
 export function Breadcrumbs({ items }: BreadcrumbsProps) {
@@ -36,7 +43,8 @@ export function Breadcrumbs({ items }: BreadcrumbsProps) {
       <ol className={styles.list}>
         {items.map((item, idx) => {
           const isLast = idx === lastIndex;
-          const isCurrentPage = isLast && item.href === undefined && item.onClick === undefined;
+          const isPlain = item.href === undefined && item.onClick === undefined;
+          const isCurrentPage = isPlain && (item.current ?? isLast);
           return (
             <li key={`${item.label}-${String(idx)}`} className={styles.item}>
               {item.href !== undefined ? (
@@ -49,7 +57,7 @@ export function Breadcrumbs({ items }: BreadcrumbsProps) {
                 </button>
               ) : (
                 <span
-                  className={styles.current}
+                  className={isCurrentPage ? styles.current : styles.text}
                   aria-current={isCurrentPage ? 'page' : undefined}
                 >
                   {item.label}

@@ -51,7 +51,12 @@ function AccountSlot({ account }: { account: TopBarAccount }) {
       return <span className={styles.accountPlaceholder} aria-hidden="true" />;
     case 'signed-out':
       return (
-        <Link href={account.href} data-link="account" className={styles.signIn} aria-label="Prijava">
+        <Link
+          href={account.href}
+          data-link="account"
+          className={styles.signIn}
+          aria-label="Prijava"
+        >
           <IconUser className={styles.signInIcon} />
           <span className={styles.signInLabel}>Prijava</span>
         </Link>
@@ -113,11 +118,15 @@ export function TopBar({
            * widths (≤1024px) — there the sticky LessonContextHeader already
            * carries a clearly-labelled "Pročitano X / 365", so the bare capsule
            * count would read as a confusing duplicate. Kept everywhere else
-           * (Home / Course / About) and on the desktop lesson layout. */}
+           * (Home / Course / About) and on the desktop lesson layout.
+           * A labelled group, not a live region: the count renders 0 on the
+           * server and N once the store hydrates, so `role="status"`
+           * announced 0 → N on every load (review 2026-10-03 item 7). The
+           * lesson footer speaks completions itself. */}
           <div
             className={styles.progressGroup}
             data-route={route}
-            role="status"
+            role="group"
             aria-label="Pročitane lekcije"
           >
             <span className={`eyebrow ${styles.progressLabel}`}>Pročitano</span>

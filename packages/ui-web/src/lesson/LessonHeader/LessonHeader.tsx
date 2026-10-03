@@ -8,6 +8,9 @@ import { buildLessonTimelineScale } from '../LessonTimeline/lessonTimelineScale.
 
 import styles from './LessonHeader.module.css';
 
+/** id of the lesson title — where the shell's "skip the outline" link lands. */
+export const LESSON_TITLE_ID = 'lesson-title';
+
 interface LessonHeaderProps {
   /** Summary plus `subtitle` / `dateLabel` — the open lesson, from the server page. */
   lesson: LessonHeading;
@@ -52,8 +55,9 @@ export function LessonHeader({ lesson, eraShort, bookmark }: LessonHeaderProps) 
         </p>
       )}
       {/* `tabIndex={-1}`: where the lesson shell moves focus after a
-       * lesson-to-lesson navigation, so a screen reader starts at the title. */}
-      <h1 className="reader-title" tabIndex={-1}>
+       * lesson-to-lesson navigation, so a screen reader starts at the title,
+       * and where its skip link lands. */}
+      <h1 id={LESSON_TITLE_ID} className="reader-title" tabIndex={-1}>
         {lesson.title}
       </h1>
       {lesson.subtitle ? <p className="lede">{lesson.subtitle}</p> : null}

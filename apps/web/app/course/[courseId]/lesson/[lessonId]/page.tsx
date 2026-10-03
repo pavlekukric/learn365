@@ -7,8 +7,6 @@ import {
   getEraForLesson,
   getLessonById,
   getLessons,
-  getLessonsByEra,
-  getLessonsBySection,
   getNextLesson,
   getPrevLesson,
   getSectionForLesson,
@@ -126,8 +124,6 @@ export default async function LessonPage({ params }: PageProps) {
   if (!era || !section) notFound();
 
   const overviewHref = courseHref(course.id);
-  const firstInEra = getLessonsByEra(courseId, era.id)[0];
-  const firstInSection = getLessonsBySection(courseId, section.id)[0];
 
   // What the reader's header needs beyond the summary: the two editorial
   // header facts travel with the open lesson only, never in the index.
@@ -141,14 +137,14 @@ export default async function LessonPage({ params }: PageProps) {
   // day number is intentionally NOT a crumb — it would duplicate the dedicated
   // day indicator (mobile context header / the sidebar's active row), and a
   // within-section position doesn't belong in a location trail.
+  // On the page the era and the section are plain text: they have no page
+  // of their own, and as links they opened the era's / section's first
+  // lesson — Day 1 from any lesson of Era I (review 2026-10-03 item 18).
   const breadcrumbs = [
     { label: 'Početna', href: '/' },
     { label: course.title, href: overviewHref },
-    { label: era.eraShort, href: firstInEra ? lessonHref(course.id, firstInEra.id) : overviewHref },
-    {
-      label: section.title,
-      href: firstInSection ? lessonHref(course.id, firstInSection.id) : overviewHref,
-    },
+    { label: era.eraShort },
+    { label: section.title, current: false },
   ];
   // The structured-data trail names the places, not the first lessons the
   // visible crumbs open: an era or a section is a part of the course

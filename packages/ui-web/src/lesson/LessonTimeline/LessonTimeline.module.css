@@ -1,9 +1,11 @@
-/* Editorial timeline divider. Same vertical rhythm as the decorative flourish
- * it replaces (var(--space-8) block margin) so surrounding spacing is
- * unchanged and the drop-cap paragraph keeps its breathing room. */
+/* Editorial timeline divider. It closes the header: room above it to part it
+ * from the lede, none below — the reader's own gap (`LessonReader`) already
+ * separates the header from the drop-cap paragraph. Was var(--space-8) on
+ * both sides, which with the 48 px reader gap made a ~214 px band between
+ * the lede and the first sentence on desktop (review 2026-10-03 item 6). */
 .timeline {
   width: 100%;
-  margin: var(--space-8) 0;
+  margin: var(--space-6) 0 0;
 }
 
 /* Room above the hairline for the marker label + pin. */

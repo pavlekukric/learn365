@@ -16,7 +16,7 @@ import { SITE_URL } from '@/lib/seo/metadata';
 
 import { reportErrorEmail, reportErrorHref } from './reportError';
 
-export const TRUST_NOTE = 'AI tekst, ručno uređen. Činjenice proverene u septembru i oktobru 2026.';
+export const TRUST_NOTE = 'Pripremljeno uz AI, uređeno ručno. Činjenice proverene sept.–okt. 2026.';
 export const READING_LIST_LINK_LABEL = 'Literatura i provera';
 export const REPORT_ERROR_LINK_LABEL = 'Prijavi grešku';
 

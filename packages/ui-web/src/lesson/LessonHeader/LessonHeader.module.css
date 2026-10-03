@@ -32,15 +32,21 @@
   }
 }
 
-/* Phones: the header's rhythm is the flex gap alone. The title and the lede
- * used to add the browser's default margins (~20 px + ~18 px) on top of it,
- * which pushed the first sentence to ~60 % of an 844 px screen (review
- * 2026-09-30, user pass). Desktop keeps its airier, reviewed spacing. */
+/* The header's rhythm is the flex gap alone, at every width. The title and
+ * the lede used to add the browser's default margins (~30 px + ~20 px each)
+ * on top of it: on phones that pushed the first sentence to ~60 % of an
+ * 844 px screen (review 2026-09-30), on a 1440×900 desktop to ~70 % of the
+ * fold (review 2026-10-03 item 6). One tuned margin above the title keeps
+ * the eyebrow reading as its own line. */
+.header > h1,
+.header > p {
+  margin: 0;
+}
+.header > h1 {
+  margin-top: var(--space-3);
+}
+
 @media (max-width: 720px) {
-  .header > h1,
-  .header > p {
-    margin: 0;
-  }
   .header > h1 {
     margin-top: var(--space-1);
   }
@@ -69,4 +75,9 @@
  * not a control, so — like #lesson-reader — it shows no ring. */
 .header > h1:focus {
   outline: none;
+}
+
+/* Reached by the skip link's fragment: stop clear of the sticky TopBar. */
+.header > h1 {
+  scroll-margin-top: calc(var(--topbar-height) + var(--space-6));
 }

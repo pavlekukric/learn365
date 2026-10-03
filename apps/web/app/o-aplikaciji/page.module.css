@@ -120,7 +120,12 @@
   color: var(--accent-ink);
 }
 
+/* Title on its own line above its text, as on Home (review 2026-10-03
+ * item 18: inline, "Otvori lekciju Svaki dan te čeka…" ran together). */
 .stepBody {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
   font-family: var(--serif);
   font-size: 18px;
   line-height: 1.6;
@@ -128,6 +133,7 @@
 
 .stepTitle {
   color: var(--ink);
+  font-weight: 500;
 }
 
 .stepText {

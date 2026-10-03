@@ -35,7 +35,7 @@ export const SOURCES_LINK_LABEL = 'Literatura i provera, po epohama';
 
 export const EDITOR_HEADING = 'Ko stoji iza kursa';
 export const EDITOR_BODY =
-  'Istorija 365 je projekat jedne osobe, ne redakcije. Tekstove lekcija pripremio je AI model na osnovu domaće i međunarodne istoriografije, a autor sajta ih uređuje i ispravlja. U septembru i oktobru 2026. svih 365 lekcija prošlo je proveru činjenica, sporna mesta i drugu proveru u nezavisnim izvorima, a tekst i jezičku lekturu. Provere su urađene uz pomoć AI modela koji je tražio i čitao izvore; to nije recenzija istoričara i nijedna lekcija još nema imenovanog recenzenta — zato svaka greška koju prijaviš zaista pomaže.';
+  'Istorija 365 je projekat jedne osobe, ne redakcije. Tekstove lekcija pripremio je AI model na osnovu domaće i međunarodne istoriografije, a autor sajta ih uređuje i ispravlja. U septembru i oktobru 2026. činjenice u svih 365 lekcija su proverene, sporna mesta i drugi put u nezavisnim izvorima, a ceo tekst je prošao jezičku lekturu. Provere su urađene uz pomoć AI modela koji je tražio i čitao izvore; to nije recenzija istoričara i nijedna lekcija još nema imenovanog recenzenta — zato svaka greška koju prijaviš zaista pomaže.';
 
 export const CONTACT_HEADING = 'Kontakt';
 export const CONTACT_BODY =

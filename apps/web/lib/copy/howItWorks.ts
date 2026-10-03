@@ -29,7 +29,7 @@ export const HOW_IT_WORKS_STEPS: readonly HowItWorksStep[] = [
   },
   {
     title: 'Sutra nastavi dalje',
-    text: 'Kurs te uvek vraća na prvu nepročitanu lekciju.',
+    text: 'Kurs te uvek vraća na lekciju posle poslednje pročitane.',
   },
 ];
 

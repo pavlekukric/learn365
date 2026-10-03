@@ -14,7 +14,7 @@ export {
   type LessonFooterLink,
   type LessonFooterProps,
 } from './LessonFooter/LessonFooter.js';
-export { LessonHeader } from './LessonHeader/LessonHeader.js';
+export { LESSON_TITLE_ID, LessonHeader } from './LessonHeader/LessonHeader.js';
 export { LessonReader } from './LessonReader/LessonReader.js';
 export { LessonSources } from './LessonSources/LessonSources.js';
 export { LessonTimeline } from './LessonTimeline/LessonTimeline.js';
