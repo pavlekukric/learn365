@@ -18,6 +18,7 @@ const ROUTES = [
   { name: 'Course overview', path: '/course/istorija-srbije-365' },
   { name: 'Lesson', path: '/course/istorija-srbije-365/lesson/day-001' },
   { name: 'About', path: '/o-aplikaciji' },
+  { name: 'Reading list', path: '/course/istorija-srbije-365/literatura' },
   { name: 'Privacy', path: '/privatnost' },
   { name: '404', path: '/ova-strana-ne-postoji' },
 ] as const;
@@ -49,8 +50,13 @@ test.describe('History 365 — accessibility (axe)', () => {
         .withTags(['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa', 'wcag22aa'])
         .analyze();
 
-      const failures: { rule: string; impact: string; help: string; target: string; summary: string }[] =
-        [];
+      const failures: {
+        rule: string;
+        impact: string;
+        help: string;
+        target: string;
+        summary: string;
+      }[] = [];
       for (const violation of results.violations) {
         const impact = violation.impact ?? 'unknown';
         if (!GATED_IMPACTS.has(impact)) {

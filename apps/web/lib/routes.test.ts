@@ -6,6 +6,7 @@ import {
   isCoursePath,
   isLessonPath,
   lessonHref,
+  readingListHref,
   sectionAnchorId,
 } from './routes';
 
@@ -15,6 +16,11 @@ describe('routes', () => {
     expect(lessonHref('istorija-srbije-365', 'day-001')).toBe(
       '/course/istorija-srbije-365/lesson/day-001',
     );
+  });
+
+  it('builds the reading-list URL, with an era anchor when asked', () => {
+    expect(readingListHref('c')).toBe('/course/c/literatura');
+    expect(readingListHref('c', 'nemanjici')).toBe('/course/c/literatura#era-nemanjici');
   });
 
   it('tells a lesson page from the course overview', () => {

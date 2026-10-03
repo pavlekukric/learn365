@@ -22,8 +22,7 @@ export const PAGE_LEDE =
   'Istorija 365 je dnevni kurs koji istoriju Srbije prikazuje kao jednu povezanu priču: po jedna kratka lekcija za svaki dan, hronološkim redom kroz osam epoha, od praistorije do danas.';
 
 export const MISSION_HEADING = 'Misija';
-export const MISSION_BODY =
-  `Namera kursa je da istoriju Srbije izvede iz udžbenika i hronologija i ponudi je kao povezanu, čitljivu priču, dostupnu svakome ko želi da je razume. Polazna pretpostavka je jednostavna: ${READING_TIME_LABEL} dnevno tokom jedne godine dovoljno je za solidnu, hronološki urednu sliku — od najstarijih kultura na Balkanu do savremenog doba. Kurs je namerno spor: ne nudi enciklopedijsku iscrpnost, već stabilan ritam koji se može održati.`;
+export const MISSION_BODY = `Namera kursa je da istoriju Srbije izvede iz udžbenika i hronologija i ponudi je kao povezanu, čitljivu priču, dostupnu svakome ko želi da je razume. Polazna pretpostavka je jednostavna: ${READING_TIME_LABEL} dnevno tokom jedne godine dovoljno je za solidnu, hronološki urednu sliku — od najstarijih kultura na Balkanu do savremenog doba. Kurs je namerno spor: ne nudi enciklopedijsku iscrpnost, već stabilan ritam koji se može održati.`;
 
 export const STANDARD_HEADING = 'Urednički standard';
 export const STANDARD_BODY =
@@ -31,11 +30,12 @@ export const STANDARD_BODY =
 
 export const SOURCES_HEADING = 'O izvorima';
 export const SOURCES_BODY =
-  'Lekcije se oslanjaju na uglednu domaću i međunarodnu istoriografiju — akademske preglede, monografije pojedinih perioda i, kada je relevantno, primarne izvore u prevodu. Lekcije koje na kraju imaju blok „Izvori” navode dela na koja se tekst neposredno oslanja. Za ostale lekcije spisak literature po epohama je u pripremi. Ako primetiš grešku, javi je na adresu ispod — svaka prijava se proverava, a ispravka ulazi u lekciju čim se potvrdi.';
+  'Lekcije se oslanjaju na uglednu domaću i međunarodnu istoriografiju — akademske preglede, monografije pojedinih perioda i, kada je relevantno, primarne izvore u prevodu. Lekcije koje na kraju imaju blok „Izvori” navode dela na koja se tekst neposredno oslanja. Za svaku epohu postoji i spisak dela i izvora na koje se oslanjala provera činjenica, uz opis kako je provera urađena i gde su njene granice. Ako primetiš grešku, javi je na adresu ispod — svaka prijava se proverava, a ispravka ulazi u lekciju čim se potvrdi.';
+export const SOURCES_LINK_LABEL = 'Literatura i provera, po epohama';
 
 export const EDITOR_HEADING = 'Ko stoji iza kursa';
 export const EDITOR_BODY =
-  'Istorija 365 je projekat jedne osobe, ne redakcije. Tekstove lekcija pripremio je AI model na osnovu domaće i međunarodne istoriografije, a autor sajta ih uređuje, proverava i ispravlja — lekciju po lekciju, sporim tempom koji preporučuje i sam kurs. Svih 365 lekcija dostupno je od prvog dana, pa su neke prošle više provera od drugih; zato svaka greška koju prijaviš zaista pomaže.';
+  'Istorija 365 je projekat jedne osobe, ne redakcije. Tekstove lekcija pripremio je AI model na osnovu domaće i međunarodne istoriografije, a autor sajta ih uređuje i ispravlja. U septembru i oktobru 2026. činjenice u svih 365 lekcija su proverene, sporna mesta i drugi put u nezavisnim izvorima, a ceo tekst je prošao jezičku lekturu. Provere su urađene uz pomoć AI modela koji je tražio i čitao izvore; to nije recenzija istoričara i nijedna lekcija još nema imenovanog recenzenta — zato svaka greška koju prijaviš zaista pomaže.';
 
 export const CONTACT_HEADING = 'Kontakt';
 export const CONTACT_BODY =

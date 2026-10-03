@@ -141,13 +141,7 @@ function optionalStringArray(
   return v;
 }
 
-const SOURCE_KINDS: readonly SourceKind[] = [
-  'book',
-  'article',
-  'museum',
-  'archive',
-  'web',
-];
+const SOURCE_KINDS: readonly SourceKind[] = ['book', 'article', 'museum', 'archive', 'web'];
 
 const ISO_DATE_RE = /^\d{4}-\d{2}-\d{2}$/;
 
@@ -202,10 +196,7 @@ function parseSource(file: string, raw: unknown, index: number): Source {
       // Validate URL shape only; the parsed object is intentionally discarded.
       void new URL(url);
     } catch {
-      throw new ContentLoadError(
-        file,
-        `sources[${String(index)}].url "${url}" is not a valid URL`,
-      );
+      throw new ContentLoadError(file, `sources[${String(index)}].url "${url}" is not a valid URL`);
     }
   }
   const yearRaw = raw['year'];
@@ -246,10 +237,7 @@ function optionalSources(
   return v.map((s, i) => parseSource(file, s, i));
 }
 
-function parseCourse(
-  file: string,
-  raw: unknown,
-): Omit<Course, 'estimatedMinutesPerLesson'> {
+function parseCourse(file: string, raw: unknown): Omit<Course, 'estimatedMinutesPerLesson'> {
   if (!isObject(raw)) {
     throw new ContentLoadError(file, 'top-level value must be an object');
   }
@@ -415,6 +403,15 @@ function parseLesson(file: string, raw: unknown): Lesson {
     raw['lastReviewedAt'] !== undefined
       ? parseLastReviewedAt(file, raw['lastReviewedAt'])
       : undefined;
+  // The date is a named person's review, never a machine pass's (review
+  // 2026-10-03 P1 4): without `byline.reviewer` it would read as a sign-off
+  // nobody gave. The course-wide check is stated by the trust line instead.
+  if (lastReviewedAt !== undefined && byline?.reviewer === undefined) {
+    throw new ContentLoadError(
+      file,
+      'field "lastReviewedAt" needs "byline.reviewer" — it records a named reviewer\'s check',
+    );
+  }
   const sources = optionalSources(file, raw);
 
   return {
@@ -457,16 +454,11 @@ export function loadCourseFromFiles(courseDir: string): LoadedCourse {
   if (!Array.isArray(erasRaw)) {
     throw new ContentLoadError(erasFile, 'top-level value must be an array of Era objects');
   }
-  const eras = erasRaw
-    .map((e, i) => parseEra(erasFile, e, i))
-    .sort((a, b) => a.order - b.order);
+  const eras = erasRaw.map((e, i) => parseEra(erasFile, e, i)).sort((a, b) => a.order - b.order);
 
   const sectionsRaw = readJson(sectionsFile);
   if (!Array.isArray(sectionsRaw)) {
-    throw new ContentLoadError(
-      sectionsFile,
-      'top-level value must be an array of Section objects',
-    );
+    throw new ContentLoadError(sectionsFile, 'top-level value must be an array of Section objects');
   }
   const sections = sectionsRaw
     .map((s, i) => parseSection(sectionsFile, s, i))

@@ -27,8 +27,11 @@ RUN --mount=type=cache,id=pnpm-store,target=/pnpm/store \
 FROM deps AS build
 # Public origin baked into metadata (og:url, canonical). Empty = Vercel fallback.
 ARG NEXT_PUBLIC_SITE_URL=
+# Address of the lessons' „Prijavi grešku" mailto. Empty = no link (DEPLOY.md §5).
+ARG NEXT_PUBLIC_REPORT_EMAIL=
 # NEXT_STANDALONE=1 switches next.config.mjs to output: 'standalone'.
 ENV NEXT_PUBLIC_SITE_URL=${NEXT_PUBLIC_SITE_URL}
+ENV NEXT_PUBLIC_REPORT_EMAIL=${NEXT_PUBLIC_REPORT_EMAIL}
 ENV NEXT_STANDALONE=1
 ENV NEXT_TELEMETRY_DISABLED=1
 COPY . .

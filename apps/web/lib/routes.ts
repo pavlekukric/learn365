@@ -18,6 +18,15 @@ export function lessonHref(courseId: string, lessonId: string): LessonHref {
   return `/course/${courseId}/lesson/${lessonId}`;
 }
 
+/**
+ * The course's „Literatura i provera" page; with an era, that era's section
+ * on it (review 2026-10-03 P1 4).
+ */
+export function readingListHref(courseId: string, eraId?: string): string {
+  const path = `/course/${courseId}/literatura`;
+  return eraId === undefined ? path : `${path}#${eraAnchorId(eraId)}`;
+}
+
 /** `true` for a lesson page (`/course/<id>/lesson/<id>`), whatever follows. */
 export function isLessonPath(pathname: string): boolean {
   return /^\/course\/[^/]+\/lesson\/[^/]+/.test(pathname);

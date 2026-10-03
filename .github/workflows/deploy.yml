@@ -103,6 +103,7 @@ jobs:
           tags: ${{ steps.meta.outputs.tags }}
           build-args: |
             NEXT_PUBLIC_SITE_URL=${{ vars.SITE_URL }}
+            NEXT_PUBLIC_REPORT_EMAIL=${{ vars.REPORT_EMAIL }}
           cache-from: type=gha
           cache-to: type=gha,mode=max
 

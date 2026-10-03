@@ -30,6 +30,7 @@ import { truncateDescription } from '@/lib/seo/description';
 import { lessonJsonLd } from '@/lib/seo/jsonLd';
 import { shareMetadata } from '@/lib/seo/metadata';
 import { StructuredData } from '@/lib/seo/StructuredData';
+import { lessonTrustLinks, TRUST_NOTE } from '@/lib/trust/trustLine';
 
 import { LessonBookmarkToggle } from './LessonBookmarkToggle';
 import { LessonCompletion } from './LessonCompletion';
@@ -173,7 +174,17 @@ export default async function LessonPage({ params }: PageProps) {
           {article.sources !== undefined && article.sources.length > 0 ? (
             <LessonSources sources={article.sources} />
           ) : null}
-          <LessonTrustLine byline={article.byline} lastReviewedAt={article.lastReviewedAt} />
+          <LessonTrustLine
+            byline={article.byline}
+            lastReviewedAt={article.lastReviewedAt}
+            note={TRUST_NOTE}
+            links={lessonTrustLinks({
+              courseId: course.id,
+              eraId: era.id,
+              dayNumber: lesson.dayNumber,
+              lessonPath: lessonHref(course.id, lesson.id),
+            })}
+          />
           <StructuredData
             data={lessonJsonLd({
               title: lesson.title,

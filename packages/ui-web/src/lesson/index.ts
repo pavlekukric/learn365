@@ -21,5 +21,5 @@ export { LessonTimeline } from './LessonTimeline/LessonTimeline.js';
 export { MarkAsCompletedButton } from './MarkAsCompletedButton/MarkAsCompletedButton.js';
 export { MobileLessonDrawer } from './MobileLessonDrawer/MobileLessonDrawer.js';
 export { PreviousNextLessonNavigation } from './PreviousNextLessonNavigation/PreviousNextLessonNavigation.js';
-export { LessonTrustLine } from './LessonTrustLine/LessonTrustLine.js';
+export { LessonTrustLine, type LessonTrustLink } from './LessonTrustLine/LessonTrustLine.js';
 export { SignInPrompt, type SignInPromptProps } from './SignInPrompt/SignInPrompt.js';

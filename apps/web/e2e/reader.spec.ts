@@ -63,14 +63,12 @@ test.describe('Istorija 365 — reader chrome', () => {
 
   test('trust line sits with the sources, not in the header', async ({ page }) => {
     await page.goto(LESSON);
-    const trust = page.locator('article').getByText(/POSLEDNJI PREGLED/);
+    const trust = page.getByTestId('lesson-trust-note');
     await expect(trust).toBeVisible();
     const order = await page.evaluate(() => {
       const h1 = document.querySelector('h1');
       const sources = document.getElementById('lesson-sources-heading');
-      const trust = Array.from(document.querySelectorAll('article p')).find((p) =>
-        /POSLEDNJI PREGLED/.test(p.textContent ?? ''),
-      );
+      const trust = document.querySelector('[data-testid="lesson-trust-note"]');
       if (!h1 || !sources || !trust) return null;
       return {
         trustBelowSources: trust.getBoundingClientRect().top > sources.getBoundingClientRect().top,

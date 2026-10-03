@@ -1,0 +1,190 @@
+/* Same editorial register as /o-aplikaciji: one reading column, a masthead
+ * closed by the flourish, short sections under serif headings. */
+.page {
+  padding-top: var(--space-10);
+  padding-bottom: var(--space-13);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-11);
+  max-width: 760px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--space-5);
+}
+
+.title {
+  margin: 0;
+}
+
+.lede {
+  margin: 0;
+  max-width: var(--reading-col);
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-10);
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  max-width: var(--reading-col);
+}
+
+.sectionTitle {
+  margin: 0;
+}
+
+.paragraph {
+  margin: 0;
+}
+
+.inlineLink {
+  color: var(--ink);
+  text-decoration: underline;
+  text-decoration-color: var(--rule-2);
+  text-underline-offset: 0.2em;
+  transition: text-decoration-color var(--dur-base) var(--ease);
+}
+
+.inlineLink:hover,
+.inlineLink:focus-visible {
+  text-decoration-color: var(--accent);
+}
+
+/* ---------------------------------------------------------------------------
+ * Contents — the eight eras as a quiet numbered list of anchors.
+ * ------------------------------------------------------------------------- */
+.toc {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  max-width: var(--reading-col);
+}
+
+.tocList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border-top: 1px solid var(--rule);
+}
+
+.tocLink {
+  display: grid;
+  grid-template-columns: 44px 1fr;
+  align-items: baseline;
+  gap: var(--space-3);
+  padding: var(--space-3) 0;
+  border-bottom: 1px solid var(--rule);
+  font-family: var(--serif);
+  font-size: 18px;
+  line-height: 1.4;
+  color: var(--ink);
+  transition: color var(--dur-base) var(--ease);
+}
+
+.tocLink:hover {
+  color: var(--accent);
+}
+
+.tocLink:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: var(--r-sm);
+}
+
+.num {
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  color: var(--accent-ink);
+}
+
+/* ---------------------------------------------------------------------------
+ * One era: meta line (numeral · days · years), title, the works, the caveat.
+ * ------------------------------------------------------------------------- */
+.era {
+  padding-top: var(--space-8);
+  border-top: 1px solid var(--rule);
+  /* The sticky top bar must not cover the heading after an anchor jump. */
+  scroll-margin-top: var(--space-11);
+}
+
+.eraMeta {
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-1) var(--space-4);
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+}
+
+.worksLabel {
+  margin: var(--space-3) 0 0;
+  color: var(--muted);
+}
+
+.works {
+  margin: 0;
+  padding-left: var(--space-4);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.work {
+  font-family: var(--serif);
+  font-size: 17px;
+  line-height: 1.55;
+  color: var(--ink);
+}
+
+.work::marker {
+  color: var(--faint);
+}
+
+.work cite {
+  font-style: italic;
+}
+
+.workDetail {
+  color: var(--ink-2);
+}
+
+.caveat {
+  margin: var(--space-2) 0 0;
+  color: var(--muted);
+}
+
+.eraLink {
+  margin: var(--space-2) 0 0;
+  font-size: 15px;
+}
+
+@media (max-width: 720px) {
+  .page {
+    padding-top: var(--space-8);
+    padding-bottom: var(--space-11);
+    gap: var(--space-9);
+  }
+  .header {
+    gap: var(--space-4);
+  }
+  .body {
+    gap: var(--space-8);
+  }
+  .tocLink {
+    grid-template-columns: 36px 1fr;
+    font-size: 17px;
+  }
+  .work {
+    font-size: 16px;
+  }
+}

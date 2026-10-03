@@ -73,7 +73,6 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       "Đerdap",
       "Dunav"
     ],
-    "lastReviewedAt": "2026-05-19",
     "sources": [
       {
         "kind": "book",
@@ -407,7 +406,6 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "keyPlaces": [
       "Vinča"
     ],
-    "lastReviewedAt": "2026-05-19",
     "sources": [
       {
         "kind": "book",
@@ -1775,7 +1773,6 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       "Carigrad",
       "Naissus"
     ],
-    "lastReviewedAt": "2026-05-19",
     "sources": [
       {
         "kind": "book",
@@ -5974,7 +5971,6 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       "Marko Mrnjavčević"
     ],
     "keyPlaces": [],
-    "lastReviewedAt": "2026-05-19",
     "sources": [
       {
         "kind": "book",
@@ -11249,7 +11245,6 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
       "Paraćin",
       "Šumadija"
     ],
-    "lastReviewedAt": "2026-05-19",
     "sources": [
       {
         "kind": "book",
@@ -17412,7 +17407,6 @@ export const articles: Readonly<Record<LessonId, LessonArticle>> = {
     "keyPlaces": [
       "Beograd"
     ],
-    "lastReviewedAt": "2026-05-19",
     "sources": [
       {
         "kind": "book",
