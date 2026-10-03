@@ -43,9 +43,16 @@ export interface LessonJsonLdInput {
   dayNumber: number;
   readingTimeMinutes: number;
   course: { title: string; path: string };
+  /** The era, as `articleSection`. */
+  section: string;
   author?: string;
-  lastReviewedAt?: string;
-  /** Location trail, Home first; the lesson itself is appended as the last item. */
+  /** `YYYY-MM-DD` on which the lesson's text last changed (`lesson-dates.json`). */
+  dateModified?: string;
+  /**
+   * Location trail, Home first; the lesson itself is appended as the last
+   * item. Every `href` must name its own page or anchor — never the lesson's
+   * URL (an era is `/course/<id>#era-<eraId>`, not its first lesson).
+   */
   breadcrumbs: readonly { label: string; href: string }[];
 }
 
@@ -62,12 +69,13 @@ export function lessonJsonLd(input: LessonJsonLdInput): JsonLd[] {
     inLanguage: 'sr-Latn',
     isAccessibleForFree: true,
     learningResourceType: 'lesson',
+    articleSection: input.section,
     position: input.dayNumber,
     timeRequired: `PT${String(input.readingTimeMinutes)}M`,
     image: absolute(DEFAULT_OG_IMAGE.url),
     author: input.author !== undefined ? { '@type': 'Person', name: input.author } : organization,
     publisher: organization,
-    ...(input.lastReviewedAt !== undefined ? { dateModified: input.lastReviewedAt } : {}),
+    ...(input.dateModified !== undefined ? { dateModified: input.dateModified } : {}),
     isPartOf: { '@type': 'Course', name: input.course.title, url: absolute(input.course.path) },
   };
   const trail = [...input.breadcrumbs, { label: input.title, href: input.path }];

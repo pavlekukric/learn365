@@ -4,6 +4,7 @@ import { redirect } from 'next/navigation';
 
 import { Eyebrow } from '@learn365/ui-web';
 
+import { noindexMetadata } from '@/lib/seo/metadata';
 import { getCurrentSession } from '@/lib/server/auth/currentUser';
 import { getAuthConfig } from '@/lib/server/env';
 
@@ -13,12 +14,7 @@ import { NalogActions } from './NalogActions';
 
 export const dynamic = 'force-dynamic';
 
-export const metadata: Metadata = {
-  title: 'Nalog',
-  robots: { index: false, follow: false },
-  // noindex: no canonical either (the root layout would hand it `/`).
-  alternates: { canonical: null },
-};
+export const metadata: Metadata = noindexMetadata('Nalog');
 
 /**
  * The account page: who is signed in, what the account holds, and the two

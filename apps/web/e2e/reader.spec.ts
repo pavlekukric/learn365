@@ -30,7 +30,9 @@ test.describe('Istorija 365 — reader chrome', () => {
       // No breadcrumb trail and no tick row on phones; the era rides in the eyebrow.
       await expect(page.getByRole('navigation', { name: 'Putanja' })).toBeHidden();
       // The minutes are derived from the text (Phase 11), so only the shape is asserted.
-      await expect(page.locator('article').getByText(/Praistorija i antika · \d+ min/)).toBeVisible();
+      await expect(
+        page.locator('article').getByText(/Praistorija i antika · \d+ min/),
+      ).toBeVisible();
       // Sticky chrome (TopBar + context header) stays under a third of the screen.
       const chromeHeight = await page.evaluate(() => {
         const sticky = Array.from(document.querySelectorAll<HTMLElement>('header, div')).filter(
@@ -129,7 +131,9 @@ test.describe('Istorija 365 — reader chrome', () => {
       const box = (el: Element | null) => el?.getBoundingClientRect() ?? null;
       const brand = box(document.querySelector('header a[href="/"]'));
       // The sidebar column (the `aside`), not the `nav` inside its scroller.
-      const outline = box(document.querySelector('nav[aria-label="Sadržaj kursa"]')?.closest('aside') ?? null);
+      const outline = box(
+        document.querySelector('nav[aria-label="Sadržaj kursa"]')?.closest('aside') ?? null,
+      );
       const article = box(document.querySelector('article'));
       if (!brand || !outline || !article) return null;
       return {
@@ -170,9 +174,7 @@ test.describe('Istorija 365 — reader chrome', () => {
     await expect(page.locator('#lesson-reader h1')).toBeFocused();
   });
 
-  test('the sticky header names the day once and the divider repeats nothing', async ({
-    page,
-  }) => {
+  test('the sticky header names the day once and the divider repeats nothing', async ({ page }) => {
     await page.goto(LESSON);
     const contentsButton = page.getByRole('button', { name: /Otvori sadržaj/ });
     test.skip(!(await contentsButton.isVisible()), 'Desktop two-column layout — no context header');
@@ -180,7 +182,9 @@ test.describe('Istorija 365 — reader chrome', () => {
     // One counter with a denominator: the labelled progress. The day is bare.
     await expect(page.getByText('Dan 001', { exact: true })).toBeVisible();
     await expect(page.getByText(/Dan 001 \/ 365/)).toHaveCount(0);
-    await expect(page.getByRole('status').filter({ hasText: /Pročitano \d+ \/ 365/ })).toBeVisible();
+    await expect(
+      page.getByRole('status').filter({ hasText: /Pročitano \d+ \/ 365/ }),
+    ).toBeVisible();
 
     // ≤ 720 px the header divider is a plain rule: the date is said once, by
     // the eyebrow.
@@ -234,5 +238,25 @@ test.describe('Istorija 365 — reader chrome', () => {
       outline.getByRole('button', { name: /EPOHA I Praistorija i antika/ }),
     ).toBeVisible();
     await expect(outline.getByRole('button', { name: /doseljavanje Slovena/ })).toHaveCount(0);
+  });
+
+  test('a portrait figure is capped in height and keeps its caption at its width', async ({
+    page,
+  }) => {
+    // Day 231 carries the 1440×2141 era-6 portrait (review 2026-10-03 P2 9).
+    await page.goto(`/course/${COURSE_ID}/lesson/day-231`);
+    const figure = page.locator('article figure').first();
+    const image = figure.locator('img');
+    await image.scrollIntoViewIfNeeded();
+    await expect(image).toHaveJSProperty('complete', true);
+    const box = await image.boundingBox();
+    const figureBox = await figure.boundingBox();
+    const viewport = page.viewportSize();
+    expect(box).not.toBeNull();
+    expect(figureBox).not.toBeNull();
+    expect(viewport).not.toBeNull();
+    if (!box || !figureBox || !viewport) return;
+    expect(box.height).toBeLessThanOrEqual(Math.min(0.8 * viewport.height, 720) + 2);
+    expect(Math.abs(box.width - figureBox.width)).toBeLessThanOrEqual(1);
   });
 });

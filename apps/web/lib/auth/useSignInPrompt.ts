@@ -5,6 +5,7 @@ import { useCallback, useEffect, useState } from 'react';
 import { completedCount, isCompleted } from '@learn365/core';
 
 import { useProgressStore } from '@/lib/progress/ProgressStoreProvider';
+import { lessonHref } from '@/lib/routes';
 
 import { useAuth } from './AuthProvider';
 import { SIGNIN_PROMPT_KEY, SIGNIN_PROMPT_SESSION_KEY } from './localKeys';
@@ -94,7 +95,7 @@ export function useSignInPrompt(courseId: string, lessonId: string): SignInPromp
     setShownOnLessonId(lessonId);
   }, [show, shownOnLessonId, lessonId]);
 
-  const returnTo = `/course/${courseId}/lesson/${lessonId}`;
+  const returnTo = lessonHref(courseId, lessonId);
   const href = `/api/auth/google?return_to=${encodeURIComponent(returnTo)}`;
 
   return { show, href, dismiss };

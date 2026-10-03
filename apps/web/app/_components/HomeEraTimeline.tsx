@@ -1,17 +1,12 @@
 'use client';
 
-import {
-  getEras,
-  getLessons,
-  getLessonsByEra,
-  type CourseId,
-  type EraId,
-} from '@learn365/content';
+import { getEras, getLessons, getLessonsByEra, type CourseId, type EraId } from '@learn365/content';
 import { progressForLessons } from '@learn365/core';
 import { HistoricalTimeline, type EraStat } from '@learn365/ui-web';
 
 import { useProgressStore } from '@/lib/progress/ProgressStoreProvider';
 import { useResumeLesson } from '@/lib/progress/useResumeLesson';
+import { courseHref, lessonHref } from '@/lib/routes';
 
 interface HomeEraTimelineProps {
   courseId: CourseId;
@@ -52,9 +47,7 @@ export function HomeEraTimeline({ courseId }: HomeEraTimelineProps) {
 
   const eraHref = (eraId: EraId): string => {
     const firstInEra = lessons.find((l) => l.eraId === eraId);
-    return firstInEra
-      ? `/course/${courseId}/lesson/${firstInEra.id}`
-      : `/course/${courseId}`;
+    return firstInEra ? lessonHref(courseId, firstInEra.id) : courseHref(courseId);
   };
 
   return (

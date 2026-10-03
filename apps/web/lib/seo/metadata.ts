@@ -28,8 +28,14 @@ export const DEFAULT_OG_IMAGE = {
 interface ShareMetadataArgs {
   title: string;
   description: string;
-  /** Path relative to the site root, e.g. `/course/istorija-srbije-365`. */
-  path: string;
+  /**
+   * Path relative to the site root, e.g. `/course/istorija-srbije-365`.
+   * `null` for a noindex page (404, account pages): no canonical and no
+   * `og:url`, so a shared link never claims to be Home (review 2026-10-03).
+   */
+  path: string | null;
+  /** A lesson: `og:type=article` with its era and the day its text last changed. */
+  article?: { section: string; modifiedTime?: string };
 }
 
 /**
@@ -41,23 +47,51 @@ export function shareMetadata({
   title,
   description,
   path,
+  article,
 }: ShareMetadataArgs): Pick<Metadata, 'alternates' | 'openGraph' | 'twitter'> {
+  const common = {
+    locale: 'sr_RS',
+    siteName: SITE_NAME,
+    ...(path !== null ? { url: path } : {}),
+    title,
+    description,
+    images: [DEFAULT_OG_IMAGE],
+  };
   return {
     alternates: { canonical: path },
-    openGraph: {
-      type: 'website',
-      locale: 'sr_RS',
-      siteName: SITE_NAME,
-      url: path,
-      title,
-      description,
-      images: [DEFAULT_OG_IMAGE],
-    },
+    openGraph:
+      article !== undefined
+        ? {
+            ...common,
+            type: 'article',
+            section: article.section,
+            ...(article.modifiedTime !== undefined ? { modifiedTime: article.modifiedTime } : {}),
+          }
+        : { ...common, type: 'website' },
     twitter: {
       card: 'summary_large_image',
       title,
       description,
       images: [DEFAULT_OG_IMAGE.url],
     },
+  };
+}
+
+/**
+ * Metadata for a page that is not to be indexed: its own title, `noindex`,
+ * no canonical (the root layout would hand it `/`) and share blocks without
+ * an `og:url` — the root's `og:url` is Home's (review 2026-10-03 P2 9).
+ * Next adds `noindex` to a not-found render by itself; `robots` is still
+ * spelled out so every caller reads the same.
+ */
+export function noindexMetadata(title: string): Metadata {
+  return {
+    title,
+    robots: { index: false, follow: false },
+    ...shareMetadata({
+      title: `${title} · ${SITE_NAME}`,
+      description: SITE_DESCRIPTION,
+      path: null,
+    }),
   };
 }
