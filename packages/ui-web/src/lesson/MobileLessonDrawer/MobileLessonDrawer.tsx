@@ -51,8 +51,7 @@ export function MobileLessonDrawer({
     // Land focus on the close button so screen readers announce the dialog
     // exit affordance first; the focus trap below cycles through the rest.
     const closeButton = panel?.querySelector<HTMLElement>(`button[data-drawer-close]`);
-    const firstFocusable =
-      closeButton ?? panel?.querySelector<HTMLElement>(FOCUSABLE_SELECTOR);
+    const firstFocusable = closeButton ?? panel?.querySelector<HTMLElement>(FOCUSABLE_SELECTOR);
     firstFocusable?.focus();
 
     const prevOverflow = document.body.style.overflow;
@@ -65,8 +64,9 @@ export function MobileLessonDrawer({
     const scrollFrame = requestAnimationFrame(() => {
       const current = panel?.querySelector<HTMLElement>('[aria-current="page"]');
       if (!current) return;
-      const prefersReducedMotion = typeof window !== 'undefined'
-        && window.matchMedia?.('(prefers-reduced-motion: reduce)').matches;
+      const prefersReducedMotion =
+        typeof window !== 'undefined' &&
+        window.matchMedia?.('(prefers-reduced-motion: reduce)').matches;
       current.scrollIntoView({
         behavior: prefersReducedMotion ? 'auto' : 'smooth',
         block: 'center',
@@ -80,9 +80,9 @@ export function MobileLessonDrawer({
         return;
       }
       if (event.key !== 'Tab' || !panel) return;
-      const focusables = Array.from(
-        panel.querySelectorAll<HTMLElement>(FOCUSABLE_SELECTOR),
-      ).filter((el) => !el.hasAttribute('aria-hidden'));
+      const focusables = Array.from(panel.querySelectorAll<HTMLElement>(FOCUSABLE_SELECTOR)).filter(
+        (el) => !el.hasAttribute('aria-hidden'),
+      );
       if (focusables.length === 0) {
         event.preventDefault();
         return;
@@ -132,7 +132,19 @@ export function MobileLessonDrawer({
       desktop.removeEventListener('change', handleDesktop);
       panel?.removeEventListener('click', handleLinkClick);
       document.body.style.overflow = prevOverflow;
-      previouslyFocused.current?.focus?.();
+      // Closed by a resize to the two-column layout, the trigger is hidden
+      // and cannot take focus — it would fall to <body> and Tab restart at
+      // the top of the page. Hand it to the lesson title instead.
+      const trigger = previouslyFocused.current;
+      if (trigger === null) {
+        // Nothing held focus before the drawer opened: nothing to return.
+      } else if (trigger.getClientRects().length > 0) {
+        trigger.focus();
+      } else {
+        document.querySelector<HTMLElement>('#lesson-reader h1[tabindex]')?.focus({
+          preventScroll: true,
+        });
+      }
     };
   }, [open]);
 
@@ -140,11 +152,7 @@ export function MobileLessonDrawer({
 
   return (
     <div className={styles.root}>
-      <div
-        className={styles.backdrop}
-        onClick={onClose}
-        aria-hidden="true"
-      />
+      <div className={styles.backdrop} onClick={onClose} aria-hidden="true" />
       <div
         ref={panelRef}
         id={id}

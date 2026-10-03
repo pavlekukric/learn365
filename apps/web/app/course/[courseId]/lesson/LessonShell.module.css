@@ -26,7 +26,7 @@
   padding: 0 var(--space-9) 0 clamp(var(--space-9), 5vw, var(--space-13));
 }
 
-/* Target of the "Preskoči na tekst lekcije" link — focusable, never ringed. */
+/* Focusable only by script (a fallback focus target), never ringed. */
 .readerColumn:focus {
   outline: none;
 }
@@ -68,6 +68,11 @@
     grid-template-columns: 1fr;
   }
   .sidebarColumn {
+    display: none;
+  }
+  /* "Preskoči na tekst lekcije" skips the outline; with no outline beside
+   * the article it would skip nothing — out of the Tab order too. */
+  .outlineSkip {
     display: none;
   }
   .readerColumn {

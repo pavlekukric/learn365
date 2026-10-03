@@ -50,6 +50,12 @@
   color: var(--ink);
 }
 
+/* A place in the trail with no page of its own (a lesson's era and
+ * section): named, not linked, and quieter than the links beside it. */
+.text {
+  color: var(--muted);
+}
+
 .separator {
   color: var(--faint);
 }

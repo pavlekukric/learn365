@@ -14,7 +14,9 @@ import { DEFAULT_STORAGE_KEY } from '@learn365/core';
  * `<html data-progress="started">`, and `globals.css` hides what is marked
  * `data-newcomer` — `block` is removed from the flow (the how-it-works
  * block, the hero lede and CTA), `inline` keeps its box but is invisible
- * (anchor, cards). Once the components have rendered the reader's own state
+ * (anchor, cards), and `reserve` does the same for a returning reader while
+ * staying out of a newcomer's page altogether (Home's recommended card).
+ * Once the components have rendered the reader's own state
  * (they no longer carry `data-newcomer`), `clearPrePaintMark()` removes the
  * attribute so the page follows the store again — e.g. after sign-out
  * clears progress.

@@ -49,6 +49,32 @@ test.describe('Istorija 365 — course overview', () => {
     ).toHaveAttribute('href', `/course/${COURSE_ID}/lesson/day-003`);
   });
 
+  test('phones: the era label stacks above the title and the text takes the full width', async ({
+    page,
+  }) => {
+    // Review 2026-10-03 item 8: beside `EPOHA I` each description was
+    // squeezed into a ~230 px column.
+    await page.setViewportSize({ width: 390, height: 844 });
+    await page.goto(`/course/${COURSE_ID}`, { waitUntil: 'networkidle' });
+    const card = page.getByRole('button', {
+      name: 'EPOHA I Praistorija, antika i doseljavanje Slovena',
+    });
+    const box = async (selector: string) => {
+      const b = await card.locator(selector).boundingBox();
+      expect(b).not.toBeNull();
+      return b ?? { x: 0, y: 0, width: 0, height: 0 };
+    };
+    const num = await box('[id$="-num"]');
+    const title = await box('[id$="-title"]');
+    const desc = await box('[id$="-desc"]');
+    const toggle = (await card.boundingBox()) ?? { x: 0, y: 0, width: 0, height: 0 };
+    expect(num.y + num.height).toBeLessThanOrEqual(title.y + 1);
+    expect(Math.abs(num.x - title.x)).toBeLessThanOrEqual(1);
+    // The description spans the card's content box, not a column beside the label.
+    expect(Math.abs(desc.x - toggle.x)).toBeLessThanOrEqual(1);
+    expect(desc.width).toBeGreaterThan(toggle.width - 2);
+  });
+
   test('bookmark toggle is labelled on desktop and explains where saved lessons live', async ({
     page,
   }) => {

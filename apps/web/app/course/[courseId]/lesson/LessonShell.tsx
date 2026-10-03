@@ -12,7 +12,12 @@ import {
   type LessonSummary,
   type SectionId,
 } from '@learn365/content';
-import { CourseSidebar, HistoricalTimeline, MobileLessonDrawer } from '@learn365/ui-web';
+import {
+  CourseSidebar,
+  HistoricalTimeline,
+  LESSON_TITLE_ID,
+  MobileLessonDrawer,
+} from '@learn365/ui-web';
 
 import { useProgressStore } from '@/lib/progress/ProgressStoreProvider';
 import { useEraTimeline } from '@/lib/progress/useEraTimeline';
@@ -65,15 +70,17 @@ function LessonFrame({ courseId, lesson, children }: LessonFrameProps) {
   const [openSectionIds, setOpenSectionIds] = useState<ReadonlySet<SectionId>>(
     () => new Set([lesson.sectionId]),
   );
-  const [openEraIds, setOpenEraIds] = useState<ReadonlySet<EraId>>(
-    () => new Set([lesson.eraId]),
-  );
+  const [openEraIds, setOpenEraIds] = useState<ReadonlySet<EraId>>(() => new Set([lesson.eraId]));
   const [drawerOpen, setDrawerOpen] = useState(false);
   // The section the shell opened by itself for the open lesson (not by hand).
   // Moving to a lesson in another section closes it again, so a run of
   // "next" does not leave a trail of expanded sections behind (review
   // 2026-09-30, item 15).
   const [autoSectionId, setAutoSectionId] = useState<SectionId | null>(lesson.sectionId);
+  // The same for eras: the era the shell opened for the open lesson closes
+  // again when the lesson moves to another era (review 2026-10-03 item 18 —
+  // Day 45 → 48 used to leave Epoha I and II both expanded).
+  const [autoEraId, setAutoEraId] = useState<EraId | null>(lesson.eraId);
 
   // The lesson changed under a shell that stays mounted (previous / next, a
   // row in the outline). Its era and section are opened in the same render —
@@ -92,8 +99,13 @@ function LessonFrame({ courseId, lesson, children }: LessonFrameProps) {
       setOpenSectionIds(nextOpen);
       setAutoSectionId(opensNow ? lesson.sectionId : null);
     }
-    if (!openEraIds.has(lesson.eraId)) {
-      setOpenEraIds(new Set(openEraIds).add(lesson.eraId));
+    if (lesson.eraId !== autoEraId) {
+      const nextOpen = new Set(openEraIds);
+      if (autoEraId !== null) nextOpen.delete(autoEraId);
+      const opensNow = !nextOpen.has(lesson.eraId);
+      nextOpen.add(lesson.eraId);
+      setOpenEraIds(nextOpen);
+      setAutoEraId(opensNow ? lesson.eraId : null);
     }
   }
 
@@ -173,6 +185,8 @@ function LessonFrame({ courseId, lesson, children }: LessonFrameProps) {
   }, []);
 
   const handleToggleEra = useCallback((id: EraId) => {
+    // As with sections: an era toggled by hand stays as the reader left it.
+    setAutoEraId((auto) => (auto === id ? null : auto));
     setOpenEraIds((prev) => {
       const next = new Set(prev);
       if (next.has(id)) next.delete(id);
@@ -204,8 +218,15 @@ function LessonFrame({ courseId, lesson, children }: LessonFrameProps) {
   return (
     <div ref={layoutRef} className={styles.layout}>
       {/* The outline comes first in the DOM (15–30 controls on desktop):
-       * this link, first in <main>, lets a keyboard reader skip it. */}
-      <a href="#lesson-reader" className="skip-link" inert={drawerOpen}>
+       * this link, first in <main>, lets a keyboard reader skip it. It lands
+       * on the title, past the breadcrumb (review 2026-10-03 item 18).
+       * Hidden ≤ 1024 px, where the outline is hidden too and the link
+       * would skip nothing; the site-wide skip link remains. */}
+      <a
+        href={`#${LESSON_TITLE_ID}`}
+        className={`skip-link ${styles.outlineSkip}`}
+        inert={drawerOpen}
+      >
         Preskoči na tekst lekcije
       </a>
       {/* Keyed by lesson: the hairline starts from zero on every lesson. */}

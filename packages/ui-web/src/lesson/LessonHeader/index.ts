@@ -1,1 +1,1 @@
-export { LessonHeader } from './LessonHeader.js';
+export { LESSON_TITLE_ID, LessonHeader } from './LessonHeader.js';

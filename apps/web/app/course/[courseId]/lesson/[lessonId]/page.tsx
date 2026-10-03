@@ -137,7 +137,13 @@ export default async function LessonPage({ params }: PageProps) {
   // day number is intentionally NOT a crumb — it would duplicate the dedicated
   // day indicator (mobile context header / the sidebar's active row), and a
   // within-section position doesn't belong in a location trail.
-  const breadcrumbs = [
+  //
+  // On the page the era and the section are plain text: they have no page
+  // of their own, and as links they opened the era's / section's first
+  // lesson — Day 1 from any lesson of Era I (review 2026-10-03 item 18).
+  // The structured-data trail keeps its URLs until real era / section
+  // pages exist (review item 9).
+  const jsonLdBreadcrumbs = [
     { label: 'Početna', href: '/' },
     { label: course.title, href: courseHref },
     { label: era.eraShort, href: firstInEra ? lessonPath(course.id, firstInEra.id) : courseHref },
@@ -145,6 +151,12 @@ export default async function LessonPage({ params }: PageProps) {
       label: section.title,
       href: firstInSection ? lessonPath(course.id, firstInSection.id) : courseHref,
     },
+  ];
+  const breadcrumbs = [
+    { label: 'Početna', href: '/' },
+    { label: course.title, href: courseHref },
+    { label: era.eraShort },
+    { label: section.title, current: false },
   ];
 
   // The whole reader is rendered here, on the server (Phase 15): the lesson
@@ -176,7 +188,7 @@ export default async function LessonPage({ params }: PageProps) {
               ...(article.lastReviewedAt !== undefined
                 ? { lastReviewedAt: article.lastReviewedAt }
                 : {}),
-              breadcrumbs,
+              breadcrumbs: jsonLdBreadcrumbs,
             })}
           />
         </>

@@ -21,7 +21,9 @@ test.describe('Istorija 365 — accounts off', () => {
   test('/prijava says sign-in is unavailable and keeps a way back', async ({ page }) => {
     await page.goto('/prijava');
     await expect(page.getByRole('heading', { level: 1, name: 'Prijava' })).toBeVisible();
-    await expect(page.getByRole('status').filter({ hasText: /Prijava trenutno/ })).toContainText('Prijava trenutno nije dostupna');
+    await expect(page.getByRole('status').filter({ hasText: /Prijava trenutno/ })).toContainText(
+      'Prijava trenutno nije dostupna',
+    );
     await expect(page.getByRole('link', { name: 'Nastavi sa Google-om' })).toHaveCount(0);
     await page.getByRole('link', { name: 'Nazad na čitanje' }).click();
     await expect(page).toHaveURL(/\/$/);
@@ -62,7 +64,9 @@ test.describe('Istorija 365 — accounts off', () => {
     // nobody who could be allowed in, so the address is a plain 404.
     const response = await page.goto('/pregled');
     expect(response?.status()).toBe(404);
-    await expect(page.getByRole('heading', { level: 1, name: 'Stranica nije pronađena' })).toBeVisible();
+    await expect(
+      page.getByRole('heading', { level: 1, name: 'Stranica nije pronađena' }),
+    ).toBeVisible();
     await expect(page.getByText('Nalozi', { exact: true })).toHaveCount(0);
 
     const robots = await (await request.get('/robots.txt')).text();
@@ -72,27 +76,24 @@ test.describe('Istorija 365 — accounts off', () => {
   test('no sign-in ask after the second completed lesson', async ({ page }) => {
     // One lesson already done; finishing a second one is exactly when the
     // ask would appear with accounts on. Here it must not.
-    await page.addInitScript(
-      ({ key, value }) => window.localStorage.setItem(key, value),
-      {
-        key: 'learn365:progress:v1',
-        value: JSON.stringify({
-          state: {
-            byCourse: {
-              'istorija-srbije-365': {
-                completedLessonIds: ['day-001'],
-                lastOpenedLessonId: 'day-001',
-                updatedAt: '2026-05-19T09:00:00.000Z',
-              },
+    await page.addInitScript(({ key, value }) => window.localStorage.setItem(key, value), {
+      key: 'learn365:progress:v1',
+      value: JSON.stringify({
+        state: {
+          byCourse: {
+            'istorija-srbije-365': {
+              completedLessonIds: ['day-001'],
+              lastOpenedLessonId: 'day-001',
+              updatedAt: '2026-05-19T09:00:00.000Z',
             },
           },
-          version: 1,
-        }),
-      },
-    );
+        },
+        version: 1,
+      }),
+    });
     await page.goto('/course/istorija-srbije-365/lesson/day-002');
     await page.getByRole('button', { name: /Označi kao pročitano/ }).click();
-    await expect(page.getByText('Dan 2 je iza tebe.')).toBeVisible();
+    await expect(page.getByText('Dan 2 je iza tebe.', { exact: true })).toBeVisible();
     await expect(page.getByText('Sačuvaj napredak i na drugim uređajima.')).toHaveCount(0);
     await expect(page.getByRole('link', { name: 'Nastavi sa Google-om' })).toHaveCount(0);
   });
@@ -101,7 +102,9 @@ test.describe('Istorija 365 — accounts off', () => {
     await page.goto('/');
     await page.getByRole('contentinfo').getByRole('link', { name: 'Privatnost' }).click();
     await expect(page).toHaveURL(/\/privatnost$/);
-    await expect(page.getByRole('heading', { level: 1, name: 'Šta se čuva, i zašto' })).toBeVisible();
+    await expect(
+      page.getByRole('heading', { level: 1, name: 'Šta se čuva, i zašto' }),
+    ).toBeVisible();
     await expect(page.getByRole('heading', { level: 2, name: 'Brisanje' })).toBeVisible();
   });
 });

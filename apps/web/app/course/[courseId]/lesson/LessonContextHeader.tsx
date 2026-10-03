@@ -52,18 +52,26 @@ export function LessonContextHeader({
         aria-expanded={drawerOpen}
         aria-controls={drawerId}
       >
-        <IconMenu />
-        <span>Sadržaj</span>
+        {/* The button is the 44 px hit area; the pill inside is what shows. */}
+        <span className={styles.contentsPill}>
+          <IconMenu />
+          <span className={styles.contentsLabel}>Sadržaj</span>
+        </span>
       </button>
 
       <span className={`tiny mono ${styles.day}`}>Dan {padDay(dayNumber)}</span>
 
-      <span
-        className={`tiny mono ${styles.metaRow}`}
-        role="status"
-        aria-label={`Pročitano ${String(completedCount)} od ${String(totalLessons)} lekcija`}
-      >
-        Pročitano {completedCount} / {totalLessons}
+      {/* A counter, not a live region: it renders 0 on the server and N
+       * once the store hydrates, so `role="status"` announced 0 → N on
+       * every load (review 2026-10-03 item 7). "1 / 365" for the eye,
+       * "1 od 365 lekcija" for a screen reader. */}
+      <span className={`tiny mono ${styles.metaRow}`}>
+        <span aria-hidden="true">
+          Pročitano {completedCount} / {totalLessons}
+        </span>
+        <span className="visually-hidden">
+          {`Pročitano ${String(completedCount)} od ${String(totalLessons)} lekcija`}
+        </span>
       </span>
     </div>
   );
