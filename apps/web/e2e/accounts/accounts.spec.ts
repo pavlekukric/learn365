@@ -1,6 +1,13 @@
 import { readFileSync } from 'node:fs';
 
-import { expect, test, type BrowserContext, type Page, type TestInfo } from '@playwright/test';
+import {
+  expect,
+  test,
+  type BrowserContext,
+  type Page,
+  type Route,
+  type TestInfo,
+} from '@playwright/test';
 
 /**
  * Accounts ON (review 2026-09-30 item 19): the `accounts-chromium` project
@@ -65,10 +72,7 @@ async function localCompleted(page: Page): Promise<string[]> {
 }
 
 async function localMarkers(page: Page): Promise<(string | null)[]> {
-  return page.evaluate(
-    (keys) => keys.map((key) => window.localStorage.getItem(key)),
-    MARKER_KEYS,
-  );
+  return page.evaluate((keys) => keys.map((key) => window.localStorage.getItem(key)), MARKER_KEYS);
 }
 
 async function me(page: Page): Promise<unknown> {
@@ -83,14 +87,21 @@ async function serverCompleted(page: Page): Promise<string[]> {
 }
 
 /** Open a lesson signed in and wait until this browser is synced (marker written). */
-async function openSynced(page: Page, lessonId: string, expected: readonly string[]): Promise<void> {
+async function openSynced(
+  page: Page,
+  lessonId: string,
+  expected: readonly string[],
+): Promise<void> {
   await page.goto(`/course/${COURSE_ID}/lesson/${lessonId}`);
   await expect.poll(() => localMarkers(page)).not.toContain(null);
   await expect.poll(() => localCompleted(page)).toEqual([...expected].sort());
 }
 
 const markRead = (page: Page) =>
-  page.getByRole('button', { name: /Označi kao pročitano/ }).first().click();
+  page
+    .getByRole('button', { name: /Označi kao pročitano/ })
+    .first()
+    .click();
 
 test.describe('History 365 — accounts on', () => {
   test('signing in unions local progress into the account; signing out clears this browser', async ({
@@ -105,24 +116,21 @@ test.describe('History 365 — accounts on', () => {
     const anonymousMe = page.waitForResponse((response) => response.url().endsWith('/api/me'));
     await page.goto('/');
     await anonymousMe;
-    await page.evaluate(
-      ({ key, value }) => window.localStorage.setItem(key, value),
-      {
-        key: PROGRESS_KEY,
-        value: JSON.stringify({
-          state: {
-            byCourse: {
-              [COURSE_ID]: {
-                completedLessonIds: ['day-001'],
-                lastOpenedLessonId: 'day-001',
-                updatedAt: '2026-09-01T09:00:00.000Z',
-              },
+    await page.evaluate(({ key, value }) => window.localStorage.setItem(key, value), {
+      key: PROGRESS_KEY,
+      value: JSON.stringify({
+        state: {
+          byCourse: {
+            [COURSE_ID]: {
+              completedLessonIds: ['day-001'],
+              lastOpenedLessonId: 'day-001',
+              updatedAt: '2026-09-01T09:00:00.000Z',
             },
           },
-          version: 1,
-        }),
-      },
-    );
+        },
+        version: 1,
+      }),
+    });
 
     // Sign in (the callback's cookie) and load a page: first contact → POST …/sync.
     await signInAs(context, testInfo, reader.key);
@@ -191,7 +199,9 @@ test.describe('History 365 — accounts on', () => {
     await signInAs(context, testInfo, account('reader').key);
     const forReader = await page.goto('/pregled');
     expect(forReader?.status()).toBe(404);
-    await expect(page.getByRole('heading', { level: 1, name: 'Stranica nije pronađena' })).toBeVisible();
+    await expect(
+      page.getByRole('heading', { level: 1, name: 'Stranica nije pronađena' }),
+    ).toBeVisible();
     await page.goto('/nalog');
     await expect(page.getByRole('link', { name: 'Pregled naloga' })).toHaveCount(0);
 
@@ -301,5 +311,55 @@ test.describe('History 365 — accounts on', () => {
     for (const lessonId of first.completed) {
       expect(await serverCompleted(other)).not.toContain(lessonId);
     }
+  });
+
+  // Review 2026-10-03 P1 item 2: a sign-in as another account without `Odjava`.
+
+  test('a tab that missed an account switch cannot write into the new account', async ({
+    page,
+    context,
+  }, testInfo) => {
+    const first = accountForAttempt('switchfrom', testInfo);
+    const second = accountForAttempt('switchto', testInfo);
+    await signInAs(context, testInfo, first.key);
+    await openSynced(page, 'day-030', first.completed);
+
+    // Hold this tab's later `/api/me` answers: it keeps believing it is the
+    // first account while the reader clicks (the race the server must catch).
+    const held: Route[] = [];
+    let holding = true;
+    await page.route('**/api/me', (route) => {
+      if (holding) held.push(route);
+      else void route.continue();
+    });
+
+    // A new session cookie for another account (the Google callback after a
+    // second sign-in), no `Odjava`; another tab loads as that account.
+    await signInAs(context, testInfo, second.key);
+    const other = await context.newPage();
+    await openSynced(other, 'day-031', second.completed);
+    // The other tab rewrote the markers to its account: this tab re-asks.
+    await expect.poll(() => held.length).toBeGreaterThan(0);
+    const asked = held.length;
+
+    const patch = page.waitForResponse(
+      (response) =>
+        response.url().endsWith('/api/me/progress') && response.request().method() === 'PATCH',
+    );
+    await markRead(page);
+    expect((await patch).status()).toBe(409);
+    expect(await serverCompleted(other)).toEqual([...second.completed].sort());
+    // The 409 makes the sync layer re-ask too.
+    await expect.poll(() => held.length).toBeGreaterThan(asked);
+
+    // Once `/api/me` answers, the stale tab follows the new account.
+    holding = false;
+    for (const route of held) await route.continue();
+    await expect(page.locator('a[data-link="account"]').first()).toHaveAttribute(
+      'aria-label',
+      `Nalog: ${second.name}`,
+    );
+    await expect.poll(() => localCompleted(page)).toEqual([...second.completed].sort());
+    expect(await serverCompleted(other)).toEqual([...second.completed].sort());
   });
 });

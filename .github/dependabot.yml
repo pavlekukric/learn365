@@ -1,0 +1,33 @@
+# Review 2026-10-03 P2 10: weekly dependency PRs. Every PR runs the full CI
+# (validate + e2e), so a bump is merged only when the gates are green.
+version: 2
+updates:
+  - package-ecosystem: npm
+    # pnpm workspace: the root pnpm-lock.yaml covers every package.
+    directory: /
+    schedule:
+      interval: weekly
+      day: monday
+      time: '06:00'
+      timezone: Europe/Belgrade
+    open-pull-requests-limit: 5
+    groups:
+      # One PR for all minor + patch bumps; majors stay one PR each.
+      minor-and-patch:
+        update-types: [minor, patch]
+    commit-message:
+      prefix: 'Deps'
+
+  - package-ecosystem: github-actions
+    # Keeps the SHA pins in .github/workflows/*.yml current (and their `# vX.Y.Z` comments).
+    directory: /
+    schedule:
+      interval: weekly
+      day: monday
+      time: '06:00'
+      timezone: Europe/Belgrade
+    groups:
+      actions:
+        patterns: ['*']
+    commit-message:
+      prefix: 'CI'

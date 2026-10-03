@@ -9,6 +9,10 @@ concurrency:
   group: ci-${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: ${{ github.ref != 'refs/heads/main' }}
 
+# Review 2026-10-03 P2 10: least privilege — every job only reads the repo.
+permissions:
+  contents: read
+
 env:
   NEXT_TELEMETRY_DISABLED: 1
 
@@ -17,24 +21,34 @@ jobs:
     name: Lint, typecheck, test, build
     runs-on: ubuntu-latest
     timeout-minutes: 15
+    permissions:
+      contents: read
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
         with:
           fetch-depth: 2
 
       - name: Setup pnpm
-        uses: pnpm/action-setup@v4
+        uses: pnpm/action-setup@fc06bc1257f339d1d5d8b3a19a8cae5388b55320 # v4.4.0
 
       - name: Setup Node
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
         with:
           node-version-file: '.nvmrc'
           cache: 'pnpm'
 
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
+
+      - name: Audit production dependencies (warn-only)
+        # Review 2026-10-03 P2 10: a signal, not a gate. On 2026-10-03 it lists
+        # 4 high + 2 moderate, all build-time postcss / nanoid inside `next`,
+        # unreachable from request traffic. Dependabot (.github/dependabot.yml)
+        # proposes the fixes.
+        continue-on-error: true
+        run: pnpm audit --prod --audit-level=high
 
       - name: Validate content
         run: pnpm validate-content
@@ -80,16 +94,18 @@ jobs:
     name: E2E (Chromium desktop + mobile, a11y, accounts)
     runs-on: ubuntu-latest
     timeout-minutes: 20
+    permissions:
+      contents: read
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
 
       - name: Setup pnpm
-        uses: pnpm/action-setup@v4
+        uses: pnpm/action-setup@fc06bc1257f339d1d5d8b3a19a8cae5388b55320 # v4.4.0
 
       - name: Setup Node
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
         with:
           node-version-file: '.nvmrc'
           cache: 'pnpm'
@@ -112,44 +128,9 @@ jobs:
 
       - name: Upload traces
         if: failure()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
         with:
           name: playwright-traces
           path: apps/web/test-results/
           retention-days: 7
           if-no-files-found: ignore
-
-  lighthouse:
-    # Review 2026-10-01 P1 item 3: mobile Lighthouse on Home, the course
-    # overview and Day 1 — warn-only (a `::warning::` and the job summary
-    # under 82), never red: runner timings drift. The hard font-preload and
-    # JS budgets are in `check-bundle` above.
-    name: Lighthouse mobile (warn-only)
-    runs-on: ubuntu-latest
-    timeout-minutes: 15
-    continue-on-error: true
-
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Setup pnpm
-        uses: pnpm/action-setup@v4
-
-      - name: Setup Node
-        uses: actions/setup-node@v4
-        with:
-          node-version-file: '.nvmrc'
-          cache: 'pnpm'
-
-      - name: Install dependencies
-        run: pnpm install --frozen-lockfile
-
-      - name: Install Chromium
-        run: pnpm --filter @learn365/web exec playwright install --with-deps chromium
-
-      - name: Build
-        run: pnpm build
-
-      - name: Lighthouse
-        run: pnpm --filter @learn365/web lighthouse

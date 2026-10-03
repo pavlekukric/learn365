@@ -6,26 +6,26 @@
   "dayNumber": 19,
   "order": 2,
   "title": "Rimsko osvajanje Ilirika",
-  "subtitle": "Stoletna kampanja, putevi i pacifikacija zapadnog i centralnog Balkana",
+  "subtitle": "Dva veka pohoda, putevi i pacifikacija zapadnog i centralnog Balkana",
   "year": -50,
   "dateLabel": "1. vek p. n. e. – 1. vek n. e.",
   "timelinePosition": "~50. p. n. e.",
-  "summary": "Postepeno, ali nemilosrdno, Rim u dva veka pretvara Ilirik u svoju provinciju — od Cezarovih pohoda na Jadranu, preko Avgustovih panonsko-dalmatinskih ratova, do mreže puteva koja nove zemlje veže sa carstvom.",
+  "summary": "Postepeno, ali nemilosrdno, Rim u dva veka pretvara Ilirik u provinciju — od Cezarovih pohoda, preko Avgustovih ratova, do mreže puteva.",
   "keyPeople": ["Avgust", "Tiberije", "Germanik", "Julije Cezar"],
   "keyPlaces": ["Ilirik", "Panonija", "Dalmacija", "Singidunum", "Sava", "Dunav"],
   "content": [
     {
       "type": "paragraph",
       "dropcap": true,
-      "text": "Rimsko osvajanje Ilirika nije bio jedan rat, nego dugačak niz pohoda koji se proteže preko dva veka. Od prvih sukoba na istočnoj obali Jadrana, još u trećem veku pre nove ere, do formalnog završetka pacifikacije pod Avgustom, prošlo je više generacija rimskih vojnika i lokalnih ratnika. Ono što se s rimske strane pamtilo kao niz pobeda, na ovom tlu je značilo dugu, mukotrpnu i često krvavu promenu sveta — promenu posle koje zapadni i centralni Balkan više nikada nisu bili isto."
+      "text": "Rimsko osvajanje Ilirika nije bilo jedan rat, nego dugačak niz pohoda koji se proteže preko dva veka. Od prvih sukoba na istočnoj obali Jadrana, još u trećem veku pre nove ere, do formalnog završetka pacifikacije pod Avgustom, prošlo je više generacija rimskih vojnika i lokalnih ratnika. Ono što se s rimske strane pamtilo kao niz pobeda, na ovom tlu je značilo dugu, mukotrpnu i često krvavu promenu sveta — promenu posle koje zapadni i centralni Balkan više nikada nisu bili isto."
     },
     {
       "type": "paragraph",
-      "text": "Pojam „Ilirik” u rimskom jeziku nije bio precizna etnička oznaka, nego pre svega geografski i upravni okvir. Pod njim se podrazumevao širok pojas zemlje između Jadrana i Dunava, naseljen mnoštvom plemenskih zajednica — Dalmatima, Japodima, Panoncima, Breucima, Daesidatima, Skordiscima i drugima. Te zajednice nisu činile jedinstveni narod, niti su imale zajedničku vlast; svaka je branila svoju dolinu, svoju gradinu, svoje pašnjake. Rim je upravo tu rasutost dugo koristio: jedne je pridobijao savezništvom, druge razbijao oružjem, treće ostavljao po strani dok ne dođe njihov red."
+      "text": "Pojam „Ilirik” u rimskoj upotrebi nije bio precizna etnička oznaka, nego pre svega geografski i upravni okvir. Pod njim se podrazumevao širok pojas zemlje između Jadrana i Dunava, naseljen mnoštvom plemenskih zajednica — Dalmatima, Japodima, Panoncima, Breucima, Daesidatima, Skordiscima i drugima. Te zajednice nisu činile jedinstveni narod, niti su imale zajedničku vlast; svaka je branila svoju dolinu, svoju gradinu, svoje pašnjake. Rim je upravo tu rasutost dugo koristio: jedne je pridobijao savezništvom, druge razbijao oružjem, treće ostavljao po strani dok ne dođe njihov red."
     },
     {
       "type": "paragraph",
-      "text": "Prvi ozbiljniji pohodi na ove prostore počeli su još u doba kasne republike, zbog gusara na Jadranu i nemira u zaleđu grčkih primorskih gradova. Kroz drugi vek pre nove ere Rim je vodio nekoliko ratova sa ilirskim zajednicama i postepeno učvršćivao svoje uporište na obali. U Cezarovo vreme, sredinom prvog veka pre nove ere, Ilirik je već bio formalno rimska provincija, ali samo na papiru: stvarna vlast Rima sezala je tek nekoliko dana hoda od mora. Cezar je za vreme galskih ratova nekoliko puta dolazio na Jadran da smiri pogranične sukobe, ali velika osvajačka kampanja u unutrašnjost ostala je za njegove naslednike."
+      "text": "Prvi ozbiljniji pohodi na ove prostore počeli su još u doba republike, zbog gusara na Jadranu i nemira u zaleđu grčkih primorskih gradova. Kroz drugi vek pre nove ere Rim je vodio nekoliko ratova sa ilirskim zajednicama i postepeno učvršćivao svoje uporište na obali. U Cezarovo vreme, sredinom prvog veka pre nove ere, Ilirik je već bio formalno rimska provincija, ali samo na papiru: stvarna vlast Rima sezala je tek nekoliko dana hoda od mora. Cezar je za vreme galskih ratova nekoliko puta dolazio na Jadran da smiri pogranične sukobe, ali velika osvajačka kampanja u unutrašnjost ostala je za njegove naslednike."
     },
     {
       "type": "heading",

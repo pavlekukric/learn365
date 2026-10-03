@@ -25,17 +25,17 @@ export function CloudSync({
   /** Courses to keep in sync; from the server layout, not the registry. */
   courseIds: readonly string[];
 }) {
-  const { status, enabled, user } = useAuth();
+  const { status, enabled, user, recheckSession } = useAuth();
   const progress = useProgressSync();
   const bookmarks = useBookmarkSync();
   const userId = user?.id ?? null;
 
   useEffect(() => {
     if (status !== 'ready' || !enabled || userId === null) return;
-    const handles = [
-      startSync({ ...progress, courseIds, userId, onError: logSyncError }),
-      startSync({ ...bookmarks, courseIds, userId, onError: logSyncError }),
-    ];
+    // A 401 / 409 means the session changed under this tab: let `/api/me`
+    // decide between the sign-out and the account-switch path.
+    const shared = { courseIds, userId, onError: logSyncError, onSessionLost: recheckSession };
+    const handles = [startSync({ ...progress, ...shared }), startSync({ ...bookmarks, ...shared })];
     for (const handle of handles) runningSync.add(handle);
     return () => {
       for (const handle of handles) {
@@ -43,7 +43,7 @@ export function CloudSync({
         runningSync.delete(handle);
       }
     };
-  }, [status, enabled, userId, courseIds, progress, bookmarks]);
+  }, [status, enabled, userId, courseIds, progress, bookmarks, recheckSession]);
 
   return null;
 }

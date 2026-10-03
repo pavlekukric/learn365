@@ -1,6 +1,6 @@
 # Content Authoring
 
-> **Schema source of truth:** [`CONTENT_MODEL.md`](./CONTENT_MODEL.md) and `packages/content/src/types.ts`. This document covers the *mechanics* of writing and shipping content for the first course (`istorija-srbije-365`): the JSON files, the validator, the codegen step, the checklist.
+> **Schema source of truth:** [`CONTENT_MODEL.md`](./CONTENT_MODEL.md) and `packages/content/src/types.ts`. This document covers the _mechanics_ of writing and shipping content for the first course (`istorija-srbije-365`): the JSON files, the validator, the codegen step, the checklist.
 
 ---
 
@@ -56,8 +56,18 @@ The loader (`packages/content/src/loader/loadCourseFromFiles.ts`) reads these on
   "isPlaceholder": false,
   "lastReviewedAt": "2026-05-19",
   "sources": [
-    { "kind": "book", "title": "Istorija srpskog naroda I", "author": "Sima Ćirković (ur.)", "year": 1981 },
-    { "kind": "web", "title": "Studenica — UNESCO World Heritage", "url": "https://whc.unesco.org/en/list/389/", "year": 2026 }
+    {
+      "kind": "book",
+      "title": "Istorija srpskog naroda I",
+      "author": "Sima Ćirković (ur.)",
+      "year": 1981
+    },
+    {
+      "kind": "web",
+      "title": "Studenica — UNESCO World Heritage",
+      "url": "https://whc.unesco.org/en/list/389/",
+      "year": 2026
+    }
   ]
 }
 ```
@@ -68,6 +78,7 @@ The loader (`packages/content/src/loader/loadCourseFromFiles.ts`) reads these on
 - `courseId`, `eraId`, `sectionId` reference existing records; the lesson's era is its section's era; sections are contiguous day ranges in `order`; eras are in `order` with `yearStart ≤ yearEnd`.
 - At least one content block; an authored lesson's first block is a `paragraph` with `dropcap: true`; a body that is only the placeholder sentence must set `isPlaceholder: true`.
 - `image` blocks carry `width`, `height` and a non-empty `alt`.
+- House-style wording (`src/loader/wordingChecks.ts`) on every reader-visible string (title, subtitle, summary, date labels, key people / places, block text, alt, caption): no “ (close „…” with ”), no ASCII `"`, no number-period-letter run without a space („1878.Pravac”), no Turkish letters ğ / ı / ş (write Pazvan-Oglu, Nizam-i, Huršid-paša); `summary` ≤ 160 characters; a `dateLabel` must contain a digit (a year, range or century — not „pregled”).
 - **No `readingTimeMinutes` on a lesson and no `estimatedMinutesPerLesson` on the course** — both are derived by the loader (Phase 11: `max(1, ceil(words / 150))` per lesson; the median for the course) and rejected when present. The copy's promise (`5–7 minuta`) is computed from the corpus, so a lesson far outside 700–1100 words moves the promise.
 
 ### Block types
@@ -75,9 +86,9 @@ The loader (`packages/content/src/loader/loadCourseFromFiles.ts`) reads these on
 ```ts
 type LessonBlock =
   | { type: 'paragraph'; text: string; dropcap?: boolean }
-  | { type: 'heading';   level: 2 | 3; text: string }
-  | { type: 'quote';     text: string; attribution?: string }
-  | { type: 'image';     src: string; alt: string; width: number; height: number; caption?: string };
+  | { type: 'heading'; level: 2 | 3; text: string }
+  | { type: 'quote'; text: string; attribution?: string }
+  | { type: 'image'; src: string; alt: string; width: number; height: number; caption?: string };
 ```
 
 - `heading` level 2 is the largest in-body heading; level 3 is for sub-points. Most lessons need 0–2 headings.
@@ -87,7 +98,7 @@ type LessonBlock =
 
 ### Trust fields
 
-`sources[]` (book / article / museum / archive / web), `lastReviewedAt` (ISO date) and `byline { author?, reviewer? }` render after the body as *Izvori* and the trust line. A byline names a real person per lesson; there is no generic fallback, so leave it out rather than invent one.
+`sources[]` (book / article / museum / archive / web), `lastReviewedAt` (ISO date) and `byline { author?, reviewer? }` render after the body as _Izvori_ and the trust line. A byline names a real person per lesson; there is no generic fallback, so leave it out rather than invent one.
 
 ---
 
@@ -132,6 +143,7 @@ Why two generated files: the client bundle carries only the navigation index (~9
 ## 6. Tone and style
 
 - Serbian, Latin script; not stilted academic register, not tabloid casual. Ekavian standard — the corpus still carries a few Croatian-standard residues (`tisuću`, `stoljeće`) listed in the 2026-09-28 review, item 24; fix them when you touch a lesson.
+- Spelling: Habzburšk- (not Habsburšk-); Austro-Ugarska for the state, austrougarski for the adjective; Kneginja.
 - Neutral, non-ideological framing; no romanticising, no polemics, no anachronistic moralising.
 - One clear arc per lesson: setup → core → significance. 700–1100 words. Vary the shape: not every lesson needs a heading, some deserve a quotation.
 - Gender-neutral address to the reader in UI copy (the lessons themselves are third person).

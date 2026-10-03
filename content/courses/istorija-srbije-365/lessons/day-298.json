@@ -6,11 +6,11 @@
   "dayNumber": 298,
   "order": 11,
   "title": "Život u okupiranoj Srbiji",
-  "subtitle": "Austrougarska i bugarska uprava 1915–1918, Toplički ustanak i ljudska cena tri godine pod okupacijom",
+  "subtitle": "Austro-Ugarska i bugarska uprava 1915–1918, Toplički ustanak i ljudska cena tri godine pod okupacijom",
   "year": 1917,
   "dateLabel": "1915–1918.",
   "timelinePosition": "1915–1918.",
-  "summary": "Posle vojnog sloma 1915. srpska teritorija je podeljena između austrougarske i bugarske okupacione uprave; tri godine režima, denacionalizacije, gladi i Topličkog ustanka oblikovaće sećanje na rat koliko i bitke.",
+  "summary": "Posle sloma 1915. Srbija je podeljena između austrougarske i bugarske okupacije; glad, denacionalizacija i Toplički ustanak obeležili su sećanje na rat.",
   "keyPeople": ["Kosta Vojinović", "Kosta Milovanović Pećanac", "August fon Makenzen"],
   "keyPlaces": ["Beograd", "Niš", "Toplica", "Pirot"],
   "content": [
@@ -42,7 +42,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Posle Topličkog ustanka, poslednja godina i po okupacije bila je za stanovništvo najteža. Rekvizicije su pojačane, jer su Centralne sile sa svih frontova vukle hranu; zima 1917–1918. donela je ozbiljnu nestašicu. Smrtnost dece, starih i bolesnih naglo je porasla u varošima i selima oba okupaciona područja. Srpski civili i ratni zarobljenici završavali su u logorima koje su Austrougarska i Bugarska držale širom svojih teritorija — Nežider, Boldogasonj, Ašah, Mauthauzen, Doboj, Sliven i drugi — u uslovima u kojima su tifus, dizenterija i glad ubijali sistematski. Pouzdane brojke i danas se utvrđuju, ali je smrtnost u nekim logorima merena u desetinama procenata."
+      "text": "Posle Topličkog ustanka, poslednja godina i po okupacije bila je za stanovništvo najteža. Rekvizicije su pojačane, jer su Centralne sile sa svih frontova vukle hranu; zima 1917–1918. donela je ozbiljnu nestašicu. Smrtnost dece, starih i bolesnih naglo je porasla u varošima i selima oba okupaciona područja. Srpski civili i ratni zarobljenici završavali su u logorima koje su Austro-Ugarska i Bugarska držale širom svojih teritorija — Nežider, Boldogasonj, Ašah, Mauthauzen, Doboj, Sliven i drugi — u uslovima u kojima su tifus, dizenterija i glad ubijali sistematski. Pouzdane brojke i danas se utvrđuju, ali je smrtnost u nekim logorima merena u desetinama procenata."
     },
     {
       "type": "paragraph",

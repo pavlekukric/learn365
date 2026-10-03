@@ -7,6 +7,7 @@ import {
   useContext,
   useEffect,
   useMemo,
+  useRef,
   useState,
   type ReactNode,
 } from 'react';
@@ -16,13 +17,8 @@ import { useProgressStore, useProgressSync } from '@/lib/progress/ProgressStoreP
 import { flushCloudSync } from '@/lib/sync/flush';
 import { pendingQueueKeys } from '@/lib/sync/pendingQueue';
 
-import { hasCloudMarker, isImplicitSignOut } from './implicitSignOut';
-import {
-  ACCOUNT_LOCAL_KEYS,
-  ACCOUNT_SESSION_KEYS,
-  BOOKMARKS_MARKER_KEY,
-  PROGRESS_MARKER_KEY,
-} from './localKeys';
+import { hasCloudMarker, isImplicitSignOut, storageChangeNeedsRecheck } from './implicitSignOut';
+import { ACCOUNT_LOCAL_KEYS, ACCOUNT_SESSION_KEYS } from './localKeys';
 
 /** Mirror of `PublicUser` on the server — what `/api/me` returns. */
 export interface PublicUser {
@@ -50,6 +46,8 @@ export interface AuthActions {
   signOut(): Promise<boolean>;
   /** Delete the account server-side, then the same as `signOut`. */
   deleteAccount(): Promise<boolean>;
+  /** Ask `/api/me` again (the sync layer saw a 401 / 409: the session changed under this tab). */
+  recheckSession(): void;
 }
 
 export type AuthContextValue = AuthState & AuthActions;
@@ -86,7 +84,9 @@ async function fetchMe(): Promise<MeResponse> {
  * implicit sign-out keeps the queue — it is tagged with that account and
  * only ever replayed into it. A sign-out in another tab (its marker keys
  * disappear) re-asks `/api/me` here; the stores follow the other tab's
- * clearing on their own (`followOtherTabs`).
+ * clearing on their own (`followOtherTabs`). So does a marker rewritten to
+ * another user (another tab signed in as someone else without `Odjava`,
+ * review 2026-10-03 P1 item 2), and a 401 / 409 from the sync layer.
  */
 export function AuthProvider({
   courseIds,
@@ -103,6 +103,12 @@ export function AuthProvider({
   const { journal: progressJournal } = useProgressSync();
   const { journal: bookmarkJournal } = useBookmarkSync();
   const router = useRouter();
+  const userIdRef = useRef<string | null>(null);
+  const askRef = useRef<() => void>(() => undefined);
+  const userId = state.user?.id ?? null;
+  useEffect(() => {
+    userIdRef.current = userId;
+  }, [userId]);
 
   useEffect(() => {
     let cancelled = false;
@@ -113,20 +119,19 @@ export function AuthProvider({
         if (isImplicitSignOut(me, hasCloudMarker())) setClearRequested('implicit');
       });
     };
+    askRef.current = ask;
     ask();
     // Another tab signed out (or its session ended): its clearing removes
-    // the markers. Ask the server again rather than trust this tab's state.
+    // the markers. Another tab signed in as someone else: it rewrites them.
+    // Either way ask the server again rather than trust this tab's state.
     const onStorage = (event: StorageEvent): void => {
       if (event.storageArea !== window.localStorage) return;
-      const markerGone =
-        event.key === null ||
-        ((event.key === PROGRESS_MARKER_KEY || event.key === BOOKMARKS_MARKER_KEY) &&
-          event.newValue === null);
-      if (markerGone) ask();
+      if (storageChangeNeedsRecheck(event.key, event.newValue, userIdRef.current)) ask();
     };
     window.addEventListener('storage', onStorage);
     return () => {
       cancelled = true;
+      askRef.current = () => undefined;
       window.removeEventListener('storage', onStorage);
     };
   }, []);
@@ -162,7 +167,15 @@ export function AuthProvider({
       router.replace('/');
       router.refresh();
     }
-  }, [clearRequested, courseIds, resetCourse, clearCourse, progressJournal, bookmarkJournal, router]);
+  }, [
+    clearRequested,
+    courseIds,
+    resetCourse,
+    clearCourse,
+    progressJournal,
+    bookmarkJournal,
+    router,
+  ]);
 
   const leave = useCallback(async (request: () => Promise<Response>): Promise<boolean> => {
     // Send what is still queued while the session is valid; whatever does
@@ -192,9 +205,13 @@ export function AuthProvider({
     [leave],
   );
 
+  const recheckSession = useCallback(() => {
+    askRef.current();
+  }, []);
+
   const value = useMemo<AuthContextValue>(
-    () => ({ ...state, signOut, deleteAccount }),
-    [state, signOut, deleteAccount],
+    () => ({ ...state, signOut, deleteAccount, recheckSession }),
+    [state, signOut, deleteAccount, recheckSession],
   );
 
   return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>;

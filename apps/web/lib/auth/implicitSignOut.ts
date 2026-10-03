@@ -1,4 +1,4 @@
-import { localStorageMarker } from '@/lib/sync/marker';
+import { localStorageMarker, markerUserId } from '@/lib/sync/marker';
 
 import { BOOKMARKS_MARKER_KEY, PROGRESS_MARKER_KEY } from './localKeys';
 
@@ -25,4 +25,21 @@ export function hasCloudMarker(): boolean {
   return [PROGRESS_MARKER_KEY, BOOKMARKS_MARKER_KEY].some(
     (key) => localStorageMarker(key).read() !== null,
   );
+}
+
+/**
+ * Whether another tab's `localStorage` change means this tab should ask
+ * `/api/me` again: storage was cleared, a cloud marker was removed (a
+ * sign-out), or a marker now names someone other than `currentUserId` (a
+ * sign-in as another account without `Odjava`, review 2026-10-03 P1 item 2).
+ */
+export function storageChangeNeedsRecheck(
+  key: string | null,
+  newValue: string | null,
+  currentUserId: string | null,
+): boolean {
+  if (key === null) return true;
+  if (key !== PROGRESS_MARKER_KEY && key !== BOOKMARKS_MARKER_KEY) return false;
+  const named = markerUserId(newValue);
+  return named === null || named !== currentUserId;
 }
