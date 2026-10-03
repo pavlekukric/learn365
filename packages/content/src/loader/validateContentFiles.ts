@@ -16,6 +16,7 @@ import { fileURLToPath } from 'node:url';
 import { dirname, isAbsolute, resolve } from 'node:path';
 
 import { ContentLoadError, loadCourseFromFiles } from './loadCourseFromFiles.js';
+import { lessonWordingProblems } from './wordingChecks.js';
 
 const MIN_READING_MINUTES = 4;
 const MAX_READING_MINUTES = 15;
@@ -59,7 +60,9 @@ export function validateCourseDirectory(courseDir: string): ValidationReport {
     }
     seenDays.add(l.dayNumber);
     if (l.dayNumber < 1 || l.dayNumber > course.totalLessons) {
-      fail(`lesson ${l.id} dayNumber ${String(l.dayNumber)} is outside [1..${String(course.totalLessons)}]`);
+      fail(
+        `lesson ${l.id} dayNumber ${String(l.dayNumber)} is outside [1..${String(course.totalLessons)}]`,
+      );
     }
   }
   for (let d = 1; d <= course.totalLessons; d += 1) {
@@ -226,6 +229,10 @@ export function validateCourseDirectory(courseDir: string): ValidationReport {
         fail(`authored lesson ${l.id} first paragraph must set dropcap: true`);
       }
     }
+
+    // 12. House-style wording: quotes, spacing, transliteration, summary
+    // length, dateLabel is a date (review 2026-10-03 P1 item 3).
+    for (const p of lessonWordingProblems(l)) fail(p);
   }
 
   const authoredMinutes = lessons
@@ -280,7 +287,9 @@ if (isMainModule()) {
       );
       process.exit(0);
     }
-    console.error(`@learn365/content: ${String(problems.length)} validation problem(s) in ${courseDir}:`);
+    console.error(
+      `@learn365/content: ${String(problems.length)} validation problem(s) in ${courseDir}:`,
+    );
     for (const p of problems) console.error(`  - ${p}`);
     process.exit(1);
   } catch (err) {

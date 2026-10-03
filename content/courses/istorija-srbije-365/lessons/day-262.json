@@ -10,7 +10,7 @@
   "year": 1880,
   "dateLabel": "19. vek",
   "timelinePosition": "19. vek",
-  "summary": "Razvoj srpskog obrazovanja i nauke u 19. veku — od prvih državnih škola i gimnazija, preko Liceuma i Velike škole, do Srpskog učenog društva i temelja Akademije. Univerzitet u Beogradu doći će tek 1905.",
+  "summary": "Srpsko obrazovanje i nauka u 19. veku — od prvih škola i gimnazija, preko Liceja i Velike škole, do Učenog društva, Akademije i Univerziteta 1905.",
   "keyPeople": ["Josif Pančić", "Jovan Cvijić", "Mihailo Petrović Alas", "Slobodan Jovanović", "Jovan Žujović", "kralj Milan Obrenović", "kralj Petar I Karađorđević"],
   "keyPlaces": ["Kragujevac", "Beograd", "Sremski Karlovci", "Niš", "Beč", "Berlin"],
   "content": [
@@ -34,7 +34,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Visoko obrazovanje je krenulo kao jedna ustanova s mnogo imena. Liceum je osnovan 1838. u Kragujevcu, a već 1841. premešten je u Beograd, prateći prestonicu. Bio je to još uvek pre svega lyceum u evropskom smislu — viša škola opšteg obrazovanja, ne pravi univerzitet, ali jedina kuća u zemlji u kojoj je neko mogao da sluša filozofiju, pravne nauke i prirodne predmete na srpskom jeziku. Iz njega je 1863. godine, u doba kneza Mihaila, izrasla Velika škola u Beogradu, organizovana u tri fakulteta: Filozofski, Tehnički i Pravni. Velika škola će više od četiri decenije biti najviša obrazovna ustanova u Srbiji."
+      "text": "Visoko obrazovanje je krenulo kao jedna ustanova s mnogo imena. Liceum je osnovan 1838. u Kragujevcu, a već 1841. premešten je u Beograd, prateći prestonicu. Bio je to još uvek pre svega licej u evropskom smislu — viša škola opšteg obrazovanja, ne pravi univerzitet, ali jedina kuća u zemlji u kojoj je neko mogao da sluša filozofiju, pravne nauke i prirodne predmete na srpskom jeziku. Iz njega je 1863. godine, u doba kneza Mihaila, izrasla Velika škola u Beogradu, organizovana u tri fakulteta: Filozofski, Tehnički i Pravni. Velika škola će više od četiri decenije biti najviša obrazovna ustanova u Srbiji."
     },
     {
       "type": "paragraph",
@@ -42,7 +42,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Uporedo s obrazovanjem, gradila se i naučna zajednica. Srpsko učeno društvo osnovano je 1864, kao mala zajednica učenih ljudi koji su pisali, prikupljali građu i objavljivali rasprave. Godine 1886. zakonom kralja Milana osnovana je Srpska kraljevska akademija, u koju je 1892. uključeno i Srpsko učeno društvo — institucija koja je za nauku značila isto što i Velika škola za nastavu: krov, plata, pečat i kontinuitet. Prvi predsednik Akademije bio je botaničar Josif Pančić, čovek koji je celu drugu polovinu svog života proveo opisujući biljke Srbije i okolnih oblasti, među njima i pančićevu omoriku — drvo koje će dobiti njegovo ime."
+      "text": "Uporedo s obrazovanjem, gradila se i naučna zajednica. Srpsko učeno društvo osnovano je 1864, kao mala zajednica učenih ljudi koji su pisali, prikupljali građu i objavljivali rasprave. Godine 1886. zakonom kralja Milana osnovana je Srpska kraljevska akademija, u koju je 1892. uključeno i Srpsko učeno društvo — institucija koja je za nauku značila isto što i Velika škola za nastavu: krov, plata, pečat i kontinuitet. Prvi predsednik Akademije bio je botaničar Josif Pančić, čovek koji je celu drugu polovinu svog života proveo opisujući biljke Srbije i okolnih oblasti, među njima i Pančićevu omoriku — drvo koje će dobiti njegovo ime."
     },
     {
       "type": "paragraph",

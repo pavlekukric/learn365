@@ -10,14 +10,14 @@
   "year": 1918,
   "dateLabel": "1. decembar 1918.",
   "timelinePosition": "1. decembar 1918.",
-  "summary": "Proglašenje ujedinjenja Srbije sa Državom Slovenaca, Hrvata i Srba u Kraljevstvo SHS — čin obavljen u privatnom stanu, bez parlamenta, ustava i referenduma, koji će odrediti i uspehe i tegobe nove države.",
+  "summary": "Proglašenje ujedinjenja u Kraljevstvo SHS 1. decembra 1918 — u privatnom stanu, bez parlamenta, ustava i referenduma — odrediće uspehe i tegobe države.",
   "keyPeople": ["regent Aleksandar Karađorđević", "Nikola Pašić", "Stojan Protić", "Anton Korošec", "Stjepan Radić"],
   "keyPlaces": ["Beograd", "Zagreb", "Ljubljana"],
   "content": [
     {
       "type": "paragraph",
       "dropcap": true,
-      "text": "Krajem novembra 1918. Evropa je još bila puna dima. Habsburška monarhija se raspala za nekoliko nedelja, na njenim južnim provincijama proglašena je 29. oktobra Država Slovenaca, Hrvata i Srba sa središtem u Zagrebu, a srpska vojska, koja je u jesen probila Solunski front, ulazila je u oslobođeni Beograd i prelazila preko nekadašnjih granica. Nova država na severu nije imala ni vojsku ni priznanje, italijanska vojska napredovala je u Istru i Dalmaciju, a u unutrašnjosti su vladali nered, glad i pljačka. U takvim okolnostima Narodno vijeće u Zagrebu donelo je odluku da krene u ujedinjenje sa Kraljevinom Srbijom — pre nego što sve počne da se osipa."
+      "text": "Krajem novembra 1918. Evropa je još bila puna dima. Habzburška monarhija se raspala za nekoliko nedelja, na njenim južnim provincijama proglašena je 29. oktobra Država Slovenaca, Hrvata i Srba sa središtem u Zagrebu, a srpska vojska, koja je u jesen probila Solunski front, ulazila je u oslobođeni Beograd i prelazila preko nekadašnjih granica. Nova država na severu nije imala ni vojsku ni priznanje, italijanska vojska napredovala je u Istru i Dalmaciju, a u unutrašnjosti su vladali nered, glad i pljačka. U takvim okolnostima Narodno vijeće u Zagrebu donelo je odluku da krene u ujedinjenje sa Kraljevinom Srbijom — pre nego što sve počne da se osipa."
     },
     {
       "type": "paragraph",
@@ -42,7 +42,7 @@
     },
     {
       "type": "paragraph",
-      "text": "U Zagrebu i Ljubljani prijem je bio mešovit. Na ulicama je bilo iskrene radosti zbog kraja Habsburške monarhije i zbog života u sopstvenoj državi, ali se u političkim krugovima brzo osetilo razočaranje formom. Mnogi su očekivali pregovore o organizaciji države — federaciju ili bar široku autonomiju, ravnopravnost dinastije i ustavnih institucija — a ne deklarativno proglašenje koje sve to ostavlja za kasnije. Najoštriji je bio Stjepan Radić, vođa Hrvatske pučke seljačke stranke. On je još na sednici Narodnog vijeća uoči polaska delegacije govorio protiv žurbe i upozorio, u rečenici koja će ostati upamćena, da delegati „srljaju kao guske u maglu”. Njegova stranka odbila je da pošalje delegate u Beograd i ostala u opoziciji od prvog dana nove države."
+      "text": "U Zagrebu i Ljubljani prijem je bio mešovit. Na ulicama je bilo iskrene radosti zbog kraja Habzburške monarhije i zbog života u sopstvenoj državi, ali se u političkim krugovima brzo osetilo razočaranje formom. Mnogi su očekivali pregovore o organizaciji države — federaciju ili bar široku autonomiju, ravnopravnost dinastije i ustavnih institucija — a ne deklarativno proglašenje koje sve to ostavlja za kasnije. Najoštriji je bio Stjepan Radić, vođa Hrvatske pučke seljačke stranke. On je još na sednici Narodnog vijeća uoči polaska delegacije govorio protiv žurbe i upozorio, u rečenici koja će ostati upamćena, da delegati „srljaju kao guske u maglu”. Njegova stranka odbila je da pošalje delegate u Beograd i ostala u opoziciji od prvog dana nove države."
     },
     {
       "type": "paragraph",
