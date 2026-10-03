@@ -8,7 +8,10 @@
 # Kopija van servera (review 2026-09-30, stavka 10) — SAMO ako je u /srv/learn365/.env podešeno
 #   BACKUP_OFFBOX_TARGET=rclone:<remote>:<putanja>      (rclone, remote u ~/.config/rclone/rclone.conf)
 #   BACKUP_OFFBOX_TARGET=rsync:<korisnik>@<host>:<putanja>  (rsync preko ssh-a, ključ korisnika deploy)
-# kopira današnji dump tamo (ništa ne briše na odredištu). Prazno ili bez linije = preskače se.
+# kopira današnji dump tamo, pa i na odredištu zadrži tačno KEEP najnovijih learn365-*.dump (isto
+# obećanje od 14 dana kao /privatnost; review 2026-10-03 P2 11). Prune je po listingu odredišta, ne
+# ogledalo lokalnog foldera: na novoj kutiji sa praznim backups/ stare kopije van servera ostaju.
+# Prazno ili bez linije = preskače se.
 set -euo pipefail
 umask 077
 R=/srv/learn365
@@ -19,6 +22,11 @@ CONTAINER=learn365-db
 mkdir -p "$DIR"
 OUT="$DIR/learn365-$(date +%F).dump"
 TMP="$OUT.part"
+
+# Nedovršeni dump (pg_dump pao, proces ubijen) nikad ne ostaje: ostaci ranijih noći se brišu odmah,
+# današnji .part u trap-u na izlasku (posle uspešnog `mv` više ne postoji).
+find "$DIR" -maxdepth 1 -name 'learn365-*.dump.part' -delete
+trap 'rm -f -- "$TMP"' EXIT
 
 docker exec "$CONTAINER" pg_dump -U learn365 -d learn365 -Fc > "$TMP"
 mv "$TMP" "$OUT"
@@ -56,12 +64,47 @@ case "$TARGET" in
       echo "$(date -Is) offbox NEUSPEH: rclone copy $OUT → $DEST"
       exit 1
     fi
+    # "remote:" (koren) ili "remote:putanja" — putanja fajla bez dvostruke kose crte.
+    case "$DEST" in
+      *: | */) SEP= ;;
+      *) SEP=/ ;;
+    esac
+    if ! LIST=$(rclone lsf --files-only --include 'learn365-*.dump' "$DEST"); then
+      echo "$(date -Is) offbox NEUSPEH: rclone lsf $DEST (prune preskočen)"
+      exit 1
+    fi
+    for old in $(printf '%s\n' "$LIST" | sort -r | tail -n +$((KEEP + 1))); do
+      if ! rclone deletefile "$DEST$SEP$old"; then
+        echo "$(date -Is) offbox NEUSPEH: rclone deletefile $DEST$SEP$old"
+        exit 1
+      fi
+    done
     ;;
   rsync:*)
     DEST="${TARGET#rsync:}"
-    if ! rsync -a --chmod=F600 -e 'ssh -o BatchMode=yes -o ConnectTimeout=20' "$OUT" "$DEST/"; then
+    SSH='ssh -o BatchMode=yes -o ConnectTimeout=20'
+    if ! rsync -a --chmod=F600 -e "$SSH" "$OUT" "$DEST/"; then
       echo "$(date -Is) offbox NEUSPEH: rsync $OUT → $DEST"
       exit 1
+    fi
+    # Brisanje samo kroz rsync (radi i kad odredište dozvoljava samo rsync, npr. rrsync): listing
+    # odredišta, pa prazan folder sinhronizovan sa --delete i filterom koji pušta SAMO stare dumpove.
+    if ! LIST=$(rsync --list-only -e "$SSH" "$DEST/"); then
+      echo "$(date -Is) offbox NEUSPEH: rsync --list-only $DEST (prune preskočen)"
+      exit 1
+    fi
+    OLD=$(printf '%s\n' "$LIST" | awk '{print $NF}' | grep -E '^learn365-[0-9]{4}-[0-9]{2}-[0-9]{2}\.dump$' \
+      | sort -r | tail -n +$((KEEP + 1)) || true)
+    if [ -n "$OLD" ]; then
+      EMPTY=$(mktemp -d)
+      FILTER=$(mktemp)
+      trap 'rm -f -- "$TMP" "$FILTER"; rm -rf -- "$EMPTY"' EXIT
+      printf '%s\n' "$OLD" | sed 's#^#+ /#' > "$FILTER"
+      echo '- *' >> "$FILTER"
+      if ! rsync -r --delete --filter="merge $FILTER" -e "$SSH" "$EMPTY/" "$DEST/"; then
+        echo "$(date -Is) offbox NEUSPEH: rsync prune $DEST"
+        exit 1
+      fi
     fi
     ;;
   *)
@@ -69,4 +112,4 @@ case "$TARGET" in
     exit 1
     ;;
 esac
-echo "$(date -Is) offbox ok: $(basename "$OUT") → $DEST"
+echo "$(date -Is) offbox ok: $(basename "$OUT") → $DEST (tamo najviše $KEEP dumpova)"
