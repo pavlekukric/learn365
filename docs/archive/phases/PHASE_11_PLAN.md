@@ -4,7 +4,7 @@
 **Date:** 2026-09-28
 **Predecessors:** Phase 10 live (PR #42, `eb7cc97`); Phase 9 live (PR #40, `6a0a533`).
 **Parent references:**
-- [`docs/PRODUCT_REVIEW_2026-09-28.md`](./PRODUCT_REVIEW_2026-09-28.md) — P1 item 10, "Honest reading time (S)": _median lesson is 843 words (≈ 5 min at 170 wpm) yet 352 lessons declare 7–8 min; correlation between words and declared minutes is 0.26. Derive `readingTimeMinutes = ceil(words / 160)` in the validator, and change the promise from "~8 minuta" to "5–7 minuta" on Home, `course.json` and About._ Also "Commercial readiness 5/10: reading time overstated by ~60 %".
+- [`docs/PRODUCT_REVIEW_2026-09-28.md`](../reviews/PRODUCT_REVIEW_2026-09-28.md) — P1 item 10, "Honest reading time (S)": _median lesson is 843 words (≈ 5 min at 170 wpm) yet 352 lessons declare 7–8 min; correlation between words and declared minutes is 0.26. Derive `readingTimeMinutes = ceil(words / 160)` in the validator, and change the promise from "~8 minuta" to "5–7 minuta" on Home, `course.json` and About._ Also "Commercial readiness 5/10: reading time overstated by ~60 %".
 - [`HANDOFF.md`](../HANDOFF.md) — "Next pick: review P1 item 10 — honest reading time".
 - [`CONTENT_CONTRACT.md`](../CONTENT_CONTRACT.md), [`docs/CONTENT_MODEL.md`](./CONTENT_MODEL.md), [`docs/CONTENT_AUTHORING.md`](./CONTENT_AUTHORING.md) — the JSON contract this phase changes in one field.
 - [`docs/archive/phases/PHASE_10_PLAN.md`](./archive/phases/PHASE_10_PLAN.md) — structure template.

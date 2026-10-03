@@ -4,7 +4,7 @@
 **Date:** 2026-09-28
 **Predecessors:** Phase 9 live (PR #40, `6a0a533`); review P0 closed (PRs #37, #38).
 **Parent references:**
-- [`docs/PRODUCT_REVIEW_2026-09-28.md`](./PRODUCT_REVIEW_2026-09-28.md) — P1 item 8, "Gate the deploy and run the browser suite (S)": _`deploy.yml` triggers on `push: main` with no `needs`/`workflow_run` on `ci.yml`; `ci.yml` has no Playwright step and runs `validate-content` after `build`, so stale `_generated.ts` passes._
+- [`docs/PRODUCT_REVIEW_2026-09-28.md`](../reviews/PRODUCT_REVIEW_2026-09-28.md) — P1 item 8, "Gate the deploy and run the browser suite (S)": _`deploy.yml` triggers on `push: main` with no `needs`/`workflow_run` on `ci.yml`; `ci.yml` has no Playwright step and runs `validate-content` after `build`, so stale `_generated.ts` passes._
 - [`HANDOFF.md`](../HANDOFF.md) — "Next pick after the merge: review P1 item 8 — CI gate + Playwright in CI + the `gen-content` diff check + `workflow_run: CI → success` on the deploy; the bundle-budget CI step from 9d is the seed."
 - [`docs/DEPLOY.md`](./DEPLOY.md) §2 / §4 / §9 — the pipeline this phase changes.
 - [`docs/archive/phases/PHASE_9_PLAN.md`](./archive/phases/PHASE_9_PLAN.md) — structure template; its D7 (bundle budget step) is the seed this phase grows.

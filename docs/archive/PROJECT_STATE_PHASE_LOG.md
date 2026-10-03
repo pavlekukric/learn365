@@ -188,7 +188,7 @@ Owner direction 2026-09-27 ("idemo"), built the same day on `feat/phase-8-accoun
 
 ## Fix — Review P0 (2026-09-28): done (PRs #37, #38)
 
-The P0 group of [`docs/PRODUCT_REVIEW_2026-09-28.md`](./PRODUCT_REVIEW_2026-09-28.md), worked in order at the owner's request ("ajmo redom"). Item 1 (rotate the Google client secret, `chmod 600 .env`) was skipped by owner decision. Item 2 was resolved with the owner on 2026-09-28: there is no mailbox and no company, and the lessons were AI-prepared — so the copy now says exactly that.
+The P0 group of [`docs/PRODUCT_REVIEW_2026-09-28.md`](./reviews/PRODUCT_REVIEW_2026-09-28.md), worked in order at the owner's request ("ajmo redom"). Item 1 (rotate the Google client secret, `chmod 600 .env`) was skipped by owner decision. Item 2 was resolved with the owner on 2026-09-28: there is no mailbox and no company, and the lessons were AI-prepared — so the copy now says exactly that.
 
 **What changed (four commits, each shippable alone):**
 - **Sync — no cross-account union (`01ed69f`).** `apps/web/lib/sync/syncEngine.ts`: the `POST …/sync` union runs only when the browser carries no cloud marker at all; a marker naming a *different* user takes the `GET`-replace path and is rewritten after a successful load (two new tests). `apps/web/lib/auth/AuthProvider.tsx` + new `implicitSignOut.ts`: when `/api/me` answers `enabled: true, user: null` while a marker exists, the local stores and account keys are cleared without navigating (an *implicit* sign-out — expiry, cleared cookie, account deleted elsewhere); `enabled: false` never clears anything, so a database outage cannot wipe a local copy. Privacy copy gained one sentence on what an expired session means locally.

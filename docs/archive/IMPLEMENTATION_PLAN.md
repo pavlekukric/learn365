@@ -166,7 +166,7 @@ Home, Course overview, Lesson reader. Wire `ProgressStore`. Mobile responsive be
 Keyboard nav, focus states, ARIA, reduced motion, Playwright E2E + visual snapshots, Lighthouse pass.
 
 ### Phase 6 — Web release
-Deploy to Vercel. Procedure and project settings are canonical in [`docs/DEPLOY.md`](DEPLOY.md). Production deploy is gated on the Phase 5 manual gates (screen-reader smoke + editorial review of the 6 seed lessons).
+Deploy to Vercel. Procedure and project settings are canonical in [`docs/DEPLOY.md`](../DEPLOY.md). Production deploy is gated on the Phase 5 manual gates (screen-reader smoke + editorial review of the 6 seed lessons).
 
 ### Phase 6.5 — Clarity & Differentiation
 Post-release UX clarity pass on the live web v1. Four tiers: (1) quick cosmetic wins — fix zero-padded quantity counts, label the bare section count, re-integrate era-card progress, normalize era year labels, soften the empty-state ring; (2) give Home and Course overview distinct jobs — Home becomes visual (`HistoricalTimeline` band, one continue card, one CTA), Course overview is the sole home of the full era→section→lesson accordion; (3) make the "continue" state completion-driven instead of opened-driven; (4) add a `JumpToDay` component so 365 lessons are navigable. No data model or routing changes except the `eras.ts` year-label content fix. Full detail in `docs/PROJECT_STATE.md`.
