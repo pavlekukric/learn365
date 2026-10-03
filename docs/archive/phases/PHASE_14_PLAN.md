@@ -4,7 +4,7 @@
 **Date:** 2026-09-28
 **Predecessors:** Phase 13 live (PR #48, `85ebe41`); Phase 12 box rollout done (D6).
 **Parent references:**
-- [`docs/PRODUCT_REVIEW_2026-09-28.md`](../../PRODUCT_REVIEW_2026-09-28.md) — P2 items **13, 14, 15, 18, 20, 21, 22**. Items **16 + 17** (mobile reader stack, desktop reader frame) change the reader layout the owner declared a floor and are planned separately as Phase 15; item **19** (brand / About tone) is the owner's.
+- [`docs/PRODUCT_REVIEW_2026-09-28.md`](../reviews/PRODUCT_REVIEW_2026-09-28.md) — P2 items **13, 14, 15, 18, 20, 21, 22**. Items **16 + 17** (mobile reader stack, desktop reader frame) change the reader layout the owner declared a floor and are planned separately as Phase 15; item **19** (brand / About tone) is the owner's.
 - [`HANDOFF.md`](../../../HANDOFF.md) — "Next pick: the P2 polish bundle".
 
 ## Why this bundle, why this split

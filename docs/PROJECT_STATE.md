@@ -161,7 +161,7 @@ Left from the walk (not done, owner's call): the desktop hero's empty right half
 
 ## Phase 17 — the 2026-09-30 review backlog, overnight (2026-09-30): done (PRs #60–#65, live)
 
-The owner asked, before going to sleep, for everything in [`docs/PRODUCT_REVIEW_2026-09-30.md`](./PRODUCT_REVIEW_2026-09-30.md) except the lesson content to be finished by morning, merged on green CI. Pre-approved decisions: fix the eight confirmed lesson slips; drop the desktop era strip (Phase 13 D5); fix the CSS cascade order; rename the brand to *Istorija 365*; rewrite About without the "mi" voice.
+The owner asked, before going to sleep, for everything in [`docs/archive/reviews/PRODUCT_REVIEW_2026-09-30.md`](./archive/reviews/PRODUCT_REVIEW_2026-09-30.md) except the lesson content to be finished by morning, merged on green CI. Pre-approved decisions: fix the eight confirmed lesson slips; drop the desktop era strip (Phase 13 D5); fix the CSS cascade order; rename the brand to *Istorija 365*; rewrite About without the "mi" voice.
 
 - **#60 — the review** itself (overall 7.5 / 10).
 - **#61 — P0:** the eight slips + residue (content); DEPLOY §13a / `vps-install.sh` / `ssh-command.sh` use `restrict,command=…` (a forced command alone still allowed forwarding to `docker.sock`) and `chmod 600 .env`; `deploy.yml` rolls out only the tip of `main` (a re-run of an older CI used to roll production back) and refuses `workflow_dispatch` off `main`; the legacy session cookie is no longer read on https; the sign-in ask is due — and spent — only under a completed lesson.

@@ -2,7 +2,12 @@
 
 Each shared component used by the web app, with its prop contract, visual states, accessibility notes, and mobile-equivalent considerations. Implementations live in `packages/ui-web` (web) and, eventually, `packages/ui-mobile` (mobile). Tokens come from `packages/ui`.
 
-Components are **stateless with respect to user data**. They never call into `@learn365/core` or `@learn365/content` at runtime — the app composes data and passes props in.
+Components are **stateless with respect to user data**. They never read a store, a selector or the content registry — the app composes data and passes props in. Two imports are allowed and used:
+
+- **Types** from `@learn365/content` (`Era`, `Section`, `LessonSummary`, `LessonHeading`, `LessonBlock`, `Source`, `LessonByline`) for prop shapes — never a runtime import.
+- **The pure day formatters** from `@learn365/core` (`formatDayEyebrow`, `formatDayRange`, `formatDayProse`, `padDay`), so every surface spells a day the same way. Used by `CompletedFooter` (+ `completionMoment`), `CourseProgress`, `CurrentLessonCard`, `LessonNavItem`, `PreviousNextLessonNavigation`, `SectionAccordion`. Nothing stateful from `core`.
+
+In-app links are `next/link` anchors (a plain `<a>` for `/api/**` and external sources); every href is built by the app (`apps/web/lib/routes.ts`) and passed in.
 
 ---
 
@@ -30,7 +35,12 @@ Mobile: identical, sized down via CSS.
 ### `TopBar`
 
 ```ts
-type TopBarRoute = 'home' | 'course' | 'lesson' | 'about';
+type TopBarRoute = 'home' | 'course' | 'lesson' | 'about' | 'other'; // other: account, privacy, 404
+
+type TopBarAccount =
+  | { kind: 'loading' }                                   // invisible placeholder, no layout shift
+  | { kind: 'signed-out'; href: string }                  // quiet `Prijava` link (icon-only ≤ 720 px)
+  | { kind: 'signed-in'; href: string; name: string | null; pictureUrl: string | null }; // AccountMark
 
 type TopBarProps = {
   route: TopBarRoute;
@@ -38,6 +48,7 @@ type TopBarProps = {
   aboutHref: string;
   totalLessons: number;
   completedCount: number;
+  account?: TopBarAccount | null; // omitted / null when accounts are off
 };
 ```
 
@@ -92,20 +103,25 @@ A11y: a native `<button>` (type=button by default) or a real anchor; `aria-disab
 ### `ProgressBar`
 
 ```ts
-type ProgressBarProps = { value: number; size?: 'thin' | 'regular' | 'thick'; ariaLabel?: string };
+type ProgressBarProps = {
+  value: number;
+  size?: 'thin' | 'regular' | 'thick';
+  ariaLabel?: string;
+  ariaValueText?: string;
+};
 ```
 
 `value` is 0..1. Animates width with `duration.medium`.
-A11y: `role="progressbar"` with `aria-valuenow` (0..100) and `aria-valuetext` (e.g., "1 of 365 completed").
+A11y: `role="progressbar"` with `aria-valuenow` (0..100) and the caller's `aria-valuetext` (e.g. `12 od 45`).
 
 ### `ProgressRing`
 
 ```ts
-type ProgressRingProps = { value: number; size?: number; stroke?: number; children: ReactNode };
+type ProgressRingProps = { value: number; size?: number; stroke?: number; label?: string; children: ReactNode };
 ```
 
 SVG ring; child content centered. Animates with `duration.medium`.
-A11y: container has `role="img"` and `aria-label="42 percent completed"`.
+A11y: container has `role="img"` and `aria-label={label}` (default `42 % pročitano`; `CourseProgress` passes `Pročitano 12 od 365 lekcija`).
 
 ### `CompletionDot`
 
@@ -134,13 +150,34 @@ Decorative divider. Centered serif glyph (`✦`) with two hairlines. Hidden in M
 
 ### Icons
 
-`IconCheck`, `IconChev`, `IconArrow`, `IconArrowLeft`, `IconMenu`, `IconClose`.
+`IconCheck`, `IconChev`, `IconArrow`, `IconArrowLeft`, `IconBookmark`, `IconMenu`, `IconClose`, `IconUser`.
 
 ```ts
 type IconProps = React.SVGProps<SVGSVGElement>;
 ```
 
 All use `stroke="currentColor"`, no fill.
+
+### `AccountMark`
+
+```ts
+type AccountMarkProps = {
+  name: string | null;
+  pictureUrl: string | null; // requested with referrerPolicy="no-referrer"
+  href: string;              // the account page
+  label?: string;            // default `Nalog: <name>` / `Nalog`
+};
+```
+
+The signed-in mark in the masthead: a 28 px circle with the reader's picture, else their initials (`initialsFor`, unit-tested), else a person glyph. A link to the account page, not a status display.
+
+### `Footer`
+
+```ts
+type FooterProps = { aboutHref: string; sourcesHref: string; privacyHref?: string };
+```
+
+Site footer: brand link home, the tagline, `O aplikaciji · Izvori · Privatnost`, the copyright line. A11y: `role="contentinfo"`; the links sit in `<nav aria-label="Podaci o aplikaciji">`.
 
 ---
 
@@ -155,12 +192,18 @@ type CourseCardProps = {
   completedLessons: number;
   isCurrent: boolean;
   isAllDone: boolean;
-  onClick: () => void;
+  href: string;          // the action link: first unread lesson of the era (its first lesson once all are read)
+  description?: string;  // editorial paragraph
+  isOpen: boolean;       // disclosure of the era's section list below the card
+  onToggle: () => void;
+  panelId: string;       // id of that section-list panel
+  sectionCount: number;
 };
 ```
 
-Used on Home and Course overview to render an Era row. 4-column grid on desktop (number, title block, progress block, status arrow); stacked on mobile.
-States: idle, hover (subtle wash), focus-visible, current (accent title color + "u toku" chip), all-done (green checkmark).
+The era block on the course overview. Two different things to do: the card body is a disclosure button (inside an `h3`, the WAI accordion pattern) that opens the era's sections — `Pokaži odeljke · N` / `Sakrij odeljke`; one labelled link on the right — `Počni` / `Nastavi` / `Pročitano ✓` — opens the right lesson. A thin `ProgressBar` with `n / total` sits beside it.
+States: idle, hover, focus-visible, current, all-done, open.
+A11y: the button's name is the card's visible text in reading order (`aria-labelledby` over number, title, years, description, hint — WCAG 2.5.3); the action link is named `<action>: <era title>`.
 
 ### `CourseProgress`
 
@@ -168,14 +211,13 @@ States: idle, hover (subtle wash), focus-visible, current (accent title color + 
 type CourseProgressProps = {
   completed: number;
   total: number;
-  currentLesson: { day: number; title: string; eraShort: string };
-  nextLesson:    { day: number; title: string } | null;
-  onOpenCurrent: () => void;
-  onOpenNext:    () => void;
+  lesson: { day: number; title: string; readingTimeMinutes?: number } | null; // the resume lesson; null once all are read
+  href: string | null;
+  journeyDayLabel: string | null; // e.g. `Tvoj 4. dan`; null for a fresh reader
 };
 ```
 
-The progress ring card on Course overview. Shows percentage in the ring, completed-count below, and a two-row "Aktuelno" / "Sledeće" mini list with `CompletionDot`s.
+The progress card on the course overview. Fresh reader (`journeyDayLabel === null`): no ring, the lesson to open and one `Počni od Dana 1` pill. Started: a ring that counts lessons, not percent (`12` / `od 365`, so the first win never rounds to 0 %), and one `Nastavi` row to the resume lesson; `Sve lekcije su pročitane.` when done.
 
 ### `CourseSidebar`
 
@@ -202,23 +244,28 @@ A11y: `<nav aria-label="Sadržaj kursa">`. Era and section heads are real `<butt
 
 ### `EraGroup`
 
-Visual grouping inside the sidebar for one Era — small Era label header followed by its `SectionAccordion`s. The Era label is not interactive; it provides chronological framing inside the sidebar.
+```ts
+type EraGroupProps = { era: Era; isOpen: boolean; onToggle: () => void; children: ReactNode };
+```
+
+The era-level accordion in the sidebar and drawer: `EPOHA II`, the short era label (`eraShort`, full title as tooltip), the years; its `SectionAccordion`s inside. Collapsed by default; the shell opens the current era. Same chevron row as `SectionAccordion`, so the two levels read as one hierarchy.
+A11y: a `<button>` with `aria-expanded` / `aria-controls`.
 
 ### `SectionAccordion` *(formerly CourseSectionAccordion)*
 
 ```ts
 type SectionAccordionProps = {
   section: Section;
-  lessons: Lesson[];
-  currentLessonId: LessonId;
+  lessons: readonly LessonSummary[];
+  currentLessonId: LessonId | null;
   completedIds: ReadonlySet<LessonId>;
   isOpen: boolean;
   onToggle: () => void;
-  onSelectLesson: (lesson: Lesson) => void;
+  lessonHref: (lesson: LessonSummary) => string;
 };
 ```
 
-Header row: chevron, section title with sub-eyebrow (day range), `done / total` counter.
+Header row: chevron, section title with sub-eyebrow (day range, `formatDayRange`), `done / total` counter (read to screen readers as `4 od 9 pročitano`).
 States: collapsed, open, contains-current (subtle accent on the title).
 When open, renders all its `LessonNavItem`s.
 A11y: header is a `<button>` with `aria-expanded` and `aria-controls` pointing to the lesson list region id.
@@ -227,34 +274,38 @@ A11y: header is a `<button>` with `aria-expanded` and `aria-controls` pointing t
 
 ```ts
 type LessonNavItemProps = {
-  lesson: Lesson;
-  state: 'idle' | 'active' | 'completed';
-  onClick: () => void;
+  lesson: LessonSummary;
+  active: boolean;          // "you are here": the open lesson, or the overview's resume row
+  completed: boolean;       // read — independent of `active` since Phase 21
+  href: string;
+  isCurrentPage?: boolean;  // default true; false where the active row is not the page being viewed
 };
 ```
 
-Row: `CompletionDot`, day number (`D012`), lesson title, reading time.
-States visualized:
-- `idle` — muted text
+Row: `CompletionDot`, day number (`padDay` → `012`), lesson title, reading time (left out on placeholder rows).
+States visualized (the two flags combine):
+- neither — muted text
 - `active` — accent-tinted background + 2-px accent left bar
-- `completed` — muted title color, completion-color day number, filled green dot
+- `completed` — muted title color, completion-color day number, filled green dot; an active row that is also read keeps the tint and shows the check
 
-A11y: `<a>` with `aria-current="page"` if active.
+A11y: `<a>` with `aria-current="page"` when `active && isCurrentPage`; a read row adds a visually hidden `, pročitano`; a placeholder row is named `<title> — uskoro dostupno`.
 
 ### `HistoricalTimeline`
 
 ```ts
 type HistoricalTimelineProps = {
-  eras: Era[];
+  eras: readonly Era[];
   currentLesson: { eraId: EraId; year: number };
-  onJumpToEra?: (eraId: EraId) => void;
+  eraHref?: (eraId: EraId) => string;               // bands become links
+  eraStats?: ReadonlyMap<EraId, EraStat>;           // { lessonCount, completedCount }
+  variant?: 'full' | 'compact' | 'home';
 };
 ```
 
-Equal-width band per Era; marker positioned proportionally inside the current Era using the lesson year. Marker animates `left` with `duration.medium`. Band labels show Era number and start year.
-States: era band — idle, hover, current (accent text + heavier tick).
-A11y: wrap in `<nav aria-label="Era timeline">`. Each band is a `<button>` with `aria-label="Open <Era title>"`.
-Mobile: horizontally scrollable with snap; current era scrolls into view on lesson change.
+The journey rail. With `eraStats`, bands are sized by lesson count (the smallest raised to a floor so its label fits — `flooredWeights`), with a progress fill; without, equal widths. The marker is interpolated by the lesson year inside the current era (`timelineMath`, unit-tested). Desktop bands show `eraShort` (full title + years as tooltip). ≤ 720 px the same data turns into a vertical rail, one row per era.
+Variants: `home` (the Home centrepiece, heavier on desktop), `compact` (the vertical layout at any width — the top of the mobile drawer), `full` (no caller since the lesson-page strip was dropped).
+States: era — completed, current, upcoming.
+A11y: `<nav aria-label="Vremenska osa epoha">`; the rail is `aria-hidden`; the current band carries `aria-current="true"`.
 
 ### `LessonHeader`
 
@@ -283,16 +334,16 @@ The save-for-later toggle (`Sačuvaj` / `Sačuvano`), a client component. Positi
 
 ```ts
 type LessonBodyProps = {
-  blocks: LessonBlock[];
+  blocks: readonly LessonBlock[];
 };
 ```
 
-Renders structured `LessonBlock[]` content. The first `paragraph` with `dropcap: true` gets dropcap treatment. Supports `paragraph`, `heading`, `quote`, `image`.
+Renders structured `LessonBlock[]` content (an exhaustive switch). The first `paragraph` with `dropcap: true` gets dropcap treatment. Supports `paragraph`, `heading`, `quote`, `image`; `image` renders through `next/image` with its intrinsic `width` / `height`, capped at `min(80vh, 720px)` tall.
 A11y: blockquote renders inside `<blockquote>` with `<cite>` for attribution. Images require non-empty `alt`.
 
 ### `LessonReader`
 
-The reader's frame (Phase 15): `Breadcrumbs` + `LessonHeader` + the article + the footer + the era strip. It has no state and no handlers, so the lesson page renders it on the server; what depends on the reader arrives as nodes.
+The reader's frame (Phase 15): `Breadcrumbs` + `LessonHeader` + the article + the footer. It has no state and no handlers, so the lesson page renders it on the server; what depends on the reader arrives as nodes. (The era strip after the footer was dropped in Phase 17; the era rail lives in the drawer.)
 
 ```ts
 type LessonReaderProps = {
@@ -302,9 +353,32 @@ type LessonReaderProps = {
   article: ReactNode;       // LessonBody + LessonSources + LessonTrustLine
   bookmark?: ReactNode;     // <LessonBookmarkButton />
   footer: ReactNode;        // <LessonFooter />
-  timeline?: ReactNode;     // <HistoricalTimeline />, two-column layouts only
 };
 ```
+
+### `LessonTimeline`
+
+```ts
+type LessonTimelineProps = { year: number; label?: string }; // label: usually the lesson's dateLabel
+```
+
+The divider under the lesson title: a hairline with a few round year ticks around the lesson and one accent marker (`lessonTimelineScale`, unit-tested). Falls back to `Flourish` when the year gives no sensible scale. A plain rule ≤ 720 px. A11y: decorative, `aria-hidden` — the header eyebrow already says the date.
+
+### `LessonSources`
+
+```ts
+type LessonSourcesProps = { sources: readonly Source[] };
+```
+
+The closing `Izvori` section (`h2` + ordered list): `author (year) · title`, a link (new tab, `noopener`) when the source has a `url`. Renders nothing for an empty list.
+
+### `LessonTrustLine`
+
+```ts
+type LessonTrustLineProps = { byline?: LessonByline; lastReviewedAt?: string }; // ISO YYYY-MM-DD
+```
+
+One mono line at the end of the article, after `Izvori`: `NAPISAO: … · PREGLEDAO: … · POSLEDNJI PREGLED: dd.mm.yyyy.` Renders nothing when the lesson carries neither field — there is no course-wide fallback.
 
 ### `LessonFooter`
 
@@ -318,12 +392,46 @@ type LessonFooterProps = {
   totalLessons: number;
   prev: LessonFooterLink | null;
   next: LessonFooterLink | null;
+  resume?: LessonFooterLink | null; // last lesson with others unread: where to continue
   courseHref: string;
   signInPrompt?: SignInPromptProps;
 };
+
+type LessonFooterLink = {
+  title: string;
+  dayNumber: number;
+  href: string;
+  eraLabel?: string;
+  readingTimeMinutes?: number;
+};
 ```
 
-Client component: `MarkAsCompletedButton`, then `PreviousNextLessonNavigation` before completion or `CompletedFooter` after it (the moment → the next-lesson card → the previous link), then the `SignInPrompt` when the app says it is due. On the completion edge it scrolls the moment and the next card into view (reduced-motion aware); the ask is outside that scroll target.
+Client component: `MarkAsCompletedButton`, then `PreviousNextLessonNavigation` before completion or `CompletedFooter` after it (the moment → the next-lesson card → the previous link), then the `SignInPrompt` when the app says it is due. On the reader's own toggle (not a rehydration or another tab) it scrolls the moment and the next card into view (reduced-motion aware); the ask is outside that scroll target. Placeholder lessons get no button and the symmetric footer.
+A11y: one persistent, initially empty `role="status"` / `aria-live="polite"` region, filled only by the reader's toggle (`completionAnnouncement`) and cleared when the lesson changes — a page load never speaks. When the sign-in ask unmounts with focus inside it, focus moves to the completion moment.
+
+### `CompletedFooter`
+
+```ts
+type CompletedFooterProps = {
+  completedDayNumber: number;
+  completedCount: number;          // after this completion
+  totalLessons: number;
+  next: CompletedFooterNext | null;
+  prev: CompletedFooterPrev | null;
+  resume?: CompletedFooterNext | null;
+  courseHref: string;
+};
+```
+
+The post-completion footer. One editorial sentence chosen by `completionMoment` (unit-tested) from the lesson's position and the course state, the labelled count `Pročitano N / 365`, then the primary paper card (`Sledeća lekcija · Dan 013`, or on the last day `Nastavi · …` to the resume lesson / `Otvori kurs`), then a quiet previous link. At 365 / 365 on the last day it becomes the course's finish: a heading, one line, `Otvori kurs`. No XP, streaks or percentages. Not a live region itself — `LessonFooter` speaks for it.
+
+### `SignInPrompt`
+
+```ts
+type SignInPromptProps = { href: string; onDismiss: () => void };
+```
+
+The one ask for an account, under the completed footer — the app shows it after the second completed lesson, when not signed in, not dismissed, once per session. Paper card: `Nalog` eyebrow, `Sačuvaj napredak i na drugim uređajima.`, one sentence, a primary pill `Nastavi sa Google-om` (plain anchor to the sign-in route) and a quiet `Ne sada`. Never a modal. A11y: `<aside aria-labelledby>`.
 
 ### `MarkAsCompletedButton`
 
@@ -334,9 +442,9 @@ type MarkAsCompletedButtonProps = {
 };
 ```
 
-States:
-- not completed → accent button: "Označi kao završeno" + check icon
-- completed → ghost button: "Označeno kao završeno"
+States (one vocabulary with every counter: the action is "pročitano"):
+- not completed → `Označi kao pročitano` + check icon
+- completed → `Pročitano`
 
 A11y: `aria-pressed={isCompleted}`.
 
@@ -344,15 +452,13 @@ A11y: `aria-pressed={isCompleted}`.
 
 ```ts
 type PreviousNextLessonNavigationProps = {
-  prev: { title: string } | null;
-  next: { title: string } | null;
-  onPrev: () => void;
-  onNext: () => void;
+  prev: { title: string; dayNumber: number; href: string } | null;
+  next: { title: string; dayNumber: number; href: string } | null;
 };
 ```
 
-Two `Card`-styled buttons in a 2-column grid; disabled state for boundaries (course start / end).
-A11y: each is a real `<button>` with `aria-disabled` when there is no neighbor.
+Two links in a 2-column row (`← Dan 011` + title, `Dan 013 →` + title). At a boundary the side is an inert span: `Početak kursa · Ovo je prva lekcija` / `Kraj kursa · Ovo je poslednja lekcija`. Accepts the same `LessonFooterLink` shape as `CompletedFooter` (extra fields ignored).
+A11y: `<nav aria-label="Prethodna i sledeća lekcija">`; the boundary spans carry `aria-disabled="true"`.
 
 ### `MobileLessonDrawer`
 
@@ -361,21 +467,23 @@ type MobileLessonDrawerProps = {
   open: boolean;
   onClose: () => void;
   children: ReactNode;     // <CourseSidebar lead={era rail} />
+  ariaLabel?: string;      // default `Sadržaj kursa`
+  id?: string;             // for the trigger's aria-controls
 };
 ```
 
 Slide-in panel from the left, max-width 360 px or 86% viewport. Backdrop closes the drawer. Locks body scroll while open. On open it centres the current lesson's row. Since Phase 15 its list starts with the era rail (`HistoricalTimeline` `variant="compact"`, under a `Vremenska osa` eyebrow), and the lesson shell closes it when the lesson changes.
-A11y: focus traps inside the drawer when open; ESC closes; first focusable element receives focus on open; focus returns to the trigger on close.
+A11y: `role="dialog"` + `aria-modal`; focus traps inside the drawer when open; ESC closes; first focusable element receives focus on open; focus returns to the trigger on close.
 
 ### `CurrentLessonCard`
 
-Floating "current lesson" mini-card used on Home. Shows day, era short, lesson title, reading time, `CompletionDot`.
+Floating "current lesson" mini-card used on Home: a link showing day (`formatDayEyebrow`), era short, lesson title, reading time, `CompletionDot`.
 
 ```ts
 type CurrentLessonCardProps = {
   lesson: { day: number; title: string; readingTimeMinutes: number; eraShort: string };
   state: 'idle' | 'active' | 'done';
-  onClick: () => void;
+  href: string;
 };
 ```
 
@@ -402,6 +510,7 @@ Not in v1. Reserved for v2 if the library grows past ~25 components or if a non-
 
 ```
 packages/ui-web/src/
+├─ _internal/                # progressMath (clamp, percent), shared by the ring, the bar and CourseProgress
 ├─ icons/
 │  ├─ IconCheck.tsx
 │  ├─ IconChev.tsx
@@ -428,4 +537,4 @@ packages/ui-web/src/
 └─ index.ts
 ```
 
-Every folder contains the `.tsx`, its `.module.css`, and an optional `.test.tsx`.
+Every folder contains the `.tsx`, its `.module.css` and an `index.ts`. Logic worth testing lives in a pure `.ts` helper beside the component (`timelineMath`, `lessonTimelineScale`, `revealScroll`, `completionMoment`) with a Vitest `.test.ts` (node environment). There are no component render tests: rendered behaviour is covered by the Playwright e2e and axe suites in `apps/web/e2e`.

@@ -4,7 +4,7 @@
 **Date:** 2026-09-29
 **Predecessors:** Phase 14 live (PR #51, `3de5168`); Phase 13 live (PR #48, `85ebe41`).
 **Parent references:**
-- [`docs/PRODUCT_REVIEW_2026-09-28.md`](../../PRODUCT_REVIEW_2026-09-28.md) — P2 items **16** (mobile reader stack) and **17** (desktop reader frame), plus the one part of item **21** Phase 14 left for here ("keep the article a server component and island only the completion footer").
+- [`docs/PRODUCT_REVIEW_2026-09-28.md`](../reviews/PRODUCT_REVIEW_2026-09-28.md) — P2 items **16** (mobile reader stack) and **17** (desktop reader frame), plus the one part of item **21** Phase 14 left for here ("keep the article a server component and island only the completion footer").
 - [`HANDOFF.md`](../../../HANDOFF.md) — "Next pick: Phase 15 — the reader frame".
 - Phase 13 decision D5 (the era rail inside the drawer).
 

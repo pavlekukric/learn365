@@ -12,7 +12,7 @@
 
 **Parent references:**
 
-- [`docs/ROADMAP_PRE_PHASE_8.md`](./ROADMAP_PRE_PHASE_8.md) — Phase 7.9
+- [`docs/ROADMAP_PRE_PHASE_8.md`](../ROADMAP_PRE_PHASE_8.md) — Phase 7.9
   entry (Bundle C). Roadmap proposal: "TopBar capsule = global counter
   (unchanged). Course overview = ring + a single 'Trenutno: Dan 007 ·
   {title} → Otvori' line. The dual 'Aktuelno / Sledeće' rows collapse to

@@ -16,7 +16,7 @@ production code is written.
 
 **Parent references:**
 
-- [`docs/ROADMAP_PRE_PHASE_8.md`](./ROADMAP_PRE_PHASE_8.md) — Phase 7.10
+- [`docs/ROADMAP_PRE_PHASE_8.md`](../ROADMAP_PRE_PHASE_8.md) — Phase 7.10
   (Bundle D) + Phase 7.12 (Bundle F). Roadmap proposes shipping them in
   one editorial PR window so sources, byline, and figures land together
   with a single schema/regen pass.

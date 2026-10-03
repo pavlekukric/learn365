@@ -10,7 +10,7 @@ the `LessonContextHeader` are at the declared baseline in
 
 - [`HANDOFF.md`](../HANDOFF.md) — "Next pick: Phase 7.5 — Mobile lesson sticky
   chrome scroll-collapse." Pre-existing pre-7.0 polish backlog item.
-- [`docs/ROADMAP_PRE_PHASE_8.md`](./ROADMAP_PRE_PHASE_8.md) — 7.5/7.6 polish
+- [`docs/ROADMAP_PRE_PHASE_8.md`](../ROADMAP_PRE_PHASE_8.md) — 7.5/7.6 polish
   items preserved through the 7.7–7.12 reframe.
 - [`docs/archive/phases/PHASE_6_7_MOBILE_LESSON_CONTEXT.md`](./archive/phases/PHASE_6_7_MOBILE_LESSON_CONTEXT.md)
   — the phase that introduced `LessonContextHeader` as the single-column

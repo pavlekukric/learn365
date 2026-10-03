@@ -5,8 +5,8 @@
 **Predecessors:**
 
 - Phase 7.4 — Eras as editorial blocks (merged 2026-05-19, PR #16).
-- [`HANDOFF.md`](../HANDOFF.md) — current live forward-looking pointer.
-- [`docs/PROJECT_STATE.md`](./PROJECT_STATE.md) — Current Baseline.
+- [`HANDOFF.md`](../../HANDOFF.md) — current live forward-looking pointer.
+- [`docs/PROJECT_STATE.md`](../PROJECT_STATE.md) — Current Baseline.
 
 **Source:** Independent mobile UI/UX assessment conducted 2026-05-19 against
 the screenshot pack at `screenshots/mobile/` and the live build at
@@ -254,7 +254,7 @@ backend, auth, or native mobile.
 5. **When 7.5–7.12 are all done** (or the owner declares the remaining
    items optional) the roadmap is considered consumed and the project
    continues with Phase 8 (.NET backend) per
-   [`docs/BACKEND_STRATEGY.md`](./BACKEND_STRATEGY.md).
+   [`docs/BACKEND_STRATEGY.md`](../BACKEND_STRATEGY.md).
 
 ## What this roadmap is NOT
 

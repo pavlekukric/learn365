@@ -7,7 +7,7 @@
 - Phase 7.10 + 7.12-a — Lesson trust scaffolding + figure renderer (PR #20, `7fb1d18`). The `<LessonBody>` `image` branch renders `next/image` inside a real `<figure>` + `<figcaption>` ([packages/ui-web/src/lesson/LessonBody/LessonBody.tsx:44-59](../packages/ui-web/src/lesson/LessonBody/LessonBody.tsx#L44-L59)). The schema accepts `{ type: 'image', src, alt, width, height, caption? }` ([packages/content/src/types.ts:69-83](../packages/content/src/types.ts#L69-L83)) and the loader enforces positive integers on `width`/`height` ([packages/content/src/loader/loadCourseFromFiles.ts:337-355](../packages/content/src/loader/loadCourseFromFiles.ts#L337-L355)).
 - Phase 7.11 — Lesson bookmarks (PR #21, `1fffe95`). Not load-bearing here; called out only because the bookmark toggle now sits in the lesson header above the first body block.
 - [`HANDOFF.md`](../HANDOFF.md) — names this as the current next pick.
-- [`docs/ROADMAP_PRE_PHASE_8.md`](./ROADMAP_PRE_PHASE_8.md) §F (Bundle F, "Phase 7.12 — Authored lesson editorial pass"). The original 7.12 bundle was split: §F's "figures + sources" became two milestones — 7.12-a (renderer + sources, shipped with 7.10) and **7.12b (this plan — image insertion only)**.
+- [`docs/ROADMAP_PRE_PHASE_8.md`](../ROADMAP_PRE_PHASE_8.md) §F (Bundle F, "Phase 7.12 — Authored lesson editorial pass"). The original 7.12 bundle was split: §F's "figures + sources" became two milestones — 7.12-a (renderer + sources, shipped with 7.10) and **7.12b (this plan — image insertion only)**.
 
 ## Why this is the next phase
 
