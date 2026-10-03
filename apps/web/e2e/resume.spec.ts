@@ -40,7 +40,7 @@ test.describe('Istorija 365 — resume loop', () => {
 
     // First-win moment: a human sentence plus the labelled count, in the article.
     const article = page.locator('article');
-    await expect(article.getByText('Prvi dan je iza tebe.')).toBeVisible();
+    await expect(article.getByText('Prvi dan je iza tebe.', { exact: true })).toBeVisible();
     await expect(article.getByText('Pročitano 1 / 365')).toBeVisible();
     await expect(article.getByRole('link', { name: /Sledeća lekcija · DAN 002/ })).toBeVisible();
 
@@ -122,6 +122,46 @@ test.describe('Istorija 365 — resume loop', () => {
       .first()
       .locator('a[aria-current="page"]');
     await expect(current).toHaveAccessibleName(/Lepenski Vir.*pročitano/);
+  });
+
+  test('a first visit to Home offers one start action', async ({ page }) => {
+    // Review 2026-10-03 item 6: the hero's "Počni kurs" and a Day 1 card
+    // under the three steps both started the course.
+    await page.goto('/', { waitUntil: 'networkidle' });
+    await expect(page.getByRole('link', { name: /Počni kurs/ })).toHaveCount(1);
+    await expect(page.getByRole('link', { name: /DAN 001/ })).toHaveCount(0);
+  });
+
+  test('a finished course: a calm Home, and footers still walk forward', async ({ page }) => {
+    const all = Array.from({ length: 365 }, (_, i) => `day-${String(i + 1).padStart(3, '0')}`);
+    await page.addInitScript(({ key, value }) => window.localStorage.setItem(key, value), {
+      key: PROGRESS_KEY,
+      value: seed(all, 'day-365'),
+    });
+
+    // Home: no "Tvoj 365. dan" — the course is done, and Day 1 is the way back in.
+    await page.goto('/');
+    const today = page.getByRole('region', { name: 'Danas' });
+    await expect(today.getByText('Kurs završen')).toBeVisible();
+    await expect(today.getByText(/\d+\. dan/i)).toHaveCount(0);
+    await expect(page.getByRole('link', { name: /DAN 365/ })).toHaveCount(0);
+    await expect(page.getByRole('link', { name: /DAN 001/ })).toHaveAttribute(
+      'href',
+      `/course/${COURSE_ID}/lesson/day-001`,
+    );
+
+    // Any lesson but the last keeps its next card for a re-reader; the
+    // finish is a quiet note by the count.
+    await page.goto(`/course/${COURSE_ID}/lesson/day-200`);
+    const article = page.locator('article');
+    await expect(article.getByRole('link', { name: /Sledeća lekcija · DAN 201/ })).toBeVisible();
+    await expect(article.getByText('Pročitano 365 / 365 · Kurs je završen')).toBeVisible();
+    await expect(article.getByText('Kurs je završen.', { exact: true })).toHaveCount(0);
+
+    // Day 365 is where the course's finish moment lives.
+    await page.goto(`/course/${COURSE_ID}/lesson/day-365`);
+    await expect(article.getByText('Kurs je završen.', { exact: true })).toBeVisible();
+    await expect(article.getByRole('link', { name: /Sledeća lekcija/ })).toHaveCount(0);
   });
 
   test('TopBar progress capsule is labelled on every viewport', async ({ page }) => {

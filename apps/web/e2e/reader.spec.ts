@@ -49,8 +49,11 @@ test.describe('Istorija 365 — reader chrome', () => {
       });
       expect(chromeHeight).toBeLessThan(metrics.viewportH / 3);
     } else {
-      // Desktop: the title sits high, under the breadcrumb trail.
+      // Desktop: the title sits high, under the breadcrumb trail, and the
+      // first sentence near the middle of the fold — it was at y ≈ 614 before
+      // the header lost its default margins (review 2026-10-03 item 6).
       expect(metrics.h1Top as number).toBeLessThan(320);
+      expect(metrics.firstParagraphTop as number).toBeLessThan(500);
       await expect(page.getByRole('navigation', { name: 'Putanja' })).toBeVisible();
       // No era strip under the article any more (Phase 13 D5, 2026-09-30):
       // the outline beside it names the eras.
@@ -182,9 +185,13 @@ test.describe('Istorija 365 — reader chrome', () => {
     // One counter with a denominator: the labelled progress. The day is bare.
     await expect(page.getByText('Dan 001', { exact: true })).toBeVisible();
     await expect(page.getByText(/Dan 001 \/ 365/)).toHaveCount(0);
-    await expect(
-      page.getByRole('status').filter({ hasText: /Pročitano \d+ \/ 365/ }),
-    ).toBeVisible();
+    // A counter, not a live region (review 2026-10-03 item 7): it would
+    // announce 0 → N on every load. Screen readers get the spelled-out count.
+    const counter = page.locator('[class*="LessonContextHeader_metaRow"]');
+    await expect(counter).toBeVisible();
+    await expect(counter).toContainText(/Pročitano \d+ \/ 365/);
+    await expect(counter.getByText(/^Pročitano \d+ od 365 lekcija$/)).toHaveCount(1);
+    await expect(page.getByRole('status').filter({ hasText: /Pročitano/ })).toHaveCount(0);
 
     // ≤ 720 px the header divider is a plain rule: the date is said once, by
     // the eyebrow.
@@ -238,6 +245,113 @@ test.describe('Istorija 365 — reader chrome', () => {
       outline.getByRole('button', { name: /EPOHA I Praistorija i antika/ }),
     ).toBeVisible();
     await expect(outline.getByRole('button', { name: /doseljavanje Slovena/ })).toHaveCount(0);
+  });
+
+  test('the completion is spoken by one region that starts empty', async ({ page }) => {
+    // Review 2026-10-03 item 7: the moment used to mount as an already
+    // filled `role="status"`, and the counters announced 0 → N on load.
+    await page.goto(LESSON, { waitUntil: 'networkidle' });
+    const regions = page.locator('[role="status"]');
+    await expect(regions).toHaveCount(1);
+    const region = page.locator('article footer [role="status"]');
+    await expect(region).toHaveText('');
+
+    await page.getByRole('button', { name: /^Označi kao pročitano$/ }).click();
+    await expect(region).toHaveText('Prvi dan je iza tebe. Pročitano 1 od 365.');
+    // The visible moment is plain text, not a second region.
+    await expect(regions).toHaveCount(1);
+
+    await page.getByRole('button', { name: /^Pročitano$/ }).click();
+    await expect(region).toHaveText('Lekcija više nije označena kao pročitana.');
+  });
+
+  test('a read lesson opened again says nothing on load', async ({ page }) => {
+    await page.addInitScript(
+      (value) => window.localStorage.setItem('learn365:progress:v1', value),
+      JSON.stringify({
+        state: {
+          byCourse: {
+            [COURSE_ID]: {
+              completedLessonIds: ['day-001'],
+              lastOpenedLessonId: 'day-001',
+              updatedAt: '2026-05-19T09:00:00.000Z',
+            },
+          },
+        },
+        version: 1,
+      }),
+    );
+    await page.goto(LESSON, { waitUntil: 'networkidle' });
+    await expect(page.getByRole('button', { name: /^Pročitano$/ })).toBeVisible();
+    await expect(page.locator('article footer [role="status"]')).toHaveText('');
+  });
+
+  test('the breadcrumb names the era and section without opening a lesson', async ({ page }) => {
+    await page.goto(`/course/${COURSE_ID}/lesson/day-150`);
+    const trail = page.getByRole('navigation', { name: 'Putanja' });
+    test.skip(!(await trail.isVisible()), 'Single-column layout — no breadcrumb trail');
+    // Home and the course are links; the era and section are plain text
+    // (they used to open Day 106 / Day 139 — review 2026-10-03 item 18).
+    await expect(trail.getByRole('link')).toHaveCount(2);
+    await expect(trail.getByText('Despotovina', { exact: true })).toBeVisible();
+    await expect(trail.getByText('Posle pada i nasleđe', { exact: true })).toBeVisible();
+    await expect(trail.locator('[aria-current]')).toHaveCount(0);
+  });
+
+  test('the outline skip link lands on the title, and only where there is an outline', async ({
+    page,
+  }) => {
+    await page.goto(LESSON, { waitUntil: 'networkidle' });
+    const skip = page.getByRole('link', { name: 'Preskoči na tekst lekcije' });
+    const contentsButton = page.getByRole('button', { name: /Otvori sadržaj/ });
+    if (await contentsButton.isVisible()) {
+      // Phones / tablets: no outline beside the article, nothing to skip.
+      await expect(skip).toBeHidden();
+      return;
+    }
+    await skip.focus();
+    await page.keyboard.press('Enter');
+    await expect(page.locator('#lesson-reader h1')).toBeFocused();
+  });
+
+  test('an era the shell opened closes again when the lesson moves on', async ({ page }) => {
+    await page.goto(`/course/${COURSE_ID}/lesson/day-045`, { waitUntil: 'networkidle' });
+    const contentsButton = page.getByRole('button', { name: /Otvori sadržaj/ });
+    test.skip(await contentsButton.isVisible(), 'Single-column layout — the outline is a drawer');
+
+    const outline = page.getByRole('navigation', { name: 'Sadržaj kursa' });
+    const eraOne = outline.getByRole('button', { name: /^EPOHA I / });
+    const eraTwo = outline.getByRole('button', { name: /^EPOHA II / });
+    await expect(eraOne).toHaveAttribute('aria-expanded', 'true');
+    await expect(eraTwo).toHaveAttribute('aria-expanded', 'false');
+
+    await page
+      .getByRole('navigation', { name: 'Prethodna i sledeća lekcija' })
+      .getByRole('link')
+      .last()
+      .click();
+    await expect(page).toHaveURL(/\/lesson\/day-046$/);
+    await expect(eraTwo).toHaveAttribute('aria-expanded', 'true');
+    await expect(eraOne).toHaveAttribute('aria-expanded', 'false');
+  });
+
+  test('the contents trigger is a full touch target', async ({ page }) => {
+    await page.goto(LESSON);
+    const contentsButton = page.getByRole('button', { name: /Otvori sadržaj/ });
+    test.skip(!(await contentsButton.isVisible()), 'Desktop two-column layout — no drawer');
+    const box = await contentsButton.boundingBox();
+    expect(box?.height ?? 0).toBeGreaterThanOrEqual(44);
+  });
+
+  test('a drawer closed by widening the window hands focus to the title', async ({ page }) => {
+    await page.goto(LESSON, { waitUntil: 'networkidle' });
+    const contentsButton = page.getByRole('button', { name: /Otvori sadržaj/ });
+    test.skip(!(await contentsButton.isVisible()), 'Desktop two-column layout — no drawer');
+    await contentsButton.click();
+    await expect(page.getByRole('dialog', { name: 'Sadržaj kursa' })).toBeVisible();
+    await page.setViewportSize({ width: 1280, height: 800 });
+    await expect(page.getByRole('dialog', { name: 'Sadržaj kursa' })).toHaveCount(0);
+    await expect(page.locator('#lesson-reader h1')).toBeFocused();
   });
 
   test('a portrait figure is capped in height and keeps its caption at its width', async ({

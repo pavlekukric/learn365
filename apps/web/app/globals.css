@@ -10,9 +10,11 @@
  * so we don't need to repeat the long fallback chain here.
  */
 :root {
-  --serif: var(--font-spectral), "Spectral", "Source Serif 4", Georgia, "Times New Roman", serif;
-  --sans: var(--font-inter), "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
-  --mono: var(--font-jetbrains-mono), "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+  --serif: var(--font-spectral), 'Spectral', 'Source Serif 4', Georgia, 'Times New Roman', serif;
+  --sans:
+    var(--font-inter), 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --mono:
+    var(--font-jetbrains-mono), 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
 }
 
 body {
@@ -100,5 +102,16 @@ html[data-progress='started'] [data-newcomer='block'] {
 }
 
 html[data-progress='started'] [data-newcomer='inline'] {
+  visibility: hidden;
+}
+
+/* `reserve`: never shown to a first visit (out of the flow), but holds its
+ * box, invisible, for a returning reader until their own version renders —
+ * e.g. Home's recommended card, which only a returning reader gets. */
+html:not([data-progress='started']) [data-newcomer='reserve'] {
+  display: none;
+}
+
+html[data-progress='started'] [data-newcomer='reserve'] {
   visibility: hidden;
 }

@@ -1,8 +1,9 @@
 'use client';
 
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 
 import { CompletedFooter } from '../CompletedFooter/CompletedFooter.js';
+import { completionAnnouncement, completionMoment } from '../CompletedFooter/completionMoment.js';
 import { MarkAsCompletedButton } from '../MarkAsCompletedButton/MarkAsCompletedButton.js';
 import { PreviousNextLessonNavigation } from '../PreviousNextLessonNavigation/PreviousNextLessonNavigation.js';
 import { SignInPrompt, type SignInPromptProps } from '../SignInPrompt/SignInPrompt.js';
@@ -72,8 +73,33 @@ export function LessonFooter({
   // also flips `isCompleted` false→true, and must not move the page.
   const completedWrapRef = useRef<HTMLDivElement>(null);
   const toggledByReaderRef = useRef(false);
+
+  // What the live region below says. It is empty until the reader's own
+  // toggle and is cleared when the lesson changes, so a page load, a store
+  // rehydration or another tab never speaks (review 2026-10-03 item 7).
+  const [announcement, setAnnouncement] = useState('');
+  const [announcedDay, setAnnouncedDay] = useState(dayNumber);
+  if (announcedDay !== dayNumber) {
+    setAnnouncedDay(dayNumber);
+    setAnnouncement('');
+  }
+
   const handleToggle = (): void => {
     toggledByReaderRef.current = true;
+    if (isCompleted) {
+      setAnnouncement('Lekcija više nije označena kao pročitana.');
+    } else {
+      // The store applies the toggle synchronously; the count after it is
+      // this one plus the lesson just marked.
+      const countAfter = Math.min(completedCount + 1, totalLessons);
+      const moment = completionMoment({
+        dayNumber,
+        isLastLesson: next === null,
+        completedCount: countAfter,
+        totalLessons,
+      });
+      setAnnouncement(completionAnnouncement(moment, countAfter, totalLessons));
+    }
     onToggleComplete();
   };
   useEffect(() => {
@@ -107,6 +133,15 @@ export function LessonFooter({
     <footer className={styles.footer}>
       {isUpcoming ? null : (
         <MarkAsCompletedButton isCompleted={isCompleted} onClick={handleToggle} />
+      )}
+      {/* One persistent, polite region, rendered empty and filled only by
+       * the reader's toggle: a region mounted already filled (the old
+       * completion moment) is often never read. The visible moment below
+       * is plain text. */}
+      {isUpcoming ? null : (
+        <p className="visually-hidden" role="status" aria-live="polite" aria-atomic="true">
+          {announcement}
+        </p>
       )}
       {/* Pre-completion: symmetric prev/next. Post-completion: a stronger
        * "what's next" moment that promotes the next lesson to the primary

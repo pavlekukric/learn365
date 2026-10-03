@@ -51,9 +51,10 @@ interface CompletedFooterProps {
  * the labelled count underneath (so the reader sees the number move without
  * hunting for it in the chrome), a serif title on a paper card, a chevron.
  * No XP, no streaks, no percentages. What the sentence says follows the
- * lesson's position and the course's state (`completionMoment`); at
- * 365 / 365 it becomes the course's quiet finish: a heading, one line and a
- * way back to the course.
+ * lesson's position and the course's state (`completionMoment`); on the
+ * last day at 365 / 365 it becomes the course's quiet finish: a heading,
+ * one line and a way back to the course. Every other lesson keeps its next
+ * card once the course is done, for the re-reader.
  *
  * One column, one left edge (Phase 21): the sentence, the card and the
  * previous link all start where the completion button above them starts.
@@ -76,7 +77,10 @@ export function CompletedFooter({
 
   return (
     <div className={styles.wrap}>
-      <div className={styles.moment} role="status">
+      {/* Not a live region: it mounts already filled, which screen readers
+       * often skip. `LessonFooter` speaks the moment through its own
+       * persistent region instead (review 2026-10-03 item 7). */}
+      <div className={styles.moment}>
         {moment.kind === 'finished' ? (
           <>
             <p className={styles.finishHeading}>
@@ -93,6 +97,7 @@ export function CompletedFooter({
         )}
         <p className={`tiny mono ${styles.momentCount}`}>
           Pročitano {completedCount} / {totalLessons}
+          {moment.kind === 'day' && moment.note !== undefined ? ` · ${moment.note}` : null}
         </p>
       </div>
 
@@ -103,7 +108,11 @@ export function CompletedFooter({
         </Link>
       ) : moment.kind === 'lastDay' ? (
         resume ? (
-          <LessonCard eyebrow={`Nastavi · ${formatDayEyebrow(resume.dayNumber)}`} lesson={resume} meta={moment.remaining} />
+          <LessonCard
+            eyebrow={`Nastavi · ${formatDayEyebrow(resume.dayNumber)}`}
+            lesson={resume}
+            meta={moment.remaining}
+          />
         ) : (
           <Link href={courseHref} className={styles.nextCard}>
             <span className={`tiny mono ${styles.eyebrow}`}>{moment.remaining}</span>
@@ -112,13 +121,18 @@ export function CompletedFooter({
           </Link>
         )
       ) : next ? (
-        <LessonCard eyebrow={`Sledeća lekcija · ${formatDayEyebrow(next.dayNumber)}`} lesson={next} />
+        <LessonCard
+          eyebrow={`Sledeća lekcija · ${formatDayEyebrow(next.dayNumber)}`}
+          lesson={next}
+        />
       ) : null}
 
       {prev ? (
         <Link href={prev.href} className={styles.prevLink}>
           <IconArrowLeft className={styles.prevArrow} />
-          <span className={`tiny mono ${styles.prevLabel}`}>{formatDayEyebrow(prev.dayNumber)}</span>
+          <span className={`tiny mono ${styles.prevLabel}`}>
+            {formatDayEyebrow(prev.dayNumber)}
+          </span>
           <span className={styles.prevTitle}>{prev.title}</span>
         </Link>
       ) : null}

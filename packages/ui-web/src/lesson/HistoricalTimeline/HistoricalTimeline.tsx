@@ -77,12 +77,7 @@ export function HistoricalTimeline({
     ? flooredWeights(eras.map((era) => eraStats.get(era.id)?.lessonCount ?? 0))
     : eras.map(() => 1);
 
-  const markerPct = markerPositionPercent(
-    eras,
-    currentLesson.eraId,
-    currentLesson.year,
-    weights,
-  );
+  const markerPct = markerPositionPercent(eras, currentLesson.eraId, currentLesson.year, weights);
 
   const fillPct = eraStats
     ? timelineFillPercent(
@@ -136,7 +131,10 @@ export function HistoricalTimeline({
             // label-content-name-mismatch); the full title and range follow,
             // which also contain what the vertical rows and the numeral-only
             // container-query fallback show.
-            const name = `${era.num} ${era.eraShort}, ${formatYearShort(era.yearStart)}. Epoha ${era.num}: ${era.title}, ${era.yearsLabel}`;
+            // A BCE label already ends with its dot ("9500 p.n.e."): no
+            // second one ("p.n.e..", review 2026-10-03 item 18).
+            const yearShort = formatYearShort(era.yearStart);
+            const name = `${era.num} ${era.eraShort}, ${yearShort}${yearShort.endsWith('.') ? '' : '.'} Epoha ${era.num}: ${era.title}, ${era.yearsLabel}`;
             const cls = `${styles.band} ${styles[state] ?? ''}`;
             const content = (
               <>
@@ -150,9 +148,7 @@ export function HistoricalTimeline({
                   <span className={`tiny mono ${styles.yearShort}`}>
                     {formatYearShort(era.yearStart)}
                   </span>
-                  <span className={`tiny mono ${styles.yearFull}`}>
-                    {era.yearsLabel}
-                  </span>
+                  <span className={`tiny mono ${styles.yearFull}`}>{era.yearsLabel}</span>
                 </span>
               </>
             );

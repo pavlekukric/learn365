@@ -1,7 +1,10 @@
 .reader {
   display: flex;
   flex-direction: column;
-  gap: var(--space-10);
+  /* Trail → header → article → footer. 32 px at every width (was 48 on
+   * desktop): with the header's own rhythm it keeps the first sentence near
+   * the middle of a 900 px fold (review 2026-10-03 item 6). */
+  gap: var(--space-8);
   max-width: var(--reading-col);
   /* Two-column desktop layout (>1024px): the article anchors flush-left
    * against the CourseSidebar instead of floating centred in an oversized
@@ -55,7 +58,6 @@
 
 @media (max-width: 860px) {
   .reader {
-    gap: var(--space-8);
     padding-top: var(--space-7);
     /* Bottom padding clears the iOS home indicator on devices that have
      * one; the max() preserves the editorial breathing room everywhere
@@ -74,4 +76,3 @@
     display: none;
   }
 }
-
