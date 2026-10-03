@@ -36,8 +36,12 @@ describe('isConnectivityError', () => {
   });
 
   it('follows cause chains and AggregateError-style error lists', () => {
-    expect(isConnectivityError(new Error('wrapped', { cause: withCode('ECONNREFUSED') }))).toBe(true);
-    expect(isConnectivityError({ errors: [new Error('other'), withCode('EHOSTUNREACH')] })).toBe(true);
+    expect(isConnectivityError(new Error('wrapped', { cause: withCode('ECONNREFUSED') }))).toBe(
+      true,
+    );
+    expect(isConnectivityError({ errors: [new Error('other'), withCode('EHOSTUNREACH')] })).toBe(
+      true,
+    );
   });
 
   it('does not mistake a failing query, a missing file or nothing at all for an outage', () => {
@@ -77,7 +81,10 @@ describe('migrateAtStartup', () => {
   });
 
   it('still throws when a migration cannot be applied', async () => {
-    restoreEnv = stubServerEnv({ DATABASE_URL: 'pglite://', MIGRATIONS_DIR: '/definitely/not/a/folder' });
+    restoreEnv = stubServerEnv({
+      DATABASE_URL: 'pglite://',
+      MIGRATIONS_DIR: '/definitely/not/a/folder',
+    });
     await expect(migrateAtStartup({ retries: 0, delayMs: 1 })).rejects.toThrow();
     expect(getMigrationState()).toBe('failed');
   });
@@ -152,7 +159,11 @@ describe('retryMigrations', () => {
 
   it('stays pending (not failed) when a finite budget runs out on an unreachable database', async () => {
     restoreEnv = stubServerEnv({ DATABASE_URL: UNREACHABLE, MIGRATIONS_DIR });
-    const result = await retryMigrations({ retries: 3, delayMs: 1, sleep: () => Promise.resolve() });
+    const result = await retryMigrations({
+      retries: 3,
+      delayMs: 1,
+      sleep: () => Promise.resolve(),
+    });
     expect(result).toBe('pending');
     expect(getMigrationState()).toBe('pending');
   });

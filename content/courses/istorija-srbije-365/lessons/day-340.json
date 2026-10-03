@@ -11,7 +11,14 @@
   "dateLabel": "1989–1991.",
   "timelinePosition": "1989–1991.",
   "summary": "Od jeseni 1989. do proleća 1991. SFRJ ulazi u poslednju krizu: hiperinflacija, raspad Saveza komunista, višestranački izbori i srpsko-hrvatski sukob.",
-  "keyPeople": ["Ante Marković", "Slobodan Milošević", "Franjo Tuđman", "Milan Kučan", "Alija Izetbegović", "Radovan Karadžić"],
+  "keyPeople": [
+    "Ante Marković",
+    "Slobodan Milošević",
+    "Franjo Tuđman",
+    "Milan Kučan",
+    "Alija Izetbegović",
+    "Radovan Karadžić"
+  ],
   "keyPlaces": ["Beograd", "Ljubljana", "Zagreb", "Knin", "Sarajevo", "Plitvice"],
   "content": [
     {

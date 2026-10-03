@@ -11,8 +11,20 @@
   "dateLabel": "12. mart 2003.",
   "timelinePosition": "12. mart 2003.",
   "summary": "Atentat na premijera Zorana Đinđića pred zgradom Vlade u Beogradu, uloga Zemunskog klana i bivše JSO, Akcija Sablja i pitanja koja su ostala otvorena.",
-  "keyPeople": ["Zoran Đinđić", "Milorad Ulemek Legija", "Zvezdan Jovanović", "Dušan Spasojević", "Mile Luković"],
-  "keyPlaces": ["Beograd", "zgrada Vlade Srbije", "ulica Admirala Geprata", "Urgentni centar", "Zemun"],
+  "keyPeople": [
+    "Zoran Đinđić",
+    "Milorad Ulemek Legija",
+    "Zvezdan Jovanović",
+    "Dušan Spasojević",
+    "Mile Luković"
+  ],
+  "keyPlaces": [
+    "Beograd",
+    "zgrada Vlade Srbije",
+    "ulica Admirala Geprata",
+    "Urgentni centar",
+    "Zemun"
+  ],
   "content": [
     {
       "type": "paragraph",

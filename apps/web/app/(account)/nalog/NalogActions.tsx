@@ -26,7 +26,8 @@ export function NalogActions() {
   const wasConfirming = useRef(false);
   useEffect(() => {
     if (confirming) confirmRef.current?.focus();
-    else if (wasConfirming.current) actionsRef.current?.querySelector<HTMLElement>('button:last-of-type')?.focus();
+    else if (wasConfirming.current)
+      actionsRef.current?.querySelector<HTMLElement>('button:last-of-type')?.focus();
     wasConfirming.current = confirming;
   }, [confirming]);
 

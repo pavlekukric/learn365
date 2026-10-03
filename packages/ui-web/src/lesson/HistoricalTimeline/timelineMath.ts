@@ -107,12 +107,9 @@ export function timelineFillPercent(
   let totalWeight = 0;
   let filled = 0;
   stats.forEach((s, i) => {
-    const count =
-      Number.isFinite(s.lessonCount) && s.lessonCount > 0 ? s.lessonCount : 0;
+    const count = Number.isFinite(s.lessonCount) && s.lessonCount > 0 ? s.lessonCount : 0;
     const completed =
-      Number.isFinite(s.completedCount) && s.completedCount > 0
-        ? s.completedCount
-        : 0;
+      Number.isFinite(s.completedCount) && s.completedCount > 0 ? s.completedCount : 0;
     const rawWeight = useWeights ? (weights[i] ?? 0) : count;
     const weight = Number.isFinite(rawWeight) && rawWeight > 0 ? rawWeight : 0;
     const fraction = count > 0 ? Math.min(completed, count) / count : 0;

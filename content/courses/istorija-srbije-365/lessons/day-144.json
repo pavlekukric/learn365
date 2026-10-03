@@ -12,7 +12,15 @@
   "timelinePosition": "kraj 15. veka",
   "summary": "Posle 1459. država je nestala, ali je crkva, oslonjena na manastire, ostala glavni nosilac srpskog identiteta pod osmanskom vlašću.",
   "keyPeople": [],
-  "keyPlaces": ["Peć", "Pećka patrijaršija", "Ohrid", "Sveta Gora", "Studenica", "Dečani", "Mileševa"],
+  "keyPlaces": [
+    "Peć",
+    "Pećka patrijaršija",
+    "Ohrid",
+    "Sveta Gora",
+    "Studenica",
+    "Dečani",
+    "Mileševa"
+  ],
   "content": [
     {
       "type": "paragraph",

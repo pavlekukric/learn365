@@ -12,7 +12,20 @@
   "timelinePosition": "savremeno doba",
   "summary": "Srbi van Srbije početkom 21. veka: Republika Srpska, zajednice u Crnoj Gori, Hrvatskoj i na Kosovu i široka dijaspora od Nemačke do Australije.",
   "keyPeople": [],
-  "keyPlaces": ["Republika Srpska", "Banja Luka", "Crna Gora", "Hrvatska", "Kosovo", "Severna Mitrovica", "Nemačka", "Austrija", "Švajcarska", "SAD", "Kanada", "Australija"],
+  "keyPlaces": [
+    "Republika Srpska",
+    "Banja Luka",
+    "Crna Gora",
+    "Hrvatska",
+    "Kosovo",
+    "Severna Mitrovica",
+    "Nemačka",
+    "Austrija",
+    "Švajcarska",
+    "SAD",
+    "Kanada",
+    "Australija"
+  ],
   "content": [
     {
       "type": "paragraph",

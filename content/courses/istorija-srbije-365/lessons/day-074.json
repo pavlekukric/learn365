@@ -12,7 +12,16 @@
   "timelinePosition": "1331–1348.",
   "summary": "Dušanovi pohodi na jug od 1331. do 1348. — Makedonija, Albanija, Epir i Tesalija — stvorili su državu u kojoj su Grci verovatno postali većina.",
   "keyPeople": ["Dušan", "Jovan Kantakuzin", "Andronik III", "Ana Savojska"],
-  "keyPlaces": ["Makedonija", "Ohrid", "Ser", "Albanija", "Epir", "Tesalija", "Sveta Gora", "Solun"],
+  "keyPlaces": [
+    "Makedonija",
+    "Ohrid",
+    "Ser",
+    "Albanija",
+    "Epir",
+    "Tesalija",
+    "Sveta Gora",
+    "Solun"
+  ],
   "content": [
     {
       "type": "paragraph",

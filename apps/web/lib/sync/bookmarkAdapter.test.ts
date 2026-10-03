@@ -63,11 +63,13 @@ describe('bookmark adapter', () => {
     expect(store.getState().byCourse[COURSE]?.lessonIds).toEqual(new Set(['day-001', 'day-009']));
     expect(() => adapter.applyRemote(COURSE, { lessonIds: 'x' }, undefined)).toThrow();
 
-    expect(adapter.serializeDelta(COURSE, { add: new Set(['a']), remove: new Set(['b']) })).toEqual({
-      courseId: COURSE,
-      add: ['a'],
-      remove: ['b'],
-    });
+    expect(adapter.serializeDelta(COURSE, { add: new Set(['a']), remove: new Set(['b']) })).toEqual(
+      {
+        courseId: COURSE,
+        add: ['a'],
+        remove: ['b'],
+      },
+    );
   });
 
   it('merges deltas newest-wins and validates wire payloads', () => {
@@ -77,11 +79,19 @@ describe('bookmark adapter', () => {
         { add: new Set(['c']), remove: new Set(['a']) },
       ),
     ).toEqual({ add: new Set(['b', 'c']), remove: new Set(['a']) });
-    expect(withPendingBookmarks({ lessonIds: ['a'], updatedAt: T }, { add: new Set(['b']), remove: new Set(['a']) })).toEqual({
+    expect(
+      withPendingBookmarks(
+        { lessonIds: ['a'], updatedAt: T },
+        { add: new Set(['b']), remove: new Set(['a']) },
+      ),
+    ).toEqual({
       lessonIds: ['b'],
       updatedAt: T,
     });
-    expect(parseBookmarksWire({ lessonIds: ['a'], updatedAt: T })).toEqual({ lessonIds: ['a'], updatedAt: T });
+    expect(parseBookmarksWire({ lessonIds: ['a'], updatedAt: T })).toEqual({
+      lessonIds: ['a'],
+      updatedAt: T,
+    });
     expect(parseBookmarksWire({ lessonIds: [1], updatedAt: T })).toBeNull();
     expect(parseBookmarksWire({ lessonIds: [], updatedAt: 3 })).toBeNull();
   });

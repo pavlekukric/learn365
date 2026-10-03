@@ -11,7 +11,13 @@
   "dateLabel": "1916–1918.",
   "timelinePosition": "1916–1918.",
   "summary": "Od 1916. srpska vojska u sastavu savezničke Istočne armije drži najteže planinske položaje Solunskog fronta, od Kajmakčalana do Crne reke.",
-  "keyPeople": ["vojvoda Petar Bojović", "vojvoda Živojin Mišić", "Luj Franše d'Epere", "kralj Petar I", "regent Aleksandar"],
+  "keyPeople": [
+    "vojvoda Petar Bojović",
+    "vojvoda Živojin Mišić",
+    "Luj Franše d'Epere",
+    "kralj Petar I",
+    "regent Aleksandar"
+  ],
   "keyPlaces": ["Solun", "Kajmakčalan", "Bitolj", "Crna reka"],
   "content": [
     {

@@ -12,10 +12,7 @@ interface MarkAsCompletedButtonProps {
  * (`Pročitano N / 365`, the era card's `Pročitano ✓`, the how-it-works
  * step): the action is "Označi kao pročitano", the state is "Pročitano".
  */
-export function MarkAsCompletedButton({
-  isCompleted,
-  onClick,
-}: MarkAsCompletedButtonProps) {
+export function MarkAsCompletedButton({ isCompleted, onClick }: MarkAsCompletedButtonProps) {
   return (
     <button
       type="button"

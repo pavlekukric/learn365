@@ -11,7 +11,14 @@
   "dateLabel": "16. vek",
   "timelinePosition": "16. vek",
   "summary": "Od dečaka iz Sokolovića do velikog vezira: Mehmed-paša Sokolović četrnaest godina vodi carstvo, a pre toga pomaže obnovu Pećke patrijaršije 1557.",
-  "keyPeople": ["Mehmed-paša Sokolović", "Makarije Sokolović", "Sulejman Veličanstveni", "Selim II", "Murat III", "Mimar Sinan"],
+  "keyPeople": [
+    "Mehmed-paša Sokolović",
+    "Makarije Sokolović",
+    "Sulejman Veličanstveni",
+    "Selim II",
+    "Murat III",
+    "Mimar Sinan"
+  ],
   "keyPlaces": ["Sokolovići", "Rudo", "Višegrad", "Istanbul", "Peć"],
   "content": [
     {

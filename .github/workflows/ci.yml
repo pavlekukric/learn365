@@ -68,6 +68,9 @@ jobs:
             exit 1
           fi
 
+      - name: Format
+        run: pnpm format:check
+
       - name: Lint
         run: pnpm lint
 

@@ -11,7 +11,17 @@
   "dateLabel": "1804.",
   "timelinePosition": "1804.",
   "summary": "Od Orašca do Ivankovca: kako je ustanak za godinu i po ovladao Šumadijom, opkolio Beograd, uklonio dahije i prvi put porazio sultanovu vojsku.",
-  "keyPeople": ["Karađorđe", "Milenko Stojković", "Petar Dobrnjac", "Hafiz-paša", "Bekir-paša", "Stanoje Glavaš", "Jakov Nenadović", "Hajduk Veljko Petrović", "Prota Mateja Nenadović"],
+  "keyPeople": [
+    "Karađorđe",
+    "Milenko Stojković",
+    "Petar Dobrnjac",
+    "Hafiz-paša",
+    "Bekir-paša",
+    "Stanoje Glavaš",
+    "Jakov Nenadović",
+    "Hajduk Veljko Petrović",
+    "Prota Mateja Nenadović"
+  ],
   "keyPlaces": ["Beograd", "Ada Kale", "Ivankovac", "Svilajnac", "Paraćin", "Šumadija"],
   "content": [
     {

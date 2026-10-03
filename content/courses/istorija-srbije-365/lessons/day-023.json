@@ -12,7 +12,15 @@
   "timelinePosition": "~150. n. e.",
   "summary": "Pod rimskom upravom na tlu Srbije izrasta mreža gradova — od Singidunuma, preko Viminacijuma, do Naissusa — i prvi put stiže prava urbana civilizacija.",
   "keyPeople": [],
-  "keyPlaces": ["Singidunum", "Viminacijum", "Naissus", "Sirmijum", "Horreum Margi", "Mediana", "Ulpijana"],
+  "keyPlaces": [
+    "Singidunum",
+    "Viminacijum",
+    "Naissus",
+    "Sirmijum",
+    "Horreum Margi",
+    "Mediana",
+    "Ulpijana"
+  ],
   "content": [
     {
       "type": "paragraph",

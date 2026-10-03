@@ -11,7 +11,13 @@
   "dateLabel": "od 2000.",
   "timelinePosition": "savremeno doba",
   "summary": "Srpska kultura, nauka i sport posle 2000: stare institucije i novi festivali, književnost, film i muzika, vrhunski sportisti i odliv mozgova.",
-  "keyPeople": ["Milorad Pavić", "David Albahari", "Dragan Velikić", "Emir Kusturica", "Novak Đoković"],
+  "keyPeople": [
+    "Milorad Pavić",
+    "David Albahari",
+    "Dragan Velikić",
+    "Emir Kusturica",
+    "Novak Đoković"
+  ],
   "keyPlaces": ["Beograd", "Novi Sad", "SANU", "Narodni muzej Srbije", "Petrovaradinska tvrđava"],
   "content": [
     {

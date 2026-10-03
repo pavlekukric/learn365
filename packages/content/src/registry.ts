@@ -123,10 +123,7 @@ export function getLessonsByEra(courseId: CourseId, eraId: EraId): readonly Less
   return lessons.filter((l) => l.eraId === eraId);
 }
 
-export function getSectionsByEra(
-  courseId: CourseId,
-  eraId: EraId,
-): readonly Section[] {
+export function getSectionsByEra(courseId: CourseId, eraId: EraId): readonly Section[] {
   const sections = dataFor(courseId)?.sections;
   if (!sections) return [];
   return sections.filter((s) => s.eraId === eraId);
@@ -138,19 +135,13 @@ export function getEraForLesson(courseId: CourseId, lessonId: LessonId): Era | n
   return getEraById(courseId, lesson.eraId);
 }
 
-export function getSectionForLesson(
-  courseId: CourseId,
-  lessonId: LessonId,
-): Section | null {
+export function getSectionForLesson(courseId: CourseId, lessonId: LessonId): Section | null {
   const lesson = getLessonById(courseId, lessonId);
   if (!lesson) return null;
   return getSectionById(courseId, lesson.sectionId);
 }
 
-export function getEraForSection(
-  courseId: CourseId,
-  sectionId: SectionId,
-): Era | null {
+export function getEraForSection(courseId: CourseId, sectionId: SectionId): Era | null {
   const section = getSectionById(courseId, sectionId);
   if (!section) return null;
   return getEraById(courseId, section.eraId);

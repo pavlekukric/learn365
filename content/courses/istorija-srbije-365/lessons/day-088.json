@@ -12,7 +12,13 @@
   "timelinePosition": "kraj 13 – 14. vek",
   "summary": "Posle Milutinovih osvajanja graditeljstvo se okreće paleologovskoj tradiciji: petokupolne crkve, trake opeke i kamena, ukrašene fasade i raskošno slikarstvo.",
   "keyPeople": [],
-  "keyPlaces": ["Gračanica", "Bogorodica Ljeviška", "Staro Nagoričino", "Kraljeva crkva", "Lesnovo"],
+  "keyPlaces": [
+    "Gračanica",
+    "Bogorodica Ljeviška",
+    "Staro Nagoričino",
+    "Kraljeva crkva",
+    "Lesnovo"
+  ],
   "content": [
     {
       "type": "paragraph",

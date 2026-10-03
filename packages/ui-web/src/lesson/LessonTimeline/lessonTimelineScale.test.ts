@@ -1,9 +1,6 @@
 import { describe, expect, it } from 'vitest';
 
-import {
-  buildLessonTimelineScale,
-  formatTickYear,
-} from './lessonTimelineScale.js';
+import { buildLessonTimelineScale, formatTickYear } from './lessonTimelineScale.js';
 
 describe('buildLessonTimelineScale', () => {
   it('returns null for a non-finite year', () => {

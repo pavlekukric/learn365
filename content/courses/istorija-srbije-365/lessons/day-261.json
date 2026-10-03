@@ -11,7 +11,12 @@
   "dateLabel": "kraj 19. veka",
   "timelinePosition": "kraj 19. veka",
   "summary": "Od predaje gradova 1867. do Prvog svetskog rata Beograd od orijentalne varoši postaje skromna evropska prestonica — sa planom, vodovodom i tramvajem.",
-  "keyPeople": ["Emilijan Josimović","knez Mihailo Obrenović", "kralj Milan Obrenović", "kralj Aleksandar Obrenović"],
+  "keyPeople": [
+    "Emilijan Josimović",
+    "knez Mihailo Obrenović",
+    "kralj Milan Obrenović",
+    "kralj Aleksandar Obrenović"
+  ],
   "keyPlaces": ["Beograd", "Kalemegdan", "Knez Mihailova ulica", "Terazije", "Savamala"],
   "content": [
     {

@@ -10,7 +10,10 @@ import {
 } from './readingTime.js';
 
 function paragraphOf(words: number): LessonBlock {
-  return { type: 'paragraph', text: Array.from({ length: words }, (_, i) => `reč${String(i)}`).join(' ') };
+  return {
+    type: 'paragraph',
+    text: Array.from({ length: words }, (_, i) => `reč${String(i)}`).join(' '),
+  };
 }
 
 describe('countWords', () => {
@@ -29,7 +32,14 @@ describe('countWords', () => {
 
   it('does not count image alt or caption', () => {
     const blocks: readonly LessonBlock[] = [
-      { type: 'image', src: '/x.webp', alt: 'jedna dva tri', width: 10, height: 10, caption: 'četiri pet' },
+      {
+        type: 'image',
+        src: '/x.webp',
+        alt: 'jedna dva tri',
+        width: 10,
+        height: 10,
+        caption: 'četiri pet',
+      },
       { type: 'paragraph', text: 'šest' },
     ];
     expect(countWords(blocks)).toBe(1);
@@ -39,7 +49,9 @@ describe('countWords', () => {
 describe('estimateReadingMinutes', () => {
   it('rounds up and never returns 0', () => {
     expect(WORDS_PER_MINUTE).toBe(150);
-    expect(estimateReadingMinutes([{ type: 'paragraph', text: 'Lekcija se uskoro objavljuje.' }])).toBe(1);
+    expect(
+      estimateReadingMinutes([{ type: 'paragraph', text: 'Lekcija se uskoro objavljuje.' }]),
+    ).toBe(1);
     expect(estimateReadingMinutes([paragraphOf(150)])).toBe(1);
     expect(estimateReadingMinutes([paragraphOf(151)])).toBe(2);
   });
@@ -52,7 +64,8 @@ describe('estimateReadingMinutes', () => {
 });
 
 describe('medianReadingMinutes', () => {
-  const of = (...minutes: number[]) => minutes.map((readingTimeMinutes) => ({ readingTimeMinutes }));
+  const of = (...minutes: number[]) =>
+    minutes.map((readingTimeMinutes) => ({ readingTimeMinutes }));
 
   it('returns the middle value for an odd count', () => {
     expect(medianReadingMinutes(of(7, 5, 6))).toBe(6);

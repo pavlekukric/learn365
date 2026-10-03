@@ -11,7 +11,15 @@
   "dateLabel": "1889–1903.",
   "timelinePosition": "1889–1903.",
   "summary": "Poslednji Obrenović — od dečaka pod regentstvom, preko prevrata kojim preuzima vlast, do izolacije posle braka sa Dragom Mašin i zavere 1903.",
-  "keyPeople": ["Aleksandar Obrenović", "Milan Obrenović", "Natalija Obrenović", "Draga Mašin", "Jovan Ristić", "Vladan Đorđević", "Dragutin Dimitrijević Apis"],
+  "keyPeople": [
+    "Aleksandar Obrenović",
+    "Milan Obrenović",
+    "Natalija Obrenović",
+    "Draga Mašin",
+    "Jovan Ristić",
+    "Vladan Đorđević",
+    "Dragutin Dimitrijević Apis"
+  ],
   "keyPlaces": ["Beograd", "Stari dvor", "Niš", "Beč"],
   "content": [
     {

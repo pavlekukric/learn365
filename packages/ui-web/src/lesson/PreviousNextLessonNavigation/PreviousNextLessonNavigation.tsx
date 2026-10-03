@@ -23,10 +23,7 @@ interface PreviousNextLessonNavigationProps {
   next: AdjacentLessonLink | null;
 }
 
-export function PreviousNextLessonNavigation({
-  prev,
-  next,
-}: PreviousNextLessonNavigationProps) {
+export function PreviousNextLessonNavigation({ prev, next }: PreviousNextLessonNavigationProps) {
   return (
     <nav className={styles.row} aria-label="Prethodna i sledeća lekcija">
       {prev ? (
@@ -38,10 +35,7 @@ export function PreviousNextLessonNavigation({
           <span className={`small ${styles.title}`}>{prev.title}</span>
         </Link>
       ) : (
-        <span
-          className={`${styles.link} ${styles.prev} ${styles.disabled}`}
-          aria-disabled="true"
-        >
+        <span className={`${styles.link} ${styles.prev} ${styles.disabled}`} aria-disabled="true">
           <span className={`tiny mono ${styles.label}`}>Početak kursa</span>
           <span className={`small ${styles.title}`}>Ovo je prva lekcija</span>
         </span>
@@ -58,10 +52,7 @@ export function PreviousNextLessonNavigation({
           <span className={`small ${styles.title}`}>{next.title}</span>
         </Link>
       ) : (
-        <span
-          className={`${styles.link} ${styles.next} ${styles.disabled}`}
-          aria-disabled="true"
-        >
+        <span className={`${styles.link} ${styles.next} ${styles.disabled}`} aria-disabled="true">
           <span className={`tiny mono ${styles.label}`}>Kraj kursa</span>
           <span className={`small ${styles.title}`}>Ovo je poslednja lekcija</span>
         </span>

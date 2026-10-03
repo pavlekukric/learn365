@@ -51,7 +51,12 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   }
   return (
     // `data-progress` is set by the pre-paint script before hydration.
-    <html lang="sr-Latn" data-direction="A" className={fontVariableClassName} suppressHydrationWarning>
+    <html
+      lang="sr-Latn"
+      data-direction="A"
+      className={fontVariableClassName}
+      suppressHydrationWarning
+    >
       <body>
         {/* Before anything paints: mark a returning reader so the prerendered
          * newcomer blocks stay hidden (lib/progress/prePaint.ts). */}

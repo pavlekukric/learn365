@@ -14,7 +14,9 @@ describe('isSameOriginRequest', () => {
   });
 
   it('refuses any other origin, including www and http', () => {
-    expect(isSameOriginRequest(request({ origin: 'https://www.istorija365.com' }), APP)).toBe(false);
+    expect(isSameOriginRequest(request({ origin: 'https://www.istorija365.com' }), APP)).toBe(
+      false,
+    );
     expect(isSameOriginRequest(request({ origin: 'http://istorija365.com' }), APP)).toBe(false);
     expect(isSameOriginRequest(request({ origin: 'null' }), APP)).toBe(false);
   });

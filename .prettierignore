@@ -9,3 +9,7 @@ pnpm-lock.yaml
 design/cloud-design-v1/
 # Generated from content/courses/** by `pnpm gen-content`; CI checks the pair against the JSON (Phase 10).
 **/_generated*.ts
+# Written by `pnpm gen-content` (stable JSON layout the CI drift check compares).
+content/courses/*/lesson-dates.json
+# History only — not reformatted.
+docs/archive/

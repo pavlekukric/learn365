@@ -4,13 +4,13 @@ import { createContext, useContext, useEffect, useRef, type ReactNode } from 're
 import type { StoreApi } from 'zustand';
 import { useStore } from 'zustand';
 
-import {
-  DEFAULT_STORAGE_KEY,
-  createProgressStore,
-  type ProgressStoreState,
-} from '@learn365/core';
+import { DEFAULT_STORAGE_KEY, createProgressStore, type ProgressStoreState } from '@learn365/core';
 
-import { createProgressAdapter, progressDeltaCodec, type ProgressDelta } from '@/lib/sync/progressAdapter';
+import {
+  createProgressAdapter,
+  progressDeltaCodec,
+  type ProgressDelta,
+} from '@/lib/sync/progressAdapter';
 import { createStoreSync, followOtherTabs, type StoreSync } from '@/lib/sync/storeSync';
 
 import { createLocalStorageAdapter } from './localStorageAdapter';
@@ -32,7 +32,10 @@ export function ProgressStoreProvider({ children }: { children: ReactNode }) {
     });
     // Phase 23: the journal subscribes with the store, before any page
     // effect runs, so every signed-in change is queued from the first one.
-    valueRef.current = { store, sync: createStoreSync('progress', createProgressAdapter(store), progressDeltaCodec) };
+    valueRef.current = {
+      store,
+      sync: createStoreSync('progress', createProgressAdapter(store), progressDeltaCodec),
+    };
   }
   const { store, sync } = valueRef.current;
   useEffect(

@@ -17,12 +17,7 @@ export type {
 };
 export type { ColorRole, FontFamily, TypeStyle } from './typography.js';
 
-export {
-  colorVarName,
-  editorialColors,
-  modernColorOverrides,
-  srgbFallback,
-} from './color.js';
+export { colorVarName, editorialColors, modernColorOverrides, srgbFallback } from './color.js';
 export { fontStacks, typeScale } from './typography.js';
 export { layout, layoutVarName, space, spaceVarName } from './spacing.js';
 export { radii, radiiVarName } from './radii.js';

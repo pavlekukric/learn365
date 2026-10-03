@@ -154,7 +154,10 @@ export async function retryMigrations(
       return 'ok';
     } catch (error) {
       if (!isConnectivityError(error)) {
-        console.error('[db] migration failed on retry — accounts stay off until the next deploy', error);
+        console.error(
+          '[db] migration failed on retry — accounts stay off until the next deploy',
+          error,
+        );
         setMigrationState('failed');
         return 'failed';
       }

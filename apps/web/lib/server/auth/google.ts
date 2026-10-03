@@ -144,7 +144,9 @@ export function verifyIdTokenClaims(
     throw new IdTokenError('unexpected issuer');
   }
   const audienceOk =
-    typeof aud === 'string' ? aud === options.clientId : Array.isArray(aud) && aud.includes(options.clientId);
+    typeof aud === 'string'
+      ? aud === options.clientId
+      : Array.isArray(aud) && aud.includes(options.clientId);
   if (!audienceOk) {
     throw new IdTokenError('unexpected audience');
   }
@@ -160,5 +162,10 @@ export function verifyIdTokenClaims(
   if (claims['email_verified'] !== true) {
     throw new IdTokenError('email not verified');
   }
-  return { sub, email, name: optionalString(claims['name']), picture: optionalString(claims['picture']) };
+  return {
+    sub,
+    email,
+    name: optionalString(claims['name']),
+    picture: optionalString(claims['picture']),
+  };
 }

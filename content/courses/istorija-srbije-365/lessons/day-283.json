@@ -11,7 +11,13 @@
   "dateLabel": "1912.",
   "timelinePosition": "23–24. oktobar 1912.",
   "summary": "Kod Kumanova Prva srpska armija prestolonaslednika Aleksandra razbila je osmansku Vardarsku armiju i otvorila put ka Skoplju, Prilepu i Bitolju.",
-  "keyPeople": ["Aleksandar Karađorđević", "Radomir Putnik", "Zeki-paša", "Stepa Stepanović", "Petar Bojović"],
+  "keyPeople": [
+    "Aleksandar Karađorđević",
+    "Radomir Putnik",
+    "Zeki-paša",
+    "Stepa Stepanović",
+    "Petar Bojović"
+  ],
   "keyPlaces": ["Kumanovo", "Skoplje", "Bitolj", "Prilep", "Vardar"],
   "content": [
     {

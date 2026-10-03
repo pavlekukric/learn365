@@ -56,8 +56,7 @@ describe('findResumeLesson', () => {
   const course: readonly Lesson[] = Array.from({ length: 365 }, (_, i) =>
     lesson(`day-${String(i + 1).padStart(3, '0')}`, i + 1),
   );
-  const days = (...nums: number[]) =>
-    new Set(nums.map((n) => `day-${String(n).padStart(3, '0')}`));
+  const days = (...nums: number[]) => new Set(nums.map((n) => `day-${String(n).padStart(3, '0')}`));
   const range = (from: number, to: number) =>
     Array.from({ length: to - from + 1 }, (_, i) => from + i);
 

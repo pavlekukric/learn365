@@ -11,10 +11,6 @@ export {
 
 export { createBookmarkStore, type CreateBookmarkStoreOptions } from './store.js';
 
-export {
-  bookmarkCount,
-  bookmarkedLessonIds,
-  isBookmarked,
-} from './selectors.js';
+export { bookmarkCount, bookmarkedLessonIds, isBookmarked } from './selectors.js';
 
 export { EMPTY_BOOKMARKS_SNAPSHOT, mergeCourseBookmarks, toBookmarksSnapshot } from './merge.js';

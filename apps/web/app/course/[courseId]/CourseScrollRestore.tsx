@@ -80,8 +80,7 @@ export function CourseScrollRestore({ courseId }: CourseScrollRestoreProps) {
 
     function enforce() {
       attempts += 1;
-      const reachable =
-        document.documentElement.scrollHeight - window.innerHeight;
+      const reachable = document.documentElement.scrollHeight - window.innerHeight;
       const target = Math.min(saved, Math.max(reachable, 0));
 
       // Re-assert the target every frame (only touching the DOM when it has

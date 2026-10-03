@@ -83,7 +83,9 @@ test.describe('Istorija 365 — first impression', () => {
     // One person runs the site: the page does not speak as "we", and its
     // lede is its own, not the Home hero line.
     const main = page.getByRole('main');
-    await expect(main.getByText(/Pišemo|proveravamo|Cilj nam je|Izbegavamo|naznačavamo/)).toHaveCount(0);
+    await expect(
+      main.getByText(/Pišemo|proveravamo|Cilj nam je|Izbegavamo|naznačavamo/),
+    ).toHaveCount(0);
     await expect(main.getByText(/jedan jasan put/)).toHaveCount(0);
     await expect(main.getByText(/projekat jedne osobe/)).toBeVisible();
     await expect(main.getByText(/AI model/)).toBeVisible();
@@ -92,7 +94,9 @@ test.describe('Istorija 365 — first impression', () => {
   test('the brand is Istorija 365 on every surface', async ({ page }) => {
     await page.goto('/');
     await expect(page).toHaveTitle(/^Istorija 365 — /);
-    await expect(page.getByRole('banner').getByRole('link', { name: /Istorija 365/ })).toBeVisible();
+    await expect(
+      page.getByRole('banner').getByRole('link', { name: /Istorija 365/ }),
+    ).toBeVisible();
     await expect(page.getByRole('contentinfo').getByText('© 2026 Istorija 365')).toBeVisible();
     await expect(page.locator('meta[property="og:site_name"]')).toHaveAttribute(
       'content',

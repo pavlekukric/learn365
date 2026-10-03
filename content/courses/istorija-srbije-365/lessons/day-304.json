@@ -11,7 +11,13 @@
   "dateLabel": "1. decembar 1918.",
   "timelinePosition": "1. decembar 1918.",
   "summary": "Proglašenje ujedinjenja u Kraljevstvo SHS 1. decembra 1918 — u privatnom stanu, bez parlamenta, ustava i referenduma — odrediće uspehe i tegobe države.",
-  "keyPeople": ["regent Aleksandar Karađorđević", "Nikola Pašić", "Stojan Protić", "Anton Korošec", "Stjepan Radić"],
+  "keyPeople": [
+    "regent Aleksandar Karađorđević",
+    "Nikola Pašić",
+    "Stojan Protić",
+    "Anton Korošec",
+    "Stjepan Radić"
+  ],
   "keyPlaces": ["Beograd", "Zagreb", "Ljubljana"],
   "content": [
     {

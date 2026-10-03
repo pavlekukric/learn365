@@ -29,12 +29,7 @@ function SourceEntry({ source }: { source: Source }) {
   const text = formatSourceText(source);
   if (source.url !== undefined) {
     return (
-      <a
-        href={source.url}
-        target="_blank"
-        rel="noopener noreferrer"
-        className={styles.link}
-      >
+      <a href={source.url} target="_blank" rel="noopener noreferrer" className={styles.link}>
         {text}
       </a>
     );

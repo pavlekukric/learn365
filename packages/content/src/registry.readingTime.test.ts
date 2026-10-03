@@ -22,7 +22,9 @@ describe('registry: reading time (derived, Phase 11)', () => {
     const sorted = getLessons(COURSE)
       .map((l) => l.readingTimeMinutes)
       .sort((a, b) => a - b);
-    expect(getCourse(COURSE)?.estimatedMinutesPerLesson).toBe(sorted[Math.floor(sorted.length / 2)]);
+    expect(getCourse(COURSE)?.estimatedMinutesPerLesson).toBe(
+      sorted[Math.floor(sorted.length / 2)],
+    );
   });
 
   it('returns null for an unknown course', () => {

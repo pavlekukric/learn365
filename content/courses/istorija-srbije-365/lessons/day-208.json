@@ -11,7 +11,13 @@
   "dateLabel": "1804–1812.",
   "timelinePosition": "1804–1812.",
   "summary": "Ustanička Srbija i Rusija od 1804. do 1812: od opreznog praćenja, preko zajedničkog rata, do napuštanja Srbije u Bukureštanskom miru.",
-  "keyPeople": ["Karađorđe", "Konstantin Rodofinikin", "Mihail Kutuzov", "Aleksandar I", "Napoleon"],
+  "keyPeople": [
+    "Karađorđe",
+    "Konstantin Rodofinikin",
+    "Mihail Kutuzov",
+    "Aleksandar I",
+    "Napoleon"
+  ],
   "keyPlaces": ["Sankt Peterburg", "Bukurešt", "Vlaška", "Negotin", "Beograd"],
   "content": [
     {

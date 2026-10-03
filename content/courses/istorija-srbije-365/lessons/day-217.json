@@ -11,7 +11,12 @@
   "dateLabel": "1815.",
   "timelinePosition": "leto 1815.",
   "summary": "Posle pobeda Miloš ne vodi rat do kraja, nego traži delimično rešenje koje će Porta priznati — pouka iz sloma 1813. i iz nove evropske situacije.",
-  "keyPeople": ["Miloš Obrenović", "Marašli Ali-paša", "Napoleon Bonaparta", "Aleksandar I Romanov"],
+  "keyPeople": [
+    "Miloš Obrenović",
+    "Marašli Ali-paša",
+    "Napoleon Bonaparta",
+    "Aleksandar I Romanov"
+  ],
   "keyPlaces": ["Beogradski pašaluk", "Carigrad", "Beč", "Bukurešt"],
   "content": [
     {

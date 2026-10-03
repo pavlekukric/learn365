@@ -11,7 +11,12 @@
   "dateLabel": "novembar–decembar 1914.",
   "timelinePosition": "novembar–decembar 1914.",
   "summary": "Treća austrougarska ofanziva potisnula je srpsku vojsku do Kolubare, ali su smena komandanta i povlačenje radi reorganizacije pripremili pobedonosni protivudar.",
-  "keyPeople": ["vojvoda Živojin Mišić", "vojvoda Radomir Putnik", "kralj Petar I", "Oskar Poćorek"],
+  "keyPeople": [
+    "vojvoda Živojin Mišić",
+    "vojvoda Radomir Putnik",
+    "kralj Petar I",
+    "Oskar Poćorek"
+  ],
   "keyPlaces": ["Kolubara", "Valjevo", "Beograd", "Suvobor"],
   "content": [
     {

@@ -11,7 +11,13 @@
   "dateLabel": "21. maj 2006.",
   "timelinePosition": "21. maj 2006.",
   "summary": "Referendum 21. maja 2006. doneo je oko 55,5 odsto glasova za nezavisnost, tek iznad praga od 55 odsto, i okončao državnu zajednicu Srbije i Crne Gore.",
-  "keyPeople": ["Milo Đukanović", "Predrag Bulatović", "Filip Vujanović", "Javier Solana", "Miroslav Lajčák"],
+  "keyPeople": [
+    "Milo Đukanović",
+    "Predrag Bulatović",
+    "Filip Vujanović",
+    "Javier Solana",
+    "Miroslav Lajčák"
+  ],
   "keyPlaces": ["Podgorica", "Cetinje", "Beograd", "Brisel"],
   "content": [
     {

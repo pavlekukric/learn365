@@ -11,7 +11,14 @@
   "dateLabel": "9–12. vek",
   "timelinePosition": "9–12. vek",
   "summary": "Imena, sukobi i kratke vladavine srpskih vladara od Vlastimira u Raškoj do Bodina u Duklji — duga, isprekidana priča koja prethodi usponu Nemanjića.",
-  "keyPeople": ["Vlastimir", "Časlav Klonimirović", "Jovan Vladimir", "Stefan Vojislav", "Mihailo", "Bodin"],
+  "keyPeople": [
+    "Vlastimir",
+    "Časlav Klonimirović",
+    "Jovan Vladimir",
+    "Stefan Vojislav",
+    "Mihailo",
+    "Bodin"
+  ],
   "keyPlaces": ["Raška", "Duklja"],
   "content": [
     {

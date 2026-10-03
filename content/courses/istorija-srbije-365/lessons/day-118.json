@@ -11,7 +11,13 @@
   "dateLabel": "od 14. veka do danas",
   "timelinePosition": "od 14. veka do danas",
   "summary": "Kosovski mit kao vekovima građena celina crkvenih spisa, pesama i političkih značenja — njegovi slojevi i razlika između kulturne i istorijske istine.",
-  "keyPeople": ["knez Lazar", "Miloš Obilić", "Vuk Branković", "Vuk Stefanović Karadžić", "Petar II Petrović Njegoš"],
+  "keyPeople": [
+    "knez Lazar",
+    "Miloš Obilić",
+    "Vuk Branković",
+    "Vuk Stefanović Karadžić",
+    "Petar II Petrović Njegoš"
+  ],
   "keyPlaces": ["Kosovo polje"],
   "content": [
     {

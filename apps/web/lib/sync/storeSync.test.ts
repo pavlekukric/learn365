@@ -36,7 +36,11 @@ function memoryStorage(): QueueStorage & Storage {
   };
 }
 
-const delta = (complete: string[], uncomplete: string[] = [], lastOpened?: string | null): ProgressDelta =>
+const delta = (
+  complete: string[],
+  uncomplete: string[] = [],
+  lastOpened?: string | null,
+): ProgressDelta =>
   lastOpened === undefined
     ? { complete: new Set(complete), uncomplete: new Set(uncomplete) }
     : { complete: new Set(complete), uncomplete: new Set(uncomplete), lastOpened };
@@ -48,17 +52,29 @@ describe('delta subtraction (ack)', () => {
     );
     // Sent "complete a", then the reader un-read it: the un-read stays.
     expect(subtractProgressDelta(delta([], ['a']), delta(['a']))).toEqual(delta([], ['a']));
-    expect(progressDeltaCodec.isEmpty(subtractProgressDelta(delta(['a'], [], null), delta(['a'], [], null)))).toBe(true);
     expect(
-      subtractBookmarksDelta({ add: new Set(['x', 'y']), remove: new Set() }, { add: new Set(['x']), remove: new Set() }),
+      progressDeltaCodec.isEmpty(
+        subtractProgressDelta(delta(['a'], [], null), delta(['a'], [], null)),
+      ),
+    ).toBe(true);
+    expect(
+      subtractBookmarksDelta(
+        { add: new Set(['x', 'y']), remove: new Set() },
+        { add: new Set(['x']), remove: new Set() },
+      ),
     ).toEqual({ add: new Set(['y']), remove: new Set() });
   });
 
   it('round-trips through JSON and rejects junk', () => {
     const value = delta(['a'], ['b'], null);
-    expect(progressDeltaCodec.fromJSON(JSON.parse(JSON.stringify(progressDeltaCodec.toJSON(value))))).toEqual(value);
+    expect(
+      progressDeltaCodec.fromJSON(JSON.parse(JSON.stringify(progressDeltaCodec.toJSON(value)))),
+    ).toEqual(value);
     expect(progressDeltaCodec.fromJSON({ complete: [1] })).toBeNull();
-    expect(bookmarksDeltaCodec.fromJSON({ add: ['x'], remove: [] })).toEqual({ add: new Set(['x']), remove: new Set() });
+    expect(bookmarksDeltaCodec.fromJSON({ add: ['x'], remove: [] })).toEqual({
+      add: new Set(['x']),
+      remove: new Set(),
+    });
   });
 });
 
@@ -115,7 +131,11 @@ describe('journal + other tabs', () => {
 
   function tab(storage: Storage, marker = memoryMarker('u1')) {
     const store = createProgressStore({ storage });
-    const sync = createStoreSync('progress', createProgressAdapter(store, marker), progressDeltaCodec);
+    const sync = createStoreSync(
+      'progress',
+      createProgressAdapter(store, marker),
+      progressDeltaCodec,
+    );
     return { store, sync };
   }
 
@@ -139,12 +159,18 @@ describe('journal + other tabs', () => {
 
     const a = tab(storage);
     const b = tab(storage);
-    const stop = followOtherTabs(b.store, DEFAULT_STORAGE_KEY, b.sync.journal, () => ({ byCourse: {} }));
+    const stop = followOtherTabs(b.store, DEFAULT_STORAGE_KEY, b.sync.journal, () => ({
+      byCourse: {},
+    }));
 
     a.store.getState().toggleComplete(COURSE, 'day-001');
     const fire = (newValue: string | null) => {
       target.dispatchEvent(
-        Object.assign(new Event('storage'), { key: DEFAULT_STORAGE_KEY, newValue, storageArea: storage }),
+        Object.assign(new Event('storage'), {
+          key: DEFAULT_STORAGE_KEY,
+          newValue,
+          storageArea: storage,
+        }),
       );
     };
     fire(storage.getItem(DEFAULT_STORAGE_KEY));
@@ -155,7 +181,10 @@ describe('journal + other tabs', () => {
     const stored = JSON.parse(storage.getItem(DEFAULT_STORAGE_KEY) ?? '{}') as {
       state: { byCourse: Record<string, { completedLessonIds: string[] }> };
     };
-    expect(stored.state.byCourse[COURSE]?.completedLessonIds.sort()).toEqual(['day-001', 'day-002']);
+    expect(stored.state.byCourse[COURSE]?.completedLessonIds.sort()).toEqual([
+      'day-001',
+      'day-002',
+    ]);
 
     // Only the readers' own changes are queued (a: day-001, b: day-002), once each.
     const queue = createPendingQueue('progress', progressDeltaCodec, () => storage);

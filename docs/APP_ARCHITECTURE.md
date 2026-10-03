@@ -46,6 +46,7 @@ learn365/
 ## 3. Package responsibilities
 
 ### `packages/content`
+
 **Owns**: the structured course data — `Course`, `Era`, `Section`, `Lesson` records.
 **Exports**: two entries (Phase 9). `@learn365/content` — course / era / section records, the `LessonSummary` navigation index (`id`, `courseId`, `sectionId`, `eraId`, `dayNumber`, `order`, `title`, `readingTimeMinutes`, `year`, `isPlaceholder`; ~9 kB gzip for 365 lessons) and every lookup helper (`getCourse`, `getLessonById`, `getLessonsBySection`, `getEraForLesson`, etc.); safe to import from client components. `@learn365/content/server` — `getLessonArticle` (the `LessonArticle`: `content`, `sources`, `byline`, `lastReviewedAt`, `summary`, `keyPeople`, `keyPlaces`, `subtitle`, `dateLabel`, `timelinePosition`); it carries `import 'server-only'`, so a client import fails the build. The split is one constant, `LESSON_ARTICLE_KEYS` in `src/types.ts`; `pnpm gen-content` writes `_generated.ts` and `_generated.articles.ts` from one load.
 **Never imports**: anything from `ui`, `ui-web`, `ui-mobile`, `core`, or any app. It is a leaf package (its only runtime dependency is the `server-only` marker).
@@ -53,23 +54,28 @@ learn365/
 **Side rule**: lesson body text is structured (`LessonBlock[]`), never a React component. The MDX migration path uses the same exit shape.
 
 ### `packages/ui`
+
 **Owns**: design tokens (color, typography, spacing, radii, motion, elevation) and theme bundles (Editorial; Modern is included as a reference but not exposed at runtime in v1).
 **Exports**: TS constants + CSS variable generator + RN-compatible token bundle.
 **Never imports**: from `core`, `content`, `ui-web`, `ui-mobile`, or apps.
 
 ### `packages/ui-web`
+
 **Owns**: every React component used by the web app (primitives and surfaces).
 **Imports**: tokens from `ui`. Type-only imports from `content` for prop shapes. From `core`, only the pure day formatters (`formatDayEyebrow`, `formatDayRange`, `formatDayProse`, `padDay` in `core/src/format`), so every surface spells a day the same way. **Never** a store, selector or hook from `core`: components read no user data — the app composes state in.
 **Styling**: CSS Modules per component, plus a single `globals.css` published as a side-effect import for consumers.
 
 ### `packages/core`
+
 **Owns**: `ProgressStore` and `BookmarkStore` (Zustand) with their selectors and merge functions, the storage adapter interface, navigation (`findPrevLesson`, `findNextLesson`, `findResumeLesson`), the day formatters (`format/`) and small sync helpers (`sync/`: timestamp compare, set diff).
 **Imports**: type-only from `content`.
 **Never imports**: from `ui`, `ui-web`, `ui-mobile`, or apps.
 **Constraint**: no React imports anywhere — pure TS so it can be unit-tested without a renderer.
 
 ### `apps/web`
+
 **Owns**: route files, page-level composition and the client islands, plus `lib/`:
+
 - `routes.ts` — every course and lesson URL (`courseHref`, `lessonHref`, `isLessonPath`, the overview's era / section anchor ids); no component spells a path by hand.
 - `progress/`, `bookmarks/` — the `localStorage` adapters and store providers, the pre-paint progress read, `useResumeLesson`, `useEraTimeline`.
 - `auth/` — `AuthProvider` (`/api/me`), the sign-in ask rule, implicit sign-out.
@@ -78,10 +84,12 @@ learn365/
 
 **Imports**: from `ui-web`, `core`, `content`, `ui`.
 
-### `apps/mobile` *(future)*
+### `apps/mobile` _(future)_
+
 Same role for Expo. Imports `ui-mobile`, `core`, `content`, `ui`.
 
-### `apps/web/lib/server` + `apps/web/app/api` *(Phase 8 — backend inside the web app)*
+### `apps/web/lib/server` + `apps/web/app/api` _(Phase 8 — backend inside the web app)_
+
 **Owns**: Google sign-in, sessions, and cloud progress / bookmarks per `(userId, courseId)`, exposed as route handlers (`/api/auth/*`, `/api/me`, `/api/me/progress*`, `/api/me/bookmarks*`, `/api/health`). Postgres via Drizzle; PGlite locally.
 **Imports**: `@learn365/content` (lesson-id validation), the pure merge helpers of `@learn365/core` (`mergeCourseProgress`, `mergeCourseBookmarks`, `EPOCH_ISO`) and the wire shapes in `lib/sync/wire.ts`. Never a store. Every module carries `import 'server-only'` so it can never reach a client bundle.
 **Does not own**: course / era / section / lesson data — those stay in `@learn365/content`. See `docs/BACKEND_STRATEGY.md`.
@@ -148,11 +156,14 @@ storage adapter            UI components (ui-web / ui-mobile)
 ```ts
 // packages/core/src/progress/types.ts
 interface ProgressState {
-  byCourse: Record<CourseId, {
-    completedLessonIds: ReadonlySet<LessonId>;
-    lastOpenedLessonId: LessonId | null;
-    updatedAt: string;
-  }>;
+  byCourse: Record<
+    CourseId,
+    {
+      completedLessonIds: ReadonlySet<LessonId>;
+      lastOpenedLessonId: LessonId | null;
+      updatedAt: string;
+    }
+  >;
   toggleComplete(courseId: CourseId, lessonId: LessonId): void;
   markOpened(courseId: CourseId, lessonId: LessonId): void;
   resetCourse(courseId: CourseId): void;
@@ -207,16 +218,17 @@ interface Course {
   title: string;
   subtitle: string;
   description: string;
-  totalLessons: number;             // 365 for the first course
+  totalLessons: number; // 365 for the first course
   language: 'sr';
   defaultScript: 'latin' | 'cyrillic';
   estimatedMinutesPerLesson: number; // derived: median of the lessons' reading minutes (Phase 11)
 }
 
-interface Era {                     // a.k.a. HistoricalPeriod
+interface Era {
+  // a.k.a. HistoricalPeriod
   id: EraId;
   courseId: CourseId;
-  num: string;                      // "I" … "VIII"
+  num: string; // "I" … "VIII"
   title: string;
   description: string;
   yearStart: number;
@@ -226,7 +238,8 @@ interface Era {                     // a.k.a. HistoricalPeriod
   order: number;
 }
 
-interface Section {                 // a.k.a. Chapter
+interface Section {
+  // a.k.a. Chapter
   id: SectionId;
   courseId: CourseId;
   eraId: EraId;
@@ -239,31 +252,31 @@ interface Section {                 // a.k.a. Chapter
 
 type LessonBlock =
   | { type: 'paragraph'; text: string; dropcap?: boolean }
-  | { type: 'heading';   level: 2 | 3; text: string }
-  | { type: 'quote';     text: string; attribution?: string }
-  | { type: 'image';     src: string; alt: string; width: number; height: number; caption?: string };
+  | { type: 'heading'; level: 2 | 3; text: string }
+  | { type: 'quote'; text: string; attribution?: string }
+  | { type: 'image'; src: string; alt: string; width: number; height: number; caption?: string };
 
 interface Lesson {
   id: LessonId;
   courseId: CourseId;
   sectionId: SectionId;
   eraId: EraId;
-  dayNumber: number;                // 1..365 unique within course
+  dayNumber: number; // 1..365 unique within course
   title: string;
   subtitle?: string;
-  readingTimeMinutes: number;       // derived from the text by the loader (Phase 11), never authored
+  readingTimeMinutes: number; // derived from the text by the loader (Phase 11), never authored
   year: number;
   dateLabel?: string;
   timelinePosition?: string;
-  content: LessonBlock[];           // structured body — never a React node
+  content: LessonBlock[]; // structured body — never a React node
   summary?: string;
   keyPeople?: string[];
   keyPlaces?: string[];
   order: number;
   isPlaceholder?: boolean;
-  sources?: Source[];               // the closing "Izvori" block
+  sources?: Source[]; // the closing "Izvori" block
   byline?: { author?: string; reviewer?: string };
-  lastReviewedAt?: string;          // ISO date, shown in the trust line
+  lastReviewedAt?: string; // ISO date, shown in the trust line
 }
 ```
 
@@ -305,10 +318,10 @@ Every course and lesson URL is built by `apps/web/lib/routes.ts`.
 - Home is a server component.
 - Course overview and every lesson page are prerendered at build time (Phase 9: `generateStaticParams` + `dynamicParams = false`, 366 pages) — they are pure functions of the content registry; unknown ids are a router 404.
 - Course overview is mostly server, with client islands for the progress card, the bookmarks list and the era accordion (all reading the `LessonSummary` index).
-- The lesson route is two layers (Phase 15). **The shell** — `lesson/layout.tsx` → `LessonShell` (client) — owns what belongs to the course: the sticky `CourseSidebar`, the `MobileLessonDrawer` (era rail + outline), the `LessonContextHeader`, the reading hairline, the open-era / open-section sets and `markOpened`. It reads the open lesson from `useParams()` and the `LessonSummary` index, and because a layout survives navigation between its pages, previous / next keeps the outline's scroll position and expansions. **The page** renders `LessonReader` on the server — trail, header and the *article* (`LessonBody` + `LessonSources` + `LessonTrustLine`, from `@learn365/content/server`) — and hands in two client islands as nodes: `LessonBookmarkToggle` and `LessonCompletion` (the footer: completion, prev / next, the sign-in ask, and a polite live region that announces the reader's own toggle). The reading hairline (`ReadingProgress`) belongs to the shell. The post-footer era strip was dropped in Phase 17; the compact era rail lives in the drawer. No client component ever sees a lesson body.
+- The lesson route is two layers (Phase 15). **The shell** — `lesson/layout.tsx` → `LessonShell` (client) — owns what belongs to the course: the sticky `CourseSidebar`, the `MobileLessonDrawer` (era rail + outline), the `LessonContextHeader`, the reading hairline, the open-era / open-section sets and `markOpened`. It reads the open lesson from `useParams()` and the `LessonSummary` index, and because a layout survives navigation between its pages, previous / next keeps the outline's scroll position and expansions. **The page** renders `LessonReader` on the server — trail, header and the _article_ (`LessonBody` + `LessonSources` + `LessonTrustLine`, from `@learn365/content/server`) — and hands in two client islands as nodes: `LessonBookmarkToggle` and `LessonCompletion` (the footer: completion, prev / next, the sign-in ask, and a polite live region that announces the reader's own toggle). The reading hairline (`ReadingProgress`) belongs to the shell. The post-footer era strip was dropped in Phase 17; the compact era rail lives in the drawer. No client component ever sees a lesson body.
 - All progress reads happen client-side. SSR renders unauthenticated, baseline state.
 
-### Mobile *(future, Expo Router)*
+### Mobile _(future, Expo Router)_
 
 ```
 app/
@@ -346,17 +359,17 @@ Mobile (later): bundled via `expo-font`.
 
 Two layers: Vitest unit tests (node environment, `pnpm test`) in every package and in `apps/web`, and Playwright end-to-end tests in `apps/web/e2e`. There are no component render tests and no Testing Library; what a component renders is covered end to end.
 
-| Surface | Tool | Scope |
-|---|---|---|
-| `packages/core` | Vitest | Stores, selectors, merge, navigation, day formatters |
-| `packages/content` | Vitest | Registry lookups, loader, reading time, `wordingChecks`, `lessonDates` |
-| `packages/ui` | Vitest | Token shape |
-| `packages/ui-web` | Vitest | The pure helpers beside the components: `timelineMath`, `lessonTimelineScale`, `revealScroll`, `completionMoment`, `progressMath`, `initialsFor` |
-| `apps/web` | Vitest (PGlite in memory) | `lib/server` (auth, sessions, CSRF, repositories, migrations), `app/api/health`, `lib/sync` (engine, store sync, adapters), `lib/routes`, `lib/seo`, `lib/copy`, `lib/auth`, fonts |
-| `apps/web` e2e | Playwright `chromium-desktop`, `chromium-mobile` | Smoke, first visit, reader, course, resume, returning reader, SEO, privacy, accounts off — against `next start` on :3100 |
-| `apps/web` a11y | Playwright + axe, `a11y-desktop`, `a11y-mobile` | No serious or critical axe violations on the main routes |
-| `apps/web` accounts | Playwright `accounts-chromium` | Accounts on: a second server on :3101 with a seeded PGlite database; the specs start from a session cookie |
-| nightly | Playwright (`e2e-nightly.yml`) | `firefox-desktop`, `webkit-desktop`, `webkit-mobile` |
+| Surface             | Tool                                             | Scope                                                                                                                                                                              |
+| ------------------- | ------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `packages/core`     | Vitest                                           | Stores, selectors, merge, navigation, day formatters                                                                                                                               |
+| `packages/content`  | Vitest                                           | Registry lookups, loader, reading time, `wordingChecks`, `lessonDates`                                                                                                             |
+| `packages/ui`       | Vitest                                           | Token shape                                                                                                                                                                        |
+| `packages/ui-web`   | Vitest                                           | The pure helpers beside the components: `timelineMath`, `lessonTimelineScale`, `revealScroll`, `completionMoment`, `progressMath`, `initialsFor`                                   |
+| `apps/web`          | Vitest (PGlite in memory)                        | `lib/server` (auth, sessions, CSRF, repositories, migrations), `app/api/health`, `lib/sync` (engine, store sync, adapters), `lib/routes`, `lib/seo`, `lib/copy`, `lib/auth`, fonts |
+| `apps/web` e2e      | Playwright `chromium-desktop`, `chromium-mobile` | Smoke, first visit, reader, course, resume, returning reader, SEO, privacy, accounts off — against `next start` on :3100                                                           |
+| `apps/web` a11y     | Playwright + axe, `a11y-desktop`, `a11y-mobile`  | No serious or critical axe violations on the main routes                                                                                                                           |
+| `apps/web` accounts | Playwright `accounts-chromium`                   | Accounts on: a second server on :3101 with a seeded PGlite database; the specs start from a session cookie                                                                         |
+| nightly             | Playwright (`e2e-nightly.yml`)                   | `firefox-desktop`, `webkit-desktop`, `webkit-mobile`                                                                                                                               |
 
 Coverage targets are not enforced by number; review insists on tests for `core` and for any logic with non-trivial branches (sidebar reveal, timeline maths, completion moment, sync).
 

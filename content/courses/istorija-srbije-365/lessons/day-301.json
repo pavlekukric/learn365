@@ -11,7 +11,12 @@
   "dateLabel": "oktobar–novembar 1918.",
   "timelinePosition": "oktobar–novembar 1918.",
   "summary": "Posle proboja Solunskog fronta srpska vojska za nekoliko nedelja oslobađa zemlju i 1. novembra ulazi u Beograd, dok se Austro-Ugarska raspada.",
-  "keyPeople": ["kralj Petar I", "regent Aleksandar", "vojvoda Živojin Mišić", "vojvoda Petar Bojović"],
+  "keyPeople": [
+    "kralj Petar I",
+    "regent Aleksandar",
+    "vojvoda Živojin Mišić",
+    "vojvoda Petar Bojović"
+  ],
   "keyPlaces": ["Beograd", "Niš", "Skoplje", "Novi Sad"],
   "content": [
     {

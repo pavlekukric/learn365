@@ -99,10 +99,7 @@ test.describe('Screenshot pack', () => {
   });
 
   test('lesson — day 046 (different era, Nemanjići)', async ({ page }, testInfo) => {
-    await gotoAndSettle(
-      page,
-      `/course/${COURSE_ID}/lesson/${LESSON.nemanjici1}`,
-    );
+    await gotoAndSettle(page, `/course/${COURSE_ID}/lesson/${LESSON.nemanjici1}`);
     await snap(page, testInfo, 'lesson-046-nemanjici');
   });
 
@@ -114,9 +111,7 @@ test.describe('Screenshot pack', () => {
     });
     await gotoAndSettle(page, `/course/${COURSE_ID}/lesson/${LESSON.day7}`);
     // Sanity: the button should reflect the completed state from seed.
-    await expect(
-      page.getByRole('button', { name: /^Pročitano$/ }).first(),
-    ).toBeVisible();
+    await expect(page.getByRole('button', { name: /^Pročitano$/ }).first()).toBeVisible();
     await snap(page, testInfo, 'lesson-007-completed');
   });
 
@@ -124,9 +119,7 @@ test.describe('Screenshot pack', () => {
   // and the primary next-lesson card are legible without zooming into the
   // full-page shot. Scrolls the next-lesson card into view and snaps a
   // viewport-sized frame anchored at the bottom of the article.
-  test('lesson — completion moment (footer close-up)', async ({
-    page,
-  }, testInfo) => {
+  test('lesson — completion moment (footer close-up)', async ({ page }, testInfo) => {
     await seedProgress(page, {
       courseId: COURSE_ID,
       completedLessonIds: [LESSON.day7],
@@ -158,18 +151,14 @@ test.describe('Screenshot pack', () => {
   // open. The app has no separate mobile-menu / paywall / settings / modal
   // surface beyond this drawer — see screenshots/README.md.
   // ────────────────────────────────────────────────────────────────────────
-  test('lesson — Sadržaj drawer open (mobile only)', async ({
-    page,
-  }, testInfo) => {
+  test('lesson — Sadržaj drawer open (mobile only)', async ({ page }, testInfo) => {
     test.skip(
       testInfo.project.name !== 'mobile',
       'Sadržaj drawer only exists on single-column layouts (≤1024px).',
     );
     await gotoAndSettle(page, `/course/${COURSE_ID}/lesson/${LESSON.day1}`);
     await page.getByRole('button', { name: /Otvori sadržaj/ }).click();
-    await expect(
-      page.getByRole('dialog', { name: 'Sadržaj kursa' }),
-    ).toBeVisible();
+    await expect(page.getByRole('dialog', { name: 'Sadržaj kursa' })).toBeVisible();
     // Drawer pins to viewport — a viewport-sized shot reads better than
     // a full-page shot (which would extend past the dialog's scroll area).
     await snap(page, testInfo, 'lesson-001-sadrzaj-drawer', {

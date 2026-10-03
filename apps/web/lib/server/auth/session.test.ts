@@ -55,7 +55,11 @@ describe('sessions', () => {
   });
 
   it('drops an expired session on contact', async () => {
-    const { token } = await createSession(connection.db, userId, new Date(NOW.getTime() - 40 * DAY_MS));
+    const { token } = await createSession(
+      connection.db,
+      userId,
+      new Date(NOW.getTime() - 40 * DAY_MS),
+    );
     expect(await validateSessionToken(connection.db, token, NOW)).toBeNull();
     const rows = await connection.db.select().from(sessions);
     expect(rows.some((row) => row.id === hashSessionToken(token))).toBe(false);
@@ -90,7 +94,13 @@ describe('sessions', () => {
 
   it('builds cookie attributes that follow the origin scheme', () => {
     const live = sessionCookieAttributes(NOW, true);
-    expect(live).toEqual({ httpOnly: true, sameSite: 'lax', secure: true, path: '/', expires: NOW });
+    expect(live).toEqual({
+      httpOnly: true,
+      sameSite: 'lax',
+      secure: true,
+      path: '/',
+      expires: NOW,
+    });
     const gone = expiredSessionCookieAttributes(false);
     expect(gone.maxAge).toBe(0);
     expect(gone.secure).toBe(false);

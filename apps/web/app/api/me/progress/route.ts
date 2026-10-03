@@ -4,7 +4,10 @@ import { guardApi } from '@/lib/server/auth/guard';
 import {
   apiBadRequest,
   apiUnavailable,
-  jsonNoStore, noContent, readJsonRecord } from '@/lib/server/http';
+  jsonNoStore,
+  noContent,
+  readJsonRecord,
+} from '@/lib/server/http';
 import { applyProgressDelta, getCourseProgress } from '@/lib/server/progress/repository';
 import { parseCourseId, parseLastOpened, parseLessonIds } from '@/lib/server/validation';
 import type { ProgressWire } from '@/lib/sync/wire';

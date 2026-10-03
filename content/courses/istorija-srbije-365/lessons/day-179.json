@@ -12,7 +12,16 @@
   "timelinePosition": "18. vek",
   "summary": "Sredinom 18. veka u Monarhiji izrasta srpsko građanstvo — trgovci, bankari i mecene od Sentandreje i Novog Sada do Beča, Pešte i Trsta.",
   "keyPeople": ["Sava Tekelija", "Dositej Obradović", "Jovan Rajić"],
-  "keyPlaces": ["Sentandreja", "Novi Sad", "Sremski Karlovci", "Beč", "Pešta", "Trst", "Zemun", "Pančevo"],
+  "keyPlaces": [
+    "Sentandreja",
+    "Novi Sad",
+    "Sremski Karlovci",
+    "Beč",
+    "Pešta",
+    "Trst",
+    "Zemun",
+    "Pančevo"
+  ],
   "content": [
     {
       "type": "paragraph",

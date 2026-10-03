@@ -11,7 +11,13 @@
   "dateLabel": "od 2006.",
   "timelinePosition": "od 2006.",
   "summary": "Posle 2006. Srbija postaje pravni naslednik državne zajednice, donosi novi Ustav i ulazi u dugu fazu unutrašnjih preraspodela i vojne neutralnosti.",
-  "keyPeople": ["Boris Tadić", "Tomislav Nikolić", "Aleksandar Vučić", "Vojislav Koštunica", "Ivica Dačić"],
+  "keyPeople": [
+    "Boris Tadić",
+    "Tomislav Nikolić",
+    "Aleksandar Vučić",
+    "Vojislav Koštunica",
+    "Ivica Dačić"
+  ],
   "keyPlaces": ["Beograd", "Brisel", "Moskva", "Peking", "Priština"],
   "content": [
     {

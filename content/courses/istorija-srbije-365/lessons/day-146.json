@@ -12,7 +12,17 @@
   "timelinePosition": "15. vek",
   "summary": "Posle 1459. manastiri ostaju trajna ustanova koja čuva jezik, knjigu, kalendar svetih i sećanje na državu — od Studenice do Hilandara i Fruške gore.",
   "keyPeople": [],
-  "keyPlaces": ["Studenica", "Dečani", "Mileševa", "Sopoćani", "Gračanica", "Pećka patrijaršija", "Hilandar", "Fruška gora", "Krušedol"],
+  "keyPlaces": [
+    "Studenica",
+    "Dečani",
+    "Mileševa",
+    "Sopoćani",
+    "Gračanica",
+    "Pećka patrijaršija",
+    "Hilandar",
+    "Fruška gora",
+    "Krušedol"
+  ],
   "content": [
     {
       "type": "paragraph",

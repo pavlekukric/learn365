@@ -44,7 +44,10 @@ describe('progress adapter', () => {
 
     expect(deltas).toEqual([
       { courseId: COURSE, delta: { complete: new Set(['day-001']), uncomplete: new Set() } },
-      { courseId: COURSE, delta: { complete: new Set(), uncomplete: new Set(), lastOpened: 'day-002' } },
+      {
+        courseId: COURSE,
+        delta: { complete: new Set(), uncomplete: new Set(), lastOpened: 'day-002' },
+      },
       { courseId: COURSE, delta: { complete: new Set(), uncomplete: new Set(['day-001']) } },
     ]);
   });
@@ -56,7 +59,10 @@ describe('progress adapter', () => {
     deltas.length = 0;
     store.getState().resetCourse(COURSE);
     expect(deltas).toEqual([
-      { courseId: COURSE, delta: { complete: new Set(), uncomplete: new Set(['day-001']), lastOpened: null } },
+      {
+        courseId: COURSE,
+        delta: { complete: new Set(), uncomplete: new Set(['day-001']), lastOpened: null },
+      },
     ]);
   });
 
@@ -71,7 +77,12 @@ describe('progress adapter', () => {
 
     adapter.applyRemote(
       COURSE,
-      { courseId: COURSE, completedLessonIds: ['day-001', 'day-002'], lastOpenedLessonId: 'day-003', updatedAt: T },
+      {
+        courseId: COURSE,
+        completedLessonIds: ['day-001', 'day-002'],
+        lastOpenedLessonId: 'day-003',
+        updatedAt: T,
+      },
       { complete: new Set(['day-009']), uncomplete: new Set(['day-002']), lastOpened: 'day-009' },
     );
     const course = store.getState().byCourse[COURSE];
@@ -84,7 +95,11 @@ describe('progress adapter', () => {
   it('serialises a delta to the PATCH shape', () => {
     const { adapter } = setup();
     expect(
-      adapter.serializeDelta(COURSE, { complete: new Set(['a']), uncomplete: new Set(['b']), lastOpened: null }),
+      adapter.serializeDelta(COURSE, {
+        complete: new Set(['a']),
+        uncomplete: new Set(['b']),
+        lastOpened: null,
+      }),
     ).toEqual({ courseId: COURSE, complete: ['a'], uncomplete: ['b'], lastOpenedLessonId: null });
     expect(adapter.serializeDelta(COURSE, { complete: new Set(), uncomplete: new Set() })).toEqual({
       courseId: COURSE,
@@ -100,8 +115,17 @@ describe('mergeProgressDelta / withPendingProgress / parseProgressWire', () => {
       { complete: new Set(['a', 'b']), uncomplete: new Set(['c']), lastOpened: 'x' },
       { complete: new Set(['c']), uncomplete: new Set(['a']) },
     );
-    expect(merged).toEqual({ complete: new Set(['b', 'c']), uncomplete: new Set(['a']), lastOpened: 'x' });
-    expect(mergeProgressDelta({ complete: new Set(), uncomplete: new Set() }, { complete: new Set(), uncomplete: new Set(), lastOpened: null })).toEqual({
+    expect(merged).toEqual({
+      complete: new Set(['b', 'c']),
+      uncomplete: new Set(['a']),
+      lastOpened: 'x',
+    });
+    expect(
+      mergeProgressDelta(
+        { complete: new Set(), uncomplete: new Set() },
+        { complete: new Set(), uncomplete: new Set(), lastOpened: null },
+      ),
+    ).toEqual({
       complete: new Set(),
       uncomplete: new Set(),
       lastOpened: null,
@@ -111,18 +135,26 @@ describe('mergeProgressDelta / withPendingProgress / parseProgressWire', () => {
   it('re-applies pending on a snapshot and validates wire payloads', () => {
     const snapshot = { completedLessonIds: ['a'], lastOpenedLessonId: 'a', updatedAt: T };
     expect(withPendingProgress(snapshot, undefined)).toBe(snapshot);
-    expect(withPendingProgress(snapshot, { complete: new Set(['b']), uncomplete: new Set(['a']) })).toEqual({
+    expect(
+      withPendingProgress(snapshot, { complete: new Set(['b']), uncomplete: new Set(['a']) }),
+    ).toEqual({
       completedLessonIds: ['b'],
       lastOpenedLessonId: 'a',
       updatedAt: T,
     });
-    expect(parseProgressWire({ completedLessonIds: ['a'], lastOpenedLessonId: null, updatedAt: T })).toEqual({
+    expect(
+      parseProgressWire({ completedLessonIds: ['a'], lastOpenedLessonId: null, updatedAt: T }),
+    ).toEqual({
       completedLessonIds: ['a'],
       lastOpenedLessonId: null,
       updatedAt: T,
     });
-    expect(parseProgressWire({ completedLessonIds: [1], lastOpenedLessonId: null, updatedAt: T })).toBeNull();
-    expect(parseProgressWire({ completedLessonIds: [], lastOpenedLessonId: 5, updatedAt: T })).toBeNull();
+    expect(
+      parseProgressWire({ completedLessonIds: [1], lastOpenedLessonId: null, updatedAt: T }),
+    ).toBeNull();
+    expect(
+      parseProgressWire({ completedLessonIds: [], lastOpenedLessonId: 5, updatedAt: T }),
+    ).toBeNull();
     expect(parseProgressWire(null)).toBeNull();
   });
 });

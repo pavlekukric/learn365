@@ -62,9 +62,7 @@ export function LessonNavItem({
        * faded row styling carries the "not yet available" meaning, and an
        * aria-label keeps the state accessible without a visible chip. */}
       {isPlaceholder ? null : (
-        <span className={`tiny mono ${styles.meta}`}>
-          {lesson.readingTimeMinutes} min
-        </span>
+        <span className={`tiny mono ${styles.meta}`}>{lesson.readingTimeMinutes} min</span>
       )}
     </Link>
   );

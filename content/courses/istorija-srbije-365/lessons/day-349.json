@@ -11,8 +11,24 @@
   "dateLabel": "24. mart – 10. jun 1999.",
   "timelinePosition": "24. mart – 10. jun 1999.",
   "summary": "Operacija NATO-a 1999: 78 dana bombardovanja, civilne žrtve, masovno proterivanje Albanaca sa Kosova i međunarodna uprava po Rezoluciji 1244.",
-  "keyPeople": ["Slobodan Milošević", "Javier Solana", "Wesley Clark", "Viktor Černomirdin", "Martti Ahtisaari", "Bill Clinton"],
-  "keyPlaces": ["Beograd", "Kosovo", "Aleksinac", "Surdulica", "Grdelica", "Niš", "Đakovica", "Varvarin"],
+  "keyPeople": [
+    "Slobodan Milošević",
+    "Javier Solana",
+    "Wesley Clark",
+    "Viktor Černomirdin",
+    "Martti Ahtisaari",
+    "Bill Clinton"
+  ],
+  "keyPlaces": [
+    "Beograd",
+    "Kosovo",
+    "Aleksinac",
+    "Surdulica",
+    "Grdelica",
+    "Niš",
+    "Đakovica",
+    "Varvarin"
+  ],
   "content": [
     {
       "type": "paragraph",

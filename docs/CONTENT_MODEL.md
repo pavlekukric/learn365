@@ -4,7 +4,7 @@
 
 ## Overview
 
-One course, `istorija-srbije-365` (*Istorija Srbije 365*), with 365 lessons — one per day — grouped in two ways:
+One course, `istorija-srbije-365` (_Istorija Srbije 365_), with 365 lessons — one per day — grouped in two ways:
 
 - **8 eras** (`Era`) drive the historical timeline on Home and the lesson page and the era cards on the course overview.
 - **37 sections** (`Section`) drive the sidebar / drawer accordion inside each era.
@@ -25,13 +25,13 @@ The hierarchy is `Course → Era → Section → Lesson`. The editable source is
 }
 ```
 
-| Field | Notes |
-| --- | --- |
-| `id`, `title`, `subtitle`, `description` | `description` is the factual lede shared by Home metadata and the course overview. |
-| `totalLessons` | Must equal the number of lesson files (365). |
-| `language`, `defaultScript` | `'sr'`, `'latin'`. Cyrillic is a future option, not implemented. |
-| `estimatedMinutesPerLesson` | **Derived by the loader** (Phase 11): the median of the lessons' reading minutes. Never written in JSON — the loader rejects it. |
-| `coverImage` | Optional, unused today. |
+| Field                                    | Notes                                                                                                                            |
+| ---------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| `id`, `title`, `subtitle`, `description` | `description` is the factual lede shared by Home metadata and the course overview.                                               |
+| `totalLessons`                           | Must equal the number of lesson files (365).                                                                                     |
+| `language`, `defaultScript`              | `'sr'`, `'latin'`. Cyrillic is a future option, not implemented.                                                                 |
+| `estimatedMinutesPerLesson`              | **Derived by the loader** (Phase 11): the median of the lessons' reading minutes. Never written in JSON — the loader rejects it. |
+| `coverImage`                             | Optional, unused today.                                                                                                          |
 
 ## Era
 
@@ -50,13 +50,13 @@ The hierarchy is `Course → Era → Section → Lesson`. The editable source is
 }
 ```
 
-| Field | Notes |
-| --- | --- |
-| `num` | Roman numeral shown as `EPOHA II`. |
-| `title` / `eraShort` | Full title on cards and mobile rows; `eraShort` (≤ 22 chars) on the desktop timeline bands and in eyebrows. |
-| `description` | 1–2 editorial sentences, always visible on the era card. |
-| `yearStart`, `yearEnd`, `yearsLabel` | Numbers drive the timeline maths (BCE is negative: `-9500`); the label is what the reader sees. |
-| `order` | 1..8, contiguous. |
+| Field                                | Notes                                                                                                       |
+| ------------------------------------ | ----------------------------------------------------------------------------------------------------------- |
+| `num`                                | Roman numeral shown as `EPOHA II`.                                                                          |
+| `title` / `eraShort`                 | Full title on cards and mobile rows; `eraShort` (≤ 22 chars) on the desktop timeline bands and in eyebrows. |
+| `description`                        | 1–2 editorial sentences, always visible on the era card.                                                    |
+| `yearStart`, `yearEnd`, `yearsLabel` | Numbers drive the timeline maths (BCE is negative: `-9500`); the label is what the reader sees.             |
+| `order`                              | 1..8, contiguous.                                                                                           |
 
 ## Section
 
@@ -95,34 +95,46 @@ Sections are contiguous, non-overlapping day ranges (`startDay..endDay`, 4–18 
   "keyPlaces": ["Lepenski Vir", "Đerdap", "Dunav"],
   "content": [
     { "type": "paragraph", "dropcap": true, "text": "U Đerdapskoj klisuri, …" },
-    { "type": "image", "src": "/lessons/era-1-lepenski-vir.webp", "alt": "…", "width": 1440, "height": 1080, "caption": "… Wikimedia Commons." },
+    {
+      "type": "image",
+      "src": "/lessons/era-1-lepenski-vir.webp",
+      "alt": "…",
+      "width": 1440,
+      "height": 1080,
+      "caption": "… Wikimedia Commons."
+    },
     { "type": "paragraph", "text": "…" }
   ],
   "isPlaceholder": false,
   "sources": [
-    { "kind": "book", "title": "Lepenski Vir: nova praistorijska kultura u Podunavlju", "author": "Dragoslav Srejović", "year": 1969 },
+    {
+      "kind": "book",
+      "title": "Lepenski Vir: nova praistorijska kultura u Podunavlju",
+      "author": "Dragoslav Srejović",
+      "year": 1969
+    },
     { "kind": "museum", "title": "Muzej Lepenski Vir, Donji Milanovac" }
   ]
 }
 ```
 
-| Field | Notes |
-| --- | --- |
-| `id` | `day-NNN`, zero-padded to three digits; equals the file name. |
-| `courseId`, `eraId`, `sectionId` | Must reference existing records; the lesson's era must be its section's era. |
-| `dayNumber` | 1..365, unique, no gaps across the corpus. |
-| `order` | Position within the section, 1-indexed. |
-| `title`, `subtitle` | `subtitle` optional, shown under the title in the lesson header. |
-| `year` | The representative year for the timeline marker (BCE negative). Should not run backwards inside an era (25 backward steps remain; the validator does not enforce it). |
-| `dateLabel`, `timelinePosition` | Display strings; optional. |
-| `readingTimeMinutes` | **Derived by the loader** (Phase 11): `max(1, ceil(words / 150))` over paragraph, heading and quote text. Never written in JSON — the loader rejects it. |
-| `content` | `LessonBlock[]`, at least one block; the first block of an authored lesson is a paragraph with `dropcap: true`. |
-| `isPlaceholder` | `false` on every lesson today. `true` would render the calm "Uskoro" state and disable completion; the field stays for any future re-introduction. |
-| `summary` | One standalone sentence; feeds the share-preview description (keep it under ~160 characters). |
-| `keyPeople`, `keyPlaces` | Optional lists (`keyPeople` is empty on 64 lessons); not rendered in the reader yet. |
-| `byline` | `{ author?, reviewer? }`. Rendered in `LessonTrustLine` after the sources (mono line above the course-wide check note); absent on every lesson today — each name is authored explicitly, there is no course-wide fallback. |
-| `lastReviewedAt` | ISO date of a **named** reviewer's fact check; the loader rejects it without `byline.reviewer`. Absent on every lesson today: the six 2026-05-19 dates were dropped (review 2026-10-03 P1 4) because no named person stood behind them. The machine-assisted passes of Sept–Oct 2026 are not recorded here — the trust line under every lesson states them and links `/course/<id>/literatura`. |
-| `sources` | `Source[]`; rendered as the closing *Izvori* block when present. |
+| Field                            | Notes                                                                                                                                                                                                                                                                                                                                                                                           |
+| -------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `id`                             | `day-NNN`, zero-padded to three digits; equals the file name.                                                                                                                                                                                                                                                                                                                                   |
+| `courseId`, `eraId`, `sectionId` | Must reference existing records; the lesson's era must be its section's era.                                                                                                                                                                                                                                                                                                                    |
+| `dayNumber`                      | 1..365, unique, no gaps across the corpus.                                                                                                                                                                                                                                                                                                                                                      |
+| `order`                          | Position within the section, 1-indexed.                                                                                                                                                                                                                                                                                                                                                         |
+| `title`, `subtitle`              | `subtitle` optional, shown under the title in the lesson header.                                                                                                                                                                                                                                                                                                                                |
+| `year`                           | The representative year for the timeline marker (BCE negative). Should not run backwards inside an era (25 backward steps remain; the validator does not enforce it).                                                                                                                                                                                                                           |
+| `dateLabel`, `timelinePosition`  | Display strings; optional.                                                                                                                                                                                                                                                                                                                                                                      |
+| `readingTimeMinutes`             | **Derived by the loader** (Phase 11): `max(1, ceil(words / 150))` over paragraph, heading and quote text. Never written in JSON — the loader rejects it.                                                                                                                                                                                                                                        |
+| `content`                        | `LessonBlock[]`, at least one block; the first block of an authored lesson is a paragraph with `dropcap: true`.                                                                                                                                                                                                                                                                                 |
+| `isPlaceholder`                  | `false` on every lesson today. `true` would render the calm "Uskoro" state and disable completion; the field stays for any future re-introduction.                                                                                                                                                                                                                                              |
+| `summary`                        | One standalone sentence; feeds the share-preview description (keep it under ~160 characters).                                                                                                                                                                                                                                                                                                   |
+| `keyPeople`, `keyPlaces`         | Optional lists (`keyPeople` is empty on 64 lessons); not rendered in the reader yet.                                                                                                                                                                                                                                                                                                            |
+| `byline`                         | `{ author?, reviewer? }`. Rendered in `LessonTrustLine` after the sources (mono line above the course-wide check note); absent on every lesson today — each name is authored explicitly, there is no course-wide fallback.                                                                                                                                                                      |
+| `lastReviewedAt`                 | ISO date of a **named** reviewer's fact check; the loader rejects it without `byline.reviewer`. Absent on every lesson today: the six 2026-05-19 dates were dropped (review 2026-10-03 P1 4) because no named person stood behind them. The machine-assisted passes of Sept–Oct 2026 are not recorded here — the trust line under every lesson states them and links `/course/<id>/literatura`. |
+| `sources`                        | `Source[]`; rendered as the closing _Izvori_ block when present.                                                                                                                                                                                                                                                                                                                                |
 
 ### `LessonBlock`
 
@@ -145,8 +157,8 @@ type Source = {
   kind: 'book' | 'article' | 'museum' | 'archive' | 'web';
   title: string;
   author?: string;
-  year?: number;   // published (book, article) or accessed (web)
-  url?: string;    // absolute; must parse with new URL()
+  year?: number; // published (book, article) or accessed (web)
+  url?: string; // absolute; must parse with new URL()
 };
 ```
 

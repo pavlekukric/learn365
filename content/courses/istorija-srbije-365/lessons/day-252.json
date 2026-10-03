@@ -11,7 +11,13 @@
   "dateLabel": "1880-e.",
   "timelinePosition": "1880-e.",
   "summary": "Narodna radikalna stranka 1881. i uspon Nikole Pašića, koji kroz Timočku bunu i sukobe sa kraljem Milanom postaje središnja figura srpske politike.",
-  "keyPeople": ["Nikola Pašić", "Pera Todorović", "Pera Velimirović", "Svetozar Marković", "kralj Milan Obrenović"],
+  "keyPeople": [
+    "Nikola Pašić",
+    "Pera Todorović",
+    "Pera Velimirović",
+    "Svetozar Marković",
+    "kralj Milan Obrenović"
+  ],
   "keyPlaces": ["Kragujevac", "Beograd", "Zaječar", "Cirih", "Petrograd"],
   "content": [
     {

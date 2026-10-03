@@ -11,7 +11,13 @@
   "dateLabel": "oktobar–decembar 1918.",
   "timelinePosition": "oktobar–decembar 1918.",
   "summary": "Od Narodnog vijeća u Zagrebu i Države SHS, preko odluka u Novom Sadu i Podgorici, do delegacije koja krajem novembra 1918. stiže u Beograd.",
-  "keyPeople": ["Nikola Pašić", "Anton Korošec", "Ante Trumbić", "Svetozar Pribićević", "regent Aleksandar"],
+  "keyPeople": [
+    "Nikola Pašić",
+    "Anton Korošec",
+    "Ante Trumbić",
+    "Svetozar Pribićević",
+    "regent Aleksandar"
+  ],
   "keyPlaces": ["Beograd", "Zagreb", "Novi Sad", "Podgorica"],
   "content": [
     {

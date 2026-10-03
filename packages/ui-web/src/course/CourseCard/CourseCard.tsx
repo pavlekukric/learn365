@@ -108,7 +108,10 @@ export function CourseCard({
               </span>
             ) : null}
             <span id={`${panelId}-hint`} className={`tiny mono ${styles.hint}`}>
-              <span className={`${styles.chev} ${isOpen ? styles.chevOpen : ''}`} aria-hidden="true">
+              <span
+                className={`${styles.chev} ${isOpen ? styles.chevOpen : ''}`}
+                aria-hidden="true"
+              >
                 <IconChev />
               </span>
               {isOpen ? 'Sakrij odeljke' : `Pokaži odeljke · ${String(sectionCount)}`}

@@ -11,7 +11,16 @@
   "dateLabel": "kraj 18 – početak 19. veka",
   "timelinePosition": "kraj 18 – početak 19. veka",
   "summary": "Pre 1804. u pašaluku je sazreo sloj narodnih prvaka — knezova, trgovaca, bivših frajkora i sveštenika — koji će izrasti u vođstvo pobune.",
-  "keyPeople": ["Karađorđe", "Prota Matija Nenadović", "Jakov Nenadović", "Stanoje Glavaš", "Hajduk Veljko Petrović", "Janko Katić", "Hadži-Ruvim", "pop Luka Lazarević"],
+  "keyPeople": [
+    "Karađorđe",
+    "Prota Matija Nenadović",
+    "Jakov Nenadović",
+    "Stanoje Glavaš",
+    "Hajduk Veljko Petrović",
+    "Janko Katić",
+    "Hadži-Ruvim",
+    "pop Luka Lazarević"
+  ],
   "keyPlaces": ["Beogradski pašaluk", "Šumadija", "Valjevo", "Jasenica", "Sava i Dunav"],
   "content": [
     {

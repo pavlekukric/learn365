@@ -11,7 +11,12 @@
   "dateLabel": "18. vek",
   "timelinePosition": "18. vek",
   "summary": "Od Krušedola do Sremskih Karlovaca: nastanak, uspon i kulturni značaj Karlovačke mitropolije kao središta srpskog pravoslavnog života u Habzburškoj monarhiji.",
-  "keyPeople": ["Arsenije III Čarnojević", "Pavle Nenadović", "Stefan Stratimirović", "Jovan Rajić"],
+  "keyPeople": [
+    "Arsenije III Čarnojević",
+    "Pavle Nenadović",
+    "Stefan Stratimirović",
+    "Jovan Rajić"
+  ],
   "keyPlaces": ["Sremski Karlovci", "Krušedol", "Fruška Gora", "Beč"],
   "content": [
     {

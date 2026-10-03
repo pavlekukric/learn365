@@ -11,7 +11,13 @@
   "dateLabel": "1880-e–1900-e.",
   "timelinePosition": "1880-e–1900-e.",
   "summary": "Krajem 19. veka Srbija dobija parlamentarni okvir i tri stranke — radikale, liberale i napredne — ali politika teče u sukobu Skupštine i dvora.",
-  "keyPeople": ["Nikola Pašić", "Jovan Ristić", "Milan Piroćanac", "kralj Milan Obrenović", "kralj Aleksandar Obrenović"],
+  "keyPeople": [
+    "Nikola Pašić",
+    "Jovan Ristić",
+    "Milan Piroćanac",
+    "kralj Milan Obrenović",
+    "kralj Aleksandar Obrenović"
+  ],
   "keyPlaces": ["Beograd", "Niš", "Kragujevac", "Zaječar"],
   "content": [
     {

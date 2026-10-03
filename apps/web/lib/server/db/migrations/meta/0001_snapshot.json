@@ -40,12 +40,8 @@
           "name": "bookmarks_user_id_users_id_fk",
           "tableFrom": "bookmarks",
           "tableTo": "users",
-          "columnsFrom": [
-            "user_id"
-          ],
-          "columnsTo": [
-            "id"
-          ],
+          "columnsFrom": ["user_id"],
+          "columnsTo": ["id"],
           "onDelete": "cascade",
           "onUpdate": "no action"
         }
@@ -53,11 +49,7 @@
       "compositePrimaryKeys": {
         "bookmarks_user_id_course_id_lesson_id_pk": {
           "name": "bookmarks_user_id_course_id_lesson_id_pk",
-          "columns": [
-            "user_id",
-            "course_id",
-            "lesson_id"
-          ]
+          "columns": ["user_id", "course_id", "lesson_id"]
         }
       },
       "uniqueConstraints": {},
@@ -100,12 +92,8 @@
           "name": "course_progress_user_id_users_id_fk",
           "tableFrom": "course_progress",
           "tableTo": "users",
-          "columnsFrom": [
-            "user_id"
-          ],
-          "columnsTo": [
-            "id"
-          ],
+          "columnsFrom": ["user_id"],
+          "columnsTo": ["id"],
           "onDelete": "cascade",
           "onUpdate": "no action"
         }
@@ -113,10 +101,7 @@
       "compositePrimaryKeys": {
         "course_progress_user_id_course_id_pk": {
           "name": "course_progress_user_id_course_id_pk",
-          "columns": [
-            "user_id",
-            "course_id"
-          ]
+          "columns": ["user_id", "course_id"]
         }
       },
       "uniqueConstraints": {},
@@ -160,12 +145,8 @@
           "name": "lesson_completions_user_id_users_id_fk",
           "tableFrom": "lesson_completions",
           "tableTo": "users",
-          "columnsFrom": [
-            "user_id"
-          ],
-          "columnsTo": [
-            "id"
-          ],
+          "columnsFrom": ["user_id"],
+          "columnsTo": ["id"],
           "onDelete": "cascade",
           "onUpdate": "no action"
         }
@@ -173,11 +154,7 @@
       "compositePrimaryKeys": {
         "lesson_completions_user_id_course_id_lesson_id_pk": {
           "name": "lesson_completions_user_id_course_id_lesson_id_pk",
-          "columns": [
-            "user_id",
-            "course_id",
-            "lesson_id"
-          ]
+          "columns": ["user_id", "course_id", "lesson_id"]
         }
       },
       "uniqueConstraints": {},
@@ -252,12 +229,8 @@
           "name": "sessions_user_id_users_id_fk",
           "tableFrom": "sessions",
           "tableTo": "users",
-          "columnsFrom": [
-            "user_id"
-          ],
-          "columnsTo": [
-            "id"
-          ],
+          "columnsFrom": ["user_id"],
+          "columnsTo": ["id"],
           "onDelete": "cascade",
           "onUpdate": "no action"
         }
@@ -331,9 +304,7 @@
         "users_google_sub_unique": {
           "name": "users_google_sub_unique",
           "nullsNotDistinct": false,
-          "columns": [
-            "google_sub"
-          ]
+          "columns": ["google_sub"]
         }
       },
       "policies": {},

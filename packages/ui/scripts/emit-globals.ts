@@ -124,13 +124,7 @@ function srgbFallbackBlock(): string {
     const varName = colorVarName[key as keyof ColorTokens];
     lines.push(`    ${varName}: ${value};`);
   }
-  return [
-    '@supports not (color: oklch(0 0 0)) {',
-    '  :root {',
-    ...lines,
-    '  }',
-    '}',
-  ].join('\n');
+  return ['@supports not (color: oklch(0 0 0)) {', '  :root {', ...lines, '  }', '}'].join('\n');
 }
 
 function baseStyles(): string {

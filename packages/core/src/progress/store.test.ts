@@ -1,10 +1,6 @@
 import { beforeEach, describe, expect, it } from 'vitest';
 
-import {
-  DEFAULT_STORAGE_KEY,
-  createProgressStore,
-  type ProgressStorage,
-} from './index.js';
+import { DEFAULT_STORAGE_KEY, createProgressStore, type ProgressStorage } from './index.js';
 
 class InMemoryStorage implements ProgressStorage {
   private readonly data = new Map<string, string>();
@@ -44,25 +40,25 @@ describe('progress store', () => {
     const store = createProgressStore({ storage, now: fixedNow });
     store.getState().toggleComplete('istorija-srbije-365', 'nemanjici-rani-001');
     expect(
-      store.getState().byCourse['istorija-srbije-365']?.completedLessonIds.has(
-        'nemanjici-rani-001',
-      ),
+      store
+        .getState()
+        .byCourse['istorija-srbije-365']?.completedLessonIds.has('nemanjici-rani-001'),
     ).toBe(true);
 
     store.getState().toggleComplete('istorija-srbije-365', 'nemanjici-rani-001');
     expect(
-      store.getState().byCourse['istorija-srbije-365']?.completedLessonIds.has(
-        'nemanjici-rani-001',
-      ),
+      store
+        .getState()
+        .byCourse['istorija-srbije-365']?.completedLessonIds.has('nemanjici-rani-001'),
     ).toBe(false);
   });
 
   it('markOpened updates lastOpenedLessonId once per change', () => {
     const store = createProgressStore({ storage, now: fixedNow });
     store.getState().markOpened('istorija-srbije-365', 'praistorija-001');
-    expect(
-      store.getState().byCourse['istorija-srbije-365']?.lastOpenedLessonId,
-    ).toBe('praistorija-001');
+    expect(store.getState().byCourse['istorija-srbije-365']?.lastOpenedLessonId).toBe(
+      'praistorija-001',
+    );
 
     const before = store.getState().byCourse;
     store.getState().markOpened('istorija-srbije-365', 'praistorija-001');
@@ -75,9 +71,7 @@ describe('progress store', () => {
     store.getState().toggleComplete('drugi-kurs', 'b');
     store.getState().resetCourse('istorija-srbije-365');
     expect(store.getState().byCourse['istorija-srbije-365']).toBeUndefined();
-    expect(store.getState().byCourse['drugi-kurs']?.completedLessonIds.has('b')).toBe(
-      true,
-    );
+    expect(store.getState().byCourse['drugi-kurs']?.completedLessonIds.has('b')).toBe(true);
   });
 
   it('persists Set<LessonId> as a JSON array', () => {

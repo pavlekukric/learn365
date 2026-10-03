@@ -11,7 +11,13 @@
   "dateLabel": "1900-e–1914.",
   "timelinePosition": "1900-e–1914.",
   "summary": "Pred Prvi svetski rat paralelno deluje više srpskih i jugoslovenskih pokreta — od „Mlade Bosne” i kružoka do organizacije „Ujedinjenje ili smrt”.",
-  "keyPeople": ["Bogdan Žerajić", "Dragutin Dimitrijević Apis", "Vojislav Tankosić", "Marijan Varešanin", "Nikola Pašić"],
+  "keyPeople": [
+    "Bogdan Žerajić",
+    "Dragutin Dimitrijević Apis",
+    "Vojislav Tankosić",
+    "Marijan Varešanin",
+    "Nikola Pašić"
+  ],
   "keyPlaces": ["Sarajevo", "Beograd", "Mostar", "Tuzla", "Bosna i Hercegovina"],
   "content": [
     {

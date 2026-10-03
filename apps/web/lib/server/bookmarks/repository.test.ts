@@ -33,7 +33,10 @@ describe('bookmarks repository', () => {
 
   it('starts empty and applies deltas idempotently', async () => {
     const db = connection.db;
-    expect(await getCourseBookmarks(db, userId, COURSE)).toEqual({ lessonIds: [], updatedAt: EPOCH_ISO });
+    expect(await getCourseBookmarks(db, userId, COURSE)).toEqual({
+      lessonIds: [],
+      updatedAt: EPOCH_ISO,
+    });
 
     await applyBookmarksDelta(db, userId, COURSE, { add: ['day-005', 'day-001'], remove: [] }, T1);
     await applyBookmarksDelta(db, userId, COURSE, { add: ['day-005'], remove: ['day-404'] }, T2);

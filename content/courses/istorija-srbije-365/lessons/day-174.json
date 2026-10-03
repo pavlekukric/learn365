@@ -11,7 +11,13 @@
   "dateLabel": "17–18. vek",
   "timelinePosition": "17–18. vek",
   "summary": "Crna Gora u sedamnaestom i osamnaestom veku — između formalne osmanske vlasti i stvarne slobode, kroz Carev Laz, Ćuprilićev pohod, Kruse i okretanje Rusiji.",
-  "keyPeople": ["Danilo I Petrović", "Petar I Petrović Njegoš", "Mahmud-paša Bušatlija", "Numan-paša Ćuprilić", "Petar Veliki"],
+  "keyPeople": [
+    "Danilo I Petrović",
+    "Petar I Petrović Njegoš",
+    "Mahmud-paša Bušatlija",
+    "Numan-paša Ćuprilić",
+    "Petar Veliki"
+  ],
   "keyPlaces": ["Crna Gora", "Cetinje", "Carev Laz", "Krusi", "Boka Kotorska", "Skadar"],
   "content": [
     {

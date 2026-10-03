@@ -12,7 +12,16 @@
   "timelinePosition": "oko 1912.",
   "summary": "Srpsko društvo pred Balkanske ratove: oko 2,9 miliona stanovnika, ogromna seoska većina, mlada gradska modernizacija i siromaštvo kao okvir svakodnevice.",
   "keyPeople": ["Katarina Milovuk"],
-  "keyPlaces": ["Beograd", "Niš", "Kragujevac", "Leskovac", "Požarevac", "Šabac", "Vranje", "Pirot"],
+  "keyPlaces": [
+    "Beograd",
+    "Niš",
+    "Kragujevac",
+    "Leskovac",
+    "Požarevac",
+    "Šabac",
+    "Vranje",
+    "Pirot"
+  ],
   "content": [
     {
       "type": "paragraph",

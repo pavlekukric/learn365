@@ -5,7 +5,10 @@ import { applyBookmarksDelta, getCourseBookmarks } from '@/lib/server/bookmarks/
 import {
   apiBadRequest,
   apiUnavailable,
-  jsonNoStore, noContent, readJsonRecord } from '@/lib/server/http';
+  jsonNoStore,
+  noContent,
+  readJsonRecord,
+} from '@/lib/server/http';
 import { parseCourseId, parseLessonIds } from '@/lib/server/validation';
 import type { BookmarksWire } from '@/lib/sync/wire';
 
@@ -48,7 +51,10 @@ export async function PATCH(request: NextRequest): Promise<NextResponse> {
   }
 
   try {
-    await applyBookmarksDelta(guarded.db, guarded.user.id, courseId, { add: add.ids, remove: remove.ids });
+    await applyBookmarksDelta(guarded.db, guarded.user.id, courseId, {
+      add: add.ids,
+      remove: remove.ids,
+    });
     return noContent();
   } catch (error) {
     console.error('[bookmarks] delta failed', error);

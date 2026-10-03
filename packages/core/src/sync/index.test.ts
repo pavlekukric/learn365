@@ -4,8 +4,12 @@ import { EPOCH_ISO, compareTimestamps, diffSets, laterTimestamp, unionIds } from
 
 describe('compareTimestamps / laterTimestamp', () => {
   it('orders ISO timestamps and treats garbage as earliest', () => {
-    expect(compareTimestamps('2026-01-01T00:00:00.000Z', '2026-01-02T00:00:00.000Z')).toBeLessThan(0);
-    expect(compareTimestamps('2026-01-02T00:00:00.000Z', '2026-01-01T00:00:00.000Z')).toBeGreaterThan(0);
+    expect(compareTimestamps('2026-01-01T00:00:00.000Z', '2026-01-02T00:00:00.000Z')).toBeLessThan(
+      0,
+    );
+    expect(
+      compareTimestamps('2026-01-02T00:00:00.000Z', '2026-01-01T00:00:00.000Z'),
+    ).toBeGreaterThan(0);
     expect(compareTimestamps('2026-01-01T00:00:00.000Z', '2026-01-01T00:00:00.000Z')).toBe(0);
     expect(compareTimestamps('nope', EPOCH_ISO)).toBeLessThan(0);
     expect(compareTimestamps('nope', 'also nope')).toBe(0);
@@ -21,7 +25,10 @@ describe('compareTimestamps / laterTimestamp', () => {
 
 describe('diffSets', () => {
   it('reports additions and removals, tolerating absent sides', () => {
-    expect(diffSets(new Set(['a', 'b']), new Set(['b', 'c']))).toEqual({ added: ['c'], removed: ['a'] });
+    expect(diffSets(new Set(['a', 'b']), new Set(['b', 'c']))).toEqual({
+      added: ['c'],
+      removed: ['a'],
+    });
     expect(diffSets(undefined, new Set(['x']))).toEqual({ added: ['x'], removed: [] });
     expect(diffSets(new Set(['x']), undefined)).toEqual({ added: [], removed: ['x'] });
     expect(diffSets(undefined, undefined)).toEqual({ added: [], removed: [] });

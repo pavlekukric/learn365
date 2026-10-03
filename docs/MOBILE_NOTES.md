@@ -40,12 +40,12 @@ Alternative considered and rejected: full native (Swift + Kotlin). Doubles the e
 
 The mobile app inherits **directly** from the shared packages:
 
-| Shared | Reused on mobile? |
-|---|---|
-| `@learn365/content` | Yes, unchanged. |
+| Shared                                                 | Reused on mobile?                                                                      |
+| ------------------------------------------------------ | -------------------------------------------------------------------------------------- |
+| `@learn365/content`                                    | Yes, unchanged.                                                                        |
 | `@learn365/core` (ProgressStore, selectors, prev/next) | Yes, unchanged. The storage adapter is replaced with an `AsyncStorage` implementation. |
-| `@learn365/ui` (tokens, themes) | Yes — RN consumes the precomputed RGB token bundle (OKLCH is not supported in RN). |
-| `@learn365/ui-web` | **No.** Mobile gets `@learn365/ui-mobile`, a parallel implementation. |
+| `@learn365/ui` (tokens, themes)                        | Yes — RN consumes the precomputed RGB token bundle (OKLCH is not supported in RN).     |
+| `@learn365/ui-web`                                     | **No.** Mobile gets `@learn365/ui-mobile`, a parallel implementation.                  |
 
 The component **contracts** match across `ui-web` and `ui-mobile` so the app code (route layer) is mostly platform-agnostic above the view layer.
 
@@ -70,8 +70,12 @@ export const tokens = {
     accent: 'rgb(78, 110, 88)',
     // …
   },
-  type: { /* … */ },
-  space: { /* … */ },
+  type: {
+    /* … */
+  },
+  space: {
+    /* … */
+  },
 };
 ```
 

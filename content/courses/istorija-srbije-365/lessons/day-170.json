@@ -12,7 +12,15 @@
   "timelinePosition": "17–18. vek",
   "summary": "Srem, Bačka i Banat u 17. i 18. veku — geografija, srpsko naseljavanje, fruškogorski manastiri, ravničarska privreda i rađanje srpskog građanstva u Monarhiji.",
   "keyPeople": [],
-  "keyPlaces": ["Banat", "Bačka", "Srem", "Novi Sad", "Sremski Karlovci", "Fruška Gora", "Sentandreja"],
+  "keyPlaces": [
+    "Banat",
+    "Bačka",
+    "Srem",
+    "Novi Sad",
+    "Sremski Karlovci",
+    "Fruška Gora",
+    "Sentandreja"
+  ],
   "content": [
     {
       "type": "paragraph",

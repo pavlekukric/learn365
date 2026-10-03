@@ -42,7 +42,8 @@ export function getServerEnv(): ServerEnv {
     appUrl: appUrl === null ? null : appUrl.replace(/\/+$/, ''),
     google: clientId !== null && clientSecret !== null ? { clientId, clientSecret } : null,
     migrationsDir:
-      nonEmpty(process.env.MIGRATIONS_DIR) ?? path.resolve(process.cwd(), 'lib/server/db/migrations'),
+      nonEmpty(process.env.MIGRATIONS_DIR) ??
+      path.resolve(process.cwd(), 'lib/server/db/migrations'),
   };
 }
 
@@ -61,5 +62,9 @@ export interface AuthConfig {
 
 export function getAuthConfig(env: ServerEnv = getServerEnv()): AuthConfig | null {
   if (env.databaseUrl === null || env.appUrl === null || env.google === null) return null;
-  return { appUrl: env.appUrl, google: env.google, secureCookies: env.appUrl.startsWith('https://') };
+  return {
+    appUrl: env.appUrl,
+    google: env.google,
+    secureCookies: env.appUrl.startsWith('https://'),
+  };
 }

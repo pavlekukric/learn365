@@ -1,6 +1,7 @@
 # Proofreading report — era `knez-lazar-i-despotovina` (days 106–150)
 
 ## Counts
+
 - Lessons read: 45 (106–150, title/subtitle/summary/body/captions)
 - Lessons changed: 45
 - Total edits: 216
@@ -12,172 +13,174 @@
 - `pnpm validate-content` (and direct `tsx src/loader/validateContentFiles.ts`): ✓ 365 lessons, no errors.
 
 ## Edit table (manual edits; scripted Despotovina capitalisations summarised above)
-| Day | Cat | Before → After |
-|---|---|---|
-| 106 | grammar | „naredni dani ove knjige” → „naredni dani ovog kursa” |
-| 107 | grammar | „potomkom Vukana, starijeg” → „potomkinjom Vukana, starijeg” |
-| 107 | grammar | „ali nije ulazilo u trag carskoj kruni nemanjićkog doba” → „ali nije posezalo za carskom krunom nemanjićkog doba” |
-| 107 | grammar | „Crkva mu je u tom uspinjanju bila” → „Crkva mu je u tom usponu bila” |
-| 107 | grammar | „podignut između oko 1377. i 1381. godine” → „podignut verovatno između 1377. i 1381. godine” |
-| 108 | grammar | „Hrebeljanovića na Pomoravlju” → „Hrebeljanovića u Pomoravlju” |
-| 108 | grammar | „Time je njegova oblast skoro udvostručena, dosegla je do Drine na zapadu i obuhvatila” → „Time se njegova oblast skoro udvostručila, dosegla Drinu na zapadu i obuhvatila” |
-| 108 | grammar | „u kuću Balšića, vladare Zete” → „u kuću Balšića, vladara Zete” |
-| 108 | grammar | „Vladajući novi prostor, Lazar” → „Vladajući novim prostorom, Lazar” |
-| 108 | orthography | „takozvane Moravske škole” → „takozvane moravske škole” |
-| 109 | grammar | „Bitka je, kao što je u kasnijim danima ovog poglavlja podrobnije obrađeno, završila teško” → „Bitka se, kao što će u kasnijim danima ovog poglavlja biti podrobnije obrađeno, završila teško” |
-| 109 | grammar | „bitke se nisu sastojale od smrti svih komandanata” → „u bitkama nisu ginuli svi zapovednici” |
-| 109 | grammar | „O samom razvoju kosovskog mita i njegove unutrašnje logike” → „O samom razvoju kosovskog mita i njegovoj unutrašnjoj logici” |
-| 110 | orthography | „Zeta koju su naslijedili” → „Zeta koju su nasledili” |
-| 110 | grammar | „Ulazio je u brak sa Jelenom, kćerkom” → „Oženio se Jelenom, kćerkom” |
-| 110 | de-tick | „Za sada je dovoljno reći da su Balšići bili prvi” → „Za sada je bitno to što su Balšići bili prvi” |
-| 111 | grammar | „Murad I i prodor u Balkan” → „Murad I i prodor na Balkan” |
-| 111 | grammar | „pretvorilo u sistemsko širenje” → „pretvorilo u sistematsko širenje” |
-| 111 | grammar | „Vuk Branković — pristajali su na sultanovu” → „Vuk Branković — pristajao je na sultanovu” |
-| 111 | grammar | „jedan od malobrojnih krupnih hrišćanskih vladara koji je još uvek pokušavao” → „jedan od malobrojnih krupnih hrišćanskih vladara koji su još uvek pokušavali” |
-| 111 | grammar | „bili su država u usponu” → „bile su država u usponu” |
-| 112 | grammar | „oboružani sabljom” → „naoružani sabljom” |
-| 112 | de-tick | „ovde je dovoljno reći da je završena srpskom pobedom i da je u Lazaru, koliko se može pretpostaviti, ojačala uverenje” → „završena je srpskom pobedom i u Lazaru je, koliko se može pretpostaviti, ojačalo uverenje” |
-| 112 | grammar | „nije pao s neba — bio je to ishod” → „nije palo s neba — bilo je to ishod” |
-| 113 | grammar | „vojske braće Mrnjavčević,” → „vojske braće Mrnjavčevića,” |
-| 113 | grammar | „vođena u relativno povoljnom terenu” → „vođena na relativno povoljnom terenu” |
-| 113 | grammar | „po uzoru na Marice ili Kosovo” → „po uzoru na Maricu ili Kosovo” |
-| 113 | grammar | „u toplicom kraju” → „u topličkom kraju” |
-| 113 | grammar | „platio cenu te pobede — što je njegova zemlja postala glavni cilj” → „platio cenu te pobede — njegova zemlja postala je glavni cilj” |
-| 114 | grammar | „odbijeni prepadi, pa pre svega” → „odbijeni prepadi, a pre svega” |
-| 114 | grammar | „dok je Lazarova vojska bila tešnja” → „dok je Lazareva vojska bila zbijenija” |
-| 114 | grammar | „vezujemo za uoči Kosova” → „vezujemo za dane uoči Kosova” |
-| 115 | grammar | „Pojedinost o tome ko je taj čovek” → „Pojedinosti o tome ko je taj čovek” |
-| 115 | de-tick | „Ovde je dovoljno reći da je sultan zaista poginuo” → „Ovde je bitno samo to da je sultan zaista poginuo” |
-| 115 | grammar | „Sa Kosovog polja vratio se” → „Sa Kosova polja vratio se” |
-| 115 | grammar | „kojim su redom činovi pali” → „kojim su se redom događaji smenjivali” |
-| 116 | grammar | „na bojnom polju, u sečivu konjičkog naleta” → „na bojnom polju, pod sečivom konjičkog naleta” |
-| 116 | de-tick | „ovde je dovoljno reći da je porodica održala kontinuitet” → „za sada je važno da je porodica održala kontinuitet” |
-| 117 | grammar | „Da bi se prema njemu odnelo pošteno” → „Da bi se prema njemu postupilo pošteno” |
-| 117 | grammar | „Da ga je ubio jedan srpski plemić” → „U tome da ga je ubio jedan srpski plemić” |
-| 117 | grammar | „diže zdravicu i optuži Miloša” → „diže zdravicu i optužuje Miloša” |
-| 117 | grammar | „gotovo siluet —” → „gotovo silueta —” |
-| 118 | grammar | „uloga za koju savremeni istoričari pokazuju” → „uloga za koju današnji istoričari pokazuju” |
-| 118 | grammar | „bila je, koliko izvori dopuštaju da se kaže, nerešen ili teško izvojevan osmanski uspeh” → „bila je, koliko izvori dopuštaju da se kaže, bez jasnog pobednika ili teško izvojevan osmanski uspeh” |
-| 118 | orthography | „a sama Osmanska država tada” → „a sama osmanska država tada” |
-| 119 | grammar | „Milica, Lazareva žena i potomak Nemanjića” → „Milica, Lazareva žena i potomkinja Nemanjića” |
-| 120 | grammar | „gledala u Srbe sa mešavinom” → „gledala na Srbe sa mešavinom” |
-| 120 | grammar | „oba kao vazalni vladari” → „obojica kao vazalni vladari” |
-| 120 | de-tick | „Pošteno ga je shvatiti hladnokrvno.” → „Treba ga shvatiti hladnokrvno.” |
-| 121 | grammar | „Kada su anadolski emiri zbačeni od strane Bajazita potražili” → „Kada su anadolski emiri koje je Bajazit zbacio potražili” |
-| 121 | grammar | „koliko god od nje sačuvano” → „koliko god je od nje sačuvano” |
-| 121 | grammar | „s kojim se moralo razgovarati, a ne komandovati” → „s kojim se moralo razgovarati, a kome se nije moglo komandovati” |
-| 122 | grammar | „sposobnost da se sa porazom nosi bez panike — ostavili su na njega” → „sposobnost da se sa porazom nosi bez panike — ostavilo je na njega” |
-| 122 | grammar | „nijedan od njih nije ju primio” → „nijedan od njih nije je primio” |
-| 122 | grammar | „Vizantija Paleologa više nije bilo u stanju” → „Vizantija Paleologa više nije bila u stanju” |
-| 123 | grammar | „čuvana je ranija ranžirana hijerarhija” → „čuvana je ranija stepenasta hijerarhija” |
-| 123 | grammar | „oko njega su stajala sabori” → „oko njega su stajali sabori” |
-| 123 | grammar | „despota Stefana” iz oko 1412. godine” → „despota Stefana”, donetim oko 1412. godine” |
-| 124 | orthography | „mnogo šire od same despotovine” → „mnogo šire od same Despotovine” |
-| 125 | orthography | „pokrovitelj Manasije i Resavske škole"” → „pokrovitelj Manasije i resavske škole"” |
-| 125 | orthography | „pokrovitelja Manasije i Resavske škole,” → „pokrovitelja Manasije i resavske škole,” |
-| 125 | orthography | „poznat kao Resavska škola:” → „poznat kao resavska škola:” |
-| 125 | grammar | „beogradske bedeme, Resavska škola” → „beogradski bedemi, resavska škola” |
-| 125 | orthography | „nadživelo je i njega i despotovinu” → „nadživelo je i njega i Despotovinu” |
-| 125 | grammar | „ugarski i budući car Sigismund” → „ugarski kralj i budući car Sigismund” |
-| 125 | grammar | „držao do etikecije” → „držao do etikete” |
-| 125 | orthography | „upućeno, po jednom tumačenju bratu Vuku” → „upućeno, po jednom tumačenju, bratu Vuku” |
-| 125 | grammar | „koliko god je moglo, bez” → „koliko god je bilo moguće, bez” |
-| 126 | grammar | „ali ga nije mogao zauvek otkupiti” → „ali ga nije moglo zauvek otkupiti” |
-| 127 | grammar | „a od više godina ranije za naslednika je određen” → „a više godina ranije za naslednika je bio određen” |
-| 127 | grammar | „da računa pre nego da naređuje” → „da računa pre nego što naredi” |
-| 127 | orthography | „izdanka i Nemanjićkog i Lazarevićkog kruga” → „izdanka i nemanjićkog i lazarevićkog kruga” |
-| 127 | orthography | „Tako je nova despotovina, već” → „Tako je nova Despotovina, već” |
-| 127 | grammar | „moglo nadzirati i reka i put” → „moglo nadzirati i reku i put” |
-| 127 | grammar | „vlast u Edirnu i njegova” → „vlast u Jedrenu i njegova” |
-| 127 | grammar | „između Budima i Edirna kao” → „između Budima i Jedrena kao” |
-| 128 | orthography | „bio središte despotovine, sada” → „bio središte Despotovine, sada” |
-| 128 | orthography | „postalo prestonica despotovine i ostalo” → „postalo prestonica Despotovine i ostalo” |
-| 128 | orthography | „na sigurnom, despotovina se posle” → „na sigurnom, Despotovina se posle” |
-| 128 | grammar | „u vreme kada je despot u izgnanstvu” → „u vreme kada je despot bio u izgnanstvu” |
-| 128 | grammar | „zato što je bila stranac, žena” → „zato što je bila strankinja, žena” |
-| 128 | orthography | „i poslednja desetljeća svoje” → „i poslednje decenije svoje” |
-| 129 | grammar | „oko pet stotina, a unutar zidina je sklopljeno nešto više” → „oko pet stotina; unutar zidina obuhvaćeno je nešto više” |
-| 129 | grammar | „vremena, uporedo sa najznačajnijim evropskim” → „vremena, uz bok najznačajnijim evropskim” |
-| 129 | orthography | „mada pojedini istraživači sporeći se oko pojedinih slova predlažu” → „mada pojedini istraživači, sporeći se oko nekih slova, predlažu” |
-| 129 | grammar | „koju su Nemci skladištili u tvrđavi;” → „koju su Nemci tu skladištili;” |
-| 130 | grammar | „Đurađ se nije morao opredeliti između dve sile zato što je tako želeo, već zato što ga obe nisu puštale.” → „Đurađ nije stajao između dve sile zato što je tako želeo, već zato što ga nijedna nije puštala.” |
-| 130 | grammar | „Đurađ unutar sebe gledao” → „Đurađ u sebi gledao” |
-| 130 | orthography | „Matije Korvina 1458., gledali” → „Matije Korvina 1458, gledali” |
-| 130 | orthography | „prerastao je 1448., posle” → „prerastao je 1448, posle” |
-| 130 | grammar | „oprezno klimanje na osmansku stranu” → „oprezno naginjanje osmanskoj strani” |
-| 131 | grammar | „da pređe u Ugarsku, sačuva blago” → „da pređe u Ugarsku i sačuva blago” |
-| 131 | grammar | „da na zidinama nema vladara, samo njegovog sina” → „da na zidinama nije vladar, nego samo njegov sin” |
-| 131 | grammar | „pokušaji da iz Sirmijuma organizuje” → „pokušaji da iz Srema organizuje” |
-| 132 | grammar | „ona je očevim ljudima ostavljala kanal” → „ona je očevim ljudima održavala kanal” |
-| 133 | grammar | „ali je sultana Murada II naterao za pregovarački sto” → „ali je sultana Murada II naterao da sedne za pregovarački sto” |
-| 133 | orthography | „i, na kratko, obnovio” → „i, nakratko, obnovio” |
-| 133 | grammar | „posle bitke kod Kosova 1448. godine” → „posle bitke na Kosovu 1448. godine” |
-| 133 | grammar | „Razlozi su bili više —” → „Razloga je bilo više —” |
-| 134 | grammar | „naslednik Murata II, u trenutku opsade jedva navršio” → „naslednik Murata II, koji je u trenutku opsade jedva navršio” |
-| 134 | grammar | „koji su grčki izbeglice dale” → „koji su grčke izbeglice dale” |
-| 135 | orthography | „hiljadugodišnjeg vizantijskog carstva” → „hiljadugodišnjeg Vizantijskog carstva” |
-| 135 | grammar | „dok savremena istoriografija najčešće” → „dok današnja istoriografija najčešće” |
-| 135 | grammar | „a zatim ih jurišem preuzeti” → „a zatim grad zauzeti jurišem” |
-| 135 | grammar | „metodično, kao na carigradski način” → „metodično, kao nekad pod Carigradom” |
-| 135 | orthography | „ugarski brodovi i kapistranovi krstaši” → „ugarski brodovi i Kapistranovi krstaši” |
-| 135 | orthography | „sa nešto kapistranovih krstaša” → „sa nešto Kapistranovih krstaša” |
-| 135 | grammar | „manje organizovano nego planski” → „više stihijski nego planski” |
-| 136 | grammar | „bar jednom je gubio.” → „bar jednom je izgubio.” |
-| 136 | grammar | „uplitao se u to nemirno raspleto stanje koliko” → „uplitao se u te nemirne prilike koliko” |
-| 136 | orthography | „između dva gospodara, sada nije imala” → „između dva gospodara sada nije imala” |
-| 136 | grammar | „i Budimu i Adrijanopolju” → „i Budimu i Jedrenu” |
-| 137 | grammar | „despotovina je nasledila državu i nasledila brigu” → „naslednici su nasledili i državu i brigu” |
-| 137 | grammar | „je prešlo tri vladara” → „su prešla tri vladara” |
-| 137 | orthography | „Stefan Slijepi i kraj u Smederevu"” → „Stefan Slepi i kraj u Smederevu"” |
-| 137 | orthography | „upamćen kao Stefan Slijepi.” → „upamćen kao Stefan Slepi.” |
-| 137 | orthography | „je shvatio da iznutra podeljen i izvan svake delotvorne pomoći nije u stanju” → „je shvatio da, iznutra podeljen i izvan svake delotvorne pomoći, nije u stanju” |
-| 138 | grammar | „visoke položaje u Porti” → „visoke položaje na Porti” |
-| 138 | grammar | „Sa tih dvadesetak letnjih dana 1459.” → „Tih dvadesetak letnjih dana 1459.” |
-| 139 | grammar | „sustigla je i njenog zapadnog suseda” → „sustigla je i srpskog zapadnog suseda” |
-| 139 | orthography | „Posljednji bosanski kralj” → „Poslednji bosanski kralj” |
-| 139 | grammar | „Bio je iz roda koji je već gubio jednu krunu i sada nasleđivao drugu.” → „Bio je čovek koji je već izgubio jednu krunu i sada nasleđivao drugu.” |
-| 139 | orthography | „jače prisustvo katoličke crkve” → „jače prisustvo Katoličke crkve” |
-| 139 | grammar | „Sa krvavim činom kod Jajca prestala” → „Krvavim činom kod Jajca prestala” |
-| 139 | grammar | „ravnica koja sledećih dva veka” → „ravnica koja sledeća dva veka” |
-| 140 | grammar | „prestonicu je preneo u Cetinje” → „prestonicu je preneo na Cetinje” |
-| 140 | grammar | „Ivan je u Cetinju podigao” → „Ivan je na Cetinju podigao” |
-| 140 | grammar | „u Cetinje je doveo štampariju” → „na Cetinje je doveo štampariju” |
-| 141 | grammar | „preseljen u Cetinje” → „preseljen na Cetinje” |
-| 141 | grammar | „knjiga preraslo zanatska, na nivou” → „knjiga prevazišla puki zanat, na nivou” |
-| 141 | grammar | „Prva je bio „Oktoih prvoglasnik”” → „Prvi je bio „Oktoih prvoglasnik”” |
-| 141 | grammar | „broj od pet knjiga drže se kao pouzdan” → „broj od pet knjiga smatraju se pouzdanim” |
-| 141 | grammar | „zaglavlja ozbiljna i merna” → „zaglavlja ozbiljna i odmerena” |
-| 141 | grammar | „potom putuje na razne strane” → „potom je putovao na razne strane” |
-| 142 | grammar | „prešao je kralju Matiji, ali je vukao staro despotsko poreklo” → „prešao je kralju Matiji, a vukao je staro despotsko poreklo” |
-| 142 | grammar | „pred kojim se srpski izbeglice, naseljeni duž granice” → „pred kojim se srpske izbeglice, naseljene duž granice” |
-| 142 | grammar | „Tačan razmer njegovih pohoda” → „Tačne razmere njegovih pohoda” |
-| 142 | grammar | „sa nekim stvarnim oslonom na zemlju” → „sa nekim stvarnim osloncem na zemlju” |
-| 143 | grammar | „imali su čisti interes” → „imali su jasan interes” |
-| 143 | grammar | „biće mnogo bolje dokumentovana, i njoj” → „biće mnogo bolje dokumentovane, i njoj” |
-| 144 | grammar | „godine pao Smederevo” → „godine palo Smederevo” |
-| 144 | grammar | „Ali jedna stvar načelno priznata nije značila i sređena praksa.” → „Ali ono što je načelno priznato nije još bilo i sređena praksa.” |
-| 145 | orthography | „najveći deo dušanovog carstva” → „najveći deo Dušanovog carstva” |
-| 145 | grammar | „U Moravi je preuzet i prerađen, postao je gotovo” → „U Pomoravlju je preuzet i prerađen i postao je gotovo” |
-| 145 | orthography | „jer je osmanlijska opasnost” → „jer je osmanska opasnost” |
-| 145 | grammar | „(između oko 1388. i 1405. godine)” → „(otprilike između 1388. i 1405. godine)” |
-| 145 | grammar | „sa svetiteljima čije lice ima portretsku prisutnost” → „sa svetiteljima čija lica imaju portretsku prisutnost” |
-| 145 | orthography | „pod jasnom sviješću da” → „pod jasnom svešću da” |
-| 145 | orthography | „od osmanlijskih upada i, kasnije, redovne osmanlijske vojske” → „od osmanskih upada i, kasnije, redovne osmanske vojske” |
-| 145 | orthography | „već u osmanlijskoj državi” → „već u osmanskoj državi” |
-| 146 | orthography | „u istom razdoblju novi monaški pojas — manastiri Fruške gore:” → „u istom razdoblju novi monaški pojas: manastiri Fruške gore:” |
-| 146 | orthography | „na Svetoj gori, Hilandar” → „na Svetoj Gori, Hilandar” |
-| 147 | grammar | „Sačuvane su desetine, u svim zbirkama zajedno i stotine” → „Sačuvane su desetine, a u svim zbirkama zajedno i stotine” |
-| 147 | orthography | „samo onih koji su slušali da nije bilo” → „samo onih koji su slušali, da nije bilo” |
-| 148 | de-tick | „Pošteno nabrajanje onoga” → „Mirno nabrajanje onoga” |
-| 148 | grammar | „odatle će potom izrasti uticajne porodice u osmanskoj službi.” → „odatle će potom izrasti uticajne porodice osmanske elite.” |
-| 149 | grammar | „Sve to je zaista presekano.” → „Sve to je zaista presečeno.” |
-| 149 | orthography | „od Skopske oblasti do Budima” → „od skopske oblasti do Budima” |
-| 149 | grammar | „ali u srednjoj srpskoj pravoslavnoj sredini” → „ali u središnjoj srpskoj pravoslavnoj sredini” |
-| 149 | orthography | „kakav je bio i u Nemanjićko doba” → „kakav je bio i u nemanjićko doba” |
-| 150 | grammar | „potom carstvo, potom raspala se na oblasti, i najzad svedena na malu severnu despotovinu” → „potom carstvo, potom se raspala na oblasti i najzad svela na malu severnu Despotovinu” |
-| 150 | grammar | „nikada se nije potpuno oporavila i okončala je 1453. svojom poslednjom opsadom” → „nikada se nije potpuno oporavila i okončala se 1453. svojom poslednjom opsadom” |
+
+| Day | Cat         | Before → After                                                                                                                                                                                                        |
+| --- | ----------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 106 | grammar     | „naredni dani ove knjige” → „naredni dani ovog kursa”                                                                                                                                                                 |
+| 107 | grammar     | „potomkom Vukana, starijeg” → „potomkinjom Vukana, starijeg”                                                                                                                                                          |
+| 107 | grammar     | „ali nije ulazilo u trag carskoj kruni nemanjićkog doba” → „ali nije posezalo za carskom krunom nemanjićkog doba”                                                                                                     |
+| 107 | grammar     | „Crkva mu je u tom uspinjanju bila” → „Crkva mu je u tom usponu bila”                                                                                                                                                 |
+| 107 | grammar     | „podignut između oko 1377. i 1381. godine” → „podignut verovatno između 1377. i 1381. godine”                                                                                                                         |
+| 108 | grammar     | „Hrebeljanovića na Pomoravlju” → „Hrebeljanovića u Pomoravlju”                                                                                                                                                        |
+| 108 | grammar     | „Time je njegova oblast skoro udvostručena, dosegla je do Drine na zapadu i obuhvatila” → „Time se njegova oblast skoro udvostručila, dosegla Drinu na zapadu i obuhvatila”                                           |
+| 108 | grammar     | „u kuću Balšića, vladare Zete” → „u kuću Balšića, vladara Zete”                                                                                                                                                       |
+| 108 | grammar     | „Vladajući novi prostor, Lazar” → „Vladajući novim prostorom, Lazar”                                                                                                                                                  |
+| 108 | orthography | „takozvane Moravske škole” → „takozvane moravske škole”                                                                                                                                                               |
+| 109 | grammar     | „Bitka je, kao što je u kasnijim danima ovog poglavlja podrobnije obrađeno, završila teško” → „Bitka se, kao što će u kasnijim danima ovog poglavlja biti podrobnije obrađeno, završila teško”                        |
+| 109 | grammar     | „bitke se nisu sastojale od smrti svih komandanata” → „u bitkama nisu ginuli svi zapovednici”                                                                                                                         |
+| 109 | grammar     | „O samom razvoju kosovskog mita i njegove unutrašnje logike” → „O samom razvoju kosovskog mita i njegovoj unutrašnjoj logici”                                                                                         |
+| 110 | orthography | „Zeta koju su naslijedili” → „Zeta koju su nasledili”                                                                                                                                                                 |
+| 110 | grammar     | „Ulazio je u brak sa Jelenom, kćerkom” → „Oženio se Jelenom, kćerkom”                                                                                                                                                 |
+| 110 | de-tick     | „Za sada je dovoljno reći da su Balšići bili prvi” → „Za sada je bitno to što su Balšići bili prvi”                                                                                                                   |
+| 111 | grammar     | „Murad I i prodor u Balkan” → „Murad I i prodor na Balkan”                                                                                                                                                            |
+| 111 | grammar     | „pretvorilo u sistemsko širenje” → „pretvorilo u sistematsko širenje”                                                                                                                                                 |
+| 111 | grammar     | „Vuk Branković — pristajali su na sultanovu” → „Vuk Branković — pristajao je na sultanovu”                                                                                                                            |
+| 111 | grammar     | „jedan od malobrojnih krupnih hrišćanskih vladara koji je još uvek pokušavao” → „jedan od malobrojnih krupnih hrišćanskih vladara koji su još uvek pokušavali”                                                        |
+| 111 | grammar     | „bili su država u usponu” → „bile su država u usponu”                                                                                                                                                                 |
+| 112 | grammar     | „oboružani sabljom” → „naoružani sabljom”                                                                                                                                                                             |
+| 112 | de-tick     | „ovde je dovoljno reći da je završena srpskom pobedom i da je u Lazaru, koliko se može pretpostaviti, ojačala uverenje” → „završena je srpskom pobedom i u Lazaru je, koliko se može pretpostaviti, ojačalo uverenje” |
+| 112 | grammar     | „nije pao s neba — bio je to ishod” → „nije palo s neba — bilo je to ishod”                                                                                                                                           |
+| 113 | grammar     | „vojske braće Mrnjavčević,” → „vojske braće Mrnjavčevića,”                                                                                                                                                            |
+| 113 | grammar     | „vođena u relativno povoljnom terenu” → „vođena na relativno povoljnom terenu”                                                                                                                                        |
+| 113 | grammar     | „po uzoru na Marice ili Kosovo” → „po uzoru na Maricu ili Kosovo”                                                                                                                                                     |
+| 113 | grammar     | „u toplicom kraju” → „u topličkom kraju”                                                                                                                                                                              |
+| 113 | grammar     | „platio cenu te pobede — što je njegova zemlja postala glavni cilj” → „platio cenu te pobede — njegova zemlja postala je glavni cilj”                                                                                 |
+| 114 | grammar     | „odbijeni prepadi, pa pre svega” → „odbijeni prepadi, a pre svega”                                                                                                                                                    |
+| 114 | grammar     | „dok je Lazarova vojska bila tešnja” → „dok je Lazareva vojska bila zbijenija”                                                                                                                                        |
+| 114 | grammar     | „vezujemo za uoči Kosova” → „vezujemo za dane uoči Kosova”                                                                                                                                                            |
+| 115 | grammar     | „Pojedinost o tome ko je taj čovek” → „Pojedinosti o tome ko je taj čovek”                                                                                                                                            |
+| 115 | de-tick     | „Ovde je dovoljno reći da je sultan zaista poginuo” → „Ovde je bitno samo to da je sultan zaista poginuo”                                                                                                             |
+| 115 | grammar     | „Sa Kosovog polja vratio se” → „Sa Kosova polja vratio se”                                                                                                                                                            |
+| 115 | grammar     | „kojim su redom činovi pali” → „kojim su se redom događaji smenjivali”                                                                                                                                                |
+| 116 | grammar     | „na bojnom polju, u sečivu konjičkog naleta” → „na bojnom polju, pod sečivom konjičkog naleta”                                                                                                                        |
+| 116 | de-tick     | „ovde je dovoljno reći da je porodica održala kontinuitet” → „za sada je važno da je porodica održala kontinuitet”                                                                                                    |
+| 117 | grammar     | „Da bi se prema njemu odnelo pošteno” → „Da bi se prema njemu postupilo pošteno”                                                                                                                                      |
+| 117 | grammar     | „Da ga je ubio jedan srpski plemić” → „U tome da ga je ubio jedan srpski plemić”                                                                                                                                      |
+| 117 | grammar     | „diže zdravicu i optuži Miloša” → „diže zdravicu i optužuje Miloša”                                                                                                                                                   |
+| 117 | grammar     | „gotovo siluet —” → „gotovo silueta —”                                                                                                                                                                                |
+| 118 | grammar     | „uloga za koju savremeni istoričari pokazuju” → „uloga za koju današnji istoričari pokazuju”                                                                                                                          |
+| 118 | grammar     | „bila je, koliko izvori dopuštaju da se kaže, nerešen ili teško izvojevan osmanski uspeh” → „bila je, koliko izvori dopuštaju da se kaže, bez jasnog pobednika ili teško izvojevan osmanski uspeh”                    |
+| 118 | orthography | „a sama Osmanska država tada” → „a sama osmanska država tada”                                                                                                                                                         |
+| 119 | grammar     | „Milica, Lazareva žena i potomak Nemanjića” → „Milica, Lazareva žena i potomkinja Nemanjića”                                                                                                                          |
+| 120 | grammar     | „gledala u Srbe sa mešavinom” → „gledala na Srbe sa mešavinom”                                                                                                                                                        |
+| 120 | grammar     | „oba kao vazalni vladari” → „obojica kao vazalni vladari”                                                                                                                                                             |
+| 120 | de-tick     | „Pošteno ga je shvatiti hladnokrvno.” → „Treba ga shvatiti hladnokrvno.”                                                                                                                                              |
+| 121 | grammar     | „Kada su anadolski emiri zbačeni od strane Bajazita potražili” → „Kada su anadolski emiri koje je Bajazit zbacio potražili”                                                                                           |
+| 121 | grammar     | „koliko god od nje sačuvano” → „koliko god je od nje sačuvano”                                                                                                                                                        |
+| 121 | grammar     | „s kojim se moralo razgovarati, a ne komandovati” → „s kojim se moralo razgovarati, a kome se nije moglo komandovati”                                                                                                 |
+| 122 | grammar     | „sposobnost da se sa porazom nosi bez panike — ostavili su na njega” → „sposobnost da se sa porazom nosi bez panike — ostavilo je na njega”                                                                           |
+| 122 | grammar     | „nijedan od njih nije ju primio” → „nijedan od njih nije je primio”                                                                                                                                                   |
+| 122 | grammar     | „Vizantija Paleologa više nije bilo u stanju” → „Vizantija Paleologa više nije bila u stanju”                                                                                                                         |
+| 123 | grammar     | „čuvana je ranija ranžirana hijerarhija” → „čuvana je ranija stepenasta hijerarhija”                                                                                                                                  |
+| 123 | grammar     | „oko njega su stajala sabori” → „oko njega su stajali sabori”                                                                                                                                                         |
+| 123 | grammar     | „despota Stefana” iz oko 1412. godine” → „despota Stefana”, donetim oko 1412. godine”                                                                                                                                 |
+| 124 | orthography | „mnogo šire od same despotovine” → „mnogo šire od same Despotovine”                                                                                                                                                   |
+| 125 | orthography | „pokrovitelj Manasije i Resavske škole"” → „pokrovitelj Manasije i resavske škole"”                                                                                                                                   |
+| 125 | orthography | „pokrovitelja Manasije i Resavske škole,” → „pokrovitelja Manasije i resavske škole,”                                                                                                                                 |
+| 125 | orthography | „poznat kao Resavska škola:” → „poznat kao resavska škola:”                                                                                                                                                           |
+| 125 | grammar     | „beogradske bedeme, Resavska škola” → „beogradski bedemi, resavska škola”                                                                                                                                             |
+| 125 | orthography | „nadživelo je i njega i despotovinu” → „nadživelo je i njega i Despotovinu”                                                                                                                                           |
+| 125 | grammar     | „ugarski i budući car Sigismund” → „ugarski kralj i budući car Sigismund”                                                                                                                                             |
+| 125 | grammar     | „držao do etikecije” → „držao do etikete”                                                                                                                                                                             |
+| 125 | orthography | „upućeno, po jednom tumačenju bratu Vuku” → „upućeno, po jednom tumačenju, bratu Vuku”                                                                                                                                |
+| 125 | grammar     | „koliko god je moglo, bez” → „koliko god je bilo moguće, bez”                                                                                                                                                         |
+| 126 | grammar     | „ali ga nije mogao zauvek otkupiti” → „ali ga nije moglo zauvek otkupiti”                                                                                                                                             |
+| 127 | grammar     | „a od više godina ranije za naslednika je određen” → „a više godina ranije za naslednika je bio određen”                                                                                                              |
+| 127 | grammar     | „da računa pre nego da naređuje” → „da računa pre nego što naredi”                                                                                                                                                    |
+| 127 | orthography | „izdanka i Nemanjićkog i Lazarevićkog kruga” → „izdanka i nemanjićkog i lazarevićkog kruga”                                                                                                                           |
+| 127 | orthography | „Tako je nova despotovina, već” → „Tako je nova Despotovina, već”                                                                                                                                                     |
+| 127 | grammar     | „moglo nadzirati i reka i put” → „moglo nadzirati i reku i put”                                                                                                                                                       |
+| 127 | grammar     | „vlast u Edirnu i njegova” → „vlast u Jedrenu i njegova”                                                                                                                                                              |
+| 127 | grammar     | „između Budima i Edirna kao” → „između Budima i Jedrena kao”                                                                                                                                                          |
+| 128 | orthography | „bio središte despotovine, sada” → „bio središte Despotovine, sada”                                                                                                                                                   |
+| 128 | orthography | „postalo prestonica despotovine i ostalo” → „postalo prestonica Despotovine i ostalo”                                                                                                                                 |
+| 128 | orthography | „na sigurnom, despotovina se posle” → „na sigurnom, Despotovina se posle”                                                                                                                                             |
+| 128 | grammar     | „u vreme kada je despot u izgnanstvu” → „u vreme kada je despot bio u izgnanstvu”                                                                                                                                     |
+| 128 | grammar     | „zato što je bila stranac, žena” → „zato što je bila strankinja, žena”                                                                                                                                                |
+| 128 | orthography | „i poslednja desetljeća svoje” → „i poslednje decenije svoje”                                                                                                                                                         |
+| 129 | grammar     | „oko pet stotina, a unutar zidina je sklopljeno nešto više” → „oko pet stotina; unutar zidina obuhvaćeno je nešto više”                                                                                               |
+| 129 | grammar     | „vremena, uporedo sa najznačajnijim evropskim” → „vremena, uz bok najznačajnijim evropskim”                                                                                                                           |
+| 129 | orthography | „mada pojedini istraživači sporeći se oko pojedinih slova predlažu” → „mada pojedini istraživači, sporeći se oko nekih slova, predlažu”                                                                               |
+| 129 | grammar     | „koju su Nemci skladištili u tvrđavi;” → „koju su Nemci tu skladištili;”                                                                                                                                              |
+| 130 | grammar     | „Đurađ se nije morao opredeliti između dve sile zato što je tako želeo, već zato što ga obe nisu puštale.” → „Đurađ nije stajao između dve sile zato što je tako želeo, već zato što ga nijedna nije puštala.”        |
+| 130 | grammar     | „Đurađ unutar sebe gledao” → „Đurađ u sebi gledao”                                                                                                                                                                    |
+| 130 | orthography | „Matije Korvina 1458., gledali” → „Matije Korvina 1458, gledali”                                                                                                                                                      |
+| 130 | orthography | „prerastao je 1448., posle” → „prerastao je 1448, posle”                                                                                                                                                              |
+| 130 | grammar     | „oprezno klimanje na osmansku stranu” → „oprezno naginjanje osmanskoj strani”                                                                                                                                         |
+| 131 | grammar     | „da pređe u Ugarsku, sačuva blago” → „da pređe u Ugarsku i sačuva blago”                                                                                                                                              |
+| 131 | grammar     | „da na zidinama nema vladara, samo njegovog sina” → „da na zidinama nije vladar, nego samo njegov sin”                                                                                                                |
+| 131 | grammar     | „pokušaji da iz Sirmijuma organizuje” → „pokušaji da iz Srema organizuje”                                                                                                                                             |
+| 132 | grammar     | „ona je očevim ljudima ostavljala kanal” → „ona je očevim ljudima održavala kanal”                                                                                                                                    |
+| 133 | grammar     | „ali je sultana Murada II naterao za pregovarački sto” → „ali je sultana Murada II naterao da sedne za pregovarački sto”                                                                                              |
+| 133 | orthography | „i, na kratko, obnovio” → „i, nakratko, obnovio”                                                                                                                                                                      |
+| 133 | grammar     | „posle bitke kod Kosova 1448. godine” → „posle bitke na Kosovu 1448. godine”                                                                                                                                          |
+| 133 | grammar     | „Razlozi su bili više —” → „Razloga je bilo više —”                                                                                                                                                                   |
+| 134 | grammar     | „naslednik Murata II, u trenutku opsade jedva navršio” → „naslednik Murata II, koji je u trenutku opsade jedva navršio”                                                                                               |
+| 134 | grammar     | „koji su grčki izbeglice dale” → „koji su grčke izbeglice dale”                                                                                                                                                       |
+| 135 | orthography | „hiljadugodišnjeg vizantijskog carstva” → „hiljadugodišnjeg Vizantijskog carstva”                                                                                                                                     |
+| 135 | grammar     | „dok savremena istoriografija najčešće” → „dok današnja istoriografija najčešće”                                                                                                                                      |
+| 135 | grammar     | „a zatim ih jurišem preuzeti” → „a zatim grad zauzeti jurišem”                                                                                                                                                        |
+| 135 | grammar     | „metodično, kao na carigradski način” → „metodično, kao nekad pod Carigradom”                                                                                                                                         |
+| 135 | orthography | „ugarski brodovi i kapistranovi krstaši” → „ugarski brodovi i Kapistranovi krstaši”                                                                                                                                   |
+| 135 | orthography | „sa nešto kapistranovih krstaša” → „sa nešto Kapistranovih krstaša”                                                                                                                                                   |
+| 135 | grammar     | „manje organizovano nego planski” → „više stihijski nego planski”                                                                                                                                                     |
+| 136 | grammar     | „bar jednom je gubio.” → „bar jednom je izgubio.”                                                                                                                                                                     |
+| 136 | grammar     | „uplitao se u to nemirno raspleto stanje koliko” → „uplitao se u te nemirne prilike koliko”                                                                                                                           |
+| 136 | orthography | „između dva gospodara, sada nije imala” → „između dva gospodara sada nije imala”                                                                                                                                      |
+| 136 | grammar     | „i Budimu i Adrijanopolju” → „i Budimu i Jedrenu”                                                                                                                                                                     |
+| 137 | grammar     | „despotovina je nasledila državu i nasledila brigu” → „naslednici su nasledili i državu i brigu”                                                                                                                      |
+| 137 | grammar     | „je prešlo tri vladara” → „su prešla tri vladara”                                                                                                                                                                     |
+| 137 | orthography | „Stefan Slijepi i kraj u Smederevu"” → „Stefan Slepi i kraj u Smederevu"”                                                                                                                                             |
+| 137 | orthography | „upamćen kao Stefan Slijepi.” → „upamćen kao Stefan Slepi.”                                                                                                                                                           |
+| 137 | orthography | „je shvatio da iznutra podeljen i izvan svake delotvorne pomoći nije u stanju” → „je shvatio da, iznutra podeljen i izvan svake delotvorne pomoći, nije u stanju”                                                     |
+| 138 | grammar     | „visoke položaje u Porti” → „visoke položaje na Porti”                                                                                                                                                                |
+| 138 | grammar     | „Sa tih dvadesetak letnjih dana 1459.” → „Tih dvadesetak letnjih dana 1459.”                                                                                                                                          |
+| 139 | grammar     | „sustigla je i njenog zapadnog suseda” → „sustigla je i srpskog zapadnog suseda”                                                                                                                                      |
+| 139 | orthography | „Posljednji bosanski kralj” → „Poslednji bosanski kralj”                                                                                                                                                              |
+| 139 | grammar     | „Bio je iz roda koji je već gubio jednu krunu i sada nasleđivao drugu.” → „Bio je čovek koji je već izgubio jednu krunu i sada nasleđivao drugu.”                                                                     |
+| 139 | orthography | „jače prisustvo katoličke crkve” → „jače prisustvo Katoličke crkve”                                                                                                                                                   |
+| 139 | grammar     | „Sa krvavim činom kod Jajca prestala” → „Krvavim činom kod Jajca prestala”                                                                                                                                            |
+| 139 | grammar     | „ravnica koja sledećih dva veka” → „ravnica koja sledeća dva veka”                                                                                                                                                    |
+| 140 | grammar     | „prestonicu je preneo u Cetinje” → „prestonicu je preneo na Cetinje”                                                                                                                                                  |
+| 140 | grammar     | „Ivan je u Cetinju podigao” → „Ivan je na Cetinju podigao”                                                                                                                                                            |
+| 140 | grammar     | „u Cetinje je doveo štampariju” → „na Cetinje je doveo štampariju”                                                                                                                                                    |
+| 141 | grammar     | „preseljen u Cetinje” → „preseljen na Cetinje”                                                                                                                                                                        |
+| 141 | grammar     | „knjiga preraslo zanatska, na nivou” → „knjiga prevazišla puki zanat, na nivou”                                                                                                                                       |
+| 141 | grammar     | „Prva je bio „Oktoih prvoglasnik”” → „Prvi je bio „Oktoih prvoglasnik””                                                                                                                                               |
+| 141 | grammar     | „broj od pet knjiga drže se kao pouzdan” → „broj od pet knjiga smatraju se pouzdanim”                                                                                                                                 |
+| 141 | grammar     | „zaglavlja ozbiljna i merna” → „zaglavlja ozbiljna i odmerena”                                                                                                                                                        |
+| 141 | grammar     | „potom putuje na razne strane” → „potom je putovao na razne strane”                                                                                                                                                   |
+| 142 | grammar     | „prešao je kralju Matiji, ali je vukao staro despotsko poreklo” → „prešao je kralju Matiji, a vukao je staro despotsko poreklo”                                                                                       |
+| 142 | grammar     | „pred kojim se srpski izbeglice, naseljeni duž granice” → „pred kojim se srpske izbeglice, naseljene duž granice”                                                                                                     |
+| 142 | grammar     | „Tačan razmer njegovih pohoda” → „Tačne razmere njegovih pohoda”                                                                                                                                                      |
+| 142 | grammar     | „sa nekim stvarnim oslonom na zemlju” → „sa nekim stvarnim osloncem na zemlju”                                                                                                                                        |
+| 143 | grammar     | „imali su čisti interes” → „imali su jasan interes”                                                                                                                                                                   |
+| 143 | grammar     | „biće mnogo bolje dokumentovana, i njoj” → „biće mnogo bolje dokumentovane, i njoj”                                                                                                                                   |
+| 144 | grammar     | „godine pao Smederevo” → „godine palo Smederevo”                                                                                                                                                                      |
+| 144 | grammar     | „Ali jedna stvar načelno priznata nije značila i sređena praksa.” → „Ali ono što je načelno priznato nije još bilo i sređena praksa.”                                                                                 |
+| 145 | orthography | „najveći deo dušanovog carstva” → „najveći deo Dušanovog carstva”                                                                                                                                                     |
+| 145 | grammar     | „U Moravi je preuzet i prerađen, postao je gotovo” → „U Pomoravlju je preuzet i prerađen i postao je gotovo”                                                                                                          |
+| 145 | orthography | „jer je osmanlijska opasnost” → „jer je osmanska opasnost”                                                                                                                                                            |
+| 145 | grammar     | „(između oko 1388. i 1405. godine)” → „(otprilike između 1388. i 1405. godine)”                                                                                                                                       |
+| 145 | grammar     | „sa svetiteljima čije lice ima portretsku prisutnost” → „sa svetiteljima čija lica imaju portretsku prisutnost”                                                                                                       |
+| 145 | orthography | „pod jasnom sviješću da” → „pod jasnom svešću da”                                                                                                                                                                     |
+| 145 | orthography | „od osmanlijskih upada i, kasnije, redovne osmanlijske vojske” → „od osmanskih upada i, kasnije, redovne osmanske vojske”                                                                                             |
+| 145 | orthography | „već u osmanlijskoj državi” → „već u osmanskoj državi”                                                                                                                                                                |
+| 146 | orthography | „u istom razdoblju novi monaški pojas — manastiri Fruške gore:” → „u istom razdoblju novi monaški pojas: manastiri Fruške gore:”                                                                                      |
+| 146 | orthography | „na Svetoj gori, Hilandar” → „na Svetoj Gori, Hilandar”                                                                                                                                                               |
+| 147 | grammar     | „Sačuvane su desetine, u svim zbirkama zajedno i stotine” → „Sačuvane su desetine, a u svim zbirkama zajedno i stotine”                                                                                               |
+| 147 | orthography | „samo onih koji su slušali da nije bilo” → „samo onih koji su slušali, da nije bilo”                                                                                                                                  |
+| 148 | de-tick     | „Pošteno nabrajanje onoga” → „Mirno nabrajanje onoga”                                                                                                                                                                 |
+| 148 | grammar     | „odatle će potom izrasti uticajne porodice u osmanskoj službi.” → „odatle će potom izrasti uticajne porodice osmanske elite.”                                                                                         |
+| 149 | grammar     | „Sve to je zaista presekano.” → „Sve to je zaista presečeno.”                                                                                                                                                         |
+| 149 | orthography | „od Skopske oblasti do Budima” → „od skopske oblasti do Budima”                                                                                                                                                       |
+| 149 | grammar     | „ali u srednjoj srpskoj pravoslavnoj sredini” → „ali u središnjoj srpskoj pravoslavnoj sredini”                                                                                                                       |
+| 149 | orthography | „kakav je bio i u Nemanjićko doba” → „kakav je bio i u nemanjićko doba”                                                                                                                                               |
+| 150 | grammar     | „potom carstvo, potom raspala se na oblasti, i najzad svedena na malu severnu despotovinu” → „potom carstvo, potom se raspala na oblasti i najzad svela na malu severnu Despotovinu”                                  |
+| 150 | grammar     | „nikada se nije potpuno oporavila i okončala je 1453. svojom poslednjom opsadom” → „nikada se nije potpuno oporavila i okončala se 1453. svojom poslednjom opsadom”                                                   |
 
 ## Suspected facts (not changed)
+
 - 108: „Carstvo cara Uroša, već decenijama samo formalna ljuska” — Dušan died 1355, Uroš 1371 (16 years); „decenijama” overstates.
 - 112: „Balša je krenuo da povrati Drač, koji je nedavno bio zauzeo” — contradictory (recover a town he had just taken); 110 says he „ulazi u Drač”.
 - 112: „Tokom petnaest godina između Marice i Kosova” — 1371→1389 is 18 years.
@@ -195,6 +198,7 @@
 - 137 `keyPeople` still lists „Stefan Slijepi” (field outside my editable set); body now reads „Stefan Slepi”.
 
 ## Lessons that read weak
+
 - 106: body cross-referenced „naredni dani ove knjige” (fixed to „ovog kursa”); otherwise solid.
 - 108: closing sentence „onaj kome se, ako se uopšte iko sabira, sabira” is opaque; left as stylistic.
 - 121: closing comparison with a storm scattering a fleet off „britanskim ostrvom” is strained and reads like an unfinished analogy.

@@ -3,7 +3,12 @@ import { fileURLToPath } from 'node:url';
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 
 import { migrateAtStartup, resetMigrationState } from '@/lib/server/db/migrate';
-import { AUTH_ON_PGLITE, AUTH_ON_UNREACHABLE, resetDbConnection, stubServerEnv } from '@/test/serverEnv';
+import {
+  AUTH_ON_PGLITE,
+  AUTH_ON_UNREACHABLE,
+  resetDbConnection,
+  stubServerEnv,
+} from '@/test/serverEnv';
 
 import { GET } from './route';
 

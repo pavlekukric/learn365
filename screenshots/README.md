@@ -37,22 +37,22 @@ Image folders are git-ignored; this README is committed.
 
 For each viewport (file pattern `<viewport>-<slug>.png`):
 
-| Slug                                  | What it shows                                       |
-| ------------------------------------- | --------------------------------------------------- |
-| `home`                                | Home / hero, fresh session ("Počni kurs" CTA)        |
-| `home-with-progress`                  | Home after 2 lessons completed ("Nastavi" state)    |
-| `course-overview`                     | Course overview, fresh session                      |
-| `course-overview-with-progress`       | Course overview with 3 lessons completed            |
-| `lesson-001`                          | Day 001 lesson (era I, "Praistorija i antika")      |
-| `lesson-031-nemanjici`                | Day 031 lesson (era II, "Nemanjići") — era variety  |
-| `lesson-007-completed`                | Lesson reader after completion (button = "Pročitano") |
-| `not-found`                           | 404 page                                            |
+| Slug                            | What it shows                                         |
+| ------------------------------- | ----------------------------------------------------- |
+| `home`                          | Home / hero, fresh session ("Počni kurs" CTA)         |
+| `home-with-progress`            | Home after 2 lessons completed ("Nastavi" state)      |
+| `course-overview`               | Course overview, fresh session                        |
+| `course-overview-with-progress` | Course overview with 3 lessons completed              |
+| `lesson-001`                    | Day 001 lesson (era I, "Praistorija i antika")        |
+| `lesson-031-nemanjici`          | Day 031 lesson (era II, "Nemanjići") — era variety    |
+| `lesson-007-completed`          | Lesson reader after completion (button = "Pročitano") |
+| `not-found`                     | 404 page                                              |
 
 Mobile-only extra shot:
 
-| Slug                                  | What it shows                                       |
-| ------------------------------------- | --------------------------------------------------- |
-| `lesson-001-sadrzaj-drawer`           | Lesson reader with "Sadržaj" drawer open            |
+| Slug                        | What it shows                            |
+| --------------------------- | ---------------------------------------- |
+| `lesson-001-sadrzaj-drawer` | Lesson reader with "Sadržaj" drawer open |
 
 One PNG per `test(...)` in `capture.spec.ts` per viewport. The former placeholder shot is gone: every lesson is authored (since 2026-05-19).
 
